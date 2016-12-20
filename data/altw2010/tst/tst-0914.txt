@@ -1,0 +1,68 @@
+In der Theorie elektrischer Netzwerke besagt das '''Thévenin-Theorem''' (auch '''Helmholtz-Thévenin-Theorem'''), dass jede mögliche Kombination von Widerständen bezüglich zweier Klemmen elektrisch äquivalent zu einer Reihenschaltung aus einer Spannungsquelle und einem Widerstand ''R'' ist. Diese Ersatzschaltung wird '''Thévenin-Äquivalent''' oder im deutschen Sprachraum '''Ersatzspannungsquelle''' genannt. Dieses Theorem wird zum Beispiel zur Vereinfachung in der Schaltkreisanalyse verwendet.
+
+frame|right| Jede elektrische Schaltung, die ausschließlich aus Spannungsquellen, Stromquellen und Widerständen besteht, kann in ein Thévenin-Äquivalent umgewandelt werden.
+
+== Berechnung des Thévenin-Äquivalents ==
+Das ''Thévenin-Äquivalent'' besteht aus einem Widerstand ''R<sub>Th</sub>'' und einer Spannungsquelle ''U<sub>Th</sub>''. Um die zwei Unbekannten ''R<sub>Th</sub>'' und ''U<sub>Th</sub>'' zu bestimmen, benötigt man zwei Gleichungen. Diese Gleichungen können auf verschiedene Art und Weise erstellt werden. Meistens gebraucht man jedoch folgende: 
+
+*Die Ausgangsspannung ''U<sub>AB</sub>'' bei offenen Klemmen A-B, d.&nbsp;h. ohne Lastwiderstand, bestimmen. Diese Leerlaufspannung ist die Thévenin-Äquivalentspannung ''U<sub>Th</sub>''.
+
+Um den Thévenin-Äquivalentwiderstand ''R<sub>Th</sub>'' zu bestimmen, benutzt man meistens eine der drei folgenden Methoden:
+*Man ersetzt alle Spannungsquellen durch Kurzschlüsse (behält jedoch die Innenwiderstände) und streicht alle Stromquellen (d. h. man ersetzt sie durch Open Circuits bzw. Unterbrechungen). Dann berechnet man den Ersatzwiderstand. Dieser ist gleich dem Thévenin-Äquivalentwiderstand.
+*Wenn man den Kurzschlussstrom ''I<sub>AB</sub>'' kennt, benutzt man das Ohmsche Gesetz, um ''R<sub>Th</sub>'' zu bestimmen: 
+
+:<math>R_\mathrm{Th} = {U_\mathrm{Th} \over I_\mathrm{AB}} \,</math>
+
+* Man schließt einen Widerstand mit bekanntem Wert an A-B an. Mit Hilfe des Spannungsteilergesetzes kann man dann den Thévenin-Äquivalentwiderstand ''R<sub>Th</sub>'' bestimmen.
+: Eine geläufige Variante dieser Methode ist die der ''Halb-Spannung'': Man schließt einen veränderbaren Widerstand (ein Potentiometer) an A-B an und misst die Spannung. Dann variiert man den Wert des veränderbaren Widerstandes, bis man die Hälfte der Leerlaufspannung ''U<sub>Th</sub>'' über A-B misst. Der veränderliche Widerstand ist dann gleich dem Thévenin-Äquivalentwiderstand ''R<sub>Th</sub>''.
+
+== Beweis des Thévenin-Theorems ==
+Der Beweis des Thévenin-Theorems basiert auf dem Überlagerungsprinzip.
+
+== Umsetzung zwischen Norton- und Thévenin-Äquivalent ==
+frame|right| Norton-Thévenin-Äquivalent-Umwandlung
+
+In electrical circuit theory, '''Thévenin's theorem''' for linear impedances, not just resistors. The theorem was first discovered by German scientist Léon Charles Thévenin (1857-1926).
+
+This theorem states that a circuit of voltage sources and resistors can be converted into a '''Thévenin equivalent''',  which is a simplification technique used in circuit analysis. The Thévenin equivalent can be used as a good model for a power supply or battery (with the resistor representing the internal impedance and the source representing the electromotive force).  The circuit consists of an ideal voltage source in series with an ideal resistor.
+
+frame|right| Any [[Black box (systems)|black box containing only voltage sources, current sources, and other resistors can be converted to a Thévenin equivalent circuit, comprised of exactly one voltage source and one resistor. ]]
+
+==Calculating the Thévenin equivalent==
+
+To calculate the equivalent circuit, one needs a resistance and some voltage - two unknowns. And so, one needs  two equations. These two equations are usually obtained by using the following steps, but any conditions one places on the terminals of the circuit should also work:
+
+# Calculate the output voltage, ''V''<sub>AB</sub>, when in load resistor - meaning infinite resistance). This is ''V''<sub>Th</sub>.
+# Calculate the output current, ''I''<sub>AB</sub>, when those leads are  short circuited (load resistance is 0). ''R''<sub>Th</sub> equals ''V''<sub>Th</sub> divided by this ''I''<sub>AB</sub>.
+* The equivalent circuit is a voltage source with voltage ''V''<sub>Th</sub> in series with a resistance ''R''<sub>Th</sub>. 
+
+Step 2 could also be thought of like this: 
+:2a. Now replace voltage sources with short circuits and current sources with open circuits.
+:2b. Replace the load circuit with an imaginary ohm meter and measure the total resistance, ''R'', "looking back" into the circuit. This is ''R''<sub>Th</sub>.
+
+The Thévenin-equivalent voltage is the voltage at the output terminals of the original circuit.  When calculating a Thévenin-equivalent voltage, the voltage divider principle is often useful, by declaring one terminal to be ''V''<sub>out</sub> and the other terminal to be at the ground point.
+
+The Thévenin-equivalent resistance is the resistance measured across points A and B "looking back" into the circuit.  It is important to first replace all voltage- and current-sources with their internal resistances.  For an ideal voltage source, this means replace the voltage source with a short circuit. For an ideal current source, this means replace the current source with an open circuit. Resistance can then be calculated across the terminals using the formulae for series and parallel circuits.
+
+===Example===
+
+{|
+|framed|left|Step 0: The original circuit || framed|right|Step 1: Calculating the equivalent output voltage || framed|right|Step 2: Calculating the equivalent resistance
+|}
+framed|right|Step 3: The equivalent circuit
+
+In the example, calculating equivalent voltage:
+
+:<math>
+V_\mathrm{AB}
+= {R_2 + R_3 \over (R_2 + R_3) + R_4} \cdot V_\mathrm{1}
+</math>
+
+::<math>
+= {1\,\mathrm{k}\Omega + 1\,\mathrm{k}\Omega \over (1\,\mathrm{k}\Omega + 1\,\mathrm{k}\Omega) + 2\,\mathrm{k}\Omega} \cdot 15 \mathrm{V}
+</math>
+
+::<math>
+= {1 \over 2} \cdot 15 \mathrm{V} = 7.5 \mathrm{V}
+</math>
+(notice that ''R''<sub>1</sub> is not taken into consideration, as above calculations are done in an open circuit condition between A and B, therefore no current flows through this part which means there is no current through R<sub>1</sub> and therefore no voltage drop along this part)

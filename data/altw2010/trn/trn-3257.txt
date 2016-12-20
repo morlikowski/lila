@@ -1,0 +1,201 @@
+'''ISO 3166-2:GE''' adalah sebuah standar ISO yang mendefinisikan kode internasional: kode ini merupakan bagian dari ISO 3166-2 yang ditujukan kepada negara Georgia. Setiap dua bagian kode mencakup kode ISO 3166-1 untuk Georgia ('''GE''') dan sebuah sub-kode 2 karakter.
+
+== Laporan Berkala ==
+* ISO 3166-2:2002-12-10
+
+== Kode-Kode ==
+{| width="100%" style="white-space:nowrap;"
+|- style="vertical-align:top;"
+|
+{| align="left"
+|+ Urutan berdasarkan Kode
+|-
+! <code>GE-AB</code>
+| Abkhazia
+|-
+! <code>GE-AJ</code>
+| Adjara
+|-
+! <code>GE-GU</code>
+| Guria
+|-
+! <code>GE-IM</code>
+| Imereti
+|-
+! <code>GE-KA</code>
+| Kakheti
+|-
+! <code>GE-KK</code>
+| Kvemo Kartli
+|-
+! <code>GE-MM</code>
+| Mtskheta-Mtianeti
+|-
+! <code>GE-RL</code>
+| Racha-Lechkhumi dan Kvemo Svaneti
+|-
+! <code>GE-SJ</code>
+| Samtskhe-Javakheti
+|-
+! <code>GE-SK</code>
+| Shida Kartli
+|-
+! <code>GE-SZ</code>
+| Samegrelo-Zemo Svaneti
+|-
+! <code>GE-TB</code>
+| Tbilisi
+|}
+|
+{| align="right"
+|+ Urutan berdasarkan Nama
+|-
+! colspan="2" style="background-color:silver;" | Republik Otonomi
+|-
+! Abkhazia
+| <code>GE-AB</code>
+|-
+! Adjara
+| <code>GE-AJ</code>
+|-
+! colspan="2" style="background-color:silver;" | Kota
+|-
+! Tbilisi
+| <code>GE-TB</code>
+|-
+! colspan="2" style="background-color:silver;" | Daerah
+|-
+! Guria
+| <code>GE-GU</code>
+|-
+! Imereti
+| <code>GE-IM</code>
+|-
+! Kakheti
+| <code>GE-KA</code>
+|-
+! Kvemo Kartli
+| <code>GE-KK</code>
+|-
+! Mtskheta-Mtianeti
+| <code>GE-MM</code>
+|-
+! Racha-Lechkhumi dan Kvemo Svaneti
+| <code>GE-RL</code>
+|-
+! Samegrelo-Zemo Svaneti
+| <code>GE-SZ</code>
+|-
+! Samtskhe-Javakheti
+| <code>GE-SJ</code>
+|-
+! Shida Kartli
+| <code>GE-SK</code>
+|}
+|}
+
+'''ISO 3166-2:GE'''
+is an  ISO standard which defines geocodes: it is the subset of ISO 3166-2 which applies to
+Georgia.
+Each two-part code consists of the ISO 3166-1 code for 
+Georgia ('''GE''')
+and a 2-character sub-code, hyphenated together.
+==Newsletters ==
+* ISO 3166-2:2002-12-10
+* ISO 3166-2:2007-11-28
+
+==Codes ==
+{| width="100%" style="white-space:nowrap;"
+|- style="vertical-align:top;"
+|
+{| align="left"
+|+ Sorted by Code
+|-
+! <code>GE-AB</code>
+| Abkhazia
+|-
+! <code>GE-AJ</code>
+| Ajaria
+|-
+! <code>GE-GU</code>
+| Guria
+|-
+! <code>GE-IM</code>
+| Imeret'i
+|-
+! <code>GE-KA</code>
+| Kakhet'i
+|-
+! <code>GE-KK</code>
+| K'vemo K'art'li
+|-
+! <code>GE-MM</code>
+| Mts'khet'a-Mt'ianet'i
+|-
+! <code>GE-RL</code>
+| Racha-Lech'khumi-K'vemo Svanet'i
+|-
+! <code>GE-SJ</code>
+| Samts'khe-Javakhet'i
+|-
+! <code>GE-SK</code>
+| Shida K'art'li
+|-
+! <code>GE-SZ</code>
+| Samegrelo-Zemo Svanet'i
+|-
+! <code>GE-TB</code>
+| T'bilisi
+|}
+|
+{| align="right"
+|+ Sorted by Name
+|-
+! colspan="2" style="background-color:silver;" | Autonomous republics
+|-
+! Abkhazia
+| <code>GE-AB</code>
+|-
+! Adjara
+| <code>GE-AJ</code>
+|-
+! colspan="2" style="background-color:silver;" | City
+|-
+! Tbilisi
+| <code>GE-TB</code>
+|-
+! colspan="2" style="background-color:silver;" | Regions
+|-
+! Guria
+| <code>GE-GU</code>
+|-
+! Imereti
+| <code>GE-IM</code>
+|-
+! Kakheti
+| <code>GE-KA</code>
+|-
+! Kvemo Kartli
+| <code>GE-KK</code>
+|-
+! Mtskheta-Mtianeti
+| <code>GE-MM</code>
+|-
+! Racha-Lechkhumi and Kvemo Svaneti
+| <code>GE-RL</code>
+|-
+! Samegrelo-Zemo Svaneti
+| <code>GE-SZ</code>
+|-
+! Samtskhe-Javakheti
+| <code>GE-SJ</code>
+|-
+! Shida Kartli
+| <code>GE-SK</code>
+|}
+|}
+
+==See also==
+*ISO 3166-2, the reference table for all country region codes.
+*ISO 3166-1, the reference table for all country codes, as used for domain names on the Internet.
+*Subdivisions of Georgia

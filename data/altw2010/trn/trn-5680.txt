@@ -1,0 +1,148 @@
+In use-def chains are explicit and each contains a single element.
+
+SSA was developed by Barry Rosen, IBM in the 1980s.
+
+In Scheme, ML and Haskell, C. SSA and CPS are formally equivalent, so optimizations and transformations formulated in terms of one immediately apply to the other.
+
+==Benefits==
+The primary usefulness of SSA comes from how it simultaneously simplifies and improves the results of a variety of compiler optimizations, by simplifying the properties of variables. For example, consider this piece of code:
+
+  y := 1
+  y := 2
+  x := y
+
+As humans, we can see that the first assignment is not necessary, and that the value of <code>y</code> being used in the third line comes from the second assignment of <code>y</code>. A program would have to perform reaching definition analysis to determine this. But if the program is in SSA form, both of these are immediate:
+
+  y<sub>1</sub> := 1
+  y<sub>2</sub> := 2
+  x<sub>1</sub> := y<sub>2</sub>
+
+Compiler optimization algorithms which are either enabled or strongly enhanced by the use of SSA include:
+*constant propagation
+*sparse conditional constant propagation
+*dead code elimination
+*global value numbering
+*partial redundancy elimination
+*strength reduction
+*register allocation
+
+==Converting to SSA==
+Converting ordinary code into SSA form is primarily a simple matter of replacing the target of each assignment with a new variable, and replacing each use of a variable with the "version" of the variable reaching that point. For example, consider the following control flow graph:
+
+<center>
+An example control flow graph, before conversion to SSA
+</center>
+
+Notice that we could change the name on the left side of "x <math>\leftarrow</math> x - 3", and change the following uses of <var>x</var> to use that new name, and the program would still do the same thing. We exploit this in SSA by creating two new variables, <var>x</var><sub>1</sub> and <var>x</var><sub>2</sub>, each of which is assigned only once. We likewise give distinguishing subscripts to all the other variables, and we get this:
+
+<center>
+An example control flow graph, partially converted to SSA
+</center>
+
+We've figured out which definition each use is referring to, except for one thing: the uses of <var>y</var> in the bottom block could be referring to ''either'' <var>y</var><sub>1</sub> or <var>y</var><sub>2</sub>, depending on which way the control flow came from. So how do we know which one to use?
+
+The answer is that we add a special statement, called a ''Φ (Phi) function'', to the beginning of the last block. This statement will generate a new definition of <var>y</var>, <var>y</var><sub>3</sub>, by "choosing" either <var>y</var><sub>1</sub> or <var>y</var><sub>2</sub>, depending on which arrow control arrived from:
+
+<center>
+An example control flow graph, fully converted to SSA
+</center>
+
+Now, the uses of <var>y</var> in the last block can simply use <var>y</var><sub>3</sub>, and they'll obtain the correct value either way. You might ask at this point, do we need to add a Φ function for <var>x</var> too? The answer is no; only one version of <var>x</var>, namely <var>x</var><sub>2</sub> is reaching this place, so there's no problem.
+
+A more general question along the same lines is, given an arbitrary control flow graph, how can I tell where to insert Φ functions, and for what variables? This is a difficult question, but one that has an efficient solution that can be computed using a concept called ''dominance frontiers''.
+
+Note: the Φ functions are not actually implemented; instead, they're just markers for the compiler to place the value of all the variables, which are grouped together by the Φ function, in the same location in memory (or same register).
+
+===Computing minimal SSA using dominance frontiers===
+First, we need the concept of a ''dominator'': we say that a node A ''strictly dominates'' a different node B in the control flow graph if it's impossible to reach B without passing through A first. This is useful, because if we ever reach B we know that any code in A has run. We say that A ''dominates'' B if either A strictly dominates B or A = B. 
+
+Now we can define the ''dominance frontier'': a node B is in the dominance frontier of a node A if A does ''not'' strictly dominate B, but does dominate some immediate predecessor of B (possibly A itself if A is the immediate predecessor of B). From A's point of view, these are the nodes at which other control paths, which don't go through A, make their earliest appearance.
+
+<!-- Need an example -->
+
+Dominance frontiers capture the precise places at which we need Φ functions: if the node A defines a certain variable, then that definition and that definition alone (or redefinitions) will reach every node A dominates. Only when we leave these nodes and enter the dominance frontier must we account for other flows bringing in other definitions of the same variable. Moreover, no other Φ functions are needed in the control flow graph to deal with A's definitions, and we can do with no less.
+
+<!-- Describe the algorithm for finding dominance frontiers in the future -->
+
+One algorithm for computing the dominance frontier set is:
+
+ '''for each''' node b
+     '''if''' the number of predecessors of b ≥ 2
+         '''for each''' p '''in''' predecessors of b
+             runner := p
+             '''while''' runner ≠ idom(b)
+                 add b to runner’s dominance frontier set
+                 runner := idom(runner)
+
+Note: in the code above, a predecessor of node n is any node from which control is transferred to node n, and idom(n) is the immediate dominator of node n.
+
+There is an efficient algorithm for finding dominance frontiers of each node. This algorithm was originally described in the paper "Efficiently computing static single assignment form and the control dependence graph", by R. Cytron, J. Ferrante, B. Rosen, M. Wegman and F. Zadeck, ''ACM Trans. on Programming Languages and Systems'' 13(4) 1991 pp.451&ndash;490. Also useful is chapter 19 of the book "Modern compiler implementation in Java" by Andrew Appel (Cambridge University Press, 2002). See the paper for more details.
+
+'''静的単一代入'''（英: '''Static Single Assignment form, SSA'''）形式はuse-def 連鎖が明示的であり、連鎖は要素を一つだけ持つ。
+
+SSA はJeanne Ferrante、Barry Rosen、Mark Wegman、Ken Zadeck および IBM の研究者たちにより1980年代に開発された。
+
+Scheme、ML、Fortran や C などのコンパイラで SSA の利用が期待される箇所で continuation passing style (CPS) を用いるのが一般的である。SSA と CPS は形式的に等価であり、最適化や最適化やコードの変換などがいずれかに施された場合、もう片方にも同様に適用することができる。
+
+==SSA の利点==
+変数の性質を簡単なものにすることにより様々なコンパイラ最適化を簡略化すると同時にその結果を改善することが SSA の第一の利点である。
+
+例として、下記のようなコードを考える。
+
+  y := 1
+  y := 2
+  x := y
+
+人間であれば、最初の代入が不要であり、3行目で使用されている <code>y</code> の値が2行目の代入の結果であることが分かる。これをプログラムで行う場合には、reaching definition analysisにより求める必要がある。しかし、プログラムが静的単一代入形式であれば、いずれも即座に判定可能である。
+
+  y<sub>1</sub> := 1
+  y<sub>2</sub> := 2
+  x<sub>1</sub> := y<sub>2</sub>
+
+SSA を利用することにより、下記のコンパイラ最適化アルゴリズムを実現したり、あるいは改善することができる。
+*定数畳み込み
+*疎な条件分岐を考慮した定数伝播
+*デッドコード削除
+*大域的値番号付け
+*部分冗長性除去
+*強度低減
+*レジスタ割り付け
+
+==SSA への変換==
+ツリー上のコードの SSA 形式への変換は、代入の対象を新たな変数に置き換え、変数の使用箇所をその定義箇所に到達する「バージョン付き」のものに置き換えるだけの基本的に簡潔な問題である。例として、下記のような制御フローグラフを考える。
+
+<center>
+An example control flow graph, before conversion to SSA
+</center>
+
+"x <math>\leftarrow</math> x - 3" の左辺の名前を変え、それ以降 <var>x</var> を新たな名前に変えることができ、それでもプログラムは全く同じ動作をする。このことを利用して、SSA ではそれぞれに対して一度しか代入が行われない新たな二つの変数<var>x</var><sub>1</sub> と <var>x</var><sub>2</sub> を作成する。同様に、全ての変数に対してバージョンを区別するための添え字を与える。
+
+<center>
+An example control flow graph, partially converted to SSA
+</center>
+
+ここで、各々の変数を使用している箇所がどの定義を参照しているかをただ一点を除いて把握している。最後のブロックの <var>y</var> は制御フローのどちらを通るかによって <var>y</var><sub>1</sub> と <var>y</var><sub>2</sub>のどちらを参照するかが異なる。ではこれをどのようにして知るのか？
+
+その答えは、''Φ (ファイ) 関数''と呼ばれる特別な命令を最後のブロックの始めに追加することである。この命令は、どちらの制御フローから到達したのかによって <var>y</var><sub>1</sub> あるいは <var>y</var><sub>2</sub> を選択し <var>y</var> の新たな定義 <var>y</var><sub>3</sub> を生成する。
+
+<center>
+An example control flow graph, fully converted to SSA
+</center>
+
+これにより、最後のブロックの <var>y</var> は <var>y</var><sub>3</sub> を用いることができ、いずれの場合でも正し値を得ることができる。
+<var>x</var> についても Φ 関数を追加する必要があるか？という質問があるかもしれないが、答えは「不要」である。<var>x</var> のバージョンは <var>x</var><sub>2</sub> のみがこの箇所に到達しており、問題にはならない。
+
+より一般的な質問として、任意の制御フローが与えられたとき、どこに、またどの変数に対して Φ 関数を挿入するべきか、という問題がある。これは難しい質問であるが、''支配辺境(dominance frontier) ''と呼ばれる概念を用いて求める優れた方法がある。
+
+ここで、Φ 関数は実際に実装されるものではなく、コンパイラに対して Φ 関数でグループとされる全ての変数の値をメモリやレジスタの同じ場所に配置するよう指示するマーカーである。
+
+===支配辺境を用いた最小 SSA の計算===
+まず、''dominator'' の概念が必要である。制御フローのノード A が別のノード B を ''厳密に支配する'' とき、A に到達しなければ B に到達することがないことを意味する。これは、B に到達していれば A のコードが動作していることが分かるため有用である。また A が B を ''支配する''とき、A が B を厳密に支配するか、A = B であることを意味する。
+
+ここで、''支配辺境(dominance frontier)''を次のように定義することができる。A は B を厳密に支配していないが、B の直前にあるノードのいくつかを支配しているとき( A が B の直前にあれば、A 自身)、ノード B は A の支配辺境内にあるものとする。A から見ると、これらは A を介さず、最初に登場する制御パス上のノードである。
+
+<!-- Need an example -->
+
+支配辺境は Φ 関数を必要とする場所を正確に捉えることができ、その定義のみ（あるいは再定義）が A の支配するノードに到達する。これらのノードを去り支配辺境に入る場合のみ、同じ変数を定義している箇所にそれ以外のフローを考慮すればよい。また、制御フローグラフ中に A の定義を扱う Φ 関数はそれ以上必要ない。
+
+<!-- Describe the algorithm for finding dominance frontiers in the future -->

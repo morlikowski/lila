@@ -1,0 +1,70 @@
+Um '''PBX''' (sigla em inglês de '''''P'''rivate '''B'''ranch E'''x'''change'' ou ainda '''PABX''' para '''''P'''rivate '''A'''utomatic '''B'''ranch E'''x'''change'') cuja tradução seria ''Troca automática de ramais privados'', é um centro de distribuição telefônica pertencente à uma empresa que não inclua como sua atividade o fornecimento de serviços telefônicos ao público em geral.
+
+Atualmente os ''PBX''s são sistemas manuais obsoletos (necessitam um operador), tendo sido substituídos por sistemas automáticos conhecidos como PABX ou telefonia via Internet.
+
+Um telefone doméstico geralmente está conectado diretamente à operadora local de telefonia, podendo realizar chamadas discando o número de destino desejado. Em um ambiente corporativo normalmente existem muito mais ramais do que linhas telefônicas, principalmente devido ao custo, havendo a necessidade de um ponto central para gerenciar e distribuir as chamadas, o que é feito pelo PABX. O equipamento torna-se também um elemento de controle dos usários de ramais, podendo gerenciar permissões de uso individuais ou por grupo.
+
+Para concluir, temos que afirmar que PABX é uma central telefônica onde chegam as linhas da rede pública e saem os ramais para os usuários. Nesta central tambem podem ser conectados o interfone para tocar direto no telefone e muitas outras funções.
+Geralmente quem utiliza as funções do PABX no dia-a-dia são as secretárias, que precisam possuir um aparelho de telefone TI (Terminal Inteligente) para terem acesso a todas as funções da Central Telefonica.
+
+thumb|300px|An Avaya G3R PBX with front cover removed (view from the top).
+
+A '''private branch exchange''' (PBX) is a telephone exchange that serves a particular business or office, as opposed to one that a common carrier or telephone company operates for many businesses or for the general public.  PBXs are also referred to as:
+
+* '''PABX''' - private automatic branch exchange
+* '''EPABX''' - electronic private automatic branch exchange
+
+== Overview ==
+PBXs make connections among the internal telephones of a private organization — usually a business — and also connect them to the public switched telephone network (PSTN) via fax machines, extension" is used to refer to any end point on the branch. 
+
+PBXs are differentiated from "key systems" in that users of key systems manually select their own outgoing lines, while PBXs select the outgoing line automatically. Hybrid systems combine features of both.
+
+Initially, the primary advantage of PBXs was cost savings on internal phone calls: handling the circuit switching locally reduced charges for local phone service. As PBXs gained popularity, they started offering services that were not available in the operator network, such as hunt groups, call forwarding, and extension dialing.  In the 1960s a simulated PBX known as Centrex provided similar features from the central telephone exchange.
+
+Two significant developments during the 1990s led to new types of PBX systems. One was the massive growth of data networks and increased public understanding of packet switching. Companies needed packet switched networks for data, so using them for telephone calls was tempting, and the availability of the Internet as a global delivery system made packet switched communications even more attractive. These factors led to the development of the VoIP PBX. (Technically, nothing was being "exchanged" any more, but the abbreviation PBX was so widely understood that it remained in use.)
+
+The other trend was the idea of focusing on core competence. PBX services had always been hard to arrange for smaller companies, and many companies realized that handling their own telephony was not their core competence. These considerations gave rise to the concept of hosted PBX. In a hosted setup, the PBX is located at and managed by the telephone service provider, and features and calls are delivered via the Internet. The customer just signs up for a service, rather than buying and maintaining expensive hardware. This essentially removes the ''branch'' from the ''private'' premises, moving it to a central location.
+
+== History ==
+thumb|200px|Operator mannequins, Telecommunications Museum, Madrid, Spain
+
+The term PBX was first applied when switchboard operators ran company switchboards by hand. As automated electromechanical and then electronic switching systems gradually began to replace the manual systems, the terms '''PABX''' (private automatic branch exchange) and '''PMBX''' (private manual branch exchange) were used to differentiate them. Solid state digital systems were sometimes referred to as '''EPABX'''s (electronic private automatic branch exchange). Now, the term PBX is by far the most widely recognized. The acronym is now applied to all types of complex, in-house telephony switching systems, even if they are not '''p'''rivate, '''b'''ranches, or e'''x'''changing anything.
+
+PBXs are distinguished from smaller "key systems" by the fact that external lines are not normally indicated or selectable at an individual extension.  From a user's point of view, calls on a key system are made by selecting a specific outgoing line and dialing the external number. A PBX, in contrast, has a dial plan.  Users dial an escape code (usually a single digit; often the same as the first digit of the local emergency telephone number) that connects them to an outside line (DDCO or Direct Dial Central Office in Bell System jargon), followed by the external number.  Some modern number analysis systems allow users to dial internal and external numbers without escape codes.
+
+== System components ==
+A PBX will often include:
+
+* The PBX’s internal switching network.
+* Microcontroller or microcomputer for arbitrary data processing, control and logic.
+* Logic cards, switching and control cards, power cards and related devices that facilitate PBX operation.
+* Stations or telephone sets, sometimes called lines.
+* Outside Telco trunks that deliver signals to (and carry them from) the PBX.
+* Console or switchboard allows the operator to control incoming calls.
+* Uninterruptible Power Supply (UPS) consisting of sensors, power switches and batteries. 
+* Interconnecting wiring.
+* Cabinets, closets, vaults and other housings.
+
+== Current trends ==
+
+One of the latest trends in PBX development is the IP-PBX or '''IPBX''', which uses the Internet Protocol to carry calls. Most modern PBXs support VoIP. ISDN PBX systems also replaced some traditional PBXs in the 1990s, as ISDN offers features such as conference calling, call forwarding, and programmable caller ID. However, recent open source projects combined with cheap modern hardware are sharply reducing the cost of PBX ownership.
+
+For some users, the private branch exchange has gone full circle as a term. Originally having started as an organization's manual switchboard or attendant console operated by a telephone operator or just simply the '''operator''', they have evolved into VoIP centres that are hosted by the operators or even hardware manufacturers. These modern IP Centrex systems offer essentially the same service, but they have moved so far from the original concept of the PBX that the term hardly applies at all.
+
+Even though VoIP gets a great deal of press, the old circuit switched network is alive and well, and the already bought PBX's are very competitive in services with modern IP Centrexes. Currently, there are four distinct scenarios in use:
+* PBX  (Private and Circuit Switched)
+* Hosted/Virtual PBX (Hosted and Circuit Switched) or traditional Centrex
+* IP PBX  (Private and Packet Switched)
+* IP Centrex or Hosted/Virtual IP  (Hosted and Packet Switched)
+
+Since in reality people want to call from the IP side to the circuit switched PSTN (SS7/ISUP), the hosted solutions usually have to maneuver in both realms in one way or another.  The distinctions are seldom visible to the end user.
+
+== Home and small business usage ==
+
+Historically, the expense of full-fledged PBX systems has put them out of reach of small businesses and individuals. However, since the 1990s there has been a large set of small, consumer-grade and consumer-size PBXs available. These systems are not comparable in size, robustness or flexibility to commercial-grade PBXs, but still provide a surprising set of features.
+
+The first consumer PBX systems were for the analog telephone systems, typically supporting four private analog and one public analog line. They are the size of a small cigar box or smaller and are inexpensive (e.g. US$50).
+
+Particularly in Europe these systems for analog phones were followed by consumer-grade PBXs for ISDN. Using small PBXs for ISDN is a logical step, since already the basic rate interface of ISDN (which is the phone interface individuals and small businesses typically get) provides two logical phone lines (two B channels) which can be used in parallel. Small, entry-level systems are also extremely cheap (e.g. US$100).
+
+With the pickup of VoIP by consumers, of course consumer VoIP PBXs have seen the light, and PBX functions have become simple additional features of consumer-grade routers and switches.

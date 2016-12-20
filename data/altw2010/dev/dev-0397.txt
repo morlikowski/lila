@@ -1,0 +1,93 @@
+{| width="40%" border="1" cellpadding="2" cellspacing="0" align="right" style="margin-left:0.5em;"
+!colspan="2" bgcolor="#FFDEAD" | Algemeen
+|-----
+| Naam || trimethylamine
+|-----
+|Molecuulformule || (H<sub>3</sub>C)<sub>3</sub>-N
+|-----
+|CAS-nummer || 75-50-3
+|-----
+| andere namen || N,N-dimethylmethaanamine; TMA
+|-----
+|UN-nummer||1083
+|-----
+|Gevaarsymbolen||  
+|-----
+|R-zinnen|| 12-20-37/38-41
+|-----
+|S-zinnen||2-16-26-29
+|-----
+!colspan="2" align="center" bgcolor="#FFDEAD"| Eigenschappen
+|-----
+|Voorkomen||kleurloos gas
+|-----
+|Molecuulmassa || 59,1 g/mol
+|-----
+|Kookpunt || 3 °C
+|---
+|Smeltpunt || -117°C
+|-----
+|Oplosbaarheid in water|| 475 g/l bij 30°C
+|-----
+|Dampspanning || 1900 mbar bij 20°C <!--volgens chemiekaarten 2006. De DE-wikipedia geeft hier, net zoals de IUCLID dataset, een waarde van 2200 -->
+|-----
+|Relatieve dampdichtheid (lucht = 1) || 2,0
+|-----
+|Vlampunt || brandbaar gas
+|-----
+|Explosiegrenzen in lucht || 2 - 116,6 volume%
+|-----
+!colspan="2" align="center" bgcolor="#FFDEAD"|<small>
+Voorzover mogelijk, werd het SI-systeem gebruikt.</small>
+|}
+
+'''Trimethylamine''' (TMA), één van de drie methylamines, is een kleurloos, brandbaar gas dat reeds bij zeer kleine concentraties een sterke visgeur verspreidt.
+
+Het is goed oplosbaar in water en naast het TMA-gas in drukhouders wordt het ook geleverd als een oplossing van 40% of 70% TMA in water.
+
+==Productie==
+
+TMA wordt op industriële schaal voornamelijk geproduceerd door de reactie van ammoniak met methanol (zie methylamine). Hierbij worden ook water, monomethylamine (MMA) en dimethylamine (DMA) gevormd. Dit mengsel wordt in meerdere destillatiestappen gescheiden.
+
+==Gebruik==
+
+{{Chimiebox général
+|nom =  Triméthylamine
+|image = Trimethylamine structure.svg
+|tailleimage =  
+|commentaire =  
+|formule =   
+|nom scientifique =  Triméthylamine
+|CAS = 75-50-3 
+|EINECS =200-875-0
+|ATC =  
+|apparence = Liquide incolore
+}}
+<!-- cas particulier : chimiebox pH -->
+
+<!-- fin chimie box général - début chimiebox physique -->
+
+<!-- fin chimiebox physique - début chimiebox thermochimie -->
+
+{{chimiebox thermo entropie
+|gaz = 
+|solide = 
+|liquide =  | }}
+{{chimiebox thermo enthalpie| gaz = 
+|solide = 
+|liquide = }}
+
+<!-- fin chimiebox thermo - début chimiebox précautions -->
+{{chimiebox précautions
+| classification= '''F+''' et '''Xn'''
+| r=12-20-37/38-41
+| s=(2)-16-26-39
+| inhalation=Sensation de brûlure. </br>Toux. Maux de tête. Mal de gorge. </br>Respiration difficile. Essoufflement. </br>Symptômes d'effets retardés 
+| peau=Lors du contact avec le liquide :</br> gelure. 
+| yeux=Rougeur. Douleur.</br> Troubles de la vue. 
+| ingestion =
+| autre=
+}}
+<!-- fin chimiebox précautions -->
+
+La '''triméthylamine''' a pour formule C<sub>3</sub>H<sub>9</sub>N. Elle est dérivée de l'ammoniac dans laquelle 3 groupes –CH<sub>3</sub> ont remplacé ses trois hydrogènes.

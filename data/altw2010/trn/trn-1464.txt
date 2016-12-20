@@ -1,0 +1,37 @@
+Nella sudafricano Samuel Skewes.
+
+Per definizione, il numero è il più piccolo numero naturale ''x'' per cui 
+
+:&pi;(''x'') &minus; Li(''x'') &ge; 0
+
+dove &pi;(x) è la funzione enumerativa dei primi e Li(''x'') è la funzione integrale logaritmico. 
+
+John Edensor Littlewood, il maestro di Skewes, dimostrò nel 1914 che tale numero esiste (e dunque, un tale primo numero); e provò anche che il segno della differenza &pi;(''x'')&nbsp;&minus;&nbsp;Li(''x'') cambia infinitamente spesso. Che tale numero esistesse non era affatto chiaro; infatti, l'evidenza numerica allora disponibile sembrava suggerire che &pi;(''x'') fosse sempre minore di Li(''x''). La prova di Littlewood, comunque, non fornì un esempio concreto del numero ''x''; non era dunque un risultato costruttivo.
+
+Skewes, nel 1933, dimostrò che, assumendo che l'ipotesi di Riemann fosse vera, esiste un numero ''x'' che viola la relazione &pi;(''x'') < Li(''x'') inferiore a 
+
+:<math>e^{e^{e^{79}}}</math> 
+
+(ora chiamato talvolta '''primo numero di Skewes''''), che è approssimativamente uguale a
+
+:<math>10^{10^{8.85 \times 10^{33}}}</math>. 
+
+Nel 1955, senza l'assunzione dell'ipotesi di Riemann, dimostrò che deve esistere un valore di ''x'' inferiore a 
+
+:<math>10^{10^{10^{1000}}}</math> 
+
+'''スキューズ数''' (Skewes' number) は、一般には'''第1スキューズ数'''を指す。第1スキューズ数は、リーマン予想が真であると仮定した場合に、&pi;(''x'') < li(''x'') が成立しなくなる最小の自然数 ''x'' である。ここで、&pi;(x) は素数計数関数、li(''x'') は対数積分である。なお、リーマン予想が偽であると仮定した場合に &pi;(''x'') < li(''x'') が成立しなくなる最小の自然数 ''x'' を、'''第2スキューズ数'''という。
+
+==第1スキューズ数==
+第1スキューズ数の存在はリトルウッドによって証明された。続いて1933年にスキューズによって第1スキューズ数の上界が <math>e^{e^{e^{79}}}</math> であることが示された。これは、<math>10^{10^{10^{34}}}</math> とほぼ等しい。この数は長い間、数学に現れたもっとも大きな数と言われていた。
+その後、1966年にレーマンによって、リーマン予想を仮定せずともさらに小さな上界を得ることができることが示された。
+
+==第2スキューズ数==
+第2スキューズ数の存在は1955年にスキューズによって証明され、上界が <math>10^{10^{10^{1000}}}</math> であることが示されている。その後、1966年にレーマンによって、1.53 &times; 10<sup>1165</sup>と1.65 &times; 10<sup>1165</sup>の間に&pi;(''x'') < Li(''x'')となる10<sup>500</sup>個の連続した整数が存在する、とくに第2スキューズ数の上界が1.65 &times; 10<sup>1165</sup>であることが示された。
+その後、第2スキューズ数の上界は大幅に減り続け、
+
+*1987年には 6.62 &times; 10<sup>370</sup>と6.69 &times; 10<sup>370</sup> の間に&pi;(''x'') < Li(''x'')となる10<sup>180</sup>個の連続した整数が存在することが証明され、
+*2000年には1.398201 &times; 10<sup>316</sup>と1.398244 &times; 10<sup>316</sup> の間に&pi;(''x'') < Li(''x'')となる10<sup>153</sup>個の連続した整数が存在することが証明された。
+
+==参考文献==
+C. Bays and R. H. Hudson, A new bound for the smallest ''x'' with &pi;(''x'')>li(''x''), Math. Comp. 69(2000), 1285--1296.

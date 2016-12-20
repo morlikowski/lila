@@ -1,0 +1,22 @@
+'''Hibernate'''  is a feature seen in many RAM is written to file or on a separate partition) before powering off the system. Later the system can be restored to the state it was in when hibernation was invoked, so that programs can continue executing as if nothing happened. Hibernating and restoring from hibernate is also generally faster than a hard reboot and, if necessary, can be done without user interaction (unlike shutting down, which often requires the user to specify if open documents should be saved). 
+
+To use hibernation the hard disk needs to have at least as much free space as there is RAM on the system.
+
+Hibernation is often used on ACPI specification.
+
+==Operating system support==
+===Microsoft Windows===
+Windows 95 & Windows 98 supported hibernation through hardware manufacturer-supplied drivers and only if compatible hardware and WDM drivers. There were also issues with the FAT32 file system.<ref> [http://www.microsoft.com/whdc/archive/hiberfat32.mspx BIOS and Hibernate Issues for FAT32 File System] </ref> PnP-compatible.
+
+Windows Vista's Fast Sleep and Resume feature saves the contents of volatile memory to hard disk before entering Sleep mode. If power to memory is lost, it will use the hard disk to wake up. The user has the option of hibernating directly if they wish. Windows Vista can also make use of the flash memory built into a hybrid drive to store some or all of the contents of the computer's memory when entering hibernation mode. This is expected to significantly improve the performance of entering and exiting hibernation.
+
+===Mac OS===
+On Macs, a feature known as Safe Sleep saves the contents of volatile memory to the system hard disk each time the Mac enters Sleep mode. The Mac can instantaneously wake from sleep mode if memory has not been lost. However, if power supply was interrupted, such as when swapping batteries without AC power connection, the Mac would wake from Safe Sleep instead, restoring memory contents from the hard drive.<ref>[http://docs.info.apple.com/article.html?artnum=302477 Apple Support: Progress bar appears after waking from sleep]</ref> Because Safe Sleep's hibernation process occurs during regular Sleep, the Apple menu does not have a "hibernate" option.
+
+Safe Sleep capability is found only in new Mac models starting with the October 2005 revision of the PowerBook G4 (Double-Layer SD). Mac OS X v10.4 or higher is also required.
+
+'''최대 절전 모드'''(最大節電 - ) 또는 '''재우기'''는 시스템 전원을 끄기 전에 시스템 메모리에 있는 모든 내용을 하드 디스크와 같은 비휘발성 메모리에 기록하는 기능이며, 수많은 운영 체제가 이 기능을 지원한다. 컴퓨터가 다시 켜지면, 하드 디스크에 저장된 내용이 메모리에 다시 적재되면서, 원래 사용하던 상태로 되돌아가며 그 당시 사용하던 프로그램들도 아무 일이 일어나지 않은 것처럼 동작하게 된다. 최대 절전 모드로 들어갔다가 다시 되돌아오는 시간은 시스템을 직접 다시 시작한 시간보다 더 빠르며 사용자가 운영 체제에 별도의 설정을 해 둘 경우 사용자가 직접 최대 절전 모드 기능을 실행하지 않아도 수행되게끔 할 수 있다.
+
+하드 디스크에 내용을 저장하려면, 시스템에 설치된 메모리의 용량만큼 하드 디스크에도 그 만큼의 공간이 남아 있어야 한다.
+
+이 기능은 노트북 컴퓨터에 흔히 쓰이며 배터리가 얼마 없을 경우 자동으로 이 기능이 수행된다. 초기의 최대 절전 모드 기능은 바이오스를 사용하곤 했지만 현대의 시스템에서는 운영 체제가 직접 관장한다. 이 기능은 ACPI 규격의 '''S4''' 모드에 정의되어 있다.

@@ -1,0 +1,106 @@
+{{Infobox Commune de France|nomcommune=Turgy
+|région=Champagne-Ardenne
+|département=Aube
+|arrondissement=Arrondissement de Troyes
+|canton=Canton de Chaource
+|insee=10388
+|cp=10210
+|maire=M. Pierre Poilve
+|mandat=2001-2008
+|intercomm=Communauté de communes du Chaourçois
+|longitude=4.04333333333
+|latitude=48.0247222222
+|alt moy=163 m
+|alt mini= m
+|alt maxi= m
+|hectares=997
+|km²=9,97
+|sans=40
+|date-sans=1 999
+|dens=4|}}
+'''Turgy''' est une commune française, située dans le département de l'Aube et la région Champagne-Ardenne.
+
+==Géographie==
+==Histoire==
+==Administration==
+
+==Démographie==
+{{Démographie|
+1962= 71|
+1968= 61|
+1975= 52|
+1982= 46|
+1990= 32|
+1999= 40|
+sansdoublescomptes= 1962}}
+
+==Lieux et monuments==
+* Le Château de Turgy , situé au centre du village , est un manoir des XVIe et XVIIe siècles .
+Quelques lignes lui sont consacrées dans le Dictionnaire historique de la Champagne Méridionale de Mgr. Roserot de Melun,3 tomes , Langres ,1943 ,réédité par Laffite reprints, Marseille, 1983 .(Notice Turgy , volume 3)
+
+{{infobox Franse gemeente|
+|plaatsnaam= Turgy
+|wapen= 
+|kaart= 
+|regio= Champagne-Ardennen 
+|departement= Aube (10)
+|arrondissement= Troyes
+|kanton= Chaource
+|jaar= 2005
+|inwoners= 41
+|dichtheid= 3,8
+|oppervlakte= 10,7
+|water= 
+|latitudeGraden= 48 |latitudeMinuten= 1|latitudeSeconden= 0
+|longitudeGraden= 4 |longitudeMinuten= 3 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 194 |kaartY= 105
+|code= 10388
+|postcode= 10210
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Turgy''' is een gemeente in het Franse departement Aube (regio Troyes.
+
+==Geografie==
+De oppervlakte van Turgy bedraagt 10,7 km², de bevolkingsdichtheid is 3,8 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:300 color:gray1 width:1       
+  from:start till:end             
+  bar:200 color:gray1              
+  from:start till:end            
+  bar:100 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,60)(84,55) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 71 1968: 61
+  points:(84,55)(100,49)    color:blue    width:2 #1975: 52
+  points:(100,49)(128,46)   color:blue    width:2 #1982: 46
+  points:(128,46)(160,38)   color:blue    width:2 #1990: 32
+  points:(160,38)(196,43)   color:blue    width:2 #1999: 40
+  points:(196,43)(228,43)     color:blue    width:2 #2004/5 
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

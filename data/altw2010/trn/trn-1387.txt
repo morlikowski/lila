@@ -1,0 +1,153 @@
+thumb|多角形の外接円
+'''外接円'''（がいせつえん）は、円である。外接円の中心を'''外心'''と呼ぶ。
+
+外接円を持つ多角形は「円に内接する多角形」と言いかえることもできる。すべての正多角形・長方形・三角形は、外接円を持つ。
+
+外接円に似た概念として、その多角形を内部に含む最小の円がある。この円は任意の多角形に対して存在する。外接円が存在する多角形において、この円が外接円と一致するとは限らない。例えば鈍角三角形に対する最小の円は一番長い辺を直径とする物であり、この円の周上にはもう1つの頂点は存在しない。
+
+== 三角形の外接円 ==
+right
+
+すべての三角形には外接円が存在する。三角形の外心は、3つの辺の垂直二等分線が交わる点である。
+
+航海において、三角形の外接円は方位磁針が使用できない状況で六分儀を利用して位置を割り出すのに使用されることがある。
+
+鋭角三角形の外心は三角形の内部にあり、鈍角三角形の外心は三角形の外部にある。直角三角形の外心は斜辺の中点である。
+
+Image:Circumcircles of triangles.png
+
+外接円の直径は、辺の長さとその辺に対する頂点の角度から求めることができる。これを正弦定理という。
+
+三角形の外心はその三角形の重心・垂心と同じ直線上にある。この直線をオイラー線という。三角形の九点円の半径は、外接円の半径の半分である。
+
+=== 外接円の式 ===
+
+直交座標系における外接円の式は行列式を用いて以下のように表すことができる。
+:<math>\det\begin{vmatrix}
+v^2 & v_x & v_y & 1 \\
+A^2 & A_x & A_y & 1 \\
+B^2 & B_x & B_y & 1 \\
+C^2 & C_x & C_y & 1
+\end{vmatrix}=0</math>
+ここで、''A'', ''B'', ''C'' は各頂点を表す。この式を満たす '''v''' の集合が外接円となる（'''A'''<sup>2</sup> = ''A''<sub>''x''</sub><sup>2</sup> + ''A''<sub>''y''</sub><sup>2</sup> とする）。
+
+thumb|Circumscribed circle, C, and circumcenter, O, of a cyclic polygon, P
+In center of this circle is called the '''circumcenter'''.
+
+A polygon which has a circumscribed circle is called a '''cyclic polygon'''. All regular triangles and all rectangles are cyclic. 
+
+A related notion is the one of a '''minimum bounding circle''', which is the smallest circle that completely contains the polygon within it. Not every polygon has a circumscribed circle, as the vertices of a polygon do not need to all lie on a circle, but every polygon has unique minimum bounding circle, which may be constructed by a linear time algorithm. Even if a polygon has a circumscribed circle, it may not coincide with its minimum bounding circle; for example, for an obtuse triangle, the minimum bounding circle has the longest side as diameter and does not pass through the opposite vertex.
+
+== Circumcircles of triangles ==
+right|thumb|Construction of the circumcircle (red) and the circumcenter (red dot)
+
+All triangles are cyclic, i.e. every triangle has a circumscribed circle.
+
+The circumcenter of a triangle can be found as the intersection of the three perpendicular bisectors. (A ''perpendicular bisector'' is a line that forms a right angle with one of the triangle's sides and intersects that side at its midpoint.) This is because the circumcenter is equidistant from any pair of the triangle's points, and all points on the perpendicular bisectors are equidistant from those points of the triangle.
+
+In coastal navigation, a triangle's circumcircle is sometimes used as a way of obtaining a position line using a sextant when no compass is available. The horizontal angle between two landmarks defines the circumcircle upon which the observer lies.
+
+The circumcenter's position depends on the type of triangle:
+*If and only if a triangle is acute (all angles smaller than a right angle), the circumcenter lies inside the triangle
+*If and only if it is obtuse (has one angle bigger than a right angle), the circumcenter lies outside
+*If and only if it is a right triangle, the circumcenter lies on one of its sides (namely, the hypotenuse). This is one form of Thales' theorem.
+
+<gallery>
+Image:Triangle (Acute) Circumscribed.svg|The circumcenter of an acute triangle is inside the triangle
+Image:Triangle (Right) Circumscribed.svg|The circumcenter of a right triangle is on the hypotenuse
+Image:Triangle (Obtuse) Circumscribed.svg|The circumcenter of an obtuse triangle is outside the triangle
+</gallery>
+
+The diameter of the circumcircle can be computed as the length of any side of the triangle, divided by the sine of the opposite angle. (As a consequence of the law of sines, it doesn't matter which side is taken: the result will be the same.) The triangle's nine-point circle has half the diameter of the circumcircle.  The diameter of the circumcircle of the triangle &Delta;''ABC'' is
+
+: <math>
+\begin{align}
+\text{diameter} & {} = \frac{abc}{2\cdot\text{area}} = \frac{|AB| |BC| |CA|}{2|\Delta ABC|} \\
+& {} = \frac{abc}{2\sqrt{s(s-a)(s-b)(s-c)}}\\
+& {} = \frac{2abc}{\sqrt{(a+b+c)(a-b+c)(b-c+a)(c-a+b)}}
+\end{align}
+</math>
+
+where ''a'', ''b'', ''c'' are the lengths of the sides of the triangle and ''s''&nbsp;=&nbsp;(''a''&nbsp;+&nbsp;''b''&nbsp;+&nbsp;''c'')/2 is the semiperimeter.  The radical in the second denominator above is the area of the  triangle, by Heron's formula.
+
+In any given triangle, the circumcenter is always collinear with the centroid and orthocenter. The line that passes through all of them is known as the Euler line.
+
+The isogonal conjugate of the circumcenter is the orthocenter.
+
+The useful minimum bounding circle of three points is defined either by the circumcircle (where three points are on the minimum bounding circle) or by the two points of the longest side of the triangle (where the two points define a diameter of the circle.).  It is common to confuse the minimum bounding circle with the circumcircle.
+
+The circumcircle of three collinear points is the line on which the three points lie, often referred to as a ''circle of infinite radius''.  Nearly collinear points often lead to numerical instability in computation of the circumcircle.
+
+Circumcircles of triangles have an intimate relationship with the Delaunay triangulation of a set of points. 
+
+===Circumcircle equations===
+
+In the Euclidean plane, it is possible to give explicitly an equation of the circumcircle in terms of the Cartesian coordinates of the vertices of the inscribed triangle.  Thus suppose that
+
+:<math>\mathbf{A} = (A_x,A_y)</math>
+:<math>\mathbf{B} = (B_x,B_y)</math>
+:<math>\mathbf{C} = (C_x,C_y)</math>
+
+are the coordinates of points ''A'', ''B'', and ''C''.  The circumcircle is then the locus of points '''v''' = (''v''<sub>x</sub>,''v''<sub>y</sub>) in the Cartesian plane satisfying the equations
+
+:<math>|\mathbf{v}-\mathbf{u}|^2 - r^2 = 0</math>
+:<math>|\mathbf{A}-\mathbf{u}|^2 - r^2 = 0</math>
+:<math>|\mathbf{B}-\mathbf{u}|^2 - r^2 = 0</math>
+:<math>|\mathbf{C}-\mathbf{u}|^2 - r^2 = 0</math>
+
+guaranteeing that the points '''A''', '''B''', '''v''' are all the same distance ''r''<sup>2</sup> from the common center ''u'' of the circle.  Using the matrix
+
+:<math>\begin{vmatrix}
+|\mathbf{v}|^2 & -2v_x & -2v_y & -1 \\
+|\mathbf{A}|^2 & -2A_x & -2A_y & -1 \\
+|\mathbf{B}|^2 & -2B_x & -2B_y & -1 \\
+|\mathbf{C}|^2 & -2C_x & -2C_y & -1
+\end{vmatrix}</math>
+
+have a nonzero kernel.  Thus the circumcircle may alternatively be described as the locus of zeros of the determinant of this matrix:
+
+:<math>\det\begin{vmatrix}
+|\mathbf{v}|^2 & v_x & v_y & 1 \\
+|\mathbf{A}|^2 & A_x & A_y & 1 \\
+|\mathbf{B}|^2 & B_x & B_y & 1 \\
+|\mathbf{C}|^2 & C_x & C_y & 1
+\end{vmatrix}=0</math>
+
+Expanding by cofactor expansion, let
+
+:<math>\quad
+S_x=\frac{1}{2}\det\begin{vmatrix}
+|\mathbf{A}|^2 & A_y & 1 \\
+|\mathbf{B}|^2 & B_y & 1 \\
+|\mathbf{C}|^2 & C_y & 1
+\end{vmatrix},\quad
+S_y=\frac{1}{2}\det\begin{vmatrix}
+A_x & |\mathbf{A}|^2 & 1 \\
+B_x & |\mathbf{B}|^2 & 1 \\
+C_x & |\mathbf{C}|^2 & 1
+\end{vmatrix},</math>
+:<math>a=\det\begin{vmatrix}
+A_x & A_y & 1 \\
+B_x & B_y & 1 \\
+C_x & C_y & 1
+\end{vmatrix},\quad
+b=\det\begin{vmatrix}
+A_x & A_y & |\mathbf{A}|^2 \\
+B_x & B_y & |\mathbf{B}|^2 \\
+C_x & C_y & |\mathbf{C}|^2
+\end{vmatrix}</math>
+we then have a|'''v'''|<sup>2</sup> &minus; 2'''Sv''' &minus; ''b'' = 0 and, assuming the three points were not in a line (otherwise the circumcircle is that line that can also be seen as a generalized circle with S at infinity), |'''v''' &minus; '''S'''/''a''|<sup>2</sub> = ''b''/''a'' + |'''S'''|<sup>2</sup>/''a''<sup>2</sup>, giving the circumcenter '''S'''/''a'' and the circumradius √ (''b''/''a'' + |'''S'''|<sup>2</sup>/''a''<sup>2</sup>).  A similar approach allows one to deduce the equation of the circumsphere of a tetrahedron.
+
+An equation for the circumcircle in trilinear coordinates ''x'' : ''y'' : ''z'' is ''a''/''x'' + ''b''/''y'' + ''c''/''z'' = 0.  An equation for the circumcircle in barycentric coordinates ''x'' : ''y'' : ''z'' is 1/''x'' + 1/''y'' + 1/''z'' = 0.
+
+The isogonal conjugate of the circumcircle is the line at infinity, given in trilinear coordinates by ''ax'' + ''by'' + ''cz'' = 0 and in barycentric coordinates by ''x'' + ''y'' + ''z'' = 0.
+
+===Coordinates of circumcenter===
+
+The circumcenter has barycentric coordinates 
+
+:<math>\left(a^2(-a^2+b^2+c^2),\;b^2(a^2-b^2+c^2),\;c^2(a^2+b^2-c^2)\right),</math>
+
+where <math>a,b,c</math> are edge lengths (<math>BC,CA,AB</math> respectively) of the triangle.  The Cartesian coordinates are discussed below.
+
+=== Using the cross and dot product ===

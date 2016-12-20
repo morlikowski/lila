@@ -1,0 +1,49 @@
+right|frame|3-edge-coloring of [[Desargues graph.]]
+
+In graph theory, '''edge coloring''' is one type of the graph coloring problem. A coloring of a graph's edges assigns a "color" to each edge of the graph. The objective is to color the graph's edges so that no vertex has two edges leaving it that have the same "color" and to use as few colors as possible. For example, the figure to the side shows a proper edge coloring, where no two edges out of the same vertex share the same color. In this example, the graph required three different colors, and could not be colored properly in any fewer.
+
+== Definition ==
+As with its vertex counterpart, an '''edge coloring''' of a graph, when mentioned without any qualification, is always assumed to be a '''proper''' coloring of the edges, meaning no two adjacent edges are assigned the same color.  Here, "adjacent" means sharing a common vertex.  A proper edge coloring with ''k'' colors is called a (proper) '''''k''-edge-coloring''' and is equivalent to the problem of partitioning the edge set into ''k'' matchings.  A graph that can be assigned a (proper) ''k''-edge-coloring is '''''k''-edge-colorable'''.  A 3-edge-coloring of a cubic graph is sometimes called a '''Tait coloring'''.
+
+The smallest number of colors needed in a (proper) edge coloring of a graph ''G'' is the '''chromatic index''', or ''edge chromatic number'', χ&prime;(''G''), also sometimes notated <math>\chi_1(G)</math>.  A graph is '''''k''-edge-chromatic''' if its chromatic index is exactly ''k''.
+
+== Properties ==
+Some properties of χ&prime;(''G''):
+# χ&prime;(''G'') = 1 if and only if ''G'' is a matching.
+# χ&prime;(''G'') ≥ Δ(''G'').
+# χ&prime;(''G'') ≤ Δ(''G'') + 1.  ('''Vizing's theorem''')
+# χ&prime;(''G'') ≤ Δ(''G'') + μ(''G''), where ''G'' is allowed to be a multigraph.
+# χ&prime;(''G'') = Δ(''G'') if ''G'' is a bipartite graph.  (König's bipartite theorem)
+# χ&prime;(''G'') = Δ(''G'') if ''G'' is simple, planar and Δ(''G'') ≥ 7.  ( combined with )
+# χ&prime;(''G'') = Δ(''G'') for almost all graphs .
+Here Δ(''G'') is the maximum degree; and μ(''G''), the multiplicity.
+
+== Classifying graphs and finding their chromatic index ==
+As we can see from above, χ&prime;(''G'') equals either Δ(''G'') or Δ(''G'') + 1.
+When χ&prime;(''G'') = Δ(''G''), ''G'' is said to be '''Class 1'''; otherwise, '''Class 2'''.
+ proved that it is '''NP'''-complete to determine whether a simple graph is Class 1 or Class 2.
+However, efforts have been made to give a partial characterization.
+For example,  showed that a simple, planar graph is Class 1 if its maximum degree is at least 8.
+In contrast, he observed that for maximum degree 2, 3, 4, and 5, there exist
+simple, planar graphs of Class 2.  For example, begin with a platonic solid and replace a single edge by a path of two adjacent edges.  In this way, the platonic solids yield simple, planar class 2 graphs of maximum degree 3, 4, and 5.  (Every cycle of odd length is a class 2 graph of maximum degree 2.)
+Vizing conjectured the following result for the two cases he did not solve:
+
+'''Vizing's planar graph conjecture'''.  
+:All simple, planar graphs with maximum degree 6 or 7 are Class 1.
+
+'''Kolorowanie krawędzi''' grafu to rozszerzenie klasycznego kolorowania grafu na krawędzie. Jest to przyporządkowywanie krawędziom grafu liczb naturalnych symbolizujących kolory.
+Odwzorowanie <math>c \colon E(G) \to S</math> nazywamy '''kolorowaniem krawędzi grafu''' <math>G</math>, natomiast zbiór <math>S</math> ''zbiorem kolorów''.
+
+Niech <math>S(v)</math> oznacza zbiór kolorów krawędzi incydentnych z wierzchołkiem <math>v</math>. 
+
+'''Prawidłowe pokolorowanie krawędzi''' (legalne, '''właściwe''') to takie przyporządkowanie krawędziom kolorów, gdzie żadne dwie sąsiednie krawędzie nie są pokolorowane tak samo. (Krawędzie są sąsiednie jeśli mają wspólny jeden z końców). Czyli kolorowanie krawędzi nazywamy '''właściwym''', jeżeli <math>c(e) \neq c(f)</math> dla każdych dwóch sąsiednich krawędzi, w przeciwnym
+przypadku kolorowanie nazywamy '''niewłaściwym'''.
+
+'''$k$-kolorowaniem''' nazywamy kolorowanie <math>c \colon E(G) \to
+\{1,\ldots,k\}</math>, czyli kolorujemy przy użyciu <math>k</math> kolorów.
+
+'''Optymalne pokolorowanie krawędzi''' grafu to legalne pokolorowanie, przy którym zużyto najmniejszą możliwą liczbę kolorów.
+
+'''Indeks chromatyczny''' grafu to minimalna liczba kolorów wystarczająca do pokolorowania krawędzi grafu legalnie, oznaczamy go przez <math>\chi'</math>.
+
+Kolorowanie krawędzi jest równoważne kolorowaniu wierzchołków grafu krawędziowego.

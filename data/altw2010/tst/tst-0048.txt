@@ -1,0 +1,69 @@
+'''نظام التطبيقات اللاسلكية''' (WAP) هو معيار عالمي مفتوح للتطبيقات التي تستخدم التواصل اللاسلكي. وظيفته الأساسية هي تمكين الاتصال بالإنترنت من خلال هاتف نقال أو جهاز PDA.
+
+يزود متصفح WAP كل الخدمات الأساسية التي يزودها الهاتف النقال.
+
+مواقع WAP هي عبارة عن مواقع مكتوبة بلغة WML أو محولة ديناميكياً إلى هذه اللغة، ليمكن الوصول إليها من خلال متصفح WAP.
+
+كثير من نشاطات الإنترنت اليوم أصبحت متاحة للأجهزة اللاسلكية عن طريق '''نظام التطبيقات اللاسلكية'''، منها:
+* بريد الهاتف النقال
+* النتائج الرياضية
+* عناوين الأخبار
+* تحميل المقاطع الموسيقية
+* الأخبار المالية وأحوال البورصة
+
+== انظر أيضاً ==
+
+'''WAP''' is an open international PDA.
+
+A WAP browser provides all of the basic services of a computer based WML (Wireless Markup Language) and accessed via the WAP browser.
+
+Before the introduction of WAP, service providers had extremely limited opportunities to offer interactive data services.  Interactive data applications are required to support now commonplace activities such as:
+* Email by mobile phone
+* Tracking of stock market prices
+* Sports results
+* News headlines
+* Music downloads
+
+The Japanese i-mode system is another major competing wireless data protocol.
+
+==Technical specifications==
+
+* The WAP Forum proposed a protocol suite that would allow the interoperability of WAP equipment and software with many different network technologies; the rationale for this was to build a single platform for competing network technologies such as GSM and IS-95 (also known as CDMA) networks.
+
+  +------------------------------------------+ 
+  | Wireless Application Environment (WAE)   |   
+  +------------------------------------------+  \
+  | Wireless Session Protocol (WSP)          |   |
+  +------------------------------------------+   |
+  | Wireless Transaction Protocol (WTP)      |   | WAP
+  +------------------------------------------+   | protocol
+  | Wireless Transport Layer Security (WTLS) |   | suite
+  +------------------------------------------+   |
+  | Wireless Datagram Protocol (WDP)         |   |
+  +------------------------------------------+  /
+  |     *** Any Wireless Data Network ***    |
+  +------------------------------------------+
+
+* The bottom-most protocol in the suite is the UDP to the upper layers by providing unreliable transport of data with two 16-bit port numbers (origin and destination). WDP is considered by all the upper layers as one and the same protocol, which has several "technical realizations" on top of other "data bearers" such as PPP on top of a circuit-switched data connection, WDP is in fact exactly UDP.
+
+* WTLS provides a TLS. Its use is optional.
+
+* WTP provides transaction support (reliable request/response) that is adapted to the wireless world. WTP supports more effectively than TCP the problem of packet loss, which is common in 2G wireless technologies in most radio conditions, but is misinterpreted by TCP as network congestion.
+
+* Finally, WSP is best thought of on first approach as a compressed version of HTTP.
+
+This protocol suite allows a terminal to emit requests that have an HTTP or HTTPS equivalent to a WAP gateway; the gateway translates requests into plain HTTP.
+
+===Wireless Application Environment (WAE)===
+
+In this space, application-specific markup languages are defined.
+
+The primary language of the WAE is WML, the Wireless Markup Language, which has been designed from scratch for handheld devices with phone-specific features.
+
+==Maintenance and evolutions==
+
+The WAP Forum has consolidated (along with many other forums of the industry) into OMA (Open Mobile Alliance), which covers virtually everything in future development of wireless data services.
+
+===WAP 2.0===
+
+WAP 2.0 is a re-engineering of WAP using a cut-down version of XHTML with end-to-end HTTP (i.e., dropping the gateway and custom protocol suite used to communicate with it). A WAP gateway can be used in conjunction with WAP 2.0; however, in this scenario, it is used as a standard proxy server. The WAP gateway's role would then shift from one of translation to adding additional information to each request. This would be configured by the operator and could include telephone numbers, location, billing information, and handset information.

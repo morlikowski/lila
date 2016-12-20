@@ -1,0 +1,39 @@
+'''MARC''' je kratica za engleski izraz  '''''Ma'''chine-'''R'''eadable '''C'''ataloging''
+
+''''Machine-readable:''' (strojno čitljiv) znači da određeni stroj,računalo,može čitati I interpretirati podatke kataloških zapisa.<ref name="Furrie">Furrie,Betty. Understanding MARC Bibliographic 1988.</ref>
+
+'''Cataloging record:''' je bibliografski zapis tj. to su informacije tradicionalno zapisane na kataloškim karticama.<ref name="Furrie" />
+
+MARC je 1960. razvila Henriette Avram na Kongresnoj knjižnici (Library of Congress).
+
+MARC standardi se sastoje od MARC formata i odgovarajuće dokumentacije.To su standardi za prikaz i prijenos bibliografskih i drugih odgovarajućih podataka. On osigurava protokol preko kojeg računala razmjenjuju,koriste te interpretiraju bibliografske informacije.Njegovi podatkovni elementi čine temelj većine današnjih knjižničnih kataloga.
+
+Struktura MARC-a nastala je primjenom ISO 2709 (International Organization for Standardization) također poznatog pod imenom ANSI/NISO Z39.2. MARC zapisi se sastoje od tri elementa; strukture zapisa,oznake sadržaja i podatkovnog sadržaja zapisa.U strukturi zapisa primjenjuju se nacionalni i internacionalni standardi. 
+
+== Formati MARC-a == 
+* Authority records (zapisi uprave,vlade)
+* Bibliographic records  (bibliografski zapisi)- opisuju intelektualne I fizičke karakteristike bibliografskih izvora (knjiga,zvučnih i video zapisa itd.).
+* Classification records (klasifikacijski zapisi)-sadrže klasifikacijske podatke.
+* Community Information records (zapisi informacija o zajednici)-zapisi koji opisuju agencije koje pružaju usluge (npr. Lokalno utoćište za beskućnike).
+* Holdings records (fundusni zapisi)–daju informacije o specifičnom knjižničnom izvoru (broj,mjesto na polici,količini itd.)
+
+== MARC 21 ==
+MARC 21 je nastao kombiniranjem MARC oblika Sjedinjenih Američkih Država  I kanadskog MARC oblika (USMARC i  CAN/MARC) te kao format za softvere.
+
+'''MARC''' is an acronym, used in the field of library science, that stands for '''MA'''chine-'''R'''eadable '''C'''ataloging.  The '''MARC standards''' consist of the MARC formats, which are standards for the bibliographic protocol by which computers exchange, use, and interpret bibliographic information. Its data elements make up the foundation of most library catalogs used today.
+
+The record structure of MARC is an implementation of record"<ref>MARBI, "MARC 21 Formats." page 1.  L.O.C.1996 http://www.loc.gov/marc/96principl.html</ref> and support their manipulation.  The content of data elements in MARC records is defined by standards outside the formats such as L.C. Subject Headings, and MeSH.<ref>MARBI, "MARC 21 Formats." page 2.  L.O.C.1996 http://www.loc.gov/marc/96principl.html</ref>
+
+The future of the MARC formats is a matter of some debate in the worldwide library science community. On the one hand, the storage formats are quite complex and are based on outdated technology. On the other, there is no alternative bibliographic format with an equivalent degree of OCLC consortium alone), also creates inertia. (See also, Path dependence.)
+
+==MARC formats==
+
+Authority records — MARC authority records provide information about individual names, subjects, and uniform titles. An authority record establishes an authorized form of each heading, with references as appropriate from other forms of the heading.   
+
+Bibliographic records — MARC bibliographic records describe the intellectual and physical characteristics of bibliographic resources (books, sound recordings, video recordings, and so forth).
+
+Classification records — MARC records containing classification data. For example, the Library of Congress Classification has been encoded using the MARC 21 Classification format.
+
+Community Information records — MARC records describing a service providing agency. For example, the local homeless shelter or tax assistance provider.
+
+Holdings records — MARC holdings records provide copy-specific information on a library resource (call number, shelf location, volumes held, and so forth).

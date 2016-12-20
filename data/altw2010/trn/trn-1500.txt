@@ -1,0 +1,23 @@
+thumb|right|Un exemple d'analema
+left|thumb|Les analemes es fan servir per traçar [[rellotge de sol|rellotges de sol exactes per tots els dies de l'any]]
+L''''analema''' és la corba que descriu l'altura del Sol a la mateixa hora durant un any observat des d'una mateixa posició. Si cada dia de l'any, a migdia, registrem la posició del Sol, després d'un any haurem obtingut una certa corba, que té una forma aproximada de "vuit".
+
+La posició del Sol observada canvia cada dia a causa de la inclinació de l'eix de la Terra i a causa de l'excentricitat de l'òrbita terrestre. El component axial de l'analema mostra la declinació del Sol mentre que el component transversal ofereix informació sobre l'equació de temps, la diferència entre el temps solar aparent i el temps solar mitjà.
+
+==Enllaços externs==
+*[http://www.analemma.com/Pages/framesPage.html Analemma] 
+*[http://antwrp.gsfc.nasa.gov/apod/ap030320.html Exemple sobre una fotografia de les runes de Tholos a Delphi, Grècia] 
+
+thumb|right|400px|O analema fotografado no [[hemisfério norte (olhando para leste).]]
+'''Analema''' é o termo usado em astronomia para designar um grafo da posição do Sol no firmamento num determinado lugar, marcada à mesma hora em dias sucessivos (isto é com intervalos aproximados de 24 horas ou seus múltiplos) ao longo de um ciclo anual. A figura gerada assemelha-se a um <math>\!8</math> assimétrico. O <math>\!8</math> estará quase vertical se a posição do sol à hora escolhida for próxima do meridiano do lugar (por volta do meio-dia solar verdadeiro), inclinando-se progressivamente para a esquerda ou direita com o seu afastamento (esquerda de manhã; direita à tarde).
+==Origem do analema==
+Se a circular a velocidade constante, a posição aparente do Sol no firmamento seria, à mesma hora de cada dia, a mesma. Logo o grafo da variação anual dessa posição seria um mero ponto e não o analema que conhecemos. Assim, o analema resulta da combinação de dois efeitos interdependentes:
+*O efeito da inclinação do eixo de rotação da solsticiais (21/22 de Junho e 21/22 de Dezembro).
+*O efeito da excentricidade da órbita terrestre, já que a Terra, em obediências às solsticiais.
+thumb|Exagerando a escala horizontal do analema realça a ligeira assimetria entre a parte direita e esquerda da figura resultante da não coincidência dos [[apsides com os solstícios.]]
+
+Em conclusão, o analema é o resultado combinado dos 23º 27’ de obliquidade do eixo da Terra em relação ao plano de eclíptica, que provoca a subida e descida do Sol ao longo da altura da figura <math>\!8</math> (sendo o factor dominante), e de elipticidade da órbita, que provoca a variação da posição aparente do Sol em torno do eixo do <math>\!8</math>, dando origem às duas ''argolas'' que constituem a sua parte superior e inferior. A assimetria é devida à variação da velocidade da Terra na sua translação, acrescida, no que respeita à assimetria lateral, do efeito de não coincidência da linha dos apsides com a linha dos solstícios.
+
+O movimento aparente do Sol ao longo do eixo vertical do analema é igual à variação, para o correspondente período, da declinação do Sol. O deslocamento lateral em relação ao eixo vertical do analema dá, quando medido em tempo (1º = 15 minutos), o valor da equação do tempo naquele dia, indicando se o tempo solar aparente está atrasado (Sol a leste do eixo) ou adiantado (Sol a oeste do eixo) em relação ao tempo solar médio.
+
+Devido às leis de Kepler, todos os [http://www.analemma.com/Pages/OtherAnalemmas/OtherAnalemmas.html restantes planetas exibem analemas], dependendo, contudo, a forma da figura da inclinação do eixo de rotação e da maior ou menor elipticidade da órbita. Por exemplo, o analema de Marte, em vez da forma em <math>\!8</math>, assemelha-se a uma gota.

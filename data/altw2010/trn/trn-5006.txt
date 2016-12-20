@@ -1,0 +1,129 @@
+<!-- Il testo commentato è SOLO UN ESEMPIO -->
+{{Comune
+|nomeComune = Brumano
+|linkStemma = Brumano-Stemma.png
+|siglaRegione = LOM
+|siglaProvincia = BG
+|latitudineGradi = 45
+|latitudineMinuti = 51
+|latitudineSecondi = 0
+|longitudineGradi = 9
+|longitudineMinuti = 30
+|longitudineSecondi = 0
+|mappaX = 74
+|mappaY = 45
+|altitudine = 911
+|superficie = 8
+|abitanti = 97
+|anno =  <!-- solo valore numerico dell'anno di riferimento  -->
+|densita = 11
+|frazioni =  <!-- elenco delle frazioni, separate da virgola e spazio - senza ritorni a capo -->
+|comuniLimitrofi = Erve (LC), Fuipiano Valle Imagna, Lecco (LC), Locatello, Morterone (LC), Rota d'Imagna, Valsecca, Vedeseta
+|cap = 24037
+|prefisso = 035
+|istat = 016041
+|fiscale = B217
+|nomeAbitanti = brumanesi
+|patrono =San Rocco e San Sebastiano  
+|festivo = 16 agosto e 20 gennaio 
+|sito =  <!-- http://www.comune.bovezzo.bs.it/ -->
+}} <!-- fine della tabella - per la compilazione vedi -> Aiuto:Comune -->
+left|330px|thumb|La Parrocchiale
+
+'''Brumano''' è un comune di 86 abitanti della provincia di Bergamo.
+
+Situato in capoluogo orobico.
+
+Recenti studi farebbero risalire i primi insediamenti stabili all’epoca romana: tale ipotesi pare suffragata anche dall’origine etimologica del nome, derivante dal latino ''Bruma'', ovvero freddo, caratteristica che ha sempre accompagnato il piccolo borgo. Posto all’ombra del monte Resegone nella parte terminale della valle Imagna, sul confine con la Valsassina, ha sempre avuto una bassa esposizione solare, situazione che non gli ha permesso di avere uno sviluppo delle colture sul proprio territorio. 
+
+Conseguentemente anche il borgo ha sempre mantenuto dimensioni molto ridotte sia come nucleo abitativo che come abitanti, tanto da contendere ancor’oggi la palma di comune più piccolo della provincia di Bergamo.
+
+Nel corso dei secoli Brumano ha sempre mantenuto le caratteristiche del piccolo borgo montano, con un numero limitato di abitanti per lo più dediti a vivere di ciò che la natura forniva loro: le attività principali quindi sono sempre state quelle del pastore, dell’allevatore, del boscaiolo e del carbonaio, ovvero colui che trasformava la legna in carbone vegetale.  
+
+Poche sono le notizie storiche, le prime delle quali riconducibili al periodo medievale: quando nei vicini paesi infuriavano le lotte fratricide tra guelfi e ghibellini, Brumano era rifugio per le persone in fuga dagli eventi bellici.
+
+I secoli successivi videro Brumano posto proprio sul confine tra la Repubblica di Venezia ed il Ducato di Milano, che governò il paese (unico di tutta la valle) per alcuni secoli. A tal riguardo è ancora presente presso il ''valico della Passata'' un cippo, datato 1791, indicante l’inizio dei possedimenti dello stato di Milano.
+
+I secoli successivi non videro fatti di rilievo coinvolgere la piccola comunità che, forte del proprio isolamento, seguì le vicende del resto della provincia senza parteciparvi in modo diretto.  Un evento di particolare importanza fu la costruzione della nuova chiesa parrocchiale, avvenuta nel 1889: dedicata a San Bartolomeo, possiede un altare maggiore di buona fattura, nonché affreschi e dipinti eseguiti al Nuvoloni. 
+
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = Brumano |
+  name = Brumano |
+  region = Lombardy |
+  province = Province of Bergamo (BG) |
+  elevation_m = 911 |
+  area_total_km2   = 8.1 |
+  population_as_of  = Dec. 2004 |
+  population_total = 96 |
+  population_density_km2 = 12 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          =  |
+  telephone         = 035 |
+  postalcode        = 24037 |
+  gentilic          = brumanesi |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           =  |
+  mapy = 9.5000 |
+  mapx = 45.8500 |
+}}
+'''Brumano''' is a ''Italian region of Lombardy, located about 50 km northeast of Milan and about 20 km northwest of Bergamo. As of 31 December 2004, it had a population of 96 and an area of 8.1 km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+Brumano borders the following municipalities: Erve, Fuipiano Valle Imagna, Lecco, Locatello, Morterone, Rota d'Imagna, Valsecca, Vedeseta.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:1000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:1000 start:0
+ScaleMinor = gridcolor:lightgrey increment:200 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:317
+  bar:1871 from: 0 till:258
+  bar:1881 from: 0 till:286
+  bar:1901 from: 0 till:246
+  bar:1911 from: 0 till:325
+  bar:1921 from: 0 till:230
+  bar:1931 from: 0 till:243
+  bar:1936 from: 0 till:214
+  bar:1951 from: 0 till:238
+  bar:1961 from: 0 till:202
+  bar:1971 from: 0 till:105
+  bar:1981 from: 0 till:76
+  bar:1991 from: 0 till:78
+  bar:2001 from: 0 till:86
+
+PlotData=

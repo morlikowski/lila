@@ -1,0 +1,94 @@
+{{FRA gmina infobox|
+|    herb_gminy = 
+|   flaga_gminy = 
+|    mapa_gminy = 
+|         Gmina = Manerbe
+|        region = Dolna Normandia
+|   departament = Calvados
+|  powierzchnia = 18,44
+|      stopniEW = 0 |minutEW=11 
+|      stopniNS = 49 |minutNS=11 
+|      wysokosc = 
+|          szer = N
+|          dług = E
+|           rok = 1990
+|     populacja = 498
+|       gęstość = 27
+|  kod_pocztowy = 14340
+|         INSEE = 14398
+}}
+'''Manerbe''' - miejscowość i gmina we Francji, w regionie Calvados.
+
+Według danych z Dolnej Normandii Manerbe plasuje się na 444. miejscu pod względem liczby ludności, natomiast pod względem powierzchni na miejscu 146.).
+
+==Linki zewnętrzne==
+*Źródło danych: [http://www.insee.fr Insee]
+*'''Mapy i zdjęcia satelitarne: '''
+**Zdjęcie satelitarne: [http://maps.google.com/maps?ll=49.1833,0.1833&spn=0.1,0.1&t=k Google maps]
+**Mapa: [http://maps.msn.com/(cgxnej455qpgxeu5vurxtejz)/map.aspx?&lats1=49.1833&lons1=0.1833&alts1=14&regn1=2 MSN World Atlas]
+
+{{infobox Franse gemeente|
+|plaatsnaam= Manerbe
+|wapen= 
+|kaart= 
+|regio= Laag-Normandië 
+|departement= Calvados (14)
+|arrondissement= Lisieux
+|kanton= Blangy-le-Château
+|jaar= 1999
+|inwoners= 500
+|dichtheid= 27,2
+|oppervlakte= 18,4
+|water= 
+|latitudeGraden= 49 |latitudeMinuten= 11|latitudeSeconden= 0
+|longitudeGraden= 0 |longitudeMinuten= 11 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 114 |kaartY= 68
+|code= 14398
+|postcode= 14340
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Manerbe''' is een gemeente in het Franse departement Calvados (regio Lisieux.
+
+==Geografie==
+De oppervlakte van Manerbe bedraagt 18,4 km², de bevolkingsdichtheid is 27,2 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:600 color:gray1 width:1       
+  from:start till:end             
+  bar:400 color:gray1              
+  from:start till:end            
+  bar:200 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,127)(84,105) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 379 1968: 301
+  points:(84,105)(100,97)    color:blue    width:2 #1975: 271
+  points:(100,97)(128,114)   color:blue    width:2 #1982: 332
+  points:(128,114)(160,161)   color:blue    width:2 #1990: 498
+  points:(160,161)(196,162)   color:blue    width:2 #1999: 500
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

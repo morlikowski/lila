@@ -1,0 +1,44 @@
+right|thumb|Датчик температуры на основе термистора
+thumb|100px|Таким символом обозначают терморезистор в схемах
+thumb|Вольт-Амперная характеристика (ВАХ) для терморезистора.
+thumb|Зависимость сопротивления Термистора от температуры. 1:для R<0. 2:для R>0
+
+'''Терморезистор''' (от греч. thérme — тепло, жар; от лат. resisto — сопротивляюсь), '''термистор''' — температурный коэффициент сопротивления (ТКС) (в десятки раз превышающий этот коэффициент у порошковой металлургии; их размеры могут варьировать в пределах от 1—10 мкм до 1—2 см. Основными параметрами терморезистора являются: номинальное сопротивление, температурный коэффициент сопротивления, интервал рабочих температур, максимально допустимая мощность рассеяния.
+
+Термистор был открыт Самьюэлем Рубеном (Samuel Ruben) в 1930 году и имеет патент США номер #2,021,491.
+
+Различают терморезисторы с отрицательным и положительным ТКС. Терморезисторы с отрицательным ТКС изготовляют из смеси поликристаллич оксидов переходных металлов (например, MnO, СoO?, NiO, CuO), легированных Ge и Si, полупроводников типа A<sup>III</sup> B<sup>V</sup>, стеклообразных полупроводников и других материалов.
+
+Различают терморезисторы низкотемпераурные (рассчитанные на работу при температуpax ниже 170 К), средне-температурные (170—510 К) и высокотемпературные (выше 570 К). Кроме того, существуют терморезисторы, предназначенные для работы при 4.2 К и ниже и при 900—1300 К.
+Наиболее, широко используются среднетемпературные терморезисторы с ТКС от — 2,4 до —8,4 % К<sup>-1</sup> и с номинальным сопротивлением 1 —10<sup>6</sup> Ом.
+
+Режим работы терморезисторов зависит от того, на каком участке статической [[Вольт-амперная характеристика|
+вольт-амперной характеристики (ВАХ)]] выбрана рабочая точка. В свою очередь ВАХ зависит как от конструкции, размеров и основных параметров терморезистора, так и от температуры теплопроводности окружающей среды, тепловой связи между терморезистором и средой. терморезисторы с рабочей точкой на начальном (линейном) участке ВАХ используются для измерения и контроля температуры и компенсации температурных изменений параметров электрической цепей и электронных приборов. терморезисторы с рабочей точкой на нисходящем участке ВАХ (с отрицательным сопротивлением) применяются в качестве пусковых реле, реле времени, измерителей мощности электро-магнитного излучения на напряжения. Режим работы терморезистора, при котором рабочая точка находится также на ниспадающем участке ВАХ (при этом используется зависимость сопротивления терморезистора от температуры и теплопроводности окружающей среды), характерен для терморезисторов, применяемых в системах теплового контроля и пожарной сигнализации, регулирования уровня жидких и сыпучих сред; действие таких терморезисторов основано на возникновении релейного эффекта в цепи с терморезистором при изменении температуры окружающей среды или условий теплообмена терморезистора со средой. Изготовляются также терморезисторы специальной конструкции — с косвенным подогревом. В таких терморезисторах имеется подогревная обмотка, изолированная от полупроводникового резистивного элемента (если при этом мощность, выделяющаяся в резистивном элементе, мала, то тепловой режим терморезистора определяется температурой подогревателя, то есть током в нём). Таким образом, появляется возможность изменять состояние терморезистора, не меняя ток через него. Такой терморезистор используется в качестве переменного резистора, управляемого электрически на расстоянии.
+
+thumb|Termistor NTC
+thumb|CTR – "polimerowe bezpieczniki"
+'''Termistor''' to temperatury.
+Wykonuje się je z tlenków: manganu, niklu, kobaltu, miedzi, glinu, wanadu i litu. Od rodzaju i proporcji użytych tlenków zależą właściwości termistora.
+
+==Rodzaje termistorów==
+*NTC – o ujemnym współczynniku temperaturowym (ang. negative temperature coefficient) – wzrost temperatury powoduje zmniejszanie się rezystancji;
+*PTC – ('''pozystor''') o dodatnim współczynniku temperaturowym (ang. positive temperature coefficient), wzrost temperatury powoduje wzrost rezystancji;
+*CTR –  o skokowej zmianie rezystancji (ang. critical temperature resistor) – wzrost temperatury powyżej określonej powoduje gwałtowną zmianę wzrost/spadek rezystancji. W termistorach polimerowych następuje szybki wzrost rezystancji (bezpieczniki polimerowe), a w ceramicznych zawierających związki baru, spadek.
+
+==Podstawowe parametry==
+* R – rezystancja nominalna, znormalizowana podawana jest zazwyczaj w temperaturze 25°C jako R<sub>25</sub> 
+* a – TWR – Temperaturowy Współczynnik Rezystancji (dla termistorów typu CTR podaje się temperaturę krytyczną)
+* P – dopuszczalna moc
+* B – stała materiałowa [wyrażona zwykle w kK – kiloKelwinach
+* tolerancja, w zależności od rodzaju wykonania termistora
+
+Dla termistorów (z wyjątkiem typu CTR) dla niezbyt dużych różnic temperatur zależność rezystancji od temperatury można uznać za liniową, co można wyrazić wzorem:  
+:<math>R = R_0 * [1 + a*(T - T_0)]</math>
+;gdzie:
+:<math>R</math> – rezystancja termistora w temperaturze T
+:<math>R_0</math> – rezystancja w temperaturze odniesienia <math>T_0</math>
+:<math>a</math> – główny współczynnik temperaturowy termistora.
+
+Dla termistorów PTC współczynnik a jest większy od zera, a dla NTC mniejszy od zera.
+
+Zmiana temperatury wewnętrznej termistora, a tym samym i jego rezystancji może być powodowana zmianą temperatury otoczenia lub też zmianą natężenia prądu płynącego przez termistor (wydzielanej mocy elektrycznej). 

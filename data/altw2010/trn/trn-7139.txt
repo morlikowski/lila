@@ -1,0 +1,52 @@
+'''Make''' — програми. Для указання дій, які повинна виконати make використовуються спеціальні файли, які називаються makefile.
+
+== Основні відомості ==
+
+Make не залежить від мови програмування, але, як правило, використовується з програмами на компілятора, лінкера та файлової системи.
+
+Основною особливістю утиліти makе є те, що вона не просто виконує послідовність кроків, що може привести до великого часу побудови програми. Make виконую дії лише над тими файлами, які не змінилися з часу попереднього виклику програми. Отже час на перебудову програми стає значно менший.
+
+{{Infobox Software
+| name                   = make
+| author                 = Stuart Feldman
+| developer              = 
+| released               = 
+| programming language   = 
+| operating system       = 
+| platform               = 
+| language               = English
+| genre                  = build automation tool
+}}
+In utility for automatically building large applications. Files specifying instructions for ''make'' are called '''Makefiles'''. ''make'' is an files have changed since the last time the project was built and invokes the dependencies.
+
+''make'' is most commonly used in C/C++ projects, but in principle it can be used with almost any software project.
+
+''make'' was originally created by Stuart Feldman in 1977 at Bell Labs. Though Integrated Development Environments and language-specific compiler features can also be used to manage the build process in modern systems, ''make'' remains widely used, especially in Unix-based platforms.
+
+==Origin==
+There are now a number of dependency-tracking build utilities, but ''make'' is one of the most wide-spread, primarily due to its inclusion in ACM '''[http://awards.acm.org/software_system/ Software System Award]''' for the invention of this important tool [http://campus.acm.org/public/membernet/storypage.May.2004.cfm?story=4&CFID=23207696&CFTOKEN=28895744 ].
+
+Before make's introduction, the Unix build system would most likely consist of "make" and "install" shell scripts accompanying a program's source.  Being able to combine the commands for the different targets into a single file, and being able to abstract out dependency tracking and archive handling, was an important step in the direction of modern build environments.
+
+==Modern versions==
+Make has gone through a number of rewrites, and a number of from-scratch variants which used the same file format and basic algorithmic principles, and also provided a number of their own non-standard enhancements, in the time that followed.  Some of them are:
+* parallel, and survives with varying degrees of modification in FreeBSD, NetBSD and OpenBSD.  Most notably, it has conditionals and iterative loops which are applied at the parsing stage and may be used to conditionally and programmatically construct the makefile, including generation of targets at runtime.
+* GNU/Linux installations and is frequently used in conjunction with the GNU build system.  Its departures from traditional make are most noticeable in pattern-matching in dependency graphs and build targets, as well as a number of functions which may be invoked to have the make utility do things like collect a list of all files in the current directory.
+* Microsoft ''nmake'', commonly available on Windows.  It is fairly basic in that it offers only a subset of the features of the two versions of make mentioned above.  Note that there exists another, incompatible program also called ''nmake'' from AT&T and Bell Labs for Unix.
+
+POSIX includes standardization of the basic features and operation of the make utility, and is implemented with varying degrees of completeness in Unix-based versions of make.  In general, simple makefiles may be used between various versions of make with reasonable success.  Some versions of GNU make and BSD make will look first for files named "GNUmakefile" and "BSDmakefile" respectively, which allows one to put makefiles which use implementation-defined behaviour in separate locations.
+
+==Advantages and disadvantages==
+In its basic form, Make requires the programmer to manually track all dependencies between files in the project. This process is error prone, since a forgotten or an extra dependency might not be immediately obvious, but instead surfaces as subtle bugs in the software. It is possible to create make files that generate some of these dependencies, but a more common solution is to use one of the available generators to make, e.g. the Automake toolchain provided by the GNU Project. 
+
+Another problem not well handled by make is the tailoring of a build process to a given platform. E.g, the compiler used on one platform might not accept the same options as the one used on another. This problem is typically handled by generating platform specific build instructions, which in turn are processed by make. Common tools for this process are Autoconf and Cmake. 
+
+The syntax used by Make includes the use of tab, a whitespace character. Many editors do not provide very clear visual clues to the presence of tabs rather than spaces, and tab characters are not represented uniformly across editors in any case, with size varying from as little as 2 spaces to 8 spaces. Thus, the syntax of make is often subject to criticism. Some projects, such as Apache Ant, have attempted to redo make with a better syntax, with mixed success. For programmers using makefile generators, this issue is likely unimportant.
+
+With the advent of modern Integrated Development Environments, especially on non-Unix platforms, many programmers do not manually manage dependency tracking, or even the listing of which files are part of a project. Instead, the task is automated by the integrated environment. Likewise, many modern programming languages have language-specific ways of listing dependencies which are more efficiently tracked through the use of language-specific build utilities. These approaches typically have the drawback that support for arbitrary build instructions is limited.
+
+Make is considered to be a mainly declarative programming language [http://phoenix.labri.fr/wiki/doku.php?id=an_overview_on_dsls]
+[http://www.cs.ualberta.ca/~paullu/C201/Slides/c201.21-31.pdf]
+[http://lists.w3.org/Archives/Public/www-ws-arch/2002Aug/0105.html]
+[http://www.robots.ox.ac.uk/~tgtjr/makefiles.html], and these languages are sometimes considered more difficult for programmers used to imperative programming languages [http://hsivonen.iki.fi/honkala-xforms/]
+[http://www.tkachenko.com/blog/archives/000182.html]

@@ -1,0 +1,56 @@
+{{Infobox_Scientist
+| name                    = Leslie Lamport
+| image                   = Leslie Lamport.jpg
+| image_width             = 150px
+| caption                 = 
+| birth_date              = February 7, 1941
+| birth_place             = New York City, New York
+| death_date              = 
+| death_place             = 
+| residence               = 
+| citizenship             =
+| nationality             = 
+| ethnicity               =
+| field                   = Computer Science
+| work_institution        = Microsoft Research<BR/>Compaq<BR/>Digital Equipment Corporation<BR/>SRI International
+| alma_mater              = Brandeis University
+| doctoral_advisor        = 
+| doctoral_students       = 
+| known_for               = LaTeX<BR/>Byzantine fault tolerance<BR/>Paxos algorithm
+| author_abbreviation_bot = 
+| author_abbreviation_zoo = 
+| prizes                  = Dijkstra Prize<BR/> IEEE John von Neumann Medal
+| religion                = 
+| footnotes               = 
+}}
+
+Dr. '''Leslie Lamport''' (born American computer scientist. A graduate of the B.S. in M.A. and Ph.D. degrees in mathematics from Brandeis University, respectively in 1963 and 1972.<ref name=lamport-writings></ref> His dissertation was about singularities in analytic partial differential equations.<ref></ref> Lamport is best known for his seminal work in distributed systems and as the initial developer of the document preparation system LaTeX.<ref></ref>
+
+Professionally, Lamport worked as a computer scientist at Massachusetts Computer Associates, SRI International, Digital Equipment Corporation, and Compaq. In 2001 he joined Microsoft Research at Mountain View, California.<ref name=lamport-writings/>
+
+Lamport’s research contributions have laid the foundations of the theory of distributed systems. Among his most notable papers are
+* “Time, Clocks, and the Ordering of Events in a Distributed System”,<ref></ref> which received the PODC Influential Paper Award in 2000,<ref></ref>
+* “The Byzantine Generals Problem”,<ref></ref>
+* “Distributed Snapshots: Determining Global States of a Distributed System”<ref></ref> and
+* “The Part-Time Parliament”.<ref></ref>
+These papers relate to such concepts as logical clocks (and the ''happened-before'' relationship) and Byzantine failures. They are among the most cited papers in the field of computer science<ref></ref> and describe algorithms to solve many fundamental problems in distributed systems, including:
+* the consensus,
+* the bakery algorithm for mutual exclusion of multiple threads in a computer system that require the same resources at the same time and
+* the snapshot algorithm for the determination of consistent global states.
+
+Lamport is also known for his work on quixotic attempt to overcome engineers' antipathy towards mathematics”.<ref></ref>
+
+Lamport received four honorary doctorates from European universities: University of Rennes and Christian Albrechts University of Kiel in 2003, University of Lugano in 2006.<ref name=lamport-writings/> In 2004, he received the Piore Award.<ref></ref> In 2005, the paper “Reaching Agreement in the Presence of Faults”<ref></ref> received the Dijkstra Prize.<ref></ref>
+
+Lamport is the author of the aphorism:<ref></ref>
+
+thumb|Leslie Lamport
+'''Leslie Lamport''', född 1941, datavetare, matematiker. Välkänd för sin forskning inom distribuerade system och realtidssystem (bl.a. på grund av sin artikel ''Time, Clocks, and the Ordering of Events in a Distributed System'' från 1978). Han är också upphovsman till den välkända TeX-utökningen LaTeX (förstavelsen La är alltså inte bara en referens till en viss gummiprodukt). Han själv tror dock att det han kommer att bli ihågkommen för om hundra år är hans förslag till ett nytt sätt att skriva matematiska bevis. Han menar att det nuvarande sättet knappt har ändrats på 300 år och varken är lättläst eller strukturerat.
+
+Tog 1960 en bachelorexamen i matematik från Massachusetts Institute of Technology och fortsatte sedan på Brandeis University där han 1972 doktorerade i samma ämne. Sedan dess har han jobbat på Massachusetts Computer Associates (1970 - 1977), SRI International (1977 - 1985), Digital Equipment Corporation Systems Research Center i Palo Alto (1985 - 2001). Sedan 2001 jobbar Lamport på Microsoft Research i Kalifornien.
+
+==Externa länkar==
+* [http://research.microsoft.com/users/lamport/ Hemsida]
+* [http://research.microsoft.com/users/lamport/pubs/pubs.html Alla hans publikationer]
+* [http://dsonline.computer.org/0208/f/lam_print.htm Intervju i IEEE Distributed Systems]
+* [http://research.microsoft.com/users/lamport/pubs/lamport-latex-interview.pdf Intervju: How (La)TeX changed the face of Mathematics] från Mitteilungen der Deutschen Mathematiker-Vereinigung i PDF-format

@@ -1,0 +1,162 @@
+Das '''YUV-Farbmodell''' verwendet zur Darstellung der Farbinformation zwei Komponenten, die Lichtstärke pro Fläche) (''luma'') ''Y'' und die analogen Farbfernsehens in der Norm PAL zurück. Es findet heutzutage auch beim analogen NTSC-Farbfernsehen Verwendung.
+
+right|thumb|200px|Originalfarbbild oben und die Aufspaltung dieses Bildes in die Luminanz ''Y'' (S/W-Bild) und darunter in die beiden Farbanteile ''U'' und ''V''. Die Unschärfe in den Farbkomponenten ''U'' und ''V'' macht anschaulich, warum die Farbinformation in der Auflösung reduziert werden kann (downsampling) ohne den Bildeindruck wesentlich zu verschlechtern.
+
+== Allgemeines ==
+Bei der Umstellung auf Farbfernsehen wurde nach technischen Wegen gesucht, zusätzlich zum Schwarz/Weiß-Signal die Farbinformation zu übertragen, um eine Abwärtskompatibilität mit alten Schwarz/Weiß-Fernsehgeräten zu erreichen, ohne die zur Verfügung stehende Übertragungsbandbreite erhöhen zu müssen. Das YUV-Farbmodell der analogen Fernsehtechnik wird manchmal fälschlicherweise mit seinen Verwandten YPbPr für analoge Darstellung und YCbCr für digitale Darstellung von Farbvideosignalen gleichgesetzt, die beide in der Norm CCIR 601 bzw. IEC 601 definiert sind.
+
+Das analoge YUV-Farbmodell ist zwar eng verwandt mit dem analogen YPbPr-Modell bzw. dem dazu digitalen YCrCb-Modell, unterscheidet sich allerdings in unterschiedlichen Skalierungsfaktoren (das sind unterschiedliche Verstärkungs- bzw. Dämpfungsfaktoren) betreffend der Farbsignale. Dies bedeutet anschaulich, dass das rechts dargestellte UV-Farbdiagramm im YPbPr Modell in der X-Achse bzw. Y-Achse um bestimmte Faktoren verzerrt wird um das PbPr-Farbdiagramm zu erhalten. Die Verteilung der Farben in der Ebene bleibt dabei erhalten. Das Helligkeitssignal Y ist in all diesen Modellen identisch. Die Skalierungsfaktoren für die beiden Farbsignale sind fix und weisen folgende Werte auf:
+
+:<math>U \approx 0{,}872021 \cdot Pb</math>
+:<math>V \approx 1{,}229951 \cdot Pr</math>
+
+Der Grund liegt darin, dass das analoge YPbPr-Modell und ebenso das digitale YCbCr-Modell eine symmetrische Fläche in der Farbebene aufspannt und somit die beiden Faktoren Pb und Pr (bzw. Cb und Cr) gleichmäßig skaliert werden, was eine leichtere Signalverarbeitung ermöglicht. Hingegen werden die YUV-Farbkomponenten U und V unterschiedlich stark in der Farbebene verzerrt: U wird mit geringeren Pegel verwendet als V, um bei der Quadraturmodulation auf den Farbhilfsträger bei analogen Farbfernsehen möglichst geringe Störungen des Helligkeitssignals zu ergeben.
+
+Die Farbübertragung wurde bei analogen Fernsehen erst nachträglich entwickelt, als Schwarz/Weiß-Fernsehgeräte, welche nur das Helligkeitssignal Y verwenden, bereits am Markt etabliert waren. Das Farbfernsehen sollte als Vorgabe Schwarz/Weiß-Empfänger nur möglichst wenig stören. Um dies zu erreichen, mussten die Farbsignale U und V mit unterschiedlich großen Amplituden am Farbhilfsträger quadraturmoduliert werden, wodurch sich diese Verzerrungsfaktoren zwischen YUV und YPbPr ergeben.
+
+Das früher bei der NTSC-Farbfernsehnorm verwendete YIQ-Farbmodell weist ebenso wie YUV unterschiedlich starke Verstärkungsfaktoren bei den Farbkanälen auf, die dort als I und Q bezeichnet werden, da auch dort das Problem der möglichst geringen Störung der bereits etablierten Schwarz/Weiß-Fernsehgeräte gegeben war. Zusätzlich erfolgt bei YIQ noch eine Drehung der Farbebene im Uhrzeigersinn um 33°. Dadurch sind den Farbkomponenten I und Q andere Farbwerte zugeordnet als dies bei UV, PbPr bzw. CbCr der Fall ist. Diese Drehung ist schaltungstechnisch beim Übergang von YIQ zu YPrPb und zu digitalen Video YCrCb wesentlich schwieriger zu realisieren, weshalb seit den 1970 Jahren auch bei analogen NTSC das YUV-Farbmodell verwendet wird.
+
+Fälschlicherweise ist häufig von ''YUV'' (-Geräten, -Kabeln, -Kodierung, -Farbmodell) die Rede, wenn eigentlich YPbPr (bei analogen Anschlüssen/Kabeln) bzw. YCbCr (im digitalen Bereich) gemeint ist. YUV kommt nur bei der Quadraturmodulation des Farbhilfsträgers bei PAL bzw. NTSC-Übertragung vor und findet sonst keine Anwendung. Auch wird häufig Farbmodell mit Farbraum verwechselt, einen YUV-Farbraum gibt es aber ebensowenig, wie etwa einen YPbPr- oder YCbCr-Farbraum.
+
+== Prinzip des Farbmodells ==
+thumb|240px|Beispiel für einen YUV-Farbmodell, Y-Wert = 0.5, gezeigt im RGB
+Zur Berechnung des Luma-Signals (auch ''Leuchtdichte-Signal'') werden die zugrundeliegenden RGB-Daten zunächst mit dem Gamma-Wert des Ausgabegerätes verrechnet; man erhält ein R'G'B'-Signal. Die drei Einzelkomponenten werden mit unterschiedlicher Gewichtung addiert, um die Helligkeitsinformation zu bilden, die als BAS-Signal auch bei alten Schwarz/Weiß-Fernsehgeräten funktioniert.
+
+Die Gewichtung der Komponenten ist erforderlich, da einige Aspekte des Farbensehens des menschlichen Auges berücksichtigt werden müssen. So wird beispielsweise Grün heller wahrgenommen als Rot, dieses wiederum heller als Blau. Diese unterschiedliche Gewichtung wird in folgender (''per Definition'' exakten) Umrechnungsformel berücksichtigt:
+
+:<math>Y := 0{,}299 \cdot R + 0{,}587 \cdot G + 0{,}114 \cdot B</math>
+
+thumb|305px|Example of U-V color plane, Y' value = 0.5, represented within RGB color gamut
+right|thumb|150px|An image along with its Y', U, and V components.
+
+'''Y'UV''' is a color space typically used as part of a color image pipeline.  It encodes a color image or video taking human perception into account, allowed reduced bandwidth for chrominance components, thereby typically enabling transmission errors or compression artifacts to be more efficiently masked by the human perception than using a "direct" RGB-representation. Other color spaces have similar properties, and the main reason to implement or investigate properties of Y'UV would be for interfacing with analog or digital television or photographic equipment that conforms to certain Y'UV standards.
+
+The scope of the terms Y'UV, YUV, YCbCr, YPbPr, etc., is sometimes ambiguous and overlapping. Historically, the terms YUV and Y'UV was used for a specific analog encoding of color information in television systems, while YCbCr was used for digital encoding of color information suited for video and still-image compression and transmission such as MPEG and JPEG. Today, the term YUV is commonly used in the computer industry to describe file-formats that are encoded using YCbCr.
+
+The Y'UV model defines a luma (Y') and two chrominance (UV) components. The Y'UV color model is used in the NTSC, PAL, and SECAM composite color video standards. Previous black-and-white systems used only luma (Y') information.  Color information (U and V) was added separately via a sub-carrier so that a black-and-white receiver would still be able to receive and display a color picture transmission in the receivers native black-and-white format. 
+
+Y' stands for the luma component (the brightness) and U and V are the Y'IQ color space used in the analog NTSC television broadcasting system is related to it, although in a more complex way.
+
+==History==
+
+Y'UV was invented when engineers wanted color television in a black-and-white infrastructure.<ref> http://joemaller.com/fcp/fxscript_yuv_color.shtml]</ref>  They needed a signal transmission method that was compatible with black-and-white (B&W) TV while being able to add color television.  The luma component was already existing as the B&W signal.  They added the UV signal as a solution.
+
+The UV representation of chrominance was chosen over, say, straight R and B signals because U and V are color difference signals.  This meant that in a B&W scene the U and V signals would be zero and only the Y' signal would be transmitted.  If R and B were to have been used, these would have non-zero values even in a B&W scene.  This was important in the early days of color television as many programs were still being made and transmitted in B&W and many TV receivers were B&W only.  It was necessary to assign a narrower bandwidth to the chrominance channel (there was no additional bandwidth available) and having some of the luminance information arrive via the chrominance channel - an inevitable consequence of Y'RB - would have resulted in a loss of B&W resolution.<ref>W. Wharton & D. Howorth, ''Principles of Television Reception'', Pitman Publishing, 1971, pp 161-163</ref>
+
+== Mathematical derivations and formulas ==
+
+Y'UV signals are typically created from an original RGB (red, green and blue) source. The weighted values of R, G, and B are added together to produce a single Y' signal, representing the overall brightness, or luminance, of that spot. The U signal is then created by subtracting the Y' from the blue signal of the original RGB, and then scaling; V is created by subtracting the Y' from the red, and then scaling by a different factor. This can be accomplished easily with analog circuitry.
+
+Mathematically, the analog version of Y'UV can be obtained from RGB with the following relationships
+
+:<math>
+\begin{array}{rll}
+W_R &= 0.299 \\
+W_B &= 0.114 \\
+W_G &= 1 - W_R - W_B = 0.587\\
+\\
+Y' &= W_R \times R + W_G \times G + W_B \times B \\
+U &= 0.436 \times (B - Y') / (1 - W_B) \\
+V &= 0.615 \times (R - Y') / (1 - W_R)
+\end{array}
+</math>
+
+The U and V components can also be expressed in terms of raw R, G, and B, obtaining:
+
+:<math>
+\begin{bmatrix} Y' \\ U \\ V \end{bmatrix}
+=
+\begin{bmatrix}
+  0.299   &  0.587   &  0.114 \\
+ -0.14713 & -0.28886 &  0.436 \\
+  0.615   & -0.51499 & -0.10001
+\end{bmatrix}
+\begin{bmatrix} R \\ G \\ B \end{bmatrix}
+</math>
+
+It is supposed, in all the previous equations, that <math>R, G, B \in \left[0, 1\right]</math>.
+
+As a consequence, the range of the transformed components is given by
+
+:<math>
+Y' \in \left[0, 1\right], \quad
+U  \in \left[-0.436, 0.436\right], \quad
+V  \in \left[-0.615, 0.615\right]
+</math>
+
+The inverse relationship, from Y'UV to RGB, is given by
+
+:<math>
+\begin{bmatrix} R \\ G \\ B \end{bmatrix}
+=
+\begin{bmatrix}
+ 1 &  0       &  1.13983 \\
+ 1 & -0.39465 & -0.58060 \\
+ 1 &  2.03211 &  0
+\end{bmatrix}
+\begin{bmatrix} Y' \\ U \\ V \end{bmatrix}
+</math>
+
+There are some points regarding the RGB transformation matrix:
+
+* The top row is identical to that of the Y'IQ color space
+* <math>\begin{bmatrix} R \\ G \\ B \end{bmatrix} = \begin{bmatrix} 1 \\ 1 \\ 1 \end{bmatrix} \implies \begin{bmatrix} Y' \\ U \\ V\, \end{bmatrix} = \begin{bmatrix} 1 \\ 0 \\ 0 \end{bmatrix}</math>
+* These formulae use the more traditional model of Y'UV, which is used for analog HDTV do not use Y''UV but Y''CbCr.
+
+=== BT.709 and BT.601 ===
+
+When standardising high-definition video, the ATSC chose a different formula for the YCbCr than that used for standard-definition video. This means that when converting between SDTV and HDTV, the color information has to be altered, in addition to image scaling the video.
+
+The formulas above reference Rec. 601. For HDTV, a slightly different matrix is used, where W<sub>R</sub> and W<sub>B</sub> in the above formula is replaced by Rec. 709:
+
+:<math>
+\begin{array}{rl}
+W_R &= 0.2125 \\
+W_B &= 0.0721 \\
+\end{array}
+</math>
+
+==Numerical approximations==
+
+Prior to the development of fast SIMD floating-point processors, most digital implementations of RGB->Y'UV used integer math, in particular fixed-point approximations. In the following examples, the operator "''a >> b''" denotes an integer division by a power of two, which is equivalent to a right-shift of ''a'' by ''b'' bits.
+
+Traditional 8 bit representation of Y'UV with unsigned integers uses the following
+
+; Basic Transform
+:<math>Y' =  66 \times R + 129 \times G +  25 \times B</math>
+:<math>U  = -38 \times R -  74 \times G + 112 \times B</math>
+:<math>V  = 112 \times R -  94 \times G -  18 \times B</math>
+; Scale down to 8 bits with rounding
+:<math>Y' = (Y' + 128) >> 8</math>
+:<math>U  = (U  + 128) >> 8</math>
+:<math>V  = (V  + 128) >> 8</math>
+; Shift values
+:<math>Y' +=  16</math>
+:<math>U  += 128</math>
+:<math>V  += 128</math>
+
+Y' values are conventionally shifted and scaled to the range [16, 235] rather than using the full range of [0, 255].  This confusing practice derives from the MPEG standards and explains why 16 is added to Y' and why the Y' coefficients in the basic transform sum to 220 instead of 255.  U and V values, which may be positive or negative, are shifted by 128 to make them always positive.
+
+In 16-bit (modulo 65,536) arithmetic, we have
+
+:<math>Y'' = min(abs(r \times 2104 + g \times 4130 + b \times 802 + 4096 + 131072) >> 13, 235)</math>
+:<math>U = min(abs(r \times -1214 + g \times -2384 + b \times 3598 + 4096 + 1048576) >> 13, 240)</math>
+:<math>V = min(abs(r \times 3598 + g \times -3013 + b \times -585 + 4096 + 1048576) >> 13, 240)</math>
+<!-- The two previous formulae must be checked better: I'm not sure whether they are right-->
+16 bit Y'UV to RGB conversion formulae
+
+:<math>r = min((9535 \times (y - 16) + 13074 \times (v - 128)) >> 13, 255)</math> 
+:<math>g = min((9535 \times (y - 16) -  6660 \times (v - 128) - 3203 \times (u - 128)) >> 13, 255)</math>
+:<math>b = min((9535 \times (y - 16) + 16531 \times (u - 128)) >> 13, 255)</math>
+
+== Luminance/chrominance systems in general ==
+
+The primary advantages of luminance/chrominance systems such as Y'UV, and its relatives Y'IQ and YDbDr, are that they remain compatible with black and white analog television (largely due to the work of Georges Valensi). The Y' channel saves nearly all the data recorded by black and white cameras, so it produces a signal suitable for reception on old monochrome displays. In this case, the U and V are simply discarded. If displaying color, all three channels are used, and the original RGB information can be decoded.
+
+Another advantage of Y'UV is that some of the information can be discarded in order to reduce bandwidth. The human eye has fairly little color sensitivity: the accuracy of the brightness information of the luminance channel has far more impact on the image discerned than that of the other two. Understanding this human shortcoming, standards such as NTSC reduce the amount of data consumed by the chrominance channels considerably, leaving the brain to extrapolate much of the color. Therefore, the resulting U and V signals can be substantially compressed.
+
+However, this color space conversion is lossy. When the NTSC standard was created in the 1950s this was not a real concern since the quality of the image was limited by the monitor equipment, not the compressed signal being received. However today's modern television is capable of displaying more information than is contained in these lossy signals. To keep pace with the abilities of new technology, attempts have been made to preserve more of the Y'UV signal while recording images, such as VCRs.
+
+Instead of Y'UV, Y'CbCr was used as the standard format for (digital) common compressed video streams in the MPEG-2 format, which uses a full Y'CbCr color space. The professional CCIR 601 uncompressed digital video format also uses Y'CbCr, primarily for compatibility with previous analog video standards. This stream can be easily mixed into any output format needed.
+
+Y'UV is not an absolute color space. It is a way of encoding RGB information, and the actual color displayed depends on the actual RGB colorants used to display the signal. Therefore a value expressed as Y'UV is only predictable if standard RGB colorants are used (i.e. a fixed set of primary chromaticities, or particular set of red, green, and blue).

@@ -1,0 +1,41 @@
+Das '''Vergleichswertverfahren''' ist ein Verfahren zur Wertermittlung von Immobilien (§ 13 Wertermittlungsverordnung -WertV). Nach diesem Verfahren wird der Marktwert eines Grundstücks aus tatsächlich realisierten Kaufpreisen von anderen Grundstücken abgeleitet, die in Lage, Nutzung, Bodenbeschaffenheit, Zuschnitt und sonstiger Beschaffenheit hinreichend mit dem zu vergleichenden Grundstück übereinstimmen. Der optimale Fall ist der direkte Vergleich: Ein benachbartes Grundstück gleichartiger Lage, Größe, Nutzung usw. wurde gestern zu Marktpreisen verkauft. Dieser Fall ist jedoch in der Praxis eher die Ausnahme. Meist wird daher im Regelfall das indirekte Vergleichwertverfahren verwendet.
+
+== Grund und Boden ==
+
+Bezüglich des Grund und Boden basiert das indirekte Vergleichswertverfahren auf der Kaufpreissammlung der Gutachterausschüsse (in Deutschland sind Grundstückskaufverträge stets notariell zu beurkunden, wobei eine Kopie des Kaufvertrages dem Gutachterausschuss zugeht). Hierzu kann beim Gutachterausschuss Einblick in die anonymisierte Kaufpreissammlung genommen werden. Eine sichere Beurteilung ist nur bei ausreichender Zahl von hinreichend geeigneten vergleichbaren Käufen (mind. 10, besser 20 oder 30) möglich.
+
+Ein anderer Weg ist die Nutzung der Bodenrichtwerte, welche die Gutachterausschüsse empirisch aus der Kaufpreissammlung ableiten. Diese werden für größere Städte in Form von Bodenrichtwertkarten für bestimmte Lagen abgeleitet, wobei im Regelfall Art und Maß der baulichen Nutzung sowie die der Wertableitung zugrunde liegende durchschnittliche Grundstücksgröße angegeben ist. Zumindest die Art der baulichen Nutzung und die Lage sollte zwischen Bodenwertzone und zu bewertendem Grundstück übereinstimmen, für Maß der baulichen Nutzung und Grundstücksgröße können Umrechnungskoeeffizienten angewandt werden. Ist keine hinreichend vergleichbare Bodenrichtwertzone zur Hand, kann eine nochmals indirekte Ableitung versucht werden, die jedoch meist anfechtbar ist.
+
+Da die meisten Grundstücke sehr viele individuelle Merkmale aufweisen, ist eine vollständige Übereinstimmung der Merkmale sowohl der direkt als auch indirekt zu vergleichenden Grundstücke oft nicht gegeben. Der Unterschied wird im Wege der Ableitung von Zu- oder Abschlägen bzw. Korrekturfaktoren ausgedrückt. Die sich ergebenden Abweichungen sollten nach deutscher Rechtsprechung im Regelfall nicht höher sein als 30 %–35 %. Ansonsten kann man nicht mehr von vergleichbaren Grundstücken sprechen.
+
+Beispiele für Merkmale, die bei Zu- und Abschlägen zu beachten sind:
+* Örtliche Lage, z.&nbsp;B. Lage im bebauten Raum, zu den Himmelsrichtungen, Belichtung, Verkehrslage
+* Bodenbeschaffenheit z.&nbsp;B. Untergrund, Tragfähigkeit
+* Größe und Form z.&nbsp;B. Tiefe, Gestalt, Frontbreite
+* Bodenschätze z.&nbsp;B. Abbaumöglichkeiten
+* Lage in Gefahrenzonen
+* Grad der Erschließung
+* Umwelteinflüsse z.&nbsp;B. Lärm, Rauch, Gerüche, …
+* Grundabtretungen, Grundeinbeziehungen, Bauplatzeigenschaft
+* Planungs- und Baurecht: Flächennutzungs- und Bebauungsplan bzw. §§ 34 und 35 BauGB 
+* Nutzungsbeschränkungen
+* Gesetzl. Beschränkungen der freien Verfügung: Denkmalschutz, Mieterschutz, Weltkulturerbe
+* Zustand der Außenanlagen: erforderliche Instandsetzungen
+* Art und Verwendung der Nachbarliegenschaften
+
+Der ermittelte Wert des Grund und Boden ist ggf. durch Zu- und Abschläge für wertbeeinflussende Faktoren wie z.&nbsp;B. Kontamination und dingliche Rechte zu korrigieren.
+
+== Bauliche Anlagen ==
+
+The '''sales comparison approach''' (SCA) is one of the three major groupings of valuation methods, called the '''three approaches to value''', commonly used in real estate appraisal.  This approach compares a subject property's characteristics with those of comparable properties which have recently sold in similar transactions.  The process uses one of several techniques to adjust the prices of the comparable transactions according to the presence, absence, or degree of characteristics which influence value.  As such, all sales comparison approach methods are variations on hedonic-type measurements, which determine the value of something as the sum of the value of the various components which contribute utility. 
+
+==Units of Comparison==
+The SCA relies on the assumption that a matrix of attributes or significant features of a property drive its value. For examples, in the case of a single family residence, such attributes might be floor area, views, distance to amenities, number of bathrooms, lot size, age of the property and condition of property.
+
+==Economic Basis==
+The sales comparison approach is based upon the principles of supply and demand, as well as upon the principle of substitution. Supply and demand indicates value through typical market behavior of both buyers and sellers. Substitution indicates that a purchaser would not purchase an improved property for any value higher than it could be replaced for on a site with equivalent utility, assuming no undue delays in construction.
+
+==Examples of Methods==
+In practice, the most common SCA method used by estate agents and real estate appraisers is the sales adjustment grid.  It uses a small number of recently sold properties in the immediate vicinity of the subject property to estimates the value of its attributes.  Adjustments to the comparables may be determined by trend analysis, matched-pairs analysis, or simple surveys of the market.
+
+More advanced researchers and appraisers commonly employ statistical techniques based on multiple regression methods which generally compare a larger number of more geographically dispersed property transactions to determine the significance and magnitude of the impact of different attributes on property value.  Research has shown that the sales adjustment grid and the multiple regression model are theoretically the same, with the former applying more heuristic methods and the latter using statistical techniques<ref>see, for example, Lentz and Wang, ''Journal of Real Estate Research'', 1997</ref>.

@@ -1,0 +1,70 @@
+The '''free-piston engine''' is a linear, 'crankless' combustion engine, in which the piston motion is not controlled by a crankshaft but determined by the interaction of forces from the combustion cylinder gases, a rebound device and a load device.
+
+The basic configuration of free-piston engines is commonly known as single piston, dual piston or opposed pistons, referring to the number of combustion cylinders. The free-piston engine is in practise restricted to the two-stroke operating principle, since a power stroke is required every revolution.
+
+== First generation free-piston engines ==
+
+The free-piston engine was first proposed by [[Raúl Pateras Pescara|
+Pescara]] (1928) and the original application was a single piston air compressor. The engine concept was a topic of much interest in the period 1930-1960, and a number of commercially available units were developed. These first generation free-piston engines were without exception opposed piston engines, in which the two pistons were mechanically linked to ensure symmetric motion. The free-piston engines provided some advantages over conventional technology, including compactness and a vibration-free design.
+
+=== Air compressors ===
+
+The first successful application of the free-piston engine concept was as air compressors. In these engines, air compressor cylinders were coupled to the moving pistons, often in a multi-stage configuration. Some of these engines utilised the air remaining in the compressor cylinders to return the piston, thereby eliminating the need for a rebound device.
+
+Free-piston air compressors were in use among others by the German Navy, and had the advantages of high efficiency, compactness and low noise and vibration. (Toutant (1952).)
+
+=== Gas generators ===
+
+After the success of the free-piston air compressor, a number of industrial research groups started the development of free-piston gas generators. In these engines there is no load device coupled to the engine itself, but the power is extracted from an exhaust turbine. (The only load for the engine is the supercharging of the inlet air.)
+
+A number of free-piston gas generators were developed, and such units were in widespread use in large-scale applications such as stationary and marine powerplants (London et al. (1952)). Attempts were made to use free-piston gas generator for vehicle propulsion, but without success (Underwood (1957), Frey et al. (1957)).
+
+== Modern applications ==
+
+Modern applications of the free-piston engine concept include hydraulic engines, aimed for off-highway vehicles, and free-piston engine generators, aimed for use with hybrid electric vehicles.
+
+=== Hydraulic free-piston engines ===
+
+These engines are commonly of the single piston type, with the hydraulic cylinder acting as both load and rebound device using a hydraulic control system. This gives the unit high operational flexibility, and excellent part load performance has been reported for such engines (Achten et al. (2000), Brunner et al. (2005)).
+
+=== Free-piston engine generators ===
+
+The use of a free-piston engine with a linear generator is being investigated by a number of research groups, driven by the increasing interest in the hybrid electric vehicle concept in the automotive industry. These engines are mainly of the dual piston type, giving a compact unit with high power to weight ratio. A challenge with this design is to find an electric machine with sufficiently low weight, and control challenges in the form of high cycle-to-cycle variations have been reported for dual piston engines. (Clark et al. (1998), Tikkanen et al. (2000)).
+
+<!-- Unsourced image removed: thumb|230px|Principle of a dual piston free-piston engine generator:1-Combustion cylinder, 2-Electric machine stator, 3-Electric machine translator (Willimczik 1974) -->
+
+== Free-piston features and potential advantages ==
+
+The operational characteristics of free-piston engines differ from those of conventional, crankshaft engines. The main difference is due to the piston motion not being restricted by a crankshaft in the free-piston engine, leading to the potentially valuable feature of variable compression ratio. This does, however, also present a control challenge, since the position of the dead centres must be accurately controlled in order to ensure fuel ignition and efficient combustion, and to avoid excessive in-cylinder pressures or, worse, the piston hitting the cylinder head.
+
+=== Advantages ===
+
+Die '''Freikolbenmaschine''' kombiniert eine Wärmekraftmaschine mit innerer oder äußerer Verbrennung und eine Arbeitsmaschine (Pumpe, Verdichter, Generator). Charakteristisch ist die direkte, triebwerklose Übertragung der zyklischen Bewegung des Kolbens der Wärmekraftmaschine auf den Arbeitsteil; dadurch entfallen jegliche mechanische Triebwerke, wie z.&nbsp;B. ein Kurbeltrieb. Die Leistungsabgabe erfolgt nichtmechanisch. Der Gasprozess der Freikolbenmaschine ist prinzipbedingt ein Zweitakt-Prozess.
+
+Freikolbenmaschinen lassen sich sehr kompakt bauen und zeichnen sich durch große Einfachheit und ein hohes Leistungs-Gewichts-Verhältnis aus.
+
+Derartige Maschinen wurden unter anderem von Junkers (etwa 1926), Sulzer (1942) in Serie gefertigt.
+
+== Anwendungsformen ==
+
+thumb|300px|Prinzip des Pescara-Gaserzeugers (Diesel) 1 - Hochdruckgasauslassventil, 2 - Einlassventil, 3 - Frischgas, 4 - Auslass, 5 - Gaspuffer, 6 - Dieseleinspritzventil, 7 - Brennraum
+
+Integriert man in den Freikolbenmotor einen Kompressor, eine Hydraulikpumpe oder einen Lineargenerator, entsteht eine kompakte Einheit. 
+
+=== Motor/Generator ===
+
+Ein Lineargenerator zur Erzeugung elektrischer Energie, ist eine der gängigsten Freikolbenmaschinen.
+
+In Anlagen mit  Stirling-Freikolbenmotor zum Einsatz.
+Die bedeutendsten Hersteller von Freikolbenmaschinen waren bis in die 1970er Jahre Sigma in Frankreich und Alan Muntz & Co. aus Großbritannien.
+
+Der Pescara-Motor wurde US-Marine als Gaserzeuger für eine Antriebsturbine von immerhin 184 kW (250 PS) Leistung.
+
+Im Bereich der Blockheizkraftwerke hat der ''Linator'' der Firma OTAG Marktreife erreicht.
+
+=== Kompressor ===
+
+Häufigste Anwendung ist der direkt angetriebene Kompressor. Für kleine Kompressoren werden gegen eine Feder arbeitende Kolben gebaut, die elektrisch angetrieben werden. 
+Auf deutschen 2. Weltkrieg Freikolbenkompressoren der Firma Junkers zur Erzeugung der Druckluft verwendet worden. Solche Kompressoren wurden damals in Serie produziert. Sie werden auch heute noch gebaut (Fa. E+JE).
+
+=== Hydraulikpumpe ===

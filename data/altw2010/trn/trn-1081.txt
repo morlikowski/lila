@@ -1,0 +1,1313 @@
+Poniższe tabele porównują ogólne i techniczne informacje na temat programów pocztowych. W celu uzyskania bardziej szczegółowych informacji na temat danego klienta pocztowego proszę skorzystać z artykułów poświęconych właśnie tylko tym programom. Artykuł ten może być nieaktualny lub zawierać niepełne dane.
+
+==Ogólne==
+Podstawowe informacje na temat programów pocztowych: autor/firma, licencja/cena itd.
+{| border="1" cellpadding="1" cellspacing="0" style="font-size: 85%; border: gray solid 1px; border-collapse: collapse; text-align: center; width: 100%;"
+|-style="background: #ececec;"
+! style="width:12em" |
+! Autor
+! Cena (USD)
+! FOSS
+! Licencja
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Citadel
+| citadel.org
+| darmowy
+| 
+| GPL
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Claws Mail
+| Claws Mail Team
+| darmowy
+| 
+| GPL
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | FastTrackMail
+| InternetSoft Corporation
+| $29
+| 
+| Własnościowa
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Eudora
+| Qualcomm
+| darmowy w wersji (Light i Pro z reklamami), $49 (Pro)
+| 
+| Własnościowa
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Lotus Notes
+| Lotus Software / IBM
+| [https://www-112.ibm.com/software/howtobuy/buyingtools/paexpress/Express?P0=E1&part_number=D5CPILL,D5CS2LL,D53T5LL&catalogLocale=en_US&Locale=en_US&country=USA&S_TACT=none&S_CMP=none wysokość opłat online]
+| 
+| Własnościowa
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | KMail
+| KDE
+| darmowy
+| 
+| GPL
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Mail
+| Apple Computer 
+| Część systemu Mac OS X
+| 
+| Własnościowa
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Mozilla Mail/SeaMonkey m
+| Mozilla Foundation
+| darmowy, część Mozilla Application Suite
+| 
+| MPL, potrójna licencja MPL/GPL/LGPL
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Mozilla Thunderbird
+| Mozilla Foundation
+| darmowy
+| 
+| MPL, potrójna licencja MPL/GPL/LGPL
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Microsoft Outlook
+| Microsoft
+| Część Microsoft Office
+| 
+| Własnościowa
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Mulberry
+| ISAMET
+| $35,95
+| 
+| Własnościowa
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Mutt
+| Michael Elkins
+| darmowy 
+| 
+| GPL
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Novell Evolution
+| Ximian
+| darmowy 
+| 
+| GPL
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Opera Mail
+| Opera Software
+| darmowy, część przeglądarki Opera
+| 
+| Własnościowa
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Outlook Express
+| Microsoft
+| część Microsoft Windows
+| 
+| Własnościowa
+|- style="border: 1px gray solid"
+
+! style="text-align: left; background: #ececec" | Pine
+| Uniwersytet w Waszyngtonie
+| darmowy 
+| 
+| [http://www.washington.edu/pine/overview/legal.html Pine License]
+|- style="border: 1px gray solid"
+
+! style="text-align: left; background: #ececec" | i.Scribe/InScribe
+| Memecode
+| darmowy/$20
+| 
+| Własnościowa
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Sylpheed
+| Hiroyuki Yamamoto
+| darmowy
+| 
+| GPL
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | The Bat!
+| RitLabs
+|
+[http://www.ritlabs.com/en/buy_tb.php wysokość opłat online]
+| 
+| Własnościowa
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Zimbra
+| Zimbra
+| darmowy
+| 
+| MPL
+|-style="background: #ececec;"
+!
+! Autor
+! Cena (USD)
+! Open Source
+! Licencja
+|}
+
+==Historia wydań==
+Krótka informacja na temat historii produktu, jego wydań.
+{| border="1" cellpadding="1" cellspacing="0" style="font-size: 85%; border: gray solid 1px; border-collapse: collapse; text-align: center; width: 100%;"
+|- style="background: #ececec; border: 1px gray solid"
+! rowspan="2" style="width:12em" | Program
+! colspan="2" | Pierwsze publiczne wydanie
+! colspan="2" | Pierwsze stabilne wydanie
+! colspan="2" | Ostatnie stabilne wydanie
+! colspan="2" | Ostatnie wydanie testowe
+|- style="background: #ececec"
+! Data
+! Wersja
+! Data
+! Wersja
+! Data
+! Wersja
+! Data
+! Wersja
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Citadel
+| 1987
+| style="background: white;" | ?
+| 1988
+| 1.00
+| Grudzień 2005
+| 6.61
+| style="background: white;" | ?
+| style="background: white;" | ?
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Claws Mail
+| Maj 2001
+| style="background: white;" | 0.4.67
+| Styczeń 2005
+| 1.0.0
+| Grudzień 2006
+| 2.6.1
+| style="background: white;" | Styczeń 2007
+| style="background: white;" | 2.7.0 RC3
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Eudora
+| 1996
+| style="background: white;" | ?
+| 1988
+| style="background: white;" | ?
+| 12 lutego 2006
+| 7.0.1.0
+| style="background: white;" | ?
+| style="background: white;" | ?
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Lotus Notes
+|  1989
+|  1.0
+| 1991
+| style="background: white;" | ?
+| Marzec 2006
+| 7.0.1
+| 29 marca 2006
+| 7.0.2 build 232
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | KMail
+| style="background: white;" | ?
+| style="background: white;" | ?
+| style="background: white;" | ?
+| style="background: white;" | ?
+| 25 stycznia 2007
+| 1.9.6
+| style="background: white;" | ?
+| style="background: white;" | ?
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Mail
+| style="background: white;" | ?
+| style="background: white;" | ?
+| style="background: white;" | ?
+| style="background: white;" | ?
+| 13 marca 2006
+| 2.0.7
+| style="background: white;" | ?
+| style="background: white;" | ?
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Mozilla Mail & Newsgroups
+| 7 grudnia 1998
+| "Preview"
+| 19 marca 1999
+| M3
+| 21 września 2005
+| 1.7.12
+|
+|
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Mozilla Thunderbird
+| 28 lipca 2003
+| 0.1
+| 7 grudnia 2004
+| 1.0
+| 18 kwietnia 2007
+| 2.0
+| 
+| 
+|- style="border: 1px gray solid"
+
+! style="text-align: left; background: #ececec" | Microsoft Outlook
+| 1997
+| 97
+| 1997
+| 97
+| style="background: white;" | ?
+| 11.8010.6568
+(2003SP2)
+| style="background: white;" | ?
+| 12 (2007)
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Mulberry
+| 20 września 1996
+| 1.0
+| 20 września 1996
+| 1.0
+| 20 maja 2005
+| 4.0
+| style="background: white;" | ?
+| style="background: white;" | ?
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Mutt
+| style="background: white;" | ?
+| style="background: white;" | ?
+| style="background: white;" | ?
+| style="background: white;" | ?
+| 12 lutego 2004
+| 1.4.2.1
+| 15 września 2005
+| 1.5.11
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Novell Evolution
+| style="background: white;" | ?
+| style="background: white;" | ?
+| 3 grudnia 2001
+| 1.0
+| 30 maja 2006
+| 2.6.2
+| style="background: white;" | ?
+| 2.7.1
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Opera Mail
+| Wrzesień 1996
+| 2.1b1
+| Grudzień 1996
+| 2.1
+| 15 sierpnia 2007
+| 9.23
+| 4 września 2007
+| 9.5 alpha
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Outlook Express
+| 1996
+| 3.0
+| style="background: white;" | ?
+| style="background: white;" | ?
+| 25 października 2001
+| 6.0
+| style="background: white;" | ?
+| style="background: white;" | ?
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Pine
+| 15 stycznia 1992
+| 2.00
+| style="background: white;" | ?
+| style="background: white;" | ?
+| 28 września 2005
+| 4.64
+| style="background: white;" | ?
+| style="background: white;" | ?
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | i.Scribe/InScribe
+| 1999
+| 1.00
+| style="background: white;" | ?
+| style="background: white;" | ?
+| Listopad 2005
+| 1.88
+| Grudzień 2005
+| 1.89
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Sylpheed
+| Styczeń 2000
+| 0.1.0
+| Grudzień 2004
+| 1.0.0
+| 16 stycznia 2007
+| 2.3.1
+| style="background: white;" | 7 lutego  2007
+| style="background: white;" | 2.4.0.beta3
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | The Bat!
+| style="background: white;" | ?
+| style="background: white;" | ?
+| style="background: white;" | ?
+| style="background: white;" | ?
+| 10 marca 2008
+| 4.0.18
+| 
+| 
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Zimbra
+| style="background: white;" | ?
+| style="background: white;" | ?
+| style="background: white;" | ?
+| style="background: white;" | ?
+| Listopad 2005
+| 3.0 Beta 2
+| style="background: white;" | ?
+| style="background: white;" | ?
+|- style="background: #ececec; border: 1px gray solid"
+! rowspan="2" style="width:12em" | Program
+! colspan="2" | Pierwsze publiczne wydanie
+! colspan="2" | Pierwsze stabilne wydanie
+! colspan="2" | Ostatnie stabilne wydanie
+! colspan="2" | Ostatnie wydanie testowe
+|- style="background: #ececec"
+! Data
+! Wersja
+! Data
+! Wersja
+! Data
+! Wersja
+! Data
+! Wersja
+|}
+
+==Obsługa przez systemy operacyjne==
+System operacyjny obsługujący bez emulacji dane programy pocztowe.
+{| border="1" cellpadding="1" cellspacing="0" style="font-size: 85%; border: gray solid 1px; border-collapse: collapse; text-align: center; width: 100%; table-layout: fixed;"
+|-style="background: #ececec;"
+! style="width:12em" |
+! Microsoft Windows
+! Mac OS X
+! Linux
+! BSD
+! Unix
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Citadel
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Claws Mail
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Eudora
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Lotus Notes
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | KMail
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec"| Mail
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Mozilla Mail & Newsgroups
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Mozilla Thunderbird
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Microsoft Outlook
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Mulberry
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Mutt
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Novell Evolution
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Opera Mail
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Outlook Express
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Pine
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | i.Scribe/InScribe
+| 
+|  (w realizacji)
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Sylpheed
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | The Bat!
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+! style="text-align: left; background: #ececec" | Zimbra
+| 
+| 
+| 
+| 
+| 
+|-style="background: #ececec;"
+!
+! Microsoft Windows
+! Mac OS X
+! Linux
+! BSD
+! Unix
+|}
+
+==Obsługa protokołów==
+Wykaz protokołów oraz standardów obsługiwanych przez dany program pocztowy.
+
+{| border="1" cellpadding="1" cellspacing="0" style="font-size: 85%; border: gray solid 1px; border-collapse: collapse; text-align: center; width: 100%; table-layout: fixed;"
+|- style="background: #ececec;"
+! rowspan="2" style="width:12em" | Program
+! rowspan="2" | POP3
+! rowspan="2" | IMAP4
+! rowspan="2" | SMTP
+! rowspan="2" | NNTP
+! colspan="2" | LDAP
+! rowspan="2" | IMSP
+! rowspan="2" | ACAP
+! colspan="4" | Czytnik kanałów
+! rowspan="2" | iCalendar
+|- style="background: #ececec"
+! v2
+! v3
+! RSS 0.91
+! RSS 1.0
+! RSS 2.0
+! ATOM
+|- style="border: 1px gray solid"
+| Claws Mail
+| 
+| 
+| 
+| 
+| 
+|
+| '''''???'''''
+| '''''???'''''
+| 
+| style="background: #ffffdd;" | Tak<br />''(wymaga wtyczki RSSyl)''
+| style="background: #ffffdd;" | Tak<br />''(wymaga wtyczki RSSyl)''
+| style="background: #ffffdd;" | Tak<br />''(wymaga wtyczki RSSyl)''
+| style="background: #ffffdd;" | Tak<br />''(wymaga wtyczki vCalendar)''
+|- style="border: 1px gray solid"
+| KMail
+| 
+| 
+| 
+| 
+| '''''???'''''
+|
+| '''''???'''''
+| '''''???'''''
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+| Lotus Notes
+| 
+| 
+| 
+| 
+| 
+|
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+| Mail
+| 
+| 
+| 
+| 
+| '''''???'''''
+| '''''???'''''
+| '''''???'''''
+| '''''???'''''
+| '''''???'''''
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+| Mozilla Thunderbird
+| 
+| 
+| 
+| 
+| 
+| 
+| '''''???'''''
+| 
+| 
+| 
+| 
+| 
+| style="background: #ffffdd;" | Tak<br />(z wtyczką)
+|- style="border: 1px gray solid"
+| Mulberry
+| 
+| 
+| 
+| 
+| 
+|
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+| Mutt
+| 
+| 
+| style="background: #ffffdd;" | nie (używa sendmaila)
+| 
+| 
+|
+| '''''???'''''
+| '''''???'''''
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+| Novell Evolution
+| 
+| 
+| 
+| 
+| 
+|
+|
+| 
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+| Opera Mail
+| 
+| 
+| 
+| 
+| 
+| 
+| '''''???'''''
+| '''''???'''''
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+| Outlook
+| 
+| 
+| 
+| 
+| '''''???'''''
+|
+| '''''???'''''
+| '''''???'''''
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+| Outlook Express
+| 
+| 
+| 
+| 
+| '''''???'''''
+|
+| '''''???'''''
+| '''''???'''''
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+| Pine
+| 
+| 
+| 
+| 
+| 
+|
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+| Sylpheed
+| 
+| 
+| 
+| 
+| 
+|
+| '''''???'''''
+| '''''???'''''
+| 
+| style="background: #ffffdd;" | Tak<br />''(wymaga wtyczki RSSyl)''
+| style="background: #ffffdd;" | Tak<br />''(wymaga wtyczki RSSyl)''
+| style="background: #ffffdd;" | Tak<br />''(wymaga wtyczki RSSyl)''
+| style="background: #ffffdd;" | Tak<br />''(wymaga wtyczki vCalendar)''
+|- style="border: 1px gray solid"
+| The Bat!
+| 
+| 
+| 
+| style="background: #ffffdd;" | Tak<br />''(z wtyczką MyGate)''
+| 
+|
+| 
+| 
+| style="background: #ffffdd;" | Tak<br />''(z wtyczkami rss2mail, rss2pop3)''
+| style="background: #ffffdd;" | Tak<br />''(z wtyczkami rss2mail, rss2pop3)''
+| style="background: #ffffdd;" | Tak<br />''(z wtyczkami rss2mail, rss2pop3)''
+| style="background: #ffffdd;" | Tak<br />''(z wtyczkami rss2mail, rss2pop3)''
+| 
+|- style="border: 1px gray solid"
+|- style="background: #ececec;"
+! rowspan="2" style="width:12em" | Program
+! rowspan="2" | POP3
+! rowspan="2" | IMAP4
+! rowspan="2" | SMTP
+! rowspan="2" | NNTP
+! colspan="2" | LDAP
+! rowspan="2" | IMSP
+! rowspan="2" | ACAP
+! colspan="4" | Czytnik kanałów
+! rowspan="2" | iCalendar
+|- style="background: #ececec"
+! v2
+! v3
+! RSS 0.91
+! RSS 1.0
+! RSS 2.0
+! ATOM
+|}
+
+* KDE obsługuje grupy dyskusyjne (NNTP) przy użyciu KNode
+* KDE obsługuje kanały informacyjne (ang. feeds) przy użyciu Akregator
+* [http://www.openntf.org/Projects/pmt.nsf/ProjectHome?ReadForm&Query=Studio%20Blog%20Reader Studio Blog Reader] jest jednym z czytników RSS dla Lotus Notes
+
+===Uwierzytelnianie===
+{| border="1" cellpadding="1" cellspacing="0" style="font-size: 85%; border: gray solid 1px; border-collapse: collapse; text-align: center; width: 100%; table-layout: fixed;"
+|- style="background: #ececec; border: 1px gray solid"
+! rowspan="2" style="width:12em" | Program
+! colspan="8" | Uwierzytelnianie
+|- style="background: #ececec"
+! Zwykłe
+! MSN
+(NTLM)
+! Compuserve (RPA)
+! MD5 APOP
+! MD5 CRAM-HMAC
+! ze sprzętowym tokenem
+PKCS#11
+! Biometryczne
+! SMTP Auth
+|- style="border: 1px gray solid"
+| KMail
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+| Lotus Notes
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+| Mozilla Thunderbird
+| 
+|
+|
+|
+|
+|
+|
+| 
+|- style="border: 1px gray solid"
+| Mulberry
+|
+|
+|
+|
+|
+|
+|
+|
+|- style="border: 1px gray solid"
+| Mutt
+|
+|
+|
+|
+|
+|
+|
+|
+|- style="border: 1px gray solid"
+| Novell Evolution
+| 
+| 
+| 
+| 
+| 
+|
+|
+| 
+|- style="border: 1px gray solid"
+| Opera Mail
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+| Outlook
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+| Outlook Express
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+| Pine
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+| Sylpheed Claws
+| 
+|
+|
+| 
+| 
+|
+|
+| 
+|- style="border: 1px gray solid"
+| TheBat!
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+|- style="background: #ececec;"
+! rowspan="2" style="width:12em" | Program
+! colspan="8" | Uwierzytelnianie
+|- style="background: #ececec"
+! Zwykłe
+! MSN
+(NTLM)
+! Compuserve (RPA)
+! MD5 APOP
+! MD5 CRAM-HMAC
+! ze sprzętowym tokenem<br />PKCS#11
+! Biometryczne
+! SMTP Auth
+|}
+
+* Opis: RFC-2554
+* Opis: RFC-1734
+* Opis: RFC-2095
+
+===Obsługa SSL oraz TLS===
+{| border="1" cellpadding="1" cellspacing="0" style="font-size: 85%; border: gray solid 1px; border-collapse: collapse; text-align: center; width: 100%; table-layout: fixed;"
+|- style="background: #ececec; border: 1px gray solid"
+! rowspan="2" style="width:12em" | Program
+! colspan="2" | Szyfrowane POP3
+! colspan="2" | Szyfrowane IMAP4
+! colspan="2" | Szyfrowane SMTP
+! colspan="2" | Szyfrowane NNTP
+! colspan="2" | Szyfrowane LDAP
+|- style="background: #ececec border: 1px gray solid"
+! SSL
+! TLS&nbsp;
+! SSL
+! TLS&nbsp;
+! SSL
+! TLS&nbsp;
+! SSL
+! TLS
+! SSL
+! TLS
+|- style="border: 1px gray solid"
+| KMail
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|
+|
+|- style="border: 1px gray solid"
+| Lotus Notes
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|- style="border: 1px gray solid"
+| Mozilla Thunderbird
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|
+| 
+|
+|- style="border: 1px gray solid"
+| Mulberry
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|- style="border: 1px gray solid"
+| Mutt
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|- style="border: 1px gray solid"
+| Novell Evolution
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|
+|
+|- style="border: 1px gray solid"
+| Opera Mail
+|
+| &nbsp;
+|
+| &nbsp;
+|
+| &nbsp;
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+| Outlook
+| 
+| 
+| 
+| 
+| 
+| 
+|
+|
+|
+|
+|- style="border: 1px gray solid"
+| Outlook Express
+| 
+| 
+| 
+| 
+| 
+| 
+|
+|
+|
+|
+|- style="border: 1px gray solid"
+| Pine
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+| Sylpheed Claws
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|- style="border: 1px gray solid"
+| TheBat!
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|- style="background: #ececec; border: 1px gray solid"
+! rowspan="2" style="width:12em" | Program
+! colspan="2" | Szyfrowane POP3
+! colspan="2" | Szyfrowane IMAP4
+! colspan="2" | Szyfrowane SMTP
+! colspan="2" | Szyfrowane NNTP
+! colspan="2" | Szyfrowane LDAP
+|- style="background: #ececec"
+! SSL
+! TLS&nbsp;
+! SSL
+! TLS&nbsp;
+! SSL
+! TLS&nbsp;
+! SSL
+! TLS
+! SSL
+! TLS
+|}
+
+The following tables compare general and technical information between a number of e-mail client programs. Please see the individual products articles (if they have one) for further information. This article is not all-inclusive or necessarily up-to-date.
+
+==General==
+Basic general information about the clients: creator/company, license/price etc.
+{| class="wikitable sortable" style="width: auto; text-align: center; font-size: smaller; table-layout: fixed;"
+|-
+! e-mail program
+! Creator
+! Cost
+! Software license
+|-
+! @Mail Open
+| @Mail
+| 
+| Apache License
+|-
+
+! Alpine
+| University of Washington
+| 
+| Apache License
+|-
+
+! Citadel
+| citadel.org
+| 
+| GNU GPL
+|-
+
+! Claws Mail
+| the Claws Mail team
+| 
+| GNU GPL
+|-
+! Cone
+| Courier Mail Server developers
+| 
+| GNU GPL
+|-
+
+! Courier (formerly Calypso)
+| Micro Computer Systems, Inc., continued by Rose City Software
+|  (as of version 3.5)
+| proprietary software
+|-
+! Elm
+| Dave D. Taylor, Sydney Weinstein, Bill Pemberton, Michael Elkins, Kari Hurtta
+| 
+| [http://www.elmme-mailer.org/NOTICE Elm Mail System GPL]
+|-
+! Eudora
+| Qualcomm
+| 
+| Future release, Penelope, will be Free/Open Source based on Mozilla Thunderbird
+|-
+
+! Eureka Email
+| Sean O'Connor
+| 
+| proprietary software
+|-
+
+! Foxmail
+| Tencent 
+| 
+| proprietary software
+|-
+
+! GroupWise
+| Novell
+| Included with GroupWise mailbox license
+| proprietary software
+|-
+! Gnus
+| Gnus team
+| 
+| GNU GPL
+|-
+! KMail
+| The KMail Team
+| 
+| GNU GPL
+|-
+
+! Kerio WebMail
+| Kerio Technologies
+| Part of Kerio MailServer
+| proprietary software
+|-
+! Lotus Notes
+| Lotus Software / IBM
+| 
+| proprietary software
+|-
+
+! Mail
+| Apple Inc. 
+| 
+| proprietary software
+|-
+! Mailsmith
+| Bare Bones Software
+| US$75 incl. SpamSieve
+| proprietary software
+|-
+
+!  nmh/MH
+| RAND Corporation
+| 
+| BSDL
+|-
+
+! Microsoft Entourage
+| Microsoft
+| Part of Microsoft Office for Mac
+| proprietary software
+|-
+
+! Microsoft Office Outlook
+| Microsoft
+| Part of Microsoft Office, US$109 stand-alone
+| proprietary software
+|-
+
+! Mozilla Mail & Newsgroups
+| Mozilla Foundation
+| , part of Mozilla Application Suite
+| MPL, MPL/GNU GPL/GNU LGPL tri-license
+|-
+
+! Mozilla Thunderbird
+| Mozilla Foundation
+| 
+| MPL, MPL/GNU GPL/GNU LGPL tri-license
+|-
+
+! Mulberry
+| Cyrus Daboo (previously Cyrusoft International, Inc./ISAMET
+|  (as of version 4.0.5)
+| ??? (old versions), Apache License
+|-
+
+! Mutt
+| Michael Elkins
+| 
+| GNU GPL
+|-
+
+! Netscape Messenger 9
+| Netscape Communications
+| 
+| MPL, MPL/GNU GPL/GNU LGPL tri-license
+|-
+
+! Novell Evolution
+| Ximian
+| 
+| GNU GPL
+|-
+
+! Open-Xchange
+| Open-Xchange
+| 
+| GNU GPL
+|-
+
+! Opera Mail
+| Opera Software
+| , Part of Opera
+| Freeware
+|-
+
+! Outlook Express
+| Microsoft
+| 
+| proprietary software
+|-
+
+! Pegasus Mail
+| David Harris
+|  
+| 
+|-
+
+! Pine
+| University of Washington
+| 
+| [http://www.washington.edu/pine/overview/legal.html Pine License] 
+|-
+
+! Pocomail
+| Poco Systems
+| $40
+| Proprietary Software
+|-

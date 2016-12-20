@@ -1,0 +1,224 @@
+{| class="infobox" style="text-align:center; float:right; margin:0em 0em 1em 1em; width:20em;"
+| colspan="2" style="font-size:larger;"|'''}'''
+|- 
+}|}|dot.png|| colspan="2" none|}px| 
+-}}}}
+! style="text-align:right;" padding-right:0.5em;"| Основана:
+| }
+}|<tr><th style="text-align:right;" padding-right:0.5em;">Закрита:</th><td>}</td></tr>}}
+|-
+! style="text-align:right;" padding-right:0.5em;" |Седалище:
+| }, }
+}|<tr><th style="text-align:right;" padding-right:0.5em;">Служители:</th><td>}</td></tr>}}<!--
+-->}|<tr><th style="text-align:right;" padding-right:0.5em;">Продукти:</th><td>}</td></tr>}}<!--
+-->}|<tr><th style="text-align:right;" padding-right:0.5em;">Годишен оборот:</th><td>}</td></tr>}}<!--
+-->}|<tr><th style="text-align:right;" padding-right:0.5em;">Годишни приходи:</th><td>}</td></tr>}}<!--
+-->}|<tr><th style="text-align:right;" padding-right:0.5em;">Собственост  на:</th><td>}</td></tr>}}<!--
+-->}|<tr><th style="text-align:right;" padding-right:0.5em;">Компанията притежава:</th><td>}</td></tr>}}<!--
+-->}|<tr><th style="text-align:right;" padding-right:0.5em;">Уеб сайт:</th><td>}</td></tr>}}<!--
+-->}|<tr><th style="text-align:right;" padding-right:0.5em;">Допълнителна информация:</th><td>}</td></tr>}}<!--
+-->}|<tr><th style="text-align:right;" padding-right:0.5em;">Девиз:</th><td>}</td></tr>}}
+|}<noinclude>
+
+'''Употреба'''
+
+За да използвате шаблона копирайте блока долу на нужното място и го попълнете с данните които знаете. Непопълнените полета няма да бъдат показани
+<pre>
+{{Компания инфо
+| име        = 
+| лого       = 
+| основаване = 
+| закриване = 
+| град       = 
+| страна     = 
+| заети      = 
+| продукти   = 
+| годишен оборот  = 
+| годишни приходи =
+| собственост на  =
+| притежава  =
+| девиз      =
+| сайт       =
+| допълнение =
+}}
+</pre>
+
+'''Параметри'''
+
+* ''име'' - задължителен
+* ''лого'' - картинка
+* ''основаване'' - дата
+* ''закриване'' - дата на закриване, незадължителен
+* ''град'' - задължителен
+* ''страна'' - задължителен
+* ''заети'' -  брой на служителите, незадължителен
+* ''продукти'', -  незадължителен
+* ''годишен оборот'' -  незадължителен
+* ''годишни приходи'' - незадължителен
+* ''собственост на'' - незадължителен
+* ''притежава'' - други компании кото са притежание на описваната, незадължителен
+* ''девиз''-официален девиз на компанията
+* ''сайт'' - официален уеб сайт, незадължителен
+* ''допълнение'' - допънителна информация, незадължителен
+
+{| class="infobox vcard" style="font-size:90%; width:23em;"
+! class="fn n org" style="text-align:center; font-size:120%;" colspan="2" | }}}</includeonly>}}}
+{{
+  #if: } } |
+  <tr class="logo">
+  <td colspan="2" style="text-align:center; padding:16px 0 16px 0;">}</includeonly>}}}</td>
+  </tr>
+}}<tr class="note">
+<th style="text-align:right; padding-right:0.75em;">Type</th>
+<td>}</includeonly>}}}</td>
+</tr>
+{{
+  #if: } |
+  <tr class="note">
+  <th style="text-align:right; padding-right:0.75em;">Genre</th>
+  <td>}</td>
+  </tr>
+}}<tr class="note">
+<th style="text-align:right; padding-right:0.75em;">Founded</th>
+<td>}</td>
+</tr>
+{{
+  #if: } |
+  <tr class="note">
+  <th style="text-align:right; padding-right:0.75em;">Founder</th>
+  <td>}</td>
+  </tr>
+}}{{
+  #if: } |
+  <tr class="note">
+  <th style="text-align:right; padding-right:0.75em;">Dissolved</th>
+  <td>}</td>
+  </tr>
+}}<tr>
+<th style="text-align:right; padding-right:0.75em;">Headquarters</th>
+<td class="adr">{{
+  #if: } |
+  <span class="locality">}</span>
+}}{{
+  #if: } |
+  , <span class="country-name">}</span>
+}}{{
+  #if:} |
+  }
+}}</td>
+</tr>
+{{
+  #if: } |
+  <tr class="note">
+  <th style="text-align:right; padding-right:0.75em;">No.&nbsp;of locations</th>
+  <td>}</td>
+  </tr>
+}}{{
+  #if: } |
+  <tr class="note">
+  <th style="text-align:right; padding-right:0.75em;">Area&nbsp;served</th>
+  <td>}</td>
+  </tr>
+}}{{
+  #if: } |
+  <tr class="note">
+  <th style="text-align:right; padding-right:0.75em;">Key&nbsp;people</th>
+  <td>}</td>
+  </tr>
+}}{{
+  #if: } |
+  <tr class="note">
+  <th style="text-align:right; padding-right:0.75em;">Industry</th>
+  <td>}</td>
+  </tr>
+}}{{
+  #if: } |
+  <tr class="note">
+  <th style="text-align:right; padding-right:0.75em;">Products</th>
+  <td>}</td>
+  </tr>
+}}{{
+  #if: } |
+  <tr class="note">
+  <th style="text-align:right; padding-right:0.75em;">Services</th>
+  <td>}</td>
+  </tr>
+}}{{
+  #if: } |
+  <tr class="note">
+  <th style="text-align:right; padding-right:0.75em;">Market cap</th>
+  <td>}</td>
+  </tr>
+}}{{
+  #if: } |
+  <tr class="note">
+  <th style="text-align:right; padding-right:0.75em;">Revenue</th>
+  <td>}</td>
+  </tr>
+}}{{
+  #if: } |
+  <tr class="note">
+  <th style="text-align:right; padding-right:0.75em;">Operating income</th>
+  <td>}</td>
+  </tr>
+}}{{
+  #if: } |
+  <tr class="note">
+  <th style="text-align:right; padding-right:0.75em;">}|yes|Profit|Net income}}</th>
+  <td>}</td>
+  </tr>
+}}{{
+  #if: } |
+  <tr class="note">
+  <th style="text-align:right; padding-right:0.75em;">Total assets</th>
+  <td>}</td>
+  </tr>
+}}{{
+  #if: } |
+  <tr class="note">
+  <th style="text-align:right; padding-right:0.75em;">Total equity</th>
+  <td>}</td>
+  </tr>
+}}{{
+  #if: } |
+  <tr class="note">
+  <th style="text-align:right; padding-right:0.75em;">Owner</th>
+  <td>}</td>
+  </tr>
+}}{{
+  #if: } |
+  <tr class="note">
+  <th style="text-align:right; padding-right:0.75em;">Employees</th>
+  <td>}</td>
+  </tr>
+}}{{
+  #if: } |
+  <tr class="note">
+  <th style="text-align:right; padding-right:0.75em;">Parent</th>
+  <td>}</td>
+  </tr>
+}}{{
+  #if: } |
+  <tr class="note">
+  <th style="text-align:right; padding-right:0.75em;">Divisions</th>
+  <td>}</td>
+  </tr>
+}}{{
+  #if: } |
+  <tr class="note">
+  <th style="text-align:right; padding-right:0.75em;">Subsidiaries</th>
+  <td>}</td>
+  </tr>
+}}{{
+  #if: } |
+  <tr>
+  <th style="text-align:right; padding-right:0.75em;">Website</th>
+  <td class="url">}</td>
+  </tr>
+}}{{
+  #if: } |
+  <tr class="note">
+  <td colspan="2" class="note">}</td>
+  </tr>
+}}
+|}<noinclude>

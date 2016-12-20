@@ -1,0 +1,66 @@
+{{Chembox new
+|   Name = Tin(IV) chloride
+|   ImageFile = Tin(IV) chloride pentahydrate.jpg
+|   ImageFile1 = Tin(IV) chloride.jpg
+|   ImageName = Tin(IV) chloride
+|   IUPACName = Tin tetrachloride<br />Tin(IV) chloride
+|   OtherNames = Stannic chloride
+|   Name = Safety data
+| Section1 = {{Chembox Identifiers
+|   CASNo = 7646-78-8
+  }}
+| Section2 = {{Chembox Properties
+|   Formula = SnCl<sub>4</sub>
+|   MolarMass = 260.50 g/mol
+|   Appearance = fuming liquid
+|   Density = 2.226 g/ml, liquid
+|   Solubility = Decomposes
+|   MeltingPt = -33 °C
+|   BoilingPt = 114.1 °C
+|   Viscosity = ? cP at ? °C
+  }}
+| Section4 = {{Chembox Thermochemistry
+|   DeltaHf = 
+|   Entropy = 
+  }}
+| Section7 = {{Chembox Hazards
+|   EUClass = Corrosive ('''C''')
+|   RPhrases = R34, R52/53
+|   SPhrases = S1/2, S7/8, S26,<br />S45, S61
+  }}
+| Section8 = {{Chembox Related
+|   OtherAnions = Tin(IV) fluoride<br />Tin(IV) bromide<br />Tin(IV) iodide
+|   OtherCations = Tin(II) chloride<br />Germanium tetrachloride<br />Lead(IV) chloride}}
+}}
+'''Tin(IV) chloride''', also known as '''tin tetrachloride''' or '''stannic chloride''' is a SnCl<sub>4</sub>.
+At room temperature it is a colourless liquid, which fumes on contact with air, giving a stinging odour. It was first discovered by A Libavius (1550-1616) and was known as "spiritus fumans libavii" .<ref name = "Wiberg&Holleman">Egon Wiberg, Arnold Frederick Holleman (2001) ''Inorganic Chemistry'', Elsevier ISBN 0123526515</ref>
+==Preparation==
+It is prepared from reaction of chlorine gas with elemental tin.
+
+==Reactions==
+When mixed with a small amount of water a semi-solid crystalline mass of the pentahydrate, SnCl<sub>4</sub>.5H<sub>2</sub>O is formed.<ref name = "Wiberg&Holleman"/> This was formerly known as ''butter of tin''<ref name = "Wiberg&Holleman"/>. This compound has been shown to be best described as [SnCl<sub>4</sub>(H<sub>2</sub>O)<sub>2</sub>].3H<sub>2</sub>O, consisting of ''cis''-[SnCl<sub>4</sub>(H<sub>2</sub>O)<sub>2</sub>] units linked in chains with three hydrate water molecules.<ref>Structures of di-μ-hydroxobis[aquatrichlorotin(IV)]-1,4-dioxane(1/3), di-μ-hydroxobis[aquatrichlorotin(IV)]-1,8-epoxy-p-menthane(1/4), di-m-hydroxobis[aquatribromotin(IV)]-1,8-epoxy-p-menthane(1/4), di-μ-hydroxobis[aquatrichlorotin(IV)], and cis-diaquatetrachlorotin(IV) , Journal of the Chemical Society, Dalton Transactions: Inorganic Chemistry (1972-1999) (1980), (6), 949-53 </ref> <br />
+With hydrochloric acid the complex [SnCl<sub>6</sub>]<sup>2−</sup> is formed making the so-called hexachlorostannic acid.<ref name = "Wiberg&Holleman"/><br />
+Anhydrous tin(IV) chloride is a strong Lewis acid and complexes with e.g. ammonia, phosphine and phosphorus pentachloride are known.<ref name = "Wiberg&Holleman"/><br />
+SnCl<sub>4</sub> is used in Friedel-Crafts reactions as a catalyst for homogeneous alkylation and cyclisation.<ref name = "Wiberg&Holleman"/><br />
+With Grignard reagents tetraalkyltin compounds can be prepared<ref name = "Greenwood"></ref>:-
+:SnCl<sub>4</sub> + RMgCl → SnR<sub>4</sub>
+
+==Uses==
+
+Stannic chloride was used as a chemical weapon in World War I.  It is also used in the glass container industry for making an external coating containing tin(IV) oxide which toughens the glass. It is a starting material for organotin compounds.
+
+Stannic chloride is used in chemical reactions with fuming (90%) nitric acid for the selective nitration of activated aromatic rings in the presence of unactivated ones.<ref>Thurston, D. E. ''et al''. (1990). ''Synthesis'' 81&ndash;84.</ref>
+
+'''Хлорид олова(IV)''' ('''тетрахлорид олова''', '''оловянное масло''') — SnCl<sub>4</sub>.
+
+Тяжелая бесцветная (иногда желтоватая) жидкость удельного веса 2,28, кипит около 114&nbsp;°C, затвердевает около −33&nbsp;°C. На воздухе она дымит (алхимики её называли Spiritus fumans Libavii).
+
+== История ==
+Вещество получено немецким Андреасом Либавием в 1597 г. Позднее тетрахлорид олова назвали дымящим спиртом Либавия.
+
+Тетрахлорид олова оказывает раздражающее действие на кожу, поэтому он использовался как Первой мировой войны.
+
+== Получение ==
+В лабораторных условиях тетрахлорид может быть получен одним из следующих способов:
+# Прямой синтез: <br> Sn + 2Cl<sub>2</sub> = SnCl<sub>4</sub> (реакция сопровождается большим выделением тепла)
+# Хлорирование безводного дихлорида олова: <br> SnCl<sub>2</sub> + Cl<sub>2</sub> = SnCl<sub>4</sub>

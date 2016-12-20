@@ -1,0 +1,111 @@
+{{Infobox_OS |
+  name = KateOS |
+  screenshot = <!-- Do NOT change the screenshot unless there is BIG change in the UI. When taking screenshot, please resize your window (e.g. 640*480), disable your extensions and use the default theme. --><!-- Deleted image removed: 250px|KateOS III  -->|
+  caption = KateOS III running Xfce |
+  developer = Damian Rakowski |
+  family = Linux |
+  source_model = Open source |
+  working_state = Current |
+  latest_release_version = 3.6 |
+  latest_release_date =  |
+  kernel_type = Monolithic kernel |
+  license = Various |
+  website = [http://www.kateos.org/ kateos.org] |
+  logo = 250px
+}}
+'''KateOS''' is a Linux distribution originally based on Slackware. It is designed for intermediate users. Its package management system uses so called TGZex (.tgz) packages, which unlike Slackware packages support dependency tracking (optional), internationalized descriptions, and are much easier to update. There are two native tools for package management: ''PKG'' and ''Updateos''.
+The current version of KateOS is KateOS III (3.6), and is also available as a Live CD.
+
+== History ==
+The KateOS project was founded at the end of 2003. The founder and current leader is Damian Rakowski.
+
+{| class="wikitable"
+|-
+! KateOS version
+! Release date
+|-
+| 1.0
+| 9 October 2004
+|-
+| 2.0
+| 9 April 2005
+|-
+| 2.1
+| 23 June 2005
+|-
+| 2.3
+| 13 October 2005
+|-
+| 3.0
+| 9 July 2006
+|-
+| 3.1
+| 7 October 2006
+|-
+| 3.2
+| 21 December 2006
+|-
+| 3.6
+| 17 September 2007
+|}
+
+'''Kate Linux 1.0 Rabbit (series I)'''
+
+The first version of the system was published on PAM authentication mechanism, and possessed an enriched package set. Due to the problems with the main server which only worked once in a blue moon, hardly anyone learned about the existence of Kate 1.0.  After a move to another server, the project has begun to gradually acquire users. After some time, Kate 1.0.1 (a fix release including UpdatePack 1), and a Live version have been published.
+
+'''Kate Linux 2.0 Zyklon (series II)'''
+
+Version 2.0 was published on 2005-04-09, and was no longer based on Slackware. It was a long-term edition, the base for further development. It was also the first edition using Linux 2.6.
+
+On 2005-05-06 the name of the project has been changed to KateOS.
+
+On 2005-05-22 version '''2.0.1''' was published, providing a tool for managing and remote updating the TGZex packages. The tool was called Updateos, and was written by Piotr Korzuszek.
+
+On 2005-06-23 version '''2.1''' was published. Updateos now could install packages remotely.
+
+On 12 August 2005  the first '''Live''' edition of series II was published. It had a more distinctive graphical design, used the X Server automatically.
+
+On 2005-10-13 the last version of series II was published - '''2.3'''. Updateos gained new possibilities, and the system had a better hardware autodetection with the Discover tool.
+
+{{System operacyjny infobox
+|nazwa= KateOS
+|logo=KateOS_logo.png
+|rozmiar=128px
+|rodzina=Linux
+|wersja=3.6 (nazwa kodowa: Virgin), wydana 17 września 2007
+|data=2004
+|producent=[http://kateos.org/ KateOS Project]
+|licencja=GPL
+|system=i486
+|kernel=monolityczny
+|środowisko=Xfce
+|www=[http://kateos.org kateos.org]
+|distrowatch=kate
+|pakiety=TGZex
+|live=tak
+|grafika=KateOS_3.0_Xfce_default.png
+}}
+
+'''KateOS''' – polska dystrybucja Linuksa, przeznaczona dla średnio zaawansowanych użytkowników tego systemu. KateOS łączy nowoczesne technologie wraz z prostotą i praktycznością systemu, co czyni tę dystrybucję unikalną. System używa rozwiniętego systemu pakietów .tgz, który nazwano TGZex. Pakiety tego typu, w przeciwieństwie do tych znanych ze Slackware, obsługują zależności (opcjonalnie), wielojęzyczne opisy oraz są dużo łatwiejsze w aktualizacji. Do zarządzania pakietami służą natywne narzędzia KateOS - ''PKG'' i ''Updateos''.
+
+== Założenia ==
+Celem projektu KateOS jest stworzenie systemu operacyjnego który będzie odpowiedzią na dziurę rynkową spowodowaną, w mniemaniu autorów, podziałem wszystkich dystrybucji Linuksa na trzy typy (typu desktop, serwerowe, ogólnego użytku). Przez połączenie najlepszych cech ze wszystkich typów dystrybucji Linuksa oraz dalszy rozwój, KateOS ma stać się odpowiednią dystrybucją dla prawie każdego (administrator, programista, użytkownik domowy). Cele te mają zostać osiągnięte za pomocą możliwie najprostszych rozwiązań, które nie naruszą struktury całego systemu i pozwolą użytkownikom na ręczne modyfikacje.
+
+== Historia ==
+Projekt KateOS powstał pod koniec 2003 roku. Jego założycielem jest Damian Rakowski będący aktualnym liderem projektu.
+
+'''Kate Linux 1.0 Rabbit (seria I)'''
+
+Pierwsza wersja systemu została wydana w połowie roku 2004. System bazował na Slackware 9.0, jednak w odróżnieniu do dystrybucji bazowej, używał mechanizmu autoryzacji PAM, oraz posiadał wzbogacony zestaw pakietów, który zapewniał pełną obsługę multimediów. Z powodu problemów z serwerem głównym (który rzadko kiedy był włączony) mało osób dowiedziało się o istnieniu projektu. Po zmianie serwera dystrybucja powoli zaczęła zdobywać użytkowników. Kate Linux 1.0 był jedną z pierwszych dystrybucji, która zaadoptowała środowisko graficzne Xfce (4.0), jako domyślne biurko. Po pewnym czasie wyszedł Kate Linux 1.0.1, który był wydaniem poprawkowym (zawierającym UpdatePack 1), oraz wersja Live systemu.
+
+'''Kate Linux 2.0 Zyklon (seria II)''' 
+
+Kolejna seria, którą rozpoczynała wersja 2.0 była już systemem oderwanym od Slackware. System został wydany 9 kwietnia 2005 roku, wywołując skandal swoją nazwą kodową. Wiele osób mylnie skojarzyło nazwę Zyklon z Zyklon-B, oskarżając twórców systemu o związek z organizacjami faszystowskimi. Ponieważ w Kate_Teamie były jedynie osoby, których rodziny były ofiarami II wojny światowej sytuacja bardzo szybko się wyjaśniła. Choć wiele osób kojarzy nazwę kodową serii z deathmetalowym zespołem Zyklon, nazwa ta powinna w tym przypadku być kojarzona z niemieckim słowem oznaczającym cyklon (huragan). Dzięki temu drobnemu zamieszaniu, projekt uzyskał większy rozgłos i rozpoczął się okres dynamicznego rozwoju Kate Linux. Kate 2.0 po raz pierwszy posiadał rozszerzone pakiety TGZex, które były gotowe do zdalnej aktualizacji. Z powodu zamieszania w Kate_Teamie 2.0 został wydany bez narzędzia wykorzystującego możliwości tych pakietów. Wersja 2.0 była wydaniem perspektywicznym, bazą dla kolejnych modyfikacji systemu. Była to także pierwsza wersja używająca jądra Linux 2.6.   
+
+6 maja 2005, projekt zmienił nazwę na KateOS. Zmiana była wymuszona z powodu konfliktu nazwy z edytorem tekstu KDE (kate). 
+
+22 maja 2005 została wydana wersja '''2.0.1''', która jako pierwsza w historii projektu dostarczała narzędzie do zdalnej aktualizacji pakietów. Piotr Korzuszek napisał pierwszą wersję sztandarowego programu KateOS - Updateos. Program pozwalał na banalnie prostą aktualizację systemu, dzięki czemu użytkownicy serii mogli przez kolejne 10 miesięcy aktualizować swój system. Nowa wersja poprawiała wiele wykrytych błędów.
+
+21 czerwca systemu wątków - wątek), oraz obsługiwał system plików Reiser4. 
+
+13 sierpnia serwera X.  

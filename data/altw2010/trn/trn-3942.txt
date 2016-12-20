@@ -1,0 +1,168 @@
+'''Message Passing Interface''' ('''MPI''') (z ang. ''Interfejs Transmisji Wiadomości'') – programów równoległych działających na jednym lub więcej komputerach. Pierwsza wersja standardu ukazała się w maju 1994 r. Standard MPI implementowany jest najczęściej w postaci bibliotek, z których można korzystać w programach tworzonych w różnych językach programowania, np. C, Ada.
+
+== Historia ==
+Różne środowiska przesyłania komunikatów dla potrzeb programowania równoległego były projektowane i rozwijane już na początku lat 80. XX wieku. Kilka z nich było budowanych dla specjalnych celów, na przykład dla maszyn takich jak Caltech N-cube. Niektóre były rozwijane dla sieci UNIX – Workstation. Były to między innymi PVM, Argonne's P4 oraz PICL. 
+
+Ohio Superkomputer Center opublikował standard przesyłania komunikatów o nazwie chemii kwantowej nazwany później TCGMSG. Powstał również wyprodukowany przez tę samą firmę komercyjny pakiet o nazwie Express, przeznaczony dla systemów N-cube.
+
+Ponieważ autorzy tych licznych bibliotek w ramach swoich projektów dublowali podobną funkcjonalność, w październiku 1992 roku, podczas konferencji Supercomputing 92 uczestnicy doszli do porozumienia w sprawie opracowania wspólnego standardu przesyłu komunikatów, skupiającego i wykorzystującego na ile to możliwe wszystkie najlepsze rozwiązania z obecnych środowisk. 
+W tym właśnie momencie narodził się także standard przesyłania komunikatów MPI.
+
+Kilka bibliotek, takich jak Microsoft, zwanego Wolfpack. ISIS był oparty na idei wirtualnej synchronizacji procesów. Dla zastosowań naukowych bądź komercyjnych biblioteka była nie do przyjęcia, ze względu na duży spadek wydajności spowodowany koniecznością synchronizacji. Tymczasem w przypadku MPI synchronizacja nie była wymogiem krytycznym.
+
+Pierwszy standard MPI nazwany później MPI-1 był gotowy w maju 1994 roku Drugi standard zwany MPI-2 ukończono w 1998 roku. Nie cieszył się on dużą popularnością, ponieważ rok wcześniej opracowano MPICH, w którym zaimplementowano część poprawek wprowadzanych w MPI-2. MPICH i LAM MPI to najczęściej stosowane implementacje standardu MPI.
+
+Powstało też kilka specyficznych odmian MPI przystosowywanych przez producentów superkomputerów specjalnie dla tych maszyn. Firma SGI udostępnia na swoje platformy pakiet MPT (ang. ''Message Passing Toolkit'') implementujący standard MPI.
+
+Od czasu wypuszczenia w 1998 roku standardu MPI-2, wprowadzano w nim jeszcze długo korekty i jego pierwsza zaawansowana implementacja została przedstawiona dopiero w listopadzie 2002 roku. 
+
+W standardzie MPI-2 zdefiniowano równoległe operacje wejścia/wyjścia, które pierwotnie zostały zawarte w pakiecie MPI-IO rozwijanym specjalnie na potrzeby NASA, a następnie zmodyfikowane i przeniesione do nowego MPI-2.
+
+== Opis ==
+MPI jest specyfikacją biblioteki funkcji opartych na modelu wymiany komunikatów dla potrzeb programowania równoległego. 
+Transfer danych pomiędzy poszczególnymi sieci.
+ 
+Program w MPI składa się z niezależnych procesów operujących na różnych danych (pamięci współdzielonej też jest możliwe.
+
+'''Message Passing Interface''' ('''MPI''') is a specification for an supercomputers.
+
+==Overview==
+MPI is a language-independent communications protocol used to program parallel computers.  Both point-to-point and collective communication is supported.  MPI "is a message-passing application programmer interface, together with protocol and semantic specifications for how its features must behave in any implementation."<ref>Gropp ''et al'' 96, p.3</ref>  MPI's goals are high performance, scalability, and portability.  MPI remains the dominant model used in high-performance computing today.<ref>[http://portal.acm.org/citation.cfm?id=1188565 High-performance and scalable MPI over InfiniBand with reduced memory usage<!-- Bot generated title -->]</ref>
+
+MPI is not sanctioned by any major standards body; nevertheless, it has become the ''standard for parallel program running on a distributed memory system. Actual distributed memory supercomputers such as computer clusters often run these programs. The principal MPI-1 model has no shared memory concept, and MPI-2 has only a limited distributed shared memory concept.  Nonetheless, MPI programs are regularly run on shared memory computers.  Designing programs around the MPI model (as opposed to explicit NUMA architectures since MPI encourages memory locality.
+
+Although MPI belongs in layers 5 and higher of the socket and TCP being used in the transport layer.
+
+Most MPI implementations consist of a specific set of routines (i.e., an API) callable from C, or C++ and from any language capable of interfacing with such routine libraries.  The advantages of MPI over older message passing libraries are portability (because MPI has been implemented for almost every distributed memory architecture) and speed (because each implementation is in principle optimized for the hardware on which it runs).
+
+MPI has Language
+Independent Specifications (LIS) for the function calls and language bindings.  The first MPI standard specified ANSI C and Fortran-77 language bindings together with the LIS.  The draft of this standard was presented at
+Supercomputing 1994 (November 1994) and finalized soon thereafter.  About 128 functions constitute the MPI-1.2 standard
+as it is now defined.
+
+There are two versions of the standard that are currently popular: version 1.2 (shortly called MPI-1), which emphasizes message passing and has a static runtime environment, and MPI-2.1 (MPI-2), which includes new features such as parallel I/O, dynamic process management and remote memory operations.<ref name="Gropp99adv-pp4-5">Gropp ''et al'' 1999-advanced, pp.4-5</ref> MPI-2's LIS specifies over 500 functions and provides language bindings for ANSI C, ANSI Fortran (Fortran90), and ANSI C++. Interoperability of objects defined in MPI was also added to allow for easier mixed-language message passing programming.  A side effect of MPI-2 standardization (completed in 1996) was clarification of the MPI-1 standard, creating the MPI-1.2 level.
+
+It is important to note that MPI-2 is mostly a superset of MPI-1, although some functions have been deprecated.  Thus MPI-1.2 programs still work under MPI implementations compliant with the MPI-2 standard.
+
+MPI is often compared with PVM, which is a popular distributed environment and message passing system developed in 1989, and which was one of the systems that motivated the need for standard parallel message passing systems.   Threaded shared memory programming models (such as Pthreads and OpenMP) and message passing programming (MPI/PVM) can be considered as complementary programming approaches, and can occasionally be seen used together in applications where this suits architecture, e.g. in servers with multiple large shared-memory nodes.
+
+==Functionality==
+
+The MPI interface is meant to provide essential virtual topology, core in a multicore machine) will be assigned just a single process. This assignment happens at runtime through the agent that starts the MPI program, normally called mpirun or mpiexec.
+
+The MPI library functions include, but are not limited to, point-to-point rendezvous-type send/receive operations, choosing between a graph-like logical process topology, exchanging data between process pairs (send/receive operations), combining partial results of computations (gathering and reduction operations), synchronizing nodes (barrier operation) as well as obtaining network-related information such as the number of processes in the computing session, current processor identity that a process is mapped to, neighboring processes accessible in a logical topology, and so on.   Point-to-point operations come in synchronous, asynchronous, buffered, and ''ready'' forms, to allow both relatively stronger and weaker semantics for the synchronization aspects of a rendezvous-send.
+Many outstanding operations are possible in asynchronous mode, in most implementations.
+
+MPI-1 and MPI-2 both enable implementations that do good work in overlapping communication and computation, but practice and theory differ.  MPI also specifies ''thread safe'' interfaces, which have cohesion and coupling strategies that help avoid the manipulation of unsafe hidden state within the interface.  It is relatively easy to write multithreaded point-to-point MPI code, and
+some implementations support such code.  Multithreaded collective communication is best accomplished by using multiple copies of Communicators, as described below.
+
+==Concepts==
+MPI provides a rich range of capabilities. The following concepts help in understanding and providing context for all of those capabilities and help the programmer to decide what functionality to use in their application programs.
+
+There are eight basic concepts of MPI, four of which are only applicable to MPI-2.
+
+===Communicator===
+Communicators are objects connecting groups of processes in the MPI session.  Within each communicator each contained process has an independent identifier and the contained processes are arranged in an ordered topology.  MPI also has explicit groups, but these are mainly good for organizing and reorganizing subsets of processes, before another communicator is made.  MPI understands single group intracommunicator operations, and bi-partite (two-group) intercommunicator communication. In MPI-1, single group operations are most prevalent, with bi-partite operations finding their biggest role in MPI-2 where their usability is expanded to include
+collective communication and in dynamic process management.
+
+Communicators can be partitioned using several commands in MPI, these commands include a graph-coloring-type algorithm called MPI_COMM_SPLIT, which is commonly used to derive topological and other logical subgroupings in an efficient way.
+
+===Point-to-point basics===
+A number of important functions in the MPI API involve communication between two specific processes. A much used example is the MPI_Send interface, which allows one specified process to send a message to a second specified process. Point-to-point operations, as these are called, are particularly useful in patterned or irregular communication, for example, a data-parallel architecture in which each processor routinely swaps regions of data with specific other processors between calculation steps, or a master-slave architecture in which the master sends new task data to a slave whenever the previous task is completed.
+
+MPI-1 specifies mechanisms for both blocking and non-blocking point-to-point communication mechanisms, as well as the so-called 'ready-send' mechanism whereby a send request can be made only when the matching receive request has already been made.
+
+===Collective basics===
+Collective functions in the MPI API involve communication between all processes in a process group (which can mean the entire process pool or a program-defined subset). A typical function is the MPI_Bcast call (short for "broadcast"). This function takes data from one specially identified node and sends that message to all processes in the process group. A reverse operation is the MPI_Reduce call, which is a function designed to take data from all processes in a group, performs a user-chosen operation (like summing), and store the results on one individual node. These types of calls are often useful at the beginning or end of a large distributed calculation, where each processor operates on a part of the data and then combines it into a result.
+
+There are also more complex operations such as MPI_Alltoall, which rearranges ''n'' items of data from each processor such that the ''n''th node gets the ''n''th item of data from each.
+
+===Derived Datatypes===
+Many MPI functions require that you specify the type of the data which is send between processor. This is because that arguments to MPI functions are variables, not defined types.  If data type is a standard one, such as, int, char, double, etc, you can use predefined MPI datatypes such as MPI_INT, MPI_CHAR, MPI_DOUBLE. Suppose your data is an array of ints and all the processors want to send their array to the root with MPI_Gather.
+
+Here is C example on how to do it
+<source lang="c">
+int array[100]; 
+int root, total_p, *receive_array;
+
+MPI_Comm_size(comm, &total_p);
+receive_array=(int *) malloc(total_p*100*sizeof(int));
+MPI_Gather(array, 100, MPI_INT, receive_array, 100, MPI_INT, root, comm);
+</source>
+
+However, you may instead wish to send your data as one block as opposed to 100 ints.  You can do this by defining a continuous block derived data type.
+<source lang="c">
+MPI_Datatype newtype;
+MPI_Type_contiguous(100, MPI_INT, &newtype);
+MPI_Type_commit(&newtype);
+MPI_Gather(array, 1, newtype, receive_array, 1, newtype, root, comm);
+</source>
+
+Sometimes, your data might be a class or a data structure. In this case, there is not a predefined data type and you have to create one.  You can make an MPI derived data type from MPI_predefined data types, by using MPI_Type_create_struct, which has the following format:
+<source lang="c">
+int MPI_Type_create_struct(int count, int blocklen[], MPI_Aint disp[], MPI_Datatype type[], MPI_Datatype *newtype)
+</source>
+
+where count is a number of blocks, also number of entries in types[], disp[] and blocklen[], blocklen[] — number of elements in each block (array of integer), disp[] — byte displacement of each block (array of integer), type[] — type of elements in each block (array of handles to datatype objects). 
+
+The disp[] array is needed because processors require the variables to be aligned a specific way on the memory. For example, Char is one byte and can go anywhere on the memory.  Short is 2 bytes, so it goes to even memory addresses.  Long is 4 bytes, it goes on locations divisible by 4 and so on.  compiler tries to accommodate this architecture in a class or data structure by putting padding between the variables.  The safest way to find the distance between different variables in a data structure is by using their addresses by another MPI function, MPI_Get_address.  You can use this function to calculate the displacement of all the elements of the data structure from the begining of the data structure. 
+
+Suppose you have the following data structures:
+
+<source lang="c">
+  typedef struct{
+     int f;
+     short p;
+   } A
+ 
+  typedef struct{
+    A a;
+    int pp,vp;
+   } B
+</source>
+
+Here's the C code for building MPI-derived data type:
+<source lang="c"> 
+void define_MPI_datatype(){
+
+  int blocklen[6]={1,1,1,1,1,1}; //The first and last elements mark the beg and end of data structure
+  MPI_Aint disp[6];
+  MPI_Datatype newtype;
+  MPI_Datatype type[6]={MPI_LB, MPI_INT,MPI_SHORT,MPI_INT, MPI_UB};
+  B findsize[2]; //You need an array to establish the upper bound of the data structure
+  MPI_Aint findsize_addr, a_addr, f_addr, p_addr, pp_addr, vp_addr, UB_addr;
+  int error;
+
+  MPI_Get_address(&findsize[0], &findsize_addr);
+  MPI_Get_address(&(findsize[0]).a, &a_addr);
+  MPI_Get_address(&((findsize[0]).a).f, &f_addr);
+  MPI_Get_address(&((findsize[0]).a).p, &p_addr);
+  MPI_Get_address(&(findsize[0]).pp, &pp_addr);
+  MPI_Get_address(&(findsize[0]).vp, &vp_addr);
+  MPI_Get_address(&findsize[1],&UB_addr);
+
+  disp[0]=a_addr-findsize_addr;
+  disp[1]=f_addr-findsize_addr;
+  disp[2]=p_addr-findsize_addr;
+  disp[3]=pp_addr-findsize_addr;
+  disp[4]=vp_addr-findsize_addr;
+  disp[5]=UB_addr-findsize_addr;
+
+  error=MPI_Type_create_struct(6, blocklen, disp, type, &newtype);
+  MPI_Type_commit(&newtype);
+}
+</source>
+
+===One-sided communication (MPI-2)===
+MPI-2 defines three one-sided communications operations, Put, Get, and Accumulate, being a write to remote memory, a read from remote memory, and a reduction operation on the same memory across a number of tasks. Also defined are three different methods for synchronising this communication - global, pairwise, and remote locks - as the specification does not guarantee that these operations have taken place until a synchronisation point.
+
+These types of call can often be useful for algorithms in which synchronisation would be inconvenient (e.g. distributed matrix multiplication), or where it is desirable for tasks to be able to balance their load while other processors are operating on data.
+
+===Collective extensions (MPI-2)===
+This section needs to be developed.
+
+===Dynamic process management (MPI-2)===
+The key aspect of this MPI-2 feature is "the ability of an MPI process to participate in the creation of new MPI processes or to establish communication with MPI processes that have been started separately.".<ref name="Gropp99adv-p7">Gropp ''et al'' 1999-advanced, p.7</ref>
+
+===MPI I/O (MPI-2)===
+The Parallel I/O feature introduced with MPI-2, is sometimes shortly called MPI-IO,<ref name="Gropp99adv-pp5-6">Gropp ''et al'' 1999-advanced, pp.5-6</ref> and refers to a collection of functions designed to allow the difficulties of managing I/O on distributed systems to be abstracted away to the MPI library, as well as allowing files to be easily accessed in a patterned fashion using the existing derived datatype functionality.

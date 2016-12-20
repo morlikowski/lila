@@ -1,0 +1,45 @@
+'''Leon Henkin'''  (19 April 1921–1 November2006) was a logician at the University of California, Berkeley. He was principally known for the "Henkin completeness proof": his version of the proof of the semantic completeness of standard systems of first-order logic.
+
+==The completeness proof==
+
+Henkin's result was not novel; it had first been proved by Kurt Gödel in his doctoral dissertation which was completed in 1929. (See Gödel's completeness theorem. Gödel published a version of the proof in 1930.) Henkin's 1949 proof is much easier to survey than Gödel's and has thus become the standard choice of completeness proof for presentation in introductory classes and texts.
+
+The proof is non-constructive (a pure existence proof): while it guarantees that if a sentence &alpha; follows (semantically) from a set of sentences &Sigma;, then there ''is'' a proof of &alpha; from &Sigma;, it gives no indication of the nature of that proof. 
+
+Henkin originally proved the completeness of Church's higher-order logic, and then observed that the same methods of proof could be applied to first-order logic.
+Henkin's proof for higher-order logic uses a variant of the standard semantics.
+This variant uses general models
+(also called Henkin models): the higher types need not be interpreted by the full space of functions; a subset of the function space may be used instead.
+
+==Early life==
+
+He was born in Columbia College, in 1941. He took a master's degree there in 1942.
+
+He then worked in the Signal Corps Radar Laboratory, Belmar, New Jersey. As participant in the Manhattan project, he worked on isotope diffusion, in New York, and Oak Ridge, Tennessee.
+
+==Academic career==
+
+{{Info biografia
+|nome                 = Leon Henkin
+|imagem               = Leon.Henkin.jpg
+|imagem_tamanho       = 200px
+|legenda              = Lógico responsável pelo demonstração mais usual do Teorema da Completude em lógicas de primeira ordem.
+|data_nascimento      = 19 de abril de 1921
+|local_nascimento     = Nova Iorque,NY, Estados Unidos
+|data_morte           = 1 de novembro de 2006
+|nacionalidade        = Americano
+|ocupação             = Matemático e Lógico
+}}
+'''Leon Henkin''' (lógica de primeira ordem.
+
+==O teorema da completude==
+
+O resultado obtido por Henkin não foi uma novidade: havia sido provado primeiro por Kurt Gödel, em sua dissertação de doutorado, de 1929 (Ver Teorema da completude de Gödel). A desmonstração proposta por Henkin em 1949 é muito mais simples do que a de Gödel e, portanto, tornou-se a escolha padrão da demonstração do teorema da completude para apresentação em turmas ou textos introdutórios. A demonstração de Henkin é não-construtiva, ou puramente existencial: enquanto ela garante que se uma sentença α segue (semanticamente) de um conjunto de sentenças Σ, então ''há'' uma derivação de α a partir de Σ, ela não dá porém nenhuma indicação da natureza desta derivação.
+
+Mais tarde, Henkin generalizou seu resultado para uma variante das lógicas ordem superior de Alonzo Church. Esta variante usa modelos gerais (também conhecidos como modelos de Henkin), os quais não precisam ser interpretados pelo espaço de funções inteiro. Ao invés disso, um subconjunto do espaço de funções pode ser utilizado.
+
+==Juventude==
+
+Nascido no Brooklyn, em uma família de imigrande russos judeus, Graduou-se em Matemática e Filosofia pela Universidade de Columbia, em 1941. Obteve o título de mestre lá em 1942
+
+Trabalhou então no Signal Corps Radar Laboratory em Belmar, New Jersey. Como participante no Projeto Manhattan, ele trabalhou com difusão de isótopos, em Nova Iorque, e em Oak Ridge, Tennessee.

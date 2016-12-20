@@ -1,0 +1,51 @@
+'''Мессбауерівська спектроскопія''' (, ; ) – метод дослідження електроно-ядерних взаємодій і атомномолекулярної динаміки в твердих тілах. М.с. основана на використанні явища резонансного випромінювання і поглинання радіонуклідів) або поглиначів (нуклідів), мають свій характерний спектр випромінювання або поглинання відповідно. Вивчаючи ці спектри, можна судити про хім. склад і структуру досліджуваної речовини. М.с. застосовується в геології для фазового аналізу руд і мінералів і як експресний метод, що має абс. вибірковість. Найбільш поширені дослідження залізо- і олововмісних руд і мінералів, однак немає принципових труднощів для застосування М.с. до вивчення природних сполук золота, рідкісноземельних елементів, актиноїдів і ін. елементів. Крім того, М.с. може бути використана для вирішення завдань сейсмогеохімії, практичної і пошукової геології. 
+
+==Література==
+*
+
+'''Mössbauer spectroscopy''' () is a spectroscopic technique based on the gamma radiation, and a detector measures the intensity of the beam that is transmitted through the sample, which will change depending on how many gamma rays are absorbed by the sample. The atoms in the source emitting the gamma rays are the same as the atoms in the sample absorbing them.  As can be explained through the Mössbauer effect, a significant fraction of the gamma rays emitted by the atoms in the source do not lose any energy due to recoil and thus have almost the right energy to be absorbed by the target atoms. The gamma-ray energy is varied by accelerating the gamma-ray source through a range of velocities with a linear motor.  The relative motion between the source and sample results in an energy shift due to the Doppler effect.
+
+In the resulting spectra, gamma-ray intensity is plotted as a function of the source velocity.  At velocities corresponding to the resonant energy levels of the sample, some of the gamma-rays are absorbed, resulting in a drop in the measured intensity and a corresponding dip in the spectrum.  The number, positions, and intensities of the dips (also called peaks) provide information about the chemical environment of the absorbing nuclei and can be used to characterize the sample.
+
+In order for Mössbauer absorption of gamma-rays to occur, the gamma-ray must be of the appropriate energy for the nuclear transitions of the atoms being probed, which is almost always achieved by having the same atoms of the same isotope in both the source and the target.  Also, the gamma-ray energy should be relatively low, otherwise the system will have a low recoil-free fraction (see Fe, <sup>129</sup>I, <sup>119</sup>Sn, and <sup>121</sup>Sb. Of these, <sup>57</sup>Fe is by far the most common element studied using the technique. 
+
+==Mössbauer spectrometers==
+A '''Mössbauer spectrometer''' is a device that performs Mössbauer spectroscopy, or a device that uses the Mössbauer effect to determine the chemical environment of a sample. Dr. Göstar Klingelhöfer at the Johannes Gutenberg University in Mainz, Germany, developed a miniature Mössbauer Spectrometer, named (MB) MIMOS II, that was used by the two rovers in NASA's Mars Exploration Rover mission.
+<ref>{{cite journal
+|title= Mössbauer in situ studies of the surface of Mars
+|author= Klingelhöfer G.
+|journal= Hyperfine Interactions
+|volume=158
+|pages= 117-124
+|year= 2004
+|doi = 10.1007/s10751-005-9019-1}}
+</ref><ref>{{cite journal
+|title= In-situ analysis of planetary surfaces by Mössbauer spectroscopy
+|author= Klingelhöfer G.
+|journal= Hyperfine Interactions
+|volume=113
+|pages= 369-374
+|year= 1998 
+|doi =	10.1023/A:1012668926324}}
+</ref><ref>{{cite journal
+|title= The miniaturized Mossbauer spectrometer MIMOS II for extraterrestrial and outdoor terrestrial applications: A status report
+|author= Klingelhöfer G., Bernhardt B., Foh J., Bonnes U., Rodionov D., De Souza P. A., Schroder C., Gellert R., Kane S., Gutlich P., Kankeleit E.
+|journal= Hyperfine Interactions
+|volume=144
+|pages= 371-379
+|year= 2002
+|doi = 	10.1023/A:1025444209059}}
+</ref>
+
+==References==
+<references/>
+
+*{{cite journal
+|title= Mossbauer mineralogy of rock, soil, and dust at Meridiani Planum, Mars: Opportunity's journey across sulfate-rich outcrop, basaltic sand and dust, and hematite lag deposits
+|author = Morris RV, Klingelhofer G, Schroder C
+|journal = Journal of the Geophysical Research-Planets
+|volume = 111
+|issue = E12
+|pages = E12S15
+|year = 2006
+|doi = 	}} 

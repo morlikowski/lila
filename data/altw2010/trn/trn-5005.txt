@@ -1,0 +1,160 @@
+在理想可以唯一地分解成素理想之積。
+
+==定義==
+戴德金整環指的是有乘法單位元素 <math>1</math>，並具備下述性質的交換諾特整環 <math>A</math>：
+# <math>A</math> 不是域。
+# <math>A</math> 的非零素理想皆為極大理想。
+# <math>A</math> 整閉。
+
+前兩條可合併為：<math>A</math> 之克魯爾維度等於一。另一種表述方式如下：
+# <math>A</math> 對任意極大理想之局部化為離散賦值環。
+# <math>A</math> 的非零理想皆可逆。換言之：對任意理想 <math>0 \neq I \subset A</math>，存在 <math>A</math> 的分式環 <math>K(A)</math> 中的有限生成 <math>A</math>-子模 <math>J</math>，使得 <math>I \cdot J = A</math>。
+
+==例子==
+* 域上的多項式環皆為戴德金整環。
+* 交換代數的一條定理斷言：若 <math>A</math> 是戴德金整環，<math>K=K(A)</math> 為其分式域，<math>L/K</math> 是有限擴張，則 <math>A</math> 在 <math>L</math> 中的整閉包也是戴德金整環。
+* <math>\Z</math> 是最基本的例子，再配合前述定理，可知數域中的代數整數環皆為戴德金整環。這是戴德金整環在代數數論中的主要應用，也是戴德金引介此概念的原始動機。
+
+==唯一分解性質==
+戴德金整環的'''分式理想'''定義為分式環 <math>K(A)</math> 中形如 <math>aI</math> 之 <math>A</math>-子模，其中 <math>a \in K(A)^\times</math> 而 <math>I</math> 是 <math>A</math> 中的理想。分式理想之間可以定義乘法 <math>aI \cdot bJ = ab J</math>，因而非零分式理想構成一個-{么半群}-，其單位元素為 <math>A</math>。戴德金整環的性質保證此結構是一個群，換言之，任何非零分式理想皆可逆。
+
+若一理想 <math>I</math> 可由某元素 <math>a \in A</math> 生成，則稱之'''主理想'''；可採類似辦法定義'''主分式理想'''。
+
+In abstract algebra, a '''Dedekind domain''' or '''Dedekind ring''', named after Richard Dedekind, is an integral domain in which every nonzero proper ideal factors into a product 
+of prime ideals.  It can be shown that such a factorization is then necessarily unique up 
+to the order of the factors.  There are at least three other characterizations of Dedekind 
+domains which are sometimes taken as the definition (so if this was not the definition you 
+were expecting, please be patient and read on).  
+
+Note that a field is a commutative ring in which there are no nontrivial proper ideals, so 
+that any field is a Dedekind domain, however in a rather vacuous way.  Some authors add the 
+requirement that a Dedekind domain not be a field.  Many more authors state theorems for 
+Dedekind domains with the implicit proviso that they may require trivial modifications for 
+the case of fields. 
+
+An immediate consequence of the definition is that every principal ideal domain (PID) is a 
+Dedekind domain.  In fact a Dedekind domain is a unique factorization domain (UFD) iff 
+it is a PID.
+
+== The prehistory of Dedekind domains == 
+
+In the 19th century it became a common technique to gain insight into integral solutions of 
+polynomial equations (i.e., Diophantine equations) using rings of algebraic numbers of 
+higher degree.  For instance, fix a positive integer <math>m</math>.  In the attempt to 
+determine which integers are represented by the quadratic form <math>x^2+my^2</math>, it is natural to factor the quadratic form into <math>(x+\sqrt{-m}y)(x-\sqrt{-m}y)</math>, the 
+factorization taking place in the ring of integers of the quadratic field <math>\mathbb{Q}(\sqrt{-m})</math>.  Similarly, for a positive integer <math>n</math> the left hand side of the Fermat equation <math>x^n+y^n = z^n</math> can be factored over the ring <math>\mathbb{Z}[\zeta_n]</math>, where <math>\zeta_n</math> is a primitive <math>n</math> root of unity.
+
+For a few small values of <math>m</math> and <math>n</math> these rings of algebraic integers 
+are PIDs, and this can be seen as an explanation of the classical successes of Fermat 
+(<math>m = 1, n = 4</math>) and Euler (<math>m = 2,3, n = 3</math>).  By this time a procedure 
+for determining whether the ring of all algebraic integers of a given quadratic field 
+<math>\mathbb{Q}(\sqrt{D})</math> is a PID was well known to the quadratic form theorists.  Especially, Gauss had looked at the case of imaginary quadratic fields: he found exactly nine values of <math>D < 0</math> for which the ring of integers is a PID and conjectured that there are no further values.  (Gauss' conjecture was proven more than one hundred years later by Heegner, Baker and Stark.)  However, this was understood (only) in the language of equivalence classes of quadratic forms, so that in particular the analogy between quadratic forms and the Fermat equation seems not to have been perceived.  In 1847 Gabriel Lamé announced a solution of 
+Fermat's Last Theorem for all <math>n > 2</math> -- i.e., that the Fermat equation has no 
+solutions in nonzero integers, but it turned out that his solution turned on the 
+assumption that the cyclotomic ring <math>\mathbb{Z}[\zeta_n]</math> is a UFD.  It was soon 
+pointed out that Kummer had shown three years before that this was not the case already for 
+<math>n = 23</math> (the full, finite list of values for which <math>\mathbb{Z}[\zeta_n]</math> is a UFD is now known).  At the same time, Kummer developed powerful new methods to prove 
+Fermat's Last Theorem at least for a large class of prime exponents <math>n</math> using what 
+we now recognize as the fact that the ring <math>\mathbb{Z}[\zeta_n]</math> is a Dedekind 
+domain.  In fact Kummer worked not with ideals but with "ideal numbers", and the modern definition of an ideal was given by Dedekind.
+
+By the 20th century, algebraists and number theorists had come to realize that the condition 
+of being a PID is rather delicate, whereas the condition of being a Dedekind domain is quite 
+robust.  For instance the ring of ordinary integers is a PID, but as seen above the ring 
+<math>\mathcal{O}_K</math> of algebraic integers in a number field <math>K</math> need not be a 
+PID.  In fact, although we suspect that there are infinitely many primes <math>p</math> such that the ring of integers of <math>\mathbb{Q}(\sqrt{p})</math> is a PID, we cannot even prove that there are infinitely many number fields <math>K</math> (of arbitrary degree) such that <math>\mathcal{O}_K</math> is a PID!  On the other hand, the ring of integers in a number field is always a Dedekind domain. 
+
+Another illustration of the delicate/robust dichotomy is the fact that being a Dedekind 
+domain is, among Noetherian domains, a <b>local</b> property -- a Noetherian domain <math>R</math> is Dedekind iff for every maximal ideal <math>M</math> of <math>R</math> the localization <math>R_M</math> is a Dedekind 
+ring.  But a local domain is a Dedekind ring iff it is a PID iff it is a discrete valuation ring (DVR), so the same local characterization cannot hold for PIDs: rather, one may say that the concept of a Dedekind ring is the <b>globalization</b> of that of a DVR.
+
+== Alternative definitions == 
+For an integral domain <math>R</math> which is not a field, all of the following conditions are equivalent:
+
+(DD1) Every nonzero proper ideal factors into primes.
+
+(DD2) The localization at each maximal ideal is a DVR.
+
+(DD3) Every fractional ideal of <math>R</math> is invertible.
+
+(DD4) <math>R</math> is an integrally closed Noetherian domain with ideal is finitely generated, every nonzero prime ideal is a maximal ideal, and which is integrally closed in its fraction field.
+
+Thus a Dedekind domain is a domain which satisfies any one, and hence all four, of 
+(DD1) through (DD4).  Which of these conditions one takes as the definition is therefore 
+merely a matter of taste.  In practice, it is often easiest to verify (DD4).
+
+== Some Examples of Dedekind Domains ==
+
+The ring <math>R = \mathcal{O}_K</math> of algebraic integers in a number field ''K'' is Noetherian, integrally closed, and of dimension one (to see the last property, observe that for any nonzero ideal ''I'' of ''R'', ''R/I'' is finite and 
+recall that a finite integral domain is a field), so by (DD4) ''R'' is a Dedekind domain.  As 
+above, this includes all the examples considered by Kummer and Dedekind and was the motivating 
+case for the general definition, and these remain among the most studied class of examples 
+to this day.
+
+The other class of Dedekind rings which is arguably of equal importance comes from geometry: 
+let ''C'' be a nonsingular geometrically integral '''affine''' algebraic curve over a field ''k''.  Then the coordinate ring ''k[C]'' of regular functions on ''C'' is a Dedekind domain.  Indeed, this is essentially an algebraic translation of these geometric terms: the 
+coordinate ring of any affine variety is, by definition, a finitely generated ''k''-algebra, so 
+Noetherian; moreover ''curve'' means ''dimension one'' and ''nonsingular'' implies (and is 
+equivalent, in dimension one) to ''normal'', which by definition means ''integrally closed''.  
+
+Both of these constructions can be viewed as special cases of the following basic result:
+
+Theorem: Let ''R'' be a Dedekind domain with fraction field ''K''.  Let ''L'' be a finite degree field extension of ''K'' and denote by ''S'' the integral closure of ''R'' in ''L''.  Then ''S'' is itself a Dedekind domain.
+
+Applying this theorem when ''R'' is itself a PID gives us a way of building Dedekind 
+domains out of PIDs.  Taking ''R'' = ''Z'' this construction tells us precisely that rings of 
+integers of number fields are Dedekind domains.  Taking ''R'' = k[t] gives us the above case of 
+nonsingular affine curves.
+
+It is interesting to remark that Zariski and Samuel were sufficiently taken by this construction to pose as a question whether every Dedekind domain arises in such a fashion, 
+i.e., by starting with a PID and taking the integral closure in a finite degree field extension.  A surprisingly simple negative answer was given by L. Claborn.
+
+If the situation is as above but the extension ''L'' of ''K'' is algebraic of infinite degree, then it is still possible for the integral closure ''S'' of ''R'' in ''L'' to be a Dedekind 
+domain, but it is not guaranteed.  A basic example if to again take ''R'' = ''Z'', ''K = Q'' 
+and now take ''L'' to be the field <math>\overline{\textbf{Q}}</math> of all algebraic numbers.  The integral closure is nothing else than the ring <math>\overline{\textbf{Z}}</math> of all algebraic integers.  Since the square root of an algebraic integer is again an algebraic 
+integer, it is not possible to factor any nonzero nonunit algebraic integer into a finite 
+product of irreducible elements, which implies that <math>\overline{\textbf{Z}}</math> is 
+not Noetherian!  In general, the integral closure of a Dedekind domain in an infinite algebraic 
+extension is a Prufer domain; it turns out that the ring of algebraic integers is slightly 
+more special than this: a Bezout domain.  
+
+== Fractional Ideals and the Class Group ==
+
+Let ''R'' be an integral domain with fraction field ''K''.  A fractional ideal is a 
+nonzero ''R''-submodule ''I'' of ''K'' for which there exists a nonzero ''x'' in ''R'' 
+such that <math>xI \subset R</math>.
+
+(We remark that this is not exactly the same as the definition given on the page describing 
+fractional ideals: the definition given there is that a fractional ideal is a nonzero 
+finitely generated ''R''-submodule of ''K''.  The two definitions are equivalent if and only 
+if ''R'' is Noetherian.  Otherwise our definition is strictly weaker, being permissive enough to make all nonzero ''R''-submodules of ''R'' -- i.e., integral ideals -- fractional ideals.)
+
+Given two fractional ideals ''I'' and ''J'', one defines their product ''IJ'' as the set 
+of all finite sums <math>\sum_n i_n j_n, \ i_n \in I, \ j_n \in J</math>: the product ''IJ'' 
+is again a fractional ideal.  The set Frac(R) of all fractional ideals endowed with the above 
+product is a commutative semigroup and in fact a monoid: the identity element is the 
+fractional ideal ''R''.  
+
+For any fractional ideal ''I'', one may define the fractional ideal
+
+<math>I^* = (R:I) = \{x \in K \ | \ xI \subset R\}</math>.
+
+One then tautologically has <math>I^*I \subset R</math>.  In fact one has equality if and only 
+if ''I'', as an element of the monoid of Frac(R), is invertible.  In other words, if ''I'' 
+has any inverse, then the inverse must be <math>I^*</math>.
+
+A '''principal fractional ideal''' is one of the form <math>xR</math> for some nonzero ''x'' in ''K''.  Note that each principal fractional ideal is invertible, the inverse of <math>xR</math> being simply <math>\frac{1}{x}R</math>.  We denote the subgroup of principal 
+fractional ideals by Prin(R).
+
+A domain ''R'' is a PID if and only if every fractional ideal is principal.  In this case, we 
+have Frac(R) = Prin(R) = <math>K^{\times}/R^{\times}</math>, since two principal fractional ideals <math>xR</math> and <math>yR</math> are equal iff <math>xy^{-1}</math> is a unit in 
+''R''. 
+
+For a general domain ''R'', it is meaningful to take the quotient of the monoid Frac(R) of 
+all fractional ideals by the submonoid Prin(R) of principal fractional ideals.  However this 
+quotient itself is generally only a monoid.  In fact it is easy to see that the class of a 
+fractional ideal I in Frac(R)/Prin(R) is invertible if and only if I itself is invertible.
+
+Now we can appreciate (DD3): in a Dedekind domain -- and only in a Dedekind domain! -- is 
+every fractional ideal invertible.  Thus these are precisely the class of domains for 
+which Frac(R)/Prin(R) forms a group, the ideal class group Cl(R) of ''R''.  This group is trivial if and only if ''R'' is a PID, so can be viewed as quantifying the obstruction to a general Dedekind domain being a PID.

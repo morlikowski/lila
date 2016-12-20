@@ -1,0 +1,31 @@
+right|280px|thumbnail|La machine de Lorenz était utilisée pour chiffrer les communications militaires allemandes de haute importance pendant la [[Seconde Guerre mondiale. Les cryptanalystes de Bletchley Park ont pourtant été en mesure de casser son code.]]
+
+Les machines de '''Lorenz SZ 40''' et '''SZ 42''' ('''''Schlüsselzusatz''''', signifiant « pièce jointe chiffrée ») étaient des machines allemandes de chiffrement utilisées pendant la britanniques, qui se référaient de façon générale au flux des messages chiffrés allemands envoyés par téléscripteur sous l'appellation ''Fish'' (Poissons), ont nommé la machine et ses messages ''Tunny'' (Thons). Pendant que la renommée machine Enigma servait à l'infanterie, la machine de Lorenz était destinée aux communications de haut niveau, qui pouvaient s'appuyer sur cet appareil lourd, son opérateur et des circuits dédiés. La machine elle-même mesurait 51 cm × 46 cm × 46 cm et accompagnait les téléscripteurs Lorenz standards. Ces machines appliquaient une méthode de chiffrement de flux.
+
+== Fonctionnement ==
+right|280px|thumbnail|La machine de Lorenz avait 12 roues comprenant 501 « pointes ».
+
+Les téléscripteurs d'alors traitaient chaque caractère, généralement chiffré avec le bits en pseudo-aléatoires à combiner par l'opérateur roues cryptographiques », cinq d'entre elles tournant régulièrement, nommées les roues <math>\chi</math> (''premiers entre eux.
+
+Ces machines étaient de la même veine que celles proposées en premier par le Armée des États-Unis d’Amérique à l'époque de la Première Guerre mondiale.
+
+== Cryptanalyse ==
+
+Les cryptanalystes de Bletchley Park ont compris le fonctionnement de la machine dès janvier W. T. Tutte.
+
+Les transmissions ''“Tunny”''  étaient interceptées à Kent, avant d'être envoyées à Bletchley Park.
+
+right|280px|thumbnail|Maszyna Lorenza
+
+'''Maszyna Lorenza''' ('''''Lorenz-Chiffre''''', '''''Schlüsselzusatz'''''; ''Lorenz SZ 40'' i ''SZ 42'') - niemiecka maszyna szyfrująca używana podczas II wojny światowej dla przekazu informacji przez dalekopisy. Brytyjscy analitycy, którzy zakodowane komunikaty dalekopisowe określali kodem "Fish" (ryba), szyfry maszyny Lorenza i ją samą nazywali "Tunny" (tuńczyk). O ile słynna Enigma była używana przez jednostki polowe, o tyle ''Tunny'' służyła do komunikacji wysokiego szczebla, gdzie można było wykorzystać ciężką maszynę, dalekopis i dedykowane łącza. 
+Maszyna Lorenza przypominała Enigmę ponieważ również korzystała z rotorów, lecz działała na innej zasadzie. Miała wymiary  51 cm × 46 cm × 46 cm i stanowiła przystawkę do standardowego dalekopisu Lorenza. Z punktu widzenia kryptografii, implementowała szyfr strumieniowy.
+
+== Działanie ==
+right|280px|thumbnail|Maszyna Lorenza miała 12 rotorów z 501 igłami
+Ówczesne dalekopisy nadawały każdą literę, ogólnie zaszyfrowaną kodem Baudot albo podobnym, jako pięć bitów na pięciu równoległych liniach. Maszyna Lorenza produkowała grupę pięciu bitów pseudolosowych i kombinowała ją za pomocą logicznego operatora względnie pierwsze.
+
+== Kryptoanaliza ==
+Przekazy ''Tunny'' były przechwytywane w Knockholt w hrabstwie Kent i przekazywane do Bletchley Park.
+Tam kryptoanalitycy odtworzyli działanie maszyny w styczniu 1942 roku, nigdy przy tym nie mając do dyspozycji jej rzeczywistego egzemplarza. Stało się to możliwe na skutek błędu operatora niemieckiego: 30 sierpnia 1941 przesłano komunikat zawierający 4000 znaków, jednak nie został on poprawnie odebrany. Poproszono więc (bez szyfrowania - co pozwoliło kryptoanalitykom zrozumieć sytuację) o powtórzenie komunikatu. Retransmisja odbyła się z tym samym kluczem (praktyka zakazana przez procedury),  a na dodatek operator wprowadził do oryginalnego tekstu drobne zmiany, jak na przykład pewne skróty. Na podstawie porównania dwu komunikatów John Tiltman był w stanie zrekonstruować zarówno tekst jawny jak i metodę szyfrowania. Na podstawie tych informacji, W. T. Tutte był w stanie odtworzyć zasadę działania urządzenia.
+
+Do łamania szyfru ''Tunny'' Brytyjczycy zbudowali wiele maszyn. Pierwsza z nich, z rodziny nazywanej "Heath Robinsons”, używała taśm papierowych i prostych obwodów logicznych. Kolejną był Colossus, pierwszy cyfrowy komputer elektroniczny na świecie (który jednak, w odróżnieniu od późniejszego ENIACa, nie był komputerem uniwersalnym tj. nie był równoważny Maszynie Turinga). Colossus był szybszy i bardziej niezawodny od maszyn "Heath Robinsons", jego użycie pozwoliło Brytyjczykom na odkodowanie znacznej części transmisji obsługiwanych maszynami Lorenza.

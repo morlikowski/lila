@@ -1,0 +1,121 @@
+{{Chembox új
+| ImageFileL1= Zimtaldehyd - cinnamaldehyde.svg
+| ImageSizeL1= 130px
+| ImageFileR1= Cinnamaldehyde-3D-vdW.png 
+| ImageSizeR1= 130px
+| ImageFileL2= Cinnamaldehyde-3D-pi-MO.png
+| ImageSizeL2= 130px
+| ImageFileR2= Cinnamaldehyde-3D-elpot.png
+| ImageSizeR2= 130px
+| IUPACNév = (E)-3-phenyl-2-propenal
+| MásNév = Cinnamic aldehyde; cinnamaldehyde
+| Szakasz1 = {{Chembox Azonosítók
+| Rövidítés = 
+| CASNo = 104-55-2
+| EINECS = 
+| PubChem = 
+| SMILES = O=C/C=C/c1ccccc1
+| InChI = 
+| RTECS =
+| MeSHNév =
+| ChEBI =
+| KEGG = 
+  }}
+| Szakasz2 = {{Chembox Tulajdonságok
+| Képlet = C<sub>9</sub>H<sub>8</sub>O
+| MolárisTömeg =132,16 g/mol
+| Megjelenés =sárga olaj
+| Sűrűség = 1,05 g/ml
+| Olvadáspont =  –7,5 °C
+| Forráspont =  251 °C
+| Oldhatóság = enyhén oldódik
+| MásOldhatóság = 
+| Oldószer = 
+| pKa = 
+| pKb =
+| Viszkozitás=
+| Dipólus=
+  }}
+| Szakasz7 = {{Chembox Veszély
+| EUOsztály = 
+| EUIndex = 
+| FőbbVeszély = 
+<!-- Valószínűleg hibás adatok
+| NFPA-H = 4
+| NFPA-F = 4
+| NFPA-R = 4 
+| NFPA-O = OX -->
+| RMondat =   
+| SMondat =  
+| RSMondat =
+| LobbanásPont = 71 °C
+| Öngyulladás = 
+| RobHatár = 
+| PEL =
+  }}     }}
+A '''fahéjaldehid''' (gyakori formájában: '''''transz''-fahéjaldehid''')  a fahéj fő aldehid alkotórésze. A fahéjaldehid a természetben a fahéjfa és más ''Cinnamomum'' fajok, mint a kámfor és a kasszia kérgében fordul elő. Ezek a fák a fahéj természetes formásai és illóolajaikat 90%-ban fahéjaldehid alkotja.
+
+A természetben a fahéjaldehidnek csak a transz izomerje fordul elő. A transz-fahéjaldehidben az aramás gyűrű és a formilcsoport a telítetlen kötés átellenes oldalán található.
+
+Sárga, olajszerű, fahéjillatú folyadék. Vízben rosszul oldódik, éterrel korlátlanul elegyedik. A fahéjaldehid enyhe oxidációjakor fahéjsav keletkezik. Erélyes oxidációja során benzoesav képződik. A fahéjsav telítetlen kötése reakcióképes. A fahéjaldehid formilcsoportjának redukciójakor fahéjalkohol képződik.
+
+{{Chembox new
+|   Name = Cinnamaldehyde
+|   ImageFileL1 = Zimtaldehyd - cinnamaldehyde.svg
+|   ImageSizeL1 = 125px
+|   ImageFileR1 = Cinnamaldehyde.png
+|   ImageSizeR1 = 140px
+|   ImageName = Cinnamaldehyde
+|   IUPACName = (E)-3-phenylprop-2-enal
+|   OtherNames = Cinnamic aldehyde; cinnamaldehyde
+| Section1 = {{Chembox Identifiers
+|   SMILES = O=C/C=C/c1ccccc1
+|   CASNo = 104-55-2
+|   RTECS = GD6475000
+  }}
+| Section2 = {{Chembox Properties
+|   Formula = C<sub>9</sub>H<sub>8</sub>O
+|   MolarMass = 132.16 g/mol
+|   Appearance = Yellow oil
+|   Density = 1.05 g/ml
+|   Solubility = Slightly Soluble
+|   MeltingPt = -7.5 °C
+|   BoilingPt = 248 °C
+|   Viscosity = ? cP at ?°C
+  }}
+| Section7 = {{Chembox Hazards
+|   ExternalMSDS = [http://ptcl.chem.ox.ac.uk/MSDS/CI/cinnamaldehyde.html External MSDS]
+|   MainHazards = 
+|   FlashPt = 71 °C
+|   RPhrases =   
+|   SPhrases =  
+  }}
+| Section8 = {{Chembox Related
+|   OtherCpds = Cinnamic acid
+  }}
+}}
+
+'''Cinnamic aldehyde''' or '''cinnamaldehyde''' (more precisely '''''trans''-cinnamaldehyde''', the only naturally-occurring form) is the chemical compound that gives cinnamon its flavor and odor.<ref name="GDV">{{cite web
+  | last =
+  | first =
+  | authorlink =
+  | coauthors =
+  | title = Cinnamon
+  | work = Transport Information Service
+  | publisher = Gesamtverband der Deutschen Versicherungswirtschaft e.V.
+  | date =
+  | url = http://www.tis-gdv.de/tis_e/ware/gewuerze/zimt/zimt.htm
+  | format =
+  | doi =
+  | accessdate = 2007-10-23}}</ref>
+
+Cinnamaldehyde occurs naturally in the bark of cinnamon trees and other species of the genus ''Cinnamomum'' like camphor and cassia. These trees are the natural source of cinnamon, and the essential oil of cinnamon bark is about 90% cinnamaldehyde.
+
+==Structure and physical properties==
+A yellow oily liquid more viscous than water, cinnamaldehyde smells strongly of cinnamon.
+
+Concentrated cinnamaldehyde is a skin irritant, and the chemical is toxic in large doses, but no agencies suspect the compound is a oxidized form of cinnamaldehyde.
+
+Both aromatic and an trans''-cinnamaldehyde because the terminal carbonyl is on the opposite side of the aromatic ring over the rigid double bond.
+
+A technique to synthesize cinnamaldehyde was published in 1884. Several methods of synthesis are now known, but cinnamaldehyde is most economically obtained from the steam distillation of the oil of cinnamon bark. The compound can be prepared from related compounds like cinnamyl alcohol, (the alcohol form of cinnamaldehyde), but the first synthesis from unrelated compounds was the aldol condensation of benzaldehyde and acetaldehyde.

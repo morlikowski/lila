@@ -1,0 +1,150 @@
+<div style="float:right; margin: 0 0 1em 1em;">Immagine:Latin_alphabet_Zz.svg</div>
+La '''Z''' (chiamata '''zeta''' in italiano) è la ventiseiesima e ultima lettera dell'zeta'' dell'alfabeto greco e una consonante fricativa alveolare sonora nell'alfabeto fonetico internazionale.
+
+{{Lettera
+|NATO=Zulu
+|Morse=––··
+|Character=Z
+|Braille=⠵
+}}
+
+==La storia==
+
+{| border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse;text-align:center;"
+|-  bgcolor="#EEEEEE"
+! Z protosemitica
+! Z fenicia
+! Z etruscan
+! Zeta greca
+|-----
+|Immagine:Proto-semiticZ-01.png
+|Immagine:PhoenicianZ-01.png
+|Immagine:EtruscanZ-01.png
+|64px
+|}
+
+Nel latino antico il suono rappresentato dalla lettera ''Z'' (una variante sonora di ''vocali) si trasformò in ''Z'' greca, che veniva altrimenti pronunciato con una ''S'' all'inizio della parola e con una ''S'' geminata (''ss'') nel mezzo: ''sona'' = &zeta;&omega;&nu;&eta;, "cintura"; ''tarpessita'' = &tau;&alpha;&rho;&pi;&epsilon;&zeta;&tau;&eta;&sigmaf;, "banchiere". (si veda SAMPA per il significato di tutti questi simboli fonetici).
+
+La forma greca della ''Z'' era molto simile a quella del simbolo fenicio 20px. Il nome del simbolo semitico era ''Zayin'', ma questo nome non venne adottato dai greci, che lo chiamarono ''Zeta''. Sembra probabile che ''Zeta'' fosse il nome di un'altra delle sillabe semitiche, ''Zade'' (''Tzaddi'') trasferito alla ''Z'' per errore, oppure potrebbe trattarsi di un nome nuovo, creato su analogia di ''eta'' (&eta;) e ''theta'' (&theta;). La pronuncia della lettera semitica era , come nella parola "episodio".
+
+=== Z gotica ===
+Un disegno differente della Z che ha avuto origine nella legature. Insieme alla s lunga, è all'origine della legatura ß nell'ortografia tedesca.
+
+Una variante grafica della Z tagliata è ''Ezh'', inserita nell'alfabeto fonetico internazionale come segno per la fricativa postalveolare sonora.
+
+L'Unicode assegna delle codifiche per la "BLACK-LETTER CAPITAL Z" e la "FRAKTUR SMALL Z" tra gli intervalli simboli letterali e simboli matematici alfanumerici, come U+2182 (ℨ) e U+1D537 (𝖟), rispettivamente.
+
+<gallery>
+Immagine:Z-small-VA-64x88.svg|''z'' minuscola cosi come insegnata nelle scuole elementari tedesche
+Immagine:Z-small-Variante.svg|Variante della ''z'' in un carattere Antiqua
+</gallery>
+
+==Gli usi==
+===In Chimica e Fisica===
+*'''Z''' è il simbolo del numero atomico.
+
+===Al cinema===
+*'''Z''' è un film di Costa Gavras.
+
+===In Elettrotecnica===
+*'''Z''' è la variabile che di solito indica l'impedenza.
+
+===Nei fumetti===
+*'''Z''' indica il suono emesso quando si russa, spesso rappresentato con "zzz...".
+
+===Nei videogiochi===
+*'''Z''' è il titolo di un videogioco di strategia.
+
+===In Matematica===
+*'''z''' nella geometria analitica dello spazio tridimensionale viene usata per denotare la variabile relativa all'asse verticale.
+*'''z''' nell'algebra lineare viene usata per denotare la terza incognita.
+* La notazione Z è una specifica notazione usata nei sistemi di calcolo.
+*'''z''' è usato anche per definire un numero complesso. Es. <math> z = a + bi\,</math>   e   <math> \bar z = a-bi </math> (complesso coniugato)
+
+===In Metrologia===
+* '''Z''' è il simbolo che abbrevia prefisso SI che esprime il fattore 10<sup>21</sup>.
+* '''z''' è il simbolo che abbrevia prefisso SI che esprime il fattore 10<sup>&minus;21</sup>.
+==Codifica informatica==
+Il codice ASCII per "Z" maiuscola è 90 e per la minuscola "z" è 122;
+<ref name=difcase>
+I codici della ''Z'' minuscola e minuscola hanno una differenza pari al valore del carattere spazio vuoto, che in ASCII vale='20'x=32 aggiunto, ed in EBCDIC ='40'x=64 sottratto per ottenere il valore della lettere minuscola.
+</ref>
+o in binario, 01011010 e 01111010,<ref name=difcase/> rispettivamente.
+
+Il valore EBCDIC per la "Z" maiuscola è 233 è per la "z" minuscola è 169 (64 in meno).<ref name=difcase/>
+
+In riferimenti numerici dei caratteri sono "<tt>&amp;#90;</tt>" per la maiuscola e "<tt>&amp;#122;</tt>" per la minuscola.
+
+==Note==
+<references/>
+
+{{Infobox Glyphe
+| nom=Z
+| image=50px
+| capitale=Z
+| bas-de-casse=z
+| alphabet=Latin
+| ordre=26
+| phonèmes=, , ...
+}}
+Le '''Z''' est la 26 et dernière lettre, ainsi que la 20 consonne de l'alphabet latin moderne.
+
+==Origine==
+{| align="center" cellspacing="10"
+|- align="center" valign="bottom"
+|Image:Proto-semiticZ-01.png
+|Image:PhoenicianZ-01.png
+|64px
+|Image:EtruscanZ-01.png
+|50px
+|- align="center" valign="top"
+| ''Z'' Proto-sémitique<br />
+| ''zayin'' phénicien
+| ''grec
+|''Z'' étrusque
+| ''Z'' romain
+|- align="center"
+| colspan="6" | Évolution probable du graphème
+|}
+
+==Linguistique==
+Z vient du ''capitale et ζ en minuscule). Présent dans les premiers modèles de l'Romains, a été supprimé au  : le son qu'il représentait s'étant transformé en "r", n'existait plus. Il fût remplacé par ''G'' puis réintroduit au  par les Romains qui en eurent à nouveau l'utilité pour noter des mots empruntés au grec ancien. Ils l'ont réintroduit et relégué à la fin de l'alphabet.
+
+Pour plus de détails, consulter l'article '''Rhotacisme''', section « Influence sur l'alphabet latin ».
+
+En anglais, la lettre est prononcée comme en français, sauf pour l'anglais américain, où c'est prononcée zii.
+
+==Codage==
+===Informatique===
+* Code ASCII, ISO 8859-1, Unicode :
+** Capitale : 90 = U+005A
+** Minuscule : 122 = U+007A
+
+* Diacritiques courants :
+** Źź accent aigu (Unicode U+0179-017A – polonais) ;
+** Żż point en chef (Unicode U+017B-017C – polonais) ;
+** Žž hatchek (Unicode U+017D-017E – tchèque, estonien, finnois, slovaque, slovène, etc.) ;
+** Ȥȥ crochet (Unicode U+0224-0225 – moyen haut-allemand) ;
+** Ẑẑ ladino [judéo-espagnol, ''ŷuđeẑmo'']) ;
+** Ẓẓ point souscrit (Unicode U+1E92-1E93 – transcription des langues sémitiques).
+
+===Radio===
+
+* Épellation en alphabet radio 
+** international : '''Zulu'''
+** allemand : '''Zacharias'''
+** police aux États-Unis : '''Zebra'''
+* En alphabet morse, la lettre Z vaut « <code>--··</code> »
+
+===Autres===
+
+== Voir aussi ==
+
+* Alphabet latin
+* Ζ (zêta), lettre de l'alphabet grec
+
+Catégorie:Lettre latine
+
+gan:Z
+
+als:Z

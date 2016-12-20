@@ -1,0 +1,22 @@
+'''Quorum sensing''' jest to sposób "porozumiewania" się między sobą bakterii za pomocą cząsteczek związków chemicznych.
+
+Pierwsze organizmy u których zaobserwowano zjawisko Quorum były bakterie z rzędu: Myxobacteria oraz Streptomyces.
+<br>Pierwsze badania nad Qiorum sensing prowadzili w latach siedemdziesiątych XX wieku naukowcy na Uniwersytecie Harvarda. Badali oni szczepy bakterii ''Vibrio fischeri'' oraz ''Vibrio harvey'', pospolite drobnoustroje mórz i oceanów. Zauważyli, że podczas hodowli w pewnym momencie bakterie zaczynają świecić. Zjawisko to miało miejsce dopiero w momencie dużego zagęszczenia szczepów. Dlaczego jednak zjawisko nie zachodziło w małym zagęszczeniu szczepów? Po przeprowadzeniu badań naukowcy doszli do wniosku, że gdy hodowla osiągnie duże zagęszczenie aby nie zginąć z powodu braku pokarmu lub samozatrucia metabolitami, wytwarza związki chemiczne które informują kolonię o potrzebie zaprzestania rozmnażania. W przypadku rodzaju Vibrio towarzyszy temu luminescencja.
+
+Quorum sensing może także zachodzić między bakteriami, a tkankami roślinnymi czy zwierzęcymi.
+
+Inne szczepy u których odkryto to zjawisko to między innymi:
+*''Escherichia coli''
+*''dżumę, która "oszukuje" tkanki jelit dzięki czemu dostaje się do krwiobiegu. 
+
+Le «''' quorum sensing''' » est un mécanisme de régulation contrôlant l'expression de certains gènes bactériens. Le '''quorum sensing''' contribue à la synchronisation de l'expression (ou de la répression) de gènes particuliers au sein d'une population bactérienne en fonction de la densité de celle-ci (nombre de cellules par unité de volume). Il repose sur la capacité de bactéries à communiquer avec leurs congénères en utilisant des signaux moléculaires.  
+
+==Mécanisme du quorum sensing==
+
+Les bactéries qui utilisent le '''quorum sensing''' produisent des signaux moléculaires appelés autoinducteurs. A basse densité de population bactérienne, la diffusion réduit rapidement la concentration de l’autoinducteur dans l'environnement. Au contraire, avec la multiplication cellulaire dans un espace confiné la densité de la population augmente et la concentration de l'autoinducteur dépasse un seuil critique qui est alors perçu par les bactéries qui le produisent. Cette perception active très souvent la surproduction du signal autoinducteur, conduisant ainsi à une boucle de rétroaction positive permettant de synchroniser sa perception au sein de la population microbienne.
+
+La présence des autoinducteurs est perçue par des récepteurs protéiques intracellulaires. Ces récepteurs fixent l'autoinducteur dont la concentration intracellulaire reflète la concentration extracellulaire. Le récepteur ainsi activé reconnait des séquences d'ADN spécifiques des gènes régulés par quorum sensing, et active ou reprime leur expression.
+
+Les autoinducteurs sont perçus à des concentrations très faibles, du pico au micromolaire, d'ou leur dénomination "quoromone". Parmi les signaux connus, on peut citer les ''N''-acyl homosérine lactones (AHLs), les butyrolactones, des peptides cycliques tels ComX, ou l'autoinducteur 2 (AI-2), un des seuls composés biologiques connus contenant du bore.
+
+== Rôles du quorum sensing==

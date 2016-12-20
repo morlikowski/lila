@@ -1,0 +1,84 @@
+{{Infobox Software|
+Name= Kontact
+|Screenshot= 300px|right|KDE Kontact Screenshot
+|Beschreibung= KDE Kontact Screenshot
+|Hersteller= Das Kontact Team
+|AktuelleVersion= 1.2.4
+|AktuelleVersionFreigabeDatum= 25. Januar 2007
+|Betriebssystem= KDE3 Version)
+zusätzlich KDE4 Version)
+|Kategorie= Personal Information Manager
+|Lizenz= GPL
+|Deutsch= ja
+|Website= [http://kontact.kde.org/ kontact.kde.org]
+}}
+
+'''Kontact''' oder auch KDE- PIM ist der Groupware-Client des K Desktop Environment (KDE).
+
+Eine der Besonderheiten von Kontact gegenüber anderen Groupware-Clients ist, dass die Teil-Programme auch weiterhin unabhängig von Kontact gestartet werden können. So spielt es zum Beispiel keine Rolle für das Arbeiten mit KMail, ob es mal allein oder mal im Rahmen von Kontact gestartet wird: die Mails und die persönlichen Einstellungen bleiben stets erhalten.
+
+Auch sieht Kontact eine modulare Anbindung der Programme vor, wodurch sich auch in Zukunft weitere Module entwickeln und anfügen lassen, ohne Kontact dafür zu ändern. Dies bietet die Möglichkeit, auch privat entwickelte Module einzubinden und so die Groupware grundlegend eigenen Bedürfnissen anzupassen.
+
+== Komponenten ==
+
+thumb|Kontact-Logo
+
+Kontact entstand aus der Überlegung heraus, dass es in der KDE-Umgebung bis dahin keinen Groupware-Client gab. Da aber bereits viele Einzelprogramme zur Verfügung standen, die zusammen alle benötigten Funktionen für einen Groupware-Client bereitstellen, entschied man sich, diese in einem Programm zu bündeln. Dabei wurde aber von Anfang an Wert darauf gelegt, dass weiterhin die Möglichkeit besteht, alle Programme auch einzeln zu starten. So entstand Kontact, das erstmals in KDE 3.2 enthalten war. In der komponentenunabhänigen Startansicht werden zum Beispiel ungelesene E-Mails oder aktuelle Termine angezeigt.
+
+Kontacts Funktionen hängen vor allen Dingen von den Funktionen der Programme ab, die dort eingebunden werden können:
+* ''KMail'' als Mailclient
+* ''KAddressbook'' als Adressverwaltung
+* ''KOrganizer'' als Termin- und Todolistenverwalter
+* ''KNotes'' zur Merkzettel-Verwaltung
+* ''Akregator'' als Nachrichtensammler
+* ''KitchenSync'' zur Synchronisation von Kontakten u.&nbsp;a. (verwendet OpenSync)
+* ''KNode'' als Newsreader (Usenet)
+* ''KNewsTicker'' als Newsticker
+* ''KWeather'' zur Wetteranzeige
+
+Kontact erleichtert so das Arbeiten, da nicht mehrere Programme einzeln gestartet werden müssen, um E-Mails zu lesen, Adressen zu verwalten und Termine zu planen.
+
+=== KAddressbook ===
+
+thumb|upright|KAddressbook
+
+'''KAddressbook''' ist die Adressverwaltung der grafischen Benutzeroberfläche KDE. 
+
+Neben Namen, Adressen und Telefonnummern können in KAdressbook auch Bilder, Geburts- und Jahrestage, Informationen über Instant Messaging Adressen oder über spezielle Kryptographie-Informationen für den Austausch verschlüsselter Mails hinterlegt werden. Ein Import und Export der Informationen in vielen verschiedenen Dateiformaten ist ebenfalls möglich.
+
+Ein Team von Entwicklern hat auch eine Version geschrieben, die auch auf anderen System (wie zum Beispiel Windows) läuft.<ref>http://sourceforge.net/projects/kdepimpi/</ref>
+
+=== KMail ===
+<!-- aus http://de.wikipedia.org/w/index.php?title=KMail&oldid=41009604 -->
+
+thumb|upright|KMail
+
+'''KMail''' verfügt über eine Reihe von Funktionen, die bei anderen Programmen gleicher Art nicht zu finden sind. So kann KMail E-Mails sowohl im mbox-Format wie auch im maildir-Format speichern und so an besondere Bedürfnisse angepasst werden. Ebenso kann KMail verschiedene Virenscanner und Spamfilter mit Hilfe eines auf einfache Benutzbarkeit konzipierten grafischen Assistenten einrichten, der die entsprechenden zur Verfügung stehenden Scanner und Filter automatisch erkennt. Die Identifizierung der unerwünschten oder verseuchten E-Mails überlässt KMail dabei vollständig den eingebundenen Programmen. Auf diesem Weg ist es auch möglich, KMail mit einem Phishing-Schutz auszurüsten, wenn dies von einem Virenscanner unterstützt wird, wie es z.&nbsp;B. bei ClamAV der Fall ist.
+
+{{Infobox_Software 
+| name                   = Kontact 
+| logo                   = 48px
+| screenshot             = 250px 
+| caption                = Kontact screenshot showing the calendar view with upcoming tasks 
+| developer              = The Kontact Team 
+| latest_release_version = 1.2.4 
+| latest_release_date    = January 25, 2007 
+| operating_system       = Unix-like 
+| genre                  = Personal Information Manager 
+| license                = GNU General Public License 
+| website                = [http://kontact.org/ kontact.org] 
+}}
+'''Kontact''' is a personal information manager and groupware software suite for KDE. It supports calendars, contacts, notes, to-do lists, news, and email.  It uses KParts to embed the various applications into the container application.
+
+== History==
+The initial groupware container application was written in an afternoon by Matthias Hölzer-Klüpfel and later imported into the KDE source repository and maintained by Daniel Molkentin. This container application is essential for Kontact to operate, but without embedded components is not useful by itself.
+
+The first embedded components were created by Cornelius Schumacher. He modified  the KAddressBook and KOrganizer applications to create the initial addressbook and organizer components. At this stage no mail client component existed so KDE still lacked a functional integrated groupware application. However Cornelius' groundbreaking work acted as a prototype for other developers to base their efforts on.
+
+Don Sanders created the missing mail client component by modifying the KMail application. He then integrated the mail client component with the other components, and the groupware container application, assembled and released the initial Kontact packages, and created the initial Kontact website.
+
+Daniel Molkentin, Cornelius Schumacher and Don Sanders then formed the core Kontact team. The KMail and container application changes were imported into the KDE source repository, and Kontact was released as part of [http://www.kde.org/announcements/changelogs/changelog3_1_5to3_2.php KDE 3.2]
+
+During the construction of the Kontact application suite, the Kolab groupware server was being worked on by [http://erfrakon.de/ Erfrakon], [http://intevation.net/ Intevation] and [http://www.klaralvdalens-datakonsult.se/ Klarälvdalens Datakonsult]  simultaneously and was completed at approximately the same time. This work was done as part of the Kroupware project that also involved modifying the KMail and KOrganizer applications to enhance them with additional groupware features.
+
+The core Kontact team, the Kolab consortium, and several independent KDE PIM developers then worked together to enhance Kontact by integrating the Kroupware functionality and making Kolab the primary Kontact server.

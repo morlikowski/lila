@@ -1,0 +1,22 @@
+'''Інтегроване Середовище Розробки''' (ІСР) - від '''I'''ntegrated '''D'''evelopment '''E'''nvironment (також можливі інтерпретації '''I'''ntegrated '''D'''esign '''E'''nvironment - інтегроване середовище відлагодження) це комп’ютерна програма, що допомагає програмістові розробляти нове програмне забезпечення чи модифікувати (удосконалювати) вже існуюче.
+
+Інтегровані середовища розробки зазвичай складаються з редактору вихідного коду, компілятора чи/або інтерпретатора, засобів автоматизації збірки, та зазвичай дебагера. Іноді сюди також входять системи контролю версій, засоби для профілювання, а також різноманітні засоби та утиліти для спрощення розробки графічного інтерфейсу користувача. Багато сучасних ІСР також включають оглядач класів, інспектор об’єктів та діаграм ієрархії класів для використання об’єктно-орієнтованого підходу у розробці програмного забезпечення. Хоча існують та використовуються ІСР, що підтримують розробку на декількох мовах програмування, зазвичай ІСР призначене для розробки на одній мові програмування.
+
+== Дивись також ==
+* Інструментальна система
+
+'''IDE''', do inglês '''''Integrated Development Environment''''' ou '''Ambiente Integrado de Desenvolvimento''', é um programa de computador que reúne características e ferramentas de apoio ao desenvolvimento de software com o objetivo de agilizar este processo.
+
+Geralmente os IDEs facilitam a técnica de RAD (de Rapid Application Development, ou "Desenvolvimento Rápido de Aplicativos"), que visa a maior produtividade dos desenvolvedores.
+
+As características e ferramentas mais comuns encontradas nos IDEs são:
+
+* Editor - edita o código-fonte do programa escrito na(s) linguagem(ns) suportada(s) pela IDE;
+* Compilador (''compiler'') - compila o código-fonte do programa, editado em uma linguagem específica e a transforma em linguagem de máquina;
+* ''Linker'' - liga (''linka'') os vários "pedaços" de código-fonte, compilados em linguagem de máquina, em um programa executável que pode ser executado em um computador ou outro dispositivo computacional.
+* Depurador (''debugger'') - auxilia no processo de encontrar e corrigir erros (''bugs'') no código-fonte do programa, na tentativa de aprimorar a qualidade de software;
+* Modelagem (''modelling'') - criação do modelo de classes, objetos, interfaces, associações e interações dos artefatos envolvidos no software com o objetivo de solucionar as necessidades-alvo do software final.
+* Geração de código - característica mais explorada em ferramentas CASE, a geração de código também é encontrada em IDEs, contudo com um escopo mais direcionado a templates de código comumente utilizados para solucionar problemas rotineiros. Todavia, em conjunto com ferramentas de modelagem, a geração pode gerar todo ou praticamente todo o código-fonte do programa com base no modelo proposto, tornando muito mais rápido o processo de desenvolvimento e distribuição do software;
+* Distribuição (''deploy'') - auxilia no processo de criação do instalador do software, ou outra forma de distribuição do mesmo, seja discos ou via internet.
+* Testes Automatizados (''automated tests'') - realiza testes no software de forma automatizada, com base em scripts ou programas de testes previamente especificados, gerando um relatório dos mesmos, assim auxiliando na análise do impacto das alterações no código-fonte. Ferramentas deste tipo mais comuns no mercado são chamadas robôs de testes.
+* Refatoração (''refactoring'') - consiste na melhoria constante do código-fonte do software, seja na construção de código mais otimizado, mais limpo e/ou com melhor entendimento pelos envolvidos no desenvolvimento do software. A refatoração, em conjunto com os testes automatizados, é uma poderosa ferramenta no processo de erradicação de "bugs", tendo em vista que os testes "garantem" o mesmo comportamento externo do software ou da característica sendo reconstruída.

@@ -1,0 +1,125 @@
+Le '''Projet  biographie''' est un Wikipédia:Projet d'harmonisation des différentes biographies et des listes les référençant.
+
+A lire : Wikipédia:Biographies de personnes vivantes
+
+== Modèles rédactionnels ==
+
+* Wikipédia:Modèles de page/Biographie
+
+* Modèle d'article sur un auteur, conçu au sein du Projet:Littérature
+* Modèle Article de général, conçu au sein du Projet:Histoire militaire
+== Infobox ==
+*  <ref>(ajoute la :Catégorie:biographie) et, pour des modif en nombre, sa substitution : </ref>
+*
+**
+***
+****
+****
+****
+****
+****
+****
+****
+****
+****
+****
+****
+****
+**
+**
+**
+**
+**
+**
+**
+**
+**
+**
+**
+**
+**
+**
+**
+**
+**
+
+Et pour les biographies d'acteurs et de réalisateurs : Wikipédia:Conventions filmographiques
+=== Tables ===
+
+Faire des tables de redirection et d'homonymie
+:Projet:Biographie/Table d'équivalences biographiques
+:Wikipédia:Homonymie/Homonymes dynastiques
+
+==Membres==
+*
+==Biographies sommaires==
+Projet:Biographie/Biographies sommaires pour lister les bio incomplètes (justes généalogie et/ou dates de règne, simple liste d'œuvres, etc.
+
+==Biographie de qualité==
+On pourrait établir un barème de point en fonction des thèmes traités dans un article et, arrivé à un certain score, l'article serait automatiquement proposé en article de qualité
+
+:Projet:Biographie/Biographie de qualité, barème
+:Projet:Biographie/Biographie de qualité, scores
+----
+
+== Titre ==
+*le titre est sous la forme Prénom1 Prénom2... Nom. 
+: Exemple: Albert Einstein, John Ronald Reuel Tolkien.
+* on ne met pas les titres (comte, duc, ...)
+* on ne met pas de pseudonyme, on fait des redirect. '''Exception''' si le pseudonyme est nettement plus connu que le nom réel: Molière, Stendhal, Voltaire etc<br />Exception aussi pour les personnages étrangers dont la romanisation est beaucoup plus connue que le nom véritable : confucius par exemple
+
+* En cas de titres contenant des caractères étrangers, on fait des redirect avec la version "francisée" pour faciliter les recherches : <br />Søren Sørensen Soren Sorensen
+* on évite le plus possible de mettre les initiales en titre d'article : si elles sont connues, on crée des redirects : <br />Søren Sørensen S.P.L. Sørensen
+* En cas d'homonymie, on fait suivre l'article d'un adjectif entre parenthèse pour distinguer les différentes possibilités.
+:  ex : koxinga (wikipédien) koxinga (pirate)
+
+== Mise en page ==
+
+* Le nom en gras:
+: ex: <nowiki>'''Albert Einstein'''</nowiki>
+
+{| border=0 cellspacing=0 cellpadding=10 style="border: 0px solid #aaa; background: #f7f7f7;"
+
+|-
+|colspan=3 align=center style="background: LemonChiffon; font-size: 170%; font-weight: bold; padding-top: .3em; padding-bottom: .3em;"| 20px О проекте
+|-
+|colspan=3 style="padding-bottom: 1em; border-bottom: 10px solid #f8fcff;" |
+
+left Проект объединяет участников Википедии, интересующихся Персоналиями.
+
+|- valign=top
+|style="border-right: 10px solid #f8fcff; border-bottom: 10px solid #f8fcff; width:33%"|
+
+== 20px Участники проекта ==
+* '''S'''asha <sup>'''!?'''ММ</sup>
+* Vayaka <!-- Я не очень активно учавствую в данном проекте, но слежу за событиями, если нужна помощь в "категоризации" обращайтесь. -->
+* Александрит
+* KnightMirko
+* Andrew Wolf
+
+== 30px Нужен ответ ==
+<div style="font-size:95%">На странице здесь. </div>
+
+|style="border-right: 10px solid #f8fcff; border-bottom: 10px solid #f8fcff"|
+
+== 20pxВ помощь участнику ==
+'''Инструменты'''
+* /Именование статей — <small>правила именования</small>
+* /Исторические персоны — <small>рекомендации по историческим персонам</small>
+* /Болванки — <small>Заготовки для статей </small>
+* /Шаблоны — <small>шаблоны для статей</small>
+* /Литература — <small>библиографические списки литературы </small>
+* /Ссылки — <small>ссылки на интернет-ресурсы</small>
+* /Разное — <small>всё остальное</small>
+'''Списки'''
+
+| style="border-bottom: 10px solid #f8fcff; width:33%" |
+
+== 20px Как помочь проекту ==
+<div style="font-size:95%">
+* дополнять незавершённые статьи <!--(их список)-->;
+* исправлять ошибки и форматировать статьи;
+* добавлять иллюстрации;
+* писать новые статьи;
+* создать шаблон стабов о преступниках (Сливко, Чикатило и пр.).
+</div>

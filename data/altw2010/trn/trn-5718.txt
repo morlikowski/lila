@@ -1,0 +1,31 @@
+'''チャールズ・W・バックマン'''（Charles W. Bachman、1924年12月11日 - )は、特にデータベースの分野で知られる情報工学者。
+
+1973年、「データベース技術への多大な貢献に対して」チューリング賞を受賞した。
+
+また1977年、 British Computer Society は彼のデータベースに関する業績を讃えて特別フェローに選出した。
+
+バックマンは他のチューリング賞受賞者と異なり、その経歴のほとんどを学会ではなく産業界の研究者として過ごした。まず1950年にダウケミカルで働き、1960年に転職するまでにデータ処理マネージャとなっていた。次にゼネラル・エレクトリック (GE) で初期のデータベース管理システムのひとつである''IDS'' (Integrated Data Store) を開発した。Weyerhaeuser Lumberと共にIDSデータベースのマルチプログラミングアクセス機能も開発した。後にGEでタイムシェアリングシステム上でのデータベースアクセス機能を備えたBASIC言語 dataBasic も開発した。
+
+その後、Cullinane Information Systems （後にCullinetと改称）に移り、IDSを改良したIDMSを開発した（IBMのメインフレームで動作する）。
+
+CASE製品のシリーズを開発する。その中心となる製品BACHMAN/Data Analystはバックマン線図と呼ばれる図を使ってデータ構造をグラフィカルに作成したり保守したりできるものである。これはIBMのReengineering Cycle マーケティングプログラムに採用された。これは、以下のようなものである。
+# 古いメインフレームのデータベースのリバースエンジニアリングを行う
+# データをモデル化する
+# 新たなデータベースにそのデータモデルを移植する
+# そのデータベースの最適化を行う
+
+'''Charles William Bachman''', né le Manhattan dans le Kansas, est étatsunien, pionnier dans le domaine des bases de données et des réseaux informatiques. On lui doit le concept du architecture Ansi-Sparc), le premier SGBD moderne (IDMS-2), le modèle de données réseau (CODASYL) et le modèle de communication réseau OSI.
+
+Il a reçu le Prix Turing en 1973 pour ses contributions sur les technologies des bases de données. Il a été élu en tant que camarade distingué de la ''British Computer Society'' en 1977 pour son important travail dans les systèmes de base de données.
+
+Contrairement aux autres lauréats du prix Turing, Bachman n'a pas travaillé dans le milieu universitaire mais a passé sa carrière entière en tant que chercheur industriel. Il a commencé a travailler en 1950 dans l'entreprise ''Dow Chemical'' jusqu'à devenir chef du service informatique. Il quitte ''Dow Chemical'' en 1960 pour rejoindre Pick et les SGBDR multivalués apparentés.
+
+Plus tard, il rejoint une plus petite société, les systèmes d'information de Cullinane (plus tard appelée Cullinet), qui proposait une version des identifications appelée IDMS et qui tournait sur les mainframes d'IBM.
+
+En 1983, il a fondé les systèmes d'information de Bachman qui ont développé une ligne des produits assistés par ordinateur de CAS de technologie de la programmation. La pièce maîtresse de ces produits était l'analyste de BACHMAN/Data, qui a fourni l'appui graphique à la création et à l'entretien des diagrammes de Bachman de diagrammes de structure de données. Elle a été décrite dans le programme de commercialisation de cycle de réingénierie d'IBM : combinant 1) la rétro-ingénierie des bases de données obsolètes, 2) la modélisation des données, 3) la technologie vers l'avant de nouvelles bases de données physiques, et 4) l'optimisation des conceptions de base de données physiques pour l'exécution et les détails du système de gestion de bases de données.
+
+Il est connu pour avoir eu des discussions houleuses avec le Dr Edgar F. Codd, qui a favorisé les bases de données modèles apparentées par rapport aux approches de navigation de base de données claironnées par Bachman.
+
+== Charles Bachman et le modèle de données en réseau CODASYL<ref></ref> ==
+
+Le '''C'''onference '''O'''n '''DA'''ta '''SY'''stems '''L'''anguages (CODASYL), en français "Conférence sur les langages de systèmes de traitement de données" est l'organisme américain de codification des systèmes de bases de données. Il a publié en 1959 les spécifications du langage COBOL. Par la suite, ses travaux entre 1974 et 1981 ont donné naissance au modèle navigationnel de SGBD (opposé au modèle hiérarchique largement promu par IBM). 

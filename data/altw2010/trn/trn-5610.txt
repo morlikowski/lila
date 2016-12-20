@@ -1,0 +1,59 @@
+Le '''schéma d'axiomes de compréhension''', ou '''schéma d'axiomes de séparation''' est un schéma d'axiomes de la Zermelo dans sa théorie des ensembles, souvent notée ''Z''. On dit souvent en abrégé ''schéma de compréhension'' ou ''schéma de séparation''. La théorie des classes permet de l'exprimer comme un seul axiome.
+=== Le schéma d'axiomes ===
+Étant donné un ensemble ''A'' et une propriété P exprimée dans le langage de la théorie des ensembles, il affirme l'existence de l'ensemble ''B'' des éléments de ''A'' vérifiant la propriété P. L'unicité (nécessaire pour que la phrase qui précède soit correcte) se déduit par extensionnalité, et il n'est donc pas nécessaire de la donner  dans l'axiome. La propriété P peut contenir des paramètres. Ce schéma permet de justifier l'introduction de l'expression (extension conservative) :
+:''B'' = {''x'' ∈ ''A'' | P ''x''}
+qui correspond bien à ce que l'on appelle la ''définition d'un ensemble en compréhension''.
+
+On parle aussi de ''schéma de séparation'', car il permet de ''séparer'' dans ''A'' les éléments qui vérifient la propriété P pour définir un nouvel ensemble.
+
+On peut énoncer formellement le schéma de compréhension ainsi :
+:∀''a<sub>1</sub> … ''∀''a<sub>p</sub>'' ∀ ''A'' ∃ ''B'' ∀ ''x''[''x'' ∈ ''B'' ⇔ (''x'' ∈ ''A'' et P ''x'' ''a<sub>1</sub>'' … ''a<sub>p</sub>'')] 
+: pour toute formule P ne contenant pas d'autre variable libre que ''x'' ''a<sub>1</sub>'' … ''a<sub>p</sub>'' (en particulier ''B'' ne  peut apparaître dans P).
+Les ''a<sub>1</sub>'' … ''a<sub>p</sub>'' sont des paramètres de la propriété P. On peut les omettre dans un premier temps pour comprendre l'énoncé. Le passage en  majuscule pour les lettres ''A'' et ''B'' n'a aucune signification propre, en théorie des ensembles tous les objets sont des ensembles. Il n'est là que pour la lisibilité (du moins l'espère-t-on). Il s'agit bien d'un schéma d'axiomes (un énoncé pour chaque formule). 
+
+Dans la théorie des ensembles de Zermelo-Fraenkel (ZF), le schéma d'axiomes de compréhension est conséquence du schéma d'axiomes de remplacement. Cependant, comme il est plus simple à comprendre et à utiliser que ce dernier, et qu'il suffit pour les développements les plus élémentaires de la théorie, il est souvent introduit directement.
+
+=== Utilisation du schéma de compréhension ===
+
+En logique du premier ordre, les modèles ont toujours au moins un élément. Le fait qu'un modèle de la théorie des ensembles (Z, ZF, ZFC, ...) est non vide est donc une propriété purement logique. Par compréhension on en déduit immédiatement l'existence d'un ensemble qui n'a pas d'éléments, c’est-à-dire l'existence de l'ensemble vide.
+:∅ = { ''x'' ∈ ''A'' | ''x'' ≠ ''x'' }
+L'ensemble vide est unique par extensionnalité (il ne dépend pas de ''A'').
+
+Nella schema di assiomi della teoria degli insiemi di Zermelo-Fraenkel.
+È anche detto '''schema di assiomi di comprensione''', benché il termine sia usato anche per la comprensione ''non ristretta'', discussa più avanti.
+
+Sia ''P'' un generico predicato in una variabile che non usa il simbolo ''B''.
+Allora nel linguaggio formale degli assiomi di Zermelo-Fraenkel, l'assioma si scrive:
+:<math>\forall A, \exist B, \forall C: C \in B \iff C \in A \and P(C)</math>
+oppure a parole:
+: Dato un generico insieme ''A'', esiste un insieme ''B'' tale che, dato un generico insieme ''C'', ''C'' è un elemento di ''B'' se e solo se ''C'' è un elemento di ''A'' e ''P'' vale per ''C''.
+Si noti che esiste un assioma per ogni predicato ''P'' di quella forma; quindi questo è uno schema di assiomi.
+
+Per comprendere questo schema di assiomi, si noti che ''B'' deve essere un sottoinsieme di ''A''.
+Quindi, quello che l'assioma sta realmente dicendo è che, dato un insieme ''A'' e un predicato ''P'', possiamo trovare un sottoinsieme ''B'' di ''A'' i cui elementi sono precisamente gli elementi di ''A'' che soddisfano ''P''. Per l'assioma di estensionalità questo insieme è unico. Denotiamo usualmente questo insieme, mediante la rappresentazione per caratteristica, come {''C'' &isin; ''A'' : ''P''(''C'')}.
+Quindi l'essenza dell'assioma è:
+: Ogni sottoclasse di un insieme definita da un predicato è essa stessa un insieme.
+
+Lo schema di assiomi di specificazione è generalmente considerato non controverso, e appare in questa forma o in una forma equivalente in quasi tutte le assiomatizzazioni della teoria degli insiemi.
+In realtà molte formulazioni alternative della teoria degli insiemi cercano di trovare uno schema di assiomi ancora più generoso, invece di fermarsi allo schema di assiomi della comprensione (non ristretta) menzionato più avanti.
+
+== Relazione con lo schema di assiomi di rimpiazzamento ==
+
+Lo schema di assiomi di specificazione può essere derivato quasi completamente dallo schema di assiomi di rimpiazzamento.
+
+Per prima cosa, richiamiamo questo schema di assiomi:
+
+:<math>\forall A, \exist B, \forall C: C \in B \iff \exist D: D \in A \and C = F(D)</math>
+
+per ogni predicato funzionale ''F'' in una variabile che non usa i simboli ''A'', ''B'', ''C'' o ''D''.
+Dato un opportuno predicato ''P'' per l'assioma di specificazione, si definisce l'applicazione ''F'' come ''F''(''D'') = ''D'' se ''P''(''D'') è vera e ''F''(''D'') = ''E'' se ''P''(''D'') è falsa, dove ''E'' è un generico elemento di ''A'' tale che ''P''(''E'') è vero.
+Allora l'insieme ''B'', garantito dall'assioma di rimpiazzamento è precisamente l'insieme ''B'' richiesto dall'assioma di specificazione. L'unico problema si incontra se l'elemento ''E'' cercato non esiste.  Ma in questo caso l'insieme ''B'' richiesto dall'assioma dall'assioma di separazione è l'insieme vuoto, così l'assioma di separazione segue dall'assioma di rimpiazzamento e dall'assioma dell'insieme vuoto.
+
+Per questa ragione lo schema di assiomi di separazione è spesso omesso negli elenchi moderni degli assiomi di Zermelo-Fraenkel.
+Tuttavia è ancora importante per ragioni storiche, e per i paragoni con le assiomatizzazioni alternative della teoria degli insiemi, come si può vedere per esempio nella seguente sezione.
+
+== Comprensione non ristretta ==
+
+Lo ''schema di assiomi di comprensione non ristretta'' si scrive:
+
+:<math>\exist B, \forall C, C \isin B \harr P \left(C\right)</math>

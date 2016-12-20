@@ -1,0 +1,125 @@
+This is a list of assemblers: software programs that translate assembly language source code into binary programs.
+
+==x86 assemblers==
+
+{| class="wikitable sortable" style="font-size: 85%; text-align: center"
+! Assembler
+! License
+! OS
+! Development status
+|-
+! A86/A386
+| Proprietary
+| Windows, DOS
+| Dead
+|-
+! FASM
+| BSD
+| Windows, DOS, Unix-like
+| Active
+|-
+! GAS
+| GPL
+| Windows, DOS
+| Active 
+|-
+! GoAsm
+| Freeware (closed source)
+| Windows
+| Active
+|-
+! HLA
+| Freeware
+| Windows, Linux, FreeBSD, Mac OS X
+| Active
+|-
+! JWASM
+| Sybase Open Watcom Public License
+| Windows, DOS
+| Active
+|-
+! MASM
+| Proprietary 
+| Windows, DOS (old versions only)
+| Active, but not advertised anymore
+|-
+! NASM
+| LGPL
+| Windows, Linux, DOS, OS/2
+| Active
+|-
+! POASM
+| Freeware (closed source)
+| Windows, Windows Mobile
+| Active
+|-
+! TASM
+| Proprietary
+| Windows, DOS
+| Dead
+|-
+! WASM
+| Sybase Open Watcom Public License
+| Windows, DOS, OS/2
+| Dropped in favor of JWASM
+|-
+! TCCASM
+| LGPL
+| Windows
+| Active
+|-
+! Yasm
+| BSD
+| Windows, DOS, Unix-like
+| Active
+|}
+
+Questo è un elenco di complilatori scritti in linguaggio assembly. 
+
+* [http://plit.de/asem-51/ ASEM-51] - per [http://developer.intel.com/design/mcs51/ Intel MCS-51] family of microcontrollers; runs on DOS, Win32, and Linux.
+* a56 - per DSPs (DSP56k series)
+* A86 - MS-DOS assembler di Eric Isaacson x86
+*AKI (''AvtoKod "Inzhener"'', o "Engineer's Autocode") - per Minsk family of computers.
+* [http://john.ccac.rwth-aachen.de:8000/as/ AS Macro Assembler] - cross assembler per una grande varietà di processori; si esegue in DOS, Win32, OS/2, e Linux
+* ASCENT (ASsembler per CENTral Processor Unit) - per Control Data Corporation computer system pre-COMPASS
+* ASM/F &ndash; per System/360 e i successivi sistemi mainframe  (usate ampiamente le prime versioni)
+* ASM/H &ndash; for IBM System/370 e più tardi mainframe system (ampiamente usate le ultime versioni)
+* ASPER (ASsembler per PERipheral Processor Unit) - per Control Data Corporation computer systems pre-COMPASS
+* Atari Macro Assembler - per Atari 800 6502
+*[http://avr-asm.tripod.com/ Atmel AVR Assembler]
+* BAL (Basic AssembLer) - per System/360 e i successivi mainframe system
+* C-- - nome usato da alcuni linguaggi che supportano il linguaggio C più vicino all'assembly.
+* 3000 serie 6400/6500/6600, 7600 e Cyber serie supercomputer
+* D - include un Inline assembler come parte delle specifiche di linguaggio.
+* [http://www.emu8086.com Emu8086] - x86 assembler e Intel's 8086 emulatore del microprocessore.
+* IBM 709, 7090, 7094
+* ARM, open source, 2-clause licenza BSD 
+* Forth.
+* GoAsm - una componente dei liberi strumenti "Go"  per 32-bit e 64-bit programmazione Windows  (x86 and x86-64).
+* GAS (GNU Assembler) - per molti processori, open source
+* HLA (High Level Assembler) - per x86.
+* [http://www-306.ibm.com/software/awdtools/hlasm/ HLASM] (Assembler di alto livello) - per IBM System/390 e successivi mainframe system (versione attuale)
+* Linoleum.
+* Lisa - per Apple II 6502
+* Little man computer
+* MAC/65 - for Atari 800 6502
+* DEC PDP-11
+* DEC VAX
+* MASM (Microsoft Macro Assembler) - for x86, from Microsoft
+* MASM32 - Freeware set of x86 32-bit assembler development tools.
+* Merlin - Il più famoso Apple II 6502 assembler (una versione a 16-bit fu anche disponibile)
+* Merlin 128
+* NASM (Netwide Assembler) - per x86, open source
+* [http://www.bestdiskrecovery.com/ngasm/index.html NGASM] - Assembler libero perDOS/Windows.
+* ORCA/M - una macro assembler per la serie di processori 6502; 
+* PAL-III - per DEC PDP-8
+* [http://people.freenet.de/dieterp/main.htm#P3 Pass32 powerful DOS/Win16/Win32 assembler]
+* RosAsm - 32 bit x86 Assembler; Open source GPL
+* SesAsm51 - Smart macro assembler per 8051/MCS-51.  http://www.programmersheaven.com/download/49431/download.aspx
+* SjASMPlus - compilatore del linguaggio assemblyZ80; Open source BSD
+* Sphinx C-- - misto di assembly e C, permette la combinazione di comandi Assembly con strutture simili al C.
+* SSK (''Sistema Simvolicheskogo Kodirovaniya'') - per Minsk family of computers
+* SynAssembler - per Atari 800 6502 di Synapse Software
+* TASM (Turbo Assembler) - per x86 di Borland
+* Terse (Algebraic Assembly Language) - per x86 di Jim Neil
+* Yasm - Un assembler x86 NASM con il supportox86-64 ; open source.

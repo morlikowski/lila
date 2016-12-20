@@ -1,0 +1,138 @@
+{{Infobox Commune de France|nomcommune=Bilhères |
+région=Aquitaine|
+département=Pyrénées-Atlantiques|
+arrondissement=Arrondissement d'Oloron-Sainte-Marie|
+canton=Canton de Laruns|
+insee=64128 |
+cp=64260 |
+maire=Joseph Paroix |
+mandat=2008-2014|
+intercomm=sans|
+longitude=-0.447222222222 |
+latitude=43.0594444444|
+alt moy=650 m|
+alt mini=480 m|
+alt maxi=1817 m|
+hectares=1719 |
+km²=17,19 |
+sans=158 |
+date-sans=1999|
+dens=9,19 }}
+thumb|right|300px|Vue générale de Bilhères
+'''Bilhères''' est une commune française, située dans le département des région Aquitaine.
+
+Ses habitants sont appelés les Bilhérois.
+
+==Géographie==
+Commune située en vallée d'Ossau.
+
+===Hydrographie===
+La commune est traversée par le ruisseau le Barescou, affluent du gave d'Aspe.
+
+Des affluents du gave d'Ossau arrosent également la commune :
+* le ruisseau l'Arrioubeigt et ses affluents :
+** le ruisseau Caou Sèque
+** le ruisseau le Serres
+* l'arriou Mage et son affluent :
+** l'arriou Tort
+
+===Lieux-dits et hameaux===
+===Communes limitrophes===
+
+* Arudy et Izeste au nord
+* Escot et Sarrance à l'ouest
+* Bielle au sud.
+
+==Toponymie== 
+Le toponyme ''Bilhères'' apparaît<ref name="Raymond">''Dictionnaire topographique Béarn-Pays basque'' - Paul Raymond</ref> sous les formes ''Bileles'' (1154, titres de Barcelone<ref>Titres publiés dans les preuves de l'''Histoire de Béarn'' de  Oloron<ref>Manuscrits du XVII siècle - Archives départementales des Pyrénées-Atlantiques</ref>).<br />
+Le sens est sans doute « les petites propriétés », du latin villa avec le suffixe diminutif -elias<ref>Michel Grosclaude, ''Dictionnaire toponymique des communes du Béarn'', edicions reclams Escola Gaston Febus, 2006 p.141</ref>.
+
+==Histoire==
+En 1385, Bilhères comptait 56 feux et dépendait du bailliage d'Ossau.<br />
+Paul Raymond<ref name="Raymond">Dictionnaire topographique Béarn-Pays basque - Paul Raymond</ref> note que la commune comptait une abbaye laïque vassale de la vicomté de Béarn.
+
+==Administration==
+
+ 
+
+===Intercommunalité===
+La commune fait partie de huit structures intercommunales :
+* SIVOM de la vallée d'Ossau
+* SIVU pour la construction de la maison de retraite du Haut-Ossau
+* syndicat de défense des eaux de crue du gave
+* syndicat intercommunal pour le regroupement pédagogique des écoles de Bielle et Bilhères-en-Ossau
+* syndicat mixte du Haut-Béarn
+* syndicat mixte du Pays d'Oloron-Haut-Béarn
+* syndicat touristique du canton de Laruns
+* syndicat départemental d'électrification.
+
+La commune fait partie du Pays d'Oloron et du Haut-Béarn.
+
+==Démographie==
+
+{{infobox Franse gemeente|
+|plaatsnaam= Bilhères
+|wapen= 
+|kaart= 
+|regio= Aquitanië 
+|departement= Pyrénées-Atlantiques (64)
+|arrondissement= Oloron-Sainte-Marie
+|kanton= Laruns
+|jaar= 2005
+|inwoners= 151
+|dichtheid= 8,9
+|oppervlakte= 17,0
+|water= 
+|latitudeGraden= 43 |latitudeMinuten= 4|latitudeSeconden= 0
+|longitudeGraden= 0 |longitudeMinuten= 27 |longitudeSeconden= 0
+|E of W=W |ol of wl=W.L.
+|kaartX= 97 |kaartY= 262
+|code= 64128
+|postcode= 64260
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Bilhères''' is een gemeente in het Franse departement Oloron-Sainte-Marie.
+
+==Geografie==
+De oppervlakte van Bilhères bedraagt 17,0 km², de bevolkingsdichtheid is 8,9 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:300 color:gray1 width:1       
+  from:start till:end             
+  bar:200 color:gray1              
+  from:start till:end            
+  bar:100 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,144)(84,117) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 219 1968: 172
+  points:(84,117)(100,109)    color:blue    width:2 #1975: 157
+  points:(100,109)(128,113)   color:blue    width:2 #1982: 164
+  points:(128,113)(160,107)   color:blue    width:2 #1990: 153
+  points:(160,107)(196,110)   color:blue    width:2 #1999: 158
+  points:(196,110)(228,106)     color:blue    width:2 #2004/5 
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

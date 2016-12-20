@@ -1,0 +1,59 @@
+Le GPS (satellites. En général trois satellites suffisent pour déterminer une position par ce système. Toutefois ces calculs peuvent être entachés d'incertitude, la position des satellites au moment des mesures ayant une influence déterminante sur la qualité du positionnement, surtout en cas de mesures dynamiques ou cinématiques (temps d'observation de quelques secondes). Il existe donc des critères qui permettent de vérifier ou corriger la précision du triplet (x, y, z) déterminé grâce aux satellites.<br>
+
+Ainsi le G.D.O.P. (Global Dilution Of Precision ou encore Coefficient d'affaiblissement de la précision) est un de ces critères de qualité. Il permet de savoir si une position évaluée au sol est fiable ou non. En effet c'est un coefficient qui vérifie si les satellites concernés dans cette détermination de position au sol sont suffisamment éloignés entre eux, car des satellites trop proches calculeraient une position trop imprécise.
+<br>Cet indicateur s'avère alors instructif et fiable sur la qualité de la précision calculée par le système GPS. C'est un renseignement essentiel.
+
+==Qu'est ce que le GDOP?==
+
+===Principes de calculs===
+Ainsi le GDOP est un indicateur sur le positionnement des satellites. Il est possible de considérer qu'il est proportionnel à l’inverse du volume du synchronisation des satellites sur la mesure. 
+
+===Exemples et signification=== 
+
+Un bon coefficient GDOP, dans le sens où il indique une mesure plutôt fiable, est proche de 1. Plus la valeur du coefficient est élevée, moins la mesure est précise : 1 est donc la valeur optimale, une valeur comprise entre 2 et 3 est excellente, entre 5 et 6 la mesure est considérée comme bonne, au delà de 8 la mesure n'est plus considérée comme acceptable, la position des satellites étant trop défavorable. 
+
+Prenons un premier exemple : <br>
+Image:GDOPbon.JPG<br>
+Les satellites sont biens répartis dans le ciel, ils sont éloignés entre eux. Le facteur GDOP sera donc bon, à savoir proche de un. 
+
+Dans ce second cas : <br>
+Image:GDOPmauvais.JPG<br>
+Les satellites sont très proches, mal répartis. La mesure est donc peu fiable, on obtiendra un Gdop élevé, supérieur à huit. <br>
+En pratique il est donc utile pour le récepteur de calculer ce facteur. Dans le cas où un nombre suffisant de satellites sont visibles, le récepteur peut donc choisir de rajouter ou d'enlever des satellites pour la mesure, en prenant la configuration où le facteur GDOP est le meilleur. 
+
+'''Dilution of precision (DOP)''' or '''Geometric Dilution of Precision (GDOP)''' is a GPS term used in geomatics engineering to describe the geometric strength of satellite configuration on GPS accuracy.  
+
+When visible GPS satellites are close together in the sky, the geometry is said to be weak and the DOP value is high; when far apart, the geometry is strong and the DOP value is low.  Thus a low DOP value represents a better GPS positional accuracy due to the wider angular separation between the satellites used to calculate a GPS unit's position.  Other factors can increase the effective DOP are obstructions such as nearby mountains or buildings.  DOP can be expressed as a number of separate measurements.  HDOP, VDOP, PDOP and TDOP are respectively Horizontal, Vertical, Position (3-D) and Time Dilution of Precision.  They follow mathematically from the positions of the usable satellites. GPS receivers allow the display of these positions ("skyplot") as well as the DOP values. 
+
+The term can also be applied to other location systems that employ several geographical spaced sites.  It can occur in electronic-counter-counter-measures (electronic warfare) when computing the location of enemy emitters (radar jammers and radio communications devices).  Using such an interferometry technique can provide certain geometric layout where there are degrees of freedom that cannot be accounted for due to inadequate configurations.
+
+{| class="wikitable"
+|-
+! DOP Value
+! Rating
+! Description
+|-
+| 0
+| Ideal
+| This is the highest possible confidence level to be used for applications demanding the highest possible precision at all times
+|-
+| 1-3
+| Excellent
+| At this confidence level, positional measurements are considered accurate enough to meet all but the most sensitive applications
+|-
+| 4-6
+| Good
+| Represents a level that marks the minimum appropriate for making business decisions. Positional measurements could be used to make reliable in-route navigation suggestions to the user
+|-
+| 7-8
+| Moderate
+| Positional measurements could be used for calculations, but the fix quality could still be improved. A more open view of the sky is recommended
+|-
+| 9-20
+| Fair
+| Represents a low confidence level. Positional measurements should be discarded or used only to indicate a very rough estimate of the current location
+|-
+| 21-50
+| Poor
+| At this level, measurements are inaccurate by as much as half a football field and should be discarded
+|}

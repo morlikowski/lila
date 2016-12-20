@@ -1,0 +1,110 @@
+{{infobox Franse gemeente|
+|plaatsnaam= Jonquières-Saint-Vincent
+|wapen= 
+|kaart= 
+|regio= Languedoc-Roussillon 
+|departement= Gard (30)
+|arrondissement= Nîmes
+|kanton= Beaucaire
+|jaar= 2004
+|inwoners= 2896
+|dichtheid= 136,0
+|oppervlakte= 21,3
+|water= 
+|code= 30135
+|postcode= 
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Jonquières-Saint-Vincent''' is een gemeente in het Franse departement Gard (regio Nîmes.
+
+==Geografie==
+De oppervlakte van Jonquières-Saint-Vincent bedraagt 21,3 km², de bevolkingsdichtheid is 136,0 inwoners per km².
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:3900 color:gray1 width:1       
+  from:start till:end             
+  bar:2600 color:gray1              
+  from:start till:end            
+  bar:1300 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,77)(84,83) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 1311 1968: 1445
+  points:(84,83)(100,85)    color:blue    width:2 #1975: 1499
+  points:(100,85)(128,100)   color:blue    width:2 #1982: 1825
+  points:(128,100)(160,119)   color:blue    width:2 #1990: 2260
+  points:(160,119)(196,140)   color:blue    width:2 #1999: 2745
+  points:(196,140)(228,146)     color:blue    width:2 #2004/5 
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+categorie:gemeente in Gard
+
+{{Infobox Commune de France|nomcommune=Jonquières-Saint-Vincent
+|région=Languedoc-Roussillon
+|département=Gard
+|arrondissement=Arrondissement de Nîmes
+|canton=Canton de Beaucaire
+|insee=30135
+|cp=30300
+|maire=Jean-Marie Fournier
+|mandat=2008-2014
+|intercomm=Communauté de communes Beaucaire-Terre d'Argence
+|longitude=4.56388888889
+|latitude=43.8288888889
+|alt moy=42 m
+|alt mini=13 m
+|alt maxi=81 m
+|hectares=2132
+|km²=21,32
+|sans=2745
+|date-sans=1999
+|dens=128|}}
+'''Jonquières-Saint-Vincent''' est une commune française, située dans le département du Gard et la région Languedoc-Roussillon.
+
+==Géographie==
+Les communes de Beaucaire, Redessan, Montfrin et Meynes sont limitrophes à la commune de Jonquières-Saint-Vincent ; les habitants s'appellent les Jonquièrois et Jonquièroises.
+
+Jonquières-Saint-Vincent est l'une des 75 communes membres du Schéma de Cohérence Territoriale SCOT du Sud du Gard (voir lien) et fait également partie d'une des 41 communes du Pays Garrigues Costières.
+
+==Histoire==
+==Administration==
+
+==Démographie==
+{{Démographie|
+1962= 1311|
+1968= 1445|
+1975= 1499|
+1982= 1825|
+1990= 2260|
+1999= 2745|
+sansdoublescomptes= 1962|source=INSEE<ref>[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=30135&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Jonquières-Saint-Vincent sur le site de l'Insee]</ref>}}
+
+==Lieux et monuments==
+* La Chapelle Saint-Laurent (inscription MH 24 décembre 1926), propriété de la commune.
+
+thumb|center|240px|La petite Chapelle Saint Laurent qui devait être entourée du village de pêcheurs de jonquierre. Édifiée en XII siècle.
+
+* Via Domitia (tronçon) : Route (Antiquité), également sur les communes de Redessan et Beaucaire, dans le Gard, et Castelnau-le-Lez, dans l' Hérault. Inscription MH du 5 février 1987, adresse :C.R. 19 dit chemin des Romains

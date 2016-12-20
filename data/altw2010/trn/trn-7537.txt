@@ -1,0 +1,52 @@
+'''AVCHD''' ('''Advanced Video Codec High Definition''') on teräväpiirtovideon tallennusformaatti, jonka ovat kehittäneet Sony ja Panasonic. Se voidaan tallentaa usealle eri tallennusmedialle mm. 8 cm (3") DVD-levylle, kiintolevylle tai flash-muisteille. AVCHD-formaatti kilpailee muiden kannettavien videokameraformaattien mm. HDV ja MiniDV kanssa.
+
+AVCHD käyttää MPEG-4 AVC (H.264) -videokoodekkia. AVC:n suurempi pakkaustehokkuus (verrattuna vanhempaan MPEG-2 -koodekkiin, jota käytetään HDV-videokameroissa) mahdollistaa paljon pidempien tallenteiden tekemisen samalle määrälle tallennustilaa. Ääni voidaan tallentaa joko pakkaamattomana 7.1 linear PCM -muodossa tai pakattuna AC-3 5.1- muodossa. Pakattu ääni- ja videodata paketoidaan HDMV (MPEG-2)- siirtomuotoon. Tämä siirtomuoto ja AVCHD:n muu rakenne ovat peräisin Blu-ray-levyjen BDMV-muodosta. AVCHD tallenteita voidaan esittää ilman muutoksia useimmissa  Blu-ray -soittimissa, kuten Sony BDP-S1, Panasonic DMP-BD10 ja PlayStation 3. Sony väittää, että tätä tallennusmuotoa käyttäen voidaan tallentaa MiniDVD-levylle noin 20 minuuttia teräväpiirtokuvaa käyttäen keskimääräistä pakkaustiheyttä. Vertailun vuoksi 8cm MiniDVD-levylle voi tallentaa vain 30 minuuttia DVD-tasoista MPEG-2 videota, ja MiniDV nauhalle voi tallentaa 60 minuuttia joko normaalia DV-videokuvaa tai teräväpiirto (HDV) videota.
+
+Täytyy kuitenkin huomata, että täydellä tarkkuudella 8cm MiniDVD:lle voi tallentaa vain 15 minuuttia videokuvaa. Uudemmat kaksikerroslevyt kasvattavat tallennusajan 27 minuuttiin. AVCHD videokameroilla, joissa tallennus tapahtuu SD- tai MemoryStick-muistikorteille tallennusaika voi olla kuitenkin selvästi pidempi, jopa useita tunteja.
+
+== Editointi ==
+
+AVCHD:n tärkeimpiä etuja MiniDV-nauhoihin verrattuna on nopea hakutoiminto, koska AVCHD:ssa ei tarvitse kelata nauhaa eteen- ja taaksepäin. Kehittyneimmät käyttäjät harvoin editoivat kuitenkaan kuvattua videomateriaalia videokameralla, vaan se siirretään ensin tietokoneelle ja editoidaan videoeditointiohjelmistolla haluttuun muotoon, joten nopea hakutoiminto ei ole niin tärkeä parannus MiniDV-nauhaan verrattuna. Sony Vegas 7.0e, Corel Ulead VideoStudio 11 Plus, ja Pinnacle Studio Plus 11 videoeditointiohjelmistoilla voi editoida AVCHD videokuvaa. Huolimatta Sonyn yhteistyöstä Apple:n kanssa, joidenkin Final Cut Studio 2 -ohjelmiston piirteiden kehittämisessä, nämä tuotteet kuitenkin eivät alun perin tukeneet AVCHD-tallennusformaattia. Tuki AVCHD-formaatille on kuitenkin saatavilla päivityspakettina. Monet muut videoeditointiohjelmistojen tuottajat ovat kertoneet tukevansa AVCHD-formaattia tulevaisuudessa . Äskettäin julkaistut Canopus:in AVCHD-muunnin osaa muuttaa AVCHD-tallenteet muotoon, jota voi editoita Canopus Edius 3/4-ohjelmistolla. Vastaava työkalu, Canopus ProCoder 2, osaa muuntaa tallenteet muotoon, jota voidaan editoida monella muulla videoeditointiohjelmistolla.
+
+==Tuotteita==
+
+===Laitteet===
+Sony toi myyntiin viisi AVCHD-videokameraa, HDR-UX1, UX3/UX5, ja UX7 ja HDR-SR1 (30 Gt kiintolevyllä) vuonna 2006. 
+Kiintolevymallit HDR-SR5 (40 Gt), HDR-SR7 (60 Gt) ja HDR-SR8 (100 Gt) julkaistiin kesällä 2007. 
+Memory Stick Duo Flach-muistille videota tallentava HDR-CX7 julkaistiin myös kesällä 2007. 
+CES messuilla 2008, Sony julkaisi viimeisimmät jäsenet AVCHD videokameraperheeseen, HDR-SR10 (40GB kiintolevy) ja kovalevyä vaille identtiset huippumallit HDR-SR11 (60Gt kiintolevy) ja HDR-SR12 (120GB kovalevyllä), Isot levyt ovatkin tarpeen, kun tallennusnopeus on kasvanut 16 Mbit/s tarkkuudella 1920 x 1080. Kameroissa on myös Sonyn uusin 1/3,15-tuuman CMOS kenno Exmor tekniikalla. 
+
+Panasonic on julkaissut useita AVCHD-videokameroita, HDC-SD1 (SDHC), HDC-DX1 (SDHC).
+
+Canon on julkaisemassa ensimmäisen AVCHD-videokameran, HR10 (MiniDVD), elokuussa 2007.
+
+thumb|200px|right|AVCHD-Logo
+
+'''Advanced Video Codec High Definition''' (kurz '''AVCHD''', englisch für ''Fortgeschrittener Video Codec hoher Auflösung'') ist ein digitales Aufzeichnungsformat für Festspeicher.  Es verwendet den H.264/MPEG-4 AVC-Codec und steht in direkter Konkurrenz zu den Formaten MiniDV und besonders HDV, welches das ältere MPEG-2 verwendet.
+
+== Entstehung und Verbreitung ==
+Der Standard Advanced Video Codec High Definition wurde gemeinsam von den Unternehmen Matsushita (Panasonic) und Sony entwickelt, und am 11. Mai 2006 vorgestellt.  Die beiden Unternehmen halten alle Rechte an dem Format.
+
+Am 13. Juli 2006 wurde der Beginn der Pioneer, Samsung und Sharp ist angekündigt. Die Lizenzen werden für Aufnahme- und Wiedergabegeräte, sowie für Software vergeben.
+
+=== Hardware ===
+Sony, Panasonic und Canon haben 2006 erste AVCHD-Camcorder auf den Markt gebracht. Auch Blu-ray-Spieler unterstützten dieses Format in der Regel. Dabei werden nicht nur selbsterstellte Blu-ray Disks (BD-R/RE), sondern auch Filme auf DVD-Rohlingen akzeptiert, die sogenannte Mini Blu-ray oder auch AVCHD-Disc. Die Daten sind im Universal Disk Format (UDF) Version 2.5 oder höher auf den Discs gespeichert. Dies kann zu Leseproblemen auf PCs führen, da erst ein entsprechender UDF-Treiber installiert werden muß, bevor die Disks lesbar sind (gilt z.Z. für WinXP und Linux). 
+Entsprechende Produkte können mit einem lizenzierten Logo (siehe Abbildung) versehen werden. Die Sony Playstation 3 ist (ab Firmware-Version 1.9) in der Lage, AVCHD Videos von einem Memory Stick abzuspielen.
+
+=== Software ===
+Das Format wird von mehreren Herstellern von Nero 7/8, Grass Valley EDIUS, Corel Ulead Videostudio, Magix Video Deluxe oder Final Cut Pro sowie Final Cut Express und MacroSystem gegeben.
+
+== Technik ==
+Der ''Advanced Video Codec High Definition'' basiert auf dem MPEG-4 Standard AVC/H.264 (MPEG–4 Part 10). Die erste Definition dieses Formats trägt den Namen ''AVCHD-Format Version 1.0''.
+
+===Video===
+Neben den etablierten PAL oder SECAM) in den Bildseitenverhältnissen 4:3 und 16:9 werden auch die Modi 720p/(60/50/24), 1080i/(30/25) und 1080p/24 im Bildseitenverhältnis 16:9 unterstützt. Als Kompressionsmethode für die Videosignale wird MPEG-4 AVC/H.264 verwendet.
+
+In den Spezifikationen der oben genannten Anbieter findet sich zusätzlich die Bildauflösung 1440&nbsp;x&nbsp;1080 für das 16:9 Format, die aber nicht konform mit dem Standard H.264 ist, da dieser für die HD-Darstellung in 16:9 ausschließlich quadratische Pixel vorsieht.
+
+Die Videosignale werden im MPEG-4-Datenkompressionsstandard aufgezeichnet, um diese dann in einen MPEG-2-Transport-Datenstrom zu übertragen. Das Abspielen erfolgt mit einer Datenrate von zum Beispiel 6, 9, 13, 18 oder 24 Megabit/s (zuzüglich Ton und Metadaten).
+
+AVCHD benutzt ein skalierbares Kompressionsverfahren (MPEG-4) mit unterschiedlicher Verarbeitungstiefe und sieht eine interne Bildstruktur mit einer ''Group of Picture'' (GoP) von bis zu 15 Bildern (Frames) vor. Die Farbabtastung erfolgt in AVCHD mit 8 bit, 4:2:0.
+
+===Audio===
+Für PCM-Verfahren mit einer konstanten Bitrate von 1,5 Mbps für 2 Kanäle, aber auch variabel mit 1 bis 7.1 Kanälen gearbeitet werden.

@@ -1,0 +1,108 @@
+{{Infobox Commune de France|nomcommune=Bosc-Hyons
+|région=Haute-Normandie
+|département=Seine-Maritime
+|arrondissement=Arrondissement de Dieppe
+|canton=Canton de Gournay-en-Bray
+|insee=76124
+|cp=76220
+|maire=
+|mandat=
+|intercomm=
+|longitude=1.65861111111
+|latitude=49.4488888889
+|alt moy=215 m
+|alt mini=182 m
+|alt maxi=229 m
+|hectares=563
+|km²=5,63
+|sans=311
+|date-sans=1999
+|dens=55|}}
+'''Bosc-Hyons''' est une commune française, située dans le département de la région Haute-Normandie.
+
+== Géographie ==
+==Histoire==
+Ce toponyme était écrit Boschyons avant 1953.
+
+== Administration ==
+
+== Démographie ==
+{{Démographie|
+1962= 129|
+1968= 187|
+1975= 216|
+1982= 225|
+1990= 287|
+1999= 311|
+sansdoublescomptes= 1962|source=INSEE<ref>[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=76124&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Bosc-Hyons sur le site de l'Insee]</ref>}}
+
+== Lieux et monuments ==
+==Personnalités liées à la commune==
+== Voir aussi ==
+* Communes de la Seine-Maritime
+
+{{infobox Franse gemeente|
+|plaatsnaam= Bosc-Hyons
+|wapen= 
+|kaart= 
+|regio= Hoog-Normandië 
+|departement= Seine-Maritime (76)
+|arrondissement= Dieppe
+|kanton= Gournay-en-Bray
+|jaar= 1999
+|inwoners= 311
+|dichtheid= 55,5
+|oppervlakte= 5,6
+|water= 
+|latitudeGraden= 49 |latitudeMinuten= 27|latitudeSeconden= 0
+|longitudeGraden= 1 |longitudeMinuten= 40 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 143 |kaartY= 60
+|code= 76124
+|postcode= 76220
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Bosc-Hyons''' is een gemeente in het Franse departement Dieppe.
+
+==Geografie==
+De oppervlakte van Bosc-Hyons bedraagt 5,6 km², de bevolkingsdichtheid is 55,5 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:420 color:gray1 width:1       
+  from:start till:end             
+  bar:280 color:gray1              
+  from:start till:end            
+  bar:140 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,119)(84,96) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 245 1968: 187
+  points:(84,96)(100,107)    color:blue    width:2 #1975: 216
+  points:(100,107)(128,111)   color:blue    width:2 #1982: 225
+  points:(128,111)(160,136)   color:blue    width:2 #1990: 287
+  points:(160,136)(196,146)   color:blue    width:2 #1999: 311
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

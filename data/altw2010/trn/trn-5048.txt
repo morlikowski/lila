@@ -1,0 +1,187 @@
+In division of one number by another.
+
+Given two numbers, ''a'' (the dividend) and ''n'' (the divisor), ''a'' '''modulo''' ''n'' (abbreviated as ''a'' mod ''n'') is the remainder, on division of ''a'' by ''n''. For instance, the expression "7 mod 3" would evaluate to 1, while "9 mod 3" would evaluate to 0. Although typically performed with ''a'' and ''n'' both being integers, many computing systems allow other types of numeric operands.
+
+See modular arithmetic for an older and related convention applied in number theory.
+
+== Remainder calculation for the modulo operation ==
+{| class="wikitable" style="float:right;margin-left:1em;margin-right:0" width="30%"
+|+ Modulo operators in various programming languages
+|-
+! Language 
+! Operator 
+! abbr="Sign" | Result has the same sign as
+|-
+|-
+| ActionScript || <tt>%</tt> || Dividend
+|-
+| rowspan="2" | Ada  
+| <tt>mod</tt> || Divisor
+|-
+| <tt>rem</tt> || Dividend
+|-
+| ASP || <tt>Mod</tt> || Not defined
+|-
+| C (ISO 1990) || <tt>%</tt> || Not defined
+|-
+| C (ISO 1999) || <tt>%</tt> || Dividend
+|-
+| C++ || <tt>%</tt> || Not defined<ref>. "the binary % operator yields the remainder from the division of the first expression by the second. .... If both operands are nonnegative then the remainder is nonnegative; if not, the sign of the remainder is implementation-defined".</ref>
+|-
+| C# || <tt>%</tt> || Dividend
+|-
+| ColdFusion || <tt>MOD</tt> || Dividend
+|-
+| rowspan="2" | Common Lisp
+| <tt>mod</tt> || Divisor
+|-
+| <tt>rem</tt> || Dividend
+|-
+| Eiffel || <tt>\\</tt> || Dividend
+|-
+| Microsoft Excel || <tt>=MOD()<tt> || Divisor
+|-
+| Euphoria || <tt>remainder</tt> || Dividend
+|-
+| FileMaker || <tt>Mod</tt> || Divisor
+|-
+| rowspan="2" | Fortran
+| <tt>mod</tt> || Dividend
+|-
+| <tt>modulo</tt> || Divisor
+|-
+| GML (Game Maker) || <tt>mod</tt> || Dividend
+|-
+| rowspan="2" | Haskell
+| <tt>mod</tt> || Divisor
+|-
+| <tt>rem</tt> || Dividend
+|-
+| J || <tt><nowiki>|~</nowiki></tt> || Divisor
+|-
+| Java || <tt>%</tt> || Dividend
+|-
+| JavaScript || <tt>%</tt> || Dividend
+|-
+| Lua || <tt>%</tt> || Divisor
+|-
+| MathCad || <tt>mod(x,y) || Divisor
+|-
+| Mathematica || <tt>Mod</tt> || Divisor
+|-
+| rowspan="2" | MATLAB
+| <tt>mod</tt> || Divisor
+|-
+| <tt>rem</tt> || Dividend
+|-
+| MySQL || <tt>MOD</tt><br /><tt>%</tt> || Dividend
+|-
+| Objective Caml || <tt>mod</tt> || Not defined
+|-
+| Occam || <tt>\</tt> || Dividend
+|-
+| Pascal (Delphi) || <tt>mod</tt> || Dividend
+|-
+| Perl || <tt>%</tt> || Divisor
+|-
+| PHP || <tt>%</tt> || Dividend
+|-
+| PL/I || <tt>mod</tt> || Divisor (ANSI PL/I)
+|-
+| rowspan="2"| Prolog (ISO 1995)
+| <tt>mod</tt> || Divisor
+|-
+| <tt>rem</tt> || Dividend
+|-
+| Python || <tt>%</tt> || Divisor
+|-
+| QBasic || <tt>MOD</tt> || Dividend
+|-
+| R || <tt>%%</tt> || Divisor
+|-
+| RPG || <tt>%REM</tt> || Dividend
+|-
+| Ruby || <tt>%</tt> || Divisor
+|-
+| Scheme || <tt>modulo</tt> || Divisor
+|-
+| rowspan="2" | SenseTalk
+| <tt>modulo</tt> || Divisor
+|-
+| <tt>rem</tt> || Dividend
+|-
+| Tcl || <tt>%</tt> || Divisor
+|-
+| Verilog (2001) || <tt>%</tt> || Dividend
+|-
+| rowspan="2" | VHDL  
+| <tt>mod</tt> || Divisor
+|-
+| <tt>rem</tt> || Dividend
+|-
+| Visual Basic||<tt>Mod</tt>||Dividend
+|-
+|}
+There are various ways of defining a remainder, and computers and calculators have various ways of storing and representing numbers, so what exactly constitutes the result of a modulo operation depends on the hardware.
+
+In nearly all computing systems, the quotient resulting from the division is constrained to the set of integers, and the remainder ''r'' is typically constrained by either <math>0 \leq r < |n|</math> or <math>-|n| < r \leq 0</math>. The choice between the two possible remainders depends on the signs of ''a'' and ''n'' and the programming language being used. Some programming languages, such as C89, don't even define a result if either of ''n'' or ''a'' is negative. See the table for details.
+
+''a'' modulo 0 is undefined in the majority of systems, although some do define it to be ''a''.  If the definition is consistent with the division algorithm, then ''n'' = 0 implies <math> 0 \leq r < 0</math>, which is a contradiction (i.e., the usual remainder does not exist in this case).
+
+The remainder can be calculated by using equations, in terms of other functions. Differences may arise according to the scope of the variables, which in common implementations is broader than in the definition just given.  One useful equation for calculating the remainder ''r'' is
+:<math>r = a - n \left\lfloor {a \over n} \right\rfloor</math>
+
+where <math>\lfloor x\rfloor</math> is the floor function of ''x''. See e.g. [http://www.google.com/search?q=-12+modulo+7], [http://www.google.com/search?q=12+modulo+-7], [http://www.google.com/search?q=-12+modulo+-7].
+
+Raymond T. Boute<ref>{{cite journal
+  | last = Boute
+  | first = Raymond T.
+  | title = The Euclidean definition of the functions div and mod
+  | journal = ACM Transactions on Programming Languages and Systems (TOPLAS)
+  | volume = 14
+  | issue = 2
+  | pages = 127 – 144
+  | publisher = ACM Press (New York, NY, USA)
+  | date = April 1992
+  | url = http://portal.acm.org/citation.cfm?id=128862&coll=portal&dl=ACM
+  | doi = 10.1145/128861.128862}}</ref> analyzed several definitions of integer division and modulo, and he introduces the &ldquo;Euclidean&rdquo; definition.  Let ''q'' be the integer quotient of ''a'' and ''n'', then:
+: <math>q \in \mathbb{Z}</math>
+: <math>a = n \times q + r</math>
+: <math>0 \leq r < |n|.</math>
+
+Two corollaries are that
+: <math>n > 0 \to q = \left\lfloor a \div n \right\rfloor</math>
+: <math>n < 0 \to q = \left\lceil a \div n \right\rceil.</math>
+
+As described by Leijen,<ref>{{cite web
+  | last = Leijen
+  | first = Daan
+  | title = Division and Modulus for Computer Scientists
+  | date = December 3, 2001
+  | url = http://www.cs.uu.nl/~daan/download/papers/divmodnote.pdf
+  | format = PDF
+  | accessdate =2006-08-27  }}</ref>
+:Boute argues that Euclidean division is superior to the other ones in terms of regularity and useful mathematical properties, although floored division, promoted by Knuth, is also a good definition. Despite its widespread use, truncated division is shown to be inferior to the other definitions.
+
+== Modulo operation expression ==
+
+Une très grande part des calculs réalisés en arithmétique saturée). Ceci est dû au fait que les données manipulées sont toujours représentées au final comme une suite finie de bits, c’est-à-dire un entier compris entre 0 et <math>n - 1 = 2^{m} - 1</math> et que donc l'''Z''/2''Z''.
+
+Du fait de cette utilisation au quotidien, des notations spécifiques sont apparues pour cette discipline.
+
+Ainsi, en programmation informatique, on désigne par '''modulo''' l'opération de calcul du reste de la division euclidienne. Si ''a'' est un entier quelconque et ''n'' un entier strictement positif, on écrira ''a'' mod ''n'' pour représenter le reste dans {0, ..., ''n''−1} de la division de ''a'' par ''n''. Un modulo équivaut donc à la différence entre un dividende et la multiplication de la valeur tronquée du quotient de la division de ce dividende par un quelconque diviseur par ce même diviseur. Ainsi, 9 mod 4 = 9 - (2 * 4) = 1.
+
+On note souvent cette opération <code>a % n</code> (notation utilisée dans les langages dérivés de C). Toutefois cette définition est insuffisante car elle ne définit pas le comportement quand le diviseur est négatif, et la notion de reste dans une division euclidienne d'un entier négatif par un entier positif n'est pas claire (en effet le reste pourrait être négatif alors que le diviseur est positif). Elle cache en fait deux opérations différentes :
+
+=== Implémentation de la fonction '''mod''' ===
+Dans la pratique ''x'' mod ''y'' peut être calculé en utilisant d'autres fonctions. Des différences apparaissent suivant les types des variables utilisées, lesquels contiennent le type entier dans les implémentations courantes. Mais la principale différence réside dans l'interprétation de la partie entière du quotient, en fonction du signe du dividende ou celui du diviseur quand ceux-ci peuvent être négatifs:
+# En utilisant la partie entière <code>floor</code>, <code>floor(z)</code> est le plus grand entier inférieur ou égal à z, ce qui retourne un modulo toujours compris entre 0 et le diviseur ''y'' (cette interprétation est celle qui facilite le calcul des phénomènes périodiques dans des repères avec une origine arbitraire)&nbsp;:
+#: ''x'' mod ''y'' = <code>''x'' - ''y''*floor(''x''/''y'')</code>.
+# En utilisant la fonction de troncature de la partie décimale (désignée par <code>remain()</code> dans certains calculateurs et qui retourne toujours un entier positif ; réalisée en C ou en PHP par l'opérateur de base ''%'' mais uniquement pour des opérandes entiers&nbsp;; cette définition parait naturelle mais elle complique le calcul des phénomènes cycliques et oblige à tester l'origine des repères pour éviter d'avoir à tester le signe du dividende ''x'', sachant qu'en général ''y'' est connu, constant et positif et correspond à la période du cycle)&nbsp;:
+#: <code>''x'' % ''y'' = ''x'' - ''y''*iPart(''x''/''y'')</code>
+
+Il faut noter que les deux opérations ci-dessus sont différentes :
+# Dans le cas de la fonction partie entière ''floor'', le résultat est négatif pour un modulo avec un entier strictement négatif (en convenant de poser a mod -n = -(a mod n), par exemple 1 mod -2 = -1). Le modulo retourné est donc du même signe que le diviseur y. Nous obtenons une fonction notée mod() sur les calculateurs et implémentée dans certains langages de haut niveau incluant Perl et Visual Basic (dans les tableaux excel, la fonction est Reste).
+# Perl utilise aussi l'opérateur ''%'' pour effectuer une opération modulo, en faisant allusion à l'opérateur de division  ''/'' qui en Perl est une division entière vers 0 (c'est-à-dire dont le quotient entier retourné est celui dont qui a la plus grande valeur absolue inférieure ou égale à la valeur absolue du quotient réel). Dans ce cas, la fonction ''iPart'' est toujours inférieure ou égale en valeur absolue au quotient réel, et le modulo retourné est toujours du même signe que le dividende x.
+
+La première toutefois est la seule qui a un sens en arithmétique modulaire, car elle retourne la même valeur de modulo (caractéristique de la classe de congruence) pour tous les entiers positifs ou négatifs qui se réduisent dans la même classe modulaire de Z/''n''Z, ''n'' étant le diviseur. Ce n'est pas vrai de la deuxième fonction qui retourne deux valeurs modulaires possibles pour les non-multiples de ''n'', c'est-à-dire une valeur modulaire positive ''x'' pour les valeurs d'entrées positives, et une valeur modulaire négative ''-x'' pour les valeurs d'entrée opposées.

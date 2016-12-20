@@ -1,0 +1,24 @@
+right|thumb|Picture of an analytical ICP viewed through green [[welder's glass]]
+An '''inductively coupled plasma''' ('''ICP''') is a type of plasma source in which the energy is supplied by electrical currents which are produced by electromagnetic induction, that is, by time-varying magnetic fields.<ref>A. Montaser and D. W. Golightly, eds. Inductively Coupled Plasmas in Analytical Atomic Spectrometry, VCH Publishers, Inc., New York, 1992.
+</ref>
+
+==Operation==
+There are two types of ICP geometries: planar and cylindrical. In planar geometry, the electrode is a coil of flat metal wound like a spiral. In cylindrical geometry, it is like a helical spring. 
+
+When a time-varying electric current is passed through the coil, it creates a time varying magnetic field around it, which in turn induces azimuthal electric currents in the rarefied gas, leading to break down and formation of a plasma.  Argon is one example of a commonly used rarefied gas.
+
+Plasma temperatures can range between 6 000 K and 10 000 K, comparable to the surface of the sun.
+
+ICP discharges are of relatively high electron density, on the order of 10<sup>15</sup> cm<sup>-3</sup>.
+
+As a result, ICP discharges have wide applications where a high density plasma is necessary.
+                              
+Another benefit of ICP discharges is that they are relatively free of contamination because the electrodes are completely outside the reaction chamber. In a capacitively coupled plasma (CCP), in contrast, the electrodes are often placed inside the reactor and are thus exposed to the plasma and subsequent reactive chemical species.
+
+'''誘導結合プラズマ'''（ゆうどうけつごうプラズマ、Inductively Coupled Plasma、略称'''ICP'''）は、気体に高電圧をかけることによってプラズマ化させ、さらに高周波数の変動磁場によってそのプラズマ内部に渦電流によるジュール熱を発生させることによって得られる高温のプラズマである。誘導結合プラズマの温度は10000K程度、電子密度は約10<sup>17</sup>個/cm<sup>3</sup>である。
+
+石英ガラス管で作られた気体の通過する流路の周囲にコイルを巻いてそこに高周波数の大電流を流すことによって高電圧と高周波数の変動磁場は同時に得られ、誘導結合プラズマを発生させることができる。
+
+高電圧の高周波数の電源は周囲に電磁波を漏洩する。それによる通信の妨害を避けるために、通信以外の用途専用に開放されている周波数帯である周波数27.12MHzおよび40.68MHzの電源が用いられている。
+
+化学分析においてはアルゴンガスによって生成される誘導結合プラズマが、サンプルを数1000－10000℃まで加熱し、原子化・熱励起するのに用いられている。

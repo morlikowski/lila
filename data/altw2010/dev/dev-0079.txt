@@ -1,0 +1,42 @@
+Halaman ini dipergunakan untuk membantu para pengguna Wikipedia untuk memecahkan masalah yang mungkin mereka alami ketika sedang menjelajah atau menyunting Wikipedia.
+
+''Catatan: Jika pertanyaan Anda tidak terjawab di halaman ini, silakan menanyakannya melalui halaman Warung Kopi (Lain-lain).''
+
+__NOTOC__ __TOC__
+
+== Bagaimana caranya melaporkan sesuatu hal yang tidak berjalan dengan baik? ==
+:Jika Anda mungkin menemukan ''bug'' pada perangkat lunak, silakan kirimkan laporan ''bug'' kepada para pengembang. Lihat Wikipedia:Laporan bug sebagai arahan. Mungkin juga ada masalah dengan program penjelajah web Anda; lihat di pertanyaan berikutnya.
+
+== Penjelajah web saya dan Wikipedia tampaknya tidak cocok! ==
+:Laporkan di Wikipedia:Catatan penjelajah web. Ketikkan masalahnya, nama penjelajah web Anda, versi program tersebut, dan sistem operasi yang Anda gunakan.
+<!--
+===How do I know if the problem is in the Wikipedia software or my browser?===
+:If you have another web browser installed, you can try to reproduce the problem in both. Failing this, you can describe your problem at Wikipedia:Village pump (technical) and ask other Wikipedians if they are having a similar problem. If no one else is, it's probably a problem with your particular browser setup.
+
+===Some, but not all, images don't show up. What's wrong?===
+:Usually this is caused by ad-blocking software; uploaded files are distributed into random subdirectories, and 1/256th of all images on the server end up in http://upload.wikimedia.org/wikipedia/en/a/ad/, which trips off some advertisement-blocking proxies. Configure your proxy to allow this directory, and you should be fine.
+
+===I have a million objections to the very concept of Wikipedia.  How can you expect me, or anyone, to take it seriously?===
+: See Replies to common objections for the most common objections, and answers given by participants.
+
+===Is it possible for a vandal to delete all Wikipedia pages?===
+
+:Not really. You need to be an administrator to delete pages. Any user can remove the text of a page, but another user usually restores the text from the history archive within a matter of minutes. If someone begins an extensive attack, they will be blocked from further editing by the admins. Moreover, there are periodic backups kept of the server itself. For more on this topic, see this discussion of "wiki wipeouts" at the original Wiki.
+
+-----
+
+==Como relatar algo que não esteja funcionando corretamente?==
+:Se você acha que seja um ''bug'' no ''software'', você pode enviar um relatório de erros aos desenvolvedores. Por outro lado, pode ser um problema no seu navegador. Nesse caso, veja a próxima pergunta.
+
+:Veja também:
+:* Como relatar um bug
+:* Contactando a Wikipédia
+
+==Meu navegador e a Wikipedia não estão se dando bem!==
+:Relate o problema em incluir uma descrição do problema, o nome do seu navegador e sua versão, além do sistema operacional que você usa (Windows, Linux, etc.)
+
+==Como saber se o problema é no ''software'' da Wikipedia ou no meu navegador?==
+:Se você possuir um outro navegador instalado, tente carregar a página e reproduzir o problema em ambos. Se isso falhar, você pode tentar a Lista de discussão ou acessar o chat da Wikipedia e perguntar outros wikipedistas se eles enfrentam, ou enfrentaram, problema(s) similar(es). Se ninguém tiver o mesmo problema, então provavelmente é um problema inerente às configurações do seu navegador.
+
+==Algumas (não todas) as imagens são mostradas. Qual é o problema?==
+:Geralmente isso é causado por programas que bloqueiam propagandas (os famosos "ad-blockers" ou "programas anti-popup"); arquivos carregados nos servidore da Wikipedia são distribuídos em subdiretórios variados, e cerca de um ducentésimo quinquagésimo sexto (1/256) de todas as imagens no servidor vão parar em http://www.wikipedia.org/upload/a/ad/, o que engatilha o processo de bloqueio de propagandas. Simplesmente configure seu ''proxy'' para garantir acesso a esse diretório.

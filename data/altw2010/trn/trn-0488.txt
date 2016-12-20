@@ -1,0 +1,90 @@
+thumb|Egen kompilert reactos tatt skjermbilde ReactOS 0.3.0 
+'''ReactOS''' er et prosjekt som har som mål å utvikle et fritt binært kompatibelt med programvare og drivere for Windows NT versjon 5.1, dvs. Windows XP. ReactOS distribueres under GNU General Public License.
+
+Prosjektet er for tiden i en alfa-fase i utviklingen, men har allerede rukket å nå flere viktige mål.
+
+ReactOS er oversatt til norsk og internettsiden er tilgjengelig på norsk språk.
+Oppstartslasteren FreeLoader brukes til å starte ReactOS.
+ReactOS finnes i Live-cd, installasjonscd og den kan bruke WMware. 
+Kildekoden til Reactos er tilgjengelig på Reactos sine hjemmesider.
+Den bruker build environment for å lage livecder og bootcd i ISO format.
+
+Reactos er programmert i programmeringsspråkene C og C++.
+
+== Historie ==
+I 1996 ble ReactOS startet som et operativsystem-prosjekt som skulle klone Windows 95, men være gratis og åpen kildekode-basert.
+
+==Maskinvarekrav==
+*Pentium 200 mhz IA-32-kompatibel [i486] prosessor
+*32 mb [Minne] 
+*IDE harddisk partisjon med minst 150 mb ledig plass
+*fat16/fat32 filsystem
+*VGA 2 mb kompatibel skjermkort (4 mb SVGA anbefalt)
+*Vanlig PC/2 tastatur 
+*PC/2 kompaktibel mus 
+*Cd-rom stasjon
+
+Det er mulig å kjøre Reactos i WMware, QEMU, Bochs og/eller Virtual PC.
+
+{{infobox OS
+| name                   = ReactOS
+| logo                   = 150px
+| screenshot             = 300px
+| caption                = ReactOS 0.3.4 showing the Start Menu
+| developer              = ReactOS Foundation
+| source_model           = Free software
+| latest_release_version = 0.3.5
+| latest_release_date    = 
+| kernel_type            = Hybrid kernel
+| working_state          = Alpha
+| ui                     = Graphical User Interface
+| license                = various free software licenses
+| website                = [http://www.reactos.org/ www.reactos.org]
+}}
+
+'''ReactOS''' is a computer binary-compatible with clean room reverse engineering process.
+
+Although the project is in the alpha kernel has been written from scratch, the userland is mostly based on the Wine compatibility layer for Unix-like operating systems.
+
+ReactOS is primarily written in the C programming language, with some elements, such as ReactOS Explorer, written in C++. Various components of ReactOS are licensed under the GNU General Public License, the GNU Lesser General Public License and the BSD License.
+
+==Development==
+===FreeWin95 to ReactOS===
+Around 1996 a group of clone of Windows 95. The project stalled in discussions of the design of the system.
+
+At the end of 1997 the project had yet to release any software. The project members, led by coordinator Jason Filby, got together to revive the project. The project's target was changed to Windows NT and the project's name was changed to ''ReactOS''. The ReactOS project began in February 1998, started by developing the kernel and basic drivers.
+
+=== Version history ===
+thumb|ReactOS project coordinator Alexey Bragin (left) shows ReactOS functionality to [[Viktor Alksnis]]
+ReactOS's many APIs and ABIs are ready for a higher level of development and a basic shell similar to Windows Explorer.
+
+==== 0.2 ====
+Alpha version 0.2.0 of ReactOS, released in March 2004, is able to run many games (such as Wine clone of Minesweeper).
+
+Some games like Unreal Tournament and Deus Ex are confirmed to work, using software rendering. OpenGL runs with some minor problems, using the nVidia driver or the software implementation Mesa 3D. The first Web server (''Tiny Web Server'')<ref>[http://www.ritlabs.com/tinyweb/ Tiny Web Server]</ref> and VNC client (UltraVNC) are reported to work, and OpenOffice.org version 1.x works partly.
+
+Version 0.2.2, released on April 28 2004, has basic bugfixes and feature improvements
+
+Version 0.2.5, released on January 5 2005, has large improvements in networking and stability.
+
+In version 0.2.8 some elements of USB support is still being worked on (Cromwell project.
+
+Lynx text-based browser, ReactOS can use DCOM components from Mozilla to browse web pages graphically. 
+
+ReactOS 0.2.8 can also detect whether it is running in a SVGA driver from the VMware Tools ISO to provide a better level of GUI performance. CSRSS has also been totally rewritten, and a "written-from-scratch" implementation of trunk are somewhat-working elements of ddraw, dplay, and dplayx.
+
+==== 0.3 ====
+ReactOS ''0.3.0 Release Candidate 1'' was released on June 15 2006. It is also an alpha build. Improved network (TCP/IP) and Plug & Play support are the headline improvements of this version. Version ''0.3.0 Release Candidate 2'' was released when the audit reached 94%. It was deemed appropriate to release another candidate version at this time because so many bug fixes had been made during the audit.
+
+ReactOS 0.3.1, released on March 11 2007, was the first release after the start of a massive kernel rewrite, which made many parts more compatible to NT 5.2. This release also features the addition of a Registry library, which greatly improved the Registry support. An easy tool for downloading popular free and Shareware applications also debuted in this release.
+
+The release of ReactOS 0.3.3 on September 12 2007 brought more improvements in the kernel, bringing many areas closer to NT 5.2. It also brought stability increase in many core modules, especially win32k.
+
+Version 0.3.2 had been skipped due to many complex blockers, which could not be fixed in the scheduled time frame.
+
+ReactOS 0.3.4, released on January 22 2008, brought a rewrite of registry support, syncing of DLLs with the Wine project, improved plug'n'play support, improvements to user32, Win32k, many core user mode components, shell32, the Control Panel, and the addition of a remote desktop client.<ref>[http://www.reactos.org/en/news_page_40.html News #40 - ReactOS Website<!-- Bot generated title -->]</ref>
+
+Version 0.3.5 was released on June 30 2008, contains fixes for many old bugs, some having been present since 0.3 or even earlier and some being regressions introduced in further releases due to rewrites of certain components.<ref>[http://www.reactos.org/en/news_page_44.html News #44 - ReactOS Website]</ref>
+
+==== 0.4 ====
+Version 0.4 is expected to have a 50% compatible Windows NT Kernel, SMB support, initial audio support, Winlogon, support for USB input devices, support for the 5 most common network cards, and networking improvement.<ref name="roadmap"></ref>

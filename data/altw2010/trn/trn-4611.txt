@@ -1,0 +1,39 @@
+Le '''cycle de Born-Haber''', ou '''cycle de Born-Fajans-Haber''', est une technique permettant de calculer l'énergie réticulaire (enthalpie de cristallisation) d'un cristal ionique.
+Il est basé sur les travaux du physicien allemand Max Born, du chimiste allemand Fritz Haber, et du physico-chimiste polonais Kazimir Fajans.
+
+La stabilité d'un mole d'un solide  cristallisé en ses constituants en phase gazeuse. Plus l'<math>E_r</math> est importante, plus le solide est stable.
+
+== Exemple de calcul ==
+
+L'exemple classique est celui du réseau de chlorure de sodium NaCl. L'énergie réticulaire correspond à l'énergie libérée lors de la formation du réseau de NaCl à partir des ions <math>Na^+</math> et <math>Cl^-</math> à l'état gazeux. Voici les différentes étapes nécessaires pour transformer du sodium métallique <math>Na</math> et du dichlore gazeux (<math>Cl_2</math>) en un cristal de chlorure de sodium :
+
+* Le sodium métallique solide est transformé en sodium gazeux, l'énergie nécessaire pour cette transformation correspond à l''''énergie de sublimation''' : <math>\Delta H_{subl}</math>
+* Le sodium gazeux atomique est ionisé en ion <math>Na^+</math>, l'énergie nécessaire est l''''énergie d'ionisation''' : <math>\Delta H_I</math>
+* Le dichlore gazeux est dissocié homolytiquement en deux atomes de chlore gazeux, l'énergie nécessaire est l''''énergie de dissociation''' : <math>\Delta H_D</math>
+* Le chlore gazeux atomique reçoit 1 électron et devient <math>Cl^-</math>, l'énergie nécessaire est l''''énergie d'électro-affinité''' : <math>\Delta {AE}</math>
+* Nous avons encore l''''énergie de formation''', qui représente l'énergie reçue ou absorbée lors de la formation du chlorure de sodium à partir des éléments à l'état natif (soit le sodium métallique, et le dichlore gazeux) : <math>\Delta H_f</math>
+
+Nous pouvons finalement écrire le bilan ainsi :
+
+The '''Born-Haber Cycle''' is an approach to analyzing reaction energies. It was named after and developed by the two German scientists Max Born and Fritz Haber.
+
+The Born-Haber cycle involves the formation of an Group I or Group II element) with a non-metal. Born-Haber cycles are used primarily as a means of calculating lattice enthalpies, which cannot otherwise be measured directly.
+
+The lattice enthalpy is the enthalpy change involved in formation of the ionic compound from gaseous ions. Some chemists define it as the energy to break the ionic compound into gaseous ions. The former definition is invariably exothermic and the latter is endothermic.
+
+A Born-Haber cycle calculates the lattice enthalpy by comparing the standard enthalpy change of formation of the ionic compound (from the elements) to the enthalpy required to make gaseous ions from the elements. This is an application of Hess's Law.
+
+It is this latter calculation that is complex. To make gaseous ions from elements it is necessary to atomise the elements (turn each into gaseous atoms) and then to ionise the atoms. If the element is normally a molecule then we have to consider its bond dissociation enthalpy (see also bond energy). The energy involved in removing electrons to make a cation is called the ionization energy. The enthalpy of adding electrons to an atom to make it an anion is called the electron affinity.
+
+350px|thumb|right|Born-Haber cycle for the standard enthalpy change of formation of [[lithium fluoride.]]
+
+'''Diagram Explanation'''
+# Atomisation enthalpy of metal (in this case lithium)
+# Ionisation enthalpy of metal
+# Atomisation enthalpy of non-metal (in this case fluorine)
+# Electron affinity of non-metal
+# Lattice enthalpy
+
+The sum of the energies for each step of the process must equal the enthalpy of formation of the metal and non-metal, <math>\Delta\text{H}_{\text{f}}</math>.
+
+<math>\Delta\text{H}_{\text{f}} = \text{V} + \frac{1}{2}\text{B} + \text{IE}_{\text{M}} - \text{EA}_\text{X} - \text{U}_\text{L}</math>

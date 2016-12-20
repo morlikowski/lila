@@ -1,0 +1,74 @@
+'''РНК''' или '''рибонуклеинска киселина''' е нуклеинска киселина изградена од една полинуклеотидна низа. Рибонуклеинските нуклеотиди содржат:
+
+*Јаглехидрат - рибоза
+*бази:
+**Пурински - аденин (A) и гванин (G)
+**Пиримидински - урацил (U) и цитозин (C)
+*Фосфорна киселина.
+
+РНК синтетизира на калапот од една комплементарен распоред на нуклеотидите во однос на матичната ДНК полинуклеотидна низа. Молекулите на РНК се доста различни. Така, во различни клетки на еден ист организам, па дури и во една клетка, застапени се различни видови на РНК. Во зависност од некои структурни особености и нивната специфична функција, се разликуваат повеќе видови на РНК:
+
+*''јадрото.
+
+*''Транспортна РНК'', (t-RNA) - служи за транспорт на одделните амино киселини до рибозомите во цитоплазмата. Се синтетизира од ДНК низата.
+
+*''Информациона РНК'', (i-RNA) - служи за пренесување на генетичката информација од гените до рибозомите, за да се упати редоследот на амино киселините (во процесот синтеза на протеини). Се синтетизира од ДНК низата. Бројот на i-RNA молекулите е приближно еднаков на бројот на протеинските молекули кои клетката ги синтетизира.
+
+*''Мали некодирачки РНК'', snRNA - пример: mRNA, siRNA кои ја регулираат генската екпресија на постранскрипциско ниво од трансферот на информациите од ген до протеин. Механизмот со кој се контролира генската експресија преку овие snRNA, е сечкање на зрелата mRNA и ултимативно доведува до синтетизирање на некомплетен и нефункционален протеин, кој бива лизиран.
+Категорија:Биохемија
+Категорија:Молекуларна биологија
+Категорија:Генетика
+
+eo:RNA
+es:Ácido ribonucleico
+
+thumb|200px|A hairpin loop from a pre-mRNA. Notice its nitrogen-rich (blue) bases and oxygen-rich (red) backbone.
+'''Ribonucleic acid''' ('''RNA''') is a nitrogenous base, a ribose sugar, and a phosphate. RNA is very similar to DNA, but differs in a few important structural details: in the cell RNA is usually single stranded, while DNA is usually double stranded. RNA nucleotides contain ribose while DNA contains deoxyribose (a type of ribose that lacks one oxygen atom), and RNA has the nucleotide uracil rather than thymine which is present in DNA.
+
+RNA is transcribed from DNA by translate the information they carry into proteins. There are also many RNAs involved in modifying other RNAs; some of it causing maturation of RNAs, other resulting in altered expression or products of genes.
+
+==Structure==
+thumb|right|230px|Watson-Crick base pairs in a [[siRNA (hydrogen atoms are not shown)]]
+Each nucleotide in RNA contains a ribose sugar, with carbons numbered 1' through 5'. A base is attached to the 1' position, generally adenine (A), cytosine (C), guanine (G) or uracil (U). Adenine and guanine are purines, cytosine and uracil are pyrimidines. A phosphate group is attached to the 3' position of one ribose and the 5' position of the next. The phosphate groups have a negative charge each at physiological pH, making RNA a charged molecule (polyanion). The bases may form hydrogen bonds between cytosine and guanine, between adenine and uracil and between guanine and uracil.<ref name="pmid15561141"/> However other interactions are possible, such as a group of adenine bases binding to each other in a bulge,<ref></ref>
+or the GNRA tetraloop that has a guanine–adenine base-pair.<ref name="pmid15561141"></ref>
+
+thumb|left|Chemical structure of RNA
+An important structural feature of RNA that distinguishes it from DNA is the presence of a A-form geometry rather than the B-form most commonly observed in DNA.<ref></ref> This results in a very deep and narrow major groove and a shallow and wide minor groove.<ref></ref> A second consequence of the presence of the 2'-hydroxyl group is that in conformationally flexible regions of an RNA molecule (that is, not involved in formation of a double helix), it can chemically attack the adjacent phosphodiester bond to cleave the backbone.<ref></ref>
+
+RNA is transcribed with only four bases (adenine, cytosine, guanine and uracil),<ref></ref> but there are numerous modified bases and sugars in mature RNAs. 2'-O-methylribose are the most common.<ref></ref> The specific roles of many of these modifications in RNA are not fully understood. However, it is notable that in ribosomal RNA, many of the post-transcriptional modifications occur in highly functional regions, such as the peptidyl transferase center and the subunit interface, implying that they are important for normal function.<ref></ref>
+
+thumb|Secondary structure of a [[telomerase RNA]]
+The functional form of single stranded RNA molecules, just like proteins, frequently requires a specific tertiary structure. The scaffold for this structure is provided by secondary structural elements which are hydrogen bonds within the molecule. This leads to several recognizable "domains" of secondary structure like Mg<sup>2+</sup> are needed to stabilise many secondary structures.<ref></ref>
+
+==Comparison with DNA==
+RNA and 2' position in DNA). These hydroxyl groups make RNA less stable than DNA because it is more prone to unmethylated form of thymine.<ref name=Biochemistry/>
+
+thumb|The [[50S ribosomal subunit. RNA is in orange, protein in blue. The active site  is in the middle (red).]]
+Like DNA, most biologically active RNAs including tRNA, rRNA, snRNAs and other, non-coding, RNAs are extensively base paired to form double stranded helices. Structural analysis of these RNAs have revealed that they are highly structured. Unlike DNA, this structure is not long double-stranded helices but rather collections of short helices packed together into structures akin to proteins. In this fashion, RNAs can achieve chemical catalysis, like enzymes.<ref></ref> For instance, determination of the structure of the ribosome&mdash;an enzyme that catalyzes peptide bond formation&mdash;revealed that its active site is composed entirely of RNA.<ref name=ribosome_activity></ref>
+
+==Synthesis==
+Synthesis of RNA is usually catalyzed by an enzyme&mdash;transcription. Initiation of transcription begins with the binding of the enzyme to a promoter sequence in the DNA (usually found "upstream" of a gene). The DNA double helix is unwound by the helicase activity of the enzyme. The enzyme then progresses along the template strand in the 3’ to 5’ direction, synthesizing a complementary RNA molecule with elongation occurring in the 5’ to 3’ direction. The DNA sequence also dictates where termination of RNA synthesis will occur.<ref></ref>
+
+RNAs are often modified by enzymes after transcription. For example, a poly(A) tail and a 5' cap are added to eukaryotic pre-mRNA.
+
+There are also a number of RNA-dependent RNA polymerases that use RNA as their template for synthesis of a new strand of RNA. For instance, a number of RNA viruses (such as poliovirus) use this type of enzyme to replicate their genetic material.<ref></ref> Also, it is known that RNA-dependent RNA polymerases are required for the RNA interference pathway in many organisms.<ref></ref>
+
+==Types of RNA==
+
+===Overview===
+thumb|upright|Structure of a [[hammerhead ribozyme, a ribozyme that cuts RNA]]
+Messenger RNA (mRNA) is the RNA that carries information from DNA to the translation) in the cell. The coding sequence of the mRNA determines the amino acid sequence in the protein that is produced.<ref name=The_Cell/> Many RNAs do not code for protein however. These non-coding RNAs can be encoded by their own genes (RNA genes), but can also derive from mRNA introns.<ref name=transcriptome/> The most prominent examples of non-coding RNAs are transfer RNA (tRNA) and ribosomal RNA (rRNA), both of which are involved in the process of translation.<ref name=Biochemistry></ref> There are also non-coding RNAs involved in gene regulation, RNA processing  and other roles.
+Certain RNAs are able to catalyse chemical reactions such as cutting and ligating other RNA molecules,<ref></ref> and the catalysis of peptide bond formation in the ribosome;<ref name=ribosome_activity/> these are known as ribozymes.
+
+===In translation===
+coded so that every three nucleotides (a codon) correspond to one amino acid. In translated into its corresponding protein form with the help of tRNA. In prokaryotic cells, which do not have nucleus and cytoplasm compartments, mRNA can bind to ribosomes while it is being transcribed from DNA. After a certain amount of time the message degrades into its component nucleotides with the assistance of ribonucleases.<ref name=The_Cell/> 
+
+Transfer RNA (tRNA) is a small RNA chain of about 80 nucleotides that transfers a specific amino acid to a growing polypeptide chain at the ribosomal site of protein synthesis during translation. It has sites for amino acid attachment and an anticodon region for codon recognition that binds to a specific sequence on the messenger RNA chain through hydrogen bonding.<ref name=transcriptome/>
+
+Ribosomal RNA (rRNA) is the catalytic component of the ribosomes. Eukaryotic ribosomes contain four different rRNA molecules: 18S, 5.8S, 28S and 5S rRNA. Three of the rRNA molecules are synthesized in the nucleolus, and one is synthesized elsewhere. In the cytoplasm, ribosomal RNA and protein combine to form a nucleoprotein called a ribosome. The ribosome binds mRNA and carries out protein synthesis. Several ribosomes may be attached to a single mRNA at any time.<ref name=The_Cell></ref> rRNA is extremely abundant and makes up 80% of the 10&nbsp;mg/ml RNA found in a typical eukaryotic cytoplasm.<ref></ref>
+
+Transfer-messenger RNA (tmRNA) is found in many bacteria and plastids. It tags proteins encoded by mRNAs that lack stop codons for degradation and prevents the ribosome from stalling.<ref></ref>
+
+===Regulatory RNAs===
+Several types of RNA can downregulate gene expression by being complementary to a part of an mRNA or a gene's DNA.
+nt) are found in eukaryotes and act through methylated, thereby reducing (RITS) or increasing (inactivates it.<ref></ref>

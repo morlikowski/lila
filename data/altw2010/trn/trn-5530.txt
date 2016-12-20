@@ -1,0 +1,116 @@
+'''MathML''' (от англ. ''Mathematical Markup Language'', язык математической разметки) — это приложение математических символов и формул в документах WWW. MathML рекомендован математической группой W3C.
+
+Спецификация MathML версии 1.01 вышла в июле 1999, в феврале 2001 появилась версия 2.0. В октябре 2003 была опубликована вторая редакция MathML версии 2.0, которая является на настоящий момент последней спецификацией, выпущенной математической группой W3C.
+
+MathML рассматривает не только ''представление'', но и ''смысл'' элементов формулы. Также разрабатывается система разметки математической семантики, призванная дополнить MathML. Она называется OpenMath.
+
+MathML имеет 2 версии - Presentation MathML и Content MathML.
+
+== Пример ==
+
+В TeX описание
+<source lang="latex">x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}</source>
+
+используется для представления формулы
+: <math>x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}</math>
+
+Ниже приведено описание этой формулы с помощью MathML:
+<source lang="xml">
+ <mrow>
+  <mi>x</mi>
+  <mo>=</mo>
+  <mfrac>
+    <mrow>
+      <mrow>
+        <mo>-</mo>
+        <mi>b</mi>
+      </mrow>
+      <mo>&PlusMinus;</mo>
+      <msqrt>
+        <mrow>
+          <msup>
+            <mi>b</mi>
+            <mn>2</mn>
+          </msup>
+          <mo>-</mo>
+          <mrow>
+            <mn>4</mn>
+            <mo>&InvisibleTimes;</mo>
+            <mi>a</mi>
+            <mo>&InvisibleTimes;</mo>
+            <mi>c</mi>
+          </mrow>
+        </mrow>
+      </msqrt>
+    </mrow>
+    <mrow>
+      <mn>2</mn>
+      <mo>&InvisibleTimes;</mo>
+      <mi>a</mi>
+    </mrow>
+  </mfrac>
+ </mrow>
+</source>
+
+браузеры, а также легко интерпретировать их значения в математических программных продуктах.
+
+'''Mathematical Markup Language'''(Linguagem de Marcação Matemática) ('''MathML''') é uma aplicação do XML para representar simbolos e formulas matemáticas, apontada na integração dela em documentos World Wide Web. Ela é uma recomendação do grupo de trabalho matemático do W3C.
+
+A especificação da versão 1.01 do formato foi distribuido em Julho de 1999 e a versão 2.0 apareceu em Fevereiro de 2001. Em Outubro de 2003, a segunda edição do MathML Versão 2.0 foi publicada como uma distribuição final pelo grupo de trabalho matemático do W3C.
+
+MathML trata não somente da ''apresentação'' mas pode opcionalmente também incluir informação sobre  o significado de componentes da fórmula (a última parte de MathML é conhecida como o índice MathML).  Porcausa do significado da equação ser preservado separado da apresentação, ''como o índice é comunicado pode ser deixado até o usuário.''  Por exemplo, páginas da web com MathML embutido poderiam ser vizualizadas como páginas normais da web em muitos browsers, mas visualmente danificadas    ,para o usuário podem também ter o mesmo MathML lidos a eles com o uso de leitores da tela (por exemplo se usar MathPlayer plugin para Internet Explorer).
+
+Um outro padrão chamado OpenMath que foi projetado (largamente pelo mesmo pessoal planejou o conteudo MathML) mais especificamente armazenando fórmulas semanticamente podem também ser usada como um complemento a MathML. 
+
+==Exemplo==
+A bem conhecida equação quadrática:
+:<math>x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}</math>
+
+teria que ser escrita assim, usado a syntax TeX syntax como abaixo:
+ <nowiki>x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}</nowiki>
+ou em MathML:
+<pre><nowiki>
+<math>
+ <mrow>
+  <mi>x</mi>
+  <mo>=</mo>
+  <mfrac>
+    <mrow>
+      <mrow>
+        <mo>-</mo>
+        <mi>b</mi>
+      </mrow>
+      <mo>&PlusMinus;</mo>
+      <msqrt>
+        <mrow>
+          <msup>
+            <mi>b</mi>
+            <mn>2</mn>
+          </msup>
+          <mo>-</mo>
+          <mrow>
+            <mn>4</mn>
+            <mo>&InvisibleTimes;</mo>
+            <mi>a</mi>
+            <mo>&InvisibleTimes;</mo>
+            <mi>c</mi>
+          </mrow>
+        </mrow>
+      </msqrt>
+    </mrow>
+    <mrow>
+      <mn>2</mn>
+      <mo>&InvisibleTimes;</mo>
+      <mi>a</mi>
+    </mrow>
+  </mfrac>
+ </mrow>
+</math>
+</nowiki></pre>
+
+Embora menos compacta se comparada à TeX, a estruturação XML promete tornar a sintaxe MathML amplamente utilizável, levando em conta o instant display em aplicativos tais como navegadores da Web, além de facilitar uma clara interpretação de seu significado em softwares matemáticos. A MathML não é destinada a ser escrita ou editada diretamente por pessoas.
+
+==Programas que suportam==
+Muitos utilitários para converter expressões matemáticas para MathML estão disponíveis, incluindo conversões [http://pear.math.pitt.edu/mathzilla/itex2mml.html] entre TeX e MathML. MathType para Design Science permite aos usuários criar equações numa janela WYSIWYG e exportá-la para  MathML. Também o Wolfram Research provê uma [http://www.mathmlcentral.com/Tools/ToMathML.jsp] web page para converter expressões matemáticas tipificadas para MathML.
+
+Outro editor Amaya pode também ser mencionado como um editor WYSIWYG de MathML.

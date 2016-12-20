@@ -1,0 +1,99 @@
+{{Infobox Gemeinde in Frankreich
+|nomcommune=Elvange
+|blason=Armoiries d'Elvange.svg
+|région=Lothringen
+|département=Moselle
+|arrondissement=Boulay-Moselle
+|canton=Faulquemont
+|insee=57190
+|cp=57690
+|lon-deg=06|lon-min=32|lon-sec=59|lon=E
+|lat-deg=49|lat-min=03|lat-sec=39|lat=N
+|ign=53013
+|alt moy=233
+|alt mini=227
+|alt maxi=305
+|km²=7,12
+|sans=371
+|date-sans=1999
+|dens=52
+|site=}}
+
+'''Elvange''' (deutsch ''Elwingen'', lothringisch ''Ilwingen'') ist eine französische Gemeinde, die im Département Boulay-Moselle und zum Kanton Faulquemont.
+
+== Geografie ==
+Elvange liegt etwa 29 km östlich von Metz auf einer Höhe zwischen 227 und 305 m über dem Meeresspiegel, die mittlere Höhe beträgt 233 m. Das Gemeindegebiet umfasst 7,12 km² (712 ha), und die Bevölkerungsdichte beträgt 52 Einwohner pro km².
+
+== Geschichte ==
+Das Dorf gehört seit 1766 zu Frankreich.
+
+1871–1918 gehörte es vorübergehend noch einmal zum Deutschen Reich.
+<!--== Kultur und Sehenswürdigkeiten ==-->
+<!--== Wirtschaft und Infrastruktur ==-->
+<!--== Persönlichkeiten ==-->
+
+{{infobox Franse gemeente|
+|plaatsnaam= Elvange
+|wapen= 
+|kaart= 
+|regio= Lotharingen 
+|departement= Moselle (57)
+|arrondissement= Boulay-Moselle
+|kanton= Faulquemont
+|jaar= 1999
+|inwoners= 371
+|dichtheid= 51,5
+|oppervlakte= 7,2
+|water= 
+|latitudeGraden= 49 |latitudeMinuten= 4|latitudeSeconden= 0
+|longitudeGraden= 6 |longitudeMinuten= 33 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 247 |kaartY= 72
+|code= 57190
+|postcode= 57690
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Elvange''' is een gemeente in het Franse departement Moselle (regio Boulay-Moselle.
+
+==Geografie==
+De oppervlakte van Elvange bedraagt 7,2 km², de bevolkingsdichtheid is 51,5 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:510 color:gray1 width:1       
+  from:start till:end             
+  bar:340 color:gray1              
+  from:start till:end            
+  bar:170 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,128)(84,115) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 324 1968: 284
+  points:(84,115)(100,105)    color:blue    width:2 #1975: 254
+  points:(100,105)(128,123)   color:blue    width:2 #1982: 310
+  points:(128,123)(160,132)   color:blue    width:2 #1990: 337
+  points:(160,132)(196,144)   color:blue    width:2 #1999: 371
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

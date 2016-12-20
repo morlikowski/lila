@@ -1,0 +1,124 @@
+<includeonly>
+</includeonly><noinclude></noinclude>
+<!-- 請在這條線之下編輯模板的說明文件 -->
+本信息框模板專門提供專輯唱片條目使用。單曲條目請不要使用本模板，必須改用 Template:Infobox Single。
+
+{|
+|<pre>
+{{Infobox Album
+| Name = 專輯名稱
+| Original_name = 專輯原文名稱（英文、日文...等）
+| Type = （專輯、EP、原聲帶…等，參見下方說明）
+| Longtype =
+| Artist = 演唱者
+| Cover =  專輯封面（image.jpg）
+| Released = 發行日期
+| Recorded = 錄製
+| Genre = 類型（流行、古典、R&B、舞曲、Rock）
+| Length = 歌曲總長度（時間）
+| Label =
+| Producer = 製作人
+| Reviews = 
+| Last album = 
+| This album =
+| Next album =
+}}</pre>
+|}
+
+== 專輯類型填寫說明 ==
+請依據專輯的類型，參考以下的表格「填入代碼」，在「Type」欄位後填寫正確的專輯類型文字。單曲請改用 Template:Infobox Single。
+
+{| style="background:transparent;"
+! 類型 !! 填入代碼
+|-
+!bgcolor="" |-{zh-hk: 细碟; zh-hant: EP}-||-{ep}-
+|-
+!bgcolor="" | 原創錄音室專輯|| -{專輯}-
+|-
+!bgcolor="" | 現場專輯或現場EP|| -{現場}-
+|-
+!bgcolor=""| 精選輯|| -{精選}-
+|-
+!bgcolor=""| 混音專輯 || -{混音}-
+|-
+!bgcolor=""|套裝專輯 || -{套裝}-
+|-
+!bgcolor=""|其他合輯 || -{合輯}-
+|-
+!bgcolor=""|翻唱專輯 || -{翻唱}-
+|-
+!bgcolor="" |致敬專輯 || -{致敬}-
+|-
+!bgcolor=""|原聲帶 || -{原聲帶}-
+|-
+!bgcolor=""|電視主題 || -{電視}-
+|-
+!bgcolor=""|電影配樂 || -{電影}-
+|-
+!bgcolor=""|未知的類型 || -{不明}-
+|}
+
+根據在「Type」（專輯種類）欄位中所填寫的種類，信息框的背景顏色將會自動更改。請參閱Template:Infobox Album/color。
+<includeonly>
+------
+
+<includeonly><table class="infobox" style="width:20em; font-size:90%">
+<tr>
+  <th style="background-color:}; font-size:100%" colspan="3">}</th>
+</tr>
+<tr>
+  <th colspan="3">}|} の}} }</th>
+</tr>
+{{#if:
+  }
+  |<tr><td style="white-space:nowrap; font-weight:bold">リリース</td><td colspan="2">}</td></tr>
+}}<!--
+-->{{#if:
+  }
+  |<tr><td style="white-space:nowrap; font-weight:bold">録音</td><td colspan="2">}</td></tr>
+}}<!--
+-->{{#if:
+  }
+  |<tr><td style="white-space:nowrap; font-weight:bold">ジャンル</td><td colspan="2">}</td></tr>
+}}<!--
+-->{{#if:
+  }
+  |<tr><td style="white-space:nowrap; font-weight:bold">時間</td><td colspan="2">}</td></tr>
+}}<!--
+-->{{#if:
+  }
+  |<tr><td style="white-space:nowrap; font-weight:bold">レーベル</td><td colspan="2">}</td></tr>
+}}<!--
+-->{{#if:
+  }
+  |<tr><td style="white-space:nowrap; font-weight:bold">プロデュース</td><td colspan="2">}</td></tr>
+}}<!--
+-->{{#if:
+  }
+  |<tr><th style="background-color:}" colspan="3">専門評論家によるレビュー</th></tr>
+   <tr><td colspan="3">
+}
+   </td></tr>
+}}<!--
+-->{{#if:
+  }
+  |<tr><th style="background-color:}" colspan="3">チャート最高順位</th></tr>
+   <tr><td colspan="3">
+}
+   </td></tr>
+}}<!--
+-->{{#if:
+  }
+  |<tr><th style="background-color:}" colspan="3">ゴールド等認定</th></tr>
+   <tr><td colspan="3">
+}
+   </td></tr>
+}}<!--
+-->{{#if:
+  }}}}
+  |<tr><th style="background-color:}; text-align:center" colspan="3">} 年表</th></tr>
+   <tr style="text-align:center; font-size:90%"><td style="width:33%">}}}}</td><td style="width:33%">}}}}</td><td style="width:33%">}}}}</td></tr>
+}
+}}
+</table></includeonly><noinclude>
+<!-- カテゴリと言語間リンクはここではなく、/doc サブページに追加してください --></noinclude>

@@ -1,0 +1,70 @@
+== Basi di dati ==
+I '''Trigger''', nelle basi di dati, forniscono una tecnica procedurale per specificare e mantenere vincoli di integrità anche complessi. I Trigger permettono agli utenti di specificare vincoli di integrità più complessi dato che un trigger è essenzialmente una procedura PL/SQL. Tale procedura è associata con una tabella e viene automaticamente richiamata dal sistema quando una certa modifica (o evento) avviene all'interno della tabella. Le modifiche sulla tabella possono includere operazioni '''insert, update, e delete'''.
+
+=== Definizione ===
+La definizione di un trigger consiste nei seguenti componenti (opzionali):
+
+;nome trigger
+:<source lang="SQL">create [or replace] trigger <nome trigger></source>
+;collocazione temporale del trigger
+:<source lang="SQL">before | after</source>
+;azione(i) del trigger
+:<source lang="SQL">insert or update [of <colonna(e)>] or delete on <tabella></source>
+;tipo di trigger (opzionale)
+:<source lang="SQL">for each row</source>
+;restrizioni trigger (solo per triggers for each row!)
+:<source lang="SQL">when (<condizione>)</source>
+;corpo del trigger
+:<source lang="SQL"><blocco PL/SQL></source>
+
+La clausola ''or replace'' ri-crea una precedente definizione del trigger qualora questo esista e abbia lo stesso <nome trigger>.
+Il nome di un trigger può essere scelto arbitrariamente, ma è una buona regola di programmazione usare un nome che rifletta la tabella e l'evento(i), nell'esempio, upd_ins_EMP.
+Un trigger può essere richiamato prima (before) o dopo (after) l'evento che causa l'attivazione del trigger.
+L'evento che causa l'attivazione del trigger specifica prima (o dopo) quale operazione nella tabella <tabella> il trigger debba essere eseguito.
+Un singolo evento è un inserimento (insert), un aggiornamento (update) o una cancellazione (delete); gli eventi possono essere combinati usando la logica or.
+Se il trigger deve essere eseguito soltanto quando certe colonne vengono aggiornate, queste colonne devono essere specificate dopo l'evento update.
+Se un trigger viene utilizzato per mantenere un vincolo di integrità, gli eventi che causano il trigger corrispondono tipicamente alle operazioni che violano l'integrità del vincolo.
+
+=== Trigger a livello riga e Trigger a livello di istruzione ===
+Al fine di programmare i trigger efficientemente (e correttamente), è essenziale capire la differenza tra ''trigger a livello di riga'' e ''trigger a livello di istruzione''.
+Un trigger a livello di riga viene definito utilizzando la clausola ''for each row''.
+Se questa clausola viene omessa, si assume che il trigger sia un trigger a livello di istruzione. 
+
+==== Esecuzione ====
+Un trigger a livello di riga viene eseguito una volta per ogni riga dopo (o prima) dell'evento che lo ha causato.
+Al contrario, un trigger a livello di istruzione viene eseguito una volta dopo (o prima) dell'evento, indipendentemente da quante righe sono state interessate dall'evento.
+Per esempio, un trigger di riga con la specifica di evento ''after update'' viene eseguito una volta per ogni riga che viene interessata dall'aggiornamento (update).
+Quindi, se l'aggiornamento interessa 20 tuple, il trigger viene eseguito 20 volte, una volta per ogni riga.
+Al contrario, un trigger di istruzione viene eseguito una sola volta.
+
+==== Caratteristiche dei Trigger a livello riga ====
+I trigger di riga hanno alcune speciali caratteristiche che non sono fornite con i trigger di istruzione:
+Solo con un trigger di riga è possibile accedere ai valori degli attributi di una tupla prima e dopo la modifica (perché il trigger viene eseguito una volta per ogni tupla).
+ 
+Per un update trigger, si può accedere al vecchio valore di attributo utilizzando :
+<source lang="SQL">:old.<colonna></source>
+e si può accedere al nuovo
+attributo utilizzando 
+<source lang="SQL">:new.<colonna></source>
+Per un ''insert trigger'', solo 
+<source lang="SQL">:new.<colonna></source>
+può essere utilizzato, e per un ''delete trigger'' solo 
+<source lang="SQL">:old.<colonna></source>
+è valido (e si riferisce al valore dell'attributo della <colonna> della tupla cancellata). 
+In un trigger di riga quindi è possibile specificare confronti tra il vecchio e il nuovo valore di attributo nel blocco PL/SQL, per esempio:
+<source lang="SQL">if :old.SAL < :new.SAL then …</source>
+
+Se per un trigger di riga il contesto temporale before viene specificato, è anche possibile modificare il nuovo valore della riga, per es.,
+<source lang="SQL">:new.SAL:= :new.SAL*1.05 oppure :new.SAL:=:old.SAL.</source>
+
+En informatique, un '''déclencheur''' (''trigger'' en anglais) est un dispositif logiciel qui provoque un traitement particulier en fonction d'événements prédéfinis. Par extension, c'est l'événement lui-même qui est qualifié de déclencheur.
+
+== Utilisation ==
+
+Dans les bases de données, lors de la mise à jour ou de la suppression d'une donnée, si un déclencheur existe, il peut lancer automatiquement une procédure stockée, qui supprime en parallèle une même donnée dans une table afférente. Cela permet de prédéterminer certains traitements assurant la cohérence et l'intégrité de la base de données.
+
+En programmation, c'est la fonction qui initie une variable affectée à une autre fonction, un peu comme un fusil dont on appuye sur la gachette pour lancer la balle qui frappe la cloche pour générer le son. En Javascript, nous pourrions retrouver la fonction  "OnClick(gachette)" qui modifierait la variable "volume" de la fonction Cloche() pour activer le son.
+
+Les ordres du  LDD et de la gestion de transaction (CREATE, ALTER, DROP, COMMIT, SAVEPOINT, sont interdits pour les triggers autres que base de données (triggers système).
+
+== Exemple ==

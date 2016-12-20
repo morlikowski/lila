@@ -1,0 +1,107 @@
+Dans le domaine de l'noyaux atomiques.
+
+== Origine des éléments : un peu d'histoire ==
+L'origine des éléments a posé un problème difficile aux astronomes pendant longtemps. Il a fallu attendre le début du , et l'avènement de la mécanique quantique et de la physique nucléaire pour qu'une explication satisfaisante soit apportée. Avant cela, aucune explication n'était fournie quant à la genèse des éléments.
+
+Dès l'invention du spectromètre, les astrophysiciens ont commencé à déterminer la composition chimique du Soleil pour la comparer à ce qu'on connaissait à l'époque : la Terre et les météorites.
+
+Une constatation simple s'est imposée : plus la masse atomique d'un atome est grande, moins il est présent dans la nature. Avec trois exceptions notables : le lithium, le béryllium et le bore ne suivent pas cette règle et se trouvent être extrêmement rares dans le Soleil et les météorites.
+
+La compréhension des désintégrations béta. Malheureusement pour cette idée élégante il est vite apparu que l'univers se refroidissait alors beaucoup trop vite pour pouvoir fabriquer des éléments plus lourds que le lithium-7 (Li).
+
+Il fallait donc trouver un autre moyen de les produire.
+
+== Les avancées théoriques ==
+
+En F. W. Aston, fut le premier à suggérer que les étoiles produisaient/obtenaient leur énergie par la fusion nucléaire de noyaux d'hydrogène en hélium.
+
+En force nucléaire forte puisse surpasser la barrière coulombienne. Le ''facteur de Gamow'' fut ensuite utilisé par Robert Atkinson et Fritz Houtermans puis par Edward Teller et Gamow lui-même pour dériver la vitesse des réactions nucléaires aux températures élevées que l'ont supposait exister à l'intérieur des étoiles.
+
+En 1939, dans un article intitulé ''Energy production in stars'' (''Production d'énergie dans les étoiles''), Hans Bethe analysa les différentes réactions possibles par lesquelles de l'hydrogène peut se fusionner en hélium.
+Il y sélectionna deux mécanismes dont il pensait qu'ils étaient la source d'énergie des étoiles.
+*Le premier, la chaîne proton-proton, est la principale source d'énergie dans les étoiles de faible masse comme le Soleil ou plus petites ;
+*Le second, le cycle carbone-azote-oxygène ou « cycle CNO », qui fut aussi considéré par Carl von Weizsäcker en 1938, est plus important dans les étoiles plus massives.
+
+Dès 1946, Fred Hoyle avait suggéré que les étoiles pourraient être le lieu de formation des éléments. En 1952, on découvre  dans le spectre d'une étoile d'un élément, le technétium, dont tous les isotopes sont radioactifs. De plus, la plus grande demi-vie de ses isotopes est de l'ordre de quelques millions d'années, prouvant que ce technétium a été formé ''dans'' l'étoile.
+
+Toutes les pièces du puzzle étaient là, il ne restait plus qu'a les assembler de manière cohérente.
+
+== 1957 : la percée théorique ==
+
+Quasiment de manière simultanée, deux articles paraissent cette année-là, qui vont révolutionner l'astrophysique. Le premier, signé par BFH.
+
+Dans ces deux articles, les auteurs recherchent quelles sont les conditions qui permettent de fabriquer les éléments en les synthétisant, et montrent que ces conditions sont réunies au cœur des étoiles. L'article BFH brosse un panorama complet de l'origine des éléments, depuis la fusion de l'hydrogène jusqu'à la production des éléments les plus lourds lors des supernovae.
+
+== Nucléosynthèse calme ==
+
+Dans les étoiles se succèdent des phases de fusion (qui peuvent avoir lieu dans le cœur même de l'étoile, ou dans les couches adjacentes à celui-ci) et de contraction. Ces fusions successives vont produire ''tous'' les éléments que l'on connaît, jusqu'au fer.
+
+Au début de la vie d'une étoile se trouve un nuage de gaz (principalement de l'fusionner. L'énergie libérée va contrebalancer l'effet de la gravité, et l'étoile atteint un premier équilibre.
+
+L'hydrogène disponible à ce moment la, a été synthétisé lors du Big Bang.
+
+=== Fusion de l'hydrogène ===
+L'hydrogène est le carburant majeur des étoiles et sa fusion est le premier maillon de la chaîne de nucléosynthèse. Il y a deux manières de transformer l'hydrogène en hélium :
+# le cycle proton-proton permet de transformer de l'hydrogène en He. Ce cycle est divisé en plusieurs réactions. La première réaction de ce cycle permet la transformation d'un proton et d'un neutron en deutérium. Ensuite, selon ce qui est disponible au cœur de l'étoile (donc selon le moment de son évolution auquel se produit cette réaction), par l'intermédiaire du tritium ou de l'hélium-3 avec lesquels les atomes de deutérium vont fusionner, l'étoile va fabriquer de l'hélium-4 ;
+# le cycle  CNO lui se produit à plus haute température, car les atomes qui vont fusionner lors de ce cycles ont des masses atomiques beaucoup plus élevées que l'hydrogène. Une autre condition pour que ce cycle puisse participer à la synthèse d'éléments, c'est que les éléments carbone, oxygène et azote soient présents dans le cœur de l'étoile. La figure ''détails du cycle CNO'' précise le cycle CNO. Comme on peut le voir ce cycle est décomposé en trois sous cycles (,  et ), qui vont chacun produire différents isotopes qui serviront de base au sous-cycle suivant.
+
+thumb|250px|Détails du cycle CNO se produisant à l'intérieur d'une étoile.
+
+Globalement, la réaction de fusion de l'hydrogène peut s'écrire de la manière suivante<ref>''nu'' (<math>\nu</math>) représente un ou plusieurs photons contenant une partie de l'énergie libérée par la fusion sous forme de particule ; l'autre partie est sous forme d'énergie cinétique dans les particules produites de façon explosive, cette dernière énergie étant responsable de l'augmentation de température et de pression du plasma.</ref> :
+:<math>4 p \leftrightarrow {}^4{\rm He} + e^+ + \nu + E</math>.
+
+Cette réaction de fusion de l'hydrogène est la plus exothermique de toutes les réactions qui vont se produire au cœur des étoiles. Comme les étoiles sont composées majoritairement d'hydrogène, elles disposent à ce moment de leur vie d'un combustible en grande quantité, qui leur fournit une grande quantité d'énergie. Cela explique pourquoi les étoiles passent la plus grande partie de leur existence dans cette phase de combustion de l'hydrogène.
+
+Au bout d'un temps dépendant de la masse de l'étoile, la quantité d'hydrogène dans le cœur de l'étoile finit par ne plus être suffisante pour entretenir un taux de réaction suffisamment élevé qui puisse contrebalancer l'effet de la gravitation. Le cœur de l'étoile va alors se contracter. Lors de cette contraction,  sa température va augmenter (comme n'importe quel gaz que l'on comprime) de même que sa densité. Quand la température atteint quelques 10<sup>8</sup> Kelvins, la fusion de l'hélium peut s'amorcer.
+
+'''恆星核合成'''是在元素燃燒成更重的元素的核反應總稱。（其它的過程請參考核合成。）
+
+這些複雜的過程在20世紀初期開始逐漸被了解，首先知道的是長期以來產生K的高溫才能進行。
+
+== 歷史 ==
+在1920年，亞瑟·愛丁頓，以弗朗西斯·阿斯頓對原子的精確測量為基礎，首度建議恆星的能量來自於將氫融合成氦的核融合反應。
+
+在1928年，強作用力可以克服庫倫障壁機率的量子力學模式。伽莫夫因子被羅伯特·阿特金森（Robert d'Escourt Atkinson）和弗里茨·豪特曼斯（Fritz Houtermans）使用了十年之後，伽莫夫和愛德華·泰勒推導出核反應進行的過程和速率，並相信恆星內部存在著極高的溫度。
+
+在1939年，在一篇名為《恆星能量的產生》的論文中，霍伊爾在1946年提出了相關的理論，他的論點認為相當熱的恆星最終可以創造出鐵元素。霍伊爾繼續在1954年以巨著導出進階的融合步驟，指出恆星如何合成從碳至鐵的元素。
+
+很快的，很多重要的細節被加入霍伊爾的理論中。1957年，從一篇慶祝性的論文開始，霍伊爾和福勒四人提出了元素合成理論（即著名的B<sup>2</sup>FH理論）。<ref>{{cite journal en
+| title= Synthesis of the Elements in Stars 
+| author= E. M. Burbidge, G. R. Burbidge, W. A. Fowler, F. Hoyle
+| journal= Reviews of Modern Physics 
+| volume= 29 
+| issue= 4
+| pages= 547-650
+| year= 1957 
+| doi= 10.1103/RevModPhys.29.547}}</ref> 稍候的這些工作收集和精煉了早期研究的成果，並列舉出重元素被觀測到的豐度分布情景。艾利絲泰爾·卡麥倫（Alastair G. W. Cameron）和唐納德·卡萊頓（Donald D. Clayton）。卡麥倫（追隨霍依爾之後）在核合成方法提出了獨立且重大的改進。卡萊頓將計算機引進與時間無關的核系統計算中，它首先計算的與時間無關的S-過程、R-過程、矽燃燒產生鐵集團的過程，和發現可以測量年齡的放射性元素計年法。整個領域的研究在1970年代迅速的擴展開來。
+
+== 關鍵反應 ==
+thumb|280 px|right|[[紅巨星的剖面圖，顯示核合成和元素的形成。]]
+在恆星的核合成中最重要的反應： 
+* 氫燃燒：
+** 質子-質子鏈反應
+** 碳氮氧循環
+* 氦燃燒：
+** 3氦過程
+** 氦過程
+* 燃燒更重的元素：
+** 碳燃燒過程
+** 氖燃燒過程
+** 氧燃燒過程
+** 矽燃燒過程
+* 產生比鐵重的元素:
+** 中子捕獲:
+*** R-過程
+*** S-過程
+** 質子捕獲:
+*** Rp-過程
+** 光致蛻變:
+*** P-過程
+
+== 參考資料 ==
+
+*  (subscription needed)
+
+*  (subscription needed)
+
+* F. Hoyle, Monthly Notices of the Royal Astronomical Society 106 (1946), 366

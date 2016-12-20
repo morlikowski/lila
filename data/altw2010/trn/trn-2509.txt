@@ -1,0 +1,31 @@
+{{Mac OS X Graphics Model
+|logo=300px
+|screenshot=
+}}
+
+'''Core Animation''' is a data visualization API used by Mac OS X 10.5 to produce animated user interfaces.<ref name="apptech"></ref>
+
+==Overview==
+
+'''Core Animation''' provides a way for developers to produce animated user interfaces via an ''implicit animation'' model as well as an "explicit" model.  The developer specifies the original and final states of an object, and Core Animation handles interpolation.  This allows animated interfaces to be created with relative ease, as no specific code for the animation is required by the developer.<ref></ref>
+
+Core Animation can animate any visual element, and it provides a unified way of accessing Quartz technologies. Like the rest of the graphics model, Core Animation can be accelerated by a graphics processor (GPU).<ref name="apptech" />
+
+Animated sequences execute in a thread independent from the main run loop, allowing application processing to occur while the animation is in progress.  In this way, application performance is not affected, and animations can be stopped, reversed, or ''retargeted'' while in progress.  <ref name="apptech" />
+
+{{Карточка программы 
+| name        = Core Animation (Графическая модель Mac OS X)
+| logo        = Core Animation
+| genre       = System Utility
+| developer   = Apple Inc
+| operating_system        = Mac OS X
+| license     = Проприетанрная
+| website     = [http://www.apple.com/macosx/technology/coreanimation.html Core Animation]
+}}
+'''Core Animation''' — технология, разработанная компанией анимаций. Apple впервые публично продемонстрировала её 7 авуста 2006 года во время выступления Worldwide Developers Conference. Core Animation выполняется на отдельном от основных программ потоке, практически не влияя на производительность системы на многоядерных машинах. Однако данная технология требует Core Image-совместимого Mac.
+
+Анимации с Core Animation автоматизированы и могут быть получены с минимальным вмешательством разработчика. Когда разработчик изменяет атрибут компонента, Core Animation автоматически видоизменяет его промежуточными шагами (цвет, прозрачность и т. д.) между начальным и конечным значениями, визуально улучшая приложения и уменьшая количество исходного кода, который бы потребовался при использовании стандартных средств и технологий, предоставляемых Cocoa.
+
+Например, установка прозрачности объекта в значение 0 (полностью прозрачный) вызвало бы эффект затухания. Изменение его размера применило бы эффект масштабирования, а перемещение объекта применило бы эффект скольжения. К компонентам Cocoa, использующим Core Data, применимы эффекты изменения лежащих в их основе моделей. Например, массив данных, отображаемых в виде листбокса, сортируется. Тогда к элементам списка применяется эффект, и они скользят с места на место.
+
+Core Animation — медиа-независимая технология. Это означает, что она обрабатывает целые видеокадры, изображения, визуализации Quartz и Time Machine и Spaces используют эту технологию.

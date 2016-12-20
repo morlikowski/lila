@@ -1,0 +1,42 @@
+'''Wi-Fi Protected Setup''' ('''WPS''') is a standard for easy and secure establishment of a wireless home network, created by the Wi-Fi Alliance and officially launched on January 8, 2007.
+
+The goal of the WPS protocol is to simplify the process of configuring security on protocol is meant to allow home users who know little of wireless security and may be intimidated by the available security options to configure Wi-Fi Protected Access, which is supported by all Wi-Fi certified devices.
+
+The standard achieves its goal by putting much emphasis into usability and security, and the concept is implemented through four usage models that enable a user to establish a home network. So, to add a new device to the Network the user can have up to the following four choices:
+# PIN Method, in which a PIN (Personal Identification Number) has to be read from either a sticker on the new STA or a display, if there is one, and entered at the "representant" of the Network, either the AP or a Registrar of the Network, cf below the Protocol Architecture.<br>This is the mandatory baseline model, every Wi-Fi Protected Setup certified product must support it.
+# PBC Method, in which the user simply has to push a button, either an actual or virtual one, on both the AP (or a Registrar of the Network) and the new wireless client device (STA).<br>Support of this model is mandatory for APs and optional for STAs.
+# NFC Method, in which the user simply has to bring the new STA close to the AP or Registrar of the Network to allow a Near Field Communication between the devices. NFC Forum compliant RFID tags can also be used.<br>Support of this model is optional.
+# USB Method, in which the user uses a USB stick to transfer data between the new STA and the AP or Registrar of the Network.<br>Support of this model is optional.
+
+The last two models are usually referred as Out-of-band methods as there is a transfer of information by another channel than the Wi-Fi channel itself.
+
+Note that only the first three models (PIN/PBC/NFC) are currently covered by the Wi-Fi Protected Setup Certification and there is so far no intention to certify the USB method.
+
+This page addresses the common scenario involving an Infrastructure Network. The support of ad hoc networks (IBSS) are not supported by WPS.
+
+==Protocol Architecture==
+
+The WPS protocol defines three types of devices in a network:
+*Registrar: A device with the authority to issue and revoke credentials to a network. A Registrar may be integrated into an AP, or it may be separate from the AP.
+*Enrollee: A device seeking to join a wireless LAN network.
+*Authenticator: An AP functioning as a proxy between a Registrar and an Enrollee.
+
+The WPS standard defines three basic scenarios that involve these components:
+
+# AP with internal registrar capabilities configures an Enrollee STA. In this case, the session will run on the wireless medium as a series of EAP request/response messages, ending with the AP disassociating from the STA and waiting for the STA to reconnect with its new configuration (handed to it by the AP just before).
+# Registrar STA configures the AP as an Enrollee. This case is subdivided in two aspects: first the session could occur on both a wired or wireless medium, and second the AP could already be configured by the time that that Registrar found it. In the case of a wired connection between the devices, the protocol runs over UPnP, and both devices will have to support UPnP for that purpose. When running over UPnP, a shortened version of the protocol is run (only 2 messages), for no authentication is required other than that of the joined wired medium. In the case of a wireless medium, the session of the protocol is very similar to the internal registrar scenario, just with opposite roles. As to the configuration state of the AP, the registrar is expected to ask the user whether to reconfigure the AP or keep its current settings, and can decide to reconfigure it even if the AP describes itself as configured. Multiple registrars should have the ability to connect to the AP.
+# Registrar STA configures Enrollee STA. In this case the AP stands in the middle and acts as an Authenticator, meaning it only proxies the relevant messages from side to side.
+
+'''Wi-Fi Protected Setup (WPS)''' ist ein von der Wi-Fi Alliance entwickelter Standard zum einfachen und sicheren Aufbau eines drahtlosen Heimnetzwerks.
+
+Das Ziel von WPS ist es, das Hinzufügen von Geräten in ein bestehendes Netzwerk zu vereinfachen. Als Schwerpunkt gilt hier die sonst oft umständliche Einrichtung einer adäquaten Verschlüsselung.
+
+Um dieses Ziel zu erreichen, wurden vier verschiedene Modelle entwickelt, die einen Eingriff des Nutzers minimieren sollen:
+# PIN-Eingabe: Eine PIN, welche auf dem Gerät, welches neu in das Netzwerk integriert werden soll, platziert ist, oder von ihm angezeigt wird, muss dem Registrar (z.B. dem Access Point) bekannt gemacht werden.
+#Push Button Configuration (PBC, engl. "Konfiguration per Knopfdruck"): Der Access Point und die zu verbindenden Geräte besitzen einen physischen oder per Software implementierten Knopf zur Verbindungsherstellung. Wird dieser gedrückt, beginnt eine zweiminütige Phase, in welcher Geräte dem Netzwerk beitreten können.
+#USB Flash Drive (UFD): Ein USB-Stick wird genutzt, um die Daten des WLAN zwischen dem Access Point und den zu verbindenden Geräten zu transportieren.
+#Near Field Communication (NFC): Das neu zu verbindende Gerät wird in die Nähe des Access Point gebracht, um mittels Near Field Communication die relevanten Daten auszutauschen.
+
+Die beiden ersten Methoden müssen von einem Access Point unterstützt werden, um eine WPS-Zertifizierung der Wi-Fi Alliance zu bekommen. Drahtlose Geräte, die als Client agieren, müssen lediglich die PIN-Methode unterstützen.
+
+== Siehe auch ==

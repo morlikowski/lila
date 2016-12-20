@@ -1,0 +1,101 @@
+{{Infobox Computer Hardware Cpu
+| name        = Pentium M
+| image       = PentiumM.JPG
+| caption     = 
+| produced-start = 2003
+| produced-end = 2008
+| slowest     = 900  | slow-unit     = MHz
+| fastest     = 2.26  | fast-unit     = GHz
+| fsb-slowest = 400  | fsb-slow-unit = MT/s
+| fsb-fastest = 533  | fsb-fast-unit = MT/s
+| manuf1      = Intel
+| core1       = Banias
+| core2       = Dothan
+| size-from   = 0.13
+| size-to     = 0.09
+| arch        = x86
+| microarch = P6 variant
+| sock1       = Socket 479
+| numcores = 1
+}}
+{| style="float: right; clear: right;"
+<!-- |Commented out because image was deleted: right|Logo as of 2006 -->
+|
+|}
+The '''Pentium M''' brand refers to only two single-core TDP) of 3-25 W, and were intended for use in bus interface of Pentium 4 one, an improved instruction decoding/issuing front end, improved branch prediction, Core branded Yonah ''CPU'' with a modified ''microarchitecture''. Pentium M branded CPUs can be considered as the end of the Intel P6 microarchitecture.
+
+==Overview==
+The Pentium M represented a new and radical departure for Intel, as it was not a low-power version of the desktop-oriented Tualatin design (itself based on the Pentium Pro core design).  It is optimised for power efficiency, a vital characteristic for extending notebook computer battery life.  Running with very low average power consumption and much lower heat output than desktop processors, the Pentium M runs at a lower clock speed than the laptop version of the Pentium 4 (The '''Pentium 4-Mobile''', or '''P4-M'''), but with similar performance - a 1.6 GHz Pentium M can typically attain the performance of a 2.4 GHz Pentium 4-M.<ref>[http://compreviews.about.com/od/cpus/a/PentiumM.htm Intel's Centrino Duo Notebook Technology<!-- Bot generated title -->]</ref> The Pentium M (model 740) has been tested to perform up to about 7,400 MIPS and 3.9 GFLOPS (using SSE2).<ref>[http://www.pcstats.com/articleview.cfm?articleid=2008&page=4 Intel Pentium M 740 PCSTATS Review - Benchmarks: Office Productivity, SiSoft Sandra 2005<!-- Bot generated title -->]</ref>
+
+The Pentium M coupled the execution core of the Pentium III with a Pentium 4 compatible bus interface, an improved instruction decoding/issuing front end, improved branch prediction, SSE2 support, and a much larger cache. The usually power-hungry secondary cache uses an access method which switches on only the portion being accessed. 
+
+Other power saving methods include dynamically variable clock frequency and core voltage, allowing the Pentium M to throttle clock speed when the system is idle in order to conserve energy, using the SpeedStep 3 technology (which has more sleep stages than previous versions of SpeedStep). With this technology, a 1.6&nbsp;GHz Pentium M can effectively throttle to clock speeds of 600&nbsp;MHz, 800&nbsp;MHz, 1000&nbsp;MHz, 1200&nbsp;MHz, 1400&nbsp;MHz and 1600&nbsp;MHz; these intermediate clock states allow the CPU to better throttle clock speed to suit conditions.  The power requirements of the Pentium M varies from 5&nbsp;watts when idle to 27&nbsp;watts at full load. This is useful to notebook manufacturers as it allows them to include the Pentium M into smaller notebooks.
+
+Although Intel has marketed the Pentium M exclusively as a mobile product, motherboard manufacturers such as MSI have been shipping Pentium M compatible boards designed for enthusiast, HTPC, workstation and server applications. An adapter, the CT-479, has also been developed by ASUS to allow the use of Pentium M processors in selected ASUS motherboards designed for Socket 478 Pentium 4 processors.  Shuttle Inc. offers packaged Pentium M desktops, marketed for low energy consumption and minimal cooling system noise. Pentium M processors are also of interest to embedded systems' manufacturers because the low power consumption of the Pentium M allows the design of fanless and miniaturized embedded PCs.
+
+{| class="wikitable"
+!colspan="5"|Intel Pentium M processor family
+|-
+!rowspan="2"|Original Logo
+!rowspan="2"|New Logo
+!colspan="3"|Laptop
+|-
+!Code-named
+!Core
+!Date released
+|- style="background:white"
+|100px|Original Pentium M brand logo
+|100px|New Pentium M brand logo
+|Banias<br>Dothan
+|(130nm)<br>(90nm)
+|Mar 2003<br>Jun 2004
+|-
+!colspan="5"|<small>List of Intel Pentium M microprocessors</small>
+|}
+
+==Banias==<!-- This section is linked from Transmeta -->
+As the M line was originally designed in FSB, and had 1&nbsp;MiB of Level 2 cache. The core average TDP (Thermal Design Power) is 24.5&nbsp;watts.
+
+The CPUID signature for a Banias is 0x69X.
+
+==Dothan==
+thumb|left|Pentium M 730 core Dothan
+thumb|left|Pentium M 730 core Dothan backside
+Intel launched its improved Pentium M, formerly known as '''Dothan''', named after another ancient town in Israel, on May 10, 2004. Dothan Pentium M processors (product code 80536) are among the first Intel processors to be identified using a "processor number" rather than a clockspeed rating, and the mainstream versions are known as Pentium M 710 (1.4&nbsp;GHz), 715 (1.5&nbsp;GHz), 725 (1.6&nbsp;GHz), 735 (1.7&nbsp;GHz), 740 (1.73&nbsp;GHz), 745 (1.8&nbsp;GHz), 750 (1.86&nbsp;GHz), 755 (2.0&nbsp;GHz), and 765 (2.1&nbsp;GHz). The processor supports neither hyperthreading nor SSE3.
+
+These 700 series Pentium M processors retain the same basic design as the original Pentium M, but are manufactured on a 90 nm process, with twice the secondary cache. Die size, at 84&nbsp;mm², remains in the same neighborhood as the original Pentium M, even though the 700 series contains approximately 140 million transistors, most of which make up the 2&nbsp;MiB cache. TDP is also down to 21&nbsp;watts (from 24.5&nbsp;watts in Banias), though power use at lower clockspeeds has increased slightly. 
+However, tests conducted by third party hardware review sites show that Banias and Dothan equipped notebooks have roughly equivalent battery life.
+Additionally third party hardware review sites have benchmarked the Dothan at approx 10-20% better performance than the Banias in most situations.
+
+The processor line has models running at clock speeds from 1.0&nbsp;GHz to 2.26&nbsp;GHz as of July 2005. The models with lower frequencies were either low voltage or ultra-low voltage CPUs designed for even better battery life and reduced heat output. The 718 (1.3&nbsp;GHz), 738 (1.4&nbsp;GHz), and 758 (1.5&nbsp;GHz) models are low-voltage (1.116&nbsp;V) with a TDP of 10&nbsp;W, while the 723 (1.0&nbsp;GHz), 733 (1.1&nbsp;GHz), and 753 (1.2&nbsp;GHz) models are ultra-low voltage (0.940&nbsp;V) with a TDP of 5&nbsp;W.
+
+'''Pentium M'''（ペンティアム・エム）は、アーキテクチャのCPU。
+
+==概要==
+ノートPCに搭載することを前提とし、バッテリー持続時間（＝省電力）と高速性能（＝処理能力）の両立を目的として設計された。今までのモバイル向けCPUとは異なり、デスクトップパソコン向けの設計を流用するのではなくモバイル専用に設計されたものであり、これはインテルにとって初の試みである。
+
+またPentium Mと、対応b/g無線LANチップのIntel PRO/Wireless、およびMicrosoft Windows XPまたはLinux Kernel 2.4x 以降のソフトウェアとの組み合わせで'''インテル Centrino'''（セントリーノ）'''モバイルテクノロジ'''と称する。
+ただし、3種ともに上記などインテル製品での組み合わせでなければCentrinoの呼称を名乗ることができない。
+
+小型で静粛性の高いデスクトップパソコンを組み立てるユーザーの間では好評だが、それほどまでにPentium Mが歓迎されているのは静穏パソコンブームやブランド志向が高いアメリカでの評判はいまひとつである。またヨーロッパでは処理能力に優れるAthlon 64が優勢であった。
+
+IA-32の64ビット拡張命令であるIntel 64には対応していない。
+
+==設計==
+インテルからはアーキテクチャの詳細が発表されていないが、P6マイクロアーキテクチャをベースとしたアーキテクチャを採用しているとする意見がある。一方で、過去の製品を参考にするのは当然だとして、その意見に疑問を呈する人もいる。
+
+モバイルに向かないNetBurstマイクロアーキテクチャの代替として開発され、絶対的な性能よりもクロックあたりの処理性能を重視している。NetBurstマイクロアーキテクチャのパイプラインを深くし、高クロック化で性能を稼ぐという方向性は抑えられている。その一方でCPUバス周りはNetBurst系の高速なバスを組み合わせており、バス周りがボトルネックとなることを抑えている。
+
+クロックあたりの性能が高く、約1.5倍のクロックのPentium 4に匹敵する性能を発揮し、Pentium Mの2GHz、Pentium 4の3GHz、Athlon 64 2800+ (1.8GHz) がおおよそ同じくらいの性能だと言われている。また、低消費電力であるため、発熱が減少し、CPU冷却装置の小型化に貢献した。
+
+低消費電力と高いパフォーマンスが評価され、モバイルのみならず、モバイル・オン・デスクトップ (MoDT) としての用途に注目が集まった。
+デスクトップで、Pentium Mを使うために、Pentium M用のSocket 479 (Socket 479M) を使用したデスクトップパソコン向けのBIOSのアップデートが必要で、Intel SpeedStep テクノロジは使用できない。
+
+=== 第一世代“バニアス” (Banias) ===
+130nmプロセスで製造された。2次FSBは400MHz。SSE2に対応している。途中からプロセッサー・ナンバーが採用され、700番台が与えられている。
+省電力技術として拡張版 Intel SpeedStep テクノロジ (EIST)をサポートする。これはかつてモバイル Pentium III-Mに搭載されていたものをさらに拡張させたもので、多段階の動作電圧や周波数で動作することを可能としている。
+
+*ラインナップ（括弧内はプロセッサー・ナンバー）
+**標準電圧版 - 1.30 GHz、1.40 GHz、1.5 GHz（705）、1.6 GHz、1.7 GHz
+**低電圧版 - 1.10 GHz、1.20 GHz、1.3 GHz（718）
+**超低電圧版 - 900MHz、1 GHz、1.1 GHz（713）

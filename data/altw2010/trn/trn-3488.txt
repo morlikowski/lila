@@ -1,0 +1,309 @@
+'''JavaServer Pages''' és una tecnologia que permet als desenvolupadors de pàgines web, generar respostes dinàmicament a peticions Java i certes accions predefinides siguin incrustades en un context estàtic.
+
+La sintaxi de JSP incorpora tags XML addicionals, anomenats accions de JSP, per ser usats per invocar altres funcions. Addicionalment, la tecnologia permet la creació de llibreries d'etiquetes que actuen com extensions de l'estàndard d'etiquetes HTML o XML. Les llibreries d'etiquetes aporten una forma multiplataforma d'ampliar les capacitats d'un servidor web.
+
+Els JSPs són compilats en  bytecode directament.
+
+== JSP i Servlets ==
+Des del punt de vista de l'arquitectura, els JSP poden ser vistos com una abstracció, d'alt nivell, de servlets implementada com una extensió de l'API Servlet 2.1. Ambdues tecnologies van ser inicialment desenvolupades per Sun Microsystems. Començant per la versió 1.2 de l'especificació de JSP, JavaServer Pages van ser desenvolupats sota la Java Community Process. La JSR 53 defineix tant les especificacions 1.2 com la 2.3 i JSR 152 defineix la JSP 2.0. El maig de 2006 l'especificació 2.1 va ser llençada sota la JSR 245 com a part de Java EE 5.
+
+=== Sintaxi JSP ===
+Una pàgina JSP està dividida en les parts següents:
+* dades estàtiques, com ara HTML o XML (no es recomana que els JSP generin respostes binàries)
+* directives JSP, per exemple, els includes
+* elements de scripting i variables
+* accions JSP
+* tags personalitzats
+
+=== Directives JSP ===
+Les directives JSP controlen la manera com el compilador JSP genera el servlet. Existeixen les directives següents:
+;include : la directiva include informa el compilador JSP de com incloure un fitxer sencer dintre del fitxer actual. És com si els continguts del fitxer inclòs foren enganxats directament al fitxer incloent. Els fitxers inclosos acostumen a tenir l'extensió jspf (fragment de jsp).
+
+ <%@ include file="algunfitxer.jspf" %> <!-- L'extensió jspf indica, segons la convenció, que es tracta d'un fragment de JSP  -->
+; page : hi ha diverses opcions per aquesta directiva
+:; import : Els resultats d'una crida a <code>import</code> són inserits al fitxer resultant.
+:; contentType : indica el tipus de contingut en la reposta
+:; errorPage : indica la pàgina que serà mostrada si hi ha una excepció durant el processat de la petició HTTP.
+:; isErrorPage : si és cert, vol dir que l'actual plana és una plana d'error
+:; isThreadSafe: indica si el servlet resultant és un  fil  segur.
+ <%@ page import="java.util.*" %> //import d'exemple
+ <%@ page contentType="text/html" %> //exemple de contentType
+ <%@ page isErrorPage=false %> //exemple de pàgina que no és d'error
+ <%@ page isThreadSafe=true %> //exemple de JSP que és un fil segur
+: '''Nota''': només la directiva "import" pot ser usada múltiples vegades al mateix jsp.
+; taglib : la directiva taglib indica que serà usada una llibreria de tags JSP. La directiva requereix que s'especifiqui un prefix (concepte proper al d'un espai de noms en C++) i la URI per la descripció de la llibreria de tags.
+ <%@ taglib prefix="unprefix" uri="taglib/mytag.tld" %>
+
+=== Objectes i elements de scripting de JSP ===
+==== Objectes implícits JSP ====
+Les següents instàncies, declarades i inicialitzades pel contenidor JSP, poden ser referenciades pel programador:
+
+'''out'''
+De la classe [http://java.sun.com/j2ee/1.4/docs/api/javax/servlet/jsp/JspWriter.html JSPWriter] i usada per enviar l'stream (fitxer no acabat de generar) de resposta a través del socket
+
+'''page'''
+Objecte que referencia la pròpia pàgina
+
+'''pageContext'''
+Conté dades associades a tota la pàgina. Una pàgina HTML pot haver passat per diversos JSPs. Instància de [http://java.sun.com/j2ee/1.4/docs/api/javax/servlet/jsp/PageContext.html PageContext]
+
+'''request'''
+Proveeix informació sobre la invocació. Instància d'[http://java.sun.com/j2ee/1.4/docs/api/javax/servlet/http/HttpServletRequest.html  HttpServletRequest]
+
+'''response'''
+L'objecte [http://java.sun.com/j2ee/1.4/docs/api/javax/servlet/http/HttpServletResponse.html  HttpServletResponse]
+
+'''session'''
+L'objecte [http://java.sun.com/products/servlet/2.2/javadoc/javax/servlet/http/HttpSession.html  HttpServletSession], que gestiona dades sobre la sessió d'usuari
+
+'''config'''
+Conté dades sobre la configuració del servlet
+
+'''application'''
+Dades compartides per tots els JSPs i servlets del contenidor
+
+'''exception'''
+Excepcions no capturades
+
+==== Elements de scripting ====
+Hi ha diversos tipus d'elements de scripting que permeten al codi java inserir-los directament a dintre del Serlvet
+* Un ''tag de declaració'' col·loca una definició d'una variable dintre del cos de la classe del Servlet. Les dades estàtiques també hi poden ser definides.
+ <%! int variableDeclarada = 1; %>
+* Un ''tag scriptlet'' col·loca el codi que conté dintre del métode <code>_jspService()</code> de la classe del Servlet.
+ <% int variableLocal = 1;
+ out.println(variableLocal); %>
+* Un tag ''expression'' col·loca una expressió a ser avaluada dintre la classe del Servlet. Les expressions no haurien d'acabar amb punt i coma. 
+ <%= "dada " + 1 %>
+* També existeix el tag següent per afegir-hi comentaris:
+ <%-- afegeix els comentaris aquí --%>
+
+=== Actions de JSP ===
+Les actions de JSP són tags XML que invoquen funcionalitats preincorporades del servidor web i que són executades en temps d'execució. Algunes són estàndards i d'altres personalitzades. 
+Les estàndards són:
+
+; <nowiki>jsp:include</nowiki> : Similar al concepte de subrutina, el servlet de Java delega temporalment la petició i respon cap al JSP específic. Un cop finalitzada l'execució, el control retorna a l'actual JSP. Amb això, el codi JSP serà compartit entre d'altres JSPs, evitant així duplicacions.
+; <nowiki>jsp:param</nowiki>   : Pot ser usat a dintre d'un bloc jsp:include, jsp:forward o jsp:params. Especifica un paràmetre que serà afegit al paràmetres de l'actual crida.
+; <nowiki>jsp:forward</nowiki> : Usat per delegar la petició i la resposta cap a un altre JSP, servlet o altre tipus de pàgina web. El control mai no retornarà al JSP cridant.
+; <nowiki>jsp:plugin</nowiki>  : versions antigues de applet. Aquesta action genera els tags necessaris en funció de cada navegador per incloure-hi un applet.
+; <nowiki>jsp:fallback</nowiki>: Contingut mostrat si el navegador no suporta applets. 
+; <nowiki>jsp:getProperty</nowiki> : Obté una propietat del JavaBean específic.
+; <nowiki>jsp:setProperty</nowiki> : Modifica una propietat del JavaBean específic.
+; <nowiki>jsp:useBean</nowiki> : Crea o reusa un JavaBean disponible pel JSP.
+
+=== Exemples d'etiquetes ===
+===== jsp:include =====
+ <html>
+ <head></head>
+ <body>
+ <jsp:include page="comu.jsp" >
+ <jsp:param name="extraparam" value="unvalor" />
+ </jsp:include>
+ nom:<%=request.getParameter("extraparam")%>
+ </body></html>
+
+===== jsp:forward =====
+ <jsp:forward page="subplana.jsp" >
+ <jsp:param name="redirigitDe" value="aquest.jsp" />
+ </jsp:forward>
+
+En aquest exemple de redirecció, la petició és enviada a "subplana.jsp". El control de la petició no retorna a aquesta plana.
+
+===== jsp:plugin =====
+ <jsp:plugin type=applet height="100%" width="100%"
+ archive="unjar.jar,unaltrejar.jar"
+ codebase="/applets"
+ code="com.foo.UnApplet" >
+ <jsp:params>
+ <jsp:param name="enableDebug" value="true" />
+ </jsp:params>
+ <jsp:fallback>
+ El teu navegador no suporta applets.
+ </jsp:fallback>
+ </jsp:plugin>
+
+El plugin d'exemple il·lustra un manera uniforma d'incrustar applets en <html> dintre d'una plana web. Abans de l'arribada de l'etiqueta <''OBJECT''> , no hi havia una manera comuna d'incrustar applets. Actualment, l'etiqueta jsp:plugin no permet cridar applets dinàmicament. per exemple, jsp:params no pot ser usada per un applet de gràfiques que requereix els punts que haurien de ser passats com a paràmetres a no ser que el nombre de punts sigui sempre el mateix. No es pot, per exemple, fer un bucle al voltant d'un ResultSet per crear les etiquetes jsp:param. Cada etiqueta jsp:param ha de ser codificada manualment. Tanmateix, cadascuna d'aquestes etiquetes jsp:param poden tenir noms i/o valors dinàmics.
+
+===== jsp:useBean =====
+ <jsp:useBean id="unBean" class="com.foo.UnBean" scope="request" />
+ <jsp:getProperty name="unBean" property="darrerCanviat" />
+ <jsp:setProperty name="unBean" property="darrerCanviat" value="<%= new Date()%>" />
+
+L'ambit (scope) pot ser request , page, session  o application. Té els significats següents:
+; request (petició): l'atribut és disponible durant el cicle de vida de la petició. Un cop la petició ha estat processada per tots by all els JSPs, l'atribut serà desreferenciat .
+; page (plana): l'atribut és disponible només per la plana actual.
+; session (sessió): l'atribut és accessible al llarg del cicle de vida de la sessió d'usuari.
+; application (aplicació): l'atribut és accesible per cada instància i mai no és desreferenciat. Igual com una variable global.
+
+'''JavaServer Pages''' ('''JSP''') is a Java technology that allows software developers to dynamically generate HTML, XML or other types of documents in response to a Web client request. The technology allows Java code and certain pre-defined actions to be embedded into static content.
+
+The JSP syntax adds additional XML-like tags, called JSP actions, to be used to invoke built-in functionality. Additionally, the technology allows for the creation of JSP tag libraries that act as extensions to the standard HTML or XML tags. Tag libraries provide a platform independent way of extending the capabilities of a Web server.
+
+JSPs are compiled into interpreted on-the-fly reducing the time taken to reload changes.
+
+== JSP and Servlets ==
+Architecturally, JSP may be viewed as a high-level abstraction of servlets that is implemented as an extension of the Servlet 2.1 API. Both servlets and JSPs were originally developed at Sun Microsystems. Starting with version 1.2 of the JSP specification, JavaServer Pages have been developed under the Java Community Process. JSR 53 defines both the JSP 1.2 and Servlet 2.3 specifications and JSR 152 defines the JSP 2.0 specification. As of May 2006 the JSP 2.1 specification has been released under JSR 245 as part of Java EE 5.
+
+=== JSP syntax ===
+A JavaServer Page may be broken down into the following pieces:
+* static data such as HTML
+* JSP directives such as the include directive
+* JSP scripting elements and variables
+* JSP actions
+* custom tags with correct library
+
+JSP directives control how the JSP compiler generates the servlet. The following directives are available:
+
+; include : The include directive informs the JSP compiler to include a complete file into the current file. It is as if the contents of the included file were pasted directly into the original file. This functionality is similar to the one provided by the C preprocessor. Included files generally have the extension "jspf" (for JSP '''Fragment'''):
+ <%@ include file="somefile.jspf" %> <!-- Leave this include extension as 'jspf' to match the JSP fragment convention -->
+; page : There are several options to the page directive.
+:; import : Results in a Java <code>import</code> statement being inserted into the resulting file.
+:; contentType : specifies the content that is generated. This should be used if HTML is not used or if the character set is not the default character set.
+:; errorPage : Indicates the page that will be shown if an exception occurs while processing the HTTP request.
+:; isErrorPage : If set to true, it indicates that this is the error page. Default value is ''false''.
+:; isThreadSafe : Indicates if the resulting servlet is thread safe.
+:; autoFlush : To autoflush the contents. A value of true, the default, indicates that the buffer should be flushed when it is full. A value of false, rarely used, indicates that an exception should be thrown when the buffer overflows. s will be used, and attempts to access the variable session will result in errors at the time the JSP page is translated into a servlet.
+:; buffer: To set Buffer Size. The default is 8k and it is advisable that you increase it.
+:; isELIgnored: Defines whether EL expressions are ignored when the JSP is translated.
+:; language: Defines the scripting language used in scriptlets, expressions and declarations. Right now, the only possible value is "java".
+:;extends: Defines the superclass of the class this JSP will become. You won't use this unless you REALLY know what you're doing - it overrides the class hierarchy provided by the Container.
+:;info: Defines a String that gets put into the translated page, just so that you can get it using the generated servlet's inherited getServletInfo() method.
+:;pageEncoding: Defines the character encoding for the JSP. The default is "ISO-8859-1"(unless the contentType attribute already defines a character encoding, or the page uses XML document syntax).
+ <%@ page import="java.util.*" %> <%-- example import --%>
+ <%@ page contentType="text/html" %> <%-- example contentType --%>
+ <%@ page isErrorPage="false" %> <%-- example for non error page --%>
+ <%@ page isThreadSafe="true" %> <%-- example for a thread safe JSP --%>
+ <%@ page session="true" %> <%-- example for using session binding --%>
+ <%@ page autoFlush="true" %> <%-- example for setting autoFlush --%>
+ <%@ page buffer="20kb" %> <%-- example for setting Buffer Size --%>
+: '''Note:''' Only the "import" page directive can be used multiple times in the same JSP.
+; taglib : The taglib directive indicates that a JSP tag library is to be used. The directive requires that a prefix be specified (much like a namespace in C++) and the URI for the tag library description.
+ <%@ taglib prefix="myprefix" uri="taglib/mytag.tld" %>
+
+=== JSP scripting elements and objects ===
+==== JSP implicit objects ====
+The following JSP implicit objects are exposed by the JSP container and can be referenced by the programmer:
+; out : The  used to write the data to the response stream(output page).
+; page : The servlet itself.
+; pageContext : A  instance that contains data associated with the whole page. A given HTML page may be passed among multiple JSPs.
+; request : The  object that provides HTTP request information.
+; response : The  object that can be used to send data back to the client.
+; session : The  object that can be used to track information about a user from one request to another.
+; config : Provides servlet configuration data.
+; application : Data shared by all JSPs and servlets in the application.
+; exception : Exceptions not caught by application code .
+
+==== Scripting elements ====
+There are'' three'' basic kinds of scripting elements that allow java code to be inserted directly into the servlet.
+* A ''declaration'' tag places a variable definition inside  the body of the java servlet class. Static data members may be defined as well. Also inner classes should be defined here.
+ <%! int serverInstanceVariable = 1; %>
+Declaration tags also allow methods to be defined.
+ <%!
+   /** 
+    * Converts the Object into a string or if
+    * the Object is null, it returns the empty string.
+    */
+   public String toStringOrBlank( Object obj ){
+     if(obj != null){
+       return obj.toString();
+     }
+     return "";
+   }
+ %>
+* A ''scriptlet'' tag places the contained statements inside the <code>_jspService()</code> method of the java servlet class.
+ <% int localStackBasedVariable = 1;
+ out.println(localStackBasedVariable); %>
+* An ''expression'' tag places an expression to be evaluated inside the java servlet class. Expressions should not be terminated with a semi-colon .
+ <%= "expanded inline data " + 1 %>
+* Also we can use the following tag to give comments in jsp:
+ <%-- give your comments here --%>
+
+=== JSP actions ===
+JSP actions are XML tags that invoke built-in web server functionality. They are executed at runtime. Some are standard and some are custom (which are developed by Java developers). The following list contains the standard ones:
+
+; <nowiki>jsp:include</nowiki> : Similar to a subroutine, the Java servlet temporarily hands the request and response off to the specified JavaServer Page. Control will then return to the current JSP, once the other JSP has finished. Using this, JSP code will be shared between multiple other JSPs, rather than duplicated.
+; <nowiki>jsp:param</nowiki> : Can be used inside a jsp:include, jsp:forward or jsp:params block. Specifies a parameter that will be added to the request's current parameters.
+; <nowiki>jsp:forward</nowiki> : Used to hand off the request and response to another JSP or servlet. Control will never return to the current JSP.
+; <nowiki>jsp:plugin</nowiki> : Older versions of applet. This action generates the browser specific tag needed to include an applet.
+; <nowiki>jsp:fallback</nowiki> : The content to show if the browser does not support applets.
+; <nowiki>jsp:getProperty</nowiki> : Gets a property from the specified JavaBean.
+; <nowiki>jsp:setProperty</nowiki> : Sets a property in the specified JavaBean.
+; <nowiki>jsp:useBean</nowiki> : Creates or re-uses a JavaBean available to the JSP page.
+
+==== '''Examples of tags''' ====
+===== jsp:include =====
+ <html>
+   <head></head>
+   <body>
+     <jsp:include page="mycommon.jsp" >
+       <jsp:param name="extraparam" value="myvalue" />
+     </jsp:include>
+     name:<%=request.getParameter("extraparam")%>
+   </body>
+ </html>
+
+===== jsp:forward =====
+ <jsp:forward page="subpage.jsp" >
+   <jsp:param name="forwardedFrom" value="this.jsp" />
+ </jsp:forward>
+
+In this forwarding example, the request is forwarded to "subpage.jsp". The request handling does not return to this page.
+
+===== jsp:plugin =====
+ <jsp:plugin type=applet height="100%" width="100%"
+ archive="myjarfile.jar,myotherjar.jar"
+ codebase="/applets"
+ code="com.foo.MyApplet" >
+ <jsp:params>
+ <jsp:param name="enableDebug" value="true" />
+ </jsp:params>
+ <jsp:fallback>
+ Your browser does not support applets.
+ </jsp:fallback>
+ </jsp:plugin>
+
+The plugin example illustrates a <html> uniform way of embedding applets in a web page. Before the advent of the <''OBJECT''> tag, there was no common way of embedding applets. Currently, the jsp:plugin tag does not allow for dynamically called applets. For example, jsp:params cannot be used with a charting applet that requires the data points to be passed in as parameters unless the number of data points is constant. You cannot, for example, loop through a ResultSet to create the jsp:param tags. Each jsp:param tag must be hand-coded. However, each of those jsp:param tags can have a dynamic name and a dynamic value.
+
+=== JSP Tag Libraries ===
+In addition to the pre-defined JSP actions, developers may add their own custom ''actions'' using the JSP Tag Extension API. Developers write a Java class that implements one of the Tag interfaces and provide a tag library XML description file that specifies the tags and the java classes that implement the tags.
+
+Consider the following JSP.
+
+ <%@ taglib uri="mytaglib.tld" prefix="myprefix" %>
+ ...
+ <myprefix:myaction> <%-- the start tag %>
+ ...
+ </myprefix:myaction> <%-- the end tag %>
+ ...
+
+The JSP compiler will load the mytaglib.tld XML file and see that the tag 'myaction' is implemented by the java class 'MyActionTag'. The first time the tag is used in the file, it will create an instance of 'MyActionTag'. Then (and each additional time that the tag is used), it will invoke the method doStartTag() when it encounters the starting tag. It looks at the result of the start tag, and determines how to process the body of the tag. The body is the text between the start tag and the end tag. The doStartTag() method may return one of the following:
+; SKIP_BODY : The body between the tag is not processed.
+; EVAL_BODY_INCLUDE : Evaluate the body of the tag.
+; EVAL_BODY_TAG : Evaluate the body of the tag and push the result onto stream (stored in the body content property of the tag).
+
+'''Note:''' If tag extends the BodyTagSupport class, the method doAfterBody() will be called when the body has been processed just prior to calling the doEndTag(). This method is used to implement looping constructs.
+
+When it encounters the end tag, it invokes the doEndTag() method. The method may return one of two values:
+; EVAL_PAGE : This indicates that the rest of the JSP file should be processed.
+; SKIP_PAGE : This indicates that no further processing should be done. Control leaves the JSP page. This is what is used for the forwarding action.
+
+The myaction tag above would have an implementation class that looked like something below:
+
+ public class MyActionTag extends TagSupport {
+   //Releases all instance variables.
+   public void release() {...}
+ 
+   public MyActionTag() { ... }
+ 
+   //called for the start tag
+   public int doStartTag() { ... }
+ 
+   //called at the end tag
+   public int doEndTag(){ ... }
+ }
+
+Add Body Tag description.
+
+If you want to iterate the body a few times, then the java class (tag handler) implements IterationTag interface. It returns EVAL_BODY_AGAIN - which means to invoke the body again.
+
+=== JSP Standard Tag Library (JSTL) ===
+The JavaServer Pages Standard Tag Library (JSTL) is a component of the Java EE Web application development platform. It extends the JSP specification by adding a tag library of JSP tags for common tasks, such as XML data processing, conditional execution, loops and internationalization.

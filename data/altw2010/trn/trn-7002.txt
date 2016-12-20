@@ -1,0 +1,87 @@
+<div style="text-align:center;border-bottom:3px solid #B8C7D9">
+<div style="float:left;width:10%;padding:.3em 0;margin:2px 2px 0">시작</div>
+<div style="float:left;width:10%;padding:.3em 0;margin:2px 2px 0"> 편집</div>
+<div style="float:left;width:10%;padding:.3em 0;margin:2px 2px 0"> 서식</div>
+<div style="float:left;width:10%;padding:.3em 0;margin:2px 2px 0"> 내부 링크</div>
+<div style="float:left;width:10%;padding:.3em 0;margin:2px 2px 0"> 바깥 링크</div>
+<div style="float:left; width:10%;padding:.3em 0;margin:2px 2px 0"> 토론 페이지</div>
+<div style="float:left; width:12%; font-weight:bold; background-color:#cedff2; color:#000; padding:.3em 0; border:2px solid #B8C7D9; border-bottom:0; font-size:130%"> 지켜야 할 것</div>
+<div style="float:left; width:10%;padding:.3em 0;margin:2px 2px 0"> 등록</div>
+<div style="float:left; width:10%;padding:.3em 0;margin:2px 2px 0"> 더 보기</div>
+
+<div style="width:0;height:0;clear:both;overflow:hidden"></div>
+</div>
+<div style="border:3px solid #B8C7D9; padding:.5em 1em 1em 1em; border-top:none; background-color:#fff; color:#000">
+
+위키백과에는 몇 가지 '''지켜야 할 점'''이 있습니다.
+== 문서 조건 ==
+위키백과는 백과사전입니다. 그러므로 모든 문서는 백과사전에 실을 만한 내용이어야 합니다. 무엇이 백과사전에 실을 만한 내용인가는 위키백과의 끊임없는 논쟁 중 하나입니다. 심지어 지구상에 있는 모든 개인과 회사에 대한 정보를 실어야 한다고 주장하는 사람도 몇몇 있습니다. 이렇게 백과사전답지 못한 정보를 다루기 위해 자매 프로젝트를 운영하고 있습니다.
+
+간단한 단어나 숙어, 관용구 같은 국어 사전에 실을 만한 글들은 자매 프로젝트 중의 하나인 위키낱말사전에서 쓰실 수 있습니다.
+
+텍스트 원본이나 퍼블릭 도메인(저작권이 없는) 책과 같은 내용은 위키자료집에 적으실 수 있습니다. 
+
+관련된 모든 프로젝트는 [http://meta.wikimedia.org/wiki/Complete_list_of_Wikimedia_projects 위키백과 프로젝트 목록(영어)]에서 확인하실 수 있습니다.
+
+위키백과 문서에 개인적 연구와 같은 자신의 사생활을 쓰지 말아 주시기 바랍니다. 나중에 백과사전에 오를 만큼 알려지게 된다면, 누군가가 적어 줄 것입니다.
+
+{{자세히 보기|
+* 위키백과:위키백과에 대한 오해
+}}
+
+==중립적 시각==
+위키백과를 편집할 때는 언제나 '''중립적 시각에 맞춰 편집'''해야 합니다. 이는 위키백과의 정책이며, NPOV라고도 합니다. 문서를 작성할 때는 한 가지 관점이 아닌, 가능한 모든 관점에서 문장을 서술해야 합니다. 하지만 이 정책은 어떤 사람이 보더라도 해당 문서가 옳다고 판단될 만큼, 100% 객관적이어야 한다는 것을 뜻하지는 않습니다.
+
+문서를 작성할 때 의견을 적을 수는 있지만, 그것은 의견으로 적어야 하며, 사실로 오해받을 수 있도록 적으면 안 됩니다. 의견의 경우에는 “찬성하는 사람의 주장은...”, “반대하는 사람의 주장은...”과 같이 의견임을 확실히 나타내는 편이 좋습니다.
+
+위키백과에서 활동하다 보면, “POV”(Point of View, 편향된 시각)라는 단어를 보시게 될 것입니다. 이는 편견을 가지고 서술한 문서나, 한 쪽의 주장만 반영한 문서를 뜻합니다. 정치적 매도와 장점만을 강조한 광고 등이 이에 속합니다. 경우에 따라서는 각각의 관점을 객관적으로 서술하였음에도, 한 쪽 의견을 더 많이 서술하는 경우 “POV” 문제가 발생할 수 있습니다.
+
+종교, 정치와 같은 논쟁이 될 만한 글을 작성할 때에는, 먼저 중립적 시각을 읽어 보시는 것이 좋습니다.
+
+=== 예시 ===
+한국어 위키백과에서 중립적 시각이 적용된 예를 들어 보겠습니다.
+==== 한국 ====
+일반적으로 대한민국을 줄여서 한국이라고 많이 부르지만, 위키백과에서 한국은 한반도에 있는 나라, 즉 대한민국과 조선민주주의인민공화국을 합쳐 말하는 말로 사용합니다. 또한 북한이라는 단어 대신 북조선이라는 단어를 사용하고 있습니다.
+<br/>
+<small>※ 조선을 병기하고 있는 상황입니다. 자세한 사항은 해당 문서의 토론 페이지를 참고하시기 바랍니다.</small>
+
+==== 동해 & 독도 ====
+동해의 경우에도 중립적 시각을 적용하여, 동해/조선동해와 일본해를 병기하고 있습니다. 독도도 마찬가지로 다케시마를 병기하고 있습니다.
+{{자세히 보기|
+* 위키백과:중립적 시각
+}}
+
+==출처 밝히기 ==
+위키백과에 기여할 때는 가능하다면 해당 정보의 출처를 명시하는 것이 좋습니다. 출처를 밝히면 해당 정보의 신뢰성이 더욱 높아지며, 나아가 위키백과 전체의 신뢰성을 높이는 데 도움이 됩니다.
+
+<div align="center">
+{| class="toccolours" rules="none" cellpadding="3" cellspacing="0" style="margin:1em 0 1em 0; border-collapse: collapse;" 
+| align="center" | Deze pagina is (voorlopig) niet in gebruik<br/><small>Deze pagina maakte onderdeel uit van een oudere versie van Wikipedia:Snelcursus.</small>
+|}</div>
+
+<div style="border:2px solid #A3B1BF; padding:.5em 1em 1em 1em; border-top:none; background-color:#fff; color:#000">
+
+Er is een aantal zaken dat je moet '''onthouden''' als je Wikipedia aan het bewerken bent.
+
+==Beleid wat betreft bewerken==
+===Wat betreft inhoud===
+Wikipedia is een relevante"''' onderwerpen.  Wat exact relevant is, is onderwerp van steeds terugkerend debat op Wikipedia, maar slechts weinigen geloven dat er artikelen zouden moeten zijn over elk persoon op de aardbol, elk bedrijf dat iets verkoopt,  of elke straat in elke plaats van de wereld. Maar er zijn '''zusterprojecten''' voor sommigen typen niet-encyclopedische inhoud.
+
+Elk artikel dat alleen maar een woord definieert, of een korte zin, zoals je in een Wiktionary-zusterproject.
+
+Originele brontekst, zoals uit een boek uit het publieke domein dat je wil inbrengen in Wikipedia om het beter beschikbaar te maken, moet worden bijgedragen aan een van Wikipedia's andere zusterprojecten, Wikisource.
+
+Voor een lijst van alle gerelateerde projecten, zie de Complete lijst van Wikimediaprojecten.
+
+Wikipedia is ook niet de plaats voor "origineel onderzoek"&mdash;dat zijn, nieuwe theorieën, etc., die niet gesteund worden door Wikipedia:Wat Wikipedia niet is en Wikipedia:Relevantie.
+
+We ontmoedigen gebruikers ook over zichzelf te schrijven (dat doe je op je eigen gebruikerspagina, als je vindt dat er iets wetenswaardigs over jezelf te melden is aan andere gebruikers) of over wat ze bereikt hebben, omdat dit een belangentegenstelling met zich meebrengt. Als je veel belangrijke dingen gedaan hebt zal er uiteindelijk iemand een artikel over je schrijven.
+
+===Neutraal standpunt===
+Wikipedia's beleid is het  "'''Neutrale standpunt'''," vaak afgekort als "NPOV." Dit beleid houdt in dat alle relevante gezichtspunten op een onderwerp worden geaccepteerd. In plaats van de zaken te beschrijven vanuit een zeker perspectief, proberen we de verschillende gezichtspunten te behandelen, zonder daar een oordeel over te geven. Het is niet ons doel de lezer ergens van te overtuigen, maar om informatie aan te reiken. Het beleid verzekert de lezer er NIET van dat alle artikelen 100% "objectief" zijn, doordat in een discussie doorgaans alle partijen overtuigd zijn van hun eigen gelijk.
+
+Het is prima een mening in een artikel te plaatsen, mits dit gepresenteerd wordt als een mening en niet als een feit. Het is aan te bevelen erbij aan te geven ''wie'' de gepresenteerde mening aanhangt, bijvoorbeeld: "Aanhangers hiervan zeggen dat..." of "Deskundige X gelooft dat..."
+
+Het kan zijn dat je Wikipedianen een artikel aan hoort duiden als "POV." Dit is Wikipediaans voor een subjectief artikel, of een artikel dat duidelijk vanuit een bepaald perspectief is geschreven. Advertenties vallen bijvoorbeeld in die categorie, alsook politieke aanvallen. In een minder extreem geval kan een artikel ook "POV" genoemd worden als het ene standpunt veel meer aandacht krijgt dan het andere standpunt, ook als beide standpunten op zich neutraal beschreven worden.
+
+Als je van plan bent aandacht te gaan schenken aan controversiële artikelen over onderwerpen als religie en politiek, dan is het belangrijk dat je de pagina met het NPOV-beleid zo snel mogelijk leest. Ook is het verstandig ''koel blijven wanneer het bewerken er heet aan toe gaat'' eens te lezen. Als je aandacht gaat schenken aan minder gevoelige onderwerpen als wiskunde en computerspellen, dan is het nog steeds goed op de hoogte te zijn van het beleid, maar het wordt dan minder dringend. Onthoud het advies op deze pagina en lees het volledige beleid zodra je iets dergelijks bij de hand hebt.

@@ -1,0 +1,127 @@
+{{Infobox VG| title = Stunts
+|image = <!-- Deleted image removed: 250px|Stunts title screen -->
+|developer = Distinctive Software, Inc.
+|publisher = Mindscape
+|designer = Don Mattrick <br /> Kevin Pickell <br /> Brad Gour <br /> Rob Martyn <br /> Stan Chow
+|engine =
+|version = 1.1
+|released = October 1990
+|genre = Racing game
+|modes = Single player
+|ratings = 
+|platforms = PC (MS-DOS), Amiga, NEC PC-9801
+|input = 
+}}
+
+'''''Stunts''''' (also known as '''''4D Sports Driving''''') is an early 3D racing developed by Distinctive Software, Inc.. The game places emphasis on racing on the stunt tracks and features a track editor.
+
+==Description==
+<!-- Deleted image removed: thumb|left|A ''Stunts'' race in progress -->
+
+In ''Stunts'', players race a lap around the circuit, with the aim of completing the lap as quickly as possible without crashing. However, these laps often feature special track areas such as loops, jumps (including over tall buildings), slalom roads and corkscrews. The game area is restricted by a large fixed size square area defined and surrounded by a fence which the player can not leave. Players can either race against the clock or choose between six different opponents; there is no support for real-time multiplayer. ''Stunts'' features 11 different drivable cars, with either automatic or manual transmission. Replays of races can be saved and reviewed. There are four camera views available during replay and actual driving, and the dashboard is an optional overlay on all views. In addition, there is a built-in track editor that lets players design their own tracks.
+
+The cars can drive on paved roads, gravel roads, icy/snow roads, and grass if driving off the track &mdash; which all offer different levels of grip. The game has a relatively advanced pseudo-physics engine for its time which can simulate oversteer and understeer, and driving through a banked corner gives the car more grip. The graphics are a combination of 3D polygons and sprites with no textures, running in 320×200 with 256 colors. There is an option to select high and low detail. The game is written for MS-DOS and executes in real mode.
+
+''Stunts'' includes a form of copy prevention. Each time after running the program, players must complete a specific phrase found in the game manual before being allowed to race. If the player fails to complete the phrase three times, the next race will still load.  However, approximately four seconds into the race, the player is informed that he or she did not deactivate the car's security system, the car crashes, and the player is returned to the main menu.
+
+== Features ==
+=== Cars ===
+thumb|The car selector. Pictured here is a 25th Anniversary Edition [[Lamborghini Countach.]]
+* Acura NSX
+* Audi Quattro Sport Coupe
+* Chevrolet Corvette ZR1
+* Ferrari 288 GTO
+* IMSA Race Car
+* 25th Anniversary Lamborghini Countach
+* Lamborghini LM002
+* Lancia Delta HF Integrale 16v
+* Porsche 962 IMSA Race Car
+* Porsche Carrera 4
+* March IndyCar &ndash; fastest
+
+=== Opponents ===
+In addition to racing against the clock, there are six opponents of different skills available. By increasing talent, these are:
+* Squealin' Bernie Rubber &ndash; slowest driver (named Masahiko in FM Towns version)
+* Herr Otto Partz
+* Smokin' Joe Stallin
+* Cherry Chassis
+* Helen Wheels
+* Skid Vicious &ndash; (refers to Sid Vicious) fastest driver
+
+==Release==
+The game was originally made for the PC and then ported for Amiga, FM Towns and NEC PC-9801.
+
+''Stunts'' version 1.0 was published by 1990 for the United States. A year later the version 1.1 was developed, which fixed some bugs. This version was again released by Brøderbund for the United States, and was also published by Mindscape for the European market.
+
+The Mindscape release had the title changed to ''4D Sports Driving'', to make the game a part of their ''4D Sports'' brand (the other games of the line were ''4D Sports Boxing'' and ''4D Sports Tennis''). Some minor game engine differences exists between Stunts 1.1 version and 4D Sports Driving 1.1 version, like driving through tunnel roofs in Mindscape version, while you crash on the roof in Brøderbund version.
+
+The Amiga version was published in 1992 by Mindscape under the name ''4D Sports Driving'' (version 1.2). Music is improved compared to PC versions.
+
+The PC-9801 version was titled ''4D Driving'' (version 1.0) and was published by Electronic Arts Victor in 1993. Due to PC-9801 limitations, this version had the music synthetized and title and menu graphics changed from the previous platform's releases, although the gameplay remained mainly the same.<ref></ref>
+
+FM Towns version is also named ''4D Driving'' (version 1.0) and was also published by Electronic Arts Victor in 1993. Due to FM Towns capacities, music has been changed and improved, and new songs added. Title page and menu graphics are also modified, close to PC-9801 version but with better graphics.
+In FM Towns version, the opponent's pictures has been replaced by real photos, and Bernie Rubber character is replaced by Masahiko, a Japanese guy. His dedicated track remains the same as Bernie's track.
+This version has the original Otto's track. This track was forgotten in previous versions.
+The gameplay remained mainly the same, but there is less collision bugs and no "powergear" effect bug. Way-switching bug and chicane bug remain present. Unlike DOS version, when you use manual gears you have to stop accelerating when switching gear up or down, making the game more realistic in driving style and also limiting the advantage of manual gears compared to automatic gears.<ref></ref>
+
+Stunts was also ported to the Sega Genesis but was never released as the as the frame rate for that version was not up to an acceptable rate to make the game playable.
+
+==Bugs and glitches==
+Some of the cars in the game have a critical speed which when reached allows the car to keep its maximum speed while turning and/or driving on grass (which would normally make the car decelerate). This bug is commonly known as ''powergear'' bug and has become a major feature among the modern ''Stunts'' fans and is often exploited in track design : some tracks are specifically designed to make it possible to drive at maximum speed continuously to allow for fast lap times. Only some cars can reach this ''powergear'' bug : Indycar, Acura NSX, Corvette ZR1 and Ferrari GTO.
+An easy way to reach the critical speed with Acura NSX and Indycar is to drive repeatedly through the loop (if you use manual gears) or to enter the loop at 5th gear (easier to do when using manual gears). this doesn't work for Ferrari GTO or Corvette ZR1. Else, best way for these 4 cars is to have a track with lots of successive jumps and take them at higher gear. The car will toggle to ''powergear'' after a few jumps.
+When a car has reached critical speed, arbitrary strange behaviour rarely can occur, such as the car bouncing up and down and sometimes flying higher up — usually resulting in a crash.
+The physics engine can cause other strange effects too, such as causing the car to accelerate vertically as a result of crashing horizontally into a wall while in the air.
+This ''powergear'' bug is only available on DOS version.
+
+Other bugs, common on all platforms, are the way-switching bug and the chicane bug.
+
+{{Infobox Jeu vidéo|
+|titre = Stunts / 4D Sports Driving
+|image = 
+|développeur = Distinctive Software
+|éditeur = Broderbund
+|concepteur = Kevin Pickell
+|date = 1990
+|genre = Jeu de course
+|mode = Un joueur
+|plate-forme = MS-DOS, Amiga, FM Towns
+|média = 2 disquettes <small>(Amiga)</small>
+|contrôle = Souris
+}}
+
+'''''Stunts''''' — aussi connu sous le nom de '''''4D Sports Driving''''' et '''''4D Driving''''' — est un jeu vidéo de course automobile sorti de l'imagination du programmeur Kevin Pickell. A l'origine développé pour DOS, le jeu a ensuite été porté sur Amiga et FM Towns.
+
+== Historique ==
+Vendu pour la première fois en 1990 on en connaît plusieurs versions car les éditeurs 1990 puis par 1991. 
+
+La version 1.1 est la plus récente, c'est celle qui fut distribuée par 1991 (elle est même datée du 12 février). C'est aussi la meilleure car elle permet d'obtenir les meilleurs chronos possibles en compétition. Elle interdit de traverser les plafonds des tunnels et de perdre de l'énergie cinétique pendant les sauts vertigineux par exemple.
+
+L'Autrichien Markus Nagelholtz (actuellement employé chez Siemens) alias Mark Nailwood a écrit à la fin des années 1990 deux petits programmes  utiles, ''Trackblaster'' et ''Carblaster''. ''Trackblaster'' permet de dessiner des circuits avec plus d'aisance et de créativité que ne l'autorise le simple éditeur inclus dans le jeu; ''Carblaster'' permet de modifier les caractéristiques des voitures originales fournies par le jeu pour en créer de nouvelles. A l'exemple du modèle à recommander: la melange XGT-88 créée par le pilote de légende argentin Alanrotoi et - excusez du peu - élue voiture de l'année en 2003.
+
+== Véhicules proposés ==
+
+Le jeu propose onze modèles de voitures :
+
+* Acura NSX
+* Audi Quattro Sport Coupe
+* Chevrolet Corvette ZR1
+* Ferrari GTO (Non incluse dans Stunts 1.0)
+* IMSA Race Car
+* Lamborghini Countach 25th Anniversary Edition
+* Lamborghini LM002
+* Lancia Delta Integrale
+* Porsche 962 IMSA Race Car
+* Porsche Carrera 4
+* March IndyCar
+
+== Personnages ==
+
+En plus de pouvoir courir contre la montre, Stunts propose six adversaires artificiels de différents niveaux. Par ordre de difficulté croissante, on trouve ainsi :
+* Squealin' Bernie Rubber
+* Herr Otto Partz
+* Smokin' Joe Stallin
+* Cherry Chassis
+* Helen Wheels
+* Skid Vicious
+
+Après la course, ces adversaires expriment leur joie en cas de victoire ou leur dégoût lors d'une défaite à l'aide de petites animations humoristiques.

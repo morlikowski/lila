@@ -1,0 +1,1200 @@
+<!--For instructions on using templates in the isotope table, see Template talk:Iso1-->
+
+500px|thumb|right|[[Periodic table for looking up element numbers (atomic number)]]
+
+These '''isotope tables''' show all of the known isotopes of the chemical elements, arranged with increasing atomic number from left to right and increasing neutron number from top to bottom.
+
+Half lives are indicated by the color of each isotope's cell (see color chart in each section). Colored borders indicate half lives of the most stable nuclear isomer states.
+
+The data for these tables came from Brookhaven National Laboratory which has an interactive [http://www-nds.iaea.org/nudat2/ Table of Nuclides] with data on ~3000 nuclides.
+
+===Isotopes for elements 0-14===
+<font color="#8D8D8D">← Previous</font> | Next →<span style="margin-left:4em">Go to Periodic table</span><!--
+
+NOTE TO EDITORS: Nuclide data is edited at Template:Isotones. Discussions regarding article content and nuclide data all take place at Talk:Isotope table (complete) -->
+
+===Isotopes for elements 15-29===
+← Previous | Next →<span style="margin-left:4em">Go to Periodic table</span>
+
+:''Voir aussi la table des isotopes non divisée''.
+----
+Ces tables répertorient tous les éléments chimiques, ordonnés selon leur numéro atomique croissant de gauche à droite et avec un nombre croissant de neutrons de haut en bas. Les demi-vies sont indiquées par la couleur de la cellule de chaque isotope, les isotopes ayant deux modes de désintégration qui diffèrent par leur demi-vie ont des couleurs de fond et de bordure différentes.
+
+Les éléments colorées en rouge (éléments stables) forment une suite qualifiée de « vallée de la stabilité ».
+
+{| class="wikitable"
+|+ Demi-vies
+|-----
+| bgcolor="#ffffff" | El || Instable
+|-----
+| bgcolor="#993399" | El || 1-10 jours
+|-----
+| bgcolor="#6600cc" | El || 10-100 jours
+|-----
+| bgcolor="#3333ff" | El || 100 jours - 10 années
+|-----
+| bgcolor="#33ff33" | El || 10-10&nbsp;000 années
+|-----
+| bgcolor="#ffff00" | El || &gt;10&nbsp;000 années
+|-----
+| bgcolor="#ff9900" | El || Radioélément naturel
+|-----
+| bgcolor="#ff0000" | El || Stable
+|}
+<br style="clear:both;" />
+
+{| cellpadding="2" cellspacing="0" border="1" width="100%"
+|+ Isotopes des éléments 1-15
+|-----
+! p
+! 1
+! 2
+|-----
+|
+! H
+! He
+! 3
+! 4
+|-----
+! n
+| bgcolor="#ff0000" | H ||
+
+! Li
+! Be
+! 5
+! 6
+|-----
+! 1
+| bgcolor="#ff0000" | D
+| bgcolor="#ff0000" | <font size="-1">³</font>He
+| colspan="2" |
+! B
+! C
+! 7
+|-----
+! 2
+| bgcolor="#ff9900" | T
+| bgcolor="#ff0000" | <font size="-1"><sup>4</sup></font>He
+| bgcolor="#ffffff" | <font size="-1"><sup>5</sup></font>Li
+| bgcolor="#ffffff" | <font size="-1"><sup>6</sup></font>Be
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>8</sup></font>C
+! N
+! 8
+|-----
+! 3
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>5</sup></font>He
+| bgcolor="#ff0000" | <font size="-1"><sup>6</sup></font>Li
+| bgcolor="#6600cc" | <font size="-1"><sup>7</sup></font>Be
+| bgcolor="#ffffff" | <font size="-1"><sup>8</sup></font>B
+| bgcolor="#ffffff" | <font size="-1"><sup>9</sup></font>C
+|
+! O
+! 9
+|-----
+! 4
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>6</sup></font>He
+| bgcolor="#ff0000" | <font size="-1"><sup>7</sup></font>Li
+| bgcolor="#ffffff" | <font size="-1"><sup>8</sup></font>Be
+| bgcolor="#ffffff" | <font size="-1"><sup>9</sup></font>B
+| bgcolor="#ffffff" | <font size="-1"><sup>10</sup></font>C
+| bgcolor="#ffffff" | <font size="-1"><sup>11</sup></font>N
+|
+! F
+! 10
+|-----
+! 5
+| colspan="2" |
+| bgcolor="#ffffff" | <font size="-1"><sup>8</sup></font>Li
+| bgcolor="#ff0000" | <font size="-1"><sup>9</sup></font>Be
+| bgcolor="#ff0000" | <font size="-1"><sup>10</sup></font>B
+| bgcolor="#ffffff" | <font size="-1"><sup>11</sup></font>C
+| bgcolor="#ffffff" | <font size="-1"><sup>12</sup></font>N
+| bgcolor="#ffffff" | <font size="-1"><sup>13</sup></font>O
+|
+! Ne
+! 11
+|-----
+|
+! 6
+| bgcolor="#ffffff" | <font size="-1"><sup>8</sup></font>He
+| bgcolor="#ffffff" | <font size="-1"><sup>9</sup></font>Li
+| bgcolor="#ff9900" | <font size="-1"><sup>10</sup></font>Be
+| bgcolor="#ff0000" | <font size="-1"><sup>11</sup></font>B
+| bgcolor="#ff0000" | <font size="-1"><sup>12</sup></font>C
+| bgcolor="#ffffff" | <font size="-1"><sup>13</sup></font>N
+| bgcolor="#ffffff" | <font size="-1"><sup>14</sup></font>O
+| colspan="2" |
+! Na
+! 12
+|-----
+|
+! 7
+| colspan="2" |
+| bgcolor="#ffffff" | <font size="-1"><sup>11</sup></font>Be
+| bgcolor="#ffffff" | <font size="-1"><sup>12</sup></font>B
+| bgcolor="#ff0000" | <font size="-1"><sup>13</sup></font>C
+| bgcolor="#ff0000" | <font size="-1"><sup>14</sup></font>N
+| bgcolor="#ffffff" | <font size="-1"><sup>15</sup></font>O
+| bgcolor="#ffffff" | <font size="-1"><sup>16</sup></font>F
+| bgcolor="#ffffff" | <font size="-1"><sup>17</sup></font>Ne
+|
+! Mg
+! 13
+|-----
+| colspan="2" |
+! 8
+| bgcolor="#ffffff" | <font size="-1"><sup>11</sup></font>Li
+| bgcolor="#ffffff" | <font size="-1"><sup>12</sup></font>Be
+| bgcolor="#ffffff" | <font size="-1"><sup>13</sup></font>B
+| bgcolor="#ff9900" | <font size="-1"><sup>14</sup></font>C
+| bgcolor="#ff0000" | <font size="-1"><sup>15</sup></font>N
+| bgcolor="#ff0000" | <font size="-1"><sup>16</sup></font>O
+| bgcolor="#ffffff" | <font size="-1"><sup>17</sup></font>F
+| bgcolor="#ffffff" | <font size="-1"><sup>18</sup></font>Ne
+| bgcolor="#ffffff" | <font size="-1"><sup>19</sup></font>Na
+| bgcolor="#ffffff" | <font size="-1"><sup>20</sup></font>Mg
+! Al
+! 14
+|-----
+| colspan="2" |
+! 9
+| colspan="2" |
+| bgcolor="#ffffff" | <font size="-1"><sup>14</sup></font>B
+| bgcolor="#ffffff" | <font size="-1"><sup>15</sup></font>C
+| bgcolor="#ffffff" | <font size="-1"><sup>16</sup></font>N
+| bgcolor="#ff0000" | <font size="-1"><sup>17</sup></font>O
+| bgcolor="#ffffff" | <font size="-1"><sup>18</sup></font>F
+| bgcolor="#ffffff" | <font size="-1"><sup>19</sup></font>Ne
+| bgcolor="#ffffff" | <font size="-1"><sup>20</sup></font>Na
+| bgcolor="#ffffff" | <font size="-1"><sup>21</sup></font>Mg
+|
+! Si
+! 15
+|-----
+| colspan="3" |
+! 10
+| bgcolor="#ffffff" | <font size="-1"><sup>14</sup></font>Be
+| bgcolor="#ffffff" | <font size="-1"><sup>15</sup></font>B
+| bgcolor="#ffffff" | <font size="-1"><sup>16</sup></font>C
+| bgcolor="#ffffff" | <font size="-1"><sup>17</sup></font>N
+| bgcolor="#ff0000" | <font size="-1"><sup>18</sup></font>O
+| bgcolor="#ff0000" | <font size="-1"><sup>19</sup></font>F
+| bgcolor="#ff0000" | <font size="-1"><sup>20</sup></font>Ne
+| bgcolor="#ffffff" | <font size="-1"><sup>21</sup></font>Na
+| bgcolor="#ffffff" | <font size="-1"><sup>22</sup></font>Mg
+| bgcolor="#ffffff" | <font size="-1"><sup>23</sup></font>Al
+|
+! P
+|-----
+| colspan="3" |
+! 11
+| colspan="2" |
+| bgcolor="#ffffff" | <font size="-1"><sup>17</sup></font>C
+| bgcolor="#ffffff" | <font size="-1"><sup>18</sup></font>N
+| bgcolor="#ffffff" | <font size="-1"><sup>19</sup></font>O
+| bgcolor="#ffffff" | <font size="-1"><sup>20</sup></font>F
+| bgcolor="#ff0000" | <font size="-1"><sup>21</sup></font>Ne
+| bgcolor="#3333ff" | <font size="-1"><sup>22</sup></font>Na
+| bgcolor="#ffffff" | <font size="-1"><sup>23</sup></font>Mg
+| bgcolor="#ffffff" | <font size="-1"><sup>24</sup></font>Al
+| bgcolor="#ffffff" | <font size="-1"><sup>25</sup></font>Si
+|-----
+| colspan="4" |
+! 12
+| bgcolor="#ffffff" | <font size="-1"><sup>17</sup></font>B
+| bgcolor="#ffffff" | <font size="-1"><sup>18</sup></font>C
+| bgcolor="#ffffff" | <font size="-1"><sup>19</sup></font>N
+| bgcolor="#ffffff" | <font size="-1"><sup>20</sup></font>O
+| bgcolor="#ffffff" | <font size="-1"><sup>21</sup></font>F
+| bgcolor="#ff0000" | <font size="-1"><sup>22</sup></font>Ne
+| bgcolor="#ff0000" | <font size="-1"><sup>23</sup></font>Na
+| bgcolor="#ff0000" | <font size="-1"><sup>24</sup></font>Mg
+| bgcolor="#ffffff" | <font size="-1"><sup>25</sup></font>Al
+| bgcolor="#ffffff" | <font size="-1"><sup>26</sup></font>Si
+| bgcolor="#ffffff" | <font size="-1"><sup>27</sup></font>P
+|-----
+| colspan="4" |
+! 13
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>19</sup></font>C
+| bgcolor="#ffffff" | <font size="-1"><sup>20</sup></font>N
+| bgcolor="#ffffff" | <font size="-1"><sup>21</sup></font>O
+| bgcolor="#ffffff" | <font size="-1"><sup>22</sup></font>F
+| bgcolor="#ffffff" | <font size="-1"><sup>23</sup></font>Ne
+| bgcolor="#ffffff" | <font size="-1"><sup>24</sup></font>Na
+| bgcolor="#ff0000" | <font size="-1"><sup>25</sup></font>Mg
+| bgcolor="#ffffff" | <div style="background-color: #ffff00;"><font size="-1"><sup>26</sup></font>Al</div>
+| bgcolor="#ffffff" | <font size="-1"><sup>27</sup></font>Si
+| bgcolor="#ffffff" | <font size="-1"><sup>28</sup></font>P
+|-----
+| colspan="5" |
+! 14
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>21</sup></font>N
+| bgcolor="#ffffff" | <font size="-1"><sup>22</sup></font>O
+| bgcolor="#ffffff" | <font size="-1"><sup>23</sup></font>F
+| bgcolor="#ffffff" | <font size="-1"><sup>24</sup></font>Ne
+| bgcolor="#ffffff" | <font size="-1"><sup>25</sup></font>Na
+| bgcolor="#ff0000" | <font size="-1"><sup>26</sup></font>Mg
+| bgcolor="#ff0000" | <font size="-1"><sup>27</sup></font>Al
+| bgcolor="#ff0000" | <font size="-1"><sup>28</sup></font>Si
+| bgcolor="#ffffff" | <font size="-1"><sup>29</sup></font>P
+|-----
+| colspan="6" |
+! 15
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>23</sup></font>O
+| bgcolor="#ffffff" | <font size="-1"><sup>24</sup></font>F
+| bgcolor="#ffffff" | <font size="-1"><sup>25</sup></font>Ne
+| bgcolor="#ffffff" | <font size="-1"><sup>26</sup></font>Na
+| bgcolor="#ffffff" | <font size="-1"><sup>27</sup></font>Mg
+| bgcolor="#ffffff" | <font size="-1"><sup>28</sup></font>Al
+| bgcolor="#ff0000" | <font size="-1"><sup>29</sup></font>Si
+| bgcolor="#ffffff" | <font size="-1"><sup>30</sup></font>P
+|-----
+| colspan="7" |
+! 16
+| bgcolor="#ffffff" | <font size="-1"><sup>24</sup></font>O
+| bgcolor="#ffffff" | <font size="-1"><sup>25</sup></font>F
+| bgcolor="#ffffff" | <font size="-1"><sup>26</sup></font>Ne
+| bgcolor="#ffffff" | <font size="-1"><sup>27</sup></font>Na
+| bgcolor="#ffffff" | <font size="-1"><sup>28</sup></font>Mg
+| bgcolor="#ffffff" | <font size="-1"><sup>29</sup></font>Al
+| bgcolor="#ff0000" | <font size="-1"><sup>30</sup></font>Si
+| bgcolor="#ff0000" | <font size="-1"><sup>31</sup></font>P
+|-----
+| colspan="8" |
+! 17
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>27</sup></font>Ne
+| bgcolor="#ffffff" | <font size="-1"><sup>28</sup></font>Na
+| bgcolor="#ffffff" | <font size="-1"><sup>29</sup></font>Mg
+| bgcolor="#ffffff" | <font size="-1"><sup>30</sup></font>Al
+| bgcolor="#ffffff" | <font size="-1"><sup>31</sup></font>Si
+| bgcolor="#6600cc" | <font size="-1"><sup>32</sup></font>P
+|-----
+| colspan="9" |
+! 18
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>29</sup></font>Na
+| bgcolor="#ffffff" | <font size="-1"><sup>30</sup></font>Mg
+| bgcolor="#ffffff" | <font size="-1"><sup>31</sup></font>Al
+| bgcolor="#3333ff" | <font size="-1"><sup>32</sup></font>Si
+| bgcolor="#6600cc" | <font size="-1"><sup>33</sup></font>P
+|-----
+| colspan="9" |
+! 19
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>30</sup></font>Na
+| bgcolor="#ffffff" | <font size="-1"><sup>31</sup></font>Mg
+| bgcolor="#ffffff" | <font size="-1"><sup>32</sup></font>Al
+| bgcolor="#ffffff" | <font size="-1"><sup>33</sup></font>Si
+| bgcolor="#ffffff" | <font size="-1"><sup>34</sup></font>P
+|-----
+| colspan="9" |
+! 20
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>31</sup></font>Na
+| bgcolor="#ffffff" | <font size="-1"><sup>32</sup></font>Mg
+| bgcolor="#ffffff" | <font size="-1"><sup>33</sup></font>Al
+| bgcolor="#ffffff" | <font size="-1"><sup>34</sup></font>Si
+| bgcolor="#ffffff" | <font size="-1"><sup>35</sup></font>P
+|-----
+| colspan="9" |
+! 21
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>32</sup></font>Na
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>34</sup></font>Al
+| bgcolor="#ffffff" | <font size="-1"><sup>35</sup></font>Si
+| bgcolor="#ffffff" | <font size="-1"><sup>36</sup></font>P
+|-----
+| colspan="9" |
+! 22
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>33</sup></font>Na
+| colspan="2" |
+| bgcolor="#ffffff" | <font size="-1"><sup>36</sup></font>Si
+| bgcolor="#ffffff" | <font size="-1"><sup>37</sup></font>P
+|-----
+| colspan="13" |
+! 23
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>38</sup></font>P
+|-----
+| colspan="13" |
+! 24
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>39</sup></font>P
+|}
+
+{| cellpadding="2" cellspacing="0" border="1" width="100%"
+|+ Isotopes des éléments 16-30
+|-----
+! p
+! 16
+|-----
+|
+! S
+! 17
+|-----
+! n
+|
+! Cl
+! 18
+|-----
+! 13
+| bgcolor="#ffffff" | <font size="-1"><sup>29</sup></font>S
+|
+! Ar
+! 19
+|-----
+! 14
+| bgcolor="#ffffff" | <font size="-1"><sup>30</sup></font>S
+| bgcolor="#ffffff" | <font size="-1"><sup>31</sup></font>Cl
+|
+! K
+! 20
+|-----
+! 15
+| bgcolor="#ffffff" | <font size="-1"><sup>31</sup></font>S
+| bgcolor="#ffffff" | <font size="-1"><sup>32</sup></font>Cl
+| bgcolor="#ffffff" | <font size="-1"><sup>33</sup></font>Ar
+|
+! Ca
+|-----
+! 16
+| bgcolor="#ff0000" | <font size="-1"><sup>32</sup></font>S
+| bgcolor="#ffffff" | <font size="-1"><sup>33</sup></font>Cl
+| bgcolor="#ffffff" | <font size="-1"><sup>34</sup></font>Ar
+| bgcolor="#ffffff" | <font size="-1"><sup>35</sup></font>K
+|
+! 21
+|-----
+! 17
+| bgcolor="#ff0000" | <font size="-1"><sup>33</sup></font>S
+| bgcolor="#ffffff" | <font size="-1"><sup>34</sup></font>Cl
+| bgcolor="#ffffff" | <font size="-1"><sup>35</sup></font>Ar
+| bgcolor="#ffffff" | <font size="-1"><sup>36</sup></font>K
+| bgcolor="#ffffff" | <font size="-1"><sup>37</sup></font>Ca
+! Sc
+! 22
+|-----
+! 18
+| bgcolor="#ff0000" | <font size="-1"><sup>34</sup></font>S
+| bgcolor="#ff0000" | <font size="-1"><sup>35</sup></font>Cl
+| bgcolor="#ff0000" | <font size="-1"><sup>36</sup></font>Ar
+| bgcolor="#ffffff" | <font size="-1"><sup>37</sup></font>K
+| bgcolor="#ffffff" | <font size="-1"><sup>38</sup></font>Ca
+|
+! Ti
+! 23
+|-----
+! 19
+| bgcolor="#6600cc" | <font size="-1"><sup>35</sup></font>S
+| bgcolor="#ffff00" | <font size="-1"><sup>36</sup></font>Cl
+| bgcolor="#6600cc" | <font size="-1"><sup>37</sup></font>Ar
+| bgcolor="#ffffff" | <font size="-1"><sup>38</sup></font>K
+| bgcolor="#ffffff" | <font size="-1"><sup>39</sup></font>Ca
+| bgcolor="#ffffff" | <font size="-1"><sup>40</sup></font>Sc
+| bgcolor="#ffffff" | <font size="-1"><sup>41</sup></font>Ti
+! V
+! 24
+|-----
+! 20
+| bgcolor="#ff0000" | <font size="-1"><sup>36</sup></font>S
+| bgcolor="#ff0000" | <font size="-1"><sup>37</sup></font>Cl
+| bgcolor="#ff0000" | <font size="-1"><sup>38</sup></font>Ar
+| bgcolor="#ff0000" | <font size="-1"><sup>39</sup></font>K
+| bgcolor="#ff0000" | <font size="-1"><sup>40</sup></font>Ca
+| bgcolor="#ffffff" | <font size="-1"><sup>41</sup></font>Sc
+| bgcolor="#ffffff" | <font size="-1"><sup>42</sup></font>Ti
+|
+! Cr
+! 25
+|-----
+! 21
+| bgcolor="#ffffff" | <font size="-1"><sup>37</sup></font>S
+| bgcolor="#ffffff" | <font size="-1"><sup>38</sup></font>Cl
+| bgcolor="#33ff33" | <font size="-1"><sup>39</sup></font>Ar
+| bgcolor="#ff9900" | <font size="-1"><sup>40</sup></font>K
+| bgcolor="#ffff00" | <font size="-1"><sup>41</sup></font>Ca
+| bgcolor="#ffffff" | <font size="-1"><sup>42</sup></font>Sc
+| bgcolor="#ffffff" | <font size="-1"><sup>43</sup></font>Ti
+| bgcolor="#ffffff" | <font size="-1"><sup>44</sup></font>V
+| bgcolor="#ffffff" | <font size="-1"><sup>45</sup></font>Cr
+! Mn
+! 26
+|-----
+! 22
+| bgcolor="#ffffff" | <font size="-1"><sup>38</sup></font>S
+| bgcolor="#ffffff" | <font size="-1"><sup>39</sup></font>Cl
+| bgcolor="#ff0000" | <font size="-1"><sup>40</sup></font>Ar
+| bgcolor="#ff0000" | <font size="-1"><sup>41</sup></font>K
+| bgcolor="#ff0000" | <font size="-1"><sup>42</sup></font>Ca
+| bgcolor="#ffffff" | <font size="-1"><sup>43</sup></font>Sc
+| bgcolor="#33ff33" | <font size="-1"><sup>44</sup></font>Ti
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>46</sup></font>Cr
+|
+! Fe
+! 27
+|-----
+! 23
+| bgcolor="#ffffff" | <font size="-1"><sup>39</sup></font>S
+| bgcolor="#ffffff" | <font size="-1"><sup>40</sup></font>Cl
+| bgcolor="#ffffff" | <font size="-1"><sup>41</sup></font>Ar
+| bgcolor="#ffffff" | <font size="-1"><sup>42</sup></font>K
+| bgcolor="#ff0000" | <font size="-1"><sup>43</sup></font>Ca
+| bgcolor="#993399" | <font size="-1"><sup>44</sup></font>Sc
+| bgcolor="#ffffff" | <font size="-1"><sup>45</sup></font>Ti
+| bgcolor="#ffffff" | <font size="-1"><sup>46</sup></font>V
+| bgcolor="#ffffff" | <font size="-1"><sup>47</sup></font>Cr
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>49</sup></font>Fe
+! Co
+! 28
+|-----
+! 24
+| bgcolor="#ffffff" | <font size="-1"><sup>40</sup></font>S
+| bgcolor="#ffffff" | <font size="-1"><sup>41</sup></font>Cl
+| bgcolor="#33ff33" | <font size="-1"><sup>42</sup></font>Ar
+| bgcolor="#ffffff" | <font size="-1"><sup>43</sup></font>K
+| bgcolor="#ff0000" | <font size="-1"><sup>44</sup></font>Ca
+| bgcolor="#ff0000" | <font size="-1"><sup>45</sup></font>Sc
+| bgcolor="#ff0000" | <font size="-1"><sup>46</sup></font>Ti
+| bgcolor="#ffffff" | <font size="-1"><sup>47</sup></font>V
+| bgcolor="#ffffff" | <font size="-1"><sup>48</sup></font>Cr
+| bgcolor="#ffffff" | <font size="-1"><sup>49</sup></font>Mn
+| bgcolor="#ffffff" | <font size="-1"><sup>50</sup></font>Fe
+|
+! Ni
+! 29
+|-----
+! 25
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>42</sup></font>Cl
+| bgcolor="#ffffff" | <font size="-1"><sup>43</sup></font>Ar
+| bgcolor="#ffffff" | <font size="-1"><sup>44</sup></font>K
+| bgcolor="#3333ff" | <font size="-1"><sup>45</sup></font>Ca
+| bgcolor="#ffffff" | <div style="background: #6600cc;"><font size="-1"><sup>46</sup></font>Sc</div>
+| bgcolor="#ff0000" | <font size="-1"><sup>47</sup></font>Ti
+| bgcolor="#6600cc" | <font size="-1"><sup>48</sup></font>V
+| bgcolor="#ffffff" | <font size="-1"><sup>49</sup></font>Cr
+| bgcolor="#ffffff" | <font size="-1"><sup>50</sup></font>Mn
+| bgcolor="#ffffff" | <font size="-1"><sup>51</sup></font>Fe
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>53</sup></font>Ni
+! Cu
+! 30
+|-----
+! 26
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>43</sup></font>Cl
+| bgcolor="#ffffff" | <font size="-1"><sup>44</sup></font>Ar
+| bgcolor="#ffffff" | <font size="-1"><sup>45</sup></font>K
+| bgcolor="#ff0000" | <font size="-1"><sup>46</sup></font>Ca
+| bgcolor="#993399" | <font size="-1"><sup>47</sup></font>Sc
+| bgcolor="#ff0000" | <font size="-1"><sup>48</sup></font>Ti
+| bgcolor="#3333ff" | <font size="-1"><sup>49</sup></font>V
+| bgcolor="#ff0000" | <font size="-1"><sup>50</sup></font>Cr
+| bgcolor="#ffffff" | <font size="-1"><sup>51</sup></font>Mn
+| bgcolor="#ffffff" | <font size="-1"><sup>52</sup></font>Fe
+| bgcolor="#ffffff" | <font size="-1"><sup>53</sup></font>Co
+| bgcolor="#ffffff" | <font size="-1"><sup>54</sup></font>Ni
+|
+! Zn
+|-----
+|
+! 27
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>45</sup></font>Ar
+| bgcolor="#ffffff" | <font size="-1"><sup>46</sup></font>K
+| bgcolor="#993399" | <font size="-1"><sup>47</sup></font>Ca
+| bgcolor="#993399" | <font size="-1"><sup>48</sup></font>Sc
+| bgcolor="#ff0000" | <font size="-1"><sup>49</sup></font>Ti
+| bgcolor="#ff9900" | <font size="-1"><sup>50</sup></font>V
+| bgcolor="#6600cc" | <font size="-1"><sup>51</sup></font>Cr
+| bgcolor="#ffffff" | <div style="background: #993399;"><font size="-1"><sup>52</sup></font>Mn</div>
+| bgcolor="#ffffff" | <font size="-1"><sup>53</sup></font>Fe
+| bgcolor="#ffffff" | <font size="-1"><sup>54</sup></font>Co
+| bgcolor="#ffffff" | <font size="-1"><sup>55</sup></font>Ni
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>57</sup></font>Zn
+|-----
+|
+! 28
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>46</sup></font>Ar
+| bgcolor="#ffffff" | <font size="-1"><sup>47</sup></font>K
+| bgcolor="#ff0000" | <font size="-1"><sup>48</sup></font>Ca
+| bgcolor="#ffffff" | <font size="-1"><sup>49</sup></font>Sc
+| bgcolor="#ff0000" | <font size="-1"><sup>50</sup></font>Ti
+| bgcolor="#ff0000" | <font size="-1"><sup>51</sup></font>V
+| bgcolor="#ff0000" | <font size="-1"><sup>52</sup></font>Cr
+| bgcolor="#ffff00" | <font size="-1"><sup>53</sup></font>Mn
+| bgcolor="#ff0000" | <font size="-1"><sup>54</sup></font>Fe
+| bgcolor="#ffffff" | <font size="-1"><sup>55</sup></font>Co
+| bgcolor="#993399" | <font size="-1"><sup>56</sup></font>Ni
+|-----
+|
+! 29
+| colspan="2" |
+| bgcolor="#ffffff" | <font size="-1"><sup>48</sup></font>K
+| bgcolor="#ffffff" | <font size="-1"><sup>49</sup></font>Ca
+| bgcolor="#ffffff" | <font size="-1"><sup>50</sup></font>Sc
+| bgcolor="#ffffff" | <font size="-1"><sup>51</sup></font>Ti
+| bgcolor="#ffffff" | <font size="-1"><sup>52</sup></font>V
+| bgcolor="#ff0000" | <font size="-1"><sup>53</sup></font>Cr
+| bgcolor="#3333ff" | <font size="-1"><sup>54</sup></font>Mn
+| bgcolor="#3333ff" | <font size="-1"><sup>55</sup></font>Fe
+| bgcolor="#6600cc" | <font size="-1"><sup>56</sup></font>Co
+| bgcolor="#993399" | <font size="-1"><sup>57</sup></font>Ni
+| bgcolor="#ffffff" | <font size="-1"><sup>58</sup></font>Cu
+|-----
+| colspan="2" |
+! 30
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>49</sup></font>K
+| bgcolor="#ffffff" | <font size="-1"><sup>50</sup></font>Ca
+| bgcolor="#ffffff" | <font size="-1"><sup>51</sup></font>Sc
+| bgcolor="#ffffff" | <font size="-1"><sup>52</sup></font>Ti
+| bgcolor="#ffffff" | <font size="-1"><sup>53</sup></font>V
+| bgcolor="#ff0000" | <font size="-1"><sup>54</sup></font>Cr
+| bgcolor="#ff0000" | <font size="-1"><sup>55</sup></font>Mn
+| bgcolor="#ff0000" | <font size="-1"><sup>56</sup></font>Fe
+| bgcolor="#3333ff" | <font size="-1"><sup>57</sup></font>Co
+| bgcolor="#ff0000" | <font size="-1"><sup>58</sup></font>Ni
+| bgcolor="#ffffff" | <font size="-1"><sup>59</sup></font>Cu
+| bgcolor="#ffffff" | <font size="-1"><sup>60</sup></font>Zn
+|-----
+| colspan="2" |
+! 31
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>50</sup></font>K
+| colspan="2" |
+| bgcolor="#ffffff" | <font size="-1"><sup>53</sup></font>Ti
+| bgcolor="#ffffff" | <font size="-1"><sup>54</sup></font>V
+| bgcolor="#ffffff" | <font size="-1"><sup>55</sup></font>Cr
+| bgcolor="#ffffff" | <font size="-1"><sup>56</sup></font>Mn
+| bgcolor="#ff0000" | <font size="-1"><sup>57</sup></font>Fe
+| bgcolor="#ffffff" | <div style="background: #6600cc;"><font size="-1"><sup>58</sup></font>Co</div>
+| bgcolor="#ffff00" | <font size="-1"><sup>59</sup></font>Ni
+| bgcolor="#ffffff" | <font size="-1"><sup>60</sup></font>Cu
+| bgcolor="#ffffff" | <font size="-1"><sup>61</sup></font>Zn
+|-----
+| colspan="6" |
+! 32
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>55</sup></font>V
+| bgcolor="#ffffff" | <font size="-1"><sup>56</sup></font>Cr
+| bgcolor="#ffffff" | <font size="-1"><sup>57</sup></font>Mn
+| bgcolor="#ff0000" | <font size="-1"><sup>58</sup></font>Fe
+| bgcolor="#ff0000" | <font size="-1"><sup>59</sup></font>Co
+| bgcolor="#ff0000" | <font size="-1"><sup>60</sup></font>Ni
+| bgcolor="#ffffff" | <font size="-1"><sup>61</sup></font>Cu
+| bgcolor="#ffffff" | <font size="-1"><sup>62</sup></font>Zn
+|-----
+| colspan="7" |
+! 33
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>57</sup></font>Cr
+| bgcolor="#ffffff" | <font size="-1"><sup>58</sup></font>Mn
+| bgcolor="#6600cc" | <font size="-1"><sup>59</sup></font>Fe
+| bgcolor="#ffffff" | <div style="background: #3333ff;"><font size="-1"><sup>60</sup></font>Co</div>
+| bgcolor="#ff0000" | <font size="-1"><sup>61</sup></font>Ni
+| bgcolor="#ffffff" | <font size="-1"><sup>62</sup></font>Cu
+| bgcolor="#ffffff" | <font size="-1"><sup>63</sup></font>Zn
+|-----
+| colspan="8" |
+! 34
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>59</sup></font>Mn
+| bgcolor="#ffff00" | <font size="-1"><sup>60</sup></font>Fe
+| bgcolor="#ffffff" | <font size="-1"><sup>61</sup></font>Co
+| bgcolor="#ff0000" | <font size="-1"><sup>62</sup></font>Ni
+| bgcolor="#ff0000" | <font size="-1"><sup>63</sup></font>Cu
+| bgcolor="#ff0000" | <font size="-1"><sup>64</sup></font>Zn
+|-----
+| colspan="9" |
+! 35
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>61</sup></font>Fe
+| bgcolor="#ffffff" | <font size="-1"><sup>62</sup></font>Co
+| bgcolor="#33ff33" | <font size="-1"><sup>63</sup></font>Ni
+| bgcolor="#ffffff" | <font size="-1"><sup>64</sup></font>Cu
+| bgcolor="#3333ff" | <font size="-1"><sup>65</sup></font>Zn
+|-----
+| colspan="9" |
+! 36
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>62</sup></font>Fe
+| bgcolor="#ffffff" | <font size="-1"><sup>63</sup></font>Co
+| bgcolor="#ff0000" | <font size="-1"><sup>64</sup></font>Ni
+| bgcolor="#ff0000" | <font size="-1"><sup>65</sup></font>Cu
+| bgcolor="#ff0000" | <font size="-1"><sup>66</sup></font>Zn
+|-----
+| colspan="10" |
+! 37
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>64</sup></font>Co
+| bgcolor="#ffffff" | <font size="-1"><sup>65</sup></font>Ni
+| bgcolor="#ffffff" | <font size="-1"><sup>66</sup></font>Cu
+| bgcolor="#ff0000" | <font size="-1"><sup>67</sup></font>Zn
+|-----
+| colspan="11" |
+! 38
+|
+| bgcolor="#993399" | <font size="-1"><sup>66</sup></font>Ni
+| bgcolor="#993399" | <font size="-1"><sup>67</sup></font>Cu
+| bgcolor="#ff0000" | <font size="-1"><sup>68</sup></font>Zn
+|-----
+| colspan="11" |
+! 39
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>67</sup></font>Ni
+| bgcolor="#ffffff" | <font size="-1"><sup>68</sup></font>Cu
+| bgcolor="#ffffff" | <font size="-1"><sup>69</sup></font>Zn
+|-----
+| colspan="11" |
+! 40
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>68</sup></font>Ni
+| bgcolor="#ffffff" | <font size="-1"><sup>69</sup></font>Cu
+| bgcolor="#ff0000" | <font size="-1"><sup>70</sup></font>Zn
+|-----
+| colspan="12" |
+! 41
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>70</sup></font>Cu
+| bgcolor="#ffffff" | <font size="-1"><sup>71</sup></font>Zn
+|-----
+| colspan="13" |
+! 42
+|
+| bgcolor="#993399" | <font size="-1"><sup>72</sup></font>Zn
+|-----
+| colspan="13" |
+! 43
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>73</sup></font>Zn
+|-----
+| colspan="13" |
+! 44
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>74</sup></font>Zn
+|-----
+| colspan="13" |
+! 45
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>75</sup></font>Zn
+|-----
+| colspan="13" |
+! 46
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>76</sup></font>Zn
+|-----
+| colspan="13" |
+! 47
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>77</sup></font>Zn
+|}
+
+{| cellpadding="2" cellspacing="0" border="1" width="100%"
+|+ Isotopes des éléments 31-45
+|-----
+! p
+! 31
+! 32
+|-----
+|
+! Ga
+! Ge
+|-----
+! n
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>61</sup></font>Ge
+|-----
+! 30
+|-----
+! 31
+| colspan="2" |
+! 33
+|-----
+! 32
+| bgcolor="#ffffff" | <font size="-1"><sup>63</sup></font>Ga
+| bgcolor="#ffffff" | <font size="-1"><sup>64</sup></font>Ge
+! As
+! 34
+|-----
+! 33
+| bgcolor="#ffffff" | <font size="-1"><sup>64</sup></font>Ga
+| bgcolor="#ffffff" | <font size="-1"><sup>65</sup></font>Ge
+|
+! Se
+! 35
+! 36
+|-----
+! 34
+| bgcolor="#ffffff" | <font size="-1"><sup>65</sup></font>Ga
+| bgcolor="#ffffff" | <font size="-1"><sup>66</sup></font>Ge
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>68</sup></font>Se
+! Br
+! Kr
+! 37
+|-----
+! 35
+| bgcolor="#ffffff" | <font size="-1"><sup>66</sup></font>Ga
+| bgcolor="#ffffff" | <font size="-1"><sup>67</sup></font>Ge
+| bgcolor="#ffffff" | <font size="-1"><sup>68</sup></font>As
+| bgcolor="#ffffff" | <font size="-1"><sup>69</sup></font>Se
+| colspan="2" |
+! Rb
+|-----
+! 36
+| bgcolor="#993399" | <font size="-1"><sup>67</sup></font>Ga
+| bgcolor="#3333ff" | <font size="-1"><sup>68</sup></font>Ge
+| bgcolor="#ffffff" | <font size="-1"><sup>69</sup></font>As
+| bgcolor="#ffffff" | <font size="-1"><sup>70</sup></font>Se
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>72</sup></font>Kr
+|
+! 38
+|-----
+! 37
+| bgcolor="#ffffff" | <font size="-1"><sup>68</sup></font>Ga
+| bgcolor="#993399" | <font size="-1"><sup>69</sup></font>Ge
+| bgcolor="#ffffff" | <font size="-1"><sup>70</sup></font>As
+| bgcolor="#ffffff" | <font size="-1"><sup>71</sup></font>Se
+| bgcolor="#ffffff" | <font size="-1"><sup>72</sup></font>Br
+| bgcolor="#ffffff" | <font size="-1"><sup>73</sup></font>Kr
+| bgcolor="#ffffff" | <font size="-1"><sup>74</sup></font>Rb
+! Sr
+! 39
+|-----
+! 38
+| bgcolor="#ff0000" | <font size="-1"><sup>69</sup></font>Ga
+| bgcolor="#ff0000" | <font size="-1"><sup>70</sup></font>Ge
+| bgcolor="#993399" | <font size="-1"><sup>71</sup></font>As
+| bgcolor="#993399" | <font size="-1"><sup>72</sup></font>Se
+| bgcolor="#ffffff" | <font size="-1"><sup>73</sup></font>Br
+| bgcolor="#ffffff" | <font size="-1"><sup>74</sup></font>Kr
+| bgcolor="#ffffff" | <font size="-1"><sup>75</sup></font>Rb
+|
+! Y
+! 40
+|-----
+! 39
+| bgcolor="#ffffff" | <font size="-1"><sup>70</sup></font>Ga
+| bgcolor="#ffffff" | <div style="background: #6600cc;"><font size="-1"><sup>71</sup></font>Ge</div>
+| bgcolor="#993399" | <font size="-1"><sup>72</sup></font>As
+| bgcolor="#ffffff" | <font size="-1"><sup>73</sup></font>Se
+| bgcolor="#ffffff" | <font size="-1"><sup>74</sup></font>Br
+| bgcolor="#ffffff" | <font size="-1"><sup>75</sup></font>Kr
+| bgcolor="#ffffff" | <font size="-1"><sup>76</sup></font>Rb
+| bgcolor="#ffffff" | <font size="-1"><sup>77</sup></font>Sr
+|
+! Zr
+|-----
+! 40
+| bgcolor="#ff0000" | <font size="-1"><sup>71</sup></font>Ga
+| bgcolor="#ff0000" | <font size="-1"><sup>72</sup></font>Ge
+| bgcolor="#6600cc" | <font size="-1"><sup>73</sup></font>As
+| bgcolor="#ff0000" | <font size="-1"><sup>74</sup></font>Se
+| bgcolor="#ffffff" | <font size="-1"><sup>75</sup></font>Br
+| bgcolor="#ffffff" | <font size="-1"><sup>76</sup></font>Kr
+| bgcolor="#ffffff" | <font size="-1"><sup>77</sup></font>Rb
+| bgcolor="#ffffff" | <font size="-1"><sup>78</sup></font>Sr
+|-----
+! 41
+| bgcolor="#ffffff" | <font size="-1"><sup>72</sup></font>Ga
+| bgcolor="#ff0000" | <font size="-1"><sup>73</sup></font>Ge
+| bgcolor="#6600cc" | <font size="-1"><sup>74</sup></font>As
+| bgcolor="#3333ff" | <font size="-1"><sup>75</sup></font>Se
+| bgcolor="#ffffff" | <font size="-1"><sup>76</sup></font>Br
+| bgcolor="#ffffff" | <font size="-1"><sup>77</sup></font>Kr
+| bgcolor="#ffffff" | <font size="-1"><sup>78</sup></font>Rb
+| bgcolor="#ffffff" | <font size="-1"><sup>79</sup></font>Sr
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>81</sup></font>Zr
+! 41
+|-----
+! 42
+| bgcolor="#ffffff" | <font size="-1"><sup>73</sup></font>Ga
+| bgcolor="#ff0000" | <font size="-1"><sup>74</sup></font>Ge
+| bgcolor="#ff0000" | <font size="-1"><sup>75</sup></font>As
+| bgcolor="#ff0000" | <font size="-1"><sup>76</sup></font>Se
+| bgcolor="#ffffff" | <div style="background: #993399;"><font size="-1"><sup>77</sup></font>Br</div>
+| bgcolor="#ff0000" | <font size="-1"><sup>78</sup></font>Kr
+| bgcolor="#ffffff" | <font size="-1"><sup>79</sup></font>Rb
+| bgcolor="#ffffff" | <font size="-1"><sup>80</sup></font>Sr
+| bgcolor="#ffffff" | <font size="-1"><sup>81</sup></font>Y
+| bgcolor="#ffffff" | <font size="-1"><sup>82</sup></font>Zr
+! Nb
+! 42
+|-----
+! 43
+| bgcolor="#ffffff" | <font size="-1"><sup>74</sup></font>Ga
+| bgcolor="#ffffff" | <font size="-1"><sup>75</sup></font>Ge
+| bgcolor="#993399" | <font size="-1"><sup>76</sup></font>As
+| bgcolor="#ffffff" | <div style="background: #ff0000;"><font size="-1"><sup>77</sup></font>Se</div>
+| bgcolor="#ffffff" | <font size="-1"><sup>78</sup></font>Br
+| bgcolor="#ffffff" | <div style="background: #993399;"><font size="-1"><sup>79</sup></font>Kr</div>
+| bgcolor="#ffffff" | <font size="-1"><sup>80</sup></font>Rb
+| bgcolor="#ffffff" | <font size="-1"><sup>81</sup></font>Sr
+| bgcolor="#ffffff" | <font size="-1"><sup>82</sup></font>Y
+| bgcolor="#ffffff" | <font size="-1"><sup>83</sup></font>Zr
+| bgcolor="#ffffff" | <font size="-1"><sup>84</sup></font>Nb
+! Mo
+|-----
+! 44
+| bgcolor="#ffffff" | <font size="-1"><sup>75</sup></font>Ga
+| bgcolor="#ff0000" | <font size="-1"><sup>76</sup></font>Ge
+| bgcolor="#993399" | <font size="-1"><sup>77</sup></font>As
+| bgcolor="#ff0000" | <font size="-1"><sup>78</sup></font>Se
+| bgcolor="#ffffff" | <div style="background: #ff0000;"><font size="-1"><sup>79</sup></font>Br</div>
+| bgcolor="#ff0000" | <font size="-1"><sup>80</sup></font>Kr
+| bgcolor="#ffffff" | <font size="-1"><sup>81</sup></font>Rb
+| bgcolor="#6600cc" | <font size="-1"><sup>82</sup></font>Sr
+| bgcolor="#ffffff" | <font size="-1"><sup>83</sup></font>Y
+| bgcolor="#ffffff" | <font size="-1"><sup>84</sup></font>Zr
+| colspan="2" |
+! 43
+|-----
+! 45
+| bgcolor="#ffffff" | <font size="-1"><sup>76</sup></font>Ga
+| bgcolor="#ffffff" | <font size="-1"><sup>77</sup></font>Ge
+| bgcolor="#ffffff" | <font size="-1"><sup>78</sup></font>As
+| bgcolor="#ffffff" | <div style="background: #ffff00;"><font size="-1"><sup>79</sup></font>Se</div>
+| bgcolor="#ffffff" | <font size="-1"><sup>80</sup></font>Br
+| bgcolor="#ffffff" | <div style="background: #ffff00;"><font size="-1"><sup>81</sup></font>Kr</div>
+| bgcolor="#ffffff" | <font size="-1"><sup>82</sup></font>Rb
+| bgcolor="#ffffff" | <div style="background: #993399;"><font size="-1"><sup>83</sup></font>Sr</div>
+| bgcolor="#ffffff" | <font size="-1"><sup>84</sup></font>Y
+| bgcolor="#ffffff" | <font size="-1"><sup>85</sup></font>Zr
+| bgcolor="#ffffff" | <font size="-1"><sup>86</sup></font>Nb
+| bgcolor="#ffffff" | <font size="-1"><sup>87</sup></font>Mo
+! Tc
+|-----
+! 46
+| bgcolor="#ffffff" | <font size="-1"><sup>77</sup></font>Ga
+| bgcolor="#ffffff" | <font size="-1"><sup>78</sup></font>Ge
+| bgcolor="#ffffff" | <font size="-1"><sup>79</sup></font>As
+| bgcolor="#ff0000" | <font size="-1"><sup>80</sup></font>Se
+| bgcolor="#ff0000" | <font size="-1"><sup>81</sup></font>Br
+| bgcolor="#ff0000" | <font size="-1"><sup>82</sup></font>Kr
+| bgcolor="#6600cc" | <font size="-1"><sup>83</sup></font>Rb
+| bgcolor="#ff0000" | <font size="-1"><sup>84</sup></font>Sr
+| bgcolor="#ffffff" | <font size="-1"><sup>85</sup></font>Y
+| bgcolor="#ffffff" | <font size="-1"><sup>86</sup></font>Zr
+| bgcolor="#ffffff" | <font size="-1"><sup>87</sup></font>Nb
+| bgcolor="#ffffff" | <font size="-1"><sup>88</sup></font>Mo
+|
+! 44
+|-----
+! 47
+| bgcolor="#ffffff" | <font size="-1"><sup>78</sup></font>Ga
+| bgcolor="#ffffff" | <font size="-1"><sup>79</sup></font>Ge
+| bgcolor="#ffffff" | <font size="-1"><sup>80</sup></font>As
+| bgcolor="#ffffff" | <font size="-1"><sup>81</sup></font>Se
+| bgcolor="#ffffff" | <div style="background: #993399;"><font size="-1"><sup>82</sup></font>Br</div>
+| bgcolor="#ffffff" | <font size="-1"><sup>83</sup></font>Kr
+| bgcolor="#ffffff" | <div style="background: #6600cc;"><font size="-1"><sup>84</sup></font>Rb</div>
+| bgcolor="#ffffff" | <div style="background: #6600cc;"><font size="-1"><sup>85</sup></font>Sr</div>
+| bgcolor="#ffffff" | <font size="-1"><sup>86</sup></font>Y
+| bgcolor="#ffffff" | <font size="-1"><sup>87</sup></font>Zr
+| bgcolor="#ffffff" | <font size="-1"><sup>88</sup></font>Nb
+| bgcolor="#ffffff" | <font size="-1"><sup>89</sup></font>Mo
+| bgcolor="#ffffff" | <font size="-1"><sup>90</sup></font>Tc
+! Ru
+! 45
+|-----
+! 48
+| bgcolor="#ffffff" | <font size="-1"><sup>79</sup></font>Ga
+| bgcolor="#ffffff" | <font size="-1"><sup>80</sup></font>Ge
+| bgcolor="#ffffff" | <font size="-1"><sup>81</sup></font>As
+| bgcolor="#ff0000" | <font size="-1"><sup>82</sup></font>Se
+| bgcolor="#ffffff" | <font size="-1"><sup>83</sup></font>Br
+| bgcolor="#ff0000" | <font size="-1"><sup>84</sup></font>Kr
+| bgcolor="#ff0000" | <font size="-1"><sup>85</sup></font>Rb
+| bgcolor="#ff0000" | <font size="-1"><sup>86</sup></font>Sr
+| bgcolor="#ffffff" | <div style="background: #993399;"><font size="-1"><sup>87</sup></font>Y</div>
+| bgcolor="#6600cc" | <font size="-1"><sup>88</sup></font>Zr
+| bgcolor="#ffffff" | <font size="-1"><sup>89</sup></font>Nb
+| bgcolor="#ffffff" | <font size="-1"><sup>90</sup></font>Mo
+| bgcolor="#ffffff" | <font size="-1"><sup>91</sup></font>Tc
+| bgcolor="#ffffff" | <font size="-1"><sup>92</sup></font>Ru
+! Rh
+|-----
+! 49
+| bgcolor="#ffffff" | <font size="-1"><sup>80</sup></font>Ga
+| bgcolor="#ffffff" | <font size="-1"><sup>81</sup></font>Ge
+| bgcolor="#ffffff" | <font size="-1"><sup>82</sup></font>As
+| bgcolor="#ffffff" | <font size="-1"><sup>83</sup></font>Se
+| bgcolor="#ffffff" | <font size="-1"><sup>84</sup></font>Br
+| bgcolor="#ffffff" | <div style="background: #33ff33;"><font size="-1"><sup>85</sup></font>Kr</div>
+| bgcolor="#ffffff" | <div style="background: #6600cc;"><font size="-1"><sup>86</sup></font>Rb</div>
+| bgcolor="#ffffff" | <div style="background: #ff0000;"><font size="-1"><sup>87</sup></font>Sr</div>
+| bgcolor="#ffffff" | <div style="background: #3333ff;"><font size="-1"><sup>88</sup></font>Y</div>
+| bgcolor="#ffffff" | <div style="background: #993399;"><font size="-1"><sup>89</sup></font>Zr</div>
+| bgcolor="#ffffff" | <font size="-1"><sup>90</sup></font>Nb
+| bgcolor="#ffffff" | <font size="-1"><sup>91</sup></font>Mo
+| bgcolor="#ffffff" | <font size="-1"><sup>92</sup></font>Tc
+| bgcolor="#ffffff" | <font size="-1"><sup>93</sup></font>Ru
+|-----
+! 50
+| bgcolor="#ffffff" | <font size="-1"><sup>81</sup></font>Ga
+| bgcolor="#ffffff" | <font size="-1"><sup>82</sup></font>Ge
+| bgcolor="#ffffff" | <font size="-1"><sup>83</sup></font>As
+| bgcolor="#ffffff" | <font size="-1"><sup>84</sup></font>Se
+| bgcolor="#ffffff" | <font size="-1"><sup>85</sup></font>Br
+| bgcolor="#ff0000" | <font size="-1"><sup>86</sup></font>Kr
+| bgcolor="#ff9900" | <font size="-1"><sup>87</sup></font>Rb
+| bgcolor="#ff0000" | <font size="-1"><sup>88</sup></font>Sr
+| bgcolor="#ffffff" | <div style="background: #ff0000;"><font size="-1"><sup>89</sup></font>Y</div>
+| bgcolor="#ffffff" | <div style="background: #ff0000;"><font size="-1"><sup>90</sup></font>Zr</div>
+| bgcolor="#6600cc" | <div style="background: #ffff00;"><font size="-1"><sup>91</sup></font>Nb</div>
+| bgcolor="#ff0000" | <font size="-1"><sup>92</sup></font>Mo
+| bgcolor="#ffffff" | <font size="-1"><sup>93</sup></font>Tc
+| bgcolor="#ffffff" | <font size="-1"><sup>94</sup></font>Ru
+| bgcolor="#ffffff" | <font size="-1"><sup>95</sup></font>Rh
+|-----
+! 51
+| bgcolor="#ffffff" | <font size="-1"><sup>82</sup></font>Ga
+| bgcolor="#ffffff" | <font size="-1"><sup>83</sup></font>Ge
+| bgcolor="#ffffff" | <font size="-1"><sup>84</sup></font>As
+| bgcolor="#ffffff" | <font size="-1"><sup>85</sup></font>Se
+| bgcolor="#ffffff" | <font size="-1"><sup>86</sup></font>Br
+| bgcolor="#ffffff" | <font size="-1"><sup>87</sup></font>Kr
+| bgcolor="#ffffff" | <font size="-1"><sup>88</sup></font>Rb
+| bgcolor="#6600cc" | <font size="-1"><sup>89</sup></font>Sr
+| bgcolor="#ffffff" | <div style="background: #993399;"><font size="-1"><sup>90</sup></font>Y</div>
+| bgcolor="#ff0000" | <font size="-1"><sup>91</sup></font>Zr
+| bgcolor="#6600cc" | <div style="background: #ffff00;"><font size="-1"><sup>92</sup></font>Nb</div>
+| bgcolor="#ffffff" | <div style="background: #33ff33;"><font size="-1"><sup>93</sup></font>Mo</div>
+| bgcolor="#ffffff" | <font size="-1"><sup>94</sup></font>Tc
+| bgcolor="#ffffff" | <font size="-1"><sup>95</sup></font>Ru
+| bgcolor="#ffffff" | <font size="-1"><sup>96</sup></font>Rh
+|-----
+! 52
+| bgcolor="#ffffff" | <font size="-1"><sup>83</sup></font>Ga
+| bgcolor="#ffffff" | <font size="-1"><sup>84</sup></font>Ge
+| bgcolor="#ffffff" | <font size="-1"><sup>85</sup></font>As
+| bgcolor="#ffffff" | <font size="-1"><sup>86</sup></font>Se
+| bgcolor="#ffffff" | <font size="-1"><sup>87</sup></font>Br
+| bgcolor="#ffffff" | <font size="-1"><sup>88</sup></font>Kr
+| bgcolor="#ffffff" | <font size="-1"><sup>89</sup></font>Rb
+| bgcolor="#33ff33" | <font size="-1"><sup>90</sup></font>Sr
+| bgcolor="#ffffff" | <div style="background: #6600cc;"><font size="-1"><sup>91</sup></font>Y</div>
+| bgcolor="#ff0000" | <font size="-1"><sup>92</sup></font>Zr
+| bgcolor="#33ff33" | <div style="background: #ff0000;"><font size="-1"><sup>93</sup></font>Nb</div>
+| bgcolor="#ff0000" | <font size="-1"><sup>94</sup></font>Mo
+| bgcolor="#6600cc" | <div style="background: #ffffff;"><font size="-1"><sup>95</sup></font>Tc</div>
+| bgcolor="#ff0000" | <font size="-1"><sup>96</sup></font>Ru
+| bgcolor="#ffffff" | <font size="-1"><sup>97</sup></font>Rh
+|-----
+! 53
+| colspan="2" |
+| bgcolor="#ffffff" | <font size="-1"><sup>86</sup></font>As
+| bgcolor="#ffffff" | <font size="-1"><sup>87</sup></font>Se
+| bgcolor="#ffffff" | <font size="-1"><sup>88</sup></font>Br
+| bgcolor="#ffffff" | <font size="-1"><sup>89</sup></font>Kr
+| bgcolor="#ffffff" | <font size="-1"><sup>90</sup></font>Rb
+| bgcolor="#ffffff" | <font size="-1"><sup>91</sup></font>Sr
+| bgcolor="#ffffff" | <font size="-1"><sup>92</sup></font>Y
+| bgcolor="#ffff00" | <font size="-1"><sup>93</sup></font>Zr
+| bgcolor="#ffffff" | <div style="background: #ffff00;"><font size="-1"><sup>94</sup></font>Nb</div>
+| bgcolor="#ff0000" | <font size="-1"><sup>95</sup></font>Mo
+| bgcolor="#ffffff" | <div style="background: #993399;"><font size="-1"><sup>96</sup></font>Tc</div>
+| bgcolor="#993399" | <font size="-1"><sup>97</sup></font>Ru
+| bgcolor="#ffffff" | <font size="-1"><sup>98</sup></font>Rh
+|-----
+|
+! 54
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>87</sup></font>As
+| bgcolor="#ffffff" | <font size="-1"><sup>88</sup></font>Se
+| bgcolor="#ffffff" | <font size="-1"><sup>89</sup></font>Br
+| bgcolor="#ffffff" | <font size="-1"><sup>90</sup></font>Kr
+| bgcolor="#ffffff" | <font size="-1"><sup>91</sup></font>Rb
+| bgcolor="#ffffff" | <font size="-1"><sup>92</sup></font>Sr
+| bgcolor="#ffffff" | <font size="-1"><sup>93</sup></font>Y
+| bgcolor="#ff0000" | <font size="-1"><sup>94</sup></font>Zr
+| bgcolor="#993399" | <div style="background: #6600cc;"><font size="-1"><sup>95</sup></font>Nb</div>
+| bgcolor="#ff0000" | <font size="-1"><sup>96</sup></font>Mo
+| bgcolor="#6600cc" | <div style="background: #ffff00;"><font size="-1"><sup>97</sup></font>Tc</div>
+| bgcolor="#ff0000" | <font size="-1"><sup>98</sup></font>Ru
+| bgcolor="#ffffff" | <div style="background: #6600cc;"><font size="-1"><sup>99</sup></font>Rh</div>
+|-----
+| colspan="2" |
+! 55
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>89</sup></font>Se
+| bgcolor="#ffffff" | <font size="-1"><sup>90</sup></font>Br
+| bgcolor="#ffffff" | <font size="-1"><sup>91</sup></font>Kr
+| bgcolor="#ffffff" | <font size="-1"><sup>92</sup></font>Rb
+| bgcolor="#ffffff" | <font size="-1"><sup>93</sup></font>Sr
+| bgcolor="#ffffff" | <font size="-1"><sup>94</sup></font>Y
+| bgcolor="#6600cc" | <font size="-1"><sup>95</sup></font>Zr
+| bgcolor="#ffffff" | <font size="-1"><sup>96</sup></font>Nb
+| bgcolor="#ff0000" | <font size="-1"><sup>97</sup></font>Mo
+| bgcolor="#ffff00" | <font size="-1"><sup>98</sup></font>Tc
+| bgcolor="#ff0000" | <font size="-1"><sup>99</sup></font>Ru
+| bgcolor="#ffffff" | <font size="-1"><sup>100</sup></font>Rh
+|-----
+| colspan="3" |
+! 56
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>91</sup></font>Br
+| bgcolor="#ffffff" | <font size="-1"><sup>92</sup></font>Kr
+| bgcolor="#ffffff" | <font size="-1"><sup>93</sup></font>Rb
+| bgcolor="#ffffff" | <font size="-1"><sup>94</sup></font>Sr
+| bgcolor="#ffffff" | <font size="-1"><sup>95</sup></font>Y
+| bgcolor="#ff0000" | <font size="-1"><sup>96</sup></font>Zr
+| bgcolor="#ffffff" | <font size="-1"><sup>97</sup></font>Nb
+| bgcolor="#ff0000" | <font size="-1"><sup>98</sup></font>Mo
+| bgcolor="#ffffff" | <div style="background: #ffff00;"><font size="-1"><sup>99</sup></font>Tc</div>
+| bgcolor="#ff0000" | <font size="-1"><sup>100</sup></font>Ru
+| bgcolor="#993399" | <div style="background: #3333ff;"><font size="-1"><sup>101</sup></font>Rh</div>
+|-----
+| colspan="3" |
+! 57
+| bgcolor="#ffffff" | <font size="-1"><sup>91</sup></font>Se
+| bgcolor="#ffffff" | <font size="-1"><sup>92</sup></font>Br
+| bgcolor="#ffffff" | <font size="-1"><sup>93</sup></font>Kr
+| bgcolor="#ffffff" | <font size="-1"><sup>94</sup></font>Rb
+| bgcolor="#ffffff" | <font size="-1"><sup>95</sup></font>Sr
+| bgcolor="#ffffff" | <font size="-1"><sup>96</sup></font>Y
+| bgcolor="#ffffff" | <font size="-1"><sup>97</sup></font>Zr
+| bgcolor="#ffffff" | <font size="-1"><sup>98</sup></font>Nb
+| bgcolor="#993399" | <font size="-1"><sup>99</sup></font>Mo
+| bgcolor="#ffffff" | <font size="-1"><sup>100</sup></font>Tc
+| bgcolor="#ff0000" | <font size="-1"><sup>101</sup></font>Ru
+| bgcolor="#3333ff" | <font size="-1"><sup>102</sup></font>Rh
+|-----
+| colspan="4" |
+! 58
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>94</sup></font>Kr
+| bgcolor="#ffffff" | <font size="-1"><sup>95</sup></font>Rb
+| bgcolor="#ffffff" | <font size="-1"><sup>96</sup></font>Sr
+| bgcolor="#ffffff" | <font size="-1"><sup>97</sup></font>Y
+| bgcolor="#ffffff" | <font size="-1"><sup>98</sup></font>Zr
+| bgcolor="#ffffff" | <font size="-1"><sup>99</sup></font>Nb
+| bgcolor="#ff0000" | <font size="-1"><sup>100</sup></font>Mo
+| bgcolor="#ffffff" | <font size="-1"><sup>101</sup></font>Tc
+| bgcolor="#ff0000" | <font size="-1"><sup>102</sup></font>Ru
+| bgcolor="#ffffff" | <div style="background: #ff0000;"><font size="-1"><sup>103</sup></font>Rh</div>
+|-----
+| colspan="4" |
+! 59
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>95</sup></font>Kr
+| bgcolor="#ffffff" | <font size="-1"><sup>96</sup></font>Rb
+| bgcolor="#ffffff" | <font size="-1"><sup>97</sup></font>Sr
+| bgcolor="#ffffff" | <font size="-1"><sup>98</sup></font>Y
+| bgcolor="#ffffff" | <font size="-1"><sup>99</sup></font>Zr
+| bgcolor="#ffffff" | <font size="-1"><sup>100</sup></font>Nb
+| bgcolor="#ffffff" | <font size="-1"><sup>101</sup></font>Mo
+| bgcolor="#ffffff" | <font size="-1"><sup>102</sup></font>Tc
+| bgcolor="#6600cc" | <font size="-1"><sup>103</sup></font>Ru
+| bgcolor="#ffffff" | <font size="-1"><sup>104</sup></font>Rh
+|-----
+| colspan="5" |
+! 60
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>97</sup></font>Rb
+| bgcolor="#ffffff" | <font size="-1"><sup>98</sup></font>Sr
+| bgcolor="#ffffff" | <font size="-1"><sup>99</sup></font>Y
+| bgcolor="#ffffff" | <font size="-1"><sup>100</sup></font>Zr
+| bgcolor="#ffffff" | <font size="-1"><sup>101</sup></font>Nb
+| bgcolor="#ffffff" | <font size="-1"><sup>102</sup></font>Mo
+| bgcolor="#ffffff" | <font size="-1"><sup>103</sup></font>Tc
+| bgcolor="#ff0000" | <font size="-1"><sup>104</sup></font>Ru
+| bgcolor="#ffffff" | <div style="background: #993399;"><font size="-1"><sup>105</sup></font>Rh</div>
+|-----
+| colspan="5" |
+! 61
+| bgcolor="#ffffff" | <font size="-1"><sup>97</sup></font>Kr
+| bgcolor="#ffffff" | <font size="-1"><sup>98</sup></font>Rb
+| bgcolor="#ffffff" | <font size="-1"><sup>99</sup></font>Sr
+| bgcolor="#ffffff" | <font size="-1"><sup>100</sup></font>Y
+| bgcolor="#ffffff" | <font size="-1"><sup>101</sup></font>Zr
+| bgcolor="#ffffff" | <font size="-1"><sup>102</sup></font>Nb
+| bgcolor="#ffffff" | <font size="-1"><sup>103</sup></font>Mo
+| bgcolor="#ffffff" | <font size="-1"><sup>104</sup></font>Tc
+| bgcolor="#993399" | <font size="-1"><sup>105</sup></font>Ru
+| bgcolor="#ffffff" | <font size="-1"><sup>106</sup></font>Rh
+|-----
+| colspan="5" |
+! 62
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>99</sup></font>Rb
+| colspan="2" |
+| bgcolor="#ffffff" | <font size="-1"><sup>102</sup></font>Zr
+| bgcolor="#ffffff" | <font size="-1"><sup>103</sup></font>Nb
+| bgcolor="#ffffff" | <font size="-1"><sup>104</sup></font>Mo
+| bgcolor="#ffffff" | <font size="-1"><sup>105</sup></font>Tc
+| bgcolor="#3333ff" | <font size="-1"><sup>106</sup></font>Ru
+| bgcolor="#ffffff" | <font size="-1"><sup>107</sup></font>Rh
+|-----
+| colspan="6" |
+! 63
+| colspan="2" |
+| bgcolor="#ffffff" | <font size="-1"><sup>102</sup></font>Y
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>104</sup></font>Nb
+| bgcolor="#ffffff" | <font size="-1"><sup>105</sup></font>Mo
+| bgcolor="#ffffff" | <font size="-1"><sup>106</sup></font>Tc
+| bgcolor="#ffffff" | <font size="-1"><sup>107</sup></font>Ru
+| bgcolor="#ffffff" | <font size="-1"><sup>108</sup></font>Rh
+|-----
+| colspan="8" |
+! 64
+| colspan="2" |
+| bgcolor="#ffffff" | <font size="-1"><sup>105</sup></font>Nb
+| bgcolor="#ffffff" | <font size="-1"><sup>106</sup></font>Mo
+| bgcolor="#ffffff" | <font size="-1"><sup>107</sup></font>Tc
+| bgcolor="#ffffff" | <font size="-1"><sup>108</sup></font>Ru
+| bgcolor="#ffffff" | <font size="-1"><sup>109</sup></font>Rh
+|-----
+| colspan="9" |
+! 65
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>106</sup></font>Nb
+| bgcolor="#ffffff" | <font size="-1"><sup>107</sup></font>Mo
+| bgcolor="#ffffff" | <font size="-1"><sup>108</sup></font>Tc
+| bgcolor="#ffffff" | <font size="-1"><sup>109</sup></font>Ru
+| bgcolor="#ffffff" | <font size="-1"><sup>110</sup></font>Rh
+|-----
+| colspan="10" |
+! 66
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>108</sup></font>Mo
+| bgcolor="#ffffff" | <font size="-1"><sup>109</sup></font>Tc
+| bgcolor="#ffffff" | <font size="-1"><sup>110</sup></font>Ru
+| bgcolor="#ffffff" | <font size="-1"><sup>111</sup></font>Rh
+|-----
+| colspan="11" |
+! 67
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>110</sup></font>Tc
+| bgcolor="#ffffff" | <font size="-1"><sup>111</sup></font>Ru
+| bgcolor="#ffffff" | <font size="-1"><sup>112</sup></font>Rh
+|-----
+| colspan="12" |
+! 68
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>112</sup></font>Ru
+| bgcolor="#ffffff" | <font size="-1"><sup>113</sup></font>Rh
+|-----
+| colspan="12" |
+! 69
+|
+| bgcolor="#ffffff" | <font size="-1"><sup>113</sup></font>Ru
+| bgcolor="#ffffff" | <font size="-1"><sup>114</sup></font>Rh
+|}

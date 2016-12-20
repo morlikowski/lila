@@ -1,0 +1,94 @@
+{{FRA gmina infobox|
+|    herb_gminy = 
+|   flaga_gminy = 
+|    mapa_gminy = 
+|         Gmina = Vittersbourg
+|        region = Lotaryngia
+|   departament = Moselle
+|  powierzchnia = 7,05
+|      stopniEW = 6 |minutEW=56 
+|      stopniNS = 48 |minutNS=57 
+|          szer = N
+|          dług = E
+|      wysokosc = 
+|           rok = 1990
+|     populacja = 296
+|       gęstość = 42
+|  kod_pocztowy = 57670
+|         INSEE = 57725
+}}
+'''Vittersbourg''' to miejscowość i gmina we Francji, w regionie Moselle.
+
+Według danych na rok 1990 gminę zamieszkiwało 296 osób, a gęstość zaludnienia wynosiła 42&nbsp;osób/km² (wśród 2335 gmin Lotaryngii Vittersbourg plasuje się na 754. miejscu pod względem liczby ludności, natomiast pod względem powierzchni na miejscu 829.).
+
+=== Linki zewnętrzne ===
+* Źródło danych: [http://www.insee.fr Insee]
+* '''Mapy i zdjęcia satelitarne: '''
+** Zdjęcie satelitarne: [http://maps.google.com/maps?ll=48.95,6.9333&spn=0.1,0.1&t=k Google maps]
+** Mapa: [http://maps.msn.com/(cgxnej455qpgxeu5vurxtejz)/map.aspx?&lats1=48.95&lons1=6.9333&alts1=14&regn1=2 MSN World Atlas]
+
+{{infobox Franse gemeente|
+|plaatsnaam= Vittersbourg
+|wapen= 
+|kaart= 
+|regio= Lotharingen 
+|departement= Moselle (57)
+|arrondissement= Château-Salins
+|kanton= Albestroff
+|jaar= 1999
+|inwoners= 287
+|dichtheid= 41,0
+|oppervlakte= 7,0
+|water= 
+|latitudeGraden= 48 |latitudeMinuten= 57|latitudeSeconden= 0
+|longitudeGraden= 6 |longitudeMinuten= 56 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 256 |kaartY= 75
+|code= 57725
+|postcode= 57670
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Vittersbourg''' is een gemeente in het Franse departement Moselle (regio Château-Salins.
+
+==Geografie==
+De oppervlakte van Vittersbourg bedraagt 7,0 km², de bevolkingsdichtheid is 41,0 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:450 color:gray1 width:1       
+  from:start till:end             
+  bar:300 color:gray1              
+  from:start till:end            
+  bar:150 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,145)(84,142) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 330 1968: 322
+  points:(84,142)(100,137)    color:blue    width:2 #1975: 310
+  points:(100,137)(128,137)   color:blue    width:2 #1982: 309
+  points:(128,137)(160,132)   color:blue    width:2 #1990: 296
+  points:(160,132)(196,128)   color:blue    width:2 #1999: 287
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

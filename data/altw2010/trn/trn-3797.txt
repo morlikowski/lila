@@ -1,0 +1,74 @@
+{{chembox new
+| ImageFileL1 = N-N-Dimethylhydrazine.png
+| ImageSizeL1 = 150px
+| ImageFileR1 = 1,1-dimethylhydrazine-3D-balls.png
+| ImageSizeR1 = 150px
+| IUPACName = 1,1-Dimethylhydrazine
+| OtherNames = 
+| Abbreviations = UDMH
+| Section1 = {{Chembox Identifiers
+| CASNo = 57-14-7
+| SMILES = NN(C)C
+| InChI=1/C2H8N2/c1-4(2)3/h3H2,1-2H3}}
+| Section2 = {{Chembox Properties
+| Formula = C<sub>2</sub>H<sub>8</sub>N<sub>2</sub>
+| MolarMass = 60.1 g/mol
+| MeltingPtC = -57
+| BoilingPtC = 63
+| Density = 0.793 g/cm<sup>3</sup>}}
+| Section7 = {{Chembox Hazards
+| ExternalMSDS = [http://www.ilo.org/public/english/protection/safework/cis/products/icsc/dtasht/_icsc01/icsc0147.pdf External MSDS]
+| EUClass = Toxic ('''T'''), Flammable ('''F'''), Harmful for the environment ('''N''')
+| RPhrases = 45-11-23/25-34-51/53
+| SPhrases = 53-45-61}}
+| Section8 = {{Chembox Other
+| OtherCpds = Hydrazine; monomethylhydrazine}}
+}}
+
+'''Dimetil hidrazina assimétrica'''.
+Na língua inglesa, " '''U'''nsymetrical '''D'''i'''M'''ethil '''H'''idrazine". É um derivado de hidrazina, mais estável que esta, usado como propelente de foguetes.
+
+{{Infobox Chemikalie
+ | Strukturformel      = 150px
+ | Andere Namen        = * UDMH
+* Unsymmetrisches Dimethylhydrazin (UDMH)
+* ''N'',''N''-Dimethylhydrazin
+ | Summenformel        = C<sub>2</sub>N<sub>2</sub>H<sub>8</sub>
+ | CAS                 = 57-14-7
+ | Beschreibung        = farblose, fischartig riechende Flüssigkeit
+ | Molare Masse        = 60,10 g·mol<sup>−1</sup>
+ | Aggregat            = flüssig
+ | Dichte              = 0,78 g·cm<sup>−3</sup><ref name="GESTIS"></ref>
+ | Schmelzpunkt        = −58 °C<ref name="GESTIS"/>
+ | Siedepunkt          = 63 °C<ref name="GESTIS"/>
+ | Dampfdruck          = 145 hPa (20 °C)
+ | Löslichkeit         = mischbar mir Wasser<ref name="GESTIS"/>
+ | Quelle GefStKz      = <ref name="GESTIS"/>
+ | Gefahrensymbole     = 
+ | R                   = 
+ | S                   = 
+ | LD50                = * 122 mg·kg<sup>−1</sup> (oral, Ratte) 
+* 1060 mg·kg<sup>−1</sup> (dermal, Kaninchen)
+ | MAK                 = 
+ | WGK                 = 3<ref name="GESTIS"/>
+ }}
+'''1,1-Dimethylhydrazin''' ist ein zweifach methyliertes Derivat des Hydrazins. Im Gegensatz zum symmetrischen Dimethylhydrazin (1,2-Dimethylhydrazin) sind hier beide Methylgruppen am selben Stickstoffatom gebunden.
+
+== Geschichte ==
+1,1-Dimethylhydrazin wird seit den 1950er Jahren aufgrund seiner guten Lagerfähigkeit als Raketentreibstoff verwendet. Als Oxidationsmittel dient hierbei Distickstofftetroxid.
+
+== Vorkommen und Verhalten in der Umwelt ==
+Es sind keine natürlichen Quellen von 1,1-Dimethylhydrazin bekannt.
+Aufgrund seines niedrigen Dampfdrucks und seiner hohen Reaktivität (insbesondere gegenüber Ozon) ist eine weiträumige Verteilung bei Eintrag in die Umwelt nicht zu erwarten; es erfolgt ein schneller Abbau.
+
+== Gewinnung/Darstellung ==
+1,1-Dimethylhydrazin kann aus einer katalysierten Reaktion zwischen Dimethylamin und Ammoniak hergestellt werden. In Deutschland wird es nicht mehr hergestellt.
+
+== Eigenschaften ==
+UDMH ist eine farblose, fischartig riechende Flüssigkeit, die an der Luft raucht. Die Dämpfe von 1,1-Dimethylhydrazin können die Haut und die Schleimhäute (Augen, Atemwege) reizen bzw. bei starker Belastung verätzen. Es hat bei 20&nbsp;°C eine Pa·s
+
+== Verwendung ==
+* Zur Herstellung von Farbstoffen, Arzneimitteln und Chemiefasern. 
+* Als Gasabsorptionsmittel für Kohlenstoffdioxid und Schwefeldioxid.
+* 1,1-Dimethylhydrazin ist die brennbare Komponente (''Heptyl'', russ.) von flüssigen Raketentreibstoffen wenn es zusammen mit den Oxidatoren Proton verwendet 1,1-Dimethylhydrazin als Treibstoff mehrerer bzw. aller Stufen, was bei Fehlstarts zu Verseuchungen im Absturzgebiet führt. Im 1. Golfkrieg eingesetzte sowjetische Scud-Raketen enthielten je 1000&nbsp;kg UDMH und 3500&nbsp;kg RFNA.
+* 1,1-Dimethylhydrazin wird nicht nur pur, sondern auch gemischt mit Hydrazin als Raketentreibstoff verwendet. Bekannte Gemische mit verschiedener Konzentration der beiden Bestandteile zueinander sind Aerozin 50 und UH 25.

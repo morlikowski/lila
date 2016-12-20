@@ -1,0 +1,49 @@
+'''Color''' (colour<ref>See American and British English spelling differences.</ref>) '''printing''' is the reproduction of an image or text in color (as opposed to simpler black and white or monochrome printing).
+
+While there are many techniques for reproducing images in color, specific graphic processes and industrial equipment are used for mass reproduction of color images on paper. In this sense, "color printing" involves reproduction techniques suited for printing presses capable of thousands or millions of impressions for publishing newspapers and magazines, brochures, cards, posters and similar mass-market items.  
+ 
+In this type of industrial or commercial printing, the technique used to print full-color images, such as color photographs, is referred to as '''four-color-process''' printing, because four inks are used: three primary colors plus black. The "subtractive" primary ink colors are cyan, a bright blue; magenta, a vivid red-purple; and yellow; which are abbreviated as CMYK.  
+
+Two graphic techniques are required to prepare images for four-color printing. In the "pre-press" stage, original images are translated into forms that can be used on a printing press, through "color separation" and "screening" or "halftoning." These steps make possible the creation of printing plates that can transfer color impressions to paper on printing presses based on the principles of lithography.
+
+An emerging method of full-color printing is '''six-color process printing'''  (for example, Pantone's Hexachrome system) which adds orange and green to the traditional CMYK inks for a larger and more vibrant gamut, or color range. However, such alternate color systems still rely on color separation, halftoning and lithography to produce printed images.
+
+Color printing can also involve as few as one color ink, or multiple color inks which are not the primary colors. Using a limited number of color inks, or specific color inks in addition to the primary colors, is referred to as "spot color" printing. Generally, spot-color inks are specific formulations that are designed to print alone, rather than to blend with other inks on the paper to produce various hues and shades. The range of available spot color inks, much like paint, is nearly unlimited, and much more varied than the colors that can be produced by four-color-process printing. Spot-color inks range from subtle pastels to intense fluorescents to reflective metallics.
+
+Color printing involves a series of steps, or transformations, to generate a quality color reproduction. The following sections focus on the steps used when reproducing a color image in CMYK printing, along with some historical perspective.
+
+== Color separation process ==
+The process of color separation starts by separating the original artwork into red, green, and blue components (for example by a digital scanner). Before photograph the image three times, using a filter for each color. However this is achieved, the desired result is three grayscale images, which represent the red, green, and blue (RGB) components of the original image:
+
+{| align="center"
+|-
+|<!-- Unsourced image removed: frame|Original image.  -->
+||        
+|}
+
+The next step is to invert each of these separations. When a negative image of the red component is produced, the resulting image represents the cyan component of the image. Likewise, negatives are produced of the green and blue components to produce magenta and yellow separations, respectively. This is done because cyan, magenta, and yellow are subtractive primaries which each represent two of the three additive primaries (RGB) after one additive primary has been subtracted from white light. 
+
+Cyan, magenta, and yellow are the three main pigments used for color reproduction. When these three colors are combined in printing, the result should be a reasonable reproduction of the original, but in practice this is not the case. Due to limitations in the CMYK (the "K" being short for "key." In this case, the key color is black).
+
+{| align="center"
+|-
+| <!-- Unsourced image removed: frame|Cyan, magenta, yellow, and black (CMYK) inks when printed separately. During normal print production, these would be printed on top of one another.| -->
+||<!-- Unsourced image removed: frame|Final printed image.         -->
+|}
+
+<!-- 本调用由  自动产生。 -->
+'''彩色印刷'''是用彩色方式复制图像或文字的复制方式（与此相对应的是只有黑白的印刷方式，或称单色印刷）。它包括了许多步骤，或称转换过程，才能产生高质量的彩色复制品。下面是彩色印刷的一些主要步骤，以及一些历史沿革。
+
+== 彩色分色工艺 ==
+彩色分色工艺用于对原稿进行数字式扫描，将原稿分成红色、绿色和蓝色的成分。在数字式成像开发出来以前，彩色分色的传统方法是对图像照相3次，每次都用相对应颜色的滤色片过滤不同的光线。不过分色以后，所需的结果是3个灰色图像，其分别代表原稿的红色、绿色和蓝色的成份：
+
+下一步是转换每一色分色片。在生成红色成分的阴图图像时，生成的图像代表图像青的成分。同样，也生成绿色成份、蓝色成份的阴图片，以便相应地生成品红色和黄色的分色片。
+
+青、品红和黄色是减色法原色，因为每种颜色代表的是从白光中减去一种加色法原色所剩的两种加色法原色。青色、品红色和黄色是颜色复制中三种主要的颜料。在这三种颜色在印刷中组合在一起，可以对原稿进行合理的复制，但实际情况下并非如此。由于油墨颜料的限制，所产生的较暗的颜色比较脏，发污。为了解决这个问题，还要制作一张黑版，以改善暗部的颜色，提高图像的反差。已经有多种技术可以从原稿图像制作这块黑版；这些技术包括灰色成份替换、底色去除和底色增加。
+
+==加网==
+印刷油墨不能混合。出于这个原因，每次只能在纸张上的某个位置印一种颜色的油墨。印得靠近的不同颜色产生的视觉混合，给观看人员连续调图像的概念。要使颜色互相分开，可以使用网屏来分达到这个目的，产生的网点也称为'''半色调'''或'''网目调'''。
+
+center        
+
+传统的半色调网屏是用两块玻璃板制成的，每块玻璃板上都有填上油墨的线条，这两块玻璃板垂直粘接在一起。通过这些网屏曝光制得各张彩色分色片。高反差的图像，一旦显影后，根据该区域接受到的光线的数量，形成不同直径的网点，其就制得灰色的分色片图像。

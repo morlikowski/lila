@@ -1,0 +1,79 @@
+thumb|right|280px|Uma porta paralela na traseira de um [[laptop|computador portátil Compaq N150.]]
+A '''porta paralela''' é uma PC ("''Personal Computer''" ou "Computador Pessoal"), a idéia era conectar a essa porta a uma enviar e receber unidade de disco removível entre outros).
+
+A partir do sistema operacional programa nativo chamado ''"comunicação direta via cabo"''. Esta rede é muito simples de ser implementada, bastando apenas a utilização de um DB25, conectado entre os dois computadores. É, no entanto, necessária uma configuração específica nos cabos para que a rede possa funcionar corretamente.
+
+== Comunicação em Paralelo ==
+Na comunicação em paralelo, grupos de bits são transferidos simultaneamente (em geral, byte a byte) através de diversas linhas condutoras dos sinais. Desta forma, como vários bits são transmitidos simultaneamente a cada ciclo, a taxa de transferência de dados (throughput) é alta.
+
+==  ==
+* Centronics
+* Computador pessoal
+* Porta série
+
+'''Cổng song song''' (tiếng Anh: ''Parallel Port'') là một cổng thường được dùng kết nối máy in vào máy tính trong thời gian trước đây. Tuy nhiên chúng còn được sử dụng kết nối đến nhiều thiết bị khác với một tốc độ cao hơn so với cổng nối tiếp.
+:''Cũng có thể có nhiều loại cổng khác hoạt động theo nguyên tắc “song song”, nhưng bài này chỉ nói đến loại cổng song song (tạm thời) được định nghĩa như trên''
+
+Cổng song song có tên như vậy bởi chúng có 8 hàng dữ liệu 1 bit (thành 1 byte) để chuyển đồng thời qua 8 dây dẫn kết nối (xem bảng). Và đây là cách chuyển dữ liệu truyền thống giữa máy in với máy tính ''(tuy nhiên một số loại cổng song song có thể không nư vậy)''
+==Sơ đồ cổng song song 25 chân==
+nhỏ|phải|Một cổng song song 25 chân trên [[máy tính xách tay.]]
+Bảng dưới đây là một sơ đồ các dây của một cổng song song tiêu chuẩn.
+{| class="wikitable"
+|-
+!Chân!!Mô tả!!I/O!!Chân!!Mô tả!!I/O
+|-
+|1||-Strobe||Out||14||-Auto Feed||Out
+|-
+|2||+Data Bit 0||Out||15||-Error||In
+|-
+|3||+Data Bit 1||Out||16||-Initialize Printer||Out
+|-
+|4||+Data Bit 2||Out||17||-Select Input||Out
+|-
+|5||+Data Bit 3||Out||18||-Data Bit 0 Return (GND)||In
+|-
+|6||+Data Bit 4||Out||19||-Data Bit 1 Return (GND)||In
+|-
+|7||+Data Bit 5||Out||20||-Data Bit 2 Return (GND)||In
+|-
+|8||+Data Bit 6||Out||21||-Data Bit 3 Return (GND)||In
+|-
+|9||+Data Bit 7||Out||22||-Data Bit 4 Return (GND)||In
+|-
+|10||-Acknowledge||In||23||-Data Bit 5 Return (GND)||In
+|-
+|11||+Busy||In||24||-Data Bit 6 Return (GND)||In
+|-
+|12||+Paper End||In||25||-Data Bit 7 Return (GND)||In
+|-
+|13||+Select||In|| || ||
+|-
+|}
+
+==Chuẩn IEEE 1284==
+IEEE 1284 là một tiêu chuẩn về giao diện ngoại vi song song hai chiều cho máy tính cá nhân. Nó được phê chuẩn phiên bản cuối cùng (''final release'') vào tháng 3 năm 1994. Tiêu chuẩn này định nghĩa các đặc trưng vật lý, phương thức truyền dữ liệu của cổng song song.</br>
+IEEE 1284 đặt ra để tiêu chuẩn hoá việc kết nối giữa máy tính với một thiết bị ngoại vi có tính chất cố định, tuy nhiên khi mở rộng chúng với các loại thiết bị ngoại vi mang tính di chuyển (như các loại máy quét, ổ đĩa di động) chúng cũng được hỗ trợ.
+
+Băng thông của các loại cổng song song theo chuẩn IEEE 1284 được liệt kê theo bảng sau
+{| class="wikitable"
+|-
+!Loại cổng song song!!Hướng truyền </br> ''(Direction)''!!Băng thông </br>''(Transfer Rate)''
+|-
+|Nibble (4-bit)||Input only||50 KBps
+|-
+|Byte (8-bit)||Input only||150 KBps
+|-
+|Compatible||Output only||150 KBps
+|-
+|EPP (Enhanced Parallel Port)||Input/Output||500 KBps-2,77 MBps
+|-
+|ECP (Enhanced Capabilities Port)||Input/Output||500 KBps-2,77 MBps
+|-
+|}
+
+==Ứng dụng==
+Cổng song song có ứng dụng nhiều nhất cho USB 2.0, RJ-45 (kết nối với mạng máy tính) nhưng đến thời điểm đầu năm 2008 thì các máy in đang sản xuất vẫn đồng thời hỗ trở cả hai loại cổng: cổng song song và cổng giao tiếp qua USB (một số máy còn có thêm cổng RJ-45).
+
+Không những chỉ sử dụng cho máy in, nhiều thiết bị gắn ngoài trước đây đã dùng cổng song song như: máy quét, các ổ đĩa gắn ngoài, bộ điều khiển trò chơi trên máy tính ''(joystick)''...
+
+Cổng song song còn sử dụng để kết nối các máy tính với nhau để truyền dữ liệu, tuy nhiên chúng phải được hỗ trợ từ hệ điều hành hoặc phần mềm. Chúng chỉ thực hiện trên các máy tính công nghiệp với hệ điều hành cũ (Windows 95/98, ''một số máy tính công nghiệp chỉ cần đến vậy'') hoặc các hệ thống cũ không hỗ trợ các cổng giao tiếp mới hơn. Các phần mềm hỗ trợ việc kết nối trực tiếp hai máy tính này có thể kể đến là: LapLink, PC Anywhere, NC...

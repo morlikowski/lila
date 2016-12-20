@@ -1,0 +1,73 @@
+'''Gaming on demand''' (also called '''GoD''') is to computer games as video on demand is to video rental or video purchase.
+
+== History ==
+Software rental appeared during the late 1980s as an alternative to software retail by small cooperation to cut operating cost, to only rent a software only when needed instead of purchasing the software for occasional uses.
+Game rental is based on the same idea and foundation, where are player would only rent the game for short duration of time instead of owning a personal copy. This is particular popular for console game cartage.
+Gaming on Demand is a new innovative update to the aging game rental industry. 
+
+== Description ==
+Unlike console game rental system, where the rental store would either mail a game cartage or disc to the customer or the customer have to walk in to the rental store itself.
+GoD is a PC game rental service which take advantage of broadband connection and advance file encryption and compression technology available today to digitally distribute product and often offer a zero return policy.
+Zero return policy basically mean the customer will get to keep that copy of game he or she rented.
+
+== Comparison of Purchase vs. Rental ==
+{| class="wikitable" <!-- style="width:95%;" -->
+!
+! '''Pro'''
+! '''Con'''
+|-
+|
+'''Purchase'''
+|
+* user retains product rights as long as the product functions
+|
+* paying full retail price
+* possible bad purchase (regret the purchase)
+* damage or failure causes product to become unusable
+|-
+|
+'''Rental'''
+|
+* price is a fraction the retail price
+* allows low risk trial before purchase
+* retrieve back up or download (again) product when needed
+|
+* delivery time depends on internet connection speed
+* usage limited by subscription
+|}
+
+== Piracy issues ==
+The early model of PC game rental failed due to the ease of digital media duplication on a computer. Customers would copy the game CD or diskette to their computer, then either exchange for another title or return for refund.
+''GoD'' uses digital rights management technology when delivering a game to a customer. The program files are scrambled and encrypted with a key available from the rental store, thus duplicating the file is meaningless as long as the key is unavailable.
+
+'''ゲームオンデマンド'''('''GOD:Game On Demand''')とは、コンピューターゲームを配信するオンデマンドサービスである。
+
+== 概要 ==
+利用者はインターネット回線やケーブルテレビ回線を通じてゲームサーバーに接続し、遊びたいゲームを選択する。
+利用者のコントローラーの操作やマイクからの音声といった情報は回線を通じて送信され、それに基づいた演算や画像処理、他者との通信は全てゲームサーバー上で行われる。演算結果は単なる動画・音声として利用者の元へストリーミング配信される。
+
+オラクル社のNetwork Computerやビデオ・オン・デマンドやアプリケーションサービスプロバイダのゲーム版、又は不特定多数が繋ぐ大規模なメインフレーム方式と言える。
+
+== 利点 ==
+現在コンピューターゲームを遊ぶ為には、プログラムが入った媒体を読み込ませる、またはプログラムをインストールする、という方法が用いられるが、この方法には
+*ゲームプログラム分記憶媒体の容量を消費する
+*ゲームの要求する機種、OS、スペックを満たさなければ遊べない
+*ゲームプログラムやセーブデータを改変する等メーカーの推奨しない遊び方をする利用者が出る
+という欠点が存在する。
+
+ゲームオンデマンドはこれらの欠点を全て解消出来る上に、
+*商品を店まで買いに行く必要が無い
+*品切れや在庫が発生しない
+*不人気作でも生産中止にならない
+*作品の収録された媒体を破損・紛失等して作品を楽しめなくなってしまう事がない
+*修正や改良も、サーバー上に置かれている作品を書き変えるだけで済み、媒体の交換や修正パッチの配布が要らない。利用者の声を即座に反映させて随時改良を続ける事も出来る
+*作品の貸し借り、中古店での売買、複製品の売買、インターネット上での不法配布が出来なくなる為、利用者数分確実に製造者に金が入る
+*媒体の製造と流通が不要な分、価格を安く抑えられ、また作品をより早く客の元に届けられる
+*どのゲームが、どの様な年齢層、どの様な職業の人間に何時間遊ばれたか、という情報を制作者が正確に知る事が出来る
+*利用者の登録情報を元に、未成年には特定の作品は販売しない、作品に関連する要素のある利用者には値引きする、といった自由な販売設定が可能。個人個人の利用者の登録情報に合わせて配信するゲーム内容を変える事も可能
+*売り上げが落ちれば値を下げたり、1本いくら、ではなく、1時間いくら、1箇月間いくら、という時間単位の切り売りや、キャラクターがある程度のレベルに育つまでは無料、という変則的な価格設定も、販売店ではなくメーカー側が実行可能
+**初めの10分間だけ無料、という設定にすれば、全ての作品を体験版化する事が出来る
+*ネットワーク機器さえあれば、ネット喫茶や友人宅等の自宅以外の場所でも、自身のセーブデータを用いてサービスを利用出来る
+といったビデオオンデマンドと同様の利点を有している。
+
+また、この技術はオンラインゲームにも応用が可能である。

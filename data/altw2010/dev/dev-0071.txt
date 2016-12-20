@@ -1,0 +1,104 @@
+thumb|135px|Exemplo de módulo de memoria
+A '''memoria de acceso aleatorio''', ou '''memoria de acceso directo''' (en inglés '''R'''andom '''A'''ccess '''M'''emory), máis coñecida como '''memoria RAM''', componse de un ou varios programas e datos.  É un tipo de memoria temporal que perde os datos cuando se queda sen enerxía eléctrica (por exemplo, ao apagar a computadora).
+
+Trátase dunha memoria de semicondutor na que se pode tanto ler como escribir información. Utilízase normalmente como memoria temporal para almacenar resultados intermedios e datos similares non permanentes. Denomínanse "de acceso aleatorio" ou "de acceso directo" porque os diferentes accesos son independentes entre sí (non obstante, o resto de memorias ROM, ROM borrables e Flash, tamén son de acceso aleatorio). Por exemplo, se un disco duro debe facer dous accesos consecutivos a sectores separados fisicamente entre si, pérdese un tempo en move-la cabeza lecto-grabadora ata a pista desexada (ou esperar que o sector pase por debaixo, se ambos están na mesma pista), tempo que non se perde na RAM. Porén, as memorias que se atopan na computadora, son volátiles, é dicir, perden os seus datos ao desconecta-la enerxía eléctrica ; pero hai memorias (como a memoria RAM Flash, a típica dos chaveiros USB), que non o son porque almacenan datos de forma permanente.
+
+A denominación apareceu antigamente para diferencialas das memorias de acceso secuencial. Como nos comezos da computación as memorias principais (ou primarias) das computadoras eran sempre de tipo RAM, e as memorias secundarias (ou masivas) eran de acceso secuencial (fitas ou tarxetas perforadas), é frecuente que se fale de memoria RAM para facer referencia á memoria principal dunha computadora, pero actualmente a denominación non é demasiado acertada, como se pode ver.
+
+En xeral, as RAMs divídense en dous grandes grupos: estáticas e dinámicas. Unha memoria RAM estática mantén os datos inalterados mentras está alimentada eléctricamente. En cambio, nunha memoria RAM dinámica a lectura é destrutiva, é dicir, a información pérdese ao lela, polo que hai que restaura-la información contida nela, operación denominada refresco.
+
+= Módulos de memoria =
+
+Os pequenos chips que compoñen a memoria '''RAM''' non se atopan soltos, senón soldados a un pequeno circuito impreso denominado '''módulo''', que se pode atopar en diferentes tipos e tamaños, cada un axustado a una necesidade concreta: (SIMM, DIMM, SO-DIMM, RIMM). Segundo os tipos de conectores que levan os módulos, clasifícanse en Módulos SIMM (Single In-line Memory Module), con 30 ou 72 contactos, módulos DIMM (Dual In-line Memory Module), con 168 contactos e módulos RIMM (RAMBUS In-line Memory Module) con 184 contactos.
+
+Sobre ditos módulos sóldanse os '''chips de memoria RAM''', de diferentes tecnoloxías e capacidades. No entanto, mentres que os ensambladores de módulos chegan a ser centos, a lista de fabricantes dos chips de memoria propiamente ditos son un número menor e só hai unhas poucas empresas como Buffalo, Corsair Memory, Kingston Technologies ou Samsung, que non superan os vinte en total.
+
+Como resultado de agrupar varios chips sobre un mesmo módulo, obtéñense distintas capacidades. A capacidade dunha memoria é a cantidade de datos que pode almacenar, xeralmente exprésase en bytes, kilobytes KiB, megabytesMiB ou xigabytes GiB.
+
+== Tipos de módulos ==
+
+thumb|200px|Tipos de módulos de arriba abaixo (os dous primeiros soldados directamente na [[placa base|placa nai): DIP, DIP switch, SIMM 30 contactos, SIMM 72 contactos, DIMM 168 contactos, DIMM 184 contactos]]
+
+*'''Módulo de memoria SIMM de 30 contactos:''' SIMM é un acrónimo do idioma inglés que expresa ''Single In-line Memory Module'' ou módulo de memoria dunha soa liña; é dicir, un módulo de memoria SIMM é un conxunto de chips, xeralmente DIP's, integrados nunha tarxeta electrónica. Este módulo normalmente traballa cun bus de datos de 8 bits.
+
+*'''Módulo de memoria SIMM de 72 contactos con tecnoloxía EDO RAM:''' Este módulo de memoria é superior en tamaño ó SIMM de 30 contactos. Normalmente traballa cun bus de datos de 32 bits.
+
+*'''Módulo de memoria DIMM de 168 contactos con tecnoloxía SDR SDRAM:''' DIMM é un acrónimo inglés que expresa ''Dual In-line Memory Module'' ou módulo de memoria de dobre liña. Este módulo xeralmente traballa cun bus de datos de 64 bits.
+
+*'''Módulo de memoria DIMM de 184 contactos con tecnoloxía DDR SDRAM:''' Este tipo de módulo de memoria utiliza chips de memoria DDR SDRAM, un bus de datos de 64 bits e posúe 184 contactos (o que evita confundilo co de 168 contactos e conectalo en placas nai que non o soporten).
+
+*'''Módulo de memoria RIMM de 184 contactos con tecnoloxía RDRAM:''' Este tipo de módulo de memoria utiliza chips de memoria Rambus DRAM, polo que deben instalarse sempre de dous en dous e en módulos específicos. Adoitan ter unha protección metálica que favorece a disipación térmica, e traballan cun bus de datos de 16 bits (pero a frecuencias de ata 800MHz).
+
+= Tecnoloxías de memoria =
+
+== Memoria DRAM (RAM dinámica)==
+
+La memoria DRAM ("Dynamic RAM") es una memoria RAM electrónica construida mediante condensadores. Los condensadores son capaces de almacenar un bit de información almacenando una carga eléctrica. Lamentablemente los condensadores sufren de fugas lo que hace que la memoria DRAM necesite ''refrescarse'' cada cierto tiempo: el refresco de una memoria RAM consiste en recargar los condensadores que tienen almacenado un uno para evitar que la información se pierda por culpa de las fugas (de ahí lo de "Dynamic"). La memoria DRAM es más lenta que la memoria SRAM, pero por el contrario es mucho más barata de fabricar y por ello es el tipo de memoria RAM más comúnmente utilizada como memoria principal.
+
+*También se denomina DRAM a la memoria asíncrona de los primeros IBM-PC, su tiempo de refresco era de 80 ó 70 ns (nanosegundos). Se utilizó en la época de los i386, en forma de módulos SIMM o DIMM.
+
+====FPM-RAM (Fast Page Mode RAM)====
+Memoria asíncrona, más rápida que la anterior (modo de Página Rápida) y con tiempos de acceso de 70 ó 60 ns. Esta memoria se encuentra instalada en muchos sistemas de la primera generación de Pentium. Incorpora un sistema de paginado debido a que considera probable que el próximo dato a acceder este en la misma columna, ganando tiempo en caso afirmativo.
+
+====EDO-RAM (Extended Data Output RAM)====
+Memoria asíncrona, esta memoria permite a la CPU acceder más rápido porque envía bloques enteros de datos; con tiempos de acceso de 40 ó 30 ns.
+
+====BEDO-RAM (Burst Extended Data Output RAM)====
+Es una evolución de la EDO RAM y competidora de la SDRAM. Lee los datos en ráfagas, lo que significa que una vez que se accede a un dato de una posición determinada de memoria se leen los tres siguientes datos en un solo ciclo de reloj por cada uno de ellos, reduciendo los tiempos de espera del procesador. En la actualidad es soportada por los chipsets VIA 580VP, 590VP y 680VP. Al igual que la EDO RAM, la limitación de la BEDO RAM es que no puede funcionar por encima de los 66 mhz.
+
+====SDR SDRAM (Single Data Rate Synchronous Dynamic RAM)====
+Memoria síncrona (misma velocidad que el sistema), con tiempos de acceso de entre 25 y 10 ns y que se presentan en módulos DIMM de 168 contactos. Fue utilizada en los Pentium 2 y en los Pentium III , así como en los AMD K6, K7 y Duron. Dependiendo de la frecuencia de trabajo se dividen en:
+*'''PC66''': la velocidad de bus de memoria es de 66 Mhz, temporización de 15 ns y ofrece tasas de transferencia de hasta 533 MB/s.
+*'''PC100''': la velocidad de bus de memoria es de 100 Mhz, temporización de 8 ns y ofrece tasas de transferencia de hasta 800 MB/s.
+*'''PC133''': la velocidad de bus de memoria es de 133 Mhz, temporización de 7,5 ns y ofrece tasas de transferencia de hasta 1066 MB/s.
+
+Está muy extendida la creencia de que se llama SDRAM a secas, y que la denominación SDR SDRAM es para diferenciarla de la memoria DDR, pero no es así, simplemente se extendió muy rápido la denominación incorrecta. El nombre correcto es SDR SDRAM ya que ambas (tanto la SDR como la DDR) son Memorias Síncronas Dinámicas.
+
+====DDR SDRAM (Double Data Rate SDRAM)====
+Memoria síncrona, envía los datos dos veces por cada ciclo de reloj. De este modo trabaja al doble de velocidad del bus del sistema, sin necesidad de aumentar la frecuencia de reloj. Se presenta en módulos DIMM de 184 contactos. Del mismo modo que la SDRAM, en función de la frecuencia del sistema se clasifican en (según JEDEC):
+*'''PC 1600''' ó '''DDR200''': funciona a 2.5 V, trabaja a 200MHz, es decir 100MHz de bus de memoria y ofrece tasas de transferencia de hasta 1,6 GB/s (de ahí el nombre PC1600). Este tipo de memoria la utilizaron los Athlon XP de AMD, y los primeros Pentium 4.
+*'''PC 2100''' ó '''DDR266''': funciona a 2.5 V, trabaja a 266MHz, es decir 133MHz de bus de memoria y ofrece tasas de transferencia de hasta 2,1 GB/s (de ahí el nombre PC2100).
+*'''PC 2700''' ó '''DDR333''': funciona a 2.5 V, trabaja a 333MHz, es decir 166MHz de bus de memoria y ofrece tasas de transferencia de hasta 2,7 GB/s (de ahí el nombre PC2700).
+*'''PC 3200''' ó '''DDR400''': funciona a 2.5V, trabaja a 400MHz, es decir, 200MHz de bus de memoria y ofrece tasas de transferencia de hasta 3,2 GB/s (de ahí el nombre PC3200).
+
+*También existen las especificaciones DDR433, DDR466, DDR500, DDR533 y DDR600 pero según muchos ensambladores es poco práctico utilizar DDR a más de 400MHz, por lo que está siendo sustituida por la revisión DDR2.
+
+*'''PC-4200''' ó '''DDR2-533''': trabaja a 533Mhz, es decir, 133 MHz de bus de memoria y ofrece tasas de transferencia de hasta 4,2 GB/s (de ahí el nombre PC4200).
+*'''PC-4800''' ó '''DDR2-600''': trabaja a 600Mhz, es decir, 150 MHz de bus de memoria y ofrece tasas de transferencia de hasta 4,8 GB/s (de ahí el nombre PC4800).
+*'''PC-5300''' ó '''DDR2-667''': trabaja a 667Mhz, es decir, 166 MHz de bus de memoria y ofrece tasas de transferencia de hasta 5,3 GB/s (de ahí el nombre PC5300).
+*'''PC-6400''' ó '''DDR2-800''': trabaja a 800Mhz, es decir, 200 MHz de bus de memoria y ofrece tasas de transferencia de hasta 6,4 GB/s (de ahí el nombre PC6400).
+
+'''Random Access Memory''' of '''RAM''', Engels voor ''geheugen met willekeurige toegang'', is leeskop doordraait). Daarnaast kan RAM zowel gelezen als geschreven worden. Dit in tegenstelling tot ROM (Read Only Memory) wat alleen gelezen kan worden. De naam "RAM-geheugen" wordt ook vaak gebruikt, wat een pleonasme is, aangezien de M al voor memory (geheugen) staat.
+
+==Trommel==
+De eerste elektronische buizenschakelingen een zogenaamd trommelgeheugen, bestaande uit een grote trommel bedekt met een magnetiseerbare laag die ongeveer 100 keer per seconde ronddraaide en die op enkele tientallen regels een honderdtal ''woorden'' had staan. Elke regel werd afgelezen door een eigen leeskop. Op een trommelgeheugen kwam elke geheugenplaats dus ongeveer elke 10 milliseconde een keer langs, en kon dan gelezen of geschreven worden. Maar omdat hier gewacht moest worden totdat de band voor de leeskop kwam, is dit technisch gezien geen RAM.
+
+==Ringkerngeheugen==
+{|
+|thumb|Ringkerngeheugen
+|thumb|Ringkerngeheugen voor 1024 bits
+|}
+Na het trommelgeheugen kwam in de jaren 60 het werkgeheugen in de vorm van magnetiseerbare ringetjes (ringkerngeheugen). Dit was wel RAM. Het bestond uit een aantal ringetjes van magnetiseerbaar materiaal die met drie of vier draden tot een rechthoekig matje aaneen waren geregen. Informeel werd dan ook van een ''matje'' gesproken. Door het geheugen uit te lezen, ging de inhoud verloren (destructief lezen), zodat die weer terug moest worden geschreven. Werd de computer uitgeschakeld, dan bleef de inhoud van het geheugen behouden (niet vluchtig geheugen).
+
+==Transistors==
+Voor snellere opslag werden in dezelfde tijd transistorschakelingen gebruikt. Veelal bevonden zich twee transistors (een zogenoemde flip-flop) op een enkele printplaat, en hierop kon een enkele bit worden opgeslagen. Dit kostbare geheugen werd voor de interne registers van de CPU gebruikt. De inhoud ging verloren als de computer werd uitgeschakeld (vluchtig geheugen)..
+
+==Chips==
+{|
+|thumb|DDR2 geheugen op het moederbord
+|rowspan="2"|[[Afbeelding:RAM n.jpg|thumb|Verschillende soorten RAM.<br />Van boven naar beneden: DIP, 
+SIPP, SIMM 30 pin, SIMM 72 pin, DIMM, RIMM]]
+|rowspan="2"|thumb|SODIMM geheugen voor laptops.<br />Van boven naar beneden:  DDR, SDRAM
+|-
+|thumb|RAM-slots op een [[Moederbord]]
+|}
+Gedurende de jaren 70 van de chip te maken ('de chip brandt zichzelf binnen enkele minuten kapot'), in GiB) = 1024 MB (1024 MiB) = 1048576 kB = 1073741824 bytes = 8589934592 bits) Inmiddels worden kleinere 8 MB chips "gestackt" op 1 grote chip. Ze worden dan als het ware op elkaar geplakt. Hierdoor kunnen er wel 32 of zelfs 64 chips in 1 package zitten.
+
+===Dynamische en statische geheugenchips===
+Het werkgeheugen van de moderne DRAM (''dynamische RAM''), en het nog snellere maar duurdere SRAM (''statische RAM'').
+
+Een bit in dynamisch RAM bestaat effectief uit een kleine condensator dat een aantal keren per seconde opnieuw moet worden gevuld om de inhoud niet kwijt te raken. Voor elke geheugencel is maar één transistor nodig om die ene nul of één te bewaren.
+
+Elk bit in statisch RAM bestaat uit een transistorschakeling die zijn staat zelfstandig onthoudt zolang er een voedingsspanning is. De transistorschakeling die een nul of één kan onthouden heet een flip-flop, en daar zijn twee transistors voor nodig.
+
+==Zie ook==

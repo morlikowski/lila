@@ -1,0 +1,51 @@
+'''Tasainen suppeneminen''' on funktiojonon ominaisuus, joka on pisteittäistä suppenemista tiukempi. Sitä voi kuvailla karkeasti niin, että funktion arvot suppenevat samanaikaisesti jokaisessa pisteessä kohti rajafunktiota.
+
+Tasaisesta suppenemisesta seuraa käytännöllisiä tuloksia funktiojonojen integraaleille, derivaatoille ja summille.
+
+== Matemaattinen määritelmä ==
+
+Olkoon <math>\Delta \subset \mathbb{R}</math> jokin väli, <math>(f_n)_{n \in \mathbb{N}}</math> jono funktioita <math>\Delta \rightarrow \mathbb{R}</math> ja väli <math>\Delta' \subset \Delta</math>. Jono <math>(f_n)_{n \in \mathbb{N}}</math> suppenee välillä <math>\Delta'</math> tasaisesti kohti funktiota <math>f: \Delta' \rightarrow \mathbb{R}</math>, jos
+<center><math>\sup_{x \in \Delta'} | f_n (x) - f(x) | \rightarrow 0</math>, kun <math>n \rightarrow \infty</math>.</center>
+
+Yhtäpitävä ehto tasaiselle suppenevuudelle on, että jokaista lukua <math>\varepsilon > 0</math> kohti on luku <math>n_\varepsilon \in \mathbb{N}</math> siten, että kun <math>n > n_\varepsilon</math>, niin
+<center><math>| f_n(x) - f(x) | < \varepsilon</math></center>
+kaikissa pisteissä <math>x \in \Delta'</math>.
+
+Tasaisen suppenemisen määritelmä voidaan yleistää reaalifunktioilta metrisille avaruuksille määritellyille kuvauksille.
+
+== Ominaisuuksia ==
+
+In the mathematical field of analysis, '''uniform convergence''' is a type of functions '''converges uniformly''' to a limiting function ''f'' if the speed of convergence of ''f''<sub>''n''</sub>(''x'') to ''f''(''x'') does not depend on ''x''. 
+
+The concept is important because several properties of the functions ''f''<sub>''n''</sub>, such as continuity and Riemann integrability, are transferred to the limit ''f'' if the convergence is uniform. 
+
+== History ==
+
+Augustin Louis Cauchy in 1821 published a faulty proof of the false statement that the pointwise limit of a sequence of continuous functions is always continuous. Joseph Fourier and Niels Henrik Abel found counter examples in the context of Fourier series. Dirichlet then analyzed Cauchy's proof and found the mistake: the notion of pointwise convergence had to be replaced by uniform convergence.
+
+The concept of uniform convergence was probably first used by German: uniformly convergent) which he used in his 1841 paper ''Zur Theorie der Potenzreihen'', published in 1894. Independently a similar concept was used by Philipp Ludwig von Seidel<ref></ref> and George Gabriel Stokes but without having any major impact on further development. G. H. Hardy compares the three definitions in his paper ''Sir George Stokes and the concept of uniform convergence'' and remarks: ''Weierstrass's discovery was the earliest, and he alone fully realized its far-reaching importance as one of the fundamental ideas of analysis.''
+
+Under the influence of Weierstrass and Bernhard Riemann this concept and related questions were intensely studied at the end of the 19th century by Hermann Hankel, Paul du Bois-Reymond, Ulisse Dini, Cesare Arzelà and others.
+
+== Definition == 
+
+Suppose ''S'' is a real-valued functions for every natural number ''n''. We say that the sequence (''f''<sub>''n''</sub>) is '''uniformly convergent''' with limit ''f'' : ''S'' → '''R''' if for every ε > 0, there exists a natural number ''N'' such that for all ''x'' in ''S'' and all ''n'' ≥ ''N'', |''f''<sub>''n''</sub>(''x'') &minus; ''f''(''x'')| < ε.
+
+Consider the sequence ''α''<sub>n</sub> =  sup|''f''<sub>''n''</sub>(''x'') &minus; ''f''(''x'')|. Clearly ''f''<sub>''n''</sub> goes to ''f'' uniformly if and only if ''α''<sub>n</sub> goes to 0.
+
+The sequence (''f''<sub>''n''</sub>) is said to be '''locally uniformly convergent''' with limit ''f'' if for every ''x'' in ''S'',  there exists an ''r > 0'' such that (''f''<sub>''n''</sub>) converges uniformly on ''B''(''x'',''r'') ∩ ''S''.
+
+=== Notes ===
+
+Compare uniform convergence to the concept of pointwise convergence: The sequence (''f''<sub>''n''</sub>) converges pointwise with limit ''f'' : ''S'' → '''R''' if and only if
+:for every ''x'' in ''S'' and every ε > 0, there exists a natural number ''N'' such that for all ''n'' ≥ ''N'', |''f''<sub>''n''</sub>(''x'') &minus; ''f''(''x'')| < ε.
+
+In the case of uniform convergence, ''N'' can only depend on ε, while in the case of pointwise convergence ''N'' may depend on ε and ''x''. It is therefore plain that uniform convergence implies pointwise convergence. The converse is not true, as the following example shows: take ''S'' to be the unit interval [0,1] and define ''f''<sub>''n''</sub>(''x'') = ''x''<sup>''n''</sup> for every natural number ''n''. Then (''f''<sub>''n''</sub>) converges pointwise to the function ''f'' defined by ''f''(''x'') = 0 if ''x'' < 1 and ''f''(1) = 1. This convergence is not uniform: for instance for ε = 1/4, there exists no ''N'' as required by the definition.
+
+=== Generalizations ===
+
+One may straightforwardly extend the concept to functions ''S'' → ''M'', where (''M'', ''d'') is a metric space, by replacing |''f''<sub>''n''</sub>(''x'') - ''f''(''x'')| with ''d''(''f''<sub>''n''</sub>(''x''), ''f''(''x'')).
+
+The most general setting is the uniform convergence of nets of functions ''S'' → ''X'', where ''X'' is a uniform space. We say that the net (''f''<sub>α</sub>) ''converges uniformly'' with limit ''f'' : ''S'' → ''X'' iff
+:for every entourage ''V'' in ''X'', there exists an α<sub>0</sub>, such that for every ''x'' in ''I'' and every α≥α<sub>0</sub>: (''f''<sub>α</sub>(''x''), ''f''(''x'')) is in ''V''.
+The above mentioned theorem, stating that the uniform limit of continuous functions is continuous, remains correct in these settings.

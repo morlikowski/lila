@@ -1,0 +1,133 @@
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = Fontana Liri |
+  name = Fontana Liri |
+  region = Lazio |
+  province = Province of Frosinone (FR) |
+  elevation_m =  |
+  area_total_km2   = 16.0 |
+  population_as_of  = Dec. 2004 |
+  population_total = 3127 |
+  population_density_km2 = 196 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          =  |
+  telephone         = 0776 |
+  postalcode        = 03035 |
+  gentilic          = fontanesi |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           = [http://www.comunefontanaliri.fr.it/ www.comunefontanaliri.fr.it/] |
+  mapy = 13.5500 |
+  mapx = 41.6167 |
+}}
+'''Fontana Liri''' is a ''Italian region Lazio, located about 90 km southeast of Rome and about 15 km east of Frosinone. As of 31 December 2004, it had a population of 3,127 and an area of 16.0 km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+Fontana Liri borders the following municipalities: Arce, Arpino, Monte San Giovanni Campano, Rocca d'Arce, Santopadre.
+
+The town is the birthplace of actor Marcello Mastroianni.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:5000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:1000 start:0
+ScaleMinor = gridcolor:lightgrey increment:200 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:2366
+  bar:1871 from: 0 till:2182
+  bar:1881 from: 0 till:2184
+  bar:1901 from: 0 till:3109
+  bar:1911 from: 0 till:3707
+  bar:1921 from: 0 till:4224
+  bar:1931 from: 0 till:3895
+  bar:1936 from: 0 till:4246
+  bar:1951 from: 0 till:4164
+  bar:1961 from: 0 till:3492
+  bar:1971 from: 0 till:3177
+  bar:1981 from: 0 till:3248
+  bar:1991 from: 0 till:3303
+  bar:2001 from: 0 till:3215
+
+PlotData=
+
+<span><!-- Il testo commentato è SOLO UN ESEMPIO --></span>
+{{Comune
+|nomeComune = Fontana Liri
+|linkStemma = <!-- Fontana Liri-Stemma.png -->
+|siglaRegione = LAZ
+|siglaProvincia = FR
+|latitudineGradi = 41
+|latitudineMinuti = 37
+|latitudineSecondi = 0
+|longitudineGradi = 13
+|longitudineMinuti = 33
+|longitudineSecondi = 0
+|mappaX = 171
+|mappaY = 181
+|altitudine = 150 <!-- solo valore numerico dell'altitudine -->
+|superficie = 15
+|abitanti = 3.072
+|anno = 2007 <!-- solo valore  dell'anno di riferimento  -->
+|densita = 204
+|frazioni =  <!-- elenco delle frazioni, separate da virgola e spazio - senza ritorni a capo -->
+|comuniLimitrofi = Arpino, Monte San Giovanni Campano, Rocca d'Arce, Santopadre
+|cap = 03035
+|prefisso = 0776
+|istat = 060036
+|fiscale = D667
+|nomeAbitanti = fontanesi
+|patrono = Santa Barbara
+|festivo =  <!-- 7 aprile -->
+|sito = http://www.comunefontanaliri.fr.it/
+}} <!-- fine della tabella - per la compilazione vedi -> Aiuto:Comune -->
+'''Fontana Liri''' è un comune di 3.072 abitanti della provincia di Frosinone.
+==Onorificenze == 
+Il Comune è stato insignito della Medaglia d’argento al merito civile per atti di abnegazione durante il secondo conflitto mondiale.
+
+==Persone==
+Città natale di Umberto Mastroianni e Marcello Mastroianni.
+
+==Amministrazione comunale==
+{{ComuniAmministrazione
+|NomeSindaco=Giuseppe Pistilli
+|DataElezione=05/04/2005
+|partito=lista civica
+|TelefonoComune=0776 525707  
+|EmailComune=anagrafe@comunefontanaliri.fr.it
+}}
+* Fa parte della XV Comunità Montana del Lazio "Valle del Liri"
+* Classificazione climatica: zona D, 1523 GR/G
+
+==Evoluzione demografica==

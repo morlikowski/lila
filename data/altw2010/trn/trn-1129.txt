@@ -1,0 +1,32 @@
+'''Quoted-printable''', or '''QP encoding''', is an encoding using printable characters (i.e. content transfer encoding for use in Internet e-mail.
+
+==Introduction==
+The basic Internet e-mail transmission protocol, English, using character encodings other than ASCII. However these encodings often use byte values outside the ASCII range so they need to be encoded further before they are suitable for use in e-mail. Quoted-printable encoding is one method used for mapping arbitrary bytes into sequences of ASCII characters. This encoding is reversible, meaning the original bytes and hence the non-ASCII characters they represent can be recovered.
+
+Quoted-printable and Base64 are the two basic MIME content transfer encodings. If the input text is mostly ASCII, quoted-printable results in a fairly readable and compact encoded result. On the other hand if the input is not mostly ASCII then quoted-printable becomes both unreadable and extremely inefficient. Base64 is not readable but has a predictable overhead for all data and is the more sensible choice for binary formats or text in non-Latin based languages.
+
+==Quoted-printable encoding==
+Any 8-bit byte value may be encoded with 3 characters, an "=" followed by two hexadecimal digits (0–9 or A–F) representing the byte's numeric value. For example, a US-ASCII form feed character (decimal value 12) can be represented by "=0C", and a US-ASCII equal sign (decimal value 61) is represented by "=3D". All characters except printable ASCII characters or end of line characters must be encoded in this fashion.
+
+All printable ASCII characters (decimal values between 33 and 126) may be represented by themselves, except "=" (decimal 61).
+
+ASCII tab and space characters, decimal values 9 and 32, may be represented by themselves, except if these characters appear at the end of a line. If one of these characters appears at the end of a line it must be encoded as "=09" (tab) or "=20" (space).
+
+If the data being encoded contains meaningful line breaks, they must be encoded as an ASCII CR LF sequence, not as their original byte values. Conversely if byte values 10 and 13 have meanings other than end of line then they must be encoded as =0A and =0D. 
+
+Die '''Quoted-Printable'''-Kodierung ist ein Verfahren, mit dem man in E-Mails Zeichen, die nicht im ASCII-Zeichensatz enthalten sind, kodieren kann. Dies ist erforderlich, da bis heute nicht sichergestellt ist, dass alle Zwischenstellen beim E-Mail-Versand sogenannte 8-Bit-Zeichen (entspricht 256 Möglichkeiten pro Byte) verarbeiten können; die ursprüngliche E-Mail-Spezifikation sah nur 7 Bit vor (128 Möglichkeiten pro Byte).
+
+Um trotzdem deutsche MIME-Standard spezifiziert sind.
+
+Die „Quoted-Printable“-Kodierung hat z.B. im Vergleich zur Base64-Kodierung den Vorteil, dass die meisten in ASCII enthaltenen Zeichen unverändert kodiert werden und so auch angezeigt werden können, wenn die Quoted-Printable-Kodierung vom Empfänger nicht unterstützt wird. 
+
+In einer so kodierten Nachricht werden alle nicht in ASCII enthaltenen Zeichen dargestellt, indem sie durch ein "="-Zeichen gefolgt vom Hexadezimalwert des Zeichens angegeben werden, z. B. in ISO 8859-1: ü = =FC. Da das =-Zeichen in Quoted-printable ein für die Kodierung verwendetes Zeichen ist, wird das "="-Zeichen im Ursprungstext selbst durch den Hexadezimalwert kodiert, also als =3D.
+
+Um die Länge der Zeilen auf 76 Zeichen zu begrenzen, wird bei längeren Zeilen nach meist 75 Zeichen ein "=" an das Zeilenende gesetzt, und der Text in der nächsten Zeile fortgesetzt. Der auf diese Weise erzwungene Zeilenumbruch wird beim Dekodieren wieder entfernt.
+
+== Beispiel ==
+
+ Hätten Hüte ein ß im Namen, wären sie möglicherweise keine Hüte mehr,
+ sondern Hüße.
+
+Dieser Text im Zeichensatz ISO 8859-1 als quoted-printable kodiert:

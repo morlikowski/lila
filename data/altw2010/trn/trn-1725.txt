@@ -1,0 +1,20 @@
+Mit '''Multiplicity of infection''' ('''MOI'''), dt. ''Vielfachheit der Infektion'' wird in der infektiösen Agenzien (Viruspartikeln oder Zellen, die sich in Transduktion genau so viele Viruspartikel eingesetzt wie sich Zellen in der Kultur befinden. Die Wahrscheinlichkeit, mit der eine bestimmte Zelle tatsächlich infiziert wird, unterliegt der statistischen Poisson-Verteilung.
+
+:<math> P(n) = \frac{m^n \cdot e^{-m}}{n!} </math>
+
+::<math>m</math> ist hier die MOI, <math>n</math> die Zahl Partikel, die das Infektionsziel infizieren, und <math>P(n)</math> ist die Wahrscheinlichkeit, dass ein Infektionsziel (eine Zelle) von <math>n</math> Partikeln infiziert wird.
+
+Bei einer MOI von 1 (1 Viruspartikel pro Zelle) beträgt die Wahrscheinlichkeit, dass eine Zelle nicht infiziert wird, <math>P(0) = 36.79%</math>, die Wahrscheinlichkeit, dass sie von einem einzigen Viruspartikel infiziert wird, <math>P(1) = 36.79%</math>, von zwei Partikeln <math>P(2)=18.39%</math>, von dreien <math>P(3) = 6.13%</math>, und so weiter.
+Daraus kann der durchschnittliche prozentuale Anteil der Zellen, die bei einer bestimmten MOI infiziert werden, berechnet werden durch <math>P(n>0) = 1 - P(0)</math>. 
+
+The '''multiplicity of infection''' or '''MOI''' is the infectious agents (e.g. cell). For example, when referring to a group of cells inoculated with infectious virus particles, the multiplicity of infection or MOI is the ratio defined by the number of infectious virus particles deposited in a well divided by the number of target cells present in that well.
+
+==Interpretation==
+
+The actual number of phages or viruses that will enter any given cell is a statistical process: some cells may absorb more than one virus particle while others may not absorb any. The probability that a cell will absorb <math>n</math> virus particles when inoculated with an MOI of <math>m</math> can be calculated for a given population using a Poisson distribution.
+
+:<math> P(n) = \frac{m^n \cdot e^{-m}}{n!} </math> 
+
+where <math>m</math> is the multiplicity of infection or MOI, <math>n</math> is the number of infectious agents that enter the infection target, and <math>P(n)</math> is the probability that an infection target (a cell) will get infected by <math>n</math> infectious agents.
+
+In fact the infectivity of the virus in question will alter this relationship.  One way around this is to use a functional definition of infectious particles rather than a strict count, such as a plaque forming unit.

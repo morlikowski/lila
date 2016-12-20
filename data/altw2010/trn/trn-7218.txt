@@ -1,0 +1,132 @@
+{{French commune
+|nomcommune=Bonnefontaine
+|image=
+|caption=
+|image_map=France_jms.png
+|x=200
+|y=133
+|lat_long=
+|région=Franche-Comté
+|département=Jura
+|arrondissement=Lons-le-Saunier
+|canton=Poligny
+|insee=39065
+|cp=39800
+|maire=Pierre Barisaux 
+|mandat=
+|intercomm=Premier Plateau
+|alt moy=580 m
+|alt mini=534 m
+|alt maxi=745 m
+|hectares=880
+|km²=8.8
+|sans=84
+|date-sans=1999
+|dens=9
+|date-dens=1999}}
+'''Bonnefontaine''' is a French village, located in the ''département'' of Jura and the région''.
+
+==Geography==
+
+'''Bonnefontaine''' is a little village in Jura of 86 inhabitants (INSEE Jura in edge of the ''Côte de l'Heute'' to 580 meters of altitude. In addition to its center, the village includes a hamlet : ''Le Patouillet''. There used to be another one, ''La Vermillère'', but this locality is currently uninhabited.  The local agriculture is traditionally turned towards dairy breeding used for the manufacture of a regional cheese, the Comté.
+
+==History==
+
+Until French).  On that date, this name, considered as defamatory was replaced by ''Bonnefontaine'', in reference to the three stone fountains of the village.
+
+==Administration==
+
+{| align="center" rules="all" cellspacing="0" cellpadding="4" style="border: 1px solid #999; border-right: 2px solid #999; border-bottom: 2px solid #999; background: #f3fff3"
+|+ style="font-weight: bold; font-size: 1.1em; margin-bottom: 0.5em"| List of the successive mayors
+|-style="background: #ddffdd"
+! Period !! Identity !! Political party
+|-
+| align=right| March 2001 || align=right|  Pierre Barisaux||
+|-
+| colspan="4" align="center" | <small> ''The former data are not yet known.''
+|}
+
+==Demography==
+
+400px|thumb|right|''Bonnefontaine, December the twelfth'' by [[Rémi Albouy, 2004]]
+{| align="center" rules="all" cellspacing="0" cellpadding="4" style="border: 1px solid #999; border-right: 2px solid #999; border-bottom:2px solid #999; background: #f3fff3"
+|+ style="font-weight: bold; font-size: 1.1em; margin-bottom: 0.5em"| Population trend
+|-style="background: #ddffdd"
+! 1962 !! 1968 !! 1975 !! 1982 !! 1990 !! 1999
+|-
+| align=center| 73 || align=center| 107 || align=center| 86 || align=center| 97 || align=center| 98|| align=center| 84
+|-
+| colspan=6 align=center| <small>Numbers retained from 1962 : Population sans doubles comptes
+|}
+
+==Monuments==
+
+{{infobox Franse gemeente|
+|plaatsnaam= Bonnefontaine
+|wapen= 
+|kaart= 
+|regio= Franche-Comté 
+|departement= Jura (39)
+|arrondissement= Lons-le-Saunier
+|kanton= Poligny
+|jaar= 1999
+|inwoners= 84
+|dichtheid= 9,4
+|oppervlakte= 8,9
+|water= 
+|latitudeGraden= 46 |latitudeMinuten= 44|latitudeSeconden= 0
+|longitudeGraden= 5 |longitudeMinuten= 45 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 230 |kaartY= 146
+|code= 39065
+|postcode= 39800
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Bonnefontaine''' is een gemeente in het Franse departement Jura (regio Lons-le-Saunier.
+
+==Geografie==
+De oppervlakte van Bonnefontaine bedraagt 8,9 km², de bevolkingsdichtheid is 9,4 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:300 color:gray1 width:1       
+  from:start till:end             
+  bar:200 color:gray1              
+  from:start till:end            
+  bar:100 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,100)(84,81) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 141 1968: 107
+  points:(84,81)(100,69)    color:blue    width:2 #1975: 86
+  points:(100,69)(128,75)   color:blue    width:2 #1982: 97
+  points:(128,75)(160,76)   color:blue    width:2 #1990: 98
+  points:(160,76)(196,68)   color:blue    width:2 #1999: 84
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+==Externe links==
+*[http://www.mapquest.com/maps/map.adp?searchtype=address&formtype=latlong&latlongtype=degrees&latdeg=46&latmin=44&latsec=0&longdeg=5&longmin=45&longsec=0&zoom=6 Locatie van de gemeente (kaart met schaal 1:100.000) op Mapquest]
+*[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=39065&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Meer statistische informatie over de gemeente op www.insee.fr]

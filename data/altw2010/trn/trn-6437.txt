@@ -1,0 +1,202 @@
+{{Cég infobox|
+ név = NVIDIA Corporation |
+ logo = 200px|NVIDIA logo |
+ típus = nyilvánosan működő részvénytársaság ()| 
+ company_slogan = The Way It's Meant to Be Played| 
+ alapítás = 1993|
+ székhely = Santa Clara, Kalifornia <br/>  USA |
+ vezetők = Jen-Hsun Huang, alapító, elnök és vezérigazgató|
+ alkalmazottak = 4,083 (2007)|
+ iparág = Félvezetők|
+ termékek = GPU-k <br> alaplapi chipkészletek|
+ bevétel = $3.77 milliárd dollár (2007)|
+ adózott_eredmény = $704.2 millió dollár (2007)|
+ honlap = [http://www.nvidia.com/ www.nvidia.com] 
+}}
+thumb|250px|Graphic processor on Nvidia GeForce 6600GT
+thumb|250px|Nvidia Riva video card
+Az '''NVIDIA Corporation''' egy videókártyái révén ismert számítástechnikai vállalat. Újabban több platformhoz (PC, XBox és PlayStation 3) is gyárt perifériákat.
+
+==Története==
+A céget 1993-ban alapította Jen-Hsun Huang, a jelenlegi cégvezető, Curtis Priem, és Chris Malachowsky.
+
+2000-ben felvásárolta riválisát a 3dfx-et, az egyik legnagyobb céget az iparágban.
+
+ULI Electronics vállalatot.
+2006 márciusában felvásárolta a Hybrid Graphics vállalatot<ref>The Register Hardware news: [http://www.reghardware.co.uk/2006/03/22/nvidia_buys_hybrid/ ''Nvidia acquires Hybrid Graphics'']</ref> majd 2007. január 5-én bejelentették, hogy befejezték a PortalPlayer, Inc. akvizícióját.<ref>Press Release: [http://www.nvidia.com/object/portalplayer_acquisition.html ''NVIDIA acquires PortalPlayer''], dated January 5, 2007.</ref>
+
+== Piaci története ==
+=== Pre-DirectX ===
+1995-ben kiadták első NV1 elnevezésű grafikus kártyájukat. quadratic surface technológiával, integrált audió kártyával és Sega Saturn porttal rendelkezett. Több Saturn játékot átportoltak PC-re az NV1 segítségével, ilyen volt a Panzer Dragoon és a Virtua Fighter. 
+
+A piaci érdekeltsége a Microsoft DirectX bejelentésével megszűnt. Következésképpen az NV1 fejlesztése folytatódott, de már egy új név alatt, ez volt az NV2 project, amibe dollármilliókat fektettek be. A Sega remélte, hogy az integrált audió és grafikus chip lefaragja a gyártási költségeket, így olcsóbban elő tudja állítani a következő konzolját. Hamarosan rá kellett azonban jönnie, hogy a quadratic surface technológia nem a járható út, így az NV2 fejlesztése sosem fejeződött be.
+
+=== Egy friss start ===
+Az NVIDIA cégvezetője Jen-Hsun két sikertelen termék után rákényszerült, hogy változtasson valamin, hogy a céget életben tudja tartani. Felvette ezért David Kirk, Ph.D. tudományos szakembert, aki szoftverfejlesztőként dolgozott a Crystal Dynamics vállalatnál. 
+
+A cég átalakítása során a teljes DirectX támogatás mellett döntöttek, és lemondtak a multimédiás funkcionalitásról a költségek leszorítása érdekében. A vállalat bevezetésre hozott egy 6 havi termékkiadási ciklust. Egy termék jövőbeni kudarca ezáltal nem veszélyezteti a cég fennmaradását.
+
+===RIVA TNT befolyása===
+Miután elérték, hogy piacvezetőként integrált grafikus chipkészletet tudtak szállítani, az NVIDIA újabb célként tűzte ki, hogy megduplázzák a pixel pipeline számát a chipen, hogy újabb teljesítménynövekedést érjenek el.
+
+Az új fejlesztés magával hozta a 24-bites stencil support-el, az anisotropic filtering-t, és a per-pixel MIP mapping-t.
+
+A tranzisztorok számával és komplexitásával, a TNT felvette a versenyt a rivális Intel Pentium processzorával. Ettől függetlenül hiába ajánlott minőségi integrált megoldást, ezzel még nem tudta elvenni Voodoo 2 piacvezető helyét. 
+
+A fordulat a RIVA TNT2 megjelenésével esett meg. Végre elérték, hogy a termék a gyorsabb legyen a többi piacon lévő más gyártók termékeinél, szuper tulajdonságokkal, erős 2D-s funkcionalitással, mindez belesűrítve egy önálló egységbe.
+
+===Piacvezető: GeForce===
+1999 őszén látott napvilágot a GeForce 256 (NV10). 120 MHz-en futott és profi videógyorsítóval, mozgás kompenzációval, hardware-es alpha-blendig-el, és 4-pixeles pipeline-al látták el. A GeForce lesöpörte vetélytársait, köztük az ATI Rage 128-at, 3dfx Voodoo 3-at, Matrox G400 MAX-ot, és a RIVA TNT2-t. 
+
+Sikerei révén, együttműködésre jutott a Microsoft-al, miszerint az NVIDIA fejleszti a GeForce 3 grafikus kártyát az Xbox játék konzolhoz. A vállalat legjobb mérnökei minden idejüket a projectbe fektették. 
+
+A GTS megérte a fáradtságot és fontos tapasztalatot szereztek a jelentősen integrált magokból, így végeredményül képessé váltak arra, hogy optimalizálják a mag órajelét. A GTS 200 MHz-en futott. A pixel fill arány közel a duplájára ugrott. Új fejlesztések révén elérhetővé vált az S3TC tömörítés, az FSAA, és a fejlesztett MPEG-2 mozgáskompenzáció.
+
+Fontos lépésként útjára bocsájtotta GeForce 2 MX grafikus kártyáját célbavéve az OEM piacot. Két pixel pipeline-al kevesebb volt benne, és 175 MHz-en futott, de később a 200 MHz is elérhetővé vált vele. Középkategóriás áron erős teljesítményével a GeForce 2MX minden idők legsikeresebb grafikus kártyája lett. A mobil gépekbe szánt változat GeForce2 Go néven 2000 végén került forgalomba.
+
+Az NVIDIA sikerei bizonyították, hogy a 3dfx-nek vissza kell szereznie a volt piaci pozícióját. A sokat váratott Voodoo 5 végül nem hozta a beharangozott ígéretét, kudarcba fulladt. Nem lehetett összehasonlítani sem árban sem teljesítményben a GeForce 2-vel. A 3dfx a 2000. év végén csődközeli állapotba került, majd rövidesen az NVIDIA kezébe került heves vitákat kiváltva.<ref>http://www.google.ca/search?hl=en&q=NVIDIA+3dfx+lawsuit&meta=</ref>
+
+Úttörőként a GeForce 3-al, kihasználták a DirectX 8 vertex és pixel shader technológiáját, majd finomra hangolták a GeForce 4 Ti sorozattal. A GeForce 4 Ti, MX, és a Go 2002 januárjában lett bejelentve, az egyik legnagyobb "release" az NVIDIA történetében. A Ti és a Go sorozat mindössze a chip és memoria órajelben különböztek.
+
+=== Az FX széria hiányosságai ===
+Úgy tűnt az NVIDIA piaci pozíciója megtámadhatatlan, és az ipar megfigyelői a NVIDIA-ra úgy hivatkoztak, mint a „grafikus iparág Intel”-ére. Ettől függetlenül a fennmaradt legnagyobb rivális, az Radeon grafikus kártyájával, amit leginkább a GeForce 2 GTS-hez lehet hasonlítani. Válaszuk a GeForce 3-ra a Radeon 8500 volt. A kezdeti driver gondokat leküzdve, a 8500 komoly versenytársat jelentett alacsony árával és komolyabb teljesítményével. Az NVIDIA a Radeon 9700.
+
+Amíg a következő generációs NV2A is dolgoztak. A kezdeti nagyon jó Microsoft-NVIDIA viszony megromlott, s az NVIDIA végül úgy döntött, hogy az a Sony-val dolgozik inkább a PlayStation 3 játékgépen.
+
+Az Xbox vita során az NVIDIA nem konzultált amikor a DirectX 9 specifikációját kihirdették, s az ATI eközben a Radeon 9700 kártyáját elkészítette. Az NVIDIA lebecsülte a Microsoft szabványát és ezért kemény árat fizetett: amint egyre több és több játék kezdte használni a DirectX 9 tudását, a gyenge shader teljesítmény a GeForce FX sorozatú kártyákban egyre nyilvánvalóbbá vált.
+
+{{Infobox_Unternehmen |
+ Name = Nvidia Corporation |
+ Logo = 200px|Logo|
+ Unternehmensform = Aktiengesellschaft|
+ ISIN = US67066G1040|
+ Gründungsdatum = 1993|
+ Sitz = Santa Clara, Kalifornien, USA|
+ Leitung = Jen-Hsun Huang|
+ Mitarbeiterzahl = ca. 4.000 (2007)|
+ Umsatz = 4,10 Mrd. US$ (24. Januar 2007 - 23. Januar 2008)|
+ Branche = Grafikhardware|
+ Homepage = http://www.nvidia.de
+}}
+
+Die '''Nvidia Corporation''' (offiziell: NVIDIA Corporation, lat. ''invidia, ae, f.'' - Neid, Missgunst; tatsächlich wohl von n vidia abgeleitet, wobei "n" für unbegrenzt, unendlich  und "vidia" für sehen steht) ist einer der größten Entwickler von Chipsätzen für Santa Clara, Kalifornien.
+
+== Geschichte ==
+thumb|älteres Logo (bis ca. 2006)
+Das Unternehmen wurde im Januar Prozessoren (GPU) heraus. Da dieser auf der Riva-PC-Grafikchips herausgebracht wurde, welche den Erfolg des Unternehmens begründete.
+
+Im Januar 1999 wurde Nvidia in den GeForce-Grafikchips, die 1999 zum ersten Mal vorgestellt wurde.
+
+Im Dezember 2006 eröffnete das amerikanische Justizministerium ein Verfahren gegen Nvidia, wegen Verstößen gegen das Wettbewerbsrecht<ref>[http://news.zdnet.com/2100-9584_22-6140041.html Justice Dept. subpoenas AMD, Nvidia]</ref>. Ein Jahr Später wählt das berühme Forbes-Magazin Nvidia zur Firma des Jahres 2007, wegen überragender Erfolge in den letzten Jahren.
+
+=== Größere Übernahmen ===
+* Am 15. Dezember 2000 übernahm Nvidia seinen bis dahin größten Konkurrenten im Grafikchip-Markt, den Chip-Designer und Grafikkarten-Fertiger US$ und ist seitdem mit großem Abstand Marktführer in diesem Segment. Außer der Übernahme von Patenten und einigen Mitarbeitern nutzte Nvidia die Übernahme lediglich, um einen Konkurrenten zu beseitigen. Sämtliche Produktlinien von 3dfx wurden umgehend eingestellt. 
+
+* Am 4. August 2003 übernahm Nvidia für den Preis von ungefähr 70 Millionen US$ die 1997 in Santa Clara gegründet Firma MediaQ einen führenden Anbieter von Grafik- und Multimedia-Technologien für drahtlose mobile Endgeräte. Die wichtigsten Absatzbereiche von MediaQ waren 2,5G und 3G Handys, PDAs, LCD Bildschirme sowie andere mobile Endgeräte. Zu den Kunden von MediaQ zählten führende Handy- und PDA-Hersteller wie Mitsubishi, Siemens, Dell, HP, Palm, Philips, Sharp und Sony.
+
+* Am 14. Dezember 2005 übernahm Nvidia für den Preis von ungefähr 52 Millionen US$ die Firma Chipsätze. Außer der Übernahme von Patenten und einigen Mitarbeitern nutzte Nvidia auch diese Übernahme lediglich, um einen Konkurrenten zu beseitigen. Sämtliche Produktlinien der übernommenen Firma wurden umgehend eingestellt. 
+
+* Am 22. März 2006 übernahm Nvidia für den Preis von ungefähr 37 Millionen US$ die finnische Firma Windows Mobile 5.0 basieren heraus. Hybrid Graphics vertrieb keine Produkte an Endkunden, sondern setzte ausschließlich auf den Vertrieb über die Hersteller.
+
+* Am 6. November 2006 übernahm Nvidia für den Preis von ungefähr 357 Millionen US$ die kalifornische Firma ARM basierenden CPUs uns stattete damit z.B. die ersten Generationen der iPods von Apple aus. Nvidia wurde durch die Übernahme schlagartig zu einem der größten Anbieter von so genannten SoC (System on a Chip). Direkt nach der Übernahme wurden alle PortalPlayer-Produktlinien vom Markt genommen und unter Nvidias Markennamen wieder neu aufgelegt. Aktuell versucht Nvidia seine Grafikkartentechnologie mit den CPU-Bausteinen zu verbinden und so in den Handheld-Markt zu bringen. Die dafür aufgelegte Produktreihe nennt sich Tegra.
+
+* Am 30. November 2007 übernahm Nvidia für den Preis von ungefähr 88 Millionen US$ die Mental Images GmbH aus Berlin. Die Mental Images GmbH war ein Entwickler von Raytracing-Software uns ist heute eine unselbstständige Niederlassung von Nvidia. Grund der Übernahme war vermutlich der Einkauf von Wissen in diesem Bereich, da Raytracing als zukünftige Schlüsseltechnologie im Bereich der Computer-(Spiele)-Grafik angesehen wird.
+
+* Am 4. Februar 2008 übernahm Nvidia seinen bis dahin größten Konkurrenten im Physik-Prozessor-Markt, die Firma Ageia<ref>[http://www.Nvidia.com/object/io_1202161567170.html press releases - Nvidia to Acquire AGEIA Technologies] (4. Februar 2008)</ref>. Direkt nach der Übernahme wurden sämtliche Produktlinien des Konkurrenten eingestellt. Die von Ageia entwickelte Technologie zur Physik-Beschleunigung wird aktuell von Nvidia in seine Grafikkartentreiber integriert, so das alle Grafikkarten ab der 8er Gefore-Serie in Zukunft Physik-Beschleunigung in Hardware unterstützen sollen.
+
+=== Umsatz- und Gewinnentwicklung ===
+Weil Nvidia seine gesamte Chipfertigung seit Beginn der Geschäftstätigkeit an externe Partner wie UMC auslagert (und somit keine eigenen Chipfabriken unterhalten muss), war es möglich, in den Anfangsjahren ein extremes Wachstumstempo an den Tag zu legen.
+
+Gebremst wurde dieses Wachstum erst Ende 2002 (Nvidia Geschäftsjahr 2003), als R300 einen enorm leistungsfähigen Grafikchip auf den Markt brachte. Nvidia konnte der Leistungsfähigkeit dieses Designs fast 1,5 Jahre lang nichts gleichwertiges entgegensetzen. Seit Mitte 2005 (Nvidia Geschäftsjahr 2006) wächst Nvidia mit einem seitdem wesentlich breiterem Produktportfolio wieder mit hohem Tempo und bei enormen Gewinnspannen, wobei Haupttreiber des Umsatzes nach wie vor die Grafikkarten sind.
+
+Mit der Einführung der DirectX-10-fähigen Geforce-8-Serie im Jahr 2006/07 (Nvidia Geschäftsjahr 2007/08) erfuhr Nvidia einen weiteren Wachstumsschub, da sich AMDs Konkurrenzprodukt ATI-Radeon-HD-2000-Serie verspätete und sich auch bei Erscheinen im High-End- und Performance-Segment nicht erfolgreich gegen die Nvidia-Karten positionieren konnte.
+
+{| class="prettytable"
+|- bgcolor="#f3f3f3"
+!Zeitraum
+!Umsatz (Mio USD)
+!Gewinn (Mio USD)
+!Umsatzwachstum
+!Umsatzrendite
+|-
+| GJ 1996
+| align="right" | 4
+| align="right" | -3
+| align="right" | ---
+| align="right" | -75%
+|-
+| GJ 1997/8
+| align="right" | 38
+| align="right" | -2
+| align="right" | 850%
+| align="right" | -5%
+|-
+| GJ 1999
+| align="right" | 151
+| align="right" | 4
+| align="right" | 297%
+| align="right" | 3%
+|-
+| GJ 2000
+| align="right" | 375
+| align="right" | 41
+| align="right" | 148%
+| align="right" | 11%
+|-
+| GJ 2001
+| align="right" | 735
+| align="right" | 98
+| align="right" | 96%
+| align="right" | 13%
+|-
+| GJ 2002
+| align="right" | 1.369
+| align="right" | 142
+| align="right" | 86%
+| align="right" | 10%
+|-
+| GJ 2003
+| align="right" | 1.909
+| align="right" | 51
+| align="right" | 39%
+| align="right" | 3%
+|-
+| GJ 2004
+| align="right" | 1.823
+| align="right" | 49
+| align="right" | -5%
+| align="right" | 3%
+|-
+| GJ 2005
+| align="right" | 2.010
+| align="right" | 87
+| align="right" | 10%
+| align="right" | 4%
+|-
+| GJ 2006
+| align="right" | 2.376
+| align="right" | 301
+| align="right" | 18%
+| align="right" | 13%
+|-
+| GJ 2007
+| align="right" | 3.069
+| align="right" | 449
+| align="right" | 29%
+| align="right" | 15%
+|-
+| GJ 2008
+| align="right" | 4.098
+| align="right" | 798
+| align="right" | 34%
+| align="right" | 19%
+|-
+|- 
+| colspan="5"  | 
+|-
+| Q1 2009
+| align="right" | 1.153
+| align="right" | 177
+| align="right" | 37%
+| align="right" | 15%
+|}

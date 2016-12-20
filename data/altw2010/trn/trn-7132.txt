@@ -1,0 +1,74 @@
+La '''constant de la gravitació''' ''G'' (també anomenada ''constant gravitacional'',''constant de la gravitació universal'' o ''constant de Newton'') és una teoria de la relativitat general dEinstein, i no s'ha de confondre amb ''g'', que és l'acceleració causada per la gravetat a la superfície de la Terra a nivell del mar i que té un valor de 9.80665 m/s<sup>2</sup>.
+
+Segons la llei de Newton, la força d'atracció entre dues masses ''m<sub>1</sub>'' i ''m<sub>2</sub>'' és
+
+:<math> F = G \frac{m_1 m_2}{r^2} </math>,
+
+on ''G'' es la constant de la gravitació i ''d'' és la distancia entre llurs centres de massa.
+
+A les equacions d'Einstein de la gravitació, l'atracció gravitacional es dóna no només entre masses, sinó que totes les formes d'energia s'atrauen. Això és conseqüència del Principi de Relativitat, on es postula que massa i energia són de la mateixa naturalesa. És important remarcar que són la font del camp gravitacional (atrauen) i l'objecte d'aquest (són atretes).
+
+En termes de les unitats del SI, el valor de la constant de la gravitació és<ref>[http://physics.nist.gov/cuu/Constants/index.html Fundamental Physical Constants]  Valor de les constants físiques fonamentals  segons el NIST</ref>:
+:<math> G = \left(6.67428 \plusmn 0.00067 \right) \times 10^{-11} \ \mbox{m}^3 \ \mbox{kg}^{-1} \ \mbox{s}^{-2}</math>
+
+Això vol dir que dues masses de 1 newtons.
+
+La incertesa de 150 parts per milió d'aquest valor posa a la constant gravitacional entre les constants físiques més poc precisament mesurades. (Val a dir que les darreres mesures han disminuit la precisió del valor de ''G'' acceptat.) Amb igual incertesa és coneix per tant la massa del Sol. La posició dels planetes és coneguda molt més acuradament, i també el producte de G per la massa del Sol. Per tant els càlculs de la mecànica celeste poder ser efectuats usant la massa solar més bé que amb les unitats del SI (kilogram). En aquest cas usam la constant gaussiana gravitacional:
+
+En physique, la constante de proportionnalité de la loi de la gravitation est notée <math> {G} \ </math>, et est appelée '''constante gravitationnelle''', ou '''constante universelle de gravitation''', ou '''constante de Newton''', ou plus simplement '''grand G'''. La constante gravitationnelle est une constante physique fondamentale qui apparaît dans la loi d'Isaac Newton de la gravitation universelle et dans la théorie de la relativité générale d'Albert Einstein.
+
+La force d'attraction entre deux corps massifs est proportionnelle au produit de leur masse et inversement proportionnelle au carré de la distance qui sépare leurs centres de masse respectifs.
+
+<center>
+{| border=1 cellpadding=10 style="border-collapse:collapse"
+|-----
+| bgcolor="#fff8ff" |<math>F \ = \ G \ \frac{m_1\ m_2}{r^2}</math>
+|-----
+| bgcolor="#fff8ff" |<math>G \ = \ F \ \frac{r^2}{m_1\ m_2}</math>
+|-----
+|}
+</center>
+
+== Valeur == 
+La constante gravitationnelle <Big><math>G</math></Big> est une constante de proportionnalité de la force, elle suit la Loi en carré inverse  des distances et est proportionnelle au produit des masses m1 et m2.
+
+<Big><math>G</math></Big> correspond à la force entre deux masses de un Kilogramme chacune distantes entre elles de un mètre.
+
+Dans les unités SI, le CODATA de 2006 recommande la valeur suivante:
+
+:<math> G\  =\ 6,674\ 28(67) \times 10^{-11} \ \mbox{m}^3 \ \mbox{kg}^{-1} \ \mbox{s}^{-2}</math>,
+
+les chiffres entre parenthèses donnant la valeur de l'incertitude standard, qui est de :
+
+:<math> \plusmn\ 0,000\ 67 \times 10^{-11} \ \mbox{m}^3 \ \mbox{kg}^{-1} \ \mbox{s}^{-2}</math>
+
+Soit une incertitude relative de :
+
+:<math> 1,0 \times 10^{-4}</math>
+
+En termes dimensionnels, on peut également exprimer cette constante en :
+:<math> \ \mbox{N} \ \mbox{m}^2 \ \mbox{kg}^{-2}</math>
+
+Une autre estimation qui fait autorité est donnée par l'Union astronomique internationale (Standish 1995).
+
+== Valeur CGS ==
+
+Dans le système CGS la valeur de la constante est :
+
+:<math> G\ =\ \left(6,674\ 28 \plusmn 0.00067 \right) \times 10^{-8} \ \mbox{cm}^3 \ \mbox{g}^{-1} \ \mbox{s}^{-2} \, </math>
+
+== Valeur GeV/c<sup>2</sup> ==
+
+:<math> G\  =\ 6,708\ 81 \times 10^{-39} \ \left(\mbox{GeV}/c^2\right)^{-2}</math>
+
+Avec une incertitude standard de :
+
+:<math> \plusmn 0,000\ 67 \times 10^{-39} \ \left(\mbox{GeV}/c^2\right)^{-2}</math>
+
+== En unité naturelle== 
+
+Dans les unités dites « naturelles », « G » et les autres constantes physiques comme la vitesse de la lumière « c », ont une valeur de 1.
+
+== Comparaison avec les autres forces fondamentales ==
+
+Quand on compare les quatre forces fondamentales (force de newton, tandis que la particules à la même distance serait d'environ 10<sup>-28</sup> newton, c'est-à-dire 39 ordres de grandeur (ou 10<sup>39</sup> fois) plus importante.

@@ -1,0 +1,143 @@
+{{コムーネ
+|nomeComune_ja = サン・ヴィート・アル・トッレ
+|nomeComune =  San Vito al Torre
+|linkStemma  =  SanVitoalTorre-Stemma.jpg
+|siglaRegione = FVG
+|siglaProvincia  = UD
+|latitudineGradi = 45
+|latitudineMinuti = 54
+|latitudineSecondi = 0
+|longitudineGradi = 13
+|longitudineMinuti = 22
+|longitudineSecondi = 0
+|mappaX = 167
+|mappaY = 43
+|altitudine = 17
+|superficie = 11.58
+|abitanti  =  1,376
+|anno =0031年
+|densita = 118
+|frazioni = Crauglio, Nogaredo al Torre
+|comuniLimitrofi  = アイエッロ・デル・フリウーリ、 カンポロンゴ・アル・トッレ、 キオプリス＝ヴィスコーネ、 メデーア (GO)、 パルマノーヴァ、 ロマンス・ディゾンツォ (GO)、 タポリアーノ、 トリヴィニャーノ・ウディネーゼ、 ヴィスコ
+|cap = 33050
+|prefisso = 0432
+|istat = 030105
+|fiscale = I404
+|nomeAbitanti  =  sanvitesi
+|patrono  = 聖ヴィート <br /> (San Vito)
+|festivo  = 6月15日
+|sito = http://www.comune.sanvitoaltorre.ud.it/
+}}
+'''サン・ヴィート・アル・トッレ''' ('''San Vito al Torre''') は、人口1,376人のイタリア共和国フリウリ＝ヴェネツィア・ジュリア州ウーディネ県のコムーネの一つである。
+== コムーネの行政 == 
+{{イタリアのコムーネの行政|NomeSindaco= Fabrizio De Marco
+|DataElezione=0000年
+|partito= Lista Crauglio San Vito Nogaredo Insieme
+|TelefonoComune= 0432.997013
+|EmailComune= 
+}}
+
+Category:イタリアのコムーネ
+Category:フリウリ＝ヴェネツィア・ジュリア州のコムーネ
+Category:ウーディネ県のコムーネ
+
+eo:San Vito al Torre
+
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = San Vito al Torre |
+  name = San Vito al Torre |
+  region = Friuli-Venezia Giulia |
+  province = Province of Udine (UD) |
+  elevation_m = 17 |
+  area_total_km2   = 11.6 |
+  population_as_of  = Dec. 2004 |
+  population_total = 1359 |
+  population_density_km2 = 117 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          = Crauglio, Nogaredo |
+  telephone         = 0432 |
+  postalcode        = 33050 |
+  gentilic          = sanvitesi |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           = [http://www.comune.sanvitoaltorre.ud.it/ www.comune.sanvitoaltorre.ud.it/] |
+  mapy = 13.3667 |
+  mapx = 45.9000 |
+}}
+'''San Vito al Torre''' is a ''Italian region Friuli-Venezia Giulia, located about 45 km northwest of Trieste and about 20 km southeast of Udine. As of 31 December 2004, it had a population of 1,359 and an area of 11.6 km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+The municipality of San Vito al Torre contains the ''frazioni'' (subdivisions, mainly villages and hamlets) Crauglio and Nogaredo.
+
+San Vito al Torre borders the following municipalities: Medea, Visco.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:3000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:1000 start:0
+ScaleMinor = gridcolor:lightgrey increment:200 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:0
+  bar:1871 from: 0 till:0
+  bar:1881 from: 0 till:0
+  bar:1901 from: 0 till:0
+  bar:1911 from: 0 till:0
+  bar:1921 from: 0 till:1822
+  bar:1931 from: 0 till:1686
+  bar:1936 from: 0 till:1565
+  bar:1951 from: 0 till:1755
+  bar:1961 from: 0 till:1558
+  bar:1971 from: 0 till:1415
+  bar:1981 from: 0 till:1365
+  bar:1991 from: 0 till:1288
+  bar:2001 from: 0 till:1300
+
+PlotData=
+
+  bar:1861 at:0 fontsize:XS text: ? shift:(-8,5)
+  bar:1871 at:0 fontsize:XS text: ? shift:(-8,5)
+  bar:1881 at:0 fontsize:XS text: ? shift:(-8,5)
+  bar:1901 at:0 fontsize:XS text: ? shift:(-8,5)
+  bar:1911 at:0 fontsize:XS text: ? shift:(-8,5)
+  bar:1921 at:1822 fontsize:XS text: 1822 shift:(-8,5)
+  bar:1931 at:1686 fontsize:XS text: 1686 shift:(-8,5)
+  bar:1936 at:1565 fontsize:XS text: 1565 shift:(-8,5)
+  bar:1951 at:1755 fontsize:XS text: 1755 shift:(-8,5)
+  bar:1961 at:1558 fontsize:XS text: 1558 shift:(-8,5)
+  bar:1971 at:1415 fontsize:XS text: 1415 shift:(-8,5)
+  bar:1981 at:1365 fontsize:XS text: 1365 shift:(-8,5)
+  bar:1991 at:1288 fontsize:XS text: 1288 shift:(-8,5)
+  bar:2001 at:1300 fontsize:XS text: 1300 shift:(-8,5)

@@ -1,0 +1,182 @@
+thumbnail|200px|Logotipo de OpenOffice.org.
+thumbnail|200px|Captura de OpenOffice.org 2.0 Writer, o procesador de textos de OpenOffice.org, baixo o [[sistema operativo Windows e en galego.]]
+thumbnail|200px|OpenOffice.org 2.0 Calc, a folla de calculo de OpenOffice.org, baixo o sistema operativo Windows.
+thumbnail|200px|OpenOffice.org 2.0 Impres, o programa de presentacións.
+
+'''OpenOffice.org''' é un conxunto de aplicacións de oficina creado a partir da StarOffice de SISSL. Está dispoñible para Microsoft Windows, sistemas UNIX, (Linux...) e Mac OS X. 
+
+A versión máis recente desta suite ofimática é a 2.2.1.
+
+OpenOffice.org está formado por:
+
+*Writer (procesador de texto)
+*Calc (folla de cálculo)
+*Draw (deseño gráfico)
+*Impress (programa de presentacións)
+*Math (editor de fórmulas matemáticas)
+*Base (base de datos)
+*Un editor visual de páxinas web.
+*Un gravador de macros.
+*Filtros para a importación de ficheiros fomatos de Microsoft Word e outros e para exportación a PDF e Macromedia Flash.
+
+==Véxase tamén==
+*OpenDocument
+*Sun Microsystems
+*StarOffice
+*KOffice
+*Ofimática
+
+== Ligazóns externas ==
+*[http://www.mancomun.org/index.php/content/view/154/107/ OpenOffice.org en galego. Tradución da versión 2.2 e corrector ortográfico normativo] 
+
+*[http://www.openoffice.org OpenOffice.org Páxina do proxecto]
+*[http://ceibe.sourceforge.net/ Ceibe. Proxecto de tradución do Openoffice.org ó galego]
+
+*[http://development.openoffice.org/ OpenOffice.org para desenvolvedores]
+*[http://www.gnome.org/projects/ooo/ GNOME/OpenOffice.org]
+*[http://kde.openoffice.org/ Proxecto de integración con KDE]
+*[http://ooodocs.sourceforge.net/ Proxecto de documentación de OpenOffice.org]
+*[http://193.144.34.245/wiki/index.php/Portada OoDocGal: Creación en comunidade de material didáctico sobre software libre en galego]
+*[http://ooextras.sourceforge.net/ OOExtras: extensións para OpenOffice.org]
+
+Categoría:Software libre
+Categoría:Follas de cálculo
+
+als:OpenOffice.org
+
+{{Infobox Software
+|nome = OpenOffice.org
+|logo = 50px
+|screenshot = 250px
+|didascalia = OpenOffice.org Writer 2.2 eseguito su Ubuntu Linux
+|versione_ultimo_rilascio = 2.4.1
+|data_ultimo_rilascio = 12 giugno 2008
+|versione_beta = 
+|data_versione_beta = 
+|sviluppatore = Sun Microsystems
+|sistema_operativo = Multipiattaforma
+|genere = Software di produttività personale
+|licenza = LGPL 3.0
+|sito_web = [http://www.openoffice.org/ www.openoffice.org]
+}}
+
+'''OpenOffice.org'''<ref>il suffisso ''.org'' è stato inserito a causa di una disputa sul marchio</ref> è una suite di proprietà Sun Microsystems con copyright e licenza '''JCA''', che può essere classificato come software di produttività personale. L'abbreviazione "ufficiale" è '''OOo'''. 
+
+Il progetto ha come obiettivi quelli di fornire a tutti gli utenti un ottimo prodotto libero che possa competere con i prodotti commerciali attualmente dominanti in questo settore.
+Ha la caratteristica di essere compatibile con i formati di file di LZW, lo stesso dei file "ZIP").
+Sono supportate ufficialmente versioni per Linux, Solaris e X11), ma è possibile installarlo anche su altri sistemi operativi.
+
+È disponibile in circa 70 versioni linguistiche ufficiali, a cui si aggiungono progetti di localizzazione "regionali" come, per esempio, la traduzione nei dialetti della sudafricano.
+
+L'ultima versione rilasciata include:
+* Writer (word processor e editor HTML WYSIWYG)
+* Calc (foglio di calcolo)
+* Draw (programma di grafica vettoriale)
+* Impress (programma per creare presentazioni)
+* Math (editor di formule matematiche)
+* Base (database)
+* Registrazione di Macro
+* Esportazione ed importazione nei formati PDF, SVG
+* Gestione nativa del formato ODF.
+
+Nelle prime versioni si era pensato di configurare OpenOffice.org per collegarsi con database come PostgreSQL o MySQL, avendo in questo modo a disposizione le prestazioni e le potenzialità di un vero database.
+
+Dalla versione 2.0 c'è a disposizione una gestione diretta di una base di dati e un'interfaccia utente più versatile simile a quella utilizzata da Microsoft Office.
+
+Progetti aggiuntivi e paralleli di OpenOffice.org riguardano la stesura della documentazione, la localizzazione e la programmazione dell'infrastruttura sulla quali sono costruiti i vari moduli della suite. Esiste anche un progetto che ha come obiettivo quello di creare un archivio comune delle macro.
+
+Dall'Microsoft Office 2008 per Mac OS X (.docx, .xlsx, .pptx ecc.).
+
+== Notizie storiche ==
+Nell'tedesca che produce la suite per l'ufficio StarOffice. La strategia di Sun era quella di fornire un'alternativa al prodotto Microsoft Office, che all'epoca aveva una posizione predominante sul mercato. Nel 2000 la Sun decise di rilasciare i sorgenti di StarOffice alla comunità e fu così che nacque il progetto OpenOffice.org. Questa strategia permise a Sun di accedere ad uno sviluppo rapido con dei costi più contenuti. 
+
+Le versioni di StarOffice a partire dalla versione 6.0 sono basate sul codice di OpenOffice.org (con una relazione simile a quella esistente tra Netscape Navigator e Mozilla Suite), con l'aggiunta di alcuni componenti proprietari.
+
+==Licenza==
+Il codice sorgente attualmente viene rilasciato da Sun come StarOffice, che dopo l'acquisizione da parte di libera. Più precisamente, il codice è soggetto alla licenza LGPL (la licenza LGPL consente all'utente di rilicenziare il codice sotto licenza GPL. La proprieta' esclusiva della ''suite'' impone però un fork al codice (e l'abbandono del nome) nel momento in cui dovesse essere redistribuito o variato, in quanto la licenza JCA impone l'esclusività dei diritti e proventi della ''suite'' solo a favore di Sun; infatti gli sviluppatori che collaborano ad ''OOo'' devono preventivamente accettare di firmare la cessione di ogni diritto futuro a Sun come previsto dalla licenza JCA. 
+
+== OpenOffice.org nel mercato ==
+OpenOffice.org è ora la più importante alternativa all'applicazione per ufficio Microsoft Office, tuttora dominante. La possibilità di leggere e scrivere file anche nei formati Microsoft Office, permette a molti utenti di migrare verso questa piattaforma. OpenOffice.org è in grado di leggere e scrivere i documenti .doc, .xls e .ppt di tutte le versioni di Microsoft Office precedenti al 2007.
+
+OpenOffice.org viene usato in molte amministrazioni pubbliche. Seguono alcuni esempi documentati.
+
+Nel mondo<ref> [http://europa.eu.int/information_society/activities/opensource/cases/index_en.htm Cases of official recognition/adoption of F/OSS] da europa.eu.int</ref>:
+*il governo israeliano
+*Monaco di Baviera e di altri nove municipi tedeschi
+*la municipalità di Vienna
+*la Malesia
+*Singapore
+*la Colombia
+*il Brasile
+*il Perù
+*il Venezuela
+*l'India
+*la Cina
+*il Vietnam
+*la città di Haarlem
+
+In Italia è usato presso:
+*il Comune di Grosseto
+*la Provincia di Genova (nell'ambito del progetto COSPA:<ref> http://www.cospa-project.org</ref>)
+*la Provincia di Pisa
+*circa 60 comuni nella provincia di Bolzano
+*nelle scuole in lingua italiana della provincia di Bolzano (nell'ambito del progetto FUSS:<ref>http://www.fuss.bz.it</ref>)
+*il Corpo dei Vigili Urbani del Comune di Roma
+*dall'A.S.L. Avellino 2
+
+Inoltre OpenOffice.org è usato in ambito scolastico italiano (su raccomandazione del Ministero dell'Istruzione) e sui PC di molti utenti per uso personale.
+
+Altri casi d'uso possono essere trovati [http://linguistico.sourceforge.net/wiki/doku.php?id=openoffice.org#casi_d_uso qui] suddivisi per Mondo.
+
+== Sviluppo ==
+Le API di OpenOffice.org sono costruite secondo le specifiche della piattaforma UNO (Universal Network Objects) e consistono in un'ampia gamma di interfacce collegate tramite definizioni in linguaggio IDL (Interface Description Language).
+
+OpenOffice.org usa una versione modificata di BugZilla (sviluppata da Mozilla Foundation), chiamata IssueZilla che serve a tenere traccia di tutte le richieste, commenti e bug segnalati.
+
+== Componenti ==
+<gallery>
+Immagine:OOoWriter.svg|OpenOffice.org Writer
+Immagine:OOoCalc.svg|OpenOffice.org Calc
+Immagine:OOoImpress.svg|OpenOffice.org Impress
+Immagine:OOoBase.svg|OpenOffice.org Base
+Immagine:OOoDraw.svg|OpenOffice.org Draw
+Immagine:OOoMath.svg|OpenOffice.org Math
+</gallery>
+
+=== Writer ===
+
+thumb|200px|Screenshot di OpenOffice Writer
+
+Writer è un elaboratore di testi simile a Microsoft Word, con funzionalità praticamente analoghe, presenta inoltre alcune caratteristiche non presenti nelle versioni di Word precedenti alla 2007 come la possibilità di esportare i documenti direttamente in formato PDF. Dalla versione 2.3 è implementata la funzione di esportazione dei documenti in formato MediaWiki (Wikipedia).
+Dal 10 settembre 2007 è disponibile come estensione Sun Weblog Publisher per creare/pubblicare Blog.
+
+Il programma è in grado di leggere numerosi formati, incluso il formato RTF e XHTML.
+
+=== Calc ===
+thumb|200px|Screenshot di OpenOffice Calc
+
+Calc è un foglio di calcolo con funzionalità molto simili a Microsoft Excel. Anche da Calc è possibile salvare direttamente in formato PDF.
+
+Il numero massimo di righe gestibili da Calc è 65536 per foglio, pari al numero massimo previsto da Excel in Microsoft Office 2003 (con Microsoft Office 2007 il numero massimo è stato elevato a 1048576) 
+
+Calc è in grado di gestire numerosi formati, compreso il formato proprietario XLS di Excel, sebbene ancora con alcune piccole incompatibilità, soprattutto quando i files contengono macro in VBA o tabelle pivot.
+
+Alcune differenze fra OpenOffice.org Calc ed Excel:
+
+*protezione con password. A partire dalla versione di Openoffice 2.1 è introdotta la funzione di protezione dati con password a livello di singolo foglio o intero documento (a livello di datasheet e file);
+*opzioni di calcolo automatico o manuale delle formule, selezionabile a livello di singolo file. OpenOffice.org non implementa questa opzione per singole celle o fogli di lavoro, ma raggiunge un livello superiore ad Office 2007. Office 2007 consente di selezionare questa opzione ''per tutti file Excel aperti'' in un dato momento. Nelle versioni precedenti la 2007, l'opzione di calcolo dell'''ultimo'' file aperto modifica automaticamente quelle degli altri cui si sta lavorando: questa nuova impostazione di calcolo viene salvata, anche se non sono apportate e salvate modifiche ai fogli di lavoro. La versione 2007 ha risolto questi due problemi: i file Excel mantengono l'opzione di calcolo del ''primo file aperto'' e, se non sono salvate modifiche ai fogli di lavoro, alla riapertura presentano ciascuno l'opzione iniziale;
+*maggiore efficienza in termini di salvataggio, anche in formato .xls. Il formato di Excel ha la particolarità di conservare il file inziale e una cronologia delle modifiche/cancellazioni apportate, che ad ogni apertura viene "eseguita" per ricostruire l'ultima versione salvata. La dimensione di un file Excel modificato più volte non può che aumentare nel tempo. Quando sono eliminati molti record, Excel tiene traccia di tutti i valori cancellati. Un'opzione di questo tipo è utile quando è attiva una funzione di backup e una cronologia delle modifiche, per annullarle se necessario e poter  ripristinare il file precedente. Altrimenti, è un inutile appesantimento del file salvato. Openoffice salva in formato .xls il file come se fosse stato creato dall'inizio; è una scelta dell'utente se tenere traccia della prima versione salvata e delle successive modifiche/cancellazioni. 
+
+=== Impress ===
+thumb|200px|Screenshot di OpenOffice Impress
+
+Impress è un programma per presentazioni, appartenente alla stessa categoria di software di presentazione alla quale appartiene anche Flash.
+
+<br clear="all">
+
+=== Base ===
+thumb|200px|Screenshot di OpenOffice Base
+
+Base è un programma di creazione e gestione di database, simile a Java, del quale Base ne è il front-end (gestore) grafico; ma gli utenti possono usarlo anche per connettersi a un database diverso come MySQL o PostgreSQL. Dalla versione 2.3. è disponibile un Report Builder, un avanzato creatore di Report in modalità grafica, disponibile come estensione anziché integrato direttamente nel modulo Base<ref> [http://extensions.services.openoffice.org/project/reportdesign Sun Report Builder] da extensions.services.openoffice.org</ref>.
+
+<br clear="all">

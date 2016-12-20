@@ -1,0 +1,186 @@
+'''Business process management''' ('''BPM''') is a method of efficiently aligning an organization with the wants and needs of clients.  It is a holistic management approach that promotes business effectiveness and efficiency while striving for innovation, flexibility and integration with technology. As organizations strive for attainment of their objectives, BPM attempts to continuously improve processes - the process to define, measure and improve your processes – a ‘process optimization' process.
+
+== Overview ==
+
+A business process is a collection of related, structured activities that produce a service or product that meet the needs of a client.  These processes are critical to any organization as they generate revenue and often represent a significant proportion of costs.
+
+BPM articles and pundits often discuss BPM from one of two viewpoints: people and technology
+
+====People====
+BPM is considered by some to be a philosophy.BPM alignment to the customer means that customer-facing staff are best suited to understand customer needs and must be empowered to make improvements. Many of these improvements can be done without the use of new technology.
+
+====Technology====
+
+BPM System (BPMS) is sometimes seen as the whole of BPM. Some see that information moves between enterprise software packages and immediately think of Service Oriented Architecture (SOA); while others believe that modeling is the only way to create the ‘perfect’ process, so they think of modeling as BPM.
+
+Both of these concepts go into the definition of Business Process Management.  For instance, the size and complexity of daily tasks often requires the use of technology to model efficiently.  Bringing the power of technology to staff is part of the BPM credo.  Many thought BPM as the bridge between Information Technology (IT) and Business.
+
+BPMS could be industrial specific and can be driven by a software such as warehouse management.  Validation of BPMS is another technical issue which vendors and users need to be aware of, if regulatory compliances are mandatory <ref name=gipe>{{cite web
+  | last = Food and Drug Administration
+  | first = 
+  | authorlink = 
+  | coauthors = 
+  | title = Guidance for Industry : Part 11, Electronic Records; Electronic Signatures - Scope and Application
+  | work =
+  | publisher = 
+  | date = 
+  | url = http://www.fda.gov/Cder/guidance/5667fnl.htm
+  | format =
+  | doi =
+  | accessdate = 16 March
+  | accessyear = 2008 }}</ref><sup>,</sup> <ref name=gpsv>{{cite web
+  | last = Food and Drug Administration
+  | first = 
+  | authorlink = 
+  | coauthors = 
+  | title = General Principles of Software Validation; Final Guidance for Industry and FDA Staff
+  | work =
+  | publisher = 
+  | date = 
+  | url = http://www.fda.gov/cdrh/comp/guidance/938.html
+  | format =
+  | doi =
+  | accessdate = 16 March
+  | accessyear = 2008 }}</ref><sup>,</sup> <ref name=ggpp>{{cite web
+  | last = Food and Drug Administration
+  | first = 
+  | authorlink = 
+  | coauthors = 
+  | title = GUIDELINE ON GENERAL PRINCIPLES OF PROCESS VALIDATION
+  | work =
+  | publisher = 
+  | date = 
+  | url = http://www.fda.gov/CDER/GUIDANCE/pv.htm
+  | format =
+  | doi =
+  | accessdate = 16 March
+  | accessyear = 2008 }}</ref><sup>,</sup> <ref name=svmd>{{cite journal
+| last = Jones
+| first = Randy D. ''et al.''
+| authorlink = 
+| coauthors =  
+| title = Software validation for medical device manufacturing
+| journal = The Quality Assurance Journal
+| volume = 7
+| issue = 4
+| pages = 242–247
+| publisher = John Wiley & Sons
+| date = 2003
+| url = 
+| doi = 10.1002/qaj.245 
+| accessdate = 17 March
+| accessyear = 2008 }}</ref>.  The task could be performed either by an authenticated third party or by user themselves.  In either way, validation documentation need to be generated.  The validation document usually can either be published officially or well retained by users <ref name=esv>{{cite web
+  | last = Mettler Toledo
+  | first = 
+  | authorlink = 
+  | coauthors = 
+  | title = Efficient system validation
+  | work =
+  | publisher = 
+  | date = 
+  | url = http://us.mt.com/mt_ext_files/Editorial/Generic/6/Datasheet_LabX_Validation_0x000248d2000263da00091312_files/LabX_validation_datasheet_e.pdf
+  | format =
+  | doi =
+  | accessdate = 17 March
+  | accessyear = 2008 }}</ref><sup>,</sup> <ref name=21cfrp11>{{cite web
+  | last = Gordon
+  | first = C.
+  | authorlink = 
+  | coauthors = 
+  | title = 21 CFR part 11 - overview
+  | work =
+  | publisher = Mettler Toledo
+  | date = 
+  | url = http://us.mt.com/mt_ext_files/Editorial/Generic/6/UserCom_7_01461112810242541_files/51710185_UserCom_7_e.pdf
+  | format =
+  | doi =
+  | accessdate = 17 March
+  | accessyear = 2008 }}</ref><sup>,</sup> <ref name=vncq>{{cite journal
+| last = Champain
+| first = S. ''et al.''
+| authorlink = 
+| coauthors =  
+| title = Validation of new clinical quantitative analysis software applicable in spine orthopaedic studies
+| journal = European Spine Journal
+| volume = 15
+| issue = 6
+| pages = 982–991
+| publisher = Springer Berlin
+| date = 2006
+| url = 
+| doi = 10.1007/s00586-005-0927-1
+| accessdate = 17 March
+| accessyear = 2008 }}</ref><sup>,</sup> <ref name=fhcs>{{cite journal
+| last = Krupat
+| first = Edward ''et al.''
+| authorlink = 
+| coauthors =  
+| title = The Four Habits Coding Scheme: Validation of an instrument to assess clinicians’communication behavior
+| journal = Patient Education and Counseling
+| volume = 62
+| issue = 1
+| pages = 38–45
+| publisher = Elsevier
+| date = 2006
+| url = 
+| doi = 10.1016/j.pec.2005.04.015 
+| accessdate = 17 March
+| accessyear = 2008 }}</ref>.
+
+==Business process management life-cycle== 
+The activities which constitute business process management can be grouped into five categories: design, modeling, execution, monitoring, and optimization.
+
+150px
+
+===Design===
+
+Process Design encompasses both the identification of existing processes and designing the "to-be" process. Areas of focus include: representation of the process flow, the actors within it, alerts & notifications, escalations, Standard Operating Procedures, Service Level Agreements, and task hand-over mechanisms.
+
+Good design reduces the number of problems over the lifetime of the process. Whether or not existing processes are considered, the aim of this step is to ensure that a correct and efficient theoretical design is  prepared.
+
+The proposed improvement could be in human to human, human to system, and system to system workflows, and might target regulatory, market, or competitive challenges faced by the businesses.
+
+===Modeling===
+
+Modeling takes the theoretical design and introduces combinations of variables, for instance, changes in the cost of materials or increased rent, that determine how the process might operate under different circumstances.
+
+It also involves running "what-if analysis" on the processes: What if I have 75% of resources to do the same task? What if I want to do the same job for 80% of the current cost?
+
+===Execution===
+
+One way to automate processes is to develop or purchase an application that executes the required steps of the process; however, in practice, these applications rarely execute all the steps of the process accurately or completely. Another approach is to use a combination of software and human intervention; however this approach is more complex, making documenting a process difficult.
+
+As a response to these problems, software has been developed that enables the full business process (as developed in the process design activity) to be defined in a computer language which can be directly executed by the computer.  The system will either use services in connected applications to perform business operations (e.g. calculating a repayment plan for a loan) or, when a step is too complex to automate, will message a human requesting input. Compared to either of the previous approaches, directly executing a process definition can be more straightforward and therefore easier to improve. However, automating a process definition requires flexible and comprehensive infrastructure which typically rules out implementing these systems in a legacy IT environment. 
+
+Business rules have been used by systems to provide definitions for governing behavior, and a business rule engine can be used to drive process execution and resolution.
+
+===Monitoring===
+
+Monitoring encompasses the tracking of individual processes so that information on their state can be easily seen and statistics on the performance of one or more processes provided.  An example of the tracking is being able to determine the state of a customer order (e.g. ordered arrived, awaiting delivery, invoice paid) so that problems in its operation can be identified and corrected.
+
+In addition, this information can be used to work with customers and suppliers to improve their connected processes.  Examples of the statistics are the generation of measures on how quickly a customer order is processed or how many orders were processed in the last month. These measures tend to fit into three categories: cycle time, defect rate and productivity.
+
+The degree of monitoring depends on what information the business wants to evaluate and analyze and how business wants it to be monitored, in real-time or ad-hoc. Here, business activity monitoring (BAM) extends and expands the monitoring tools in generally provided by BPMS.
+
+'''Бизнес-процесс''' представляет собой систему последовательных, целенаправленных и регламентированных видов деятельности (операций), достигающих значимых для организации результатов (посредством управляющего воздействия входы процесса преобразуются в выходы = результаты процесса, представляющие ценность для потребителей).
+
+Ключевыми свойствами бизнес-процесса является то, что это конечная и взаимосвязанная совокупность действий, определяемая отношениями, мотивами, ограничениями и ресурсами внутри конечного множества субъектов и объектов, объединяющихся в систему ради общих интересов с целью получения конкретного результата, отчуждаемого или потребляемого самой системой.
+
+В ИТ-сфере может рассматриваться как устойчивый информационный компания может сознательно организовать информационный бизнес-процесс своего основного производства. Бизнес-процесс включает в себя иерархию взаимосвязанных функциональных действий, реализующих одну (или несколько) из бизнес целей компании в информационной системе компании, например, управление и анализ выпуска продукции или ресурсное обеспечение выпуска продукции, под продукцией здесь понимают, например, товары, услуги, решения, документы.
+
+== Моделирование бизнес-процессов ==
+Разработан целый ряд моделей бизнес-процессов, ориентированных на различные отрасли, среди них:
+* eTOM — для отрасли телекоммуникаций
+* [http://idefinfo.ru/ Стандарты, нотации и технологии системного проектирования]
+* [http://www.ebload.ru/content/view/50/6/ Бизнес процессы. Основные понятия. Теория. Методы.]
+
+== Инструменты ==
+* [http://www.mega.com MEGA Modeling Suite]
+* [http://www.ids-scheer.ru ARIS]
+* [http://www.bpwin.ru BPWin (сейчас — AllFusion Process Modeler)]
+* [http://www.rationalrose.com IBM Rational Rose]
+* [http://www.fox-manager.com.ua Fox Manager]
+* [http://www.businessstudio.ru Business Studio]
+* [http://www.w4.eu W4] Инструмент BPM с разрешениями BAM и BI
+* [http://www.begc.ru/instruments/ Бизнес Инжиниринг Групп] Программы бизнес-моделирования
+* [http://www.microsoft.com/rus/office2003/Visio/Default.mspx Microsoft Office Visio 2003]

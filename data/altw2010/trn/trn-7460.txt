@@ -1,0 +1,84 @@
+Ein '''Thermometer''' ist ein Messgerät zur Erfassung der Temperatur.
+
+Ein auf Schwerkraft und temperaturabhängiger Dichte einer Flüssigkeit basierendes Thermometer - das Galileo-Thermometer - wurde 1592 von Galileo Galilei erfunden.
+thumb|180px|[[Flüssigkeitsthermometer]]thumb|180px|Digitales Thermometer
+
+Man unterscheidet nach Aufbau und/oder verwendetem Sensor:
+
+Berührungsthermometer erfordern einen Wärmekontakt zum Messobjekt:
+*Ausdehnungsthermometer (Flüssigkeitsthermometer, Bimetallthermometer)
+*Fieberthermometer zum Messen der Körpertemperatur, früher meist Quecksilberthermometer, heute zunehmend elektronische Thermometer oder Pyrometer.
+*Bimetallthermometer (Auswertung unterschiedlicher Ausdehnungskoeffizienten zweier aufeinander angebrachter unterschiedlicher Metallplättchen)
+*elektronische Thermometer mit Schaltkreisen) 
+*Silizium
+*Thermometer mit Thermoelementen (NiCr/Ni, Pt/PtRh, Fe/Konstantan usw.)
+*Gasthermometer (Auswertung einer Druckmessung)
+*Dampfdruckthermometer (Zusammenhang zwischen Dampfdruck einer Flüssigkeit und der absoluten Temperatur - Clausius-Clapeyron-Gleichung)
+*Heizungs-Thermostat-Mischbatterien arbeiten mit einem wachsgefüllten Dehnstoffelement.
+thumb|180px|Berührungslose Temperaturmessung mit Niedertemperatur-[[Pyrometer (Laser-Messfleckmarkierung)]]
+Bei Berührungsthermometern treten Messfehler aufgrund unzureichendem Wärmekontakt zum Messobjekt und/oder zu großer Wärmeableitung durch das Thermometer auf.
+
+'''Berührungslos''' messende Thermometer:
+*Ramanthermometer, basierend auf der Ramanspektroskopie (siehe auch Faseroptische Temperaturmessung), benutzen einen frequenzstabilen Messstrahl und werten dessen Rückstreuung aus. Sie können ortsaufgelöst entlang einer Dimension messen.
+*Strahlungsthermometer (Pyrometer) messen anhand der Wärmestrahlung des Messobjektes
+**Niedertemperaturpyrometer (ca. -20…200 °C), Messwellenlänge um 5…15&nbsp;µm
+**Hochtemperaturpyrometer (ca. 400…3000 °C), Messwellenlängen 1…1,5…µm<br />
+thumb|180px|[[Thermografie]]
+Ein Sonderfall der Strahlungsthermometer sind die Thermografie-Kameras. Sie liefern zweidimensionale Temperaturprofile (Thermobilder) die in Medizin, Technik und Bauwesen verwendet werden.<br />
+Der Anzeige der Thermografie dienende Software erzeugt oft eine Falschfarbendarstellung, bei der jeder Farbe eine Temperatur zugeordnet werden kann. Im Bild ist dazu ein Farbkeil mit einer Temperaturskala eingeblendet.
+
+Bei der Strahlungstemperaturmessung treten Messfehler aufgrund unterschiedlicher Emissionskoeffizienten auf.
+
+thumb|right|A clinical [[mercury thermometer]]
+The '''thermometer''' is a device that measures Greek for mercury thermometer) in which some physical change occurs with temperature, plus some means of converting this physical change into a value (e.g. the scale on a mercury thermometer).  Industrial thermometers commonly use electronic means to provide a digital display or input to a computer.
+
+Thermometers can be divided into two groups according to the level of knowledge about the physical basis of the underlying thermodynamic laws and quantities. For '''primary thermometers''' the measured property of matter is known so well that temperature can be calculated without any unknown quantities. Examples of these are thermometers based on the equation of state of a gas, on the current of an electrical resistor, and on the angular radioactive nuclei in a magnetic field.
+
+'''Secondary thermometers''' are most widely used because of their convenience. Also, they are often much more sensitive than primary ones. For secondary thermometers knowledge of the measured property is not sufficient to allow direct calculation of temperature. They have to be calibrated against a primary thermometer at least at one temperature or at a number of fixed temperatures. Such fixed points, for example, superconducting transitions, occur reproducibly at the same temperature.
+
+Internationally agreed temperature scales are based on fixed points and interpolating thermometers. The most recent official temperature scale is the K to approximately 1358 K (−272.5 °C to 1085 °C). 
+    
+== Early history ==
+thumb|right|150px|[[Galileo thermometer]]
+Various authors have credited the invention of the thermometer to Abū Alī ibn Sīnā (usually known as Avicenna), Santorio Santorio. The thermometer was not a single invention, however, but a development.
+
+Philo and Hero of Alexandria knew of the principle that certain substances, notably air, expand and contract and described a demonstration in which a closed tube partially filled with air had its end in a container of water.<ref>T. D. McGee (1988) ''Principles and Methods of Temperature Measurement'' ISBN 0471627674</ref> The expansion and contraction of the air caused the position of the water/air interface to move along the tube.
+
+Such a mechanism was later used to show the hotness and coldness of the air with a tube in which the water level is controlled by the expansion and contraction of the air. These air thermometers were developed by Avicenna in the early 11th century,<ref>Robert Briffault (1938). ''The Making of Humanity'', p. 191</ref><ref>Fatima Agha Al-Hayani (2005). "Islam and Science: Contradiction or Concordance", ''Zygon'' '''40''' (3), p. 565-576.</ref> and by several European scientists in the 16th and 17th centuries, notably Galileo Galilei. As a result, devices were shown to produce this effect reliably, and the term thermoscope was adopted because it reflected the changes in sensible heat (the concept of temperature was yet to arise).  The difference between a thermoscope and a thermometer is that the latter has a scale<ref>T. D. McGee (1988) ''Principles and Methods of Temperature Measurement'' page 3, ISBN 0471627674</ref>. Though Galileo is often said to be the inventor of the thermometer, what he produced was a thermoscope.
+
+Galileo also discovered that objects (glass spheres filled with aqueous alcohol) of slightly different densities would rise and fall, which is nowadays the principle of the Galileo thermometer (shown).  Today such thermometers are calibrated to a temperature scale.
+
+The first clear diagram of a thermoscope was published in 1617 by Giuseppe Biancani: the first showing a scale and thus constituting a thermometer was by Robert Fludd in 1638.  This was a vertical tube, with a bulb at the top and the end immersed in water.  The water level in the tube is controlled by the expansion and contraction of the air, so it is what we would now call an air thermometer.<ref>T. D. McGee (1988) ''Principles and Methods of Temperature Measurement'', pages 2-4 ISBN 0471627674</ref>
+
+The first person to put a scale on a thermoscope is variously said to be Santorio Santorio<ref>[http://galileo.rice.edu/sci/santorio.html The Galileo Project: Santorio Santorio]</ref> in about 1611 to 1613.
+
+The word thermometer (in its French form) first appeared in 1624 in ''La Récréation Mathématique'' by J. Leurechon, who describes one with a scale of 8 degrees<ref>R. P. Benedict (1984) Fundamentals of Temperature, Pressure, and Flow Measurements, 3rd ed,  ISBN 0-471-89383-8 page 4</ref>.
+
+The above instruments suffered from the disadvantage that they were also barometers, i.e. sensitive to air pressure. In about 1654 Ferdinando II de' Medici, Grand Duke of Tuscany, made sealed tubes part filled with alcohol, with a bulb and stem, the first modern-style thermometer, depending on the expansion of a liquid, and independent of air pressure<ref>R. P. Benedict (1984) Fundamentals of Temperature, Pressure, and Flow Measurements, 3rd ed, ISBN 0-471-89383-8 page 4</ref>.  Many other scientists experimented with various liquids and designs of thermometer.
+
+However, each inventor and each thermometer was unique—there was no standard scale.  In mercury (which has a high coefficient of expansion) for the first time and the quality of his production could provide a finer scale and greater reproducibility, leading to its general adoption.  In 1742 Anders Celsius proposed a scale with zero at the boiling point and 100 degrees at the melting point of water<ref>R. P. Benedict (1984) Fundamentals of Temperature, Pressure, and Flow Measurements, 3rd ed, ISBN 0-471-89383-8 page 6</ref>, though the scale which now bears his name has them the other way around 
+
+In clinical thermometer that produced a body temperature reading in five minutes as opposed to twenty<ref name="Allbutt">[http://www.britannica.com/eb/article-9005775 Sir Thomas Clifford Allbutt], ''Encyclopædia Britannica''</ref>.
+
+== Types of thermometers ==
+thumb|right|[[Mercury-in-glass thermometer]]
+thumb|right|Cooking thermometers used to measure the temperature of steamed milk
+Thermometers have been built which utilise a range of physical effects to measure temperature. Most thermometers are originally calibrated to a constant-volume gas thermometer. Temperature sensors are used in a wide variety of scientific and engineering applications, especially measurement systems.  Temperature systems are primarily either electrical or mechanical, occasionally inseparable from the system which they control (as in the case of a mercury thermometer).  
+*Alcohol thermometer
+*Beckmann differential thermometer
+*Bi-metal mechanical thermometer
+*Electrical resistance thermometer
+*Galileo thermometer
+*Infrared thermometer
+*Liquid Crystal Thermometer
+*Medical thermometer (e.g. oral thermometer, rectal thermometer, basal thermometer)
+*Mercury-in-glass thermometer
+*Reversing thermometer
+*Silicon bandgap temperature sensor
+*Six's thermometer- also known as a '''Maximum minimum thermometer'''
+*Thermistor
+*Thermocouple
+*Coulomb blockade thermometer
+*Pill Thermometer
+
+==Calibration==

@@ -1,0 +1,126 @@
+{{ItaliaanseGemeente|
+|naam= Moncestino
+|italiaansenaam= 
+|kaart= 
+|provincie= Alessandria (AL)
+|regioAfk=  PMN
+|regio= Piëmont
+|jaar= 31-12-2004
+|inwonersaantal= 238
+|inwonersperkm2= 37
+|oppervlakte= 6,4
+|water= 
+|latitudeGraden= 45
+|latitudeMinuten= 9
+|latitudeSeconden= 0
+|longitudeGraden= 8
+|longitudeMinuten= 10
+|longitudeSeconden= 0
+|kaartX= 42
+|kaartY= 67
+|code= 006099
+|postcode= 15020
+|netnummer= 0142
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|beschermheilige= 
+|naam inwoner= 
+|diverse= <small>bron: [http://www.istat.it/ Italiaans bureau voor statistiek]<small>  
+}} 
+'''Moncestino''' is een gemeente in de Italiaanse provincie Alessandria (regio Piëmont) en telt 238 inwoners (31-12-2004). De oppervlakte bedraagt 6,4 km², de bevolkingsdichtheid is 37 inwoners per km².
+
+==Demografie==
+Moncestino telt ongeveer 123 huishoudens. Het aantal inwoners daalde in de periode 1991-2001 met 1,3% volgens cijfers uit de tienjaarlijkse volkstellingen van ISTAT.
+
+{| class="prettytable" style="text-align:center;"  
+! width=70px  | Jaar 
+! width=100px | Inwoneraantal
+|- 
+| 1991 || 229
+|- 
+| 2001 || 226
+|}
+
+==Geografie==
+
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = Moncestino |
+  name = Moncestino |
+  region = Piedmont |
+  province = Province of Alessandria (AL) |
+  elevation_m =  |
+  area_total_km2   = 6.4 |
+  population_as_of  = Dec. 2004 |
+  population_total = 238 |
+  population_density_km2 = 37 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          =  |
+  telephone         = 0142 |
+  postalcode        = 15020 |
+  gentilic          =  |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           =  |
+  mapy = 8.1667 |
+  mapx = 45.1500 |
+}}
+'''Moncestino''' ('''Monsëstin''' in Piedmontese) is a ''Italian region Piedmont, located about 40 km east of Turin and about 45 km northwest of Alessandria. As of 31 December 2004, it had a population of 238 and an area of 6.4 km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+Moncestino borders the following municipalities: Crescentino, Fontanetto Po, Gabiano, Verrua Savoia, and Villamiroglio.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:2000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:1000 start:0
+ScaleMinor = gridcolor:lightgrey increment:200 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:930
+  bar:1871 from: 0 till:955
+  bar:1881 from: 0 till:920
+  bar:1901 from: 0 till:759
+  bar:1911 from: 0 till:746
+  bar:1921 from: 0 till:660
+  bar:1931 from: 0 till:587
+  bar:1936 from: 0 till:541
+  bar:1951 from: 0 till:506
+  bar:1961 from: 0 till:451
+  bar:1971 from: 0 till:357
+  bar:1981 from: 0 till:231
+  bar:1991 from: 0 till:229
+  bar:2001 from: 0 till:226
+
+PlotData=

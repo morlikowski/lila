@@ -1,0 +1,69 @@
+This is the ALTW 2010 shared task dataset. A detailed description of the task
+is available at
+
+  http://aclweb.org/anthology-new/U/U10/U10-1003.pdf
+
+
+Please cite the a/m if you make use of this dataset. The bibtex entry is as
+follows:
+
+@INPROCEEDINGS{Baldwin-Lui:2010:ALTA2010,
+  author = {Timothy Baldwin and Marco Lui},
+  title = {Multilingual Language Identification: ALTW 2010 Shared Task Data},
+  booktitle = {Proceedings of the Australasian Language Technology Association Workshop 2010},
+  year = {2010},
+  pages = {4--7},
+  address = {Melbourne, Australia},
+  month = {December},
+  url     = {http://www.aclweb.org/anthology/U/U10/U10-1003},
+  urlALTA = {http://www.alta.asn.au/events/alta2010/proceedings/pdf/U10-1003.pdf}
+}
+
+The homepage for the shared task is at 
+
+  http://comp.mq.edu.au/programming/
+
+It contains the full instructions provided to the compeititors, as well as the
+final outcome. The best system attained a macro-averaged F-score of 0.932.
+
+This folder also contains the Python program used to prepare the dataset. 
+This program depends on the wikidump module (https://github.com/saffsd/wikidump),
+and also requires the full Wikipedia dump exports to be indexed. This program
+is mostly provided as a reference for how the dataset was construted.
+
+The folders trn/dev/tst contain the train/develop partitions that were circulated
+to task participants, as well as the tst partition that was kept not given to
+participants but was only used for evaluation purposes. 
+
+We also provide two metadata files for each partition. The first type is the
+*-lang file, which only provides the filename and the language(s) present
+in the file. Multilingual documents have multiple lines in the *-lang file.
+Task participants were only provided with trn-lang and dev-lang.
+
+*-summary contains more detailed information about each document. Each line is
+of the following format:
+
+  docid,pri_lang,pri_id,pri_len,sec_lang,sec_id,sec_len
+
+For example:
+
+  trn-7169.txt,fr,256772,1301,en,901643,3591
+
+The fields have the following meanings:
+
+docid:      name of the document
+pri_lang:   language of the primary section
+pri_id:     document # in the wikipedia dump of the primary section
+pri_len:    length of primary section in bytes 
+sec_lang:   language of the secondary section
+sec_id:     document # in the wikipedia dump of the secondary section
+sec_len:    length of secondary section in bytes 
+
+For clarifications or further information, please contact Marco Lui 
+<mhlui@unimelb.edu.au> or Tim Baldwin <tb@ldwin.net>.
+
+Like the original Wikipedia data from which this dataset is prepared,
+this dataset is licensed under the terms of CC-BY-SA 3.0 
+(http://creativecommons.org/licenses/by-sa/3.0/).
+
+Marco Lui, July 2012

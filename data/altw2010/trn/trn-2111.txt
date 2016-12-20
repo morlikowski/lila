@@ -1,0 +1,57 @@
+__NOTOC__
+
+Der '''Beweis der Irrationalität der eulerschen Zahl''' <math>e</math> ist mit elementaren Mitteln der Analysis als Widerspruchsbeweis durchführbar. Er wurde zuerst 1737 von Leonhard Euler in der hier angegebenen Weise geführt.
+
+Der Beweis, dass <math>e</math> sogar transzendent ist, ist komplizierter und wurde zuerst 1873 von Charles Hermite geführt.
+
+== Beweis ==
+
+=== Annahme ===
+Wir starten mit der von Reihe 
+:<math>e = 1 + \frac{1}{1!} + \frac{1}{2!} + \frac{1}{3!} + \frac{1}{4!} + \dots 
+         = \sum_{n=0}^{\infty}{\frac{1}{n!}}</math>.
+
+Wie sich leicht zeigen lässt, gilt <math>2<e<3\!</math>.
+
+Wir nehmen nun an, die reelle eulersche Zahl <math>e</math> sei rational. Dann ließe sie sich als vollständig gekürzter Bruch <math>e = \frac{p}{q}</math> mit <math>p, q \in \mathbb{N}</math> darstellen. Da <math>2<e<3\!</math>, ist <math>e</math> keine ganze Zahl, und somit ist q > 1.
+Wir multiplizieren die Reihenentwicklung mit <math>q!</math>, womit wir diese neue Reihe erhalten:
+:<math>\begin{matrix} 
+         \underbrace{q! \cdot e} &=& \\ 
+         \in \mathbb{N}
+       \end{matrix}
+       \begin{matrix} 
+         \underbrace{q! + \frac{q!}{1!} + \frac{q!}{2!} + \frac{q!}{3!} + \cdots + \frac{q!}{q!}} &+& \\ 
+         N \in \mathbb{N} 
+       \end{matrix}
+       \begin{matrix} 
+         \underbrace{\frac{q!}{(q+1)!} + \frac{q!}{(q+2)!} + \cdots} \quad &(*)& \\ 
+         0 < M < 1 
+       \end{matrix} 
+ </math>
+
+=== Linke Seite ===
+Es ist <math>q! \cdot e = q! \cdot \frac{p}{q} = (q-1)! \cdot p \in \mathbb{N}</math>, da nach Voraussetzung <math>p, q \in \mathbb{N}</math>.
+
+In e''
+
+: <math>e = \sum_{n = 0}^{\infty} \frac{1}{n!}\!</math>
+can be used to prove that ''e'' is irrational. Of the many representations of e, this is the Taylor series for the exponential function ''e''<sup>''y''</sup> evaluated at ''y''&nbsp;=&nbsp;1.
+
+==Summary of the proof==
+This is a proof by contradiction.  Initially ''e'' is assumed to be a rational number of the form ''a''/''b''.  We then analyze a blown-up difference ''x'' of the series representing ''e'' and its strictly smaller ''b''th partial sum, which approximates the limiting value ''e''.  By choosing the magnifying factor to be ''b''!, the fraction ''a''/''b'' and the ''b''th partial sum are turned into integers, hence ''x'' must be a positive integer. However, the fast convergence of the series representation implies that the magnified approximation error  ''x'' is still strictly smaller than 1. From this contradiction we deduce that ''e'' is irrational.
+
+==Proof==
+Suppose that ''e'' is a rational number. Then there exist positive integers ''a'' and ''b'' such that ''e'' = ''a''/''b''.
+
+Define the number
+
+:<math>\ x = b!\,\biggl(e - \sum_{n = 0}^{b} \frac{1}{n!}\biggr)\!</math>
+
+To see that ''x'' is an integer, substitute ''e'' = ''a''/''b'' into this definition to obtain
+
+:<math>
+x = b!\,\biggl(\frac{a}{b} - \sum_{n = 0}^{b} \frac{1}{n!}\biggr)
+= a(b - 1)! - \sum_{n = 0}^{b} \frac{b!}{n!}\,.
+</math>
+
+The first term is an integer, and every fraction in the sum is an integer since ''n''≤''b'' for each term. Therefore ''x'' is an integer.

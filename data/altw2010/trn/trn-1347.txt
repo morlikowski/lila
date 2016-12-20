@@ -1,0 +1,59 @@
+'''BSD''' (ang. ''Berkeley Software Distribution'', czasami nazywany ''Berkeley Unix'') - odmiana systemu operacyjnego Uniwersytecie Kalifornijskim Berkeley rozszerzeń dla systemu rozwijanego przez firmę licencji BSD, na której te systemy są wydawane, oraz pokrewnych licencji tego typu (np. licencja MIT).
+
+=== Historia powstania ===
+Niedługo po powstaniu pierwszych wersji Uniksa, dr Pascal. W latach 1975-76 Bill Joy i Chuck Haley doskonalili kompilator a także jądro systemu operacyjnego, a swoje poprawki odsyłali do Bell Labs.
+
+Te i inne poprawki stały się podstawą do wypuszczenia ''1<sup>st</sup> Berkeley Software Distribution'', w której skład wchodził także udoskonalony kompilator Pascala oraz edytor biblioteką vi. W 1978 została wypuszczona wersja VAX-a.
+
+W roku 1979 powstał ''VAX/BSD'', który oprócz typowych dodatków rodem z BSD zawiera także zarządzanie pamięcią wirtualną - czego brak było w systemie AT&T - a także kilka narzędzi z tego systemu. Wkrótce po tym Unix stał się produktem komercyjnym.
+
+W tym samym czasie projekt BSD zyskał zainteresowanie amerykańskiej agencji 1980 dostał grant na dodanie wymaganych przez DARPA rozszerzeń. Dalszy rozwój trwał, co zaowocowało wersjami ''4'' i ''4.1BSD''. Wersja 4.1 zawierała już ulepszoną obsługę poczty, ulepszone jądro, Pascala, Lispa oraz obsługę nowych VAX-ów 11/750.
+
+Agencja była usatysfakcjonowana i sfinansowała dalsze prace, co zaowocowało dodaniem 4.2BSD, których dostarczono około 1000, a więc bardzo dużo jak na tamte czasy, a jej sukcesu dopełnia fakt, że na podstawie jej kodu AT&T włączyła obsługę sieci i pamięci wirtualnej do słynnego ''Systemu Piątego''.
+
+=== Rodzina BSD ===
+Udostępniony w 1986 4.3BSD jako pierwszy zawierał daemona nazw świeżo zainicjowanego systemu 4.4BSD oraz powstające na jego bazie komercyjne (386/BSD -> BSD/OS) i wolne systemy operacyjne (386BSD, NetBSD, FreeBSD) stały się ofiarą procesu o nieprawne korzystanie z kodu zastrzeżonego przez AT&T a potem - po sprzedaniu USL - Novella.
+
+W wyniku ugody pomiędzy Uniwersytetem Kalifornijskim Berkeley a Novellem, do której doszło w czerwcu 1994, 4.4BSD Lite (uboższa wersja 4.4BSD pozbawiona większości spornego kodu) zostało uznane za wolne od wszelkich roszczeń. Proces jednak na długo zahamował rozwój BSD oraz związanych z nim projektów pokrewnych (niektóre jak BSD/OS (3.0) oraz nigdy nieukończonego Rhapsody firmy Apple Computer.
+
+Niektórzy członkowie rodziny systemów BSD:
+*4.2BSD, 4.3BSD, 4.4BSD
+*BSD/OS
+*386BSD
+*NetBSD
+*FreeBSD
+*DesktopBSD
+*OpenBSD
+*Darwin (Mac OS X)
+*Rhapsody
+*SunOS
+*DragonFly BSD
+*PC-BSD
+*FreeNAS
+
+'''Berkeley Software Distribution (BSD)''' er et felles navn for unix-baserte operativsystemer som ble utviklet ved University of California, Berkeley på 1970-tallet. Navnet brukes også på moderne varianter av programvaren.
+
+==Historie==
+I den tidlige dataalderen ga det amerikanske telefoni- og IT-selskapet AT&T Bell Laboratories en generell lisens til Berkeley og andre universiteter som ga de mulighet til å bruke og utvide kildekoden til deres UNIX operativsystem. Berkeley brukte systemet som basis for forskning innen design av operativsystemer på 1970-tallet og 1980-tallet.
+
+Etter en stund hadde nesten alle komponenter i de forskjellige systemene som universitetene brukte blitt byttet ut, og på begynnelsen av 1990-tallet ble kildekoden til BSD frigitt under en proprietær BSD-lisens. Dette førte til en opphavsrett-disputt imellom Berkeley og AT&T som ble avgjort i Berkeleys favør. Dette førte til at BSD ble et fritt operativsystem.
+
+==Teknologi==
+BSD var en pionér innen data, og svært mye av det som i dag anses som standard ble utviklet ved universitetet. Berkeleys UNIX-variant var den første distribusjonen med støtte for Internett-protokoller; Berkeley Sockets. Dette gjorde det like enkelt å lese og skrive filer over et nettverk som direkte til en lokal harddisk. AT&T lanserte senere en egen variant, STREAMS, som hadde omtrent samme funksjonalitet som Berkeley Sockets, men på det tidspunktet hadde BSDs variant allerede fått et godt fotfeste.
+
+==Distribusjoner==
+Følgende operativsystemer stammer i dag fra BSD:
+* Apple Darwin/Mac OS X
+* DragonFly BSD
+* ekkoBSD
+* FreeBSD
+* MicroBSD
+* MirBSD
+* NetBSD
+* OpenBSD
+* PicoBSD
+
+I tillegg var tidlige versjoner av Sun OS (Solaris) basert på kildekode fra BSD.
+
+== Eksterne lenker ==
+* [http://www.nobug.no/ NOBUG, Norwegian BSD User Group]

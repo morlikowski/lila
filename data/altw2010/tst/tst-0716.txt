@@ -1,0 +1,54 @@
+'''Live-CD''' — назва версії операційної системи, яка не вимагає установки на BIOS завантаження з CD-ROM, після чого перезавантажити комп'ютер.
+
+Система завантажиться з CD, що містить Live-CD. Особливість Live-CD — відсутність необхідності в жорсткому диску, можливість запуску ОС на комп'ютері без попередньої установки на вінчестер. На одному диску може міститися ОС, графічна оболонка (KDE, Gnome тощо), набір програм, наприклад офісний пакет OpenOffice.org, музичний плеєр, відеоплеєр, графічний редактор GIMP й інші програми, які можуть знадобитися користувачеві.
+
+Існують Live-CD різного призначення і обсягу. Наприклад, дистрибутив Knoppix призначений для ознайомлення з Linux, для використання для роботи з офісними документами, для прослуховування музики. Загалом, це Live-CD дистрибутив для дому й офісу. Knoppix займає близько 700 Мб, тобто один CD.
+
+Існують також Live-CD, призначені тільки для відновлення операційної системи, наприклад після того, як були зіпсовані файли конфігурації ОС. Наприклад, для цього можна використовувати дистрибутив LNX-BBC, який займає близько 48 Мб і поміщається на CD формату візитної картки. На цьому диску вміщаються близько 1000 різноманітних утиліт, включаючи системні, які можна використовувати для відновлення системи.
+
+Майже кожна сучасна операційна система може бути стартована з Live-CD — Лінукс, FreeBSD, NetBSD, OpenBSD, OpenSolaris, Windows, FreeDOS і тп.
+
+'''Live CD'''（ライブシーディー）とは、コンパクトディスクからハードディスクドライブにインストールすることなしにオペレーティングシステムを起動させることである。
+
+通常、オペレーティングシステムを利用可能な環境を構築するには、主にコンパクトディスクや光ディスクからオペレーティングシステムのインストーラーを起動させ、そこでオペレーティングシステムの起動に必要なデータをハードディスクドライブに転送させる工程が必要があるが、LiveCDでは光ディスクを挿入するだけでそのまま利用可能な環境が構築された状態でオペレーティングシステムが起動する。
+
+ハードディスクにインストールされたオペレーティングシステムではハードディスクドライブ上にファイルが保存されるが、LiveCDではそれらのファイルをRAMと同様の一時記憶メモリ内に認識するため（メモリ量が減少する。そのため、LiveCDでは256MBから512MBまたはそれ以上のメモリが搭載された環境で利用することが望ましいとされる。
+
+LiveCDはコンパクトディスクの他に、DVD(Live DVD)、フロッピーディスク(Live floppy)、USBメモリ(Live USB)といった補助記憶装置（特にリムーバブルメディア）からも同様に扱うことができる。
+<!--
+通常のLiveCDでは、ユーザーの行為無しにハードディスク内にインストールされているオペレーティングシステムやファイルを変更することはできないため、ユーザーが明示的にハードディスク内に存在するファイルを変更・削除しない限り、ハードディスク内のファイルに影響を与えること無く使用することができる。
+-->
+
+== 主なLiveCD ==
+=== Apple Macintosh OSベースのLiveCD ===
+* フロッピーディスク上またはCD上にあるMac OSのシステムフォルダ
+* BootCD from Charlessoft for Mac OS X
+* Clone X from Tri-Edre for Mac OS X - Commercial Product
+
+=== BSDベースのLiveCD ===
+* DragonFly BSD
+* FreeSBIE - FreeBSDベース。
+* NeWBIE - NetBSDベース。
+* Frenzy mini-CD - FreeBSDベース。
+* NetBSD - [ftp://ftp.netbsd.org/pub/NetBSD/NetBSD-archive/iso/2.0/i386live.iso NetBSD公式のimageファイル]([ftp://ftp.netbsd.org/pub/NetBSD/NetBSD-archive/iso/2.0/README.i386live 参考書類](英語))。
+* Anonym.OS - 安全な匿名Webブラウズ用LiveCD。OpenBSDベース。
+* Olive BSD - 軽量WindowマネージャーのIceWMとROX-Filerを利用する。OpenBSDベース。
+* [http://kaw.ath.cx/openbsd/?LiveCD 河豚板 (FuguIta)] - 日本での使用に特化。少メモリ・ロースペックマシンでも動作。OpenBSDベース。
+
+=== LinuxベースのLiveCD ===
+
+LinuxベースのLiveCDを'''1CD Linux'''などと表記されることがある。
+* Debian Live - Debian Etch / Sid ベースのLiveCD。Debian Live Project によるリリース。
+* KNOPPIX - DebianベースのオリジナルLiveCD。
+* Damn Small Linux - ビジネスカードサイズのCDやUSB pendrive向けの軽量なKnoppix。
+* dyne:bolic - マルチメディアの製作・配給向け。
+* Mandriva One - MandrivaによるLiveCD。GNOME版とKDE版がある。
+* MEPIS - Debian (APT compatible) 導入者向け。
+* Morphix - GNOMEやWindowマネージャーのfluxboxを使用。Debianベース。
+* Puppy Linux - 50-90MB前後の軽量LiveCD。CDやDVD自身へのデータ書き戻し可能。
+* MandrakeによるLiveCDプロジェクト。
+* sidux - Debian sid ベースの、sidux プロジェクトによる LiveCD。[http://2.csx.jp/livecdroom/#sidux 日本語版]
+* SLAX - Slackwareの派生ソフト。 モジュールと非常に簡単なリマスターを持つ。
+* Ubuntu - 非常にポピュラーなDebian派生ディストリビューション。
+* Fedora - Fedora 7より同時リリース。Fedora Project内のFedoraLiveCD プロジェクトによるリリース。
+* Berry Linux - 日本で制作されているLive CD。Fedoraベース。

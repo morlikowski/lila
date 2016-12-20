@@ -1,0 +1,41 @@
+In weak passwords, exploit.
+
+Constructs in programming languages that are difficult to use properly can be a large source of vulnerabilities.
+
+==Causes==
+
+*'''Password Management Flaws''' The computer user uses weak passwords that could be discovered by brute force.  The computer user stores the password on the computer where a program can access it.  Users re-use passwords between many programs and websites.
+
+*'''Fundamental Operating System Design Flaws''' &ndash;  The operating system designer chooses to enforce sub optimal policies on user/program management.  For example operating systems with policies such as default permit grant every program and every user full access to the entire computer.  This operating system flaw allows viruses and malware to execute commands on behalf of the administrator.  [http://www.ranum.com/security/computer_security/editorials/dumb/]
+
+*'''Software Bugs''' &ndash; The programmer leaves an exploitable bug in a software program. The software bug may allow an attacker to misuse an application through (for example) bypassing access control checks or executing commands on the system hosting the application.  Also the programmer's failure to check the size of data buffers, which can then be overflowed, causing corruption of the stack or heap areas of memory (including causing the computer to execute code provided by the attacker).
+
+*'''Unchecked User Input''' &ndash; The program assumes that all user input is safe.  Programs that do not check user input can allow unintended direct execution of commands or SQL statements (known as Buffer overflows,SQL injection or other non-validated inputs).
+
+==Vulnerability disclosure==
+
+The method of disclosing vulnerabilities is a topic of debate in the computer security community. Some advocate immediate patches, but may also increase the risk to those not privy to full details. This debate has a long history in security; see Zero Day vulnerabilities. Those offers provide a legitimate market for the purchase and sale of vulnerability information from the security community.
+
+From the security perspective, a free and public disclosure is only successful if the affected parties get the relevant information prior to potential hackers, if they did not the hackers could take immediate advantage of the reveled exploit. With Security Through Obscurity the same rule applies, but this time rests on the hackers finding the vulnerability themselves, as opposed to being 'told' the information. The disadvantage here is that there is a lower number of people with full knowledge of the vulnerability who can aid in finding similar or related scenarios.
+
+It should be unbiased to enable a fair dissemination of security critical information. Most often a  channel is considered trusted when it is a widely accepted source of security information in the industry (e.g CERT, SecurityFocus, Secunia and [http://www.frsirt.com/english FrSIRT]).
+Analysis and risk rating ensure the quality of the disclosed information. The analysis must include enough details to allow a concerned user of the software to assess his individual risk or take immediate action to protect his assets.
+
+== Vulnerability disclosure date ==
+The time of disclosure of a vulnerability is defined differently in the security community and industry. It is most commonly referred to as "a kind of public disclosure of security information by a certain party". Usually, vulnerability information is discussed on a mailing list or published on a security web site and results in a security advisory afterwards.
+
+Eine '''Sicherheitslücke''' ist ein Fehler in einer Software, durch den ein schädliches Programm oder ein Angreifer in den Rechner eindringen kann.
+
+== Entstehung von Sicherheitslücken ==
+Eine Sicherheitslücke birgt Risiken bezüglich der Programmierfehler im Betriebssystem, Browser oder anderen Softwareanwendungen, die auf dem System betrieben werden.
+
+Da umfangreiche Programme aus sehr vielen Zeilen Code bestehen, ist es meist sehr schwer, wenn nicht sogar unmöglich, ein solches Programm fehlerfrei zu erstellen. Grob geschätzt kann man sagen, dass ein Programmierer pro 1.000 Programmzeilen einen Fehler (Alpha- und Beta-Prozess nicht alle Fehler gefunden werden, wovon auszugehen ist, wird ein fehlerhaftes Produkt vertrieben.
+
+Viele Fehler werden jedoch nie entdeckt, da der Fehlergehalt gering ist oder die Auswirkung erst bei längerer Laufzeit des Programms Schaden erzeugen würde. In hochkomplexen Programmen werden solche einfachen Fehler bei Entdeckung zunächst nur dokumentiert und erst später behoben. Dies nicht nur aus Kostengründen, sondern auch deshalb, da jede zur Behebung notwendige Änderung am Programmcode wiederum Quelle neuer Fehler sein kann. Manche Fehler erzeugen jedoch schwerwiegende Sicherheitslücken, ohne dass dies sofort zu einem kompletten Absturz führt.
+
+Derartige Sicherheitslücken sind symptomatisch für Programme, welche mit C oder Assembler) und einem Programmierer alle Möglichkeiten auch für Fehler eröffnen (Stichwort: Pointerarithmetik). Durch die weite Verbreitung von derartigen Programmiersprachen, dem hohen Zeitdruck in der Softwareerzeugung, verbunden mit dem ausgeprägten Kostendruck der Softwareerzeugerfirmen und dem wenig sensiblen Umgang mit dem Thema sichere Software sind Sicherheitslücken eher die Regel als die Ausnahme.
+
+Einige massive Probleme und Fehler könnten heute einfach verhindert werden, wenn stattdessen Programmiersprachen wie z.B. Eiffel, Oberon oder Pascal, in den jeweils entsprechenden Versionen, verwendet würden; nachweislich können Betriebssysteme und Treiber damit ebenfalls sehr effizient geschrieben werden.
+
+== Ausnutzung von Sicherheitslücken ==
+Diese Programmfehler ermöglichen es unter Umständen einem Angreifer zum Beispiel mit einem Exploit in ein Computersystem einzudringen und dort Programme auszuführen, die schaden können. Einer der häufigsten Fehler, der zum Eindringen in Computersysteme benutzt wird, ist der Pufferüberlauf. Mangelnde oder überhaupt fehlende Überprüfung der kopierten Datenmenge führt zum Überschreiben anderer Programmteile, was von Angreifern gezielt zum Verändern des Programms oder Einbringen fremder Programmteile benutzt wird.

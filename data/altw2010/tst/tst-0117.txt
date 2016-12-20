@@ -1,0 +1,86 @@
+{{drugbox
+| IUPAC_name        = 4,4-difluoro-''N''-{(1''S'')-3-[3-(3-isopropyl- 5-methyl-4''H''-1,2,4-triazol-4-yl)-
+8-azabicyclo[3.2.1]oct-8-yl]-1- phenylpropyl}cyclohexanecarboxamide
+| image             = Maraviroc.svg
+| CAS_number        = 376348-65-1
+| ATC_prefix        = J05
+| ATC_suffix        = AX09
+| PubChem           = 3002977
+| DrugBank          = 
+| C=29|H=41|F=2|N=5|O=1
+| molecular_weight  = 513.666 g/mol
+| bioavailability   = 
+| protein_bound     = 
+| metabolism        = 
+| elimination_half-life = 
+| excretion         = 
+| pregnancy_AU      =  <!-- A / B1 / B2 / B3 / C / D / X -->
+| pregnancy_US      =  B
+| pregnancy_category=  
+| legal_AU          =  <!-- Unscheduled / S2 / S3 / S4 / S5 / S6 / S7 / S8 / S9 -->
+| legal_CA          =  <!--             / Schedule I, II, III, IV, V, VI, VII, VIII -->
+| legal_UK          =  POM
+| legal_US          =  Rx-only
+| legal_status      = 
+| routes_of_administration = Oral
+| licence_EU =Celsentri
+| licence_US =Maraviroc
+}}
+Maraviroc (brand-named '''Selzentry''', or '''Celsentri''' outside the U.S.) is a drug used in the treatment of HIV infection.  
+
+===Mechanism of action=== 
+Maraviroc is an entry inhibitor.  Specifically, maraviroc blocks the chemokine receptor CCR5 which HIV uses as a coreceptor to bind and enter a human helper T cell.  Because HIV can also use another coreceptor, CXCR4, an HIV tropism test such as a trofile assay must be performed to determine if the drug will be effective.<ref></ref>
+
+===Development and approval===
+Maraviroc, originally designated UK-427857,  was developed by the drug company Sandwich.  On April 24 2007 the U.S. Food and Drug Administration advisory panel reviewing maraviroc's New Drug Application unanimously recommended approval for the new drug,<ref>[http://365gay.com/Newscon07/04/042407hiv.htm Gay News From 365Gay.com<!-- Bot generated title -->]</ref> and the drug received full FDA approval on August 6 2007 for use in treatment experienced patients.<ref></ref>
+
+On September 24, 2007, Pfizer announced that the European Commission approved  maraviroc.  Industry experts forecast annual maraviroc sales of $500 million by 2011.<ref>[http://www.reuters.com/article/governmentFilingsNews/idUSL2354082520070924  Reuters, Europe gives final approval to Pfizer HIV drug]</ref>
+
+===Efficacy===
+Two randomized, placebo-controlled clinical trials, known as MOTIVATE 1 & 2, compared 209 patients receiving optimized therapy plus a placebo to 426 patients receiving optimized therapy plus 150 mg maraviroc once daily and 414 patients receiving optimized therapy plus 150 mg maraviroc twice daily.  At 48 weeks, 55% of participants receiving maraviroc once daily and 60% of participants receiving the drug twice daily achieved a viral load of less than 400 copies/mL compared with 26% of those taking placebo; about 44% of the once-daily and 45% of the twice-daily maraviroc group had a viral load of less than 50 copies/mL compared with about 23% of those who received placebo. In addition, those who received the entry inhibitor had a mean increase in CD4 cells of 110 cells/µL in the once-daily group, 106 cells/µL in the twice-daily group, and 56 cells/µL in the placebo group.<ref name = "JAMA"></ref><ref></ref><ref></ref>
+
+{{Infobox Chemikalie
+ | Strukturformel        = 200px
+ | Freiname              = Maraviroc
+ | Andere Namen          = 
+*(''S'')-4,4-Difluorcyclohexan carbonsäure- {(1''R'',3''S'',5''S'')-3-[3-(3-isopropyl-5- methyl-[1,2,4]triazol-4-yl) -8-azabicyclo[3.2.1]oct-8-yl] -1-phenylpropyl}amid
+*Latein: Maravirocum
+ | Summenformel          = C<sub>29</sub>H<sub>41</sub>F<sub>2</sub>N<sub>5</sub>O
+ | CAS                   = 376348-65-1
+ | PubChem               = 3002977  
+ | ATC-Code              = 
+ | DrugBank              = DB04835
+ | Wirkstoffgruppe       = Entry-Inhibitor
+ | Wirkmechanismus       = CR5-Korezeptor Antagonist
+ | Handelsnamen          = *Celsentri<sup>®</sup> (USA) (D) 
+ | Verschreibungspflicht = Ja
+ | Molare Masse          = 513,67 g·mol<sup>−1</sup>
+ | Beschreibung          = 
+ | pKs                   = 
+ | Dichte                = <!--g·cm<sup>−3</sup> -->  
+ | Schmelzpunkt          = <!--°C --> 
+ | Siedepunkt            = <!--°C (760 mmHg) --> 
+ | Dampfdruck            = 
+ | Löslichkeit           = 
+ | Quelle GefStKz        =   
+ | Gefahrensymbole       =   
+ | R                     = 
+ | S                     = 
+ | MAK                   =
+ | LD50                  =  <!--mg·kg<sup>−1</sup> (Ratte p.o.)--> 
+ | WGK                   = 
+}}
+
+'''Maraviroc''' (Handelsname: Celsentri<sup>®</sup>, Hersteller: Pfizer) ist ein Arzneistoff zur Behandlung von HIV und dessen späteren Stadien<ref>[http://www.aidsmeds.com AIDS Meds - Amerikanische HIV Medikamenten Website]</ref>. Er gehört zur Gruppe der Entry-Inhibitoren (Korezeptor-Antagonisten).
+
+== Pharmakologie ==
+Maraviroc ist ein selektiver Inhibitor des CCR5. Durch die Inhibition wird das Andocken verhindert. Die Zelle wird nicht infiziert. Lesen Sie hierzu auch: Entry-Inhibitor.
+
+== Pharmakokinetik ==
+Maraviroc wird aus dem Magendarmtrakt resorbiert. Die empfohlene Dosierung beträgt zweimal täglich 150, 300 oder 600 mg in Abhängigkeit von der übrigen HAART, die durch Interaktion das Verhalten von Maraviroc mehr oder weniger beeinflusst. Die Bioverfügbarkeit liegt bei 23 bis 33%. Die Einnahme des Arzneimittels kann mit oder ohne Nahrung erfolgen. Der Wirkstoff wird zu 76 % an Plasmaproteine gebunden, das Verteilungsvolumen wurde mit 2,8 ± 0,9 l/kg berechnet. 
+  
+Maraviroc wird über Cytochrom P450 Monooxygenasen verstoffwechselt. Ein relevanter induktorischer oder inhibitorischer Effekt wurde nicht nachgewiesen. Wichtigstes Stoffwechselprodukt ist ein am Stickstoff desalkylierter Metabolitt. Die Substanz wird hauptsächlich über den Stuhl ausgeschieden (ca. 25% unverändert); 8% einer Dosis von 300 mg erscheinen unverändert im Urin. Nach intravenöser Gabe beträgt Eliminationshalbwertzeit ca. 13 Stunden.
+  
+Bei Patienten mit angeborener oder medikamentös induzierte Nierenisuffizienz ist unter Umständen eine Dosisanpassung erforderlich (Einbeziehung der übringen HAART Medikamente). Bei leichter oder mittlerer Einschränkung der Leberfunktion  sind die Blutspiegel um ca. 25 bis 46% erhöht. Für diese Patientengruppe liegen noch nicht ausreichend Daten vor. Studien bei Kindern und älteren Patienten wurden noch nicht durchgeführt.
+
+== Nebenwirkungen ==

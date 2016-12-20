@@ -1,0 +1,92 @@
+{{infobox Franse gemeente|
+|plaatsnaam= Magny-Cours
+|wapen= 
+|kaart= 
+|regio= Bourgondië 
+|departement= Nièvre (58)
+|arrondissement= Nevers
+|kanton= Imphy
+|jaar= 1999
+|inwoners= 1486
+|dichtheid= 47,0
+|oppervlakte= 31,6
+|water= 
+|latitudeGraden= 46 |latitudeMinuten= 53|latitudeSeconden= 0
+|longitudeGraden= 3 |longitudeMinuten= 9 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 175 |kaartY= 141
+|code= 58152
+|postcode= 58470
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Magny-Cours''' is een gemeente in het Franse departement Nièvre (regio Bourgondië) en telt 1486 inwoners (1999). De plaats maakt deel uit van het arrondissement Nevers.
+
+==Geografie==
+De oppervlakte van Magny-Cours bedraagt 31,6 km², de bevolkingsdichtheid is 47,0 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:2100 color:gray1 width:1       
+  from:start till:end             
+  bar:1400 color:gray1              
+  from:start till:end            
+  bar:700 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,110)(84,119) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 1113 1968: 1219
+  points:(84,119)(100,133)    color:blue    width:2 #1975: 1398
+  points:(100,133)(128,146)   color:blue    width:2 #1982: 1551
+  points:(128,146)(160,140)   color:blue    width:2 #1990: 1483
+  points:(160,140)(196,140)   color:blue    width:2 #1999: 1486
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+<!-- Il testo commentato è SOLO UN ESEMPIO -->
+ {{Comune francese|nomecomune= Magny-Cours <!-- Nizza -->
+ |nomefrancese= Magny-Cours <!-- Nice -->
+ |nomeregione= Borgogna <!-- Bretagna -->
+ |nomedipartimento= Nièvre <!-- Calvados -->
+ |arrondissement= Nevers
+ |cantone= Imphy
+ |latitudine= 46° 53' N <!-- 37° 54' N -->
+ |longitudine= 3° 9' E <!-- 12° 30' E -->
+ |altitudine= &nbsp; <!-- 187 -->
+ |superficie= 31,55 <!-- 1.285 -->
+ |abitanti=  1.486  <!-- 346.804 -->
+ |anno= 1999 <!-- 1999 -->
+ |densita= 47,1 <!-- 1.747,45 -->
+ |insee= 58152 <!-- 152 -->
+ |cap= 58470 <!-- 2750 -->
+ |sito= &nbsp; <!-- http://www.fontainebleau.fr/-->
+ |mappaX= 175
+ |mappaY= 141
+ }} <!-- fine della tabella - per la compilazione vedi -> Aiuto:Comune francese-->
+ 
+'''Magny-Cours''' è un comune francese di 1.486 abitanti situato nel dipartimento della Nièvre nella regione della Borgogna.
+
+Nelle sue vicinanze sorge il circuito automobilistico sede del Gran Premio di Francia di Formula 1.
+
+==Evoluzione demografica==

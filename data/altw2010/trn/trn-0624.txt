@@ -1,0 +1,224 @@
+{{Infobox file format
+| name = HTML (HyperText Markup Language)<!-- For rollover expansion of links in other pages-->
+| icon =
+| screenshot = 150px
+| extension = .html, .htm
+| mime = text/html
+| type code = TEXT
+| uniform type = public.html
+| owner = World Wide Web Consortium
+| genre = Markup language
+| container for = 
+| contained by =
+| extended from = SGML
+| extended to = XHTML
+| standard = [http://www.w3.org/TR/1999/REC-html401-19991224/ W3C HTML 4.01]<br />
+[http://www.w3.org/TR/REC-html32-19970114 W3C HTML 3.2]
+}}
+'''HTML''', an initialism of '''HyperText Markup Language''', is the predominant angle brackets. HTML can also describe, to some degree, the appearance and semantics of a document, and can include embedded scripting language code (such as JavaScript) which can affect the behavior of Web browsers and other HTML processors.
+
+HTML is also often used to refer to content in specific languages, such as a MIME type text/html, or even more broadly as a generic term for HTML, whether in its
+XML-descended form (such as XHTML 1.0 and later) or its form descended directly from SGML (such as HTML 4.01 and earlier).
+
+By convention, HTML format data files use a file extension .html or .htm.
+
+==History of HTML==
+===Origins===
+In 1980, physicist Tim Berners-Lee, who was an independent contractor at CERN, proposed and prototyped ENQUIRE, a  system for CERN researchers to use and share documents. In 1989, Berners-Lee and CERN data systems engineer Robert Cailliau each submitted separate proposals for an Internet-based hypertext system providing similar functionality. The following year, they collaborated on a joint proposal, the WorldWideWeb (W3) project,<ref>Tim Berners-Lee, "Information Management: A Proposal." CERN (March 1989, May 1990).  http://www.w3.org/History/1989/proposal.html</ref>
+which was accepted by CERN.
+
+===First specifications===
+The first publicly available description of HTML was a document called ''HTML Tags'', first mentioned on the Internet by Berners-Lee in late 1991.<ref></ref><ref></ref> It describes 22 elements comprising the initial, relatively simple design of HTML. Thirteen of these elements still exist in HTML 4.<ref></ref>
+
+Berners-Lee considered HTML to be, at the time, an application of IETF, of the first proposal for an HTML specification: Berners-Lee and NCSA Mosaic browser's custom tag for embedding in-line images, reflecting the IETF's philosophy of basing standards on successful prototypes.<ref name="raymond"></ref> Similarly, Dave Raggett's competing Internet-Draft, "HTML+ (Hypertext Markup Format)", from late 1993, suggested standardizing already-implemented features like tables and fill-out forms.<ref name="html+"></ref>
+
+After the HTML and HTML+ drafts expired in early 1994, the IETF created an HTML Working Group, which in 1995 completed "HTML 2.0", the first HTML specification intended to be treated as a standard against which future implementations should be based.<ref name="raymond"/> Published as Request for Comments 1996, HTML 2.0 included ideas from the HTML and HTML+ drafts.<ref></ref> There was no "HTML 1.0"; the 2.0 designation was intended to distinguish the new edition from previous drafts.<ref></ref>
+
+Further development under the auspices of the IETF was stalled by competing interests. Since 1996, the HTML specifications have been maintained, with input from commercial software vendors, by the ISO/IEC 15445:2000). The last HTML specification published by the W3C is the HTML 4.01 Recommendation, published in late 1999. Its issues and errors were last acknowledged by errata published in 2001.
+
+===Version history of the standard===
+
+====HTML versions====
+'''July, 1993:''' [http://www.w3.org/MarkUp/draft-ietf-iiir-html-01.txt Hypertext Markup Language], was published at IETF working draft (that is, not yet a standard).
+
+'''November, 1995:''' [http://tools.ietf.org/html/rfc1866 HTML 2.0] published as IETF Request for Comments:
+* RFC 1866,
+* supplemented by RFC 1867 (form-based file upload) that same month,
+* RFC 1942 (tables) in ''May 1996'',
+* RFC 1980 (client-side image maps) in ''August 1996'', and
+* RFC 2070 (internationalization) in ''January 1997'';
+
+Ultimately, all were declared obsolete/historic by RFC 2854 in ''June 2000''.
+
+'''April 1995''': [http://www.w3.org/MarkUp/html3/ HTML 3.0], proposed as a standard to the IETF.<!--authored March 1995--> It included many of the capabilities that were in Raggett's HTML+ proposal, such as support for tables, text flow around figures, and the display of complex mathematical formulas.<ref>{{cite web
+|url=http://www.w3.org/MarkUp/html3/CoverPage
+|title=HyperText Markup Language Specification Version 3.0
+|accessdate=2007-06-16}}</ref>
+A demonstration appeared in W3C's own Arena browser. HTML 3.0 did not succeed for several reasons. The pace of browser development, as well as the number of interested parties, had outstripped the resources of the IETF.<ref name="raggett"></ref>
+Netscape continued to introduce HTML elements that specified the visual appearance of documents,<ref>{{cite web
+|url=http://wp.netscape.com/assist/net_sites/html_extensions_3.html
+|title=Extensions to HTML 3.0
+|publisher=Netscape
+|quote=Netscape remains committed to supporting HTML 3.0. To that end, we've gone ahead and implemented several of the more stable proposals, in expectation that they will be approved. …In addition, we've also added several new areas of HTML functionality to Netscape Navigator that are not currently in the HTML 3.0 specification. We think they belong there, and as part of the standards process, we are proposing them for inclusion.}}</ref>
+contrary to the goals of the newly-formed W3C, which sought to limit HTML to describing logical structure.<ref>http://www.w3.org/Press/CSS2</ref>
+Microsoft, a newcomer at the time, played to all sides by creating its own tags, implementing Netscape's elements for compatibility, and supporting W3C features such as Cascading Style Sheets.<ref name="raggett" />
+
+'''January 14, 1997:''' [http://www.w3.org/TR/REC-html32 HTML 3.2], published as a W3C Recommendation. It was the first version developed and standardized exclusively by the W3C, as the IETF had closed its HTML Working Group in September 1997.<ref>{{cite web
+|url=http://www.w3.org/MarkUp/HTML-WG/
+|title=IETF HTML WG
+|accessdate=2007-06-16
+|quote=NOTE: This working group is closed}}</ref>
+The new version dropped math formulas entirely, reconciled overlap among various proprietary extensions, and adopted most of Netscape's visual markup tags. Netscape's blink element and Microsoft's marquee element were omitted due to a mutual agreement between the two companies.<ref name="raggett"/> The ability to include mathematical formulas in HTML would not be standardized until years later in MathML.
+
+'''December 18, 1997:''' [http://www.w3.org/TR/REC-html40-971218/ HTML 4.0], published as a W3C Recommendation. It offers three "flavors":
+* Strict, in which deprecated elements are forbidden,
+* Transitional, in which deprecated elements are allowed,
+* Frameset, in which mostly only frame related elements are allowed;
+
+HTML 4.0 (initially code-named "Cougar")<ref name="engelfriet">{{cite web
+|url=http://htmlhelp.com/reference/wilbur/intro.html
+|title=Introduction to Wilbur
+|author=Arnoud Engelfriet
+|publisher=Web Design Group
+|accessdate=2007-06-16}}</ref>
+likewise adopted many browser-specific element types and attributes, but at the same time sought to phase out Netscape's visual markup features by marking them as deprecated in favor of style sheets. Minor editorial revisions to the HTML 4.0 specification were published in 1998 without incrementing the version number and further minor revisions as HTML 4.01.
+
+'''April 24, 1998:''' [http://www.w3.org/TR/1998/REC-html40-19980424/ HTML 4.0] was reissued with minor edits without incrementing the version number.
+
+'''December 24, 1999:''' [http://www.w3.org/TR/html401 HTML 4.01], published as a W3C Recommendation. It offers the same three flavors as HTML 4.0, and its last [http://www.w3.org/MarkUp/html4-updates/errata errata] were published May 12, 2001.
+
+HTML 4.01 and ISO/IEC 15445:2000 are the most recent and final versions of HTML.
+
+'''ISO HTML", based on HTML 4.01 Strict), published as an ISO/IEC international standard.
+
+'''January 22, 2008:''' [http://www.w3.org/TR/html5/ HTML 5], published as a Working Draft by W3C.
+
+====XHTML versions====
+
+XHTML is a separate language that began as a reformulation of HTML 4.01 using XML 1.0. It continues to be developed:
+* [http://www.w3.org/TR/xhtml1/ XHTML 1.0], published January 26, 2000 as a W3C Recommendation, later revised and republished August 1, 2002. It offers the same three flavors as HTML 4.0 and 4.01, reformulated in XML, with minor restrictions.
+* [http://www.w3.org/TR/xhtml11/ XHTML 1.1], published May 31, 2001 as a W3C Recommendation. It is based on XHTML 1.0 Strict, but includes minor changes, can be customized, and is reformulated using modules from [http://www.w3.org/TR/xhtml-modularization Modularization of XHTML], which was published April 10, 2001 as a W3C Recommendation.
+* [http://www.w3.org/TR/xhtml2/ XHTML 2.0] is still a W3C Working Draft. XHTML 2.0 is incompatible with XHTML 1.x and, therefore, would be more accurate to characterize as an XHTML-inspired new language than an update to XHTML 1.x.
+* XHTML 5, which is an update to XHTML 1.x, is being defined alongside HTML 5 in the [http://www.w3.org/html/wg/html5/ HTML 5 draft].
+
+==HTML markup==
+HTML markup consists of several key components, including ''elements'' (and their ''attributes''), character-based ''data types'', and ''character references'' and ''entity references''. Another important component is the ''document type declaration''.
+HTML Hello World:
+<source lang="html4strict">
+<html>
+<head>
+<title>Hello HTML</title>
+</head>
+<body>
+<span>Hello World!</span>
+</body>
+</html>
+</source>
+
+===Elements===
+:''See HTML elements for more detailed descriptions.''
+Elements are the basic structure for HTML markup. Elements have two basic properties: attributes and content. Each attribute and each element's content has certain restrictions that must be followed for an HTML document to be considered valid. An element usually has a start tag (e.g. <code><element-name></code>) and an end tag (e.g. <code></element-name></code>). The element's attributes are contained in the start tag and content is located between the tags (e.g. <code><element-name&nbsp;attribute="value">Content</element-name></code>). Some elements, such as <code><nowiki><br></nowiki></code>, do not have any content and must not have a closing tag. Listed below are several types of markup elements used in HTML.
+
+'''Structural''' markup describes the purpose of text. For example, <code><nowiki><h2>Golf</h2></nowiki></code> establishes "Golf" as a second-level heading, which would be rendered in a browser in a manner similar to the "HTML markup" title at the start of this section. Structural markup does not denote any specific rendering, but most Web browsers have standardized on how elements should be formatted. Text may be further styled with Cascading Style Sheets (CSS).
+
+'''Presentational''' markup describes the appearance of the text, regardless of its function. For example <code><nowiki><b>boldface</b></nowiki></code> indicates that visual output devices should render "boldface" in bold text, but gives no indication what devices which are unable to do this (such as aural devices that read the text aloud) should do. In the case of both <code><nowiki><b>bold</b></nowiki></code> and <code><nowiki><i>italic</i></nowiki></code>, there are elements which usually have an equivalent visual rendering but are more semantic in nature, namely <code><nowiki><strong>strong emphasis</strong></nowiki></code> and <code><nowiki><em>emphasis</em></nowiki></code> respectively. It is easier to see how an aural user agent should interpret the latter two elements. However, they are not equivalent to their presentational counterparts: it would be undesirable for a screen-reader to emphasize the name of a book, for instance, but on a screen such a name would be italicized. Most presentational markup elements have become deprecated under the HTML 4.0 specification, in favor of CSS based style design.
+
+'''Hypertext''' markup links parts of the document to other documents. HTML up through version URL so for example the HTML code, <code><nowiki><a&nbsp;href="http://en.wikipedia.org/">Wikipedia</a></nowiki></code>, will render the word "<span class="plainlinks">[http://en.wikipedia.org/ Wikipedia]</span>" as a hyperlink.To link on an image, the anchor tag use the following syntax: <a href="url"><img src="image.gif" /></a>
+
+===Attributes===
+Most of the attributes of an element are name-value pairs, separated by "=", and written within the start tag of an element, after the element's name. The value may be enclosed in single or double quotes, although values consisting of certain characters can be left unquoted in HTML (but not XHTML).<ref></ref><ref></ref> Leaving attribute values unquoted is considered unsafe.<ref></ref> In contrast with name-value pair attributes, there are some attributes that affect the element simply by their presence in the start tag of the element<ref></ref> (like the <code>ismap</code> attribute for the <code>img</code> element<ref></ref>).
+
+Most elements can take any of several common attributes:
+
+* The <code>id</code> attribute provides a document-wide unique identifier for an element. This can be used by stylesheets to provide presentational properties, by browsers to focus attention on the specific element, or by scripts to alter the contents or presentation of an element. 
+
+* The <code>class</code> attribute provides a way of classifying similar elements for presentation purposes. For example, an HTML document might use the designation <code>class="notation"</code> to indicate that all elements with this class value are subordinate to the main text of the document. Such elements might be gathered together and presented as footnotes on a page instead of appearing in the place where they occur in the HTML source.
+
+* An author may use the <code>style</code> non-attributal codes presentational properties to a particular element. It is considered better practice to use an element’s son- <code>id</code> page and select the element with a stylesheet, though sometimes this can be too cumbersome for a simple ad hoc application of styled properties. 
+
+* The <code>title</code> attribute is used to attach subtextual explanation to an element. In most browsers this attribute is displayed as what is often referred to as a tooltip. 
+
+The generic inline element <code>span</code> can be used to demonstrate these various attributes:
+
+::<source lang="html4strict"><span id="anId" class="aClass" style="color:blue;" title="Hypertext Markup Language">HTML</span></source>
+
+This example displays as <span id="anId" class="aClass" style="color:blue;" title="Hypertext Markup Language">HTML</span>; in most browsers, pointing the cursor at the abbreviation should display the title text "Hypertext Markup Language."
+
+Most elements also take the language-related attributes <code>lang</code> and <code>dir</code>.
+
+===Character and entity references===
+As of version 4.0, HTML defines a set of 252 character entity references and a set of 1,114,050 numeric character references, both of which allow individual characters to be written via simple markup, rather than literally. A literal character and its markup counterpart are considered equivalent and are rendered identically.
+
+The ability to "escape" characters in this way allows for the characters <code>&lt;</code> and <code>&amp;</code> (when written as <code>&amp;lt;</code> and <code>&amp;amp;</code>, respectively) to be interpreted as character data, rather than markup. For example, a literal <code>&lt;</code> normally indicates the start of a tag, and <code>&amp;</code> normally indicates the start of a character entity reference or numeric character reference; writing it as <code>&amp;amp;</code> or <code>&amp;#x26;</code> or <code>&amp;#38;</code> allows <code>&amp;</code> to be included in the content of elements or the values of attributes. The double-quote character (<code>"</code>), when used to quote an attribute value, must also be escaped as <code>&amp;quot;</code> or <code>&amp;#x22;</code> or <code>&amp;#34;</code> when it appears within the attribute value itself. The single-quote character (<code>'</code>), when used to quote an attribute value, must also be escaped as <code>&amp;#x27;</code> or <code>&amp;#39;</code> (should NOT be escaped as <code>&amp;apos;</code> except in XHTML documents) when it appears within the attribute value itself.  However, since document authors often overlook the need to escape these characters, browsers tend to be very forgiving, treating them as markup only when subsequent text appears to confirm that intent.
+
+Escaping also allows for characters that are not easily typed or that aren't even available in the document's character encoding to be represented within the element and attribute content. For example, the acute-accented <code>e</code> (<code>é</code>), a character typically found only on Western European keyboards, can be written in any HTML document as the entity reference <code>&amp;eacute;</code> or as the numeric references <code>&amp;#233;</code> or <code>&amp;#xE9;</code>. The characters comprising those references (that is, the <code>&amp;</code>, the <code>;</code>, the letters in <code>eacute</code>, and so on) are available on all keyboards and are supported in all character encodings, whereas the literal <code>é</code> is not.
+
+===Data types===
+HTML defines several data types for element content, such as script data and stylesheet data, and a plethora of types for attribute values, including IDs, names, URIs, numbers, units of length, languages, media descriptors, colors, character encodings, dates and times, and so on. All of these data types are specializations of character data.
+
+===The Document Type Declaration===
+In order to enable Document Type Definition (DTD)-based validation with SGML tools and in order to avoid the quirks mode in browsers, HTML documents can start with a Document Type Declaration (informally, a "DOCTYPE"). The DTD to which the DOCTYPE refers contains machine-readable grammar specifying the permitted and prohibited content for a document conforming to such a DTD. Browsers do not necessarily read the DTD, however. The most popular graphical browsers use DOCTYPE declarations (or the lack thereof) and other data at the beginning of sources to determine which rendering mode to use.
+
+For example:
+
+:<code><nowiki><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"></nowiki></code>
+
+This declaration references the Strict DTD of HTML 4.01, which does not have presentational elements like <code><nowiki><font></nowiki></code>, leaving formatting to Cascading Style Sheets and the <code>span</code> and <code>div</code> tags. SGML-based validators read the DTD in order to properly parse the document and to perform validation. In modern browsers, the HTML 4.01 Strict doctype activates standards layout mode for CSS as opposed to quirks mode.
+
+In addition, HTML 4.01 provides Transitional and Frameset DTDs. The Transitional DTD was intended to gradually phase in the changes made in the Strict DTD, while the Frameset DTD was intended for those documents which contained frames.
+
+==Semantic HTML==
+There is no official specification called "Semantic HTML", though the strict flavors of HTML discussed below are a push in that direction. Rather, semantic HTML refers to an objective and a practice to create documents with HTML that contain only the author's intended meaning, without any reference to how this meaning is presented or conveyed. A classic example is the distinction between the emphasis element (<code>&lt;em&gt;</code>) and the italics element (<code>&lt;i&gt;</code>). Often the emphasis element is displayed in italics, so the presentation is typically the same. However, emphasizing something is different from listing the title of a book, for example, which may also be displayed in italics. In purely semantic HTML, a book title would use a different element than emphasized text uses (for example a <code>&lt;span&gt;</code>), because they are meaningfully different things.
+
+The goal of semantic HTML requires two things of authors:
+
+# To avoid the use of presentational markup (elements, attributes, and other entities).
+# To use available markup to differentiate the meanings of phrases and structure in the document. So for example, the book title from above would need to have its own element and class specified, such as <code>&lt;cite class="booktitle"&gt;The Grapes of Wrath&lt;/cite&gt;.</code> Here, the <code>&lt;cite&gt;</code> element is used because it most closely matches the meaning of this phrase in the text. However, the <code>&lt;cite&gt;</code> element is not specific enough to this task, since we mean to cite specifically a book title as opposed to a newspaper article or an academic journal.
+
+Semantic HTML also requires complementary specifications and software compliance with these specifications. Primarily, the development and proliferation of CSS has led to increasing support for semantic HTML, because CSS provides designers with a rich language to alter the presentation of semantic-only documents. With the development of CSS, the need to include presentational properties in a document has virtually disappeared. With the advent and refinement of CSS and the increasing support for it in Web browsers, subsequent editions of HTML increasingly stress only using markup that suggests the semantic structure and phrasing of the document, like headings, paragraphs, quotes, and lists, instead of using markup which is written for visual purposes only, like <code>&lt;font&gt;</code>, <code>&lt;b&gt;</code> (bold), and <code>&lt;i&gt;</code> (italics). Some of these elements are not permitted in certain varieties of HTML, like HTML 4.01 Strict. CSS provides a way to separate document semantics from the content's presentation, by keeping everything relevant to presentation defined in a CSS file. See separation of style and content.
+
+Semantic HTML offers many advantages. First, it ensures consistency in style across elements that have the same meaning. Every heading, every quotation, every similar element receives the same presentation properties.
+
+Second, semantic HTML frees authors from the need to concern themselves with presentation details. When writing the number two, for example, should it be written out in words ("two"), or should it be written as a numeral (2)? A semantic markup might enter something like <number>2</number> and leave presentation details to the stylesheet designers. Similarly, an author might wonder where to break out quotations into separate indented blocks of text: with purely semantic HTML, such details would be left up to stylesheet designers. Authors would simply indicate quotations when they occur in the text, and not concern themselves with presentation.
+
+A third advantage is device independence and repurposing of documents. A semantic HTML document can be paired with any number of stylesheets to provide output to computer screens (through Web browsers), high-resolution printers, handheld devices, aural browsers or braille devices for those with visual impairments, and so on. To accomplish this, nothing needs to be changed in a well-coded semantic HTML document. Readily available stylesheets make this a simple matter of pairing a semantic HTML document with the appropriate stylesheets. (Of course, the stylesheet's selectors need to match the appropriate properties in the HTML document.)
+
+Some aspects of authoring documents make separating semantics from style (in other words, meaning from presentation) difficult. Some elements are hybrids, using presentation in their very meaning. For example, a table displays content in a tabular form. Often such content conveys the meaning only when presented in this way. Repurposing a table for an aural device typically involves somehow presenting the table as an inherently visual element in an audible form. On the other hand, we frequently present lyrical songs&mdash;something inherently meant for audible presentation&mdash;and instead present them in textual form on a Web page. For these types of elements, the meaning is not so easily separated from their presentation. However, for a great many of the elements used and meanings conveyed in HTML, the translation is relatively smooth.
+
+thumb|right|309px|Un esempio di codice HTML con [[sintassi evidenziata. Questa funzione viene solitamente eseguita da un editor di pagine web o da alcuni browser, come ad esempio Mozilla Firefox.]]
+
+'''HTML''' (ipertesti) è un linguaggio di formattazione usato per descrivere i documenti ipertestuali disponibili nel World Wide Web. Tutti i siti web sono scritti in HTML, codice che viene letto ed elaborato dal browser, il quale genera la pagina che viene visualizzata sullo schermo del computer.<br/>
+L'HTML non è un linguaggio di programmazione, ma un linguaggio di markup, ossia descrive il contenuto, testuale e non, di una pagina web. ''Punto'' HTML (.html) o ''punto'' HTM (.htm) è anche l'estensione comune dei documenti HTML.
+
+È stato sviluppato alla fine degli anni '80 da Ginevra. Verso il 1994 ha avuto una forte diffusione, in seguito ai primi utilizzi commerciali del web.
+
+L'HTML è un linguaggio di pubblico dominio la cui sintassi è stabilita dal World Wide Web Consortium (''W3C''), e che è basato su un altro linguaggio avente scopi più generici, l'SGML. Durante gli anni l'HTML ha subito molte revisioni e miglioramenti, che sono stati indicati secondo la classica numerazione usata per descrivere le versioni dei software. Attualmente l'ultima versione disponibile è la versione 4.01, resa pubblica il 24 dicembre 1999. Da allora, da parte del W3C non è stata manifestata alcuna intenzione di apportare ulteriori modifiche all'HTML, poiché verrà presto sostituito dai nuovi linguaggi XHTML ed XML.
+
+Ogni documento ipertestuale scritto in HTML deve essere contenuto in un estensione deve essere <tt>.htm</tt> o <tt>.html</tt>. L'atomo principale della elementi sono le strutture del linguaggio a cui è delegata la funzione di formattare i dati o indicare al browser delle informazioni. 
+Ogni elemento è racchiuso all'interno di segnalini (''tag''). I tag HTML sono marcature costituite da una sequenza di caratteri racchiusa da due parentesi angolari, cioè i segni minore e maggiore (Esempio:  <tt>&lt;br&gt;</tt>; il tag di questo esempio serve per indicare un ritorno a capo). Spesso le informazioni su cui "agisce" il tag devono essere racchiuse fra un tag di apertura ed uno di chiusura, quest'ultimo indicato apponendo la barra (''/'') dopo la parentesi angolare aperta (Esempio: <tt>&lt;b&gt;testo testo testo&lt;/b&gt;</tt>. In questo caso, il testo compreso tra questi due tag verrà visualizzato in grassetto dal browser.
+
+Un documento HTML comincia con l'indicazione della DTD, la quale dice al URL delle specifiche HTML che stiamo utilizzando per il nostro documento, indicando quindi, implicitamente, quali elementi, attributi ed entità possiamo utilizzare.
+Tutte le informazioni contenute nel documento devono essere indicate tra i tag <tt>&lt;html&gt;</tt> e <tt>&lt;/html&gt;</tt>. All'interno di questi due tag la sintassi HTML permette due sezioni: una racchiusa tra i tag <tt>&lt;head&gt;</tt> e <tt>&lt;/head&gt;</tt>, ed una racchiusa tra i tag <tt>&lt;body&gt;</tt> e <tt>&lt;/body&gt;</tt>. All'interno della prima sezione sono indicate delle informazioni generali riguardanti l'intero documento e che non vengono visualizzate dal browser. All'interno della sezione BODY sono indicate tutte le informazioni effettivamente presenti nel documento.
+
+thumb|right|200px|Un altro esempio di sintassi evidenziata.
+Il tag principale dell'HTML è probabilmente il tag <tt>&lt;a&gt;</tt>, che descrive un collegamento (o ''link'') ad un altro documento ipertestuale. Sui browser grafici è possibile chiedere al computer di passare alla risorsa indicata dal link semplicemente facendo un clic con il mouse.
+
+L'HTML prevede tag specifici per far fronte a molte necessità di motori di ricerca o ancora l'aspetto grafico del documento.
+
+Un'ulteriore ed importante caratteristica di HTML è che esso è stato concepito per definire il contenuto logico e non l'aspetto finale del documento. I dispositivi che possono accedere ad un documento HTML sono molteplici e non sempre dotati di potenti capacità grafiche. Proprio per questo gli sviluppatori di HTML hanno optato per un linguaggio che descrivesse dal punto di vista logico, piuttosto che grafico il contenuto dei documenti. Questo significa che non esiste alcuna garanzia che uno stesso documento venga visualizzato in egual modo su due dispositivi. Se da una parte questo ha imposto in passato dei forti limiti agli sviluppatori di pagine Web, ha dall'altro garantito la massima diffusione di Internet ed evitato che essa diventasse un medium di élite.
+
+Al giorno d'oggi pochi designer si occupano di scrivere una pagina web direttamente nel linguaggio HTML. Questo compito è invece spesso delegato ad un software detto ''editor WYSIWYG'', che permette al designer di occuparsi dell'aspetto grafico finale della pagina. Gli sviluppatori invece preferiscono utilizzare ancora il codice HTML, in modo da avere un maggior controllo sul risultato finale e sulla pulizia del codice scritto, cosa che gli editor WYSIWYG odierni nonostante siano sempre più avanzati non possono sempre garantire.
+
+I documenti HTML vengono immagazzinati di solito sui dischi rigidi di macchine costantemente collegate ad Internet. Su queste macchine vi è installato un software detto ASP, PHP o Perl. Questi linguaggi permettono la realizzazione delle cosiddette ''pagine dinamiche''.
+
+Attualmente i documenti HTML incorporano molte tecnologie, che offrono la possibilità di aggiungere al documento ipertestuale delle animazioni interattive o degli effetti particolari. Si tratta di linguaggi come CSS, Java, o di altre applicazioni multimediali di animazione vettoriale o di streaming audio.
+
+In futuro, HTML verrà probabilmente soppiantato dai suoi successori XHTML e XML, che rendono il codice estensibile; questo significa che in XHTML e in XML è possibile definire e usare nuovi elementi, in aggiunta a quelli definiti in HTML.
+
+==Voci correlate==
+
+*HTML Tidy
+
+== Altri progetti ==
+
+==Collegamenti esterni==

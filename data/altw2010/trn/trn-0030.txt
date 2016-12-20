@@ -1,0 +1,67 @@
+'''ReadyBoost''' is an operating system feature included with USB 2.0 drive, SD card, CompactFlash or any kind of portable massive flash storage as a drive for disk cache.
+
+ReadyBoost is also used to facilitate SuperFetch, an updated version of Windows XP's prefetcher which performs analysis of boot-time disk usage patterns and creates a cache which is used in subsequent system boots.<ref name="russinovich" />
+
+==Overview==
+Using ReadyBoost-capable flash memory (NAND memory devices) for caching allows Windows Vista to service random disk reads with performance that is typically 80-100 times faster than random reads from traditional hard drives. This caching is applied to all disk content, not just the page file or system DLLs. Flash devices are typically slower than the hard drive for sequential I/O, so to maximize performance, ReadyBoost includes logic to recognize large, sequential read requests and then allows these requests to be serviced by the hard drive.<ref name="QnA"> </ref>
+
+When a compatible device is plugged in, the Windows AutoPlay dialog offers an additional option to use the flash drive to speed up the system; an additional "ReadyBoost" tab is added to the drive's properties dialog where the amount of space to be used can be configured.<ref name="readyboostJim Allchin">{{cite web
+|url=http://blogs.msdn.com/tomarcher/archive/2006/04/14/576548.aspx
+|title=ReadyBoost - Using Your USB Key to Speed Up Windows Vista
+|date=April 14 2006
+|accessdate=2006-05-21
+|author=Tom Archer
+|work=Tom Archer's Blog
+|publisher=Microsoft}}</ref> 250 MB to 4 GB of flash memory can be assigned.  ReadyBoost encrypts, with AES-128, and compresses all data that is placed on the flash device; Microsoft has stated that a 2:1 compression ratio is typical, so that a 4 GB cache could contain upwards of 8 GB of data.<ref name="russinovich">{{cite web
+|url=http://www.microsoft.com/technet/technetmag/issues/2007/03/VistaKernel/default.aspx
+|title=Inside the Windows Vista Kernel: Part 2
+|date=March 2007
+|accessdate=2007-03-01
+|author=Mark Russinovich
+|authorlink=Mark Russinovich
+|work=TechNet Magazine
+|publisher=Microsoft
+}}</ref>
+
+According to Jim Allchin, for future releases of Windows, ReadyBoost will be able to use spare RAM on other networked Windows Vista PCs.<ref name="readyboostarcher">{{cite web
+|url=http://hive.net/Member/blogs/the_insider/archive/2006/05/23/15378.aspx
+|title=Jim Allchin
+|date=23 May 2006
+|accessdate=2006-11-01
+}}</ref>
+
+For a device to be compatible and useful it must conform to the following requirements:
+* The capacity of the removable media must be at least 256 MB (250 after formatting)
+* Devices larger than 4 GB will have only 4 GB used for ReadyBoost
+* The device should have an access time of 1 ms or less
+* The device must be capable of 2.5 MB/s read speeds for 4 KB random reads spread uniformly across the entire device and 1.75 MB/s write speeds for 512 KB random writes spread uniformly across the device 
+* The device must have at least 235 MB of free space
+* FAT16 and FAT32 are supported
+* The initial release of ReadyBoost supports one device
+* The recommended amount of flash memory to use for Windows ReadyBoost acceleration is one to three times the amount of random access memory (RAM) installed in your computer
+
+Depending on the brand, wear and tear due to read-write cycles, and size of the flash memory, the ability to format as NTFS may not be available. Enabling write caching on the flash drive by selecting ''Optimize for performance'' in Device Manager will allow formatting as NTFS. <ref> [http://blogs.msdn.com/oldnewthing/archive/2004/04/05/108205.aspx How can I format my USB drive as NTFS?: The Old New Thing] </ref>
+
+==Performance==
+A system with 512 MB of RAM (the minimum for Windows Vista) can see significant gains from ReadyBoost.<ref>[http://www.anandtech.com/systems/showdoc.aspx?i=2917&p=5 AnandTech: Windows Vista Performance Guide<!-- reflinks title -->]</ref> In one test case, ReadyBoost sped up an operation from 11.7 seconds to 2 seconds (increasing physical memory from 512 MB to 1 GB reduced it to 0.8 seconds).<ref>[http://www.anandtech.com/systems/showdoc.aspx?i=2917&p=6 AnandTech: Windows Vista Performance Guide<!-- reflinks title -->]</ref>
+
+The core idea of ReadyBoost is that a flash drive has a much faster seek time (less than 1 millisecond), allowing it to satisfy the requests fairly quickly compared to a hard drive when booting or reading certain system files.  It also leverages the inherent advantage of having two parallel sources from which to read data.  Unfortunately USB flash drives are slow in terms of reads and writes, compared to modern desktop hard drives. Desktop hard drives can sustain anywhere from 2 to 10 times the transfer speed of USB flash drives. The USB flash drives hold an advantage in random access times which are typically around 1ms, compared to the 12ms and upwards of desktop hard drives.
+
+<!-- High-cost ($1,000-$50,000) solid state memories currently have random sustained external throughput up to 3 GB/s (TMS RamSan) and latency as low as 0.003 ms (Violin 1010).<ref>[http://www.storagesearch.com/ssd-fastest.html the Fastest Solid State Disks (SSDs) 1.8&quot;, 2.5&quot; to 3U]</ref>
+ -->
+On laptop computers the performance shifts more in the favor of flash memory, laptop memory being priced relatively higher than that for desktop systems, and with many laptops using relatively slow 4200 rpm and 5400 rpm hard drives.  Additionally, on a laptop, the ReadyBoost caching can reduce hard drive access, allowing the hard drive to spin down for increased battery life.<ref>[http://www.anandtech.com/showdoc.aspx?i=3009&p=8 AnandTech: Investigating Intel's Turbo Memory: Does it really work?<!-- reflinks title -->]</ref> Also, because of the nature of the power management typically enabled during mobile use of a laptop it is a more power efficient way of increasing equipment productivity.
+
+'''ReadyBoost''' is een techniek van het intern geheugen van een computer.
+Maar bij uiteindelijke testresultaten komt het erop neer dat er nauwelijks een versnelling is, bij sommige ReadyBoost-sticks is er vertraging
+
+==ReadyBoost en de beperking van flashgeheugen==
+
+Wanneer een computer gegevens van een harde schijf leest moet eerst de lees/schrijf-kop van de harde schijf zich naar het gebied verplaatsen waarop de data staat. Dit zorgt ervoor dat een harde schijf een langere toegangstijd heeft dan een flash geheugen waarin geen lees-/schrijfkop zit. Er zit echter een addertje onder het gras. Een gemiddelde harde schijf van tegenwoordig heeft een doorvoersnelheid (bandbreedte) van circa 60 megabyte per seconde. Bij een flash geheugen is dit veel minder, denk aan 3 tot 8 Megabyte per seconde. De doorvoersnelheid per minuut is van een harde schijf dus vele malen hoger. Het flashgeheugen is dus alleen sneller wanneer het om kleine bestanden gaat.
+
+Het normale interne geheugen heeft ook een hoge doorvoersnelheid en net als flash geheugen een lage toegangstijd. De meeste prestatiewinst wordt dus geboekt door meer intern geheugen toe te voegen aan het systeem. Maar zeker bij systemen met weinig intern geheugen loont het de moeite om zonder de computer open te hoeven schroeven het goedkope flashgeheugen te gebruiken voor ReadyBoost.
+
+==Voorwaarden==
+
+Er zijn echter een aantal voorwaarden waaraan het geheugen dat voor ReadyBoost gebruikt kan worden aan moet voldoen. Indien sprake van een USB Stick moet deze USB 2.0 zijn. Verder moet het flashgeheugen minimaal 256 megabyte groot zijn en een minimale doorvoersnelheid bij lezen van 2.5 megabyte per seconde en bij schrijven 1.75 megabyte per seconde hebben. Het flashgeheugen moet als geformatteerd. De maximale grootte die ReadyBoost kan gebruiken is 4 gigabyte en er mag slechts één flashgeheugen gebruikt worden. U kunt indien u dat wilt gewoon nog bestanden en documenten op uw flashgeheugen schrijven en lezen. Indien u bijvoorbeeld een USB-stick heeft van 2 gigabyte kunt u instellen dat u bijvoorbeeld maar 1 gigabyte wilt gebruiken voor ReadyBoost. 
+
+De data die op het flashgeheugen wordt geschreven gaat het besturingssysteem automatisch versleutelen zodat anderen geen vertrouwelijke gegevens kunnen zien die eventueel op het flashgeheugen staan. Indien u tijdens het draaien de USB stick of geheugenkaart uit uw computer haalt werkt deze gewoon door, echter zonder de prestatiewinst van ReadyBoost.

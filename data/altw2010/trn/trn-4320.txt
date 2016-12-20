@@ -1,0 +1,40 @@
+בהכללה של המושג "איבר נתון הוא איבר שהכפלתו באיבר הנתון, או הכפלת האיבר הנתון בו נותנת את איבר היחידה.  
+
+==הגדרה פורמלית==
+תהי <math>S</math> קבוצה שמוגדרת עליה פעולה בינארית שנסמנה <math>*</math>. אם <math>e</math> הוא איבר היחידה של <math> \ (S,*)</math> ומתקיים <math>a*b=e</math>, אז <math>a</math> הוא '''הופכי משמאל''' של <math>b</math>, ו-<math>b</math> הוא '''הופכי מימין''' של <math>a</math>. אם איבר <math>x</math> הוא הופכי מימין והופכי משמאל של איבר <math>y</math>, אז <math>x</math> קרוי '''הופכי דו-צדדי''' או בפשטות '''הופכי''' של <math>y</math>. איבר שיש לו הופכי דו-צדדי ב-<math>S</math> קרוי '''איבר הפיך''' ב-<math>S</math>. איבר שיש לו הופכי רק מצד אחד קרוי '''הפיך משמאל''' או '''הפיך מימין''', בהתאמה. 
+
+אם הפעולה <math>*</math> היא אסוציאטיבית, אזי אם לאיבר נתון יש הופכי מימין והופכי משמאל, הרי הופכיים אלה זהים, והם ההופכי היחיד של האיבר הנתון. במקרה זה, הקבוצה של האיברים ההפיכים היא חבורה, המסומנת <math> \ U(S)</math> או <math> \ S^*</math>. 
+
+==דוגמאות==
+*לכל מספר ממשי <math>\ x</math> יש הופכי ביחס לפעולת החיבור, והוא <math>\ -x</math>. 
+
+* לכל מספר ממשי שונה מאפס <math>\ x</math> יש הופכי ביחס לפעולת ה0 אין הופכי.
+
+* שדה <math>K</math> היא הפיכה (בקבוצת כל המטריצות הריבועיות מאותו גודל, תחת פעולת כפל מטריצות) אם ורק אם הדטרמיננטה שלה שונה מאפס.
+
+In negation, in relation to reciprocal, in relation to multiplication. The intuition is of an element that can 'undo' the effect of combination with another given element.
+
+== Formal definition ==
+
+Let <math>S</math> be a set with a binary operation <math>*</math>. If <math>e</math> is an identity element of <math>(S,*)</math> and <math>a*b=e</math>, then <math>a</math> is called a '''left inverse''' of <math>b</math> and <math>b</math> is called a '''right inverse''' of <math>a</math>. If an element <math>x</math> is both a left inverse and a right inverse of <math>y</math>, then <math>x</math> is called a '''two-sided inverse''', or simply an '''inverse''', of <math>y</math>. An element with a two-sided inverse in <math>S</math> is called '''invertible''' in <math>S</math>. An element with an inverse element only on one side is '''left invertible''', resp. '''right invertible'''. 
+
+Just like <math>(S,*)</math> can have several left identities or several right identities, it is possible for an element to have several left inverses or several right inverses (but note that their definition above uses a ''two-sided'' identity <math>e</math>). It can even have several left inverses ''and'' several right inverses.
+
+If the operation <math>*</math> is group, called the group of units of <math>S</math>, and denoted by <math>U(S)</math> or <math>S^*</math>.
+
+A left-invertible element is left-cancellative, and analogously for right and two-sided.
+
+== Calculation ==
+
+Every zero has no multiplicative inverse.
+
+A function <math>g</math> is the left (resp. right) inverse of a function <math>f</math> (for domain (resp. codomain) of <math>f</math>.
+
+A field <math>K</math> is invertible (in the set of all square matrices of the same size, under matrix multiplication) if and only if its determinant is different from zero. If the determinant of <math>M</math> is zero, it is impossible for it to have a one-sided inverse; therefore a left inverse or right inverse implies the existence of the other one. See invertible matrix for more.
+
+More generally, a square matrix over a commutative ring <math>R</math> is invertible if and only if its determinant is invertible in <math>R</math>.
+
+Non-square matrices of full rank have one-sided inverses:<ref>[http://video.google.com/videoplay?docid=-8273560482088448841 MIT Professor Gilbert Strang Linear Algebra Lecture #33 - Left and Right Inverses; Pseudoinverse.]</ref>
+* For <math>A:m\times n \mid m>n</math> we have a left inverse: <math> \underbrace{ (A^{T}A)^{-1}A^{T} }_{ A^{-1}_\text{left} } A = I_{n} </math>
+* For <math>A:m\times n \mid m<n</math> we have a right inverse: <math> A \underbrace{ A^{T}(AA^{T})^{-1} }_{ A^{-1}_\text{right} } = I_{m} </math>
+No rank-deficient matrix has any (even one-sided) inverse.  However, the Moore-Penrose pseudoinverse exists for all matrices, and coincides with the left or right (or true) inverse when it exists.

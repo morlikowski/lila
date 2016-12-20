@@ -1,0 +1,56 @@
+'''Przeciągnij i upuść''' (ang. ''drag and drop'') to jedno z udogodnień oferowanych przez menedżery okien graficznych interfejsów użytkownika. Polega ono na umożliwieniu użytkownikowi wykonywania określonych operacji na dwóch różnych obiektach za pomocą pojedynczego ruchu myszą komputerową.
+
+W celu użycia tej techniki należy wykonać następujące czynności:
+* ustawić kursor myszy nad obiektem na ekranie, wcisnąć ''lewy'' klawisz myszy;
+* trzymając wciśnięty klawisz, przesunąć myszą kursor do miejsca docelowego;
+* puścić przycisk myszy
+
+Nie wszystkie aplikacje obsługują tą technikę, niemniej jest ona szeroko rozpowszechniona ze względu na swoją intuicyjność, prostotę i wygodę. Oto przykłady zastosowania:
+
+* przeciąganie pliku na ikonę programu lub jego okno w celu otworzenia tego pliku;
+* kopiowanie, przenoszenie, tworzenie skrótów do plików;
+* dodawanie plików lub obiektów do listy przetwarzania, np. plików multimedialnych do listy odtwarzania;
+* przeciąganie komendy na obiekt, względem którego ma zostać zastosowana, np. koloru na rysunek w celu wypełnienia go;
+* przenoszenie elementów pomiędzy aplikacjami, np. przenoszenie zaznaczonego tekstu do innej aplikacji na zasadzie kopiuj-wklej, czy przenoszenie listy plików do innej aplikacji (np. do listy odtwarzania w jakiejś aplikacji odtwarzającej muzykę lub filmy)
+* zmiana położenia i rozmiarów okien
+
+Niektóre aplikacje oferują "alternatywną" metodę sposobu wykonania operacji pozwalając na "chwytanie" elementu ''prawym'' klawiszem myszy. Wtedy po puszczeniu klawisza rozwija się menu pozwalające określić operację, jaką poprzez to przenoszenie użytkownik chce wykonać, podczas gdy w przypadku chwytania ''lewym'' klawiszem myszy wykonywana jest akcja domyślna. Przykładem jest Eksplorator Windows, gdzie w przypadku przenoszenia pliku ''lewym'' klawiszem myszy wykonuje się akcja domyślna, czyli przenoszenie (jeśli w obrębie tego samego urządzenia) lub kopiowanie (jeśli między urządzeniami), natomiast w przypadku przenoszenia ''prawym'' klawiszem myszy puszczenie spowoduje wyświetlenie menu z wyborem operacji do wykonania. Często można również wykonywać czynności inne niż domyślna, wykonując czynność z przytrzymanym jednym z klawiszy modyfikujących (Ctrl, Alt lub Shift).
+
+==Historia==
+Jednymi z pierwszych komputerów umożliwiających skorzystanie z tej techniki były:
+* Apple <!-- Lisa sprawdzić ! --> Macintosh (1984)
+* Atari ST system TOS/GEM (1985)
+
+In computer graphical user interfaces, '''drag-and-drop''' is the action of (or support for the action of) clicking on a virtual object and dragging it to a different location or onto another virtual object. In general, it can be used to invoke many kinds of actions, or create various types of associations between two abstract objects.
+
+As a feature, support for drag-and-drop is not found in all software, though it is sometimes a fast and easy-to-learn technique for users to perform tasks.
+thumb|Drag image and drop onto browser in Windows
+
+== Actions ==
+
+The basic sequence involved in drag-and-drop is:
+* Press, and hold down, the button on the mouse or other pointing device, to "grab" the object,
+* "Drag" the object/cursor/pointing device to the desired location,
+* "Drop" the object by releasing the button.
+
+Dragging requires more physical effort than moving the same pointing device without holding down any buttons.
+Because of this, a user cannot move as quickly and precisely while dragging (see Fitts' law).  However, drag-and-drop operations have the advantage of thoughtfully chunking together two operands (the object to drag, and the drop location) into a single action <ref></ref>.
+Extended dragging and dropping (as in graphic design) can stress the mousing hand.
+
+A design problem appears when the same button selects and drags items.
+Imprecise movement can cause a dragging when the user just want to select.
+
+Another problem is that the target of the dropping can be hidden under other objects.
+The user would have to stop the dragging, make both the source and the target visible and start again. This issue has been dealt with in Exposé.
+
+==Band-boxing==
+
+The process of selecting multiple icons in a single gesture in order for them to be dragged and dropped into/onto another window or application is called '''band-boxing''', as one draws a virtual "rubber band" box around them by holding down the mouse button and dragging around the outside of them.
+
+==In Mac OS==
+Drag-and-drop was used in the original Macintosh to manipulate files (for example, copying them between disks <ref>
+</ref> or folders. <ref> </ref>). The Mac OS always had a system wide drag and drop. For most of its time the OS has not updated the drag and drop.
+
+In System 7, the user can install without using the setup, the user can drag the contents of the disk and drag it to the drive to initialize the installation.
+
+Another feature was dragging text or picture to any where were you can bypass the clipboard.

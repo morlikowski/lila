@@ -1,0 +1,81 @@
+{{Eranamebox|年号=天监
+|起讫时间= 502年四月—519年十二月
+|政权= 南朝梁
+|帝王= 梁武帝萧衍
+|历时= 17年餘
+|timeline= <timeline>
+ImageSize  = width:200 height:50
+PlotArea   = width:180 height:30 left:10 bottom:20
+TimeAxis   = orientation:horizontal
+DateFormat = yyyy
+Period     = from:420 till:589
+AlignBars  = early
+ScaleMajor = increment:25 start:502
+Colors =
+  id:canvas value:rgb(1,1,0.85)
+BackgroundColors = canvas:canvas
+PlotData =
+  width:15 color:black
+  bar:era from:start till:end
+  bar:era from:502 till:557 color:green
+  bar:era from:502 till:549 color:red
+  bar:era from:502 till:519 color:blue
+</timeline>
+|说明= <span style="color: blue">天监</span>在<span style="color: green">南朝梁</span>、'''南朝'''和<span style="color: red">萧衍</span>时期的位置。 
+}}
+
+'''天监'''（502年四月—519年十二月）是梁武帝萧衍的第一个年号。南朝梁使用这个年号共17年餘。
+
+中兴二年，齐和帝蕭寶融禅位于萧衍，梁建国，改元。
+
+==纪年==
+
+{| class="wikitable" 
+!天监!!元年!!二年!!三年!!四年!!五年!!六年!!七年!!八年!!九年!!十年
+|-
+!公元
+||[[503年|||[[505年|||[[507年|||[[509年|||[[511年
+|-
+!干支
+||[[癸未|||[[乙酉|||[[丁亥|||[[己丑|||[[辛卯
+|-
+!天监!!十一年!!十二年!!十三年!!十四年!!十五年!!十六年!!十七年!!十八年!! !!
+|-
+!公元
+||[[513年|||[[515年|||[[517年|||[[519年|| ||
+|-
+!干支
+||[[癸巳|||[[乙未|||[[丁酉|||[[己亥|| ||
+|}
+
+==大事记==
+*天监二年——甪直建镇。
+*天监四年——北魏将军陈伯之降梁。
+*天监四年——丽水通济堰建成。
+
+'''天監'''（てんかん）は、南北朝時代、梁の武帝蕭衍の治世に行われた最初の元号。502年 - 519年。
+
+*元年4月:武帝、南斉の和帝の禅譲を受け、皇帝に即位。天監と改元。
+*4年:北魏将軍の陳伯之が梁に降伏。 
+*4年:麗水通斎堰完成。 
+*9年:大明暦を施行。
+
+==西暦・干支との対照表==
+{| class="wikitable" style="background-color:#ffffff;text-align:center"
+|- style="background-color:#cccccc;font-weight:bold"
+|天監||元年||2年||3年||4年||5年||6年||7年||8年||9年||10年
+|- 
+||[[502年|||[[504年|||[[506年|||[[508年|||[[510年||511年
+|- 
+||[[壬午|||[[甲申|||[[丙戌|||[[戊子|||[[庚寅||辛卯
+|- 
+||[[景明3年||景明4年||景明5年<br />正始元年||正始2年||正始3年||正始4年||正始5年<br />永平元年||永平2年||永平3年||永平4年
+|- style="background-color:#cccccc;font-weight:bold"
+|天監||11年||12年||13年||14年||15年||16年||17年||18年
+|- 
+|西暦|||[[513年|||[[515年|||[[517年|||[[519年
+|- 
+|干支|||[[癸巳|||[[乙未|||[[丁酉|||[[己亥
+|-
+||永平5年<br />[[延昌 (北魏)|延昌元年||延昌2年||延昌3年||延昌4年|||熙平2年||熙平3年<br />[[神亀 (北魏)|神亀元年||神亀2年
+|}

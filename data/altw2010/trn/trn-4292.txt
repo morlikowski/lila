@@ -1,0 +1,587 @@
+{{galaxy cluster
+| name=M109 Group 
+| constellation=Ursa Major
+| epoch=J2000
+| ra=<ref name="garcia1993">{{cite journal
+  | author=A. Garcia
+  | title=General study of group membership. II - Determination of nearby groups
+  | journal=Astronomy and Astrophysics Supplement
+  | year=1993
+  | volume=100
+  | pages=47–90
+  | url=http://adsabs.harvard.edu/abs/1993A&AS..100...47G}}</ref><ref name="giuricinetal2002">{{cite journal
+  | author=G. Giuricin, C. Marinoni, L. Ceriani, A. Pisani
+  | title=Nearby Optical Galaxies: Selection of the Sample and Identification of Groups
+  | journal=Astrophysical Journal
+  | year=2000
+  | volume=543
+  | pages=178–194
+  | url=http://adsabs.harvard.edu/abs/2000ApJ...543..178G
+  | doi=10.1086/317070}}</ref>
+| dec=<ref name="garcia1993" /><ref name="giuricinetal2002" />
+| member_no=41-58<ref name="nbg">{{cite book 
+  | author=R. B. Tully
+  | year=1988
+  | title=Nearby Galaxies Catalog
+  | edition= 
+  | publisher=Cambridge University Press
+  | location=Cambridge
+  | id=ISBN 0-521-35299-1}}</ref><ref name="garcia1993" /><ref name="giuricinetal2002" />
+| brightest_member=Messier 109<ref name="garcia1993" /><ref name="giuricinetal2002" />
+| other_names=NGC 3992 Group, LGG 258,<ref name="garcia1993" /><br />NOGG H 547,<ref name="giuricinetal2002" /><br />NOGG P1 588,<ref name="giuricinetal2002" /> NOGG P2 597<ref name="giuricinetal2002" />
+}}
+
+The '''M109 Group''' (also known as the ''NGC 3992 Group'') is a 55 million M109.
+
+==Members==
+
+The table below lists galaxies that have been consistently identified as group members in the Nearby Galaxies Catalog,<ref name="nbg" /> the survey of Fouque et al.,<ref name="fouqueetal1992">{{cite journal
+  | author=P. Fouque, E. Gourgoulhon, P. Chamaraux, G. Paturel
+  | title=Groups of galaxies within 80 Mpc. II - The catalogue of groups and group members
+  | journal=Astronomy and Astrophysics Supplement
+  | year=1992
+  | volume=93
+  | pages=211–233
+  | url=http://adsabs.harvard.edu/abs/1992A&AS...93..211F}}</ref> the Lyons Groups of Galaxies (LGG) Catalogue,<ref name="garcia1993" /> and the three group lists created from the Nearby Optical Galaxy sample of Giuricin et al.<ref name="giuricinetal2002" />
+
+{| class="wikitable" style="text-align:center;border-collapse:collapse;" cellpadding="2"
+|+'''Members of the M109 Group'''
+|-
+! style="background:#efefef;" | Name
+! style="background:#efefef;" | Type<ref name="ned">{{cite web
+  | title=NASA/IPAC Extragalactic Database
+  | work=Results for various galaxies
+  | url=http://nedwww.ipac.caltech.edu/
+  | accessdate=2006-11-09}}</ref>
+! style="background:#efefef;" | R.A. (J2000)<ref name="ned" />
+! style="background:#efefef;" | Dec. (J2000)<ref name="ned" />
+! style="background:#efefef;" | km/s)<ref name="ned" />
+! style="background:#efefef;" | Apparent Magnitude<ref name="ned" />
+|- 
+| Messier 109
+| SB(rs)bc
+| 
+| 
+| 1048 ± 1
+| 10.6
+|-
+| NGC 3718
+| SB(s)a pec
+| 
+| 
+| 993 ± 1
+| 11.6
+|-
+| NGC 3726
+| SAB(r)c
+| 
+| 
+| 866 ± 1
+| 10.9
+|-
+| NGC 3729
+| SB(r)a pec
+| 
+| 
+| 1060 ± 1
+| 12.0
+|-
+| NGC 3769
+| SB(r)b
+| 
+| 
+| 737 ±  2
+| 12.5
+|-
+| NGC 3782
+| SAB(s)cd
+| 
+| 
+| 739 ± 6 
+| 13.1
+|-
+| NGC 3870
+| S0
+| 
+| 
+| 756 ± 7
+| 13.4
+|-
+| NGC 3877
+| Sc
+| 
+| 
+| 895 ± 4 
+| 12.1
+|-
+| NGC 3893
+| SAB(rs)c
+| 
+| 
+| 967 ± 1
+| 11.2
+|-
+| NGC 3913
+| (R)SA(rs)d
+| 
+| 
+| 954 ± 4
+| 13.2
+|-
+| NGC 3917
+| SAcd
+| 
+| 
+| 965 ± 1
+| 12.5
+|-
+| NGC 3922
+| S0/a
+| 
+| 
+| 906 ± 7
+| 13.4
+|-
+| NGC 3928
+| SA(s)b
+| 
+| 
+| 988 ± 4
+| 13.0
+|-
+| NGC 3949
+| SA(s)bc
+| 
+| 
+| 800 ± 1
+| 11.5
+|-
+| NGC 3953
+| SB(r)bc
+| 
+| 
+| 1052 ± 2
+| 10.8
+|-
+| NGC 3972
+| SA(s)bc
+| 
+| 
+| 852 ± 1
+| 13.1
+|-
+| NGC 3982
+| SAB(r)b
+| 
+| 
+| 1109 ± 6
+| 12.0
+|-
+| NGC 4010
+| SB(s)d
+| 
+| 
+| 902 ± 1
+| 13.2
+|-
+| NGC 4026
+| S0
+| 
+| 
+| 930 ± 40
+| 11.7
+|-
+| NGC 4085
+| SAB(s)c
+| 
+| 
+| 746 ± 5
+| 13.0
+|-
+| NGC 4088
+| SAB(rs)bc
+| 
+| 
+| 757 ± 1
+| 11.2
+|-
+| NGC 4100
+| (R)SA(rs)bc
+| 
+| 
+| 1074 ± 1
+| 11.9
+|-
+| NGC 4102
+| SAB(s)b
+| 
+| 
+| 846 ± 2
+| 12.0
+|-
+| NGC 4142
+| SB(s)d
+| 
+| 
+| 1157 ± 7
+| 13.9
+|-
+| NGC 4157
+| SAB(s)b
+| 
+| 
+| 774 ± 2
+| 12.2
+|-
+| UGC 6628
+| SAm
+| 
+| 
+| 841 ± 1
+| 13.2
+|-
+| UGC 6667
+| Scd
+| 
+| 
+| 973 ± 1
+| 14.2
+|-
+| UGC 6840
+| SB(rs)m
+| 
+| 
+| 1046 ± 5
+| 14.3
+|-
+| UGC 6917
+| SBm
+| 
+| 
+| 911 ± 1
+| 13.1
+|-
+| UGC 6923
+| Im
+| 
+| 
+| 1066 ± 2
+| 15.1
+|-
+| UGC 6930
+| SAB(s)d
+| 
+| 
+| 777 ± 0
+| 12.7
+|-
+| UGC 6983
+| SB(rs)cd
+| 
+| 
+| 1082 ± 1
+| 13.1
+|-
+| UGC 7218
+| Im
+| 
+| 
+| 770 ± 7
+| 14.8
+|-
+|}
+
+{{Aglomerado de galáxias
+|imagem= M109.jpg
+|legenda= M109, a maior e mais brilhante galáxia no Grupo M109.
+|nome= Grupo M109
+|constelacao= Ursa Major
+|asc= <ref name="garcia1993">{{cite journal
+  | author=A. Garcia
+  | title=General study of group membership. II - Determination of nearby groups
+  | journal=Astronomy and Astrophysics Supplement
+  | year=1993
+  | volume=100
+  | pages=47–90
+  | url=http://adsabs.harvard.edu/abs/1993A&AS..100...47G}}</ref><ref name="giuricinetal2002">{{cite journal
+  | author=G. Giuricin, C. Marinoni, L. Ceriani, A. Pisani
+  | title=Nearby Optical Galaxies: Selection of the Sample and Identification of Groups
+  | journal=Astrophysical Journal
+  | year=2000
+  | volume=543
+  | pages=178–194
+  | url=http://adsabs.harvard.edu/abs/2000ApJ...543..178G
+  | doi=10.1086/317070}}</ref>
+|decl= <ref name="garcia1993" /><ref name="giuricinetal2002" />
+|numero= 41-58<ref name="nbg">{{cite book 
+  | author=R. B. Tully
+  | year=1988
+  | title=Nearby Galaxies Catalog
+  | edition= 
+  | publisher=Cambridge University Press
+  | location=Cambridge
+  | id=ISBN 0-521-35299-1}}</ref><ref name="garcia1993" /><ref name="giuricinetal2002" />
+|brilhante= Messier 109<ref name="garcia1993" /><ref name="giuricinetal2002" />
+|outrosnomes= NGC 3992 Group, LGG 258,<ref name="garcia1993" /><br />NOGG H 547,<ref name="giuricinetal2002" /><br />NOGG P1 588,<ref name="giuricinetal2002" /> NOGG P2 597<ref name="giuricinetal2002" />
+|basemap= Ursa major constellation map.png
+}}
+'''Grupo M109''' (também conhecido como o ''Grupo NGC 3992'') é um grupo de galáxias a aproximadamente 55 milhões de anos-luz de distância na direção da constelação de Ursa Major. O grupo é nomeado com o nome do membros mais brilhante, a galáxia espiral M109.
+
+==Membros==
+A tabela abaixo lista todas as galáxias identificadas e confirmadas como membros do grupo pelo Nearby Galaxies Catalog,<ref name="nbg" /> as exmainações de Fouque et al.,<ref name="fouqueetal1992">{{cite journal
+  | author=P. Fouque, E. Gourgoulhon, P. Chamaraux, G. Paturel
+  | title=Groups of galaxies within 80 Mpc. II - The catalogue of groups and group members
+  | journal=Astronomy and Astrophysics Supplement
+  | year=1992
+  | volume=93
+  | pages=211–233
+  | url=http://adsabs.harvard.edu/abs/1992A&AS...93..211F}}</ref> o Lyons Groups of Galaxies (LGG) Catalog,<ref name="garcia1993" /> e três listas de grupos criados pelo Nearby Optical Galaxy sample of Giuricin et al.<ref name="giuricinetal2002" />.
+
+{| class="wikitable" style="text-align:center;border-collapse:collapse;" cellpadding="2"
+|+'''Membros do Grupo M109'''
+|-
+! style="background:#efefef;" | Name
+! style="background:#efefef;" | Tipo<ref name="ned">{{cite web
+  | title=NASA/IPAC Extragalactic Database
+  | work=Results for various galaxies
+  | url=http://nedwww.ipac.caltech.edu/
+  | accessdate=2006-11-09}}</ref>
+! style="background:#efefef;" | A.R. (J2000)<ref name="ned" />
+! style="background:#efefef;" | Dec. (J2000)<ref name="ned" />
+! style="background:#efefef;" | km/s)<ref name="ned" />
+! style="background:#efefef;" | Magnitude<ref name="ned" />
+|- 
+| Messier 109
+| SB(rs)bc
+| 
+| 
+| 1048 ± 1
+| 10.6
+|-
+| NGC 3718
+| SB(s)a pec
+| 
+| 
+| 993 ± 1
+| 11.6
+|-
+| NGC 3726
+| SAB(r)c
+| 
+| 
+| 866 ± 1
+| 10.9
+|-
+| NGC 3729
+| SB(r)a pec
+| 
+| 
+| 1060 ± 1
+| 12.0
+|-
+| NGC 3769
+| SB(r)b
+| 
+| 
+| 737 ±  2
+| 12.5
+|-
+| NGC 3782
+| SAB(s)cd
+| 
+| 
+| 739 ± 6 
+| 13.1
+|-
+| NGC 3870
+| S0
+| 
+| 
+| 756 ± 7
+| 13.4
+|-
+| NGC 3877
+| Sc
+| 
+| 
+| 895 ± 4 
+| 12.1
+|-
+| NGC 3893
+| SAB(rs)c
+| 
+| 
+| 967 ± 1
+| 11.2
+|-
+| NGC 3913
+| (R)SA(rs)d
+| 
+| 
+| 954 ± 4
+| 13.2
+|-
+| NGC 3917
+| SAcd
+| 
+| 
+| 965 ± 1
+| 12.5
+|-
+| NGC 3922
+| S0/a
+| 
+| 
+| 906 ± 7
+| 13.4
+|-
+| NGC 3928
+| SA(s)b
+| 
+| 
+| 988 ± 4
+| 13.0
+|-
+| NGC 3949
+| SA(s)bc
+| 
+| 
+| 800 ± 1
+| 11.5
+|-
+| NGC 3953
+| SB(r)bc
+| 
+| 
+| 1052 ± 2
+| 10.8
+|-
+| NGC 3972
+| SA(s)bc
+| 
+| 
+| 852 ± 1
+| 13.1
+|-
+| NGC 3982
+| SAB(r)b
+| 
+| 
+| 1109 ± 6
+| 12.0
+|-
+| NGC 4010
+| SB(s)d
+| 
+| 
+| 902 ± 1
+| 13.2
+|-
+| NGC 4026
+| S0
+| 
+| 
+| 930 ± 40
+| 11.7
+|-
+| NGC 4085
+| SAB(s)c
+| 
+| 
+| 746 ± 5
+| 13.0
+|-
+| NGC 4088
+| SAB(rs)bc
+| 
+| 
+| 757 ± 1
+| 11.2
+|-
+| NGC 4100
+| (R)SA(rs)bc
+| 
+| 
+| 1074 ± 1
+| 11.9
+|-
+| NGC 4102
+| SAB(s)b
+| 
+| 
+| 846 ± 2
+| 12.0
+|-
+| NGC 4142
+| SB(s)d
+| 
+| 
+| 1157 ± 7
+| 13.9
+|-
+| NGC 4157
+| SAB(s)b
+| 
+| 
+| 774 ± 2
+| 12.2
+|-
+| UGC 6628
+| SAm
+| 
+| 
+| 841 ± 1
+| 13.2
+|-
+| UGC 6667
+| Scd
+| 
+| 
+| 973 ± 1
+| 14.2
+|-
+| UGC 6840
+| SB(rs)m
+| 
+| 
+| 1046 ± 5
+| 14.3
+|-
+| UGC 6917
+| SBm
+| 
+| 
+| 911 ± 1
+| 13.1
+|-
+| UGC 6923
+| Im
+| 
+| 
+| 1066 ± 2
+| 15.1
+|-
+| UGC 6930
+| SAB(s)d
+| 
+| 
+| 777 ± 0
+| 12.7
+|-
+| UGC 6983
+| SB(rs)cd
+| 
+| 
+| 1082 ± 1
+| 13.1
+|-
+| UGC 7218
+| Im
+| 
+| 
+| 770 ± 7
+| 14.8
+|-
+|}
+
+Galáxias freqüentemente mas não consistentemente listadas como membros do grupo nas referências acima (galáxias listadas em quatro das listas acima) incluem: NGC 3631, NGC 3657, NGC 3773, NGC 3756, NGC 3850, NGC 3898, NGC 3990, NGC 3985, NGC 3990, NGC 3998, NGC 4217, NGC 4220, UGC 6773, UGC 6802, UGC 6816, UGC 6922, e UGC 6969. O número exato de membros e de galáxias neste grupo está incerto.

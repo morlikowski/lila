@@ -1,0 +1,69 @@
+'''Шаблон Proxy (Заступник) ''' — Шаблон проектування. Надає об'єкт, контролюючий доступ, перехоплюючи всі виклики до нього.
+
+=== Проблема ===
+
+Необхідно управляти доступом до об'єкту, так щоб створювати громіздкі об'єкти «на вимогу».
+
+=== Вирішення ===
+
+Створити сурогат громіздкого об'єкту. «Заступник» зберігає посилання, яке дозволяє заступникові звернутися до реального суб'єкта (об'єкт класу «Заступник» може звертатися до об'єкту класу «Суб'єкт», якщо інтерфейси «Реального Суб'єкта» і «Суб'єкта» однакові). Оскільки інтерфейс «Реального Суб'єкта» ідентичний інтерфейсу «Суб'єкта», так, що «Заступника» можна підставити замість «Реального Суб'єкта», контролює доступ до «Реального Суб'єкта», може відповідати за створення або видалення «Реального Суб'єкта». «Суб'єкт» визначає загальний для «Реального Суб'єкта» і «Заступника» інтерфейс, так, що «Заступник» може бути використаний скрізь, де очікується «Реальний Суб'єкт».
+
+«Заступник» може мати і інші обов'язки, а саме:
+* видалений «Заступник» може відповідати за кодування запиту і його аргументів і відправку закодованого запиту реальному «Суб'єктові»
+* віртуальний «Заступник» може кешировать додаткову інформацію про реального «Суб'єкта», щоб відкласти його створення
+* захищаючий «Заступник» може перевіряти, чи має зухвалий об'єкт необхідні для виконання запиту має рацію.
+
+== Приклад на C# ==
+
+<source lang="csharp">
+  class MainApp
+  {
+    static void Main()
+    {
+      // Create math proxy
+      MathProxy p = new MathProxy();
+
+      // Do the math
+      Console.WriteLine("4 + 2 = " + p.Add(4, 2));
+      Console.WriteLine("4 - 2 = " + p.Sub(4, 2));
+      Console.WriteLine("4 * 2 = " + p.Mul(4, 2));
+      Console.WriteLine("4 / 2 = " + p.Div(4, 2));
+
+      // Wait for user
+      Console.Read();
+    }
+  }
+
+  // "Subject"
+
+  public interface IMath
+  {
+    double Add(double x, double y);
+    double Sub(double x, double y);
+    double Mul(double x, double y);
+    double Div(double x, double y);
+  }
+
+Der '''Proxy''', auch '''Stellvertreter''' genannt, ist ein Viererbande.
+
+Ein Proxy in seiner allgemeinsten Form ist eine Klasse, die als Schnittstelle zu einem anderen "Subjekt" auftritt. Dieses Subjekt kann beispielsweise eine Netzwerkverbindung, ein großes Objekt im Speicher, eine Datei oder eine andere Ressource sein. Als Stellvertreter dieses Subjektes kann der Proxy die Erzeugung des Subjektes sowie den Zugriff darauf kontrollieren.
+
+==Verwendung==
+Der Stellvertreter hat sich in verschiedenen Anwendungsfällen als nützlich erwiesen. Je nach Verwendung unterscheidet man verschiedene Arten von Stellvertreterobjekten:
+ 
+Als ''Remote-Proxy'' wird ein lokaler Stellvertreter für ein Objekt in einem anderen DCOM verwendet.
+
+Ein ''virtueller Stellvertreter'' dient der Verzögerung "teurer" Operationen auf den Zeitpunkt des tatsächlichen Bedarfs. Typische solcher teueren Operationen sind die Erzeugung oder die Veränderung eines komplexen Objektes.
+
+Zur Durchsetzung von Zugriffsrechten auf ein Objekt kommt ein ''Schutzproxy'' zum Einsatz. Dies ist insbesondere dann nützlich, wenn unterschiedliche zugreifende Objekte verschiedene Zugriffsrechte auf das zu schützende Objekt haben sollen. Ein konkretes Beispiel für Schutzproxys sind Kernel-Proxys, welche den Zugriff auf Betriebssystemobjekte kontrollieren.
+
+Stellvertreter kommen ebenfalls zum Einsatz, um an den eigentlichen Zugriff auf das Objekt weitere Operationen zu binden. Das Objekt bleibt damit von diesen Operationen unabhängig. Für diese Art von Stellvertretern hat sich der Begriff der ''Smart References'' etabliert. Das Zählen von Referenzen und Persistenzoperationen sind typische Anwendungsfälle.
+
+== UML-Diagramm ==
+
+Bild:Stellvertreter.png
+
+Bild:Proxy flexibel.png
+
+=== Klient ===
+Der Klient stellt das Objekt da, welches - durch den Stellvertreter - auf das reale Subjekt zugreift.

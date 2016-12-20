@@ -1,0 +1,119 @@
+'''מספר ריבועי''' הוא חיובי שיכול להיכתב כ9 הוא מספר ריבועי כיוון ש-<math>\ 3\times 3 = 9</math>.
+
+קל להבין שמספר נתון <math>\ m</math> יקרא ריבועי אם ורק אם ניתן לסדר <math>\ m</math> עצמים בריבוע, למשל -
+{| cellpadding="8"
+|1
+|תמונה:Square number 1.png
+|-
+|4
+|תמונה:Square number 4.png
+|-
+|9
+|תמונה:Square number 9.png
+|-
+|16
+|תמונה:Square number 16.png
+|-
+|25
+|תמונה:Square number 25.png
+|}
+
+50 המספרים הריבועים הראשונים הם:
+
+<div style="float:left; padding: 1em;">
+:1<sup>2</sup> = 1
+:2<sup>2</sup> = 4
+:3<sup>2</sup> = 9
+:4<sup>2</sup> = 16
+:5<sup>2</sup> = 25
+:6<sup>2</sup> = 36
+:7<sup>2</sup> = 49
+:8<sup>2</sup> = 64
+:9<sup>2</sup> = 81
+:10<sup>2</sup> = 100
+</div>
+
+<div style="float:left; padding: 1em;">
+:11<sup>2</sup> = 121
+:12<sup>2</sup> = 144
+:13<sup>2</sup> = 169
+:14<sup>2</sup> = 196
+:15<sup>2</sup> = 225
+:16<sup>2</sup> = 256
+:17<sup>2</sup> = 289
+:18<sup>2</sup> = 324
+:19<sup>2</sup> = 361
+:20<sup>2</sup> = 400
+</div>
+
+<div style="float:left; padding: 1em;">
+:21<sup>2</sup> = 441
+:22<sup>2</sup> = 484
+:23<sup>2</sup> = 529
+:24<sup>2</sup> = 576
+:25<sup>2</sup> = 625
+:26<sup>2</sup> = 676
+:27<sup>2</sup> = 729
+:28<sup>2</sup> = 784
+:29<sup>2</sup> = 841
+:30<sup>2</sup> = 900
+</div>
+
+<div style="float:left; padding: 1em;">
+:31<sup>2</sup> = 961
+:32<sup>2</sup> = 1024
+:33<sup>2</sup> = 1089
+:34<sup>2</sup> = 1156
+:35<sup>2</sup> = 1225
+:36<sup>2</sup> = 1296
+:37<sup>2</sup> = 1369
+:38<sup>2</sup> = 1444
+:39<sup>2</sup> = 1521
+:40<sup>2</sup> = 1600
+</div>
+
+En positif qui peut être représenté géométriquement par un 9 est un nombre carré puisqu'il peut être représenté par un carré de 3 ×3 points. Par convention, le premier nombre carré est égal à 1, bien que 0 soit un carré parfait (0×0=0). Remarquons que le produit de deux nombres carrés, est un nombre carré.
+
+Représentons les premiers nombres carrés :
+
+{| class="wikitable"
+! colspan="2"|1
+|-----
+| 16px|* 
+| 16px|x
+|}
+
+{| class="wikitable"
+! colspan="2"|4
+|-----
+|16px|*16px|*<br>16px|*16px|*
+|16px|*16px|*<br>16px|*16px|*
+|}
+
+{| class="wikitable"
+! colspan="2"|9
+|-----
+|16px|*16px|*16px|*<br>16px|*16px|*16px|*<br>16px|*16px|*16px|*
+|16px|*16px|*16px|*<br>16px|*16px|*16px|*<br>16px|*16px|*16px|*
+|}
+
+{| class="wikitable"
+! colspan="2"|16
+|-----
+|16px|*16px|*16px|*16px|*<br>16px|*16px|*16px|*16px|*<br>16px|*16px|*16px|*16px|*<br>16px|*16px|*16px|*16px|*
+|16px|*16px|*16px|*16px|*<br>16px|*16px|*16px|*16px|*<br>16px|*16px|*16px|*16px|*<br>16px|*16px|*16px|*16px|*
+|}
+
+{| class="wikitable"
+! colspan="2"|25
+|-----
+|16px|*16px|*16px|*16px|*16px|*<br>16px|*16px|*16px|*16px|*16px|*<br>16px|*16px|*16px|*16px|*16px|*<br>16px|*16px|*16px|*16px|*16px|*<br>16px|*16px|*16px|*16px|*16px|*
+|16px|*16px|*16px|*16px|*16px|*<br>16px|*16px|*16px|*16px|*16px|*<br>16px|*16px|*16px|*16px|*16px|*<br>16px|*16px|*16px|*16px|*16px|*<br>16px|*16px|*16px|*16px|*16px|*
+|}
+
+Les 50 premiers nombres carrés sont:
+    1    4    9   16   25    36   49   64   81  100
+  121  144  169  196  225   256  289  324  361  400
+  441  484  529  576  625   676  729  784  841  900
+  961 1024 1089 1156 1225  1296 1369 1444 1521 1600
+ 1681 1764 1849 1936 2025  2116 2209 2304 2401 2500

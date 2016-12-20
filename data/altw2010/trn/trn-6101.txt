@@ -1,0 +1,112 @@
+{{infobox Franse gemeente|
+|plaatsnaam= Chénérailles
+|wapen= 
+|kaart= 
+|regio= Limousin 
+|departement= Creuse (23)
+|arrondissement= Aubusson
+|kanton= Chénérailles
+|jaar= 1999
+|inwoners= 759
+|dichtheid= 97,3
+|oppervlakte= 7,8
+|water= 
+|latitudeGraden= 46 |latitudeMinuten= 7|latitudeSeconden= 0
+|longitudeGraden= 2 |longitudeMinuten= 10 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 153 |kaartY= 165
+|code= 23061
+|postcode= 23130
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Chénérailles''' is een gemeente in het Franse departement Creuse (regio Aubusson.
+
+==Geografie==
+De oppervlakte van Chénérailles bedraagt 7,8 km², de bevolkingsdichtheid is 97,3 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:1200 color:gray1 width:1       
+  from:start till:end             
+  bar:800 color:gray1              
+  from:start till:end            
+  bar:400 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,129)(84,123) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 770 1968: 729
+  points:(84,123)(100,115)    color:blue    width:2 #1975: 674
+  points:(100,115)(128,117)   color:blue    width:2 #1982: 685
+  points:(128,117)(160,132)   color:blue    width:2 #1990: 794
+  points:(160,132)(196,128)   color:blue    width:2 #1999: 759
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+==Externe links==
+*[http://www.mapquest.com/maps/map.adp?searchtype=address&formtype=latlong&latlongtype=degrees&latdeg=46&latmin=7&latsec=0&longdeg=2&longmin=10&longsec=0&zoom=6 Locatie van de gemeente (kaart met schaal 1:100.000) op Mapquest]
+*[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=23061&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Meer statistische informatie over de gemeente op www.insee.fr] 
+
+{{French commune
+|name =Chénérailles<br>100px
+|region=Limousin
+|departement=Creuse
+|arrondissement=Aubusson
+|canton=Chénérailles
+|insee=23061
+|cp=23130
+|mayor=Gérard Berthelet
+|mandat=2001-2008
+|intercomm=Chénérailles
+|longitude=2.176
+|latitude=46.113
+|alt moy=560 m
+|alt mini=487
+|alt maxi=553 m
+|hectares=777
+|km²=7.77
+|sans=759
+|date-sans=1999
+|dens=97
+|date-dens=1999}}
+
+'''Chénérailles''' (Cheneralha in commune in the department in central France.
+
+==Geography==
+Chénérailles is the administrative centre of the canton of the same name. 12 miles to the north of Aubusson, on a hill, dominating marshy areas from which rises a tributary of the Voueize.
+
+==History==
+Originally a fortified stronghold going back to before Roman times, there’s plenty of evidence found of Roman occupation too (urns, papryus ashes, coins and medallions of the emperors Maximilian, Gallien, Gordien and Licinius). The city was once surrounded by a strong wall, in the middle of which there was a castle (since destroyed). These days, the site is occupied by the parish church of St Barthélémy.
+Chénérailles suffered from the wars against the English early in the 15th century, being almost completely destroyed, but Jacques and Bernard of Armagnac, Comtes de la Marche, rebuilt the place between the years  Catholic League and was besieged for 8 months, only surrendering when they were starved out.
+
+==Population==
+{| align="center" rules="all" cellspacing="0" cellpadding="4" style="border: 1px solid #999; border-right: 2px solid #999; border-bottom:2px solid #999; background: #f3fff3"
+|+ style="font-weight: bold; font-size: 1.1em; margin-bottom: 0.5em"| Population Growth
+|-style="background: #ddffdd"
+! 1962 !! 1968 !! 1975 !! 1982 !! 1990 !! 1999 
+|-
+|688||729||674||685||794||759
+|-
+| colspan=6 align=center| <small>Census count starting from 1962 : Population without double counting
+|}

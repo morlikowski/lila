@@ -1,0 +1,507 @@
+thumb
+==Размеры батареек==
+
+==Таблица размеров современных батареек==
+
+Приведенная ниже таблица является списком типоразмеров батарей, которые можно найти на сегодняшний день. Обратите внимание, что существуют и другие типоразмеры, не указанные в таблице, но они более недоступны вследствие прекращения выпуска и/или смены технологической необходимости. Например не перечисленны батареи для ламповой радиоаппаратуры.
+
+{| class="wikitable"
+|- | valign="top"
+! Наиболее распространенное название
+! Другие названия
+! IEC<br>название
+! ANSI/NEDA<br>название
+! Типичная емкость в мАч
+! Номинальное напряжение(В)
+! Форма
+! Контакты
+! Размеры
+! Примечание
+|- | valign="top"
+
+| '''123'''
+| Camera&nbsp;Battery<br>CR123<br>CR123A<br>123A
+| CR17354&nbsp;(Литиевая)
+| 5018LC&nbsp;(Литиевая)
+| 1500&nbsp;(Литиевая)<br />700&nbsp;(Li–Ion)
+| 3
+| Цилиндр
+|  + конец с выступом<br>− плоский конец
+| L 34.5 mm <br> D 17 mm
+| 123 всегда литиевые
+|- | valign="top"
+
+| '''4.5&nbsp;Volt'''
+| Pocketable&nbsp;Battery<br>1203<br>4.5 V
+| 3LR12&nbsp;(Щелочная) <br> 3R12&nbsp;(угольно-цинковая)
+| MN1203&nbsp;(Марганцовая)
+| 6100&nbsp;(Щелочная) <br> 1200&nbsp;(угольно-цинковая)
+| 4.5&nbsp;
+| Плоская
+| + короткий вывод<br> − длинный вывод
+| H 65 mm <br> L 61 mm <br> W 21 mm
+| Эта батарея более распространена в Европе, нежели в северной америке.
+|- | valign="top"
+
+| '''9&nbsp;Volt'''
+| PP3 <br> 9-Volt<br>«Крона»<br>MN1604<br>
+| 6LR61&nbsp;(Щелочная) <br> 6F22&nbsp;(угольно-цинковая) <br> 6KR61&nbsp;(NiCd)
+| 1604A&nbsp;(Щелочная) <br> 1604D&nbsp;(угольно-цинковая) <br> 1604LC&nbsp;(Литиевая) <br> 7.2H5&nbsp;(NiMH) <br> 11604&nbsp;(NiCd)
+| 565&nbsp;(Щелочная) <br> 400&nbsp;(угольно-цинковая) <br> 1200&nbsp;(Литиевая) <br> 175&nbsp;(NiMH) <br> 120&nbsp;(NiCd) <br> 500&nbsp;(Литий полимер, перезаряж.)
+| 9<br>7.2&nbsp;(NiMH&nbsp;and&nbsp;NiCd)<br>8.4&nbsp;(some NiMH and NiCd)
+| Прямоугольник
+| + папа разъем<br> − мама разъем
+| H 48.5 mm <br> L 26.5 mm <br> W 17.5 mm
+| 
+|- | valign="top"
+
+| '''A23'''
+| 23A<br>3LR50<br>MN21
+| 3LR50&nbsp;(Щелочная)
+| 1181A&nbsp;(Щелочная)
+| 40&nbsp;(Щелочная)
+| 12
+| Цилиндр<br>(Или блок таблеток)
+| + конец с выступом<br>− плоский конец
+| L 29 mm <br> D 10 mm
+| Используется в миниатюрных радиочастотных устройствах, таких как брелок автосигнализации, бесконтактный ключ и т.д. Выглядит как монолитная батарейка, или, иногда, как блок из восьми  LR932 таблеток, обвернутых вместе
+|- | valign="top"
+
+| '''AA'''
+| Пальчиковая<br>MN1500<br>MX1500
+| LR6&nbsp;(Щелочная) <br> R6&nbsp;(угольно-цинковая) <br> FR6&nbsp;(Lithium–FeS<sub>2</sub>) <br> HR6&nbsp;(Ni-MH) <br> KR157/51&nbsp;(NiCd) <br> ZR6&nbsp;(Ni-Mn)
+| 15A&nbsp;(Щелочная)<br>15D&nbsp;(угольно-цинковая) <br> 15LF&nbsp;(Lithium–FeS<sub>2</sub>) <br> 1.2H2&nbsp;(NiMH) <br> 10015&nbsp;(NiCd)
+| 2700&nbsp;(Щелочная)<br>1100&nbsp;(угольно-цинковая) <br> 3000&nbsp;(Lithium–FeS<sub>2</sub>) <br> 1700–2900&nbsp;(NiMH) <br> 600–1000&nbsp;(NiCd)
+| 1.5 <br> 1.2&nbsp;(NiMH&nbsp;and&nbsp;NiCd)
+| Цилиндр
+| + конец с выступом<br>− плоский конец
+| L 50.5 mm <br> D 13.5–14.5 mm
+| C7/HP7;
+|- | valign="top"
+
+| '''AAA'''
+| Мизинчиковая <br> MN2400 <br> MX2400
+| LR03&nbsp;(Щелочная) <br> R03&nbsp;(угольно-цинковая)<br> FR03&nbsp;(Li–FeS2)
+| 24A&nbsp;(Щелочная) <br> 24D&nbsp;(угольно-цинковая) <br> 24LF&nbsp;(Li–FeS2) 
+| 1200&nbsp;(Щелочная) <br> 540&nbsp;(угольно-цинковая) <br> 800–1000&nbsp;(Ni–MH)
+| 1.5 <br> 1.2&nbsp;(NiMH&nbsp;and&nbsp;NiCd)
+| Cylinder
+| + конец с выступом<br>− плоский конец
+| L 44.5 mm <br> D 10.5 mm
+| C16/HP16;
+|- | valign="top"
+
+| '''AAAA'''
+| MX2500
+| LR8D425&nbsp;(Щелочная)
+| 25A&nbsp;(Щелочная)
+| 625&nbsp;(Щелочная)
+| 1.5
+| Цилиндр
+| + конец с выступом<br>− плоский конец
+| L 42.5 mm <br> D 8.3 mm
+| Данный тип иногда используется в фонарях в виде шариковой ручки или электронике вроде глюкометров. Наиболее часто используется как составная часть 9В батарейки
+|- | valign="top"
+
+| '''C'''
+| MN1400 <br> MX1400
+| LR14&nbsp;(Щелочная) <br> R14&nbsp;(угольно-цинковая) 
+| 14A&nbsp;(Щелочная) <br> 14D&nbsp;(угольно-цинковая)
+| 8000&nbsp;(Щелочная) <br> 3800&nbsp;(угольно-цинковая) <br> 4500–6000&nbsp;(NiMH)
+| 1.5 <br> 1.2&nbsp;(NiMH)
+| Цилиндр
+| + конец с выступом<br>− плоский конец
+| L 50 mm <br> D 26.2 mm
+| C11/SP11/HP11; Может быть заменена щелочной АА батарейкой при использовании пластмассового держателя
+|- | valign="top"
+
+| colspan=10 | См примечания по маркировке CR батарей ниже таблицы
+|- | valign="top"
+
+| '''CR927'''
+| &nbsp;
+| &nbsp;
+| &nbsp;
+| 30&nbsp;(Литиевая)
+| 3
+| Монетка
+| + дно/края <br> − верх
+| D 9.5 mm <br> H 2.7 mm
+| Этот тип интенсивно используется в различных светодиодных мигалках.
+|- | valign="top"
+
+| '''CR1220'''
+| &nbsp;
+| CR1220&nbsp;(Литиевая)
+| &nbsp;
+| 40&nbsp;(Литиевая)
+| 3
+| Монетка
+| + дно/края <br> − верх
+| D 12.5 mm <br> H 2.0 mm
+| Нормальный ток разряда 0,1 мА.
+|- | valign="top"
+
+| '''CR1225'''
+| &nbsp;
+| CR1225&nbsp;(Литиевая)
+| &nbsp;
+| 50&nbsp;(Литиевая)
+| 3
+| Монетка
+| + дно/края <br> − верх
+| D 12.5 mm <br> H 2.5 mm
+| Стандартный ток разряда: 0.2 mA. Максимальный ток разряда: 1 mA. Максимальный импульсный ток разряда: 5 mA.
+|- | valign="top"
+
+| '''CR1616'''
+|
+| CR1616 (Литиевая)
+|
+| 50 (Литиевая)
+| 3
+| Монетка
+| + дно/края <br> − верх
+| D 16 mm <br> H 1.6 mm
+| Стандартный ток разряда: 0.1 mA.
+|- | valign="top"
+
+| '''CR1620'''
+| &nbsp;
+| CR1620&nbsp;(Литиевая)
+| &nbsp;
+| 78&nbsp;(Литиевая)
+| 3
+| Монетка
+| + дно/края <br> − верх
+| D 16 mm <br> H 2.0 mm
+| Стандартный ток разряда: 0.1 mA.
+|- | valign="top"
+
+| '''CR2016'''
+| DL2016&nbsp;
+| CR2016&nbsp;(Литиевая)
+| 5000LC&nbsp;(Литиевая)
+| 90&nbsp;(Литиевая)
+| 3
+| Монетка
+| + дно/края <br> − верх
+| D 20 mm <br> H 1.6 mm
+| Стандартный ток разряда: 0.1 mA. Часто используется пара таких элементов взамен одной CR2032  в устройствах, для которых 3В недостаточно, например белые/синие светодиоды. ВНИМАНИЕ: Использование двух CR2016 '''когда на это не указано''' может повредить прибор.
+|- | valign="top"
+
+| '''CR2025'''
+| DL2025&nbsp;
+| CR2025&nbsp;(Литиевая)
+| 5003LC&nbsp;(Литиевая)
+| 160&nbsp;(Литиевая)
+| 3
+| Монетка
+| + дно/края <br> − верх
+| D 20 mm <br> H 2.5 mm
+| Стандартный ток разряда: 0.2 mA.
+|- | valign="top"
+
+| '''CR2032'''
+| DL2032&nbsp;
+| CR2032&nbsp;(Литиевая)
+| 5004LC&nbsp;(Литиевая)
+| 225&nbsp;(Литиевая)
+| 3
+| Монетка
+| + дно/края <br> − верх
+| D 20 mm <br> H 3.2 mm
+| Стандартный ток разряда: 0.2 mA. Максимальный ток разряда: 3 mA. Максимальный импульсный ток разряда: 15 mA. Используется в компьютерах, для сохранения данных CMOS когда отключенно питание.
+|- | valign="top"
+
+| '''CR2450'''
+| DL2450&nbsp;
+| CR2450&nbsp;(Литиевая)
+| 5029LC&nbsp;(Литиевая)
+| 610&nbsp;(Литиевая)
+| 3
+| Монетка
+| + дно/края <br> − верх
+| D 24.5 mm <br> H 5.0 mm
+| Портативные устройства требующие большой ток (30 mA) и большой срок хранения (до 10 лет)
+|- | valign="top"
+
+| '''CR-V3'''
+| CRV3<br/>RCR-V3 (Li-Ion)
+|
+|
+| 2000&nbsp;(Литиевая)<br/>1300&nbsp;(Li-Ion)
+| 3
+| плоская упаковка
+| Both on one end
+| 52.20 × 28.05 × 14.15 mm
+| Размер и форма совпадает с 2 батареями типоразмера АА, что позволяет использовать в устройствах, изначально не проектировавшихся на использование CR-V3, например в цифровых фотокамерах.|- | valign="top"
+
+thumb|right|325px|4.5-Volt, D, C, AA, AAA, 9-Volt, SR41/AG3, SR44/AG13 <br> (NOTE: The tape measure is [[Centimetres)]]
+
+:''This article refers to common battery types and sizes in household and light industrial use.''
+
+''Battery size'' generally refers to the shape, voltage, and terminal layout of a battery. Thus the term "size" has become interchangeable with "type". Batteries of different types will usually ''not'' have the same dimensions and terminal layout.
+
+== Battery chemistry ==
+Older batteries were mostly based on rechargeable lead-acid or non-rechargeable alkaline chemistries, with nominal voltages in increments of 1.5&nbsp;Volts, each representing one individual electrochemical cell.
+
+New  special battery chemistries have strained older naming conventions.  Rechargeable lithium-chemistry batteries, which provide exceptionally high energy density, produce about 1.5&nbsp;V per cell and are thus similar to alkaline batteries.
+
+Many new battery sizes refer to '''both''' the batteries' size and chemistry, while older names do not. For a more complete list see battery types. This summary is only for types relating to battery "sizes".
+
+===Primary battery chemistries===
+{| class="wikitable"
+|-
+''(in order of increasing energy density)''
+|-
+|-
+! Chemistry !! Cell<br>Voltage !! Elaboration
+
+|-
+|-
+| Zinc–carbon || 1.5 || Inexpensive.
+|-
+| Zinc chloride || 1.5 || Also known as "heavy duty", inexpensive.
+|-
+| alkaline<br>(zinc–manganese dioxide) || 1.5 || Moderate energy density.<br>Good for high and low drain uses.
+|-
+| oxy nickel hydroxide<br>(zinc-manganese dioxide/oxy nickel hydroxide) || 1.7 || Moderate energy density. <br> Good for high drain uses
+|-
+| Lithium<br>(lithium–copper oxide)<br>Li–CuO || 1.5 || End of life.<br>SR battery is used instead now.
+|-
+| Lithium<br>(lithium–iron disulfide)<br>LiFeS<sub>2</sub> || 1.5 || Expensive.<br>Used in 'plus' or 'extra' batteries.
+|-
+| Lithium<br>(lithium–manganese dioxide)<br>LiMnO<sub>2</sub> || 3.0 || Expensive.<br>Only used in high-drain devices or for long shelf life due to very low rate of self discharge.<br>'Lithium' alone usually refers to this type of chemistry.
+|-
+| Mercury oxide || 1.35 || High drain and constant voltage.<br>Banned in most countries because of health concerns.
+|-
+| Zinc–air || 1.35–1.65 || Mostly used in hearing aids.
+|-
+| Silver oxide (silver-zinc) || 1.55 || Very expensive.<br>Only used commercially in 'button' cells.kupal
+|}
+
+===Rechargeable battery chemistries===
+{| class="wikitable"
+|-
+''(in order of increasing energy density)''
+|-
+|-
+! Chemistry !! Cell<br>Voltage !! Comments
+|-
+|-
+| NiCd  || 1.2 || Inexpensive. <br> High/low drain, moderate energy density. <br> Moderate rate of self discharge. <br> Suffers from memory effect (which sometimes causes early failure)
+|-
+| Lead Acid  || 2.2 || Moderately expensive. <br> High/low drain, moderate energy density. <br> Moderate rate of self discharge. <br> Does not suffer from memory effect <br> Common use - Automobile batteries
+|-
+| NiMH || 1.2 || Expensive. Useful in high drain devices. <br> Traditional chemistry has high energy density, but also a high rate of self-discharge. <br> Newer chemistry has low self-discharge rate, but also a ~25% lower energy density. 
+|-
+| Lithium ion || 3.6 || Very expensive. <br> Very high energy density. <br> Not usually available in "common" battery sizes (but see RCR-V3 for a counter-example). <br> Very common in laptop computers, moderate to high-end digital cameras and camcorders, and cellphones. <br> Very low rate of self discharge. <br>Loses 5%-10% of its storage capacity every year from the time of manufacture whether it's used or not.<br> Volatile: Chance of explosion if short circuited, allowed to overheat, or not manufactured with rigorous quality standards.
+
+|}
+
+== Non-standard brand-specific names ==
+Battery naming is further confused by the practice of manufacturers that assign novel names and numbers to their batteries, disregarding common, colloquial, IEC, and ANSI naming conventions (see LR44 battery as an example).  Often this is done to steer customers towards a specific brand, and away from competing or generic brands, by obfuscating the common name.  For example, if a remote control needs a new battery and the battery compartment has the label, "Replace with CX472 type battery," many customers will buy that specific brand, not realizing that this is simply a brand name for a common type of battery.  '''In this article, brand-specific names have been purposefully omitted to avoid confusion.'''
+
+On the other hand, with obscure battery types, the name of a specific brand will sometimes become the most common name for that battery type, as other manufacturers copy or modify the name so that customers recognize it.
+
+==Table of modern battery sizes==
+
+The following table is a list of battery sizes which are currently available in modern society. Note that there were other sizes other than those listed in this table which are no longer available due to either a decline in popularity or changing technological needs. Batteries for obsolete portable vacuum tubes devices for example, are not listed. A table of older, obsolete, and uncommon-availability batteries types and sizes can be found below this table.
+
+{| class="wikitable"
+|- | valign="top"
+! Most<br>Common<br>Name
+! Other<br>Common<br>Names
+! IEC<br>Name
+! ANSI/NEDA<br>Name
+! Typical Capacity<br>(mAh)
+! Nominal Voltage (V)
+! Shape
+! Terminal layout
+! Dimensions
+! Comments
+|- | valign="top"
+
+| '''123'''
+| Camera&nbsp;Battery<br>CR123<br>CR123A<br>123A<br>R123&nbsp;(Li-Ion)<br>RCR123&nbsp;(Li-Ion)<br>
+| CR17345&nbsp;(Lithium)
+| 5018LC&nbsp;(Lithium)
+| 1500&nbsp;(Lithium)<br />700&nbsp;(Li–Ion)
+| 3&nbsp;(Lithium)<br />3.6 (Li-Ion)
+| Cylinder
+| + Nub cylinder end<br>− Flat opposite end
+| L 34.5 mm <br> D 17 mm
+| 123&nbsp;always&nbsp;implies&nbsp;a&nbsp;lithium-based&nbsp;chemistry
+|- | valign="top"
+
+| '''4.5&nbsp;Volt'''
+| Pocketable&nbsp;Battery<br>1203<br>4.5 V
+| 3LR12&nbsp;(alkaline) <br> 3R12&nbsp;(carbon–zinc)
+| MN1203&nbsp;(manganese)
+| 6100&nbsp;(alkaline) <br> 1200&nbsp;(carbon–zinc)
+| 4.5&nbsp;
+| Flat pack
+| + short terminal strip<br> − long terminal strip
+| H 65 mm <br> L 61 mm <br> W 21 mm
+| This battery is more common in Europe than North America.
+|- | valign="top"
+
+| '''9&nbsp;Volt'''
+| PP3 <br> 9-Volt<br>Radio&nbsp;battery<br>MN1604<br>Square(sic) battery
+| 6LR61&nbsp;(alkaline) <br> 6F22&nbsp;(carbon–zinc) <br> 6KR61&nbsp;(NiCd)
+| 1604A&nbsp;(alkaline) <br> 1604D&nbsp;(carbon–zinc) <br> 1604LC&nbsp;(Lithium) <br> 7.2H5&nbsp;(NiMH) <br> 11604&nbsp;(NiCd)
+| 565&nbsp;(alkaline) <br> 400&nbsp;(carbon–zinc) <br> 1200&nbsp;(lithium) <br> 175&nbsp;(NiMH) <br> 120&nbsp;(NiCd) <br> 500&nbsp;(Lithium polymer rechrg)
+| 9<br>7.2&nbsp;(NiMH&nbsp;and&nbsp;NiCd)<br>8.4&nbsp;(some NiMH and NiCd)
+| Rectangular
+| both small end <br>+ male clasp <br> − female clasp
+| H 48.5 mm <br> L 26.5 mm <br> W 17.5 mm
+| Many (not all) 9 V batteries are an array of 6 reversed-polarity (nub is negative while can is positive) AAAA cells welded together internally
+|- | valign="top"
+
+| '''A23'''
+| 23A<br>3LR50<br>MN21
+| 8LR50&nbsp;(alkaline)
+| 1181A&nbsp;(alkaline)
+| 40&nbsp;(alkaline)
+| 12
+| Cylinder<br>(or button stack)
+| + Nub cylinder end<br>− Flat opposite end
+| L 29 mm <br> D 10 mm
+| Used in small RF devices such as key fob-style garage door openers and keyless entry systems where only infrequent pulse current is used. Sometimes enclosed like a normal battery but sometimes a stack of eight LR932 button cells shrink wrapped together. ([http://www.radioshack.com/product/index.jsp?summary=summary&techSpecs=techSpecs&currentTab=summary&cp=2032056&custRatings=custRatings&features=features&accessories=accessories&productId=2049664&support=support&tab=techSpecs see here about naming])
+|- | valign="top"
+
+| '''AA'''
+| Penlight <br> Mignon <br> MN1500<br>MX1500
+| LR6&nbsp;(alkaline) <br> R6&nbsp;(carbon–zinc) <br> FR6&nbsp;(Lithium–FeS<sub>2</sub>) <br> HR6&nbsp;(Ni-MH) <br> KR157/51&nbsp;(NiCd) <br> ZR6&nbsp;(Ni-Mn)
+| 15A&nbsp;(alkaline)<br>15D&nbsp;(carbon–zinc) <br> 15LF&nbsp;(Lithium–FeS<sub>2</sub>) <br> 1.2H2&nbsp;(NiMH) <br> 10015&nbsp;(NiCd)
+| 2700&nbsp;(alkaline)<br>1100&nbsp;(carbon–zinc) <br> 3000&nbsp;(Lithium–FeS<sub>2</sub>) <br> 1700–2900&nbsp;(NiMH) <br> 600–1000&nbsp;(NiCd)
+| 1.5 <br> 1.2&nbsp;(NiMH&nbsp;and&nbsp;NiCd)
+| Cylinder
+|  + Nub cylinder end<br>− Flat opposite end
+| L 50.5 mm <br> D 13.5–14.5 mm
+| C7/HP7;
+|- | valign="top"
+
+| '''AAA'''
+| Micro <br>Microlight <br> MN2400 <br> MX2400
+| LR03&nbsp;(alkaline) <br> R03&nbsp;(carbon–zinc)<br> FR03&nbsp;(Li–FeS2)
+| 24A&nbsp;(alkaline) <br> 24D&nbsp;(carbon–zinc) <br> 24LF&nbsp;(Li–FeS2) 
+| 1200&nbsp;(alkaline) <br> 540&nbsp;(carbon–zinc) <br> 800–1000&nbsp;(Ni–MH)
+| 1.5 <br> 1.2&nbsp;(NiMH&nbsp;and&nbsp;NiCd)
+| Cylinder
+| + Nub cylinder end<br>− Flat opposite end
+| L 44.5 mm <br> D 10.5 mm
+| C16/HP16;
+|- | valign="top"
+
+| '''AAAA'''
+| MX2500
+| LR8D425&nbsp;(alkaline)
+| 25A&nbsp;(alkaline)
+| 625&nbsp;(alkaline)
+| 1.5
+| Cylinder
+| + Nub cylinder end<br>− Flat opposite end
+| L 42.5 mm <br> D 8.3 mm
+| Obscure type sometimes used in 'pen flashlights' or electronic glucose meters. Most common use is as an internal component of 9 V batteries.
+|- | valign="top"
+
+| '''C'''
+| MN1400 <br> MX1400
+| LR14&nbsp;(alkaline) <br> R14&nbsp;(carbon–zinc) 
+| 14A&nbsp;(alkaline) <br> 14D&nbsp;(carbon–zinc)
+| 8000&nbsp;(alkaline) <br> 3800&nbsp;(carbon–zinc) <br> 4500–6000&nbsp;(NiMH)
+| 1.5 <br> 1.2&nbsp;(NiMH)
+| Cylinder
+| + Nub cylinder end<br>− Flat opposite end
+| L 50 mm <br> D 26.2 mm
+| C11/SP11/HP11; Can be replaced with alkaline AA cell using plastic sabot (stub case)
+|- | valign="top"
+
+| colspan=10 | See naming notes below about CR battery types
+|- | valign="top"
+
+| '''CR927'''
+| &nbsp;
+| &nbsp;
+| &nbsp;
+| 30&nbsp;(Lithium)
+| 3
+| Coin
+| + bottom/sides <br> − top
+| D 9.5 mm <br> H 2.7 mm
+| This obscure type of lithium coin cell is used extensively in blinkies.
+|- | valign="top"
+
+| '''CR1220'''
+| &nbsp;
+| CR1220&nbsp;(Lithium)
+| &nbsp;
+| 40&nbsp;(Lithium)
+| 3
+| Coin
+| + bottom/sides <br> − top
+| D 12.5 mm <br> H 2.0 mm
+| Standard Discharge Current: 0.1 mA.
+|- | valign="top"
+
+| '''CR1225'''
+| &nbsp;
+| CR1225&nbsp;(Lithium)
+| &nbsp;
+| 50&nbsp;(Lithium)
+| 3
+| Coin
+| + bottom/sides <br> − top
+| D 12.5 mm <br> H 2.5 mm
+| Standard Discharge Current: 0.2 mA. Maximum discharge current: 1 mA. Maximum pulse discharge current: 5 mA.
+|- | valign="top"
+
+| '''CR1616'''
+|
+| CR1616 (Lithium)
+|
+| 50 (Lithium)
+| 3
+| Coin
+| + bottom/sides <br> − top
+| D 16 mm <br> H 1.6 mm
+| Standard Discharge Current: 0.1 mA.
+|- | valign="top"
+
+| '''CR1620'''
+| &nbsp;
+| CR1620&nbsp;(Lithium)
+| &nbsp;
+| 78&nbsp;(Lithium)
+| 3
+| Coin
+| + bottom/sides <br> − top
+| D 16 mm <br> H 2.0 mm
+| Standard Discharge Current: 0.1 mA.
+|- | valign="top"
+
+| '''CR2016'''
+| DL2016&nbsp;
+| CR2016&nbsp;(Lithium)
+| 5000LC&nbsp;(Lithium)
+| 90&nbsp;(Lithium)
+| 3
+| Coin
+| + bottom/sides <br> − top
+| D 20 mm <br> H 1.6 mm
+| Standard Discharge Current: 0.1 mA. Often used in pairs instead of CR2032 for devices that require more than 3 V, like blue/white LED flashlights. CAUTION: Using two CR2016 '''when not specified''' can damage a device.
+|- | valign="top"
+
+| '''CR2025'''
+| DL2025&nbsp;
+| CR2025&nbsp;(Lithium)
+| 5003LC&nbsp;(Lithium)
+| 160&nbsp;(Lithium)
+| 3
+| Coin
+| + bottom/sides <br> − top
+| D 20 mm <br> H 2.5 mm
+| Standard Discharge Current: 0.2 mA.
+|- | valign="top"

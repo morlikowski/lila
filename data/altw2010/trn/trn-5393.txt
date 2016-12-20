@@ -1,0 +1,68 @@
+<!---->
+Halaman ini memuat gambar-gambar yang telah menjadi '''Gambar Pilihan Portal Indonesia'''. Setiap gambar pilihan akan ditayangkan selama seminggu dan diganti setiap hari halaman diskusi. Syarat-syaratnya ialah:
+# Gambar yang ada hubungannya dengan Indonesia.
+# Gambar yang indah, impresif dan mengandung informasi.
+# Gambar / foto haruslah tidak melanggar hak cipta. Gambar juga tidak boleh merupakan gambar ''fair use''.
+# Gambar beresolusi tinggi.
+<br><br>
+{| width=600 cellspacing=5 style="border-style:solid;border-color:#ccccff;padding:5px;text-align:center;" 
+|colspan="2" align="center"|
+<font size="+1">Gambar Pilihan minggu ke- tahun </font>
+|----
+|_}}
+|}
+<br>
+==Foto karya Anda bisa diajukan disini==
+Ajukan foto karya Anda dalam pola sebagai berikut:<br>
+<nowiki># :Image:Nama file gambar di artikel nama artikel</nowiki>
+
+=== 2007 ===
+* 100px di artikel Banjir Jakarta 2007 - Portal:Indonesia/Gambar_Pilihan/51_2007
+* 100px di artikel Pangeran Diponegoro - Portal:Indonesia/Gambar_Pilihan/52_2007
+
+===2008===
+* 100px di artikel Danau Toba  - Portal:Indonesia/Gambar_Pilihan/1_2008
+* 100px di artikel Salak - Portal:Indonesia/Gambar_Pilihan/2_2008
+* 100px di artikel Orangutan - Portal:Indonesia/Gambar_Pilihan/3_2008
+* 100px di artikel Candi Mendut - Portal:Indonesia/Gambar_Pilihan/20_2008
+* 100px di artikel Batik - Portal:Indonesia/Gambar_Pilihan/21_2008
+
+==Catatan==
+<small>Untuk melihat tempat gambar pilihan tertentu, ketik di alamat URL-nya dengan contoh berikut: <tt><nowiki>http://id.wikipedia.org/wiki/Portal:Indonesia/Gambar Pilihan/9_2007</nowiki></tt>. Dalam contoh ini, 9 berarti minggu ke-9 dalam tahun 2007.</small>
+
+<!--}}-->
+
+<center><small>[:|action=purge}} Purge page cache]</small></center>
+The '''picture of the day''' is an image which is dynamically updated each day with an image from '''Wikipedia:Featured pictures'''. 
+--}}
+
+== Guidelines ==
+
+# The picture must already be a featured picture.  To nominate a picture for that honor see featured picture candidates.
+# Featured images are currently selected in the order they were promoted (i.e. a rough First In, First Out order). See the featured pictures candidates archive for this order.
+
+:''See also: Guidelines for writing Picture of the day captions''
+
+== Including the POTD on your user page ==
+You can insert the image on your user page or talk page by adding the text <code></code> (this version is shown above). It will be displayed in a box of no more than 600 pixels wide, and will include a small amount of text based on the article in which the image appears. A no-text version is also available via <code></code>.
+
+It is also possible to create your own custom POTD layouts, in case the already-existing versions will not look good within your user page design. Mix and match the following components to make your own. '''This system will only work for Pictures of the day selected beginning January 1, 2007.''' Be sure to replace <code>[date]</code> with an appropriate date value. For a dynamically updating version, use <code><nowiki></nowiki></code> (example: <code><nowiki>|image}}</nowiki></code>).
+{| class="prettytable"
+!Template!!Description!!Renders as
+|-
+|<code><nowiki></nowiki></code>||The name of the image, without the <code>Image:</code> prefix.|||image}}
+|-
+|<code><nowiki></nowiki></code>||The size of the image, without the trailing <code>px</code>.|||size}}
+|-
+|<code><nowiki></nowiki></code>||The image caption.|||caption}}
+|-
+|<code><nowiki></nowiki></code>||A link to the article the image represents.|||title}}
+|-
+|<code><nowiki></nowiki></code>||A linkless short caption, also useful as an alt attribute.|||texttitle}}
+|}
+
+There are two additional pre-defined layouts
+*<code><nowiki>|column}}</nowiki></code>: This has the image and caption above each other with no borders. Used on some of the Main Page alternatives and suitable for user pages as well.
+*<code><nowiki>|row}}</nowiki></code>: This has the image and caption  encapsulated in (usually) a single table row. This is the version used on the Main Page.
+
+It is also possible to permanently feature a POTD for a selected day. Just add a specific value for the date you want. For example, today's POTD is <code>--|image}}</code>. Likewise, you can use date parameters with the other templates as well. If you like the pre-made formats, you can use date parameters there as well, like this: <code><nowiki>--}}</code> or <code><nowiki>--}}</code>. Again, '''this system will only work for Pictures of the day selected beginning January 1, 2007.'''

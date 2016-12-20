@@ -1,0 +1,125 @@
+'''品詞'''（ひんし）は、単語を文法的な機能や形態などによって分類したもの。
+
+== 概要 ==
+全ての単語は、いずれかの品詞に所属すると考えられる。だが、実際にどの品詞に含まれるかと問われれば、分類に悩むことも多い。そのため現在ではプロトタイプという考え方が導入されて説明されている。具体的な品詞の種類としては、名詞や動詞はどの自然言語にでもある品詞だと考えられており、第三以上の品詞にどのような種類を立てるかは、各言語ごとに異なる。
+
+品詞の分け方には大きく分けて以下の3つの方法がある。 
+#形態的な分類方法
+#:その単語自体の形やどのような形態素が付くかで分類する。
+#:例：日本語の形容詞は文の終わりで言い切るとき、"イ"の音で終わる。「これはつまらな"い"。」での「つまらない」や「今日は天気が良"い"。」での「良い」はそれゆえに形容詞である。
+#意味的な分類方法
+#:その単語がもつ大まかな意味によって分類する。
+#:例：動詞は動きをあらわす単語である。それゆえに、「遊ぶ」や「走る」は動詞である。
+#統語的な分類方法
+#:文の中でどういう働きをするか、他の語とどう結びつくかで分類する。
+#:例：日本語の形容詞は名詞の前に付く。「大きいぬいぐるみ」においての「大きい」や「かわいい子」においての「かわいい」はそれゆえに形容詞である。
+しかし、これら3つの分類それぞれだけでうまく分類ができるわけではない。「知る」という単語は一般には動詞とされているが、上の意味的な分類方法の例について言えば、「知る」は何か動きの意味があるわけでないので、うまく分類できない。
+
+== 歴史 ==
+単語をいくつかの品詞のグループに分けるということは、古典ギリシア語の文法研究から始まった。これが、ラテン語の文法研究に受け継がれ、さらにはヨーロッパ諸国の言語の文法研究にも品詞の考え方が取り入れられた。後に、言語学の対象がヨーロッパ外の言語にも広まるとともに、品詞という考え方が世界中の言葉に適用されることとなった。
+
+==日本語の品詞==
+日本語においては、さまざまな品詞分類が試みられている。ここでは、学校教育の現場で教えられ、一般に広く知られている橋本進吉の文法（いわゆる学校文法）の例について紹介する。学校文法では、品詞を'''自立語'''か'''付属語'''か、活用の有無、活用の形態などによって以下のように分類する。
+*自立語 - 単独で文節を構成できる品詞
+**活用するもの（特に'''用言'''と言う。）
+***動詞
+***形容詞
+***形容動詞（学校文法では品詞として立てている。学校文法以外まで視野を広げると、品詞として認めるかどうかは意見が分かれている。）
+**活用しないもの
+***名詞（特に'''体言'''と言う。）
+****代名詞（学校文法では名詞の一つとされている。名詞の一部とするかどうかは意見が分かれている。）
+****数詞（学校文法では名詞の一つとされている。名詞の一部とするかどうかは意見が分かれている。）
+***連体詞
+***副詞
+***接続詞
+***感動詞
+*付属語 - 単独で文節を構成できない品詞
+**活用するもの
+***助動詞
+**活用しないもの
+***助詞
+
+==英語の品詞==
+英語の品詞としては、次の8品詞とする説が一般的である。過去には4品詞とする説などもあった。
+*名詞 (Noun, <i>n.</i>)
+*代名詞 (Pronoun, <i>pron.</i>)
+*動詞 (Verb, <i>v.</i>)
+**助動詞 (Auxiliary verb, <i>aux. v.</i>)　（広い意味では動詞に含める）
+**代動詞 (do)　（広い意味では動詞に含める）
+*形容詞 (Adjective, <i>adj.</i>または<i>a.</i>)
+**冠詞 (Article) （広い意味では形容詞に含める）
+**数詞 (Numeral) （広い意味では形容詞に含める）
+*副詞 (Adverb, <i>adv.</i>)
+*前置詞 (Preposition, <i>prep.</i>)
+*接続詞 (Conjunction, <i>conj.</i>)
+*感動詞（間投詞） (Interjection, <i>interj.</i>または<i>int.</i>)
+
+8品詞とは別に、次のような用語もよく使われる。
+*関係詞 (Relatives) （代名詞と接続詞の機能をもつ関係代名詞と、副詞と接続詞の機能をもつ関係副詞がある）
+*疑問詞 (Interrogatives)
+
+また、近年、生成文法の観点から、'''限定詞'''（Determiner）概念も有力となっている。
+
+In morphological behaviour of the lexical item in question. Common linguistic categories include ''noun'' and ''verb'', among others. There are open word classes, which constantly acquire new members, and closed word classes, which acquire new members infrequently if at all.
+
+Different languages may have different lexical categories, or they might associate different properties to the same one. For example, Japanese has at least three classes of adjectives where English has one; Chinese and Japanese have measure words while European languages have nothing resembling them; many languages don't have a distinction between adjectives and adverbs, or adjectives and nouns, etc. Many linguists argue that the formal distinctions between parts of speech must be made within the framework of a specific language or language family, and should not be carried over to other languages or language families.
+
+==History==
+The classification of words into lexical categories is found from the earliest moments in the 5th or 6th century BCE, the Sanskrit grammarian Yāska defined four main categories of words :<ref name=Matilal>
+{{cite book |
+author = Bimal Krishna Matilal |
+title = The word and the world: India's contribution to the study of language |
+publisher = Oxford. Yaska is dealt with in Chapter 3| 
+year = 1990 |
+}}</ref>
+# nāma - nouns or substantives
+# ākhyāta - verbs
+# upasarga - pre-verbs or prefixes
+# nipāta - particles, invariant words (perhaps prepositions)
+
+These four were grouped into two large classes: inflected (nouns and verbs) and uninflected (pre-verbs and particles).
+
+A century or two later, the Greek scholar ''Cratylus'' dialog that "... sentences are, I conceive, a combination of verbs [''rhēma''] and nouns [''ónoma'']".<ref>Cratylus 431b</ref> Another class, "conjunctions" (covering conjunctions, article), was later added by Aristotle.
+
+By the end of the Tékhnē grammatiké'':
+
+# Noun: a part of speech inflected for case, signifying a concrete or abstract entity
+# Verb: a part of speech without case inflection, but inflected for tense, person and number, signifying an activity or process performed or undergone
+# Participle: a part of speech sharing the features of the verb and the noun
+# Article: a part of speech inflected for case and preposed or postposed to nouns (the relative pronoun is meant by the postposed article)
+# Pronoun: a part of speech substitutable for a noun and marked for person
+# Preposition: a part of speech placed before other words in composition and in syntax 
+# Adverb: a part of speech without inflection, in modification of or in addition to a verb
+# Conjunction: a part of speech binding together the discourse and filling gaps in its interpretation
+
+The fl. 500 CE) modified the above eight-fold system, substituting "interjection" for "article". It wasn't until 1767 that the adjective was taken as a separate class.<ref>Beauzée, Nicolas, ''Grammaire générale, ou exposition raisonnée des éléments nécessaires du langage''. (Paris, 1767).</ref>
+
+Traditional English grammar is patterned after the European tradition above, and is still taught in schools and used in conjunction, and interjection (sometimes called an exclamation).
+
+==Controversies==
+Since the Greek grammarians of 2nd century BCE, parts of speech have been defined by morphological, syntactic and semantic criteria. However, there is currently no generally agreed-upon classification scheme that can apply to all languages, or even a set of criteria upon which such a scheme should be based.
+
+Linguists recognize that the above list of eight word classes is simplified and artificial.<ref>Zwicky, Arnold (2006). ''What part of speech is "the"?'' Some would label "the" as an adjective because it tells "which one" about the noun that follows it.  By doing so, the word "the" is modifying the noun and, thus, it is quite adjectival. Language Log.</ref> For example, "adverb" is to some extent a catch-all class that includes words with many different functions. Some have even argued that the most basic of category distinctions, that of nouns and verbs, is unfounded,<ref>Hopper, P. and S. Thompson. 1985. "The Iconicity of the Universal Categories 'Noun' and 'Verbs'". In ''Typological Studies in Language: Iconicity and Syntax.'' John Haiman (ed), vol. 6, pp. 151-183, Amsterdam: John Benjamins Publishing Company</ref> or not applicable to certain languages.<ref>Broschart, Jürgen 1997. "Why Tongan does it differently: Categorial Distinctions in a Language without Nouns and Verbs." ''Linguistic Typology'' 1(2):123-165.</ref>
+
+==Functional classification==
+Common ways of delimiting words by function include:
+* '''Open word classes:'''
+**adjectives
+**adverbs 
+**interjections
+**nouns
+**verbs (except auxiliary verbs)
+
+* '''Closed word classes:'''
+**auxiliary verbs
+**clitics
+**coverbs
+**conjunctions
+**Determiners (articles, quantifiers, demonstrative adjectives, and possessive adjectives)
+**particles
+**measure words
+**adpositions (prepositions, postpositions, and circumpositions)
+**preverbs
+**pronouns
+**contractions
+**cardinal numbers

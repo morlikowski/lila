@@ -1,0 +1,141 @@
+== 目的 ==
+月間最低気温と最高気温、総降水量の気候表の作成に使います。
+<!-- More information on the interpretation of the chart can be found here.-->
+
+=== 単位系 ===
+デフォルトはSI単位系 (°C, mm) です。インペリアル単位系 (°F, inches) を使う場合には units=imperial の様に単位系を指定して下さい。この場合正確に換算するために必ず指定して下さい。
+
+== 使い方 ==
+;要素 <tt>1</tt>
+:都市名を入れる。
+;要素 <tt>2</tt>-<tt>37</tt>
+:データを入れる。月毎の12行に最低、最高気温、総降水量の3列で入力して下さい。
+;<tt>float</tt>
+:<tt>''left''</tt>, <tt>''right''</tt>, <tt>''none''</tt>
+;<tt>clear</tt>
+:<tt>''left''</tt>, <tt>''right''</tt>, <tt>''both''</tt>, <tt>''none''</tt>
+;<tt>source</tt>
+:出典があれば記入して下さい。
+
+== 例 ==
+
+=== 右寄せ ===
+{{climate chart|アムステルダム
+|1|5|62
+|0|6|43
+|2|9|59
+|4|12|41
+|8|17|48
+|10|20|68
+|13|21|66
+|12|22|61
+|10|18|82
+|7|14|85
+|4|9|89
+|2|7|75
+|float=right
+|clear=both
+}}
+<pre><nowiki>
+{{climate chart|アムステルダム
+|1|5|62
+|0|6|43
+|2|9|59
+|4|12|41
+|8|17|48
+|10|20|68
+|13|21|66
+|12|22|61
+|10|18|82
+|7|14|85
+|4|9|89
+|2|7|75
+|float=right
+|clear=both
+}}</nowiki></pre>
+
+<includeonly>}}}|imperial
+|<table style="margin:0.5em;float:};clear:}}}};text-align:center;border:solid 1px silver" cellspacing=0 cellpadding=0>
+<tr><th colspan="12" style="padding:2px;">Climate chart for }</th></tr>
+<tr><td>J</td><td>F</td><td>M</td><td>A</td><td>M</td><td>J</td><td>J</td><td>A</td><td>S</td><td>O</td><td>N</td><td>D</td></tr>
+<tr>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+</tr>
+<tr><td colspan=12 style="padding:2px;text-align:left;font-size:85%;line-height:120%"><span style="color:red">temperatures in °F</span><br><span style="color:blue">precipitation totals in inches</span>}|<br />''source: }''}}</td></tr>
+<tr><td colspan=12>
+{{hidden
+| header = Metric conversion
+| content = <table style="margin:0em;float:};clear:}}}};text-align:center;border:solid 1px white" cellspacing=0 cellpadding=0>
+<tr><td>J</td><td>F</td><td>M</td><td>A</td><td>M</td><td>J</td><td>J</td><td>A</td><td>S</td><td>O</td><td>N</td><td>D</td></tr>
+<tr>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+</tr>
+</td></tr>
+<tr><td colspan=12 style="padding:2px;text-align:left;font-size:85%;line-height:120%"><span style="color:red">temperatures in °C</span> • <span style="color:blue">precipitation totals in mm</span></td></tr></table>}}
+</table>
+|<table style="margin:0.5em;float:};clear:}}}};text-align:center;border:solid 1px silver" cellspacing=0 cellpadding=0>
+<tr><th colspan="12" style="padding:2px;">Climate chart for }</th></tr>
+<tr><td>J</td><td>F</td><td>M</td><td>A</td><td>M</td><td>J</td><td>J</td><td>A</td><td>S</td><td>O</td><td>N</td><td>D</td></tr>
+<tr>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+</tr>
+<tr><td colspan=12 style="padding:2px;text-align:left;font-size:85%;line-height:120%"><span style="color:red">temperatures in °C</span><br><span style="color:blue">precipitation totals in mm</span>}|<br />''source: }''}}</td></tr>
+<tr><td colspan=12>
+{{hidden
+| header = Imperial conversion
+| content = <table style="margin:0em;float:};clear:}}}};text-align:center;border:solid 1px white" cellspacing=0 cellpadding=0>
+<tr><td>J</td><td>F</td><td>M</td><td>A</td><td>M</td><td>J</td><td>J</td><td>A</td><td>S</td><td>O</td><td>N</td><td>D</td></tr>
+<tr>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+<td>}|}|}}}</td>
+</tr>
+</td></tr>
+<tr><td colspan=12 style="padding:2px;text-align:left;font-size:85%;line-height:120%"><span style="color:red">temperatures in °F</span><br><span style="color:blue">precipitation totals in inches</span></td></tr></table>}}
+</table>
+}}</includeonly><noinclude>
+<!--
+    PLEASE DO NOT ADD DOCUMENTATION/CATEGORIES/INTERWIKIS HERE
+-->

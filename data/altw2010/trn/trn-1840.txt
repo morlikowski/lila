@@ -1,0 +1,62 @@
+'''Active Directory''' adalah domain, daftar akun pengguna dan kelompok pengguna, folder yang di-''share'', dan lain-lain. Sementara itu, layanan direktori yang dimilikinya membuat informasi yang disimpan di dalam basis data dapat diakses oleh pengguna dan aplikasi. Active Directory sebenarnya merupakan implementasi dari protokol Lightweight Directory Access Protocol (LDAP).
+<!--'''Active Directory''' adalah implementasi protokol LDAP (Lightweight Directory Access Protocol) pada sistem operasi Windows, yang berguna sebagai sistem autentikasi terpusat. Sistem ini ialah suatu sistem database terpusat yang menyimpan semua username dan kebijakan yang spesifik atas user tersebut. Active Directory digunakan pada sistem domain, dimana Active Directory ini disimpan dalam Domain Controller, yaitu suatu server yang bertugas mengatur penggunaan resource dalam domain tersebut.-->
+== Selayang pandang ==
+Active Directory menawarkan fitur-fitur dasar yang dibutuhkan oleh layanan direktori pada tingkat ''enterprise'', termasuk di dalamnya sumber informasi yang dapat diperluas, kebijakan (''policy''), konvensi penamaan untuk setiap objek direktori dan perangkat bantu untuk melakukan administrasi layanan Windows dari satu lokasi mengatur akses aplikasi dan juga pengguna terhadap sumber daya yang terdapat di dalam jaringan.
+
+Informasi di dalam Active Directory dipelihara untuk setiap domain di dalam sebuah jaringan. Informasi domain tertentu. ''Domain controller'' dalam sebuah ''domain'' juga tidak secara otomatis melakukan replikasi dengan ''domain controller'' di dalam ''domain'' lainnya.
+
+== Cara kerja ==
+Elemen dasar dari Active Directory adalah '''''Active Directory Object'''''. Sebuah ''Active Directory Object'' ini dapat berupa sebuah akun pengguna, komputer yang tergabung ke dalam sebuah ''domain'' jaringan. Setiap objek memiliki atributnya masing-masing yang berupa properti yang umumnya bersifat unik (tergantung jenis objek tersebut). Sebagai contoh, atribut yang dapat dimiliki oleh objek akun pengguna dapat mencakup nama pertama, nama akhir, alamat e-mail, dan nomor telepon. Beberapa atribut lainnya memiliki nilai yang telah ditentukan oleh sistem, dan atribut lainnya dapat didefinisikan secara manual (atau bisa dikosongkan). Sementara itu, atribut yang dimiliki oleh objek printer dapat mencakup lokasi di mana printer tersebut berada, nomor inventaris aset, jenis ''printer''nya, dan lain sebagainya. Active Directory juga memiliki peraturan-peraturan yang menata objek mana saja ang dapat disimpan di dalam direktori dan atribut mana saja yang dapat dimiliki oleh objek tersebut. Peraturan-peraturan tersebut, dinamakan juga dengan '''''Active Directory Schema'''''.
+
+Sebuah jenis objek khusus yang dapat disimpan di dalam Active Directory adalah sesuatu yang disebut sebagai Organizational Unit (OU). OU adalah sebuah jenis objek Active Directory yang dapat mengandung objek lainnya, seperti halnya sebuah akun pengguna, komputer, atau aplikasi atau mengandung objek OU lainnya. Dengan menggunakan OU, pada Administrator dapat mengatur Active Directory secara hierarkis, yang disusun dengan menggunakan skema X.500 yang dibuat oleh International Telecommunication Union (ITU). Administrator juga dapat menetapkan kontrol akses atau permisi pada setiap anak pohon dalam sebuah OU, agar hanya objek-objek tertentu saja yang dapat mengaksesnya.
+
+Der Verzeichnisdienst von Microsoft Windows 2000/Windows Server 2003 heißt '''Active Directory''' (AD). Ab der aktuellen Version Windows Server 2008 wird die Kernkomponente als '''Active Directory Domain Services''' (ADDS) bezeichnet.
+Bei einem Verzeichnis (englisch: ''directory'') handelt es sich um eine Zuordnungsliste wie zum Beispiel bei einem Telefonbuch, das Telefonnummern den jeweiligen Anschlüssen (Besitzern) zuordnet. 
+
+Active Directory ermöglicht es, ein Netzwerk entsprechend der realen Struktur des Unternehmens oder seiner räumlichen Verteilung zu gliedern. Dazu verwaltet es verschiedene Objekte in einem Netzwerk wie beispielsweise Benutzer, Gruppen, Computer, Server, Administrator die Informationen der Objekte organisieren, bereitstellen und überwachen. 
+
+Den Benutzern des Netzwerkes können Zugriffsbeschränkungen erteilt werden. So darf zum Beispiel nicht jeder Benutzer jede Datei ansehen oder jeden Drucker verwenden.
+
+== Serverrollen ==
+Seit Windows Server 2008 sind unter dem Begriff Active Directory fünf verschiedene Serverrollen zusammengefasst:
+* Active Directory Domain Services (Active Directory Domänen Verzeichnisdienst, ADDS) sind die aktuelle Version des ursprünglichen Verzeichnisdienstes und der zentrale Punkt der Domänen- und Ressourcenverwaltung.
+* Active Directory Lightweight Directory Services (Active Directory Lightweight Verzeichnisdienst, ADLDS) sind eine funktional eingeschränkte Version des ADDS, die der Anbindung von Anwendungen oder Diensten, die LDAP-konforme Informationen aus dem Verzeichnis benötigen, dient. Erstmals in Windows Server 2003 implementiert, wurde der Dienst dort als Active Directory Application Mode (ADAM) bezeichnet.
+* Active Directory Federation Services (Active Directory Verbunddienste, ADFS) dienen der webgestützten Authentifizierung von Benutzern, wenn diese sich in Bereichen außerhalb der ADDS-Infrastruktur befinden.
+* Active Directory Rights Management Services (Active Directory Rechteverwaltungsdienste, ADRMS) schützen Ressourcen durch kryptografische Methoden gegen unbefugte Einsicht. 
+* Active Directory Certificate Services (Active Directory-Zertifikatsdienste, ADCS) stellen eine Public-Key-Infrastruktur bereit.
+
+== Die vier Hauptkomponenten ==
+=== Lightweight Directory Access Protocol (LDAP) ===
+Der LDAP-Server stellt Informationen über Benutzer und deren Gruppenzugehörigkeit bereit. Aber auch andere Objekte wie zum Beispiel die Zertifikate eines Computers werden in dem Verzeichnis gespeichert.
+
+=== Kerberos-Protokoll ===
+Kerberos ist ein Protokoll, mit welchem der Benutzer authentifiziert wird, so dass er ein sogenanntes „Ticket Granting Ticket“ (TGT) erhält. Mit diesem ist es möglich, sich Diensttickets für den Zugriff auf einen bestimmten Dienst innerhalb des Netzwerks zu besorgen. Der Benutzer muss dabei nur einmal sein Passwort eingeben, um das TGT zu erhalten. Die Besorgung der Diensttickets erfolgt dabei im Hintergrund.
+
+=== Common Internet File System (CIFS) ===
+Das CIFS-Protokoll ist für die Ablage von Dateien im Netzwerk vorgesehen.
+Dabei wird DNS zum Auffinden der einzelnen Computersysteme und Dienstinformationen (SRV Resource Record) genutzt. Es stellt außerdem aufgrund des standardisierten Protokolls eine Möglichkeit zur Anbindung an das Internet dar.
+
+=== Domain Name System (DNS) ===
+Anders als frühere Windows-Versionen wie zum Beispiel Windows NT 4.0, welche für die Namensauflösung DNS erforderlich. Um voll funktionsfähig zu sein, muss der DNS-Server SRV-Ressourceneinträge unterstützen.
+
+Aus Gründen der Kompatibilität sind Windows 2000 oder -XP-Clients mit entsprechender Konfiguration auch bei Einsatz eines Active Directories weiterhin in der Lage, mit Hilfe von WINS Ressourcen im Netzwerk ausfindig zu machen.
+
+== Aufbau ==
+=== Bestandteile ===
+Active Directory ist in drei Teile aufgegliedert: Schema, Konfiguration und Domäne. Ein Schema ist eine Schablone für alle Active-Directory-Einträge. Es definiert Objekttypen, ihre Klassen und Attribute als auch ihre Attributsyntax. Welche Objekttypen im Active Directory verfügbar sind, lässt sich durch die Definition neuer Typen beeinflussen. Das dafür zugrundeliegende Muster ist das „Schema“, das die Objekte und ihre Attribute definiert.
+
+Die Konfiguration stellt die Struktur des Active-Directory-Waldes und seiner Bäume dar. 
+
+Die Domäne schließlich speichert alle Informationen über die erstellten Objekte und seiner Domäne. 
+
+Die ersten beiden Teile der Active Directory werden mit jedem  Domänencontroller repliziert. Es gibt nur einen globalen Katalog, in dem alle Informationen der Domänen gespeichert werden. Die Grenze der vollen Domänenreplikation stellt die Domäne selbst dar.
+
+=== Datenbank ===
+Das Active Directory verwendet zur Speicherung der Informationen über die Netzwerkobjekte eine Jet (Blue)-Datenbank, die relational, transaktionsorientiert und benutzt ein "Write-Ahead-Logging".
+Die Active-Directory-Datenbank ist auf 17&nbsp;Terabytes und 10&nbsp;Millionen Objekte pro Domäne begrenzt. Dies ist ein theoretischer Grenzwert, da nicht mehr als eine Million Objekte pro Domäne empfohlen werden. 
+
+Die Datenbankdatei „NTDS.DIT“ enthält drei Haupttabellen: die „schema table“ zur Speicherung der Schemata, die „link table“ zur Speicherung der Objekt-Struktur und die „data table“ zur Speicherung der Daten. 
+
+ESE (extensible storage engine) ordnet die nach einem relationalen Modell abgespeicherten Active-Directory-Daten nach einem vorgegebenen Schema in einem hierarchischen Modell an.
+
+Unter Windows 2000 benutzt Active Directory die Jet-basierende ESE98-Datenbank.

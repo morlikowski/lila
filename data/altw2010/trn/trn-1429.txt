@@ -1,0 +1,108 @@
+'''ตราสารอนุพันธ์''' (derivative) เป็นสินทรัพย์ทางการเงินประเภทหนึ่ง ที่มูลค่าของตราสารจะขึ้นอยู่กับกระแสเงินของสินทรัพย์อ้างอิง ไม่ได้มีค่าจากกระแสเงินของตัวตราสารเองโดยตรง ตัวอย่างของตราสารอนุพันธ์ ได้แก่  futures, forward, swap, options เป็นต้น และมีสินทรัพย์ที่สามารถอ้างอิงได้คือ เงินตราต่างประเทศ พันธบัตร ตั๋วเงิน หุ้นสามัญ สินค้าโภคภัณฑ์ หรือทรัพย์สินใดๆ เป็นต้น
+
+== สินทรัพย์อ้างอิงของตราสารอนุพันธ์==
+สินทรัพย์ที่ตราสารอนุพันธ์สามารถอ้างอิงได้นั้นเป็นสินทรัพย์ได้เกือบทุกประเภท โดยอาจแบ่งเป็นหมวดหมู่ได้ดังนี้
+*'''สินค้าโภคภัณฑ์''' (Commodity) ได้แก่ 
+**เชื้อเพลิง เช่น น้ำมัน เอทานอล
+**สินค้าเกษตร เช่น ยางพารา ข้าว มันสำปะหลัง นม กุ้ง เนือหมู เป็นต้น
+*'''สินทรัพย์ทางการเงิน''' ได้แก่ หุ้นสามัญ หุ้นกู้ เงินตราต่างประเทศ(forex) เป็นต้น
+*'''ตัวแปรทางการเงิน''' ได้แก่ ดัชนีของหลักทรัพย์ต่างๆ อัตราดอกเบี้ย อัตราแลกเปลี่ยน อันดับความน่าเชื่อถือ เป็นต้น
+*'''ตราสารอนุพันธ์''' เช่น option on futures, swaption เป็นต้น
+*อื่นๆ ได้แก่ ความเสียหาย สภาพอากาศ อุณหภูมิ เป็นต้น
+
+== ประเภทของตราสารอนุพันธ์==
+	'''สัญญาซื้อขายล่วงหน้า''' (Futures & Forward Contract) เป็นสัญญาซึ่งทำการตกลงกันระหว่างบุคคล หรือสถาบัน 2 ฝ่าย โดยมีฝ่ายของผู้ซื้อ และฝ่ายของผู้ขาย ทำการตกลงกันในสัญญาว่า จะมีการซื้อขายสินทรัพย์ (ซึ่งอาจเป็นสินทรัพย์ที่มีตัวตน หรือสินทรัพย์ทางการเงิน) ในอนาคต โดยทั้งผู้ซื้อและผู้ขายจะมีภาระผูกพันที่จะต้องทำตามสัญญาที่กำหนดไว้ ดังนั้นภาระของทั้งสองฝ่าย คือ ฝ่ายผู้ขายจะต้องนำสินทรัพย์มาทำการส่งมอบในอนาคต และฝ่ายผู้ซื้อจะทำการชำระราคาในอนาคต เช่น คู่สัญญาทำการตกลงจะซื้อขายเงินสกุลดอลลาร์สหรัฐในอีก 3 เดือนข้างหน้า เมื่อระยะเวลาถึงกำหนดตามข้อตกลงในสัญญาทั้งฝ่ายผู้ซื้อและผู้ขายจะต้องทำตามสัญญา (มักจะเรียกว่าวันที่สัญญาครบกำหนดอายุ หรือ Maturity Date) คือ ผู้ซื้อจะต้องนำเงินบาทมาชำระค่าเงินดอลลาร์สหรัฐ และฝ่ายผู้ขายก็จะต้องนำเงินดอลลาร์สหรัฐมาส่งมอบเช่นเดียวกัน
+
+	'''ออปชัน''' (Option) เป็นสัญญาที่มีลักษณะคล้ายกันกับ สัญญาซื้อขายล่วงหน้าในประเภทแรก แต่แตกต่างกันที่สัญญาประเภท ออปชัน เป็นสัญญาที่ให้สิทธิแก่ผู้ที่ทำการซื้อสัญญาออปชัน ว่าจะมีสิทธิในการซื้อหรือขายสินทรัพย์ใด ๆ ตามสัญญา ดังนั้นสิทธิของการทำตามสัญญานั้นจะเป็นของฝ่ายผู้ซื้อสัญญาซื้อหรือขายล่วงหน้า สิทธินั้นขึ้นอยู่กับว่าสัญญาเป็นการซื้อหรือขาย สำหรับฝ่ายผู้ขายเป็นฝ่ายที่ไม่มีสิทธิเลือกใด ๆ เพราะฝ่ายขายเป็นผู้ที่เขียนสัญญาขึ้นมาขาย และเป็นผู้ที่ได้รับค่าสัญญาไปตั้งแต่ต้น จึงไม่มีสิทธิในการเลือกใด ๆ
+
+	'''สัญญาสวอป''' (Swap) เป็นสัญญาที่มีการแลกเปลี่ยนกระแสเงินสดที่จะเกิดขึ้นในอนาคตระหว่างคู่สัญญา หรือเป็นสัญญาที่มีการแลกเปลี่ยนภาระการลงทุน หรือภาระดอกเบี้ยของคู่สัญญา
+
+	นอกจากนี้ยังมีตราสารอนุพันธ์ประเภทอื่นๆ ได้แก่ swaption หุ้นกู้อนุพันธ์ (Structure note) เป็นต้น
+
+== ตราสารอนุพันธ์ในประเทศไทย==
+'''ตราสารอนุพันธ์''' (Derivative, Derivatives) เริ่มเข้ามามีบทบาทในภาคธุรกิจของประเทศไทยมากขึ้น และมีแนวโน้มที่จะมีตราสารอนุพันธ์ชนิดใหม่ ๆ เกิดขึ้นอย่างต่อเนื่อง ตราสารอนุพันธ์ที่ประเทศไทยมีมาค่อนข้างยาวนานกว่าตราสารอนุพันธ์ชนิดอื่น ๆ ก็ คือ สัญญาซื้อขายล่วงหน้าเงินตราต่างประเทศ (Foreign Currencies Exchange Forward Contract) ซึ่งมักจะนิยมใช้สำหรับผู้ที่เกี่ยวข้องกับเงินตราต่างประเทศ ไม่ว่าจะเป็นผู้ส่งออก หรือผู้นำเข้าสินค้า สัญญาดังกล่าวจะเป็นการทำสัญญาระหว่าง ธนาคารพาณิชย์ที่มีการรับบริการแลกเปลี่ยนเงินตราต่างประเทศ กับผู้นำเข้าหรือผู้ส่งออกซึ่งจะมีรายได้หรือรายจ่ายเป็นเงินตราต่างประเทศ ดังนั้นการทำสัญญาดังกล่าว จะทำให้ผู้ที่จะมีรายได้หรือรายจ่าย ที่เป็นเงินตราต่างประเทศได้ทราบว่าอัตราแลกเปลี่ยนที่เกิดขึ้นในอนาคตจะเป็นอย่างไร การทำสัญญาดังกล่าวจะทำให้ทั้งผู้ส่งออกและผู้นำเข้าสามารถประเมินถึงรายได้และรายจ่ายที่เป็นจำนวนเงินสกุลบาทได้ชัดเจนยิ่งขึ้น จะทำให้ความเสี่ยงจากการผันผวนของอัตราแลกเปลี่ยนลดลง 
+
+ตราสารอนุพันธ์ประเภทอื่น ๆ ที่มีในประเทศไทยในขณะนี้อีกประเภทหนึ่ง ก็คือ สัญญาซื้อขายล่วงหน้า (Futures Contract) สินค้าเกษตร ในตลาดสินค้าเกษตรล่วงหน้าแห่งประเทศไทย (AFET)  เป็นสัญญาที่ตกลงซื้อขายสินค้าเกษตร เช่น มันสำปะหลังเส้น แป้งมันสำปะหลังชั้นพิเศษ ข้าวขาว 5% ยางแผ่นรมควันชั้น 3 ยางแท่ง STR20 และน้ำยางข้น ซึ่งการทำสัญญาซื้อขายล่วงหน้าสินค้าเกษตรนี้จะช่วยให้ทั้งผู้ผลิตและผู้ใช้สินค้าเกษตรดังกล่าวเป็นวัตถุดิบในการผลิตสินค้าอื่น ๆ สามารถกำหนดราคาซื้อขายล่วงหน้าได้ การทำสัญญาซื้อขายล่วงหน้านี้เป็นการประกันว่าสินค้าเกษตรดังกล่าวเมื่อผลิตออกมาแล้ว ผู้ขายสินค้าเกษตรจะสามารถขายได้ราคาตามที่ต้องการ และจะผลิตสินค้าออกมาตามความต้องการใช้ของตลาด ไม่มีสินค้าล้นตลาด ส่วนด้านของผู้ซื้อก็จะสามารถมั่นใจได้ว่าราคาวัตถุดิบที่ต้องการซื้อนั้น จะเป็นไปตามที่ตกลงกันไว้ ไม่เกิดความผันผวนของราคาสินค้าเกษตร 
+
+ตราสารอนุพันธ์อีกประเภทที่เกิดขึ้นในประเทศไทยมาไม่นานมากนัก คือ สัญญาซื้อขายล่วงหน้าดัชนีหลักทรัพย์ SET 50 (SET50 Index Futures) ซึ่งดำเนินการซื้อขายที่ตลาดอนุพันธ์ ซึ่งบริหารจัดการโดย บริษัท ตลาดอนุพันธ์ (ประเทศไทย) จำกัด (มหาชน) เป็นบริษัทย่อยของตลาดหลักทรัพย์แห่งประเทศไทย (TFEX) เป็นตลาดที่ทำหน้าที่ซึ่งขายล่วงหน้าดัชนีหลักทรัพย์ SET 50 ของประเทศไทย เป็นการใช้สัญญาซื้อขายล่วงหน้าเข้ามาในการป้องกันความเสี่ยงจากการลงทุนในตลาดหลักทรัพย์ โดยที่นักลงทุนจะสามารถเลือกลงทุนตามปกติในตลาดหลักทรัพย์ และเลือกลงทุนใน SET 50 Index Futures เพิ่มเติม เพื่อเป็นการป้องกันไม่ให้เกิดการขาดทุนจากการลงทุนในตลาดหลักทรัพย์ ถ้าราคาของหลักทรัพย์เปลี่ยนแปลงไปในทิศทางที่ไม่ต้องการให้เป็น เช่น หากนักลงทุนเลือกลงทุนอยู่ในหลักทรัพย์หลายชนิด แต่กลัวว่าราคาของหลักทรัพย์เหล่านั้น จะมีราคาที่ลดลงทำให้เกิดการขาดทุนจากการลงทุน นักลงทุนดังกล่าวก็สามรถที่จะเข้ามาลงทุนใน SET 50 Index Futures ได้ เพื่อเป็นการป้องกันในกรณีที่ราคาหลักทรัพย์ลดลง ผู้ลงทุนก็จะขาดทุนจากการลงทุนในหลักทรัพย์ แต่จะได้กำไรจากการลงทุนใน SET 50 Index Futures มาทดแทน
+
+== การซื้อขายตราสารอนุพันธ์==
+กลไกการซื้อขายตราสารอนุพันธ์ เป็นการทำสัญญาเพื่อซื้อขายแลกเปลี่ยนสินค้าอ้างอิงในอนาคต ซึ่งมีความแตกต่างจากการซื้อสินค้าหรือบริการโดยทั่วไป ซึ่งมีการซื้อขายที่มีการชำระเงินและส่งมอบสินค้าและบริการทันที การซื้อขายตราสารอนุพันธ์นั้นสามารถแบ่งออกได้เป็น 2 รูปแบบคือ '''รูปแบบที่หนึ่ง การซื้อขายผ่านระบบตลาดที่มีระเบียบ''' (Organized Exchange) ซึ่งการซื้อขายตราสารอนุพันธ์ในระบบตลาดที่มีระเบียบ นั้นจะมีกรรมวิธีการซื้อขายคล้ายกับการซื้อหุ้นในตลาดหลักทรัพย์ คือ ตลาดแบบมีระเบียบเป็นตลาดที่มีการซื้อและขายหลักทรัพย์หรือตราสารอนุพันธ์อย่างเปิดเผย มีการกำหนดราคา และช่วงของการขึ้นลงราคาอย่างชัดเจน ข้อมูลข่าวสารของผู้ลงทุนจะได้รับอย่างทั่วถึงและเท่าเทียมกัน มีการเปิดเผยราคาหลักทรัพย์และราคาอนุพันธ์ให้ประชาชนผู้ลงทุนทราบ เช่น การถ่ายทอดสดราคาของหลักทรัพย์หรือตราสารอนุพันธ์ทางสถานีโทรทัศน์ หรือบนอินเทอร์เน็ต หรือแม้กระทั่งการตีพิมพ์ราคาของหลักทรัพย์หรือตราสารอนุพันธ์ในหนังสือพิมพ์ เป็นต้น และการลงทุนในตราสารอนุพันธ์ผ่านระบบของตลาดอนุพันธ์ที่มีระเบียบ ผู้ลงทุนทั้งฝ่ายซื้อและฝ่ายขายจะต้องถูกเรียกเงินประกัน
+
+	การซื้อขายตราสารอนุพันธ์ในระบบตลาดแบบมีระเบียบ จะมีการการซื้อขายแบบ Electronic หรือ Open Outcry ทั้งนี้ขึ้นอยู่กับว่าตลาดจะเปิดให้มีการซื้อขายแบบใด แต่ส่วนใหญ่แล้วตลาดอนุพันธ์จะนิยมใช้ระบบ Open Outcry เป็นระบบในการต่อรองราคาซื้อขายตราสารอนุพันธ์ โดยที่ระบบนี้จะเป็นการเปิดให้ Broker และ ผู้ค้าตราสารอนุพันธ์รายใหญ่ สามารถเข้ามาทำการซื้อและขายตราสารอนุพันธ์ ซึ่งสามารถทำการซื้อขายใน Floor ได้ การซื้อการขายจะกระทำที่ Pitch ของสินค้าประเภทต่าง ๆ โดยมีการส่งสัญญาณมือเป็นการต่อรองราคา ทั้งนี้ในตลาดจะมีระบบทำการบันทึกภาพวีดีโอ เพื่อเป็นหลักฐานในการตกลงในสัญญาต่าง ๆ และเมื่อทำการซื้อขายเสร็จสิ้นจึงจะมีการจดทะเบียนยอดซื้อขายกัน การซื้อขายในระบบ Open Outcry นี้มีโอกาสในการผิดพลาดได้ง่ายกว่าระบบ Electronic มาก
+
+	'''รูปแบบที่สอง การซื้อขายผ่านตลาดต่อรอง''' (Dealer หรือ Over-The-Counter: OTC) เป็นการซื้อขายตราสารอนุพันธ์ที่เราสามารถเรียกได้ว่าเป็นระบบนอกตลาด คือ เป็นการซื้อขายตราสารอนุพันธ์โดยการตกลงกันเองระหว่าง ผู้ลงทุน โดยที่การซื้อขายตราสารอนุพันธ์นั้นจะทำการชำระราคาและส่งมอบกันนอกระบบตลาด คือ ไม่มีการซื้อขายผ่านตลาดแบบมีระเบียบ แต่ในต่างประเทศการซื้อขายในระบบ OTC นี้ เป็นการซื้อขายที่มีนักลงทุน และนักเก็งกำไรทำการซื้อขายมากที่สุด เป็นตลาดที่ได้รับความนิยมมาก
+
+	นอกจากนี้ระบบของตลาดแบบมีระเบียบนั้น มีความแตกต่างจากตลาด OTC คือ การซื้อและขายสัญญาล่วงหน้าต่าง ๆ นั้นจะต้องมีการเรียกเงินประกัน เพื่อเป้นการป้องกันไม่ให้นักลงทุนฝ่ายใดฝ่ายหนึ่งเกิดความเสี่ยง เพราะหากไม่มีการเรียกเก็บเงินประกันแล้ว หากนักลงทุนฝ่ายใดเกิดการขาดทุน นักลงทุนฝ่ายนั้นอาจไม่มาชำระราคา หรือไม่มาส่งมอบสินทรัพย์ตามที่ตกลงกันไว้
+
+ความแตกต่างของการซื้อขายตราสารอนุพันธ์ในตลาดแบบมีระเบียบ (Organized Exchange) และตลาดต่อรอง (Over-the-Counter Market) นั้นมีความแตกต่างกันอยู่หลายประการ เช่น ลักษณะของสัญญา ความเป็นมาตรฐาน การวางเงินประกัน สภาพคล่องของการซื้อขาย ความเสี่ยงจากการลงทุน และการส่งมอบและชำระราคา เป็นต้น
+
+	ตลาดแบบมีระเบียบ (Organized Exchange) เป็นตลาดที่มีสถานที่การทำการซื้อขายแน่นอน มีกระบวนการในการดำเนินงานเป็นไปตามกฎหมาย มีพระราชบัญญัติรองรับในการเปิดดำเนินงาน มีเวลาเปิดเวลาปิดแน่นอน ราคาซื้อขายมีการเสนอซื้อหรือขายอย่างเป็นระบบ มีช่วงห่างของการขึ้นหรือลงของราคา มีการประกาศราคาและข้อมูลในการลงทุนให้ผู้ลงทุนทราบตลอดเวลา ไม่ว่าจะเป็นการประกาศผ่านระบบอินเทอร์เน็ต สถานีโทรทัศน์ วิทยุ หรือแม้กระทั่งหนังสือพิมพ์
+
+'''Derivate''' sind gegenseitige Verträge, deren Preisbildung auf einer marktabhängigen Bezugsgröße (Zinssätze, Indices) oder andere Handelsgegenstände (Rohstoffe, Devisen) sein. Derivate können auch Basiswert von anderen Derivaten (2. Grades) sein. Grundsätzlich kommen als Basiswert oder Underlying Asset auch nicht-ökonomische Größen, wie etwa das Wetter, das dann genau zu definieren ist, in Frage.
+
+Der Handel mit derivativen Finanzinstrumenten hat seit 1986 stark zugenommen. Nachdem er sich anfangs auf vergleichsweise einfache Marktrisiken wie Zinsänderungsrisiken und Wechselkursrisiken angewendet. Zu den verhältnismäßig jungen Risikoarten, die gleichfalls durch derivative Finanzinstrumente abgesichert werden können, gehören das Kreditrisiko sowie das Wetterrisiko.
+
+==Begriffsherkunft==
+
+Das '''Derivat''' ist Kurs) dieser Instrumente von einem ihnen zugrunde liegenden Marktgegenstand (dem Basiswert) abhängt. 
+
+Gemäß internationaler Rechnungslegungsstandards IFRS/IAS ist ein Derivat ein Finanzinstrument oder ein anderer Vertrag, der in den Anwendungsbereich von IAS 39 fällt und alle der drei folgenden Merkmale aufweist:
+
+* Der Wert ändert sich infolge der Änderung eines bestimmten Basiswerts (z.B. Zinssatz, Preis eines Finanzinstruments, Rohstoffpreises etc.);
+* es erfordert keine Anschaffungsauszahlung oder eine, die im Vergleich zu anderen Vertragsformen, von denen zu erwarten ist, dass sie in ähnlicher Weise auf Änderungen der Marktbedingungen reagieren, geringer ist und
+* es wird in der Zukunft glattgestellt.
+
+==Strukturierung des Begriffs==
+
+Aktien und Anleihen werden an Kassamärkten gehandelt. Hier werden echte Umsatzgeschäfte innerhalb einer zweitägigen Frist für die Abwicklung der Transaktionen (Terminmärkten oder außerbörslich  „over the counter“ (OTC; bilateral) gehandelt. Derivate lassen sich in folgende Kategorien einteilen:
+
+'''Festgeschäfte''' sind Vereinbarungen zwischen zwei Parteien über die zukünftige Lieferung eines Gutes zu einem heute festgelegten Preis. Werden solche Verträge OTC gehandelt, nennt man sie Forwards, werden sie in standardisierter Form an Terminmärkten gehandelt, heißen sie Futures. 
+
+'''Swaps''' sind bilaterale Vereinbarungen über den Tausch von Zahlungsströmen. Hier werden Zinsswaps und Währungsswaps unterschieden. 
+Bei Futures und Swaps haben die vertragsschließenden Parteien ein symmetrisches Risiko.
+
+Bei '''Optionen''' hingegen besteht ein asymmetrisches Risiko. Eine Option ist ein Recht (nicht die Pflicht), den Basiswert zu einem heute festgesetzten Preis zu einem zukünftigen Zeitpunkt zu kaufen (Call-Option) oder zu verkaufen (Put-Option). Alle Derivate lassen sich in eine dieser Kategorien einordnen oder stellen deren Kombinationen dar. 
+
+Derivate sind das vermutlich am schnellsten wachsende und sich verändernde Segment des modernen Finanzwesens. 
+Nach Angaben der BIZ (Bank für Internationalen Zahlungsausgleich) betrug der Nominalwert aller weltweit ausstehenden OTC-Derivatekontrakte im 1. Halbjahr 2007, 516,4 Billionen Dollar (95 Billionen im Jahr 2000).
+
+Die weltweit wichtigsten Derivatebörsen sind die deutsch-schweizerische DTB entstanden), die britische CME und der US-amerikanische CBoT. Ebenfalls zu nennen ist das New Yorker ''Board of Trade'' (NYBOT) und die NYMEX, welche die großen Warenterminbörsen repräsentieren. Der Haupthandelsplatz in Deutschland für den Handel mit Derivaten ist die EUWAX.
+
+== Nutzungsmöglichkeiten ==
+
+Als unmittelbarer Effekt aus der Ableitung vom Basiswert können Derivate mit weitaus geringerem Kapitaleinsatz erworben werden, als beim Erwerb von Positionen des Basiswertes mit gleichem Partizipationsumfang an dessen Kursentwicklung. Denn Derivaten wohnt ein konstruktionstechnisch bedingter Hebeleffekt inne (Hedginggeschäfte). 
+
+Zum anderen nutzen Anleger Derivate, um Differenzgewinne aus Kursschwankungen des Basiswertes zu erzielen. Da diese Kursschwankungen für jedermann zufällig sind (siehe Markteffizienz), gehen Anleger bewusst ein (höheres) Risiko ein und schließen somit Spekulationsgeschäfte ab. 
+
+Darüber hinaus bieten Derivate Chancen für Arbitrage-Gewinne. Solche können sich durch Ausnutzung von Preisdifferenzen zwischen Kassa- und Terminmarkt, aus komparativen Kostenvorteilen zwischen verschiedenen Marktsegmenten oder durch Ausnutzung rechtlich unterschiedlicher Behandlung wirtschaftlich gleichwertiger Geschäfte ergeben.
+
+==Grundlagen Finanzderivate==
+Finanzderivate ermöglichen die Absicherung gegen Risiken von Preisänderungen und die Spekulation auf die Entwicklung bestimmter Preise<ref name="Zantow, Roger_2">: Zantow, Roger (2004) ''Finanzierung – Die Grundlagen modernen Finanzmanagements'', München: Pearson Studium, Seite 255 </ref>. 
+
+Die wichtigsten Typen von Finanzderivaten sind Termingeschäfte und Optionen. 
+
+Im Folgenden sind verschiedene Derivate nach Art des zugrundeliegenden Risikos aufgeführt:
+
+* Zinsbezogene Geschäfte (Zinsfutures, Zinscap und Zinsfloor
+
+* Währungsbezogene Geschäfte: Devisentermingeschäfte, Devisenfutures, Devisenoptionen, Cross Currency Swaps
+
+* Aktien- bzw. Indexbezogene Geschäfte: Aktientermingeschäfte, Aktienfutures, Indexfutures, Aktienoptionen, Indexoptionen, Aktienswaps, Indexswaps.
+
+* Sonstige Geschäfte: Edelmetalltermingeschäfte, Credit Default Swaps, Credit Default Options oder Wetterderivate.
+
+===Termingeschäft===
+Der Finanzmark kann in den Terminmarkt und Kassamarkt unterteilt werden. Im Kassamarkt werden Direktgeschäfte getätigt, bei denen unmittelbare Bezahlung und Lieferung des Vertragsgegenstandes erfolgt. Auf dem Terminmarkt hingegen werden Verträge über Geschäfte in der Zukunft getätigt<ref name=" Müller-Möhl, Ernst_2 ">: Müller-Möhl, Ernst (2002) ''Optionen und Futures–Grundlagen und Strategien für das Termingeschäft in Deutschland, Österreich und in der Schweiz'', 5. Auflage, Stuttgart: Schäffer-Poeschel, Seite 21 </ref>. Bei einem Termingeschäft schließen zwei Parteien einen Vertrag, das sie zu  einem bestimmten Zeitpunkt in der Zukunft eine Transaktion zu einem vorher festgelegten Preis und Menge durchführen wollen.
+Die Transaktion, in der die Zahlung des Kaufpreises und die Lieferung der Ware enthalten sind, erfolgt ausschließlich in der Zukunft und ist für beide Vertragsparteien verbindlich (Liefer- und Abnahmepflicht)<ref name=" finanztip">[http://www.finanztip.de/recht/bank/finanzderivate-grundlagen.htm# (Abgerufen: 12. April 2008, 14:25 MEZ)</ref><ref name="Zantow, Roger_10">: Zantow, Roger (2004) ''Finanzierung – Die Grundlagen modernen Finanzmanagements'', München: Pearson Studium, Seite 255 </ref>.
+
+===Kategorien der Finanzderivate===
+Die Abgrenzung erfolgt dadurch, ob ein Wahlrecht vorhanden ist, das einem Vertragspartner die Entscheidung über die Erfüllung oder bzw. nicht Erfüllung des zugrunde liegenden Vertrages einräumt.
+
+*'''''Unbedingte Termingeschäfte''''' (Festtermingeschäfte) sind in der Gegenwart vereinbarte Konditionen im Kaufvertrag und mit unbedingter Ausübung in der Zukunft.
+*'''''Bedingte Termingeschäfte''''' (optionsartige Termingeschäfte) sind in der Gegenwart vereinbarte Konditionen im Kaufvertrag und mit bedingter Ausübung in der Zukunft nach Wahl eines der Vertragspartner.
+*'''''Financial Swaps''''' sind Tauschverträge von Zahlungsverpflichtungen in der Zukunft und gegebenenfalls zusätzlich in der Gegenwart mit unbedingter Ausübung<ref name="Zantow, Roger_3">: Zantow, Roger (2004) ''Finanzierung – Die Grundlagen modernen Finanzmanagements'', München: Pearson Studium, Seite 255- 256 </ref>.
+
+===Optionen===
+Eine Option ist ein verbrieftes Recht, aber keine Pflicht, gegen Bezahlung eines Kaufoption) oder zu verkaufen (Verkaufsoption). 
+Bei einer ungünstigen Wertentwicklung des Basiswertes/ Vermögensgegenstandes kann sich der Optionsrechtinhaber gegen einen Verlust schützen, indem er auf die Ausübung seines Optionsrechtes verzichtet. Denn der Optionsrechtinhaber hat das Recht (Optionsrecht) aber nicht die Pflicht das Optionsrecht auszuüben. Der Stillhalter, der das Optionsrecht gegen sich wirken lassen muss, erhält für das veräußerte Recht eine Optionsprämie<ref name=" finanztip_2">[ http://www.finanztip.de/recht/bank/terminboerse-optionen.htm] (Abgerufen: 12. April 2008, 14:37 MEZ)</ref><ref name="Zantow, Roger_11">: Zantow, Roger (2004) ''Finanzierung – Die Grundlagen modernen Finanzmanagements'', München: Pearson Studium, Seite 275 </ref>.

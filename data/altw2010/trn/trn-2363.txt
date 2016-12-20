@@ -1,0 +1,39 @@
+The '''Tomasulo algorithm''' is a hardware IBM360/91’s floating point unit.
+
+This algorithm differs from hazards by stalling, register renaming allows the continual issuing of instructions. The Tomasulo algorithm also uses a common data bus (CDB) on which computed values are broadcast to all the reservation stations that may need it. This allows for improved parallel execution of instructions which may otherwise stall under the use of scoreboarding.
+
+Robert Tomasulo received the Eckert-Mauchly Award in 1997 for this algorithm.
+
+==Implementation Concepts==
+The following are the concepts necessary to the implementation of Tomasulo's Algorithm.
+
+*Instructions are issued sequentially so that the effects of a sequence of instructions such as exceptions raised by these instructions occur in the same order as they would in a non-pipelined processor, regardless of the fact that they are being executed non-sequentially.
+
+*All general-purpose and reservation station registers hold either real or virtual values.  If a real value is unavailable to a destination register during the issue stage, a virtual value is initially used.  The functional unit that is computing the real value is assigned as the virtual value.  The virtual register values are converted to real values as soon as the designated functional unit completes its computation.
+
+*Functional units use reservation stations with multiple slots.  Each slot holds information needed to execute a single instruction, including the operation and the operands.  The functional unit begins processing when it is free and when all source operands needed for an instruction are real.
+
+==Instruction Lifecycle==
+The three stages listed below are the stages through which each instruction passes from the time it is issued to the time its execution is complete.
+
+===Stage 1: Issue===
+
+In the Issue stage, instructions are issued for execution if all operands and reservation stations are ready or else they are stalled.  Registers are renamed in this step, eliminating WAR and WAW hazards.
+
+Der '''Tomasulo-Algorithmus''' ist ein dynamischem Scheduling in Prozessoren. Er wurde von 360/91<ref>John Hennessy, David Patterson: Computer Architecture. A Quantitative Approach., 4th Edition, Morgan Kaufmann Publishers, ISBN 978-0-12-370490-0 (engl.), S. 92</ref>.
+
+== Einordnung ==
+Um die Geschwindigkeit zu erhöhen, mit der ein Prozessor auszuführende Instruktionen bei konstanter Taktfrequenz durchläuft, wird die Ausführung von Instruktionen in mehrere Schritte unterteilt. Sobald eine Instruktion eine Stufe durchlaufen hat, kann die nächste Instruktion bereits diese Stufe betreten, so dass der Prozessor stets an mehreren Instruktionen gleichzeitig arbeitet. Dieses Verfahren bezeichnet man als Pipelining, die Stationen, die die Befehle durchlaufen, als Stages.
+
+Wenn nun Teile der Pipeline oder die gesamte Pipeline mehrfach vorkommen, spricht man von Superskalarität. Da sich mehrere Befehle
+gleichzeitig in der Pipeline befinden, kann es durch Abhängigkeiten zwischen den auszuführenden Befehlen zu Problemen kommen. Eine naive Lösung ist es, mit der Abarbeitung der nächsten Befehle zu warten. Ein intelligenteres Verfahren, das dies umgeht, ist das dynamische Scheduling. Der Tomasulo-Algorithmus stellt eine konkrete Implementierung dieses Verfahrens dar. Ein weiteres Verfahren ist z.B. das Scoreboarding.
+
+== Strategie ==
+Der Tomasulo-Algorithmus verfolgt das Ziel, die Ausführung von Befehlen fortzusetzen, selbst wenn Datenabhängigkeiten vorliegen. Zum einen handhabt er Read-after-write-Hazards (RAW), indem der Prozessor verfolgt, wann ein Operand zur Verfügung steht. Zum anderen handhabt er Write-after-write- (WAW) und Write-after-read-Hazards (WAR), indem relevante Registerinhalte beim Decodieren eines Befehls in speziellen ''Reservation Stations'' gesichert und so vor vorzeitigem Überschreiben geschützt werden.
+
+== Prozessoraufbau ==
+Ein Prozessor, der den Tomasulo-Algorithmus implementiert, enthält unter anderem folgende Komponenten:
+
+* ''Functional Units'' (FU): Die Functional Units sind Prozessorbausteine, die logisch/arithmetische Berechnungen ausführen. Es gibt hiervon meist mehrere; sie unterscheiden sich in der Art der Operationen, welche sie ausführen können (floating point, integer, load/store, etc.). Bei modernen Prozessoren ist fünf eine typische Zahl für die Anzahl an FUs.
+
+* ''Reservation Stations'' (RS): Diese implementieren ''Register Renaming'' und werden wie temporäre Operation, zwei Felder für die Werte der Operanden und zwei Felder für die Herkunft der Operanden, falls sie zum aktuellen Zeitpunkt noch nicht zur Verfügung stehen bzw. noch nicht gültig sind.

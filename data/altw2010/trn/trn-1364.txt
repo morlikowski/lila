@@ -1,0 +1,37 @@
+'''Följdparadoxen''' är en paradox som följer av observationen att man inom klassisk logik alltid får ett giltigt argument när premisserna är inkonsistenta; med andra ord, inkonsistenta premisser implicerar vilken slutsats som helst. Detta tycks paradoxalt då det innebär att det följande är ett giltigt argument:
+
+* ''Det regnar''
+* ''Det regnar inte''
+alltså
+* ''Göran Persson är påve''
+
+==Att förstå paradoxen==
+Giltighet definieras inom klassisk logik på följande vis: ''Ett logiskt argument (bestående av premisser och en slutsats är giltigt om och endast om det inte finns någon möjlig situation där alla premisser är sanna och slutsatsen är falsk.''
+
+Ett exempel på ett sådant argument är:
+* ''Om det regnar så existerar vatten'' (första premissen, alltid sann)
+* ''Det regnar'' (andra premissen)
+* ''Vatten existerar'' (slutsats)
+
+I detta exempel finns det ingen möjlig situation där premisserna är sanna medan slutsatsen är falsk. Eftersom det inte existerar några motexempel så är argumentet giltigt.
+
+Men man skulle kunna konstruera ett argument där premisserna är inkonsistenta. Detta skulle uppfylla kriteriet för ett giltigt argument eftersom det inte skulle finnas ''någon möjlig situation där alla premisser är sanna och slutsatsen är falsk''.
+
+The '''paradox of entailment''' is an apparent paradox derived from the principle of explosion, a law of classical logic stating that inconsistent premises always make an argument valid; that is, inconsistent premises imply any conclusion at all.  This seems paradoxical, as it suggests that the following is a good argument:
+
+:''It is raining''
+:''It is not raining''
+Therefore:
+:''George Washington was made of plastic''.
+
+==Understanding the paradox==
+argument (consisting of premises and a conclusion) is valid if and only if there is no possible situation in which all the premises are true and the conclusion is false. ''
+
+For example an argument might run:
+:''If it is raining, water exists'' (1st premise; always true)
+:''It is raining'' (2nd premise)
+:''Water exists'' (Conclusion)
+
+In this example there is no possible situation in which the premises are true while the conclusion is false. Since there is no counterexample, the argument is valid.
+
+But one could construct an argument in which the premises are inconsistent. This would satisfy the test for a valid argument since there would be ''no possible situation in which all the premises are true'' and therefore ''no possible situation in which all the premises are true and the conclusion is false''.

@@ -1,0 +1,166 @@
+'''Temperering''' eller '''tempererad stämning''' är en praxis vid stämning av musikinstrument, där intonationen av en skala sätts till fasta värden. Detta är främst nödvändigt på instrument med fast intonation, exempelvis piano, orgel och bandad gitarr. Flera standarder, så kallade ''temperaturer'', förekommer.
+
+==Allmänt==
+Rena pytagoreiska kommat). Detta ställer till problem på instrument med fast tonhöjd, eftersom det inte finns någon möjlighet att anpassa intonationen under själva framförandet. För att lösa problemet måste man ersätta vissa närliggande toner med en mellanliggande ton, en kompromiss.
+
+Genom historien har det utvecklats många olika temperaturer. I modern musik har det blivit standardiserat med liksvävande temperatur.
+
+==Oliksvävig temperering==
+===Pythagoreisk stämning===
+
+===Medeltonstemperering===
+
+Under medeltonstemperering har det pytagoreiska kommat fördelats så att de stora terserna blir så rena som möjligt; detta sker på bekostnad av renheten hos kvinter och små terser. Nackdelen är att man måste hålla sig inom ett begränsat antal tonarter: Inom 5-7 durtonarter och 3-5 molltonarter gynnar medeltonstemperering klangskönheten mer än andra alternativ. På grund av att intervallen svävar olika mycket får olika tonarter olika karaktär. 
+
+Den nya musiken krävde emellertid allt fler tonarter. Det problemet kunde man lösa genom att sätta in fler toner och tangenter i varje oktav. Man delade helt enkelt en del av övertangenterna, till exempel ess/diss, giss/ass & bess/ais i en undre och en övre halva. Redan under slutet av 1400-talet hade orglarna i San Petronio, Bologna, delade övertangenter, subsemitoner, och under 1600-talet kunde Mattias Weckman i Hamburgs Sankt Jacobi med hjälp av subsemitoner spela rena treklanger till och med i Fiss-dur.
+
+En intonation pure. Les écarts introduits par les tempéraments ne sont directement perceptibles que par une oreille entraînée, mais ont un effet global sur la perception du morceau : les instruments accordés sur des tempéraments inégaux restituent la mélodie avec une atmosphère plus dure ou mélancolique, colorée par la tonalité dans laquelle ils jouent.
+* Pour une introduction généraliste au contexte, voir Gamme musicale.
+Pour pouvoir jouer harmonieusement dans des tonalités transposées, les instruments à sons fixes sont accordés suivant des gammes qui s'écartent légèrement des intervalles harmoniques, par des ajustements qui se nomment des '''tempéraments'''. Le choix d'un système particulier de tempéraments, quand il permet d'améliorer la sonorité de l'instrument pour certaines tonalités, le fait au détriment d'autres. Ces arbitrages ont conduit à des systèmes variés.
+
+Les principaux tempéraments utilisés sont :
+* pour la '''tempérament égal.
+* pour la '''tierces pures.
+Entre ces deux périodes, ont été utilisés des tempéraments (dits irréguliers ou inégaux) que certains appellent improprement « tempéraments de transition ». En réalité, leurs caractéristiques sont spécifiques et adaptées à la musique de leur époque (changements de couleurs tonales autour d'une tonalité centrale). Le plus utilisé de nos jours dans la pratique est le Tartini-Vallotti »), en raison de son caractère peu marqué, et donc plus universel. Enfin citons pour la '''systèmes complexes ou innovants.
+
+==Origine et nécessité des tempéraments==
+===Consonance et dissonance===
+
+Si les fréquences des sons et leurs intervalles relatifs sont des grandeurs quantifiables, les notions de consonance et de dissonance sont, quant à elles, subjectives et basées sur la perception auditive et la réflexion qu'on lui apporte : certains définissent la consonance de deux fréquences sonores comme le caractère « agréable » de leur émission simultanée ou immédiatement successive. 
+
+Mais, plus simplement, la Rameau).
+
+Philosophes, acousticiens, physiciens ou mathématiciens des  ont tenté de chercher une explication rationnelle au caractère agréable ou désagréable d'un accord ou d'un autre, avec des succès divers. Pour certains, cette recherche paraît aussi vaine que de tenter d'expliquer pourquoi certains aiment mieux le jaune que le bleu. Ils pensent que la culture joue de façon importante dans cette appréciation (certaines oreilles comtemporaines, vivant dans l'environnement de la tierce pure).  Pourtant, les anciens grecs n'admettaient comme consonants que les intervalles d'octave et de quinte, puis le Moyen Âge et la Renaissance y ont admis progressivement les tierces avant que la complexité croissante de la musique nous porte à considérer comme consonants des intervalles qui auraient fait grincer des dents Palestrina et ses contemporains. Les intervalles consonants sont donc arrivés les uns après les autres dans l'ordre harmonique (rang 2 : octave, rang 3 : quinte et quarte, rang 5 : tierces, sixtes).
+
+Les musiciens et les amateurs de musique s'accordent généralement à trouver consonants :
+* un son fondamental et l'un de ses premiers harmoniques ;
+* deux sons qui sont en rapport de fréquence rationnelle simple (par exemple : 3/2, 4/3, 5/3, etc.)
+
+C'est sur la base de ce consensus qu'ont été élaborées la gamme heptatonique occidentale et ses différentes variantes.
+
+===Transpositions et accords===
+
+Pour « sonner juste » à l'oreille, le musicien est naturellement conduit à interpréter une pièce musicale en utilisant une gamme naturelle, où les notes sont en relations harmoniques les unes avec les autres. Mais quand on accorde un instrument à sons fixe (piano, flûte,...) de cette manière, il ne peut jouer correctement que dans sa tonalité de départ. Il n'est pas possible de réaliser un instrument à sons fixes qui sonne juste dans toutes les transpositions, et pour pouvoir facilement transposer, il faut accepter de désaccorder un peu l'instrument: ces écarts sont les tempéraments apportés à la gamme.
+
+Cette question d'esthétique musicale se traduit assez directement en termes mathématiques, du fait que les sons harmoniquement consonnants sont dans un rapport de fréquence s'exprimant par une fraction simple (voir Acoustique musicale). Il y a plusieurs aspects à la question, mais les deux principaux problèmes numériques (qui se reflètent dans la pratique musicale) sont ceux-ci: 
+# En partant d'une note donnée, douze quintes  diffèrent quelque peu de sept octaves. L'écart (de l'ordre d'un huitième de ton) est le comma pythagoricien ou ditonique.
+# En partant d'une note donnée, quatre tierce pure. ''(ex: la succession DO-SOL-RÉ-LA-MI donne un MI qui est très différent de celui obtenu par une tierce pure).'' L'écart est le comma syntonique.
+
+La quasi-équivalence entre ces deux commas est un fait mathematique remarquable. (23,5 cents pour le comma pythagoricien et 21,5 cents pour le comma syntonique). De fait, la plupart des tempéraments inventés au cours de l'histoire se chargent de repartir essenciellement le comma pythagoricien dans le cycle des quintes, mais, pour autant, l'essenciel de ces tempéraments travaillent à une plus grande justesse des tierces (dont la fausseté s'illustre par le comma syntonique) tout en gardant les quintes acceptables. (La difference entre ces deux commas est le schisma, trés petit intervalle de 2 cents, dont on tient parfois compte dans la réalisation de certains tempéraments au clavecin.)
+
+Les tempéraments sont devenus nécessaires au fur et à mesure du développement de la musique, qui jouait de plus en plus sur des transpositions, des modulations, et des échelles chromatiques, parce qu'aucune gamme théorique n'était utilisable en pratique:
+* elles incluaient toutes au moins un intervalle désagréable, car sonnant faux ; le tempérament ne le rend pas juste, mais praticable.
+* elles rendaient difficile, désagréable ou impossible la transposition ; seul le tempérament égal permet n'importe quelle transposition sans aucune coloration (utile pour l'accompagnement des chanteurs) mais ceci au prix d'un « aménagement » de la justesse qui n'a pas toujours séduit les musiciens.
+* elles rendaient difficile, désagréable ou impossible la modulation. Selon les tempéraments, elle devient plus ou moins praticable, en fonction du tempérament choisi, mais aussi des tonalités de départ et d'arrivée. Il convient de préciser que nombre de tempéraments anciens permettent toutes les modulations que l'on veut, mais avec une forte coloration de la justesse sur les tonalités éloignées, coloration que certaines oreilles modernes ne considèrent plus acceptables, à cause de l'habitude du tempérament égal qui ne fait aucune différence entre toutes les tonalités.
+
+De façon annexe, les tempéraments ont souvent eu pour but complémentaire de faire coïncider les dièses et les bémols, afin d'améliorer la « jouabilité » des instruments. Il faut toutefois noter que cette préoccupation n'a pas toujours prévalu, et que des instruments à clavier qui disposaient de touches distinctes pour les deux altérations ont été construits avant le .
+
+===Le tempérament===
+
+La pratique montre et la théorie démontre qu'il n'est pas possible d'accorder un instrument à sons fixes sur plusieurs octaves en ayant à la fois tous les intervalles d'octaves, de quintes et de tierces purs. Si ceux-ci l'étaient, les intervalles de seconde, de quarte, de sixte et de septième
+qui en sont déduits le seraient aussi. 
+
+Cette constatation a imposé de trouver des compromis pour pouvoir pratiquer la musique sur de tels instruments. On appelle  de tels compromis qui peuvent tendre :
+# à éliminer autant que possible l'effet sensible des commas, en plaçant ou en répartissant ceux-ci dans des intervalles inusités ;
+# à simplifier les échelles musicales en confondant les notes enharmoniques ;
+# à permettre ou faciliter les transpositions et modulations.
+
+Le nombre de tempéraments qui ont été inventés pendant la Renaissance et la période baroque est considérable ; ils peuvent se répartir entre les catégories suivantes, selon les principes mis en œuvre (mais d'autres critères de répartition sont possibles) :
+# les tempéraments mésotoniques ;
+# les tempérament inégaux ;
+# le tempérament égal.
+Signalons pour mémoire les tempéraments par division multiple, qui ont exploré la division de l'octave par un nombre d'intervalles différent de douze pour tenter d'améliorer la pureté de certains intervalles (avec un intérêt nettement plus théorique qu'esthétique).
+
+===Importance des tempéraments===
+Marc Texier illustre ainsi l'importance des tempéraments, dans son essai ''Une nouvelle frontière de la musique'' :
+
+<blockquote>
+«Si pour l'essentiel de la musique médiévale, qui est vocale, la fausseté des tierces n'est pas un problème majeur, car bien sûr les chanteurs prennent instinctivement des libertés par rapport au carcan du tempérament en usage; les limites du tempérament pythagoricien<ref>l'expression "tempérament pythagoricien" est un abus de langage assez frequent, mais la gamme ou échelle pythagoricienne n'est pas, à proprement parlé, un "tempérament".</ref> ont eu pour la musique instrumentale, et tout particulièrement la musique pour clavier, une incidence remarquable, retardant de près de trois siècles l'éclosion de la polyphonie sur ces instruments par rapport à la polyphonie vocale. Ce n'est qu'à partir du moment où de nouveaux tempéraments, multipliant les tierces justes, ont été utilisés que la littérature pour clavier a pu s'épanouir, à deux voix au XIVe siècle, à trois au XVe, alors que la musique vocale était à quatre parties dès la fin du XIIe.
+</blockquote>
+<blockquote>
+Le choix d'un tempérament n'est donc en rien négligeable, il induit pour des siècles l'évolution de la musique.» <ref>[http://audiolabo.free.fr/revue1999/content/texier.htm homestudio - revue audiolab<!-- Titre généré automatiquement -->]</ref>
+</blockquote>
+
+==Les premières échelles théoriques==
+=== Gamme pythagoricienne ===
+
+thumb|right|Quinte du loup dans le cycle des quintes
+La gamme pythagoricienne est la plus ancienne théorie des gammes musicales occidentales. Elle remonte aux mathématiciens grecs de l'Antiquité : elle tire son nom de Pythagore, le philosophe connu en géométrie pour son célèbre théorème.
+
+Cette gamme est construite uniquement sur des quintes justes et des octaves. Elle a l'avantage d'être basée sur des intervalles justes, ce qui est considéré comme nécessaire par certains musiciens, mais possède une quinte plus petite, dite « du loup » qui est inutilisable. Sa tierce n'est pas non plus parfaitement pure.
+
+C'est pour corriger ces défauts que d'autres tempéraments ont été proposés.
+
+===Gamme de Zarlino===
+tierce majeure comme intervalle fondateur de l'harmonie. La juste intonation qu'il conceptualise (voir Zarlino) est induite par les imperfections constatées dans la gamme pythagoricienne et le souhait d'avoir le maximum d'intervalles sonnant juste dans un système à douze intervalles par octave.
+
+Il élabore une tierce « pure », et plus généralement aux intervalles purs, c'est à dire correspondant à un rapport de fréquence s'exprimant par une fraction simple.
+
+La tierce est basée sur des harmoniques qui multiplient ou divisent la fréquence par cinq, au lieu d'un facteur trois comme dans la gamme de Pythagore. Entre la ''quarte'' et le ''ton majeur'', l'introduction de facteurs "cinq" permet de travailler sur les rapports 5/4 (=1,25) et 6/5 (= 1,2).
+Ces deux rapports sont particulièrement simples, acoustiquement ils sonnent bien avec la fondamentale. Enfin, puisque (5/4) x (6/5) = 6/4 = 3/2, on voit que leur addition donne une quinte. Ces intervalles, respectivement nommés « tierce majeure » et « tierce mineure » vont jouer un rôle de premier plan, avec l'octave et la quinte, dans la construction des gammes naturelles, qui ont de nombreuses variantes.
+
+Pour construire la gamme de Zarlino, nous allons exprimer les intervalles recherchés en fonction « pythagoricienne » de la tierce majeure puis appliquerons la formule obtenue à la tierce majeure « pure » (5/4).
+Nous disposons déjà des intervalles, notes et rapports suivants
+* Fondamentale  = DO =  1  
+* Ton majeur = RÉ = 9/8 (deux quintes pures transposées d’une octave : 3/2 × 3/2 ÷ 2)
+* Tierce mineure = MI♭ = 6/5
+* Tierce majeure = MI = 5/4 (contrairement à 81/64, soit 4 quintes, selon Pythagore)  
+* Quarte = FA = 4/3  (comme pour Pythagore)
+* Quinte  = SOL = 3/2 (comme pour Pythagore) 
+* Sixte (majeure) = La = 5/3 (addition d'une ''tierce majeure'' et d'une ''quarte'' : 5/4 x 4/3 = 5/3 - contrairement à 27/16 selon Pythagore)
+* Septième (majeure) = SI = 15/8 (addition d'une ''tierce majeure'' et d'une ''quinte'': 5/4 x 3/2 = 15/8, contrairement à 243/128 selon Pythagore)  
+* Octave = DO = 2.
+Les autres intervalles se calculent de façon analogue, en déterminant, selon la gamme de Pythagore, une formule à base d'additions ou soustractions de ''tierces'' (T), ''quintes'' (Q) et ''octaves'' (O) donnant le résultat correct. Comme le montre le tableau ci-dessous, les fractions des intervalles purs sont relativement simples, sauf la seconde mineure (16/15) et son symétrique la septième (15/8), et surtout le triton (45/32).
+
+Par rapport à la gamme tempérée, les écarts de la gamme de Zarlino sont (en supposant la gamme accordée sur une tonique de Do):
+{| class="wikitable"
+!Note !! Do !! Reb    !! Ré !!   Mib !! Mi   !!  Fa !!   Fa#/Solb   !! Sol !!  Lab  !!  La  !! Sib !! Si
+|-----
+|Rapport||1/1|| 16/15 || 9/8 || 6/5  ||  5/4 || 4/3 ||45/32 ou 64/45|| 3/2 || 8/5    || 5/3 || 9/5 || 15/8
+|-----
+|Écart || 0  ||+11.73 ||-3.91||+15.64||-13.69||+1.96||     ± 9.78   || -1.96 ||+13.69||-15.64|| +17.6|| -11.73
+|}
+On voit que les écarts par rapport à la gamme tempérée sont assez importants sur les tierces et sixtes (de l'ordre de 14 cent), ainsi que sur la septième (17 cent). On peut en fait lire ces écarts dans l'autre sens: par rapport à une gamme formée d'intervalle purs, c'est le degré de fausseté perceptible sur la gamme tempérée. Ces intervalles commencent à être audibles pour une oreille exercée.
+
+Après avoir déterminé ces intervalles, on peut vérifier les valeurs des différentes tierces et quintes de la gamme de Zarlino :
+
+* les tierces sont toutes justes (rapport de fréquences = 5/4) sauf la tierce SOL♭-SI♭ dont le rapport est 81/64, légèrement  supérieur ;
+* les quintes sont justes (rapport de fréquences = 3/2) sauf trois d'entre elles (rapport 40/27) qui ne le sont pas (valeur inférieure) : RE-LA, FA♯-DO♯, SI♭-FA.
+La gamme de Zarlino est donc particulièrement pure (pour la mélodie et les accords), mais elle est difficilement transposable.
+Il faut se souvenir que dans cette gamme, il y a un ton majeur et un ton mineur de valeurs différentes. On appelle comma zarlinien l'intervalle entre ces deux tons : il vaut 81/80 soit 1,0125 ; c'est le comma syntonique.
+Dans la gamme de Zarlino, la succession des 7 intervalles constituant une octave est la suivante :
+#ton majeur
+#ton mineur
+#1/2 ton diatonique
+#ton majeur
+#ton mineur
+#ton majeur
+#1/2 ton diatonique
+Ce qui précède montre que la gamme de Zarlino ne peut être utilisée dans la pratique lorsqu'on doit transposer ou moduler. 
+:''Prenons l'exemple très simple de la transposition de do majeur à sol majeur. L'intervalle DO-RE dans la première tonalité a pour correspondant l'intervalle SOL-LA dans la seconde, or DO-RE est un ton majeur, et SOL-LA un ton mineur.''
+:''Autre exemple: dans une pièce jouée sur la gamme de Zarlino de Do, mais transposée en Mi, l'écart de la tierce majeure sera de +27.38 (l'écart de Lab moins celui de Mi) par rapport à la gamme tempérée, au lieu du -13.69 attendu, et donc au total de 41.07 cent par rapport à la tierce pure: près d'un quart de ton!''
+La gamme de Zarlino n'est pas la seule gamme « naturelle » envisageable : par exemple, Zarlino n'a pas inclus, dans sa gamme, de rapports harmoniques comportant le chiffre 7 (premier nombre premier après 2, 3 et 5), car à son époque, on commencait seulement à s'intéresser physiquement à la justesse des tierces. Pour exemple, un FA♯ fondé sur le rapport 7/5 (soit 1.4) est un rapport harmonique beaucoup plus simple que les rapports approchants, déduits de Pythagore (729/512) et de Zarlino (45/32). Par la suite, d'autres théoriciens ont proposé leur propre système, sans qu'aucun puisse vraiment présenter d'avantages décisifs.
+
+==Tempéraments réguliers ou irréguliers==
+On parle de tempéraments réguliers lorsque les corrections apportées aux intervalles s'appliquent également à tous, aucun intervalle particulier n'étant musicalement juste : ce sont donc les tempéraments mésotoniques et le tempérament égal (qui est un mésotonique particulier). Les tempéraments inégaux sont dits « irréguliers ».
+
+=== Les tempéraments mésotoniques ===
+
+L'idée des tempéraments mésotoniques va être de diminuer toutes les quintes d'une certaine fraction du comma syntonique, de façon à rendre plus pures les tierces majeures résultantes sans pour autant trop fausser les quintes (l'écart résiduel venant du comma pythagoricien reste toujours concentré sur la quinte du loup).  
+
+Lors de la construction de la gamme pythagoricienne, on obtient la première tierce majeure (DO-MI) par quatre montées successives de quintes : DO-SOL, puis SOL-RE, puis RE-LA, enfin LA-MI. Ce Mi pythagoricien diffère du Mi de la tierce pure d'un comma syntonique (ou comma zarlinien).
+Si donc on veut un tempérament mésotonique à tierce majeure pure, il suffit de diviser le comma syntonique en 4, c'est-à-dire corriger la fraction 3/2 (la quinte) du coefficient (3<sup>4</sup>/(5 x 2<sup>4</sup>))<sup>1/4</sup> ou 3 / (2 x 5<sup>1/4</sup>), et ajouter la fraction correspondante à chaque quinte dans la progression du cycle des quintes : les quintes seront un peu fausses, mais les tierces seront justes.
+
+Puisque la correction s'applique uniformément à toutes les quintes, les tierces majeures engendrées restent toujours égales à deux tons majeurs (les proportions sont conservées) ce qui n'est pas le cas avec les tempéraments inégaux. C'est cette propriété du « ton moyen » qui est à l'origine du terme « mésotonique » - on utilise aussi l'expression « tempérament régulier »·
+
+Si nous appliquons cette correction au cycle complet des quintes (soit 12 quintes) nous aurons réduit l'octave de trois commas syntoniques au total (douze quarts de commas) : comme la quinte du loup est trop petite d'un comma pythagoricien, nous lui rajouterons ces trois commas syntoniques pour conserver l'octave pure, c’est-à-dire qu'elle deviendra à présent trop grande de (trois commas syntoniques moins un comma pythagoricien) - valeur assez proche de deux commas syntoniques car on se rappelle que les deux types de commas ont des valeurs proches. Ainsi la quinte du loup reste fausse dans le tempérament mésotonique à tierce pures, mais cette fois par excès.
+
+Le tempérament mésotonique à quart de comma syntonique est le plus utilisé. S'il rend les tierces plus pures, il fausse légèrement les quintes (ainsi d'ailleurs que les quartes), et ceci n'est pas indifférent car l'oreille est plus sensible à la pureté des quintes qu'à celle des tierces. 
+
+D'autres tempéraments mésotoniques présentent un meilleur compromis en répartissant la « fausseté » de façon plus équilibrée entre tierces et quintes : c'est le cas du tempérament à 1/6 ou 1/8 de comma. A l'extrême, le tempérament à douzième de comma fait disparaître la quinte du loup, et est donc pratiquement équivalent à la gamme au tempérament égal.
+
+Les tempéraments mésotoniques sont assez pratiqués dans la musique baroque, ils permettent des modulations acceptables dans les tons voisins de la tonique.
+
+=== Les tempéraments inégaux ===
+
+L'idée des tempéraments inégaux vient du fait que, dans la pratique musicale, et spécialement à l'époque baroque avant que ne se généralise l'emploi de la gamme au tempérament égal, tous les intervalles de quinte et de tierce majeure ne sont pas également usités. 

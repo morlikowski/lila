@@ -1,0 +1,91 @@
+The '''efficiency''' of an entity (a device, component, or fractional expression), typically denoted by the Greek letter small Eta (η).
+
+: <math>
+
+\mathrm{Efficiency}=\frac{\mathrm{Useful\ power\ output}}{\mathrm{Total\ power\ input}}
+</math>
+
+== Efficiency of typical electrical devices ==
+
+''Efficiency'' should not be confused with ''effectiveness'': a system that wastes most of its input power but produces exactly what it is meant to is effective but not efficient. The term "efficiency" only makes sense in reference to the wanted effect. So a light bulb might have 2% efficiency at emitting light yet still be 98% efficient at heating a room. (In practice it is nearly 100% efficient at heating a room because the light energy will also be converted to heat eventually, apart from the small fraction that leaves through the windows). An electronic amplifier that delivers 10 watts of power to its load (for example a loudspeaker), while drawing 20 watts of power from a power source is 50% efficient. (10/20 × 100% = 50%)
+
+* Electric kettle: over 90% (comparatively little heat energy is lost during the 2 to 3 minutes a kettle takes to boil water).
+* A four-quadrant gate is highly effective, yet it has an electrical efficiency close to 0%.
+
+== Efficiency of devices at point of Maximum Power Transfer ==
+
+As a result of the Maximum Power Theorem, devices transfer maximum power to a load when running at 50% electrical efficiency. This occurs when the load resistance (of the device in question) is equal to the internal Thevenin equivalent resistance of the power source.
+
+== Efficiency of light bulbs ==
+
+Der '''Wirkungsgrad''' ist allgemein das Verhältnis von abgegebener Leistung (''P''<sub>ab</sub> = Nutzen) zu zugeführter Leistung (''P''<sub>zu</sub> = Aufwand).
+
+thumb|Darstellung des Wirkungsgrads einer Glühlampe <!-- Glühbirne ist nicht korrekt --> in einem [[Sankey-Diagramm]]
+
+Die dabei entstehende Differenz von zugeführter und abgegebener Leistung bezeichnet man als Verluste oder genauer Verlustleistung.<br>
+Der Gütegrad beschreibt im Gegensatz dazu nur die inneren Verluste einer Maschine und fällt meistens erheblich besser aus. 
+
+Der Wirkungsgrad wird verwendet, um die Energiewandlungen, aber auch von Energieübertragungen zu beschreiben. Neben der allgemeinen Definition haben sich auch weitere Begriffe, wie beispielsweise Nutzungsgrad oder Arbeitszahl etabliert, die je nach Fachbereich bestimmte Randbedingungen und Besonderheiten des Energieflusses in den betrachteten Systemen berücksichtigen.
+
+Der Wirkungsgrad wird mit ''η'' (Eta) bezeichnet. Er ist eine dimensionslose Größe und hat einen Wert zwischen 0 und 1 oder, in Prozent ausgedrückt, zwischen 0 und 100&nbsp;%.
+:<math>
+\eta = \frac{P_\mathrm{ab}}{P_\mathrm{zu}}
+</math>
+
+''P''<sub>ab</sub> ist beispielsweise die Leistung, die ein Welle abgeben kann; ''P''<sub>zu</sub> ist die elektrische Leistung, die man dem Motor zuführen muss. <br>
+Die momentane aufgenommene oder abgebene Leistung kann unabhängig vom Wirkungsgrad sehr unterschiedlich sein, wenn Energieaufnahme und -abgabe zeitlich versetzt auftreten, etwa beim Auf- und Entladen eines Akkumulators, oder bei der Aufnahme solarer Energie durch Pflanzen und späterer Energiefreisetzung durch Verbrennen.
+
+Der Wirkungsgrad elektrischer Maschinen oder Vorrichtungen enthält folgende Verluste: mechanische, elektrische, Eisen- und Kupferverluste.
+
+== Wertebereich ==
+Der theoretisch mögliche Wertebereich geht von 0 bis 1 bzw. 0 bis 100&nbsp;%. Der höchste Wert (1 bzw. 100%) kann in der Praxis nicht erreicht werden, weil bei allen Vorgängen Energie durch Wärme oder Reibung in thermische Energie umgewandelt wird. Bei Wärmekraftmaschinen wird der Wirkungsgrad zusätzlich durch den Abgasverlust begrenzt.
+
+Ein Wirkungsgrad größer als 1 entspräche einem Perpetuum Mobile erster Art, was gegen den Energieerhaltungssatz verstößt. Vorrichtungen, die mehr Energie abgeben als sie aufnehmen oder gespeichert haben, sind nicht möglich.
+
+Bei Wärmekraftmaschinen ist als Carnot-Prozess der ideale Wirkungsgrad der Quotient aus der Differenz zwischen höchster Temperatur und niedrigster Temperatur und der höchsten Temperatur im gesamten Prozess. Die Temperatur ist dabei in Kelvin anzugeben.
+
+== Mechanischer Wirkungsgrad ==
+Der Mechanische Wirkungsgrad wird beispielsweise bei Lagern angegeben und ist Teil des Gesamtwirkungsgrades einer Anlage (z.B. Antriebstrang). Er berücksichtigt die Umwandlung eines Teils der mechanischen Eingangsleistung in Wärme. Dieses äußert sich in der Erwärmung der Bauteile. Verursacht wird dieser zumeist unerwünschte Energieabfluss durch Reibung.
+
+==Wärme-Wirkungsgrade==
+===Thermischer Wirkungsgrad/Prozesswirkungsgrad===
+Der '''thermische Wirkungsgrad''' gibt das Verhältnis von der gewonnenen technischen Leistung zum zugeführten Wärmestrom in einer Wärmekraftmaschine, z.&nbsp;B. einer Wärmepumpe an:
+:<math>
+\eta_\mathrm{th} = \frac{P_\mathrm{th}}{\dot{Q}}
+</math>
+
+mit <math>\eta_\mathrm{th} \,</math> als dem thermischen Wirkungsgrad, <math>P_\mathrm{th} \,</math> der gewonnenen technischen Leistung und <math>\dot{Q}</math> dem zugeführten Wärmestrom.
+
+Der thermische Wirkungsgrad wird als Bewertungsmaß für die Effektivität des Prozesses benutzt, daher wird er auch '''Prozesswirkungsgrad''' genannt.
+
+=== Feuerungstechnischer Wirkungsgrad ===
+Der '''feuerungstechnische Wirkungsgrad (FTW)''' gibt die Nutzung der aus der Verbrennung eines Wärmeverlust durch Abkühlung der Abgase auf Umgebungsluft. Eine Bewertung der energetischen Effizienz eines Wärmeerzeugers allein mit Hilfe des gemessenen Abgasverlustes ist möglich, wenn außer dem Abgasverlust nur marginale weitere Verluste vorhanden sind. Bis Ende des vorigen Jahrhunderts war diese Näherungsrechnung für Heizungsanlagen üblich, heute wird der Anlagenwirkungsgrad / Jahresnutzungsgrad betrachtet.
+
+Der FTW bestimmt sich aus der Differenz von 100&nbsp;% und dem Abgasverlust, der die im Abgas verbleibende Wärmemenge, bezogen auf die Temperatur der die Feuerstelle umgebenden Luft angibt. Eine Abkühlung unter die Temperatur der Umgebungsluft wird dabei als nicht möglich angesetzt.
+
+Der Abgasverlust ist von der Zusammensetzung des Abgases abhängig, vor allem dem Luftanteil, da in der Verbrennungswärme die Erwärmung der Verbrennungsluft auf die Flammtemperatur enthalten ist.
+
+Als 100-%-Wert wird traditionell der Heizwert (auch "unterer Heizwert" genannt) angesetzt, der definitionsgemäß die evtl. anfallende Kondensationswärme des Abgases nicht berücksichtigt. Aufgrund der in den letzten Jahren zugenommenen Verbreitung der Brennwerttechnik ist diese Betrachtungsweise jedoch nicht mehr zeitgemäß.
+
+Moderne Anlagen steigern den Wirkungsgrad durch Absenken der Abgastemperaturen und durch Rückgewinnung der Kondensationswärme von Wasserdampf und Kohlenwasserstoffen. Sie nutzen den korrosiven Angriffen durch die im kondensierten Wasser gelöste Verbrennungsrückständen ausgesetzt. Unter bestimmten Bedingungen bildet sich zudem Teer, der aufgefangen und in die Verbrennung zurückgeführt werden muss. Besser ist es deswegen so genannte LAS-Systeme einzusetzen.
+
+=== Kesselwirkungsgrad ===
+Der Kesselwirkungsgrad hK (%) ist das Verhältnis von Nennwärmeleistung in Prozent der Nennwärmebelastung bei einer Messung im konstanten Dauerbetrieb bei Nennwärmeleistung. Er berücksichtigt wie der FTW auch den Abgasverlust aber darüber hinaus auch den  Wärmeverlust an die Umgebung des Aufstellungsraumes.
+
+=== Isentroper Wirkungsgrad ===
+Der isentrope Wirkungsgrad wird meistens zur Beschreibung von Wärmekraftmaschinen benutzt.<br>
+Da thermische Energie nicht vollständig in andere Energieformen (z. B. Strom, mechanische Energie) umgewandelt werden kann, haben sich die Begriffe Anergie und Exergie entwickelt, die kennzeichnen, welcher Teil der thermischen Energie in Arbeit umgewandelt werden kann (Exergie) und welcher als thermische Energie verbleiben muss (Anergie). Es gilt damit
+
+thermische Energie = Anergie + Exergie
+
+und der Wirkungsgrad der realen  Wärmekraftmaschine ist immer kleiner oder gleich dem der idealen Wärmekraftmaschine:
+:<math>
+\qquad \eta = 1 - \frac{T_\mathrm{min}}{T_\mathrm{max}} = \frac{\mbox{Exergie}}{\mbox{thermische Energie}} \, 
+</math>,
+
+wobei die Wärmebäder, an denen die Wärmekraftmaschine angeschlossen ist, die Temperaturen
+<math> T_\mathrm{min}</math>  und <math>T_\mathrm{max}</math>  aufweisen.
+Der isentrope Wirkungsgrad benutzt diesen Vergleichsprozess um ihn mit dem realen Prozess zu vergleichen. 
+:<math>
+\eta_\mathrm{isentrop} = \frac{-P_\mathrm{Nutz}}{\mbox{Exergie}} \,
+</math>

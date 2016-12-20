@@ -1,0 +1,115 @@
+{{Infobox Commune de France|nomcommune=Cléville
+|image=Cléville_église.JPG
+|région=Basse-Normandie
+|département=Calvados
+|arrondissement=Caen
+|canton=Troarn
+|insee=14163
+|cp=14370
+|maire=Jean-Pierre Chauvel
+|mandat=2001-2008
+|intercomm=Communauté de communes<br /> Val ès dunes
+|longitude=-0.0913888888889
+|latitude=49.1566666667
+|alt moy=26 m
+|alt mini=2 m
+|alt maxi=43 m
+|hectares=853
+|km²=8,53
+|sans=269
+|date-sans=1999
+|dens=31|}}
+'''Cléville''' est une commune française, située dans le département du Calvados et la région Basse-Normandie.
+
+==Géographie==
+==Histoire==
+==Administration==
+
+| || mars 2001 ||Jean-Pierre Chauvel  ||align="center"| || 
+|-
+
+==Démographie==
+{{Démographie|
+1962= 189|
+1968= 223|
+1975= 215|
+1982= 242|
+1990= 298|
+1999= 269|
+sansdoublescomptes= 1962|source=INSEE<ref>[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=14163&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Cléville sur le site de l'Insee]</ref>}}
+
+==Lieux et monuments==
+==Personnalités liées à la commune==
+* Alexandre Martin (1910-1995) Résistant pendant la Seconde Guerre mondiale.
+* Jacques Perrin (1941-)  Acteur et producteur de cinéma français.
+
+==Voir aussi==
+* Communes du Calvados
+* Pays de Caen
+
+{{infobox Franse gemeente| <!--Cléville (Calvados)-->
+|plaatsnaam= Cléville
+|wapen= 
+|kaart= 
+ 	|regio= Laag-Normandië 
+|departement= Calvados (14)
+|arrondissement= Caen
+|kanton= Troarn
+|jaar= 2005
+|inwoners= 312
+|dichtheid= 36,7
+|oppervlakte= 8,5
+|water= 
+|latitudeGraden= 49 |latitudeMinuten= 9|latitudeSeconden= 0
+|longitudeGraden= 0 |longitudeMinuten= 6 |longitudeSeconden= 0
+|E of W=W |ol of wl=W.L.
+|kaartX= 105 |kaartY= 69
+|code= 14163
+|postcode= 14370
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Cléville''' is een gemeente in het Franse departement Calvados (regio Caen.
+
+==Geografie==
+De oppervlakte van Cléville bedraagt 8,5 km², de bevolkingsdichtheid is 36,7 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:420 color:gray1 width:1       
+  from:start till:end             
+  bar:280 color:gray1              
+  from:start till:end            
+  bar:140 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,124)(84,110) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 257 1968: 223
+  points:(84,110)(100,107)    color:blue    width:2 #1975: 215
+  points:(100,107)(128,118)   color:blue    width:2 #1982: 242
+  points:(128,118)(160,141)   color:blue    width:2 #1990: 298
+  points:(160,141)(196,129)   color:blue    width:2 #1999: 269
+  points:(196,129)(228,146)     color:blue    width:2 #2004/5 
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

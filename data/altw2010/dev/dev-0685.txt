@@ -1,0 +1,69 @@
+__NOTOC__
+
+=Current requests for approval=
+<!-- Add NEW entries at the TOP of this section. -->
+
+<!-- Add NEW entries at the TOP of this section.  The other top. -->
+
+=Requests to add a task to an already-approved bot=
+<!-- Add NEW entries here at the TOP of this section right BELOW this comment. -->
+
+<!-- Add NEW entries at the TOP of this section.  The other top. -->
+
+=Bots in a trial period=
+<!-- Add NEW trials here at the TOP of this section right BELOW this comment. -->
+
+<!-- Add NEW entries at the TOP of this section.  The other top. -->
+
+=Bots that have completed the trial period=
+<!-- Add New entries at the TOP of this section, when the trial is done, for further community comment on the trial. -->
+
+<!-- Add NEW entries at the TOP of this section.  The other top. -->
+
+=Denied requests=
+Bots that have been denied for operations will be listed here for informational purposes for at least 7 days before being archived.  No other action is required for these bots.  Older requests can be found in the Archive.<!--ND-->
+
+=Expired/withdrawn requests=
+These requests have expired, as information required by the operator was not provided.  These bots are ''not'' authorized to run, but such lack of authorization does not follow from a finding as to merit.  A bot that, having been approved for testing, was not tested by an editor, or one for which the results of testing were not posted, for example, would appear here.  Bot requests should not be placed here if there is an active discussion ongoing above.  Operators whose requests have expired may reactivate their requests at anytime.   The following list shows recent requests (if any) that have expired, listed here for informational purposes for at least 7 days before being archived. Older requests can be found in the Archive.
+<!--Place newest entries here at the top NE-->
+
+Halaman ini ditujukan sebagai tempat menaruh permintaan persetujuan status bot dari komunitas.
+
+''Put your request for bot status here''<br>
+''Run your bot for a couple of days before requesting bot status''<br>
+''Inactive bots will be revoked''<br>
+''Use this template below''
+
+<pre>
+==== ''botname'' ====
+* Responsible owner: ''ownername'' (''bot owner username on main Wikipedia'')
+* Bot functions:
+* Already used with bot status on:
+
+~~~~
+</pre>
+
+====Bot flag for StigBot ====
+I hereby request botflag on this wiki for my bot StigBot.
+*'''Owner’s account:''' Stigmj (talk)
+*'''Bot account:''' StigBot (contribs &bull; [http://toolserver.org/~vvv/sulutil.php?user=StigBot <span style="color:#002bb8">sul</span>] &bull; makebot )
+*'''Function:''' mainly interwiki, but can be used in user-namespace for adding userpages etc. on request from the affected users.
+*'''Software:''' Pywikipedia, updated from SVN before each run.
+*'''Other:''' Runs manually initiated automatic supervised and sometimes entirely manual. Already has bot flag on: als, ar, be-x-old, bpy, ca, cu, cs, da, de, en, eo, es, fr, fur, hu, it, mi, mk, nl, nn, oc, os, pl, pt, ro, ru, sco, simple, sv, udm and vo
+Best regards, Stigmj 10:29, 21 Juni 2008 (UTC)
+
+=====Setuju=====
+
+== Untuk birokrat ==
+'''Bagi birokrat''': gunakan halaman ini untuk menset suatu pengguna sebagai bot.
+
+== Lihat pula ==
+* Arsip permohonan status bot yang disetujui
+* Arsip permohonan status bot yang ditolak
+* Daftar bot secara otomatis
+
+ Permohonan
+
+<!-- previously  -->
+
+ba:Wikipedia:Бот тамғаһына ғаризалар

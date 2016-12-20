@@ -1,0 +1,76 @@
+{{Infobox Scientist
+|name              = 
+|box_width         =
+|image             =Replace_this_image_male.svg 
+|image_width       =150px
+|caption           = 
+|birth_date        = 28 August 1801
+|birth_place       = Gray, Haute-Saône
+|death_date        = 31 March 1877
+|death_place       = 
+|residence         = 
+|citizenship       = 
+|nationality       =  French
+|ethnicity         = 
+|field             = economy<br/>mathematics
+|work_institutions = 
+|alma_mater        = 
+|doctoral_advisor  = 
+|doctoral_students = 
+|known_for         = 
+|author_abbrev_bot = 
+|author_abbrev_zoo = 
+|influences        = 
+|influenced        = 
+|prizes            = 
+|religion          = 
+|footnotes         = 
+|signature         =
+}}
+
+'''Antoine Augustin Cournot''' (French economist, philosopher and mathematician. 
+
+Augustin Cournot was born in the small town of Gray (Haute-Saône).  He was educated in the schools of Gray until he was fifteen. Subsequently, for the next four years,  he worked haphazardly as a clerk in a lawyer's office.  Cournot directed his own studies throughout this time, mostly centered around philosophy and law.  Inspired by the work of Laplace, Cournot realised that he had to learn mathematics if he was to pursue his philosophical aspirations.  So, at the age of nineteen, he enrolled in a mathematical preparatory course at a school in Besançon.  He subsequently won entry into the École Normale Supérieure in Paris in 1821.     
+
+== Study and early career ==
+For political reasons, the ENS was closed down in 1822 and so Cournot transferred to the Joseph Droz. Among his main intellectual influences were Laplace, Joseph Louis Lagrange and Hachette, a former disciple of Condorcet, who imbibed in him the principles of mathematique sociale, i.e. the idea that the social sciences, like the natural, could be dealt with mathematically.  Cournot counted the young mathematician Lejeune Dirichlet as a close friend. 
+
+From 1823, Cournot was employed as a literary advisor to Marshal Gouvion Saint Cyr and a tutor to his son.  For the next ten years, Cournot would remain in Paris in this leisurely capacity, pursuing his studies and research in his own way.  In 1829 Cournot acquired a doctorate in sciences.  After Saint Cyr's death in 1830, Cournot took it upon himself to edit and publish the remaining volumes of his late employer's memoirs.   
+
+Cournot's thesis (his doctoral degree was in mathematics, with mechanics as his main thesis and a secondary one in astronomy) and a few of his articles brought him to the attention of the mathematician Siméon-Denis Poisson who urged him to return to academia.  Cournot refused at first but, after his engagement with the Saint Cyr family ended in 1833, he took up a temporary appointment at the Academy in Paris.  It was during this time that he translated William Herschel's ''Astronomy'' (1834) and Dionysius Lardner's ''Mechanics'' (1835). 
+
+In 1834, through the good offices of Poisson, Cournot found a permanent appointment as professor of analysis and mechanics at Lyon.   A year later, Poisson secured him a rectorship  at the Academy of Grenoble.  Although his duties were mostly administrative, Cournot excelled at them.  In 1838, (again, at the instigation of the loyal Poisson), Cournot was called to Paris as Inspecteur Général des Études.  In that same year, he was made a Knight of the Légion d'honneur (he was elevated to an Officer in 1845). 
+
+== The ''Recherches'' (1838) ==
+It was in this year that Cournot published his economics masterpiece, the Recherches (1838). Cournot begins with some preliminary remarks on the role of mathematics applied to the social sciences.  His announces that his purpose in using mathematics is merely to guide his reasoning and illustrate his argument rather than lead to any numerical calculations.  He acknowledges (and disparages) Nicolas-François Canard (French mathematician, who published his ''Principes d'économie politique'' in 1801) as his only predecessor.   
+
+In his first three chapters, he runs through the definition of wealth, absolute vs. relative prices and the law of one price.  Then, in Chapter 4, he unveils his demand function. He writes it in general form as D = F(p).  He assumes that F(.) is continuous and takes it as an empirical proposition that the demand function is downward-sloping (the loi de débit, "elasticity", but does not write it down in a mathematical formula. 
+
+It is important to note that Cournot's "demand function" is not a demand schedule in the modern sense.  His curve, D = F(p) merely summarizes the empirical relationship between price and quantity sold, rather than the conceptual relationship between price and the quantity sought by buyers. Cournot refuses to derive demand from any "utility"-based theories of individual behavior.  He asserts that the "accessory ideas of utility, scarcity, and suitability to the needs and enjoyments of mankind. ..are variable and by nature indeterminate, and consequently ill suited for the foundation of a scientific theory" (Cournot, 1838: p.10).  He satisfies himself with merely acknowledging that the functional form of F(.) depends on "the utility of the article, the nature of the services it can render or the enjoyments it can procure, on the habits and customs of the people, on the average wealth, and on the scale on which wealth is distributed." (1838: p.47). 
+
+In Chapter 5, Cournot jumps immediately into an analysis of monopoly.  Here, the concept of a profit-maximizing producer is introduced.  Cournot introduces the cost function  f(D) and discusses decreasing, constant and increasing costs to scale.  He shows mathematically how a producer will choose to produce at a quantity where marginal revenue is equal to marginal cost (he re-expresses marginal cost as a function of price in its own right, f'(D(p)) = y(p)).  In Chapter 6, he examines the impact of various forms of taxes and bounties on price and quantity produced, as well as their impact on the income of  producers and consumers.    
+
+In Chapter 7, Cournot presents his famous "duopoly" model.  He sets up a mathematical model with two rival producers of a homogeneous product.  Each producer is conscious that his rival's quantity decision will also impact the price he faces and thus his profits.  Consequently, each producer chooses a quantity that maximizes his profits subject to the quantity reactions of his rival.   Cournot mathematically derives a deterministic solution as the quantities chosen by the rival producers are in accordance with each other's anticipated reactions.  Cournot showed how this equilibrium can be drawn as the intersection of two "reaction curves".  He depicts a stable and an unstable equilibrium in Figures 2 and 3 respectively.  
+
+Comparing solutions, Cournot notes that under duopoly, the price is lower and the total quantity produced greater than under monopoly. He runs with this insight, showing that as the number of producers increases, the quantity becomes greater and the price lower.   In Chapter 8, he introduces the case of unlimited competition, i.e. where the quantity of producers is so great that the entry or departure of an individual producer has a negligible effect on the total quantity produced.  He goes on to derive the prices and quantities in this "perfectly competitive" situation, in particular showing that, at the solution, price is equal to marginal cost.  
+
+In the remainder of his book, Cournot takes up what he calls the "communication of markets", or trade of a single good between regions.  In Ch. 10, he analyzes two isolated countries and one homogeneous product.  He shows that the impact of opening trade between the two countries leads to the equalization of prices, with the lower cost producer exporting to the higher cost country.  Cournot tries to prove that there are conditions where the opening of trade will lead to a decline in the quantity of the good and lower revenue.  He then proceeds to discuss the impact of import and export taxes and subsidies (and algebraic error here was spotted later by Edgeworth (1894)) .  On account of this, Cournot raises doubts in Chapter 12 about the "gains from trade" and defends the profitability of import duties.   
+
+Finally, Cournot also acknowledges that the solutions obtained via his "partial equilibrium" method are incomplete.  He recognizes the need to take multiple markets into account and trying to solve for the general equilibrium, but "this would surpass the powers of mathematical analysis" (Cournot, 1838: p.127).  
+
+Cournot's 1838 work received hardly any response when it came out.  The denizens of the French Liberal School, who dominated the economics profession in France at the time, took no notice of it, leaving Cournot crushed and bitter.  In 1839, plagued by ill-health, Poisson asked Cournot to represent him at the concours d'agrégation de mathématiques at the Conseil Royal.  After Poisson died in 1840, Cournot continued on at the Conseil as a deputy to Poisson's successor, the mathematician Louis Poinsot.
+
+== Further scientific work ==
+In 1841, Cournot published his lecture notes on analysis from Lyon, dedicating the resulting Traité to Possion.  In 1843, he made his first stab at probability theory in his Exposition.  He differentiated between three types of probabilities: objective, subjective and philosophical.  The former two follow their standard ontological  and epistemological definitions.  The third category refers to probabilities "which depend mainly on the idea that we have of the simplicity of the laws of nature." (1843: p.440).  
+
+After the 1848 Revolution, Cournot was appointed to the Commission des Hautes Études.  It was during this time that he wrote his first treatise on the philosophy of science (1851).  In 1854, he became rector of the Academy at Dijon.  However, Cournot's lifelong eye-sight problem began getting worse.   Cournot retired from teaching in 1862 and moved back to Paris. 
+
+'''Антуа́н Огю́ст Курно́''' (; французский экономист, философ и математик.
+
+Родился в Гре 28 августа 1801. Учился в лицее в Безансоне, в 1821 поступил в Высшую педагогическую школу, в 1823 получил степень лиценциата в области науки, в 1827 – в области права.
+
+Родоначальник математического направления в политической экономии, учился в нормальной школе, был ректором академии в Гренобле, затем в Эйлера (Париж, 1842).
+
+Главным вкладом Курно в экономическую науку является ''Исследование математических принципов теории богатства'' (1838).
+
+Курно применял свой математический метод лишь к тем экономическим явлениям, которые допускают возможность непосредственного количественного определения, а именно к ценам и доходам. Он составляет кривую спроса, с количествами в виде ординат и ценами в виде абсцисс, определяет цену, при которой обороты достигают максимума, и специально изучает случай монополии, он исследует влияние налогов на товары, производимые монополистически, конкуренцию производителей на рынке, совокупное действие последних на различных ступенях изготовления товара, образование общественного дохода и изменение его международным взаимодействием рынков. Случай, над теорией которого он работал в других своих сочинениях, представляется ему своего рода положительным элементом в явлениях, возникающих от совместного существования многих независимых друг от друга рядов причин.

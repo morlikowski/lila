@@ -1,0 +1,34 @@
+thumb|right|300px|现代通风柜
+
+'''通风柜'''，又稱'''煙櫥'''或'''通風櫥'''，是實驗室，特别是化学實驗室的一种大型设备。用途是减少实验者和有害气体的接触。完全隔绝则需要使用手套箱。
+
+==结构和使用==
+舊式通風櫃多用木材製成，但现代多为涂有环氧树脂的钢材制造。常见柜宽为1000、1200、1500、1800和2000毫米几个规格，深700-900毫米，高1900-2400毫米。可供1-3个人同时使用。 通风柜一般靠墙安装。
+
+前方中间为可上下移动的透明门（多为玻璃），开启高度一般为100-600毫米。门后为实验进行的工作面，有水管、下水道、电源、真空泵、气路管线等实验需要的连接，上有带保护罩的灯照明。空气由柜内前上方的排风扇抽走后，或经管道引到别处（称为全通风），或经过滤重新循环使用（成为无管通风）。
+
+多数通风柜在（1）排气量过小（2）前方玻璃门开启过大的时候会发出警报，提醒操作者注意。内部的排风扇速度和灯都有开关可调。
+
+使用的时候人站或坐于柜前，将玻璃门尽量放低，手通过门下伸进柜内进行实验。由于排风扇通过开启的门向内抽气，在正常情况下有害气体不会大量溢出。
+
+thumb|right|300px|une sorbonne
+Une '''hotte de laboratoire''' est un dispositif qui permet l'extraction des vapeurs toxiques des produits utilisés lors de manipulations. Sa fonction première est de protéger le manipulateur et l'environnement. Les vapeurs doivent rester confinées dans le volume de travail.
+
+Il existe 2 types de hottes de laboratoire.
+
+- '''Les hottes à filtration sur charbons actifs''' (Norme ETRAF), sans raccordement sur l'extérieur, donc à recyclage permanent dans le local de travail. Celles-ci fonctionnent sur le principe de l'adsorption chimique.
+
+'''''Leurs limites''''' : la spécificité des filtres et leur saturation.
+
+- '''Les hottes et sorbonnes à extraction vers l'extérieur'''.
+Le choix se fait selon la '''VME''' ('''V'''aleur '''M'''oyenne d''''E'''xposition) du produit le plus toxique utilisé
+''(Les VME des produits chimiques peuvent être consultées sur le site Internet de l'INRS)''. 
+
+'''''VME supérieure à 400 ppm''''' : Hotte d'aspiration, sans registre ni glace frontale.
+
+'''''VME comprise entre 1 et 400 ppm''''' : Sorbonne de laboratoire.
+
+'''''VME inférieure à 1 ppm''''' : Système clos et étanche type boîte à gants.
+
+Une hotte ou sorbonne de laboratoire (sauf à filtre CA) doit être équipée d'un extracteur (ventilateur) aspirant les vapeurs pour les rejeter à l'extérieur.
+La norme '''''NF EN 14 175''''' impose, pour les sorbonnes, des contraintes bien précises sur les vitesses d'air en façade (entre 0,4 et 0,6 m/s) ainsi que des débits minimum.

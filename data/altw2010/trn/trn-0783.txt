@@ -1,0 +1,65 @@
+"'''What the Tortoise Said to Achilles'''" is a brief dialogue by alludes to one of Zeno's paradoxes of motion, in which Achilles could never overtake the tortoise in a race. In Carroll's dialogue, the tortoise challenges Achilles to use the force of logic to make him accept the conclusion of a simple deductive argument. Ultimately, Achilles fails, because the clever tortoise leads him into an infinite regression.
+
+== Summary of the dialogue ==
+The discussion begins by considering the following logical argument:
+* ''A'': "Things that are equal to the same are equal to each other" (transitive property)
+* ''B'': "The two sides of this triangle are things that are equal to the same"
+* Therefore ''Z'': "The two sides of this triangle are equal to each other"
+
+The Tortoise asks Achilles whether the conclusion logically follows from the premises, and Achilles grants that it obviously does. The Tortoise then asks Achilles whether there might be a reader of Euclid who grants that the argument is ''logically valid'', as a ''sequence'', while denying that ''A'' and ''B'' are true. Achilles accepts that such a reader might exist, and that he would hold that ''if'' ''A'' and ''B'' are true, ''then'' ''Z'' must be true, while not yet accepting that ''A'' and ''B'' ''are'' true.
+
+The Tortoise then asks Achilles whether a second kind of reader might exist, who accepts that ''A'' and ''B'' ''are'' true, but who does ''not'' yet accept the principle that ''if'' ''A'' and ''B'' are both true, ''then'' ''Z'' must be true. Achilles grants the Tortoise that this second kind of reader might also exist. The Tortoise, then, asks Achilles to treat him as a reader of this second kind, and then to logically compel him to accept that ''Z'' must be true.
+
+After writing down ''A'', ''B'' and ''Z'' in his notebook, Achilles asks the Tortoise to accept the hypothetical:
+* ''C'': "If ''A'' and ''B'' are true, ''Z'' must be true"
+
+The Tortoise agrees to accept ''C'', if Achilles will write down what he has to accept in his note-book, making the new argument:
+* ''A'': "Things that are equal to the same are equal to each other"
+* ''B'': "The two sides of this triangle are things that are equal to the same"
+* ''C'': "If ''A'' and ''B'' are true, ''Z'' must be true"
+* Therefore ''Z'': "The two sides of this triangle are equal to each other"
+
+But now that the Tortoise accepts premise ''C'', he still refuses to accept the expanded argument. When Achilles demands that "If you accept ''A'' and ''B'' and ''C'', you must accept ''Z''," the Tortoise remarks that that's ''another'' hypothetical proposition, and suggests even if he accepts ''C'', he could still fail to conclude ''Z'' if he did not see the truth of:
+* ''D'': "If ''A'' and ''B'' and ''C'' are true, ''Z'' must be true"
+
+The Tortoise continues to accept each hypothetical premise once Achilles writes it down, but denies that the conclusion necessarily follows, since each time he denies the hypothetical that if all the premises written down so far are true, ''Z'' must be true:
+: "And at last we've got to the end of this ideal race-course! Now that you accept ''A'' and ''B'' and ''C'' and ''D'', ''of course'' you accept ''Z''."
+:
+: "Do I?" said the Tortoise innocently. "Let's make that quite clear. I accept ''A'' and ''B'' and ''C'' and ''D''. Suppose I ''still'' refused to accept ''Z''?"
+:
+: "Then Logic would take you by the throat, and ''force'' you to do it!" Achilles triumphantly replied. "Logic would tell you, 'You can't help yourself. Now that you've accepted ''A'' and ''B'' and ''C'' and ''D'', you must accept ''Z''!' So you've no choice, you see."
+:
+: "Whatever Logic is good enough to tell me is worth ''writing down''," said the Tortoise. "So enter it in your note-book, please. We will call it
+:: (''E'') If ''A'' and ''B'' and ''C'' and ''D'' are true, ''Z'' must be true. 
+
+:Until I've granted that, of course I needn't grant ''Z''. So it's quite a necessary step, you see?"
+:
+: "I see," said Achilles; and there was a touch of sadness in his tone.
+
+Thus, the list of premises continues to grow without end, leaving the argument always in the form:
+* (1): "Things that are equal to the same are equal to each other"
+* (2): "The two sides of this triangle are things that are equal to the same"
+* (3): (1) and (2) ⇒ (Z)
+* (4): (1) and (2) and (3) ⇒ (Z)
+* …
+* (''n''): (1) and (2) and (3) and (4) and ... and (''n'' − 1) ⇒ (''Z'')
+* Therefore (''Z''): "The two sides of this triangle are equal to each other"
+
+Les '''paradoxes de Zénon''' forment un ensemble de paradoxes imaginés par Zénon d'Élée pour soutenir la doctrine de Parménide, selon laquelle toute évidence des sens est fallacieuse, et le mouvement est impossible. 
+
+Plusieurs des huit paradoxes de Zénon ont traversé le temps (rapportés par Aristote dans la ''Physique'' et par Simplicius de Cilicie dans un commentaire à ce sujet) et sont fondamentalement équivalents l'un à l'autre. Certains ont été considérés, même dans des périodes antiques, comme très faciles à réfuter. Trois des plus célèbres et difficiles sont le paradoxe d'''Achille et la tortue'', celui de la ''pierre lancée vers un arbre'', et celui d'une ''flèche en vol''.
+
+Les paradoxes de Zénon représentaient un problème important pour les philosophes antiques et médiévaux, qui n'ont trouvé aucune solution satisfaisante jusqu'au , avec le développement en suites infinies et de l'analyse.
+
+== Les paradoxes de Zénon d'Élée ==
+
+===Achille et la tortue===
+
+Dans le paradoxe d'Achille et de la tortue, il est dit qu'un jour, le héros grec Achille a disputé une course à pied avec le lent reptile. Comme Achille était réputé être un coureur très rapide, il avait accordé gracieusement à la tortue une avance de cent&nbsp;mètres. Zénon affirme alors que le rapide Achille n'a jamais pu rattraper la tortue. « En effet, supposons pour simplifier le raisonnement que chaque concurrent coure à vitesse constante, l'un très rapidement, et l'autre très lentement ; au bout d'un certain temps, Achille aura comblé ses cent&nbsp;mètres de retard et atteint le point de départ de la tortue ; mais pendant ce temps, la tortue aura parcouru une certaine distance, certes beaucoup plus courte, mais non nulle, disons un mètre. Cela demandera alors à Achille un temps supplémentaire pour parcourir cette distance, pendant lequel la tortue avancera encore plus loin ; et puis une autre durée avant d'atteindre ce troisième point, alors que la tortue aura encore progressé. Ainsi, toutes les fois où Achille atteint l'endroit où la tortue se trouvait, elle se retrouve encore plus loin. Par conséquent, le rapide Achille n'a jamais pu et ne pourra jamais rattraper la tortue ».
+« Depuis le Ve siècle avant J.-C., écrivent Philippe Boulanger et Alain Cohen dans <i>Le Trésor des Paradoxes</i> (Éd. Belin, 2007), ce paradoxe du mouvement a stimulé les réflexions des mathématiciens, entre autres Galilée, Cauchy, Cantor, Carroll et Russell ». Pour Bergson, « Les philosophes l'ont réfuté de bien des manières et si différentes que chacune de ces réfutations enlève aux autres le droit de se croire définitive ». Une interprétation moderne des paradoxes de Zénon repose sur l'analyse non standard développée par Abraham Robinson.
+
+===La pierre lancée vers un arbre===
+
+:''Ce paradoxe est similaire au paradoxe d'Achille et de la tortue.''
+
+Le paradoxe suivant, celui de la pierre lancée vers un arbre, est une variante du précédent. Zénon se tient à huit&nbsp;mètres d'un arbre, tenant une pierre. Il lance sa pierre dans la direction de l'arbre. Avant que le caillou puisse atteindre l'arbre, il doit traverser la première moitié des huit&nbsp;mètres. Il faut un certain temps, non nul, à cette pierre pour se déplacer sur cette distance. Ensuite, il lui reste encore quatre&nbsp;mètres à parcourir, dont elle accomplit d'abord la moitié, deux&nbsp;mètres, ce qui lui prend un certain temps. Puis la pierre avance d'un mètre de plus, progresse après d'un demi-mètre et encore d'un quart, et ainsi de suite ''ad infinitum'' et à chaque fois avec un temps non nul. Zénon en conclut que la pierre ne pourra frapper l'arbre qu'au bout d'un temps infini, c'est-à-dire jamais. 

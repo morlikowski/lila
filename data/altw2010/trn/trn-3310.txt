@@ -1,0 +1,76 @@
+<noinclude>
+<!-- هذه بيانات القالب ، لتعديل المقالة الرجاء الذهاب إلى أسفل الصفحة -->
+</noinclude>{| class="toccolours" border="1" style="float: left; clear: right; margin: 0 0 1em 1em; border-collapse: collapse;"
+!  |  <!-- replace if not identical with the article name -->
+|-
+!  | معلومات عامة
+|- 
+| الاسم النظامي
+| أكسيد سكانديوم ثلاثي <!-- e.g. Iron(II) chloride -->
+|-
+| أسماء أخرى
+| ? <!-- e.g. Ferrous chloride etc, + linked mineral names -->
+|-
+| الصيغة الجزيئية
+| Sc<sub>2</sub>O<sub>3</sub> <!-- e.g. Na<sub>2</sub>CO<sub>3</sub> -->
+|-
+| رقم CAS
+| [12060-08-1]
+|-
+!  | الخواص
+|-
+| الكتلة المولية
+| 137.91  غ/مول
+|-
+| المظهر
+| مسحوق أبيض <!-- مثلاً بلورات بيضاء ، عديمة اللون ، صفراء ، مسحوق بلوري أبيض ، سائل عديم اللون ، شغوف للرطوبة -->
+|-
+| الكثافة
+| 3.86  غ/سم<sup>3</sup> <!-- سائل .. غ/مل ، صلب.. غ/سم<sup>3</sup> -->
+|-
+| الانحلالية في الماء
+| ? غ/100 مل ماء عند ؟؟ °س <!-- غ/100 مل ماء عند ؟؟ °س ، غير منحل ، يتفاعل مع الماء ، يمتزج مع الماء-->
+|-
+<!-- | Other solvents e.g. ethanol, acetone -->
+<!-- | solubility info on other solvents -->
+<!-- |- -->
+| الانحلالية في المحلات الأخرى
+| ?  <!-- g/100 ml (?°C) <!--   ، غير منحل في ، at least put miscible with, not soluble in -->
+|-
+| درجة الانصهار
+| ? °س  <!-- يتفكك ، °C (? K) <!-- (mention any decomposition) -->
+|-
+| درجة الغليان
+| ? °س  <!--°C (? K)-->
+|-
+|  | <small> في حال عدم ذكر الشروط فإن 
+البيانات الواردة أعلاه مقاسة في الشروط النظامية 
+
+ومدونة حسب النظام الدولي للوحدات </small>
+|-
+|}
+
+{{Infobox Chemikalie
+  | Strukturformel      = 
+  | Andere Namen        = Scandium(III)-oxid, Scandiumsesquioxid
+  | Summenformel        = Sc<sub>2</sub>O<sub>3</sub>
+  | CAS                 = 12060-08-1
+  | Beschreibung        = farbloses, kristallines Pulver
+  | Molare Masse        = 137,91 g·mol<sup>−1</sup>
+  | Aggregat            = fest
+  | Dichte              = 3,86 g·cm<sup>−3</sup><ref name="GESTIS"/>
+  | Schmelzpunkt        = 2485 °C<ref name="GESTIS"/>
+  | Siedepunkt          = 
+  | Dampfdruck          = 
+  | Löslichkeit         = sehr schlecht in Wasser<ref name="GESTIS"/>, löslich in heißen oder konz. Säuren
+  | Quelle GefStKz      =<ref name="GESTIS"></ref>
+  | Gefahrensymbole     = 
+  | R                   = 
+  | S                   = 
+  | MAK                 = 
+  | WKG                 =''nicht wassergefährdend''<ref name="GESTIS"/>
+}}
+'''Scandiumoxid''' Sc<sub>2</sub>O<sub>3</sub> ist das Verbrennungsprodukt von elementarem Scandium an Luft. Es entsteht bei der Oxidation von Scandium zu Sc<sup>3+</sup> bei 800&nbsp;°C oder durch Glühen von Scandiumsalzen. Es ist ein farbloses Pulver mit einem Schmelzpunkt von 2485&nbsp;°C.
+
+== Verwendung ==
+Verwendet wird Scandiumoxid zur Dotierung von Magnetspeichern in der Computerindustrie. Dabei wird die Ummagnetisierung beschleunigt und somit die Rechenleistung erhöht. Es stellt das Ausgangsprodukt zur Herstellung des Metalles Scandium dar. Es wird hierbei in das Fluorid ScF<sub>3</sub> überführt und dann mittels Calcium zum Metall reduziert.

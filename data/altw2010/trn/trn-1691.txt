@@ -1,0 +1,136 @@
+thumb|Seks forskjellige motstander. Motstander er ofte merket med en fargekode som viser deres resistans.
+
+: ''Ordet «motstand» brukes også om den elektriske egenskapen resistans.''
+
+En '''motstand''' (engelsk ''resistor'') er en topolet elektrisk eller  komponent. Motstander kan være '''lineære''' eller '''ulineære'''.
+
+En '''lineær motstand''' karakteriseres hovedsakelig av to verdier; motstandsverdien og tillatt maksimalt effektforbruk. I tillegg oppgis for det meste hvor nøyaktig den oppgitte motstandsverdien er. Lineære motstander følger Ohms lov ved at motstandsverdien er uavhengig av påtrykt strøm eller spenning. Motstandsverdien i Ohm er definert som forholdet mellom spenningen i Volt over motstanden og strømmen i Ampere gjennom den. Produktet av spenningen og strømmen er effekten i Watt som tilføres motstanden som komponent.
+*Motstandsverdien oppgis i Ohm
+*Effektverdien oppgis i Watt
+*Nøyaktigheten oppgis i %
+
+En '''ulineær motstand''' endrer motstandsverdien sin som funksjon av påtrykt spenning eller strøm.
+
+Det finnes også motstander som endrer sin verdi etter en eller annen miljøfaktor som temperatur, fuktighet eller lufttrykk. Disse er oftest linjære.
+
+Motstander genererer '''elektrisk støy''', sammensatt av termisk støy og overskudds-støy (eng. excess noise). Den termiske støyen er forutsigelig og uunngåelig og er gitt av motstandsverdien, temperaturen og båndbredden som vi betrakter. Overskudds-støyen er unngåelig og er avhengig av anvendte materialer og fysisk oppbygning.
+
+== Bruksområder ==
+Motstanden er en meget hyppig brukt komponent. Den benyttes blant annet til følgende:
+
+* '''Omvandler''': Forandrer et strømsignal til et spenningssignal eller omvendt.
+* '''Strømbegrensning''': Benyttes serielt på inn- og utganger av elektroniske kretser for å beskytte henholdsvis bakenfor og foranliggende komponenter mot for store strømverdier.
+* '''Spenningsdeling''': Dersom to motstander kobles i serie vil spenningen fordele seg over motstandene i samme forhold som motstandsverdiene har til hverandre. En gitt innspenning vil dermed definere en gitt utspenning.
+* '''Impedans-tilpasning''': Motstander plasseres ofte på enden av en SCSI-busser
+* '''Avlede ladninger'''. Belaste en kretsdel for å være sikker på at den tømmes for energi når forsyningen skrus av. (eng. bleeder = bløder)
+* '''Varme-element''': Varme-elementer er elektriske motstander. Motstandens verdi definerer da effekten den avgir, sammen med påtrykt spenning eller strøm.
+* '''Glødelampe''': Glødelamper oppfører seg i praksis som høyst ulinjære elektriske motstander. Motstandens verdi endrer seg sterkt med glødetrådens temperatur, altså med påtrykket. (Likevel bryter glødetråden ikke Ohms lov, da loven forutsetter konstant temperatur.)
+
+== Praktiske motstandsverdier ==
+
+Siden det bør være likevektige sprang mellom motstandsverdiene som kan hentes fra en serie, blir verdiene logaritmisk fordelt.
+<br>Den groveste serien som er i praktisk bruk har 6 verdier i en dekade. En slik serie kalles E6.
+<br>Den vanligste serien er E12, som altså har 12 verdier i dekaden. Verdiene for E12-serien er:
+*10
+*12
+*15
+*18
+*22
+*27
+*33
+*39
+*47
+*56
+*68
+*82
+*(100) (neste dekade)
+Mere nøyaktige serier er E24, E48, E96 osv.
+<br>Faktoren mellom hver verdi i E12-serien blir
+:<math>\ f = 10^{(1/12)}</math>
+
+== EIA-96-markering ==
+
+Moderne smd-motstander (surface mount devices) blir gjerne fremstilt i E96 serier. De er kun millimeterstore og tillater vanskelig nok trykking av mange sifre på komponenten. De er derfor blitt gjenstand for en såkalt EIA-96 markering. Denne består av nummeret i E96-rekka (01, 02, 03...40, 41, 42....94, 95, 96) fulgt av en multiplikatorbokstav. Selve verdien må dessverre leses ut av en tabell eller beregnes. Multiplikatorbokstavene er
+*Y: *0.01
+*X: *0.1
+*A: *1
+*B: *10
+*C: *100
+*D: *1000
+*E: *10 000
+*F: *100 000
+Eksempel: 47C. Nummeret 47 har verdien 301 i tabellen og C er 100. Motstandsverdien er derfor 30.1 kOhm.
+
+Beregning av tallverdien fra EIA-96 markeringen gjøres med formelen nedenfor.<br>r er tallet før multiplikatoren anvendes.
+:<math>\ r = 100 \cdot 10^{((N-1)/96)}</math>
+Brukt på nummeret N = 47 får vi verdien 301.4162 som avrundes til 301.
+
+thumb|Symbolen för resistor
+thumb|260px|En resistor
+
+En '''resistor''', även kallad '''motstånd''', är en spolar och memristorer). Det är den vanligast förekommande komponenten i elektriska kretsar. Konstruktionen består av en oftast isolerad kropp med anslutningar, där innehållet är ett motståndselement, tillverkat av ett material med känd resistivitet (''&rho;''), i form av en stav, ett rör, folie, ytskikt eller tråd med viss längd (''l'') och area (''A''). Detta beskrivs enligt formeln
+:<math>R = \rho\cdot\frac{l}{A}</math>
+Enheten för resistans är ohm (&Omega;).
+
+Motstånd som är oberoende av ström, spänning och yttre faktorer, till exempel temperatur eller ljus, kallas för "linjära motstånd" eller bara "motstånd". Om resistansen varierar med ström, spänning eller yttre faktorer benämns komponenten för "olinjärt motstånd", eller med ett namn som anger vad motståndet är beroende av.
+
+==Märkningsschema för resistorer==
+
+Linjära motstånd kännetecknas av dess märkningsschema, som på större motstånd indikeras med färgringar enligt följande tabell:
+
+{| class="wikitable"
+!Färg!!Första bandet!!Andra bandet!!Tredje bandet<br>(multiplkator)!!Fjärde bandet<br>(tolerans)!!Temp. Koefficient
+|- bgcolor = "#000000"
+|<font color = "#FFFFFF">Svart</font>||<font color = "#FFFFFF">0</font>||<font color = "#FFFFFF">0</font>||<font color = "#FFFFFF">&times;10<sup>0</sup></font>||&nbsp;||&nbsp;
+|- bgcolor = "#B8860B"
+|Brun ||1||1||&times;10<sup>1</sup>||±1% (F)   ||100 ppm
+|- bgcolor = "#FF0000" 
+|Röd   ||2||2||&times;10<sup>2</sup>||±2% (G)   ||50 ppm
+|- bgcolor = "#FFA500" 
+|Orange||3||3||&times;10<sup>3</sup>||&nbsp;||15 ppm
+|- bgcolor = "#FFFF00" 
+|Gul||4||4||&times;10<sup>4</sup>||&nbsp;           ||25 ppm
+|- bgcolor = "#9ACD32" 
+|Grön ||5||5||&times;10<sup>5</sup>||±0.5% (D) ||&nbsp;
+|- bgcolor = "#6495ED" 
+|Blå  ||6||6||&times;10<sup>6</sup>||±0.25% (C)||&nbsp;
+|- bgcolor = "#EE82EE" 
+|Violett||7||7||&times;10<sup>7</sup>||±0.1% (B) ||&nbsp;
+|- bgcolor = "#A0A0A0" 
+|Grå  ||8||8||&times;10<sup>8</sup>||±0.05% (A)||&nbsp;
+|- bgcolor = "#FFFFFF" 
+|Vit ||9||9||&times;10<sup>9</sup>||&nbsp;           ||&nbsp;
+|- bgcolor = "#FFD700" 
+|Guld  ||&nbsp;||&nbsp;||&times;10<sup>-1</sup>           ||±5% (J)   ||&nbsp;
+|- bgcolor = "#C0C0C0" 
+|Silver||&nbsp;||&nbsp;||&times;10<sup>-2</sup>          ||±10% (K)  ||&nbsp;
+|-
+|Ingen      ||&nbsp;||&nbsp;||&nbsp;           ||±20% (M)  ||&nbsp;
+|}
+
+Den signal som transporteras genom motståndet utsätts för distorsion. Såväl termiskt och strömbrus som dess spänningsberoende förorsakar störningar som i vissa applikationer behöver iakttas. 
+
+Signalöverföring är även frekvensberoende och därför talar man ofta istället
+om växelströmsmotstånd, eller impedans. För en vanlig tråd är den karaktäristiska impedansen:
+
+<math>Z_0 = \sqrt{L/C}</math>
+
+Lägger man förutom induktansen ''L'' och kapacitansen ''C'' därtill resistansen ''R''
+så blir ''Z'' ett imaginärt tal som även är beroende av frekvensen ''f''.
+Vill man komplicera det ytterligare går det jättebra eftersom några 
+riktigt linjära motstånd inte existerar i verkligheten.
+Och om man vill förenkla det hela kan man kyla ner motståndet mot noll
+kelvin, där vissa ämnen upphör att ge något elektriskt motstånd (supraledning). Dock gäller detta inte alla ämnen; till exempel koppar uppvisar aldrig supraledning.
+
+Det finns olika utföranden av motstånd:
+* Kolkompositmotstånd
+* Kolytskiktsmotstånd
+* Metallfilmsmotstånd
+* Tjockfilmsmotstånd
+* Tunnfilmsmotstånd
+* Metalloxidmotstånd
+* Motståndsnät
+* Trådlindade motstånd
+* Termistor (temperaturberoende motstånd, NTC och PTC)
+* Varistorn (icke-linjära, spänningsberoende motstånd)
+* Fotomotstånd (ljusberoende motstånd)

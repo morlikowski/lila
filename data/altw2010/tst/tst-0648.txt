@@ -1,0 +1,100 @@
+{{Infobox programming language
+|name = QBasic
+|logo = 300px|The opening screen of QBasic.
+|paradigm = 
+|year = 1991 - 2000
+|designer = 
+|developer = Microsoft Corporation
+|latest_release_version = 
+|latest_release_date = 
+|typing = 
+|implementations = 
+|dialects = 
+|influenced_by = QuickBASIC, GW-BASIC 
+|influenced =
+|current version = 
+|operating_system = MS-DOS, Windows 95, Windows 98, Windows Me, PC-DOS, OS/2, eComStation
+|license = MS-EULA
+|website = [http://www.microsoft.com/ www.microsoft.com]
+}}
+
+'''QBasic''' is an IDE and interpreter for a variant of the BASIC programming language which is based on QuickBasic. Code entered into the IDE is compiled to an intermediate form, and this intermediate form is immediately interpreted on demand within the IDE.<ref name="GBvsQB"/> It can run under nearly all versions of DOS and Windows, or through DOSBox, on Linux and FreeBSD.<ref></ref> For its time, QBasic provided a state-of-the-art IDE, including a debugger with features such as on-the-fly expression evaluation and code modification that were still relatively unusual more than ten years later.
+
+Like QuickBASIC, but unlike earlier versions of Microsoft BASIC, QBasic is a structured programming language, supporting constructs such as subroutines and while loops.<ref></ref><ref></ref>  Line numbers, a concept often associated with BASIC, are supported for compatibility, but are not considered good form, having been replaced by descriptive line labels.<ref name="GBvsQB"></ref> QBasic has limited support for user-defined data types (structures), and several primitive types used to contain strings of text or numeric data.<ref></ref><ref></ref>
+
+==History==
+QBasic was intended as a replacement for QuickBASIC 4.5 compiler but without QuickBASIC's compiler and linker elements.  Version 1.0 was shipped together with Windows NT 3.x, and PC-DOS 5.x, as well as OS/2 2.0 onwards.<ref name="name"></ref> eComStation, descended from OS/2 code, includes QBasic 1.0. QBasic 1.1 is included with MS-DOS 6.x, and, without EDIT, in Windows 95, Windows 98 and Windows Me. Starting with Windows 2000, Microsoft no longer includes QBasic with their operating systems.<ref></ref> (Although, some localized versions of Windows 2000 and Windows XP still have it.)
+
+QBasic (as well as the built-in 8088/8086 computers, or on some 80286 computers, the QBasic program may run very slowly, or perhaps not at all, due to its memory size. Until MS-DOS 7, MS-DOS Editor required QBasic. The "edit.com" program simply started QBasic in editor mode only.
+
+==Examples==
+QBasic came complete with four pre-written example programs. These were "Nibbles" (a variant of the Snake game), "Gorillas", an explosive-banana throwing game derived from HP 2647, "MONEY MANAGER", a personal finance manager and "RemLine", a GW-BASIC code line number removing program.<ref name="GBvsQB"/>
+
+==="Hello, World!"===
+
+<source lang="qbasic">
+PRINT "Hello, World!"
+</source>
+
+===Simple game===
+
+<source lang="qbasic">
+CLS
+PRINT "Name"            INPUT "Would you like to play"; choice$                ' An input statement, that takes what the user inputs...
+guesses = 3                                            ' Set up number of guess remaining
+IF UCASE$(choice$) <> "YES" THEN
+   GOTO QUIT                                           ' Decides whether or not they want to play
+END IF
+
+RANDOMIZE TIMER                                        ' Sets up for randomized numbers
+target = INT(RND * 10) + 1
+ 
+WHILE guesses > 0
+  INPUT "Guess a number: ", guess                      ' Takes user input (the guess)
+  IF guess = target THEN                               ' Determines if the guess was correct
+    PRINT "You win!"
+    GOTO QUIT
+  ELSE
+    PRINT "Sorry, that's not it"
+    guesses = guesses - 1
+  END IF
+WEND
+ 
+PRINT "You ran out of guesses, the number was"; target
+
+QUIT:
+</source>
+
+{{Infobox Software
+| Name                             = QBasic
+| Hersteller                       = Microsoft Corporation
+| AktuelleVersion                  = 1.1
+| AktuelleVersionFreigabeDatum     = 1992
+| Betriebssystem                   = MS-DOS, Windows 95, Windows 98
+| Kategorie                        = BASIC-Interpreter und Entwicklungsumgebung
+| Lizenz                           = MS-EULA
+| Deutsch                          = ja
+| Website                          = [http://www.microsoft.de/ www.microsoft.de]
+}}
+
+'''QBasic''' ist ein BASIC-Interpreter. Es ist die abgespeckte Version der Entwicklungsumgebung QuickBASIC 4.5.
+
+Die Firma 98 war es noch enthalten. Die QBasic-Version 1.1 ersetzte das veraltete GWBasic, das bis zur DOS-Version 4.0 noch im Lieferumfang von MS-DOS war.
+
+== Aufbau ==
+Zusammen mit QuickBasic schloss Microsoft mit QBasic an die modernen BASIC-Dialekte an. Diese benötigten nun keine Zeilennummern mehr, boten die Möglichkeit der Definitionen von Prozeduren und Funktionen und stellten verbesserte Möglichkeiten der strukturierten Programmierung bereit. Verbessert wurde auch die IDE, welche nun auch über die Maus bedient werden konnte. Bedingt durch die Begrenzungen von und durch MS-DOS und einiger interner Grenzen durften die Programme eine Größe von etwas über 160kB nicht überschreiten.
+
+== Unterschiede zu QuickBASIC ==
+Der große Unterschied zu QuickBASIC ist, dass QBasic keinen Compiler enthält und somit keine verteilfähige .EXE-Dateien erzeugen kann, sondern die Datei als .BAS Datei abspeichert. Über die Kommandozeile können Programme mit dem Befehl "<tt>qbasic /run programm.bas</tt>" gestartet werden. Es lassen sich keine Fremdbibliotheken einbinden. Die Online-Hilfe wurde ebenfalls abgespeckt und QBasic beschränkt sich auf vier Beispielprogramme. Zudem sind Systemaufrufe, wenn auch machbar, schwieriger.
+
+QuickBASIC-Programme, welche keine Bibliotheken benutzen oder keine speziellen Funktionen für Systemaufrufe verwenden, sind auch unter QBasic lauffähig. Umgekehrt laufen alle Programme auch unter QuickBASIC und lassen sich dort kompilieren.
+
+== Beispielprogramme ==
+QBasic wurde zusammen mit vier Beispielprogrammen ausgeliefert:
+* '''Gorilla''': In diesem Spiel stehen sich zwei Gorillas auf Hochhausdächern an jeweils gegenüberliegenden Bildschirmrändern gegenüber. Abwechselnd versuchen sie, sich mit einer explodierenden Banane zu treffen. Die Steuerung erfolgt hier durch abwechselnde Eingabe von Winkel und Geschwindigkeit. Dabei ist die Windgeschwindigkeit zu beachten.
+* '''Money''': Der ''Qbasic Money Manager'' verwaltet Transaktionen auf Konten. Ein Datensatz besteht dabei aus Datum, Beschreibungstext und Wert der Transaktion. Statistiken können erstellt und ausgedruckt werden.
+* '''Nibbles''': Typisches Snake-Spiel. Auch zu zweit spielbar.
+* '''Remline''': (in QuickBasic als ''Entfzeil'' bezeichnet) Sowohl Beispielprogramm als auch nützliches Hilfsprogramm: Es werden aus alten GWBasic-Programmen die in QBasic überflüssige Nummerierung der Zeilen entfernt. Zeilennummern, die z. B. als Sprungziel nötig sind, bleiben dabei erhalten.
+
+== QBasic heute ==
+Nach der Einführung von Basic-Dialekte, auf die viele der ehemaligen QBasic-Programmierer umgestiegen sind.

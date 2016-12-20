@@ -1,0 +1,28 @@
+right|thumb|Symbol triaka
+'''Triak''', element półprzewodnikowy należący do rodziny tyrystorów.  Ma pięciowarstwową strukturę n-p-n-p-n, pod względem funkcjonalnym jest odpowiednikiem dwóch tyrystorów połączonych antyrównolegle (przeciwsobnie i równolegle).
+
+Triak ma trzy końcówki, 2 anody A1 i A2 (oznaczane też MT1 i MT2) oraz bramkę G.  Triaki stosowane są w obwodach prądu zmiennego przewodzą prąd w  obu kierunkach, triak włączany jest prądem bramki, wyłącza się gdy natężenie  prądu jest równe zero.  Używane są jako łączniki dwukierunkowe, przekaźniki oraz regulatory mocy.
+
+thumb|dwa triaki i jeden [[tyrystor]]
+'''Uproszczoną strukturę blokową przedstawia poniższy rysunek.'''
+Grafika:triak01.gif
+
+Działanie triaka jest analogiczne do przeciwsobnego połączenia dwóch tyrystorów (SCR) - patrz poniższy rysunek.
+
+none|150px
+Na rysunku bramki tyrystorów pokazane są oddzielnie dla każdego tyrystora. Triak posiada tylko jedną bramkę - włączenie następuje niezależnie od polaryzacji (w przeciwieństwie do tyrystora, który może być załączony tylko jeśli potencjał anody jest większy od potencjału katody).
+Triak działa w obu kierunkach polaryzacji i zachowuje się jak tyrystor w dodatniej części swojej charakterystyki (stan blokowania bądź przewodzenia) - charakterystyka triaka jest symetryczna względem początku układu współrzędnych a w części dodatniej jest charakterystyką tyrystora.:
+
+right|thumb|Triac Schematic Symbol
+A '''TRIAC''', or '''TRIode for Alternating Current''' is an electronic component approximately equivalent to two inverse parallel (paralleled but with the polarity reversed) and with their gates connected together. Formal name for a TRIAC is '''bidirectional triode thyristor'''. This results in a bidirectional electronic switch which can conduct current in either direction when it is triggered (turned on).  It can be triggered by either a positive or a negative voltage being applied to its ''gate'' electrode (with respect to A1, otherwise known as MT1).  Once triggered, the device continues to conduct until the current through it drops below a certain threshold value, such as at the end of a half-cycle of alternating current (AC) mains power. This makes the TRIAC a very convenient switch for AC circuits, allowing the control of very large power flows with milliampere-scale control currents.  In addition, applying a trigger pulse at a controllable point in an AC cycle allows one to control the percentage of current that flows through the TRIAC to the load (so-called ''phase control'').
+
+<!-- Unsourced image removed: right|thumb|Triac Equivilant circuit -->
+
+Low power TRIACs are used in many applications such as light small and inductive loads such as electric fans, care must be taken to assure that the TRIAC will turn off correctly at the end of each half-cycle of the ac power. 
+
+left|thumb|Triac semiconductor construction
+
+A snubber circuit is often used to assist this turn off. Snubber circuits are also used to prevent premature triggering. For higher-powered, more-demanding loads, two SCRs in inverse parallel may be used instead of one TRIAC. Because each SCR will have an entire half-cycle of reverse polarity voltage applied to it, turn-off of the SCRs is assured, no matter what the character of the load.
+
+==See also==
+*Diac 

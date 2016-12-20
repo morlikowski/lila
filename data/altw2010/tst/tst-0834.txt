@@ -1,0 +1,265 @@
+80px|left|একটি ঘন-অষ্টতলক (Cuboctahedron)
+পরিমাণ (quantity), গঠন (structure), পরিবর্তন (change) ও স্থান (space)-বিষয়ক গবেষণাকে সাধারণত '''চিত্র (figure) ও সংখ্যার (number) গবেষণা", কিন্তু এটি গণিতের অত্যন্ত সরল একটি সংজ্ঞা। গণিতের দর্শনের ভিন্ন ভিন্ন দৃষ্টিভঙ্গি থেকে গণিতের ভিন্ন ভিন্ন সংজ্ঞা দেয়া যায়। বিধিগত (formal) দৃষ্টিকোণ থেকে গণিত হল যুক্তিবিজ্ঞান (logic) ও বিশেষ প্রতীক-চিহ্নাদি (notation) ব্যবহার করে বিমূর্ত গঠনসমূহের (axiomatically defined abstract structures) গবেষণা, অর্থাৎ গণিত হল বিভিন্ন ধরনের বিমূর্ত মানসিক খেলা আর গণিতবিদদের কাজ হল এই খেলার নিয়মগুলো এবং বিভিন্ন খেলার মধ্যে সম্পর্ক বের করা। আবার বাস্তবতাবাদী (realistic) দৃষ্টিকোণ থেকে গণিত হল সেই সব বস্তু বা ধারণা নিয়ে গবেষণা, আমাদের যুক্তিনির্মাণ (reasoning) নির্বিশেষে যাদের স্বাধীন অস্তিত্ব আছে, অর্থাৎ গণিত বাস্তব জিনিসের গবেষণা, মানুষের মনের বিমূর্ত সৃষ্টি নয়, আর গণিতবিদদের কাজ হল মূর্ত বাস্তবতা থেকে গণিতের বিভিন্ন বিমূর্ত সূত্র উদ্ঘাটন করা। বিজ্ঞানের সমস্ত শাখায় গণিতের ব্যবহার রয়েছে; গণিতকে তাই "বিজ্ঞানের ভাষা", "বিশ্বের ভাষা" ও "সমস্ত বিজ্ঞানের রাণী" বলে ডাকা হয়।
+<!-- 
+Currently, there are approximately '''' mathematical articles in Wikipedia.
+-->
+
+গণিত
+Category:গণিত
+
+es:Portal:Matemática
+
+ia:Portal:Mathematica
+
+kab:Awwur:Tusnakt
+
+mt:Portal:Matematika
+
+<span id="shortcut" class="plainlinks"><br/><small>Abkürzung: P:M</small></span>
+<!--
+Wenn Du diese Seite bearbeiten willst, wozu du natürlich herzlich eingeladen bist, versuch bitte, dabei folgende Tipps und Ziele zu beherzigen:
+
+*Die "Neuen Artikel", "Exzellente Artikel", "Lesenswerte Artikel" und der "Artikel des Monats" lassen sich jetzt über Bausteine bearbeiten. Dazu einfach auf die Projektseite des Portals Mathematik surfen und dort den Bearbeitungslink anwählen.
+
+*Du solltest versuchen, das optische Erscheinungsbild der Seite zu erhalten (oder auch zu verbessern, wenn du eine gute Idee hast).
+
+*Diese Seite ist als Einstiegsseite gedacht, die einen Überblick über das WIKIPEDIA-Angebot zu Themen über die Mathematik geben und die Orientierung erleichtern soll. Inhalte auf diese Seite sollten daher auf ganz elementare und grundlegende Verweise beschränkt werden. Sie soll weder das Stichwortverzeichnis noch die systematische Übersicht ersetzen.
+
+*Wenn Du einen neuen Beitrag zu einem Thema verfasst oder einen Bestehenden ganz grundlegend überarbeitet hast, zöger nicht, ihn auf der Projektseite als NEUEN BEITRAG einzutragen (und zwar mit Angabe des Datums). Und zöger auch nicht, ältere "neue Beiträge" zu löschen, wenn der Abschnitt "Neue Beiträge" eine Länge von - sagen wir - 5 Zeilen überschreitet.
+------------------------------------------------------- -->
+
+<!-- Kopf -->
+<!-- BEGINN SEITE:TABS -->
+{| border="0" cellspacing="0" cellpadding="0" width="100%"
+|- 
+| style="height:2em; background-color:#ededff;border-bottom:1px solid #000080" width="15" |&nbsp; <!-- Zwischenraum-->
+| style="background-color:#FFFFFF;border-top:solid 1px #000080;border-left:solid 1px #000080" width="10" | &nbsp;<!-- Rand links-->
+| style="background-color:#FFFFFF;border-top:solid 1px #000080;text-align:center" width="80" | 18px Übersicht
+| style="background-color:#FFFFFF;border-top:solid 1px #000080;border-right:solid 2px #000080" width="10" | &nbsp;<!-- Rand rechts-->
+| style="background-color:#ededff;border-bottom:solid 1px #000080;" width="3"| &nbsp; <!-- Zwischenraum-->
+| style="background-color:#ededff;border-top:solid 1px #000080;border-left:solid 1px #000080;border-bottom:solid 1px #000080" width="10" |&nbsp;<!-- Rand links-->
+| style="background-color:#ededff;border-top:solid 1px #000080;border-bottom:solid 1px #000080;text-align:center" width="90" | Qualitätssicherung
+| style="background-color:#ededff;border-top:solid 1px #000080;border-right:solid 2px #000080;border-bottom:solid 1px #000080" width="10" |&nbsp; <!-- Rand rechts-->
+| style="background-color:#ededff;border-bottom:solid 1px #000080;" width="3"| &nbsp; <!-- Zwischenraum-->
+| style="background-color:#ededff;border-top:solid 1px #000080;border-left:solid 1px #000080;border-bottom:solid 1px #000080" width="10" |&nbsp;<!-- Rand links-->
+| style="background-color:#ededff;border-top:solid 1px #000080;border-bottom:solid 1px #000080;text-align:center" width="60" | 14px Projekt
+| style="background-color:#ededff;border-top:solid 1px #000080;border-right:solid 2px #000080;border-bottom:solid 1px #000080" width="10" |&nbsp; <!-- Rand rechts-->
+
+| style="background-color:#ededff;border-bottom:solid 1px #000080" width="10" |&nbsp; <!-- Zwischenraum-->
+| style="background-color:#ededff;border-top:solid 1px #000080;border-left:solid 1px #000080;border-bottom:solid 1px #000080" width="10" |&nbsp;<!-- Rand links-->
+| style="background-color:#ededff;border-top:solid 1px #000080;border-bottom:solid 1px #000080;text-align:center" width="120" | 14px  Exzellente&nbsp;Artikel
+| style="background-color:#ededff;border-top:solid 1px #000080;border-right:solid 2px #000080;border-bottom:solid 1px #000080" width="10" | &nbsp;<!-- Rand rechts-->
+| style="background-color:#ededff;border-bottom:1px solid #000080" width="3" |&nbsp; <!-- Zwischenraum-->
+| style="background-color:#ededff;border-top:solid 1px #000080;border-left:solid 1px #000080;border-bottom:solid 1px #000080" width="10" |&nbsp; <!-- Rand links-->
+| style="background-color:#ededff;border-top:solid 1px #000080;border-bottom:solid 1px #000080;text-align:center" width="140" | 14px  Lesenswerte&nbsp;Artikel
+| style="background-color:#ededff;border-top:solid 1px #000080;border-right:solid 2px #000080;border-bottom:solid 1px #000080" width="10" |&nbsp;<!-- Rand rechts-->
+| style="background-color:#ededff;border-bottom:1px solid #000080" width="15" |&nbsp; <!-- Zwischenraum-->
+|- 
+| colspan="21" style="background-color:background-color:#FFFFFF; border-bottom:solid 1px #000080;border-right:solid 1px #000080;border-left:solid 1px #000080; padding:0.2em;" | 
+{|
+|<imagemap>
+Bild:Portal Mathematiklinks.png|100px|Abakus
+rect 0 0 10 10 Abakus
+default Abakus
+desc none
+</imagemap>
+||<div style="text-align:center;font-size:190%;margin-top:6pt;">Portal Mathematik</div>
+<div style="font-size:90%;text-align: center;margin-top:10px;">Die Mathematik ist die Wissenschaft, welche aus der Untersuchung von Figuren und dem Rechnen mit Zahlen entstand.<br>
+Dieses Portal bietet einen Einstieg in den Themenkomplex der Mathematik … Viel Spaß!</div>
+</div>
+||
+<imagemap>
+Bild:PortalMathematikrechts.png|100px|Fraktale
+rect 0 0 10 10 Fraktal
+default Fraktale
+desc none
+</imagemap>
+|}
+
+</div>
+|}
+<!-- ENDE SEITE:TABS -->
+
+{| style="margin-bottom:6pt;"
+| width="65%" style="padding:0; border:solid 1px #000080; background-color:#FFFFFF; vertical-align:top;" rowspan="4" |
+<!--
+   Aktuelles
+-->
+<div style="background-color:#cfdfff;border-bottom:1px solid #aaa;font-size:120%;font-weight:bold;padding:0.3em;text-align:center;">Aktuelles</div>
+
+<div style="padding:6pt;">
+'''Artikel des Monats'''<br />
+ <br clear="all" style="clear:both;" />
+----
+<div style="clear:both;"/>
+14px '''Exzellente Artikel'''<br />
+<div style="font-size:100%;clear:both;">
+
+</div>
+14px '''Lesenswerte Artikel'''<br />
+<div style="font-size:100%;clear:both;">
+
+</div>
+14px '''Neue oder kürzlich stark überarbeitete Artikel'''<br />
+<div style="font-size:100%;clear:both;">
+- <small>mehr...</small>
+</div>
+14px '''Artikel im Reviewprozess'''<br />
+<div style="font-size:100%;clear:both;">
+
+</div>
+<div style="font-size:70%;text-align:right;">Inhalt ändern</div>
+</div>
+| style="padding:0; border:solid 1px #000080; background-color:#FFFFFF; vertical-align:top;" |
+<!--
+   Referenzlisten und Glossare
+-->
+<div style="background-color:#cfdfff;border-bottom:1px solid #aaa;font-size:120%;font-weight:bold;padding:0.3em;text-align:center;">Referenzlisten und Glossare</div>
+{| cellpadding="6pt"
+|
+* 14px Bedeutende Mathematiker
+* Mathematikwettbewerbe
+* Ungelöste Probleme
+----
+* Gruppentheorie-Glossar
+* 14px Liste kleiner Gruppen
+* Numerische Verfahren
+* Topologie-Glossar
+| style="vertical-align:top;" |
+* Attribute
+* Sätze
+* Ableitungen und Stammfunktionen
+* Strukturen
+* Mathematische Symbole
+* Mathematische Konstanten
+|}
+|-
+| style="padding:0; border:solid 1px #000080; background-color:#FFFFFF; vertical-align:top;" align="center" |
+<!--
+   Formelsammlungen
+-->
+<div style="background-color:#cfdfff;border-bottom:1px solid #aaa;font-size:120%;font-weight:bold;padding:0.3em;text-align:center;">Formelsammlungen</div>
+Algebra
+· Geometrie
+· Grundrechenarten
+· Logik
+|-
+| style="padding:0; border:solid 1px #000080; background-color:#FFFFFF; vertical-align:top;" align="center" |
+<!--
+   Verwandte und Unterportale
+-->
+<div style="background-color:#cfdfff;border-bottom:1px solid #aaa;font-size:120%;font-weight:bold;padding:0.3em;text-align:center;">20px|Portal-Logo Verwandte und Unterportale</div>
+Graphentheorie · Für Schüler
+
+Physik
+· Informatik
+· Technik
+· Wissenschaft
+|-
+| style="padding:0; border:solid 1px #000080; background-color:#FFFFFF; vertical-align:top;" |
+<!--
+   Mitarbeit
+-->
+<div style="background-color:#cfdfff;border-bottom:1px solid #aaa;font-size:120%;font-weight:bold;padding:0.3em;text-align:center;">Mitarbeit</div>
+left|80px
+Beim WikiProjekt Mathematik erfährst du, wie du helfen kannst, den Bereich Mathematik in der Wikipedia zu verbessern. Dort findet sich auch eine Liste von Aufgaben, die noch in Angriff zu nehmen sind.
+<!-- Projekt inaktiv
+Du kannst auch die Seite des Wikiprojekts Graphentheorie besuchen, das sich speziell die Artikel aus dem Bereich Graphentheorie betreut.-->
+
+:'''Fragen, Anregungen, Diskussion, Kritik'''
+<!-- Der folgende div-Tag sorgt dafür, dass die Box mindestnes so hoch wie das Icon ist. -->
+<div style="clear:both;"/>
+|}
+
+<!--
+   Teilgebiete der Mathematik
+-->
+<div style="border:solid 1px #000080; background-color:#FFFFFF;margin-bottom:6pt;">
+<div style="background-color:#cfdfff;border-bottom:1px solid #aaa;font-size:120%;font-weight:bold;padding:0.3em;text-align:center;">Teilgebiete der Mathematik</div>
+{| width="100%" bgcolor="#fff" border="0" cellpadding="3px" cellspacing="2px"
+|- align="center" bgcolor="#e6eeff"
+! width="33%" | 32px|left|Grundlagen '''Grundlagen'''
+! width="33%" | 32px|left|Algebra '''Algebra'''
+! width="33%" | 32px|left|Analysis '''Analysis'''
+|- valign="top" align="left" bgcolor="#f2f6ff"
+|
+* Philosophie der Mathematik
+* Geschichte der Mathematik
+* Metamathematik
+* Zahlen
+* Logik
+* Mengenlehre
+* Modelltheorie
+* Axiom
+* Beweismethoden
+* Kategorientheorie
+|
+* Elementare Algebra
+* Klassische Algebra
+* Galoistheorie  
+* Algebraische Strukturen 
+:Gruppe · Ring · Körper
+* Lineare Algebra 
+:Lineares Gleichungssystem · Vektorraum · Tensor
+|
+* Funktion · Folge · Reihe · Grenzwert · Integralrechnung · Differentialrechnung
+*Funktionentheorie
+*Funktionalanalysis 
+:Variationsrechnung · Hilbertraum
+*Dynamische Systeme 
+:Differentialgleichung · Chaostheorie
+|-
+|- align="center" bgcolor="#e6eeff"
+! width="33%" | 32px|left|Diskrete Mathematik '''Diskrete Mathematik'''
+! width="33%" | 60px|left|Topologie '''Topologie''' 
+! width="33%" | 32px|left|Numerik '''Numerische Mathematik'''
+|- valign="top" align="left" bgcolor="#f2f6ff"
+|
+* Graphentheorie
+* Spieltheorie
+* Kombinatorik
+* Ramseytheorie
+* Theoretische Informatik
+|
+* Topologischer Raum
+* Topologische Gruppe
+* Algebraische Topologie
+|
+* Algorithmus
+* Numerische Quadratur
+* Numerische Strömungssimulation
+* Optimierung
+|-
+|- align="center" bgcolor="#e6eeff"
+! width="33%" | 32px|left|Statistik '''Statistik'''/'''Stochastik'''
+! width="33%" | 32px|left|Geometrie '''Geometrie''' 
+! width="33%" | left|Zahlentheorie '''Zahlentheorie'''
+|- valign="top" align="left" bgcolor="#f2f6ff"
+|
+* Wahrscheinlichkeitsrechnung 
+: Verteilungen
+* Deskriptive Statistik 
+: Ein Merkmal · mehrere Merkmale
+* Mathematische Statistik 
+: Schätzen · Testen
+|
+* Geometrische Figuren
+* Euklidische Geometrie
+* Projektive Geometrie
+* Affine Geometrie
+* Geordnete Geometrie
+* Analytische Geometrie
+: Vektorrechnung
+* Differentialgeometrie
+: Mannigfaltigkeit
+|
+*Elementare Zahlentheorie 
+:Primzahl · Fundamentalsatz der Arithmetik
+*Analytische Zahlentheorie 
+:Primzahlsatz · Riemannsche Vermutung
+*Algebraische Zahlentheorie 
+:Großer fermatscher Satz · Klassenkörpertheorie
+*Algorithmische Zahlentheorie 
+:Primzahltest · Faktorisierungsverfahren
+|}
+</div>

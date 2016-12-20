@@ -1,0 +1,127 @@
+{{ItaliaanseGemeente|
+|naam= Ascrea
+|italiaansenaam= 
+|kaart= 
+|provincie= Rieti (RI)
+|regioAfk=  LAZ
+|regio= Latium
+|jaar= 31-12-2004
+|inwonersaantal= 264
+|inwonersperkm2= 20
+|oppervlakte= 14,4
+|water= 
+|latitudeGraden= 42
+|latitudeMinuten= 11
+|latitudeSeconden= 49
+|longitudeGraden= 12
+|longitudeMinuten= 59
+|longitudeSeconden= 51
+|kaartX= 157
+|kaartY= 163
+|code= 057004
+|postcode= 02020
+|netnummer= 0765
+|hoogteligging= 318
+|aangrenzende gemeenten=    
+|beschermheilige= San Nicola
+|naam inwoner= ascreani
+|diverse= <small>bron: [http://www.istat.it/ Italiaans bureau voor statistiek]<small>  
+}} 
+'''Ascrea''' is een gemeente in de Italiaanse provincie Rieti (regio Latium) en telt 264 inwoners (31-12-2004). De oppervlakte bedraagt 14,4 km², de bevolkingsdichtheid is 20 inwoners per km².
+
+==Demografie==
+Ascrea telt ongeveer 153 huishoudens. Het aantal inwoners daalde in de periode 1991-2001 met 10,7% volgens cijfers uit de tienjaarlijkse volkstellingen van ISTAT.
+
+{| class="prettytable" style="text-align:center;"  
+! width=70px  | Jaar 
+! width=100px | Inwoneraantal
+|- 
+| 1991 || 318
+|- 
+| 2001 || 284
+|}
+
+==Geografie==
+De gemeente ligt op ongeveer 318 m boven zeeniveau. 
+
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = Ascrea |
+  name = Ascrea |
+  region = Latium |
+  province = Province of Rieti (RI) |
+  elevation_m = 318 |
+  area_total_km2   = 14.4 |
+  population_as_of  = Dec. 2004 |
+  population_total = 264 |
+  population_density_km2 = 18 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          =  |
+  telephone         = 0765 |
+  postalcode        = 02020 |
+  gentilic          = ascreani |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           =  |
+  mapy = 12.9975 |
+  mapx = 42.1969 |
+}}
+'''Ascrea''' is a ''Italian region Latium, located about 50 km northeast of Rome and about 25 km southeast of Rieti. As of 31 December 2004, it had a population of 264 and an area of 14.4 km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+Ascrea borders the following municipalities: Castel di Tora, Collegiove, Longone Sabino, Marcetelli, Paganico Sabino, Pozzaglia Sabina, Rocca Sinibalda, Varco Sabino.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:2000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:1000 start:0
+ScaleMinor = gridcolor:lightgrey increment:200 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:827
+  bar:1871 from: 0 till:861
+  bar:1881 from: 0 till:884
+  bar:1901 from: 0 till:803
+  bar:1911 from: 0 till:882
+  bar:1921 from: 0 till:856
+  bar:1931 from: 0 till:834
+  bar:1936 from: 0 till:780
+  bar:1951 from: 0 till:626
+  bar:1961 from: 0 till:498
+  bar:1971 from: 0 till:423
+  bar:1981 from: 0 till:308
+  bar:1991 from: 0 till:318
+  bar:2001 from: 0 till:284
+
+PlotData=

@@ -1,0 +1,64 @@
+'''Rede sem fios''' (também chamada rede ''wireless'') refere-se a um agrupamento de computadores (e outros dispositivos) em rede, interligados sem o uso de cabos mas sim através de ondas de rádio ou outras formas de ondas eletromagnéticas.
+
+== Classificação das redes sem fios ==
+
+=== WPAN ===
+''Wireless Personal Area Network'' ou rede pessoal sem fio. Normalmente utilizada para interligar dispositivos eletrônicos fisicamente próximos, os quais não se quer que sejam detectados a distância. Este tipo de rede é ideal para eliminar os cabos usualmente utilizados para interligar teclados, impressoras, telefones móveis, agendas eletrônicas, computadores de mão, câmeras fotográficas digitais, mouses e outros. 
+Nos equipamentos mais recentes é utilizado o padrão Bluetooth para estabelecer esta comunicação, mas também é empregado raio infravermelho (semelhante ao utilizado nos controles remotos de televisores).
+Detalhes no tópico WPAN.
+
+=== WLAN ===
+''Wireless Local Area Network''.
+Detalhes no tópico WLAN.
+
+=== WMAN ===
+''Wireless Metropolitan Area Network'' ou Rede de área metropolitana sem fio.
+Detalhes no tópico WMAN.
+
+=== WWAN ===
+''Wireless Wide Area Network''.
+Detalhes no tópico WWAN.
+
+== Padrões e tecnologias ==
+
+=== IrDA ===
+Detalhes no tópico  Infrared_Data_Association
+
+=== ZigBee ===
+Detalhes no tópico  ZigBee (IEEE 802.15.4).
+
+=== Bluetooth ===
+Bluetooth é uma tecnologia para a comunicação sem fio entre dispositivos eletrônicos a curtas distâncias.
+Detalhes no tópico Bluetooth  (IEEE 802.15.1).
+
+=== RONJA ===
+Ronja é uma tecnologia livre e aberta para a comunicação sem fio ponto-a-ponto por meio de luz do espectro visível ou infravermelho através do ar.
+Detalhes no tópico RONJA.
+
+=== Wi-Fi ===
+Detalhes nos tópicos Wi-Fi (IEEE 802.11).
+
+=== WiMAX ===
+Detalhes no tópico WiMAX (IEEE 802.16).
+
+=== Mesh ===
+Detalhes no tópico Redes Mesh (IEEE 802.11s).
+
+Un '''réseau sans fil''' est un réseau informatique ou numérisé qui connecte différents postes ou systèmes entre eux par ondes radio. Il peut-être associé à un réseau de télécommunications pour réaliser des interconnexions entre nœuds.
+
+==Description==
+La norme la plus utilisée actuellement pour les réseaux sans fil est la norme IEEE 802.11, mieux connue sous le nom de Wi-Fi.
+
+Le rayonnement géographique des ondes est relativement limité étant donné la faible puissance d’émission des solutions matérielles actuelles. Pour cette raison, les réseaux sans fil se sont avant tout développés comme réseaux internes, propres à un bâtiment, soit comme réseau d’entreprise, soit comme réseau domestique.
+
+Néanmoins, des projets de réalisation de réseaux à grande échelle ont vu le jour. Ainsi, certaines zones urbaines sont couvertes par des réseaux sans fil qui sont soit le fait d’entreprises spécialisées, soit d’associations d’individus. Ces réseaux sont appelés MAN, pour  (« réseau urbain »). Des projets de mise en place de réseaux libres et amateurs ont vu le jour, souvent sous forme de réseau  (« égal à égal »), c’est-à-dire un réseau non centralisé, où chaque poste est autonome. 
+
+== Voir aussi ==
+=== liens internes ===
+* HiperLAN
+* HiperMAN
+* Réseaux sans fil communautaires
+* Réseau informatique
+* Transmission sans fil et santé
+* Wi-Fi
+* WiMAX

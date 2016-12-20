@@ -1,0 +1,104 @@
+'''''Almagest''''' is the Arabic name ('''الكتاب المجسطي''', ''al-kitabu-l-mijisti'', i.e. "The Great Book") of a Greek as ''μαθηματικἠ σύνταξις'' (''Mathematike Syntaxis'', "Mathematical Treatise"; later titled ''Hè Megalè Syntaxis'', "The Great Treatise") by Ptolemy of Alexandria, Egypt, written in the 2nd century.  Its geocentric model was accepted as correct for over a thousand years in Arab and European societies. The ''Almagest'' is the most important source of information on ancient Greek astronomy. The Almagest has also been valuable to students of mathematics because it provides information on the ancient Greek mathematician Hipparchus' work, which has been lost. Hipparchus wrote about trigonometry, but since his works have been lost mathematicians use Ptolemy's book as their source for information on Hipparchus' works and ancient Greek trigonometry in general.
+
+==Dating the Almagest==
+The date of ''Almagest'' has recently been more precisely established. Ptolemy set up a public inscription at Canopus in Egypt in 147/148 A.D. The late N. T. Hamilton found that the version of Ptolemy's models set out in the ''Canopic Inscription'' was earlier than the version in ''Almagest''. Hence ''Almagest'' cannot have been completed before about A.D. 150, a quarter century after Ptolemy began observing.
+
+== Contents ==
+
+The ''Almagest'' consists of thirteen books. Their subject matter can be summarized as follows:
+
+* Book I contains an outline of Aristotelian cosmology: on the spherical form of the heavens, with the (spherical) chords with a set of chord tables; observations of the obliquity of the ecliptic; and an introduction to spherical trigonometry.
+* Book II covers problems associated with the daily motion attributed to the heavens, namely risings and settings of celestial objects, and the length of daylight, the determination of latitude, the points at which the Sun is vertical, the shadows of the gnomon at the equinoxes and solstices, and other things which change with the spectator's position. There is also a study of the angles made by the ecliptic with the vertical, with tables.
+* Book III covers the length of the year, and the motion of the Sun. Ptolemy explains Hipparchus' discovery of the precession of the equinoxes and begins explaining the theory of epicycles.
+* Books IV and V cover the motion of the Moon, lunar parallax, the motion of the lunar apogee, and the sizes and distances of the Sun and Moon relative to the Earth.
+* Book VI covers solar and lunar eclipses.
+* Books VII and VIII cover the motions of the fixed magnitude (m = 1), while the faintest were of sixth magnitude (m = 6), the limit of human visual perception (without the aid of a telescope). Each grade of magnitude was considered to be twice the brightness of the following grade (a logarithmic scale). This system is believed to have originated with Hipparchus. The stellar positions too are of Hipparchan origin, despite Ptolemy's claim to the contrary.
+* Book IX addresses general issues associated with creating models for the five naked eye planets, as well as the motion of Mercury.
+* Book X covers the motions of Venus and Mars.
+* Book XI covers the motions of Jupiter and Saturn.
+* Book XII covers stations and retrogradations, which occur when planets appear to pause, then briefly reverse their motion against the background of the zodiac. Ptolemy understood these terms to apply to Mercury and Venus as well as the outer planets.
+* Book XIII covers motion in latitude (the deviation of planets from the ecliptic, the apparent path of the Sun through the stars).
+
+=== Ptolemy's Cosmos ===
+The cosmology of the ''Almagest'' includes five main points, each of which is the subject of a chapter in Book I. What follows is a close paraphrase of Ptolemy's own words from Toomer's translation.
+
+* The celestial realm is spherical, and moves as a sphere.
+* The earth is a sphere.
+* The earth is at the center of the cosmos.
+* The earth, in relation to the distance of the fixed stars, has no appreciable size and must be treated as a mathematical point.<ref>, Book I, Chapter 5</ref>
+* The earth does not move.
+
+=== Ptolemaic Planetary Models ===
+thumb|16th-century representation of the Ptolemaic [[geocentric model.]]
+Ptolemy assigned the following order to the planetary spheres, beginning with the innermost:
+<div style="-moz-column-count:2; column-count:2;">
+# Moon
+# Mercury
+# Venus
+# Sun
+# Mars
+# Jupiter
+# Saturn
+# Sphere of fixed stars
+</div>
+Other classical writers suggested different sequences. Plato (c. 427-c. 347 BC) made the Sun next in order after the Moon, while Martianus Capella (5th century AD) put Mercury and Venus in motion around the Sun. Ptolemy's authority was preferred by most Islamic and late medieval European astronomers.
+
+Ptolemy inherited from his Greek predecessors a geometrical toolbox and a partial set of models for predicting where the planets would appear in the sky. Mesopotamian astronomy, and he felt that Greek models should match those of the Babylonians in accuracy. He was unable to create accurate models for the remaining five planets.
+
+In the ''Almagest'', Ptolemy adopted Hipparchus' solar model, which consisted of a simple eccentric deferent. For the Moon, he began with Hipparchus' epicycle-on-deferent, then added a device that historians of astronomy refer to as a '''crank mechanism'''. He succeeded in creating models for the other planets, where Hipparchus had failed, by introducing a third device called the equant.
+
+The ''Almagest'' was written by Ptolemy as a textbook of mathematical astronomy. It explained geometrical models of the planets based on combinations of circles, that could be used to predict the motions of celestial objects. In a later book, the ''Planetary Hypotheses'', Ptolemy explained how to transform his geometrical models into three-dimensional spheres or partial spheres. In contrast to the mathematical ''Almagest'', the ''Planetary Hypotheses'' is sometimes described as a book of cosmology.
+
+== Impact ==
+
+Ptolemy's comprehensive treatise of mathematical astronomy superseded most older texts of Greek astronomy. Some were more specialized and thus of less interest; others simply became outdated by the newer models. As a result, the older texts ceased to be copied and were gradually lost. Much of what we know about the work of astronomers like Hipparchus comes from references in the ''Almagest''.
+
+thumb|Darstellung des ptolemäischen Weltsystems (1661)
+'''Almagest''' (antiken Astronomie, das auf den hellenistisch-griechischen Gelehrten Claudius Ptolemäus zurückgeht.
+
+== Grundlagen ==
+Die umfassendste und kompetenteste Darstellung des astronomischen Systems der Griechen überlieferte uns Claudius Ptolemäus mit seinem um die Mitte des 2.&nbsp;Jahrhunderts erstellten Lehrbuch ''Mathematike Syntaxis'' (dt. „Mathematische Zusammenstellung“). Spätere Abschriften des hoch angesehenen Werkes trugen den Titel ''Megiste Syntaxis'' („Größte Zusammenstellung“), was als ''al-magisti'' in die arabischen Übersetzungen übernommen wurde und von dort als ''Almagest'' in den heutigen Sprachgebrauch überging<ref>Kunitzsch</ref>. Im Gegensatz zu anderen Werken jener Zeit ist der Text des Almagest vollständig überliefert.
+
+Der ''Almagest'' beruht auf dem geozentrischen ptolemäischen Weltbild und arbeitet dessen astronomische Details aus. Im Gegensatz zum eher mathematische Beschreibung der Bahnen der einzelnen Himmelskörper im Vordergrund. Wegen seiner exakten mathematischen Modellierung der Himmelsbewegungen und der dadurch eröffneten Möglichkeit, diese recht genau vorauszuberechnen, entwickelte er sich zum Standardwerk der mathematischen 2. bis zum 17. Jahrhundert.
+
+Der ''Almagest'' verdrängte wegen seiner Qualitäten schon sehr früh alle anderen griechischen astronomischen Schriften. Ptolemäus
+* systematisierte darin das gesamte antike Wissen über die Himmelsobjekte
+* nutzte dabei das hohe Niveau der griechischen Mathematik und
+* bettete sein System in die aristotelische Physik ein.
+Heute sehen wir das Werk als Höhepunkt und Abschluss der antiken Astronomie.
+
+thumb|Claudius Ptolemäus, neuzeitliches Idealportrait
+== Bücher ==
+Der Inhalt und Aufbau des ''Almagest'' wurde für mehr als 1500 Jahre für alle astronomischen Handbücher ''das'' Vorbild. Wie ''Euklids Elemente'' besteht auch der ''Almagest'' aus 13 Büchern:
+* ''Buch 1-2:'' Einführung in das ptolemäische Weltsystem und die mathematischen Hilfssätze
+* ''Buch 3:'' Theorie der Sonne
+* ''Buch 4-5:'' Theorie des Mondes
+* ''Buch 6:'' Mond- und Sonnenfinsternisse
+* ''Buch 7-8:'' Verzeichnis der Sternbilder)
+* ''Buch 9-13:'' Theorie der Saturn, Jupiter, Mars, Venus und Merkur)
+
+== Inhalt ==
+Als ''"Vorbesprechung"'' stellt Ptolemäus einige Grundsätze auf:
+* Das Himmelsgebäude hat Kugelgestalt und dreht sich wie eine Kugel.
+* Ihrer Gestalt nach ist die Erde, als Ganzes betrachtet, gleichfalls kugelförmig.
+* Ihrer Lage nach nimmt sie als Zentrum die Mitte des ganzen Himmels ein.
+* Ihrer Größe und Entfernung nach ist sie im Verhältnis zur Punkt.
+* Die Erde vollzieht ihrerseits keinerlei Ortsveränderungen verursachende Bewegungen.
+
+Die einfachen Vorstellungen von Kugeln und Kreisen standen jedoch nicht im Einklang mit den Beobachtungsdaten. Zwei Schwierigkeiten waren auffällig:
+* die ''1. Ungleichheit'' - Planeten durchlaufen die Bahnstücke mit unterschiedlicher Geschwindigkeit,
+* die ''2. Ungleichheit'' - Planeten bewegen sich teilweise in die entgegengesetzte Richtung, ihre Bewegungen ähneln einer Art Schleife.
+
+Zur Erklärung dieser Hipparch von Nicäa hingegen stammte die Idee der exzentrischen Lage des Deferenten ''(Exzentertheorie)''. Wegen der ungleichmäßigen Geschwindigkeit benötigte Ptolemäus zusätzlich auch noch einen Ausgleichspunkt, den so genannten Äquanten: von diesem Punkt aus erschien die Bewegung des Planeten dann wiederum gleichmäßig.
+
+Die Sonnentheorie des Hipparch übernahm Ptolemäus unverändert, war jedoch der Meinung, dass dessen Mondtheorie wegen der komplexeren Mondbewegung genauer darzustellen sei. Dank der sehr genauen, durch eben jenen Hipparch überlieferten Daten der Mondbewegungen, ermittelte Ptolemäus in seiner Mondtheorie Werte, die erst durch Tycho Brahe spürbar verbessert werden konnten.
+
+Der ''Almagest'' enthält unter anderem auch eine systematische Zusammenfassung der Kunst, aus der Messung von Winkeln und Strecken Entfernungen zu messen (''Triangulation''). Daraus entwickelte sich später die Trigonometrie (Dreiecksmessung). In Buch 1 findet man die berühmte Sehnentafel, einen Vorläufer unserer ''trigonometrischen Tafeln'', von 1/2° bis 180° in 1/2°-Schritten (dies entspricht im wesentlichen der Sinustafel von 1/4°-90° in 1/4°-Schritten). Es folgen weitere Sätze der ''ebenen'' und ''sphärischen Trigonometrie''.
+
+Auch enthält der ''Almagest'' einen Katalog der Himmelsobjekte. Dieses Inventar besteht aus den Angaben zu 1025 Sternen in 48 Sternbildern. Dieser Katalog galt die nächsten 15 Jahrhunderte dann auch als stilbildend für den Aufbau, die Fachausdrücke und die Koordinatenangaben aller seiner Nachfolger.
+
+== Kritik ==
+Mit dem epizyklischen Modell ließen sich zwar die Planetenbewegungen im Rahmen damaliger aristotelischen Physik:
+* die Bewegung der Planeten erfolgte nicht mehr um den Weltmittelpunkt (wegen exzentrischer Lage des Deferenten),
+* die Gleichförmigkeit der Planetenbewegungen war nur durch mathematische Tricks zu gewährleisten.
+Deshalb sprach man schon sehr früh von der ''Rettung der Phänomene''. Damit war gemeint, dass die Astronomie eher als Zweig der Geometrie denn als Zweig der Physik zu sehen sei. Sie sei lediglich für die genaue mathematische Darstellung der Gestirnsbewegungen zuständig.

@@ -1,0 +1,153 @@
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = Dogna |
+  name = Dogna |
+  region = Friuli-Venezia Giulia |
+  province = Province of Udine (UD) |
+  elevation_m = 430 |
+  area_total_km2   = 70.0 |
+  population_as_of  = Dec. 2004 |
+  population_total = 235 |
+  population_density_km2 = 3 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          =  |
+  telephone         = 0428 |
+  postalcode        = 33010 |
+  gentilic          = dognesi |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           = [http://www.comune.dogna.ud.it/ www.comune.dogna.ud.it/] |
+  mapy = 13.3167 |
+  mapx = 46.4500 |
+}}
+'''Dogna''' (in Slovenian '''Dunja''')  is a ''Italian region Friuli-Venezia Giulia, located about 100 km northwest of Trieste and about 45 km north of Udine. As of 31 December 2004, it had a population of 235 and an area of 70.0 km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+Dogna borders the following municipalities: Chiusaforte, Malborghetto Valbruna, Moggio Udinese, Pontebba.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:2000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:1000 start:0
+ScaleMinor = gridcolor:lightgrey increment:200 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:0
+  bar:1871 from: 0 till:1502
+  bar:1881 from: 0 till:1356
+  bar:1901 from: 0 till:1420
+  bar:1911 from: 0 till:1367
+  bar:1921 from: 0 till:1518
+  bar:1931 from: 0 till:1219
+  bar:1936 from: 0 till:1044
+  bar:1951 from: 0 till:987
+  bar:1961 from: 0 till:764
+  bar:1971 from: 0 till:474
+  bar:1981 from: 0 till:390
+  bar:1991 from: 0 till:299
+  bar:2001 from: 0 till:259
+
+PlotData=
+
+  bar:1861 at:0 fontsize:XS text: ? shift:(-8,5)
+  bar:1871 at:1502 fontsize:XS text: 1502 shift:(-8,5)
+  bar:1881 at:1356 fontsize:XS text: 1356 shift:(-8,5)
+  bar:1901 at:1420 fontsize:XS text: 1420 shift:(-8,5)
+  bar:1911 at:1367 fontsize:XS text: 1367 shift:(-8,5)
+  bar:1921 at:1518 fontsize:XS text: 1518 shift:(-8,5)
+  bar:1931 at:1219 fontsize:XS text: 1219 shift:(-8,5)
+  bar:1936 at:1044 fontsize:XS text: 1044 shift:(-8,5)
+  bar:1951 at:987 fontsize:XS text: 987 shift:(-8,5)
+  bar:1961 at:764 fontsize:XS text: 764 shift:(-8,5)
+  bar:1971 at:474 fontsize:XS text: 474 shift:(-8,5)
+  bar:1981 at:390 fontsize:XS text: 390 shift:(-8,5)
+  bar:1991 at:299 fontsize:XS text: 299 shift:(-8,5)
+  bar:2001 at:259 fontsize:XS text: 259 shift:(-8,5)
+
+{{Comune
+|nomeComune = Dogna
+|linkStemma = Dogna-Stemma.jpg
+|siglaRegione = FVG
+|siglaProvincia = UD
+|latitudineGradi = 46
+|latitudineMinuti = 27
+|latitudineSecondi = 0
+|longitudineGradi = 13
+|longitudineMinuti = 19
+|longitudineSecondi = 0
+|mappaX = 165
+|mappaY = 25
+|altitudine = 430
+|superficie = 70
+|abitanti = 231
+|anno =  2005
+|densita = 4
+|frazioni =  <!-- elenco delle frazioni, separate da virgola e spazio - senza ritorni a capo -->
+|comuniLimitrofi = Chiusaforte, Malborghetto Valbruna, Moggio Udinese, Pontebba
+|cap = 33010
+|prefisso = 0428
+|istat = 030033
+|fiscale = D316
+|nomeAbitanti = dognesi
+|patrono = San Lorenzo
+|festivo = 10 agosto
+|sito = http://www.comune.dogna.ud.it/
+}} <!-- fine della tabella - per la compilazione vedi -> Aiuto:Comune -->
+
+'''Dogna''' (''Dogne'' in friulano) è un comune di 235 abitanti della provincia di Udine. 
+
+==Geografia==
+Il paese si trova nel Canal del Ferro, zona montuosa del friulano infatti il ''Chiôt'' è la stalla dei maiali). I borghi ancora abitati sono:
+*Balador
+*Chioutdipuppe
+*Chioutmartin
+*Chioutpupin
+*Chioutzuquin
+*Piccolcolle
+*Plagnis
+*Porto
+*Prerit
+*Prerit di Sopra
+*Roncheschin
+*Saletto
+*Vidali
+*Visocco
+
+==Storia==
+
+left|thumb|300px|Alpini in Val Dogna durante la grande guerra
+
+Le origini del paese sono sconosciute; sappiamo però che nei secoli VII-VIII la vallata venne popolata dalle tribù slovene (il nome ''Dogna'' deriva da ''Dolenja'', ''Dolnja'', che in sloveno significa "posta in basso"). Il paese fu gravemente danneggiato dai bombadamenti nel corso della prima guerra mondiale, ed è stato quasi completamente ricostruito; lo splendido paesaggio della Val Dogna è stato però purtroppo irrimediabilmente rovinato dal viadotto della superstrada (SS 13) che, sopraelevato, passa quasi sopra le case dell'abitato.
+
+In seguito al ritrovamento, alcuni anni fa, delle impronte di un ''Fitosauro del Norico'' è stata allestita nel capoluogo l'interessante mostra ''il triassico della Valcanale''.

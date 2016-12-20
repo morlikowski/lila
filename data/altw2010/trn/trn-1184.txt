@@ -1,0 +1,95 @@
+One of the major improvements bus, 5-bit device, and 3-bit function numbers for the device (commonly referred to as the '''BDF''').  This allows up to 256 buses, each with up to 32 devices, each supporting 8 functions.  A single PCI expansion card can respond as a device and must implement at least function number zero.  The first 64 bytes of configuration space are standardised; the remainder are available for vendor-defined purposes.
+
+In order to allow more parts of configuration space to be standardised without conflicting with existing uses, there is a list of ''capabilities''.
+Each capability has one byte that describes which capability it is, and one byte to point to the next capability.  The number of additional bytes depends on the capability ID.
+
+PCI-X 2.0 and PCI Express introduced an extended configuration space, up to 4096 bytes.  The only standardised part of extended configuration space
+is the first 4 bytes at 0x100 which are the start of an extended capability list.  Extended capabilities are very much like normal capabilities except that they can refer to any byte in the extended configuration space (by using 12 bits instead of 8), have a 4-bit version number and a 16-bit capability ID.  Extended capability IDs overlap with normal capability IDs, but there is no chance of confusion as they are in separate lists.
+
+== Standardized registers ==
+
+thumb|300px|right|Standard registers of PCI Type 0 (Non-Bridge) Configuration Space Header
+
+The Vendor ID and Device ID registers identify the device, and are commonly called the '''PCI ID'''.  The 16-bit vendor ID is allocated by the PCI SIG.  The 16-bit device ID is then assigned by the vendor.  There is an ongoing project to collect all known Vendor and Device IDs. (See external links (below).)
+
+The Subsystem Vendor ID and the Subsystem Device ID further identify the device.  The Vendor ID is that of the chip manufacturer, and the Subsystem Vendor ID is that of the card manufacturer.  The Subsystem Device ID is assigned by the subsystem vendor, but is assigned from the same number space as the Device ID.
+
+The Command register contains a bitmask of features that can be individually enabled and disabled.
+
+'''PCI configuration space''' — конфигурационное адресное пространство PCI.
+
+Одним из главных усовершенствований шины PCI по сравнению с другими архитектурами ввода-вывода
+стал её конфигурационный механизм. В дополнение к типичным адресным пространствам памяти и ввода-вывода в PCI вводится '''конфигурационное адресное пространство'''. Оно состоит из 256 байт, которые можно адресовать, зная номер шины PCI, номер устройства и номер функции в устройстве. Первые 64 байта из 256 стандартизированы, а остальные регистры могут быть использованы по усмотрению изготовителя устройства.
+
+== Стандартизированные регистры ==
+Регистры ''Vendor ID'' и ''Device ID'' идентифицируют устройство и обычно называются '''PCI ID'''.  Шестнадцатиразрядный регистр ''Vendor ID'' выдаётся организацией PCI SIG.  Шестнадцатиразрядный регистр ''Device ID'' назначается изготовителем устройства. Существует проект создания базы данных всех известных значений регистров ''Vendor ID'' и ''Device ID''. (Смотри #Ссылки.)
+
+Первые 64 байта конфигурационного адресного пространства (в соответствии с '''PCI Local Bus Specification 2.2'''):
+
+{| border="1" cellpadding="5" cellspacing="0"
+ |-
+ ! Адрес || <code>31&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;24</code> || <code>23&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16</code> || <code>15&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8</code> || <code>7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</code> 
+ |-
+ ! 0x00  || colspan=2 align="center"| '''DeviceID'''  || colspan=2 align="center"| '''VendorID'''
+ |-
+ ! 0x04  || colspan=2 align="center"| '''Status'''  || colspan=2 align="center"| '''Command'''
+ |-
+ ! 0x08  || colspan=3 align="center"| '''Class Code'''  || '''Revision ID'''
+ |-
+ ! 0x0C  ||   BIST   || '''Header Type''' ||Latency Timer||Cache Line Size
+ |-
+ ! 0x10  || colspan=4 align="center"|  Base Address Register 0
+ |-
+ ! 0x14  || colspan=4 align="center"|  Base Address Register 1
+ |-
+ ! 0x18  || colspan=4 align="center"|  Base Address Register 2
+ |-
+ ! 0x1C  || colspan=4 align="center"|  Base Address Register 3
+ |-
+ ! 0x20  || colspan=4 align="center"|  Base Address Register 4
+ |-
+ ! 0x24  || colspan=4 align="center"|  Base Address Register 5
+ |-
+ ! 0x28  || colspan=4 align="center"|    Cardbus CIS pointer
+ |-
+ ! 0x2C  || colspan=2 align="center"| '''SubsystemID '''  || colspan=2 align="center"| '''Subsystem Vendor ID'''
+ |-
+ ! 0x30  || colspan=4 align="center"| Expansion ROM Base Address
+ |-
+ ! 0x34  || colspan=3 align="center"| Reserved     ||Capabilities<br>pointer
+ |-
+ ! 0x38  || colspan=4 align="center"| Reserved
+ |-
+ ! 0x3C  ||  Max_Lat  ||  Min_Gnt    ||Interrupt Pin||Interrupt Line
+ |-
+|}
+
+Регистры '''DeviceID''', '''VendorID''', '''Status''', '''Command''', '''Class Code''', 
+'''Revision ID''', '''Header Type''' являются обязательными для всех PCI-устройств (для многих типов устройств обязательными являются также регистры  '''Subsystem ID''' и '''Subsystem Vendor ID''').
+ 
+Все остальные регистры являются опциональными.
+
+== Автоматическая инициализация аппаратуры с помощью конфигурационного пространства ==
+Для того, чтобы обращаться к устройству через адресное пространство памяти или ввода-вывода, ОС программирует ''базовые адресные регистры'' (, также называемые BAR'ами), посылая конфигурационные команды PCI-контроллеру. 
+В начале загрузки системы все PCI устройства находятся в неактивном состоянии, им не назначены адреса, по которым драйвера устройств могут взаимодействовать с ними. Либо географической адресации через PCI-контроллер и настраивает BAR'ы в конфигурационном адресном пространстве. Значения BAR'ов действительны всё время, пока система включена. При отключении питания значения этих регистров теряются до следующей загрузки, в процессе которой процедура настройки повторяется. Так как этот процесс полностью автоматизирован, пользователь компьютера освобождается от непростой задачи конфигурирования нового аппаратного обеспечения, подключаемого к шине PCI (в отличие, например, от шины ISA, базовые адреса устройств, подключамых к которой, приходилось настраивать перемычками или переключателями).
+
+Любое PCI-устройство, не являющееся мостом (см. '''PCI-to-PCI Bridge Architecture Specification. Revision 1.1''') может иметь до шести BAR'ов, каждый из которых отвечает за определённый диапазон адресов в адресном пространстве памяти или ввода-вывода. Кроме того, устройство может иметь firmware).
+
+== Доступ к PCI через порты I/O ==
+Для работы с шиной PCI в PC-AT и совместимых машинах выделено два основных порта.<br />
+0CF8h -W  порт адреса Address<br />
+0CFCh RW порт данных Data <br />
+Оба порта являются 32 битными.<br />
+Порт адреса представляет из себя следующую 32 битную структуру<br />
+<code>
++---+---------+-------+----------+--------+---------------+-+-+<br />
+|31&nbsp;|30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;24|23&nbsp;&nbsp;&nbsp;16|15&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11|10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8|7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2|1|0|<br />
++---+---------+-------+----------+--------+---------------+-+-+<br />
+|&nbsp;с&nbsp;|&nbsp;резерв&nbsp;&nbsp;|шина&nbsp;&nbsp;&nbsp;|устройство|&nbsp;функция|Индекс&nbsp;регистра|0|0|<br&nbsp;/>
++---+---------+-------+----------+--------+---------------+-+-+<br />
+</code>
+'''Порт адреса''' задает шину, устройства, и адрес регистра в конфигурационном пространстве устройства.
+Грубо говоря, устройство - это физически присутствующее устройство. А функция - это логическое устройство. <br&nbsp;/>
+'''С''' - флаг доступа к устройству.  <br />
+Первые два бита в порту данных всегда 0.<br />
+По окончании работы с устройством следует сбросить адрес в 0.<br />

@@ -1,0 +1,69 @@
+В терминологии компьютерных сетей, '''балансировка (выравнивание) нагрузки''' — распределение процесса выполнения заданий между несколькими серверами сети с целью оптимизации использования ресурсов и сокращения времени вычисления.
+
+==Вступление==
+Балансировка нагрузки может быть использована для расширения возможностей сервера фирмы, состоящего более чем из одного сервера. Она также может позволить продолжать работу даже в условиях, когда несколько серверов вышли из строя. Благодаря этому растёт отказоустойчивость.
+
+Вот типы серверов, которые могут быть сбалансированы:
+* Серверные кластеры
+* Кеш
+* Firewall'ы
+* Серверы инспектирования содержания (такие как AntiVirus- или AntiSpam- серверы)
+
+==Производители программ балансировки нагрузки==
+*[http://www.vantronix.com .vantronix | secure systems ]
+* Astaro
+*[http://www.astrocorp.com/index.html Astrocom]
+* Barracuda Networks
+* CAI Networks
+*[http://www.celestix.com/products/clb/index.htm Celestix Networks]
+* Cisco
+* Citrix
+* Coyote Point Systems
+* Crescendo Networks
+* DBAM Systems
+* Elfiq Networks
+* FatPipe Networks
+* F5 Networks
+* Foundry Networks
+*[http://www.inlab.de/balanceng Inlab Software]
+* jetNEXUS
+* Juniper Networks
+* KEMP Technologies
+* Nortel
+*[http://www.peplink.com/ PePLink Multi-WAN Routers]
+* [http://www.pcticorp.com/solutions/queryload.aspx Parallel Computers Technology, Inc. (PCTI)]
+* Radware
+* [http://www.strangeloopnetworks.com Strangeloop Networks]
+*[http://www.routerstudio.com/ModuleIALB.aspx RouterStudio Load Balancing]
+* Zeus Technology
+* Sentral Systems Ltd
+
+Der Begriff '''Serverlastverteilung''' oder englisch '''Server Load Balancing''' ('''SLB''') beschreibt in der Netzwerktechnik Methoden zur Lastverteilung auf mehrere getrennte Server-Rechner im Netzwerk.
+
+== Einsatzgebiete ==
+
+Server Load Balancing kommt überall dort zum Einsatz, wo sehr viele Clients eine hohe Anfragendichte erzeugen und damit einen einzelnen Server-Rechner überlasten würden. Typische Kriterien zur Ermittlung der Notwendigkeit von SLB sind die Datenrate, die Anzahl der Clients und die Anfragerate.
+
+Ein weiterer Aspekt ist die Erhöhung der Datensicherheit durch SLB. Der Einsatz mehrerer Systeme ermöglicht redundante Datenhaltung. Die Aufgabe des SLB ist hier die Vermittlung der Clients an die einzelnen Server.
+
+Zum Einsatz kommt SLB bei großen Portalen wie etwa Wikipedia, Marktplätzen oder Online-Shops. Prinzipiell bemerkt der Anwender nicht, ob auf der Gegenseite SLB eingesetzt wird. Siehe auch Redirect (Weiterleitung).
+
+SLB kann auf verschiedenen Schichten des ISO-OSI-Referenzmodells eingesetzt werden. Man unterscheidet drei grundsätzlich verschiedene Ansätze:
+
+== DNS based SLB ==
+
+'''DNS based SLB''' wird auf der Anwendungsschicht vorgenommen und basiert auf dem Switch. Mehrere Szenarien sind möglich. Zum einen können mehrere homogene Server-Rechner mit unterschiedlichen Namen aufgebaut werden, auf die dann z.B. über einen Round-Robin-Algorithmus abwechselnd zugegriffen wird.
+
+Beispiel:
+
+Ein Client verbindet sich mit
+
+  example.com
+
+Daraufhin ist eine Weiterleitung an die Hostnamen
+
+  mirror1.example.com
+  mirror2.example.com
+  mirror3.example.com
+
+möglich.

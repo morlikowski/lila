@@ -1,0 +1,78 @@
+'''Evaporative coolers''' (also called '''swamp''', '''desert''', or '''air coolers''') are devices that cool air through the simple absorption vapor-compression or absorption refrigeration cycles.  In the United States, small-scale evaporative coolers are called '''swamp coolers''' by some users due to the humid air conditions produced. The name '''sump cooler''' is also used. '''Air washers''' and '''wet cooling towers''' utilize the same principles as evaporative coolers, but are optimized for purposes other than air cooling.
+
+Phoenix, where sufficient water is available.  Evaporative air conditioning is also popular and well suited to the southern (temperate) part of Australia.  In dry climates, the installation and operating cost of an evaporative cooler can be much lower than refrigerative air conditioning, often by 80% or so.  But evaporative cooling and vapor-compression air conditioning are sometimes used in combination to yield optimal performance.  Some evaporative coolers may also serve as humidifiers in the heating season.
+
+In moderate humidity locations there are many cost-effective uses for evaporative cooling, in addition to their widespread use in dry climates.  For example, industrial plants, commercial kitchens, laundries, dry cleaners, greenhouses, spot cooling (loading docks, warehouses, factories, construction sites, athletic events, workshops, garages, and kennels) and confinement farming (poultry ranches, hog, and dairy) all often employ evaporative cooling.  In highly humid climates, evaporative cooling may have little thermal comfort benefit beyond the increased ventilation and air movement it provides.
+
+== History ==
+
+Civilizations throughout the ages have found ingenious ways to combat the heat in their region. An earlier form of air cooling, the windcatcher (Bâd gir), was invented in Persia (Iran) thousands of years ago in the form of wind shafts on the roof, which caught the wind and passed it through water and blew the cooled air into the building.<ref>{{cite web
+ |last = lobakgo
+ |year = 2003 
+ |url = http://www.metafilter.com/comments.mefi/26911
+ |title = Badgirs--Windcatchers 
+ |work = Metafilter community weblog
+ |publisher = MetaFilter Network LLC 
+ |accessdate = 2006-07-14
+}}</ref>
+Nowadays Iranians have changed the Persian/Iranian calender) (April–May 2006) 130,000 evaporative coolers were sold in Iran.
+
+Evaporative cooling was in vogue for aircraft designs for some time in the late 1930s. In this case the system was used in order to reduce, or eliminate completely, the radiator which would otherwise create considerable drag. In these systems the water in the engine was kept under pressure with pumps, allowing it to heat to temperatures above 100 Celsius, as the actual boiling point is a function of the pressure. The super-heated water was then sprayed though a nozzle into an open tube, where it rapidly boiled and released its heat. The tubes could be placed under the skin of the aircraft, resulting in a zero-drag cooling system.
+
+However these systems also had serious disadvantages. Since the amount of tubing needed to cool the water was large, the cooling system covered a significant portion of the plane even though it was hidden. This led to all sorts of added complexity and the systems were always terribly unreliable. In addition this large size meant it was very easy for it to be hit by enemy fire, and practically impossible to armor. British and US attempts to use the system turned to ethylene glycol instead. The Germans instead used streamlining and positioning of traditional radiators. Even its most ardent supporters, Heinkel's Günter brothers, eventually gave up on it in 1940.
+
+Evaporative cooling was used in some automobiles, often as aftermarket accessories, until modern vapor-compression air-conditioning became widely available.
+
+== Evaporative cooling ==
+'''Evaporative cooling''' is a physical phenomenon in which evaporation of a liquid, typically into surrounding air, cools an object or a liquid in contact with it.  Latent heat describes the amount of heat that is needed to evaporate the liquid; this heat comes from the liquid itself and the surrounding gas and surfaces.  When considering water evaporating into air, the wet-bulb temperature, as compared to the air's dry-bulb temperature, is a measure of the potential for evaporative cooling.  The greater the difference between the two temperatures, the greater the evaporative cooling effect.  When the temperatures are the same, no net evaporation of water in air occurs, thus there is no cooling effect.
+
+A simple example of natural evaporative cooling is perspiration, or sweat, which the body secretes in order to cool itself. The amount of heat transfer depends on the evaporation rate, which in turn depends on the humidity of the air and its temperature, which is why one sweats more on hot, humid days.
+
+A recent application of evaporative cooling is the "self-refrigerating" beverage can.[http://www.tempratech.com/chill1.html] A separate compartment inside the can contains a desiccant and cooling liquid.  Just before consumption, the desiccant comes into contact with the cooling liquid, inducing evaporation.  
+
+Evaporative cooling is a very common form of cooling buildings for thermal comfort since it is relatively cheap and requires less energy than many other forms of cooling. However evaporative cooling requires an abundant water source as an evaporate, and is only efficient when the relative humidity is low, restricting its effective use to dry climates. Evaporative coolers are colloquially referred to as ''swamp coolers'' in the U.S.  In other places they are known as desert coolers.
+
+Evaporative cooling is commonly used in cryogenic applications.  The vapor above a reservoir of cryogenic liquid is pumped away, and the liquid continuously evaporates as long as the liquid's vapor pressure is significant.  Evaporative cooling of ordinary helium forms a 1-K pot, which can cool to at least 1.2 K.  Evaporative cooling of helium-3 can provide temperatures below 300 mK.  Each of these techniques can be used to make cryocoolers, or as components of lower-temperature cryostats such as dilution refrigerators.  As the temperature decreases, the vapor pressure of the liquid also falls, and cooling becomes less effective.  This sets a lower limit to the temperature attainable with a given liquid.
+
+This process has recently been observed to operate on a planetary scale on Pluto and acts as an Anti-Greenhouse Effect. Here on planet earth, trees transpire large amounts of water through pores in their leaves called stomata, and through this process of evaporative cooling, forests contribute to climatic cooling at the local and global scales. 
+<blockquote>
+"The future of tropical forests is at risk in a warmer, more populous 21st-century world. Tropical forests are vulnerable to a warmer, drier climate, which may exacerbate global warming through a positive feedback that decreases evaporative cooling, releases CO2, and initiates forest dieback ..." <ref>Gordon B. Bonan. Forests and Climate Change: Forcings, Feedbacks, and the Climate Benefits of Forests. 13 JUNE 2008 VOL 320 SCIENCE. [http://www.sciencemag.org/cgi/content/abstract/320/5882/1444]</ref>
+</blockquote> 
+
+Evaporative cooling is also the last cooling step in order to reach the ultra-low temperatures required for Bose-Einstein Condensation (BEC). Here, so-called forced evaporative cooling is used to selectively remove high-energetic ("hot") atoms from an atom cloud until the remaining cloud is cooled below the BEC transition temperature. For a cloud of 1 million alkali atoms, this temperature is about 1μK.
+
+== Evaporative cooler designs ==
+'''Direct Evaporative Cooling''' (open circuit) is used to lower the temperature of air by using latent heat of evaporation, changing water to vapor.  In this process, the energy in the air does not change.  Warm dry air is changed to cool moist air.  Heat in the air is used to evaporate water.
+
+'''Indirect Evaporative Cooling''' (closed circuit) is similar to direct evaporative cooling, but uses some type of heat exchanger.  The cooled moist air never comes in direct contact with the conditioned environment.
+
+'''Two-stage Evaporative Cooling''', or '''Indirect-Direct'''.  Traditional evaporative coolers use only a fraction of the energy of vapor-compression or absorption air conditioning systems. Unfortunately, except for in very dry climates, they may increase humidity to a level that makes occupants uncomfortable. Two-stage evaporative coolers do not produce humidity levels as high as that produced by traditional single-stage evaporative coolers.
+
+In the first stage of a two-stage cooler, warm air is pre-cooled indirectly without adding humidity (by passing inside a heat exchanger that is cooled by evaporation on the outside). In the direct stage, the precooled air passes through a water-soaked pad and picks up humidity as it cools. Because the air supply to the second stage evaporator is pre-cooled, less humidity is added to the air (because cooler air can’t hold as much moisture as warmer air). The result, according to manufacturers, is cool air with a relative humidity between 50 and 70 percent, depending on the climate, compared to a traditional system that produces about 80 percent relative humidity air.
+
+=== Typical ===
+thumbnail|250px|Evaporative cooler illustration
+
+Typically, residential and industrial evaporative coolers use direct evaporation and can be described as an enclosed metal or plastic box with vented sides containing a centrifugal fan or 'blower', electric motor with pulleys (known as 'sheaves' in HVAC), and a water pump to wet the evaporative cooling pads.  The units can be mounted on the roof (down draft, or downflow), or exterior walls or windows (side draft, or horizontal flow) of buildings. To cool, the fan draws ambient air through vents on the unit's sides and through the damp pads. Heat in the air evaporates water from the pads which are constantly re-dampened to continue the cooling process. Thus cooled, moist air is then delivered to the building via a vent in the roof or wall.
+
+}}}
+==مشخصات	اجزا مكانیكی كولر آبی ==
+*كانال خوروجی كولر : این كانال بین دریچه هوا و برزنت قرار داشته و هرچقدر بتوان از برخورد نور آفتاب با این قسمت جلوگیری نمود،سرمای به وجود آمده،تلفات كمتری داشته و راندمان خنك كنندگی كولر آبی افزایش خواهد یافت. -كانال داخلی:این كانال داخل كولر قراردارد و پروانه در مقابل آن میباشد. 
+*بدنه كولر -پارچه برزنتی:جهت جلوگیری از انتقال لرزش های كولر وه كانال خارجی الزاما باید از برزنت استفاده شود.بدهی است این پاچه باید كاملا سالم باشد. 
+*ناودان ها:بر روی هر یك از درپوش های كولر مسیری جهت ورود و توزیع اب وجود دارد كه به ناودانی معروف است. -آب پخش كن)سه راه آب( -پولی بزرگ و پولی كوچك:توسط دو پولی و تسمه راابط بین آنها نیروی مكانیكی به وجود آمده در الكتروموتور به محور فن منتقل میشود.هم راستا بودن دو پولی بسیار فوق العاده با اهمیت است. 
+*شناور)فلوتر(:با استفاده از شناور میزان آب داخت مخزن كولر همواره ثابت است. اجزا الكتریكی كولر آبی -كابل رابط چهارسیم:جهت انتقال برق از كلید به كولر. 
+*فیوز:جهت حفاظت الكتریكی كولر در برابر خطراتی چون اضافه بار. 
+*جعبه ترمینال:جهت ایجاد اتصالات مطمعن و عایق از بدنه كولر. -كلید مخصوص كولر:جهت راه اندازی و كنترل موتور دو دور و واتر پمپ. 
+*الكترو موتور دوسرعته:جهت به چرخش در آوردن فن در كولر آبی.كه شامل قسمت های زیر میباشد: *خازن راه انداز/خازن اصلاح ضریب قدرت/كلید گریز از مركز/سیم پیچ راه انداز/سیم پیچ دور كند/ سیم پیچ دور تند 
+*واتر پمپ)پمپ آب كولر(:به كمك واتر پمپ،آب از مجزن به سه راه آب منتقل و ازآنجا به ناودان ها هدایت میشود. 
+==نكات مهم در نگهداری و استفاده از كولر های آبی ==
+*هنگام نصب كولر محلی را انتخاب نمایید كه ایجاد لرزش و صدا نكند. 
+*كولر را در نزدیكی لوله دود كش و هواكش و لوله چاه فاضلاب قرار ندهید. 
+*بمنظور جلوگیری از لرزش در محل اتصال كولر به كانال از برزنت استفاده كنید. 
+*قبل از راه اندازی كولر در پوش هارا به طرف بالا و سپس به سمت بیرون از كولر حركت دهید تا خارج شوند. 
+*درصورت نیاز به تعویض پوشالها،ابتدا آنهارا خیس نموده و سپس در روی بدنه كولر همسطح قرار داده و شبكه های سیمی را روی آنها مستقر نمایید.))همسطح نبودن پوشال ها منجر به ریزش آب برروی تسمه و پولی ها ، در نتیجه آسیب دیدن موتور و اجزاء الكتریكی میشود.)تعویض پوشالها هر دوسال یكبار ضروری است(.(( 
+*یاتاقان های محور فن را در فواصل زمانی معین و متناسب با كاركرد كولر،مورد سرویس و روغن كاری قرار دهید. 
+*شناور را به گونه ای تنظیم كنیدنا آب از مخزن سرریز نشود. 
+*به منظور جلوگیری از ایجاد لجن و تعفن آب در تشتك،هر دوهفته یكبار،آب را تخلیه و مخزن را با شیلنگ شستشو نمایید. 
+*جهت ارتقاء كیفیت سرماسازی و جلوگیری از ورود گردغبار به داخل ساختمان بهتر از قبل از استارت موتور،ابتدا واتر پمپ را روشن كنید تا پوشالها خیس شوند. -در طول كار كولر همه پنجره های ساختمان را نبندید و جهت جابجایی هوا،مسیر كوچكی را در نظر بگیرید.در غیر اینصورت كیفیت كار كولر پایین میاید. 
+*در پایان فصل گرمابرق كولر را قطع كنید.فلكه یا شیر آب ورودی كولر را كاملا بسته و آب درون مخزن را تخلیه كنید.سپس دریچه های كولر را ببندید و برروی بدنه كولر پارچه برزنتی بكشید.

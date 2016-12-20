@@ -1,0 +1,54 @@
+{{Infobox_Software
+ | jméno = aRts
+ | logo=48px
+ | screenshot =
+ | popis = aRts
+ | developer = Stefan Westerfeld
+ | aktuální verze = 1.5.6
+ | datum aktuální verze =
+ | operační systém = Unix-like
+ | typ software = Sound Server
+ | licence = GPL
+ | web = [http://www.kde.org/ www.kde.org]
+}}
+'''aRts''' je zkratka pro analogový syntetizér v Reálném čase (anglicky '''a'''nalog '''R'''eal '''t'''ime '''s'''ynthesizer. Je to aplikace, která simuluje analogový syntetizér pod KDE.
+
+Klíčovou komponentou aRts je zvukový server, který smíchává dohromady zvukové proudy (v reálném čase). Tento zvukový server se nazývá aRtsd (d označuje službu na pozadí - z angličtiny daemon) a je použit jako výchozí v projektu KDE, ale na KDE není striktně závislý a může proto být použit i v jiných projektech.
+Je přímým konkurentem zvukovým serverem (pracujícím v reálném čase) a nepřímým konkurentem k ALSA.
+
+V platformě '''aRts''' je také zahrnut aRts stavitel - který vám dovolí vytvořit si vlastní nastavení audio mixérů, sekvencerů, syntetizérů a jiných audio schémat. 
+
+Mimo jiné je '''aRts''' svobodným softwarem a je rozšiřován pod  GNU-GPL licencí.
+
+== Budoucnost aRts ==
+2. prosince roku 2004 tvůrce a hlavní vývojář Stefan Westerfeld oznámil, že odchází z projektu kvůli základním a technickým problém s vývojem aRts.
+
+Plán pro KDE4 je nahradit stávající aRts novým multimediálním API známým jako Phonon.
+
+{{Infobox_Software |
+  nome = aRts |
+logo = 50px |
+  screenshot = |
+  didascalia = |
+  sviluppatore = Stefan Westerfeld |
+  versione_ultimo_rilascio = 1.5.3 |
+  data_ultimo_rilascio =  |
+  sistema_operativo = Multi piattaforma |
+  genere = Server sonoro |
+  licenza = GPL |
+  sito_web = [http://www.kde.org/ www.kde.org] |
+}}
+
+'''aRts''', che sta per '''a'''nalog '''R'''eal '''t'''ime '''s'''ynthesizer, è un'applicazione che simula un sintetizzatore analogico sotto KDE/Linux. Un componente chiave di aRts è il server sonoro che mixa differenti fonti sonore in streaming in tempo reale. Il server sonoro chiamato aRtsd (la ''d'' sta per ''demone'', inteso come servizio) è il server sonoro predefinito di KDE, tuttavia i due software non dipendono l'uno dall'altro e aRts può essere usato in altri progetti.
+
+Infine, anche se è rilasciato sotto licenza GPL, parti del codice sono sotto LGPL e possono essere incluse in programmi commerciali.
+
+==Principio di aRts==
+aRts è stato dall'inizio pensato e realizzato come un sintetizzatore molto flessibile.
+Non è stato infatti progettato come un programma per suonare pochi strumenti integrati, non è stato dotato neppure di tre effetti sonori ed un mixer.
+
+Tutto, come i mixer dell'equalizzatore, i banchi degli effetti, centinaia di bottoni e di impostazioni, dovrebbero essere modularizzati. Non ci dovrebbe essere niente che non può essere riconfigurato, nascosto, ruotato o modificato. ''Builder'' è stato pensato come uno studio virtuale dove ogni cosa può essere cambiata come desiderato. Anche nuovi sintetizzatori possono essere aggiunti in un attimo.
+
+Ovviamente ci sono librerie, effetti, mixer, filtri complessi, unità MIDI che vengono fornite con aRts. Queste caratteristiche non sono dentro il codice: vengono scritte da aRts, così tutto sarà accessibile via aRts Builder.
+
+Purtroppo alcune di queste caratteristiche non sono state ancora implementate, e con ogni probabilità non verranno mai aggiunte (''vedi il paragrafo 'Futuro di aRts''')

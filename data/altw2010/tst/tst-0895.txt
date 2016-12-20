@@ -1,0 +1,36 @@
+SAE '''J1939''' is the vehicle bus standard used for communication and diagnostics among vehicle components, originally by the car and heavy duty truck industry in the United States.
+
+J1939 is used in the commercial vehicle area for communication in the engine compartment. With a different physical layer it is used between the tractor and trailer. This is specified in ISO 11992.
+
+SAE J1939 defines five layers in the 7-layer OSI network model, and this includes the CAN 2.0b specification (using only the 29-bit/"extended" identifier) for the physical and data-link layers. The session and presentation layers are not part of the specification.
+
+Originally, CAN was not mentioned in J1939, which covered cars and tractor-trailer rigs, and with some dual and triple use 8-bit addresses assigned by the SAE J1939 board. CAN was not originally free, but its instruction set did fit in the custom instruction format of J1939. This was true as of the year 2000. Since then, CAN has been included, the chipset for J1939 has been clocked faster, and 16-bit addresses (PGN) have replaced 8-bit addresses.
+
+J1939,ISO_11783 and NMEA_2000 all share the same high level protocol.
+
+The standard defines an index called PGN (Parameter Group Number), which is embedded in the message's 29-bit identifier. A PGN identifies a message's function and associated data.  J1939 attempts to define standard PGNs to encompass a wide range of automotive purposes.  For example, there exist predefined PGNs for information such as engine RPM.  A range of PGNs (00FF00<sub>16</sub> through 00FFFF<sub>16</sub>, inclusive) is reserved for proprietary use.
+
+Le '''SAE J1939''' est un CAN. Il utilise principalement la norme CAN 2.0 B comportant des identifiants de message codés sur 29 bits.
+
+Ce protocole spécifie l'utilisation du CAN sur les diverses couches du modèle OSI (3 à 7). Ses applications sont diverses, mais sont principalement dans les marchés du camion, et des véhicules lourds ou spéciaux.
+
+J1939 est aussi le protocole de base utilisé pour les protocoles ISO11783 (agriculture) et NMEA2000 (maritime), qui eux définissent plus précisement la couche applicative.
+
+== Groupes de paramètres ==
+
+Les trames de données circulant sur le CAN J1939 sont identifiées par leur PGN (Parameter Group Number). Un groupe de paramètres regroupe des informations qui se ressemblent (exemples : fluides du moteurs, températures moteur...)
+
+On trouvera donc l'information souhaitée dans un PGN particulier, il faudra ensuite en extraire LE paramètre voulu.
+
+PGN particulier : trame DM1 Multipacket
+  -> trame de remontée de défaut : la zone de données peut excéder les 8 octets habituels si plusieurs défauts sont activés.
+
+== Gestion de vie réseau ==
+== Interprétation des identificateurs CAN ==
+L'indentifieur CAN dans l'ordre
+# Bit 1 à 3 : Priorité
+# Bit 4 : Réserve
+# Bit 5 : Page de données
+# Bit 6 à 13 : Format PDU
+# Bit 14 à 21 : Spécifique PDU
+# Bit 22 à 29 : Adresse Source

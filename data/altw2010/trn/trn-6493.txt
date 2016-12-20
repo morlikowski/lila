@@ -1,0 +1,67 @@
+Die '''Signalentdeckungstheorie''' wurde von John A. Swets und David M. Green entwickelt und erstmals Luftangriff auf Pearl Harbor, der weder vom Radar, noch von der Funküberwachung der US-amerikanischen Abwehr entdeckt worden war. Daher stammt auch der Name ''receiver operator characteristic'' (s.u.).
+
+==Originalexperiment==
+Green und Swets spielten ihren Probanden viele Geräuschproben vor, die zum Teil nur Rauschen enthielten, zum anderen Teil zusätzlich einen kaum vernehmbaren Ton. Die Versuchspersonen gaben an, ob sie einen Ton gehört haben oder nur Rauschen. Wie schon bei den meisten früheren psychophysischen Experimenten zeigte sich, dass ihre Leistung nicht nur vom Signal-Rausch-Abstand (also wie deutlich der Ton sich vom Rauschen abhob) und ihrer tatsächlichen Detektionsleistung abhing, sondern von vielen zusätzlichen Faktoren beeinflusst wurde, u. a. Motivation, Vigilanz/Müdigkeit, Ablenkung durch Störeinflüsse, Information wieviel Prozent der Geräuschproben Töne enthielt usw. Green und Swets besonderes Interesse galt jedoch der ''Antworttendenz'', die die Probanden zeigten, wenn sie sich unsicher waren: Manche entschieden sich häufiger für „ja, ich habe einen Ton gehört“ (sogenanntes ''liberales'' Kriterium), während andere im Zweifelsfall eher „nein, ich habe keinen Ton gehört“ antworteten (''konservatives'' Kriterium). Die tatsächliche Detektionsleistung kann nur ermittelt werden, wenn die Antworttendenz herausgerechnet wird, wie folgendes Beispiel zeigt: <br>
+Zwei Medizinstudenten sollen je 20 Röntgenaufnahmen begutachten, von denen, was sie aber nicht wissen, 10 einen Tumor zeigen. Student A möchte möglichst nichts übersehen und entscheidet sich bei 13 Aufnahmen für die Diagnose „Tumor“. Davon sind 9 richtig erkannt und 4 falsch. Student B hingegen möchte sich ganz sicher sein und entscheidet sich bei 7 Aufnahmen für „Tumor“. Davon sind 6 richtig und 1 falsch. Beide haben also die gleiche Leistung (9 – 4 = 6 – 1), nur dass Student A ein liberaleres Antwortkriterium als B hat.
+
+==Maßzahlen==
+Das Signal kann vorhanden sein oder nicht, und die Testperson (oder das Detektionssystem) kann eine Entdeckung melden oder nicht, sodass vier Kombinationen möglich sind:
+{| class="prettytable"
+|-class="hintergrundfarbe5"
+! || Signal vorhanden                                                  || kein Signal vorhanden
+|-
+| '''entdeckt'''           || Treffer (engl. hit)                                        || falscher Alarm (falsch positiv, engl. false alarm)
+|-
+| '''nicht entdeckt'''     || Verpasser (falsch negativ, engl. miss / false rejection)  || korrekte Ablehnung (engl. correct rejection)
+|}
+
+Um das Sensitivitätsmaß d' zu berechnen ermittelt man zunächst die relativen Häufigkeiten der Treffer und der falschen Alarme, führt mit diesen Werten eine z-Transformation durch und bildet abschließend die Differenz:<br>
+d' = z(Treffer) - z(falscher Alarm)
+
+Eine weitere, seltener verwendete Maßzahl ist die Antworttendenz (auch Reaktionsneigung genannt):</br>
+c = −0.5*(z(falscher Alarm) + z(Treffer)).
+
+Beispiel: Ein junger Drogensuchhund hat eine relative Häufigkeit an Treffern von 0.89 und eine relative Häufigkeit an falschen Alarmen von 0.59. Daraus errechnet sich eine Sensitivität von d' = 1 und eine Antworttendenz von −0.73. Nach einigen Jahren „Berufserfahrung“ hat der Hund eine Trefferquote von 96 % und schlägt nur noch in 39 % der Fälle falschen Alarm. Daher verbessert sich seine Detektionsleistung d' auf 2.03, während seine Antworttendenz c mit −0.74 gleich geblieben ist (was von einem Hund auch zu erwarten ist).
+
+==Theoretische Annahmen==
+Während ursprünglich mit „Rauschen“ tatsächlich das Rauschen im Kopfhörer des „Receiver Operators“ gemeint war, fasst man heute unter diesem Begriff all jene inneren und äußeren Einflüsse zusammen, die den Diagnostiker dazu bewegen können, „ja“ zu sagen, obwohl überhaupt kein Signal vorhanden ist. Die Wahrscheinlichkeit, dass das Rauschen einen Fehlalarm hervorruft, wird als normalverteilt angenommen (im Bild die obere Glockenkurve). Gegen dieses Hintergrundrauschen, das immer vorhanden ist, muss sich das Signal „durchsetzen“, d. h. es wird zum Rauschen dazu addiert. Dadurch wird die Wahrscheinlichkeitsverteilung nach rechts verschoben (im Bild die untere Glockenkurve). <br>
+Bei schweren Aufgaben (geringer Signal-Rauschen-Abstand) sind die Kurven flach und breit und überlappen stark (so wie hier im Bild), bei leichten Aufgaben sind sie steil und schmal und überlappen nur wenig.
+
+300px|Normalverteilungen von Signal- und Rauscherkennung
+
+'''Detection theory''', or '''signal detection theory''', is a means to quantify the ability to discern between signal and noise.
+According to the theory, there are a number of psychological determiners of how we will detect a signal, and where our threshold levels will be. Experience, expectations, physiological state (e.g. fatigue) and other factors affect thresholds. For instance, a sentry in wartime will likely detect fainter stimuli than the same sentry in peacetime.
+
+Much of the early work in detection theory was done by radar researchers.<ref>
+Marcum, J. “A statistical theory of target detection by pulsed radar”, IEEE Trans. Info. Thry., Apr. 1960.
+</ref>
+Detection theory was used in 1966 by John A. Swets and David M. Green for psychophysics.<ref>Swets, J.A. (ed.) (1964) ''Signal detection and recognition by human observers''. New York: Wiley</ref> Green and Swets criticized the traditional methods of psychophysics for their inability to discriminate between the real sensitivity of subjects and their (potential) response biases.<ref>Green, D.M., Swets J.A. (1966) ''Signal Detection Theory and Psychophysics''. New York: Wiley. (ISBN 0-471-32420-5)</ref> 
+
+Detection theory has applications in many fields such as noise. 
+
+==Psychology==
+
+Signal detection theory (SDT) is used when psychologists want to measure the way we make decisions under conditions of uncertainty, such as how we would perceive distances in foggy conditions. SDT assumes that the decision maker is not a passive receiver of information, but an active decision-maker who makes difficult perceptual judgements under conditions of uncertainty. In foggy circumstances, we are forced to decide how far away from us an object is based solely upon visual stimulus which is impaired by the fog. Since the brightness of the object, such as a traffic light, is used by the brain to discriminate the distance of an object, and the fog reduces the brightness of objects, we perceive the object to be much further away than it actually is (see also Decision theory).
+
+To apply signal detection theory to a data set where stimuli were either present or absent, and the observer categorized each trial as having the stimulus present or absent, the trials are sorted into one of four categories:
+
+:{| class="wikitable"
+|-
+! 
+! Respond "Absent"
+! Respond "Present"
+|- 
+! Stimulus Present
+| Miss
+| Hit
+|- 
+! Stimulus Absent
+| Correct Rejection
+| False Alarm
+|}
+
+Based on the proportions of these types of trials, numerical estimates of sensitivity can be obtained with statistics like the sensitivity index d' and A', and response bias can be estimated with statistics like β.
+
+== Applications ==
+
+Signal Detection Theory has wide application, both in humans and other animals.  Topics include memory, stimulus characterists of schedules of reinforcement, etc.

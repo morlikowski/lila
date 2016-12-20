@@ -1,0 +1,119 @@
+'''Johnston diagrams''', which look similar to Euler or propositional logic in a visual manner. Logically they are equivalent to truth tables; some may find them easier to understand at a glance. By overlaying one Johnston diagram on another, deductions can be made from sets of propositions.
+
+Suppose that it is desired to compose logical statements describing the present state of current events in the world (or perhaps about imaginary situations in an imaginary world).  Let the universal set contain (as elements) all the possible states which the world might find itself in.  Only one of a variety (perhaps infinite) of elements represents the actual state of the world.  All other elements represent alternative states of the world &mdash; "possible worlds".  Thus, the universal set represents the space of all logical possibilities.
+
+Then, the objective of a logical statement should be to say something about the state of the actual world.  The way this will be done &mdash; using Johnston diagrams &mdash; is to mark white regions of the universal set which contain elements which represent alternative states of the world which could not possibly be the state of the actual world.
+
+So white (false) regions on a Johnston diagram are "regions of impossibility", whereas red (true) regions are "regions of possibility": one (and only one) of the elements in the regions of possibility describes the "world" as it actually is.  The objective is to narrow down the region of possibility as much as possible, up to a single point which describes reality.
+
+Let the universal set be represented by a Points inside or on the circle are members of ''A''; points outside the circle are not members of ''A'', but are members of <math> \bar{A} </math>, the complement of ''A''.
+
+Now let the region of ''A'' be marked red (see Figure 1).
+
+:|281px|Figure 1: A.
+:''Figure 1.  Johnston diagram representing the statement "A is true".''
+
+Then the region of possibility has become equivalent to set ''A'', so Figure 1 is a Johnston diagram representing the propositional statement ''A''.
+
+But if, instead, the region outside ''A'' is marked red and the region inside is white, then the region of possibility will be equivalent to the complement of ''A'' (see Figure 2) and the diagram will represent the propositional statement <math> \neg A </math>: "not A".
+
+:281px|Figure 2: Not A.
+: ''Figure 2.  Johnston diagram representing the statement "A is not true".''
+
+Draw another circle &mdash; intersecting the first circle &mdash; and call it ''B''.  Points inside this second circle are members of ''B'', and points outside it are members of <math> \bar{B} </math>.
+
+If the region inside ''B'' is red and the region outside it is white (see Figure 3), the resulting diagram is equivalent to the statement ''B'',
+
+:|281px|Figure 3: B.
+: ''Figure 3.  Johnston diagram representing the statement: "B is true".''
+
+but if the region inside ''B'' is white and the region outside it is red (see Figure 4), the resulting diagram is equivalent to the statement <math> \neg B </math> ("not B").
+
+:|281px|Figure 4: Not B.
+: ''Figure 4.  Johnston diagram representing the statement: "B is not true".''
+
+A pair of statements can be combined by means of the logical AND operator.  To combine a pair of Johnston diagrams using the AND operator, superpose them so that elements (points) that end up on top of each other (in the superposition) are identically equivalent and represent the same possible state of the world.
+
+Then create the combined diagram as follows: if a point belongs to the impossibility space of at least one of the two component statements, then it belongs to the impossibility space of both statements.  So, combining Figures 1 and 3 by means of the AND operator produces Figure 5, equivalent to the propositional statement <math> A \wedge B </math> ("A and B"), and Figure 5's possibility space is the set <math> A \cap B </math> ("A intersection B").
+
+:|281px|Figure 5: A and B.
+:''Figure 5.  Johnston diagram representing the statement: "Both A and B are true."''
+
+A pair of statements can also be combined by means of the logical OR operator.  To do so, superpose their Johnston diagrams, and create the combined diagrams as follows: if a point belongs to the impossibility spaces of both component diagrams, then it belongs to the impossibility space of the combined diagram.  Otherwise, if it belongs to at least one component possibility space, then it belongs to the combined possibility space.
+
+So, combining Figures 1 and 3 by means of the OR operator produces Figure 6, equivalent to the propositional statement <math> A \vee B </math> ("A or B"), and Figure 6's possibility space is the set <math> A \cup B </math> ("A union B").
+
+:|281px|Figure 6: A or B.
+:''Figure 6.  Johnston diagram representing the statement: "A or B is true." (Either A or B (or both) are true.)''
+
+It is also possible to apply the logical NOT operator to a Johnston diagram to obtain its negation.  To do so, swap the possibility and impossibility spaces of the given diagram.  This means to whiten red regions while simultaneously marking red the white regions.  The resulting diagram will represent a statement which negates the statement represented by the original diagram.
+
+As an example, applying the NOT operator to Figure 1 yields Figure 2: statement ''A'' becomes statement <math> \neg A </math>.  Another example is to apply the NOT operator to Figure 6, obtaining Figure 7 whose impossibility space is the set <math> A \cup B </math> and whose impossibility space is the set <math> \overline{A \cup B} = \bar{A} \cap \bar{B} </math>, and which represents the logical statement <math> \neg (A \vee B) </math> which is equivalent &mdash; due to De Morgan's law &mdash; to the statement <math> \neg A \wedge \neg B </math> ("not A and not B").
+
+:|281px|Figure 7: Not A and Not B.
+:''Figure 7.  Johnston diagram representing the statement "Neither A nor B is true".''
+
+Notice that Figure 7 can also be obtained by combining Figures 2 and 4 by means of the AND operator.
+
+Statements ''A'' and ''B'' can also be combined to form the statement <math> A \rightarrow B </math> ("A implies B").  To represent this with a Johnston diagram, let its possibility space be equivalent to the set <math> \bar{A} \cup B </math>.  Thus, the statement <math> A \rightarrow B </math> can be represented by combining Figures 2 and 3 by means of the OR operator.  The result is shown in Figure 8, viz.
+
+'''Mengendiagramme''' dienen der grafischen Veranschaulichung der Mengenlehre. Es gibt unterschiedliche Arten von Mengendiagrammen, zum Beispiel ''Euler-Diagramme'' (nach Leonhard Euler), ''Venn-Diagramme'' (nach John Venn) oder ''Johnston-Diagramme.'' Sie unterscheiden sich in erster Linie hinsichtlich ihres Anwendungsbereichs.
+
+Mengendiagramme können Mengenbeziehungen verdeutlichen, sind jedoch im Allgemeinen nicht als mathematische Beweismittel geeignet. Als Beweismittel eignen sich nur solche Mengendiagramme, die ''alle'' möglichen Relationen der vertretenen Mengen darstellen; solche Diagramme werden Venn-Diagramme genannt. Der Nachteil von Venn-Diagrammen liegt darin, dass sie bei mehr als drei beteiligten Mengen rasch unübersichtlich werden, weil sie bei ''n'' Objekten <math>2^n</math> Möglichkeiten darstellen müssen. Venn selber konnte unter der Verwendung von Ellipsen bis zu vier, schließlich sogar fünf beteiligte Mengen darstellen.
+
+== Beispiele ==
+Es sind die folgenden Veranschaulichungen durch Euler-Diagramme üblich:
+{| cellspacing="0" cellpadding="10"
+|----- valign="top"
+||
+x ist Element der Menge A
+||
+<math>x \in A</math>; <math>x</math> ist ein Element von <math>A</math>.
+|----- valign="top"
+||
+x ist kein Element der Menge A
+||
+<math>x \notin A</math>; <math>x</math> ist nicht Element von <math>A</math>
+|----- valign="top"
+||
+B ist Teilmenge von A
+||
+<math>B \subset A</math> bzw.  <math>A \supset B</math> ; <math>B</math> ist eine Teilmenge von <math>A</math> bzw. <math>A</math> ist Obermenge von <math>B</math>.
+|}
+
+Die folgenden Mengendiagramme sind Venn-Diagramme, weil jedes von ihnen alle möglichen Relationen zweier Mengen ''A'' und ''B'' zeigt: Der Kreis für ''A'' zeigt den Umfang der Menge ''A,'' der Kreis für ''B'' den Umfang der Menge ''B.'' Die Schnittfläche der beiden Kreise ''A'' bzw. ''B'' zeigt den Umfang der Schnittmenge der Mengen ''A'' und ''B;'' und so weiter. Jener Teil des Kreises ''A,'' der außerhalb der Schnittfläche beider Kreise liegt, umfasst alle Elemente der Menge ''A,'' die nicht auch Elemente der Menge ''B'' sind. Jener Teil des Kreises ''B,'' der außerhalb der Schnittfläche beider Kreise liegt, umfasst alle Elemente der Menge ''B,'' die nicht auch Elemente der Menge ''A'' sind; und so weiter.
+
+{| cellspacing="0" cellpadding="10"
+|----- valign="top"
+||
+150px|A geschnitten mit B
+||
+<math>A \cap B</math> (Durchschnitt); <math>A</math> geschnitten mit <math>B</math>, also alle Elemente, die sowohl in <math>A</math> als auch in <math>B</math> enthalten sind.
+|----- valign="top"
+||
+150px|A vereinigt mit B
+||
+<math>A \cup B</math> (Vereinigungsmenge); A vereinigt mit B, also alle Elemente, die in <math>A</math> oder in <math>B</math> oder in beiden enthalten sind.
+|----- valign="top"
+||
+150px|A ohne B
+||
+<math>A \setminus B</math> (Differenzmenge); <math>A</math> ohne <math>B</math>, also alle Elemente, die in <math>A</math> enthalten sind, aber nicht in <math>B</math>.<br/> Mit der Negation schreibt es sich: <math>A \subseteq \bar B</math>
+|----- valign="top"
+||
+|}
+
+==Anwendungsbereiche==
+;Euler-Diagramme
+Euler-Diagramme werden in erster Linie dazu eingesetzt, mengentheoretische Sachverhalte, zum Beispiel die Teilmengeneigenschaft, anschaulich zu machen.
+
+;Venn-Diagramme
+Venn-Diagramme lassen sich, da sie alle Relationen zwischen den betrachteten Mengen darstellen, dazu verwenden, Zusammenhänge abzulesen und aus dem Vorliegen einzelner Relationen auf das Vorliegen anderer Relationen zu schließen.
+
+===Erweiterung auf mehr Mengen===
+{| align="top"
+| thumb|right|120px|Venns Konstruktion mit n = 3
+| thumb|right|120px|Venns Konstruktion mit n = 4
+| thumb|right|120px|Venns Konstruktion mit n = 5
+| thumb|right|120px|Venns Konstruktion mit n = 6
+|}

@@ -1,0 +1,99 @@
+{{infobox Franse gemeente|
+|plaatsnaam= Courmes
+|wapen= 
+|kaart= 
+|regio= Provence-Alpes-Côte d'Azur 
+|departement= Alpes-Maritimes (06)
+|arrondissement= Grasse
+|kanton= Le Bar-sur-Loup
+|jaar= 2004
+|inwoners= 88
+|dichtheid= 5,5
+|oppervlakte= 16,0
+|water= 
+|latitudeGraden= 43 |latitudeMinuten= 45|latitudeSeconden= 0
+|longitudeGraden= 7 |longitudeMinuten= 1 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 263 |kaartY= 240
+|code= 06049
+|postcode= 06620
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Courmes''' is een gemeente in het Franse departement Grasse.
+
+==Geografie==
+De oppervlakte van Courmes bedraagt 16,0 km², de bevolkingsdichtheid is 5,5 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:300 color:gray1 width:1       
+  from:start till:end             
+  bar:200 color:gray1              
+  from:start till:end            
+  bar:100 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,39)(84,35) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 34 1968: 26
+  points:(84,35)(100,44)    color:blue    width:2 #1975: 42
+  points:(100,44)(128,54)   color:blue    width:2 #1982: 60
+  points:(128,54)(160,56)   color:blue    width:2 #1990: 64
+  points:(160,56)(196,70)   color:blue    width:2 #1999: 88
+  points:(196,70)(228,70)     color:blue    width:2 #2004/5 
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+==Externe links==
+*[http://www.mapquest.com/maps/map.adp?searchtype=address&formtype=latlong&latlongtype=degrees&latdeg=43&latmin=45&latsec=0&longdeg=7&longmin=1&longsec=0&zoom=6 Locatie van de gemeente (kaart met schaal 1:100.000) op Mapquest]
+*[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=06049&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Meer statistische informatie over de gemeente op www.insee.fr] 
+
+{{FRA gmina infobox
+|    herb_gminy = 
+|   flaga_gminy = 
+|    mapa_gminy = 
+|         Gmina = Courmes
+|        region = Prowansja-Alpy-Wybrzeże Lazurowe
+|   departament = Alpes-Maritimes
+|  powierzchnia = 16
+|      stopniEW = 7 |minutEW = 1 
+|      stopniNS = 43 |minutNS = 45 
+|      wysokosc = 
+|          szer = N
+|          dług = E
+|           rok = 1990
+|     populacja = 64
+|       gęstość = 4
+|  kod_pocztowy = 06620
+|         INSEE = 06049
+|}}
+'''Courmes''' to miejscowość i gmina we Francji, w regionie Prowansja-Alpy-Wybrzeże Lazurowe, w departamencie Alpes-Maritimes.
+
+Według danych na rok 1990 gminę zamieszkiwały 64 osoby, a gęstość zaludnienia wynosiła 4&nbsp;osoby/km² (wśród 963 gmin regionu Prowansja-Alpy-W.&nbsp;Lazurowe Courmes plasuje się na 725. miejscu pod względem liczby ludności, natomiast pod względem powierzchni na miejscu 575.).
+
+=== Linki zewnętrzne ===
+* Źródło danych: [http://www.insee.fr Insee]
+* '''Mapy i zdjęcia satelitarne: '''
+** Zdjęcie satelitarne: [http://maps.google.com/maps?ll=43.75,7.167&spn=0.1,0.1&t=k Google maps]
+** Mapa: [http://maps.msn.com/(cgxnej455qpgxeu5vurxtejz)/map.aspx?&lats1=43.75&lons1=7.167&alts1=14&regn1=2 MSN World Atlas]

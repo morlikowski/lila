@@ -1,0 +1,99 @@
+<!-- Il testo commentato è SOLO UN ESEMPIO -->
+ {{Comune francese|nomecomune= Saint-Georges-de-Didonne <!-- Nizza -->
+ |stemma=Blason ville fr Saint-Georges-de-Didonne (Charente-Maritime).svg
+ |nomefrancese= Saint-Georges-de-Didonne <!-- Nice -->
+ |nomeregione= Poitou-Charentes <!-- Bretagna -->
+ |nomedipartimento= Charente-Maritime <!-- Calvados -->
+ |arrondissement= Rochefort
+ |cantone= Royan-Est
+ |latitudine= 45° 36' N <!-- 37° 54' N -->
+ |longitudine= 1° 0' O <!-- 12° 30' E -->
+ |altitudine= &nbsp; <!-- 187 -->
+ |superficie= 10,57 <!-- 1.285 -->
+ |abitanti=  5.034  <!-- 346.804 -->
+ |anno= 1999 <!-- 1999 -->
+ |densita= 476,25 <!-- 1.747,45 -->
+ |insee= 17333 <!-- 152 -->
+ |cap= 17110 <!-- 2750 -->
+ |sito= &nbsp; <!-- http://www.fontainebleau.fr/-->
+ |mappaX= 86
+ |mappaY= 182
+ }} <!-- fine della tabella - per la compilazione vedi -> Aiuto:Comune francese-->
+ 
+'''Saint-Georges-de-Didonne''' è un comune francese di 5.034 abitanti situato nel dipartimento della Charente-Maritime nella regione di Poitou-Charentes.
+
+==Evoluzione demografica==
+
+Saint-Georges-de-Didonne
+Saint-Georges-de-Didonne
+
+{{infobox Franse gemeente|
+|plaatsnaam= Saint-Georges-de-Didonne
+|wapen= 
+|kaart= 
+|regio= Poitou-Charentes 
+|departement= Charente-Maritime (17)
+|arrondissement= Rochefort
+|kanton= Royan-Est
+|jaar= 1999
+|inwoners= 5034
+|dichtheid= 474,9
+|oppervlakte= 10,6
+|water= 
+|latitudeGraden= 45 |latitudeMinuten= 36|latitudeSeconden= 0
+|longitudeGraden= 1 |longitudeMinuten= 0 |longitudeSeconden= 0
+|E of W=W |ol of wl=W.L.
+|kaartX= 86 |kaartY= 182
+|code= 17333
+|postcode= 17110
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Saint-Georges-de-Didonne''' is een gemeente in het Franse departement Rochefort.
+
+==Geografie==
+De oppervlakte van Saint-Georges-de-Didonne bedraagt 10,6 km², de bevolkingsdichtheid is 474,9 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:6900 color:gray1 width:1       
+  from:start till:end             
+  bar:4600 color:gray1              
+  from:start till:end            
+  bar:2300 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,103)(84,111) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 3388 1968: 3680
+  points:(84,111)(100,118)    color:blue    width:2 #1975: 3983
+  points:(100,118)(128,126)   color:blue    width:2 #1982: 4287
+  points:(128,126)(160,136)   color:blue    width:2 #1990: 4705
+  points:(160,136)(196,144)   color:blue    width:2 #1999: 5034
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+==Externe links==
+*[http://www.saintgeorgesdedidonne.com/ Informatie over Saint-Georges-de-Didonne]
+*[http://www.mapquest.com/maps/map.adp?searchtype=address&formtype=latlong&latlongtype=degrees&latdeg=45&latmin=36&latsec=0&longdeg=-1&longmin=0&longsec=0&zoom=6 Locatie van de gemeente (kaart met schaal 1:100.000) op Mapquest]
+*[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=17333&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Meer statistische informatie over de gemeente op www.insee.fr] 

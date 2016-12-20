@@ -1,0 +1,94 @@
+{{Info/Comuna da França|
+|nome         = Laqueuille
+|nomefr       = Laqueuille
+|região       = Auvergne
+|departamento = Puy-de-Dôme
+|área         = 22,47
+|altitude     = 
+|latP         = N | latG = 45 | latM = 39 | latS = 0
+|lonP         = E | lonG = 2 | lonM = 44 | lonS = 0
+|população    = 382
+|densidade    = 17
+|censo        = 1999
+|insee        = 63189 <!-- Código INSEE -->
+|códpostal    = 63820 <!-- Código postal -->
+|mapa         = <!-- Insira apenas o nome da imagem -->
+|escudo       = <!-- Insira apenas o nome da imagem -->
+|bandeira     = <!-- Insira apenas o nome da imagem -->
+|imagem       = <!-- Insira apenas o nome da imagem -->
+|legenda      = <!-- Legenda para a imagem -->
+|gentílico    = 
+|website      = 
+|notas        = 
+}}
+'''Laqueuille''' é uma região administrativa de departamento km&sup2;, com 382 habitantes, segundo os densidade 17 hab/km&sup2;.
+
+Categoria:Comunas da França
+Categoria:Comunas de Auvergne
+Categoria:Comunas do departamento de Puy-de-Dôme
+
+{{infobox Franse gemeente|
+|plaatsnaam= Laqueuille
+|wapen= 
+|kaart= 
+|regio= Auvergne 
+|departement= Puy-de-Dôme (63)
+|arrondissement= Clermont-Ferrand
+|kanton= Rochefort-Montagne
+|jaar= 1999
+|inwoners= 384
+|dichtheid= 17,1
+|oppervlakte= 22,5
+|water= 
+|latitudeGraden= 45 |latitudeMinuten= 39|latitudeSeconden= 0
+|longitudeGraden= 2 |longitudeMinuten= 44 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 166 |kaartY= 180
+|code= 63189
+|postcode= 63820
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Laqueuille''' is een gemeente in het Franse departement Clermont-Ferrand.
+
+==Geografie==
+De oppervlakte van Laqueuille bedraagt 22,5 km², de bevolkingsdichtheid is 17,1 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:900 color:gray1 width:1       
+  from:start till:end             
+  bar:600 color:gray1              
+  from:start till:end            
+  bar:300 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,129)(84,120) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 577 1968: 531
+  points:(84,120)(100,115)    color:blue    width:2 #1975: 502
+  points:(100,115)(128,96)   color:blue    width:2 #1982: 402
+  points:(128,96)(160,92)   color:blue    width:2 #1990: 382
+  points:(160,92)(196,93)   color:blue    width:2 #1999: 384
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

@@ -1,0 +1,56 @@
+thumb|Astro-E (NASA)
+thumb|Astro-E2 (NASA)
+'''ASTRO-E''' and '''ASTRO-EII''' (or '''Astro-E2''') are Japanese gamma-rays (0.3--600 keV). High resolution spectroscopy and wide-band are essential factors to physically investigate high energy astronomical phenomena, such as black holes and supernovae.  One such feature, the broad Iron K line, may be key to more direct imaging of black holes.  After a successful launch, ASTRO-EII was nicknamed '''Suzaku''' which means "red bird of the south."
+
+The spacecraft functioned flawlessly until July 29, 2005 when the first of many occurrences of a mysterious vacuum system malfunction occurred.  On August 8, 2005 this malfunction caused the entire liquid helium to boil off into space.  This effectively shut down the XRS which is the spacecrafts primary instrument.  The two other instruments, XIS and HXD, are unaffected by this malfunction. It is planned to integrate the XRS into the proposed NeXT x-ray observation satellite planned for launch in 2012.<sup>[http://www.oa.uj.edu.pl/2006jets/talks/Fujimoto/Fujimoto.pdf]</sup>
+==ASTRO-E2 Instruments==
+* X-ray Telescope (XRT)
+* X-ray Spectrometer (XRS)
+* X-ray Imaging Spectrometer (XIS)
+* Hard X-ray Detector (HXD)
+** Uses Gadolinium Silicate crystal (GSO), Gd<sub>2</sub>SiO<sub>5</sub>(Ce)<ref name=TTakahashi>[http://xxx.lanl.gov/abs/astro-ph/0611232 Hard X-ray Detector (HXD) on Board Suzaku], T. Takahashi et al. 2006</ref>
+** Uses Bismuth Germanate crystal (BGO), Bi<sub>4</sub>Ge<sub>3</sub>O<sub>12</sub><ref name=TTakahashi/>
+
+==References==
+<references/>
+
+==External links==
+
+thumb|Astro-E2
+300px|thumb|Astro-E2の打上
+'''すざく'''（第23号科学衛星'''ASTRO-EII'''）は日本のX線天文衛星。
+2005年7月10日に内之浦宇宙空間観測所よりM-Vロケット6号機により打ち上げられた。
+高度約570km、軌道傾斜角31度の略円軌道に載っており、周期96分で地球を1日に約15周して観測を行なう。
+名前は伝説上の神鳥であり宇宙の守護神でもある朱雀が由来の一つである。詳細は[http://www.isas.jaxa.jp/j/snews/2005/0710_suzaku.shtml]参照。
+
+==概要==
+あすか(ASTRO-D)に続く5機目の日本のX線天文衛星として計画された。
+2000年2月10日にM-Vロケット4号機によって打ち上げられ、第一段ロケットの燃焼異常により軌道投入に失敗したX線天文衛星ASTRO-Eの代替機である。
+
+X線源となる高温のプラズマの観測、遠方の銀河団を観測し宇宙の進化についてのデータの提供、ブラックホール候補天体や活動銀河核の観測を目的としている。
+
+円筒形の本体の直径は2.1mで太陽電池パネルを展開すると幅5.4mとなる。
+鏡筒を伸ばすと全長6.5mになる。
+総重量は1680kg。
+
+==観測目的==
+1.X線・ガンマ線による高温プラズマの研究
+* 広い温度範囲にわたってさまざまなＸ線源をプラズマで調べること
+* さまざまなＸ線源のプラズマのダイナミックな運動を研究する
+* 私たちの銀河内の超新星残骸から核ガンマ線をサーヴェイすること
+
+2.宇宙の構造と進化を研究する
+* 銀河団の進化
+* 非常に遠方にある暗い原始天体の探索
+* 私たちの銀河内の超新星残骸から核ガンマ線をサーヴェイすること
+
+3.ブラックホール候補天体と活動銀河核の広帯域のスペクトル研究
+* ブラックホールへの降着流の研究
+* 活動銀河核が1－1000keVの領域で宇宙Ｘ線背景放射に対してどのような貢献をしているかの研究
+
+==観測装置==
+観測機器は5つの軟X線望遠鏡と1つの硬X線望遠鏡を搭載している。
+観測機器はアメリカとの共同開発である。
+
+5つの軟X線望遠鏡のうちの1つは口径40cm、焦点距離4.5mで検出器としてX線マイクロカロリメ－タを搭載しエネルギー分解能12eVの高分解能観測を行なう予定であった。
+しかし、この装置は2005年8月8日に装置を冷却する液体ヘリウムがすべて気化して失われてしまう不具合が発生し使用不能となってしまった。

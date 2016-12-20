@@ -1,0 +1,114 @@
+'''逆数学（Reverse mathematics）'''是数学的一个分支，大致可以看成是&ldquo;从定理导向公理&rdquo;而不是通常的方向(从公理到定理)。更精确一点，它试图通过找出证明所需的充分和必要的公理来评价一批常用数学结果的逻辑有效性。
+
+该领域由Harvey Friedman在其文章&ldquo;二阶算术系统及其应用（Some systems of second order arithmetic and their use）&rdquo;中创立。它被Stephen G. Simpson和他的学生以及其他一些人所追随。Simpson写了关于该主题的参考教科书''二阶算数的子系统(Subsystems of Second Order Arithmetic)'';本条目大部分内容取自该书的简介性质的第一章。其他参考读物的细节参看参考。
+
+==原则==
+
+===一般性===
+
+逆数学的原则如下:从一个框架语言和一个基理论&mdash;一个核心(公理)体系&mdash;开始,它可能弱到无法证明大部分我们感兴趣的定理，但是它要强到足以证明一些特定的其区别和所研究的课题不相关的命题之间的等效性或者足以建立一些足够明显的事实(例如加法的可交换性)。在该弱的基系统之上有一个''全''理论，强到足以证明我们感兴趣的定理，而正常的数学直觉在该理论中又不受侵害。
+
+在基系统和全系统之间，逆数学家需求给一些公理集标上中间的强度，它们（在基系统上）互相不等价:每个系统不仅要证明这个或那个经典定理而且需要在核心体系上''等价于''该定理。这保证定理的逻辑强度可以被精确的衡量(至少对所选的框架语言和核心系统来说):更弱的公理系统无法证明该定理，而更强的公理系统不被该定理所蕴涵。
+
+===语言和基系统的选择===
+
+若基系统选得太强（作为极端情况，选它为完整的策墨罗-富兰科集合论），则逆数学没有什么信息：很多(全系统的,也就是说通常的数学定理)定理会成为核心系统的定理，所以他们全都等价，我们对于他们的强度一无所知。若基系统选得太弱(作为极端情况，选它为谓词演算)，则定理间的等价关系过于细化：没有任何东西等价除了很明显的，同样我们一无所知。如何选取框架语言也是一个问题：它需要不用太多翻译便足以表达通常的数学思想，而它不应预设太强的公理否则我们会碰到和核心系统太强一样的麻烦。
+
+例如，虽然通常(正向的)数学使用集合论的语言，并在策墨罗-富兰科集合论的系统中实现(这个系统，如果不加显式的否认，被数学工作者假设为缺省基础系统),事实上这个系统比真正所需要的强很多&mdash;这也是逆数学给我们的教训之一。虽然逆数学特定的结果可以用集合论的框架表达，通常这不是很合适，因为这预设了太强的假定(例如任何阶的集合的存在性和构造它们的一致性)。
+
+在逆数学根据Friedman,Simpson和其他人的现在的实现中，框架语言(通常)选为二阶算术，而核心理论选为递归理解，而全理论则为经典分析。我们接下来必须关于这些说上两句。
+
+==二阶算术==
+
+本节有点技术性，主要试图精确描述逆数学的通常框架(也就是，二阶算数子系统)。
+
+===语言===
+
+二阶算数的语言是一种分为两类的(一阶谓词演算的)语言。一些术语和变量，通常用小写字母表示，用于指代个体/数字，它们可以视为自然数。其他变量，称为''类变量''或者''谓词''，并经常用大写表示，指代个体的类/谓词/属性，它们可以视为自然数的集合。个体和谓词都可以量化，''所有''或者''存在''。一个公式如果有未限定的''类''变量，(虽然它可能有自由类变量和确定个体变量，)称为'''算式(arithmetical)'''。
+
+个体术语可以用常数0，单元函数S (''后续函数'')和二元操作+和&middot; (加和乘)组成。后续函数产生一个比输入大一的自然数。关系 = (相等) 和 < (自然数的比较) 可以关联两个个体，而关系 &isin; (属于) 关联一个个体和一个类。
+
+例如<math>\forall n (n\in X \rightarrow Sn \in X)</math>是二阶算数定义严谨的公式，它是一个算式，有一个自由类变量''X''和一个确定个体变量''n'' (但是没有确定类变量，这是算术共识的要求),而<math>\exists X \forall n(n\in X \leftrightarrow n < SSSSSS0\cdot SSSSSSS0)</math>是一个定义严谨的公式却不是算式，它有一个确定类变量''X''和一个确定个体变量''n''。
+
+<!--
+===用二阶算术给数学编程===
+
+Second order arithmetic allows us to speak directly (without coding) of natural numbers and sets of natural numbers.  Pairs of natural numbers can be coded in the usual way as natural numbers, so arbitrary integers or rational numbers are first-class citizens in the same manner as natural numbers.  Functions between these sets can be encoded as sets of pairs, so as subsets of the natural numbers, without difficulty.  Real numbers can be defined as Cauchy sequences of rational numbers, but for technical reasons which we will not go into (in the weak axiom systems) it is preferable to put an actual constraint on the convergence rate (say, asking that the distance between the ''n''-th and (''n''+1)-th term is less than 2<sup>&minus;''n''</sup>).  Real functions, or subsets of the reals, cannot be spoken of directly in the system, but continuous real functions are legitimate objects of study since they are defined by their values on the rationals, and by a similar trick it is possible to speak, for example, of open subsets of the reals.  Even Borel sets of reals can be coded in the language of second order arithmetic (though it is a bit tricky).
+
+===基本公理===
+
+The following axioms are known as the ''basic axioms'', or sometimes the ''Robinson axioms'' because they essentially define Robinson arithmetic, and they will always be assumed:
+
+* <math>\forall m (Sm=0 \rightarrow \bot)</math> (&ldquo;the successor of a natural number is never zero&rdquo;)
+* <math>\forall m \forall n (Sm=Sn \rightarrow m=n)</math> (&ldquo;the successor function is injective&rdquo;)
+* <math>\forall n (0=n \lor \exists m (Sm=n))</math> (&ldquo;every natural number is zero or a successor&rdquo;)
+* <math>\forall m (m+0=m)</math>
+* <math>\forall m \forall n (m+Sn = S(m+n))</math>
+* <math>\forall m (m\cdot 0 = 0)</math>
+* <math>\forall m \forall n (m \cdot Sn = (m\cdot n)+m)</math>
+* <math>\forall m (m<0 \rightarrow \bot)</math>
+* <math>\forall m (m<Sn \leftrightarrow (m<n \lor m=n))</math>
+* <math>\forall n (0=n \lor 0<n)</math>
+* <math>\forall m \forall n ((Sm<n \lor Sm=n) \leftrightarrow m=n)</math>
+
+Note that all these axioms are first order (that is involve no class variables at all, something even stronger than being arithmetical).  The first three, together with mathematical induction, form the usual Peano axioms (the third, actually, is a consequence of even the weakest induction schemes), whereas the subsequent axioms are a definition of addition, multiplication and order on the natural numbers (again, the last two are redundant as soon as any kind of induction axiom is added).
+
+===归纳和概括公理(Induction and comprehension axioms)===
+
+All the systems considered will include the basic axioms defined above.
+
+If &phi;(''n'') is a formula of second order arithmetic with a free individual variable ''n'' and possible other free individual or class variables (written ''m''<sub>&bull;</sub> and ''X''<sub>&bull;</sub>), the '''induction axiom''' for &phi; is the axiom:
+
+<math>\forall m_\bullet \forall X_\bullet (\varphi(0) \rightarrow \forall n (\varphi(n) \rightarrow \varphi(Sn)) \rightarrow \forall n (\varphi(n)))</math>
+
+One particularly important instance of this axiom is when &phi; is the formula &ldquo;''n''&isin;''X''&rdquo; expressing the fact that ''n'' is a member of ''X'' (''X'' being a free class variable): in this case, the induction axiom for &phi; becomes
+
+<math>\forall X (0\in X \rightarrow \forall n (n\in X \rightarrow Sn\in X) \rightarrow \forall n (n\in X))</math>
+
+We shall call the latter the &ldquo;ordinary second-order induction axiom&rdquo;.
+
+Returning to the case where &phi;(''n'') is a formula with a free variable ''n'' and possibly other free variables, we define the '''comprehension axiom''' for &phi; to be:
+
+<math>\forall m_\bullet \forall X_\bullet \exists Z \forall n (n\in Z \leftrightarrow \varphi(n))</math>
+
+Essentially, this allows us to form the set <math>Z = \{ n | \varphi(n) \}</math> of natural numbers satisfying &phi;(''n'').
+
+===整个系统===
+
+The '''full second order arithmetic''', also known as '''classical analysis''' is the axiom system (for the language of second order arithmetic) consisting of the basic axioms, plus the unrestricted comprehension axiom scheme, in other words the comprehension axiom for every formula &phi;, arithmetic or otherwise, and the ordinary second-order induction axiom (in the presence of the unrestricted comprehension axiom scheme, it is easy to see that it makes no difference whether to include the unrestricted induction axiom scheme, in other words the induction axiom for every formula &phi;, or merely the ordinary second-order induction axiom as defined above).
+
+Although it is much weaker than Zermelo-Fraenkel set theory, classical analysis is already a very strong axiom system, much more than is needed to do essentially all of classical mathematics that can be encoded in the framework language of second-order arithmetic.
+
+===算术理解(Arithmetical comprehension)===
+
+'''Arithmetical comprehension''' is more restricted than full second-order arithmetic.  It is defined as the axiom system consisting of the basic axioms, plus the arithmetical comprehension axiom scheme, in other words the comprehension axiom for every ''arithmetical'' formula &phi;, and the ordinary second-order induction axiom; again, we could also choose to include the arithmetical induction axiom scheme, in other words the induction axiom for every arithmetical formula &phi;, without making a difference.
+
+This system is closely related to '''first-order arithmetic''' (or first-order Peano axioms), defined as the basic axioms, plus the first order induction axiom scheme (for all formulas &phi; involving no class variables at all, bound or otherwise), in the language of first order arithmetic (which does not permit class variables at all).
+
+===公式的算术等级结构===
+
+To define the following system, we will need a bit more terminology.
+
+A formula is called ''bounded arithmetical'', or &Delta;<sub>0</sub>, when all its quantifiers are of the form &forall;''n''<''t'' or &exist;''n''<''t'' (where ''n'' is the individual variable being quantified and ''t'' is an individual term), where <math>\forall n<t(\cdots)</math> stands for <math>\forall n(n<t \rightarrow \cdots)</math> and <math>\exists n<t(\cdots)</math> stands for <math>\exists n(n<t \land \cdots)</math>.
+
+A formula is called &Sigma;<sub>1</sub> (or, more accurately, &Sigma;<sup>0</sup><sub>1</sub>), respectively &Pi;<sub>1</sub> (or, more accurately, &Pi;<sup>0</sup><sub>1</sub>) when it of the form &exist;''m''<sub>&bull;</sub>(&phi;), respectively &forall;''m''<sub>&bull;</sub>(&phi;) where &phi; is a bounded arithmetical formula and ''m'' is an individual variable (that is free in &phi;).  More generally, a formula is called &Sigma;<sub>''n''</sub>, respectively &Pi;<sub>''n''</sub> when it is obtained by adding existential, respectively universal, individual quantifiers to a &Pi;<sub>''n''&minus;1</sub>, respectively &Sigma;<sub>''n''&minus;1</sub> formula (and &Sigma;<sub>0</sub> and &Pi;<sub>0</sub> are all equivalent to &Delta;<sub>0</sub>).  Note that by construction all these formulas are arithmetical (no class variables are ever bound) and, in fact, by putting the formula in Skolem prenex form one can see that every arithmetical formula is equivalent to a &Sigma;<sub>''n''</sub> or &Pi;<sub>''n''</sub> formula for all large enough ''n''.
+
+===基系统===
+
+'''Recursive comprehension''' is an even more restricted system than arithmetical comprehension.  It consists of: the basic axioms, plus the &Sigma;<sub>1</sub> induction scheme and &Delta;<sub>1</sub> comprehension.  The former term is clear: the &Sigma;<sub>1</sub> induction scheme is the induction axiom for every &Sigma;<sub>1</sub> formula &phi;.  The term &ldquo;&Delta;<sub>1</sub> comprehension&rdquo; requires a little more explaining, however: there is no such thing as a &Delta;<sub>1</sub> formula (the ''intended'' meaning is a formula which is both &Sigma;<sub>1</sub> and &Pi;<sub>1</sub>), but we are instead postulating the comprehension axiom for every &Sigma;<sub>1</sub> formula ''subject to the condition'' that it is equivalent to a &Pi;<sub>1</sub> formula, in other words, for every &Sigma;<sub>1</sub> formula &phi; and every &Pi;<sub>1</sub> formula &psi; we postulate
+
+<math>\forall m_\bullet \forall X_\bullet ((\forall n (\varphi(n) \leftrightarrow \psi(n))) \rightarrow \exists Z \forall n (n\in Z \leftrightarrow \varphi(n)))</math>
+
+Recursive comprehension is usually taken as the base system when doing reverse mathematics.  Sometimes, however, an even weaker system is desired.  One possible candidate is defined as follows: one must first augment the language of arithmetic with an exponential function (in stronger systems the exponential can be defined in terms of addition and multiplication by the usual trick, but when the system becomes too weak this is no longer possible) and the basic axioms by the obvious axioms defining exponentiation inductively from multiplication; then the system consists of the (enriched) basic axioms, plus &Delta;<sub>1</sub> comprehension plus &Delta;<sub>0</sub> induction.
+
+===更强的系统===
+
+Les '''mathématiques à rebours''' sont une branche des mathématiques qui pourrait être définie simplement par l'idée de “remonter aux axiomes à partir des théorèmes”, contrairement au sens habituel (des axiomes vers les théorèmes). Un peu plus précisément, il s'agit d'évaluer la robustesse logique d'un ensemble de résultats mathématiques usuels en déterminant exactement quels axiomes sont nécessaires et suffisants pour les prouver.
+
+Le domaine a été créé par [http://www.math.ohio-state.edu/~friedman/ Harvey Friedman] dans son article “Some systems of second order arithmetic and their use” (''Proceedings of the International Congress of Mathematicians (Vancouver, B.C., 1974), Vol. 1'', pp. 235–242. ''Canad. Math. Congress, Montreal, Que.'', 1975).  
+
+Le sujet fut poursuivi entre autres par [http://www.math.psu.edu/simpson/ Stephen G. Simpson] et ses étudiants.  Simpson a écrit l'ouvrage de référence sur le sujet, ''[http://www.math.psu.edu/simpson/sosoa/ Subsystems of Second Order Arithmetic]'' (Perspectives in Mathematical Logic, ''Springer-Verlag, Berlin'', 1999, ISBN 3-540-64882-8); dont l'introduction a très fortement inspiré cet article.
+
+==Principes==
+
+===Généralités===

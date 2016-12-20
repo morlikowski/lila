@@ -1,0 +1,79 @@
+Dans un système déduction, de dérivation ou de démonstration. L'application des règles sur les axiomes du système permet d'en démontrer les théorèmes.
+
+== Définitions et représentations ==
+
+Une règle d'inférence est une fonction qui prend un <math>n</math>-uple de formules et rend  une formule. Ses arguments sont appelés « les prémisses » et sa valeur la « conclusion ». Les règles d'inférence peuvent également être vues comme des relations liant prémisses et conclusions par lesquelles une conclusion est dite « déductible » ou « dérivable » des prémisses. Si l'ensemble des prémisses est vide, alors la conclusion est appelée un « théorème » ou un « axiome » de la logique.
+
+Les règles d'inférences sont en général données dans la forme standard suivante :
+
+&nbsp;&nbsp;Prémisse#1
+<br />&nbsp;&nbsp;Prémisse#2
+<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'''...'''
+<br /><u>&nbsp;&nbsp;Prémisse#n &nbsp;&nbsp;</u>
+<br />&nbsp;&nbsp;Conclusion
+
+Cette expression dit que si on se trouve au milieu d'une dérivation logique, où les prémisses ont été déjà obtenues (c'est-à-dire dérivées logiquement des axiomes), alors on peut affirmer que la conclusion est démontrée. Le langage formel utilisé pour décrire les prémisses et la conclusion dépend du système formel ou logique où l'on s'est placé. Dans le cas le plus simple, les formules sont tout simplement des expressions logiques; c'est ainsi le cas pour le ''modus ponens'' :
+
+&nbsp;&nbsp;A→B
+<br /><u>&nbsp;&nbsp;A &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>
+<br />&nbsp;&nbsp;&there4;B
+
+Les règles d'inférence peuvent aussi être formulées de cette manière :
+# un certain nombre de prémisses (peut-être aucune) ;
+# un symbole de dérivation  <math>\vdash</math> signifiant « infère », « démontre » ou « conclut » ;
+# une conclusion.
+
+Cette formulation représente habituellement la vision relationnelle (par opposition à fonctionnelle) d'une règle d'inférence, où le symbole de dérivation représente une relation de démontrabilité existant entre prémisses et conclusion.
+
+Les règles d'inférences sont aussi parfois présentées à la manière de cette expression du ''modus ponens'', qui exprime bien la nécessité que les prémisses soient des théorèmes :
+:Si <math>\vdash</math> A → B et <math>\vdash</math> A, alors <math>\vdash</math> B.
+
+Les règles d'inférences sont en général formulées comme des « schémas de règles », par l'utilisation de variables universelles. Dans les schémas ci-dessus, A et B peuvent être remplacés par n'importe quelle formule bien formée de la logique propositionnelle (on se limite parfois à un sous-ensemble des formules de la logique, comme les propositions) pour former un ensemble infini de règles d'inférence.
+
+Un système de démonstration est formé d'un ensemble de règles, pouvant être enchaînées les unes aux autres pour former des démonstrations, ou dérivations. Une dérivation n'a qu'une seule conclusion finale, qui est l'expression démontrée ou dérivée. Si les prémisses ne sont pas satisfaites, alors la dérivation est la démonstration d'une expression hypothétique : ''si'' les prémisses sont satisfaites, ''alors'' la conclusion est satisfaite.
+
+De même que les axiomes sont des règles sans prémisse, les schémas d'axiome peuvent également être vus comme des schémas de règles d'inférence sans prémisse.
+
+== Exemples ==
+
+La règle d'inférence de base de la connecteurs.  Pour la logique des prédicats du premier ordre, il existe des règles d'inférence qui gèrent les généralisation.
+
+Il existe aujourd'hui de nombreux systèmes de logique formelle, chacun ayant son propre langage de formules bien formées, ses propres règles d'inférence et sa propre sémantique;  c'est le cas des logiques modales qui font usage de la règle de nécessitation.
+
+== Règles d'inférence et axiomes ==
+
+Les règles d'inférence doivent être distingués des axiomes d'une théorie. En termes de sémantique, les axiomes sont des assertions valides. Les axiomes sont habituellement considérés comme des points de départ pour l'application de règles d'inférence et la génération d'ensembles de conclusions. Ou encore, en termes moins techniques :
+
+Les règles sont des affirmations à propos du système, les axiomes sont des affirmations appartenant au système. Par exemple :
+* La règle qui dit qu'à partir de <math>\vdash</math> ''p'' on peut inférer <math>\vdash</math> ''Provable(p)'' est une affirmation disant que si l'on a démontré ''p'', alors ''p'' est démontrable. Cette règle s'applique dans l'arithmétique de Peano, par exemple.
+* L'axiome ''p'' <math>\to</math> ''Provable(p)'' voudrait dire que toute assertion vraie est démontrable. Cette affirmation est par contre fausse dans l'arithmétique de Peano (c'est la caractérisation de son incomplétude).
+
+== Propriétés ==
+
+=== Effectivité ===
+
+'''Schlussregel''' bezeichnet in der formalen Logik eine Transformationsregel (Umformungsregel) in einem logischen Folgerung definiert als der Erhalt von Wahrheit („aus Wahrem folgt nur Wahres“). Schlussregeln sind dann so beschaffen, dass sie aus bestehenden Sätzen solche Sätze erzeugen, die schon (aber nicht notwendigerweise nur) dann wahr sind, wenn die Ausgangssätze wahr sind.
+
+Schlussregeln sind rein syntaktisch definiert, d. h. basierend auf der Folge abstrakter Ableitung oder auch als Beweis.
+
+Fünf „klassische“ Schlussregeln sind Folgende:
+
+1) Modus ponendo ponens (lat. ''durch Bejahung bejahende Schlussweise'', Beweis
+: <math> p \rightarrow q \qquad p \over q </math>
+: In Worten: Wenn ''p eine hinreichende Bedingung für q ist'' und ''p wahr ist'', dann ist auch ''q wahr''
+
+2) Modus tollendo tollens (lat. ''durch Verneinung verneinende Schlussweise''): der indirekte Beweis
+: <math> p \rightarrow q \qquad \neg q \over \neg p</math>
+: In Worten: Wenn ''p eine hinreichende Bedingung für q ist'' und ''q nicht wahr ist'', dann ist auch ''p nicht wahr''
+
+3) Kettenschluss (gelegentlich –&nbsp;eigentlich falsch, weil nach einer anderen Bedeutung des Wortes „Kettenschluss“&nbsp;– Modus Barbara genannt)
+: <math> p \rightarrow q \qquad q \rightarrow r \over p \rightarrow r </math>
+: In Worten: Wenn ''p eine hinreichende Bedingung für q ist'' und ''q eine hinreichende Bedingung für r ist'', dann ''ist p eine hinreichende Bedingung für r''
+
+4) Disjunktiver Syllogismus genannt)
+: <math> p \or q \qquad \neg p \over q </math>
+: In Worten: Wenn ''p oder q'' gilt und ''p nicht wahr'' ist, dann ist ''q wahr''
+
+5) Widerspruch
+: <math> \neg p\rightarrow (q\land \neg q) \over p</math>
+: In Worten: Wenn ''nicht-p eine hinreichende Bedingung dafür ist, dass ein Widerspruch wahr wird'', dann ist ''p wahr'' (denn ein Widerspruch kann ja nicht wahr werden)

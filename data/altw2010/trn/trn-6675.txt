@@ -1,0 +1,184 @@
+{{Infobox Settlement
+<!--See the Table at Infobox Settlement for all fields and descriptions of usage-->
+<!-- Basic info  ---------------->
+|official_name          = Municipalité de Saint-Ferdinand
+|other_name             = 
+|native_name            =  <!-- for cities whose native name is not in English -->
+|nickname               = 
+|settlement_type        = Municipality <!--For Town or Village (Leave blank for the default City)-->
+|motto                  = 
+<!-- images and maps  ----------->
+|image_skyline          = 
+|imagesize              = 
+|image_caption          = 
+|image_flag             = 
+|flag_size              =
+|image_seal             = 
+|seal_size              =
+|image_shield           = 
+|shield_size            =
+|city_logo              =
+|citylogo_size          =
+|image_map              = 
+|mapsize                = 
+|map_caption            = 
+|image_map1             = 
+|mapsize1               = 
+|map_caption1           = 
+|image_dot_map          =
+|dot_mapsize            =
+|dot_map_caption        =
+|dot_x =  |dot_y =
+|pushpin_map            = <!-- the name of a location map as per http://en.wikipedia.org/wiki/Template:Location_map -->
+|pushpin_label_position = <!-- the position of the pushpin label: left, right, top, bottom, none -->
+|pushpin_map_caption    =
+|pushpin_mapsize        =
+<!-- Location ------------------>
+|subdivision_type       = Country <!--Country-->
+|subdivision_name       =  Canada <!--the name of the country-->
+|subdivision_type1      = Province
+|subdivision_name1      =  Quebec
+|subdivision_type2      = Region
+|subdivision_name2      = Centre-du-Québec
+|subdivision_type3      = RCM
+|subdivision_name3      = L'Érable
+|subdivision_type4      = 
+|subdivision_name4      =
+<!-- Politics ----------------->
+|government_footnotes   =
+|government_type        =
+|leader_title           = Mayor
+|leader_name            = Donald Langlois
+|leader_title1          =  <!-- for places with, say, both a mayor and a city manager -->
+|leader_name1           =
+|leader_title2          =
+|leader_name2           =
+|leader_title3          =
+|leader_name3           =
+|leader_title4          =
+|leader_name4           =
+|established_title      =  <!-- Settled -->
+|established_date       = 
+|established_title2     =  <!-- Incorporated (town) -->
+|established_date2      = 
+|established_title3     = Constitution <!-- Incorporated (city) -->
+|established_date3      = November 29th, 2000
+<!-- Area    --------------------->
+|area_magnitude         = 
+|unit_pref                = Metric <!--Enter: Imperial, if Imperial (metric) is desired-->
+|area_footnotes           =
+<ref name="2006censuspop">{{cite web
+| url = http://www12.statcan.ca/english/census06/data/popdwell/Table.cfm?T=302&SR=926&S=1&O=A&RPP=25&PR=24&CMA=0
+| title = Population and dwelling counts, for Canada, provinces and territories, and census subdivisions (municipalities), 2006 and 2001 censuses - 100% data
+| work = Statistics Canada, 2006 Census of Population
+| date = 2007-03-13
+| accessdate = 2007-08-24
+}}</ref>
+|area_total_km2           = <!-- ALL fields dealing with a measurements are subject to automatic unit conversion-->
+|area_land_km2            = 137.16 <!--See table @ Template:Infobox Settlement for details on automatic unit conversion-->
+|area_water_km2           =
+|area_total_sq_mi         =
+|area_land_sq_mi          =
+|area_water_sq_mi         =
+|area_water_percent       =
+|area_urban_km2           =
+|area_urban_sq_mi         =
+|area_metro_km2           =
+|area_metro_sq_mi         =
+|area_blank1_title        =
+|area_blank1_km2          =
+|area_blank1_sq_mi        =
+<!-- Population   ----------------------->
+|population_as_of               = 2006
+|population_footnotes           =
+<ref name="2006censuspop">{{cite web
+| url = http://www12.statcan.ca/english/census06/data/popdwell/Table.cfm?T=302&SR=926&S=1&O=A&RPP=25&PR=24&CMA=0
+| title = Population and dwelling counts, for Canada, provinces and territories, and census subdivisions (municipalities), 2006 and 2001 censuses - 100% data
+| work = Statistics Canada, 2006 Census of Population
+| date = 2007-03-13
+| accessdate = 2007-08-24
+}}</ref>
+|population_note                =
+|population_total               = 2195
+|population_density_km2         = 16.0
+|population_density_sq_mi       =
+|population_metro               =
+|population_density_metro_km2   =
+|population_density_metro_sq_mi =
+|population_urban               =
+|population_density_urban_km2   =
+|population_density_urban_sq_mi =
+|population_blank1_title        =
+|population_blank1              =
+|population_density_blank1_km2 =   
+|population_density_blank1_sq_mi =
+<!-- General information  --------------->
+|timezone               = EST
+|utc_offset             = -5
+|timezone_DST           = EDT
+|utc_offset_DST         = -4
+|latd=46 |latm=06 |lats= |latNS=N
+|longd=71 |longm=35 |longs= |longEW=W
+|elevation_footnotes    =  <!--for references: use <ref> </ref> tags-->
+|elevation_m            = 
+|elevation_ft           =
+<!-- Area/postal codes & others -------->
+|postal_code_type       = Postal code <!-- enter ZIP code, Postcode, Post code, Postal code... -->
+|postal_code            = G0N 1N0
+|area_code              = 418
+|blank_name             =
+|blank_info             =
+|blank1_name            =
+|blank1_info            =
+|website                = http://www.municipalite.saint-ferdinand.qc.ca
+|footnotes              = 
+}} 
+
+'''Saint-Ferdinand''' is a municipality in the region of the province of snowmobiling and ATV riding).
+
+St-Ferdinand was once home to a large health care facility, the St-Julien Hospital, founded in 1870; however, rural exodus and the establishment of more advanced facilities in greater population centres such as Quebec City led to the indefinite closing of the facility in 2003, after several years of reduced operations as a long-term care facility.<ref>[http://www.municipalite.saint-ferdinand.qc.ca/hopital.htm Municipalité de St-Ferdinand: L'Hôpital St-Julien].  Accessed 28-Aug-2007.</ref>
+
+{{Infobox Municipalité canadienne
+|nom=Saint-Ferdinand
+|image=
+|texte=Vue de Saint-Ferdinand
+|prov=
+|région=Centre-du-Québec
+|dr=L'Érable
+|type=Municipalité
+|const=29 novembre 2000
+|maire=Donald Langlois
+|dates=2005 - 2009
+|lat=46.100005
+|long=-71.583338
+|km²=137,07
+|statcan=32013
+|pop=2 424
+|date-pop=2006
+|dens=18
+|gent=
+}}
+
+'''Saint-Ferdinand''' est une Municipalité du Québec (Canada) située dans la municipalité régionale de comté de L'Érable et la région administrative du Centre-du-Québec. La municipalité est située sur les berges du lac William. Elle résulte de la fusion en 2001 des municipalités de Saint-Ferdinand, de Bernierville et de Vianney.
+
+==Histoire==
+
+C'est en 1834 que le missionnaire-découvreur Ferdinand Gauvreau tombe sous le charme du site enchanteur et commence alors la construction du village de Saint-Ferdinand.
+
+==Économie==
+
+Les principaux secteurs d'activités économiques sont l'agriculture, la sylviculture et l'acériculture. L'Hôpital Saint-Julien, qui n'est plus en fonction aujourd'hui, a déjà accueilli jusqu'à 1500 patients souffrant de déficience intellectuelle.
+
+On retrouve également le Manoir du Lac William sur le territoire de la municipalité.
+
+==Origine du nom==
+
+La municipalité est nommée en l'honneur de Ferdinand III de Castille et du père Ferdinand Gauvreau.
+
+==Cours d'eau==
+
+*''Lac William''
+*''Lac à la Truite''
+*''Rivière Bécancour''
+
+==Géographie==

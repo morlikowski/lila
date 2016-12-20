@@ -1,0 +1,117 @@
+In inhomogeneous linear ordinary differential equations. It was developed by the Italian-French mathematician Joseph Louis Lagrange.
+
+For first-order inhomogeneous linear differential equations it's usually possible to find solutions via undetermined coefficients with considerably less effort, although those methods are rather heuristics that involve guessing and don't work for all inhomogenous linear differential equations.
+
+Given an ordinary non-homogeneous linear differential equation of order ''n''
+:<math>y^{(n)}(x) + \sum_{i=0}^{n-1} a_i(x) y^{(i)}(x) = b(x)</math>. (i)
+let <math>y_1(x), \ldots, y_n(x)</math> be a fundamental system of the corresponding homogeneous equation
+:<math>y^{(n)}(x) + \sum_{i=0}^{n-1} a_i(x) y^{(i)}(x) = 0.</math> (ii)
+
+Then a particular solution to the non-homogeneous equation is given by
+:<math>y_p(x) = \sum_{i=1}^{n} c_i(x) y_i(x)</math> (iii)
+where the <math>c_i(x)</math> are continuous functions which satisfy the equations
+:<math>\sum_{i=1}^{n} c_i^'(x) y_i^{(j)}(x) = 0 \, \mathrm{,} \quad j = 0,\ldots, n-2</math>     (iv) <blockquote>(results from substitution of (iii) into the homogeneous case (ii);  )</blockquote>
+and
+:<math>\sum_{i=1}^{n} c_i^'(x) y_i^{(n-1)}(x) = b(x).</math>. (v)   <br> 
+<blockquote>(results from substitution of (iii) into (i) and applying (iv);<br>
+
+<math>c_i'(x)=0</math> for all x and i is the only way to satisfy the condition, since all  <math>y_i(x)</math> are linearly independent. It implies that all <math>c_i(x)</math> are independent of x in the homogeneous case b(x)=0. )</blockquote>
+
+This linear system of ''n'' equations can then be solved using Cramer's rule yielding
+:<math>c_i^'(x) = \frac{W_i(x)}{W(x)} \, \mathrm{,} \quad i=1,\ldots,n</math>
+where <math>W(x)</math> is the Wronskian determinant of the fundamental system and <math>W_i(x)</math> is the Wronskian determinant of the fundamental system with the ''i''-th column replaced by <math>(0, 0, \ldots, b(x)).</math>
+
+The particular solution to the non-homogeneous equation can then be written as
+:<math>\sum_{i=1}^n \int \frac{W_i(x)}{W(x)} dx \, y_i(x)</math>.
+
+== Examples ==
+=== Specific second order equation ===
+Let us solve 
+: <math> y''+4y'+4y=\cosh{x}.\;\!</math>
+
+We want to find the general solution to the differential equation, that is, we want to find solutions to the homogeneous differential equation
+: <math>y''+4y'+4y=0.\;\!</math>
+Form the characteristic equation
+: <math>\lambda^2+4\lambda+4=(\lambda+2)^2=0\;\!</math>
+: <math>\lambda=-2,-2.\;\!</math>
+Since we have a repeated root, we have to introduce a factor of ''x'' for one solution to ensure linear independence. 
+ 
+So, we obtain ''u''<sub>1</sub>=''e''<sup>-2''x''</sup>, and ''u''<sub>2</sub>=''xe''<sup>-2''x''</sup>. The Wronskian of these two functions is 
+: <math>\begin{vmatrix}
+  e^{-2x} & xe^{-2x} \\
+-2e^{-2x} & -e^{-2x}(2x-1)\\
+\end{vmatrix} = -e^{-2x}e^{-2x}(2x-1)+2xe^{-2x}e^{-2x} </math>
+:<math>= -e^{-4x}(2x-1)+2xe^{-4x}= (-2x+1+2x)e^{-4x} = e^{-4x}.\;\!</math>
+
+Because the Wronskian is non-zero, the two functions are linearly independent, so this is in fact the general solution for the homogeneous differential equation (and not a mere subset of it).
+
+We seek functions ''A''(''x'') and ''B''(''x'') so ''A''(''x'')''u''<sub>1</sub>+''B''(''x'')''u''<sub>2</sub> is a general solution of the inhomogeneous equation. We need only calculate the integrals
+:<math>A(x) = - \int {1\over W} u_2(x) f(x)\,dx,\; B(x) = \int {1 \over W} u_1(x)f(x)\,dx</math>
+that is,
+:<math>A(x) = - \int {1\over e^{-4x}} xe^{-2x} \cosh{x}\,dx = - \int xe^{2x}\cosh{x}\,dx = -{1\over 18}e^x(9(x-1)+e^{2x}(3x-1))+C_1</math>
+:<math>B(x) = \int {1 \over e^{-4x}} e^{-2x} \cosh{x}\,dx = \int e^{2x}\cosh{x}\,dx ={1\over 6}e^{x}(3+e^{2x})+C_2 </math>
+where <math>C_1</math> and <math>C_2</math> are constants of integration.
+
+=== General second order equation ===
+We have a differential equation of the form
+:<math>u''+p(x)u'+q(x)u=f(x)\,</math>
+and we define the linear operator 
+:<math>L=D^2+p(x)D+q(x)\,</math>
+where ''D'' represents the differential operator.  We therefore have to solve the equation <math>L u(x)=f(x)</math> for <math>u(x)</math>, where <math>L</math> and <math>f(x)</math> are known.
+
+Die '''Variation der Konstanten''' ist ein Verfahren aus der Theorie linearer gewöhnlicher Differentialgleichungen zur Bestimmung einer speziellen Lösung eines inhomogenen linearen Differentialgleichungssystems erster Ordnung bzw. einer inhomogenen linearen Differentialgleichung beliebiger Ordnung.
+Vorausgesetzt wird hierfür eine vollständige Lösung (Fundamentalsystem) der zugehörigen homogenen Differentialgleichung.
+
+== Motivation der Bezeichnung „Variation der Konstanten“ ==
+
+Man betrachte die skalare lineare Differentialgleichung erster Ordnung
+:<math>y'(x) = A(x)y(x) + b(x)\ .</math>
+Weiter sei <math>F</math> eine Stammfunktion von <math>A</math>, z. B.
+:<math>F(x) := \int_{x_0}^xA(t){\rm d}t\ .</math>
+Dann ist 
+:<math>\{y(x) = C\exp(F(x))\ |\ C \in \mathbb{R}\}</math>
+die Menge aller Lösungen der homogenen Differentialgleichung <math>y'(x) = A(x)y(x)</math>. Als Ansatz für die Lösung des inhomogenen Problems setze man 
+:<math>y(x) = C(x)\exp(F(x))\ ,</math>
+d. h., man ''lässt die Konstante <math>C</math> variieren''. Es gilt 
+:<math>y'(x) = C(x)A(x)\exp(F(x)) + C'(x)\exp(F(x)) = A(x)y(x) + C'(x)\exp(F(x))\ .</math>
+Also löst <math>y</math> die inhomogene Differentialgleichung genau dann, wenn
+:<math>\ C'(x) = b(x)\exp(-F(x))</math>
+gilt. Beispielsweise ist
+:<math>C(x) := \int_{x_0}^xb(t)\exp(-F(t)){\rm d}t</math>
+eine solche Funktion und somit
+:<math>y_{sp}(x) := \exp(F(x))\cdot\int_{x_0}^xb(t)\exp(-F(t)){\rm d}t</math>
+die spezielle Lösung mit <math>y_{sp}(x_0) = 0</math>. Also ist
+:<math>\left\{y(x) = \exp(F(x))\cdot\left[\int_{x_0}^xb(t)\exp(-F(t)){\rm d}t + C\right]\ |\ C \in \mathbb{R}\right\}</math>
+die Menge ''aller'' Lösungen der inhomogenen Differentialgleichung <math>y'(x) = A(x)y(x) + b(x)</math>.
+
+== Verallgemeinerung auf inhomogene lineare Differentialgleichungssysteme erster Ordnung ==
+
+Das obige Verfahren lässt sich auf folgende Weise verallgemeinern:
+
+=== Formulierung ===
+
+Seien <math>A: \mathbb{R} \rightarrow \mathbb{R}^{n \times n}</math> und <math>b: \mathbb{R} \rightarrow \mathbb{R}^n</math> stetige Funktionen und <math>\Phi(x) = (y_1(x)\ |\ \cdots\ |\ y_n(x))</math> eine Fundamentalmatrix des homogenen Problems <math>y'(x) = A(x)y(x)</math> sowie <math>\Phi_k(x)</math> diejenige Matrix, die aus <math>\Phi(x)</math> entsteht, indem man die <math>k</math>-te Spalte durch <math>b(x)</math> ersetzt. Dann ist 
+:<math> y_{sp}(x) := \sum_{k=1}^nc_k(x)y_k(x)</math>
+mit
+:<math> c_k(x) := \int_{x_0}^x\frac{\det \Phi_k(s)}{\det \Phi(s)}{\rm d}s</math>
+die Lösung des inhomogenen Anfangswertproblems <math>y'(x) = A(x)y(x) + b(x)</math>, <math>y(x_0) = 0</math>.
+
+==== Beweis ====
+
+Setze 
+:<math>y_{sp}(x) := \Phi(x)\int_{x_0}^x\Phi(s)^{-1}b(s){\rm d}s\ .</math>
+Es ist <math>y_{sp}(x_0) = 0</math>, und wegen <math>\Phi'(x) = A(x)\Phi(x)</math> sieht man durch Differenzieren, dass <math>y_{sp}</math> die Differentialgleichung <math>y_{sp}'(x) = A(x)y_{sp}(x) + b(x)</math> erfüllt. Nun löst
+:<math>a(s) := \Phi^{-1}(s)b(s) \in \mathbb{R}^n</math>
+für festes <math>s</math> das lineare Gleichungssystem
+:<math>\Phi(s)\cdot a(s) = b(s)\ .</math>
+Nach der cramerschen Regel ist somit
+:<math>a_k(s) = \frac{\det \Phi_k(s)}{\det \Phi(s)}\ ,\ k = 1, \ldots, n\ .</math>
+Also gilt
+:<math>y_{sp}(x) = \int_{x_0}^x\Phi(x)a(s){\rm d}s = \sum_{k=1}^n\left[\int_{x_0}^x\frac{\det \Phi_k(s)}{\det \Phi(s)}{\rm d}s\right]y_k(x)\ .</math>
+<div align="right"><math>\Box</math></div>
+
+=== Spezialfall: Resonanzfall ===
+
+Falls die Inhomogenität <math>b</math> selber Lösung des homogenen Problems ist, d. h. <math>b'(x) = A(x)b(x)</math>, so bezeichnet man dies als '''Resonanzfall'''. In diesem Fall ist
+:<math>\ y_{sp}(x) := (x-x_0)b(x)</math>
+die Lösung des inhomogenen Anfangswertproblems <math>y'(x) = A(x)y(x) + b(x)</math>, <math>y(x_0) = 0</math>.

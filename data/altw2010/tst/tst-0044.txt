@@ -1,0 +1,97 @@
+{{Info/Comuna da França|
+|nome         = Urville
+|nomefr       = Urville
+|região       = Lorena
+|departamento = Vosges
+|área         = 4,02
+|altitude     = 
+|latP         = | latG = | latM = |latS = 
+|lonP         = | lonG = | lonM = |lonS = 
+|população    = 64
+|densidade    = 15,92 
+|censo        = 1 999
+|insee        = 88482 <!-- Código INSEE -->
+|códpostal    = 88140 <!-- Código postal -->
+|mapa         = <!-- Insira apenas o nome da imagem -->
+|mapaX        = <!-- Coordenada X no mapa -->
+|mapaY        = <!-- Coordenada Y no mapa -->
+|escudo       = <!-- Insira apenas o nome da imagem -->
+|bandeira     = <!-- Insira apenas o nome da imagem -->
+|imagem       = <!-- Insira apenas o nome da imagem -->
+|legenda      = <!-- Legenda para a imagem -->
+|gentílico    = 
+|website      = 
+|notas        = 
+}}
+'''Urville''' é uma região administrativa de Lorena, no departamento de Vosges. Estende-se por uma área de 4,02 km&sup2;, com 64 habitantes, segundo os densidade de 15,92 hab/km&sup2;.
+
+Categoria:Comunas da França
+Categoria:Comunas de Lorena
+Categoria:Comunas do departamento de Vosges
+
+{{infobox Franse gemeente|
+|plaatsnaam= Urville
+|wapen= 
+|kaart= 
+|regio= Lotharingen 
+|departement= Vosges (88)
+|arrondissement= Neufchâteau
+|kanton= Bulgnéville
+|jaar= 2005
+|inwoners= 69
+|dichtheid= 17,3
+|oppervlakte= 4,0
+|water= 
+|latitudeGraden= 48 |latitudeMinuten= 11|latitudeSeconden= 0
+|longitudeGraden= 5 |longitudeMinuten= 45 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 231 |kaartY= 100
+|code= 88482
+|postcode= 88140
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Urville''' is een gemeente in het Franse departement Neufchâteau.
+
+==Geografie==
+De oppervlakte van Urville bedraagt 4,0 km², de bevolkingsdichtheid is 17,3 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:300 color:gray1 width:1       
+  from:start till:end             
+  bar:200 color:gray1              
+  from:start till:end            
+  bar:100 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,90)(84,77) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 124 1968: 101
+  points:(84,77)(100,69)    color:blue    width:2 #1975: 86
+  points:(100,69)(128,63)   color:blue    width:2 #1982: 76
+  points:(128,63)(160,56)   color:blue    width:2 #1990: 64
+  points:(160,56)(196,56)   color:blue    width:2 #1999: 64
+  points:(196,56)(228,59)     color:blue    width:2 #2004/5 
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

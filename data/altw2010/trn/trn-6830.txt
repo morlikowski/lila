@@ -1,0 +1,21 @@
+'''Passive matrix addressing''' is an addressing scheme used in earlier LCD displays, and may be used in future LCD displays. This is a  matrix addressing scheme meaning that only ''n''&nbsp;+&nbsp;''m'' control signals are required to address a ''n''&nbsp;&times;&nbsp;''m'' display.  A pixel in a passive matrix must maintain its state without active driving circuitry until it can be refreshed again.
+
+A new display technology uses a bi-stable pixel, which maintains its state indefinitely without the need for individual transistor elements at each pixel.
+
+The signal is divided into a row or ''select signal'' and a column or ''video signal''.  The select voltage determines the row that is being addressed and all ''m'' pixels on a row are addressed simultaneously. When pixels on a row are being addressed, a ''V<SUB>sel</SUB>'' potential is applied, and all other rows are unselected with a ''V<SUB>unsel</SUB>'' potential. The video signal or column potential is then applied with a potential for each ''m'' columns individually. An on-lighted pixel corresponds to a ''V<SUB>on</SUB>'', an off-switched corresponds to a ''V<SUB>off</SUB>'' potential.
+
+The potential across pixel at selected row ''i'' and column ''j'' is
+:<math>V_{ij} = V_{sel} - V_{on|off}</math>
+and
+:<math>V_{ij} = V_{unsel} - V_{on|off}</math>
+for the unselected rows.
+
+'''Passiv matrisadressering''' är ett adresseringsschema som praktiseras i bildskärmar, åtminstone i framtida skärmar. Antalet kontakter i en ''n''&times;''m'' matris uppgår till (''n'' + ''m'') stycken. Detta är mycket färre än vad som krävs i direkt adressering. Signalerna särskiljs i en rad- eller selektspänning samt en kolumnspänning eller videosignal. 
+Adresseringen sker etappvis rad-för-rad. Samtliga ''m'' pixlar i varje kolum adresseras samtidigt, och selektsignalen bestämmer aktuell rad som adresseras. När en rad väljs, drivs den med en spänning ''V<SUB>sel</SUB>'', medan övriga rader drivs med ''V<SUB>unsel</SUB>''. Varje individuell kolumn påläggs en spänning för varje ''m'' pixel. En tänd pixel påläggs spänningen ''V<SUB>on</SUB>'', medan en släckt påläggs ''V<SUB>off</SUB>''.
+
+Potentialen över en vald pixel på rad ''i'' och kolumn ''j'' ges av
+:<math>V_{ij} = V_{sel} - V_{on|off}</math>
+samt
+:<math>V_{ij} = V_{unsel} - V_{on|off}</math>
+för de ovalda raderna. Figuren nedanför illustrerar en 3&times;3-displaymatris.
+:''sketch figure finished''

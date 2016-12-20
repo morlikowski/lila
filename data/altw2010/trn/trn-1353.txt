@@ -1,0 +1,44 @@
+Ein '''Referrer''' ist die Internetadresse der Links zu der aktuellen Seite gekommen ist (engl. ''to refer'' „verweisen“). Der Referrer ist ein Teil der an den HTTP-Anfrage. Das RFC 2616 (Hypertext Transfer Protocol HTTP/1.1) erklärt den technischen Hintergrund.
+Spezielle Referrer sind Internal Referrer, External Referrer, Search Referrer, Visit Referrer und Original Referrer.
+
+== Beispiel einer HTTP-Anfrage mit Referrer-Übergabe ==
+
+Angenommen, die Webseite ''<nowiki>http://example.org/referring_page</nowiki>'' enthält einen Link auf diesen Wikipedia-Artikel: ''<nowiki>http://de.wikipedia.org/wiki/Referrer</nowiki>''. Wenn der Benutzer diesen Link in seinem Webbrowser auswählt (anklickt), dann wird eine Verbindung zu dem Webserver aufgebaut, der unter dem Namen de.wikipedia.org erreichbar ist, und fordert von diesem die gewünschte Seite an. In diesem Beispiel sendet der Webbrowser folgende Anforderung in der Syntax des Hypertext Transfer Protocols (HTTP):
+
+ GET /wiki/Referrer HTTP/1.1
+ Host: de.wikipedia.org
+ '''Referer''': <nowiki>http://example.org/referring_page</nowiki>
+
+(Zur Schreibweise siehe weiter unten.) Welche Angaben in der Anforderung gesendet werden, hängt vom verwendeten Webbrowser und dessen Konfiguration ab. So kann die Übermittlung des Referrers in jedem gängigen Webbrowser – mit Bordmitteln oder mit Hilfsprogrammen – abgeschaltet werden.
+
+== Was geschieht mit dem Referrer? ==
+
+Der Webserver bzw. sein Betreiber, kann die erhaltenen Angaben auf jede erdenkliche Weise verarbeiten. Praktisch jeder Webserver speichert in einer Protokolldatei eine Zeile je Abruf, in der neben User-Agent-Angabe, also dem verwendeten Webbrowser, auch der Referrer gespeichert wird. Dies dient vor allem der statistischen Auswertung; der Betreiber der Webseite erfährt, welche fremden Webseiten auf seine Seite verweisen.
+Der Webserver kann aber auch eine vom Referrer abhängige Antwort liefern. Manche Bilder lassen sich nur abrufen, wenn der Referrer auf der gleichen Website ist; der Betreiber will damit verhindern, dass fremde Seiten die eigenen Bilder einbinden.
+Dieses Verfahren ist jedoch unter Umständen problematisch, da die Angabe des Referrers durch den User-Agenten erfolgt, laut Protokollspezifikation grundsätzlich freiwillig ist und beispielsweise bei Einsatz eines Proxyservers unterdrückt sein kann.
+
+pornografischen Internetangeboten genutzt. Hierbei hinterlässt ein SpamURL des Angebots auf möglichst vielen Websites. Wenn eine dieser betroffenen Websites ihre Referrer veröffentlicht, was besonders bei Weblogs beliebt ist, so befinden sich darunter die Spamlinks zu den Pornografieseiten.
+
+== Dereferrer ==
+
+Ein Dereferrer ist ein Dienst, der die Verlinkung einer Website erlaubt, ohne dass diese Website sinnvolle Referrerinformationen bekommt.
+
+Eine Verlinkung der Seite <nowiki>http://de.wikipedia.org/</nowiki> über den (fiktiven) Dereferrerdienst <nowiki>http://www.example.org/</nowiki> könnte zum Beispiel so aussehen:
+
+Un '''référent''' ou '''référant''', plus connu sous l'graphie exacte de ce mot est en réalité ''« referrer »'', avec deux « r ». Mais cette erreur est si courante dans la langue anglaise, qu'elle a été commise au sein même des spécifications officielles du protocole HTTP. La forme erronée est par conséquent devenue standard dans l'industrie de l'informatique, lorsqu'il est question des référants.</ref>, est, dans le domaine des réseaux informatiques, une information transmise à un visiteur suit un lien pour accéder à l'une de ses ressources, lui indiquant l'URL de la page où se situe ce lien qu'il a suivi.
+
+Cela peut être un lien sur une page extérieure au site, mais également un lien sur le même site.
+
+Si aucun lien n'est fourni, le champ référant sera vide.
+
+== Intérêt ==
+
+Le plus souvent, cette information est enregistrée dans un historique, et l'ensemble est analysé par le webmestre.
+
+En particulier, les référants permettent au webmestre de savoir quels sont les mots-clés que le visiteur a saisi dans un optimiser le référencement de son site.
+
+Les référants peuvent également être utilisés pour limiter l'accès de certaines ressources aux seuls référants autorisés.
+
+Dans le cadre d'échanges publicitaires entre deux sites, l'analyse des référants permet à un webmestre de savoir combien de visiteurs sont arrivés sur son site à partir de la publicité faite sur le site partenaire, et éventuellement de rémunérer ce dernier en conséquence.
+
+Les référants permettent également d'établir les ''billet, sur un blog.

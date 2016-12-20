@@ -1,0 +1,126 @@
+{{Umelé kozmické teleso|
+obrázok=Phoenix landing.jpg|
+cospar=2007-034|
+názov=Phoenix|
+katalóg=|
+štart=4. august 2007|
+kozmodróm=Eastern Test Range|
+raketa=Delta 7925-9.5|
+stav=na geocentrickej únikovej dráhe|
+zánik alebo pristátie=|
+zánik=| 
+prevádzkovateľ=USA, JPL<br>USA, University of Arizona|
+výrobca=USA, LMSS|
+kategória=planetárna sonda|
+hmotnosť=vzletová&nbsp;670&nbsp;kg<br>přistávací&nbsp;modul&nbsp;350&nbsp;kg
+}}
+thumb|Sonda Phoenix
+thumb|Sonda Phoenix bez tepelného štítu
+'''Phoenix''' je robotická sonda, ktorá bude využitá na výskum planéty Mars. Vedci riadiaci Phoenix využijú nástroje na palube sondy, aby zistili, či sú prírodné podmienky na Marse vhodné pre mikroskopický život. Sonda bude tiež skúmať históriu vody.
+
+Zariadenie bolo vypustené 4. augusta 2007 pomocou rakety Delta II. Pristátie na Marse sa prebehlo na 25. mája 2008. Phoenix pristál na severnej polárnej čiapočke Marsu v oblasti bohatej na ľad. Bude disponovať robotickou rukou schopnou odberu vzoriek zmrznutej pôdy. 
+
+Program je riadený Arizonskou univerzitou pod dohľadom USA, Kanady, Švajčiarska a Nemecka, Kanadskej kozmickej agentúry a leteckého priemyslu.
+
+== História ==
+V auguste programu Mars Scout. Výber bol výsledkom intenzívnej dvojročnej súťaže s návrhmi iných inštitúcií. Dotácia v hodnote 325 miliónov dolárov je viac ako šesťkrát väčšia ako akýkoľvek výskumný grant v celej histórii University of Arizona. Vedením tejto misie bol poverený Peter H. Smith z Lunárneho a planetárneho laboratória University of Arizona. Misia bola pomenovaná po Fénixovi, mytologickom vtákovi, ktorý sa stále znovu rodí z popola. Tak ako tento vták, tiež Phoenix obsahuje už skôr vyrobené komponenty. Pristávací modul pre misiu v roku 2007 je upravený modul misie Mars Surveyor 2001 Lander (zrušená v roku 2000 po nehode sondy Mars Polar Lander). Lockheed Martin potom uložil dva takmer kompletné moduly do klimatizovaného skladu.
+
+== Popis sondy ==
+=== Vedecké vybavenie <ref>{{Cite web
+| url=http://www.hvezdarna-vsetin.inext.cz/view.php?cisloclanku=2007080001
+| title=Mýtický Fénix míří na Mars
+| author=Michal Václavík 
+| accessdate=2008-02-15
+| publisher=Hvězdárna Vsetín
+| language=po česky
+}}</ref> ===
+
+'''RA (Robotic Arm)'''
+
+Robotické rameno s dĺžkou 2,35 m so štyrmi stupňami voľnosti – hore a dole, do strán, dopredu a dozadu a okolo svojej osi. Na jeho konci je malá radlica, ktorá umožní odoberanie vzoriek pôdy až do hĺbky 50 cm. Vyhodnotenie vzoriek prebehne v analyzátoroch TEGA a MECA. Rameno RA je tak jedno z najdôležitejších zariadení na sonde Phoenix, pretože je práve jedinou možnosťou, ako odobrať vzorky pre vyššie zmienené analyzátory.
+
+'''RAC (Robotic Arm Camera)'''
+
+Kamera umiestnená na robotickom ramene RA. Hlavnou úlohou je vyhotoviť farebný obrazový materiál odoberaných vzoriek, miesta odberu a okolia pristávacieho modulu. Na osvetlenie snímanej oblasti slúžia dva bloky LED diód – horný ich obsahuje 36 modrých, 18 zelených a 18 červených, spodný 16 modrých, 8 zelených a 8 červených. Presne definovaná vlnová dĺžka svetla emitovaného LED diódou bude využitá na skúmanie zloženia povrchu a odkrytých podpovrchových vrstiev so zameraním na detekciu vody a vodného ľadu. CCD snímací prvok bude fotografovať vo veľmi vysokom rozlíšení až 23 μm na pixel.
+
+'''SSI (Surface Stereoscopic Imager)'''
+
+Panoramatická stereoskopická kamera s vysokým rozlíšením. Využíva pokročilý optický systém s 12 filtrami, ktoré umožňujú multispektrálne snímanie vo viditeľnej aj infračervenej oblasti. Výsledné dáta budú využité na získanie informácií o priestorovom usporiadaní krajiny okolo pristávacieho modulu, merania koncentrácie prachu a prítomnosti mrakov v atmosfére. Samozrejmosťou je vytváranie, v dnešnej dobe populárnych, virtuálnych 3D snímok.
+
+'''TEGA (Thermal and Evolved Gas Analyzer)'''
+
+Kombinuje vysokoteplotnú pec a hmotnostný spektrometer. Vzorky pôdy odobrané robotickým ramenom RA budú dopravené do úzkej komory veľké asi ako náplň guličkového pera, kde sa vzorka postupne zahreje až na teplotu 1 000 °C. Odparené látky sa potom odvedú do hmotnostného spektrometra, kde sa podrobia analýze. Rozlišovacia schopnosť merania koncentrácie vybraných molekúl a atómov je až neuveriteľná – 10 častíc z miliardy.
+
+'''MECA (Microscopy, Electrochemisty and Conductivity Analyzer)'''
+
+Ide o súbor niekoľkých vedeckých prístrojov na analýzu odobraných vzoriek marťanskej pôdy. Vyhodnotenie vzoriek bude zabezpečené na základe jeho elektrochemických a vodivostných charakteristík. Pomocou mikroskopu budú pozorované čiastočky pôdy pre určenie spôsobu ich vzniku a zloženia.
+
+'''MARDI (Mars Descent Imager)'''
+
+Širokoúhla kamera na snímanie povrchu Marsu pri pristáti. Po odhodení tepelného štítu, vo výške okolo 8 km, začne snímkovanie pristávacej oblasti sondy Phoenix. Snímky budú slúžiť na skúmanie polárnej oblasti Marsu hlavne k presnému geografickému zaradeniu miesta pristátia. Kamera bude mať možnosť vyhotoviť snímku každé 4 ms a jej súčasťou bude aj mikrofón. Po pristáti bude zostupová kamera MARDI vypnutá.
+
+{{Sonda kosmiczna infobox
+|          nazwa =Phoenix
+|        obrazek =Phoenix landing.jpg
+|     inne_nazwy = 
+|  organizatorzy =NASA
+|         COSPAR =2007-034A 
+|        rakieta =Delta 7925-9.5
+|      kosmodrom =Stacja Sił Powietrznych Cape Canaveral 
+|           kraj =USA 
+|      cel_misji =Mars
+|          cel_2 =
+| ciało_centralne=
+|    perycentrum =
+|     apocentrum =
+|          okres =
+|     nachylenie = 
+|       mimośród = 
+| początek_dzień =4 sierpnia
+|   początek_rok =2007
+|          hh:mm =09:26:34
+|lądowanie_dzień =26 maja
+|  lądowanie_rok =2008
+|      ląd_hh:mm = 
+|   koniec_dzień = 
+|     koniec_rok = 
+|   powrót_dzień = 
+|     powrót_rok = 
+|        kształt = 
+|        wymiary =
+|      masa_całk =przy starcie: 670
+|       masa_ład =55
+}}
+thumb|250px|Sonda Phoenix podczas testów we wrześniu 2006
+thumb|250px|Moment startu rakiety typu [[Delta II z ladownikiem ''Phoenix'']]
+Bezzałogowy lądownik '''Phoenix''', będący częścią programu NASA Mars Scout Program, został wysłany 4 sierpnia 2007 w kierunku Marsa. 26 maja 2008 wylądował w okolicach okołobiegunowych, w rejonie Vastitas Borealis, na półkuli północnej. Jego celem są obszary, które podejrzewa się o istnienie dużych ilości lodu wodnego tuż pod powierzchnią gruntu.
+
+== Cel ==
+Lądownik jest wyposażony w mechaniczne ramię, którego użyje do odkrycia warstw znajdujących się głębiej pod powierzchnią. Misja ma na celu dostarczenie danych geologicznych, które ułatwią zrozumienie klimatu, panującego na planecie miliony lat temu. Dodatkowo naukowcy mają nadzieję odkryć pod powierzchnią gruntu ekosystem na granicy lodu i gleby. Dlatego będzie w zmarzlinie poszukiwać m.in. związków organicznych. Misja Phoeniksa ze względu na panujące w okolicy lądowania warunki (mała ilość światła słonecznego docierającego do baterii lądownika) potrwa do września 2008.
+
+== Historia ==
+Phoenix posiada ulepszone wersje instrumentów, które pierwotnie miały się znaleźć na pokładzie anulowanego 2001 Mars Surveyor Lander, który miał polecieć razem z orbiterem 2001 Mars Odyssey.
+Dokładne miejsce lądowania zostało ustalone na podstawie zdjęć dostarczonych przez Mars Reconnaissance Orbiter.
+
+== Kalendarium ==
+* start: 4 sierpnia 2007 o godz. 09:26:34 GMT.
+* lądowanie: 26 maja 2008 o godz. 01:53 czasu polskiego (23:53 UTC)
+
+== Wyposażenie ==
+* ''Surface Stereo Imager'' (SSI) – kamera stereoskopowa na 2-metrowym maszcie
+* ''Robotic Arm'' (RA) – wysięgnik, wyspecjalizowany do kopania rowów, wygarniania próbek gleby i lodu oraz przenoszenia ich do przyrządów TEGA i MECA
+* ''Robot Arm Camera '' (RAC) – aparat umieszczony na ramieniu koparki
+* ''Microscopy, Electrochemistry and Conductivity Analyzer'' (MECA) –  analizator fizyko-chemicznych własności gruntu 
+* ''Thermal Evolved Gas Analyzer'' (TEGA) – analizator gazów uwalniających się z podgrzewanych próbek gruntu, podobny do umieszczonego na pokładzie utraconego Mars Polar Lander
+* ''Metorological Station'' (MET) – zestaw przyrządów meteorologicznych w tym ''Light Detection And Ranging'' (LIDAR)
+* ''Mars Descent Imager'' (MARDI) – kamera przeznaczona do wykonywania zdjęć podczas lądowania ''(z powodu wykrytych na krótko przed startem problemów technicznych z interfejsem kamery, podjęto decyzję o nie używaniu tego instrumentu)''
+
+== Budżet ==
+Całkowity koszt misji szacowany jest na 417 milionów dolarów amerykańskich.<ref>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=2007-034A</ref> Phoenix został wybrany spośród czterech projektów zaproponowanych w ramach Mars Scout Program. Koszt pozostałych trzech przekraczał znacznie ograniczenia budżetowe.
+
+=== Odrzucone propozycje ===
+* ARES – Aerial Regional-scale Environmental Survey – marsjański samolot
+* MARVEL – Mars Volcanic Emission and Life – orbiter, mający za zadanie poszukiwanie aktywności wulkanicznej i ewentualnych miejsc występowania życia
+* SCIM – Sample Collection for the Investigation of Mars – misja dostarczenia na Ziemię próbki atmosferycznego pyłu marsjańskiego
+
+== Linki zewnętrzne ==

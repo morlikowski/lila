@@ -1,0 +1,30 @@
+'''Smart Label''', also called '''Smart Tag''', is an extremely flat configurated Transponder under a conventional print-coded label, which includes antenna and bonding wires as a so-called ''inlay''. The labels—made of paper, fabric or plastics—are prepared as a paper roll with the inlays laminated between the rolled carrier and the label media for use in specially designed printer units. 
+
+The processing of these labels is basically as with ordinary labels in all stages of production and application, with the following extensions:
+* the inlay is inserted in an automated processing step to ensure identical positioning for each label and careful processing to prevent any damage to the bonding.
+The printing is processed in two steps, including
+* normal ink-jet printing, except the space with the bonded chip, with clearly intelligible text and
+* either barcode or 2D barcode for later semi-automatic reading with handheld readers or fix-mount scanners
+* writing coherently concatenated information to the RFID-chip
+* reading the written information on the RFID-chip subsequently in the printer for control purpose (read after write)
+
+Other customisation of such smart labels is with chip cards. Also combinations of magnetic stripes with RFID chips are used, especially for credit cards.
+
+In many processes in logistics and transportation the barcode or the 2D-barcode is well established as the key means for identification in short distance. Whereas the automation of such optical coding is limited in appropriate distance for reading success and usually requires manual operation for finding the code or, alternatively, scanner gates, that scan all the surface of a coded object, the RFID-inlay, as an additional means, allows for better tolerance in fully automated reading from certain specified distance. However, the mechanical vulnerability of the RFID-inlay is higher than the ordinary label, which has its weaknesses in its resistance to scratch.
+
+Thus, the smartness of the smart label is earned in compensation of typical weaknesses with the combination of the technologies of plain text, optical code and radio code.
+
+Smart labels are applied directly to packages or to pallets or other containments. The application directly to the product is still of neglectible importance
+* due to the cost of the labels, which may be justified easier for agglomerations of more than one product
+* because all metallic, liquid or otherwise electrically not transparent products reflect or reduce the radio waves
+* due to the handling, which normally addresses the package and lesser the unpacked product.
+
+'''Smart Label''', auch '''Smart Tags''' genannt, sind ultraflache Transponder, die samt Antenne auf eine einlaminiert und auf diese Weise in herkömmliche Etiketten integriert werden (daher der Name). Möglich ist auch die Integration in Chipkarten. Andere oft verwendete Bezeichnungen sind ''Wegwerftransponder'', ''Intelligentes Papier''.
+
+In vielen Prozessen der Auto-ID-Technik etabliert. Überwiegend wird er entweder direkt auf die Verpackung der Objekte (z.B. im Einzelhandel) oder aber auf ein Etikett gedruckt, das dann an das Objekt geklebt wird (z.B. bei der Palettenkennzeichnung). Radio Frequency Identification (RFID) hat Eigenschaften, die in mancher Beziehung dem Barcode überlegen sind, z.B. berührungslose Auslesung. Hinderlich ist jedoch ihre Bauform, sie haben ein verhältnismäßig großes Volumen und sind vergleichsweise unhandlich und schwer zu befestigen. Viel leichter lässt sich ein Transponder in bestehende Prozesse integrieren, wenn er ähnliche Eigenschaften wie die verwendeten Etiketten hat. Aus dieser Idee heraus und im Zuge der fortschreitenden Miniaturisierung der Bauteile wurden die Smart Label entwickelt.
+
+Neu ist nicht die Technologie RFID, sondern die Produktionsverfahren, so dass die Funktionalitäten der Produkte und die Zielmärkte das wesentlich Neue darstellen.
+
+Smart Label arbeiten auf einer Frequenz von 13,56 Spule mit einigen Windungen realisieren. Eine Feld des Lesegerätes entnommen wird. Der verwendete Chip ist in der Massenproduktion ebenfalls günstig. Somit ergeben sich für das Smart Label attraktive Preise bei recht guter Performance.
+
+Smart Label vereinigen die beiden Auto-ID Techniken Barcode-Welt und RFID. Erstens lassen sie sich ähnlich wie Papieretiketten verarbeiten und mithin auch überall einsetzen, wo bislang etikettiert wird. Zweitens können sie zu Preisen hergestellt werden, die Anwendungen im Massenbereich und insbesondere Einweg-Anwendungen erst ermöglichen.

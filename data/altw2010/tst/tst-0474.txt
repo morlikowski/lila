@@ -1,0 +1,77 @@
+{{Infobox Chemikalie
+| Strukturformel      = 180px
+| Andere Namen        = * Chlordiphenylphosphin
+* ''P''-Chlordiphenylphosphan
+* Diphenylphosphanchlorid
+* Phosphenylchlorid
+| Summenformel        = C<sub>12</sub>H<sub>10</sub>ClP
+| CAS                 = 1079-66-9
+| Beschreibung        = farblose Flüssigkeit
+| Molare Masse        = 220,64 g·mol<sup>−1</sup>
+| Aggregat            = flüssig
+| Dichte              = 1,2 g·cm<sup>−3</sup> (20 °C)<ref name=gestis></ref>
+| Schmelzpunkt        = 14–16 °C<ref name=gestis/>
+| Siedepunkt          = 320 °C<ref name=gestis/>
+| Dampfdruck          = 1,3 hPa (20 °C)<ref name=gestis/>
+| Löslichkeit         = heftige Zersetzung mit Wasser<ref name=gestis/>
+| Quelle GefStKz      = <ref name=gestis/>
+| Gefahrensymbole     = 
+| R                   = 
+| S                   = 
+| MAK                 = 
+| LD50                = 360 mg/kg (Oral, Ratte)<ref>[http://assets.chemportals.merck.de/documents/sds/emd/deu/de/8101/810158.pdf Sicherheitsdatenblatt Merck]</ref>
+| WGK                 = 2<ref name=gestis/>
+}}
+'''Chlordiphenylphosphan''' ist eine zur Gruppe der Phosphane gehörende chemische Verbindung. Sie trägt zwei Phenylreste und ein Chloratom am zentralen Phosphor gebunden.
+
+== Herstellung ==
+Technisch kann die Synthese von Chlordiphenylphosphan durch die Disproportionierung von Dichlorphenylphosphan bei Temperaturen über 280 °C in der Gasphase bewerkstelligt werden.<ref>A. Broglie: ''Ueber das Verhalten von Phosphenylchlorid bei höherer Temperatur'' in: ''Chem. Ber.'' '''1877''', 21, 628.</ref>  
+
+:<math>\mathrm{2\ Cl_2PPh\longrightarrow\ ClPPh_2\ +\ PCl_3}</math>
+:<small>Disproportionierung von Dichlorphenylphosphan in Chlordipenylphosphan und Phosphortrichlorid. Ph = Phenyl</small>
+
+Die großtechnische Synthese verläuft über die Umsetzung von Phosphortrichlorid mit Benzol bei 600 °C, wobei zunächst Dichlorphenylphosphan, das nach oben gezeigter Reaktion zu Chlorphenylphosphan disproportioniert.<ref>J. Svara, N. Weferling, T. Hofmann: ''Organic Phosphorus Compounds'' in: ''Ullmann's Encyclopedia of Industrial Chemistry'', 7. Auflage, John Wiley & Sons, 2008.</ref>
+
+Im Labormaßstab kann zur Herstellung beispielsweise die Reaktion von Phosphortrichlorid mit Phenylzinkchlorid (PhZnCl) oder Diphenylquecksilber (Ph<sub>2</sub>Hg) genutzt werden.<ref name=weil>Th. Weil: ''Über Diarylchlorphosphine'' in: ''Helv. Chim. Acta'' '''1954''', 37, 2, 654–655.</ref>
+
+:<math>\mathrm{PCl_3\ +\ 2 PhZnCl\longrightarrow\ ClPPh_2\ +\ 2 ZnCl_2}</math>
+:<small>Phosphortrichlorid reagiert mit Phenylzinkchlorid zu Chlordiphenylphosphan und Zinkchlorid.</small>
+
+Ein weiterer Weg besteht in der Umsetzung von molekularem Chlor.<ref>A. Michaelis, H. v. Soden: ''Ueber Tripenylphosphin und einige Derivate desselben'' in: ''Liebigs Ann.'' '''1885''', 229, 3, 295–334.</ref>
+
+{{Chembox new
+| ImageFile =chlorodiphenylphosphine.png
+| ImageSize = 
+| ImageFile1 =Chlorodiphenylphosphine-3D-balls.png
+| IUPACName = chlorodiphenylphosphine
+| OtherNames = p-chlorodiphenylphosphine, diphenyl phosphine chloride, diphenylchlorophosphine, diphenylphosphinous chloride
+| Section1 = {{Chembox Identifiers
+|   CASNo = 1079-66-9
+|   PubChem = 
+|   SMILES = 
+  }}
+| Section2 = {{Chembox Properties
+|   Formula = C<sub>12</sub>H<sub>10</sub>ClP
+|   MolarMass = 220.63776 g mol<sup>-1</sup>
+|   Appearance = clear to light yellow liquid
+|   Density = 1.229 g cm<sup>-3</sup>
+|   MeltingPt = 
+|   BoilingPt = 320 ˚C
+|   Solubility = Reacts with water
+  }}
+| Section3 = {{Chembox Hazards
+|   MainHazards = 
+|   FlashPt = 
+|   Autoignition = 
+  }}
+}}
+'''Chlorodiphenylphosphine''' (Ph<sub>2</sub>PCl) is known by many different names.  It is a liquid with a very pungent odor often described as being garlic-like, detectable even in the ppb range.  Like other halophosphines, Ph<sub>2</sub>PCl is highly reactive with many nucleophiles, water, and even air.<ref name=Svara>Svara, J.; Weferling, N.; Hofmann, T. Phosphorus Compounds, Organic, In ''Ullmann's Encyclopedia of Industrial Chemistry, 7<sup>th</sup> ed.''; John Wiley & Sons, Inc.: 2008; DOI: 10.1002/14356007.a19_545.pub2; Accessed: February 18, 2008.</ref> Halophosphines are easily oxidized and used as reagents in the synthesis of many different phosphines.<ref name=Quin>Quin, L. D. ''A Guide to Organophosphorus Chemistry''; Wiley IEEE: New York, 2000; pp 44-69. ISBN 0471318248</ref> 
+
+== Synthesis ==
+
+Ph<sub>2</sub>PCl is made on a commercial scale from benzene and phosphorus trichloride (PCl<sub>3</sub>). Benzene is reacted with phosphorus trichloride at extreme temperatures, around 600 ˚C, yielding phenylphosphinous dichloride (PhPCl<sub>2</sub>).  Disproportionation of PhPCl<sub>2</sub> in the gas phase at high temperatures results in chlorodiphenylphosphine.<ref name=Quin/><ref name=Svara/>
+:2 PhPCl<sub>2</sub> → Ph<sub>2</sub>PCl + PCl<sub>3</sub>
+
+== Uses ==
+
+Ph<sub>2</sub>PCl, along with other members of the halophosphine family, is widely used in the synthesis of various phosphines. For example: where R= alkyl or aryl group

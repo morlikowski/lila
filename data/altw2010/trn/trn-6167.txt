@@ -1,0 +1,185 @@
+'''Perisian bebas''' ialah perisian yang boleh digunakan, dikaji, diubah, disalin dan diedarkan kepada orang lain secara bebas.
+
+==Pengenalan==
+Syarikat perisian komputer memonopoli pasaran perisian komputer dan mengenakan harga yang tinggi terharap perisian yang mereka jual. Selain itu kaedah perlesenannya juga amat terhad dimana setiap perisian yang dibeli hanya boleh dipasang di dalam satu komputer. Pengguna tidak memiliki perisian tersebut selepas dibeli. Mereka hanya mempunyai hak untuk menggunakan perisian tersebut dalam satu komputer sahaja. Selain itu apa-apa penambahan terhadap perisian adalah tidak dibenarkan. Pengguna juga tidak boleh mendapat atau melihat kod sumber perisian tersebut.
+
+Pakar-pakar komputer dan teknologi maklumat yang tidak berpuas hati terhadap penguasaan dan monopoli syarikat-syarikat perisian komputer telah menulis perisian mereka sendiri dan memberikannya secara PERCUMA. Pengguna boleh menggunakan perisian ini secara percuma dan ia boleh dipasang kedalam seberapa banyak komputer yang dikehendaki tanpa apa-apa bayaran lesen. Pengguna juga boleh memberikan perisian ini kepada sesiapa sahaja tanpa sebarang sekatan. Selain itu kod sumber perisian tersebut juga diberikan secara percuma. Pengguna boleh melihat, mengubahsuai dan menggunakan kod tersebut di dalam kerja-kerja mereka.
+
+==Perisian Bebas (Free Software)==
+Projek perisian bebas yang dikenali sebagi Projek sistem pengoperasian seperti sistem pengoperasian Linux yang cukup berfungsi. Oleh itu, Linux melengkapkan ruang terakhir dalam rancangan projek perisian bebas.Pada asasnya konsep perisian bebas merujuk kepada ''kebebasan'' bukannya ''harga''. Untuk memahamainya  Richard Stallman berkata:
+
+`Free software' is a matter of liberty, not price. To understand the concept, you should think of `free' as in `free speech,' not as in `free beer.'
+
+Free yang disebutkan bermaksud bebas, ia seperti 'kebebasan bersuara' bukan seperti 'bir yang percuma'. Bebas yang di maksudkan disini adalah :
+* bebas untuk mengguna
+* bebas untuk menyalin
+* bebas untuk mengkaji dan mengubahsuai
+* bebas untuk mengedarkannya
+* bebas untuk memperbaiki
+
+Disebabkan ianya bebas pengguna tidak perlu mememinta '''kebenaran atau membayar lesen''' untuk mengguna, menyalin, mengubahsuai dan mengedar perisian tersebut.
+
+==Perisian Sumber Terbuka (Open Source Software) ==
+Sumber terbuka bermakna apabila sumber maklumat, kod, gambar, peta, pengarang, dan semua yang berkaitan adalah boleh dilihat dan diubahsuai oleh orang awam atau sesiapa sahaja.
+
+'''Inisiatif Sumber Terbuka atau Open Source Initiative (OSI)''' telah dibentuk pada Feburari 1998 oleh Eric S. Raymond and Bruce Perens. Ia merupakan badan yang mengawal selia dan mewar-warkan konsep '''sumber terbuka'''. Konsep ini dibentuk untuk memadamkan anggapan  setengah pihak  bahawa perisian yang bebas atau percuma adalah anti-kormesial. Pihak Inisiatif Sumber Terbuka memberikan tiga kriteria yang dipanggil '''Definasi Sumber Terbuka''' iaitu: 
+
+* Kos sumber mesti diedarkan bersama perisian atau jika tidak ia mesti '''disediakan''' tidak lebih dari kos pengedarannya
+* Sesiapa sahaja boleh mengedar semula perisian tersebut secara percuma, tanpa membuat bayaran lesen atau royalti kepada penulisnya
+* Sesiapa sahaja boleh mengubahsuai perisian tersebut atau menghasilkan perisian lain daripadanya dan mengedar semula perisian yang telah diubahsuai dibawah syarat yang sama
+
+Definisi Sumber Terbuka
+
+Versi: 1.9 (sumber MIMOS Malaysia)
+Pengenalan
+
+Sumber terbuka tidak hanya membawa maksud pencapaian kepada kod sumber. Terma pengedaran bagi perisian sumber terbuka haruslah menepati kriteria-kriteria seperti berikut:
+
+'''1. Bebas Untuk Pengedaran Semula'''
+
+Lesen tersebut tidak boleh menghadkan mana-mana pihak dari menjual atau memberi perisian tersebut sebagai satu komponen pengedaran perisian lengkap yang mengandungi aturcara dari pelbagai sumber. Lesen ini tidak boleh digunakan bagi mendapatkan sebarang royalti atau lain-lain bayaran bagi mana-mana penjualan tertentu.
+'''
+2. Kod Sumber'''
+
+Sesuatu aturcara perlu disertakan bersama kod sumber, dan membenarkan pengedaran kod sumber bersama aturcara yang telah dikompil. Bagi sesetengah produk yang tidak diedarkan bersama dengan kod sumber, pemberitahuan/publisiti bagi mendapatkan kod sumber perlu dibuat samada tidak lebih dari kadar kos penghasilan semula yang berpatutan atau boleh dimuat turun melalui Internet tanpa sebarang bayaran. Kod sumber mestilah dalam bentuk yang boleh diterima umum yang mana pengaturcara boleh membuat pindaan terhadapnya. Kod sumber yang sengaja berbentuk mengelirukan tidak dibenarkan. Bentuk pertengahan seperti output prapemprosesan atau penterjemahan juga tidak dibenarkan.
+
+'''3. Sumber Kerja Asal'''
+
+Lesen tersebut mestilah membenarkan pengubahsuaian serta sumber kerja asal, dan perlu membenarkan ia diedar di bawah terma yang sama dengan lesen perisian asal.
+'''
+4. Integriti Pencipta Kod Sumber'''
+
+Lesen tersebut boleh menghadkan pengedaran kod sumber dalam bentuk pindaan sahaja hanya jika lesen tersebut membenarkan pengedaran "fail tampung" bersama kod sumber dengan tujuan meminda aturcara tersebut pada masa pembuatan. Lesen tersebut perlu secara jelas membenarkan edaran perisian yang dibangunkan dari kod sumber yang telah dipinda. Lesen tersebut mungkin memerlukan sumber kerja asal untuk membawa nama atau versi yang berbeza daripada perisian asal.
+
+'''5. Tiada Diskriminasi Terhadap Individu Atau Kumpulan'''
+
+Lesen tersebut tidak boleh mewujudkan diskriminasi terhadap mana-mana individu atau kumpulan tertentu.
+
+'''6. Tiada Diskriminasi Terhadap Sesuatu Bidang Usaha'''
+
+Lesen tersebut tidak boleh menghalang sesiapa daripada menggunakan aturcara tersebut bagi sebarang usaha dalam bidang lain. Sebagai contoh, lesen tersebut tidak boleh melarang sesiapa daripada menggunakan aturcara tersebut dalam bidang perniagaan ataupun digunakan dalam kajian genetik.
+
+'''7. Pengedaran Lesen'''
+
+'''Free software''' or software libre is software that can be used, studied, and modified without restriction, and which can be copied and redistributed in modified or unmodified form either without restriction, or with minimal restrictions only to ensure that further recipients can also do these things.  In practice, for software to be distributed as free software, the human readable form of the program (the "source code") must be made available to the recipient along with a notice granting the above permissions.  Such a notice is a "free software licence", or, in theory, could be a notice saying that the source code is released into the public domain.
+
+The libre'''", "free, libre and open-source software" ("'''FOSS'''", or, with "libre", "'''FLOSS'''"). The antonym of free software is "''proprietary software''" or ''non-free software''.
+
+Free software is distinct from "freeware" which is proprietary software made available free of charge. Users usually cannot study, modify, or redistribute freeware. 
+
+Since free software may be freely redistributed, it generally is available at little or no cost. Free software business models are usually based on adding value such as support, training, customization, integration, or certification. At the same time, some business models which work with proprietary software are not compatible with free software, such as those that depend on a user paying for a licence in order to lawfully use a software product.
+
+== History ==
+
+In the 1950s, 1960s, and 1970s, it was normal for computer users to have the freedoms that are provided by free software. binary copies of computer programs) to prevent computer users from being able to study and modify software.<ref>{{cite web
+|url=http://www.dwheeler.com/oss_fs_why.html#history
+|title=Appendix "History" of Why OSS/FS, Look at the Numbers!
+|author=David A. Wheeler
+|quote=However, as years progressed, and especially in the 1970s and 1980s, software developers increasingly closed off their software source code from users.|}}</ref>. In 1980 copyright law was extended to computer programs.
+
+In 1983, hacker community at the MIT Artificial Intelligence Laboratory, announced the GNU project, saying that he had become frustrated with the effects of the change in culture of the computer industry and its users. Software development for the GNU operating system began in January 1984, and the Free Software Foundation (FSF) was founded in October 1985. He developed a free software definition and the concept of "copyleft", designed to ensure software freedom for all.
+
+thumb|Richard Stallman at DTU in Denmark 31 March 2007
+
+Free software is a widespread international concept, producing software used by individuals, large organizations, and governmental administrations. Free software has a very high market penetration in server-side Internet applications such as the developers have also created free versions of almost all commonly used desktop applications, including Web browsers, office productivity suites, and multimedia players. It is important to note, however, that in many categories, free software for individual workstations or home users has only a fraction of the market share of its proprietary competitors. Most free software is distributed online without charge, or off-line at the marginal cost of distribution, but this pricing model is not required, and people may sell copies of free software programs for any price.
+
+The economic viability of free software has been recognised by large corporations such as IBM, Red Hat, and Sun Microsystems. Many companies whose core business is not in the IT sector choose free software for their Internet information and sales sites, due to the lower initial capital investment and ability to freely customize the application packages. Also, some non-software industries are beginning to use techniques similar to those used in free software development for their research and development process; scientists, for example, are looking towards more open development processes, and hardware such as microchips are beginning to be developed with specifications released under copyleft licenses (see the OpenCores project, for instance). Creative Commons and the free culture movement have also been largely influenced by the free software movement.
+
+===Naming===
+The FSF recommends using the term "free software" rather than "open source software" because that term and the associated marketing campaign focuses on the technical issues of software development, avoiding the issue of user freedoms.<ref></ref> "Libre" is used to avoid the ambiguity of the word "free". However, amongst English speakers, ''libre'' is primarily only used within the free software movement.
+
+== Definition ==
+
+The first formal definition of free software was published by FSF in February 1986.<ref name=bull6>{{cite web
+|url=http://www.gnu.org/bulletins/bull1.txt
+|title=GNU's Bulletin, Volume 1 Number 1, page 8
+|}}</ref>  That definition, written by Richard Stallman, is still maintained today and states that software is free software if people who receive a copy of the software have the following four freedoms:
+
+* Freedom 0: The freedom to run the program for any purpose.
+* Freedom 1: The freedom to study and modify the program.
+* Freedom 2: The freedom to copy the program so you can help your neighbor.
+* Freedom 3: The freedom to improve the program, and release your improvements to the public, so that the whole community benefits.
+
+Freedoms 1 and 3 require source code to be available because studying and modifying software without its source code is highly impractical.
+
+Thus, free software means that computer users have the freedom to cooperate with whom they choose, and to control the software they use.  To summarize this into a remark distinguishing ''libre'' (freedom) software from ''gratis'' (zero price) software, Richard Stallman said: "''Free software is a matter of liberty, not price. To understand the concept, you should think of 'free' as in 'free speech', not as in 'free beer<nowiki>'</nowiki>''".<ref name="definition"></ref>  
+
+In the late 90s, other groups published their own definitions which describe an almost identical set of software.  The most notable are Debian Free Software Guidelines published in 1997,<ref>{{cite web
+|author=Bruce Perens
+|url=http://lists.debian.org/debian-announce/debian-announce-1997/msg00017.html
+|title=Debian's "Social Contract" with the Free Software Community
+|work=debian-announce mailing list
+|}}</ref> and the Open Source Definition, published in 1998.
+
+The BSD-based operating systems, such as Kerberos, Apache software licenses are substantially similar in intent and implementation.  All of these software packages originated in academic institutions interested in wide technology transfer (MIT, and UIUC).
+
+== Examples of free software ==
+
+The Free Software Directory is a free software project that maintains a large database of free software packages.
+===Notable free software===
+
+* GUI related
+**X Window System
+**GNOME
+**KDE
+**Xfce desktop environments
+* OpenOffice.org office suite
+* Mozilla and Firefox web browsers.
+* Typesetting and document preparation systems
+**TeX
+**LaTeX
+* Graphics tools like Blender 3D animation program.
+* Text editors like vi or emacs.
+* ogg is a free software multimedia container, used to hold ogg vorbis sound and ogg theora video.
+* Relational database systems
+**MySQL
+**PostgreSQL
+* GCC compilers, GDB debugger and the GNU C Library.
+====Programming languages====
+*Java
+*Perl
+*PHP
+*Python
+*Lua
+*Ruby
+*Tcl
+
+====Servers====
+*Apache web server
+*BIND name server
+*Sendmail mail transport
+*Samba file server.
+
+====Operating systems====
+*GNU/Linux
+*BSD
+*Darwin
+*OpenSolaris
+
+== Free software licenses ==
+
+All free software licenses must grant people all the freedoms discussed above. However, unless the applications' licenses are compatible, combining programs by mixing source code or directly linking binaries is problematic, because of license technicalities. Programs indirectly connected together may avoid this problem.
+
+The majority of free software uses a small set of licenses. The most popular of these licenses are:
+
+* the GNU General Public License
+* the GNU Lesser General Public License
+* the BSD License
+* the Mozilla Public License
+* the MIT License
+* the Apache License
+
+The Free Software Foundation and the Open Source Initiative both publish lists of licenses that they find to comply with their own definitions of free software and open-source software respectively.
+
+* List of FSF approved software licenses
+* List of OSI approved software licenses
+
+These lists are necessarily incomplete, because a license need not be known by either organization in order to provide these freedoms.
+
+Apart from these two organizations, the Debian project is seen by some to provide useful advice on whether particular licenses comply with their Debian Free Software Guidelines.  Debian doesn't publish a list of ''approved'' licenses, so its judgments have to be tracked by checking what software they have allowed into their software archives. That is summarized at the Debian web site.<ref></ref>
+
+However, it is rare that a license is announced as being in-compliance by either FSF or OSI guidelines and not vice versa (the Netscape Public License used for early versions of Mozilla being an exception), so exact definitions of the terms have not become hot issues.
+
+=== Permissive and copyleft licenses ===
+
+The FSF categorizes licenses in the following ways:

@@ -1,0 +1,63 @@
+<!--из en-->
+'''Live CD''' (также '''LiveCD''' и '''CD Live Distro''' — , произносится "лайв си-ди") — операционная система, загружающаяся со сменного носителя (CD, DVD, USB-накопитель), не требующая для своего функционирования установки на жёсткий диск. Этим же понятием обозначают и носители с такими ОС.
+
+<!--исходный текст-->
+'''Live CD''' позволяют быстро начать работу с компьютером, избегая длительного процесса установки операционной системы в постоянную память компьютера - винчестер. Запуск Live CD занимает обычно несколько минут, в то время, как первый запуск традиционных ОС зачастую требует нескольких часов.
+
+Большинство Live CD созданы на основе операционных систем семейства Unix: GNU/Linux, FreeBSD, OpenBSD, NetBSD. OpenSolaris. Тем не менее, возможно создание LiveCD на основе Microsoft Windows, в том числе Windows XP и Windows Vista. Надо заметить, что подобное использование ОС Windows противоречит лицензионному соглашению Microsoft, и потому не является законным.
+
+== Применение ==
+
+=== Ознакомление ===
+Чаще всего Live CD используются для ознакомления с возможностями операционных систем. Многие LiveCD также ОС, и, если система понравится, установить ее.
+
+=== Восстановление после сбоев ===
+Другое применение Live CD - восстановление данных и/или работоспособности основной операционной системы после сбоя. Live CD позволяют работать с компьютером в тех случаях, когда основная операционная система не работоспособна.
+
+=== Работа на нескольких компьютерах ===
+Другим преимуществом Live CD является удобство при перемещении. Например, вы можете взять Live CD с собой, если вам нужно некоторое время работать на чужом компьютере. Таким образом, вы можете на любом компьтере (имеющем CD-ROM) быстро получить доступ к привычной операционной системе и не бояться навредить чужой системе и чужим данным во время работы.
+
+=== Бездисковые компьютеры и компьютеры с маленькими дисками ===
+Live CD можно применять на компьютерах, не имеющих жесткого диска (что встречается очень редко) и на компьютерах, имеющих жесткий диск очень небольшого объема (что также встречается редко).
+
+== Полная загрузка в память ==
+Некоторые Live CD позволяют использовать полезную возможность - полную загрузку содержимого CD-диска в оперативную память компьютера. При использовании такой возможности достигается высокая скорость работы ОС и всех входящих в ее состав программ, однако это возможно только при небольшом размере системы и достаточно большом объеме оперативной памяти.
+
+== Создание собственного Live CD ==
+Существуют программы, позволяющие создать собственный Live CD на основе уще существующих систем.
+
+== Недостатки Live CD ==
+=== Скорость === 
+Хотя Live CD позволяют сэкономить много времени при первом запуске операционной системы, при следующих запусках традиционные операционные системы, как правило, значительно быстрее. Это обусловлено сравнительно небольшой скоростью работы CD-ROM приводов, повышенным расходом оперативной памяти и необходимостью настраивать Live CD в соответствии с конфигурацией используемого оборудования.
+
+A '''live CD''' or '''live distro''' is a computer boot, without installation to a hard disk drive. Typically, the live distro is named after the bootable medium it is stored on, such as a CD-ROM or DVD (live CD/DVD) or a USB flash drive (live USB).
+
+The term "live" derives from the fact that these "distros", or RAM, typically in a RAM disk.  However, this does cut down on the RAM available to applications, reducing performance somewhat. As of 2007, certain live distros run a graphical user interface in as little as 32MB RAM.
+
+In some live distros, the user can optionally install the OS from the removable media to the hard disk drive (they are called installable live distros).
+
+== History ==
+
+On computers, optical discs were originally intended for storing video. Then the principles of storing information into the optical disc were changed to provide storing different types of information. In the case of operating systems those were mostly installation files, often packaged and archived in compressed formats.  Later, it became convenient and useful to boot the computer from compact disc, often with a minimal working system in order to install a full system onto a hard drive, and troubleshoot hardware.  Although early Linux developers and users were able to take advantage of cheap optical disks and rapidly declining prices of CD drives for personal computers, the Linux distribution CDs or "distros"  were generally treated as a collection of installation packages that must first be permanently installed to hard disks on the target machine.
+
+The first Compact Disc drives on personal computers were generally much too slow for running complex operating systems such as Linux. Often, the computer could not even boot from optical discs.  When operating systems were distributed on discs, either a boot floppy or the CD itself would boot specifically, and only, in order to install onto a hard drive.  There was little reason not to install directly on a hard disk. However, in the case of Linux, the free operating system was meeting resistance in the consumer market because of the difficulty and effort and risk involved with installing an additional partition on the hard disk, particularly the ext2 filesystem. The term "live CD" was coined because after typical PC RAM was large enough and 52x speed CD drives and CD burners were widespread among PC owners, it finally became convenient and practical to boot the kernel, run X11, a window manager and GUI applications directly from a CD without disturbing the OS (generally Windows on FAT32 or NTFS) on the hard disk. This was a new and different situation for Linux than other OSes, because the updates/upgrades were being released so quickly, different distributions and versions were being offered online, and especially because users were burning their own CDs. Copying Linux from the installation media was also encouraged instead of actively hindered and discouraged with such things as requiring the input of long and elaborate serial numbers and lengthy and complicated installation procedures. 
+
+The first rescue disk system and as a primary distribution in its own right. Since 2003, the popularity of live CDs has increased substantially, partly due to [http://www.linux-live.org/ Linux Live scripts] and remastersys which made it very easy to build customized live systems.
+
+Most of the popular Linux distributions now include a live CD variant, which in some cases is also the preferred installation medium.
+
+== Uses ==
+
+Some live distros are designed to "demo" or "test drive" a particular operating system (usually Linux or another free or open source operating system).
+
+Although some live CDs can load into memory in order to free the optical drive for other uses, loading the data off a CD-ROM is still slower than a typical hard drive boot, so this is rarely the default.<ref name="Brickner000"></ref> Experienced users of the operating system may also use a live distro to determine whether and to what extent a particular operating system or version is compatible with a particular hardware configuration and certain peripherals. Or as a way to know beforehand which computer or peripheral will work before buying.<ref name="Brickner000" /> Users may also use a live distro to troubleshoot hardware, especially when a hard drive fails. Some live CDs can save user-created files in a Windows partition, a USB drive, a network drive, or other accessible media.
+
+Live distros can be used for many purposes, including providing an environment for optionally installing a Linux distribution to a hard drive, testing new versions of software, testing hardware, system repair and restoration, high security/non-invasive environment for a guest, cracking/stealing passwords, network security testing, and as a fall back when a main drive fails. Everyday use of live distros is rare because CDs are slower than hard drives, because user files in a RAM disk are lost when the power is turned off, and because systems may not have access to a swap disk for opening many large applications.
+
+=== Mounting without burning ===
+The files on a live distro mounting a loop device.
+
+==Common traits==
+Some live distros come with an installation utility launchable from a desktop icon that can optionally install the system on a remastering to install additional software; however, there are exceptions such as Morphix and Puppy Linux which are one of the few Linux live CD distributions able to save files to the live CD itself or other multisession medium, allowing users to carry data, and more importantly, added programs and customized settings, along with them on optical disc.
+
+Most live distros are based on Linux, as this was the operating system that had the most to gain by offering free trials and demonstrations without regard to sales or copyright. Now others are using the term ''live distro'' for other operating systems, such as Solaris. Other "live" operating systems include ReactOS, NetBSD, FreeBSD, OpenBSD, MINIX 3, Plan 9 from Bell Labs, MorphOS and FreeDOS. Although Mac OS and various Microsoft Windows releases can function as "live CDs" they are not referred to as such. This may be because these systems are only intended to be run from CD for troubleshooting, repair and installation. There are a growing number of Windows-based utilities like Windows PE, Windows RE and BartPE that resemble and function as live distros, however. The first personal computer operating system on a CD to support "live" operations might have been the AmigaOS, which could be booted from CD on an Amiga CDTV in 1990.. Earlier examples of live OS are of course the operating systems used from floppy, and most widely spread is DOS. Unlike previous operating systems on optical media, though,  Linux "live CDs"  were specifically designed to run without installation onto other media like a hard disk drive.  The live distro concept was meant to promote Linux and showcase the abilities of the free, open source operating system on conventional personal computers with Microsoft Windows already installed.  

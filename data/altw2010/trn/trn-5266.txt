@@ -1,0 +1,67 @@
+'''Карбони́льная гру́ппа''' — функциональная группа С=O органических соединений.
+
+Карбонильная группа может входить в состав других функциональных групп, например, амидной или карбоксильной; соединения, в состав которых входит карбонильная группа называют ''карбонильными соединениями''.
+
+{| align="center" class="standard"
+|+Некоторые классы карбонильных соединений
+! |Класс Соединений
+! |Структуа
+! |Общ. формула
+|-----
+| Альдегиды
+| 60 px
+| '''RCHO'''
+|-----
+| Кетоны
+| 60px
+| '''RCOR''''
+|-----
+| Сложные эфиры
+| 80px
+| '''RCOOR''''
+|-----
+| Амиды
+| 80px
+| '''RCONR'R"'''
+|-----
+| Ацилгалогениды
+| 60px
+| '''RCOX, X=F,Cl,Br'''
+|-----
+| Карбоновые кислоты
+| 60px
+| '''RCOOH'''
+|-----
+| Ангидриды карбоновых кислот
+| 95px
+| '''(RCO)<sub>2</sub>O'''
+|+
+|}
+
+150px|thumb|right|Carbonyl group
+
+In double-bonded to an oxygen atom : C=O. 
+
+The term carbonyl can also refer to carbon monoxide as a ligand in an inorganic or organometallic complex (a metal carbonyl, e.g. nickel carbonyl); in this situation, carbon is triple-bonded to oxygen : C≡O. 
+
+The remainder of this article concerns itself with the organic chemistry definition of '''carbonyl'''.
+
+==Carbonyl compounds==
+
+A carbonyl group characterizes the following types of compounds (where -CO denotes a C=O  carbonyl group):
+
+{|class=wikitable
+|align=center|'''Compound|||[[Ketone|||[[Ester|||[[Enone|||[[Acid anhydride
+|-
+|align=center|'''Structure'''||60px|Aldehyde||60px|Ketone||60px|Carboxylic acid||60px|Ester||80px|Amide||90px|Enone||60px|Acyl chloride||95px|Acid anhydride
+|-
+|align=center|'''General formula'''||RCHO||RCOR'||RCOOH||RCOOR'|||<nowiki>RCONR'R''</nowiki>||<nowiki>RC(O)C(R')CR''R'''</nowiki>||RCOCl||(RCO)<sub>2</sub>O
+|-
+|}
+
+Other organic carbonyls are urea and carbamates. Examples of inorganic carbonyl compounds are carbon dioxide, carbonyl sulfide and phosgene
+
+==Reactivity==
+'''''Oxygen''''' is more polarity. Therefore, the carbonyl carbon becomes electrophilic, and thus more reactive with nucleophiles. Also, the electronegative oxygen can react with an electrophile; for example a proton in an acidic solution or other Lewis Acid.'''
+
+The alpha hydrogen in a carbonyl compound is much more acidic (~10<sup>30</sup> times more acidic) than a typical CH bond.  For example the pK<sub>a</sub> values of acetaldehyde and acetone are 16.7 and 19, respectively.<ref>Ouellette, R.J. and Rawn, J.D. “Organic Chemistry” 1st Ed.  Prentice-Hall, Inc., 1996: New Jersey.  ISBN 0-02-390171-3.</ref>

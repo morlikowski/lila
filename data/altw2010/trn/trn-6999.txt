@@ -1,0 +1,71 @@
+Een '''nieuwsgroep''' is een communicatiekanaal op discussiefora zoals die op veel websites te vinden zijn, maar de nieuwsgroepen vormen geen rechtstreeks onderdeel van het wereldwijde web waar men met een webbrowser naartoe kan surfen. Nieuwsgroepen worden ook wel ''discussiegroepen'' genoemd.
+
+Er zijn vele tienduizenden nieuwsgroepen die gaan over de meest uiteenlopende onderwerpen. Het geeft iedereen de mogelijkheid om informatie te verspreiden en zeer serieus te discussiëren, maar ook om volstrekte nonsens te verkondigen. 
+
+De nieuwsgroepen zijn ook een plek waar mensen elkaar vrijwillig helpen om een probleem op te lossen, vaak in verband met computers en het internet, maar het kan ook gaan over een ziekte van een goudvis, problemen met wetgeving of wat dan ook.
+
+== Infrastructuur ==
+
+Nieuwsgroepen maken vaak gebruik van het NNTP-protocol. In tegenstelling tot veel andere netwerkdiensten maakt dit systeem geen gebruik van een centrale server. Berichten worden volgens een peer-to-peer-systeem van server naar server doorgegeven.
+
+== Benodigde software ==
+
+Om nieuwsgroepen te kunnen lezen, heeft u in principe een newsreader-pagina. U kunt ook gebruikmaken van een e-mailclient zoals Mozilla Thunderbird of Outlook Express. 
+
+U kunt nieuwsgroepen lezen via de Google Groups.
+
+== Verschillende nieuwsgroepen ==
+
+Nieuwsgroepen zijn geordend volgens een hiërarchie. Men begint op topniveau (bijvoorbeeld ''nl'' of ''news'') en hierachter komen dan steeds meer gespecialiseerde termen. Een voorbeeld is ''nl.comp.software.newsreaders'' (i.e. een Nederlandstalige nieuwsgroep over newsreaders).
+
+=== Big8 ===
+
+Onder '''Big8''' verstaan we de (acht) oorspronkelijke, internationale hiërarchieën, te weten comp.*, humanities.*, misc.*, news.*, rec.*, sci.*, soc.* en talk.*. (bijvoorbeeld ''talk.religion'', ''talk.politics'', ''talk.origins'')
+
+=== nl.* en be.* ===
+
+Net zoals bij de domeinnamen bestaan er ook landenhiërarchieën. Die van Nederland en België zijn de nl.*- en de be.*-hiërarchie. 
+
+Un '''newsgroup''' è uno degli spazi virtuali creato su una rete di server interconnessi (storicamente una sottorete di internet ''USENIX network'' o più semplicemente Usenet) per discutere di un argomento (''topic'') ben determinato. In italiano a volte viene utilizzato il termine '''gruppo di discussione'''.<br/>
+I ''news server'' comunicano fra loro (attraverso il ''protocollo'' NNTP) in modo che i messaggi inviati ad un server si trovino duplicati su tutti gli altri server. Per diversi motivi (economie di spazio, interesse degli utenti, censura), non tutti i server contengono gli stessi NG. Ogni gestore di news server (spesso gli stessi provider ISP) può decidere infatti quali NG tenere.
+==Meccanismi==
+L'accesso a queste aree tematiche avviene per mezzo di programmi chiamati ''news clients'' o ''newsreader'' (oggi a volte integrati nei programmi di posta elettronica come ad esempio Mozilla Thunderbird, SeaMonkey, Outlook Express, Sylpheed), a una sorta di “stanza delle bacheche” (''news server'') che raccoglie i vari NewsGroup (o in breve NG).
+
+Per ragioni storiche, essenzialmente dovute ai costi delle connessioni ''dialup'' che molti utenti dovevano sostenere in passato, o anche per le scarse disponibilità di accesso alla rete, i ''newsreader'' sono tutt'ora concepiti per operare principalmente in modalità ''disconnessa'': gli articoli scaricati in precedenza possono essere letti e le relative risposte preparate per la spedizione senza che sia necessaria una connessione attiva; la successiva connessione permette in un'unica soluzione il ''download'' degli articoli apparsi sul server nel frattempo e l'''upload'' delle risposte. Questa modalità, nient'affatto in "tempo reale", è una caratteristica tipica del servizio che deve essere tenuta in considerazione: la ''netiquette'' dei newsgroup disapprova, ad esempio, chi sollecita risposte immediate ai propri articoli.
+
+Questo approccio viene in parte deviato dall'accesso ''Portali Web, che possono consentire una partecipazione attiva ai newsgroup con relativa facilità ma soprattutto sofisticati strumenti di ricerca per parola chiave nei loro archivi: in particolare il servizio fornito da [http://groups.google.it/ GoogleGroups] rappresenta la "memoria storica" di usenet, conservando praticamente ogni articolo pubblicato dalla sua nascita (da ricordare come in linea di principio non vengano archiviati gli articoli dei newsgroup ''binari'', contenenti ''file'' e gli articoli nei quali l'autore abbia apposto il contrassegno "da non archiviare" mediante X-No-Archive). È da tenere in considerazione anche che la frequenza di aggiornamento dei gruppi sui portali web è solitamente più bassa rispetto a quella che si può ottenere con una connessione diretta a usenet.<br/>
+Un vantaggio importante dei portali web è quello di consentire un accesso facilitato a fruitori con scarsa dimestichezza: il newsreader per contro risulta più efficiente ma richiede una certa esperienza per essere sfruttato al meglio. I portali web, infine, sono connessi tramite il servizio NNTP/NNRP usato dai newsreader.
+
+Di norma ciascun newsgroup ha un manifesto (charter) che aiuta a comprendere quali sono gli argomenti oggetto di discussione. 
+La netiquette, su Usenet, sconsiglia di inviare articoli fuori tema e suggerisce di seguire per qualche tempo un newsgroup prima di iniziare a scrivere. 
+
+Sono molti i newsgroup in cui i ''poster'' abituali, ossia coloro che li seguono da più tempo e con una certa assiduità, hanno redatto delle lurkers.
+
+I newsgroup sono generalmente raggruppati all'interno di diverse gerarchie Usenet.
+
+Esiste anche un'altra importante suddivisione, a seconda dello status di moderazione: i newsgroup moderati sono caratterizzati da un diverso funzionamento dovuto al percorso degli articoli, che vengono inviati via mail al moderatore. Tuttavia il protocollo utilizzato non è sufficientemente robusto da garantire il corretto funzionamento e l'assenza di abusi. Può capitare che si perdano degli articoli o che esistano articoli che non sono stati approvati dal moderatore.
+
+Il fastidioso fenomeno dello spam coinvolge anche Usenet, per questo esistono dei sistemi di filtraggio, come ad esempio [http://www.exit109.com/~jeremy/news/cleanfeed.html CleanFeed] e alcune formule comunemente accettate per il calcolo degli [http://www.killfile.org/%7Etskirvin/faqs/spam.html indici di BI].
+== Programmi News Servers ==
+* C News
+* Diablo Usenet Software
+* InterNetNews
+* Leafnode
+* Papercut NNTP Server
+
+== Programmi News Clients ==
+===Grafici===
+====Software proprietario====
+=====Software commerciale=====
+* Binbot
+* Forté Agent
+* Lotus Notes
+* NewsBin
+* Newsman Pro
+* Novell GroupWise
+* Outlook Express
+* Turnpike
+* Unison - for Mac OS X
+* Usenet Explorer
+* Thoth
+* MacSoup

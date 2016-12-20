@@ -1,0 +1,41 @@
+数学における'''形式主義'''（）とは、数学における命題を少数の記号によって表し、証明において使われる推論を純粋に記号の操作と捉える考え方のことを指す。
+
+形式主義の最も原理的な見方では、数学は決められたルール（''公理''と''推論法則''）に従って行われるゲームであり、ルールを取り替えることによってできる異なるゲームは、それぞれ同等である。
+
+形式主義は、ダフィット・ヒルベルトによって主張された。その目的は数学をゲームと考えることによって、数学的実在に直接関わることなく、数学の無矛盾性を証明するためであった。（ヒルベルト・プログラム）
+上記の点から、ヒルベルトの形式主義は、ブルバキの公理論とは異なるものである。
+
+形式主義によると、数学的命題は確実な文字列処理ルールを必要とする命題と考えられる。例として、（「公理」と呼ばれる文字列と、与えられた公理から新しい文字列を生成する「集合や三角形やそのようなものについて（）のものではない。実際には、そららはすべてにおいて「アバウト（）」ではない！
+
+もうひとつの形式主義は演繹主義としてよく知られる。演繹主義では、ピタゴラスの定理は絶対的真実ではないが、関係
+もしあなたがゲームのルールが真実となるといった方法で文字列を考えているならば
+（いいかえれば、真の命題は公理に割り当てられ、推論と真実の保存のルールに割り当てられる）、そのときあなたは、その理論を受け入れなければならない。いやむしろ、あなたがそれに与えた解釈は真の命題でなければならない。同値はすべての他の数学的記述に関して真であると見なされる。従って、形式主義は数学が無意味な象徴ゲームでしかないことを意味する必要はない。それは通常、ゲームが適用するルールの様々な解釈が存在することが望まれている。（構造主義をこの立場になぞらえる） しかし、数学者が仕事を継続し哲学者や科学者にそのような問題を残すことは、数学者が働くことを可能にする。多くの形式主義者らは、実際に、研究された公理体系は、科学への要求や数学以外の分野によって提案されると言うだろう。
+
+right|thumb|[[ダフィット・ヒルベルト]]
+形式主義の偉大なる初期の発案者は完全でかつ一貫性（）のある数学の全ての公理化を目的としていた。（「一貫性、無矛盾性（）」ここでは、システムに由来しうる矛盾がないことを意味する。） ヒルベルトは、「有限算術（）」（ゲーデルの第二不完全性定理によって致命的な打撃を受けたが、十分に表現の富んだ矛盾のない公理体系はそれ自体の無矛盾性を決して証明できないことを述べた。そのような公理体系がサブシステムとして有限算術を含んでいるため、ゲーデルの定理はそれに対してシステムに矛盾がないことを証明できるとほのめかした（そしてそれ自身の完全性を証明できるため、ゲーデルは不可能であることを示した）。従って、数学の任意の公理システムが事実上矛盾がないことを示すため、数学の体系の無矛盾性が、証明された無矛盾性があるべき体系よりも意識上強いことを、まず仮定する必要がある。
+
+ヒルベルトは最初は現実主義者であった。後に、彼は解釈にかかわらずどんなものであれ、他の意味にある数学はないと考えた。
+
+'''Matematikfilosofin''' ställer de för matematiken mest grundläggande frågorna: den handlar om ''vad'' matematik är och ''hur'' matematiken skall användas. Den består av en rad filosofiska skolor varav de huvudsakliga avhandlas nedan. 
+
+==Platonism eller Matematisk realism==
+
+vetenskaper. Grundsynen är alltså att matematiken är något som ''redan finns'' och som utforskas av Platons naturlagar.
+
+Problemet med denna inställning är att man då måste förklara vilket slags värld matematiken existerar i, och hur den egentligen relaterar till vår fysiska värld.
+
+Kända platonister/realister är Pythagoras och Kurt Gödel.
+
+==Formalism==
+
+strängmanipulationer, d v s olika regler för att kasta om symboler enligt vissa grundantaganden. De grundläggande antagandena är axiom som genom manipulationer enligt vissa regler omformas till teorem. Man kan på så sätt jämföra matematiken med ett spel, till exempel schack, där pjäserna flyttas enligt allmängiltiga regler.
+
+Formalismen ställer inte samma krav på allmängiltighet som platonismen: man kan förkasta axiomen och härledningsreglerna, de är inte "naturlagar", och det finns ingen "perfekt" axiomstruktur. Inom formalismen finns alltså ingen hård koppling mellan vetenskapen och matematiken, det bara råkar vara så att strukturer inom dem båda liknar varandra, det finns ingen platonsk idévärld "bakom" den fysiska världen.
+
+Ett ständigt gäckande problem för formalismen är Gödels ofullständighetsteorem.
+
+Kända formalister är David Hilbert och Haskell Curry.
+
+==Logicism eller Logistik==
+
+Logicismen/Logistiken lär att matematik är detsamma som logik och kan härledas från denna. Denna syn framfördes av Bertrand Russell och Alfred North Whitehead i ''Principia Mathematica'' vars mål var att slutgiltigt sammanföra den filosofiska logiken och matematiken. Denna disciplin är numera väsentligen utdöd.

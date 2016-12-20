@@ -1,0 +1,41 @@
+Die '''Open Source Definition''' (Abk.: ''OSD'') ist eine Richtlinie zur Bewertung von Software-Lizenzen.
+
+== Geschichte und Entwicklung ==
+Die ''Open Source Definition'' stammt von Bruce Perens, dem ehemaligen Projektleiter von Debian. Debian sah sich angesichts der Nachbarlizenzen herausgefordert, genauer zu definieren, was die Freiheit sei, die das Projekt meint. Diese Positionen formulierte Perens nach einer E-Mail-Diskussion mit den anderen Debian-Entwicklern 1997 im Debian Social Contract ([http://www.debian.org/social_contract.html]), einer Bekenntnis, dass Debian zu 100 Prozent Freie Software bleiben, dass das Projekt alle Neuerungen an die Community zurückgeben und keine Fehler verstecken wird, so wie in den Debian Free Software Guidelines (DFSG) ausgeführt.
+
+Aus dem Geist dieser beiden Texte heraus entstand die OSD. Eric S. Raymond spielte bei der Universalisierung eine Rolle, da er Perens in seine Bemühungen, „das Konzept der Freien Software an Leute zu verkaufen, die Krawatten tragen“ (Perens, 1999, Seite&nbsp;173), eingespannt hatte. Raymond hielt die DFSG für das richtige Dokument, um Open Source zu definieren. Perens entfernte alle debian-spezifischen Referenzen, tauschte „Free Software“ gegen „Open Source Software“ aus und änderte den Namen. Schließlich registrierte er für SPI, die Schirmorganisation von Debian, ein Certification Mark (CT) auf den Begriff „Open Source“. Ein CT ist eine Form von Trademark, eine Art Gütesiegel, das den Produkten von Dritten verliehen werden kann:
+
+: ''„Da die Community ein verlässliches Verfahren benötigt, um zu wissen, ob ein Stück Software wirklich ‚open-source‘ ist, nimmt die OSI für diesen Zweck Anmeldungen von Zertifizierungszeichen entgegen: ‚OSI-zertifiziert‘ […] Wenn Sie das ‚OSI-zertifiziert‘-Zeichen für ihre Software verwenden möchten, können Sie dies tun, indem Sie ihre Software unter einer anerkannten Lizenz aus der Liste verbreiten und die Software entsprechend kennzeichnen.“<ref>[http://www.opensource.org/docs/certification_mark.php The OSI Certification Mark and Program]</ref>
+
+Nachdem Raymond und Perens mit dem dezidierten Ziel, die Open-Source-Kampagne und ihr CT zu verwalten, die Open Source Initiative (OSI) gegründet hatten, wurden die Rechte an dem CT von SPI auf die OSI übertragen. Gut zwei Dutzend Lizenzen hat die OSI gutgeheißen und zertifiziert, sodass sie offiziell den geschützten Titel „Open Source“ tragen dürfen<ref>vgl. OSI, [http://www.opensource.org/licenses/ ''The Approved Licenses'']</ref>.
+
+== Aussagen und Implikationen ==
+Die OSD ist also keine Lizenz, sondern ein Standard, an dem Lizenzen gemessen werden; neben den eingangs genannten Freiheiten und den beiden problematischen Punkten, die im Anschluss behandelt werden, enthält die OSD einige Besonderheiten. Während die meisten Lizenzen die Nutzungen ihrer Software ohne Einschränkung an jedermann freistellen, gibt es einige, die explizite Ausnahmen vorsehen.
+
+In der Erläuterung zur OSD, Version 1.0, führt Perens das Beispiel einer Lizenz des Aufsichtsgremiums der Universität von Kalifornien in Berkeley an, die die Verwendung eines Elektronikdesign-Programms durch die südafrikanische Polizei untersagt<ref>vgl. Perens, 1999, S.&nbsp;179</ref>. Obgleich das Anliegen zu Zeiten der Apartheid löblich gewesen sei, sei ihr Sinn heute weggefallen, die Lizenzvorschrift für diese und alle abgeleitete Software bestehe jedoch weiter. Ebenso sei es verständlich, dass Autoren den Einsatz ihrer Software in der Wirtschaft, der Genforschung oder einer Abtreibungsklinik untersagen wollten, doch auch diese Anliegen gehörten nicht in eine Lizenz.
+
+Deshalb schreibt die OSD für Open-Source-Lizenzen vor, dass sie nicht gegen Personen oder Gruppen (Ziff.&nbsp;5) und gegen Einsatzgebiete (Ziff.&nbsp;6) diskriminieren dürfen. Bei der Weitergabe an Dritte soll die Lizenz wirksam sein, ohne dass Rechteinhaber (der Copyright-Halter) und Lizenznehmer einen Vertrag unterzeichnen (Ziff.&nbsp;7). Die Gültigkeit von unterschriftslosen Lizenzverträgen wird derzeit auch für den proprietären Bereich diskutiert (s.&nbsp;u.), insofern ist die Erläuterung zur Ziff.&nbsp;7 der OSD, Ver. 1.0, (ebd., S.&nbsp;179) eher ein frommer Wunsch. In der Erläuterung zur Ver.&nbsp;1.761 heißt es, dass damit eine Schließung durch zusätzliche Anforderungen wie ein NDA ausgeschlossen werden soll.
+
+Die OSD-Ziff.&nbsp;8 besagt, dass die gewährten Rechte nicht davon abhängig gemacht werden dürfen, dass das Programm Teil einer bestimmten Distribution ist. Es muss frei bleiben, auch wenn es von dieser Distribution getrennt wird.
+
+The '''Open Source Definition''' is used by the software license can be considered open source. The definition was based on the Debian Free Software Guidelines, written and adapted primarily by Bruce Perens.
+
+Under the Open Source Definition, licenses must meet ten conditions in order to be considered open source licenses.  Below is a copy of the definition, with unauthorized explanatory additions.  There is a link to the original unmodified text below.  It was taken under fair use.
+#Free Redistribution: the software can be freely given away or sold. (This was intended to expand sharing and use of the software on a legal basis.)
+#Source Code: the source code must either be included or freely obtainable. (Without source code, making changes or modifications can be impossible.)
+#Derived Works: redistribution of modifications must be allowed. (To allow legal sharing and to permit new features or repairs.)
+#Integrity of The Author's Source Code: licenses may require that modifications are redistributed only as patches. 
+#No Discrimination Against Persons or Groups: no one can be locked out.
+#No Discrimination Against Fields of Endeavor: commercial users cannot be excluded. 
+#Distribution of License: The rights attached to the program must apply to all to whom the program is redistributed without the need for execution of an additional license by those parties.
+#License Must Not Be Specific to a Product: the program cannot be licensed only as part of a larger distribution.
+#License Must Not Restrict Other Software: the license cannot insist that any other software it is distributed with must also be open source.
+#License Must Be Technology-Neutral: no click-wrap licenses or other medium-specific ways of accepting the license must be required.
+
+Richard Stallman originally accepted Debian's document as a good definition of Free Software, but later created the Free software definition - in part to differentiate Free Software from Open Source.  In practice, licenses which meet the open source definition almost always also meet the Free software definition.  All licenses reported to meet the free software definition as of 2006 also meet the open source definition.
+
+== See also ==
+ 
+
+*The Free Software Definition
+*Debian Free Software Guidelines

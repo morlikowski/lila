@@ -1,0 +1,61 @@
+300px|thumb|right|'''Figure 1''': Illustration of a bacterium with plasmids enclosed showing <font color=maroon>chromosomal DNA</font> and <font color=navy>plasmids</font>.
+
+A '''plasmid''' is an extra-chromosomal chromosomal DNA which is capable of replicating independently of the chromosomal DNA.<ref name= Lipps></ref> In many cases, it is circular and double-stranded. Plasmids usually occur naturally in bacteria, but are sometimes found in eukaryotic organisms (e.g., the ''2-micrometre-ring'' in ''Saccharomyces cerevisiae'').
+
+Plasmid size varies from 1 to over 200 kilobase pairs (kbp).<ref name="Molecular cloning"></ref>  The number of identical plasmids within a single cell can be zero, one, or even thousands under some circumstances. Plasmids can be considered to be part of the conjugation, a mechanism of horizontal gene transfer.
+
+The term ''plasmid'' was first introduced by the American molecular biologist Joshua Lederberg in 1952.<ref></ref>
+
+Plasmids can be considered to be independent life-forms similar to viruses, since both are capable of autonomous replication in suitable (host) environments. However the plasmid-host relationship tends to be more symbiotic than parasitic (although this can also occur for viruses, for example with Endoviruses) since plasmids can endow their hosts with useful packages of DNA to assist mutual survival in times of severe stress. For example, plasmids can convey antibiotic resistance to host bacteria, who may then survive along with their life-saving guests who are carried along into future host generations. 
+
+==Vectors==
+400px|thumb|right|There are two types of plasmid integration into a host bacteria: Non-integrating plasmids replicate as in the top instance; whereas [[episomes, the lower example, integrate into the host chromosome.]]
+
+Plasmids used in vectors.
+Plasmids serve as important tools in genetics and biotechnology labs, where they are commonly used to multiply (make many copies of) or ''express'' particular genes.<ref name="Molecular cloning"></ref> Many plasmids are commercially available for such uses. 
+
+The gene to be replicated is inserted into copies of a plasmid containing genes that make cells  resistant to particular antibiotics and a transformation''.  Then, the bacteria are exposed to the particular antibiotics.  Only bacteria which take up copies of the plasmid survive the antibiotic, since the plasmid makes them resistant.  In particular, the protecting genes are expressed (used to make a protein) and the expressed protein breaks down the antibiotics.  In this way the antibiotics act as a filter to select only the modified bacteria. Now these bacteria can be grown in large amounts, harvested and lysed (often using the alkaline lysis method) to isolate the plasmid of interest.
+
+Another major use of plasmids is to make large amounts of proteins. In this case, researchers grow bacteria containing a plasmid harboring the gene of interest. Just as the bacteria produces proteins to confer its antibiotic resistance, it can also be induced to produce large amounts of proteins from the inserted gene.  This is a cheap and easy way of mass-producing a gene or the protein it then codes for, for example, insulin or even antibiotics.
+
+However, a plasmid can only contain inserts of about 1-10 kbp. To clone longer lengths of DNA, lambda phage with lysogeny genes deleted, cosmids, bacterial artificial chromosomes or yeast artificial chromosomes could be used.
+
+==Gene Therapy==
+The success of chromosomal target sites within the human oncogenic mutations or an immune response. Plasmid vectors could be used for this purpose. Zinc finger nucleases (ZFNs) offer a way to cause a site-specific double strand break to the DNA genome and cause homologous recombination. This makes targeted gene correction a viable option in human cells. Plasmids encoding ZFN could be used to  deliver a therapeutic gene to a pre-selected chromosomal site. This approach to gene therapy could be less problematic to the alternative viral-based delivery of therapeutic genes.<ref name= Kandavelou></ref>
+
+==Types==
+
+right|250px|thumb|'''Figure 4:''' Overview of Bacterial conjugation
+One way of grouping plasmids is by their ability to transfer to other bacteria. ''Conjugative'' plasmids contain so-called ''tra-genes'', which perform the complex process of ''conjugation'', the transfer of plasmids to another bacterium (Fig. 4). ''Non-conjugative'' plasmids are incapable of initiating conjugation, hence they can only be transferred with the assistance of conjugative plasmids, by 'accident'.  An intermediate class of plasmids are ''mobilizable'', and carry only a subset of the genes required for transfer. They can 'parasitize' a conjugative plasmid, transferring at high frequency only in its presence. Plasmids are now being used to manipulate DNA and may possibly be a tool for curing many diseases.
+
+It is possible for plasmids of different types to coexist in a single cell.  Seven different plasmids have been found in ''E. coli''. But ''related'' plasmids are often incompatible, in the sense that only one of them survives in the cell line, due to the regulation of vital plasmid functions. Therefore, plasmids can be assigned into ''compatibility groups''.
+
+Another way to classify plasmids is by function. There are five main classes:
+* ''Fertility-conjugation.
+* ''Resistance-(R)plasmids'', which contain genes that can build a resistance against antibiotics or poisons. Historically known as R-factors, before the nature of plasmids was understood.
+* ''Col-plasmids'', which contain genes that ''code for'' (determine the production of) bacteriocins, proteins that can kill other bacteria.
+* ''Degradative plasmids'', which enable the digestion of unusual substances, e.g., toluene or salicylic acid.
+* ''Virulence plasmids'', which turn the bacterium into a pathogen.
+
+Plasmids can belong to more than one of these functional groups.
+
+Plasmids that exist only as one or a few copies in each bacterium are, upon cell division, in danger of being lost in one of the segregating bacteria. Such single-copy plasmids have systems which attempt to actively distribute a copy to both daughter cells.
+
+Some plasmids include an ''addiction system'' or "postsegregational killing system (PSK)", such as the hok/sok (host killing/suppressor of killing) system of plasmid R1 in Escherichia coli.<ref></ref> They produce both a long-lived poison and a short-lived antidote. Daughter cells that retain a copy of the plasmid survive, while a daughter cell that fails to inherit the plasmid dies or suffers a reduced growth-rate because of the lingering poison from the parent cell.
+
+'''プラスミド''' (plasmid) はDNA分子の総称。1952年にレーダーバーグによって提案された。
+
+細菌や酵母の細胞質内に存在し、染色体のDNAとは独立して自律的に複製を行う。一般に環状2本鎖構造をとる。
+細菌の接合を起こすもの(Fプラスミドなど)、抗生物質に対する耐性を宿主にもたらすものなどがある。
+
+遺伝子工学分野においては、遺伝子組み換えの際に多く用いられる。様々な人工的な改変がなされた数 kbpのプラスミドが多く作られており、研究用キットとして市販されている(詳細はベクターを参照。) 細菌のみではなく酵母や哺乳類の細胞内で複製・維持されるものもある。
+
+大腸菌を用いた遺伝子クローニングでは、まずプラスミドを取り出し、次いで制限酵素で切断し、切断部位に増幅しようとするDNA断片(プラスミドと同じ制限酵素で切り出したもの)をDNAリガーゼで結合させる。この組み換えプラスミドを大腸菌に導入し、大腸菌の大量培養により組み換えDNAを増幅する。
+土壌菌の一種であるアグロバクテリウムがもつTiプラスミドは植物の遺伝子導入において頻繁に利用される。
+
+複製機構が類似しているプラスミド同士は同一宿主菌内では共存できない（不和合性,incompatibility）。
+
+==関連項目==
+*遺伝子工学
+*ベクター
+*PGLO

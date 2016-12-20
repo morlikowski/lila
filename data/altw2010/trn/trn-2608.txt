@@ -1,0 +1,49 @@
+'''Flexible single master operation''' (FSMO, F is sometimes ''floating'' ; pronounced Fiz-mo), or just ''single master operation'' or ''operations master'', is a feature of Microsoft's Active Directory (AD).  Recently, as of 2005, the term FSMO has been deprecated in favour of '''operations masters'''.
+
+FSMOs are specialised domain controller (DC) tasks, used where standard data transfer and update methods are inadequate. AD normally relies on multiple peer DCs, each with a copy of the AD database, being synchronised by multi-master replication. The tasks which are not suited to multi-master replication, and are viable only with a single-master database, are the FSMOs.
+
+== Domain-wide FSMO Roles: ==
+
+Every domain in an Active Directory forest must contain one of each of the following FSMO roles:
+* The '''Relative ID Master''' allocates security RIDs to DCs to assign to new AD security principals (users, groups or computer objects). It also manages objects moving between domains.
+* The '''Infrastructure Master''' maintains security identifiers, GUIDs, and DNs for objects referenced across domains. Most commonly it updates user and group links.
+* The '''PDC Emulator''' emulates a Windows NT Primary Domain Controller (PDC). It is also the favored DC for other DCs in replicating and confirming password information, and is the authoritative source of time in the domain.
+
+== Forest-wide FSMO Roles: ==
+
+Regardless of the number of domains in an Active Directory forest, the following FSMO roles exist only once:
+* The '''Schema Master''' maintains all modifications to the schema of the forest. The schema determines the types of objects permitted in the forest and the attributes of those objects for.
+* The '''Domain Naming Master''' tracks the names of all domains in the forest and is required to add new domains to the forest or delete existing domains from the forest.
+
+== Transferring or Seizing FSMO Roles ==
+Transferring or Seizing an FSMO role can be done with the ntdsutil command on a Windows 2000 or Windows Server 2003 Server computer. 
+
+Full Details of the process can be found in microsoft KB255504[http://support.microsoft.com/kb/255504]
+
+'''Flexible Single Master Operations''' (FSMO) oder '''operations masters''' sind spezielle Aufgaben, die Active Directories (AD) der Firma Microsoft übernehmen. Die Aufgaben können auf verschiedene Server verteilt werden, jedoch darf keine dieser Rollen von mehreren Servern gleichzeitig übernommen werden.
+
+Unter ''Flexible Single Master Operations'' versteht man folgende ‚Rollen‘:
+
+; Domain Naming Master:
+: Gesamtstruktur-weite Rolle.
+: Es kann nur einen Domain-Controller in der Gesamtstruktur geben, der die Möglichkeit hat, Domain-Namen zu vergeben, und diese zu verwalten.
+:: Bsp.: Legen 2 Administratoren im selben Zeitraum (bevor eine Replikation in andere Domain Controller stattfindet) jeweils eine gleichnamige Domain an, könnte es ohne diesen Betriebsmaster passieren, dass plötzlich 2 Domains oder Subdomains mit gleichem Namen in der Domain vorhanden sind. Mit dem Domain Naming Master gibt es nur einen Domain Controller, der die Freigabe eines neuen Namens akzeptieren kann, so kann dieser bei Bedarf auf diese Situation angemessen reagieren.
+; Schema-Master:
+: Gesamtstruktur-weite Rolle.
+: Das Schema definiert die Klassen-Schablonen für die Active-Directory-Objects wie Users, Computers oder Ressourcen, genauso wie die Attribute, die den einzelnen Objekten zugewiesen werden können.
+: Der Schema-Master ist verantwortlich, wenn ein Active-Directory-Object geändert werden soll, d.h. weitere Attribute den Objekten hinzugefügt werden sollen. Dies ist z.B. der Fall bei der ersten Installation eines Exchange Servers, der Exchange-spezifische Attribute wie den Homeserver und der Postfachname für jeden Benutzer hinzufügt. Damit die Änderungen vollzogen werden können, muss der Schema-Master verfügbar sein.
+; RID-Master:
+: Domain-weite Rolle.
+: SIDs (Security Ids) in Active-Directory sind IDs, die zum Beispiel einem User zugewiesen werden, wenn er bei Login einer bestimmten Group angehört.
+: Sie haben (vereinfacht) folgendes Schema: Local-ID – Reference-ID, wobei die RID eine fortlaufende Nummer ist, beginnend bei 1000. Es muss nun sichergestellt sein, dass die fortlaufenden Nummern der RID einmalig sind, da aber verschiedene Domain-Controller verschiedene Groups und Objekte anlegen können, muss ein zentraler Domain-Controller die Aufgabe übernehmen, für jeden Domain-Controller gewisse „RID-Pools“ bereit zu stellen.
+; PDC-Emulator (Primary Domain Controller): Domain-weite Rolle
+: Die Replizierung von Änderungen in der ADD kann bis zu 20 Minuten dauern, da es bis zu 4 Replizierungssprünge geben kann, bei denen jeder 5 Minuten dauern darf. Um das Zurücksetzen von Benutzerpasswörtern zu beschleunigen, werden diese Änderungen direkt zum PDC der Domain repliziert. Stellt ein DC nun einen fehlerhaften Anmeldeversuch fest, weist er den Client nicht direkt ab, sondern prüft das Passwort noch mit dem PDC gegen. Somit ist sichergestellt, dass eine Passwortänderung nach spätestens 5 Minuten gültig ist.
+:Außerdem ist der PDC der Zeitgeber für alle Server und Clients der Domain, bei denen kein anderer Zeitserver eingestellt wurde.
+: Bei NT4 gab es eine Unterscheidung der Domaincontroller in PDCs und BDCs. Der PDC war der einzige DC mit Schreibzugriff auf die Datenbank. Um in einer Mixed-Umgebung die Kompatibilität mit NT4-Clients und -Servern sicherzustellen, gibt sich der Inhaber der PDC-Rolle gegenüber allen Prä-Windows-2000-PCs als Primary Domain Controller aus.
+; Domain-Infrastructure-Master: Domain-weite Rolle
+: Der Domain-Infrastructure-Master (DIM) ist verantwortlich, die referentielle Integrität zwischen verlinkten AD-Objekten sicherzustellen.
+: Verlinkte Objekte sind Objekte, die in irgendeiner Weise miteinander in Verbindung stehen (ein Beispiel wären die Attribute „Members“ und „MemberOf“ einer Group).
+: Die Aufgabe des Domain-Infrastructure-Master ist nun, sicherzustellen, dass bei Änderung eines dieser Objekte, die Änderung auch auf das jeweils andere Objekt übertragen wird, und zwar domainübergreifend.
+: Diese Rolle sollte niemals zusammen mit dem "Globalen Katalog" auf einem Domänencontroller ausgeführt werden (es sei denn alle DCs der jeweiligen Domain halten den Globalen Katalog), da sich der Dienst sonst deaktiviert und schwerwiegende Replikationsfehler auftreten. Diese Fehlfunktion ist an Fehlermeldungen 1419 im Event-Log zu erkennen.
+
+Standardmäßig werden dem ersten Domain-Controller in einem Forest alle 5 FSMO-Rollen zugewiesen. Ein Domain-Controller in einer Sub-Domain bekommt standardmäßig die 3 domainweiten Funktionen übertragen (siehe oben). Die gesamtstrukturweiten Rollen können nur Domänen-Controllern der ersten Stammdomäne der Gesamtstruktur zugewiesen werden.

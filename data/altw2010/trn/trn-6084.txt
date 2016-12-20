@@ -1,0 +1,22 @@
+A '''Goubau line''', '''Goubou line''', or G-line for short, is a single wire transmission line intended for use at UHF and microwave wavelengths.  
+==Description==
+The ''Goubau line'' itself consists of a single conductor coated with dielectric material.  Coupling to and from the G-line is done with conical metal "launchers" or "catchers," with their narrow ends connected for example to the shield of coaxial feed line, and with the transmission line passing through a hole in the conical tips.
+
+A G-line is a type of waveguide, rather than a wire in an electric circuit.  The G-line functions by slowing the propagation velocity of EM waves below the free-space velocity, causing the wavefronts to slightly bend inwards towards the conductor, which keeps the waves entrained.   Bends of large radius are tolerated, but too sharp a bend in the single wire will cause the line to radiate and lose energy into space.   In theory the dielectric coating is a requirement, it slows the wave and focuses it along the wire.  But some users note that in practice the finite conductivity of metals may produce a similar effect, and a bare G-line can entrain a propagating wave.
+
+Note that the Goubau-Line are not exclusively coupled to 3 dimensionnal horn antennas, and can be used at other frequencies besides UHF and Microwave.  Waves can be "launched" from planar structures like tapered Coplanar Waveguides (CPW) at much higher frequencies such as the Terahertz Band. The dimension of the single metallic conductor is then typically 1µm.
+<ref>
+''T. Akalin, A. Treizebré and B. Bocquet, “High Resolution Biosensor based on Surface Wave Transmission Lines at THz Frequencies”, 35th European Microwave Conf., 3-7 Oct. 2005, Paris, France''
+</ref>
+
+The phenomena behind G-line operation is the one-dimensional case of electromagnetic surface waves.  The two-dimensional case appears in over-the-horizon radar and in radio ground waves as employed in the GWEN system.
+
+thumb|Anwendung der Goubau-Leitung
+Als '''Goubau-Leitung''' (auch Goubou-Leitung, Goubot-Leitung, G-Leitung) bezeichnet man eine Eindraht-Wellenleitung. Diese ist verlustarm, wird jedoch selten verwendet, z.&nbsp;B. für die Versorgung abgelegener Empfangsgebiete mit UKW-Rundfunk und Fernsehen.
+
+Sie ist eine Freileitung, benötigt einen großen Abstand zu metallischen und (insbesondere verlustbehafteten) dielektrischen Teilen und darf möglichst nicht geknickt verlegt werden, um die Abstrahlung gering zu halten.
+
+== Prinzipieller Aufbau ==
+Ein Koaxialkabel wird auf den Innenleiter reduziert. Der Draht ist mit einer Schicht Dielektrikum umgeben<ref>[http://de.wrs.yahoo.com/_ylt=A0geuoz1D.BGaykAwTEzCQx.;_ylu=X3oDMTFjYmhpdG9kBHNlYwNzcgRwb3MDMTMEY29sbwNhYzIEdnRpZANERTAxMDFfMTAxBGwDV1Mx/SIG=11v3t8fh9/EXP=1189175669/**http%3A//www.ingvet.kau.se/~youri/lab1gr1.pdf Johan Erikson und Niclas Ullström]</ref>, welche die Ausbreitungsgeschwindigkeit der Welle im Bereich des Leiters reduziert. Dadurch entsteht ein leicht zum Leiter hingerichteter Poynting-Vektor, der die Welle gegenüber einer unisolierten Eindraht-Wellenleitung enger entlang des Leiters führt. Die Reduzierung der Verluste gegenüber einem Koaxialkabel entsteht, weil ein Großteil des elektrischen Feldes der Welle außerhalb des verlustbehafteten Dielektrikums liegt.
+
+Zum Einspeisen und Abschließen der Leitung werden Exponentialtrichter verwendet, die den allmählichen Übergang des Wellenwiderstandes vom Koaxialkabel in denjenigen der Eindrahtleitung herstellen. Die Trichter können auch in materialsparender Skelettbauweise hergestellt werden. Dabei muss der Abstand der einzelnen Segmente aber kleiner als eine halbe Wellenlänge sein. Die Aufweitung der Trichter ist mindestens größer als die halbe Wellenlänge.

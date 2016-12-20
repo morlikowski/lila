@@ -1,0 +1,58 @@
+'''Macsyma''' is a Maple, and other systems.
+
+==Development==
+The project was initiated in July, 1968 by
+[http://acl.ldc.upenn.edu/J/J83/J83-3008.pdf Carl Engelman],
+William A. Martin (front end, expression display, polynomial arithmetic)
+and
+The MITRE Corporation.
+Later major contributors to the core mathematics engine were:
+<!-- Ordered alpha (usual custom). Please do not reorder as it may give false impressions of importance. --->
+Yannis Avgoustis (special functions),
+David Barton (algsys),
+Richard Bogen (special functions),
+Bill Dubuque (limits, Grobner, TriangSys, indefinite integration: Bronstein, power series, number theory, special functions, functional equations, pattern matching, sign queries),
+Richard Fateman (rational functions, pattern matching, arbitrary precision floating-point),
+Michael Genesereth (comparison, knowledge database),
+Jeff Golden (simplifier, language, system),
+R. W. Gosper (definite summation, special functions),
+Charles Karney (plotting),
+John Kulp,
+Ed Lafferty (ODE solution, special functions),
+Stavros Macrakis (real/imaginary parts, system),
+Barry Trager (algebraic integration, factoring, Grobner),
+Paul Wang (polynomial factorization, limits, definite integration),
+David Y. Y. Yun,
+Gail Zacharias (Grobner),
+and
+Rich Zippel (power series, polynomial factorization, number theory, combinatorics).
+<!-- MAJOR contributors to the core MATH engine till 1982. There should probably be a separate category for system/lisp contributors such as JonL, RLB, RWK, KMP, JPG, GLS, RWK, REH. Perhaps also for minor contributors (if so they should be clearly distinguished from major contributors). Probably still not complete but much closer than before. --wgd -->
+<!-- Is this supposed to be a bulleted list or an actual paragraph? If the former, that's not how wikimarkup does lists at all. -->
+
+Macsyma was written in Lisp in the areas of numerical computing, efficient compilation and language design. Maclisp itself ran primarily on PDP-6 and PDP-10 computers, but also on the OS and on the Lisp Machine architectures. Macsyma was one of the largest, if not the largest, Lisp programs of the time.
+
+===Commercialization===
+In 1979, in response to a request from Richard Fateman, then a professor at UC Berkeley, MIT provided a temporary license for Macsyma code. This was almost immediately brought up on the new VAX-11/780 computer using a dialect of Maclisp, Sun workstations. Symbolics suppressed those as well. At the same time Fateman worked to change the (now revoked) temporary license for Macsyma into something more permanent.
+
+Ultimately, the VAX/VMS, an unpopular system in academia, where Berkeley VAX Unix was common. DOE Macsyma formed the basis for the much-later open source Maxima system.
+
+In 1981, Moses and Richard Pavelle, an MIT staffer and proponent of applying Macsyma to engineering and science, proposed to form a company to commercialize Macsyma. However, MIT policy prevented MIT personnel from profiting directly from MIT developments. In early 1982, Macsyma was licensed by MIT to LMI. The business arrangement between Symbolics and Arthur D. Little required a royalty payment to ADL of 15% of Macsyma gross sales. This led to speculation on the desire of MIT and ADL to see MACSYMA prosper. The development of Macsyma continued at Symbolics despite the fact that it was seen as a diversion from the sales of DEC VAX computers and Sun workstations using Berkeley's Franz Lisp in 1986 and 1987.
+
+However, problems in Symbolics and within the Macsyma group led to the decline of Macsyma. In the first half of 1986, Macsyma revenues were lower than in the first half of 1985, in a growing industry. Wolfram's SMP program and Waterloo Maple were growing at this time, although MACSYMA was easily superior to these other packages in symbolic math.
+
+Pavelle ran the Macsyma division at Symbolics until early 1986. In the second half of 1986 Richard Petti became the manager of the Macsyma business. Macsyma cut headcount but expanded its sales force and marketing, and focused its developers more on features that customers asked for. (For example, the Grobner algorithm developed in the 1970s at MIT was not installed in a shipping Macsyma until 1987.) In 1987, Macsyma annual revenues roughly doubled. MACSYMA became more user friendly: documentation and on-line help were reorganized and expanded; some command names were changed to be more mnemonic. Petti argued to Symbolics management that Macsyma was a 'strategic business unit' that should be funded based on its performance and potential, not based on the prospects of the main workstation business. However, Symbolics cut the Macsyma headcount after this period of sharp growth; Symbolics tried to use Macsyma as a tiny cash cow to fund the losses of the workstation business that was 30 times its size.
+
+The greatest product weakness of Macsyma was its numerical analysis. Mastering symbolic math was a herculean task; but numerical capabilities were critical to get a piece of the much larger engineering and lower-end scientific markets. At MIT Macsyma had a link to the IMSL (now PC version) was about six times slower than Fortran. Also Macsyma's matrices were implemented as lists of lists, which cost another factor of perhaps 5-10 in speed for key algorithms. Macsyma did not have many of the basic algorithms of numerical linear algebra, such as LU decomposition.
+
+In 1987-88, the Macsyma group tried to build a PC Macsyma with Windows PCs in August 1989 using the CLOE Lisp from Symbolics. However, the Macsyma staff was too small and lacked the mix of skills needed to add the kind of graphics, notebook interface and better numerics that Mathematica had.
+
+'''Macsyma''' ist ein Maxima ist eine Open-Source-Version von Macsyma.
+
+== Geschichte ==
+Ursprünglich wurde Macsyma 1968 bis 1982 im Labor für künstliche Intelligenz (en) des MIT als Teil des en) entwickelt.<ref name="mail">http://www.math.utexas.edu/pipermail/maxima/2003/005861.html</ref>
+
+1982 übergab das MIT eine Version von Macsyma an das US-Energieministerium (DOE), einen der Hauptsponsoren des Projekts. Diese Version wurde als DOE Macsyma bezeichnet. Auf ihr beruht die Open-Source-Version Maxima.
+
+Symbolics erwarb 1982 eine Lizenz für die Weiterentwicklung von Macsyma. Symbolics entwickelte Macsyma einige Jahre lang, aber betrachtete es schließlich als nebensächlich für ihr Hauptgeschäft, den Verkauf von Lisp-Maschinen. Durch das Mangelnde Interesse von Symbolics Macsyma weiter zu entwickeln und auch auf andere Systeme, wie PCs, zu portieren, verlor Macsyma dramatisch an Marktanteilen. Hatte Macsyma 1987 noch einen Anteil von 70% am Markt der symbolischen Computer-Algebra-Systeme gehalten, fiel der Anteil bis 1991 auf 1% zurück.<ref name="mail" />
+
+Richard Petti und Russell Noftsker, der Gründer von Symbolics, gründeten 1992 Macsyma Inc., kaufte Symbolics Macsyma ab und führte die Entwicklung einige Jahre lang weiter. Macsyma Inc. schaffte es jedoch nicht mehr einen größeren Marktanteil gegenüber anderen Computer-Algebra-Systemen zu sichern.<ref name="mail" />

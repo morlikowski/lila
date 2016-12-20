@@ -1,0 +1,120 @@
+{{Infobox Logiciel
+| nom = eMule
+| logo = 80px
+| image = 250px
+| description = eMule 0.48a sous Ubuntu via Wine
+| développeur = John et Ornis
+| dernière version = 0.49a
+| date de dernière version = 
+| version avancée = 
+| date de version avancée = 
+| environnement = Windows
+| langues = Multilingue
+| type = Client P2P
+| licence = GNU GPL
+| site web = [http://www.emule-project.net/ www.emule-project.net]
+}}
+'''eMule''' est un logiciel client d'échange de fichiers via la technologie P2P. Il offre diverses fonctions supplémentaires par rapport au logiciel fondateur de ce réseau eDonkey2000 (qui n'est plus développé).
+
+== Histoire ==
+Le projet eMule a commencé le  par Hendrik Breitkreuz (alias Merkur) qui était mécontent  du client original eDonkey2000. Par la suite, sept développeurs supplémentaires ont rejoint le projet. Le code source a été diffusé pour la première fois pour la version 0.02 et il a été publié sur SourceForge le .
+
+Le binaire a été diffusé pour la première fois le  pour la version 0.05a. Le "Credit System" a été introduit le  dans la version 0.19a. Le site web du projet eMule a été ouvert le . Depuis sa création, eMule a été téléchargé par plus de 85 millions de personnes.
+
+v0.42 (et suivantes) permet en plus du réseau eDonkey de se connecter à son propre réseau appelé Kademlia (ce réseau possède l'avantage de pouvoir se passer de serveurs de connexion).
+
+v0.47c a introduit une option de brouillage de protocole, afin de contourner les FAI pratiquant le Free ou Club-Internet par exemple).
+
+En 2005, le projet est maintenu par 16 personnes : 2 développeurs, 2 gestionnaires de projet (incluant le fondateur Breitkreuz), 3 testeurs, 9 testeurs-débogueurs. Le site officiel est maintenu par 7 développeurs Web et 4 modérateurs.
+
+Le , à 10h, la police fédérale belge a saisi le plus gros serveur mis en place pour les fonctions eMule, Razorback2. Cette opération constituait principalement un coup médiatique car l'importance des serveurs dans le fonctionnement d'eMule a été considérablement diminuée avec l'arrivée du protocole Kademlia.
+
+À la mi-septembre 2007, de nombreux serveurs (allemands) ont fermé ([http://www.pcinpact.com/actu/news/38974-emule-eDonkey-serveur-allemand-fermeture.htm source]).
+
+Cependant, depuis novembre 2007, 3 nouveaux serveurs Razorback (Razorback 3.0, Razorback 3.1 et Razorback 3.2), de capacités équivalentes voire supérieures à celles de Razorback 2 et autres Donkey Server, ont su rapidement combler ces fermetures.
+Notons que si ces serveurs portent toujours le nom Razorback, rien n’indique un lien quelconque avec les anciens serveurs.
+
+== Concepts de base ==
+=== Avantages d'eMule ===
+
+* Grande base d'utilisateurs : une moyenne de 20 millions en 2007, ce qui le rend excellent pour trouver des fichiers rares.
+* Reprend plus complètement le protocole d'edonkey 2000 et ses améliorations.
+* Gère le gestionnaire de correction d'erreurs AICH (aussi efficace que BitTorrent).
+* Gère l'échange de sources entre clients via le réseau Kademlia (lui permettant de réduire sensiblement les charges sur les serveurs). Un HighID permet d'ailleurs de garder les sources longtemps après la déconnexion des serveurs ED2K et/ou de KAD.
+
+=== High ID ===
+
+Le High ID, représente le codage de l'adresse IP du client.
+
+* Prenons l'ID suivant : 3710990938
+* Transformé en hexadécimal cela donne : DD313A5A
+* En groupant les chiffres par deux on obtient : DD.31.3A.5A
+* Puis en les lisant à partir de la droite : 5A.3A.31.DD
+* Enfin la conversion en décimal nous donne l'adresse IP : 90.58.49.221
+
+=== Low ID ===
+
+Le mode LowID (basse identification) est attribué par les serveurs et désigne les ordinateurs clients qui ne peuvent pas être atteints de l'extérieur parce qu'ils sont derrière un pare-feu (ou dispositif national) qui n'a pas été correctement paramétré (ports non ouverts), ou encore dont l'adresse IP se termine par un zéro (par exemple 123.45.67.0).
+
+Ils peuvent encore télécharger et émettre mais ont besoin de l'aide (automatique) de serveurs ou de clients du réseau Kademlia pour pouvoir être atteints par d'autres clients. Cela '''ralentit considérablement leur progression''' dans les files d'attente. Un client en LowID ne peut télécharger/envoyer que depuis/vers un client en HighID.
+
+{{Infobox Software
+| name                   = eMule
+| logo                   = 64px|eMule Mascot
+| screenshot             = 300px|eMule Screenshot
+| caption                = eMule 0.49a
+| collapsible            = 
+| author                 = Merkur
+| developer              = [http://www.emule-project.net/home/perl/general.cgi?l=1&rm=team eMule-Team]
+| released               = 
+| latest release version = 0.49a (0.49.0.23)
+| latest release date    = 
+| latest preview version = 
+| latest preview date    = 
+| frequently updated     = 
+| programming language   = 
+| operating system       = Microsoft Windows
+| platform               = 
+| size                   = 
+| language               = Multilingual (52)
+| status                 = Current/Active
+| genre                  = Peer-to-peer file sharing
+| license                = Free (GNU General Public License)
+| website                = [http://www.emule-project.net/ www.emule-project.net]
+}}
+
+'''eMule''' is a peer-to-peer file sharing application for Microsoft Windows. Started in May 2002 as an alternative to eDonkey2000, eMule now connects to both the eDonkey network and the Kad network. The distinguishing features of eMule are the direct exchange of sources between client nodes, fast recovery of corrupted downloads, and the use of a credit system to reward frequent uploaders. Furthermore, eMule transmits data in zlib-compressed form to save bandwidth.
+
+eMule is coded in Microsoft Visual C++ using the Microsoft Foundation Classes. Since July 2002 eMule has been free software, released under the GNU General Public License; its popularity has led to eMule's codebase being used as the basis of a Linux-specific client, xMule, and a multiplatform client, aMule, along with the release of many eMule ''mods'' (modifications of the original eMule) on the Internet.
+
+==History==
+The eMule project was started on May 13, 2002 by s (also known as Merkur) who was dissatisfied with the original eDonkey2000 client. Over time more developers joined the effort. The source was first released at version 0.02 and published on SourceForge on July 6, 2002.
+
+eMule was first released as a binary on August 4, 2002 at version 0.05a. The 'Credit System' was implemented for the first time on September 14, 2002 in version 0.19a. The eMule project website started up on December 8, 2003. Since its inception, eMule has been downloaded over 405 million times as of May 11, 2008 making it by far the most downloaded project on SourceForge.<ref>[http://sourceforge.net/top/topalltime.php?type=downloads sourceforge.net]</ref>
+
+Current versions (v0.40+) of eMule have added support for the Kad network. This network has an implementation of the Kademlia protocol, which does not rely on central servers as the eDonkey network does, but is an implementation of a distributed hash table. 
+
+Also added in recent versions were the ability to search using unicode, allowing for searches for files in non-Latin alphabets, and the ability to search servers for files with complete sources of unfinished files on the eDonkey network.
+
+In new versions, a "Bad source list" was added. The application adds an IP address to this list after one unsuccessful connection. After adding an IP to the "Bad source list", the application treats this IP as a "dead" IP. Unavailable IPs are banned for a time period from 15 to 45 minutes. Some users have complained that it leads to a loss of active sources and subsequently slows download speed.
+
+Other recent additions include: the ability to run eMule from a user account with limited privileges (thus enhancing security), and intelligent corruption handling (so that a corrupted chunk does not need to be re-downloaded entirely).
+
+The 0.46b version added the creation and management of "eMule collection" files, which contain a set of links to files intended to be downloaded as a set.
+
+Recently, many ISPs are bandwidth throttling default P2P ports resulting in slow performances. The 0.47b version adds protocol obfuscation; eMule will automatically select two ports at random in the startup wizard.
+
+eMule is now considered a stable product, and new versions are not released as often as they used to be; five to six months is now a typical time interval between releases. The latest version is 0.49a which was released in May 2008.
+
+==Basic concepts==
+Each file that is shared using eMule is hashed using the servers and the serverless Kad network.
+
+Users can search for filenames in the servers/kad and are presented with the filenames and the unique identifier consisting of the top-level MD4 hash for the file and the file's size that can be added to their downloads. The client then asks the servers where the other clients are using that hash. The servers return a set of IP/ports that indicate the locations of the clients that share the file.
+
+eMule then asks the peers for the file. eMule will then be queued until an upload slot becomes available.
+
+When a complete chunk of 9500 kilobytes is downloaded and verified this data is also shared by the downloader, helping others to download the file as well.
+
+It is also possible that a client knows other clients that are also sharing that same file. In that case a source exchange between the clients is made. This exchange of known peers is done directly between the peers.
+
+Newer versions of eMule support AICH - Advanced Intelligent Corruption Handling.  It is meant to make eMule's corruption handling competitive with BitTorrent.  SHA-1 hashes are computed for each 180kb sub-chunk and a whole SHA-1 hash tree is formed.  AICH is processed purely with peer-to-peer source exchanges.  eMule requires 10 agreeing peers regarding the SHA-1 hash, so rare files generally do not benefit from AICH.

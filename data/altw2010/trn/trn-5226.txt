@@ -1,0 +1,136 @@
+In equilibrium concepts, most famously Nash equilibrium.
+
+Many solution concepts, for many games, will result in more than one solution. This puts any one of the solutions in doubt, so a game theorist may apply a refinement to narrow down the solutions. Each successive solution concept presented in the following improves on its predecessor by eliminating implausible equilibria in richer games.
+
+==Formal definition==
+
+Let <math>\Gamma</math> be the class of all games and, for each game <math>G \in \Gamma</math>, let <math>S_G</math> be the set of strategy profiles of <math>G</math>.  A ''solution concept'' is an element of the direct product <math>\Pi_{G \in \Gamma}2^{S_G};</math>  ''i.e''., a function <math>F: \Gamma \rightarrow \bigcup\nolimits_{G \in \Gamma} 2^{S_G}</math> such that <math>F(G) \subseteq S_G</math> for all <math>G \in \Gamma.</math>
+
+==Rationalizability and iterated dominance==
+
+In this solution concept, players are assumed to be rational and so '''strictly dominated strategies''' are eliminated from the set of strategies that might feasibly be played. A strategy is strictly dominated when there is some other strategy available to the player that always has a higher payoff, regardless of the strategies that the other players choose. (Strictly dominated strategies are also important in prisoners' dilemma (shown below), ''cooperate'' is strictly dominated by ''defect'' for both players because either player is always better off playing ''defect'', regardless of what his opponent does.
+
+{| class="wikitable" style="margin: 1em auto 1em auto"
+! !! Prisoner 1 Cooperate !! Prisoner 1 Defect
+|-
+! Prisoner 2 Cooperate
+| <s>-0.5, -0.5<s> || <s>-10, 0<s>
+|-
+! Prisoner 2 Defect
+| <s>0, -10<s> || -2, -2
+|}
+
+==Nash equilibrium==
+
+A Nash equilibrium is a strategy profile (a strategy profile specifies a strategy for every player, e.g. in the above prisoners' dilemma game (''cooperate'', ''defect'') specifies that prisoner 1 plays ''cooperate'' and player 2 plays ''defect'') in which every strategy is a best response to every other strategy played. A strategy by a player is a best response to another player's strategy if there is no other strategy that could be played that would yield a higher pay-off in any situation in which the other player's strategy is played.
+
+==Backward induction==
+
+There are games that have multiple Nash equilibria, some of which are unrealistic. In the case of dynamic games, unrealistic Nash equilibria might be eliminated by applying backward induction, which assumes that future play will be rational. It therefore elimates noncredible (or incredible) threats because such threats would be irrational to carry out if a player was ever called upon to do so.
+
+For example, consider a dynamic game in which the players are an incumbent firm in an industry and a potential entrant to that industry. As it stands, the incumbent has a monopoly over the industry and does not want to lose some of its market share to the entrant. If the entrant chooses not to enter, the payoff to the incumbent is high (it maintains its monopoly) and the entrant neither loses nor gains (its payoff is zero). If the entrant enters, the incumbent can fight or accommodate the entrant. It will fight by lowering its price, running the entrant out of business (and incurring exit costs – a negative payoff) and damaging its own profits. If it accommodates the entrant it will lose some of its sales, but a high price will be maintained and it will receive greater profits than by lowering its price (but lower than monopoly profits).
+
+If the entrant enters, the best response of the incumbent is to accommodate. If the incumbent accommodates, the best response of the entrant is to enter (and gain profit). Hence the strategy profile in which the incumbent accommodates if the entrant enters and the entrant enters if the incumbent accommodates is a Nash equilibrium. However, if the incumbent is going to play fight, the best response of the entrant is to not enter. If the entrant does not enter, it does not matter what the incumbent chooses to do (since there is no other firm to do it to - note that if the entrant does not enter, fight and accommodate yield the same payoffs to both players; the incumbent will not lower its prices if the entrant does not enter). Hence fight can be considered as a best response of the incumbent if the entrant does not enter. Hence the strategy profile in which the incumbent fights if the entrant does not enter and the entrant does not enter if the incumbent fights is a Nash equilibrium. Since the game is dynamic, any claim by the incumbent that it will fight is an incredible threat because by the time the decision node is reached where it can decide to fight (i.e. the entrant has entered), it would be irrational to do so. Therefore this Nash equilibrium can be eliminated by backward induction.
+
+En théorie des jeux et en théorie économique, un '''concept de solution''' est un processus par lequel les équilibres d'un jeu sont identifiés. Ils sont donc employés comme des ''prédictions de jeu'', suggérant quel sera le résultat du jeu, c'est-à-dire quelles stratégies seront ou pourront être employées par les joueurs. 
+
+Chacun des concepts de solution suivants (mise à part la
+rationalisabilité) constitue un raffinement du concept précédent en ce
+qu'il élimine des équilibres peu plausibles dans des jeux plus riches que
+ceux considérés par le concept précédent. 
+
+== Rationalisabilité et dominance répétée ==
+
+''Article principal : Rationalisabilité''
+
+Dans ce concept de solution, on suppose que les joueurs sont
+rationnels et donc qu'ils éliminent les stratégies strictement dominées. Une stratégie strictement
+dominée est une stratégie telle qu'un joueur à toujours avantage à ne pas
+jouer, et donc qu'un joueur rationnel ne va jamais jouer (les stratégies
+strictement dominées sont également importantes dans la recherche du
+minimax par parcours d'arbre de jeu). Par exemple, dans le
+dilemme du prisonnier à une seule période tel qu'illustré ci-dessous,
+''coopérer'' est strictement dominé par ''dévier'' pour les deux joueurs
+car chacun a avantage à jouer ''dévier'' quel que soit la stratégie retenue
+par l'autre joueur. 
+
+{| border cellpadding="5" cellspacing="0" align="center"
+|-----
+|
+! scope="col" | Prisonnier 1 Coopérer
+! scope="col" | Prisonnier 1 Dévier
+|-----
+! scope="row" | Prisonnier 2 Coopérer
+| <s>-0.5, -0.5<s> || <s>-10, 0<s>
+|-----
+! scope="row" | Prisonnier 2 Dévier
+| <s>0, -10<s> || -2, -2
+|}
+
+== Équilibre de Nash ==
+
+''Article principal : Équilibre de Nash''
+
+Un équilibre de Nash est un profil de stratégies (c'est-à-dire la donnée
+d'une stratégie d'équilibre pour chaque joueur) dans laquelle chaque
+stratégie est une meilleure réponse à toute autre stratégie jouée. Une
+meilleure réponse est une stratégie telle qu'il n'existe pas d'autre
+stratégie possible qui fournirait un paiement plus élevé quelle que soit la
+stratégie jouée par l'autre joueur. 
+
+== Induction à rebours ==
+
+''Article principal : Induction à rebours''
+
+Il existe des jeux présentant plusieurs équilibres de Nash, dont certains
+sont peu réalistes, car reposant sur des stratégies qui ont rationnellement
+peu de chances d'être choisies. Dans le cas des jeux dynamiques, certains
+équilibres de Nash irréalistes peuvent être éliminés par induction à
+rebours, qui suppose que tous les coups futurs seront rationnels. Ce
+faisant, on élimine des menaces non crédibles car de telles menaces de
+jouer une stratégie dommageable à l'autre joueur en réponse à une stratégie
+donnée de sa part peuvent être non rationnelles à jouer une fois que
+l'autre joueur a quand même joué la stratégie en question.
+
+Par exemple, considérons un jeu dynamique où les joueurs sont une
+entreprise établie dans un secteur d'activité et une entreprise pouvant
+entrer dans ce secteur. À l'état initial, l'entreprise établie jouit d'un
+monopole sur le secteur, et ne veut pas perdre de pouvoir de marché au
+profit de l'entrant. Si l'entrant potentiel choisit de ne pas entrer, le
+monopole maintient son profit élevé (profit de monopole ''M''), et
+l'entrant ne perd ni ne gagne. Si l'entrant potentiel entre, le monopole
+peut soit engager une guerre des prix contre lui, ou s'accommoder de sa
+présence. On suppose qu'une guerre des prix peut conduire l'entrant à la
+faillite (en présence de coûts fixes ''F'' à l'entrée par exemple) et
+qu'elle réduit à zéro le profit du monopole. En revanche, si le monopole
+s'accommode de la présence de l'entrant, il peut ne perdre qu'une partie de
+son profit en partageant le marché dans le cadre d'un accord tacite
+(profits de duopole ''D'' et ''d'').
+
+{| border cellpadding="5" cellspacing="0" align="center"
+|-----
+|
+! scope="col" | Guerre des Prix
+! scope="col" | S'accommoder
+|-----
+! scope="row" | Entrer
+| 0, <em>-F</em> || <em>D</em>, <em>d</em>
+|-----
+! scope="row" | Ne pas entrer
+| <em>M</em>, 0 || <em>M</em>, 0
+|}
+
+Si l'entrant potentiel entre effectivement, la meilleure réponse du
+monopole est donc de s'accommoder. Sachant cela, la meilleure réponse de
+l'entrant est d'entrer. Ainsi, le profil stratégique où l'entrant entre et
+le monopole s'accommode est un équilibre de Nash. Cependant, si le monopole
+choisit la guerre des prix, la meilleure réponse de l'entrant est de ne pas
+entrer. Si l'entrant n'entre pas, peu importe la stratégie prévue par le
+monopole. La guerre des prix constitue donc une meilleure réponse si
+l'entrant potentiel n'entre pas. Le profil où le monopole prépare la guerre
+des prix et où l'entrant potentiel n'entre pas est donc également un
+équilibre de Nash. Comme le jeu est dynamique, tout engagement du monopole
+à mener une guerre des prix en cas d'entrée n'est pas crédible, puisque si
+l'entrant potentiel entre quand même, le monopole aura avantage à
+s'accommoder plutôt que lutter. L'équilibre de Nash avec guerre des prix
+peut donc être éliminé par induction à rebours. 

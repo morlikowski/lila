@@ -1,0 +1,80 @@
+'''Curry's paradox''' is a paradox that occurs in naive set theory or naive logics, and allows the derivation of an arbitrary sentence from a self-referring sentence and some apparently innocuous logical deduction rules. It is named after the logician Haskell Curry. 
+
+It has also been called '''Löb's paradox''' after Martin Hugo Löb.<ref>Barwise, Jon and John Etchemendy 1987: The Liar, p. 23. Oxford University Press.</ref>
+
+== In natural language ==
+Claims of the form "''if'' A, ''then'' B" are called conditional claims. It is not necessary to believe the conclusion (B) to accept the conditional claim (''if'' A, ''then'' B) as true. For instance, consider the following sentence:
+
+:''If a man with flying reindeer has delivered presents to all the good children in the world in one night, then Santa Claus exists.'' 
+
+Imagine that a man with flying reindeer has, in fact, done this. Does Santa Claus exist, in that case? It would seem so. Therefore, without believing that Santa Claus exists, or that this scenario is even possible, it seems that we should agree that ''if'' a man with flying reindeer has delivered presents to all the good children in the world in one night, ''then'' Santa Claus exists, and so the above sentence is true.
+
+Now consider this other sentence:
+
+:''If this sentence is true, then Santa Claus exists.''
+
+As before, imagine that the antecedent is true - in this case, "this sentence is true". Does Santa Claus exist, in that case? Well, if the sentence is true, then what it says is true: namely that if the sentence is true, then Santa Claus exists. Therefore, without necessarily believing that Santa Claus exists, or that the sentence is true, it seems we should agree that ''if'' the sentence is true, ''then'' Santa Claus exists.
+
+But then this means the sentence ''is'' true. So Santa Claus ''does'' exist. Furthermore we could substitute any claim at all for "Santa Claus exists". This is Curry's paradox.
+
+== In formal language ==
+
+In formal languages, we sometimes interpret "If ''X'' then ''Y''" as a material conditional. On this reading, it simply means "''Y'', or else not ''X''". Here we would read the sentence as "Santa Claus exists, or this sentence is false". On this reading, Curry's paradox is simply a variant on the liar paradox. However, in natural language this is not usually what we mean by "If ''X'' then ''Y''". For instance, "if 6*7=42, then the moon exists" is true as a material implication, but is generally not considered true in natural language, because the moon's existence does not seem to be related to this fact of arithmetic. 
+
+Nevertheless we arrived at paradox in natural language. In fact, not only did we arrive at a contradiction, but we were actually able to prove anything at all, without relying on such principles as the principle of explosion which are generally held to be false in accounts of natural language. Thus Curry's paradox poses an additional problem.
+
+To arrive at this formally, let us denote by Y the proposition to prove, in this case "Santa Claus exists". Then, let X denote the statement that asserts that Y follows from the truth of X. Mathematically, this can be written as X = (X → Y), and we see that X is defined in terms of itself. The proof proceeds:
+
+1. X → X
+:''rule of assumption, also called restatement of premise or of hypothesis''
+2. X → (X → Y)
+:''substitute right side of 1'', since X = X → Y
+3. X → Y
+:from 2 by ''contraction''
+4. X
+:''substitute 3'', since X = X → Y
+5. Y
+:from 4 and 3 by ''modus ponens''
+
+== In naive set theory ==
+
+Even if the underlying mathematical logic does not admit any self-referential sentence, in set theories which allow unrestricted comprehension, we can nevertheless prove any logical statement ''Y'' from the set
+
+'''Currys Paradoxon''', auch '''Löbs Paradoxon''', ist ein naiven Mengenlehre und der meisten Haskell Curry bzw. nach dem Mathematiker Martin Hugo Löb.
+
+== Das Paradoxon in natürlicher Sprache ==
+
+Eine Version des Paradoxons in natürlicher Sprache lautet beispielsweise wie folgt:
+
+:''Wenn dieser Satz wahr ist, dann gibt es den Weihnachtsmann.''
+
+Nehmen wir zunächst an, der Satz sei nicht wahr. Das bedeutet: "Dieser Satz ist wahr" und "den Weihnachtsmann gibt es nicht." Also der Annahme der Satz sei nicht wahr, führt dazu der Satz wäre unwahr und zugleich wahr. Das ist einen Widerspruch, also ist der Satz wahr.
+
+Aber da er aussagt, dass wenn er selbst wahr ist, der Weihnachtsmann existiert, so schließen wir, dass der Weihnachtsmann tatsächlich existiert. (Dieser logische Schritt folgt im Rahmen der Systeme natürlichen Schließens.)
+
+Damit folgt: Ist der Satz wahr, so gibt es den Weihnachtsmann. Das ist aber genau die Aussage des Satzes (auch ohne die anfängliche Annahme, dass er wahr ist!), also ist der Satz wahr und der Weihnachtsmann existiert.<ref name="Boolos-et-al">George S. Boolos, John P. Burgess, Richard C. Jeffrey: ''Computability And Logic'', 4th edition, Cambridg University Press 2002, Cambridge, ISBN 9780521007580, S. 237</ref>
+
+Der Satz ist also wahr und unwahr zugleich.
+
+Da man statt der Behauptung „Es gibt den Weihnachtsmann“ ''jede beliebige'' Aussage auf diese Weise beweisen kann, handelt es sich um ein Paradoxon.
+
+== Das Paradoxon in der mathematischen Logik ==
+
+Sei ''Y'' die zu beweisende Aussage, beispielsweise ''Y'' = "Es gibt den Weihnachtsmann". Sei ferner ''X'' der Satz, dass ''Y'' aus dem Wahrsein von ''X'' folgt. Mathematisch kann man das als den formalen Ausdruck ''X'' = (''X'' → ''Y'') schreiben, ''X'' ist also als Term von sich selbst definiert. Dann lautet der Beweis:
+
+1. ''X'' → ''X''
+:''Tautologie''
+2. ''X'' → (''X'' → ''Y'')
+:''ersetze die rechte Seite von'' 1, da ''X'' = (''X'' → ''Y'')
+3. ''X'' → ''Y''
+:folgt aus 2 mit ''[http://en.wikipedia.org/wiki/Rule_of_contraction Kontraktion]''
+4. ''X''
+:''ersetze'' 3, da ''X'' = (''X'' → ''Y'')
+5. ''Y''
+:aus 4 und 3 mit ''modus ponens''
+
+Ein Spezialfall des Paradoxons ergibt sich, wenn ''Y'' einen Widerspruch der Form ''Z''∧¬''Z'' darstellt. Dann lautet der Satz ''X'' = (''X'' → (''Z''∧¬''Z'')). Setzt man den Satz vom Widerspruch voraus, so folgt aus (''X'' → (''Z''∧¬''Z'')) sofort ¬''X''. Setzt man weiter das Ex falso quodlibet voraus, so folgt mit ¬''X'', dass aus ''X'' jede beliebige Aussage folgt, insbesondere ''X'' → ''Z''∧¬''Z''. Also ist ''X'' → ''Z''∧¬''Z'' äquivalent zu ¬''X'', d.&nbsp;h. ''X'' = ¬''X''. Dies ist genau das Lügner-Paradoxon.
+
+== Das Paradoxon in der naiven Mengenlehre ==
+
+Um das Paradoxon zu vermeiden, könnte man selbstbezügliche Sätze in der zugrunde liegenden mathematischen Logik verbieten. Allerdings kann man in Mengenlehren, die das Aussonderungsaxiom (vgl. Zermelo-Fraenkel-Mengenlehre) nicht voraussetzen, ebenfalls eine beliebige logische Aussage ''Y'' aus der Menge

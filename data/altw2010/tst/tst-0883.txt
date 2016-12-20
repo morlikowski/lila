@@ -1,0 +1,61 @@
+{{Infobox Aviation
+ |name = Tiltrotor
+ |image = image:Aircraft.osprey.678pix.jpg
+ |caption = The Bell-Boeing V-22 Osprey, the best known example of a tiltrotor aircraft
+}}
+
+A '''tiltrotor''' range of a airplane.
+
+==Overview==
+As the name implies, a tiltrotor aircraft uses tiltable rotating lift and propulsion. For vertical flight the proprotors are angled to direct their thrust downwards, providing lift. In this mode of operation the craft is essentially identical to a helicopter. As the craft gains speed, the proprotors are slowly tilted forward, with the blades eventually becoming perpendicular to the ground. In this mode the wing provides the lift, and the wing's greater efficiency helps the tiltrotor achieve its high speed. In this mode, the craft is essentially a turboprop aircraft.
+
+A tiltrotor aircraft is different from a tiltwing, in which the whole wing is rotated, rather than just the rotors on a tiltrotor.
+
+===Controls===
+In vertical flight, the tiltrotor uses controls very similar to a twin or Yaw is controlled by tilting its rotors in opposite directions. Roll is provided through differential power or thrust.  Pitch is provided through rotor cyclic or nacelle tilt.  Vertical motion is controlled with conventional rotor blade pitch and either a conventional helicopter collective control lever (as in the Bell/Agusta BA609) or a unique control similar to a fixed wing engine control called a thrust control lever (TCL) (as in the Bell-Boeing V-22 Osprey).
+
+===Speed and payload issues===
+The tiltrotor's advantage is significantly greater speed than a helicopter. In a helicopter the maximum forward speed is defined by the turn speed of the rotor; at some point the helicopter will be moving forward at the same speed as the spinning of the backwards-moving side of the rotor, so that side of the rotor sees zero or negative stall. This limits modern helicopters to cruise speeds of about 150 km/h. However, with the tiltrotor this problem is avoided, because the proprotors are perpendicular to the motion in the high-speed portions of the flight regime (and thus never suffering this reverse flow condition), meaning that the tiltrotor has relatively high maximum speed - over 300 knots / 560 km/h has been demonstrated in the two types of tiltrotors flown so far, and cruise speeds of 250 knots / 460 km/h  are achieved.
+
+This speed is achieved somewhat at the expense of payload. As a result of this reduced payload, a tiltrotor does not exceed the transport efficiency (speed times payload) of a helicopter.<ref>[http://www.nap.edu/books/0309064295/html/82.html#p0200064b99960082001 Tiltrotor/Helicopter Payload comparison and transport efficiency shown at "Naval Expeditionary Logistics: Enabling Operational Maneuver from the Sea", Commission on Physical Sciences, Mathematics, and Applications, figs D.3 and D.4, Page 82]</ref> Additionally, the tiltrotor propulsion system is more complex than a conventional helicopter due to the large, articulated nacelles and the added wing; however, the improved cruise efficiency and speed improvement over helicopters is significant in certain uses.  Speed and, more importantly, the benefit to overall response time is the principal virtue sought by the military forces that are using the tiltrotor.  Tiltrotors are inherently less noisy in forward flight (airplane mode) than helicopters.  This, combined with their increased speed, is expected to improve their utility in populated areas for commercial uses and reduce the threat of detection for military uses.  Tiltrotors, however, are typically as loud as equally sized helicopters in hovering flight.
+
+Tiltrotors also provide substantially greater cruise altitude capability than helicopters.  Tiltrotors can easily reach 6000 m / 20,000 ft or more whereas helicopters typically do not exceed 3000 m / 10,000 ft altitude.  This feature will mean that some uses that have been commonly considered only for fixed-wing aircraft can now be supported with tiltrotors without need of a runway. A drawback however is that a tiltrotor suffers considerably reduced payload when taking off from high altitude.  Based on the approved flight manuals for each, the 50,000 lb / 22,600 kg class V-22 Osprey carries the same payload as the 10.000 kg/22,000 lb class UH-60L Black Hawk helicopter when both operate from a landing zone at 3.000 m / 10,000 feet above sea level.
+
+==Tiltrotor aircraft development==
+thumb|right|A BA609 in airplane mode at [[Paris Air Show 2007]]
+
+Research into tiltrotor technology began in the 1940s, with the Bell XV-3. Built in 1953, this experimental aircraft flew until 1966, proving the fundamental soundness of the tiltrotor concept and gathering data about technical improvements needed for future designs.  
+In 1972, with funding from NASA and the U.S. Army, Bell Helicopter Textron started development of the XV-15, a twin-engine tiltrotor research aircraft. Two aircraft were built to prove the tiltrotor design and explore the operational flight envelope for military and civil applications.<ref name="ames1">[http://www.simlabs.arc.nasa.gov/library/tiltrotor/ctr20th.html#History "History of tiltrotor technology", NASA Ames Research Center]</ref>
+
+Le terme '''tiltrotor''' désigne un avion à décollage et atterrissage vertical.
+
+D'origine anglo-saxonne, ce terme a été créé à partir des mots ''tilt'' (inclinaison) et ''rotor'' (rotor, pris dans le sens du rotor d'un hélicoptère). Il n'existe pas de mot simple équivalent dans la langue française et la traduction la plus juste est « rotor basculant ». Cependant, il a parfois été traduit par ''convertible'', qui est un terme plus général. 
+
+thumb|250px|right|Bell-Boeing [[V-22 Osprey]]
+
+== Vue d'ensemble ==
+
+Comme son nom l'indique, un avion ''tiltrotor'' utilise des propulseurs pivotants appelés '''proprotors'''. Pour le vol vertical (décollage et atterrissage), les proprotors sont orientés de façon à diriger leur poussée vers le bas (l'axe des moteurs est vertical), permettant le soulèvement. Dans ce mode de fonctionnement l'appareil est pratiquement identique à un hélicoptère. Au fur et à mesure que l'appareil acquiert de la vitesse, les proprotors sont lentement inclinés vers l'avant, jusqu'à atteindre un axe horizontal, c'est la première phase de transition. Lorsque cette attitude est atteinte, l'aile fournit la portance et le rendement élevé de l'aile aide le tiltrotor à atteindre sa vitesse de croisière. Dans ce mode, l'appareil est essentiellement un avion à turbopropulseur.
+
+<Gallery>
+Image:BA609_03.jpg|Bell/Agusta BA609 au sol, en mode hélicoptère 
+Image:BA609_02.jpg|Bell/Agusta BA 609 en mode avion
+Image:MV-22 Osprey 1.jpg|Bell-Boeing V-22 Osprey au moment du décollage
+Image:V-22 Osprey tiltrotor aircraft.jpg|V-22 Osprey en phase de transition
+</Gallery>
+
+On distingue les avions de type ''tiltrotor'' des ''tiltwing'' (dans lequel c'est l'aile entière qui bascule et non les rotors uniquement) ou des ''tiltjet'' (équivalent des tiltrotor équipés de moteurs à réaction). Un tiltrotor est obligé de décoller et d'atterrir en mode hélicoptère à cause de la longueur des hélice conventionnelle, qui toucheraient le sol s'ils étaient en position horizontale.
+Une seconde transition (passage du mode avion au mode hélicoptère) sera donc nécessaire avant l'atterrissage.
+
+=== Commandes ===
+
+Lors de la phase verticale du vol, les commandes du tiltrotor sont très semblables à celles d'un hélicoptère à double rotor ou à rotors en tandem. L'axe de lacet est commandé en inclinant ses rotors dans des directions opposées. On obtient le roulis par la poussée différentielle. Le tangage est obtenu par le cycle du rotor ou l'inclinaison de la nacelle. Le mouvement vertical est contrôlé grâce au pas variable de l'hélice, soit à l'aide d'un levier de commande commun comme sur un hélicoptère conventionnel (cas du Bell/Agusta BA609), soit à l'aide d'une commande unique semblable à celle d'un appareil à ailes fixes appelée « levier de contrôle de poussée » (TCL) (cas du V-22 Osprey).
+
+=== Performances ===
+L'avantage d'un appareil muni de tiltrotor est une vitesse significativement plus élevée que celle d'un hélicoptère. Dans le cas de l'hélicoptère, la vitesse maximale est définie par la vitesse de rotation du rotor : à un certain point, l'hélicoptère avancera à la même vitesse que le déplacement relatif des pales du rotor vers l'arrière, jusqu'à ce que l'extrémité du rotor (de ce côté) ait une vitesse relative nulle par rapport à l'air et commence à décrocher. Ceci limite les hélicoptères modernes à des vitesses de l'ordre de 300 km/h. Avec le tiltrotor, ce problème est contourné car le proprotor est perpendiculaire au mouvement de l'appareil lorsque celui-ci se déplace en vol de croisière (en attitude « avion »). Il ne subit donc jamais ce phénomène de flux inverse. De ce fait, un appareil à tiltrotor peut dépasser 500 km/h.
+
+Ces vitesses sont rendues possibles au dépens de la charge utile qui s'en trouve diminuée. Ainsi, un tiltrotor ne peut dépasser l'efficacité de transport (rapport vitesse/charge utile) d'un hélicoptère<ref>[http://www.nap.edu/books/0309064295/html/82.html#p0200064b99960082001 Tiltrotor/Helicopter Payload comparison and transport efficiency shown at "Naval Expeditionary Logistics: Enabling Operational Maneuver from the Sea", Commission on Physical Sciences, Mathematics, and Applications, figs D.3 and D.4, Page 82]</ref>. De plus, le système de propulsion d'un tiltrotor est plus complexe que celui d'un hélicoptère traditionnel à cause des imposantes nacelles articulées et de l'adjonction d'ailes. Cependant, dans certaines situations sa vitesse de croisière supérieure à celle d'un hélicoptère peut être déterminante. En effet, la vitesse et plus encore le temps de réponse sont les principales caractéristiques considérées par les forces armées s'équipant de tels appareils.
+
+Les tiltrotors sont de part leur conception moins bruyants que les hélicoptères dans leurs déplacements vers l'avant (en configuration avion). Il est probable que ceci, combiné à leur vitesse accrue, favorise leur utilisation notamment dans les zones urbaines pour des usages commerciaux et réduise les risques de détection lors d'usages militaires. En vol stationnaire et à taille égale, les tiltrotors sont en revanche aussi bruyants que des hélicoptères.
+
+L'altitude de croisière d'un tiltrotor est environ le double de celle d'un hélicoptère, puis qu'elle est de l'ordre de 6000 mètres au lieu de 3000 mètres. Cette caractéristique permet au tiltrotor un certain nombre d'utilisations jusque là réservées aux seuls aéronefs à voilure fixe, avec en plus pour avantage de se passer de piste.

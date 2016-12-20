@@ -1,0 +1,67 @@
+'''אנונה''' היא כינוי לתשלום כספי, המשולם מדי פרק זמן קבוע (שנה, חודש או פרק זמן אחר) למשך תקופה מוגדרת. השם אנונה נגזר מן המילה הלטינית annus, שנה.
+
+קיימים סוגי אנונות שונים, המוגדרים על פי מספר מאפיינים:
+* '''רציפה, כלומר, אנונה המשולמת באופן רציף. אנונה, הקרובה להיות אנונה רציפה, היא אנונה המשולמת מידי יום.
+* '''מועדי תשלום האנונה''': בתחילת כל חודש (או שנה וכו') בסוף כל תקופה או במועד מוגדר אחר בכל תקופה.
+* '''מועד תחילת התשלום''': אנונה המשולמת החל בחודש (או שנה וכו') הקרוב - אנונה מיידית - או אנונה המשולמת לאחר תקופת דחייה מסוימת - אנונה דחוייה. תקופת הדחייה יכולה להיות מוגדרת במספר שנים או שהיא יכולה להיות מוגדרת על ידי אירוע מסוים (למשל: אנונה המשולמת לשאירים במקרה מוות של מבוטח).
+* '''משך תשלום האנונה''': אנונה המשולמת לתקופה מוגדרת במספר שנים (לתקופה מובטחת), אנונה המשולמת לתקופת החיים של אדם, או מספר אנשים (אנונת חיים). אנונת חיים יכולה להיות לתקופה מוגבלת (כלומר האנונה נפסקת במות האדם או בתום התקופה, המוקדם שבהם) או להיות לכל החיים עם תקופה מובטחת לאחר המוות (כלומר, במקרה מוות מוקדם, נמשך תשלום האנונה עד תום התקופה המובטחת), או, לכל החיים ולתקופה מוגדרת לאחר מכן. אנונה המשולמת למספר אנשים יכולה להמשך עד מות האחרון שבהם (last survivor) או להיפסק במות הראשון מבני הקבוצה (joint life) או להיות מותנית בתנאים מורכבים יותר.
+* '''תנאים לתשלום האנונה''': תשלום האנונה יכול להיות מותנה בתנאים. אחד התנאים האפשריים הוזכר לעיל, במקרה של אנונת חיים, והוא הימצאותו של האדם בחיים. יכולים להיות גם תנאים אחרים כגון: במקרה קיצבת נכות - האנונה משולמת כל עוד מקבל הקיצבה נכה (לפי הגדרה שנקבעה); בסוגי פנסיות מסוימים - כל עוד מקבל הפנסיה נמצא בארץ מסוימת (או בארצות מוגדרות).
+* '''פנסיה,''' שהיא אנונה המשולמת לעובדים ולשאיריהם בגין עבודתם או אנונה המשולמת על ידי קופת גמל לקיצבה, או, אנונה שאינה מוגדרת כפנסיה, הנרכשת מחברת ביטוח (או ניתנת בהסדר אחר) שלא במסגרת פנסיונית.
+* '''הצמדת האנונה''': סכום האנונה התקופתי יכול להיות סכום נומינלי קבוע המוגדר במונחי מטבע מסוים או סכום שאינו מוגדר כך ואשר משתנה בהתאם לכללי הצמדה שנקבעו. למשל: סכום האנונה התקופתי יכול להיות צמוד לשינויים החלים במדד המחירים לצרכן, לשינויים החלים בדרגת השכר לפיה חושבה האנונה (פנסיה), לשינויים כלליים בשכר, למדד רווחיות של קרן פנסיה, להחלטות אד-הוק של גוף מוסמך, ועוד. 
+* '''מועדי הצמדה''': ניתן לקבוע את מועדי שינוי האנונה על פי תנאי ההצמדה בצורות שונות. למשל: באופן שוטף אחת לחודש (או בכל מועד תקופתי לתשלום), אחת ל-6 חודשים, בכל מועד בו שינוי המדד אליו מוצמדת האנונה מגיע לאחוז מסוים, בכל מועד בו משתלמת תוספת יוקר לשכירים על פי הסכם קיבוצי.
+
+==לקריאה נוספת==
+* אהרן יורן, "מיסוי קיצבה, מלוג ואנונה", '''משפטים''' י (תש"מ).
+
+The term '''''annuity''''' is used in finance theory to refer to any terminating stream of fixed payments over a specified period of time. This usage is most commonly seen in academic discussions of finance, usually in connection with the valuation of the stream of payments, taking into account time value of money concepts such as interest rate and future value.<ref></ref>
+
+Examples of annuities are regular deposits to a savings account, monthly home mortgage payments and monthly insurance payments. Annuities are classified by payment dates. The payments (deposits) may be made weekly, monthly, quarterly, yearly, or at any other interval of time.
+
+==Ordinary annuity==
+An '''ordinary annuity''' (also referred as '''annuity-immediate''') is an annuity whose payments are made at the end of each period (e.g. a month, a year). The values of an ordinary annuity can be calculated through the following<ref>Finite Mathematics, Eighth Edition, by Margaret L. Lial, Raymond N. Greenwell, and Nathan P. Ritchey. Published by Addison Wesley. ISBN 032122826X</ref>:
+
+===Formulae===
+Let:
+:<math>r</math> = the annual interest rate.
+:<math>t</math> = the number of years.
+:<math>m</math> = the number of periods per year.
+:<math>i</math> = the interest rate per period.
+:<math>n</math> = the number of periods.
+
+Note:
+:<math>i=\frac{r}{m}</math>
+:<math>n=tm</math>
+
+Also let:
+:<math>P</math> = the principal (or present value).
+:<math>S</math> = the future value of an annuity.
+:<math>R</math> = the periodic payment in an annuity (the amortized payment).
+
+:<math>S \,=\,R\left[\frac{\left(1+i\right)^n-1}{i}\right] \,=\,R\cdot s_{\overline{n}|i}</math></sub> (Annuity Notation)
+
+Also:
+
+:<math>P \,=\,R\left[\frac{1-\frac{1}{\left(1+i\right)^n}}{i}\right] = R\cdot a_{\overline{n}|i}</math></sub> 
+
+Clearly, in the limit as <math>n</math> increases,
+
+<math>\lim_{n\,\rightarrow\,\infty}\,P\,=\,\frac{R}{i}</math>
+
+Thus even an infinite series of finite payments with a non-zero discount rate has a finite Present Value (''q.v.'' Perpetuity).
+
+===Proof===
+The next payment is to be paid in one period. Thus, the present value is computed to be:
+
+:<math>P \, = \, \frac{R}{1+i} + \frac{R}{(1+i)^2} + \dots + \frac{R}{(1+i)^n} = \frac{R}{1+i} \left[ 1 + \frac{1}{1+i} + \frac{1}{(1+i)^2} + \dots + \frac{1}{(1+i)^{n-1}}\right].</math>
+
+We notice that the second term is a geometric progression of scale factor <math>1</math> and of common ratio <math>\frac{1}{1+i}</math>. We can write
+
+:<math>P \, = \, \frac{R}{1+i} \times \frac{1 - \frac{1}{(1+i)^n}}{1-\frac{1}{1+i}}.</math>
+
+Finally, after simplifications, we obtain
+
+:<math> P \, = \, \frac{R}{i} \left[1 - \frac{1}{(1+i)^n} \right] = \frac{Rm}{r} \left[1 - \frac{1}{(1+\frac{r}{m})^{(tm)}} \right]. </math>
+
+Similarly, we can prove the formula for the future value. The payment made at the end of the last year would accumulate no interest and the payment made at the end of the first year would accumulate interest for a total of (n-1) years. Therefore, 
+
+:<math>S \, = \, R + R(1+i) + R(1+i)^2 + \dots + R(1+i)^{n-1} = R \left[ 1 + (1+i) + (1+i)^2 + \dots + (1+i)^{n-1}\right].</math>

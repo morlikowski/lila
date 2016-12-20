@@ -1,0 +1,67 @@
+'''Audible''' ist das weltweit größte Internet-Portal für den Hörbüchern und sogenannter „Audiomagazine“, einer gesprochenen Version von Zeitungen und Zeitschriften. 
+
+== Vertrags- und Vertriebstypen ==
+Audible bietet monatlich kündbare Abonnements. Hier sind an Audible.de jeden Monat mindestens 9,95&nbsp;€ für zwei Downloads (1 Hörbuch und 1 Audiomagazin-Monatsbezug) zu zahlen. Die Titel muss man im Monat auch aufbrauchen. Jedoch kann man sich auch schon Titel vormerken, die dann ggf. automatisch gekauft werden. Für den Abschluss von Verträgen mit längeren Laufzeiten gibt es (zumindest für Neukunden) Prämien (MP3-Player). Man kann aber auch einzelne Hörbücher/Magazine kaufen (oft nicht so günstig wie im Abonnement, aber fast immer noch günstiger als der CD-Kauf) oder der Kauf von Dateien ohne DRM.
+
+==Nutzungs-Rechte (DRM) und -Möglichkeiten==
+Über die Webseite laden sich die Mitglieder die Audiotitel über das Internet auf ihren Computer herunter. Von Computer aus können sie dann mittels der Audible Software (oder PDAs etc.), welche das CD gebrannt und über DRM-Systemen ist das von Audible als recht liberal einzustufen. Allerdings kann es zu Problemen mit mobilen Abspielgeräten kommen, wenn man auch noch andere DRM-Systeme gleichzeitig nutzt.
+
+==Das Audible Format (.aa)==
+Das Audible Dateiformat wurde speziell für gesprochene Audioinhalte (Hörbücher, Audiomagazine, etc.) entwickelt. Streng genommen ist es kein eigenes Kompressionsformat, sondern ein MP3 im  audible-proprietären .aa-DRM-Container.
+
+===Aufteilung und Einteilung der Dateien===
+Es gibt nicht viele kleine Dateien, sondern der Nutzer bekommt eine einzelne Datei pro Titel oder bei langen Hörbüchern einzelne 'Parts' mit jeweils 5 bis zu über 10 Stunden Länge. Diese Dateien sind jeweils in sogenannte Kapitel eingeteilt, zwischen den man 'blättern' kann. Die Aufteilung und Einteilung in Dateien basiert im Idealfall nicht auf der CD oder CD-Track Struktur. Allerdings gibt es noch immer (insbesondere ältere) Titel, die nicht nach dem Inhalt, also nicht nach der Einteilung des gedruckten Buches richten. Positive Gegenbeispiele für eine gelungene Einteilung gibt es aber auch. Dies sind z. B. die englischen ungekürzten Hörbuch-Ausgaben von The Lord of the Rings oder (bis auf die einleitenden Kapitel) von der Churchill Biographie von Roy Jenkins. Auch falls die Einteilung der Titel der inhaltlichen Einteilung der geschriebenen Büchern in Kapitel folgt, so sind die Kapitel jedoch nur mit Zahlen und nicht mit Überschriften bezeichnet. Ein Inhaltsverzeichnis der Kapitel wird bislang auch nicht mitgeliefert, gegebenenfalls kann man sich am Verzeichnis des gedruckten Buches orientieren. Zudem unterstützt das Audible Dateiformat zusätzliche Merkmale wie automatisch gesetzte Lesezeichen (auch bei mehreren Titeln). 
+
+===Klangqualität und Kompression===
+Insgesamt stehen 4 Qualitätsstufen zur Verfügung: die Audiodateien werden extrem stark komprimiert, so dass der Klang in der besten Qualitätsstufe etwa der einer niederfrequenten (22 kHz) stereo-MP3-Datei mit 64&nbsp;kB/s entspricht und somit weit entfernt davon ist, CD- (44,1 kHz) oder sogar DVD-Niveau (48 kHz) zu erreichen. Die beste Qualitätsstufe (4) ist innerhalb des AA-Containers nichts anderes als ein Mono-MP3 mit einer Bitrate von 32&nbsp;kB/s und einer Samplingfrequenz von 22,050 kHz. Die Dateigrößen sind dadurch zwar sehr gering, für 60 Minuten Wiedergabe in der besten angebotenen Qualität haben sie eine Größe von ca. 15&nbsp;MB, aber ein Download größerer Dateien im Bereich von ca. 100&nbsp;MB, was der Größe eines 60-Minuten-Stückes in MP3-Qualität von 192&nbsp;kB/s entspräche, stellt zumindest für Inhaber von DSL-Internetzugängen kein Problem dar. Audible sagt über das eigene Format, Sprache könne stärker komprimiert werden als Musik, was im Grunde richtig ist, allerdings ist die Klangqualität auch hier bei hohen Komprimierungsraten nicht gut, und es wird dabei nicht berücksichtigt, dass es Hörbücher gibt, die einen hohen Anteil an Musik haben. Man muss aber auch zugestehen, dass sich bei der angesprochenen Audioqualität zuletzt einiges getan hat. Allerdings handelt es sich bei Audible um ein Downloadportal für Hörbücher und Audiomagazine. Der Anteil an Hörspielen ist also sehr gering. Und da zumeist in Hörspielen mit Musik gearbeitet wird, ist das also eher nicht relevant. 
+
+Andere Portale, die Hörbücher anbieten, greifen in der Regel, oft auch wahlweise, auf niedrigere Komprimierungsstufen zurück bzw. bieten Downloads auch mit deutlich besseren Klangeigenschaften an. Liebhaber eines ausgewogenen HiFi-Klangs, der mit Komprimierung zwar nie erreicht wird, aber bei geringen Komprimierungsraten doch an den CD-Klang sehr nah herankommt, kommen bei den hohen Komprimierungsraten von Audible nicht auf ihre Kosten. Es ist ebenfalls nicht möglich, sich im Vorfeld ein Urteil über die Klangqualität eines bestimmten Titels zu machen, da die angebotenen Hörproben generell eine sehr niedrige Tonqualität aufweisen.
+
+==Unternehmen: Geschichte und Konzernstruktur==
+Das Unternehmen Audible Inc. (NASDAQ: ADBL) wurde 1997 von dem US-amerikanischen Bestseller-Autor Donald Katz gegründet. Audible ist Pionier für Hörbuch-Downloads und Erfinder des ersten "Digital Audio"-Players (einem Vorläufer des MP3-Players), der heute im Smithsonian Museum steht. Seither hat sich Audible zur weltweit umfangreichsten Download-Plattform für Hörbücher und weitere Audio-Inhalte wie gesprochene Zeitungs- und Zeitschriftenartikel, Radioinhalte und ausgewählte TV-Formate entwickelt.
+
+{{Infobox Online music service
+| service_name = Audible.com
+| service_logo = Image:Audible.com logo.png
+| opened = 1999
+| pricing = Variable subscription and a la carte
+| platforms = Microsoft Windows, Mac OS, Palm OS, Symbian OS
+| format = AA format (.aa) variable bit rates
+| restrictions = Single burn to media, streaming to authorized devices
+| catalogue = 125,000+ hours of spoken audio programming, or 45,000+ titles
+| preview = 10 minutes
+| streaming = Purchased titles only
+| protocol = Hypertext Transfer Protocol (http://)
+| trial = varies
+| availibility = 
+| features = Bookmarking, Wireless distribution, Wish List, author interviews, free downloads each week
+| support = 
+| homepage = [http://www.audible.com www.audible.com]
+| footnotes = 
+}}
+
+'''Audible.com''' is an Internet provider of spoken audio entertainment, information, and educational programming.
+Audible sells Newark, New Jersey-based company.  The approximately 200-employee company was incorporated in 1995 in Delaware, went public on July 21, 1999.<ref>[http://phx.corporate-ir.net/phoenix.zhtml?c=87484&p=irol-faq Frequently Asked Questions], Audible Inc. Investor Relations</ref> 
+On January 31, 2008 Amazon.com announced it would buy Audible for about $300M.<ref>[http://www.chron.com/disp/story.mpl/ap/fn/5501543.html Amazon to Buy Audible.com in $300M Deal], Houston Chronicle</ref>
+
+==History==
+
+Audible introduced one of the first digital audio players in 1997. The following year it published a Web site from which audio files in its proprietary .aa format could be downloaded. Audible holds a number of patents in this area.
+
+In 2000 Audible licenced the ACELP codec for its level 3 quality downloads.<ref>[http://www.voiceage.com/news1.php Audible Chooses VoiceAge's ACELP.net as Preferred Speech Codec] Recognition of ACELP.net by the Leading Spoken Audio Service on the Web</ref>
+
+In 2003, Audible made an exclusive deal with Apple to provide their catalog of books on the AAC audio covered by Apple's FairPlay Digital Rights Management. 
+
+Its founder, Don Katz,<ref>[http://www.corporate-ir.net/ireye/ir_site.zhtml?ticker=ADBL&script=120&layout=-6&item_id=120578 Donald R. Katz], Management Biography, Audible Inc. Investor Relations</ref> gave a talk on May 9, 2005<ref>[http://www.itconversations.com/shows/detail546.html Don Katz explains Audible.com's history], May 9, 2005 (Direct link to MP3: [http://www.itconversations.com/audio/download/ITConversations-546.mp3])</ref> that is recorded on IT Conversations about the early history of Audible. There is a brief profile<ref>[http://www.audiofilemagazine.com/features/profile0203.cfm Don Katz Profile], AudioFile magazine, February/March 2003</ref> of Katz in AudioFile magazine. Katz gave a Keynote address<ref>[http://www.portablemediaexpo.com/saturday.htm The Podcast and Portable Media Expo Saturday Sessions], November 12, 2005 (Direct link to MP3: [http://tnc.vo.llnwd.net/o2/Keynote7_Katz.mp3])</ref> at the Podcast Expo on November 12, 2005. He was also featured in the March 2006 issue of Business 2.0.<ref>[http://money.cnn.com/magazines/business2/business2_archive/2006/03/01/8370576/ Audible Cranks It Up], Business 2.0, Paul Keegan, February 21, 2006</ref>
+
+In 2005, Audible launched Audible Air, software that makes it possible to download (copy-controlled) audio books over the air - wirelessly and directly to devices such as a smartphone or PDA. This eliminates the need to download copy-controlled audio books first to the PC or Mac and then transfer it to Palm OS, Windows, and Symbian Mobile devices. Audible Air content updates automatically, chapters download as required and delete themselves after they have been listened to.<ref>[http://www.nytimes.com/2005/10/13/technology/circuits/13pogue.html?ex=1286856000&en=d053dcf65181c704&ei=5090 A Marriage of Bookshelf and Phone], New York Times, David Pogue, October 13, 2005</ref>
+
+The company also launched Audible Education, based on the notion that listening to texts can be a powerful way to learn. The service offers lectures, study guides, skill builders, teaching aids, and test preparation resources, across a wide range of subject areas.
+
+==Website, Pricing, and Catalog==
+
+Audible's content includes over 40,000 titles by more than 293 different providers, amounting to over 125,000 hours of audio programming.  <ref>http://www.audible.com Audible Website</ref>  Content includes books of all genres, as well as radio shows (classic and current), speeches, interviews, stand-up comedy, and audio versions of periodicals such as the New York Times and the Wall Street Journal.  
+
+In addition to the regular price charged for audiobooks, Audible offers subscriptions with the following benefits:
+
+* ''Credits'':  For a monthly subscription fee, a customer receives one or two audio credits.  Most titles can be purchased with one of these credits. Some titles (usually larger books or collections of more than one book) may cost two credits, while others (usually very short works) cost only a third of a credit.  (Users may also purchase a year's subscription at a time, for a discount, receiving all credits at once.)  Platinum subscribers also receive a complimentary subscription to the digital audio version of The New York Times or The Wall Street Journal.

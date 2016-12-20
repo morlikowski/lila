@@ -1,0 +1,65 @@
+{{Infobox 有機化合物
+| name=''p''-トルエンスルホン酸
+| 構造式=180px|p-トルエンスルホン酸の構造式
+| IUPAC=4-メチルベンゼンスルホン酸
+| 別名=
+| 分子式=C<SUB>7</SUB>H<SUB>8</SUB>O<sub>3</sub>S
+| 分子量=172.20
+| CAS登録番号=104-15-4
+| 形状=無色固体
+| 密度= | 相=
+| 相対蒸気密度=
+| 融点= 106-107| 融点注=（無水物）
+| 沸点= 140| 沸点注=/20 mmHg
+| SMILES=Cc1ccc(S(=O)(O)=O)cc1
+| 出典=<!--:en:P-Toluenesulfonic acid: mp,bp.-->
+}}
+'''パラトルエンスルホン酸'''（&mdash;さん、''p''-toluenesulfonic acid）は、示性式 CH<sub>3</sub>C<sub>6</sub>H<sub>4</sub>SO<sub>3</sub>H、分子量 172.20の芳香族スルホン酸である。'''トシル酸''' (tosic acid) と通称される。'''TSA'''、TsOH と略記されることもある。室温では白色の固体で、多くは一水和物として市販されている。無水物の CAS登録番号は [104-15-4]、一水和物では [6192-52-5]。水や多くの有機溶媒に可溶で、水溶液は強酸性を示す。
+
+== 製法 ==
+トルエンを、濃硫酸あるいは発煙硫酸の作用によりスルホン化させて合成する。このときに副生物となるオルト体は、サッカリンの原料となる。
+
+== 用途 ==
+有機溶媒に可溶な強酸であること、共役塩基の陰イオン（トルエンスルホナートアニオン、CH<sub>3</sub>C<sub>6</sub>H<sub>4</sub>SO<sub>3</sub><sup>&minus;</sup>）の求核性が低いことなどから、有機合成において酸触媒として多用される。
+
+水酸化ナトリウムで中和するとナトリウム塩が得られ、そこへ五塩化リンを作用させると塩化パラトルエンスルホニルが得られる。
+
+{{Infobox Chemikalie
+ | Strukturformel      = 200px|Struktur von Toluolsulfonsäure
+ | Name                = ''para''-Toluolsulfonsäure
+ | Andere Namen        = * 4-Methylbenzolsulfonsäure
+* TsOH
+* Tosylsäure
+ | Summenformel        = C<sub>7</sub>H<sub>8</sub>O<sub>3</sub>S
+ | CAS                 = 104-15-4 (wasserfrei)<br> 6192-52-5 (Monohydrat)
+ | Beschreibung        = farblose oder violette, stechend riechende Kristalle
+ | Molare Masse        = 172,20 g·mol<sup>−1</sup>
+ | pKs                 = ~ 0,7<ref>[http://www.chemieonline.de/labor/pkx.php?action=liste&typ=2&buchstabe=P ChemieOnline]</ref>
+ | Aggregat            = fest
+ | Dichte              = 1,24 g·cm<sup>−3</sup><ref name="Bia-Gestis"></ref>
+ | Schmelzpunkt        = 106 °C<ref name="Bia-Gestis"/>
+ | Siedepunkt          = 185–187 °C<ref name="Bia-Gestis"/>
+ | Dampfdruck          = 10&nbsp;Pa<ref name="Bia-Gestis"/> (20 °C)
+ | Löslichkeit         = 750 g·l<sup>−1</sup> in Wasser<ref name="Bia-Gestis"/>
+ | Quelle GefStKz      = 
+ | Gefahrensymbole     = 
+ | R                   = 
+ | S                   = 
+ | MAK                 = <!--nicht festgelegt-->
+ | LD50                = 2570 mg·kg<sup>−1</sup> (Monohydrat)<ref>[http://chemdat.merck.de/documents/sds/emd/deu/de/1096/109613.pdf Sicherheitsdatenblatt (Merck)]</ref>
+ | WGK                 = 1 – schwach wassergefährdend
+}}
+
+'''''para''-Toluolsulfonsäure''' ist eine organische Sulfonsäure.  Toluolsulfonsäure bildet ein Monohydrat und ist ein wichtiges Reagenz in der organischen Synthese. Die Salze der Toluolsulfonsäure werden als Tosylate bezeichnet; bsp. Natriumtosylat
+
+== Darstellung ==
+Toluolsulfonsäure lässt sich industriell durch Sulfonierung von Toluol herstellen. Die Aufreinigung erfolgt durch Kristallisation aus Salzsäure und azeotrope Trocknung.
+
+== Eigenschaften ==
+In wässrigen Lösungen ist Toluolsulfonsäure vollständig dissoziiert und hat eine vergleichbare Säurestärke wie Schwefelsäure. Bei Kontakt mit Wasser entstehen unter starker Hitzeentwicklung gefährliche Gase und Dämpfe (u. a. Schwefeldioxid). para-Toluolsulfonsäure zersetzt sich in der Hitze, die Desulfonierungstemperatur liegt bei 188&nbsp;°C.
+
+== Verwendung ==
+Toluolsulfonsäure wird als saurer Katalysator für Acetalisierungen, Veresterungen oder für Dehydratisierungen eingesetzt.
+
+== Toluolsulfonat als Abgangsgruppe ==
+In der präparativen Chemie tritt das nukleophilen Substitutionen auf. 

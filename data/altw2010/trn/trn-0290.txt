@@ -1,0 +1,35 @@
+{{Bio
+|Nome = Giovanni
+|Cognome = Ceva
+|Sesso = M
+|LuogoNascita = Milano
+|GiornoMeseNascita = 7 dicembre
+|AnnoNascita = 1647
+|LuogoMorte = Mantova
+|GiornoMeseMorte = 15 giugno
+|AnnoMorte = 1734
+|Attività = matematico
+|Epoca = 1600
+|Epoca2 = 1700
+|Nazionalità = italiano
+|PostNazionalità = , particolarmente impegnato negli studi relativi alla geometria
+}}
+
+Dopo avere studiato all'Università di Pisa e avere brevemente insegnato in quella città, ottenne una cattedra di matematica presso l'università di Mantova che mantenne per tutta la sua vita, prima sotto i Gonzaga e poi sotto gli Asburgo quando nel 1708 l'impero austriaco annesse il ducato.
+thumb|300px|[[Teorema di Ceva]]
+
+I suoi interessi si sono principalmente rivolti alla teorema che porta il suo nome, su una condizione necessaria e sufficiente perché in un triangolo i tre segmenti costruiti da un vertice al lato opposto (le ''ceviane'') siano concorrenti.
+
+Ceva riscoprì anche il Teorema di Menelao, e studiò la ''trisettrice di Ceva'', la curva di equazione in coordinate polari <math>r = 1 + 2 \sin 2 \phi</math> che permette di trisecare un angolo qualunque. 
+Il Teorema di Ceva stabilisce che le rette <math>(AD)</math>, <math>(BE)</math> y <math>(CF)</math> si incontrano se e solo se
+<center><math> \frac{\overline{BD}}{\overline{CD}}\cdot \frac{\overline{CE}}{\overline{AE}}\cdot \frac{\overline{AF}}{\overline{BF}} = 1</math></center>
+
+La sua attività come geometra, e alcune anticipazioni sul calcolo infinitesimale rendono il suo lavoro ancora attuale ed oggetto di analisi e studio.
+
+'''Giovanni Ceva'''  (Italian mathematician widely known for proving Ceva's theorem in elementary geometry. His brother, Tommaso Ceva was also a well known poet and mathematician.
+
+Ceva received his education at a Jesuit college in Milan. Later in his life, he studied at the University of Pisa, where he subsequently became a professor. In 1686, however, he was designated as the Professor of Mathematics at the University of Mantua and worked there for the rest of his life.
+
+Ceva studied geometry for most of his long life. In 1678, he published a now famous theorem on synthetic geometry in a triangle called Ceva’s Theorem. The theorem states that if you have three line segments drawn from the vertices of a triangle to the opposite side, then the three line segments are concurrent if, and only if, the product of the ratios of the newly created line segments on each side of the triangle is one. He published this new theorem in ''De lineis rectis''.
+
+Ceva not only published his own theorem, but he also rediscovered and published Menelaus's theorem. He published'' Opuscula mathematica'' in 1682 and ''Geometria Motus'' in 1692, as well. In ''Geometria Motus'', he anticipated the infinitesimal calculus. Finally, Ceva wrote ''De Re Nummeraria'' in 1711, which was one of the first books in mathematical economics.

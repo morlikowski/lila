@@ -1,0 +1,76 @@
+'''قرارداد داده‌نگار کاربر''' ، UDP یا User Datagram Protocol یک پرتکل بدون وضعیت و بدون اتصال در لایه Transport مدل مرجع ارتباط سامانه‌های باز بر روی پرتکل اصلی TCP/IP است .
+
+UDP اطلاعات را مانند قرارداد کنترل انتقال از طریق قرارداد اینترنتی (IP) منتقل می‌کند ، اما به دلیل اینکه از Sequence Number و سیستمی مانند Three Way Handshake که در پرتکل Tcp استفاده می‌شود پشتیبانی نمیکند پرتکل چندان قابل اطمینانی نیست‌ ، به این معنا که درستی تحویل پیام‌ها در این پرتکل مورد بررسی قرار نمیگیرد ، UDP از TCP سریع تر و برای مقاصد گوناگون مورد استفاده قرار میگیرد .
+
+معمول‌ترین استفاده از این پرتکل در DNS و SNMP میباشد .
+
+رده:پشته قرارداد TCP/IP
+
+{| class="prettytable float-right"
+|-----
+! bgcolor="#C0C0FF" colspan="2" font="size:larger" | UDP (User Datagram Protocol)
+|-----
+| align="left" | '''Familie:'''
+| align="left" | Internetprotokollfamilie
+|-----
+| align="left" | '''Einsatzgebiet:'''
+| align="left" | Verbindungslose Übertragung<br />von Daten über das Internet
+|-----
+| align="center" colspan="2" |
+DNS|A2=Dynamic Host Configuration ProtocolDHCP|}}
+|-----
+| align="left" | '''Standards:'''
+| align="left" |
+RFC 768 (1980)
+|}
+
+Das '''User Datagram Protocol''' (Abk. '''UDP''') ist ein minimales, verbindungsloses Netzprotokoll, das zur Transportschicht der Internetprotokollfamilie gehört. Aufgabe von UDP ist es, Daten, die über das Internet übertragen werden, der richtigen Anwendung zukommen zu lassen.
+
+Die Entwicklung von UDP begann 1977, als man für die Übertragung von Sprache ein einfacheres Protokoll benötigte als das bisherige verbindungsorientierte TCP. Es wurde ein Protokoll benötigt, das nur für die Adressierung zuständig war, ohne die Datenübertragung zu sichern, da dies zu Verzögerungen bei der Sprachübertragung führen würde.
+
+== Funktionsweise ==
+Um die Daten, die mit UDP versendet werden, dem richtigen Programm auf dem Zielrechner zukommen zu lassen, werden bei UDP so genannte Ports verwendet. Dazu wird bei UDP die Portnummer des Dienstes mitgesendet, der die Daten erhalten soll. Diese Erweiterung der Host-zu-Host- auf eine Prozess-zu-Prozess-Übertragung wird als Anwendungsmultiplexen und -demultiplexen bezeichnet.
+
+Zusätzlich bietet UDP die Möglichkeit einer Integritätsüberprüfung an, indem eine Prüfsumme mitgesendet wird. Dadurch kann eine fehlerhafte Übertragung erkannt werden.
+
+== Eigenschaften ==
+UDP stellt einen verbindungslosen, nicht-zuverlässigen Übertragungsdienst bereit. Das bedeutet, dass es keine Garantie gibt, dass ein einmal gesendetes Paket auch ankommt, dass Pakete in der gleichen Reihenfolge ankommen, in der sie gesendet wurden oder dass ein Paket nur ein Mal am Empfänger eintrifft. Eine Anwendung, die UDP nutzt, muss daher gegenüber verloren gegangenen und unsortierten Paketen unempfindlich sein oder selbst entsprechende Korrekturmaßnahmen beinhalten.
+
+Da vor Übertragungsbeginn nicht erst eine Verbindung aufgebaut werden muss, können die Hosts schneller mit dem Datenaustausch beginnen. Dies fällt vor allem bei Anwendungen ins Gewicht, bei denen nur kleine Datenmengen ausgetauscht werden müssen. Einfache Frage-Antwort-Protokolle wie das Overhead erzeugen.
+
+Daneben bietet die ungesicherte Übertragung auch den Vorteil von geringen Übertragungsverzögerungsschwankungen: Geht bei einer TCP-Verbindung ein Paket verloren, so wird es automatisch erneut angefordert. Dies braucht Zeit, die Übertragungsdauer kann daher schwanken, was für Multimediaanwendungen schlecht ist. Bei VoIP z.&nbsp;B. würde es zu plötzlichen Aussetzern kommen bzw. die Wiedergabepuffer müssten größer angelegt werden. Bei verbindungslosen Kommunikationsdiensten bringen verlorengegangene Pakete dagegen nicht die gesamte Übertragung ins Stocken sondern vermindern lediglich die Qualität.
+
+UDP übernimmt die Eigenschaften der darunterliegenden Vermittlungsschicht. Im Falle des fragmentiert übertragen.
+
+IP löscht Pakete etwa bei Übertragungsfehlern oder bei Überlast. Datagramme können daher fehlen. UDP bietet hierfür keine Erkennungs- oder Korrekturmechanismen wie etwa TCP. Im Falle von mehreren möglichen Routen zum Ziel kann IP bei Bedarf neue Wege wählen. Hierdurch ist es in seltenen Fällen möglich, dass später gesendete Daten früher gesendete überholen. Außerdem ist es möglich, dass ein einmal abgesendetes Datenpaket mehrmals beim Empfänger eintrifft.
+
+== UDP-Datagramm ==
+
+Neben den zu übertragenden Nutzdaten werden weitere Informationen mitgesendet, die sich immer am Anfang einer UDP Botschaft befinden, im sogenannten Header:
+
+{| cellpadding="5" cellspacing="1" width="50%" align="center"
+| align="left" | 0
+| align="left" | 8
+| align="left" | 16
+| align="center" | 24
+| align="right" | 31
+|-----
+| colspan="2" style="border:1px solid black;" align="center" width="50%" | Quell-Port
+| colspan=3 style="border:1px solid black;" align="center" | Ziel-Port
+|-----
+| colspan="2" style="border:1px solid black;" align="center" width="50%" | Länge
+| colspan=3 style="border:1px solid black;" align="center" | Prüfsumme
+|-----
+| colspan="5" style="border:1px solid black;" align="center" | Daten
+|}
+
+Der UDP-Header besteht aus vier Datenfeldern, die alle jeweils 16 Bit groß sind:
+
+* Der '''Quell-Port''' gibt die Portnummer des sendenden Prozesses an. Diese Information wird benötigt, damit der Empfänger auf das Paket antworten kann. Da UDP verbindungslos ist, ist der Quell-Port optional und kann auf den Wert "0" gesetzt werden.
+* Der '''Zielport''' gibt an, welcher Prozess das Paket empfangen soll.
+* Das '''Längenfeld''' gibt die Größe des Paketes, bestehend aus den Daten und dem Header, in Oktetten an. Der kleinstmögliche Wert sind 8 Oktette.
+* In dem '''Prüfsummenfeld''' kann eine 16 Bit große Prüfsumme mitgesendet werden. Die Prüfsumme wird über den Header, den so genannten ''Pseudo-Header'' und die Daten gebildet. Die Prüfsumme ist optional, wird aber in der Praxis fast immer benutzt (falls nicht, wird diese auf "0" gesetzt).
+
+=== Pseudo-Header ===
+
+Für die Übertragung des UDP-Paketes ist das  Internet Protokoll (IP) vorgesehen. Dieses Protokoll setzt vor das UDP-Paket seinerseits einen weiteren Header, in dem sich die von IP benötigten Daten befinden:

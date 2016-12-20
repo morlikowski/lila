@@ -1,0 +1,211 @@
+==L==
+
+Format of entries is:
+* '''IATA''' (ICAO) &ndash; Airport Name &ndash; Airport Location
+
+===LA===
+* '''LAA''' (KLAA) &ndash; Lamar Municipal Airport &ndash; Lamar, Colorado, United States
+* '''LAE''' (AYNZ) &ndash; Lae Nadzab Airport &ndash; Lae, Papua New Guinea, Papua New Guinea
+* '''LAF''' (KLAF) &ndash; Purdue University Airport &ndash; West Lafayette, Indiana, United States
+* '''LAI''' (LFRO) &ndash; Lannion - Côte de Granit Airport &ndash; Lannion, France
+* '''LAL''' (KLAL) &ndash; Lakeland Linder Regional Airport &ndash; Lakeland, Florida, United States
+* '''LAM''' (KLAM) &ndash; Los Alamos Airport &ndash; Los Alamos, New Mexico, United States
+* '''LAN''' (KLAN) &ndash; Lansing Capital City Airport &ndash; Lansing, Michigan, United States
+* '''LAP''' (MMLP) &ndash; Manuel Márquez de León International Airport &ndash; La Paz, Baja California Sur, Mexico
+* '''LAR''' (KLAR) &ndash; Laramie Regional Airport &ndash; Laramie, Wyoming, United States
+* '''LAS''' (KLAS) &ndash; McCarran International Airport &ndash; Las Vegas, Nevada, United States
+* '''LAW''' (KLAW) &ndash; Lawton-Fort Sill Regional Airport &ndash; Lawton, Oklahoma, United States
+* '''LAX''' (KLAX) &ndash; Los Angeles International Airport &ndash; Los Angeles, California, United States
+* '''LAD''' () &ndash; Luanda Airport &ndash; Angola, Africa
+
+===LB===
+* '''LBA''' (EGNM) &ndash; Leeds Bradford International Airport &ndash; West Yorkshire, United Kingdom
+* '''LBB''' (KLBB) &ndash; Lubbock Preston Smith International Airport &ndash; Lubbock, Texas, United States
+* '''LBC''' (EDHL) &ndash; Lübeck Airport &ndash; Lübeck (near Hamburg), Germany
+* '''LBE''' (KLBE) &ndash; Pittsburgh
+* '''LBF''' (KLBF) &ndash; North Platte Regional Airport (Lee Bird Field) &ndash; North Platte, Nebraska, United States
+* '''LBG''' (LFPB) &ndash; Paris - Le Bourget Airport &ndash; Le Bourget, France
+* '''LBI''' (LFCI) &ndash; Le Sequestre Airport &ndash; Albi (near Paris), France
+* '''LBJ''' (WATO) &ndash; Komodo Airport &ndash; Labuan Bajo, Flores, East Nusa Tenggara province, Indonesia
+* '''LBL''' (KLBL) &ndash; Liberal Municipal Airport &ndash; Liberal, Kansas, United States
+* '''LBO''' (KLBO) &ndash; Floyd W. Jones Lebanon Airport &ndash; Lebanon, Missouri, United States
+* '''LBR''' (KLBR) &ndash; Clarksville/Red River County Airport (J.D. Trissell Field) &ndash; Clarksville, Texas, United States
+* '''LBT''' (KLBT) &ndash; Lumberton Municipal Airport &ndash; Lumberton, North Carolina, United States
+* '''LBV''' (FOOL) &ndash; Leon M'Ba International Airport &ndash; Libreville, Gabon
+* '''LBX''' (KLBX) &ndash; Angleton/Lake Jackson, Texas, United States
+
+===LC===
+* '''LCA''' (LCLK) &ndash; Larnaca International Airport &ndash; Larnaca, Cyprus
+* '''LCG''' (KLCG) &ndash; Wayne Municipal Airport &ndash; Wayne, Nebraska, United States
+* '''LCG''' (LECO) &ndash; La Coruña Airport &ndash; La Coruña, Spain
+* '''LCH''' (KLCH) &ndash; Lake Charles Regional Airport &ndash; Lake Charles, Louisiana, United States
+* '''LCI''' (KLCI) &ndash; Laconia Municipal Airport &ndash; Laconia, New Hampshire, United States
+* '''LCJ''' (EPLL) &ndash; Łódź Władysław Reymont Airport &ndash; Łódź, Poland
+* '''LCK''' (KLCK) &ndash; Rickenbacker International Airport &ndash; Columbus, Ohio, United States
+* '''LCQ''' (KLCQ) &ndash; Lake City Municipal Airport &ndash; Lake City, Florida, United States
+* '''LCR''' &ndash; La Chorrera Airport &ndash; La Chorrera, Colombia
+* '''LCY''' (EGLC) &ndash; London City Airport &ndash; London, United Kingdom
+
+===LD===
+* '''LDB''' (SBLO) &ndash; Londrina - Aeroporto de Londrina &ndash; Londrina, Brasil
+* '''LDE''' (LFBT) &ndash; Tarbes - Lourdes Pyrenees Airport &ndash; Lourdes, France
+* '''LDJ''' (KLDJ) &ndash; Linden Airport &ndash; Linden, New Jersey, United States
+* '''LDK''' (ESGL) &ndash; Lidköping-Hovby Airport &ndash; Lidköping, Sweden
+* '''LDM''' (KLDM) &ndash; Mason County Airport &ndash; Ludington, Michigan, United States
+* '''LDO''' &ndash; Ladouanie Airport &ndash; Ladouanie, Suriname
+* '''LDY''' (EGAE) &ndash; City of Derry Airport <small>(Londonderry Eglinton Airport)</small> &ndash; Derry, Northern Ireland
+
+===LE===
+* '''LEA''' (YPLM) &ndash; Learmonth Airport &ndash; Exmouth, Western Australia, Australia
+* '''LEB''' (KLEB) &ndash; Lebanon Municipal Airport &ndash; Lebanon, New Hampshire, United States
+* '''LED''' (ULLI) &ndash; Pulkovo Airport, Rzhevka Airport &ndash; Saint Petersburg, Russia
+* '''LEE''' (KLEE) &ndash; Leesburg International Airport &ndash; Leesburg, Florida, United States
+* '''LEH''' (LFOH) &ndash; Le Havre Octeville Airport &ndash; Le Havre, France
+* '''LEI''' (LEAM) &ndash; Almería International Airport &ndash; Almería, Spain
+* '''LEJ''' (EDDP) &ndash; Leipzig/Halle Airport &ndash; Leipzig, Germany
+* '''LEM''' (KLEM) &ndash; Lemmon Municipal Airport &ndash; Lemmon, South Dakota, United States
+* '''LET''' (SKLT) &ndash; Leticia General Alfredo Vasquez Cobo International Airport &ndash; Leticia, Colombia
+* '''LEW''' (KLEW) &ndash; Auburn/Lewiston, Maine, United States
+* '''LEX''' (KLEX) &ndash; Blue Grass Airport &ndash; Lexington, Kentucky, United States
+* '''LEY''' (EHLE) &ndash; Lelystad Airport &ndash; Lelystad, The Netherlands
+
+===LF===
+* '''LFI''' (KLFI) &ndash; Langley Air Force Base &ndash; Hampton, Virginia, United States
+* '''LFK''' (KLFK) &ndash; Angelina County Airport &ndash; Lufkin, Texas, United States
+* '''LFR''' (SVLF) &ndash; La Fria Airport &ndash; La Fria, Venezuela
+* '''LFT''' (KLFT) &ndash; Lafayette Regional Airport &ndash; Lafayette, Louisiana, United States
+* '''LFW''' (DXXX) &ndash; Lome Tokoin Airport &ndash; Lome, Togo
+
+===LG===
+* '''LGA''' (KLGA) &ndash; USA
+* '''LGB''' (KLGB) &ndash; USA
+* '''LGG''' (EBLG) &ndash; Liège Airport &ndash; Liège, Wallonia, Belgium
+* '''LGQ''' (SENL) &ndash; Lago Agrio Airport &ndash; Nueva Loja, Ecuador
+* '''LGS''' (SAMM) &ndash; Malargue International Airport &ndash; Malargue, Mendoza, Argentina
+* '''LGW''' (EGKK) &ndash; London Gatwick Airport &ndash; London, United Kingdom
+
+===LH===
+* '''LHA''' (EDTL) &ndash; Black Forest Airport &ndash; Lahr, Germany
+* '''LHB''' (KLHB) &ndash; Hearne Municipal Airport &ndash; Hearne, Texas, United States
+* '''LHE''' (OPLA) &ndash; Allama Iqbal International Airport &ndash; Lahore, Pakistan
+* '''LHM''' (KLHM) &ndash; Lincoln Regional Airport (Karl Harder Field) &ndash; Lincoln, California, United States
+* '''LHR''' (EGLL) &ndash; London Heathrow Airport &ndash; London, United Kingdom
+* '''LHV''' (KLHV) &ndash; William T. Piper Memorial Airport &ndash; Lock Haven, Pennsylvania, United States
+* '''LHW''' (KLHW) &ndash; Wright Army Airfield &ndash; Fort Stewart, Hinesville, Georgia, United States
+* '''LHX''' (KLHX) &ndash; La Junta Municipal Airport &ndash; La Junta, Colorado, United States
+* '''LHZ''' (KLHZ) &ndash; Franklin County Airport &ndash; Louisburg, North Carolina, United States
+
+===LI===
+<!-- * '''LIA''' &ndash; Lima Allen County Airport &ndash; Lima, Ohio, United States (see AOH/KAOH) -->
+* '''LIB''' &ndash; Limbunya, Northern Territory, Australia
+* '''LIC''' (KLIC) &ndash; Limon Municipal Airport &ndash; Limon, Colorado, United States
+* '''LID''' &ndash; Leiden, Netherlands
+* '''LIG''' (LFBL) &ndash; Bellegarde Airport &ndash; Limoges, France
+* '''LIH''' (PHLI) &ndash; Lihue Airport &ndash; Lihue, Hawaii, United States
+* '''LIM''' (SPIM) &ndash; Lima), Peru
+* '''LIN''' (LIML) &ndash; Linate Airport &ndash; Milan, Italy
+* '''LIR''' (MRLB) &ndash; Daniel Oduber Quiros International Airport &ndash; Liberia, Costa Rica
+* '''LIS''' (LPPT) &ndash; Portela Airport &ndash; Lisbon, Portugal
+* '''LIT''' (KLIT) &ndash; Little Rock National Airport (Adams Field) &ndash; Little Rock, Arkansas, United States
+* '''LIU''' (KLIU) &ndash; Littlefield Municipal Airport &ndash; Littlefield, Texas, United States
+
+===LJ===
+* '''LJF''' (KLJF) &ndash; Litchfield Municipal Airport &ndash; Litchfield, Minnesota, United States
+* '''LJU''' (LJLJ) &ndash; Brnik Airport &ndash; Ljubljana, Slovenia
+
+===LK===
+* '''LKK''' (PAKL) &ndash; Kulik Lake Airport &ndash; Kulik Lake, Alaska, United States
+* '''LKL''' (ENNA) &ndash; Lakselv Airport, Banak &ndash; Lakselv, Norway
+* '''LKN''' (ENLK) &ndash; Leknes Airport &ndash; Leknes, Norway
+* '''LKO''' (VILK) &ndash; Amausi Airport &ndash; Lucknow, India
+* '''LKP''' (KLKP) &ndash; Lake Placid Airport &ndash; Lake Placid, New York, United States
+* '''LKR''' (KLKR) &ndash; Lancaster County Airport (McWhirter Field) &ndash; Lancaster, South Carolina, United States
+* '''LKU''' (KLKU) &ndash; Louisa County Airport (Freeman Field) &ndash; Louisa, Virginia, United States
+* '''LKV''' (KLKV) &ndash; Lake County Airport &ndash; Lakeview, Oregon, United States
+* '''LXV''' (KLXV) &ndash; Lake County Airport (Leadville Airport) &ndash; Leadville, Colorado, United States
+
+===LL===
+* '''LLA''' (ESPA) &ndash; Luleå Airport &ndash; Luleå, Sweden
+* '''LLW''' (FWKI) &ndash; Lilongwe International Airport &ndash; Lilongwe, Malawi
+* '''LLX''' (&nbsp;) &ndash; Caledonia County Airport &ndash; Lyndonville, Vermont, United States
+* '''LLY''' (KVAY) &ndash; South Jersey Regional Airport &ndash; Mount Holly, New Jersey, United States
+
+===LM===
+* '''LMC''' &ndash; La Macarena Airport &ndash; La Macarena, Colombia
+* '''LMM''' (MMLM) &ndash; Federal del Valle del Fuerte International Airport &ndash; Los Mochis, Mexico
+* '''LMP''' (LICD) &ndash; Lampedusa Airport &ndash; Lampedusa, Italy
+* '''LMS''' (KLMS) &ndash; Louisville Winston County Airport &ndash; Louisville, Mississippi, United States
+* '''LMT''' (KLMT) &ndash; Klamath Falls Airport &ndash; Klamath Falls, Oregon, United States
+
+==L==
+* LST - Saint-Tropez, Francja
+* LAD - Luanda, Angola
+* LAN - USA
+* LAO - Laoag, Filipiny
+* LAP - La Paz, Meksyk
+* LAS - ''McCarran'', USA
+* LAX - USA
+* LBA - Bradford,  West Yorkshire, Wielka Brytania
+* LBB - USA
+* LBC - Lubeka, Niemcy
+* LBG - ''Le Bourget'', Paryż, Francja
+* LBI - Albi, Francja
+* LBV - Libreville, Gabon
+* LCA - Larnaka, Cypr
+* LCJ - Łódź, Polska
+* LCY - Londyn, Wielka Brytania
+* LDE - Lourdes, Francja
+* LEA - Exmouth, Australia
+* LED - ''Pułkowo'', Sankt Petersburg, Rosja
+* LEJ - Lipsk/Halle, Niemcy
+* LEN - León, Hiszpania
+* LEX - Lexington, USA
+* LFT - USA
+* LFW - Lomé, Togo
+* LGA - ''La Guardia '', |Nowego Jorku, USA,
+* LGB - Long Beach k/USA
+* LGG - Liège, Belgia
+* LGP - Legazpi, Filipiny
+* LGW - ''Gatwick'', k/Londynu, Wielka Brytania
+* LGX - Lugh Ganane, Somalia
+* LHE - ''Allama Iqbal'', Lahaur, Pakistan
+* LHR - ''Heathrow'', Londyn, Wielka Brytania
+* LIA - Lima, USA
+* LIG - Limoges, Francja
+* LIH - Hawaje, USA
+* LIM - ''Jorge Chavez'', Limy, Peru
+* LIN - ''Linate'', Mediolan, Włochy
+* LIR - ''Daniel Oduber Quiros'', Liberia, Kostaryka
+* LIS - ''Portela'', Lizbona, Portugalia
+* LIT - Little Rock, USA
+* LJU - Lublany, Słowenia
+* LKO - Lucknow, Indie
+* LKR - Las Khoreh, Somalia
+* LLH - Las Limas, Honduras
+* LLI - Lalibela, Etiopia
+* LLW - Lilongwe, Malawi
+* LMM - Los Mochis, Meksyk
+* LNZ - Linz, Austria
+* LON - wszystkie lotniska w Londynie, Wielka Brytania
+* LOS - ''Murtala Muhammed'', Lagos, Nigeria
+* LOU - Louisville, USA 
+* LOV - Monclova, Meksyk
+* LPA - Gran Canaria,Wyspy Kanaryjskie, Hiszpania
+* LPL - ''John Lennon'', Liverpool, Wielka Brytania
+* LPX - Lipawa, Łotwa
+* LRD - Laredo, USA
+* LRM - La Romana, Dominikana
+* LRT - Lorient, Francja
+* LSI - Sumburgh, Szetlandy, Wielka Brytania
+* LST - Launceston, Australia
+* LTO - Loreto, Meksyk
+* LTN - ''Luton'' k/ Londynu, Wielka Brytania
+* LUD - Lüderitz, Namibia
+* LUG - Lugano, Szwajcaria
+* LUN - Lusaka, Zambia
+* LUX - ''Findel'' k/Luksemburga, Luksemburg
+* LWB - Lewisburg, USA
+* LWO - Lwów, Ukraina
+* LXR - Luksor, Egipt
+* LYH - Lynchburg, USA
+* LYS - ''Antoine Saint-Exupéry'' Lyon, Francja

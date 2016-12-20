@@ -1,0 +1,61 @@
+The '''semantic theory of truth''' holds that any assertion that a sentence is true can be made only as a formal requirement regarding the language in which the proposition itself is expressed. 
+
+==Origin==
+The correspondence and deflationary conceptions, is due to work published by Polish Gödel's Incompleteness Theorem. Roughly, this states that the concept of "truth" for the sentences of a given language cannot consistently be defined ''within'' that language.
+
+==Tarski's Theory==
+The following is adapted from Kirkham, 1992.
+
+To formulate linguistic theories without semantic paradoxes like the liar paradox, it is generally necessary to distinguish the language that one is talking about, the so-called ''object language'', from the language that one is using, the so-called ''metalanguage''.  In the following, quoted sentences like "''P''" are always sentences of the object language.  Everything not in quotation is part of the metalanguage.  Tarski's ''material adequacy condition'', also known as ''Convention T'' or the ''T-schema'', holds that any viable theory of truth must entail, for every sentence ''P'' of a language, that:
+
+(1) "P" is true if, and only if, ''p''.
+
+(where ''p'' abbreviates, in the metalanguage, the proposition expressed by the sentence "P" of the object language.)
+
+For example, 
+
+(2) "Snow is white" is true if and only if snow is white.
+
+The first half of (2) is about the ''sentence'', "Snow is white".  The second half is about snow.  These sentences (1 and 2, etc.) have come to be called the "T-sentences".  The reason they look trivial is that the object-language and the metalanguage are both English.  But this would also be a T-sentence: 
+
+(3) "Der Schnee ist weiß" is true (in German) if and only if snow is white.
+
+It is important to note that as Tarski originally formulated it, this theory applies only to Davidson into an approach to theories of ''meaning'' for natural languages, which involves treating "truth" as a primitive, rather than a defined concept.  (See truth-conditional semantics.)
+
+Tarski developed the theory, to give an inductive definition of truth, as follows.
+
+For a language ''L'' containing ~ ("not"), & ("and"), v ("or") and quantifiers ("for all" and "there exists"), Tarski's inductive definition of truth looks like this:
+
+*(i) A negation ~A is true if and only if A is not true.
+
+*(ii) A conjunction A&B is true if and only if A is true and B is true.
+
+'''真理的语义理论'''声称对某个真的的任何断言，可以只作为形式上的需要而做出来，不管表达命题自身用了什么语言。 
+
+真理的语义概念，以不同的方式同符合和紧缩的概念有关，是由波兰逻辑学家 Alfred Tarski 在1930年代出版的著作引发的。Tarski 在《On the Concept of Truth in Formal Languages》中尝试公式化一种新的真理的理论来解决谎言者悖论。在其中他做出了很多数学发现，最著名的是Tarski 不可定义性定理，它类似于哥德尔不完备定理。粗略的说，它声称一个给定语言的句子的真理概念不能在这个语言内被一致性的定义出来。
+
+==T-模式==
+
+要公式化有关语言学事情的理论，为了避免语义悖论比如谎言者悖论，区分你谈话用的所谓目标语言和你使用的所谓元语言，一般是必须的。在下面，引用起来的句子如 "''P''" 总是目标语言的句子。所有没有引用起来的东西都是元语言的。Tarski 的'''实质充分条件'''，也叫做'''约定T''' 或'''T-模式'''，声称真理的任何可行的理论必须包含它，对于一个语言的所有句子 ''P'' 有:
+
+(1) "P" 为真，当且仅当 ''p''。
+
+(这里的 ''p'' 简写了由目标语言的句子 "P" 所表达的，元语言中的命题。)
+
+例如
+
+(2) "雪是白的" 为真当且仅当雪是白的。
+
+(2)的前半部分关于句子 "雪是白的"。后半部分关于的是雪。这些句子(1 和 2 等)被叫做 "T-句子"。它们看起来平常的原因是，目标语言和元语言都是英语。而下面的也是 T-句子: 
+
+(3) "Der Schnee ist wei?" 为真(德语)当且仅当雪是白的。
+
+(注意按 Tarski 最初的公式化，这个理论只适用于形式语言是重要的。他感觉自然语言太复杂和不正规而不适合形式处理。但是 Tarski 的方法被 唐纳德·戴维森扩展为自然语言的意义理论的方法，这涉及到把"真理"当作原始的而不是定义的概念。(参见真理条件语义)。
+
+==真理==
+
+Tarski 发展的这个理论，给出了真理的归纳定义为如下。
+
+对于包含 ~ ("非")、& ("与")、v ("或")和量词("所有"和"存在")的语言 ''L''，Tarski 的真理的归纳定义为如下:
+
+*(i) 否定 ~A 为真当且仅当 A 不为真。

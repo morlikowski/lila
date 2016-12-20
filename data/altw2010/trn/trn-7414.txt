@@ -1,0 +1,70 @@
+'''Індекс цін виробників промислової продукції''' (ІЦВ) є показником зміни цін у часі у сфері промислового виробництва. ІЦВ дозволяє відслідковувати та визначати тенденції змін цін як за видами економічної діяльності, так і виробництві конкретної продукції. Він використовується при створенні інформаційної бази для прогнозування і управління процесами ціноутворення у промисловості, перерахунку показників системи національних рахунків у постійні ціни та забезпечує можливість проведення міжнародних співставлень.
+
+==Методика розрахунку==
+Побудова ІЦВ складається з наступних етапів: 
+* відбір товарів-представників;
+* відбір базових підприємств, на яких проводиться спостереження за цінами виробників;
+* визначення порядку збору цінової інформації;
+* формування бази зважування;
+* визначення формули розрахунку ІЦВ;
+* розрахунки індивідуальних та зведених індексів цін.
+
+===Принципи відбору товарів-представників===
+
+Основним принципом відбору товарів-представників для реєстрації цін є їх репрезентативність для характеристики динаміки цін за видами економічної діяльності.
+
+Для забезпечення репрезентативності індексів цін за видами економічної діяльності вартість випуску товарів-представників повинна складати не менше половини вартості випуску товарної продукції кожного виду економічної діяльності. 
+
+Відбір товарів-представників для реєстрації цін проводиться у два етапи. 
+
+Централізовано формується перелік товарів-представників, необхідних для розрахунку ІЦВ на державному рівні і репрезентативних для характеристики видів економічної діяльності країни. Перелік товарів-представників доводиться до територіальних органів державної статистики для обов’язкового включення в спостереження.
+
+Територіальні органи державної статистики, з урахуванням обсягів виробленої у регіоні продукції, доповнюють перелік товарами-представниками, обсяги виробництва яких більш повно характеризують специфіку регіону. 
+
+В основу методології розрахунку індексів цін покладене припущення, що зміни цін виробників на відібрані для обстеження види товарів і товари, що не увійшли у вибірку, але належать до цієї ж товарної групи, мають однакові тенденції. 
+
+Критерієм репрезентативності відібраних для реєстрації видів товарів є показник питомої ваги. Вартість випуску окремих видів товарів має складати не менше 50% вартості випуску товарної групи, до якої вони належать. При цьому важливо, щоб вироби, відібрані для обстеження, найкраще відображали зміни цін усієї продукції, яку виробляє підприємство.
+
+Відбір конкретних виробів (марок, артикулів) здійснюється працівниками територіальних органів державної статистики разом з фахівцями підрозділів відповідних підприємств. 
+
+===Відбір базових підприємств===
+
+Спостереження за змінами цін виробників промислової продукції проводиться по відібраному колу базових промислових підприємств різних форм власності і організаційно-правових форм. 
+
+Відбір базових підприємств здійснюється таким чином:
+
+* централізовано визначаються підприємства, які мають значну питому вагу у виробництві товарів-представників, відібраних для розрахунку ІЦВ на державному рівні;
+
+* територіальні органи державної статистики додатково включають у цей перелік підприємства, які характеризують виробництво товарів-представників, відібраних для розрахунку ІЦВ на регіональному рівні.
+
+===Порядок збору цінової інформації===
+
+Ціни виробників промислової продукції - це ціни, що фактично склалися на 20 число звітного місяця на продукцію, призначену для реалізації на внутрішньому та зовнішньому ринках без податку на додану вартість та акцизного збору.
+
+Інформацію про ціни виробників промислової продукції підприємства надають за формою державної статистичної звітності №1-ціни(пром) “Звіт про ціни виробників промислової продукції” (див. додаток) статистичному органу за місцем знаходження підприємства. В розділі “А” форми має бути наведене повне найменування конкретного виду товару, із зазначенням його марки, артикулу, технічних параметрів. В гр. 1 “Ціна за одиницю у звітному місяці” належить проставити ціну, за якою був реалізований цей вид товару ( марки, артикулу) у звітному місяці. В гр.2 проставляється ціна, за якою був реалізований товар цієї ж марки, артикулу у попередньому місяці. В гр.3 підприємство вказує причини, що вплинули на зміну ціни, якщо вона відбулася. 
+
+The official measure of producer prices in the US is called the '''Federal Government.<ref>BLS Handbook of Methods, Chapter 14 Producer Prices, Background (found online at:http://www.bls.gov/opub/hom/homch14_a.htm)</ref>  The origins of the index can be found in an 1891 U.S. Senate resolution authorizing the Senate Committee on Finance to investigate the effects of the tariff laws “upon the imports and exports, the growth, development, production, and prices of agricultural and manufactured articles at home and abroad.”<ref>Senate Committee on Finance, Wholesale Prices, Wages, and Transportation, Senate Report No. 1394, “The Aldrich Report,” Part I, 52nd Congress, 2d sess., March 3, 1893; and U.S. Department of Labor, Course of Wholesale Prices, l890–1901, Bulletin No. 39, March 1902, pp. 205–09.</ref>
+
+==Scope of the Producer Price Index==
+
+Most of the data is collected through a systematic sampling of producers in manufacturing, mining, and service industries, and is published monthly by the Bureau of Labor Statistics.  Virtually every type of mining and manufacturing industry is currently sampled in the PPI; and a majority of service industries are sampled, with more being constantly added.  
+
+==Data Source==
+
+Respondent participation has been conducted on a voluntary basis from its inception.  The cooperation of survey respondents in providing data is absolutely essential if the Bureau is to succeed in performing its responsibilities as mandated by Congress.  The Bureau, accordingly, is deeply committed to preserving the confidentiality of all data submitted. The data collected by the Bureau of Labor Statistics is strictly confidential.  The Confidential Information Protection and Statistical Efficiency Act of 2002 (Title 5 of Public Law 107-347) protects the confidentiality of the data provided by the respondents.
+
+==Classification==
+
+The Producer Price Index family of indexes consists of several major classification systems, each with its own structure, history, and uses. However, indexes in all classification systems now draw from the same pool of price information provided to the Bureau by cooperating company reporters. The three most important classification structures are industry, commodity, and stage of processing (SOP).<ref>BLS Handbook of Methods, Chapter 14 Producer Prices, Description of Survey (found online at:http://www.bls.gov/opub/hom/homch14_b.htm)</ref>
+
+===Industry===
+
+The PPI for an industry measures the average change in prices received for an industry’s output sold to another industry.  For more than 20 years the PPI used the Standard Industrial Classification (SIC) system to collect and publish data.  This system received criticism for its inability to adapt to changes in the United States economy.  Consequently, the BLS began in January 2004 to publish the PPI data in accordance with the North American Industry Classification System (NAICS).  This system was developed in cooperation with Canada and Mexico, and categorizes producers into industries based on the activity in which they are primarily engaged.
+
+===Commodity===
+
+The PPI commodity index organizes products by similarity of end use or material composition. This system is unique to the PPI and does not match any other standard coding structure, such as the SIC or the U.N. Standard International Trade Classification (SITC). Historical continuity of index series, the needs of index users, and a variety of ad hoc factors were important in developing the PPI commodity classification. 
+
+===Stage of Processing===
+
+The PPI commodity index regroup commodities according to the class of buyer and the amount of physical processing or assembling the products have undergone.  Finished goods are defined as commodities that are ready for sale to the final-demand user—either an individual consumer or a business firm. The category of intermediate materials, supplies, and components consists partly of already processed commodities that still require further processing. Crude materials for further processing are defined as unprocessed commodities not sold directly to consumers

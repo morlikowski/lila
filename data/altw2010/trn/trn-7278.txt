@@ -1,0 +1,267 @@
+{{Íslenskt mannanafn
+| nafn = Herbert
+| kyn = kk
+| nefnifall = Herbert
+| þolfall = Herbert
+| þágufall = Herberti
+| eignarfall = Herberts
+| eiginnöfn = 64
+| millinöfn = 32
+| dagsetning = júlí 2007
+}}
+'''Herbert''' er íslenskt karlmannsnafn.
+
+== Dreifing á Íslandi ==
+
+<timeline>
+ImageSize = width:600 height:320
+PlotArea = left:40 right:10 top:40 bottom:40
+AlignBars = late
+ 
+DateFormat = yyyy
+Period = from:1949 till:2008
+TimeAxis = orientation:horizontal
+ScaleMajor = unit:year increment:5 start:1950
+ 
+Colors =
+  id:canvas    value:white
+  id:fyrsta value: rgb(0.1,0.1,0.7)
+  id:seinna  value: rgb(1,0.7,0)
+ 
+Backgroundcolors = canvas:canvas
+ 
+TextData =
+  pos:(5,310) textcolor:black fontsize:S
+  text:Fjöldi
+  pos:(550,20) textcolor:black fontsize:S
+  text:Ár
+  pos:(250,310) textcolor:black fontsize:M
+  text:Heildarfjöldi nafngifta fyrir karlmannsnafnið Herbert
+  pos:(50,315) textcolor:fyrsta fontsize:S
+  text:fyrsta nafn
+  pos:(50,300) textcolor:seinna fontsize:S
+  text:seinni nöfn
+ 
+BarData =
+  bar:5 text:5
+  bar:4 text:4
+  bar:3 text:3
+  bar:2 text:2
+  bar:1 text:1
+ 
+LineData=
+ color:fyrsta
+ width:5
+ 
+ at:1950 frompos:40 tillpos:140 #2
+ at:1953 frompos:40 tillpos:90 #1
+ at:1955 frompos:40 tillpos:90 #1
+ at:1956 frompos:40 tillpos:240 #4
+ at:1957 frompos:40 tillpos:140 #2
+ at:1959 frompos:40 tillpos:90 #1
+ at:1960 frompos:40 tillpos:140 #2
+ at:1963 frompos:40 tillpos:90 #1
+ at:1964 frompos:40 tillpos:90 #1
+ at:1965 frompos:40 tillpos:90 #1
+ at:1968 frompos:40 tillpos:140 #2
+ at:1969 frompos:40 tillpos:90 #1
+ at:1970 frompos:40 tillpos:90 #1
+ at:1971 frompos:40 tillpos:90 #1
+ at:1973 frompos:40 tillpos:140 #2
+ at:1974 frompos:40 tillpos:90 #1
+ at:1976 frompos:40 tillpos:190 #3
+ at:1978 frompos:40 tillpos:90 #1
+ at:1980 frompos:40 tillpos:90 #1
+ at:1981 frompos:40 tillpos:90 #1
+ at:1984 frompos:40 tillpos:90 #1
+ at:1985 frompos:40 tillpos:90 #1
+ at:1986 frompos:40 tillpos:140 #2
+ at:1987 frompos:40 tillpos:140 #2
+ at:1989 frompos:40 tillpos:90 #1
+ at:1990 frompos:40 tillpos:140 #2
+ at:1991 frompos:40 tillpos:140 #2
+ at:1992 frompos:40 tillpos:90 #1
+ at:2000 frompos:40 tillpos:90 #1
+ at:2003 frompos:40 tillpos:90 #1
+ 
+ color:seinna
+ width:1
+ 
+ at:1950 frompos:40 tillpos:90 #1
+ at:1951 frompos:40 tillpos:90 #1
+ at:1952 frompos:40 tillpos:90 #1
+ at:1953 frompos:40 tillpos:140 #2
+ at:1955 frompos:40 tillpos:190 #3
+ at:1956 frompos:40 tillpos:140 #2
+ at:1957 frompos:40 tillpos:140 #2
+ at:1958 frompos:40 tillpos:90 #1
+ at:1959 frompos:40 tillpos:90 #1
+ at:1960 frompos:40 tillpos:90 #1
+ at:1961 frompos:40 tillpos:140 #2
+ at:1962 frompos:40 tillpos:90 #1
+ at:1963 frompos:40 tillpos:190 #3
+ at:1964 frompos:40 tillpos:90 #1
+ at:1965 frompos:40 tillpos:90 #1
+ at:1966 frompos:40 tillpos:90 #1
+ at:1967 frompos:40 tillpos:90 #1
+ at:1968 frompos:40 tillpos:90 #1
+ at:1973 frompos:40 tillpos:140 #2
+ at:1976 frompos:40 tillpos:90 #1
+ at:1977 frompos:40 tillpos:90 #1
+ at:1983 frompos:40 tillpos:140 #2
+ at:1986 frompos:40 tillpos:90 #1
+ at:1988 frompos:40 tillpos:90 #1
+ at:1996 frompos:40 tillpos:140 #2
+ at:1997 frompos:40 tillpos:90 #1
+ 
+</timeline>
+ 
+<timeline>
+ImageSize = width:600 height:320
+PlotArea = left:40 right:10 top:40 bottom:40
+AlignBars = late
+ 
+DateFormat = yyyy
+Period = from:1949 till:2008
+TimeAxis = orientation:horizontal
+ScaleMajor = unit:year increment:5 start:1950
+ 
+Colors =
+  id:canvas    value:white
+  id:fyrsta value: rgb(0.1,0.1,0.7)
+  id:seinna  value: rgb(1,0.7,0)
+ 
+Backgroundcolors = canvas:canvas
+ 
+TextData =
+  pos:(5,310) textcolor:black fontsize:S
+  text:Hlutfall
+  pos:(550,20) textcolor:black fontsize:S
+  text:Ár
+  pos:(250,310) textcolor:black fontsize:M
+  text:Hlutfall nafngifta fyrir karlmannsnafnið Herbert
+  pos:(50,315) textcolor:fyrsta fontsize:S
+  text:fyrsta nafn
+  pos:(50,300) textcolor:seinna fontsize:S
+  text:seinni nöfn
+ 
+BarData =
+  bar:5 text:1 %
+  bar:4 text:0.8 %
+  bar:3 text:0.6 %
+  bar:2 text:0.4 %
+  bar:1 text:0.2 %
+ 
+LineData=
+ color:fyrsta
+ width:5
+ 
+ at:1950 frompos:40 tillpos:58 #0.07%
+ at:1953 frompos:40 tillpos:48 #0.03%
+ at:1955 frompos:40 tillpos:48 #0.03%
+ at:1956 frompos:40 tillpos:68 #0.11%
+ at:1957 frompos:40 tillpos:53 #0.05%
+ at:1959 frompos:40 tillpos:48 #0.03%
+ at:1960 frompos:40 tillpos:53 #0.05%
+ at:1963 frompos:40 tillpos:48 #0.03%
+ at:1964 frompos:40 tillpos:48 #0.03%
+ at:1965 frompos:40 tillpos:48 #0.03%
+ at:1968 frompos:40 tillpos:53 #0.05%
+ at:1969 frompos:40 tillpos:48 #0.03%
+ at:1970 frompos:40 tillpos:48 #0.03%
+ at:1971 frompos:40 tillpos:48 #0.03%
+ at:1973 frompos:40 tillpos:53 #0.05%
+ at:1974 frompos:40 tillpos:48 #0.03%
+ at:1976 frompos:40 tillpos:58 #0.07%
+ at:1978 frompos:40 tillpos:48 #0.03%
+ at:1980 frompos:40 tillpos:48 #0.03%
+ at:1981 frompos:40 tillpos:48 #0.03%
+ at:1984 frompos:40 tillpos:48 #0.03%
+ at:1985 frompos:40 tillpos:48 #0.03%
+ at:1986 frompos:40 tillpos:53 #0.05%
+ at:1987 frompos:40 tillpos:53 #0.05%
+ at:1989 frompos:40 tillpos:48 #0.03%
+ at:1990 frompos:40 tillpos:53 #0.05%
+ at:1991 frompos:40 tillpos:53 #0.05%
+ at:1992 frompos:40 tillpos:48 #0.03%
+ at:2000 frompos:40 tillpos:48 #0.03%
+ at:2003 frompos:40 tillpos:48 #0.03%
+ 
+ color:seinna
+ width:1
+ 
+ at:1950 frompos:40 tillpos:80 #0.16%
+ at:1951 frompos:40 tillpos:78 #0.15%
+ at:1952 frompos:40 tillpos:70 #0.12%
+ at:1953 frompos:40 tillpos:90 #0.2%
+ at:1955 frompos:40 tillpos:108 #0.27%
+ at:1956 frompos:40 tillpos:83 #0.17%
+ at:1957 frompos:40 tillpos:83 #0.17%
+ at:1958 frompos:40 tillpos:63 #0.09%
+ at:1959 frompos:40 tillpos:60 #0.08%
+ at:1960 frompos:40 tillpos:60 #0.08%
+ at:1961 frompos:40 tillpos:83 #0.17%
+ at:1962 frompos:40 tillpos:60 #0.08%
+ at:1963 frompos:40 tillpos:100 #0.24%
+ at:1964 frompos:40 tillpos:60 #0.08%
+ at:1965 frompos:40 tillpos:60 #0.08%
+ at:1966 frompos:40 tillpos:60 #0.08%
+ at:1967 frompos:40 tillpos:60 #0.08%
+ at:1968 frompos:40 tillpos:60 #0.08%
+ at:1973 frompos:40 tillpos:68 #0.11%
+ at:1976 frompos:40 tillpos:55 #0.06%
+ at:1977 frompos:40 tillpos:58 #0.07%
+ at:1983 frompos:40 tillpos:70 #0.12%
+ at:1986 frompos:40 tillpos:58 #0.07%
+ at:1988 frompos:40 tillpos:55 #0.06%
+ at:1996 frompos:40 tillpos:65 #0.1%
+ at:1997 frompos:40 tillpos:55 #0.06%
+ 
+</timeline>
+
+== Þekktir nafnhafar ==
+* Herbert Guðmundsson tónlistarmaður
+
+'''Herbert''' ist ein männlicher weiblichen Form des Vornamens lautet ''Herberta''.
+
+== Herkunft und Bedeutung ==
+Der Name ''Herbert'', auch ''Heribert'', entstand aus der Zusammensetzung der althochdeutschen Wörter ''„heri“'' für Heer, Krieger und ''„beraht“'' für glänzend, strahlend, berühmt. Herbert bedeutet damit soviel wie ''„das glänzende Heer“'', ''„der strahlende Krieger“'' oder ''„der berühmte Krieger“''.
+
+== Namenstag ==
+* Der 16. März ist der Namenstag von Herbert.
+* 10. Dezember
+
+== Varianten ==
+*''deutsch'': Haribert, Harro, Herbort, Heribert, Bert
+*''englisch'': Herbie, Herb
+*''französisch'': Aribert, Ashbère
+*''italienisch'': Eriberto
+*''lettisch'': Herberts
+*''spanisch'': Heriberto, Herberto
+*''polnisch'': Herborth, Herbort, Herburt
+
+== Bekannte Namensträger ==
+===Vornamen===
+*Herbert Achternbusch (* 1938) deutscher Schriftsteller, Regisseur und Maler
+*Herbert Albrecht (1900−1945), deutscher Politiker (NSDAP)
+*Herbert Biberman (1900-1971), US-amerikanischer Drehbuchautor und Filmregisseur
+*Herbert Brandl (* 1959), österreichischer Maler
+*Herbert Breiteneder (1953−2008), österreichischer Rennfahrer
+*Herbert Eisenreich (1925–1986) österreichischer Schriftsteller
+*Heribert Faßbender (* 1941) deutscher Sportjournalist
+*Herbert Feuerstein (* 1937) deutscher Kabarettist und Entertainer
+*Herbert Grönemeyer (* 1956) deutscher Sänger und Schauspieler
+*Otto Herbert Hajek (1927–2005), tschechischer Maler und Bildhauer
+*Herbert Herrmann, (* 1941), deutscher Schauspieler
+*Herbert Hockemeyer (1909-?), deutscher Sanitätsoffizier
+*Herbert C. Hoover (1874–1964), US-amerikanischer Politiker und 31. US-Präsident
+*Herbert von Karajan (1908–1989), österreichischer Dirigent
+*Herbert Morrison (1905–1989), US-amerikanischer Rundfunk-Journalist
+*Herbert Neumann (* 1953), deutscher Fußballspieler und -Trainer
+*Herbert Prohaska (* 1955), österreichischer Fußballspieler und -trainer
+*Herbert Reindell (1908-1990), deutscher Sportmediziner
+*Karl-Herbert Scheer (1928–1991), deutscher Schriftsteller
+*Herbert Wadsack (1912–2005) österreichischer Schriftsteller
+*Herbert Wehner (1906–1990) deutscher Politiker
+*Herbert George Wells (1866–1946), englischer Schriftsteller
+*Herbert Willi (* 1956), österreichischer Komponist

@@ -1,0 +1,35 @@
+'''Harmonic analysis''' is the branch of mathematics that studies the representation of functions or signals as the superposition of basic waves. It investigates and generalizes the notions of Fourier series and Fourier transforms. The basic waves are called "harmonics"(in physics), hence the name "harmonic analysis," but the name "harmonic" in this context is generalized beyond its original meaning of integer frequency multiples.  In the past two centuries, it has become a vast subject with applications in areas as diverse as signal processing, quantum mechanics, and neuroscience.  
+The classical Fourier transform on '''R'''<sup>''n''</sup> is still an area of ongoing research, particularly concerning Fourier transformation on more general objects such as distribution of compact support (these include functions of compact support), then its Fourier transform is never compactly supported.  This is a very elementary form of an uncertainty principle in a harmonic analysis setting. See also classic harmonic analysis.
+
+Fourier series can be conveniently studied in the context of Hilbert spaces, which provides a connection between harmonic analysis and functional analysis.
+
+==Abstract harmonic analysis==
+
+One of the more modern branches of harmonic analysis, having its roots in the mid-twentieth century, is analysis on functions defined on locally compact Hausdorff groups. 
+
+The theory for abelian locally compact groups is called Pontryagin duality; it is considered to be in a satisfactory state, as far as explaining the main features of harmonic analysis goes. It is developed in detail on its dedicated page.
+
+Harmonic analysis studies the properties of that duality and Fourier transform; and attempts to extend those features to different settings, for instance to the case of non-abelian Lie groups. 
+
+For general nonabelian locally compact groups, harmonic analysis is closely related to the theory of unitary group representations.  For compact groups,
+the group structure.
+
+If the group is neither abelian nor compact, no general satisfactory theory is currently known. By "satisfactory" one would mean ''at least'' the equivalent of SL<sub>''n''</sub>. In this case, it turns out that representations in infinite dimension play a crucial role.
+
+==Other branches==
+
+L''''analyse harmonique''', ou '''analyse de Fourier''', est la branche des traitement des signaux, mécanique quantique, neurosciences, stratigraphie...
+
+L'analyse harmonique, historiquement liée au développement de la théorie des séries de Fourier, a reçu un ensemble de généralisations modernes, notamment grâce aux travaux de l'école russe de Guelfand, qui la situe dans un contexte très général et abstrait: par exemple l'analyse harmonique sur les groupes de Lie.
+
+== Séries et transformées de Fourier ==
+
+Les spectre, de la fonction. Puis, suivant les hypothèses faites sur la fonction et le cadre d'analyse choisi, on peut disposer de théorèmes permettant de recomposer ''f''.
+
+Un bon cadre d'étude pour les séries de Fourier est celui des espaces de Hilbert, ce qui fournit un lien entre analyse fonctionnelle.
+
+La spectre en fréquences. On cherche alors à décomposer une fonction quelconque en « somme infinie de fonctions trigonométriques » de toutes fréquences. Une telle sommation se présentera donc sous forme d'intégrale. 
+
+La transformée de Fourier classique sur '''R<sup>n</sup>''' est encore un domaine de recherche actif, en particulier la transformation de Fourier sur des objets plus généraux comme les distributions tempérées. Par exemple, si nous imposons des contraintes à une distribution ''f'', nous pouvons les traduire sur sa transformée de Fourier. Le relations d'incertitudes de Heisenberg.
+
+==Analyse harmonique abstraite==

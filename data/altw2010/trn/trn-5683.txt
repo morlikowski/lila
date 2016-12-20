@@ -1,0 +1,43 @@
+{{Infobox Software
+| name                   = Links
+| logo                   = 
+| screenshot             = 200px|Graphical Links 2 displaying the Wikipedia Main Page<br/><br/>200px|Links displaying the Wikipedia Main Page<br/><br/><!-- Image with unknown copyright status removed: 200px|Links displaying this article on Ubuntu 8.04 "Hardy Heron" Terminal -->
+| caption                = screenshot
+| collapsible            = yes
+| author                 = 
+| developer              = ?
+| released               = ?
+| frequently_updated     = yes<!-- Release version update? Don't edit this page, just click on the version number! -->
+| programming language   = C
+| operating system       = Windows
+| language               = ?
+| genre                  = Web browser
+| license                = GPL
+| website                = [http://links.sourceforge.net/ links.sourceforge.net]
+}}
+'''Links''' is an text and graphic web browser with a pull-down menu system.<ref>[http://www.jikos.cz/~mikulas/links/ Links home page<!-- Bot generated title -->]</ref> It renders complex pages, has partial HTML 4.0 support (including tables and frames and support for multiple character sets such as including UTF-8), supports color and monochrome terminals and allows horizontal scrolling.
+
+It is oriented toward visual users who want to retain many typical elements of graphical user interfaces (pop up windows, menus etc.) in a text-only environment. The focus on intuitive usability makes it suitable as a web browser for low-end terminals in libraries, Internet cafes etc. 
+
+The original version of Links was developed by Mikuláš Patočka in the X or any other window environment, using either SVGALib or the framebuffer of the system's graphics card.
+
+==Elinks==
+
+ELinks ("Experimental/Enhanced Links") is a fork of Links led by Lua) and from Internet users.
+
+==Links Hacked==
+'''Links Hacked''' is another version of the Links browser which has merged some of Elinks' features into Links 2.
+
+Andrey Mirtchovski has ported it to Plan 9.  It is considered a good browser on that operating system, though some users have griped about its inability to cut and paste with the Plan 9 snarf buffer.
+
+[http://browsers.evolt.org Evolt] has hosted an unsupported version on its archive for 32 bit Windows.
+
+'''Links''' is een open source menu's. Het kan complexe webpagina's weergeven (ondersteunt gedeeltelijk HTML 4.0, inclusief tabellen en framesets), ondersteunt kleuren en monochrome computerterminals en bezit de mogelijkheid webpagina's zowel horizontaal als verticaal te verschuiven.
+
+In tegenstelling tot Lynx en pop-up vensters en keuzemenu's, in een omgeving waar alleen tekst wordt gebruikt. De nadruk ligt op intuïtief gebruik.
+
+De originele versie van Links was ontwikkeld in Mikulá&#353; Pato&#269;ka. Zijn groep, Twibright Labs, ontwikkelde later een zelfstandige versie van de Links browser, genaamd '''Links 2''', die in staat is afbeeldingen te tonen [<code>links2 -g</code>], lettertypen in verschillende afmetingen (met modus werkt op systemen zonder gebruik te maken van het X Window-systeem of vergelijkbare platformen, maar maakt gebruik van SVGALib.
+
+ELinks ("Experimental/Enhanced Links") is een programma dat is afgeleid van Links, maar zelfstandig wordt ontwikkeld, onder leiding van Petr Baudis. Het is gebaseerd op Links 0.9.
+
+Links Hacked is een andere versie van de Links browser, waarbij Elinks functionaliteiten in Links 2 zijn opgenomen.

@@ -1,0 +1,288 @@
+thumb|right|258px|[[Şimşek, enerji aktarımının oldukça görülebilir bir biçimidir.]]
+Enerji, bir cisim ya da sistemin iş yapabilme yeteneği, "yaratılan güç" anlamındadır. Doğrudan ölçülemeyen bir değer olup fiziksel bir sistemin durumunu değiştirmek için yapılması gereken iş yoluyla veya enerji ''türüne'' göre değişik hesaplamalar yoluyla bulunabilir. Sözcük, Eski Yunan dilindeki ''εν = içinde'' ve ''εργον = iş'' kelimelerinden türemiştir, bu açıdan anlam olarak 'işe dönüştürülebilen' bir şey olduğu söylenebilir. Fizikte kullanılmaya başlamadan önce genel anlamda güç kelimesi yerine kullanılmaktaydı. Enerjinin başka bir tanımı ise, iş ailesinden olup bir fiziksel sistemin ne kadar iş yapabileceğini ya da ne kadar ısı değiş tokuşu yapabileceğini belirleyen bir durum fonksiyonudur.  Birimi, iş birimi ile aynıdır. (N.m=J)
+
+Hidroelektrik Santrallarında elektrik enerjisine dönüştürülen, suyun potansiyel enerjisidir. Bu dönüşüm işlemi pratikte birebir olamaz, kayıplar oluşur. Enerji korunumlu bir büyüklük olmasına rağmen diğer biçime dönüştürülemeyen ve dolayısıyla ısı olarak etrafa yayılan enerji, teknik terimle kayıp olarak nitelendirilir. Enerjinin korunduğunu ilk gösteren James Prescott Joule' dur. Joule, deneyinde m kütleli bir cismi, bir makaraya bağlayarak belirli bir yükseklikten aşağıya bırakmıştır. Makara aynı zamanda termal olarak yalıtılmış bir ısı kutusunun içindeki çarklara bağlıdır. Cisim aşağıya indikçe kutunun içindeki çarklar döner ve içerdeki sıvının sıcaklığını ölçen termometrede <math>{\Delta}</math>T kadar bir artış gözlemlenir. Isı kutusunun özısısına ve makaranın sürtünmesine harcanan enerji bu dönüşümdeki kayıplar olarak varsayılırsa, enerjinin biçim değiştirebildiği ve korunumlu olduğu bu sayede gösterilmiş olur.
+
+== Enerji birimleri==
+Enerji kullanıldığı yerlere göre farklı birimlerde ele alınır.<br>
+       
+*Newton metre (Nm); 1 Nm =kg m<sup>2</sup>/sn<sup>2</sup> 
+*Joule (J); 1 Nm = 1 J 
+*Kalori (cal); 1 J = 0.239 cal, 1 cal=4,18 J, 1 kcal=4184 J
+*Elektronvolt (eV)
+*British Thermal Unit (BTU); 1 BTU=1,055 J, 1 kWh=3412 BTU, 1 BTU=0.0002931 kWh
+*Watt-saat (Wh)  1Watt hours (Wh) = 3,600 J , 
+*Kilo Watt-saat (kWh)1 kWh = 1,000 Wh , 1 kWh = 3,600,000 J 
+*erg (Yunanca ergon: iş) 1 erg= 1 g cm2 s−2, 1 erg = 1.0×10−7 J.
+* Foot - pound (ft lb), 1 ft lb = 1.356 Nm 
+*litre-atmosfer (l.atm)
+
+==Enerji türleri==
+Enerji çeşitli şekillerde bulunabilir. Fakat bu şekillerin tamamı iki ana başlığa indirgenebilir. Bunlar kinetik enerji ve potansiyel enerjidir.
+#Potansiyel enerji: Bir nesnenin konumundan dolayı,diğer nesnelere bağlı olan enerjisidir.Depolanmış enerji Isı sebebi ile oluşan enerji olup, aslında molekül ve atomların kinetik enerjisi olarak da adlandırılır.
+#Yer çekimi Potansiyel Enerjisi: Bir kütle, bulunduğu yerden düşey konumdaki alt bir noktaya göre yüksekte ise, sahip olduğu enerjiye '''Yer çekimi Potansiyel Enerjisi''' denir
+##Isı (Termal) Potansiyel Enerji: Kömür, petrol, linyit, doğalgaz gibi yakıtların yakılmasıyla ısı enerjisi ortaya çıkmaktadır. Elde edilen ısı enerjisi ilk önce türbinler yardımıyla mekanik enerjiye, daha sonra da jeneratörler yardımıyla elektrik enerjisine dönüştürülebilmektedir. Evlerimizde, kışın ısınmak, mutfak ve banyoda sıcak su elde etmek, yemek pişirmek için ısı enerjisinden sıkça faydalanmaktayız.
+##Elektrik Potansiyel Enerjisi: Elektrik yüklemesi sebebi ile ortaya çıkan enerjidir.Yüklenmiş partiküllerin hareket enerjisidir.
+##Kimyasal Potansiyel Enerji: Kimyasal tepkime sonucunda ortaya çıkan enerjiye kimyasal enerji adı vermekteyiz. Günlük hayatımızda sıkça kullandığımız pil ve aküler kimyasal enerjiyi elektrik enerjisine dönüştüren düzeneklerdir. Pil ve akülerde elektrik enerjisinin depolanması kimyasal yöntemlerle yapılmaktadır. Kimyasal enerji; mekanik, ısı ve ışık enerjisine dönüştürülebilmektedir.
+##Nükleer Potansiyel Enerji: Atom çekirdeklerinin kararsızlığı nedeni ile oluşan enerjidir. Bu durumdaki nesne, elektromanyetik dalga veya ışık yaydığı için yayınım enerjisi olarak da adlandırılır. Atom çekirdekleri tarafından depolanmış enerjidir.
+##Manyetik Potansiyel Enerji:
+##Elastik Potansiyel Enerji:
+#Kinetik enerji: Hareketin sebep olduğu enerjidir.
+##Mekanik Enerji: Faydalı iş yapabilen hareket enerjisidir. Hareket enerjisi (kinetik enerji) bir iş yaptığında mekanik enerji olarak ortaya çıkmaktadır. Elektrik santrallerinde türbine çarpan suyun mekanik enerjiye dönüştüğü gibi pense ile kablo keserken, tornavida ile vida sıkarken vb. durumlarda da mekanik enerji üretilmiş olmaktadır. Elde edilen mekanik enerji ile her hangi bir iş yapılabileceği gibi elektrik enerjisi de üretilebilmektedir...
+
+==Enerjinin korunumu==
+Kapalı bir sistemde, potansiyel enerji’nin, kinetik enerjiye veya kinetik enerji’nin, potansiyel enerjiye dönüşümünde, her birindeki artma, diğerindeki azalmaya eşittir. Kapalı bir sistemde enerji korunacağından sabit bir değeri vardır. Dolayısıyla enerjideki değişim sıfırdır. T kinetik enerji, U da potansiyel enerji olmak üzere formüle edilirse:
+
+<math>\Delta E = \Delta T + \Delta U = 0\,</math>
+
+<math>\Delta T = -\Delta U\,</math>
+
+<math>T_2-T_1 = U_1-U_2\,</math> veya diğer bir şekilde ifade edilirse
+
+<math>T_1 +U_1 = T_2 + U_2\,</math> enerji korunum yasası olur.
+
+==Dış bağlantılar==
+*[http://www.projecim.com/enerji.htm Enerji Tasarrufu]
+*[http://www.birimler.com/enerji_birimleri_converter.php Enerji Birimleri Dönüştürücüsü]
+*[http://science.howstuffworks.com/fpte10.htm Erke, güç ve kuvvet] türkçe
+*[http://www.derindusunce.org/2007/12/12/nukleer-enerji-evet-ama/ Türkiye açısından nükleer enerjinin zararları ve faydaları]
+*
+
+<!-- interwiki -->
+
+bat-smg:Energėjė
+be-x-old:Энэргія
+
+thumb|right|258px|[[Lightning is the electric breakdown of air by strong electric fields.  Heat and light from a lightning produces a plasma motion of air molecules.]] 
+
+In Greek  - ''scalar work. 
+
+Several different forms of energy, including kinetic, potential, thermal, gravitational, sound energy, light energy, elastic, electromagnetic, chemical, nuclear, and mass have been defined to explain all known natural phenomena.
+
+While one form of energy may be transformed to another, the total energy remains the same. This principle, the conservation of energy, was first postulated in the early 19th century, and applies to any isolated system. According to Noether's theorem, the conservation of energy is a consequence of the fact that the laws of physics do not change over time.<ref name="jphysics"></ref>
+
+Although the total energy of a system does not change with time, its value may depend on the frame of reference.  For example, a seated passenger in a moving airplane has zero kinetic energy relative to the airplane, but non-zero kinetic energy relative to the earth.
+
+==History==
+
+The word 'energy' derives from Greek ''ἐνέργεια'' (''energeia''), which appears for the first time in the work Arabian physicist, Alhazen, in the ''energy particles, stating that "the smallest parts of light" retain "only properties that can be treated by geometry and verified by experiment" and that "they lack all sensible qualities except energy."<ref></ref> In 1121, Al-Khazini, in ''The Book of the Balance of Wisdom'', proposed that the gravitational potential energy of a body varies depending on its distance from the centre of the Earth.<ref>Mariam Rozhanskaya and I. S. Levinova (1996), "Statics", p. 621, in </ref>
+
+The concept of energy emerged out of the idea of Leibniz defined as the product of the mass of an object and its velocity squared; he believed that total vis viva was conserved. To account for slowing due to friction, Leibniz claimed that heat consisted of the random motion of the constituent parts of matter — a view shared by Thomas Young was the first to use the term "energy", instead of William Rankine coined the term "potential energy."
+It was argued for some years whether energy was a substance (the caloric) or merely a physical quantity, such as momentum.
+
+He  amalgamated all of these laws into the laws of thermodynamics, which aided in the rapid development of explanations of chemical processes using the concept of energy by Rudolf Clausius, Josiah Willard Gibbs and Walther Nernst. It also led to a mathematical formulation of the concept of entropy by Clausius, and to the introduction of laws of radiant energy by Jožef Stefan.
+
+During a 1961 lecture<ref name="RPF1"/> for undergraduate students at the California Institute of Technology, Richard Feynman, a celebrated physics teacher and Nobel Laureate, said this about the concept of energy:
+
+Since 1918 it has been known that the law of conjugate to energy, namely time. That is, energy is conserved because the laws of physics do not distinguish between different moments of time (see Noether's theorem).
+
+==Energy in various contexts since the beginning of the universe==
+The concept of energy and its transformations is useful in explaining and predicting most natural phenomena. The ''direction'' of transformations in energy (what kind of energy is transformed to what other kind) is often described by degrees of freedom) considerations, since in practice all energy transformations are permitted on a small scale, but certain larger transformations are not permitted because it is statistically unlikely that energy or matter will randomly move into more concentrated forms or smaller spaces.  
+
+The concept of energy is used often in all fields of science.
+
+*In metabolic processes, and the associated changes in available energy are studied in the subfield of cells in the form of substances such as carbohydrate molecules (including sugars) and lipids, which release energy when reacted with oxygen. 
+*In chemistry, the energy differences between substances determine whether, and to what extent, they can be converted into other substances or react with other substances. 
+*In geology and meteorology,  mountain ranges, volcanos, and earthquakes are phenomena that can be explained in terms of energy transformations in the Earth's interior. <ref>[http://okfirst.ocs.ou.edu/train/meteorology/EnergyBudget.html Earth's Energy Budget<!-- Bot generated title -->]</ref> While meteorological phenomena like wind, rain, hail, snow, lightning, tornadoes and hurricanes, are all a result of energy transformations brought about by solar energy on the planet Earth.
+*In cosmology and astronomy the phenomena of stellar phenomena (including solar activity) are driven by various kinds of energy transformations. Energy in such transformations is either from gravitational collapse of matter (usually molecular hydrogen) into various classes of astronomical objects (stars, black holes, etc.), or from nuclear fusion (of lighter elements, primarily hydrogen).
+
+Energy transformations in the universe over time are characterized by various kinds of potential energy which has been available since the Big Bang, later being "released" (transformed to more active types of energy such as kinetic or radiant energy), when a triggering mechanism is available. 
+
+Familiar examples of such processes include nuclear decay, in which energy is released which was originally "stored" in heavy isotopes (such as uranium and thorium), by nucleosynthesis, a process which ultimately uses the gravitational potential energy released from the gravitational collapse of supernovae, to store energy in the creation of these heavy elements before they were incorporated into the solar system and the Earth. This energy is triggered and released in nuclear fission bombs. In a slower process, heat from nuclear decay of these atoms in the core of the Earth releases heat, which in turn may lift mountains, via orogenesis. This slow lifting represents a kind of gravitational potential energy storage of the heat energy, which may be released to active kinetic energy in landslides, after a triggering event. Earthquakes also release stored elastic potential energy in rocks, a store which has been produced ultimately from the same radioactive heat sources. Thus, according to present understanding, familiar events such as landslides and earthquakes release energy which has been stored as potential energy in the Earth's gravitational field or elastic strain (mechanical potential energy) in rocks; but prior to this, represents energy that has been stored in heavy atoms since the collapse of long-destroyed stars created these atoms.
+
+In another similar chain of transformations beginning at the dawn of the universe, fusion. Such a fusion process is triggered by heat and pressure generated from gravitational collapse of hydrogen clouds when they produce stars, and some of the fusion energy is then transformed into sunlight. Such sunlight from our Sun may again be stored as gravitational potential energy after it strikes the Earth, as (for example) water evaporates from oceans and is deposited upon mountains (where, after being released at a hydroelectric dam, it can be used to drive turbine/generators to produce electricity). Sunlight also drives many weather phenomena, save those generated by volcanic events.  An example of a solar-mediated weather event is a hurricane, which occurs when large unstable areas of warm ocean, heated over months, give up some of their thermal energy suddenly to power a few days of violent air movement. Sunlight is also is captured by plants as ''chemical potential energy'', when carbon dioxide and water are converted into a combustible combination of carbohydrates, lipids, and oxygen. Release of this energy as heat and light may be triggered suddenly by a spark, in a forest fire; or it may be available more slowly for animal or human metabolism, when these molecules are ingested, and catabolism is triggered by enzyme action. Through all of these transformation chains, potential energy stored at the time of the Big Bang is later released by intermediate events, sometimes being stored in a number of ways over time between releases, as more active energy. In all these events, one kind of energy is converted to other types of energy, including heat.
+
+==Regarding applications of the concept of energy==
+Energy is subject to a strict global conservation law; that is, whenever one measures (or calculates) the total energy of a system of particles whose interactions do not depend explicitly on time, it is found that the total energy of the system always remains constant.<ref> Berkeley Physics Course Volume 1. Charles Kittel, Walter D Knight and Malvin A Ruderman</ref>
+*The total energy of a system can be subdivided and classified in various ways.  For example, it is sometimes convenient to distinguish potential energy (which is a function of coordinates only) from kinetic energy (which is a function of coordinate time derivatives only).  It may also be convenient to distinguish gravitational energy, electric energy, thermal energy, and other forms.  These classifications overlap;  for instance thermal energy usually consists partly of kinetic and partly of potential energy.
+*The ''transfer'' of energy can take various forms;  familiar examples include work, heat flow, and advection, as discussed below.
+*The word "energy" is also used outside of physics in many ways, which can lead to ambiguity and inconsistency. The vernacular terminology is not consistent with technical terminology.  For example, the important public-service announcement, "Please conserve energy" uses vernacular notions of "conservation" and "energy" which make sense in their own context but are utterly incompatible with the technical notions of "conservation" and "energy" (such as are used in the law of conservation of energy).<ref name="thermo-laws"/>
+
+In boosts).
+
+===Energy transfer===
+Because energy is strictly conserved and is also locally conserved (wherever it can be defined), it is important to remember that by definition of energy the transfer of energy between the "system" and adjacent regions is work.  A familiar example is ''mechanical work''.  In simple cases this is written as:
+
+:<math>\Delta{}E = W</math>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (1)
+
+if there are no other energy-transfer processes involved.  Here <math>\Delta{}E</math>&nbsp; is the amount of energy transferred, and <math>W</math>&nbsp; represents the work done on the system.  
+
+More generally, the energy transfer can be split into two categories:
+
+:<math>\Delta{}E = W + Q </math> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (2)
+
+where <math>Q</math>&nbsp; represents the heat flow into the system.
+
+There are other ways in which an open system can gain or lose energy.  In chemical systems, energy can be added to a system by means of adding substances with different chemical potentials, which potentials are then extracted (both of these process are illustrated by fueling an auto, a system which gains in energy thereby, without addition of either work or heat). Winding a clock would be adding energy to a mechanical system. These terms may be added to the above equation, or they can generally be subsumed into a quantity called "energy addition term <math>E</math>" which refers to ''any'' type of energy carried over the surface of a control volume or system volume. Examples may be seen above, and many others can be imagined (for example, the kinetic energy of a stream of particles entering a system, or energy from a laser beam adds to system energy, without either being either work-done or heat-added, in the classic senses). 
+
+:<math>\Delta{}E = W + Q + E </math> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (3)
+
+Where E in this general equation represents other additional advected energy terms not covered by work done on a system, or heat added to it.
+
+Energy is also transferred from potential energy (<math>E_p</math>) to kinetic energy (<math>E_k</math>) and then back to potential energy constantly. This is referred to as conservation of energy. In this closed system, energy can not be created or destroyed, so the initial energy and the final energy will be equal to each other. This can be demonstrated by the following:
+
+:'''<math>E_{pi} + E_{ki} = E_{pF} + E_{kF}'''</math>
+
+The equation can then be simplified further since <math>E_p = mgh</math> (mass times acceleration due to gravity times the height) and <math>E_k = \frac{1}{2} mv^2</math> (half times mass times velocity squared). Then the total amount of energy can be found by adding <math>E_p + E_k = E_{total}</math>.
+
+===Energy and the laws of motion===
+
+In conserved quantity.
+
+===The Hamiltonian===
+The total energy of a system is sometimes called the Hamiltonian, after William Rowan Hamilton.  The classical equations of motion can be written in terms of the Hamiltonian, even for highly complex or abstract systems.  These classical equations have remarkably direct analogs in
+nonrelativistic quantum mechanics.<ref >[http://www.sustech.edu/OCWExternal/Akamai/18/18.013a/textbook/HTML/chapter16/section03.html The Hamiltonian] MIT OpenCourseWare website 18.013A  Chapter 16.3  Accessed February 2007</ref>
+
+===The Lagrangian===
+Another energy-related concept is called the Lagrangian, after Joseph Louis Lagrange. This is even more fundamental than the Hamiltonian, and can be used to derive the equations of motion. In non-relativistic physics, the Lagrangian is the kinetic energy ''minus'' potential energy.
+
+Usually, the Lagrange formalism is mathematically more convenient than the Hamiltonian for non-conservative systems (like systems with friction).
+
+===Energy and thermodynamics===
+====Internal energy====
+'''Internal energy''' – the sum of all microscopic forms of energy of a system.  It is related to the molecular structure and the degree of molecular activity and may be viewed as the sum of kinetic and potential energies of the molecules; it comprises the following types of energy:<ref></ref>
+
+<center>
+{| border="1" cellpadding="2" style="border-collapse: collapse;"
+! Type !! Composition of '''Internal Energy''' (U)
+|-
+! '''Sensible energy'''
+|width="700pt" align="left" | the portion of the internal energy of a system associated with kinetic energies (molecular translation, rotation, and vibration; electron translation and spin; and nuclear spin) of the molecules.
+|-
+! '''Latent energy'''
+|width="700pt" align="left" | the internal energy associated with the phase of a system.
+|-
+! '''Chemical energy'''
+|width="700pt" align="left" |the internal energy associated with the different kinds of aggregation of atoms in matter.
+|-
+! '''Nuclear energy'''
+|width="700pt" align="left" |the tremendous amount of energy associated with the strong bonds within the nucleus of the atom itself.
+|-
+! '''Energy interactions'''
+|width="700pt" align="left" |those types of energies not stored in the system (e.g. work), but which are recognized at the system boundary as they cross it, which represent gains or losses by a system during a process. 
+|-
+! '''Thermal energy'''
+|width="700pt" align="left" |the sum of sensible and latent forms of internal energy.
+|}
+</center>
+
+====The laws of thermodynamics====
+According to the second law of thermodynamics, work can be totally converted into heat, but not vice versa.This is a mathematical consequence of statistical mechanics. The first law of thermodynamics simply asserts that energy is conserved,<ref name="KK"></ref> and that heat is included as a form of energy transfer. A commonly-used corollary of the first law is that for a "system" subject only to pressure forces and heat transfer (e.g. a cylinder-full of gas), the differential change in energy of the system (with a ''gain'' in energy signified by a positive quantity) is given by:
+
+:<math>\mathrm{d}E = T\mathrm{d}S - P\mathrm{d}V\,</math>,
+
+where the first term on the right is the heat transfer into the system, defined in terms of temperature ''T'' and entropy ''S'' (in which entropy increases and the change d''S'' is positive when the system is heated); and the last term on the right hand side is identified as "work" done on the system, where pressure is ''P'' and volume ''V'' (the negative sign results since compression of the system requires work to be done on it and so the  volume change, d''V'', is negative when work is done on the system). Although this equation is the standard text-book example of energy conservation in classical thermodynamics, it is highly specific, ignoring all chemical, electric, nuclear, and gravitational forces, effects such as advection of any form of energy other than heat, and because it contains a term that depends on temperature.  The most general statement of the first law (i.e., conservation of energy) is valid even in situations in which temperature is undefinable.
+
+Energy is sometimes expressed as: 
+
+:<math>\mathrm{d}E=\delta Q+\delta W\,</math>,
+
+which is unsatisfactory<ref name="thermo-laws"/>  because there cannot exist any thermodynamic state functions ''W'' or ''Q'' that are meaningful on the right hand side of this equation, except perhaps in trivial cases. <!-- news to me. You can look up H's, standard enthalpies which are Q's at constant pressure), for all kinds of substances. These are used in many equations of the sort seen above, for what will happens to substances under varying conditions of volume (work done on the substance) and heat generation.-->
+
+===Equipartition of energy===
+The energy of a mechanical kinetic and cycle it is entirely kinetic, and alternatively at two other points it is entirely potential.  Over the whole cycle, or over many cycles net energy is thus equally split between kinetic and potential. This is called equipartition principle - total energy of a system with many degrees of freedom is equally split among all available degrees of freedom.
+
+This principle is vitally important to understanding the behavior of a quantity closely related to energy, called distribution of energy between parts of a system. When an isolated system is given more degrees of freedom (= is given new available energy states which are the same as existing states), then total energy spreads over '''all''' available degrees equally without distinction between  "new" and "old" degrees. This mathematical result is called the second law of thermodynamics.
+
+===Oscillators, phonons, and photons===
+In an ensemble (connected collection) of unsynchronized oscillators, the average energy is spread equally between kinetic and potential types.
+
+In a solid, '''thermal energy''' (often referred to loosely as heat content) can be accurately described by an ensemble of thermal phonons that act as mechanical oscillators.  In this model, thermal energy is equally kinetic and potential.
+
+In an ideal gas, the interaction potential between particles is essentially the delta function which stores no energy: thus, all of the thermal energy is kinetic.
+
+Because an electric oscillator (''LC'' circuit) is analogous to a mechanical oscillator, its energy must be, on average, equally kinetic and potential.  It is entirely arbitrary whether the magnetic energy is considered kinetic and the electric energy considered potential, or vice versa.  That is, either the inductor is analogous to the mass while the capacitor is analogous to the spring, or vice versa.  
+
+#By extension of the previous line of thought, in free space the electromagnetic field can be considered an ensemble of oscillators, meaning that '''radiation energy''' can be considered equally potential and kinetic.  This model is useful, for example, when the electromagnetic Lagrangian is of primary interest and is interpreted in terms of potential and kinetic energy.
+
+#On the other hand, in the key equation <math>m^2 c^4 = E^2 - p^2 c^2</math>, the contribution <math>mc^2</math> is called the rest energy, and all other contributions to the energy are called kinetic energy.  For a particle that has mass, this implies that the kinetic energy is <math>0.5 p^2/m</math> at speeds much smaller than ''c'', as can be proved by writing <math>E = mc^2 </math>&nbsp;√<math>(1 + p^2 m^{-2}c^{-2})</math> and expanding the square root to lowest order.  By this line of reasoning, the energy of a photon is entirely kinetic, because the photon is massless and has no rest energy.  This expression is useful, for example, when the energy-versus-momentum relationship is of primary interest.
+
+The two analyses are entirely consistent.  The electric and magnetic degrees of freedom in item 1 are ''transverse'' to the direction of motion, while the speed in item 2 is ''along'' the direction of motion.  For non-relativistic particles these two notions of potential versus kinetic energy are numerically equal, so the ambiguity is harmless, but not so for relativistic particles.<!-- confusing -->
+
+===Work and virtual work===
+
+Work is roughly force times distance.  But more precisely, it is
+
+: <math> W = \int \mathbf{F} \cdot \mathrm{d}\mathbf{s}</math>
+
+This says that the work (<math>W</math>) is equal to the integral (along a certain path) of the force;  for details see the mechanical work article.
+
+Work and thus energy is frame dependent.  For example, consider a ball being hit by a bat.  In the center-of-mass reference frame, the bat does no work on the ball.  But, in the reference frame of the person swinging the bat, considerable work is done on the ball.
+
+===Quantum mechanics===
+In quantum mechanics energy is defined in terms of the energy operator
+as a time derivative of the wave function. The  Schrödinger equation equates the energy operator to the full energy of a particle or a system. It thus can be considered as a definition of measurement of energy in quantum mechanics. The Schrödinger equation describes the space- and time-dependence of slow changing (non-relativistic) wave function of quantum systems. The solution of this equation for bound system is discrete (a set of permitted states, each characterized by an energy level) which results in the concept of quanta. In the solution of the Schrödinger equation for any oscillator (vibrator) and for electromagnetic wave in vacuum, the resulting energy states are related to the frequency by the Planck equation <math>E = h\nu</math> (where <math>h</math> is the Planck's constant and <math>\nu</math> the frequency). In the case of electromagnetic wave these energy states are called quanta of light or photons.
+
+===Relativity===
+When calculating kinetic energy (= work to accelerate a mass from zero speed to some finite speed) relativistically - using Lorentz transformations instead of Newtonian mechanics, Einstein discovered unexpected by-product of these calculations to be an energy term which does not vanish at zero speed. He called it rest mass energy - energy which every mass must possess even when being at rest. The amount of energy is directly proportional to the mass of body: 
+
+:<math> E = m c^2 </math>,
+where
+:''m'' is the mass,
+:''c'' is the speed of light in vacuum,
+:''E'' is the rest mass energy.
+
+For example, consider electron-positron annihilation, in which the rest mass of individual particles is destroyed, but the inertia equivalent of the system of the two particles (its invariant mass) remains (since all energy is associated with mass), and this inertia and invariant mass is carried off by photons which individually are massless, but as a system retain their mass. This is a reversible process - the inverse process is called pair creation - in which the rest mass of particles is created from energy of two (or more) annihilating photons. 
+
+In general relativity, the ''stress-energy tensor'' serves as the source term for the gravitational field, in rough analogy to the way mass serves as the source term in the non-relativistic Newtonian approximation.<ref name="MTW"/>
+
+It is not uncommon to hear that energy is "equivalent" to mass. It would be more accurate to state that every energy has inertia and gravity equivalent, and because mass is a form of energy, then mass too has inertia and gravity associated with it.
+
+==Measurement==
+There is no absolute measure of energy, because energy is defined as the work that one system does (or can do) on another. Thus, only of the transition of a system from one state into another can be defined and thus measured.
+
+===Methods===
+The methods for the measurement of energy often deploy methods for the measurement of still more fundamental concepts of science, namely mass, distance, radiation, temperature, time, electric charge and electric current.
+thumb|right|270px|A [[Calorimeter - An instrument used by physicists to measure energy]] Conventionally the technique most often employed is calorimetry, a thermodynamic technique that relies on the measurement of temperature using a thermometer or of intensity of radiation using a bolometer.
+
+===Units===
+
+Throughout the history of science, energy has been expressed in several different units such as ergs and calories. At present, the accepted unit of measurement for energy is the SI unit of energy, the joule.
+
+==Forms of energy==
+right|200px|thumb|[[Heat, a form of energy, is partly potential energy and partly kinetic energy.]]
+movement. Both position and movement are relative to a frame of reference, which must be specified: this is often (and originally) an arbitrary fixed point on the surface of the Earth, the ''terrestrial'' frame of reference. Some introductory authors attempt to separate ''all'' forms of energy in either kinetic or potential: this is not incorrect, but neither is it clear that it is a real simplification, as Feynman points out:
+
+{| class="wikitable" align=right width=150px
+|-
+|+ Examples of the interconversion of energy
+|-
+! colspan=2 | Mechanical energy is converted
+|-
+! into
+! by
+|-
+| '''Mechanical energy'''
+| Lever
+|-
+| '''Thermal energy'''
+| Brakes
+|-
+| '''Electric energy'''
+| Dynamo
+|-
+| '''Electromagnetic radiation'''
+| Synchrotron
+|-
+| '''Chemical energy'''
+| Matches
+|-
+| '''Nuclear energy'''
+| Particle accelerator
+|-
+|}
+
+===Potential energy===
+
+Potential energy, symbols ''E''<sub>p</sub>, ''V'' or ''Φ'', is defined as the work done ''against a given force'' (= work of ''given force'' with minus sign) in changing the position of an object with respect to a reference position (often taken to be infinite separation). If '''''F''''' is the force and '''''s''''' is the displacement,
+::<math>E_{\rm p} = -\int \mathbf{F}\cdot{\rm d}\mathbf{s}</math>
+with the dot representing the vectors.
+
+The name "potential" energy originally signified the idea that the energy could readily be transferred as work—at least in an idealized system (reversible process, see below). This is not completely true for any real system, but is often a reasonable first approximation in classical mechanics.
+
+The general equation above can be simplified in a number of common cases, notably when dealing with gravity or with elastic forces.
+
+====Gravitational potential energy====
+
+The gravitational force near the Earth's surface varies very little with the height, ''h'', and is equal to the mass, ''m'', multiplied by the gravitational acceleration, ''g''&nbsp;= 9.81&nbsp;m/s². In these cases, the gravitational potential energy is given by
+::<math>E_{\rm p,g} = mgh</math>

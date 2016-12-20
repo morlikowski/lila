@@ -1,0 +1,175 @@
+Me termin <u>formati i datës</u> nënkuptohet forma, në bazë të së cilës shkruhen datat e kalendarit. Ky shkrim i datës bëhet më qëllim të regjistrimit të datave në regjistra special të seleksionuara sipas viteve, muajve dhe ditëve. 
+
+==Pak histori==
+Për shkrimin e datës në botë janë krijuar shumë forma të cilat ndryshojnë nga një shtet në tjetrin. Këto forma nuk mund të kombinohen në mes veti. Kështu p.sh. një datë e njëjtë e përdorur në gjuhën angleze në gjuhën shqipe mund të intepretohet me një kuptim tjetër. Për shembull forma e shkrimt të datës 01/02/03 mund të intepretohet në disa mënyra:
+
+:1 Shkurt 2003
+:2 Janar 2003
+:3 Shkurt 2001
+
+Për të arritur një bashkpunim në këtë drejtim në mes të shteteve të ndryshme përkujdeset norma e standartizimit ISO, e cila ka mbështetjen e antarëve të saj.
+
+==Standartizimi sipas normave ndërkombëtare==
+Në tekstin e mëposhtëm është bërë përshkrimi i standartizimit të formave të shkrimit të datës sipas normave standarte të përcaktuara në ISO, të cilat në shumicën e rasteve janë edhe norma të standarteve të Shqipërisë.
+
+<br />Formatet e datave të shkruara në Shqipëri janë të bazuara në normën ?<br />
+
+A '''date''' in a calendar is a reference to a particular day represented within a calendar system. The calendar date allows the specific day to be identified. The number of days between two dates may be calculated. For example, "19  " is ten days after "9  " in the Gregorian calendar.  The date of a particular event depends on the time zone in which it occurs. For example the attack on Pearl Harbor took place on December 7, 1941, in Hawaii, but on December 8 in Japan. 
+
+A particular day may be represented by a different date in another calendar as in the Gregorian calendar and the epoch, with era referring to the particular period of time (Note the different use of the terms in geology).
+
+The most widely used epoch is a conventional birthdate of Jesus (which was established by Dionysius Exiguus in the sixth century). A date without the year part may also be referred to as a ''date'' or ''calendar date'' (such as " " rather than "  "). As such, it defines the day of an annual event, such as a birthday or Christmas on 25 December.
+
+==Date format==
+<!--Linked from Endianness; please update there if section title changed-->
+Related to the classification of a day as a specific calendar date is the format used to express that date. The differing formats of dates are an example of endianness. Even for a specific calendar system, different formats are used. For example, the following formats all express the same date in the Gregorian calendar.
+
+===Little endian forms, starting with the day===
+This sequence is common to the vast majority of the world's countries (see below for breakdown of countries by format).  This date format originates from the custom of writing the date as ' the 16th day of November in the year of our Lord 2003' in religious and legal documents which at one time were the majority of documents created.  The format has shortened as more and more people learned to read and write but the order of the elements has remained constant.
+
+<div style="-moz-column-count:2; column-count:2;">
+* 16/11/2003, 16.11.2003 (using dot as separator with this sequence has been defined by DIN 5008[Citation needed])16-11-2003 or 16-11-03
+* 16th [of] November 2003 (The 'of' is included in speech, however it is considered bad practice to include it when written.)
+* 16th November 2003
+* 16 November 2003
+* 16 Nov 2003
+</div>
+
+===Big endian forms, starting with the year===
+This form is consistent with the big endianness of the western decimal numbering system, progressing from the highest to the lowest order magnitude.  This is a standard format in Asian countries where the most significant data item is written first followed by lesser data items.  An example of this is the custom of writing the family name before the personal name of an individual.
+
+* 2003 November 16
+* 2003-11-16: the ''''''international standard''' orders the components of a date like this, and additionally uses leading zeros, e.g. 0813-03-01, to be easily read and sorted by computers. It is used with external link below).  This format is also favoured in certain Asian countries, mainly East Asian countries, as well as in some Middle and East European countries like Hungary. The big endian convention is also frequently used in Canada, but all three conventions are used there.<ref>[http://www.cdnpay.ca/news/new_cheque_specs.asp Canadian Payments Association - Specifications for Imageable Cheques and Other Payment Items<!-- Bot generated title -->]</ref>
+
+===Middle endian forms, starting with the month===
+
+This sequence is used exclusively only in the listed below) that have been heavily influenced by the US.
+
+* November 16, 2003
+* Nov. 16, 2003
+* 11/16/2003, 11-16-2003, 11.16.2003 or 11.16.03
+
+===Usage issues===
+The many numerical forms can create confusion when used in international correspondence, particularly when abbreviating the year to its final two digits.
+
+For example, '9/11' can refer to both 'The fall of the Berlin Wall' on attacks on the World Trade Center in the USA. In the United States, dates are rarely written in purely numerical forms in formal writing. In the United Kingdom, while it is regarded as acceptable, but rare, to write ''monthname day, year'' (as well as ''day monthname year''), this order is never used when written numerically, although the American shorthand "9/11" is widely understood as referring to the 11 September terrorist attacks.<ref name="BBC-ADOT">[http://news.bbc.co.uk/hi/english/static/in_depth/americas/2001/day_of_terror/ BBC News - America's Day of Terror"] (Example of British website using "9/11" shorthand)</ref>
+
+When numbers are used to represent months, a significant amount of confusion can arise from the ambiguity of a date order; especially when the numbers representing the day, month or year are low, it can be impossible to tell which order is being used.  This can be clarified by using four digits to represent years, and naming the month; for example, "Feb" instead of "02". In some countries Roman numerals are used to denote the month, e.g. 11.IX.2001. Many Internet sites use year-month-day, and those using other conventions often write out the month (9-MAY-2001, MAY 09 2001, etc.) so there is no ambiguity. The ISO 8601 date order, with four-digit years, is specifically chosen to be unambiguous. The ISO 8601 standard also has the advantage of being language independent and is therefore useful when there may be no language context and a universal application is desired (expiration dating on export products, for example).
+
+In addition, the ISO considers its ISO 8601 standard to make sense from a logical perspective.<ref></ref> Mixed units, for example feet and inches, or pounds and ounces, are normally written with the largest unit first, in decreasing order.  Numbers are also written in that order, so the digits of 2006 indicate, in order, the millennium, the century within the millennium, the decade within the century, and the year within the decade.  The only date order that is consistent with these well-established conventions is year-month-day.  A plain text list of dates with this format can be easily sorted by word processors, spreadsheets and other software tools with built-in sorting functions.
+
+An early U.S. Federal Information Processing Standard recommended 2-digit years. This is now widely recognized as a bad idea, because of the year 2000 problem. Some U.S. government agencies now use ISO 8601 with 4 digit year.<ref>http://www.nyecounty.net/iso8601.html</ref><ref>[http://www.iprocessmart.com/techsmart/iso-time.htm International Standard Date and Time Notation<!-- Bot generated title -->]</ref>
+
+When transitioning from one date notation to another, people often write both Old Style and New Style dates.
+
+[[Image:Date.png|thumb|right|350px|
+
+]]
+
+====dd/mm/yyyy or dd.mm.yyyy (day, month, year)====
+Using the dd/mm/yyyy format, the 30th December 2006 would be written as 30/12/2006. The dd/mm/yyyy format is used in:
+<div style="-moz-column-count:2; column-count:2;">
+* Albania
+* Argentina
+* Armenia (dd.mm.yyyy)
+* Australia
+* Austria (using dots (which denote ordinal numbering) as in “d.m.(yy)yy” or sometimes "d. month (yy)yy") 
+* Azerbaijan (dd.mm.yyyy)
+* Bangladesh
+* Barbados
+* Belarus
+* Belgium
+* Belize
+* Bolivia
+* Brazil
+* Bulgaria (dd.mm.yyyy)
+* Canada (All 3 main types are used in Canada - in French and in English)
+* Chile
+* Colombia
+* Croatia (d. m. yyyy. or d. month yyyy.)
+* Cyprus
+* Czech Republic (d.m.yyyy)
+* Denmark (The format dd-mm-yy(yy) is the traditional Danish date format. The international format yyyy-mm-dd or yyyymmdd is also accepted. There are no preferences, although the traditional format is the most widely used. The formats dd.'monthname' yyyy and in handwriting d/m/yy are also acceptable. <ref name="DK-LAC">[http://www.dsn.dk/oss_faq.htm#datoer The Danish language advisory committee]</ref>)
+* Dominica
+* Dominican Republic
+* Ecuador
+* Egypt
+* El Salvador
+* Estonia (d.m.yyyy or d. month yyyy)
+* Finland (d.m.yyyy or d. month yyyy)
+* France
+* Georgia (dd.mm.yyyy)
+* ordinal numbering) as in “d.m.(yy)yy” or sometimes "d. month (yy)yy")
+* Greece
+* Grenada
+* Guyana
+* Hong Kong (in English)
+* Iceland (dd.mm.yyyy)
+* Iran (yyyy/mm/dd)
+* Ireland
+* India  (DD/MM/YYYY)
+* Indonesia (dd-mm-yyyy)
+* Iraq (dd-mm-yyyy)
+* Israel
+* Italy
+* Jamaica
+* Jordan
+* Kazakhstan (dd.mm.yyyy)
+* Kenya
+* Kyrgyzstan (dd.mm.yyyy)
+* Latvia (dd.mm.yyyy is used more often, but official standard is year-month-day)
+* Libya
+* Macau (in Portuguese & English)
+* Malaysia
+* Mexico
+* Montenegro (d.m.yyyy)
+* Netherlands (using hyphens as in “dd-mm-(yy) yy”, very often "d month (yy)yy")
+* New Zealand
+* Norway (d.m.y; the fraction form <SUP>d</SUP>/<SUB>m</SUB>-y is common, but incorrect)
+* Pakistan
+* Panama
+* Paraguay
+* Peru
+* Philippines (in Filipino)
+* Poland (d.mm.yyyy or dd.mm.yyyy, more official is d <month in genitive> yyyy, sometimes old-school format d <month as roman figure> yyyy, often with dots as separators)
+* Portugal
+* Puerto Rico
+* Romania
+* Russia (dd.mm.yyyy)
+* Saint Kitts and Nevis
+* Saint Lucia
+* Saint Vincent and the Grenadines
+* Saudi Arabia (dd/mm/yyyy, except for major companies, which conventionally use the American mm/dd/yyyy format)
+* Serbia (d.m.yyyy)
+* Singapore 
+* Slovakia (d.m.yyyy)
+* Slovenia (d.m.yyyy or d. mmmm yyyy)
+* Spain
+* Sweden (as d/m yyyy or d.m.yyyy, although the yyyy-mm-dd form is more common.)
+* Switzerland (dd.mm.yyyy)
+* Tajikistan (dd.mm.yyyy)
+* Buddhist Era instead of Common Era)
+* Trinidad and Tobago
+* Turkey
+* Turkmenistan (dd.mm.yyyy)
+* Ukraine (dd.mm.yyyy)
+* United Kingdom
+* Uruguay
+* Uzbekistan (dd.mm.yyyy)
+* Venezuela
+* Vietnam
+</div>
+
+====mm/dd/yy or mm/dd/yyyy (month, day, year)====
+Using the mm/dd/yy format, December 30, 2006 would be written as 12/30/06.
+
+The mm/dd/yy format is used in:
+
+*Canada (Although most official documents use the yyyy-mm-dd format, the mm/dd/yy format is also understood due to influences from the United States.)
+*Federated States of Micronesia
+*Palau
+*Philippines (d/m/yy in Filipino language. May still be found in certain contexts, mm/dd/yy is used in English)
+*United States
+
+====yyyy-mm-dd (year, month, day) ====
+Using the yyyy-mm-dd format, the 30th of December 2006 would be written as 2006-12-30.

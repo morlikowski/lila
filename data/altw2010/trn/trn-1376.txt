@@ -1,0 +1,70 @@
+{{Infobox OS
+|name = MorphOS
+|logo = 250px|MorphOS logo
+|caption = MorphOS 2.0 on EFIKA
+|developer = 
+|family = Amiga OS-like
+|source_model = Closed source
+|latest_release_version = 2.0
+|latest_release_date = 2008-06-30
+|latest_test_version = 
+|latest_test_date = 
+|marketing_target = 
+|language = 
+|kernel_type = Micro/pico <ref></ref>
+|ui = 
+|license = Mixed proprietary and open source
+|working_state = Current
+|supported_platforms = Pegasos, some models of Amiga, EFIKA
+|updatemodel = 
+|package_manager = 
+|website = [http://www.morphos-team.net www.morphos-team.net]
+}}
+'''MorphOS''' is an proprietary and Quark Ambient (the desktop interface).
+
+==Characteristics and versions==
+
+Developed for PowerPC processors by MC680x0 applications via proprietary task-based emulation, and most AmigaOS/PPC applications via API wrappers. It is API-compatible with AmigaOS 3.1 and has a MUI.
+
+Besides the Pegasos version of MorphOS, there is a "PowerUP" version for Amiga computers equipped with PPC accelerator cards produced by Phase5. This version is free, although it does slow down after each two hour session if it has not been registered. Registration is free. PowerUP MorphOS was most recently updated on 23 February 2006, however it does not exceed the feature set or advancement of the Pegasos release.<ref></ref><ref></ref>
+
+left|thumb|360px|Snapshot of MorphOS 2.0 desktop
+
+A version of MorphOS for the EFIKA, a very small mainboard based on the ultra-low wattage MPC5200B PPC processor from Freescale, has been shown at exhibitions and user-gatherings in Germany.<ref></ref> Current (2.0) release of MorphOS supports the EFIKA.
+
+==Components==
+MorphOS components:
+* Workbench and Directory Opus 1.43.0 - official 2008
+* CyberGraphX&mdash;RTG system: 5.1
+* Magic User Interface&mdash;primary GUI toolkit: 4.0
+* Trance JIT&mdash;JIT code translator for 68k applications: v. 51 - Morphos Team - June 2008
+* RAVE low-level API): V 51  
+* Quark&mdash;manages the low level systems
+* ABox&mdash;a PPC AmigaOS API clone that is binary compatible with both 68k (with JIT emulation module called "Trance") and both Classic Amiga based PowerUP and WarpOS formats of Amiga PPC executables (and has its DOS based in part on AROS Research Operating System)
+
+==Status==
+Being a closed source project, and its core team devoted to programming, instead of public relations, obtaining information about MorphOS status is not easy. Most public discussions come in form of threads in the [http://www.morphzone.org/ MorphZone] forums.
+
+==History==
+<!-- Deleted image removed: thumb|left|Early MorphOS version on promotional "video microwave" -->The project started in 1999, based on the Quark CES in Las Vegas. Thendic-France had financial problems and folded, however the collaboration continued under the new banner of "Genesi".   
+
+{{System operacyjny infobox
+|nazwa= MorphOS
+|logo=
+|rozmiar=
+|rodzina=
+|wersja= 1.4.5 (23 lutego 2006)
+|data=
+|producent=
+|licencja= 
+|system= Amiga z procesorem PPC, EFIKA, Pegasos
+|kernel= Micro/pico
+|środowisko=
+|www= 
+|grafika=
+}}
+'''MorphOS''' - 32-komputerów Pegasos oraz Amiga wyposażonych w procesory z rodziny PowerPC.
+
+Zaimplementowany w systemie mechanizm emulacji umożliwia uruchamianie aplikacji stworzonych dla systemu Motoroli z rodziny API MorphOSa z systemem AmigaOS 3.x umożliwia relatywnie proste przeportowanie aplikacji z Amigi na ten system. Część programów oryginalnie napisanych dla AmigaOS jest obecnie rozwijana dla systemu MorphOS.
+
+Rozwój systemu MorphOS był początkowo finansowany przez firmę Genesi, producenta płyt głównych Pegasos. Pod koniec 2003 roku firma wycofała się ze wsparcia finansowego projektu. Obecnie system rozwijany jest hobbystycznie przez dotychczasowy zespół programistów, najnowsza aktualizacja do wersji 1.4.5 ukazała się 30 kwietnia 2005 roku, 25 sierpnia 2005 wydano MorphOS-a dla komputerów Amiga wyposażonych w akceleratory z procesorami PowerPC 603e i 604. 27 sierpnia 2005 ukazała się z kolei aktualizacja pakietu sterowników 3D.

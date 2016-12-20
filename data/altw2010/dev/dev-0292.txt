@@ -1,0 +1,55 @@
+__NOTOC__
+In particle physics, the '''strong interaction''', or '''strong force''', or '''color force''', holds quarks and gluons together to form protons and neutrons.
+
+The strong interaction is one of the four fundamental interactions, along with gravitation, the electromagnetic force and the weak interaction.
+Of the four fundamental forces, the strong interaction is the most powerful.
+
+The strong force is thought to be mediated by antiquarks, and the gluons themselves.  This is detailed in the theory of quantum chromodynamics (QCD).  
+
+==History==
+Before the 1970s, protons and neutrons were thought to be indivisible fundamental particles.
+It was known that:
+# Protons carried a positive electrical charge, 
+# electric repulsion made same-charge particles ''repel'' each other, and
+# ''Multiple'' protons were bound together in the atomic nucleus.  
+
+So, what held protons together in the nucleus?
+
+Another, stronger, ''attractive'' force was postulated to explain how protons were held together in the atomic nucleus, overcoming electromagnetic repulsion.  
+For its high strength (at short distances), it was dubbed the "strong force".
+It was thought, at that time, this strong force was a fundamental force acting directly on the protons.
+
+It was later discovered this phenomenon was only a  ''residual'' side-effect of another, truly fundamental, force acting directly on particles ''inside'' protons called quarks and gluons.
+This newly-discovered force was initially called the "color force."  This has no relation to visible color.
+
+Today, the term "strong force" is used for that strong nuclear force that acts directly on quarks and gluons.
+The ''original'' strong force that acts on protons is today called the nuclear force or '''residual strong nuclear force'''. 
+
+==Details==
+
+The strong force is postulated in Quantum chromodynamics, QCD.
+
+QCD is a part of the standard model of particle physics.
+
+Mathematically, QCD is a non-Abelian gauge theory based on a local (gauge) symmetry group called SU(3).
+
+All particles in QCD interact with each other through the strong force. 
+The strength of interaction is parametrized by the strong coupling constant. 
+This strength is modified by the gauge color charge of the particle. This refers to a group theoretical property explained in the article on color charge.
+
+L''''interaction forte''', ou '''force forte''' (appelée parfois '''force de couleur'''), est, avec la force de gravitation, la quatre interactions fondamentales de la force électromagnétique est portée par les photons). Cette force forte maintient les quarks ensemble pour former les baryons, tels que les protons ou les neutrons et pour former les mésons, tels les pions ou les kaons. Tous les ensembles de quarks (i.e. les baryons et les mésons) sont nommés hadrons.
+
+Un effet dérivé de la force forte est responsable de la cohésion des noyau de l'atome (voire force nucléaire).
+
+==Historique==
+
+Jusque dans les années 70 les protons et neutrons étaient considérés comme les particules élémentaires et l'expression ''interaction forte'' désignait ce qu'on appelle aujourd'hui la force nucléaire ou encore interaction forte résiduelle. On observait une force responsable de la cohésion du noyau atomique, en étant capable de surpasser la répulsion électrique entre protons. Elle tire son nom de ce fort effet à courte distance.<br />
+Après la découverte des quarks, les scientifiques se sont rendu compte que cette force entre nucléons à moyenne distance n'était en réalité que le reflet de l'interaction entre les quarks (qui constituent les protons) et les gluons, agissant au sein des protons eux-mêmes. L'ancienne notion a donc été remplacée par celle d'interaction forte résiduelle, et la «&thinsp;nouvelle&thinsp;» interaction appelée ''force de couleur'' ou tout simplement ''interaction forte''.
+
+==Principes de base==
+
+La théorie qui décrit cette interaction forte est la chromodynamique quantique, aussi appelée par son acronyme anglais '''QCD''' (Quantum ChromoDynamics). D'après cette théorie, chaque quark porte une '''charge de couleur'''<ref>La racine du mot grec ''chroma'' qui signifie ''couleur'', explique l'étymologie du terme chromodynamique quantique</ref> qui peut être de trois sortes : «&thinsp;bleue&thinsp;», «&thinsp;verte&thinsp;» ou «&thinsp;rouge&thinsp;». Ces «&thinsp;couleurs&thinsp;» ne sont que des noms et n'ont rien à voir avec les couleurs au sens habituel. Les antiquarks de leur côté portent une charge «&thinsp;antibleue&thinsp;» (nommée aussi jaune, et équivalente à vert+rouge), «&thinsp;antiverte&thinsp;» (nommée aussi magenta = bleu+rouge) ou «&thinsp;antirouge&thinsp;» (nommée aussi cyan = bleu+vert). Un hadron ne peut exister que si sa couleur totale est neutre ou «&thinsp;blanche&thinsp;» (ce que l'on appelle aussi un singulet de couleur). Ainsi un méson est composé d'une paire quark-antiquark qui ne peut être qu'une combinaison symétrique de «&thinsp;bleue&thinsp;»&thinsp;&ndash;&thinsp;«&thinsp;antibleue&thinsp;», «&thinsp;verte&thinsp;»&thinsp;&ndash;&thinsp;«&thinsp;antiverte&thinsp;» et «&thinsp;rouge&thinsp;»&thinsp;&ndash;&thinsp;«&thinsp;antirouge&thinsp;». De même un baryon est formé de trois quarks (ou trois antiquarks) qui devront porter chacun une couleur différente «&thinsp;bleue&thinsp;», «&thinsp;verte&thinsp;» et «&thinsp;rouge&thinsp;» (ou «&thinsp;antibleu&thinsp;», «&thinsp;antiverte&thinsp;» et «&thinsp;antirouge&thinsp;»), la somme des trois couleurs étant neutre.
+
+Les gluons, intermédiaires de l'interaction forte, portent pour leur part à la fois une couleur et une anti-couleur (par exemple, bleu-antirouge, ou vert-antibleu). Il y a 9 possibilités d'associations de couleur-anticouleur mais seulement 8 gluons, pour des raisons mathématiques liées à la symétrie de jauge SU(3) à la base de la chromodynamique quantique (très brièvement, la combinaison linéaire bleu-antibleu + vert-antivert + rouge-antirouge est totalement neutre et ne correspond pas à un gluon). L'interaction d'un gluon avec un quark peut modifier la couleur de ce dernier&thinsp;: un gluon bleu-antirouge absorbé par un quark rouge va le transformer en quark bleu&thinsp;; ou encore un quark vert pourra émettre un gluon vert-antirouge en devenant rouge. Une conséquence de ce mécanisme est que la charge de couleur d'un quark donné va changer de manière continuelle par échange de gluons avec ses voisins, mais la charge totale d'un système isolé de particules sera conservée au cours du temps. Ainsi la paire quark-antiquark d'un méson passe constamment de rouge-antirouge à vert-antivert (par échange d'un gluon rouge-antivert), et bleu-antibleu, etc., seule la somme des couleurs reste neutre.
+
+Une caractéristique particulière de l'interaction forte est qu'elle agit aussi sur ses propres particules vecteurs, c'est-à-dire les interactions fondamentales&thinsp;: le photon, par exemple, n'est pas chargé électriquement (en fait l'interaction faible présente une caractéristique similaire, de par la charge des W<sup>+</sup> et W<sup>&ndash;</sup>, mais les conséquences sur cette interaction sont négligeables). Pour l'interaction forte, cette caractéristique a pour conséquence une portée très réduite de cette force, de l'ordre du diamètre d'un hadron (~&thinsp;1&thinsp;fm). Une autre conséquence est que la force entre deux quarks est à peu près constante, à la différence des autres interactions où la force est proportionnelle à l'inverse du carré de la distance. Si l'on cherche à séparer deux quarks, on devra donc dépenser une énergie de plus en plus grande au fur et à mesure que la distance augmentera. À un moment, on aura fourni assez d'énergie pour créer de nouveaux quarks ou antiquarks qui vont s'associer aux quarks initiaux pour créer de nouveaux hadrons. 

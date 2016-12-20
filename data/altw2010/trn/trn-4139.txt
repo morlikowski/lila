@@ -1,0 +1,37 @@
+'''Parallakse''' er endringen i posisjonen til to stasjonære punkter relativt til hverandre sett av en obersvatør, som følge av at observatørens bevegelse. Det er den tilsynelatende forflytningen av ett objekt i forhold til en bakgrunn på grunn av endring i observatørens posisjon. 
+
+== Bruk til avstandsberegninger ==
+
+Ved å observere parallakse, måle vinkler og bruke geometri, kan man bestemme avstanden til forskjellige objekter. Når man bruker dette i forbindelse med stjerner, kalles effekten for stellar parallakse. Den første målingen av stellar parallakse i nyere tid ble gjort av Friedrich Bessel i 1838, for stjernen 61 Cygni.
+
+Avstandsberegning ved hjelp av parallakse, er et spesialtilfelle av prinsippet triangulering, hvor man kan finne alle sidene og vinklene i ett nettverk av triangler hvis, i tillegg til å vite alle vinklene i nettverket, man vet lengden til bare en side. Slik vil en nøye oppmåling av en baselinje kunne bestemme alle de andre sidene i nettverket. I parallakse er trekanten ekstremt lang og smal, og ved å måle kortsiden og den lille toppvinkelen (de to andre vinklene er da nær 90 grader), vil man kunne bestemme de lange sidene (som i praksis er like lange).
+
+== Den trigonometriske parallaksemetoden ==
+
+Når vi strekker ut armen, holder en finger i været og lukker øyene vekselvis, flytter fingeren seg tilsynelatende i forhold til bakgrunnen. Dette fenomenet kalles parallakse. Årsaken er at vi ser på fingeren med litt forskjellig vinkel om vi ser med høyre eller venstre øye. Beveger vi fingeren nærmere ansiktet blir forflytningen større. Den tilsynelatende forflytningen blir enda større om vi flytter hodet til sidene. Dette prinsippet utnyttes til å bestemme avstanden til nære stjerner. Øyeavstanden er diameteren i jordas bane rundt solen. Så foretar man nøyaktige bestemmelser av vinkelen p, parallaksen til stjernen, som er halve vinkelen til den observerte forflytningen. Som referanse ved vinkelmålingene bruker man fjerne stjerner som ikke har noen synlig parallakse.
+
+Av figuren ser vi at
+
+<math>\sin p = \frac{a}{r}</math>
+
+der p = parallaksevinkelen, a = den store halvaksen i jordas bane rundt solen, r = avstanden til stjernen.
+	Avstanden er altså
+
+<math>r = \frac {a}{\sin p}</math>
+
+Vi ser at parallaksevinkelen er veldig liten, selv for den nærmeste nabostjernen. Jo lengre borte en stjerne er desto mindre blir parallaksevinkelen. Dette setter begrensninger for denne metoden for avstandsbestemmelse. ESA-satellitten Hipparcos, som var i drift fra 1989 - 1993, foretok de mest nøyaktige parallaksemålinger hittil. Målingene ble ikke forstyrret av atmosfæren, slik at den kunne bestemme parallaksen med en nøyaktighet på 0,002 buesekunder. I 2012 skal ESA skyte opp satellitten Gaia, som skal levere atskillig mer detaljerte data om posisjon og bevegelser til enda fjernere objekter.
+
+'''Eksempel:'''
+
+thumb|100px|Astronomisk parallax
+: ''Den här artikeln handlar om det optiska begreppet parallax. Se också Parallax (olika betydelser)''.
+----
+'''Parallax''' (av grekiska ''parallaxis'', ombyte, förflyttning).
+
+*Inom astronomi avses med parallax vinkeln mellan en himlakropps iakttagna läge vid en observationspunkt i förhållande till himlakroppens iakttagna läge vid en annan observationspunkt. Denna vinkel blir alltid mindre, ju mera avlägsen den iakttagna himlakroppen är. Således är parallaxen större, ju mindre avståndet är.<br />Detta fenomen används vid bestämmandet av den nu längsta använda längdenheten parsec (parallaxsekund) vilken är längden på de liklånga sidorna i en likbent triangel med basen = 1 AU (Astronomisk enhet) och spetsvinkeln 1 bågsekund. Avståndet är cirka 3,26 ljusår. 
+
+*Inom sökaren inte stämmer med den bild som projicieras via fotografiska filmen. Det är denna effekt som spelar den ovane amatörfotografen spratt genom avhuggna huvuden och liknande. Detta parallaxfel är dock helt eliminerat vid en så kallad ''enögd spegelreflexkamera&nbsp;'' (ESR-kamera).
+
+* Inom mätteknik används uttrycket parallaxfel om mätobjekt som ligger åtskilda, och som därmed inte går att avläsa med noggrannhet. Ett vardagsexempel är om man tittar på en vanlig väggklocka från sidan då visaren missvisar i proportion med betraktningsvinkel och avståndet mellan visare och urtavla.
+
+*Inom Fotogrammetri fotograferar man jordytan med en flygkamera (med noggrant kända inre och yttre mått) från ett flygplan (vars geometriska förhållande relativt jordytan är kända) i syfte att kartera geografisk information. En viktig användning i modern tid är att framställa tredimensionell geografisk information utifrån tvådimensionella fotografier. Tidigare utfördes stereomätning med hjälp av s k stereoskop (som med hjälp av linser möjliggjorde att man utifrån två fotografier tydligt kunde se en tredimensionell bild). Med hjälp av stereoskopet kunde tredimensionell landskapsinformation återskapas med noggrannhet och landskapet karteras manuellt; efter exakata beräkningar i stereoskop, kunde geometriskt korrekta fotografier skapas, så kallade "ortofotgrafier". Till skillnad från de ursprungliga flygfotografierna, är "ortofotografier" geometriskt riktiga med vissa kända fel. Vid flygfotografering avbildar ett foto ca. 60% av området i föregående foto. Det överlappande området ger möjlighet till 3D-bearbetning. En egenskap hos dessa "ortofotografier" är att de är geometriskt korrekta endast på en viss höjd i planet och att noggrannheten minskar ju närmare "flygfotonas ursprungliga bildkanter" man befinner sig. Till skillnad från den analoga karteringen som gjordes när de s k stereoskopen användes, beräknas i modern tid, med hjälp av datorer, en virtuell tredimensionell karta. Användningen av ortofotografier har blivit allt vanligare. Vid flygkartering uppstår ett geometriskt fel som enklast kan förstås i analogi med att titta på en 3D-film utan 3D-glasögon: det röda och det gröna är konsekvent förskjutet utan glasögon. Med glasögon förstår hjärnan informationen, men överdriver djupet. Även när ett bildpar betraktas i ett stereoskop är alla höjder överdrivna. Detta beror på att det finns en förskjutning mellan bild 1 och bild 2 efter flygplanets förflyttning vid flygfotograferingen. Den geometriska avvikelsen/förskjutningen kallas "parallax" och är mest påtaglig i höjdled, men är även märkbar i planet (tvådimensionellt). När "ortofotografier" beräknas idag är parallaxfel korrigerade så långt det är teknisk möjligt, men metoden medför en tvådimensionell redovisning av tredimensionell information, som därmed inte kan vara helt korrekt. På ett ortofoto är därför alltid ett höghus förskjutet i sidled i förhållande till byggnadsgrunden.

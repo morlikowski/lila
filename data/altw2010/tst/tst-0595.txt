@@ -1,0 +1,140 @@
+وهي الأشعة الإكتروطيسية التي لها مد موجٍ أطول من مد موج الضوء الذي يـُرَى. وإن مد موجها أقصر من مد موج موجات الراديو. وهي "تحت الحمراء" لأن اللون الأحمر هو اللون الأكثر مدًا للموج من الألوان التي تـُرىَ. والأشعة تحت الحمراء لها مد الموج ما بين 750 نانومترا وملمتر واحد.  
+
+وتستخدم الأشعة تحت الحمراء في الأسلحة الدفاعية، وغيرها. ففي الأسلحة الدفاعية تستخدم في الأحصال على الهدف (التهديف)، والمراقبة، والتوجيه والتتبع. أما في غيرها فيستخدم في فحص كفاءة الدفء، وأسنحساس الدفء من بعيد والبلاغ اللاسلكي القصير الحيز، ومنظار تحليل الطيف وتنبؤ الطقس. وفي علم الفلك تستخدم هذه الأشعة كي يرى ما وراء مناطق الفضاء المليئة بالغبار الكوني، كغيوم المجرة. ولأستكشاف أشياء بعيدة كالكواكب والنجوم، ولترى أشياء كثيرة التغيير إلى الأحمر من أيام الكون المبكرة في الأجرام السماوية. 
+
+والأشعة تحت الحمراء هي أشعة غير مرئية وتعد الشمس  مصدر الإشعاع الطبيعي الأول لكل أنواع الطاقة الكهرطيسية أو الكهرومغناطيسية وهي : الأشعة فوق البنفسجية (تشكل 2% من أشعة الشمس) والضوء المرئي (47%) و الأشعة تحت الحمراء (51%).
+
+eo:Infraruĝa radiado
+es:Radiación infrarroja
+
+thumb|right|250px|Image of two people in mid-infrared ("thermal") light ([[false-color)]]
+
+'''Infrared''' ('''IR''') radiation is  nm and 1&nbsp;mm, spanning three orders of magnitude. Humans at normal body temperature can radiate at a wavelength of 10 microns.<ref></ref>
+
+Infrared imaging is used extensively for both military and civilian purposes. Military applications include red-shifted objects from the early days of the universe.<ref name="ir_astronomy"></ref>
+
+At the atomic level, infrared energy elicits vibrational modes in a molecule through a change in the dipole moment, making it a useful frequency range for study of these energy states. Infrared spectroscopy examines absorption and transmission of photons in the infrared energy range, based on their frequency and intensity.<ref></ref>
+
+==Origins of the term==
+The name means below red (from the Latin ''infra'', "below"), red being the color of the longest wavelengths of visible light. IR light has a longer wavelength than that of red light. A longer wavelength means it has a lower frequency than red, hence below.
+
+==Different regions in the infrared==
+
+Objects generally emit infrared radiation across a spectrum of wavelengths, but only a specific region of the spectrum is of interest because sensors are usually designed only to collect radiation within a specific bandwidth. As a result, the infrared band is often subdivided into smaller sections.
+
+The International Commission on Illumination (CIE) recommended the division of optical radiation into the following three bands:<ref>{{cite web
+ | last=Henderson
+ | first=Roy
+ | url=http://info.tuwien.ac.at/iflt/safety/section1/1_1_1.htm
+ | title=Wavelength Considerations
+ | publisher=Instituts für Umform- und Hochleistungs
+ | accessdate=2007-10-18
+}}</ref>
+
+* IR-A: 700&nbsp;nm&ndash;1400&nbsp;nm
+* IR-B: 1400&nbsp;nm&ndash;3000&nbsp;nm
+* IR-C: 3000&nbsp;nm&ndash;1&nbsp;mm
+
+A commonly used sub-division scheme is:
+
+*Near-infrared ('''NIR''', IR-A ''µm in wavelength, defined by the water absorption, and commonly used in fiber optic telecommunication because of low attenuation losses in the SiO<sub>2</sub> glass (silica) medium. Image intensifiers are sensitive to this area of the spectrum. Examples include night vision devices such as night vision goggles. 
+
+*Short-wavelength infrared ('''SWIR''', IR-B ''DIN''): 1.4-3&nbsp;µm, water absorption increases significantly at 1,450&nbsp;nm. The 1,530 to 1,560&nbsp;nm range is the dominant spectral region for long-distance telecommunications
+
+*Mid-wavelength infrared ('''MWIR''', IR-C ''DIN'') also called intermediate infrared (IIR): 3-8&nbsp;µm. In guided missile technology the 3-5&nbsp;µm portion of this band is the atmospheric window in which the homing heads of passive IR 'heat seeking' missiles are designed to work, homing on to the IR signature of the target aircraft, typically the jet engine exhaust plume.
+
+*Long-wavelength infrared ('''LWIR''', IR-C ''DIN''): 8&ndash;15&nbsp;µm. This is the "thermal imaging" region, in which sensors can obtain a completely passive picture of the outside world based on thermal emissions only and requiring no external light or thermal source such as the sun, moon or infrared illuminator. Forward-looking infrared (FLIR) systems use this area of the spectrum. Sometimes also called the "far infrared."
+
+*Far infrared ('''FIR'''): 15-1,000&nbsp;µm (see also far infrared laser) 
+
+NIR and SWIR is sometimes called ''reflected infrared'' while MWIR and LWIR is sometimes referred to as ''thermal infrared''. Due to the nature of the blackbody radiation curves, typical 'hot' objects, such as exhaust pipes, often appear brighter in the MW compared to the same object viewed in the LW.
+
+Astronomers typically divide the infrared spectrum as follows:<ref>{{cite web
+  | author=IPAC Staff
+  | url = http://www.ipac.caltech.edu/Outreach/Edu/Regions/irregions.html
+  | title = Near, Mid and Far-Infrared
+  | publisher = NASA ipac
+  | accessdate = 2007-04-04
+}}</ref>
+
+*'''near''': (0.7-1) to 5 µm
+*'''mid''': 5 to (25-40) µm
+*'''long''': (25-40) to (200-350) µm
+
+These divisions are not precise and can vary depending on the publication. The three regions are used for observation of different temperature ranges, and hence different environments in space.
+
+right|thumb|250px|Plot of atmospheric transmittance in part of the infrared region.
+A third scheme divides up the band based on the response of various detectors:<ref name="Miller">Miller, ''Principles of Infrared Technology'' (Van Nostrand Reinhold, 1992), and Miller and Friedman, ''Photonic Rules of Thumb'', 2004.</ref>
+
+*Near infrared ('''NIR'''): from 0.7 to 1.0 micrometers (from the approximate end of the response of the human eye to that of silicon)
+*Short-wave infrared ('''SWIR'''): 1.0 to 3 micrometers (from the cut off of silicon to that of the MWIR atmospheric window. InGaAs covers to about 1.8 micrometers; the less sensitive lead salts cover this region
+*Mid-wave infrared ('''MWIR'''): 3 to 5 micrometers (defined by the atmospheric window and covered by Indium antimonide [InSb] and HgCdTe and partially by lead selenide [PbSe]) 
+*Long-wave infrared ('''LWIR'''): 8 to 12, or 7 to 14 micrometers: the atmospheric window (Covered by HgCdTe and microbolometers)
+*Very-long wave infrared ('''VLWIR'''): 12 to about 30 micrometers, covered by doped silicon
+
+These divisions are justified by the different human response to this radiation: near infrared is the region closest in wavelength to the radiation detectable by the human eye, mid and far infrared are progressively further from the visible regime. Other definitions follow different physical mechanisms (emission peaks, vs. bands, water absorption) and the newest follow technical reasons (The common InGaAs' sensitivity starts around 950&nbsp;nm and ends between 1,700 and 2,600&nbsp;nm, depending on the specific configuration). Unfortunately, international standards for these specifications are not currently available.
+
+The boundary between visible and infrared light is not precisely defined. The human eye is markedly less sensitive to light above 700 nm wavelength, so shorter frequencies make insignificant contributions to scenes illuminated by common light sources. But particularly intense light (e.g., from lasers, or from bright daylight with the visible light removed by colored gels[http://amasci.com/amateur/irgoggl.html]) can be detected up to approximately 780 nm, and will be perceived as red light. The onset of infrared is defined (according to different standards) at various values typically between 700 nm and 800 nm.
+
+===Telecommunication bands in the infrared===
+In optical communications, the part of the infrared spectrum that is used is divided into several bands based on availability of light sources, transmitting/absorbing materials (fibers) and detectors:<ref></ref>
+
+{| class="wikitable" style="Margin-left: auto; margin-right: auto;"
+|-
+!Band
+!Descriptor
+!Wavelength range
+|-
+|O band
+|Original
+|1260&ndash;1360&nbsp;nm
+|-
+|E band
+|Extended
+|1360&ndash;1460&nbsp;nm
+|-
+|S band
+|Short wavelength
+|1460&ndash;1530&nbsp;nm
+|-
+|C band
+|Conventional
+|1530&ndash;1565&nbsp;nm
+|-
+|L band
+|Long wavelength
+|1565&ndash;1625&nbsp;nm
+|-
+|U band
+|Ultralong wavelength
+|1625&ndash;1675&nbsp;nm
+|}
+
+The C-band is the dominant band for long-distance telecommunication networks. The S and L bands are based on less well established technology, and are not as widely deployed.
+
+===Heat===
+
+Infrared radiation is popularly known as "heat"<!--Do not wikilink incorrect use of term to correct meaning.--> or sometimes "heat radiation", since many people attribute all radiant heating to infrared light and/or to all infrared radiation to being a result of heating. This is a widespread misconception, since light and electromagnetic waves of any frequency will heat surfaces that absorb them. Infrared light from the Sun only accounts for 49%<ref></ref> of the heating of the Earth, with the rest being caused by visible light that is absorbed then re-radiated at longer wavelengths. Visible light or emit radiation mostly concentrated in the 8 to 12 micrometer band, but this is not distinct from the emission of visible light by incandescent objects and ultraviolet by even hotter objects (see black body and Wien's displacement law).<ref></ref>
+
+Heat is energy in transient form that flows due to temperature difference. Unlike heat transmitted by thermal conduction or thermal convection, radiation can propagate through a vacuum.
+
+The concept of emissivity is important in understanding the infrared emissions of objects. This is a property of a surface which describes how its thermal emissions deviate from the ideal of a black body. To further explain, two objects at the same physical temperature will not 'appear' the same temperature in an infrared image if they have differing emissivities.
+
+== Applications ==
+
+===Infrared Filters===
+
+Infrared (IR) filters can be made from many different materials. One type is made of polysulphone plastic that blocks over 99% of the visible light spectrum from “white” light sources such as incandescent filament bulbs. Infrared filters allow a maximum of infrared output while maintaining extreme covertness. Currently in use around the world, infrared filters are used in Military, Law Enforcement, Industrial and Commercial applications. The unique makeup of the plastic allows for maximum durability and heat resistance. IR filters provide a more cost effective and time efficient solution over the standard bulb replacement alternative. All generations of night vision devices are greatly enhanced with the use of IR filters.
+
+===Night vision===
+
+thumb|Active-infrared night vision. Despite a dark back-lit scene, active-infrared night vision delivers identifying details, as seen on the display monitor. Infrared is used in night vision equipment when there is insufficient visible light to see.<ref name="hownightvisionworks"></ref> Night vision devices operate through a process involving the conversion of ambient light photons into electrons which are then amplified by a chemical and electrical process and then converted back into visible light.<ref name="hownightvisionworks" />  Infrared light sources can be used to augment the available ambient light for conversion by night vision devices, increasing in-the-dark visibility without actually using a visible light source.<ref name="hownightvisionworks" />
+
+The use of infrared light and night vision devices should not be confused with thermal imaging which creates images based on differences in surface temperature by detecting infrared radiation (heat) that emanates from objects and their surrounding environment<ref></ref>
+
+===Thermography===
+
+thumb|left|250px|A thermographic image of a dog
+Infrared radiation can be used to remotely determine the temperature of objects (if the emissivity is known). This is termed thermography, or in the case of very hot objects in the NIR or visible it is termed pyrometry. Thermography (thermal imaging) is mainly used in military and industrial applications but the technology is reaching the public market in the form of infrared cameras on cars due to the massively reduced production costs.
+
+Thermographic cameras detect radiation in the infrared range of the electromagnetic spectrum (roughly 900–14,000 nanometers or 0.9–14 µm) and produce images of that radiation. Since infrared radiation is emitted by all objects based on their temperatures, according to the black body radiation law, thermography makes it possible to "see" one's environment with or without visible illumination. The amount of radiation emitted by an object increases with temperature, therefore thermography allows one to see variations in temperature (hence the name).

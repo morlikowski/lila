@@ -1,0 +1,2299 @@
+== Tabela de comparação ==
+
+{| border="1" cellpadding="1" cellspacing="0" style="font-size: 85%; border: gray solid 1px; border-collapse: collapse; text-align: center; width: 100%"
+
+|-
+! style="background: #cccccc;"| Geral
+!style="background: #cccccc; width:120pt;"| Confluence
+!style="background: #cccccc;"| CorendalWiki
+!style="background: #cccccc;"| coWiki
+!style="background: #cccccc;"| DidiWiki
+!style="background: #cccccc;"| DokuWiki
+!style="background: #cccccc;"| EditMe
+!style="background: #cccccc;"| FlexWiki
+! style="background: #cccccc;"| Geral
+!style="background: #cccccc;"| Instiki
+!style="background: #cccccc;"| JSPWiki
+!style="background: #cccccc;"| MediaWiki
+!style="background: #cccccc;" width:120pt;| Midgard Wiki
+!style="background: #cccccc;"| MoinMoin
+!style="background: #cccccc;"| OpenWiki
+! style="background: #cccccc;"| Geral
+!style="background: #cccccc;"| OpenLink Wiki 
+!style="background: #cccccc;" width:120pt;| Perspective
+!style="background: #cccccc;"| PhpWiki
+!style="background: #cccccc;"| PmWiki
+!style="background: #cccccc;"| Swiki
+!style="background: #cccccc;"| TikiWiki
+! style="background: #cccccc;"| Geral
+!style="background: #cccccc;"| TWiki
+!style="background: #cccccc;"| UseModWiki
+!style="background: #cccccc;"| WackoWiki
+!style="background: #cccccc;"| Wiclear
+!style="background: #cccccc;"| WikkaWiki
+!style="background: #cccccc;" width:100pt;| WikkiTikkiTavi
+!style="background: #cccccc;"| XWiki
+! style="background: #cccccc;"| Geral
+|-
+!style="background: #ececec; whitespace:nowrap; "| Site do Projeto<br>(Home page)
+| [http://www.atlassian.com/software/confluence/ <tt>Atlassian.com</tt>]<!-- Confluence -->
+| [http://www.corendal.com/ corendal.com]<!-- CorendalWiki -->
+| <!-- coWiki -->
+| [http://www.didiwiki.org/ didiwiki.org] <!-- didiwiki -->
+| [http://wiki.splitbrain.org/ splitbrain.org] <!-- DokuWiki -->
+| [http://www.editme.com/ editme.com]<!-- EditMe -->
+| <!-- FlexWiki -->
+!style="background: #ececec;"| Site do Projeto<br>(Home page)
+| [http://www.instiki.org/ instiki.org] <!-- Instiki -->
+| [http://www.jspwiki.org/ jspwiki.org] <!-- JSPWiki -->
+| [http://www.mediawiki.org/ mediawiki.org] <!-- MediaWiki -->
+| [http://www.midgard-project.org/ midgard-project.org] <!-- Midgard Wiki -->
+| [http://moinmoin.wikiwikiweb.de/ wikiwikiweb.de] <!-- MoinMoin -->
+| <!-- OpenWiki -->
+!style="background: #ececec;"| Site do Projeto<br>(Home page)
+| [http://virtuoso.openlinksw.com/wiki/main/Main/OdsWiki/ Openlinksw.com] <!-- OpenLink Wiki -->
+| [http://www.high-beyond.com/ high-beyond.com] <!-- Perspective -->
+| [http://phpwiki.sourceforge.net/ sourceforge.net] <!-- PhpWiki -->
+| [http://pmwiki.org pmwiki.org] <!-- PmWiki -->
+| [http://wiki.squeak.org/swiki/ wiki.squeak.org] <!-- Swiki -->
+| [http://tikiwiki.org/ tikiwiki.org] <!-- TikiWiki -->
+!style="background: #ececec;"| Site do Projeto<br>(Home page)
+| [http://www.twiki.org/ twiki.org] <!-- TWiki -->
+| [http://www.usemod.com/ usemod.com] <!-- UseModWiki -->
+| [http://wackowiki.de/ wackowiki.de] <!-- WackoWiki -->
+| [ ] <!-- Wiclear -->
+| [http://wikkawiki.org/HomePage wikkawiki.org] <!-- WikkaWiki -->
+| [ ] <!-- WikkiTikkiTavi -->
+| [http://www.xwiki.org/ xwiki.org] <!-- XWiki -->
+!style="background: #ececec;"|Home page
+
+|-
+!style="background: #ececec;"| Última versão estável
+| 2.5.4 <!-- Confluence -->
+| 2.0.8 <!-- CorendalWiki -->
+| 0.3.4 <!-- coWiki -->
+| 0.5 <!-- didiwiki -->
+| 2006.03.09 <!-- DokuWiki -->
+| 2006.06.03 <!-- EditMe -->
+|  <!-- FlexWiki -->
+!style="background: #ececec;"| Última versão estável
+| 0.11.0 <!-- Instiki -->
+| 2.2.33 <!-- JSPWiki -->
+| 1.7.1<!-- MediaWiki -->
+| 1.7.4<!-- Midgard Wiki -->
+| 1.5.4 <!-- MoinMoin -->
+| 0.78 sp1 <!-- OpenWiki -->
+!style="background: #ececec;"| Última versão estável
+|  <!-- OpenLink Wiki -->
+| 0.906 <!-- Perspective -->
+| 1.3.12p2 <!-- PhpWiki -->
+| 2.1.11 <!-- PmWiki -->
+| 1.5 AKA One Of These Days <!-- Swiki -->
+| 1.9.8 <!-- TikiWiki -->
+!style="background: #ececec;"| Última versão estável
+| 4.0.4 <!-- TWiki -->
+| 1.0 <!-- UseModWiki -->
+| R4.2 <!-- WackoWiki -->
+| 0.10 <!-- Wiclear -->
+| 1.1.6.2 <!-- WikkaWiki -->
+| 0.26 <!-- WikkiTikkiTavi -->
+| 0.9.840 <!-- XWiki -->
+!style="background: #ececec;"| Última versão estável
+|-
+!style="background: #ececec;"|Ano da primeira versão estável
+| 2004 <!-- Confluence -->
+| 2005 <!-- CorendalWiki -->
+| 2002 <!--cowiki -->
+| ? <!-- didiwiki -->
+| 2004 <!--DokuWiki -->
+| 2002 <!-- EditMe -->
+| ? <!-- FlexWiki -->
+!style="background: #ececec;"|Ano da primeira versão estável
+| ? <!-- Instiki -->
+| 2001 <!-- JSPWiki -->
+| 2002
+| 2004 <!-- Midgard Wiki -->
+| 2000 <!-- MoinMoin -->
+| ? <!-- OpenWiki -->
+!style="background: #ececec;"|Ano da primeira versão estável
+| 2006 <!-- OpenLink Wiki --> 
+| 2004 <!-- Perspective -->
+| 1999 <!-- PhpWiki -->
+| 2004<!-- PmWiki -->
+| 2001 <!-- Swiki -->
+| 2002 <!-- TikiWiki -->
+!style="background: #ececec;"|Ano da primeira versão estável
+| 1998 <!-- TWiki -->
+| ? <!-- UseModWiki -->
+| 2003 <!-- WackoWiki -->
+| 2004 <!-- Wiclear -->
+| 2004 <!-- WikkaWiki -->
+| ? <!-- WikkiTikkiTavi -->
+| 2004 <!-- XWiki -->
+!style="background: #ececec;"|Ano da primeira versão estável
+
+|-
+!style="background: #ececec;"|Demonstração 
+| [http://confluence.atlassian.com sim] <!-- Confluence -->
+| [http://www.corendal.com/java-corendal/wiki/home/ sim] <!-- CorendalWiki -->
+| [http://www.cowiki.org sim] <!-- cowiki -->
+| <!-- didiwiki -->
+| <!-- DokuWiki -->
+| [http://www.editme.com/demo sim]<!-- EditMe -->
+| <!-- FlexWiki -->
+!style="background: #ececec;"|Demonstração 
+| <!-- Instiki -->
+| [http://sandbox.jspwiki.org/ sim] <!-- JSPWiki -->
+| <!-- MediaWiki -->
+| <!-- Midgard Wiki -->
+| [http://moinmoin.wikiwikiweb.de/WikiSandBox sim] <!-- MoinMoin -->
+| [http://www.openwiki.com/ow.asp?OpenWiki sim]
+!style="background: #ececec;"|Demonstração 
+| [http://demo.openlinksw.com/ods/ sim] <!-- OpenLink Wiki --> 
+| [http://www.high-beyond.com/perspective.aspx?action=edit-form&page=sandbox.EditMe sim]<!-- Perspective -->
+| <!-- PhpWiki -->
+| [http://www.pmwiki.org/wiki/Main.WikiSandbox sim]<!-- PmWiki -->
+| [http://minnow.cc.gatech.edu/ sim] <!-- Swiki -->
+| [http://tikiwiki.org sim] <!-- TikiWiki --> 
+!style="background: #ececec;"|Demonstração 
+| [http://twiki.org/ sim] <!-- TWiki -->
+| [http://www.usemod.com/cgi-bin/wiki.pl?SandBox sim]<!-- UseModWiki -->
+| <!-- WackoWiki -->
+| [http://wiclear.free.fr sim] <!-- Wiclear -->
+| [http://demo.wikkawiki.org sim]<!-- WikkaWiki -->
+| [http://tavi.sourceforge.net sim] <!-- WikkiTikkiTavi -->
+| <!-- XWiki -->
+!style="background: #ececec;"|Demonstração 
+
+|-
+!style="background: #ececec;"|Usuários
+| Corporações; Público em geral; Privado; Educação <!-- Confluence -->
+| Corporações <!-- CorendalWiki -->
+| Corporações; Público em geral; Privado <!-- cowiki -->
+| Pessoal <!-- didiwiki -->
+| Corporações; Público em geral; Privado <!-- DokuWiki -->
+| Corporações; Intranet; Educação; Público em geral; Privado <!-- EditMe -->
+| Público em geral; Privado <!-- FlexWiki -->
+!style="background: #ececec;"|Usuários
+| Público em geral; Privado <!-- Instiki -->
+| Corporações; Público em geral; Privado<!-- JSPWiki -->
+| Corporações; Público em geral; Privado
+| Corporações; Público em geral; Privado <!-- Midgard Wiki -->
+| Corporações; Público em geral; Privado <!-- MoinMoin -->
+| Corporações; Público em geral; Privado <!-- OpenWiki -->
+!style="background: #ececec;"|Usuários
+| Corporações; Público em geral; Privado <!-- OpenLink Wiki -->
+| Corporações em Intranet; Público em geral; Privado <!-- Perspective -->
+| Público em geral; Privado <!-- PhpWiki -->
+| Público em geral; Privado <!-- PmWiki -->
+| Educação, Público em geral; Privado <!-- Swiki -->
+| Corporações, Educação, Público em geral; Privado <!-- TikiWiki -->
+!style="background: #ececec;"|Usuários
+| Corporações; Educação; Público em geral; Privado <!-- TWiki -->
+| Corporações; Educação; Público em geral; Privado <!-- UseModWiki -->
+| Corporações; Educação; Público em geral; Privado <!-- WackoWiki -->
+| Público em geral; Privado <!-- Wiclear -->
+| Corporações; Educação; Público em geral; Privado <!-- WikkaWiki -->
+| Público em geral <!-- WikkiTikkiTavi -->
+| Corporações; Educação; Público em geral; Privado <!-- XWiki -->
+!style="background: #ececec;"|Usuários
+
+|-
+!style="background: #ececec;"|Linguagem de programação
+| Java <!-- Confluence-->
+| Java <!-- CorendalWiki -->
+| PHP <!-- coWiki -->
+| Linguagem C <!-- didiwiki -->
+| PHP <!-- DokuWiki -->
+| Java <!-- EditMe -->
+| C# <!-- FlexWiki -->
+!style="background: #ececec;"|Linguagem de programação
+| Ruby <!-- Instiki -->
+| Java <!-- JSPWiki -->
+| PHP e Ocaml <!-- MediaWiki -->
+| PHP <!-- Midgard Wiki -->
+| Python <!-- MoinMoin -->
+| ASP, VBScript <!-- OpenWiki -->
+!style="background: #ececec;"|Linguagem de programação
+| [http://docs.openlinksw.com/virtuoso/vspx.html#vspx/ VSPX] <!-- OpenLink Wiki -->
+| ASP.NET, C#, XSLT <!-- Perspective -->
+| PHP <!-- PhpWiki -->
+| PHP <!-- PmWiki -->
+| Squeak <!-- Swiki -->
+| PHP <!-- TikiWiki -->
+!style="background: #ececec;"|Linguagem de programação
+| Perl <!-- TWiki -->
+| Perl <!-- UseModWiki -->
+| PHP <!-- WackoWiki -->
+| PHP <!-- Wiclear -->
+| PHP <!-- WikkaWiki -->
+| PHP <!-- WikkiTikkiTavi -->
+| Java <!-- XWiki -->
+!style="background: #ececec;"|Linguagem de programação
+
+|-
+!style="background: #ececec;"|Banco de dados
+| Postgres, MySQL, Oracle, DB2, MS-SQL Server) <!-- Confluence-->
+| MySQL,Oracle <!-- CorendalWiki -->
+| MySQL <!-- coWiki -->
+| Arquivos do sistema<!-- didiwiki -->
+| Arquivos texto <!-- DokuWiki -->
+| MySQL <!-- EditMe -->
+| Arquivos do sistema e SQL Server <!-- FlexWiki -->
+!style="background: #ececec;"|Banco de dados
+| Active Record do Ruby <!-- Instiki -->
+| RCS e arquivo texto <!-- JSPWiki -->
+| MySQL <!-- MediaWiki -->
+| MySQL and RCS <!-- Midgard Wiki -->
+| Arquivo texto <!-- MoinMoin -->
+| MS Access e SQL Server<!-- OpenWiki -->
+!style="background: #ececec;"|Banco de dados
+| OpenLink Virtuoso <!-- OpenLink Wiki -->
+| Arquivos XML, Microsoft Indexing Service <!-- Perspective -->
+| MySQL, PostgreSQL, Microsoft SQL Server, Oracle, Firebird <!-- PhpWiki -->
+| Arquivos texto <!-- PmWiki -->
+| Arquivos do sistema <!-- Swiki -->
+| Postgres, MySQL, Oracle <!-- TikiWiki -->
+!style="background: #ececec;"|Banco de dados
+| Arquivos texto <!-- TWiki -->
+| Arquivos texto <!-- UseModWiki -->
+| MySQL <!-- WackoWiki -->
+| MySQL <!-- Wiclear -->
+| MySQL <!-- WikkaWiki -->
+| MySQL <!-- WikkiTikkiTavi -->
+| MySQL <!-- XWiki -->
+!style="background: #ececec;"|Banco de dados
+
+|-
+! style="background: #cccccc;"| Softwares
+!style="background: #cccccc;"| Confluence
+!style="background: #cccccc;"| CorendalWiki
+!style="background: #cccccc;"| coWiki
+!style="background: #cccccc;"| DidiWiki
+!style="background: #cccccc;"| DokuWiki
+!style="background: #cccccc;"| EditMe
+!style="background: #cccccc;"| FlexWiki
+! style="background: #cccccc;"| Softwares
+!style="background: #cccccc;"| Instiki
+!style="background: #cccccc;"| JSPWiki
+!style="background: #cccccc;"| MediaWiki
+!style="background: #cccccc;"| Midgard Wiki
+!style="background: #cccccc;"| MoinMoin
+!style="background: #cccccc;"| OpenWiki
+! style="background: #cccccc;"| Softwares
+!style="background: #cccccc;"| OpenLink Wiki
+!style="background: #cccccc;"| Perspective
+!style="background: #cccccc;"| PhpWiki
+!style="background: #cccccc;"| PmWiki
+!style="background: #cccccc;"| Swiki
+!style="background: #cccccc;"| TikiWiki
+! style="background: #cccccc;"| Softwares
+!style="background: #cccccc;"| TWiki
+!style="background: #cccccc;"| UseModWiki
+!style="background: #cccccc;"| WackoWiki
+!style="background: #cccccc;"| Wiclear
+!style="background: #cccccc;"| WikkaWiki
+!style="background: #cccccc;"| WikkiTikkiTavi
+!style="background: #cccccc;"| XWiki
+! style="background: #cccccc;"| Softwares
+
+|-
+!style="background: #ececec;"|Upload de arquivos
+| sim <!-- Confluence -->
+| sim <!-- corendalwiki -->
+| não <!-- coWiki -->
+| não <!-- didiwiki -->
+| sim <!-- DokuWiki -->
+| sim <!-- EditMe -->
+| sim <!-- FlexWiki -->
+!style="background: #ececec;"|Upload de arquivos
+| sim <!-- Instiki -->
+| sim <!-- JSPWiki -->
+| sim <!-- MediaWiki -->
+| sim <!-- Midgard Wiki -->
+| sim <!-- MoinMoin -->
+| sim <!-- OpenWiki -->
+!style="background: #ececec;"|Upload de arquivos
+| sim <!-- OpenLink Wiki -->
+| sim <!-- Perspective -->
+| sim <!-- PhpWiki -->
+| sim <!-- PmWiki -->
+| sim <!-- Swiki -->
+| sim <!-- TikiWiki -->
+!style="background: #ececec;"|Upload de arquivos
+| sim <!-- TWiki -->
+| sim <!-- UseModWiki -->
+| sim <!-- WackoWiki -->
+| sim <!-- Wiclear -->
+| sim <!-- WikkaWiki -->
+| sim <!-- WikkiTikkiTavi -->
+| sim <!-- XWiki -->
+!style="background: #ececec;"|Upload de arquivos
+
+'''The following tables compare general and technical information for a number of wiki software packages.'''
+
+==General Information==
+{| class="wikitable sortable" style="text-align: center; font-size: 85%; width: auto; table-layout: fixed;"
+|-
+! style="width: 12em" |
+! Creator
+! First public release date
+! Latest stable release
+! Stable release date
+! Predecessor
+! Cost (USD)
+! Software licence<ref name="licence">Licenses here are a summary, and are not taken to be complete statements of the licenses. Some packages may use libraries under different licenses.</ref>
+! Open source
+! Encoding
+! Multilingual
+! Programming language
+! Data backend
+|-
+!  | ArtificialMemory
+| ArtificialMemory Semantic Wiki
+| 
+|
+| 
+| N/A
+|  <ref>Enterprise Subscriptions start at +$500/month</ref>
+| Proprietary
+| 
+| 
+| 
+| ASP.NET/c#
+| SQL Server
+|-
+!  | Axosoft OnTime
+| Axosoft
+| 
+|
+| 
+| N/A
+| Free for 1 User, $395 and up for teams
+| Proprietary
+| 
+| 
+| 
+| ASP.NET/c#
+| SQL Server
+|-
+!  | [http://www.brainkeeper.com/ BrainKeeper]
+| BrainKeeper, Inc.
+| 
+|
+| 
+| N/A
+|  <ref>Subscriptions start at $5/month</ref>
+| Proprietary
+| 
+| 
+| Supports Multilingual Content
+| Java
+| RDBMS
+|-
+!  | Central Desktop
+| Central Desktop Inc.
+| 
+| Winter Release '07
+| 
+| N/A
+| <ref>Free Ver Available, Paid plans start at $25/month</ref>
+| Proprietary
+| 
+| 
+| 
+| PHP
+| PostgreSQL
+|-
+!  | Clearspace
+| Jive Software
+| 
+| 1.10
+| 
+| N/A
+| <ref>For internal collaboration and communities of practice: free for up to 5 users, additional users $59/user/year</ref>
+| Proprietary
+| 
+| ISO8859-1, UTF-8, …
+| <br>(supports i18n)
+| Java
+| Oracle, PostgreSQL, IBM DB2 and SQL Server</ref>
+|-
+!  | Confluence
+| Atlassian Software Systems
+| 
+| 2.8
+| 
+| N/A
+| <ref>Free (open source project or community or personal), $1200&ndash;8000 commercial, $600&ndash;4000 academic</ref>
+| <ref>Commercial, Academic, Community, Personal, Open Source Project</ref>
+| 
+| 
+| 
+| Java, Java EE
+| RDB<ref> (Oracle, DB2, MS SQL Server)</ref>
+|-
+!  | Corendal Wiki
+| Thierry Danard
+| 
+|
+| 2007-02-12
+| N/A
+| 
+| GPL
+| 
+| 
+| 
+| Java
+| Oracle
+|-
+!  | coWiki
+| Daniel T. Gorski; Paul Hanchett
+| 
+| 0.3.4<ref>'''NO LONGER SUPPORTED'''</ref>
+| 2005-02-24
+| N/A
+| 
+| GPL
+| 
+| 
+| 
+| PHP5
+| MySQL
+|-
+!  |
+MindTouch Deki
+| MindTouch, OpenGarden.org
+| 
+| 8.05.1
+| 
+| MediaWiki
+| <ref>Free and paid hosted versions. Free open source version available for download. Paid enterprise versions available as well</ref>
+| GPL, LGPL
+| 
+| UTF-8
+| 
+| MONO
+| MySQL
+|-
+!  | DidiWiki
+| Matthew Allum
+| ?
+| 0.5
+| 
+| N/A
+| 
+| GPL
+| 
+| 
+| 
+| C
+| File system
+|-
+!  | DokuWiki
+| Andreas Gohr
+| 
+| Release 2008-05-05
+| 2008-05-05
+|
+| 
+| GPL v2
+| 
+| UTF-8
+| 
+| PHP
+| File system
+|-
+!  | [http://www.editme.com EditMe]
+| EditMe, LLC
+| 
+| 2007.06.25
+| 
+| N/A
+|  From $5/mo
+| Proprietary
+| 
+| 
+| 
+| Java (Hosted)
+| MySQL
+|-
+!  | FlexWiki
+| David Ornstein
+| 
+| 2.0
+| 
+| N/A
+| 
+| CPL
+| 
+| 
+| 
+| C#
+| File system, SQL Server
+|-
+!  | Instiki
+| David Heinemeier Hansson
+| 
+| 0.13.0
+| 
+| N/A
+| 
+| Ruby License<ref>Instiki - Ruby License Instiki is distributed under the same terms as Ruby itself, per the [http://ruby.mirror.easynet.be/en/LICENSE.txt Ruby license].</ref>
+| 
+| 
+| 
+| Ruby
+| Active Record
+|-
+! style="width: 12em" |
+! Creator
+! First public release date
+! Latest stable release
+! Stable release date
+! Predecessor
+! Cost (USD)
+! Software licence<ref name="licence"/>
+! Open source
+! Encoding
+! Multilingual
+! Programming language
+! Data backend
+|-
+!  | IpbWiki
+| GlobalSoft
+| 
+| 1.7.1
+| 
+| N/A
+| <ref>Free for the basic version, 30$/year for full version</ref>
+| Proprietary
+| 
+| 
+| 
+| PHP
+| Oracle
+|-
+!  | JAMWiki
+| Various
+| 
+| 0.6.6
+| 
+| MediaWiki
+| 
+| LGPL
+| 
+| UTF-8
+| 
+| Java
+| Most JDBC compliant databases, or file system using HSQL
+|-
+!  | JotSpot
+| JotSpot
+| 
+| 2.0
+| 
+| N/A
+|  From $100/mo
+| Proprietary
+| 
+| 
+| 
+| Java
+| File system, XML
+|-
+!  | JSPWiki
+| Janne Jalkanen
+| 
+| 2.4.100
+| 
+| N/A
+| 
+| LGPL
+| 
+| 
+| 
+| Java
+| RCS, SVN
+|-
+!  | Kanopia
+| Kanopia, Inc.
+| 
+| 0.1
+| 
+| N/A
+| 
+| GPL v2
+| 
+| 
+| 
+| PHP
+| MySQL, PostgreSQL
+|-
+!  | Kerika
+| Kerika, Inc.
+| 
+| 1.1
+| 
+| N/A
+|  <ref>$9.95/month/user; free for anyone with ".edu" email address</ref>
+| Proprietary
+| 
+| 
+| 
+| Java
+| Object-oriented database
+|-
+!  | MediaWiki
+| Wikimedia Foundation
+| 
+| 1.12.0
+| 
+| N/A
+| 
+| GPL v2
+| 
+| 
+| 
+| PHP
+| MySQL, PostgreSQL
+|-
+!  | Midgard Wiki
+| Henri Bergius
+| 
+| 1.8.3
+| 
+| N/A
+| 
+| LGPL
+| 
+| 
+| 
+| PHP
+| RCS
+|-
+!  | MoinMoin
+| Jurgen Hermann; Thomas Waldmann; ...
+| 
+| 1.6.0
+| 
+| PikiPiki
+| 
+| GPL
+| 
+| UTF-8
+| 
+| Python
+| Flat-file
+|-
+!  | Near-Time
+| Near-Time, Inc.
+| 
+| 2007.28.0
+| 
+| N/A
+| <ref>Starts at $24.99 per month for unlimited spaces and unlimited users</ref>
+| Proprietary
+| 
+| 
+| 
+| Ruby on Rails
+| mySQL
+|-
+!  | OddMuseWiki
+| Alex Schroder
+|
+|
+|
+| UseModWiki 0.9
+| 
+| GPL
+| 
+| 
+| 
+| Perl
+| Flat-file
+|-
+!  | OpenWiki
+|
+| ?
+| 0.78 sp1
+| 
+| N/A
+| 
+| 
+| 
+| 
+| 
+| ASP, VBScript
+| MS Access and SQL Server
+|-
+!  | OpenLink Wiki
+|
+|
+|
+|
+| ?
+| 
+| GPL and Commercial License
+| 
+| 
+| 
+| 
+| 
+|-
+!  | PAUX
+|
+|
+|
+|
+|
+|  From €300/mo
+| <ref>Free and Commercial License</ref>
+| 
+| 
+| 
+| 
+| 
+|-
+!  | PicoWiki
+| Paul Klipp
+| 
+| 
+| 
+| 
+| 
+| Proprietary
+| 
+| UTF-8
+| 
+| PHP
+| MySQL
+|-
+!  | PBwiki
+| David Weekly
+| 
+|
+|
+| TipiWiki
+| <ref>Free & Paid options available</ref>
+| Proprietary
+| 
+| UTF-8
+| 
+| PHP
+| Squid, Pound, lighttpd
+|-
+!  | Perspective
+| Alan Slater
+| 
+| 0.922
+| 
+| N/A
+| 
+| GPL
+| 
+| 
+| 
+| C#, XSLT
+| Microsoft Indexing Service, XML
+|-
+!  | PhpWiki
+| Steve Wainstead, ...
+| 
+| 1.3.14
+| 
+| WikiWikiWeb
+| 
+| GPL
+| 
+| 
+| 
+| PHP
+| Berkeley DB, Flat-file, MySQL, PostgreSQL, SQL Server, Oracle 8, Firebird
+|-
+!  | PmWiki
+| Patrick Michaud
+| 
+| 2.1.27
+| 
+| N/A
+| 
+| GPL
+| 
+| ISO8859-1, UTF-8
+| 
+| PHP
+| Flat-file. MySQL, SQLite (plug-ins)
+|-
+!  | QwikiWiki
+|
+|
+|
+| 
+| N/A
+| 
+| BSD License
+| 
+| ISO8859-1, UTF-8
+| ?
+| PHP
+| Flat-file
+|-
+!  | ScrewTurn Wiki
+| ScrewTurn Software
+| ?
+| 2.0.22
+| 
+| N/A
+| 
+| GPL
+| 
+| 
+| 
+| ASP.NET, C#
+| MySql, SQL Server or flat-file
+|-
+!  | Socialtext
+| Socialtext
+| First public release in 2003
+| 2.9.5.2
+| 
+| 2.9.5.1
+| <ref>Pricing varies. Available deployment options include: free open-source and VMware image downloads, hosted services and dedicated appliances.</ref>
+| <ref>Open-source and commercial licensing options</ref>
+| 
+| 
+| 
+| Perl
+| PostgreSQL
+|-
+! style="width: 12em" |
+! Creator
+! First public release date
+! Latest stable release
+! Stable release date
+! Predecessor
+! Cost (USD)
+! Software licence<ref name="licence"/>
+! Open source
+! Encoding
+! Multilingual
+! Programming language
+! Data backend
+|-
+!  | Springnote
+| Openmaru; NCsoft
+| 
+| Beta
+| 
+| N/A
+| 
+| GPL
+| 
+| ISO8859-1, UTF-8, Shift_JIS, EUC-KR
+| 
+| Ruby on Rails
+| MySQL
+|-
+!  | Swiki
+| Mark Guzdial; Jochen Rick
+| 
+| 1.5
+| 
+| N/A
+| 
+| GPL
+| 
+| 
+| 
+| Squeak
+| File system
+|-
+!  | Sycamore
+| Philip Neustrom
+| 
+| 1.0
+| 
+| MoinMoin
+| 
+| GPL
+| 
+| 
+| 
+| Python
+| PostgreSQL
+|-
+|-
+!  | ThoughtFarmer
+| ThoughtFarmer
+| 
+| 2.5.1
+| 
+| N/A
+|  $109/user
+| Proprietary
+| 
+| UTF-8
+| 
+| ASP.NET, C#
+| SQL Server
+|-
+!  | TiddlyWiki
+| Jeremy Ruston
+| 
+| 2.2.4
+| 
+| N/A
+| 
+| BSD
+| 
+| 
+| 
+| JavaScript
+| Single file, MySQL (mod)
+|-
+!  | TigerWiki
+| Chabel.org
+| 
+| 2.19
+| 2006-11-02
+| roWiki
+| 
+| GPL
+| 
+| 
+| 
+| PHP
+| File system
+|-
+!  | TikiWiki CMS/Groupware
+| Luis Argerich (200+ devs nowadays)
+| 
+| 1.9.11
+| 
+| N/A
+| 
+| LGPL
+| 
+| UTF-8
+| 
+| PHP
+| Oracle via ADOdb
+|-
+!  | TWiki
+| Peter Thoeny
+| 
+| 4.2.0
+| 
+| JosWiki
+| 
+| GPL
+| 
+| ISO8859-1, UTF-8
+| 
+| Perl
+| RCS, pluggable storage backend
+|-
+!  | UseModWiki
+| Clifford Adams
+| 
+| 1.0
+| 
+| AtisWiki
+| 
+| GPL
+| 
+| 
+| 
+| Perl
+| Flat-file
+|-
+!  | WackoWiki
+| Roman Ivanov
+| 
+| R4.2
+| 
+| WakkaWiki
+| 
+| BSD
+| 
+| 
+| 
+| PHP
+| MySQL
+|-
+!  | Wiclear
+| David Jobet
+| 
+| 0.10
+| 
+| N/A
+| 
+| GPL
+| 
+| 
+| 
+| PHP
+| MySQL
+|-
+!  | ''Wikiwig''
+| Steve Goldman (Formerly Starcrouz)
+| 
+| R5.01
+| 
+| Wikiwig 4.x
+| 
+| GPL
+| 
+| 
+| 
+| PHP
+| MySQL
+|-
+!  | WikkaWiki
+| Wikka Development Team
+| 
+| 1.1.6.5
+| 
+| WakkaWiki
+| 
+| GPL
+| 
+| ISO8859-1
+| 
+| PHP
+| MySQL
+|-
+!  | WikkiTikkiTavi
+| Tavi
+| ?
+| 0.26<br />NO LONGER DEVELOPED
+| ?
+| N/A
+| 
+| GPL
+| 
+| 
+| 
+| PHP
+| MySQL
+|-
+!  | XWiki
+| Ludovic Dubost
+| 
+| 1.3.2
+| 
+| TWiki
+| 
+| GPL/LGPL
+| 
+| UTF-8
+| 
+| Java
+| PostgreSQL, MySQL, Oracle, Apache Derby, HSQLDB
+|-
+!  | ZWiki
+| Simon Michael
+| 
+| 0.60.0
+| 
+| N/A
+| 
+| GPL
+| 
+| UTF-8
+| 
+| Python
+| ZODB Object Database
+|-class="sortbottom"
+! style="width: 12em" |
+! Creator
+! First public release date
+! Latest stable release
+! Stable release date
+! Predecessor
+! Cost (USD)
+! Software licence<ref name="licence"/>
+! Open source
+! Encoding
+! Multilingual
+! Programming language
+! Data backend
+|}
+
+==Target audience==
+{| class="wikitable sortable" style="text-align: center; font-size: 85%; width: auto; table-layout: fixed;"
+|-
+! Wiki software
+! Public
+! Private
+! Corporate/Enterprise
+! Education
+! Intranet
+! Personal
+|-
+!  | ArtificialMemory
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Axosoft OnTime
+| 
+| 
+| 
+| 
+| 
+|
+|-
+!  | BrainKeeper
+| 
+| 
+| 
+| 
+| 
+|
+|-
+!  | Central Desktop
+| 
+| 
+| 
+| 
+| 
+|
+|-
+!  | Clearspace
+| 
+| 
+| 
+| 
+| 
+|
+|-
+!  | Confluence
+| 
+| 
+| 
+| 
+| 
+|
+|-
+!  | Corendal Wiki
+|
+|
+| 
+|
+|
+|
+|-
+!  | coWiki
+| 
+| 
+| 
+|
+|
+|
+|-
+!  | MindTouch Deki
+| 
+| 
+| 
+| 
+| 
+|
+|-
+!  | DidiWiki
+|
+|
+|
+|
+|
+| 
+|-
+!  | [http://www.editme.com EditMe]
+| 
+| 
+| 
+| 
+| 
+|
+|-
+!  | FlexWiki
+| 
+| 
+| 
+|
+|
+|
+|-
+!  | Instiki
+| 
+| 
+|
+|
+|
+| 
+|-
+!  | IpbWiki
+| 
+| 
+| 
+|
+|
+|
+|-
+!  | JAMWiki
+| 
+| 
+| 
+| 
+| 
+|
+|-
+!  | JotSpot
+| 
+| 
+| 
+|
+|
+|
+|-
+!  | JSPWiki
+| 
+| 
+| 
+| 
+| 
+|
+|-
+!  | Kerika
+| 
+| 
+| 
+| 
+|
+|
+|-
+!  | MediaWiki
+| 
+| 
+| 
+|
+|
+|
+|-
+!  | Midgard Wiki
+| 
+| 
+| 
+|
+|
+|
+|-
+!  | MoinMoin
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Near-Time
+| 
+| 
+| 
+| 
+| 
+|
+|-
+!  | OddMuseWiki
+| 
+| 
+| 
+| 
+| 
+|
+|-
+!  | OpenWiki
+| 
+| 
+| 
+|
+|
+|
+|-
+!  | PBwiki
+| 
+| 
+| 
+| 
+| 
+|
+|-
+!  | Perspective
+|
+|
+|
+|
+|
+|
+|-
+!  | PhpWiki
+| 
+| 
+| 
+| 
+| 
+|
+|-
+!  | PmWiki
+| 
+| 
+|
+|
+|
+|
+|-
+!  | ScrewTurn Wiki
+| 
+| 
+| 
+| 
+| 
+|
+|-
+!  | Socialtext
+| 
+| 
+| 
+| 
+| 
+|
+|-
+!  | Springnote
+| 
+| 
+| 
+| 
+| 
+|
+|-
+!  | Swiki
+| 
+| 
+|
+| 
+|
+|
+|-
+!  | Sycamore
+| 
+| 
+|
+|
+|
+|
+|-
+!  | ThoughtFarmer
+|
+|
+| 
+|
+| 
+|
+|-
+!  | TiddlyWiki
+|
+| 
+|
+|
+|
+| 
+|-
+!  | TigerWiki
+| 
+| 
+| 
+| 
+| 
+|
+|-
+!  | TikiWiki CMS/Groupware
+| 
+| 
+| 
+| 
+| 
+|
+|-
+!  | TWiki
+| 
+| 
+| 
+| 
+| 
+|
+|-
+!  | UseModWiki
+| 
+| 
+| 
+| 
+| 
+|
+|-
+!  | WackoWiki
+| 
+| 
+| 
+| 
+| 
+|
+|-
+!  | Wiclear
+| 
+| 
+|
+|
+|
+|
+|-
+!  | Wikiwig
+| 
+| 
+| 
+| 
+| 
+|
+|-
+!  | WikkaWiki
+| 
+| 
+| 
+| 
+|
+|
+|-
+!  | WikkiTikkiTavi
+| 
+|
+|
+|
+|
+|
+|-
+!  | XWiki
+| 
+| 
+| 
+| 
+| 
+|
+|-
+!  | ZWiki
+| 
+| 
+| 
+| 
+| 
+|-class="sortbottom"
+! Wiki software
+! Public
+! Private
+! Corporate/Enterprise
+! Education
+! Intranet
+! Personal
+|}
+
+==Features 1==
+{| class="wikitable sortable" style="text-align: center; font-size: 85%; width: auto; table-layout: fixed;"
+|-
+! style="width: 12em" |
+! File uploading / attachments
+! Spam prevention
+! Page access control<ref name="pac">Page Access Control: Some wiki engines allow (optional) read/write access restriction to users or user groups on a per-page basis (e.g. through Access control lists).</ref>
+! Inline HTML<ref name="inline">Inline HTML ''Safe'' means that several features of HTML are restricted. This is better than ''Full'', for security reasons.  Users with complete access to HTML could, for example, create spoof forms to trick users.</ref>
+! User-customizable interface<ref name="uci">User-customizable interface: Many items have administrator hand-editable templates.  Even items which use hard-coded templates could still be modified if the source is available.</ref>
+! Document renaming
+|-
+!  | ArtificialMemory
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Axosoft OnTime
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | BrainKeeper
+| 
+| , CAPTCHA
+| 
+| 
+| <ref>templates, html, custom navigation portal, custom data fields</ref>
+| 
+|-
+!  | Central Desktop
+| 
+| , CAPTCHA
+| 
+| 
+| , templates and themes, html and css
+| 
+|-
+!  | Clearspace
+|
+|
+|
+|
+|
+|
+|-
+!  | Confluence
+| 
+| , CAPTCHA
+| 
+| optional
+| , templates and themes
+| , links are updated
+|-
+!  | Corendal Wiki
+| 
+| 
+| 
+| 
+|  - Velocity templates + CSS
+| 
+|-
+!  | coWiki
+| 
+| 
+| , due to UNIX-style permissions
+| 
+|  - hand-edited templates, document "Print version"
+| , all pages are seamlessly updated
+|-
+!  |
+MindTouch Deki
+| 
+| 
+| 
+| optional
+| 
+| 
+|-
+!  | DidiWiki
+| 
+| 
+| 
+| escaped
+|  - style-sheets
+| rename the document file
+|-
+!  | DokuWiki
+| 
+| , blacklist
+| , optional
+| , optional
+| , templates, CSS, PHP; heavily documented PHP [http://dev.splitbrain.org/reference/dokuwiki/nav.html?inc/template.php.html API]
+| , plugin
+|-
+!  | EditMe
+| 
+| , blacklist
+| , optional
+| 
+|  - CSS, XSLT, user editable navigation
+| 
+|-
+!  | FlexWiki
+| 
+| , blacklist, CAPTCHA, nofollow
+| 
+| , plugin
+|  - CSS, templates, WikiTalk
+| , old page becomes a redirect
+|-
+!  | Instiki
+| 
+| 
+| 
+| 
+|  - CSS
+| 
+|-
+! style="width: 12em" |
+! File uploading / attachments
+! Spam prevention
+! Page access control<ref name="pac" />
+! Inline HTML<ref name="inline" />
+! User-customizable interface<ref name="uci" />
+! Document renaming
+|-
+!  | IpbWiki
+| 
+| 
+| 
+| 
+|  - many features are user-customizable, templates
+| , old page becomes a redirect
+|-
+!  | JAMWiki
+| 
+| , content by regexp
+| 
+| , optional
+|  - templates and editable CSS stylesheet topic
+| , old page becomes a redirect
+|-
+!  | JotSpot
+| 
+| 
+| 
+| , optional
+|  - CSS
+| 
+|-
+!  | JSPWiki
+| 
+| , content by regexp
+| 
+| , optional
+|  - templates
+| Patch available
+|-
+!  | Kerika
+| 
+| , ACL for each project
+| 
+| 
+|  - customizable toolbar
+| , full document management
+|-
+!  | MediaWiki
+| 
+| , URL blacklist, word blacklist, IP blocking, captchas (as used on wikinews)<ref>URL anding are available using a MediaWiki extension. [http://mail.wikipedia.org/pipermail/wikitech-l/2005-December/033270.html]</ref>
+| 
+| 
+|  - many features are user-customizable, templates
+| , old page becomes a redirect
+|-
+!  | Midgard Wiki
+| 
+| 
+| 
+| 
+|  templates, CSS
+| 
+|-
+!  | MoinMoin
+| 
+| , BadContent filtering via Regular Expressions
+| 
+| 
+|  - Themes, templates, CSS, XSLT, user editable navigation
+| , old page can be a redirect
+|-
+!  | Near-Time
+| 
+| 
+| 
+| 
+| , templates, html, custom navigation portal, custom data fields, CSS
+| 
+|-
+!  | OddMuseWiki
+| 
+| 
+| 
+| , plugin
+| CSS
+| 
+|-
+!  | OpenWiki
+| 
+| 
+| 
+| 
+|
+|
+|-
+!  | OpenLink Wiki
+| 
+| 
+| 
+| 
+| templates, skins, user CSS, XSLT
+| 
+|-
+!  | PAUX
+| 
+| 
+| 
+| 
+| templates, skins, user CSS
+| 
+|-
+!  | PBwiki
+| 
+|  - passwords, SSO-capable integration, ACLs, IP whitelisting/blacklisting
+| 
+| , and plugins
+| Partial - CSS
+| 
+|-
+!  | Perspective
+| 
+|
+|  (per collection)
+| parameterized Raw Includes, in-page XSLT
+| XSLT, CSS
+| , with aliases
+|-
+!  | PhpWiki
+| 
+| , CPAN Blog::SpamAssassin
+| 
+| plugin
+| themes; un-documented
+| 
+|-
+!  | PmWiki
+| 
+| <ref>word/URL block (addon, auto-upd. database), URL-approval (option), encrypt e-mails (addon), nofollow, Captcha (addon)</ref>
+| 
+| , module
+| , themes, per page/per group CSS, ...
+| , module
+|-
+!  | Socialtext
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+! style="width: 12em" |
+! File uploading / attachments
+! Spam prevention
+! Page access control<ref name="pac" />
+! Inline HTML<ref name="inline" />
+! User-customizable interface<ref name="uci" />
+! Document renaming
+|-
+!  | Springnote
+| 
+| 
+| 
+| 
+| Background color customization
+| 
+|-
+!  | Swiki
+| 
+| , block IP Addresses, words, UserIDs
+| 
+| 
+| For AniAniWebs, CSS
+| , updating all backlinks
+|-
+!  | Sycamore
+| 
+| , block IP Addresses, UserIDs, hidden email addresses, CAPTCHA
+| 
+| 
+| user CSS, themes
+| , old page redirects
+|-
+!  | ThoughtFarmer
+| 
+| N/A
+| 
+| 
+| 
+| 
+|-
+!  | TiddlyWiki
+| 
+| 
+| 
+| , plugin
+| , themes, user CSS, modules
+| 
+|-
+!  | TigerWiki
+| 
+| , to be coded
+| , password protection
+| 
+|  - style-sheets, template
+| 
+|-
+!  | TikiWiki CMS/Groupware
+| 
+| 
+| 
+| 
+| themes, user CSS, modules
+| 
+|-
+!  | TWiki
+| 
+| <ref>IP blacklist, content by regexp, excessive activities, scripted registration prevention (plugin), hidden e-mail addresses</ref>
+| 
+| 
+| templates, skins, user CSS
+| , fixing backlinks
+|-
+!  | UseModWiki
+| 
+| , IP blacklist
+| ?
+| ?
+| CSS
+| , admins only
+|-
+!  | WackoWiki
+| 
+| , referrer blacklist
+| 
+|  - configurable/safe
+| themes, style-sheets
+| 
+|-
+!  | Wiclear
+| 
+| , blacklist captcha
+| , available for plugin too
+| 
+| themes, style-sheets
+| 
+|-
+!  | Wikiwig
+| 
+| ,Captcha
+| 
+| 
+| 
+| 
+|-
+!  | WikkaWiki
+| 
+| , referrer blacklist (module), HTTP REQUEST analysis (module)
+| 
+|  - configurable/safe
+| style-sheets
+| 
+|-
+!  | WikkiTikkiTavi
+| 
+| , Captcha
+| 
+|  - configurable/safe
+| style-sheets
+| 
+|-
+!  | XWiki
+| 
+|
+| 
+| 
+| style-sheets, templates, themes
+| 
+|-
+!  | ZWiki
+| 
+| 
+| 
+| 
+| style-sheets, templates, skins
+| 
+|-class="sortbottom"
+! style="width: 12em" |
+! File uploading / attachments
+! Spam prevention
+! Page access control<ref name="pac" />
+! Inline HTML<ref name="inline" />
+! User-customizable interface<ref name="uci" />
+! Document renaming
+|}
+
+==Features 2==
+{| class="wikitable sortable" style="text-align: center; font-size: 85%; width: auto; table-layout: fixed;"
+|-
+! style="width: 12em" |
+! WYSIWYG editing
+! Web feeds
+! Extensibility
+! Cross-wiki support
+! Other features
+|-
+!  | ArtificialMemory
+| 
+| , RSS
+| 
+| 
+| <ref>Ajax UI; Semantic Wiki; natural language/text import of entities, attributes, and relations; inlclusions (articles in articles); innovative features aimed at cutting edge knowledge workers</ref>
+|-
+!  | Axosoft OnTime
+| 
+| 
+| 
+| 
+| <ref>Windows and Web UI; Powerful Search; Project Hierarchy; Auto TOC Creation; Latest Edits Page; Powerful security; Integrated project management tools</ref>
+|-
+!  | BrainKeeper
+| 
+| , RSS
+|
+|
+| <ref>Enterprise-level Search, Interactive Dashboard, Tagging, Content Workflow, Custom Data Fields, Simple but Comprehensive Administration</ref>
+|-
+!  | Central Desktop
+| 
+| , RSS
+|
+|
+| <ref>Block architecture, Calendars, Discussions, Database feature, Tasks and Milestones Blocks available</ref>
+|-
+!  | Clearspace
+|
+|
+|
+|
+|
+|-
+!  | Confluence
+| 
+| , RSS
+| Java Plug-ins, User Macros in Apache Velocity
+|
+| <ref>Enterprise level security, Simple admin interface, Open Plug-in API, Tagging, E-Mail Notifications, Fully supported</ref>
+|-
+!  | Corendal Wiki
+| 
+| 
+| patch mechanism
+|
+| <ref>For Corporate environments. Articles hierarchy. Integrated with Active Directory users and groups, NTLM authentication, Workflow, Revisions, Subscriptions, WYSIWYG editor, Access Control (Read and Write)</ref>
+|-
+!  | coWiki
+| 
+| , RSS[http://www.cowiki.org/184.html]
+| plugins via an OOP interface
+|
+| <ref>Data saved hierarchic (web trees) and in XML, per-page threaded comments, comfortable installation wizard</ref>
+|-
+!  |
+MindTouch Deki
+| 
+| , RSS, XML, JSON
+| API, Service Oriented Architecture
+|
+| <ref>Highly usable, stores in XML, SOA, API, enterprise arch and business focused, fully supported by MindTouch [http://www.mindtouch.com company website]</ref>
+|-
+!  | DidiWiki
+| 
+| 
+|
+|
+| <ref>extremely fast and requires very little RAM, built-in web server</ref>
+|-
+!  | DokuWiki
+|  [http://wiki.splitbrain.org/wiki:quickbuttons Quickbuttons]
+| , RSS/Atom[http://wiki.splitbrain.org/wiki:syndication]
+| , Plugin API
+| 
+| <ref>Section Editing, XHTML-Compliant, nice tables, side-by-side diff, namespaces, Interwiki</ref>
+|-
+!  | EditMe
+| 
+| , RSS
+| javascript
+|
+| <ref>Multi-level access controls, hosted solution, side-by-side diff, Email notifications</ref>
+|-
+!  | FlexWiki
+| 
+| , RSS
+| ASP, WikiTalk, .Net Reflection plugins
+|
+| Forms, Scripting, Integrated Weblog and Threaded Message Forum
+|-
+!  | Instiki
+| 
+| , RSS
+| fairly trivial with minimal Ruby knowledge
+| , can use different (administrator-set) markup languages.
+| <ref>Trivial to set up on any platform that supports Ruby. Supports inline HTML, Textile, Markdown, and RDoc.</ref>
+|-
+! style="width: 12em" |
+! WYSIWYG editing
+! Web feeds
+! Extensibility
+! Cross-wiki support
+! Other features
+|-
+!  | IpbWiki
+| 
+| , RSS/Atom
+| actions, handlers
+|
+| <ref>Integration with Invision Power Board, bbcode support</ref>
+|-
+!  | JAMWiki
+| , optional editing buttons
+| , RSS
+|
+|
+| Plugin wiki syntax parser (default is Mediawiki syntax)
+|-
+!  | JotSpot
+| 
+| , RSS, per page
+| plugins, server-side Javascript
+|
+| <ref>Support for server-side Javascript, VMware virtual appliance</ref>
+|-
+!  | JSPWiki
+| , alpha
+| , RSS, per page
+| plugins, filters, providers
+|
+| Weblog integration
+|-
+!  | Kerika
+| , full graphical Wiki features
+| 
+| not yet
+|
+| <ref>Graphical wiki with hybrid peer-to-peer networking, can send project updates by email to non-users, can create private networks</ref>
+|-
+!  | MediaWiki
+| 
+| , RSS/Atom
+| actions, handlers
+|
+| <ref>Per-article discussion page, watchlist, searching, email notification (built in, but currently disabled on Wikipedia)</ref>
+|-
+!  | Midgard Wiki
+| 
+| , RSS, all changes
+| PHP component architecture
+|
+| CMS integration
+|-
+!  | MoinMoin
+| , v1.5+
+| , RSS, last changes
+| different plugin types
+| , selectable parsers
+| <ref>Enterprise level security, authentication, and authorization, Email notification, additional desktop edition, XML-RPC content synchronization, searching in attachments (v1.6+).</ref>
+|-
+|!  | Near-Time
+| 
+| , RSS in/out
+| API
+|
+| <ref>Enterprise level security, Simple admin interface, Categorizing and Tagging, Analytics, Premium Business Engine, Fully supported</ref>
+|-
+!  | OddMuseWiki
+| , plugin
+| 
+| plugins
+|
+| <ref>very easily extensible, themeable, easy setup of wiki farms</ref>
+|-
+!  | OpenWiki
+| 
+|
+|
+|
+|-
+!  | OpenLink Wiki
+| 
+| , RSS/Atom/RDF
+| plugins, Virtuoso hosted PHP integration
+| , publish wiki in other formats (Docbook and HTML)
+| <ref>Based on WebDAV can be maintained by any WebDAV user agent, LDAP Integration, OpenLink Data Space Integration, Wiki Cluster and Tag support, WYSIWIG Editor, Revisions, Access Control List</ref>
+|-
+!  | PAUX
+| 
+| , RSS/Atom/RDF
+| actions
+|
+| <ref>Individualized publication of reusable represent knowledge in its full complexity, and they make filterable content for eLearning and individualized print media.</ref>
+|-
+!  | PBwiki
+| 
+| , RSS/Atom
+| API, AuthAPI, plugins, wikilets
+|
+| <ref>SideBars; Discussions; email notifications w/diffs; SSO integration capability; Statistics; PDF output; HTML slideshows; integrated modules for calendars, spreadsheets, audio chat, and more; fully UTF-8 compliant; Tagging.</ref>
+|-
+!  | Perspective
+| , IE, Mozilla & Firefox
+| , RSS (last day's changes)
+| HTML Includes, XSLT includes that can take external URL contents, .Net action classes
+|
+| <ref>Searching over MS Office documents, can search files in folders outside of the Wiki (including MS Office files), Active Directory integration, User authorisation based on AD Group membership, Private Content</ref>
+|-
+!  | PhpWiki
+| 
+|  RSS/Atom/RDF: global, per page or per user
+| plugins
+|
+| support all databases
+|-
+!  | PmWiki
+| 
+| 
+| very, 100+ plugins
+| WikiCreole (option) <ref>The PmWiki markup rules are easily modifiable and replaceable by plug-ins, should a need for another wikimarkup family be demonstrated.</ref>
+| <ref>Highly sophisticated support for customization. Practically cameleon-like</ref>
+|-
+!  | Socialtext
+| 
+| , RSS feeds, Google/Technorati search results
+| using REST/SOAP APIs
+|
+| <ref>accessible through REST/SOAP APIs</ref>
+|-
+! style="width: 12em" |
+! WYSIWYG editing
+! Web feeds
+! Extensibility
+! Cross-wiki support
+! Other features
+|-
+!  | Springnote
+| 
+| , RSS feeds, Google search results
+| API, plugins, mashups, widgets
+| 
+| <ref>API that provides usage of all service features, Opensource WYSIWYG editor - Xquared, importing of various file formats (doc, odt, txt, html), multi-file uploading, clean UI, group wiki, XML-RPC, tags, revision control, full text search, e-mail notification, various templates, video insertion features</ref>
+|-
+!  | Swiki
+| 
+|
+| Some
+|
+| <ref>Installs own webserver (Commanche) and can co-exist with IIS or Apache. AniAniWeb function provides owner control of granular access and creates access groups. Users tracked by email address.</ref>
+|-
+!  | Sycamore
+| 
+| , RSS each page, bookmarks RSS
+|
+|
+| <ref>Javascript based quick edit, web based configuration, searching, built-in map function</ref>
+|-
+!  | ThoughtFarmer
+| 
+| 
+| Plugins, API used by ThoughtFarmer Professional Services
+|
+| <ref>Structured wiki, granular access controls, faceted browsing, revision control, full text search, email notification, photo albums</ref>
+|-
+!  | TiddlyWiki
+| 
+| , RSS
+| plugins
+|
+|
+|-
+!  | TigerWiki
+| 
+| , RSS with plugin
+| Code modification
+|
+| <ref>All minimal features that a wiki needs</ref>
+|-
+!  | TikiWiki CMS/Groupware
+| , via [http://doc.tikiwiki.org/Quicktags Quicktag] insertion
+| , RSS/Atom/RDF
+| Hundreds of features, plugins, modules & mods
+| 
+| <ref>ACLs, calendaring, charting, email notification, form handling and reporting, slideshow presentations, spreadsheet calculations and GRAPHS, mobile, GIS (MapServer), JGraphPad for drawings inside wikipages, 3d Browsing, Workspaces, Workflows, OpenOffice WYSIWYG editing of Tikiwiki content, Multitiki installations</ref>
+|-
+!  | TWiki
+| , pre-installed plugin
+| , RSS/Atom, with search string
+| 400+ extensions; Plugin API for developers; TWiki markup/scripting for users to create wiki applications
+| , user selectable wiki syntax with EditSyntaxPlugin
+| <ref>Revision control, ACLs for topics, tagging, blogging, calendaring, charting, global search & replace, email notification, form handling and reporting, platform to build wiki applications, graphing, slideshow presentations, 13 translations, plotting, multistyle diffs, advanced searching, spreadsheet calculations, WYSIWYG supports TML, available as a VMware appliance</ref>
+|-
+!  | UseModWiki
+| ?
+| 
+| extensions
+|
+|
+|-
+!  | WackoWiki
+| , [http://wackowiki.com/WikiEdit WikiEdit]
+| , RSS
+| actions, handlers
+|
+| <ref>WYSIWYG-like editor, ACLs, subpages, comments, files, email notification, cloning of pages, installation wizard...</ref>
+|-
+!  | Wiclear
+| 
+| , RSS/Atom
+| plugins
+|
+| <ref>hierarchical pages, linked translations, multilingual, ACLs, section editing, XHTML compliant, side-by-side diff, email notifications, admin panel, moderator/admin/user</ref>
+|-
+!  | Wikiwig
+| , Xinha
+| 
+| 
+|
+|
+|-
+!  | WikkaWiki
+| , [http://wackowiki.com/WikiEdit WikiEdit]
+| , Single page/Comments/Global
+| actions, handlers
+|
+| <ref>FreeMind support, ACLs, cloning of pages, advanced syntax highlighting using GeSHi, ''on-the-fly'' downloading of codeblocks</ref>
+|-
+!  | WikkiTikkiTavi
+| 
+|
+| bunch of custom stuff in php
+|
+|
+|-
+!  | XWiki
+| , using TinyMCE
+| , RSS
+| plugins, macros, scripts, applications
+|
+| <ref>Platform to build wiki applications, Forms and Scripting, Multilingual, Database storage, Fulltext search, GraphViz, SVG, Freemind, Lucene, Charting, photo albums, presentations, blogging, calendar, e-mail plugin, virtual wikis, simple table computations, sortable tables, section editing, portlet integration, integrated statistics, XML-RPC API, Tags, PDF/RTF export</ref>
+|-
+!  | ZWiki
+| , using Epoz
+| , RSS/Atom
+| all Zope plugins, LaTeX, and more
+|
+| <ref>hierarchical pages, revision control, fulltext search, email notification, issue tracker, LaTeX integration</ref>
+|-class="sortbottom"
+! style="width: 12em" |
+! WYSIWYG editing
+! Web feeds
+! Extensibility
+! Cross-wiki support
+! Other features
+|}

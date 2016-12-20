@@ -1,0 +1,153 @@
+{{Czołg infobox|
+nazwa            = M109 SPH|
+grafika          = 300px|
+podpis           = M109 SPH|<!-- opcjonalny podpis rysunku -->
+kraj             = |
+producent        = |
+trakcja          = gąsienicowa|<!-- gąsienicowa, kołowa -->
+typ              = |<!-- np. czołg lekki, ciężki, podstawowy, transporter opancerzony} -->
+zaloga           = 6|
+konstrukcja      = |<!-- data budowy prototypu -->
+produkcja        = 1962 - ?|<!-- lata produkcji -->
+wycofany         = |<!-- data wycofania z użytku -->
+egzemplarze      = |<!-- ilość wyprodukowanych egzemplarzy -->
+silnik           = 8-cylindrowy diesel Detroit-Diesel Model 8V-71T o mocy 302kW (405KM)|<!-- typ silnika -->
+moc              = |
+mocjedn          = |<!-- moc jednostkowa (np. w kW/tonę) -->
+naciskjedn       = |<!-- nacisk jednostkowy (np. w kg/cm²) -->
+transmisja       = |<!-- układ przeniesienia napędu (mechaniczna, elektromechaniczna..) -->
+dlugoscmax       = 6,61 m|<!-- długość całkowita czołgu -->
+dlugosckadlub    = |<!-- długość kadłuba -->
+dlugoscltyl      = |<!-- długość całkowita z lufą obróconą do tyłu -->
+szerokosc        = 3,29 m|<!-- szerokość kadłuba -->
+szerokoscekr     = |<!-- szerokość całkowita z ekranami przeciwkumulacyjnymi -->
+wysokosc         = |<!-- wysokość do stropu wieży -->
+wysokoscmax      = 3,28 m|<!-- wysokość maksymalna -->
+powboczna        = |<!-- powierzchnia boczna w m² (jednostka wstawiana automatycznie) -->
+powczolowa       = |<!-- powierzchnia czołowa w m² (jednostka wstawiana automatycznie) -->
+przeswit         = |
+masawlasna       = |
+masabojowa       = 23723 kg|
+zbiorniki        = |<!-- pojemność zbiorników paliwa -->
+typpanc          = |<!-- typ pancerza (reaktywny, warstwowy, kompozytowy, itd. -->
+grubpanc         = |<!-- grubość pancerza -->
+pmaxdroga        = 56|<!-- prędkość maksymalna na drodze w km/h -->
+pmaxteren        = |<!-- prędkość maksymalna w terenie w km/h-->
+pmaxwoda         = |<!-- prędkość maksymalna w wodzie w km/h (dla pojazdów pływających) -->
+pmaxtyl          = |<!-- prędkość maksymalna na biegu wstecznym -->
+brodbezprzyg     = 1,07 m|<!-- głębokość brodzenia bez przygotowania -->
+brodzprzyg       = |<!-- głębokość brodzenia po przygotowaniu -->
+rowy             = 1,82 m|<!-- zdolność przekraczanych rowów o szerokości -->
+sciany           = 0,52 m|<!-- zdolność przekraczania pionowych ścian o wysokości -->
+stoki            = |<!-- zdolność podjazdu na stoki o nachyleniu max -->
+zasieg           = 390|
+artyleria        = haubica 155 mm|<!-- uzbrojenie artyleryjskie -->
+karabin          = karabin maszynowy 12,7 mm|<!-- uzbrojenie strzeleckie -->
+rakieta          = |<!-- uzbrojenie rakietowe -->
+inne             = |<!-- inne opcjonalne typy uzbrojenia -->
+wyposazenie      = |<!-- wyposażenie dodatkowe (moździerz, wyrzutnik granatów dymnych itd.) -->
+wlasciciele      = |<!-- użytkownicy -->
+rzut             = |<!-- rysunek w trzech/czterech rzutach-->
+}}
+
+'''M109''' to samobieżna haubica opracowana w celu zastąpienia '''M44 SPH'''. 
+
+Zamówienie zostało złożone w 1952 roku, pierwsze egzemplarze seryjne opuściły hale montażowe w roku 1962. 
+Po wprowadzeniu licznych ulepszeń, '''M109''' stała się najpopularniejszą haubicą samobieżną na świecie. Wozy tego typu brały udział w konflikcie wietnamskim, w wojnach arabsko-izraelskich i wojnie iracko-irańskiej.
+
+Ogółem Stany Zjednoczone sprzedały pojazdy tego typu do prawie 30 krajów. 
+
+'''M109''' może po przystosowaniu forsować wpław przeszkody wodne i strzelać pociskami różnych rodzajów, w tym także taktyczną nuklearną amunicją artyleryjską. 
+
+{{Infobox Weapon
+|name=M109 Howitzer
+|image=300px
+|caption=M109 self-propelled howitzer of the Royal Netherlands Army
+|origin=
+|type=Self-propelled artillery
+|is_vehicle=yes
+|is_ranged=yes
+|is_artillery=yes
+|length=30 ft (9.1 m)
+|width=10.3 ft (3.1 m) 
+|height=10.7 ft (3.3 m) 
+|weight=27.5 tons
+<!-- Ranged weapon specifications --> 
+|cartridge=separate loading, bagged charge 
+|caliber=155 mm
+|barrels=
+|action= 
+|rate= 4 round/min maximum, 1 round/min sustained
+|velocity= 
+|range= 18,000&nbsp;m - 30,000&nbsp;m (with rocket-assisted projectile)
+|max_range= 
+|feed= 
+|sights= 
+<!-- Artillery specifications -->
+|breech=interrupted screw
+|recoil=
+|carriage=
+|elevation=
+|traverse=360°
+|suspension=torsion-bar
+|speed=35 mph (56 km/h)
+|vehicle_range=216 mi (350 km)
+|primary_armament=M126 155 mm Howitzer 
+|secondary_armament=.50 caliber (12.7&thinsp;mm) M2 machine gun
+|armour=
+|engine=diesel
+|crew=8 (Gun Commander, Driver, 6 x Gunners)
+|engine_power=
+|pw_ratio=
+}}
+The '''M109''' is an American-made self-propelled 155&nbsp;mm Western indirect-fire support weapon of maneuver brigades of armored and mechanized infantry divisions.
+
+The German PzH2000, which significantly outperforms the M109 in many aspects. Significant upgrades to the M109 have been introduced by the U.S. (see variants below) and in Switzerland (KAWEST). With the cancellation of the Crusader program in the U.S., the Paladin will remain the principal self-propelled howitzer for the U.S. military a few more years, until the NLOS-C from the U.S. Army's Future Combat Systems program comes online in 2008-2010.
+
+The crew of the M109 consists of a section chief, driver, three gunners who prepare the ammunition, load, and fire the weapon, and two gunners who aim the cannon. The gunner aims the cannon left or right (deflection), the assistant gunner aims the cannon up and down (quadrant). The M109A6 Paladin needs only one gunner and two ammunition handlers for a total crew of six.
+
+==History==
+The M109 was the medium variant of a U.S. program to adopt a common chassis for its self-propelled artillery units. The light version, the M108 Howitzer, was phased out during the Vietnam War, many of which were rebuilt as M109s.  
+
+The M109 saw its combat debut in Vietnam. Israel used the M109 against Egypt in the 1973 Yom Kippur War and in the 1982 Lebanon War  and 2006 Lebanon War. Iran used the M109 in the Iran-Iraq War, in the 1980s. The M109 saw service with the British Army, the Egyptian Army and Saudi Arabian Army in the 1991 Gulf War. The M109 also saw service with the U.S. Army in the Gulf War, as well as in the Iraq War from 2003 to present. 
+
+Upgrades to the cannon, ammunition, fire control, survivability, and other electronics systems over the design's lifespan have vastly expanded the system's capabilities (see variants). Some of these capabilities include tactical nuclear projectiles, cannon launched guided projectiles (CLGP or Copperhead), Rocket Assisted Projectile (RAP), scatterable mines (FASCAM), and improved conventional munitions (the Dual-Purpose Improved Conventional Munition, DPICM).
+
+=== Armament ===
+right|thumb|Open breech of M109A5 howitzer.
+* Primary: M126 155&nbsp;mm Howitzer (M109), M126A1 155&nbsp;mm Howitzer (A1), M185 155&nbsp;mm Howitzer (A2/A3/A4), M284 155&nbsp;mm Howitzer (A5/A6)
+* Secondary: .50 caliber (12.7&nbsp;mm) M2 machine gun, Mk 19 Mod 3 40&nbsp;mm Automatic Grenade Launcher, or 7.62&nbsp;mm M60 or M240 machine gun
+
+== Variants ==
+===M109===
+right|thumb|M109 enters [[South Vietnam.]]
+First produced in 1963, with 155&nbsp;mm M126/A1 gun in the M127 Howitzer Mount, 28 rounds of 155&nbsp;mm were carried. Also armed with a .50cal M2HB machine gun mounted, and 500 rounds of .50cal ammunition.
+
+===M109A1/A1B===
+Replaced M126 with longer barreled M126A1 gun for greater effective range. Same M127 mount and ammunition amounts carried. A more recent model, intended for export incorporated more recent improvements into a new production M109A1. These vehicles were designated M109A1B.
+
+===M109A2===
+Incorporated 27 Reliability, Availability, and Maintainability (RAM) mid-life improvements. Most notably, the long barreled 155&nbsp;mm M185 cannon in the M178 gun mount, ballistic protection for the panoramic telescope, counterbalanced travel lock, and the ability to mount the M140 alignment device. Stowage increased from 28 rounds of 155&nbsp;mm, to 36 rounds, .50cal ammunition amount remain 500 rounds.
+
+===M109A3/A3B===
+M109A1s and M109A1Bs rebuilt to M109A2 standard respectively. Some A3s feature three contact arm assemblies while all A2s have five.
+
+===M109A4===
+M109A2s and M109A3s improved with Nuclear, Biological, and Chemical / Reliability, Availability, and Maintainability (NBC/RAM) improvements, including air purifiers, heaters, and Mission Oriented Protective Posture (MOPP) gear.
+
+The traversing mechanism's clutch is now hydraulic, as compared to the electric mechanism on previous M109s, and features a manual override in the event of an electrical failure. The A4 also adds an additional hydraulic filter, for a total of two. Also included, is an improvement to the engine starting equipment, greatly improving the ability to start in an emergency.
+
+Ammunition amounts remain the same as two previous models.
+
+===M109A5===
+Replaces M185 cannon in M178 mount with 155&nbsp;mm M284 cannon in the M182 mount, giving the A5 even greater range than before.
+
+===M109A6 "Paladin"===
+right|thumb|M109A6 "Paladin" firing at night.
+Overall product improvement in the areas of Survivability, RAM, and armament. This includes increased armor, redesigned (safer) internal stowage arrangement for ammunition and equipment, engine and suspension upgrades, and product improvement of the M284 cannon and M182A1 mount. The greatest difference is the integration of an inertial navigation system, sensors detecting the weapons' lay, automation, and an encrypted digital communication system which utilizes computer controlled frequency hopping to avoid enemy electronic warfare and allow the howitzer to send grid location and altitude to the battery fire direction center (FDC). The battery FDCs in turn coordinate fires through a battalion or higher FDC. This allows the Paladin to halt from the move and fire within 30 seconds with accuracy equivalent to the previous models when properly emplaced, laid, and safed--A process that required several minutes under the best of circumstances. Tactically, this improves the systems survivability by allowing the Battery to operate dispersed by pairs across the countryside and allowing the howitzer to quickly displace between salvos, or if attacked by indirect fire, aircraft, or ground forces. 
+
+On an operational level this weapon represents a dramatic improvement in the performance of field artillery. This improvement in performance is perhaps as great as that of the first self propelled artillery over the preceding towed artillery. This is because the howitzers no longer need to occupy fixed firing positions but may now move with the advancing combat forces. They need stop only when a target is identified. After firing on a target, the Paladin is immediately able to resume movement.
+
+Ammunition stowage is increased from 36 rounds of 155&nbsp;mm, to 39 rounds, .50cal ammunition amounts remain the same.
+
+The M109A6-PIM is the latest upgrade and is fitted with some components of the canceled Crusader. These include an autoloader, a modern electric gun drive to replace the hydraulically operated elevation and azimuth drives designed in the early 1960s, and updated fire control systems. Other major upgrades include a new chassis based on the Bradley infantry fighting vehicle.

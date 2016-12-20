@@ -1,0 +1,311 @@
+'''三段論法'''(さんだんろんぽう　ギリシア語　syllogismos)は、「'''大前提'''」「'''小前提'''」「'''結論'''」の三つの命題から成る推論規則である。アリストテレスによって整備された。「大前提」に法則的に導き出される一般的な原理を置き、「小前提」に目前の具体的な事実を置き、「結論」を導き出す。以下に三段論法の例を示す。
+
+大前提：すべての人間は死すべきものである。
+
+小前提：ソクラテスは人間である。
+
+結論: ゆえにソクラテスは死すべきものである。
+
+三段論法を構成する各命題は'''A''','''E''','''I''','''O'''の4つの型に分類される。
+* '''A''' ＝ 全称肯定判断 ≪'''すべての'''人間'''は'''生物'''である'''≫
+* '''E''' ＝ 全称否定判断 ≪'''すべての'''人間'''は'''不死'''ではない'''≫
+* '''I''' ＝ 特称肯定判断 ≪'''ある'''人間'''は'''学生'''である'''≫
+* '''O''' ＝ 特称否定判断 ≪'''ある'''人間'''は'''学生'''ではない'''≫
+
+さらに、三段論法を構成する要素として、結論における主語'''S'''と述語'''P'''、そしてこの結論を導くために前提に現れる媒概念'''M'''がある。各命題における'''S''','''P''','''M'''の配列の仕方を「格」(figure)とよび、これには4つの可能性がある。
+<center>
+<table border="1" cellpadding="5" cellspacing="0" align="center">
+<caption>'''三段論法の「格」'''</caption>
+<tr><th>格</th><th>大前提</th><th>小前提</th><th>結論</th></tr>
+<tr><td>第一格</td><td>M-P</td><td>S-M</td><td>S-P</td></tr>
+<tr><td>第二格</td><td>P-M</td><td>S-M</td><td>S-P</td></tr>
+<tr><td>第三格</td><td>M-P</td><td>M-S</td><td>S-P</td></tr>
+<tr><td>第四格</td><td>P-M</td><td>M-S</td><td>S-P</td></tr>
+</table>
+</center>
+
+なお、第四格は、ガレノスが形式整備のために補完したものである。アリストテレスは、実用性は無いと考え、省いたものと考えられている。
+
+三つの各命題ごとに4種類の型があり、さらに4つの格があることから、全部で4<sup>3</sup>&times;4=256通りの三段論法がありえるが、実際にはそのうちの19通りのみから恒真な結論が得られる。このとき二つの前提はともに真でなければならない。真でない前提からは、しばしばパラドックスが導かれる。
+
+定言的三段論法における命題の組み合わせを覚えるため、中世にはsyllogismus と呼ばれるラテン語の詩が作られた。
+
+B'''a'''rb'''a'''r'''a''' c'''e'''l'''a'''r'''e'''nt d'''a'''r'''ii''' f'''e'''r'''io'''que prioris.
+
+C'''e'''s'''a'''r'''e''' c'''a'''m'''e'''str'''e'''s f'''e'''st'''i'''n'''o''' b'''a'''r'''o'''c'''o''' secundoe.
+
+Tertia d'''a'''r'''a'''pt'''i''' d'''i'''s'''a'''m'''i'''s d'''a'''t'''i'''s'''i''' f'''e'''l'''a'''pt'''o'''n, b'''o'''c'''a'''rd'''o''' f'''e'''r'''i'''s'''o'''n habet. 
+
+Quarta insuper addit br'''a'''m'''a'''nt'''i'''p c'''a'''m'''e'''n'''e'''s d'''i'''m'''a'''r'''i'''s f'''e'''s'''a'''p'''o''' fr'''e'''s'''i'''s'''o'''n.
+
+子音を除くことによって三段論法の型が得られ（上記の詩の強調文字の部分）、それぞれの型を呼ぶのには詩のおのおのの語を用いる。
+また、詩の1行目が第一格、2行目が第二格、3行目が第三格、4行目が第四格に対応している。
+冒頭で示した三段論法の例は第一格の B'''a'''rb'''a'''r'''a'''に対応している。
+
+大前提：すべての人間は死すべきものである。（'''A''', M-P：すべてのMはPである）
+
+小前提：ソクラテスは人間である。（'''A''', S-M：すべてのSはMである）
+
+A '''syllogism''' ( &mdash; "conclusion," "inference"), (usually the '''categorical syllogism''') is a kind of inferred from two others (the modal syllogisms). The syllogism is at the core of deductive reasoning, where facts are determined by combining existing statements, in contrast to inductive reasoning where facts are determined by repeated observations.
+
+==Basic structure==
+A syllogism (henceforth categorical unless otherwise specified) consists of three parts: the major premise, the predicate) of the conclusion; in a minor premise, it is the ''minor term'' (the subject) of the conclusion. For example:
+
+:Major premise: All humans are mortal.
+:Minor premise: Socrates is a human.
+:Conclusion: Socrates is mortal.
+
+Each of the three distinct terms represents a category, in this example, "human," "mortal," and "Socrates."  "Mortal" is the major term; "Socrates," the minor term.  The premises also have one term in common with each other, which is known as the ''middle term'' — in this example, "human." Here the major premise is universal and the minor particular, but this need not be so. For example:
+
+:Major premise: All mortal things die.
+:Minor premise: All men are mortal things.
+:Conclusion: All men die.
+
+Here, the major term is "die", the minor term is "men," and the middle term is "[being] mortal things." Both of the premises are universal.
+
+A sorites is a form of argument in which a series of incomplete syllogisms is so arranged that the predicate of each premise forms the subject of the next until the subject of the first is joined with the predicate of the last in the conclusion. For example, if one argues that a given number of grains of sand does not make a heap and that an additional grain does not either, then to conclude that no additional amount of sand will make a heap is to construct a sorites argument.
+
+==Types of syllogism==
+Although there are infinitely many possible syllogisms, there are only a finite number of logically distinct types.  We shall classify and enumerate them below. Note that the syllogisms above share the same abstract form:
+
+:Major premise: All M are P.
+:Minor premise: All S are M.
+:Conclusion: All S are P.
+
+The premises and conclusion of a syllogism can be any of four types, which are labelled by letters<ref> According to Copi, p. 127: 'The letter names are presumed to come from the Latin words "'''''A'''''ff'''''I'''''rmo" and "n'''''E'''''g'''''O'''''," which mean "I affirm" and "I deny," respectively; the first capitalized letter of each word is for universal, the second for particular'</ref> as follows.
+
+The letters standing for the types of proposition (A, E, I, O) have been used since the medieval Schools to form mnemonic names for the forms. The meaning of the letters is given by the table:
+
+{|
+| 
+| ''code''
+|
+| ''quantifier''
+|
+| ''subject''
+|
+| ''copula''
+|
+| ''predicate''
+|
+| ''type''
+|
+| ''example''
+|-
+|
+| A
+|
+| All
+|
+| S
+|
+| are
+|
+| P
+|
+| universal affirmatives
+|
+| All humans are mortal.
+|- 
+|
+| E
+|
+| All
+|
+| S
+|
+| are not
+|
+| P
+|
+| universal negatives
+|
+| All humans are not perfect / No humans are perfect.
+|-
+|
+| I
+|
+| Some
+|
+| S
+|
+| are
+|
+| P
+|
+| particular affirmatives
+|
+| Some humans are healthy.
+|-
+|
+| O
+|
+| Some
+|
+| S
+|
+| are not
+|
+| P
+|
+| particular negatives
+|
+| Some humans are not clever.
+|}
+
+(See Square of opposition for a discussion of the logical relationships between these types of propositions.)
+
+By definition, S is the subject of the conclusion, P is the predicate of the conclusion, M is the middle term, the major premise links M with P and the minor premise links M with S.  However, the middle term can be either the subject or the predicate of each premise that it appears in.  This gives rise to another classification of syllogisms known as the ''figure''.  The four figures are:
+
+{|
+|
+| 
+| ''Figure 1''
+|
+| ''Figure 2''
+|
+| ''Figure 3''
+|
+| ''Figure 4''
+|-
+| Major premise:
+|
+| M&ndash;P
+|
+| P&ndash;M
+|
+| M&ndash;P
+|
+| P&ndash;M
+|- 
+| Minor premise:
+|
+| S&ndash;M
+|
+| S&ndash;M
+|
+| M&ndash;S
+|
+| M&ndash;S
+|-
+|Conclusion:
+|
+| S&ndash;P
+|
+| S&ndash;P
+|
+| S&ndash;P
+|
+| S&ndash;P
+|}
+
+Putting it all together, there are 256 possible types of syllogisms (or 512 if the order of the major and minor premises is changed, although this makes no difference logically).  Each premise and the conclusion can be of type A, E, I or O, and the syllogism can be any of the four figures.  A syllogism can be described briefly by giving the letters for the premises and conclusion followed by the number for the figure.  For example, the syllogisms above are AAA-1.
+
+Of course, the vast majority of the 256 possible forms of syllogism are invalid (the conclusion does not follow logically from the premises).  The table below shows the valid forms of syllogism. Even some of these are sometimes considered to commit the existential fallacy, thus invalid. These controversial patterns are marked in italics. 
+
+{| 
+| ''Figure 1''
+|
+| ''Figure 2''
+|
+| ''Figure 3''
+|
+| ''Figure 4''
+|-
+| B'''a'''rb'''a'''r'''a'''
+|
+| C'''e'''s'''a'''r'''e'''
+|
+| ''D'''a'''r'''a'''pt'''i''' ''
+|
+| ''Br'''a'''m'''a'''nt'''i'''p ''
+|-
+| C'''e'''l'''a'''r'''e'''nt
+|
+| C'''a'''m'''e'''str'''e'''s
+|
+| D'''i'''s'''a'''m'''i'''s
+|
+| C'''a'''m'''e'''n'''e'''s
+|-
+| D'''a'''r'''ii'''
+|
+| F'''e'''st'''i'''n'''o'''
+|
+| D'''a'''t'''i'''s'''i'''
+|
+| D'''i'''m'''a'''r'''i'''s
+|-
+| F'''e'''r'''io'''
+|
+| B'''a'''r'''o'''c'''o'''
+|
+| ''F'''e'''l'''a'''pt'''o'''n''
+|
+| ''F'''e'''s'''a'''p'''o''' ''
+|-
+| &nbsp;
+|
+| &nbsp;
+|
+| B'''o'''c'''a'''rd'''o'''
+| 
+| Fr'''e'''s'''i'''s'''o'''n
+|-
+| &nbsp;
+|
+| &nbsp;
+|
+| F'''e'''r'''i'''s'''o'''n
+|
+| &nbsp;
+|}
+
+The letters A, E, I, O have been used since the medieval Schools to form mnemonic names for the forms as follows: 'Barbara' stands for AAA, 'Celarent' for EAE etc.
+
+A sample syllogism of each type follows.
+
+'''Barbara'''
+:All men are animals.
+:All animals are mortal.
+:All men are mortal.
+
+'''Celarent'''
+:No reptiles have fur.
+:All snakes are reptiles.
+:No snakes have fur.
+
+'''Darii'''
+:All kittens are playful.
+:Some pets are kittens.
+:Some pets are playful.
+
+'''Ferio'''
+:No homework is fun.
+:Some reading is homework.
+:Some reading is not fun.
+
+'''Cesare'''
+:No healthy food is fattening.
+:All cakes are fattening.
+:No cakes are healthy.
+
+'''Camestres'''
+:All horses have hooves.
+:No humans have hooves.
+:No humans are horses.
+
+'''Festino'''
+:No lazy people pass exams.
+:Some students pass exams.
+:Some students are not lazy.
+
+'''Baroco'''
+:All informative things are useful.
+:Some websites are not useful.
+:Some websites are not informative.
+
+'' '''Darapti''' ''
+:All fruit is nutritious.
+:All fruit is tasty.
+:Some tasty things are nutritious.''

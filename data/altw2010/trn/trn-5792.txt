@@ -1,0 +1,72 @@
+'''Monoaminoxidashämmare''', ''MAOI'', ''MAO-hämmare'', är en grupp antidepressiva läkemedel som var de första att användas kliniskt mot depression. Läkemedlen verkar genom att hämma monoaminoxidas (MAO). Monoaminoxidas är en typ av enzym i hjärnan som bryter ned vissa signalsubstanser (monoaminer), framför allt serotonin och noradrenalin (MAO typ 1) samt dopamin (MAO typ 2). Hämningen gör att signalsubstanserna finns kvar längre i synapsen, vilket ger glädje (och eventuellt hallucinationer).
+
+Monoaminoxidashämmare har använts som antidepressiva läkemedel sedan 1950-talet, men nuförtiden har de i allt större omfattning ersatts av TCA och senare av SSRI. Monoaminoxidashämmare har en bred biverkningsprofil därför att läkemedlet binder irreversibelt till monoaminoxidas som finns i flera olika vävnader förutom i centrala nervsystemet. Detta leder bland annat till komplikationer vid intag av aminer via födan som metaboliseras via MAO. Depressionen kan också bli värre efter en tids användning.
+
+Kombination av MAO-hämmare eller överdos kan leda till serotonergt syndrom, ett mycket farligt tillstånd som kan vara dödligt.
+
+thumb|[[Monoamine oxidase]]
+'''Monoamine oxidase inhibitors''' ('''MAOIs''') are a class of powerful antidepressant drugs prescribed for the treatment of depression. They are particularly effective in treating atypical depression, and have also shown efficacy in smoking cessation.
+
+Due to potentially lethal dietary and drug interactions, MAOIs had been reserved as a last line of defense, used only when other classes of antidepressant drugs (for example selective serotonin reuptake inhibitors and tricyclic antidepressants) have been tried unsuccessfully. Recently, however, a patch form of the drug selegiline, called Emsam, was developed. It was approved for use by the FDA on February 28, 2006.<ref name="Emsam">{{cite press release
+ | title = "FDA Approves Emsam (Selegiline) as First Drug Patch for Depression."
+ | publisher = U.S. Food and Drug Administration
+ | date =  2006-02-28
+ | url = http://www.fda.gov/bbs/topics/NEWS/2006/NEW01326.html
+ | accessdate = 2007-12-02
+ }}</ref>  When applied transdermally the drug does not enter the gastro-intestinal system as it does when taken orally, thereby decreasing the dangers of dietary interactions associated with MAOI pills.  
+
+==Uses==
+=== Therapeutic use ===
+
+In the past they were prescribed for those resistant to tricyclic antidepressant therapy, but newer MAOIs are now sometimes used as first-line therapy. They are also used for treating agoraphobia or social anxiety. Currently, the availability of selegiline and moclobemide provides a safer alternative, although these substances are not always as effective as their predecessors.
+
+MAO inhibitors can also be used in the treatment of Parkinson's disease (by affecting dopaminergic neurons), as well as providing an alternative for migraine prophylaxis.
+
+== Mode of action ==
+
+MAOIs act by inhibiting the activity of  deaminates serotonin, melatonin, epinephrine and norepinephrine. MAO-B preferentially deaminates phenylethylamine and trace amines. Dopamine is equally deaminated by both types. Many formulations have forms of fluoride attached to assist in permeating the blood-brain barrier, which is suspected as a factor in pineal gland effects.
+
+=== Reversibility ===
+
+The early MAOIs inhibited monoamine oxidase irreversibly. When they react with monoamine oxidase, they permanently deactivate it, and the enzyme cannot function until it has been replaced by the body, which can take about two weeks. A few newer MAOIs, notably  substrate. The level of inhibition in this way is governed by the respective concentrations of the substrate and the MAOI.
+
+Harmaline found in ''Peganum harmala'' is a "reversible inhibitor of MAO-A (RIMA)."<ref>[http://books.google.com/books?id=2c2K-epbCDQC&pg=PA237&lpg=PA237&dq=harmaline+antidepressant&source=web&ots=IrcpVr4R_H&sig=5FvlysKKEN7Hb4_YjfgoZM8rsTg Edward J. Massaro, Handbook of Neurotoxicology]</ref>
+
+=== Selectivity ===
+
+In addition to reversibility, MAOIs differ by their selectivity of the MAO receptor. Some MAOIs inhibit both MAO-A and MAO-B equally, other MAOIs have been developed that target one over the other.
+
+MAO-A inhibition reduces the breakdown of primarily serotonin, epinephrine, and norepinephrine and thus has a higher risk of serotonin syndrome and/or a hypertensive crisis. Tyramine is broken down by MAO-A, therefore inhibiting its action may result in excessive build up of it, so diet must be monitored for tyramine intake. 
+
+MAO-B inhibition reduces the breakdown mainly of  selectivity.<ref name="Emsam"/><ref>{{cite web
+ | url = http://www.elitenetpharmacy.com/pd_azilect.cfm
+ | title = Rasagiline: a neuroprotective smart drug?
+ | accessdate = 2007-12-02
+ | author = BLTC Research [http://www.bltc.com/]
+ | year = 2006
+ | work = The Good Drug Guide
+ | quote = At dosages above around 2 mg per day, rasagiline loses its selectivity for MAO type B and also inhibits MAO type A. An MAO-B selective regimen does not cause significant tyramine potentiation, the dreaded 'cheese effect' common to users of older unselective and irreversible MAOIs who eat tyramine-rich foods. Thus low-dosage rasagiline demands no special dietary restrictions.
+ }}</ref>
+
+== Dangers ==
+
+When ingested orally, MAOIs inhibit the catabolism of dietary amines. Sufficient intestinal MAO-A inhibition can lead to hyperserotonemia if foods containing tryptophan are consumed. The amount required to cause a reaction exhibits great individual variation and depends on the degree of inhibition, which in turn depends on dosage and selectivity.
+
+The exact mechanism by which tyramine causes a hypertensive reaction is not well understood, but it is assumed that tyramine displaces norepinephrine from the storage vesicles.<ref>{{cite journal
+ | last = Jacob
+ | first = Giris
+ | coauthors = Gamboa, Alfredo; Diedrich, André; Shibao, Cyndya; Robertson, David; Biaggioni, Italo
+ | year = 2005
+ | month = August
+ | title = Tyramine-Induced Vasodilation Mediated by Dopamine Contamination: A Paradox Resolved
+ | journal = Hypertension
+ | volume = 46
+ | issue = 2
+ | pages = 358
+ | publisher = Lippincott Williams & Wilkins
+ | doi = 10.1161/01.HYP.0000172353.62657.8b
+ | url = http://pt.wkhealth.com/pt/re/hyper/pdfhandler.00004268-200508000-00023.pdf
+ | accessdate = 2007-12-02
+ | quote = Tyramine displaces norepinephrine from neuronal vesicles into the axoplasm, and it is likely that some of it is converted to DHPG, and only a portion reaches the circulation.
+ | pmid = 15967868
+ }}</ref> This may trigger a cascade in which excessive amounts of norepinephrine can lead to a hypertensive crisis. Another theory suggests that proliferation and accumulation of catecholamines causes hypertensive crises.  

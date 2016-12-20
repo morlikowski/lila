@@ -1,0 +1,167 @@
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = Villafrati |
+  name = Villafrati |
+  region = Sicily |
+  province = Province of Palermo (PA) |
+  elevation_m = 455 |
+  area_total_km2   = 25.6 |
+  population_as_of  = Dec. 2004 |
+  population_total = 3350 |
+  population_density_km2 = 131 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          =  |
+  telephone         = 091 |
+  postalcode        = 90030 |
+  gentilic          = villafratesi |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           =  |
+  mapy = 13.4833 |
+  mapx = 37.9000 |
+}}
+'''Villafrati''' is a ''Italian region Sicily, located about 25&nbsp;km southeast of Palermo. As of 31 December 2004, it had a population of 3,350 and an area of 25.6&nbsp;km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+Villafrati borders the following municipalities: Baucina, Bolognetta, Cefalà Diana, Ciminna, Marineo, Mezzojuso.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:4000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:1000 start:0
+ScaleMinor = gridcolor:lightgrey increment:200 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:2617
+  bar:1871 from: 0 till:3050
+  bar:1881 from: 0 till:3149
+  bar:1901 from: 0 till:3245
+  bar:1911 from: 0 till:3219
+  bar:1921 from: 0 till:3149
+  bar:1931 from: 0 till:2930
+  bar:1936 from: 0 till:2951
+  bar:1951 from: 0 till:3364
+  bar:1961 from: 0 till:3101
+  bar:1971 from: 0 till:2717
+  bar:1981 from: 0 till:3184
+  bar:1991 from: 0 till:3404
+  bar:2001 from: 0 till:3365
+
+PlotData=
+
+  bar:1861 at:2617 fontsize:XS text: 2617 shift:(-8,5)
+  bar:1871 at:3050 fontsize:XS text: 3050 shift:(-8,5)
+  bar:1881 at:3149 fontsize:XS text: 3149 shift:(-8,5)
+  bar:1901 at:3245 fontsize:XS text: 3245 shift:(-8,5)
+  bar:1911 at:3219 fontsize:XS text: 3219 shift:(-8,5)
+  bar:1921 at:3149 fontsize:XS text: 3149 shift:(-8,5)
+  bar:1931 at:2930 fontsize:XS text: 2930 shift:(-8,5)
+  bar:1936 at:2951 fontsize:XS text: 2951 shift:(-8,5)
+  bar:1951 at:3364 fontsize:XS text: 3364 shift:(-8,5)
+  bar:1961 at:3101 fontsize:XS text: 3101 shift:(-8,5)
+  bar:1971 at:2717 fontsize:XS text: 2717 shift:(-8,5)
+  bar:1981 at:3184 fontsize:XS text: 3184 shift:(-8,5)
+  bar:1991 at:3404 fontsize:XS text: 3404 shift:(-8,5)
+  bar:2001 at:3365 fontsize:XS text: 3365 shift:(-8,5)
+
+<!-- Il testo commentato è SOLO UN ESEMPIO -->
+{{Comune
+|nomeComune = Villafrati
+|linkStemma = 
+|siglaRegione = SIC
+|siglaProvincia = PA
+|latitudineGradi = 37
+|latitudineMinuti = 54
+|latitudineSecondi = 0
+|longitudineGradi = 13
+|longitudineMinuti = 29
+|longitudineSecondi = 0
+|mappaX = 169
+|mappaY = 301
+|altitudine = 455
+|superficie = 25
+|abitanti = 3.364
+|anno =  <!-- solo valore numerico dell'anno di riferimento  -->
+|densita = 135
+|frazioni =  <!-- elenco delle frazioni, separate da virgola e spazio - senza ritorni a capo -->
+|comuniLimitrofi = Baucina, Bolognetta, Cefalà Diana, Ciminna, Marineo, Mezzojuso
+|cap = 90030
+|prefisso = 091
+|istat = 082080
+|fiscale = L951
+|nomeAbitanti = villafratesi
+|patrono = San Giuseppe 
+|festivo =  <!-- 7 aprile -->
+|sito =  <!-- http://www.comune.bovezzo.bs.it/ -->
+}} <!-- fine della tabella - per la compilazione vedi -> Aiuto:Comune -->
+'''Villafrati''' è un comune di 3.364 abitanti della provincia di Palermo.
+Facilmente raggiungibile, si trova sulla direttrice di collegamento tra il capoluogo siciliano ed Agrigento, ai piedi della cosiddetta ''Rocca Busambra'', lungo il corso del ''Fiume Milicia''
+
+==Storia==
+Le prime fasi di crescita del centro abitato ebbero inizio nel XVIII secolo grazie allo sviluppo di una Masseria precedentemente esistente quale risultato di una serie di evoluzioni partite dall'epoca di primi insediamenti preistorici.
+Questa ebbe l'avvio grazie alla concessione da parte della corona spagnola della licentia populandi.
+L'abitato crebbe molto lentamente, tranto che dopo mezzo secolo dalla fondazione, erano presenti solo cinquecento anime e la parrocchia che guidava la comunità.
+
+Il comune ebbe un forte impulso all'espansione grazie alla famiglia aristocratica dei Filangeri, i quali decisero di avviare le prime edificazioni significative, con la costruzione del quartiere Castello.
+Villafrati si distinse, nel secolo immediatamente successivo, come paese produttore di gesso, con il proliferare dell'attività su base familiare.
+
+Nel corso delle principali fasi dei flussi migratori del '900, la popolazione si trovò a subire una consistente riduzione alla quale ha però fatto seguito una forte espansione edilizia negli anni '70, conseguente all'arrivo delle rimesse proprio dei migranti che avevano scento di trasferirsi in America, in Svizzera e nel Nord dell'Italia nei decenni precedenti.
+
+==Evoluzione demografica==
+
+==Cultura==
+
+A Villafrati la cultura è essenzialmente teatro.
+Un continuo susseguirsi di spettacoli anima, infatti, lo spazio teatrale che è stato ricavato all'interno del Baglio settecentesco.
+
+===Monumenti===
+
+Il paese conserva la primigenia struttura a scacchiera e presenta ancora gli edifici originari nell'area del suo centro storico.
+
+Particolarmente interessante sono il complesso palaziale settecentesco chiamato ''Baglio'' e la ''Porta dei Misteri'' all'ingresso della Chiesa Madre.
+
+'''Il Baglio'''
+è un complesso edilizio costruito per scopi residenziali dalla famiglia dei Filangeri.
+È costituito da grandi ambienti, un tempo fastosamente ornate, circondato da tre corti.
+La Corte principale, a pianta ovale, collega il corso, asse viario di maggiore importanza del paese, agli interni e i corpi destinati all'attività baronale con gli edifici dedicati alla servitù e con l'ingresso secondario di una costruzione adibita a teatro.
+
+'''La porta dei Misteri'''
+è l'ingresso della Chiesa Madre. È costituita da sei pannelli in bronzo che recano narrazioni di eventi religiosi connessi alla storia del paese.
+
+Altre interessanti costruzioni sono la ''Chiesa della SS. Trinità'', a navata unica, costruita sempre per volere dei Filangeri nel XVIII secolo, e la ''Chiesa di Sant'Antonio da Padova'' del 1745.
+
+===Folklore===
+
+A Villafrati è molto sentito il culto del ''SS. Crocifisso'' in onore del quale si svolge ogni anno la ''cunnutta di torci'' una sfilata di muli e cavalli bardati a festa che trasportano grano quale ringraziamento per la buona annata. I fantini, in segno di devozione, portano in mano ceri accesi decorati da mazzi di fiori.
+La manifestazione, pur di carattere religioso, assume una notevole importanza nel suo legame con il culto di Cerere.

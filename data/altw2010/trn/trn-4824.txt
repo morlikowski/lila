@@ -1,0 +1,116 @@
+<!--tabella per la realizzazione di un comune-->
+<!--questa tabella memorizza solo i parametri - la struttura/layout e' nel template Comune-->
+<!--NON modificare la prima riga e le righe dove compare il simbolo uguale-->
+<!--sostituire gli spazi vuoti (&nbsp;) col testo o col numero che deve apparire nella tabella-->
+<!--se non si sa cosa scrivere in una riga,  mettere lo spazio vuoto (&nbsp;)-->
+<!--NON inserire ritorni a capo e NON modificare il numero delle righe-->
+<!--se non si scrive una riga, questa appare come uno spazio vuoto nella tabella-->
+{{Comuni Svizzeri Tabella|
+nomecomune =
+Siblingen  <!--scrivere qui il nome del comune-->
+|
+nomestemma =
+Wappen Siblingen.png <!--scrivere qui il nome dell'immagine dello stemma -->
+|
+nomepaese =
+Svizzera  <!--non modificare-->
+|
+nomecantone =
+Sciaffusa  <!--cantone di appartenenza - senza parentesi quadre - solo nome (es:Ticino)-->
+|
+siglacantone =
+SH  <!--sigla del cantone di appartenenza - senza parentesi quadre-->
+|
+nomedistretto = 
+|
+
+nomecircolo =
+|
+
+lingua =
+Tedesco  <!-- lingua ufficiale del comune - wikificata-->
+|
+latitudine =
+47° 42‘  <!--scrivere la latitudine del capoluogo del comune - non scrivere Nord che viene messo automaticamente-->
+|
+longitudine =
+8° 31‘  <!--scrivere la longitudine del capoluogo del comune - non scrivere Est che viene messo automaticamente-->
+|
+altitudine =
+508   <!--scrivere l'altezza del capoluogo del comune in metri - non scrivere la m finale che viene messa automaticamente-->
+|
+superficie =
+9,42  <!--scrivere la superficie del comune (in km²) - di solito con due decimali - - non scrivere km² che viene messo automaticamente-->
+|
+popolazione =
+732  <!--scrivere la popolazione totale del comune - col punto separatore delle migliaia-->
+|
+annocensimento = 
+2003  <!--inserire l'anno del censimento - con parentesi quadre-->
+|
+densita =
+78  <!--scrivere la densità di popolazione del comune-->
+|
+frazionicomune =
+&nbsp;  <!--Eventuali frazioni - se non ci sono lasciare lo spazio &nbsp; - non scrivere nella riga sopra, ma solo in questa - nomi senza parentesi quadre (di norma) - separati da virgola e spazio - non usare <br> perché va a capo automaticamente-->
+|
+comunilimitrofi =
+Beringen, Gächlingen, Hemmental, Löhningen, Neunkirch, Schleitheim  <!--Comuni confinanti anche di altri cantoni - se non ci sono lasciare lo spazio &nbsp; - non scrivere nella riga sopra, ma solo in questa - nomi esatti con doppie parentesi quadre (sempre) - separati da virgola e spazio - non usare <br> va a capo automaticamente-->
+|
+cap =
+8225  <!--codice postale del comune - anche piu di uno-->
+|
+prefisso =
+052  <!--prefisso telefonico del comune - anche piu di uno-->
+|
+comunenumero =
+2953  <!--BFS-Nr. del comune-->
+|
+nomeabitanti =
+Siblinger  <!--nome degli abitanti-->
+|
+sito =
+http://www.siblingen.ch/  <!--sito internet ufficiale del comune - con singole parentesi quadre-->
+|
+nomemappa =
+Karte Gemeinde Siblingen.png
+}}
+<!-- fine della tabella comune -->
+
+'''Siblingen''' è un comune del Canton Sciaffusa di 732 abitanti.
+
+<!--schweizbezogen-->{{Infobox Ort in der Schweiz|
+NAME_ORT = Siblingen|
+GEMEINDEART = Gemeinde|
+BILDPFAD_KARTE = Karte Gemeinde Siblingen 2007.png|
+BILDPFAD_WAPPEN = Wappen Siblingen.png|
+PIXEL = 98px|
+KANTON = Schaffhausen|
+BEZIRK = <small>(Schaffhausen kennt keine Bezirke)</small>|
+BFS = 2953|
+PLZ = 8225|
+BREITENGRAD = 47.699999|
+LÄNGENGRAD = 8.516662|
+HÖHE = 508|
+FLÄCHE = 9.42|   
+EINWOHNER = 747|
+STAND_EINWOHNER = 31. Dezember 2006|
+WEBSITE = www.siblingen.ch|
+}}
+'''Siblingen''' ist eine Kantons Schaffhausen in der Schweiz. 
+
+== Geographie ==
+
+Die Gemeindefläche misst 942 ha, davon entfallen auf Waldgebiete 455 ha und 455 ha auf landwirtschaftliches Nutzland (inklusive 15.8 ha Reben). Als Bauland sind 32 ha ausgezont.
+Siblingen liegt im Randens.
+
+* Höchster Punkt: 900 m ü.M.
+* Tiefster Punkt: 475 m ü.M.
+
+== Bevölkerung ==
+
+== Politik ==
+Gemeindepräsident: Matthias Peter
+
+== Geschichte ==
+Auf dem Siblinger Schlossranden, einem Hügel oberhalb des Dorfes, befand sich schon zu Zeiten der Römer ein Wachturm. Im Mittelalter wurde von einem namentlich unbekannten Adelsgeschlecht eine Burg errichtet. 

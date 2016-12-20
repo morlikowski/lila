@@ -1,0 +1,33 @@
+Un '''''reformer'' a metanolo''' è un dispositivo dell'cella (o pila) a combustibile, per produrre ''reforming'' a vapore.<ref>Un ''reformer'' (in inglese letteralmente ''riformatore''), infatti, è propriamente l'apparato o impianto in cui avviene il il processo di ''reforming''.</ref>
+
+:<math>\mathrm{ CH_3OH_{(g)} + H_2O_{(g)} \;\longrightarrow\; CO_2 + 3\ H_2 \qquad}  \Delta H_{R\ 298}^0 = 49{,}2\ \mathrm{kJ/mol} </math> 
+<small>Il metanolo con il vapore acqueo viene trasformato in idrogeno e anidride carbonica sotto l'azione di un catalizzatore eterogeno e mediante apporto di energia termica.</small>
+
+==Tecnologia==
+Una miscela acqua-metanolo con un rapporto molare tra le due sostanze di 1,3&nbsp;-&nbsp;1,5 viene compressa fino a 20 bar, fatta evaporare e infine surriscaldata sui 250&nbsp;-&nbsp;280&nbsp;membrana permeabile allo stesso gas. 
+
+Per la realizzazione tecnica ci sono due processi fondamentali.
+* In un reattore riscaldato a forma di tubo si trova il catalizzatore. La miscela di vapore acqueo-vapore (entrambi sotto forma di vapore) viene condotta all'ingresso del reattore. La separazione dell'idrogeno dagli altri reagenti e prodotti avviene successivamente in un apparecchio inserito a parte. La membrana PdAg è inondata dal materiale «riformato» e l'idrogeno passa in gran parte attraverso la membrana. 
+* L'altra variante prevede un reattore integrato con una membrana di separazione. In questo caso la parete della camera di reazione è costituita da un cilindro di ceramica rivestito di PdAg e l'idrogeno separato fuoriesce direttamente dalla camera di reazione.
+
+In entrambe le varianti, la parte solida trattenuta dalla membrana, il cosiddetto retentato, contiene ancora una quota significativa (anche se chiaramente minore) dell'idrogeno. Per tale ragione, la miscela risultante viene spesso bruciata con l'aria in un bruciatore catalitico. L'energia termica emessa in tal modo viene utilizzata a scopo di riscaldamento.
+
+==Vantaggi e svantaggi==
+I ''reformer'' a metanolo sono presi in considerazione come componenti di un motore a idrogeno, in quanto il loro utilizzo eviterebbe di immagazzinare il combustibile a idrogeno in serbatoi di gas pressurizzato. Potrebbero così essere superati i problemi di accettazione da parte della popolazione, dal momento che l'idrogeno è spesso considerato come troppo pericoloso. 
+Il vantaggio del metanolo in questo contesto è che è disponibile in forma liquida. Tuttavia il metanolo, come anche la benzina, è tossico e facilmente infiammabile. Un altro problema è la lega PdAg, che ha un costo elevato e viene facilmente danneggiata dagli sbalzi di temperatura.
+
+Inoltre, il processo di ''reforming'' a metanolo genera come sottoprodotto anche gas ad effetto serra ritenuti responsabili del riscaldamento globale. Ciò potrebbe non essere coerente con gli attuali sforzi a livello internazionale tesi a ridurre le emissioni inquinanti nell'atmosfera.
+
+A '''methanol refomer''' is a device used in chemical engineering, especially in the area of fuel cell technology, which can produce pure hydrogen gas and carbon dioxide by reacting a methanol and water (steam) mixture.
+
+:<math>\mathrm{ CH_3OH_{(g)} + H_2O_{(g)} \;\longrightarrow\; CO_2 + 3\ H_2 \qquad}  \Delta H_{R\ 298}^0 = 49{,}2\ \mathrm{kJ/mol} </math> 
+<small>Methanol is transformed into hydrogen and carbon dioxide by pressure and heat and interaction with a catalyst.</small>
+
+==Technology==
+A mixture of water and methanol with a molar bar, vaporized and heated to a temperature of 250&nbsp;-&nbsp;280&nbsp;°C. The hydrogen that is created is separated through the use of a hydrogen-permeable membrane made of a palladium and silver alloy.
+
+There are two basic methods of conducting this process.
+* The water-methanol mixture is introduced into a tube-shaped reactor where it makes contact with the catalyst. The hydrogen is then separated from the other reactants and products in a later chamber. The reformed material passes the PdAg membrane and most of the hydrogen passes through. 
+* The other variety features an integrated reaction chamber and separation membrane. In such a design the walls of the reaction chamber are made from a PdAg-coated ceramic cylinder and the hydrogen is thereby separated directly out of the reaction chamber.
+
+With either design, not all of the hydrogen is removed from the product of the reaction, so the remaining gas mixture still contains a significant amount of hydrogen. As such, this resulting mixture is often mixed with air and burned. The heat energy produced by burning this mixture can be used for heating purposes.

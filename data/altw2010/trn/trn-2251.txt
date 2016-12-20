@@ -1,0 +1,144 @@
+In implementato sotto forma di programma.
+
+Intuitivamente, un '''algoritmo''' si può definire come un ''procedimento'' che consente di ''ottenere'' un ''risultato'' atteso eseguendo, in un determinato ordine, un insieme di ''passi semplici'' corrispondenti ad azioni scelte solitamente da un insieme finito. Il termine deriva dal nome del matematico persiano Muhammad ibn Mūsa 'l-Khwārizmī, che si ritiene essere uno dei primi autori ad aver fatto riferimento esplicitamente a questo concetto, nel libro ''Kitāb al-djabr wa 'l-muqābala'' (''Libro sulla ricomposizione e sulla riduzione''), dal quale tra l'altro prende anche le origini la parola matematica babilonese, quella cinese o del Kerala trasmettevano le conoscenze in forma algoritmica.
+
+Nel senso più ampio della parola, "algoritmo" è anche una ricetta di cucina, o la sezione del libretto delle istruzioni di una lavatrice che spiega come programmare un lavaggio. Di norma, comunque, la parola viene usata in contesti matematici (fin dalle origini) e soprattutto informatici (più recentemente). Un esempio più appropriato di algoritmo potrebbe essere, quindi, il procedimento per il calcolo del massimo comune divisore o del minimo comune multiplo.
+}}
+Da questa definizione si evincono le quattro proprietà fondamentali dell'algoritmo:
+*la sequenza di istruzioni deve essere finita;
+*essa deve portare ad un risultato;
+*le istruzioni devono essere eseguibili materialmente;
+*le istruzioni devono essere espresse in modo non ambiguo.
+
+Affermando che i passi costituenti di un algoritmo debbano essere "semplici", si intende soprattutto che essi siano ''specificati in modo non ambiguo'', ovvero immediatamente evidenti a chi sarà chiamato ad applicare l'algoritmo, cioè il suo ''esecutore''. Così, "rompete le uova" può essere un passo legittimo di un "algoritmo di cucina", e potrebbe esserlo anche "aggiungete sale quanto basta" se possiamo assumere che l'esecutore sia in grado di risolvere da solo l'ambiguità di questa frase. Al contrario, un passo come "preparate un pentolino di crema pasticciera" non può probabilmente considerarsi "semplice"; potrebbe però essere associato a un opportuno rimando a un'altra sezione del ricettario, che fornisca un algoritmo apposito per questa specifica operazione. Infine, una ricetta che preveda la cottura a microonde non può essere preparata da chi è sprovvisto dell'apposito elettrodomestico.
+
+== Approccio Matematico ==
+Esiste una formalizzazione del problema di algoritmo. Un algoritmo viene definito come una sequenza finita di operazioni elementari che preso un valore in input (chiamato istanza) ne genera uno in uscita (chiamato soluzione). Dato dunque un algoritmo A si denota con f<sub>A</sub> la funzione che associa a ogni ingresso x di A la corrispondente uscita f<sub>a</sub>(x). 
+
+Questa corrispondenza tra input e output rappresenta il problema risolto dall'algoritmo. Formalmente un problema è una funzione <math>f (D_i) \to D_s</math> definita su insieme D<sub>i</sub> di elementi che chiameremo istanze, a valori su un insieme D<sub>s</sub> di soluzioni. 
+
+L'esecuzione di un algoritmo su un dato input richiede il consumo di una certa quantità di risorse; queste possono essere rappresentate dal tempo di computazione impiegato e dallo spazio di memoria utilizzato. È importante saper valutare la quantità di risorse consumate proprio perché un consumo eccessivo può pregiudicare le stesse possibilità di utilizzo di un algoritmo. 
+
+Lo studio di un algoritmo viene suddiviso in tre fasi: 
+# sintesi (detta anche disegno o progetto): dato un problema f, costruire un algoritmo A per risolvere f, cioè tale che f=f<sub>a</sub>. 
+# analisi : dato un algoritmo A ed un problema f, dimostrare che A risolve f, cioè f=f<sub>a</sub> (correttezza) e valutare la quantità di risorse usate da A (complessità concreta).
+# classificazione (o complessità strutturale): data una quantità T di risorse, individuare la classe di problemi risolubili da algoritmi che usano al più tale quantità.
+
+==Algoritmi e problemi==
+Il concetto di algoritmo ha una grande rilevanza in matematica e in informatica, in cui esso viene generalmente descritto come "procedimento di risoluzione di un problema". In questo contesto, i "problemi" che si considerano sono quasi sempre caratterizzati da ''dati di ingresso'' variabili. Per esempio, il calcolo del massimo comune divisore fra due numeri è un esempio di "problema", e i suoi ''dati di ingresso'', variabili di volta in volta, sono i due numeri in questione. A un non matematico questa potrebbe apparire come una "famiglia di problemi" (il problema di calcolare il massimo comune divisore fra 10 e 15, il problema di calcolarlo fra 40 e 60, fra 35 e 95, e così via). Il matematico e l'informatico identificano con la parola "problema" l'intera famiglia e con "istanza" o "caso particolare" ciascuno dei quesiti specifici ottenuti fissando due particolari valori.
+
+Data questa premessa, un algoritmo risolve un problema se è costituito da una sequenza di passi che, applicata indifferentemente a qualunque istanza del problema, produce in un tempo finito la soluzione desiderata.
+
+Se questa idea aveva una certa importanza per il calcolo matematico, l'avvento dell'informatica l'ha arricchita di una nuova importanza (ed è infatti con l'informatica che il termine "algoritmo" ha iniziato a diffondersi). Infatti, se per ottenere un certo risultato (risolvere un certo problema) esiste un procedimento infallibile, che può essere descritto in modo non ambiguo fino ai dettagli, e conduce sempre all'obiettivo desiderato in un tempo finito, allora esistono le condizioni per affidare questo compito a un programma scritto in un opportuno linguaggio comprensibile alla macchina.
+
+La complessità di un algoritmo si misura asintoticamente. Vi sono tre metodi per calcolare la complessità di un algoritmo:
+*metodo di sostituzione
+*metodo dell'albero di ricorsione
+*metodo dell'esperto
+Si definisce asintotica per due motivi:
+*poiché ogni calcolatore può implementare algoritmi in modo differente, non si può stimare il tempo preciso
+*si vuole dare un'idea quantitativa di come l'algoritmo possa crescere in consumo di tempo all'aumentare dell'input, per valori sempre maggiori.
+
+=== Formalizzazione di un problema ===
+Ad ogni problema <math>\Pi</math> si ha che:
+<math>f \pi: D \pi \rightarrow S \pi</math>
+dove <math>D \pi</math> sono le istanze del problema e <math> S \pi </math> sono le soluzioni e <math>\forall x \in D \pi:f \pi (x) </math> sia una soluzione al problema per l'istanza x.
+
+Ad esempio il problema delle primalità, ossia il problema di trovare se un numero è primo o meno, si può definire formalmente come segue: 
+
+<math>f \mathrm{primalita}: \mathbb{N} \rightarrow {0,1} </math>
+
+<math>f \mathrm{primalita} (11) = 1 </math>
+
+<math>f \mathrm{primalita} (121) = 0 </math>
+
+Ad ogni algoritmo ALG si associa una funzione parziale:
+
+<math>\phi \mathrm{ALG} : \mathrm{In ALG} \rightarrow \mathrm{Out ALG} </math>
+
+dove <math>\mathrm{In ALG} </math> è l'insieme degli input e <math>\mathrm{Out ALG}</math> è l'insieme degli output.
+
+ALG risolve il problema <math>\pi</math> se e solo se: 
+
+<math>\mathrm{In ALG} = D \pi </math>
+
+<math>\mathrm{Out ALG} = S \pi </math>
+
+<math>\forall x \in D \Pi: f \pi (x) = \phi \mathrm{ALG}(x)</math>
+
+Un algoritmo che risolve un problema si dice '''corretto'''.
+
+== Studio della complessità di un algoritmo ==
+
+Un'ampia porzione della teoria degli algoritmi è lo studio della complessità, computazionale e spaziale. Vogliamo cioè sapere, al crescere della complessità del problema, in che modo cresce il tempo necessario a eseguire l'algoritmo e lo spazio di memoria occupato in un calcolatore.
+
+Presa una funzione associata ad un algoritmo del tipo: 
+
+<math>\phi ALG: \mathrm{InALG} \rightarrow \mathrm{OutALG} </math>
+
+si può definire la funzione peso come
+
+<math>\mathrm{WALG}: \mathrm{InALG} \rightarrow \mathbb{N} </math>
+
+che esprime la dimensione dei dati in ingresso, ossia il numero di bit che servono per codificare i dati in input all'algoritmo. Ad esempio su un vettore la lunghezzza e sulle matrici il numero dell'ordine. 
+
+La complessità di un algoritmo si definisce come: 
+
+<math>\mathrm{TALG}: \mathbb{N} \rightarrow \mathbb{N}</math> che indica per ogni valore interno n (ossia la dimensione del problema) la quantità di tempo e/o spazio impiegata dall'algoritmo per elaborare dati di dimensione n. Un algoritmo può comportarsi in modo sensibilmente differente anche per istanze che abbiamo ugual dimensione (ossia lo stesso peso). 
+
+Si dimostra che la complessità di un algoritmo è una funzione strettamente crescente, per quale vale <math>\lim_{n\rightarrow \infty} T(x)=\infty</math>
+
+Infatti è banale dimostrare che <math>S_a (x)</math> tende all'infinito al crescere di <math>x</math> (cioè del numero di dati da elaborare), perché essa è minorata da <math>x</math> (è un <math>o(x)</math>) in quanto il numero minimo di spazi di memoria per memorizzare un insieme di dati è la loro matrici sparse si deve considerare come ''numero di dati'' gli elementi non nulli.
+
+Due misure per sistemi di calcolo sequenziali sono i valori <math>T_a (x)</math> e <math>S_a (x)</math> che rappresentano rispettivamente il tempo e lo spazio di memoria richiesti da un algoritmo <math>a</math> su input <math>x \in X</math>. Per la sopra citata proprietà il dominio <math>X</math> deve dunque coincidere con l'insieme <math>\mathbb{N}</math>. Possiamo pertanto considerare <math>T_a (n)</math> e <math>S_a (n)</math> come funzioni intere positive che rappresentano il ''numero di operazioni'' (non il tempo di esecuzione effettivo) elementari eseguite e dal numero di celle di memoria utilizzate durante l'esecuzione di <math>a</math> sull'istante <math>x</math>.
+
+Descrivere le funzioni <math>T_a (n)</math> e <math>S_a (n)</math> può essere molto complicato poiché la variabile <math>n</math> assume valori sull'insieme di tutti gli input. Una soluzione che fornisce buone informazioni su <math>T_a (n)</math> e <math>S_a (n)</math> consiste nell'introdurre il concetto di dimensione di un'istanza, raggruppando in tal modo gli input che hanno la stessa dimensione: la funzione dimensione associa ad ogni ingresso un numero naturale che rappresenta intuitivamente la quantità di informazione contenuta nel dato considerato. Per esempio la dimensione naturale di un intero positivo <math>k</math> è <math>[1 + log_2{k}]</math>, cioè il numero di cifre necessario per rappresentare <math>k</math> in notazione binaria. Analogamente la dimensione di un vettore di elementi è solitamente costituita dal numero delle sue componenti, mentre la dimensione di un grafo è data congiuntamente dal numero dei suoi nodi e dei suoi archi. La dimensione di <math>n</math> si denota con <math>|n|</math>. 
+
+Dato un algoritmo <math>a</math> su un insieme di input <math>I</math>, può accadere che due istanze <math>i</math>, <math>i'</math> di ugual dimensione cioè <math>|i|</math>. = <math>|i'|</math>. diano luogo tempi diversi di esecuzione per uno stesso algoritmo. Si parla dunque di complessità dell'input e se ne distinguono tre casi: 
+
+# complessità in caso peggiore
+# complessità in caso medio
+# complessità in caso migliore
+
+Il caso peggiore è quello che di fatto viene considerato per la formulazione della complessità di un algoritmo. Il caso migliore è tipicamente <math>O(1)</math>, cioè trovare la soluzione al primo passo o occupare una sola cella di memoria.
+
+Een '''algoritme''' (van het logica of vergelijkingen) vereisen om de taak te voltooien.
+
+Eenzelfde taak kan gewoonlijk met verschillende reeksen instructies worden opgelost. Het verschil ligt dan meestal in de hoeveelheid ruimte of inspanning die het algoritme vergt; dit is de complexiteit van een algoritme. Een recept is een voorbeeld van een algoritme. Om aardappelsalade te maken kan het ene recept de instructie "schil de aardappel" bevatten en daarna de instructie "kook de aardappel". Bij een ander recept kunnen die twee stappen omgedraaid zijn. Beide recepten zullen echter vragen deze stappen voor alle aardappelen uit te voeren en het eindresultaat is een lekkere aardappelsalade.
+
+Het correct uitvoeren van een algoritme zal in het algemeen geen probleem kunnen oplossen als het algoritme fouten bevat of bepaalde problemen niet herkent. Bijvoorbeeld het recept voor aardappelsalade levert geen resultaat op als er geen aardappelen zijn, zelfs als alle handelingen worden verricht ''alsof'' er aardappelen waren.
+
+== Formele algoritmen ==
+
+Algoritmen zijn essentieel voor de manier waarop computers informatie verwerken, omdat een computerprogramma een algoritme is dat de computer vertelt specifieke stappen in een specifieke volgorde uit te voeren om een bepaald eindresultaat te bereiken.
+
+In het algemeen wordt bij algoritmen die informatie verwerkt, i.e. data, die gelezen wordt van een invoerapparaat en die wordt weggeschreven naar een uitvoerapparaat; de analyseren van algoritmen gezien als de "interne toestand" van het apparaat dat het algoritme uitvoert.
+
+Voor elk rekenkundig proces moet een algoritme nauwkeurig gedefinieerd worden: het specificeert namelijk hoe het apparaat zal reageren op elke mogelijke invoer en interne toestand. Omdat een algoritme een exacte lijst is met exacte stappen, is de volgorde waarin de berekening gebeurt kritisch voor het correct functioneren van het algoritme. Uniek aan het concept van formele algoritmen is de toewijzing van een waarde aan een geheugen als kladblok.
+
+== Algoritme versus computerprogramma ==
+
+Waar een algoritme de ''beschrijving'' is van een oplossing van een probleem is een objectgeoriënteerd programmeren, logisch programmeren, symbolisch programmeren, functioneel programmeren.
+
+In imperatief programmeren worden instructies expliciet opgeschreven, waarbij de berekening ''bovenaan'' begint en vervolgens stap voor stap naar beneden verloopt. Dit heet de control flow van een algoritme.
+
+Een andere manier om tegen algoritmen aan te kijken is functioneel programmeren. In programma's van dit type worden algoritmen gezien als wiskundige functies die elkaar kunnen aanroepen. Diezelfde functies kunnen ook aan variabelen worden toegewezen en zelfs als parameter in een functieaanroep gebruikt worden.
+
+== Voorbeeld ==
+
+Een voorbeeld van een algoritme is het algoritme van Euclides, dat de grootste gemene deler van twee strikt positieve getallen in de variabelen a en b geeft. De informele beschrijving van dit algoritme is als volgt:
+
+* Zolang a en b niet gelijk zijn:
+** Trek van het grootste van de twee het andere af.
+* Zodra ze gelijk zijn, is de grootste gemene deler a (of b).
+
+In pseudocode:
+
+ '''function''' ggd(a,b)
+   '''if''' a = b
+     '''return''' a
+   '''else if''' a < b
+     '''return''' ggd(a, b-a)
+   '''else'''
+     '''return''' ggd(a-b, b)
+ '''end'''

@@ -1,0 +1,118 @@
+'''Yerin cazibə qüvvəsi''' və ya '''qravitasiya qüvvəsi''' fizikanın dörd əsas qüvvələrindən biridir. O, cismlərin bir-birini cəzb etməsini təsvir edir. Yerin cazibə qüvvəsi nəticəsində cismlər yer tərəfindən cəzb edilir. Bu qüvvə həm də yerin və başqa planetlərin trayektoriyasını təyin edir və bununla astronomiyada böyük rol oynayır.
+
+== Yaranmasına dair ==
+
+Qədim hind müəllifləri sərbəst düşməni artıq cismin kütləsi ilə mütənasib olan və yerin mərkəzinə yönəlmiş qüvvə ilə izah etmişlər.Aristotel yeri bütün cismləri özünə cəlb edən cism kimi təsvir etmişdir. Fars astronomu Məhəmməd ibn Musa İX əsrdə fəza cismlərinin hərkətini casibə qüvvəsi ilə izah etmişdir. Əl-Biruni Xİ əsrdə hind dilində olan materialları ərəb dilinə çevirir. Xİİ əsrdə fars alimi Əl Xəzini yerin cazibə qüvvəsini cismlə yer arasında olan məsafədən, kütlələr arasındakı fərqdən asılı olduğunu söyləmişdir. XVİ əsrdə   Qalileo Qaliley cismin sərbəst düşməsini bərabərsürətli hərəkət adlandırıb, kütlədən asılı olmadığını təsvir edir. İngilis alimi Robert Huk (Robert Hooke) 1670-ci ildə cazibə qüvvəsini cismin xassələrindən  və onlar arasındakı məsafədən asılı olmasını sınaqlarla göstərmişdir.
+
+Ilk dəfə yerin cazibəq üvvəsini riyazi şəkildə təsvir etməyə çalışan İsaak Nyuton olmuşdur. Onun təsvir etdiyi Nyuton qravitasiya nəzəriyyəsi astronomiyada tətbiq oluna biləcək ilk nəzəriyyə idi. XX əsrin əvvəlinə qədər bu sahədə bir çox nəzəriyyələr yaransada onlar sonradan yaranan Eynşteyn nəzəriyyəsi tərəfindən sıxışdırılmışdır.
+
+1916-cı ildə Albert Eynşteyn tərəfindən işlənmiş nisbilik nəzəriyyəsində qravitasiya fəza vaxtının həndəsi xassələrindən asılı olaraq verilir. Bu fəza verilmiş enerjiyə uyğun olaraq əyilir. Nyutonun təklif etdiyi qravitasiya qüvvəsi isə bunun sərhəd halı kimi baxılır.
+
+== Nyuton qravitasiya qüvvəsi ==
+
+Nyuton qravitasiya qanununa əsasən kütlələri <math>m</math> və <math>M</math> olan iki cism bir-birini onların kütlələri ilə düz və arasındakı məsafənin kvadratı ilə tərs mütənasib olan  <math>\mathbf F(\mathbf r)</math> qüvvəsi ilə cəzb edirlər. Cazibə qüvvəsi bu halda belə hesablanır:
+: <math>\mathbf F(\mathbf r) = -\frac{G M m}{r^2}\frac{\mathbf r}{r}</math>,
+
+burada <math>G</math> qravitasiya sabitidir. Onu qravitasiya tərəzisi ilə təyin etmək olar.
+
+Puasson asılılığını həll etməklə istənilən paylanmış kütlə üçün <math>\rho(\mathbf r)</math>. qravitasiya potensialını <math>\Phi(\mathbf r)</math> tapmaq olur:
+
+: <math>\Delta \Phi(\mathbf r)= 4 \pi G \rho(\mathbf r)</math>
+
+nəticədə bu düsturla qravitasiya sahəsi təyin edilir:
+
+: <math>\mathbf F(\mathbf r)=-m \nabla\Phi(\mathbf r)</math>
+
+Elektrodinamikada elektrik sahəsi Qauss qanunu ilə təyin edilə bildiyi kimi, burada da bu üsulla verilmiş kütlə paylanması üçün qravitasiya təcilini <math>\mathbf g(\mathbf r) </math> tapmaq mümkündür: 
+: <math>\oint_A \mathbf g(\mathbf r) \mathrm d \mathbf A= - 4 \pi G M</math>,
+
+və ya kütlə paylanmasının ümumi forması üçün differensiallamaqla: 
+
+: <math>\nabla \cdot \mathbf g(\mathbf r) = -4 \pi G \rho(\mathbf r)</math>.
+
+<!--  -->
+
+'''Gravitation''' is a natural phenomenon by which all objects with mass attract each other,<ref name="Does Gravity Travel at the Speed of Light?">[http://math.ucr.edu/home/baez/physics/Relativity/GR/grav_speed.html Does Gravity Travel at the Speed of Light?], ''UCR Mathematics''. 1998. Retrieved 3 July 2008.</ref> and is one of the fundamental forces of physics. In everyday life, gravitation is most commonly thought of as the agency that gives objects weight. It is responsible for keeping the Earth and the other planets in their orbits around the Sun; for keeping the Moon in its orbit around the Earth, for the formation of tides; for convection (by which hot fluids rise);  for heating the interiors of forming stars and planets to very high temperatures; and for various other phenomena that we observe. Gravitation is also the reason for the very existence of the Earth, the Sun, and most macroscopic objects in the universe; without it, matter would not have coalesced into these large masses and life as we know it would not exist. 
+
+Modern physics describes gravitation using the general theory of relativity, but the much simpler Newton's law of universal gravitation provides an excellent approximation in most cases. 
+
+The terms '''gravitation''' and '''gravity''' are mostly interchangeable in everyday use, but in scientific usage a distinction may be made. "Gravitation" is a general term describing the attractive influence that all objects with mass exert on each other, while "gravity" specifically refers to a force that is supposed in some theories (such as Newton's) to be the cause of this attraction. By contrast, in general relativity gravitation is due to spacetime curvatures that cause inertially moving objects to accelerate towards each other. 
+ 
+right|350px|thumb|Gravitation keeps the planets in orbit about the Sun. (Not to scale)
+== History of gravitational theory ==
+
+=== Early history ===
+Efforts to understand gravity began in ancient times. Philosophers in ancient India explained the phenomenon from the 8th century BC.<ref>Dick Teresi (2002), ''Lost Discoveries: The Ancient Roots of Modern Science - from the Babylonians to the Maya'', Simon & Schuster, New York, ISBN 0-684-83718-8:
+<br></ref> According to Weight causes falling; it is imperceptible and known by S. Kak (2003). [http://arxiv.org/abs/physics/0310001 Indian Physics: Outline of Early History''], p. 22. ''arXiv''. Louisiana State University. </ref>
+
+In the 4th century BC, the Greek philosopher effect without a motion without a crystalline spheres of the heavens, and that physical bodies fell toward the center of the Earth in proportion to their weight.
+
+Brahmasphuta Siddhanta'' (AD 628), responded to critics of the heliocentric system of Brahmasphuta Siddhanta'' ("''The Opening of the Universe''").</ref><ref>Al-Biruni (1030). ''Ta'rikh al-Hind'' (''Indica'').</ref>
+
+In the 9th century, the eldest Muhammad ibn Musa, in his ''Astral Motion'' and ''The Force of Attraction'', hypothesized that there was a force of attraction between heavenly bodies,<ref>K. A. Waheed (1978). ''Islam and The Origins of Modern Science'', p. 27. Islamic Publication Ltd., Lahore.</ref> foreshadowing Persian scientist magnitude of acceleration due to gravity.<ref>Dr. Nader El-Bizri, "Ibn al-Haytham or Alhazen", in Josef W. Meri (2006), ''Medieval Islamic Civilization: An Encyclopaedia'', Vol. II, p. 343-345, Routledge, New York, London.</ref>
+In 1121, Al-Khazini, in ''The Book of the Balance of Wisdom'', differentiated between force, mass, and weight,<ref>Donald Routledge Hill (1993), ''Islamic Science and Engineering'', p. 61, Edinburgh University Press. (cf. Salah Zaimeche PhD (2005), [http://www.muslimheritage.com/uploads/Merv.pdf Merv], p. 5, Foundation for Science Technology and Civilization.)</ref> and discovered that gravity varies with the distance from the centre of the Earth,<ref name=Abattouy>Professor Mohammed Abattouy (2002). "The Arabic Science of weights: A Report on an Ongoing Research Project", ''The Bulletin of the Royal Institute for Inter-Faith Studies'' '''4''', p. 109-130.</ref>
+though he believed that the weight of heavy bodies increase as they are farther from the centre of the Earth.<ref>N. Khanikoff, ed. and trans. (1858-1860), "Analysis and Extracts of ... Book of the Balance of Wisdom, An Arabic Work on the Water-Balance, Written by 'Al-Khâzinî in the Twelfth Century", chap. 5, sect. 3.1, ''Journal of the American Oriental Society'' '''6''', p. 36.</ref>  All these early attempts at trying to explain the force of gravity were philosophical in nature.
+
+=== Scientific revolution ===
+Modern work on gravitational theory began with the work of Tower of Pisa, and later with careful measurements of balls rolling down inclines, Galileo showed that gravitation accelerates all objects at the same rate.  This was a major departure from Aristotle's belief that heavier objects are accelerated faster. <ref>Galileo (1638), ''Two New Sciences'', [http://oll.libertyfund.org/?option=com_staticxt&staticfile=show.php%3Ftitle=753&chapter=109891&layout=html&Itemid=27 First Day] Salviati speaks: "If this were what Aristotle meant you would burden him with another error which would amount to a falsehood; because, since there is no such sheer height available on earth, it is clear that Aristotle could not have made the experiment; yet he wishes to give us the impression of his having performed it when he speaks of such an effect as one which we see."</ref> (Galileo correctly postulated air resistance as the reason that lighter objects may fall more slowly in an atmosphere.)  Galileo's work set the stage for the formulation of Newton's theory of gravity.
+
+=== Newton's theory of gravitation ===
+
+In 1687, English mathematician Principia'', which hypothesizes the inverse-square law of universal gravitation.  In his own words, “I deduced that the forces which keep the planets in their orbs must be reciprocally as the squares of their distances from the centers about which they revolve; and thereby compared the force requisite to keep the Moon in her orb with the force of gravity at the surface of the Earth; and found them answer pretty nearly.”  Forty-two years earlier Ismaël Bullialdus had proposed much the same theory. 
+
+Newton's theory enjoyed its greatest success when it was used to predict the existence of Neptune based on motions of Uranus that could not be accounted by the actions of the other planets.  Calculations by John Couch Adams and Urbain Le Verrier both predicted the general position of the planet, and Le Verrier's calculations are what led Johann Gottfried Galle to the discovery of Neptune.
+
+Ironically, it was another discrepancy in a planet's orbit that helped to point out flaws in Newton's theory.  By the end of the 19th century, it was known that the orbit of Mercury could not be accounted for entirely under Newton's theory, but all searches for another perturbing body (such as a planet orbiting the General Theory of Relativity, which accounted for the discrepancy in Mercury's orbit.
+
+Although Newton's theory has been superseded, most modern non-relativistic gravitational calculations are still made using Newton's theory because it is a much simpler theory to work with than General Relativity, and gives sufficiently accurate results for most applications.
+
+=== General relativity ===
+
+In '''general relativity''', the effects of gravitation are ascribed to spacetime curvature instead of a force.  The starting point for general relativity is the equivalence principle, which equates free fall with inertial motion.  The issue that this creates is that free-falling objects can accelerate with respect to each other.  In Newtonian physics, no such acceleration can occur unless at least one of the objects is being operated on by a force (and therefore is not moving inertially).
+
+To deal with this difficulty, Einstein proposed that spacetime is curved by matter, and that free-falling objects are moving along locally straight paths in curved spacetime. (This type of path is called a geodesic.)  More specifically, Einstein discovered the simultaneous, non-linear, metric tensor of spacetime.  A metric tensor describes a geometry of spacetime. The geodesic paths for a spacetime are calculated from the metric tensor.  
+
+Notable solutions of the Einstein field equations include:
+* The spherically symmetric non-rotating uncharged massive object.  For compact enough objects, this solution generated a singularity.  For radial distances from the center which are much greater than the Schwarzschild radius, the accelerations predicted by the Schwarzschild solution are practically identical to those predicted by Newton's theory of gravity.
+* The Reissner-Nordström solution, in which the central object has an electrical charge.  For charges with a geometrized length which are less than the geometrized length of the mass of the object, this solution produces black holes with two event horizons.
+* The Kerr solution for rotating massive objects. This solution also produces black holes with multiple event horizons.
+* The Kerr-Newman solution for charged, rotating massive objects. This solution also produces black holes with multiple event horizons.
+* The cosmological Robertson-Walker solution, which predicts the expansion of the universe.
+
+General relativity has enjoyed much success because of how its predictions of phenomena which are not called for by the theory of gravity have been regularly confirmed.  For example:
+* General relativity accounts for the anomalous perihelion precession of Mercury.
+* The prediction that time runs slower at lower potentials has been confirmed by the GPS.
+* The prediction of the deflection of light was first confirmed by Arthur Eddington in 1919, and has more recently been strongly confirmed through the use of a quasar which passes behind the Sun as seen from the Earth. See also gravitational lensing.
+* The time delay of light passing close to a massive object was first identified by Irwin Shapiro in 1964 in interplanetary spacecraft signals.
+* Gravitational radiation has been indirectly confirmed through studies of binary pulsars.
+* The expansion of the universe (predicted by Alexander Friedmann) was confirmed by Edwin Hubble in 1929.
+
+===Gravity and quantum mechanics===
+
+Several decades after the discovery of general relativity it was realized that general relativity is incompatible with virtual gravitons, in the same way as the electromagnetic force arises from exchange of virtual photons.<ref></ref><ref></ref> This reproduces general relativity in the classical limit. However, this approach fails at short distances of the order of the Planck length,<ref></ref> where a more complete theory of quantum gravity (or a new approach to quantum mechanics) is required. Many believe the complete theory to be string theory,<ref></ref> or more currently M Theory.
+
+== Specifics ==
+===Earth's gravity===
+
+Every planetary body (including the Earth) is surrounded by its own gravitational field, which exerts an attractive force on all objects. Assuming a spherically symmetrical planet (a reasonable approximation), the strength of this field at any given point is proportional to the planetary body's mass and inversely proportional to the square of the distance from the center of the body.
+
+The strength of the gravitational field is numerically equal to the acceleration of objects under its influence, and its value at the Earth's surface, denoted ''g'', is approximately expressed below as the standard average.
+
+<math>g = 9.8 \frac{m}{s^2} = 32.2 \frac{ft}{s^2}</math>
+
+This means that, ignoring air resistance, an object falling freely near the earth's surface increases its velocity with <math>9.8\tfrac{m}{s}</math> (<math>32.2\tfrac{ft}{s}</math> or 22 mph) for each second of its descent. Thus, an object starting from rest will attain a velocity of <math>9.8\tfrac{m}{s}</math> (<math>32.2\tfrac{ft}{s}</math>) after one second, <math>19.6\tfrac{m}{s}</math> (<math>64\tfrac{ft}{s}</math>) after two seconds, and so on, adding <math>9.8\tfrac{m}{s}</math> to each resulting velocity. According to Newton's 3rd Law, the Earth itself experiences an equal and opposite force to that acting on the falling object, meaning that the Earth also accelerates towards the object. However, because the mass of the Earth is huge, the acceleration of the Earth by this same force is negligible, when measured relative to the system's center of mass.
+
+=== Equations for a falling body ===
+thumb|right|100px|Ball falling freely under gravity. See text for description.
+
+The kinematical and dynamical equations describing the trajectories of falling bodies are considerably simpler if the gravitational force is assumed constant. This assumption is reasonable for objects falling to Earth over the relatively short vertical distances of our everyday experience, but does not hold over larger distances, such as spacecraft trajectories, since the acceleration due to Earth's gravity is much smaller at large distances.
+
+Under an assumption of constant gravity, Newton’s law of gravitation simplifies to ''F'' = ''mg'', where ''m'' is the mass of the body and ''g'' is a constant vector with an average magnitude of 9.81&nbsp;m/s². The acceleration due to gravity is equal to this ''g''. An initially-stationary object which is allowed to fall freely under gravity drops a distance which is proportional to the square of the elapsed time. The image on the right, spanning half a second, was captured with a stroboscopic flash at 20 flashes per second. During the first 1/20th of a second the ball drops one unit of distance (here, a unit is about 12 mm); by 2/20ths it has dropped at total of 4 units; by 3/20ths, 9 units and so on. 
+
+Under the same constant gravity assumptions, the potential energy, ''E<sub>p</sub>'', of a body at height ''h'' is given by ''E<sub>p</sub>'' = ''mgh'' (or ''E<sub>p</sub>'' = ''Wh'', with ''W'' meaning weight). This expression is valid only over small distances ''h'' from the surface of the Earth. Similarly, the expression <math>h = \tfrac{v^2}{2g}</math> for the maximum height reached by a vertically projected body with velocity ''v'' is useful for small heights and small initial velocities only. In case of large initial velocities we have to use the principle of conservation of energy to find the maximum height reached. This same expression can be solved for ''v'' to determine the velocity of an object dropped from a height ''h'' immediately before hitting the ground, <math>v=\sqrt{2gh}</math>, assuming negligible air resistance.
+
+===Gravity and astronomy===
+
+The discovery and application of Newton's law of gravity accounts for the detailed information we have about the planets in our solar system, the mass of the Sun, the distance to stars, galaxies orbit a center of mass in clusters, and clusters orbit in superclusters.  The force of gravity is proportional to the mass of an object and inversely proportional to the square of the distance between the objects.
+
+===Gravitational radiation===

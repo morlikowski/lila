@@ -1,0 +1,107 @@
+{{infobox Franse gemeente|
+|plaatsnaam= Loches-sur-Ource
+|wapen= 
+|kaart= 
+|regio= Champagne-Ardennen 
+|departement= Aube (10)
+|arrondissement= Troyes
+|kanton= Essoyes
+|jaar= 2005
+|inwoners= 372
+|dichtheid= 26,8
+|oppervlakte= 13,9
+|water= 
+|latitudeGraden= 48 |latitudeMinuten= 4|latitudeSeconden= 0
+|longitudeGraden= 4 |longitudeMinuten= 30 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 203 |kaartY= 103
+|code= 10199
+|postcode= 10110
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Loches-sur-Ource''' is een gemeente in het Franse departement Aube (regio Troyes.
+
+==Geografie==
+De oppervlakte van Loches-sur-Ource bedraagt 13,9 km², de bevolkingsdichtheid is 26,8 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:600 color:gray1 width:1       
+  from:start till:end             
+  bar:400 color:gray1              
+  from:start till:end            
+  bar:200 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,139)(84,132) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 420 1968: 397
+  points:(84,132)(100,153)    color:blue    width:2 #1975: 468
+  points:(100,153)(128,142)   color:blue    width:2 #1982: 431
+  points:(128,142)(160,130)   color:blue    width:2 #1990: 389
+  points:(160,130)(196,132)   color:blue    width:2 #1999: 397
+  points:(196,132)(228,125)     color:blue    width:2 #2004/5 
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+{{Infobox Commune de France|nomcommune=Loches-sur-Ource
+|région=Champagne-Ardenne
+|département=Aube
+|arrondissement=de Troyes
+|canton=d'Essoyes
+|insee=10199
+|cp=10110
+|maire= Jacques Preaut
+|mandat=2001-2008
+|intercomm=Communauté de communes de l'Arce et de l'Ource
+|longitude=4.50527777778
+|latitude=48.0641666667
+|alt moy=182 m
+|alt mini= m
+|alt maxi= m
+|hectares=1371
+|km²=13,71
+|sans=397
+|date-sans=1999
+|dens=28|}}
+'''Loches-sur-Ource''' est une commune française, située dans le département de l'Aube et la région Champagne-Ardenne.
+
+==Géographie==
+==Histoire==
+==Administration==
+
+==Démographie==
+{{Démographie|
+1962= 420|
+1968= 397|
+1975= 468|
+1982= 431|
+1990= 389|
+1999= 397|
+sansdoublescomptes= 1962|source=INSEE<ref>[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=10199&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Loches-sur-Ource sur le site de l'Insee]</ref>}}
+
+==Lieux et monuments==
+==Personnalités liées à la commune==
+==Voir aussi==
+* Communes de l'Aube 

@@ -1,0 +1,57 @@
+'''Electroacoustic phenomena''' arises when ultrasound propagates through a fluid containing ions. It moves these ions. This motion generates electric signals because ions have electric charge. This coupling between ultrasound and electric field is called electroacoustic phenomena. Fluid might be a simple Newtonian liquid, or complex heterogeneous dispersion, emulsion or even a porous body. There are several different electroacoustic effects depending on the nature of the fluid. 
+
+*Ion Vibration Current/Potential (IVI), an electric signal that arises when an acoustic wave propagates through a homogeneous fluid.
+*Streaming Vibration Current/Potential (SVI), an electric signal that arises when an acoustic wave propagates through a porous body in which the pores are filled with fluid. 
+*Colloid Vibration Current /Potential (CVI), an electric signal that arises when ultrasound propagates through a heterogeneous fluid, such as a dispersion or emulsion. 
+*Electric Sonic Amplitude (ESA), the inverse of CVI effect, in which an acoustic field arises when an electric field propagates through a heterogeneous fluids.
+
+==Ion Vibration Current==
+Historically, the IVI is the first known electroacoustic effect. It was predicted by Debye in 1933<ref>Debye.P."A method for the determination of the mass of electrolyte ions"J. Chem. Phys., 1,13-16,1933</ref>. He pointed out that the difference in the effective mass or friction coefficient between anion and cation would result in different displacement amplitudes in a longitudinal wave. This difference creates an alternating electric potential between various points in sound wave. This effect was extensively used in 1950’s and 1960’s for characterizing ion solvation. These works are mostly associated with names of Zana and Yaeger, who published a review of their studies in 1982<ref>Zana.R. and Yeager. E. "Ultrasonic Vibration Potentials" Mod.Aspects of Electrochemistry, 14, 3-60, 1982</ref>. 
+
+==Streaming Vibration Current==
+Streaming Vibration Current was experimentally observed in 1948 by Williams <ref>Williams.M. " An Electrokinetic Transducer" The review of scientific instruments, 19, 10, 640-646, 1948</ref>. A theoretical model was developed some 30 years later by Dukhin and others<ref>Dukhin, S.S., Mischuk, N.A., Kuz’menko, B.B and Il’in, B.I. "Flow current and potential in a high-frequency acoustic field" Colloid J., 45, 5, 875-881,1983</ref>. This effect opens another possibility for characterizing the electric properties of the surfaces in porous bodies. A similar effect can be observed at a non-porous surface, when sound is bounced off at an oblique angle. The incident and reflected waves superimpose to cause oscillatory fluid motion in the plane of the interface, thereby generating an AC streaming current at the frequency of the sound waves<ref>Glauser, A.R., Robertson P.A., Lowe, C.R., "An electrokinetic sensor for studying immersed surfaces, using focused ultrasound" Sensors Actuators B, 80, 1, 68-82, 2001</ref>. 
+
+==Double Layer Compression==
+The electrical double layer can be regarded as behaving like a parallel plate capacitor with a compressible dielectric filling. When sound waves induce a local pressure variation, the spacing of the plates varies at the frequency of the excitation, generating an AC displacement current normal to the interface. For practical reasons this is most readily observed at a conducting surface<ref>F.I. Kukoz, L.A. Kukoz, "The nature of audioelectro-chemical phenomena" Russ. J. Phys. Chem. 36 (1962) pp. 367-369</ref>. It is therefore possible to use an electrode immersed in a conducting electrolyte as a microphone, or indeed as a loudspeaker when the effect is applied in reverse<ref>N. Tankovsky, "Capacitive ultrasound transducer, based on the electrical double layer in electrolytes" J. App. Phys. 87 (2000) pp. 538-542</ref>.
+
+==Colloid Vibration Potential / Current==
+Colloid Vibration Potential/Current was first reported by Hermans and then independently by Rutgers in 1938. It is widely used for characterizing the ζ-potential of various dispersions and emulsions. The effect, theory, experimental verification and multiple applications are discussed in the book by Dukhin and Goetz.<ref>Dukhin, A.S. and Goetz, J.P. "Ultrasound for Characterizing Colloids" Elsevier, 2002 </ref>
+
+==ElectricSonic Amplitude==
+Electric Sonic Amplitude was experimentally discovered by Cannon with co-authors in early 1980’s.<ref>Oja, T., Petersen, G., and Cannon, D. “Measurement of Electric-Kinetic Properties of a Solution”, US Patent 4,497,208,1985</ref> It is also widely used for characterizing ζ-potential in dispersions and emulsions. There is review of this effect theory, experimental verification and multiple applications published by Hunter.<ref>Hunter, R.J. “Review. Recent developments in the electroacoustic characterization of colloidal suspensions and emulsions”, Colloids and Surfaces, 141, 37-65, 1998</ref>
+
+==Theory of CVI and ESA==
+With regard to the theory of CVI and ESA, there was important observation made by O’Brien,<ref>O’Brien, R.W. "Electro-acoustic effects in a dilute suspension of spherical particles" J. Fluid Mech., 190, 71-86,1988</ref> who linked these measured parameters with dynamic electrophoretic mobility μ<sub>d</sub>. 
+
+:<math> \ CVI(ESA) = A\phi\mu_d\frac{\rho_p-\rho_m}{\rho_m}</math>
+
+where
+: A is calibration constant, depending on frequency, but not particles properties;
+: ρ<sub>''p''</sub> is particle density,
+: ρ<sub>''m''</sub> density of the fluid,
+: φ is volume fraction of dispersed phase,
+
+Dynamic electrophoretic mobility is similar to electrophoretic mobility that appears in electrophoresis theory. They are identical at low frequencies and/or for sufficiently small particles. 
+
+There are several theories of the dynamic electrophoretic mobility. Their overview is given in the Ref.5. Two of them are the most important. 
+
+The first one corresponds to Smoluchowski limit. It yields following simple expression for CVI for sufficiently small particles with negligible CVI frequency dependence: 
+
+:<math> \ CVI(ESA) = A\phi\frac{\varepsilon_0\varepsilon_m\zeta\Kappa_s}{\eta\Kappa_m}\frac{\rho_p-\rho_s}{\rho_s}</math>
+
+===Elektroakustika - věda===
+
+Věda, která se zabývá zvukem, jeho šířením, jeho záznamem a reprodukcí za použití elektroniky. Věda, která zasahuje do části vědního oboru akustiky a rovněž zasahuje do části vědního oboru elektroniky, významné postavení v elektroakustice mají měniče.
+<ref> CO JE HUDEBNÍ VĚDA http://musicology.ff.cuni.cz/coje.htm </ref>
+<ref> Skripta ELEKTROAKUSTICKÁ ZAŘÍZENÍ http://www.roznovskastredni.cz/~fuchs/download/Akustika.pdf </ref>
+
+===Základní měniče===
+
+1.	Přeměna akustické energie na elektrickou energii – Akusticko-elektrické měniče (Mikrofony)<br />
+2.	Přeměna mechanického pohybu na elektrickou energii – Mechanicko-elektrické měniče (Přenosky)<br />
+3.	Přeměna elektrické energie na akustickou energii – Elektro – akustické měniče (Reproduktory)<br />
+4.	Přeměna elektrické energie na magnetickou energii a naopak – Elektro – magnetické a Magneticko – elektrické měniče (Magnetofonové hlavy)<br /><ref> Skripta ELEKTROAKUSTICKÁ ZAŘÍZENÍ http://www.roznovskastredni.cz/~fuchs/download/Akustika.pdf </ref>
+
+==Literatura==
+DIDAKTIKA STROJÍRENSKÝCH A ELEKTROTECHNICKÝCH PŘEDMĚTŮ, UNIVERZITA PALACKÉHO V OLOMOUCI, OLOMOUC 2002, Jiří kopáč, Zdeněk Kubíček, Miroslav Chráska, Martin Havelka.<br />
+Akustika a elektroakustika, Zdeněk Škvor, ISBN 80-200-0461-0, EAN 9788020004611

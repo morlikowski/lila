@@ -1,0 +1,78 @@
+The '''Leiden Conventions''' are an established set of rules, symbols, and brackets used to indicate the condition of an epigraphic or papyrological text in a modern edition. In previous centuries of classical scholarship, scholars who published texts from inscriptions, papyri, or manuscripts used divergent conventions to indicate the condition of the text and editorial corrections or restorations. The Leiden meeting was designed to help to redress this confusion.
+
+The earliest form of the Conventions were agreed at a meeting of classical scholars at the University of Leiden in 1931, and published in an article shortly thereafter.<ref>See Groningen (1932) and cf. Hunt (1932); these articles are part of the proceedings of the XVIIIe Congrès International des Orientalistes. Leyde, du 7 au 1 septembre 1931, Section Autonome des Papyrologues.</ref>  There are minor variations in the use of the Conventions between epigraphy and papyrology (and even between Greek and Latin epigraphy). More recently, scholars have published improvements and adjustments to the system.<ref>See e.g. Dow (1969) and Krummrey-Panciera (1980). Cf. Robert (1983), 9-11 who seemingly rejects Leiden.</ref>
+
+==Most important ''sigla''==
+
+{| class="wikitable"
+|-
+! ''siglum''
+! explanation
+|-
+| [...]
+| a lacuna or gap in the original text, not restored by the editor (extent known)
+|-
+| [— — —]
+| a lacuna or gap in the original text, not restored by the editor (extent unknown)
+|-
+| [abc]
+| letters missing from the original text due to lacuna, but restored by the editor
+|-
+| a(bc)
+| abbreviation in the text, expanded by the editor
+|-
+| <ab>
+| characters erroneously omitted by the ancient scribe, restored by the editor
+|-
+| {ab}
+| letters in the text considered superfluous by the editor
+|-
+| ạḅ
+| characters damaged or otherwise unclear in the text, ambiguous outside of their context
+|-
+| ...
+| traces of letters on the surface, insufficient for restoration by the editor (Greek and Papyrological usage)
+|-
+| +++
+| traces of letters on the surface, insufficient for restoration by the editor (Roman epigraphic practice)
+|-
+| ABC
+| clear but incomprehensible letters
+|-
+| &#x5B;&#x5B;abc&#x5D;&#x5D;
+| deleted letters
+|-
+| ''vac.''
+| space left empty (''vacat'') on the stone or page
+|}
+
+==Bibliography==
+
+* Marcus Dohnicht, 'Zusammenstellung der diakritischen Zeichen zur Wiedergabe der lateinischen Inschrifttexte der Antike für den Unicode' (Entwurft Juli 2000), available <http://www.csad.ox.ac.uk/varia/unicode/Dohnicht.pdf>.
+* Sterling Dow, ''Conventions in editing: a suggested reformulation of the Leiden System'', Greek, Roman and Byzantine Studies Scholarly Aids 2 , Durham, 1969.
+* B. A. van Groningen, 'De signis criticis in edendo adhibendis', ''Menemosyne'' 59 (1932), pp. 362-365.
+* B. A. van Groningen, 'Projet d'unification des systèmes de signes critiques', ''Chronique d'Égypte'' 7 (1932), pp. 262-269.
+* J. J. E. Hondius, 'Praefatio', ''Suplementum Epigraphicum Graecum'' 7 (1934), p. i.
+* A.S. Hunt, 'A note on the transliteration of papyri', ''Chronique d'Égypte'' 7 (1932), pp. 272-274.
+* Hans Krummrey, Silvio Panciera, 'Criteri di edizione e segni diacritici', ''Tituli'' 2 (1980), pp. 205-215.
+* Silvio Panciera, 'Struttura dei supplementi e segni diacritici dieci anni dopo' in ''SupIt'' 8 (1991), pp. 9-21.
+* Louis Robert, with Jeanne Robert, ''Fouilles d'Amyzon en Carie'', Paris: De Boccard, 1983, pp. 9-11 on 'Signes critiques du corpus et édition'.
+* Ulrich Wilcken, 'Das Leydener Klammersystem', ''Archiv für Papyrusforschung'' 10 (1932), pp. 211-212.
+
+===Leiden usage in corpora===
+
+Das '''Leidener Klammersystem''' ist ein 1931 auf dem Internationalen Leiden beschlossenes System zur einheitlichen epigraphischer Texte (d. h. von Texten, die ursprünglich in Form von Inschriften vorlagen und in gedruckter Form reproduziert werden). 
+
+Durch die Bestückung des Textes mit bestimmten Klammern und anderen Schriftzeichen soll auf Besonderheiten der Originalinschrift hingewiesen werden, deren Kenntnis mitunter von unerlässlicher Bedeutung bei der Untersuchung und für das Verständnis eines Textes, sowie der Bewertung seines quellenmäßigen Wertes und seiner wissenschaftlichen Verortung ist.
+
+Das Leidener Klammersystem ist heute das allgemein verwandte System bei der wissenschaftlichen Publikation antiker Inschriften (z. B. der Res Gestae Divi Augusti). Wichtige Verlagseditionen, die das Leidener Klammersystem verwenden, sind u. a. die Loeb Classical Library, die Sammlung Tusculum, die Collection Budé und die Bibliotheca Teubneriana.
+
+Die wichtigsten Klammerzeichen sind:
+
+[…] Eckige Klammern zeigen an, dass der umklammerte Abschnitt auf der Originalinschrift beschädigt und nicht mehr oder zumindest nur sehr schwer lesbar ist und für die gedruckte Publikation vom Herausgeber ergänzt wurde.
+
+(…) Runde Klammern weisen darauf hin, dass der umklammerte Teil eines Wortes im Original weggelassen wurde, d. h. dass das Wort abgekürzt wurde. Beispiel: ''P(ontifex) M(aximus)'' bedeutet, dass statt des ausgeschriebenen ''Pontifex Maximus'' in der Originalinschrift nur ''PM'' zu finden ist.
+
+<nowiki>Geta, nachdem er diesen ermordet hatte, aus Inschriften tilgen, die beide als gleichberechtigte Herrscher nannten. Eine solche ''Damnatio memoriae'' kam auch in späteren Zeiten noch vor (so wurde z. B. Leo Trotzki in der stalinistischen und poststalinistischen Sowjetunion aus Lenin-Bildern herausretuschiert).
+
+&lt;…&gt;  Spitze Klammern zeigen an, dass der Herausgeber einen Fehler der Originalinschrift (z. B. Rechtschreibfehler oder eine irrtümliche Zahlenangabe) behutsam korrigiert hat.

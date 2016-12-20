@@ -1,0 +1,119 @@
+{{Infobox Logiciel
+| nom = FL Studio
+| logo = 20px
+| image = 
+| description = FL Studio 8
+| développeur = Image-Line Software
+| dernière version = 8.0. 
+| date de dernière version = 
+| version avancée = 
+| date de version avancée = 
+| environnements = Microsoft Windows
+| langues = 
+| type = Station de travail de musique digital
+| licence = propriétaire
+| site web = [http://www.flstudio.com/ http://www.flstudio.com]
+}}
+
+'''FL Studio''' (nouvelle version du fameux ''FruityLoops'' depuis 2008, version 8) est un séquenceur basé sur le concept de ''patterns'' introduits dans une ''playlist'', créé par Image-Line. Dans ses dernières versions il est compatible avec les standards VST, ReWire et DirectX.
+
+== Interface ==
+L'interface visuelle de FL Studio comprend 5 fenêtres principales, toutes accessibles par les 5 boutons correspondants dans la barre d'outil standard. Ces 5 fenêtres interagissent entre elles d'une façon propre à FL Studio afin d'aider l'utilisateur à arriver au son et à la pièce finale qu'il désire obtenir.
+
+=== Le ''Step Sequencer'' ===
+Le ''Step Sequencer'' est une fenêtre qui permet d'assembler rapidement, en activant ou désactivant des boutons (appelés ''steps'') qui correspondent à une valeur de note, des ''batterie, de basse simple, etc. La fenêtre totale du ''Step Sequencer'' correspond en fait à '''un''' ''pattern'', donc souvent à une mesure, par exemple. Si notre ''Step Sequencer'' contient 16 ''steps'', par exemple, chaque ''step'' correspond à une quadruple-croche. Une connaissance de base de la théorie musicale est évidemment un atout lors de l'utilisation de FL Studio. Lorsqu'on active un ''step'', l'instrument du ''channel'' sur lequel nous l'avons activé sonnera au moment précis où l'indicateur passera dessus.
+
+=== Le ''Piano Roll'' ===
+Le ''Piano Roll'' est l'outil destiné aux compositeurs "classiques". C'est une façon parfois plus simple, parfois plus complexe de créer un clavier à gauche et du temps en haut apportant une vision globale de la relation note/temps, il permet d'adjoindre à chaque note de nombreux paramètres (vol, pan, velocity, mais encore cutoff, pitch et bien d'autres) au sein même de l'outil. Il permet également de choisir la durée des notes jouées avec une précision plus grande que la double croche, ce que ne fait pas le ''Step Sequencer'' (!!). Les notes que nous plaçons dans le temps correspondent toujours à celles d'un seul instrument que nous choisissons dans un ''channel'' et que nous « envoyons vers le ''Piano Roll'' ». Bref, il est plus véridique d'affirmer que le ''Step Sequencer'' est une alternative au ''Piano Roll'' que l'inverse. À noter : le concept du ''Piano Roll'' dans FL Studio est précisément le même que celui des autres séquenceurs populaires.
+
+=== Les effets ===
+Les effets sont des éléments considérés secondaires mais qui apportent aux ''égaliseur graphique'' dans l'emplacement #3 et qu'une note est jouée par l'instrument, celui-ci subira d'abord l'effet du délai, et chaque note additionnelle créée par le délai recevra l'effet du ''égaliseur graphique. Il est également possible d'ajuster le volume entendu de chaque effet, d'égaliser graphiquement et d'ajuster la balance de chaque piste d'effets, ou de le faire à l'aide d'effets existants. Attention, il ne faut pas en abuser. Chaque effet consomme un peu de mémoire vive (RAM). Le logiciel ne fonctionnera plus comme vous le souhaitez si vous dépassez la limite de votre ordinateur. Il faudra donc rajouter de la latence qui empêchera les grésillements.
+
+=== La banque de son ===
+La « plugins'', des sauvegardes, etc. Afin de « transformer » un instrument en ''channel'', nous devons le glisser de la banque de son jusqu'au ''Step Sequencer'' d'un ''pattern'' afin de l'ajouter définitivement à la liste des ''channels'' de la pièce. Il est évidemment possible par la suite de le supprimer ou de le clôner.
+
+=== Le ''Playlist'' ===
+Le ''Playlist'' est en fait le résultat visuel de la pièce totale que l'on a créé avec FL Studio. Afin de créer une pièce, pour ainsi dire, nous « plaçons » des ''patterns'' dans le ''Playlist'' aux endroits temporels désirés. Il est possible de juxtaposer des ''patterns'', de faire des pauses, ou de mixer de façon non carrée et ordonnée des clips audio, comme la voix ou un solo instrumental enregistré, par exemple.
+
+=== Barres d'outils ===
+FL Studio comprend plusieurs barres d'outils (dans son propre style) utiles. D'abord, il y a un indicateur de temps. Celui-ci indique soit à quelle minute et à quelle seconde l'indicateur est rendue dans la pièce, ou à quelle mesure et à quel ''step''. Ensuite, FL Studio est également muni d'un oscilloscope maître très basique qui indique la forme actuelle du signal (en décibels par rapport au temps) ou d'un spectre de clavier MIDI. Sur cette barre se trouve également le tempo, ajustable de 10.000 BPM à 999.999 BPM, ainsi qu'un ''slider'' qui contrôle la position dans la pièce ou dans le ''pattern'' en cours. Finalement, une dernière barre d'outils pratique comporte certains boutons dont l'activation ou la désactivation du métronome, qui bat la noire, et la résolution du quadrillage (lorsqu'activé) dans le ''Piano Roll'' et dans le ''Playlist''. Un panneau d'affichage de nouveautés est disponible depuis la version 8.
+
+== Le jargon ==
+Voici les principaux termes (souvent anglophones) utilisés dans FL Studio et parfois dans d'autres séquenceurs populaires :
+
+* ''channels'' qui forme une boucle temporelle logique
+* ''Playlist'' : grille avec laquelle on structure ou compose la pièce finale en ajoutant, supprimant ou juxtaposant différents ''patterns''
+* ''Channel'' : soit un sample, soit un générateur, un ''channel'' peut aussi être appelé un instrument
+* ''Sample'' : échantillon de son pré-enregistré, comme par exemple un fichier WAVE, mp3 ou OGG
+* ''Step'' : plus petite division visible dans le ''Step Sequencer'', par défaut une double-croche
+* ''Beat'' : longueur de note créée par un certain nombre de ''steps'', défini dans les paramètres de la pièce, par défaut une noire donc 4 ''steps''
+* ''échantillon en changeant sa note grâce un procédé qui diminue ou augmente la fréquence des échantillons. Il est également possible avec cette machine de modifier l'attaque, le ''decay'', le ''sustain'' et le ''release'' de l'échantillon sur lequel on travaille.
+
+=== Les générateurs ===
+''FL Studio'' est fourni avec une série de générateurs. Les générateurs sont des sous-logiciels ressemblant à des synthétiseurs. Ils sont utilisés pour créer de toute pièce les sonorités, devant plus tard servir de mélodie ou de percussion. Ceux présents par défaut dans le logiciel sont :
+
+* ''3x-ocilliator''
+* ''BeepMap''
+* ''BooBass''
+* ''Buzz-generator-adapter''
+* ''DrumSynth Live''
+* ''DirectWave''
+* ''DX10''
+* ''Edison''
+* ''Plucked!''
+* ''FL-Keys''
+* ''FL-Slayer''
+* ''FPC''
+* ''Keyboard-controller''
+* ''Fruit-kick''
+* ''Fruity-granulizer''
+* ''Fruity-slicer''
+* ''Slicex''
+* ''Fruity-vibrator''
+* ''Fruity-wrapper''
+* ''MIDI-out''
+* ''Plucked!''
+* ''Poizone''
+* ''Simsynth Live''
+* ''Sytrus''
+* ''Soundfont Player''
+* ''Toxic Biohazard''
+* ''Wasp''
+* ''WaveTraveller''
+Certains générateurs sont décrits ci-dessous.
+
+==== ''3x-osc'' ====
+Le 3x-osc est un LP'', '' HP'', etc.), des enveloppes, des ''LFO'', un delay et un arpégiateur.
+
+{{Infobox Software
+| 名称 = FL Studio
+| ロゴ =
+| スクリーンショット =
+| 説明文 =
+| 開発元 = Image Line
+| 最新版 = 8.0
+| 最新版発表日 = 2008年3月25日
+| 最新評価版 =
+| 最新評価版発表日 =
+| 対応OS = Windows Vista
+| 対応プラットフォーム =
+| 種別 =  DAW
+| ライセンス =  プロプライエタリ
+| 公式サイト = [http://www.flstudio.com/ FL Studio Homepage]}}
+
+'''FL Studio'''(エフエル スタジオ)はソフト(DAW)である。クラシックからカントリー・ミュージックまで、あらゆるジャンルの音楽を作り出している。多くの商用DAWと異なり、生涯無料でバージョンアップできる「生涯アップデート権(free lifetime upgrades and updates) 」が設定、販売されている。
+
+==機能と特徴==
+　FL Studioはソフトシンセによるシーケンス制作や、オーディオ、エフェクト、ミックスを全て内部で完結可能、完成した曲ないしクリップは、MicrosoftWAV形式およびMP3形式でエクスポートできる。バージョン7からは、いくつかの内蔵プラグインのためにオープンソースのOgg Vorbis形式のサポートを始めている。FL Studioネイティブの保存形式は独自のFLPファイルである。FL StudioはBorland Delphiで作成されているため、LinuxおよびMac OS Xに対応する計画はない。
+
+　FL StudioはVST・ReWireホストととして動作するほか、クライアントとしても動作できる。他のDAWソフトのユーザは、自分が使用するホストDAWにFL Studioを組み込んで使用できる。この運用上の柔軟さもFL Studioの特徴である。
+
+　FL Studioはオーディオ情報を内部の32ビット浮動小数点エンジンで処理している。これにより、WDMあるいはASIO対応ドライバーでサンプリングレートを192kHzに引き上げることを可能にしている。
+
+　バージョン7のオーディオエンジンはマルチスレッド、マルチコアのCPUに対応している。ただしエフェクトはマルチスレッドに対応していない。
+
+　FL Studioには、多くのプラグインとジェネレータ(ソフトウェア・シンセサイザー)が附属する。それらはFL Studioネイティブのpluginアーキテクチャで作成されている。このAPIは、完全なVST、VST2、DX、およびReWire互換性を持つビルトインラッパーである。
+
+　特徴的なFL StudioネイティブプラグインにDashboardがある。これはユーザーが所有するハードウェアMIDIデバイス用のインタフェースを自動的に作成することを可能にする。これによりユーザーはハードウェアMIDIデバイスをFL Studioから自由に利用することが出来る。
+
+　バージョン8からはソフトシンセサイザSynthMakerのためのGUIや、公式マスコットキャラクター 「FL chan」 のダンスアニメーションプラグインFruity Danceなどが搭載される。

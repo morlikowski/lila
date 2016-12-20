@@ -1,0 +1,45 @@
+Nella particelle , dei corpi o del sistema di punti o di corpi equivale a quello di ogni sua componente.
+
+Affinché ci sia equilibrio statico nel dato riferimento inerziale, è dunque necessario e sufficiente che si verifichino contemporaneamente le seguenti condizioni:
+
+<math>
+  \left\{
+    \begin{matrix}
+      \mathbf{v} & = & 0 \\
+      \boldsymbol{\omega} & = & 0 \\
+      \sum \mathbf{F} & = & 0 \\
+      \sum \mathbf{M} & = & 0
+    \end{matrix}
+  \right.
+</math>
+
+ovvero velocità lineare e angolare nulla, secondo principio anche l'accelerazione) e somma di tutti i momenti nulla (per la seconda equazione cardinale, anche l'accelerazione angolare). Le condizioni (più deboli) di equilibrio dinamico non prevedono invece che siano nulle le velocità.
+
+L'annullamento della risultante delle forze, nel caso conservativo, si traduce nell'esistenza di un punto stazionario per il potenziale in funzione dei parametri variabili indipendentemente.
+
+==Tipi di equilibrio statico==
+
+frame|Tre coni in equilibrio statico. Sono indicate le posizioni dei baricentri e il grafico locale del potenziale (proporzionale all'altezza)
+A seconda del tipo di criticità del potenziale nel punto di equilibrio statico si distinguono tre casi: '''equilibrio stabile''' (potenziale minimo locale), '''equilibrio instabile''' (massimo locale o flesso orizzontale), '''equilibrio indifferente''' (potenziale localmente costante). Nel primo caso una piccola variazione delle condizioni causa un richiamo del sistema verso il punto di equilibrio; nel secondo causa una divergenza, o un allontanamento verso un equilibrio stabile; nel terzo le piccole variazioni portano a nuove configurazioni di equilibrio.
+
+right|thumb|A [[pendulum in a stable equilibrium (left) and unstable equilibrium (right).]]
+A standard definition of '''static equilibrium''' is:
+:When a system of forces acting on an object produces no motion, the system is said to be in static equilibrium.
+A standard definition of '''mechanical equilibrium''' is:
+:A forces on all particles of the system is zero, and also the sum of all torques on all particles of the system is zero.<ref>[http://physics.tamuk.edu/~suson/html/2325/MechanicalEquilibrium.html Mechanical Equilibrium<!-- Bot generated title -->]</ref> <ref>The torque is taken with respect to some reference point. Because the sum of the forces is zero the total torque is independent of the choice of this point.</ref>
+
+A rigid body in mechanical equilibrium is undergoing neither linear nor rotational acceleration; however it could be translating or rotating at a constant velocity.
+
+However, this definition is of little use in continuum mechanics, for which the idea of a particle is foreign. In addition, this definition gives no information as to one of the most important and interesting aspects of equilibrium states &ndash; their stability.
+
+An alternative definition of equilibrium that is more general and often more useful is
+
+:A system is in mechanical equilibrium if its position in configuration space is a point at which the gradient of the potential energy is zero.
+
+Because of the fundamental relationship between force and energy, this definition is equivalent to the first definition. However, the definition involving energy can be readily extended to yield information about the stability of the equilibrium state.
+
+For example, from elementary maximum of a differentiable function is a vanishing first derivative (that is, the first derivative is becoming zero). To determine whether a point is a minimum or maximum, one may be able to use the second derivative test. The consequences to the stability of the equilibrium state are as follows:
+
+* Second derivative &lt; 0 : The potential energy is at a local maximum, which means that the system is in an unstable equilibrium state. If the system is displaced an arbitrarily small distance from the equilibrium state, the forces of the system cause it to move even farther away.
+* Second derivative &gt; 0 : The potential energy is at a local minimum. This is a stable equilibrium. The response to a small perturbation is forces that tend to restore the equilibrium. If more than one stable equilibrium state is possible for a system, any equilibria whose potential energy is higher than the absolute minimum represent metastable states.
+* Second derivative = 0 or does not exist: The second derivative test fails, and one must typically resort to using the first derivative test. Both of the previous results are still possible, as is a third: this could be a region in which the energy does not vary, in which case the equilibrium is called neutral or indifferent or marginally stable. To lowest order, if the system is displaced a small amount, it will stay in the new state. 

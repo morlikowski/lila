@@ -1,0 +1,38 @@
+Το πρωτόκολλο '''Trivial File Transfer Protocol (TFTP)''' είναι ένα πολύ απλό πρωτόκολλο για την μεταφορά αρχείων μέσω του Διαδικτύου. Εμφανίστηκε για πρώτη φορά το 1980 και παρέχει μερικές μόνο από τις λειτουργίες που διαθέτει το πρωτόκολλο μνήμης που χρειάζεται για να λειτουργήσει είναι σχετικά μικρή, πράγμα πολύ σημαντικό την εποχή που εμφανίστηκε διότι η μνήμη υπολογιστών ήταν ιδιαιτέρως περιορισμένη. Το TFTP χρησιμοποιήθηκε κυρίως για την έναρξη (booting) διαφόρων δρομολογητών (routers) οι οποίοι δεν είχαν σκληρούς δίσκους ή δισκέτες για να αποθηκεύσουν το υπολογιστών ενός δικτύου.
+
+Το TFTP βασίζεται κυρίως σε ένα προγενέστερο πρωτόκολλο, το EFTP. Λόγω της απλότητάς του, το TFTP ήταν ένα από τα πρώτα πρωτόκολα της σουίτας πρωτοκόλλων TCP/IP που υλοποιήθηκε. Στην αρχική έκδοση του πρωτοκόλλου υπήρχε ένα αρκετά σημαντικό λάθος, το οποίο ανακαλύφθηκε σύντομα και ονομάστηκε orcerer's Apprentice Syndrome. Διάφορα σκουλίκια υπολογιστών (worms), όπως για παράδειγμα ο Blaster, χρησιμοποιούν το TFTP για να μεταδοθούν και να μολύνουν νέους υπολογιστές.
+ 
+== Τεχνικές Πληροφορίες ==
+Το TFTP χρησιμοποιεί την πόρτα κρυπτογράφησης. Χρησιμοποιείται αποκλειστικά για την ανάγνωση ή εγγραφή αρχείων σε έναν απομακρυσμένο server. Υποστηρίζει τριών ειδών μεταφοράς αρχείων "netascii", "octet" και "mail". Τα πρώτα δύο είναι αντίστοιχα με τα είδη "ASCII" και "image" (binary) που υποστηρίζει το FTP, ενώ το τρίτο έχει πλέον καταργηθεί στην πράξη και δεν χρησιμοποιείται.
+
+Αρχικά το πρωτόκολλο επέτρεπε την μεταφορά αρχείων με μέγεθος το πολύ 32ΜΒ, αρκετά μεγάλο για την εποχή εκείνη. Αργότερα όμως έγινε επέκταση στο πρωτόκολλο και τώρα πλέον υποστηρίζει αρχεία μεγέθους 4GB και περισσότερο. Όπως αναφέρθηκε και προηγουμένως, το TFTP χρησιμοποιεί πακέτα UDP και κατά συνέπεια θα πρέπει το ίδιο το πρωτόκολλο να καθορίζει μηχανισμούς αξιόπιστης μεταφοράς δεδομένων και εγκαθίδρυσης συνόδου (session). Κάθε αρχείο που μεταφέρεται μέσω TFTP θεωρείται μία ξεχωριστή συναλλαγή μεταξύ δύο υπολογιστών. Αφού το πρωτόκολλο TFTP δεν υποστηρίζει μηχανισμούς ασφάλειας, είναι επικίνδυνη η χρήση του στο δίκτυα, όπου δεν υπάρχουν κίνδυνοι ασφάλειας.
+
+== Σύνοδος TFTP ==
+Μία σύνοδος (session) TFTP διεξάγεται σύμφωνα με τα ακόλουθα βήματα:
+
+* Ο υπολογιστής Α στέλνει στον υπολογιστή Β ένα πακέτο που περιέχει είτε μία αίτηση ανάγνωσης (RRQ - Read ReQuest) είτε μία αίτηση εγγραφής (WRQ - WriteReQuest), μαζί με το όνομα του αρχείου και τον τρόπο μεταφοράς. Το πακέτο αυτό αποστέλλεται προς την πόρτα 69, την προεπιλεγμένη πόρτα του TFTP.
+
+* Ο υπολογιστής Β απαντά στην αίτηση του υπολογιστή Α. Εάν η αίτηση ήταν αίτηση ανάγνωσης, τότε του στέλνει κατευθείαν ένα πακέτο δεδομένων (DATA). Αντιθέτως, εάν πρόκειται για αίτηση εγγραφής, τότε ο υπολογιστής Β στέλνει ένα πακέτο αποδοχής (ACK - ACKnowledgement. Ο υπολογιστής Β για να στείλει το πακέτο δεσμεύει μία νέα ελεύθερη πόρτα και το στέλνει από εκεί. Στην συνέχεια όλα τα πακέτα που φτάνουν προς τον υπολογιστή Β ή φεύγουν από αυτόν χρησιμοποιούν αποκλειστικά την πόρτα αυτή ούτως ώστε να αποδεσμεύσουν  την πόρτα 69 και να επιτρέψουν και σε άλλους υπολογιστές να συνδεθούν.
+
+'''Trivial File Transfer Protocol''' ('''TFTP''') è un protocollo di trasferimento file molto semplice, con le funzionalità di base del FTP; la prima definizione risale al 1980.
+
+Essendo così semplice, è stato possibile implementarlo facilmente con un contenuto utilizzo di risorse. TFTP è stato quindi utile per l'avvio di computer che, come i router, non hanno dispositivi a memoria di massa. È ancora usato per trasferire piccoli file fra host di una rete, come nel caso di un terminale X Window System o altri thin client.
+
+TFTP è basato su una parte del precedente protocollo PUP (PARC Universal Packet).
+
+La versione originale di TFTP, prima della RFC 1350, aveva un problema particolarmente grave, chiamato ''Sorcerer's Apprentice Syndrome'' (''Sindrome dell'Fantasia).
+
+== Informazioni tecniche ==
+
+Alcuni dettagli sul TFTP:
+
+* usa l'UDP (porta 69) come protocollo di trasporto (a differenza del FTP che usa il TCP sulla porta 21);
+* non supporta le directory;
+* non possiede meccanismi di autenticazioni o cifratura;
+* può essere usato per leggere o scrivere file da un server remoto;
+* supporta tre differenti modalità di trasferimento, "netascii", "octet" e "mail", dei quali i primi due corrispondono alle modalità "ASCII" e "image" (binario) del protocollo FTP; la terza è obsoleta e raramente usata;
+* ha un limite di dimensione dei file di 32 MB.
+
+Poiché TFTP utilizza UDP, è necessario creare un supporto per trasporto e sessione. Ogni file trasferito via TFTP costituisce uno scambio indipendente. Ogni trasferimento è attuato in passi distinti, con sempre un pacchetto (che sia un blocco di dati o un ''acknowledgement'') in trasmissione nella rete.
+
+Per via della mancanza di sicurezza, è pericoloso usare TFTP su internet; perciò è usato generalmente solo nelle reti locali private.

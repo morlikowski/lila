@@ -1,0 +1,113 @@
+{{Olasz település infobox
+| név = San Sosti
+| régió = Calabria
+| címer = San Sosti.png
+| megye = Cosenza
+| megye rövidítése = CS
+| frazionék=Macellara, Fravitta 
+| polgármester = Vincenzo Bruno
+| körzethívószám = 0985
+| irányítószám = 87020
+| népesség = 2299
+| népesség éve = 2004
+| népsűrűség = 52,8
+| tszf = 363
+| terület = 44
+| koordn_fok = 39
+| koordn_perc = 39
+| koorde_fok = 16
+| koorde_perc = 1
+}}
+
+'''San   Sosti''' egy község ''(Cosenza   megyében.
+
+==Fekvése==
+
+==Története==
+
+==Demográfia==
+''A népesség számának alakulása:''
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.7)
+  id:white value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize = width:455 height:373
+PlotArea = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period = from:0 till:4000
+TimeAxis = orientation:vertical
+AlignBars = justify
+ScaleMajor = gridcolor:darkgrey increment:500 start:0
+ScaleMinor = gridcolor:lightgrey increment:100 start:0
+BackgroundColors = canvas:white
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+  bar:1861 from:0 till:2704
+  bar:1871 from:0 till:3418
+  bar:1881 from:0 till:3384
+  bar:1901 from:0 till:3724
+  bar:1911 from:0 till:3295
+  bar:1921 from:0 till:3250
+  bar:1931 from:0 till:2808
+  bar:1936 from:0 till:3156
+  bar:1951 from:0 till:3480
+  bar:1961 from:0 till:3366
+  bar:1971 from:0 till:2583
+  bar:1981 from:0 till:2415
+  bar:1991 from:0 till:2463
+  bar:2001 from:0 till:2299
+
+{{Infobox CityIT |
+ img_coa =SanSosti-Stemma.gif|
+ official_name = Comune di San Sosti|
+ region = Calabria |
+ province = Cosenza (CS) |
+ elevation_m = 355 |
+ area_total_km2 = 43|
+ population_as_of = |
+ population_total = 2323|
+ population_density_km2 = 54|
+ timezone = CET, UTC+1 |
+ coordinates = |
+ frazioni = Macellara, Fravitta|
+ telephone = 0981|
+ postalcode = 87010|
+ gentilic = Sansostesi|
+ saint = St. Joseph|
+ day = March 19 |
+ mayor = |
+ website = |
+}}
+'''San Sosti''' () is a commune in the province of Cosenza, in Calabria.<!-- It is bounded by other communes of-->
+
+==History==
+
+==Main sights==
+*Sanctuary of Madonna del Pettoruto, founded in 1274 by the monks of the Abbey of Acquaformosa. It was rebuilt after the earthquake of 1783. It houses a 17th century stone sculpture of a ''Madonna with Child''
+*The '''Abbey of San Sozonte''' (10th-11th centuries)
+*the ruins of the '''Rocca''', a 10th century castle, which according to tradition was used by Hannibal during the Punic Wars.
+
+==History==
+*In 1448, people from Albania migrated to San Sosti.
+
+== Notes and references ==

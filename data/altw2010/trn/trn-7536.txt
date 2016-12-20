@@ -1,0 +1,102 @@
+Un '''écran tactile''' combine des périphériques informatiques en rassemblant les fonctionnalités d'affichage d'un écran (moniteur) et celle d'un souris ou un trackball.
+
+Cela permet de réduire le nombre de ces périphériques et de réaliser des PDA, GPS, iPod touch etc. de type « tablette » ou, en France, par exemple, il existe des guichets de billetterie automatique équipés d'écrans tactiles.
+
+Il existe sept (7) types de mise en œuvre : la technologie capacitive, la technologie à jauges de contrainte, la technologie résistive analogique, la technologie résistive analogique-numérique, la technologie à infra-rouge, la technologie à ondes de surface et la technologie N.F.I.
+
+== Technologie capacitive ==
+
+Dans les systèmes capacitifs, une couche qui accumule les charges est placée sur la plaque de verre du moniteur. Lorsque l’usager touche la plaque avec son doigt, certaines de ces charges lui sont transférées. Les charges qui quittent la plaque capacitive créent un déficit quantifiable. Avec un capteur dans chacun des coins de la plaque, il est possible en tous temps de mesurer et de déterminer les coordonnées du point de contact.  Le traitement de cette information demeure le même que pour les circuits résistifs.
+
+Un avantage majeur des systèmes capacitifs par rapport aux résistifs est la capacité de transmettre la lumière au travers de sa surface avec un meilleur rendement.  En effet, jusqu’à 90% de la lumière traversera une surface capacitive par rapport à un maximum de 75% pour les systèmes résistifs, ce qui donne une clarté d’image supérieure pour les systèmes capacitifs.
+
+== Technologie à jauges de contrainte ==
+
+Quatre jauges de contraintes sont installées dans les quatre coins de l'écran  et sont utilisées pour déterminer la déflexion qu'induit la pression d'un doigt ou d'un stylet sur l'écran. Cette technologie peut également déterminer le déplacement (généralement assez faible) qu'induit la pression sur l'écran. L'utilisation des jauges de contrainte permet entre autres des applications tactiles sur des bornes de réservation de billets, celles-ci étant fortement exposées au vandalisme.
+
+== Technologie résistive analogique ==
+
+Les systèmes résistifs sont constitués d’une plaque de verre dont la surface est conductrice (résistive:ITO). Celle-ci est recouverte par un film plastique dont la sousface est conductrice (résistive:ITO). Ces 2 couches sont tenues distantes par de microscopiques cales d’espacement; de plus, une couche additionnelle est ajoutée en surface pour éviter les égratignures (par exemple par les pointes de stylets).
+
+Un courant électrique est induit dans les 2 faces conductrices pendant l’opération.  Lorsque l’usager touche avec la pointe d'un stylet (ou d'un doigt), la pression exercée amorce un contact entre les 2 faces électrifiées.  La variation dans les champs électriques de ces deux faces conductrices permet de déterminer les coordonnées du point de contact. Une fois les coordonnées déterminées, le traitement logiciel par le système s'établit.
+
+La conductivité électrique de ces deux faces s'use un peu lors de chaque contact entre elles (à cause du choc électrique: micro étincelles). C'est pourquoi la précision de la détection des coordonnées du point touché se réduit avec l'usage. Cette technologie oblige l'utilisateur à « recalibrer » le pavé tactile. Ce recalibrage consiste à masquer l'usure du tactile en répartissant, sur toute sa surface, les erreurs des régions tactiles les plus usagées..
+
+== Technologie résistive analogique-numérique ==
+
+Cette technologie brevetée évite les inconvénients de la technologie résistive analogique décrite ci-dessus : usure, déréglage progressif de la précision du tactile, nécessité des recalibrages.
+
+thumb|Сенсорная панель
+thumb|[[Nintendo DS — карманная игровая приставка с двумя экранами; нижний — сенсорный. Рядом — перо от неё.]]
+upright=0.9|thumb|[[Банкомат с сенсорным экраном]]
+
+'''Се́нсорный экра́н''' — устройство ввода-вывода информации, представляющее собой экран, реагирующий на прикосновения к нему.
+
+Сенсорные экраны зарекомендовали себя как очень удобный способ взаимодействия человека с машиной. Применение сенсорных экранов имеет ряд преимуществ, недоступных при использовании любых других устройств ввода: повышенную надёжность, устойчивость к жёстким внешним воздействиям (включая вандализм), интуитивно понятный интерфейс.
+
+Недостатком сенсорного экрана является отсутствие тактильной отдачи. Кроме того, даже с абсолютной точностью отслеживания и острым пером сенсорный экран не будет прецизионным инструментом из-за параллакса.
+
+Сенсорные экраны используются в платёжных терминалах, информационных киосках, оборудовании для автоматизации торговли, карманных компьютерах, операторских панелях в промышленности.
+
+== История ==
+
+Изобретены в 1971 году Дэниелом Херстом. В 1983 году вышел компьютер HP-150 с инфракрасным сенсорным экраном.
+
+== Технологии производства сенсорных экранов ==
+
+В производстве сенсорных экранов используют множество различных технологий.
+
+=== Матричные сенсорные экраны ===
+
+==== Конструкция и принцип работы ====
+
+Матричный сенсорный экран состоит из стеклянной панели и гибкой пластиковой мембраны. Пространство между стеклом и мембраной заполнено микроизоляторами, которые равномерно распределены по активной области экрана и надёжно изолируют проводящие поверхности. На стекло нанесены горизонтальные проводники, на мембрану — вертикальные.
+
+При прикосновении к экрану проводники соприкасаются. Контроллер определяет, какие проводники замкнулись, и передаёт в микропроцессор соответствующие координаты.
+
+==== Особенности ====
+
+Имеют очень низкую точность. Элементы интерфейса приходится специально располагать с учётом клеток матричного экрана<ref>http://www.gaw.ru/html.cgi/txt/app/lcd/digital_touch_screen.htm</ref>. Единственное достоинство — простота, дешевизна и неприхотливость. Постепенно заменяются резистивными.
+
+=== Резистивные сенсорные экраны ===
+
+==== Четырёхпроводной экран ====
+
+thumb|Принцип действия 4-проводного резистивного сенсорного экрана
+thumb|Принцип действия 5-проводного резистивного сенсорного экрана
+Как и матричный, резистивный экран использует гибкую мембрану. И на панель, и на мембрану нанесено резистивное покрытие. Когда панель и мембрана соприкасаются, контроллер с помощью аналогово-цифрового преобразователя регистрирует изменение сопротивления и преобразует его в координаты прикосновения (X и Y). В общих чертах алгоритм считывания таков:
+
+# На верхний электрод подаётся напряжение +5В, нижний заземляется. Левый с правым соединяются накоротко и проверяется напряжение на них. Это напряжение соответствует Y-координате экрана.
+# Аналогично на левый и правый электрод подаётся +5В и «земля», с верхнего и нижнего считывается X-координата.
+
+Существуют также восьмипроводные сенсорные экраны. Они улучшают точность отслеживания, но не повышают надёжности.
+
+==== Пятипроводной экран ====
+
+Пятипроводной экран более надёжен за счёт того, что резистивное покрытие на мембране заменено проводящим (5-проводной экран продолжает работать даже с прорезанной мембраной). На заднем стекле нанесено резистивное покрытие с четырьмя электродами по углам.
+
+Изначально все четыре электрода находятся под напряжением +5В, а мембрана заземлена. Уровень напряжения на мембране постоянно отслеживается аналогово-цифровым преобразователем. Когда ничто не касается сенсорного экрана, напряжение равно нулю.
+
+Как только на экран нажимают, микропроцессор улавливает изменение напряжения мембраны и начинает вычислять координаты касания следующим образом:
+
+# На два правых электрода подаётся напряжение +5В, левые заземляются. Напряжение на экране соответствует X-координате.
+# Y-координата считывается подключением к +5В обоих верхних электродов и к «земле» обоих нижних.
+
+==== Особенности ====
+
+Резистивные сенсорные экраны дёшевы и обладают максимальной стойкостью к загрязнению. Резистивные экраны реагируют на прикосновение любым гладким твёрдым предметом: рукой (голой или в перчатке), пером, кредитной картой, тупым концом скальпеля. Их используют везде, где POS-терминалы), в персональной электронике (КПК).
+
+Недостатками резистивных экранов являются низкое светопропускание (не более 85 % для 5-проводных моделей и ещё более низкое для 4-проводных), низкая долговечность (не более 35 млн нажатий в одну точку) и недостаточная вандалоустойчивость (плёнку легко разрезать).
+
+=== Ёмкостные сенсорные экраны ===
+
+==== Конструкция и принцип работы ====
+
+thumb|upright=0.8|Принцип действия ёмкостного сенсорного экрана
+Ёмкостный экран использует тот факт, что предмет большой ёмкости проводит переменный ток.
+
+Ёмкостный сенсорный экран представляет собой стеклянную панель, покрытую проводящим материалом. Электроды, расположенные по углам экрана, подают на проводящий слой небольшое переменное напряжение (одинаковое для всех углов). При касании экрана пальцем или другим проводящим предметом появляется утечка тока. При этом чем ближе палец к электроду, тем меньше сопротивление экрана, а значит, сила тока больше. Ток во всех четырёх углах регистрируется датчиками и передаётся в контроллер, вычисляющий координаты точки касания.
+
+В более ранних моделях ёмкостных экранов применялся постоянный ток — это упрощает конструкцию, но при плохом контакте пользователя с землёй приводит к сбоям.
+
+==== Особенности ====

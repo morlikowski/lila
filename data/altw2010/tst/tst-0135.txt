@@ -1,0 +1,35 @@
+'''Windows Server Update Services''' ('''WSUS''') je služba zajišťující aktualizaci softwaru pro Windows. WSUS je lokálně spravovaná alternativa ke službě síti.
+
+WSUS měla původ v klientů v síti stahovat automaticky patche a aktualizace z centrálního disku, jelikož jednotlivé počítače v síti nepotřebují přistupovat k serveru Windows Update a ani nemusí mít aktualizace na svém disku, ale stačí jim pouze se připojit k centrálnímu serveru.
+
+Microsoft na svém webu umožnil stáhnout WSUS zdarma.
+
+== Administrace ==
+
+Windows Server Update Services 2.0 zahrnuje „sklad“ aktualizačních balíčků, MSDE – službu, která přijímá nové aktualizace, a IIS. Jako mnoho nových serverových produktů Microsoftu se spravuje prostřednictvím webového rozhraní. To umožňuje administrátorům schvalovat či odmítat aktualizace, a získávat rozsáhlé zprávy o tom jaké aktualizace určitý počítač potřebuje. Administrátor může WSUS nakonfigurovat tak, aby určité typy aktualizací přijímal automaticky (kritické aktualizace, ovladače zařízení…).
+
+Administrátoři mohou WSUS použít s Group policy pro nastavení konfigurace automatických aktualizací na straně klienta. Tím je zajištěno, že koncový uživatel nemůže zrušit, či obejít aktualizační pravidla daná společností. WSUS nevyžaduje použití Active Direktory, konfigurace klientských stanic mohou být také prováděny úpravou registru.
+
+<!-- Deleted image removed: thumb|225px|Screenshot of a Windows Server Update Services administration console -->
+'''Windows Server Update Services''' ('''WSUS''') provides a software update service for Microsoft Windows operating systems and other Microsoft software. WSUS is a locally managed system that works with the public Microsoft Update website to give system administrators more control.  By using Windows Server Update Services, administrators can manage the distribution of Microsoft hotfixes and updates released through Automatic Updates to computers in a corporate environment. 
+
+==History==
+WSUS originated as bandwidth, time and disk space, as the individual computers in a network do not have to connect to an external server themselves, but connect to a local central server.  It also increases administrators' control and allows clients to obtain updates in environments that do not have internet access.
+
+== Administration ==
+thumb|225px|WSUS can display precise information about which updates each client needs
+
+Windows Server Update Services 2.0 comprises, collectively, a IIS virtual site. As with many of Microsoft's newer server products, administration of WSUS takes place via a web interface. It allows administrators to approve or decline updates before release, to force updates to install by a given date and to obtain extensive reports on what updates each machine requires.  System administrators can also configure WSUS to approve certain classes of updates automatically (critical updates, security updates, service-packs, device-drivers). One can also approve updates for "detection" only, allowing an administrator to see what machines will require a given update, without also installing that update.
+
+Administrators can use WSUS with Group Policy for client-side configuration of the Automatic Updates client, ensuring that end-users can't disable or circumvent corporate update policies. WSUS does not require the use of Active Directory, client configuration can also be applied by local group policy or by modifying the Windows registry.
+
+Version 2.0 SP1 added support for Windows Vista and some other products.  In version 3.0, a Microsoft Management Console "snap-in" can be used for administration of the server.  
+
+Microsoft has made WSUS available on their web site as a free download. Microsoft also plans on including WSUS with Windows Server 2008, as an out-of-band component.
+
+== Version history ==
+* March 22, 2005 - 2.0 Release Candidate
+* June 6, 2005 - 2.0 Release (build 2340) 
+* May 31, 2006 - 2.0 Service Pack 1 (adds support for Windows Vista clients, additional client languages, and using Microsoft SQL Server 2005 as a database backend, as well as performance improvements with the web-based user interface)
+* August 14, 2006 - 3.0 beta 2(MMC based UI and loads of new features.)
+* February 12, 2007 - 3.0 Release Candidate (build 3.0.6000.318)

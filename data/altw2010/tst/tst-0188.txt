@@ -1,0 +1,45 @@
+'''UMC Green CPU''' — семейство UMC. Эти процессоры были функциональными аналогами Intel486.
+
+== Конфликт с Intel ==
+Корпорация Intel утверждала, что UMC нарушала патенты, используя часть микрокода Intel в своих процессорах. На продажу Green CPU в США был наложен судебный запрет, поэтому на эти процессоры стали наносить маркировку, предупреждающую об этом ограничении.
+
+== Маркировка и модели ==
+{| class="standard"
+|-
+!Семейство процессоров||Совместимость||colspan=3| Разводка ||colspan=2| Напряжение 
+|-class="highlight"
+| U5||S||ничего || D || F||ничего|| LV
+|-
+|UMC Green CPU||с |[[PGA, совместимая с | [[PGA, совместимая с | [[LQFP|| 5 В || 3,3 В
+|-
+|}
+
+Соответственно, существовали следующие модели процессоров этого семейства:
+* U5S  
+* U5SD 
+* U5SF  
+* U5SLV  
+* U5FLV
+
+Die '''UMC Green CPU''' war eine 80486-Prozessorfamilie von United Microelectronics Corporation (UMC) und war eine Kopie des Intel i486.
+
+== Streit mit Intel ==
+Nach Intels Ansicht verstieß UMC mit der CPU gegen eigene Patente und man klagte deshalb gegen den Konkurrenten. Es wurde ein Verkaufsverbot in den USA erreicht und aus diesem Grund ist auf den CPUs deutlich der Aufdruck "Not for U.S. sale or import" (deutsch: "Nicht zum Verkauf oder Import in die USA") vorhanden. Obwohl die CPUs außerhalb der USA verkauft wurden, waren die Streitigkeiten mit Intel und die eher schlechte Performance hinderlich für einen großen Markterfolg. UMC einigte sich schließlich mit Intel und gegen Zahlung einer größeren Geldsumme verzichte UMC darauf in Zukunft x86-CPUs zu fertigen, während Intel alle Klagen gegen UMC zurückzog.
+
+== Modelldaten ==
+=== U5S ===
+Vergleichbar mit dem Intel i486SX
+
+'''Technische Daten'''
+right|thumb|180px|UMC Green CPU U5S mit 33 MHz.
+* L1-Cache: 8 KB 
+* L2-Cache: abhängig vom verwendeten Mainboard bzw. Chipsatz
+* FSB von 25, 33 oder 40 MHz
+* Betriebsspannung (VCore): 5V (Low-Voltage (LV): 3,3V)
+* Erscheinungsdatum: 1994
+* Fertigungstechnik: 0,6 µm
+* Die-Größe: ? mm² bei 1,2 Millionen Transistoren
+* Taktraten: 
+** 25 MHz (auch als -Super25)
+** 33 MHz (auch als -Super33)
+** 40 MHz (auch als -Super40)

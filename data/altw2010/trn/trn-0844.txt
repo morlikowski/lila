@@ -1,0 +1,44 @@
+'''VBScript''' (short  for '''Visual Basic Scripting Edition''') is an batch language first developed in the late 1970s. A VBScript script must be executed within a host environment, of which there are several provided on a standard install of Microsoft Windows (Windows Internet Explorer). Additionally, The VBScript hosting environment is embeddable in other programs, through technologies such as the Microsoft Script control (<tt>msscript.ocx</tt>).
+
+==History==
+VBScript began as part of the Microsoft Windows Script Technologies, which were targeted at web developers initially and were launched in 1996. During a period of just over two years, the VBScript and JScript languages advanced from version 1.0 to 2.0 (the latter was later renamed 5.0) and over that time system administrators noticed it and began using it. In version 5.0, the functionality of VBScript was increased with new features such as classes, the With statement,<ref></ref> Eval/Execute/ExecuteGlobal functions to evaluate and execute script commands built during the execution of another script, a function-pointer system via [http://msdn2.microsoft.com/en-us/library/ekabbe10.aspx GetRef()], and Distributed COM (DCOM) support.
+
+In 5.5, "Submatches"<ref></ref> were added to the regular expression class in VBScript to finally allow VBScript script authors to capture the text within the expression's groups. That capability before was only possible through the JScript member of the Microsoft ActiveX Scripting family.
+
+As of 2007, no new functionality will be added to the VBScript language, which has been superseded by Windows Powershell. However, it will continue to be shipped with future releases of Microsoft Windows, as will other components of the ActiveX Scripting Family (such as JScript). Additionally, support will continue due to the amount of code written in it and because it is still considered a useful tool for some tasks.
+
+The language engine is currently being maintained by Microsoft's Sustaining Engineering Team, which is responsible for bug fixes and security enhancements.
+
+==Uses==
+When employed in Microsoft Opera do not have built-in support for VBScript. This means that where client-side script is required on a web site, developers almost always use JavaScript for cross-browser compatibility.
+
+Besides client-side web development, VBScript is used for server-side processing of web pages, most notably with Microsoft Active Server Pages (ASP). The ASP engine and type library, <tt>asp.dll</tt>, invokes <tt>vbscript.dll</tt> to run VBScript scripts. VBScript that is embedded in an ASP page is contained within <% and %> context switches. The following example of an ASP page with VBScript displays the current time in 24-hour format (Note that an '=' sign occurring after a context switch (<%) is short-hand for a call to Write() method of the Response object).
+
+<source lang="asp">
+ <% Option Explicit
+ %><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+ <html>
+ 	<head>
+ 		<title>VBScript Example</title>
+ 	</head>
+ 	<body><% 
+ 		'Grab current time from Now() function.
+ 		Dim timeValue
+ 		timeValue = Now  %>
+ 		The time, in 24-hour format, is <%=Hour(timeValue)%>:<%=Minute(timeValue)%>:<%=Second(timeValue)%>.
+ 	</body>
+ </html>
+</source>
+VBScript can also be used to create applications that run directly on a person's computer running command line environment.
+
+VBScript <code>.vbs</code> files can be included in two other types of scripting files: <code>.wsf</code> files, which are styled after XML; and <code>.hta</code> files, which are styled after HTML.  <code>.wsf</code> files can be executed using <tt>wscript.exe</tt> or <tt>cscript.exe</tt>, just like <code>.vbs</code> files, and <code>.wsf</code> files can include multiple <code>.vbs</code> files.  As a result <code>.wsf</code> files provide a means for code reuse: one can write a library of classes or functions in one or more <code>.vbs</code> files, and include those files in one or more <code>.wsf</code> files to use and reuse that functionality in a modular way.
+
+'''VBScript''' (ang. ''Microsoft's Visual Basic Scripting Edition'') – to język skryptowy stworzony przez Microsoft i stanowiący część rodziny języków Visual Basic.
+
+VBScript pierwotnie został zaprojektowany jako część technologii ASP (ang. ''Active Server Pages'') po to, aby uniknąć konieczności stosowania plików wsadowych WWW wykorzystujących ASP. Później język ten został zaadaptowany do przeglądarki Internet Explorer, jako alternatywa i konkurencja dla opracowanego przez firmę Netscape języka JavaScript. Podobnie do  JavaScript język VBScript przeznaczony jest do pisania skryptów wbudowanych w strony WWW i rozszerza możliwości klasycznych dokumentów HTML. Skrypty VBScript wykonywane są po stronie klienta, tzn. uruchamiane są na komputerze użytkownika przez przeglądarkę automatycznie po wczytaniu dokumentu HTML zawierającego kod skryptu.
+
+Pod względem możliwości i funkcjonalności VBScript jest bardzo zbliżony do starszych wersji JavaScript, ale jego składnia jest bardziej zbliżona do języka BASIC, niż do języka Java.
+
+Wersja VBScriptu wbudowana w IExplorer nie stała się nigdy popularna wśród autorów stron WWW, po pierwsze dlatego, że jest wspierana tylko przez tę przeglądarkę, a po drugie dlatego, że kolejne jej wersje nie były ze sobą wstecznie kompatybilne.
+
+Aktualnie Microsoft wycofał się z dalszego rozwijania wersji VBScriptu wbudowanego w IExplorer i zamiast tego rozwija swoją własną wersję języka JavaScript pod nazwą JScript. VBScript jako część ASP jest nadal rozwijany.

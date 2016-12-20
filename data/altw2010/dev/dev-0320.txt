@@ -1,0 +1,80 @@
+<!--  what should this do? -->
+'''ISO 15693''' is an ISO standard for "Vicinity Cards", i.e. cards which can be read from a greater distance as compared to Proximity cards.
+
+ISO 15693 systems operate at the 13.56 MHz frequency, and offer maximum read distance of 1-1.5 metres. 
+
+As the vicinity cards have to operate at a greater distance, the necessary magnetic field is less (0.15 to 5 A/m) than that for a proximity card (1.5 to 7.5 A/m).
+== Communication to the card ==
+Communication from the reader to the card uses an Amplitude Shift Keying with 10% or 100% Modulation index. 
+
+The data coding is:
+
+;1 out of 4 pulse position modulation :
+2 bits are coded as the position of a 9.44 µs pause in a 75.52 µs symbol time, giving a bit rate of 26.48 kilobits per second The least-significant bits are sent first.
+
+;1 out of 256 pulse position modulation :
+8 bits are coded as the position of a 9.44 µs pause in a 4.833 ms symbol time, giving a bit rate of 1.65 kbit/s.
+
+== Communication to the reader ==
+The card has two ways to send its data back to the reader:
+
+=== Amplitude Shift Keying ===
+Amplitude Shift Keying 100% modulation index on a 423.75 kHz Subcarrier 
+The data rate can be:
+
+Low 6.62 kbit/s ( fc/2048) 
+
+High 26.48 kbit/s ( fc/512) 
+
+A logic 0 starts with 8 pulses of 423.75 kHz followed by an unmodulated time of
+18.88 µs (256/ fc), a logic 1 is the other way round.
+
+The data frame delimitors are code violations, a start of frame is: 
+# an unmodulated time of 56.64 µs (768/ fc),
+# 24 pulses of 423.75 kHz 
+# a logic 1 
+
+and the end of a frame is:
+# a logic 0 
+# 24 pulses of 423.75 kHz 
+# an unmodulated time of 56.64 µs 
+
+'''ISO 15693''' è uno standard internazionale della carte di prossimità".
+
+==Caratteristiche generali==
+
+Il sistema ISO 15693 opera sulla frequenza 13.56MHz, e offre una distanza di lettura di 1&ndash;1.5 metri. 
+
+Poiché le ''vicinity card'' devono operare a distanza, sono necessari campi magnetici inferiori (da 0.15 a 5 A/m) rispetto a quelli impiegati nelle carte di prossimità (da 1,5 a7,5 A/m).
+
+==Esempi di utilizzo==
+Esempi di utilizzo delle soluzioni a radiofrequenza (titoli di viaggio elettronici in uso nei sistemi di bigliettazione elettronica.
+
+== Comunicazione verso la carta ==
+La comunicazione dal lettore alla carta usa l'Amplitude Shift Keying con indice di modulazione del 10% o 100%. 
+
+La codifica dei dati è come segue:
+
+;1 out of 4 (1 su 4) pulse position modulation :
+2 bit sono codificati come un impulso con una pausa di 9,44 µs in un simbolo di 75,52 µs, il che risulta in un bitrate di 26,48 kilobits per secondo; i bit meno significativi vengono inviati per primi.
+
+;1 out of 256 (1 su 256) pulse position modulation :
+8 bit sono codificati come un impulso con una pausa di 9,44 µs in un simbolo di 4,833 ms, il che risulta in un bitrate di 1,65 kilobits per secondo.
+
+== Comunicazione verso il lettore ==
+La carta ha due sistemi per inviare i dati verso il lettore:
+
+=== Amplitude Shift Keying ===
+Amplitude Shift Keying indice di modulazione al 100% su una (sotto)portante di 423,75 kHz.
+Il data rate può essere:
+
+''Low'' (basso) a 6,62 kbit/s (freq/2048) 
+
+''High'' (alto) a 26,48 kbit/s (freq/512) 
+
+Uno 0 logico inizia con 8 impulsi di 423,75 kHz, seguiti da un tempo senza modulazione di 18,88 µs (256/ freq); un 1 logico è all'opposto.
+
+I delimitatori di un pacchetto dati sono simboli illegali del codice. Un segnale di inizio del frame è:
+# un periodo senza modulazione di 56,64 µs (768/freq),
+# 24 impulsi di 423,75 kHz 
+# un 1 logico

@@ -1,0 +1,47 @@
+Dal punto di vista più generale, la '''teoria dei tipi''' è la branca della nozione di tipo della metafisica. La moderna formulazione della teoria dei tipi è, in parte, nata dal tentativo di dare una risposta al cosiddetto Russell e Whitehead. 
+
+Con la diffusione di linguaggi di programmazione per lo sviluppo di programmi da installare su di essi, la teoria dei tipi ha trovato un significativo campo di applicazione, soprattutto nell'ambito della progettazione degli stessi linguaggi di progettazione. In questo contesto esistono diverse definizioni applicabili ad un ''sistema di tipi'', ma la seguente, dovuta a Benjamin C. Pierce è probabilmente quella che raccoglie il maggiore consenso:
+
+:''"Un sistema di tipi è un metodo sintattico modificabile, in grado di dimostrare l'assenza di determinati comportamenti nei programmi mediante la classificazione di espressioni fatta in base alla natura dei valori sottoposti ad elaborazione."''<br>
+::(''Types and Programming Languages'', MIT Press, 2002)
+
+In altre parole, un sistema di tipi divide i valori manipolati dai programmi in ''insiemi'' chiamati ''tipi'' - eseguendo un'operazione chiamata ''assegnazione del tipo'' o ''tipizzazione'' - e fa sì che certi determinati comportamenti del programma siano, o non siano, possibili in base al tipo dei valori coinvolti in questi comportamenti.
+
+Per esempio, supponiamo che un sistema di tipi classifichi il valore <code>ciao</code> come stringa ed il valore <code>5</code> come sommare <code>ciao</code> a <code>5</code>. All'interno di questo sistema, l'istruzione di programma:
+
+<code>ciao</code> + <code>5</code>
+
+No sentido mais lato, a '''teoria dos tipos''' é o ramo da matemática e da lógica que se preocupa com a classificação de entidades em conjuntos chamados tipos. Neste sentido, está relacionada com a noção metafísica de "tipo". A teoria dos tipos moderna foi inventada em parte em resposta ao paradoxo de Russell, e é muito usada em ''Principia Mathematica'', de Russell e Whitehead.
+
+Com o surgimento de poderosos computadores programáveis, e o desenvolvimento de linguagens de programação para os mesmos, Teoria dos Tipos tem encontrado aplicação prática no desenvolvimento de sistemas de tipos de linguagens de programação.
+Definições de "sistemas de tipos" no contexto de linguagens de programação varia, mas a seguinte definição dada por Benjamin C. Pierce corresponde, aproximadamente, ao consenso corrente na comunidade de Teoria dos Tipos: 
+
+[Um sistema de tipos é um] método sintático tratável para provar a isenção de certos comportamentos em um programa através da classificação de frases de acordo com as espécies de valores que elas computam.
+(Types and Programming Languages, MIT Press, 2002) 
+Em outras palavras, um sistema de tipos divide os valores de um programa em conjuntos chamados tipos (isso é o que é denominado uma "atribuição de tipos"), e torna certos comportamentos do programa ilegais com base nos tipos que são atribuídos neste processo. Por exemplo, um sistema de tipos pode classificar o valor "hello" como uma cadeia de caracteres e o valor 5 como um número, e proibir o programador de tentar adicionar "hello" a 5, com base nessa atribuição de tipos. Neste sistema de tipos, o programa
+
+ "hello" + 5
+
+seria ilegal. Assim, qualquer programa permitido pelo sistema de tipos seria demonstravelmente livre do comportamento errôneo de tentar adicionar cadeias de caracteres a números.
+
+O projeto e a implantação de sistemas de tipos é um tópico quase tão vasto quanto o das próprias linguagens de
+programação. De fato, os proponentes da teoria dos tipos argumentam que o projeto de sistemas de tipos
+é a própria essência do projeto de linguagens de programação: "Projete o sistema de tipos corretamente, e a linguagem vai projetar a si mesma".
+
+Note que teoria dos tipos, como descrita daqui pra frente, se refere a disciplinas de tipagem estática.
+Sistemas de programação que aplicam tipagem dinâmica não provam a priori que um programa usa valores
+corretamente; ao invés disso, elas lançam um erro em tempo de execução quando o programa tenta apresentar
+algum comportamento que use valores incorretamente. Alguns argumentam que "tipagem dinâmica" é uma
+terminologia ruim por isso. De qualquer forma, as duas não devem ser confundidas.
+
+Principais desenvolvedores 
+
+* Russell e Whitehead 
+* Sistema de cálculo de tipo Lambda 
+* Inferência de tipo Polimórfica (Linguagem de Programação ML; polimorfismo de Hindley-Milner ) subtipo
+* Tipagem estática orientada a objetos (grew out of abstract data type and subtyping) 
+* F-bounded polimorfismos e esforços para combinar generics com polimorfismo de orientação a objetos 
+* Set-constraint-based type systems 
+* module systems 
+* Type-driven proof systems (e.g. ELF) 
+* ... (muito mais) 

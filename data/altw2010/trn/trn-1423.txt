@@ -1,0 +1,62 @@
+{{Chembox new
+|Reference=<ref>''Merck Index'', 11th Edition, '''7830'''.</ref>
+|ImageFile=Propiconazole.png
+|ImageSize=180px
+|IUPACName=1-[ [2-(2,4-dichlorophenyl)-4-propyl-1,3-dioxolan-2-yl]methyl]-1,2,4-triazole
+|OtherNames=
+|Section1= {{Chembox Identifiers
+|  CASNo=60207-90-1
+|  PubChem=43234
+|  SMILES=CCCC1COC(O1)(CN2C=NC=N2)C3=C(C=C(C=C3)Cl)Cl
+  }}
+|Section2= {{Chembox Properties
+|  Formula=C<sub>15</sub>H<sub>17</sub>Cl<sub>2</sub>N<sub>3</sub>O<sub>2</sub>
+|  MolarMass=342.22038
+|  Appearance=
+|  Density=
+|  MeltingPt=
+|  BoilingPt=180 °C at 0.1 mmHg [http://npic.orst.edu/hottopic/AltCCA.pdf]
+|  Solubility=100 ppm at 20 °C
+  }}
+|Section3= {{Chembox Hazards
+|  MainHazards=
+|  FlashPt=
+|  Autoignition=
+  }}
+}}
+
+'''Propiconazole''' is a triazole fungicide used agriculturally on grasses grown for seed, mushrooms, corn, wild rice, peanuts, almonds, sorghum, oats, pecans, apricots, peaches, nectarines, plums and prunes.<ref>[http://pmep.cce.cornell.edu/profiles/extoxnet/metiram-propoxur/propiconazole-ext.html EXTOXNET]</ref>  Propiconazole was first developed in 1979 by Janssen Pharmaceutica.<ref>W. T. Thomson. 1997. Agricultural Chemicals. Book IV: Fungicides. 12th edition. Thomson Publications, Fresno, CA</ref>
+
+==References==
+
+{{Infobox Chemikalie
+  | Strukturformel      = 140px
+  | Andere Namen        = 1-(2-(2,4-Dichlorphenyl)- 4-propyl-1,3-dioxolan- 2-yl-methyl)-1H-1,2,4-triazol
+  | Summenformel        = C<sub>15</sub>H<sub>17</sub>C<sub>l2</sub>N<sub>3</sub>0<sub>2</sub>
+  | CAS                 = 60207-90-1
+  | Beschreibung        = klare, hell- bis dunkelgelbe, hochviskose Flüssigkeit
+  | Molare Masse        = 342,22 g/mol
+  | Aggregat            = flüssig
+  | Dichte              = 1,29 g/cm <sup>3</sup><ref name="BGIA GESTIS"></ref>
+  | Schmelzpunkt        = –23 °C <ref name="BGIA GESTIS" />
+  | Siedepunkt          = 180 °C bei 0,13 mbar <ref name="BGIA GESTIS" />
+  | Dampfdruck          = 
+  | Löslichkeit         = praktisch unlöslich in Wasser, löslich in Methanol, Aceton, Ether, Chloroform und Benzene, wenig löslich in Hexan<ref name="extonet">[http://pmep.cce.cornell.edu/profiles/extoxnet/metiram-propoxur/propiconazole-ext.html Datenblatt bei ''Extension Toxicology Network'' (englisch)]</ref>
+  | Quelle GefStKz      = <ref name="BGIA GESTIS" />
+  | Gefahrensymbole     = 
+  | R                   = 
+  | S                   = 
+  | WGK                 = 3 <ref name="BGIA GESTIS" />
+  | LD50                = 1517 mg/kg (Ratte, peroral) <ref name="ChemIDplus"></ref> 
+}}
+
+'''Propiconazol'''  ist eine chemische Verbindung aus der Gruppe der Triazole. Es ist eine klare, gelbliche, hochviskose Flüssigkeit mit schwachem Geruch. Sie wird als Fungizid verwendet.
+
+== Geschichte ==
+Propiconazol wurde 1979 von Janssen Pharmaceutica entwickelt.
+<!--
+== Gewinnung und Darstellung ==
+
+== Eigenschaften ==
+=== Physikalische Eigenschaften ===
+unter anderem Kristallstruktur (wenn vorhanden), thermodynamische Daten, ...

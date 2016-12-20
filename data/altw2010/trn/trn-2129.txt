@@ -1,0 +1,152 @@
+<div style="clear: both; <!--
+         -->position: relative; <!--
+         -->border: } }}}}; <!--
+         -->border-width: }}}}px }px 0; <!--
+         -->background: };<!--
+         --> color: }; <!--
+         -->padding: .1em;<!--
+         -->text-align: };<!--
+         -->margin-bottom: 0px;<!--
+         -->">} ||
+<span class="plainlinks" <!--
+ -->style="position: absolute;<!--
+             -->top: 1px;<!--
+             -->right: 1px;<!--
+             -->margin-bottom:.1em;<!--
+             -->font-size:};<!--
+
+             --> color: }">{{
+#if: } || [}|action=edit} |&section=}}}}} <span style="color: }">edit</span>]&nbsp;}}} |'''·'''&nbsp;<font color="}">view</font>&nbsp;}}}&nbsp;
+</span>}}<!-- endif EDITLINK
+-->} |<span style="font-size:}; font-weight:bold; margin: 0; padding:0; padding-bottom:.1em; color:};}">}</span>|<h2 style="font-size:}; font-weight:bold; border: none; margin: 0; padding:0; padding-bottom:.1em; color:};}">}</h2>}}
+</div>
+<div style="display:block; border: }px solid }; <!--
+         -->border-top-width: }px; <!--
+         -->vertical-align: top;<!--
+         -->background: };<!--
+         --> color: }; <!--
+         -->text-align: };<!--
+         --> margin: 0 0 10px; <!--
+         -->padding: };<!--
+         -->padding-top: }"><!--
+-->} | |__NOTOC__}}} | |__NOEDITSECTION__}}<noinclude>Test text with link
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+== Box-header color palettes ==
+
+The following box-headers are examples of HSV color palettes arranged by hue. They can be copied to your portal's <tt>/box-header</tt> subpage. 
+
+<center>
+'''Border: Hn/S15/V75&nbsp;• Background: Hn/S4/V100&nbsp;• Header 1: Hn/S40/V85&nbsp;• Header 2: Hn/S15/V95&nbsp;• Header 3: Hn/S10/V100'''
+</center>
+
+=== H0 ===
+
+Portal:Box-header/1
+
+Portal:Box-header/2
+
+Portal:Box-header/3
+
+=== H30 ===
+
+Portal:Box-header/4
+
+Portal:Box-header/5
+
+Portal:Box-header/6
+
+=== H60 ===
+
+<center>
+'''Border: H60/S15/V75&nbsp;• Background: H60/S4/V100&nbsp;• Header 1: H60/S40/V100&nbsp;• Header 2: H60/S15/V100&nbsp;• Header 3: H60/S10/V100'''
+</center>
+
+Portal:Box-header/7
+
+Portal:Box-header/8
+
+Portal:Box-header/9
+
+=== H60 ===
+Portal:Box-header/10
+
+Portal:Box-header/11
+
+Portal:Box-header/12
+
+=== H90 ===
+
+Portal:Box-header/13
+
+Portal:Box-header/14
+
+Portal:Box-header/15
+
+=== H120 ===
+Portal:Box-header/16
+
+Portal:Box-header/17
+
+Portal:Box-header/18
+
+=== H150 ===
+Portal:Box-header/19
+
+Portal:Box-header/20
+
+Portal:Box-header/21
+
+=== H180 ===
+Portal:Box-header/22
+
+Portal:Box-header/23
+
+<div style="clear: both;"></div> 
+<div style="position: relative;<!--
+         -->border: }px solid }}}};<!--
+         -->background: };<!--
+         -->color: };<!--
+         -->padding: .1em;<!--
+         -->text-align: center;<!--
+         -->font-weight: bold;<!--
+         -->font-size: 100%;<!--
+         -->margin-bottom: 0px;<!--
+         -->border-bottom: none;">}| |<!--
+  --><span class="plainlinks" <!--
+      -->style="position: absolute;<!--
+             -->top: 1px;<!--
+             -->right: 1px;<!--
+             -->background: transparent;<!--
+             -->border: 0px;<!--
+             -->margin-bottom:.1em;<!--
+             -->font-size:80%;<!--
+             -->font-weight: normal;<!--
+             -->color: };"><!--
+    -->[}|action=edit}|&section=}}}}} <span style="color: }">edit</span>]}&nbsp;<!--
+  --></span >}}<!--
+  -->}|<span style="font-size:};font-weight:bold;border: none; margin: 0; padding:0; padding-bottom:.1em; color:}">}</span>|<h2 style="font-size:};font-weight:bold;border: none; margin: 0; padding:0; padding-bottom:.1em; color:}">}</h2>}}<!--
+--></div>
+<div style="display: block;<!--
+         -->border: }px solid };<!--
+         -->vertical-align: top;<!--
+         -->background: };<!--
+         -->color: };<!--
+         -->margin-bottom: 10px;<!--
+         -->padding: 1em;<!--
+         -->margin-top: 0em;<!--
+         -->padding-top: .3em;"><!--
+-->}| |__NOTOC__}}}| |__NOEDITSECTION__}}<noinclude>Test text with link
+これはウィキポータル用テンプレートです。共同で使用するように設計されており、波及効果が大きいため、無用な編集は避けてください。
+
+<!-- original -->
+
+es:Portal:Box-header

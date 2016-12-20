@@ -1,0 +1,177 @@
+A linguaxe '''Objective CAML''', tamén chamado  '''Ocaml''' ou  '''O'Caml''', é unha linguaxe de programación avanzada da familia das linguaxes  programación imperativa, programación funcional e programación orientada a obxectos.
+
+Ocaml nace da evolución da linguaxe CAML, abreviación de ''Categorical Abstract Machine Language'', ao integrárselle a programación con obxectos.<ref>[http://www.pps.jussieu.fr/cousinea/Caml/caml_history.html  A brief history of Caml (as I remember it)]</ref>
+
+O código fonte en Ocaml se compila en código para unha máquina virtual ou en código de máquina para diferentes arquitecturas. Este último compilador produce código comparable en eficiencia ao producido por compiladores como o da linguaxe C/C++.
+
+Ocaml dispón dunha análise de tipos estático con inferencia de tipos, con valores funcionais de primeira clase, polimorfismo parametrizado, chamada por patróns, manexo de excepcións, recolección de lixo  e outras características avanzadas.
+
+== Exemplos de código ==
+==="Ola Mundo"===
+<pre>
+ > print_endline "Hello World !" ;;
+ Hello World !
+ val () : unit = <fun>
+ >
+</pre>
+Este é un exemplo de uso da contorna de execución (o símbolo de entrada de datos é o ">").
+
+===Manipulación  de listas===
+<pre>
+  (* Listas xenéricas *)
+ 
+  (* Lonxitude dunha lista *)
+  let rec long  = function
+    |[] -> 0
+    |x::xs -> 1 + long xs;;
+ 
+  (* Ordenamento por inserción *)
+  (* dada unha relación de orde *)
+  let rec ordenar = function
+    |[] -> []
+    |x::xs -> inserir x (ordenar xs)
+  and inserir e = function
+    |[] -> [e]
+    |x::xs -> if x > e
+              then e::x::xs
+              else x::(inserir e xs);;
+
+  # let l = ["A"; "vida"; "é"; "un"; "longo"; "e"; "tranquilo"; "río"];;
+  - : string list =
+  ["A"; "vida"; "é"; "un"; "longo"; "e"; "tranquilo"; "río"]
+
+  # long l;;
+  - : int = 8
+
+  # ordenar l;;
+  - : string list =
+  ["A"; "é"; "longo"; "río"; "tranquilo"; "un"; "vida"; "e"]
+</pre>
+===Árbores===
+<pre>
+ 
+  (* Definición dunha árbore binario, para calquera tipo 'a ). *
+  type 'a arbol = AVac | Nodo of ('a arbol * 'a 'a arbol);;. *
+
+{{Infobox programming language |
+  name = Objective Caml |
+  logo = Image:Caml.128x58.gif |
+  paradigm = multi-paradigm: imperative, functional, object-oriented |
+  developer = INRIA |
+  latest_release_version = 3.10.2 |
+  latest_release_date = February 29, 2008 |
+  operating_system = Cross-platform |
+  genre = Programming language |
+  influenced_by = Caml Light, Standard ML |
+  influenced = Scala |
+  dialects = F#, JoCaml, MetaOCaml, OcamlP3l |
+  license = Q Public License (compiler)<br>LGPL (library) |
+  website = [http://caml.inria.fr/ http://caml.inria.fr/] |
+}}
+
+'''Objective Caml''' ('''OCaml''') is the main implementation of the INRIA.
+
+OCaml extends the core Caml language with object-oriented constructs.
+
+OCaml's toolset includes an interactive toplevel interpreter, a Python or Perl, as well as robust modular and object-oriented programming constructs that make it applicable for large-scale software engineering.
+
+OCaml is the successor to Caml Light. The acronym CAML originally stood for ''Categorical Abstract Machine Language'', although OCaml abandons this abstract machine.
+
+==Philosophy==
+ML-derived languages are best known for their static type-inferring compilers. OCaml unifies functional, imperative, and object-oriented programming under an ML-like type system.
+
+OCaml's static type system eliminates a large class of programmer errors that may cause problems at runtime.  However, it also forces the programmer to conform to the constraints of the type system, which can require careful thought and close attention.  A type-inferring compiler greatly reduces the need for manual type annotations (for example, the Java). Nonetheless, effective use of OCaml's type system can require some sophistication on the part of the programmer.
+
+OCaml is perhaps most distinguished from other languages with origins in academia by its emphasis on performance. Firstly, its static type system renders runtime type mismatches impossible, and thus obviates runtime type and safety checks that burden the performance of dynamically typed languages, while still guaranteeing runtime safety (except when array bounds checking is turned off, or when certain type-unsafe features like serialization are used; these are rare enough that avoiding them is practically possible).
+
+Aside from type-checking overhead, optimizations, OCaml's optimizing compiler employs boxing and closure allocation, helping to maximize the performance of the resulting code even if it makes extensive use of functional programming constructs.
+
+Xavier Leroy has cautiously stated that "OCaml delivers at least 50% of the performance of a decent C compiler"<ref name = "LWN">[http://lwn.net/Articles/19378/  Linux Weekly News].</ref>, and benchmarks have shown that this is generally the case<ref name = "Debian">[http://shootout.alioth.debian.org/  The Computer Language Benchmarks Game].</ref>. Some functions in the OCaml standard library are implemented with faster algorithms than equivalent functions in the standard libraries of other languages. For example, the implementation of set union in the OCaml standard library is asymptotically faster than the equivalent function in the standard libraries of imperative languages (e.g. C++, Java) because the OCaml implementation exploits the immutability of sets in order to reuse parts of input sets in the output (persistence).
+
+==Features==
+OCaml features: a static
+type system, type inference,
+parametric polymorphism, tail recursion,
+pattern matching,
+first class lexical closures,
+functors (parametric modules), exception handling, and
+incremental generational automatic garbage collection.
+
+OCaml is particularly notable for extending ML-style type inference to an object system in a general purpose language. This permits structural subtyping, where object types are compatible if their method signatures are compatible, regardless of their declared inheritance; an unusual feature in statically-typed languages.
+
+A linking to C primitives is provided, including language support for efficient numerical arrays in formats compatible with both C and FORTRAN.  OCaml also supports the creation of libraries of OCaml functions that can be linked to a "main" program in C, so that one could distribute an OCaml library to C programmers who have no knowledge nor installation of OCaml.
+
+The OCaml distribution contains:
+*An extensible parser and macro language named Camlp4, which permits the syntax of OCaml to be extended or even replaced
+*Lexer and parser tools called ocamllex and ocamlyacc
+*Debugger which supports stepping backwards to investigate errors
+*Documentation generator
+*Profiler — for measuring performance
+*Numerous general purpose libraries
+
+The native code compiler is available for many platforms, including Apple IA-64, AMD64, HP/PA; Alpha, MIPS, and StrongARM.
+
+OCaml bytecode and native code programs can be written in a multithreaded style, with preemptive context switching. However, because the garbage collector is not designed for concurrency, symmetric multiprocessing is not supported<ref name = "INRIA">[http://caml.inria.fr/pub/ml-archives/caml-list/2002/11/64c14acb90cb14bedb2cacb73338fb15.en.html Xavier Leroy's "standard lecture" on threads]</ref>. OCaml threads in the same process execute by time sharing only.
+
+==Code examples==
+Snippets of OCaml code are most easily studied by entering them into the "top-level". This is an interactive OCaml session that prints the inferred types of resulting or defined expressions. The OCaml top-level is started by simply executing the "ocaml" program:
+
+   $ ocaml
+        Objective Caml version 3.09.0
+ 
+   #
+
+Code can then be entered at the "#" prompt. For example, to calculate 1+2*3:
+
+   # 1 + 2 * 3;;
+   - : int = 7
+
+OCaml infers the type of the expression to be "int" (a machine-precision integer) and gives the result "7".
+
+===Hello World===
+The following program "hello.ml":
+
+<source lang="ocaml">
+ print_endline "Hello world!";;
+</source>
+
+can be compiled to bytecode:
+
+ $ ocamlc hello.ml -o hello
+
+and executed:
+
+ $ ./hello
+ Hello world!
+ $
+
+=== Quicksort ===
+Ocaml lends itself to the concise expression of recursive algorithms.  The following code example implements the quicksort algorithm to sort a list into increasing order.
+
+<source lang="ocaml">
+ let rec quicksort = function
+   | [] -> []
+   | pivot :: rest ->
+       let is_less x = x < pivot in
+       let left, right = List.partition is_less rest in
+       quicksort left @ [pivot] @ quicksort right
+</source>
+
+===Birthday paradox===
+The following program calculates the smallest number of people in a room for whom the probability of completely unique birthdays is less than 50% (the so-called birthday paradox, where for 1 person the probability is obviously 100%, for 2 it is 364/365, etc.) (answer = 23).
+
+<source lang="ocaml">
+ let year_size = 365.;;
+ 
+ let rec birthday_paradox prob people =
+     let prob' = (year_size -. float people) /. year_size *. prob  in
+     if prob' < 0.5 then
+         Printf.printf "answer = %d\n" (people+1)
+     else
+         birthday_paradox prob' (people+1) ;;
+ 
+ birthday_paradox 1.0 1;;
+</source>
+
+===Church numerals===
+The following code defines a Church encoding of natural numbers, with successor (succ) and addition (add).  A Church numeral <code>n</code> is a higher-order function that accepts a function <code>f</code> and a value <code>x</code> and applies <code>f</code> to <code>x</code> exactly <code>n</code> times. To convert a Church numeral from a functional value to a string, we pass it a function which prepends the string <code>"S"</code> to its input and the constant string <code>"0"</code>.

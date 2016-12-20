@@ -1,0 +1,46 @@
+thumb |400px | Ruhmkorff coil.
+
+An '''Induction coil''' or "spark coil" (archaically known as a ''' Ruhmkorff coil''') is a type of DC supply.  The term is also used for a coil carrying high-frequency AC producing eddy currents to heat objects placed in the interior of the coil, in induction heating or zone melting equipment.
+
+==How it works==
+
+An induction coil consists of two coils of insulated copper wire wound around a common iron core. One coil, called the ''primary winding'', is made from tens or hundreds of turns of coarse wire.  The other coil, the ''secondary winding,'' typically consists of many thousands of turns of fine wire. An electric current is passed through the primary, creating a magnetic field.  Because of the common core, most of the primary's magnetic field couples with the secondary winding. The primary behaves as an inductor, storing energy in the associated magnetic field. When the primary current is suddenly interrupted, the magnetic field rapidly collapses.  This causes a high voltage pulse to be developed across the secondary terminals through electromagnetic induction. Because of the large number of turns in the secondary coil, the secondary voltage pulse is typically many thousands of volts. This voltage is often sufficient to cause an electrical discharge, or spark, to jump across an air gap separating the secondary's output terminals.  For this reason, induction coils were sometimes called spark coils.  
+
+The size of induction coils was often specified by the length of spark it could produce; an '8 inch' induction coil was one that could produce an 8 inch arc.
+
+===The interrupter===
+
+To operate the coil continuously, the DC supply current must be broken repeatedly to create the magnetic field changes needed for induction.  Induction coils use a magnetically activated vibrating arm called an ''interrupter'' or ''break'' to rapidly connect and break the current flowing into the primary coil.  The interrupters on small coils were mounted on the end of the coil next to the iron core.  The magnetic field created by the current flowing in the primary attracted an iron armature attached to a spring, breaking a pair of contacts in the primary circuit.  When the magnetic field then collapses, the spring closes the contacts again.
+
+Although opposite potentials are induced in the secondary when the interrupter 'breaks' the circuit and 'closes' the circuit, the current change is much more abrupt when the interrupter 'breaks', so the pulse of voltage induced in the secondary at 'break' is much larger.  A 'snubber' capacitor is used across the contacts to quench the arc on the 'break', which causes much faster switching and higher voltages.  So the output waveform of an induction coil is a series of alternating positive and negative pulses, with one polarity much larger than the other.
+
+==Construction details==
+
+To prevent the high voltages generated in the coil from breaking down the thin insulation and sparking between the secondary wires, the secondary coil is constructed so as to avoid having wires carrying large voltage differences lying next to each other.  The secondary coil is wound in many thin 'pancake' shaped sections, connected in series.  The primary coil is first wound on the iron core, and insulated from the secondary with a thick paper or rubber coating.  Then each secondary subcoil is coated with an insulating layer like paraffin, connected to the coil next to it, and slid onto the iron core.  The voltage developed in each subcoil isn't large enough to jump between the wires in the subcoil.  Large voltages are only developed across many subcoils in series, which are too widely separated to arc over.
+
+To prevent eddy currents, the iron core is made of a bundle of parallel iron wires, individually coated with shellac to insulate them electrically.  This prevents eddy currents, which flow perpendicular to the magnetic axis.
+
+==Mercury and electrolytic interrupters==
+
+right|Schematische Darstellung eines Funkeninduktors
+Der '''Funkeninduktor''' ist ein historisches elektrisches Gerät zur induktiven Erzeugung von Hochspannungsimpulsen. Es wurde vielfältig eingesetzt, um 
+
+# eine Hochspannung bis etwa 250 Kilovolt zu erzeugen,
+# elektrische Entladungsvorgänge auf höherem Energieniveau durchführen zu können (Bisher stand nur Wimshurst-Maschine oder der Bandgenerator zur Verfügung), sowie um 
+# Vergleiche mit elektrostatischen Entladungen (Blitz, Gewitter) anzustellen, später auch um
+# Röntgenapparaturen mit Hochspannung zu versorgen.
+
+Ein besonders effektiver Funkeninduktor wurde von dem deutschen Erfinder Heinrich Daniel Ruhmkorff 1855 gebaut.
+
+== Aufbau und Funktionsweise ==
+Der Funkeninduktor ist wie ein Transformator mit hohem Übersetzungsverhältnis aufgebaut, d.h. mit wenigen Windungen aus dickem Draht als Primärspule und tausenden Windungen als Sekundärspule.
+
+Fließt ein Strom durch die Primärwicklung, baut sich im Eisenkern ein Magnetfeld auf. Wird die Stromzufuhr der Primärwicklung durch einen Wagnerschen Hammer rhythmisch unterbrochen, baut sich aufgrund der Selbstinduktion in den Spulen eine Gegenspannung auf, die dem Zusammenbrechen des magnetischen Feldes entgegenwirkt (Lenz’sche Regel). Die Spannung in der dünnen Wicklung ist aufgrund der vielen Windungen um das Windungszahlverhältnis höher als diejenige über dem Kontakt und wird nur durch die Isolation, die Geschwindigkeit des Stromabschaltens und die Eigenkapazität der Hochspannungswicklung begrenzt. Sie ist umso höher, je höher der Strom vor dem Abschalten ist.
+ 
+Der Kondensator über dem Kontakt des Wagnerschen Hammers soll einerseits die Funkenbildung verringern und andrerseits mit der Primärspule einen Schwingkreis bilden, der die gleiche Resonanzfrequenz wie die Sekundärspule hat. Auf diese Weise wird die Energieübertragung vom Primär- auf den Sekundärkreis optimiert. Parallel zur Stromquelle werden Kondensatoren eingesetzt, um die bei schließendem Schalter auftretenden Stromstöße von der Stromversorgung fernzuhalten.
+
+== Anwendung ==
+
+Funkeninduktoren gab es neben den wissenschaftlichen Anwendungen durch Physiker auch zur Volksbelustigung auf Jahrmärkten sowie als Kinderspielzeug in Form von Elektrisiermaschinen.
+
+Weiterhin speisten Funkeninduktoren die ersten hochfrequente Schwingungen in Antennen erzeugte. Bereits Heinrich Hertz verwendete einen Funkeninduktor als Hochspannungsgenerator für seinen Nachweis der elektromagnetischen Wellen, die wegen ihrer ursprünglichen Erzeugungsart auch Funkwellen genannt werden.

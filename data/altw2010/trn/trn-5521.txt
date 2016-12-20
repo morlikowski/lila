@@ -1,0 +1,347 @@
+The '''electron affinity''', ''E''<sub>ea</sub>, of an singly charged negative ion, i.e., the energy change for the process
+::X<sup>-</sup> &rarr; X + e<sup>&minus;</sup>
+An equivalent definition is the energy released (''E''<sub>initial</sub>&nbsp;&minus;&nbsp;''E''<sub>final</sub>) when an electron is attached to a neutral atom or molecule. It should be noted that the sign convention for ''E''<sub>ea</sub> is the opposite to most thermodynamic quantities: a positive electron affinity indicates that energy is ''released'' on going from atom to anion.
+
+All elements whose EA have been measured using modern methods have a positive electron affinity, but older texts mistakenly report that some elements such as alkaline earth metals have negative ''E''<sub>ea</sub>, meaning they would repel electrons. This is not recognized by modern chemists. The electron affinities of the noble gases have not been conclusively measured, so they may or may not have slightly negative EAs. Atoms whose anions are relatively more stable than neutral atoms have a greater ''E''<sub>ea</sub>. mercury most weakly attracts an extra electron. ''E''<sub>ea</sub> of noble gases are close to 0.
+
+Although ''E''<sub>ea</sub> vary in a chaotic manner across the table, some patterns emerge. Generally, nonmetals have more positive ''E''<sub>ea</sub> than metals. 
+
+==Values for the elements==
+
+The following data are quoted in kJ/mol. Elements marked with an asterisk are expected to have electron affinities close to zero on quantum mechanical grounds. Elements marked with a dotted box are synthetically made elements&mdash;elements not found naturally in the environment.  
+
+<center>
+{| border="0" cellpadding="0" cellspacing="2" style="width:80%; }"
+|-
+! width="1.0%" | <small>Group&nbsp;→</small>
+! width="5.5%" | 1
+! width="5.5%" | 2
+! width="5.5%" | 3
+! width="5.5%" | 4
+! width="5.5%" | 5
+! width="5.5%" | 6
+! width="5.5%" | 7
+! width="5.5%" | 8
+! width="5.5%" | 9
+! width="5.5%" | 10
+! width="5.5%" | 11 <!-- also 11 -->
+! width="5.5%" | 12
+! width="5.5%" | 13
+! width="5.5%" | 14
+! width="5.5%" | 15 <!-- also 15 -->
+! width="5.5%" | 16
+! width="5.5%" | 17
+! width="5.5%" | 18
+|-
+! <small>↓&nbsp;Period</small>
+| colspan="19"|<br />
+|-
+! 1
+| 
+| colspan="16"|<br />
+| 
+|-
+! 2
+| 
+| 
+| colspan="10"|<br />
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+! 3
+| 
+| 
+| colspan="10"|<br />
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+! 4 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+! 5
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+! 6
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+! 7
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+| colspan="21"|<br />
+|-
+| colspan="4" style="text-align:right"|* '''Lanthanides'''
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+| colspan="4" style="text-align:right"|** '''Actinides'''
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|}
+
+{| border="2" cellpadding="4" style="background:silver; border:1px solid gray; border-collapse:collapse; margin:0 1em 1em 0; text-align:center; }"
+|-
+|+ '''Chemical series of the periodic table'''
+|-
+| style="background:;"         width="20%" | Alkali metals <!-- also Element color/1 -->
+| style="background:;" width="20%" | Alkaline earth metals <!-- also Element color/2 -->
+| style="background:;"           width="20%" | Lanthanides <!-- also Element color/3 -->
+| style="background:;"             width="20%" | Actinides
+| style="background:;"     width="20%" | Transition metals
+|-
+| style="background:;" | Poor metals <!-- also Element color/4 -->
+| style="background:;"  | Metalloids <!-- also Element color/5 -->
+| style="background:;"   | Nonmetals <!-- also Element color/6 -->
+| style="background:;"    | Halogens <!-- also Element color/7 -->
+| style="background:;" | Noble gases <!-- also Element color/0 -->
+|}
+</center>
+<!-- for a plain white background, use Element color/X -->
+
+==Periodic trends==
+''E''<sub>ea</sub> generally increases across a period (row) in the periodic table. This is caused by the filling of the valence shell of the atom; a group 7A atom releases more energy than a group 1A atom on gaining an electron because it obtains a filled valence shell.
+
+Die Energiedifferenz zwischen dem Elektronenvolt (eV) angegeben. Die Halogenatome haben dementsprechend die höchsten Werte von weniger als -3 eV, wobei das Chlor-Atom mit -3,617 eV den größten Elektronenaffinitätswert besitzt. Für Atome der Edelgase, der Erdalkalimetalle und des Stickstoffs ist die Angabe einer Elektronenaffinität nicht sehr nützlich (bsp. EA(Neon)= 1,0 eV), da das einfach negative Ion dieser Atome grundsätzlich instabil ist.
+
+<center>
+{| WIDTH="90%"
+|- align="CENTER"
+| '''Gruppe'''
+| '''1'''
+| '''2'''
+| '''3'''
+| '''4'''
+| '''5'''
+| '''6'''
+| '''7'''
+| '''8'''
+| '''9'''
+| '''10'''
+| '''11'''
+| '''12'''
+| '''13'''
+| '''14'''
+| '''15'''
+| '''16'''
+| '''17'''
+| '''18'''
+|- align="CENTER"
+| '''Periode'''
+| colspan=19 | 
+|- align="CENTER"
+| '''1'''
+| bgcolor="#ff9999" | H<br>-73
+| colspan=16 | 
+| bgcolor="#ff9999" | He<br>21
+|- align="CENTER"
+| '''2'''
+| bgcolor="#ff9999" | Li<br>-60
+| bgcolor="#ff9999" | Be<br>19
+| colspan=10 | 
+| bgcolor="#ff9999" | B<br>-27
+| bgcolor="#ff9999" | C<br>-122
+| bgcolor="#ff9999" | N<br>7
+| bgcolor="#ff9999" | O<br>-141
+| bgcolor="#ff9999" | F<br>-328
+| bgcolor="#ff9999" | Ne<br>29
+|- align="CENTER"
+| '''3'''
+| bgcolor="#ff9999" | Na<br>-53
+| bgcolor="#ff9999" | Mg<br>19
+| colspan=10 | 
+| bgcolor="#ff9999" | Al<br>-43
+| bgcolor="#ff9999" | Si<br>-134
+| bgcolor="#ff9999" | P<br>-72
+| bgcolor="#ff9999" | S<br>-200
+| bgcolor="#ff9999" | Cl<br>-349
+| bgcolor="#ff9999" | Ar<br>35
+|- align="CENTER"
+| '''4'''
+| bgcolor="#ff9999" | K<br>-48
+| bgcolor="#ff9999" | Ca<br>10
+| bgcolor="#ff9999" | Sc<br>-18
+| bgcolor="#ff9999" | Ti<br>-8
+| bgcolor="#ff9999" | V<br>-51
+| bgcolor="#ff9999" | Cr<br>-64
+| bgcolor="#ff9999" | Mn<br>&nbsp;
+| bgcolor="#ff9999" | Fe<br>-16
+| bgcolor="#ff9999" | Co<br>-64
+| bgcolor="#ff9999" | Ni<br>-112
+| bgcolor="#ff9999" | Cu<br>-118
+| bgcolor="#ff9999" | Zn<br>47
+| bgcolor="#ff9999" | Ga<br>-29
+| bgcolor="#ff9999" | Ge<br>-116
+| bgcolor="#ff9999" | As<br>-78
+| bgcolor="#ff9999" | Se<br>-195
+| bgcolor="#ff9999" | Br<br>-325
+| bgcolor="#ff9999" | Kr<br>39
+|- align="CENTER"
+| '''5'''
+| bgcolor="#ff9999" | Rb<br>-47
+| bgcolor="#ff9999" | Sr<br>&nbsp;
+| bgcolor="#ff9999" | Y<br>-30
+| bgcolor="#ff9999" | Zr<br>-41
+| bgcolor="#ff9999" | Nb<br>-86
+| bgcolor="#ff9999" | Mo<br>-72
+| bgcolor="#ff9999" | Tc<br>-53
+| bgcolor="#ff9999" | Ru<br>-101
+| bgcolor="#ff9999" | Rh<br>-110
+| bgcolor="#ff9999" | Pd<br>-54
+| bgcolor="#ff9999" | Ag<br>-126
+| bgcolor="#ff9999" | Cd<br>32
+| bgcolor="#ff9999" | In<br>-29
+| bgcolor="#ff9999" | Sn<br>-116
+| bgcolor="#ff9999" | Sb<br>-103
+| bgcolor="#ff9999" | Te<br>-190
+| bgcolor="#ff9999" | I<br>-295
+| bgcolor="#ff9999" | Xe<br>41
+|- align="CENTER"
+| '''6'''
+| bgcolor="#ff9999" | Cs<br>-45
+| bgcolor="#ff9999" | Ba<br>&nbsp;
+| bgcolor="#ff9999" | Lu<br>&nbsp;
+| bgcolor="#ff9999" | Hf<br>&nbsp;
+| bgcolor="#ff9999" | Ta<br>-31
+| bgcolor="#ff9999" | W<br>-79
+| bgcolor="#ff9999" | Re<br>-14
+| bgcolor="#ff9999" | Os<br>-106
+| bgcolor="#ff9999" | Ir<br>-151
+| bgcolor="#ff9999" | Pt<br>-205
+| bgcolor="#ff9999" | Au<br>-223
+| bgcolor="#ff9999" | Hg<br>61
+| bgcolor="#ff9999" | Tl<br>-20
+| bgcolor="#ff9999" | Pb<br>-35
+| bgcolor="#ff9999" | Bi<br>-91
+| bgcolor="#ff9999" | Po<br>-183
+| bgcolor="#ff9999" | At<br>-270
+| bgcolor="#ff9999" | Rn<br>41
+|- ALIGN=CENTER
+| '''7'''
+| bgcolor="#ff9999" | Fr<br>-44
+| bgcolor="#ff9999" | Ra<br>&nbsp;
+| bgcolor="#ff9999" | Lr<br>&nbsp;
+| bgcolor="#ff9999" | Rf<br>&nbsp;
+| bgcolor="#ff9999" | Db<br>&nbsp;
+| bgcolor="#ff9999" | Sg<br>&nbsp;
+| bgcolor="#ff9999" | Bh<br>&nbsp;
+| bgcolor="#ff9999" | Hs<br>&nbsp;
+| bgcolor="#ff9999" | Mt<br>&nbsp;
+| bgcolor="#ff9999" | Ds<br>&nbsp;
+| bgcolor="#ff9999" | Rg<br>&nbsp;
+| bgcolor="#ff9999" | Uub<br>&nbsp;
+| bgcolor="#ff9999" | Uut<br>&nbsp;
+| bgcolor="#ff9999" | Uuq<br>&nbsp;
+| bgcolor="#ff9999" | Uup<br>&nbsp;
+| bgcolor="#ff9999" | Uuh<br>&nbsp;
+| bgcolor="#ff9999" | Uus<br>&nbsp;
+| bgcolor="#ff9999" | Uuo<br>&nbsp;
+|- align="CENTER"
+| colspan=20 | 
+|}
+</center>
+<center>Periodensystem der Elektronenaffinität, in kJ/mol</center>
+
+== Umrechnung in eV ==
+Zur Umrechnung in Elektronenvolt müssen die o.g. Werte zunächst auf ein einzelnes Atom heruntergerechnet werden, indem durch die Stoffmenge 1Mol = 6,022·10<sup>23</sup> dividiert wird. Der resultierende Wert in kJ (pro Atom) lässt sich dann über die Beziehung 1eV=1,602·10<sup>-22</sup>kJ in Elektronenvolt umrechnen. Es ergibt sich als Umrechnungsfaktor somit
+<blockquote><b>0,0103657 eV·mol/kJ</b></blockquote>.

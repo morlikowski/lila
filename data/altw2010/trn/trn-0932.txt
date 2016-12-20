@@ -1,0 +1,123 @@
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = Santo Stefano in Aspromonte |
+  name = Santo Stefano in Aspromonte |
+  region = Calabria |
+  province = Province of Reggio Calabria (RC) |
+  elevation_m = 715 |
+  area_total_km2   = 17.7 |
+  population_as_of  = Dec. 2004 |
+  population_total = 1382 |
+  population_density_km2 = 78 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          = Gambarie, Mannoli |
+  telephone         = 0965 |
+  postalcode        = 89057 |
+  gentilic          = stefaniti |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           =  |
+  mapy = 15.7833 |
+  mapx = 38.1667 |
+}}
+'''Santo Stefano in Aspromonte''' is a ''Italian region Calabria, located about 110 km southwest of Catanzaro and about 12 km northeast of Reggio Calabria. As of 31 December 2004, it had a population of 1,382 and an area of 17.7 km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+The municipality of Santo Stefano in Aspromonte contains the ''frazioni'' (subdivisions, mainly villages and hamlets) Gambarie and Mannoli.
+
+Santo Stefano in Aspromonte borders the following municipalities: Scilla.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:3000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:1000 start:0
+ScaleMinor = gridcolor:lightgrey increment:200 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:2481
+  bar:1871 from: 0 till:2365
+  bar:1881 from: 0 till:2471
+  bar:1901 from: 0 till:2580
+  bar:1911 from: 0 till:2444
+  bar:1921 from: 0 till:2581
+  bar:1931 from: 0 till:2552
+  bar:1936 from: 0 till:2555
+  bar:1951 from: 0 till:2586
+  bar:1961 from: 0 till:2397
+  bar:1971 from: 0 till:2020
+  bar:1981 from: 0 till:1878
+  bar:1991 from: 0 till:1472
+  bar:2001 from: 0 till:1470
+
+PlotData=
+
+{{Infobox Ort in Italien
+|nomeComune = Santo Stefano in Aspromonte
+|regione = Kalabrien
+|provincia = Reggio Calabria
+|linkStemma = <!--Santo Stefano in Aspromonte-Stemma.png-->
+|siglaRegione = CAL
+|siglaProvincia = RC
+|latitudineGradi = 38
+|latitudineMinuti = 10
+|latitudineSecondi = 0
+|longitudineGradi = 15
+|longitudineMinuti = 47
+|longitudineSecondi = 0
+|mappaX = 225
+|mappaY = 293
+|altitudine = 715
+|superficie = 17
+|abitanti = 1324
+|anno = 2007
+|densita = 78
+|frazioni = Gambarie, Mannoli
+|comuniLimitrofi = San Roberto, Scilla
+|cap = 89057
+|prefisso = 0965
+|istat = 080083
+|fiscale = I371
+|nomeAbitanti = Stefaniti
+|patrono = Santo Stefano Protomartire, Madonna del Carmelo
+|festivo = 26 dicembre, penultima settimana di agosto
+|sito =  
+}}
+
+'''Santo Stefano in Aspromonte''' ist eine italienische Stadt in der Provinz Reggio Calabria in Kalabrien.
+
+== Lage und Daten ==
+
+Santo Stefano in Aspromonte liegt 35 km nordöstlich von San Roberto, Scilla. Der Ort besteht aus den beiden Ortsteilen Gambarie und  Mannoli.
+
+Der Ort ist neben dem Tourismus landwirtschaftlich geprägt. Produziert werden Pilze, Honig, Käse und Olivenöl.

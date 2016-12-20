@@ -1,0 +1,67 @@
+'''気候モデル'''（きこう -）とは、地球上の大気、海洋などの気候を長期的・量的にシミュレーションするもの。将来の気候の分野において使用される。気象予報において使用される短期的モデルは数値予報モデルと呼ばれるもので、気候モデルとは異なる。
+
+== 気候モデルの役割 ==
+気候モデルは、過去の物理法則にしたがって将来の気象現象や気候要素を再現する。気候変動を予測することによって人類への悪影響を軽減することが最終的な目的となるので、できるだけ精度を高めなければいけないとされる。しかし、精密な気象観測結果が得られるのは過去90年間程度であり、ある程度の限界がある。また、文献や地質学的調査をもとにした過去の気象を参考にすることもできるが、あまり高い精度は期待できない。
+
+気候モデル単独では大気現象以外を再現することはできないため、炭素循環モデル、海洋モデル、生物モデル、陸域状態モデルなどと連携して将来の状態を予測することもある。
+
+== 気候モデルの歴史 ==
+
+== 気候モデルの種類 ==
+*全球気候モデル
+*全球大気・海洋結合モデル
+*地球シミュレータ
+
+:''This article is about the theories and mathematics of climate modeling. For computer-driven prediction of Earth's climate,  see Global climate model.''
+
+thumb|right|350px|Climate models are systems of [[differential equations based on the basic laws of fluid motion, and chemistry. To “run” a model, scientists divide the planet into a 3-dimensional grid, apply the basic equations, and evaluate the results. Atmospheric models calculate winds, heat transfer, radiation, relative humidity, and surface hydrology within each grid and evaluate interactions with neighboring points.]]
+'''Climate models''' use atmosphere, oceans, land surface, and ice. They are used for a variety of purposes from study of the dynamics of the weather and climate system to projections of future climate.
+
+All climate models balance, or very nearly balance, incoming visible and ultraviolet, not to be confused with shortwave) to the earth with outgoing energy as long wave (infrared) electromagnetic radiation from the earth. Any imbalance results in a change in the average temperature of the earth.
+
+The most talked-about models of recent years have been those relating temperature to emissions of carbon dioxide (see greenhouse gas). These models project an upward trend in the surface temperature record, as well as a more rapid increase in temperature at higher altitudes.
+
+Models can range from relatively simple to quite complex:
+* A simple radiant heat transfer model that treats the earth as a single point and averages outgoing energy 
+* this can be expanded vertically (radiative-convective models), or horizontally 
+* finally, (coupled) atmosphere&ndash;ocean&ndash;sea ice '''global climate models''' discretise and solve the full equations for mass and energy transfer and radiant exchange.
+
+This is not a full list; for example "box models" can be written to treat flows across and within ocean basins.
+
+== Zero-dimensional models ==
+
+A very simple model of the radiative equilibrium of the Earth is
+
+:<math>(1-a)S \pi r^2 = 4 \pi r^2 \epsilon \sigma T^4</math>
+
+where
+
+* the left hand side represents the incoming energy from the Sun
+* the right hand side represents the outgoing energy from the Earth, calculated from the Stefan-Boltzmann law assuming a constant radiative temperature, ''T'', that is to be found,
+
+and
+
+* ''S'' is the solar constant - the incoming solar radiation per unit area - about 1367 W·m<sup>-2</sup>
+* ''a'' is the Earth's average albedo, measured to be 0.3 [http://cat.inist.fr/?aModele=afficheN&cpsidt=1034923] [http://www.agu.org/sci_soc/prrl/prrl0113.html] 
+* ''r'' is Earth's radius &mdash; approximately 6.371&times;10<sup>6</sup >m
+* ''π'' is well known, approximately 3.14159
+* ''<math> \sigma </math>'' is the Stefan-Boltzmann constant &mdash; approximately 5.67&times;10<sup>-8</sup> J·K<sup>-4</sup>·m<sup>-2</sup>·s<sup>-1</sup>
+* ''<math> \epsilon </math>'' is the effective emissivity of earth, about 0.612
+
+The constant ''πr''<sup>2</sup> can be factored out, giving
+
+:<math>(1-a)S = 4 \epsilon \sigma T^4</math>
+
+This yields an average earth temperature of 288 K [http://eospso.gsfc.nasa.gov/ftp_docs/lithographs/CERES_litho.pdf]. This is because the above equation represents the effective ''radiative'' temperature of the Earth (including the clouds and atmosphere). The use of effective emissivity accounts for the greenhouse effect.
+
+This very simple model is quite instructive, and the only model that could fit on a page. For example, it easily determines the effect on average earth temperature of changes in solar constant or change of albedo or effective earth emissivity. Using the simple formula, the percent change of the average amount of each parameter, considered independently, to cause a one degree Celsius change in steady-state average earth temperature is as follows:
+
+Solar constant 1.4%
+Albedo 3.3%
+Effective emissivity 1.4%
+
+The average emissivity of the earth is readily estimated from available data. The emissivities of terrestrial surfaces are all in the range of 0.96 to 0.99 [http://www.icess.ucsb.edu/modis/EMIS/html/seawater.html] [http://www.glue.umd.edu/~sliang/papers/Jin2006.emissivity.pdf] (except for some small desert areas which may be as low as 0.7). Clouds, however, which cover about half of the earth’s surface, have an average emissivity of about 0.5 [http://www.arm.gov/publications/proceedings/conf08/extended_abs/shippert_tr.pdf] (which must be reduced by the fourth power of the ratio of cloud absolute temperature to average earth absolute temperature) and an average cloud temperature of about 258 K [http://www.arm.gov/publications/proceedings/conf11/extended_abs/gorelik_ag.pdf]. Taking all this properly into account results in an effective earth emissivity of about 0.64 (earth average temperature 285 K). 
+
+This simple model readily determines the effect of changes in solar output or change of earth albedo or effective earth emissivity on average earth temperature. It says nothing, however about what might cause these things to change. Zero-dimensional models do not address the temperature distribution on the earth or the factors that move energy about the earth.
+
+== Radiative-Convective Models ==

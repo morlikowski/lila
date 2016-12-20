@@ -1,0 +1,80 @@
+{{Sztuczny satelita infobox
+|          nazwa =Telstar 2
+|        obrazek =telstar 2.jpg 
+|     inne_nazwy =S00573
+|  organizatorzy =
+|         COSPAR =1963-013A 
+|        rakieta =Thor Delta B 
+|      kosmodrom =Centrum Lotów Kosmicznych imienia Johna F. Kennedy'ego 
+|           kraj =USA
+|       perygeum =974
+|        apogeum =10803
+|          okres =225,1 
+|     nachylenie =42,7
+|       mimośród =0,400481
+| początek_dzień =7 maja
+|   początek_rok =1963
+|          hh:mm =11:38:03
+|   koniec_dzień =16 maja 
+|     koniec_rok =1965 
+|   powrót_dzień = 
+|     powrót_rok = 
+|        kształt =
+|        wymiary =
+|      masa_całk =79,4<ref>Za Encyclopedia Astronautica i Space 40. NSSDC Master Catalog podaje 176 kg.</ref>
+|       masa_ład = 
+}}
+
+'''Telstar 2''' – amerykański naukowy, bliźniak satelity Telstar 1.
+
+Statek pozostaje na orbicie okołoziemskiej, której trwałość szacowana jest na 200 000 lat.
+
+Telstar prowadził pomiary dystrybucji protonów i elektronów w pasach Van Allena.
+
+Oś obrotu statku zaraz po wystrzeleniu była nachylona do powierzchni ekliptyki pod kątem 80°. Początkowe tempo obrotu wynosiło 180 obr./min. 
+
+right|frame|The original Telstar had a roughly spherical shape.
+'''Telstar''' was the first active communications satellite (launched in 1962), and the first satellite designed to transmit telephone and high-speed data communications. Its name is used to this day for a number of television broadcasting satellites.
+
+== Description==
+
+Belonging to Bell Telephone Laboratories, General Post Office, and the French National PTT (Post, Telegraph & Telecom Office) to develop satellite communication. Bell also built the Andover Earth Station in Andover, Maine, and held a contract with NASA, reimbursing the agency three million dollars for each launch, independent of success.
+
+The satellite was built by a team at Bell Telephone Laboratories, including John Robinson Pierce who created the project,<ref name=sun></ref> Rudy Kompfner who invented the traveling wave tube transponder used in the satellite,<ref></ref><ref name=sun/> and James M. Early who designed the transistors and solar panels for it.<ref></ref> It was roughly spherical, was 34.5&nbsp;inches (880&nbsp;mm) long, and weighed 170&nbsp;pounds (77&nbsp;kg). Its dimensions were limited by what would fit in one of NASA's Delta rockets. Telstar was spin-stabilized, and its outer surface was covered with solar cells  to always generate power. The power produced was a tiny 14W.
+
+Telstar was equipped with a helical antenna which received microwave signals from a ground station, then amplified and retransmitted the signal. The transmissions were made from a series of  feed horns  around the satellite's "equator". The electronics switched antennas  as the satellite rotated.
+
+Unlike most of today's communications satellites, Telstar was on an elliptical orbit, which meant the ground antenna had to track the satellite as it came around approximately every 2.5 hours.  Because the transmitting and receiving radio systems on board the satellite were not as powerful or capable as ones on today's satellites, the ground antenna had to be huge.  Morimi Iwama and Jan Norton of Bell Laboratories were in charge of designing and building the electronic portion of the system that steered the antenna.  The aperture of the antenna was 3600 square feet.  The antenna was 177 feet long and weighed 380 tons.  The antenna was housed in a radome the size of a 14 story office building.  The challenge was to steer the huge antenna to track the satellite that moved up to 1.5 degrees per second with a pointing error of less than a .06 degree.
+
+The main earth receiving station was Goonhilly Downs in the south-west of England and was used by the BBC. It was the international coordinator and the standards 525/405 conversion equipment (filling a large room) was researched and developed by the BBC and located in the BBC Television Centre London. 
+Also with Early Bird in 1964 as well as the Summer Olympics mostly coming into Europe via the BBC, the main US networks, NBC, CBS and ABC all made their contributions from Europe mainly through the BBC.
+(N.Smyth-Irish)
+
+Launched by elliptical orbit (completed once every 2 hours and 37 minutes), revolving at a 45 degree angle above the equator. Because of this, its availability for transatlantic signals was  20 minutes in each orbit.
+
+==In service==
+
+Telstar relayed its first television pictures (of a flag outside  Pleumeur-Bodou on the date of its launch. Almost two weeks later, on President  Pleumeur-Bodou, in Kennedy gave a live transatlantic press conference via Telstar.
+
+Telstar, which had ushered in a new age of the benevolent use of technology,  became a victim of technology during the Cold War.  The day before Telstar was launched, the United States tested a high-altitude nuclear device (called Starfish Prime) which super-energized the Earth's Van Allen Belt where Telstar took orbit.  This vast increase in radiation, combined with  subsequent high-altitude blasts, including a Soviet test in October, overwhelmed Telstar's fragile transistors;<ref></ref> it went out of service in early December, but was restarted by a workaround in early January of 1963.<ref></ref> The additional radiation associated with its return to full sunlight once again caused transistor failure, this time irreparably, and it went out of service on February 21, 1963.
+
+According to the US Space Objects Registry, Telstar 1 was still in orbit as of March 2008.<ref></ref>
+
+Experiments continued, and by 1964, two Telstars, two Relay units (from RCA), and two Syncom units (from the Hughes Aircraft Company) had operated successfully in space.  Syncom 2 was the first geosynchronous satellite and its successor, Syncom 3, broadcast pictures from the 1964 Summer Olympics.  The first commercial geosynchronous satellite was Intelsat I ("Early Bird") launched in 1965.
+
+==Newer Telstars==
+
+The next wave of Telstar satellites launched with Telstar 301 in 1983, and was followed by Telstar 302 in 1984 and Telstar 303 in 1985.
+
+The next wave, starting with Telstar 401 came in 1993 and was lost in 1997 from a magnetic storm and Telstar 402 was launched but destroyed shortly after in 1994. It was replaced in 1995 by Telstar 402R, eventually renamed Telstar 4.
+
+Telstar 10 was launched in China in 1997 by APT Satellite Company, Ltd. 
+
+In 2003, Telstars 4–8 and 13 — Loral Skynet's North American fleet — were sold to Intelsat. Telstar 4 suffered complete failure prior to handover; the others were renamed Intelsat Americas 5, 6, etc. At the time of the sale, Telstar 8 was still under construction by Space Systems/Loral, and was finally launched June 23, 2005 by Sea Launch.
+
+Telstar 18 was launched in June 2004 by Sea Launch. The upper stage of the rocket underperformed, but the satellite used its significant stationkeeping fuel margin to achieve its operational geostationary orbit; it has enough on-board fuel remaining that will allow it to exceed its specified 13-year design life.
+
+==Derivative uses of the name==
+Telstar'' after the satellite; it was originally performed by The Tornados and covered by The Ventures among many others. Sound effects on the record, intended to symbolize radio signals, were produced by Meek running a pen around the rim of an ashtray, and then playing the tape of it in reverse. This track is also the unofficial club anthem of East Fife F.C., a professional league soccer club from the town of Methil in Scotland.
+
+There is a fireworks company called Telstar Display Fireworks

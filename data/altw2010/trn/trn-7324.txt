@@ -1,0 +1,217 @@
+'''מודל ה־OSI''' (קיצור של: '''Open Systems Interconnection''') הוא מודל שכבתי אשר נוצר על ידי ארגון התקינה הבינלאומי. מטרת המודל היא להסביר כיצד מתבצעות פעולות של מעבר נתונים ברשת מחשבים. כמו כן, מספק המודל הסבר כללי על מרכיביה השונים של הרשת. המודל מתייחס לחומרה, לתוכנה ולשידור וקליטת המידע. במודל שבע שכבות, והוא מכונה לעתים "מודל שבע השכבות".
+
+== הרקע לפיתוח המודל ==
+בתחילת רשתות מחשבים מקומיות בקרב חברות וארגונים פרטיים, שהבינו כי השימוש ברשת מחשבים טומן בחובו מספר יתרונות ובהם:
+* עבודה משותפת בין מספר משתתפים - לדוגמה עבודה על פרויקט משותף בתוך החברה. נעשה על ידי שמירת העבודה במאגר מידע משותף, בכך מתאפשר למספר משתתפים לערוך את הפרויקט ולעבוד עליו במקביל.
+* שימוש בתוכנה בקרב מספר משתתפים - ניתן להתקין את התוכנה על שרת משותף ובכך לאפשר למספר משתתפים להשתמש בתוכנה ממקום מרכזי אחד, במקום להתקין את התוכנה בנפרד על כל תחנת עבודה.
+* שימוש בתוכנות אשר מיועדות לעבודה ברשת - כגון דואר אלקטרוני. מאפשר תקשורת מהירה יותר בין חברי הרשת.
+* יכולת אחסון וגיבוי מהיר יותר של נתונים.
+
+הדבר הוביל להקמתן של רשתות חדשות רבות ולהתפתחותן המואצת של הרשתות הקיימות. עם התפשטותן של הרשתות השונות החלו מתגלעות בעיות תאימות, שכן רשתות רבות נבנו לפי טכנולוגיות ומפרטים בלתי־תואמים, כך שככל שהפיתוח הואץ, כך קטנה יכולתן של רשתות בבעלות ספקים שונים לתקשר ביניהן. בעקבות הקשיים, עלתה הקריאה לקביעתו של תקן משותף, לפיו יבנו הרשתות של הספקים השונים. את התקן פרסם ארגון התקינה הבינלאומי ב־1984.
+
+== המבנה ==
+מודל ה-OSI מורכב משבע שכבות. התפקיד של כל שכבה הוא לעטוף את המידע שנוצר על ידי השכבות שמעליה, על מנת שיהיה ניתן להעביר אותו לצד השני של ההתקשרות. לאחר שמידע נשלח לצד השני, יש צורך לקלף את השכבות השונות על מנת להגיע חזרה למידע המקורי. על מנת שהצד המקבל יוכל להבין את המידע המתקבל ולקלף את השכבות הללו, שני הצדדים עובדים בדרך כלל ע"פ פרוטוקול מוסכם.
+
+=== השכבות במודל ===
+להלן טבלה המציגה את השכבות השונות של המודל:
+<table border=1>
+<tr>
+<td>#</td>
+<td>שם</td>
+<td>בעברית</td>
+<td>תפקיד</td>
+<td>פרוטוקולים</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Application</td>
+<td>ישום</td>
+<td>תקשורת עם המשתמש</td>
+<td>HTTP, FTP, DNS , SMTP</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Presentation </td>
+<td>הצגה</td>
+<td>קידוד ודחיסה</td>
+<td>MIME, ASCII</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Session</td>
+<td>שיחה</td>
+<td>אפשור קיום השיחה, בקרת דו-שיח, בקרת אסימון</td>
+<td>SSL </td>
+</tr>
+<tr>
+<td>4</td>
+<td>Transport</td>
+<td>תעבורה</td>
+<td>העברת מידע בין שני המשוחחים, אמינות</td>
+<td>TCP, UDP, SPX</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Network</td>
+<td>רשת</td>
+<td>העברת הנתונים ברשת מקצה לקצה - ניתוב</td>
+<td>IP, IPX, RIP</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Data Link</td>
+<td>קו</td>
+<td>העברת נתונים מנקודה לנקודה למרות הפרעות</td>
+<td>Ethernet</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Physical</td>
+<td>פיזית</td>
+<td>העברת אותות, הגדרת מתחים, הגדרת חיבורים</td>
+<td>802.11x WiFi, 10Base-T, DSL</td>
+</tr>
+</table>
+
+משפט באנגלית המקל על זכירת השכבות הוא:
+'''A'''ll '''P'''eople '''S'''eem '''T'''o '''N'''eed '''D'''ata '''P'''rocessing
+
+===תהליך יצירת שיחה===
+# המשתמש פועל בעזרת שכבת הישום (לדוגמה מקיש שם של אתר אינטרנט בשורת הכתובות בדפדפן)
+# שכבת הישום מורידה את המידע לשכבת ההצגה - שהופכת את המידע למידע מיוצג בשיטת יצוג, לעתים דוחסת אותו ולעתים מקודדת אותו. לדוגמה, שכבה זו מקודדת את כתובת האתר שהוקשה בדפדפן האינטרנט בקידוד ASCII. 
+# שכבת ההצגה מעבירה את היצוג של פעולת המשתמש לשכבת השיחה, שכבת השיחה קובעת מתי ניתן לפנות בבקשה לשכבות התחתונות לצורך העברת מידע הלאה. בדוגמת שם אתר בדפדפן, יפעל ברמה זו שירות ה-DNS, אשר יתרגם את שם האתר לכתובת בשכבת הרשת.
+# מכאן יורד המידע לשכבת התעבורה, השכבה שולחת את המידע על פי פרוטוקול השיחה. השכבה אחראית על יצור שיחה (לחיצת יד).
+# שכבת הרשת אחראית על הדרך שהמידע יעבור עד להגעתו ליעדו. את היעד היא מקבלת מהשכבות העליונות. בדוגמה של פנייה לשרת DNS שכבת הרשת תייצר הודעה שיעדה הוא שרת ה-DNS.
+# שכבת הקו אחראית להעביר את אוסף הסביות שהתקבלו משכבת הרשת לנקודה הבאה - בדרכו של המידע ליעדו. השכבה תעביר לשכבה הפיזית סביות שיגרמו למידע להיקרא על ידי צומת התקשורת הבא בדרך לשרת.
+# השכבה הפיזית מתרגמת מידע סיביות למתחים חשמליים או אותות אופטיים למשל, ומשדרת את המידע על קו מוגדר.
+
+Als '''OSI-Modell''' (auch ''ISO-OSI-Schichtmodell, OSI-Referenzmodell''; engl. ''Open Systems Interconnection Reference Model'') wird ein Internationalen Standardisierungsorganisation (ISO) bezeichnet. Es wurde als Designgrundlage von Kommunikationsprotokollen entwickelt.
+
+Die Aufgaben der Kommunikation wurden dazu in sieben aufeinander aufbauende Schichten (''layer'') unterteilt. Für jede Schicht existiert eine Beschreibung, was diese zu leisten hat. Diese Anforderungen müssen von den Kommunikationsprotokollen realisiert werden. Die konkrete Umsetzung wird dabei nicht vorgegeben und kann daher sehr unterschiedlich sein. Somit existieren mittlerweile für jede Schicht zahlreiche solcher Protokolle. 
+
+Standardisiert ist das Modell seit Internationalen Organisation für Normung (ISO). Die Entwicklung begann aber bereits 1979.
+
+== Motivation ==
+
+thumb|400px|right|Kommunikation im OSI-Modell am Beispiel der Schichten 3 - 5
+In einem Computernetz werden den verschiedenen Hosts Dienste unterschiedlichster Art bereitgestellt und zwar von den anderen Teilnehmern im Netz. Die dazu erforderliche Kommunikation ist nicht so trivial, wie es auf den ersten Blick scheint, denn es müssen eine Vielzahl von Aufgaben bewältigt und Anforderungen bezüglich Zuverlässigkeit, Sicherheit, Effizienz etc. erfüllt werden. Die Probleme, die dabei gelöst werden müssen, reichen von Fragen der elektronischen Übertragung der Signale über eine geregelte Reihenfolge in der Kommunikation bis hin zu abstrakteren Aufgaben, die sich innerhalb der kommunizierenden Anwendungen ergeben. 
+
+Aufgrund der Vielzahl von Problemen und Aufgaben hat man sich entschieden, diese in verschiedene Ebenen (''Schichten'') aufzuteilen. Beim OSI-Modell sind es sieben Schichten mit festgelegten Anforderungen. Auf jeder einzelnen Schicht setzt jeweils eine ''Instanz'' die Anforderungen um.
+
+Die Instanzen auf Sender- und Empfängerseite müssen nach festgelegten Regeln arbeiten, damit sie sich einig sind, wie die Daten zu verarbeiten sind. Die Festlegung dieser Regeln wird in einem Protokoll beschrieben und bildet eine logische, ''horizontale'' Verbindung zwischen zwei Instanzen derselben Schicht.
+
+Jede Instanz stellt ''Dienste'' zur Verfügung, die eine direkt darüberliegende Instanz nutzen kann. Zur Erbringung der Dienstleistung bedient sich eine Instanz selbst der Dienste der unmittelbar darunterliegenden Instanz. Der reale Datenfluss erfolgt daher ''vertikal''. Die Instanzen einer Schicht sind austauschbar, sofern sie sowohl beim Sender als auch beim Empfänger ausgetauscht werden.
+
+== Die 7 Ebenen ==
+
+Der Abstraktionsgrad der Funktionalität nimmt von Schicht 7 bis Schicht 1 ab.
+ 
+'''Das OSI-Modell im Überblick''' (siehe im Vergleich dazu das TCP/IP-Referenzmodell):
+{| class="prettytable" 
+|-----
+! colspan="2" | OSI-Schicht
+! Einordnung
+! Standard
+!  DoD-Schicht
+! Einordnung
+! Protokollbeispiel
+! Einheiten
+! Kopplungselemente
+|-----
+| align="center" bgcolor="#ffff99" | 7
+| align="center" bgcolor="#ffff99" | Anwendung<br />(Application)
+| align="center" rowspan="3" bgcolor="#ffff99" | Anwendungs-<br />orientiert
+| align="center" bgcolor="#ffff99" | FTAM 
+| rowspan="3" align="center" bgcolor="#ffcc99" | Anwendung
+| rowspan="4" align="center" bgcolor="#ffcc99" | Ende zu<br />Ende<br />(Multihop)
+| rowspan="3" align="center" bgcolor="#ffcc99" | HTTP<br />FTP<br /> HTTPS<br /> SMTP <br />LDAP<br />NCP
+| align="center" rowspan="3" bgcolor="#ffcc99" | Daten
+| align="center" rowspan="4" bgcolor="#ffcc99" | Layer 4-7 Switch, Content-Switch, Gateway
+|-----
+| align="center" bgcolor="#ffff99" | 6
+| align="center" bgcolor="#ffff99" | Darstellung<br />(Presentation)
+| align="center" bgcolor="#ffff99" | ASN.1
+|-----
+| align="center" bgcolor="#ffff99" | 5
+| align="center" bgcolor="#ffff99" | Sitzung<br />(Session)
+| align="center" bgcolor="#ffff99" | ISO 8326
+|-----
+| align="center" bgcolor="#ffff99" | 4
+| align="center" bgcolor="#ffff99" | Transport<br />(Transport)
+| align="center" rowspan="4" bgcolor="#ffff99" | Transport-<br />orientiert
+| align="center" bgcolor="#ffff99" | ISO 8073
+| align="center" bgcolor="#ffcc99" | Transport
+| align="center" bgcolor="#ffcc99" | TCP<br />UDP<br /> SCTP<br />SPX
+| align="center" bgcolor="#ffcc99" | Segmente
+|-----
+| align="center" bgcolor="#ffff99" | 3
+| align="center" bgcolor="#ffff99" | Vermittlung<br />(Network)
+| align="center" bgcolor="#ffff99" | CLNP
+| align="center" bgcolor="#ffcc99" | Internet
+| rowspan="3" align="center" bgcolor="#ffcc99" | Punkt zu<br />Punkt
+| align="center" bgcolor="#ffcc99" | ICMP<br />IGMP <br /> IP <br /> IPX
+| align="center" bgcolor="#ffcc99" | Pakete
+| align="center" bgcolor="#ffcc99" | Router, Layer-3 Switch
+|-----
+| align="center" bgcolor="#ffff99" | 2
+| align="center" bgcolor="#ffff99" | Sicherung<br />(Data Link)
+| align="center" bgcolor="#ffff99" | HDLC
+| rowspan="2" align="center" bgcolor="#ffcc99" | Netzzugang <br />
+| rowspan="2" align="center" bgcolor="#ffcc99" | FDDI <br /> ARCNET
+| align="center" bgcolor="#ffcc99" | Rahmen (Frames)
+| align="center" bgcolor="#ffcc99" | Switch, Bridge
+|-----
+| align="center" bgcolor="#ffff99" | 1
+| align="center" bgcolor="#ffff99" | Bitübertragung<br />(Physical)
+| align="center" bgcolor="#ffff99" | Token Bus
+| align="center" bgcolor="#ffcc99" | Bits
+| align="center" bgcolor="#ffcc99" | Hub, Repeater
+|}
+
+thumb|800px|center|Kommunikation im OSI-Modell
+
+=== Schicht 7 – Anwendungsschicht ===
+(engl. ''application layer'', auch: Verarbeitungsschicht, Anwenderebene) Die Verarbeitungsschicht ist die oberste der sieben hierarchischen Schichten. Sie stellt den Anwendungen eine Vielzahl an Funktionalitäten zur Verfügung (zum Beispiel Datenübertragung, E-Mail, Virtual Terminal, Remote login etc.). Der eigentliche Anwendungsprozess liegt oberhalb der Schicht und wird nicht vom OSI-Modell erfasst.
+
+Hardware auf dieser Schicht: Gateway
+
+Protokolle und Normen: MMS), FTP, NFS, Telnet, SMTP, HTTP, LDAP
+
+=== Schicht 6 – Darstellungsschicht ===
+(engl. ''presentation layer'', auch: Datendarstellungsschicht, Datenbereitstellungsebene) Die Darstellungsschicht setzt die systemabhängige Darstellung der Daten (zum Beispiel Verschlüsselung gehören zur Schicht 6. Die Darstellungsschicht gewährleistet, dass Daten, die von der Anwendungsschicht eines Systems gesendet werden, von der Anwendungsschicht eines anderen Systems gelesen werden können. Falls erforderlich, agiert die Darstellungsschicht als Übersetzer zwischen verschiedenen Datenformaten, indem sie ein für beide Systeme verständliches Datenformat, die ASN.1 (Abstract Syntax Notation One ), verwendet.
+
+Protokolle und Normen: ISO 8822 / X.216 (Presentation Service), ISO 8823 / X.226 (Connection-Oriented Presentation Protocol), ISO 9576 (Connectionless Presentation Protocol)
+
+=== Schicht 5 – Sitzungsschicht ===
+(engl. ''session layer'', auch: Kommunikationssteuerungsschicht, Steuerung logischer Verbindungen, Sitzungsebene) 
+Die Schicht 5 sorgt für die Prozesskommunikation zwischen zwei Systemen. Hier findet sich unter anderem das Protokoll RPC (Remote Procedure Call).
+Um Zusammenbrüche der Sitzung und ähnliche Probleme zu beheben, stellt die Sitzungsschicht Dienste für einen organisierten und synchronisierten Datenaustausch zur Verfügung. Zu diesem Zweck werden Wiederaufsetzpunkte, so genannte Fixpunkte (Check Points) eingeführt, an denen die Sitzung nach einem Ausfall einer Transportverbindung wieder synchronisiert werden kann, ohne dass die Übertragung wieder von vorne beginnen muss.
+
+Protokolle und Normen: ISO 8306 / X.215 (Session Service), ISO 8327 / X.225 (Connection-Oriented Session Protocol), ISO 9548 (Connectionless Session Protocol)
+
+=== Schicht 4 – Transportschicht ===
+(engl. ''transport layer'', auch: Ende-zu-Ende-Kontrolle, Transport-Kontrolle) Zu den Aufgaben der Transportschicht zählen die Segmentierung von Datenpaketen und die Stauvermeidung (engl. ''congestion avoidance''). Die Transportschicht ist die unterste Schicht, die eine vollständige Ende-zu-Ende Kommunikation zwischen Sender und Empfänger zur Verfügung stellt. Sie bietet den anwendungsorientierten Schichten 5-7 einen einheitlichen Zugriff, sodass diese die Eigenschaften des Kommunikationsnetzes nicht zu berücksichtigen brauchen. 
+
+Fünf verschiedene Dienstklassen unterschiedlicher Güte sind in Schicht 4 definiert und können von den oberen Schichten benutzt werden, vom einfachsten bis zum komfortabelsten Dienst mit Multiplexmechanismen, Fehlersicherungs- und Fehlerbehebungsverfahren.
+
+Protokolle und Normen: ISO 8073/X.224, ISO 8602, TCP, UDP, SCTP
+
+=== Schicht 3 – Vermittlungsschicht ===
+(engl. ''network layer'', auch: Paketebene) Die Vermittlungsschicht sorgt bei leitungsorientierten Diensten für das Schalten von Verbindungen und bei paketorientierten Diensten für die Weitervermittlung von Datenpaketen. Die Datenübertragung geht in beiden Fällen jeweils über das gesamte Kommunikationsnetz hinweg und schließt die Wegesuche (Pakete von Knoten, die auf dem Weg liegen, weitergeleitet werden. Weitervermittelte Pakete gelangen nicht in die höheren Schichten, sondern werden mit einem neuen Zwischenziel versehen und an den nächsten Knoten gesendet.
+
+Zu den wichtigsten Aufgaben der Vermittlungsschicht zählen der Aufbau und die Aktualisierung von Netzadressen gehören zu dieser Schicht. Da ein Kommunikationsnetz aus mehreren Teilnetzen unterschiedlicher Technologien bestehen kann, sind in dieser Schicht auch die Umsetzungsfunktionen angesiedelt, die für eine Weiterleitung zwischen den Teilnetzen notwendig sind.
+
+Hardware auf dieser Schicht: Switch (BRouter)
+
+Protokolle und Normen: IP, IPsec, ICMP
+
+=== Schicht 2 – Sicherungsschicht ===
+(engl. ''data link layer'', auch: Abschnittssicherungsschicht, Verbindungssicherungsschicht, Verbindungsebene, Prozedurebene) Aufgabe der Sicherungsschicht ist es, eine zuverlässige, das heißt weitgehend fehlerfreie Übertragung zu gewährleisten und den Zugriff auf das Übertragungsmedium zu regeln. Dazu dient das Aufteilen des Bitdatenstromes in Blöcke und das Hinzufügen von Folgenummern und Prüfsummen. Fehlerhafte, verfälschte oder verloren gegangene Blöcke können vom Empfänger durch Quittungs- und Wiederholungsmechanismen erneut angefordert werden. Die Blöcke werden auch als Frames oder Rahmen bezeichnet.
+
+Eine so genannte lokale Netze auch den konkurrierenden Zugriff auf ein Übertragungsmedium zu regeln, was im OSI-Modell nicht vorgesehen ist.
+
+Nach IEEE ist Layer 2 in zwei Sub-Layers unterteilt: LLC (Logical Link Control) und MAC (Media Access Control).
+
+Hardware auf dieser Schicht: Bridge, Switch (Multiport-Bridge)
+
+Protokolle und Normen im Sub-Layer LLC: SDLC, LLC),  ARP,  RARP,  STP

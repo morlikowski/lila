@@ -1,0 +1,25 @@
+A process by which the genetic information of an organism is changed in a stable manner, either in nature or experimentally by the use of chemicals or radiation.
+
+==Types Of Mutation==
+The following are the types of Mutagenesis:
+*PCR Mutagenesis
+*Transposon Mutagenesis
+*Site-directed mutagenesis
+*Directed mutagenesis
+*Insertional mutagenesis
+*Targeted mutagenesis
+
+===PCR Mutagenesis===
+
+'''PCR mutagenesis''' is simple method for generating ''Site-directed mutagenesis''. This method can generate mutations (base substitutions, insertions, and deletions) from double-stranded plasmid without the need for subcloning into M13-based bacteriophage vectors and for ssDNA rescue. The procedure involves a PCR reaction using a supercoiled plasmid vector as the template and two synthetic oligonucleotide primers containing the desired mutation with each complementary to the opposite strands of the vector. After PCR, the template (wild type) plasmid which is dam methylated in almost all E. coli is removed by digestion with Dpn I which is specific for methylated DNA. The mutated plasmid remains intact in the reaction.
+
+'''מוטגנזה מכוונת''' היא טכניקה בביולוגיה מולקולרית שבה מוטציה נגרמת באתר מוגדר במולקולת DNA.
+
+כשמשתמשים במוטגנזה מכוונת המידע הגנטי יכול לעבור שינויים. באופן כזה ניתן ליצור חומצות האמינו. באופן כללי, מוטגנזה מכוונת דורשת ידיעה של רצף ה'''גן''' בזן הבר. בהתאם לכך, מסנתזים כימית גדיל משלים לאתר בגנום שבו רוצים ליצור מוטציה. גדיל שנושא מוטציה. הגדיל מתחבר בעזרת זיווג בסיסים לגן המקורי. את המולקולה שנוצרת בתהליך מכניסים לתא חי, שיתחיל לבטא חלבון מוטנטי.
+
+== שימושים ==
+
+#ניתן ללמוד את פעולתו של חלבון על סמך השוואה בין זן הבר לבין התבטאות החלבון המוטנטי.
+#בדרך זו ניתן להנדס חלבונים. לדוגמה, להעלות את יכולת הצמח לקבע פחמן דו-חמצני בעזרת מוטציות מכוונות בחלבוני צמחים.
+
+בשנת 1993 זכה מייקל סמית' בפרס נובל לכימיה על המצאת המוטגנזה המכוונת.

@@ -1,0 +1,547 @@
+<includeonly></includeonly>
+<noinclude></noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+
+== Cara maké ==
+
+<div style="background:lavender;padding:7pt;margin:1px"> 
+*'''Penting''': Please enter all numeric values in a raw, unformatted fashion.  References are to be included in their respective section footnotes field.  Numeric values that are not "raw" may create an "Expression error". Raw values will be automatically formatted by the template.  If you find a raw value is not formatted in your usage of the template, please post a notice on the discussion page for this template.
+</div>
+*'''Sintaks kosong'''
+Pikeun patarosan, tingali kaca sawala.
+
+<pre><!-- Infobox begins -->
+{{Kotak_info_Kota
+|official_name          = 
+|other_name             =
+|native_name            =  <!-- for cities whose native name is not in English -->
+|nickname               = 
+|motto                  = 
+|image_skyline          = 
+|imagesize              = 
+|image_caption          = 
+|image_flag             = 
+|flag_size              =
+|image_seal             = 
+|seal_size              =
+|image_shield           = 
+|shield_size            =
+|city_logo              =
+|citylogo_size          =
+|image_map              = 
+|mapsize                = 
+|map_caption            = 
+|pushpin_map            = <!-- the name of a location map as per http://en.wikipedia.org/wiki/Template:Location_map -->
+|pushpin_label_position = <!-- the position of the pushpin label: left, right, top, bottom, none -->
+|subdivision_type       = <!--Country-->
+|subdivision_name       = <!--the name of the country-->
+|subdivision_type1      = 
+|subdivision_name1      = 
+|subdivision_type2      = 
+|subdivision_name2      = 
+|subdivision_type3      = 
+|subdivision_name3      = 
+|subdivision_type4      = 
+|subdivision_name4      = 
+|government_type        =
+|leader_title           =
+|leader_name            =
+|leader_title1          =  <!-- for places with, say, both a mayor and a city manager -->
+|leader_name1           =
+|leader_title2          =
+|leader_name2           =
+|leader_title3          =
+|leader_name3           =
+|leader_title4          =
+|leader_name4           =
+|established_title      =  <!-- Settled -->
+|established_date       = 
+|established_title2     =  <!-- Incorporated (town) -->
+|established_date2      = 
+|established_title3     =  <!-- Incorporated (city) -->
+|established_date3      = 
+|area_magnitude         = 
+|unit_pref              = <!--Enter: Imperial, if Imperial (metric) is desired-->
+|area_footnotes         =
+|area_total             = 
+|area_land              = 
+|area_water             = 
+|TotalArea_sq_mi        = 
+|LandArea_sq_mi         = 
+|WaterArea_sq_mi        = 
+|area_water_percent     = 
+|area_urban             = 
+|UrbanArea_sq_mi        = 
+|area_metro             = 
+|MetroArea_sq_mi        = 
+|population_as_of       = 
+|population_footnotes   =
+|population_note        = 
+|settlement_type        = <!--For Town or Village (Leave blank for the default City)-->
+|population_total       = 
+|population_density     = 
+|population_density_mi2 = 
+|population_metro       =
+|population_density_metro_km2 =
+|population_density_metro_mi2 =
+|population_urban       = 
+|population_density_urban_km2 =
+|population_density_urban_mi2 =
+|timezone               = 
+|utc_offset             = 
+|timezone_DST           = 
+|utc_offset_DST         = 
+|latd= |latm= |lats= |latNS=
+|longd= |longm= |longs= |longEW=
+|elevation_footnotes    =  <!--for references: use <ref> </ref> tags-->
+|elevation              = 
+|elevation_ft           = 
+|postal_code_type       =  <!-- enter ZIP code, Postcode, Post code, Postal code... -->
+|postal_code            =
+|area_code              =
+|website                = 
+|footnotes              = 
+}} <!-- Infobox ends -->
+</pre>
+</div>
+
+==NLD==
+===Kategorisasi UTC===
+:'''Q.: How do you plan to deal with the problem that several countries change Daylight Savings Time (DST) at different times? And, some countries don't even use DST!'''
+::'''A.:''' That is correct some countries don't even use DST. There really is no problem here except for perhaps on how wikipedians interpret the two different UTC and DST UTC category names. Some wikipedians may be confused with the wording of the category. For example "Cities in the UTC-5 timezone" may imply that a city such as Ottawa should currently be within UTC-5, when in fact Ottawa could be observing DST. The misconception is that perhaps these categories should reflect the "current status" of these cities. (See WP:CCT for such a project) This is not at all the case and is not necessary. The categories reflect the idea that such cities, at any given time, (generally determined by there country) can and may be observing the UTC timezone to which they have been categorized. Though this is clarified within the wikipedia article on UTC and DST this must and will be stated and clarified at the top of every UTC and DST UTC city category. Note: From the "second Sunday in March" Ottawa and all cities in North America begins to observe DST.[http://inms-ienm.nrc-cnrc.gc.ca/time_services/daylight_saving_e.html] Issues on implementing a current city time are being discussed at WP:CCT.  
+
+:'''Q.: The category for a city, which is a UTC+ area, doesn't display properly. It says  instead of . How can I fix this?'''
+::'''A.:''' This problem occured with the city  at the end of the utc_offset ([http://en.wikipedia.org/w/index.php?title=Algiers&diff=110929419&oldid=110596606 See Algiers example]) and the utc_offset_DST = +3 |.([http://en.wikipedia.org/w/index.php?title=Cairo&diff=110927382&oldid=110874514 See Cairo example]) This problem is caused by some cities which utilize the infobox template with some extra spaces. The two afformentioned cities have spaces inbetween the | and "sub-parser category". (Example:"| official_name = Cairo/Ciaro") Furthermore, if you take a look at the [[Gothenburg article there is no problem in displaying the UTC+ category. This is because there are no spaces inbetween | and the "offical_name" or any of the | and "sub-parser categories". (Example:"|official_name          = Gothenburg")
+
+:'''Q.: What is the use of having articles that utilize this infobox city template automatically categorize cities within their respective UTC and DST UTC category?'''
+::'''A.:''' Currently the only way to know what articles utilize this template is to click the [http://en.wikipedia.org/w/index.php?title=Special:Whatlinkshere&target=Template:Infobox_City what links here]. The what links here is a good tool but it is a far cry from the ability of categories. One advantage is the ability to add a [http://bugzilla.wikimedia.org/show_bug.cgi?id=1502 table of contents]. To see the full advantages and possibilities of categories WP:Kategori.
+
+<table class="infobox geography" style="width: 23em; border: 1px #aaaaaa solid">
+	<tr>
+		<td colspan="2" align="center" style="width:100%; font-size: 1.25em; white-space: nowrap; border: 1px #aaaaaa solid">'''}}|<br>(})}}}|<br>}}}'''</td>
+	</tr>
+<!-- ***** Skyline Image ***** -->
+}|
+	<tr>
+		<td colspan="2" style="text-align: center; padding: 0.7em 0.8em 0.7em 0.8em;;">
+			}|}|250px}}|none|}}|<small>}</small>}}
+		</td>
+	</tr>
+}}<!-- ***** Flag, Seal, Shield and Coat of arms ***** -->
+}}}}| 
+	<tr class="mergedtoprow">
+		<td class="maptable" colspan="2" align="center" style="padding: 0.4em 0.8em 0.4em 0.8em;">
+			<table style="width: 100%; background: none;" align="center">
+}|1|0}}+}|1|0}}+}|1|0}}+}|1|0}}}}|2|
+             <tr> <td style="vertical-align: middle;" align="center"> }|}|}|100px}}|Virallinen lippu<br><small>'''Lippu'''</small> |}|}|}|100px}}|Vaakuna<br><small>'''Vaakuna'''</small> |}|}|}|100px}}<br><small>'''Vaakuna'''</small>|}|}|}|100px}}|Official logo of }<br><small>'''Logo'''</small>}}}}}}}}</td>
+            <td style="vertical-align: middle;" align="center"> }|}|}|100px}}|Logo<br><small>'''Logo'''</small> |}|}|}|100px}}|Vaakuna<br><small>'''Vaakuna'''</small> |}|}|}|100px}}|Vaakuna<br><small>'''Vaakuna'''</small> |}|}|}|100px}}|Lippu<br><small>'''Lippu'''</small>}}}}}}}}</td>
+|}}|
+				<tr>}|
+					<td style="vertical-align: middle;" align="center" }| |colspan="2"}}> }|}|100px}}<br><small>'''Lippu'''</small></td>}}}|
+					<td style="vertical-align: middle;" align="center" }| |colspan="2"}}> }|}|100px}}<br><small>'''Vaakuna'''</small></td>}}
+				</tr>
+}}}}|
+				<tr>}|
+					<td style="vertical-align: middle;" align="center" }| |colspan="2"}}> }|}|100px}}<br><small>'''Vaakuna'''</small></td>}}}|
+					<td style="vertical-align: middle;" align="center" }| |colspan="2"}}> }|}|100px}}<br><small>'''Logo'''</small></td>}}
+				</tr>
+}}}}
+			</table>
+		</td>
+	</tr>
+}}<!-- ***** lempinimi ***** -->
+}|
+	<tr class="mergedrow">
+		<td colspan="2" align="center">Lempinimi: ''}''</td>
+	</tr>
+}}<!-- ***** Motto ***** -->
+}|
+	<tr class="mergedrow">
+		<td colspan="2" align="center">Motto: }</td>
+	</tr>
+}}<!-- ***** Kartta ***** -->
+}|
+	<tr class="mergedrow">
+		<td colspan="2" style="text-align: center;">}|}|250px}}|none|}}}}}|<small>}</small>}}
+		</td>
+	</tr>
+}}<!-- ***** Pushpin Map ***** -->
+}|
+	<tr class="mergedrow">
+		<td colspan="2" align="center">
+}
+|label = } }} | none | | } }}
+|lat = } }} | s=}+}/60+}|}/360|0}})}} | n=}+}/60+}|}/360|0}})}} }}   
+|long = } }} | w=}+}/60+}|}/360|0}})}} | e=}+}/60+}|}/360|0}})}} }}
+|float = none
+|caption =
+|position = } | } | right }}
+|width = } | } | 250 }}
+}}}|<small>}</small> }}
+		</td>
+	</tr>
+}}<!-- ***** Koordinaatit ***** -->
+}|
+<tr class="mergedbottomrow">
+	<th colspan="2" style="text-align: center; font-size: smaller; padding-bottom: 0.7em;">Koordinaatit: }
+| }|}|}|}|}|}|}|}|type:city}}
+| }|}|}|}|}|}|type:city}}}}</th>
+</tr>
+}}<!-- ***** Aluetyypit ***** -->
+}|
+	<tr class="mergedtoprow">
+		<th>}
+		<th>}
+	</tr>
+}}}|
+	<tr class="mergedrow">
+		<th>}
+		<th>}
+	</tr>
+}}}|
+	<tr class="mergedrow">
+		<th>}
+		<th>}
+	</tr>
+}}}|
+	<tr class="mergedrow">
+		<th>}
+		<th>}
+	</tr>
+}}}|
+	<tr class="mergedrow">
+		<th>}
+		<th>}
+	</tr>
+}}<!--***** Perustettu *****-->
+}|
+	<tr class="mergedrow">
+		<th>}</th>
+		<td>}</td>
+	</tr>
+}}}|
+	<tr class="mergedrow">
+		<th>}</th>
+		<td>}</td>
+	</tr>
+}}}|
+	<tr class="mergedrow">
+		<th>}</th>
+		<td>}</td>
+	</tr>
+}}<!-- ***** Hallinnon tyyppi ja johtajat ***** -->
+}|
+	<tr class="mergedrow">
+		<th>Hallinnon tyyppi</th>
+		<td>}</td>
+	</tr>
+}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;}
+		<td>}</td>
+	</tr>
+}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;}
+		<td>}</td>
+	</tr>
+}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;}
+		<td>}</td>
+	</tr>
+}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;}
+		<td>}</td>
+	</tr>
+}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;}
+		<td>}</td>
+	</tr>
+}} }} }} }} }}<!-- ***** Geographical characteristics ***** -->
+}}}}}}}}}}|
+	<tr <!-- ***** Pinta-ala ***** --> class="mergedtoprow">
+		<th>Pinta-ala }|}}}</th><td>&nbsp;</td>
+	</tr>
+	<tr class="mergedrow">
+		<th> &nbsp;-&nbsp;}|}|Kaupunki}}
+		</th>
+		<td>}|[[United Kingdom|United States of America|United States|United Kingdom|[[United States|United States of America=
+} |<!--THEN-->&nbsp;} }}&nbsp;mi² 
+(}|}|}|} * 2.589988110336 round 1}} }} }} km²|}|}|} * 2.589988110336 round 1}} }} }} km²}})
+|<!--OR ELSE-->} div 2.589988110336 round 1}} }}&nbsp;mi²&nbsp;(}|}|}|} * 2.589988110336 round 1}} }} }}  km²|}|}|} * 2.589988110336 round 1}} }} }}  km²}}) }}
+|<!--SN OR ELSE use unit_pref way-->}|Imperial|English|UK|US|U.S.|US Customary|U.S. Customary|Standard|imperial|english=
+} |<!--THEN-->&nbsp;} }}&nbsp;mi²&nbsp;(}|}|}|} * 2.589988110336 round 1}} }} }} km²|}|}|} * 2.589988110336 round 1}} }} }} km²}})
+|<!--OR ELSE-->} div 2.589988110336 round 1}} }}&nbsp;mi²&nbsp;(}|}|}|} * 2.589988110336 round 1}} }} }}  km²|}|}|} * 2.589988110336 round 1}} }} }} km²}}) }}
+|Metric|SI<!--If unit pref Metric then show-->=
+}|}|}|} * 2.589988110336 round 1}} }} }} km²|}|}|} * 2.589988110336 round 1}} }} }} km²}} } |&nbsp;(}}}&nbsp;sq&nbsp;mi)|&nbsp;(} div 2.589988110336 round 1}} }}&nbsp;mi²) }}
+|<!--If unit pref BLANK then Metric by default-->=
+}|}|}|} * 2.589988110336 round 1}} }} }} km²|}|}|} * 2.589988110336 round 1}} }} }} km²}} } |&nbsp;(}}}&nbsp;mi²)|&nbsp;(} div 2.589988110336 round 1}} }}&nbsp;mi²) }} }} }}</td>
+	</tr>
+}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;Maa</th>
+		<td>}|[[United Kingdom|United States|United Kingdom|United States of America|[[United States|United States of America=
+} |<!--THEN-->&nbsp;} }}&nbsp;sq&nbsp;mi&nbsp;(}|}|} * 2.589988110336 round 1}} }} }}&nbsp;km²)
+|<!--OR ELSE-->} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi&nbsp;(}|}|} * 2.589988110336 round 1}} }} }}&nbsp;km²) }} 
+|<!--IF NOT SN Then use unit pref method-->
+}|Imperial|English|UK|US|U.S.|US Customary|U.S. Customary|Standard|imperial|english=
+} |<!--THEN-->&nbsp;} }}&nbsp;sq&nbsp;mi&nbsp;(}|}|} * 2.589988110336 round 1}} }} }}&nbsp;km²)
+|<!--OR ELSE-->} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi&nbsp;(}|}|} * 2.589988110336 round 1}} }} }}&nbsp;km²) }}
+|Metric|SI<!--If unit pref Metric then show-->=
+}|}|} * 2.589988110336 round 1}} }} }}&nbsp;km²&nbsp;(} |<!--THEN-->} }}&nbsp;sq&nbsp;mi|} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi}})
+|<!--If unit pref BLANK then Metric by default-->=
+}|}|} * 2.589988110336 round 1}} }} }}&nbsp;km²&nbsp;(} |<!--THEN-->} }}&nbsp;sq&nbsp;mi|} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi}})
+}} }} 
+</td>
+	</tr>
+}}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;- Vesi</th>
+		<td>}|[[United Kingdom|United States|United Kingdom|United States of America|[[United States|United States of America=
+} |<!--THEN-->&nbsp;} }}&nbsp;sq&nbsp;mi&nbsp;(}|}|} * 2.589988110336 round 1}} }} }}&nbsp;km²)
+|<!--OR ELSE-->} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi&nbsp;(}|}|} * 2.589988110336 round 1}} }} }}&nbsp;km²) }} 
+|<!--IF NOT SN Then use unit pref method-->
+}|Imperial|English|UK|US|U.S.|US Customary|U.S. Customary|Standard|imperial|english=
+} |<!--THEN-->&nbsp;} }}&nbsp;sq&nbsp;mi&nbsp;(}|}|} * 2.589988110336 round 1}} }} }}&nbsp;km²)
+|<!--OR ELSE-->} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi&nbsp;(}|}|} * 2.589988110336 round 1}} }} }}&nbsp;km²) }}
+|Metric|SI<!--If unit pref Metric then show-->=
+}|}|} * 2.589988110336 round 1}} }} }}&nbsp;km²&nbsp;(} |<!--THEN-->} }}&nbsp;sq&nbsp;mi|} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi}})
+|<!--If unit pref BLANK then Metric by default-->=
+}|}|} * 2.589988110336 round 1}} }} }}&nbsp;km²&nbsp;(} |<!--THEN-->} }}&nbsp;sq&nbsp;mi|} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi}})
+}} }} }| &nbsp;}%}}</td>
+	</tr>
+}}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;- Urban</th>
+		<td>}|[[United Kingdom|United States|United Kingdom|United States of America|[[United States|United States of America=
+} |<!--THEN-->&nbsp;} }}&nbsp;sq&nbsp;mi&nbsp;(}|}|} * 2.589988110336 round 1}} }} }}&nbsp;km²)
+|<!--OR ELSE-->} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi&nbsp;(}|}|} * 2.589988110336 round 1}} }} }}&nbsp;km²) }} 
+|<!--IF NOT SN Then use unit pref method-->
+}|Imperial|English|UK|US|U.S.|US Customary|U.S. Customary|Standard|imperial|english=
+} |<!--THEN-->&nbsp;} }}&nbsp;sq&nbsp;mi&nbsp;(}|}|} * 2.589988110336 round 1}} }} }}&nbsp;km²)
+|<!--OR ELSE-->} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi&nbsp;(}|}|} * 2.589988110336 round 1}} }} }}&nbsp;km²) }}
+|Metric|SI<!--If unit pref Metric then show-->=
+}|}|} * 2.589988110336 round 1}} }} }}&nbsp;km²&nbsp;(} |<!--THEN-->} }}&nbsp;sq&nbsp;mi|} div 2.589988110336 round 1}} }}mi²}})
+|<!--If unit pref BLANK then Metric by default-->=
+}|}|} * 2.589988110336 round 1}} }} }}&nbsp;km²&nbsp;(} |<!--THEN-->} }}&nbsp;sq&nbsp;mi|} div 2.589988110336 round 1}} }}mi²}})
+}} }}</td>
+	</tr>
+}}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;- Metro</th>
+		<td>}|[[United Kingdom|United States|United Kingdom|United States of America|[[United States|United States of America=
+} |<!--THEN-->&nbsp;} }}&nbsp;sq&nbsp;mi&nbsp;(}|}|} * 2.589988110336 round 1}} }} }}&nbsp;km²)
+|<!--OR ELSE-->} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi&nbsp;(}|}|} * 2.589988110336 round 1}} }} }}&nbsp;km²) }} 
+|<!--IF NOT SN Then use unit pref method-->
+}|Imperial|English|UK|US|U.S.|US Customary|U.S. Customary|Standard|imperial|english=
+} |<!--THEN-->&nbsp;} }}&nbsp;sq&nbsp;mi&nbsp;(}|}|} * 2.589988110336 round 1}} }} }}&nbsp;km²)
+|<!--OR ELSE-->} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi&nbsp;(}|}|} * 2.589988110336 round 1}} }} }}&nbsp;km²) }}
+|Metric|SI<!--If unit pref Metric then show-->=
+}|}|} * 2.589988110336 round 1}} }} }}&nbsp;km²&nbsp;(} |<!--THEN-->} }}&nbsp;sq&nbsp;mi|} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi}})
+|<!--If unit pref BLANK then Metric by default-->=
+}|}|} * 2.589988110336 round 1}} }} }}&nbsp;km²&nbsp;(} |<!--THEN-->} }}&nbsp;sq&nbsp;mi|} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi}})
+}} }}</td>
+	</tr>
+}} }}<!-- ***** Korkeus merenpinnasta ***** -->
+}|
+	<tr class="mergedrow">
+		<th>Korkeus</th>
+		<td>} m</td>
+	</tr>
+}}<!-- ***** Väkiluku ***** -->
+}}}|
+	<tr class="mergedtoprow">
+		<td colspan="2">'''Väkiluku''' }|(})}|}}}}}</th>
+	</tr>
+}|
+	<tr class="mergedrow">
+		<th>&nbsp;- }|}|Kaupunki}}</th>
+		<td>}}}</td>
+	</tr>
+}}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;- Tiheys</th>
+		<td>}|[[United Kingdom|United States|United Kingdom|United States of America|[[United States|United States of America=
+} |<!--THEN-->&nbsp;} }}/sq&nbsp;mi&nbsp;(}|}|} div 2.589988110336 round 1}} }} }}/km²)
+|<!--OR ELSE-->} * 2.589988110336 round 1}} }}/sq&nbsp;mi&nbsp;(}|}|} div 2.589988110336 round 1}} }} }}/km²) }} 
+|<!--IF NOT SN Then use unit pref method-->
+}|Imperial|English|UK|US|U.S.|US Customary|U.S. Customary|Standard|imperial|english=
+} |<!--THEN-->&nbsp;} }}/sq&nbsp;mi&nbsp;(}|}|} div 2.589988110336 round 1}} }} }}/km²)
+|<!--OR ELSE-->} * 2.589988110336 round 1}} }}/sq&nbsp;mi&nbsp;(}|}|} div 2.589988110336 round 1}} }} }}/km²) }}
+|Metric|SI<!--If unit pref Metric then show-->=
+}|}|} div 2.589988110336 round 1}} }} }}/km²&nbsp;(} |<!--THEN-->} }}/mi²|} * 2.589988110336 round 1}} }}/mi²}})
+|<!--If unit pref BLANK then Metric by default-->=
+}|}|} div 2.589988110336 round 1}} }} }}/km²&nbsp;(} |<!--THEN-->} }}/mi²|} * 2.589988110336 round 1}} }}/mi²}})
+}} }}</td>
+	</tr>
+}}}| 
+	<tr class="mergedrow">
+		<th>&nbsp;- Urban</th>
+		<td>}}}</td>
+	</tr>
+}}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;- Urban Density
+		<td>}|[[United Kingdom|United States|United Kingdom|United States of America|[[United States|United States of America=
+} |<!--THEN-->&nbsp;} }}/sq&nbsp;mi&nbsp;(}|}|} div 2.589988110336 round 1}} }} }}/km²)
+|<!--OR ELSE-->} * 2.589988110336 round 1}} }}/sq&nbsp;mi&nbsp;(}|}|} div 2.589988110336 round 1}} }} }}/km²) }} 
+|<!--IF NOT SN Then use unit pref method-->
+}|Imperial|English|UK|US|U.S.|US Customary|U.S. Customary|Standard|imperial|english=
+} |<!--THEN-->&nbsp;} }}/sq&nbsp;mi&nbsp;(}|}|} div 2.589988110336 round 1}} }} }}/km²)
+|<!--OR ELSE-->} * 2.589988110336 round 1}} }}/sq&nbsp;mi&nbsp;(}|}|} div 2.589988110336 round 1}} }} }}/km²) }}
+|Metric|SI<!--If unit pref Metric then show-->=
+}|}|} div 2.589988110336 round 1}} }} }}/km²&nbsp;(} |<!--THEN-->} }}/sq&nbsp;mi|} * 2.589988110336 round 1}} }}/sq&nbsp;mi}})
+|<!--If unit pref BLANK then Metric by default-->=
+}|}|} div 2.589988110336 round 1}} }} }}/km²&nbsp;(} |<!--THEN-->} }}/sq&nbsp;mi|} * 2.589988110336 round 1}} }}/sq&nbsp;mi}})
+}} }}</td>
+	</tr>
+}}}| 
+	<tr class="mergedrow">
+		<th>&nbsp;- Metro</th>
+		<td>}}}</td>
+	</tr>
+}}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;- Metropolin väestötiheys</th>
+		<td>}|[[United Kingdom|United States|United Kingdom|United States of America|[[United States|United States of America=
+} |<!--THEN-->&;;;nbsp;} }}/sq&nbsp;mi&nbsp;(}|}|} div 2.589988110336 round 1}} }} }}/km²)
+|<!--OR ELSE-->} * 2.589988110336 round 1}} }}/sq&nbsp;mi&nbsp;(}|}|} div 2.589988110336 round 1}} }} }}/km²) }} 
+|<!--IF NOT SN Then use unit pref method-->
+}|Imperial|English|UK|US|U.S.|US Customary|U.S. Customary|Standard|imperial|english=
+} |<!--THEN-->&nbsp;} }}/sq&nbsp;mi&nbsp;(}|}|} div 2.589988110336 round 1}} }} }}/km²)
+|<!--OR ELSE-->} * 2.589988110336 round 1}} }}/sq&nbsp;mi&nbsp;(}|}|} div 2.589988110336 round 1}} }} }}/km²) }}
+|Metric|SI<!--If unit pref Metric then show-->=
+}|}|} div 2.589988110336 round 1}} }} }}/km²&nbsp;(} |<!--THEN-->} }}/sq&nbsp;mi|} * 2.589988110336 round 1}} }}/sq&nbsp;mi}})
+|<!--If unit pref BLANK then Metric by default-->=
+}|}|} div 2.589988110336 round 1}} }} }}/km²&nbsp;(} |<!--THEN-->} }}/sq&nbsp;mi|} * 2.589988110336 round 1}} }}/sq&nbsp;mi}})
+}} }}</td>
+	</tr>
+}}}|
+	<tr class="mergedbottomrow">
+		<td>&nbsp;</td>
+		<td><small>}</small></td>
+	</tr>
+}} }}<!-- ***** Aikavyöhyke ***** -->
+}|
+	<tr class="mergedtoprow">
+		<th>Aikavyöhyke</th>
+		<td>UTC}
+	</tr>
+}|
+	<tr class="mergedbottomrow">
+		<th style="white-space: nowrap;">&nbsp;-&nbsp;(Kesäaika)</th>
+		<td>UTC}</td>
+	</tr>
+}} }}<!-- ***** Postinumero(t) ***** -->
+}|
+	<tr class="mergedtoprow">
+		<th>}</th>
+		<td>}</td>
+	</tr>
+}}<!-- ***** Suuntanumero(t) ***** -->
+}|
+	<tr class=";mergedrow">
+		<th>Suuntanumero(t)</th>
+		<td>}</td>
+	</tr>
+}}<!-- ***** Huomautukset ***** -->
+}|
+	<tr class="mergedrow">
+		<td colspan="2" align="center"><small>}</small></td>
+	</tr>
+}}<!-- ***** Kotisivu ***** -->
+}|
+	<tr class="mergedtoprow">
+		<td colspan="2" align="center">'''Sivusto:''' }
+	</tr>
+}}</table><noinclude>
+==Käyttö==
+Kopioi alla oleva teksti artikkeliin ja täytä tiedot yhtäläisyysmerkkien perään.
+
+Kentistä vain ''virallinen_nimi'' pakollinen, muut voi jättää tyhjiksi.
+
+Pushpin-kartan käytöstä katso esimerkki Cork. Pushpin map tarvitsee minimissään pushpin mapin nimen (katso -sivulta onko kyseisestä alueesta karttaa) ja koordinaatit latd, latm, lats, latNS (arvoltaan N tai S), longd, lonm, longs, longEW (arvoltaan E tai W). Pushpin_label_position on kaupungin virallisen nimen paikka (kirjoita kohtaan joko left, right, top tai bottom) punaisen pisteen vieressä, joka merkitsee kaupungin paikkaa.
+
+<pre>{{Kaupunki2
+| virallinen_nimi        = 
+| muu_nimi               = 
+| alkuperäinen_nimi      = <!-- kaupungeille, joiden alkuperäinen nimi ei ole suomenkielinen -->
+| lempinimi              = 
+| motto                  = 
+| kuva_taivaanranta      = 
+| kuvakoko               = 
+| kuvateksti             = 
+| kuva_lippu             = 
+| lippu_koko             = 
+| kuva_vaakuna           = 
+| vaakuna_koko           = 
+| kilpi_koko             = 
+| kaupungin_logo         = 
+| kaupungin_logon_koko   = 
+| kuva_kartta            = 
+| kartta_koko            = 
+| kartta_kuvateksti      = 
+| pushpin_map            = <!-- the name of a location map as per http://fi.wikipedia.org/wiki/Malline:Location_map -->
+| pushpin_label_position = <!-- the position of the pushpin label: left, right, top, bottom, none -->
+| aluetyyppi             = Valtio
+| alueen_nimi            = <!--Valtion nimi-->
+| aluetyyppi1            = 
+| alueen_nimi1           = 
+| aluetyyppi2            = 
+| alueen_nimi2           = 
+| aluetyyppi3            = 
+| alueen_nimi3           = 
+| aluetyyppi4            = 
+| alueen_nimi4           = 
+| hallinnon_tyyppi       = 
+| johtajan_arvonimi      = 
+| johtajan_nimi          = 
+| johtajan_arvonimi1     = <!-- paikoille, joissa useampi, esim. pormestari ja kaupunginjohtaja -->
+| johtajan_nimi1         = 
+| johtajan_arvonimi2     = 
+| johtajan_nimi2         = 
+| johtajan_arvonimi3     = 
+| johtajan_nimi3         = 
+| johtajan_arvonimi4     = 
+| johtajan_nimi4         = 
+| perustettu_nimeke      = <!-- esim. Perustettu -->
+| perustettu_päivämäärä  = 
+| perustettu_nimeke2     = <!-- Incorporated (town) -->
+| perustettu_päivämäärä2 = 
+| perustettu_nimeke3     = <!-- Incorporated (city) -->
+| perustettu_päivämäärä3 = 
+| pinta-ala_huom         = 
+| pinta-ala_yhteensä     = 
+| pinta-ala_maa          = 
+| pinta-ala_vesi         = 
+| pinta-ala_veden_osuus% = 
+| pinta-ala_metro        = 
+| väkiluku_vuosi         = 
+| väkiluku_huom          = 
+| asutustyyppi           = <!--kylälle tai pienemmälle asutukselle (kaupungin ollessa kyseessä jätä tyhjäksi)-->
+| väkiluku_yhteensä      = 
+| väestötiheys           = 
+| väkiluku_metropoli     = 
+| väestötiheys_metro     = 
+| aikavyöhyke            = 
+| utc_ero                = 
+| aikavyöhyke_kesäaika   = 
+| utc_ero_kesäaika       = 
+| latd                   = 
+| latm                   = 
+| lats                   = 
+| latNS                  = 
+| longd                  = 
+| longm                  = 
+| longs                  = 
+| longEW                 = 
+| korkeus_merenpinnasta  = 
+| postinumero_tyyppi     = <!-- ZIP code, Postcode, Post code, Postal code... tai vastaava suomeksi -->
+| postinumero            = 
+| suuntanumero           = 
+| kotisivu               = 
+| huomautukset           = 
+}}</pre>

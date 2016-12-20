@@ -1,0 +1,127 @@
+L' « '''effet papillon''' » est une expression qui résume une métaphore concernant le phénomène fondamental de sensibilité aux conditions initiales en théorie du chaos. 
+
+== Aspects historiques ==
+
+Le ''concept'' lui-même préexistait depuis très longtemps dans la sagesse des nations, à travers des proverbes comme ''petites causes, grands effets'', ou par des maximes comme celle de Benjamin Franklin :
+
+<pre>
+À cause du clou, le fer fut perdu
+À cause du fer, le cheval fut perdu.
+À cause du cheval, le cavalier fut perdu.
+À cause du cavalier, la bataille fut perdue.
+À cause de la bataille, la guerre fut perdue.
+À cause de la guerre, la liberté fut perdue.
+
+Tout cela pour un simple clou
+</pre>
+
+== Déterministes et théorie du chaos ==
+
+En 1972, le météorologue Lorenz fait une conférence à l'''American Association for the Advancement of Science'' intitulée<ref>Le titre n'est en fait pas de Lorenz, mais d'un autre météorologue, Philip Merilees, organisateur de la conférence ; Lorenz l'a découvert trop tard pour pouvoir en changer. Cf. Nicolas Witkowski : ''La chasse à l'effet papillon'', Alliage '''22''' (1995), 46-53.</ref> : « ''Predictability: Does the Flap of a Butterfly's Wings in Brazil Set off a Tornado in Texas?'' », qui se traduit en français par :
+
+<blockquote>
+« ''Prédictibilité : le battement d'ailes d'un papillon au Brésil peut-il provoquer une tornade au Texas ?'' ». 
+</blockquote>
+
+Cette métaphore, devenue emblématique du phénomène de sensibilité aux conditions initiales, est souvent interprétée ''à tort'' de façon causale : ce serait le battement d'aile du papillon qui déclencherait la tempête. Il n'en est rien ; Lorenz écrit en effet<ref>Edward N. Lorenz ; ''Un battement d'aile de papillon au Brésil peut-il déclencher une tornade au Texas ?'', Alliage '''22''' (1993), 42-45. Traduction française du texte de la conférence de 1972, publié (en anglais) dans  : ''The essence of chaos'', The Jessie and John Danz Lecture Series, University of Washington Press (1993). Ce livre contient une série de conférences de vulgarisation données à l'université de Washington (Seattle) en 1990.</ref> :
+
+<blockquote>
+« ''De crainte que le seul fait de demander, suivant le titre de cet article,'' "un battement d'aile de papillon au Brésil peut-il déclencher une tornade au Texas ?", ''fasse douter de mon sérieux, sans même parler d'une réponse affirmative, je mettrai cette question en perspective en avançant les deux propositions suivantes :''
+
+* Si un seul battement d'ailes d'un papillon peut avoir pour effet le déclenchement d'une tornade, alors, il en va ainsi également de tous les battements précédents et subséquents de ses ailes, comme de ceux de  millions d'autres papillons, pour ne pas mentionner les activités d'innombrables créatures plus puissantes, en particulier de notre propre espèce.
+
+* Si le battement d'ailes d'un papillon peut déclencher une tornade, il peut aussi l'empêcher. ». 
+</blockquote>
+
+On pourra lire l'intéressant article de Nicolas Witkowski : ''[http://www.tribunes.com/tribune/alliage/22/witk.htm La chasse à l'effet papillon]'', Alliage '''22''' (1995), 46-53.
+
+ 
+=== Laplace ===
+
+Le mathématicien Pierre Simon de Laplace se disait persuadé que la connaissance de toutes les forces s’appliquant en tous les points de l’univers permettrait de dérouler à son gré, si tant est qu’on sût les traiter, le passé comme le futur.
+
+=== Poincaré ===
+
+thumb|right|250px|Un exemple exposé par Poincaré pour illustrer la notion de chaos.
+
+Henri Poincaré travailla plus tard sur des phénomènes chaotiques, mais ses travaux n’eurent pas d’applications immédiates, faute de calculateurs électroniques avec lesquels effectuer plusieurs millions ou milliards d’itérations.
+C'est Poincaré qui, le premier,  donna une définition claire au terme « chaos », en utilisant l'exemple célèbre des sphères : si on place une sphère réfléchissante et que l'on envoie dessus un faisceau lumineux, la direction que prend le faisceau réfléchi dépend largement de la position d'origine. 
+Avec deux sphères, la variation d'un dixième de degré dans l'angle de la source peut amener une divergence de 180° entre les deux faisceaux.
+
+=== Von Neumann contre Wiener ===
+
+Les deux mathématiciens, l'un et l'autre au fait de la sensibilité extrême sur le long terme de petites variations initiales, en tiraient des conclusions opposées. Pour l’un, toute prédiction à moyen terme était de ce fait inexorablement vouée à l’échec. Pour l’autre, au contraire, tout n’était que question de ''moyens de calculs'' et lorsqu’on en aurait de suffisamment puissants, il serait possible de savoir exactement ''sur quelle petite cause agir pour éviter le grand effet'' (ou, en terminologie moderne, ''quel papillon écraser au Brésil pour que la tornade n’ait pas lieu au Texas''... la question étant de savoir si ce geste même de l’écrasement ne déclencherait pas lui-même une autre tornade ailleurs - un équilibre hypercritique restant de toute façon hypercritique !)
+
+=== Lorenz ===
+
+Edward Lorenz, lui, travaillait sur des problèmes similaires : des prévisions météorologiques grâce à des systèmes informatiques. D’après les lois déterministes - également dites ''prévisionnistes'' - créées par Galilée et développées par Isaac Newton selon lequel les conditions initiales permettraient de déterminer l’état futur d’un système grâce à la mise en place d’une nouvelle technique mathématique, le calcul différentiel alors en vigueur, toute action X aurait des conséquences Y prévisibles grâce à des formules mathématiques, pourvu que les fonctions en cause fussent continûment dérivables (il n’était pas question par exemple de prévoir le mouvement d’un chat par ce moyen). Lorenz a incorporé, en 1963, le fait que des variations infimes entre deux situations initiales pouvaient conduire à des situations finales sans rapport entre elles.
+
+Il affirma ainsi qu’il n’était pas envisageable de prévoir correctement des modifications climatiques à très long terme (par exemple un an), parce qu’une incertitude  de 1 sur 10<sup>6</sup> lors de la saisie des données de la situation initiale pouvait conduire à une prévision totalement erronée. Or :
+* d’une part, ces incertitudes sont inévitables,
+* et d’autre part, l’homme ne peut pas prendre en compte ''tous'' les éléments qui constituent son environnement, surtout lorsqu’il s’agit de variations infimes.
+
+== Comment « voir » l’effet papillon ==
+
+right|thumb|Mandelbrot
+right|thumb|Newton
+Une bonne manière de « voir » l’effet papillon est de considérer une fractale. En effet, une fractale n’est rien d’autre que la représentation graphique du comportement d’un système chaotique. En général, une fractale représente la vitesse de convergence d’une suite mathématiques en fonction d’un certain paramètre. On visualise clairement le fait qu’une infime variation de ce paramètre modifie radicalement le comportement de la suite, ce qui produit donc des images infiniment irrégulières (cela revient à dire que l'on peut zoomer dessus autant qu’on veut, on observera toujours de nouvelles formes et des lignes non-lisses). La première fractale représentée ici montre la vitesse d'évolution d’une suite en fonction de sa valeur initiale. La deuxième montre l’instabilité d’une méthode numérique de recherche de solutions d’équations. En effet, elle permet de visualiser vers quelle solution d'une équation converge une suite selon son point de départ.  
+
+Dans le domaine de la prévision météo, la modélisation du climat correspond à un système dynamique de nature chaotique. La connaissance des conditions initiales, ainsi que leur représentation dans les simulations qu'utilisent les prévisionnistes, (modèles numériques), est forcément incomplète, d'où la « Limite du Chaos » qu'implique l'article de Lorenz. Elle se traduit en pratique par une « limite de prévisibilité », qui est d'un peu plus de 10 jours (on dit que l'atmosphère « oublie tout en 2 semaines »). Au cours des 2 dernières décennies, les progrès conjoints des observations, (par satellite ou in Situ), et de la capacité de calcul ont permis de se rapprocher de cette limite, selon un rythme de « 1 jour de plus tous les 5 ans ».
+
+On a supposé, à cause de son aspect chaotique qu'une modification infime des conditions initiales par exemple le battement de l'aile d'un papillon pouvait modifier radicalement l'avenir climatique voire créer un ouragan. Si le modèle chaotique s'applique bien et que la limite de prévisibilité existe vraiment, en revanche, les modèles numériques montrent qu'il n'est pas scientifique de prétendre qu'une petite modification peut créer un ouragan, car l'énergie dégagée par le papillon sera dissipée avant d'avoir pu produire un effet de grande amplitude.
+
+La même limitation, résultant de la connaissance incomplète des conditions initiales, vaut aussi pour la prévision océanique, avec une limite qui est de quelques semaines, au lieu de quelques jours. (Voir par exemple [http://www.clubdesargonautes.org/observation/modelenum.htm Les modèles numériques])
+
+== Aspects philosophiques ==
+
+=== Le concept ===
+
+Dans l’exemple de Lorenz, un météorologue ne penserait pas forcément à prendre en compte les variations du courant d’air provoquées par le battement d’aile d’un papillon. Son idée de « non infaillibilité du système prévisionnel », théorisé sous la forme de « l’effet papillon », rappelle qu’il existe au moins une différence entre le ''déterminé'' et le ''déterminable''. 
+
+Ainsi, un battement d’aile d’un papillon non pris en compte est peut-être celui qui entraînera de proche en proche une variation, ''exponentiellement multipliée par le temps écoulé'', de conditions atmosphériques, un souffle d’air qui sera ressenti par un moineau. Ce moineau déviera sa trajectoire et remarquera alors un insecte qu’il s’empressera de dévorer. À long terme, ce sont toutes les générations descendant de cet insecte qui sont condamnées, ainsi que les animaux qui s’en nourrissent, etc. 
+'''Cependant''', il faut se méfier de l'intuition : des travaux récents ont montré que justement, l'effet papillon  n'était pas applicable à la modélisation de l'atmosphère : un effet minime est "noyé" et oublié sans incidence pour la totalité.
+ 
+Rien de très nouveau, en fait, par rapport au phénomène bien connu du ''phénomène perturbateur minime qui peut déclencher une avalanche'', lui-même bien connu en montagne depuis quelques siècles.
+
+=== Où l’on redécouvre et dépasse Poincaré ===
+
+Cette théorie a en fait été à l’origine de la redécouverte de la  « théorie du chaos », qui avait déjà été formulée, d’abord par James Clerk Maxwell (1831-1879), puis par Henri Poincaré (1854-1912). Déjà, ces deux chercheurs avaient émis l’hypothèse que les théories prévisionnistes avaient leurs limites, car elles ne prenaient pas en compte les variations initiales. Ces théories étaient vite tombées dans l’oubli car elles supposaient une instabilité initiale, peu compatible avec les phénomènes ''déterministes'' que les mathématiciens voulaient étudier à cette époque.
+
+Avec Lorenz, les limites ''pratiques'' du modèle de Newton sont mieux perçues, et un nouveau concept de « déterminisme relatif » émerge. Le terme de « théorie du chaos » réapparaît et c’est au début des années 1970 que le monde connaît un engouement pour ce paradigme. On découvre alors deux résultats étonnants :
+*Le chaos possède une sorte de ''signature'' (voir Nombres de Feigenbaum).
+*Il peut conduire lui-même à des phénomènes stables. On parle alors d’''émergence''. On ne pourra en connaître le détail de réalisation, mais les états finaux peuvent être connus sans qu’on sache par quel chemin on y arrivera : c’est une généralisation de la notion d’attracteur déjà posée par Poincaré.
+
+[http://www.santafe.edu/ L'Institut de Santa Fe] sera créé en 1984 pour tenter d’étudier les conditions par lesquelles, parfois, c’est ''l’ordre qui émerge du chaos'' - ce qui constitue très exactement le ''contraire'' d’un effet papillon.
+
+Als '''Schmetterlingseffekt''' ''(engl. butterfly effect)'' bezeichnet man den Effekt, dass in komplexen, dynamischen Systemen eine große Empfindlichkeit auf kleine Abweichungen in den Anfangsbedingungen besteht. Geringfügig veränderte Anfangsbedingungen können im langfristigen Verlauf zu einer völlig anderen Entwicklung führen. Die Bezeichnung ''Schmetterlingseffekt'' stammt von einer bildhaften Veranschaulichung dieses Effekts von Edward N. Lorenz am Beispiel des Wetters:
+
+Die Metapher von Lorenz ist insofern nicht unproblematisch, als manche Menschen den Schmetterlingseffekt als Synonym für den Schneeballeffekt ansehen,<ref>[http://www.neveh.com/winston/parsha62/shemos.html Beispiel für diesen Irrtum]</ref> bei dem kleine Effekte sich über eine Kettenreaktion selbst verstärken. Das ist jedoch hier nicht gemeint, sondern dass kleine Abweichungen langfristig ein ganzes System vollständig und unvorhersagbar verändern.
+
+== Ursprung der Bezeichnung ==
+
+Der Begriff ''Schmetterlingseffekt'' wurde 1963 vom Meteorologen seltsamen Attraktor, der später als chaotische Verhalten seines Modells eher zufällig. Um Rechenzeit zu sparen, hatte er bei der numerischen Lösung der o.&nbsp;a. Gleichungen auf Zwischenergebnisse bereits durchgeführter Berechnungen zurückgegriffen, hierbei jedoch nur drei Dezimalstellen berücksichtigt, obwohl der Computer mit einer Genauigkeit von sechs Dezimalstellen rechnete. Das Resultat waren zunehmende Abweichungen im Zeitverlauf zwischen den alten und neuen Berechnungen, was Lorenz zu seinen Aussagen über die Sensitivität gegenüber den Anfangsbedingungen bewog. Von nahezu demselben Ausgangspunkt divergierten die Wetterkurven, bis sie schließlich keine Gemeinsamkeit zeigten.
+
+Bei seiner ersten Berechnung gab er einen Startwert für eine Iteration auf sechs Dezimalstellen genau an (0,506127), bei der zweiten Berechnung auf drei (0,506), und obwohl diese Werte nur um etwa 1/4000 voneinander abwichen, also eine Differenz, die mit dem vom Flügelschlag eines Schmetterlings erzeugten Windhauch vergleichbar ist, wich im weiteren Verlauf diese Berechnung mit der Zeit von der ersten stark ab.
+
+Die einprägsame Formulierung des Schmetterlingseffekts stammt aus einer Arbeit von Lorenz aus dem Jahre 1963 (Lit.: Lorenz, 1963). In seiner ursprünglichen Form verwendete er allerdings den Flügelschlag einer Möwe statt des Ferner Donner von Ray Bradbury inspiriert wurde. In dieser Geschichte tritt ein Zeitreisender versehentlich auf einen Schmetterling und sorgt dadurch für Veränderungen in der Gegenwart.
+
+== Wissenschaftlicher Hintergrund ==
+Der Schmetterlingseffekt tritt bei komplexen Systemen auf, die deterministisches chaotisches Verhalten zeigen. Diese Systeme besitzen die Eigenschaft, dass sich kleine Abweichungen in den Anfangsbedingungen (exponentiell verstärken, sie also sensibel abhängig von den Anfangswerten sind.
+
+Dieser Unterschied kann sich soweit auswirken, dass instabile Systeme
+von einem Zustand in den anderen übergehen (Bifurkation).
+
+== Konsequenzen ==
+
+=== Langfristige Unvorhersagbarkeit ===
+
+Da die Anfangsbedingungen experimentell immer nur mit endlicher Genauigkeit bestimmt werden können, ist eine Konsequenz dieses Effekts für solche Systeme, dass es unmöglich ist, ihr Verhalten für längere Zeit vorherzusagen.
+Zum Beispiel kann das Erdatmosphäre reichten und exakte Daten lieferten, wäre auch ein unbegrenzt leistungsfähiger Computer nicht in der Lage, langfristig exakte Prognosen der Wetterentwicklung zu machen. Da das Computermodell die Räume zwischen den Sensoren nicht erfasst, kommt es zu geringfügigen Lit.: Heiden).
+
+Hierzu ist noch zu sagen, dass das Lorenz-Modell eigentlich viel chaotischer ist als der tatsächliche Wetterverlauf. Die Gleichungen sind viel instabiler als die grundlegenden physikalischen Gleichungen. Der Mathematiker Arnold gibt als eine prinzipielle obere Schranke für die Wettervorhersage zwei Wochen an.
+
+== Beispiele ==
+=== Zeltabbildung ===
+right|Schmetterlingseffekt mit der Zeltabbildung Als Beispiel für den Schmetterlingseffekt soll die Zeltabbildung dienen.
+
+Es wird die Differenz zweier solcher Abbildungen über der Anzahl der Iterationen aufgetragen. Beide Abbildungen haben den gleichen Kontrollparameter, jedoch leicht unterschiedliche Startwerte. Damit der Effekt auftritt, muss der Kontrollparameter so eingestellt sein, dass die Zeltabbildung chaotisches Verhalten zeigt (erkennbar im entsprechenden Bifurkationsdiagramm).

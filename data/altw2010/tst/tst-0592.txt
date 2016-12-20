@@ -1,0 +1,149 @@
+thumb|350px|امواج الکترومغناطیسی نوعی [[موج عرضی پیش‌رونده هستند که از میدان‌های الکتریکی و مغناطیسی ساخته شده‌اند. این شکل موجی را نشان می‌دهد که از چپ به راست می‌رود. میدان الکتریکی در صفحهٔ عمودی و میدان مغناطیسی در صفحهٔ افقی هستند.]]
+
+'''تابش الکترومغناطیسی''' یا '''موج الکترومغناطیسی''' نوعی الکتریکی و مغناطیسی ساخته شده است. این میدان‌ها در حال انتشار بر یکدیگر و بر جهت پیشروی موج عمود هستند. 
+
+گاهی به تابش الکترومغناطیسی '''نور''' می‌گویند، ولی باید توجه داشت که نور مرئی فقط بخشی از گسترهٔ امواج الکترومغناطیسی است. امواج الکترومغناطیسی بر حسب بسامدشان به نام‌های گوناگونی خوانده می‌شوند: امواج رادیویی، ریزموج، فروسرخ (مادون قرمز)، نور مرئی، فرابنفش، پرتو ایکس و پرتو گاما. این نام‌ها به ترتیب افزایش بسامد مرتب شده‌اند.
+
+==ماهیت فیزیکی==
+امواج الکترومغناطیسی را نخستین بار معادلهٔ موج را به دست آورد و بنابراین نشان داد که میدان‌های الکتریکی و مغناطیسی هم می‌توانند رفتاری موج‌گونه داشته باشند. سرعت انتشار امواج الکترومغناطیسی از معادلات ماکسول درست برابر با سرعت نور به دست می‌آمد، و ماکسول نتیجه گرفت که نور هم باید نوعی موج الکترومغناطیسی باشد.<ref>Ivan Tolstoy, ''James Clerk Maxwell, A Biography'' (Chicago: University of Chicago Press, 1983)</ref>
+
+thumb|500px|طیف الکترومغناطیسی
+
+طبق معادلات ماکسول، میدان الکتریکی متغیر با زمان باعث ایجاد میدان مغناطیسی می‌شود و برعکس. بنابراین اگر یک میدان الکتریکی متغیر میدان مغناطیسی بسازد، میدان مغناطیسی نیز میدان الکتریکی متغیر می‌سازد و این گونه موج الکترومغناطیسی ساخته می‌شود و پیش می‌رود.
+
+'''Electromagnetic (EM) radiation''' is a self-propagating electric and propagation. Electromagnetic radiation is classified into types according to the frequency of the wave, these types include (in order of increasing frequency): radio waves, microwaves, terahertz radiation, infrared radiation, visible light, ultraviolet radiation, X-rays and gamma rays. Of these, radio waves have the longest wavelengths and Gamma rays have the shortest. A small window of frequencies, called visible spectrum or light, is sensed by the eye of various organisms, with variations of the limits of this narrow spectrum. The word 'light' is sometimes used in a broader sense, referring to EM radiation.
+
+EM radiation carries energy and momentum, which may be imparted when it interacts with matter.
+
+== Physics ==
+=== Theory ===
+thumb|Shows three electromagnetic modes (blue, green and red) with a distance scale in microns along the x-axis.
+'''Electromagnetic waves''' were first postulated by wave form of the electric and magnetic equations, revealing the wave-like nature of electric and magnetic fields, and their symmetry. Because the speed of EM waves predicted by the wave equation coincided with the measured speed of light, Maxwell concluded that light itself is an EM wave.
+
+According to Maxwell's equations, a time-varying electric field generates a magnetic field and ''vice versa''. Therefore, as an oscillating electric field generates an oscillating magnetic field, the magnetic field in turn generates an oscillating electric field, and so on.  These oscillating fields together form an electromagnetic wave.
+
+A quantum theory of the interaction between electromagnetic radiation and matter such as electrons is described by the theory of quantum electrodynamics.
+
+=== Properties ===
+thumb|left|350px|Electromagnetic waves can be imagined as a self-propagating transverse oscillating wave of electric and magnetic fields. This diagram shows a plane linearly polarized wave propagating from right to left. The electric field is in a vertical plane, the magnetic field in a horizontal plane. 
+thumb|left|350px
+
+Electric and magnetic fields obey the properties of superposition, so fields due to particular particles or time-varying electric or magnetic fields contribute to the fields due to other causes. (As these fields are vector fields, all magnetic and electric field vectors add together according to vector addition.) These properties cause various phenomena including emissions then alter the impinging wave through interference.
+
+Since light is an oscillation, it is not affected by travelling through static electric or magnetic fields in a linear medium such as a vacuum.  In nonlinear media such as some crystals, however, interactions can occur between light and static electric and magnetic fields - these interactions include the Faraday effect and the Kerr effect.
+
+In refraction, a wave crossing from one medium to another of different spectrum as light is shone through a prism because of refraction.
+
+The physics of electromagnetic radiation is electrodynamics, a subfield of electromagnetism.
+
+EM radiation exhibits both wave properties and particle properties at the same time (see wave-particle duality). The wave characteristics are more apparent when EM radiation is measured over relatively large timescales and over large distances, and the particle characteristics are more evident when measuring small distances and timescales. Both characteristics have been confirmed in a large number of experiments.
+
+There are experiments in which the wave and particle natures of electromagnetic waves appear in the same experiment, such as the diffraction of a single photon. When a single photon is sent through two slits, it passes through both of them interfering with itself, as waves do, yet is detected by a photomultiplier or other sensitive detector only once. Similar self-interference is observed when a single photon is sent into a Michelson interferometer or other interferometers.
+
+===Wave model===   
+thumb|right|Depicts white light being separated into different frequency waves.
+An important aspect of the nature of light is frequency. The frequency of a wave is its rate of oscillation and is measured in hertz, the SI unit of frequency, where one hertz is equal to one oscillation per second. Light usually has a spectrum of frequencies which sum together to form the resultant wave. Different frequencies undergo different angles of refraction.   
+    
+A wave consists of successive troughs and crests, and the distance between two adjacent crests or troughs is called the wavelength. Waves of the electromagnetic spectrum vary in size, from very long radio waves the size of buildings to very short gamma rays smaller than atom nuclei. Frequency is inversely proportional to wavelength, according to the equation:   
+    
+:<math>\displaystyle v=f\lambda</math>   
+    
+where ''v'' is the speed of the wave (''c'' in a vacuum, or less in other media), ''f'' is the frequency and λ is the wavelength. As waves cross boundaries between different media, their speeds change but their frequencies remain constant.    
+    
+Interference is the superposition of two or more waves resulting in a new wave pattern. If the fields have components in the same direction, they constructively interfere, while opposite directions cause destructive interference.   
+    
+The energy in electromagnetic waves is sometimes called radiant energy.
+
+=== Particle model===
+Because energy of an EM wave is quantized, in the particle model of EM radiation, a wave consists of discrete packets of energy, or Planck's equation:
+
+:<math>\displaystyle E=hf</math>
+
+where ''E'' is the energy, ''h'' is Planck's constant, and ''f'' is frequency.
+This photon-energy expression
+is a particular case of the energy levels of the more general
+''electromagnetic oscillator'' 
+whose average energy, which is used to obtain Planck's radiation law,
+can be shown to differ sharply from that predicted by the 
+equipartition principle
+at low temperature, thereby establishes a failure 
+of equipartition due to quantum effects at low temperature<ref>
+Vu-Quoc, L., 
+[http://clesm.mae.ufl.edu/wiki.pub/index.php/Configuration_integral_%28statistical_mechanics%29 Configuration integral (statistical mechanics)], 2008.
+</ref>.
+
+As a photon is absorbed by an atom, it excites an electron, elevating it to a higher energy level. If the energy is great enough, so that the electron jumps to a high enough energy level, it may escape the positive pull of the nucleus and be liberated from the atom in a process called photoionisation. Conversely, an electron that descends to a lower energy level in an atom emits a photon of light equal to the energy difference. Since the energy levels of electrons in atoms are discrete, each element emits and absorbs its own characteristic frequencies.
+
+Together, these effects explain the absorption spectra of emission. As the electrons descend to lower energy levels, a spectrum is emitted that represents the jumps between the energy levels of the electrons. This is manifested in the emission spectrum of nebulae. Today, scientists use this phenomenon to observe what elements a certain star is composed of. It is also used in the determination of the distance of a star, using the so-called red shift.
+
+===Speed of propagation===
+
+Any electric charge which accelerates, or any changing magnetic field, produces electromagnetic radiation. Electromagnetic information about the charge travels at the speed of light. Accurate treatment thus incorporates a concept known as antenna) conducts particles.  As a wave, it is characterized by a velocity (the Planck's relation ''E = hν'', where ''E'' is the energy of the photon, ''h'' = 6.626 &times; 10<sup>-34</sup> J·s is Planck's constant, and ''ν'' is the frequency of the wave.
+
+One rule is always obeyed regardless of the circumstances: EM radiation in a vacuum always travels at the speed of light, ''relative to the observer'', regardless of the observer's velocity. (This observation led to Albert Einstein's development of the theory of special relativity.)
+
+In a medium (other than vacuum), velocity of propagation or refractive index are considered, depending on frequency and application.  Both of these are ratios of the speed in a medium to speed in a vacuum.
+
+== Electromagnetic spectrum ==
+
+thumb|490px|right|Electromagnetic spectrum with light highlighted
+
+[[Image:spectrum.png|right|frame|'''Legend:'''<br />
+γ = Gamma rays<br />
+HX = Hard X-rays<br />
+SX = Soft X-Rays<br />
+EUV = Extreme ultraviolet<br />
+NUV = Near ultraviolet<br />
+Visible light<br />
+NIR = Near infrared<br />
+MIR = Moderate infrared<br />
+FIR = Far infrared<br />
+<br />
+'''Radio waves:'''<br />
+EHF = Extremely high frequency (Microwaves)<br />
+SHF = Super high frequency (Microwaves)<br />
+UHF = Ultrahigh frequency<br />
+VHF = Very high frequency<br />
+HF = High frequency<br />
+MF = Medium frequency<br />
+LF = Low frequency<br />
+VLF = Very low frequency<br />
+VF = Voice frequency<br />
+ELF = Extremely low frequency]]
+
+Generally, EM radiation is classified by wavelength into electrical energy, radio, microwave, infrared, the visible region we perceive as light, ultraviolet, X-rays and gamma rays.
+
+The behavior of EM radiation depends on its wavelength.  Higher frequencies have shorter wavelengths, and lower frequencies have longer wavelengths.  When EM radiation interacts with single atoms and molecules, its behavior depends on the amount of energy per quantum it carries. 
+emit cm.
+
+=== Light ===
+
+EM radiation with a nm and 700 nm is detected by the human eye and perceived as visible light.  Other wavelengths, especially nearby infrared (longer than 700 nm) and ultraviolet (shorter than 400 nm) are also sometimes referred to as light, especially when the visibility to humans is not relevant. 
+
+If radiation having a frequency in the visible region of the EM spectrum reflects off of an object, say, a bowl of fruit, and then strikes our eyes, this results in our visual perception of the scene. Our brain's visual system processes the multitude of reflected frequencies into different shades and hues, and through this not-entirely-understood psychophysical phenomenon, most people perceive a bowl of fruit.
+
+At most wavelengths, however, the information carried by electromagnetic radiation is not directly detected by human senses.  Natural sources produce EM radiation across the spectrum, and our technology can also manipulate a broad range of wavelengths. Optical fiber transmits light which, although not suitable for direct viewing, can carry data that can be translated into sound or an image. The coding used in such data is similar to that used with radio waves.
+
+=== Radio waves ===
+
+Radio waves can be made to carry information by varying a combination of the amplitude, frequency and phase of the wave within a frequency band.
+
+When EM radiation impinges upon a conductor, it couples to the conductor, travels along it, and induces an electric current on the surface of that conductor by exciting the electrons of the conducting material. This effect (the skin effect) is used in antennas. EM radiation may also cause certain molecules to absorb energy and thus to heat up; this is exploited in microwave ovens.
+
+==Derivation==
+Electromagnetic waves as a general phenomenon were predicted by the classical laws of electricity and magnetism, known as Maxwell's equations. If you inspect Maxwell's equations without sources (charges or currents) then you will find that, along with the possibility of nothing happening, the theory will also admit nontrivial solutions of changing electric and magnetic fields. Beginning with Maxwell's equations for free space:
+
+::<math>\nabla \cdot \mathbf{E} = 0  \qquad \qquad \qquad \ \ (1)</math>
+::<math>\nabla \times \mathbf{E} = -\frac{\partial}{\partial t} \mathbf{B}  \qquad \qquad (2)</math>
+::<math>\nabla \cdot \mathbf{B} = 0 \qquad \qquad \qquad \ \ (3)</math>
+::<math>\nabla \times \mathbf{B} = \mu_0 \epsilon_0 \frac{\partial}{\partial t} \mathbf{E}  \qquad \ \ \ (4)</math>
+:where
+::<math>\nabla</math> is a vector differential operator (see Del).
+
+One solution,
+::<math>\mathbf{E}=\mathbf{B}=\mathbf{0}</math>,
+is trivial.
+
+To see the more interesting one, we utilize vector identities, which work for any vector, as follows:
+
+::<math>\nabla \times \left( \nabla \times \mathbf{A} \right) = \nabla \left( \nabla \cdot \mathbf{A} \right) - \nabla^2 \mathbf{A}</math>

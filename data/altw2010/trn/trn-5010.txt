@@ -1,0 +1,48 @@
+'''Centrino''' (Centrino Mobile Technology) — маркетингова назва для платформи ноутбука від Intel, яка включає комбінацію центрального процесора, зв'язки материнська плата-чіпсет і бездротового мережевого адаптера для ноутбука. Ця комбінація базується на процесорі Intel Pentium M або Core Solo/Core Duo, чіпсета i855, i915 або i945 і чіпа бездротового зв'язку (WLAN-чіпа) 2100, 2915ABG або 3945ABG і інших майбутніх.
+
+Також, як і процесор Pentium M, на якому базується "Centrino-Packet", ця розробка походить з дослідницького центру в Хайфі, Ізраїль.
+
+==Маркетинг==
+Інтел інвестував в рекламну кампанію з просування Centrino близько $300 млн, стверджуючи, що це рішення забезпечує більшу продуктивність, довше життя батарей і ширшу сумісність бездротового зв'язку. Через поширеність рекламної кампанії, багато споживачів помилково називають процесори Pentium M та Core "Centrino". В багатьох покупців також склалося враження, ніби тільки Centrino забезпечує бездротові мережі для ноутбуків.
+
+Загалом агресивний маркетинг мав успіх, хоча Інтел довелося чути звинувачення в неправдивій та анти-конкурентній рекламі своїх продуктів.
+
+'''Centrino''' (także zwane Centrino Mobile Technology - ''Mobilna Technologia Centrino'') jest inicjatywą marketingową firmy CPU, płyty głównej i interfejsu sieci bezprzewodowej w formie komputera przenośnego. Rozwiązanie to pozwoliło na uzyskanie ponad dwukrotnej oszczędności energii zużywanej przez dotychczasowe układy zestawów przenośnych firmy Intel.
+
+Firma Intel wydała do tej pory 4 wersje platformy Centrino: '''Carmel''', '''Sonoma''', '''Napa''' i '''Santa Rosa'''.
+
+Planowane jest wydanie kolejnych pod nazwą kodową '''Montevina''' (Centrino 2) i '''Calpella'''.
+
+=="Carmel"==
+Ta pierwsza generacja '''Centrino''' ukazała się w marcu 2003 i składała się z następujących elementów:
+*FSB 400 MHz
+*Chipset z serii Intel 855 o oznaczeniach ''Odem'' lub ''Monthara''
+* karta WLAN Intel PRO/Wireless 2100 lub 2200
+
+=="Sonoma"==
+To druga generacja '''Centrino''' ukazała się w styczniu 2005 i składała się z następujących elementów:
+*FSB 533 MHz
+*Chipset z serii Intel Mobile 915 o oznaczeniu ''Alviso'', w wersji GM z zintegrowanym układem graficznym Intel GMA 900
+* karta WLAN Intel PRO/Wireless 2200 lub 2915 (Calexico2)
+
+=="Napa"==
+'''Centrino Duo''' - trzecia generacja Centrino ukazała się w styczniu 2006 i składała się z następujących elementów:
+*FSB 667 MHz w dwóch wersjach:
+**jednordzeniowy Intel Core Solo na platformie Centrino Solo
+**dwurdzeniowy Intel Core Duo na platformie Centrino Duo [http://www.intel.com/personal/computing/emea/eng/centrinositelet/index.htm?iid=fraHPAGE+Sub_cmt_duo Intel Centrino Duo]
+*Chipset z serii Intel Mobile 945 Express o oznaczeniu ''Calistoga''
+** wersja 945GM zawiera moduł graficzny Intel GMA (Graphics Media Accelerator) 950
+** wersja 945PM nie zawiera modułu graficznego
+* karta WLAN Intel PRO/Wireless 3945 (Golan)
+
+Z tą generacją weszły w użycie procesory dwurdzeniowe Intel Core Duo, a technologia zyskała nazwę Centrino Duo.
+
+=="Santa Rosa"==
+Czwarta generacja Centrino - '''Centrino Duo''' (w notebookach domowych) i '''Centrino Pro''' (w notebookach biznesowych) - ukazała się 9 maja 2007.
+
+* procesory: Core 2 Duo "Merom" i Core 2 Duo "Penryn",  800MHz FSB, 64-bit
+* chipset: Intel 965 "Crestline"
+* karta sieciowa: Intel 4965AGN "Kedron".
+Opcjonalnie:
+* 512 MB lub 1 GB Intel Turbo Memory "Robson", 
+* karta WWAN (GSM/EDGE/UMTS/HSDPA/HSUPA)

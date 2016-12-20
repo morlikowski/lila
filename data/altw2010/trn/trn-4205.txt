@@ -1,0 +1,77 @@
+A '''nonchord tone''', '''nonharmonic tone''', or '''non-harmony note''' is a note in a piece of chord that is formed by the other notes sounding at the time. Nonchord tones are most often discussed in the context of music of the common practice period, but can be used in analysis of other types of tonal music as well. 
+
+Chord and nonchord tones are defined by their membership in a chord: "The pitches which make up a chord are called ''chord-tones'': any other pitches are called ''non-chord-tones''."<ref>Kroepel, Bob (1993). ''Mel Bay Creative Keyboard's Deluxe Encyclopedia of Piano Chords: A Complete Study of Chords and How to Use Them'', p.8. ISBN 0871665794. Emphasis original.</ref> They are also defined by the time at which they sound: "''Nonharmonic tones'' are pitches that sound along with a chord but are not chord pitches."<ref name="Benward & Saker">Benward & Saker (2003). ''Music: In Theory and Practice'', Vol. I, p.92. Seventh Edition. ISBN 978-0-07-294262-0.</ref>.
+
+For example, if a piece of music is currently on a C Major chord, the notes CEG are members of that chord, while any other note played at that time is a nonchord tone. Such tones are most obvious in homophonic music but also often occur in contrapuntal music.
+
+"Most nonharmonic tones are dissonance and create intervals of a resolve to a chord tone in conventional ways. If the note fails to resolve until the next change of harmony, it may instead create a key. Augmented and diminished intervals are also considered dissonant, and all nonharmonic tones are measured from the bass, or lowest note sounding in the chord except in the case of nonharmonic bass tones<ref name="Benward & Saker"/>.
+
+Nonharmonic tones generally occur in a pattern of three pitches, of which the nonharmonic tone is the center<ref name="Benward & Saker"/>:
+        '''1'''        -         '''2'''          -         '''3'''
+ Preceding tone  -  Nonharmonic tone  -  Following tone
+  (chord tone)   -                    -   (chord tone)
+  Preparation    -     Dissonance     -    Resolution
+
+Nonchord tones are distinguished through how they are used. The most important distinction is if they occur a strong or weak beat and are thus accented or unaccented<ref name="Benward & Saker"/>. They are also distinguished by their direction of approach and departure and the voice or voices in which they occur, and the number of notes they contain.
+
+Over time some nonchord tones supposedly became chord tones, such as the seventh in a seventh chord. In European classical music "The greater use of dissonance from period to period  as a result of the dialectic of linear/vertical forces led to gradual normalization of ninth, eleventh, and thirteenth chords[in analysis and theory]; each additional non-chord tone above the foundational triad became frozen into the chordal mass."<ref>"Debussy and the Crisis of Tonality", p.72. Author(s): Roland Nadeau. Source: Music Educators Journal, Vol. 66, No. 1, (Sep., 1979), pp. 69-73. Published by: MENC: The National Association for Music Education.</ref>
+
+The following list is not exhaustive, but identifies the most common types of nonchord tones. The analyze nonchord tones in scores.
+
+==Unaccented==
+===Anticipation===
+*An '''anticipation''' (ANT) occurs when a note is played before the chord to which the note belongs and resolves when the "anticipated" chord is reached:
+550px|Anticipation
+
+===Neighbor tone===
+*A '''neighbor tone''' (NT) or '''auxiliary note''' is a nonchord tone that passes from a chord tone directly above or below it and resolves to the same tone:
+550px|Upper neighbour tone
+
+In practice and analysis, neighboring tones are often differentiated depending upon whether or not they are lower or higher than the chord tones surrounding them. A neighboring tone that is a step higher than the surrounding chord tones is called an ''upper neighboring tone'' or an ''upper auxiliary note'' while a neighboring tone that is a step lower than the surrounding chord tones is a ''lower neighboring tone'' or ''lower auxiliary note''.
+
+===Escape tone===
+*An '''escape tone''' (ET) or '''echappée''' is a movement by step in the opposite direction of the harmonic motion in that voice and is resolved by leap in the direction of harmonic motion:
+Escape tone
+
+===Passing tone===
+*A '''passing tone''' (PT) or '''passing note''' is the nonchord tone of a part which had started at one chord tone and moved up or down through one or more nonchord tones and resolved to another chord tone (possibly of another chord, often of the same chord). 
+550px|Passing tone
+
+==Accented==
+===Passing tone===
+As with above but on an accented beat.
+
+===Neighbor tone===
+As with above but on an accented beat.
+
+En harmonie tonale, une '''note étrangère''' est une note ne faisant pas partie de l’harmonie courante, qui ''s'ajoute'' ou ''se substitue'' aux notes d'un quelconque accord classé — appelées notes réelles, précisément, par opposition aux ''notes étrangères''. Une note étrangère est donc « ''étrangère à l'accord dans lequel elle se trouve'' », mais pas nécessairement « ''étrangère à la tonalité'' ».
+
+:Le domaine des notes étrangères est traditionnellement appelé « ''harmonie dissonante artificielle'' » — ou plus simplement : « ''harmonie artificielle'' » —, par opposition à « ''l'harmonie naturelle'' » c'est-à-dire le domaine des accords classés — accord de trois notes, accord de quatre notes et accord de cinq notes. 
+
+* Toute note étrangère modifie la couleur de l'accord primitif en amenant une tension — une note attractive. Normalement, la note qui la précède fait fonction de préparation — ''note préparatoire'' — et la note qui lui succède amène la résolution — ''note résolutive''. 
+
+* Selon que la note étrangère ''s'ajoute'' ou ''se substitue'' à l'une des notes réelles de l'accord, et dans cette seconde hypothèse, selon que cette substitution est ''passagère'' ou ''définitive'', on peut avoir affaire à trois catégories bien distinctes.
+
+== Substitution passagère ==
+
+Une '''substitution passagère''' est une note étrangère qui remplace temporairement une accord. Dans ce cas, la tension harmonique de l'accord ainsi modifié est fonction de la ''durée'' et de la ''situation'' de cette note étrangère. 
+
+=== Substitution passagère sur temps fort ===
+
+Lorsqu'une substitution passagère se produit sur temps fort — ou sur ''partie forte'' de temps —, l'accord se charge généralement de fortes tensions harmoniques, c'est pourquoi une ''substitution passagère sur temps fort'' est le plus souvent chiffrée. Cette première sous-catégorie comprend les familles suivantes.
+
+* Le retard.
+* Les accords de onzième et treizième tonique.
+* La plupart des appoggiatures.
+
+=== Substitution passagère sur temps faible ===
+
+Lorsqu'une substitution passagère se produit sur ''temps faible'' — ou sur ''partie faible'' de temps —, les tensions harmoniques sur l'accord sont généralement moins importantes : étant ordinairement considérée comme une ''note purement mélodique'', une ''substitution passagère sur temps faible'' ne se chiffre pas. Cette deuxième sous-catégorie comprend les familles suivantes.
+
+* La broderie.
+* La note de passage.
+* L’anticipation.
+* L’échappée.
+* Certaines appoggiatures, appelées ''appoggiatures faibles''. 
+
+== Substitution définitive ==

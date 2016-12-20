@@ -1,0 +1,24 @@
+== Définition ==
+
+Un '''acide faible''' est un acide qui ne se dissocie pas totalement dans l'eau : lorsqu'un acide faible AH est mis en présence d'eau, la réaction suivante a lieu :
+
+<math>AH+H_2O \rightleftharpoons A^- + H_3O^+</math>
+
+La réaction n'est pas totale mais équilibrée. (15px voir les articles détaillés Constante d'équilibre et équation chimique), c'est-à-dire que pour avoir plus de substance du côté droit de la réaction, il faut ajouter plus de produit AH du côté gauche, il reste toujours de l'acide AH en solution. Dans un couple acide base, un acide faible est associé à une base faible si l'acide est vraiment faible, c'est-à-dire pour un pKa supérieur à 14 (ou une base faible pour un pKa inférieur) en laquelle il se transforme après avoir cédé son proton H<sup>+</sup>.
+
+On classe les acides faibles en fonction de leur constante d'acidité, c'est-à-dire en fonction de leur capacité à plus ou moins se dissocier en présence d'eau. On estime qu'un acide est faible lorsque son pKa est supérieur à 0. Un acide est d'autant plus faible que son pKa est élevé. Sa base conjuguée est donc d'autant plus forte et stable que ce même pKa est élevé.
+
+==Exemples d'acides faibles==
+
+A '''weak acid''' is an acid that does not completely donate all of its hydrogens when dissolved in water. These acids have higher pH compared to strong acids, which release all of their hydrogens when dissolved in water.
+
+While strong acids are generally assumed to be the most corrosive, this is not always true<!-- (why not?)-->.  The carborane superacid (H(CHB<sub>11</sub>Cl<sub>11</sub></sub>), which is one million times stronger than sulfuric acid, is entirely non-corrosive, whereas the weak acid hydrofluoric acid (HF) is extremely corrosive and can dissolve, among other things, glass and all metals except iridium.
+
+==Explanation==
+Weak acids do not ionize in a solution to a significant extent; that is, if the acid was represented by the general formula ''HA'', then in aqueous solution a significant amount of undissociated HA still remains. Weak acids in water dissociate as
+
+<math>\mathrm{ HA_{(aq)} \, \leftrightarrow \, H^+\,_{(aq)} +\, A^-\,_{(aq)} }.</math>
+
+The equilibrium concentrations of reactants and products are related by the Acidity constant expression, (K<sub>a</sub>):  
+
+<math>\mathrm{ K_a\, =\, \frac {[H^+\,][A^-\,]}{[HA]} }</math>

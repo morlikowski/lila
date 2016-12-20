@@ -1,0 +1,36 @@
+Eine '''Natrium-Schwefel-Zelle''' ist ein wiederaufladbarer Akkumulator (so genannte Sekundärzelle). Sie wird als neuer Energiespeicher u.a. für Elektroautos diskutiert.
+Gegenüber anderen Akkumulator-Typen wird statt einem flüssigen Elektrolyten ein fester und flüssige Elektroden eingesetzt. Die Anode besteht aus geschmolzenem Natrium, die Kathode aus einem mit flüssigen Schwefel getränktem Graphitgewebe.
+Als Elektrolyt kommt ein natriumhaltiges Aluminiumoxid zum Einsatz. Da Natrium ein heftig mit Wasser reagierendes Alkalimetall ist, muss der Akku gut gegenüber Umwelteinflüssen geschützt werden.
+
+== Funktionsweise ==
+Die NaS-Zelle ist eine Hochtemperatur-Sekundärzelle. Im Gegensatz zu vielen anderen Akkumulatoren besitzt sie keinerlei elektrochemische Selbstentladung. Allerdings ist zum Aufrechthalten der Funktionsfähigkeit ein Temperaturbereich von ca. 300 bis 350 °C erforderlich. 
+Diese hohe Temperatur ist notwendig, da die reinen Stoffe Schwefel und Natrium aufgrund der verwendeten Bauform jeweils in flüssiger Form vorliegen müssen. Die jeweiligen Erstarrungstemperaturen müssen weit überschritten werden, damit ein ausreichender Energiefluss zustande kommt.
+Da bereits die Elektroden in flüssiger Form vorliegen, liegt der Elektrolyt in fester Form vor. Er besteht aus einer Natriumionen leitenden Keramik, die gleichzeitig für Elektronen ein Isolator ist. In den derzeit erhältlichen Bauformen wird hierfür Aluminiumoxid verwendet, es ist aber auch beispielsweise Natriumoxid oder Magnesiumoxid möglich.
+
+ Positive Elektrode: Schwefel
+
+Elektrolyt: ß-Al<sub>2</sub>O<sub>3</sub>-Keramik
+
+ Negative Elektrode: Natrium
+
+250px|right|thumb|Cut-away schematic diagram of a Sodium-Sulfur battery. (image courtesy NASA John Glenn Research Center).
+
+A '''sodium-sulfur battery''' is a type of battery constructed from corrosive nature of the sodium polysulfides, such cells are primarily suitable for large-scale non-mobile applications. A suggested application is grid energy storage.  A 6 MW, 48 MWh system has been installed at Tsunashima, Japan. Several other utilities are considering and implementing such a system. 
+
+== Construction ==
+The cell is usually made in a tall cylindrical configuration. The entire cell is enclosed by a steel casing that is protected from corrosion on the inside. Mostly, chromium and molybdenum are used for this purpose. This outside container serves as an electrode. The liquid sodium serves as the cathode. The container is sealed at the top with an airtight alumina lid. An essential part of the cell is the presence of a BASE Beta-alumina sodium ion exchange membrane, which selectively conducts Na<sup>+</sup>. The cell becomes more economical with increasing size. In commercial applications the cells are arranged in blocks for better conservation of heat and are encased in a vacuum insulated box.
+
+== Operation ==
+During the discharge phase, molten elemental sodium at the core serves as the anode, meaning that the Na donates electrons into the load-bearing wires.  The sodium is separated by a beta-alumina solid electrolyte (BASE) cylinder from the container of sulfur, which is fabricated from an inert metal serving as the cathode. The sulfur is absorbed in a carbon sponge. BASE is a good conductor of sodium ions, but a poor conductor of electrons, avoiding self-discharge. When sodium gives off an electron, the Na<sup>+</sup> ion migrates to the sulfur container. The electron travels through the molten sodium to the contact and through the electric load to the sulfur container. Here, the electron reacts with sulfur to form S<sub>n</sub><sup>2&minus;</sup>, sodium polysulfide.  The discharge process can be represented as follows:
+:2 Na  +  4 S   →  Na<sub>2</sub>S<sub>4</sub>  E<sub>cell</sub>  ~ 2 V
+As the cell discharges the sodium level drops. During the charging phase the reverse process takes place. Once running, the heat produced by charging and discharging cycles is sufficient to maintain operating temperatures and no external source is mostly required.<ref>Taku Oshima, Masaharu Kajita, Akiyasu Okuno "Development of Sodium-Sulfur Batteries" International Journal of Applied Ceramic Technology Volume 1, Pages 269-276, 2004. doi:10.1111/j.1744-7402.2004.tb00179.x</ref>
+
+==Safety aspects==
+Pure sodium presents a hazard because it spontaneously burns/explodes in contact with water, thus the system must be protected from moisture. In modern NaS cells, sealing techniques make fires unlikely.
+
+==Applications==
+The first large-scale use of sodium-sulfur batteries was in the Ford "Ecostar" demonstration vehicle<ref>[http://www.greencar.com/features/features21/ Ford Ecostar EV, Ron Cogan]</ref>, an electric vehicle prototype that was demonstrated in 1991.  The high temperature of sodium sulfur batteries present some difficulties for electric vehicle use, however, and with the development of other battery types better suited to automotive use, the  Ecostar never went into production.
+
+Sodium sulfur batteries are a possible energy storage application to support renewable energy plants, specifically CAES) requires some type of geologic feature for storage.<ref>[http://www.spectrum.ieee.org/jun06/3544 IEEE Spectrum: Taking Wind Mainstream<!-- Bot generated title -->]</ref>
+
+There is currently a demonstration project using NGK Insulators’ NAS battery at Japan Wind Development Co.’s Miura Wind Park in Japan.<ref>[http://www.japanfs.org/db/1843-e Japan for Sustainability - Japanese Companies Test System to Stabilize Output from Wind Power<!-- Bot generated title -->]</ref>

@@ -1,0 +1,89 @@
+<!--tabella per la realizzazione di un comune-->
+<!--questa tabella memorizza solo i parametri - la struttura/layout e' nel template Comune-->
+<!--NON modificare la prima riga e le righe dove compare il simbolo uguale-->
+<!--sostituire gli spazi vuoti (&nbsp;) col testo o col numero che deve apparire nella tabella-->
+<!--se non si sa cosa scrivere in una riga,  mettere lo spazio vuoto (&nbsp;)-->
+<!--NON inserire ritorni a capo e NON modificare il numero delle righe-->
+<!--se non si scrive una riga, questa appare come uno spazio vuoto nella tabella-->
+{{Comuni Svizzeri Tabella|
+nomecomune =
+Neudorf <!--scrivere qui il nome del comune-->
+|
+nomestemma =
+ <!--scrivere qui il nome dell'immagine dello stemma -->
+|
+nomepaese =
+Svizzera  <!--non modificare-->
+|
+nomecantone =
+Lucerna  <!--cantone di appartenenza - senza parentesi quadre - solo nome (es:Ticino)-->
+|
+siglacantone =
+LU  <!--sigla del cantone di appartenenza - senza parentesi quadre-->
+|
+nomedistretto =
+Sursee  <!--nome distretto di appartenenza - con parentesi quadre - wikificato-->
+|
+nomecircolo =
+|
+
+lingua =
+Tedesco  <!-- lingua ufficiale del comune - wikificata-->
+|
+latitudine =
+47° 10‘  <!--scrivere la latitudine del capoluogo del comune - non scrivere Nord che viene messo automaticamente-->
+|
+longitudine =
+8° 12‘  <!--scrivere la longitudine del capoluogo del comune - non scrivere Est che viene messo automaticamente-->
+|
+altitudine =
+672   <!--scrivere l'altezza del capoluogo del comune in metri - non scrivere la m finale che viene messa automaticamente-->
+|
+superficie =
+12,81  <!--scrivere la superficie del comune (in km²) - di solito con due decimali - - non scrivere km² che viene messo automaticamente-->
+|
+popolazione =
+1.055  <!--scrivere la popolazione totale del comune - col punto separatore delle migliaia-->
+|
+annocensimento = 
+2004  <!--inserire l'anno del censimento - con parentesi quadre-->
+|
+densita =
+82  <!--scrivere la densità di popolazione del comune-->
+|
+frazionicomune =
+&nbsp;  <!--Eventuali frazioni - se non ci sono lasciare lo spazio &nbsp; - non scrivere nella riga sopra, ma solo in questa - nomi senza parentesi quadre (di norma) - separati da virgola e spazio - non usare <br> perché va a capo automaticamente-->
+|
+comunilimitrofi =
+Beromünster, Eich, Gunzwil, Hildisrieden, Römerswil, Sempach  <!--Comuni confinanti anche di altri cantoni - se non ci sono lasciare lo spazio &nbsp; - non scrivere nella riga sopra, ma solo in questa - nomi esatti con doppie parentesi quadre (sempre) - separati da virgola e spazio - non usare <br> va a capo automaticamente-->
+|
+cap =
+6025  <!--codice postale del comune - anche piu di uno-->
+|
+prefisso =
+041  <!--prefisso telefonico del comune - anche piu di uno-->
+|
+comunenumero =
+1092  <!--BFS-Nr. del comune-->
+|
+nomeabitanti =
+Neudorfer  <!--nome degli abitanti-->
+|
+sito =
+http://www.neudorf.ch/  <!--sito internet ufficiale del comune - con singole parentesi quadre-->
+|
+nomemappa =
+Karte Gemeinde Neudorf.png
+}}
+<!-- fine della tabella comune -->
+
+'''Neudorf''' è un comune del Canton Lucerna di 1.055 abitanti.
+
+'''Нойдорф''' (от  — ''новая деревня'') — район в Стрельне, на территории которого планируется строительство технопарка.
+
+Работы по строительству вероятнее всего будет вести финская управляющая компания Technopolis. Общая площадь участка, на котором расположится технопарк, составляет более 6 га. На создание необходимой инженерной инфраструктуры из городского и федерального бюджетов в течение пяти лет будет выделено 197 млн. руб. Стоимость строительства самого технопарка оценивается в 200 млн. евро.
+
+Технопарк будет включать в себя ряд объектов недвижимости и специализированной инфраструктуры, там разместятся предприятия и научные лаборатории, специализирующиеся в сфере разработки и распространения наукоёмкой и высокотехнологичной продукции, информационных технологий, средств связи и телекоммуникации, программного обеспечения и т. д. Строительство должно быть завершено в 2009 г. Предполагается, что на территории технопарка будут работать как российские, так и иностранные компании.
+
+== Хроника реализации проекта ==
+* В декабре 2006 завершена подготовка инфраструктуры особой экономической зоны<ref>«Ведомости», № 240 (1767), 20 декабря 2006</ref>.

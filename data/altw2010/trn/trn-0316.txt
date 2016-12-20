@@ -1,0 +1,97 @@
+<!--###$$$-->
+{{Info/Comuna da França|
+|nome         = Sainte-Marie-en-Chanois
+|nomefr       = Sainte-Marie-en-Chanois
+|região       = Franche-Comté
+|departamento = Haute-Saône
+|área         = 4,79
+|altitude     = 
+|latP         = | latG = | latM = |latS = 
+|lonP         = | lonG = | lonM = |lonS = 
+|população    = 202
+|densidade    = 42
+|censo        = 1 999
+|insee        = 70469 <!-- Código INSEE -->
+|códpostal    = 70310 <!-- Código postal -->
+|mapa         = <!-- Insira apenas o nome da imagem -->
+|mapaX        = <!-- Coordenada X no mapa -->
+|mapaY        = <!-- Coordenada Y no mapa -->
+|escudo       = <!-- Insira apenas o nome da imagem -->
+|bandeira     = <!-- Insira apenas o nome da imagem -->
+|imagem       = <!-- Insira apenas o nome da imagem -->
+|legenda      = <!-- Legenda para a imagem -->
+|gentílico    = 
+|website      = 
+|notas        = 
+}}
+'''Sainte-Marie-en-Chanois''' é uma região administrativa de departamento de km&sup2;, com 202 habitantes, segundo os densidade de 42 hab/km&sup2;.
+
+Categoria:Comunas da França
+Categoria:Comunas de Franche-Comté
+Categoria:Comunas do departamento de Haute-Saône
+
+{{infobox Franse gemeente|
+|plaatsnaam= Sainte-Marie-en-Chanois
+|wapen= 
+|kaart= 
+|regio= Franche-Comté 
+|departement= Haute-Saône (70)
+|arrondissement= Lure
+|kanton= Faucogney-et-la-Mer
+|jaar= 1999
+|inwoners= 202
+|dichtheid= 42,1
+|oppervlakte= 4,8
+|water= 
+|latitudeGraden= 47 |latitudeMinuten= 50|latitudeSeconden= 0
+|longitudeGraden= 6 |longitudeMinuten= 31 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 247 |kaartY= 111
+|code= 70469
+|postcode= 70310
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Sainte-Marie-en-Chanois''' is een gemeente in het Franse departement Lure.
+
+==Geografie==
+De oppervlakte van Sainte-Marie-en-Chanois bedraagt 4,8 km², de bevolkingsdichtheid is 42,1 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:390 color:gray1 width:1       
+  from:start till:end             
+  bar:260 color:gray1              
+  from:start till:end            
+  bar:130 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,141)(84,132) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 277 1968: 256
+  points:(84,132)(100,113)    color:blue    width:2 #1975: 213
+  points:(100,113)(128,126)   color:blue    width:2 #1982: 243
+  points:(128,126)(160,118)   color:blue    width:2 #1990: 225
+  points:(160,118)(196,108)   color:blue    width:2 #1999: 202
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

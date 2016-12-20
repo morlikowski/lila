@@ -1,0 +1,178 @@
+{{MissioneSpaziale
+|missione = Voyager 1
+|proponente = NASA
+|immagine = 220px|La [[sonda spaziale Voyager]]
+|destinazione = Giove, Saturno, spazio interstellare
+|lanciatore = Razzo Titan-Centaur
+|lancio = 5 settembre 1977 da Cape Canaveral
+|massa = 
+|strumentazione = 
+|esito = La missione primaria è ormai conclusa ma la sonda è ancora in attività
+}}
+
+La Giove per prima. Le due sonde Voyager sono identiche.
+
+L'orbita in cui fu immessa la sonda la portò a sfiorare i due pianeti giganti, Giove e Saturno, per poi proseguire indisturbata verso l'esterno del sistema solare. 
+
+== Parametri orbitali ==
+{{ParametriOrbitali
+|orbita1 = Viaggio interplanetario
+|centro1 = Sole
+|iniziofine1 = dall'8 settembre 1977, 09.08.17 UTC<br/> al 5 marzo 1979, 12.05.26 UTC
+|periastro1 = 1 AU
+|afastro1 = 5,2 AU
+|periodo1 = -
+|inclinazione1 = 1,032182°
+|eccentricità1 = 0,797783
+|orbita2 = Sorvolo di Giove
+|centro2 = Giove
+|iniziofine2 = 5 marzo 1979, 12.05.26 UTC
+|periastro2 = 4,89 RG
+|afastro2 = -
+|periodo2 = -
+|inclinazione2 = 3,979134°
+|eccentricità2 = 1,318976
+|orbita3 = Viaggio interplanetario
+|centro3 = Sole
+|iniziofine3 = dal 5 marzo 1979, 12.05.26 UTC<br/> al 12 novembre 1980, 23.46.30 UTC
+|periastro3 = 5,2 AU
+|afastro3 = 9,54 AU
+|periodo3 = -
+|inclinazione3 = 2,48158°
+|eccentricità3 = 2,30274
+|orbita4 = Sorvolo di Saturno
+|centro4 = Saturno
+|iniziofine4 = 12 novembre 1980, 12.05.26 UTC
+|periastro4 = 3,09 RS
+|afastro4 = -
+|periodo4 = -
+|inclinazione4 = 65,893904°
+|eccentricità4 = 2,107561
+|orbita5 = Viaggio interstellare
+|centro5 = Sole
+|iniziofine5 = dal 12 novembre 1980, 23.46.30 UTC
+|periastro5 = 9,54 AU
+|afastro5 = -
+|periodo5 = -
+|inclinazione5 = 35,76°
+|eccentricità5 = 3,72472
+}}
+
+== Giove e Saturno ==
+La Voyager 1 iniziò a fotografare Giove nel gennaio 1979. La sonda passò vicino a Giove il 5 marzo 1979, e continuò a fotografare il pianeta fino ad aprile. Poco tempo dopo fu la volta della sonda sorella Voyager 2.
+
+Le due Voyager fecero numerose scoperte su Giove e i suoi satelliti. La più sorprendente fu la scoperta di vulcani di Io, che non erano mai stati osservati né da Terra né dal Pioneer 10 o dal Pioneer 11.
+
+La sonda proseguì il suo viaggio verso Saturno. Il punto di massimo avvicinamento fu raggiunto il Titano. La sua orbita, progettata per studiare Titano da vicino, la portò fuori dal piano dell'eclittica, impendendole di visitare altri pianeti. Da allora si sta allontanando dal sistema.
+
+== Eliopausa ==
+
+Mentre la sonda sta viaggiando verso lo spazio interstellare, i suoi strumenti continuano a studiare l'ambiente del sistema solare. Gli scienziati del UA di distanza dal Sole, avrebbe passato il "termination shock" (il confine dove le particelle del vento solare vengono rallentate a velocità subsoniche) nel febbraio 2003. Altri scienziati hanno espresso dubbi in proposito (discussi nella rivista ''Nature'' il 6 novembre). Probabilmente serviranno altre analisi, rese difficili anche dal fatto che i rivelatori di vento solare a bordo del Voyager 1 hanno smesso di funzionare nel 1990.
+
+{{Infobox_Spacecraft
+| Name = Voyager 1
+| Image =  300px
+| Caption =''Voyager'' spacecraft
+| Organization = NASA
+| Major_Contractors = 
+| Mission_Type = Flyby
+| Flyby_Of = Jupiter and Saturn
+| Launch = September 5, 1977 <small>( days ago)</small>
+| Launch_Vehicle = Titan IIIE Centaur rocket
+| Decay = 
+| Mission_Duration = undefined <small>( days since launch)</small><!-- when NASA stops listening, please change to " days from launch to last contact" -->
+| NSSDC_ID = 1977-084A
+| Webpage = [http://voyager.jpl.nasa.gov NASA ''Voyager'' website]
+| Mass =  
+| Power = 420 W
+| Power_Source = 3 Radioisotope Thermal Generators (RTGs)
+| Orbital_elements = 
+| Semimajor_Axis = 
+| Eccentricity = 
+| Inclination = 
+| Orbital_Period = 
+| Apoapsis = 
+| Periapsis = 
+| Orbits = 
+}}
+right|200px|thumbnail|Trajectory of ''Voyager 1'' using [[Celestia]]
+
+The '''''Voyager 1''''' spacecraft is a 722-kilogram  robotic space probe of the outer solar system and beyond, launched September 5, 1977, and remains operational, currently pursuing its current mission, to locate and study the boundaries of the Solar System, including the Kuiper belt and beyond. Its original mission was to visit Jupiter and Saturn and indeed it was the first probe to provide detailed images of the moons of these planets.
+
+''Voyager 1'' is the farthest manmade object from gravity assisted speed boosts.<ref></ref>
+
+<!-- DISTANCES ReadMe: Please use format of: "billion miles)" to remain consistent throughout article. Only use official NASA distances, found at http://voyager.jpl.nasa.gov/mission/weekly-reports/ Google can be used to convert to AU. Billion is ambiguous and should not be used with SI measurements. -->
+As of AU (16 billion km, or 9.87 billion miles) from the Sun, and has thus entered the interstellar space, a vast area where the Sun's influence gives way to the other bodies in the galaxy. As mentioned above, the termination shock region, a part of which is the heliosheath, is the area of local space in which Voyager 1 is currently passing through, with the current goal of reaching and studying the heliopause, which is the known boundary of our stellar system. If ''Voyager 1'' is still functioning when it finally completes the passage through the heliopause and affectively becomes the first man-made object to leave our star system, scientists will get their first direct measurements of the conditions in the interstellar medium, which may provide clues relavent to the origin and overall nature of the Universe. At this distance, signals from ''Voyager 1'' take more than fourteen hours to reach its control center at the Jet Propulsion Laboratory, a joint project of NASA and Caltech in La Cañada, California. ''Voyager 1'' is on a hyperbolic trajectory and has achieved escape velocity, meaning that its orbit will not return to the inner solar system. Along with ''Pioneer 10'', ''Pioneer 11'', ''Voyager 2'', and ''New Horizons'', ''Voyager 1'' is an interstellar probe.
+
+''Voyager 1'' had as its primary targets the planets Jupiter and Saturn and their associated moons and rings; its current mission is the detection of the heliopause and particle measurements of solar wind and the interstellar medium. Both ''Voyager'' probes have far outlasted their originally intended lifespan. Each is powered by three radioisotope thermoelectric generators, which are now expected to continue to generate enough power to let the probes keep communicating with Earth until at least the year 2025.
+
+== Mission profile ==
+
+thumb|right|''Voyager 1'' lifted off with a [[Titan III|Titan 3E Centaur]]
+
+''Voyager 1'' was originally planned as ''Mariner 12'' of the Grand Tour. The Grand Tour was a linked series of gravity assists that, with only the minimal fuel needed for course corrections, would enable a single probe to visit all four of the Uranus and Neptune. The identical ''Voyager 1'' and ''Voyager 2'' probes were designed with the possibility of a Grand Tour in mind, and their launches were timed to enable the Grand Tour if things went well. However, the two Voyagers were only funded by Congress as Jupiter-Saturn probes. 
+
+Because of this planetary alignment, ''Voyager'' could visit each of these planets in just twelve years, instead of the 30 that would usually be required.
+
+''Voyager 1'' was launched on Titan IIIE Centaur rocket, shortly after its sister craft, ''Voyager 2'' on August 20, 1977. Despite being launched after ''Voyager 2'', ''Voyager 1'' was sent on a faster trajectory so it reached Jupiter and Saturn before its sister craft.
+
+For details on the ''Voyager'' instrument packages, see the separate article on the Voyager program.
+
+=== Jupiter ===
+
+''Voyager 1'' began photographing Jupiter in January 1979. Its closest approach to Jupiter was on March 5, 1979, at a distance of 349,000 kilometers (217,000 miles) from its center. Due to the greater resolution allowed by close approach, most observations of the moons, rings, magnetic fields, and radiation environment of the Jupiter system were made in the 48-hour period bracketing closest approach. It finished photographing the planet in April.
+
+The two ''Voyager'' spacecraft made a number of important discoveries about Jupiter and its satellites. The most surprising was the existence of Io, which had not been observed from the ground or by '' 11''.
+<center>
+<gallery>
+image:790106-0203 Voyager 58M to 31M reduced.gif | ''Voyager 1'' time lapse movie of Jupiter approach.
+image:Great Red Spot From Voyager 1.jpg | The Great Red Spot as seen from ''Voyager 1''.
+Image:Volcanic crater with radiating lava flows on Io.jpg | Color picture of Io, Jupiter's innermost Galilean satellite.
+image:Jupiter from Voyager 1.jpg | False color detail of Jupiter's atmosphere, as imaged by ''Voyager 1''.
+image:Valhalla crater on Callisto.jpg | Valhalla crater on Callisto. Image taken by ''Voyager 1'' in 1979.
+</gallery>
+</center>
+
+=== Saturn ===
+
+The gravity assist at Jupiter was successful, and the spacecraft went on to visit Saturn. ''Voyager 1'''s Saturn flyby occurred in November 1980, with the closest approach on Titan. Because of the earlier discovery of a thick atmosphere on Titan, the ''Voyager'' controllers at the Jet Propulsion Laboratory elected for ''Voyager 1'' to make a close approach of Titan and terminate its Grand Tour. (For the continuation of the Grand Tour, see the Uranus and Neptune sections of the ''Voyager 2'' article.) The Titan-approach trajectory caused an additional gravitional deflection that took ''Voyager 1'' out of the plane of the ecliptic, thus ending its planetary science mission. Voyager 1 could have been given an altered trajectory, whereupon the slingshot effect of Saturn's gravity would have propelled the spacecraft to a rendezvous with Pluto, but this option was not exercised, because the different trajectory would have prohibited the close fly-by of Titan, which was a higher scientific priority at the time.<ref>[http://voyager.jpl.nasa.gov/faq.html Voyager - Frequently Asked Questions]</ref>
+<center>
+<gallery>
+image:Vg1_p23254.gif|''Voyager 1'' image of Saturn from 5.3 million km, four days after its closest approach.
+Image:Titan Harze.jpg | Layers of haze covering Saturn's satellite Titan.
+image:Titan's thick haze layer-picture from voyager1.jpg | Titan's thick haze layer is shown in this enhanced ''Voyager 1'' image.
+image:Voyager1-saturn-f-ring.jpg|''Voyager 1'' image of Saturn's F ring.
+</gallery>
+</center>
+
+== Interstellar mission ==
+
+It is estimated that both ''Voyager'' crafts have sufficient electrical power to operate their radio transmitters until at least after 2025, which will be over 48 years after launch.<ref>{{cite web
+|url = http://voyager.jpl.nasa.gov/spacecraft/spacecraftlife.html
+|title = Voyager – Spacecraft – Spacecraft Lifetime
+|accessdate = 2008-05-25
+|date = 2008-03-15
+|publisher = NASA Jet Propulsion Laboratory
+}}</ref>
+
+{| class="wikitable"
+! Year || End of specific capabilities as a result of the available electrical power limitations
+|-
+| 2007 || Termination of plasma subsystem (PLS)
+|-
+| 2008 || Power off Planetary Radio Astronomy Experiment (PRA)
+|-
+| 2010 || Terminate scan platform and Ultra Violet (UV) observations
+|-
+| 2015 || Termination of Data Tape Recorder (DTR) operations (limited by ability to capture 1.4&nbsp;kbit/s data using a 70&nbsp;m/34&nbsp;m antenna array)
+|-
+| 2016 approx || Termination of gyro operations
+|-
+| 2020 || Start shutdown of science instruments (as of 2008-03-18 the order is undecided but Low-Energy Charged Particles, Cosmic Ray Subsystem, Magnetometer and Plasma Wave Subsystem are expected to be operating) 
+|-
+| 2025 or after || Can no longer power any single instrument
+|}
+
+=== Heliopause ===
+
+thumb|250px|''Voyager 1'' is in the [[heliosheath.]]

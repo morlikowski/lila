@@ -1,0 +1,322 @@
+ISO 3166-1의 국가/지역 코드목록에 따라 다음 내용을 채운다.
+ <nowiki>20px|국가코드 나라이름</nowiki>
+ <nowiki>20px|국가코드 나라이름</nowiki>
+
+예를 들어 CAN의 경우, 캐나다이므로 아래와 같은 내용을 넣는다.
+ <nowiki>20px|CAN 캐나다</nowiki>
+
+* 국기 이미지는 :commons:Category:National flags에서 구하며, 300.png 시리즈를 우선적으로 이용한다. (이 시리즈가 가장 많고, 이름의 규칙성이 높아 쓰기 편하다.)
+* 국기가 없거나 국기의 가로 세로 비율이 특이한 나라는 따로 토론을 거쳐 결정한다.
+
+== 주요 국제 기구 ==
+* UN : 
+* EU : 
+* ASEAN : 
+
+== Redirect ==
+ISO 코드가 아닌 국가코드는 적절한 ISO code로 redirect 처리한다.
+
+* DEN -> DNK
+* GER -> DEU
+* BUL -> BGR
+* LAT -> LVA
+* ROK -> KOR
+* ROM -> ROU
+* POR -> PRT
+* LIT -> LTU
+* UK -> GBR
+* GRE -> GRC
+* SLO -> SVN
+* SPA -> ESP
+* IRE -> IRL
+* CRO -> HRV
+
+== 비 ISO 코드 ==
+FIFA code 사용:
+* ENG: 
+* SCO: 
+* WAL: 
+* NIR: 
+IOC 부호 사용:
+* TPE: 
+* TWN:  은 아래의 다른 기호도 있다:
+**ROC: :  Republic of China
+**ROC(TW): 틀:ROC(TW): Republic of China (Taiwan)
+**ROC-TW: 틀:ROC-TW: Republic of China (Taiwan)
+**TPE: : Chinese Taipei (used for Olympic team)
+**TPEf: : Chinese Taipei (used for the Soccer team)
+**China as ROC: 틀:China as ROC:  China (China before the Chinese Civil War)
+
+*N CYPRUS:
+
+Die folgende Liste zeigt alle Ländervorlagen nach Ländernamen sortiert. Die erste Spalte gibt die 3-stellige ISO-3166-Kodierung an, die zweite Spalte entsprechend das Kürzel des Internationalen Olympischen Komitees (IOC). Die dritte Spalte zeigt an, ob es sich um einen Mitgliedstaat der UNO handelt. Unabhängige Staaten von denen auch Vorlagen mit historischen Flaggen existieren, sind am Ende der Zeile mit einer Jahreszahl in Klammern gekennzeichnet.
+
+''Hinweise:''
+* Das ISO-Kürzel ''ANT'' (Niederländische Antillen) verhindert die Verwendung des IOC-Kürzels ''ANT'' (Antigua und Barbuda). Hier bitte das entsprechende ISO-Kürzel ''ATG'' verwenden.
+* Das ISO-Kürzel ''BRN'' (Brunei) verhindert die Verwendung des IOC-Kürzels ''BRN'' (Bahrain). Hier bitte das entsprechende ISO-Kürzel ''BHR'' verwenden.
+
+'''Wichtig: ''' Die Vorlagen sind '''ausschließlich''' zur Verwendung in Listen oder Tabellen gedacht, die Verwendung im Fließtext ist '''nicht''' erwünscht und wird revertiert.
+
+''Siehe auch:'' Wikipedia:Vorlagen subnationaler Einheiten mit Flagge, Wikipedia:Vorlagen internationaler Organisationen mit Flagge, Liste der olympischen Mannschaftskürzel
+
+== Unabhängige Staaten ==
+
+*<code>AFG AFG UN</code>           -  <!-- Afghanistan --> (2004)
+*<code>EGY EGY UN</code>           -  <!-- Ägypten --> (1958)
+*<code>ALB ALB UN</code>           -  <!-- Albanien -->
+*<code>DZA ALG UN</code>           -  <!-- Algerien -->
+*<code>AND AND UN</code>           -  <!-- Andorra -->
+*<code>AGO ANG UN</code>           -  <!-- Angola -->
+*<code>ATG ANT UN</code>                           -  <!-- Antigua und Barbuda -->
+*<code>GNQ GEQ UN</code>           -  <!-- Äquatorialguinea -->
+*<code>ARG ARG UN</code>           -  <!-- Argentinien -->
+*<code>ARM ARM UN</code>           -  <!-- Armenien -->
+*<code>AZE AZE UN</code>           -  <!-- Aserbaidschan -->
+*<code>ETH ETH UN</code>           -  <!-- Äthiopien --> (1996)
+*<code>AUS AUS UN</code>           -  <!-- Australien -->
+*<code>BHS BAH UN</code>           -  <!-- Bahamas -->
+*<code>BHR BRN UN</code>                           -  <!-- Bahrain -->
+*<code>BGD BAN UN</code>           -  <!-- Bangladesch -->
+*<code>BRB BAR UN</code>           -  <!-- Barbados -->
+*<code>BEL BEL UN</code>           -  <!-- Belgien -->
+*<code>BLZ BIZ UN</code>           -  <!-- Belize -->
+*<code>BEN BEN UN</code>           -  <!-- Benin --> (1990)
+*<code>BTN BHU UN</code>           -  <!-- Bhutan -->
+*<code>BOL BOL UN</code>           -  <!-- Bolivien -->
+*<code>BIH BIH UN</code>           -  <!-- Bosnien und Herzegowina -->
+*<code>BWA BOT UN</code>           -  <!-- Botsuana -->
+*<code>BRA BRA UN</code>           -  <!-- Brasilien -->
+*<code>BRN BRU UN</code>           -  <!-- Brunei -->
+*<code>BGR BUL UN</code>           -  <!-- Bulgarien --> (1878–1946, 1990)
+*<code>BFA BUR UN</code>           -  <!-- Burkina Faso --> (1984)
+*<code>BDI BDI UN</code>           -  <!-- Burundi -->
+*<code>CHL CHI UN</code>           -  <!-- Chile -->
+*<code>CHN CHN UN</code>           -  <!-- China -->
+*<code>COK COK &nbsp;&nbsp;</code> -  <!-- Cookinseln -->
+*<code>CRI CRC UN</code>           -  <!-- Costa Rica --> (1906)
+*<code>DNK DEN UN</code>           -  <!-- Dänemark -->
+*<code>DEU GER UN</code>           -  <!-- Deutschland --> (1990)
+*<code>DMA DMA UN</code>           -  <!-- Dominica -->
+*<code>DOM DOM UN</code>           -  <!-- Dominikanische Republik -->
+*<code>DJI DJI UN</code>           -  <!-- Dschibuti -->
+*<code>ECU ECU UN</code>           -  <!-- Ecuador -->
+*<code>SLV ESA UN</code>           -  <!-- El Salvador -->
+*<code>CIV CIV UN</code>           -  <!-- Elfenbeinküste (Côte d'Ivoire) -->
+*<code>ERI ERI UN</code>           -  <!-- Eritrea -->
+*<code>EST EST UN</code>           -  <!-- Estland -->
+*<code>FJI FIJ UN</code>           -  <!-- Fidschi -->
+*<code>FIN FIN UN</code>           -  <!-- Finnland -->
+*<code>FRA FRA UN</code>           -  <!-- Frankreich -->
+*<code>GAB GAB UN</code>           -  <!-- Gabun -->
+*<code>GMB GAM UN</code>           -  <!-- Gambia -->
+*<code>GEO GEO UN</code>           -  <!-- Georgien -->
+*<code>GHA GHA UN</code>           -  <!-- Ghana -->
+*<code>GRD GRN UN</code>           -  <!-- Grenada -->
+*<code>GRC GRE UN</code>           -  <!-- Griechenland --> (1978)
+*<code>GTM GUA UN</code>           -  <!-- Guatemala -->
+*<code>GIN GUI UN</code>           -  <!-- Guinea -->
+*<code>GNB GBS UN</code>           -  <!-- Guinea-Bissau -->
+*<code>GUY GUY UN</code>           -  <!-- Guyana -->
+*<code>HTI HAI UN</code>           -  <!-- Haiti --> (1804−1964, 1986)
+*<code>HND HON UN</code>           -  <!-- Honduras -->
+*<code>IND IND UN</code>           -  <!-- Indien -->
+*<code>IDN INA UN</code>           -  <!-- Indonesien -->
+*<code>IRQ IRQ UN</code>           -  <!-- Irak --> (2008)
+*<code>IRN IRI UN</code>           -  <!-- Iran --> (1979)
+*<code>IRL IRL UN</code>           -  <!-- Irland -->
+*<code>ISL ISL UN</code>           -  <!-- Island -->
+*<code>ISR ISR UN</code>           -  <!-- Israel -->
+*<code>ITA ITA UN</code>           -  <!-- Italien --> (1946)
+*<code>JAM JAM UN</code>           -  <!-- Jamaika -->
+*<code>JPN JPN UN</code>           -  <!-- Japan -->
+*<code>YEM YEM UN</code>           -  <!-- Jemen -->
+*<code>JOR JOR UN</code>           -  <!-- Jordanien -->
+*<code>KHM CAM UN</code>           -  <!-- Kambodscha --> (1948−1970, 1993)
+*<code>CMR CMR UN</code>           -  <!-- Kamerun -->
+*<code>CAN CAN UN</code>           -  <!-- Kanada --> (1965)
+*<code>CPV CPV UN</code>           -  <!-- Kap Verde -->
+*<code>KAZ KAZ UN</code>           -  <!-- Kasachstan -->
+*<code>QAT QAT UN</code>           -  <!-- Katar -->
+*<code>KEN KEN UN</code>           -  <!-- Kenia -->
+*<code>KGZ KGZ UN</code>           -  <!-- Kirgisistan -->
+*<code>KIR KIR UN</code>           -  <!-- Kiribati -->
+*<code>COL COL UN</code>           -  <!-- Kolumbien -->
+*<code>COM COM UN</code>           -  <!-- Komoren -->
+*<code>COD COD UN</code>           -  <!-- Kongo, Demokratische Republik --> (2006)
+*<code>COG CGO UN</code>           -  <!-- Kongo, Republik --> (1959−1970, 1991)
+*<code>PRK PRK UN</code>           -  <!-- Korea, Demokratische Volksrepublik --> 
+*<code>KOR KOR UN</code>           -  <!-- Korea, Republik -->
+*<code>HRV CRO UN</code>           -  <!-- Kroatien --> (1991)
+*<code>CUB CUB UN</code>           -  <!-- Kuba -->
+*<code>KWT KUW UN</code>           -  <!-- Kuwait -->
+*<code>LAO LAO UN</code>           -  <!-- Laos -->
+*<code>LSO LES UN</code>           -  <!-- Lesotho --> (2006)
+*<code>LVA LAT UN</code>           -  <!-- Lettland -->
+*<code>LBN LIB UN</code>           -  <!-- Libanon -->
+*<code>LBR LBR UN</code>           -  <!-- Liberia -->
+*<code>LBY LBA UN</code>           -  <!-- Libyen --> (1977)
+*<code>LIE LIE UN</code>           -  <!-- Liechtenstein -->
+*<code>LTU LTU UN</code>           -  <!-- Litauen -->
+*<code>LUX LUX UN</code>           -  <!-- Luxemburg -->
+*<code>MDG MAD UN</code>           -  <!-- Madagaskar -->
+*<code>MWI MAW UN</code>           -  <!-- Malawi -->
+*<code>MYS MAS UN</code>           -  <!-- Malaysia -->
+*<code>MDV MDV UN</code>           -  <!-- Malediven -->
+*<code>MLI MLI UN</code>           -  <!-- Mali -->
+*<code>MLT MLT UN</code>           -  <!-- Malta -->
+*<code>MAR MAR UN</code>           -  <!-- Marokko -->
+*<code>MHL MHL UN</code>           -  <!-- Marshallinseln -->
+*<code>MRT MTN UN</code>           -  <!-- Mauretanien -->
+*<code>MUS MRI UN</code>           -  <!-- Mauritius -->
+*<code>MKD MKD UN</code>           -  <!-- Mazedonien --> (1995)
+*<code>MEX MEX UN</code>           -  <!-- Mexiko -->
+*<code>FSM FSM UN</code>           -  <!-- Mikronesien -->
+*<code>MDA MDA UN</code>           -  <!-- Moldawien -->
+*<code>MCO MON UN</code>           -  <!-- Monaco -->
+*<code>MNG MGL UN</code>           -  <!-- Mongolei -->
+*<code>MNE MNE UN</code>           -  <!-- Montenegro --> (2006)
+*<code>MOZ MOZ UN</code>           -  <!-- Mosambik -->
+*<code>MMR MYA UN</code>           -  <!-- Myanmar --> (1989)
+*<code>NAM NAM UN</code>           -  <!-- Namibia -->
+*<code>NRU NRU UN</code>           -  <!-- Nauru -->
+*<code>NPL NEP UN</code>           -  <!-- Nepal -->
+*<code>NZL NZL UN</code>           -  <!-- Neuseeland -->
+*<code>NIC NCA UN</code>           -  <!-- Nicaragua -->
+*<code>NLD NED UN</code>           -  <!-- Niederlande -->
+*<code>NER NIG UN</code>           -  <!-- Niger -->
+*<code>NGA NGR UN</code>           -  <!-- Nigeria -->
+*<code>NOR NOR UN</code>           -  <!-- Norwegen -->
+*<code>OMN OMA UN</code>           -  <!-- Oman -->
+*<code>AUT AUT UN</code>           -  <!-- Österreich -->
+*<code>TLS TLS UN</code>           -  <!-- Osttimor (Timor-Leste) -->
+*<code>PAK PAK UN</code>           -  <!-- Pakistan -->
+*<code>PLW PLW UN</code>           -  <!-- Palau -->
+*<code>PAN PAN UN</code>           -  <!-- Panama -->
+*<code>PNG PNG UN</code>           -  <!-- Papua-Neuguinea -->
+*<code>PRY PAR UN</code>           -  <!-- Paraguay -->
+*<code>PER PER UN</code>           -  <!-- Peru -->
+*<code>PHL PHI UN</code>           -  <!-- Philippinen -->
+*<code>POL POL UN</code>           -  <!-- Polen -->
+*<code>PRT POR UN</code>           -  <!-- Portugal --> (1910)
+*<code>RWA RWA UN</code>           -  <!-- Ruanda --> (2001)
+*<code>ROU ROU UN</code>           -  <!-- Rumänien --> (1989)
+*<code>RUS RUS UN</code>           -  <!-- Russland --> (1991)
+*<code>SLB SOL UN</code>           -  <!-- Salomonen --> 
+*<code>ZMB ZAM UN</code>           -  <!-- Sambia -->
+*<code>WSM SAM UN</code>           -  <!-- Samoa -->
+*<code>SMR SMR UN</code>           -  <!-- San Marino -->
+*<code>STP STP UN</code>           -  <!-- São Tomé und Príncipe -->
+*<code>SAU KSA UN</code>           -  <!-- Saudi-Arabien -->
+*<code>SWE SWE UN</code>           -  <!-- Schweden -->
+*<code>CHE SUI UN</code>           -  <!-- Schweiz -->
+*<code>SEN SEN UN</code>           -  <!-- Senegal -->
+*<code>SRB SRB UN</code>           -  <!-- Serbien -->
+*<code>SYC SEY UN</code>           -  <!-- Seychellen --> (1996)
+*<code>SLE SLE UN</code>           -  <!-- Sierra Leone -->
+*<code>ZWE ZIM UN</code>           -  <!-- Simbabwe --> (1980)
+*<code>SGP SIN UN</code>           -  <!-- Singapur -->
+*<code>SVK SVK UN</code>           -  <!-- Slowakei --> (1983)
+*<code>SVN SLO UN</code>           -  <!-- Slowenien -->
+*<code>SOM SOM UN</code>           -  <!-- Somalia -->
+*<code>ESP ESP UN</code>           -  <!-- Spanien --> (1975)
+*<code>LKA SRI UN</code>           -  <!-- Sri Lanka -->
+*<code>KNA SKN UN</code>           -  <!-- St. Kitts und Nevis -->
+*<code>LCA LCA UN</code>           -  <!-- St. Lucia -->
+*<code>VCT VIN UN</code>           -  <!-- St. Vincent und die Grenadinen -->
+*<code>ZAF RSA UN</code>           -  <!-- Südafrika --> (1994)
+*<code>SDN SUD UN</code>           -  <!-- Sudan --> (1970)
+*<code>SUR SUR UN</code>           -  <!-- Suriname -->
+*<code>SWZ SWZ UN</code>           -  <!-- Swasiland -->
+*<code>SYR SYR UN</code>           -  <!-- Syrien -->
+*<code>TJK TJK UN</code>           -  <!-- Tadschikistan -->
+*<code>TWN TPE &nbsp;&nbsp;</code> -  <!-- Taiwan -->
+*<code>TZA TAN UN</code>           -  <!-- Tansania -->
+*<code>THA THA UN</code>           -  <!-- Thailand -->
+*<code>TGO TOG UN</code>           -  <!-- Togo -->
+*<code>TON TGA UN</code>           -  <!-- Tonga -->
+*<code>TTO TRI UN</code>           -  <!-- Trinidad und Tobago -->
+*<code>TCD CHA UN</code>           -  <!-- Tschad -->
+*<code>CZE CZE UN</code>           -  <!-- Tschechien -->
+*<code>TUN TUN UN</code>           -  <!-- Tunesien -->
+*<code>TUR TUR UN</code>           -  <!-- Türkei -->
+*<code>TKM TKM UN</code>           -  <!-- Turkmenistan -->
+*<code>TUV TUV UN</code>           -  <!-- Tuvalu -->
+*<code>UGA UGA UN</code>           -  <!-- Uganda -->
+*<code>UKR UKR UN</code>           -  <!-- Ukraine -->
+*<code>HUN HUN UN</code>           -  <!-- Ungarn -->
+*<code>URY URU UN</code>           -  <!-- Uruguay -->
+*<code>UZB UZB UN</code>           -  <!-- Usbekistan -->
+*<code>VUT VAN UN</code>           -  <!-- Vanuatu -->
+*<code>VAT &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</code>  -  <!-- Vatikanstadt -->
+*<code>VEN VEN UN</code>           -  <!-- Venezuela -->
+*<code>ARE UAE UN</code>           -  <!-- Vereinigte Arabische Emirate -->
+*<code>USA USA UN</code>           -  <!-- Vereinigte Staaten --> (1960)
+*<code>GBR GBR UN</code>           -  <!-- Vereinigtes Königreich -->
+*<code>VNM VIE UN</code>           -  <!-- Vietnam -->
+*<code>BLR BLR UN</code>           -  <!-- Weißrussland/Belarus --> (1995)
+*<code>CAF CAF UN</code>           -  <!-- Zentralafrikanische Republik -->
+*<code>CYP CYP UN</code>           -  <!-- Zypern -->
+
+== Abhängige Gebiete ==
+*<code>VIR ISV</code> -  <!-- Amerikanische Jungferninseln -->
+*<code>ASM ASA</code> -  <!-- Amerikanisch-Samoa -->
+*<code>AIA &nbsp;&nbsp;&nbsp; </code> -  <!-- Anguilla -->
+*<code>ABW ARU</code> -  <!-- Aruba -->
+*<code>BMU BER</code> -  <!-- Bermuda -->
+*<code>VGB ISB</code> -  <!-- Britische Jungferninseln -->
+*<code>IOT &nbsp;&nbsp;&nbsp;</code>  -  <!-- Britisches Territorium im Indischen Ozean -->
+*<code>ENG &nbsp;&nbsp;&nbsp;</code>  -  <!-- England als Land im Vereinigten Königreich -->
+*<code>FLK &nbsp;&nbsp;&nbsp;</code>  -  <!-- Falklandinseln -->
+*<code>FRO FRO</code> -  <!-- Färöer -->
+*<code>GUF &nbsp;&nbsp;&nbsp;</code>  -  <!-- Französisch-Guayana -->
+*<code>PYF &nbsp;&nbsp;&nbsp;</code>  -  <!-- Französisch-Polynesien -->
+*<code>GIB &nbsp;&nbsp;&nbsp;</code>  -  <!-- Gibraltar -->
+*<code>GRL &nbsp;&nbsp;&nbsp;</code>  -  <!-- Grönland -->
+*<code>GLP &nbsp;&nbsp;&nbsp;</code>  -  <!-- Guadeloupe -->
+*<code>GUM GUM</code> -  <!-- Guam -->
+*<code>GGY &nbsp;&nbsp;&nbsp;</code>  -  <!-- Guernsey (Kanalinsel) -->
+*<code>HKG HKG</code> -  <!-- Hongkong --> (1997)
+*<code>IMN &nbsp;&nbsp;&nbsp;</code>  -  <!-- Isle of Man -->
+*<code>JEY &nbsp;&nbsp;&nbsp;</code>  -  <!-- Jersey (Kanalinsel) -->
+*<code>CYM CAY</code> -  <!-- Kaimaninseln -->
+*<code>MAC &nbsp;&nbsp;&nbsp;</code>  -  <!-- Macao --> (1999)
+*<code>MYT &nbsp;&nbsp;&nbsp;</code>  -  <!-- Mayotte -->
+*<code>MTQ &nbsp;&nbsp;&nbsp;</code>  -  <!-- Martinique -->
+*<code>MSR &nbsp;&nbsp;&nbsp;</code>  -  <!-- Montserrat-->
+*<code>NCL &nbsp;&nbsp;&nbsp;</code>  -  <!-- Neukaledonien -->
+*<code>ANT AHO</code> -  <!-- Niederländische Antillen -->
+*<code>NIU &nbsp;&nbsp;&nbsp;</code>  -  <!-- Niue -->
+*<code>NIR &nbsp;&nbsp;&nbsp;</code>  -  <!-- Nordirland als Land im Vereinigten Königreich -->
+*<code>MNT &nbsp;&nbsp;&nbsp;</code>  -  <!-- Nördliche Marianen -->
+*<code>NFK &nbsp;&nbsp;&nbsp;</code>  -  <!-- Norfolkinsel-->
+*<code>PSE &nbsp;&nbsp;&nbsp;</code>  -  <!-- Palästinensische Autonomiegebiete -->
+*<code>PCN &nbsp;&nbsp;&nbsp;</code>  -  <!-- Pitcairninseln -->
+*<code>PRI PUR</code> -  <!-- Puerto Rico -->
+*<code>REU &nbsp;&nbsp;&nbsp;</code>  -  <!-- Réunion -->
+*<code>BLM &nbsp;&nbsp;&nbsp;</code> -  <!-- Saint-Barthélemy -->
+*<code>MAF &nbsp;&nbsp;&nbsp;</code> -  <!-- Saint-Martin -->
+*<code>SHN &nbsp;&nbsp;&nbsp;</code>  -  <!-- St. Helena -->
+*<code>SPM &nbsp;&nbsp;&nbsp;</code>  -  <!-- St. Pierre und Miquelon -->
+*<code>SCO &nbsp;&nbsp;&nbsp;</code>  -  <!-- Schottland (Vereinigtes Königreich) -->
+*<code>SGS &nbsp;&nbsp;&nbsp;</code> -  <!-- Südgeorgien und die Südlichen Sandwichinseln -->
+*<code>TIB &nbsp;&nbsp;&nbsp;</code>  -  <!-- Tibet -->
+*<code>TKL &nbsp;&nbsp;&nbsp;</code>  -  <!-- Tokelau, abhängiges  Gebiet Neuseelands -->
+*<code>TCA &nbsp;&nbsp;&nbsp;</code>  -  <!-- Turks- und Caicosinseln -->
+*<code>WLS &nbsp;&nbsp;&nbsp;</code>  -  <!-- Wales als Land im Vereinigten Königreich -->
+*<code>WLF &nbsp;&nbsp;&nbsp;</code>  -  <!-- Wallis und Futuna -->
+*<code>ESH &nbsp;&nbsp;&nbsp;</code>  -  <!-- Westsahara -->
+
+== Ehemalige Staaten (im Sinne des IOC) ==
+
+*<code>&nbsp;&nbsp;&nbsp;&nbsp;  FRG</code> -  <!-- Bundesrepublik Deutschland --> (1949– 1990)
+*<code>&nbsp;&nbsp;&nbsp;&nbsp;  GDR</code> -  <!-- Deutsche Demokratische Republik --> (1949–1990)
+*<code>&nbsp;&nbsp;&nbsp;&nbsp;  YUG</code> -  <!-- Jugoslawien --> (1945–1991)
+*<code>&nbsp;&nbsp;FR-YUG</code> -  <!-- Bundesrepublik Jugoslawien --> (1992–2003)
+*<code>SCG&nbsp;&nbsp;SCG</code> -  <!-- Serbien und Montenegro --> (2003–2006)
+*<code>SUN-1923</code> -  <!-- Sowjetunion --> (1923–1955)
+*<code>SUN-1955</code> -  <!-- Sowjetunion --> (1955–1980)
+*<code>SUN&nbsp;&nbsp;URS</code> -  <!-- Sowjetunion --> (1980–1991)
+*<code>&nbsp;&nbsp;&nbsp;&nbsp;  TCH</code> -  <!-- Tschechoslowakei --> (1918–1939 und 1945–1992)
+*<code>&nbsp;&nbsp;&nbsp;&nbsp;  EUN</code> -  <!-- Vereintes Team (GUS) --> (1992)
+
+== De-facto unabhängige international nicht bzw. teilweise anerkannte Territorien ==

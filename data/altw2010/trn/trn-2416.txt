@@ -1,0 +1,84 @@
+thumb|150px|A [[space-filling model of the diatomic molecule ''dinitrogen'', N<sub>2</sub>.]] 
+
+'''Diatomic molecules''' are molecules made only of two atoms, of either the same or different chemical elements. The prefix di- means two in Greek. 
+
+== Description and occurrence in nature ==
+
+Huber and Herzberg's book, interstellar space.  However, few diatomics are found to occur naturally on Earth outside of laboratories.  About 99% of the  oxygen O<sub>2</sub> (21%) and nitrogen N<sub>2</sub> (78%), with the remaining 1% being mostly  hydrogen (H<sub>2</sub>) in the Earth's atmosphere is only on the order of parts per million, but H<sub>2</sub> is, in fact, the most abundant molecule seen in nature, dominating the composition of stars.  
+
+Elements that consist of diatomic molecules, under typical laboratory conditions of 1 bar and 25 <sup>o</sup>C, include  hydrogen (H<sub>2</sub>), nitrogen (N<sub>2</sub>), oxygen (O<sub>2</sub>), and the fluorine (F<sub>2</sub>), chlorine (Cl<sub>2</sub>), bromine (Br<sub>2</sub>), iodine (I<sub>2</sub>), and, perhaps, astatine (At<sub>2</sub>).<ref> Astatine is so rare in nature, with its most stable compounds are made of diatomic molecules, including CO and HBr.
+
+If a diatomic molecule consists of two atoms of the same element, such as H<sub>2</sub> and O<sub>2</sub>, then it is said to be '''homonuclear''', but otherwise it is said to '''heteronuclear''', such as with CO or NO.  The bond in a homonuclear diatomic molecule is non-polar and fully covalent.
+
+==Molecular Geometry==
+
+The diatomic molecule spatial arrangement of atoms.<ref name = "qpxlgb">"VSEPR - A Summary". University of Berkeley College of Chemistry. 20 Jan 2008. http://mc2.cchem.berkeley.edu/VSEPR/</ref>. This configuration is more commonly referred to in the VSEPR theory as the AX1E* . Unlike other systems in VSEPR, there is no central atom.<ref>"Shapes of Molecules". 20 Jan 2008. http://www.ausetute.com.au/shapemol.html</ref><ref name = "qpxlgb"/>
+
+== Historical significance ==
+
+Diatomic elements played an important role in the elucidation of the concepts of element, atom, and molecule in the 19th century, because some of the most common elements, such as hydrogen, oxygen, and nitrogen, occur as diatomic molecules. John Dalton's original atomic hypothesis assumed that all elements were monatomic and that the atoms in compounds would normally have the simplest atomic ratios with respect to one another. For example, Dalton assumed that water's formula was HO, giving the atomic weight of oxygen as 8 times that of hydrogen, instead of the modern value of about 16. As a consequence, confusion existed regarding atomic weights and molecular formulas for about half a century.
+
+As early as 1805, Gay-Lussac and von Humboldt showed that water is formed of two volumes of hydrogen and one volume of oxygen, and by 1811 Amedeo Avogadro had arrived at the correct interpretation of water's composition, based on what is now called Avogadro's law and the assumption of diatomic elemental molecules.  However, these results were mostly ignored until 1860.  Part of this rejection was due to the belief that atoms of one element would have no chemical affinity towards atoms of the same element, and part was due to apparent exceptions to Avogadro's law that were not explained until later in terms of dissociating molecules. 
+
+At the 1860 Karlsruhe Congress on atomic weights, Cannizzaro resurrected Avogadro's ideas and used them to produce a consistent table of atomic weights, which mostly agree with modern values.  These weights were an important pre-requisite for the discovery of the periodic law by Dmitri Mendeleev and Lothar Meyer.<ref></ref>
+
+== Energy levels ==
+
+It is convenient, and common, to represent a diatomic molecule as two point masses (the two atoms) connected by a massless spring.  The energies involved in the various motions of the molecule can then be broken down into three categories.
+
+* The translational energies
+* The rotational energies
+* The vibrational energies
+
+===Translational energies===
+
+The translational energy of the molecule is simply given by the kinetic energy expression:
+
+:<math>E_{trans}=\frac{1}{2}mv^2</math>
+
+where ''m'' is the mass of the molecule and ''v'' is its velocity.
+
+===Rotational energies===
+
+Classically, the kinetic energy of rotation is
+::<math>E_{rot} = \frac{L^2}{2 I} \,</math>
+:where
+::<math>L \,</math> is the angular momentum
+::<math>I \,</math> is the moment of inertia of the molecule
+
+thumb|250px|Representació per ordinador d'una molécula diatòmica de nitrògen.
+
+'''Molècules diatòmicas''' (del grec δι, dos i ''άτομον'', àtom) són molècules formades exactament per dos àtoms del mateix o diferent element químic.
+
+'''Elements diatòmics''' són aquells que pràcticament existeixen exclusivament com a molècules diatómicas, són conegudes com a molècules diatòmicas homonucleares quan en el seu estat natural no estan químicament enllaçats amb un altre element. Entre els exemples més comuns hi trobem l'H<sub>2</sub> i l'O<sub>2</sub>.
+
+La atmosfera terrestre està formada gairebé en un 99% per molècules diatòmicas: oxigen (O<sub>2</sub>) (21%) i nitrogen (N<sub>2</sub>) (78%). El 1% restant és principalment argó (0,9340%).
+
+L'oxigen també existeix en forma de molècula ''triatòmica'' ozó (O<sub>3</sub>).
+
+Els elements diatòmics són l'hidrogen, el nitrogen, l'oxigen, i els halogens: fluor, clor, brom, iode, i àstat. La astatina és tan rara en la naturalesa (el seu isòtop més estable té una vida mitja de només 8,1 hores) que habitualment no la té en compte. Molts de metalls són també diatómicos quan es troben en estat gasós.
+
+L'enllaç en una molècula diatòmica homonuclear és no polar i totalment covalent. Exemples de molècules diatòmicas '''heteronucleares''' inclouen el monòxid de carboni (CO) o l'òxid nítric (NO).
+
+Altres elements existeixen amb forma diatòmica però amb una alta inestabilitat i reactivitat. Com per exemple tindríem el difòsfor (P<sub>2</sub>).
+
+==Nivells energètics==
+
+Un model aproximat d'una molècula diatòmica serien unes peses, és a dir, cada àtom situat en els extrems oposats d'una barra.
+
+El moviment d'aquest conjunt només pot ser de dos tipus:
+
+* Pot rotar o girar entorn d'un eix.
+
+* Pot vibrar com si els àtoms oscil·lessin acostant-se i allunyant-se entre ells.
+
+===Moviment rotacional===
+
+Clàssicament, la energia cinètica de rotació és
+
+::<math>E_{rot} = \frac{L^2}{2 I} \,</math>
+:donde
+::<math>L \,</math> és el moment angular
+::<math>I \,</math> és el moment d'inercia de la molècula
+
+Ara, per als sistemes quàntics com una molècula, el moment angular només pot tenir certs nivells discrets. Pel que el moment angular ve donat per

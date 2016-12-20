@@ -1,0 +1,30 @@
+'''G.723.1''' is an audio codec for voice that compresses voice audio in 30 ms frames. An algorithmic look-ahead of 7.5 ms duration means that total algorithmic delay is 37.5 ms.
+
+Note that this is a completely different codec from G.723.
+
+There are two bit rates at which G.723.1 can operate:
+* 6.3 kbit/s (using 24 byte frames) using a MOS 3.9)
+* 5.3 kbit/s (using 20 byte frames) using an MOS 3.62)
+
+== Use ==
+G.723.1 is mostly used in Voice over IP (out-of-band methods should be used to transport these signals. The complexity of the algorithm is below 16 MIPS. 2.2 kilobytes of RAM is needed for codebooks.
+
+== Features ==
+* Sampling frequency 8 kHz/16-bit (240 samples for 30 ms frames)
+* Fixed bit rate (5.3 kbit/s with 20 byte 30 ms frames, 6.3 kbit/s with 24 byte 30 ms frames)
+* Fixed frame size for each rate (5.3 kbit/s with 20 byte 30 ms frames, 6.3 kbit/s with 24 byte 30 ms frames)
+* Algorithmic delay is 37.5 ms per frame, with 7,5 ms look-ahead delay
+* G.723 is a hybrid speech coder, with high bit rate using Multi-Pulse Maximum Likelihood Quantization (MP-MLQ) and low bit rate using Algebraic Code Excited Linear Prediction (ACELP)
+* The complexity of the algorithm is rated at 25, using a relative scale where G.711 is 1 and G.729a is 15.
+* G.723.1 Annex A defines 4 byte Silence Insertion Descriptor (SID) frame for Comfort Noise Generation
+* Mean Opinion Scores of 4.08 for G.723.1 (6.3 kbit/s), compared to 4.45 for G.711 (μ-law)
+*Mean Opinion Scores of 3.57 for G.723.1 (6.3 kbit/s), compared to 4.13 for G.711 (μ-law)
+
+'''G.723.1''' — один из базовых IP-телефонии. Утвержден ITU-T в рекомендации G.723.1 в ноябре 1995 года. Выбран форумом IMTC как базовый для приложений IP-телефонии.
+
+Кодек G.723.1 генерирует кадры длительностью 30 мс, предварительно анализируя 7,5 мс сигнала.
+
+Предусмотрено два режима работы: 6.4 Кбит/с (кадр имеет размер 189 битов, дополненных до 24 байтов) и 5,3 Кбит/с (кадр имеет размер 158 битов, дополненных до 20 байтов). Режим работы может меняться динамически от кадра к кадру. Оба режима обязательны для реализации.
+
+Оценка MOS (Mean Opinion Score) составляет 3,9 в режиме 6,3 Кбит/с и 3,7 в режиме 5,3 Кбит/с.
+Кодек специфицирован на основе операций как с плавающей точкой, так и с фиксированной точкой в виде кода на языке MIPS.

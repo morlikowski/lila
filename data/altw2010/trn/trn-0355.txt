@@ -1,0 +1,63 @@
+{{Infobox VG
+|title = Armed Police BatRider
+|image = 225 px|Screenshot of Armed Police BatRider
+|caption=Screenshot of Armed Police BatRider
+|developer = 8ing/Raizing
+|publisher = 8ing/Raizing
+|designer = Kazuyuki Nakashima 
+|release = 1998 (Arcade)
+|platforms= Arcade Game
+|genre = Shooter game
+|modes = co-op
+|cpu=68000
+|sound=Z80<br>Sound Chips : YM2610, OKI6295 
+|cabinet=Upright
+|display=Raster, 240 x 320 pixels, 2048 colors
+|input = 8-way Buttons
+}}
+
+'''Armed Police Batrider''' is a vertically scrolling 1998. The player controls a flying jet bike called a Batrider, with a choice of 9 pilots (and a further 9 secret pilots) each with unique modifications to the Batrider, and four different configurations (Normal, Option, Bomber, Speed Up). One can play as the Police team, Psychic team or Criminal team. You shoot enemies in the air and ground, collect bosses to advance up to 7 stages. There are many variations and secrets in the game and this style of game spawned a popular sub-genre in scrolling shooter games.
+
+== Story ==
+
+In the year 2004, Manhattan was plagued with unprecedented levels of crime. No measure of law enforcement seemed able to combat the strife and violence, and so a desperate plan was brought forth by GiganTech Cybertronics Corporation. This plan was the artificial island Zenovia, two kilometers south of Manhattan, which would be patrolled by GiganTech's own robotic creations. A rapid exodus from Manhattan to Zenovia resulted.
+
+However, by 2019, the promise of tranquility has not been fulfilled. Even with all the expansions to Zenovia the population influx called for, it has become something of a slum, except for the massive GiganTech headquarters. There have been quarrels over whether or not Zenovia should be regarded as being the jurisdiction of the United States, or just GiganTech. Crime, amazingly, has grown even more rapidly than Manhattan ever knew--partly because the GiganTech machines have been promoting everything EXCEPT law and order. The most horrific aspect, though, is the result of an intelligence investigation from the government...
+
+GiganTech's own executives, both then and now, are actually among the most dangerous criminals the country has ever known. Zenovia, far from being planned as a refuge from violence, was actually a trap and a testing ground for the weapons GiganTech plans to use to become the sole power of the underworld.
+
+Neither police nor armies are willing to commit against the mechanical forces that GiganTech commands and invade Zenovia. Therefore, nine fighters--three police, three convicts, and three psychics--have been drafted as "Zero-Cops", riding the BatRider airbikes against the forces invading Manhattan and charging into Zenovia to take down GiganTech's CEO and his ultimate weapon, known only as "Discharge".
+
+== Game Modes ==
+The game allows many different modes of play, if they are enabled via dip switches or cheat codes. There are three difficulty levels: the easy mode only lasts for three levels, but if the player takes a hit, a bomb will automatically be used instead of losing a life (meaning a life is only lost when the player runs out of bombs). The normal mode lasts for five levels, and the hard mode is the full game of seven levels. The player can also go through one of two entire sets of levels, either the normal course or the advanced course. When selecting characters, the player can choose Team Select (select one of three sets of characters, using only one of each ship), Custom Team Select (choose any characters you wish), or Single Character (choose one character with multiple lives).  With use of dipswitches it is also possible to access Team Edit mode where any three characters may be selected as one team.  [Korean release has all characters implemented and all game modes available from the outset without need for codes or dipswitch settings.
+
+Special course is a hidden boss attack game mode, featuring 8 bosses. The player starts with everything fully powered up.  [More bosses are available with proper character selection and gameplay, i.e. not losing a particular character until the next boss has been activated.
+
+== Gameplay ==
+In usual shooter fashion, the player has their primary guns, and a supply of bombs. With certain power-ups, secondary guns will appear alongside the player's ship, called Options. If one of the cameo ships from ''Battle Garegga'' is being used, the formation of the Options can be manipulated at will. In some cabinets, this can be done with a third button. However, two-button cabinets require the player to enter specific joystick movements to change the Option formation. In addition to the standard methods of causing destruction, pressing nothing will fire your Aura (later reused in Battle Bakraid), an energy field at the front of your ship which damages enemies and absorbs certain types of bullets.  
+
+Enemies and scenery will generally give different scores depending upon which weapon you attack them with; along with medal collection this is one of the most important aspects to scoring well in Batrider, as in some instances it's possible to earn a score several times higher simply by attacking with a bomb or aura instead of the regular shot.  
+
+'''アームドポリス バトライダー'''（ARMED POLICE BATRIDER）は1998年12月にライジングからアーケードゲームとして発売された縦スクロールシューティングゲーム。
+
+== 概要 ==
+操作系は8方向レバーと2ボタン（ショット、ボンバー）。隠れキャラクターである『バトルガレッガ』の機体のみ3ボタン目（フォーメーション変更）が用意されている。（3ボタン目がコンパネにない場合はコマンドで変更可能）
+ボンバーは『バトルガレッガ』のスペシャルウェポンと同様の方式。一定時間ショットボタンを離した後ボタンを押すと、一定時間強力なショットを発射した上でオプションを設置する「溜め撃ち」が使える。
+
+腕前に応じて3つのコースが選択可能になっている。さらに隠しコマンドで4つ目のコースも選択できる。
+*練習コース
+3ステージで終了。敵弾が当たりそうになると自動でボンバーする「オートボンバー」機能付き。
+*一般コース
+5ステージで終了する。
+*上級コース
+全7ステージ。これをクリアすることでこの作品をALLクリアしたと言えよう。
+*特別コース
+各ステージのボス戦のみを行うコース。
+
+前作扱いの『バトルガレッガ』にて、電源パターンと呼ばれるアイテム調整（敵が落とすアイテムテーブルがプレー間ではリセットされないが、電源断でリセットされる）からの反省か、今作では電源投入直後に難易度が上がるというプログラムが仕込まれている。
+
+== チームプレイ ==
+今作では異なる種類の自機を3機選んだ上でゲームが進行する（3機を同じ機体にすることも可能）。残機については従来と同様の方式で、ミスをすると次にストックされた機体が登場。3機全てがミスするとゲームオーバーで、ミスした自機の復活は一定得点を取ったときなどに出現するエクステンドアイテムでのみ行われる。3機以上増えることはなく、ステージ間でも自機の交換はできない。あくまで『バトルガレッガ』の中心戦術だった「残機潰し」の戦略的進化である。
+
+==登場キャラクター==
+選択できる自機はデフォルトの9機に加えて隠し機体9機（『バトルガレッガ』の機体4体＋『魔法大作戦』の機体4体＋本作オリジナルの機体1体（キャラクターは『疾風魔法大作戦』に登場））の計18機とシューティングゲームでは破格の多さとなっている。

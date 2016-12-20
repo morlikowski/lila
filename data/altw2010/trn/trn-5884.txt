@@ -1,0 +1,98 @@
+{{FRA gmina infobox|
+|    herb_gminy = 
+|   flaga_gminy = 
+|    mapa_gminy = 
+|         Gmina = Montdoré
+|        region = Franche-Comté
+|   departament = Haute-Saône
+|  powierzchnia = 7,67
+|      stopniEW = 6 |minutEW=5 
+|      stopniNS = 47 |minutNS=55 
+|      wysokosc = 
+|          szer = N
+|          dług = E
+|           rok = 1990
+|     populacja = 92
+|       gęstość = 12
+|  kod_pocztowy = 70210
+|         INSEE = 70360
+}}
+'''Montdoré''' to miejscowość i gmina we Francji, w regionie Franche-Comté, w departamencie Haute-Saône.
+
+Według danych na rok 1990 gminę zamieszkiwały 92 osoby, a gęstość zaludnienia wynosiła 12&nbsp;osób/km² (wśród 1786 gmin Franche-Comté Montdoré plasuje się na 651. miejscu pod względem liczby ludności, natomiast pod względem powierzchni na miejscu 594.).
+
+=== Linki zewnętrzne ===
+* Źródło danych: [http://www.insee.fr Insee]
+* '''Mapy i zdjęcia satelitarne: '''
+** Zdjęcie satelitarne: [http://maps.google.com/maps?ll=47.9167,6.833&spn=0.1,0.1&t=k Google maps]
+** Mapa: [http://maps.msn.com/(cgxnej455qpgxeu5vurxtejz)/map.aspx?&lats1=47.9167&lons1=6.833&alts1=14&regn1=2 MSN World Atlas]
+
+{{infobox Franse gemeente|
+|plaatsnaam= Montdoré
+|wapen= 
+|kaart= 
+|regio= Franche-Comté 
+|departement= Haute-Saône (70)
+|arrondissement= Lure
+|kanton= Vauvillers
+|jaar= 1999
+|inwoners= 64
+|dichtheid= 8,3
+|oppervlakte= 7,7
+|water= 
+|latitudeGraden= 47 |latitudeMinuten= 55|latitudeSeconden= 0
+|longitudeGraden= 6 |longitudeMinuten= 5 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 237 |kaartY= 108
+|code= 70360
+|postcode= 70210
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Montdoré''' is een gemeente in het Franse departement Lure.
+
+==Geografie==
+De oppervlakte van Montdoré bedraagt 7,7 km², de bevolkingsdichtheid is 8,3 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:300 color:gray1 width:1       
+  from:start till:end             
+  bar:200 color:gray1              
+  from:start till:end            
+  bar:100 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,62)(84,61) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 74 1968: 73
+  points:(84,61)(100,62)    color:blue    width:2 #1975: 75
+  points:(100,62)(128,61)   color:blue    width:2 #1982: 72
+  points:(128,61)(160,72)   color:blue    width:2 #1990: 92
+  points:(160,72)(196,56)   color:blue    width:2 #1999: 64
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+==Externe links==
+*[http://www.mapquest.com/maps/map.adp?searchtype=address&formtype=latlong&latlongtype=degrees&latdeg=47&latmin=55&latsec=0&longdeg=6&longmin=5&longsec=0&zoom=6 Locatie van de gemeente (kaart met schaal 1:100.000) op Mapquest]
+*[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=70360&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Meer statistische informatie over de gemeente op www.insee.fr] 

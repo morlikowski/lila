@@ -1,0 +1,95 @@
+{{infobox Franse gemeente|
+|plaatsnaam= Cambernard
+|wapen= 
+|kaart= 
+|regio= Midi-Pyrénées 
+|departement= Haute-Garonne (31)
+|arrondissement= Muret
+|kanton= Saint-Lys
+|jaar= 2004
+|inwoners= 400
+|dichtheid= 46,5
+|oppervlakte= 8,6
+|water= 
+|latitudeGraden= 43 |latitudeMinuten= 29|latitudeSeconden= 0
+|longitudeGraden= 1 |longitudeMinuten= 12 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 133 |kaartY= 249
+|code= 31101
+|postcode= 31470
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Cambernard''' is een gemeente in het Franse departement Muret.
+
+==Geografie==
+De oppervlakte van Cambernard bedraagt 8,6 km², de bevolkingsdichtheid is 46,5 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:480 color:gray1 width:1       
+  from:start till:end             
+  bar:320 color:gray1              
+  from:start till:end            
+  bar:160 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,71)(84,71) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 145 1968: 145
+  points:(84,71)(100,82)    color:blue    width:2 #1975: 176
+  points:(100,82)(128,108)   color:blue    width:2 #1982: 248
+  points:(128,108)(160,129)   color:blue    width:2 #1990: 308
+  points:(160,129)(196,140)   color:blue    width:2 #1999: 340
+  points:(196,140)(228,162)     color:blue    width:2 #2004/5 
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+{{FRA gmina infobox
+|    herb_gminy = grafika:Blason_Cambernard.svg
+|   flaga_gminy = 
+|    mapa_gminy = 
+|         Gmina = Cambernard
+|        region = Midi-Pyrénées
+|   departament = Haute-Garonne
+|  powierzchnia = 8,56
+|      stopniEW = 1 |minutEW = 12 
+|      stopniNS = 43 |minutNS = 29 
+|          szer = N
+|          dług = E
+|      wysokosc = 
+|           rok = 1990
+|     populacja = 308
+|       gęstość = 36
+|  kod_pocztowy = 31470
+|         INSEE = 31101
+|}}
+'''Cambernard''' to miejscowość i gmina we Francji, w regionie Haute-Garonne.
+
+Według danych na rok 1990 gminę zamieszkiwało 308 osób, a gęstość zaludnienia wynosiła 36&nbsp;osób/km² (wśród 3020 gmin regionu Midi-Pyrénées Cambernard plasuje się na 759. miejscu pod względem liczby ludności, natomiast pod względem powierzchni na miejscu 1200.).
+
+=== Linki zewnętrzne ===
+* Źródło danych: [http://www.insee.fr Insee]
+* '''Mapy i zdjęcia satelitarne: '''
+** Zdjęcie satelitarne: [http://maps.google.com/maps?ll=43.4833,1.2&spn=0.1,0.1&t=k Google maps]
+** Mapa: [http://maps.msn.com/(cgxnej455qpgxeu5vurxtejz)/map.aspx?&lats1=43.4833&lons1=1.2&alts1=14&regn1=2 MSN World Atlas]

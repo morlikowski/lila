@@ -1,0 +1,103 @@
+{{infobox file format
+| extension    = .ogv
+| mime         = video/ogg
+| owner        = [http://xiph.org/ Xiph.Org Foundation]
+| genre        = Video codec
+| containedby  = Ogg
+| extendedfrom = VP3
+| standard     = [http://www.theora.org/doc/Theora.pdf Specification]
+}}
+
+'''Theora''' is an open and royalty-free WMV, and similar low-bitrate video compression schemes.
+
+Theora is named for Max Headroom'' television program.
+
+== Technical details ==
+
+Theora is a container format. At the time of writing (June 2006), Theora video is generally included in Ogg container format. It is frequently paired with Vorbis audio.
+
+The combination of the Ogg container format, Theora video and Vorbis audio allows for a completely open, royalty-free multimedia format. Other multimedia formats, such as MPEG-4 video and MP3 audio, are patented and subject to license fees for commercial use.
+
+Like many other image and video formats, Theora uses DCT block. This is comparable to 2/4. It supports intra coded frames and forward predictive frames but not bi-predictive frames that can be found in many other video codecs. <ref>http://theora.org/doc/Theora_I_spec.pdf</ref>
+
+== History ==
+
+'''VP3''' was originally a proprietary and patented video codec developed by On2 Technologies.
+In September 2001, VP3 was donated to the public as free and open source software, and On2 disclaimed all rights to it, including their patents on the technology, letting anyone use Theora and other VP3-derived codecs for any purpose.<ref></ref>  
+In 2002, On2 entered into an agreement with the Xiph.Org Foundation to make VP3 the basis of a new, free video codec, Theora.  On2 christened Theora as the successor in VP3's lineage.
+
+== Current status ==
+
+As of May 2008, Theora is in final beta stage (1.0 beta 3) before the official release of version 1.0. The bitstream format was frozen with alpha 3 (July 2004), so videos encoded with any version of Theora since that time will continue to be compatible with any future player.
+
+== Performance ==
+
+Previous evaluations have found VP3<ref></ref> 
+and Theora<ref></ref> <ref></ref> 
+substantially lacking compared to contemporary video codecs (having been called comparable in quality and bit rate to H.261,<ref></ref> 
+although some dispute this point).<!--http://www.heise.de/newsticker/meldung/100380/-->  
+
+=== Efforts to improve performance ===
+
+Sources close to Xiph.org have stated that the performance characteristics of the current Theora reference implementation are mostly dominated by implementation issues inherited from the original VP3 code base. An internal document exists, which lists the known implementation problems and gives an example of how improving one aspect of the encoder can lead to visibly improved quality.<ref></ref>  Current work on Theora is focused on an experimental version, which targets correcting aspects of the encoder which were identified in that paper as being suboptimal. This experimental version is supposed to replace the current encoder in a future Theora release.
+
+== Playback ==
+
+=== In browser playback ===
+
+* [http://metavid.ucsc.edu/wiki/index.php/Mv_Embed Mv Embed] HTML 5 video tag wrapper for numerous plugin types. 
+* Cortado, a Java based applet
+** Itheora, a PHP wrapper for Cortado
+* Native browser playback via [http://my.opera.com/ResearchWizard/blog/experimental-opera-video-build-with-native-ogg-theora-support opera video build] or [http://www.bluishcoder.co.nz/2008/05/firefox-html5-video-and-audio-update.html firefox video build]. (originally part of html5 standard) 
+* Annodex plugin via [http://wiki.xiph.org/index.php/OggPlay OggPlay] 
+* VLC browser plugin for IE or Firefox
+
+=== Supporting media frameworks ===
+
+* Totem
+* QuickTime with use of [http://xiph.org/quicktime/ Xiph QuickTime Components]
+* DirectShow with use of [http://www.xiph.org/dshow/ DirectShow filters]
+
+: ''Si vous visitez cette page parce que votre ordinateur n'arrive pas à afficher un fichier vidéo, voir Aide:Regarder des vidéos ogg''
+
+'''Theora''' est un vidéo libre et sans brevets promu par la fondation Xiph.org. C'est un des composants de leur projet de format d'encapsulation Ogg, qui a pour but de créer un ensemble de standards ouverts concernant le traitement de signaux multimédia (son, vidéo). Theora fournit la vidéo.
+
+Theora utilise une licence de type BSD et se base sur le libre VP3 de On2 Technologies.
+
+Theora est un codec qui entre en compétition avec des codecs tels que MPEG-4 (exemple : le XviD et le DivX), Windows Media Video ou RealVideo. 
+
+À noter que contrairement au codec XviD, le codec Theora n'est soumis à aucun brevet appartenant au MPEG-4. Le Theora est tout de même soumis à des brevets appartenant à On2 Technologies mais On2 a donné le droit irrévocable d'utiliser les brevets en question sans aucune restriction<ref>[http://www.theora.org/theorafaq.html#24 Theora.org :: FAQ - Theora, video for everyone<!-- Titre généré automatiquement -->]</ref>.
+
+Ceci donne le droit à tous d'utiliser le Theora à des fins non commerciales tout comme à des fins commerciales sans payer de redevance au consortium MPEG, ce qui n'est pas le cas du XviD ni du DivX ni de tout autre codec vidéo de cette qualité.
+
+== Étymologie ==
+
+Le nom Theora est basé, comme tous ceux de Xiph.org, sur celui d'un personnage de fiction. Il s'agit ici de Theora Jones, personnage de la série télévision Max Headroom.
+
+== Historique ==
+
+* Septembre 2001 : Le codec VP3 est publié
+* Mars 2002 : Première annonce par Xiph.org de l'intention de créer un nouveau codec basé sur VP3
+* Septembre 2002 : Version Alpha un de Theora
+* Décembre 2002 : Version Alpha deux
+* Juin 2003 : première implémentation de référence
+* Janvier 2004 : intégration à Helix Player
+* Mars 2004 : Version Alpha trois
+* Juin 2004 : le format Theora est déclaré définitif. Il ne changera plus et tous les flux encodés avec les versions ultérieures seront rétro-compatibles.
+* Décembre 2004 : Version Alpha quatre
+* Août 2005 : Version Alpha cinq
+* Mai 2006 : Version Alpha six
+* Juin 2006 : Version Alpha sept : mmx activé par défaut.
+
+== Logiciels utilisant Theora ==
+
+Theora n'est pas encore très répandu, à la différence de Vorbis.
+
+PeerTV propose des chaines en Ogg Theora, via le réseau PeerCast.
+
+=== Lecteurs vidéos libres ===
+
+* VLC
+* Helix Player
+* Xine et MPlayer
+* Tous les lecteurs basés sur ffmpeg

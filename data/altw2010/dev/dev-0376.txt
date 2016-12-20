@@ -1,0 +1,73 @@
+{{Gamebox
+|nomegioco=Wing Commander: Armada
+|immagine=
+|immaginetext=
+|ideatore=Chris Roberts
+|sviluppo=Origin Systems
+|pubblicazione=Electronic Arts
+|datarilascio=1994
+|tema=Fantascienza
+|serie=Wing Commander
+|genere=Simulatore di volo
+|genere1=
+|genere2=
+|generealtro=
+|modigioco=Singolo giocatore, multiplayer
+|piattaforma=MS-DOS
+|motore=
+|tipomedia = CD-ROM
+|requisiti=
+|periferiche= Tastiera
+|espansioni=
+|cpu=
+|audio=
+|monitor=
+|risoluzione=
+|periferiche_arcade=
+|sezione=
+|sezionetext=
+}}
+'''''Wing Commander: Armada''''' è il un videogioco della serie di simulatori di volo fantascientifici ''Wing Commander''. Il videogioco come i predecessori è stato sviluppato dall'Origin Systems, è stato immesso sul mercato nel 1994. 
+
+''Armada'' è il primo gioco della serie di ''Wing Commander'' a gestire il multiplayer e venne presentato poco prima ''Wing Commander III: Heart of the Tiger'' e ne sfrutto in nuovo motore grafico che permetteva di realizzare modelli tridimensionali molto più definiti di quelli utilizzati in ''Wing Commander II: Vengeance of the Kilrathi''. Il gioco venne utilizzato dalla Origin come test per il motore grafico di ''Wing Commander III'', in armada tuttavia è assente la modalità SVGA introdotta con il terzo capitolo della serie.
+
+Sebbene il gioco si svolga durante il periodo della guerra tra la confederazione e i Kilrathi ''Armada'' va considerato come un capitolo autonomo, scorrelato dalla storia principale.
+
+<!-- begin WikiProject Computer and Video Games infobox-->
+{{Infobox VG|title=Wing Commander: Armada
+|image=<!-- FAIR USE of FalseColors.gif: see image description page at http://en.wikipedia.org/wiki/Image:armada-coverart.jpg for rationale --> 250px
+|developer=Origin Systems
+|publisher=Electronic Arts
+|designer=Chris Roberts
+|released=1994
+|genre=Strategy
+|modes=Multiplayer
+|ratings= ESRB: Everyone (E)<br />ELSPA: 11+
+|platforms= PC (MS-DOS)
+|media= CD (1)
+|requirements=i486SX VGA, 4-8 MB network for multiplayer
+|input= mouse, keyboard or joystick
+}}
+'''''Wing Commander: Armada''''' is a Wing Commander'' franchise. Created by three dimensional ship models, which is more powerful than that used in ''Wing Commander II: Vengeance of the Kilrathi''. This is a result of Origin using ''Armada'' as a "test-bed" for the ''Wing Commander III'' engine; ''Armada'' however lacks the hi-res SVGA rendering that was introduced by the third chapter of the series.
+
+While ''Armada''<nowiki>'</nowiki>s background is provided by the Human &mdash; Kilrathi war, the game does not expand the main story, but is rather intended as a stand-alone product.
+
+==Gameplay==
+''Armada'' can be thoroughly enjoyed in network, or eventually with a single computer using the "split screen" feature of ''Armada''. The game modes featured are as follows:
+
+===Battle===
+Available only in multiplayer mode, this game type consists of a head-to-head dogfight between two players. Each player chooses one of the fighters available between those of the Confed and Kilrathi inventory, then the fights begin. The player who is able to destroy his opponent is the winner.
+
+===Gauntlet===
+This game type is very much like the "Gauntlet" feature from ''Wing Commander: Academy'' and is available both in singleplayer as well as in multiplayer, where it enables two players to cooperatively fight the computer controlled ships. The player chooses to side either with the Terran Confederation or the Kilrathi Empire, then he will have to face off 15 levels each consisting of three separate waves of enemy fighters; as the "Gauntlet" progresses the enemy ships' strength, number and skill increase. The game ends when the player is able to beat the last wave or his ship is destroyed (in multiplayer whenever one of the player is destroyed the game ends). Unlike ''Academy'', where the player could choose which fighter to fly in the "Gauntlet", in ''Armada'' the player starts flying either the Arrow or the Dralthi light fighter, then moves to medium and heavy fighters as the game progresses.
+
+A feature which was not present in the retail version of ''Armada'' could be enabled by installing a patch released by Origin on their website: the new feature provided each level with a code, enabling the player to restart the "Gauntlet" from the level corresponding to the code, without the requirement to play through all the previous waves.
+
+===Armada===
+This is the main game type featured in ''Armada'', available both in singleplayer (player vs. computer) and multiplayer (player vs. player). Armada is a strategy driven game type taking place in a randomly generated sector of space which is depicted in the game's main screen: dots indicate star systems connected through one or more line representing the available space lanes for starships. The players choose a side (Confederation or Kilrathi) to play with and start playing with their forces placed on the opposite sides of the sector.
+Since both sides start with a carrier and a complement of two light fighters, players can build mines on the planets they visit to gather resources with which to build shipyards for more fighters or fortresses to defend specific planets. Action takes place in turns: during a turn one player can move his ships or build mines/shipyards/fortresses, while the other has to wait for his own turn. The game ends when one player is able to locate the opponent's carrier and attack it with heavy fighters: if the assault is successful a cinematic of the carrier blowing up is displayed and the game ends.
+
+===Campaign===
+The "Campaign" mode is very much like the "Armada" game type and basically consists of 11 scenarios which are played following the same rules of the "Armada" game type. To progress to the next level one of the two sides must be defeated (its carrier destroyed). At the end of the last level, depending on the points gathered during all the matches, one side results the overall winner and a cinematic of either Earth or Kilrah blowing up is shown. The "Campaign" can be played both in singleplayer and multiplayer.
+
+It is important to note that the algorithm for resolving fighter to fighter combat heavily favors the heavier fighter, while the computer will build a mix of fighter types.  By making only superheavy fighters the human player can always beat the computer.

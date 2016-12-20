@@ -1,0 +1,60 @@
+A '''static inverter station''' is  the terminal equipment for a high voltage direct current transmission line, in which  direct current is converted to three-phase alternating current, and, usually, the reverse. Besides the static inverter itself, the station will also contain: 
+*three-phase alternating current switchgear
+*transformers
+*capacitors or synchronous condensers for reactive power
+*filters for harmonics and 
+*direct current switchgear
+
+==Components==
+===Direct current switchgear===
+The direct current equipment often includes a coil (called a reactor) that adds H and 1 H. The smoothing coil can have either an air-core or an iron-core. Iron-core coils look like oil-filled high voltage transformers. Air-core smoothing coils resemble, but are considerably larger than, carrier frequency choke coils in high voltage transmission lines and are supported by insulators. Air coils have the advantage of generating less acoustical noise than iron-core coils, they eliminate the potential environmental hazard of spilled oil, and they do not saturate under transient high current fault conditions. This part of the plant will also contain instruments for measurement of direct current and voltage.  
+
+Special direct current filters are used to eliminate high frequency interference. Such filters are required if the transmission line will use power line carrier techniques for communication and control, or if the overhead line will run through populated areas. These filters can be passive LC filters or active filters, consisting of an amplifier coupled through transformers and protection condensers, which gives a signal out of phase to the interference signal on the line, thereby cancelling it. Such a system was used on the Baltic Cable HVDC project.
+
+===Inverter===
+
+The inverter is usually installed in a building called the  insulated gate bipolar transistors used in some HVDC designs can provide power to a de-energized AC system.
+
+===Inverter transformer===
+The inverter wye-delta) connection, the inverter can  operate with 12 pulses in each cycle of the AC supply, which eliminates numerous harmonic current components. The insulation of the transformer windings must be specially designed to withstand a large DC potential to earth. Inverter transformers can be built as large as 300 MVA as a single unit. It is impractical to transport larger transformers so when larger ratings are required, several individual transformers are connected together. Either two three-phase units or three single-phase units can be used. With the latter variant only one type of transformer is used, making the supply of a spare transformer more economical. 
+
+Inverter transformers operate with high flux densities, and so produce more acoustic noise than normal three-phase power transformers.  This effect should be considered in the siting of an HVDC static inverter plant. Noise-reducing enclosures may be applied.
+
+===Reactive Power===
+A static inverter will require between 40 and 60% of its megawatt rating as reactive power.  This can be provided by banks of switched capacitors or by synchronous condensers.  The demand for reactive power can be reduced if the inverter transformers have on-load tapchangers, with a sufficient range of taps for ac voltage control. Some of the reactive power requirement can be supplied in the harmonic filter components.
+
+Eine '''Stromrichterstation''' ist die Anlage bei einer Hochspannungs-Gleichstrom-Übertragung (HGÜ), in der die Umwandlung von Drehstrom in Gleichstrom (und umgekehrt) erfolgt. Somit kann je nach Bedarf aus Gleichstrom Drehstrom und aus Drehstrom Gleichstrom gemacht werden. Eine Stromrichterstation beinhaltet neben dem Stromrichter stets auch
+
+*eine Drehstromschaltanlage,
+*Stromrichtertransformatoren,
+*Oberschwingungsfilter und 
+*eine Gleichstromschaltanlage
+
+thumb|right|Ansicht der Stromrichterstation der HGÜ [[Baltic-Cable in Kruseberg, Schweden]]
+
+==Bestandteile==
+
+===Gleichstromschaltanlage===
+Die Gleichstromschaltanlage verfügt fast immer über eine Glättungsdrossel zur Glättung des Gleichstroms. Ihre Induktivität beträgt zwischen 0,1 H und 1 H. Die Glättungsdrossel kann als Luftspule oder als Spule mit Eisenkern ausgeführt sein. In letzteren Fall sieht sie ähnlich aus wie ein Hochspannungstransformator und wird wie ein solcher meist mit Öl gekühlt. Als Luftspulen ausgeführte Glättungsdrosseln ähneln in ihrer Bauart meist Trägerfrequenzsperrspulen in Hochspannungsleitungen, besitzen aber wesentlich größere Abmessungen. Sie sind wie diese meist auf Isolatoren montiert. Zur Gleichstromschaltanlage gehören auch stets Gleichstrom- und Gleichspannungsmesswandler. Luftdrosseln haben den Vorteil weniger Lärm zu erzeugen als Eisendrosseln. Hierfür kommen zum Gleichstromausgang in Reihe und parallel zu diesen liegende Transduktoren zum Einsatz.
+Gelegentlich werden auch noch spezielle Gleichstromfilter zur Elimination hochfrequenter Störsignale eingesetzt. Solche Filter sind insbesondere dann vonnöten, wenn auf der Gleichstromleitung eine Nachrichtenübermittlung nach dem Trägerfrequenzverfahren im Bereich zwischen 30 kHz und 500 kHz erfolgen soll oder wenn die Gleichstromleitung als Freileitung ausgeführt ist, die in unmittelbarer Nähe von Wohnhäusern vorbeiführt. Diese können passiver Natur, bestehend aus LC- oder aktiver Natur, bestehend aus einen über Übertrager und Schutzkondensatoren angekoppelten Verstärker sein, der ein zum Störsignal um 180 Grad phasenverschobenes Signal auf die Leitung gibt und somit die Störung wegregelt. Ein solches System wird auf der HGÜ-"Baltic-Cable" verwendet.
+
+===Stromrichter===
+Der Stromrichter befindet sich im Regelfall in einer Halle, der Stromrichterhalle. Er ist bei allen seit Mitte der 70er Jahre in Thyristortechnik ausgeführt, wobei man, um den Aufwand für die Oberschwingungsfilter zu verringern, fast immer die 12pulsige Drehstrombrückenschaltung verwendet. Bei älteren Anlagen sind gelegentlich noch Quecksilberdampfgleichrichter im Einsatz. Während bei diesen jeder Gleichrichter einzeln aufgestellt ist, werden bei Thyristorstromrichtern 4 Stromrichterventile zu einem Modul, dem Thyristorturm zusammengefasst. Zur Realisierung eines kompletten Stromrichters sind also 3 Thyristortürme nötig.
+Die Thyristortürme können - je nach Bauart - in der Stromrichterhalle aufgestellt oder an der Decke aufgehängt werden.
+
+Bei Anlagen die nicht mit Stromzwischenkreis sondern mit Spannungszwischenkreis betrieben werden, kommen anstatt Thyristoren zumeist IGBTs zum Einsatz. Bei diesen Anlagen unterscheidet sich der Aufbau des Stromrichters grundlegend von denen mit Thyristoren.
+
+===Stromrichtertransformatoren===
+Die Stromrichtertransformatoren dienen nicht nur zur Anpassung der Spannung des Drehstromnetzes an die der HGÜ, sondern auch durch die besondere Schaltung (Stern-Stern-Dreieck Schaltung) zur Elimination zahlreicher Oberschwingungen, sofern der Stromrichter in 12puls-Schaltung ausgeführt ist und nur in dieser Schaltung betrieben wird. Da die Windungen der Stromrichtertransformatoren ein Gleichspannungspotential gegen Erde führen, muss die Isolation der Windungen dieser Transformatoren besonders bemessen werden. 
+Stromrichtertransformatoren können für Leistungen bis ca. 300 MVA als komplette Einheit realisiert werden. Für größere Leistungen sind aus transporttechnischen Gründen mehrere Einheiten möglich. Hierbei können entweder zwei dreiphasige Einheiten (mit 2 Windungen) oder drei einphasige Einheiten (mit 3 Windungen) verwendet werden. Letztere Variante hat den Vorteil, dass nur ein Transformatorentyp benötigt wird, was die Bereitstellung eines Ersatztransformators wirtschaftlicher macht.
+Da Stromrichtertransformatoren von einem stark oberschwingungshaltigen Strom durchflossen werden, erzeugen sie mehr Lärm als vergleichbare Transformatoren in normalen Umspannwerken, was bei ihrer Aufstellung zu beachten ist. Ein in Betrieb befindlicher Stromrichtertransformator erzeugt ein wesentlich "kernigeres" Geräusch als ein normaler Drehstromtransformator.
+Stromrichtertransformatoren werden in unmittelbarer Nähe des Stromrichters aufgestellt. Bei manchen modernen Anlagen sind diese in Anbauten der Stromrichterhalle untergebracht, was auch einen besseren Lärmschutz gibt.
+
+===Oberschwingungsfilter===
+Oberschwingungsfilter sind nötig zur Eliminierung der Oberschwingungen und zur Erzeugung der nötigen Blindleistung. Bei Anlagen mit sechspulsigen Betrieb sind aufwendige Oberschwingungsfilter nötig, da ungeradzahlige Oberschwingungen ab der 5. Ordnung anfallen. Bei 12pulsigen Stromrichteranlagen genügen häufig ein oder zwei auf die 12. und 24. Harmonische abgestimmte Bandpassfilter, da nur Oberschwingungen der Ordnung 12*n + 1 und 12*n - 1 (n = natürliche Zahl) anfallen. Daneben können auch abgestimmte Serienresonanzkreise verwendet werden.
+Grundsätzlich werden nur zum Ausgang der Stromrichtertransformatoren parallel liegende Oberschwingungsfilter zur Oberschwingungseliminierung in HGÜ-Anlagen verwendet, da es bei Oberschwingungsfiltern, bei denen der Laststrom durch ein Filterelement fließen würde, zu starken Spannungsschwankungen im Netz kommen würde.
+Neben den Oberschwingungsfiltern sind auch häufig noch Filter zur Eliminierung von Störsignalen im Frequenzbereich von PLC-Anlagen (30 kHz bis 500 kHz) vorhanden. Diese Filter befinden sich meist in unmittelbarer Nähe des Drehstromausgangs des Stromrichtertransformators. Sie bestehen aus einer vom Laststrom durchflossenen Spule zu der parallel ein Kondensator gelegt ist.
+Für reine Blindleistungserzeugung werden parallel zum Oberschwningungsfilter Kondensatorbatterien oder Ladestromspulen geschaltet. Daneben werden auch Synchronphasenschieber verwendet.
+
+===Drehstromschaltanlage===
+Die eigentliche Drehstromschaltanlage einer Stromrichterstation unterscheidet sich prinzipiell nicht von der eines normalen Umspannwerks. Sie kann über Transformatorenfelder für weitere Spannungsebenen verfügen.

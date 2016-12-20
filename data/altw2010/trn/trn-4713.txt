@@ -1,0 +1,92 @@
+<!--tabella per la realizzazione di una scheda film-->
+<!--questa tabella memorizza solo i parametri - la struttura/layout è nel template Film-->
+<!--NON modificare la prima riga e le righe dove compare il simbolo uguale-->
+<!--NON inserire ritorni a capo salvo nei campi dove espressamente previsto-->
+{{Film|
+titoloitaliano = La cosa più dolce <!--scrivere qui il titolo italiano del film-->
+|
+titolooriginale = The sweetest thing <!--scrivere qui il titolo originale del film - se italiano si può riscriverlo o inserire (&nbsp;)-->
+|
+nomepaese = Stati Uniti <!--nome del paese di produzione - con doppie parentesi quadre-->
+|
+annoproduzione = 2002 <!--anno di produzione - con doppie parentesi quadre-->
+|
+durata = 88' <!--durata della pellicola -->
+|
+tipocolore = colore <!--colore della pellicola - da scegliere tra 'colore' o 'B/N'-->
+|
+tipoaudio = sonoro <!--audio della pellicola - da scegliere tra 'muto' o 'sonoro'-->
+|
+nomegenere = commedia <!--genere del film - scelto esclusivamente tra quelli indicati nel progetto-->
+|
+nomeregista = Roger Kumble <!--nome del regista - con doppie parentesi quadre-->
+|
+nomesoggetto = <!--nome del soggetto - con doppie parentesi quadre -->
+|
+nomesceneggiatore = Nancy M. Pimental <!--nome dello sceneggiatore - con doppie parentesi quadre-->
+|
+nomeattori = *Cameron Diaz: Christina
+*Christina Applegate: Courtney
+*Selma Blair: Jane
+*Thomas Jane: Peter
+*Jason Bateman: Roger
+*Parker Posey: Judy
+*Johnny Messner: Todd 
+ <!--nome degli attori - gli attori vanno inseriti uno per riga, iniziando con un *, seguito dal nome dell'attore con doppie parentesi quadre, seguito dal nome del personaggio senza parentesi quadre-->
+|
+nomefotografo = Anthony B. Richmond <!--nome del fotografo - con doppie parentesi quadre -->
+|
+nomemontaggio = David Rennie, Wendy Greene Bricmont <!--nome del responsabile del montaggio - con doppie parentesi quadre -->
+|
+nomeeffettispeciali = <!--nome del responsabile effetti speciali della pellicola - con doppie parentesi quadre -->
+|
+nomemusicista = Pete Yorn, Macy Gray, Ben Folds, Ed Shearmur  <!--nome di chi ha realizzato la colonna sonora - con doppie parentesi quadre -->
+|
+nomescenografo = <!--nome dello scenografo - con doppie parentesi quadre -->
+|
+nomepremi = <!--eventuali premi -->
+}}
+<!-- fine della tabella film -->
+
+'''''La cosa più dolce''' (The sweetest thing)'' è una frizzante commedia del 2002 diretta da Roger Kumble.
+
+==Trama==
+ 
+Christina è una ragazza molto estroversa nei confronti dell'altro sesso, abituata ad abbindolare gli uomini assieme alle sue amiche. Una sera però incontra in discoteca un ragazzo, Peter, che si trova lì per l'addio al celibato del fratello, e ne resta affascinata ma non sa cogliere l'occasione e lui le sfugge fra le mani. Unico indizio: data e luogo del matrimonio. Complice l'amica Courtney, Christina si reca così nel Sommerset, spinta da un impulso mai provato che nemmeno lei è in grado di comprendere, l'amore. Sorpresa: lo sposo è Peter. Sconvolta e delusa, Christina si sente una sciocca e cerca di tornare alla sua vecchia vita, invano. Tre settimane dopo, tornando a casa, lei e le sue amiche scoprono che Peter la sta aspettando davanti alla porta. I due si chiariscono e si baciano, suggellando così il loro amore...
+
+==Note==
+La trama è semplice ma viene perfettamente sostenuta dalle molte scene demenziali che spuntano in ogni occasione. Fra le più divertenti:  pranzo al ristorante cinese che, sull'onda dei commenti delle tre sui peni, vira velocemente a un musical estemporaneo cui partecipano tutti i clienti, cuochi compresi! Altra perla si gusta nei bagni della discoteca, quando Courtney fa toccare con mano a una ragazza là presente la qualità dei propri seni rifatti. Risultato: le protesi si ritrovano palpate da decine di mani diverse, in un surrealismo che ha dell'incredibile.
+
+{{Film infobox
+|     tytuł_filmu=Ostrożnie z dziewczynami
+|           image=
+|oryginalny_tytuł=''The Sweetest Thing''
+|   gatunek_filmu=komedia
+|  kraj_produkcji=USA
+|   data_premiery=2002
+|    czas_trwania=88 min.
+|       reżyseria=Roger Kumble
+|      scenariusz=Nancy Pimental
+|     tłumaczenie=
+|            role=Cameron Diaz<br>Christina Applegate<br>Thomas Jane<br>Jason Bateman
+|         dubbing=
+|          lektor=
+|          muzyka=
+|         zdjęcia=
+|          dźwięk=
+|     scenografia=
+|        kostiumy=
+|          montaż=
+|       produkcja=
+|     dystrybucja=
+|         atelier=
+|          budżet=
+|           język=
+|          od_lat=
+|         nagrody=
+|      filmweb_id=
+|   filmpolski_id=
+|         imdb_id=
+}}
+
+'''''Ostrożnie z dziewczynami''''' (ang. ''The Sweetest Thing'') – amerykańska komedia o ''"przygodach"'' głównej bohaterki, Christiny, z chłopakami. Dziewczyna uważa, że życie i chłopaków trzeba brać takimi, jakie są w danej chwili. Cały swój pogląd zmienia, gdy poznaje chłopaka o imieniu Peter.

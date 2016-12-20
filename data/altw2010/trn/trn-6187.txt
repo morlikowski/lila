@@ -1,0 +1,357 @@
+right|thumb|250px|The notebook is connected to the wireless access point using a [[PC card wireless card.]]
+right|250px|thumb|54 MBit/s WLAN PCI Card (802.11g)
+thumb|250px|An [[Embedded system|embedded RouterBoard 112 with RSMA pigtail and R52 WISPs) in the Czech Republic.]]
+
+A '''wireless spread-spectrum or radio waves to enable communication between devices in a limited area, also known as the basic service set. This gives users the mobility to move around within a broad coverage area and still be connected to the network.
+
+For the home user, wireless has become popular due to ease of installation, and location freedom with the gaining popularity of laptops. Public businesses such as coffee shops or malls have begun to offer wireless access to their customers; some are even provided as a free service. Large wireless network projects are being put up in many major cities. Google is even providing a 
+free service to Mountain View, California<ref>{{cite web
+  | last = Ingersoll
+  | first = Minnie
+  | title = Wi-Fi in Mountain View
+  | work = Official Google Blog
+  | publisher = Google
+  | date = 2005-11-17
+  | url = http://googleblog.blogspot.com/2005/11/wi-fi-in-mountain-view.html
+  | accessdate = 2007-02-17
+}}</ref> and has entered a bid to do the same for San Francisco.<ref>{{cite news 
+  | last = Kopytoff, 
+  | first = Verne
+  | coauthors = Ryan Kim
+  | title = Google offers S.F. Wi-Fi -- for free
+  | work = San Francisco Chronicle
+  | page = A-1
+  | date = 2005-10-01
+  | url = http://www.sfgate.com/cgi-bin/article.cgi?file=/c/a/2005/10/01/MNGG9F16KG1.DTL
+  | accessdate = 2007-02-17
+}}</ref>  New York City has also begun a pilot program to cover all five boroughs of the city with wireless Internet access.
+
+==History==
+In 1970 University of Hawaii, under the leadership of Norman Abramson, developed the world’s first computer communication network using low-cost ham-like radios, named ALOHAnet. The bi-directional star topology of the system included seven computers deployed over four islands to communicate with the central computer on the Oahu Island without using phone lines.<ref>{{cite web
+  | title = History of Wireless
+  | publisher = Johns Hopkins School of Public Health
+  | url = http://www.jhsph.edu/wireless/history.html
+  | accessdate = 2007-02-17
+}}</ref> 
+
+"In 1979, F.R. Gfeller and U. Bapst published a paper in the IEEE Proceedings reporting an experimental wireless local area network using diffused infrared communications. Shortly thereafter, in 1980, P. Ferrert reported on an experimental application of a single code spread spectrum radio for wireless terminal communications in the IEEE National Telecommunications Conference. In 1984, a comparison between Infrared and CDMA spread spectrum communications for wireless office information networks was published by Kaveh Pahlavan in IEEE Computer Networking Symposium which appeared later in the IEEE Communication Society Magazine. In May 1985, the efforts of Marcus led the FCC to announce experimental ISM bands for commercial application of spread spectrum technology. Later on, M. Kavehrad reported on an experimental wireless PBX system using code division multiple access. These efforts prompted significant industrial activities in the development of a new generation of wireless local area networks and it updated several old discussions in the portable and mobile radio industry.
+
+The first generation of wireless data modems was developed in the early 1980's by amateur radio operators. They added a voice band data communication modem, with data rates below 9600 bit/s, to an existing short distance radio system, typically in the two meter amateur band. The second generation of wireless modems was developed immediately after the FCC announcement in the experimental bands for non-military use of the spread spectrum technology. These modems provided data rates on the order of hundreds of kbit/s. The third generation of wireless modem [then] aimed at compatibility with the existing LANs with data rates on the order of Mbit/s. Several companies [developed] the third generation products with data rates above 1 Mbit/s and a couple of products [had] already been announced [by the time of the first IEEE Workshop on Wireless LANs]."<ref></ref>
+
+"The first of the IEEE Workshops on Wireless LAN was held in 1991. At that time early wireless LAN products had just appeared in the market and the IEEE 802.11 committee had just started its activities to develop a standard for wireless LANs. The focus of that first workshop was evaluation of the alternative technologies. [By 1996], the technology [was] relatively mature, a variety of applications [had] been identified and addressed and technologies that enable these applications [were] well understood. Chip sets aimed at wireless LAN implementations and applications, a key enabling technology for rapid market growth, [were] emerging in the market. Wireless LANs [were being] used in hospitals, stock exchanges, and other in building and campus settings for nomadic access, point-to-point LAN bridges, ad-hoc networking, and even larger applications through internetworking. The IEEE 802.11 standard and variants and alternatives, such as the wireless LAN interoperability forum and the European HiperLAN specification had made rapid progress, and the unlicensed PCS [ Unlicensed Personal Communications Services and the proposed SUPERNet, later on renamed as U-NII, bands also presented new opportunities." <ref></ref>
+
+On July 21, 1999, AirPort debuted at the Macworld Expo in New York City with Steve Jobs picking up an iBook supposedly to give the cameraman a better shot as he surfed the Web. Applause quickly built as people realized there were no wires. This was the first time Wireless LAN became publicly available at consumer pricing and easily available for home use. Before the release of the Airport, Wireless LAN was too expensive for consumer use and used exclusively in large corporate settings.
+
+Originally WLAN hardware was so expensive that it was only used as an alternative to cabled LAN in places where cabling was difficult or impossible. Early development included industry-specific solutions and proprietary protocols, but at the end of the 1990s these were replaced by standards, primarily the various versions of IEEE 802.11 (ATM-like 5 GHz standardized technology, HiperLAN/2, has so far not succeeded in the market, and with the release of the faster 54 Mbit/s 802.11a (5 GHz) and 802.11g (2.4 GHz) standards, almost certainly never will.
+
+In November 2006, the Australian Commonwealth Scientific and Industrial Research Organisation (CSIRO) won a legal battle in the US federal court of Texas against Buffalo Technology which found the US manufacturer had failed to pay royalties on a US WLAN patent CSIRO had filed in 1996. CSIRO are currently engaged in legal cases with computer companies including Microsoft, Intel, Dell, Hewlett-Packard and Netgear which argue that the patent is invalid and should negate any royalties paid to CSIRO for WLAN-based products.<ref>{{cite news 
+ | first = Selina
+ | last = Mitchell
+ | title = CSIRO hits back on wireless
+ | url = http://australianit.news.com.au/articles/0,7204,20475012^15306,00.html
+ | work = Australian IT
+ | date = 2006-09-26
+ | accessdate = 2007-02-17
+}}</ref>
+
+==Benefits==
+The popularity of wireless LANs is a testament primarily to their convenience, cost efficiency, and ease of integration with other networks and network components.  The majority of computers sold to consumers today come pre-equipped with all necessary wireless LAN technology.
+
+These are the benefits of wireless LANs:
+
+* ''Convenience'':  The wireless nature of such networks allows users to access network resources from nearly any convenient location within their primary networking environment (home or office).  With the increasing saturation of laptop-style computers, this is particularly relevant.
+
+* ''Mobility'': With the emergence of public wireless networks, users can access the internet even outside their normal work environment.  Most chain coffee shops, for example, offer their customers a wireless connection to the internet at little or no cost.
+
+* ''Productivity'': Users connected to a wireless network can maintain a nearly constant affiliation with their desired network as they move from place to place.  For a business, this implies that an employee can potentially be more productive as his or her work can be accomplished from any convenient location.
+
+* ''Deployment'': Initial setup of an infrastructure-based wireless network requires little more than a single access point.  Wired networks, on the other hand, have the additional cost and complexity of actual physical cables being run to numerous locations (which can even be impossible for hard-to-reach locations within a building).
+
+* ''Expandability'': Wireless networks can serve a suddenly-increased number of clients with the existing equipment.  In a wired network, additional clients would require additional wiring.
+
+* ''Cost'': Wireless networking hardware is at worst a modest increase from wired counterparts.  This potentially increased cost is almost always more than outweighed by the savings in cost and labor associated to running physical cables.
+
+==Disadvantages==
+Wireless LAN technology, while replete with the conveniences and advantages described above, has its share of downfalls.  For a given networking situation, wireless LANs may not be desirable for a number of reasons. Most of these have to do with the inherent limitations of the technology.
+
+* ''Security'': Wireless LAN transceivers are designed to serve computers throughout a structure with uninterrupted service using radio frequencies. Because of space and cost, the antennas typically present on wireless networking cards in the end computers are generally relatively poor. In order to properly receive signals using such limited antennas throughout even a modest area, the wireless LAN transceiver utilizes a fairly considerable amount of power. What this means is that not only can the wireless packets be intercepted by a nearby adversary's poorly-equipped computer, but more importantly, a user willing to spend a small amount of money on a good quality antenna can pick up packets at a remarkable distance; perhaps hundreds of times the radius as the typical user. In fact, there are even computer users dedicated to locating and sometimes even cracking into wireless networks, known as wardrivers. On a wired network, any adversary would first have to overcome the physical limitation of tapping into the actual wires, but this is not an issue with wireless packets. To combat this consideration, wireless networks users usually choose to utilize various encryption technologies available such as WEP are known to have weaknesses that a dedicated adversary can compromise. ''(See main article: Wireless security.)''
+
+* ''Range'': The typical range of a common 802.11g network with standard equipment is on the order of tens of metres.  While sufficient for a typical home, it will be insufficient in a larger structure.  To obtain additional range, repeaters or additional access points will have to be purchased.  Costs for these items can add up quickly. Other technologies are in the development phase, however, which feature increased range, hoping to render this disadvantage irrelevant. (See WiMAX)
+
+* ''Reliability'': Like any radio frequency transmission, wireless networking signals are subject to a wide variety of interference, as well as complex propagation effects (such as servers are rarely connected wirelessly.
+
+* ''Speed'':  The speed on most wireless networks (typically 1-108 Mbit/s) is reasonably slow compared to the slowest common wired networks (100 Mbit/s up to several Gbit/s). There are also performance issues caused by TCP and its built-in congestion avoidance.  For most users, however, this observation is irrelevant since the speed bottleneck is not in the wireless routing but rather in the outside network connectivity itself.  For example, the maximum ADSL throughput (usually 8 Mbit/s or less) offered by telecommunications companies to general-purpose customers is already far slower than the slowest wireless network to which it is typically connected.  That is to say, in most environments, a wireless network running at its slowest speed is still faster than the internet connection serving it in the first place.  However, in specialized environments, higher throughput through a wired network might be necessary.  Newer standards such as 802.11n are addressing this limitation and will support peak throughputs in the range of 100-200 Mbit/s.
+
+Wireless LANs present a host of issues for network managers. Unauthorized access points, broadcasted SSIDs, unknown stations, and spoofed MAC addresses are just a few of the problems addressed in WLAN troubleshooting. Most network analysis vendors, such as Network Instruments, Network General, and Fluke, offer WLAN troubleshooting tools or functionalities as part of their product line.
+<!--
+==Protocols==
+
+There are currently approved 4 Wireless LAN protocols in the 802.11 family.  Despite the lettering, 802.11b preceded 802.11a in the market.
+
+===802.11a===
+“The 802.11a amendment to the original standard was ratified in 1999. The 802.11a standard uses the same core protocol as the original standard, operates in 5 GHz band, with a maximum raw data rate of 54 Mbit/s, which yields realistic net achievable throughput in the mid-20 Mbit/s. The data rate is reduced to 48, 36, 24, 18, 12, 9 then 6 Mbit/s if required. 802.11a has 12 non-overlapping channels, 8 dedicated to indoor and 4 to point to point. It is not interoperable with 802.11b, except if using equipment that implements both standards. Since the 2.4 GHz band is heavily used, using the 5 GHz band gives 802.11a the advantage of less interference. However, this high carrier frequency also brings disadvantages. It restricts the use of 802.11a to almost line of sight, necessitating the use of more access points; it also means that 802.11a cannot penetrate as far as 802.11b since it is absorbed more readily, by other things.”
+
+===802.11b===
+“The 802.11b amendment to the original standard was ratified in 1999. 802.11b has a maximum raw data rate of 11 Mbit/s and uses the same CSMA/CA media access method defined in the original standard. Due to the CSMA/CA protocol overhead, in practice the maximum 802.11b throughput that an application can achieve is about 5.9 Mbit/s using TCP and 7.1 Mbit/s using UDP. 802.11b products appeared on the market very quickly, since 802.11b is a direct extension of the DSSS (Direct-sequence spread spectrum) modulation technique defined in the original standard. The dramatic increase in throughput of 802.11b (compared to the original standard) along with substantial price reductions led to the rapid acceptance of 802.11b as the definitive wireless LAN technology.
+802.11b is usually used in a point-to-multipoint configuration, wherein an access point communicates via an Omni-directional antenna with one or more clients that are located in a coverage area around the access point. Typical indoor range is 30 m (100 ft) at 11 Mbit/s and 90 m (300 ft) at 1 Mbit/s. With high-gain external antennas, the protocol can also be used in fixed point-to-point arrangements, typically at ranges up to 8 kilometers (5 miles) although some report success at ranges up to 80–120 km (50–75 miles) where line of sight can be established. This is usually done in place of costly leased lines or very cumbersome microwave communications equipment. 802.11b cards can operate at 11 Mbit/s, but will scale back to 5.5, then 2, then 1 Mbit/s if signal quality becomes an issue. Since the lower data rates use less complex and more redundant methods of encoding the data, they are less susceptible to corruption due to interference.”
+
+===802.11g===
+"In June 2003, a third modulation standard was ratified: 802.11g. This works in the 2.4 GHz band (like 802.11b) but operates at a maximum raw data rate of 54 Mbit/s, or about 24.7 Mbit/s net throughputs (like 802.11a). 802.11g hardware is compatible with 802.11b hardware. Details of making b and g work well together occupied much of the lingering technical process. In older networks, however, the presence of an 802.11b participant significantly reduces the speed of an 802.11g network. Even though 802.11g operates in the same frequency band as 802.11b, it can achieve higher data rates because of its similarities to 802.11a. The maximum range of 802.11g devices is slightly greater than that of 802.11b devices, but the range in which a client can achieve the full 54 Mbit/s data rate is much shorter than that of 802.11b. Despite its major acceptance, 802.11g suffers from the same interference as 802.11b in the already crowded 2.4 GHz range. Devices operating in this range include microwave ovens, Bluetooth devices, and cordless telephones."
+
+'''Wireless Local Area Network''' [] (engl. „drahtloses lokales Netzwerk“ – '''Wireless LAN''', ''W-LAN'', ''WLAN'') bezeichnet ein „drahtloses“, lokales IEEE-802.11-Familie gemeint ist. Für diese engere Bedeutung wird in manchen Ländern (z.&nbsp;B. USA, Spanien, Frankreich, Italien) weitläufig der Begriff Wi-Fi verwendet.
+
+Im Gegensatz zum Reichweiten und bieten im Allgemeinen höhere OSI-Referenzmodells dar, wohingegen in WPANs z.&nbsp;B. über eine im Emulation der seriellen Schnittstelle und PPP bzw. SLIP eine Netzverbindung aufgebaut wird. Bei WLAN kommt heute meistens das Modulationsverfahren OFDM zum Einsatz.
+
+== Betriebsart ==
+
+WLANs können – je nach Hardwareausstattung und Bedürfnissen der Betreiber – in verschiedenen Modi betrieben werden:
+
+=== Infrastructure Mode ===
+
+Der Infrastruktur-Modus ähnelt im Aufbau dem Mobilfunknetz: Eine spezielle Basisstation (Access Point) übernimmt die Koordination aller anderen Netzknoten (Clients). Die Basisstation sendet in einstellbaren Intervallen (üblicherweise zehnmal pro Sekunde) kleine Datenpakete, so genannte „Beacons“ (engl. „Leuchtfeuer“), an alle Stationen im Empfangsbereich. Die Beacons enthalten u.&nbsp;a. folgende Informationen:
+* Netzwerkname („Service Set Identifier“, SSID),
+* Liste unterstützter Übertragungsraten,
+* Art der Verschlüsselung.
+
+Dieses „Leuchtfeuer“ erleichtert den Verbindungsaufbau ganz erheblich, da die Clients lediglich den Netzwerknamen und optional einige Parameter für die Verschlüsselung kennen müssen. Gleichzeitig ermöglicht der ständige Versand der Beacon-Pakete die Überwachung der Empfangsqualität – auch dann, wenn keine Nutzdaten gesendet oder empfangen werden. Beacons werden immer mit der niedrigsten Übertragungsrate (1&nbsp;MBit/s) gesendet, der erfolgreiche Empfang des „Leuchtfeuers“ garantiert also noch keine stabile Verbindung mit dem Netzwerk.
+
+Da WLAN auf der Sicherungsschicht (Schicht 2 im OSI-Modell) dieselbe Adressierung wie Ethernet verwendet, kann über einen Wireless Access Point mit Ethernet-Anschluss leicht eine Verbindung zu kabelgebundenen Netzen (im WLAN-Jargon „Distribution System“, DS) hergestellt werden. Eine Ethernet-Netzwerkkarte kann folglich nicht unterscheiden, ob sie mit einer anderen Ethernet-Netzwerkkarte oder (über einen Access Point) mit einer WLAN-Karte kommuniziert. Allerdings muss zwischen 802.11 (WLAN) und 802.3 (Ethernet) konvertiert werden.
+
+Der Aufbau großer WLANs mit mehreren Basisstationen und unterbrechungsfreiem Wechsel der Clients zwischen den verschiedenen Basisstationen ist im Standard vorgesehen. In der Praxis kommt es dabei allerdings zu Problemen:
+
+* Die Frequenzbereiche der Basisstationen überlappen sich und führen zu Störungen.
+* Da – anders als in Mobilfunknetzen – die „Intelligenz“ komplett im Client steckt, gibt es kein echtes Handover zwischen verschiedenen Basisstationen. Ein Client wird im Normalfall erst nach einer neuen Basisstation suchen, wenn der Kontakt zur vorherigen bereits abgebrochen ist.
+
+Eine Lösung für dieses Problem steckt in der Verlagerung der Kontrollfunktionen in die Basisstationen bzw. das Netzwerk: Eine zentrale Instanz kann Frequenzen, Sendeleistung etc. besser steuern und z.&nbsp;B. auch einen Handover initiieren. Da die Basisstationen in einem solchen Szenario einen Teil ihrer Funktionalität verlieren und direkt mit der zentralen Instanz kommunizieren können müssen, wird an entsprechenden Geräteklassen (Lightweight Access Point) und Protokollen gearbeitet. Proprietäre Lösungen existieren bereits seit einigen Jahren, offene Standards (z.&nbsp;B. das Lightweight Access Point Protocol) sind dagegen immer noch in Arbeit. Diskussionen entzünden sich vor allem an der Frage, welches Gerät welche Funktionen übernehmen soll.
+
+=== Ad-hoc Mode ===
+
+Im Ad-hoc-Modus (lat.: "für diesen Augenblick gemacht") ist keine Station besonders ausgezeichnet, sondern alle sind gleichwertig. Ad-hoc-Netze lassen sich schnell und ohne großen Aufwand aufbauen, für die spontane Vernetzung weniger Endgeräte sind allerdings andere Techniken (Bluetooth, Infrarot) eher gebräuchlich.
+
+Die Voraussetzungen für den Ad-hoc-Modus sind dieselben wie für den Infrastruktur-Modus: Alle Stationen benutzen denselben Netzwerknamen („Service Set Identifier“, SSID) und optional dieselben Einstellungen für die Verschlüsselung. Da in dieser Betriebsart keine zentrale Instanz existiert und keine Beacon-Pakete versendet werden, kann ein Client nicht feststellen, ob er sich in Reichweite anderer Stationen mit denselben Einstellungen befindet, wer Teil des Netzes ist und wie es um die Verbindungsqualität bestellt ist. Aus diesen Gründen eignet sich der Ad-hoc-Modus nur für eine sehr geringe Anzahl von Stationen, die sich wegen der begrenzten Reichweite der Sender zudem physisch nahe beieinander befinden müssen. Ist dies nicht der Fall, kann es vorkommen, dass eine Station nicht mit allen anderen Stationen kommunizieren kann, da diese schlicht kein Signal mehr empfangen.
+
+Eine Weiterleitung von Datenpaketen zwischen den Stationen ist nicht vorgesehen und in der Praxis auch nicht ohne weiteres möglich, denn im Ad-hoc-Modus werden keine Informationen ausgetauscht, die den einzelnen Stationen einen Überblick über das Netzwerk geben könnten. Erhebung und Austausch dieser Informationen ist Teil der Aufwertung eines Ad-hoc-Netzwerks zum mobilen Ad-hoc-Netzwerk: Softwarekomponenten auf jeder Station sammeln Daten (z.&nbsp;B. zur „Sichtbarkeit“ anderer Stationen, Verbindungsqualität etc.), tauschen sie untereinander aus und treffen Entscheidungen für die Weiterleitung der Nutzdaten. Die Forschung in diesem Bereich ist noch nicht abgeschlossen und hat neben einer langen Liste von experimentellen Protokollen (OLSR, MIT RoofNet, B.A.T.M.A.N. etc.) und Standardisierungsvorschlägen (Hybrid Wireless Mesh Protocol, 802.11s) auch einige kommerzielle Lösungen (z.&nbsp;B. Adaptive Wireless Path Protocol von Cisco) hervorgebracht. Siehe in diesem Zusammenhang auch: Freies Funknetz.
+
+=== Wireless Distribution System (WDS) und Repeating ===
+
+Zur Reichweitenerhöhung bestehender Funknetze bzw. Verbindung kabelgebundener Netze via Funk (Wireless Bridging) existieren verschiedene Methoden, siehe hierzu Wireless Distribution System.
+
+== Frequenzen ==
+
+Für drahtlose Netzwerke sind bisher zwei lizenzfreie Frequenzblöcke aus den ISM-Bändern freigegeben worden:
+
+{| class="prettytable"
+ |-bgcolor="#dfdfdf"
+ !Standard
+ !Frequenzen
+ !Kanäle
+ |-
+ |IEEE&nbsp;802.11a
+ |5,15&nbsp;GHz bis 5,725&nbsp;GHz
+ |Kanäle: 19, alle überlappungsfrei, in Europa mit TPC und DFS nach 802.11h
+ |-
+ |IEEE&nbsp;802.11b/g
+ |2,4&nbsp;GHz bis 2,4835&nbsp;GHz
+ |Kanäle: 11 in den USA, 13 in Europa, 14 in Japan, 3 (in Japan maximal 4) Kanäle überlappungsfrei nutzbar.
+ |}
+
+Die Kanalbandbreite beträgt bei allen Standards 20&nbsp;MHz.
+
+=== Datenübertragungsraten ===
+
+{| class="prettytable"
+ | IEEE&nbsp;802.11
+ | 2&nbsp;Mbps maximal
+ |-
+ | IEEE&nbsp;802.11a
+ | 54&nbsp;Mbps maximal (108&nbsp;Mbps bei 40&nbsp;MHz Bandbreite proprietär)
+ |-
+ | IEEE&nbsp;802.11b
+ | 11&nbsp;Mbps maximal (22&nbsp;Mbps bei 40&nbsp;MHz Bandbreite proprietär, 44&nbsp;Mbps bei 60&nbsp;MHz Bandbreite proprietär)
+ |-
+ | IEEE&nbsp;802.11g
+ | 54&nbsp;Mbps maximal (g+&nbsp;=108&nbsp;Mbps proprietär, bis 125 Mbps möglich)
+ |-
+ | IEEE&nbsp;802.11h
+ | 54&nbsp;Mbps maximal (108&nbsp;Mbps bei 40&nbsp;MHz Bandbreite)
+ |-
+ | IEEE&nbsp;802.11n
+ | 300&nbsp;Mbps maximal (Verwendung von MIMO-Technik; Entwurf am 20. Januar 2006 verabschiedet; Draft 2.0 am 19. März 2007 als neuer Entwurf verabschiedet)
+ |}
+Bei der Betrachtung der Datenübertragungsraten ist allerdings zu berücksichtigen, dass sich alle Geräte im Netz die Bandbreite für Up- und Download teilen. Weiterhin sind die angegebenen Datenübertragungsraten Bruttowerte, und selbst unter optimalen Bedingungen liegt die erreichbare Netto-Übertragungsrate nur wenig über der Hälfte dieser Angaben. Im Mischbetrieb (802.11b+g) kann die Übertragungsrate gegenüber dem reinen 802.11g&nbsp;- Betrieb deutlich einbrechen.
+
+=== Frequenzen und Kanäle ===
+
+{|
+|
+ {| class="prettytable"
+ |-- class="hintergrundfarbe6"
+ !Kanal Nummer
+ !GHz)
+ !Erlaubt in
+ |-
+ | 1
+ | 2,412
+ | Europa, USA, Japan
+ |-
+ | 2
+ | 2,417
+ | Europa, USA, Japan
+ |-
+ | 3
+ | 2,422
+ | Europa, USA, Japan
+ |-
+ | 4
+ | 2,427
+ | Europa, USA, Japan
+ |-
+ | 5
+ | 2,432
+ | Europa, USA, Japan
+ |-
+ | 6
+ | 2,437
+ | Europa, USA, Japan
+ |-
+ | 7
+ | 2,442
+ | Europa, USA, Japan
+ |}
+|
+ {| class="prettytable"
+ |-- class="hintergrundfarbe6"
+ !Kanal Nummer
+ !GHz)
+ !Erlaubt in
+ |-
+ | 8
+ | 2,447
+ | Europa, USA, Japan
+ |-
+ | 9
+ | 2,452
+ | Europa, USA, Japan
+ |-
+ | 10
+ | 2,457
+ | Europa, USA, Japan
+ |-
+ | 11
+ | 2,462
+ | Europa, USA, Japan
+ |-
+ | 12
+ | 2,467
+ | Europa, Japan
+ |-
+ | 13
+ | 2,472
+ | Europa, Japan
+ |-
+ | 14
+ | 2,484
+ | Japan
+ |}
+|}
+
+{| class="prettytable"
+|-- class="hintergrundfarbe6"
+!Kanal Nummer
+!GHz)
+!Erlaubt in
+|-
+|36 || 5,180 || EU, USA, Japan
+|-
+|40 || 5,200 || EU, USA, Japan
+|-
+|44 || 5,220 || EU, USA, Japan
+|-
+|48 || 5,240 || EU, USA, Japan
+|-
+|52 || 5,260 || EU, USA
+|-
+|56 || 5,280 || EU, USA
+|-
+|60 || 5,300 || EU, USA
+|-
+|64 || 5,320 || EU, USA
+|-
+|100 || 5,500 || EU
+|-
+|104 || 5,520 || EU
+|-
+|108 || 5,540 || EU
+|-
+|112 || 5,560 || EU
+|-
+|116 || 5,580 || EU
+|-
+|120 || 5,600 || EU
+|-
+|124 || 5,620 || EU
+|-
+|128 || 5,640 || EU
+|-
+|132 || 5,660 || EU
+|-
+|136 || 5,680 || EU
+|-
+|140 || 5,700 || EU
+|-
+|147 || 5,735 || USA
+|-
+|151 || 5,755 || USA
+|-
+|155 || 5,775 || USA
+|-
+|167 || 5,835 || USA
+|}
+
+Der Bereich 5150–5350 MHz darf in Deutschland nur in geschlossenen Räumen genutzt werden.
+Der Bereich 5250–5725 MHz kann mit einer Sendeleistung von bis zu 1000 mW genutzt werden, wenn Leistungsreglung und dynamisches Frequenzwahlverfahren verwendet werden.
+<ref>http://www.bundesnetzagentur.de/media/archive/5009.pdf</ref>
+
+Gemäß dem Standard IEEE 802.11b bzw. 802.11g steht der WLAN-Anwendung eine Gesamtbandbreite von 60&nbsp;MHz (mit geringfügigen Unterschieden in den einzelnen Ländern der EU) zur Verfügung. Ein einzelner WLAN-Kanal benötigt ein Frequenzband von 20&nbsp;MHz Breite. Das bedeutet, dass lediglich drei der elf (USA), 13 (Europa) bzw. 14 (Japan) Kanäle gleichzeitig ohne Einschränkungen innerhalb derselben Ausleuchtzone verwendet werden können. Diese drei Kanäle werden in den meisten Literaturquellen als „überlappungsfreie“ Kanäle bezeichnet. In den USA sind dies die Kanäle 1, 6 und 11, in Europa und Japan die Kanäle 1, 7 und 13. Es können jedoch sechs Strecken eingerichtet werden, wenn drei in vertikaler und drei in horizontaler Polarisation betrieben werden. Die drei mit der horizontalen Polarisation sollten jedoch wenigstens einen Kanal neben denen mit vertikaler Polarisation liegen. Also z.&nbsp;B. 1, 6 und 11 mit der einen und 2, 7 und 12 (noch besser 3, 8 und 13) mit der anderen Polarisation.
+Mindestabstand für den Betrieb mit gleicher Polarisation sind also fünf Kanäle.
+Ferner ist zu berücksichtigen, dass die WLAN-Kanäle 9 und 10 nahezu identische Frequenzen wie haushaltsübliche Mikrowellenherde (2,455&nbsp;GHz) aufweisen und dadurch zeitweilig ein vollständiger Verbindungszusammenbruch möglich ist. Mit Leistungseinbußen kann durch Frequenzspreizung mittels Direct Sequence Spread Spectrum auch ein Betrieb mit geringerem Kanalabstand möglich sein.
+
+Die Frequenzzuteilungen im 2,4-GHz-Band und im 5-GHz-Band sind der Webseite der Bundesnetzagentur zu entnehmen.<ref name="frequenzzuteilungen">[http://www.bundesnetzagentur.de/media/archive/313.pdf Frequenzuteilungen im 2,4-GHz-] und [http://www.bundesnetzagentur.de/media/archive/5009.pdf 5-Ghz-Band bei der Bundesnetzagentur (PDF)]</ref>
+
+== Reichweite und Antennen ==
+
+thumb|Wendelantenne für 2,4&nbsp;GHz, ca. 18&nbsp;dBi, Eigenbau
+thumb|54 MBit WLAN-PCI-Karte (802.11b/g) mit Dipolantenne (links neben dem Slotblech)
+thumb|54 MBit WLAN-USB-Adapter (802.11b/g) mit integrierter Antenne
+thumb|Wireless LAN Cardbus-Karte Typ II (802.11b/g) mit integrierter Antenne
+thumb|Access Point, einsetzbar als Bridge und Repeater, mit Dipolantenne
+
+=== Strahlungsleistung ===
+
+Die zulässige effektive Strahlungsleistung (EIRP) von 100&nbsp;mW (2,4&nbsp;GHz) bzw. 500&nbsp;mW (5,4&nbsp;GHz) handelsüblicher 802.11-Endgeräte lässt 30 bis 100&nbsp;Meter Reichweite auf freier Fläche erwarten. Einige WLAN-Geräte erlauben den Anschluss einer externen Antenne. Mit externen Rundstrahlantennen lassen sich bei Sichtkontakt 100 bis 300&nbsp;Meter im Freien überbrücken. In Sonderfällen lassen sich sogar 90&nbsp;Meter durch geschlossene Räume erreichen. Die Reichweite ist stark von Hindernissen sowie Art und Form der Bebauung abhängig.
+
+Leichtbauwände mindern die Reichweite durch Dämpfung, und können – je nach verwendetem (Metall-)Trägerbau sowie Art der Unterfolie ein großes Hindernis sein. Insbesondere Stein- und Betonaußenwände dämpfen, vor allem durch Feuchtigkeit bedingt, stark – ebenso wie metallbedampfte Glastüren/Brandschutzkonstruktionen. Metalle werden nicht durchdrungen. Je stärker die elektrische Leitfähigkeit des Materials, desto stärker ist die Dämpfung.
+
+Oberflächen können auch als Reflektor wirken, um Funklöcher „auszuspiegeln“ – je höher die Leitfähigkeit und je größer die Fläche, desto besser. Leitende Gegenstände in der Nähe von Antennen können deren Richtcharakteristik stark beeinflussen. Dicht belaubte Bäume dämpfen ebenfalls die Signalstärke bei WLAN-Verbindungen.
+
+WLAN nach IEEE 802.11a (maximal 54&nbsp;Mbit/s brutto) arbeitet im 5-GHz-Band, in dem ein größerer Frequenzbereich (455&nbsp;MHz Bandbreite) zur Verfügung steht und damit 19 nicht überlappende Frequenzen (in Deutschland) lizenzfrei nutzbar sind. (Siehe hierzu auch: U-NII) Im Normalbetrieb nach IEEE 802.11a sind 100&nbsp;mW effektive Strahlungsleistung (EIRP) erlaubt. Unter strengeren Auflagen (TPC, ''Transmit Power Control'' und DFS, ''Dynamic Frequency Selection'') sind höhere effektive Strahlungsleistungen bis 1&nbsp;Watt EIRP gestattet. TPC und DFS sollen sicherstellen, dass Satellitenverbindungen und Radargeräte nicht gestört werden (World Radio Conference 2003). Dies und die höheren Kosten der Hardware aufgrund der höheren Frequenz bewirken, dass sich 802.11a noch nicht gegen 802.11b oder g durchgesetzt hat.
+
+Mit speziellen Richtfunkantennen lassen sich bei Sichtkontakt mehrere Kilometer überbrücken. Hierbei werden teilweise Rekorde mit Verbindungen über bis zu hundert Kilometer aufgestellt, bei denen keine Sendeverstärker eingesetzt werden, sondern nur Antennen mit hohem Gewinn. Allerdings funktioniert das nur bei quasi-optischer Sicht und möglichst freier erster Fresnelzone. Die zulässige effektive Strahlungsleistung wird dabei aber meist deutlich überschritten.
+
+Antennen bringen sowohl einen Sende- als auch einen Empfangsgewinn (Antennengewinn, angegeben in dBi), indem sie elektromagnetische Wellen bündeln. Daher muss statt der Sendeleistung die sogenannte Effektive isotrope Strahlungsleistung (EIRP) zur Beschränkung herangezogen werden.
+
+Die effektive isotrope Strahlungsleistung ist diejenige Sendeleistung, die ein Sender mit einem idealen Kugelstrahler als Antenne benötigen würde, um die gleiche Leistungsflussdichte zu erreichen. Wenn man die Strahlung (ähnlich wie bei einem Scheinwerfer) in eine bestimmte Richtung konzentriert, braucht man für die gleiche Leistungsflussdichte in der Hauptrichtung der Antenne eine bedeutend geringere Sendeleistung. Das Verhältnis dieser Leistungen ist der Antennengewinn.
+
+In Deutschland ist die effektive isotrope Strahlungsleistung von WLAN-Anlagen auf 100&nbsp;mW&nbsp;(= 20&nbsp;dBm) EIRP (bei 2,4&nbsp;GHz) bzw. 1000&nbsp;mW (= 30&nbsp;dBm) EIRP (bei 5,7&nbsp;GHz mit TPC und DFS) begrenzt.
+
+Es besteht inzwischen keine behördliche Meldepflicht mehr für grundstücksüberschreitende Funkanlagen. Der Betreiber trägt die Verantwortung, dass seine Anlage die vorgeschriebenen Grenzwerte nicht überschreitet. Es dürfen in Deutschland uneingeschränkt auch selbstgebaute Antennen verwendet werden. Hierfür ist keine Lizenz notwendig. Die Regulierungsbehörde für Telekommunikation und Post (RegTP), früher Bundespost, BAPT), heute Bundesnetzagentur, hat die entsprechenden Frequenzbereiche in einer Allgemeinzuteilung lizenzfrei gestellt. Reglementiert ist somit lediglich der Sendeweg. Auf der Empfangsseite gibt es keine Beschränkungen. Deshalb kann bei zu geringer Sendeleistung der Gegenstelle auf der Empfangsseite ein beliebig hoher Antennengewinn eingesetzt werden, wenn z.&nbsp;B. der AP Lösungen mit getrennten Sende- und Empfangsantennen mit unterschiedlichem Gewinn erlaubt.
+
+Berechnet wird die effektive isotrope Strahlungsleistung (EIRP) (in dBm) eines WLAN-Gerätes aus:
+
+:+ elektrische Sendeleistung (dBm)
+:+ Verstärkung eines zusätzlichen Verstärkers (dB) (falls vorhanden)
+:− Dämpfung der Kabel (dB/m × Länge)
+:− Dämpfung der Stecker (dB) (meist vernachlässigbar)
+:− Dämpfung eines Blitzschutzadapters (dB) (falls vorhanden)
+:+ Gewinn der Antenne (dBi)
+__________________________________________________

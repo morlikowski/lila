@@ -1,0 +1,114 @@
+{{Info/Comuna da Itália|
+|regiao        = Lombardia <!-- Apenas o nome da região -->
+|provincia     = Bérgamo <!-- Apenas o nome da província -->
+|nome          = Entratico
+|mapa          = LOM-Mappa.png
+|mapaX         = <!-- Indique a coordenadaX no mapa indicado --> 
+|mapaY         = <!-- Indique a coordenadaY no mapa indicado -->
+|bandeira      = 
+|brasao        = 
+|imagem        = 
+|latitude      = 45° 43' N
+|longitude     = 9° 52' E
+|altitude      = 
+|area          = 4
+|populacao     = 1.452
+|densidade     = 363
+|adjacentes    = Berzo San Fermo, Borgo di Terzo, Foresto Sparso, Luzzana, Trescore Balneario, Zandobbio
+|cap           = 24060
+|pref_tel      = 035
+|istat         = 016094
+|fical         = D411
+|habitantes    = entratichesi
+|nomepatrono   = &nbsp;
+|datapatrono   = 
+|site          = 
+}}
+'''Entratico''' é uma região da Lombardia, km<sup>2</sup>, tendo uma densidade populacional de 363 hab/km<sup>2</sup>. Faz fronteira com Berzo San Fermo, Borgo di Terzo, Foresto Sparso, Luzzana, Trescore Balneario, Zandobbio.
+
+Categoria:Comunas da Itália
+
+Categoria:Comunas da Lombardia
+Categoria:Comunas de Bérgamo
+
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = Entratico |
+  name = Entratico |
+  region = Lombardy |
+  province = Province of Bergamo (BG) |
+  elevation_m = 299 |
+  area_total_km2   = 4.1 |
+  population_as_of  = Dec. 2004 |
+  population_total = 1620 |
+  population_density_km2 = 393 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          =  |
+  telephone         = 035 |
+  postalcode        = 24060 |
+  gentilic          = entratichesi |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           =  |
+  mapy = 9.8667 |
+  mapx = 45.7167 |
+}}
+'''Entratico''' is a ''Italian region of Lombardy, located about 60 km northeast of Milan and about 15 km east of Bergamo. As of 31 December 2004, it had a population of 1,620 and an area of 4.1 km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+Entratico borders the following municipalities: Berzo San Fermo, Borgo di Terzo, Foresto Sparso, Luzzana, Trescore Balneario, Zandobbio.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:2000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:1000 start:0
+ScaleMinor = gridcolor:lightgrey increment:200 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:642
+  bar:1871 from: 0 till:688
+  bar:1881 from: 0 till:780
+  bar:1901 from: 0 till:955
+  bar:1911 from: 0 till:1055
+  bar:1921 from: 0 till:1133
+  bar:1931 from: 0 till:1161
+  bar:1936 from: 0 till:995
+  bar:1951 from: 0 till:1052
+  bar:1961 from: 0 till:1075
+  bar:1971 from: 0 till:1163
+  bar:1981 from: 0 till:1248
+  bar:1991 from: 0 till:1354
+  bar:2001 from: 0 till:1452
+
+PlotData=

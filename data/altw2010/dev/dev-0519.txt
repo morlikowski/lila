@@ -1,0 +1,50 @@
+'''架線電流計'''（かせんでんりゅうけい）は、'''クランプメータ''' (Clamp meter) ともいい、電流による磁界を測ることによって電気回路を開くことなく測定できる電流計である。
+
+== 使用上の注意 ==
+* 測定する回路の電圧にあわせたものを使用し、低圧用のもので、高圧以上を測定してはならない。
+* クランプの分割部に異物をはさんだり汚損しないように注意する。
+* 測定時は、クランプをきちんと閉じ、架線がなるべく中心に来るようにする。
+* 他の磁気の影響を受けないように注意して測定する。
+
+== 負荷電流測定 ==
+負荷につながれた電線を1本ずつはさんで測定する。負荷電流が予想できないときは最大レンジで測定し、一つずつレンジを下げて測定する。
+
+また、指示値が読み取りにくい場合は、データホールド機能を利用して測定する。
+
+== 漏れ電流測定 ==
+停電させることが出来ない場合、漏れ電流計を利用し、絶縁測定の代用とする。
+
+変圧器のB種接地線を測定する場合、変圧器や平行する電線の磁界の影響を受けにくい位置で測定する。負荷の交流架線を一括でクランプする場合、クランプが確実に閉じられた状態で測定する。
+
+== 種類 ==
+* 交流専用 : 電磁誘導を利用した計器用変流器を使用している。
+* 交流直流両用 : 半導体のホール効果を利用している。
+* 漏れ電流計 : 微小な漏れ電流を測定するための高感度のものである。高調波による影響を除き、商用周波数の漏れ電流の大きさを計る機能を持っていることが多い。
+
+* 一体型
+* 分離型
+
+thumb|350px|Zangenamperemeter für Wechselstrom
+thumb|350px|kleines Zangenampermeter
+
+'''Zangenamperemeter''', auch Strommesszangen oder Stromzangen genannt, sind Amperemeter in Reihe zu schalten, ist dies bei der indirekten Messung mit dem Zangenamperemeter nicht erforderlich, da es die magnetische Wirkung des Leiterstroms misst. Dank eines zangenartig teilbaren Eisenkerns kann man Leiter oder Stromschienen umfassen, ohne in den Stromkreis eingreifen zu müssen. Deshalb kann auch an Anlagen gemessen werden, die nicht abgeschaltet werden können. Ein weiterer Vorteil ist die galvanische Trennung. Das Messsignal ist also gegenüber der zu messenden Größe vollkommen potentialfrei.
+
+==Wirkungsweise==
+===Wechselstrommessung===
+Bei Wechselstrom-Zangenamperemetern wird das Transformator-Prinzip angewendet. Dabei bildet der feste und der bewegliche Schenkel der Zange im geschlossenen Zustand den Trafokern, der zu messende Leiter die Primärwicklung und die Spule im Messgerät die Sekundärwicklung. Der Strom im Leiter magnetisiert den Kern und induziert dadurch in der Sekundärwicklung eine Spannung, die proportional zum Leiterstrom ist. Die Ausgangsleistung der Sekundärspule ist so groß, dass sie direkt Messwerke betreiben kann.
+thumb|Wirkungsweise des Wechselstromzangenamperemeters
+===Allstrommessung===
+Gleichstromtaugliche Zangenamperemeter können wegen der fehlenden Wechselfelder nicht nach obigem Prinzip gebaut werden. Hier werden  Hallsensoren oder magnetfeldabhängige Widerstände, die auch statische Magnetfelder erfassen können, in einem Luftspalt des Kerns angebracht. Die erzeugten schwachen Signale müssen elektronisch verstärkt werden. Deshalb müssen sie über Batterien oder Netzgeräte mit Strom versorgt werden. Diese Messgeräte sind auch für Wechselströme geeignet.
+thumb|Wirkungsweise des Allstromzangenamperemeters
+==Anzeige des Messwertes==
+===Direkte Anzeige===
+Die Messwerte von Stromzangen nach dem Transformatorprinzip können direkt über Dreheisenmesswerke visualisiert werden. Es können auch Drehspulmesswerke verwendet werden, denen aber ein Gleichrichter vorgeschaltet werden muss. 
+
+Neuere Ausführungen haben oft Digitalanzeigen, für die der Messwert mittels elektronischer Schaltungen erst umgewandelt werden muss. Solche Geräte benötigen eine zusätzliche Stromversorgung.
+
+Gleichstromtaugliche Stromzangen benötigen grundsätzlich Verstärker für die schwachen Signale der Magnetfeld-Sensoren. Da also sowieso schon elektronische Baugruppen und eine zusätzliche Stromversorgung vorhanden sind, werden sie wegen des geringen zusätzlichen Aufwands normalerweise mit Digitalanzeigen ausgestattet.
+
+===Anzeige über Zusatzgeräte===
+Es gibt auch Stromzangen ohne direkte Anzeige (Zangenstromwandler). Ihr Aufbau ist prinzipiell der gleiche wie bei normalen Ausführungen. Statt eines Anzeigeinstruments sind hier Buchsen vorhanden, über die der Messwert z. B. auf Oszilloskope, Messschreiber oder Multimeter übertragen wird. Jedes Gerät hat ein festgelegtes Übersetzungsverhältnis, über das die wahre Größe des Stromes errechnet werden muss. So gibt z. B. eine Stromzange mit einem Übersetzungsverhältnis von 100:1 bei einem Strom von 20&nbsp;A einen Ausgangsstrom von 200&nbsp;mA ab.
+==Ausführung des Kerns==
+Der teilbare Kern der Zangenamperemeter besteht aus geschichteten Elektroblechen  (bei höheren Frequenzen auch Ferrite) und ist meist zusätzlich isoliert, da mit solchen Geräten ja oft an unisolierten Stromschienen gemessen wird. Die Berührungsflächen der beiden Kernteile sind geschliffen und mit Verzahnungen aufeinander gepasst, um magnetische Verluste möglichst gering zu halten. Der bewegliche Teil des Kerns ist mit einem Scharnier mit dem festen Teil verbunden und kann mittels eines Hebels  geöffnet werden. Während der Messung drückt eine Schließfeder die beiden Kernteile zusammen.

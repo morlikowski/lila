@@ -1,0 +1,189 @@
+En valeurs qui se conservent lors des interactions entre éléments du système. Cette loi, d'abord empirique, a été expliquée par le théorème de Noether et est liée à la symétrie des équations de la physique par translation dans l'espace. 
+
+Quantité de mouvement et impulsion sont souvent confondues en raison de leur coïncidence dans la majorité des cas. Néanmoins en théorie ces deux grandeurs sont distinctes<ref>, tome I, 1977 : Chapitre III, B, p.225</ref>.
+
+== En mécanique classique ==
+
+En mécanique classique, la quantité de mouvement d'un point matériel de masse <math>m\,</math> animé d'une vitesse <math>\vec{v}</math>, est définie comme produit de la masse et de la vitesse :
+:<math>\vec{p}=m\vec{v}</math>
+C'est donc, comme la vitesse, une grandeur vectorielle. 
+
+L'unité SI de la quantité de mouvement est le kg&nbsp;<math>\cdot</math>&nbsp;m&nbsp;<math>\cdot</math>&nbsp;s<sup>-1</sup>.
+
+=== Variation de quantité de mouvement ===
+
+Une variation de quantité de mouvement consécutive à l'action d'une force est calculée comme étant l'force pendant la durée d'action de la force. Pour la calculer, considérons un objet de quantité de mouvement initiale <math>\mathbf{p}_1=\mathbf{p}(t_1)</math> à un instant <math>t_1</math>. Cet objet subit une force <math>\mathbf{F}(t)</math> pendant une durée <math>t_2-t_1</math>. L'intégrale de cette force par rapport au temps, pendant cette durée, est égale à&nbsp;:
+:<math>\mathbf{I}=\int_{t_1}^{t_2}\mathbf{F}(t)\,\mathrm{d}t</math>
+En utilisant la définition de la force <math>\mathbf{F}(t)=\frac{\mathrm{d}\mathbf{p}(t)}{\mathrm{d}t}</math>, on obtient&nbsp;:
+:<math>\mathbf{I}=\int_{t_1}^{t_2}\frac{\mathrm{d}\mathbf{p}(t)}{\mathrm{d}t}\,\mathrm{d}t = \int_{\mathbf{p}_1}^{\mathbf{p}_2}\mathrm{d}\mathbf{p}=\mathbf{p}_2-\mathbf{p}_1=\Delta \mathbf{p}</math>
+
+L'usage, dérivé de l'appellation anglo-saxonne ''impulse'', est d'appeler cette grandeur ''impulsion''. Néanmoins, en toute rigueur, en français ''impulsion'' désigne le moment linéaire, grandeur de la mécanique lagrangienne. Lorsque la durée d'action de la force est très courte, la grandeur I précédente est appelée percussion mécanique, en raison de son importance dans la théorie des chocs.
+
+=== Théorème du centre d'inertie pour un système ===
+En mécanique classique, l'application des lois de Newton permet de démontrer le théorème du centre d'inertie qui apparaît comme la généralisation de la seconde loi de Newton pour un système quelconque (solide ou ensemble de points matériels, ensemble de solides) :
+
+Si <math>M\,</math> désigne la masse totale du système et <math>G\,</math> son centre d'inertie, alors, la quantité de mouvement du système est :
+:<math>\vec{P}=M\vec{V_{G}}</math>
+<math>\vec{V_{G}}</math> désignant donc la vitesse du centre d'inertie du système et <math>M</math> la masse totale du système.
+
+Le théorème s'énonce alors ainsi : la variation de la quantité de mouvement du système est égale à la somme des forces ''extérieures'' s'exerçant sur le système :
+:<math> \over {dt}} = \sum \vec{F_{ext}} </math>
+
+Cette relation est fondamentale : c'est elle qui permet d'étudier le mouvement d'un solide sans avoir besoin de connaître les forces de liaison interatomique. Elle sert à étudier autant la chute d'une pomme que le mouvement de la Lune autour de la Terre.
+
+Un cas particulier important : si l'on imagine le choc de deux objets (ou particules) pour lequel les forces extérieures (au système constitué de ces 2 objets) est nulle (ou négligeable), alors la quantité de mouvement totale se conserve : elle est la même après le choc qu'avant le choc, et ce en dépit des interactions qui ont eu lieu pendant le choc. C'est d'ailleurs l'étude des chocs qui a conduit Descartes à penser qu'une certaine quantité du mouvement était nécessairement conservée.
+
+=== En mécanique lagrangienne ===
+
+En mécanique lagrangienne, si l'on note <math>L(x, \dot{x})\,</math> le lagrangien du système avec <math>x\,</math> une coordonnée de position du système et <math>\dot{x}\,</math> sa dérivée par rapport au temps, on obtient la composante de la quantité de mouvement suivant la direction ''x'' par :
+: <center><math>p_x = \frac{\partial{L}}{\partial{\dot{x}}}</math></center>
+Cette relation, qui en réalité définit le moment conjugué de la position (ou impulsion), n'est toutefois pas générale. Dans le cas notamment d'une particule chargée en mouvement dans un champ électromagnétique la quantité de mouvement est définie par<ref>J.-P.Pérez, ''Mécanique'', 3 édition,1992, p. 306</ref> :
+: <math>p_x = \frac{\partial{L}}{\partial{\dot{x}}} - q A_x</math> où q est la charge électrique de la particule et A est le potentiel vecteur.
+
+thumb|200px|Title page of the 1st edition of Newton's work defining the [[Newton's laws of motion|laws of motion.]]
+In pl. momenta; kg·m/s, or, equivalently, N·s) is the product of the "modern definitions of momentum" on this page. It is sometimes referred to as '''linear momentum''' to distinguish it from the related subject of angular momentum. Linear momentum is a vector quantity, since it has a direction as well as a magnitude. Angular momentum is a pseudovector quantity because it gains an additional sign flip under an improper rotation.  The total momentum of any group of objects remains the same unless outside forces act on the objects.
+
+Momentum is a conserved quantity, meaning that the total momentum of any closed system (one not affected by external forces) cannot change.
+
+==History of the concept==
+The word for the general concept of ''mōmentum'' was used in the suffices on the stem of Latin ''movēre'', "to move." A ''movi-men-'' is the result of the ''movēre'' just as ''frag-men-'' is the result of ''frangere'', "to break." Extension by -to- obtains ''mōvimentum'' and ''fragmentum'', the former contracting to ''mōmentum''.<ref></ref>
+
+The ''mōmentum'' was not merely the motion, which was ''mōtus'', but was the power residing in a moving object, captured by today's mathematical definitions. A ''mōtus'', "movement", was a stage in any sort of change,<ref></ref> while ''velocitas'', "swiftness", captured only speed. The Romans, due to limitations inherent in the Roman numeral system, were unable to go further with the perception.
+
+The concept of momentum in classical mechanics was originated by a number of great thinkers and experimentalists. The first of these was Ibn Sina (Avicenna) ''circa'' 1000, who referred to impetus as proportional to weight times velocity.<ref>A. Sayili (1987), "Ibn Sīnā and Buridan on the Motion of the Projectile", ''Annals of the New York Academy of Sciences'' '''500''' (1), p. 477–482:
+</ref> Italian word "impeto."
+
+The question has been much debated as to what Sir Isaac Newton's contribution to the concept was. Apparently nothing, except to state more fully and with better mathematics what was already known. The first and second of Newton's Laws of Motion had already been stated by John Wallis in his 1670 work, ''Mechanica slive De Motu, Tractatus Geometricus'': "the initial state of the body, either of rest or of motion, will persist" and "If the force is greater than the resistance, motion will result...."<ref></ref> Wallis uses ''momentum'' and ''vis'' for force.
+
+Newton's "Mathematical Principles of Natural History" when it first came out in 1686 showed a similar casting around for words to use for the mathematical momentum. His Definition II<ref>Newton placed his definitions up front as did Wallis, with whom Newton can hardly fail to have been familiar.</ref> defines ''quantitas motus'', "quantity of motion," as "arising from the velocity and quantity of matter conjointly", which identifies it as momentum.<ref></ref> Thus when in Law II he refers to ''mutatio motus'', "change of motion," being proportional to the force impressed, he is generally taken to mean momentum and not motion.<ref></ref>
+
+It remained only to assign a standard term to the quantity of motion. The first use of "momentum" in its proper mathematical sense is not clear but by the time of Jenning's ''Miscellanea'' in 1721, four years before the final edition of Newton's ''Principia Mathematica'', momentum M or "quantity of motion" was being defined for students as "a rectangle", the product of Q and V where Q is "quantity of material" and V is "velocity", s/t.<ref></ref>
+
+==Linear momentum of a particle==
+thumb|Newton's apple in Einstein's elevator, a frame of reference. In it the apple has no velocity or momentum; outside, it does.
+If an object is moving in any reference frame, then it has momentum in that frame. It is important to note that momentum is frame dependent. That is, the same object may have a certain momentum in one frame of reference, but a different amount in another frame. For example, a moving object has momentum in a reference frame fixed to a spot on the ground, while at the same time having 0 momentum in a reference frame attached to the object's center of mass.
+
+The amount of momentum that an object has depends on two physical quantities: the vector); so this can be written:
+
+:<math>\mathbf{p}= m \mathbf{v}</math>
+where:
+:<math>\ \mathbf{p}</math> is the momentum 
+:<math>\ m</math> is the mass
+:<math>\ \mathbf{v}</math> the velocity 
+
+Example: a model airplane of 1 kg travelling due north at 1 m/s in straight and level flight has a momentum of 1 kg m/s due north measured from the ground. To the dummy pilot in the cockpit it has a velocity and momentum of zero.
+
+According to Newton's second law the rate of change of the momentum of a particle is proportional to the resultant force acting on the particle and is in the direction of that force. In the case of constant mass, and velocities much less than the speed of light, this definition results in the equation 
+
+:<math>\ \sum{\mathbf{F}} = {\mathrm{d}\mathbf{p} \over \mathrm{d}t} = m{\mathrm{d}\mathbf{v} \over \mathrm{d}t} = m\mathbf{a} </math>
+
+or just simply
+:<math>\mathbf{F}= m \mathbf{a}</math>
+where '''F''' is understood to be the resultant.
+
+Example: a model airplane of 1 kg accelerates from rest to a velocity of 1 m/s due north in 1 sec. The thrust required to produce this acceleration is 1 newton. The change in momentum is 1 kg-m/sec. To the dummy pilot in the cockpit there is no change of momentum. Its pressing backward in the seat is a reaction to the unbalanced thrust, shortly to be balanced by the drag.
+
+==Linear momentum of a system of particles==
+===Relating to mass and velocity===
+The linear momentum of a system of particles is the vector sum of the momenta of all the individual objects in the system.
+
+:<math>\mathbf{P}= \sum_{i = 1}^n m_i \mathbf{v}_i = m_1 \mathbf{v}_1 + m_2 \mathbf{v}_2 + m_3 \mathbf{v}_3 + \cdots + m_n \mathbf{v}_n </math>
+where
+:<math>\mathbf{P}</math> is the momentum of the particle system
+:<math>\ m_i</math> is the mass of object ''i''
+:<math>\mathbf{v}_i</math> the vector velocity of object ''i''
+:<math>\ n</math> is the number of objects in the system
+
+It can be shown that, in the center of mass frame the momentum of a system is zero. Additionally, the momentum in a frame of reference that is moving at a velocity '''v'''<sub>cm</sub> with respect to that frame is simply:
+
+:<math>\mathbf{P}= M\mathbf{v}_\text{cm}</math>
+where:
+:<math>M=\sum_{i = 1}^n m_i</math>.
+
+===Relating to force- General equations of motion===
+
+280px|right|thumb|Motion of a material body
+The linear momentum of a system of particles can also be defined as the product of the total mass <math>\ M</math> of the system times the velocity of the center of mass <math>\mathbf{v}_{cm}</math>
+
+:<math>\ \sum{\mathbf{F}} = {\mathrm{d}\mathbf{P} \over \mathrm{d}t}= M \frac{\mathrm{d}\mathbf{v}_{cm}}{\mathrm{d}t}=M\mathbf{a}_{cm}</math> 
+
+This is commonly known as Newton's second law.
+
+For a more general derivation using tensors, we consider a moving body (see Figure), assumed as a continuum, occupying a volume <math>\ V</math> at a time <math>\ t</math>, having a surface area <math>\ S</math>, with defined traction or surface forces <math>\ T_i^{(n)}</math> acting on every point of the body surface, body forces <math>\ F_i</math> per unit of volume on every point within the volume <math>\ V</math>, and a velocity field <math>\ v_i</math> prescribed throughout the body. Following the previous equation, The linear momentum of the system is:
+
+:<math>\int_S T_i^{(n)}dS + \int_V F_i dV = \int_V \rho \frac{d v_i}{dt} \, dV</math>
+
+By definition the stress vector is  <math>\ T_i^{(n)} =\sigma_{ij}n_j</math>, then
+
+:<math>\int_S \sigma_{ij}n_j \, dS + \int_V F_i \, dV = \int_V \rho \frac{d v_i}{dt} \, dV</math>
+
+Using the Gauss's divergency theorem to convert a surface integral to a volume integral gives
+
+:<math>\int_V  \sigma_{ij,j} \, dV + \int_V F_i \, dV = \int_V \rho \frac{d v_i}{dt} \, dV</math>
+
+:<math>\int_V  \sigma_{ij,j} + F_i - \rho \frac{d v_i}{dt}\, dV = 0</math>
+
+For an arbitrary volume the integrand itself must be zero, and we have the Cauchy's equation of motion
+
+:<math> \sigma_{ij,j} + F_i =  \rho \frac{d v_i}{dt}</math>
+
+If a system is in equilibrium, the change in momentum with respect to time is equal to 0, as there is no acceleration.
+
+:<math>\sum{\mathbf{F}} = {\mathrm{d}\mathbf{P} \over \mathrm{d}t}=\ M\mathbf{a}_{cm}= 0</math>
+
+or using tensors,
+
+:<math>\ \sigma_{ij,j} + F_i = 0</math>
+
+These are the equilibrium equations which are used in solid mechanics for solving problems of linear elasticity.
+In engineering notation, the equilibrium equations are expressed in Cartesian coordinates as
+
+: <math>\frac{\partial \sigma_x}{\partial x} + \frac{\partial \tau_{yx}}{\partial y} + \frac{\partial \tau_{zx}}{\partial z} + F_x = 0</math>
+
+: <math>\frac{\partial \tau_{xy}}{\partial x} + \frac{\partial \sigma_y}{\partial y} + \frac{\partial \tau_{zy}}{\partial z} + F_y = 0</math>
+
+: <math>\frac{\partial \tau_{xz}}{\partial x} + \frac{\partial \tau_{yz}}{\partial y} + \frac{\partial \sigma_z}{\partial z} + F_z = 0</math>
+
+==Conservation of linear momentum==
+The law of '''conservation of linear momentum''' is a fundamental law of nature, and it states that the total momentum of a closed system of objects (which has no interactions with external agents) is constant. One of the consequences of this is that the system of objects will always continue with the same velocity unless acted on by a force from outside the system. 
+
+Conservation of momentum is a mathematical consequence of the homogeneity (shift symmetry) of space (position in space is the canonical conjugate quantity to momentum). So, momentum conservation can be philosophically stated as "nothing depends on location per se".
+
+In an isolated system (one where external forces are absent) the total momentum will be constant: this is implied by Newton's first law of motion. Newton's third law of motion, the law of reciprocal actions, which dictates that the forces acting between systems are equal in magnitude, but opposite in sign, is due to the conservation of momentum.
+
+Since position in space is a vector quantity, momentum (being the canonical conjugate of position) is a vector quantity as well - it has direction. Thus, when a gun is fired, the final total momentum of the system (the gun and the bullet) is the vector sum of the momenta of these two objects. Assuming that the gun and bullet were at rest prior to firing (meaning the initial momentum of the system was zero), the final total momentum must also equal 0.
+
+In an isolated system with only two objects, the change in momentum of one object must be equal and opposite to the change in momentum of the other object. Mathematically,
+
+<math>\Delta \mathbf{p}_1 = -\Delta \mathbf{p}_2</math>
+
+Momentum has the special property that, in a closed system, it is always conserved, even in collisions and separations caused by explosive forces. Kinetic energy, on the other hand, is not conserved in collisions if they are inelastic. Since momentum is conserved it can be used to calculate an unknown velocity following a collision or a separation if all the other masses and velocities are known.
+
+A common problem in physics that requires the use of this fact is the collision of two particles. Since momentum is always conserved, the sum of the momenta before the collision must equal the sum of the momenta after the collision:
+:<math>m_1 \mathbf u_{1} + m_2 \mathbf u_{2} = m_1 \mathbf v_{1} + m_2 \mathbf v_{2} \,</math>
+where:
+:'''u''' signifies vector velocity before the collision
+:'''v''' signifies vector velocity after the collision.
+
+Usually, we either only know the velocities before or after a collision and would like to also find out the opposite. Correctly solving this problem means you have to know what kind of collision took place. There are two basic kinds of collisions, both of which conserve momentum:
+*Elastic collisions conserve kinetic energy as well as total momentum before and after collision.
+*Inelastic collisions don't conserve kinetic energy, but total momentum before and after collision is conserved.
+
+====Elastic collisions====
+A collision between two Pool balls is a good example of an ''almost'' totally elastic collision; a totally elastic collision exists only in theory. In addition to momentum being conserved when the two balls collide, the sum of kinetic energy before a collision must equal the sum of kinetic energy after:
+::<math>\begin{matrix}\frac{1}{2}\end{matrix} m_1 v_{1,i}^2
+ + \begin{matrix}\frac{1}{2}\end{matrix} m_2 v_{2,i}^2
+ = \begin{matrix}\frac{1}{2}\end{matrix} m_1 v_{1,f}^2
+ + \begin{matrix}\frac{1}{2}\end{matrix} m_2 v_{2,f}^2 \,</math>
+
+Since the 1/2 factor is common to all the terms, it can be taken out right away.
+
+=====Head-on collision (1 dimensional)=====
+In the case of two objects colliding head on we find that the final velocity
+
+::<math> v_{1,f} = \left( \frac{m_1 - m_2}{m_1 + m_2} \right) v_{1,i} + \left( \frac{2 m_2}{m_1 + m_2} \right) v_{2,i} \,</math>
+
+::<math> v_{2,f} = \left( \frac{2 m_1}{m_1 + m_2} \right) v_{1,i} + \left( \frac{m_2 - m_1}{m_1 + m_2} \right) v_{2,i} \,</math>
+
+which can then easily be rearranged to 
+::<math>m_{1} \cdot v_{1,f} + m_{2} \cdot v_{2,f} = m_{1} \cdot v_{1,i} + m_{2} \cdot v_{2,i}\,</math>

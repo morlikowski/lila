@@ -1,0 +1,79 @@
+'''Looginen portti''' muodostuu kytkimistä, joiden avulla voidaan tehdä laskutoimituksia digitaalisissa piireissä. Ne valmistetaan tavallisesti elektronisesti diodien ja transistorien avulla, mutta ne voidaan toteuttaa myös käyttämällä sähkömagneettisia releitä, nesteitä, optiikkaa tai jopa mekaanisia elementtejä.
+
+== Symbolit ==
+Nykyään käytössä on kaksi erilaista symbolijärjestelmää, joiden määrittelyt löytyvät standardista ANSI/IEEE Std 91-1984 sekä sen täydennysosasta ANSI/IEEE Std 91a-1991.
+
+<div style="clear: both"></div>
+{| class="wikitable"
+!Tyyppi!!Amerikkalainen symboli!!Eurooppalainen symboli
+|-
+|'''AND (JA)'''||AND-symboli||AND-symboli 
+|-
+|'''OR (TAI)'''||150px|OR-symboli||OR-symboli
+|-
+|'''NOT (EI)'''||150px|NOT-symboli||NOT-symboli 
+|-
+| colspan="3" |Elektroniikassa EI-porttia kutsutaan tavallisesti invertteriksi.  Symboliin lisättyä ympyrää sanotaan ''kuplaksi'', ja sitä käytetään piirikaavioissa merkitsemään käänteistä signaalin arvoa.
+|-
+|'''NAND (EI-JA)'''||NAND-symboli||NAND-symboli
+|-
+|'''NOR (EI-TAI)'''||NOR-symboli||NOR-symboli
+|-
+| colspan="3" |Käytännössä halvin porttityyppi on NAND-portti. Lisäksi Charles Peirce osoitti, että pelkkien NANDien avulla voidaan muodostaa kaikki loogiset portit.
+|-
+|'''XOR (ERI)'''||XOR-symbol||XOR-symboli
+|-
+|'''XNOR (SAMA)'''||150px|XNOR-symbol||XNOR-symboli
+|}
+
+البوابة المنطقية هي دائرة الكترونية تقوم بعمل عمليات منطقية لعدد من الدخول ، تعتمد العمليات المنطقية على الجبر البولياني
+== المستويات المنطقية==
+المستوى في المنطق البوليانى لابد أن يكون أحد مستويين .هذان المستويان لهم أسماء عديدة منها :عالى ومنخفض ، مفتوح و مغلق ،نعم و لا ، حقيقى و كاذب ، واحد و صفر .
+
+== أنواع التقنيات ==
+
+أهم الأنواع هي منطق االمقاومات الترانزستورات RTL و منطق الدايودات الترانزستوراتDTL ومنطق الترانزسترات الترانزستوراتTTL و منطق الموسفت (ترانزستور معدن -أكسيد -شبه موصل) المتناظرCMOS
+
+{| class="wikitable"
+|- bgcolor=#ddffdd align=center
+
+||rowspan=2 bgcolor=#ddeeff||'''INPUT''' || bgcolor=#ddeeff|| A || 0 || 0 || 1 || 1
+|- bgcolor=#ddffdd align=center
+|| bgcolor=#ddeeff|| B || 0 || 1 || 0 || 1
+|- bgcolor=#ddffdd align=center
+|rowspan=16 bgcolor=#ddeeff|'''OUTPUT''' || bgcolor=#ddeeff|| 0 || 0 || 0 || 0 || 0
+|- bgcolor=#ddffdd align=center
+||bgcolor=#ddeeff|| A AND B || 0 || 0 || 0 || 1
+|- bgcolor=#ddffdd align=center
+|bgcolor=#ddeeff|  || 0 || 0 || 1 || 0
+|- bgcolor=#ddffdd align=center
+|bgcolor=#ddeeff| A || 0 || 0 || 1 || 1
+|- bgcolor=#ddffdd align=center
+|bgcolor=#ddeeff|  || 0 || 1 || 0 || 0
+|- bgcolor=#ddffdd align=center
+|bgcolor=#ddeeff| B || 0 || 1 || 0 || 1
+|- bgcolor=#ddffdd align=center
+|bgcolor=#ddeeff| A XOR B || 0 || 1 || 1 || 0
+|- bgcolor=#ddffdd align=center
+|bgcolor=#ddeeff| A OR أوB || 0 || 1 || 1 || 1
+|- bgcolor=#ddffdd align=center
+|bgcolor=#ddeeff| A NORليس أو B || 1 || 0 || 0 || 0
+|- bgcolor=#ddffdd align=center
+|bgcolor=#ddeeff|| A XNOR B || 1 || 0 || 0 || 1
+|- bgcolor=#ddffdd align=center
+|bgcolor=#ddeeff| NOT لاB || 1 || 0 || 1 || 0
+|- bgcolor=#ddffdd align=center
+|bgcolor=#ddeeff|  || 1 || 0 || 1 || 1
+|- bgcolor=#ddffdd align=center
+||bgcolor=#ddeeff| NOT A لا|| 1 || 1 || 0 || 0
+|- bgcolor=#ddffdd align=center
+||bgcolor=#ddeeff|  || 1 || 1 || 0 || 1
+|- bgcolor=#ddffdd align=center
+|bgcolor=#ddeeff|| A NAND B ليس و|| 1 || 1 || 1 || 0
+|- bgcolor=#ddffdd align=center
+||bgcolor=#ddeeff| 1 || 1 || 1 || 1 || 1
+|}
+
+Logic gates are a vital part of many digital circuits, and as such, every kind is available as an IC. For examples, see the 4000 series of CMOS logic chips or the 700 series.
+
+== الرموز ==

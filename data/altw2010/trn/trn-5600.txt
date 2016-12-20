@@ -1,0 +1,66 @@
+Au sein d'un polarisation électronique au fil des liaisons chimiques, due à la différence d'électronégativité des différents éléments liés entre eux.
+
+== Électronégativité ==
+=== Définition ===
+L'électronégativité est la capacité d'un élément à attirer les électrons, donc leur charge électrique, lorsqu'il est lié à un autre atome. L'électronégativité est relative : un élément A est électronégatif par rapport à un autre élément B si A attire de façon plus forte les électrons, B sera alors dit électropositif par rapport à A. L'électronégativité est généralement noté χ.
+
+=== Molécule A<sub>2</sub> ===
+Dans une liaison des deux atomes A est purement covalente : les électrons sont équitablement répartis au sein de la liaison puisqu'il n'y a pas de différence d'électronégativité. Les deux atomes A sont donc électriquement neutres. Deux éléments A et B ayant la même électronégativité seront aussi liés par une liaison purement covalente, et électriquement neutre. La molécule A-A n'est donc pas polarisée.
+
+=== Molécule A-B ===
+Dans une molécule de type A-B, où l'électronégativité des deux éléments A et B est différente, la liaison A-B est iono-covalente. Les électrons ne sont pas équitablement répartis puisque l'élément ayant l'électronégativité la plus élevée va attirer les électrons. Les deux atomes sont partiellement chargés. Plus la différence d'électronégativité est élevée, plus les charges partielles sont importantes. Ces deux charges sont dites ''partielles'' car ce sont des fractions (comprises entre 0 et 1), positives ou négatives, de la charge élémentaire. Elles sont généralement notées δ+ ou δ-. On parle alors de ''degré d'ionicité'' de la liaison (ou à l'inverse de ''degré de covalence''). 
+
+Par exemple, si χ<sub>B</sub> > χ<sub>A</sub>, alors B sera partiellement chargé négativement puisqu'il attire les électrons, A sera au contraire partiellement chargé positivement. Par ailleurs, la liaison A-B est polarisée.
+
+== Moment dipolaire électrique ==
+Lorsque deux atomes A et B sont liés et partiellement chargés électriquement, on constate qu'il existe un moment dipolaire, noté <math>\vec \mu</math> <!-- utiliser LaTex pour vecteur mu -->. Ce moment dipolaire va de l'atome chargé positivement à l'atome chargé négativement (la convention inverse est utilisée en physique).
+
+Le moment dipolaire d'un composé est la somme vectorielle des moments dipolaires qui existent entre chaque liaison. C'est la valeur de ce moment dipolaire qui est mesuré expérimentalement, il est très difficile de calculer la valeur du moment dipolaire d'un composé (ce calcul prend en compte le barycentre des charges partielles de chaque atome, difficilement calculables et positionnables dans l'espace), l'unité de mesure usuelle est le Debye.
+
+== Effet inductif – cas général==
+=== Définition ===
+Lorsque deux atomes A et B, d'électronégativités différentes, sont liés il y a déplacement des électrons vers le composé le plus électronégatif, polarisation de la liaison, les atomes A et B sont alors partiellement chargés et il y a donc un moment dipolaire électrique. La polarisation de la liaison, et ses conséquences, est appelée effet inductif.
+
+Il peut aussi y avoir effet inductif lorsqu'un atome A est lié à un groupe d'atomes globalement électroattracteur (et inversement, si A est plus électroattracteur). A sera alors chargé partiellement positivement (et inversement, A sera chargé partiellement négativement).
+
+Plus la différence d'électronégativité entre les éléments en présence est importante, plus la polarisation de la liaison sera importante, et plus l'effet inductif sera important.
+
+=== Propagation ===
+Globalement, au sein d'un composé chimique, l'effet inductif se transmet le long des liaisons σ. On considère généralement que l'effet inductif, du à un élément très électronégatif (ou électropositif), devient négligeable, voire inexistant, après une suite de trois liaisons σ. Ceci explique que l'effet inductif peut aussi être du à un groupement d'atomes.
+
+=== Addition ===
+Les effets inductifs peuvent s'additionner. Ainsi dans un composé du type B-A-B, avec  χ<sub>B</sub> > χ<sub>A</sub>, on aura δ<sub>A</sub> = -2δ<sub>B</sub> (δ<sub>B</sub> < 0 et δ<sub>A</sub> > 0 ). En fait A bénéficie deux fois de l'effet inductif de B. 
+
+Dans le CO<sub>2</sub>) le carbone bénéficie deux fois de l'effet inductif des atomes d'oxygène, élément plus électronégatif que le carbone.
+
+Le même raisonnement s'applique pour un composé du type A-B-C, ou les électronégativités des trois éléments sont différents. Les réactifs de Grignard sont un bon exemple de ce type de composés. Les réactifs de Grignard sont des organomagnésiens mixtes, du type C-Mg-X, avec X un halogène (généralement le chlore). Le magnésium est plus électropositif que le carbone qui porte donc une charge partielle légèrement négative. Les réactifs de Grignard sont très utilisés en chimie organique, notamment pour la synthèse d'alcanes non-linéaires.
+
+=== Effet inductif donneur – attracteur ===
+Si par effet inductif un atome A au sein d'un composé est partiellement chargé positivement (si le moment dipolaire du à cet effet inductif part de A vers l'atome -ou le groupe d'atomes- plus électroatracteur), on parle d'effet inductif attracteur, parfois noté -I.
+
+À l'inverse, si par effet inductif un atome A au sein d'un composé est partiellement chargé négativement (si le moment dipolaire du à cet effet inductif part vers A depuis l'atome -ou le groupe d'atomes- moins électroatracteur), on parle d'effet inductif donneur, parfois noté +I.
+
+=== Conséquences générales de l'effet inductif ===
+==== Réactivité ====
+Par effet inductif, un atome A au sein d'un composé chimique devient partiellement chargé électriquement, soit positivement, soit négativement. Cette charge partielle peut modifier la réactivité de A, et par conséquent des atomes qui lui sont directement liés.
+
+Ainsi, si A est partiellement chargé positivement il attirera des composés chargés négativement, ou ayant un excès d'électrons, et réagira plus facilement avec ces composés. Si A bénéficie d'un effet inductif attracteur, A sera électrophile. Un groupement -I est donc activant pour les réactions nucléophiles, désactivant pour les réactions électrophiles.
+
+De même, si A est partiellement chargé négativement il attirera des composés chargés positivement, ou ayant un déficit en électrons, et réagira plus facilement avec ces composés. Si A bénéficie d'un effet inductif donneur, A sera nucléophile. Un groupement +I est donc activant pour les réactions électrophiles, désactivant pour les réactions nucléophiles.
+
+==== Stabilité des ions ====
+Les ions sont des composés chimiques qui ont soit un fort excès (ou un fort défaut) de charge électrique. Du fait de cette charge électrique assez importante les ions sont fortement réactifs, donc peu stables. Or l'effet inductif charge électriquement les atomes au sein de composés chimiques. 
+
+The '''inductive effect''' in charge through a chain of atoms in a molecule by electrostatic induction (IUPAC definition). The net polar effect exerted by a substituent is a combination of this inductive effect and the mesomeric effect.
+
+The σ-bond between two unlike electronegative of the two atoms. This causes a permanent state of bond polarization, where the more electronegative atom has a slight negative charge(δ-) and the other atom has a slight positive charge(δ+). 
+
+If the electronegative atom is then joined to a chain of atoms, usually carbon, the positive charge is relayed to the other atoms in the chain. This is the electron-withdrawing inductive effect, also known as the '''-I effect'''.
+
+Some groups, such as the alkyl group are less electron-withdrawing than hydrogen and are therefore considered as electron-releasing. This is electron releasing character is indicated by the '''+I effect'''.
+
+As the induced change in polarity is less than the original polarity, the inductive effect rapidly dies out, and is significant only over a short distance. The inductive effect is permanent but feeble, as it involves the shift of strongly held σ-bond electrons, and other stronger factors may overshadow this effect. 
+
+The inductive effect may be caused by some molecules also. Relative inductive effects have been experimentally measured with reference to hydrogen.
+
+Relative strengths of the inductive effect of various molecules 

@@ -1,0 +1,21 @@
+A '''frequency counter''' is an electronic instrument, or component of one, that is used for measuring frequency. Since frequency is defined as the number of events of a particular sort occurring in a set period of time, it is generally a straightforward thing to measure it.
+
+thumb|right|220px|Systron-Donner frequency counter from 1973 with [[Nixie tube display]]
+
+Most frequency counters work by using a counter which accumulates the number of events occurring within a specific period of time. After a preset period (1 second, for example), the value in the counter is transferred to a display and the counter is reset to zero.  If the event being measured repeats itself with sufficient stability of frequency and this frequency is considerably lower than that of the clock oscillator being used, the resolution of the measurement can be greatly improved by measuring the time required for an entire number of cycles, rather than counting the number of entire cycles observed for a pre-set duration (often referred to as the ''reciprocal technique'') . The internal oscillator which enables the frequency counter to measure time is called the ''timebase'', and must be calibrated very accurately.
+
+If the thing to be counted is already in electronic form, simple interfacing to the instrument is all that is required. More complex signals may need some conditioning to make them suitable for counting.  Most general purpose frequency counters will include some form of amplifier, filtering and shaping circuitry at the input. Other types of periodic events that are not inherently electronic in nature will need to be converted using some form of transducer. For example, a mechanical event could be arranged to interrupt a light beam, and the counter made to count the resulting pulses.
+
+Frequency counters designed for radio frequencies (RF) are also common and operate on the same principles as lower frequency counters.  Often, they have more range before they overflow. For very high frequencies, many designs use a high-speed prescaler to bring the signal frequency down to a point where normal digital circuitry can operate. The displays on such instruments take this into account so they still read true. If the measured frequency is too high for any prescaler, a mixer and a local oscillator can produce a suitable frequency to measure.
+
+thumb|Erikoinen mittari [[Verkkovirta|verkkovirran taajuuden tarkkailuun]]
+
+'''Taajuuslaskin''' on elektroninen mittaväline, jolla mitataan taajuutta. Koska taajuus on määritelty tapahtumien määränä aikajaksolla, taajuuden mittaaminen on varsin suoraviivaista. Useimmissa taajuuslaskimissa on jonkinlainen kello ja laskuri, joka laskee tapahtumien määrän, ja tietyn ajanjakson (esim. sekunnin) kuluttua osamäärä näytetään näytössä.
+
+Jos laskettava tapahtuma on sähköinen, laskimen liittäminen on suoraviivaista. Joskus tarvitaan vahvistimia ja kaistanpäästösuodattimia sekä muuntimia. Usein taajuuslaskennan etuasteessa on esijakaja, jotta päästään mittaamaan mahdollisimman korkeita taajuuksia.
+
+Korkeille radiotaajuuksille tarvitaan yleensä taajuusjakaja, jotta taajuuslaskin toimisi oikealla taajuusalueellaan. Sekoittaja-aste ja paikallisoskillaattori auttavat hyvinkin korkeiden taajuuksien mittaamisessa.
+
+Taajuuslaskimen tarkkuus riippuu ratkaisevasti sen perusoskillaattorin taajuuden tarkkuudesta ja stabiilisuudesta. Tähän on päästy mm. pitämällä perusoskillaattoria vakiolämpötilassa "uunissa", jonka avulla oskilaattoritaajuus on saatu vakioitua.
+
+Nykyajan tietoliikenteen järjestelmissä käytettyjen taajuuksien tarkkuus on tullut koko ajan tärkeämmäksi, joten taajuuslaskimen tarkkuus on erittäin tärkeä ominaisuus.

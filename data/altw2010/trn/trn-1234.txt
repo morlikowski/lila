@@ -1,0 +1,25 @@
+Die '''Medieval Unicode Font Initiative''' ('''MUFI''') ist ein internationales Projekt von Paläographen, das sich um die Kodierung spezieller lateinischer Schriftzeichen im ISO-Norm 10646 bemüht. 
+
+In mittelalterlichen Handschriften gibt es zahlreiche Abbreviaturen (Kürzungen), diakritische Zeichen und Transkriptionen einfach in moderner Schreibweise wiedergegeben. Für wissenschaftliche Zwecke werden erweiterte Kürzungen oftmals durch Kursivschrift gekennzeichnet. Die abweichende Zeichensetzung bleibt hier im allgemeinen unberücksichtigt. 
+
+Für spezielle Zwecke wie z. B. sprachgeschichtliche Untersuchungen ist es wünschenswert, die Texte in der ursprünglichen Schreibweise digital zu erfassen und darzustellen. Auch einige von der modernen Schreibung abweichende Buchstabenformen sind hierzu unerlässlich. Ein erster Unicode-Kodierungsvorschlag (siehe Weblinks) für etwa 100 Zeichen ist im Februar 2006 vom Unicode Technical Comitee weitgehend akzeptiert worden.
+
+Um die vom MUFI-Projekt benötigten mittelalterlichen Schriftzeichen auch schon vor ihrer Aufnahme in den Unicode-Standard verwenden zu können, werden sie vorläufig in der sogenannten Private Use Area einiger Schriftarten kodiert.
+
+== MUFI-Schriftarten ==
+Verschiedene Fonts beinhalten alle oder einige MUFI-Zeichen:
+
+In digital typography, the '''Medieval Unicode Font Initiative''' ('''MUFI''') is a project which aims to coordinate the encoding and display of special characters in medieval texts written in the Latin alphabet, which are not encoded as part of Unicode.
+
+MUFI was founded in July 2001 by a workgroup consisting of Odd Einar Haugen (Bergen), Alec McAllister (Leeds) and Tarrin Wills (Sydney). As of 2006, MUFI had a board of four members, consisting of the three founding members and Andreas Stötzner (Leipzig).
+
+In medieval texts, many special ligatures, scribal abbreviations, and letter forms existed, which are no longer a part of the Latin alphabet. As few of these characters are encoded in Unicode, ligatures have to be broken up into separate letters when digitized. Since few fonts support medieval ligatures or alternate letter forms, it is difficult to transmit them reliably in digital formats.
+
+To prevent the possibility of corruption of the source texts, the eventual goal of the MUFI is to create a consensus on which characters to encode, and then present a completed proposal to the Unicode authorities. In the meantime, a part of the Latin Extended-D block.
+
+== MUFI Fonts ==
+As per 2007-11, there are two typefaces that cover all of MUFI v2.0, both freely available from the MUFI web site:
+*LeedsUni
+*Andron Scriptor
+
+Junicode (GPL) has an almost complete coverage of MUFI v2.0, in addition to a complete coverage of MUFI v1.0.

@@ -1,0 +1,34 @@
+{{noteTA
+|T=tRNA
+}}
+
+thumb|转移RNA
+'''tRNA'''為Transfer RNA的簡稱，又称'''转运RNA'''、'''转移RNA'''，是小RNA分子，能夠在轉譯時，攜帶特定的氨基酸到正在加上氨基酸的多肽鏈（polypeptide chain）的ribosomal site上。tRNA能認得特定的密碼子，有個能使氨基酸接附在其上的位置。藉由反密碼子使得每個tRNA能辨識的密碼子均不同。（反密碼子包含一段與mRNA上一段互補的序列）每個tRNA分子理論上只能與一種氨基酸接附，但是遺傳密碼有简并性（degenerate），使得有多於一個以上的tRNA可以跟一種氨基酸接附。
+
+按照英國生物物理學家佛朗西斯·克里克的假设，tRNA是一种“适配”分子，介导mRNA序列上密码子的识别，并且翻译成相应的氨基酸。1962年，佛朗西斯·克里克因提出去氧核糖核酸雙螺旋結構模型及其遺傳機制而獲諾貝爾獎。
+
+==tRNA的結構==
+thumb|right|tRNA的結構
+tRNA為74~95個鹼基的小片段RNA鏈，會折疊成苜蓿葉狀的二級結構。
+tRNA有一级结构（5'到3'的核苷酸方向），二级结构（通常显示为三叶草结构）和四级结构（所有的tRNA具有类似L-形的三维结构，允许它们与核糖体的P、A位点结合）。
+
+===特色===
+#5'端磷酸。
+#受体臂（accept stem，也被稱作''amino acid stem''）是一個7個鹼基長的臂，其中包含5'端，與有3'端羟基(OH)（能結合胺基酸於其上）的3'端。受体臂有可能含有非Watson-Crick所發現的鹼基對。
+#CCA尾（CCA tail）是tRNA分子3'端的CCA序列，在翻译时，帮助酶识别tRNA。
+#D臂（D arm）是在一个环（D loop）的端部4个碱基的臂，通常含有二氢尿嘧啶（dihydrouridine）。
+#反密码子臂（anticodon arm）有5个碱基，包括反密码子（anticodon）。每一tRNA包括一个特异的三联反密码子序列，能够与氨基酸的一个或者多个密码子匹配。例如赖氨酸（lysine）的密码子之一是AAA，相应的tRNA的反密码子可能是UUU（一些反密码子可以与多于一个的密码子匹配被称为“摆动”）。
+#T臂（T arm）是5个碱基的茎，包括序列T&psi;C。
+#修饰碱基（Modified bases）是tRNA中的一些不常见的碱基，如腺嘌呤、鸟嘌呤、胞嘧啶和尿嘧啶的修饰形式。
+
+===氨酰化===
+氨酰化(Aminoacylation)是添加一个氨酰基团到化合物的过程。 
+
+A '''transzfer RNS''', röviden '''tRNS''' nélkülözhetetlen szerepet játszik a DNS-től eltérően adenin, guanin, citozin és uracil bázisokat tartalmaz. Ez utóbbi a dezoxiribonukleinsavban található timint helyettesíti.  Alakja sematikusan egy kereszthez hasonlítható, amelyet részlegesen bázispárosodott és egyszálú szakaszok alakítanak ki. A molekula „feltöltött” állapotában a kereszt csúcsához kötve egy aminosav található.  Attól függően, hogy milyen aminosavat képes az adott tRNS megkötni, több mint 20-féle típust különböztetünk meg. A kereszt alján található az antikodont tartalmazó antikodon hurok, amely az mRNS (hírvivő vagy messenger RNS) kodonjaival képes bázispárosodásra. Ennek a fehérjeszintézis során van kiemelt szerepe.
+
+A  fehérjeszintézis során – a genomi DNS-ről kiíródó mRNS-t tervrajzként használva – a riboszóma aminosavakat rögzít egymáshoz, megfelelő sorrendben, peptidkötéseken keresztül. Ebben a folyamatban a tRNS az aminosvak szállítását végzi. 
+
+A folyamat első lépéseként az aminosavat egy aminosav transzferáz nevű enzim köti specifikusan a tRNS-re, amely ezután egy lánchosszabbító fázisban lévő riboszómához igyekszik kötni. Ennek feltétele, hogy kodon-antikodon párosodás jöjjön létre az átíródó mRNS soron lévő kodonja és a tRNS antikodon hurka között. Elsőként a kis riboszomális alegység „A site”-ra (Aminosav hely) kötödik, miközben az antikodon hurok bázispárosodik az mRNS éppen leolvasott kodonjával. Amennyiben ez a lépés nem megy végbe (mert nem a megfelelő tRNS került sorra) a tRNS leválik a riboszómáról és egy másik kerül a helyére.Az antikodon és a kodon között végbement sikeres bázispárosodás esetén egy a riboszomán található rRNS által katalizálva – peptidkötés jön létre az „A site” mögött található, „P site-hoz” (Peptid hely) kötött tRNS-en elhelyezkedő aminosavval. Ezután a kis riboszomális alegység egy GTP (guanozin-trifoszfát) hasítási  energiáját felhasználva elmozdul és ezalatt az „A site”-on található tRNS a „P site”-ra, míg az előzőleg itt elhelyezkedő tRNS az „E site”-ra (Exit vagy kilépő hely) kerül, ahonnan leválik a riboszómáról.
+ 
+Miután a  tRNS leválik a riboszómáról egy megfelelő specificitású aminosav-transzferáz feltölti aminosavval, ezután a molekula újra beléphet a riboszóma „A site”-jára.
+Fontos kiemelni a methionin-tRNS-t, amelyből két félét tartalmaz a sejt. Az iniciátor tRNS egy speciális Met-tRNS, amely a fehérje szintézis iniciációja során elsőként kerül a riboszómára. Eukariótáknál többnyire, míg prokariótáknál minden esetben, a fehérje első aminosava egy methionin, amelyet egy iniciátor Met-tRNS szállít a riboszómára, még az elongációt megelőző iniciációs fázisban. Az elongáció során szükséges további metioninokat azonban nem ez a tRNS szállítja hanem egy erre „szakosodott” típus.

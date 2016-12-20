@@ -1,0 +1,32 @@
+In knot which is, in a certain sense, indecomposable. Specifically, it is a non-trivial knot which cannot be written as the knot sum of two non-trivial knots. Knots which are not prime are said to be '''composite'''. It can be a nontrivial problem to determine whether a given knot is prime or not.
+
+A nice example of prime knots are called torus knots. These are formed by wrapping a circle around a torus ''p'' times in one direction and ''q'' times in the other, where ''p'' and ''q'' are coprime integers.
+
+The simplest prime knot is the trefoil with 3 crossings. The trefoil is actually a (2,3)-torus knot. The figure-eight knot, with 4 crossings, is the simplest non-torus knot. For any positive crossings. The first few values are given in the following table.
+{| border="1" cellpadding="5" align="center" style="text-align: center;"
+|-
+| ''n''
+| 1 || 2 || 3 || 4 || 5 || 6 || 7 || 8 || 9 || 10
+|-
+| Number of prime knots<br>with ''n'' crossings 
+| 0 || 0 || 1 || 1 || 2 || 3 || 7 || 21 || 49 || 165
+|}
+Note that enantiomorphs are counted only once in this table and the following chart (i.e. a knot and its mirror image are considered equivalent).
+
+thumb|350px|center|A chart of all prime knots with seven [[Crossing number|crossings or less (not including mirror images).]]
+
+In nodo che non può essere "decomposto" in nodi più semplici, in analogia con la nozione di numero primo.
+
+I nodi primi sono quindi i mattoni fondamentali della teoria dei nodi.
+
+== Definizione ==
+Un nodo <math> K </math> non banale è '''primo''' se non è ottenibile come somma connessa
+:<math> K = H_1\# H_2 </math>
+di due nodi non banali. 
+
+Nella teoria dei nodi vi è un teorema di fattorizzazione analogo al teorema fondamentale dell'aritmetica, che asserisce che ogni nodo è ottenibile in modo unico come somma connessa di alcuni nodi primi. Per questo motivo i nodi primi hanno un ruolo centrale nella teoria dei nodi: una loro classificazione è stato da sempre il tema centrale della teoria fin dalla fine del XIX secolo.
+
+In analogia con i numeri primi, si richiede nella definizione che il 1 infatti non è primo).
+
+== I nodi primi più semplici ==
+I nodi primi sono generalmente descritti tramite diagrammi, con ordine crescente di incroci. Il nodo primo più semplice in questa descrizione è il ''nodo a trifoglio'' con 3 incroci, seguito dal ''nodo figura-''8 con quattro incroci. La tabella seguente mostra il numero di nodi primi con <math> n </math> incroci.

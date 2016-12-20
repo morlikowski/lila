@@ -1,0 +1,236 @@
+In Bernoulli's rule''') uses limits with French mathematician Guillaume de l'Hôpital, who published the rule in his book ''l'Analyse des Infiniment Petits pour l'Intelligence des Lignes Courbes'' (literal translation: ''Analysis of the Infinitely Small to Understand Curved Lines'') (1696), the first book about differential calculus.  
+
+The Stolz-Cesàro theorem is a similar result involving limits of sequences, but it uses finite difference operators rather than derivatives.
+
+==Overview==
+===Introduction===
+
+In simple cases, l'Hôpital's rule states that for functions ''f''(''x'') and  ''g''(''x''), if:
+
+:<math>\lim_{x \to c}f(x)=\lim_{x \to c}g(x)=0</math>,
+
+or:
+
+:<math>\lim_{x \to c}f(x)=\pm\lim_{x \to c}g(x)=\pm\infty</math>,
+
+then:
+
+:<math>\lim_{x\to c}\frac{f(x)}{g(x)} = \lim_{x\to c}\frac{f'(x)}{g'(x)}</math>
+where the prime (') denotes the derivative.
+
+Among other requirements, for this rule to hold, the limit <math>\lim_{x\to c}\frac{f'(x)}{g'(x)}</math> must exist. Other requirements are detailed below, in the formal statement.
+
+===Formal statement===
+
+When determining the limit of a quotient <math>f(x)/g(x) \ </math> when both ''f'' and ''g'' approach 0, or ''f'' and ''g'' approach infinity, l'Hôpital's rule states that if <math>f'(x)/g'(x) \ </math> converges, then <math>f(x)/g(x) \ </math> converges, and to the same limit.  This differentiation often simplifies the quotient and/or converts it to a determinate form, allowing the limit to be determined more easily.
+
+Symbolically let <math>\mathbb{R}^*=\mathbb{R}\cup\{\pm\infty\}</math>.  Suppose that <math>c \in \mathbb{R}^*</math>, that
+:<math>
+  \lim_{x\to c}{f'(x) \over g'(x)} = A, A \in \mathbb{R}^*
+</math>
+and that <math>g'(x) \neq 0</math> for all <math>x\ne c</math> in an open interval (''a'',''b'') containing ''c'' (or with <math>b=\infty</math> if <math>c=\infty</math> or with <math>a=-\infty</math> if <math>c=-\infty</math>). If
+:<math>
+\begin{cases}
+  \lim_{x\to c}{f(x)} = \lim_{x\to c}g(x) = 0  \\
+  \; \mbox{or} \\
+  \lim_{x\to c}{|f(x)|} = \lim_{x\to c}{|g(x)|} = \infty 
+\end{cases}
+</math>
+then
+:<math>\lim_{x\to c}{f(x)\over g(x)}=A.</math>
+
+l'Hôpital's rule also holds for one-sided limits.
+
+Basic indeterminate forms (all others reduce to these):
+
+:<math>{0\over 0} \, ,\qquad {\infty\over\infty}</math>
+
+Other indeterminate forms:
+
+:<math>{\infty^0\qquad 1^\infty\qquad 0\cdot\infty\qquad 0^0\qquad\infty - \infty\qquad}</math>
+
+Note the requirement that the limit <math>\lim_{x\to c}\frac{f'(x)}{g'(x)}</math> exists. Differentiation of limits of this form can sometimes lead to limits that do not exist. In that case, l'Hôpital's rule cannot be applied. For instance if <math>f(x)=x+\sin(x)</math> and <math>g(x)=x</math>, then
+
+:<math>\lim_{x\to\infty}\frac{f'(x)}{g'(x)}=\lim_{x\to\infty}(1+\cos(x))</math>
+
+does not exist, whereas
+
+:<math>\lim_{x\to\infty}\frac{f(x)}{g(x)}=1.</math>
+
+In practice one often uses the rule and, if the resulting limit exists, concludes that it was legitimate to use l'Hôpital's rule.
+
+Note also the requirement that the derivative of ''g'' not vanish throughout an entire interval containing the point ''c''. Without such a hypothesis, the conclusion is false. Thus one must not use l'Hôpital's rule if the denominator oscillates wildly near the point where one is trying to find the limit. For example if <math>f(x)=x+\cos(x)\sin(x)</math> and <math>g(x)=e^{\sin(x)}(x+\cos(x)\sin(x))</math>, then
+
+:{|
+|<math>\lim_{x\to\infty}\frac{f'(x)}{g'(x)}</math>
+|<math>=\lim_{x\to\infty}\frac{2\cos^{2}{x}}{e^{\sin(x)}\cos(x)(x+\sin(x)\cos(x)+2\cos(x))}</math>
+|-
+|
+|<math>= \lim_{x\to\infty}\frac{2\cos(x)}{e^{\sin(x)}(x+\sin(x)\cos(x)+2\cos(x))}=0</math>
+|}
+
+whereas
+
+:<math>\lim_{x\to\infty}\frac{f(x)}{g(x)}=\lim_{x\to\infty}\frac{1}{e^{\sin(x)}}</math>
+
+does not exist since <math>\frac{1}{e^{\sin(x)}}</math> fluctuates between ''e''<sup>-1</sup> and ''e''.
+
+==Examples==
+
+*Here is an example involving the sinc function <!--sinC is correct. It is NOT the same as sinE. -->, which has the form <sup>0</sup>/<sub>0</sub>:
+
+:{|
+|<math>\lim_{x \to 0} \mathrm{sinc}(x)\,</math>
+|<math>= \lim_{x \to 0} \frac{\sin \pi x}{\pi x}\,</math>
+|<math>= \lim_{x \to 0} \frac{\sin x}{x}\,</math>
+|-
+|
+|
+|<math>= \lim_{x \to 0} \frac{\cos x}{1} = \frac{1}{1} = 1\,</math>
+|}
+
+:However, it is simpler to observe that this limit is just the definition of the derivative of sin(''x'') at ''x'' = 0.
+
+:In fact this particular limit is needed in the most usual proof that the derivative of sin(''x'') is cos(''x''), but we cannot use l'Hôpital's rule to do this, as it would produce a circular argument. 
+
+* Here is a more elaborate example involving the indeterminate form <sup>0</sup>/<sub>0</sub>. Applying the rule a single time still results in an indeterminate form. In this case, the limit may be evaluated by applying l'Hôpital's rule three times:
+
+:{|
+|-
+|<math>\lim_{x\to 0} {2\sin x-\sin 2x \over x-\sin x}</math>
+|<math>=\lim_{x\to 0}{2\cos x-2\cos 2x \over 1-\cos x}</math>
+|-
+|
+|<math>=\lim_{x\to 0}{-2\sin x +4\sin 2x \over \sin x}</math>
+|-
+|
+|<math>=\lim_{x\to 0}{-2\cos x +8\cos 2x \over \cos x}</math>
+|-
+|
+|<math>={-2\cos 0 +8\cos 0 \over \cos 0}</math>
+|-
+|
+|<math>=6\,</math>
+|}
+
+* Here is a classic case involving <sup>0</sup>/<sub>0</sub>. Suppose <math>r > 0</math>, then
+
+:{|
+|-
+|<math>\lim_{x\to 0} {r^x - 1 \over x}</math>
+|<math>=\lim_{x \to 0}{\frac{d}{dx}r^x \over \frac{d}{dx}x}</math>
+|-
+|
+|<math>=\lim_{x \to 0}{r^x \ln r \over 1}</math>
+|-
+|
+|<math>=\ln r \lim_{x \to 0}{r^x}</math>
+|-
+|
+|<math>=\ln r\!</math>
+|}
+
+* Here is another case involving <sup>0</sup>/<sub>0</sub>:
+
+::<math>\lim_{x\to 0}{e^x-1-x \over x^2}
+=\lim_{x\to 0}{e^x-1 \over 2x}
+=\lim_{x\to 0}{e^x \over 2}={1 \over 2}</math>
+
+* Here is a case of ∞/∞:
+
+::<math>
+  \lim_{x \to \infty} \frac{\sqrt{x}}{\ln(x)}
+  = \lim_{x \to \infty} \frac{\ 1/(2 \sqrt{x})\ }{1/x}
+  = \lim_{x \to \infty} \frac{\sqrt{x}}{2}
+  = \infty
+</math>
+
+* This one involves ∞/∞.  Assume ''n'' is a positive integer.
+
+::<math>\lim_{x\to\infty} x^n e^{-x}
+=\lim_{x\to\infty}{x^n \over e^x}
+=\lim_{x\to\infty}{nx^{n-1} \over e^x}
+=n\lim_{x\to\infty}{x^{n-1} \over e^x}</math>
+
+:Iterate the above until the exponent is 0.  Then one sees that the limit is 0.
+
+* This one also involves ∞/∞:
+
+::<math>\lim_{x\to 0+} (x  \ln x) =\lim_{x\to 0+}{\ln x \over 1/x}
+=\lim_{x\to 0+}{1/x \over -1/x^2}
+=\lim_{x\to 0+} -x = 0</math>
+
+* The previous result can be used the following case of the indeterminate form <math>0^0</math>: To  compute <math>\lim_{x\to 0} x^x</math>, we rewrite  <math>x^x </math> as <math> e^{x\, \ln x}</math> and get 
+::<math> \lim_{x\to 0} x^x  = e^{\lim_{x\to 0} (x  \ln x )} = e^0 = 1.</math>
+* This is the impulse response of a raised-cosine filter:
+
+:{|
+|<math>\lim_{t\to 0}\, \mathrm{sinc}(f_0 t)\cdot \frac{\cos\left(\pi \alpha f_0 t\right)}{\left[1 - \left(2 \alpha f_0 t\right)^2\right]} </math>
+|<math>= \left\{\lim_{t\to 0}\, \mathrm{sinc}(f_0 t)\right\}\cdot \left. \frac{\cos\left(\pi \alpha f_0 t\right)}{\left[1 - \left(2 \alpha f_0 t\right)^2\right]} \, \right|_{t = 0}</math>
+|-
+|
+|<math>= 1 \cdot 1 = 1</math>
+|}
+
+* And:
+
+:{|
+|<math>\lim_{t\to \frac{1}{2\alpha f_0}} \mathrm{sinc}(f_0 t)\cdot \frac{\cos\left(\pi \alpha f_0 t\right)}{\left[1 - \left(2 \alpha f_0 t\right)^2\right]} </math>
+|<math>= \mathrm{sinc}\left(\frac{1}{2\alpha}\right)\cdot \lim_{t\to \frac{1}{2\alpha f_0}} \frac{\cos\left(\pi \alpha f_0 t\right)}{\left[1 - \left(2 \alpha f_0 t\right)^2\right]}</math>
+|-
+|
+|<math>= \mathrm{sinc}\left(\frac{1}{2\alpha}\right)\cdot \left(\frac{-\pi /2}{-2}\right)</math>
+|-
+|
+|<math>= \sin\left(\frac{\pi}{2\alpha}\right)\cdot \frac{\alpha}{2}</math>
+|}
+
+==Proofs of l'Hôpital's rule==
+===Proof by Cauchy's mean value theorem===
+The most common proof of l'Hôpital's rule uses Cauchy's mean value theorem.
+
+'''La règle de L'Hôpital''' (également appelée règle de l'Hospital ou '''règle de Bernoulli''') en  analyse utilise la dérivée dans le but de déterminer les limites difficiles à calculer de la plupart des quotients. La règle porte le nom d'un mathématicien français du , Guillaume François Antoine, marquis de L'Hôpital (1661 - 1704), qui a publié la règle dans son livre  ''Analyse des infiniment petits pour l'intelligence des lignes courbes'' (1692), le premier livre de calcul différentiel à avoir été écrit, visible à l'adresse http://gallica.bnf.fr (attention, l'orthographe du nom y est L'Hospital).
+
+La règle est sans doute due à Jean Bernoulli, car L'Hôpital payait à Bernoulli une pension de 300 francs par an pour le tenir informé des progrès du calcul infinitésimal, et pour résoudre les problèmes qu'il lui posait (comme celui de trouver la limite des formes indéterminées) ; de plus, ils avaient signé un contrat autorisant  L'Hôpital à utiliser les découvertes de Bernoulli à sa guise<ref>Maor, Eli, e: The Story of a Number. P. 116. Princeton University Press, 1994.</ref>. Quand L'Hôpital publia son livre, il reconnut ce qu'il devait à Bernoulli, et, ne voulant pas se voir attribuer son travail, publia anonymement. Bernoulli prétendit alors être l'auteur de l'ouvrage entier, ce qui fut longtemps cru, mais la règle n'en fut pas moins nommée d'après L'Hôpital, bien qu'il n'ait jamais prétendu l'avoir inventée<ref>Finney, Ross L. and George B. Thomas, Jr. Calculus. 2nd Edition. P. 390. Addison Wesley, 1994.</ref>.
+
+Le différences finies au lieu de la dérivée. 
+== Principe ==
+Soit <math>a\in\overline{\mathbb{R}}</math>, tel que les fonctions réelles <math>f</math> et <math>g</math> soient définies sur un voisinage de <math>a</math>, <math>g</math> ne s'y annulant pas. Si nous essayons de déterminer la limite en ''a'' du quotient <math>f/g</math>, où le numérateur et le dénominateur tendent soit les deux vers zéro, soit les deux vers l'infini, alors nous pouvons dériver le numérateur et le dénominateur et déterminer la limite du quotient des dérivées. Si elle existe, la règle affirme que cette limite sera égale à la limite cherchée.
+
+== Énoncé des règles de L'Hôpital ==
+
+'''Énoncé simple''' : Dans l'ouvrage de M. de l'Hospital, la règle qui apparaît est celle communément utilisée dans le cas de deux fonctions dérivables en a et telles que le quotient <math>\frac{f'(a)}{g'(a)}</math> soit défini : 
+: Si ''f et ''g'' sont deux fonctions dérivables en ''a'', s'annulant en ''a'' et telles que  le quotient <math>\frac{f'(a)}{g'(a)}</math> soit défini, alors <math>\lim_{x \rightarrow  a} \frac{f(x)}{g(x)} = \frac {f'(a)}{g'(a)}</math>.
+
+Cependant, la règle de l'Hôpital se généralise à des situations beaucoup moins restrictives:
+
+'''Première généralisation''' à des fonctions pour lesquelles  <math>\frac {f'(a)}{g'(a)}</math> n'existe pas forcément.
+: Si ''f'' et ''g'' sont deux fonctions dérivables sur ]''a ''; ''b''[ dont la limite en ''a'' est nulle, si g'(x) ne s'annule pas sur ]a ; b[ et si  <math>\lim_{x \rightarrow  a} \frac{f'(x)}{g'(x)}  = L</math> alors <math>\lim_{x \rightarrow  a} \frac{f(x)}{g(x)}= L</math>.
+Le résultat est valide que L soit une limite réelle ou infinie.
+
+''' Seconde généralisation'''  à des fonctions dont la limite en ''a'' est infinie.
+: Si ''f'' et ''g'' sont deux fonctions dérivable sur ]''a'' ; ''b''[ ayant une limite infinie en ''a'', si g'(x) ne s'annule pas sur ]''a'' ; ''b''[ et si  <math>\lim_{x \rightarrow  a} \frac{f'(x)}{g'(x)}  = L</math> alors <math>\lim_{x \rightarrow  a} \frac{f(x)}{g(x)}= L</math>. 
+Le résultat est valide que L soit une limite réelle ou infinie.
+
+Les mêmes règles existent pour des fonctions définies sur ]''b'' ; ''a''[.
+
+Les théorèmes restent valables en remplaçant ''a'' par <math>\pm \infty</math>.
+
+== Utilisations et précautions à prendre ==
+
+Dans le cas d'indétermination de la forme « <math>0/0</math> », la première forme peut souvent être utilisée:
+
+:<math>
+  \lim_{x \to 0} \frac{\sin(x)}{x^2+3x}
+  = \frac{\cos(0)}{2 \times 0 + 3}
+  = \frac{1}{3}
+ </math>
+
+Dans le cas d'indétermination de la forme  « ∞/∞ », c'est la seconde généralisation que l'on va employer:
+
+:<math>
+  \lim_{x \to +\infty} \frac{\sqrt{x}}{\ln(x)}
+  = \lim_{x \to +\infty} \frac{\frac{1}{2 \sqrt{x}}}{\frac{1}{x}}
+  = \lim_{x \to +\infty} \frac{\sqrt{x}}{2}
+  = +\infty
+</math>

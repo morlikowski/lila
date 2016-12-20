@@ -1,0 +1,36 @@
+'''Roland XP-80''' and its smaller variant the XP-60 are polyphony, now discontinued. The XP-80 has a 76-key semi-weighted keyboard. The XP-60 has 61 keys.
+
+Both models were sold with full GM instrument sets, plus a good range of additional instruments to give 512 instruments ("presets" in Roland parlance) in total. Additional user space is provided for making copies of any 128 presets and then editing their parameters.
+
+Combinations of presets are "performances" in Roland parlance; 64 performances are built in, with user space for 32 of them to be copied and modified.
+
+Eight rhythm presets are included, with two extra presets for user editing.
+
+There are four empty slots in the underside into which SR-JV80 series expansion modules can be plugged. This allows the suite of sounds to be extended according to personal taste.
+
+The inclusion of a competent sequencer enables theses instruments to be used to replay sequences as well as being used for live performance. The sequencer resolution is 96 ticks per crotchet (quarter note). A quantize algorithm can be applied to recordings if required, although if you don't play precisely along with the metronone, the quantization often has undesirable effects.
+
+{{Synthesizer 
+  | Synthesizer      = Roland XP-80
+  | afbeelding       = xp80.jpg
+  | onderschrift     = De Roland XP-80 Workstation
+  | jaar             = 1996
+  | display          = 320 bij 80 pixels display (backlit) 
+  | toetsenbord      = 76 gewogen, aanslaggevoelige toetsen (velocity en after-touch)
+  | polyfonie        = 64 maximaal
+  | type-synthese    = PCM
+  | filters          = Ringmodulatie, hi-pass, lo-pass, peak- en band-pass filtering, resonantie
+  | multitimbraal    = 16 kanalen/patches
+  | geheugenplaatsen = 96 presets en 32 user-banks (combinaties), of 640 presets en 128 user-banks (single patches)
+  | effecten         = Chorus, Reverb en Delay (8 stuks) + 40 extra effecten (EFX)
+  | aansluitingen    = Audio outputs (2 x Mix en 2 x Direct), koptelefoon, MIDI IN/OUT/THRU 
+  | control          = 4 controllerpedalen, 6 controlsliders
+  | extras           = On-board sequencer (16 'Phrases' 100 Pattern Tracks (totaal 60.000 noten)), Arpeggiator, 4 slots voor expansion boards (8 Mb elk)
+ }}
+
+De '''Roland XP-80''' is een digitale workstation-synthesizer. Hij verscheen in 1996 op de markt.
+
+==Beschrijving==
+De XP-80 is een veelzijdig workstation en wordt nog steeds veel gebruikt als professioneel aanslaggevoelig toetsenbord met zgn. ''gewogen'' toetsen. Het voordeel daarvan is dat de aanslag minder 'plastic' voelt, waardoor grotere dynamiek mogelijk is in het spel. 
+
+De basis-golfvormen waarmee de geluiden zijn samengesteld zijn dezelfde als die van de overige XP- en JV-modellen van Roland. Qua geluid zijn er dan ook veel overeenkomsten, al klinkt de XP80 warmer vanwege de verbeterde effecten-sectie en maakt het grotere dynamische bereik van het toetsenbord subtieler spel mogelijk - hetgeen zich vertaalt in de klank. Nog vóór de analoge 'hype' had de XP80 filtering-mogelijkheden die in 1996 redelijk uniek waren voor een verder volledig digitaal workstation: hi-pass, lo-pass, peak- en band-pass filtering en tevens resonance (zelfoscillatie). 

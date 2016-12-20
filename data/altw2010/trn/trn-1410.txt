@@ -1,0 +1,41 @@
+'''Percepatan gravitasi''' suatu obyek yang berada pada permukaan laut dikatakan ekivalen dengan 1 ''g'', yang didefinisikan memiliki nilai 9,80665 m/s<sup>2</sup>. Percepatan di tempat lain seharusnya dikoreksi dari nilai ini sesuai dengan ketinggian dan juga pengaruh benda-benda bermassa besar di sekitarnya. Umumnya digunakan nilai 9,81 m/s<sup>2</sup> untuk mudahnya.
+
+== Rumus umum ==
+
+Nilai percepatan gravitasi diperoleh dari perumusan umum gaya gravitasi antara dua benda (obyek dan bumi), yaitu
+
+:<math>\vec{g} = \frac{\vec{F}}{m} = G \frac{M}{r^3}\vec{r}\!</math>
+
+di mana
+* G adalah konstanta gravitasi
+* M adalah massa bumi
+* m dalah mass obyek
+* r adalah jarak antara titik pusat massa bumi dengan titik pusat massa obyek
+
+== Pengukuran nilai ''g'' ==
+
+Nilai ''g'' dapat diukur dengan berbagai metoda. Bentuk-bentuk paling sederhana misalnya dengan menggunakan pegas atau bandul yang diketahui konstanta-konstantanya. Dengan melakukan pengukuran dapat ditentukan nilai percepatan gravitasi di suatu tempat, yang umumnya berbeda dengan tempat lain.
+
+Unter '''Schwerkraft, Schwere''' versteht man die Kraft, die auf einen Körper in einem Schwerfeld wirkt. Sie setzt sich aus der durch die Gravitation bewirkten Anziehungskraft und der durch die Rotation bewirkten Zentrifugalkraft zusammen. Insbesondere die Schwerkraft auf der Erdoberfläche nennt man '''Erdanziehung'''. 
+
+Der Begriff ''Schwere'' wird oftmals auch als Synonym für die Gravitation allein verwendet, und ''Schwerkraft'' für die durch Gravitation wirkenden Kräfte, so auch im Folgenden.
+
+== Schwere und Gewicht ==
+Die Schwerkraft erzeugt in Verbindung mit der Dichte der Materie deren Wichte. Während mit ''Schwere'' das Grundphänomen vom wechselwirkenden Massen bezeichnet wird, ist das ''Gewicht'' eine Eigenschaft, die einem konkreten Körper in einem bestimmten System zugeordnet wird und von weiteren Umgebungsbedingungen abhängt (Gewicht des verdrängten Umgebungsfluids wie Luft oder Wasser).
+
+== Die Erdanziehungskraft ==
+Die auf einen Körper wirkende Schwerkraft als Gesamt-Gravitationswirkung der Masse und der Erdbeschleunigung (=&nbsp;Fallbeschleunigung). Die Schwerkraft ist die Ursache der Beschleunigung, die ein frei fallender Körper über der Erdoberfläche erfährt, der außer der Schwerkraft keiner weiteren Kraft ausgesetzt ist.
+
+Die lokale Variation der Schwerkraft und damit auch der Erdbeschleunigung entspricht der des Erdschwerefeldes. Sie ist hauptsächlich eine Folge der Zentrifugalkraft und der Abplattung der Erde und beträgt für verschiedene geografische Breiten bis zu 0,5&nbsp;%. Sie hängt auf der Erdoberfläche ferner geringfügig von der Höhe über dem Meer ab.
+
+== Künstliche Schwerkraft ==
+Im Unterschied zur oben beschriebenen ''natürlichen'' Schwerkraft gibt es seit etwa Mitte des 20.&nbsp;Jahrhunderts auch ernsthafte Überlegungen, ''künstliche Schwerkraft'' – z.&nbsp;B. für die Errichtung langfristig bewohnbarer Raumstationen – zu erzeugen. Dabei bedient man sich bei der sogenannten Bernal-Sphäre beispielsweise der Zentrifugalkraft und definiert die Innenfläche eines Zylinders als die Oberfläche des Habitats. Für derzeitige Anwendungen im Weltraum und anderswo wurden indes andere Methoden zur Erzeugung einer Anpresskraft erprobt, meist um damit den Menschen das Gehen zu ermöglichen. So wurden beispielsweise pneumatisch gesteuerte Saugnäpfe oder schaltbare Elektromagnete als – allerdings eher mäßig geeigneter – Ersatz für die Schwerkraft bemüht. All diesen Lösungen ist gemeinsam, dass sie Energie zu ihrem Betrieb benötigen und von Störungen betroffen sein können.
+
+== Siehe auch ==
+* Erdschwerebeschleunigung
+* Schwere Masse
+* Schwerefeld, Schwereanomalie
+* Gravimetrie, Gravimeter
+* Schwerelosigkeit
+
+Kategorie:Astronomie Kategorie:Geodäsie Kategorie:Erdmessung Kategorie:Physik Kategorie:Mechanik Kategorie:Gravitation Kategorie:Potentialtheorie

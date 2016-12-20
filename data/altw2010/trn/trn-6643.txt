@@ -1,0 +1,44 @@
+:''this page is about helicity in fluid mechanics.  For helicity of magnetic fields, see magnetic helicity. For helicity in particle physics, see helicity (particle physics).''
+
+In fluid mechanics, '''helicity''' is the extent to which corkscrew-like motion occurs.  If a parcel of fluid is moving, undergoing solid body motion rotating about an axis parallel to the direction of motion, it will have helicity.  If the rotation is clockwise when viewed from ahead of the body, the helicity will be positive, if counterclockwise, it will be negative.
+
+Formally, helicity is defined as 
+
+:<math>
+H=\int\mathbf{u}\cdot\left(\nabla\times\mathbf{u}\right)\,d^3{\mathbf r}.
+</math>
+
+The concept is interesting because it is a conserved quantity: <math>H</math> is unchanged in a fluid obeying the incompressible fluids.
+This is analogous to the conservation of magnetic helicity.
+
+Helicity is a useful concept in theoretical descriptions of turbulence.
+
+==Meteorology==
+In convective motion. Here the definition of helicity is simplified to only use the horizontal component of wind and vorticity:
+
+::<math>
+H = \int{ \vec V_h} \cdot \vec \zeta_h \,d{\mathbf Z} = \int{ \vec V_h} \cdot \nabla \times V_h  \,d{\mathbf Z}
+\qquad \qquad  \begin{cases} Z = Altitude \\ V_h = Horizontal\ velocity \\ \zeta_h = Horizontal\ vorticity \end{cases} </math>
+
+According to this formula, if the horizontal wind does not change direction with altitude, H will be zero as the product of <math>V_h</math> and <math>\nabla \times V_h</math> are perpendicular one to the other making their scalar product nil. H is then positive if the wind turns (clockwise) with altitude and negative if it backs (counter-clockwise). Helicity has energy units per units of mass (<math> {m^2}/{s^2}</math>) and thus is interpreted as a measure of energy transfer by the wind shear with altitude, including directional.
+
+En tornadique. L'hélicité est une grandeur conservée si le fluide obéit aux équations de Navier-Stokes pour les fluides incompressibles. 
+
+Elle est calculée en faisant la sommation, dans une parcelle de fluide, du tourbillon relatif (ou rotationnel de vitesse) avec le produit scalaire de la vitesse locale dans le fluide :
+
+:<math>
+H=\int{ \vec V}\cdot\left(\nabla\times{ \vec V^'}\right)\,d^3{\mathbf R} = \int{ \vec V} \cdot \vec \zeta \,d^3{\mathbf R}
+\qquad \qquad  \begin{cases} R = dimensions\ du\ volume \\ V = Vitesse\ locale\ selon\ R \\ V^' = Vitesse\ des\ particules\ dans\ le\ volume \\ \zeta = tourbillon\ relatif \end{cases} </math>
+
+L'équation montre qu'un tel volume en rotation autour d'un axe dans la direction de déplacement, l'hélicité sera positive si la rotation est de sens horaire (en regardant d'où vient le volume) et négative si la rotation est en sens anti-horaire. De plus, plus le tourbillon et la vitesse locale seront parallèles, plus ''H'' sera grand.
+
+==Météorologie==
+En météorologie<ref>[http://homepage.ntlworld.com/booty.weather/FAQ/2A.htm#2A.24 Définitions en météorologie par ''Martin Rowley'' ancien météorologiste du UKMET] </ref>, l'hélicité correspond au transfert de rotation de l'environnement vers une parcelle d'air en convection. Dans ce cas, on simplifie la définition de l'hélicité à une dimension en supposant que le tourbillon est horizontal :
+
+::<math>
+H = \int{ \vec V_h} \cdot \vec \zeta_h \,d{\mathbf Z} = \int{ \vec V_h} \cdot \nabla \times V_h  \,d{\mathbf Z}
+\qquad \qquad  \begin{cases} Z = altitude \\ V_h = Vitesse\ horizontale \\ \zeta_h = tourbillon\ relatif\ horizontal \end{cases} </math>
+
+Dans cette formulation, si le vent horizontal ne change pas de direction avec l'altitude, H est nul car <math>V_h</math> et <math>\nabla \times V_h</math> sont perpendiculaires l'un à l'autre rendant leur produit scalaire nul. Il est donc évident que H est positif si <math>V_h</math> tourne horairement avec l'altitude et négatif dans le cas inverse.
+
+L'hélicité a ainsi des unités d'énergie (<math> {m^2}/{s^2}</math>) qui peuvent s'interpréter comme une mesure d'énergie du km d'altitude) :

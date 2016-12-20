@@ -1,0 +1,134 @@
+thumb|314px|Брахістохрона
+
+'''Брахістохро́на''' (&nbsp;— найкоротший і &nbsp;— час)&nbsp;— крива найкоротшого спуску, тобто та з усіх можливих кривих, що сполучають дві точки А і В (мал.), вздовж якої важка кулька, що ковзить без тертя (або котиться) з точки А, за найкоротший час досягає нижчої точки В. При відсутності опору середовища. Брахістохрона&nbsp;— звичайна циклоїда з горизонтальною основою і точкою звороту у верхній точці А. Задача про брахістохрону, розв'язана Й.&nbsp;Бернуллі (1696), відіграла важливу роль у розвитку варіаційного числення.
+
+== Постановка математичної задачі ==
+
+Очевидно, закон збереження енергії накладає обмеження на висоту точки В: точка В має знаходитись нижче, або на тій самій висоті що і точка А.  Якщо точка В лежить на одній вертикальній прямій з точкою А, то розв'язок задачі очевидний - траекторія найшвидшого спуску буде відрізок прямої [АВ]. Тому ми будемо розглядати випадок, коли точка В дещо зміщена від точки А по горизонталі.
+
+Виберемо початок координат <math>O</math> в початковій точці А, і направимо вісь абсцис <math>Ox</math> горизонтально в напрямку кінцевої точки В (допустимо для визначеності малюнка, що ми дивимося на ці точки з таким ракурсом, що точка В знаходиться правіше від точки А), а вісь ординат <math>Oy</math> вертикально вниз.  Очевидно, третя просторова координата повинна дорівнювати нулю на кривій найшвидшого спуску (проекція будь-якої просторової кривої на площину <math>Oxy</math> даватиме менший час спуску).
+
+Оскільки втрати енергії на тертя відсутні, ми можемо записати закон збереження енергії, прийнявши енергію кульки в точці А за нуль:
+: <math>(1) \qquad 0 = E_k + U</math>
+
+Потенціальна енергія кульки масою <math>m</math> в полі тяжіння дорівнює:
+: <math>(2) \qquad U = - m g y</math>
+
+Кінетична енергія для кульки що ковзить без обертання (як намистина на дроті) дорівнює:
+: <math>(3) \qquad E_k = {m v^2 \over 2}</math>
+
+Якщо ж кулька котиться без проковзування, то до кінетичної енергії поступального руху (3) треба ще додати кінетичну енергію обертання:
+: <math>(4) \qquad E_{rot} = {I \omega^2 \over 2}</math>
+
+Для суцільної однорідної кульки радіуса <math>R</math> маємо момент інерції <math>I = {2 \over 5} m R^2</math>, а тому кінетична енергія дорівнює:
+: <math>(5) \qquad \tilde E_k = {m v^2 \over 2} + {m R^2 \omega^2 \over 5} = {7 \over 10} m v^2</math>
+
+Підставивши (2) і (3) в (1), одержуємо рівняння:
+: <math>(6) \qquad {m v^2 \over 2} - m g y = 0</math>
+звідки знаходимо швидкість кульки (що ковзить без обертання) в довільній точці кривої:
+: <math>(7) \qquad v = \sqrt{2 g y}</math>
+аналогічно, з (2), (5) і (1) знаходимо швидкість кульки, що котиться:
+: <math>(8) \qquad \tilde v = \sqrt</math>
+
+Далі, враховуючи залежність між швидкістю, пройденим шляхом і пройденим часом:
+: <math>(9) \qquad v = {d s \over d t}, \; dt = {d s \over v}</math>
+
+Знаходимо, що час руху кульки вздовж кривої від точки А до точки В дається інтегралом (<math>x_A = 0</math> через вибір системи координат):
+: <math>(10) \qquad t = \int dt = \int {ds \over v} = \alpha \int {\sqrt{d x^2 + d y^2} \over \sqrt{y}} = \alpha \int_{0}^{x_B} \sqrt{1 + y'^2 \over y} dx</math>
+
+де постійна <math>\alpha</math> дорівнює відповідно для кульки що ковзить, і для кульки що котиться:
+: <math>(11) \qquad \alpha = {1 \over \sqrt{2 g}}, \; \tilde \alpha = \sqrt{7 \over 10 g}</math>
+
+Отже, математично задача про брахістохрону формулюється так: нам треба знайти таку невід'ємну функцію, зафіксовану на кінцях:
+: <math>(12) \qquad y = y(x), \; x \in [0, x_B]; y(0) = 0, \; y(x) \ge 0, \; y(x_B) = y_B</math>
+що інтеграл у формулі (10) досягає мінімума.  Зауважимо, що константа <math>\alpha</math> не впливає на розв'язок, а тому ми її опускатимемо аж доки не почнемо цікавитися, чому дорівнює цей мінімальний час спуску.
+
+Шукаємо мінімум функціонала <math>T</math> від функції <math>y = y(x)</math>, графіком якої є наша крива спуску: 
+:<math>(13)\qquad T = T(y) = \int_0^{x_B} \sqrt{1 + y'^2 \over y} dx</math> 
+
+== Знаходження розв'язку ==
+
+В точці локального мінімума функціонала перша варіація функціонала <math>\delta T</math> повинна дорівнювати нулю, а друга варіація <math>\delta^2 T</math> має бути більшою нуля (додатньо визначеною квадратичною формою від варіації аргументної функції <math>\delta y = \delta y(x)</math>).
+
+З рівності нулю першої варіації слідує рівняння Ейлера-Лагранжа ''(дивіться варіаційне числення)'' для функціонала (13):
+: <math>(14) \qquad {d \over d x} L_{y'} - L_y = 0</math>
+де лагранжиан <math>L</math> дорівнює функції під інтегралом в (13):
+: <math>(15) \qquad L = L(y, y') = \sqrt{1 + y'^2 \over y}, \; L_{y'} = {y' \over \sqrt{y (1 + y'^2)}}, \; L_y = -{\sqrt{1 + y'^2} \over 2 y^{\begin{matrix} \frac{3}{2} \end{matrix}}}</math>
+
+З формул (14), (15) ми одержуємо звичайне диференціальне рівняння відносно невідомої функції <math>y = y(x)</math>:
+: <math>(16) \qquad {d \over d x} \left ( {y' \over \sqrt{y (1 + y'^2)}} \right ) + {\sqrt{1 + y'^2} \over 2 y^{\begin{matrix} \frac{3}{2} \end{matrix}}} = 0</math>
+
+Але перше ніж розвязувати (16), поглянемо на пошуки кривої з дещо іншої точки зору.  А саме, припустимо, що наша крива спуску задана параметрично: 
+: <math>(17) \qquad x = x(\tau), \; y = y(\tau); \;\; \tau \in [\tau_A, \tau_B]</math>
+параметр <math>\tau</math> монотонно зростає при переміщенні вздовж нашої кривої, тобто є деякою досить довільною, але монотонно зростаючою функцією часу:
+: <math>(18) \qquad \tau = \tau(t), \; {d \tau \over d t} > 0</math>
+Позначаючи крапкою зверху похідну функцій (17) по параметру <math>\tau</math>, ми можемо переписати функціонал (13) так:
+: <math>(19) \qquad T = \int_{\tau_A}^{\tau_B} {\sqrt{\dot x^2 + \dot y^2} \over \sqrt{y}} d \tau</math>
+
+Очевидно, що величина інтеграла (19) не зміниться при заміні параметра <math>\tau</math> на будь-яку іншу зростаючу функцію часу <math>\tilde \tau</math>:
+: <math>(20) \qquad {d \tilde \tau \over dt} > 0, \; {d \tilde \tau \over d \tau} > 0, \; \sqrt{\dot x^2 + \dot y^2} \, d\tau = \sqrt{ \left ( {d x \over d \tilde \tau} \right )^2 + \left ( {d y \over d \tilde \tau} \right )^2} \, d \tilde \tau</math>
+
+Для функціонала (19) ми матимемо два рівняння Ейлера-Лагранжа, <math>\tilde L = \tilde L(x, y, \dot x, \dot y)</math>:
+: <math>(21) \qquad {d \over d \tau} \tilde L_{\dot x} - \tilde L_x = {d \over d \tau} \left( {\dot x \over \sqrt{y (\dot x^2 + \dot y^2)}} \right ) = 0</math>
+: <math>(22) \qquad {d \over d \tau} \tilde L_{\dot y} - \tilde L_y = {d \over d \tau} \left ( {\dot y \over \sqrt{y (\dot x^2 + \dot y^2)} } \right ) + { \sqrt{\dot x^2 + \dot y^2} \over 2 y^{\begin{matrix} \frac{3}{2} \end{matrix}} } = 0</math>
+
+Рівняння (21) і (22) так само, як і породивший їх інтеграл (19), інваріантні щодо заміни параметра <math>\tau</math>. Очевидно, що рівняння (22) переходить в (16) якщо взяти параметр кривої <math>\tau = x</math>.  А от рівняння (21) виглядає простішим (зусилля витрачені на розгляд альтернативної точки зору виявилися не марними).
+
+Починаємо розвязувати звичайне диференціальне рівняння (21). Ми відразу можемо його проінтегрувати: 
+: <math>(23) \qquad {\dot x \over \sqrt{y (\dot x^2 + \dot y^2)}} = C = const</math>
+Постійна інтегрування <math>C</math> (''однакова для всіх точок нашої шуканої кривої'') має бути додатньою, оскільки ми обрали таку систему координат що кінцева точка В має більшу абсцису: <math>x_B > x_A = 0</math>
+
+Перепишемо (23) в іншому вигляді, виконавши алгебраїчні перетворення:
+: <math>(24) \qquad \dot x^2 \left ( {1 \over C^2} - y \right ) = y \dot y^2</math>
+
+В правій частині останнього рівняння стоїть додатній вираз, а тому і вираз у дужках лівої частини повинен бути більшим нуля.  Таким чином ордината нашої кривої лежить в межах:
+: <math>(25) \qquad 0 \le y \le {1 \over C^2}  </math>
+
+Le mot '''brachistochrone''' désigne une courbe plane sur laquelle un point matériel pesant placé dans un champ de pesanteur uniforme, glissant sans frottement et sans vitesse initiale,  présente un temps de parcours minimal parmi toutes les courbes joignant deux points fixés : on parle de ''problème de la courbe brachistochrone''.
+
+center 
+
+== Étymologie ==
+Le mot brachistochrone vient du grec ''brakhisto'' (« le plus court ») et s'écrit donc avec un i et non un y, et de ''chronos'' (« temps »). Elle fut étudiée et nommée ainsi  par Jean Bernoulli. 
+
+== Histoire ==
+La résolution du problème de la courbe brachistochrone passionna les mathématiciens. Leibniz, Newton, L'Hôpital, Jean et Jacques Bernoulli : il s'agit d'un arc de cycloïde commençant avec une tangente verticale.
+
+Les méthodes imaginées pour sa résolution amenèrent à développer la branche des mathématiques qu'on appelle le calcul des variations.
+
+== Démonstration de la solution ==
+
+=== Démonstration historique (par Bernoulli) ===
+
+Le chemin le plus court entre deux points est celui que suivrait un rayon de lumière.
+La courbe brachistochrone est donc simplement le trajet suivi par la lumière dans un milieu où la vitesse augmente selon une accélération constante (l’attraction terrestre ''g'').
+La loi de la conservation de l’énergie permet d’exprimer la vitesse d’un corps soumis à l’attraction terrestre par:
+:<math>v=\sqrt{2gh}</math>, 
+où ''h'' représente la perte d’altitude par rapport au point de départ. La vitesse ne dépend pas du départ horizontal. 
+
+La loi de la réfraction indique que tout au long de sa trajectoire un rayon lumineux obéit à la règle 
+:<math>\frac{\sin{\theta}}{v}=Cste</math>, 
+où ''<math>\theta</math>'' représente l’angle par rapport à la verticale. 
+En insérant dans cette formule l’expression de la vitesse trouvée plus haut, on constate immédiatement deux choses:
+
+1- Au point de départ, lorsque la vitesse est nulle, l’angle doit nécessairement être nul. Donc la courbe brachistochrone est tangente à la verticale à l’origine.
+
+2- La vitesse est bornée car le sinus ne peut être supérieur à 1. Cette vitesse maximum est atteinte quand la particule (ou le rayon) passe par l’horizontale (ce « passage » pouvant être asymptotique.) 
+
+Sans restreindre la généralité du problème, on va supposer que la particule part du point de coordonnées (0,0) et que la vitesse maximum est atteinte à l’altitude ''–D''. La loi de la réfraction s’exprime alors par:
+:<math>\frac{\sin{\theta}}{\sqrt{-2gy}}=\frac{1}{\sqrt{2gD}}</math>. 
+Sachant que la particule se déplace sur une courbe, on a la relation :
+:<math>\sin{\theta}=\frac{dx}{\sqrt{dx^2+dy^2}}</math>. 
+En insérant cette expression dans la formule précédente et en réarrangeant les termes on trouve:
+:<math>\begin{pmatrix}\frac{dy}{dx}\end{pmatrix}^2=-\frac{D+y}{y}</math>. 
+Ce qui est l’équation différentielle de l’opposée d’une cycloïde, générée par un cercle de diamètre ''D''.
+
+=== Démonstration avec le Calcul des variations ===
+
+500px|center  
+On note <math>C(t)=(x(t), y(t))</math> la courbe recherchée, paramétrée par <math>t</math>. L'équation cartésienne est <math>y=f(x)</math> (on exclut les courbes ayant des parties verticales). On exprime un déplacement infinitesimal sur la courbe:
+
+<math>ds = \sqrt{(dx)^2 + (dy)^2}</math>. Si on pose que la dérivée de la courbe est <math>y'=\frac{\partial y(t)}{\partial x(t))}</math>, on a:
+<math>ds = \sqrt{1 + (y')^2}dx</math>.
+
+Mais, d'autre part, on a toujours, en vertu du théorème de l'énergie cinétique, la relation suivante: 

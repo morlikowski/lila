@@ -1,0 +1,116 @@
+{{게임 정보
+|제목 = 라이즈 오브 네이션즈
+|이미지 = 
+|설명 =
+|개발사 = 빅 휴즈 게임스
+|배급사 = 마이크로소프트 게임 스튜디오
+|디자이너 = 브라이언 레이널스
+|엔진 = 
+|버전 = 03.02.12.0800
+|출시 = : 2004년 4월 28일
+|장르 = 전략 시뮬레이션 게임
+|모드 = 싱글플레이, 멀티플레이
+|언어 = 영어
+|이용가 등급 = : ESRB T
+|플랫폼 = 마이크로소프트 윈도, 맥 OS X
+|미디어 = CD 1장
+|요구사양 = CPU 500MHz, RAM 128MB, HDD 800 MB, GPU RAM 16MB 이상
+|원작 = 
+|이전작 = 라이즈 오브 네이션즈
+|후속작 =
+}}
+'''라이즈 오브 네이션즈: 쓰론 앤 패트리어트'''()는 라이즈 오브 네이션즈의 두 번째 버전으로, 라이즈 오브 네이션즈의 확장팩이다.
+
+== 특징 ==
+먼저 라이브러리 건물에서의 연구는 유지되었지만, 일일이 라이브러리 건물을 찾아가서 연구하지 않고 게임창에서 바로 명령을 내릴 수 있게 되었다. 또한 새로운 건물인 '의회'가 추가되었는데 여기서 정부체재를 연구할 수 있다.(자세한것은 아래 '정부 체제'를 참고하라.)
+
+라이즈 오브 네이션즈: 쓰론 앤 패트리어트에서는 6개의 새로운 국가가 추가되었다. 새로운 6개 국가는 해병대'(대륙 해병대, 소총 해병대, 정예 해병대, 강습 해병대)는 게임의 제 4단계에 해당되는 '계몽시대'부터 생산이 가능한데, 이때 해병대는 일정한 시간이 지나면 자동으로 참호를 구축한다.또한, 새로운 불가사의 건물로 공중 정원, 자금성, 붉은 요새가 추가되었다.
+
+== 정부 체제 ==
+정부 체제는 '의회' 건물을 건설하면 결정할 수 있으며, 크게 두가지 선택이 있는 3단계로 구성되어 총 6가지의 체제를 결정 할 수 있다. 물론, 각 게임에 따라서 연구가 불가능한 경우도 있으며, 한 체제를 결정하면 그 반대의 체제로 바꿀수는 없다. 따라서 게임시에는 이를 신중하게 결정해야 한다. 또한 예를 들어, 전체 정치를 결정하였다 하더라도, 제 2단계에서는 민주주의를 선택할 수 있으며, 그때에도 그 전의 혜택은 유지된다. 다만, 애국자의 능력은 바뀌게 된다. 
+
+여기서는 '애국자' 가 자동으로 생산된다.
+
+각 체제는 다음과 같다.
+
+;(제 2단계인 '고전시대부터 가능)
+* 전제 정치: 군사 연구 비용과 보병 생산비용이 15% 감소한다. 약탈과 보급등의 능력이 있는 독재자가 애국자로 주어진다.
+* 공화제: '상업 한계치'가 50 늘어난다. 치료와 유닛 매수등의 능력이 있는 대의원이 애국자로 주어진다.
+
+;(제 4단계인 '화약시대'부터 가능)
+* 군주제: 기병유닛의 생산비용과 생산시간이 25% 감소한다. 보급과 공성유닛의 보조하는 능력등이 있는 왕이 애국자로 주어진다.
+* 민주주의: 라이브러리 건물을 제외한 모든 건물의 연구 비용이 20% 감소한다. 생산과 치료등의 능력이 있는 대통령이 애국자로 주어진다.
+
+{{Infobox VG
+| title = Rise of Nations: Thrones and Patriots
+| image = Image:Rise of Nations - Thrones and Patriots Coverart.png
+| developer = Big Huge Games <div style="clear:both"></div> Westlake Interactive (Mac port - along with BHG)
+| publisher = Microsoft Game Studios <div style="clear:both"></div> MacSoft Games (Mac port)
+| series = ''Rise of Nations''
+| designer = Brian Reynolds
+| engine =
+| version = 03.02.12.0800
+| released =
+<div>
+; Microsoft Windows: <ref name="dates"></ref><br><ref name="dates"/>
+; Mac OS X: <ref name="ignmacport"></ref>
+| genre = Real-time strategy
+| modes = Multiplayer
+| ratings = ESRB: T<br>PEGI: 12+
+| platforms = Microsoft Windows, Mac OS X
+| media = CD
+| requirements = 
+<div>
+; Microsoft Windows
+500 MHz processor, 128 MB RAM, 750 MB free hard drive space, 16 MB GPU, OS, Original version of 56 kbit/s LAN<ref name="systemrequirements"></ref>
+; Mac OS X
+Mac OS X v 10.2.8 or higher, 600 MHz processor, 256 MB RAM, 32 MB GPU, 1024x768 or higher resolution monitor, CD-ROM drive, 1 GB free hard drive space, Online/Multiplayer: 56 kbit/s modem or LAN, 512 MB RAM<ref name="macsoftron"></ref>
+| input = Keyboard, mouse
+}}
+'''''Rise of Nations: Thrones and Patriots''''' is the official computer game ''ported to and released for Mac OS X in November 2004.<ref name="ignmacport"/>
+
+''Thrones and Patriots'' expanded on a variety of features in the original game, such as new Wonders"), governments, and campaigns.<ref name="bhgrontpcow"></ref><ref name="ignreview"></ref><ref name="gamespotreview"></ref><ref name="msftrongov"></ref> Gameplay still remains similar to ''Rise of Nations'', with its wide span of ages and players still manage and expand their nations at the macro and micro levels.<ref name="bhgrongold"/> However, ''Thrones and Patriots'' has campaigns which offer more turn-based strategy features than the original and the ability to make decisions outside of combat. Up to eight players can play in multiplayer matches, with artificial intelligence being able to fill slots at the server host's choice.<ref name="gamespotreview"/>
+
+Tim Train, executive producer of ''Thrones and Patriots'', stated that various features were added to the game in an attempt to balance gameplay, including the addition of armed caravans and merchants.<ref name="timtraininterviewgspot"></ref> IGN claimed that ''Thrones and Patriots'' is "a great game [which] gets better," in reference to its predecessor ''Rise of Nations'' and other critical reviews also praised many features of the game, though some noted deficiencies.<ref name="ignreview"/><ref name="gamespotreview"/><ref name="1up"/><ref name="gi"/> As of 2008, ''Rise of Nations'' has received a compilation score of 88% on both Game Rankings and Metacritic.<ref name="gamerankings"/><ref name="metacritic"/>
+== Gameplay ==
+200px|thumb|left|The [[Korean War during the Cold War campaign]]
+Within ''Rise of Nations: Thrones and Patriots'' players control various units during battles, including land, sea, and aerial units. Units used during gameplay include slingers, political strategy, micro levels, and build their nation up and expand it throughout the game.<ref name="bhgrongold"></ref>
+
+''Thrones and Patriots'' added six new nations to the original ''Rise of Nations'' of game. The 'New World' situation playable in the game was enhanced by the introduction of the European nation&mdash;of the Dutch. Three North American nations were added, the Americans, referring to the ex-colonial civilization, and two Native American nations were added, which were the Lakota and the Persians were introduced. New Wonders were made available for building, such as the Hanging Gardens of Babylon, the Forbidden City, and the Red Fort.<ref name="msftronfeatures"></ref>
+
+New features of the game were added to the new nations, for instance the Lakota, which is unable to build farms to generate food, instead receive a constant food supply for each of their citizens, scouts, and cavalry units. They can make buildings in any region that is not possessed by their enemy, can raze buildings quick while receiving a full refund, and receive resources when enemy resources are destroyed.<ref name="msftlakotainfo"></ref>
+
+=== Campaigns ===
+200px|thumb|left|The [[Iron Curtain in Europe during the Cold War campaign]]
+''Rise of Nations: Thrones and Patriots'' added four new "Conquer the World" campaigns: Americans, a European power, or a Native American tribe.<ref name="gamespotreview"/> If the player chooses to lead the Americans, they must pay taxes to Great Britain, until they declare independence.<ref name="bhgrontpcow"/> The map of a battle incorporates the region's environment, for example large forests in the Pacific Northwest.<ref name="gamespotreview"/> The Cold War introduces the ability to fire nuclear missiles in the main map and initiate espionage missions.<ref name="bhgrontpcow"/>
+
+''Rise of Nations: Thrones and Patriots''' campaigns now offer more turn-based strategy into the game rather than real-time strategy being the only gameplay aspect.<ref name="timtraininterviewgspot"/>
+
+=== Governments ===
+Once the player builds the Senate building, he or she may choose a government "upgrade" of either a Despotism or a Republic, each giving the player a different permanent gameplay bonus. Each government has a different "Patriot", effectively a stronger version of the "General" unit with different bonuses, depending on which government is chosen. They are used during combat to assist players in battle. A player can only have one Patriot unit at a time. When a Patriot unit is killed, a new one is automatically created in the Senate afterwards.<ref name="msftrongov"/><ref name="timtraininterviewgspot"/>
+
+After reaching the Gunpowder Age, the player may choose to upgrade to either a Monarchy or a Democracy, each with its own different permanent gameplay bonus, and then after reaching the Industrial Age, the player may upgrade again, to either Socialism or Capitalism.  The previous gameplay bonuses remain, allowing players to select the most appropriate combination of benefits as the game evolves.<ref name="msftrongov"/>
+
+=== Unique units ===
+Every new nation in ''Thrones and Patriots'' received units exclusive to their own nation, called ''unique units''.<ref name="msftronfeatures"/>
+{| width="100%" cellpadding="5" cellspacing="0"
+|----- bgcolor="#fdf5e6"
+| '''Nations\Ages''' || ''Ancient'' || ''Classical'' || ''Medieval'' || ''Gunpowder'' || ''Enlightenment'' || ''Industrial'' || ''Modern'' || ''Information''
+|-----
+| '''Americans'''<ref name="msftamerinfo"></ref> || || || || || Continental Marine || Marine || Infantry Marine || Assault Marine
+|-----
+| '''Dutch'''<ref name="msftdutchinfo"></ref> || Armed | || [[Brig, Armed Supply | [[Fluyt || Clipper
+|-----
+| '''Indians'''<ref name="msftindinfo"></ref> || || | [[Mahout || Gun Mahout || Culverin Mahout
+|-----
+| '''| Takohs, [[Spear|Spearmen || Mohawk Spearmen || Heavy Mohawk Spearmen, Akweks || Elite Mohawk Spearmen || Okwari
+|-----
+| '''| || Sunka [[Wakan || Eagle Feather Horse || | [[Repeating rifle|Repeating Rifle Horse
+|-----
+| '''Persians'''<ref name="msftperinfo"></ref> || Immortal || Anusiya, War Elephant || Athanatoi, Mahout
+ || Arquebus Immortal, Gun Mahout || Culverin Mahout
+|}
+
+=== Multiplayer ===
+''Rise of Nations'' features a highly customizable multiplayer mode. Up to eight players can play in a  game with a variety of modes to choose from, with AI filling spots at the server host's choice.<ref name="gamespotreview"/> GameSpy hosts matchmaking and other servers for multiplayer games played online through their dedicated server.<ref name="gspressrelease"></ref>
+A new feature that was introduced into the game was the ability to use homemade scripts in online play. The scripts are able to be made in the built in script editor, and came with a pre-made script that disallowed silos.<ref name="bhgfilesscript"></ref>

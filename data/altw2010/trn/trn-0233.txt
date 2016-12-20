@@ -1,0 +1,37 @@
+'''Эффе́кт штурмовика́''', или «голливудских имперских штурмовиков из первой трилогии «Звёздных войн», которые, несмотря на стрельбу с близкого расстояния, хорошее оружие и хорошие показатели в бою с незначительными персонажами, были совершенно неспособны сладить с протагонистами. Обычно такая несуразность служит для поддержания зрителей в напряжении или подчёркивает боевую доблесть главных героев.
+
+== Проявления ==
+Эффект штурмовика может проявлять себя по-разному:
+* «Пушечное мясо» оказывается совершенно не в состоянии причинить вред основным персонажам, несмотря на хорошую выучку.
+* Даже хорошо защищённое бронёй или укрытием «пушечное мясо» невероятно легко уничтожается главными героями, обычно первое же попадание убивает наповал.
+* Когда главного героя ранят, рана обычно оказывается лёгкой.
+** Даже когда она тяжёлая, это служит лишь для нагнетания напряжения и не выводит его из строя.
+* «Пушечное мясо» может неплохо сражаться против другого «пушечного мяса», но как только на сцене появляются главные герои, у злодеев сразу перестаёт что-либо получаться.
+
+== Формула вероятности ==
+Некоторые шутники даже вывели формулу, описывающую эффект штурмовика:
+
+:<math>P_{\mathrm{hit}}=C \times \frac{\left(x-0{,}5 \right)^{1{,}5}}{n+{\left(J+1\right)}^{10}},</math>
+
+где:
+* ''C'' - константа;
+* ''P<sub>hit</sub>'' — вероятность попадания штурмовика в героя;
+* ''n'' — число злодеев, участвующих в бою;
+* ''x'' — число положительных героев;
+* ''J'' — число джедаев.
+
+Вероятность подстрелить героя тем меньше, чем больше штурмовиков. Однако, если героев слишком много, то шансы потерять одного из них существенно возрастают.  Впрочем, если присутствует хотя бы один джедай, то штурмовики обречены на поражение.
+
+The '''Principle of Evil Marksmanship''' (also known as the '''Stormtrooper Effect''' among ''film critic Roger Ebert in the 1980s, as part of his "Little Movie Glossary",<ref>"Ebert's Glossary of Movie Terms", from Roger Ebert's Video Companion. ND. [http://academic.sun.ac.za/forlang/bergman/tech/glossary/ebert_glos.htm]</ref> and defined as:
+
+The theme is commonly seen in cowboy films, satirists and fans. Ebert often uses the term in his reviews.<ref>Roger Ebert's review of ''Rapid Fire'' [http://rogerebert.suntimes.com/apps/pbcs.dll/article?AID=/19920821/REVIEWS/208210303/1023]</ref> 
+
+==The Stormtrooper Effect==
+Imperial Stormtroopers in the original ''Star Wars'' trilogy, despite overwhelming numbers, professional military education and training, full armour, military-grade firepower, and noticeable combat effectiveness against non-speaking characters, were incapable of seriously harming or indeed even hitting the films' protagonists. Obi-Wan Kenobi even comments to Luke Skywalker, when the pair finds the destroyed Jawa sandcrawler, "These blast-points... Only Imperial stormtroopers are so precise." Additionally, in ''Return of the Jedi'', stormtroopers (a legion of the Emperor's best troops no less) are easily dispatched by the technologically inferior Ewoks, who are primarily armed with primitive weapons such as slings, rocks, sticks, and bows and arrows.
+
+The Marksmanship", whose graduates are inexplicably poor shots; for example, "The Nazis in ''Indiana Jones and the Last Crusade'' must all have studied at the Imperial Stormtrooper School of Marksmanship."<ref>''GURPS Special Ops'' by Greg Rose, p. 123. Published 1989 by Steve Jackson Games</ref> The game system includes optional rules titled ''Imperial Stormtrooper Marksmanship Academy'' designed to make large numbers of nameless characters ineffective.
+
+==One-at-a-time Attack Rule==
+Ebert also refers to the '''One-at-a-time Attack Rule''':
+
+This can traditionally be observed in many martial arts movies. During a typical fight, the hero will engage against one opponent. Upon knocking that man out, another will attack. The surplus enemies will circle the fighting two striking fearsome poses, indicating the willingness to fight in a second's notice, yet  the unwillingness or incapacity to help the current aggressor attack the hero.

@@ -1,0 +1,56 @@
+:''A different topic is treated in the article titled normal number (computing).''
+
+In base) show a uniform distribution, with all digits being equally likely, all pairs of digits equally likely, all triplets of digits equally likely, etc.
+
+While a general proof can be given that "√2, π, and ''e'' are normal, but a proof remains elusive.
+
+== Definitions ==
+Let &Sigma; be a finite alphabet of ''b'' digits. Let ''S'' &isin; &Sigma;<sup>&infin;</sup> be an infinite sequence drawn from the alphabet &Sigma;. Let ''w'' &isin; &Sigma;<sup>*</sup> be a finite string drawn from the alphabet &Sigma;. Let ''n'' be a positive integer. Define ''N<sub>S</sub>''(''w'', ''n'') to be the number of times the string ''w'' appears as a substring in the first ''n'' digits of the sequence ''S''. (For instance, if ''S'' = 01010101..., then ''N<sub>S</sub>''(010, 8) = 3.) ''S'' is '''normal''' if, for all finite strings ''w'' &isin; &Sigma;<sup>*</sup>,
+
+:<math>\lim_{n\to\infty} \frac{N_S(w,n)}{n} = \frac{1}{b^{|w|}}</math>
+
+(where |&thinsp;''w''&thinsp;| denotes the length of the string ''w''; see also limit.)
+In other words, ''S'' is normal if all strings of equal length occur with equal random.
+
+Suppose now that ''b'' is an positional number system (we ignore the decimal point). We say ''x'' is '''normal in base ''b''''' if the sequence ''S<sub>x, b</sub>'' is normal. The number ''x'' is called a '''normal number''' (or sometimes an '''absolutely normal number''') if it is normal in base ''b'' for every integer ''b'' greater than 1.
+
+A given infinite sequence is either normal or not normal, whereas a real number, having a different base-''b'' expansion for each integer ''b'' &ge; 2, may be normal in one base but not in another (Cassels 1959 and Schmidt 1960).
+
+Every normal number in base ''r'' is normal in base ''s'' if and only if log ''r'' / log ''s'' is a rational number. (Schmidt 1960)
+
+A weaker property than normality is simple normality. A number is '''simply normal in base ''b''''' if each individual digit appears with frequency 1/''b''.
+
+== Properties and examples ==
+The concept of a normal number was introduced by Émile Borel in 1909. Using the Borel-Cantelli lemma, he proved the '''normal number theorem''': almost all real numbers are normal, in the sense that the set of non-normal numbers has Lebesgue measure zero (Borel 1909). This theorem established the existence of normal numbers, but Waclaw Sierpinski in 1917 was the first to give an example of one.
+
+The set of non-normal numbers, even though "small" in the sense of being a null set, is "large" in the sense of being uncountable. Indeed, there are uncountably many numbers whose decimal expansion does not contain the digit 5, and none of these is normal.
+
+Champernowne's number
+: 0.1234567891011121314151617...,
+obtained by concatenating the decimal representations of the natural numbers in order, is normal in base 10, but it might not be normal in some other bases. The Copeland–Erdős constant
+: 0.235711131719232931374143...,
+obtained by concatenating the prime numbers in base 10, is also known to be normal in base 10.
+
+No eventually periodic. 
+
+An example of a normal number is given by computable absolutely normal number was constructed in (Becher 2002).
+
+It has been an elusive goal to prove the normality of numbers which were not explicitly constructed for the purpose. It is for instance unknown whether √2, π, ln(2) or e is normal (but all of them are strongly conjectured to be normal, because of some empirical evidence). It is not even known which digits occur infinitely often in the decimal expansions of those constants. It has been conjectured that every irrational algebraic number is normal; while no counterexamples are known, there also exists no algebraic number that has been proven to be normal in any base.
+
+A disjunctive sequence is a sequence in which every finite string appears. A normal sequence is disjunctive, but a disjunctive sequence need not be normal. A number that is disjunctive to some particular base (or to every base) is sometimes called a '''lexicon'''; every normal number is a lexicon, but not necessarily vice versa.
+
+Additional properties of normal numbers include:
+
+* Every positive number is the product of two normal numbers. This follows from the general fact that every number is the product of two numbers from a set <math>X\subseteq\R^+</math> if the complement of ''X'' has measure 0.
+* If ''x'' is normal in base ''b'' and ''q'' is a rational number, then <math>x \cdot q</math> is normal in base ''b''. (Wall 1949)
+
+* If <math>A\subseteq\N</math> is ''dense'' (for every <math>\alpha<1</math> and for all sufficiently large ''n'', <math>|A \cap \{1,\ldots,n\}| \geq n^\alpha</math>) and <math>a_1,a_2,a_3,\ldots</math> are the base-''b'' expansions of the elements of ''A'', then the number <math>0.a_1a_2a_3\ldots</math>, formed by concatenating the elements of ''A'', is normal in base ''b'' (Copeland and Erdős 1946). From this it follows that Champernowne's number is normal in base 10 (since the set of all positive integers is obviously dense) and that the Copeland-Erdős constant is normal in base 10 (since the prime number theorem implies that the set of primes is dense).
+
+Un numero è detto '''normale''' in una data base b se nel suo sviluppo in tale base le cifre e le successioni finite di cifre appaiono tutte con la stessa frequenza.
+
+Consideriamo un base che indichiamo con ''b'' (''b''>1). Indichiamo con ''N(s;n)'' il numero di apparizioni di ''s'' nelle prime ''n'' cifre di ''x''. ''x'' è normale nella base b se
+<math>\lim_{n\to\infty} \frac{N(s,n)}{n} = \frac{1}{b^{k}}</math> per ogni successione  ''s'' di lunghezza ''k''.
+
+Per la legge forte dei grandi numeri ''quasi tutti'' i numeri reali sono normali in ogni base: cioè l'insieme dei numeri non normali in una data base ha misura di Lebesgue nulla. Tuttavia non ci si imbatte facilmente in numeri normali. Si vede subito che i numeri razionali non possono essere normali in alcuna base e non si sa se numeri come <math>\sqrt{2}</math>, e o π lo siano. 
+
+Si dimostra facilmente che l'insieme dei numeri non normali non è numerabile. Basta infatti osservare che i numeri nella cui rappresentazione in base b (supposta maggiore di 2) manca una data cifra sono evidentemente non normali e costituiscono un insieme non numerabile (tali rappresentazioni coincidono infatti con quelle di tutti i numeri reali in base b-1).

@@ -1,0 +1,106 @@
+{{Infobox Commune de France|nomcommune=Empurany
+|région=Rhône-Alpes
+|département=Ardèche
+|arrondissement=Arrondissement de Tournon-sur-Rhône
+|canton=Canton de Lamastre
+|insee=07085
+|cp=07270
+|maire=Michel Lassara
+|mandat=2008-2014
+|intercomm=''sans''
+|longitude=4.60944444444
+|latitude=45.0252777778
+|alt moy=500 m
+|alt mini=310 m
+|alt maxi=1028 m
+|hectares=1894
+|km²=18,94
+|sans=492
+|date-sans=1999
+|dens=25|}}
+'''Empurany''' est une commune française, située dans le département de l'Ardèche et la région Rhône-Alpes.
+
+==Géographie==
+==Histoire==
+==Administration==
+
+==Démographie==
+{{Démographie|
+1962= 685|
+1968= 770|
+1975= 696|
+1982= 631|
+1990= 546|
+1999= 492|
+sansdoublescomptes= 1968|source=INSEE<ref>[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=07085&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Empurany sur le site de l'Insee]</ref>}}
+
+==Lieux et monuments==
+==Personnalités liées à la commune==
+==Voir aussi==
+* Communes de l'Ardèche
+
+{{infobox Franse gemeente|
+|plaatsnaam= Empurany
+|wapen= 
+|kaart= 
+|regio= Rhône-Alpes 
+|departement= Ardèche (07)
+|arrondissement= Tournon-sur-Rhône
+|kanton= Lamastre
+|jaar= 1999
+|inwoners= 492
+|dichtheid= 26,2
+|oppervlakte= 18,8
+|water= 
+|latitudeGraden= 45 |latitudeMinuten= 1|latitudeSeconden= 0
+|longitudeGraden= 4 |longitudeMinuten= 36 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 206 |kaartY= 200
+|code= 07085
+|postcode= 07270
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Empurany''' is een gemeente in het Franse departement Ardèche (regio Tournon-sur-Rhône.
+
+==Geografie==
+De oppervlakte van Empurany bedraagt 18,8 km², de bevolkingsdichtheid is 26,2 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:1200 color:gray1 width:1       
+  from:start till:end             
+  bar:800 color:gray1              
+  from:start till:end            
+  bar:400 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,141)(84,129) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 855 1968: 770
+  points:(84,129)(100,119)    color:blue    width:2 #1975: 696
+  points:(100,119)(128,109)   color:blue    width:2 #1982: 631
+  points:(128,109)(160,97)   color:blue    width:2 #1990: 546
+  points:(160,97)(196,90)   color:blue    width:2 #1999: 492
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

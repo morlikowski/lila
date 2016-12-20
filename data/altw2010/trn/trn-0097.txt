@@ -1,0 +1,96 @@
+La '''seconde quantification''', aussi appelée '''quantification canonique''', est une méthode de quantification des champs introduite par Dirac en 1927 pour l'Fock et Jordan en 1932. En 1949, Pauli dira à Klein : «La seconde quantification, c'est le péché au carré.» 
+
+== Exemple du champ scalaire réel ==
+
+Considérons une particule relativiste de masse <math>m</math> et de charge électrique nulle.
+
+=== Première quantification ===
+
+L'équation relativiste donnant l'énergie <math>E</math> de la particule massive en fonction de sa quantité de mouvement <math>\vec{p}</math> s'écrit :
+
+{| align="center" border="0"
+|<math>E^2 \ = \ p^2 \, c^2 \ + \ m^2 \, c^4 </math>
+|}
+
+En appliquant une première fois les règles de la ''quantification canonique'' issues de la mécanique quantique, on obtient l'équation de Klein-Gordon pour la ''fonction d'onde'' <math>\Phi(\vec{r},t)</math> :
+
+{| align="center" border="0"
+|<math>- \ \hbar^2 \ \frac{{\partial}^2\Phi(\vec{r},t)}{{\partial}t^2} \ = \ - \ \hbar^2 \, c^2 \ \Delta \ \Phi(\vec{r},t) \ + \ m^2 \, c^4 \ \Phi(\vec{r},t)</math>
+|}
+
+Cette équation se réécrit sous la forme suivante :
+
+{| align="center" border="0"
+|<math> \left( \ \Box \  + \ \frac{m^2 \, c^2}{\hbar^2} \ \right) \ \Phi(\vec{r},t) \ = \ 0</math>
+|}
+
+où <math> \Box </math> représente l'opérateur d'Alembertien :
+
+{| align="center" border="0"
+|<math> \Box \ = \ \frac{1}{c^2} \ \frac{{\partial}^2 ~~}{{\partial}t^2} \ - \ \Delta 
+</math>
+|}
+
+=== Développement de Fourier ===
+
+Supposons pour simplifier que la particule soit confinée dans une grande boîte de volume <math>V</math> fini. Le champ scalaire <math>\Phi(\vec{r},t)</math> admet alors un développement en série de Fourier<ref>Si le volume <math>V</math> de la boîte est infini, il faut utiliser la transformée de Fourier à la place de la série de Fourier.</ref>. Notons :
+
+* <math>\omega</math> la variable conjuguée au temps <math>t</math> : <math>\omega</math> est la ''pulsation''.
+
+* <math>\vec{k}</math> le vecteur conjugué à la position <math>\vec{r}</math> : <math>\vec{k}</math> est le ''vecteur d'onde''. 
+
+Les modes propres sont les exponentielles :
+
+{| align="center" border="0"
+|<math>f(\vec{r},t) \ = \ f_0 \ e^{- \, i \, \omega t \, + \, i \, \vec{k} \cdot \vec{r}}</math>
+|}
+
+qui vérifient l'équation de Klein-Gordon :
+
+{| align="center" border="0"
+|<math> \left( \ \Box \ + \ \frac{m^2 \, c^2}{\hbar^2} \ \right) \,  f(\vec{r},t) \ = \ 0 \quad \Longrightarrow \quad \left( \ - \ \frac{\omega^2}{c^2} \, + \, k^2 \, + \, \frac{m^2 \, c^2}{\hbar^2} \ \right) \, f(\vec{r},t) \ = \ 0</math>
+|}
+
+In quantizing a field theory it is also called '''second quantization'''. The word ''canonical'' refers actually to a certain structure of the classical theory (called the symplectic structure) which is preserved in the quantum theory. This was first emphasized by Paul Dirac, in his attempt to build quantum field theory.
+
+==History==
+
+Dirac. The name ''canonical quantization'' may have been first coined by Pascual Jordan.
+
+The exposition here leans heavily on Dirac's influential book on quantum mechanics. This route to quantum theory which emphasizes the role of superposition of quantum amplitudes. The two methods give the same results.
+
+==Quantum mechanics==
+
+In the classical mechanics of a particle, one has dynamical variables which are called coordinates (<math>x</math>) and momenta (<math>p</math>). These specify the ''state'' of a classical system. The '''canonical structure''' (also known as the symplectic structure) of classical mechanics consists of Poisson brackets between these variables. All transformations which keep these brackets unchanged are allowed as canonical transformations in classical mechanics.
+
+In quantum mechanics, these dynamical variables become operators acting on a Hilbert space of quantum states. The Poisson brackets (more generally the Dirac brackets) are replaced by commutators, <math>[X,P] = XP-PX = i\hbar</math>
+. This readily yields the uncertainty principle in the form
+<math>\Delta x \Delta p \geq \frac{\hbar}{2}</math>
+. This algebraic structure corresponds to a generalization of the ''canonical structure'' of classical mechanics.
+
+The states of a quantum system can be labelled by the x\rangle</math> for a state which is an [[eigenvector of <math>A</math> with eigenvalue <math>x</math>. Notationally, one would write this as <math>A|x\rangle = x|x\rangle</math>. The wavefunction of a state <math>|\varphi\rangle</math> is <math>\varphi (x)=\langle x|\varphi\rangle</math>.
+
+In quantum mechanics one deals with the quantum states of a system of a fixed number of particles. This is inadequate for the study of systems in which particles are created and destroyed. Historically, this problem was solved through the introduction of quantum field theory.
+
+==Second quantization: field theory==
+
+When the canonical quantization procedure is applied to field variable becomes a quantum operator which acts on a quantum state of the field theory to increase or decrease the number of particles by one. In one way of viewing things, quantizing the classical theory of a fixed number of particles gave rise to a wavefunction. This wavefunction is a field variable which could then be quantized to deal with the theory of many particles. So the process of canonical quantization of a field theory was called '''second quantization''' in the early literature.
+
+The rest of this article deals with canonical quantization of field theory. It would also be useful to consult the companion articles on quantization and the Feynman path integral.
+
+===Field operator===
+
+One basic notion in this technique is of a the quantum mechanical vacuum and the vacuum of quantum chromodynamics. We shall represent this quantum state as '''|0>'''.
+
+Then one introduces single particle creation and annihilation operators, '''a<sup>&dagger;</sup><sub>k</sub>''' and '''a<sub>k</sub>''' respectively, which act on quantum states to increase or decrease the number of particles of the given momentum '''k'''. For example&mdash;
+*'''a<sub>k</sub>|0>&nbsp;=&nbsp;0''', since the vacuum state has no particles, and therefore a state with smaller number of particles cannot exist;
+*'''a<sup>&dagger;</sup><sub>k</sub>|0>&nbsp;=&nbsp;|1(k)>''', where we have introduced the notation '''|n(k)>''' to denote the state with '''n''' particles of momentum '''k'''.
+
+The Hilbert space of states of this kind is called a '''Fock space''' and these kinds of states are called '''Fock states'''. They are a useful basis with which to discuss quantum field theory, although strictly, their use is limited to free field theory only.
+
+====Real scalar field====
+
+A classical scalar field can now be written as a '''quantum field operator''' by the following simple recipe&mdash;
+#Make a Fourier transformation of the classical field to find the Fourier coefficients '''φ(k)''' and '''φ<sup>*</sup>(k)'''. The first corresponds to positive frequencies, and the second, to negative.
+#Convert each Fourier coefficient into an operator '''φ(k)→φ(k) a<sub>k</sub>''' and '''φ<sup>*</sup>(k)→φ<sup>*</sup>(k) a<sup>&dagger;</sup><sub>k</sub>'''.
+#Reconstruct the field operator by putting together this operator valued Fourier expansion.

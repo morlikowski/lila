@@ -1,0 +1,135 @@
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = Ponsacco |
+  name = Ponsacco |
+  region = Tuscany |
+  province = Province of Pisa (PI) |
+  elevation_m = 24 |
+  area_total_km2   = 19.9 |
+  population_as_of  = Dec. 2004 |
+  population_total = 13353 |
+  population_density_km2 = 671 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          = Le Melorie, Val di Cava, Camugliano |
+  telephone         = 0587 |
+  postalcode        = 56038 |
+  gentilic          = ponsacchini |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           = [http://www.comune.ponsacco.pi.it/ www.comune.ponsacco.pi.it/] |
+  mapy = 10.6333 |
+  mapx = 43.6167 |
+}}
+'''Ponsacco''' is a ''Italian region Tuscany, located about 50&nbsp;km southwest of Florence and about 20&nbsp;km southeast of Pisa. As of 31 December 2004, it had a population of 13,353 and an area of 19.9&nbsp;km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+==Geography==
+The municipality of Ponsacco contains the ''frazioni'' (subdivisions, mainly villages and hamlets) Le Melorie, Val di Cava, and Camugliano.
+
+Ponsacco borders the following municipalities: Lari, Pontedera.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:13000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:2000 start:0
+ScaleMinor = gridcolor:lightgrey increment:500 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:3093
+  bar:1871 from: 0 till:3654
+  bar:1881 from: 0 till:4190
+  bar:1901 from: 0 till:5043
+  bar:1911 from: 0 till:5537
+  bar:1921 from: 0 till:5914
+  bar:1931 from: 0 till:6012
+  bar:1936 from: 0 till:6135
+  bar:1951 from: 0 till:6894
+  bar:1961 from: 0 till:8237
+  bar:1971 from: 0 till:10650
+  bar:1981 from: 0 till:11701
+  bar:1991 from: 0 till:12131
+  bar:2001 from: 0 till:12576
+
+PlotData=
+
+  bar:1861 at:3093 fontsize:XS text: 3093 shift:(-8,5)
+  bar:1871 at:3654 fontsize:XS text: 3654 shift:(-8,5)
+  bar:1881 at:4190 fontsize:XS text: 4190 shift:(-8,5)
+  bar:1901 at:5043 fontsize:XS text: 5043 shift:(-8,5)
+  bar:1911 at:5537 fontsize:XS text: 5537 shift:(-8,5)
+  bar:1921 at:5914 fontsize:XS text: 5914 shift:(-8,5)
+  bar:1931 at:6012 fontsize:XS text: 6012 shift:(-8,5)
+  bar:1936 at:6135 fontsize:XS text: 6135 shift:(-8,5)
+  bar:1951 at:6894 fontsize:XS text: 6894 shift:(-8,5)
+  bar:1961 at:8237 fontsize:XS text: 8237 shift:(-8,5)
+  bar:1971 at:10650 fontsize:XS text: 10650 shift:(-8,5)
+  bar:1981 at:11701 fontsize:XS text: 11701 shift:(-8,5)
+  bar:1991 at:12131 fontsize:XS text: 12131 shift:(-8,5)
+  bar:2001 at:12576 fontsize:XS text: 12576 shift:(-8,5)
+
+{{コムーネ
+|nomeComune_ja = ポンサッコ
+|nomeComune =  Ponsacco
+|linkStemma  =  Ponsacco-Stemma.jpg
+|siglaRegione = TOS
+|siglaProvincia  = PI
+|latitudineGradi = 43
+|latitudineMinuti = 37
+|latitudineSecondi = 0
+|longitudineGradi = 10
+|longitudineMinuti = 38
+|longitudineSecondi = 0
+|mappaX = 101
+|mappaY = 117
+|altitudine = 24
+|superficie = 19
+|abitanti  =  13,353
+|anno =2004年12月31日
+|densita = 662
+|frazioni = Le Melorie, Val di Cava, Camugliano
+|comuniLimitrofi  = カパンノリ、 ラーリ、 ポンテデーラ
+|cap = 56038
+|prefisso = 0587
+|istat = 050028
+|fiscale = G822
+|nomeAbitanti  =  ponsacchini
+|patrono  = San Costanzo Martire
+|festivo  = lunedidopola第2日曜10月Il日
+|sito = http://www.comune.ponsacco.pi.it/
+}}
+'''ポンサッコ''' ('''Ponsacco''') は、人口13,353人のイタリア共和国トスカーナ州ピサ県のコムーネの一つである。
+
+Category:イタリアのコムーネ
+Category:トスカーナ州のコムーネ
+Category:ピサ県のコムーネ

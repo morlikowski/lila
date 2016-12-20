@@ -1,0 +1,46 @@
+'''Beamforming''' is a signal processing technique used in sensor arrays for directional signal transmission or reception.  This spatial selectivity is achieved by using adaptive or fixed receive/transmit beampattern. The improvement compared with an omnidirectional reception/transmission is known as the receive/transmit gain (or loss).   
+
+Beamforming can be used for both radio or sound waves. It has found numerous applications in radar, sonar, seismology, wireless communications, radio astronomy, speech, and biomedicine. Adaptive beamforming is used to detect and estimate the signal-of-interest at the output of a sensor array by means of data-adaptive spatial filtering and interference rejection. 
+
+==Beamforming techniques==
+Beamforming takes advantage of phase and relative amplitude of the signal at each transmitter, in order to create a pattern of constructive and destructive interference in the wavefront.  When receiving, information from different sensors is combined in such a way that the expected pattern of radiation is preferentially observed.
+
+For example in antennas.
+
+In passive sonar, and in reception in active sonar, the beamforming technique involves combining delayed signals from each hydrophone at slightly different times (the hydrophone closest to the target will be combined after the longest delay), so that every signal reaches the output at exactly the same time, making one loud signal, as if the signal came from a single, very sensitive hydrophone.  Receive beamforming can also be used with microphones or radar antennas.
+
+With narrow-band systems the time delay is equivalent to a "phase shift", so in this case the array of antennas, each one shifted a slightly different amount, is called a bandwidth is only a small fraction of the centre frequency.  With wide band systems this approximation no longer holds, which is typical in sonars.
+
+In the receive beamfomer the signal from each antenna may be amplified by a different "weight." Different weighting patterns (e.g., jammers in one particular direction, while listening for events in other directions. A similar result can be obtained on transmission.
+
+For the full mathematics on directing beams using amplitude and phase shifts, see the mathematical section in phased array.
+
+Beamforming techniques can be broadly divided into two categories:
+* conventional (fixed) beamformers or switched beam smart antennas
+* adaptive beamformers or adaptive array smart antennas
+** Desired signal maximization mode
+** Interference signal minimization or cancellation mode
+
+Conventional beamformers use a fixed set of weightings and time-delays (or phasings) to combine the signals from the sensors in the array, primarily using only information about the location of the sensors in space and the wave directions of interest. In contrast, adaptive beamforming techniques, generally combine this information with properties of the signals actually received by the array, typically to improve rejection of unwanted signals from other directions.  This process may be carried out in the time or frequency domains.
+
+As the name indicates, an adaptive beamformer is able to adapt automatically its response to different situations.  Some criterion has to be set up to allow the adaption to proceed such as minimising the total noise output.  Because of the variation of noise with frequency, in wide band systems it may be desirable to carry out the process in the frequency domain.
+
+Beamforming can be computationally intensive. Sonar phased array has a data rate slow enough that it can be processed in real-time in software, which is flexible enough to transmit and/or receive in several directions at once. In contrast, radar phased array has a data rate so fast that it usually requires dedicated hardware processing, which is hard-wired to transmit and/or receive in only one direction at a time. However, newer field programmable gate arrays are fast enough to handle radar data in real-time, and can be quickly re-programmed like software, blurring the hardware/software distinction.
+
+==Sonar beamforming requirements==
+Sonar itself has many applications, such as wide-area-search-and-ranging, underwater imaging sonars such as side-scan sonar and acoustic cameras.
+
+'''Beamforming''' (auch '''akustische Kamera''' oder '''Mikrofonarray''') ist eine Methode zur Lokalisation oder zur Ortung (als Positionsbestimmung) von Quellen in Wellenfeldern (z.B. Schallfeldern). In der Akustik wird Beamforming meistens dann eingesetzt, wenn Messungen in der Nähe des Messobjektes nicht (oder nur mit großem Aufwand) möglich sind, z.B. bei landenden Flugzeugen oder vorbeifahrenden Zügen). Daher wurde in der einschlägigen Literatur auch schon der Begriff "akustisches Teleskop" eingeführt. Die Mikrofonanordnung erfolgt dann meistens auf einer ebenen Fläche. In der Regel werden ringförmige, kreuzförmige, lineare und quasi-zufallsverteilte Arrays eingesetzt.
+
+Der bei Antennen für elektromagnetische Strahlung verwendete Begriff '''Beamforming network''' (BFN) steht demgegenüber für eine Schaltung, die das Strahlungsprofil einer Antenne einer beliebig gestalteten geometrischen Kontur anpasst (s. Kapitel ''Anwendungen''). 
+
+thumb|Mikrofonarray in einem [[Aeroakustik-Windkanal|aeroakustischen Windkanal (FKFS, Stuttgart)]] 
+
+== Messprinzip ==
+Das Messprinzip soll hier am Beispiel von akustischen Arrays erläutert werden. Es beruht darauf, dass das Mikrofonarray auf die verschiedenen Messpunkte auf dem Messobjekt "fokussiert" wird. Dies erfolgt durch eine der Laufzeit vom Messpunkt zum jeweiligen Mikrofon entsprechenden Zeitverschiebung der von diesem Mikrofon erfassten Signale. Die zeitkorrigierten Signale aller digitaler Filter gesteigert.
+
+500px|Funktionsprinzip eines Mikrofonarrays
+
+Der Frequenzbereich von Beamforming-Arrays wird nach unten durch die Array-Größe begrenzt: je größer das Array, desto niedriger seine Grenzfrequenz. Die obere Begrenzung des Frequenzbereichs erfolgt durch das zunehmende Auftreten von Schein-Schallquellen (Aliasen). Diese treten besonders bei regelmäßig angeordneten Mikrofonen auf und führen zu Fehlinterpretationen. Die Grenzfrequenz, oberhalb der diese Erscheinungen auftreten, ist um so höher, je kleiner der Abstand der Mikrofone zueinander ist.
+
+Meistens wird die Bedeutung der Schallquellen in einem Farbcode dargestellt und in ein konventionelles Videobild des Messobjektes eingeblendet. Auf diese Weise können die Positionen der Hauptschallquellen einfach erkannt werden. Auch frequenzselektive Darstellungen sind dabei möglich.

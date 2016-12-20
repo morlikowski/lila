@@ -1,0 +1,19 @@
+The '''Ferranti Mark I''' was the world's first successful commercially available general-purpose Z4, BINIAC was not intended to be a general purpose computer and it was never used for its intended purpose, and Z4 was electro-mechanical not electronic  </ref>, with the first machine being delivered in February 1951, just beating the UNIVAC I.
+
+The machine was built by University of Manchester by Freddie Williams and Tom Kilburn. The Manchester Mark I effectively served as a prototype for the Ferranti Mark I; the main improvements over it were in the size of the primary storage and secondary storage, a faster multiplier, and additional instructions.
+
+The Mark I used a 20-bit word that was stored as a single line of dots on a accumulator (A), the 40-bit "multiplicand/quotient register" (MQ) and eight "B-lines", or index registers, which was one of the unique features of the Mark I design. The accumulator could also be addressed as two 40-bit words. An extra 20-bit word per tube stored an offset value into the secondary storage. Secondary storage was provided in the form of a 512-page magnetic drum, storing two pages per track, with about 30 milliseconds revolution time. The drum provided eight times the storage of the original designed at Manchester.
+
+The instructions, like the Manchester machine, used a "single address" format in which operands were modified and left in the accumulator. There were about fifty instructions in total. The basic cycle time was 1.2 milliseconds, and a multiplication could be completed in the new parallel unit in about 2.16 milliseconds (about five times faster than the original). Several instructions were included to copy a word of memory from one of the Williams tubes to a paper tape machine, or read them back in. Several new instructions were added over the original Manchester design, including a random number instruction and several new instructions using the B-lines.
+
+The original Mark I had to be programmed by entering alphanumeric characters representing a 5-bit value that could be represented on the paper tape input. The engineers decided to use the simplest mapping between the paper holes and the binary digits they represented, but the mapping between the holes and the physical keyboard were never meant to be a binary mapping. As a result the characters representing the values from 0-31 (5-bit numbers) looked entirely random, specifically <tt>/E@A:SIU½DRJNFCKTZLWHYPQOBG"MXV£</tt>. Each instruction was represented by a single character, 
+
+The first machine was delivered to the University of Manchester. Ferranti had high hopes for further sales of the machine, and were happy when an order was placed by the Atomic Energy Research Establishment for delivery in autumn of 1952. However the government changed hands while the machine was being built, and all government contracts over ₤100,000 were cancelled outright. This left a partially completed Mark I sitting at Ferranti, and it was eventually purchased by the University of Toronto at "fire sale" prices. The UofT machine, nicknamed "FERUT", would go on to be widely used in business, engineering and academia.
+
+After the first two machines a revised version of the design began being delivered. This was known as the '''Ferranti Mark I*''' or the '''Ferranti Star'''. The revisions mainly cleaned up the Shell labs in Amsterdam.
+
+'''פרנטי סימן 1''' היה המחשב הרב תכליתי המסחרי השני בשוק, מלבד מחשב הZ4 הגרמני. המחשב הראשון היה בשוק החל מפברואר 1951.
+
+המחשב נבנה על ידי חברת פרנטי מאנגליה. הוא היה מבוסס על המנצ'סטר סימן 1, שתוכנן באוניברסיטת מנצ'סטר על ידי פרדריק קלנד וויליאמס וטום קילבורן. המנצ'סטר סימן 1 היה אבטיפוס  עבור הפרנטי סימן 1. השיפור שהציע הפרנטי היה בגודל יחידת האחסון הראשית והמשנית, במהירות יחידת הכופל ובתוספת פקודות נוספות על אלו שהציע המנצ'סטר סימן 1.
+
+לאחר ששני המחשבים הראשונים מדגם הפרנטי נשלחו (לאוניברסיטת מנצ'סטר ולסט הפקודות. לפחות שבעה מחשבים כאלה נשלחו החל משנת 1951 ועד לשנת 1957.

@@ -1,0 +1,134 @@
+{{Infobox CityIT
+ | official_name           = Comune di Bra
+ | img_coa                 = Bra-Stemma.png
+ | img_coa_small           = 
+ | region                  = 
+ | province                =  (CN)
+ | mayor                   = }
+ | mayor_party             = 
+ | elevation_footnotes     =
+ | elevation_m             = 285
+ | area_footnotes          =
+ | area_total_km2          = 59
+ | population_footnotes    =
+ | population_as_of        = 31-07-07
+ | population_total        = 29,169
+ | pop_density_footnotes   =
+ | population_density_km2  = 494
+ | coordinates             = 
+ | gentilic                = 
+ | telephone               = 0172
+ | postalcode              = 12042
+ | frazioni                = Pollenzo, San Matteo, San Michele, Bandito, Riva, Cà del bosco, Boschetto
+ | saint                   = Madonna dei Fiori
+ | day                     = 8 September
+ | mapx                    = 
+ | mapy                    = 
+ | locator_position        = 
+ | native_name             = Bra
+ | name                    =  Bra
+ | map                     = 
+ | website                 = http://www.comune.bra.cn.it/
+}} 
+'''Bra''' is a town and commune (population 29,169) of the Cuneo province in the north-west Italian region of Piedmont. It is situated 50 km south of Turin and 50 km north-east of Cuneo in the area known as Roero. Bra is home to the world's first University of Gastronomic Sciences.
+
+==Twin towns==
+*Spreitenbach, Switzerland
+*Weil der Stadt, Germany
+*San Sosti, Italy
+*Corral de Bustos - Ifflinger, Argentina
+
+Category:Cittaslow
+Category:Roero
+
+{{Infobox Ort in Italien|
+|nomeComune = Bra
+|linkStemma = Bra-Stemma.png
+|regione=Piemont
+|provincia=Cuneo
+|siglaRegione = PMN
+|siglaProvincia = CN
+|latitudineGradi = 44
+|latitudineMinuti = 42
+|latitudineSecondi = 0
+|longitudineGradi = 7
+|longitudineMinuti = 51
+|longitudineSecondi = 0
+|mappaX = 34
+|mappaY = 82
+|altitudine = 290
+|superficie = 59
+|abitanti = 29.191
+|anno = 31.&nbsp;August 2008
+|densita = 495
+|frazioni = Pollenzo, San Matteo, San Michele, Bandito, Riva, Cà del bosco
+|comuniLimitrofi = Cavallermaggiore, Cherasco, La Morra, Pocapaglia, Sanfrè, Santa Vittoria d'Alba, Verduno
+|cap = 12042
+|prefisso = 0172
+|istat = 004029
+|fiscale = B111
+|nomeAbitanti = ''Braidesi''
+|patrono = Madonna dei Fiori
+|festivo = 8. September
+|sito = [http://www.comune.bra.cn.it/ Bra]
+}}
+
+'''Bra''' ist eine Gemeinde mit 29.191 Einwohnern (Stand am 31.&nbsp;August 2008) in der italienischen Provinz Cuneo (CN), Region Piemont.
+
+Die Gemeinde besteht aus den Ortsteilen ''Pollenzo'','' San Matteo'','' San Michele'','' Bandito'' und ''Bra''.
+Die Nachbargemeinden sind Pocapaglia, Cherasco, Sanfrè, Cervere und Marene.
+Der Schutzpatron des Ortes ist die ''Madonna dei Fiori''.
+Die Postleitzahl lautet 12042.
+Die Telefonvorwahl lautet +39-0172.
+
+== Geographie ==
+Die Stadt liegt im Alba, 20 km südlich von Carmagnola und 50 km nord-östlich von der Provinzhauptstadt Cuneo entfernt auf einer Höhe von 290 m über dem Meeresspiegel.
+Das Gemeindegebiet umfasst eine Fläche von 59 km², die Einwohnerdichte beträgt circa 495 Einwohner/km².
+
+== Wirtschaft ==
+Die Käseindustrie ist ein bedeutender Industriezweig in Bra. Unter anderem wird der Bra-Käse hergestellt.
+Die italienische Slow Food-Bewegung wurde in Bra gegründet und ist dort auch stark vertreten, viele Unternehmen vermarkten ihre Produkte unter diesem Label. Alle zwei Jahre im September findet in Bra die internationale Käse-Messe ''Cheese'' statt.
+
+Die Stadt ist außerdem Mitglied der Cittàslow, einer 1999 ebenfalls in Bra gegründeten Bewegung zur Entschleunigung und Erhöhung der Lebensqualität in Städten.
+ 
+== Städtepartnerschaft ==
+
+Seit 1988 besteht eine Partnerschaft zwischen Bra und der Stadt schweizer Kanton Aargau.
+
+== Sport ==
+Am 9. Juni 1994 endete die 19. Etappe des Giro d'Italia in Bra, es siegte Massimo Ghirotto.
+
+== Bevölkerung ==
+=== Demographische Entwicklung ===
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.7)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:540 height:350
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:30000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:5000 start:0
+ScaleMinor = gridcolor:lightgrey increment:1000 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001

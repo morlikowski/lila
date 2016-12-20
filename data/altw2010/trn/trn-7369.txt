@@ -1,0 +1,23 @@
+''
+225px|right|thumb|A rat undergoing a Morris water maze test
+In neuroscience, the '''Morris water maze''' is a behavioral procedure designed to test spatial memories.
+
+==Overview==
+In the typical paradigm, a rat or mouse is placed into a small pool of water&mdash;back-end first to avoid stress, and facing the pool-side to avoid bias&mdash;which contains an escape platform hidden a few millimeters below the water surface. Visual cues, such as colored shapes, are placed around the pool in plain sight of the animal. 
+
+The pool is usually 4 to 6 feet in diameter and 2 feet deep. The pool can also be half-filled with water to 1 foot in depth.  A sidewall above the waterline prevents the rat from being distracted by laboratory activity.
+
+When released, the rat swims around the pool in search of an exit while various parameters are recorded, including the time spent in each quadrant of the pool, the time taken to reach the platform (latency), and total distance traveled. The rat's escape from the water reinforces its desire to quickly find the platform, and on subsequent trials (with the platform in the same position) the rat is able to locate the platform more rapidly. This improvement in performance occurs because the rat has learned where the hidden platform is located relative to the conspicuous visual cues. After enough practice, a capable rat can swim directly from any release point to the platform.
+
+==Pharmacological manipulation==
+Various drugs can be applied to test subjects before, during, or after maze training, which can reveal information about physical ability. For example rats treated with the APV perform poorly in the Morris water maze, suggesting that NMDA receptors play a role in physical ability [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=pubmed&dopt=Abstract&list_uids=1345945]. And since long-term potentiation -- a potential biological mechanism for physical ability -- also requires NMDA receptors, spatial learning may require LTP.
+
+Liang et al reported in 1994 that physical ability requires both NMDA and AMPA receptors, consolidation requires NMDA receptors [http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=pubmed&dopt=Abstract&list_uids=7796636].
+
+Das '''Morris-Wasserlabyrinth''' (Morris Water Maze) ist eine Versuchsapparatur zur Durchführung von Verhaltensexperimenten mit Nagetieren. 
+
+Sie besteht aus einem runden Becken, das mit trübem Wasser gefüllt und seitlich mit ausgeprägten Markierungen versehen ist, sog. externen Hinweisreizen. Im Experiment selbst  werden die Tiere über mehrere Tage hinweg trainiert, selbstständig eine unter der Wasseroberfläche befindliche, nicht sichtbare Plattform zu finden und sich deren räumliche Position zu merken. Das Experiment zielt also vor allem auf die Untersuchung des räumlichen Lernens der Tiere und der Einflüsse auf dieses.
+
+Der Vorteil des Paradigmas gegenüber herkömmlichen einfachen Labyrinthen im Tierexperiment besteht darin, dass es keine lokalen Landmarken gibt, sondern nur globale und dass die Aufgabe aufgrund des Fluchtverhaltens der Tiere einen hohoen Motivationsfaktor aufweist. 
+
+Die Bezeichnung Labyrinth ist im strengen Sinne übrigens falsch, da ein solches per Definition abgrenzbare Wege aufweist, was im Morris-Wasserlabyrinth offensichtlich nicht der Fall ist.

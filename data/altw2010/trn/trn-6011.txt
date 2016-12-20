@@ -1,0 +1,31 @@
+'''Token ring''' — «маркерное кольцо», архитектура кольцевой сети с маркерным (эстафетным) доступом.
+
+== Значения ==
+# Тип сети, в которой все кольцо. По кольцу от компьютера к компьютеру (станции сети) передается специальный блок данных, называемый '''маркером''' (). Когда какой-либо станции требуется передача данных, маркер ею модифицируется и больше не распознается другими станциями, как спецблок, пока не дойдёт до адресата. Адресат принимает данные и запускает новый маркер по кольцу. На случай потери маркера или хождения данных, адресат которых не находится, в сети присутствует машина со специальными полномочиями, умеющая удалять безадресные данные и запускать новый маркер.
+# Когда оба слова написаны с больших букв (''Token Ring''), имеется ввиду технология, разработанная компанией IBM или сеть стандарта IEEE 802.5
+
+'''Передача маркера''' 
+
+Token Ring и IEEE 802.5 являются главными примерами сетей с передачей маркера. Сети с передачей маркера перемещают вдоль сети небольшой блок данных, называемый маркером. Владение этим маркером гарантирует право передачи. Если узел, принимающий маркер, не имеет информации для отправки, он просто переправляет маркер к следующей конечной станции. Каждая станция может удерживать маркер в течение определенного максимального времени. 
+
+Данная технология предлагает вариант решения проблемы коллизий, которая возникает при работе 
+локальной сети. В технологии Ethernet, такие коллизии возникают при одновременной передаче информации несколькими рабочими станциями, находящимися в пределах одного сегмента, то есть использующих общий физический канал данных. 
+
+Если у станции, владеющей маркером, имеется информации для передачи, она захватывает маркер, изменяет у него один бит (в результате чего маркер превращается в последовательность "начало блока данных"), дополняет информацией, которую он хочет передать и, наконец, отсылает эту информацию к следующей станции кольцевой сети. Когда информационный блок циркулирует по кольцу, маркер в сети отсутствует (если только кольцо не обеспечивает "раннего освобождения маркера" - early token release), поэтому другие станции, желающие передать информацию, вынуждены ожидать. Следовательно, в сетях Token Ring не может быть коллизий. Если обеспечивается раннее высвобождение маркера, то новый маркер может быть выпущен после завершения передачи блока данных. 
+
+Информационный блок циркулирует по кольцу, пока не достигнет предполагаемой станции назначения, которая копирует информацию для дальнейшей обработки. Информационный блок продолжает циркулировать по кольцу; он окончательно удаляется после достижения станции, отославшей этот блок. Станция отправки может проверить вернувшийся блок, чтобы убедиться, что он был просмотрен и затем скопирован станцией назначения. 
+
+В отличие от сетей CSMA/CD (например, Ethernet) сети с передачей маркера являются детерминистическими сетями. Это означает, что можно вычислить максимальное время, которое пройдет,прежде чем любая конечная станция сможет передавать. Эта характеристика, а также некоторые характеристики надежности, которые будут рассмотрены дальше, делают сеть Token Ring идеальной для применений, где задержка должна быть предсказуема и важна устойчивость функционирования сети. Примерами таких применений является среда автоматизированных станций на заводах.
+
+L''''Anneau à jeton''', plus connu internationalement sous le terme de '''Token Ring''', est un protocole de réseau local qui fonctionne sur les couches ''Physique'' et ''Liaison'' du modèle OSI. Il utilise une trame spéciale de trois octets, appelée jeton, qui circule dans une seule direction autour d'un anneau. Les trames Token Ring parcourent l'anneau dans un sens qui est toujours le même.
+
+Le stations de travail. En contrepartie, on se créait des contraintes topologiques : l'Ethernet est concevable sur n'importe quel support, y compris en théorie par infrarouge sur un plafond blanc ; le token-ring ne peut fonctionner que sur une ''boucle''.
+Note : La première version de Token-ring permettait d'atteindre 4 Mbit/s.
+
+Une boucle typique de Token Ring pouvait faire 6 km.
+
+Le ''jeton'' matérialise le ''droit de transmettre''. Chaque station le passe (le ''répète'') sur l'anneau, à la station qui lui a été prédéfinie station suivante. Une station désirant transmettre le garde le temps nécessaire à transmettre une trame, puis envoie le jeton à la suite de cette trame pour indiquer que la voie est libre. Si une station tombe en panne, une interaction se fait afin de bloquer l'accès au jeton pour la station qui est en panne. Les LAN Token Ring utilisent habituellement le codage différentiel de Manchester des bits sur le médium.
+
+Un anneau de Token Ring était limité à 250 stations (et non 256 !), non pour des questions de numérotation binaire, mais en raison de considérations liées à la fréquence de transmission.
+
+IBM a popularisé l'emploi de réseaux Token Ring vers le milieu des années 1980, avec l'architecture IBM Token Ring basée sur des unités d'accès actives multi-station (MSAU ou MAU) et le Système de câblage structuré IBM. L'IEEE a plus tard standardisé le réseau Token Ring sous la référence IEEE 802.5.

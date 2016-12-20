@@ -1,0 +1,47 @@
+'''여진'''(餘震)은 큰 지진 후에 따라오는 작은 지진을 말한다. 여진(후충격)은 주 지진(충격)과 같은 영역내이지만 항상 진도가 작다. 여진이 본진보다 더 크면 여진은 주 지진으로 재인식되어야 하며  원래의 주 충격이  전진으로 재인식된다. 여진은 변형된 판경계가 스스로 적응되면서 형성되는 작은 지진이다.
+
+많은 과학자들은 전진을 다가오는 지진을 예측하는 데 사용하기를 바라고 있다. 특히 동태평양 해령 변환단층은 전진의 활동을 보인다. 과거 지진과 전진의 복습은 그들이 여진보다 작았고 대륙의 단층에 비해 높은 전진 율을 지녔다는 것을 보인다.
+
+여진은 오모리법칙을 따르는 패턴으로 발생한다. 오모리 법칙이나 개선된 오모리 법칙은 실험적인 관계식으로 여진 율의 순간적인 붕괴에 대한 것이다. 1894년 오모리는 지진의 여진에 관한 그의 작업을 발표하였다. 그는 여진의 빈도가 주지진후의 시간의 역수에 비례하여 줄어들었다고 주장하였다.
+
+<math>n(t) = \frac {K} {c+t}</math>
+
+여기서:
+
+* ''n(t)'' 는 특정시간 ''t''에 측정된 지진의 수 ''n''  
+* ''K'' 는 진폭
+* ''c'' 는 시간 옵셋 변수
+
+오모리법칙의 개선 버전은 이제 널리 사용되는데 이는 우쓰가 1961년 제안한 것이다.
+
+:''This article is about the geological event.  For other uses of the term see Aftershock (disambiguation).''
+thumb|250px
+An '''aftershock''' is an earthquake that occurs after a previous earthquake (the main shock). An aftershock is in the same region of the main shock  but is always of smaller magnitude strength. If an aftershock is larger than the main shock, the aftershock is redesignated as the main shock and the original main shock is redesignated as a '''foreshock'''.  Aftershocks are smaller earthquakes formed as the crust around the displaced fault plane adjusts to the effects of the main shock.
+
+==Distribution of aftershocks==
+thumb|250px
+Most aftershocks are located over the full area of fault rupture and either occur along the fault plane itself or along other faults within the volume affected by the strain associated with the main shock. Typically, aftershocks are found up to a distance equal to the rupture length away from the fault plane.
+
+The pattern of aftershocks helps confirm the size of area that slipped during the main shock. In the case of the 2004 Indian Ocean earthquake and the 2008 Sichuan earthquake the aftershock distribution shows that in both cases that the epicenter (where the rupture initiated) lies to one end of the final area of slip, implying strongly asymmetric rupture propagation.
+
+==Aftershock size and frequency with time==
+Aftershocks tend to obey a number of empirical laws concerning magnitude and frequency.
+
+===Omori's Law===
+Aftershocks occur with a pattern that follows Omori's law.<ref>F. Omori (1894) "On the aftershocks of earthquakes," ''Journal of the College of Science, Imperial University of Tokyo'', vol. 7, pages 111–200.</ref> Omori's law, or more correctly the modified Omori's law, is an empirical relation for the temporal decay of aftershock rates. In 1894, Omori published his work on the aftershocks of earthquakes, in which he stated that aftershock frequency decreases by roughly the reciprocal of time after the main shock.
+
+<math>n(t) = \frac {K} {c+t}</math>
+
+where:
+
+* ''n(t)'' is the number of earthquakes ''n'' measured in a certain time ''t'',
+* ''K'' is the amplitude, and
+* ''c'' is the "time offset" parameter.
+
+The modified version of Omori's law, now commonly used, was proposed by Utsu in 1961.<ref>Utsu, T. (1961) "A statistical study of the occurrence of aftershocks," ''Geophysical Magazine'', vol. 30, pages 521–605.</ref><ref>Utsu, T., Ogata, Y. ,and Matsu'ura, R.S. (1995) "The centenary of the Omori formula for a decay law of aftershock activity," ''Journal of Physics of the Earth'', vol. 43, pages 1–33.</ref>
+
+<math>n(t) = \frac {k} {(c+t)^p}</math>
+
+where
+
+* ''p'' modifies the decay rate and typically falls in the range 0.7–1.5.

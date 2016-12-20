@@ -1,0 +1,98 @@
+<!-- Für Informationen zum Umgang mit dieser Tabelle siehe bitte Wikipedia:Taxoboxen. -->
+{{Taxobox
+| Taxon_WissName   = Euarchonta
+| Taxon_Rang       = ohne Rang
+| Taxon2_WissName  = Euarchontoglires
+| Taxon2_Rang      = Überordnung
+| Taxon3_Name      = Höhere Säugetiere
+| Taxon3_WissName  = Eutheria
+| Taxon3_Rang      = Unterklasse
+| Taxon4_Name      = Säugetiere
+| Taxon4_WissName  = Mammalia
+| Taxon4_Rang      = Klasse
+| Taxon5_Name      = Landwirbeltiere
+| Taxon5_WissName  = Tetrapoda
+| Taxon5_Rang      = Reihe
+| Bild             = Saimiri sciureus-1 Luc Viatour.jpg
+| Bildbeschreibung = Gewöhnlicher Totenkopfaffe (''Saimiri sciureus'')
+| Subtaxa_Rang     = Ordnung
+| Subtaxa          =
+* Spitzhörnchen (Scandentia)
+* Riesengleiter (Dermoptera) 
+* Primaten (Primates) 
+}}
+Als '''Euarchonta''' (gr. ευ „gut, echt“; άρχοντ „Herrscher“; vgl. genetischer Untersuchungen aufgestellt, indem man aus der zuvor anhand morphologischer Kriterien postulierten Gruppe der Schwestertaxon der Primaten zu den Euarchonta gestellt.
+
+Die momentane Datenlage lässt anhand der Molekularen Uhr extrapolieren, dass die Euarchonta in der Kreidezeit vor etwa 88 Millionen Jahren entstanden sind und sich bereits vor 86,2 Millionen Jahren in die Gruppen der Spitzhörnchen und der Primatomorpha aufspalteten. Letztere teilte sich vor 79,6 Millionen Jahren in die Ordnungen der Primaten und der Riesengleiter.<ref>Jan E. Janecka, Webb Miller, Thomas H. Pringle, Frank Wiens, Annette Zitzmann, Kristofer M. Helgen, Mark S. Springer und William J. Murphy: ''Molecular and Genomic Data Identify the Closest Living Relative of Primates.'' In: ''Science.'' 318. 2007, 792-794 ([http://www.bx.psu.edu/miller_lab/dist/flying_lemur.pdf PDF] 384 KB)</ref>
+
+== Systematik ==
+Der gegenwärtige (2007) wissenschaftliche Kenntnisstand über die Verwandtschaftsverhältnisse ist in diesem Kladogramm wiedergegeben.
+ '''Euarchonta'''
+ ├──Spitzhörnchen (Scandentia)
+ └──Primatomorpha
+    ├──Riesengleiter (Dermoptera)
+    └──N.n.
+       ├──† Plesiadapiformes
+       └──Primaten (Primates)
+
+== Quellen ==
+* Jan Ole Kriegs, Gennady Churakov, Jerzy Jurka, Jürgen Brosius und Jürgen Schmitz: ''Evolutionary history of 7SL RNA-derived SINEs in Supraprimates.'' In: ''Trends in Genetics.'' 23 (4). 2007, 158-161 ([http://zmbe2.uni-muenster.de/expath/articles/31_Kriegs_TiG.pdf Onlinetext als PDF]) (468 KB)
+=== Einzelnachweise ===
+<references/>
+
+{{Tassobox
+|colore= pink
+|nome= Euarconti
+|statocons= 
+|immagine=280px
+|didascalia=''Euarchonta''
+<!-- CLASSIFICAZIONE -->
+|dominio=Eukaryota
+|regno= Animalia
+|sottoregno=Eumetazoa Bilateria
+|superphylum=Deuterostomia
+|phylum= Chordata
+|subphylum=Vertebrata
+|infraphylum=Gnathostomata
+| microphylum=
+| nanophylum=
+|superclasse=Tetrapoda
+|classe=Mammalia
+|sottoclasse= Theria
+|infraclasse = Eutheria
+|superordine=Euarchontoglires
+<!-- ALTRO -->
+|sinonimi=
+|nomicomuni=
+|suddivisione= Ordini
+|suddivisione_testo=
+*Plesiadapiformes †
+*Dermoptera
+*Scandentia
+*Primates
+}}
+
+'''Euarchonta''' è un mammiferi euplacentati: i Scandenti (tupaie), gli estinti Plesiadapiformi ed i Primati (proscimmie, scimmie, scimmie antropomorfe e l'uomo). 
+
+Questo termine (dal greco: "veri progenitori") apparve per la prima volta nella letteratura scientifica nel 1999, quando dati bio-molecolari suggerirono che  il clade Chirotteri. Ulteriori analisi sulle sequenze del mitocondriale portano all'elaborazione di un differente presenza/assenza dei retrotrasposoni rafforzano l'ipotesi Euarchonta (Kriegs et al., 2007). Infine, i dati morfologici, uniti ad una critica sulla reale validità dei dati molecolari, portano ad una continua discussione sull'esclusione dei pipistrelli da Archonta. In particolare, alcuni ricercatori credono che i chirotteri siano difiletici, e che alcuni di essi, i Megachirotteri, siano affini ai Primati (Teoria dei primati volanti).
+
+Nella classificazione qui adottata, Euarchonta e Glires formano insieme il clade Euarchontoglires, uno dei quattro superordini in cui vengono suddivisi i mammiferi euplacentati:
+
+{{Clade
+| label1=Euarchontoglires
+| 1={{Clade
+  | label1=Glires
+  | 1={{Clade
+     | 1=Rodentia 
+     | 2=Lagomorpha }}
+  | label2=Euarchonta
+  | 2={{Clade
+     | 1=Scandentia 
+     | 2={{Clade
+        | 1=Dermoptera 
+        | 2={{Clade
+           | 1=Plesiadapiformes†
+           | 2=Primates}} }} }} }}
+}}
+
+==Bibliografia==

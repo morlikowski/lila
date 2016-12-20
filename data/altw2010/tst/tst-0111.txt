@@ -1,0 +1,74 @@
+La '''Hsp27''' ou '''Heat Shock Protein 27''' est une petite protéine de stress constituée de 205 acides aminés. Elle est codée par un gène localisé sur le chromosome 7.
+
+{|align="right" class="wikitable" | class="wikitable" style="background-color:#edffd9" | class="wikitable" width="35%" |
+
+|'''Symbole'''
+|'''HSPB1''' 
+ 
+|-
+|'''Entrez'''
+|3315 [http://www.ncbi.nlm.nih.gov/sites/entrez?db=gene&cmd=retrieve&dopt=default&list_uids=3315&rn=1]
+|-
+|'''Refseq'''
+|NP_001531 [http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=NP_001531]
+|-
+|'''Uniprot'''
+|P04792 [http://ca.expasy.org/uniprot/P04792]
+|-
+|'''OMIM'''
+|602195 [http://www.ncbi.nlm.nih.gov/entrez/dispomim.cgi?id=602195]
+|}
+
+== Généralités ==
+Les protéines de (1) On a chauffé les cellules des glandes salivaires de la drosophile  et on s'est rendu compte de la  présence de nouvelles protéines. Ces dernières ont été identifiées en 1974 comme étant les protéines du choc thermique.
+
+Ces protéines sont classées selon leur poids moléculaire et se situent dans des compartiments cellulaires spécifiques.(4) Présentant un groupe de protéines très conservées au-cours de l'évolution et à travers les espèces, on les retrouve aussi bien chez les cellules.
+
+Plusieurs HSPs vont être exprimées de façon constitutive dans les cellules, alors que d'autres seront induites par des situations de stress pathologiques (infections, inflammations, fièvre, cancer,...), physiologiques (cycle cellulaire, différenciation cellulaire,...) ou environnementales (choc thermique,antibiotiques,irradiation UV,...) . (4)
+
+Les protéines de stress agissent comme des protéines chaperonnes.(4) Elles ont la capacité de réparer d'autres protéines ou de les aider dans leur maturation pour leur permettre un repliement tridimensionnel correct. 
+
+Les HSPs ont également un rôle anti-apoptotique.
+
+== Description de la protéine ==
+Hsp27 est une importante petite protéine de stress qu'on retrouve dans presque toutes les cellules et dans les tissus des mammifères. Contrairement aux protéines de stress de haut poids moléculaire, Hsp27 est moins conservée entre les espèces.Toutefois, on retrouve un domaine hautement conservé dans la séquence de toutes les HSPs qui est le domaine α-crystallin. Ce dernier montre une homologie avec les protéines α-crystallines.(7)
+thumb|left|300px|Homologie avec la protéine α-crystalline
+
+La protéine Hsp27 possède un poids moléculaire de 27 kDa, d'où son nom Hsp27. Elle est présente dans les cellules sous forme d'agrégats (200 à 800 kDa) lorsqu'elle est à l'état natif. 
+
+Sa phosphorylation, au niveau de 3 sites sérines: la sérine 15, la sérine 78 et la sérine 82, qui lui permet de former des structures oligomériques, est stimulée dans plusieurs types cellulaires (kératinocytes, fibroblastes, plaquettes,...) en réponse à différents agents (ex: le choc thermique, le facteur nécrosant tunoral: le TNF, l'Interleukine-1alpha, PDGF, ...). La protéine Hsp27 est aussi phosphorylée par la MPK2 (Mapkap Kinase 2). Cet état de phosphorylation fait que la protéine se présente dans les cellules sous plusieurs isoformes.
+
+== Localisation ==
+Majoritairement, la Hsp27 est exprimée dans les tissus épithéliaux: au niveau de la (3)
+Plus faiblement, on retrouve la HSP27 au niveau : du rein, des muscles lisses et striés, du cœur, et du sang.
+La Hsp27 est localisée dans la cellule dépendamment du type de stress, de son intensité ainsi que de l'état métabolique de la cellule. En absence de stress, HSP27 est localisée dans la zone périnucléaire (noyau)et en présence d'un stress, la protéine se concentre dans le noyau sous forme d'agrégats de plus de 1000KDa.
+
+== Rôles biologiques ==
+thumb|right|250px|Processus de phosphorylation et rôles de la protéine dans la cellule
+- Lorsque la protéine Hsp27 est sous forme monomérique non phosphorylée, elle va se lier à l'extrémité (+) des filaments d'(2) Grâce à sa phosphorylation, la Hsp27 préserve donc l'intégrité de la cellule et la protège de toute agression.
+
+- Une fonction thermoprotectrice est liée à la protéine Hsp27.(3) Le choc thermique peut affecter la morphologie membranaire entrainant un dysfonctionnement de la membrane cellulaire (agrégation des protéines membranaires ou transmembranaires, modification de l'activité des récepteurs ou des protéines de transport, augmentation de la fluidité de la bicouche lipidique,...). Ce changement de température va entrainer la synthèse des HSPs dont la HSP27 qui viendra réparer les protéines altérées ou dénaturées.
+
+- La Hsp27 possède une activité anti-apoptotique.(4)(5) Elle a une activité inhibitrice sur le cytochrome C (une fois sorti de la mitochondrie) ce qui empêchera la formation de l'apoptosome responsable de l'activation des caspases. La Hsp27 va s'associer à la protéine AKT entrainant son activation, ce qui va induire la survie cellulaire. Également, la Hsp27 phosphorylée va s'associer à DAXX empêchant cette dernière d'induire l'apoptose. 
+Associée à d'autres protéines de stress, la Hsp27 va entrainer l'activation du protéasome ce qui renforce la voie NF-kB, donc la survie cellulaire.
+
+'''Hsp27''' is a chaperone of the cell differentiation. They also take part in signal transduction.
+
+==Structure of sHsps==
+sHsps have some structural features in common: Very characteristic is a homologous and highly conserved amino acid sequence, the so-called α-crystallin-domain at the β-sheets, which are important for the formation of stable dimers.<ref name=kim>Kim KK, Kim R, Kim S. Crystal structure of a small heat shock protein. ''Nature''. '''394'''(6693):595-9. 1998.</ref><ref name=vanmonfort>Van Montfort R, Slingsby C, Vierling E. Structure and function of the small heat shock protein/alpha-crystallin family of molecular chaperones. ''Adv Protein Chem''. '''59''':105-56. 2001.</ref>
+
+The N-terminus consists of a less conserved region, the so-called WD/EPF domain, followed by a short variable sequence with a rather conservative site near the C-terminus of this domain. The C-terminal part of the sHsps consists of the above mentioned α-crystallin domain, followed by a variable sequence with high motility and flexibility.<ref name=gusev>Gusev NB, Bogatcheva NV, Marston SB. Structure and properties of small heat shock proteins (sHsp) and their interaction with cytoskeleton proteins. ''Biochemistry (Mosc)''. '''67(5)''':511-9. 2002.</ref>
+
+This C-terminal tail appears in many mammalian sHsps (e.g. mouse Hsp25, αA-crystallin) and has no homology. It is highly flexible and polar because of its negative charges.<ref name=liao>Liao JH, Lee JS, Chiou SH. C-terminal lysine truncation increases thermostability and enhances chaperone-like function of porcine αB-crystallin. ''Biochem Biophys Res Commun''. '''297(2)''':309-16. 2002.</ref> Probably it functions as a mediator of solubility for hydrophobic sHsps and it stabilizes the protein and protein/substrate complexes. This was shown by elimination of the C-terminal tail in Hsp27Δ182-205 <ref name=lelj>Lelj-Garolla B, Mauk AG. Self-association of a small heat shock protein. ''J Mol Biol''. '''345(3)''':631-42. 2005.</ref> and in Hsp25Δ18.<ref name=lindner>Lindner RA, Carver JA, Ehrnsperger M, Buchner J, Esposito G, Behlke J, Lutsch G, Kotlyarov A, Gaestel M. Mouse Hsp25, a small shock protein. The role of its C-terminal extension in oligomerization and chaperone action. ''Eur J Biochem''. '''267(7)''':1923-32. 2000.</ref>
+
+==Oligomerization==
+The N-terminus with its WD/EPF-region is essential for the development of high molecular oligomers,<ref name=haslbeck>Haslbeck M. sHsps and their role in the chaperone network. ''Cell Mol Life Sci''. '''59(10)''':1649-57. 2002.</ref><ref name=theriault>Theriault JR, Lambert H, Chavez-Zobel AT, Charest G, Lavigne P, Landry J. Essential role of the NH2-terminal WD/EPF motif in the phosphorylation-activated protective function of mammalian Hsp27. ''J Biol Chem''. '''279(22)''':23463-71. 2004.</ref> which exclusively have chaperone activity ''in vitro''. Hsp27-oligomers probably consist of stable dimers, which are formed by two α-crystallin-domains of neighbouring monomers,<ref name=gusev/> which was shown with the proteins MjHSP16.5 from [http://microbewiki.kenyon.edu/mediawiki-1.6.6/index.php/Methanococcus Methanocaldococcus jannaschii]<ref name=kim/> and wheat Hsp16.9.<ref name=vanmonfort/> The stable dimers aggregate to tetramers and finally form unstable oligomers.
+
+The oligomerization of Hsp27 is a dynamic process: There is a balance between stable dimers respectively tetramers and instable oligomers (up to 800 kDa) consisting of 16 to 32 subunits and a high exchange rate of subunits.<ref name=theriault/><ref name=ehrnsperger>Ehrnsperger M, Lilie H, Gaestel M, Buchner J. The dynamics of Hsp25 quaternary structure. Structure and function of different oligomeric species. ''J Biol Chem''. '''274(21)''':14867-74. 1999.</ref><ref name=rogalla>Rogalla T, Ehrnsperger M, Preville X, Kotlyarov A, Lutsch G, Ducasse C, Paul C, Wieske M, Arrigo AP, Buchner J, Gaestel M. Regulation of Hsp27 oligomerization, chaperone function, and protective activity against oxidative stress/tumor necrosis factor alpha by phosphorylation. ''J Biol Chem''. '''274(27)''':18947-56. 1999.</ref> The oligomerization depends on the physiology of the cells, the expression (after hours) and phosphorylation (after several minutes) of Hsp27. Stimulation of the p38 IL-1β, hydrogen peroxide and other oxidants,<ref name=garrido>Garrido C. Size matters: of the small HSP27 and its large oligomers. ''Cell Death Differ''. '''9(5)''':483-5. 2002.</ref> leads to the activation of MAPKAP kinases 2 and 3 which directly phosphorylate mammalian sHsps.<ref name=rogalla/> The phosphorylation plays an important role for the formation of oligomers in exponentially growing cells ''in vitro'', but the oligomerization in tumor cells growing ''in vivo'' or growing at confluence ''in vitro'' is dependent on cell-cell contact, but not on the phosphorylation status.<ref name=bruey>Bruey JM, Paul C, Fromentin A, Hilpert S, Arrigo AP, Solary E, Garrido C. Differential regulation of HSP27 oligomerization in tumor cells grown in vitro and in vivo. ''Oncogene''. '''19(42)''':4855-63. 2000.</ref>
+
+In all probability, the oligomerization status is connected with the chaperone activity: aggregates of large oligomers have high chaperone activity, whereas dimers have no chaperone activity.<ref name=gusev/> Therefore it is clear, that a formation of large aggregates takes place under heat shock.<ref name=ehrnsperger/>
+
+==Cellular Localization==
+Hsp27 appears in many nucleus. It is overexpressed during different stages of cell differentiation and development. Probably it is essential for development in general: knock-out mice do not survive.
+
+An affinity of high expression levels of different phosphorylated Hsp27 species and muscle/neurodegenerative diseases and various cancers was observed.<ref name=sarto>Sarto C, Binz PA, Mocarelli P. Heat shock proteins in human cancer. ''Electrophoresis''. '''21(6)''':1218-26. 2000.</ref> High expression levels possibly are in inverse relation with cell proliferation, metastasis, and resistance to chemotherapy.<ref name=vargas>Vargas-Roig LM, Fanelli MA, Lopez LA, Gago FE, Tello O, Aznar JC, Ciocca DR. Heat shock proteins and cell proliferation in human breast cancer biopsy samples. ''Cancer Detect Prev''. '''21(5)''':441-51. 1997.</ref> High levels of Hsp27 were also found in sera of breast cancer patients <ref name=rui>Rui Z, Jian-Guo J, Yuan-Peng T, Hai P, Bing-Gen R. Use of serological proteomic methods to find biomarkers associated with breast cancer. ''Proteomics''. '''3(4)''':433-9. 2003.</ref>; therefore Hsp27 could be a potential diagnostical marker.

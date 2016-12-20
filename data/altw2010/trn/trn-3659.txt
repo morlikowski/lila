@@ -1,0 +1,133 @@
+<!-- Il testo commentato è SOLO UN ESEMPIO -->
+{{Comune
+|nomeComune = Ostiglia
+|linkStemma = Ostiglia-Stemma.png
+|siglaRegione = LOM
+|siglaProvincia = MN
+|latitudineGradi = 45
+|latitudineMinuti = 4
+|latitudineSecondi = 0
+|longitudineGradi = 11
+|longitudineMinuti = 8
+|longitudineSecondi = 0
+|mappaX = 113
+|mappaY = 70
+|altitudine = 13
+|superficie = 39
+|abitanti = 7.074
+|anno = 31-12-04
+|densita = 185
+|frazioni = Calandre, Correggioli, Comuna Bellis, Comuna Santuario, Ponte Molino
+|comuniLimitrofi = Borgofranco sul Po, Casaleone (VR), Cerea (VR), Gazzo Veronese (VR), Melara (RO), Revere, Serravalle a Po
+|cap = 46035
+|prefisso = 0386
+|istat = 020038
+|fiscale = G186
+|nomeAbitanti = Ostigliesi
+|patrono =  San Lorenzo
+|festivo =  10 agosto
+|sito = http://www.comune.ostiglia.mn.it/
+}} <!-- fine della tabella - per la compilazione vedi -> Aiuto:Comune -->
+'''Ostiglia''' è un comune di 7.201 abitanti della provincia di Mantova.
+
+== Storia ==
+Fondata prima della nascita di Cristo, rappresentò certamente un punto importante per gli scambi commerciali diretti verso Verona e i territori Germanici. Vi nacque Cornelio Nepote.
+Nel V secolo fu sede di una specie di corrieri denominati "Dromonarii" il cui compito era di trasportare derrate a Verona allora capitale del regno dei Goti. Sotto il regno di Teodorico, infatti, i Goti giunsero fino ad Ostiglia.<br />
+
+Sembra accertato che anche i Longobardi, nel 600, siano calati ad Ostiglia.
+La Repubblica di Verona comprese che Ostiglia poteva diventare una eccellente difesa dei propri possedimenti. Nel 1151 vi fece costruire un castello lungo le rive del Po essendo quella la migliore posizione per difendersi verso Serravalle, Revere e Melara.<br />
+
+Ostiglia fu una delle località interessate dalle vicende umane e storiche che si svolsero tra il XI secolo e il XIII secolo e dalle numerose proprietà che videro protagonisti i vari componenti della famiglia degli Ezzelini. Proprietà che furono certosinamente accertate, censite e documentate dopo la loro definitiva sconfitta avvenuta nel 1260.
+  
+Nel 1308 Ostiglia era sotto il dominio degli Scaligeri, nel 1381 dei Visconti, nel 1391 dei Gonzaga. <br />
+Caduti i Gonzaga, nel Lorena nella persona dell'imperatore austriaca Ostiglia perdette tutta la sua importanza strategica ed infatti l'imperatore Carlo VI, nel 1717 ordinava la demolizione del suo castello per utilizzare i materiali nelle fortificazioni di Mantova. <br />
+
+Nel 1797 passò a far parte della Repubblica Cisalpina voluta da Napoleone I e cessò di essere capoluogo di distretto per diventare cantone del distretto di Mantova. Caduto Napoleone I nel 1814, Ostiglia tornò, sotto la dominazione austriaca, a far parte del Regno Lombardo-Veneto diventando ancora capoluogo di distretto.<br />
+
+Coi trattati di pace di Praga (23 agosto) e di Vienna (3 ottobre 1866) tanto Verona quanto Mantova (di cui Ostiglia faceva parte) passarono al Regno d'Italia. Già a Mantova sventolava il tricolore che in Ostiglia permanevano ancora gli Austriaci, e così gli abitanti, circondata la gendarmeria, costrinsero gli austriaci ad andarsene. In tal modo Ostiglia fu completamente libera dalla dominazione austriaca e passò a far parte del Regno d'Italia.
+
+==Evoluzione demografica==
+
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = Ostiglia |
+  name = Ostiglia |
+  region = Lombardy |
+  province = Province of Mantua (MN) |
+  elevation_m = 13 |
+  area_total_km2   = 39.7 |
+  population_as_of  = Dec. 2004 |
+  population_total = 7074 |
+  population_density_km2 = 178 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          = Calandre, Correggioli, Comuna Bellis, Comuna Santuario, Ponte Molino |
+  telephone         = 0386 |
+  postalcode        = 46035 |
+  gentilic          = ostigliesi |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           = [http://www.comune.ostiglia.mn.it/ www.comune.ostiglia.mn.it/] |
+  mapy = 11.1333 |
+  mapx = 45.0667 |
+}}
+'''Ostiglia''' is a ''Italian region Lombardy, located about 160 km southeast of Milan and about 30 km southeast of Mantua. As of 31 December 2004, it had a population of 7,074 and an area of 39.7 km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+The municipality of Ostiglia contains the ''frazioni'' (subdivisions, mainly villages and hamlets) Calandre, Correggioli, Comuna Bellis, Comuna Santuario, and Ponte Molino.
+
+Ostiglia borders the following municipalities: Revere, Serravalle a Po.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:11000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:2000 start:0
+ScaleMinor = gridcolor:lightgrey increment:500 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:0
+  bar:1871 from: 0 till:6831
+  bar:1881 from: 0 till:7041
+  bar:1901 from: 0 till:7231
+  bar:1911 from: 0 till:8689
+  bar:1921 from: 0 till:8958
+  bar:1931 from: 0 till:8865
+  bar:1936 from: 0 till:9203
+  bar:1951 from: 0 till:10003
+  bar:1961 from: 0 till:8724
+  bar:1971 from: 0 till:8177
+  bar:1981 from: 0 till:7771
+  bar:1991 from: 0 till:7316
+  bar:2001 from: 0 till:7210
+
+PlotData=

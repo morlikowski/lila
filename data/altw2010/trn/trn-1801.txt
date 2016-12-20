@@ -1,0 +1,52 @@
+thumb|right|200px|Ossido di etilene (Ossirano)Un epossido è un etere ciclico in cui l'ossigeno è uno degli atomi di un anello a tre termini.
+Vengono classificati, per ovvie ragioni, come eteri, ma a differenza di essi presentano una reattività del tutto eccezionale e delle sintesi differenti.
+
+La reattività degli epossidi è causata dalla tensione angolare dell'anello a tre termini. Infatti l'ibridizzazione sp<sup>3</sup> presuppone angoli di legame di 109°, contro i 60° formati dagli epossidi. Questo porta ad una facile apertura dell'anello.
+
+==Nomenclatura==
+Gli epossidi più semplici vengono nomenclati come derivati dell'ossido di etilene, che è l'epossido base. Se l'epossido fa parte di un altro sistema ciclico si utilizza il prefisso epossi-.
+I nomi comuni sono ottenuti dall'alchene di partenza seguito da ''ossido'' o preceduto da ''ossido di''.
+
+==Sintesi==
+*'''Ossidazione di alcheni:'''
+Si utilizzano acidi perossicarbossilici, ovvero acidi carbossilici di formula -COOOH anziché -COOH. È il metodo di maggior impiego nelle sintesi fatte in laboratorio.
+         <sub>RCOOOH</sub>
+ R-CH=CH<sub>2</sub> ---> R-CH--CH<sub>2</sub>
+                  \ /
+                   O 
+
+*'''Sostituzione nucleofila interna delle aloidrine:'''
+      X
+      |
+ R-CH-CH<sub>2</sub> + NaOH + H<sub>2</sub>O --> R-CH--CH<sub>2</sub> + NaX + H<sub>2</sub>O
+   |                          \ /
+   OH                          O
+In questa reazione X può essere un atomo di cloro o un atomo di bromo; in alternativa ad NaOH è anche possibile utilizzare K<sub>2</sub>CO<sub>3</sub>
+
+*'''Sintesi dell'ossido di etilene:'''
+               <sub>Ag</sub>
+ 2CH<sub>2</sub>=CH<sub>2</sub> + O<sub>2</sub> --> CH<sub>2</sub>-CH<sub>2</sub>
+                    \ /
+                     O
+Questa sintesi non funziona con altri alcheni, però è l'unica ad essere stata portata su scala industriale. 
+
+==Reazioni==
+*'''Apertura dell'anello per reazione con nucleofili:'''
+ R-CH-CH<sub>2</sub> + CH<sub>3</sub>O<sup>-</sup>Na<sup>+</sup> --> R-CH-CH<sub>2</sub>-OCH<sub>3</sub>
+    \ /                    |
+     O                     O<sup>-</sup>Na<sup>+</sup>
+Si tratta, più precisamente, di una reazione di sostituzione nucleofila 2 interna alla molecola.
+
+thumb|最も簡単なエポキシドであるエポキシエタン（酸化エチレン）の構造式
+'''エポキシド''' (epoxide) は3員環のエーテルであるオキサシクロプロパン（オキシラン）を構造式中に持つ化合物の総称で、最も単純なものはエポキシエタンである。置換基として見る場合は'''エポキシ基'''と呼ばれる。化学工業、有機合成化学の分野において中間体として重要である。
+
+==合成==
+多くの場合、過酸化物などによってオレフィンを酸化することで合成される。酸化剤として、実験室レベルではmCPBA、オキソン、金属のオキソ錯体、過酸化水素などが利用される。
+
+250px|center|過カルボン酸によるオレフィンのエポキシ化
+
+1,2-ハロヒドリンからの分子内ウィリアムソン合成も、エポキシドを得る有力な手法である。
+
+500px|center|ウィリアムソン合成によるエポキシド合成
+
+キラルなエポキシドは中間体として重要であるため、各種の不斉酸化反応が発表されている。バリー・シャープレスらによるシャープレス酸化が有名であるが、その弟子であるエリック・ジェイコブセンもサレン錯体を用いる方法を発表している。また糖などから誘導したケトンを触媒とし、オキソンを用いて酸化する手法も近年進歩が著しい。

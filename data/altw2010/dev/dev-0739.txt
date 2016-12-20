@@ -1,0 +1,88 @@
+'''Netsukuku''' è il nome di un sistema di routing sperimentale di tipo laboratorio FreakNet, nato per costruire una rete distribuita, anonima e anarchica, non necessariamente separata da ISP e di alcuna autorità centrale. 	 
+
+== Idea di base ==			
+Netsukuku nasce dall'idea di creare una rete pura, che sfrutta il caos, si crea e si mantiene autonomamente, e sopravvive adattandosi alle mutazioni delle connessioni in rete, come un frattale. L'unione degli algoritmi di gestione di una rete pura con algoritmi frattali e le teorie matematiche sul caos è una delle caratteristiche che permette a Netsukuku di poter creare una rete diffusa e distribuita, non centralizzata, anonima, anarchica, non controllabile, ed autonoma. Scopo di Netsukuku è far sì che chiunque, in qualunque luogo e in qualsiasi momento possa agganciarsi immediatamente alla rete senza dover passare attraverso adempimenti burocratici o contrattuali. L'indirizzo IP che identifica un computer è scelto casualmente ed in modo univoco (eventuali collisioni vengono risolte), quindi non è associabile ad una località fisica precisa, e le stesse rotte, essendo formate da un numero innumerevole di nodi, tendono ad avere una complessità e densità talmente elevata da rendere il tracciamento di un nodo un'impresa estremamente complicata. La velocità del trasferimento dei dati è limitata unicamente dalla tecnologia attuale delle schede o dispositivi di rete. 	
+ 
+== Funzionamento ==
+In una rete di tipo peer-to-peer ogni nodo agisce da teorie del caos per evitare un consumo elevato di potenza di calcolo, ed algoritmi frattali per mantenere la mappa dell'intera rete constantemente sotto i 2 DNS, è nato l'Abnormal Netsukuku Domain Name Anarchy, un sistema distribuito, non gerarchico e decentralizzato, di gestione degli indirizzi della rete che sostituisce appunto il DNS. Il tutto gira sotto sistema operativo GNU/Linux ed è rilasciato sotto licenza GNU GPL. Netsukuku non è mai stata testata su larga scala (10.000 nodi o più).
+
+Gli Internet Service Provider di Internet offrono connettività chiedendo, in cambio, un contributo economico; questo impedisce a chi non ha risorse economiche sufficienti la possibilità di connettersi alla rete e di comunicare tramite i suoi servizi. Gli ISP forniscono i loro servizi in base a principi di profitto, secondo regole e contratti personalizzati, i quali solitamente non tengono conto delle disponibilità di coloro che non possono permettersi di pagare la connessione. La struttura gerarchica e centralizzata di Internet crea, come conseguenza, altri sistemi identici, che poggiano su di essa, come ad esempio il DNS; i nomi di dominio vengono infatti venduti. La stessa struttura permette di localizzare fisicamente qualsiasi computer connesso ad Internet, con conseguenze notevoli sulla privacy dei singoli nodi.
+
+Quando un nodo si aggancia a Netsukuku, la rete si auto-assesta e tutti gli altri nodi vengono a conoscere le rotte più veloci ed efficienti per comunicare con il nuovo arrivato. I nodi non hanno privilegi o limitazioni rispetto ad altri nodi, fanno parte della rete e contribuiscono alla sua espansione ed efficienza, essendo tutti uguali. Con l'aumentare del loro numero, la rete cresce, muta forma e le rotte si perfezionano. In Netsukuku non vi è alcuna differenza tra reti private e pubbliche e non ha più alcun significato parlare di LAN. Una rete basata su Netsukuku non può essere controllata né distrutta poiché è totalmente decentralizzata e distribuita. L'unico modo per sorvegliare o smantellare una rete basata su Netsukuku è rimuovere fisicamente ogni singolo nodo che la compone. In essa si possono implementare effettivi sistemi distribuiti, come ad esempio l'Abnormal Netsukuku Domain Name Anarchy (ANDNA), che sostituisce in Netsukuku il tradizionale sistema dei DNS.
+
+Il protocollo di rete per il routing dinamico di Netsukuku è chiamato OSPF, il RIP od il BGP, ed usano diversi algoritmi per trovare il percorso migliore per raggiungere un nodo in una rete. Questi protocolli richiedono un consumo di memoria rilevante, ed è per questo motivo che i router di Internet sono spesso dei computer appositamente dedicati. Sarebbe impossibile adottare uno di questi protocolli per creare e mantenere una rete come Netsukuku, dove ogni nodo è a sua volta un router, poiché la mappa di tutte le rotte richiederebbe uno spazio di circa un centinaio di Gigabyte su ciascun calcolatore connesso alla rete. L'Npv7 struttura l'intera rete come un frattale, ed usa un particolare algoritmo chiamato Quantum Shortest Path Netsukuku (QSPN) per calcolare tutte le rotte necessarie a collegare un nodo ad ogni altro nodo.
+
+Un frattale è una struttura matematica che si può comprimere all'infinito, proprio perché, al suo interno, ogni sua parte è formata dal frattale stesso; il QSPN sfrutta un algoritmo di tipo frattale per cui si ha una compressione elevata di una struttura che può espandersi infinitamente. Il risultato tecnico è che bastano pochi Kb per mantenere l'intera mappa di Netsukuku su ogni nodo. Il QSPN, invece, è un meta-algoritmo perché non esegue una sequenza di istruzioni matematiche definite ma sfrutta la casualità e le teorie del caos, e non richiedono nessun tipo di calcolo.
+
+=== Abnormal Netsukuku Domain Name Anarchy ===
+L''''Abnormal Netsukuku Domain Name Anarchy''' ('''ANDNA''') è un sistema di assegnamento e gestione dei nomi distribuito, non gerarchico e decentralizzato che nella rete Netsukuku svolge un compito che nella rete DNS. Il database di ANDNA è incluso nel sistema Netsukuku e quindi ogni nodo include un database ANDNA che nel peggiore delle ipotesi può occupare 355 kilobyte di memoria.
+
+ANDNA semplificando funziona nel seguente modo:
+Per risolvere un nome simbolico l'host applica una funzione Hash sul nome. La funzione Hash restituisce un indirizzo che l'host contatta chiedendo la risoluzione dell'indirizzo generato dall'hash. Il nodo contatto riceve la richiesta, ricerca nel proprio database ANDNA l'indirizzo associato al nome e lo restituisce all'host richiedente. La registrazione avviene in un modo simile. Per esempio supponiamo che il nodo X voglia registrare l'indirizzo ''FreakNet.andna'', X calcola l'hash del nome e ottiene l'indirizzo 11.22.33.44 associato al nodo Y. Il nodo X contatta Y chiedendo la registrazione dell'hash 11.22.33.44 al proprio indirizzo. Y memorizza la richiesta nel proprio database e ad ogni richiesta di risoluzione dell'hash 11.22.33.44 risponderà con l'indirizzo di X.
+<pre>            
+	    Nodo X
+      ip: 123.123.123.123
+      hash( hostname: "FreakNet.andna" ) == 11.22.33.44
+					   ||
+					   ||
+					 Nodo Y
+				     ip: 11.22.33.44
+			   {	[ FreakNet.andna nel database del nodo Y ]    }
+			   {hash_11.22.33.44 <nowiki>---></nowiki> 123.123.123.123}
+</pre>
+Il protocollo ovviamente è più complesso dato che il sistema prevede una gestione a chiave pubblica/privata per autentificare gli host e impedire modifiche non autorizzare dei database andna. Inoltre il protocollo prevede la ridondanza dei database per rendere il protocollo resistente ad eventuali guasti e prevede anche la migrazione dei database nel caso la topologia delle rete si modifichi. Il protocollo non prevede la possibilità di revocare un nome simbolico, questo dopo un certo periodo di inattività (attualmente 3 giorni) viene semplicemente cancellato dal database. Il protocollo inoltre impedisce ad un singolo host di registrare un numero eccessivo di nomi simbolici (allo stato attuale 256 nomi) in modo da impedire a degli spammer di memorizzare un elevato numeri di termini di uso comune o di effettuare azioni di cybersquatting.
+
+== NETSUKUKU ==
+
+  
+=== Идеология будущего ===
+
+сеть, управляемую интернациональными компаниями и организациями, которые поддерживаются правительством. Каждый бит Интернет-трафика проходит через частные магистральные сети и роутеры.
+Интернет-провайдеры предоставляют связь с остальными пользователями, которые находятся на нижнем уровне этой пирамиды иерархии. Нет никакой возможности разделить собственность Интернета, и пользователи могут подсоединяться к сети только согласно условиям, продиктованным Интернет-провайдерами.
+Интернет сегодня олицетворяет способ доступа к информации, знаниям и общению.
+Около 1 миллиарда людей могут подсоединиться к этой великой частной магистрали, но остаются 5 миллиардов людей, которые не имеют такой возможности…
+  
+Интернет был организован с целью гарантирования безопасного и защищённого соединения между двумя узлами сети. Но сейчас возникла парадоксальная ситуация: если Интернет-провайдеры решат приостановить свою работу, то какие-то страны могут быть просто отрезаны от Интернета.
+
+Кроме того, Интернет не анонимен: Интернет-провайдеры и интернациональные компании могут без каких либо ограничений выяснять происхождение и анализировать информацию, проходящую через их сервера.
+
+Централизованный и иерархично организованный Интернет, как результат, создаёт другую идентичную систему, основанную на нем — DNS. Услуга Домены Имён (DNS) управляется теми же Интернет-провайдерами, домены буквально продаются через похожие централизованные системы. Такая структура позволяет очень просто локализовать любой компьютер, подсоединённый к Интернету, без каких либо особых усилий.
+
+<!-- В Китае вся сеть постоянно просматривается несколькими серверами, фильтрующими Интернет-трафик: Китайцы никогда не смогут посмотреть или узнать о сайтах, содержащих ключевые слова, такие как «демократия» и т.д.. Нетрудно догадаться, кем это цензурировано. Кроме того, они никогда не смогут высказать свои собственные соображения о правительстве без риска для себя. -->
+
+Интернет был рождён для удовлетворения военных нужд по безопасности для администрации США, не для гарантирования свободы коммуникаций и информации: для возможности связи друг с другом пользователи Интернета вынуждены подчиниться интернациональным компаниям, чья единственная цель — расширять свою гегемонию.
+Сегодня все попытки получить больше свободы, конфиденциальности в Интернете встречают нежелание, страх, противоречат интересам... Самый альтернативный выход из этой ситуации — это дать пользователям распределённую, децентрализованную, эффективную сеть, в которой все пользователи находятся на одном уровне, без привилегий и без ограничивающих условий, словно жители одного города всемирной свободной сети.
+
+NETSUKUKU — это ячеистая сеть передачи данных, или p2p сеть, которая автоматически генерируется и самостоятельно поддерживается. Она создана для управления неограниченным числом узлов с минимальными затратами процессорного ресурса и памяти. Благодаря этому в будущем возможно построение всемирной распределённой, анонимной и не контролируемой сети, отдельно от Интернета, без поддержки каких-либо служб, провайдеров и тому подобного.
+Такая сеть состоит из компьютеров, физически соединённых друг с другом, поэтому нет необходимости надстройки над уже существующей сетью. NETSUKUKU создаёт только пути, которые соединяют компьютеры в единую сеть.
+Иначе говоря, NETSUKUKU заменяет 3-й уровень современной модели OSI другим протоколом маршрутизации.
+
+NETSUKUKU, будучи распределённой и децентрализованной сетью, может создавать
+реально распределённые системы, как Abnormal Netsukuku Domain Name Anarchy, которая будет заменять современную иерархию системы DNS.
+
+NETSUKUKU автоматически управляема. Она создаёт сама себя и может функционировать автономно.
+При подсоединении нового узла к NETSUKUKU сеть автоматически переписывает себя, и все остальные узлы знают наиболее быстрый и эффективный путь к новоприбывшему узлу. Узлы не имеют привилегий или ограничений по сравнению с остальными узлами: они представляют собой части одной сети.
+С увеличением числа узлов сеть растёт, становясь более эффективной. В NETSUKUKU нет различий между локальной и глобальной сетью, поэтому говорить о LAN бессмысленно.
+
+Такая сеть не может быть контролируема или разрушена, потому что она полностью децентрализованная и распределённая. Единственный способ разрушить такую сеть — это физически вывести из строя каждый сигнальный узел, входящий в неё.
+
+Внутри NETSUKUKU кто угодно, когда угодно и откуда угодно может подсоединиться к сети без каких-либо бюрократических проволочек или правового согласия. Более того, каждый узел динамичен и не постоянен. IP адрес, идентифицирующий компьютер, выбирается случайно, поэтому его невозможно сопоставить с реальным физическим местом источника сигнала. К тому же, нет никакого контакта с какими-либо организациями. 
+
+Пропускная способность ограничивается возможностями нынешних сетевых карт.
+
+NETSUKUKU — это ячеистая сеть, или p2p сеть, построенная на протоколе динамической маршрутизации Npv7_HT.
+В настоящее время существует достаточно много протоколов и алгоритмов для динамического управления, но они все отличаются от Npv7_HT, поскольку используются строго для создания маленьких сетей. Управление Интернетом также осуществляется различными протоколами, такими как OSPF, RIP или BGP, в основе которых лежат классические алгоритмы, способные находить наилучший путь для достижения узла в сети.
+Данные протоколы требуют больших ресурсов процессора и памяти. По этой причине для подобных целей предназначены специальные компьютеры. Ни один из этих протоколов не сможет создать и поддерживать такую сеть, как NETSUKUKU, в которой каждый узел управляется самостоятельно, потому что маршрутная карта всех путей, хранящаяся на каждом компьютере в сети, требовала бы около 10 Гбайт пространства.
+
+Структура Npv7 — сеть как фрактал. Для расчёта всех необходимых путей связи узла со всеми остальными узлами протокол использует особый алгоритм, называемый Quantum Shortest Path Netsukuku (QSPN).
+Фрактал — это математическая структура с дробной размерностью, которая обладает свойством рекурсивности: каждая её часть является уменьшенной копией целого. Поэтому возможно большое сжатие структуры, которая может безгранично расширяться. А это значит, что нужно всего лишь несколько килобайт для хранения всей карты маршрутов NETSUKUKU.
+Структура маршрутной карты NETSUKUKU может быть также определена как высококластеризованный граф узлов.
+
+С другой стороны, QSPN представляет собой метаалгоритм в том смысле, что не следует никаким математическим правилам, а использует случайность и Хаос, которые не требуют сложных вычислений. QSPN выполняется в реальных сетях, узлы посылают QSPN пакеты для создания сети. По этой причине не всегда верно утверждение, что определённый пакет будет отослан раньше какого-либо другого.
+
+NETSUKUKU не ограничивается созданием только сетей из компьютеров. Это протокол, который может использоваться в любой ситуации, когда надо соединить точки между собой.
+
+Мобильная телефонная сеть представляет собой тысячи узлов, связанных с одним узлом, который распределяет трафик и передаёт информацию узлу назначения.
+NETSUKUKU может быть использована в мобильных телефонах, сделав бессмысленным существование многочисленных операторов сотовой связи.
+
+NETSUKUKU может быть внедрена в любые коммуникационные системы, которые сейчас используются.

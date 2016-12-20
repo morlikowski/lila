@@ -1,0 +1,174 @@
+In professional audio, a '''mixing console''',  or ''audio mixer'', also called a '''sound board''' or '''soundboard''', is an electronic device for combining (also called "mixing"), routing, and changing the level, timbre and/or dynamics of audio signals. A mixer can mix analog or digital signals, depending on the type of mixer. The modified signals (voltages or digital samples) are summed to produce the combined output signals.
+
+Mixing consoles are used in  many applications, including speakers simultaneously. When used for live performances, the signal produced by the mixer will usually be sent directly to an amplifier, unless that particular mixer is “powered” or it is being connected to powered speakers. 
+right|thumb|430px|BBC Local Radio Mark III radio mixing desk
+
+== Structure ==
+
+right|thumb|320px|Yamaha 2403 audio mixing console in a 'live' mixing application
+
+The input strip is usually separated into these sections:
+* Input Jacks / Microphone preamps
+* Basic input controls
+* Channel EQ (High, Mid high,Mid and low)
+* Routing Section including Direct Outs, Panning control and Subgroup assignments
+* Input Faders
+* Subgroup faders
+* Output controls including Master level controls,  EQ and/or Matrix routing
+On the Yamaha Console to the right, these sections are color coded for quick identification by the operator. 
+Each signal that is stereo or XLR input, and many have RCA or quarter-inch Jack plug line inputs. 
+
+===Basic input controls===
+Below each input, there are usually several rotary controls (knobs, pots).  The first is typically a ''trim'' or ''gain'' control.  The inputs buffer the signal from the external device and this controls the amount of amplification or attenuation needed to bring the signal to a dB, for a microphone).  Balanced inputs and connectors, such as XLR or Tip-Ring-Sleeve (TRS) quarter-inch connectors, reduce interference problems.
+
+There may be ''insert'' points after the buffer/gain stage, which  send to and return from external processors which should only affect the signal of that particular channel.  Insert points are most commonly used with effects that control a signal's compressors.
+
+===Auxiliary send routing===
+The ''Auxiliary send'' routes a split of the incoming signal to an auxiliary bus which can then be used with external devices. ''Auxiliary sends'' can either be pre-fader or post-fader, in that the level of a pre-fade send is set by the ''Auxiliary send'' control, whereas post-fade sends depend on the position of the channel fader as well. ''Auxiliary sends'' can be used to send the signal to an external processor such as a reverb, which can then be routed back through another channel or designated auxiliary returns on the mixer. These will normally be post-fader. Pre-fade ''auxiliary sends'' can be used to provide a monitor mix to musicians onstage, this mix is thus independent of the main mix.
+thumb|250px|Mixing desk used for live performances.
+
+===Channel EQ===
+Further channel controls affect the frequencies (e.g., bass, midrange, and treble frequencies). Most large mixing consoles (24 channels and larger) usually have sweep equalization in one or more bands of its parametric equalizer on each channel, where the frequency and affected bandwidth of equalization can be selected. Smaller mixing consoles have few or no equalization control. Care must be taken not to add too much EQ to a signal that is already close to clipping; additional energy will overdrive the channel.
+Some mixers have a general equalization control (either graphic or parametric) at the output.
+
+===Subgroup and mix routing===
+Each channel on a mixer has an audio taper pot, or potentiometer, controlled by a sliding volume control (''fader''), that allows adjustment of the level, or amplitude, of that channel in the final ''mix''.  A typical mixing console has many rows of these sliding volume controls. Each control adjusts only its respective channel (or one half of a stereo channel); therefore, it only affects the level of the signal from one microphone or other audio device.  The signals are summed to create the main ''mix'', or combined on a ''bus'' as a submix, a group of channels that are then added to get the final mix (for instance, many drum mics could be grouped into a bus, and then the proportion of drums in the final mix can be controlled with one bus fader).
+
+There may also be ''insert'' points for a certain bus, or even the entire mix.
+
+===Master output controls===
+Subgroup and main output fader controls are often found together on the right hand side of the mixer or, on larger consoles, in a center section flanked by banks of input channels. Matrix routing is often contained in this master section, as are headphone and local loudspeaker monitoring controls. Talkback controls allow conversation with the artist through their wedges, headphones or IEMs. A test tone generator might be located in the master output section. Aux returns such as those signals returning from outboard reverb devices are often in the master section.
+
+===Metering===
+Finally, there are usually one or more VU or clipping the signal. Most mixers have at least one additional monitors.  The operator can vary the mix (or levels of each channel) for each output.
+
+As audio is heard in a logarithmic fashion (both pots or circuits are needed.  Since it is a relative measurement, and not a unit itself (like a percentage), the meters must be referenced to a dBu.  The "consumer grade" level is −10 dBV.
+
+===Hardware routing and patching===
+For convenience, some mixing consoles include inserts or a patch bay or patch panel.
+
+Most, but not all, audio mixers can
+* add external effects.
+* use monaural signals to produce stereo sound by adjusting the position of each signal on the pan and balance controls).
+* provide phantom power (typically 48 volts) required by some microphones.
+* create an audible tone via an Hz, 1 kHz, or 2 kHz
+
+Some mixers can
+* add effects internally.
+* interface with computers or other recording equipment (to control the mixer with computer presets, for instance).
+* be powered by batteries.
+
+==Digital vs. Analog==
+Yamaha sold more than 1000 PM5D mixers by July, 2005,<ref>[http://www.yamahamusic.com.au/news/news.asp?action=view_item&resourceid=31 Yamaha PM5D Sales Top 1,000 Units]</ref> and other manufacturers are seeing increasing sales of their digital products. Digital mixers are more versatile than analog ones and offer many new features, such as the ability to save multiple mute groups, multiple VCA groups and channel settings into a scene and reconfigure signal routing at the touch of a button. The faders can be "swapped" or "flipped" to show aux send levels; a feature very useful in mixing artists' monitors. In addition, digital consoles often include a range of special effects such as parametric EQ, compression, gating, reverb, automatic feedback reduction, tap delay and straight delay. Some products are expandable via third-party software features (called spectrograph and real time analyzer functions. A few incorporate loudspeaker management tools such as crossover filtering and limiting. Digital signal processing can perform automatic mixing for some simple applications, such as courtrooms, conferences and panel discussions, but at this time no digital mixer in live audio includes automixing. 
+
+Digital mixers can be designed to be quieter than most analog mixers, as digital mixers often incorporate very low threshold noise gates to stop inactive mix bus background hiss from summing with active signals. Digital circuitry is more resistant to outside interference from radio transmitters such as walkie-talkies and cell phones. 
+
+===Propagation delay===
+Digital mixers have an unavoidable amount of latency or propagation delay, ranging from 1.5 milliseconds to as much as 10 ms, depending on the model of digital mixer and what functions are engaged. This small amount of delay isn't a problem for loudspeakers aimed at the audience or even monitor wedges aimed at the artist, but can be disorienting and unpleasant for IEMs (In ear monitors) where the artist hears their voice acoustically in their head ''and'' electronically amplified in their ears but delayed by a couple of milliseconds. 
+
+Every analog to digital conversion and digital to analog conversion within a digital mixer entails propagation delay. Audio inserts to favorite external analog processors make for almost double the usual delay. Further delay can be traced to format conversions such as from AES3 and from normal digital signal processing steps. 
+
+Within a digital mixer there can be differing amounts of latency, depending on the routing and on how much DSP is in use. Assigning a signal to two parallel paths with significantly different processing on each path can result in extreme comb filtering when recombined. Some digital mixers incorporate internal methods of latency correction so that such problems are avoided.
+
+thumb|250px|right|中規模ミキサーの一例
+'''ミキサー'''（'''ミキシングマシン'''とも）は複数の音声信号を電気的に加算、加工し出力する音響機器である。
+
+いくつかの呼称で呼ばれているが国内において厳密な名称の使い分けはなされていないものの、中型～大型のものについては「卓」、「コンソール」と呼ばれ、小型可搬型のもの、カラオケや設備アンプに組み込まれたものなどは単に「ミキサー」と呼ばれることが多い。
+
+呼称の例　ミキサー、オーディオミキサー、ミキシングコンソール、音声（音響）調整卓、音声卓、卓、等
+
+thumb|180px|1988年に発売されたYAMAHA MR842 [[Public Address|PA・録音用ミキサーコンソール。8INPUT/4Group/ST OUTの小規模用ミキサー。]]
+
+==仕様の概略==
+信号処理をアナログ回路でおこなうものと、デジタル処理でおこなう物に大別される。
+信号入力は通常アナログであるが、デジタル式の中には直接デジタル信号を入力できるものもある。
+PAで使用する小規模のものの中には、設置/撤収作業や機器構成を簡略化する目的でパワーアンプを組み込んだものもある。
+
+用途に応じて様々な形態があるが、基本的な機能は共通していて操作性がそれぞれの用途に最適化されている。
+たとえばPAで使用されるミキサーを録音に使えるものもあるが、逆の場合は不便を生じるかもしれないといったことである。
+
+DTMあるいはパソコンの内部演算で実現しているものが多く見られる。
+ただし、音質や演算速度の点で単体ミキサーの性能を凌駕するには至っていない。
+また操作はキーボードやマウスによることが前提のため、直感的な操作性は単体ミキサーに比して劣る。
+
+==モジュールとセクション==
+モジュールとは主に中型以上のミキサーにおいて使用される複数の概念である。
+#回路上の特定の機能をまとめた子基板のこと。ドーターカードとも呼ぶ。
+#いくつかの（1～8程度）チャンネルごとに分割された基板と操作パネルの組み合わせで筐体から個別に取り外しができるもの。
+:インライン型の場合はI/Oモジュールと呼ぶ事が多い。API社のLegacyコンソールのようにHA/EQ/Inputなどモジュールが機能別に細かく分割されている場合もある。
+
+セクションとは以下のような概念である
+#特定用途のモジュールの集合体
+#:例:モニターセクション、マスターセクション
+#特定の機能がレイアウトされた操作パネル上の区分
+#:例:EQセクション、Auxセクション
+
+==構成と基本機能==
+*HA（マイク、ラインアンプ）
+*:HAとはHeadAmp(前置増幅器)の略であり、入力信号をミキサー内部のオペレーティングレベルに対して適正になるように調整する増幅器である。
+*:マイクあるいはラインレベル信号を扱うが、機種によっては増幅器の利得可変幅を大きく取ってマイクレベルからラインレベルまで一つのアンプで対応可能にしているものがある。
+*:外部からのノイズ混入対策としてHA部分で帯域制限をおこなう場合がある（RF帯域以上をカットする）。
+*:付加機能としてコンデンサーマイク用のファンタム電源スイッチ、PAD（固定減衰機）、HPF（簡易型）、フェーズリバーススイッチなどがHAの機能の中に含まれる場合がある。
+*テープ/グループモニター
+*A/Dコンバータ
+*D/Aコンバータ
+*ダイナミクス
+*:大型コンソールにおいてチャンネルモジュールにコンプレッサー/リミッターやエキスパンダーを装備した物がある。ただし操作パネル上のレイアウトの制限であるとか内部の回路スペースの制約などから単体機ほどの機能は持たないことが多い。高級機の場合はサイドチェーンにEQをインサートすることによりディエッサー代わりに使用可能な事もある。
+*EQ
+*フィルター
+*:EQのように補正目的や積極的な音作りに用いるのではなく、不要な帯域の信号を減衰させるための機能である。
+*:HPF（ハイパスフィルター、低域カット高域通過）とLPF（ローパスフィルター、高域カット低域通過）の2種類が用いられる。
+*:廉価な機種では省略されるか、HAの一部として周波数固定のHPFが各チャンネル毎に装備されている。
+*:高級機種になるに従い、HPFの周波数選択あるいは周波数可変機能やLPFの装備、並びにルーティングの自由度（モニター系あるいはダイナミクスのサイドチェーンへの挿入）が機能として追加される。
+*SEND
+*フェーダー
+*:チャンネル、グループ、マスターの音量調整に用いる。回転式のロータリーフェーダーとスライド（直線型）のフェーダーに大別される。アプリケーションによっては抵抗切替式ATTを用いていた事もある。
+*:フェーダーは一般的には電子部品のボリュームであり、更に耐久性、耐候性が要求される。後述のオートメーション並びにフェーダーグルーピングを実現するためにVCAやフェーダーにモーターを組み込む場合がある。
+*ダイレクトアウト
+*:POSTフェーダー出力（フェーダーのワイパーからフェーダーバッファーアンプを経由した出力）を外部に取り出す為の出力端子である。
+*パンポット
+*:パンポット(Panpot)とは複数のバスに対して信号を分割配分し、バス間のレベル差によって音像の定位を設定する機構である。panpot - panoramic / panorama potentiometerの略。ポテンショメータも参照。
+*:一般にはステレオバスのL/R間やグループバスの奇数/偶数間で信号を分配する。まれに奇数/偶数に無関係に信号を分配できる機種もある。サラウンド対応の場合はジョイスティックを用いる場合もある。
+*:映画用途の場合はL/R間に独立したセンター出力が必要になるために回路が複雑になる。
+*BUS/Group
+*:混合したいくつかの音声信号を1つの信号系統にまとめたもの。「BUS」は「乗合バス」と同義。小規模のミキサーでも複数のBUSが用意されており、「AUX BUS」などと呼ばれる。どのバスにどの信号をどれだけ混ぜて送るかを計画すると、「メイン出力（STEREO OUT）」とは違うバランスでミックスした信号（例：エフェクターへの信号・ステージモニタースピーカーへの信号）をつくることができる。「Group」も「BUS」とほぼ同じ概念だが、「Group」は最終の「メイン出力」をミックスする「前段階」的な配置になっており、4~32Group（ミキサーの規模により数が異なる）にまとめられた信号を、Groupのフェーダーが並んだ「マスターセクション」で最終的なミックスを行い、「メイン出力」を調整して作り出す。「Group」はマルチトラックレコーダー（MTR）への出力に使われるほか、PA用途では楽器のまとまり－ドラムスの10本のマイクロホン信号を１～２本Groupにまとめておく、などの使い方にもよく利用される。
+*PFL/AFL
+*:（PFL・Pre Fader Listening）フェーダーで音量を調整される「前」の信号を、モニター用系統で聞くことができる機能。AFL（After Fader Listening）は「フェーダーで調整された後」の信号をモニターする機能。
+*マスターセクション
+*マトリックス
+*:大規模ホールで採用されているPA用ミキサーコンソールに付加されていたり、連絡系に使用するミキサーにある機能。多数のAUX BUSで、バランスやミックスされた信号に内容の違いを作った上で、送出先（ホール外のロビーやホワイエ・楽屋・舞台照明操作室・舞台設備操作室など）によって、どのBUSの信号を送り出すかをスイッチで操作する機能。
+*入出力コネクタ
+*インサート入出力
+*:インサート入出力とは信号系に直列に外部機器を割り込ませるために設けられた入出力である。
+*:一般にはチャンネル及び各マスター出力に対して設置されることが多い。
+*:コネクター部分でノーマル接続とし、コネクタを差し込むことによって割り込みをかけるタイプとモジュール側にインサートのON/OFFスイッチを持つタイプがある。後者は大型コンソールでパッチベイまでの信号経路が長く引き回される場合に多く見られる。
+*:機種によってはインサート入出力のポイントを内部ジャンパーあるいはパネル上のスイッチにより選択できる場合がある。例）EQ前後の選択
+*メーターなど監視機能
+*:現在はアナログメーターに代わって、LEDを並べて音声信号のレベルを表示する機種が主流。
+**VUメーター - 直前に流れた信号の0.3秒間の平均値を指示するメーター。聴感に近い値を示す一方、打撃音など瞬間的な信号を捉えることはできない。
+**ピークレベルメーター - 信号の値をリアルタイムに指示するメーター。出力レベルを電気的に適正にしたり、最大値を超えないようにするのに用いられる。
+**スペクトラムアナライザー - 信号の値を周波数ごとに分割して表示するもので、略してスペアナとも呼ばれる。ミキサーに搭載されるものとしては、FFT方式のスペアナをディスプレイに呼び出す機能を搭載したものがある。
+*同期系入出力
+*リコール、シーンメモリー、スナップショット
+*:静的にコンソールのセッティングを記録させる。時系列による連続的な変化は下記のオートメーションにより行う。
+*オートメーション
+*:内蔵あるいは外部のコンピューターにより、コンソールのフェーダーを始めとするパラメーターを時系列にそって連続的に記録し、再現する。簡易にはフェーダーのポジションを記録するだけだが、デジタルコンソールやDAWではイコライザーやPANPOT、エフェクトのパラメーターにいたるまでコントロール可能である。レコーダーと同期させるためにSMPTEタイムコードを用いるのが一般的である。
+*:アナログコンソールでは制御素子としてVCA、DAコンバーター、モーターなどを用いる。
+*各種リモートコントロール
+*内蔵エフェクター
+*:多用される「残響系エフェクト（リバーブ）」などのエフェクト（効果）装置を小型化し、ミキサー内部に内蔵させた機種が多く発売されている。
+
+==仕様の記述==
+選定に関して参考にするカタログの記載事項について言及する。
+*用途および構成
+**入力ch数
+**Bus/Group構成
+**出力系統
+*ブロックダイアグラム
+*レベルダイアグラム
+**ヘッドルーム
+*サンプリング周波数、量子化ビット数、内部演算語長
+*入出力の形式およびコネクター
+*各種付加機能
+*外寸、重量、消費電力
+*その他

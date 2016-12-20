@@ -1,0 +1,86 @@
+{{NatOrganicBox
+| image= 105px|Skeletal formula of glycine<br>105px|Ball-and-stick model of the glycine molecule105px|Space-filling model of the glycine molecule
+| name=aminoethanoic acid
+| PubChem = 750
+| CAS = 56-40-6
+| SMILES = NCC(O)=O
+| C=2 | H=5 | N=1 | O=2
+| mass=75.07 g/mol
+}}
+
+'''Glycine''' (abbreviated as '''Gly''' or '''G''')<ref></ref> is the formula NH<sub>2</sub>CH<sub>2</sub>COOH. It is the smallest of the 20 amino acids commonly found in proteins, coded by codons GGU, GGC, GGA and GGG. Because it has specialized structural properties in protein architecture, this compact amino acid is often evolutionarily conserved.  For example, cytochrome c, myoglobin, and hemoglobin all contain conserved glycines. Glycine is the unique amino acid that is not chiral. Most proteins contain only small quantities of glycine. A notable exception is collagen, which contains about 35% glycine.<ref name=Nel127>Nelson, D. L. & Cox, M. M. (2005). ''Lehninger Principles of Biochemistry'', 4th Edition. New York: W. H. Freeman and Company, p. 127. ISBN 0-7167-4339-6.</ref>  In its solid, i.e., crystallized, form, glycine is a free-flowing, sweet-tasting crystalline material.
+
+==Production==
+Glycine is manufactured industrially, either by treating chloroacetic acid with ammonia:
+
+:ClCH<sub>2</sub>COOH + NH<sub>3</sub> → H<sub>2</sub>NCH<sub>2</sub>COOH + HCl
+
+or via the Strecker amino acid synthesis.
+
+There are two producers of glycine in the United States. Chattem Chemicals, Inc. and GEO Specialty Chemicals, Inc., who purchased the glycine production facilities of Hampshire Chemical Corp.<ref name=usitc3810>U.S. International Trade Commission, "Glycine From China." Investigation No. 731-TA-718 (Second Review), Publication No. 3810, October 2005</ref>  <ref name=Ham110105>Nov. 1, 2005 Press Release [http://news.dow.com/dow_news/prodbus/2005/20051101e.htm]</ref>
+
+==Biosynthesis==
+Glycine is not essential to the human diet, since it is biosynthesized in the body from the amino acid serine, which is in turn derived from 3-phosphoglycerate. In most organisms, the enzyme Serine hydroxymethyltransferase catalyses this transformation by removing one carbon atom; pyridoxal phosphate is also necessary:<ref name=Nel844>Nelson, D. L. & Cox, M. M. (2005). ''Lehninger Principles of Biochemistry'', 4th Edition. New York: W. H. Freeman and Company, p. 844. ISBN 0-7167-4339-6.</ref>
+: Serine + tetrahydrofolate → Glycine + ''N<sup>5</sup>'',''N<sup>10</sup>''-Methylene tetrahydrofolate + H<sub>2</sub>O
+
+In the liver of vertebrates, glycine synthesis is catalyzed by glycine synthase (also called glycine cleavage enzyme).  This conversion is readily reversible:<ref name=Nel844/>
+: CO<sub>2</sub> + NH<sub>4</sub><sup>+</sup> + ''N<sup>5</sup>'',''N<sup>10</sup>''-Methylene tetrahydrofolate + NADH + H<sup>+</sup> → Glycine + tetrahydrofolate + NAD<sup>+</sup>
+
+==Degradation==
+Glycine is degraded via three pathways. The predominant pathway in animals involves the catalysis of glycine cleavage enzyme, the same enzyme also involved in the biosynthesis of glycine. The degradation pathway is the reverse of this synthetic pathway:<ref name=Nel675>Nelson, D. L. & Cox, M. M. (2005). ''Lehninger Principles of Biochemistry'', 4th Edition. New York: W. H. Freeman and Company, pp. 675-677. ISBN 0-7167-4339-6.</ref>
+: Glycine + tetrahydrofolate + NAD<sup>+</sup> → CO<sub>2</sub> + NH<sub>4</sub><sup>+</sup> + ''N<sup>5</sup>'',''N<sup>10</sup>''-Methylene tetrahydrofolate + NADH + H<sup>+</sup>
+
+In the second pathway, glycine is degraded in two steps. The first step is the reverse of glycine biosynthesis from serine with serine hydroxymethyl transferase. Serine is then converted to pyruvate by serine dehydratase.<ref name=Nel675/>
+
+In the third pathway of glycine degradation, glycine is converted to glyoxylate by D-amino acid oxidase. Glycoxylate is then oxidized by hepatic lactate dehydrogenase to oxalate in an NAD<sup>+</sup>-dependent reaction.<ref name=Nel675/>
+
+==Physiological function==
+===As a biosynthetic intermediate===
+Glycine is a building block to numerous natural products. In higher eukaryotes, D-Aminolevulinic acid, the key precursor to porphyrins, is biosynthesized from glycine and succinyl-CoA. Glycine provides the central C<sub>2</sub>N subunit of all purines.<ref name=Nel854>Nelson, D. L. & Cox, M. M. (2005). ''Lehninger Principles of Biochemistry'', 4th Edition. New York: W. H. Freeman and Company, p. 854. ISBN 0-7167-4339-6.</ref>
+
+===As a neurotransmitter===
+Glycine is an inhibitory LD<sub>50</sub> of glycine is 7930 mg/kg in rats (oral),<ref></ref> and it usually causes death by hyperexcitability.
+
+==Industrial Uses==
+
+{{Infobox アミノ酸
+| 構造式=125px100px
+| 系統名=aminoacetic acid（aminoethanoic acidはまれ）
+| 略号='''Gly,G''' 
+| 分子式=C<sub>2</sub>H<sub>5</sub>N<sub></sub>O<sub>2</sub>
+| 分子量=75.07
+| CAS登録番号=56-40-6
+| 融点= | 融点注=
+| 溶解性=
+| 水への溶解度=
+| pKa=
+| 等電点=5.97
+| ファンデルワールス体積=
+| 密度=
+| 味=
+| SMILES=
+| 出典=
+}}
+'''グリシン''' (glycine) とは、アミノ酢酸のことで、タンパク質を構成するアミノ酸の中で最も単純な形を持つ。別名グリココル。糖原性を持つ。
+示性式は H<sub>2</sub>NCH<sub>2</sub>COOH、不斉炭素を持たないため、生体を構成する &alpha;-アミノ酸の中では唯一 D-, L- の立体異性がない。非極性側鎖アミノ酸に分類される。
+
+多くの種類の蛋白質ではグリシンはわずかしか含まれていないが、ゼラチンやエラスチンといった、動物性蛋白質のうちコラーゲンと呼ばれるものに多く（全体の3分の1くらい）含まれる。
+
+1820年にフランス人化学者アンリ・ブラコノーによりゼラチンから単離された。
+甘かったことからギリシャ語で甘いを意味する glykys に因んで glycocoll と名付けられ、
+後に glycine に改名された。
+
+== 生合成 ==
+生体内では、EC 2.1.2.1）の働きにより生合成される。
+
+:5,10-methylenetetrahydrofolate + glycine + H<sub>2</sub>O = tetrahydrofolate + L-serine
+:5,10-methylenetetrahydrofolate L-(+)-5,10-メチレン-5,6,7,8-テトラヒドロ葉酸
+:tetrahydrofolate テトラヒドロ葉酸
+
+== 物性 ==
+* 分子量　75.07
+* 等電点　5.97
+* 溶解性　水・蟻酸に易溶、エタノールに不溶
+* 溶解度（水、g/100g）22.5 (20℃)、33.2 (40℃)、45.3 (60℃)
+* ファンデルワールス半径　48
+* 味　甘（閾値 1.1 mg/ml）

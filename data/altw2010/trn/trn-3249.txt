@@ -1,0 +1,52 @@
+'''Komputer DNA (biokomputer)''' to  reakcjom chemicznym między  cząsteczkami DNA.
+
+==Zasada działania==
+W komputerze DNA informacja jest zakodowana w postaci łańcuchów DNA. Podobnie jak zwykłe komputery, składa się z  bramek logicznych, te jednak są oparte na enzymach. Enzymy te powodują reakcje chemiczne między łańcuchami, a ich wynik stanowi nową informację. Komputer taki jest probabilistyczny - wynik każdego działania otrzymujemy jedynie z pewnym prawdopodobieństwem.
+
+==Rozwój komputerów DNA==
+===Eksperyment Adlemana===
+W  problemu komiwojażera dla 7 miast i 13 dróg między nimi. Eksperyment miał następujący przebieg:
+*Każde miasto było reprezentowane przez losowy łańcuch DNA o długości 20, np:
+<center>
+'''G'''-'''C'''-'''A'''-'''C'''-'''T'''-'''G'''-'''G'''-'''A'''-'''C'''-'''T'''-'''C'''-'''A'''-'''T'''-'''G'''-'''C'''-'''A'''-'''C'''-'''T'''-'''G'''-'''T'''
+</center>
+*Droga między miastami 1 i 2 reprezentowana była przez łańcuch długości 20 składający się z cząsteczek stanowiących dopełnienie (na zasadzie komplementarności: '''A'''-'''T''', '''C'''-'''G''') zasad łańcuchów reprezentujących te miasta, w połowie od każdego. Ponieważ w DNA adenina ('''A''') łączy się z tyminą ('''T''') a cytozyna ('''C''') z guaniną ('''G'''), pierwsza połowa łańcucha łączyła się z połową łańcucha reprezentującego miasto 1, a druga z połową łańcucha reprezentującego miasto 2. Przykładowo, łańcuchy <font color=blue>'''miasto 1'''</font> i '''miasto 2''' można połączyć łańcuchem reprezentującym <font color=red>'''drogę'''</font> w następujący sposób:
+
+<center><font color=blue>
+'''C'''-'''T'''-'''A'''-'''G'''-'''C'''-'''A'''-'''T'''-'''A'''-'''G'''-'''T'''-'''A'''-'''T'''-'''G'''-'''C'''-'''G'''-'''T'''-'''C'''-'''G'''-'''A'''-'''G'''
+</font>
+'''G'''-'''C'''-'''A'''-'''C'''-'''T'''-'''G'''-'''G'''-'''A'''-'''C'''-'''T'''-'''C'''-'''A'''-'''T'''-'''G'''-'''C'''-'''A'''-'''C'''-'''T'''-'''G'''-'''T'''
+<br>
+<font color=red>
+'''T'''-'''A'''-'''C'''-'''G'''-'''C'''-'''A'''-'''G'''-'''C'''-'''T'''-'''C'''-'''C'''-'''G'''-'''T'''-'''G'''-'''A'''-'''C'''-'''C'''-'''T'''-'''G'''-'''A'''
+</font></center>
+Łańcuch taki działa niczym klocek LEGO łączący dwa inne umieszczone "na górze". Kontynuując w ten sposób mogą powstać łańcuchy DNA reprezentujące ścieżki przechodzące kolejno przez kilka miast.
+
+*Miliardy łańcuchów umieszczono w  próbówce i wymieszano.
+*Łańcuchy łączą się ze sobą tworząc wszystkie możliwe ścieżki od miasta 1 do 7.
+*Przy zastosowaniu  reakcji chemicznych wyeliminowane zostają wszystkie ścieżki poza tymi, które zawierają dokładnie 7 różnych łańcuchów.
+
+Znalezienie wszystkich możliwych ścieżek zajęło kilka sekund, jednak wykluczenie nie spełniających warunków zadania trwało kilka dni.
+
+Eksperyment Adlemana został zobrazowany w formie komiksu<ref>[http://users.aol.com/ibrandt/discover_article.html "Science Classics", Larry Gonick, Discover Magazine, kwiecień 1995, strony 36-37]</ref>.
+
+===Bramki logiczne===
+W  uniwersytetu w Rochester skonstruowali pierwsze bramki logiczne DNA <ref>http://www.rochester.edu/pr/releases/bio/ray2.htm</ref>. Wykrywają one fragmenty materiału genetycznego na wejściu, a następnie łączą je dając w rezultacie nowy łańcuch. Przykładowo  bramka AND powstaje przez połączenie dwóch łańcuchów końcami przy pomocy  ligazy. Długość łańcucha wynikowego można wyznaczyć stosując metodę  elektroforezy żelowej.
+
+L''''ordinateur à ADN''' est une des voies non-booléenne<ref></ref> actuellement explorées pour résoudre des problèmes convolveur.
+== Principe ==
+En utilisant des fragments de brins d'ADN, on peut coder les contraintes d'une recherche sous forme d'enzymes (diastases). Dans un processus d'assemblage et de duplication de bases désoxyribonucléiques, les fragments ne répondant pas aux contraintes du problème sont éliminés par ces enzymes. En fin de processus, il ne reste plus que des chaînes ADN contenant la solution au problème cherché.
+
+Un système de calcul utilisant de l'ADN s’appuie pourtant sur des mécanismes de codage fondamentalement différents de ceux de l’ordinateur conventionnel : Dans nos machines classiques, c’est la manipulation de charges électriques portés par des électrons au sein de dispositifs de commutation électroniques (transistors) qui matérialise l’information codée sous une forme binaire. Avec les ordinateurs à base d'ADN, l'information est traduite en termes d'unités chimiques de l'ADN. 
+
+Le principe du calcul avec un ordinateur à base d'ADN, consiste à  synthétiser des séquences d'ADN particulières et de les laisser réagir dans un tube à essai. Le connecteur logique « ET » peut être obtenu par l’opération de séparation des brins d'ADN selon leurs séquences et le connecteur « OU » est réalisable en versant ensemble des solutions d'ADN contenant des séquences spécifiques.
+
+Pour résoudre des problèmes comme le célèbre chemin hamiltonien du voyageur de commerce, on élabore une solution d’ADN dans laquelle les molécules d’ADN encodent par convention chacun des chemins possibles entre deux points. Par un procédé alternant les étapes de séparation et d’amplification, on élimine alors les chemins impossibles tels que ceux qui contenaient par exemple des points qu’ils n’étaient pas supposés contenir jusqu’à isoler la bonne solution.<ref></ref>
+
+== Avantages et inconvénients ==
+L'extrême lenteur de ce système (dont les temps de réponse se comptent en minutes, heures ou jours, et non en microsecondes) est compensée par son côté massivement parallèle : ce sont plusieurs millions ou milliards de molécules qui interagissent entre elles. En revanche, les entrées/sorties sont loin d'avoir la commodité de nos interfaces d'ordinateur actuelles.
+
+Des premiers résultats ont été obtenus par JPL)
+
+* sur un exemple simple de problème du voyageur de commerce évoqué ci-dessus, à 7 villes en 1994
+* sur un problème également NP-complet d'une vingtaine de nœuds en 2002.

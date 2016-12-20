@@ -1,0 +1,155 @@
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = Malvagna |
+  name = Malvagna |
+  region = Sicily |
+  province = Province of Messina (ME) |
+  elevation_m = 715 |
+  area_total_km2   = 6.9 |
+  population_as_of  = Dec. 2004 |
+  population_total = 899 |
+  population_density_km2 = 130 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          =  |
+  telephone         = 0942 |
+  postalcode        = 98030 |
+  gentilic          = malvagnesi |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           =  |
+  mapy = 15.0500 |
+  mapx = 37.9167 |
+}}
+'''Malvagna''' is a ''Italian region Sicily, located about 150&nbsp;km east of Palermo and about 50&nbsp;km southwest of Messina. As of 31 December 2004, it had a population of 899 and an area of 6.9&nbsp;km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+Malvagna borders the following municipalities: Castiglione di Sicilia, Francavilla di Sicilia, Mojo Alcantara, Montalbano Elicona, Roccella Valdemone.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:3000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:1000 start:0
+ScaleMinor = gridcolor:lightgrey increment:200 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:1403
+  bar:1871 from: 0 till:1469
+  bar:1881 from: 0 till:1603
+  bar:1901 from: 0 till:1998
+  bar:1911 from: 0 till:2166
+  bar:1921 from: 0 till:2096
+  bar:1931 from: 0 till:2080
+  bar:1936 from: 0 till:2008
+  bar:1951 from: 0 till:1779
+  bar:1961 from: 0 till:1656
+  bar:1971 from: 0 till:1580
+  bar:1981 from: 0 till:1473
+  bar:1991 from: 0 till:1190
+  bar:2001 from: 0 till:973
+
+PlotData=
+
+  bar:1861 at:1403 fontsize:XS text: 1403 shift:(-8,5)
+  bar:1871 at:1469 fontsize:XS text: 1469 shift:(-8,5)
+  bar:1881 at:1603 fontsize:XS text: 1603 shift:(-8,5)
+  bar:1901 at:1998 fontsize:XS text: 1998 shift:(-8,5)
+  bar:1911 at:2166 fontsize:XS text: 2166 shift:(-8,5)
+  bar:1921 at:2096 fontsize:XS text: 2096 shift:(-8,5)
+  bar:1931 at:2080 fontsize:XS text: 2080 shift:(-8,5)
+  bar:1936 at:2008 fontsize:XS text: 2008 shift:(-8,5)
+  bar:1951 at:1779 fontsize:XS text: 1779 shift:(-8,5)
+  bar:1961 at:1656 fontsize:XS text: 1656 shift:(-8,5)
+  bar:1971 at:1580 fontsize:XS text: 1580 shift:(-8,5)
+  bar:1981 at:1473 fontsize:XS text: 1473 shift:(-8,5)
+  bar:1991 at:1190 fontsize:XS text: 1190 shift:(-8,5)
+  bar:2001 at:973 fontsize:XS text: 973 shift:(-8,5)
+
+<!-- Il testo commentato è SOLO UN ESEMPIO -->
+{{Comune
+|nomeComune = Malvagna
+|panorama = Malvagna_veduta_aerea.gif
+|linkStemma = Malvagna-Stemma-ufficiale.gif|frame|Stemma del  [http://www.tuttomalvagna.it Comune di Malvagna]
+|siglaRegione = SIC
+|siglaProvincia = ME
+|latitudineGradi = 37
+|latitudineMinuti = 55
+|latitudineSecondi = 0
+|longitudineGradi = 15
+|longitudineMinuti = 3
+|longitudineSecondi = 0
+|mappaX = 207
+|mappaY = 301
+|altitudine = 715
+|superficie = 6
+|abitanti = 864
+|anno =  <!-- solo valore numerico dell'anno di riferimento  -->
+|densita = 161
+|frazioni =  <!-- elenco delle frazioni, separate da virgola e spazio - senza ritorni a capo -->
+|comuniLimitrofi = Castiglione di Sicilia (CT), Francavilla di Sicilia, Mojo Alcantara, Montalbano Elicona, Roccella Valdemone
+|cap = 98030
+|prefisso = 0942
+|istat = 083044
+|fiscale = E869 <!-- B102 -->
+|nomeAbitanti = malvagnesi
+|patrono = S. Anna
+|festivo = 26 luglio
+|sito =  <!-- http://www.tuttomalvagna.it/ -->
+}} <!-- fine della tabella - per la compilazione vedi -> Aiuto:Comune -->
+'''Malvagna''' ('''''Marvagna''''' in siciliano) è un comune di 864 abitanti della provincia di Messina.
+
+==Storia==
+thumb|left|250px|Il comune di Malvagna nella provincia di Messina
+Malvagna fu fondata nel 1626 da Giovanni Lanza sul latifondo ricevuto in dono dalla madre Silvia Abate, che a sua volta l'aveva comprato dal figlio di Giacomo Garagozzo di Randazzo, fattosi prete per vocazione. Il borgo si espanse a motivo della malaria che minacciava gli abitanti del confinante feudo di Mojo che trovarono conveniente salire sulla costa della collina vicina. L'aria salubre, il clima temperato e il territorio fertile, convinse molti vassalli della zona circostante a trasferirsi in questo nuovo borgo che diventò poi anche Principato.
+
+Durante il Lanza.
+
+Simbolo di Malvagna è il leone rampante in giallo, su campo rosso.
+
+Malvagna si affaccia sulla valle dell'Alcantara, di fronte l'Etna, che si può ammirare in tutta la sua maestosa bellezza e il monte Mojo, anch'esso vulcano ma non più attivo. Il comune dista 63 Km da Messina (lato Jonio), 28 Km da Giardini Naxos e 15 Km da Randazzo.
+
+==Turismo==
+
+Da segnalare il convento dei Frati Minori "S. Giuseppe" fondato nel 1720 da Ignazio Migliaccio, duca di Galizia e principe di Mazzarino.
+Oggi purtroppo, nonostante sia stato acquistato dal Comune, versa in stato di completo abbandono. Oltre alla struttura quasi pericolante, rimangono alcuni affreschi  nel chiostro e una meravigliosa scultura lignea settecentesca dentro la chiesetta.
+Da vedere anche la Cuba Bizantina (Trichora) di Malvagna e la chiesetta settecentesca di San Marco.
+Per quanto riguarda i beni ambientali era invece di grande rilievo il Fondo Pittari, percorso nell'estate del 2007 da un terribile incendio, facente parte della Riserva di Malabotta. Proprio nel 2006, Malvagna ha inaugurato l'accesso alla riserva di Malvabotta dal versante di Taormina.
+Dal 2005 ad oggi, Malvagna ha visto la nascita di vari Bed&Breakfast e attivtà di ristorazione, avviando così una nuova economia interna, basata sul turismo ambientale.
+
+==Manifestazioni==
+
+Le manifestazioni si concentrano nel periodo estivo ed in quello natalizio. Tradizione natalizia malvagnese sono i presepi rionali, realizzati nei diversi quartieri dalle famiglie e la strenna ("a strina"), e i dolci tipici natalizi sono i "lumiricchi". La festa patronale è in onore di Sant'Anna, la cui processione avviene l'ultima domenica di Luglio. In questo periodo si concentrano le manifestazioni più di rilievo. Da segnalare la rassegna di Cultura popolare "Radici" avviata nel 2006, e la rassegna a concorso di teatro dialettale che ha avuto il proprio battesimo nell'agosto 2007 e che ha visto l'affermazione della compagnia "San Tommaso d'Aquino".
+
+==Agricoltura e Allevamento==
+
+I prodotti agricoli tipici di Malvagna sono le olive e l'uva. Nel mese di Dicembre si tiene infatti la Sagra dell'Olio e del Vino. Per quanto riguarda l'allevamento, questo risulta basato su caprini, ovini e bovini, che permettono anche la produzione di formaggi tipici di qualità. Diffuso anche l'allevamento dei suini e la lavorazione della carne di maiale, con la produzione di salsiccia e delle tipiche "fritturi" e "ziringuri", a base di cotiche di maiale.  

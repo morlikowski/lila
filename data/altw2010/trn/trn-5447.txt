@@ -1,0 +1,98 @@
+{{infobox Franse gemeente|
+|plaatsnaam= Brassac-les-Mines
+|wapen= 
+|kaart= 
+|regio= Auvergne 
+|departement= Puy-de-Dôme (63)
+|arrondissement= Issoire
+|kanton= Jumeaux
+|jaar= 1999
+|inwoners= 3249
+|dichtheid= 451,2
+|oppervlakte= 7,2
+|water= 
+|latitudeGraden= 45 |latitudeMinuten= 24|latitudeSeconden= 0
+|longitudeGraden= 3 |longitudeMinuten= 20 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 178 |kaartY= 188
+|code= 63050
+|postcode= 63570
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Brassac-les-Mines''' is een gemeente in het Franse departement Issoire.
+
+==Geografie==
+De oppervlakte van Brassac-les-Mines bedraagt 7,2 km², de bevolkingsdichtheid is 451,2 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:5700 color:gray1 width:1       
+  from:start till:end             
+  bar:3800 color:gray1              
+  from:start till:end            
+  bar:1900 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,124)(84,130) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 3482 1968: 3685
+  points:(84,130)(100,140)    color:blue    width:2 #1975: 4040
+  points:(100,140)(128,136)   color:blue    width:2 #1982: 3883
+  points:(128,136)(160,123)   color:blue    width:2 #1990: 3446
+  points:(160,123)(196,117)   color:blue    width:2 #1999: 3249
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+==Externe links==
+*[http://www.mapquest.com/maps/map.adp?searchtype=address&formtype=latlong&latlongtype=degrees&latdeg=45&latmin=24&latsec=0&longdeg=3&longmin=20&longsec=0&zoom=6 Locatie van de gemeente (kaart met schaal 1:100.000) op Mapquest]
+*[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=63050&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Meer statistische informatie over de gemeente op www.insee.fr] 
+
+{{Info/Comuna da França|
+|nome         = Brassac-les-Mines
+|nomefr       = Brassac-les-Mines
+|região       = Auvergne
+|departamento = Puy-de-Dôme
+|área         = 7,19
+|altitude     = 
+|latP         = N | latG = 45 | latM = 24 | latS = 0
+|lonP         = E | lonG = 3 | lonM = 20 | lonS = 0
+|população    = 3.446
+|densidade    = 479
+|censo        = 1999
+|insee        = 63050 <!-- Código INSEE -->
+|códpostal    = 63570 <!-- Código postal -->
+|mapa         = <!-- Insira apenas o nome da imagem -->
+|escudo       = <!-- Insira apenas o nome da imagem -->
+|bandeira     = <!-- Insira apenas o nome da imagem -->
+|imagem       = <!-- Insira apenas o nome da imagem -->
+|legenda      = <!-- Legenda para a imagem -->
+|gentílico    = 
+|website      = 
+|notas        = 
+}}
+'''Brassac-les-Mines''' é uma região administrativa de departamento km&sup2;, com 3.446 habitantes, segundo os densidade 479 hab/km&sup2;.
+
+Categoria:Comunas da França
+Categoria:Comunas de Auvergne
+Categoria:Comunas do departamento de Puy-de-Dôme

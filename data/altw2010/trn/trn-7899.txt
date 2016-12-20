@@ -1,0 +1,106 @@
+thumb|right|350px|As part of a re-creation of a 1945 [[criticality accident, a 'pit' of plutonium is surrounded by blocks of neutron-reflective tungsten carbide. The original experiment was designed to measure the radiation produced when an extra block was added. Instead, the mass went supercritical.]]
+A '''critical mass''' is the smallest amount of nuclear properties (e.g. the cross-section), its density, its enrichment, its temperature and its surroundings.
+
+== Explanation of criticality==
+
+The term '''critical''' refers to an equilibrium fission reaction (steady-state or continuous chain reaction); this is where there is no increase or decrease in power, temperature, or neutron population. 
+
+A numerical measure of a critical mass is dependent on the neutron multiplication factor, '''k''', where:
+
+:'''k = f − l''' 
+
+where '''f''' is the average number of neutrons released per fission event and '''l''' is the average number of neutrons lost by either leaving the system or being captured in a non-fission event. When '''k = 1''' the mass is '''critical'''.
+  
+A '''subcritical''' mass is a mass of fissile material that does not have the ability to sustain a fission reaction. A population of neutrons introduced to a subcritical assembly will exponentially decrease, typically rapidly. In this case, '''k < 1'''. A steady rate of spontaneous fissions causes a proportional steady level of neutron activity. The constant of proportionality increases as k increases.
+
+A '''supercritical''' mass is one where there is an increasing rate of fission. The material may settle into equilibrium (i.&nbsp;e. become critical again) at an elevated temperature/power level or destroy itself (disassembly is an equilibrium state). In the case of supercriticality, '''k > 1'''.
+
+==Changing the point of criticality==
+The point, and therefore the mass, where criticality occurs may be changed by modifying certain attributes, such as fuel, shape, temperature, density, and the installation of a neutron-reflective substance. These attributes have complex interactions and interdependencies, this section explains only the simplest ideal cases.
+
+*'''Varying the amount of fuel'''
+It is possible for a fuel assembly to be critical at near zero power. If the perfect quantity of fuel were added to a slightly subcritical mass to create an "exactly critical mass", fission would be self-sustaining for one neutron generation (fuel consumption makes the assembly subcritical).
+
+If the perfect quantity of fuel were added to a slightly subcritical mass, to create a barely supercritical mass, the temperature of the assembly would increase to an initial maximum (for example: 1&nbsp;K above the ambient temperature) and then decrease back to room temperature after a period of time, because fuel consumed during fission brings the assembly back to subcriticality once again.
+
+*'''Changing the shape'''
+A mass may be exactly critical, but not a perfect homogenous sphere. Changing the shape to be closer to a perfect sphere will make the mass supercritical. Conversely, changing the shape to be further from a sphere will decrease its reactivity, making it subcritical.
+
+*'''Changing the temperature'''
+A mass may be exactly critical at a particular temperature. Increasing the temperature of the material, (assuming an ideal material that does not expand or contract, see Varying the density of the mass) will cause the atoms to vibrate faster which causes atoms to "see" and generate neutrons with a wider spread of velocities. This is termed doppler broadening and has a significant effect on generally reducing criticality (and hence increasing the required critical mass). This is because any U238 in the mass will now see and absorb more fast neutrons, thus removing them from the chain. (This is for a simple largely unreacted enriched Uranium 235 case, in practice detailed examinations of all isotopes and lifetimes are needed to determine the actual temperature coefficient, which can also be positive.)
+
+*'''Varying the density of the mass'''
+The higher the density, the lower the critical mass. The density of a material at a constant temperature can be changed by varying the pressure or tension or by changing crystal structure (see Allotropes of plutonium). An ideal mass will become subcritical if allowed to expand or conversely the same mass will become supercritical if compressed. Changing the temperature may also change the density, however the effect on critical mass is then complicated by the temperature effects (See Changing the temperature), and by whether the material expands or contracts with increased temperature. Assuming the material expands with temperature (enriched Uranium 235 at room temperature for example), at an exactly critical state, it will become subcritical if warmed, hence lower density, or conversely the same mass will become supercritical if cooled, hence higher density. Such a material is said to have a negative temperature coefficient of reactivity to indicate that its reactivity decreases when its temperature increases. Using such a material as fuel means fission reduces as the fuel temperature increases.
+
+*'''Use of a neutron reflector'''
+Surrounding a spherical critical mass with a neutron reflector further reduces the mass needed for criticality. A good neutron reflector is beryllium metal. This increases the rate of neutron collisions, resulting in supercriticality.
+
+==Critical mass of a bare sphere==
+right|251px|thumb|''Top:'' A [[sphere of fissile material is too small to allow the neutron reflector increases the efficiency of the reactions and also allowing the reaction to become self-sustaining.]]
+
+The shape with minimal critical mass and the smallest physical dimensions, is a sphere. 
+
+Bare-sphere critical masses at normal density of some isotopes whose half-lives exceed 100 years are listed in the following table.
+
+{| class="wikitable" 
+|- 
+! Isotope !! Critical Mass !! Diameter !! Link
+|-
+|protactinium-231 || 750±180 kg || 45±3 cm
+|-
+| uranium-233 || 15 kg || 11 cm || [http://www.nti.org/e_research/cnwm/overview/technical2.asp]
+|-
+| uranium-235 || 52 kg || 17 cm || [http://www.nti.org/e_research/cnwm/overview/technical2.asp]
+|-
+| neptunium-236 || 7 kg || 8.7 cm || [http://europa.eu.int/comm/energy/nuclear/transport/doc/irsn_sect03_146.pdf]
+|-
+| neptunium-237 || 60 kg || 18 cm || [http://www.isis-online.org/publications/fmct/book/New%20chapter%205.pdf],[http://www.lanl.gov/news/index.php?fuseaction=home.story&story_id=1348]
+|-
+| plutonium-238 || 9.04&ndash;10.07 kg || 9.5-9.9 cm ||  [http://sti.srs.gov/fulltext/ms9900313/ms9900313.html]
+|-
+| plutonium-239 || 10 kg || 9.9 cm ||  [http://www.nti.org/e_research/cnwm/overview/technical2.asp],[http://sti.srs.gov/fulltext/ms9900313/ms9900313.html]
+|-
+| plutonium-240 || 40 kg || 15 cm || [http://www.nti.org/e_research/cnwm/overview/technical2.asp]
+|-
+| plutonium-241 || 12 kg || 10.5 cm || [http://www.rmi.org/images/other/Security/S80-01_NucWeaponsAndPluto.pdf]
+|-
+| plutonium-242 || 75&ndash;100 kg || 19-21 cm || [http://www.rmi.org/images/other/Security/S80-01_NucWeaponsAndPluto.pdf]
+|-
+| americium-241 || 55&ndash;77 kg || 20-23 cm || [http://typhoon.tokai-sc.jaea.go.jp/icnc2003/Proceeding/paper/6.5_022.pdf Dias et. al.]
+|-
+| americium-242m || 9&ndash;14 kg || 11-13 cm || ibid.
+|-
+| americium-243 || 180&ndash;280 kg || 30-35 cm || ibid.
+|-
+| curium-243 || 7.34&ndash;10 kg || 10-11 cm || [http://wwwsoc.nii.ac.jp/aesj/publication/JNST2002/No.10/39_1072-1085.pdf]
+|-
+| curium-244 || (13.5)&ndash;30 kg || (12.4)&ndash;16 cm || [http://wwwsoc.nii.ac.jp/aesj/publication/JNST2002/No.10/39_1072-1085.pdf]
+|-
+| curium-245 || 9.41&ndash;12.3 kg || 11-12 cm || [http://wwwsoc.nii.ac.jp/aesj/publication/JNST2002/No.10/39_1072-1085.pdf]
+|-
+| curium-246 || 39&ndash;70.1 kg || 18-21 cm || [http://wwwsoc.nii.ac.jp/aesj/publication/JNST2002/No.10/39_1072-1085.pdf]
+|-
+| curium-247 || 6.94&ndash;7.06 kg || 9.9 cm || [http://wwwsoc.nii.ac.jp/aesj/publication/JNST2002/No.10/39_1072-1085.pdf]
+|-
+| californium-249 || 6 kg || 9 cm || [http://europa.eu.int/comm/energy/nuclear/transport/doc/irsn_sect03_146.pdf]
+|-
+| californium-251 || 5 kg || 8.5 cm || [http://europa.eu.int/comm/energy/nuclear/transport/doc/irsn_sect03_146.pdf]
+|}
+
+The critical mass for lower-grade uranium depends strongly on the grade: with 20 % U-235 it is over 400 kg; with 15 % U-235, it is well over 600 kg.
+
+The critical mass is inversely proportional to the square of the density: if the density is 1% more and the mass 2% less, then the volume is 3% less and the diameter 1% less. The probability for a neutron per cm travelled to hit a nucleus is proportional to the density, so 1% more, which compensates that the distance travelled before leaving the system is 1% less. This is something that must be taken into consideration when attempting more precise estimates of critical masses of plutonium isotopes than the rough values given above, because plutonium metal has a large number of different crystal phases which can have widely varying densities.
+
+Note that not all neutrons contribute to the chain reaction. Some escape. Others undergo radiative capture. 
+
+'''臨界質量'''是指維持核子連鎖反應所需的裂變材料質量。不同的可裂變材料，受核子的性質(如裂變橫切面)、物理性質、物料型狀、純度、是否被中子反射物料包圍、是否有中子吸收物料等等因素影響，而會有不同的臨界質量。
+
+剛好可能以產生連鎖反應的組合，稱為已達'''臨界點'''。比這樣更多質量的組合，核反應的速率會以指數增長，稱為'''超臨界'''。如果組合能夠在沒有延遲放出中子之下進行連鎖反應，這種臨界被稱為'''即發臨界'''，是超臨界的一種。即發臨界組合會產生核爆炸。如果組合比臨界點小，裂變會隨時間減少，稱之為次臨界。
+
+恩里科·費米最先發現超臨界組合，不一定同時是超過即發臨界。他的發現開展了受控制的連鎖反應的研究，後來發展的核子反應堆及核能都是出於這一發現。
+
+==球狀的臨界質量==
+
+能夠以最少的物料到達臨界質量的形狀是球形。如果在四週加以中子反射物料，臨界質量可以更少。有中子反射的球形鈾-235臨界點為15公斤左右。鈈則為10公斤左右。
+
+以下為各種半衰期超過100年的同位素，在普通球形，沒有中子反射之下的臨界質量:

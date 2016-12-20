@@ -1,0 +1,337 @@
+Ez a cikk az operációs rendszerek szócikkeinek listáját tartalmazza.
+
+== Korai és történelmileg fontos rendszerek ==
+* CTSS (A Compatible Timeshare System, az MIT és Corbato és mások által fejleszetett operációs rendszer)
+* Incompatible Timesharing System (rövidítve ''ITS,'' az MIT-ben fejlesztették a Digital Equipment Corporation PDP-6 és PDP-10 mainframe-jeihez)
+* THE multiprogramming system (Edsger Dijkstra és ''sokan mások'' által fejlesztve)
+*GE és az MIT között)
+*Leo Computers, Leo III-nek fejlesztették 1962-ben)
+*RC 4000 Multiprogramming System (a Regnecentralen által fejlesztett rendszer, 1969-ből)
+
+== Korai, védett mikroszámítógép-rendszerek ==
+* Apple Computer által fejlesztett Apple DOS (korai változatai Read-only memory firmware-rel voltak ellátva, valamint Integer BASIC-kel; a későbbi változatok már tartalmaztak egy Microsoft BASIC fordítót)
+* Business Operating System (rövidítve ''BOS,'' platformfüggetlen, parancssoros rendszer)
+* Commodore PET, Commodore 64, Commodore VIC-20
+* A nagyon első CP/M-86 s végül – természetesen – a PC-DOS)
+* Sinclair Micro és QX stb.
+* TRS-DOS, NEW-DOS, ROM OS (leginkább Microsoft BASIC implementációk voltak, fájlrendszer kiegészítésekkel)
+* TI-99/4A
+* Technical Systems Consultants fejlesztette
+* Flex (a Technical Systems Consultants fejlesztette a Motorola 6800 alapú mikroszámítógépekre: SWTPC, Tano, Smoke Signal Broadcasting, Gimix stb.)
+* mini-FLEX (TSC 5.25"-es hajlékonylemezes 6800-alapú mikrogépekre)
+* MOBI-X (hordozható adatgyűjtő INTEL 8bites mikroszámítógépre, magyar szabadalom)
+*TSCfejlesztette a Motorola 6809 alapú mikroszámítógépekre)
+*TSC fejlesztette a 5.25" lemezes, 6800 alapú gépekhez)
+*CMT-ROS
+
+== Unix-szerű és más POSIX-kompatibilis rendszerek == 
+* AIX (Unix) – IBM
+* Amoeba (kutatórendszer) – Andrew S. Tanenbaum
+* Syllable)
+* A/UX (Unix-alapú rendszer) – Apple
+* Berkeley Software Distribution (Unix; a Digital Equipment Corporation VAX hardverére)
+* Cromix (Unix-emuláló rendszer) – Cromemco
+* Coherent (Unix-emuláló rendszer PC-alapú számítógépekhez) – Mark Williams és társai
+* DNIX
+* Digital UNIX – később HP (Tru64)
+* FreeBSD (a CSRG BSD Unix alapjaira épült nyílt forráskódú [„open source”] rendszer)
+* GNU/Hurd 
+* GNU/Linux (lásd: Linux)
+* HP
+* IRIX – SGI
+* LainOS (FreeBSD alapokról indított rendszer)
+* Linux (szabad forráskódú, Unixhoz hasonló kernel)
+* Mac OS X –Apple Computer
+* Minix – Andrew S. Tanenbaum
+* MenuetOS
+* NetBSD (a CSRG utáni nyílt forráskódú BSD-fejlesztés)
+* NeXTSTEP
+* OS-9 (Motorola 6809-alapú gépekre)
+* OS-9/68k (Motorola 680x0-alapú gépekre)
+* OS-9000 (OS-9; C-ben íródott, Intel és más processzorokra)
+* OS/360
+* OSF/1 
+* OpenBSD (a CSRG utáni nyílt forráskódú BSD-fejlesztés)
+* Plan 9 (hálózati rendszer) – Bell Labs
+* QNX (POSIX, mikrokerneles rendszer; „valósidejű”, beépített rendszerekben)
+* RiscOS
+* SCO UNIX (a Caldera megvette az, majd visszanevezte SCO-ra) – SCO
+* Solaris – Sun Microsystems
+* Solaris) – Sun Microsystems
+* Unix System V (AT&T Unix, „SVr4” volt a negyedik kiadás)
+* UNIX – Bell Labs, eredetileg Ken Thompson
+* UNIflex (Unix-emuláló rendszer) Motorola 6809-alapú rendszerekhez; SWTPC, GIMIX stb.) – TSC
+* Ultrix (a DEC első Unix verziója, a VAX és PDP-11 gépekhez; BSD-alapú)
+* UniCOS
+* Xenix (különféle hardverekre) – Microsoft Corporation
+* z/OS (az IBM legutolsó ún. „mainframe” rendszere)
+
+== Általános, alapszintű, nem-UNIX és egyéb rendszerek ==
+* AOS (lásd: Bluebottle)
+* AROS (az Amiga kutatási rendszere)
+* Bluebottle (az Oberon operációs rendszer továbbfejlesztése; előző neve AOS volt)
+* Control Program/Monitor-80 (CPM)
+* MP/M-80 (CP/M-86-alapú, a Digital Research által továbbfejlesztett változat)
+* UCSD P-system (hordozható [platformfüggetlen] teljes fejlesztői környezet) – kaliforniai San Diegó-i Egyetem tanulói Ken Bowles prof. vezetésével
+* FLEX9 (Motorola 6809-alapú gépek számára; a FLEX jogutódja, amely Motorola 6800-alapú gépekre íródott) – TSC
+* SSB-DOS (a Smoke Signal Broadcasting részére; a FLEX egy változata) – TSC
+* CP/M-86 (CP/M Intel 8088/86 gépekre) – Digital Research
+* DESQView (ablakkezelő grafikus felhasználói felület [GUI] MS-DOS-ra, kb. 1985)
+* DR-DOS (MS-DOS-kompatibilis rendszer; még ma is használják, speciális területeken) – Digital Research, később Novell,  majd Caldera
+* FreeDOS (nyílt forráskódú MS-DOS-kompatibilis változat)
+* GEM (grafikus felhasználói felület [GUI] MS-DOS/DR-DOS-ra) – Digital Research
+* GEOS
+* MS-DOS (IBM PC-kompatibilis számítógépekhez) – Microsoft
+* PC-DOS (IBM DOS)
+* Mach (a NestStephez hasonló) – CMU
+* NewOS
+* Oberon (a „Ceres” és a „Chameleon” munkaállomás-projekt keretében készült) – ETH-Zurich: Niklaus Wirth)
+* OS/2 (Windows-/MS-DOS-kompatibilis rendszer; jelentős technológiai fejlesztés volt, a korai Windows és MS-DOS alapjain. Az Odin nyílt forráskódú rendszer Windows 9x kompatibilitást biztosít az OS/2-nek.) – Microsoft, később IBM
+* OS-9 (Unix-emuláló rendszer a Microware-től, Motorola 6809-alapú gépekre)
+* OS-9/68k (Unix-emuláló rendszer a Microware-től, Motorola 680x0-alapú gépekre; OS-9-ből fejlesztették tovább)
+* OS-9000 (hordozható Unix-emuláló rendszer a Microware-től; volt Intel x86-os verziója is)
+* ReactOS (nyílt forráskódú Windows NT-klón)
+* SkyOS
+* TripOS
+* TUNES
+* QDOS (új Intel 808x processzorokra) – Seattle Computer Products (Tim Paterson), később Microsoft (MS-DOS/PC-DOS)
+* VisiOn (az egyik első grafikus felület PC-re, üzletileg sikertelen)
+* VME – International Computers Limited
+* MorphOS – Genesi
+* NetWare – Novell
+* NeXTStep
+* Plan 9, Inferno (hálózati rendszer) – Bell Labs Computer Research
+* Primos Prime Computer
+* BS2000 Siemens AG
+* Visopsys
+
+==Acorn==
+* Arthur
+* ARX
+* RISC OS
+* RISCiX
+
+==Amiga== 
+* AmigaOS
+
+==Atari ST==
+* TOS
+* MultiTOS
+* MiNT
+
+== Классификация операционных систем ==
+Операционные системы могут быть классифицированы по базовой технологии (проприетарная или открытая), развивается ли в настоящее время (устаревшие DOS или NextStep или современные GNU/Linux и Windows), для рабочих станций (DOS, Apple), или для серверов (ОС реального времени и встроенные ОС (VxWorks,QNX), PDA, или специализированные (управление производством, обучение, и т.&nbsp;п.).
+
+== Ранние, исторически значимые ==
+* CTSS (The Compatible TimeShare System, разработанная в MIT — Массачусетском Технологическом Институте)
+* Incompatible_Timesharing_System (The Incompatible Timeshare System, разработанная в MIT для серверов DEC 10 / 20)
+* операционная система THE (разработана Эдсгером Дейкстрой и другими)
+* GE, и MIT)
+* Leo Computers, Leo III в 1962.
+
+=== Ранние, проприетарные ===
+* Apple Computer (ранние версии находились в интерпретатором языка Integer BASIC, поздние версии комплектовались Microsoft BASIC)
+* Business Operating System (кросс-платформенная, основанная на командной строке
+* Commodore PET, Commodore 64, и Commodore VIC-20,
+* Первые ОС для IBM-PC (CP/M-86, PC-DOS)
+* Sinclair Micro и QX, и подобные.
+* файловой системы)
+* TI99-4
+* Technical Systems Consultants для микрокомпьютеров, построенных на 6809: SWTPC, Tano, Smoke Signal Broadcasting, Gimix и других
+* HDOS — Heath DOS, для микрокомпьютеров.
+* суперкомпьютеров Cray Research Inc.
+
+== Проприетарные ==
+
+=== Acorn ===
+* Arthur
+* ARX
+* MOS (на BBC Micro и BBC Master)
+* RISC OS
+* RISCiX
+
+=== Atari ST ===
+* TOS
+* MultiTOS
+* MiNT
+
+=== Apple/Macintosh ===
+* A/UX
+* Apple Darwin
+* Apple DOS
+* GS/OS
+* Mac OS
+* Mac OS 8
+* Mac OS 9
+* Mac OS X
+** 10.1 Puma (Пума)
+** 10.2 Jaguar (Ягуар)
+** 10.3 Panther (Пантера)
+** 10.4 Tiger (Тигр)
+** 10.5 Leopard (Леопард)
+* ProDOS
+
+=== Корпорация Be ===
+* BeOS
+* BeIA
+* Zeta
+
+=== Novell ===
+* Netware 3.x, в том числе Netware v3.12
+* Netware 4.x
+* Netware 5.x
+* Netware 6.x
+
+=== DEC/HP ===
+* AIS
+* OS-8
+* ITS (для PDP-6 и PDP-10)
+* TOPS-10 (для PDP-10)
+* TOPS-20 (для PDP-10)
+* WAITS
+* TENEX (от BBN)
+* RSTS/E (работала на нескольких типах машин, в основном PDP-11)
+* RSX-11 (многопользовательская, многозадачная ОС для PDP-11s)
+* RT-11 (однопользовательская для PDP-11)
+* VMS (от DEC для серии компьютеров VAX, позднее переименована в OpenVMS)
+* HP
+* OSF/1 (от DEC; дважды переименована, сначала в Digital UNIX, затем в Tru64 UNIX)
+
+=== IBM ===
+* IBSYS
+* OS/2
+** OS/2 v1.0 Выпущенная в декабре 1987, OS/2 1.00 была первой операционной системой со встроенным многозадачным режимом i80286.
+** OS/2 v1.10SE В октябре 1988 года вышла OS/2 версии 1.10SE (Standard Edition).
+** OS/2 v1.10EE Год 1989
+** OS/2 v1.20 Год 1989. Ноябрьские версии OS/2 1.20 (SE и EE) предложили пользователю улучшенный Presentation Manager.
+** OS/2 v1.30 Год 1991. Также SE и EE)
+** OS/2 v2.00 Весна 1992 года. Это первая OS/2 система, требующая процессора i386 с его защищенным режимом.
+** OS/2 v2.10 Май 1993 года. Для снижения цены на свои продукты в конце 1993 года IBM выпустила версию OS/2 2.11 не содержавшую подсистемы Win-OS/2 и инсталлировавшуюся поверх Windows 3.1
+** OS/2 v3.0 «Warp» и «Warp Connect» В октябре 1994 года состоялся дебют OS/2 Warp3.
+** OS/2 v4.0 «Merlin» Сентябрь 1996 года.
+** OS/2 Warp 4.5 Server for E-business «Aurora» В апреле 1999-го на рынке представлен новый продукт IBM OS/2 Warp4.5 Server for E-business (Aurora). Дальнейшие обновления получили имена CP1 и CP2 (Convenience Package), базирующиеся на Aurora.
+** eComStation
+* AIX (разновидность Unix)
+* AIX/RT
+* AIX/6000
+* AIX PC
+* AIX/ESA
+* AIX/370
+* AIX 5L
+* OS/400
+* VM/CMS
+* DOS/360
+* DOS/VSE
+* OS/360 (первая ОС, разработанная для архитектуры System 360)
+* MFT (позднее называется OV/VS1)
+* MVT (позднее называется OV/VS2)
+* SVS
+* MVS (поздняя разновидность MVT)
+* TPF
+* ALCS
+* OS/390
+* z/OS, следующая версия IBM OS/390
+* z/VM (поздняя разновидность VM)
+* z/VSE (поздняя разновидность VSE)
+
+* Basic Operating System (первая ОС, реализованная для архитектуры System 360)
+* PC-DOS OEM-версия MS-DOS, впоследствии дорабатывалась самостоятельно.
+
+* ОС ЕС ЭВМ серия не-IBM’овских IBM-совместимых операционых систем
+
+=== ICT/ICL ===
+* GEORGE
+* VME
+* DME
+* TME
+
+=== Microsoft ===
+* MSX-DOS
+* MS-DOS
+* Microsoft Windows
+** Windows 1.0
+** Windows 2.0 (для 80286)
+** Windows 3.0 первая версия, имевшая коммерческий успех
+** Windows 3.1
+** Windows 3.11
+** Windows 95
+** Windows 98
+** Windows Me
+** Дэвидом Катлером)
+** Windows NT 3.5
+** Windows NT 4.0
+** Windows 2000 (иначе, Windows NT v5.0)
+** Windows XP (внутренне основана на Win2K; версии: Home, Professional, Embedded, Tablet PC Edition, Media Center Edition)
+** Windows Server 2003
+** Windows Vista
+** Windows Vista Server 2008
+** Windows Home Server
+** Windows Seven
+* Xenix (лицензированная версия Unix; продана SCO в 1990х)
+* Windows CE (compact edition — компактная редакция, для наладонных компьютеров)
+* Pocket PC, Windows Mobile — современные версии Windows CE
+
+=== Strawberry Development Group. ===
+* EROS
+* CapROS
+
+=== Sun Microsystems ===
+* SunOS, Unix-подобная
+* Solaris, Solaris 1.x) и Solaris 2.x, 7 и более поздние)
+* Java Desktop System
+
+=== Другие проприетарные Unix-подобные и другие POSIX-совместимые ОС ===
+* Aegis/OS (Apollo Computer)
+* Cromix (Unix-emulating OS from Cromemco)
+* Coherent (Эмулирующая Unix ОС от Mark Williams Co. для персональных компьютеров)
+* DNIX
+* Dynix
+* Idris
+* IRIX от SGI
+* NeXTSTEP
+* OPENSTEP
+* OS-9 Unix-подобная RTOS. (Эмулирующая Unix ОС от Microware для процессора Motorola 6809)
+** OS-9/68k (Эмулирующая Unix ОС от Microware для процессора Motorola 680x0; создана из OS-9)
+** OS-9000 (портативная эмуляция Unix от Microware; одна из реализаций предназначена для Intel x86)
+* QNX (POSIX, микроядерная операционная система; используется, в основном, во встроенных системах реального времени)
+* Rhapsody
+* RiscOS
+* SCO UNIX (от Santa Cruz Operation, куплена компанией Caldera, позже переименованной в SCO)
+* System V (реализация AT&T Unix, 'SVr4' 4й релиз). Фактически последний «чистый» UNIX. Всё остальное обычно называют UNIX подобным…
+* UNIflex (Эмулирующая Unix ОС от TSC для DMA-совместимых, Motorola 6809 с расширенной адресацией; например, SWTPC, GIMIX, …)
+* Ultrix (первая версия Unix для VAX и PDP-11 от DEC, основана на BSD)
+* Unicos (Unix для суперкомпьютеров Cray Research Inc.)
+* Venix
+
+== Свободные ==
+
+=== Unix-подобные ===
+
+* BSD (Berkeley Software Distribution, реализация Unix для DEC VAX) и её вариации:
+** 386BSD
+** FreeBSD
+** OpenBSD много внимания уделяет безопасности
+** NetBSD
+** DragonFly BSD
+** PC-BSD
+** Midnight BSD
+* Hurd) (ОС, реализованная как набор серверов работающих на микроядре Mach)
+** микроядре L4)
+right|100px|right
+* GNU/Linux
+** Linux (наиболее популярное свободное Unix-подобное ядро)
+** ядре «Linux» и использует много кода AtheOS, подобна BeOS)
+* Solaris)
+* Plan 9 (распределённая ОС, разработана Bell Labs)
+** Plan B (распределённая ОС, произошедшая от Plan 9)
+** Off++ (распределённая ОС, произошедшая от Plan 9)
+* Inferno (виртуальная ОС, разработана Bell Labs)
+* SSS-PC (разработана в Токийском Университете)
+
+=== Исследовательские Unix-подобные ===
+* Кена Томпсона)
+* Mach (от разработчиков ядер ОС в CMU; см. NeXTSTEP)
+* Minix (учебная ОС от Эндрю Таненбаума)
+* Amoeba (разработана Эндрю Таненбаумом)
+* K42 (разрабатывается в IBM)
+* ДЕМОС (советский клон UNIX)

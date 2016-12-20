@@ -1,0 +1,89 @@
+<!--tabella per la realizzazione di una scheda film-->
+<!--questa tabella memorizza solo i parametri - la struttura/layout è nel template Film-->
+<!--NON modificare la prima riga e le righe dove compare il simbolo uguale-->
+<!--NON inserire ritorni a capo salvo nei campi dove espressamente previsto-->
+{{Film
+|titoloitaliano = L'ultimo viaggio dell'arca di Noè
+|immagine =
+|didascalia=
+|titolooriginale = The Last Flight of Noah's Ark
+|nomepaese = USA
+|annoproduzione = 1980
+|titoloalfabetico = Ultimo viaggio dell'arca di Noè (L')
+|
+durata = 97' <!--durata della pellicola -->
+|
+tipocolore = Colore <!--colore della pellicola - da scegliere tra 'colore' o 'B/N'-->
+|
+tipoaudio = sonoro <!--audio della pellicola - da scegliere tra 'muto' o 'sonoro'-->
+|
+nomegenere = avventura <!--genere del film - scelto esclusivamente tra quelli indicati nel progetto-->
+|
+nomeregista = Charles Jarrott <!--nome del regista - con doppie parentesi quadre-->
+|
+nomesoggetto = Ernest K. Gann <!--nome del soggetto - con doppie parentesi quadre -->
+|
+nomesceneggiatore = George Arthur Bloom, Steven W. Carabatsos, Sandy Glass <!--nome dello sceneggiatore - con doppie parentesi quadre-->
+|
+nomeattori = *Elliott Gould: Noah Dugan 
+*Geneviève Bujold: Bernadette Lafleur 
+*Ricky Schroder: Bobby  
+*Vincent Gardenia: Stoney 
+*Tammy Lauren: Julie 
+*John Fujioka: Cleveland 
+*Yuki Shimoda: Hiro 
+*John P. Ryan: Coslough 
+*Dana Elcar: Benchley 
+*Ruth Manning: Charlotte Braithwaite 
+*Arthur Adams: Leipzig Manager 
+*Austin Willis: Slabotsky 
+*Peter Renaday: Irate Pilot 
+*Bob Whiting: Chaplain 
+<!--nome degli attori - gli attori vanno inseriti uno per riga, iniziando con un *, seguito dal nome dell'attore con doppie parentesi quadre, seguito dal nome del personaggio senza parentesi quadre-->
+|
+nomefotografo = Charles F. Wheeler <!--nome del fotografo - con doppie parentesi quadre -->
+|
+nomemontaggio = Gordon D. Brenner <!--nome del responsabile del montaggio - con doppie parentesi quadre -->
+|
+nomeeffettispeciali = <!--nome del responsabile effetti speciali della pellicola - con doppie parentesi quadre -->
+|
+nomemusicista = Richard Bowden, Maurice Jarre <!--nome di chi ha realizzato la colonna sonora - con doppie parentesi quadre -->
+|
+nomescenografo = <!--nome dello scenografo - con doppie parentesi quadre -->
+|nomepremi =  <!--eventuali premi vinti -->
+}}
+<!-- fine della tabella film -->
+
+'''''L'ultimo viaggio dell'arca di Noè''''' è un film del 1980, diretto dal regista Charles Jarrott.
+
+== Trama ==
+
+Noè Dugan, aviatore un po' balordo, accetta di trasportare con un vecchio B29 la giovane missionaria Bernadette Lafleur con alcuni animali su un'isola del Pacifico dove è attesa dai locali abitanti. 
+A causa di una tempesta sono costretti ad un atterraggio di fortuna su un'altra isola dove vi trovano alcuni reduci giapponesi. Insieme a loro, Noè e Bernadette costruiscono un battello di fortuna e lasciano l'isola...
+
+{{Infobox_Film |
+  name     = The Last Flight of Noah's Ark|
+  image          =  |
+  imdb_id       = 0081031|
+  producer         = Robert Fellows<br>John Wayne |
+  director       = Charles Jarrott |
+  writer         = George Arthur Bloom<br>Steven W. Carabatsos<br>Ernest K. Gann (story)<br>Sandy Glass |
+  starring       = Elliott Gould<br>Geneviève Bujold<br>Rick Schroder |
+  music         = Richard Bowden<br>Maurice Jarre |
+  cinematography = Charles F. Wheeler |
+  editing         = Gordon D. Brenner |
+  distributor    = Walt Disney Productions |
+  released   = June 25, 1980 |
+  runtime        = 97 min. |
+  language = English |
+}}
+
+'''''The Last Flight Of Noah's Ark''''' is a film released by Walt Disney Studios on June 25, 1980. The film stars Elliott Gould, Geneviève Bujold and Rick Schroder.
+
+==Plot==
+A jaded pilot named Noah Dugan (Gould) is South Pacific island aboard a B-29 bomber. Bernadette LaFluer (Bujold) is the prim missionary who accompanies him. Bernadette has raised the animals at an orphanage and is close to two of the orphans Bobby and Julie (Schroeder and Tammy Lauren). The two children cannot bear to part with their beloved animals and stow away aboard the bomber as it takes off. During the flight, the plane goes off course and Dugan is forced to crash land on an uncharted island. While on the island, the group meets two elderly Japanese soldiers who have lived there alone for 35 years. At first they treat them as enemies as they are unaware that World War II is over (see Japanese holdout). However, Bernadette wins their friendship and trust and they propose to turn the plane into a boat to sail back to civilization. In the meantime Noah and Bernadette (or Bernie as he calls her) fall in love. The two had resented each other at first. Bernie even paints the logo "Noah's Ark" on the converted boat-plane. The animals are also brought on board at Bobby's urging. Bobby resents Dugan at first, but the two eventually develop a close bond, especially after Dugan saves Bobby's life when the boy falls overboard while fishing for sharks. In the end, the characters are rescued by a United States Coast Guard cutter. The ending of the film shows Noah and Bernadette being married and then embracing the orphans as their own children.
+
+==Background and production==
+This film was released to many drive-in theaters on a double bill with ''101 Dalmatians'' (another Disney classic). The advertising spiel for this was "treat your family to a Disney summer".
+
+Elliott Gould has said that this was the finest film he ever did and the one he was proudest of. 

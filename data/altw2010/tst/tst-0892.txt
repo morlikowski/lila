@@ -1,0 +1,21 @@
+Dalam geometri, fizik keadaan pepejal dan mineralogi, terutanma dalam menyatakan struktur hablur, satu-satu '''sel primitif''', ialah sel minimum bergantung kepada satu titik kekisi bagi sesuatu struktur dalam 2 matra, 3 matra atau lain-lain matra. Satu kekisi boleh dikelaskan dengan ciri geometri sel primitif tersebut.
+
+Sel primitif ialah kawasan asas yang bergantung kepada peralihan simetri sahaja. Jika terdapat pertambahan simetri, kawasan asas tersebut semakin kecil.
+
+Hablur boleh dikategorikan oelh kekisinya dan atom yang terdapat dalam sel primitif (''asas''). Satu sel akan memenuhi semua ruangan kekisi tanpa meninggalkan ruang kosong dalam pengulangan operasi peralihan hablur.
+
+''Vektor peralihan primitif'' digunakan untuk mentakrifkan vektor peralihan sesuatu hablur, <math> \vec T </math>,  dan juga memberikan sel kekisi isi padu terkecil bagi kekisi tertentu. ''Kekisi'' dan vektor peralihan <math> \vec a_1 </math>, <math> \vec a_2 </math>, and <math> \vec a_3 </math> adalah '''''primitif''''' jika atom-atomnya kelihatan sama dari mana-mana titik kekisi menggunakan integer <math> u_1 </math>, <math> u_2 </math>, dan <math> u_3 </math>.
+
+:<math> \vec T = u_1\vec a_1 + u_2\vec a_2 + u_3\vec a_3 </math>
+
+In geometry, solid state physics and mineralogy, particularly in describing crystal structure, a '''primitive cell''', is a minimum cell corresponding to a single lattice point of a structure with translational symmetry in 2D, 3D, or other dimensions. A lattice can be characterized by the geometry of its primitive cell.
+
+The primitive cell is a fundamental domain with respect to translational symmetry only. In the case of additional symmetries a fundamental domain is smaller.
+
+A crystal can be categorized by its lattice and the atoms that lie in a primitive cell (the ''basis'').  A cell will fill all the lattice space without leaving gaps by repetition of crystal translation operations.
+
+''Primitive translation vectors'' are used to define a crystal translation vector, <math> \vec T </math>,  and also gives a lattice cell of smallest volume for a particular lattice.  The ''lattice'' and translation vectors <math> \vec a_1 </math>, <math> \vec a_2 </math>, and <math> \vec a_3 </math> are '''''primitive''''' if the atoms look the same from any lattice points using integers <math> u_1 </math>, <math> u_2 </math>, and <math> u_3 </math>.
+
+:<math> \vec T = u_1\vec a_1 + u_2\vec a_2 + u_3\vec a_3 </math>
+
+The primitive cell is defined by the primitive axes (vectors) <math> \vec a_1 </math>, <math> \vec a_2 </math>, and <math> \vec a_3 </math>.  The volume, <math> V_c </math>, of the primitive cell is given by the parallelepiped from the above axes as,

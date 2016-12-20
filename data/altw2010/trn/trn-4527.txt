@@ -1,0 +1,57 @@
+'''Psychrometrie''' ist die Thermodynamik der feuchten Luft. Alle Zustände feuchter Luft
+lassen sich als Gas-Dampf-Gemisch (trockene Luft wird als "Gas" bezeichnet, Wasserdampf als "Dampf") von trockener Luft und Wasserdampf darstellen. Das Gas-Dampf-Gemisch besteht also aus kondensierenden und nicht-kondensierenden Komponenten und verhält sich, wie auch seine beiden Komponenten, bei den in der Meteorologie und der Klimatechnik (Raumlufttechnik) typischen Randbedingungen bezüglich Temperatur und Druck ähnlich wie ideale Gase.  
+
+Darstellen lassen sich die Zustände und Zustandsänderungen der feuchten Luft im h,x-Diagramm (Enthalpie vs. Dampfbeladung der Luft). In Deutschland wird hauptsächlich das Mollier-Diagramm verwendet, während in den USA das Carrier-Diagramm Anwendung findet.  Beim Mollier-Diagramm wurde das betrachtete Gebiet der mit Wasserdampf ungesättigten Luft durch Drehung der Abszisse des Koordinatensystems vergrößert. Die Drehung wurde so vorgenommen, dass die Isotherme für Null Grad Celsius gerade zur Waagerechten wird. Die Enthalpielinien verlaufen dementsprechend nicht waagerecht, sondern verlaufen mit Gefälle der Steigung, die der Verdampfungswärme von Wasser bei Null Grad Celsius entspricht.  Im Diagramm sind neben den Isothermen auch die relative Luftfeuchte und die Dichte des Luftgemisches als Parameter eingetragen.
+
+Im Mollierdiagramm lassen sich Mischungsvorgänge zweier Luftströme, Erwärmung eines Luftstromes, Kühlung von Luft mit und ohne Entfeuchtung sowie Befeuchtung durch Wasserverdunstung oder Dampf darstellen.
+
+Als ein Beispiel für die praktische Anwendung der Psychrometrie sei die Bestimmung der Luftfeuchtigkeit über die Temperaturdifferenz zweier Thermometer genannt. Eine solches Messgerät nennt man Psychrometer.
+
+Hierbei wird eines der Thermometer mit Wasser befeuchtet (Feuchtkugel-Thermometer = wet bulb). Durch Verdunstung wird das Thermometer abgekühlt. Die Abkühlung ist um so stärker, je niedriger die relative Luftfeuchte ist. (genügende Luftbewegung vorausgesetzt)
+
+'''Psychrometrics''' or '''psychrometry''' are terms used to describe the field of engineering concerned with the determination of physical and thermodynamic properties of gas-vapor mixtures. The term derives from the Greek ''psuchron'' (ψυχρόν) ([http://www.perseus.tufts.edu/cgi-bin/ptext?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3D%23115938 cold]) and ''metron'' (μέτρον) ([http://www.perseus.tufts.edu/cgi-bin/ptext?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3D%2367261 means of measurement]).
+
+==Common applications==
+The principles of psychrometry apply to any physical system consisting of gas-vapor mixtures.  The most common system of interest, however, are mixtures of water vapor and air because of its application in heating, ventilating, and air-conditioning and meteorology.
+
+==Psychrometric ratio==
+The '''psychrometric ratio''' is the ratio of the heat transfer coefficient to the product of mass transfer coefficient and humid heat at a wetted surface.  It may be evaluated with the following equation<ref>http://www.che.iitb.ac.in/courses/uglab/manuals/coollabmanual.pdf, accessed 20080408</ref><ref>http://www.probec.org/fileuploads/fl120336971099294500CHAP12_Dryers.pdf, accessed 20080408</ref>:
+
+:<math>r = \frac {h_c} {k_y c_s}</math>
+
+:where:
+::*'''<math>r</math>''' = Psychrometric ratio, dimensionless
+::*'''<math>h_c</math>''' = convective heat transfer coefficient, W m<sup>-2</sup> K<sup>-1</sup>
+::*'''<math>k_y</math>''' = convective mass transfer coefficient, kg m<sup>-2</sup> s<sup>-1</sup>
+::*'''<math>c_s</math>''' = humid heat, J kg<sup>-1</sup> K<sup>-1</sup>
+
+'''Humid heat''' is the constant-pressure specific heat of moist air, per unit mass of dry air.<ref>http://www.engin.umich.edu/class/che360/coursepack/ch13-cooltower.doc</ref>
+
+The psychrometric ratio is an important property in the area of psychrometrics as it relates the absolute humidity and saturation humidity to the difference between the dry bulb temperature and the adiabatic saturation temperature.  
+
+Mixtures of air and water vapor are the most common systems encountered in psychrometry.  The psychrometric ratio of air-water vapor mixtures is approximately unity which implies that the difference between the adiabatic saturation temperature and wet bulb temperature of air-water vapor mixtures is small.  This property of air-water vapor systems simplifies drying and cooling calculations often performed using psychrometic relationships.
+
+==Psychrometric chart==
+thumb|300px|A simple psychrometric chart.
+A psychrometric chart is a graph of the physical properties of moist air at a constant pressure (often equated to an elevation relative to sea level). The chart graphically expresses how various properties relate to each other, and is thus a graphical equation of state.  The thermophysical properties found on most psychrometric charts are:
+
+:'''Dry-bulb''' temperature ('''DBT''') is that of an air sample, as determined by an ordinary thermometer, the thermometer's bulb being dry. It is typically the x-axis, the horizontal axis, of the graph. The SI units for temperature are Celsius; other units are Fahrenheit.
+:'''Wet-bulb''' temperature ('''WBT''') is that of an air sample after it has passed through a constant-pressure, ideal, adiabatic saturation process, that is, after the air has passed over a large surface of liquid water in an insulated channel.  In practice, this is the reading of a thermometer whose sensing bulb is covered with a wet sock evaporating into a rapid stream of the sample air. The WBT is the same as the DBT when the air sample is saturated with water. The slope of the line of constant WBT reflects the heat of vaporization of the water required to saturate the air of a given relative humidity.
+:'''Dew point''' temperature ('''DPT''') is that temperature at which a moist air sample at the same pressure would reach water vapor saturation.  At this saturation point, water vapor would begin to condense into liquid water fog or (if below freezing) solid hoarfrost, as heat is removed.  The dewpoint temperature is measured easily and provides useful information, but is normally not considered an independent property.  It duplicates information available via other humidity properties and the saturation curve.
+:'''Relative Humidity''' ('''RH''') is the ratio of the mole fraction of water vapor to the mole fraction of saturated moist air at the same temperature and pressure. RH is dimensionless, and is usually expressed as a percentage. Lines of constant RH reflect the physics of air and water: they are determined via experimental measurement. Note: the notion that air "holds" moisture, or that moisture dissolves in dry air and saturates the solution at some proportion, is an erroneous (albeit widespread) concept (see Relative humidity for further details). 
+:'''Humidity Ratio''' (also known as Moisture Content, Mixing Ratio, or Specific Humidity) is the proportion of mass of water vapor per unit mass of dry air at the given conditions (DBT, WBT, DPT, RH, etc.). It is typically the y-axis, the vertical axis, of the graph. For a given DBT there will be a particular humidity ratio for which the air sample is at 100% relative humidity: the relationship reflects the physics of water and air and must be measured. Humidity Ratio is dimensionless, but is sometimes expressed as grams of water per kilogram of dry air or grains of water per pound of air.
+:'''Specific Enthalpy''' symbolized by ''h'', also called heat content per unit mass, is the sum of the internal (heat) energy of the moist air in question, including the heat of the air and water vapor within. In the approximation of ideal gasses, lines of constant enthalpy are parallel to lines of constant WBT. Enthalpy is given in (SI) joules per kilogram of air or BTU per pound of air.
+:'''Specific Volume''', also called '''Inverse Density''',  is the volume per unit mass of the air sample. The SI units are cubic meters per kilogram of air; other units are cubic feet per pound of dry air.
+
+The versatility of the psychrometric chart lies in the fact that by knowing three independent properties of some moist air (one of which is the pressure), the other properties can be determined.    Changes in ''state'', such as when two air streams mix, can be modeled easily and somewhat graphically using the correct psychrometric chart for the location's air pressure or elevation relative to sea level.  For locations at or below 2000 ft (600 m), a common assumption is to use the sea level psychrometric chart.
+
+The relationship between DBT, WBT, and RH is given by the Mollier diagram (pressure-enthalpy) for water in air, developed by Richard Mollier. Willis Carrier, considered the 'father' of modern air-conditioning, rearranged the Mollier diagram for moist air (its ''T-s'' chart) to allow such graphical solutions.  Many variations and improvements to the psychrometric charts have occurred since, and most charts do not show the specific entropy (''s'') like the Mollier diagram.  ASHRAE now publishes what are considered the modern, standard psychrometric charts, in both I-P and SI units, for a variety of elevations or air pressures.
+
+==How to read the chart==
+The most common chart used by practitioners and students alike is the "ω-t" (omega-t) chart in which the dry bulb temperature (DBT) appears horizontally as the abscissa and the humidity ratios (ω) appear as the ordinates. 
+
+In order to use a particular chart, for a given air pressure or elevation, at least two of the six independent properties must be known (DBT, WBT, RH, humidity ratio, specific enthalpy, and specific volume).  This gives rise to <math>\left({6 \atop 2}\right) = 15</math> possible combinations.
+
+DBT: This can be determined from the abscissa on the x-axis, the horizontal axis
+
+DPT: Follow the horizontal line from the point where the line from the horizontal axis arrives at 100% RH, also known as the ''saturation curve''.

@@ -1,0 +1,73 @@
+{{Infobox Top level domain|
+name=.nr|
+background=#CCF|
+image=CenpacNET|
+introduced=1998|
+type=Najviši Internet domen državnih kodova|
+status=aktivan|
+registry=CenpacNet|
+sponsor=CenpacNet|
+intendeduse=Entiteti povezani s Nauruom|
+actualuse=slaba, osim (neslužbenih) besplatnih redirektiranih poddomena u '''.co.nr'''.|
+restrictions=.gov.nr i .edu.nr su ograničeni na odgovarajuće institucije u Nauruu; osim toga, nema|
+structure=Imena se mogu direktno registrirati na drugom stupnju i na trećem stupnju ispod različitih kategorija; međutim, co.nr ''nije'' jedna od službenih kategorija, nego jedino domena registrirana od strane komapnije koja prodaje pod-domene; registracije drugog stupnja su mnogo skuplje|
+document=[http://cenpac.net.nr/dns/terms.html Sporazum o registraciji]|
+disputepolicy=UDRP|
+website=[http://cenpac.net.nr/ CenpacNet]|}}
+
+'''.nr''' je državnih kodova (davatelja Internet usluga.
+
+==Vanjski linkovi==
+* [http://cenpac.net.nr/ CenpacNet]
+* [http://www.iana.org/root-whois/nr.htm IANA .nr whois information]
+
+N r
+N r
+
+be-x-old:.nr
+
+cv:.nr
+
+diq:.nr
+
+{{Infobox Top level domain
+| name          = .nr
+| background    = #CCF
+| image         = CenpacNET
+| introduced    = 1998
+| type          = Country code top-level domain
+| status        = Active
+| registry      = CenpacNet
+| sponsor       = CenpacNet
+| intendeduse   = Entities connected with Nauru
+| actualuse     = Not much used
+| restrictions  = .gov.nr and .edu.nr are restricted to appropriate institutions in Nauru; otherwise unrestricted
+| structure     = Names can be registered directly at second level or at third level under various categories
+| document      = [http://cenpac.net.nr/dns/terms.html Registration agreement]
+| disputepolicy = UDRP
+| website       = [http://cenpac.net.nr/ CenpacNet]
+}}
+'''.nr''' is the Internet country code top-level domain (ccTLD) for Nauru. .nr domains must be paid, and can be ordered from CenpacNet, Nauru's Internet service provider. 
+
+The setup of .nr was done in 2002 by Franck Martin using specific custom code.
+
+The original configuration of the .nr TLD domain was performed by Shaun Moran of ComTech Communications (Australia) in 1998 as part of the first Internet connectivity on the Island. There was a lengthy process with IANA to get the .nr domain approved and assigned at the time.
+
+== Second-level domains ==
+These are the official second-level domains under which third-level registrations are offered by the registry:
+
+* '''edu.nr''' (restricted)
+* '''gov.nr''' (restricted)
+* '''biz.nr''' (unrestricted)
+* '''info.nr''' (unrestricted)
+* '''net.nr''' (unrestricted)
+* '''org.nr''' (unrestricted)
+* '''com.nr''' (unrestricted)
+
+Note: "co.nr" is not an official hierarchy.
+
+== External links ==
+* [http://www.iana.org/root-whois/nr.htm IANA .nr whois information]
+
+Category:Country code top-level domains
+Category:Communications in Nauru

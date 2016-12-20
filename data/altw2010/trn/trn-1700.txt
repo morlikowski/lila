@@ -1,0 +1,188 @@
+Le '''produit intérieur brut''' (PIB) est un agents résidents à l’intérieur du territoire national. C'est aussi la mesure du revenu provenant de la production dans un pays donné. On parle parfois de production économique annuelle ou simplement de production.
+
+Afin d'éviter que la même production entre plus d'une fois dans le calcul, ne font partie du PIB que les biens et services de consommation et les biens d'équipement), les biens intermédiaires de production étant exclus. Par exemple, le blé avec lequel on fait le pain, est exclu, mais non le pain.
+
+Le produit intérieur brut représente le résultat final de l’activité de production des unités productrices résidentes. C'est un agrégat des comptes nationaux, obtenu en additionnant des grandeurs mesurées par catégories d’agents économiques (ménages, entreprises, administrations publiques).
+
+En France, il est apparu après la Seconde Guerre mondiale, tout comme la comptabilité nationale, à un moment où la priorité était de reconstruire et de moderniser le pays. Le PIB sert souvent d'indicateur de l'activité économique d'un pays ; le PIB par habitant, quant à lui, sert d'indicateur du niveau de vie en donnant une valeur indicative du pouvoir d'achat. Le PIB par habitant n’est pas construit comme un indicateur de la qualité de la vie (qui peut, elle, être mesurée plus précisément par d'autres indicateurs, comme l’indice de développement humain (IDH)).
+
+== Décompositions et calcul du PIB ==
+
+Le PIB est par définition une valeur comptable issue du compte de résultat (produits et coûts) et non du bilan (actif / passif). Il ne mesure que le flux de production, et non un stock de capital ou de dettes.
+
+Le PIB est une mesure de la valeur de l'ensemble des biens et services produits sur le territoire d'un pays donné au cours d'une période donnée (en général, une année, parfois un trimestre), quelle que soit la nationalité des producteurs (ce en quoi il se distingue du PNB<ref>bref rappel PNB = PIB + revenus des facteurs en provenance de l'extérieur - revenus des facteurs versés à l'extérieur</ref>). 
+
+Les revenus issus des avoirs à l’extérieur ne sont pas inclus dans le PIB, mais ils sont ajoutés au PNB pour former le revenu national brut.
+
+Le PIB et la croissance du PIB sont devenus deux des plus importants indicateurs économiques. Croissance économique et croissance du PIB sont devenues synonymes. Une diminution du PIB prolongée sur plusieurs trimestres est une récession économique.
+
+=== Décompositions ===
+
+Le PIB peut se décomposer de trois manières (voir un exemple, pour la France) :
+
+===== Par la production =====
+Le PIB est égal à la somme des valeurs ajoutées des agents économiques résidents, calculée aux prix du marché, à laquelle on ajoute la part de la valeur ajoutée récupérée par l'Etat (Taxe sur la valeur ajoutée et droits de douane) ; 
+
+:;''PIB = Somme des Valeurs Ajoutées Hors Taxe + Taxe sur Valeur Ajoutée + Droits de Douanes
+
+===== Par les dépenses =====
+Le PIB est égal à la somme des emplois finaux intérieurs de biens et de services, c’est-à-dire : la consommation finale effective ('''CF'''), l'investissement (Formation brute de capital fixe ('''FBCF''') dans le jargon statistique), et les variations de stocks ('''VS'''). Cette définition se déduit de l’égalité comptable entre les ressources de l’économie (PIB) et les emplois qui sont faits de ces ressources.
+
+::En situation d'autarcie, on a :
+::''Ressources = Emplois''
+::;''PIB = CF + FBCF + VS''
+
+::Dans une économie ouverte les importations (notées '''M''') s'ajoutent aux ressources, les exportations (notées '''X''') aux emplois :
+::''Ressources = Emplois''
+::''PIB + M = CF + FBCF + VS + X''
+::;''PIB = CF + FBCF + VS + X - M ''
+
+À titre d’exemple, en 2004 dans l’UE-25, 59 % du PIB était consacré aux dépenses de consommation finale des ménages, 21 % aux dépenses de consommation finale des administrations publiques, et 19 % à l’investissement<ref>[http://epp.eurostat.ec.europa.eu/cache/ITY_OFFPUB/KS-CD-05-001-3/FR/KS-CD-05-001-3-FR.PDF L’Europe en chiffres], Eurostat, p. 148</ref>.
+
+===== Par les revenus =====
+Le PIB est égal à la somme des revenus bruts des secteurs institutionnels : rémunération des salariés ('''RS'''), impôts sur la production et les importations moins les subventions ('''T'''), excédent brut d’exploitation ('''EBE'''), solde de revenu avec l'extérieur ('''RX''').
+:;''PIB = RS + T + EBE + RX''
+
+=== PIB marchand et non-marchand ===
+Par ailleurs, le PIB recense à la fois la production marchande et la production non-marchande, composée exclusivement de services. En France, le PIB non-marchand est presque exclusivement le fait des administrations publiques (sécurité, justice, santé, enseignement...). Par convention, il est évalué à son coût de production (voir Services non marchands).
+
+=== Calculs du PIB ===
+
+Théoriquement, il existe donc trois méthodes pour calculer le PIB d'un pays ou d'une région : par la production, par la dépense et par les revenus.  
+Pour des raisons pratiques, on utilise principalement la première méthode. Selon cette technique, on additionne toutes les valeurs ajoutées<ref>Le PIB n'est pas égal à la somme des revenus générés sur une période donnée, car dans ce cas il y aurait des problèmes de double comptage.</ref>, en se basant sur les résultats fournis par les entreprises, et les administrations publiques.
+
+== Mesures en volume et en valeur ==
+
+Le '''PIB réel''' ou ''en volume'' est la valeur du PIB en tenant compte des variations des prix, c'est-à-dire de l'biens et services. C’est la valeur utilisée lorsque l’on mesure la croissance du PIB.
+
+En effet, on ne peut pas savoir uniquement en observant le '''PIB nominal''' (''en valeur''), si la hausse de l'indicateur provient d'une hausse des prix, d'une hausse de la production ou dans quelles proportions ces deux variations se combinent.
+
+Soit <math>P_{i,t}</math> le prix d’un bien <math>i</math> au cours d’une période <math>t</math> (par exemple, une année) et <math>Q_{i,t}</math> la quantité produite de ce bien <math>i</math> au cours de la période <math>t</math> ; alors :
+
+<math>\text{PIB}_{\text{nominal},t} = \sum_i P_{i,t}.Q_{i,t}\,</math>
+
+Le PIB réel est constitué par la valeur des biens i produits au cours de la période t mesurés à prix constants (année de base notée t<sub>0</sub>), soit :
+
+<math>\text{PIB}_{\text{reel},t} = \sum_i P_{i,t_0}.Q_{i,t}\,</math>
+
+Le réel.
+
+== PIB par habitant ==
+
+Le PIB/habitant ou produit intérieur brut par habitant (ou par tête) est la valeur du PIB divisée par le nombre d'habitants d'un pays. Il est plus efficace que le PIB pour mesurer le développement d'un pays, cependant, il n'est qu'une moyenne donc il ne permet pas de rendre compte des de richesse au sein d'une population.
+
+Cet indicateur n’est pas égal au revenu par tête.
+
+Il est un bon indicateur de la travail non rémunéré qui peut être effectué au sein des ménages ou des communautés, ni de la production à mettre au compte de l'économie souterraine.
+
+En général, un pays est considéré comme « développé » lorsqu'il dépasse les 20 000 dollar US de PIB par an et par habitant, vers 2006.
+
+== Comparaisons internationales ==
+
+On peut comparer le PIB de plusieurs pays, exprimés selon leur devise nationale, selon deux méthodes :
+* au taux de change actuel : on utilise le taux de change moyen sur la période d'étude.
+* à parité de pouvoir d'achat (PPA) : on utilise un panier de biens standard, et le taux de conversion est le rapport des prix de ce panier entre les devises.
+
+Les comparaisons en PPA sont plus fiables lorsque les pays sont très différents, du fait de la faiblesse mécanique des devises des pays pauvres. Elles permettent aussi de s'affranchir des variations parfois brutales des taux de change.
+
+On rencontre souvent le terme de PIB sous sa dénomination anglaise ''GDP'', pour ''Gross Domestic Product''.
+
+== Limites et défauts dans la détermination du PIB ==
+
+Le PIB ne tient pas compte de l'auto-production (ou auto-consommation), c'est-à-dire les richesses produites et consommées au sein-même des ménages : par exemple les fruits d’un verger qui sont auto-consommés, ou la production domestique (activités domestiques des femmes au foyer par exemple).
+
+thumb|right|200px|[[CIA World Factbook 2007 figures of total PPP-adjusted GDP (bottom).]]
+thumb|right|200px|World map showing [[List of countries by GDP (PPP) per capita|GDP (PPP) per capita.]]
+The '''gross domestic product''' ('''GDP''') or '''gross domestic income''' ('''GDI''') is one of the country's economy. GDP is defined as the total market value of all final goods and services produced within the country in a given period of time (usually a calendar year). It is also considered the sum of value added at every stage of production (the intermediate stages) of all final goods and services produced within a country in a given period of time, and it is given a money value.
+
+The most common approach to measuring and understanding GDP is the expenditure method:
+
+: ''GDP = consumption + gross investment + government spending + (exports − imports)'', or,<br> GDP = C + I + G + (X-M)
+
+"Gross" means depreciation of capital stock is not subtracted. If net investment (which is gross investment minus depreciation) is substituted for gross investment in the equation above, then the formula for net domestic product is obtained.  Consumption and investment in this equation are expenditure on final goods and services. The exports-minus-imports part of the equation (often called '''net exports''') adjusts this by subtracting the part of this expenditure not produced domestically (the imports), and adding back in domestic area (the exports).
+
+Economists (since Keynes) have preferred to split the general consumption term into two parts; private consumption, and public sector (or government) spending. Two advantages of dividing total consumption this way in theoretical macroeconomics are:
+* '''Private consumption''' is a central concern of welfare economics. The private investment and trade portions of the economy are ultimately directed (in mainstream economic models) to increases in long-term private consumption.
+* If separated from endogenous private consumption, '''government consumption''' can be treated as exogenous, so that different government spending levels can be considered within a meaningful macroeconomic framework.
+
+==GDP vs GNP==
+GDP can be contrasted with '''gross national product''' ('''GNP''', or '''gross national income''', '''GNI'''), which the United States used in its national accounts until 1992. The difference is that GNP includes net foreign income (the current account) rather than net exports (the balance of trade). Put simply, GNP adds net foreign investment income compared to GDP.
+US GDP, GNP and GNI (Gross National Income) can be compared at ''EconStats''[http://www.econstats.com/gdp/gdp__q10.htm].
+
+GDP is concerned with the region in which income is generated. It is the market value of all the output produced in a nation in one year.  GDP focuses on where the output is produced rather than who produced it.  GDP measures all, disregarding the firms' nationality.
+
+In contrast, GNP is a measure of the value of the output produced by the "nationals" of a region. GNP focuses on who owns the production.  For example, in the United States, GNP measures the value of output produced by American firms, regardless of where the firms are located.
+
+==Measuring GDP==
+===The components of GDP===
+Each of the variables '''C''', '''I''', '''G''' and '''XM''' (where '''GDP''' = '''C''' + '''I''' + '''G''' + '''(X-M)''' as above)
+
+(Note: * '''GDP''' is sometimes also referred to as '''Y''' in reference to a GDP graph)
+* '''C''' is '''private''' consumption in the economy. This includes most personal expenditures of households such as food, rent, medical expenses and so on but does not include new housing.
+* '''I''' is defined as investments by capital. Examples of investment by a business include construction of a new mine, purchase of financial products. Buying financial products is classed as 'bond or a share of stock, this real production or the GDP formula.
+* '''G''' is the sum of government expenditures on final goods and services. It includes salaries of public servants, purchase of weapons for the military, and any investment expenditure by a government. It does not include any transfer payments, such as social security or unemployment benefits.
+*'''X''' is gross exports. GDP captures the amount a country produces, including goods and services produced for other nations' consumption, therefore exports are added.
+*'''M''' is gross imports. Imports are subtracted since imported goods will be included in the terms '''G''', '''I''', or '''C''', and must be deducted to avoid counting foreign supply as domestic.
+
+It is important to understand the meaning of each variable ''precisely'' in order to:
+* Read national accounts.
+* Understand either Keynesian or neoclassical macroeconomics.
+
+===Examples of GDP component variables===
+Examples of '''C''', '''I''', '''G''', and '''NX''': If you spend money to renovate your hotel so that occupancy rates increase, that is private investment, but if you buy shares in a consortium to do the same thing it is saving. The former is included when measuring GDP (in '''I'''), the latter is not. However, when the consortium conducted its own expenditure on renovation, that expenditure would be included in GDP.
+
+For example, if a hotel is a private home then renovation spending would be measured as '''C'''onsumption, but if a government agency is converting the hotel into an office for civil servants the renovation spending would be measured as part of public sector spending ('''G''').
+
+If the renovation involves the purchase of a production rather than total consumption or spending. Spending is really a convenient means of estimating production.)
+
+If the manufacture of a chandelier to hang in a foreign hotel the situation would be reversed, and the payment received would be counted in '''NX''' (positively, as an export). Again, GDP is attempting to measure production through the means of expenditure; if the chandelier produced had been bought domestically it would have been included in the GDP figures (in '''C''' or '''I''') when purchased by a consumer or a business, but because it was exported it is necessary to 'correct' the amount consumed domestically to give the amount produced domestically. (As in Gross
+Domestic '''Product'''.)
+
+===Types of GDP and GDP growth===
+thumb|right|200px|World map showing [[List of countries by GDP (real) growth rate|GDP real growth rates for 2007.]]
+#'''Current GDP''' is GDP expressed in the current prices of the period being measured
+#'''Nominal GDP growth''' is GDP growth in nominal prices (unadjusted for price changes).
+#'''Real GDP growth''' is GDP growth adjusted for price changes.
+
+Calculating the real GDP growth allows economists to determine if production increased or decreased, regardless of changes in the purchasing power of the currency.
+
+===The GDP income account===
+Another way of measuring GDP is to measure the total income payable in the GDP income accounts. In this situation, Gross Domestic Income (GDI) is sometimes used rather than Gross Domestic Product.  This should provide the same figure as the expenditure method described above. (By definition, GDI=GDP. In practice, however, measurement errors will make the two figures slightly off when reported by national statistical agencies.)
+
+The formula for GDP measured using the income approach, called GDP(I), is:
+
+: ''GDP = Compensation of employees + Gross operating surplus + Gross mixed income + Taxes less subsidies on production and imports''
+* '''Compensation of employees''' (COE) measures the total remuneration to employees for work done. It includes wages and salaries, as well as employer contributions to social security and other such programs.
+* '''Gross operating surplus''' (GOS) is the surplus due to owners of incorporated businesses. Often called profits, although only a subset of total costs are subtracted from gross output to calculate GOS.
+* '''Gross mixed income''' (GMI) is the same measure as GOS, but for unincorporated businesses. This often includes most small businesses.
+
+The sum of '''COE''', '''GOS''' and '''GMI''' is called total factor income, and measures the value of GDP at factor (basic) prices.The difference between basic prices and final prices (those used in the expenditure calculation) is the total taxes and subsidies that the Government has levied or paid on that production. So adding taxes less subsidies on production and imports converts GDP at factor cost to GDP(I).
+
+Another formula can be written as this:
+
+:GDP = R + I + P + SA + W
+
+where R = rents<br>      I = interests<br>      P = profits<br>      SA = statistical adjustments (corporate income taxes, dividends, undistributed corporate profits)<br>      W = wages
+
+==Measurement==
+===International standards===
+The international standard for measuring GDP is contained in the book ''System of National Accounts'' (1993), which was prepared by representatives of the International Monetary Fund, European Union, Organization for Economic Co-operation and Development, United Nations and World Bank. The publication is normally referred to as SNA93 to distinguish it from the previous edition published in 1968 (called SNA68).
+
+SNA93 provides a set of rules and procedures for the measurement of national accounts. The standards are designed to be flexible, to allow for differences in local statistical needs and conditions.
+
+===National measurement===
+Within each country GDP is normally measured by a national government statistical agency, as private sector organizations normally do not have access to the information required (especially information on expenditure and production by governments).
+
+===Interest rates===
+Net interest expense is a production and value added and is added to GDP.
+
+==Cross-border comparison==
+The level of GDP in different countries may be compared by converting their value in national currency according to ''either''
+* '''current currency exchange rate''': GDP calculated by exchange rates prevailing on international currency markets
+* '''purchasing power parity exchange rate''': GDP calculated by purchasing power parity (PPP) of each currency relative to a selected standard (usually the United States dollar).
+
+The relative ranking of countries may differ dramatically between the two approaches.
+* The ''current exchange rate method'' converts the value of goods and services using global currency arms, the number of weapons purchased is entirely governed by ''current exchange rates'', since arms are a traded product bought on the international market (there is no meaningful 'local' price distinct from the international price for high technology goods).
+* The ''purchasing power parity method'' accounts for the relative effective domestic purchasing power of the average producer or consumer within an economy. This can be a better indicator of the living standards of less-developed countries because it compensates for the weakness of local currencies in world markets. (For example, India ranks 13th by GDP but 4th by PPP). The PPP method of GDP conversion is most relevant to non-traded goods and services.
+
+There is a clear pattern of the ''purchasing power parity method'' decreasing the disparity in GDP between high and low income (GDP) countries, as compared to the ''current exchange rate method''. This finding is called the Penn effect.

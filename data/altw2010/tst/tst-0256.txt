@@ -1,0 +1,109 @@
+{{infobox Franse gemeente|
+|plaatsnaam= Coise-Saint-Jean-Pied-Gauthier
+|wapen= 
+|kaart= 
+|regio= Rhône-Alpes 
+|departement= Savoie (73)
+|arrondissement= Chambéry
+|kanton= Chamoux-sur-Gelon
+|jaar= 1999
+|inwoners= 945
+|dichtheid= 90,9
+|oppervlakte= 10,4
+|water= 
+|latitudeGraden= 45 |latitudeMinuten= 32|latitudeSeconden= 0
+|longitudeGraden= 6 |longitudeMinuten= 8 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 238 |kaartY= 184
+|code= 73089
+|postcode= 73800
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Coise-Saint-Jean-Pied-Gauthier''' is een gemeente in het Franse departement Savoie (regio Chambéry.
+
+==Geografie==
+De oppervlakte van Coise-Saint-Jean-Pied-Gauthier bedraagt 10,4 km², de bevolkingsdichtheid is 90,9 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:1200 color:gray1 width:1       
+  from:start till:end             
+  bar:800 color:gray1              
+  from:start till:end            
+  bar:400 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,120)(84,113) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 709 1968: 653
+  points:(84,113)(100,115)    color:blue    width:2 #1975: 674
+  points:(100,115)(128,127)   color:blue    width:2 #1982: 752
+  points:(128,127)(160,138)   color:blue    width:2 #1990: 830
+  points:(160,138)(196,154)   color:blue    width:2 #1999: 945
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+{{Infobox Commune de France|nomcommune=Coise-Saint-Jean-Pied-Gauthier
+|région=Rhône-Alpes
+|département=Savoie
+|arrondissement=Chambéry
+|canton=Chamoux-sur-Gelon
+|insee=73089
+|cp=73800
+|maire=Bernard Frison
+|mandat=2008-2014
+|intercomm=Communauté de communes du Gelon et du Coisin 
+|longitude=6.14333333333
+|latitude=45.5266666667
+|alt moy=295 m
+|alt mini=268 m
+|alt maxi=419 m
+|hectares=1038
+|km²=10,38
+|sans=945
+|date-sans=1999
+|dens=91|}}
+'''Coise-Saint-Jean-Pied-Gauthier''' est une commune française, située dans le département de la Savoie et la région Rhône-Alpes.
+
+== Géographie ==
+==Histoire==
+== Administration ==
+
+== Démographie ==
+{{Démographie|
+1962= 597|
+1968= 653|
+1975= 674|
+1982= 752|
+1990= 830|
+1999= 945|
+sansdoublescomptes= 1962|source=INSEE<ref>[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=73089&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Coise-Saint-Jean-Pied-Gauthier sur le site de l'Insee]</ref>}}
+
+== Lieux et monuments ==
+==Personnalités liées à la commune==
+*front populaire puis député apparenté communiste de Savoie et du Rhône a longtemps été maire de cette commune et conseiller général dans les années 1940 à 60. Il y est enterré.
+*Son fils Jean-Pierre Cot a lui aussi exercé les mêmes mandats locaux, et fut également ministre.
+
+== Voir aussi ==
+* Communes de la Savoie 

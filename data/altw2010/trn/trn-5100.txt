@@ -1,0 +1,40 @@
+la '''huntingtine''' est une protéine essentielle au fonctionnement normal du corps humain. Le gène de la protéine est retrouvé sur le chromosome 4 en position 4p16.3. Aucune similarité avec une autre séquence de protéine n’a été trouvée. 
+Elle contient ordinairement 3144 acides aminés et a un poids d’environ 350 kDa. Ces données varient beaucoup et dépendent essentiellement du nombre de glutamines que la protéine contient. Le nombre de glutamines peut varier de 6 à 34 pour une protéine considérée sauvage et de 6 à 40 pour une protéine qui aura encore des fonctions normales. Si le nombre de glutamines dépasse 40, il y aura immanquablement présence d’anomalie au niveau des fonctions de la protéine et développement de la maladie de Huntington.
+En effet, huntingtine est la principale protéine impliquée dans la chorée de Huntington, communément appelée maladie de Huntington. C’est une affection génétique à transmission dominante. Huntington est une maladie neurodégénérative caractérisée par une perte de neurones du striatum et affectant les fonctions motrices et cognitives de la personne atteinte. La mort survient en moyenne 15 à 20 après les premiers symptômes de la maladie.
+Bien qu’on puisse l’observer dans les noyaux, la huntingtine est majoritairement cytoplasmique, associée à des structures vésiculaires et aux microtubules. En fait, elle est associée à différentes protéines pouvant jouer un rôle dans le transport intracellulaire.
+==Fonctions==
+
+Bien qu’on ne connaisse pas encore sa fonction exacte, huntingtine semble avoir un rôle particulier dans les cellules nerveuses. 
+De plus, huntingtine interagie avec plusieurs protéines incluant, des protéines nucléaires, de transcription et de signalisation. Deux de ces protéines sont les  « huntingtin-associated protein 1 » (HAP-1) et les « huntingtin-interactor protein (HIP-1).
+C’est principalement l’étude de la maladie qui a permis aux chercheurs d’identifier certaines fonctions de la protéine. Une des principales fonctions observées est sa propriété antiapoptotique. 
+Les travaux de L.R. Gauthier et al.<ref>Gauthier LR, Charrin BC, Borell-Pagès M, et al. Huntingtin controls neurotrophic support and survival of neurons by enhancing BDNF vesicular transport along microtubules. Cell 2004</ref> décrivent pour la première fois une fonction pour la huntingtine dans le transport de vésicules contenant un facteur neurotrophique, le « brain-derived neurotrophic factor » (BDNF). Le BDNF est un facteur essentiel à la survie de cellules nerveuses. Pour transporter la vésicule contenant le BDNF, huntingtine interagit avec la protéine HAP-1 qui elle est associée au complexe dynéine-dynactine. Ce complexe est responsable du transport de vésicule le long des microtubules de la cellule. Les chercheurs ont démontré que huntingtine augmente la vitesse de transport de la vésicule et réduit la mort par apoptose des neurones.
+Les recherches de Tie-Shan Tang et al. ont montré que l’association du récepteur inositol (1,4,5)-triphosphate, un canal à calcium intracellulaire, avec la protéine HAP-1 et la protéine huntingtine joue un rôle important dans la signalisation neuronale par le calcium.<ref>Tie-Shan Tang , Huiping Tu , Edmond Y. W. Chan et al. Huntingtin and Huntingtin-Associated Protein 1 Influence Neuronal Calcium Signaling Mediated by Inositol-(1,4,5) Triphosphate Receptor Type 1. 2003</ref>
+Huntingtine aurait aussi un effet sur la caspase-3, protéase de la cascade des caspases. Huntingtine se fixe à la caspase-3 activé et entraîne sont inhibition donc l’inhibition de l’apoptose.
+De plus, la fonction antiapoptotique de la protéine peut venir de la séquestration de la HIP-1. Cette protéine mène à l’apoptose grâce à son domaine inducteur de mort.
+Certaines recherches ont aussi démontré que huntingtine est une protéine régulatrice de fer dans les noyaux et les organelles qui entour le noyau.<ref>Paige Hilditch-Maguire, Flavia Trettel, Ludius A.Passani et al. Huntingtin: an iron-regulated essential for normal nuclear and perinuclear organelles. 2000.</ref>
+==Huntingtine anormal==
+
+Une anomalie de la protéine huntingtine est la principale cause de la maladie de Huntington. C’est une répétition du trinucléotide CAG au niveau du gène qui engendra la forme mutée de la protéine. On appellera donc cette protéine la huntingtin polyglutamique ou polyQ.
+Normalement, huntingtine possède entre 6 et 34 glutamines. La protéine modifiée peut contenir de 35 à 155 glutamines. Ceux-ci étant des molécules polaires, elles vont causer l’agrégation de la protéine en créant des ponts hydrogènes. Cette agrégation va entraver les fonctions normales de la protéine. 
+En situation pathologique, l’association huntingtine/HAP-1/dynactine est altérée ce qui provoquera un détachement de la dynéine aux microtubules, donc une mauvaise conduction des vésicules contenant le BDNF. C’est ce qui va causer la grande vulnérabilité des neurones. 
+Un autre des effets néfastes de la huntingtine polyQ dans l’organisme, est le clivage protéolytique de la protéine, conduisant à la production de fragments aminoterminaux qui sont transportés dans le noyau et qui forment des agrégats induisant la mort neuronale. Chez les personnes atteintes de la maladie, la huntingtine normale est aussi clivée.
+De plus, la huntingtine mutée, pourrait avoir des effets sur le niveau d’expression de certains gènes, incluant des gènes de récepteurs à des neurotransmetteurs et des protéines de signalisation intracellulaire. Ainsi, les protéines mutées ne reçoivent plus de messages de survie et meurent.
+Plus l’expansion glutamique est grande plus la maladie est précoce. Les protéines HAP-1 et HIP-1 sont retrouvées seulement dans le cerveau. C’est ce qui pourrait expliquer que la maladie affecte seulement les cellules nerveuses même si huntingtine est présente dans toutes les cellules du corps.
+== Histoire==
+
+<!-- The PBB_Summary template is automatically maintained by Protein Box Bot.  See Template:PBB_Controls to Stop updates. -->
+{{PBB_Summary
+| section_title = 
+| summary_text =
+}}
+The '''Huntingtin''' gene, also called '''HD''' ('''Huntington disease''') gene, or the '''IT15''' ('''"interesting transcript 15"''') gene codes for a 348 kDa protein called huntingtin protein. The exact function of this protein is not known, but it plays an important role in nerve cells. Within cells, huntingtin may be involved in signaling, transporting materials, binding proteins and other structures, and protecting against programmed cell death (apoptosis). The huntingtin protein is required for normal development before birth. It is expressed in many tissues in the body, with the highest levels of expression seen in the brain.
+
+The 5' end of the HD gene has a sequence of 3 DNA bases, cytosine-adenine-guanosine (CAG), coding for the amino acid glutamine, that is repeated multiple times. This region is called a trinucleotide repeat. Normal persons have a CAG repeat count of between 7 and 35 repeats.
+
+The HD gene is located on the short (p) arm of chromosome 4 at position 16.3, from base pair 3,113,411 to base pair 3,282,655.
+
+==Associated Disorders==
+
+Huntington's disease is caused by a mutation in the Huntingtin gene, where the CAG repeats more than 35 times and is unstable. These expanded repeats lead to production of a huntingtin protein that contains an abnormal number of glutamines at the N-terminal. This makes it part of a class of neurodegenerative disorders known as trinucleotide repeat disorders or polyglutamine disorders.
+
+Enzymes in the cell often cut this elongated protein into fragments. The protein fragments form abnormal clumps inside nerve cells and may attract other, normal proteins into the clumps. These nerve cells do not function properly and ultimately die. This process is particularly likely to occur in the striatum (a part of the brain that coordinates movement) primarily, and the frontal cortex (a part of the brain that controls thinking and emotions).

@@ -1,0 +1,126 @@
+thumb|Grafik des [[Vulkans Ätna, aufgenommen von ASTER]]
+'''ASTER''' ('''A'''dvanced '''S'''paceborne '''T'''hermal '''E'''mission and '''R'''eflection Radiometer) ist eines der fünf wissenschaftlichen Instrumente an Bord des am 18. Dezember Terra. Das in Japan gebaute Instrument zeichnet seit dem Februar 2000 Daten auf. Es umrundet in einem nahpolaren Orbit die Erde in einer Höhe von 705&nbsp;km.
+
+ASTER nimmt hochauflösende Bilder in 14 Kanälen des elektromagnetischen Spektrums vom sichtbaren Licht bis ins thermische Infrarot auf, die Auflösung beträgt etwa 15 bis 90 Meter pro Bildpunkt. Daraus können Seehöhe, Oberflächentemperatur, Reflektivität und Emissivität des betrachteten Landteils abgeleitet werden. Kanal 3, der im nahinfraroten Spektralbereich aufnimmt, ist doppelt vorhanden. Der erste Kanal 3N (Nadir) bildet wie die übrigen auch die Erdoberfläche senkrecht unter der Plattform ab. Der zweite Kanal 3B nimmt die selbe Fläche etwas später um 27,6° rückwärts gedreht auf. Auf diese Weise entsteht ein Stereobild, das man zur Berechnung eines Digitalen Höhenmodells heranziehen kann (wie für das Beispiel des Ätnas zu sehen).
+
+Die Daten von ASTER wurden zeitweise gratis von der NASA abgegeben. Über ein Online-Portal konnte man sich die Datensätze bestellen und bekam sie auf CDs zugeschickt oder einen Zugang zum FTP-Server. Für die Fläche der USA sind sie kostenlos zu erhalten (siehe Weblinks), darüber hinaus sind sie mit ca. 50&nbsp;$ pro Szene relativ günstig.
+
+thumb|right|230px|ASTER image
+'''ASTER''' ('''Advanced Spaceborne Thermal Emission and Reflection Radiometer''') is one of five remote sensory devices on board the Terra satellite launched into Earth orbit by NASA in 1999. The instrument has been collecting data since February 2000.
+
+ASTER provides high-resolution images of the Earth in 15 different bands of the visible to thermal resolution of images ranges between 15 to 90 meter. ASTER data is used to create detailed maps of surface temperature of land, emissivity, reflectance, and elevation.
+
+==ASTER Bands==
+{|class="wikitable"
+|-
+!|Band
+!|Label
+!|Wavelength<br>(µm)
+!|Resolution<br>(m)
+!|Nadir or<br>Backward
+!|Description
+|-
+||B1
+||VNIR_Band1
+||0.520-0.600
+||15m
+||Nadir
+|align="center"|Visible Green/Yellow
+|-
+||B2
+||VNIR_Band2
+||0.630-0.690
+||15m
+||Nadir
+|align="center"|Visible Red
+|-
+||B3
+||VNIR_Band3N
+||0.760-0.860
+||15m
+||Nadir
+|align="center" rowspan="2"|Near Infrared
+|-
+||B4
+||VNIR_Band3B
+||0.760-0.860
+||15m
+||Backward
+|-
+|colspan="6"|
+|-
+||B5
+||SWIR_Band4
+||1.600-1.700
+||30m
+||Nadir
+|rowspan="6" align="center"|Short-wave Infrared
+|-
+||B6
+||SWIR_Band5
+||2.145-2.185
+||30m
+||Nadir
+|-
+||B7
+||SWIR_Band6
+||2.158-2.225
+||30m
+||Nadir
+|-
+||B8
+||SWIR_Band7
+||2.235-2.285
+||30m
+||Nadir
+|-
+||B9
+||SWIR_Band8
+||2.295-2.365
+||30m
+||Nadir
+|-
+||B10
+||SWIR_Band9
+||2.360-2.430
+||30m
+||Nadir
+|-
+|colspan="6"|
+|-
+||B11
+||TIR_Band10
+||8.125-8.475
+||90m
+||Nadir
+|rowspan="5" align="center"|Long-wave Infrared<br>or Thermal IR
+|-
+||B12
+||TIR_Band11
+||8.475-8.825
+||90m
+||Nadir
+|-
+||B13
+||TIR_Band12
+||8.925-9.275
+||90m
+||Nadir
+|-
+||B14
+||TIR_Band13
+||10.250-10.950
+||90m
+||Nadir
+|-
+||B15
+||TIR_Band14
+||10.950-11.650
+||90m
+||Nadir
+|-
+|}
+
+==See also==
+*Square meters per pixel
+*TerraLook

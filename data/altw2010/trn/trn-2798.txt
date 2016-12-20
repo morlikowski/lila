@@ -1,0 +1,161 @@
+'''Bellmana-Forda algoritms''' ir algoritms īsākā ceļa meklēšanai starp doto pārējām virsotnēm svērtos grafos. Atšķirībā no Dijkstras algoritma Bellmana-Forda algoritms pieļauj negatīvus šķautņu svarus, bet ir lēnāks, tāpēc parasti tiek izmantots, ja grafā ir šķautnes ar negatīviem svariem.
+==Algoritma apraksts==
+Dots svērts grafs <math>G = (V, E)</math> ar šķautņu svaru funkciju <math>w</math> un sākuma virsotni <math>s</math>. 
+
+Izveidojams matricas <math>A_{ij}</math>, kas saturēs īsāko ceļu no <math>s</math> uz virsotni <math>i</math> caur <math>j</math> šķautnēm un <math>P_{ij}</math>, kas satur iepriekšējo virsotni šādā ceļā.
+Matricā <math>A</math> vienīgais ceļš no <math>s</math>, kas satur 0 šķautnes ir tikai līdz pašai <math>s</math> un tā garums ir 0. Tādējādi <math>A_{s0} = 0</math>. Visu pārējo ceļu sākotnējās vērtības ir <math>+\infty</math>.
+
+Algoritms ir sekojošs:
+ '''for''' <math>v \in V</math>
+   '''for''' <math>i \gets 0</math> '''to''' <math>|V| - 1</math>
+     '''do''' <math>A_{vi} \gets +\infty</math>
+ <math>A_{s0} \gets 0</math>
+ '''for''' <math>i \gets 1</math> '''to''' <math>|V| - 1</math>
+   '''do for''' <math>(u, v) \in E</math>
+     '''if''' <math>A_{vi} > A_{u, i-1} + w(u, v)</math>
+       '''then''' <math>A_{vi} \gets A_{u, i-1} + w(u, v)</math>
+            <math>P_{vi} \gets u</math>
+Algoritma rezultātā matrica <math>A_{ij}</math> satur īsākos ceļus no <math>s</math> uz virsotni <math>i</math> caur dažādiem šķautņu skaitiem <math>j</math>. Pats īsākais ceļš starp <math>s</math> un <math>i</math> ir īsākais no tiem.
+Kad noskaidrots pats īsākais ceļš caur <math>j</math> šķautnēm, pilnu ceļu masīvā <math>p</math> var iegūt šādi:
+ '''while''' <math>j > 0</math>
+  <math>p[j] \gets i</math>
+  <math>i \gets P_{ij}</math>
+  <math>j \gets j - 1</math>
+ '''return''' ''p''
+Ja nepieciešams noskaidrot tikai īsākā ceļa garumu un nav nepieciešams zināt visu ceļu izmantojams šāds algoritms:
+ '''for''' <math>v \in V</math>
+  '''do''' <math>d[v] \gets +\infty</math>
+ <math>d[s] \gets 0</math>
+ '''for''' <math>i \gets 1</math> '''to''' <math>|V| - 1</math>
+  '''do for''' <math>(u, v) \in E</math>
+   <math>d[v] \gets \min(d[v], d[u] + w(u, v))</math>
+ '''return''' <math>d</math>
+Šī algoritma rezultātā masīva <math>d</math> elements <math>d[i]</math> saturēs īsākā ceļa garumu starp virsotnēm <math>s</math> un <math>i</math>.
+==Koda piemēri==
+Bellmana-Forda algorirma realizācija C
+<source lang="c">
+/* Bellman-Ford Implementation */
+ #include <limits.h>
+ #include <stdio.h>
+ #include <stdlib.h>
+ 
+ /* Let INFINITY be an integer value not likely to be
+   confused with a real weight, even a negative one. */
+ #define INFINITY ((cin << 14)-1)
+ 
+ typedef struct {
+    int source;
+    int dest;
+    int weight;
+ } Edge;
+ 
+ void BellmanFord(Edge edges[], int edgecount, int nodecount, int source)
+ {
+    int *distance = (int*) malloc(nodecount * sizeof(*distance));
+    int i, j;
+    for (i=0; i < nodecount; i++)
+      distance[i] = INFINITY;
+ 
+    /* The source node distance is set to zero. */
+    distance[source] = 0;
+ 
+    for (i=0; i < nodecount; i++) {
+        for (j=0; j < edgecount; j++) {
+            if (distance[edges[j].source] != INFINITY) {
+                int new_distance = distance[edges[j].source] + edges[j].weight;
+ 
+                if (new_distance < distance[edges[j].dest])
+                  distance[edges[j].dest] = new_distance;
+            }
+        }
+    }
+ 
+    for (i=0; i < edgecount; i++) {
+        if (distance[edges[i].dest] > distance[edges[i].source] + edges[i].weight) {
+            puts("Negative edge weight cycles detected!");
+            free(distance);
+            return;
+        }
+    }
+ 
+    for (i=0; i < nodecount; i++) {
+        printf("The shortest distance between nodes %d and %d is %d\n",
+            source, i, distance[i]);
+    }
+    free(distance);
+    return;
+ }
+ 
+ int main(void)
+ {
+    /* This test case should produce the distances 2, 4, 7, -2, and 0. */
+    Edge edges[10] = {{0,1, 5}, {0,2, 8}, {0,3, -4}, {1,0, -2},
+                      {2,1, -3}, {2,3, 9}, {3,1, 7}, {3,4, 2},
+                      {4,0, 6}, {4,2, 7}};
+ 
+    BellmanFord(edges, 10, 5, 4);
+ 
+    return 0;
+ }
+</source>
+==Pielietojums maršrutēšanā==
+''Distance-vector'' maršrutēšanas protokoli, piemēram, RIP izmanto dalīto (''distributed'') Bellmana-Forda algoritmu. Par dalīto to sauc tāpēc, ka tajā iesaistīti vairāki maršrutētāju vienā autonomajā sistēmā. Algoritma realizācija ir šāda:
+* Katrs mezgls aprēķina attālumus starp sevi un citiem mezgliem un saglabā rezultātus tabulā
+* Tabula tiek izsūtīta citiem mezgliem
+* Saņemot tabulu mezgls aprēķina, īsākos maršrutus starp sevi un citiem mezgliem un izdara izmaiņas tabulā.
+==Ārējās saites==
+* [http://links.math.rpi.edu/applets/appindex/graphtheory.html Interaktīva grafu teotijas algoritmu demonstrācija (Java)]
+
+The '''Bellman–Ford algorithm''', sometimes referred to as the Label Correcting Algorithm, computes single-source shortest paths in a edge weights may be negative).  Dijkstra's algorithm solves the same problem with a lower running time, but requires edge weights to be non-negative.  Thus, Bellman–Ford is usually used only when there are negative edge weights.
+
+According to Robert Sedgewick, "Negative weights are not merely a mathematical curiosity; [...] [they] arise in a natural way when we reduce other problems to shortest-paths problems,"<ref>Robert Sedgewick. Algorithms in Java. Third Edition. ISBN 0-201-36121-3. Section 21.7: Negative Edge Weights. http://safari.oreilly.com/0201361213/ch21lev1sec7</ref> and he gives the specific example of a reduction from the NP-complete Hamilton-path problem. If a graph contains a cycle of total negative weight then arbitrarily low weights are achievable and so there's no solution; Bellman-Ford detects this case.
+
+Bellman-Ford is in its basic structure very similar to Dijkstra's algorithm, but instead of greedily selecting the minimum-weight node not yet processed to relax, it simply relaxes ''all'' the edges, and does this |V|&nbsp;&minus;&nbsp;1 times, where |V| is the number of vertices in the graph. The repetitions allow minimum distances to accurately propagate throughout the graph, since, in the absence of negative cycles, the shortest path can only visit each node at most once. Unlike the greedy approach, which depends on certain structural assumptions derived from positive weights, this straightforward approach extends to the general case.
+
+Bellman–Ford runs in ''O''(''V''·''E'') time, where ''V'' and ''E'' are the number of vertices and edges respectively.
+
+ '''procedure''' BellmanFord(''list'' vertices, ''list'' edges, ''vertex'' source)
+    ''// This implementation takes in a graph, represented as lists of vertices''
+    ''// and edges, and modifies the vertices so that their ''distance'' and''
+    ''//'' predecessor ''attributes store the shortest paths.''
+ 
+    ''// Step 1: Initialize graph''
+    '''for each''' vertex v in vertices:
+        '''if''' v '''is''' source '''then''' v.distance := 0
+        '''else''' v.distance := '''infinity'''
+        v.predecessor := '''null'''
+    
+    ''// Step 2: relax edges repeatedly''
+    '''for''' i '''from''' 1 '''to''' size(vertices)-1:       
+        '''for each''' edge uv in edges:
+            u := uv.source
+            v := uv.destination             ''// uv is the edge from u to v''
+            '''if''' v.distance > u.distance + uv.weight:
+                v.distance := u.distance + uv.weight
+                v.predecessor := u
+ 
+    ''// Step 3: check for negative-weight cycles''
+    '''for each''' edge uv in edges:
+        u := uv.source
+        v := uv.destination
+        '''if''' v.distance > u.distance + uv.weight:
+            '''error''' "Graph contains a negative-weight cycle"
+
+== Proof of correctness ==
+
+The correctness of the algorithm can be shown by induction. The precise statement shown by induction is:
+
+'''Lemma'''. After ''i'' repetitions of ''for'' cycle:
+* If Distance(u) is not infinity, it is equal to the length of some path from ''s'' to ''u'';
+* If there is a path from ''s'' to ''u'' with at most ''i'' edges, then Distance(u) is at most the length of the shortest path from ''s'' to ''u'' with at most ''i'' edges.
+
+'''Proof'''. For the base case of induction, consider <code>i=0</code> and the moment before ''for'' cycle is executed for the first time. Then, for the source vertex,  <code>source.distance = 0</code>, which is correct. For other vertices ''u'', <code>u.distance = '''infinity'''</code>, which is also correct because there is no path from ''source'' to ''u'' with 0 edges.
+
+For the inductive case, we first prove the first part. Consider a moment when a vertex's distance is updated by 
+<code>v.distance := u.distance + uv.weight</code>. By inductive assumption, <code>u.distance</code> is the length of some path from ''source'' to ''u''. Then <code>u.distance + uv.weight</code> is the length of the path from ''source'' to ''v'' that follows the path from  ''source'' to ''u'' and then goes to ''v''.
+
+For the second part, consider the shortest path from ''source'' to ''u'' with at most ''i'' edges. Let ''v'' be the last vertex before ''u'' on this path. Then, the part of the path from ''source'' to ''v'' is the shortest path from ''source'' to ''v'' with at most ''i-1'' edges. By inductive assumption, <code>v.distance</code> after ''i-1'' cycles is at most the length of this path. Therefore, <code>uv.weight + v.distance</code> is at most the length of the path from ''s'' to ''u''. In the ''i<sup>th</sup>'' cycle, <code>u.distance</code> gets compared with <code>uv.weight + v.distance</code>, and is set equal to it if <code>uv.weight + v.distance</code> was smaller. Therefore, after ''i'' cycles, <code>u.distance</code> is at most the length of the shortest path from ''source'' to ''u'' that uses at most ''i'' edges.
+
+When ''i'' equals the number of vertices in the graph, each path will be the shortest path overall, unless there are negative-weight cycles. If a negative-weight cycle exists and is accessible from the source, then given any walk, a shorter one exists, so there is no shortest walk. Otherwise, the shortest walk will not include any cycles (because going around a cycle would make the walk shorter), so each shortest path visits each vertex at most once, and its number of edges is less than the number of vertices in the graph.
+
+== Applications in routing ==

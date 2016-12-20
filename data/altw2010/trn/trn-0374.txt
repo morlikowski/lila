@@ -1,0 +1,68 @@
+En algorithme de Dixon''') est un algorithme de décomposition en produit de facteurs premiers à but général. Le crible quadratique est une modification de l'idée de base utilisée dans la méthode de Dixon.
+
+==Idée de base==
+La méthode de Dixon est basé sur la recherche d'une congruence :
+
+:<math>x^2\equiv y^2\quad(\hbox{mod }n),\qquad x\not\equiv\pm y.</math>
+
+où ''n'' est l'entier à factoriser. Dans la pratique, sélectionner aléatoirement les valeurs de ''x'' prendra un long temps impraticable pour trouver une congruence de carrés. La méthode de Dixon est basée sur la satisfaction d'une condition plus faible plusieurs fois, les résultats de ces valeurs peuvent être combinées en une congruence de carrés.
+
+==Méthode==
+Premièrement, un ensemble de nombres premiers  inférieurs à une certaine borne ''B'' est choisi. Cet ensemble de nombres premiers est appelé la ''base de facteurs''. Alors, en utilisant le polynôme
+
+:<math>p(x)=x^2\pmod{n}</math>
+
+plusieurs valeurs de ''x'' sont testées pour voir si ''p''(''x'') factorise complètement sur la base des facteurs. S'il le fait, la paire (''x'',''p''(''x'')) est stockée. Une telle paire est appelée une relation. Puis, une fois que le nombre de relations collectées dépasse la taille de la base de facteurs, nous pouvons entrer au niveau suivant.
+
+Les valeurs ''p''(''x'') sont factorisées (ceci est facile car nous sommes certains qu'ils factorisent complètement sur la base des facteurs) et les exposants des facteurs premiers sont convertis dans un vecteur d'exposant mod 2. Par exemple, si la base de facteurs est {2, 3, 5, 7} et la valeur de ''p''(''x'') est 30 870, nous avons :
+
+:<math>30 870=2^1\cdot3^2\cdot 5^1\cdot 7^3</math>
+
+Ceci donne un vecteur d'exposant de :
+
+:<math>\mathbf{v}_i=\begin{bmatrix}1 \\ 2 \\ 1 \\ 3\end{bmatrix}=\begin{bmatrix}1 \\ 0 \\ 1 \\ 1\end{bmatrix}\hbox{ mod 2}</math>
+
+In number theory, '''Dixon's factorization method''' (also '''Dixon's algorithm''') is a general-purpose integer factorization algorithm; it is the prototypical factor base method, and the only factor base method for which a run-time bound not reliant on conjectures about the smoothness properties of values of a polynomial is known.
+
+The algorithm was designed by John D. Dixon, a mathematician at Carleton University, and was published in 1981.
+
+==Basic idea==
+Dixon's method is based on finding a congruence of squares modulo the integer N which we intend to factor. Fermat's factorization algorithm finds such a congruence by selecting random or pseudo-random ''x'' values and hoping that the integer <math>x^2 \mod N</math> is the square of an integer:
+
+:<math>x^2\equiv y^2\quad(\hbox{mod }N),\qquad x\not\equiv\pm y\quad(\hbox{mod }N).</math>
+
+For example, if N=84923, we notice (by starting at 292, the first number greater than <math>\sqrt N</math> and counting up) that <math>505^2 \mod 84923</math> is 256, the square of 16. So <math>(505-16)(505+16) = 0 \mod N</math>.  Computing the GCD of 505-16 and N using Euclid's algorithm gives us 163, which is a factor of N.
+
+In practice, selecting random ''x'' values will take an impractically long time to find a congruence of squares, since there are so few squares less than N.
+
+Dixon's method replaces the condition 'is the square of an integer' with the much weaker one 'has only small prime factors'; for example, there are 292 squares less than 84923, 662 numbers whose prime factors are only 2,3,5 or 7, and 4767 whose prime factors are all less than 30.  
+
+If we have lots of numbers <math>a_1 \ldots a_n</math> whose squares can be factorized as <math>a_i^2 \mod n = \prod_{j=1}^m b_i^{e_{ij}}</math> for a fixed set <math>b_1 \ldots b_m</math> of small primes, linear algebra modulo 2 on the matrix <math>e_{ij}</math> will give us a subset of the <math>a_i</math> whose squares combine to a product of small primes to an even power -- that is, a subset of the <math>a_i</math> whose squares combine to a square.
+
+==Method==
+Firstly, a set of primes less than some bound ''B'' is chosen. This set of primes is called the factor base. Then, using the polynomial
+
+:<math>p(x)=x^2\pmod{n}</math>
+
+many values of ''x'' are tested to see if ''p''(''x'') factors completely over the factor base. If it does, the pair (''x'',''p''(''x'')) is stored. Such a pair is called a relation. Then, once the number of relations collected exceeds the size of the factor base, we can enter the next stage.
+
+The ''p''(''x'') values are factorized (this is easy since we are certain they factorize completely over the factor base) and the exponents of the prime factors are converted into an exponent vector mod 2. For example, if the factor base is {2, 3, 5, 7} and the ''p''(''x'') value is 30870, we have:
+
+:<math>30870=2^1\cdot3^2\cdot 5^1\cdot 7^3</math>
+
+This gives an exponent vector of:
+
+:<math>\mathbf{v}_i=\begin{bmatrix}1 \\ 2 \\ 1 \\ 3\end{bmatrix}=\begin{bmatrix}1 \\ 0 \\ 1 \\ 1\end{bmatrix}\hbox{ mod 2}</math>
+
+If we can find some way to add these exponent vectors together (equivalent to multiplying the corresponding relations together) to produce the zero vector (mod 2), then we can get a congruence of squares. Thus we can put the exponent vectors together into a matrix, and formulate an equation:
+
+:<math>c_1\mathbf{v}_1+c_2\mathbf{v}_2+\cdots+c_n\mathbf{v}_n=\mathbf{0}\hbox{ (mod 2)}</math>
+
+This can be converted into a matrix equation:
+
+:<math>\begin{bmatrix}
+v_{11} & v_{12} & \cdots & v_{1n}\\
+v_{21} & v_{22} & \cdots & v_{2n}\\
+\vdots & \vdots & \ddots & \vdots\\
+v_{n1} & v_{n2} & \cdots & v_{nn}
+\end{bmatrix}\begin{bmatrix}c_1 \\ c_2 \\ \vdots \\ c_n\end{bmatrix}=\begin{bmatrix}0\\0\\ \vdots\\0\end{bmatrix}\hbox{ (mod 2)}</math>

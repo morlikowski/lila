@@ -1,0 +1,110 @@
+<!-- ana metni değiştirmek için aşağıdaki tabloyu atlayın. -->
+{| class="toccolours" border="1" style="float: right; clear: right; margin: 0 0 1em 1em; border-collapse: collapse;"
+! | '''''' <!-- Maddenin başlığı değilse değiştirin -->
+|-
+| align="center" colspan="2" bgcolor="#ffffff" | 150px 150px <!-- replace if not identical with the pagename -->
+|-
+| Kimyasal adı
+| triklorometan
+|-
+| Diğer adları
+| kloroform
+|-
+| Kimyasal formül
+| CHCl<sub>3</sub>
+|-
+| Molekül ağırlığı
+| 119.38 g/mol
+|-
+| Görünüm
+| renksiz sıvı
+|-
+| CAS numarası
+| [67-66-3]
+|-
+| EINECS numarası
+| [200-663-8]
+|-
+| PubChem
+| 6212
+|-
+| Yoğunluk
+| 1.48 g/cm³, sıvı
+|-
+| Çözünürlük
+| 0.8 g/100 mL (20 °C)
+|-
+| Ergime noktası
+| -63.5 °C
+|-
+| Kaynama noktası
+| 61 °C
+|-
+| SMILES
+| C(Cl)(Cl)Cl
+|-
+|  |<small>Kaynakça ve sorumluluk reddi</small>
+|-
+|}
+
+'''Kloroform''', anestezik (uyuşturucu) etkisi olan bir kimyevi madde. Kimyasal formülü CHCl<sub>3</sub> olup, triklormetan da denir. Ağır, renksiz bir sıvı olup 61 °C'de kaynar. Yoğunluğu 1,48 g/cm³'tür. Kolay buharlaşır. Yağları çözer. Kimyasal işlemlerde çok kullanılır.
+
+1831 yılında Justus Liebig tarafından keşfedilmiş ve ilk defa 1848 yılında İngiltere'de James Simpson tarafından anestetik olarak kullanılmıştır. Renksiz, tatlı kokulu bir sıvıdır ve yanıcı değildir. Anestetik etkisi dietil eterden 5 defa kuvvetlidir, ancak toksik etkisi de yüksektir. Alev mevcudiyetinde toksik bir gaz olan fosgene dönüşür. Uyuşturucu etkisi yüksek olduğundan düşük konsantrasyonlarda kullanılır. Öldürücü dozu ile uyuşturucu dozu arasında büyük bir fark yoktur. Keza kloroformun, kan basıncını düşürmek, kalb ritmini bozmak, deri ve mukozaya zarar vermek gibi etkileri vardır. Uzun süre kloroform kullanmak komaya hatta ölüme de neden olabilir. Özellikle kalp ve karaciğer üzerinde zararlı yan etkileri vardır. Bu nedenle insanlarda anestetik olarak nadiren kullanılmaktadır.
+
+Kloroform çeşitli yöntemlerle sentez edilebilir, teknikte Liebig tarafından bulunan yöntem tercih edilir. Bu yöntem, etil alkol veya asetonun, kireç kaymağı veya sodyum hipoklorid ile oksidasyonu ve klorlandırılmasına dayanır. Kloroform teknikte metanın klorlandırılması ile de elde edilmektedir.
+
+{{Chimiebox général|
+nom = Chloroforme | 
+image =  Chloroform2.svg|
+tailleimage =  250|
+commentaire =  |
+formule = CHCl<sub>3</sub> |
+nom scientifique = trichlorométhane |
+CAS = 67-66-3 |
+EINECS = 200-663-8 |
+apparence = liquide incolore, odeur douceâtre
+}}
+<!-- fin chimie box général - début chimiebox physique -->
+
+<!-- fin chimiebox physique - début chimiebox pharmaco -->
+
+<!-- fin chimiebox pharmaco - début médicament -->
+
+<!-- fin chimiebox médicament - début chimiebox thermochimie -->
+
+{{chimiebox thermo entropie|
+gaz = 295,61 J mol<sup>-1</sup> K<sup>-1</sup>|
+solide = |
+liquide =  | }}
+{{chimiebox thermo enthalpie| gaz = -103,18 kJ mol<sup>-1</sup>|
+solide =  |
+liquide = -134,3 kJ mol<sup>-1</sup>}}
+
+<!-- fin chimiebox thermo - début chimiebox précautions -->
+{{chimiebox précautions
+| inhalation=
+| peau=
+| yeux=
+| autre=
+}}
+<!-- fin chimiebox précautions - début chimiebox psychotrope -->
+{{Chimiebox psychotrope
+ | catégorie=
+ | conso=
+ | noms=
+ }}
+<!-- fin chimiebox psychotrope -->
+
+Le '''chloroforme''' ou '''trichlorométhane''' est un composé chimique organochloré possédant la formule brute : CHCl<sub>3</sub>
+
+Eugène Soubeiran (en France), Justus von Liebig (en Allemagne) et Samuel Guthrie (en Amérique) ont découvert en même temps le chloroforme, préparé pour la première fois en 1831.
+
+Fortement utilisé comme anesthésique dans les blocs opératoires.
+
+===Propriétés physiques ===
+
+Le chloroforme est un liquide hautement volatil. Toutefois les vapeurs de chloroforme ne forment pas de mélanges explosifs avec l'air.
+
+Le chloroforme est un excellent solvant pour de nombreux matériaux organiques tels que graisses, huiles, résines, cires, etc. Il est complètement miscible avec de nombreux solvants organiques et dissout l'iode et le soufre.
+
+Le chloroforme forme de nombreux mélanges azéotropiques avec d'autres liquides tels que l'acétone, l'éthanol, l'eau et le méthanol.

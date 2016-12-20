@@ -1,0 +1,33 @@
+'''Multilayered extended semantic networks''' ('''MultiNets''') are both a Semantic Networks.
+
+MultiNet is claimed to be one of the most comprehensive and thoroughly described knowledge representation systems. It specifies conceptual structures by means of about 140 predefined relations and functions, which are systematically characterized and underpinned by a formal axiomatic apparatus. Apart from their relational connections, the
+concepts are embedded in a multidimensional space of layered attributes and their values. Another characteristic of MultiNet discerning it from simple semantic networks is the possibility to encapsulate whole partial NLP applications such as natural language interfaces to the Internet or question answering systems over large semantically annotated corpora with  
+millions of sentences.
+
+MultiNet is supported by a set of software tools and has been used  to build large semantically based computational lexica (such as HaGenLex). The tools include a semantic interpreter WOCADI which translates natural language expressions (phrases, sentences, texts) into formal MultiNet expressions, a workbench MWR+ for the knowledge engineer (comprising modules for automatic knowledge acquisition and reasoning), and a workbench LIA+ for the computer lexicographer supporting the creation of large semantically based computational lexica.
+
+'''MultiNet''' ist ein Formalismus zur Wissensrepräsentation und zur
+Bedeutungsdarstellung natürlichsprachlicher Ausdrücke. Die Abkürzung
+steht für ''multilayered extended semantic networks'' (mehrschichtige 
+erweiterte semantische Netze). 
+
+Das MultiNet-Paradigma wurde von Hermann Helbig als Erweiterung 
+früherer semantischer Netze entwickelt.
+
+Es handelt sich um einen Formalismus, der im Unterschied zu anderen Methoden
+der Wissensrepräsentation besonders auf die Darstellung natürlichsprachlich
+formulierten Wissens zielt.
+Hierzu wird ein Repertoire von etwa 140 Relationen und
+Funktionen bereitgestellt, die typische semantische Beziehungen zwischen
+Konzepten erfassen. Ferner werden Knotenattribute für Aspekte wie Generalisierungsgrad, Quantifikation und Faktizität eingeführt, die eine präzise Beschreibung der Begriffsbedeutung gestatten. Als weitere Besonderheit können in MultiNet Teilnetze eingekapselt und durch einen Knoten höherer Ordnung repräsentiert werden, der selbst wieder als Argument von Relationen und Funktionen auftreten kann.
+
+Der Ansatz wurde in zahlreichen praktischen Anwendungen des Natural Language Processing eingesetzt. Verwendet 
+wurde es beispielsweise für die Implementierung von 
+natürlichsprachlichen Schnittstellen 
+zum Frage-Antwort-Systeme 
+über semantisch annotierten  Korpora mit Millionen von Sätzen sowie für 
+semantisch basierte Lesbarkeitsüberprüfung von Texten.
+
+Der MultiNet-Formalismus wird durch verschiedene Software-Werkzeuge
+unterstützt. Er diente unter anderem als Grundlage für den Aufbau eines 
+großen semantikbasierten Computerlexikons (HaGenLex). Die Werkzeugpalette umfasst einen Parser für das Deutsche, der natürlichsprachliche Ausdrücke (Phrasen, Sätze oder Texte) in formale MultiNet-Ausdrücke überführt; eine Werkbank für den Wissensingenieur, die Wissensakquisition und automatische Wissensverarbeitung unterstützt, und eine Werkbank für den Computerlexikographen, die Aufbau und Verwaltung großer Computerlexika vereinfacht.

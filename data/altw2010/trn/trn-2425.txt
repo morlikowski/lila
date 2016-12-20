@@ -1,0 +1,22 @@
+thumb|Tankanzeige in einem Pkw
+Die '''Kraftstoffanzeige''', auch '''Tankuhr''' oder '''Benzinuhr''' genannt, soll eine Einschätzung des noch zum Fahren verfügbaren Anzeigeinstrument positioniert, das zumeist mit einem analogen Zeigerstand zwischen den Marken Voll und Leer, mit Teilstrichen für Viertel-, Halb- und Dreiviertelfüllung sowie einer meist roten Markierung für Reserve den Fahrer informiert. Oft ist auch ein (meist rotes) Lämpchen zusätzlich installiert, wenn der Kraftstoff-Vorrat gänzlich zur Neige geht. Es kann auch in Litern angezeigt werden.
+
+Für die Anzeige muss innen im Kraftstoffbehälter ein analoger Sensor integriert sein. In früheren Zeiten war das ein mit Luft gefüllter, verlöteter Messing-Schwimmer, der an einer Achse drehbar gelagert war. Mittels eines Umlenkhebels wurde an einem Bowdenzug mechanisch die Höhe des Kraftstoffpegels an ein Zeigerinstrument am Armaturenbrett weitergegeben (VW Käfer der 60er Jahre). 
+
+Heutzutage tragen Tanks ein ''Schwimmerrohr'' mit einem Kunststoffschwimmer, dessen vertikaler Höhenstand den elektrischen Widerstand verändert. Dieser Widerstand wird von dem Instrument gemessen und der entsprechende Füllstand angezeigt, zumeist im heutigen Spannung ausgeben. 
+
+Eine andere heute verwendete Variante misst mit Einfüllstutzen nicht mit allen Zapfpistolen funktioniert und eine falsche oder gar keine Menge Kraftstoff gemessen wird. Dies resultiert darin, dass die Tankanzeige für den Rest der Tankfüllung "leer" anzeigt und es unmöglich ist abzuschätzen, wann der Tank tatsächlich leer ist. 
+
+thumb|right|A fuel gauge
+thumb|The empty fuel indicator displaying on the fuel gauge for a 2003 [[Honda_Civic#Seventh_generation_.282001-2005.29|Honda Civic.]]
+
+A '''fuel gauge''' (or '''gas gauge''') is an instrument used to indicate the level of fuel contained in a tank. Commonly used in cars, these may also be used for any tank including underground storage tanks.
+
+As used in cars, the gauge consists of two parts:
+
+* The sender unit
+* The indicator
+
+The sending unit usually uses a float connected to a variable resistor. When the tank is full, the resistor is set to its low resistance value. As the tank empties, the float drops and the slides a moving contact along the resistor, increasing its resistance, finally reaching its highest value when the tank is empty. In addition, when the resistance is at a certain point, it will also turn on a "low fuel" light on some vehicles.
+
+Meanwhile, the indicator unit (usually mounted on the instrument panel) is measuring and displaying the amount of electrical current flowing through the sending unit. When the tank level is high and maximum current is flowing, the needle points to "F" indicating a full tank. When the tank is empty and the least current is flowing, the needle points to "E" indicating an empty tank.

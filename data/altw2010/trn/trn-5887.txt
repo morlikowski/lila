@@ -1,0 +1,23 @@
+'''MOS''' ist ein statistisches Verfahren in der modernen Wettervorhersage, das in den 1960er/1970er Jahren in den USA entwickelt worden ist. Oftmals handelt es sich dabei um multilineare Regressionsgleichungen, die auf numerische Wettermodelle angewandt werden. Heutzutage finden MOS-Verfahren weltweit Verwendung und dienen als Hilfsmittel vor allem bei der lokalen Wetterprognose.
+
+== Hintergrund ==
+
+'''Numerische Wettermodelle''' wie beispielsweise das amerikanische [http://www.emc.ncep.noaa.gov/modelinfo/ Global Forecast System (GFS)] oder das Vorhersagemodell des [http://www.ecmwf.int/ European Centre for Medium-Range Weather Forecasts (ECMWF)] im englischen Reading berechnen den zukünftigen Zustand der Atmosphäre zu bestimmten Zeitpunkten, indem sie den auf Basis von Messungen und Sondenaufstiegen ermittelten Ist-Zustand durch lösen der Gleichungen für spätere Zeitpunkte prognostizieren. Dies geschieht für so genannte Gitterpunkte, mit denen die Erde netzartig überzogen wird. Je nachdem, wie weit diese Gitterpunkte auseinander liegen, variiert auch die Qualität der Prognose besonders bei Bodenparametern: Ein großer Abstand bedingt lokale Ungenauigkeiten, ein enges Gitter bietet höhere Regionalität.
+
+Das GFS z.B. arbeitet mit einer Maschenweite von 35 km, das ECMWF setzt Gitterpunkte im Abstand von 25 km. Dies reicht in der Regel aus, um den Zustand der höheren Atmosphäre sehr gut vorherzusagen. Die Prognose von Bodenparametern wie z.B. Höchsttemperatur, Tiefsttemperatur oder Bodenwind für einen bestimmten Ort hingegen ist zu ungenau für den täglichen Gebrauch. Dies gilt besonders dann, wenn man eine räumlich stark variierende meteorologische Größe betrachtet (Tiefsttemperatur in stark gegliedertem Gelände in einer wolkenlosen Nacht).
+
+Auf der anderen Seite gibt es rein '''statistische Wettermodelle''', die jedoch für den Zeitraum jenseits von 6 Stunden kaum noch brauchbare Ergebnisse liefern. Um diese Lücke zu schließen, wurden '''MOS-Verfahren''' entwickelt.
+
+== Funktionsweise ==
+
+Bei '''MOS-Verfahren''' handelt es sich um multilineare Regressionsgleichungen, die dazu dienen, die direkten Vorhersageergebnisse numerischer Wettermodelle ('''Direct Model Output, DMO'') für einen bestimmten Ort anhand von Stationsmesswerten, die für den Ort vorhanden sein müssen, zu verifizieren bzw. zu verändern. So werden die Vorteile eines numerischn Modells mit den Messwerten vor Ort kombiniert, um eine möglichst genaue Prognose für den jeweiligen Standort zu erhalten.
+
+Dabei werden mittels Regression diejenigen Parameter, '''Prediktoren''' genannt, aus dem DMO herausgefiltert, welche einen signifikanten Einfluss auf andere meteorologische Größen haben, die z.B. das Bodenwetter umschreiben. Diese Parameter werden '''Prediktanden''' genannt. Prinzipiell kann jedes numerische Wettermodell mit einem MOS-Verfahren gekoppelt werden; auch können mehrere, leicht unterschiedliche MOS-Verfahren auf das selbe Modell angewandt werden. Voraussetzung ist allerdings, dass die Station, für welche eine Lokalprognose erstellt werden soll, über eine mindestens 18-monatige Messreihe verfügt.
+
+'''Model output statistics (MOS)''' is an omnipresent statistical technique that forms the backbone of modern weather forecasting.  The technique pioneered in the 1960s and early 1970s is used to post-process output from numerical weather forecast models.  Generally speaking, numerical weather forecast models do an excellent job of forecasting upper air patterns but are too crude to account for local variations in surface weather.  Pure statistical models, on the other hand, are excellent at forecasting idiosyncracies in local weather but are usually worthless beyond about six hours.  The MOS technique combines the two, using complex numerical forecasts based on the physics of the atmosphere to forecast the large-scale weather patterns and then using regression equations in statistical post-processing to clarify surface weather details.  The accuracy is generally far better than either a pure statistical model or a pure numerical model (NWP).
+
+== Leading MOS scientists ==
+
+MOS has a very small field of practitioners.  The most often cited pioneers are Glahn, Lowry, and Klein<!-- References to these three authors' writings should be given here. -->.  Currently, most work in the field is done from the Meteorological Development Lab (MDL) [http://www.nws.noaa.gov/mdl/synop/index.htm].  Significant work has been contributed to the field by Murphy, Dallavalle, Mass, Vislocky, Fritsch, Allen, Hughes, and Antolik<!-- References to these authors' writings should be given here. -->. [http://www.nws.noaa.gov/mdl/synop/smbpublications.html]
+
+== Current operational forecasts ==

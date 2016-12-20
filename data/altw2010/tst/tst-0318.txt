@@ -1,0 +1,56 @@
+{{Infobox_Software
+| name = JFire
+| logo = ภาพ:Jfire-logo-250x84.jpg
+| screenshot = 
+| caption = 
+| developer = [http://www.NightLabs.org www.NightLabs.org]
+| latest_release_version = 0.9.2-beta sunny saloon
+| latest_release_date = 5 ธันวาคม พ.ศ. 2550
+| operating_system = Windows, Linux, Unix
+| genre = ERP, CRM, SCM
+| license = LGPL
+| website = [http://www.jfire.org/ www.jfire.org]
+}}
+
+'''JFire''' เป็นระบบ ERP รวมกับ CRM ที่เปิดตัวครั้งแรกเมื่อเดือนมกราคม 2549 ภายใต้เงื่อนไขของ LGPL JFire จึงเป็นซอฟต์แวร์เสรี ที่ทุกคนสามารถที่จะเปลี่ยนแปลง แก้ไข หรือแจกจ่ายต่อได้โดยไม่เสียค่าใช้จ่ายใด ๆ 
+
+JFire ทั้งหมดถูกเขียนขึ้นโดยใช้ Java และเทคโนโลยีอื่น ๆ เช่น Java EE 1.4 (J2EE เดิม) JDO 2, Eclipse RCP 3 ดังนั้นในส่วนของผู้ใช้และส่วนของเซิฟเวอร์สามารถพัฒนาต่อได้อย่างง่ายดาย และการปรับให้เข้ากับหน่วยงานหรือบริษัทหนึ่ง ๆ นั้นก็ทำได้โดยง่ายดายเช่นกัน
+
+JFire ขณะนี้เป็นรุ่นที่อยู่ในขั้นกำลังพัฒนาระดับ beta ประกอบด้วยส่วนจัดการพื้นฐานที่สำคัญได้แก่ โมดูลการจัดการโดยผู้ใช้ โมดูลบัญชี โมดูลจัดการร้านค้า โมดูลสำหรับออนไลน์เทรดดิ้ง (ผ่านระบบเว็บชอป) เครื่องมือในการสร้างกราฟิกสองมิติ และ plugin อื่นๆที่มีประโยชน์ โมดูลการทำรายงานอยู่บนฐานของ BIRT ที่สามารถจัดการแก้ไขรูปแบบรายงาน สถิติ และเอกสารอื่น ๆ (เช่น ใบจัดซื้อจัดจ้าง ใบเสนอราคา เอกสารเรียกเก็บเงิน เป็นต้น)
+
+แม้ว่าเป้าหมายหลักของโครงการนี้คือการสร้าง framework ที่มีเสถียรภาพและยืดหยุ่น เพื่อสะดวกในการดัดแปลงแก้ไขในการประยุกต์ใช้กับส่วนงานเฉพาะด้าน แต่ก็มีการจัดหาโมดูลเพื่องานอื่นๆสำหรับกิจการขนาดเล็กและขนาดกลางด้วย
+
+เนื่องจาก JFire เป็นระบบที่พัฒนาโดยใช้ JDO ในส่วนการจัดการฐานข้อมูล ทำให้เป็นอิสระต่อระบบฐานข้อมูล (DBMS) ที่ใช้  และเปิดช่องให้ใช้ SQL ได้ด้วย นอกจากนั้นการใช้ JDO ทำให้สามารถใช้ฐานข้อมูลแบบ DBMS ชนิดอื่นได้ (เช่น object databases) ในการนำเอา JFire ไปใช้ จะได้ JDO2/JPOX ไปด้วยซึ่งสามารถใช้งานกับ relational databasesและ db4o ด้วย
+
+แม้ว่า JavaEE, JDO และ Eclipse RCP จะมีข้อดีหลายอย่าง แต่ก็ยังจะมีข้อเสีย นั่นคือต้องการระยะเวลาในการอบรมที่นานกว่าเทคโนโลยีก่อน ๆ อยู่บ้าง เมื่อเทียบกับ SQL
+
+{{Infobox_Software |
+  name = JFire |
+  logo = Image:Jfire-logo-250x84.jpg|
+  screenshot = |
+  caption =  |
+  developer = [http://www.NightLabs.org www.NightLabs.org]|
+  latest_release_version = 0.9.4-beta tough trader |
+  latest_release_date = July 7, 2008 |
+  operating_system = Windows, Linux, Unix |
+  genre = ERP, CRM, SCM |
+  license = LGPL|
+  website = [http://www.jfire.org/ www.jfire.org] |
+}}
+
+JFire is an ERP and CRM system.
+
+The system has been written entirely in Java and is based on the technologies JDO 2, Eclipse RCP 3. Hence, both client and server can easily be extended and it requires only a relatively low effort to customize it for specific sectors or companies.
+
+Currently, JFire is still in the beta status of development, but it already provides modules for user and access rights control, accounting, store management, direct online trade with other companies or end-customers (e.g. via a web shop), an editor for 2-dimensional graphics and other useful plugins. A reporting module which is based on BIRT allows for the editing and rendering of reports, statistics and similar documents (e.g. invoices).
+
+Even though the main goal of the project is to serve as a robust and flexible framework and thus to ease the implementation of sector-specific applications, it contains modules for the out-of-the-box usage in small and medium-sized enterprises.
+
+Because JFire uses JDO as persistence layer, it is independent of the underlying database management system (DBMS) and spares developers the error-prone work of writing object databases). According to the project's website, JFire is shipped with the JDO2 reference implementation relational databases and db4o.
+
+Even though JavaEE, JDO and Eclipse RCP provide many advantages, they have the disadvantage that they require a longer training period than older technologies (e.g. direct SQL).
+
+JFire was published in January 2006 under the conditions of the GNU Lesser General Public License (LGPL). Therefore, it is Free Software and everyone can redistribute it, modify it and use it free of charge.
+
+== History ==
+The history of JFire starts in 2003, when the company NightLabs decided to develop a new ticket sales and distribution software. Because they wanted to base this new system on an ERP within one integrated application suite (rather than multiple separate programs), they started to search for a suitable framework. After some research and evaluations, they decided to launch such an ERP framework project based on new technologies like JDO and Eclipse RCP, which make it easy for other projects to build upon.

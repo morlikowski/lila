@@ -1,0 +1,67 @@
+{{Info/Droga |
+| nome_IUPAC = 5-fluoro-1''H''-pyrimidine-2,4-dione
+| imagem = Fluorouracil.svg
+| imagem2 = Fluorouracil-3D-vdW.png
+| número_CAS = 51-21-8
+| prefixo_ATC = L01
+| sufixo_ATC = BC02
+| PubChem = 3385
+| DrugBank = APRD00516
+| fórmula_química =
+| C = 4 | H = 3 | F = 1 | N = 2 | O = 2
+| peso_molecular = 130.077 g/mol
+| biodisponibilidade = 28 a 100%
+| ligação_a_proteínas = 8 to 12%
+| metabolismo = Citocromo P450, intracelular
+| meia_vida_de_eliminação = 10 a 20 minutes
+| excreção = Renal
+| vias_de_administração = Injeção intravenosa, e via tópica
+}}
+
+'''Fluorouracila''' é um fármaco, princípio ativo do medicamento Utoral®, da empresa farmacêutica Meizler Biopharma, com finalidades inibitórias de crescimento de células cancerígenas.
+
+== Suspensão de lote ==
+
+Em fevereiro de 2008, o lote E668607, de Utoral®, foi suspenso pela Anvisa, por ter efeitos adversos não descritos na bula.<ref>http://www.portalfarmacia.com.br/farmacia/principal/noticia_view.asp?id=15301</ref>
+
+{{drugbox |
+| IUPAC_name = 5-Fluoropyrimidine-2,4(1''H'',3''H'')-dione
+| image = Fluorouracil.jpg
+| image2 = Fluorouracil-3D-vdW.png
+| width=150
+| CAS_number = 51-21-8
+| ATC_prefix = L01
+| ATC_suffix = BC02
+| PubChem = 3385
+| C = 4 | H = 3 | F = 1 | N = 2 | O = 2 
+| molecular_weight = 130.077
+| bioavailability = 28～100%
+| protein_bound =7.5～10.3%
+| metabolism = 異化代謝:肝臓（DPD酵素）<br>同化代謝:腫瘍、脾臓、胃など（thymidine phospholylase, uridine phospholylase, orotate phosphoribosyl transferase）
+| elimination_half-life = 10-20 minutes
+| excretion = 尿中、胆汁中
+| pregnancy_category = -
+| legal_status = 劇薬<br>指定医薬品<br>処方せん医薬品
+| routes_of_administration = 静注、点滴静注、経口投与
+}}
+
+'''フルオロウラシル'''（'''Fluorouracil'''）は、フッ化ピリミジン系の代謝拮抗剤で、抗悪性腫瘍薬（抗がん剤）。ウラシルの5位水素がフッ素に置き換わった構造をしている。
+
+1956年にDushinskyらによって合成され、その後Heidelbergerらを中心として基礎及び臨床にわたる広範な研究で抗悪性腫瘍剤としての評価が確立された。
+
+商品名は'''5-FU'''（ファイブ・エフユー　販売:協和発酵工業）など。
+
+== 効能・効果 ==
+*下記疾患の自覚的並びに他覚的症状の緩解
+**結腸・直腸癌、乳癌、膵臓癌（[http://www.kuhp.kyoto-u.ac.jp/~pancreas/ 膵癌]）、子宮頸癌、子宮体癌、卵巣癌
+*下記の疾患については、他の抗癌剤又は放射線と併用。
+**食道癌、肺癌、頭頸部腫瘍
+*他の抗悪性腫瘍剤との併用療法
+**頭頸部癌
+
+== 用法・用量 ==
+*5-FU/ロイコボリン（LV）療法
+*5-FU/レボホリナート療法
+
+== 作用機序 ==
+本剤およびその代謝物がDNA、RNA）の合成に必要な物質のかわりに核酸に組み込まれる。これにより本来の核酸の合成が阻害（代謝拮抗）され、抗腫瘍効果を表す。

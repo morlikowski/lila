@@ -1,0 +1,64 @@
+{{OS informacija|
+ pavadinimas='''Syllable'''|
+ paveikslėlis=250px|Syllable|
+ antraštė=Syllable 0.6.0|
+ kūrėjas=Kristian Van Der Vliet, Kaj de Vos, Rick Caudill, Arno Klenke, Henrik Isaksson [http://syllable.org/development.php#developers]|
+ šeima=99% POSIX-suderinama|
+ kodo_modelis=Atviras kodas|
+ paskutinė_versija=0.6.5|
+ paskutinės_versijos_data=2008 Sausio 8|
+ branduolio_tipas=Monolitinis branduolys|
+ licencija=GNU GPL|
+ svetainė=[http://www.syllable.org www.syllable.org]
+}}
+
+'''Syllable''' yra atviro kodo hobi operacinę sistemą, kuria būtų paprasta naudotis namų ar smulkaus ofiso vartotojui. Projektas metų liepos mėnesį atsišakojo nuo AtheOS, poto kai šios kūrimas sustojo.
+
+Syllable turi savo naršyklę (elektroninio pašto klientą (Whisper), media grotuvą, integruotą kūrimo aplinką (IDE) ir daug kitų programų.
+
+==Savybės==
+* Gimta 64 bitų AtheOS failų sistema (paprastai vadinama ''AFS''). Jos nereikėtų painioti su „kita“ AFS, Andrew failų sistema.
+* API (liet. Aplikacijų Programavimo Sąsaja).
+* Objektiškai orientuota grafinė aplinka, veikianti ant gimtos grafinės vartotojo sąsajos (GUI) architektūros.
+* Beveik pilnas POSIX suderinamumas
+* Daug perkeltų programų  (Emacs, Vim, Perl, Python, Apache HTTP serveris ir kitos)
+* GNU kompiliatorių rinkinys, įrankiai ir bibliotekos (GCC, Glibc, Binutils, Make)
+*  Užgrobiantis, prioritetinis daugiaužduotinumas ([http://en.wikipedia.org/wiki/Pre-emptive_multitasking Pre-emptive multitasking]) su daugelio gijų palaikymu.
+* Simetrinio multiprocesorinio apdorojimo (daug procesorių) palaikymas
+* Tvarkyklės daugumai įprastų įrenginių (vaizdo, garso, tinklo plokštėms)
+
+{{Infobox_OS
+|name = Syllable
+|screenshot = 250px|Syllable<!-- Do not change unless you have read "Wikipedia:Software_screenshots"! -->
+|caption = Syllable 0.5.3
+|developer = Kristian Van Der Vliet, Kaj de Vos, Rick Caudill, Arno Klenke, Henrik Isaksson
+|family = Amiga OS-like
+|source_model = open source
+|latest_release_version = 0.6.5
+|latest_release_date = January 8, 2008
+|kernel_type = Monolithic kernel
+|license = GNU GPL
+|working_state = alpha
+|website = [http://www.syllable.org/ syllable.org]
+|supported_platforms = 5x86
+}}
+
+'''Syllable''' is a free and open source forked from the stagnant AtheOS in July 2002.
+
+It has a native IDE, and many more applications.
+
+Features according to the official website include:
+
+* Native journaled file system, the AtheOS File System (usually called ''AFS'', which is not the same as the Andrew File System)
+* API
+* Object-oriented graphical desktop environment on a native GUI architecture
+* Mostly POSIX compliant
+* Software ports, including Vim, Python, Apache and others.
+* GCC, Make)
+* Pre-emptive multitasking with multithreading
+* processor) support
+* Device drivers for most common hardware (video, sound, network chips)
+* File system drivers for FAT (read/write), NTFS (read) and ext2 (read)
+* REBOL as system scripting language
+
+The latest version is 0.6.5, released on January 8, 2008.

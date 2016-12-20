@@ -1,0 +1,88 @@
+The '''Taito F3 System''' is an arcade system board released by Taito Corporation in 1992. 
+
+==Specifications==
+* '''CPU''': MC68EC020
+* '''Sound CPU''': MC68000
+* '''Sound Chip''': ES5505 and ES5510 (DSP)
+* '''Video resoution''': 320x224 
+* '''Board composition''': Board and F3 Cartridge
+* '''Hardware Features''':4 scrolling layers, 2 sprite banks, Alpha blending
+
+==Taito F3 System games==
+*''Arabian Magic''
+*''Arkanoid Returns''
+*''Bubble Memories''
+*''Bubble Symphony'' / ''Bubble Bobble 2''
+*''Cleopatra Fortune''
+*''Command War - Super Special Battle & War Game''
+*''Darius Gaiden - Silver Hawk''
+*''Dungeon Magic''
+*''Elevator Action Returns''
+*''Gekirindan''
+*''Grid Seeker''
+*''Gunlock''
+*''International Cup '94''
+*''Kaiser Knuckle'' / ''Global Champion''
+*''Kirameki Star Road''
+*''LandMaker''
+*''Puzzle Bobble 2'' / ''Bust-A-Move Again''
+*''Puzzle Bobble 3''
+*''Puzzle Bobble 4''
+*''Pop 'N Pop''
+*''Puchi Carat''
+*''Quiz Theater''
+*''Moriguchi Hiroko no Quiz de Hyuu! Hyuu!''
+*''Recalhorn''
+*''Riding Fight''
+*''Ring Rage''
+*''Super Cup Finals''
+*''Space Invaders '95 - The Attack of Lunar Loonies''
+*''Top Ranking Stars''
+
+'''타이토 F3 시스템'''은 1992년 타이토가 개발한 아케이드 게임 기판이다. 엔소닉 음원 칩을 사용하여 다른 기판들보다 우위에 있었으며 반투명 기능과 무제한 확대,축소 기능을 가지고 있다. 처음엔 롬 소켓을 사용한 보드로 제작되었으나 나중에 카드리지 방식으로 변경되었다.
+
+==사양==
+*메인 CPU : MC68EC020  16MHz 
+*사운드 CPU : MC68000  16MHz 
+*사운드 칩 : ES5505, ES5510 (DSP) 
+*해상도 : 320*224 
+*보드 구성 : 메인보드 + F3 카트리지
+*하드웨어 기능 : 4/5/6비트 색상의 스프라이트와 타일, 스크롤 레이어(512*512, 1024*512) 4개, 텍스트/픽셀 스크롤 레이어, 스프라이트 뱅크 2개(더블 버퍼), 확대/축소, 알파블렌딩
+
+==게임==
+*건락  (Gunlock / Ray Force) (1993)
+*그립 식커: 프로젝트 스톰해머  (Grid Seeker : Project Storm Hammer) (1993)
+*다리우스 외전  (Darius Gaiden) (1994)
+*다리우스 외전 익스트라 버전  (Darius Gaiden Extra Version) (1994)
+*던전 매직  (Dungeon Magic / Light Bringer) (1993)
+*라이딩 파이트  (Riding Fight) (1992)
+*랜드메이커  (Land Maker) (1998)
+*리컬혼  (Recalhorn) (1993)
+*링 레이지  (Ring Rage) (1992)
+*모리구치 히로코의 퀴즈에서 휴!휴!  ( Moriguchi Hiroko no Quiz de Hyuuhyuu) (1995) 
+*버블 메모리즈  (Bubble Memories) (1995)
+*보글보글 II  (Bubble Bobble II) / Bubble Symphony (1994)
+*빛나는 스타로드  (Kirameki Star Road) (1997)
+*슈퍼 컵 파이널즈  (Super Cup Finals) (1993)
+*스페이스 인베이더 '95  (Space Invaders '95 : Attack Of The Lunar Loonies / Akkanvader) (1995)
+*스페이스 인베이더 DX  (Space Invaders DX) (1994)
+*아라비안 매직 (Arabian Magic) (1992)
+*알카노이드 리턴즈  (Arkanoid Returns) (1997)
+*엘리베이터 액션 리턴즈  (Elevator Action Returns) / Elevator Action II (1994)
+*역린탄  (逆鱗弾) (1995)
+*인터내셔널 컵 '94  (International Cup '94 / Hattrick Hero '94) (1994)
+*카이저 너클  (Kaiser Knuckle) / Global Champion / Dan-Ku-Ga (1994)
+*커맨드 워  (Command War) (1996)
+*퀴즈 시어터 - 3개의 이야기  (Quiz Theater - 3tsu No Monogatari) (1994)
+*클레오파트라 포춘  (Cleopatra Fortune) (1996)
+*타이토 컵 파이널즈  (Taito Cup Finals / Hattrick Hero '93) (1992)
+*타이토 파워 골(Taito Power Goal / Hattrick Hero '95) (1994)
+*탑 랭킹 스타즈  (Top Ranking Stars / Prime Time Fighter) (1993)
+*트윈 코브라 II  (Twin Cobra II / Kyukyoku Tiger II) (1995)
+*트윈 퀵스  (Twin Qix) (1995)
+*팝 앤 팝  (Pop 'n Pop) (1997)
+*퍼즐 버블 2  (Puzzle Bobble 2 / Bust A Move Again) (1995)
+*퍼즐 버블 2x  (Puzzle Bobble 2 X) (1995)
+*퍼즐 버블 3  (Puzzle Bobble 3) (1996)
+*퍼즐 버블 4  (Puzzle Bobble 4) (1997)
+*푸치 캐럿  (Puchi Carat) (1997)

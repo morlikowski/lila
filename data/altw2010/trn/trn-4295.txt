@@ -1,0 +1,97 @@
+The '''1965. The aircraft was unusual in that it had a second engine mounted directly below its main powerplant, using this second motor to power a distribution system that used compressed air to carry dry chemicals from a hopper and blow them out of the trailing edges of its wings, over the flaps. Varying the power of this blower engine also provided lift control. 
+
+Development was terminated by economic conditions in the fertilizer market.
+
+==Specifications (DWA)==
+
+{{aircraft specifications
+<!-- if you do not understand how to use this template, please ask at Wikipedia talk:WikiProject Aircraft -->
+|plane or copter?=<!-- options: plane/copter --> plane
+|jet or prop?=<!-- options: jet/prop/both/neither --> both
+<!-- Now, fill out the specs. Please include units where appropriate (main comes first, alt in parentheses). If an item doesn't apply leave it blank. For instructions on using |more general=, |more performance=, |power original=, and |thrust original= see Template talk:Aircraft specifications. -->
+|ref=
+|crew= One, pilot
+|capacity=
+|length main=  28 ft 4 in
+|length alt= 8.64 m
+|span main= 43 ft 10 in
+|span alt= 13.36 m
+|height main= 8 ft 4 in
+|height alt= 2.54 m
+|area main= <!--ft²-->
+|area alt= <!--m²-->
+|airfoil=
+|empty weight main= <!--lb-->
+|empty weight alt= <!--kg-->
+|loaded weight main= 5,200 lb
+|loaded weight alt= 2,364 kg
+|useful load main= <!--lb-->
+|useful load alt= <!--kg-->
+|max takeoff weight main= <!--lb-->
+|max takeoff weight alt= <!--kg-->
+|more general=
+
+|engine (jet)=Lycoming IGO-540
+|type of jet=6-cylinder, horizontally-opposed engine for flight
+|number of jets=1
+|thrust main= 350 hp
+|thrust alt= 261 kW
+
+|engine (prop)=Lycoming O-235
+|type of prop=4-cylinder, air-cooled, horizontally-opposed engine for spraying
+|number of props=1
+|power main= 108 hp
+|power alt= 81 kW
+
+|max speed main= 130 knots
+|max speed alt= 150 mph, 240 km/h
+|cruise speed main= <!--knots-->
+|cruise speed alt= <!--mph,km/h-->
+|never exceed speed main= <!--knots-->
+|never exceed speed alt= <!--mph,km/h-->
+|stall speed main= <!--knots-->
+|stall speed alt= <!--mph,km/h-->
+|range main= <!--nm-->
+|range alt= <!--mi,km-->
+|ceiling main= <!--ft-->
+|ceiling alt= <!--m-->
+|climb rate main= 350 ft/min
+|climb rate alt= 106 m/min
+|loading main= <!--lb/ft²-->
+|loading alt= <!--kg/m²-->
+|power/mass main= <!--hp/lb-->
+|power/mass alt= <!--W/kg-->
+|more performance=
+}}
+
+==External links==
+* [http://www.aerofiles.com/distributor.jpg Photo at aerofiles]
+
+{{Avion léger
+| nom=DWI-1 Distributor Wing
+| image=
+| type=Avion agricole
+| moteur=1 Lycoming IGO-540, 350 ch
+| envergure=13,36
+| longueur=8,64
+| hauteur=2,54
+| surfaceaile=
+| nombreplaces=1
+| reservoirs=
+| masseàvide=
+| massemaxi=2364
+| distdécollage=
+| distatterrissage=
+| vitessecroisière=
+| vitessemaxi=240 km/h
+| décrochage=
+| plafond=
+| vitesseascens=106 m/min
+| rayonaction=
+| autonomie=
+}}
+L''''Aerial Distributors DWI-1''' '''Distributor Wing''' est un prototype d’avion de travail agricole dessiné par '''Ken Razak''' et construit aux États-Unis en 1964.
+
+== Un mode de pulvérisation original ==
+Il s'agissait comme tous les appareils de cette catégorie d'un monoplan monoplace à aile basse cantilever et train classique fixe. Son originalité tenait dans le mode de pulvérisation, qui supprimait les rampes externes tout en contribuant au contrôle dynamique de l'avion: Un moteur Lycoming O-235 de 108 ch entrainant un compresseur axial était installé juste sous le moteur qui entrainait l’hélice. L'air comprimé par ce compresseur assurait la pulvérisation des produits secs contenus dans le réservoir situé entre le moteur et le pilote par des fentes de bord de fuite situés en avant des volets. On avait donc simultanément un soufflage des volets et un effet propulsif secondaire. Le réservoir de produit à pulvériser était larguable et le carburant logé dans les bord d’attaque de l’aile.
+Un seul prototype fut construit [N361DW], le premier vol ayant été effectué le 30 janvier 1965. Cet appareil ne fit l'objet d'aucun développement en raison d’un marché défavorable.

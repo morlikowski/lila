@@ -1,0 +1,50 @@
+{{Caixa de informação OS
+| nome               = Ulteo
+| screenshot         = Linux Ulteo
+| familia_so         = GNU/Linux
+| modelo             = Open source
+| data_ultima_versao = 2007
+| kernel             = Linux
+| estado             = Beta 1
+| website            = [http://www.ulteo.com www.ulteo.com]
+}}
+
+'''Ulteo''' será a próxima distribuição GNU/Linux de Gaël Duval, o criador da distribuição Mandrakelinux (inicialmente Mandrake), agora chamada de Mandriva Linux.
+
+Ulteo, de acordo com Duval, será um "''sistema operativo open-source fácil de usar que deverá mudar a maneira de como as pessoas utilizam os computadores''".
+
+Segundo um post de Duval num fórum, a versão que está em desenvolvimento do Ulteo é baseada no Kubuntu/Debian.
+
+Depois de ter trabalhado na Mandrake por mais de sete anos, Duval foi despedido<ref>[http://www.indidea.org/gael/en/fired-message.php Despedimento de Duval segundo Gaël Duval]</ref><ref>[http://club.mandriva.com/xwiki/bin/Main/interview-fbancilhon-2006-03 Despedimento de Duval segundo François Bancilhon, CEO da Mandriva]</ref> da Mandriva após resultados financeiros desapontadores no último quarto de 2005<ref>[http://wwwnew.mandriva.com/en/company/investors/newsletter/sn060307 Resultados da Mandriva no ultimo bimestre de 2005]</ref>.
+
+{{Infobox Système d'exploitation
+| nom                         = Ulteo
+| logo                        = thumb|left|Logo d'Ulteo
+| site web                    = [http://www.ulteo.com/]
+| développeur                 = Gaël Duval
+| famille                     = GNU/Linux
+| état des sources            = Logiciel libre et Open Source
+| dernière version            = Sirius beta 1
+| type de noyau               = <!--Monolithic kernel-->
+| interface graphique         = KDE
+| état du projet              = en développement
+}}
+
+'''Ulteo''' est un système d'exploitation basé sur GNU/Linux (plus exactement la distribution Kubuntu bien qu'il n'en reprenne que quelques composants, et que les applications fournies par Ulteo sont aussi bien GNOME que KDE). Ce projet a été initié par Gaël Duval, cofondateur de Mandriva.
+
+La première version alpha (nom de code Sirius) est sortie le 7 décembre 2006 mais les avantages de cette distribution n'y étaient pas implantés.
+<br />La version beta au même nom de code est sortie le 17 mars 2008, incluant la synchronisation des données entre le système local (Application System) et le bureau en ligne (Online Desktop), ainsi que d'autres composantes propres à Ulteo.
+
+Le 28 avril 2008 est sortie la première version beta du Synchroniseur de documents pour windows (Ulteo Document Synchronizer). Ce logiciel permet de synchroniser les documents entre Windows et le  bureau en ligne (Ulteo Online Desktop).
+
+Un sytème Ulteo (Ulteo Virtual Desktop), en version beta 3, peut aussi s'installer et s'éxecuter sur Windows grâce à une technologie de colinux. C'est une sorte de bureau Linux KDE dans l'environnement Windows, avec des applications comme OpenOffice.org, Gimp, Firefox, Amarok et d'autres.
+
+== Histoire ==
+
+Gaël Duval travaillait déjà sur le projet Ulteo alors qu'il était encore employé par Mandriva, mais après avoir été licencié<ref>[http://club.mandriva.com/xwiki/bin/Main/interview-fbancilhon-2006-03 Interview of François Bancilhon, CEO of Mandriva<!-- Titre généré automatiquement -->]</ref> il fonda une nouvelle compagnie appelée Ulteo pour se concentrer sur son projet.
+<br />La première version d'Ulteo (Ulteo Sirius Beta1 et Ulteo Online Desktop) est sortie le 17 mars 2008.
+<br />Ulteo Document Synchronizer (Beta) (Synchroniseur de documents) pour Windows est sortie le 28 avril 2008.
+
+== Version en ligne ==
+ 
+Une version ''online desktop'' de la  distribution et de OpenOffice.org est sortie en décembre 2007. Actuellement chaque internaute peut (après inscription) exécuter une version en ligne de OpenOffice.org à partir de son navigateur Web, ceci gratuitement et sans aucune installation.

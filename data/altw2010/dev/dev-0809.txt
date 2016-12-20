@@ -1,0 +1,57 @@
+خرائط سير المعلومات  program flowchart
+
+التعريف:
+هي عبارة عن خريطة يستخدم فيها بعض الاشكال المتفق عليها لتمثيل خطوات معينة من البداية حتى النهاية
+
+اهمية استخدام خرائط سير المعلومات:
+1_ تعطي صورة واضحة وكاملة للخطوات المطلوبة لحل مسألة معينة في ذهن المبرمج بحيث تساعده في 
+الاطلاع على جميع اجزاء المسألة قبل تنفذيها
+
+2_تبين للمبرمج الاخطاء في البرامج وبخاصة الاخطاء المنقية والتي يعتمد اكتشافها على وضع التسلسل المنطقي لخطوات حل المسألة لدى المبرمج
+
+3_تساعد المبرمج على ادخال اي تعديلات قد يحتاجها على اي جزء دون الحاجة لدراسة جميع اجزاء المسألة
+
+4_تسهل على المبرمج فهم المسألة المعقدة والتي تكثر فيها الاحتمالات والتفرعات وبذلك تظهرالخريطة الخطوات الرئيسية بوضوح
+
+تقسم خرائط سير البرامج ال انواع متعددة ويمكن لبرنامج ان يشمل أكثر من نوع ومن أهم هذه الانواع:
+
+thumb|right|A simple flowchart representing a process for dealing with a broken lamp.
+A '''flowchart''' is a process.
+
+A flowchart is one of the seven basic tools of quality control, which also includes the cause-and-effect diagram, and scatter diagram.  They are commonly used in business/economic presentations to help the audience visualize the content better, or to find flaws in the process. Alternatively, one can use Nassi-Shneiderman diagrams.
+
+A flowchart is described as "cross-functional" when the page is divided into different "lanes" describing the control of different organizational units. A symbol appearing in a particular "lane" is within the control of that organizational unit.  This technique allows the analyst to locate the responsibility for performing an action or making a decision correctly, allowing the relationship between different organizational units with responsibility over a single process.
+
+== History ==
+The first structured method for documenting  flow process chart, was introduced by ASME in 1921 as the presentation “Process Charts—First Steps in Finding the One Best Way”.  Gilbreth's tools quickly found their way into Lake Placid, New York. 
+
+A 1944 graduate of Mogensen's class, Ben S. Graham, Director of Formcraft Engineering at Standard Register Corporation, adapted the flow process chart to information processing with his development of the multi-flow process chart to displays multiple documents and their relationships.  In 1947, ASME adopted a symbol set derived from Gilbreth's original work as the ASME Standard for Process Charts.
+
+According to Herman Goldstine, he developed flowcharts with John von Neumann at Princeton University in late 1946 and early 1947.<ref>{{cite book
+  | last = Goldstine
+  | first = Herman
+  | authorlink = Herman H. Goldstine
+  | title = The Computer from Pascal to Von Neumann
+  | publisher = Princeton University Press
+  | date = 1972
+  | pages = 266-267
+  | isbn = 0-691-08104-2 }}</ref>
+
+== Software ==
+=== Manual ===
+
+Any vector-based drawing program can be used to create flowchart diagrams, but these will have no underlying data model to share data with databases or other programs such as project management systems or spreadsheets. Some tools offer special support for flowchart drawing, e.g., ConceptDraw, SmartDraw, ''EDraw Flowchart'', Visio, and OmniGraffle.
+
+=== Automatic ===
+
+Many software packages exist that can create flowcharts automatically, either directly from source code, or from a flowchart description language:
+
+For example, Graph::Easy, a SVG. The example graph listed below was generated from the text shown below. The automatically generated SVG output is shown on the right:
+
+right|250px|thumb|This simple flowchart was created automatically.
+
+<pre>
+graph         { flow: south; }
+node.start    { shape: rounded; fill: #ffbfc9; }
+node.question { shape: diamond; fill: #ffff8a; }
+node.action   { shape: rounded; fill: #8bef91; }

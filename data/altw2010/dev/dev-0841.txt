@@ -1,0 +1,144 @@
+thumb|250px|Вид на ускорительный центр Fermilab, [[США. Теватрон (кольцо на заднем плане) и кольцо-инжектор.]]
+'''Ускори́тель заря́женных части́ц''' — класс устройств для получения заряженных частиц (элементарных частиц, ионов) высоких энергий. Современные ускорители, подчас, являются огромными дорогостоящими комплексами, которые не может позволить себе даже крупное государство. Например, возводимый в настоящий момент МВт.
+
+В основе работы ускорителя заложено взаимодействие заряженных частиц с электрическим и магнитным полями. Электрическое поле способно напрямую совершать работу над частицей, то есть увеличивать её энергию. Магнитное же поле, создавая силу Лоренца, лишь отклоняет частицу, не изменяя её энергии, и задаёт орбиту, по которой движутся частицы.
+
+Ускорители можно принципиально разделить на две большие группы. Это ''линейные ускорители'', где пучок частиц однократно проходит ускоряющие промежутки, и ''циклические ускорители'', в которых пучки движутся по замкнутым кривым типа окружностей, проходя ускоряющие промежутки помногу раз. Можно также классифицировать ускорители по назначению:  коллайдеры, источники нейтронов, бустеры, источники синхротронного излучения, установки для терапии рака, промышленные ускорители.
+
+== Конструкции ускорителей ==
+
+=== Электростатический ускоритель ===
+Идеологически наиболее простой, линейный ускоритель. Частицы ускоряются постоянным электрическим полем и движутся прямолинейно по вакуумной камере, вдоль которой расположены ускоряющие электроды.
+
+Разновидности:
+* '''Ускоритель Ван де Граафа.''' Ускоряющее напряжение создаётся генератором Ван де Граафа, основанном на механическом переносе зарядов диэлектрической лентой. Максимальные электрические напряжения ~20МВ определяют максимальную энергию частиц ~20МэВ.
+* '''Каскадный ускоритель.''' Ускоряющее напряжение создаётся каскадным генератором, который создаёт постоянное ускоряющее высокое напряжение ~5 МВ преобразуя низкое переменное напряжение по схеме диодного умножителя.
+
+Линейные ускорители электронов небольших энергий часто используются, как часть самых разных электровакуумных приборов (электронно-лучевая трубка, кинескоп, рентгеновская трубка и др.). 
+
+=== Циклотрон ===
+
+thumb|right|Устройство циклотрона. 1 — место поступления частиц, 2 — траектория их движения, 3 — электроды, 4 — источник переменного напряжения. Магнитное поле направлено перпендикулярно плоскости рисунка.
+
+Идея циклотрона проста. Между двумя полукруглыми полыми электродами, т. н. ''дуантами'', приложено переменное электрическое напряжение. Дуанты помещены между полюсами электромагнита, создающего постоянное магнитное поле. Частица, вращаясь по окружности в магнитном поле, ускоряется на каждом обороте электрическим полем в щели между дуантами. Для этого необходимо, чтобы частота изменения полярности напряжения на дуантах была равна частоте обращения частицы. Иными словами, циклотрон является ''резонансным ускорителем''. Понятно, что с увеличением энергии, на каждом обороте, радиус траектории частицы будет увеличиваться, пока она не выйдет за пределы дуантов.
+
+Циклотрон — первый из циклических ускорителей. Впервые был разработан и построен в Лоуренсом, за что ему была присуждена Нобелевская премия в 1939 году. До сих пор циклотроны применяются для ускорения тяжёлых частиц до относительно небольших энергий, до 50МэВ/нуклон.
+
+=== Бетатрон ===
+
+Другое название: индукционный ускоритель. Циклический ускоритель, в котором ускорение частиц осуществляется вихревым электрическим полем, индуцируемым изменением магнитного потока, охватываемого орбитой пучка. Поскольку для создания вихревого электрического поля необходимо изменять магнитное поле сердечника, а магнитные поля в несверхпроводящих машинах обычно ограничены эффектами насыщения железа на уровне ~20кГс, возникает ограничение сверху на максимальную энергию бетатрона. Бетатроны используются преимущественно для ускорения электронов до энергий 10—100&nbsp;МэВ (максимум достигнутой в бетатроне энергии 300&nbsp;МэВ).
+
+Впервые бетатрон был разработан и создан Видероэ в 1928 году, который, однако, ему не удалось запустить. Первый надёжно работающий бетатрон был создан Д. В. Керстом лишь в 1940—1941 гг. в США.
+
+=== Микротрон ===
+
+Он же — ускоритель с переменной кратностью. Резонансный циклический ускоритель с постоянным как у циклотрона ведущим магнитным полем и частотой ускоряющего напряжения. Идея микротрона состоит в том, чтобы сделать приращение времени оборота частицы, получающееся за счёт ускорения на каждом обороте, кратным периоду колебаний ускоряющего напряжения.
+
+=== Фазотрон (синхроциклотрон)===
+
+thumb|300px|A 1960s single stage 2 MeV linear Van de Graaff accelerator, here opened for maintenance
+
+A '''particle accelerator''' (or '''atom smasher'''<ref>[http://science.howstuffworks.com/atom-smasher.htm| how stuff works - atom smasher]</ref>) is a device that uses electrically-charged particles to high speeds and to contain them. An ordinary CRT television set is a simple form of accelerator. There are two basic types: linear accelerators and circular accelerators. 
+
+This page describes types of particle accelerators. For a list of existing and historic particle accelerators see:
+''List of accelerators in particle physics''.
+
+==Uses of particle accelerators==
+Beams of high-energy particles are useful for both fundamental and applied research in the sciences.
+For the most basic inquiries into the dynamics and structure of matter, space, and time, physicists seek the simplest kinds of interactions at the highest possible energies.  
+These typically entail particle energies of many field quanta.
+Since isolated quarks are experimentally unavailable due to color confinement, the simplest available experiments involve the interactions of, first, leptons with each other, and second, of leptons with nucleons, which are composed of quarks and gluons.
+To study the collisions of quarks with each other, we resort to collisions of nucleons, which at high energy may be usefully considered as essentially 2-body interactions of the quarks and gluons of which they are composed.
+Thus elementary particle physicists tend to use machines creating beams of electrons, positrons, protons, and anti-protons, interacting with each other or with the simplest nuclei (eg, hydrogen or deuterium) at the highest possible energies, generally hundreds of GeV or more.
+
+At a higher level of complexity, atomic nuclei, stripped of electrons, to investigate the structure, interactions, and properties of the nuclei themselves, and of condensed matter at extremely high temperatures and densities, such as might have occurred in the first moments of the Big Bang.  
+These investigations often involve collisions of heavy nuclei--of atoms like iron or gold--at energies of several GeV per nucleon. 
+At lower energies, beams of accelerated nuclei are also used in medicine, as  for the treatment of cancer.
+
+Besides being of fundamental interest, high energy electrons may be coaxed into emitting extremely bright and coherent beams of high energy photons--ultraviolet and X ray--via synchrotron radiation, which photons have numerous uses in the study of atomic structure, chemistry, condensed matter physics, biology, and technology. Examples include the ESRF in Europe, which has recently been used to extract detailed three - dimensional images of insects trapped in amber <ref>[http://news.bbc.co.uk/2/hi/science/nature/7324564.stm BBC NEWS | Science/Nature | Secret 'dino bugs' revealed<!-- Bot generated title -->]</ref>
+Thus there is a great demand for electron accelerators of moderate (GeV) energy and high intensity.
+
+===High-energy machines===
+thumb|left|200px|Beam lines leading from the Van de Graaf accelerator to various experiments, in the basement of the [[Jussieu Campus in Paris]]
+Linear high-energy accelerators use a linear array of plates (or drift tubes) to which an alternating high-energy field is applied. As the particles approach a plate they are accelerated towards it by an opposite polarity charge applied to the plate. As they pass through a hole in the plate, the polarity is switched so that the plate now repels them and they are now accelerated by it towards the next plate. Normally a stream of "bunches" of particles are accelerated, so a carefully controlled AC voltage is applied to each plate to continuously repeat this process for each bunch.
+
+thumb|200px|In early particle accelerators a [[Cockcroft-Walton generator|Cockcroft-Walton voltage multiplier was responsible for voltage multiplying. This piece of the accelerator helped in the development of the atomic bomb.  Built in 1937 by National Science Museum in London, England. ]]
+
+As the particles approach the speed of light the switching rate of the electric fields becomes so high that they operate at microwave frequencies, and so RF cavity resonators are used in higher energy machines instead of simple plates.
+
+DC accelerator types capable of accelerating particles to speeds sufficient to cause nuclear reactions are Cockcroft-Walton generators or voltage multipliers, which convert AC to high voltage DC, or Van de Graaff generators that use static electricity carried by belts.
+
+The largest and most powerful particle accelerators, such as the LHC) (scheduled to start operation in February 2009) and the Tevatron, are used for experimental particle physics.
+Particle accelerators can also produce proton beams, which can produce "proton-heavy" medical or research Los Alamos.
+
+===Low-energy machines===
+Everyday examples of particle accelerators are those found in television sets and DC voltage of a few thousand volts between them. In an X-ray generator, the target itself is one of the electrodes. 
+A low-energy particle accelerator called an ion implanter is used in the manufacture of integrated circuits.
+
+== Linear particle accelerators ==
+
+In a linear accelerator (linac), particles are accelerated in a straight line with a target of interest at one end. Linacs are very widely used - every Stanford Linear Accelerator, SLAC, which is 3 km (2 miles) long. SLAC is an electron-positron collider.
+thumb|The now disused Koffler particle accelerator at the [[Weitzmann Institute, one of Israel's most accomplished institutions of higher learning in the sciences.]]
+
+Linear accelerators are also widely used in medicine, for radiotherapy and radiosurgery. Medical grade LINACs accelerate electrons using a klystron and a complex bending magnet arrangement which produces a beam of 6-30 million electron-volt (MeV) energy. The electrons can be used directly or they can be collided with a target to produce a beam of X-rays. The reliability, flexibility and accuracy of the radiation beam produced has largely supplanted the older use of Cobalt-60 therapy as a treatment tool.
+
+=== Tandem electrostatic accelerators ===
+In a tandem accelerator, the negatively charged ion gains energy by attraction to the very high positive voltage at the geometric centre of the pressure vessel. When it arrives at the centre region known as the high voltage terminal, some electrons are stripped from the ion.  The ion then becomes positive and accelerated away by the high positive voltage. Thus, this type of accelerator is called a 'tandem' accelerator.  The accelerator has two stages of acceleration, first pulling and then pushing the charged particles. An example of a tandem accelerator is ANTARES (Australian National Tandem Accelerator for Applied Research).
+
+==Circular or cyclic accelerators==
+In the circular accelerator, particles move in a circle until they reach sufficient energy. The particle track is typically bent into a circle using electromagnets. The advantage of circular accelerators over linear accelerators (''linacs'') is that the ring topology allows continuous acceleration, as the particle can transit indefinitely. Another advantage is that a circular accelerator is relatively smaller than a linear accelerator of comparable power (i.e. a linac would have to be extremely long to have the equivalent power of a circular accelerator).
+
+Depending on the energy and the particle being accelerated, circular accelerators suffer a disadvantage in that the particles emit synchrotron radiation. When any charged particle is accelerated, it emits electromagnetic radiation and secondary emissions. As a particle traveling in a circle is always accelerating towards the center of the circle, it continuously radiates towards the tangent of the circle. This radiation is called synchrotron light and depends highly on the mass of the accelerating particle. For this reason, many high energy electron accelerators are linacs. Certain accelerators (synchrotrons) are however built specially for producing synchrotron light (X-rays).
+
+Since the special theory of relativity requires that matter always travels slower than the speed of light in a vacuum, in high-energy accelerators, as the energy increases the particle speed approaches the speed of light as a limit, never quite attained. Therefore particle physicists do not generally think in terms of speed, but rather in terms of a particle's energy or momentum, usually measured in electron volts (eV).
+An important principle for circular accelerators, and relativistic) momentum.
+
+===Cyclotrons===
+The earliest circular accelerators were cyclotrons, invented in 1929 by Ernest O. Lawrence at the University of California, Berkeley. Cyclotrons have a single pair of hollow 'D'-shaped plates to accelerate the particles and a single large dipole magnet to bend their path into a circular orbit. 
+It is a characteristic property of charged particles in a uniform and constant magnetic field B that they orbit with a constant period, at a frequency called the cyclotron frequency, so long as their speed is small compared to the speed of light c.
+This means that the accelerating D's of a cyclotron can be driven at a constant frequency by a radio frequency (RF) accelerating power source, as the beam spirals outwards continuously. 
+The particles are injected in the centre of the magnet and are extracted at the outer edge at their maximum energy.  
+
+Cyclotrons reach an energy limit because of  relativistic effects whereby the particles effectively become more massive, so that their cyclotron frequency drops out of synch with the accelerating RF. 
+Therefore simple cyclotrons can accelerate protons only to an energy of around 15 million electron volts (15 MeV, corresponding to a speed of roughly 10% of c), because the protons get out of phase with the driving electric field. 
+If accelerated further, the beam would continue to spiral outward to a larger radius but the particles would no longer gain enough speed to complete the larger circle in step with the accelerating RF. 
+Cyclotrons are nevertheless still useful for lower energy applications. 
+
+===Synchrocyclotrons and isochronous cyclotrons===
+
+There are ways of modifying the classic cyclotron to increase the energy limit.
+This may be done in a continuous beam, constant frequency, machine by shaping the magnet poles so to increase magnetic field with radius. 
+Then higher energy particles travel a shorter distance in each orbit than they otherwise would, and can remain in phase with the accelerating field.
+Such machines are called isochronous cyclotrons.  Their advantage is that they can deliver continuous beams of higher average intensity, which is useful for some applications.
+The main disadvantages are the size and cost of the large magnet needed, and the difficulty in achieving the higher field required at the outer edge.
+
+Another possibility, the synchrocyclotron, accelerates the particles in bunches, in a constant B field, but reduces the RF accelerating field's frequency so as to keep the particles in step as they spiral outward.  This approach suffers from low average beam intensity due to the bunching, and again from the need for a huge magnet of large radius and constant field over the larger orbit demanded by high energy.
+
+thumb|A magnet in the synchrocyclotron at the [[Orsay proton therapy center]]
+
+===Betatrons===
+
+Another type of circular accelerator, invented in 1940 for accelerating electrons, is the Betatron.
+These machines, like synchrotrons, use a donut-shaped ring magnet (see below) with a cyclically increasing B field, but accelerate the particles by induction from the increasing magnetic field, as if they were the secondary winding in a transformer,
+due to the changing magnetic flux through the orbit.
+Achieving constant orbital radius while supplying the proper accelerating electric field requires that the magnetic flux linking the orbit be somewhat independent of the magnetic field on the orbit, bending the particles into a constant radius curve.
+These machines have in practice been limited by the large radiative losses suffered by the electrons moving at nearly the speed of light in a relatively small radius orbit.
+
+===Synchrotrons===
+
+To reach still higher energies, with relativistic mass approaching or exceeding the rest mass of the particles (for protons, billions of electron volts GeV), it is necessary to use a synchrotron. This is an accelerator in which the particles are accelerated in a ring of constant radius.
+An immediate advantage over cyclotrons is that the magnetic field need only be present over the actual region of the particle orbits, which is very much narrower than the diameter of the ring.  
+(The largest cyclotron built in the US had a 184 in dia magnet pole, whereas the diameter of the LHC is nearly 10 km.  The aperture of the beam of the latter was of the order of centimeters.) 
+
+However, since the particle momentum increases during acceleration, it is necessary to turn up the magnetic field B in proportion to maintain constant curvature of the orbit.
+In consequence synchrotrons cannot accelerate particles continuously, as cyclotrons can, but must operate cyclically, supplying particles in bunches, which are delivered to a target or an external beam in beam "spills" typically every few seconds.
+Note that since high energy synchrotrons do most of their work on particles that are already traveling at nearly the speed of light c, the time to complete one orbit of the ring is nearly constant, as is the frequency of the RF power needed to drive the acceleration.
+
+Note also a further point about modern synchrotrons: because the beam aperture is small and the magnetic field does not cover the entire area of the particle orbit as it does for a cyclotron, several necessary functions can be separated.  
+Instead of one huge magnet, one has a line of hundreds of bending magnets, enclosing (or enclosed by) vacuum connecting pipes.  
+The focusing of the beam is handled independently by specialized quadrupole magnets, while the acceleration itself is accomplished in separate RF sections, rather similar to short linear accelerators.
+Also, there is no necessity that cyclic machines be circular, but rather the beam pipe may have straight sections between magnets where beams may collide. be cooled, etc.
+
+thumb|Aerial photo of the [[Tevatron at Fermilab.  The main accelerator is the ring above; the one below (about one-third the diameter, despite appearances) is for preliminary acceleration, beam cooling and storage, etc.]]
+More complex modern synchrotrons such as the LHC (still under construction) may deliver the particle bunches into storage rings of magnets with constant B, where they can continue to orbit for long periods for experimentation or further acceleration.
+The highest-energy machines such as the Tevatron and LHC are actually accelerator complexes, with a cascade of specialized elements in series, including linear accelerators for initial beam creation, one or more low energy synchrotrons to reach intermediate energy, storage rings where beams can be accumulated or "cooled" (reducing the magnet aperture required and permitting tighter focusing; see beam cooling), and a last large ring for final acceleration and experimentation.

@@ -1,0 +1,31 @@
+thumb|PageRank
+thumb|Działanie algorytmu PageRank
+'''PageRank''' – metoda nadawania indeksowanym stronom internetowym określonej wartości liczbowej, oznaczającej jej jakość.
+
+wyszukiwarkę internetową Google. Został opracowany przez założycieli firmy Google Larry'ego Page'a i Sergeya Brina podczas ich studiów na Uniwersytecie Stanforda w 1998 roku. Nazwa algorytmu pochodzi nie od angielskiego wyrazu określającego stronę (ang. ''page''), lecz od nazwiska twórcy, czyli Larry'ego Page'a. Wynik PageRank pokazywany jest jako jedna z opcji dostępnych w pasku narzędziowym Google, sprawdzać można go również w wielu serwisach niezależnych. 
+
+== Działanie ==
+PageRank jest rozwinięciem znanej od dawna heurystyki, wedle której jakość tekstu jest proporcjonalna do liczby tekstów na niego się powołujących. Ulepszenie zaproponowane przez autorów Google polegało na ważeniu jakości odnośników wskazujących na rozpatrywany tekst ich własną wartością PageRank. Innymi słowy: jeśli na dany tekst powołuje się artykuł, który sam ma wysoką ocenę, ma to większe znaczenie, niż gdy na ten sam tekst powołuje się mało popularna strona.
+
+Metody zbliżone do algorytmu PageRank są obecnie coraz śmielej wprowadzane do mechanizmów innych wyszukiwarek internetowych. Szczegóły właściwego algorytmu nigdy nie zostały upublicznione i są jednymi ze ściśle strzeżonych tajemnic Google. Do tego są najprawdopodobniej sukcesywnie poprawiane, aby zwiększać efektywność mechanizmu. Wszystkie informacje dostępne jawnie przedstawiają jedynie wzorcową wersję algorytmu stosowanego w wyszukiwarce Google. Ponadto PageRank jest tylko jednym z wielu elementów decydujących o ostatecznej pozycji danej strony wśród wyników wyszukiwania, a wprowadzane zmiany powodują, iż ma on coraz mniejszy na nią wpływ.
+
+== Patenty ==
+Część systemów wykorzystujących PageRank i podobne algorytmy została opatentowana w Stanach Zjednoczonych. W ich tekście można znaleźć wiele szczegółów dotyczących funkcjonowania tych algorytmów<ref>[http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2Fsearch-bool.html&r=0&f=S&l=50&TERM1=pagerank&FIELD1=&co1=AND&TERM2=&FIELD2=&d=ptxt Lista patentów w USA zawierających termin PageRank]</ref>.
+
+'''Google PageRank''' (от Larry Page Rank) (иногда просто '''PR''') — алгоритм расчёта авторитетности страницы, используемый поисковой системой Google. <!--Также PageRank является самостоятельным показателем авторитетности в численном выражении. При ранжировании результатов поиска, поисковые системы используют ряд внешних факторов, поэтому очень важно уделять особое внимание PageRank. -->
+
+PageRank — это числовая величина, характеризующая «важность» страницы в Google. Чем больше ссылок на страницу, тем она становится «важнее». Кроме того, «вес» страницы А определяется весом ссылки, передаваемой страницей B. Таким образом, PageRank — это метод вычисления веса страницы путем подсчета важности ссылок на нее. PageRank является одним из вспомогательных факторов при ранжировании сайтов в результатах поиска. PageRank не единственный, но очень важный способ определения положения сайта в результатах поиска Google.
+
+Google учитывает не все ссылки. Поисковая система отфильтровывает ссылки с сайтов, специально предназначенных для скопления ссылок. Некоторые ссылки могут не только не учитываться, но и отрицательно сказаться на ранжировании ссылающегося сайта (такой эффект называется ''поисковой пессимизацией''). В Google понимают, что вебмастер не в состоянии повлиять на входящие внешние ссылки, но полностью контролирует исходящие ссылки со своего сайта. Поэтому ссылки на сайт не могут повредить ему, но ссылки с сайта — могут. Следует внимательно относиться к сайтам, на которые вы ссылаетесь. 
+
+Google использует показатель PageRank найденных по запросу страниц, чтобы определить порядок выдачи этих страниц посетителю в результатах поиска.
+
+Это означает, что поиск в Google работает следующим образом:
+# ищутся все страницы, в которых есть слова из запроса пользователя;
+# найденные страницы ранжируются на основе текстовых критериев;
+# учитывается текст ссылок на сайт;
+# результаты корректируются с учетом PageRank каждой страницы.
+
+Шкала PageRank может изменяться от 0 до 10. Разделение на единицы по шкале основано на раскрученности». 6 — очень хорошо «раскрученный» сайт. 7 — величина, практически недостижимая для множества сайтов, но иногда встречается. Значения 8, 9, 10 имеют исключительно популярные и значимые проекты. Например, сейчас у английской Википедии PageRank = 8, у сайта Microsoft = 9. Значение 10 имеют всего несколько десятков сайтов, например http://www.whitehouse.gov, http://www.adobe.com.
+
+Следует отметить, что PageRank — это параметр относящийся к каждой отдельной странице, но не всему сайту в целом. На одном сайте могут находиться страницы с разным PageRank.

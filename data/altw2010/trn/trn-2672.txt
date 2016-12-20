@@ -1,0 +1,59 @@
+{{Infobox_Company 
+| company_name   = Check Point Software Technologies Ltd.
+| company_logo   =  150px
+| company_type   = Public () |
+| foundation     = 1993
+| location       = 20px Tel Aviv, Israel (before may 2007 : Ramat Gan)
+| key_people     = Gil Shwed, Founder, CEO<br/>Marius Nacht, Founder
+| num_employees  = 1,400 (2005?)
+| industry       = Network security<br/>Computer software<br/>Computer hardware
+| revenue        =  US$ 579.2 million (2005)<ref name="2005financials"></ref>
+| net_income     =  US$ 319.7 million (2005)<ref name="2005financials"/>
+| slogan         = We Secure The Internet
+| homepage       = [http://www.checkpoint.com/ www.checkpoint.com]
+}}
+
+'''Check Point Software Technologies Ltd.''' () is a hardware and software company that is best known for its firewall and Israel, by Belarus. They also have offices in Redwood City, California and in the Dallas, Texas area. <ref></ref><ref></ref><ref></ref><ref></ref><ref>{{citeweb |url=http://www.forbes.com/businesswire/feeds/businesswire/2008/02/19/businesswire20080219006572r1.html |publisher=''Forbes'' |date=February 19, 2008 |title=Check Point Software Announces Participation in First Quarter Investor Conferences |quote=
+
+Check Point(R) Software Technologies Ltd. (NASDAQ:CHKP), the worldwide leader in securing the Internet, today announced the company's expected investor conference participation for the first quarter of 2008. }}</ref><ref></ref>
+
+{{Infobox_Unternehmen
+| Name             = 
+| Logo             = 
+| Unternehmensform = Limited
+| ISIN             = IL0010824113
+| Gründungsdatum   = 1993
+| Sitz             = Tel Aviv, Israel
+| Leitung          = Gil Shwed, Gründer, CEO
+| Mitarbeiterzahl  = ca. 1800 (2007)
+| Umsatz           = $730,9 Mio. (2007)
+| Bilanzsumme      = 
+| Branche          = Softwareunternehmen
+| Homepage         = [http://www.checkpoint.com/ www.checkpoint.com]
+}}
+'''Check Point Software Technologies Ltd. ''' ist ein Softwareunternehmen bekannt mit ihren VPN-Produkten. Die Firma wurde 1993 in Ramat Gan, Israel gegründet und beschäftigt etwa 1800 Mitarbeiter. Der Hauptsitz ist in Redwood City in USA, Entwicklung und der internationale Hauptsitz in Ramat-Gan. Nach Angaben von Check Point nutzen alle der Top100 Unternehmen Sicherheitslösungen der Firma.
+
+Check Point kaufte Zone Labs im Jahr 2004. In Oktober 2005 versuchte Check Point ''Sourcefire'' mit amerikanischen Regierung. Ende 2006 akquirierte der Marktführer den amerikanischen IPS-Hersteller NFR und erweiterte damit sein Portfolio um eine IPS-Komponente. Im Januar wurde außerdem das schwedische Unternehmen Pointsec übernommen. Pointsec ist Hersteller von Software für Festplattenverschlüsselung und die Kontrolle externer Devices (z.B. USB-Stick, iPod usw.). Damit wird das Portfolio unter der Strategie "Pure Security" weiterhin sinnvoll ergänzt.
+
+Die FireWall-1/VPN-1-Suite besitzt, neben der erstmaligen Umsetzung einer Stateful Packet Inspection-Implementation, folgende Merkmale:
+* Zentrales, GUI-basiertes Regel- und Policymanagement
+* Integrierbarkeit aller Check Point-Produkte und vieler anderer Firewall- oder Paketfilterlösungen, z.&nbsp;B. IOS-Router von Cisco
+* Ein offene Erweiterungs-API und -Community OPSEC, über die z. B. mit dem Content Vectoring Protocol oder dem URL Filtering Protocol Viren- und Contentscanner verschiedenster Hersteller angebunden werden können.
+
+== Wichtigste Produkte ==
+* Windows, Solaris, Red Hat Linux und auch mit eigenem linuxbasierten Betriebssystem ''SecurePlatform'' und als Security Appliances, z.&nbsp;B. von Nokia, betrieben werden kann.
+* UTM-1 Firewall/VPN-Appliance mit SecurePlatform als Betriebssystem
+* Provider-1 Zentrale Verwaltung mehrerer SmartCenter-Server
+* SecureClient/SecuRemote Desktop-VPN-Lösung mit bzw. ohne integrierte Firewall
+* Connectra SSL-VPN Produkt
+* Integrity Desktop-Sicherheitssoftware
+* Safe@Office Internet Security Appliance
+* UTM-1 Edge Internet Security Appliance (vormals VPN-1 Edge UTM)
+* ZoneAlarm Desktop Firewall
+* Interspect Internal Network Security Appliance
+* Eventia Analyzer Echtzeitanalyse der Logfiles auf mögliche Angriffe
+* Eventia Reporter Historische Auswertung der angefallenen Logfiles
+
+== Zertifizierung ==
+
+Check Point bietet folgende Zertifizierungen an:

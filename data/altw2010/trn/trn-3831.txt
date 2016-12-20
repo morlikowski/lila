@@ -1,0 +1,129 @@
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = Rivarolo Mantovano |
+  name = Rivarolo Mantovano |
+  region = Lombardy |
+  province = Province of Mantua (MN) |
+  elevation_m =  |
+  area_total_km2   = 25.5 |
+  population_as_of  = Dec. 2004 |
+  population_total = 2702 |
+  population_density_km2 = 106 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          = Cividale Mantovano |
+  telephone         = 0376 |
+  postalcode        = 46017 |
+  gentilic          =  |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           =  |
+  mapy = 10.4333 |
+  mapx = 45.0667 |
+}}
+'''Rivarolo Mantovano''' is a ''Italian region Lombardy, located about 110 km southeast of Milan and about 30 km southwest of Mantua. As of 31 December 2004, it had a population of 2,702 and an area of 25.5 km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+The municipality of Rivarolo Mantovano contains the ''frazione'' (subdivision) Cividale Mantovano.
+
+Rivarolo Mantovano borders the following municipalities: Bozzolo, Casteldidone, Piadena, Rivarolo del Re ed Uniti, San Martino dall'Argine, Spineda, Tornata.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:5000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:1000 start:0
+ScaleMinor = gridcolor:lightgrey increment:200 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:3547
+  bar:1871 from: 0 till:3886
+  bar:1881 from: 0 till:4074
+  bar:1901 from: 0 till:3747
+  bar:1911 from: 0 till:3951
+  bar:1921 from: 0 till:3649
+  bar:1931 from: 0 till:3809
+  bar:1936 from: 0 till:3882
+  bar:1951 from: 0 till:3950
+  bar:1961 from: 0 till:3434
+  bar:1971 from: 0 till:3029
+  bar:1981 from: 0 till:2899
+  bar:1991 from: 0 till:2792
+  bar:2001 from: 0 till:2792
+
+PlotData=
+
+<!-- Il testo commentato è SOLO UN ESEMPIO -->
+{{Comune
+|nomeComune = Rivarolo Mantovano
+|linkStemma = Rivarolo Mantovano-Stemma.png
+|siglaRegione = LOM
+|siglaProvincia = MN
+|latitudineGradi = 45
+|latitudineMinuti = 4
+|latitudineSecondi = 0
+|longitudineGradi = 10
+|longitudineMinuti = 26
+|longitudineSecondi = 0
+|mappaX = 96
+|mappaY = 70
+|altitudine =  <!-- solo valore numerico dell'altitudine -->
+|superficie = 25
+|abitanti = 2.788
+|anno =  <!-- solo valore numerico dell'anno di riferimento  -->
+|densita = 112
+|frazioni = Cividale Mantovano <!-- elenco delle frazioni, separate da virgola e spazio - senza ritorni a capo -->
+|comuniLimitrofi = Bozzolo, Casteldidone (CR), Piadena (CR), Rivarolo del Re ed Uniti (CR), San Martino dall'Argine, Spineda (CR), Tornata (CR)
+|cap = 46017
+|prefisso = 0376
+|istat = 020050
+|fiscale = H342
+|nomeAbitanti =  <!-- nome degli abitanti minuscolo -->
+|patrono =  <!-- San Pietro-->
+|festivo =  <!-- 7 aprile -->
+|sito =  http://www.comune.rivarolo.mn.it/
+}} <!-- fine della tabella - per la compilazione vedi -> Aiuto:Comune -->
+'''Rivarolo Mantovano''' è un comune di 2.788 abitanti della provincia di Mantova.
+
+==Cenni storici==
+
+Durante la seconda guerra mondiale, nel periodo dell'occupazione tedesca e della Repubblica Sociale Italiana, dopo che l'unico nucleo ebraico del paese (i Foa) erano stato arrestati e deportati, Margherita Zanchi si adopero' in ogni modo per proteggere la famiglia di amici ebrei bresciani dei Benyacar, con l'aiuto di don Primo Mazzolari, parroco di Bozzolo. Per questo impegno di solidarietà, l'8 febbraio 2000, l'Istituto Yad Vashem di Gerusalemme ha conferito a Margherita Beduschi Zanchi l'alta onorificenza dei giusti tra le nazioni.<ref>Israel Gutman, Bracha Rivlin e Liliana Picciotto, ''I giusti d'Italia: i non ebrei che salvarono gli ebrei, 1943-45'' (Mondadori: Milano 2006), pp.239-40.</ref>
+
+==Amministrazione comunale==
+{{ComuniAmministrazione|NomeSindaco=Davide Cerasale<!--nome, cognome SENZA titoli-->
+|DataElezione=14/06/2004 <!--DATA DI ELEZIONE, usare il formato GG/MM/AAAA-->
+|partito=lista civica
+|TelefonoComune=0376 99101 <!--TELEFONO DEL CENTRALINO prefisso spazio numero telefonico-->
+|EmailComune=segreteria.rivarolo@infinito.it <!--E-MAIL del comune-->
+}}
+
+==Evoluzione demografica==

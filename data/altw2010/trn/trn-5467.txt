@@ -1,0 +1,303 @@
+''' ISO 8859-9''', also known as '''Latin-5''' or "Turkish", is an 8-bit character encoding, part of the ISO 8859 standard. It was designed originally to cover the Turkish language, designed as being of more use than the ISO 8859-3 encoding. It is identical to ISO 8859-1 except for these six replacements of characters mostly used to write the Icelandic language:
+{| class="prettytable"
+! Position
+|0xD0||0xDD||0xDE||0xF0||0xFD||0xFE
+|- style="text-align:center"
+! 8859-9
+||[[Turkish dotted and dotless I|İ||Ş|||[[Turkish dotted and dotless I|ı||ş
+|- style="text-align:center"
+! 8859-1
+||[[Acute accent|Ý|||[[ð||ý||þ
+|}
+
+'''ISO_8859-9:1989''', more commonly known by its preferred MIME name of '''ISO-8859-9''', is the IANA charset consisting of this standard used together with the control codes from ISO/IEC 6429 for the C0 (0x00–0x1F) and C1 (0x80–0x9F) parts. Escape sequences (from ISO/IEC 6429 or ISO/IEC 2022) are not
+to be interpreted. This charset also has the aliases '''iso-ir-148''', '''ISO_8859-9''', '''latin5''', '''l5''' and '''csISOLatin5'''.
+
+==Codepage layout==
+
+{| class="prettytable" style="text-align:center"
+|-
+!colspan="17" style="background-color:#fcb;"|'''ISO/IEC 8859-9'''
+|-
+|
+! x0
+! x1
+! x2
+! x3
+! x4
+! x5
+! x6
+! x7
+! x8
+! x9
+! xA
+! xB
+! xC
+! xD
+! xE
+! xF
+|-
+! 0x
+| rowspan="2" colspan="16" style="background-color:#CFC;valign:middle;text-align:center" | ''unused''
+|-
+! 1x
+|-
+! 2x
+| style="background-color:#FCC;" | ''SP''
+| !
+| "
+| #
+| $
+| %
+| &amp;
+| '
+| (
+| )
+| *
+| +
+| ,
+| -
+| .
+| /
+|-
+! 3x
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+| :
+| ;
+| &lt;
+| =
+| >
+| ?
+|-
+! 4x
+| @
+| A
+| B
+| C
+| D
+| E
+| F
+| G
+| H
+| I
+| J
+| K
+| L
+| M
+| N
+| O
+|-
+! 5x
+| P
+| Q
+| R
+| S
+| T
+| U
+| V
+| W
+| X
+| Y
+| Z
+| <nowiki>[</nowiki>
+| \
+| <nowiki>]</nowiki>
+| ^
+| _
+|-
+! 6x
+| `
+| a
+| b
+| c
+| d
+| e
+| f
+| g
+| h
+| i
+| j
+| k
+| l
+| m
+| n
+| o
+|-
+! 7x
+| p
+| q
+| r
+| s
+| t
+| u
+| v
+| w
+| x
+| y
+| z
+| {
+| <nowiki>|</nowiki>
+| <nowiki>}</nowiki>
+| ~
+| style="background-color:#CFC" | &nbsp;
+|-
+! 8x
+| rowspan="2" colspan="16" style="background-color:#CFC;valign:middle;text-align:center" | ''unused''
+|-
+! 9x
+|-
+! Ax
+| style="background-color:#FCC;font-size:x-small;" | ''NBSP''
+|¡
+|¢
+|£
+|¤
+|¥
+|¦
+|§
+|¨
+|©
+|ª
+|«
+|¬
+| style="background-color:#FCC;font-size:x-small;" | ''SHY''
+|®
+|¯
+|-
+! Bx
+|°
+|±
+|²
+|³
+|´
+|µ
+|¶
+|·
+|¸
+|¹
+|º
+|»
+|¼
+|½
+|¾
+|¿
+|-
+! Cx
+| À
+| Á
+| Â
+| Ã
+| Ä
+| Å
+| Æ
+| Ç
+| È
+| É
+| Ê
+| Ë
+| Ì
+| Í
+| Î
+| Ï
+|-
+! Dx
+| Ğ
+| Ñ
+| Ò
+| Ó
+| Ô
+| Õ
+| Ö
+| ×
+| Ø
+| Ù
+| Ú
+| Û
+| Ü
+| İ
+| Ş
+| ß
+|-
+! Ex
+| à
+| á
+| â
+| ã
+| ä
+| å
+| æ
+| ç
+| è
+| é
+| ê
+| ë
+| ì
+| í
+| î
+| ï
+|-
+! Fx
+| ğ
+| ñ
+| ò
+| ó
+| ô
+| õ
+| ö
+| ÷
+| ø
+| ù
+| ú
+| û
+| ü
+| ı
+| ş
+| ÿ
+|}
+
+In the table above, 20 is the regular SPACE character, and A0 is the NO-BREAK SPACE. AD is a SOFT HYPHEN, which should not appear at all in compliant web browsers. 
+
+'''ISO 8859-9''', genauer '''ISO/IEC 8859-9''' auch bekannt als ''Latin-5'', ist ein von der ISO zuletzt ISO/IEC 8859.
+
+ISO 8859-9 versucht alle türkischen Sprache abzudecken. Sein Vorgänger ist isländischen (''Đ/ð, Ý/ý, Þ/þ'') Sonderzeichen ersetzen.
+
+== Code-Tabelle ==
+{| class="prettytable"  style="text-align:center"
+|+ISO-8859-9 inklusive der in ISO/IEC 8859-9 nicht enthaltenen Steuerzeichen
+|--class="hintergrundfarbe6"
+!Code
+!…0 !!…1 !!…2 !!…3 !!…4 !!…5 !!…6 !!…7 !!…8 !!…9 !!…A !!…B !!…C !!…D !!…E !!…F
+|-
+
+|-
+
+|-
+
+|-
+!class="hintergrundfarbe6"|A…
+|''NBSP''||¡||¢||£||¤||¥||¦||§||¨||©||ª||«||¬||''SHY''­||®||¯
+|-
+!class="hintergrundfarbe6"|B…
+|°||±||²||³||´||µ||¶||·||¸||¹||º||»||¼||½||¾||¿
+|-
+!class="hintergrundfarbe6"|C…
+|À||Á||Â||Ã||Ä||Å||Æ||Ç||È||É||Ê||Ë||Ì||Í||Î||Ï
+|-
+!class="hintergrundfarbe6"|D…
+|class="hintergrundfarbe8"|Ğ||Ñ||Ò||Ó||Ô||Õ||Ö||×||Ø||Ù||Ú||Û||Ü||class="hintergrundfarbe8"|İ||class="hintergrundfarbe8"|Ş||ß
+|-
+!class="hintergrundfarbe6"|E…
+|à||á||â||ã||ä||å||æ||ç||è||é||ê||ë||ì||í||î||ï
+|-
+!class="hintergrundfarbe6"|F…
+|class="hintergrundfarbe8"|ğ||ñ||ò||ó||ô||õ||ö||÷||ø||ù||ú||û||ü||class="hintergrundfarbe8"|ı||class="hintergrundfarbe8"|ş||ÿ
+|}

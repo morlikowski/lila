@@ -1,0 +1,160 @@
+thumb|right|300px|Part of the rotational spectrum of [[HCl Gas, showing the presence of P- and R- branches. Frequency is on the x-axis, and transmittance on the y-axis.]]'''Rotational spectroscopy''' or '''microwave spectroscopy''' studies the absorption and emission rotational phase where the motion is quantized. In solids or liquids the rotational motion is usually quenched due to collisions.
+
+Rotational spectrum from a molecule (to first order) requires that the molecule  have a charge and the Diatomic molecules such as dioxygen (O<sub>2</sub>), dihydrogen (H<sub>2</sub>), etc. do not have a dipole moment and hence no purely rotational spectrum. However, electronic excitations can lead to asymmetric charge distributions and thus provide a net dipole moment to the molecule. Under such circumstances, these molecules will exhibit a rotational spectrum.
+
+Amongst the diatomic molecules, carbon monoxide (CO) has one of the simplest rotational spectra. As for tri-atomic molecules, hydrogen cyanide (HC≡N) has a simple rotational spectrum for a linear molecule and hydrogen isocyanide (HN=C:) for a non-linear molecule. As the number of atoms increases the spectrum becomes more complex as lines due to different transitions start overlapping.
+
+== Understanding the rotational spectrum ==
+
+In quantum mechanics the free rotation of a molecule is quantized, that is the rotational energy and the angular momentum can only take certain fixed values; what these values are is simply related to the moment of inertia, <math> I </math>, of the molecule. In general for any molecule, there are three moments of inertia: <math>I_A</math>, <math>I_B</math> and <math>I_C</math> about three mutually orthogonal axes ''A'', ''B'', and ''C'' with the origin at the center of mass of the system. A linear molecule is a special case in this regard. These molecules are cylindrically symmetric and one of the moment of inertia (<math>I_A</math>, which is the moment of inertia for a rotation taking place along the axis of the molecule) is negligible (i.e. <math>I_A << I_B = I_C </math>).
+
+=== Classification of molecules based on rotational behavior ===
+The general convention is to define the axes such that the axis <math>A</math> has the smallest moment of inertia (and hence the highest rotational frequency) and other axes such that <math>I_A <= I_B <= I_C</math>. Sometimes  the axis <math>A</math> may be associated with the symmetric axis of the molecule, if any. If such is the case, then <math>I_A</math> need not be the smallest moment of inertia. To avoid confusion, we will stick with the former  convention for the rest of the article. The particular pattern of energy levels (and hence of transitions in the rotational spectrum) for a molecule is determined by its symmetry. A convenient way to look at the molecules is to divide them into four different classes (based on the symmetry of their structure). These are,
+
+# Linear molecules (or linear rotors)
+# Symmetric tops (or symmetic rotors)
+# Spherical tops (or spherical rotors) and
+# Asymmetric tops
+
+Dealing with each in turn:
+
+# ''Linear molecules:''
+#* As mentioned earlier, for a linear molecule <math>I_A << I_B = I_C</math>. For most of the purposes, <math>I_A</math> is taken to be zero. For a linear molecule, the separation of lines in the rotational spectrum can be related directly to the moment of inertia of the molecule, and for a molecule of known atomic masses, can be used to determine the diatomic molecules this process is trivial, and can be made from a single measurement of the rotational spectrum. For linear molecules with more atoms, rather more work is required, and it is necessary to measure molecules in which more than one isotope of each atom have been substituted (effectively this gives rise to a set of simultaneous equations which can be solved for the bond lengths).
+#* Examples or linear molecules: dioxygen (O=O), carbon monoxide (O≡C<sup>*</sup>), hydroxy radical (OH), carbon dioxide (O=C=O), hydrogen cyanide (HC≡N), carbonyl sulfide (O=C=S), chloroethyne (HC≡CCl), acetylene (HC≡CH)
+# ''Symmetric tops:''
+#*A symmetric top is a molecule in which two moments of inertia are the same. As a matter of historical convenience, spectroscopists divide molecules into two classes of symmetric tops, ''bond angles) can be deduced from their spectra. 
+#*Examples of symmetric tops: 
+#** benzene (C<sub>6</sub>H<sub>6</sub>), cyclobutadiene (C<sub>4</sub>H<sub>4</sub>), ammonia (NH<sub>3</sub>)
+#** chloroform (CHCl<sub>3</sub>), propyne (CH<sub>3</sub>C≡CH)
+# ''Spherical tops:''
+#*A spherical top molecule, can be considered as a special case of ''symmetric tops'' with equal moment of inertia about all three axes (<math>I_A = I_B = I_C</math>).
+#*Examples of spherical tops: phosphorus tetramer (P<sub>4</sub>), carbon tetrachloride (CCl<sub>4</sub>), nitrogen tetrahydride (NH<sub>4</sub>), ammonium ion (NH<sub>4</sub><sup>+</sup>), sulfur hexafluoride (SF<sub>6</sub>)
+# ''Asymmetric tops:''
+#*As you would have guessed a molecule is termed an asymmetric top if all three moments of inertia are different. Most of the larger molecules are asymmetric tops, even when they have a high degree of symmetry. Generally for such molecules a simple interpretation of the spectrum is not normally possible. Sometimes asymmetric tops have spectra that are similar to those of a linear molecule or a symmetric top, in which case the molecular structure must also be similar to that of a linear molecule or a symmetric top. For the most general case, however, all that can be done is to fit the spectra to three different moments of inertia. If the molecular formula is known, then educated guesses can be made of the possible structure, and from this guessed structure, the moments of inertia can be calculated. If the calculated moments of inertia agree well with the measured moments of inertia, then the structure can be said to have been determined. For this approach to determining molecular structure, isotopic substitution is invaluable. 
+#*Examples of asymmetric tops: anthracene (C<sub>14</sub>H<sub>10</sub>), water (H<sub>2</sub>O), nitrogen dioxide (NO<sub>2</sub>)
+
+===Structure of rotational spectrum===
+*'''Linear molecules'''
+thumb|right|400px|An energy level diagram showing some of the transitions involved in the IR vibration-rotation spectrum of a linear molecule: P branch (where <math>\Delta J=-1</math>), Q branch (not always allowed, <math>\Delta J=0</math>) and R branch (<math>\Delta J=1</math>)
+These molecules have two degenerate modes of rotation (<math>I_B = I_C</math>, <math>I_A = 0</math>). Since we cannot distinguish between the two modes, we need only one rotational quantum number (<math>J</math>) to describe the rotational motion of the molecule.
+
+The rotational energy levels (<math>F \left( J \right)</math>) of the molecule based on rigid rotor model can be expressed as,
+
+:<math> F\left( J \right) = \tilde B_{e} J \left( J+1 \right)  \qquad  J = 0,1,2,...</math>
+
+where <math> \tilde B_e </math> is the rotational constant of the molecule and is related to the moment of inertia of the molecule <math> I_B = I_C </math> by, 
+
+:<math> \tilde B_e = {h \over{8\pi^2cI_B}} </math>
+
+Selection rules dictate that during emission or absorption the rotational quantum number has to change by unity i.e. <math> \Delta J = J^{\prime} - J^{\prime\prime} = \pm 1 </math>. Thus the locations of the lines in a rotational spectrum will be given by, 
+
+:<math> \tilde \nu_{J^{\prime}\leftrightarrow J^{\prime\prime}} = F\left( J^{\prime} \right) - F\left( J^{\prime\prime} \right) = 2 \tilde B_e \left( J^{\prime\prime} + 1 \right) \qquad  J^{\prime\prime} = 0,1,2,...</math>
+
+where <math> J^{\prime\prime}</math> denotes the lower energy level and <math> J^{\prime}</math> denotes higher energy level involved in the transition. The height of the lines is determined by the distribution of the molecules in the different levels and the probability of transition between two energy levels.
+
+We observe that, for a rigid rotor, the  transition lines are equally spaced in the wavenumber space. However, this is not always the case, except for the rigid rotor model. For non-rigid rotor model, we need to consider changes in the moment of inertia of the molecule. Two primary reasons for this are,
+
+*'''Centrifugal distortion:'''
+When a molecule rotates, the centrifugal force pulls the atoms apart. As a result, the moment of inertia of the molecule increases, thus decreasing <math> \tilde B_e </math>. To account for this a centrifugal distortion correction term is added to the rotational energy levels of the molecule.
+
+:<math> F\left( J \right) = \tilde B_{e} J \left( J+1 \right) - \tilde D_{e} J^2 \left( J+1 \right)^2 \qquad  J = 0,1,2,...</math>
+
+where <math> \tilde D_e </math> is the centrifugal distortion constant.
+
+Accordingly the line spacing for the rotational mode changes to, 
+
+:<math> \tilde \nu_{J^{\prime}\leftrightarrow J^{\prime\prime}} = 2 \tilde B_e \left( J^{\prime\prime} + 1 \right)  - 4\tilde D_e \left( J^{\prime\prime} +1 \right)^3 \qquad  J^{\prime\prime} = 0,1,2,...</math>
+
+*'''Effect of vibration on rotation:'''
+A molecule is always in vibration. As the molecule vibrates, its moment of inertia changes.
+Further there is a Coriolis coupling, between the vibrational motion of the nuclei  in the rotating (non-inertial) frame. However, as long as the vibrational quantum number does not change (i.e. the molecule is in only one state of vibration), the effect  of vibration on rotation are not important, because the time for vibration is much greater than the time required for rotation. The Coriolis coupling is often negligible, too, if one is interested in low vibrational and rotational quantum numbers only.
+
+*'''Symmetric Top'''
+
+The rotational motion of a symmetric top molecule can be described by two independent rotational quantum numbers (since two axes have equal moments of inertia, the rotational motion about these axes requires only one rotational quantum number for complete description). Instead of defining the two rotational quantum numbers for two independent axes, we associate one of the quantum number (<math>J</math>) with the total angular momentum of the molecule and the other quantum number (<math>K</math>) with the angular momentum of the axis which has different moment of inertia (i.e. axis <math>C</math> for oblate symmetric top and axis <math>A</math> for prolate symmetric tops). The rotational energy <math> F\left(J,K\right)  </math> of such a molecule, based on rigid rotor assumptions can be expressed in terms of the two previously defined rotational quantum numbers as follows, 
+
+'''Rotacijska spektroskopija''' obuhvaća spektroskopske tehnike kojima se mogu proučavati rotacije molekula: mikrovalna spektroskopija i Ramanova spektroskopija.
+
+== Rotacije molekula ==
+
+Svaka molekula u plinskoj fazi može rotirati. U krutinama i tekućinama, molekulske rotacije su ili ometene ili zakočene interakcijama s drugim molekulama. Čak i slobodne molekule, se ne mogu rotirati na bilo koji način: molekulske vibracije su kvantizirane. Molekula može imati samo određene kutne količine gibanja. To znači da molekule imaju diskretne razine rotacijske energije. Apsorbiranjem ili emitiranjem kvanta energije u obliku fotona, molekula može prijeći iz jedne rotacijske energijske razine u drugu: molekula će ubrzati ili usporiti rotaciju za točno određenu vrijednost.
+
+Elektromagnetsko zračenje, kao val električnog i magnetskog polja u prostoru, može intereagirati jedino s objektima s promjenjivim električnim ili magnetskim poljem. Da bi elektromagnetsko zračenje intereagiralo s molekulskim rotacijama, molekulske rotacije moraju proizvoditi promjenjivo električno polje u svojoj okolini (stalna magnetska polja kod molekula postoje samo kod iznimno rijetkih molekula), a to mogu samo molekule s trajnim električnim poljem. Najjače se sprežu molekule koje imaju trajni '''dipolni moment'''.
+
+Kod '''raspršenja zračenja''', elektromagnetsko zračenje spreže se s električnim poljem koje je uzrokovano polarizacijom molekule uslijed djelovanja električnog polja samog elektromagnetskog zračenja. To znači da će neelastično raspršenje elektromagnetskog zračenja biti moguće jedino ako polarizabilnost molekule ovisi o odabranom smjeru (anizotropne molekule). (Elastično raspršenje zračenja ne daje nikakve informacije o molekulskim gibanjima).
+
+== Opći principi ==
+
+Moment tromosti se definira kao: <math>I=\sum_{i=1}^N m_i r_i^2</math>, gdje je m masa atoma, a <math>r</math> udaljenost atoma od osi rotacije. Za proizvoljnu orjentaciju molekule, može se definirati 
+'''matrica momenata tromosti''':
+
+<math>\tilde{I}=\begin{vmatrix} \sum_{i=1}^N m_i r_{xi}^2 & \sum_{i=1}^N m_i r_{xi} r_{yi} & \sum_{i=1}^N m_i r_{xi} r_{zi} \\ \sum_{i=1}^N m_i r_{xi} r_{yi} & \sum_{i=1}^N m_i r_{yi}^2 & \sum_{i=1}^N m_i r_{yi} r_{zi} \\ \sum_{i=1}^N m_i r_{xi} r_{zi} & \sum_{i=1}^N m_i r_{yi} r_{zi} & \sum_{i=1}^N m_i r_{zi}^2 \end{vmatrix}</math>.
+
+Moguće je odabrati koordinatne osi tako da gornja matrica bude dijagonalna: <math>I_{xy}=I_{xy}=I_{yz}=0</math>. U tom slučaju osi rotacije se zovu '''glavne osi rotacije'''. Momenti tromosti, koji odgovaraju glavnim osima rotacije, označavaju se s <math>I_A</math>, <math>I_B</math> i <math>I_C</math>. Moment tromosti <math>I_A</math> odgovara najmanjem momentu tromosti, a <math>I_C</math> odgovara najvećem momentu tromosti. Molekule se prema simetriji mogu podijeliti na:
+* '''sferične rotore''': <math>I_A=I_B=I_C</math>,
+* '''linearne rotore''': <math>I_A=0</math>, <math>I_B=I_C</math>,
+* '''simetrične rotore''': <math>I_A\neq \ I_B=I_C</math> i
+* '''asimetrične rotore''': <math>I_A<I_B<I_C</math>.
+Izgled spektra molekule ovisi o skupini kojoj molekula pripada.
+
+Zbog rotacija, molekule osjećaju centrifugalnu silu, koja ih deformira. Deformacija molekule uzrokuje promjenu momenta tromosti što može zakomplicirati izračun položaja spektroskopskih linija. Zbog toga se često koristi aproksimacija '''krutog rotora''': pretpostavlja se da se molekule ne deformiraju uslijed centrifugalnih sila. Drugi problem nastaje uslijed sprezanja rotacija i vibracija molekula. To se rješava pretpostavkom da molekula uopće ne vibrira.
+
+=== Dvoatomne molekule ===
+
+'''Dvoatomne molekule''', po definiciji spadaju u '''linearne rotore'''. Rotacija dva objekta oko zajedničkog težišta, može se prikazati kao rotacija jednog objekta reducirane mase, oko osi rotacije, čija je udaljenost do objekta jednaka udaljenostima dvaju ishodnih objekata. Reducirana masa se računa po formuli:
+
+<math>\mu=\frac{m_1+m_2}{m_1 m_2}</math>
+
+Rješenjem Schrödingerove jednadžbe, uz aproksimaciju '''krutog rotora''' i pretpostavkom da molekula ne vibrira, kao rješenje, dobiva se: rotacijski term:
+
+<math>F(J)=BJ(J+1)</math>
+
+gdje je <math>J</math> '''rotacijski kvantni broj''', a <math>B</math> '''rotacijska konstanta.''' <math>J</math> može poprimiti cijelobrojne vrijednosti veće od 0: <math>J=0, 1, 2</math> ... Rotacijska konstanta se definira kao:
+
+<math>B=\frac{h^2}{2\pi^2I}</math>.
+
+Rotacijska konstanta ima dimenziju frekvencije i obično se izražava u megahercima (MHz). Ponekad se koristi rotacijska konstanta koja ima dimenziju valnog broja (jedinica je recipročni centimetar):
+
+<math>\tilde{B}=\frac{h^2}{2\pi^2Ic}</math>.
+
+Energija spektroskopskog prijelaza odgovara razlici dvaju termova:
+
+<math>E=hc[F(J_i)-F(J_j)]</math>
+
+izborno pravilo za rotacijski prijelaz vođen dipolnim momentom molekule:
+
+<math>\Delta J=\pm 1</math>
+
+Kod raspršenja zračenja ('''Ramanski prijelaz'''), jedan foton se apsorbira, a jedan emitira, pa je izborno pravilo:
+
+<math>\Delta J=\pm 2</math>
+
+Pomoću danih izbornih pravila moguće je izračunati položaj spektroskopskih linija u spektru. Spektroskopske linije su međusobno jednako udaljene; Položaj linije u apsorpcijskom ili emisijskom spektru je:
+
+<math>\Delta \Delta F(J)=F(J+1)-F(J)=2B(J+1)</math>,
+
+a u Ramanovom spektru:
+
+<math>\Delta \Delta F(J)=F(J+2)-F(J)=2B(2J+3)</math>.
+
+thumb|Rotacijski spektar molekule CO
+
+Realne molekule nisu kruti rotori, a, čak i u najnižem vibracijskom stanju, vibriraju, pa je opće rješenje puno kompliciranije:
+
+<math>F_v(J)=B_vJ(J+1)-D_v[J(J+1)]^2+H_v[J(J+1)]^3+L_v[J(J+1)]^4+...</math>
+
+Gdje su, vibracijski ovisne, rotacijske konstante:
+
+<math>B_v(J)=B_e - \alpha _e \left ( v + \frac{1}{2} \right ) + \gamma _e \left (v + \frac{1}{2} \right )^2 + ...</math>
+
+<math>D_v(J)=D_e- \beta _e \left (v + \frac{1}{2} \right ) + ...</math>
+
+<math>\alpha _e</math>, <math>\beta _e</math>, <math>\gamma _e</math>... su konstante sprezanja rotacije i vibracije, a <math>B_e</math>, <math>D_e</math>, <math>H_e</math>... su rotacijske konstante, ekstrapolirane na dno vibracijske plohe potencijalne energije.
+
+=== Linearni rotori ===
+
+Molekule koje spadaju u grupu '''linearnih rotora''' imaju sve atome na zamišljenom pravcu (internuklearne osi). To znači da je moment tromosti kroz internuklearnu os jednak nuli (<math>I_A=0</math>): rotacija oko internuklearne osi zapravo uopće nije rotacija molekule! Preostale osi rotacije su jednake: <math>I_B=I_C</math>. Primjeri linearnih rotora su: ugljikov dioksid, cijanovodik, acetilen...
+
+Jednadžbe, koje su prikazane za dvoatomne molekule, mogu se primijeniti i za linearne rotore; razlika je u računanju momenta tromosti i u računanju sprezanja vibracija i rotacija.
+
+Linearne višeatomne molekule (molekule koje imaju više od tri atoma) imaju 3N-5 vibracijskih stupnjeva slobode, gdje je N broj atoma: ukupni broj stupnjeva slobode je 3N, što dolazi od broja koordinata kojima se mogu opisati položaji svih atoma u molekuli, od kojih tri stupnja slobode otpadaju na ukupni pložaj molekule u prostoru (na translaciju), a dvije, na rotacije molekule. Tada izraz za <math>B_v</math> postaje:

@@ -1,0 +1,182 @@
+thumb|Логотип PCI Express
+thumb|Слоти PCI Express x4, x16, x1, знов x16, внизу стандартний 32-розрядний слот PCI, на материнській платі DFI LanParty nForce4 SLI-DR
+'''PCI Express''' або '''PCIe''' або '''PCI-E''', (також відома як 3GIO for 3rd Generation I/O; не плутати з PCI-X або PXI) — комп'ютерна шина, що використовує програмну модель шини PCI і високопродуктивний фізичний протокол, заснований на послідовній передачі даних.
+
+Розвитком стандарту PCI Express займається організація [http://www.pcisig.com/ PCI Special Interest Group (PCI-SIG)].
+
+На відміну від шини PCI, що використала для передачі даних загальну шину, PCI Express, в загальному випадку, є пакетною мережею з топологією типу зірка, пристрої PCI Express взаємодіють між собою через середовище, утворене комутаторами, при цьому кожен пристрій безпосередньо зв'язаний з'єднанням типу точка-точка з комутатором.
+
+Крім того, шиною PCI Express підтримується:
+* гаряча заміна карт;
+* гарантована смуга пропускання (QoS);
+* управління енергоспоживанням;
+* контроль цілісності передаваних даних.
+
+Розробка стандарту PCI Express була почата фірмою Intel після відмови від шини InfiniBand. Офіційно перша базова специфікація PCI Express з'явилася в липні 2002 року.
+
+Шина PCI Express націлена на використання тільки як локальна шина. Оскільки програмна модель PCI Express багато в чому успадкована від PCI, то існуючі системи і контроллери можуть бути допрацьовані для використання шини PCI Express заміною тільки фізичного рівня, без доопрацювання програмного забезпечення. Висока пікова продуктивність шини PCI Express дозволяє використовувати її замість шин персональних комп'ютерах.
+
+==Опис протоколу==
+thumb|Відеокарта для PCI Express
+Для підключення пристрою PCI Express використовується двонаправлене послідовне з'єднання типу точка-точка, зване ''lane''; це різко відрізняється від PCI, в якій всі пристрої підключаються до загальної 32-розрядної паралельної однонаправленої шини.
+
+З'єднання між двома пристроями PCI Express називається ''link'', і складається з одного (званого 1x) або декількох (2x, 4x, 8x, 12x, 16x і 32x) двонаправлених послідовних з'єднань ''lane''. Кожен пристрій повинен підтримувати з'єднання 1x.
+
+На електричному рівні кожне з'єднання використовує низьковольтну диференціальну передачу сигналу (LVDS), прийом і передача інформації проводиться кожним пристроєм PCI Express по окремих двох провідниках, таким чином, в простому випадку, пристрій підключається до комутатора PCI Express всього лише чотирма провідниками.
+
+Використання подібного підходу має наступні переваги:
+* карта PCI Express поміщається і коректно працює в будь-якому слоті тої або ж більшої пропускній спроможності (наприклад, карта x1 працюватиме в слотах x4 і x16);
+* слот більшого фізичного розміру може використовувати не всі ''lane'' (наприклад, до слота 16x можна підвести лінії передачі інформації, відповідні 1x або 8x, і все це нормально функціонуватиме; проте, при цьому необхідно підключити всі лінії «живлення» і «земля», необхідні для слота 16x).
+
+В обох випадках, на шині PCI Express використовуватиме максимальну кількість ''lane'ів'' доступних як для карти, так і для слота. Проте це не дозволяє пристрою працювати в слоті, призначеному для карт з меншою пропускною спроможністю шини PCI Express (наприклад, карта x4 фізично не поміститься в слот x1, не зважаючи на те, що вона могла б працювати в слоті x1 з використанням тільки одного lane).
+
+PCI Express пересилає всю управляючу інформацію, включаючи переривання, через ті ж лінії, що використовуються для передачі даних. Послідовний протокол ніколи не може бути заблокований, таким чином затримки шини PCI Express цілком порівнянні з такими для шини PCI (відмітимо, що шина PCI для передачі сигналу про запит на переривання використовує окремі фізичні лінії IRQ#A, IRQ#B, IRQ#C, IRQ#D).
+
+У всіх високошвидкісних послідовних протоколах (наприклад, Gigabit Ethernet), інформація про синхронізацію повинна бути вбудована в передаваний сигнал. На фізичному рівні, PCI Express використовує загально прийнятий метод кодування 8B/10B (8 бітів даних замінюються на 10 бітів, передаваних по каналу, таким чином 20% передаваного по каналу трафіку є надмірними), що дозволяє підняти перешкодозахист.
+
+Деякі протоколи (наприклад, SONET/SDH) використовують інший метод перешкодозахисного кодування, який називається скремблінг () для вбудовування інформації про синхронізацію в потік даних. Специфікація PCI Express також передбачає алгоритм скремблінгу, але скремблінг PCI Express відрізняється від такого у SONET.
+
+==Пропускна спроможність==
+Пропускна спроможність з'єднання lane складає 2,5 Гбит/с. Для розрахунку пропускної спроможності з'єднання link необхідно врахувати те, що в кожному з'єднанні передача дуплексна, а також врахувати застосування кодування 8B/10B (8 бітів в 10). Наприклад, дуплексна пропускна спроможність з'єднання 1x (P1x) складає:
+:<math>P_{1x} = {2,5 \cdot 2 \cdot 0,8 \over 8} = 0,5 </math> ГБ/сек
+
+де
+* 2,5 — пропускна спроможність одного lane, Гбит/с;
+* 2 — врахування того, що з'єднання 1x складається з двох lane;
+* 0,8 — коефіцієнт, що враховує використання коду 8B/10B;
+* 8 — коефіцієнт для перекладу Гбіт/с в ГБ/с.
+
+{{Infobox Computer Hardware Bus
+| name        = PCI Express
+| image       = PCI Express logo.svg
+| caption     = PCI Express logo
+| invent-date = 2004
+| invent-name = Intel
+| super-name  = 
+| super-date  = 
+| width       = 1
+| speed       = 8 GB/s (v1.1, x32)<!-- Maybe 10GB overhead included? -->
+| bandwidth   = 
+| numdev      = 1 per slot
+| style       = s
+| hotplug     = Depends on form factor
+| external    = Depends on form factor
+}}
+:''Not to be confused with PCI-X, a different bus architecture.''
+'''PCI Express''', officially abbreviated as '''PCI-E''' or '''PCIe''', is a PCI expansion bus, the high-end AGP graphics card interface. Unlike previous PC expansion interfaces, rather than being a bus it is structured around point-to-point serial links called lanes.
+
+==Summary==
+A PCI Express link is built around pairs of serial (1-bit), unidirectional point-to-point connections known as "lanes". This is in sharp contrast to the PCI standard which is a bus-based system in which all the devices share the same bidirectional, 32-bit (or 64-bit), parallel signal path.
+
+In PCIe 1.1 (currently the most common version) each lane sends information at a rate of 250 MB/s (250 million bytes per second) in each direction. <br />
+PCIe 2.0 doubles this data rate, introduced in late 2007, PCIe 2.0 is found on newer systems such as those based around the Intel X38 or AMD 780G chipsets. <br />
+The latest proposed PCIe 3.0 standard will increase the speed of the links further (tentatively scheduled for release around 2010).<ref name=extrmetech/>
+
+Each PCIe slot carries either one, two, four, eight, sixteen or thirty-two lanes of data between the motherboard and the addin card. Lane counts are written with an "x" prefix e.g. x1 for a single-lane card and x16 for a sixteen-lane card. Thirty-two lanes of 250 MB/s (PCIe 1.1) gives a maximum transfer rate of 8 GB/s (250 MB/s x 32, i.e., 8 billion bytes per second) in each direction. However the largest size in common use for PCIe 1.1 is x16, giving a transfer rate of 4 GB/s (250 MB/s x 16) in each direction. Putting this into perspective, a single lane for PCIe 1.1 has nearly twice the data rate of normal PCI, a four-lane slot has a transfer rate comparable to the fastest version of the old parallel PCI-X 1.0, and an eight-lane slot has a transfer rate comparable to the fastest version of AGP. However the data rates cited must be derated because 8b/10b coding is used in the physical layer. The link transfer speeds cited are to be considered maximum theoretical data rates.  <!--all comparisons given here are based on figures given in the appropriate wikipedia articles-->
+
+PCIe slots come in a variety of physically different sizes referred to by the maximum lane count they support, ie. x1, x2, x4, x8, x16 and x32. A PCIe card will fit into a slot of its size or bigger, but not into a smaller PCIe slot.
+
+The number of lanes actually connected to a slot may also be less than the number supported by the physical slot size. An example is a x8 slot that actually only runs at x1; these slots will allow any x1, x2, x4 or x8 card to be used, though only running at the x1 speed. This type of socket is described as a 'x8 (x1 mode)' slot, meaning it physically accepts up to x8 cards but only runs at x1 speed. The advantage gained is that a larger range of PCIe cards can still be used without requiring the motherboard hardware to support the full transfer rate - in so doing keeping design and implementation costs down. 
+
+The number of lanes is "negotiated" during power-up or explicitly during operation. By making the lane count flexible a single standard can provide for the needs of high-bandwidth cards (e.g. graphics cards, 10 Gigabit Ethernet cards and multiport Gigabit Ethernet cards) while also being economical for less demanding cards. This feature allows a x1 card to be inserted into a x4 slot. The system will deprecate the link speed to the x1 card's needs and provide data to the card on 1 lane even though the motherboard is capable of x4 operation on that particular slot.
+
+As well as the ordinary expansion cards for desktops and servers, the PCIe electrical interface is used in a variety of other form factors including the ExpressCard laptop expansion card interface. PCIe is also often used to connect integrated peripherals on the motherboard.
+
+Specifications of the format are being maintained and developed by a group of more than 900 industry-leading companies called the [http://www.pcisig.com PCI Special Interest Group] (PCI-SIG).
+
+==Overview==
+thumb|right|475px|A PCI Express x16 slot
+thumb|right|125px|A PCI Express x1 slot
+
+The PCIe physical layer consists of a network of serial interconnects. A hub on the mainboard acts as a crossbar switch allowing point-to-point device interconnections to be rerouted on the fly.  This dynamic point-to-point connection behavior leads to parallelism since more than one pair of devices may communicate with each other at the same time.  (In contrast, older PC interfaces had all devices permanently wired to the same bus; therefore, only one device could talk at a time.)  This is similar to the difference between conversing over a telephone where you can only call one person at a time, and conversing in a meeting, where you can talk to a person beside you directly.  The format also allows channel grouping, where multiple lanes are bonded to a single device pair in order to provide higher bandwidth.
+
+The bonded serial format was chosen over a traditional parallel format due to the phenomenon of USB, SAS, FireWire or RapidIO.  The multichannel serial design also increases flexibility by allowing slow devices to be allocated fewer lanes than fast devices.
+
+PCIe is supported primarily by local interconnect only.  It was designed to be software compatible with the preexisting PCI standard, making the conversion of PCI cards and systems to PCI Express as simple as replacing the physical layer without requiring a change to the supporting software. The increased bandwidth on PCI Express has led to unification, as it is fast enough to replace almost all existing internal buses, including AGP and PCI.  Intel envisions a single PCI Express controller talking to all external devices in the future, as opposed to the northbridge/southbridge solution used in current machines.
+
+Unlike preceding PC expansion interface standards, PCIe is a point-to-point "bus". This type of connection removes the need for "arbitrating" the bus or waiting for the bus to free. This means that while standard PCI-X (133 MHz 64 bit) and PCIe x4 have roughly the same data transfer rate, PCIe x4 will give better performance if multiple device pairs are communicating simultaneously or if communication within a single device pair is bidirectional.
+
+==History==
+While in development, PCI Express (PCIe) was initially referred to as HSI (High Speed Interconnect), and underwent a name change "3GIO" (3rd Generation I/O) before finally settling on its PCI SIG name PCI Express.  It was first drawn up by a technical working group named the Arapahoe Work Group which for initial drafts consisted of an Intel only team of architects.  Subsequently the AWG as it was referred to was expanded to include industry partners.  
+
+PCIe is a technology under constant development and improvement. The current standard version in general use at time of writing is PCIe 1.1; however, the GT/s to 5 GT/s. PCIe 2.0 is backward compatible with PCIe 1.1 as a physical interface slot and from within software, so older cards will still be able to work in machines fitted with this new version. Further information on PCIe 2.0 is detailed below.
+
+==Hardware protocol summary==
+The PCIe link is built around dedicated unidirectional couples of serial (1-bit), point-to-point connections known as "lanes". This is in sharp contrast to the PCI connection, which is a bus-based system where all the devices share the same bidirectional, 32-bit (or 64-bit), parallel bus.
+
+PCI Express is a layered protocol, consisting of a Transaction Layer, a Data Link Layer, and a Physical Layer. The Data Link Layer is further divided to include a Media Access Control sublayer. The Physical Layer is further divided into a logical sublayer and an electrical sublayer. The PHY logical sublayer contains a Physical Coding Sublayer (PCS). (Terms borrowed from the IEEE 802 model of networking protocol.)
+
+=== Physical Layer ===
+
+The PCIe Physical Layer (PHY) ('''PCIEPHY''' , '''PCI Express PHY''' or '''PCIe PHY''') specification is divided into two sublayers, corresponding to electrical and logical specifications. The logical sublayer is sometimes further divided into a MAC (Media Access Control) sublayer and a PCS (Physical Coding Sublayer), although this division is not formally part of the PCIe specification. A specification published by Intel, the PHY Interface for PCI Express (PIPE)<ref name="pipe_spec">{{cite web
+| title = PHY Interface for the PCI Express Architecture, version 2.00
+| accessdate = 2008-05-21
+| url = http://download.intel.com/technology/pciexpress/devnet/docs/pipe2_00.pdf}}</ref>
+, defines the MAC/PCS functional partitioning and the interface between these two sublayers. The PIPE specification also identifies the PMA (Physical Media Attachment) layer, which includes the Serializer/Deserializer and other analog circuitry; however, since SerDes implementations vary greatly among ASIC vendors, PIPE does not specify an interface between the PCS and PMA.
+
+At the electrical level, each lane consists of two unidirectional PCML pairs at 2.52½&nbsp;Gbit/s. Transmit and receive are separate differential pairs, for a total of 4 data wires per lane.
+
+right|250px|thumb|PCI Express slots (from top to bottom: x4, x16, x1, and x16), compared to a traditional 32-bit PCI slot (bottom), as seen on [[DFI's LanParty nF4 Ultra-D]]
+250px|thumb|An [[XFX brand GeForce 6600GT PCI Express x16 video adapter card]]
+
+A connection between any two PCIe devices is known as a "link", and is built up from a collection of 1 or more lanes. All devices must minimally support single-lane (x1) link. Devices may optionally support wider links composed of 2, 4, 8, 12, 16, or 32 lanes.  This allows for very good compatibility in two ways:
+* a PCIe card will physically fit (and work correctly) in any slot that is at least as large as it is (e.g. an x1 sized card will work in any sized slot);
+* a slot of a large physical size (e.g. x16) can be wired electrically with fewer lanes (e.g. x1, x4, or x8) as long as it provides the power and ground connections required by the larger physical slot size.
+In both cases, PCIe will negotiate the highest mutually supported number of lanes.
+
+It is often not possible to place a physically larger PCIe card (e.g. a 16x sized card) into a smaller slot, even though the two would be signal-compatible if it were possible. Some motherboards have open-ended PCIe slots which allow for a physically larger card to be inserted in a smaller PCIe slot.
+
+The width of a PCIe connector is 8.8 mm, while the height is 11.25 mm, and the length is variable. The 'minor' half of the connector is 11.65 mm in length and contains 22 pins, while the length of the 'major' half is variable. The thickness of the card going into the connector is 1.8mm.<ref name="pcie_schematics1">{{cite web
+| title = Mechanical Drawing for PCI Express Connector
+| accessdate = 2007-12-07
+| url = http://www.interfacebus.com/Design_Connector_PCI_Express.html#d}}</ref><ref name="pcie_schematics2">{{cite web
+| title = FCi schematic for PCIe connectors
+| accessdate = 2007-12-07
+| url = http://portal.fciconnect.com/Comergent/en/US/fci/drawing/10018783.pdf}}</ref>
+
+{| class="wikitable"
+|-
+! Lanes
+! Pins Total
+! Pins in 'major' half
+! Total Length
+! Length of 'major' half
+|-
+| x1
+| 36
+| 14
+| 25 mm
+| 7.65 mm
+|-
+| x4
+| 64
+| 42
+| 39 mm
+| 21.65 mm
+|-
+| x8
+| 98
+| 76
+| 56 mm
+| 38.65 mm
+|-
+| x16
+| 164
+| 142
+| 89 mm
+| 71.65 mm
+|}
+
+==== Data transmission ====
+
+PCIe sends all control messages, including interrupts, over the same links used for data. The serial protocol can never be blocked, so latency is still comparable to PCI, which has dedicated interrupt lines.
+
+Data transmitted on multiple-lane links is interleaved, meaning that each successive byte is sent down successive lanes. The PCIe specification refers to this interleaving as "data striping." While requiring significant hardware complexity to synchronize (or deskew) the incoming striped data, striping can significantly increase the throughput of the link. Due to padding requirements, striping may not necessarily reduce the latency of small data packets on a link.
+
+As with all high data rate serial transmission protocols, clocking information must be embedded in the signal. At the physical level, PCI Express utilizes the very common 8b/10b encoding scheme to ensure that strings of consecutive ones or consecutive zeros are limited in length.  This is necessary to prevent the receiver from losing track of where the bit edges are.  In this coding scheme every 8 (uncoded) payload bits of data are replaced with 10 (encoded) bits of transmit data, consuming an extra 25% of the overall electrical bandwidth.
+
+Many other protocols (such as scrambling" to embed clock information into data streams. The PCI Express specification also defines a scrambling algorithm, but it is used to reduce EMI (Electromagnetic interference) by preventing repeating data patterns in the transmitted data stream.
+
+==== Signaling rate ====
+
+The first-generation PCIe transfers data at a 2.5 GT/s (gigatransfer per second) signaling rate per lane. PCIe version 2.0 provides an increase in the signaling rate to 5 GT/s per lane. A third-generation PCIe specification is in development with the goal of further increasing the rate.

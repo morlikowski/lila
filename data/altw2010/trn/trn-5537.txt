@@ -1,0 +1,84 @@
+'''Creep''' is the tendency of a solid material to slowly move or deform permanently under the influence of stresses.  It occurs as a result of long term exposure to levels of stress that are below the yield strength or ultimate strength of the material. 
+Creep is more severe in materials that are subjected to heat for long periods, and near the melting point.  It is often observed in glasses. Creep always increases with temperature. 
+
+The rate of this deformation is a function of the material properties, exposure time, exposure stress). Depending on the magnitude of the applied stress and its duration, the deformation may become so large that a component can no longer perform its function — for example creep of a turbine blade will cause the blade to contact the casing, resulting in the failure of the blade. Creep is usually of concern to engineers and metallurgists when evaluating components that operate under high stresses or high temperatures. Creep is not necessarily a failure mode, but is instead a deformation mechanism. Moderate creep in concrete is sometimes welcomed because it relieves tensile stresses that otherwise may have led to cracking.
+
+Unlike brittle fracture, creep deformation does not occur suddenly upon the application of stress.  Instead, strain accumulates as a result of long-term stress. Creep deformation is "time-dependent" deformation.
+
+The temperature range in which creep deformation may occur differs in various materials.  For example, Tungsten requires a temperature in the thousands of degrees before creep deformation can occur while ice formations such as the Antarctic ice cap will creep in freezing temperatures. Generally, the minimum temperature required for creep deformation to occur is 30% of the melting point for metals and 40&ndash;50% of melting point for ceramics. Virtually any material will creep upon approaching its melting temperature.  Since the minimum temperature is relative to melting point, creep can be seen at relatively low temperatures for some materials. Plastics and low-melting-temperature metals, including many solders, creep at room temperature as can be seen marked in old lead hot-water pipes. Planetary ice is often at a high temperature relative to its melting point, and creeps.
+
+Creep deformation is important not only in systems where high temperatures are endured such as nuclear power plants, jet engines and heat exchangers, but also in the design of many everyday objects.  For example, metal paper clips are stronger than plastic ones because plastics creep at room temperatures. Aging glass windows are often erroneously used as an example of this phenomenon: measurable creep would only occur at temperatures above the glass transition temperature around 900°F/500°C.
+
+An example of an application involving creep deformation is the design of tungsten lightbulb filaments. Sagging of the filament coil between its supports increases with time due to creep deformation caused by the weight of the filament itself. If too much deformation occurs, the adjacent turns of the coil touch one another, causing an electrical short and local overheating, which quickly leads to failure of the filament. The coil geometry and supports are therefore designed to limit the stresses caused by the weight of the filament, and a special tungsten alloy with small amounts of oxygen trapped in the crystallite grain boundaries is used to slow the rate of coble creep.
+
+In steam turbine power plants, steam pipes carry superheated vapor at high temperatures (1050°F/566°C) and high pressures of 3500 psi (24.1 MPa) or greater. In modern jet engines, temperatures can reach up to 1400°C (2550°F) and initiate creep deformation in even advanced-coated turbine blades.  Hence, it is crucial for safety's sake to understand creep deformation behavior of materials.
+
+==Stages of creep==
+In the initial stage, or primary creep, the strain rate is relatively high, but slows with increasing strain. The strain rate eventually reaches a minimum and becomes near constant. This is known as secondary or steady-state creep. This stage is the most understood. The characterized "creep strain rate" typically refers to the rate in this secondary stage. Stress dependence of this rate depends on the creep mechanism. In tertiary creep, the strain rate exponentially increases with strain.
+
+==Mechanisms of creep==
+The mechanism of creep depends on temperature and stress. The various methods are:
+* Bulk diffusion
+* Climb &mdash; here the strain is actually accomplished by climb
+* Climb-assisted glide &mdash; here the climb is an ''enabling'' mechanism, allowing dislocations to get around obstacles
+* Grain boundary diffusion
+* Thermally activated glide &mdash; e.g., via cross-slip
+
+==General creep equation==
+
+: <math> \frac{d\varepsilon}{dt} = \frac{C\sigma^m}{d^b} e^\frac{-Q}{kT}</math>
+
+where <math>\varepsilon</math> is the creep strain, ''C'' is a constant dependent on the material and the particular creep mechanism, ''m'' and ''b'' are exponents dependent on the creep mechanism, ''Q'' is the activation energy of the creep mechanism, <math>\sigma</math> is the applied stress, ''d'' is the grain size of the material, ''k'' is Boltzmann's constant, and ''T'' is the absolute temperature.
+
+===Dislocation creep===
+At high stresses (relative to the shear modulus), creep is controlled by the movement of dislocations.  When a stress is applied to a material, plastic deformation occurs due to the movement of dislocations in the slip plane. Materials contain a variety of defects, for example solute atoms, that act as obstacles to dislocation motion. Creep arises from this because of the phenomenon of dislocation climb. At high temperatures vacancies in the crystal can diffuse to the location of a dislocation and cause the dislocation to move to an adjacent slip plane.  By climbing to adjacent slip planes dislocations can get around obstacles to their motion, allowing further deformation to occur. Because it takes time for vacancies to diffuse to the location of a dislocation this results in time dependent strain, or creep.
+
+For dislocation creep <math>Q=Q_{\text{self diffusion}}</math>, m = 4-6, and b=0. Therefore dislocation creep has a strong dependence on the applied stress and no grain size dependence.
+
+Some alloys exhibit a very large stress exponent (''n''&nbsp;>&nbsp;10), and this has typically been explained by introducing a "threshold stress," <math>\sigma_{th}</math>, below which creep can't be measured. The modified power law equation then becomes:
+
+: <math>\frac{d\epsilon}{dt} = A \left(\sigma-\sigma_{th}\right)^n e^\frac{-Q}{\bar R T}</math>
+
+where <math>A</math>, <math>Q</math> and <math>n</math> can all be explained by conventional mechanisms (so <math>3\leq{n}\leq{10}</math>).
+
+===Nabarro-Herring creep===
+Nabarro-Herring creep is a form of diffusion controlled creep. In N-H creep atoms diffuse through the lattice causing grains to elongate along the stress axis.  For Nabarro-Herring creep ''k'' is related to the diffusion coefficient of atoms through the lattice, <math>Q=Q_{\text{self diffusion}}</math>, ''m'' = 1, and ''b'' = 2.  Therefore N-H creep has a weak stress dependence and a moderate grain size dependence, with the creep rate decreasing as grain size is increased.
+
+Bei '''Werkstoffen''' bezeichnet der Begriff '''Kriechen''' die zeit- und temperaturabhängige, plastische Verformung eines Werkstoffes unter Last. Beschrieben im Kriechmodul.
+
+Kriechen muss bei konstruktiven Aufgaben wie dem Maschinenbau oder im Bauwesen berücksichtigt werden und beeinflusst das Verhalten der jeweiligen Objekte z. T. in erheblichem Maße. Es gilt im allgemeinen für alle metallischen Werkstoffe, sowie für Kunststoffe und eine Zahl von Keramiken einschließlich Beton.
+
+==Kriechen bei Beton==
+
+Kriechen bezeichnet die Verformungszunahme des Betons im Laufe der Zeit unter einer konstanten Spannung. Es ist eine Eigenschaft des Betons, die sich insbesondere bei Druckbelastung durch eine Gefügeumwandlung und Volumenverminderung äußert. 
+
+Das Kriechen wird durch das im Zementstein enthaltene Wasser ausgelöst. Eine äußere Belastung führt zum Platzwechsel von Wassermolekülen im Zementstein-Gel. Dazu kommen Verdichtungs- und Gleitvorgänge zwischen den Gelpartikeln. Es wird chemisch nicht gebundenes Wasser aus den Zementporen in die Kapillaren gepresst und verdunstet, was ein Schrumpfen des Gels zur Folge hat. Die Zunahme der Kriechverformungen werden mit der Zeit immer geringer und kommen erst nach mehreren Jahren nahezu zum Stillstand.
+
+Das Kriechen setzt sich aus zwei Anteilen zusammen. Der reversible Verformungsanteil, der nach Entlastung mit zeitlicher Verzögerung zurückgeht, auch als ''Rückkriechen'' bezeichnet, wird durch das Alter des Betons wenig beeinflusst und erreicht schon nach kurzer Zeit seinen Endwert. Der dominierende irreversible Verformungsanteil bleibt nach Entlastung voll erhalten, er wird auch als ''Fließen'' bezeichnet, ist dagegen stark vom Betonalter abhängig und erreicht seinen Wert erst nach langer Zeit. Unter ungünstigen Randbedingungen kann die Endkriechzahl einen Wert von ungefähr 3,0 erreichen, d. h. die Betonverformungen durch Kriechen sind dreimal so groß wie aus der elastischen Verformung.
+
+Verlauf und Ausmaß des Kriechens werden neben Belastungsgröße und Alter des Betons insbesondere durch das Zementsteinvolumen und den Betondruckfestigkeit. Die Kriechzahlen werden im Labor mit dem Kriechversuch bestimmt.
+
+Die Angaben in der DIN 1045-1 gelten für das lineare Kriechen unter einer Druckspannung, d. h. die Kriechzahlen sind unabhängig von der Belastungshöhe. Dies gilt bis zu einer Spannung von ungefähr 45% der Zylinderfestigkeit des Betons. Bei höheren Betondruckspannungen tritt infolge einer verstärkten Mikrorissbildung des Betons das nichtlineare Kriechen auf. Dabei nehmen die Kriechverformungen mit steigender Belastung überproportional zu.
+
+Bei der Berechnung von vorgespannten Betonteilen (Decken.
+
+==Kriechen bei Kunststoffen==
+
+Da Kunststoffe aus großen, im Fall von Thermoplasten und Elastomeren verknäulten, Molekülketten bestehen, gleiten bzw. entknäueln sich diese unter äußerer Belastung woraus eine Dehnung resultiert. Je nach Herstellung, Material und Füllung des Kunststoffes mit Füllstoffen kann die Dehnung mehr als 1000 % betragen. 
+
+Da Polymere sich unter Belastung viskoelastisch verhalten, ist bei Kriechversuchen ein deutliche Spannungsrelaxation zu erkennen.
+
+==Kriechen bei metallischen Werkstoffen==
+===Metallischer Werkstoff===
+Die Eigenschaften metallischer Werkstoffe sind oberhalb der sogenannten Übergangstemperatur <math>T_t</math> zeitabhängig, da hier alle Gefügemechanismen thermisch aktiviert ablaufen. Die Übergangstemperatur ist werkstoffabhängig und beträgt etwa 40 % der Schmelztemperatur in Kelvin. Bei diesen hohen Temperaturen (<math>T > T_t</math>) läuft eine Reihe verschiedener Werkstoffzustandsänderungen ab, die sich auf Einflüsse von Temperatur, mechanischer Spannung, Zeit sowie Umgebungsatmosphäre zurückführen lassen. Hier erfahren metallische Werkstoffe auch bei geringen mechanischen Spannungen unterhalb der Streckgrenze <math>R_e</math> eine irreversible plastische Verformung, die langsam, aber stetig voranschreitet. Diese voranschreitende plastische Verformung unter ruhender Last wird Kriechen genannt und ist temperatur-, spannungs-, zeit- und werkstoffabhängig. Kriechen ist immer mit einer Schädigung des metallischen Werkstoffs verbunden. Kriechen beruht im wesentlichen auf transkristallinen Vorgängen wie Versetzungsbewegungen und Leerstellendiffusion. Aber auch interkristalline Vorgänge wie Korngrenzengleiten und Korngrenzendiffusion sind am Kriechen beteiligt.
+
+Während also in der Regel bei Raumtemperatur eine statische Last unterhalb der Streckgrenze ausschließlich zu elastischer Verformung führt und praktisch unendlich lange von Bauteilen ertragen werden kann, führt das Kriechen bei Hochtemperaturbeanspruchung neben einer elastischen Dehnung zusätzlich zu einer zeitlich fortschreitenden plastischen Dehnung (Kriechdehnung), die mit einer Werkstoffschädigung verbunden ist und die Bauteillebensdauer begrenzt. 
+Man unterscheidet dabei (bei steigender Belastung): 
+* ''Diffusionskriechen'': Leerstellen oder Zwischengitteratomen diffundieren durch das Kristallgitter.
+* ''Versetzungskriechen'':  Durch thermisch aktivierte Prozesse (Diffusion) werden Hindernisse wie Leerstellen oder Zwischengitteratome überwunden (überklettert). 
+* ''Versetzungsgleiten'': Die Versetzungen bewegen sich auf Gleitebenen und überwinden Hindernisse durch thermisch aktivierte Prozesse.
+* ''Korngrenzkriechen/gleiten'': In polykristallinen Werkstoffen können diese Prozesse auch an Korngrenzen anstatt mit Gitterstellen auftreten.
+Diese Werkstoffschädigung führt zur Absenkung der Festigkeitswerte, deren Abhängigkeit von den Parametern Temperatur, mechanischer Beanspruchung, Zeit und Werkstoff sehr komplex ist. Das Kriechen während der Hochtemperaturbeanspruchung stellt in der Technik ein erhebliches Problem dar, da es zum Bauteilversagen führen kann, z. B. durch Kollision von Turbinenschaufeln am Gehäuse, Formänderung von hochbelasteten Kerben an Turbinenwellen oder Leckage von Kesselrohren. Daher ist die Kenntnis des Kriechverhaltens des Werkstoffs unter Betriebsbeanspruchung unumgänglich für die Auslegung und den Betrieb von Hochtemperaturbauteilen. Bei Hochtemperaturbeanspruchung kann Kriechen nicht verhindert werden. Durch gezielte legierungstechnische Maßnahmen lässt sich der Kriechprozess jedoch beeinflussen. Daher werden für Hochtemperaturbauteile spezielle Werkstoffe (z. B. martensitische und austenitische Stähle oder Nickelbasislegierungen) eingesetzt. 
+Die Ermittlung des Kriechverhaltens erfolgt mit sogenannten Zeitstandversuchen (genormt nach DIN EN 10 291 und ISO 204). Im Zeitstandversuch wird eine Probe statisch unter konstanter hoher Temperatur belastet und dabei die Verlängerung der Probe durch plastische Verformung über der Zeit gemessen. Aus dieser plastischen Verformung lässt sich die Kriechdehnung ermitteln. Dabei ergibt sich die im Bild dargestellte Kriechkurve, die man in die technischen Kriechbereiche I, II und III unterteilt.
+thumb|right|400px|Kriechkurve und Gefügevorgänge während eines Zeitstandversuchs  
+Ein weiteres wichtiges Ergebnis des Zeitstandversuchs ist die Beanspruchungszeit bis zum Bruch <math>t_u</math>. Durch Zeitstandversuche bei unterschiedlichen mechanischen Spannungen ergeben sich somit unterschiedliche Beanspruchungszeiten bis zum Bruch. Für die Auslegung von Bauteilen ist die daraus ermittelte Zeitstandfestigkeit <math>R_{u,t,T}</math> wesentlich. Die Zeitstandfestigkeit ist die Spannung, die der Werkstoff bei der Temperatur T für die Beanspruchungzeit t bis zum Versagen erträgt. Die technisch relevanten Beanspruchungszeiten betragen oft mehrere Jahre, so dass Zeitstandversuche in der Regel sehr langzeitig durchgeführt werden.

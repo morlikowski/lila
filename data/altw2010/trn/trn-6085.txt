@@ -1,0 +1,34 @@
+'''Subversion (SVN)''' är ett versionshanteringssystem speciellt utvecklat för att komma tillrätta med vissa begränsningar i CVS. Flera av utvecklarna är dessutom gemensamma mellan projekten. Ett versionshanteringssystem håller reda på historik och förändringar och gör det möjligt att backa tillbaka i tiden eller att spåra vem som gjort vad. Dessutom möjliggör det samarbete på samma projekt för utvecklare som är spridda över världen.
+
+==Se även==
+*[http://tortoisesvn.tigris.org/ TortoiseSVN], en grafisk klient för Windows som integreras med Utforskaren och ger en mängd extra kommandon för Subversion-projekt.
+*[http://rapidsvn.tigris.org/ RapidSVN], en grafisk klient för Windows och Linux, skriven med wxWidgets.
+*[http://naughtysvn.tigris.org/ NaughtySVN], en motsvarighet till TortoiseSVN för Nautilus (filhanteraren för GNOME).
+*[http://subclipse.tigris.org/ Subclipse], Ett Subversion-plugin för Eclipse.
+*[http://www.sventon.org/ sventon], en webbaserad repository-browser skriven i Java (Open source).
+
+==Externa länkar==
+*[http://subversion.tigris.org/ Subversions hemsida]
+*[irc://irc.freenode.net/#svn Subversions IRC-kanal]
+*[http://svnbook.red-bean.com/ Version Control with Subversion] - en gratis bok om hur man sätter upp och använder Subversion.
+
+'''Subversion''' (også kjent som '''svn''' etter navnet på kommandolinjeklienten) er et versjonskontrollsystem som brukes til å holde rede på utviklingshistorien til en samling med filer og kataloger.
+Det distribueres under [http://svn.collab.net/repos/svn/trunk/COPYING CollabNet/Tigris.org Apache-style license] og er derfor fri programvare/åpen kildekode.
+
+==Historie==
+
+Prosjektet ble startet i begynnelsen av år 2000 av [http://www.collab.net CollabNet, Inc.] for å utvikle et versjonskontrollprogram som kunne erstatte Concurrent Versions System (CVS).
+CVS er velprøvd og stabilt, men manglet en del grunnleggende funksjonalitet som for eksempel ''flytting av filer'' og ''versjonering av kataloger''.
+Istedenfor å bygge videre på CVS som er bygd oppå RCS, valgte utviklerne å starte helt på nytt, basert på erfaringene fra bruken av CVS.
+
+Den grunnleggende designen av Subversion ble tenkt ut av Jim Blandy som sammen med Karl Fogel brukte CVS på daglig basis, men som etterhvert ble frustrert over begrensningene som programmet inneholdt.
+Da CollabNet kontaktet Karl Fogel for å lage et nytt versjonskontrollsystem, gikk han sammen med Jim Blandy og Ben Collins-Sussman inn i prosjektet der de arbeidet videre på den modellen som Blandy hadde laget.
+Prosjektet fikk raskt hjelp av mange innen opensourcemiljøet, og inneholder i dag bidrag fra hundrevis av personer.
+
+==Funksjonalitet==
+
+*Versjonskontroll av katalogstruktur i tillegg til enkle filer, flytting av filer og kataloger kan gjøres uten å ødelegge historien.
+*Atomisk innlegging; enten går hele innleggingen inn i depotet eller ingenting.
+*Globale revisjonsnumre &ndash; relaterte forandringer kan legges inn i en og samme revisjon.
+*Lagring av metadata, informasjon som kan lagres i tillegg til innholdet i filen.
+*Versjonskontroll av symbolske lenker.

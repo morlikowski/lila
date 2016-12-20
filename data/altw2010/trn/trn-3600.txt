@@ -1,0 +1,66 @@
+'''트라이포스'''('''Triforce''')는 2002년 닌텐도와 세가, 남코가 공동으로 만든 아케이드(오락실) 게임 기판이다. 트라이포스란 이름은 닌텐도 게임인 젤다의 전설에 나오는 트라이포스에서 유래되었으며 세 회사의 연합을 의미한다.
+
+트라이포스는 닌텐도 게임큐브를 기본으로 2배의 1T-SRAM 내장, 세가의 GD-ROM 장착, 업그레이드 메모리 모듈(DIMM) 등을 추가하였다.
+
+==사양==
+*CPU : IBM PowerPC "Gekko" 486MHz 
+*그래픽: ATI "Flipper" 162MHz, 24비트 컬러 (24비트 Z 버퍼) 
+**기능 : Fog, Subpixel Anti-Aliasing, 8 Hardware Lights, Alpha blending, Virtual Texture Design, Multi-Texturing, Bump Mapping, Environment mapping, MIP Mapping, Bilinear filtering, Trilinear filtering, Anisotropic filtering, Real-time Hardware Texture Decompression (S3TC), Real-time Decompression of Display List, Embedded Framebuffer, 1MB Embedded Texture Cache, HW 3-line Deflickering filter 
+*사운드 : Macronix 16비트 DSP 81MHz 
+*메모리 : MoSys 1T-SRAM 48MB 
+
+==발매 게임==
+*Virtua Striker 2002 (2002)  Sega 
+*F-Zero AX (2003)  Amusement Vision, Sega 
+*F-Zero AX "Cycraft ver." (2003)  Sega 
+*격투 프로 야구 (Gekitou Pro Yakyuu) (2003)  Sega 
+*The Key of Avalon: The Wizard Master (2003)  Sega 
+*The Key of Avalon Ver. 1.10 (2003)  Sega 
+*The Key of Avalon Ver. 1.20: Summon The New Monsters (2003)  Sega 
+*Super Mario Fushigi no Korokoro Party (2004)  Nintendo/Capcom 
+*The Key of Avalon Ver. 1.30: Chaotic Sabbat (2004)  Sega 
+*The Key of Avalon 2: Eutaxy Commandment (2004)  Sega 
+*Wartran Troopers (2004)  Konami 
+*Mobile Suit Gundam (2004)  Bandai 
+*The Key of Avalon 2: War of the Key (2005)  Sega 
+*Virtua Striker 4 (2005)  Sega 
+*Donkey Kong: Jungle Fever (2005)  Capcom 
+*Mario Kart Arcade GP (2005)  Namco 
+*Virtua Striker 4 ver.2006 (2006)  Sega 
+*Mario Kart Arcade GP 2 (2007)  Namco 
+*Pokémon Battrio (2007)  Nintendo/Tomy 
+
+La Triforce est un système d'arcade développé conjointement par Nintendo, Sega et Namco et présenté pour la première fois en 2002. Le nom Triforce fait réference a la série The Legend of Zelda de Nintendo et symbolise également l'alliance des trois compagnies impliquées dans le projet. Le systeme est basé sur l'architecture de la GameCube mais présente néanmoins quelques différences comme par exemple au niveau de la mémoire qui a été doublée.
+
+==Spécifications==
+* Processeur principal: IBM PowerPC "Gekko" @ 486 MHz
+* Processeur graphique: Custom ATI/Nintendo "Flipper" @ 162 MHz.
+* Couleurs: 24-bit Color (24-bit Z Buffer)
+* Effets spéciaux: Fog, Subpixel Anti-crènelage, 8 Hardware Lights, Alpha blending, Virtual Texture Design, Multi-Texturing, Bump Mapping, Environment mapping, MIP Mapping, Bilinear filtering, Trilinear filtering, Anisotropic filtering, Real-time Hardware Texture Decompression (S3TC), Real-time Decompression of Display List, Embedded Framebuffer, 1MB Embedded Texture Cache, HW 3-line Deflickering filter.
+* Processeur sonore: Custom Macronix 16-bit DSP @ 81 MHz
+* Mémoire: MoSys 1T-SRAM 48MB
+* Média de stockage des jeux : GD-ROM
+
+==Liste des jeux Triforce==
+*''F-Zero AX'' (2002)  d'Amusement Vision, Sega
+*''Virtua Striker 2002'' (2002) de Sega
+*''F-Zero AX "Cycraft ver."'' (2003) de Sega
+*''Gekitou Pro Yakyuu'' (2003) de Sega
+*''The Key of Avalon: The Wizard Master'' (2003) de Sega
+*''The Key of Avalon Ver. 1.10'' (2003) de Sega
+*''The Key of Avalon Ver. 1.20: Summon The New Monsters'' (2003) de Sega
+*''The Key of Avalon Ver. 1.30: Chaotic Sabbat'' (2004) de Sega
+*''The Key of Avalon 2: Eutaxy Commandment'' (2004) de Sega
+*''Wartran Troopers (2004) - de Konami 
+*''Mobile Suit Gundam (2004) - deBandai
+*''The Key of Avalon 2: War of the Key'' (2005) de Sega
+*''Virtua Striker 4 '' (2005) de Sega
+*''Donkey Kong: Jungle Fever (2005) de Capcom
+*''Mario Kart Arcade GP'' (2005) de Namco [http://www.pressthebuttons.com/2005/11/1up_likes_mario.html]
+*''Virtua Striker 4 ver.2006'' (2006) de Sega
+*''Mario Kart Arcade GP 2'' (2007) de Namco
+*''Pokémon Battrio'' (2007) de Nintendo/Tomy
+*''Star Fox Assault'', version Triforce annulée mais sortit sur GameCube
+*''The Key of Avalon Ver. 1.20: "Summons & Banquet"'' (2003), annulé
+*''Rhythm Tengoku'' (2007) de Nintendo et Sega 
+*''Donkey Kong: Banana Kingdom'' (en développement) de Nintendo et Capcom 

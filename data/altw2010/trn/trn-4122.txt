@@ -1,0 +1,101 @@
+== Le terme "micro-informatique" ==
+
+La '''micro-informatique''' est un terme général désignant tout ce qui a rapport avec les ordinateurs désignés sous le vocable de micro-ordinateurs.
+
+Le préfixe "micro" tient au fait qu'à l'époque de son apparition, il existait déjà depuis les années 1940 des ordinateurs centraux qui tenaient dans de vastes salles machines et depuis les années 1960 des mini-ordinateurs. Ce préfixe est aussi l'apanage du type de processeurs qui permit la création et la commercialisation de micro-ordinateurs.
+
+Dans le contexte de l'époque, la désignation du micro-ordinateur sous l'appellation "ordinateur personnel" est à ce titre très précise. En effet, l'ensemble du micro-ordinateur, c'est à dire l'unité processeur, la console clavier-écran et ses unités périphériques (disques, imprimante), tenait sur une table et n'était à la disposition que d'un utilisateur à la fois. En France, au début des années 1980, le terme "ordinateur individuel" était aussi employé; c'est d'ailleurs resté comme titre d'un magazine informatique.
+
+Depuis la fin des années 1970 jusqu'à nos jours, la micro-informatique a eu pour effet d'introduire l'informatique dans les petites et moyennes entreprises et chez les particuliers. Il convient de noter que cette démocratisation aurait considérablement été ralentie si IBM avait breveté les composants de son Personal Computer. En effet, l'apparition de machines compatibles facilement extensibles et le marché de masse ont permis d'avoir des composants génériques toujours plus puissants et bon marché. Cela a précipité la fin des ordinateurs centraux et des mini-ordinateurs qui sont remplacés par des fermes de serveurs voire par des grilles de calcul massivement parallèles; et enfin cela a souvent permis l'éclosion d'une industrie locale du logiciel dont la société Microsoft est le plus bel exemple.
+
+== La micro-informatique et le "PC" ==
+Depuis la reprise du terme "Personal Computer" (ordinateur personnel) par IBM comme nom de son premier micro-ordinateur et du succès qui s'en est suivi via la démocratisation de ce modèle par des modèles compatibles, le terme est dévoyé puisque de nos jours, un "PC" est uniquement assimilé à un ordinateur dans la lignée du modèle d'IBM et la plupart du temps fonctionnant avec Microsoft Windows; cela alors que le terme recouvre en fait tous les micro-ordinateurs allant du R2E Micral à l'Apple Macintosh. Mais la part de marché des compatibles PC est devenue au fil du temps tellement importante qu'il s'en faut peu de pouvoir dire qu'un ordinateur personnel est forcément un PC.
+
+== La micro-informatique et l'Histoire ==
+
+=== Micro-ordinateurs ayant marqué leur temps ===
+<!-- Années à vérifier -->
+
+* '''Professionnel'''
+** 1981
+*** IBM PC (mP Intel 8088/4,77, 16 Ko, monochrome)
+** 1986
+*** Compaq DeskPro 386 (mP Intel 80386/16, 640 Ko, couleur)
+** 1987
+*** Compaq Portable III (mP Intel 80286/12, 640 Ko, couleur)
+* '''Semi-pro et domestiques'''
+** 1977
+*** Apple II (mP 6502/1, 4 Ko, monochrome)
+*** Commodore PET (mP 6502/1, 4 Ko, monochrome)
+*** Tandy TRS-80 (mP Z80/1,77, 4 Ko, monochrome)
+** 1980
+*** Commodore VIC-20 (mP 6502/1, 4 Ko, couleur)
+** 1982
+*** Commodore 64 (mP 6510/~1, 64 Ko, couleur)
+** 1983
+*** Oric-1 (mP 6502/1, 48Ko, couleur)
+*** Sinclair Spectrum (mP Z80, 48 Ko, couleur)
+** 1984
+*** Amstrad CPC464 (mP Z80A/4, 64 Ko, couleur)
+*** Macintosh 128K (mP Motorola 68000, 128 Ko, monochrome)
+** 1985
+*** Atari 520 ST (mP MC68000/8, 512 Ko, couleur)
+*** Commodore Amiga 500 (mP MC68000/7+, 512 Ko, couleur)
+** 1986
+*** Atari 1040 STf (mP MC68000/8, 1 Mo, couleur)
+*** Oric Téléstrat (mP 6502A/1, 64 Ko, couleur)
+
+=== Imprimantes ayant marqué leurs temps ===
+* 1984
+** Epson RX/LX80 (9 aiguilles à ruban, monochrome)
+** Seikosha GP100 (9 aiguilles à ruban, monochrome)
+* 1988
+** HP LaserJet II (Laser 300 dpi, monochrome, 2 ppm)
+* 1989
+** HP Deskjet 500 (Jet d'encre 300 dpi, monochrome, 2 ppm, PCL3)
+* 1990
+** HP Laserjet III (Laser 300 dpi, monochrome, 8 ppm, PCL 3)
+* 1992
+** HP Laserjet IV (Laser 600 dpi, monochrome, 8 ppm)
+* 1995
+** HP Laserjet V (Laser 600 dpi, monochrome, 16 ppm)
+=== Cartes d'extension ayant marqué leur temps ===
+* '''Apple II'''
+** Carte graphique couleur "Chat Mauve"
+** Carte processeur Z80 dite "carte CP/M" de Microsoft (1983)
+* '''Compatibles PC'''
+** Carte son "Ad Lib" de Personal Computer System (1987)
+** Carte son "SoundBlaster 2.0" de Creative Labs (1991)
+** Carte son "SoundBlaster" 16 de Creative Labs (1992)
+** Carte fille SB16 synthétiseur MIDI "WaveBlaster" de Creative Labs (1993)
+** Carte réseau EtherLink III 10bT de 3Com
+
+<!--**** DUAL USE OF "" AND "<ref>" INTENTIONAL. SEE TALK BEFORE CHANGING. ****-->
+thumb|300px|The [[Commodore 64 was one of the most popular microcomputers of its era, and is the best selling model of home computer of all time.<ref></ref>]]
+A '''microcomputer'''<ref name="microvalid">Proof of "micro" as a once-common term:<br />(i) Direct reference: Jack Kibble-White, Jack [http://www.offthetelly.co.uk/factual/computers.htm "Stand by for a Data-Blast"], Off the Telly. Article written December 2005, retrieved Christopher Evans' books [http://www.amazon.co.uk/dp/0340259752 "The Mighty Micro"] (ISBN 0-340-25975-2) and [http://www.amazon.co.uk/dp/0340259752 "The Making of the Micro"] (ISBN 0-575-02913-7). Other books include Usborne's [http://www.amazon.co.uk/dp/0860206378 "Understanding the Micro"] (ISBN 0-86020-637-8), a children's guide to microcomputers.</ref> is a computer with a microprocessor as its central processing unit. Another general characteristic of these computers is that they occupy physically small amounts of space when compared to mainframe and minicomputers. Many microcomputers (when equipped with a keyboard and screen for input and output) are also personal computers (in the generic sense).<ref name="personalcomputer">. An early use of the term "personal computer" in 1962 predates microprocessor-based designs. ''(See "Personal Computer: Computers at Home" reference below)''. A  "microcomputer" used as an embedded control system may have no human-readable input and output devices.   "Personal computer" may be used generically or may denote an IBM PC compatible machine.</ref><ref>[http://en.wikipedia.org/wiki/Personal_computer#Computers_at_home "Personal Computer: Computers at Home"]<!--**** PLEASE LEAVE IN FULL LINK TO SPECIFIC REVISION USED ****-->, Wikipedia article section. Version used dated 2006-11-04, retrieved 2006-11-07.</ref>
+
+==Origins==
+
+The term "Microcomputer" came into popular use after the introduction of the chip.
+
+The earliest models often sold as kits to be assembled by the user, and came with as little as 256 RAM, and no input/output devices other than indicator lights and switches. However, as microprocessors and semiconductor memory became less expensive from the early-to-mid-1970s onwards, microcomputers in turn grew faster and cheaper. This resulted in an explosion in their popularity during the late 1970s and early 1980s.
+
+A large number of computer manufacturers packaged microcomputers for use in small business  applications. By 1979, many companies such as Cromemco, Northstar,South West Technical Products, Ohio Scientific, Altos, Morrow Designs and others produced systems designed either for a resourceful end user or consulting firm to deliver business systems such as accounting, database management, and word processing to small businesses. This allowed businesses unable to afford leasing of a minicomputer or time-sharing service the opportunity to automate business functions, without (usually) hiring a full-time staff to operate the computers. A representative system of this era would have used an S100 bus, an 8-bit processor such as a Z80, and either CP/M or MP/M operating system.   
+
+The increasing availability and power of personal (micro)computers standardized around Windows).
+
+Modern desktop computers, pocket calculators, as well as industrial embedded systems, may all be considered examples of microcomputers according to the definition given above.
+
+==Colloquial use of the term==
+
+Everyday use of the expression "microcomputer" (and in particular the "micro" abbreviation) has declined significantly from the mid-1980s onwards, and is no longer commonplace. It is most commonly associated with the first wave of all-in-one Apple II, Commodore 64, BBC Micro, and TRS 80). Although&mdash;or perhaps because&mdash;an increasingly diverse range of modern microprocessor-based devices fit the definition of "microcomputer," they are no longer referred to as such in everyday speech.
+
+In common usage, "microcomputer" has been largely supplanted by the description "personal computer" or "PC," which describes that it has been designed to be used by one person at a time. IBM first promoted the term "personal computer" to differentiate themselves from other microcomputers, often called "home computers." and also IBM's own mainframes and minicomputers.  Unfortunately for IBM, the microcomputer itself was widely imitated, as well as the term.  The component parts were commonly available to manufacturers and the BIOS was reverse engineered through cleanroom design techniques. IBM PC compatible "clones" became commonplace, and the terms "Personal Computer," and especially "PC" stuck with the general public..
+
+==Description==
+
+Monitors, keyboards and other devices for input and output may be integrated or separate. Computer memory in the form of printers, monitors, mainframes, and cabinets or even a dedicated room.
+
+A microcomputer comes equipped with at least one type of data storage, usually RAM.  Although some microcomputers (particularly early 8-bit home micros) perform  tasks using RAM alone, some form of secondary storage is normally desirable. In the early days of home micros, this was often a data cassette deck (in many cases as an external unit). Later, secondary storage (particularly in the form of floppy disk and hard disk drives) were built in to the microcomputer case itself.
+
+==History==

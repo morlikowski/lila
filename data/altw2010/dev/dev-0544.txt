@@ -1,0 +1,105 @@
+'''Numer EC''' oznacza numer przypisany każdemu ang. ''Nomenclature Committee'') Międzynarodowej Unii Biochemii i Biologii Molekularnej (ang. ''International Union of Biochemistry''). Jest to czterosegmentowy numer o strukturze XX.XX.XX.XX 
+Komisja Enzymatyczna przypisała każdemu enzymowi zarekomendowaną nazwę i czteroczęściowy rozróżnialny numer. Numery EC ''Enzyme Commission'' (Komisja Enzymatyczna) lub ''Enzyme Catalogue'' dzielą wszystkie enzymy na sześć głównych grup ze względu na typ katalizowanej reakcji.
+
+== Kody EC najwyższego poziomu <ref>{{Cytuj stronę
+| nazwisko = Moss
+| imię = G.P.
+| tytuł = Recommendations of the Nomenclature Committee
+| autor = International Union of Biochemistry and Molecular Biology on the Nomenclature and Classification of Enzymes by the Reactions they Catalyse
+| url = http://www.chem.qmul.ac.uk/iubmb/enzyme/
+| data dostępu = 2006-03-14}}</ref>==
+{| class="wikitable"
+|-
+! Grupa
+! Katalizator reakcji
+! Typowa reakcja
+! Przykłady enzymów wraz z pospolitymi nazwami
+|-
+! |EC 1<br />''Oksydoreduktazy''
+| przenoszą ładunki (jony  H<sub>3</sub>O<sup>+</sup> - protony) z cząsteczki substratu na cząsteczkę akceptora
+| AH + B → A + BH (<small>'''redukcja'''</small>)<br /> A + O → AO (<small>'''utlenianie'''</small>)
+| Dehydrogenazy, Oksydazy
+|-
+! EC 2<br />''Transferazy''
+| przenoszą daną grupę funkcyjną (tiolową, aminową, itp.) z cząsteczki jednej substancji na cząsteczkę innej substancji
+| AB + C → A + BC
+| Transaminazy, Kinaza
+|-
+! EC 3<br />''Hydrolazy''
+| powodują rozpad substratu pod wpływem wody (hydroliza); do grupy tej należy wiele enzymów trawiennych
+| AB + H<sub>2</sub>O → AOH + BH
+| Lipaza, Amylaza, Proteazy
+|-
+! EC 4<br />''Liazy''
+| powodują rozpad substratu bez hydrolizy
+| RCOCOOH → RCOH + CO<sub>2</sub>
+|Dekarboksylazy, Hydroliazy
+|-
+! EC 5<br />''Izomerazy''
+| zmieniają wzajemne położenie grup chemicznych bez rozkładu szkieletu związku
+| AB → BA</td>
+| Izomerazy, Mutazy
+|-
+! EC 6<br />''Ligazy''
+| powodują syntezę różnych cząsteczek; powstają wiązania chemiczne
+| X + Y+ ATP → XY + ADP + Pi
+| Ligazy
+|}
+
+Pierwsze cyfry oznaczają klasę enzymu. Druga cyfra numeru EC oznacza podklasę danego enzymu. Trzecia cyfra numeru EC oznacza przynależność danego enzymu do określonej podpodklasy. Natomiast czwarta cyfra wskazuje, jakie miejsce zajmuje enzym w swojej podpodklasie.
+
+Przykład EC 1.1.1.1 oznacza dehydrogenazę alkoholową
+
+Die '''EC-Nummern''' (engl. ''Enzyme Commission numbers'') bilden ein numerisches Klassifikationssystem für Enzyme. Jede EC-Nummer besteht aus vier durch Punkte voneinander getrennten Zahlen. Genaugenommen wird nicht das Enzym selbst, sondern die Reaktion, die es katalysiert, kategorisiert. So kann es vorkommen, dass nicht miteinander verwandte Enzyme, welche die gleiche Reaktion katalysieren, dieselbe EC-Nummer zugewiesen bekommen.
+
+Die erste Ziffer bezeichnet eine der sechs Enzymhauptklassen:
+
+{| class="prettytable" 
+!Klasse
+!Bezeichnung
+!Aufgabe
+!Beispiele
+!Coenzyme
+|-
+|EC 1.x.x.x
+|Oxidoreduktasen
+|Katalysieren Redoxreaktionen
+|Dehydrogenasen<br />Hydrogenasen<br />Oxidasen<br />Oxygenasen<br />Hydroxylasen
+|NAD<sup>+</sup>, NADP<sup>+</sup>, FAD, FMD, Liponsäure
+|-
+|EC 2.x.x.x
+|Transferasen
+|Katalysieren Übertragung einer funktionellen Gruppe von einem Molekül zu einem anderen
+|Phosphotransferasen (enthalten Kinasen)<br />Aminotransferasen
+|cAMP, ATP, Thiamin-Pyrophosphat (TPP), Tetrahydrofolsäure
+|-
+|EC 3.x.x.x
+|Hydrolasen
+|Katalysieren die hydrolytische Spaltung von Stoffen
+|Esterasen<br />Lipasen<br />Phosphatasen<br />Peptidasen
+|Benötigen keine Coenzyme
+|-
+|EC 4.x.x.x
+|Lyasen
+|Hinzufügen oder Entfernen von Gruppen zur Bildung von Doppelbindungen
+|Decarboxylasen<br />Aldolasen<br />Synthasen
+|TPP, Pyridoxalphosphat
+|-
+|EC 5.x.x.x
+|Isomerasen
+|Katalysieren Umwandlung einer Verbindung in eine isomere Struktur
+|Razemasen<br />Mutasen
+|Glucose-1,6-bisphosphat, Vitamin B12
+|-
+|EC 6.x.x.x
+|Ligasen
+|Verbinden zwei Moleküle auf Kosten eines ATP-Moleküls (RuBisCO nicht)
+|Synthetasen<br />Carboxylasen
+|ATP, NAD
+|}
+
+Die Klassifizierung wird von links nach rechts fortschreitend immer spezifischer. So setzt sich die EC-Nummer des Enzyms Aminopeptidase (EC 3.4.11.4) wie folgt zusammen:
+* 3 = Hydrolase
+* 3.4 = Angriffspunkt: Peptidbindung
+* 3.4.11. = Aminopeptidase
+* 3.4.11.4 = katalysierte Reaktion (Abspaltung einer N-Terminalen Aminosäure von einem Tripeptid)

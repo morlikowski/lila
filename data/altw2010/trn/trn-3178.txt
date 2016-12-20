@@ -1,0 +1,71 @@
+A '''tauon''' ('''tau-részecske''', '''tau-lepton''') egy negatív elektromos töltésű elemi részecske, melynek
+*élettartama 3&middot;10<sup>&minus;13</sup> másodperc (gyenge kölcsönhatásban bomlik)
+*MeV (a proton tömegének nagyjából négyszerese, az elektronénak 3500-szorosa).
+*antirészecskéje az '''anti-tauon''',
+*a hozzájuk tartozó neutrínók a tau-neutrínó és az anti-tau-neutrínó.
+
+==Besorolása==
+A tau-lepton a leptonok harmadik családjába tartozik. Rokonai az elektron (1. család) és a müon (2. család). Az elektronhoz és a müonhoz hasonlóan a tau-lepton is pontszerű; nincs észlelhető szerkezete, ha van egyáltalán az a 10<sup>&minus;18</sup> méter alatti tartományban van. Az elektronhoz és müonhoz hasonlóan a tau-lepton spinje 1/2. A tau-lepton és az antirészecskéje az elektronnal illetve a pozitronnal azonos elektromos töltésű.
+
+==Bomlása==
+A tau-lepton az egyetlen lepton, mely hadronokká is képes bomlani, a többinek ehhez nincs elegendő tömege. A hadronikus és a többi bomlási módja is a gyenge kölcsönhatással történik.
+
+Mivel a tau-szerű leptonszám megmarad (legalábbis közelítőleg a neutrínó-oszcilláció miatt), akkor keletkezik tau-neurtínó, amikor a tau-lepton müonra vagy elektronra bomlik.
+
+<math>\tau^- \rightarrow \nu_\tau + e^- + \bar\nu_e</math>
+
+<math>\tau^- \rightarrow \nu_\tau  + \mu^- +  \bar\nu_\mu</math>
+
+A tau elektronra és neutrínókra bomlásának elágazási aránya 18%, a müonra és neutrínókra bomlásé hasonló, a hadronokra bomlásé 64%.
+
+==Felfedezése==
+1975-ben fedezte fel Martin Lewis Perl a kollégáival az SLAC-ban. Berendezésük az SLAC új  elektron-pozitron ütköztetőgyűrűjéhez a SPEAR-hez tartozott, és az LBL detektorhoz. Észlelni tudták, és meg tudták különböztetni a leptonokat, hadronokat és a fotonokat. Nem a tau-leptont magát figyelték meg, hanem a következő anomális eseményt:
+
+{{Infobox Particle
+| bgcolour =
+| name = Tau Lepton
+| image = 
+| caption = 
+| num_types = 
+| composition = Elementary particle
+| family = Fermion
+| group = Lepton
+| generation = Third
+| interaction = Electromagnetic, <br>Weak
+| antiparticle = Antitauon
+| theorized = 
+| discovered = 
+| symbol = 
+| mass = 
+| decay_time = 
+| decay_particle = 
+| electric_charge = &minus;1 e
+| color_charge = None
+| spin = ½
+| num_spin_states = 
+}}
+
+The '''tau lepton''' (often called the '''tau''', '''tau particle''', or occasionally the '''tauon'''; symbol ) is a negatively charged antiparticle (, the anti-tau) and neutrinos (the tau neutrino and tau antineutrino).
+
+==Classification==
+The tau lepton belongs to the 3rd generation  of spin of 1/2. The tau lepton and its antiparticle carry the same electric charges as the electron and positron, respectively.
+
+==Decay==
+<!-- Deleted image removed: thumb|right|260px|[[Feynman diagram of the common decays of the tau lepton by emission of a W boson.]] -->
+The tau is the only lepton that can decay into weak interaction.
+
+Since tau-like lepton number is conserved in weak decays, a tau neutrino is created when a tau lepton decays to a muon or electron.
+
+The branching ratio of the common tau decays are:
+*17.84% for decay into a tau neutrino, electron and electron neutrino
+*17.36% for decay into a tau neutrino, muon and muon neutrino
+
+==Discovery==
+
+The tau lepton was detected in a series of experiments between 1974 and 1977 by Martin Lewis Perl with his colleagues at the SLAC-LBL group [http://prola.aps.org/pdf/PRL/v35/i22/p1489_1]. Their equipment consisted of SLAC's then-new e<sup>+</sup>-e<sup>&minus;</sup> colliding ring, called SPEAR, and the LBL magnetic detector. They could detect and distinguish between leptons, hadrons and photons. They did not detect the tau lepton directly, but rather discovered anomalous events:
+
+"''We have discovered 64 events of the form''
+
+: +  &rarr; e<sup>&plusmn;</sup> + &mu;<sup>∓</sup> + at least 2 undetected particles
+
+''for which we have no conventional explanation.''"

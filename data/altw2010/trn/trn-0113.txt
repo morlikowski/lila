@@ -1,0 +1,102 @@
+{{Infobox Engin spatial
+| nom=Pioneer 11
+| image=300px
+| organisation=NASA
+| domaine=Exploration de Jupiter, Saturne et du milieu interplanétaire
+| masse=259 kg (hors carburant)
+| lancement=6 avril 1973 à 02:11 UTC
+| lanceur=Atlas-Centaur
+| fin=30 septembre 1995
+| durée=22 ans
+| programme=Pioneer
+| autres_noms=Pioneer-G
+| nssdc=1973-019A
+| titre_orbite=Trajectoire
+| orbite=Survol de Jupiter le 2 décembre 1974.<br />Survol de Saturne le 1 septembre 1979.<br />Trajectoire d'échappement du système solaire par la suite.
+}}
+La sonde '''Pioneer 11''' fut lancée environ un an après sa grande sœur Atlas/Centaur/TE364-4. Elle avait eu pour mission de survoler et photographier Jupiter. Ensuite, elle dut profiter de l'assistance gravitationnelle de cette dernière afin de rejoindre Saturne avant de quitter définitivement l'héliosphère.
+
+Tout comme Pioneer 10, Pioneer 11 emportait à son bord une plaque destinée à d'éventuelles vies extraterrestres et représentant un homme et une femme, la position de la Terre et du Soleil dans la galaxie ainsi qu'un schéma d'un atome d'hydrogène.
+
+Après avoir dépassé la ceinture d'astéroïdes, les moteurs de la sonde furent par la suite allumés pour accroître sa vitesse à 43 000 km du sommet de la couche nuageuse de Jupiter. Durant son trajet vers la planète géante ainsi que lors de son survol de celle-ci, Pioneer 11 étudia notamment le vent solaire, les rayonnements cosmiques, les champs magnétiques planétaires et interplanétaires, l'atmosphère et la surface de Jupiter ainsi que de certains de ses satellites.
+Le Callisto. L'attraction de la planète géante accéléra Pioneer 11 jusqu'à 173 000 km/h pour la dévier vers Saturne. Les photographies transmises modifièrent complètement la perception des scientifiques (simplement à cause de la quantité de données rendues disponibles) et du grand public (par la qualité des images qui rompait brutalement avec les images floues et approximatives qui étaient disponibles jusque-là).
+
+La sonde atteignit donc Saturne le  Titan était vraisemblablement trop froide pour permettre le développement de n'importe quelle forme de vie, malgré la présence de méthane et de molécules organiques.
+
+Pioneer 11 continua ensuite sa route vers les confins du système solaire, tout en retransmettant des données sur les rayonnements cosmiques ou le vent solaire. Le 30 septembre 1995, la mission fut officiellement stoppée en raison du manque d'énergie disponible à bord de la sonde, une énergie nécessaire pour permettre de continuer les observations. Le dernier contact avec Pioneer 11 survint en novembre 1995. Depuis lors, elle continue sa route vers l'extérieur du système solaire, en direction de la constellation de l'Aigle. Elle passera à proximité d'une étoile de cette constellation dans 4 millions d'années.
+
+{{Infobox_Spacecraft
+|Image= 180px
+|Caption= Pioneer 11 at Saturn (artist's impression)
+|Name= Pioneer 11
+|Mission_Type= Fly-by, Deep Space
+|Flyby_Of= Jupiter, Saturn, Outer Solar System
+|Mass= 259 kg
+|Organization= Ames Research Center - NASA
+|Launch_Vehicle= Atlas/Centaur/TE364-4
+|Launch= UTC <small>( days ago)</small>
+|Mission_Duration = undefined <small>( days from launch to end of mission operations on , last contact was November 1995)</small>
+}}
+
+'''Pioneer 11''' was the second mission (after its sister probe Jupiter and the Saturn and its main rings. Pioneer 11 (also called ''Pioneer G'', part of the Pioneer program) used Jupiter's mass in a gravity assist to alter its trajectory toward Saturn. The spacecraft made a successful Saturn flyby and then followed an escape trajectory from the solar system.
+
+thumb|right|Positions of Pioneer 10 and 11
+thumb|right|Pioneer 11 and Saturn rings on 1 September 1979 (artist's impression)
+Its objectives were to study the interplanetary and planetary magnetic fields; solar wind properties; cosmic rays; transition region of the heliosphere; neutral hydrogen abundance; distribution, size, mass, flux, and velocity of dust particles; Jovian aurorae; Jovian radio waves; the atmospheres of planets and satellites; and the surfaces of Jupiter, Saturn, and some of their satellites. It was developed out of NASA Ames Research Center as part of the Pioneer series (6-12) of spacecraft that include Pioneer Venus.
+
+==Design==
+thumb|Pioneer systems
+The unmanned antenna, topped with a medium-gain antenna. A low-gain, omnidirectional antenna is mounted below the high-gain dish. The spacecraft contains two W at Jupiter, but had decreased to 100 W by the time it reached Saturn. 
+
+There were three reference sensors: a star (Canopus) sensor, and two Sun sensors. Attitude position could be calculated from the reference direction to Earth and Sun, with the known direction to Canopus as backup. Pioneer 11's star sensor gain and threshold settings were modified, based on experience gained from the settings used on Pioneer 10. Three pairs of rocket thrusters provided spin-axis control (maintained at 
+4.8 rpm) and change the spacecraft's velocity. The thrusters could be either fired steadily or pulsed, by command.
+
+Rather than a traditional lens camera, Pioneer used its spin to scan scenes line-by-line (spin-scan). Its imaging system (photopolarimeter) could record brightness values of one narrow spot (pixel) at a time in two wavelengths corresponding to Red and Blue light. A combination of craft rotation and gradual forward or backward movement of this "pixel" allowed color images to be reconstructed using computers back at JPL (Earth). It is roughly comparable to early mechanical television scanners.
+
+===Instruments===
+Instruments on the Pioneer 11 probe studied the interplanetary and planetary atmospheres of planets and charged-particle detector, an ion detector, non-imaging telescopes with overlapping fields of view to detect sunlight reflected from passing meteoroids, sealed pressurized cells of argon and nitrogen gas for measuring penetration of meteoroids, an ultraviolet photometer, an infrared radiometer, and an imaging photopolarimeter, which produced photographs and measured their polarization. Further scientific information was obtained from celestial mechanics and occultation phenomena.
+
+Pioneer 11 instrument list:
+
+* Helium Vector Magnetometer
+* Plasma Analyzer
+* Charged Particle Instrument
+* Cosmic Ray Telescope
+* Geiger Tube Telescope
+* Trapped Radiation Detector
+* Meteoroid Detector
+* Asteroid-Meteoroid Experiment
+* Ultraviolet Photometer
+* Imaging Photopolarimeter
+* Infrared Radiometer
+* Flux-Gate Magnetometer
+
+== Jupiter encounter ==
+During its closest approach, km of Jupiter's cloud tops and obtained dramatic images of the Great Red Spot, made the first observation of the immense polar regions, and determined the mass of Jupiter's moon Callisto. Using Jupiter's mass in a gravitational slingshot, the probe altered its trajectory towards Saturn.
+<center>
+<gallery>
+Image:P11C03.jpg|Great Red Spot by Pioneer 11 (image C3)
+Image:pioneer_11_jup_top.gif|The polar region of Jupiter by Pioneer 11 showing the knotted nature of the cloud cover
+Image:Pioneer11_d14.jpg|View of Jupiter by Pioneer 11
+Image:P11C06.jpg|View of Jupiter by Pioneer 11 (image C6)
+</gallery>
+</center>
+
+== Saturn encounter ==
+It passed by Saturn on September 1, 1979, at a distance of 21,000 km from Saturn's cloud tops. 
+
+By this time Voyager 1 and Voyager 2 had already passed Jupiter and were also en route to Saturn, so it was decided to target Pioneer 11 to pass through the Saturn ring plane at the same position that the soon-to-come Voyager probe would use in order to test the route before Voyager arrived. If there were faint ring particles that could damage a probe in that area, mission planners felt it was better to learn about it via Pioneer. Thus, Pioneer 11 was acting as a "pioneer" in a true sense of the word. (If danger was detected, then the Voyager probes could be rerouted further away from the rings, but missing the opportunity to visit Uranus and Neptune in the process.)
+
+Pioneer 11 imaged and nearly collided with one of Saturn's small moons, passing at a distance of no more than a few thousand kilometers from it. The object was tentatively identified as Epimetheus, a moon discovered the previous day from Pioneer's imaging, and suspected from earlier observations by Earth-based telescopes. After the Voyager flybys, it became known that there are two similarly-sized moons (Epimetheus and Janus) in the same orbit, so there is some uncertainty about which one was the object of Pioneer's near-miss. Pioneer 11 encountered Janus on September 1, 1979 at 14:52 UTC at a distance of 2500 km and Mimas at 16:20 UTC the same day at 103000 km.
+
+Besides Epimetheus, instruments located another previously undiscovered small moon and an additional ring, charted Saturn's magnetosphere and magnetic field and found its planet-size moon, Titan, to be too cold for life. Hurtling underneath the ring plane, Pioneer 11 sent back amazing pictures of Saturn's rings. The rings, which normally seem bright when observed from Earth, appeared dark in the Pioneer pictures, and the dark gaps in the rings seen from Earth appeared as bright rings.
+<center>
+<gallery>
+Image:P11F81.jpg|Pioneer 11 image of Saturn (image F81). Taken on 1979/08/26, showing the satellite Rhea
+Image:P11saturn.jpg|Pioneer 11 image of Saturn taken on 1979/09/01
+Image:P11saturnb.jpg|Pioneer 11 image of Saturn taken on 1979/09/01
+Image:P11g21.jpg|Outgoing Pioneer 11 image of Saturn taken on 1979/09/03
+</gallery>
+</center>
+
+== Outer regions of the Solar system ==

@@ -1,0 +1,115 @@
+{{Infobox Commune de France|nomcommune=Bure-les-Templiers
+|région=Bourgogne
+|département=Côte-d'Or
+|arrondissement=Arrondissement de Montbard
+|canton=Canton de Recey-sur-Ource
+|insee=21116
+|cp=21290
+|maire=M. Jean-Charles Colombo
+|mandat=2001-2008
+|intercomm=Communauté de communes du Pays Châtillonnais
+|longitude=4.89583333333
+|latitude=47.7391666667
+|alt moy=315 m
+|alt mini=302 m
+|alt maxi=483 m
+|hectares=3503
+|km²=35,03
+|sans=150
+|date-sans=1999
+|dens=4|}}
+'''Bure-les-Templiers''' est une commune française, située dans le département de la région Bourgogne.
+
+==Géographie==
+==Histoire==
+==Administration==
+
+==Démographie==
+{{Démographie|
+1962= 187|
+1968= 211|
+1975= 172|
+1982= 154|
+1990= 130|
+1999= 150|
+sansdoublescomptes= 1962|source=INSEE<ref>[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=21116&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Bure-les-Templiers sur le site de l'Insee]</ref>}}
+
+==Lieux et monuments==
+
+== Monuments ==
+* Commanderie des Templiers (1120).
+* Chateau de Romprey (1650).
+* Chapelle Saint Renobert (16e).
+
+== Lieux ==
+* Marais du Cônois.
+* Douix de Terrefondrée.
+* Grotte des Muns.
+* La Pierre Croisée (1296).
+* Foyard Pleureur.
+
+{{infobox Franse gemeente|
+|plaatsnaam= Bure-les-Templiers
+|wapen= 
+|kaart= 
+|regio= Bourgondië 
+|departement= Côte-d'Or (21)
+|arrondissement= Montbard
+|kanton= Recey-sur-Ource
+|jaar= 1999
+|inwoners= 150
+|dichtheid= 4,6
+|oppervlakte= 32,5
+|water= 
+|latitudeGraden= 47 |latitudeMinuten= 44|latitudeSeconden= 0
+|longitudeGraden= 4 |longitudeMinuten= 54 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 212 |kaartY= 114
+|code= 21116
+|postcode= 21290
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Bure-les-Templiers''' is een gemeente in het Franse departement Bourgondië) en telt 150 inwoners (1999). De plaats maakt deel uit van het arrondissement Montbard.
+
+==Geografie==
+De oppervlakte van Bure-les-Templiers bedraagt 32,5 km², de bevolkingsdichtheid is 4,6 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:330 color:gray1 width:1       
+  from:start till:end             
+  bar:220 color:gray1              
+  from:start till:end            
+  bar:110 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,141)(84,129) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 235 1968: 211
+  points:(84,129)(100,109)    color:blue    width:2 #1975: 172
+  points:(100,109)(128,99)   color:blue    width:2 #1982: 154
+  points:(128,99)(160,87)   color:blue    width:2 #1990: 130
+  points:(160,87)(196,97)   color:blue    width:2 #1999: 150
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

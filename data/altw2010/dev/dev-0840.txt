@@ -1,0 +1,187 @@
+'''Internetwork Packet Exchange''' ('''IPX''') is the OSI-model Network layer  protocol in the IPX/SPX protocol stack.
+
+The IPX/SPX protocol stack is supported by Novell's NetWare network operating system. Because of Netware's popularity through the late 1980s into the mid 1990s, IPX became a popular internetworking protocol.  Novell derived IPX from Xerox Network Services' IDP protocol.
+
+IPX usage is in general decline as the boom of the Internet has made TCP/IP nearly universal. Computers and networks can run multiple network protocols, so almost all IPX sites will be running TCP/IP as well to allow for Internet connectivity<ref>[http://articles.techrepublic.com.com/5100-10878_11-5026038.html TechRepublic - Do you still support IPX/SPX on your Windows servers?]</ref>. It is also now possible to run Novell products without IPX, as they have supported both IPX and TCP/IP since NetWare reached version 5<ref>[http://support.novell.com/techcenter/articles/ana19980302.html Maintaining IPX Compatibility During a Migration to TCP/IP on a NetWare Network]</ref>.
+
+==Support==
+The following operating systems do '''not''' natively support IPX
+* Windows Vista, both 32-bit and 64-bit versions
+* Windows XP 64-bit<ref>[http://technet2.microsoft.com/windowsserver/en/library/7e7e506d-64d3-42b4-ba8a-76039c66e3be1033.mspx?mfr=true Microsoft Technet]</ref>
+* Windows Server 2003 64-bit
+* Mac OS later than 9.2.2<ref>[http://us.blizzard.com/support/article.xml?articleId=21196&searchQuery=IPX&pageNumber=1 Blizzard Support - Installing the IPX network protocol on the Macintosh]</ref>
+
+==IPX addressing==
+* Logical networks are assigned a unique 32-bit hexadecimal address in the range of 0x1 - 0xFFFFFFFE. 
+* Hosts have a 48-bit node address which by default is set to the network interface card's MAC address.  The node address is appended to the network address to create a unique identifier for the host on the network.
+* Network number 00:00:00:00 means current network
+* Broadcast address is FF:FF:FF:FF
+
+===Similarities with IP===
+The IPX network address is conceptually identical to the network part of the IP address (the parts with netmask bits set to 1); the node address then has the same meaning as the bits of IP address with netmask bits set to 0. As the node address is usually identical to the MAC address of the network adapter, the Address Resolution Protocol is not needed.
+
+For routing, the entries in the IPX routing table are similar to IP routing tables; routing is done by network address, and for each network address a network:node of the next router is specified in a similar fashion an IP address/netmask is specified in IP routing tables.
+
+===IPX over Ethernet===
+IPX can be transmitted over Ethernet using one of the following 4 encapsulation types:
+
+'''IPX''', '''I'''nternetwork '''P'''acket e'''X'''change, ist ein von Computer-Netzwerkprotokoll. Es stammt vom Protokoll '''IDP''' der Xerox Network Services (XNS) ab und wurde primär für das Netzbetriebssystem (NOS) NetWare eingesetzt.
+
+IPX ist ein verbindungsloses, proprietäres Protokoll mit IP bzw. UDP entspricht. Das auf IPX aufbauende Protokoll SPX (Sequenced Packet Exchange) realisiert analog zum TCP der TCP/IP-Protokollfamilie die gesicherte, verbindungsorientierte Kommunikation. Allerdings verwenden die Serverfunktionen von NetWare nur IPX, die Sicherungsfunktionen sind im NetWare Core Protocol (NCP) selbst unabhängig von SPX implementiert.
+Mit Hilfe des Service Advertising Protocol (SAP) ist es möglich, innerhalb eines IPX-Netzes angebotene Dienste zu finden.
+
+Mit zunehmender Verbreitung des Internets ab Mitte der 1990er, der direkten Unterstützung von TCP/IP in Novell NetWare und dem sinkenden Marktanteil von NetWare verlor IPX/SPX gegenüber TCP/IP zunehmend an Bedeutung. Es wird heute nur noch selten eingesetzt, obwohl es sowohl von NetWare als auch von Clients wie Windows oder Linux immer noch unterstützt wird.
+
+== Das Protokoll im OSI-Modell ==
+'''Das Protokoll im OSI-Modell''' (siehe im Vergleich dazu das TCP/IP-Referenzmodell, OSI-Modell):
+{| border="0" cellspacing="3"
+|-----
+! colspan="2" | OSI-Schicht
+! Englisch
+! Einordnung
+! TCP/IP-Schicht
+! Einordnung
+! IPX/SPX/NCP
+|-----
+| align="center" bgcolor="#ffff99" | 7
+| align="center" bgcolor="#ffff99" | Anwendung
+| align="center" bgcolor="#ffff99" | Application
+| align="center" rowspan="3" bgcolor="#ffff99" | Anwendungs-<br />orientiert
+| rowspan="3" align="center" bgcolor="#ffcc99" | Anwendung
+| rowspan="4" align="center" bgcolor="#ffcc99" | Ende zu<br />Ende<br />(Multihop)
+| rowspan="4" align="center" width="15%" bgcolor="#ffcc99" | NCP
+| rowspan="3" align="center" width="15%" bgcolor="#ffcc99" | –
+|-----
+| align="center" bgcolor="#ffff99" | 6
+| align="center" bgcolor="#ffff99" | Darstellung
+| align="center" bgcolor="#ffff99" | Presentation
+| align="center" bgcolor="#ffff99" |
+|-----
+| align="center" bgcolor="#ffff99" | 5
+| align="center" bgcolor="#ffff99" | Sitzung
+| align="center" bgcolor="#ffff99" | Session
+|-----
+| align="center" bgcolor="#ffff99" | 4
+| align="center" bgcolor="#ffff99" | Transport
+| align="center" bgcolor="#ffff99" | Transport
+| align="center" rowspan="4" bgcolor="#ffff99" | Transport-<br />orientiert
+| align="center" bgcolor="#ffcc99" | Host to<br />Host
+| align="center" bgcolor="#ffcc99" | SPX
+|-----
+| align="center" bgcolor="#ffff99" | 3
+| align="center" bgcolor="#ffff99" | Vermittlung
+| align="center" bgcolor="#ffff99" | Network
+| align="center" bgcolor="#ffcc99" | Internet
+| rowspan="4" align="center" bgcolor="#ffcc99" | Punkt zu<br />Punkt
+| align="center" colspan="2" bgcolor="#ffcc99" | IPX
+|-----
+| align="center" bgcolor="#ffff99" | 2
+| align="center" bgcolor="#ffff99" | Sicherung
+| align="center" bgcolor="#ffff99" | Data Link
+| rowspan="2" align="center" bgcolor="#ffcc99" | Netzwerk <br />
+| rowspan="2" colspan="2" align="center" bgcolor="#ffcc99" | FDDI <br /> ARCNET
+|-----
+| align="center" bgcolor="#ffff99" | 1
+| align="center" bgcolor="#ffff99" | Bitübertragung
+| align="center" bgcolor="#ffff99" | Physical
+|}
+
+== Adressierung ==
+IPX wurde von Anfang an mit Bezug auf das ebenfalls bei Xerox entstandene Ethernet entwickelt.
+IPX verwendet binäre Adressen, bestehend aus einer 32 bit langen Netzwerknummer, einer 48 bit langen Hostadresse (der MAC-Adresse des Interfaces) und einer 16 bit langen ''Socket-Nummer'', die etwa der Portadresse in TCP oder UDP entspricht. Interessanterweise verfügt IPX daher über einen wesentlich größeren Adressraum als IP Version 4, wo Netzwerk und Host zusammen in 32 Bit kodiert sind.
+
+== Aufbau von Datenpaketen ==
+Ein IPX-Paket besteht aus den 30 Byte großen IPX-Kopfdaten gefolgt von den Nutzdaten:
+
+{| class="prettytable" 
+|-----
+|  colspan="32" align="center" | '''IPX Kopfdaten (Internetwork Packet Exchange)'''
+|-----
+!0
+!1
+!2
+!3
+!4
+!5
+!6
+!7
+!8
+!9
+!10
+!11
+!12
+!13
+!14
+!15
+!16
+!17
+!18
+!19
+!20
+!21
+!22
+!23
+!24
+!25
+!26
+!27
+!28
+!29
+!30
+!31
+|-----
+|  colspan="16" align="center" bgcolor="#ffcc99" | '''Checksum (Prüfsumme) '''
+|  colspan="16" align="center" bgcolor="#ffff99" | '''Packet Length (Paketlänge)'''
+|-----
+|  colspan="8" align="center" bgcolor="#ffff99" | '''Transport Control <br />(Transportkontrolle) '''
+|  colspan="8" align="center" bgcolor="#ffff99" | '''Type<br />(Typ)'''
+|  colspan="16" align="center" bgcolor="#eedd99" | '''Destination Network <br />(Zielnetz)'''
+|-----
+|  colspan="16" align="center" bgcolor="#eedd99" | '''Destination Network <br />(Zielnetz)'''
+|  colspan="16" align="center" bgcolor="#ddff99" | '''Destination Node <br />(Zielknoten)'''
+|-----
+|  colspan="32" align="center" bgcolor="#ddff99" | '''Destination Node <br />(Zielknoten)'''
+|-----
+|  colspan="16" align="center" bgcolor="#ffff99" | '''Destination Socket <br />(Zielsocket)'''
+|  colspan="16" align="center" bgcolor="#aeff99" | '''Source Network <br />(Quellnetz)'''
+|-----
+|  colspan="16" align="center" bgcolor="#aeff99" | '''Source Network <br />(Quellnetz)'''
+|  colspan="16" align="center" bgcolor="#dddd99" | '''Source Node <br />(Quellknoten)'''
+|-----
+|  colspan="32" align="center" bgcolor="#dddd99" | '''Source Node <br />(Quellknoten)'''
+|-----
+|  colspan="16" align="center" bgcolor="#ffff99" | '''Source Socket <br />(Quellsocket)'''
+|  colspan="16" align="center" bgcolor="#00EEEE" | '''Data <br />(Daten)'''
+|-----
+|}
+
+* Das 16 Bit lange Feld ''Prüfsumme'' wird immer auf 0xFFFF gesetzt, da Prüfsummen für IPX nicht unterstützt werden.
+* Das 16 Bit lange Feld ''Paketlänge'' enthält die Gesamtgröße des Pakets (Kopf- und Nutzdaten).
+* Die 8 Bit lange Zahl im Feld ''Transport Control'' ist der Hop-Zähler, der beim Durchlaufen eines Routers erhöht wird. Falls er irgendwann 16 erreicht, wird das Paket üblicherweise verworfen (Zweck siehe TTL).
+* Das 8 Bit lange Feld ''Typ'' beschreibt das eingebettete Protokoll (encapsulated protocol):
+
+{| class="prettytable" 
+!Typ
+!Inhalt des Datenbereiches
+|-----
+| 0x00 || unbekannt ("Rohdaten")
+|-----
+| 0x01 || RIP (Routing Information Packet)
+|-----
+| 0x02 || Echo Packet
+|-----
+| 0x03 || Error Packet
+|-----
+| 0x04 || PEP (Packet Exchange Protocol)
+|-----
+| 0x05 || SPX (Sequenced Packet Protocol)
+|-----
+| 0x10 <br />– <br /> 0x1F || Experimentelle Protokolle.
+|-----
+| 0x11 || NCP (NetWare Core Protocol)
+|-----
+| 0x12 <br /> – <br /> 0xFF ||
+|-----
+|}
+
+* Die Felder ''Source Network/Node/Socket'' und ''Destination Network/Node/Socket'' enthalten die entsprechenden Komponenten von Sender- bzw. Empfängeradresse, wobei folgende Socketnummern festgelegt sind:

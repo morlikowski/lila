@@ -1,0 +1,64 @@
+{{Vorlage:Infobox Schacheröffnung 
+|=
+ 8 |rd|nd|bd|qd|kd|bd|nd|rd|=
+ 7 |pd|pd|  |  |pd|pd|pd|pd|=
+ 6 |  |  |pd|  |  |  |  |  |=
+ 5 |  |  |  |pd|  |  |  |  |=
+ 4 |  |  |pl|pl|  |  |  |  |=
+ 3 |  |  |  |  |  |  |  |  |=
+ 2 |pl|pl|  |  |pl|pl|pl|pl|=
+ 1 |rl|nl|bl|ql|kl|bl|nl|rl|=
+    a  b  c  d  e  f  g  h
+
+| Bezeichnung    = Slawische Verteidigung
+| ECO            = D10-D19
+| Züge           = 1. d4 d5 2. c4 c6 
+| BenanntNach    = Schachmeister slawischer Herkunft Simon Alapin, Alexander Aljechin, Efim Bogoljubow, Milan Vidmar
+| ÄltesteQuelle  = 1929
+| ErfolgW        = ?
+| ErfolgS        = ?
+| Referenz       = Chessbase Megabase 2007
+}}
+
+Bei der '''Slawischen Verteidigung''' handelt es sich um eine Eröffnung des Schachspiels, die in mehrere Varianten unterteilt wird. Die Slawische Verteidigung wird auch als '''Slawische Verteidigung im abgelehnten Damengambit''', als '''Slawisches Damengambit''' oder einfach als '''Slawisch''' bezeichnet.
+
+Sie zählt zu den Geschlossenen Spielen. Im Gegensatz zum abgelehnten Damengambit 
+wird die schon geöffnete Diagonale c8-h3 nicht durch e7-e6 verschlossen, so dass eine Entwicklung des Läufers c8 nach f5 oder g4 vor e7-e6 möglich bleibt.
+Unter Umständen kann Schwarz nach 2. ... c7-c6 die spätere Annahme des Gambitbauern mit d5xc4 erfolgreich versuchen.
+
+Ideengeschichtlich war die Entwicklung des „offenen Slawen“ eine Auswirkung der „hypermodernen Eröffnungsrevolution“ . Denn Schwarz gibt das Zentrum mit 4. ... d5xc4 auf, um dann das Fehlen eines eigenen Zentrumsbauern mit einer flexiblen Bauernstruktur und Figurendruck zu kompensieren.
+
+Der Durchbruch auf höchstem Niveau kam durch Aljechin und insbesondere durch Euwe in den Weltmeisterschaftskämpfen 1935 und 1937.
+
+Die Slawische Verteidigung entsteht nach den Zügen:
+: '''1. d2-d4 d7-d5''' 
+: '''2. c2-c4 c7-c6'''
+
+Zu den Hauptvarianten der Slawischen Verteidigung zählen:
+*Die Abtauschvariante: 3. c4xd5 c6xd5 
+:Nach der Auflösung der Zentrumsspannung entsteht eine ausgeglichene Stellung, in der Weiß – aufgrund des Anzugsvorteils – allenfalls einen symbolischen Vorteil hat. Auf Großmeisterniveau oder gar in der Weltspitze ist die Abtauschvariante daher selten anzutreffen.
+*offenes Slawisch '''3. Sg1-f3 Sg8-f6 4. Sb1-c3''' (Seine Grundidee kann Schwarz nicht sofort umsetzen, denn 4. ... Lc8-f5? scheitert taktisch an 5. c4xd5 cxd5 6. Dd1-b3 b7-b6 7. e2-e4!) '''d5xc4'''
+**'''5. a2-a4 Lc8-f5 6. e2-e3 e7-e6 7. Lf1xc4 Lf8-b4 8. 0-0''' bringt Weiß leichten Raumvorteil. Das weiße Bauernzentrum ist nicht so beweglich wie aussieht: d4-d5 führt zu Abtausch und Verflachung, e4-e5 ergibt Stärken und Schwächen für beide Seiten. Schwarz wird auf e6-e5, c6-c5 oder b7-b5 langsam hinarbeiten.
+
+{{Шахматная диаграмма|=
+| tright
+| 
+|=
+  8 |rd|nd|bd|qd|kd|bd|nd|rd|=
+  7 |pd|pd|  |  |pd|pd|pd|pd|=
+  6 |  |  |pd|  |  |  |  |  |=
+  5 |  |  |  |pd|  |  |  |  |=
+  4 |  |  |pl|pl|  |  |  |  |=
+  3 |  |  |  |  |  |  |  |  |=
+  2 |pl|pl|  |  |pl|pl|pl|pl|=
+  1 |rl|nl|bl|ql|kl|bl|nl|rl|=
+     a  b  c  d  e  f  g  h
+| Славянская защита
+}}
+'''Славянская защита''' — шахматный дебют, начинающийся ходами: <br /> '''1. d2-d4 d7-d5 <br /> 2. c2-c4 c7-c6'''. <br />
+
+Среди различных построений ферзевого гамбита славянской защите в современной практике принадлежит видное место. И это не случайно, ибо за ее незатейливым на первый взгляд «фасадом» скрыты многие глубокие стратегические и тактические идеи.
+
+Наибольший вклад в возникновение и развитие славянской защиты принадлежит польским, русским, чешским и югославским теоретикам и практикам. Отсюда происходит ее общепринятое название.
+
+Славянскую защиту любили играть Василий Смыслов и Михаил Ботвинник

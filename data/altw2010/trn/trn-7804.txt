@@ -1,0 +1,51 @@
+'''하이퍼텍스트'''(Hypertext)라는 낱말은 철학자 테드 넬슨에 의해 처음으로 사용되었다. 인터넷과 결합하여 HTML의 주된 구성요소가 되었다.
+
+기존의 문서가 순차적이면서 서열형 구조라면, 하이퍼텍스트는 링크에 따라 그 차례가 바뀌는 임의적이면서 나열형인 구조를 가진다. 이런 하이퍼텍스트의 등장은 검색엔진과 더불어 정보습득의 새로운 장을 인류에게 가져다 주었다. 
+
+또한 하이퍼텍스트 문학이라는 새로운 예술장르를 탄생케 하였다.   
+==비평가와 이론가 그리고 작가==
+*제이 데이비드 볼터(Jay David Bolter)
+*로버트 쿠버(Robert Coover)
+*옐로우리스 더글러스(J. Yellowlees Douglas)
+*캐서린 하일리스(N. Katherine Hayles)
+*마이클 조이스(Michael Joyce)
+*조지 랜도우 (교수)(George Landow (professor))
+*레브 마노비치(Lev Manovich)
+*스튜어트 몰드롭(Stuart Moulthrop)
+*테드 넬슨(Ted Nelson)
+
+== 같이 보기 ==
+*HTML
+
+분류:인터넷
+
+'''Hipertextul''' este un concept inventat de World Wide Web-ul alături de noţiunile asociate HTTP şi HTML.
+
+==Istoric== 
+Ideea acestui concept este mai veche, apărând şi într-un articol al lui Vannevar Bush din iulie 1945 ''„As We May Think”'' publicat în periodicul ''The Atlantic Monthly''. În acest articol autorul îşi imagina un dispozitiv numit ''Memex'', un birou mecanic, interconectat cu o arhivă de microfilme şi capabil să redea diferite cărţi, scrieri sau orice document dintr-o bibliotecă, ba chiar să urmeze automat referinţe dintr-o pagină într-o altă pagină. Acest articol l-a inspirat însă şi pe Douglas Engelbart în dezvoltarea şi prezentarea în 1968 a sistemului NLS (''oNLine System''), prima utilizare efectivă a conceptului de hipertext. De altfel  sistemul NLS încorpora multe concepte moderne ca : mausul (invenţie a lui Engelbart împreună cu Bill English), monitor video, organizare informaţională pe bază de relevanţă, ferestre multiple pe un ecran, etc.
+thumb|300px|Consolă pentru Hypertext Editing System (HES) de la Brown University, octombrie 1969
+Primul proiect hipertext imaginat de Ted Nelson încă din 1960 s-a numit ''Project Xanadu'', în onoarea poemului ''Kubla Khan'' de Samuel Taylor Coleridge. Acest proiect nu a fost niciodată terminat, dar a determinat apariţia multor concepte moderne şi a avut la un moment dat chiar suportul financiar al companiei Autodesk.
+În schimb, lucrând împreună cu Andries van Dam la ''Brown University'' în 1967, Ted Nelson definitivează ''Hypertext Editing System'', un proiect ce rula pe ''mainframe''-ul IBM System/360-50 şi care încorpora câteva concepte de bază ale hipertextului. O altă aplicaţie software, apropiată de hipertext, a fost şi ''HyperCard'', scrisă de Bill Atkinson, dar ceea ce a determinat succesul sistemului hipertext a fost realizarea de către Tim Berners-Lee a conceptului de World Wide Web.
+
+==Concepte şi definiţii ==
+Plecând de la definiţia lui Nelson, conceptul a evoluat, iar definiţiile hipertextului s-au înmulţit : 
+*o formă de document electronic, o metodă de organizare a informaţiilor în care datele sunt memorate într-o reţea de noduri şi legături, putând fi accesată prin intermediul programelor de navigare interactivă, şi manipulată de un editor structural. 
+*tehnică pentru organizarea informaţiei textuale printr-o metodă complexă neliniară, în vederea facilitării explorării rapide a unei mari cantităţi de cunoştinţe.  
+*mod de construcţie a unui sistem de management şi reprezentare a informaţiei folosind legături pentru a crea o reţea de noduri.
+Conceptul de bază în definirea hipertextului este "legătura" (''link''-ul), fie în cadrul aceluiaşi document, fie către alt document. Legătura de tip ''link'' permite organizarea nelineară a informaţiilor. Un sistem hipertext permite autorului său să creeze aşa-numite "noduri", să le lege între ele, iar unui cititor navigarea de la un nod la altul. Astfel un nod reprezintă un concept putând conţine orice fel de informaţie: text, grafică, imagini, animaţii, sunete, etc. Nodul sursă al unei legături se numeşte "referinţă" iar cel destinaţie "referent" sau ancoră, punctele de legătură din respectivele noduri fiind marcate. Activarea marcajelor unei legături duce la vizualizarea nodurilor. Asocierea cu unele elemente mediale a dus la extinderea noţiunii de hipertext către "hipermedii". 
+
+Legăturile sunt conexiuni între noduri (sau concepte) dependente unul de altul, putând fi clasificate ori ca "bidirecţionale", ori ca "unidirecţionale". Lor li se pot asocia anumite tipuri (ca de ex. legătură de specificare, de elaborare, legătura membru, legătură de opoziţie etc.), definind  astfel natura relaţiei dintre noduri. Legăturile pot fi de asemenea referenţiale (pentru realizarea referinţelor încrucişate) sau ierarhice (ilustrând relaţiile părinte-copil dintre noduri, ex. XML) . În funcţie de momentul creării legăturile pot fi : statice (definite de autor în momentul redactării) sau dinamice (generate în momentul rulării hipertextului şi dependente de context). De asemenea unele legături pot avea asociate diferite comportamente în funcţie de context. Spre exmplu, la traversarea unei legături se poate deschide sursa unui document (dacă acţiunea asociată este de tipul "deschide sursa") sau se poate afişa acel document (dacă acţiunea asociată este "deschide documentul formatat").
+
+==Coerenţa documentelor==
+Pentru a putea fi înţelese şi reprezentate corect mental, documentele hipertext ar trebui să fie coerente. De aceea unii teoreticieni (Thuring, Rao sau Conklin) au stabilit pentru un document coerent următoarele secţiuni : "conţinut", "organizare" şi "prezentare" :
+*Partea de conţinut este alcătuită din obiecte purtătoare de informaţie, noduri conţinut care conţin date sau legături de tip conţinut care fac conexiuni între nodurile conţinut pe baza unor relaţii. De asemenea, nodurile conţinut pot fi ierarhizate pe mai multe nivele în funcţie de informaţia prezentată.
+*Partea de organizare structurează documentul hipertext din perspectiva cititorului. Nodurile de structură organizează nodurile conţinut şi legăturile de tip conţinut. Astfel de noduri pot fi: de secvenţă prin care cititorul poate fi constrâns să urmărească o anumită secvenţă de noduri, sau de explorare, oferind posibilitatea de a explora rapid tot documentul. În mod asemănător legăturile pot fi de secvenţă sau de explorare.
+*În fine, partea de prezentare este utilă în vizualizarea documentului şi a stucturii, oferind eventual şi modalităţi comode de navigare. Prezentarea poate fi: textuală, afişându-se conţinutul unor noduri, grafică, prin prezentarea structurii documentului, sau şi combinată.
+
+==Modele==
+Există câteva modele de implementare a unui sistem hipertext cum ar fi: ''Hypertext Abstract Machine'' (HAM), ''Hypermedia Design Model'' (HDM), "Modelul Dexter", "Modelul Trellis" sau "Modelul Tower". De asemenea, datorită complexităţii la care pot ajunge sistemele hipertext, sunt definite câteva metode de realizare a unor structuri hipertext: "Metafora cărţii tipărite", "Structura lineară cu salturi", "Structura ierarhică" sau "Structura semantică".
+
+Modalitatea de stocare a informaţiei diferă de la un sistem la altul, dar de obicei se folosesc limbajele de marcare HTML sau MHEG, pentru a asigura independenţa de platforma hardware sau software pe care sunt implementate.
+
+==Vezi şi==
+*HTML

@@ -1,0 +1,76 @@
+Ein '''Windkanal''' dient dazu, die aerodynamischen und aeroakustischen Eigenschaften von Objekten zu untersuchen und vermessen.
+
+thumb|Windkanal der [[NASA mit dem Modell eines Flugzeugs]]
+Am bekanntesten sind wohl die Windkanaluntersuchungen von Autos. Während bei Autos hauptsächlich ein niedriger Luftwiderstand und optimale Auftriebswerte erzielt werden sollen, spielen bei Flugzeugen wesentlich mehr Aspekte eine Rolle: neben Luftwiderstand und Auftrieb auch Tragflächenprofil, Stabilität, Steuerung usw. Daneben werden inzwischen auch Eisenbahnzüge und Schiffe im Windkanal untersucht. Ganz wichtig ist mittlerweile auch die Untersuchung von Bauwerken wie Schornsteinen, Hochhäusern und Brücken. Hier muss darauf geachtet werden, dass diese bei Stürmen dem Winddruck und vor allem den Windkräften standhalten und nicht in Schwingung geraten. Um die Windströmung richtig simulieren zu können, muss dafür manchmal die gesamte nähere Umgebung modelliert werden. Nur selten können Objekte in Originalgröße im Windkanal untersucht werden; Autos bilden hier eine Ausnahme, da sie nicht allzu groß sind und die relativ niedrigen Luftgeschwindigkeiten ausreichend große Windkanäle erlauben. 
+Für Flugzeuge oder Gebäude müssen meist maßstabsgerechte Modelle gebaut werden. Ein Problem besteht jedoch darin, dass die Luft sich bei kleinen Modellen anders verhält als bei den Objekten in ihrer tatsächlichen Größe (''siehe'' Reynolds-Zahl). Durch Erhöhung des Luftdrucks und/oder Verringerung der Temperatur lassen sich jedoch die Lufteigenschaften dem Maßstab des Modells anpassen. In manchen Windkanälen wird daher statt mit Luft mit -160&nbsp;°C kaltem Stickstoff gearbeitet.
+
+== Aufbau ==
+Windkanäle bestehen aus einem oder mehreren Gebläsen, die die Luftströmung erzeugen, Gleichrichterelementen, die für eine möglichst gleichmäßige, unverwirbelte Strömung sorgen sollen, einer Düse zur Beschleunigung des Luftstromes sowie der eigentlichen ''Messstrecke'', in der die Untersuchungen durchgeführt werden. Die Strömung in der Messstrecke soll dabei möglichst gleichförmig, parallel, turbulenz- und lärmarm sein. Eine quantitative Aussage über die turbulenten Schwankungsgeschwindigkeiten macht der Turbulenzgrad des Windkanals. Die Messstrecke kann, wie in der Grafik dargestellt, offen sein, d.h. die Strömung wird von der Düse in eine Messhalle ausgeblasen und an der anderen Messhallenseite von einem Auffänger oder Kollektor aufgefangen, wobei sich in der Messhalle eine Scherschicht zwischen der bewegten und der stehenden Luft aufbaut. Es gibt jedoch auch geschlossene Messstrecken, in denen die Strömung auch in der Messstrecke durch Wände geführt wird, und geschlitzte Messstrecken, bei denen einige dieser Wände mit Schlitzen versehen sind.
+
+thumb|Geschlossener Umlaufwindkanal in Göttinger Bauart für den subsonischen Geschwindigkeitsbereich. 
+Auch die Luftführung von Windkanälen kann offen oder geschlossen sein. Bei der offenen Bauweise wird die Luft aus der Umgebung angesaugt, fließt durch die Messstrecke und entweicht am anderen Ende wieder ins Freie. Geschlossene Luftführungen sind ringförmig. Hier wird die nach der Messstrecke vom Kollektor aufgenommeme Luftströmung wieder dem Gebläse zugeführt. Tiefe Temperaturen und hoher Druck können nur in geschlossenen Windkanälen erzeugt werden. Windkanäle für Unterschallgeschwindigkeiten können mehrere Meter Durchmesser haben, dagegen schrumpft die Größe von Windkanälen für den hohen Überschallbereich auf wenige Zentimeter zusammen. 
+
+Windkanalexperimente sind hauptsächlich wegen des hohen Investitionsaufwands bei der Erstellung stets mit hohen Kosten verbunden. Daher versucht man heute zunehmend, die Versuche durch aeroakustische Simulation (CAA, Computational Aeroacoustics).
+
+== Historisches ==
+Von Gustave Eiffel wurden in den Jahren 1905 und 1906 am Eiffelturm Untersuchungen zum Strömungswiderstand von rechteckigen und ovalen Platten gemacht, indem diese von der zweiten Plattform des Turmes aus an einem Drahtseil geführt senkrecht nach unten fallen gelassen wurden. Hierbei wurde die auf die Platte wirkende Kraft auf einem mit berußtem Papier umwickelten Metallzylinder aufgezeichnet. Später baute Gustave Eiffel auf dem Marsfeld ein Laboratorium mit einem ersten Windkanal auf, der aus einer geschlossenen Messkabine bestand, aus der auf der einen Seite mit Hilfe eines elektrischen Gebläses die Luft abgesaugt wurde (die „70&nbsp;PS“ Strom hierzu lieferte übrigens die Kraftzentrale des Eiffelturms). Auf der gegenüberliegenden Seite des Raumes strömte Luft aus einem großen Lagerraum durch eine Düse in das Innere der Messstrecke nach. In dem so erzeugten Strahl wurden von Eiffels Mitarbeitern später auch systematische Untersuchungen zum Verhalten der ersten Tragflügelformen für Flugzeuge angestellt. Diese Art eines offenen Kanals, der durch Außenluft gespeist wird, trägt daher auch den Namen „Eiffel-Kanal“.
+
+Ein Eiffel-Kanal hat den Nachteil, dass sich Temperatur- und Druckschwankungen sowie Geschwindigkeitsunterschiede aus der Umgebung, aus der die Luft angesaugt wird, in die Messtrecke fortsetzen, so dass sich die Strömung nur innerhalb gewisser Grenzen laminar halten und einstellen lässt. Unter anderem aus diesem Grunde wurde von Ludwig Prandtl eine andere Form des Windkanals entwickelt und erstmals 1908 in der von ihm gegründeten „Modellversuchsanstalt“ in Göttingen umgesetzt.
+Bei einem Windkanal nach Göttinger Typ wird hinter der Messstrecke die Luft in einem Auffangtrichter von einem Gebläse abgesaugt, von wo aus sie über einen Kanal wieder der Düse vor der Messstrecke zuströmt. Auf diese Weise können die physikalischen Eigenschaften der Luft im Kanal gut kontrolliert werden. Man kann z.&nbsp;B. den ganzen Kanal und die Messstrecke unter erhöhten Druck bringen oder herabkühlen. Es gibt Kanäle, in denen mit Drücken bis 120 bar oder Temperaturen bis -200°&nbsp;Celsius gearbeitet wird.
+
+right|350px|thumb|[[NASA wind tunnel with the model of a plane.]]
+thumb|A model [[Cessna with helium-filled bubbles showing streamlines of the wingtip vortices.]]
+
+A '''wind tunnel''' is a research tool developed to assist with studying the effects of air moving over or around solid objects.
+
+Ways that wind-speed and flow are measured in wind tunnels:
+* Threads can be attached to the surface of study objects to detect flow direction and relative speed of air flow.
+* Dye or smoke can be injected upstream into the air stream and the streamlines that dye particles follow photographed as the experiment proceeds.
+* Pitot tube probes can be inserted in the air flow to measure static and dynamic air pressure.
+* Particle image velocimetry
+
+== History ==
+English military engineer and mathematician Benjamin Robins (1707&ndash;1751) invented a whirling arm apparatus to determine drag and did some of the first experiments in aviation theory.
+
+Sir George Cayley (1773-1857), the 'father of aerodynamics', also used a whirling arm to measure the drag and lift of various airfoils. His whirling arm was 5 feet long and attained top speeds between 10 and 20 feet per second. Armed with test data from the arm, Cayley built a small glider that is believed to have been the first successful heavier-than-air vehicle to carry a man in history. 
+
+However, the whirling arm does not produce a reliable flow of air impacting the test shape at a normal incidence. Centrifugal forces and the fact that the object is moving in its own wake mean that detailed examination of the airflow is difficult. Francis Herbert Wenham (1824-1908), a Council Member of the Aeronautical Society of Great Britain, addressed these issues by inventing, designing and operating the first enclosed wind tunnel in 1871.<ref>Frank H. Wenham, inventor of the wind tunnel, 1871, was a fan, driven by a steam engine, propelled air down a 12-ft. (3.7 m) tube to the model. NASA: [http://media.nasaexplores.com/lessons/01-007/9-12_2.pdf]</ref> 
+
+Once this breakthrough had been achieved, detailed technical data was rapidly extracted by the use of this tool. Wenham and his colleague Browning are credited with many fundamental discoveries, including the measurement of l/d ratios, and the revelation of the beneficial effects of a high aspect ratio.
+
+Carl Rickard Nyberg used a wind tunnel when designing his ''Flugan'' from 1897 and onwards.
+
+In a classic set of experiments, the Englishman Osborne Reynolds (1842-1912) of the University of Manchester demonstrated that the airflow pattern over a scale model would be the same for the full-scale vehicle if a certain flow parameter were the same in both cases. This factor, now known as the Reynolds Number, is a basic parameter in the description of all fluid-flow situations, including the shapes of flow patterns, the ease of heat transfer, and the onset of turbulence. This comprises the central scientific justification for the use of models in wind tunnels to simulate real-life phenomena.
+
+right|thumb|250px|Replica of the Wright brothers' [[wind tunnel at the Udvar-Hazy Center.]]
+
+The Wright brothers' use of a simple wind tunnel in 1901 to study the effects of airflow over various shapes while developing their Wright Flyer was in some ways revolutionary. It can be seen from the above, however, that they were simply using the accepted technology of the day, though this was not yet a common technology in America.
+
+Subsequent use of wind tunnels proliferated as the science of aerodynamics and discipline of aeronautical engineering were established and air travel and power were developed.
+
+Wind tunnels were often limited in the volume and speed of airflow which could be delivered.
+
+The wind tunnel used by German scientists at WWII is an interesting example of the difficulties associated with extending the useful range of large wind tunnels. It used some large natural caves which were increased in size by excavation and then sealed to store large volumes of air which could then be routed through the wind tunnels. This innovative approach allowed lab research in high speed regimes and greatly accelerated the rate of advance of Germany's aeronautical engineering efforts.
+
+Later research into airflows near or above the speed of sound used a related approach. Metal pressure chambers were used to store high pressure air which was then accelerated through a nozzle designed to provide supersonic flow. The observation or instrumentation chamber was then placed at the proper location in the throat or nozzle for the desired airspeed.
+
+For limited applications, Computational fluid dynamics (CFD) can augment or possibly replace the use of wind tunnels.  For example, the experimental rocket plane SpaceShipOne was designed without any use of wind tunnels.  However, on one test, flight threads were attached to the surface of the wings, performing a wind tunnel type of test during an actual flight in order to refine the computational model. It should be noted that, for situations where external turbulent flow is present, CFD is not practical due to limitations in present day computing resources. For example, an area that is still much too complex for the use of CFD is determining the effects of flow on and around structures, bridges, terrain, etc. 
+
+thumb|left|Preparing a model in the Kirsten Wind Tunnel, a subsonic wind tunnel at the [[University of Washington]]
+The most effective way to simulative external turbulent flow is through the use of a boundary layer wind tunnel. 
+
+There are many applications for boundary layer wind tunnel modeling. For example, understanding the impact of wind on high-rise buildings, factories, bridges, etc. can help building designers construct a structure that stands up to wind effects in the most efficient manner possible. Another significant application for boundary layer wind tunnel modeling is for understanding exhaust gas dispersion patterns for hospitals, laboratories, and other emitting sources. Other examples of boundary layer wind tunnel applications are assessments of pedestrian comfort and snow drifting. Wind tunnel modeling is accepted as a method for aiding in Green building design. For instance, the use of boundary layer wind tunnel modeling can be used as a credit for Leadership in Energy and Environmental Design (LEED) certification through the U.S. Green Building Council.
+
+Wind tunnel tests in a boundary layer wind tunnel allow for the natural drag of the earth's surface to be simulated.  For accuracy, it is important to simulate the mean wind speed profile and turbulence effects within the atmospheric boundary layer. Most codes and standards recognize that wind tunnel testing can produce reliable information for designers, especially when their projects are in complex terrain or on exposed sites.
+
+==How it works==
+thumb|left|Six-element external balance below the Kirsten Wind Tunnel
+Air is blown or sucked through a duct equipped with a viewing port and instrumentation where models or geometrical shapes are mounted for study. Typically the air is moved through the tunnel using a series of fans. For very large wind tunnels several meters in diameter, a single large fan is not practical, and so instead an array of multiple fans are used in parallel to provide sufficient airflow. Due to the sheer volume and speed of air movement required, the fans may be powered by stationary turbofan engines rather than electric motors.
+
+The airflow created by the fans that is entering the tunnel is itself highly turbulent due to the fan blade motion, and so is not directly useful for accurate measurements. The air moving through the tunnel needs to be relatively turbulence-free and laminar. To correct this problem, a series of closely-spaced vertical and horizontal air vanes are used to smooth out the turbulent airflow before reaching the subject of the testing.
+
+Due to the effects of viscosity, the cross-section of a wind tunnel is typically circular rather than square, because there will be greater flow constriction in the corners of a square tunnel that can make the flow turbulent. A circular tunnel provides a much smoother flow.
+
+The inside facing of the tunnel is typically very smooth to reduce surface drag and turbulence that could impact the accuracy of the testing. Even smooth walls induce some drag into the airflow, and so the object being tested is usually kept near the center of the tunnel, with an empty buffer zone between the object and the tunnel walls.
+
+Lighting is usually recessed into the circular walls of the tunnel and shines in through windows. If the light were mounted on the inside surface of the tunnel in a conventional manner, the light bulb would generate turbulence as the air blows around it. Simarly, observation is usually done through transparent portholes into the tunnel. Rather than simply being flat discs, these lighting and observation windows may be curved to match the cross-section of the tunnel and further reduce turbulence around the window.

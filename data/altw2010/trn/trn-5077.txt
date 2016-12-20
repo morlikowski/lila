@@ -1,0 +1,107 @@
+{{NatOrganicBox
+| image=<br>200px|Chemical structure of Lysine
+180px|Chemical structure of Lysine
+| name=2,6-diaminohexanoic acid
+| PubChem = 866
+| CAS = 56-87-1
+| SMILES = C(CCN)CC(C(=O)O)N
+| C=6 | H=14 | N=2 | O=2
+| mass=146.188 g/mol
+}}
+
+'''Lysine''' (abbreviated as '''Lys''' or '''K''')<ref></ref> is an α-amino acid with the chemical formula HO<sub>2</sub>CCH(NH<sub>2</sub>)(CH<sub>2</sub>)<sub>4</sub>NH<sub>2</sub>. This amino acid is an essential amino acid, which means that humans cannot synthesize it. Its codons are AAA and AAG. 
+
+Lysine is a base, as are cell.
+
+==Biosynthesis==
+As an essential amino acid, lysine is not synthesized in animals, hence it must be ingested as lysine or lysine-containing proteins.  In plants and microorganisms, it is synthesized from aspartic acid, which is first converted to β-aspartyl-semialdehyde.  Cyclization gives dihydropicolinate, which is reduced to Δ<sup>1</sup>-piperidine-2,6-dicarboxylate.  Ring-opening of this heterocycle gives a series of derivatives of pimelic acid, ultimately affording lysine.  Enzymes involved in this biosynthesis include:<ref>Nelson, D. L.; Cox, M. M. "Lehninger, Principles of Biochemistry" 3rd Ed. Worth Publishing: New York, 2000. ISBN 1-57259-153-6.</ref>
+# Aspartokinase
+# β-aspartate semialdehyde dehydrogenase
+# Dihydropicolinate synthase
+# Δ<sup>1</sup>-piperidine-2,6-dicarboxylate dehydrogenase
+# ''N''-succinyl-2-amino-6ketopimelate synthase
+# Succinyl diaminopimelate aminotransferase
+# Succinyl diaminopimelate desuccinylase
+# Diaminopimelate epimerase
+# Diaminopimelate decarboxylase
+
+==Metabolism==
+Lysine is metabolised in α-ketoglutarate. The bacterial degradation of lysine yields cadaverine by decarboxylation.
+
+==Synthesis==
+Synthetic, racemic lysine has long been known.<ref>Braun, J. V. “Synthese des inaktiven Lysins aus Piperidin" Berichte der deutschen chemischen Gesellschaft 1909, Volume 42, p 839-846. DOI: 10.1002/cber.190904201134.</ref>  A practical synthesis starts from caprolactam.<ref>Eck, J. C.; Marvel, C. S. “dl-Lysine Hydrochlorides” Organic Syntheses, Collected Volume 2, p.374 (1943). http://www.orgsyn.org/orgsyn/pdfs/CV2P0374.pdf</ref>
+
+==Dietary sources==
+The  human nutritional requirement is 1&ndash;1.5 g daily. It is the limiting amino acid (the essential amino acid found in the smallest quantity in the particular foodstuff) in all pulses (legumes). Plants that contain significant amounts of lysine include:
+
+*Buffalo Gourd (10,130&ndash;33,000 ppm) in seed 
+*Berro, Watercress (1,340&ndash;26,800 ppm) in herb.
+*Soybean (24,290&ndash;26,560 ppm) in seed.
+*Carob, Locust Bean, St.John's-Bread (26,320 ppm) in seed;
+*Common Bean (Black Bean, Dwarf Bean, Field Bean, Flageolet Bean, French Bean, Garden Bean, Green Bean, Haricot, Haricot Bean, Haricot Vert, Kidney Bean, Navy Bean, Pop Bean, Popping Bean, Snap Bean, String Bean, Wax Bean) (2,390&ndash;25,700 ppm) in sprout seedling;
+*Ben Nut, Benzolive Tree, Jacinto (Sp.), Moringa (aka Drumstick Tree, Horseradish Tree, Ben Oil Tree), West Indian Ben (5,370&ndash;25,165 ppm) in shoot.
+*Lentil (7,120&ndash;23,735 ppm) in sprout seedling.
+*Asparagus Pea, Winged Bean (aka Goa Bean) (21,360&ndash;23,304 ppm) in seed.
+*Fat Hen (3,540&ndash;22,550 ppm) in seed.
+*Lentil (19,570&ndash;22,035 ppm) in seed.
+*White Lupin (19,330&ndash;21,585 ppm) in seed.
+*Black Caraway, Black Cumin, Fennel-Flower, Nutmeg-Flower, Roman Coriander (16,200&ndash;20,700 ppm) in seed.
+*Spinach (1,740&ndash;20,664 ppm).
+*Amaranth, Quinoa
+
+Good sources of lysine are foods rich in protein including meat (specifically red meat, pork, and poultry), cheese (particularly Parmesan), certain fish (such as cod and sardines), and eggs.
+
+==Properties==
+L-Lysine is a necessary building block for all protein in the body. L-Lysine plays a major role in calcium absorption; building muscle protein; recovering from surgery or sports injuries; and the body's production of hormones, enzymes, and antibodies.
+
+==Clinical significance==
+It has been suggested that lysine may be beneficial for those with herpes simplex infections.<ref name=Griffith2>
+
+{{cite journal 
+| author=Griffith RS, Norins AL, Kagan C. | title=A multicentered study of lysine therapy in Herpes simplex infection | journal=Dermatologica. | year=1978 | pages=257–267 | volume=156 | issue=5 | pmid=640102
+
+{| id="bioChemInfoBox" align="right" border="1" cellspacing="0" cellpadding="3" style="margin: 0 0 0 0.5em; background: #FFFFFF; border-collapse: collapse; border-color: #C0C090;"
+!  | 
+|-
+| Nama sistematik
+| Asam ''S''-2,6-diaminoheksanoat 
+|-
+| Singkatan
+| '''Lys'''<br/>'''K'''
+|-
+| Kode genetik
+| '''AAA  AAG'''
+|-
+| Rumus kimia
+| C<sub>6</sub>H<sub>14</sub>N<sub>2</sub>O<sub>2</sub>
+|-
+| Massa molekul
+| 146,19g mol<sup>-1</sup>
+|-
+| Titik lebur
+| 224°C
+|-
+| Massa jenis
+| ? g cm<sup>-3</sup>
+|-
+| Titik isoelektrik
+| 9,74
+|-
+| p''K''<sub>a</sub>
+| 2,15<br/>9.16<br/>10.67
+|-
+| Nomor CAS
+| [56-87-1]
+|-
+| SMILES
+| NCCCCC(N)C(=O)O
+|-
+| align="center" colspan="2" | 150px|Chemical structure of Lysine150px|Chemical structure of Lysine
+|-
+|  | <small></small>
+|-
+|}
+
+'''Lisin''' (bahasa Inggris ''lysine'') merupakan asam amino penyusun protein yang dalam pelarut air bersifat basa, seperti juga histidin. Lisin tergolong esensial bagi manusia dan kebutuhan rata-rata per hari adalah 1- 1,5 g. Lisin menjadi kerangka bagi niasin (vitamin B1). Kekurangan vitamin ini dapat menyebabkan pelagra. Lisin juga dilibatkan dalam pengobatan terhadap penyakit herpes.
+
+Biji-bijian serealia terkenal miskin akan lisin. Sebaliknya, biji polong-polongan kaya akan asam amino ini.

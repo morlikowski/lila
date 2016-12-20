@@ -1,0 +1,27 @@
+'''Kirijeva tačka''' ('''T<sub>c</sub>'''), ili '''Kirijeva temperatura''', je termin u fizici i nauci o materijalima, koji je dobio ime po Pierreu Curieu (karatkerističnu osobinu feromagnetnih ili piezoelektričnih materijala. 
+
+== Kirijeva tačka u fermognatičnim materijalima ==
+
+Kirijeva tačka feromagnetičnih materijala je feromagnetične sposobnosti. Na temperaturi ispod Kirijeve tačke magnetnoj domeni kod feromagnetičnih materijala. Kako se temperatura povećava, termalne promjene uništavaju ovaj ustroj, sve dok ukupna paramagnetičan.  
+
+Na temperaturama ispod Kirijeve tačke, djelovanje magnetnog polja ima paramagnetični efekat na magnetizaciju, ali kombinacija paramagnetizma sa feromagnetizmom dovodi do magnetizacije što se prati na histereznoj krivoj sa apliciranjem snage polja. Uništavanje magnetizacije na Kirijevoj temperaturi je druga po redu kritična tačka gdje je magnetna susceptibilnost teorijski beskonačna.
+
+''Pogledajte feromagnetizam za spisak feromagnetičnih materijala i njihove Kirijeve temperature.''
+
+Ovaj efekat su najviše koristi kod magnetno-optičkih uređaja za spremanje podataka (CD-MO format.
+
+Ostale upotrebe uključuju kontrolu temperature pri lemljenju željeza kao što je ''Weller WTCPT'' i, uopćenito, gdje poželjna magnetizacija sa kontrolisanom temeperaturom.
+
+The '''Curie point''' ('''T<sub>c</sub>'''), or '''Curie temperature''', is a term in physics and materials science, named after Pierre Curie (1859-1906), and refers to a characteristic property of a ferromagnetic or piezoelectric material.
+
+== Curie point in ferromagnetic materials ==<!-- This section is linked from Garnet -->
+The Curie point of a ferromagnetic material is the ferromagnetic ability (768°C for iron). At temperatures below the Curie point the paramagnetic and there are no magnetized domains of aligned moments.  
+
+At temperatures above the Curie point, an applied magnetic field has a paramagnetic effect on the magnetization, but the combination of paramagnetism with ferromagnetism  leads to the magnetization following a critical point where the magnetic susceptibility is theoretically infinite.
+
+One application of this effect is in CD-MO format.
+
+Other uses include temperature control in soldering irons such as the Weller WTCPT and, in general, where a temperature-controlled magnetization is desirable.
+
+== Curie temperature in piezoelectric materials ==
+In analogy to ferromagnetic materials, the Curie temperature is also used in polarization and piezoelectric characteristics.  In lead zirconate titanate (PZT), the material is tetragonal below T<sub>c</sub> and the unit cell contains a displaced central cation and hence a net dipole moment.  Above T<sub>c</sub>, the material is cubic and the central cation is no longer displaced from the centre of the unit cell.  Hence, there is no net dipole moment and no spontaneous polarization. 

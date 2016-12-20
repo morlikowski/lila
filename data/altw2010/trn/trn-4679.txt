@@ -1,0 +1,438 @@
+{{Infobox Software
+|名称= MediaWiki
+|ロゴ=180px|none|MediaWiki
+|説明文=
+|開発元=Wikimedia Foundation Inc.
+|最新版 = 1.12.0
+|最新版発表日 = 2008 03 20
+|対応OS = 非依存
+|programming language=PHP: Hypertext Preprocessor
+|datavase=MySQL
+|種別 =ウィキ
+|ライセンス=GPL
+|公式サイト =[http://www.mediawiki.org/ www.mediawiki.org]
+}}
+'''MediaWiki'''（メディアウィキ）は、GNU General Public Licenseで配布されるウィキソフトウェアである。
+
+PHPで書かれており、データベースとしてMySQLまたはPostgreSQLを使用する。
+
+== 概要 ==
+MediaWikiは、Magnus Manskeらによって作成された。最初はMagnus Manske Dayと呼ばれている。
+
+Phase IIソフトウェアを書き直して改良したものは、一時"Phase III"と呼ばれていた。このソフトウェアは、それがウィキペディアだけでなく他のプロジェクトにも使用可能であり、バージョン番号の必要性があるという背景により、MediaWikiと改名された。MediaWikiという名前は、ウィキペディアの母組織であるウィキメディア財団をもじったものである。プロジェクトに新たに参加した人を混乱に招くという理由で、この名称のウィキメディアとの類似性がしばしば非難されている。
+
+== 歴史・変更点 ==
+{| class="wikitable" style="float:right;"
+|-
+! 色
+! 定義
+|-
+| style="background-color:#fa8072;" | 赤
+| 旧リリース、サポート終了
+|-
+| style="background-color:#f0e68c;" | 黄
+| 旧リリース、サポート中
+|-
+| style="background-color:#A0E75A;" | 緑
+| 最新版
+|-
+| style="background-color:#87CEEB;" | 青
+| リリース予定
+|}
+
+MediaWiki.orgのニュースページも参照''。
+
+{| class="wikitable"
+! バージョン数
+! リリース日
+! リンク
+! おもな変更点
+|- valign="top"
+! style="background-color:#fa8072;" | 1.1
+| 2003年12月8日
+| [http://sourceforge.net/project/shownotes.php?release_id=202383&group_id=34373 リリースノート全文]
+|
+* あたらしい表組みのウィキマークアップ導入
+* MediaWiki名前空間の導入により、利用者がインターフェースメッセージ編集可能に
+* XML形式のソース出力、履歴のオプション選択付き
+* マジックワード（特別な機能を持つ文字列や変数）
+|- valign="top"
+! style="background-color:#fa8072;" | 1.2
+| 2004年3月24日
+| [http://sourceforge.net/project/shownotes.php?release_id=226003&group_id=34373 リリースノート全文]
+|
+* ウェブ上でのインストーラー（実験導入）
+* 画像のリサイズとサムネールの生成
+* ウィキマークアップを支援する編集ツールバー
+* ウィキ内での利用者権限の設定
+|- valign="top"
+! style="background-color:#fa8072;" | 1.3
+| 2004年8月11日
+| [http://sourceforge.net/project/shownotes.php?release_id=259965&group_id=34373 リリースノート全文]
+|
+* CSSを多く用い、WWW基準により合致した新しい外装（MonoBookスキン）
+* 引数のとれるテンプレート
+* カテゴリ機能
+* 可能な場合、編集競合を自動的に統合
+* インストールの改善
+|- valign="top"
+! style="background-color:#fa8072;" | 1.4
+| 2005年3月20日
+| [http://sourceforge.net/project/shownotes.php?release_id=314389&group_id=34373 リリースノート全文]<br/>多言語対応状況
+|
+* 利用者毎に使用言語が設定可能
+* パフォーマンスを大幅に改善
+* ストレージの必要容量を圧縮するための、古い版の圧縮機能
+* 画像ギャラリー（新規アップロードファイルのリスト）の生成
+* SVG表示のサポート（外部サポートツールが必要）
+|- valign="top"
+! style="background-color:#f0e68c;" | 1.5<br/><span style="font-weight:normal">(MySQL 3をサポートする最新版)</span>
+| 2005年10月5日
+| [http://sourceforge.net/project/shownotes.php?release_id=361506&group_id=34373 リリースノート全文]<br/>多言語対応状況
+|
+* データベースの大規模な再設計。データベーススキーマを再設計して、堅牢に
+* リビジョン管理をテキストストレージから分離。これにより
+** ページの移動、ページの履歴の生成など一部の操作のパフォーマンスが大幅に改善
+** 全ての版への固定リンクを提供
+** データの大部分をデータベースの外に保管可能に
+* 電子メールを用いた変更通知機能
+* ページのエンコーディングは必ずUTF-8を使用
+|- valign="top"
+! style="background-color:#f0e68c;" | 1.6<br/><span style="font-weight:normal">(PHP 4をサポートする最新版)</span>
+| 2006年4月5日
+| [http://sourceforge.net/project/shownotes.php?release_id=407308&group_id=34373 リリースノート全文]<br/>多言語対応状況
+|
+* MySQLの場合4以降が必須。
+* 利用者のログイン画面とアカウント作成画面を分離
+* ページの保護および保護解除の画面を再設計。半保護機能が追加。
+* バックグラウンドのアップデートに「ジョブ・キュー」を使用
+* テンプレートの使用の追跡を改善
+* スパム対策の強化として、外部リンクの追跡を導入
+* テンプレートの引数に初期値設定可能
+|- valign="top"
+! style="background-color:#fa8072;" | 1.7
+| 2006年7月7日
+| [http://svn.wikimedia.org/viewvc/mediawiki/tags/REL1_7_0/phase3/RELEASE-NOTES?view=markup リリースノート全文]<br/>多言語対応状況
+|
+* MediaWiki 1.7 以降は PHP 5 が必須 (5.1 推奨)。 PHP 4 はサポート対象外。
+* 削除したファイルが復帰可能に
+|-
+! style="background-color:#fa8072;" | 1.8
+| 2006年10月10日
+| [http://svn.wikimedia.org/viewvc/mediawiki/tags/REL1_8_0/phase3/RELEASE-NOTES?view=markup リリースノート全文]<br/>多言語対応状況
+|
+* PostgreSQL (8.1以降)データベース・バックエンドを完全サポート
+* DjVuによるサムネール生成とマルチページ・ナビゲーションをサポート
+* 利用者の投稿ブロック機能の改善。未登録利用者へのブロックに特定のIPアドレスを使用
+* 設定により、公開されているURLからの直接のファイルアップデートが可能に
+|-
+! style="background-color:#fa8072;" | 1.9
+| 2007年1月10日
+| [http://svn.wikimedia.org/viewvc/mediawiki/tags/REL1_9_0/phase3/RELEASE-NOTES?view=markup リリースノート全文]<br/>多言語対応状況
+|
+* 版の「Undo」機能
+* ブロックおよび特別ページのキャッシュを改善
+* ソータブルテーブル
+* 利用者データベースに編集カウンタ追加
+* ウォッチリストおよび最近更新したページに版のサイズを表示
+* 「特別」(Special) 名前空間のローカライズが可能に
+|-
+! style="background-color:#fa8072;" | 1.10
+|
+* 2007年4月30日 - 1.10.0rc1 ブランチリリース候補版
+* 2007年5月4日 - 1.10.0rc2 ブランチリリース候補版
+* 2007年5月9日 - 1.10.0 安定版ブランチリリース
+* 2007年7月13日 - 1.10.1 バグフィックスリリース
+| [http://svn.wikimedia.org/viewvc/mediawiki/tags/REL1_10_0/phase3/RELEASE-NOTES?view=markup リリースノート全文]<br/>多言語対応状況
+|
+* 「カスケード保護」機能
+* ツールチップおよびアクセスキー機能の改善
+* ブロックおよび特別ページのキャッシュを改善
+* IPv6をサポート
+|-
+! style="background-color:#f0e68c;" | 1.11
+|
+* 2007年9月5日 - 1.11.0 ブランチリリース候補版
+* 2007年9月10日 - 1.11.0 安定版ブランチリリース
+* 2008年1月23日 - 1.11.1 セキュリティフィックス
+| [http://svn.wikimedia.org/viewvc/mediawiki/tags/REL1_11_0/phase3/RELEASE-NOTES?view=markup リリースノート全文]<br/>多言語対応状況
+|
+* $wgAddGroups および $wgRemoveGroups の追加。これにより利用者権限のより洗練された設定が可能に
+* AJAXを用いた閲覧が修正され、デフォルトで使用可能に
+|-
+! style="background-color:#A0E75A;" | 1.12
+| 2008年3月20日
+| [http://svn.wikimedia.org/viewvc/mediawiki/tags/REL1_12_0/phase3/RELEASE-NOTES?view=markup リリースノート全文]<br/>多言語対応状況
+|
+* 国際化と地域化を大幅に促進。多言語対応が進み、特別:Version（バージョン情報ページ）がローカライズ可能に。またヘブライ暦、タイ暦、イラン暦をサポート。
+* パーサーの書き換え (meta:Migration to the new preprocessor参照)
+* 利用者権限関連のさまざまな変更。 $wgAddGroups および $wgRemoveGroups の振る舞いが変更され、$wgGroupsAddToSelf および $wgGroupsRemoveFromSelf が追加。
+* 未作成ページに対する直接保護機能の追加
+|-
+! style="background-color:#87CEEB;" | 1.13
+| 2008年2月よりアルファ版のテスト開始
+| [http://svn.wikimedia.org/viewvc/mediawiki/trunk/phase3/RELEASE-NOTES?view=markup リリースノート全文]<br/>多言語対応状況
+|
+* 隠しカテゴリ (<code><nowiki>__HIDDENCAT__</nowiki></code>) の導入。
+|}
+
+== 関連項目 ==
+* GetWiki - 派生したもの
+* ウィキツリー - 派生したもの
+
+== 外部リンク ==
+* '''MediaWikiメインページ（英語）'''
+* MediaWikiメインページ（日本語）
+* [http://sourceforge.net/projects/wikipedia/ MediaWiki on Sourceforge]
+* MediaWiki Download - MediaWiki をダウンロードできる
+* メディアウィキ - メタウィキメディア上のMediaWikiの解説
+* MediaWiki Handbook - MediaWikiのマニュアル（英語）
+* Sites using MediaWiki - MediaWikiを使用しているサイトの一覧（英語）
+
+Category:ウィキペディア
+Category:フリーソフトウェア
+Category:ウィキクローン
+
+als:MediaWiki
+
+{{Infobox Software
+| name                   = MediaWiki
+| logo                   = 100px|MediaWiki logo
+| screenshot             = 220px
+| collapsible            = yes
+| caption                = The Main Page of the English Wikipedia.
+| developer              = Wikimedia Foundation, Brion Vibber (release manager)
+| released               = 25 January 2002
+| frequently_updated     = yes<!-- Release version update? Don't edit this page, just click on the version number! -->
+| programming language   = PHP
+| operating system       = Cross-platform
+| platform               = 
+| language               = over 100 languages 
+| genre                  = Wiki
+| license                = GNU General Public License
+| website                = [http://www.mediawiki.org/ mediawiki.org] 
+}}
+'''MediaWiki''' is a web-based  author = "mutante"--></ref> Originally developed to serve the needs of the [[free content Wikipedia encyclopedia, today it has also been deployed by companies for internal knowledge management, and as a content management system. Notably, Novell uses it to operate several of its high traffic websites.<ref>e.g.: http://developer.novell.com/ ; http://en.opensuse.org/ ; http://www.ifolder.com/</ref>
+
+MediaWiki is written in the PHP programming language, and can use either the free and open source software.
+
+== History ==
+thumb|Brion Vibber in 2008
+The current software was originally written for Wikipedia by Lee Daniel Crocker, based on the user interface 
+design of Magnus Manske, a developer and student of the University of Cologne.  Wikipedia had originally used a small wiki engine called UseModWiki written in Perl.  Wikipedia was later switched to Manske's PHP-based software to offer more functionality.
+Increasing usage caused load problems, leading Crocker to re-write the software with a more scalable MySQL database backend.
+Later, Brion Vibber, the Chief Technical Officer of the Wikimedia Foundation<ref></ref> would take up the role of release manager and most active developer.<ref></ref><ref></ref>
+
+Since the release of the first version of Manske's script, the software had been given multiple nicknames representing the state of development&mdash;"the PHP script", "phase II", "phase III", "the new codebase"&mdash;but no product name. After the 2008. 
+
+The product logo was created by Erik Moeller using a flower photograph taken by Florence Nibart-Devouard, and was originally submitted to an international logo contest for a new Wikipedia logo held in summer 2003.<ref name="Logo contest"></ref> The logo came in third place, and was chosen to represent MediaWiki instead of Wikipedia, with the second place logo used for the Wikimedia Foundation and the first place logo for Wikipedia itself.<ref name="Meta logo history"></ref>
+The double square brackets around the photo of a syntax MediaWiki uses for creating hyperlinks to other wiki pages.
+
+<!-- the following table belongs to the section below, but to save some space, it is put here -->
+{| class="wikitable" style="float:right;"
+|-
+! Colour
+! Meaning
+|-
+| style="background-color:#fa8072;" | Red
+| Old release; not supported
+|-
+| style="background-color:#f0e68c;" | Yellow
+| Old release; still supported
+|-
+| style="background-color:#A0E75A;" | Green
+| Current release
+|-
+| style="background-color:#87CEEB;" | Blue
+| Future release
+|}
+=== Release history ===
+This table contains the release history of MediaWiki. The newest version of the software runs at the Test Wikipedia, hosted at http://test.wikipedia.org/ and presently running on version 1.13alpha.<ref>[http://test.wikipedia.org/wiki/Wikipedia:About Test Wikipedia's About page]</ref>
+<br clear="all" />
+{| class="wikitable"
+! Version number
+! Date
+! Links
+! Notable changes
+|- valign="top"
+! style="background-color:#fa8072;" | 1.1
+| December 8, 2003
+| [http://sourceforge.net/project/shownotes.php?release_id=202383&group_id=34373 Full release notes]
+|
+* New wiki table syntax.
+* User-editable interface messages through "MediaWiki namespace".
+* XML-wrapped page source export with optional history.
+* "Magic words"&nbsp;– special variables and parser instructions.
+|- valign="top"
+! style="background-color:#fa8072;" | 1.2
+| March 24, 2004
+| [http://sourceforge.net/project/shownotes.php?release_id=226003&group_id=34373 Full release notes]
+|
+* Experimental web-based installer.
+* Image resizing and thumbnail generation.
+* Editing toolbar for learning wiki syntax.
+* User rights management within the wiki.
+|- valign="top"
+! style="background-color:#fa8072;" | 1.3
+| August 11, 2004
+| [http://sourceforge.net/project/shownotes.php?release_id=259965&group_id=34373 Full release notes]
+|
+* New, highly CSS-based default look and feel ("MonoBook" skin) and better web standards compliance.
+* Parametrized templates.
+* Category feature.
+* Automatic merging of edit conflicts when possible.
+* Improved installation.
+|- valign="top"
+! style="background-color:#fa8072;" | 1.4
+| March 20, 2005
+| [http://sourceforge.net/project/shownotes.php?release_id=314389&group_id=34373 Full release notes], Language support
+|
+* User interface language can be changed by the user.
+* Significant performance improvements.
+* Support for compressing old revisions of articles to reduce storage needs.
+* Image gallery generation, list of recently uploaded images.
+* SVG rasterization support (requires external support tools).
+|- valign="top"
+! style="background-color:#f0e68c;" | 1.5<br /><span style="font-weight:normal;">(newest version supporting MySQL 3)</span>
+| October 5, 2005
+| [http://sourceforge.net/project/shownotes.php?release_id=361506&group_id=34373 Full release notes], Language support
+|
+* Major database redesign decoupling text storage from revision tracking, resulting in:
+** Significant performance boosts for some operations.
+** Permalink functionality for all revisions.
+** Support for storing bulk data outside the database.
+* Support for e-mail notification upon changes.
+* Page content must be encoded in UTF-8.
+|- valign="top"
+! style="background-color:#f0e68c;" | 1.6<br /><span style="font-weight:normal;">(newest version supporting PHP 4)</span>
+| April 5, 2006
+| [http://sourceforge.net/project/shownotes.php?release_id=407308&group_id=34373 Full release notes], Language support
+|
+* The account creation form has been separated from the user login form.
+* Page protection/unprotection uses a new, expanded form.
+* "Job queue" for background updates.
+* Improved tracking of template usage.
+* Tracking of external link usage for more systematic anti-spam measures.
+* Template parameters can have default values.
+|- valign="top"
+! style="background-color:#fa8072;" | 1.7
+| July 7, 2006
+| [http://svn.wikimedia.org/viewvc/mediawiki/tags/REL1_7_0/phase3/RELEASE-NOTES?view=markup Full release notes], Language support
+|
+* MediaWiki 1.7 requires PHP 5 (5.1 recommended). PHP 4 is no longer supported.
+* Deleted files can now be restored.
+|-
+! style="background-color:#fa8072;" | 1.8
+| October 10, 2006
+| [http://svn.wikimedia.org/viewvc/mediawiki/tags/REL1_8_0/phase3/RELEASE-NOTES?view=markup Full release notes], Language support
+|
+* Full support for PostgreSQL (8.1 or better) database backend
+* Support for DjVu thumbnailing and multipage navigation
+* Various improvements to user blocking; blocks can be placed only on unregistered users using a particular IP address
+* Uploading files from publicly accessible URLs is possible if enabled
+|-
+! style="background-color:#fa8072;" | 1.9
+| January 10, 2007
+| [http://svn.wikimedia.org/viewvc/mediawiki/tags/REL1_9_0/phase3/RELEASE-NOTES?view=markup Full release notes], Language support
+|
+* "Undo revision" feature
+* Various improvements to blocking and special page caching
+* Tables with sortable columns
+* Addition of an edit counter field to the user database
+* Revision size displayed on watchlists and recent changes
+* The names of Special: pages can now be localized, so links and URLs to them are more legible in languages that aren't English.
+|-
+! style="background-color:#fa8072;" | 1.10
+| May 9, 2007
+| [http://svn.wikimedia.org/viewvc/mediawiki/tags/REL1_10_0/phase3/RELEASE-NOTES?view=markup Full release notes], Language support
+|
+* "Cascading protection" feature
+* Improved tooltips and accesskey feature
+* Various improvements to blocking and special page caching
+* IPv6 support
+|-
+! style="background-color:#f0e68c;" | 1.11
+| September 10, 2007
+| [http://svn.wikimedia.org/viewvc/mediawiki/tags/REL1_11_0/phase3/RELEASE-NOTES?view=markup Full release notes], Language support
+|
+* $wgAddGroups and $wgRemoveGroups are added to allow finer control over usergroup assignment
+* AJAX-based page watching has been cleaned up and enabled by default
+|-
+! style="background-color:#A0E75A;" | 1.12
+| March 20, 2008
+| [http://svn.wikimedia.org/viewvc/mediawiki/tags/REL1_12_0/phase3/RELEASE-NOTES?view=markup Full release notes], Language support
+| 
+* Internationalization and localization has made a huge step forward; a lot more translations, new translations are now also committed to 1.12, Special:Version is localizable, support for Hebrew, Thai and Iranian calendar.
+* Parser preprocessor rewritten
+* Userrights interface improved and generalized
+|-
+! style="background-color:#87CEEB;" | 1.13
+| 1.13 started as of February 2008
+| [http://svn.wikimedia.org/viewvc/mediawiki/tags/REL1_13_0RC1/RELEASE-NOTES?view=markup Full release notes], Language support
+| 
+* New special pages: FileDuplicateSearch, ListGroupRights
+* Special:UserRights and Special:SpecialPages have been redesigned
+* Hidden category feature: <nowiki>__HIDDENCAT__</nowiki> on a category page will hide the category on the article page.
+* Friendlier behaviour for users who click a red link but can't edit
+* The search box in the MonoBook sidebar can be moved up by adding <code>* SEARCH</code> in MediaWiki:Sidebar
+* Double redirects created by a page move can be fixed automatically
+
+|-
+! style="background-color:#87CEEB;" | 1.14
+| 1.14 started as of July 2008
+| [http://svn.wikimedia.org/viewvc/mediawiki/trunk/phase3/RELEASE-NOTES?view=markup Full release notes], Language support
+| 
+(None yet)
+|}
+
+== Key features ==
+thumb|300px|Editing interface of MediaWiki 1.7, showing the edit toolbar and some examples of wiki syntax.
+
+MediaWiki provides a rich core feature set and a mechanism to attach extensions to provide additional functionality.
+
+Due to the strong emphasis on multilingualism in the Wikimedia projects, translation statistics and Multilingual MediaWiki), and can be further customized by site administrators (the entire interface is editable through the wiki).
+
+Because Wikipedia is one of the world's largest websites, achieving scalability through multiple layers of caching and database replication has also been a major concern for developers. Wikipedia and other Wikimedia projects continue to define a large part of the requirement set for MediaWiki.
+
+One of the earliest differences between MediaWiki (and its predecessor, UseModWiki) and other wiki engines was the use of "free links" instead of CamelCase. Where, in a typical wiki, text like "WorldWideWeb" would have to be typed to create a link to a page about the World Wide Web, links in MediaWiki are created by surrounding words with double square brackets, and any spaces between them are left intact, e.g. <nowiki>World Wide Web</nowiki>. This change was logical for the purpose of creating an encyclopedia, where accuracy in titles is very important.
+
+To make editing long pages such as comprehensive Wikipedia articles easier, MediaWiki allows the editing of a subsection of a page (as identified by its header). 
+
+=== Rich content ===
+thumb|300px|Images can be arranged in galleries, a feature that is used extensively for Wikimedia's media archive, [[Wikimedia Commons.]]
+
+MediaWiki supports rich content generated through specialized syntax. For example, the software comes with support for rendering mathematical formulas using LaTeX and a special parser written in OCaml. Similar functionality for other content, ranging from graphical timelines over mathematical plotting and musical scores to Egyptian hieroglyphs, is available in the form of extensions and also aesthetic sense has improved considerably.
+
+As the name ''MediaWiki'' suggests, the software has become ever more powerful at dealing with a wide variety of uploaded media files. Its richest functionality is in the area of images, where image galleries and thumbnails can be generated with relative ease if the software is set up correctly. There is also support for Exif metadata. The use of MediaWiki to operate the Wikimedia Commons, one of the largest free content media archives, has driven the need for further functionality in this area.
+
+MediaWiki currently provides no native WYSIWYG support, though it does come with a graphical toolbar for simplifying the process of learning the wiki syntax. It also has a simple interface to allow the transparent use of external editors for uploaded files and wiki pages.
+
+=== Organization ===
+
+MediaWiki provides many features beyond hyperlinks for structuring content. One of the earliest features is ''the 1984 movie starring Arnold Schwarzenegger, while a page "<nowiki>User:The Terminator</nowiki>" could be a profile describing a user who chooses this name as a pseudonym. More commonly, each page has an associated "Talk:" page which can be used to discuss its contents.
+
+Namespaces can be viewed as folders which separate different basic types of information or functionality. While new namespaces can be added, the number of namespaces in a wiki is typically relatively low.
+
+In addition to namespaces, pages can be structured using ''subpages''. This simple feature provides automatic backlinks from a page of the pattern <nowiki>Page title/Subpage title</nowiki> to the component before the slash (in this case, "Page title").
+
+MediaWiki supports user-created ''categories''. These are similar to tags used in many web applications, but hierarchical and descriptive. In large wikis like Wikipedia, very complex hierarchies have grown using this system without any central planning.<ref>Compare Erik Zachte's [http://stats.wikimedia.org/EN/CategoryOverviewIndex.htm category trees] generated from Wikipedia category information.</ref>
+
+=== Customization ===
+thumb|300px|Users can configure custom JavaScript that is executed on every pageview. This has led to JavaScript tools that users can "install", the "navigation popup" tool shown here displays a small preview of an article when hovering over a link title.  
+
+If the feature is enabled, users can customize their stylesheets and configure client-side wikEd'', a full-featured MediaWiki-integrated text editor that provides syntax highlighting and search and replace functions. <ref></ref>
+
+The entire MediaWiki user interface can be edited through the wiki itself by users with the necessary permissions (typically so-called "administrators"). This is done through a special namespace with the prefix "MediaWiki:", where each page title identifies a particular user interface message. The "MediaWiki:" namespace was also originally used for creating custom text blocks that could then be dynamically loaded into other pages using a special syntax. This content was later moved into its own namespace, "Template:".
+
+Templates are text blocks which can be dynamically loaded inside another page whenever that page is requested. 
+The template "tag" is simply a special link in double curly brackets (for example "<nowiki></nowiki>") which calls the template (in this case located at Template:Disputed) to load where the tag is.
+Templates support parameters, so that parts of the text can be substituted for each specific use case. 
+A related method, called template ''substitution'' (called by adding <code>subst:</code> at the beginning of a template tag) inserts 
+(like a server.
+
+Templates have found many different uses, such as:
+* Identifying problems with a Wikipedia article by putting a template in the article. This template will then output a graphical box stating that the article is disputed, and also categorize it so that articles of this nature can be located.
+* Creating complex table layouts which are used consistently across multiple pages, and where only the content of the tables gets inserted using template parameters.
+* Sending users standard messages when they are blocked from editing, when their behavior is considered inappropriate, and so on.
+
+thumb|300px|The [[Semantic MediaWiki extension]]

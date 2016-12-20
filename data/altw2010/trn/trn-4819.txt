@@ -1,0 +1,43 @@
+right|200 px|thumb|Un mouton pendule Charpy (le couteau est en position basse).
+L''''essai de flexion par choc sur éprouvette entaillée Charpy''' a pour but de mesurer la résistance d'un matériau à la rupture brutale. Il est fréquemment appelé ''essai de résilience Charpy'' ou même ''essai Charpy''. Il porte le nom de l'ingénieur français Georges Charpy (1865-1945) qui en fut un des principaux théoriciens et promoteurs. Il mit en particulier au point la machine qui permet de réaliser l'essai et qui est appelée ''Mouton Charpy''.
+
+== Histoire ==
+
+Le premier à avoir introduit la notion de mesure de la force résiduelle nécessaire pour obtenir la rupture d'un matériau est l'américain Russel en 1897 (publication à l'American Society of Civil Engineers). Il mit au point en 1896 une machine de rupture ancêtre du mouton pendule actuel. Cependant Russel ne considérait pas la présence de l'entaille sur l'éprouvette comme importante et effectuait la majeure partie de ses essais sans entaille.
+
+En 1897, le français Frémont présenta une machine, à l'occasion d'une publication au bulletin des ingénieurs civils. La force de rupture était mesurée à l'aide d'un ressort. 
+
+Georges Charpy en résilience. Il n'envisageait pas l'étude du type de rupture (ductilité, fragilité) ce qui est le cas aujourd'hui.
+
+== Principe de l'essai ==
+right|350px|thumb|Représenttaion du mouton-pendule et des hauteur à prendre en compte pour le calcul de l'énergie absorbée.
+right|250px|thumb|Gros plan sur le couteau et le porte éprouvette d'un mouton Charpy.
+Cet essai est destiné à mesurer l'énergie nécessaire pour rompre en une seule fois une éprouvette préalablement entaillée. On utilise un mouton-pendule muni à son extrémité d'un couteau qui permet de développer une énergie donnée au moment du choc. Cette énergie est classiquement, dans le cas de la norme européenne, de 300 joules.
+
+L'énergie absorbée est obtenue en comparant la différence d'énergie potentielle entre le départ du pendule et la fin de l'essai. La machine est munie d'index permettant de connaître la hauteur du pendule au départ ainsi que la position la plus haute que le pendule atteindra après la rupture de l'éprouvette.
+
+L'énergie obtenue (en négligeant les frottements) est égale à :
+
+:<math>K=m\cdot g\cdot h - m\cdot g\cdot h'</math>
+::*m : masse du mouton-pendule
+::*g : accélération de la pesanteur (environ 9.81 m.s<sup>-2</sup>)
+::*h : hauteur du mouton-pendule à sa position de départ
+::*h' : hauteur du mouton-pendule à sa position d'arrivée
+
+La graduation de la machine permet généralement d'obtenir directement une valeur en joule.
+
+The '''Charpy impact test''', also known as the '''Charpy v-notch test''', is a standardized high strain-rate test which determines the amount of energy absorbed by a material during fracture.  This absorbed energy is a measure of a given material's toughness and acts as a tool to study temperature-dependent brittle-ductile transition.   It is widely applied in industry, since it is easy to prepare and conduct and results can be obtained quickly and cheaply.  But a major disadvantage is that all results are only comparative.<ref name = Meyers> Meyers and Chawla. ''Mechanical Behaviors of Materials''. Prentice Hall, Inc. (Pearson Education). (1999). </ref> 
+
+The test was developed in 1905 by the French scientist Georges Charpy. It was pivotal in understanding the fracture problems of ships during the second World War.  Today it is used in many industries for testing building and construction materials used in the construction of pressure vessels, bridges and to see how storms will affect materials used in building.<ref name = Jacobs> Jacobs and Kilduff. ''Engineering Materials Technology''. Pearson Prentice Hall. 5th Ed. 153-155 (2005).</ref>
+
+==Definition==
+thumb|left|200px|A vintage impact test machine.
+
+The apparatus consists of a pendulum axe swinging at a notched sample of material.  The energy transferred to the material can be inferred by comparing the difference in the height of the hammer before and after a big fracture.
+
+The notch in the sample affects the results of the impact test,<ref name=notch> Kurishita, H et al. Effects of V-Notch Dimensions on Charpy Impact Test Results for Differently Sized Miniature Specimens of Ferritic Steel.  ''Materials Transactions, JIM (Japan)''. '''34''', No. 11, 1042–1052 (1993). </ref> thus it is necessary for the notch to be of a regular dimensions and geometry.  The size of the sample can also affect results, since the dimensions determine whether or not the material is in plane strain.  This difference can greatly affect conclusions made.<ref name=Mills>Mills, N. J. The mechanism of brittle fracture in notched impact tests on polycarbonate. ''J. of Mater. Sci.'', '''11''', No. 2, 363–375 (1976)</ref>
+
+The "Standard methods for Notched Bar Impact Testing of Metallic Materials" can be found in ASTM E23, where all the aspects of the test and equipment used are described in detail.
+
+==Quantitative results==
+The quantitative result of the impact test—the energy needed to fracture a material—can be used to measure the toughness of the material and the yield strength.  Also, the strain rate may be studied and analyzed for its effect on fracture. 

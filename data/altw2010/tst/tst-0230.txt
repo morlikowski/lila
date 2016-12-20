@@ -1,0 +1,55 @@
+{{Chembox new
+|   Name = Ácido oxaloacético
+|   ImageFile = Oxaloacetic acid.png
+|   ImageName = 
+|   IUPACName = Ácido 2-oxobutanodióico
+|   OtherNames = Ácido cetosuccínico
+| Section1 = {{Chembox Identifiers
+|   CASNo = 328-42-7
+|   EINECS = 206-329-8
+|   SMILES = OC(C(CC(O)=O)=O)=O
+  }}
+| Section2 = {{Chembox Properties
+|   Formula = C<sub>4</sub>H<sub>4</sub>O<sub>5</sub>
+|   MolarMass = 132.07 g/mol
+|   MeltingPt = 161 °C
+|   Density = ? g/cm<sup>3</sup>
+  }}
+}}
+O '''ácido oxaloacético''' é um base conjugada é chamada de '''oxaloacetato'''.
+
+O oxaloacetato é um composto intermediário no malato, catalisado pela enzima malato desidrogenase e reage com o acetil-CoA para formar citrato, catalisado, por sua vez, pela citrato sintase.
+
+O oxaloacetato também se forma no CO<sub>2</sub> com o piruvato via reação anaplerótica.
+
+A forma de pontos de fusão (152 °C ''cis'', 184 °C ''trans''). Sua fumarase A da ''E. coli'' catalisa a conversão da forma cetona para a forma enol do oxaloacetato.
+
+{{Chembox new
+|   Name = Oxaloacetic acid
+|   ImageFile = Oxaloacetic acid.png
+|   ImageName = 
+|   IUPACName = Oxobutanedioic acid
+|   OtherNames = Oxaloacetic acid<br />Oxalacetic acid<br />Oxosuccinic acid
+| Section1 = {{Chembox Identifiers
+|   CASNo = 328-42-7
+|   EINECS = 206-329-8
+|   SMILES = OC(C(CC(O)=O)=O)=O
+  }}
+| Section2 = {{Chembox Properties
+|   Formula = C<sub>4</sub>H<sub>4</sub>O<sub>5</sub>
+|   MolarMass = 132.07 g/mol
+|   MeltingPt = 161 °C
+|   Density = ? g/cm<sup>3</sup>
+  }}
+| Section4 = {{Chembox Thermochemistry
+|   DeltaHf = -943.21 kJ/mol
+|   DeltaHc = -1205.58 kJ/mol
+  }}
+}}
+'''Oxaloacetic acid''' is an malate, catalysed by CO<sub>2</sub> with PEP Carboxykinase.  It can arise from anaplerotic reaction.
+
+The pK<sub>a</sub> value of 13.02.  The ''E. coli'' catalyses the conversion between the keto and enol forms.
+
+Oxaloacetate is unstable in solution, decomposing to pyruvate by decarboxylation over a period of hours (room temperature) or days (0 °C). Refrigerated storage of the solid is therefore recommended.
+
+thumb|150px|left|Relationship of oxaloacetic acid, malic acid, and aspartic acid

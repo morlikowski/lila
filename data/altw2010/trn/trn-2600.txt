@@ -1,0 +1,111 @@
+The '''Uniform Commercial Code''' ('''UCC''' or the Code) is one of a number of uniform acts that have been promulgated in conjunction with efforts to harmonize the law of states within the United States of America.  This objective is deemed important because of the prevalence today of commercial transactions that extend beyond one state (for example, where the goods are manufactured in state A, warehoused in state B, sold from state C and delivered in state D).  The UCC deals primarily with transactions involving personal property (movable property), not real property (immovable property).
+
+__TOC__
+
+The UCC is the longest and most elaborate of the uniform acts.  It has been a long-term, joint project of the National Conference of Commissioners on Uniform State Laws (NCCUSL) and the American Law Institute (ALI).<ref name=ALI>http://www.ali.org/doc/past_present_ALIprojects.pdf p.2</ref>  Judge Herbert F. Goodrich was the Chairman of the Editorial Board of the original 1952 edition,<ref>http://www.ali.org/index.cfm?fuseaction=publications.fpage&node_id=86&product_code=1UCCOTC07</ref> and the Code itself was drafted by some of the top legal scholars in the United States, including Karl N. Llewellyn, Soia Mentschikoff, and Grant Gilmore.  The Code, as the product of private organizations, is not itself the law, but only recommendation of the laws that should be adopted in the states.  Once enacted in a state by the state's legislature, it becomes true law and is codified into the state’s code of statutes.  When the Code is adopted by a state, it may be adopted verbatim as written by ALI and NCCUSL, or may be adopted with specific changes deemed necessary by the state legislature.  Unless such changes are minor, they can affect the purpose of the Code in promoting uniformity of law among the various states.
+
+The ALI and NCCUSL have also established a permanent editorial board for the Code.  This board has issued a number of official comments and other published papers concerning the Code.  Although these commentaries do not have the force of law, courts interpreting the Code often cite them as persuasive authority in determining the effect of one or more provisions.  Courts interpreting the Code generally seek to harmonize their interpretations with those of other states that have adopted the same or a similar provision, except where specific aspects of the Code were changed by that state when adopting it, or where other aspects of state law require a different decision.
+
+The Code, in one or another of its several revisions, has been enacted in all of the 50 states, as well as in the civil law tradition for governing the sale of goods.
+
+Louisiana jurisprudence refers to the sections of the UCC as “chapters” instead of articles, since the term “articles” is used to refer to provisions of the state’s Civil Code.  However, the use of different terms for UCC articles is not unique to Louisiana; neighboring Arkansas also refers to UCC articles as “chapters”, the term for equivalent subdivisions in its code of statutes.  (“Article” in that state's law generally refers to a subdivision of the Arkansas Constitution.)
+
+== UCC Articles ==
+The 1952 Uniform Commercial Code was released after ten years of development, and revisions were made to the Code from 1952 to 1999.<ref name=ALI />
+The Uniform Commercial Code deals with the following subjects under consecutively numbered Articles:
+
+{| class="wikitable" style="left; text-align:center; margin:1em 0 1em 1em"
+|-
+! '''ART.'''
+| '''TITLE'''
+| '''CONTENTS'''
+|-
+|-
+! 1
+| '''General Provisions'''
+| Definitions, rules of interpretation
+|-
+! 2
+| '''Sales'''
+| goods
+|-
+! 2A
+| '''Leases'''
+| goods
+|-
+! 3
+| '''Negotiable Instruments'''
+| drafts (commercial paper)
+|-
+! 4
+| '''Bank Deposits'''
+| Banks and banking, check collection process
+|-
+! 4A
+| '''Funds Transfers'''
+| Transfers of money between banks
+|-
+! 5
+| '''Letters of Credit'''
+| Transactions involving letters of credit
+|-
+! 6
+| '''Bulk Transfers and Bulk Sales'''
+| Auctions and liquidations of assets
+|-
+! 7
+| '''Bills of Lading and Other Documents of Title'''
+| Storage and goods
+|-
+! 8
+| '''Investment Securities'''
+| Securities and financial assets 
+|-
+! 9
+| '''Secured Transactions'''
+| Transactions secured by security interests
+|-
+
+|}
+
+In 2003, a major revision of Article 2 modernizing many aspects (as well as changes to Article 2A and Article 7) was proposed by the NCCUSL and the ALI.  Although being considered, there are no states that have yet adopted the revised version of Article 2.
+
+In 1989, the National Conference of Commissioners on Uniform State Laws recommended that Article 6 of the UCC, dealing with bulk sales, be repealed as obsolete.  It remains in force in several jurisdictions.
+
+A major revision of Article 9, dealing primarily with transactions in which personal property is used as security for a loan or extension of credit, was enacted in many states with an effective date of July 1, 2001.<ref>http://www.ffiec.gov/pdf/pr022801_statement.pdf</ref>
+
+The controversy surrounding with what is now termed the uniform law that is a joint project of NCCUSL and the ALI, both associations must agree to any revision of the UCC (i.e., the model act; revisions to the law of a particular state only require enactment in that state).  The proposed final draft of Article 2B met with controversy within the ALI, and as a consequence the ALI did not grant its assent.  The NCCUSL responded by renaming Article 2B and promulgating it as the UCITA.  As of October 12, 2004, only Maryland and Virginia have adopted UCITA.
+
+The overriding philosophy of the Uniform Commercial Code is to allow people to make the contracts they want, but to fill in any missing provisions where the agreements they make are silent.  The law also seeks to impose uniformity and streamlining of routine transactions like the processing of checks, notes, and other routine commercial paper.  The law frequently distinguishes between merchants, who customarily deal in a commodity and are presumed to know well the business they are in, and consumers, who are not.
+
+The UCC also seeks to discourage the use of legal formalities in making business contracts, in order to allow business to move forward without the intervention of lawyers or the preparation of elaborate documents.  This last point is perhaps the most questionable part of its underlying philosophy; many in the legal profession have argued that legal formalities discourage litigation by requiring some kind of ritual that provides a clear dividing line that tells people when they have made a final deal over which they could be sued.
+
+== Article 2 ==
+
+=== Contract formation ===
+* Firm offers -- valid without consideration and irrevocable for time stated, or up to 3 months.  Must be signed (company letterhead will do)
+
+* Offer to buy goods for “prompt shipment” invites acceptance by either prompt shipment or a prompt promise to ship.  Therefore, this offer is not strictly unilateral.  However, this “acceptance by performance” does not even have to be by conforming goods [2-206(1)]
+
+* Consideration -- modifications without consideration may be acceptable in a 	contract for the sale of goods. [2-209(1)]
+
+* Failure to state price -- In a contract for the sale of goods, the failure to state a 	price will NOT prevent the formation of a contract if the parties original intent was to form a contract.  A reasonable price will be determined by the court.  [2-305]
+
+* Assignments -- a requirements contract CAN be assigned IF the quantity required by the assignee is not unreasonably disproportionate to original quantity [2-306]
+=== Contract repudiation and breach ===
+
+* Nonconforming goods -- if sent with a note of accommodation, it is construed as a counteroffer, and if accepted, forms a new contract and binds buyer at previous contract price.  If seller refuses to conform and buyer does not accept, the buyer can sell the goods at public or private auction and credit the proceeds to amount owed.  
+
+* The buyer however does have a right of “perfect tender” and can accept all, reject all, or accept conforming goods and reject the rest, within a reasonable time after delivery but before acceptance, he must notify the seller of the rejection.  If the buyer does not give a specific reason (defect), he cannot rely on the reason later, in legal proceedings.  (akin to the cure before cover rationale).  Also, the contract is not breached per se if the seller delivered the non-conforming goods, however offensive, before the date of performance has hit.
+
+* “Reasonable Time/Good Faith” standard -- required from a party to a contract indefinite as to time, or made indefinite by waiver of original provisions.
+
+* Requirements/Output contracts -- the UCC provides protection against disproportionate demands, but must meet the “good faith” requirement.
+
+Der '''Uniform Commercial Code (UCC)''' (deutsch etwa: ''Einheitliches Handelsgesetzbuch'') ist ein für das ganze Gebiet der Vereinigten Staaten von Amerika geltendes, vereinheitliches Handelsrecht.
+
+Mit der Ausarbeitung wurde Anfang der 1940er Jahre durch das American Law Institute, der National Conference of Commissioners on Uniform State Law sowie einigen Anwälten und Professoren begonnen. Ziel war es, durch diese Privatinitiative einen Musterentwurf für die USA zu schaffen, den die einzelnen Bundesstaaten in ihr Handelsrecht übernehmen sollten. Der erste Entwurf wurde 1950 vorgelegt und schließlich 1952 vom American Law Institute verabschiedet. Auf Grund einiger kritischer Stimmen wurde der UCC 1958 erstmals überarbeitet. Weitere Revisionen, bei denen Teile überarbeitet und neu einfügt wurden, fanden 1972 und letztlich 2003 statt.
+
+Der UCC besteht aus 13 "Articles" , welche sich in einzelne Unterabschnitte ("Parts") untergliedern. Die Übernahme durch die Bundesstaaten konnte nur freiwillig erfolgen, da eine Gesetzgebungskompetenz des Bundes nicht besteht. Da der UCC nicht durch den amerikanischen Bundesgesetzgeber erlassen wurde ist der UCC folglich auch nicht ''Federal Law'' (Bundesrecht). Die Staaten waren daher auch frei darin, Modifikationen vorzunehmen oder Teile gar nicht zu übernehmen. 
+
+Fast alle Bundesstaaten haben diesen Entwurf mittlerweile weitgehend unverändert übernommenen, einzig Louisiana hat größere Teile nicht in Kraft gesetzt. Jeder einzelne Bundesstaat besitzt also weiterhin ein eigenes Handelsrecht. Da dieses jedoch auf dem UCC beruht, sind die Unterschiede zumeist nur gering. Folglich hat der UCC immerhin zu einer erheblichen Vereinfachung des US-Handelsrechts geführt. Das American Law Institute beobachtet ständig neue Entwicklungen im Handelsrecht und schlägt bei Bedarf Änderungen vor.

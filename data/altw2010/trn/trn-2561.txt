@@ -1,0 +1,160 @@
+En différences entre les termes consécutifs.
+
+Cette transformation est en rapport avec la fonction génératrice usuelle. Un cas particulier de la transformation d'Euler est parfois utilisé pour accélérer la convergence de séries alternées (voir l'accélération des séries). Un autre cas particulier apparaît dans une application aux séries hypergéométriques.
+
+==Définition==
+
+La transformation binomiale, <math>T</math>, d'une suite, <math>(a_n)</math>, est la suite <math>(s_n)</math> définie par
+:<math>s_n = \sum_{k=0}^n (-1)^k {n\choose k} a_k</math>
+Formellement, nous pouvons écrire <math>(Ta)_n = s_n</math> pour représenter la transformation, où <math>T</math> est un opérateur en dimension infinie dont la matrice a pour coefficients <math>T_{nk}</math> vérifiant:
+
+:<math>s_n = (Ta)_n = \sum_{k=0}^\infty T_{nk} a_k</math>
+
+Cette transformation est une involution, c'est-à-dire
+
+:<math>T\circ T = {\rm Id} \,</math>
+
+ou, en utilisant des notations indicielles:
+
+:<math>\sum_{k=0}^\infty T_{nk}T_{km} = \delta_{nm}</math>
+
+où <math>\delta</math> est le symbole de Kronecker. La suite de départ peut ainsi  être retrouvée par 
+
+:<math>a_n=\sum_{k=0}^n (-1)^k {n\choose k} s_k</math>
+
+La transformation binomiale d'une suite est justement la <math>n</math>ème différence de la suite, et ainsi
+
+:<math>s_0 = a_0</math>
+:<math>s_1 = - (\triangle a)_0 = -a_1+a_0</math>
+:<math>s_2 = (\triangle^2 a)_0 = -(-a_2+a_1)+(-a_1+a_0) = a_2-2a_1+a_0</math>
+:. . . 
+:<math>s_n = (-1)^n (\triangle^n a)_0</math>
+
+où Δ est l'opérateur de différence.
+
+Certains auteurs définissent la transformation binomiale avec un signe additionnel, qui empêche la transformation d'être involutive:
+
+:<math>t_n=\sum_{k=0}^n (-1)^{n-k} {n\choose k} a_k</math>
+
+dont la transformation réciproque est 
+
+:<math>a_n=\sum_{k=0}^n {n\choose k} t_k</math>
+
+==Décalages==
+La transformation binomiale correspond à l'nombres de Bell. c'est-à-dire:
+
+:<math>B_{n+1}=\sum_{k=0}^n {n\choose k} B_k</math>
+
+où les <math>B_n</math> représentent les nombres de Bell.
+
+==Fonctions génératrices ordinaires==
+La transformation relie les fonctions génératrices associées à des séries.
+
+Pour des fonctions génératrices ordinaires 
+
+:<math>f(x)=\sum_{n=0}^\infty a_n x^n</math>
+
+et 
+
+:<math>g(x)=\sum_{n=0}^\infty s_n x^n</math>
+
+on a
+
+:<math>g(x) = (Tf)(x) = \frac{1}{1-x} f\left(\frac{-x}{1-x}\right)</math>
+
+==Transformation d'Euler==
+
+La transformation correspondante reliant les fonctions génératrices ordinaires est  appelée ''transformation d'Euler''. Elle apparaît couramment sous une ou deux formes, l'une étant utilisée pour l'accélération de la convergence des séries alternées.
+
+Cette forme intervient avec la relation:
+
+:<math>\sum_{n=0}^\infty (-1)^n a_n = \sum_{n=0}^\infty (-1)^n 
+\frac {\Delta^n a_0} {2^{n+1}}</math>
+
+obtenue en remplacent <math>x=1/2</math> dans la relation précédente. Les termes dans le membre de droite deviennent généralement petit, beaucoup plus vite, permettant ainsi un calcul numérique rapide de la somme.
+
+La transformation d'Euler est aussi fréquemment appliquée aux séries hypergéométriques <math>\,_2F_1</math>.
+Dans ce cas, la transformation d'Euler prend la forme de:
+
+In combinatorial mathematics the '''binomial transform''' is a sequence transformation (ie, a transform of a sequence) that computes its forward differences. It is closely related to the '''Euler transform''', which is the result of applying the binomial transform to the sequence associated with its ordinary generating function.
+
+==Definition==
+The '''binomial transform''', ''T'', of a sequence, <math>\{a_n\}</math>, is the sequence <math>\{s_n\}</math> defined by 
+
+:<math>s_n = \sum_{k=0}^n (-1)^k {n\choose k} a_k.</math>
+
+Formally, one may write <math>(Ta)_n = s_n</math> for the transformation, where ''T'' is an infinite-dimensional operator with matrix elements <math>T_{nk}</math>:
+
+:<math>s_n = (Ta)_n = \sum_{k=0}^\infty T_{nk} a_k.</math>
+
+The transform is an involution, that is,
+
+:<math>TT = 1 \,</math>
+
+or, using index notation,
+
+:<math>\sum_{k=0}^\infty T_{nk}T_{km} = \delta_{nm}</math>
+
+where δ is the Kronecker delta function. The original series can be regained by
+
+:<math>a_n=\sum_{k=0}^n (-1)^k {n\choose k} s_k.</math>
+
+The binomial transform of a sequence is just the ''n''th forward difference of the sequence, namely
+
+:<math>s_0 = a_0</math>
+:<math>s_1 = - (\triangle a)_0 = -a_1+a_0</math>
+:<math>s_2 = (\triangle^2 a)_0 = -(-a_2+a_1)+(-a_1+a_0) = a_2-2a_1+a_0</math>
+:<math>\dots\,</math> 
+:<math>s_n = (-1)^n (\triangle^n a)_0</math>
+
+where Δ is the forward difference operator.
+
+Some authors define the binomial transform with an extra sign, so that it is not self-inverse:
+
+:<math>t_n=\sum_{k=0}^n (-1)^{n-k} {n\choose k} a_k</math>
+
+whose inverse is 
+
+:<math>a_n=\sum_{k=0}^n {n\choose k} t_k.</math>
+
+==Shift states==
+The binomial transform is the shift operator for the Bell numbers. That is,
+
+:<math>B_{n+1}=\sum_{k=0}^n {n\choose k} B_k</math>
+
+where the <math>B_n</math> are the Bell numbers.
+
+==Ordinary generating function==
+The transform connects the generating functions associated with the series.  For the ordinary generating function, let 
+
+:<math>f(x)=\sum_{n=0}^\infty a_n x^n</math>
+
+and 
+
+:<math>g(x)=\sum_{n=0}^\infty s_n x^n</math>
+
+then 
+
+:<math>g(x) = (Tf)(x) = \frac{1}{1-x} f\left(\frac{-x}{1-x}\right).</math>
+
+==Euler transform==
+The relationship between the ordinary generating functions is sometimes called the '''Euler transform'''. It commonly makes its appearance in one of two different ways. In one form, it is used to accelerate the convergence of an alternating series.  That is, one has the identity
+
+:<math>\sum_{n=0}^\infty (-1)^n a_n = \sum_{n=0}^\infty (-1)^n 
+\frac {\Delta^n a_0} {2^{n+1}}</math>
+
+which is obtained by substituting ''x''=1/2 into the above. The terms on the right hand side typically become much smaller, much more rapidly, thus allowing rapid numerical summation.
+
+The Euler transform is also frequently applied to the hypergeometric series <math>\,_2F_1</math>.  Here, the Euler transform takes the form:  
+
+:<math>\,_2F_1 (a,b;c;z) = (1-z)^{-b} \,_2F_1 \left(c-a, b; c;\frac{z}{z-1}\right)</math>
+
+The binomial transform, and its variation as the Euler transform, is notable for its connection to the continued fraction representation of a number. Let <math>0 < x < 1</math> have the continued fraction representation 
+
+:<math>x=[0;a_1, a_2, a_3,\cdots]</math>
+
+then
+
+:<math>\frac{x}{1-x}=[0;a_1-1, a_2, a_3,\cdots]</math>
+
+and

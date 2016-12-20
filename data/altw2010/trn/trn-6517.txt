@@ -1,0 +1,13 @@
+frame|Dieses Beispiel eines natürlich vorkommenden Pseudoknotens ist in der RNA-Komponente der menschlichen [[Telomerase zu finden. Sequenz aus <ref name="Chen">Chen JL, Greiger CW. (2005). Functional analysis of the pseudoknot structure in human telomerase RNA. ''Proc Natl Acad Sci USA'' 102(23):8080-5</ref>.]]
+
+Ein '''Pseudoknoten''' ist eine Haarnadelstrukturen besteht, bei der die Schleife des ersten Stems einen Teil des zweiten bildet. Pseudoknoten wurden das erste Mal Plos 3(6). '''2005''' [http://biology.plosjournals.org/perlserv/?request=get-document&doi=10.1371/journal.pbio.0030213 Online Article] topologische Knoten darstellen.
+
+== Vorhersage und Erkennung ==
+Die Basenpaarungen in Pseudoknoten sind nicht korrekt geschachtelt, da es passiert, dass Basenpaarungen auftreten, deren Positionen in der Sequenz sich "überlappen". Dadurch wird die Vorhersage von Pseudoknoten in RNA Sequenzen durch die Standardmethoden der dynamischen Programmierung, die sich auf einen rekursiven Bewertungssystem aufbauen, um gepaarte Stems zu erkennen, und folglich keine ungeschachtelten Basenpaarungen erkennen können, oder auch durch die neuen Methoden der stochastischen kontextfreien Grammatiken unmöglich. Populäre Vorhersagemethoden für Sekundärstrukturen wie [http://bioweb.pasteur.fr/seqanal/interfaces/mfold-simple.html Mfold] und [http://www.daimi.au.dk/~compbio/rnafold/ Pfold] sagen keine Pseudoknoten-Strukturen in einer Prüfsequenz vorher, sondern erkennen lediglich den stabileren der beiden Pseudoknoten-Stems.
+
+frame|This example of a naturally occurring pseudoknot is found in the RNA component of human [[telomerase. Sequence from.<ref name="Chen">Chen JL, Greiger CW. (2005). "Functional analysis of the pseudoknot structure in human telomerase RNA". ''Proc Natl Acad Sci USA'' '''102'''(23): 8080–5.</ref>]]
+
+A '''pseudoknot''' is an RNA tertiary structure containing two topological knots. 
+
+== Prediction and identification ==
+The predict by the standard method of dynamic programming, which uses a recursive scoring system to identify paired stems and consequently cannot detect non-nested base pairs under most circumstances, or by the newer method of stochastic context-free grammars. Thus popular secondary structure prediction methods like [http://bioweb.pasteur.fr/seqanal/interfaces/mfold-simple.html Mfold] and [http://www.daimi.au.dk/~compbio/rnafold/ Pfold] will not predict pseudoknot structures present in a query sequence; they will only identify the more stable of the two pseudoknot stems.

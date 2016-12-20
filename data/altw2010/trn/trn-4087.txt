@@ -1,0 +1,125 @@
+<!-- Il testo commentato è SOLO UN ESEMPIO -->
+{{Comune
+|nomeComune = Beura-Cardezza
+|linkStemma = Beura-Cardezza-Stemma.png
+|siglaRegione = PMN
+|siglaProvincia = VB
+|latitudineGradi = 46
+|latitudineMinuti = 5
+|latitudineSecondi = 0
+|longitudineGradi = 8
+|longitudineMinuti = 18
+|longitudineSecondi = 0
+|mappaX = 45
+|mappaY = 37
+|altitudine =  257
+|superficie = 28
+|abitanti = 1.372
+|anno =  2001
+|densita = 49
+|frazioni =  <!-- elenco delle frazioni, separate da virgola e spazio - senza ritorni a capo -->
+|comuniLimitrofi = Domodossola, Pallanzeno, Premosello-Chiovenda, Trontano, Villadossola, Vogogna
+|cap = 28040
+|prefisso = 0324
+|istat = 103011
+|fiscale = A834
+|nomeAbitanti =  beuresi
+|patrono =  San Giorgio
+|festivo =  23 aprile
+|sito =  http://www.comune.beuracardezza.vb.it/
+}} <!-- fine della tabella - per la compilazione vedi -> Aiuto:Comune -->
+'''Beura-Cardezza''' (in piemontese ''Bèura e Cardëssa'') è un comune di 1.371 abitanti della provincia del Verbano Cusio Ossola.
+Parte del suo territorio è compresa nel Parco Nazionale della Val Grande.
+
+==Amministrazione comunale==
+{{ComuniAmministrazione
+|NomeSindaco=Aldo Stefano Brocca
+|DataElezione=14/06/2004
+|partito=lista civica
+|TelefonoComune=0324 36101 
+|EmailComune=municipio@comune.beuracardezza.vb.it 
+}}
+
+==Evoluzione demografica==
+
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = Beura-Cardezza |
+  name = Beura-Cardezza |
+  region = Piedmont |
+  province = Province of Verbano-Cusio-Ossola (VB) |
+  elevation_m =  |
+  area_total_km2   = 28.9 |
+  population_as_of  = Dec. 2004 |
+  population_total = 1354 |
+  population_density_km2 = 47 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          =  |
+  telephone         = 0324 |
+  postalcode        = 28040 |
+  gentilic          =  |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           =  |
+  mapy = 8.3000 |
+  mapx = 46.0833 |
+}}
+'''Beura-Cardezza''' is a ''Italian region Piedmont, located about 120 km northeast of Turin and about 25 km northwest of Verbania. As of 31 December 2004, it had a population of 1,354 and an area of 28.9 km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+Beura-Cardezza borders the following municipalities: Domodossola, Pallanzeno, Premosello-Chiovenda, Trontano, Villadossola, Vogogna.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:2000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:1000 start:0
+ScaleMinor = gridcolor:lightgrey increment:200 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:1683
+  bar:1871 from: 0 till:1605
+  bar:1881 from: 0 till:1733
+  bar:1901 from: 0 till:1570
+  bar:1911 from: 0 till:1756
+  bar:1921 from: 0 till:1798
+  bar:1931 from: 0 till:1593
+  bar:1936 from: 0 till:1572
+  bar:1951 from: 0 till:1782
+  bar:1961 from: 0 till:1694
+  bar:1971 from: 0 till:1477
+  bar:1981 from: 0 till:1417
+  bar:1991 from: 0 till:1351
+  bar:2001 from: 0 till:1372
+
+PlotData=

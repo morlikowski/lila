@@ -1,0 +1,65 @@
+thumb|Vätska i roterande behållare
+'''Centrifugalkraft''' (från latinets ''centrum'' och ''fugere'' (undflyende)) är en term vilken kan referera till två olika krafter vilka är relaterade till rotation. Båda är riktade ifrån rotationscentrum men de objekt vilka de verkar på är olika.
+
+* En reell eller "reaktiv" centrifugalkraft uppträder som en reaktion på en centripetal acceleration som verkar på en massa. Denna centrifugala kraft är till storleken lika med den centripetala kraften men riktad från rotationscentrum och verkar på det objekt vilket orsakar den centripetala accelerationen. Trots att centripetalkraften i denna betydelse användes av Isaac Newton används termen sällan i moderna diskussioner.
+
+* En pseudo eller "fiktiv" centrifugalkraft uppträder när en roterande referensram används for analys. Accelerationen (den sanna) av referensramen ersätts med en (fiktiv) centrifugalkraft som påverkar alla objekt och är riktad från rotationscentrum. 
+
+Båda typerna av krafter kan åskådliggöras med en passagerare som färdas i en bil. Om bilen färdas genom en kurva förefaller passageraren röra sig mot bilens yttre sida och sedan tryckas mot dörren. I en referensram som roterar med samma hastighet som bilen i sin kurva (en modell som faller sig naturlig för den som färdas med bilen) förefaller det som om en kraft trycker passageraren bort från rotationscentrum. Detta är en fiktiv kraft, inte en kraft som utövas av något annat objekt. Illusionen uppkommer när bilen är referensram genom att denna ignorerar bilens acceleration (som härrör från bilens riktningsändring). 
+
+Emellertid, den kraft med vilken passageraren pressas mot dörren är verklig. Denna kraft kallas reaktiv kraft därför att den beror på en "passiv" växelverkan med bilen (som accelererar och därigenom utövar en kraft, är "aktiv") och då denna kraft är riktad från rotationscentrum är den en centrifugalkraft. Observera att denna kraft inte uppkommer förrän passgeraren får kontakt med dörren. Bilen utövar en motriktad centripetal kraft riktad mot rotationscentrum vars storlek är den samma som den centrifugala kraftens storlek.
+
+==Reaktiv centrifugalkraft==
+thumb|right|300 px|Centrifugalacceleration i vektorform
+
+Sedda från ett inertialsystem är tillämpningarna av Newtons rörelselagar enkla. Passagerarens tröghetskraft motstår accelerationen, och får passageraren att röra sig med konstant hastighet och riktning när bilen börjar att svänga. Från denna synpunkt rör sig inte passageraren mot banans "utsida" vilken bilen följer; istället kröker sig bilens bana och möter passageraren.
+
+När bilen får kontakt med passageraren påverkar bilen denne med en sidledes verkande kraft och accelererar passageraren i takt med bilens acceleration. Denna kraft kallas centripetal ("centrumsökande") kraft då dess associerade riktningsvektor ändrar riktning för att svara mot en annan punkt i den cirkulära banan.
+
+Om bilen verkar med en kraft på passageraren så måste passageraren verka på bilen med en lika stor men motriktad kraft. Då den är motriktad är denna reaktiva kraft riktad bort från centrum. Det är viktigt att notera att denna centrifugala kraft ''verkar på bilen'', inte på passageraren.
+
+Den ''centrifugala reaktionskraft'' med vilken passageraren trycker mot dörren ges av
+:{|
+|-
+|<math>\mathbf{F}_\mathrm{centrifugal} \,</math>
+|<math>= - m \mathbf{a}_\mathrm{centripetal} \,</math>
+|-
+|
+|<math>= m \omega^2 \mathbf{r}_\perp \,</math>
+|}
+
+där <math>m\,</math> är massan av det roterande objektet.
+
+==Fiktiv centrifugalkraft==
+Inom den klassiska fysiken används intertialsystem som referens för mekanikens lagar och vid analys. Vid användande av ett roterande referenssystem överförs fysikens lagar från det mest bekväma inertialsystemet till det roterande referenssystemet. Med antagande av en konstant rotationshastighet åstadkoms detta genom att två ''koordinataccelerationer'' adderas vilka korrigerar för koordinataxlarnas rotation:
+:{|
+|-
+|<math>\mathbf{a}_\mathrm{rot}\,</math>
+|<math>=\mathbf{a} - 2\mathbf{\omega \times v} - \mathbf{\omega \times (\omega \times r)} \,</math>
+|-
+|
+|<math>=\mathbf{a + a_\mathrm{Coriolis} + a_\mathrm{centrifugal}} \,</math>
+|}
+
+där <math>\mathbf{a}_\mathrm{rot}\,</math> är accelerationen relativt det roterande referenssytemet, <math>\mathbf{a}\,</math> är accelerationen relativt inertialsystemet, <math>\mathbf{\omega}\,</math> är vinkelhastighetens vektor vilken beskriver referenssystemets rotation, <math>\mathbf{v}\,</math> är objektets hastighet relativt det roterande referenssystemet, och <math>\mathbf{r}\,</math> är en vektor från en godtycklig punkt på rotationsaxeln till objektet.
+
+Den sista termen är den centrifugala accelerationen och vi har:
+
+:<math> \mathbf{a}_\textrm{centrifugal} = - \mathbf{\omega \times (\omega \times r)} = \omega^2 \mathbf{r}_\perp </math>
+
+'''Siła odśrodkowa''' – w fizyce, jedna z sił bezwładności występująca w obracających się układach odniesienia. Układy takie zalicza się do układów nieinercjalnych.
+
+Siła odśrodkowa wyrażona jest wzorem:
+:<math> {\vec \mathbf F} = \frac{m v^2} {r^2} {\vec \mathbf r} = {m \omega^2} {\vec \mathbf r}</math>
+
+Wartość siły określają wzory 
+:<math> F = \frac{m v^2} r  =  {m \omega^2} r </math>
+Gdzie:
+* <math>m\,</math> to masa,
+* <math>v\,</math> – składowa prędkości prostopadła do promienia krzywizny toru ruchu, 
+* <math> \omega = v / r\,</math> – chwilowa prędkość kątowa,
+* <math>\vec \mathbf r</math> (wektor promienia) jest wektorem o początku w chwilowym środku obrotu układu (środku krzywizny toru ruchu) i końcu w miejscu analizowanego ciała.
+
+Przykładem jest siła, którą odczuwamy siedząc w skręcającym samochodzie (względem samochodu jesteśmy w spoczynku, jednak skręcający samochód jest nieinercjalnym układem odniesienia). Siła ta działa w kierunku "na zewnątrz" łuku, po którym porusza się wybrany układ odniesienia, czyli np. na huśtawce jako dodatkowy ciężar, a podczas skrętu samochodem na poziomej (nieprofilowanej) drodze w lewo, siłę tę odczuwamy jak dodatkową składową siły ciążenia ciągnącą nas w prawo. Właśnie ze względu na siłę odśrodkową zakręty na drogach, przeznaczone do pokonywania ze znaczną prędkością, profiluje się podnosząc ich zewnętrzną krawędź, podobne projektuje się także np. trasy saneczkarskie. Dzięki takiemu zabiegowi, w układzie związanym z samochodem wypadkowa siły ciążenia i siły odśrodkowej ma mniejszą składową równoległą do płaszczyzny jezdni, zmniejszając ryzyko poślizgu i "wypadnięcia" z zakrętu. 
+
+Jeżeli to samo zagadnienie jest rozpatrywane w inercjalnym układzie odniesienia, to siła odśrodkowa nie występuje, ale wówczas ciało to porusza się po okręgu i by pozostało w ruchu po okręgu musi na nie działać siła o wartości równej sile dośrodkowej. W przypadku samochodu pokonującego zakręt na nieprofilowanej drodze siłę dośrodkową musi zapewnić poprzeczna do kierunku jazdy siła tarcia opon o nawierzchnię. Gdy będzie ona zbyt mała (np. na mokrej lub oblodzonej drodze), dojdzie do poślizgu i samochód zacznie poruszać się po łuku o promieniu większym niż promień zakrętu, lub wręcz po prostej.

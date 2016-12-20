@@ -1,0 +1,26 @@
+'''デューティ比'''（-ひ）とは、周期的な現象において、"ある期間" に占める "その期間で現象が継続される期間" の割合である。電気通信や電子工学で使われる。
+thumb|350px|デューティ比 D は、方形波のパルス幅 (<math>\tau</math>) と周期 (T) で定義される。
+
+:デューティ比 <math> D = \frac{\tau}{T} \ </math>
+ここで
+:<math>\tau</math> は、関数がゼロでない期間。
+:<math>\Tau</math> は、関数の周期。
+
+例えば、理想的なパルス列（方形波のパルス）では、パルス幅をパルス周期で割ったものがデューティ比である。パルス幅が1μsでパルス周期が4μsの場合、デューティ比は0.25である。矩形波ではデューティ比は0.5または50%である。
+
+別の例としては、電気モーターのような電気機器において、オーバーヒートなどの問題を起こさずに機能する期間のことを言うこともある。
+
+In telecommunications and electronics, the term '''''duty cycle''''' is used to describe the fraction of time that a system is in an "active" state.  In particular, it is used in the following contexts: 
+
+thumb|350px|The duty cycle D is defined as the ratio between the pulse duration (<math>\tau</math>) and the period (T) of a rectangular waveform
+
+Duty cycle is the proportion of time during which a component, device, or system is operated. Suppose a disk drive operates for 1 second, and is shut off for 99 seconds, then is run for 1 second again, and so on. The drive runs for one out of 100 seconds, or 1/100 of the time, and its duty cycle is therefore 1/100, or 1 percent. 
+
+In a periodic phenomenon, the ratio of the duration of the phenomenon in a given period to the period. 
+
+:duty cycle <math> D = \frac{\tau}{T} \ </math>
+where
+:<math>\tau</math> is the duration that the function is non-zero;
+:<math>\Tau</math> is the period of the function.
+
+For example, in an ideal pulse train (one having rectangular pulses), the duty cycle is the pulse duration divided by the pulse period. For a pulse train in which the pulse duration is 1 μs and the pulse period is 4 μs, the duty cycle is 0.25. The  duty cycle of a square wave is 0.5, or 50%.

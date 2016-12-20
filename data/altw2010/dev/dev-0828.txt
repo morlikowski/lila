@@ -1,0 +1,230 @@
+thumb|200px|Wtyczka wielomodowego światłowodu w standardzie ST
+'''Złącza światłowodowe''' – złączki do wielokrotnego łączenia światłowodów. Typowa złączka łączy jedno lub dwa włókna światłowodowe. Podstawową cechą złączki jest możliwość wielokrotnego łączenia i rozłączania światłowodów za pomocą gniazd i wtyków (w odróżnieniu od połączeń spawanych). Najpopularniejsze złącza to (w kolejności historycznej) '''ST''' (z kołnierzem bagnetowym) '''FC''' (z korpusem gwintowanym) i '''SC''' (o przekroju prostokątnym).
+
+== Opis procesu wykonania złączki światłowodowej ==
+=== Narzędzia używane przy zarabianiu wtyczek do światłowodu ===
+ 
+# Kabel światłowodowy, który można ułożyć pod ziemią w kanałach telekomunikacyjnych służących do łączenia budynków (rys. 1)
+# Nożyk używany do obcinania zewnętrznych izolacji (rys. 2)
+# Nożyk do "zdrapywania" ostatniej warstwy izolacji różnej grubości chroniącej włókno światłowodowe (rys. 3, rys. 4)
+# Nożyk do obcinania nadmiaru światłowodu który wystaje z wtyczki (rys. 5, rys. 6)
+# Zaciskarka służąca do ostatecznego umocowania światłowodu we wtyczce (rys. 7)
+# Papier ścierny o dwóch stopniach szorstkości formatu A4
+#*Jeden arkusz papieru ściernego o lekko wyczuwalnej szorstkości (600)
+#*Drugi arkusz papieru ściernego o niewyczuwalnej szorstkości służąca do ostatecznego wyszlifowania powierzchni światłowodu (1000)
+# Mikroskop służący do wizualnej oceny poprawności zarobienia wtyczek światłowodu (rys. 8)
+# Tester – elektroniczne urządzenie wyglądem przypominające rozbudowany kalkulator, którym można mierzyć długość światłowodu, tłumienie i inne parametry
+<gallery>
+Grafika:wyglad swiatlowodu z zewnatrz.jpg|Rys. 1. Kabel światłowodowy z zewnątrz 
+Grafika:nozyk.jpg|Rys. 2. Nożyk do obcinania izolacji
+Grafika:uniwersalny nozyk do zdzierania izoloacji.jpg|Rys. 3. Uniwersalny nożyk do zdrapywania ostatniej warstwy światłowodu (dowolnej grubości)
+Grafika:nozyk do zdzierania grubej izoloacji.jpg|Rys. 4. Nożyk do zdrapywania ostatniej warstwy światłowodu (duża grubość)
+Grafika:nozyk do obcinania nadmiaru swiatlowodu1.jpg|Rys. 5. Nożyk do obcinania nadmiaru światłowodu
+Grafika:nozyk do obcinania nadmiaru swiatlowodu2.jpg|Rys. 6. Nożyk do obcinania nadmiaru światłowodu
+Grafika:zaciskarka do swiatlowodu.jpg|Rys. 7. Zaciskarka do światłowodu
+Grafika:mikroskop do swiatlowodu.jpg|Rys. 8. Mikroskop
+</gallery>
+
+=== Elementy składowe złączki światłowodowej ===
+Elementy ułożone są w kolejności, w jakiej są wykorzystane przy montażu złączki.
+# Zatyczka na nieużywaną wtyczkę do światłowodu (rys. 9).
+# Wtyczka do światłowodu (rys. 10).
+# Tulejka, która zaciska się na światłowodzie i trzyma go nieruchomo we wtyczce (rys. 11).
+# Rurka z tworzywa sztucznego do której wkłada się włókno światłowodowe. Rurka ta umieszczona jest w tulejce. Nie używa się tej rurki, jeśli włókno światłowodowe pokryte jest grubą warstwą ochronną (rys. 12).
+# Metalowa osłonka chroniąca światłowód przed uszkodzeniami mechanicznymi. Nie używa się jeśli włókno światłowodowe pokryte jest cienką warstwą ochronną (rys. 13) i osłona z tworzywa sztucznego ma mały rozmiar (rys. 14).
+# Osłonka mała z tworzywa sztucznego chroniąca przed warunkami zewnętrznymi. Używane gdy włókno światłowodowe jest pokryte cienką warstwą ochronną (rys. 14).
+# Osłonka duża z tworzywa sztucznego, chroniąca przed warunkami zewnętrznymi. Używane, gdy włókno światłowodowe jest pokryte grubą warstwą ochronną (rys. 15).
+<gallery>
+Grafika:zatyczka do wtyczki swiatlowodu.jpg|Rys. 9. Zatyczka do wtyczki światłowodu
+Grafika:wtyczka do swiatlowodu.jpg|Rys. 10. Wtyczka do światłowodu
+Grafika:tulejka do swiatlowodu.jpg|Rys. 11. Tulejka do wtyczki światłowodowej
+Grafika:rurka do swiatlowodu (wewnątrz tulejki).jpg|Rys. 12. Rurka z tworzywa sztucznego do umieszczenia wewnątrz tulejki
+Grafika:metalowa oslonka.jpg|Rys. 13. Metalowa osłonka
+Grafika:oslonka tworzywo sztuczne mala.jpg|Rys. 14. Osłonka mała z tworzywa sztucznego
+Grafika:oslonka tworzywo sztuczne duza.jpg|Rys. 15. Osłonka duża z tworzywa sztucznego
+</gallery>
+
+=== Kolejne etapy wykonania złącza światłowodowego ===
+Wykonując złącze światłowodowe należy:
+# Naciąć delikatnie zewnętrzną warstwę ochronną światłowodu (rys. 16).
+# Zgiąć delikatnie światłowód w miejscu nacięcia do momentu przerwania tej warstwy
+# Po oddzieleniu się naciętej warstwy ściągnąć ją (rys. 17)
+# Obciąć warstwę "nitek" (rys. 18)
+# Obciąć kolejną warstwę (rys. 19) uważając, aby nie naciąć światłowodów,
+# Rozdzielamy wszystkie pojedyncze światłowody i wycieramy z nich pozostały żel przy użyciu suchej szmatki lub szmatki z dodatkiem alkoholu,
+# Wybrać jeden światłowód i "zeskrobać" z niego ostatnią warstwę (rys. 20) przy użyciu uniwersalnego nożyka (rys. 3) lub przy pomocy nożyka używanego do "zeskrobywania" grubej warstwy światłowodu (rys. 4). Nożyk (rys. 3) należy ustawić pod pewnym kątem w stosunku do światłowodu i zedrzeć ostatnią warstwę jednym ciągłym ruchem. Nożyk nie powinien być ustawiany pod kątem 90° w stosunku do światłowodu gdyż może to doprowadzić do obcięcia światłowodu.
+# Do wtyczki (rys. 10) włożyć tulejkę (rys. 11),
+# Do tulejki (rys. 11) należy włożyć rurkę z tworzywa sztucznego (rys 12),
+# Do tak przygotowanej wtyczki należy włożyć włókno światłowodowe (rys. 21) od strony rurki z tworzywa sztucznego. Włókno światłowodowe należy wsuwać delikatnie do momentu wyczucia oporu. Nie należy wsuwać włókna na siłę, gdyż można doprowadzić do złamania go, co będzie widoczne przy użyciu mikroskopu. Włókno światłowodowe powinno wyjść z drugiej strony na odległość ok. 0,5 cm (dokładna długość zależy od długości zdrapanej osłony z punktu 5g).
+# Tak przygotowaną wtyczkę ze światłowodem należy zacisnąć przy użyciu zaciskarki (rys 7).
+# Wystający światłowód należy obciąć przy użyciu nożyka (rys 5, 6), naciskając przycisk na górze narzędzia. Naciskając przycisk na jednym końcu, malutki nożyk na drugim końcu obcina wystające włókno światłowodowe na odległość ok. 1-2 mm.
+# Tak obcięty światłowód należy wyszlifować, używając dwóch grubości papieru ściernego. Na pierwszym papierze należy usunąć wystające jeszcze resztki światłowodu, wykonując ruchy w kształcie ósemki. Na drugim papierze należy doszlifować światłowód, aby pozbyć się wszelkich zadrapań, wykonując ruchy w kształcie ósemki. 
+# Po wyszlifowaniu należy sprawdzić przy użyciu mikroskopu (rys. 27), czy światłowód nie uległ uszkodzeniu podczas montażu. Test należy przeprowadzić, wkładając końcówkę wtyczki do mikroskopu i przez wizjer obejrzeć przekrój światłowodu. W celu lepszej jakości obrazu można włączyć żarówkę i przekręcić ją w stronę światłowodu. Mikroskop wyposażony jest w pokrętło do regulacji ostrości oraz pokrętło do zmiany powiększenia oglądanego obrazu.
+<gallery>
+Grafika:sciaganie zewnetrznej warstwy izolacji.jpg|Rys. 16. Ściąganie zewnętrznej warstwy światłowodu
+Grafika:swiatlowod bez zewnetrznej warstwy.jpg|Rys. 17. Światłowód bez zewnętrznej warstwy światłowodu
+Grafika:obcieta warstwa nitek.jpg|Rys. 18. Światłowód z obciętą warstwą nitek 
+Grafika:widok pojedynczych swiatlowodow.jpg|Rys. 19. Obcięta warstwa chroniąca pojedyncze światłowody 
+Grafika:zdzieranie ostatniej warstwy.jpg|Rys. 20. Zdrapywanie ostatniej warstwy ochronnej 
+Grafika:obdarty swiatlowod.jpg|Rys. 21. Przygotowany do montażu światłowód 
+Grafika:wtyczka tulejka.jpg|Rys. 22
+Grafika:wtyczka tulejka rurka.jpg|Rys. 23
+Grafika:zaciskanie swiatlowodu zaciskarka.jpg||Rys. 24. Zaciskanie światłowodu zaciskarką
+Grafika:obciecie nadmiaru swiatlowodu.jpg|tRys. 25. Obcięcie nadmiaru światłowodu
+Grafika:szlifowanie swiatlowodu.jpg|Rys. 26. Szlifowanie światłowodu
+Grafika:sprawdzanie mikroskopem.jpg|Rys. 27. Sprawdzanie poprawnego zarobienia wtyczki przy użyciu mikroskopu
+</gallery>
+
+== Uszkodzenia złączy światłowodowych ==
+Podczas montażu światłowodu może dojść do wielu uszkodzeń spowodowanych złą jakością materiałów, z których wykonany był światłowód, a także nieostrożnym obchodzeniem się ze światłowodem lub narzędziami służącymi do montażu tego światłowodu. Idealny wygląd światłowodu, jaki powinien być widoczny przy użyciu mikroskopu, przedstawiony jest na rys. 28.
+
+{|border=0 align=center
+!
+center|thumb|150px|Właściwy wygląd światłowodu
+|-
+|Rys. 28 - światłowód beż uszkodzeń
+|}
+
+Środkowa część rysunku 28 przedstawia, jak powinien wyglądać poprawnie zarobiony światłowód, bez żadnych uszkodzeń i zarysowań. Część uszkodzeń można poprawić poprzez powtórne szlifowanie na drugim rodzaju papieru (niewyczuwalna szorstkość). Do takich uszkodzeń można zaliczyć: pozostałości po kleju (jedna z metod montażu światłowodu przy użyciu kleju), drobne zarysowania, drobne nadłamania przy zewnętrznej krawędzi światłowodu, zabrudzenia. Część z tych uszkodzeń pokazana jest na rysunku 29.
+
+thumb|right|Duplex LC connector 
+thumb|right|Duplex MT-RJ connector
+thumb|right|SC connectors 
+thumb|right|ST connector 
+thumb|right|TOSLINK connector
+An '''optical fiber connector''' terminates the end of an splicing.  The connectors mechanically couple and align the cores of fibers so that light can pass. A variety of optical fiber connectors are available. The main differences among types of connectors are dimensions and methods of mechanical coupling.  Generally, organizations will standardize on one kind of connector, depending on what equipment they commonly use, or per type of fiber (one for multimode, one for singlemode).
+
+==Types==
+{| class="wikitable"
+|+ Common fiber connectors
+! Short name
+! Long form
+! Coupling type
+! Typical applications
+|-
+| ESCON
+| Enterprise Systems Connection
+| Duplex Snap
+| Wall outlets
+|-
+| FC
+| Ferrule Connector
+| Screw
+| Datacom, telecom, Single mode lasers (becoming less common)
+|-
+| FDDI
+| Fiber Distributed Data Interface
+| Duplex Snap
+| Wall outlets
+|-
+| LC
+| Lucent Connector / Local Connector
+| Snap
+| High-density connections, SFP transceivers
+|-
+| MT
+| Mechanical Transfer
+| 12-plex Snap
+| Preterminated cable assemblies
+|-
+| MT-RJ
+| Mechanical Transfer Registered Jack
+| Duplex Snap
+| Duplex multimode connections
+|-
+| MU
+| 
+| Snap
+| Miniature connector common in Japan
+|-
+| SC
+| Subscriber Connector / Standard Connector / Siemon Connector
+| Snap
+| Datacom
+|-
+| ST / BFOC
+| Straight Tip / Bayonet Fiber Optic Connector
+| Bayonet
+| Multimode networks
+|-
+| TOSLINK
+| Toshiba Link
+| Snap
+| Digital audio
+|}
+
+{| class="wikitable"
+|+ Less common fiber connectors
+! Short name
+! Long form
+! Coupling type
+! Typical applications
+|-
+| Biconic
+| 
+| Screw
+| Obsolete
+|-
+| D4
+| 
+| Screw
+| Telecomm, obsolete
+|-
+| E-2000
+| 
+| Snap
+|
+|-
+| F-3000
+| 
+| Snap
+|
+|-
+| MIC
+| Media Interface Connector
+| 
+|
+|-
+| MPO
+| Multi-Fibre Push On
+| Snap
+|
+|-
+| MTP
+| 
+| Snap
+|
+|-
+| Opti-Jack
+| 
+| Duplex Snap
+|
+|-
+| SMA
+| Sub Miniature A
+| Screw
+| Industrial (Lasers)
+|-
+| SMC
+| Sub Miniature C
+| Snap
+|
+|}
+
+If the fiber-end is angled to reduce back reflections this is usually described by adding "APC" (Angled Physical Contact) to the name.
+
+=== Mnemonics ===
+* LC connectors are sometimes called "Little Connectors".
+* MT-RJ connectors look like a miniature 8P8C connector — commonly (but erroneously) referred to as RJ-45.
+* ST connectors have a mnemonic of "Stab and Twist", referring to how it is inserted (the cable is pushed into the receiver, and the outer barrel is twisted to lock it into place).  Also they are known as "Square Top" due to the flat end face.
+* SC connectors have a mnemonic of "Square Connector", and some people believe that to be the correct name.  This refers to the fact the connectors themselves are square. Another term often used for SC connectors is "Stick and Click".
+* FCA are referred to as "Fiber Connector Angled".
+
+== Analysis ==
+* FC connectors' floating ferrule provides good mechanical isolation. FC connectors need to be mated more carefully than the push-pull types due to the need to align the key, and due to the risk of scratching the fiber endface while inserting the ferrule into the jack. FC connectors have been replaced in many applications by SC and LC connectors.<ref></ref>  
+*There are two common types of FC connectors, FCA and FCU.  FCAs, unlike their FCU counterparts, have an angled end face which reduces the amount of light reflected back to the transmitter by bending the wave at the connectors.  Similar to shining a flashlight directly at a mirror as opposed to angling it down.  FCAs are distinguished with a green boot for strain relief.  FCUs look identical but have a flat top.
+* SC connectors offer excellent packing density, and their push-pull design reduces the chance of fiber endface contact damage during connection.
+* LC connectors are replacing SC connectors in corporate networking environments due to their smaller size; they are often found on small form-factor pluggable transceivers.
+* ST connectors have a key which prevents rotation of the ceramic ferrule, and a bayonet lock similar to a BNC shell.
+* In general the dB and the return loss should be higher than 20 dB.  Typical insertion repeatability, the difference in insertion loss between one plugging and another, is 0.2 dB.
+* On all connectors, cleaning the ceramic ferrule before each connection helps prevent scratches and extends the connector life substantially.

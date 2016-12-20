@@ -1,0 +1,65 @@
+In horoscopic entities such as planets or angles. The distance between two of the points is added to the position of the third (very often the ascendant) to derive the location of the lot.
+
+==History==
+The lots are a very ancient astrological technique which can be traced back to pre-Persian or Hermetic, but by the time of Dorotheus of Sidon in the first century A.D. (and probably earlier) they had become an established tenet of Hellenistic astrological practice.
+
+One of the best informational sources for the lots is the ''Introduction'' to astrology by fourth-century astrologer Paulus Alexandrinus and the ''Commentary'' on this work by sixth-century philosopher Olympiodorus the Younger. Paulus used a dozen or so major lots for almost every aspect of his analysis. The most important of these were the Lot of Fortune (or Part of Fortune) and its complement, the Lot of Spirit.
+
+After the fall of the Greek and produced many of their own astrologers who wrote a considerable amount in Arabic on astrology. Although it is not clear whether the number of lots began to proliferate in Abu Ma'Shar (787-886) describes no less than 55 lots, although it's clear that these are only the ones he considers significant. This count does not even include all of the lots of Paulus.
+
+Beginning in the tenth century, many Arab manuscripts were translated into Medieval astrologers, most notably the major 13th-century Italian, Dante, assumed it was the Arabs who originated the concept of the lots, and hence they came eventually to be called the "Arabic parts".
+
+By the time of horary practice.
+
+==Calculating the Lot of Fortune==
+Lilly's Moon - Sun. That is, the degrees of distance (going in the direction of the signs) between the Sun and the Moon is calculated and then that same distance is measured from the point of the ascendant.
+
+The same procedure was used by the Arabs and by Hellenistic astrologers to calculate the Lot of Fortune but there were two major differences:
+
+* The location of the lot varied considerably in charts where the Sun was above the horizon (that is, a daytime chart, or one of diurnal sect) or below the horizon (a nighttime chart, or one of nocturnal sect). The day charts follow Lilly's procedure; nighttime charts reverse the direction in which the measurement is taken between the Sun and Moon, so that the astrologer measures ''from'' the Moon ''to'' the Sun (again, going in the direction of the signs) to get this arc. As with day charts, the arc is then measured from the ascendant to get the lot. The two formulas are, therefore:
+
+Jako '''Arabské body''', někdy též '''citlivé body''' (řecky ''kléroi''), jsou v astrologii označovány spekulativní body v horoskopu vypočítávané pomocí jednoduchých rovnic z ekliptikálních délek jiných prvků horoskopu (planety, ascendent, hroty domů apod.). Nejznámějším citlivým bodem je '''Bod štěstí''' (latinsky ''Pars Fortunae'', řecky ''kléros tychés''), považovaný středověkou astrologií při dobrém umístění v horoskopu za znamení materiálního bohatství a úspěchu.
+
+== Historie ==
+Tradice počítání citlivých bodů horoskopu vznikla již v době helénských astrologů, zaznamenány jsou z té doby v dílech Dorothea Sidónského či Vettia Valense,  jejich soupis pak podal evropské astrologické tradice se ovšem tato astrologická metoda dostala až ve arabských astrologů. V arabském světě jejich systém ve svém díle ''Kitáb al-mudchal al-kabir ila 'ilm ahkam an-nujúm'' (848), ve 12. století přeloženém do latiny jako ''Introductorium in Astronmiam'', rozebral nejvýznamnější arabský astrolog Albumasar.
+
+== Výpočet arabských bodů ==
+Následující tabulky podávají stručný nekompletní přehled nejdůležitějších arabských bodů, jak je zaznamenal v roce 1029 arabský astrolog '''Muhammad Abú ar Rajhán al-Birúní''', známý pod latinizovaným jménem Aliboron.<ref>Al-Biruni: The Book of Instruction in the Elements of the Art of Astrology  (anglicky, R. Ramsay Wright, 1934)</ref> Jeho práce byla ve 12. století také přeložena do latiny a rozšířila se po celé Evropě. V pozdější tradici postupně přidávali další astrologové výpočty dalších citlivých bodů horoskopu, případně upravovali vlastní interpretaci původních arabských bodů. S různými systémy výpočtu horoskopických bodů se lze setkat v astrologické literatuře dodnes, někdy i doplněné o výpočty s novověkými transsaturnskými planetami.
+
+Výpočty některých citlivých bodů se upravují podle toho, zda se vypočítávají pro horoskop denní události (denní zrození), či noční události (noční zrození). Denní a noční zrození v horoskopu určuje pozice Slunce a osy ''ascendent-descendent''.
+
+=== Planetární arabské body ===
+{| class="wikitable"
+|-
+! 
+! denní zrození
+! noční zrození
+|-
+|  Štěstí (''Pars Fortunae'',''Bod štěstí'')
+|  Asc + Luna - Slunce
+|  <sup>N</sup> Asc + Slunce - Luna
+|-
+|  ďábel a náboženství (''Duch'') 
+|  Asc + Slunce - Luna
+|  <sup>N</sup> Asc + Luna - Slunce
+|-
+|  přátelství a láska 
+|  Asc + Duch - Štěstí
+|  <sup>N</sup> Asc + Štěstí - Duch
+|-
+|  zoufalství, chudoba, lest
+|  Asc + Štěstí - Duch
+|  <sup>N</sup> Asc + Duch - Štěstí
+|-
+|  zajetí, vězení 
+|  Asc + Štěstí - Saturn
+|  <sup>N</sup> Asc + Saturn - Štěstí
+|-
+|  vítězství, triumf a pomoc
+|  Asc + Jupiter - Duch
+|  <sup>N</sup> Asc + Duch - Jupiter
+|-
+|  odvaha a hrdinství 
+|  Asc + Štěstí - Mars
+|  <sup>N</sup> Asc + Mars - Štěstí
+|}

@@ -1,0 +1,167 @@
+{{Galaxia|
+nom=Galàxia del Triangle|
+imatge=300px|
+messier=M33|
+ngc=598|
+const=Triangle|
+ar=01h 33,9m|
+dec=+30° 39'|
+magn_ap=5,7|
+dimensions=73' &times; 45'|
+tipus=Sc|
+dist_al=2,4|
+dist_pc=0,73|
+diametre=~50.000|
+massa=~30·10<sup>9</sup>|
+}}
+
+La '''galàxia del Triangle''' ('''M33''', '''NGC 598''') és una Triangle. És una de les galàxies principals del Grup Local, juntament amb la Via Làctia i la galàxia d'Andròmeda (M31), on forma un petit nucli amb la galàxia LGS 3 com a satèl·lit.
+
+Aquesta galàxia fou descoberta probablement per Giovanni Batista Hodierna abans de 1654, segurament ajuntant-la amb el cúmul obert  nebuloses espirals" per Lord Rosse i, posteriorment, fou una d eles primeres "nebuloses" en ser identificades com galàxies exteriors a la Via Làctia.
+
+El 2005 Andreas Brunthaler presentà un treball de recerca on es mostrava el màser). Aquest resulta ser d'aproximadament 190 km/s en la direcció de la galàxia d'Andròmeda i es tracta de la primera mesura del moviment propi d'una galàxia.
+
+===Observació===
+
+{{Galaxybox begin
+| name = Triangulum Galaxy<ref name="karachentsevetal2004">{{cite journal
+  | author=I. D. Karachentsev, V. E. Karachentseva, W. K. Hutchmeier, D. I. Makarov
+  | title=A Catalog of Neighboring Galaxies
+  | journal=Astronomical Journal
+  | year=2004
+  | volume=127
+  | pages=2031–2068
+  | url=http://adsabs.harvard.edu/abs/2004AJ....127.2031K
+  | doi=10.1086/382905
+}}</ref><ref name="Karachentsevetal2006">{{cite journal
+  | author=Karachentsev, I. D.; Kashibadze, O. G.
+  | title=Masses of the local group and of the M81 group estimated from distortions in the local velocity field
+  | journal=Astrophysics
+  | year=2006
+  | volume=49
+  | issue=1
+  | pages=3–18
+  | url=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2006Ap.....49....3K 
+  | doi=10.1007/s10511-006-0002-6
+}}</ref><ref name="Bonanosetal2006">{{cite journal
+ | author=Bonanos, A. Z.; Stanek, K. Z.; Kudritzki, R. P.; Macri, L.; Sasselov, D. D.; Kaluzny, J.; Bersier, D.; Bresolin, F.; Matheson, T.; Mochejska, B. J.; Przybilla, N.; Szentgyorgyi, A. H.; Tonry, J.; Torres, G.
+ | year=2006
+ | title=The First DIRECT Distance to a Detached Eclipsing Binary in M33
+ | journal=Astrophysics and Space Science
+ | volume=Online First
+ | pages=207
+ | url=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?doi=10.1007%2Fs10509-006-9112-1
+ | doi=10.1007/s10509-006-9112-1 }}</ref><ref name="averageCalc">average(850 ± 40, 940 ± 70) = ((850 + 940) / 2) ± ((40² + 70²)<sup>0.5</sup> / 2) = 895 ± 40</ref>
+}}
+{{Galaxybox image
+| image = 300px
+| caption = Amateur photograph of the Triangulum Galaxy
+}}
+{{Galaxybox observe
+| epoch = J2000
+| constell = Triangulum
+| ra = <ref name="ned">{{cite web
+  | title=NASA/IPAC Extragalactic Database
+  | work=Results for NGC 598
+  | url=http://nedwww.ipac.caltech.edu/
+  | accessdate=2006-12-01 }}</ref>
+| dec = <ref name="ned" />
+| appdim_v = 70.8 × 41.7 moa<ref name="ned" />
+| appmag_v = 6.27
+}}
+{{Galaxybox character
+| g_type = SA(s)cd<ref name="ned" />
+}}
+{{Galaxybox astrometry
+ | h_radial_v = -179
+ | hrv_err = 3<ref name="ned" />
+ | z = -0.000597
+ | z_err = 0.000010<ref name="ned" />
+ | gal_v = -44
+ | gv_err = 6<ref name="ned" />
+ | g_dist = 2.92
+ | dist_err = 0.13
+}}
+{{Galaxybox catalog
+| names = NGC 0598<ref name="ned" />, MCG +05-04-069<ref name="ned" />, 1ES 0131+303<ref name="ned" />, RX J0133.8+3039<ref name="ned" />, PGC 005818<ref name="ned" />
+}}
+{{Galaxybox reference
+| Simbad = M33 Search M33
+}}
+ 
+
+The '''Triangulum Galaxy''' (also known as '''Messier 33''' or '''NGC 598''') is a spiral galaxy approximately 3 million light-years away in the constellation Triangulum. The galaxy is also sometimes informally referred to as the '''Pinwheel Galaxy''' by some amateur astronomy references<ref name="omeara1998">{{cite book 
+  | author=S. J. O'Meara
+  | year=1998
+  | title=The Messier Objects
+  | publisher=Cambridge University
+  | location=Cambridge
+  | id=ISBN 0-521-55332-6}}</ref>
+and in some public outreach websites.<ref name="spaceref.com">{{cite web
+  | title=NASA Spitzer Telescope Reveals Pinwheel Galaxy's Hidden Wonders
+  | url=http://www.spaceref.com/news/viewpr.html?pid=14321
+  | accessdate=2007-04-07}}</ref> 
+However, the SIMBAD Astronomical Database, a professional astronomy database that contains formal designations for astronomical objects, indicates that the name "Pinwheel Galaxy" is used to refer to Messier 101,<ref name="simbadm101">{{cite web
+  | title=SIMBAD Astronomical Database
+  | url=http://simbad.u-strasbg.fr/simbad/
+  | work=Results for Messier 101.
+  | accessdate=2007-04-07}}</ref> 
+and several other amateur astronomy resources and other public outreach websites also identify Messier 101 by that name.<ref name="seds">{{cite web
+  | title=Messier Object 101
+  | url=http://www.seds.org/messier/m/m101.html
+  | accessdate=2007-04-07}}</ref><ref name="hubble/esa">{{cite web
+  | title=Best of AOP: M101: Pinwheel Galaxy
+  | url=http://simbad.u-strasbg.fr/simbad/
+  | accessdate=2007-04-07}}</ref> 
+
+It is the third largest galaxy in the Local Group, a group of galaxies that also contains the Milky Way Galaxy and the Andromeda Galaxy, and it may be a gravitationally bound companion of the Andromeda Galaxy.  The Pisces Dwarf (LGS 3), one of the small Local Group member galaxies, is possibly a satellite of Triangulum. 
+
+==General information==
+
+The Triangulum Galaxy can be seen with the naked eye under exceptionally good conditions. While the fainter and more distant galaxy Messier 81 has also been seen with the naked eye by very experienced observers, M33 is often considered the most distant object that can be seen without aid.<ref name="omeara1998">{{cite book 
+  | author=S. J. O'Meara
+  | year=1998
+  | title=The Messier Objects
+  | publisher=Cambridge University Press
+  | location=Cambridge
+  | id=ISBN 0-521-53332-6}}</ref> However, though some amateur astronomers may confuse the object with the nearby NGC 752, it is not likely to be noticed as an object unless one already knows of its existence.
+
+The Triangulum Galaxy was probably discovered by spectrum similar to the Orion Nebula.  Herschel also noted 3 other smaller H II regions (NGC 588, 592 and 595).
+
+In 2005, using observations of two water masers on opposite sides of Triangulum via the km/s relative to the Milky Way is computed which means Triangulum is moving towards Andromeda.<ref>{{cite journal
+ | author=Brunthaler, Andreas; Reid, Mark J.; Falcke, Heino; Greenhill, Lincoln J.; Henkel, Christian
+ | year=2005
+ | title=The Geometric Distance and Proper Motion of the Triangulum Galaxy (M33)
+ | journal=Science
+ | volume=307
+ | issue=5714
+ | pages=1440–1443
+ | url=http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2005Sci...307.1440B 
+ | doi=10.1126/science.1108342
+ | pmid=15746420
+}}</ref>
+
+In 2007, a black hole about 15.7 times the mass of the Sun was detected in the galaxy using data from the Chandra X-ray Observatory.  The black hole, named M33 X-7, orbits a companion star which it eclipses every 3.5 days.<ref>Morcone, Jennifer, [http://chandra.harvard.edu/press/07_releases/press_101707.html Heaviest Stellar Black Hole Discovered in Nearby Galaxy], Chandra X-ray Observatory press release, 2007-10-17</ref>
+
+The galaxy has an H II nucleus.<ref name="hoetal1997">{{citation
+ | last1 = Ho
+ | first1 = Luis C.
+ | last2 = Filippenko
+ | first2 = Alexei V.
+ | last3 = Sargent
+ | first3 = Wallace L. W.
+ | title = A Search for "Dwarf" Seyfert Nuclei. III. Spectroscopic Parameters and Properties of the Host Galaxies
+ | year = 1997
+ | date = October 1997
+ | periodical = Astrophysical Journal Supplement
+ | volume = 112
+ | pages = 315–390
+ | url = http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1997ApJS..112..315H
+ | doi = 10.1086/313041
+ | author = Ho, Luis C.
+ | journal = The Astrophysical Journal Supplement Series
+}}</ref>
+
+==Distance==
+
+At least two techniques have been used to measure distances to M 33.  Using the Mly (850 ± 40 kpc) was achieved in 2004.<ref name="karachentsevetal2004" /><ref name="Karachentsevetal2006" />

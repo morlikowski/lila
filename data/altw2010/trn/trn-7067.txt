@@ -1,0 +1,55 @@
+'''Common Query Language''' o '''contextual query language''' (CQL) è un motori di ricerca, sistemi di catalogazione e collezioni digitali di cataloghi bibliografici e musei. È basato sulla semantica del protocollo di interrogazione linguaggi di interrogazione più complessi. È stato sviluppato ed è manutenuto dalla Z39.50 Maintenance Agency, parte della Library of Congress.
+
+== Esempi di query ==
+
+Query semplici:
+
+<blockquote><tt>dinosauro<br/>
+"dinosauro completo"<br/>
+title = "complete dinosauro"<br/>
+title exact "il dinosauro completo"</tt></blockquote>
+
+query attraverso operatori booleani:
+
+<blockquote><tt>dinosauro or uccello<br/>
+dinosauro and "eta glaciazione"<br/>
+dinosauro not rettile<br/>
+dinosauro and uccello or pterodattilo<br/>
+(uccello or dinosauro) and (piume or scale)<br/>
+"dinosauro piumato" and (yixian or jehol)</tt></blockquote>
+
+Query attraverso indici :
+
+<blockquote><tt>annoPubblicazione < 1980<br/>
+lunghezzaDelFemore > 2.4<br/>
+bioMassa >= 100</tt></blockquote>
+
+Query basate sul rapporto di prossimità tra parole in un documento:
+
+'''Common Query Language''' or '''contextual query language''' (CQL) is a bibliographic catalogs and museum collection information. Based on the semantics of Z39.50, its design objective is that queries be human readable and writable, and that the language be intuitive while maintaining the expressiveness of more complex query languages. It is being developed and maintained by the Z39.50 Maintenance Agency, part of the Library of Congress.
+
+== Examples of query syntax ==
+
+Simple queries:
+
+<blockquote><tt>dinosaur<br/>
+"complete dinosaur"<br/>
+title = "complete dinosaur"<br/>
+title exact "the complete dinosaur"</tt></blockquote>
+
+Queries using Boolean logic:
+
+<blockquote><tt>dinosaur or bird<br/>
+dinosaur and "ice age"<br/>
+dinosaur not reptile<br/>
+dinosaur and bird or dinobird<br/>
+(bird or dinosaur) and (feathers or scales)<br/>
+"feathered dinosaur" and (yixian or jehol)</tt></blockquote>
+
+Queries accessing publication indexes:
+
+<blockquote><tt>publicationYear < 1980<br/>
+lengthOfFemur > 2.4<br/>
+bioMass >= 100</tt></blockquote>
+
+Queries based on the proximity of words to each other in a document:

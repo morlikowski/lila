@@ -1,0 +1,36 @@
+250px|thumb|right|Un esempio di funzione iniettiva
+Una funzione si dice '''iniettiva''' (o '''ingettiva''') se elementi distinti del dominio hanno un'immagine distinta, o equivalentemente se ogni elemento del codominio corrisponde al più ad un elemento del dominio; formalmente:
+:<math>f:X \rightarrow Y</math> è iniettiva sse <math> \forall x_1, x_2 \in X, x_1\neq x_2 \Rightarrow f(x_1)\neq f(x_2)</math>
+o equivalentemente:
+:<math>f:X \rightarrow Y</math> è iniettiva sse <math> \forall x_1, x_2 \in X, f(x_1)=f(x_2) \Rightarrow x_1=x_2</math>
+
+Se abbiamo una funzione reale di una variabile reale che è iniettiva allora tracciando sul suo grafico della  funzione al più una volta.
+
+L'iniettività di una funzione è una condizione necessaria ma non sufficiente affinché esista la immagini:
+:<math>f^{-1}:f(X) \to X.</math>
+
+Se una funzione ''iniettiva'' è anche suriettiva (si dice allora funzione biiettiva) allora ammette una funzione inversa. Viceversa se una funzione è invertibile allora è anche iniettiva e suriettiva.
+
+La funzione composta ottenuta componendo due funzioni iniettive è a sua volta una funzione iniettiva; ma se <math>g \circ f</math> è iniettiva, possiamo concludere solo che ''f'' è iniettiva, ''g'' potrebbe non esserlo.
+
+== Esempi ==
+Esempi molto generali di funzioni iniettive sono la inclusione canonica.
+
+Un esempio di funzione '''non''' iniettiva è dato da:
+:<math> f(x) \,=\, x^2</math>
+definita per ogni ''x'' reale, infatti un numero reale e il suo opposto hanno lo stesso quadrato (ad esempio: f(2)=2<sup>2</sup> = f(-2)=(-2)<sup>2</sup> = 4). La restrizione della funzione ''f(x)'' ai soli numeri reali positivi è invece iniettiva.
+
+thumb|Schema injectie
+
+In de afbeelding, waarbij geen twee (verschillende) elementen hetzelfde beeld hebben, dus anders gezegd elk beeld een uniek origineel heeft. Informeel spreekt men van een ''een-eenduidige'' afbeelding of een ''een-op-een''-relatie.
+
+De term '''injectieve afbeelding''' werd geïntroduceerd door Bourbaki.
+
+==Definitie==
+De afbeelding <math>f:A \rightarrow B</math> heet een '''injectie''' of '''injectieve afbeelding''' als:
+:<math>\forall a,b \in A : f(a) =f(b) \Rightarrow a=b\,</math>.
+
+===Voorbeeld en tegenvoorbeeld===
+* Beschouw de afbeelding <math>f:\mathbb R \rightarrow \mathbb R</math>, gedefinieerd door <var>f</var>(<var>x</var>)&nbsp;= 2<var>x</var>&nbsp;+&nbsp;1.
+Deze afbeelding is injectief, aangezien uit de gelijkheid van de beelden  2<var>x</var>&nbsp;+&nbsp;1&nbsp;= 2<var>x</var>'&nbsp;+&nbsp;1 volgt dat de originelen <var>x</var> en <var>x</var>' gelijk zijn.
+* Beschouw daarentegen de afbeelding <math>g:\mathbb R \rightarrow \mathbb R</math> , gedefinieerd door <var>g</var>(<var>x</var>)&nbsp;= <var>x</var><sup>2</sup>. Deze is ''niet'' injectief, omdat bijvoorbeeld <var>g</var>(1)&nbsp;= 1&nbsp;= <var>g</var>(−1) en er dus verschillende originelen zijn met hetzelfde beeld.

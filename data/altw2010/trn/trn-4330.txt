@@ -1,0 +1,204 @@
+Kategori:Statistika
+Dina statistik, '''''mean''''' (rata-rata) mibanda dua harti:
+* ''aritmetik mean, dibandingkeun jeung geometrik mean atawa harmonik mean. ''Average'' biasa oge disebut ''sample mean'' (rata-rata sampel).
+* nilai ekspektasi tina variabel acak, biasa disebut oge ''population mean'' (rata-rata populasi).
+
+Sampel mean biasa dipake keur estimator ti central tendency saperti populasi mean. Sanajan kitu, estimator sejen oge dipake. Contona, median estimator nu leuwih robust keur central tendency tinimbang sampel mean.
+
+Keur nilai-real variabel acak ''X'', mean nyaeta nilai ekspektasi ''X''.
+Lamun ekspektsi euweuh, variabel random teu ngabogaan mean.
+
+Keur runtuyan data, mean ngan sakadar jumlah sakabeh observasi dibagi ku lobana observasi. 
+Keur ngajelaskeun ''komunal'' tina susuna data, geus ilahar dipake simpangan baku, nu ngajelaskeun sabaraha beda tina observasi.
+Simpangan baku ngarupakeun akar kuadrat tina ''average'' atawa deviasi kuadrat tina mean.
+
+Mean ngarupakeun nilai unik ngeunaan jumlah kuadrat deviasi nu minimum. 
+Lamun ngitung jumlah kuadrat deviasi tina ukuran central tendency sejen, bakal leuwih gede tinimbang keur mean.
+Ieu nerangkeun kunaon simpangan baku sarta mean ilahar dipake babarengan dina laporan statistik.
+
+Alternatip keur ngukur dispersi nyaeta simpangan mean, sarua jeung ''average'' simpangan mutlak tina mean.  Ieu kurang sensitip keur ''outlier'', tapi kurang nurut waktu kombinasi susunan data.
+
+Nilai mean tina fungsi, <math>f(x)</math>, dina interval, <math>a<x<b</math>, bisa diitung (ngagunakeun proses limit dina definisi susunan data) saperti:
+
+:<math>E(f(X))=\frac{\int_a^b f(x)\,dx}{b-a}.</math>
+
+Catetan, teu sakabeh probability distribution ngabogaan mean atawa varian -  keur conto tempo sebaran Cauchy .
+
+Di handap ngarupakeun kasimpulan tina sababaraha metoa keur ngitung mean tina susunan wilangan ''n''.Tempo table of mathematical symbols keur nerangkeun simbol nu dipake.
+
+==Aritmetik Mean==
+The skewed distributions, with highly misleading results. The classic example is average income - using the arithmetic mean makes it appear to be much higher than is in fact the case. Consider the scores {1, 2, 2, 2, 3, 9}. The arithmetic mean is 3.16, but five out of six scores are below this!
+
+:<math> \bar{x} = {1 \over n} \sum_{i=1}^n{x_i} </math>
+
+==Geometrik Mean==
+The geometric mean is an average which is useful for sets of numbers which are interpreted according to their product and not their sum (as is the case with the arithmetic mean). For example rates of growth.
+
+:<math> \bar{x} = \sqrt[n]{\prod_{i=1}^n{x_i}} </math>
+
+'''Mittelwerte''' treten in der Mathematik und insbesondere in der Statistik in inhaltlich unterschiedlichen Kontexten auf. In der Statistik ist ein Mittelwert ein sog. Lageparameter, also ein aggregierender Parameter einer Verteilung, einer Stichprobe oder Grundgesamtheit. Ziel solcher aggregierender Parameter ist es, die wesentliche Information in einer längeren Reihe von (z.&nbsp;B.) Messdaten in wenigen Daten zu konzentrieren.
+In der Mathematik treten Mittelwerte, insbesondere die drei klassischen Mittelwerte (Arithmetisches, Geometrisches und Harmonisches Mittel) bereits in der Antike auf. Pappos von Alexandria kennzeichnet 10 verschiedene Mittelwerte m von 2 Zahlen a und b (a < b) durch spezielle Werte des Streckenverhältnisses (b - m):(m - a). Auch die Ungleichung zwischen harmonischem, geometrischem und arithmetischem Mittel ist in der Antike bereits bekannt und geometrisch interpretiert. Im 19. und 20. Jahrhundert spielen Mittelwerte in der Analysis eine spezielle Rolle, dort im wesentlichen im Zusammenhang mit berühmten Ungleichungen und wichtigen Funktionseigenschaften wie Konvexität (Hölder-Ungleichung, Minkowski-Ungleichung, Jensensche Ungleichung usw.). Dabei wurden die klassischen Mittelwerte in mehreren Schritten verallgemeinert, zunächst zu den ''Potenzmittelwerten'' und diese wiederum zu den ''quasi-arithmetischen Mittelwerten''. Die klassische Ungleichung zwischen harmonischem, geometrischem und arithmetischem Mittel geht dabei über in allgemeinere Ungleichungen zwischen Potenzmittelwerten bzw. quasi-arithmetischen Mittelwerten.
+
+Im Folgenden seien <math>x_1 \ldots x_n</math> gegebene reelle Zahlen, in der Statistik etwa Messwerte, deren Mittelwert berechnet werden soll.
+
+== Arithmetisches Mittel ==
+
+Das arithmetische Mittel (auch ''Durchschnitt'') ist ein rechnerisch bestimmter Mittelwert. Es ist so definiert:
+:<math> \bar{x}_{\mathrm{arithm}} = \frac{1}{n} \sum_{i=1}^n{x_i} = \frac{x_1 + x_2 + \cdots + x_n}{n}</math>
+
+Beispiel für das arithmetische Mittel von 50 und 100:
+:<math>\frac{50+100}{2} = 75</math>
+
+Mittelwert in der Wahrscheinlichkeitsrechnung: Sind <math>X_1,\dots X_n</math> Zufallsvariablen, die unabhängig und identisch verteilt mit Mittelwert bzw. stochastisch konvergiert. Das arithmetische Mittel ist daher nach vielen Kriterien eine geeignete Schätzung für den Erwartungswert der Verteilung, aus der die Stichprobe stammt. Es ist allerdings sehr empfindlich gegenüber Ausreißern (siehe Sonstige Mittelwerte).
+
+=== Anwendungsbeispiel ===
+Ein Auto fährt eine Stunde lang 100&nbsp;km/h und die darauf folgende Stunde 200&nbsp;km/h. Mit welcher konstanten Geschwindigkeit muss ein anderes Auto fahren, um denselben Weg ebenfalls in 2 Stunden zurückzulegen?
+
+Der Weg <math>s_1</math>, den das erste Auto insgesamt zurückgelegt hat, beträgt
+:<math>s_1=100\ \mathrm{km/h} \cdot 1\ \mathrm{h}+200\ \mathrm{km/h} \cdot 1\ \mathrm{h}.</math>
+und der des zweiten Autos
+:<math>s_2=v_2 \cdot 2\ \mathrm{h},</math>
+wobei <math>v_2</math> die Geschwindigkeit des zweiten Autos ist. 
+Aus <math>s_1=s_2</math> ergibt sich
+:<math>v_2 \cdot 2\ \mathrm{h}=100\ \mathrm{km/h} \cdot 1\ \mathrm{h}+200\ \mathrm{km/h} \cdot 1\ \mathrm{h}.</math>
+und damit
+:<math>v_2=\frac{100\ \mathrm{km/h}\cdot 1\ \mathrm{h}+200\ \mathrm{km/h} \cdot 1\mathrm{h}}{2\ \mathrm{h}}=\frac{100\ \mathrm{km}+200\ \mathrm{km}}{2\ \mathrm{h}}=150\ \mathrm{km/h}.</math>
+
+:''Für die Bedeutung des arithmetischen Mittelwert in der Elektrotechnik siehe Arithmetischer Mittelwert (Elektrotechnik)''
+
+=== Gewichtetes arithmetisches Mittel ===
+==== Statistik ====
+Das gewichtete Mittel wird beispielsweise verwendet, wenn man Mittelwerte <math>x_i</math>, <math>i=1,\dots, n</math> aus <math>n</math> Stichproben  der gleichen Grundgesamtheit mit verschiedenen Stichprobenumfängen <math>w_i</math> miteinander kombinieren will:
+:<math> \bar{x} = \frac{\sum_{i=1}^n{w_i \cdot x_i}}{\sum_{i=1}^n w_i} </math>.
+
+==== Wahrscheinlichkeitsrechnung ====
+Sind die <math>X_i</math> unabhängig verteilte Zufallsgrößen (d.&nbsp;h. <math>X_1</math> ist eine Zufallsgröße mit den Zufallsvariablen <math>X_{11},..., X_{1n}</math> und <math>X_2</math> ist eine Zufallsgröße mit den Zufallsvariablen <math>X_{21},...,X_{2m}</math> …) mit gemeinsamem Erwartungswert <math>\mu</math> aber unterschiedlichen Varianzen <math>\sigma_i^2</math>, so hat der gewichtete Mittelwert ebenfalls Erwartungswert <math>\mu</math> und seine Varianz beträgt
+:<math> \sigma^2_{\bar{x}} = \frac{\sum_{i=1}^n w_i^2\sigma_i^2}{\left(\sum_{i=1}^n w_i\right)^2}</math>.
+
+Wählt man 
+:<math> w_i = \frac{1}{\sigma_{i}^2} </math>,
+so vereinfacht sich die Varianz zu 
+:<math> \sigma^2_{\bar{x}} = \frac{1}{\sum_{i=1}^n\frac{1}{\sigma_i^2}}</math>.
+
+Aus der Cauchy-Schwarzschen Ungleichung folgt
+:<math>\left(\sum_{i=1}^n w_i^2\sigma_i^2\right)\cdot\left(\sum_{i=1}^n\frac{1}{\sigma_i^2}\right)\geq \left(\sum_{i=1}^n w_i\right)^2</math>,
+die Wahl <math> w_i = 1/\sigma_{i}^2</math> oder eine Wahl proportional dazu minimiert also die Varianz des gewichteten Mittels.
+Mit dieser Formel lassen sich die Gewichte <math>w_i</math> abhängig von der Varianz des jeweiligen Wertes, der dementsprechend den Mittelwert mehr oder weniger stark beeinflusst, zweckmäßig wählen. 
+
+Sind die <math>X_i</math> speziell Stichprobenmittelwerte vom Umfang <math>n_i</math> aus der selben Grundgesamtheit, so hat <math>X_i</math> die Varianz <math>\sigma^2/n_i</math>, also ist die Wahl <math>w_i=n_i</math> optimal.
+
+=== Beispiele zum gewichteten arithmetischen Mittel ===
+Das arithmetische Mittel <math>\bar{x}_1</math> der <math>n_1=3</math> Zahlen 1, 2 und 3 beträgt 2, das arithmetische Mittel <math>\bar{x}_2</math> der <math>n_2=2</math> Zahlen 4 und 5 beträgt 4,5. Das arithmetische Mittel aller 5 Zahlen ergibt sich als mit dem Stichprobenumfang gewichteter Mittelwert der Teilmittelwerte:
+:<math>\bar{x}=\frac{1+2+3+4+5}{5}=\frac{3\frac{1+2+3}{3}+2\frac{4+5}{2}}{3+2}=\frac{n_1\bar{x}_1+n_2\bar{x}_2}{n_1+n_2}=\frac{6+9}{3+2}=3.</math>
+
+Liegen die Beobachtungen als klassierte Häufigkeit vor, kann man das arithmetische Mittel näherungsweise als gewichtetes Mittel bestimmen, wobei die Klassenmitten als Wert und der Klassenumfang als Gewicht zu wählen sind. Sind beispielsweise in einer Schulklasse ein Kind in der Gewichtsklasse 20 bis 25&nbsp;kg, 7 Kinder in der Gewichtsklasse 25 bis 30&nbsp;kg, 8 Kinder in der Gewichtsklasse 30 bis 35&nbsp;kg und 4 Kinder in der Gewichtsklasse 35 bis 40&nbsp;kg, so lässt sich das Durchschnittsgewicht als
+:<math>\frac{1 \cdot 22{,}5 + 7 \cdot 27{,}5 + 8 \cdot 32{,}5 + 4 \cdot 37{,}5}{1 + 7 + 8 + 4} = \frac{625}{20} = 31{,}25</math>
+abschätzen.
+
+Weiteres Beispiel: Ein Bauer stellt im Nebenerwerb 100&nbsp;kg Butter her. 10&nbsp;kg kann er für 10 €/kg verkaufen, weitere 10&nbsp;kg für 6 €/kg und den Rest muss er für 3 €/kg verschleudern. Zu welchem (gewichtetem) Durchschnittspreis hat er seine Butter verkauft?
+Lösung: (10&nbsp;kg · 10 €/kg + 10&nbsp;kg · 6 €/kg + 80&nbsp;kg · 3 €/kg) / (10&nbsp;kg + 10&nbsp;kg + 80&nbsp;kg) = 400 € / 100&nbsp;kg = 4 €/kg. Der mit der jeweils verkauften Menge gewichtete Durchschnittspreis entspricht also dem fixen Preis, zu dem die Gesamtmenge verkauft werden müsste, um den gleichen Erlös zu erzielen wie beim Verkauf von Teilmengen zu wechselnden Preisen.
+
+=== Der Mittelwert einer Funktion ===
+Als Mittelwert der Riemann-integrierbaren Funktion <math>f:[a,b]\to\R</math> wird die Zahl
+:<math>\bar{f}:=\frac{1}{b-a}\int_a^b f(x) \mathrm{d}x</math>
+definiert.
+
+Die Bezeichnung Mittelwert ist insofern gerechtfertigt, als für eine äquidistante Zerlegung <math>\{x_0,x_1, x_2,\dots x_n\}</math> des Intervalls mit der Schrittweite <math>h=\frac{b-a}{n}</math> das arithmetische Mittel
+:<math>m_n(f):=\frac{f(x_1)+f(x_2)+\dots +f(x_n)}{n}=\frac{1}{b-a}\sum_{k=1}^nf(x_k)h</math>
+gegen <math>\bar{f}\;</math> konvergiert, vgl. <ref name="Heuser 1">H. Heuser: ''Lehrbuch der Analysis, Teil 1'', 8. Auflage, Teubner, Stuttgart 1990. ISBN 3-519-12231-6</ref>.
+
+Ist <math>f\;</math> stetig, so besagt der Mittelwertsatz der Integralrechnung, dass es ein <math>\xi\in[a,b]</math> gibt mit <math>f(\xi)=\bar{f}\;</math>, die Funktion nimmt also an mindestens einer Stelle ihren Mittelwert an.
+
+Der Mittelwert der Funktion <math>f(x)</math> mit dem Gewicht <math>w(x)\;</math> (wobei <math>w(x)>0\;</math> für alle <math>x \in [a,b]</math>) ist
+:<math> \bar{f} = \frac{\int_a^b f(t) w(t) \mathrm{d}t}{\int_a^b w(t) \mathrm{d}t} </math>.
+
+Für Maßraum <math>(\Omega, \mathcal A, \mu)</math> mit einem endlichen Maß <math>\mu(\Omega)<\infty</math> lässt sich der Mittelwert einer Lebesgue-integrierbaren Funktion als
+:<math>\bar{f}:=\frac{1}{\mu(\Omega)}\int_\Omega f(x)\,\mathrm{d}\mu(x)</math>
+definieren. Handelt es sich um einen Wahrscheinlichkeitsraum, gilt also <math>\mu(\Omega)=1\;</math>, so nimmt der Mittelwert die Form
+:<math>\bar{f}:=\int_\Omega f(x)\,\mathrm{d}\mu(x)</math>
+an; das entspricht genau dem Erwartungswert von <math>f\;</math>.
+
+== Geometrisches Mittel ==
+
+Das geometrische Mittel ist die n-te Wurzel aus dem Produkt der Zahlen <math>x_1 \ldots x_n</math>. :<math> \bar{x}_\mathrm{geom} = \sqrt[n]{\prod_{i=1}^n{x_i}} = \sqrt[n]{x_1 \cdot x_2 \cdot \ldots \cdot x_n} </math>
+
+Es ist in der Statistik ein geeignetes Lagemaß für Größen, von denen das Produkt anstelle der Summe interpretierbar ist, z.&nbsp;B. von Verhältnissen oder Wachstumsraten.
+
+Äquivalent dazu gilt
+:<math> \log \bar{x}_\mathrm{geom} = \frac{1}{n}\sum_{i=1}^n \log x_i </math>,
+
+der Logarithmus des geometrischen Mittels ist also das arithmetische Mittel der Logarithmen, wobei die Basis des Logarithmus beliebig gewählt werden darf, aber auf beiden Seiten natürlich die gleiche sein muss.
+
+Beispiel für das geometrische Mittel von 3 und 300:
+:<math> \sqrt{3 \cdot 300} = 30 </math>
+
+Im Gegensatz zum arithmetischen Mittel ist das geometrische Mittel offensichtlich nur für nichtnegative Zahlen <math>x_i\;</math> definiert und meist nur für echt positive Zahlen sinnvoll. 
+
+Beispiel: 
+Das Mittel aus einer Verdopplung und nachfolgender Verachtfachung einer Bakterienkultur ist eine Vervierfachung (nicht eine Vermehrung um den Faktor 5).
+
+Analog zum gewichteten arithmetischen Mittel lässt sich ein mit den Gewichten <math>w_i>0</math> gewichtetes geometrisches Mittel definieren:
+:<math>\bar{x}_\mathrm{geom} = \sqrt[w]{\prod_{i=1}^n x_i^{w_i}} </math> wobei <math>w=\sum_{i=1}^{n}w_i</math>
+
+=== Anwendungsbeispiel ===
+Ein ''Guthaben'' ''G'' wird im ersten Jahr mit zwei Prozent, im zweiten Jahr mit sieben und im dritten Jahr mit fünf Prozent verzinst. Welcher über die drei Jahre konstante Zinssatz ''p'' hätte zum Schluss das gleiche Kapital ergeben? 
+
+Guthaben <math>G_\mathrm{Ende}</math> am Ende des dritten Jahres:
+:<math>G_\mathrm{Ende}=\left(1+\frac{2}{100}\right)\left(1+\frac{7}{100}\right)\left(1+\frac{5}{100}\right) G</math> 
+oder mit Zinsfaktoren geschrieben 
+:<math>G_\mathrm{Ende} = 1{,}02 \cdot 1{,}07 \cdot 1{,}05 \cdot G</math> 
+Mit konstantem Zinssatz <math>p</math> und zugehörigen Zinsfaktor <math>1+p</math> ergibt sich am Ende ein Guthaben von
+:<math>G_\mathrm{konst} = (1 + p)^3\; G</math> 
+Mit <math>G_\mathrm{konst} = G_\mathrm{Ende}</math> ergibt sich
+:<math>(1+p)^3 G = 1{,}02 \cdot 1{,}07 \cdot 1{,}05 \cdot G</math>
+und damit berechnet sich der durchschnittliche Zinsfaktor 1+''p'' zu
+:<math>1+p=\sqrt[3]{1{,}02 \cdot 1{,}07 \cdot 1{,}05}\approx 1{,}04646</math>
+Der durchschnittliche Zinssatz beträgt also ca 4,646 %. Allgemein berechnet sich der durchschnittliche Zinsfaktor also aus dem geometrischen Mittel der Zinsfaktoren der einzelnen Jahre. Wegen der Ungleichung vom arithmetischen und geometrischen Mittel ist der durchschnittliche Zinssatz kleiner oder bestenfalls gleich dem arithmetischen Mittel der Zinssätze, welches in diesem Beispiel <math>\tfrac{14}{3}\%\approx 4{,}667\%</math> beträgt.
+
+== Harmonisches Mittel ==
+
+Das harmonische Mittel ist definiert als
+:<math> \bar{x}_\mathrm{harm} = \frac{n}{\sum\limits_{i=1}^n \frac{1}{x_i}}.</math>
+
+Durch Bildung des Kehrwertes erhält man 
+
+:<math> \frac{1}{\bar{x}_\mathrm{harm}} = \frac{\sum\limits_{i=1}^n \frac{1}{x_i}}{n} </math>,
+
+der ''Kehrwert des harmonischen Mittels ist also das arithmetische Mittel der Kehrwerte''.
+
+Für zwei Werte a und b ergibt sich
+:<math> \bar{x}_\mathrm{harm} = \frac{2ab}{a +b} = \frac{\bar{x}_\mathrm{geom}^2}{\bar{x}_\mathrm{arithm}}</math>
+
+Beispiel für das harmonische Mittel von 5 und 20:
+:<math> \frac{2}{\frac{1}{5}+\frac{1}{20}} = \frac{2}{\frac{1}{4}} = 8 </math> 
+oder
+:<math>  \frac{2 \cdot 5 \cdot 20}{5 + 20} = 8 </math>
+
+Mit dieser Formel ist das harmonische Mittel zunächst nur für von Null verschiedene Zahlen <math> x_i</math> definiert. Geht aber einer der Werte <math>x_i</math> gegen Null, so existiert der Grenzwert des harmonischen Mittels und ist ebenfalls gleich Null. Daher ist es sinnvoll, das harmonische Mittel als Null zu definieren, wenn mindestens eine der zu mittelnden Größen gleich Null ist.
+
+Auch hier lässt sich ein mit den Gewichten <math>w_i>0</math> gewichtetes harmonisches Mittel definieren:
+:<math> \bar{x}_\mathrm{harm} = \frac{\sum\limits_{i=1}^n w_i}{\sum\limits_{i=1}^n \frac{w_i}{x_i}} </math>
+
+=== Beispiel ===
+Fährt man eine Stunde mit 50&nbsp;km/h und dann eine Stunde mit 100&nbsp;km/h, so legt man insgesamt 150&nbsp;km in 2 Stunden zurück; die Durchschnittsgeschwindigkeit ist 75&nbsp;km/h, also das arithmetische Mittel von 50 und 100. Bezieht man sich hingegen nicht auf die benötigte Zeit, sondern auf die durchfahrene Strecke, so wird die Durchschnittsgeschwindigkeit durch das harmonische Mittel beschrieben: fährt man 100&nbsp;km mit 50&nbsp;km/h und dann 100&nbsp;km mit 100&nbsp;km/h, so legt man 200&nbsp;km in 3 Stunden zurück, die Durchschnittsgeschwindigkeit ist 66 2/3&nbsp;km/h, also das harmonische Mittel von 50 und 100.
+
+Allgemein gilt: Benötigt man für die Teilstrecke <math>s_1</math> die Zeit <math>t_1</math> (also Durchschnittsgeschwindigkeit <math>v_1=s_1/t_1</math>) und für die Teilstrecke <math>s_2</math> die Zeit <math>t_2</math> (also Durchschnittsgeschwindigkeit <math>v_2=s_2/t_2</math>, so gilt für die Durchschnittsgeschwindigeit über die gesamte Strecke
+:<math>v=\frac{s_1+s_2}{t_1+t_2}=\frac{s_1+s_2}{\frac{s_1}{v_1}+\frac{s_2}{v_2}}=\frac{t_1v_1+t_2v_2}{t_1+t_2}</math>
+Die Durchschnittsgeschwindigkeit ist also das mit den Wegstrecken gewichtete harmonische Mittel der Teilgeschwindigkeiten oder das mit der benötigten Zeit gewichtete arithmetische Mittel der Teilgeschwindigkeiten.
+
+== Gemeinsame Definition der klassischen Mittelwerte ==
+Die Idee, die den drei klassischen Mittelwerten zugrunde liegt, lässt sich auf folgende Weise allgemein formulieren:
+
+Beim '''arithmetischen''' Mittel sucht man die Zahl m, für die gilt:
+:<math> m + m + \ldots + m = n \cdot m = x_1 + \ldots + x_n</math>,
+wobei sich die Summe links über n Summanden erstreckt. Das arithmetische Mittel mittelt also bzgl. der arithmetischen Verknüpfung „Summe“.
+Anschaulich bestimmt man mit dem arithmetischen Mittel aus Stäben verschiedener Länge einen mit einer durchschnittlichen oder mittleren Länge.
+
+Beim '''geometrischen''' Mittel sucht man die Zahl m, für die gilt:
+:<math> m \cdot m \cdot  \ldots  \cdot m = m^n= x_1 \cdot  \ldots  \cdot x_n</math>,
+wobei sich das Produkt links über n Faktoren erstreckt. Das geometrische Mittel mittelt also bzgl. der arithmetischen Verknüpfung „Produkt“.
+
+Das '''harmonische''' Mittel m löst die Gleichung
+:<math> n \cdot \frac{1}{m}= \frac{1}{x_1} + \ldots + \frac{1}{x_n}</math>.
+
+== Logarithmischer Mittelwert ==

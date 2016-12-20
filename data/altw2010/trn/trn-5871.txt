@@ -1,0 +1,232 @@
+<!-- details coming later on :D-->
+
+The '''AASHTO Soil Classification System''' was developed by the American Association of State Highway and Transportation Officials, and is used as a guide for the classification of soils and soil-aggregate mixtures for highway construction purposes. The classification system was first developed by in 1929,<ref></ref> but has been revised several times since.
+
+{| class="wikitable"
+|+ AASHTO Soil Classification System (from AASHTO M 145 or ASTM D3282) <!-- if required -->
+|-
+! General Classification
+! colspan="7" | Granular Materials (35% or less passing the 0.075 mm sieve)
+! colspan="4" | Silt-Clay Materials (>35% passing the 0.075 mm sieve)
+|-
+| rowspan="2" | Group Classification
+| colspan="2" | A-1
+| rowspan="2" | A-3
+| colspan="4" | A-2
+| rowspan="2" | A-4
+| rowspan="2" | A-5
+| rowspan="2" | A-6
+| A-7
+|-
+| A-1-a
+| A-1-b
+| A-2-4
+| A-2-5
+| A-2-6
+| A-2-7
+| A-7-5 A-7-6
+|-
+| Sieve Analysis, % passing
+| colspan="11" |
+|-
+| 2.00 mm (No. 10)
+| 50 max
+| …
+| …
+| …
+| …
+| …
+| …
+| …
+| …
+| …
+| …
+|-
+| 0.425 (No. 40)
+| 30 max
+| 50 max
+| 51 min
+| …
+| …
+| …
+| …
+| …
+| …
+| …
+| …
+|-
+| 0.075 (No. 200)
+| 15 max
+| 25 max
+| 10 max
+| 35 max
+| 35 max
+| 35 max
+| 35 max
+| 36 min
+| 36 min
+| 36 min
+| 36 min
+|-
+| Characteristics of fraction passing 0.425 mm (No. 40)
+| colspan="11" |
+|-
+| Liquid Limit
+| colspan="2" | …
+| …
+| 40 max
+| 41 min
+| 40 max
+| 41 min
+| 40 max
+| 41 min
+| 40 max
+| 41 min
+|-
+| Plasticity Index
+| colspan="2" | 6 max
+| N.P.
+| 10 max
+| 10 max
+| 11 min
+| 11 min
+| 10 max
+| 10 max
+| 11 min
+| 11 min<sup id="fn_1_back">1
+|-
+| Usual types of significant constituent materials
+| colspan="2" | stone fragments, gravel and sand
+| fine sand
+| colspan="4" | silty or clayey gravel and sand
+| colspan="2" | silty soils
+| colspan="2" | clayey soils
+|-
+| General rating as a subgrade
+| colspan="7" | excellent to good
+| colspan="4" | fair to poor
+|}
+
+<cite id="fn_1">Note (1):</cite> Plasticity index of A-7-5 subgroup is equal to or less than the LL - 30.  Plasticity index of A-7-6 subgroup is greater than LL - 30</cite>
+
+'''AASHTO 분류법'''(AASHTO Soil Classificaion System)은 미국도로교통공무원협회(ASSHTO, American Society of State Highway and Transportaton Officials)에서 개발한 흙의 분류 체계이다. 체 분석으로 구한 입도분포와 소성지수, 액성한계, 그리고 군지수를 이용해 분류한다.
+
+== 군지수 ==
+AASHTO 분류법에서는 다음과 같은 군지수(<math>GI</math>, group index)를 흙의 분류에 이용한다.
+:<math>GI = \left( F - 35 \right) \left[ 0.2 + 0.005 \left( LL - 40 \right) \right] + 0.01 \left[ \left( F - 15 \right) \left( PI - 10 \right) \right]</math>
+여기서
+:<math>GI</math>: 군지수
+:<math>F</math>: 200번 체의 통과중량 백분율
+:<math>LL</math>: 액성한계
+:<math>PI</math>: 소성지수 (<math>=LL-PL</math>, 단, <math>PL</math>은 소성한계)
+이다.
+
+== 분류표 ==
+{| class="prettytable" style="background-color:white;text-align:center;"
+<!--|+ AASHTO 흙 분류 체계 (ASTM M 145)-->
+|-
+! colspan="2" | 일반 분류
+! colspan="7" | 입상토<br>(200번 체를 통과하는 입자 비율 &le;35%)
+! colspan="4" | 실트-점토<br>(200번 체를 통과하는 입자 비율 >35%)
+|-
+| rowspan="2" colspan="2" | 분류 기호
+| colspan="2" | A-1
+| rowspan="2" | A-3
+| colspan="4" | A-2
+| rowspan="2" | A-4
+| rowspan="2" | A-5
+| rowspan="2" | A-6
+| A-7
+|-
+| A-1-a
+| A-1-b
+| A-2-4
+| A-2-5
+| A-2-6
+| A-2-7
+| A-7-5 A-7-6
+|-
+| rowspan="3" | 체 분석, 통과량 (%)
+| 10번 체 (2.00 mm)
+| &le; 50
+| ...
+| ...
+| ...
+| ...
+| ...
+| ...
+| ...
+| ...
+| ...
+| ...
+|-
+| 40번 체 (0.425 mm)
+| &le; 30
+| &le; 50
+| &ge; 51
+| ...
+| ...
+| ...
+| ...
+| ...
+| ...
+| ...
+| ...
+|-
+| 200번 체 (0.075 mm)
+| &le; 15
+| &le; 25
+| &le; 10
+| &le; 35
+| &le; 35
+| &le; 35
+| &le; 35
+| &ge; 36
+| &ge; 36
+| &ge; 36
+| &ge; 36
+|-
+| rowspan="2"| 40번 체 통과분의 특성
+| 액성한계
+| colspan="2" | ...
+| ...
+| &le; 40
+| &ge; 41
+| &le; 40
+| &ge; 41
+| &le; 40
+| &ge; 41
+| &le; 40
+| &ge; 41
+|-
+| 소성지수
+| colspan="2" | &le; 6
+| N.P.<br>(비소성)
+| &le; 10
+| &le; 10
+| &ge; 11
+| &ge; 11
+| &le; 10
+| &le; 10
+| &ge; 11
+| &ge; 11
+|-
+| colspan="2"|군지수
+| colspan="5" | 0
+| colspan="2" | &le; 4
+| &le; 8
+| &le; 12
+| &le; 16
+| &le; 20
+|-
+| colspan="2"|주요 구성분
+| colspan="2" | 석편, 자갈, 모래
+| 세사 (고운 모래)
+| colspan="4" | 실트질 또는 점토질의 자갈, 모래
+| colspan="2" | 실트질 흙
+| colspan="2" | 점토질 흙
+|-
+| colspan="2"|노상토로서의 일반 등급
+| colspan="7" | 매우 좋음 - 좋음
+| colspan="4" | 보통 - 나쁨
+|}

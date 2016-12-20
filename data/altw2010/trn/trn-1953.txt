@@ -1,0 +1,71 @@
+{{Infobox Scientist
+|name              =Gustav Fechner
+|box_width         =
+|image             =Gustav Fechner.jpg
+|image_width       =250px
+|caption           =Gustav Fechner
+|birth_date        = April 19, 1801
+|birth_place       = Muskau
+|death_date        = November 28, 1887
+|death_place       = 
+|residence         = 
+|citizenship       = 
+|nationality       = German
+|ethnicity         = 
+|field             = psychology
+|work_institutions = 
+|alma_mater        = 
+|doctoral_advisor  = 
+|doctoral_students = 
+|known_for         = 
+|author_abbrev_bot = 
+|author_abbrev_zoo = 
+|influences        = 
+|influenced        = 
+|prizes            = 
+|religion          = 
+|footnotes         = 
+|signature         =
+}}
+	
+'''Gustav Theodor Fechner''' (German experimental psychologist. An early pioneer in experimental psychology and founder of psychophysics, he inspired many 20th century scientists and philosophers. He is also credited to have created the formula "<math>S = K Log I</math>" that proved the existence of a scientific connection between the body and the mind. 
+
+He was born at Groß-Särchen, near vision, and, after much suffering, resigned. Subsequently recovering, he turned to the study of the mind and its relations with the body, giving public lectures on the subjects dealt with in his books.
+
+==Contributions==
+Gustav Fechner published chemical and physical papers, and translated chemical works by J. B. Biot and Louis Jacques Thénard from the French language. A different but essential side of his character is seen in his poems and humorous pieces, such as the ''Vergleichende Anatomie der Engel'' (1825), written under the pseudonym of "Dr. Mises."
+
+Fechner's epoch-making work was his ''Elemente der Psychophysik'' (1860). He starts from the monistic thought that bodily facts and conscious facts, though not reducible one to the other, are different sides of one reality. His originality lies in trying to discover an exact mathematical relation between them. The most famous outcome of his inquiries is the law known as the Weber–Fechner law which may be expressed as follows:
+
+:"In order that the intensity of a sensation may increase in arithmetical progression, the stimulus must increase in geometrical progression."
+
+Though holding good within certain limits only, the law has been found to be immensely useful. Fechner's law implies that sensation is a logarithmic function of physical intensity, which is impossible due to the logarithm's singularity at zero; therefore, S. S. Stevens proposed the more mathematically plausible power-law relation of sensation to intensity in his famous paper entitled "To Honor Fechner and Repeal His Law."
+
+Fechner's general formula for getting at the number of units in any sensation is ''S = c log R'', where ''S'' stands for the sensation, ''R'' for the stimulus numerically estimated, and ''c'' for a constant that must be separately determined by experiment in each particular order of sensibility. Fechner's reasoning has been criticized on the grounds that although stimuli are composite, sensations are not. "Every sensation," says William James, "presents itself as an indivisible unit; and it is quite impossible to read any clear meaning into the notion that they are masses of units combined."  
+
+He also studied the still-mysterious perceptual illusion of Fechner color, whereby colors are seen in a moving pattern of black and white.
+
+==Influence==
+Fechner, along with Wilhelm Wundt and Hermann Helmholtz is recognized as one of the founders of modern, experimental psychology. His clearest contribution was the demonstration that because the mind was susceptible to measurement and mathematical treatment, psychology had the potential to become a quantified science. Theorists such as Immanuel Kant had long stated that this was impossible, and that therefore, a science of psychology was also impossible. Fechner's psychophysics exerted considerable influence on the young Sigmund Freud, who attended Fechner's 1874 lectures in Leipzig, and on the subsequent development of psychodynamics. Philosophers Gilles Deleuze and Félix Guattari credit Fechner as the discoverer of a "differential unconscious" that offers a powerful alternative to the "conflictual unconscious" posited by Freud.
+
+Though he had a vast influence on psychophysics, the disciples of his general philosophy were few. Among them, however, was William James, who, in 1904, wrote an admiring introduction to the English translation of Fechner's ''Büchlein vom Leben nach dem Tode'' (''Little Book of Life After Death''). Fechner's world concept was highly animistic. He felt the thrill of life everywhere, in plants, earth, stars, the total universe. Man stands midway between the souls of plants and the souls of stars, who are angels. God, the soul of the universe, must be conceived as having an existence analogous to men. Natural laws are just the modes of the unfolding of God's perfection. In his last work Fechner, aged but full of hope, contrasts this joyous "daylight view" of the world with the dead, dreary "night view" of materialism. Fechner's work in aesthetics is also important. He conducted experiments to show that certain abstract forms and proportions are naturally pleasing to our senses, and gave some new illustrations of the working of aesthetic association. 
+
+right|thumb|160px|Gustav Theodoor Fechner
+
+'''Gustav Theodor Fechner''' (Duitse experimentele psycholoog. Hij was een pionier in de experimentele psychologie en een grondlegger van het psychofysische onderzoek. Hij inspireerde veel 20e eeuwse wetenschappers waaronder Gerard Heymans, Ernst Mach, Wilhelm Wundt and Granville Stanley Hall.
+
+== Biografie ==
+Fechner werd geboren in lichaam.
+
+== Wet van Weber-Fechner ==
+Fechners belangrijkste werk was het boek ''Elemente der Psychophysik'' uit 1860. In het boek start hij met Spinoza’s gedachte dat fysieke feiten en de perceptie van deze feiten, hoewel niet tot elkaar reduceerbaar, twee aspecten zijn van één realiteit. Fechner's ontdekking bestaat eruit dat hij, voortbouwend op het werk van Ernst Heinrich Weber, een mathematisch verband tussen deze twee feiten formuleerde. Het verband dat Fechner ontdekte is later bekend geworden als de wet van Weber-Fechner en is als volgt te omschrijven:<br\> 
+''De sensatie is evenredig met de logaritme van de prikkel''
+
+De wet is onder andere toepasbaar op de perceptie van gewicht (massa).
+Bij proefpersonen bleek een gewichtstoename van 1 kilo bovenop 10 kilo net zo veel zwaarder als een gewichtstoename van 10 kilo bij 100 kilo. Wanneer een geblindeerde proefpersoon een massa van 1 kilo moest vergelijken met een massa van 1 kg + een paar gram werd er geen verschil waargenomen. Pas vanaf een bepaald verschil wordt er een toename van de massa waargenomen. Dit noodzakelijke verschil is echter niet altijd hetzelfde (bijvoorbeeld 50 gram). Wanneer de basismassa verdubbelt, wordt de drempel waarboven het verschil wordt opgemerkt ook verdubbeld. Deze relatie wordt beschreven in de volgende formule:
+
+:<math> dp = k\frac{dS}{S}  \,\!</math>
+
+De algemene mathematische formulering voor de wet van Weber-Fechner is:
+
+:<math> p = k \ln{\frac{S}{S_0}}  \,\!</math>

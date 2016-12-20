@@ -1,0 +1,219 @@
+{{Infobox connector
+|name=High-Definition Multimedia Interface
+|type=Digital audio/video connector
+|image=150px
+|logo=right|151px
+|caption=HDMI cable and HDMI official logo
+|designer=HDMI Founders
+|design_date=December&nbsp;2002
+|manufacturer=HDMI Adopters
+|production_date=2003-Present
+|superseded=
+|superseded_by=
+|superseded_by_date=
+|external=Yes
+|hotplug=Yes
+|length=
+|width=Type A (13.9&nbsp;mm), Type C (10.42&nbsp;mm)
+|height=Type A (4.45&nbsp;mm), Type C (2.42&nbsp;mm)
+|electrical=
+|ground=
+|maximum_voltage=
+|maximum_current=
+|audio_signal=LPCM, Dolby Digital, DTS, DTS-HD Master Audio, MPCM
+|video_signal=1600p, etc.
+|data_signal=Yes
+|data_bit_width=
+|data_bandwidth=10.2&nbsp;Gbit/s (340&nbsp;MHz)
+|data_devices=
+|data_style=TMDS
+|physical_connector=
+|num_pins=19
+|pinout_image=310px
+|pinout_caption=Type A (Female) HDMI
+|pin1=
+|pin1_name=TMDS Data2+
+|pin2=
+|pin2_name=TMDS Data2 Shield
+|pin3=
+|pin3_name=TMDS Data2–
+|pin4=
+|pin4_name=TMDS Data1+
+|pin5=
+|pin5_name=TMDS Data1 Shield
+|pin6=
+|pin6_name=TMDS Data1–
+|pin7=
+|pin7_name=TMDS Data0+
+|pin8=
+|pin8_name=TMDS Data0 Shield
+|pin9=
+|pin9_name=TMDS Data0–
+|pin10=
+|pin10_name=TMDS Clock+
+|pin11=
+|pin11_name=TMDS Clock Shield
+|pin12=
+|pin12_name=TMDS Clock–
+|pin13=
+|pin13_name=CEC
+|pin14=
+|pin14_name=Reserved (N.C. on device)
+|pin15=
+|pin15_name=SCL
+|pin16=
+|pin16_name=SDA
+|pin17=
+|pin17_name=DDC/CEC Ground
+|pin18=
+|pin18_name=+5 V Power (max 50 mA)
+|pin19=
+|pin19_name=Hot Plug Detect
+|pin20=
+|pin20_name=
+|pin21=
+|pin21_name=
+|pin22=
+|pin22_name=
+|pin23=
+|pin23_name=
+|pin24=
+|pin24_name=
+|pin25=
+|pin25_name=
+|pin26=
+|pin26_name=
+|pin27=
+|pin27_name=
+|pin28=
+|pin28_name=
+|pin29=
+|pin29_name=
+|pin30=
+|pin30_name=
+|pin31=
+|pin31_name=
+|pin_custom1_name=
+|pin_name_custom1=
+|pin_custom1=
+|pin_custom2_name=
+|pin_name_custom2=
+|pin_custom2=
+|pin_custom3_name=
+|pin_name_custom3=
+|pin_custom3=
+|pin_custom4_name=
+|pin_name_custom4=
+|pin_custom4=
+|pin_custom5_name=
+|pin_name_custom5=
+|pin_custom5=
+|pin_custom6_name=
+|pin_name_custom6=
+|pin_custom6=
+|pin_custom7_name=
+|pin_name_custom7=
+|pin_custom7=
+|pin_custom8_name=
+|pin_name_custom8=
+|pin_custom8=
+|pinout_notes=
+}}
+
+The '''High-Definition Multimedia Interface''' ('''HDMI''') is a compact audio/video connector interface for transmitting uncompressed digital streams. It represents a digital alternative to consumer analog standards such as personal computers, computer monitors, and digital televisions.
+
+HDMI supports, on a single cable, any PC video format including standard, enhanced, and ATSC and DVB as these are encapsulations of compressed MPEG video streams (which can be decoded and output as uncompressed video stream on HDMI).
+
+HDMI products started shipping in autumn&nbsp;2003 and currently over 800&nbsp;CE and PC companies have adopted the HDMI specification (HDMI Adopters).<ref></ref><ref></ref><ref name="HDMIAdopters"></ref> HDMI began to appear on consumer HDTV camcorders and digital still cameras in 2006.<ref></ref><ref></ref><ref></ref><ref></ref><ref></ref> Shipments of HDMI are expected to exceed that of Digital Visual Interface (DVI) in 2008, driven primarily by the Consumer Electronics (CE) Market.<ref name="HDMIIn-Stat"></ref><ref></ref>
+
+==Overview==
+HDMI supports, on a single cable, any PC video format including standard, enhanced, and TMDS for uncompressed digital transmission over HDMI.
+
+HDMI devices are manufactured to adhere to various versions of the specification, where each version is given a number such as 1.0, 1.2, or 1.3a.<ref name="HDMI2006SpecsDRH"></ref> Each subsequent version of the specification uses the same kind of cable but increases the bandwidth and/or capabilities of what can be transmitted over the cable.<ref name="HDMI2006SpecsDRH"/> For example the previous maximum pixel clock rate of HDMI interface was 165&nbsp;MHz which was sufficient for supporting WQXGA (2560x1600), across a single digital link.<ref name="HDMI2006pr"></ref>
+
+HDMI supports 8&nbsp;channel uncompressed digital audio at 192&nbsp;kHz sample rate with 24&nbsp;bits/sample as well as compressed audio streams such as DTS.<ref name="HDMI2006Specs7"></ref> HDMI supports up to 8&nbsp;channels of one-bit DSD audio, which is used on DTS-HD Master Audio.<ref name="HDMI2006Specs7"/>
+
+In the U.S., HDCP support is a standard feature on digital TVs while in the PC industry it is becoming more common but still depends on the specific model. The first computer monitors with HDCP support started being released in 2005 and by February&nbsp;2006 a dozen had been released.<ref> widescreen LCD |publisher=engadget |url=http://www.engadget.com/2005/10/04/gateways-fpd2185w-21-inch-widescreen-lcd/ |author=Peter Rojas |date=2005-10-04 |accessdate=2008-05-09}}</ref><ref></ref>
+
+PCs with HDMI output using 945G have been capable of 7.1&nbsp;channel DVI.
+
+The HDMI Founders are Hitachi, National/Quasar), Thomson (RCA), and HDCP for HDMI. HDMI also has the support of motion picture producers Fox, Universal, Disney, system operators EchoStar (Samsung.<ref name="HDMIFAQ"></ref>
+
+==History==
+HDMI 1.0 started being developed on April 16, 2002 by the HDMI Founders with the goal of creating an AV connector that is backward compatible with DVI.<ref></ref><ref name="HDMIpart1"></ref><ref name="HDMIWGpaper"></ref> At that time DVI-HDCP (DVI with HDCP) and DVI-HDTV (DVI-HDCP using the CEA-861-B video standard) were being used on HDTVs.<ref name="HDMIWGpaper"/><ref name="HDMI2007WhitePaper"></ref><ref></ref> HDMI 1.0 was designed to improve on DVI-HDTV by using a smaller connector and adding support for audio, enhanced support for YCbCr, and CE control functions.<ref name="HDMIWGpaper"/><ref name="HDMI2007WhitePaper"/><ref></ref><ref></ref>
+
+According to In-Stat the number of HDMI devices sold was 5 million in 2004, 17.4 million in 2005, 63 million in 2006, and 143 million in 2007.<ref></ref><ref></ref><ref name="HDMIIn-Stat"/> HDMI is becoming the de facto standard for HDTVs and according to In-Stat around 90% of digital televisions in 2007 included HDMI.<ref name="HDMIIn-Stat"/><ref></ref><ref></ref><ref></ref><ref></ref><ref></ref> In-Stat has estimated that 229 million HDMI devices will sell in 2008.<ref></ref>
+
+==Specifications==
+The HDMI specification defines the protocols, signals, electrical interfaces, and mechanical requirements of the standard.<ref></ref>
+
+===Connectors===
+There are currently three HDMI connector types with Type A and Type B defined since the HDMI 1.0 specification and Type C defined since the HDMI 1.3 specification.
+
+The Type A connector has 19&nbsp;pins with bandwidth to support all current SDTV, EDTV, and HDTV modes.<ref name="HDMI2006Specs6.3"/> The plug's outside dimensions are 13.9&nbsp;mm wide by 4.45&nbsp;mm high.<ref></ref> Type A is electrically compatible with single link DVI-D.<ref name="HDMI2006Specs4.1.3"></ref>
+
+The Type B connector has 29&nbsp;pins (21.2&nbsp;mm by 4.45&nbsp;mm) and can carry double the video bandwidth of Type A for use with very high-resolution future displays such as WQUXGA (3840x2400).<ref></ref><ref name="HDMI2006Specs4.1.3"/> Type B is electrically compatible with dual link DVI-D and is not currently used in any CE products.<ref name="HDMI2006Specs4.1.3"/><ref></ref>
+
+The Type C mini-connector is intended for portable devices.<ref name="HDMI2006Specs4.1.1"></ref> It is smaller than the Type A connector (10.42&nbsp;mm by 2.42&nbsp;mm) but has the same 19&nbsp;pin configuration.<ref></ref><ref name="HDMI2006Specs4.1.1"/> It can be connected to a Type A connector using a Type A-to-Type C connector cable.<ref name="HDMI2006Specs4.1.1"/>
+
+===Cable===
+The HDMI cable can be used to carry video, audio, and device-controlling signals (CEC). HDMI cables are often more expensive than other video cables at retail stores.<ref name="HDMIGizmodoTest"></ref> However, many on-line retailers and auction sites offer high-end HDMI cables at prices similar to coaxial and RCA cabling.<ref name="HDMIGizmodoTest"/>
+
+===Cable length===
+The HDMI specification does not define a maximum cable length but because of signal attenuation there is an upper limit to how long HDMI cables can be made.<ref name="HDMISVarticle"></ref> The length of the HDMI cable made depends on the construction quality and materials that were used.<ref name="HDMISVarticle"/> The signal attenuation and intersymbol interference which is caused by long cables can be compensated by using adaptive equalization.
+
+HDMI 1.3 has defined two categories of cables: Category 1 certified cables which have been tested at 74.5&nbsp;MHz (1080i/720p) and Category 2 certified cables which has been tested at 340&nbsp;MHz (1600p) to reduce the confusion about which cables support which video formats.<ref name="HDMI2006Specs4.2.6"></ref> Category 1 and 2 cables can either meet the required paramater specifications for inter-pair skew, far-end crosstalk, attenuation, and differential impedance or they can meet the required non-equalized/equalized eye diagram requirements.<ref name="HDMI2006Specs4.2.6"/>  A cheaply made cable of about 5&nbsp;meters (~16&nbsp;ft) can be manufactured to Category 1 specifications using 28&nbsp;AWG conductors.<ref name="HDMISVarticle"/> With better quality construction and materials (24&nbsp;AWG conductors) an HDMI cable can reach lengths of 12 to 15&nbsp;meters (~39 to 49&nbsp;ft).<ref name="HDMISVarticle"/> The HDMI website has stated that many HDMI cables under 5&nbsp;meters of length that were made before the HDMI 1.3 specification can work as a Category 2 cable but cautions that only Category 2 tested cables are guaranteed to work.<ref></ref> Long cable lengths can cause instability of DDC signal which Category 5/Category 6 cable.<ref></ref><ref></ref> Several companies offer equalizers, and Category 5/Category 6 cable can extend HDMI to 50&nbsp;meters while HDMI extenders based on optical fiber can extend HDMI to 100+&nbsp;meters.<ref name="HDMISVarticle"/><ref></ref>
+
+===DDC channel===
+The Enhanced Display Data Channel (E-DDC) which is used by the HDMI source device to read the E-EDID data from the HDMI sink device to learn what audio/video formats it supports.<ref name="HDMI2006Specs1.2"/><ref name="HDMI2006Specs3"/><ref name="HDMI2006Specs8.1"></ref> HDMI requires that the E-DDC support kbit/s) and allows optional support for fast mode speed (400&nbsp;kbit/s).<ref></ref> HDMI has 3 separate communication channels which are the DDC, TMDS, and the optional CEC.<ref name="HDMI2006Specs8.1"/>
+
+===TMDS channel===
+HDMI carries video, audio, and auxiliary data via one of three modes called the Video Data Period, the Data Island Period, and the Control Period.<ref name="HDMI2006Specs5.1.2"></ref> During the Video Data Period, the pixels of an active video line are transmitted.<ref name="HDMI2006Specs5.1.2"/> During the Data Island period (which occurs during the horizontal and vertical blanking intervals), audio and auxiliary data are transmitted within a series of packets.<ref name="HDMI2006Specs5.1.2"/> The Control Period occurs between Video and Data Island periods.<ref name="HDMI2006Specs5.1.2"/>
+
+The HDMI connection can either be single link (Type A/C) or dual link (Type B) and can have a video pixel rate of 25&nbsp;MHz to 340&nbsp;MHz for a single link connection or 680&nbsp;MHz for a dual link connection. Video formats with rates below 25&nbsp;MHz (e.g. 13.5&nbsp;MHz for 480i/NTSC) are transmitted using a pixel-repetition scheme. From 24 to 48 bits per pixel can be transferred, regardless of rate. Over single link connection supports 1080p at rates up to 120&nbsp;Hz and resolutions up to WQXGA.<ref name="HDMIFAQ"/>
+
+HDMI 1.0 to HDMI 1.2a uses the CEA-861-B video standard.<ref name="HDMI2006SpecsDRH"/> HDMI 1.3+ uses the CEA-861-D video standard.<ref name="HDMI2006SpecsDRH"/> The CEA-861-D document defines the video timing requirements, discovery structures, and a data transfer structure.<ref></ref> The color systems that can be used by HDMI are ITU-R BT.601, ITU-R BT.709-5, and IEC 61966-2-4.<ref name="HDMI2006Specs6.7.2"></ref> HDMI can encode the video in 4:4:4 (8–16 bits per component), 4:4:4 (8–16 bits per component), 4:4:4 (8–16 bits per component), or 4:2:2 (8-12 bits per component).<ref name="HDMI2006Specs6.7.2"/><ref></ref>
+
+HDMI supports up to 8&nbsp;channels of audio at sample sizes of 16-bit, 20-bit, and 24-bit with sample rates of 32&nbsp;kHz, 44.1&nbsp;kHz, 48&nbsp;kHz, 88.2&nbsp;kHz, 96&nbsp;kHz, 176.4&nbsp;kHz, and 192&nbsp;kHz.<ref name="HDMI2006Specs7"/><ref name="HDMI2007WhitePaper"/> HDMI also supports any IEC61937-compliant audio stream, including high bitrate (lossless) streams (DTS-HD Master Audio).<ref name="HDMI2006Specs7"/>
+
+Both HDMI and DVI use TMDS to send 10-bit characters that are encoded using BCH ECC parity data for error correction.<ref name="HDMI2006Specs5.3.1"></ref> Each Packet contains four subpackets each of which are 64-bits in size including 8-bits of BCH ECC parity data allowing for each Packet to carry up to 224-bits of audio data.<ref></ref> Each Data Island Period can contain up to 18 Packets.<ref></ref> 7 of the 15 Packet types described in the HDMI 1.3a specifications deal with audio data while 8 of the 15 Packet deal with auxiliary data.<ref name="HDMI2006Specs5.3.1"/> Two of Packet Types that deal with auxiliary data are the General Control Packet and the Gamut Metadata Packet. The General Control Packet carries information on AVMUTE (which mutes the audio during changes that may cause audio noise) and Color Depth (which sends the bit depth of the current video stream and is required for Deep Color).<ref></ref><ref></ref> The Gamut Metadata Packet carries information on the color space being used for the current video stream and is required for xvYCC.<ref></ref><ref></ref><ref></ref>
+
+===Consumer Electronics Control channel===
+The Consumer Electronics Control (CEC) channel wiring is mandatory although implementation of CEC in a product is optional.<ref></ref> The CEC channel uses the industry standard serial bus, and was defined in HDMI Specification 1.0 and updated in HDMI 1.2, HDMI 1.2a, and HDMI 1.3a (added timer and audio commands).<ref></ref><ref></ref><ref></ref><ref></ref>
+
+thumb|right|HDMIケーブル
+'''High-Definition Multimedia Interface'''（ハイ-デフィニション マルチメディア インタフェース 、略称'''HDMI'''）はインタフェースの一つ。米国のSilicon Image社が中心となり展開している。
+
+==概要==
+HDMIはデジタル家電向けのDVIを基に、音声伝送機能や著作権保護機能（デジタルコンテンツ等の不正コピー防止）、色差伝送機能を加えるなどAV家電向けに改良した物で、2002年12月にHDMI 1.0の仕様が策定された。HDMIは非圧縮デジタル音声･映像を伝達し、高品質の画質、音声とも劣化はしない。
+
+映像・音声を非圧縮でプレーヤーからテレビ側へ転送できるため、デコーダーなどの専用チップやソフトウェアを必要としない。接続機器同士が互いに認識することができるインテリジェント機能を有する。映像・音声・制御信号が一体化したシングルケーブルのため、AV機器の配線を簡略化できる。<!--音声信号の規格にはS/PDIFも使われているが、広帯域を生かした-->PCMマルチチャンネル伝送を行うこともできる。制御信号等も送ることができるので、各AV機器間の連携も容易。
+
+物理層はHDCP'''（'''High-bandwidth Digital Content Protection'''）、機器間認証はEDID(Extended display identification data)、系全体の制御系接続はCECが採用されている。
+
+互換性問題が発生したDVIの反省を生かし、機器をHDMI規格準拠と謳う場合は、接続確認テストに合格しなければならないとされている。
+
+コネクタにはタイプAとタイプBの2種類があり、標準は19ピンのタイプA（写真はタイプA）。タイプBは29ピンのコネクタで、1080pを超える解像度をサポートする為に定義された。HDMI規格1.3で、タイプAと比べてより小型のタイプCコネクターも追加された。
+
+ケーブルには、720p/1080iの映像に対応する「Standard HDMI Cable」、
+1080pの映像や8bit超の色深度に対応する「High Speed HDMI Cable」が規定されている。
+
+DVIに対し一部互換性を備えており、DVI-HDMIで相互出力が可能である。DVI-HDMI間の変換コネクタも発売されている。但し、製品の仕様に書かれていないなど動作対象外の場合、画面出力の劣化やそもそも出力されないという場合があり注意が必要である。またDVI機器はHDCP未対応のものもあり、その場合暗号化された信号は表示できない。
+
+==近年の動向==
+2006年以降、プレイステーション3や次世代大容量光ディスク機器の製品化に伴い、より一般的に認知されてきた。2006年初頭からは、家電量販店の広告でも薄型テレビ等に「'''HDMI端子搭載'''」の文字が躍るようになった。また、アメリカでは既にHDCP非搭載のTVは販売出来ない為、HDMIの急速な普及が進んでいる。
+
+2007年現在、接続ケーブルは両端がHDMI端子プラグで長さ10m程度までは市販されている。
+
+2007年10月17日にロゴ使用に関して新しいガイドラインを発表した。
+HDMI 1.3では広色域規格「x.v.Color」や、8bit超の色情報を扱える「Deep Color」などを定めているが、これはオプション仕様でありバージョン番号だけでは対応の有無が判別できない。他にも同機能でメーカーごとに呼称が違っている問題も発生していた。
+そこで、バージョン表記だけでなく対応機能も記する事となりオプション機能の名称も統一された。
+さらに各オプション機能を表記する時の技術要件も規定された。ケーブルについては、「カテゴリ1」は「Standard」と定義、「カテゴリ2」は「High Speed」と定義し、製品にラベルを付けて識別可能とする事になった。
+<ref>http://www.watch.impress.co.jp/av/docs/20071017/hdmi.htm</ref>
+
+==問題点==
+AACS LAが策定を進めている次世代大容量光ディスク機器等を想定した著作権保護規格「AACS」では、HDMI上を流れる信号として暗号化されたデジタル信号のみを認める方向で検討され、D端子をはじめとするアナログ出力が低い解像度に制限される見通しであった（一応、アナログ出力は可能だが、HD画質での出力は認めず、強制的にSDにダウンコンバートされるというものだった）。しかしHDMI非搭載の薄型テレビ等が既に大量に普及しており、消費者や家電メーカーから反対意見が強く、結局は2005年12月に実質的にアナログ出力を全面許可する決定がなされた。しかしながら、アナログ出力を制限する機能自体は残され、2011年に再検討される予定である。<br>この問題が公になってから、一部の消費者は薄型テレビを購入する際にHDMI端子の有無を重視するようになった。しかし一般的な（電化製品に詳しくない）消費者にはまだ認知度が低いものと思われる。
+
+また、HDMIを使用するためのライセンス料が非常に高額なことも普及を遅らせる要因となっている。HDMIのライセンス料が年間$10,000（2006年7月に値下げ、それ以前は年間$15,000<ref>[http://www.hdmi.org/press/pr/pr_20060721.aspx HDMI ANNUAL FEE REDUCED]</ref>）、その上規格上実装が必須であるHDCPのライセンス料も別途発生するため、中小メーカーや小ロット製品には採用の敷居が高く、既にライセンスを受けている大手メーカーでも、低価格機や低コストが重視されるPC向け製品には搭載されにくかった。しかし最近（液晶ディスプレイ、ビデオカードなどのPC向けデバイスにも搭載製品が散見されるようになった。<br>ただし、接続ケーブルにもHDMIのライセンス料がかかるため他規格のケーブルに比べ高価であり、導入にかかる消費者の負担は依然として大きい。
+
+このように日本国内では低価格帯の液晶テレビにも採用されるようになってはいるが、HDMI非搭載の液晶テレビも販売されている。またテレビは一般的にパソコンなどと異なり、頻繁に新機種には買い換えられず、一般に10年～15年前後、場合によっては、20年以上の長期間に渡って使用される事がある製品である。<br>2011年にHDMIが搭載されたテレビがどれほど消費者の間に普及しているか、予測しがたい。

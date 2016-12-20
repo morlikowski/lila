@@ -1,0 +1,46 @@
+thumb|DVD+R 디스크의 앞면과 뒷면
+'''DVD+R'''은 한 번 기록할 수 있는 GB(4.377 GiB)의 기억 용량을 갖는다. (더 정확하게, 각각 2,048 바이트의 2,295,104 섹터) 4.832 GiB를 지원하는 DVD-R보다 기억 용량이 조금 작다. 이 포맷은 2002년 중반에 DVD+RW 얼라이언스가 개발하였다. DVD+R 포맷이 DVD 포럼에서 개발한 DVD-R 포맷과 경쟁하는 포맷이므로 DVD+R 포맷이 공식 DVD 포맷이 아니라는 이유로 DVD 포럼에 승인을 받지 못하고 있다.
+
+다른 플러스(+) 매체와 마찬가지로, 북 타입을 변경하여 DVD+R 매체의 호환성을 높일 수 있다.
+
+== 속도 ==
+{| class="wikitable"
+!드라이브 속도
+!데이터 속도
+!싱글 레이어(SL) DVD+R의 쓰기 속도
+|-
+|1배속||1.32 MB/초||60 분
+|-
+|2배속||2.64 MB/초||30 분
+|-
+|4배속||5.28 MB/초||15 분
+|-
+|8배속||10.56 MB/초||7.5 분
+|-
+|16배속||21.12 MB/초||3.75 분
+|}
+
+== 같이 보기 ==
+* DVD-R
+* DVD
+* DVD+R DL
+* DVD+RW, DVD-RW
+* DVD-RAM
+* 미니DVD
+
+thumb|right|A single DVD+R disc
+A '''DVD+R''' is a once-writable GB (4.377 storage capacity (more precisely, 2295104 sectors of 2048 storage capacity than the GiB). The format was developed by a coalition of corporations, known as the DVD+RW Alliance, in mid 2002. Since the DVD+R format is a competing format to the DVD-R format, which is developed by the DVD Forum, it had not been approved by the DVD Forum, which claimed that the DVD+R format was not an official DVD format until 2008-01-25.
+
+In October of 2003, it was demonstrated that double layer technology could be used with a DVD+R disc to nearly double the capacity to 8.5 GB per disc. Manufacturers have incorporated this technology into commercial devices since mid-2004 (see DVD+R DL).
+
+Unlike DVD+RW discs, DVD+R discs can only be written to once. Because of this, DVD+R discs are suited to applications such as nonvolatile data storage, audio, or video.  This can cause confusion because the DVD+RW Alliance logo is a stylized "RW".  Thus, a DVD+R disc can have the RW logo, but it is not rewritable.
+
+The DVD+R format is divergent from the DVD±RW", are very popular since there is not a single standard for recordable DVDs. There are a number of significant technical differences between the "minus" and the "plus" format, though most users would not notice the difference. One example is the DVD+R style ADIP (ADdress In Pregroove) system of tracking and speed control being less susceptible to interference and error than the LPP (Land Pre Pit) system used by DVD-R, which makes the ADIP system more accurate at higher speeds. In addition, DVD+R(W) has a more robust error management system than DVD-R(W), allowing for more accurate burning to media independent of the quality of the media.
+Additional session linking methods are more accurate with DVD+R(W) versus DVD-R(W), resulting in fewer damaged or unusable discs due to buffer under-run and multi-session disks with fewer PI/PO errors.<ref>[http://adterrasperaspera.com/blog/2006/10/30/how-to-choose-cddvd-archival-media/ How To Choose CD/DVD Archival Media, Patrick McFarland, adterrasperaspera.com, October 30th, 2006]</ref>
+
+Like other "plus" media, it is possible to change the book type to increase the compatibility of DVD+R media.
+
+As of 2007, the market for recordable DVD technology shows little sign of settling down in favor of either the "dash" or "plus" formats, which is mostly the result of the increasing numbers of dual-format devices that can record to both formats; it has become very difficult to find new devices that can only record to one of the formats. However, because the DVD-R format has been in use since 1997, it has had a five-year lead on DVD+R. As such, older or cheaper DVD players (up to 2004 vintage) are more likely to favor the DVD-R standard exclusively<ref>{{cite web|url=http://www.videohelp.com/dvd|title=
+What is DVD?|accessdate=2008-07-23}}</ref>, and when creating DVDs for distribution (where the playing unit is unknown or older) the DVD-R format would normally be preferable.
+
+On 2008-01-25, DVD6C officially accepted DVD+R and DVD+RW by adding them to its list of licensable DVD products.<ref></ref>

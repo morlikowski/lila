@@ -1,0 +1,44 @@
+thumb|Eine aktuelle ECC83 des slowakischen Herstellers JJ in einer Detailaufnahme
+thumb|left|Gegenüberstellung der Gitterwindungen einer ECC82 (oben) und ECC83 (unten)
+thumb|ECC83 von Valvo sowie eine als Marshall gelabelte
+Die '''ECC83''' ist eine bekannte RCA entwickelt. Die Röhre ist eine Verbundröhre und verfügt über zwei unabhängige und elektrisch identische Triodensysteme in einem Glaskolben.
+
+Wegen ihrer auf Audioanwendungen ausgerichteten Eigenschaften (geringes Rauschen und geringe Gitarrenverstärkern und wird deswegen aktuell noch in größeren Stückzahlen produziert.
+
+== Technische Daten ==
+{| class="prettytable" 
+Bedeutung der Bezeichnung ECC83
+!Heizung
+!Systemart
+!Systemart des 2. Systems
+!Sockelart
+!Gitterkennlinie
+|-
+|E - 6,3&nbsp;V || C - Triode || C - Triode || 8 - Novalsockel || 3 - laufende Nummer
+|}
+
+siehe auch Elektronenröhre
+
+Aufgrund der Tatsache, dass die Heizfäden in der Mitte eine Anzapfung besitzen, können beide Triodensysteme alternativ sowohl mit einer Heizspannung 6,3&nbsp;V und einem Heizstrom von 300&nbsp;mA als auch mit einer Spannung von 12,6&nbsp;V und einem Strom von 150&nbsp;mA betrieben werden.
+Eine ECC83 hat zum Beispiel bei einer Anodenspannung von 250&nbsp;V und einer Gittervorspannung von -2&nbsp;V einen Anodenstrom von 1,2&nbsp;mA und eine Steilheit von 1,6&nbsp;mA/V.
+
+thumb|right|120px|12AX7 (1947)
+'''12AX7''' is a miniature dual guitar amplifiers (see valve sound) has caused it to be one of the very few small-signal vacuum tubes to continue in production since it was introduced. 
+
+The initial "12" in the designator implies a 12-volt heater requirement; however, the tube has a center tapped filament so it can be used in either 6.3V 300mA or 12.6V 150mA heater circuits.
+
+== History ==
+
+The 12AX7 is basically two 6AV6 triodes in one package.  The 6AV6 was a repackaging of the triode from the octal 6SQ7, which was very similar to the older type 75 triode-diode, dating from 1930.
+
+Presently the 12AX7 is made in various versions by two factories in New Sensor, which makes current production tubes under the Sovtek, Electro-Harmonix, Svetlana, Tung-Sol, and other brands for which the firm has acquired trademark rights), one in China (Shanguang), one in Slovakia (JJ), and one in Serbia (EI Niš), for a total annual production figure of 2 million units (estimated).  The vast majority are used in new-production guitar amplifiers or for replacement purposes in guitar or audio equipment.
+
+== Application ==
+
+The 12AX7 is a high-gain (typical gain factor 100), low plate current Miller capacitance, it is not suitable for radio-frequency use.
+
+Typically a 12AX7 triode is configured with a high-value plate resistor, 100k ohms in most guitar amps and 220k ohms or more in high-fidelity equipment.  Grid bias and some negative feedback are often provided by a cathode resistor.  In this mode each half of a 12AX7 can provide a voltage gain of about 60. The cathode resistor can be bypassed to reduce AC negative feedback and thereby increase gain.
+
+== Twin-triode variations ==
+
+The 12AX7 was the most common member of what eventually became a large family of twin-triode vacuum tubes, manufactured all over the world, all sharing the same pinout (EIA 9A). Most used a 150 mA heater which could also be connected to run on 6.3V at 300 mA.  The variations include the 12AT7, 12AU7, 12AV7, and the low-voltage 12U7, plus many 4-digit EIA series dual triodes.  The variations span a wide range of voltage gain, ruggedness, and transconductance.  

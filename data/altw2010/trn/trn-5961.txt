@@ -1,0 +1,68 @@
+:''Note: You might be looking for the Kronecker delta.''
+
+In number theory, the '''Kronecker symbol''' is a generalization of the Jacobi symbol to all integers. 
+
+Let <math>n</math> be an integer, with prime factorization  
+
+:<math>u \cdot {p_1}^{e_1} \cdots {p_k}^{e_k},</math>
+
+where <math>u</math> is a unit and the <math>p_i</math> are primes. Let <math>a \geq 0</math> be an integer. The Kronecker symbol  <math>\left(\frac{a}{n}\right)</math> is defined to be 
+
+:<math> \left(\frac{a}{n}\right) = \left(\frac{a}{u}\right) \prod_{i=1}^k \left(\frac{a}{p_i}\right)^{e_i}. </math>
+
+For odd <math>p_i</math>, the number  <math>\left(\frac{a}{p_i}\right)</math> is simply the usual Legendre symbol. This leaves the case when <math>p_i=2.</math> We define  <math>\left(\frac{a}{2}\right)</math> by 
+
+:<math> \left(\frac{a}{2}\right) = 
+\begin{cases}
+ 0 & \mbox{ if }a\mbox{ is even } \\
+ 1 & \mbox{ if } a \equiv 1 \text{ or } 7\pmod{8}  \\
+-1 & \mbox{ if } a \equiv 3 \text{ or } 5 \pmod{8} \\
+\end{cases}</math>
+
+thumb|right|Леопольд Кронекер
+
+'''Символ Кронекера — Якоби''' — функция, используемая в теории чисел. Иногда называют символом Лежандра — Якоби — Кронекера или просто символом Кронекера. Является обобщением символов Лежандра и Якоби.
+
+Символ Лежандра определён только для простых нечётных чисел, символ Якоби — для натуральных нечётных чисел, а символ Кронекера — Якоби расширяет это понятие на все целые числа.
+
+== <br clear="both" /> Определение ==
+
+Символ Кронекера-Якоби <math>\left(\frac{a}{b}\right)</math> определяется следующим образом:
+
+* если ''b'' — простое нечётное число, то символ Кронекера-Якоби совпадает с символом Лежандра
+
+* если ''b=0'', то <math>\left(\frac{a}{0}\right)= 
+\begin{cases}
+ 1 & \Leftrightarrow a=\pm1\\
+ 0 & \Leftrightarrow a\neq\pm1
+\end{cases}</math>
+
+* если ''b=2'', то <math> \left(\frac{a}{2}\right) = 
+\begin{cases}
+ 0 & \Leftrightarrow a\equiv0\mod{2}\\
+(-1)^{\frac{a^2-1}{8}} & \Leftrightarrow a\equiv1\mod{2}
+\end{cases}</math>
+
+* если ''b=-1'', то <math> \left(\frac{a}{-1}\right) = 
+\begin{cases} 
+-1 & \Leftrightarrow a < 0 \\ 
+1 & \Leftrightarrow a\geq 0 
+\end{cases} </math>
+ 
+
+* если <math>b=\delta\cdot p_1\cdot ...\cdot p_n</math>, где <math>\delta=\pm1</math>, <math>p_1, ..., p_n</math> — простые (не обязательно различные), то
+
+{{Формула
+|<math>\left(\frac{a}{b}\right) = \left(\frac{a}{\delta}\right)\cdot\left(\frac{a}{p_1}\right)\cdot...\cdot\left(\frac{a}{p_n}\right),</math>}}
+
+где <math>\left(\frac{a}{p_i}\right)</math> — определены выше.
+
+== Свойства ==
+
+* <math>\left(\frac{a}{b}\right)=0</math> тогда и только тогда, когда <math>(a,b)\neq1</math> (''a'' и ''b'' не взаимно просты)
+
+* Мультипликативность: <math>\left(\frac{ab}{c}\right) = \left(\frac{a}{c}\right) \left(\frac{b}{c}\right)</math>
+
+** В частности, <math>\left(\frac{a^2b}{c}\right) =\left(\frac{b}{c}\right)</math>
+
+* Периодичность по переменной ''a'': если <math>b>0</math>, то

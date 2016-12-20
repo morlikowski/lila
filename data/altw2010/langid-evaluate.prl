@@ -1,0 +1,280 @@
+#!/usr/bin/perl
+
+##################################################################
+#
+#
+#       langid-evaluate.prl
+#
+#
+# Author: Tim Baldwin
+#
+# Date: 26/8/2008
+#
+# Version: 1.0
+#
+# Synopsis:
+#
+# Script for evaluating the output of a text categorisation classifier
+# over a fixed set of development and test documents
+#
+# Required arguments:
+#
+# -i FILENAME         FILENAME contains the output of the classifier over either the 
+#                     development or test dataset (as specified, default = development)
+#
+# Optional arguments:
+#
+# -dev [FILENAME]   Evaluate over the development files (DEFAULT), using FILENAME
+#                   as the gold-standard (if provided)
+#
+# -test [FILENAME]  Evaluate over the test files, using FILENAME
+#                   as the gold-standard (if provided)
+#
+# -v                Verbose output mode
+#
+#
+##################################################################
+
+
+
+
+
+use strict;
+
+
+
+use constant TRAINING => "trn-lang";    # Development evaluation mode (evaluate development documents)
+use constant DEVELOPMENT => "dev-lang";    # Development evaluation mode (evaluate development documents)
+use constant TEST => "tst-lang";                  # Test evaluation mode (evaluate test documents)
+
+
+use constant BETA => 1; # constant value used to weight precision and recall in F-score calculation
+
+
+
+my $GOLD = DEVELOPMENT;  # evaluate over the development dataset by default
+
+my $VERBOSE = 0;
+
+
+my $FP;
+
+
+
+use Getopt::Long;
+
+GetOptions ( "dev:s" => sub {$GOLD = ($_[1] ne "") ? $_[1] : DEVELOPMENT},
+	     "test:s" => sub {$GOLD = ($_[1] ne "") ? $_[1] : TEST},
+	     "i=s" => \$FP,
+	     "v" => \$VERBOSE,
+	     );
+	    
+
+
+
+(defined $FP and -f $FP) or &usage;  # Make sure the user has listed a file to evaluate,
+                                     # and that the file exists
+
+
+
+
+
+my $goldtotal; # total number of gold-standard DocIDs
+
+my %gold; # associative arrary indexed on document IDs, containing the document category for each document ID
+
+my %docclass_list; # list of all document categories
+
+
+
+open(GOLD,$GOLD) or die "Couldn't open gold-standard file: $!\n";
+
+
+# Read in each line from the gold-standard file, and store it in %gold
+
+while (<GOLD>)
+{
+    chomp;
+    if (my($docid,$docclass) = &process_line($_))
+    {
+	$gold{$docid}{$docclass} = 1;
+	$docclass_list{$docclass} = 1;
+	$goldtotal++;
+    }
+}
+
+close GOLD;
+
+
+
+
+
+
+
+
+my $corr = 0; # total number of DocIDs predicted correctly in the output file
+
+my $outtotal = 0; # total number of unique DocIDs in the output file
+
+my %seen;  # record of DocID/docclass pairs found in the output file
+
+
+
+my %tp; # record of the true positive count for each docclass
+
+my %fp; # record of the false positive count for each docclass
+
+my %fn; # record of the false negative count for each docclass
+
+
+
+
+# Read in each line from the input file and compare it to the gold-standard data
+
+open(FP,$FP) or die "Couldn't open system output file: $!\n";
+
+while (<FP>)
+{
+    chomp;
+    if (my($docid,$docclass) = &process_line($_))
+    {
+	if (defined $seen{$docid}{$docclass})   # Check to see if DocID/docclass seen already
+	{
+	    print STDERR "WARNING: ignoring duplicate DocID/DocClass pair in $FP ($docid, $docclass)\n";
+	}
+	else
+	{
+	    $docclass_list{$docclass} = 1;
+	    if (defined $gold{$docid})
+	    {
+		$seen{$docid}{$docclass} = 1;
+		if (defined $gold{$docid}{$docclass})
+		{
+		    $corr++;
+		    $tp{$docclass}++;
+		}
+		else
+		{
+		    $fp{$docclass}++;
+		    if ($VERBOSE)
+		    {
+			print "FP: $docclass (predicted) vs. ", &goldclasses($docid), " (actual) [$docid]\n";
+		    }
+		}
+		$outtotal++;
+	    }
+	    else
+	    {
+		print STDERR "WARNING: document ID $docid not contained in the gold-standard dataset\n";
+	    }
+	}
+    }
+}
+
+close FP;
+
+
+
+# Calculate false negatives
+
+foreach my $docid (keys %gold)
+{
+    foreach my $docclass (keys %{$gold{$docid}})
+    {
+	unless (defined $seen{$docid}{$docclass})
+	{
+	    $fn{$docclass}++;
+	    print "FN: $docclass ($docid)\n" if $VERBOSE;
+	}
+    }
+}
+
+
+
+
+# Calculate the precision, recall and F-score for each docclass
+
+my $cum_fp = 0;
+my $cum_fn = 0;
+
+printf "\n" if $VERBOSE;
+
+foreach my $docclass (sort {$a cmp $b} keys %docclass_list)
+{
+    printf "Class %3s: ", $docclass if $VERBOSE;
+    my $tp = (defined $tp{$docclass}) ? $tp{$docclass} : 0;
+    my $fp = (defined $fp{$docclass}) ? $fp{$docclass} : 0;
+    my $fn = (defined $fn{$docclass}) ? $fn{$docclass} : 0;
+
+    $cum_fp += $fp;
+    $cum_fn += $fn;
+
+    &print_stats($tp,$fp,$fn) if $VERBOSE;
+}
+
+print "\nOVERALL: "; &print_stats($corr,$cum_fp,$cum_fn); print "\n";
+
+
+
+
+
+
+
+exit 1;
+
+
+
+
+
+
+
+sub usage
+{
+    die "USAGE:\n\t$0  [-dev [DEV-FILENAME]]  [-test [TEST-FILENAME]]  [-v]  -i FILENAME\n";
+}
+
+
+
+
+
+
+sub process_line
+{
+    my $in = shift;
+    $in =~ /^(.+?),(.+)$/ and return ($1,$2);
+    # ELSE
+    print STDERR "WARNING: ignoring line due to unrecognised format -- $in\n";
+    return;
+}
+
+
+
+
+
+
+sub goldclasses
+{
+    my $docid = shift;
+
+    my $out;
+    foreach (sort {$a <=> $b} keys %{$gold{$docid}})
+    {
+	$out .= "$_,";
+    }
+    chop $out; # remove final comma
+    return $out;
+}
+
+
+
+
+sub print_stats
+{
+    my($tp,$fp,$fn) = @_;
+
+    my $precision = ($tp or $fp) ? $tp/($tp+$fp) : 0;
+    my $recall = ($tp or $fn) ? $tp/($tp+$fn) : 0;
+    my $fscore = ($precision or $recall) ? (1+BETA)*$precision*$recall/(BETA*$precision+$recall) : 0;
+    printf "precision = %.3f; recall = %.3f; f-score = %.3f\n", $precision, $recall, $fscore;
+    return;
+}

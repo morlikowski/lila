@@ -1,0 +1,71 @@
+''thumbnail|right|Water Rocket Launch
+A '''water rocket''' is a type of model rocket using water as its reaction mass. The pressure vessel&mdash;the engine of the rocket&mdash;is usually a used plastic soft drink bottle. The water is forced out by a pressurized gas, typically compressed air. 
+
+The term "aquajet" has been used in parts of Europe in place of the more common "water rocket" and in some places they are also referred to as "bottle rockets" (which can be confusing as this term traditionally refers to a firework in other places).
+
+Water rocket engines are most commonly used to drive model rockets, but have also been used in model boats, cars, and rocket-assisted gliders.
+
+== Operation ==
+
+The bottle is mostly filled with water and sealed. The bottle is then pressurized with a gas, usually air compressed from a bicycle pump, air compressor, or cylinder up to 125 psi, but sometimes CO<sub>2</sub> or nitrogen from a cylinder.
+
+Water and gas are used in combination, with the gas providing a means to store potential energy, as it is easily compressed, and the water increasing the mass fraction and providing greater momentum when ejected from the rocket's nozzle.
+
+The seal on the nozzle of the rocket is then released and rapid release of water occurs, at high speeds. Until the propellant has been used up, and the pressure equalizes with atmospheric pressure, there is a net force created on the tank in accordance with Newton's third law.  The expulsion of the water thus can cause the rocket to leap a considerable distance into the air.
+
+In addition to aerodynamic considerations, altitude and flight duration are dependent upon the volume of water, the initial pressure, the rocket nozzle's size, and the unloaded weight of the rocket. The relationship between these factors is complex and several simulators have been written by enthusiasts to explore these and other factors.<ref>[http://ourworld.compuserve.com/homepages/pagrosse/h2orckt.htm Water Rocket Computer Model] from CompuServe user page</ref><ref>[http://www.et.byu.edu/~wheeler/benchtop/sim.php Sim Water Rocket] from Dean's Benchtop</ref><ref>[http://polyplex.org/rockets/simulation/  Water Rocket Simulation] from Clifford Heath's website</ref>
+
+Often the pressure vessel is built from one or more used plastic soft drink bottles, but polycarbonate fluorescent tube covers and other light-weight pressure-resistant cylindrical vessels have also been used. 
+
+Typically launch pressures vary from 75 to 150 psi (500 to 1000 kPa). The higher the pressure, the larger the stored energy.
+
+==Multi-bottle rockets and multi-stage rockets==
+
+right|thumb|Two multi-bottle rockets with a cat for scale.
+right|thumb|A larger multi bottle rocket with cylindrical fins.
+<!-- Unsourced image removed: right|thumb|An example of a spliced 6 litre ASTRA water rocket. -->
+
+Multi-bottle rockets are created by joining two or more bottles in any of several different ways; bottles can be connected via their nozzles, by cutting them apart and sliding the sections over each other, or by connecting them opening to bottom, making a chain to increase volume. Increased volume leads to increased weight, but this should be offset by a commensurate increase in the duration of the thrust of the rocket. Multi-bottle rockets can be unreliable, as any failure in sealing the rocket can cause the different sections to separate. To make sure the launch goes well, pressure tests are performed beforehand, as safety is a concern.
+
+Multi-stage rockets are much more complicated. They involve two or more rockets stacked on top of each other, designed to launch while in the air, much like the multi-stage rockets that are used to send payloads into space. Methods to time the launches in correct order and at the right time vary, but the crushing-sleeve method is quite popular.
+
+==Sources of gas==
+Several methods for pressurizing a rocket are used including:
+* A standard bicycle/car tire pump, capable of reaching at least 75 psi (500 kPa).
+* An air compressor, like those used in workshops to power pneumatic equipment and tools. Modifying a high pressure (greater than 15 bar / 1500 kPa / 200 psi) compressor to work as a water rocket power source can be dangerous, as can using high-pressure gases in from cylinders.
+* Compressed gases in bottles, like nitrogen gas (N<sub>2</sub>).  Examples include CO<sub>2</sub> in PVC and ABS, can become brittle and weak when severely cooled. Long air hoses are used to maintain a safe distance, and pressure gauges (known as manometers) and safety valves are typically utilized on launcher installations to avoid over-pressurizing rockets and having them explode before they can be launched. Highly pressurized gases such as those in diving cylinders or vessels from industrial gas suppliers should only be used by trained operators, and the gas should be delivered to the rocket via a regulator device (e.g. a SCUBA first-stage). All compressed gas containers are subject to local, state and national laws in most countries and must be safety tested periodically by a certified test center.
+* Ignition of a mixture of explosive gases above the water in the bottle; the explosion creates the pressure to launch the rocket into the air.<ref>[http://www.et.byu.edu/~wheeler/benchtop/hydropyro.php Dean's benchtop: hydrogen powered water rocket]</ref>
+
+==Fins==
+As the propellant level in the rocket goes down, the center of mass may move backwards. This reduces stability and tends to cause water rockets to start tumbling end over end, greatly decreasing the maximum speed and thus the length of glide (time that the rocket is flying under its own momentum). To lower the center of pressure and add stability, fins can be added which bring the center of drag further back, helping ensure stability.
+
+However, stabilizing fins cause the rocket to fall with a significantly higher velocity, possibly damaging the rocket upon landing. This should be taken into account when designing rockets. Crumple zones or parachutes can be utilized to minimize this.
+
+In the case of custom-made rockets, where the rocket nozzle is not perfectly positioned, the bent nozzle can cause the rocket to veer off the vertical axis. The rocket can be made to spin by angling the fins, which reduces off course veering.
+
+Another simple and effective stabilizer is a straight cylindrical section from another plastic bottle. This section is placed behind the rocket nozzle with some wooden dowels or plastic tubing. The water exiting the nozzle will still be able to pass through the section, but the rocket will be stabilized.
+
+Another possible recovery system involves using the rocket's fins to slow its descent. By increasing fin size, more drag is generated. If the center of mass is placed forward of the fins, the rocket will nose dive. In the case of super-roc or backgliding rockets<ref>[http://members.aol.com/petealway/srrg.htm super-roc or backgliding rockets]</ref>, the rocket is designed such that the relationship between center of gravity and the center of pressure of the empty rocket causes the fin-induced tendency of the rocket to tip nose down to be counteracted by the air resistance of the long body which would cause it to fall tail down, and resulting in the rocket falling sideways, slowly. The article cited above is a detailed exploration of the phenomenon.
+
+==Nozzles==
+
+Different nozzles require different launchers. 2 main types of nozzles are open (22&nbsp;mm) and Gardena (9&nbsp;mm) restricted nozzles. There are many pros and cons for each design.
+
+A Gardena nozzle makes a rocket have more “burn” time so the thrust is stretched out because the smaller diameter of nozzle restricts the amount of water coming out. This provides a slower takeoff while decreasing the forces acting on the rocket such as drag. In some cases the rocket may under perform from the smaller nozzle. This type of nozzle also makes for an easy launcher construction. 
+
+Eine '''Wasserrakete''' funktioniert, wie jede andere Rakete auch, nach dem Rückstoß-Prinzip.
+
+Der Antrieb erfolgt durch einen Wasserstrahl, der unter Druck durch eine Düse gepresst wird und mit einem entgegengesetzten Impuls die Rakete verlässt. Je nach Art der Erzeugung dieses Drucks unterscheidet man Kaltwasserraketen und Heißwasserraketen; letztere werden auch als Dampfdruckraketen bezeichnet. Beiden gemeinsam ist, dass die Antriebsenergie in physikalischer Form mitgeführt wird und nicht wie bei den meisten Raketen als chemische Energie.
+
+Kaltwasserraketen werden in einfacher Form auch als Spielzeug angeboten und können der Demonstration des Raketenprinzips dienen. Heißwasserraketen sind hingegen auch Gegenstand ernsthafterer Forschung und Entwicklung.
+
+== Kaltwasserrakete ==
+thumb|100px|Eine einfache Kaltwasserrakete
+
+Eine '''Kaltwasserrakete''' ist eine Wasserrakete, bei welcher der teilweise mit Wasser gefüllte Raketenkörper mit Hilfe der darüber befindlichen zuvor verdichteten Luft angetrieben wird. Beim Öffnen des Ventils der Düse tritt das Wasser mithilfe der Druckluft aus dem Raketenkörper mit hoher Geschwindigkeit aus und beschleunigt diesen durch seinen Rückstoß.
+
+Kaltwasserraketen werden aufgrund ihrer relativ geringen Leistungsfähigkeit nur als Spielzeug oder als Demonstrationsmodell zur Veranschaulichung des Rückstoßantriebs verwendet.
+
+Wichtig beim Antrieb der Kaltwasserrakete ist das Verhältnis von verdichteter Luft zu Wasser. Die größte Gipfelhöhe erreicht man bei einem Wasser/Luft-Volumenverhältnis von 2&nbsp;:&nbsp;3.
+
+Als Spielzeug erhältliche Wasserraketen werden mit einer Fahrradluftpumpe aufgepumpt und können eine Höhe von einigen Dutzend Metern erreichen.

@@ -1,0 +1,107 @@
+{{Chembox new
+|ImageFile=R207910.svg
+|ImageSize=250px
+|IUPACName=(1R,2R)-1-(6-bromo-2-methoxyquinolin-3-yl)- 4-(dimethylamino)-2-
+(3-fluorophenyl)-1-phenylbutan-2-ol
+|OtherNames=AIDS222089
+|Section1= {{Chembox Identifiers
+|  CASNo=654653-81-3
+|  PubChem=5746640
+|  SMILES=
+|  MeSHName=R207910
+  }}
+|Section2= {{Chembox Properties
+|  Formula=C<sub>28</sub>H<sub>28</sub>BrFN<sub>2</sub>O<sub>2</sub>
+|  MolarMass=523.437 g/mol
+|  Appearance=
+|  Density=
+|  MeltingPt=
+|  BoilingPt=
+|  Solubility=
+  }}
+|Section3= {{Chembox Hazards
+|  MainHazards=
+|  FlashPt=
+|  Autoignition=
+  }}
+}}
+'''R207910''' (also known as TMC207) is an experimental diarylquinoline anti-ICAAC) meeting Late-Breaker Session, after the drug had been in development for over 7 years<ref>[http://www.sequella.com/docs/TB_Drugs_Review.pdf In Search of New Cures for Tuberculosis]</ref>.
+
+==Mode Of Action==
+R207910 affects the proton pump for ATP synthase, which is unlike other quinolones, whose target is DNA gyrase.<ref>[http://www.nature.com/nchembio/journal/vaop/nprelaunch/full/nchembio002.html Joanne Kotz, Targeting tuberculosis, Nature Chemical Biology, Published online: 8 February 2005] (doi: 10.1038/nchembio002)</ref>
+
+==References==
+
+{{ChemischeStof|
+| Naam = 
+| Afb1 = 200px
+| Afb1Omschr = Structuur van R207910
+| Afb2 = 
+| Afb2Omschr = 
+| Afb3 = 
+| Afb3Omschr = 
+| Afb4 = 
+| Afb4Omschr = 
+| Formule = C<sub>28</sub>H<sub>28</sub>BrFN<sub>2</sub>O<sub>2</sub>
+| Molgewicht = 523,436523 
+| SMILES = CN(C)CC[C@@](C1=CC(=CC=C1)F)([C@H](C2=CC=CC=C2)C3=C(N=C4C=CC(=CC4=C3)Br)OC)O
+| InChI = InChI=1/C28H28BrFN2O2/c1-32(2)15-14-28(33,21-10-7-11-23(30)18-21)26(19-8-5-4-6-9-19)24-17-20-16-22(29)12-13-25(20)31-27(24)34-3/h4-13,16-18,26,33H,14-15H2,1-3H3/t26-,28-/m1/s1
+| IUPAC = (1R,2S)-1-(6-broom-2-methoxychinolin-3-yl)-4-dimethylamino-2-(3-fluorfenyl)-1-fenylbutan-2-ol
+| AndereNamen = 
+| CAS = 654653-81-3
+| EINECS =
+| PubChem = 5746640
+| Beschrijving = 
+| Vergelijkbaar = 
+| AfbWaarsch = 
+| TekstWaarsch = 
+| Carcinogeen = 
+| Hygroscopisch = 
+| Rzinnen = 
+| Szinnen = 
+| Omgang = 
+| Opslag = 
+| EG = 
+| VN = 
+| ADR = 
+| MAC = 
+| LethaalRat = 
+| LethaalKonijn = 
+| LethaalMuis =
+| MSDS = 
+| Aggregatie = 
+| Kleur = 
+| Dichtheid = 
+| Smeltpunt = 
+| Kookpunt = 
+| Vlampunt = 
+| Zelfontbranding = 
+| Dampdruk = 
+| Oplosbaarheid = 
+| GoedOplIn = 
+| MatigOplIn =
+| SlechtOplIn = 
+| OnoplIn = 
+| LogPow =
+| Viscositeit = 
+| Brekingsindex =
+| Kristalstructuur = 
+| Dipoolmoment = 
+| fG0g = 
+| fG0l = 
+| fG0s = 
+| fH0g = 
+| fH0l = 
+| fH0s = 
+| S0g = 
+| S0l = 
+| S0s = 
+| Cpm0 = 
+| Evenwicht = 
+| KlassiekeAnalyse = 
+| Spectra =
+
+}}
+
+'''R207910''' (ook bekend als '''TMC207''') is een experimenteel medicijn tegen tuberculose, behorend tot de familie van de '''diarylchinolines''' dat momenteel (2005) nog in ontwikkeling is.<ref>Andries K, Verhasselt P, Guillemont J, et al. (2005), A diarylquinoline drug active on the ATP-synthase of Mycobacterium tuberculosis, Science 307 (5707): 223–27</ref>  
+Het is circa 40 jaar geleden dat er voor het laatst een nieuw anti-TBC middel is ontwikkeld. Het werkingsmechanisme is geheel anders dan van de bestaande tuberculostatica: het remt resistentie tegen dit middel zal gaan ontstaan.

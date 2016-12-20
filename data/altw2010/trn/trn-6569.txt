@@ -1,0 +1,54 @@
+thumb|Vatten kondenserar till synliga små droppar efter avdunstning ur en tekopp.
+'''Avdunstning''' (evaporation) innebär att ett ämne övergår från flytande form till gasform.  Avdunstning och förångning (kokning) är ''inte'' samma sak. För att ett ämne ska förångas måste energi tillföras genom uppvärmning. Avdunstning sker även långt under vätskans kokpunkt. Det beror på att temperaturen endast är ett genomsnitt för molekylernas energi i lösningen; enskilda molekyler kan ha högre respektive lägre energi. De molekyler med en energi som motsvarar förångningsenergin avgår till omgivningen som gas. Samtidigt kyls resten ner som en följd av att genomsnittsenergin i den delen sjunker. På så vis fungerar avdunstning som naturens kylare, och kyler ner djur, blad eller marken.
+
+Avdunstning är en passiv process, som sker direkt från markytan eller den fria vattenytan. När vattnet går via växterna, kallas det för transpiration.
+
+==Se även==
+*Evaporation
+*Evapotranspiration
+*Guttation
+*Interception
+*Transpiration
+*Ångtryck
+
+Kategori:Termodynamiska processer
+Kategori:Aggregationstillstånd
+Kategori:Hydrologi
+Kategori:Markvetenskap
+
+<!--
+A '''evaporação''' é um processo físico que consiste na passagem lenta e gradual de um estado líquido para um estado de vapor, em função de aumento natural ou artificial de temperatura o que influencia no movimento das moléculas, agitando-as. Com a intensificação do deslocamento, as partículas escapam para a atmosfera transformando-se consequentemente em vapor.
+
+-->
+A '''evaporação''' é um fenômeno no qual sublima) ganham energia suficiente para passar ao estado vapor.
+
+O movimento térmico de uma molécula de líquido deve ser suficiente para vencer a pressões de vapor mais elevadas).
+
+Como apenas uma proporção pequena de moléculas está localizada perto da superfície e movendo-se na direção correta para escapar do líquido em um certo instante, a taxa de evaporação é limitada. Além disso, como as moléculas de maior energia escapam e as que ficam têm menor energia cinética média, a temperatura do líquido diminui. Este fenômeno também é chamado de ''resfriamento evaporativo''. Um exemplo para tal fenômeno é a transpiração (suor).
+
+=== Equilíbrio evaporativo ===
+
+Se a evaporação ocorrer em um recipiente fechado, as moléculas que escapam do líquido acumulam-se na forma de vapor acima do líquido. Muitas dessas moléculas, aliás, retornam ao líquido. Quando o processo de escape e retorno alcança um equilíbrio, o vapor é chamado de ''saturado'', e não ocorrem mudanças adicionais na pressão de vapor ou na temperatura do líquido.
+
+=== Evaporação da água ===
+
+É um erro dizer que somente existe vapor d'água a 100 &deg;C a 1 atm. As moléculas de água estão em um estado constante de evaporação e condensação perto da superfície da água líquida. Se uma molécula na superfície da água recebe energia suficiente, ela deixará o líquido, com formação de vapor a uma certa pressão. A uma pressão de vapor de 1 atm, a água acaba fervendo, e isto ocorre a 100 &deg;C.
+
+A razão entre a perda de calor de uma superfície de água por evaporação e a perda de calor devido à convecção, independente da velocidade do vento, é dada por: 
+
+:<math>{Q_{c,pa} \over Q_e} = {0.46(T_p -T_a) \over P_{wp} - P_a}{p \over 760}</math>
+isto não existe..
+
+onde <math>Q_{c,pa}</math> é a perda de calor de uma superfície de água por convecção em W/(m<sup>2</sup>•K), <math>Q_e</math> é a perda de calor de uma superfície de água por evaporação em W/(m<sup>2</sup>•K), <math>T_p</math> e <math>T_a</math> são as temperaturas da água e do ar em Kelvin (ou Celsius) e <math>P_{wp}</math> e <math>P_a</math> são as pressões do vapor da superfície da água e do ar e <math>p</math> é a pressão barométrica, com todas pressões em mmHg (Bowen, 1926).
+
+A equação de Bowen foi modificada por Sartori (1987) que incluiu um parâmetro que permite o cálculo dos três casos de fluxo de massa que podem ocorrer quando uma superfície livre de água é exposta ao ar, cujas situações não podem ser previstas somente com a equação de Bowen. Então, a equação de Bowen-Sartori se torna: 
+
+:<math>{Q_{c,pa} \over Q_e} = {0.46(T_p -T_a) \over P_{wp} - (rh X P_a)}{p \over 760}</math>
+
+onde rh é a umidade relativa. 
+
+Referências:
+
+Sartori, E. "A mathematical model for predicting heat and mass transfer from a free water surface". Proc. ISES Solar World Congress, Germany (1987).
+
+Sartori, E. “Solar still versus solar evaporator: a comparative study between their thermal behaviors”. Solar Energy, 56/2 (1996).  

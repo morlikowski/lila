@@ -1,0 +1,62 @@
+The '''Ehrenfest theorem''', named after expectation value for a quantum mechanical operator to the Hamiltonian of the system.  It is
+
+:<math>\frac{d}{dt}\langle A\rangle = \frac{1}{i\hbar}\langle [A,H] \rangle + \left\langle \frac{\partial A}{\partial t}\right\rangle </math>
+
+where A is some QM operator and <math>\langle A\rangle</math> is its expectation value.  Ehrenfest's theorem is obvious in the Heisenberg picture of quantum mechanics, where it is just the expectation value of the Heisenberg equation of motion.  
+
+Ehrenfest's theorem is closely related to Liouville's theorem from Hamiltonian mechanics, which involves the Poisson bracket instead of a commutator.  In fact, it is a general rule of thumb that a theorem in quantum mechanics which contains a commutator can be turned into a theorem in classical mechanics by changing the commutator into a Poisson bracket and multiplying by <math>i\hbar</math>.
+
+== Derivation ==
+
+Suppose some system is presently in a quantum state <math>\Phi</math>.  If we want to know the instantaneous time derivative of the expectation value of A, that is, by definition
+
+:<math> \frac{d}{dt}\langle A\rangle = \frac{d}{dt}\int \Phi^* A \Phi~dx^3 = \int \left( \frac{\partial \Phi^*}{\partial t} \right) A\Phi~dx^3 + \int \Phi^* \left( \frac{\partial A}{\partial t}\right) \Phi~dx^3 +\int \Phi^* A \left( \frac{\partial \Phi}{\partial t} \right) ~dx^3 </math>
+
+:<math> = \int \left( \frac{\partial \Phi^*}{\partial t} \right) A\Phi~dx^3 + \left\langle \frac{\partial A}{\partial t}\right\rangle + \int \Phi^* A \left( \frac{\partial \Phi}{\partial t} \right) ~dx^3, </math>
+
+where we are integrating over all space.  Often (but not always) the operator A is time independent, so that its derivative is zero and we can ignore the middle term.  If we apply the Schrödinger equation, we find that
+
+:<math>\frac{\partial \Phi}{\partial t} = \frac{1}{i\hbar}H\Phi</math>
+
+and
+
+:<math>\frac{\partial \Phi^*}{\partial t} = \frac{-1}{i\hbar}\Phi^*H^* = \frac{-1}{i\hbar}\Phi^*H.</math>
+
+Notice <math>H=H^*</math> because the Hamiltonian is hermitian.  Placing this into the above equation we have
+
+:<math>\frac{d}{dt}\langle A\rangle = \frac{1}{i\hbar}\int \Phi^* (AH-HA) \Phi~dx^3 + \left\langle \frac{\partial A}{\partial t}\right\rangle = \frac{1}{i\hbar}\langle [A,H]\rangle + \left\langle \frac{\partial A}{\partial t}\right\rangle.</math>
+
+== General example ==
+
+Das '''Ehrenfest-Theorem''', benannt nach dem österreichischen Physiker klassischen Mechanik und der Quantenmechanik her. Es besagt, dass unter bestimmten Bedingungen die klassischen Bewegungsgleichungen für die Mittelwerte der Quantenmechanik gelten; die klassische Mechanik also in gewissem Maße in der Quantenmechanik enthalten ist (Korrespondenzprinzip).
+
+Mathematisch drückt sich das in seiner allgemeinsten Form so aus, dass die vollständige Zeitableitung des Erwartungswertes eines quantenmechanischen Operators mit dem Kommutator dieses Operators und des Hamiltonoperators wie folgt in Zusammenhang stehen:
+
+:<math>\frac{d}{dt}\langle O\rangle = \frac{i}{\hbar}\langle [H,O] \rangle + \left\langle \frac{\partial O}{\partial t}\right\rangle</math>
+
+Dabei stellt O einen quantenmechanischen Operator und <math>\langle O \rangle</math> dessen Erwartungswert dar.
+
+== Anwendung ==
+Im Hamilton-Formalismus der klassischen Mechanik gilt für die Zeitentwicklung einer Phasenraumfunktion:
+
+<math>\frac{d}{dt}f(p,q,t) = \{H,f\} + \frac{\partial f}{\partial t}</math>
+
+mit der Poisson-Klammer <math>\{H,f\} = \nabla_q H \nabla_p f - \nabla_p H \nabla_q f</math>. Bei der Quantisierung wird die Poisson-Klammer durch den mit <math>i\hbar</math> multiplizierten Kommutator ersetzt. Das quantenmechanische Analogon einer Phasenraumfunktion ist ein Operator (Observable). Somit ist das Ehrenfest-Theorem das direkte Analogon zu der obigen klassischen Aussage. 
+
+Für den Spezialfall des nicht explizit zeitabhängigen Impulsoperators p gilt somit:
+
+:<math>\frac{d}{dt} \langle p \rangle = \frac{i}{\hbar} \langle [H,p] \rangle = \frac{i}{\hbar} \langle [V,p]\rangle = \frac{i}{\hbar} \langle -\frac{\hbar}{i} \nabla V \rangle = - \langle \nabla V \rangle</math>
+
+Da weiterhin für die Zeitentwicklung des Ortsoperators folgt
+
+:<math>\frac{d}{dt}\langle x\rangle = \frac{i}{\hbar}\langle[H,x]\rangle =\frac{1}{m}\langle p\rangle</math>
+
+lässt sich folgern:
+
+:<math>m\frac{d^2}{dt^2}\langle x\rangle = -\langle\nabla V\rangle = \langle F(x)\rangle</math>
+
+Lässt sich nun der Erwartungswert der Funktion F der Position x durch die Funktion F des Erwartungswerts der Position x nähern, so erhält man
+
+:<math>\langle F(x)\rangle\approx F(\langle x \rangle) \qquad (*)</math>
+
+und somit

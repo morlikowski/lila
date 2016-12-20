@@ -1,0 +1,75 @@
+Az '''oldhatóság''' fogalma alatt a komponens esetében ez függ az oldószer anyagi minőségétől, a hőmérséklettől és – főként gáz oldódása esetén – a komponens parciális nyomásától.
+
+Ez megadja például, hogy 100 g oldószerben az adott komponensből – adott hőmérsékleten és nyomáson – maximálisan hány gramm oldható fel.
+
+Mértékegysége: g/100g oldószer. Az oldhatóság mértékének megadására azonban valamennyi ismert koncentráció-mértékegység használható.
+
+<div align="center">
+'''Néhány jól oldódó szilárd vegyület oldhatósága vízben'''
+'''20 °C-on'''
+{| class="wikitable"
+! Vegyület || Oldhatósága (g/100g víz)
+|-
+| '''AgNO<sub>3</sub>''' || 220
+|-
+| '''CuSO<sub>4</sub>''' || 21
+|-
+| '''FeCl<sub>3</sub>''' || 92
+|-
+| '''KMnO<sub>4</sub>''' || 6,5
+|-
+| '''KNO<sub>3</sub>''' || 32
+|-
+| '''NH<sub>4</sub>NO<sub>3</sub>''' || 192
+|-
+| '''NaCl''' || 36
+|-
+| NaOH || 109
+|}
+
+'''Néhány, rosszul oldódó szilárd vegyület oldhatósága vízben,'''
+'''20 °C-on <br>(ahol ''L'' az oldhatósági szorzat, és ''pL''= -lg(L) ).
+{| class="wikitable"
+! Vegyület || Oldhatóságai szorzata (pL)'''
+|-
+| AgCl || 9,8
+|-
+| Ag<sub>2</sub>SO<sub>4</sub> || 4,8
+|-
+| BaSO<sub>4</sub> || 9,9
+|-
+| Bi<sub>2</sub>S<sub>3</sub> || 97,0
+|-
+| CaCO<sub>3</sub> || 8,3
+|-
+| CaSO<sub>4 || 5,9
+|-
+| HgS || 52,4
+|-
+| PbSO<sub>4 || 7,8
+|}
+
+La '''solubilité''' d'un composé ionique ou moléculaire, appelé moles de ce composé que l'on peut dissoudre ou dissocier, à une température donnée, dans un saturée.
+
+Le solvant le plus courant est l'eau. Le soluté peut être un gaz (exemple: air dans l'eau), un liquide (exemple: alcool dans l'eau) ou un solide (exemple: sel de cuisine NaCl dans l'eau). L'eau est l'un des solvants les plus efficaces pour dissoudre les composés ioniques ou polaires.
+
+La dissolution simple d'un composé est endothermique: par exemple la dissolution de sucre (solide moléculaire) dans l'eau. Cependant, lorsque d'autres réactions interviennent lors de la dissolution, le phénomène global peut être exothermique: exemple la dissolution dans l'eau de l'acide sulfurique H<sub>2</sub>SO<sub>4</sub> est très exothermique à cause de la solvatation des ions obtenus H<sub>3</sub>O<sup>+</sup> et SO<sub>4</sub><sup>2–</sup>.
+
+Dans le cas d'un composé solide ionique, la constante d'équilibre de la réaction de dissolution est appelée produit de solubilité et est notée '''K<sub>s(T)</sub>'''. Elle ne dépend que de la température T et en général elle augmente avec celle-ci. La solubilité S est fonction de ce produit de solubilité et varie dans le même sens.
+
+==Expression du produit de solubilité==
+
+Considérons la réaction suivante :
+
+<math>A_{m}B_{n}(s) \Longleftrightarrow  m.A^{n+}(aq) + n.B^{m-}(aq)~</math>
+
+Le produit de solubilité '''Ks'''   est donné par la relation : '''Ks  =  [a(A<sup>n+</sup>)]<sup>m</sup> x [a(B<sup>m–</sup>)]<sup>n</sup>'''
+
+Les expressions '''a(A<sup>n+</sup>)''' et '''a(B<sup>m–</sup>)''' correspondent aux activités des espèces ioniques. Aux faibles concentrations on peut confondre activité et concentration.
+Plus le  '''Ks''' est faible, plus le produit est insoluble.
+
+==Relation entre produit de solubilité et solubilité==
+
+Considérons la réaction suivante :
+
+<math>A_{m}B_{n}(s) \Longleftrightarrow  m.A^{n+}(aq) + n.B^{m-}(aq)~</math>

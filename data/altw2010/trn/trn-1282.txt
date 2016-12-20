@@ -1,0 +1,74 @@
+'''Symmetry in physics''' refers to features of a transformations, aspects of these systems are "unchanged", according to a particular observation.  A '''symmetry of a physical system''' is a physical or mathematical feature of the system (observed or intrinsic) that is "preserved" under some change.
+
+The transformations may be ''continuous'' (such as discrete'' (e.g., reflection of a bilaterally symmetric figure, or rotation of a regular polygon). Continuous and discrete transformations give rise to corresponding types of symmetries. Continuous symmetries can be described by Lie groups while discrete symmetries are described by finite groups (see Symmetry group). Symmetries are frequently amenable to mathematical formulation and can be exploited to simplify many problems.
+
+== Symmetry as invariance ==
+Invariance is specified mathematically by transformations that leave some quantity unchanged. This idea can apply to basic real-world observations. For example, temperature may be constant throughout a room. Since the temperature is independent of position within the room,  the temperature is ''invariant'' under a shift in the measurer's position. 
+
+Similarly, a uniform sphere rotated about its center will appear exactly as it did before the rotation. The sphere is said to exhibit axis of the sphere will preserve how the sphere "looks".
+
+=== Invariance in force ===
+The above ideas lead to the useful idea of ''invariance'' when discussing observed physical symmetry; this can be applied to symmetries in forces as well.
+
+For example, an electrical wire is said to exhibit cylindrical symmetry, because the electric field strength at a given distance <math>r</math> from an electrically charged wire of infinite length will have the same magnitude at each point on the surface of a cylinder (whose axis is the wire) with radius <math>r</math>. Rotating the wire about its own axis does not change its position, hence it will preserve the field. The field strength at a rotated position is the same, but its direction is rotated accordingly. These two properties are interconnected through the more general property that rotating ''any'' system of charges causes a corresponding rotation of the electric field.
+
+In Newton's theory of mechanics, given two equal masses <math>m</math> starting from rest at the origin and moving along the x-axis in opposite directions, one with speed <math>v_1</math> and the other with speed <math>v_2</math> the total kinetic energy of the system (as calculated from an observer at the origin) is <math>\frac{1}{2}m(v_1^2 + v_2^2)</math> and remains the same if the velocities are interchanged. The total kinetic energy is preserved under a reflection in the y-axis. 
+
+The last example above illustrates another way of expressing symmetries, namely through the equations that describe some aspect of the physical system. The above example shows that the total kinetic energy will be the same if <math>v_1</math> and <math>v_2</math> are interchanged.
+
+== Local and global symmetries ==
+
+Symmetries may be broadly classified as ''global'' or ''local''. A ''global symmetry'' is one that holds at all points of gauge theories.
+
+==Continuous symmetries==
+The two examples of rotational symmetry described above - spherical and cylindrical - are each instances of continuous or smooth functions. An important subclass of continuous symmetries in physics are spacetime symmetries.
+
+===Spacetime symmetries===
+
+Continuous ''spacetime symmetries'' are symmetries involving transformations of space and time. These may be further classified as ''spatial symmetries'', involving only the spatial geometry associated with a physical system; ''temporal symmetries'', involving only changes in time; or ''spatio-temporal symmetries'', involving changes in both space and time.
+
+* '''''Time translation''''': A physical system may have the same features over a certain interval of time <math>\delta t</math>; this is expressed mathematically as invariance under the transformation <math>t \, \rightarrow t + a </math> for any real numbers ''t'' and ''a'' in the interval. For example, in classical mechanics, a particle solely acted upon by gravity will have gravitational potential energy <math>\, mgh</math> when suspended from a height <math>h</math> above the Earth's surface. Assuming no change in the height of the particle, this will be the total gravitational potential energy of the particle at all times. In other words, by considering the state of the particle at some time (in seconds) <math>t_0</math> and also at <math>t_0 + 3</math>, say, the particle's total gravitational potential energy will be preserved.
+
+* '''''Spatial translation''''': These spatial symmetries are represented by transformations of the form <math>\vec{r} \, \rightarrow \vec{r} + \vec{a}</math> and describe those situations where a property of the system does not change with a continuous change in location. For example, the temperature in a room may be independent of where the thermometer is located in the room. 
+
+* '''''Spatial rotation''''': These spatial symmetries are classified as proper rotations and improper rotations. The former are just the 'ordinary' rotations; mathematically, they are represented by square matrices with unit determinant. The latter are represented by square matrices with determinant ''-1'' and consist of a proper rotation combined with a spatial reflection (inversion). For example, a sphere has proper rotational symmetry. Other types of spatial rotations are described in the article ''Rotation symmetry''.
+
+* '''''Poincaré transformations''''': These are spatio-temporal symmetries which preserve distances in Minkowski spacetime, i.e. they are isometries of Minkowski space. They are studied primarily in special relativity. Those isometries that leave the origin fixed are called Lorentz transformations and give rise to the symmetry known as Lorentz covariance.
+
+* '''''Projective symmetries''''': These are spatio-temporal symmetries which preserve the geodesic structure of spacetime. They may be defined on any smooth manifold, but find many applications in the study of exact solutions in general relativity.
+
+* '''''Inversion transformations''''': These are spatio-temporal symmetries which generalise Poincaré transformations to include other conformal one-to-one transformations on the space-time coordinates. Lengths are not invariant under inversion transformations but there is a cross-ratio on four points that is invariant.
+
+Mathematically, spacetime symmetries are usually described by smooth vector fields on a smooth manifold. The underlying local diffeomorphisms associated with the vector fields correspond more directly to the physical symmetries, but the vector fields themselves are more often used when classifying the symmetries of the physical system.
+
+Some of the most important vector fields are metric structure of a manifold. In rough terms, Killing vector fields preserve the distance between any two points of the manifold and often go by the name of isometries. The article ''Isometries in physics'' discusses these symmetries in more detail.
+
+==Discrete symmetries==
+
+Wirken Transformationen invertierbar auf Objekte, beispielsweise Drehungen auf die Punkte in einer Ebene, dann sind sie eine '''Symmetrie''' jedes Objekts, das sie dabei unverändert lassen. Beispielsweise sind Drehungen Symmetrien von Kreisen um den Drehpunkt.
+
+Die Transformationen können kontinuierlich sein wie beispielsweise 
+Verschiebungen um beliebige Strecken oder Drehungen um beliebige Winkel, aber auch diskret wie zum Beispiel eine Spiegelung oder Verschiebungen um ganzzahlige Vielfache von Gitterabständen oder Drehungen um Vielfache des rechten Winkels. 
+
+Eine Symmetrie der Bewegungsgleichungen eines physikalischen Systems liegt vor, wenn alle Lösungen der Bewegungsgleichungen wieder auf Lösungen abgebildet werden. Sind beispielsweise  
+die Bewegungsgleichungen invariant unter Spiegelungen, dann ist jeder gespiegelte Ablauf genauso möglich wie das Urbild.
+
+=== Kontinuierliche Symmetrien ===
+Folgen die physikalischen Gleichungen aus den Prinzip der stationären Wirkung , so gehört zu jeder kontinuierlichen Symmetrie dieser Wirkung nach dem Erhaltungsgröße und umgekehrt gehört zu jeder nichttrivialen Erhaltungsgröße eine kontinuierliche Symmetrie der Wirkung. (Eine  Erhaltungsgröße ist nichttrivial, wenn sie von den Größen wie Ort und Geschwindigkeit abhängt, die man anfänglich mit unterschiedlichen Werten vorgeben kann.)
+
+Die wichtigsten kontinuierlichen Symmetrien der Physik sind:
+* '''Homogenität der Zeit''': Das Ergebnis eines Experiments hängt nicht davon ab, wann es durchgeführt wird <math>\left(\frac{\partial \mathcal{L}(q,\dot{q},t)}{\partial t}=0\right)</math>. Die zugehörige Erhaltungsgröße ist die Energie.
+* '''Homogenität des Raumes''' : Das Ergebnis eines Experiments hängt nicht davon ab, wo es durchgeführt wird <math>\left(\frac{\partial \mathcal{L}(q,\dot{q},t)}{\partial q}=0\right)</math>. Die zugehörige Erhaltungsgröße ist der Impuls.
+* '''Isotropie des Raumes''': Das Ergebnis eines Experiments hängt nicht von der Wahl der räumlichen Richtungen ab. Die zugehörige Erhaltungsgröße ist der Drehimpuls.
+* '''Relativitätsprinzip''': Das Ergebnis eines Experiments hängt nicht von der Geschwindigkeit des Inertialsystem ab, in dem es durchgeführt wird. Die zugehörige Erhaltungsgröße führt auf den Schwerpunktsatz.
+
+=== Diskrete Symmetrien ===
+Die wichtigsten diskreten Symmetrien der Physik sind:
+* '''Gittersymmetrien''': Diese Symmetrien beschreiben den Aufbau der Festkörper und bilden die Grundlage der Kristallgittern Raumgruppe.
+* '''Rauminversion P''' (Paritätstransformation): Spiegelung des Raumes an einem Punkt
+* '''Zeitinversion T''': Umkehr aller anfänglichen Geschwindigkeiten und Ströme  
+* '''Ladungskonjugation C''': Austausch von Teilchen gegen Antiteilchen. 
+
+=== Symmetrieverletzungen ===
+
+Die meisten Theorien erfüllen die oben genannten Symmetrien, allerdings nicht alle: Die Thermodynamik ist nicht T-invariant, da die Zunahme der Entropie eine Zeitrichtung auszeichnet (siehe auch: Zeitpfeil) - alltägliches Beispiel ist die zerbrochene Tasse, die sich nicht von selbst wieder zusammenfügt.

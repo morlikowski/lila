@@ -1,0 +1,183 @@
+La '''théorie de l'information''' se préoccupe des systèmes d'information, des systèmes de communication et de leur efficacité. La notion de système d'information ou de communication étant large, il en va de même de la théorie de l'information.
+
+Ce domaine trouve son origine scientifique avec Claude Shannon qui en est le père fondateur avec son article ''A Mathematical Theory of Communications'' publié en 1948.
+
+Parmi les branches importantes, on peut citer :
+* le codage de l'information,
+* la mesure quantitative de redondance d'un texte,
+* la compression de données,
+* la cryptographie.
+
+La force de cette théorie est de ne pas chercher à définir la notion d'information, tout comme l'arithmétique ne définit pas ce qu'est un nombre.
+
+L'apparition de la théorie de l'information est liée à l'apparition de la psychologie cognitive dans les années 1940 - 1950.
+
+== Historique ==
+
+La '''théorie de l'Information''' résulte initialement des travaux de Ronald  Aylmer Fisher. Celui-ci, statisticien, définit formellement l'Cramer, la valeur d'une telle ''information'' est proportionnelle à la faible variabilité des conclusions résultantes. En termes simples, ''moins'' une observation est probable, ''plus'' son observation est porteuse d'information. Par exemple, lorsque le journaliste commence le journal télévisé par la phrase "Bonsoir", ce mot, qui présente une forte probabilité, n'apporte que peu d'information. En revanche, si la première phrase est, par exemple "La France a peur", sa faible probabilité fera que l'auditeur apprendra qu'il s'est passé quelque chose, et, partant, sera plus à l'écoute.
+
+D'autres modèles mathématiques ont complété et étendu de façon formelle la définition de l'information.
+
+chaos, par analogie générale aux lois d'énergétique et de thermodynamique. Leurs travaux complétant ceux d'Alan Turing, de Norbert Wiener et de John von Neumann (pour ne citer que les principaux) constituent le socle initial de la ''théorie du signal'' et des « Sciences de l'Information ».
+
+Pour une source X comportant n symboles, un symbole i ayant une probabilité <math>p_i</math> d'apparaître, l'entropie H de la source X est définie comme :
+<center>
+<math> H(X)=-\sum_i^n p_i log_2 p_i</math>
+</center>
+
+C'est au départ le logarithme népérien qui est utilisé. On le remplacera pour commodité par le logarithme à base 2, correspondant à une information qui est le bit. Les considérations d'entropie maximale ([http://www.cs.cmu.edu/~aberger/maxent.html MAXENT]) permettront à l'inférence bayésienne de définir de façon rationnelle ses ''distributions a priori.
+
+L'informatique constituera une déclinaison technique automatisant les traitements (dont la transmission et le transport) d'information. L'appellation « Technologies de l'Information et de la Communication » recouvre les différents aspects (systèmes de traitements, réseaux, etc.) de l'informatique au sens large.
+
+Les sciences de l'information dégagent du sens depuis des corrélation, d'entropie et d'apprentissage (voir Data mining). Les technologies de l'information, quant à elles, s'occupent de la façon de concevoir, implémenter et déployer des solutions pour répondre à des besoins identifiés.
+
+Adrian Mc Donough dans ''Information economics'' définit l'information comme la rencontre d'une donnée (data) et d'un problème. La connaissance (Knowledge) est une information potentielle. Le rendement informationnel d'un système de traitement de l'information est le quotient entre le nombre de bits du réservoir de données et celui de l'information extraite. Les data sont le ''cost side'' du système, l'information, le ''value side''. Il en résulte que lorsqu'un informaticien calcule la productivité de son système par le rapport entre la quantité de données produites et le coût financier, il commet une erreur, car les deux termes de l'équation négligent la quantité d'information réellement produite. Cette remarque prend tout son sens à la lumière du grand principe de Russel  Ackoff qui postule qu'au delà d'une certaine masse de données, la quantité d'information baisse et qu'à la limite elle devient nulle. Ceci correspond à l'adage "trop d'information détruit l'information". Ce constat est aggravé lorsque le récepteur du système est un processeur humain, et pis encore, le conscient d'un agent humain. En effet, l'information est tributaire de la sélection opérée par l'attention, et par l'intervention de données affectives, émotionnelles, et structurelles absentes de l'ordinateur. L'information se transforme alors en sens, puis en motivation. Une information qui ne produit aucun sens est nulle et non avenue pour le récepteur humain, même si elle est acceptable pour un robot. Une information chargée de sens mais non irriguée par une énergie psychologique (drive, cathexis, libido, ep, etc.) est morte. On constate donc que dans la chaîne qui mène de la donnée à l'action:- données - information - connaissance - sins - motivation,  seule les deux premières transformations sont prises en compte par la théorie de l'information classique et par la sémiologie. Kevin Bronstein remarque que l'automate ne définit l'information que par deux valeurs : le nombre de bits, la structure et l'organisation des sèmes, alors que le psychisme fait intervenir des facteurs dynamiques tels que passion, motivation, désir, répulsion etc. qui donnent vie à ''l'information psychologique''.
+
+== Exemples d'information ==
+
+Une information désigne, parmi un ensemble d'événements, un ou plusieurs événements possibles.
+
+En théorie, l'information diminue l'incertitude. En théorie de la décision, on considère même qu'il ne faut appeler ''information'' que ce qui est susceptible ''d'avoir un effet sur nos décisions'' (peu de choses dans un journal sont à ce compte des informations...). 
+
+En pratique, l'excès d'information, tel qu'il se présente dans les systèmes de messagerie électronique, peut aboutir à une saturation, et empêcher la prise de décision.
+
+=== Premier exemple ===
+
+Soit une source pouvant produire des tensions entières de 1 à 10 volts et un récepteur qui va mesurer cette tension. Avant l'envoi du courant électrique par la source, le récepteur n'a aucune idée de la tension qui sera délivrée par la source. En revanche, une fois  le courant émis et réceptionné, l'incertitude sur le courant émis diminue. La théorie de l'information considère que ''le récepteur possède une incertitude de 10 états''.
+
+=== Second exemple ===
+Une bibliothèque possède un grand nombre d'ouvrages, des revues, des livres et des dictionnaires. Nous cherchons un cours <u>complet</u> sur la théorie de l'information. Tout d'abord, il est logique que nous ne trouverons pas ce dossier dans des ouvrages d'arts ou de littérature; nous venons donc d'obtenir une information qui diminuera notre temps de recherche. Nous avions précisé que nous voulions aussi un cours <u>complet</u>, nous ne le trouverons donc ni dans une revue, ni dans un dictionnaire. nous avons obtenu une information supplémentaire (nous cherchons un livre), qui réduira encore le temps de notre recherche.
+
+=== Information imparfaite ===
+
+Soit un réalisateur dont j'aime deux films sur trois. Un critique que je connais bien éreinte son dernier film et je sais que je partage en moyenne les analyses de ce critique quatre fois sur cinq. Cette critique me dissuadera-t-elle d'aller voir le film ? C'est là la question centrale de l'inférence bayésienne, qui se quantifie aussi en ''bits''.
+
+==Contenu d'information et contexte==
+
+Il faut '''moins''' de bits pour écrire ''chien'' que ''mammifère''. Pourtant l'indication ''Médor est un chien'' contient bien '''plus''' d'information que l'indication ''Médor est un mammifère'' : '''le contenu d'information ''sémantique'' d'un message dépend du ''contexte'''''. En fait, ''c'est le couple message + contexte qui constitue le véritable porteur d'information'', et jamais le message seul (voir paradoxe du compresseur).
+
+== Mesure de la quantité d'information ==
+=== Quantité d'information : cas élémentaire ===
+Considérons N boîtes numérotées de 1 à N. Un individu A a caché au hasard un objet dans une de ces boîtes. Un individu B doit trouver le numéro de la boîte où est caché l'objet. Pour cela, il a le droit de poser des questions à l'individu A auxquelles celui-ci doit répondre sans mentir par OUI ou NON. Mais chaque question posée représente un coût à payer par l'individu B (par exemple un euro). Un individu C sait dans quelle boîte est caché l'objet. Il a la possibilité de vendre cette information à l'individu B. B n'acceptera ce marché que si le prix de C est inférieur ou égal au coût moyen que B devrait dépenser pour trouver la boîte en posant des questions à A. L'information détenue par C a donc un certain prix. Ce prix représente la quantité d'information représentée par la connaissance de la bonne boîte : c'est le nombre moyen de questions à poser pour identifier cette boîte. Nous la noterons I.
+
+'''EXEMPLE :'''
+
+Si N = 1, I = 0. Il n'y a qu'une seule boîte. Aucune question n'est nécessaire.
+
+Si N = 2, I = 1. On demande si la bonne boîte est la boîte n°1. La réponse OUI ou NON détermine alors sans ambiguïté quelle est la boîte cherchée.
+
+'''Information theory''' is a branch of communicating data.  Since its inception it has broadened to find applications in many other areas, including statistical inference, natural language processing, cryptography generally, networks other than communication networks -- as in neurobiology,<ref>F. Rieke, D. Warland, R Ruyter van Steveninck, W Bialek,  Spikes: Exploring the Neural Code. The MIT press (1997). </ref> the evolution<ref>cf. Huelsenbeck, J. P., F. Ronquist, R. Nielsen and J. P. Bollback (2001) Bayesian inference of phylogeny and its impact on evolutionary biology, ''Science'' '''294''':2310-2314</ref> and function<ref>Rando Allikmets, Wyeth W. Wasserman, Amy Hutchinson, Philip Smallwood, Jeremy Nathans, Peter K. Rogan, [http://www.lecb.ncifcrf.gov/~toms/ Thomas D. Schneider], Michael Dean (1998) Organization of the ABCR gene: analysis of promoter and splice junction sequences, ''Gene'' '''215''':1, 111-122</ref> of molecular codes, model selection<ref>Burnham, K. P. and Anderson D. R. (2002) ''Model Selection and Multimodel Inference: A Practical Information-Theoretic Approach, Second Edition'' (Springer Science, New York) ISBN 978-0-387-95364-9.</ref> in ecology, thermal physics,<ref>Jaynes, E. T. (1957) [http://bayes.wustl.edu/ Information Theory and Statistical Mechanics], ''Phys. Rev.'' '''106''':620</ref> quantum computing, plagiarism detection<ref>Charles H. Bennett, Ming Li, and Bin Ma (2003) [http://sciamdigital.com/index.cfm?fa=Products.ViewIssuePreview&ARTICLEID_CHAR=08B64096-0772-4904-9D48227D5C9FAC75 Chain Letters and Evolutionary Histories], ''Scientific American'' '''288''':6, 76-81</ref> and other forms of data analysis.<ref>
+{{Cite web
+  | author = David R. Anderson
+  | title = Some background on why people in the empirical sciences may want to better understand the information-theoretic methods
+  | date = November 1, 2003
+  | url = http://www.jyu.fi/science/laitokset/bioenv/en/coeevolution/events/itms/why
+  | format = pdf
+  | accessdate = 2007-12-30}}
+</ref>
+
+A key measure of information in the theory is known as information entropy, which is usually expressed by the average number of bits needed for storage or communication.  Intuitively, entropy quantifies the uncertainty involved when encountering a random variable. For example, a fair coin flip (2 equally likely outcomes) will have less entropy than a roll of a die (6 equally likely outcomes).
+
+Applications of fundamental topics of information theory include ZIP files), channel coding (e.g. for Voyager missions to deep space, the invention of the CD, the feasibility of mobile phones, the development of the Internet, the study of linguistics and of human perception, the understanding of black holes, and numerous other fields. Important sub-fields of information theory are source coding, channel coding, algorithmic complexity theory, algorithmic information theory, and measures of information.
+
+==Overview==
+The main concepts of information theory can be grasped by considering the most widespread means of human communication: language.  Two important aspects of a good language are as follows:  First, the most common words (e.g., "a", "the", "I") should be shorter than less common words (e.g., "benefit", "generation", "mediocre"), so that sentences will not be too long.  Such a tradeoff in word length is analogous to channel coding. Source coding and channel coding are the fundamental concerns of information theory.
+
+Note that these concerns have nothing to do with the ''importance'' of messages. For example, a platitude such as "Thank you; come again" takes about as long to say or write as the urgent plea, "Call an ambulance!" while clearly the latter is more important and more meaningful. Information theory, however, does not consider message importance or meaning, as these are matters of the quality of data rather than the quantity and readability of data, the latter of which is determined solely by probabilities.
+
+Information theory is generally considered to have been founded in 1948 by Claude Shannon in his seminal work, "entropy; and Shannon's noisy-channel coding theorem, which states that ''reliable'' communication is possible over ''noisy'' channels provided that the rate of communication is below a certain threshold called the channel capacity. The channel capacity can be approached in practice by using appropriate encoding and decoding systems.
+
+Information theory is closely associated with a collection of pure and applied disciplines that have been investigated and reduced to engineering practice under a variety of rubrics throughout the world over the past half century or more: adaptive systems, anticipatory systems, artificial intelligence, complex systems, complexity science, cybernetics, informatics, machine learning, along with systems sciences of many descriptions. Information theory is a broad and deep mathematical theory, with equally broad and deep applications, amongst which is the vital field of coding theory.
+
+Coding theory is concerned with finding explicit methods, called ''codes'', of increasing the efficiency and reducing the net error rate of data communication over a noisy channel to near the limit that Shannon proved is the maximum possible for that channel. These codes can be roughly subdivided into codes and ciphers). Concepts, methods and results from coding theory and information theory are widely used in cryptography and cryptanalysis. ''See the article ban (information) for a historical application.''
+
+Information theory is also used in intelligence gathering, gambling, statistics, and even in musical composition.
+
+==Historical background==
+
+The landmark event that established the discipline of information theory, and brought it to immediate worldwide attention, was the publication of Claude E. Shannon's classic paper "A Mathematical Theory of Communication" in the ''Bell System Technical Journal'' in July and October of 1948.
+
+Prior to this paper, limited information theoretic ideas had been developed at Bell Labs, all implicitly assuming events of equal probability.  hartley in his honour as a unit or scale or measure of information. Enigma ciphers.
+
+Much of the mathematics behind information theory with events of different probabilities was developed for the field of thermodynamics by Ludwig Boltzmann and J. Willard Gibbs.  Connections between information-theoretic entropy and thermodynamic entropy, including the important contributions by Rolf Landauer in the 1960s, are explored in ''Entropy in thermodynamics and information theory''.
+
+In Shannon's revolutionary and groundbreaking paper, the work for which had been substantially completed at Bell Labs by the end of 1944, Shannon for the first time introduced the qualitative and quantitative model of communication as a statistical process underlying information theory, opening with the assertion that
+:"The fundamental problem of communication is that of reproducing at one point, either exactly or approximately, a message selected at another point."
+
+With it came the ideas of
+* the redundancy of a source, and its relevance through the source coding theorem;
+* the mutual information, and the channel capacity of a noisy channel, including the promise of perfect loss-free communication given by the noisy-channel coding theorem;
+* the practical result of the Shannon–Hartley law for the channel capacity of a Gaussian channel; and of course
+* the bit—a new way of seeing the most fundamental unit of information
+
+==Ways of measuring information==
+
+Information theory is based on entropy, the information in a compressed while the latter can be used to find the communication rate across a channel.
+
+The choice of logarithmic base in the following formulae determines the unit of nat, which is based on the hartley, which is based on the common logarithm.
+
+In what follows, an expression of the form <math>p \log p \,</math> is considered by convention to be equal to zero whenever <math>p=0.</math>  This is justified because <math>\lim_{p \rightarrow 0+} p \log p = 0</math> for any logarithmic base.
+
+===Entropy===
+thumbnail|right|200px|Entropy of a [[Bernoulli trial as a function of success probability, often called the '''binary entropy function''', <math>H_\mbox{b}(p)</math>.  The entropy is maximized at 1 bit per trial when the two possible outcomes are equally probable, as in an unbiased coin toss.]]
+The '''entropy''', <math>H</math>, of a discrete random variable <math>X</math> is a measure of the amount of ''uncertainty'' associated with the value of <math>X</math>.
+
+Suppose one transmits 1000 bits (0s and 1s).   If these bits are known ahead of transmission (to be a certain value with absolute probability), logic dictates that no information has been transmitted.  If, however, each is equally and independently likely to be 0 or 1, 1000 bits (in the information theoretic sense) have been transmitted.  Between these two extremes, information can be quantified as follows. If <math>\mathbb{X}\,</math> is the set of all messages <math>x</math> that <math>X</math> could be, and <math>p(x)</math> is the probability of <math>X</math> given <math>x</math>, then the entropy of <math>X</math> is defined:<ref name = Reza></ref>
+
+:<math> H(X) = \mathbb{E}_{X} [I(x)] = -\sum_{x \in \mathbb{X}} p(x) \log p(x).</math>
+
+(Here, <math>I(x)</math> is the self-information, which is the entropy contribution of an individual message.) An important property of entropy is that it is maximized when all the messages in the message space are equiprobable—i.e., most unpredictable—in which case <math>H(X) = \log |\mathbb{X}|.</math>
+
+The special case of information entropy for a random variable with two outcomes is the '''binary entropy function''':
+
+:<math>H_\mbox{b}(p) = - p \log p - (1-p)\log (1-p).\,</math>
+
+===Joint entropy===
+The '''independent, then their joint entropy is the sum of their individual entropies.
+
+For example, if <math>(X,Y)</math> represents the position of a chess piece &mdash; <math>X</math> the row and <math>Y</math> the column, then the joint entropy of the row of the piece and the column of the piece will be the entropy of the position of the piece.
+
+:<math>H(X, Y) = \mathbb{E}_{X,Y} [-\log p(x,y)] = - \sum_{x, y} p(x, y) \log p(x, y) \,</math>
+
+Despite similar notation, joint entropy should not be confused with '''cross entropy'''.
+
+===Conditional entropy (equivocation)===
+The '''conditional entropy''' or '''conditional uncertainty''' of <math>X</math> given random variable <math>Y</math> (also called the '''equivocation''' of <math>X</math> about <math>Y</math>) is the average conditional entropy over <math>Y</math>:<ref name=Ash></ref>
+
+:<math> H(X|Y) = \mathbb E_Y [H(X|y)] = -\sum_{y \in Y} p(y) \sum_{x \in X} p(x|y) \log p(x|y) = -\sum_{x,y} p(x,y) \log \frac{p(x,y)}{p(y)}.</math>
+
+Because entropy can be conditioned on a random variable or on that random variable being a certain value, care should be taken not to confuse these two definitions of conditional entropy, the former of which is in more common use.  A basic property of this form of conditional entropy is that:
+
+: <math> H(X|Y) = H(X,Y) - H(Y) .\,</math>
+
+===Mutual information (transinformation)===
+'''Mutual information''' measures the amount of information that can be obtained about one random variable by observing another.  It is important in communication where it can be used to maximize the amount of information shared between sent and received signals.  The mutual information of <math>X</math> relative to <math>Y</math> is given by:
+
+:<math>I(X;Y) = \mathbb{E}_{X,Y} [SI(x,y)] = \sum_{x,y} p(x,y) \log \frac{p(x,y)}{p(x)\, p(y)}</math>
+where <math>SI</math> (''S''pecific mutual ''I''nformation) is the pointwise mutual information.
+
+A basic property of the mutual information is that
+: <math>I(X;Y) = H(X) - H(X|Y).\,</math>
+That is, knowing ''Y'', we can save an average of <math>I(X; Y)</math> bits in encoding ''X'' compared to not knowing ''Y''.
+
+Mutual information is symmetric:
+: <math>I(X;Y) = I(Y;X) = H(X) + H(Y) - H(X,Y).\,</math>
+
+Mutual information can be expressed as the average posterior probability distribution of ''X'' given the value of ''Y'' to the prior distribution on ''X'':
+: <math>I(X;Y) = \mathbb E_{p(y)} [D_{\mathrm{KL}}( p(X|Y=y) \| p(X) )].</math>
+In other words, this is a measure of how much, on the average, the probability distribution on ''X'' will change if we are given the value of ''Y''.  This is often recalculated as the divergence from the product of the marginal distributions to the actual joint distribution:
+: <math>I(X; Y) = D_{\mathrm{KL}}(p(X,Y) \| p(X)p(Y)).</math>
+
+Mutual information is closely related to the log-likelihood ratio test in the context of contingency tables and the Pearson's χ<sup>2</sup> test: mutual information can be considered a statistic for assessing independence between a pair of variables, and has a well-specified asymptotic distribution.
+
+===Kullback–Leibler divergence (information gain)===
+The '''Kullback–Leibler divergence''' (or '''information divergence''', '''information gain''', or '''relative entropy''') is a way of comparing two distributions: a "true" probability distribution ''p(X)'', and an arbitrary probability distribution ''q(X)''. If we compress data in a manner that assumes ''q(X)'' is the distribution underlying some data, when, in reality, ''p(X)'' is the correct distribution, the Kullback–Leibler divergence is the number of average additional bits per datum necessary for compression.  It is thus defined
+
+:<math>D_{\mathrm{KL}}(p(X) \| q(X)) = \sum_{x \in X} -p(x) \log {q(x)} \, - \, \left( -p(x) \log {p(x)}\right) = \sum_{x \in X} p(x) \log \frac{p(x)}{q(x)}.</math>
+
+Although it is sometimes used as a 'distance metric', it is not a true metric since it is not symmetric and does not satisfy the triangle inequality (making it a semi-quasimetric).
+
+===Other quantities===
+Other important information theoretic quantities include Rényi entropy (a generalization of entropy) and differential entropy (a generalization of quantities of information to continuous distributions.)
+
+==Coding theory==

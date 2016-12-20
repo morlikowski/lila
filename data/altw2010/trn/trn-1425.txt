@@ -1,0 +1,449 @@
+<!-- It's OK to leave this template here between launches, so long as the next Zenit launch will also be conducted by Sea Launch. To hide the messagebox after a launch without removing the template, edit Template:Launching/Zenit and change "show=yes" to "show=no". -->
+thumb|300px|Sea Launch command ship ''[[Sea Launch Commander'']]
+
+'''Sea Launch''' is a payloads on specialized Zenit 3SL rockets. As of July 2008 it had assembled and launched 28 rockets with two failures and one partial failure.
+
+The sea-based launch system means the rockets can be fired from the optimum position on Earth's surface, considerably increasing payload capacity and reducing launch costs compared to land-based systems. 
+
+The Sea Launch consortium of four companies from the United States, Russia, Ukraine and Norway, was established in 1995 and their first rocket was launched in March 1999. It is managed by Boeing with participation from the other shareholders. <ref></ref> <ref></ref>
+
+All commercial payloads have been communications satellites intended for EchoStar, DirecTV, XM Satellite Radio, and PanAmSat.
+
+The launcher and its payload are assembled on a purpose-built ship ''Long Beach, California. It is then positioned on top of the self-propelled platform ''Ocean Odyssey'' and moved to the equatorial Pacific Ocean for launch, with the ''Sea Launch Commander'' serving as command center.
+
+Although Sea Launch is currently the world's only ocean-based space launch company, the idea is not unique: in 1964–1988 the University of Rome La Sapienza in Italy and NASA launched spacecraft from the San Marco platform off the coast of Kenya and Shtil' rockets have been used to orbit payloads launched from submarines.
+
+==Ownership and business==
+Four companies from four countries share ownership of Cayman Islands-registered Sea Launch. <ref></ref>
+
+{|class="wikitable"
+|-bgcolor="#cccccc"
+!Company
+!Country of origin
+!Ownership share
+!Contribution
+|-
+|Boeing Commercial Space
+|United States
+|40%
+|System integration, payload enclosures (nose-cone that protects the satellite during launch)
+|-
+|Energia
+|Russia
+|25%
+|Block DM-SL rocket stage (it is used in the Zenit 3SL rocket as its 3rd stage)
+|-
+|Aker Kværner
+|Norway
+|20%
+|Launch platform (''Ocean Odyssey'') and command ship (''Sea Launch Commander'')
+|-
+|SDO Yuzhnoye / PO Yuzhmash
+|Ukraine
+|15%
+|Two-stage Zenit rocket (used as Zenit 3SL's stages 1 and 2)
+|}
+
+The project was helped by Hughes Space and Communications, which in 1995 signed the first contract for 10 launches and 10 options, valued at $1bn, and Space Systems/Loral, which then signed a five-launch contract.
+
+Total cost of the project has been reported at $583m in 1996. World Bank (up to $175m, of these up to $100m in Russia and up to $75m in Ukraine) and the European Bank for Reconstruction and Development (up to $65m). <ref></ref>
+
+Sea Launch has a reciprocal agreement with Arianespace and MHI, providing assurance in case either company's system is not able to launch a payload for reasons of reliability, capacity, backlog, or otherwise. This was used for the first time in 2004 when Arianespace’s Ariane 5 had to reschedule a group of launches for reliability reasons.
+
+The Sea Launch consortium claims that their launch-related operating costs are lower than a land-based equivalent due in part to reduced staff requirements. The platform and command ship have 310 crew members. <ref></ref>
+
+On March 17, 2006 it was announced that Jim Maser, the President and General Manager of Sea Launch, would leave the company to join SpaceX as President and Chief Operating Officer. <ref></ref>
+
+== Launches ==
+thumb|300px|Sea Launch launch platform ''[[Ocean Odyssey'']]
+The first demonstration satellite was launched on Hughes-built communications satellite owned by ICO Global Communications, occurred on the second commercial launch on March 12, 2000 and was blamed on a software error that failed to close a valve in the second stage of the rocket.
+A second rocket failed to launch on 30 January 2007, when Zenit-3SL exploded on the launch pad with the Boeing NSS-8 satellite on board, seconds after engine ignition.
+
+All Sea Launch missions to date have used the custom-designed three-stage Zenit-3SL launch vehicle, capable of placing up to six tonnes of payload in geosynchronous orbit. Sea Launch rocket components are manufactured by SDO Yuzhnoye / PO Yuzhmash in Block DM-SL for third stage); and by Boeing in Seattle, United States (payload fairing and interstage structure).
+
+Sea Launch rockets are assembled in Long Beach, California. The typical assembly is done onboard the Assembly and Command Ship (the payload is first tested, fueled and encapsulated in the Payload Processing Facility). The rocket is then transferred to a horizontal hangar on the self-propelled launch platform.
+
+Following rocket tests, both ships then sail about 4,828 km to the equator at 154° West Longitude, , in international waters about 370 km from Kiritimati, Kiribati. The platform travels the distance in about 11 days, the command ship in about eight days.
+
+With the platform ballasted to its launch depth of 22 m, the hangar is opened, the rocket is automatically moved to a vertical position, and the launch platform crew evacuates to the command ship which moves about five kilometers away. Then, with the launch platform unmanned, the rocket is fueled and launched.
+
+{| align=left border=1 cellpadding=4 cellspacing=0 style="margin: 1em 1em 1em 0; background: #f9f9f9; border: 1px #aaaaaa solid; border-right-width:2px; border-bottom-width:2px; border-collapse: collapse; font-size: 95%;"
+! style="background:#efefef; border-bottom:2px solid gray;" | '''Date'''
+! style="background:#efefef; border-bottom:2px solid gray;" | '''Payload'''
+! style="background:#efefef; border-bottom:2px solid gray;" | '''Mass'''
+! style="background:#efefef; border-bottom:2px solid gray;" | '''Comments'''
+! style="background:#efefef; border-bottom:2px solid gray;" | '''Number'''
+|-
+|March 27, 1999
+|DemoSat
+|4.5 t
+|success || 1
+|-
+|October 9, 1999
+|DIRECTV 1-R
+|3.5 t
+|success || 2
+|-
+|March 12, 2000
+|ICO F-1
+|2.7 t
+|'''''failure''''' || 3
+|-
+|July 28, 2000
+|PAS-9
+|3.7 t 
+|success || 4
+|-
+|October 20, 2000
+|Thuraya-1
+|5.1 t
+|success || 5
+|-
+|March 18, 2001
+|XM-2 ROCK
+|4.7 t
+|success || 6
+|-
+|May 8, 2001
+|XM-1 ROLL
+|4.7 t
+|success || 7
+|-
+|June 15, 2002
+|Galaxy IIIC
+|4.9 t
+|success || 8
+|-
+|June 10, 2003
+|Thuraya-2
+|5.2 t
+|success || 9
+|-
+|August 7, 2003
+|EchoStar IX/Telstar 13
+|4.7 t
+|success || 10
+|-
+|September 30, 2003
+|Galaxy XIII/Horizons-1
+|4.1 t
+|success || 11
+|-
+|January 10, 2004
+|Telstar 14/Estrela do Sul 1
+|4.7 t
+|success || 12
+|-
+|May 4, 2004
+|DIRECTV-7S
+|5.5 t
+|success || 13
+|-
+|June 28, 2004
+|Telstar-18
+|4.8 t
+|'''''launch anomaly''''' || 14
+|-
+|March 1, 2005
+|XM-3
+|4.7 t
+|success || 15
+|-
+|April 26, 2005
+|SPACEWAY-1
+|6.0 t
+|success || 16
+|-
+|June 23, 2005
+|Intelsat IA-8
+|5.5 t
+|success || 17
+|-
+|November 8 2005
+|Inmarsat 4-F2
+|6.0 t
+|success || 18
+|-
+|February 15, 2006
+|EchoStar X
+|4.3 t
+|success || 19
+|-
+|April 12, 2006
+|JCSAT-9
+|4.4 t
+|success || 20
+|-
+|June 18, 2006
+|Galaxy 16
+|5.1 t
+|success || 21
+|-
+|August 22, 2006
+|Koreasat 5
+|4.9 t
+|success || 22
+|-
+|October 30, 2006
+|XM-4
+|4.7 t
+|success || 23
+|-
+|January 30, 2007
+|NSS-8
+|5.9 t
+|'''''failure''''' || 24
+|-
+|January 15, 2008
+|Thuraya-3
+|5.2 t
+|success || 25
+|-
+|March 19, 2008
+|DirecTV-11
+|5.9 t
+|success
+|26
+|-
+|May 21, 2008
+|Galaxy 18
+|4.6 t
+|success 
+|27
+|-
+|July 16, 2008
+|EchoStar XI
+|5.5 t
+|success<ref></ref>
+|28
+|}
+<br clear="all"/>
+
+==NSS-8 launch failure==
+
+thumb|The Sea Launch NSS-8 launch explosion on [[January 30, 2007.  The explosion has obscured the floating launch pad platform.]] 
+On Zenit-3SL rocket carrying NSS-8 and 500 tons of fuel <ref>[http://www.popularmechanics.com/blogs/technology_news/4212403.html Satellite-Strapped Rocket Explodes on Platform (Video)]</ref> exploded on launch.<ref>[http://www.sea-launch.com/news_releases/nr_070130.html Sea Launch Experiences Anomaly during NSS-8 Launch], Sea Launch press release, accessed January 30, 2007</ref>
+Available imagery shows a fireball much larger than the launch platform at sea level. <ref>[http://www.space.com/missionlaunches/sfn_070130_nss8_lnch_cntdwn.html Sea Launch Rocket Fails to Launch New Communications Satellite], Space.com staff, accessed January 30, 2007</ref>. Video of the rocket exploding is available at [http://www.youtube.com/watch?v=eMG2SBwIcrM YouTube].
+
+<!--  -->
+'''Морской старт''' (''Sea Launch'') — плавучий «Зенит». '''Си Ланч''' (''Sea Launch'') — международный консорциум по эксплуатации космодрома «Морской старт».
+
+== Идея ==
+Идея морского космодрома состоит в том, чтобы доставлять ракету-носитель по морю на Земли). Данная идея была использована в 1964—1988 годах в морском космодроме «Сан-Марко», представлявшем из себя '''неподвижную''' заякорённую платформу вблизи экватора в кенийских территорриальных водах.
+
+Первый в истории человечества коммерческий морской старт с '''подвижной''' платформы был осуществлён 7 июля «Новомосковск» (К-407) из подводного положения в акватории Баренцева моря. При помощи ракеты-носителя «Штиль» на орбиту были выведены два телекоммуникационных спутника «TUBSAT», принадлежащих Берлинскому техническому университету.
+
+== Создание консорциума ==
+В 1993 году, после того, как стало ясно, что не будет создана более мощная ракета-носитель «Scout-2» для космодрома «Сан-Марко» (полезная нагрузка при запусках с «Сан-марко» не превышала 200 кг), Россия и США приступили к консультациям по вопросу о создании проекта, впоследствии получившем название «Морской старт».
+
+Международный Боинг»), обеспечивающая общее руководство и финансирование (40 % капитала), российская ракетно-космическая корпорация «Энергия» (25 %), украинские КБ «Южное» (5 %) и ПО «Южмаш» (10 %), а также норвежская судостроительная компания «калифорнийском городе Лонг-Бич. В качестве исполнителей по контрактам также привлечены российские «КБ транспортного машиностроения» и ЦКБ «Рубин».
+
+Начальная стоимость проекта составляла $3,5 млрд.
+
+== Космические старты ==
+Демонстрационный спутник был запущен 28 марта 1999 года.
+
+В октябре того же года был успешно произведен первый коммерческий запуск.
+
+К марту 2008 года осуществлено 26 запусков, в том числе 23 успешный, 1 частично успешный и 2 неудачных.
+{{bar box
+|width    = 200px
+|float    = right
+|title    = <small>Количество пусков в год</small>
+|titlebar = #ddd
+|bars     =
+
+}}
+
+{|
+ |
+{| align=left border=1 cellpadding=4 cellspacing=0 style="margin: 1em 1em 1em 0; background: #f9f9f9; border: 1px #aaaaaa solid; border-right-width:2px; border-bottom-width:2px; border-collapse: collapse; font-size: 95%;"
+! style="background:#efefef; border-bottom:2px solid gray;" | '''№'''
+! style="background:#efefef; border-bottom:2px solid gray;" | '''Дата'''
+! style="background:#efefef; border-bottom:2px solid gray;" | '''КА'''
+! style="background:#efefef; border-bottom:2px solid gray;" | '''Масса, тонны'''
+! style="background:#efefef; border-bottom:2px solid gray;" | '''Комментарий'''
+|-
+|1
+|27 марта, 1999
+|DemoSat
+|4.5
+|успех
+|-
+|2
+|9 октября, 1999
+|DIRECTV 1-R
+|3.5
+|успех
+|-
+|3
+|12 марта, 2000
+|ICO F-1
+|2.7
+|авария <ref>http://sea-launch.narod.ru/ico.htm</ref>
+|-
+|4
+|28 июля, 2000
+|PAS-9
+|3.7
+|успех
+|-
+|5
+|20 октября, 2000
+|Thuraya-1
+|5.1
+|успех
+|-
+|6
+|18 марта, 2001
+|XM Radio-2 «ROCK»
+|4.7
+|успех
+|-
+|7
+|8 мая, 2001
+|XM Radio-1 «ROLL»
+|4.7
+|успех
+|-
+|8
+|15 июня, 2002
+|Galaxy IIIC
+|4.9
+|успех
+|-
+|9
+|10 июня, 2003
+|Thuraya-2
+|5.2
+|успех
+|-
+|10
+|7 августа, 2003
+|EchoStar IX/Telstar 13
+|4.7
+|успех
+|-
+|11
+|30 сентября, 2003
+|Galaxy XIII/Horizons-1
+|4.1
+|успех
+|-
+|12
+|10 января, 2004
+|Telstar 14/Estrela do Sul 1
+|4.7
+|успех
+|-
+|13
+|4 мая, 2004
+|DIRECTV-7S
+|5.5
+|успех
+|-
+|14
+|28 июня, 2004
+|Telstar-18
+|4.8
+|частично успешный
+|-
+|15
+|1 марта, 2005
+|XM Radio-3 «Rhythm»
+|4.7
+|успех
+|-
+|16
+|26 апреля, 2005
+|SPACEWAY-1
+|6
+|успех
+|-
+|17
+|23 июня, 2005
+|Intelsat IA-8
+|5.5
+|успех
+|-
+|18
+|8 ноября 2005
+|Inmarsat 4-F2
+|6.0
+|успех
+|-
+|19
+|15 февраля, 2006
+|EchoStar X
+|4.3
+|успех
+|-
+|20
+|12 апреля, 2006
+|JCSAT-9
+|4.4
+|успех
+|-
+|21
+|18 июня, 2006
+|Galaxy 16
+|5.1
+|успех
+|-
+|22
+|22 августа, 2006
+|Koreasat 5
+|4.9
+|успех
+|-
+|23
+|30 октября, 2006
+|XM Radio-4 «Blues»
+|5.2
+|успех
+|-
+|24
+|30 января, 2007
+|NSS-8
+|5.92
+|авария <ref>http://sea-launch.narod.ru/nss8.htm</ref>
+|-
+|25
+|15 января, 2008
+|Thuraya-D3
+|5.2
+|успех
+|-
+|26
+|19 марта, 2008
+|DirecTV-11
+|5.9
+|успех
+|-
+|27<ref>{{статья
+ |автор    = Росбизнесконсалтинг
+ |заглавие = В рамках проекта "Морской старт" ракета "Зенит-3SL" сегодня стартует с американским спутником Galaxy 18
+ |оригинал = 
+ |ссылка   = http://www.rbc.ru/rbcfreenews.shtml?/20080521082945.shtml
+ |издание  = Росбизнесконсалтинг
+ |тип      =
+ |место    =
+ |год      = 21 мая 2008
+ |том      = 
+ |номер    = 
+ |страницы =  
+ }}</ref>
+|21 мая, 2008
+|Galaxy 18
+|4.642
+|успех
+|}
+|
+<timeline>
+ImageSize = width:200 height:550
+PlotArea = width:50 height:530 left:50 bottom:10
+
+DateFormat = dd/mm/yyyy
+Period = from:1999 till:2009
+TimeAxis = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1999

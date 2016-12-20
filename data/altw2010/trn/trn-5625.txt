@@ -1,0 +1,95 @@
+{{infobox Franse gemeente|
+|plaatsnaam= Bougival
+|wapen= 90px
+|kaart= 
+|regio= Île-de-France 
+|departement= Yvelines (78)
+|arrondissement= Saint-Germain-en-Laye
+|kanton= La Celle-Saint-Cloud
+|jaar= 1999
+|inwoners= 8432
+|dichtheid= 3011,4
+|oppervlakte= 2,8
+|water= 
+|latitudeGraden= 48 |latitudeMinuten= 52|latitudeSeconden= 0
+|longitudeGraden= 2 |longitudeMinuten= 8 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 153 |kaartY= 78
+|code= 78092
+|postcode= 78380
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Bougival''' is een gemeente in het Franse departement Saint-Germain-en-Laye.
+
+==Geografie==
+De oppervlakte van Bougival bedraagt 2,8 km², de bevolkingsdichtheid is 3011,4 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:12000 color:gray1 width:1       
+  from:start till:end             
+  bar:8000 color:gray1              
+  from:start till:end            
+  bar:4000 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,123)(84,140) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 7296 1968: 8444
+  points:(84,140)(100,142)    color:blue    width:2 #1975: 8599
+  points:(100,142)(128,140)   color:blue    width:2 #1982: 8473
+  points:(128,140)(160,141)   color:blue    width:2 #1990: 8552
+  points:(160,141)(196,139)   color:blue    width:2 #1999: 8432
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+{{French commune|nomcommune=Bougival<br>275px<br><small>12th century Notre-Dame Church in the historical centre of Bougival</small>|
+map_size=270px|
+adjustable_map =Bougival_map.png|
+mapcaption=Location (in red) within Paris inner and outer suburbs|
+région=Île-de-France |
+département=Yvelines| 
+arrondissement= Saint-Germain-en-Laye|
+canton=|
+insee=|
+cp=|
+maire= Aline Pascal|mandat=2001-2008|
+intercomm=Coteaux de Seine|
+longitude=|latitude=|
+alt moy=|alt mini=  |alt maxi= |
+km²=2.76|
+sans=8,432|
+date-sans=1999 census|dens=3,055|date-dens=1999|}}
+
+'''Bougival''' is a commune in the western suburbs of center of Paris. The Machine de Marly was located in Bougival.
+
+In the 19th century, Bougival emerged as a fashionable suburb of Paris. Monet, Sisley among others painted the light, sky, and water of this area.
+
+The Junior division of the British School of Paris (formerly the English School of Paris) is located in Bougival.
+
+==Transport==
+Bougival is served by Bougival station on the Transilien Paris – Saint-Lazare suburban rail line. This station is located at the border between the commune of Bougival and the commune of La Celle-Saint-Cloud, on the La Celle-Saint-Cloud side of the border.
+
+==Celebrities==
+The town is home to a number of French celebrities; Frank Alamo, Guillaume Depardieu, Jean-Louis Aubert, Michel Rocard, Flavie Flament, Laurent Garnier, Benjamin Castaldi and Gilbert Montagné are residents of Bougival. Ronaldinho left in 2003.  Georges Bizet died in Bougival in 1875.

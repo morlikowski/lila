@@ -1,0 +1,192 @@
+thumb|200px|Ο πυρήνας συνδέει το λογισμικό εφαρμογών με το υλικό του υπολογιστή
+
+Ο όρος '''πυρήνας''' (kernel) στην λειτουργικού συστήματος (ΛΣ) το οποίο αλληλεπιδρά στενά με το υλικό του υπολογιστή. Ο πυρήνας είναι υπεύθυνος για την αυτόματη διαχείριση των πόρων του συστήματος, την κατανομή τους στις εκτελούμενες εφαρμογές, την απρόσκοπτη εκτέλεση των τελευταίων και την επικοινωνία μεταξύ υλικού και λογισμικού.
+
+Μια ενδιαφέρουσα ανάλυση σχετικά με τη διαφορά ΛΣ και πυρήνα μπορεί να βρεθεί [http://www.gnu.org/philosophy/linux-gnu-freedom.html εδώ (Linux and GNU)]. Ωστόσο δεν υπάρχει γενική συναίνεση σχετικά με το θέμα αυτό στην κοινότητα της επιστήμης υπολογιστών και δεν είναι σπάνιο το ΛΣ να ταυτίζεται με τον πυρήνα του, θεωρώντας οτιδήποτε εκτελείται στον χώρο χρήστη ως συνοδευτικό λογισμικό συστήματος ή λογισμικό εφαρμογών.
+
+== Λειτουργία ==
+Σε κάθε ΛΣ ο πυρήνας αποτελεί το πιο χαμηλό επίπεδο αφαίρεσης υλικού, ειδικά των επεξεργαστών, της μνήμης και των μονάδων Εισόδου / Εξόδου (Ι/Ο). Ο πυρήνας είναι κώδικας χαμηλού επιπέδου, αποκλειστικά για την αρχιτεκτονική επεξεργαστή στην οποία στοχεύει το ΛΣ, γραμμένος συνήθως σε γλώσσα C ή και διαδικασίες του πυρήνα που παρέχουν υπηρεσίες στον καλούντα. Έτσι ο πυρήνας παρουσιάζει μία πλασματική, αφαιρετική εκδοχή του υλικού για χρήση από το λογισμικό.
+
+Η σύνταξη, η σημασιολογία και η ονοματολογία των κλήσεων συστήματος διαφέρει από ΛΣ σε ΛΣ, με αποτέλεσμα ένα εκτελέσιμο συνήθως να μπορεί να τρέξει μόνο σε ένα ΛΣ. Ο κώδικας χρήστη δεν μπορεί να προσπελάσει μόνος του τους πόρους του υπολογιστή (π.χ. δίσκους, μνήμη συστήματος, περιφερειακά, δίκτυο κλπ) αλλά μπορεί να ζητήσει ότι επιθυμεί (π.χ. άνοιγμα ενός αρχείου στον δίσκο) από τον πυρήνα μέσω των κλήσεων συστήματος. Οι γλώσσες προγραμματισμού παρέχουν προτυποποιημένες βιβλιοθήκες που αποκρύπτουν αυτήν τη διαδικασία από τον προγραμματιστή και παρέχουν φορητότητα κώδικα από ΛΣ σε ΛΣ. Ο κώδικας που υλοποιεί τις κλήσεις συστήματος είναι ουσιαστικά τμήμα του πυρήνα οπότε η κλήση διαδικασιών από αυτές τις βιβλιοθήκες ζητά μετάβαση του επεξεργαστή σε ''κατάσταση πυρήνα'', κατά την οποία μπορούν να εκτελεστούν εντολές με άμεση επίδραση στο υλικό και τους πόρους του υπολογιστή, και μεταφέρει τον έλεγχο στον κώδικα της αντίστοιχης κλήσης συστήματος. Όταν ο τελευταίος τερματίσει ο επεξεργαστής μεταβαίνει πάλι σε κατάσταση χρήστη και η διαδικασία χρήστη συνεχίζει την εκτέλεση της από την εντολή που ακολουθεί την κλήση συστήματος.
+
+==Κατηγορίες==
+Διάφοροι τύποι πυρήνων έχουν υλοποιηθεί σε διαφορετικά λειτουργικά συστήματα. Ο πιο συνηθισμένος είναι ο '''μονολιθικός''' πυρήνας, όλα τα τμήματα του οποίου εκτελούνται σε έναν ενιαίο χώρο διευθύνσεων και σε κατάσταση πυρήνα. Αυτό γίνεται για λόγους αυξημένης απόδοσης καθώς η μετάβαση από χώρο χρήστη σε χώρο πυρήνα παρουσιάζει σημαντικό χρονικό κόστος. Με το πέρασμα του καιρού όμως εμφανίστηκαν και '''μικροπυρήνες''', μεγάλα τμήματα των οποίων εκτελούνται στο χώρο του χρήστη (σαν υποκείμενες βιβλιοθήκες συστήματος) για λόγους αποφυγής σφαλμάτων και ευκολότερης συντήρησης. Μεταξύ αυτών των δύο ακραίων λύσεων υπάρχουν πολλές παραλλαγές στην λειτουργία των πυρήνων.
+
+*
+Κατηγορία:Επιστήμη υπολογιστών
+
+thumb|200px|A kernel connects the application software to the hardware of a computer.
+
+In computer science, the '''kernel''' is the central component of most computer hardware and software components).<ref name="Wulf74"/> '''As a basic component of an operating system, a kernel provides the lowest-level memory, processors and I/O devices) that application software must control to perform its function. It typically makes these facilities available to application processes through inter-process communication mechanisms and system calls.
+
+These tasks are done differently by different kernels, depending on their design and implementation. While monolithic kernels will try to achieve these goals by executing all the code in the same address space to increase the performance of the system, microkernels run most of their services in user space, aiming to improve maintainability and modularity of the codebase.<ref name="mono-micro">Roch 2004</ref> A range of possibilities exists between these two extremes.
+
+==Overview==
+thumb|200px|A typical vision of a [[computer architecture as a series of abstraction layers: assembler, kernel, applications (see also Tanenbaum 79).]]
+On the definition of 'kernel' Jochen Liedtke said that the word is "traditionally used to denote the part of the operating system that is mandatory and common to all other software."<ref name="Liedtke95">Liedtke 95</ref>
+
+Most operating systems rely on the kernel concept. The existence of a kernel is a natural consequence of designing a computer system as a series of abstraction layers,<ref name="Tanenbaum79">Tanenbaum 79, chapter 1</ref> each relying on the functions of layers beneath itself. The kernel, from this viewpoint, is simply the name given to the lowest level of abstraction that is implemented in software. In order to avoid having a kernel, one would have to design all the software on the system not to use abstraction layers; this would increase the complexity of the design to such a point that only the simplest systems could feasibly be implemented.
+
+While it is today mostly called the ''kernel'', the same part of the operating system has also in the past been known as the '''''nucleus''''' or '''''core'''''.<ref name="Deitel82">Deitel 82, p.65-66 cap. 3.9</ref><ref name="kernelnames">Lorin 81 pp.161-186, Schroeder 77, Shaw 75 pp.245-267</ref><ref name="Wulf74">Wulf 74 pp.337-345</ref><ref name="Hansen70">Brinch Hansen 70 pp.238-241</ref>  (Note, however, that the term ''core'' has also been used to refer to the primary memory of a computer system, because some early computers used a form of memory called core memory.)
+
+In most cases, the boot loader starts executing the kernel in supervisor mode,<ref name="supervisor">The highest privilege level has various names throughout different architectures, such as supervisor mode, kernel mode, CPL0, DPL0, Ring 0, etc. See Ring (computer security) for more information.</ref> The kernel then initializes itself and starts the first process. After this, the kernel does not typically execute directly, only in response to external events (e.g. via system calls used by applications to request services from the kernel, or via interrupts used by the hardware to notify the kernel of events). Additionally, the kernel typically provides a loop that is executed whenever no processes are available to run; this is often called the ''idle process''.
+
+Kernel development is considered one of the most complex and difficult tasks in programming.<ref name="bkerndev">[http://osdever.net/bkerndev/index.php?the_id=90 Bona Fide OS Development - Bran's Kernel Development Tutorial], by Brandon Friesen</ref> Its central position in an operating system implies the necessity for good performance, which defines the kernel as a critical piece of software and makes its correct design and implementation difficult. For various reasons, a kernel might not even be able to use the abstraction mechanisms it provides to other software. Such reasons include reentrancy, thus making its development even more difficult for software engineers.
+
+A kernel will usually provide features for low-level scheduling<ref name="Deitel82sched">For low-level scheduling see Deitel 82, ch. 10, pp. 249&ndash;268.</ref> of processes (dispatching), synchronization, context switching, manipulation of process control blocks, interrupt handling, process creation and destruction, and process suspension and resumption (see process states).<ref name="Deitel82" /><ref name="Hansen70" />
+
+==Kernel basic facilities==
+The kernel's primary purpose is to manage the computer's resources and allow other programs to run and use these resources.<ref name="Wulf74"/> Typically, the resources consist of:
+* The Central Processing Unit (CPU, the processor). This is the most central part of a computer system, responsible for ''running'' or ''executing'' programs on it. The kernel takes responsibility for deciding at any time which of the many running programs should be allocated to the processor or processors (each of which can usually run only one program at a time)
+* The computer's memory. Memory is used to store both program instructions and data. Typically, both need to be present in memory in order for a program to execute. Often multiple programs will want access to memory, frequently demanding more memory than the computer has available. The kernel is responsible for deciding which memory each process can use, and determining what to do when not enough is available.
+* Any Input/Output (I/O) devices present in the computer, such as keyboard, mouse, disk drives, printers, displays, etc. The kernel allocates requests from applications to perform I/O to an appropriate device (or subsection of a device, in the case of files on a disk or windows on a display) and provides convenient methods for using the device (typically abstracted to the point where the application does not need to know implementation details of the device)
+
+Key aspects necessary in resource managements are the definition of an execution domain (address space) and the protection mechanism used to mediate the accesses to the resources within a domain.<ref name="Wulf74" />
+
+Kernels also usually provide methods for synchronization and communication between processes (called ''inter-process communication'' or IPC).
+
+A kernel may implement these features itself, or rely on some of the processes it runs to provide the facilities to other processes, although in this case it must provide some means of IPC to allow processes to access the facilities provided by each other.
+
+Finally, a kernel must provide running programs with a method to make requests to access these facilities.
+
+===Process management===
+The main task of a kernel is to allow the execution of applications and support them with features such as hardware abstractions. A process defines which memory portions the application can access.<ref name="Levy84">Levy 1984, p.5</ref> (For this introduction, process, application and program are used as synonyms.)<!-- a clear introductory definition of process is missing -->  Kernel process management must take into account the hardware built-in equipment for memory protection.<ref>Needham, R.M., Wilkes, M. V. ''[http://comjnl.oxfordjournals.org/cgi/content/abstract/17/2/117 Domains of protection and the management of processes]'', Computer Journal, vol. 17, no. 2, May 1974, pp 117-120.</ref>
+
+To run an application, a kernel typically sets up an stack for the program and branches to a given location inside the program, thus starting its execution.<ref name="OS-Concepts">Silberschatz 1990 </ref>
+
+Multi-tasking kernels are able to give the user the illusion that the number of processes being run simultaneously on the computer is higher than the maximum number of processes the computer is physically able to run simultaneously. Typically, the number of processes a system may run simultaneously is equal to the number of CPUs installed (however this may not be the case if the processors support simultaneous multithreading).
+
+In a pre-emptive multitasking system, the kernel will give every program a slice of time and switch from process to process so quickly that it will appear to the user as if these processes were being executed simultaneously. The kernel uses scheduling algorithms to determine which process is running next and how much time it will be given. The algorithm chosen may allow for some processes to have higher priority than others. The kernel generally also provides these processes a way to communicate; this is known as inter-process communication (IPC) and the main approaches are shared memory, message passing and remote procedure calls (see concurrent computing).
+
+Other systems (particularly on smaller, less powerful computers) may provide Windows and Mac OS both used co-operative multitasking but switched to pre-emptive schemes as the power of the computers to which they were targeted grew.
+
+The operating system might also support SMP or synchronization mechanisms (such as spinlocks) to ensure that no two processors attempt to modify the same data at the same time.
+
+===Memory management===
+The kernel has full access to the system's memory and must allow processes to access safely this memory as they require it. Often the first step in doing this is segmentation. Virtual addressing allows the kernel to make a given physical address appear to be another address, the virtual address. Virtual address spaces may be different for different processes; the memory that one process accesses at a particular (virtual) address may be different memory from what another process accesses at the same address. This allows every program to behave as if it is the only one (apart from the kernel) running and thus prevents applications from crashing each other.<ref name="OS-Concepts"/>
+
+On many systems, a program's virtual address may refer to data which is not currently in memory. The layer of indirection provided by virtual addressing allows the operating system to use other data stores, like a hard drive, to store what would otherwise have to remain in main memory (RAM). As a result, operating systems can allow programs to use more memory than the system has physically available. When a program needs data which is not currently in RAM, the CPU signals to the kernel that this has happened, and the kernel responds by writing the contents of an inactive memory block to disk (if necessary) and replacing it with the data requested by the program. The program can then be resumed from the point where it was stopped. This scheme is generally known as demand paging.
+
+Virtual addressing also allows creation of virtual partitions of memory in two disjointed areas, one being reserved for the kernel (Singularity) take other approaches.
+
+===Device management===
+To perform useful functions, processes need access to the peripherals connected to the computer, which are controlled by the kernel through device drivers. For example, to show the user something on the screen, an application would make a request to the kernel, which would forward the request to its display driver, which is then responsible for actually plotting the character/pixel.<ref name="OS-Concepts"/>
+
+A kernel must maintain a list of available devices. This list may be known in advance (e.g. on an embedded system where the kernel will be rewritten if the available hardware changes), configured by the user (typical on older PCs and on systems that are not designed for personal use) or detected by the operating system at run time (normally called plug and play).
+
+In a plug and play system, a device manager first performs a scan on different hardware buses, such as Peripheral Component Interconnect (PCI) or Universal Serial Bus (USB), to detect installed devices, then searches for the appropriate drivers
+
+As device management is a very OS-specific topic, these drivers are handled differently by each kind of kernel design, but in every case, the kernel has to provide the I/O to allow drivers to physically access their devices through some port or memory location. Very important decisions have to be made when designing the device management system, as in some designs accesses may involve context switches, making the operation very CPU-intensive and easily causing a significant performance overhead.
+
+===System calls===
+<!-- This seems a very "narrow perspective" section, a more general approach would help -->
+To actually perform useful work, a process must be able to access the services provided by the kernel. This is implemented differently by each kernel, but most provide a API, which in turn invokes the related kernel functions.<ref></ref>
+
+The method of invoking the kernel function varies from kernel to kernel. If memory isolation is in use, it is impossible for a user process to call the kernel directly, because that would be a violation of the processor's access control rules. A few possibilities are:
+* Using a software-simulated interrupt. This method is available on most hardware, and is therefore very common.
+* Using a call gate. A call gate is a special address which the kernel has added to a list stored in kernel memory and which the processor knows the location of. When the processor detects a call to that location, it instead redirects to the target location without causing an access violation. Requires hardware support, but the hardware for it is quite common.
+* Using a special system call instruction. This technique requires special hardware support, which common architectures (notably, x86) may lack. System call instructions have been added to recent models of x86 processors, however, and some (but not all) operating systems for PCs make use of them when available.
+* Using a memory-based queue. An application that makes large numbers of requests but does not need to wait for the result of each may add details of requests to an area of memory that the kernel periodically scans to find requests.
+
+==Kernel design decisions==
+===Issues of kernel support for protection===
+An important consideration in the design of a kernel is the support it provides for protection from faults (security). These two aspects are usually not clearly distinguished, and the adoption of this distinction in the kernel design leads to the rejection of a hierarchical structure for protection.<ref name="Wulf74" />
+
+The mechanisms or policies provided by the kernel can be classified according to several criteria, as: static (enforced at compile time) or dynamic (enforced at runtime); preemptive or post-detection; according to the protection principles they satisfy (i.e. Denning<ref name="Denning76">Denning 1976</ref><ref name="Swift05Denning76">Swift 2005, p.29 quote: "isolation, resource control, decision verification (checking), and error recovery."</ref>); whether they are hardware supported or language based;  whether they are more an open mechanism or a binding policy; and many more.
+
+====Fault tolerance====
+A useful measure of the level of fault tolerance of a system is how closely it adheres to the security, where it is necessary to prevent processes from accessing information without being granted permission.
+
+The two major hardware approaches<ref name="Swift05">Swift 2005 p.26</ref> for protection (of sensitive information) are ring architectures, segment architectures or supervisor mode),<ref>Intel Corporation 2002</ref> and Capability-based addressing.<ref>Houdek et al. 1981</ref> 
+
+250px|thumb|right|[[Privilege rings, such as in the x86, are a common implementation  of Hierarchical protection domains used in many commercial systems to have some level of fault tolerance.]]
+Hierarchical protection domains are much less flexible, as is the case with every kernel with a hierarchical structure assumed as global design criterion.<ref name="Wulf74" /> In the case of protection it is not possible to assign different privileges to processes that are at the same privileged level, and therefore is not possible to satisfy Denning's four principles for fault tolerance<ref name="Denning76" /><ref name="Swift05Denning76" /> (particularly the Principle of least privilege). Hierarchical protection domains also have a major performance drawback, since interaction between different levels of protection, when a process has to manipulate a data structure both in 'user mode' and 'supervisor mode', always requires message copying (transmission by value).<ref name="Hansen73SupervisorMode">Hansen 73, section 7.3 p.233 "''interactions between different levels of protection require transmission of messages by value''"</ref> A kernel based on capabilities, however, is more flexible in assigning privileges, can satisfy Denning's fault tolerance principles,<ref name="LindenCapabilityAddressing">Linden 76</ref> and typically doesn't suffer from the performance issues of copy by value.
+
+Both approaches typically require some hardware or firmware support to be operable and efficient. The hardware support for hierarchical protection domains<ref name="Schroeder72">Schroeder 72</ref> is typically that of "MMU the responsibility of checking access-rights for every memory access, a mechanism called capability-based addressing.<ref name="LindenCapabilityAddressing" /> Most commercial computer architectures lack MMU support for capabilities.  
+An alternative approach is to simulate capabilities using commonly-support hierarchical domains; in this approach, each protected object must reside in an address space that the application does not have access to; the kernel also maintains a list of capabilities in such memory.  When an application needs to access an object protected by a capability, it performs a system call and the kernel performs the access for it.  The performance cost of address space switching limits the practicality of this approach in systems with complex interactions between objects, but it is used in current operating systems for objects that are not accessed frequently or which are not expected to perform quickly.<ref name="EranianMosberger">Stephane Eranian & David Mosberger, [http://www.informit.com/articles/article.aspx?p=29961 Virtual Memory in the IA-64 Linux Kernel], Prentice Hall PTR, 2002</ref><ref>Silberschatz & Galvin, Operating System Concepts, 4th ed, pp445 & 446</ref>
+Approaches where protection mechanism are not firmware supported but are instead simulated at higher levels (e.g. simulating capabilities by manipulating page tables on hardware that does not have direct support), are possible, but there are performance implications.<ref name="HochBrowne">{{cite journal | last = Hoch  | first = Charles  | coauthors = J. C. Browne (University of Texas, Austin)  | year = 1980
+ | month = July 
+ | title = An implementation of capabilities on the PDP-11/45
+ | journal = ACM SIGOPS Operating Systems Review
+ | volume = 14   
+ | issue = 3
+ | pages = 22–32
+ | doi = 10.1145/850697.850701
+ | id = 
+ | url = http://portal.acm.org/citation.cfm?id=850701&dl=acm&coll=&CFID=15151515&CFTOKEN=6184618
+ | language = 
+ | format = pdf
+ | accessdate = 2007-01-07
+ }}</ref> Lack of hardware support may not be an issue, however, for systems that choose to use language-based protection.<ref name="Schneider">[http://www.cs.cmu.edu/~rwh/papers/langsec/dagstuhl.pdf A Language-Based Approach to Security], Schneider F., Morrissett G. (Cornell University) and Harper R. (Carnegie Mellon University)</ref>
+
+====Security====
+An important kernel design decision is the choice of the abstraction levels where the security mechanisms and policies should be implemented. Kernel security mechanisms play a critical role in supporting security at higher levels.<ref name="Loscocco98"/><ref>J. Lepreau et al. ''[http://doi.acm.org/10.1145/504450.504477 The Persistent Relevance of the Local Operating System to Global Applications]''. Proceedings of the 7th ACM SIGOPS European Workshop, September 1996.</ref><ref>M. Abrams et al, ''[http://www.acsac.org/secshelf/book001/book001.html Information Security: An Integrated Collection of Essays], IEEE Comp. 1995.</ref><ref>J. Anderson, ''[http://csrc.nist.gov/publications/history/ande72.pdf Computer Security Technology Planning Study], Air Force Elect. Systems Div., ESD-TR-73-51, October 1972.</ref><ref>* {{ cite journal| author = Jerry H. Saltzer, Mike D. Schroeder| title = The protection of information in computer systems| journal = Proceedings of the IEEE| volume = 63
+| issue = 9| pages = 1278–1308| date = September 1975| url = http://web.mit.edu/Saltzer/www/publications/protection/| doi = 10.1109/PROC.1975.9939 }}</ref><ref name="LindenCapabilityAddressing" />
+
+One approach is to use firmware and kernel support for fault tolerance (see above), and build the security policy for malicious behavior on top of that (adding features such as cryptography mechanisms where necessary), delegating some responsibility to the compiler. Approaches that delegate enforcement of security policy to the compiler and/or the application level are often called ''language-based security''.
+
+The lack of many critical security mechanisms in current mainstream operating systems impedes the implementation of adequate security policies at the application abstraction level.<ref name="Loscocco98">P. A. Loscocco, S. D. Smalley, P. A. Muckelbauer, R. C. Taylor, S. J. Turner, and J. F. Farrell. ''[http://www.jya.com/paperF1.htm The Inevitability of Failure: The Flawed Assumption of Security in Modern Computing Environments]''. In Proceedings of the 21st National Information Systems Security Conference, pages 303–314, Oct. 1998. [http://csrc.nist.gov/nissc/1998/proceedings/paperF1.pdf].</ref> In fact, a common misconception in computer security is that any security policy can be implemented in an application regardless of kernel support.<ref name="Loscocco98"/>
+
+====Hardware-based protection or language-based protection====
+Typical computer systems today use hardware-enforced rules about what programs are allowed to access what data. The processor monitors the execution and stops a program that violates a rule (e.g., a user process that is about to read or write to kernel memory, and so on). In systems that lack support for capabilities, processes are isolated from each other by using separate address spaces.<ref>{{cite journal|
+url=http://portal.acm.org/citation.cfm?doid=319151.319163|
+title=EROS: a fast capability system|
+author=Jonathan S. Shapiro; Jonathan M. Smith; David J. Farber|
+journal=Proceedings of the seventeenth ACM symposium on Operating systems principles}}</ref> Calls from user processes into the kernel are regulated by requiring them to use one of the above-described system call methods.
+
+An alternative approach is to use language-based protection. In a language-based protection system, the kernel will only allow code to execute that has been produced by a trusted language compiler. The language may then be designed such that it is impossible for the programmer to instruct it to do something that will violate a security requirement.<ref name="Schneider"/>
+
+Advantages of this approach include:
+* Lack of need for separate address spaces. Switching between address spaces is a slow operation that causes a great deal of overhead, and a lot of optimization work is currently performed in order to prevent unnecessary switches in current operating systems. Switching is completely unnecessary in a language-based protection system, as all code can safely operate in the same address space.
+* Flexibility. Any protection scheme that can be designed to be expressed via a programming language can be implemented using this method. Changes to the protection scheme (e.g. from a hierarchical system to a capability-based one) do not require new hardware.
+
+Disadvantages include:
+* Longer application start up time. Applications must be verified when they are started to ensure they have been compiled by the correct compiler, or may need recompiling either from source code or from bytecode.
+* Inflexible type systems. On traditional systems, applications frequently perform operations that are not type safe. Such operations cannot be permitted in a language-based protection system, which means that applications may need to be rewritten and may, in some cases, lose performance.
+
+Examples of systems with language-based protection include JX and Singularity.
+
+===Process cooperation===
+atomic lock and unlock operations operating on binary semaphores are sufficient primitives to express any functionality of process cooperation.<ref name="Dijkstra65">Dijkstra, E. W. ''Cooperating Sequential Processes''. Math. Dep., Technological U., Eindhoven, Sept. 1965.</ref> However this approach is generally held to be lacking in terms of safety and efficiency, whereas a message passing approach is more flexible.<ref name="Hansen70" />
+
+===I/O devices management===
+The idea of a kernel where I/O devices are handled uniformly with other processes, as parallel co-operating processes, was first proposed and implemented by Brinch Hansen (although similar ideas were suggested in 1967<ref></ref><ref></ref>). In Hansen's description of this, the "common" processes are called ''internal processes'', while the I/O devices are called ''external processes''.<ref name="Hansen70" />
+
+==Kernel-wide design approaches==
+Naturally, the above listed tasks and features can be provided in many ways that differ from each other in design and implementation. 
+
+The principle of ''separation of mechanism and policy'' is the substantial difference between the philosophy of micro and monolithic kernels.<ref>Baiardi 1988</ref><ref name="Levin75">Levin 75</ref> Here a ''mechanism'' is the support that allows the implementation of many different policies, while a policy is a particular "mode of operation". In minimal microkernel just some very basic policies are included,<ref name="Levin75" /> and its mechanisms allows what is running on top of the kernel (the remaining part of the operating system and the other applications) to decide which policies to adopt (as memory management, high level process scheduling, file system management, etc.).<ref name="Wulf74" /><ref name="Hansen70" /> A monolithic kernel instead tends to include many policies, therefore restricting the rest of the system to rely on them.
+
+cogent arguments in favor of separation of mechanism and policy.<ref name="Wulf74" /><ref name="Hansen70" /> The failure to properly fulfill this separation, is one of the major causes of the lack of substantial innovation in existing operating systems,<ref name="Wulf74" /> a problem common in computer architecture.<ref name="Denning80">Denning 1980</ref><ref name="Nehmer91">Jürgen Nehmer ''[http://portal.acm.org/citation.cfm?id=723612 The Immortality of Operating Systems, or: Is Research in Operating Systems still Justified?]'' Lecture Notes In Computer Science; Vol. 563. Proceedings of the International Workshop on Operating Systems of the 90s and Beyond. pp. 77 - 83 (1991) ISBN 3-540-54987-0 [http://www.sigmod.org/dblp/db/conf/dagstuhl/os1991.html] quote: "The past 25 years have shown that research on operating system architecture had a minor effect on existing main stream systems." [http://www.soe.ucsc.edu/~brucem/soft_ins/dissert.html]</ref><ref>Levy 84, p.1 quote: "Although the complexity of computer applications increases yearly, the underlying hardware architecture for applications has remained unchanged for decades."</ref> The monolithic design is induced by the "kernel mode"/"user mode" architectural approach to protection (technically called hierarchical protection domains), which is common in conventional commercial system;<ref name="Levy84privilegedmode">Levy 84, p.1 quote: "Conventional architectures support a single privileged mode of
+operation. This structure leads to monolithic design; any module needing protection must be part of the single operating system kernel. If, instead, any module could execute within a protected domain, systems could be built as a collection of independent modules extensible by any user."</ref> in fact, every module needing protection is therefore preferably included into the kernel.<ref name="Levy84privilegedmode"/> This link between monolithic design and "privileged mode" can be reconducted to the key issue of mechanism-policy separation;<ref name="Wulf74"/> in fact the "privileged mode" architectural approach melts together the protection mechanism with the security policies, while the major alternative architectural approach, capability-based addressing, clearly distinguishes between the two, leading naturally to a microkernel design<ref name="Wulf74"/> (see Separation of protection and security).
+
+While monolithic kernels execute all of their code in the same address space (kernel space) microkernels try to run most of their services in user space, aiming to improve maintainability and modularity of the codebase.<ref name="mono-micro"/> Most kernels do not fit exactly into one of these categories, but are rather found in between these two designs. These are called hybrid kernels. More exotic designs such as nanokernels and exokernels are available, but are seldom used for production systems. The Xen hypervisor, for example, is an exokernel.
+
+===Monolithic kernels===
+
+thumb|260px|Diagram of Monolithic kernels
+In a monolithic kernel, all OS services run along with the main kernel thread, thus also residing in the same memory area. This approach provides rich and powerful hardware access. Some developers, such as UNIX developer Ken Thompson,  maintain that monolithic systems are easier to design and implement than other solutions. The main disadvantages of monolithic kernels are the dependencies between system components — a bug in a device driver might crash the entire system — and the fact that large kernels can become very difficult to maintain.
+
+===Microkernels===<!-- This section is linked from Unix philosophy -->
+
+thumb|260px|In the [[microkernel approach, the kernel itself only provides basic functionality that allows the execution of servers, separate programs that assume former kernel functions, such as device drivers, GUI servers, etc.]]
+
+The microkernel approach consists of defining a simple abstraction over the hardware, with a set of primitives or multitasking, and networking, are implemented in user-space programs, referred to as ''servers''. Microkernels are easier to maintain than monolithic kernels, but the large number of system calls and context switches might slow down the system because they typically generate more overhead than plain function calls.
+
+A microkernel allows the implementation of the remaining part of the operating system as a normal application program written in a high-level language, and the use of different operating systems on top of the same unchanged kernel.<ref name="Hansen70" /> It is also possible to dynamically switch among operating systems and to have more than one active simultaneously.<ref name="Hansen70" />
+
+===Monolithic kernels vs microkernels===
+As the computer kernel grows, a number of problems become evident. One of the most obvious is that the memory footprint increases. This is mitigated to some degree by perfecting the virtual memory system, but not all computer architectures have virtual memory support.<ref>Virtual addressing is most commonly achieved through a built-in memory management unit.</ref> To reduce the kernel's footprint, extensive editing has to be performed to carefully remove unneeded code, which can be very difficult with non-obvious interdependencies between parts of a kernel with millions of lines of code.
+
+Due to the problems that monolithic kernels pose, they were considered obsolete by the early 1990s. As a result, the design of Andrew Tanenbaum.<ref name="TorvaldsTanenbaum">Recordings of the debate between Torvalds and Tanenbaum can be found at [http://www.dina.dk/~abraham/Linus_vs_Tanenbaum.html dina.dk], [http://groups.google.com/group/comp.os.minix/browse_thread/thread/c25870d7a41696d2/f447530d082cd95d?tvc=2#f447530d082cd95d groups.google.com], [http://www.oreilly.com/catalog/opensources/book/appa.html oreilly.com] and [http://www.cs.vu.nl/~ast/reliable-os/ Andrew Tanenbaum's website]</ref> There is merit on both sides of the argument presented in the Tanenbaum/Torvalds debate.
+
+Some argued that while microkernel designs were more aesthetically appealing, monolithic kernels were easier to implement. However, a bug in a monolithic system usually crashes the entire system, while this doesn't happen in a microkernel with servers running apart from the main thread. Monolithic kernel proponents reason that incorrect code doesn't belong in a kernel, and that microkernels offer little advantage over correct code. Microkernels are often used in embedded robotic or medical computers where crash tolerance is important and most of the OS components reside in their own private, protected memory space. This is impossible with monolithic kernels, even with modern module-loading ones. 
+
+====Performances====
+Monolithic kernels are designed to have all of their code in the same address space (kernel space) to increase the performance of the system. Some developers maintain that monolithic systems are extremely efficient if well-written. The monolithic model tends to be more efficient through the use of shared kernel memory, rather than the slower IPC system of microkernel designs, which is typically based on message passing.
+
+The performance of microkernels constructed in the 1980s and early 1990s was poor.<ref name="Liedtke95"/><ref name="Hartig97">Härtig 97</ref> Studies that empirically measured the performance of these microkernels did not analyze the reasons of such inefficiency.<ref name="Liedtke95"/> The explanations of this data were left to "folklore"<!-- Someone needs to clarify what is meant by folklore -->, with the assumption that they were due to the increased frequency of switches from "kernel-mode" to "user-mode"<ref name="Liedtke95"/> , to the increased frequency of inter-process communication<ref name="Liedtke95"/> and to the increased frequency of context switches.<ref name="Liedtke95"/> <!-- Remains to be covered in this section the impact (particularly on context switch frequency) of the implementation of device drivers as processes or procedures -->
+
+In fact, as guessed in 1995, the  reasons for those poor performance might as well have been: (1) an actual inefficiency of the whole microkernel ''approach'', (2) the particular ''concepts'' implemented in those microkernels, and (3) the particular ''implementation'' of those concepts.<ref name="Liedtke95"/> Therefore it remained to be studied if the solution to build an efficient microkernel was, unlike previous attempts, to apply the correct construction techniques.<ref name="Liedtke95"/>
+
+On the other end, the by value.<ref name="Hansen73SupervisorMode" />

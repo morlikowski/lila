@@ -1,0 +1,79 @@
+'''航空宇宙工学'''（こうくううちゅうこうがく、aerospace engineering）は航空工学と宇宙工学の総称であり、航空機・ロケット・人工衛星などの設計・製造・運用に関する工学の一分野。宇宙開発は航空機の発展ときわめて密接に関係しながら発達してきた歴史的経緯もあり、航空機と宇宙機はともに研究・開発されることが多い。
+
+==概要==
+航空機・宇宙機はその性質上、気圧・温度の急激な変化にさらされたり、機体構造に大きな荷重がかかったりするなど過酷な環境におかれるため、その設計や製造には細心の注意と計画性を必要とする。その過程では空気力学・構造力学をはじめとして様々な科学技術の知識が必要となり、これら航空宇宙機に用いられる知識体系が集合的に航空宇宙工学という分野を形成している。このように関係する分野の多彩さから、航空宇宙工学に携わる者が一人で全容を把握することは極めて困難であり<ref name="princetonreview"></ref>、必然的に実際の開発は様々な分野の専門家がチームを形成し、分担して関わることになる。また、各分野からみて望ましい機体の形状や性能は互いに矛盾する場合があり、開発に当たっては各観点の重要度を総合的に判断し、性能・価格・技術的課題のバランスをみながら進めていくというのも、航空宇宙工学の特徴の１つである。
+
+==参考文献==
+<references/>
+
+thumb|right|A [[Pratt & Whitney F100 turbofan engine for the F-15 Eagle and the F-16 Falcon is tested at Robins Air Force Base, Georgia, USA. The tunnel behind the engine muffles noise and allows exhaust to escape.]]
+
+'''Aerospace engineering''' is the branch of aeronautical engineering and astronautical engineering. The former deals with craft that stay within Earth's atmosphere, and the latter deals with craft that operate outside of Earth's atmosphere. While "aeronautical" was the original term, the broader "aerospace" has superseded it in usage, as flight technology advanced to include craft operating in outer space.<ref name="britannica">{{cite encyclopedia
+  | title = Engineering
+  | author = Stanzione, Kaydon Al
+  | encyclopedia = Encyclopædia Britannica
+  | volume = 18
+  | edition = 15
+  | pages = 563–563
+  | year = 1989
+  | location = Chicago }}</ref>
+
+Aerospace engineering is often informally called rocket science.
+
+==Overview==
+Modern flight vehicles undergo severe conditions such as differences in atmospheric pressure and temperature, or heavy structural load applied upon vehicle components. Consequently, they are usually the products of various technologies including aerodynamics, avionics, materials science and propulsion. These technologies are collectively known as aerospace engineering. Because of the complexity of the field, aerospace engineering is conducted by a team of engineers, each specializing in their own branches of science.,<ref name="Princeton's"></ref> The development and manufacturing of a flight vehicle demands careful balance and compromise between abilities, performance, available technology and costs.
+
+==History==
+
+One person who was important in developing flying machines".
+thumb|left|[[Orville and Wilbur Wright flew the Wright Flyer I, the first airplane, on December 17, 1903 at Kitty Hawk, North Carolina.]]
+
+The origin of aerospace engineering can be traced back to the aviation pioneers around the late 19th century to early 20th centuries, although the work of Sir George Cayley has recently been dated as being from the last decade of the 18th century. Early knowledge of aeronautical engineering was largely empirical with some concepts and skills imported from other branches of engineering.<ref name="americana">{{cite encyclopedia
+ | author = Kermit Van Every
+ | encyclopedia = Encyclopedia Americana
+ | title = Aeronautical engineering
+ | edition = 
+ | year = 1988
+ | publisher = Grolier Incorporated
+ | volume =1
+}}</ref> Scientists understood some key elements of aerospace engineering , like fluid dynamics, in the 18th century. Only a decade after the successful flights by the Wright brothers, the 1910s saw the development of aeronautical engineering through the design of World War I military aircraft. 
+
+The first definition of aerospace engineering appeared in February 1958.<ref name="britannica" /> The definition considered the Earth's atmosphere and the outer space as a single realm, thereby encompassing both aircraft (''aero'') and spacecraft (''space'') under a newly coined word ''National Aeronautics and Space Administration was founded in 1958 as a response to the Cold War. United States aerospace engineers sent the American first satellite launched on January 31, 1958 in response the USSR launching Sputnik.<ref>[http://www.hq.nasa.gov/office/pao/History/factsheet.htm A Brief History of NASA<!-- Bot generated title -->]</ref>
+
+==Elements==
+
+Some of the elements of aerospace engineering are:<ref name="open-site">
+{{cite encyclopedia
+ | encyclopedia = Open Site
+ | title = Science: Engineering: Aerospace
+ | url = http://open-site.org/Science/Engineering/Aerospace/
+ | accessdate = 2006-10-08
+}}</ref><ref name="gruntman">{{cite conference
+ | first = Mike
+ | last = Gruntman
+ | date = September 19, 2007
+ | title = The Time for Academic Departments in Astronautical Engineering
+ | conference = AIAA SPACE 2007 Conference & Exposition
+ | conferenceurl = http://www.aiaa.org/content.cfm?pageid=230&lumeetingid=1808&viewcon=submit
+ | booktitle = AIAA SPACE 2007 Conference & Exposition Agenda
+ | publisher = AIAA
+ | url = http://www.aiaa.org/agenda.cfm?lumeetingid=1808&viewcon=agenda&pageview=2&programSeeview=1&dateget=19-Sep-07&formatview=1
+}}</ref>
+
+*lift and aeronautics).
+* Astrodynamics - the study of orbital mechanics including prediction of orbital elements when given a select few variables.  While few schools in the United States teach this at the undergraduate level, several have graduate programs covering this topic (usually in conjunction with the Physics department of said college or university).
+* Dynamics (engineering mechanics) - the study of movement, forces, moments in mechanical systems.
+* Mathematics - because aerospace engineering heavily involves mathematics.
+* Electrotechnology - the study of electronics within engineering.
+* Propulsion - the energy to move a vehicle through the air (or in outer space) is provided by internal combustion engines, jet engines and turbomachinery, or rockets (see also propeller and spacecraft propulsion). A more recent addition to this module is electric propulsion and ion propulsion.
+* dynamic behavior of systems and designing them, usually using feedback signals, so that their dynamic behavior is desirable (stable, without large excursions, with minimum error). This applies to the dynamic behavior of aircraft, spacecraft, propulsion systems, and subsystems that exist on aerospace vehicles. 
+* Aircraft structures - design of the physical configuration of the craft to withstand the forces encountered during flight. Aerospace engineering aims to keep structures lightweight.
+* Materials science - related to structures, aerospace engineering also studies the materials of which the aerospace structures are to be built. New materials with very specific properties are invented, or existing ones are modified to improve their performance.
+* Solid mechanics - Closely related to material science is solid mechanics which deals with stress and strain analysis of the components of the vehicle. Nowadays there are several Finite Element programs such as MSC Patran/Nastran which aid engineers in the analytical process.
+* Aeroelasticity - the interaction of aerodynamic forces and structural flexibility, potentially causing flutter, divergence, etc.
+* Avionics - the design and programming of computer systems on board an aircraft or spacecraft and the simulation of systems. 
+* Risk and reliability - the study of risk and reliability assessment techniques and the mathematics involved in the quantitative methods.
+* Noise control - the study of the mechanics of sound transfer.
+* Flight test - designing and executing flight test programs in order to gather and analyze performance and handling qualities data in order to determine if an aircraft meets its design and performance goals and certification requirements.
+
+The basis of most of these elements lies in theoretical empirical component. Historically, this empirical component was derived from testing of scale models and prototypes, either in wind tunnels or in the free atmosphere. More recently, advances in computing have enabled the use of computational fluid dynamics to simulate the behavior of fluid, reducing time and expense spent on wind-tunnel testing.

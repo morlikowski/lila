@@ -1,0 +1,157 @@
+{| class="infobox vcard" style="width: 25.5em; font-size: 95%; text-align: left;"
+|-
+| colspan="2" style="font-size: larger; text-align: center;" class="fn"| '''}'''
+|-
+}|
+ colspan="2" style="font-size: smaller; text-align: center;"  }}}pxpx<br>}}}
+|-
+! colspan="2" style="background-color: #ffffda; text-align: center;" | Informaţii personale 
+|-
+! Nume
+| }
+|-
+! Naţionalitate
+| }
+|-
+! Data naşterii
+| }
+|-
+! Locul naşterii 
+| }
+|-
+}|
+! Data decesului 
+ }}}
+|-
+}|
+! Locul decesului 
+ }}}
+|-
+! colspan="2" style="background-color: #dddddd; text-align: center;" | Lucrări 
+|- class="note"
+}|
+! Numele firmei 
+ }}}
+|- class="note"
+! Clădiri semnificative 
+| }
+|- class="note"
+}|
+! Proiecte semnificative 
+ }}} 
+|- class="note"
+}|
+! Design semnificativ 
+ }}}
+|-
+}|
+! Premii şi distincţii 
+ }}}
+|-
+|}<noinclude>
+
+== Utilizare ==
+* Pentru a utiliza formatul, copiaţi în fereastra de editare a browser-ului sintaxa de mai jos, adăugând după fiecare semn "=" informaţiile corespunzătoare, cu sau fără conexiunile (link-urile) interne, interwiki sau externe.  Intenţionat, în sintaxa de mai jos, nu au fost folosite semnele diacritice specifice limbii române pentru a simplifica procesul de scriere al articolelor. 
+
+<pre>
+{{Infobox Architect
+|image                  = (folosiţi cuvântul "image" şi nu "imagine" pentru consistenţa citirii tuturor imaginilor de pe commons)
+|image_size             = (utilizaţi această funcţie doar dacă imaginea este mai mică decât 250px)
+|comentariu_imagine     = 
+|nume                   = 
+|nationalitate          = 
+|data_nasterii          = 
+|locul_nasterii         = 
+|data_decesului         = 
+|locul_decesului        = 
+|numele_firmei          = 
+|cladiri_semnificative  = 
+|proiecte_semnificative = 
+|design_semnificativ    = 
+|premii                 = 
+|}}
+</pre>
+
+'''Notă''' --> Parametrii ''image'', ''comentariu_imagine'', ''data_decesului'', ''locul_decesului'', ''numele_companiei'', ''proiecte_semnificative'' şi ''design_semnificativ'' sunt opţionale şi pot fi omise. 
+
+{| class="infobox vcard" style="width: 25.5em; font-size: 90%; text-align: left;"
+|-
+| colspan="2" style="font-size: larger; text-align: center;" class="fn"| '''}'''
+|-
+}|
+ colspan="2" style="font-size: smaller; text-align: center;"  }}}px<br>}}}
+|-
+! colspan="2" style="background-color: #ccccff; text-align: center;" | Personal information
+|-
+! Name
+| }
+|-
+}|
+! Nationality
+ }}}
+|-
+! Birth date
+| }
+|-
+! Birth place
+| }
+|-
+}|
+! Date of death
+ }}}
+|-
+}|
+! Place of death
+ }}}
+|-
+}|
+! Alma mater
+ }}}
+|-
+! colspan="2" style="background-color: #ccccff; text-align: center;" | Work
+|- class="note"
+}|
+! Practice name
+ }}}
+|- class="note"
+! Significant buildings
+| }
+|- class="note"
+}|
+! Significant projects
+ }}} 
+|- class="note"
+}|
+! Significant design
+ }}}
+|-
+}|
+! Awards and prizes
+ }}}
+|-
+|}<noinclude>
+
+== Usage ==
+<pre>
+{{Infobox Architect
+|image                = 
+|image_size           = (if image is smaller than 250px)
+|caption              = 
+|name                 = 
+|nationality          = 
+|birth_date           = 
+|birth_place          = 
+|death_date           = 
+|death_place          = 
+|alma_matter          =
+|practice_name        = 
+|significant_buildings= 
+|significant_projects = 
+|significant_design   = 
+|awards               = 
+}}
+</pre>
+
+'''Note:''' The parameters ''image'', ''caption'', ''nationality'', ''death_date'', ''death_place'', ''practice name'', ''significant_projects'', and ''significant_design'' are optional and may be omitted.
+
+==Microformat==

@@ -1,0 +1,68 @@
+Ël '''grand teorema ëd Fermat''' a fortiss che si n a l'é 'n natural da 3 an su, antlora l'equassion <math>a^n+b^n=c^n</math> a l'ha pa 'd solussion (a,b,c) anté che x,y,z a son ëd naturaj positiv.
+
+center|thumb|300px|Grand teorema ëd Fermat: për n > 2 a-i son nen solussion ant ij nùmer naturaj
+
+Pierre de Fermat a nonsia ës teorema an ëscrivend na nòta an sla bordura dla pàgina dël lìber II, problema 8, dj'euvre ëd Diofant, antitlà ''Divide un quadrà dàit an doi quadrà''.
+Fermat a scriv: ''Divide un cubo an doi cubo, na potensa quarta an doe potense quarte o na potensa qualsëssìa an doe potense dël midem órdin as peul pa fesse. I l'hai dëscoatà na dimostrassion fiamenga ma a-i é nen lë spassi për butela an sa bordura''.<br>
+Da antlora vàire matemàtich a l'han sërcà ëd trové la dimostrassion.
+Euler a lo dmostra për n=3 e ij sò mùltipl; Legendre për n=5; Kummer për tuti j'esponent pì cit che 100.
+Vàire travaj, dont coj ëd Mirimanoff, Mordell e Faltings a fan fé 'd progress al problema, ma a l'é mach dël 1993 che Andrew Wiles a nonsia na dimostrassion completa.
+
+Categorìa:Àlgebra
+
+be-x-old:Вялікая тэарэма Фэрма
+
+es:Último teorema de Fermat
+
+thumb|Pierre de Fermat.
+Der '''große fermatsche<!-- Nach der aktuellen Rechtschreibung gilt die Eigenname-Begründung nicht mehr. --> Satz''' wurde im 17. Jahrhundert von Wiles und Taylor bewiesen (1995 veröffentlicht). Er besagt, dass die <math>n</math>-te Potenz einer Zahl, wenn <math>n>2</math> ist, nicht in die Summe zweier Potenzen des gleichen Grades zerlegt werden kann; gemeint sind ganze Zahlen <math>\neq 0</math> und natürliche Potenzen. Formaler gesagt bedeutet dies:
+
+Die Gleichung
+
+: <math>a^n + b^n = c^n</math>
+
+besitzt für ganzzahlige <math>a,b,c \neq 0</math> und natürliche Zahlen <math>n> 2</math> keine Lösung.
+
+Erstaunlich ist dieser Satz, weil es für <math>n\leq 2</math> unendlich viele Lösungen der Gleichung gibt (für <math>n = 2</math> sind dies die pythagoreischen Zahlentripel), und weil Fermat sogleich behauptet hatte, er wisse einen Beweis, den er allerdings nicht mitteilte und den Mathematiker bisher nicht wiederfinden konnten. Der mehr als 350&nbsp;Jahre später gefundene Beweis verwendet Mittel, die Fermat keinesfalls zur Verfügung gestanden hatten.
+
+== Bezeichnungen ==
+
+* ''Großer fermatscher Satz,'' daraus abgeleitet ''großer Fermat'' im Gegensatz zum ''kleinen fermatschen Satz'' bzw. ''kleinen Fermat''
+* ''Fermatsche Vermutung'' (vor dem mathematischen Beweis handelte es sich fast 400 Jahre lang nur um eine Vermutung)
+* ''Höhere Abwandlungen des Satzes von Pythagoras''
+* ''Fermats letzter Satz'' bzw. ''Fermats letztes Theorem,'' abgeleitet aus der (schlechten) wörtlichen Übersetzung des englischen ''Fermat's Last Theorem''
+
+== Ursprung ==
+
+Im Jahr 1637 schrieb Fermat bei der Lektüre der ARITHMETICA von Diophantos neben den Satz des Pythagoras folgende Zeilen als Randbemerkung in seine Ausgabe dieses Buches:
+
+: ''„Cubum autem in duos cubos, aut quadratoquadratum in duos quadratoquadratos, et generaliter nullam in infinitum ultra quadratum potestatem in duos eiusdem nominis fas est dividere. Cuius rei demonstrationem mirabilem sane detexi. Hanc marginis exiguitas non caperet.“''
+
+Auf deutsch:
+
+: ''„Es ist unmöglich, einen Kubus in zwei Kuben zu zerlegen, oder ein Biquadrat in zwei Biquadrate, oder allgemein irgendeine Potenz größer als die zweite in Potenzen gleichen Grades. Ich habe hierfür einen wahrhaft wunderbaren Beweis gefunden, doch ist der Rand hier zu schmal, um ihn zu fassen.“''
+
+== Verbreitung ==
+
+Nach dem Tode Fermats drohte sein geistiges Erbe verloren zu gehen, da er ein recht unangenehmer Korrespondenzpartner für seine Mathematikerkollegen gewesen war und auch nie Kontakte zur Pariser Mathematikerschule gepflegt hatte. Sein ältester Sohn Clément-Samuel verbrachte fünf Jahre auf die Entzifferung der Notizen und veröffentlichte anschließend eine eigene Ausgabe der Arithmetica, in der auch achtundvierzig der Bemerkungen seines Vaters angeführt waren. Die zweite dieser Randnotizen wurde dann in weiterer Folge als ''fermatsche Vermutung'' bekannt. Die Notizen enthielten zwar eine Reihe von fundamentalen mathematischen Sätzen, aber Beweise dazu oder auch nur einfache Erklärungen, wie Fermat zu diesen Resultaten gekommen war, fehlten völlig. Es war nun den nachfolgenden Mathematikern überlassen, diese aufzustellen.
+
+== Unsicherheit ==
+
+In diesem Kontext entwickelte sich speziell der große fermatsche Satz in den folgenden Jahrhunderten zu einem Albtraum für viele Mathematiker&nbsp;– niemand konnte ihn beweisen oder widerlegen. Weil aber gerade Fermat selbst die Ansicht vertreten hatte, dass er einen ''wunderbaren Beweis'' gefunden habe, versuchten sich Generationen von Mathematikern&nbsp;– und unter diesen auch die bedeutendsten ihrer Zeit&nbsp;– an der Findung des Beweises. Ebenso sollten sich auch die anderen Bemerkungen Fermats als schwierige, jahrelange Arbeit für seine Mathematikerkollegen erweisen. Die einzelnen Beweisführungen an sich hatten&nbsp;– sozusagen als Nebenprodukte&nbsp;– eine Vielzahl von fundamentalen Entdeckungen zur Folge.
+
+== Beweise für Spezialfälle des Satzes ==
+
+Für spezielle Fälle des großen fermatschen Satzes konnten Beweise erbracht werden:
+===  <math>n = 3</math>, <math>n = 4</math> und Vielfache dieser Zahlen===
+
+imaginären Zahlen) die Behauptung auch für den Fall <math>n=3</math> bestätigen. Auf dieser Grundlage gelang es, die fermatsche Vermutung auch für alle <math>n</math>, die ein Vielfaches von 3 oder 4 sind (also 6, 9, 12, ... und 8, 12, 16, ...) zu erweitern. Euler gelang es aber nicht, seine Beweismethode auf noch weitere Einzelfälle auszudehnen.
+
+=== Primzahlen reichen aus ===
+
+Bald darauf wurde klar, dass es ausreicht, den fermatschen Satz für alle Primzahlen größer 2 und die Zahl 4 zu beweisen&nbsp;– er lässt sich dann auf alle Vielfachen dieser Zahlen übertragen. Doch auch bei den Primzahlen hatte man es immer noch mit einer unendlichen Zahlenmenge zu tun und damit auch mit unendlich vielen zu beweisenden Fällen.
+
+=== <math>n = 5</math> und alle Sophie-Germain-Primzahlen ===
+
+Im Jahre 1825 konnten Peter Gustav Lejeune-Dirichlet und Adrien-Marie Legendre den Satz für n&nbsp;=&nbsp;5 beweisen. Sie stützten sich dabei auf die Vorarbeit von Sophie Germain. Germain meinte, dass die fermatsche Vermutung vermutlich für alle Sophie-Germain-Primzahlen gilt. „Vermutlich“ soll heißen, dass wenn es Lösungen gäbe, müssten <math>a</math>, <math>b</math>, oder <math>c</math> Vielfache von <math>n</math> sein; diese Bedingung ist auch als ''zweiter Fall'' bekannt. Bis zu den Arbeiten von Wiles und Taylor war jedoch weder für den ersten Fall (<math>n\nmid abc</math>) noch für den zweiten Fall (<math>n\mid abc</math>) ein allgemeiner Beweis bekannt.
+
+===  <math>n = 7</math> ===

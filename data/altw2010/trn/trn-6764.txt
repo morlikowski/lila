@@ -1,0 +1,27 @@
+In elettronici digitali, può essere generato da qualsiasi tensione che periodicamente in modo regolare fa una rapida transizione dal valore zero ad un valore che generalmente coincide con la tensione di alimentazione del circuito, rimane a questo livello per un certo tempo e poi in modo altrettanto rapido ritorna a livello zero, rimane a livello zero per un determinato tempo e poi il ciclo si ripete. La commutazione di tutti i circuiti logici avviene durante la transizione di questa tensione, ovverosia durante la variazione di livello di questo segnale. Gli ingressi dei dispositivi preposti a ricevere il clock sono definiti per consuetudine "attivi alti" o "attivi negati", i primi commutano durante il fronte di salita del clock, i secondi sul fronte di discesa. Non necessariamente il duty cycle del segnale deve essere simmetrico, un clock di 100 Mhz può essere costituito da un segnale che sta a livello alto 3 nanosecondi e rimane a zero 7 nanosecondi, o viceversa.
+
+Il '''ciclo''' di clock è il tempo che trascorre tra il verificarsi di due colpi di clock successivi.
+La '''frequenza''' o velocità di clock è il numero di colpi di clock che vengono eseguiti in una determinata unità di tempo. L'unità di misura usata è l'hertz, ovvero il numero di cicli di clock eseguiti in un secondo. Poiché i clock sono in genere molto veloci, si usano comunemente i multipli kilohertz (Khz), megahertz (Mhz) e gigahertz (Ghz) per indicare mille, un milione e un miliardo di cicli al secondo.
+
+Prendiamo ad esempio, il funzionamento di un processore. Questo è composto da vari circuiti logici preposti ad eseguire operazioni diverse, tali circuiti interagiscono tra loro scambiandosi informazioni. Perché tale operazione avvenga correttamente però è necessario che ad ogni circuito sia indicato il momento esatto in cui può ritenere validi i segnali che riceve in ingresso. Il clock è il segnale che si occupa di questo, ed è condiviso tra tutti i circuiti. La sua frequenza quindi deve essere calcolata in modo tale che il ciclo di clock sia sufficientemente lungo da consentire a tutti i circuiti, anche il più lento, di completare correttamente le proprie operazioni.
+
+Riassumendo, maggiore è la frequenza, maggiori sono le operazioni che possono essere eseguite nello stesso lasso di tempo. Per aumentare le prestazioni di una CPU quindi è possibile agire sul clock. Visto che tale valore è limitato dal circuito logico più lento, è facile che alcuni circuiti molto complessi causino "colli di bottiglia" con conseguente riduzione delle prestazioni generali. Per ovviare a questo problema è possibile ridurre la lunghezza massima dei circuiti logici spezzando in più parti quelli di lunghezza eccessiva. Le operazione quindi non sarebbero più completate in un solo ciclo di clock.
+
+In de digitale techniek doorloopt een schakeling allerlei logische toestanden. In vele schakelingen staat de voortgang onder besturing van een '''klok'''. Dit is een periode de schakeling een toestand verder doet gaan.
+
+Elke digitale schakeling, die geheel of gedeeltelijk uit flip-flops is opgebouwd, ook wel volgordeschakeling genoemd, heeft een klok nodig. De frequentie kan vast ingesteld of variabel zijn. Ook kan de pulstrein voor onbepaalde tijd worden onderbroken. Voorbeelden van volgordeschakelingen zijn:
+*Elementair:
+**Teller
+**Schuifregister
+*Complex:
+**processor
+**microcontroller
+Een schakeling, die de klok opwekt, heet klokgenerator.
+
+==In de computer==
+Bekende voorbeelden zijn de klok in diverse onderdelen van de GHz. De klokgenerator is een oscillator.
+===Klokfrequentie en snelheid===
+De klokfrequentie (Hz, MHz of GHz) van een processor bepaalt hoeveel pulsen per seconde worden afgegeven. Omdat elke instructie 1 of meerdere klokpulsen nodig heeft, bepaalt dit het aantal instructies per seconde en is daarom een belangrijke factor in de werksnelheid van de computer. Andere factoren zijn:
+*Het aantal toestanden, dat de processor moet doorlopen om een zekere taak uit te voeren. Dat hangt af van het type processor;
+*De tijd, dat de processor moet wachten op tragere onderdelen van de computer, zoals het geheugen.
+Een directe vergelijking van klokfrequenties is hierdoor alleen zinvol bij processors van hetzelfde type.

@@ -1,0 +1,75 @@
+In measure of the time-averaged strength", "amplitude", or "level", as it sometimes is in colloquial speech.  For example, "the intensity of pressure" is meaningless, since the parameters of those variables do not match.
+
+To find the intensity, take the energy density (that is, the energy per unit volume) and multiply it by the vector has the units of power divided by area (i.e. watt/m²). It is possible to define the intensity of the water coming from a garden sprinkler, but intensity is used most frequently with waves (i.e. sound or light). 
+
+==Mathematical description==
+If a point source is radiating energy in three dimensions and there is no energy lost to the medium, then the intensity decreases in proportion to distance from the object squared.  This is due to physics and geometry.  Physically, conservation of energy applies.  The consequence of this is that the net power coming from the source must be constant, thus:
+
+:<math>P = \int I\, dA</math>
+
+where ''P'' is the net power radiated, ''I'' is the intensity as a function of position, and ''dA'' is a differential element of a closed surface that contains the source. That ''P'' is a constant. If we integrate over a surface of uniform intensity ''I'', for instance, over a sphere centered around a point source radiating equally in all directions, the equation becomes:
+
+:<math>P = |I| \cdot A_{surf} = |I| \cdot 4\pi r^2 \,</math> <!-- "\,": other two equations get PNG treatment -->
+
+where ''I'' is the intensity at the surface of the sphere, and ''r'' is the radius of the sphere. (<math>A_{surf} = 4\pi r^2 </math> is the expression for the surface area of a sphere). Solving for ''I'', we get:
+
+==定義==
+
+'''放射発散度'''（'''ほうしゃはっさんど'''、'''radiant emittance'''）とは、平面状の放射源から放射された単位面積あたりの放射束のを表す物理量である。単位は、国際単位系ではワット毎平方メートル (W/m<sup>2</sup>) である。'''放射発散度'''と'''放射照度'''を合わせて、'''放射束密度''' ('''ほうしゃそくみつど'''、'''radiant flux density''')と呼ぶこともある。'''放射発散度'''を''R''とすると以下の式のようになる。
+
+<math>R = \frac{d \Phi}{\cos \theta \, dA} = \frac{hc}{\cos \theta }\int_0^{\infty} \left\{ \frac{d^2 n_{\lambda}}{dA\,dt}\right\} \frac{1}{\lambda}d\lambda \ \ \mathrm{[W \cdot m^{-2}]}</math>
+
+ただし、
+<math>\Phi = \frac{dQ}{dt},\ \  
+Q = \int_0^{\infty} Q_{\lambda} d\lambda, \ \ 
+Q_{\lambda} = n_{\lambda}e_{\lambda}, \ \ 
+e_{\lambda} = \frac{hc}{\lambda}
+</math>
+
+{|
+|&Phi;
+|:
+|放射束 [W]
+|-
+|dA
+|:
+|微小面積素 [m<sup>2</sup>]
+|-
+|Q
+|:
+|放射されたエネルギー [J]
+|-
+|&theta;
+|:
+|表面状の放射源の法線とのなす角 [rad]
+|-
+|t
+|:
+|時間 [s]
+|-
+|<math>Q_{\lambda}</math>
+|:
+|波長&lambda;の電磁波のエネルギー [J]
+|-
+|&lambda;
+|:
+|放射された電磁波の波長 [m]
+|-
+|<math>n_{\lambda}</math>
+|:
+|放射された波長&lambda;の光子の数
+|-
+|<math>e_{\lambda}</math>
+|:
+|放射された波長&lambda;の光子1個のエネルギー [J]
+|-
+|h
+|:
+|プランク定数 <math>[J\cdot s]</math>
+|-
+|c
+|:
+|光速 <math>[m\cdot s^{-1}]</math>
+|}
+
+''&theta;''が大きくなればなるほど平面状の物体に斜めに放射するので、'''放射発散度'''は低くなる。

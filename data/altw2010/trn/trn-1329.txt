@@ -1,0 +1,112 @@
+{{Datorprogram
+| namn = OpenArena
+| logo = 
+| skärmdump = 260px
+| bildtext = Raketkastaren i ''OpenArena'' 0.7.
+| utvecklare = OpenArena team
+| senaste_utgåva_version = 0.7.6 
+| senaste_utgåva_datum = 04-21
+| senaste_betautgåva_version = 
+| senaste_betautgåva_datum = 
+| senaste_alfautgåva_version = 
+| senaste_alfautgåva_datum = 
+| operativsystem = Mac OS X, GNU/Linux, Windows och Solaris 
+| plattform = 
+| programkategori = FPS
+| användning = 
+| licens = GNU GPL
+| webbplats = [http://openarena.ws/? openarena.ws]
+}}
+
+'''''OpenArena''''' är ett datorspel i 3D-miljö och tillhör genren first-person shooter. Det är skapat av OpenArena team och utvecklas främst med fri programvara och öppen källkod. Till exempel utgörs dess spelmotor av samma typ som Quake III: Arena använder, nämligen id Softwares numera GNU GPL-licenserade motor ''id Tech 3''. Den övriga spelkoden lyder också under GNU GPL-licensen. 
+
+Dess första allmänna testrelease kom 08-19.
+
+Spelets senaste version är 0.7.6 och finns tillgänglig för fri nedladdning via dess officiella hemsida.
+
+==Överblick==
+''OpenArenas'' spelupplevelse är exakt som datorstyrda motståndare (sedan version 0.6.0) och multiplayer för nätverkspel. Spelaren ska i de flesta fall döda så många motståndare som möjligt för att samla ihop poäng och på så sätt vinna spelet. Till spelarens hjälp finns en vapenarsenal som är utformad för olika situationer:
+
+===Vapen===
+*'''Gauntlet'''
+The gauntlet är ett stridsvapen som kombinerar en snurrande sågklinga med en elektrisk laddning. Det är tänkt att enbart användas i närstrid och ett slag tillfogar 50 hp (hälsopoäng) i skada. Då spelaren lyckas döda någon med the gauntlet får denne en gauntletmedalj och både mördaren och offret får ett meddelande som lyder "förödmjukelse". I vanliga fall är det ett vapen att använda som sista utväg, dock är det användbart i trånga utrymmen (som korridorer och dörröppningar).
+
+*'''Machine Gun (maskingevär)'''
+thumb|230px|Vapnet the gauntlet.
+Maskingeväret är det andra vapnet som spelaren börjar med. Det kan kvickt tilldela små skador (7 hp per skott) och har en liten spridningsgrad (ungefär 2 grader). Maskingeväret har en eldgivningshastighet på 10 skott per sekund.
+
+*'''Shot Gun (hagelgevär)'''
+Hagelgeväret används framför allt i närstrid eftersom dess stora eldkraft minskar i förhållande till avstånd. Det skjuter 11 småkulor vilka var och en utdelar 10 hp i skada. Därför kan en koncentrerad spridning döda en avväpnad spelare. Vapnet kan hittas på nästan varje varufylld bana. För att mildra dess enorma eldkraft har det en sekunds fördröjning mellan skotten.
+
+*'''Grenade Launcher (granatkastare)'''
+Det här vapnet avfyrar granater som detonerar antingen vid kontakt med en annan spelare eller efter 2.5 sekunder då de avfyrats. Granater kommer inte detonera som ett resultat av kontakt med den som sköt iväg de eller hejdas av denne. Vapnet skjuter med en hastighet på 0.8 sekunder.
+
+*'''Rocket Launcher (raketkastare)'''
+Raketkastaren kan tilldela oerhört mycket skada. På grund av explosionsradien uppmuntras spelare att skjuta på marken, väggen eller innertaket istället för att sikta direkt på motståndaren. Detta vapen kan även användas för att såkallat rakethoppa, en metod för att dra fördel av spelarens egna explosion och på så sätt nå högre höjder än med vanliga hopp. En omedelbar träff på en motståndare tillfogar 100 hp i skada, men splash-skada har ingen verkan.
+
+*'''Lightning Gun'''
+thumb|230px|Maskingeväret i aktion.
+The lightning gun (också referrerad till som ''the shaft'') är i många avseenden som maskingeväret förutom att det bland annat avfyrar en stråle med begränsad räckvidd. Det kan döda en motståndare med gott om hp på mindre än två sekunder därför att det skjuter med en hastighet på 0.05 sekunder per impuls. 
+
+*'''Rail Gun'''
+Rail Gun används huvudsakligen i strid på långt håll eller i prickskytte. Det har en träffsäkerhet på 100 procent, orsakar 100 hp i skada men har en låg eldgivningshastighet (standard är 1.5 sekunder).
+
+*'''Plasma Gun (plasmavapen)'''
+Plasmavapnet är till för närstrid eller strid på mellanlångt håll. Det skjuter fort en ström av dödliga impulser (10 per sekund) vilket orsakar en betydligt stor mängd skada (20 hp per orb). Plasman orsakar också mindre splash-skador som faktiskt kan användas för att "plasmaklättra". Men, då styrkan hos splash-skadan är liten är plasmaklättring långsammare än rakethoppande. Det går inte att komma lika högt och kräver mer skicklighet.
+
+*'''BFG10K'''
+BFG10K är ett snabbeldsvapen som avfyrar kvicka plasmasalvor med en hastighet på ungefär 5 skott per sekund. Detta tilldelar skada och splash-skada på 100 hp per cell.
+
+===Spelsätt===
+''OpenArena'' erbjuder olika typer av spelsätt (alla dessa finns också i originalspelet) som exempelvis:
+
+{{Infobox VG
+|title = OpenArena
+|image = 256px|OpenArena logo
+|developer = OpenArena team
+|publisher = 
+|distributor = 
+|engine = ioquake3
+|version = 0.7.7 (May 29 2008)
+|released = August 19 2005
+|genre = First-person shooter
+|modes = Multiplayer
+|ratings = 
+|platforms = Solaris, Windows
+|media = Internet download (see external links for download)
+|requirements = MHz processor, 64 MB of RAM, 8 MB video card with OpenGL acceleration
+|input = Keyboard and Mouse
+}}
+'''''OpenArena''''' is an open source GPL source code release.
+
+''OpenArena'''s greatest goal is to make a completely free, open source FPS game that devives itself strongly from Quake III. Its free and open content.
+
+It is still in early development. In addition, a "missionpack" add-on is planned, to take advantage of the GPL'd ''Quake III: Team Arena'' source code.
+
+The newest version of ''OpenArena'' 0.7.7 was released on May 29 2008.
+
+== Overview==
+''OpenArena'''s gameplay is the exact same as ''Quake III Arena'' - score frags to win the game using a balanced set of weapons each designed for different situations. Guns include a chaingun, rocket launcher, shotgun, and railgun. The Quake III style of play is different from other shooters in that it is very fast and requires skill to be played correctly online.
+
+Gameplay modes exist such as Deathmatch, Team Deathmatch, Tournament, and Capture The Flag (all modes also in the original Quake III). OpenArena version 0.7.6 adds the new Elimination, CTF Elimination, Last Man Standing and Double Domination gametypes. 
+
+''OpenArena'' has undergone compatibility testing with some ''Quake 3'' mods and maps. Because "OpenArena" is not finished, many mods and maps from the original game are not compatible. A list of tested mods can be found at http://openarena.wikia.com/wiki/ModCompat
+
+== Release History ==
+{| class="wikitable"
+|-
+! Colour
+! Meaning
+|-
+| style="background-color:#fa8072;" | Red
+| Old release; not supported
+|-
+| style="background-color:#f0e68c;" | Yellow
+| Old release; still supported
+|-
+| style="background-color:#A0E75A;" | Green
+| Current release
+|-
+| style="background-color:#87CEEB;" | Blue
+| Future release
+|}

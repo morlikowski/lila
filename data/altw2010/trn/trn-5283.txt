@@ -1,0 +1,135 @@
+{{Commune italienne
+|nom = Villarbasse
+|nomItalien =  
+|nomPiémontais =Vilarbasse 
+|blason =   Villarbasse-Stemma.png  
+|rég = PMN
+|prov = TO
+|latitudegrade = 45
+|latitudeminute = 3
+|latitudeseconde = 0
+|longitudegrade = 7
+|longitudeminute = 28
+|longitudeseconde = 0
+|moy =
+|km² = 10
+|pop = 2 814
+|date-pop =
+|dens = 281
+|cp = 10090
+|tel = 011
+|istat = 001302
+|code_cadastre = M002
+|Gentilé = villarbassesi
+|Patron = Sant'Amato
+|Fête_patronale = 3 septembre
+|site_web = http://www.comune.villarbasse.to.it/default.htm
+}}
+'''Villarbasse''' est une commune italienne de la province de Turin dans la région Piémont en Italie.
+
+==Etymologie==
+Le nom de Villarbasse dérive de deux mots différents: Villar, ( du latin ''villarium'',  et  basse  qui indique une petite vallée dans les environs. Il y a des documents du XIXe siècle qui citent le nom de ''Villar di Basse.''
+==Monuments et lieux historiques==
+* '''Chiesetta di San Martino''' (XIe siècle)
+*'''Il Torrazzo''' (XIIIe siècle)
+
+<!--
+== Géographie ==
+
+== Histoire ==
+
+== Economie ==
+
+== Culture ==
+
+== Evénement commémoratif ==
+
+== Fêtes, foires == -->
+
+== Administration ==
+
+ 
+
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = Villarbasse |
+  name = Villarbasse |
+  region = Piedmont |
+  province = Province of Turin (TO) |
+  elevation_m =  |
+  area_total_km2   = 10.4 |
+  population_as_of  = Dec. 2004 |
+  population_total = 2894 |
+  population_density_km2 = 279 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          =  |
+  telephone         = 011 |
+  postalcode        = 10090 |
+  gentilic          = villarbassesi |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           = [http://www.comune.villarbasse.to.it/default.htm www.comune.villarbasse.to.it/default.htm] |
+  mapy = 7.4667 |
+  mapx = 45.0500 |
+}}
+'''Villarbasse''' is a ''Italian region Piedmont, located about 20 km west of Turin. As of 31 December 2004, it had a population of 2,894 and an area of 10.4 km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+Villarbasse borders the following municipalities: Rivoli, Rosta, Reano, Rivalta di Torino, and Sangano.
+
+Last executions in Italy took place on March 4, 1947, following the Villarbasse massacre.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:4000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:1000 start:0
+ScaleMinor = gridcolor:lightgrey increment:200 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:1610
+  bar:1871 from: 0 till:1587
+  bar:1881 from: 0 till:1651
+  bar:1901 from: 0 till:1480
+  bar:1911 from: 0 till:1322
+  bar:1921 from: 0 till:1283
+  bar:1931 from: 0 till:1241
+  bar:1936 from: 0 till:1104
+  bar:1951 from: 0 till:1159
+  bar:1961 from: 0 till:1170
+  bar:1971 from: 0 till:1418
+  bar:1981 from: 0 till:2309
+  bar:1991 from: 0 till:2711
+  bar:2001 from: 0 till:2814
+
+PlotData=

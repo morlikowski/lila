@@ -1,0 +1,153 @@
+thumb|La fusione del [[ghiaccio è un classico esempio di processo irreversibile, in cui si ha aumento dell'entropia.]]
+In termodinamica l''''entropia''' è una funzione di stato che si introduce insieme al secondo principio della termodinamica e che viene interpretata come una misura del disordine di un sistema fisico o più in generale dell'universo. In base a questa definizione si può dire, in forma non rigorosa ma esplicativa, che quando un sistema passa da uno stato ordinato ad uno disordinato la sua entropia aumenta.
+
+Nel Sistema Internazionale si misura in joule su kelvin (J/K).
+
+==Storia e definizione==
+Il concetto di entropia venne introdotto agli inizi del XIX secolo, nell'ambito della termodinamica, per descrivere una caratteristica (la cui estrema generalità venne osservata per la prima volta da Sadi Carnot nel 1824) di tutti i sistemi allora conosciuti nei quali si osservava che le trasformazioni avvenivano invariabilmente in una direzione sola, ovvero quella verso il maggior disordine.
+
+In particolare la parola '''entropia''' venne introdotta per la prima volta da infinitesimi) di calore, divisa per la temperatura assoluta durante l'assorbimento del calore.
+
+Per chiarire maggiormente il concetto di entropia possiamo presentare alcuni esempi:
+*Si pensi di far cadere una gocciolina d'inchiostro in un bicchiere d'diffondere e, in un certo tempo, si ottiene una miscela uniforme (stato completamente disordinato). È esperienza comune che, mentre questo processo avviene spontaneamente, il processo inverso (separare l'acqua e l'inchiostro) richiederebbe energia esterna.
+
+*Immaginiamo un profumo contenuto in una boccetta colma come un insieme di molecole puntiformi dotate di una certa velocità derivante dalla temperatura del profumo. Fino a quando la boccetta è tappata, ossia isolata dal resto dell'universo, le molecole saranno costrette a rimanere all'interno e non avendo spazio (la boccetta è colma) rimarranno abbastanza ordinate (stato liquido). Nel momento in cui la boccetta viene stappata le molecole della superficie del liquido inizieranno a staccarsi dalle altre ed urtando casualmente tra di loro e contro le pareti della boccetta usciranno da questa disperdendosi all'esterno (evaporazione). Dopo un certo tempo tutte le molecole saranno uscite disperdendosi. Anche se casualmente qualche molecola rientrerà nella boccetta il sistema complessivo è ormai disordinato e l'energia termica che ha messo in moto il fenomeno è dispersa e quindi non più recuperabile.
+
+Il concetto di entropia ha conosciuto grandissima popolarità nell'800 e nel '900, grazie proprio alla grande quantità di fenomeni che aiuta a descrivere, fino ad uscire dall'ambito prettamente fisico ed essere adottato anche dalle scienze sociali, nella caotici) per i quali le leggi della termodinamica (e quindi anche l'entropia) devono essere profondamente riviste e non hanno più validità generale.
+
+== Definizione termodinamica==
+La variazione della funzione di stato entropia ''S'' venne introdotta nel 1864 da Rudolf Clausius nell'ambito della termodinamica come
+
+:<math>\Delta S = \frac{\Delta Q_{rev}}{T}</math>
+
+dove <math>\Delta Q_{rev}</math> è la quantità di reversibile e isoterma dal sistema a temperatura ''T''.
+
+In forma differenziale, la legge si presenta così:
+
+:<math>{\rm d} S = \frac{\delta Q_{rev}}{T}</math>
+
+È importante notare come, mentre <math>\delta Q_{rev}</math> non è un fattore d'integrazione. Occorre sottolineare che ''dS'' è un differenziale esatto solo se è valido il secondo principio della termodinamica.
+
+In una delle sue diverse formulazioni, il secondo principio della termodinamica afferma che in un trasformazioni termodinamiche reversibili.
+
+=== Gas perfetti ===
+Un'applicazione termodinamica basilare del concetto di entropia è quella legata alle trasformazioni di gas perfetti. 
+
+Considerando una qualsiasi trasformazione da uno stato ''A'' ad uno ''B'', con definite Clausius'''
+
+:<math>\int_A^B{ \left( \frac{\delta Q}{T} \right)}_{\rm{rev}}</math>
+
+su di un qualsiasi cammino reversibile, ad esempio sulla composizione di una isocora reversibile con una isoterma reversibile. Si ottiene (dipendentemente solo dagli stati ''A'' e ''B''):
+
+:<math>\Delta S = n \, C_V \log{\frac{T_B}{T_A}} + n \, R \log{\frac{V_B}{V_A}}</math>
+
+da cui, applicando la nozione di funzione di stato si ottiene una formulazione analitica per l'entropia in funzione delle variabili di stato, a meno di una costante additiva:
+
+:<math>S = n \, C_V \log{T} + n \, R \log \! {V}</math>
+
+Essa è equivalente, tramite l'equazione di stato dei gas perfetti, alle altre due forme, talvolta utili, definite sempre a meno di una costante additiva:
+
+:<math>S = n \, C_V \log{ \left( TV^{\gamma-1} \right) } \, = \, n \, C_V\log{ \left( pV^{\gamma} \right) }</math>
+
+Si nota così che nelle trasformazioni adiabatiche reversibili l'entropia rimane costante.
+
+=== Sistemi materiali ===
+Per calcolare l'entropia associata a sistemi materiali è possibile effettuare una integrazione che tenga conto anche di tutti i contributi dovuti ai passaggi di stato. Per una sostanza gassosa ad una temperatura T, l'entropia molare si può ricavare da
+
+:<math>S =\int_{0}^{T_{fus}} \frac {C_{ps}}{T} dT+\frac {\Delta H_{fus}}{T_{fus}}+\int_{T_{fus}}^{T_{eb}} \frac {C_{pl}}{T} dT+\frac {\Delta H_{eb}}{T_{eb}}+\int_{T_{eb}}^{T} \frac {C_{pg}}{T} dT </math>
+
+dove <math>C_{ps}, C_{pl}, C_{pg}</math> sono rispettivamente i calori specifici della sostanza allo stato solido, liquido e gassoso mentre <math>\Delta H_{fus}, \Delta H_{eb}</math> sono rispettivamente il fusione e il calore latente di ebollizione.
+
+== Definizione matematica ==
+Accanto a questa trattazione dell'entropia, ne esiste un'altra (matematica) che tratta l'entropia come una funzione di stato della sola temperatura, ossia una funzione che dipende esclusivamente dallo stato iniziale e dallo stato finale del sistema e non dal particolare cammino seguito (definita a meno di una costante arbitraria; come l'energia interna, anch'essa funzione di stato).
+
+In quanto funzione continua e monotona crescente della sola temperatura essa ammette un massimo e un minimo assoluti (teorema di Weierstrass) cui l'universo converge con continuità (per il principio di aumento dell'entropia).
+
+L'aumento di entropia è un fattore strutturale dell'universo. Impossibile è al momento quantificare tale entropia massima, non essendo noto un legame analitico fra le variabili entropia e temperatura, che nell'intera teoria termodinamica (nei diagrammi T-s) si rappresentano appunto come variabili indipendenti. 
+
+Dunque, dell'universo si conosce lo stato iniziale a entropia nulla, non lo stato finale a cui converge (a entropia e temperatura massime); la funzione entropia non dipende e non dà informazioni sul cammino che è stato e che sarà seguito per arrivarci, ovvero non ci dice il futuro termodinamico dell'universo. Tuttavia, è possibile inferire alcune ipotesi riguardo al destino ultimo dell'Universo da considerazioni termodinamiche.
+
+==Energia ed entropia==
+Assumendo che l'intero universo sia un ''primo ed il secondo principio della termodinamica possono essere riassunti da un'unica frase:
+:''l'energia totale dell'universo è costante e l'entropia totale è in continuo aumento.''
+valida per qualsiasi sistema isolato. 
+
+In altre parole ciò significa che non solo non si può né creare né distruggere l'energia, ma nemmeno la si può completamente trasformare da una forma in un'altra senza che una parte venga dissipata sotto forma di calore.
+
+Se per esempio si brucia un pezzo di carbone, la sua energia si conserva e si converte in energia contenuta nell'anidride carbonica, nell'anidride solforosa e negli altri residui di combustione oltre che naturalmente in forma di calore. Per quanto non si sia persa energia nel processo, sappiamo che non possiamo invertire il processo di combustione e ricreare dai suoi scarti il pezzo di carbone originale.
+
+La spiegazione si trova nel secondo principio della termodinamica che può così essere parafrasato:
+
+''ogni volta che una certa quantità di lavoro.''
+
+Lo stato in cui l'entropia raggiunge il massimo livello e non vi è più energia libera disponibile per compiere ulteriore lavoro è detto stato di equilibrio. Per l'intero universo concepito come sistema isolato ciò significa che la progressiva conversione di lavoro in calore (per il principio di aumento dell'entropia totale), a fronte di una massa dell'universo finita, porterà infine ad uno stato in cui l'intero universo si troverà in condizioni di temperatura uniforme; la cosiddetta morte termica dell'Universo.
+
+L'entropia caratterizza il verso di qualunque trasformazione reale come trasformazione irreversibile: infatti anche tornando da uno stato finale a uno identico allo stato iniziale (per temperatura, volume, pressione o altri parametri, come continuamente avviene nei cicli di una centrale) almeno una variabile fisica differirebbe dal punto da cui si è partiti, l'entropia (che inevitabilmente aumenta).
+
+Ogni trasformazione reale è una trasformazione irreversibile perché l'entropia aumenta; l'ipotesi di idealità equivale appunto all'ipotesi di una variazione d'entropia nulla.
+
+==La definizione quantistica dell'entropia==
+Mentre nella visione classica l'entropia è sempre espressa in termini di variazione, e mai assoluti, in meccanica quantistica è possibile definire l'entropia in termini assoluti, ad esempio attraverso l'entanglement.
+
+Si considerino due sistemi <math>A</math> e <math>B</math>, ognuno con associato uno spazio di Hilbert <math>H_A</math>, <math>H_B</math>.  Il sistema dello stato composito è allora:
+
+: <math> |\Psi \rangle \in H_A \otimes H_B. </math>
+
+In generale, non è possibile associare uno stato puro al componente <math>A</math>. Tuttavia è comunque possibile associarvi una matrice di densità. Sia definito l'operatore proiezione
+
+: <math>\rho_T = |\Psi\rangle \; \langle\Psi|</math>.
+
+Lo stato di <math>A</math> è la traccia parziale di <math>\rho_T</math> sulle basi del sistema <math>B</math>:
+
+:<math>\rho_A \equiv \sum_j \langle j|_B \left( |\Psi\rangle \langle\Psi| \right) |j\rangle_B = \hbox{Tr}_B \; \rho_T </math>.
+
+'''Entropie''' je obecně veličina udávající míru neuspořádanosti zkoumaného systému nebo také míru neurčitosti daného procesu.
+
+== Termodynamická entropie ==
+right|200px|thumb|Termodynamický systém s nízkou entropií - nízkou neuspořádaností, a tedy vysokou schopností konat práci.
+right|200px|thumb|Termodynamický systém s vysokou entropií - vysokou neuspořádaností, a tedy nízkou schopností konat práci.
+'''Termodynamická entropie''', nebo v termodynamiky jen krátce '''entropie''', představuje míru neuspořádanosti systému (např. molekul plynu).
+
+===Historie===
+Název entropie definoval statistické fyziky.
+
+Jiný přístup k entropii nabídl dříve klasické termodynamiky. Podle něj je entropie měřítkem „kvality“ tepla. Například teplo získané z horkého tělesa (například páry v parním stroji) může vykonat více užitečné práce než teplo získané z méně teplého tělesa (například ochlazováním kostky teplotou.
+
+===Značení===
+* Značka: ''S''
+* Základní jednotka: joule na kelvin, značka ''J K<sup>-1</sup>'''
+
+Jednotka entropie je zároveň jednotkou tepelné kapacity.
+
+===Výpočet===
+Entropii lze vyjádřit pomocí tepla <math>Q</math> a teploty <math>T</math> v diferenciálním tvaru jako
+:<math>\mathrm{d}S = \frac{\delta Q}{T}</math>
+
+Podíl tepla <math>Q</math> a teploty <math>T</math> bývá také označován jako '''redukované teplo'''. Při Carnotově cyklu je součet redukovaných tepel roven nule. Vzhledem k tomu, že libovolný aproximovat ''elementárními Carnotovými cykly'', jejichž redukované teplo lze vyjádřit jako <math>\frac{\delta Q}{T}</math>, je možné předchozí tvrzení zobecnit na libovolný vratný cyklus.
+
+Proběhnutí všech elementárních Carnotových cyklů je pak ekvivalentní aproximovanému vratnému ději, což lze vyjádřit jako
+:<math>\sum \frac{\delta Q}{T} = 0</math>
+Postupným zmenšováním elementárních Carnotových cyklů se v limitě dostaneme k výrazu
+:<math>\oint \frac{\delta Q}{T} = 0</math>
+Tento vztah je označován jako '''Clausiova rovnice''' a představuje podmínku, která je platná pro libovolný vratný druhé hlavní věty termodynamiky.
+
+Z předchozího vztahu je vidět, že všechna <math>\delta Q</math> nemohou být kladná, ale některá musí být i záporná. Soustava, která vykonává vratný kruhový děj tedy nemůže od okolních těles teplo pouze přijímat, ale musí jim také nějaké teplo odevzdávat.
+
+===Princip růstu entropie===
+Entropie je veličina s velkým významem, neboť umožňuje formulovat druhou hlavní větu termodynamiky, a vyjádřit kvantitativně nevratnost tepelných pochodů. Tuto skutečnost vyjadřuje '''princip růstu entropie'''.
+
+Jako příklad nevratného děje můžeme uvažovat zvednuté potenciální energií. Pokud klesne závaží o určitou výšku <math>h</math> a je zastaveno práci <math>\Delta W</math>, při které třením vznikne teplo <math>\Delta Q = \Delta W</math>. Toto teplo odvedeme do okolí, které lze považovat za těleso s teplotou <math>T</math>, a jehož entropie se tím změní o hodnotu <math>\Delta S=\frac{\Delta Q}{T}</math>. Předpokládáme přitom, že teplota okolí se přidáním tepla <math>\Delta Q</math> nijak znatelně nezmění. Přivedené teplo je kladné, a proto je také změna entropie kladná. Entropie soustavy tedy při tomto nevratném ději vzrostla.
+
+thumb|Tepelně izolovaná soustava.
+Uvažujme tepelně izolovanou soustavu dvou těles ''1'' a ''2'' s teplotami <math>T_1</math> a <math>T_2</math>.
+
+Tělesa si mohou vyměňovat tepelnou energii, přičemž celková hodnota tepelné energie zůstává stálá. Získá-li těleso ''2'' o teplotě <math>T_2</math> teplo <math>\delta Q_2</math>, musí těleso ''1'' stejně velké teplo odevzdat, tzn. <math>\delta Q_2=-\delta Q_1</math>. Bude tedy platit <math>\delta Q_1+\delta Q_2=0</math>.
+
+Změna entropie bude
+:<math>\mathrm{d}S = \mathrm{d}S_1+\mathrm{d}S_2 = \frac{\delta Q_1}{T_1} + \frac{\delta Q_2}{T_2} = \left(\frac{1}{T_1}-\frac{1}{T_2}\right) \delta Q_1 = \frac{T_2-T_1}{T_1T_2} \delta Q_1</math>
+Z tohoto vztahu je vidět, že pokud mají výraz <math>T_2-T_1</math> a teplo <math>\delta Q_1</math> stejné znaménko, pak <math>\mathrm{d}S>0</math>, jinak <math>\mathrm{d}S<0</math>. Podle Clausiovy formulace druhé hlavní věty však teplo nemůže samovolně přecházet z tělesa chladnějšího na těleso teplejší. Je-li tedy <math>T_2>T_1</math>, nemůže teplo přejít z tělesa ''1'' na těleso ''2'', a proto musí být <math>\delta Q_1>0</math>, tzn. <math>\delta Q_2<0</math>. Pokud však <math>T_2<T_1</math>, nemůže teplo přejít z tělesa ''2'' na těleso ''1'', takže musí být <math>\delta Q_1<0</math>, tedy <math>\delta Q_2>0</math>. V obou případech mají <math>T_2-T_1</math> a <math>\delta Q_1</math> stejná znaménka, což znamená, že v izolované soustavě platí
+:<math>\mathrm{d}S>0</math>
+
+Celková entropie izolované soustavy dvou těles různých teplot tedy roste. Jsou-li teploty dosti blízké, nebo jsou-li tělesa od sebe dostatečně dobře izolována, může být změna entropie libovolně malá. V takové soustavě prakticky nedochází k výměně tepla a soustava je blízká tepelné rovnováze. Děje, které probíhají v takové soustavě lze považovat za vratné, a jejich entropie se téměř nemění. Při vratném adiabatickém ději může být tedy entropie stálá, avšak nikdy nemůže klesat.
+
+V tepelně izolované soustavě probíhají děje adiabatické. V každé soustavě mohou z počátečního stavu vzniknout různé stavy vratnou nebo nevratnou změnou. Stavy, kterých soustava dosáhne nevratnou změnou se podle druhé termodynamické věty liší od stavů při vratné změně tím, že z nich soustava sama od sebe bez vnějšího zásahu nemůže přejít zpět do výchozího stavu. Mimoto jsou zde stavy, z nichž lze počátečního stavu soustavy dosáhnout nevratnou změnou. Tyto stavy však soustava nemůže z počátečního stavu dosáhnout bez vnějšího zásahu. Odsud plyne další možné vyjádření druhé hlavní věty termodynamiky: ''V blízkosti každého stavu soustavy existují stavy, kterých nelze dosáhnout adiabatickým dějem''. Takové stavy jsou tedy v izolované soustavě vyloučeny.

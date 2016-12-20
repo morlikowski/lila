@@ -1,0 +1,56 @@
+{{Infobox Software
+| name                   = Navicat
+| logo                   = 
+| screenshot             = 
+| caption                = 
+| developer              = PremiumSoft
+| released               = 
+| frequently_updated     = yes<!-- Release version update? Don't edit this page, just click on the version number! -->
+| programming language   = 
+| operating system       = Cross-platform
+| language               = Multilingual (8)
+| genre                  = MySQL Database Management and Development
+| license                = Shareware
+| website                = [http://www.navicat.com www.navicat.com]
+}}
+'''Navicat''' is a MySQL management and development software by PremiumSoft. It has an Explorer-like user interface and multiple databases connection capabilities for local and remote MySQL . 
+
+Navicat allows database administrators and developers to monitor, manage and develop MySQL. It is available for the Mac, Windows and Wine). Navicat for PostgreSQL was released in 2005.
+
+Some of its features include:
+
+*Visual Query Builder
+*SSH/ HTTP Tunnel for remote database connection
+*Database transfer from server to server
+*Data and Structure Synchronization
+*Data backup and restore
+*Import/ Export of most popular data formats to and from MySQL
+*Report Builder
+*Tasks Scheduling and Easy-to-use wizards tool
+
+Its latest version for Windows is 8.0.27 and for Mac OS X is 7.1.3.
+
+{{소프트웨어 정보
+|이름 = Navicat
+|개발자 = 프리미엄소프트
+|운영체제 = 크로스 플랫폼
+|언어 = 다국어
+|종류 = 데이터베이스 관리 및 개발 도구
+|라이선스 = 셰어웨어
+|웹사이트 = [http://www.navicat.co.kr/ Navicat Korea-MySQL admin tool]
+}}
+'''Navicat'''는 프리미엄소프트가 개발한 MySQL 관리 및 개발 소프트웨어로, 사용자 인터페이스는 익스플로러와 비슷하며, 로컬 및 원격 MySQL에 대한 여러 개의 데이터베이스들을 연결하는 기능을 제공한다.
+
+Navicat는 데이터베이스 관리자들과 개발자들이 MySQL를 감시, 관리 및 개발할 수 있도록 해 주며, 윈도 및 리눅스 플랫폼용으로 구분하여 제공한다. PostgreSQL용 Navicat는 2005년에 출시되었다.
+
+== 주요 지원 기능 ==
+* 비주얼 질의 빌더
+* 원격 데이터베이스 연결을 위한 SSH/ HTTP 터널 
+* 서버들간 데이터베이스 이동
+* 데이터 및 구조 동기화
+* 데이터 백업 및 복구
+* MySQL과 대부분의 범용 데이터 포맷들을 가져오고 내보내기
+* 리포트 빌더
+* 작업 스케줄링 및 사용하기 쉬운 마법사 도구
+
+최근 버전들로 윈도용은 8.0.24 이고, 맥 오에스 텐용은 7.1.2 이다.

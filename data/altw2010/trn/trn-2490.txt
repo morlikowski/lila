@@ -1,0 +1,43 @@
+The '''Boltzmann equation''', also often known as the '''Boltzmann transport equation''', devised by statistical distribution of one particle in a charge, and thus to derive transport properties such as Hall conductivity, viscosity, and thermal conductivity.
+
+The Boltzmann equation is an equation for the time ''t'' evolution of the distribution (properly a ''density'') function ''f''('''x''', '''p''', ''t'') in one-particle phase space, where '''x''' and '''p''' are position and momentum, respectively. The distribution is defined such that
+
+:<math>f(\mathbf{x},\mathbf{p},t)\,d\mathbf{x}\,d\mathbf{p}</math>
+
+is the number of molecules which, at time ''t'', have positions lying within a volume element <math>d^3 r </math> about '''r''' and momenta lying within a momentum-space element <math>d^3p</math> about '''p''' <ref>Huang 1987, p. 53.</ref>.
+
+Consider those particles described by ''f'' experiencing an external Force '''F'''. Then ''f'' must satisfy, in absence of collisions
+
+:<math>
+f(\mathbf{x}+\frac{\mathbf{p}}{m}\,dt,\mathbf{p}+\mathbf{F}\,dt,t+dt)\,d\mathbf{x}\,d\mathbf{p} =
+f(\mathbf{x},\mathbf{p},t)\,d\mathbf{x}\,d\mathbf{p},
+</math>
+
+saying that if some particles are at time <math>t</math> in <math>\mathbf{x}</math> with momentum <math>\mathbf{p}</math>, at time <math>t + \mathrm{d}t</math>, they will (all) be in <math>\mathbf{x}+\frac{\mathbf{p}}{m}\mathrm{d}t</math>, with momentum <math>\mathbf{p} + \mathbf{F}\mathrm{d}t</math>.
+
+However, since collisions do occur, the particle density in the phase-space volume ''d'''''x''' ''d'''''p''' changes.
+
+:<math>
+f(\mathbf{x}+\frac{\mathbf{p}}{m}dt,\mathbf{p} + \mathbf{F}dt,t+dt) \,d\mathbf{x}\,d\mathbf{p}
+- f(\mathbf{x},\mathbf{p},t)d\mathbf{x}\,d\mathbf{p} =
+\left. \frac{\partial f(\mathbf{x},\mathbf{p},t)}{\partial t} \right|_{\mathrm{coll}} \, d\mathbf{x} \, d\mathbf{p} \, dt
+</math>
+
+Dividing the equation by ''d'''''x'''&nbsp;''d'''''p'''&nbsp;''dt'' and taking the limit, we can get the Boltzmann equation
+
+Die '''Boltzmann-Gleichung''',  auch '''Boltzmannsche Transportgleichung''', ist die grundlegende Integro-Differentialgleichung der kinetischen Gastheorie. Benannt wurde sie nach dem Physiker Prof. Dr. Ludwig Boltzmann.
+
+Sie ist eine Gleichung für die statistische Verteilung von Teilchen in einem Medium. Eine wichtige Anwendung, die durch die Boltzmann-Gleichung beschrieben wird, ist etwa eine Strömung in einem verdünnten Gas. In der Praxis tritt dies zum Beispiel bei der Berechnungen von Phänomenen in der äußeren Space Shuttles in die Erdatmosphäre. Auch die Verteilung von Neutronen in einem Kernreaktor oder die der Wärmestrahlungsintensität in einer Brennkammer lassen sich durch die Boltzmann-Gleichung beschreiben. Die Boltzmann-Gleichung wird dann verwendet, wenn die mittlere freie Weglänge der Teilchen groß ist, d. h. wenn nur wenige Gasteilchen in einem gegebenen Volumen vorhanden sind. In einem Medium, in dem dies nicht der Fall ist, kann man die wesentlich einfacheren Gleichungen der Kontinuumsmechanik verwenden (Navier-Stokes-Gleichung). In diesem Sinne ist die Boltzmann-Gleichung eine mesoskopische Gleichung, die zwischen der mikroskopischen Beschreibung einzelner Teilchen und der makroskopischen Beschreibung steht.
+
+===Gleichung===
+Die Boltzmann-Gleichung ist eine Gleichung für die Verteilungsdichte <math> f(\vec{x},\vec{v},t) </math>. Hierbei sind <math>\vec{x}</math> der Ort, <math>t</math> die Zeit, und <math>\vec{v}</math> die Geschwindigkeit. Die Verteilungsdichte kann man so interpretieren, dass der Wert 
+<math> f(\vec{x},\vec{v},t)\text{d}\vec{x} \text{d}\vec{v}</math>, die relative Anzahl der Teilchen angibt, die sich zum Zeitpunkt <math>t</math> im Ortsvolumen
+<math> [\vec{x}, \vec{x}+ \text{d}\vec{x} ] </math> befinden und dabei Geschwindigkeiten im Bereich <math> [\vec{v}, \vec{v}+ \text{d}\vec{v} ] </math> besitzen.
+
+Die Gleichung hat die Form (<math>\vec{F}</math> sei eine gegebene äußere Kraft)
+
+<math>  \partial_t f(\vec{x},\vec{v},t) + \vec{v} \, \nabla_\vec{x} f(\vec{x},\vec{v},t)  + \frac{\vec{F}}{m} \nabla_\vec{v} f(\vec{x},\vec{v},t) = \text{I}_\text{c}(f), </math>
+
+wobei <math>\text{I}_\text{c}(f) </math> das Kollisionsintegral ist. Dieser Term ist ein mehrdimensionales Integral,
+in dem <math>f</math> nichtlinear verknüpft ist. Er gibt den Beitrag zur Gleichung, der durch Kollision der einzelnen Teilchen entsteht. 
+(Wäre er nicht vorhanden, erlaubte das eine Lösung der Gleichung mit Mitteln der klassischen Mechanik).

@@ -1,0 +1,98 @@
+{{Czołg infobox|
+nazwa            = Harry Hopkins Mk VIII|
+grafika          = 300px|
+podpis           = |<!-- opcjonalny podpis rysunku -->
+kraj             = |
+producent        = Metropolitan-Cammell|
+trakcja          = gąsienicowa|<!-- gąsienicowa, kołowa -->
+typ              = czołg lekki|<!-- np. czołg lekki, ciężki, podstawowy, transporter opancerzony} -->
+zaloga           = 3|
+konstrukcja      = 1941|<!-- data budowy prototypu -->
+produkcja        = 1941-1944|<!-- lata produkcji -->
+wycofany         = 1950|<!-- data wycofania z użytku -->
+egzemplarze      = 99|<!-- ilość wyprodukowanych egzemplarzy -->
+silnik           = ''Meadows'' 12-cylindrowy, rzędowy gaźnikowy, chłodzony cieczą|<!-- typ silnika -->
+moc              = 148 KM (109 kW)|
+mocjedn          = |<!-- moc jednostkowa (np. w kW/tonę) -->
+naciskjedn       = |<!-- nacisk jednostkowy (np. w kg/cm²) -->
+transmisja       = |<!-- układ przeniesienia napędu (mechaniczna, elektromechaniczna..) -->
+dlugoscmax       = |<!-- długość całkowita czołgu -->
+dlugosckadlub    = 4,26 m|<!-- długość kadłuba -->
+dlugoscltyl      = |<!-- długość całkowita z lufą obróconą do tyłu -->
+szerokosc        = 2,46 m|<!-- szerokość kadłuba -->
+szerokoscekr     = |<!-- szerokość całkowita z ekranami przeciwkumulacyjnymi -->
+wysokosc         = 1,85 m|<!-- wysokość do stropu wieży -->
+wysokoscmax      = |<!-- wysokość maksymalna -->
+powboczna        = |<!-- powierzchnia boczna w m² (jednostka wstawiana automatycznie) -->
+powczolowa       = |<!-- powierzchnia czołowa w m² (jednostka wstawiana automatycznie) -->
+przeswit         = |
+masawlasna       = 6,7 ton|
+masabojowa       = |
+zbiorniki        = |<!-- pojemność zbiorników paliwa -->
+typpanc          = |<!-- typ pancerza (reaktywny, warstwowy, kompozytowy, itd. -->
+grubpanc         = 6-38 mm|<!-- grubość pancerza -->
+pmaxdroga        = 48 |<!-- prędkość maksymalna na drodze w km/h -->
+pmaxteren        = 32 |<!-- prędkość maksymalna w terenie w km/h-->
+pmaxwoda         = |<!-- prędkość maksymalna w wodzie w km/h (dla pojazdów pływających) -->
+pmaxtyl          = |<!-- prędkość maksymalna na biegu wstecznym -->
+brodbezprzyg     = |<!-- głębokość brodzenia bez przygotowania -->
+brodzprzyg       = |<!-- głębokość brodzenia po przygotowaniu -->
+rowy             = |<!-- zdolność przekraczanych rowów o szerokości -->
+sciany           = |<!-- zdolność przekraczania pionowych ścian o wysokości -->
+stoki            = |<!-- zdolność podjazdu na stoki o nachyleniu max -->
+zasieg           = 200 |
+artyleria        = działo 2 pdr. ''QQF'' kal. 40 mm|<!-- uzbrojenie artyleryjskie -->
+karabin          = 1 × km ''Besa'' 7,92 mm |<!-- uzbrojenie strzeleckie -->
+rakieta          = |<!-- uzbrojenie rakietowe -->
+inne             = |<!-- inne opcjonalne typy uzbrojenia -->
+wyposazenie      = |<!-- wyposażenie dodatkowe (moździerz, wyrzutnik granatów dymnych itd.) -->
+wlasciciele      = |<!-- użytkownicy -->
+rzut             = |<!-- rysunek w trzech/czterech rzutach-->
+}}
+
+'''Harry Hopkins Mk VIII''' to brytyjski lekki II wojny światowej.
+
+==Historia==
+Czołg Mk VIII powstał w zakładach Vickersa jako ''Light Tank Mark VII revised'', czyli wersja ulepszona czołgu Mk VII. Później pojazd otrzymał oznaczenie '''Mk VIII Harry Hopkins (A25).'''
+Pierwsze trzy prototypy powstały w 1941 roku. Mk VIII posiadał takie same podwozie jak czołg Tetrarch Mk VII, ale inną wieżę i kadłub, oraz mocniejszy pancerz, którego maksymalna grubość wynosiła 38 mm.
+
+Produkcją czołgów zajmowały się zakłady Metropolitan-Cammell, które do momentu zakończenia produkcji w 1944 zbudowały 99 maszyn. 
+
+Pierwotnym przeznaczeniem czołgi Mk VIII były jednostki powietrzno-desantowe. Wycofano je z ich uzbrojenia w szybowców desantowych.
+
+{{Infobox Weapon
+|          name=Tank, Light, Mk VIII, Harry Hopkins (A25)
+|        image=300px
+|      caption=
+|origin=
+|type=Light tank
+|is_vehicle=yes
+|is_UK=yes
+|manufacturer=Metro-Cammell
+|production_date=1943-1945
+|number=99
+|       length=4.34 m
+|        width=2.65 m
+|       height=2.11 m
+|       weight=19, 040 lb
+|   suspension=Steerable road wheels
+|   speed=48.3 km/h
+|        vehicle_range=201 km
+|      primary_armament=Ordnance QF 2 pounder <br> 50 rounds
+|    secondary_armament=7.92 mm Besa machine gun <br> 2,025 rounds
+|       armour=6.4 - 38.1 mm
+|       engine=149-hp Meadows 12 cyl. petrol engine
+| engine_power=148 hp (110 kW)
+|     pw_ratio=17.4 hp/tonne
+|         crew=3 (commander, driver, gunner)
+}}
+
+The '''Light Tank MK VIII Harry Hopkins''' ('''A25''') was developed by Vickers-Armstrong for airborne forces of the British Army during World War II. It was known as the Harry Hopkins tank, after the US politician.
+
+== Development and Production==
+
+The design was a further development of the Tetrarch light tank. It featured a new, redesigned turret and hull with thicker, sloping armour for improved shot deflection. Like the Tetrach it was based on four independently-sprung road wheels of which the rear units served as drive sprockets and the front units as idlers. Also like the Tetrach, it had skid steering, which operated by bowing the tracks by lateral movements of the centre road wheels, but power assistance was added. The vehicle was armed with a QF 2 pounder gun, with 50 rounds of ammunition, and a coaxial 7.92 mm Besa machine gun, with 2,025 rounds of ammunition. A taper bore Littlejohn adaptor could be fitted to the barrel of the 2 pdr to use APCR shot which had improved armour penetration.
+
+Three prototypes were authorised in April 1941 and production was then switched to Metro-Cammell, manufacturers of the Tetrarch. About 100 vehicles were eventually delivered, between June 1943 and March 1945. 
+
+A modified chassis was employed as the basis for the experimental Alecto self propelled gun.

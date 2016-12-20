@@ -1,0 +1,53 @@
+Die '''Referenzielle Transparenz''' ist eine wichtige Eigenschaft des deklarativen Programmierparadigmas. Sie besagt, dass der Wert eines Ausdrucks nur von seiner Umgebung abhängt und nicht vom Zeitpunkt seiner Auswertung.
+
+In der Mathematik gilt, dass ein und dieselbe Variable an verschiedenen Stellen ihres Geltungsbereichs immer den gleichen Wert hat. Dies gilt in imperativen Programmiersprachen nicht, da die Programmsemantik (z.&nbsp;B. Endergebnis) von einem impliziten Zustand (z.&nbsp;B. Speicherinhalt) abhängt.
+
+<pre>x = x + 1</pre>
+
+Formal analysiert ist diese Gleichung eine nicht lösbare Aussage, was heißt, es existiert kein <tt>x</tt>, das die Gleichung wahr macht. Trotzdem ist diese Zeile in imperativen Programmiersprachen möglich. Je nachdem, was in der Speicherzelle für <tt>x</tt> steht, wird die rechte Seite damit erzeugt und die linke Seite berechnet.
+
+Möchte man aber Programmeigenschaften mathematisch beweisen (z.&nbsp;B. liefert das Programm wirklich das, was es soll), dann dürfen solche Nebeneffekte nicht auftreten. In der deklarativen Programmierung gilt hingegen das Prinzip der referenziellen Transparenz und als Konsequenz daraus das Substitutionsprinzip. Danach kann ein Ausdruck immer durch einen anderen gleichen Wertes ersetzt werden ohne dass dies Auswirkungen auf die Programmsemantik hat. Das Ziel von solchen ''Programmtransformationen'' ist die Ersetzung von ''aufwändig'' durch ''einfach'' zu berechnende Ausdrücke.
+
+'''Referential transparency''' and '''referential opaqueness''' are properties of parts of expression is said to be referentially transparent if it can be replaced with its value without changing the program (in other words, yielding a program that has the same effects and output on the same input). The opposite term is referentially opaque.
+
+While in optimizing code by means of memoization, common subexpression elimination or parallelization.
+
+Referential transparency is one of the principles of memoized (transformed into equivalent functions which cache results). Some programming languages provide means to guarantee referential transparency.
+Some functional programming languages enforce referential transparency for all functions.
+
+As referential transparency requires the same results for a given set of inputs at any point in time, a referentially transparent expression is therefore deterministic by definition.
+
+== Examples and counterexamples ==
+If all functions involved in the expression are side effects are insignificant.
+
+Take a function that takes no parameters and returns input from the keyboard.  A call to this function might be <tt>GetInput()</tt>.  The return value of <tt>GetInput()</tt> depends on what the user types in, so multiple calls to <tt>GetInput()</tt> with identical parameters (the empty list) may return different results. Therefore, <tt>GetInput()</tt> is neither determined nor referentially transparent.
+
+A more subtle example is that of a function that uses a scoped variable, or a lexical closure) to help it compute its results.  Since this variable is not passed as a parameter but can be altered, the results of subsequent calls to the function can differ even if the parameters are identical.
+(In pure functional programming, destructive assignment is not allowed; thus a function that uses global (or dynamically scoped) variables is still referentially transparent, since these variables cannot change.)
+
+Arithmetic operations are referentially transparent: <code>5*5</code> can be replaced by <code>25</code>, for instance. In fact, all functions in the mathematical sense are referentially transparent: <code>sin(x)</code> is transparent, since it will always give the same result for each particular <code>x</code>.
+
+Assignments are not transparent. For instance, the side effects.
+
+In most languages, <code>print( "Hello world" )</code> is not transparent, as replacing it by its value (say, 0) changes the behavior of the program, as "Hello world" isn't printed.
+
+<code>today()</code> is not transparent, as if you evaluate it and replace it by its value (say, "Jan 1, 2001"), you don't get the same result as you will if you run it tomorrow. This is because it depends on a state (the time).
+
+== Contrast to imperative programming ==
+
+If the substitution of an expression with its value is valid only at a certain point in the execution of the program, then the expression is not referentially transparent. The definition and ordering of these sequence points are the theoretical foundation of imperative programming, and part of the semantics of an imperative programming language.
+
+However, because a referentially transparent expression can be evaluated at any time, it is not necessary to define sequence points nor any guarantee of the order of evaluation at all. Programming done without these considerations is called purely functional programming.
+
+The chief advantage of writing code in a referentially transparent style is that given an intelligent compiler, static code analysis is easier and better code-improving transformations are possible automatically. For example, when programming in C, there will be a performance penalty for including a call to an expensive function inside a loop, even if the function call could be moved outside of the loop without changing the results of the program. The programmer would be forced to perform manual code motion of the call, possibly at the expense of source code readability. However, if the compiler is able to determine that the function call is referentially transparent, it can perform this transformation automatically.
+
+The primary disadvantage of languages which enforce referential transparency is that it makes the expression of operations that naturally fit a sequence-of-steps imperative programming style more awkward and less concise. Such languages often incorporate mechanisms to make these tasks easier while retaining the purely functional quality of the language, such as monads.
+
+With referential transparency, no difference is made or recognized between a reference to a thing and the corresponding thing itself. Without referential transparency, such difference can be easily made and utilized in programs.
+
+==Command-Query Separation principle==
+
+The Eiffel method, although based on an imperative programming language, enforces a strict separation between '''commands''', which can produce side effects, and '''queries''', which must be referentially transparent: they return a result but do not change the environment. This rule is known as the ''Command-Query Separation principle'' and results in a style that clearly separates the referentially transparent parts. For example, in manipulating lists:
+
+ my_list.finish        -- Move cursor to the end of the list
+ value := my_list.item -- Get value at cursor position: referentially transparent

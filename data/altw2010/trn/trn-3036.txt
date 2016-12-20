@@ -1,0 +1,18 @@
+thumb|300px|ラスターイメージの生成
+
+'''ラスターイメージプロセッサ'''（英: '''Raster image processor'''、'''RIP'''）は、文字通りラスターイメージ（PDF、XPS などの高レベルページ記述言語で書かれたページ記述や、出力機器と解像度が合わないラスターイメージなどである。後者の場合、入力ラスターイメージから出力ラスターイメージへの変換のため、RIP はスムージングや内挿のアルゴリズムを適用する。
+
+ラスターイメージ処理と言えば、一般に PostScriptファイルやCADファイルのようなベクターイメージ情報を、印刷に必要な高解像度のラスターイメージに変換する処理や手段を指す。
+本来 RIP は、何らかのインタフェース経由で（例えば、RS-232）、ページ記述を受け付ける電子部品（装置）であり、そこからラスターイメージを生成してピクセル単位でリアルタイムに出力するものであった。
+
+RIP はプリンタ内のマイクロプロセッサで実行されるオペレーティングシステムやファームウェアのソフトウェア部品として実装されることもあるし、ハイエンドの組版システムでは独立したハードウェア RIP が使われることもある。Ghostscript や GhostPCL はソフトウェアRIPの一種である。PostScriptプリンタにはRIP が内蔵されている。また多くのプリンターメーカーは独自のRIPを開発し、自社製品に搭載している。
+
+'''RIP: Raster Image Processor'''
+
+La stampa di una pagina contenente caratteri tipografici e immagini a varie risoluzioni presenta un problema legato alla modalità di scrittura; più esattamente, l'unità di uscita ha di solito una dpi, mentre la pagina da stampare potrebbe contenere elementi composti con una risoluzione differente e non riportabile a quella di uscita (es. 304 dpi), e pertanto non direttamente trasferibili alla stampante.
+
+A complicare ulteriormente le cose contribuiscono i caratteri di testo, con complessità molto superiore alle immagini (es. le ''grazie'') e quindi bisognosi di una risoluzione di uscita proporzionalmente più elevata.
+
+Inoltre, per praticità di gestione, i file grafici contengono un misto di informazioni vettoriali e bitmap (es. file PostScript o PDF), non direttamente trattabili dalla stampante.
+
+Per risolvere questo problema, si ricorre ad un software che ha il compito di '''rasterizzare''' (dall'inglese ''raster'') i file, ovvero generare una bitmap uniforme, che possa essere correttamente interpretata dalla stampante.

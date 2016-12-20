@@ -1,0 +1,127 @@
+<!-- Il testo commentato è SOLO UN ESEMPIO -->
+{{Comune
+|nomeComune = Valverde
+|linkStemma = <!-- Valverde-Stemma.png -->
+|siglaRegione = LOM
+|siglaProvincia = PV
+|latitudineGradi = 44
+|latitudineMinuti = 52
+|latitudineSecondi = 0
+|longitudineGradi = 9
+|longitudineMinuti = 14
+|longitudineSecondi = 0
+|mappaX = 67
+|mappaY = 76
+|altitudine =  567
+|superficie =  14,83
+|abitanti = 316
+|anno = 31-08-2007 ( ISTAT )
+|densita = 21
+|frazioni =   Bozzola, Calghera, Casa Andrini, Casa d'Agosto, Casa Porri, Casa Zanellino, Mandasco, Moglio, Mombelli
+|comuniLimitrofi = Ruino, Val di Nizza, Varzi, Zavattarello
+|cap = 27050
+|prefisso = 0383
+|istat = 018170 
+|fiscale = L659
+|nomeAbitanti = valverdesi 
+|patrono =  <!-- San Pietro-->
+|festivo =  <!-- 7 aprile -->
+|sito = http://www.comunevalverde.it/portal/
+}} <!-- fine della tabella - per la compilazione vedi -> Aiuto:Comune -->
+'''Valverde''' è un comune di 316 abitanti in provincia di Pavia. Si trova nell'Oltrepò Pavese, nella zona di transizione tra la collina e la montagna, a cavallo tra le valli del Tidone e del Nizza (affluente della Staffora). È un comune sparso: la sede comunale è nella località '''Mombelli'''.
+
+==Storia==
+'''Valverde''', antico possesso dell'abbazia di San Colombano di Bobbio, concesso in enfiteusi ai Malaspina, venne di fatto aggregato al loro marchesato, e nelle successive suddivisioni ereditarie della famiglia (a partire dal XIII secolo), rimase alla linea dello ''Spino Fiorito'', e precisamente ai Malapina di Oramala e Godiasco. Nella successiva suddivisione di questi in cinque linee, Valverde appartenne in prevalenza ai Malaspina di Monfalcone, che prendevano nome da un castello ormai scomparso che sorgeva tra Valverde e Sant'Albano (oggi frazione di Val di Nizza), detti poi anche Malaspina di Valverde. Il loro dominio si estendeva appunto su Valverde e Sant'Albano; ed erano, insieme agli altri rami, condomini della giurisdizione del Marchesato di Godiasco, cui Valverde apparteneva. 
+
+Nel 1929 il comune di Valverde fu unito a Zavattarello, che prese il nome di '''Zavattarello Valverde'''; fu ricostituito nel 1956.
+
+==Evoluzione demografica==
+
+==Parchi e altre strutture==
+Nell'area del comune di Valverde si trova l'importante castello di Verde, circondato dal cosiddetto parco delle farfalle, nel quale ogni anno si svolge la 'Festa di Verde'.
+
+Le frazioni principali del comune sono casa Mombelli e casa Balestrieri; qui, oltre al comune, si trovano due importanti alberghi, la chiesa, la piazza principale (dove durante l'estate vengono trasmessi film ed eseguiti spettacoli) e due campi di calcio: uno in erba dove, oltre ai tornei estivi e alla consueta partita di ferragosto tra scapoli e ammogliati, si esegue ogni anno una diversa opera teatrale che richiama tutti gli appassionati dell'oltrepò; uno di calcetto, presente da ormai più di dieci anni, comprensivo di spogliatoi.
+
+Presso la chiesa è presente anche una grossa casa che d'estate ospita, oltre che gli Scout, alcuni bambini africani profughi, di età compresa tra i 6 e i 12 anni.
+
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = Valverde |
+  name = Valverde |
+  region = Lombardy |
+  province = Province of Pavia (PV) |
+  elevation_m =  |
+  area_total_km2   = 14.8 |
+  population_as_of  = Dec. 2004 |
+  population_total = 333 |
+  population_density_km2 = 22 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          =  |
+  telephone         = 0383 |
+  postalcode        = 27050 |
+  gentilic          =  |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           =  |
+  mapy = 9.2333 |
+  mapx = 44.8667 |
+}}
+'''Valverde''' is a ''Italian region Lombardy, located about 70 km south of Milan and about 35 km south of Pavia. As of 31 December 2004, it had a population of 333 and an area of 14.8 km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+Valverde borders the following municipalities: Ruino, Val di Nizza, Varzi, Zavattarello.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:2000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:1000 start:0
+ScaleMinor = gridcolor:lightgrey increment:200 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:956
+  bar:1871 from: 0 till:1013
+  bar:1881 from: 0 till:947
+  bar:1901 from: 0 till:840
+  bar:1911 from: 0 till:879
+  bar:1921 from: 0 till:989
+  bar:1931 from: 0 till:1020
+  bar:1936 from: 0 till:1032
+  bar:1951 from: 0 till:845
+  bar:1961 from: 0 till:645
+  bar:1971 from: 0 till:538
+  bar:1981 from: 0 till:466
+  bar:1991 from: 0 till:399
+  bar:2001 from: 0 till:341
+
+PlotData=

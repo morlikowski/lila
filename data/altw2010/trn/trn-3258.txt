@@ -1,0 +1,67 @@
+A '''subsequence''', '''substring''', '''prefix''' or '''suffix''' of a string is a subset of the symbols in a string, where the order of the elements is preserved. In this context, the terms ''string'' and ''sequence'' have the same meaning.
+
+== Subsequence ==
+
+:''Main article subsequence''
+
+A subsequence of a string <math>T = t_1 t_2 \dots t_n</math> is a string <math>\hat T = t_{i_1} \dots t_{i_m}</math> such that <math>i_1 < \dots < i_m</math>, where <math>m \leq n</math>. Subsequence is a generalisation of substring, suffix and prefix. Finding the longest string which is equal to a subsequence of two or more strings is known as the longest common subsequence problem.
+
+Example: The string <code>anna</code> is equal to a subsequence of the string <code>banana</code>:
+
+ banana
+  || ||
+  an na
+
+== Substring ==
+
+A substring (or factor) of a string <math>T = t_1 \dots t_n</math> is a string <math>\hat T = t_{1+i} \dots t_{m+i}</math>, where <math>0 \leq i</math> and <math>m + i \leq n</math>. A substring of a string is a prefix of a suffix of the string, and equivalently a suffix of a prefix. If <math>\hat T</math> is a substring of <math>T</math>, it is also a subsequence, which is a more general concept. Given a pattern <math>P</math>, you can find its occurrences in a string <math>T</math> with a string searching algorithm. Finding the longest string which is equal to a substring of two or more strings is known as the longest common substring problem.
+
+Example: The string <code>ana</code> is equal to substrings (and subsequences) of <code>banana</code> at two different offsets:
+
+ banana
+  |||||
+  ana||
+    |||
+    ana
+
+In the mathematical literature, substrings are also called '''subwords''' (in America) or '''factors''' (in Europe).
+
+== Prefix ==
+
+A prefix of a string <math>T = t_1 \dots t_n</math> is a string <math>\widehat T = t_1 \dots t_{m}</math>, where <math>m \leq n</math>. A ''proper prefix'' of a string is not equal to the string itself and not empty (<math>0 < m < n</math>). A prefix can be seen as a special case of a substring.
+
+В информатике '''подстрока''' — это непустая связная часть строки.
+
+==Формальное определение==
+Пусть <math>L=c_0\dots c_{n-1}</math> — строка длины <math>n</math>. <br/>
+Любая строка <math>S=c_i\dots c_j</math>, где <math>0\le i\le j\le n-1</math>, является подстрокой <math>L</math> длины <math>j-i+1</math>.</br>
+Если <math>i=0</math>, то <math>S</math> называется '''префиксом''' <math>L</math> длины <math>j+1</math>. <br/>
+Если <math>j=n-1</math>, то <math>S</math> — '''суффикс''' <math>L</math> длины <math>j-i+1</math>.
+
+==Пример==
+С точки зрения информатики строки «<tt>кипед</tt>», «<tt>Вики</tt>», «<tt>дия</tt>» являются подстроками строки «<tt>Википедия</tt>»; при этом «<tt>Вики</tt>» — префиксом, а «<tt>дия</tt>» — суффиксом.
+
+ Википедия
+ |||||||||
+ ||кипед||
+ ||||  |||
+ Вики  дия
+
+==Получение подстроки==
+Если <tt>line</tt> — исходная строка, <tt>begin</tt> — позиция первого символа подстроки, <tt>end</tt> - позиция последнего символа подстроки, то подстрока <tt>subline</tt> вычисляется следующим образом:
+=== В языке C ===
+<code>
+char * subline = (char *)malloc(end - begin + 2);<br>
+if (subline == NULL)<br>
+{<br>
+&nbsp;&nbsp;fprintf(stderr, "ERROR: malloc failed!");<br>
+&nbsp;&nbsp;exit(1);<br>
+}<br>
+memcpy(subline, line + begin, end - begin + 1);<br>
+subline[end - begin + 1] = '\0';<br>
+</code>
+
+=== В языке Python ===
+<code>
+subline=line[begin:end+1]
+</code>

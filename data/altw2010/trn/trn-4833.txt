@@ -1,0 +1,53 @@
+thumb|right|120px|.NET Messenger Service logo
+
+The '''.NET Messenger Service''' (often referred to colloquially as ''presence system developed by Windows operating system, automatically and simultaneously signing into the network as the person logs into Windows.
+
+==Official clients==
+Microsoft offers the following instant messaging clients that support the .NET Messenger Service:
+
+*'''Windows
+:*'''MSN Messenger''' was the former name of the client
+:*'''Windows Messenger''' was a basic version of the client included with Windows XP
+*'''Microsoft Messenger for Mac''', for users of Mac OS X
+
+*'''[http://webmessenger.msn.com/ MSN Web Messenger]''', for use through the Internet Explorer web browser 
+:*[http://messidog.live.com/ '''Windows Live Web Messenger'''] will be the successor to MSN Web Messenger
+
+==Third-party clients==
+Additionally, these third-party clients and others can access the .NET Messenger Service:
+*Adium (Mac OS X, GPL)
+*Agile Messenger (S60 and Windows Mobile, proprietary, commercial)
+*aMSN (Multi-platform, GPL)
+*BitlBee (Windows and Unix-like, GPL)
+*Digsby (Windows, Mac and Linux planned, proprietary)
+*emesene (Multi-platform, GPL)
+*eMSN (Mac OS X)
+*eBuddy (Web & Mobile)
+*Fire (Mac OS X, GPL)
+*Instantbird (Multi-platform, GPL)
+*client supporting Jabber protocol can use transports to connect to .NET Messenger Service)
+*KMess (Linux KDE, GPL)
+*Kopete (Linux KDE, GPL)
+*Meebo (Web)
+*Meetro (Multi-platform, proprietary)
+*Miranda IM (Windows, GPL)
+*Mercury Messenger (formerly dMSN) (Multi-platform, proprietary)
+*Pidgin (formerly Gaim) (Multi-platform, GPL)
+*Shape Services IMPlus (S60)
+*SIM-IM (Multi-platform, GPL)
+*tmsnc (Multi-platform, text based)
+*Trillian (Multi-platform, Web, proprietary)
+*mig33 (Mobile/Web/WAP)
+
+'''.NET Messenger Service''' é um serviço de mensagens instantâneas criado pela Microsoft. Utiliza o sistema de autenticação Windows Live ID (antigo Microsoft Passport), que permite que qualquer endereço de e-mail registrado como um ''Live ID'' se autentique e comunique com outros usuários registrados na rede .NET.
+
+Este serviço pode ainda ser integrado ao Sistema operativo (operacional) Microsoft Windows XP, conectando o usuário na rede automaticamente assim que faz logon no Windows.
+
+É possível conectar-se à web. Apesar da Microsoft ter suporte à isto apenas em seu sistema Windows, seu uso não é obrigatório para esta conexão. Também existem equivalentes não-oficiais desse serviço, no entanto a versão oficial funciona apenas com o navegador da própria Microsoft, o Internet Explorer.
+
+O LAN Manager, e portanto o Windows NT, inclui um serviço de notificação de sistema, chamado "Serviço Mensageiro" que é por vezes utilizado por pessoas mal-intencionadas para a prática de Spam<ref>[http://linhadefensiva.uol.com.br/informativos/esclarecimentos/servico-mensageiro/  UOL - Linha Defensiva: O que é o Serviço Mensageiro?]</ref>, pois ele exibe uma pequena mensagem pop-up na tela dos usuários de uma rede. Este serviço, mesmo tendo um nome similar, não tem nenhuma relação com o .NET Messenger Service ou com o cliente de mensagens instantâneas Windows Messenger.
+
+Apesar de seu nome, o .NET Messenger Service não tem nenhuma relação com a plataforma de desenvolvimento Microsoft .NET. Nem os clientes oficiais, nem o protocolo em si são ligados à plataforma .NET.
+
+==Clientes==
+Clientes de mensagens instantâneas que suportam o .NET Messenger Service:

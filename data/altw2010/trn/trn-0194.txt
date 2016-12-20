@@ -1,0 +1,61 @@
+thumb|right|[[Flughraði|Flughraðamælir sem gefur upp ferð í hnútum.]]
+'''Ferð'''  er hraðavigurs, gjarnan táknuð með bókstafnum ''v''. Ólíkt hraða hefur ferð enga stefnu, og eining ferðar er áttavita eða GPS tæki.
+
+Stærðfræðilega má lýsa (meðal)hraða með eftirfarandi jöfnu:
+:<math>v = \frac {d}{t}</math>
+
+Algengar mælieiningar sem lýsa hraða eru:
+*metrar á sekúndu, (tákn m/s), sem er sú hraðaeining sem SI einingakerfið notast við
+*kílómetrar á klukkustund, (tákn km/h)
+*mílur á klukkustund, (tákn mph)
+*hnútar (sjómílur á klukkustund, merki kt)
+*Mach tala, þar sem Mach 1 er hraði hljóðsins; Mach ''n'' er þá ''n'' sinnum meiri hraði
+::Mach 1 = ~343&nbsp;m/s = ~1235&nbsp;km/h = ~768&nbsp;mi/h (sjá hljóðhraði fyrir nánari upplýsingar)
+*ljóshraði í lofttæmi (tákn''c'') er einn af þeim grunnföstum sem eðlisfræðingar nota til að skilgreina mælieiningar
+::''c'' = 299,792,458&nbsp;m/s
+*Önnur mikilvæg hlutföll:
+::1 m/s = 3.6&nbsp;km/h
+::1 mph = 1.609&nbsp;km/h
+::1 knot = 1.852&nbsp;km/h = 0.514&nbsp;m/s 
+
+'''Speed''' is the rate of motion, or equivalently the rate of change in position, often expressed as unit of time ''t''.
+
+Speed is a scalar distance/vector quantity to speed is known as magnitude component of velocity.
+
+In mathematical notation, it is simply:
+
+:<math>v = \left|\frac {d}{t}\right|.</math>
+Note that "v" is the variable for speed.
+
+Objects that move horizontally as well as vertically (such as forward speed''' and '''climbing speed'''.
+
+==Units==
+Units of speed include:
+*meters per second, (symbol ms<sup>-1</sup>; m/s), the SI derived unit
+*kilometers per hour, (symbol km/h)
+*miles per hour, (symbol m/h)
+*knots (nautical miles per hour, symbol kt)
+*Mach, where Mach 1 is the speed of sound; Mach ''n'' is ''n'' times as fast.
+::Mach 1 ≈ 343&nbsp;ms<sup>-1</sup> ≈ 1235&nbsp;km/h ≈ 768&nbsp;mph in dry air at sea-level pressure and 293 kelvin (See ''Speed of sound'' for more detail.)
+*speed of light in vacuum (symbol ''c'') is one of the natural units
+::''c'' = 299,792,458&nbsp;ms<sup>-1</sup>
+*Other important conversions
+::1 m/s = 3.6&nbsp;km/h
+::1 mph = 1.609&nbsp;km/h 
+::1 knot = 1.852&nbsp;km/h = 0.514&nbsp;ms<sup>-1</sup>
+
+Vehicles often have a speedometer to measure the speed they are going.
+
+==Average speed==
+Speed as a \tilde{v}|</math>), which is [[rate of total distance (or length) and time interval.
+For example, if you go 60 miles in 2 hours, your ''average'' speed during that time is 60/2 = 30 miles per hour, but your instantaneous speed may have varied.
+
+In mathematical notation:
+
+:<math>|\tilde{v}| = \frac{\Delta l}{\Delta t}</math>
+
+Instantaneous speed defined as a function of time on interval <math>[t_0, t_1]</math> gives average speed:
+
+:<math>|\tilde{v}| = \frac{\int_{t_0}^{t_1} |v|(t) \, dt}{\Delta t}</math>
+
+while instantaneous speed defined as a function of distance (or length) on interval <math>[l_0, l_1]</math> gives average speed:

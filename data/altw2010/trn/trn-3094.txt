@@ -1,0 +1,99 @@
+thumb|300px|The OpenID logo
+
+'''OpenID''' is a shared identity service, which allows Internet users to log on to many different web sites using a single digital identity, eliminating the need for a different user name and password for each site.  OpenID is a decentralized, free and open standard that lets users control the amount of personal information they provide.
+
+An OpenID is in the form of URL. This URL can be the domain name of your own website, or the URL of an OpenID Identity Provider. When you log in with an OpenID, you have to log in to the Identity Provider for validation.
+
+Using OpenID-enabled sites, web users do not need to remember traditional items of identity such as username and password. Instead, they only need to be registered with any OpenID "identity provider" (IdP). Since OpenID is decentralized, any website can use OpenID as a way for users to sign in; OpenID does not require a centralized authority to confirm a user's digital identity.
+
+OpenID is increasingly gaining adoption among large sites, with organizations like Orange, VeriSign, Yandex and Yahoo! acting as providers.<ref name="how"></ref><ref></ref><ref></ref><ref></ref><ref></ref> In addition, OpenID can be used with Windows CardSpace.
+
+== History ==
+=== 2005 ===
+
+The original OpenID authentication protocol was developed in engine community DeadJournal for blog post comments, and quickly gained attention in the digital identity community.
+<ref name="Danga"></ref><ref name="Brad"></ref> software libraries and expanding its business around OpenID-based services.
+
+In late June, discussions started between OpenID developers and developers from enterprise software company NetMesh, leading to collaboration on interoperability between OpenID and NetMesh's similar Light-Weight Identity (LID) protocol. The direct result of the collaboration was the Yadis discovery protocol, which was announced on October 24, 2005.<ref name="Yadis"></ref> After a discussion at the 2005 [http://iiw.idcommons.net Internet Identity Workshop] a few days later, XRI/i-names developers joined the Yadis project, contributing their Extensible Resource Descriptor Sequence (XRDS) format for utilization in the protocol.<ref name="XRDS"></ref>
+
+In December, developers at Sxip Identity began discussions with the OpenID/Yadis community<ref name="Sxip"></ref> after announcing a shift in the development of version 2.0 of its Simple Extensible Identity Protocol (SXIP) to URL-based identities like in LID and OpenID.<ref name="SXIP 2.0"></ref>
+
+=== 2006 ===
+
+In March 2006, JanRain developed a Simple Registration Extension for OpenID for primitive profile-exchange,<ref name="SReg"></ref> and in April submitted a proposal to formalize extensions to OpenID. The same month, work had also begun on incorporating full XRI support into OpenID.<ref></ref>
+
+Around early May, key OpenID developer David Recordon left Six Apart, joining VeriSign to focus more on digital identity and guidance for the OpenID spec.<ref name="Brad" /><ref></ref> By early June, the major differences between the SXIP 2.0 and OpenID projects were resolved with the agreement to support multiple personas by submission of an identity provider URL rather a full identity URL. With this, as well as the addition of extensions and XRI support underway, OpenID was evolving into a full-fledged digital identity framework, with Recordon proclaiming,<blockquote>We see OpenID as being an umbrella for the framework that encompasses
+the layers for identifiers, discovery, authentication, and a messaging
+services layer that sits atop and this entire thing has sort of<!-- OK here: don't correct it--> been
+dubbed "OpenID 2.0".<ref></ref></blockquote> In late July, Sxip began to merge its Digital Identity Exchange (DIX) protocol into OpenID, submitting initial drafts of the OpenID Attribute Exchange extension in August.
+
+=== 2007 ===
+
+On January 31, 2007, computer security company Symantec announced support for OpenID in its Identity Initiative products and services.<ref name="symantecin"></ref> A week later, on February 6 Microsoft made a joint announcement with JanRain, Sxip, and VeriSign to collaborate on interoperability between OpenID and Microsoft's Windows CardSpace digital identity platform, with particular focus on developing a phishing-resistant authentication solution for OpenID. As part of the collaboration, leading computer software company Microsoft pledged to support OpenID in its future identity server products, and JanRain, Sxip, and VeriSign pledged to add support for Microsoft's Information Card profile to their future identity solutions.<ref name="versignin"></ref> In mid-February, AOL announced that an experimental OpenID provider service was functional for all AOL and AOL Instant Messenger (AIM) accounts.<ref name="aolin"></ref>
+
+In May, information technology company Sun Microsystems began working with the OpenID community, announcing an OpenID program,<ref name="sunin"></ref> as well as entering a Non-Assertion Covenant with the OpenID community, pledging not to assert any of its patents against implementations of OpenID<ref name="sunnonassertion"></ref> In June, OpenID leadership formed the OpenID Foundation, an Oregon-based public benefit corporation for managing the OpenID brand and property.<ref name="foundation"></ref> The same month, an independent OpenID Europe Foundation was officially incorporated in Belgium by Snorri Giorgetti.<ref>http://www.openideurope.eu/foundation/bylaws/ Bylaws of OpenID Europe</ref> By early December, Non-Assertion Agreements were collected by the major contributors to the protocol, and the final OpenID Authentication 2.0 and OpenID Attribute Exchange 1.0 specfications were ratified on December 5.<ref name="specs"></ref>
+
+=== 2008 ===
+
+In mid-January 2008, Yahoo! announced initial OpenID 2.0 support, both as a provider and as a relying party, releasing the provider service by the end of the month.<ref></ref> In early February, Google, IBM, Microsoft, VeriSign, and Yahoo! joined the OpenID Foundation as corporate board members.<ref></ref> Around early May, SourceForge, Inc. introduced OpenID provider and relying party support to leading open source software development website SourceForge.net.<ref></ref> In late July, popular social network service MySpace announced support for OpenID as a provider.<ref></ref>
+
+== Using OpenID ==
+
+A basic glossary of the terms used with OpenID:
+; End-user : The person who wants to assert his or her identity to a site.
+; Identifier : The URL or XRI chosen by the End User as their OpenID identifier.
+; Identity provider or OpenID provider
+:A service provider offering the service of registering OpenID URLs or XRIs and providing OpenID authentication (and possibly other identity services). Note that the OpenID specifications use the term "OpenID provider" or "OP".  
+; Relying party : The site that wants to verify the end user's identifier.  Sometimes also called a "service provider".
+; Server or server-agent : The server that verifies the end user's identifier. This may be the end user's own server (such as their blog), or a server operated by an identity provider.
+; User-agent : The program (such as a browser) that the end user is using to access an identity provider or a relying party.
+; Consumer : An obsolete term for the relying party.
+
+=== Logging in ===
+
+A relying party web site (e.g. <code>example.website.com</code>) displays an OpenID login form somewhere on the page. Unlike a typical login form with fields for the user name and password, the OpenID login form has only one field - for the OpenID identifier, typically along with a small OpenID logo: Image:Openid small logo.png‎. This form is connected to an implementation of an OpenID client library.
+
+A user typically will have previously registered an OpenID identifier (e.g. <code>alice.openid.example.org</code>) with an OpenID identity provider (e.g. <code>openid.example.org</code>).  The user visits the relying party web site and types her OpenID identifier in the OpenID login form.
+
+The relying party web site typically transforms the OpenID identifier into a canonical URL form (e.g. <code><nowiki>http://alice.openid.example.org/</nowiki></code>). With OpenID 1.0, the relying party then requests the web page located at that URL and reads an HTML link tag to discover the identity provider service URL (e.g. <code><nowiki>http://openid.example.org/openid-auth.php</nowiki></code>). The relying party also discovers whether to use a ''delegated identity'' (see below). With OpenID 2.0, the client discovers the identity provider service URL by requesting the ''XRDS document'' (also called the ''Yadis document'') with the content type <code>application/xrds+xml</code> that may be available at the target URL and is always available for a target XRI.
+
+There are two modes in which the relying party can communicate with the identity provider:
+* <code>checkid_immediate</code>, in which the relying party requests that the provider not interact with the user. All communication is relayed through the user's browser without explicitly notifying the user;
+* <code>checkid_setup</code>, in which the user communicates with the provider server directly using the same web browser used to access the relying party site.
+
+The second option is more popular on the Web; also, <code>checkid_immediate</code> can fallback to <code>checkid_setup</code> if the operation cannot be automated.
+
+First, the relying party and the identity provider (optionally) establish a shared secret - referenced by an ''associate handle'', which the relying party then stores. If using <code>checkid_setup</code>, the relying party redirects the user's web browser to the identity provider so the user can authenticate with the provider.
+
+The method of authentication may vary, but typically, an OpenID identity provider prompts the user for a password or an InfoCard, then asks whether the user trusts the relying party web site to receive her credentials and identity details.
+
+If the user declines the identity provider's request to trust the relying party web site, the browser is redirected to the relying party with a message indicating that authentication was rejected.  The site in turn refuses to authenticate the user.
+
+If the user accepts the identity provider's request to trust the relying party web site, the browser is redirected to the designated return page on the relying party web site along with the user's credentials.  That relying party must then confirm that the credentials really came from the identity provider. If they had previously established a shared secret (see above), the relying party can validate the shared secret received with the credentials against the one previously stored. Such a relying party is called ''stateful'' because it stores the shared secret between sessions. In comparison, a ''stateless'' or ''dumb'' relying party must make one more background request (<code>check_authentication</code>) to ensure that the data indeed came from the identity provider.
+
+After the OpenID identifier has been verified, OpenID authentication is considered successful and the user is considered logged in to the relying party web site with the given identifier (e.g. <code>alice.openid.example.org</code>). The web site typically then stores the OpenID identifier in the user's session.
+
+OpenID does not provide its own form of authentication, but if an identity provider uses strong authentication, OpenID can be used for secure transactions such as banking and e-commerce.
+
+=== Identifiers ===
+
+Starting with OpenID Authentication 2.0 (and some 1.1 implementations), there are two types of identifiers that can be used with OpenID: URLs and XRIs. 
+
+'''OpenID''' - architektura rozproszonego uwierzytelnienia i dystrybucji tożsamości użytkowników w usługach webowych.
+
+OpenID rozwiązuje problem dystrybucji składników tożsamości użytkownika (imię, nazwisko, email, adres itd) pomiędzy wieloma serwisami webowymi (sklepy internetowe, grupy dyskusyjne itd - w specyfikacji OpenID nazywanymi ''Consumer''). Zamiast zakładać niezależne konta w każdym z serwisów, użytkownik zakłada jedno konto na serwerze OpenID, zapisując tam swoje dane osobowe i uzyskując identyfikator OpenID.
+
+==Procedura logowania w OpenID==
+
+W momencie logowania do pożądanego serwisu użytkownik podaje identyfikator OpenID, który ma postać adresu URL będącego równocześnie adresem serwera OpenID i wskazaniem konkretnego użytkownika (np. ''user.openid.pl'' albo ''http://openid.pl/user/'').
+
+Serwis przekierowuje użytkownika na stronę serwera OpenID z żądaniem określonych danych użytkownika. Serwer OpenID udostępnia je przez przekierowanie z powrotem do serwisu, który ich zażądał. Udostępnienie danych wymaga zwykle interakcji użytkownika, by udostępnić tylko te dane, na których udostępnienie godzi się użytkownik i tylko temu serwisowi, który użytkownik akceptuje. Użytkownik dokonuje więc logowania i wyboru zakresu danych. Możliwe jest też ustalenie, że pewne dane będą udostępniane serwisowi bez konieczności każdorazowego logowania np. przez pewien czas. Udostępniane dane mogą być użyte np. do podpisywania komentarzy użytkownika na forach dyskusyjnych czy w blogach.
+
+W wersji 2.0 protokołu OpenID identyfikatorem użytkownika może być także XRI.
+
+==Zalety OpenID==
+
+* '''łatwość korzystania''' -- bo użytkownik w każdym serwisie posługuje się jednym identyfikatorem, zamiast w każdym z nich zakładać oddzielne konto, wypełniać dane i ustawiać hasło
+* '''decentralizacja''' -- możliwa dlatego że identyfikator jest równocześnie adresem serwera; architektura nie wymusza korzystania z jednej, centralnej bazy haseł bo każdy może postawić swój serwer i używać jego adresu jako identyfikatora
+* '''kontrola prywatności''' -- to użytkownik wskazuje, jakie informacje może pobrać serwis (np. email - tak, telefon - nie) i ma później wgląd w historię pobieranych informacji
+* '''łatwość aktualizacji''' -- ponieważ dane są przechowywane w jednej lokalizacji, a w razie zmian wszystkie serwisy zaktualizują je sobie automatycznie

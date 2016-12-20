@@ -1,0 +1,35 @@
+'''mbox''' is a generic term for a family of related electronic mail messages. All messages in an mbox mailbox are concatenated and stored as plain text in a single file. The beginning of each message is indicated by a line whose first five characters consist of "From" followed by a space (the so-called "From_ line" or "'From&nbsp;' line") and the return path e-mail address.  A blank line is appended to the end of each message. For a while, the mbox format was popular because text processing tools can be readily used on the plain text files used to store the e-mail messages.
+
+Unlike the Internet protocols used for the exchange of e-mail, the format used for the storage of e-mail has never been formally defined through the RFC standardization mechanism and has been entirely left to the developer of an e-mail client.
+
+== Family == 
+
+The mbox family comprises four main different and incompatible formats: ''mboxo'', ''mboxrd'', ''mboxcl'', and ''mboxcl2''. The naming scheme was developed by Daniel J. Bernstein, Rahul Dhesi, and others in 1996. Each originated from a different version of Unix.  ''mboxcl'' and ''mboxcl2'' originated from the file format used by Unix System V Release 4 mail tools. ''mboxrd'' was invented by Rahul Dhesi et al. as a rationalisation of ''mboxo'' and subsequently adopted by some Unix mail tools including qmail.
+
+''mboxo'' and ''mboxrd'' locate the message start by scanning for ''From lines'' that are typically found in the e-mail message header.  If the "From " string occurs at the beginning of a line in either the headers or the body of a message (unlikely for the former for correctly formatted messages, but likely for the latter), the e-mail message must be modified before the message is stored in an '''mbox''' mailbox file or the line will be taken as a message boundary. This is typically done by prepending a greater-than sign.
+
+==='' Modified mbox'' ===
+
+Some e-mail clients use a modification of the mbox format for their mail folders.
+* Eudora uses an ''mboxo'' variation where a sender's e-mail address is replaced by the constant string "???@???".
+* The Mozilla family of MUAs (Mozilla, Netscape, Thunderbird, et al.) use an ''mboxrd'' variation with more complex ''From line'' quoting rules.
+
+== File locking issue ==
+
+Various mutually incompatible mechanisms have been used by different mbox formats to enable message Network File System (NFS).
+
+:''För ljudkortet, se Mbox (ljudkort).''
+'''Mbox''' är ett av de vanligaste formaten för e-postbrevlådor i fil där alla meddelanden ligger efter varandra, separerade med en rad som börjar med "From ".
+
+Eftersom mbox har en del begränsningar väljer allt fler att gå över till andra format som till exempel maildir. Det största problemet med mbox är att eftersom alla meddelanden ligger i samma fil så krävs fillåsning för att inte två program ska kunna göra ändringar i filen samtidigt och då riskera att förstöra den. Denna fillåsning är svår att implementera, i synnerhet när nätverksfilsystem som NFS är inblandade. Ett annat problem är att borttagning av ett enda meddelande i brevlådan kräver att hela filen skrivs om. Detta tar tid, belastar servern och gör att brevlådan under tiden omskrivningen pågår kräver upp till dubbelt lagringsutrymme (vilket utöver det rena lagringsbehovet kan ställa till det för system som försöker begränsa användarnas brevlådestorlekar med hjälp av diskkvoter).
+
+===Exempel===
+
+<pre>
+From microsoft.outlook.imo@ixazon.dynip.com Sat Aug 03 2002
+Received: from ... by ... with ESMTP;
+Subject: Nonsense
+From: <build.9.0.2416@ixazon.dynip.com>
+To: <junkdtectr@carolina.rr.com>
+
+>From ancient times, people have been writing letters.

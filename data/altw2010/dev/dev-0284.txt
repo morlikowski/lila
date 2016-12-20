@@ -1,0 +1,108 @@
+250px|right|thumb|Studio del fenomeno della cavitazione in un [[tunnel ad acqua]]
+250px|thumb|right|Elica con danni provocati dalla cavitazione, in particolare in vicinanza del bordo, dove la [[velocità della lama è massima]]
+La '''cavitazione''' è un implodono producendo un rumore caratteristico.
+
+Ciò avviene a causa dell'abbassamento locale di pressione ad un valore inferiore alla tensione di vapore del liquido stesso, che subisce così un cambiamento di fase a gas, formando ''cavità'' contenenti vapore.
+
+La dinamica del processo è molto simile a quella dell'implode immediatamente.
+
+Il fenomeno può avvenire sulle eliche delle navi, nelle pompe e nel sistema vascolare delle piante.
+
+Affinché la cavitazione possa manifestarsi occorre un substrato che agisca da centro di nucleazione: può essere la superficie di un contenitore, impurità presenti nel liquido oppure altre irregolarità. La temperatura ha una notevole influenza sulla cavitazione, poiché altera la tensione di vapore. Se la temperatura aumenta, la maggiore tensione di vapore facilita la cavitazione.
+
+Si conviene usualmente di considerare una prevalenza, o la potenza generata calano di più del 3% rispetto a condizioni analoghe in assenza di cavitazione.
+
+La cavitazione è stata proposta come una possibile spiegazione dello ''scrocchiamento'' delle articolazioni umane (dita, polsi, ecc.).
+
+==Problemi dovuti alla cavitazione==
+thumb|250px|Right|Schema della creazione di microgetto, mano a mano che la pressione aumenta la bolla si riduce di dimensione e si deforma. Nel punto quattro la bolla di divide in due bolle più piccole e il liquido colpisce violentemente la parete
+In genere la cavitazione è un fenomeno indesiderato e fonte di problemi. In dispositivi come pompe ed eliche, la cavitazione provoca una notevole perdita di efficienza, emissione di rumore e danneggiamento dei componenti.
+
+Il collasso delle bolle da cavitazione infatti genera una grande quantità di rumore e un urto meccanico molto intenso: può danneggiare pressoché qualunque materiale scavandovi dei fori. Se si verifica spesso, questo fenomeno può ridurre notevolmente la durata di eliche e giranti di pompe. Infine la cavitazione è causa di attrito e turbolenza nel liquido, il che comporta un ulteriore calo di efficienza.
+
+Il collasso delle bolle provoca onde di shock, ossia onde di pressione che possono essere estremamente intense; inoltre, se l'implosione avviene vicina ad una parete solida, essa genera un microgetto liquido (impinging jet) che erode il materiale costituente la parete e forma quelli che vengono chiamati "pits erosivi".
+
+==Eliche e pompe==
+Quando le lame di un'elica o della girante di una pompa (centrifuga o assiale) si muovono nel liquido, si formano zone di bassa pressione laddove il liquido viene spostato. Più velocemente la lama avanza, maggiore è l'abbassamento di pressione; quando viene raggiunto il valore della tensione di vapore, il liquido evapora e forma le bolle di gas.
+Nelle pompe la cavitazione si può manifestare in due modi:
+
+===Cavitazione in aspirazione===
+250px|right|thumb|Danneggiamento dovuto alla cavitazione in una [[Turbina Francis]]
+La cavitazione in aspirazione si ha quando la pompa aspira liquido in condizioni di bassa pressione, e si ha la formazione di vapore nella parte di ingresso della pompa. Le bolle di vapore attraversano la girante, e quando giungono nella sezione di uscita, l'alta pressione qui presente ne causa la violenta implosione, che crea il caratteristico rumore, come se la pompa stesse facendo passare della ghiaia. Ciò comporta una consistente erosione della pompa sia in aspirazione che in mandata, con conseguente diminuzione delle caratteristiche idrauliche. La tendenza di una pompa (o altro dispositivo) alla cavitazione è espresso dal concetto di NPSH (''Net Positive Suction Head''), in genere espresso in metri (sistema tecnico). In particolare l'NPSH(r) (acronimo per NPSH required) è caratteristico della pompa ed esprime il patrimonio energetico del fluido richiesto per l'attraversamento della porzione della pompa compresa tra la flangia di aspirazione e la prima girante (perdite di carico, energia cinetica, eventuale dislivello). L'NPSH(a) (acronimo per NPSH available), strettamente legato al circuito, esprime il patrimonio energetico del fluido al livello della flangia di aspirazione, decurtato della quantità Psat(T)/γ. Per assicurare il funzionamento in assenza di cavitazione si dovrà avere che NPSH(a) > NPSH(r).
+
+===Cavitazione di scarico===
+La cavitazione di scarico si manifesta quando la pressione di uscita della pompa è molto alta. Normalmente si verifica quando la pompa sta lavorando a meno del 10% delle sue condizioni di massima efficienza.
+
+A causa della pressione elevata sull'uscita, la maggior parte del liquido ricircola nella pompa invece di uscire, ed è costretto a passare ad alta velocità nello spazio tra la girante e lo vuoto (per effetto Venturi) e la conseguente formazione delle sacche di vapore.
+
+Una pompa funzionante in queste condizioni è soggetta a rapida usura della girante e dello statore. Inoltre le condizioni di alta pressione favoriscono l'usura dei cuscinetti e delle guarnizioni. In condizioni estreme si può avere la albero.
+
+== La cavitazione nei motori diesel ==
+250px|thumb|Evidente danneggiamento della [[girante di pompa centrifuga dovuto alla cavitazione]]
+Alcuni motori diesel più grandi soffrono dalla cavitazione a causa dell’alta compressione e delle pareti troppo piccole del cilindro.
+
+Le vibrazioni della parete del cilindro inducono un alternarsi di alta e bassa pressione nel liquido refrigerante contro la parete del cilindro.
+
+Il risultato è la formazione di “pits erosivi” sulla parete del cilindro che finisce per lasciare filtrare il refrigerante nel cilindro e i gas di combustione nel refrigerante.
+
+È possibile prevenire il fenomeno con additivi chimici nel liquido di raffreddamento che formino uno strato di protezione sulla parete del cilindro. 
+Questo strato protettivo sarà esposto anch’esso al fenomeno della cavitazione, ma si ricostituirà  rapidamente.
+
+==Sistema vascolare delle piante==
+La cavitazione può presentarsi nello dissolta in essa si separa e si espande fino ad occupare la cellula che costituisce il vaso o la trachea.
+
+thumb|266px|right|Cavitating propeller model in a [[Water tunnel (hydrodynamic)|water tunnel experiment]]
+right|frame|High speed jet of fluid impact on a fixed surface.
+thumb|266px|Cavitation damages on a valve plate for an axial piston [[hydraulic pump.]]
+'''Cavitation''' is defined as the phenomenon of formation of vapour bubbles of a flowing liquid in a region where the pressure of the liquid falls below its vapour pressure.  Cavitation is usually divided into two classes of behavior: inertial (or transient) cavitation and non-inertial cavitation. Inertial cavitation is the process where a void or bubble in a liquid rapidly collapses, producing a shock wave. Such cavitation often occurs in pumps, propellers, impellers, and in the vascular tissues of plants. Non-inertial cavitation is the process in which a bubble in a fluid is forced to oscillate in size or shape due to some form of energy input, such as an acoustic field. Such cavitation is often employed in ultrasonic cleaning baths and can also be observed in pumps, propellers etc.
+
+==Inertial cavitation==
+Inertial cavitation was first studied by Lord Rayleigh in the late 19th century when he considered the collapse of a spherical void within a liquid.
+When a volume of liquid is subjected to a sufficiently low pressure it may rupture and form a cavity. This phenomenon is termed cavitation inception and may occur behind the blade of a rapidly rotating propeller or on any surface vibrating underwater with sufficient amplitude and acceleration. A fast flowing river can cause cavitation on rock surfaces, particular when there is a drop off, such as on a waterfall. Other ways of generating cavitation voids involve the local deposition of energy such as an intense focused laser pulse (optic cavitation) or with an electrical discharge through a spark. Vapor gasses evaporate into the cavity from the surrounding medium; thus the cavity is not a perfect vacuum but has a relatively low gas pressure. Such a low pressure cavitation bubble in a liquid will begin to collapse due to the higher pressure of the surrounding medium. As the bubble collapses, the pressure and temperature of the vapor within increases. The bubble will eventually collapse to a minute fraction of its original size, at which point the gas within dissipates into the surrounding liquid via a rather violent mechanism, which releases a significant amount of energy in the form of an acoustic shock-wave and as visible light. At the point of total collapse, the temperature of the vapor within the bubble may be several thousand kelvin, and the pressure several hundred atmospheres. 
+
+Inertial cavitation can also occur in the presence of an acoustic field. Microscopic gas bubbles which are generally present in a liquid will be forced to oscillate due to an applied acoustic field. If the acoustic intensity is sufficiently high, the bubbles will first grow in size, and then rapidly collapse. Hence, inertial cavitation can occur even if the rarefaction in the liquid is insufficient for a Rayleigh-like void to occur. High power ultrasonics usually utilize the inertial cavitation of microscopic vacuum bubbles for treatment of surfaces, liquids and slurries.
+
+The physical process of cavitation inception is similar to boiling. The major difference between the two is the thermodynamic paths which precede the formation of the vapor.  Boiling occurs when the local vapor pressure of the liquid rises above its local ambient pressure and sufficient energy is present to cause the phase change to a gas. Cavitation inception occurs when the local pressure falls sufficiently far below the saturated vapor pressure, a value given by the tensile strength of the liquid.  
+
+In order for cavitation inception to occur, the cavitation "bubbles" generally need a surface on which they can nucleate. This surface can be provided by the sides of a container or by impurities in the liquid or by small undissolved microbubble within the liquid. It is generally accepted that hydrophobic surfaces stabilize small bubbles. These pre-existing bubbles start to grow unbounded when they are exposed to a pressure below the threshold pressure, termed Blake's threshold.
+
+==Non-inertial cavitation ==
+Non-inertial cavitation is the process where small bubbles in a liquid are forced to oscillate in the presence of an acoustic field, when the intensity of the acoustic field is insufficient to cause total bubble collapse. This form of cavitation causes significantly less erosion than inertial cavitation, and is often used for the cleaning of delicate materials, such as silicon wafers.
+
+==Cavitation damage==
+thumb|right|250px|Cavitation damage of a [[Francis turbine. ]]
+Cavitation is, in many cases, an undesirable occurrence. In devices such as propellers and pumps, cavitation causes a great deal of noise, damage to components, vibrations, and a loss of efficiency.
+
+When the cavitation bubbles collapse, they force liquid energy into very small volumes, thereby creating spots of high temperature and emitting shock waves, the latter of which are a source of noise. The noise created by cavitation is a particular problem for military submarines, as it increases the chances of being detected by passive sonar.
+
+Although the collapse of a cavity is a relatively low-energy event, highly localized collapses can erode metals, such as steel, over time. The pitting caused by the collapse of cavities produces great wear on components and can dramatically shorten a propeller's or pump's lifetime. 
+
+After a surface is initially affected by cavitation, it tends to erode at an accelerating pace. The cavitation pits increase the turbulence of the fluid flow and create crevasses that act as nucleation sites for additional cavitation bubbles. The pits also increase the component's surface area and leave behind residual stresses. This makes the surface more prone to stress corrosion.<ref></ref>
+
+==Chemical engineering applications==
+In industry, cavitation is often used to homogenize, or mix and break down suspended particles in a colloidal liquid compound, such as paint mixtures or milk. Many industrial mixing machines are based upon this design principle. It is usually achieved through impeller design, or by forcing the mixture through an annular opening that has a narrow entrance orifice with a much larger exit orifice.  In the latter case, the drastic decrease in pressure as the liquid accelerates into a larger volume induces cavitation. This method can be controlled with hydraulic devices that control inlet orifice size, allowing for dynamic adjustment during the process, or modification for different substances. The outer surface of this type of mixing valve, upon which the cavitation bubbles are driven against to cause their implosion, undergoes tremendous stress, and is often constructed of super-hard or tough materials such as stainless steel, Stellite, or even polycrystalline diamond (PCD). 
+
+Cavitating sonochemical reactions reveal chemical and plasma-based mechanisms of energy transfer. The light emitted from cavitation bubbles is termed sonoluminesence.
+
+Hydrophobic chemicals are attracted underwater by cavitation as the pressure difference between the bubbles and the liquid water forces them to join together. This effect may assist in protein folding.<ref></ref>
+
+==Biomedical application==
+Cavitation plays an important role for the destruction of lithotripsy. Currently it is being tested whether cavitation can be used to transfer large molecules into biological cells (lyse cell membranes while leaving organelles intact.
+Cavitation also probably plays a role in HIFU, a non-invasive treatment methodology for cancer.
+
+==Cleaning application==
+
+In industrial cleaning applications, cavitation has sufficient power to overcome the particle-to-substrate adhesion forces, loosening contaminants. The threshold pressure required to initiate cavitation is a strong function of the pulse width and the power input. This method works by generating controlled acoustic cavitation in the cleaning fluid, picking up and carrying contaminant particles away so they don't reattach to the material being cleaned.<ref>http://www.prosysmeg.com/technology/articles/megasonics_cleaning.php ProSys. Technology. ''What is Megasonics cleaning?''</ref>
+
+==Pumps and propellers==
+Major places where cavitation occurs are in pumps, on propellers, or at restrictions in a flowing liquid.
+
+As an impeller's (in a pump), or propeller's (as in the case of a ship or submarine) blades move through a fluid, low pressure areas are formed as the fluid accelerates around and moves past the blades. The faster the blades move, the lower the pressure around it can become. As it reaches vaporizes and forms small bubbles of gas. This is cavitation. When the bubbles collapse later, they typically cause very strong local shockwaves in the fluid, which may be audible and may even damage the blades.
+
+Cavitation in pumps may occur in two different forms:
+
+===Suction cavitation===
+Suction cavitation occurs when the pump suction is under a low-pressure/high-vacuum condition where the liquid turns into a vapor at the eye of the pump impeller. This vapor is carried over to the discharge side of the pump where it no longer sees vacuum and is compressed back into a liquid by the discharge pressure. This imploding action occurs violently and attacks the face of the impeller. An impeller that has been operating under a suction cavitation condition can have large chunks of material removed from its face or very small bits of material removed causing the impeller to look sponge-like.  Both cases will cause premature failure of the pump often due to bearing failure.  Suction cavitation is often identified by a sound like gravel or marbles in the pump casing.
+
+===Discharge cavitation===
+Discharge cavitation occurs when the pump discharge pressure is extremely high, normally occurring in a pump that is running at less than 10% of its best efficiency point. The high discharge pressure causes the majority of the fluid to circulate inside the pump instead of being allowed to flow out the discharge. As the liquid flows around the impeller it must pass through the small clearance between the impeller and the pump cutwater at extremely high venturi) which turns the liquid into a vapor. A pump that has been operating under these conditions shows premature wear of the impeller vane tips and the pump cutwater. In addition, due to the high pressure conditions, premature failure of the pump's mechanical seal and bearings can be expected. Under extreme conditions, this can break the impeller shaft.

@@ -1,0 +1,119 @@
+En mathématiques et en analyse fonctionnelle le '''théorème de Mercer''' est une représentation d'une fonction symétrique définie positive par le carré d'une série convergente de produits de fonctions.   Ce théorème est l'un des résultats phares de James Mercer<ref></ref>. C'est un outil théorique important dans la théorie des équations intégrales. Il est aussi utilisé dans  la théorie hilbertienne des processus stochastiques (voir théorème de Karhunen-Loève, Transformée de Karhunen-Loève).
+
+== Introduction ==
+Pour expliquer le théorème de Mercer, commençons par un cas particulier important; voir plus bas pour une formulation plus générale.
+
+Le terme ''noyau'', dans ce contexte, est une fonction continue
+
+:<math> K: [a,b] \times [a,b] \rightarrow \mathbb{R}</math>
+
+telle que ''K''(''x'', ''s'') = ''K''(''s'', ''x'').
+
+''K'' est dite ''définie non négative'' si et seulement si
+
+:<math> \sum_{i=1}^n\sum_{j=1}^n K(x_i, x_j) c_i c_j \geq 0</math>
+
+pour toute suites finies de points ''x''<sub>1</sub>,...,''x''<sub>n</sub> de  [''a'', ''b''] et tout choix des réels ''c''<sub>1</sub>, ..., ''c''<sub>n</sub> (cf. noyau défini positif).
+
+A ''K'' on associe l'opérateur linéaire défini par l'intégrale
+
+:<math> [T_K \varphi](x) =\int_a^b  K(x,s) \varphi(s)\, ds. </math>
+
+Pour des raisons techniques nous supposerons que &phi; peut parcourir l'espace  
+''L''<sup>2</sup>[''a'',&nbsp;''b''] (voir Espace Lp) des fonctions réelles de carré intégrable.
+Comme ''T'' est un opérateur linéaire, on peut parler de valeurs propres et de fonctions propres de ''T''.
+
+'''Théorème'''. Soit ''K'' une fonction noyau continue symétrique définie non négative.  Alors il existe une base orthonormée
+{''e''<sub>i</sub>}<sub>i</sub> de ''L''<sup>2</sup>[''a'',''b''] consistant en les fonctions propres de ''T''<sub>''K''</sub> telle que la suite des valeurs propres correspondantes {&lambda;<sub>i</sub>}<sub>i</sub> est non négative.  Les fonctions propres correspondant aux valeurs propres non nulles sont continues sur [''a'', ''b''] et ''K'' admet la représentation
+
+:<math> K(s,t) = \sum_{j=1}^\infty \lambda_j \, e_j(s) \, e_j(t) </math>
+
+où la convergence est absolue et uniforme.
+
+== Détails ==
+
+Donnons avec force détails la structure de la preuve du théorème de Mercer, particulièrement dans ses rapports avec la théorie spectrale des opérateurs compacts.
+
+* L'application ''K'' &rarr; ''T''<sub>''K''</sub> est  injective.
+
+* ''T''<sub>''K''</sub> est un opérateur compact non-négatif et symétrique sur ''L''<sup>2</sup>[''a'',''b'']; De plus ''K''(''x'', ''x'') &ge; 0.
+
+Pour montrer la compacité, regardons l'image de la boule unité de ''L''<sup>2</sup>[''a'',''b''] par ''T''<sub>''K''</sub> équicontinu. Appliquant le théorème d'Ascoli, cela montre que l'image de la boule unité est relativement compact dans C([''a'',''b'']) muni de la norme de la convergence uniforme et ''a fortiori'' dans ''L''<sup>2</sup>[''a'',''b''].
+
+Appliquons le théorème spectral des opérateurs compacts pour les espaces de Hilbert à ''T''<sub>''K''</sub> pour montrer l'existence d'une base orthonormale {''e''<sub>i</sub>}<sub>i</sub> de
+''L''<sup>2</sup>[''a'',''b'']
+
+:<math> \lambda_i e_i(t)= [T_K e_i](t)  = \int_a^b K(t,s) e_i(s)\, ds. </math>
+
+Si &lambda;<sub>i</sub> &ne; 0, le vecteur propre ''e''<sub>i</sub> est continue sur [''a'',''b''].  Or
+:<math> \sum_{i=1}^\infty \lambda_i |e_i(t) e_i(s)| \leq \sup_{x \in [a,b]} |K(x,x)|^2, </math>
+
+ce qui montre que la suite
+
+:<math> \sum_{i=1}^\infty \lambda_i e_i(t) e_i(s) </math>
+
+converge absolument et uniformément vers un noyau kernel ''K''<sub>0</sub> qu'il est aisé de voir qu'il définit le même opérateur que le noyau ''K''.  Donc ''K''=''K''<sub>0</sub> d'où le théorème de Mercer.
+
+In James Mercer. It is an important theoretical tool in the theory of integral equations; it is also used in the Hilbert space theory of stochastic processes, for example the Karhunen-Loève theorem (cf. Karhunen-Loève transform).
+
+== Introduction ==
+To explain Mercer's below for a more general formulation.
+A ''kernel'', in this context, is a symmetric continuous function that maps
+
+:<math> K: [a,b] \times [a,b] \rightarrow \mathbb{R}</math>
+
+symmetric meaning that ''K''(''x'', ''s'') = ''K''(''s'', ''x'').
+
+''K'' is said to be ''non-negative definite'' (or positive semidefinite) if and only if
+
+:<math> \sum_{i=1}^n\sum_{j=1}^n K(x_i, x_j) c_i c_j \geq 0</math>
+
+for all finite sequences of points ''x''<sub>1</sub>,...,''x''<sub>n</sub> of [''a'', ''b''] and all choices of real numbers ''c''<sub>1</sub>, ..., ''c''<sub>n</sub> (cf. positive definite kernel).
+
+Associated to ''K'' is a linear operator on functions defined by the integral
+
+:<math> [T_K \varphi](x) =\int_a^b  K(x,s) \varphi(s)\, ds. </math>
+
+For technical considerations we assume &phi; can range through the space 
+''L''<sup>2</sup>[''a'',&nbsp;''b''] (see Lp space) of square-integrable real-valued functions.
+Since ''T'' is a linear operator, we can talk about eigenvalues and eigenfunctions of ''T''.
+
+'''Theorem'''. Suppose ''K'' is a continuous symmetric non-negative definite kernel.  Then there is an orthonormal basis
+{''e''<sub>i</sub>}<sub>i</sub> of ''L''<sup>2</sup>[''a'',''b''] consisting of eigenfunctions of ''T''<sub>''K''</sub> such that the corresponding
+sequence of eigenvalues {&lambda;<sub>i</sub>}<sub>i</sub> is nonnegative.  The eigenfunctions corresponding to non-zero eigenvalues are continuous on [''a'', ''b''] and ''K'' has the representation
+
+:<math> K(s,t) = \sum_{j=1}^\infty \lambda_j \, e_j(s) \, e_j(t) </math>
+
+where the convergence is absolute and uniform.
+
+== Details ==
+
+We now explain in greater detail the structure of the proof of
+Mercer's theorem, particularly how it relates to spectral theory of compact operators.
+
+* The map ''K'' &rarr; ''T''<sub>''K''</sub> is  injective.
+
+* ''T''<sub>''K''</sub> is a non-negative symmetric  compact operator on ''L''<sup>2</sup>[''a'',''b'']; moreover ''K''(''x'', ''x'') &ge; 0.
+
+To show compactness, show that the image of the unit ball of ''L''<sup>2</sup>[''a'',''b''] under ''T''<sub>''K''</sub> equicontinuous and apply Ascoli's theorem, to show that the image of the unit ball is relatively compact in C([''a'',''b'']) with the uniform norm and ''a fortiori'' in ''L''<sup>2</sup>[''a'',''b''].
+
+Now apply the spectral theorem for compact operators on Hilbert
+spaces to ''T''<sub>''K''</sub> to show the existence of the
+orthonormal basis {''e''<sub>i</sub>}<sub>i</sub> of
+''L''<sup>2</sup>[''a'',''b'']
+
+:<math> \lambda_i e_i(t)= [T_K e_i](t)  = \int_a^b K(t,s) e_i(s)\, ds. </math>
+
+If &lambda;<sub>i</sub> &ne; 0, the eigenvector ''e''<sub>i</sub> is seen to be continuous on [''a'',''b''].  Now 
+
+:<math> \sum_{i=1}^\infty \lambda_i |e_i(t) e_i(s)| \leq \sup_{x \in [a,b]} |K(x,x)|^2, </math>
+
+which shows that the sequence 
+
+:<math> \sum_{i=1}^\infty \lambda_i e_i(t) e_i(s) </math>
+
+converges absolutely and uniformly to a kernel ''K''<sub>0</sub> which is easily seen to define the same operator as the kernel ''K''.  Hence ''K''=''K''<sub>0</sub> from which Mercer's theorem follows.
+
+== Trace ==
+
+The following is immediate:

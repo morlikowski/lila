@@ -1,0 +1,95 @@
+thumb|Pi
+'''Pi''', hejmara herî balkêş a matematîkê ye, têkiliya di nav kember yan jî rûyê bêzin de (surface of circle) û nîvtîreya (radius) wî de rave dike. Pî, nêzîkî 3.14'an e, lê tiştê balkêş ew e, ku pî û herweha jî rayê ducar (square root) ji diduyan jimarine nerêjeyî (irrational) ne. Ew ne fer in û ne zo ne û ew bi dabeşkirina du jimarên tewaw (whole number) jî nayêne bidestxistin.<br/>
+
+== Hejmarê pî ==
+Di matêmatîk da mera ji Pi ra
+:<math>\pi \approx 3{,}14159.</math> 
+dibe, ji bo her hejmarên Pi mera nikane bikarwîne.
+
+Pi bi xwe nêzîkî 
+3,14159 26535 89793 23846 26433 83279 50288 41971 69399 37510 58209 74944 59230 78164 06286 20899 86280 34825 34211 70679 82148 08651 32823 06647 09384 46095 50582 23172 53594 08128 48111 74502 84102 70193 
+85211 05559 64462 29489 54930 38196 44288 10975 66593 34461 28475 64823 37867 83165 27120 19091 45648 56692 34603 48610 45432 66482 13393 60726 02491 41273 72458 70066 06315 58817 48815 20920 96282 92540 91715 36436 78925 90360 01133 05305 48820 46652 13841 46951 94151 16094 33057 27036 57595 e.<ref>[http://www.netkurd.com Kaianders Sempler, Ny Teknik, Swêd Netkurd.com], amadekar: Zagrosê Hajo</ref>
+
+== Çavkanî ==
+<references/>
+
+== Lînk ==
+
+*[http://www.pibel.de/ Malperek li ser ''Pi''. Li vir heta 10 milyon cihên pî kanin werin download'kirin]
+*[http://pidifferent.pi.funpic.de/index-en.html Pi-memory]
+
+Kategorî:Hejmar
+
+als:Pi (Mathematik)
+
+bat-smg:Pi
+
+be-x-old:Пі
+
+eo:Pi (nombro)
+es:Número π
+
+fur:Pi
+gan:圓周率
+
+ia:Pi
+
+En constant que relaciona el diàmetre de la circumferència amb la longitud del seu perímetre. 
+
+:P = d · '''&pi;'''
+
+left|Visualització de la definició de &pi;
+
+El símbol &pi; es pronuncia [pi] i és la setzena lletra de l'alfabet grec.
+
+&pi; és un nombre irracional, és a dir, la seva part fraccionària té un nombre de xifres infinit, i no es pot establir un patró que determini quina serà la següent a una determinada. Per calcular s'acostuma a agafar el seu valor simplificat: 3,14159265.
+
+El nombre &pi; a més d'aparèixer en la fórmula de la longitud de la circumferència, apareix a totes les equacions matemàtiques derivades d'aquesta: superfície i volum del cercle, de l'esfera... i també a nombroses equacions de la física.
+
+Les xifres decimals del nombre pi són equiprobables. És a dir, es pot demostrar mitjançant la teoria de grans nombres que les xifres decimals del nombre pi surten amb la mateixa probabilitat.
+
+thumb|360px|center|Un cercle de diàmetre 1 té per circumferència &pi;.
+
+== Fórmules relacionades amb &pi; ==
+
+===Geometria===
+
+:*Circumferència del cercle de radi ''r'': ''C'' = 2 &pi; ''r''
+:*Àrea del cercle de radi ''r'':    ''A'' = &pi; ''r''<sup>2</sup>
+:*Àrea de l'el·lipse amb semieixos ''a'' i ''b'':    ''A'' =  &pi; ''ab''
+:*Volum de l'esfera de radi ''r'':   ''V'' = (4/3) &pi; ''r''<sup>3</sup>
+:*Àrea de superfície d'una esfera de radi ''r'':   ''A'' = 4 &pi; ''r''<sup>2</sup>
+:*Angles: 180 graus són equivalents a &pi; radians
+
+===Anàlisi===
+
+: <math> \frac{1}{1} - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} - \cdots = \frac{\pi}{4} </math> (Fórmula de Leibniz)
+
+: <math> \frac{2}{1} \cdot \frac{2}{3} \cdot \frac{4}{3} \cdot \frac{4}{5} \cdot \frac{6}{5} \cdot \frac{6}{7} \cdot \frac{8}{7} \cdot \frac{8}{9} \cdots = \frac{\pi}{2} </math> (producte de Wallis)
+
+: <math> \zeta(2) = \frac{1}{1^2} + \frac{1}{2^2} + \frac{1}{3^2} + \frac{1}{4^2} + \cdots = \frac{\pi^2}{6} </math> (Euler)
+
+:<math>\zeta(4)= \frac{1}{1^4} + \frac{1}{2^4} + \frac{1}{3^4} + \frac{1}{4^4} + \cdots = \frac{\pi^4}{90}</math>
+
+: <math> \int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi} </math> (integral de Gauss)
+
+: <math> \Gamma\left({1 \over 2}\right)=\sqrt{\pi}</math>
+
+: <math> n! \approx \sqrt{2 \pi n} \left(\frac{n}{e}\right)^n </math> (Fórmula de Stirling)
+
+: <math> e^{\pi i} + 1 = 0\; </math> (Identitat d'Euler, també anomenada "La fórmula més important del món")
+
+&pi; té boniques representacions de fraccions contínues:
+
+: <math> \frac{4}{\pi} = 1 + \frac{1}{3 + \frac{4}{5 + \frac{9}{7 + \frac{16}{9 + \frac{25}{11 + \frac{36}{13 + ...}}}}}} </math>
+
+(Podeu veure altres 12 representacions a [http://functions.wolfram.com/Constants/Pi/10/] )
+
+===Teoria de nombres===
+
+:La probabilitat que dos nombres triats aleatòriament siguin coprimers és de 6/&pi;<sup>2</sup>.
+:La probabilitat que un enter triat aleatòriament no tingui cap factor primer elevat a una potència superior a 1 (sigui lliure de quadrats) és de 6/&pi;<sup>2</sup>.
+
+:Una manera empírica de trobar el valor de ''pi'': dibuixeu un quadrat de costat 'l' a la paret. Tireu un dard dins el quadrat tantes vegades com pugueu sense apuntar enlloc més que a dins del quadrat. Dibuixeu un cercle de diàmetre 'l' inscrit en el quadrat. Compteu 'nc' el nombre de vegades que el dard ha anat dins la circumferència, i 'nq' nombre de vegades que el dard ha anat dins del quadrat però fora de la circumferència. Per probabilitat i relacionant l'àrea dels dos polígons es pot deduir que &pi; ≅ 4*nc/(nc+nq), i que és més exacte (o sigui, més decimals) com més vegades haguem tirat el dard. Aquesta prova també es pot fer sobre paper quadriculat comptant les interseccions com a punts on ha anat el dard.
+
+:En altres paraules: &pi;/4 és la probabilitat que la suma dels quadrats de dos nombres aleatoris iguals o majors que 0, i menors o iguals a la unitat, sia menor o igual que 1.

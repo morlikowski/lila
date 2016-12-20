@@ -1,0 +1,36 @@
+L'élaboration d''''ordinateurs optiques''' est l'une des pistes explorées afin d'améliorer encore les performances des ordinateurs actuels (dont la progression est limitée par la miniaturisation de ses composants: il n'est pas possible d'en réduire la taille indéfiniment). Cependant, les nombreuses difficultés de mise en oeuvre d'un tel système rendent plus qu'hypothétique la sortie d'un ordinateur purement optique: on espère cependant pouvoir utiliser ce concept pour la résolution de problèmes bien particuliers.
+
+== Principe de fonctionnement ==
+
+== Inconvénients ==
+
+L’universalité de l’ordinateur électronique vient de la complète liberté que l’on a de stocker en mémoire les vecteurs de l’information, les électrons, et de les utiliser de manière déterministe dans des opérations combinatoires grâce aux réseaux d’interconnexions des circuits.
+Tel n’est pas le cas en optique : les particules lumineuses – les photons – ne se stockent pas et la mémoire à photons n’existe donc pas. Il est difficile de transférer un photon d’un point à un autre : il se propage en ligne droite (aux phénomènes de diffraction près : voir photon, diffraction).
+On peut certes faire des guides optiques de formes variées, mais ils sont d’une complexité de réalisation bien plus grande que celle du simple fil métallique conducteur.
+
+D'autre part, le terme d’« '''ordinateur optique''' » recèle déjà en lui-même une ambiguïté. Alors que l’informatique habituelle permet de traiter par la programmation des problèmes dits universels, les systèmes à base d’optique ne se prêtent bien qu’à la résolution de certains problèmes, en particulier ceux qui concernent le traitement de signal et d’image.
+
+== Allgemein ==
+
+'''Optische Computer''' sind Computer oder Rechenwerke, die vollständig oder teilweise mit optischen Elementen anstatt der heute gängigen elektronischen Komponenten arbeiten.
+Hierbei kommen optoelektronische Elemente oder passive optische nicht-lineare Elemente zum Einsatz.
+
+Grund für die wachsende Notwendigkeit für den Einsatz optischer Systeme in der Rechentechnik ist die durch das Mooresche Gesetz begründete Verbindungskrise.
+
+=== Vorteile ===
+Der Einsatz optischer Systeme in der Rechentechnik bietet einige '''Vorteile''' gegenüber der konventionellen Elektronik:
+* nahezu verlustfreie Übertragung über '''lange Strecken'''
+* '''Hohe Übertragungsgeschwindigkeit''' (etwa zehnfache Geschwindigkeit elektronischer Verbindungen)
+* '''Hohe Bandbreite''' (zum Beispiel durch Einsatz von Wellenlängenmultiplex)
+* Optische Freiraumverbindungen ermöglichen '''direkte Verbindung''' und '''3-dimensionale Verbindungen'''
+
+=== Nachteile ===
+Der erhöhte Aufwand bei der Herstellung und Integration optischer Elemente in vorhandene Systeme ergibt höhere Produktionskosten.
+
+== Praxis ==
+
+=== Einsatzmöglichkeiten optischer Verbindungen ===
+* '''Verbindung von Baugruppen''', z.B. ''Computer mit Computer''
+* '''Verbindung von Leiterplatten''', z.B. in Rechenwerken
+* '''Verbindung von Bauteilen''' auf Leiterplatten, z.B. ''CPU mit Arbeitsspeicher''
+* '''Verbindungen in integrierten Schaltkreisen'''

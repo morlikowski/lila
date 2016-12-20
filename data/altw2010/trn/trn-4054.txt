@@ -1,0 +1,112 @@
+{{infobox Franse gemeente|
+|plaatsnaam= Saint-Pompain
+|wapen= 
+|kaart= 
+|regio= Poitou-Charentes 
+|departement= Deux-Sèvres (79)
+|arrondissement= Niort
+|kanton= Coulonges-sur-l'Autize
+|jaar= 1999
+|inwoners= 805
+|dichtheid= 33,0
+|oppervlakte= 24,4
+|water= 
+|latitudeGraden= 46 |latitudeMinuten= 26|latitudeSeconden= 0
+|longitudeGraden= 0 |longitudeMinuten= 36 |longitudeSeconden= 0
+|E of W=W |ol of wl=W.L.
+|kaartX= 94 |kaartY= 155
+|code= 79290
+|postcode= 79160
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Saint-Pompain''' is een gemeente in het Franse departement Niort.
+
+==Geografie==
+De oppervlakte van Saint-Pompain bedraagt 24,4 km², de bevolkingsdichtheid is 33,0 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:1200 color:gray1 width:1       
+  from:start till:end             
+  bar:800 color:gray1              
+  from:start till:end            
+  bar:400 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,144)(84,131) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 873 1968: 786
+  points:(84,131)(100,129)    color:blue    width:2 #1975: 771
+  points:(100,129)(128,126)   color:blue    width:2 #1982: 749
+  points:(128,126)(160,134)   color:blue    width:2 #1990: 805
+  points:(160,134)(196,134)   color:blue    width:2 #1999: 805
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+==Externe links==
+*[http://www.mapquest.com/maps/map.adp?searchtype=address&formtype=latlong&latlongtype=degrees&latdeg=46&latmin=26&latsec=0&longdeg=-0&longmin=36&longsec=0&zoom=6 Locatie van de gemeente (kaart met schaal 1:100.000) op Mapquest]
+*[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=79290&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Meer statistische informatie over de gemeente op www.insee.fr] 
+
+{{Infobox Commune de France
+|nomcommune=Saint-Pompain
+|région=Poitou-Charentes
+|département=Deux-Sèvres
+|arrondissement=Arrondissement de Niort
+|canton=Canton de Coulonges-sur-l'Autize
+|insee=79290
+|cp=79160
+|maire=Christian Renou
+|mandat=2008 - 2014
+|intercomm=
+|longitude=-0.598888888889
+|latitude=46.4422222222
+|alt moy=65 m
+|alt mini=22 m
+|alt maxi=73 m
+|hectares=2 428
+|km²=24,28
+|sans=805
+|date-sans=1 999
+|dens=33|}}
+'''Saint-Pompain''' est une commune française, située dans le département des région Poitou-Charentes.
+
+== Géographie ==
+
+==Histoire==
+
+== Administration ==
+
+ [http://www.interieur.gouv.fr/sections/a_votre_service/resultats-elections/MN2008/079/079290.html Résultats officiels du premier tour des élections municipales à Saint-Pompain] sur le site officiel du Ministère de l'Intérieur</ref>)</small>  |Parti=  |Qualité= }}
+
+== Démographie ==
+{{Démographie|
+1962= 699|
+1968= 786|
+1975= 771|
+1982= 749|
+1990= 805|
+1999= 805|
+sansdoublescomptes= 1962}}
+
+== Lieux et monuments ==

@@ -1,0 +1,74 @@
+Bureau of Meteorology.  The National Hurricane Center uses the Saffir-Simpson scale for hurricanes in the eastern Pacific and Atlantic basins.  Australia uses a different set of tropical cyclone categories for their region.  Many basins have different names for storms of hurricane/typhoon/cyclone strength.  The use of different definitions for maximum sustained wind creates additional confusion into the definitions of cyclone categories worldwide.
+
+==Atlantic and East Pacific==
+
+The Saffir-Simpson Hurricane Scale is the classification system used for Atlantic hurricanes and East Pacific (up to 140° W) hurricanes. A ''Category&nbsp;1'' storm has the lowest maximum winds, a ''Category&nbsp;5'' hurricane has the highest. The rankings are not absolute in terms of effects. Lower-category storms can inflict greater damage than higher-category storms, depending on factors such as local terrain and total rainfall. For instance, a Category&nbsp;2 hurricane that strikes a major urban area will likely do more damage than a large Category&nbsp;5 hurricane that strikes a mostly rural region. In fact, tropical systems of less than hurricane strength can produce significant damage and human casualties, especially from flooding and landslides.
+
+The U.S. National Hurricane Center (NHC) classifies hurricanes of Category&nbsp;3 and above as ''major hurricanes''. The U.S. Joint Typhoon Warning Center (JTWC) classifies typhoons with wind speeds of at least 150&nbsp;mph (67&nbsp;m/s or 241&nbsp;km/h, equivalent to a strong Category&nbsp;4 storm) as ''Super Typhoons''.  The term major hurricane supplants the previously used term of ''great hurricane'' which was used throughout the 1950s and 1960s.
+
+The definition of sustained winds recommended by the CPHC, and the JTWC, defines sustained winds based on 1-minute average speed, also measured 10&nbsp;m (33&nbsp;ft) above the surface.<ref name="NWSM Defs"></ref><ref name="FEMA glossary"> Accessed through the Wayback Machine.</ref>
+
+== South Pacific ==
+The Australian Bureau of Meteorology uses a 1-5 scale called tropical cyclone severity categories. Unlike the Saffir-Simpson Hurricane Scale, severity categories are based on estimated maximum wind gusts, which are a further 30-40% stronger than the 10-minute average sustained winds.<ref name="BoM winds"></ref> Severity categories are scaled lower than the Saffir-Simpson Scale - for example, a severity Category&nbsp;2 tropical cyclone is roughly equivalent to a strong tropical storm or a moderate Saffir-Simpson Category&nbsp;1 hurricane.<ref>[http://australiasevereweather.com/cyclones/global_terminology.htm Global Tropical Cyclone Terminology<!-- Bot generated title -->]</ref>
+
+<!-- Table incomplete, feel free to expand -->
+{| class=wikitable
+|-
+! rowspan = 2 | Australian Category<ref name="BOM intensity"></ref>
+! Maximum wind gusts (km/h)
+! Maximum sustained winds (km/h)<ref>[http://www.bom.gov.au/weather/wa/cyclone/about/faq/faq_def_3.shtml Comparison between strongest gust and suatained winds] from Perth Tropical Cyclone Warning Center</ref>
+! Corresponding Beaufort Force<ref>[http://www.bom.gov.au/weather/qld/cyclone/windstr.shtml Comparison between Cyclone Category System and Beaufort Scale] from Brisbane Tropical Cyclone Warning Center</ref>
+|-
+! colspan = 3 | Effects<ref>[http://www.ntlib.nt.gov.au/tracy/basic/Met/Warning.html Cyclone Tracey Warning Systems<!-- Bot generated title -->]</ref>
+|-
+| rowspan = 2 | Category&nbsp;1
+| 90-124
+| 63-88
+| style="background-color: #0000CC;" | <span style="color: white;">Gale (8-9)</span>
+|-
+| colspan = 3 | Negligible house damage. Damage to some crops, trees and caravans. 
+|-
+| rowspan = 2 | Category&nbsp;2
+| 125-169
+| 89-117
+| style="background-color: #000066;" | <span style="color: white;">Storm (10-11)</span>
+|-
+| colspan = 3 | Minor house damage. Significant damage to signs, trees and caravans. Heavy damage to some crops. Risk of power failure. Small craft may break moorings.
+|-
+| rowspan = 2 | Category&nbsp;3
+| 170-224
+| 118-159
+| style="background-color: black;" | <span style="color: white;">Hurricane (12)</span> 
+|-
+| colspan = 3 | Some roof and structural damage. Some caravans destroyed. Power failures likely.
+|-
+| rowspan = 2 | Category&nbsp;4
+| 225-279
+| 160-199
+| style="background-color: black;" | <span style="color: white;">Hurricane (12)</span> 
+|-
+| colspan = 3 | Significant structural damage. Many caravans destroyed and blown away. Dangerous airborne debris. Widespread power failures. 
+|-
+| rowspan = 2 | Category&nbsp;5
+| ≥280
+| ≥200
+| style="background-color: black;" | <span style="color: white;">Hurricane (12)</span> 
+|-
+| colspan = 3 | Extremely dangerous with widespread destruction.
+|-
+|}
+The sustained winds given in the table are based on a 10-minute average.<ref name="BoM winds"/>
+
+Un cicló tropical és classificat d'acord amb els seus vents màxims usant diverses escales. Aquestes escales són proveïdes per diversos agents, incloent-hi l'Organització Meteorològica Mundial, el Centre Nacional d'Huracans, i la Agència de Meteorologia. 
+
+==Atlàntic i Pacífic Est==
+''Article principal: '''Escala Saffir-Simpson'''''
+
+L'huracans atlàntics i del pacífic est (fins a 140° W). Una tempesta ''Categoria 1'' te els màxims vents més baixos, i un huracà ''Categoria 5'' té els més alts. El rànquing no es basa en termes efectius. Tempestes de categoria baixa poden infringir més dany que tempestes de categoria alta, depenent de factors com el terreny local i la pluja total. Per exemple, un huracà Categoria 2 que passa per una regió urbana gran segurament causarà més dany que no pas un gran huracà Categoria 5 que passi per una regió rural. De fet, sistemes tropicals amb menys força que un huracà poden produir danys importants i víctimes humanes, per culpa sobretot d'inundacions i esllevissades.
+
+El Centre Nacional d'Huracans americà classifica huracans de Categoria 3 en amunt com a ''huracans majors''. El Joint Typhoon Warning Center, també nord-americà, classifica tifons amb vents de com a mínim 241&nbsp;km/h (67&nbsp;m/s, equivalent a una forta tempesta de Categoria 4) com a ''Super Tifons''.
+
+La definició de la categoria d'aquests, segons l'm. El servei meteorològic nord-americà defineix la categoria dels vents basant-se en la velocitat mitja en 1 minut a 10&nbsp;m de la superfície.
+
+== Pacífic Sud ==
+La Agència de Meteorologia australiana fa servir una escala anomenades categories de contundència de ciclons tropicals de l'1 al 5 A diferència de l'escala Saffir-Simpson, les categories de contundència es basen en la velocitat de les ràfegues de vent màxima estimada, que és un 30-40% més forta que les mitjanes de 10 minuts dels altres vents.<ref name="Vents BoM ">http://www.bom.gov.au/info/marine/marpamp.shtml</ref> Les categories de contundència són classificades més baixes que a l'escala Saffir-Simpson - per exemple, un cicló tropical de categoria de contundència 2 és d'una manera equivalent a una forta tempesta tropical o a un dèbil huracà de categoria Saffir-Simpson 1.

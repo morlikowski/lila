@@ -1,0 +1,213 @@
+right|thumb|Domótica: controlo automático de iluminação
+A '''Domótica''' é uma tecnologia recente que permite a gestão de todos os recursos habitacionais. O termo “Domótica” resulta da junção da palavra “Domus” (casa) com “Robótica” (controlo automatizado de algo). É este último elemento que rentabiliza o sistema, simplificando a vida diária das pessoas, satisfazendo as suas necessidades de comunicação, de conforto e segurança. Quando a domótica surgiu (com os primeiros edifícios, nos anos 80) pretendia-se controlar a iluminação, condições climáticas, a segurança e a interligação entre os 3 elementos.
+
+Nos nossos dias, a ideia base é a mesma, a diferença é o contexto para o qual o sistema está pensado: já não um contexto militar ou industrial, mas doméstico. Apesar de ainda ser pouco conhecida e divulgada, mas pelo conforto e comodidade que pode proporcionar, a domótica promete vir a ter muitos adeptos.
+
+Desta forma permite o uso de dispositivos para automatizar as rotinas e tarefas de uma casa. Normalmente são feitos controles de temperatura ambiente, iluminação e som, distinguindo dos controlos normais por ter uma central que comanda tudo, que as vezes é acoplada a um computador e/ou internet.
+
+O projeto de automação prevê todos os pontos de comunicação (Internet, telefone e TV), todos os pontos de áudio (som ambiente e home theater), todas as cargas que deverão ser controladas (luzes, cortinas, etc.), a posição de todos os quadros de controle, lógicos e de automação, a posição de todas as tomadas e da central de aspiração, entre muitos outros itens que são estabelecidos com base na pesquisa de interesses realizada com sua família antes da execução do projecto.
+
+==Aplicações da domótica==
+A domótica utiliza vários elementos, e uma forma sistémica. Vai aliar as vantagens dos meios electrónicos aos informáticos, de forma a obter uma utilização e uma gestão integrada dos diversos equipamentos de uma habitação. A Domótica vem tornar a vida mais confortável, mais segura e até mais divertida! Vem permitir que as tarefas mais rotineiras e aborrecidas sejam executadas automaticamente. No manuseamento do sistema poderá fazê-lo de acordo com as suas próprias necessidades. Poderá optar por um manuseamento mais ou menos automático. Nos sistemas passivos o elemento reage só quando lhe é transmitida uma ordem, dada directamente pelo utilizador (interruptor) ou por um comando (poderá ser uma ordem ou um conjunto de ordens -macros).
+
+Nos sistemas mais avançados, com mais inteligência, não só interpreta parâmetros, como reage às circunstâncias (informação que é transmitida pelos sensores), por exemplo detectar que uma janela está aberta e avisa o utilizador, ou que a temperatura está a diminuir e ligar o aquecimento.
+
+O controlo remoto de casas de habitação deixa de ser uma utopia. A domótica permite o acesso às funções vitais da casa, da Internet ou do seu telemóvel.
+
+=== Automação=== 
+Programar tarefas diárias (individuais ou em conjunto - macros) de uma forma automática: o que lhe permite reduzir o tempo gasto em rotinas e… até permitindo acordar um pouco mais tarde!
+
+*Irrigação inteligente
+Sistema de irrigação accionado de acordo com temporizadores que podem ser programados para regar as plantas duas vezes por dia, por exemplo, ou através de sensores de humidade instalados sob o solo que podem garantir que o solo estará sempre em um determinado nível de humidade e evitar que o sistema seja accionado se tiver chovido.
+
+*Aspiração central
+Através de uma central de aspiração instalada em um local específico (casa de máquinas, área de serviço, garagem) interligada a tomadas de aspiração espalhadas pela casa através de dutos, pode-se aspirar piso, carpete, tapetes, sofás e cortinas, contando com uma terminação da mangueira específica para cada finalidade.
+
+O sistema efectivamente purifica o ar porque o pó aspirado entra pela tubulação e é levado para fora do ambiente e da casa, através do exaustor do equipamento. Assim, ao contrário do sistema convencional, onde o ar aspirado, depois de passar pelo filtro, retorna ao ambiente, no sistema centralizado o pó é literalmente aspirado para fora da casa.
+
+Além disso, o sistema centralizado permite uma aspiração silenciosa, pois o motor está em outro ambiente, o que também evita a necessidade de arrastá-lo pela casa.
+
+'''Home automation''' (also called '''domotics''') is a field within multi-media home entertainment systems, automatic plant watering and pet feeding, automatic scenes for dinners and parties, and a more user-friendly control interface.
+
+When home automation is installed during construction of a new home, usually control wires are added before the interior walls are installed. These control wires run to a controller, which will then control the environment.
+
+== Standards and bridges==
+
+Specific domotic standards include X10, C-Bus, Universal powerline bus (UPB), powerline, some use radio frequency (RF) signals, and some use a combination of several methods.  Control wiring is hardest to retrofit into an existing house. Some appliances include X10 to European Installation Bus).
+
+{| class="wikitable" style  ="font-size:  smaller ; text-align : center ; width: auto;"
+|-
+!Technology
+!Transmission medium
+!Transmission speed
+!Maximum distance to the device
+|-
+| Ethernet
+| Unshielded twisted pair / FO
+| 100 Mbit/s – 1 Gbit/s
+| 100 m – 15Km
+|-
+| HomePlug
+| Electrical wiring
+| 14 Mbit/s
+|-
+| HomePNA
+| Telephone line
+| 10 Mbit/s
+| 300 m
+|-
+| Wi-Fi / IEEE 802.11
+| Radio frequency
+| 11 Mbit/s – 248 Mbit/s
+| 30 m – 100m
+|-
+|}
+
+{| class="wikitable" style  ="font-size:  smaller ; text-align : center ; width: auto;"
+|-
+!Technology
+!Transmission medium
+!Transmission speed
+!Maximum distance to the device
+|-
+| FireWire / IEEE 1394
+| Unshielded twisted pair / FO
+| 400 Mbit/s – 3.2 Gbit/s
+| 4.5 m – 70m
+|-
+| USB
+| Twisted pair
+| 12 Mbit/s – 480 Mbit/s
+| 5 m
+|-
+| Bluetooth
+| Radio frequency
+| 1 Mbit/s – 10 Mbit/s
+| 10 m – 100m
+|-
+| IRDA
+| Infrared
+| 9600 bit/s – 4 Mbit/s
+| 2 m
+|-
+|}
+
+{| class="wikitable" style  ="font-size:  smaller ; text-align : center ; width: auto;"
+|-
+!Technology
+!Transmission medium
+!Transmission speed
+!Maximum distance to the device
+|-
+| Konnex
+| Twisted pair / PL / Ethernet / Radio frequency
+| 1200 bit/s – 9600 bit/s
+| 4.5 m – 70m
+|-
+| LonWorks
+| Twisted pair / Electrical wiring / Radio frequency / Coaxial
+| 1.70 kbit/s – 1.28 Mbit/s
+| 1500 m – 2700m
+|-
+| X10
+| Electrical wiring
+| 50 bit/s – 60 bit/s
+|-
+| KNX
+| Twisted pair / Electrical wiring / Radio frequency / Infrared
+| 1200 bit/s – 9600 bit/s
+| 300 m – 1000m
+|-
+| EHS
+| Twisted pair / Electrical wiring
+| 2.4 kbit/s – 48 kbit/s
+|-
+| Batibus
+| Twisted pair
+| 4800 bit/s
+| 200 m – 1500m
+|-
+| Zigbee
+| Radio frequency
+| 20 kbit/s – 250 kbit/s
+| 10 m – 75m
+|-
+|}
+
+== Effects ==
+In extreme installations, rooms can sense not only the presence of a person but know who that person is and perhaps set appropriate lighting, temperature and music/TV taking into account day of week, time of day, and other factors.
+
+Other automated tasks may include setting the air conditioning to an energy saving setting when the house is unoccupied, and restoring the normal setting when an occupant is about to return. More sophisticated systems can maintain an inventory of products, recording their usage through an RFID tag, and prepare a shopping list or even automatically order replacements.
+
+Some practical implementations of home automation are for example when an alarm detects a fire or smoke condition, then all lights in the house will blink to alert occupants. If the house is equipped with a home theater, a home automation system can shut down all audio and video components to alert the user to a possible fire or a burglar.
+
+== System ==
+The elements of a domotics system are:
+* controllers
+* sensors
+* actuators
+
+=== Architecture ===
+
+From the point of view of where the intelligence of the domotic system resides, there are three different architectures:
+
+'''''Centralized Architecture:''''' a centralized controller receives information of multiple sensors and, once processed, generates the opportune orders for the actuators.
+
+'''''Distributed Architecture:''''' all the intelligence of the system is distributed by all the modules that are bus.
+
+'''''Mixed Architecture:''''' systems with decentralized architecture as far as which they have several small devices able to acquire and to process the information of multiple sensors and to transmit them to the rest of devices distributed by the house.
+
+=== Interconnection ===
+By wire:
+# xDSL
+# optical fiber
+# cable (coaxial and twisted pair)
+# powerline
+# Cresnet
+Wireless:
+# radio frequency, including:
+#: Wi-Fi
+#: GPRS and UMTS
+#: Bluetooth
+#: DECT
+#: ZigBee
+#: Z-Wave
+#: ONE-NET
+#: EnOcean
+# infrared
+#: Consumer IR
+Both
+# Insteon
+
+== Classifications of Domestic Net Technologies ==
+*Device interconnection:
+**FireWire
+**Bluetooth
+**USB
+**IrDA
+*Control and automation nets:
+**Konnex
+**Lonworks
+**X10
+**ONE-NET
+**EIB
+**EHS
+**BatiBUS
+**ZigBee
+*Data nets:
+**Ethernet
+**Homeplug
+**HomePNA
+**Wifi
+
+== Tasks ==
+=== HVAC ===
+Heating, Ventilation and Air Conditioning (HVAC) solutions include temperature and humidity control (climotics).
+
+This category also typically includes control of exhaust and ceiling fans.
+
+=== Lighting ===
+Lighting control systems involves aspects related to controlling electric lights.
+* Extinguished general of all the lights of the house
+* Automation of switched off / ignition in every point of light
+* Regulation of the illumination according to the level of ambient luminosity.

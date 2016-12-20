@@ -1,0 +1,180 @@
+'''Rozmaitość różniczkowa''' – funkcją klasy co najmniej <math>C^1</math> posiadającą nieosobliwą różniczkę w każdym punkcie dziedziny.
+
+==Definicja==
+Zbiór <math>M \subseteq \mathbb R^N</math> jest '''rozmaitością różniczkową''' (klasy <math>C^1</math>), gdy:
+* <math>\forall_{p \in M}</math> istnieje w <math>\mathbb R^N</math> otwarte otoczenie <math>U \in p</math> oraz zbiór otwarty <math>V \subseteq \mathbb R^N</math> i
+* homeomorfizm <math>\alpha: (U \cup M) \to V</math> taki, że
+* odwzorowanie <math>\alpha^{-1}: V \to U \cup M</math> jest klasy <math>C^1</math> i
+* iniekcją dla każdego <math>x \in V</math>.
+
+Funkcję <math>\alpha</math> nazywamy parametryzacją rozmaitości, zaś <math>\alpha^{-1}</math> jej mapą.
+
+Część autorów, w tym Andrzej Birkholc w swej "Analizie wielu zmiennych" homeomorfizm o powyższych własnościach nazywa '''uogólnionym dyfeomorfizmem''', czy też raczej po prostu '''dyfeomorfizmem''' rozszerzejąc w ten sposób jego definicję.
+
+A '''differentiable manifold''' is a type of continuously differentiable, ''k'' times differentiable, and holomorphic.
+
+Any manifold can be described by a collection of charts, also known as an atlas.  One may then apply ideas from calculus while working within the individual charts, since these lie in Euclidean spaces to which the usual rules of calculus apply.  
+
+right|frame|A nondifferentiable atlas of charts for the globe.  The sharp corners in the first chart are smooth curves in the other two.  However, problems can arise when passing from one chart to another.  Consider the image to the right.  In this context, the results of calculus are not compatible between charts.  Consider the Tropic of Cancer.  In the middle chart it is a smooth curve, whereas in the first it has a sharp corner.  The notion of a differentiable manifold refines that of a manifold by requiring the transitions &mdash; i.e., the function which changes the coordinate systems &mdash; between charts to be differentiable.
+
+More formally, a '''differentiable manifold''' is a composition on chart intersections in the atlas must be differentiable functions on Euclidean space.  In other words, where the domains of charts overlap, the coordinates defined by each chart are required to be differentiable with respect to the coordinates defined by every chart in the atlas.  The maps that relate the coordinates defined by the various charts to one another are called ''transition maps.''
+
+The ability to induce such a differential structure allows one to extend the definition of differentiability to spaces without global coordinate systems.  Specifically, a differentiable structure allows one to define globally differentiable tensor and vector fields.  Differentiable manifolds are very important in Yang-Mills theory.  It is possible to develop a calculus for differentiable manifolds.  This leads to such mathematical machinery as the exterior calculus.  The study of calculus on differentiable manifolds is known as differential geometry.
+
+== History == 
+
+The emergence of differential geometry as a distinct discipline is generally credited to Carl Friedrich Gauss and Bernhard Riemann.  Riemann first described manifolds in his famous habilitation lecture<ref>B. Riemann (1867).</ref> before the faculty at Göttingen. He motivated the idea of a manifold by an intuitive process of varying a given object in a new direction, and  presciently described the role of coordinate systems and charts in subsequent formal developments:
+: ''Having constructed the notion of a manifoldness of n dimensions, and found that its true character consists in the property that the determination of position in it may be reduced to n determinations of magnitude, ...''  - B. Riemann 
+
+The works of physicists such as covariance, which identifies an intrinsic geometric property as one that is invariant with respect to  atlas is due to Hassler Whitney.<ref>H. Whitney (1936).</ref>
+
+== Definition ==
+A '''topological manifold''' is a Hausdorff space which is locally homeomorphic to Euclidean space, by a collection (called an ''atlas'') of inverse of another chart is a function called a ''transition map'', and defines a homeomorphism of an open subset of Euclidean space onto another open subset of Euclidean space.  
+
+There are a number of different types of differentiable manifolds, depending on the precise differentiability requirements on the transition functions.  Some common examples include the following.
+
+* A '''differentiable manifold''' is a topological manifold equipped with an atlas whose transition maps are all differentiable.  More generally a ''C''<sup>k</sub>-manifold is a topological manifold with an atlas whose transition maps are all ''k''-times continuously differentiable.
+
+* A '''smooth manifold''' or C<sup>∞</sup>-manifold is a differentiable manifold for which all the transitions maps are smooth. That is derivatives of all orders exist; so it is a C<sup>''k''</sup>-manifold for all ''k''.
+
+* An '''analytic manifold''', or C<sup>ω</sup>-manifold is a smooth manifold with the additional condition that each transition map is analytic: the Taylor expansion is absolutely convergent on some open ball.
+
+* A '''complex manifold''' is a topological space modeled on a Euclidean space over the complex field and for which all the transition maps are holomorphic.
+
+These definitions, however, leave out an important feature.  They each still involve a preferred choice of atlas.  Given a differentiable manifold (in any of the above senses), there is a notion of when two atlases are ''equivalent''.  Then, strictly speaking, a differentiable manifold is an equivalence class of such atlases.  (See below.)
+
+=== Atlases ===
+An atlas on a topological space ''X'' is a collection of pairs {(''U''<sub>α</sub>,φ<sub>α</sub>)} called ''charts'', where the ''U''<sub>α</sub> are open sets which cover ''X'', and for each index α
+:<math>\phi_\alpha : U_\alpha \to {\mathbf R}^n</math>
+is a homeomorphism of ''U''<sub>α</sub> onto an open subset of ''n''-dimensional Euclidean space.  The '''transition maps''' of the atlas are the functions
+:<math>\phi_{\alpha\beta} = \phi_\alpha\circ\phi_\beta^{-1}|_{\phi_\beta(U_\alpha\cap U_\beta)} : \phi_\beta(U_\alpha\cap U_\beta) \to \phi_\alpha(U_\alpha\cap U_\beta).</math>
+
+Every topological manifold has an atlas. A C<sup>''k''</sup>-atlas is an atlas for which all transition maps are C<sup>''k''</sup>. A topological manifold has a C<sup>0</sup>-atlas and generally a C<sup>''k''</sup>-manifold has a C<sup>''k''</sup>-atlas. A continuous atlas is a C<sup>0</sup> atlas, a smooth atlas is a C<sup>∞</sup> atlas and an analytic atlas is a C<sup>ω</sup> atlas. If the atlas is at least C<sup>1</sup>, it is also called a ''differentiable structure''.  An ''holomorphic atlas'' is an atlas whose underlying Euclidean space is defined on the complex field and whose transition maps are biholomorphic.
+
+=== Compatible atlases ===
+Different atlases can give rise to essentially the same manifold. The circle can be mapped by two coordinate charts, but if the domains of these charts are changed slightly a different atlas for the same manifold is obtained. These different atlases can be combined into a bigger atlas. It can happen that the transition maps of such a combined atlas are not as smooth as those of the constituent atlases. If C<sup>''k''</sup> atlases can be combined to form a C<sup>''k''</sup> atlas, then they are called compatible. Compatibility of atlases is an equivalence relation; by combining all the atlases in an equivalence class, a '''maximal atlas''' can be constructed. Each C<sup>''k''</sup> atlas belongs to a unique maximal C<sup>''k''</sup> atlas.
+
+==Alternative definitions==
+=== Pseudogroups ===
+The notion of a pseudogroup<ref>Kobayashi and Nomizu (1963), Volume 1.</ref> provides a flexible generalization of atlases in order to allow a variety of different structures to be defined on manifolds in a uniform way.  A ''pseudogroup'' consists of a topological space ''S'' and a collection Γ consisting of homeomorphisms from open subsets of ''S'' to other open subsets of ''S'' such that
+# If ''f'' ∈ Γ, and ''U'' is an open subset of the domain of ''f'', then the restriction ''f''|<sub>''U''</sub> is also in Γ.
+# If ''f'' is a homeomorphism from a union of open subsets of ''S'', ∪<sub>i</sub> ''U''<sub>i</sub>, to an open subset of ''S'', then ''f'' ∈ Γ provided ''f''|<sub>U<sub>i</sub></sub> ∈ Γ for every ''i''.
+# For every open ''U'' ⊂ ''S'', the identity transformation of ''U'' is in Γ.
+# If ''f'' ∈ Γ, then ''f''<sup>-1</sup> ∈ Γ.
+# The composition of two elements of Γ is in Γ.
+These last three conditions are analogous to the definition of a group.  Note that Γ need not be a group, however, since the functions are not globally defined on ''S''.  For example, the collection of all local ''C''<sup>k</sup> diffeomorphisms on '''R'''<sup>n</sup> form a pseudogroup.  All biholomorphisms between open sets in '''C'''<sup>n</sup> form a pseudogroup.  More examples include: orientation preserving maps of '''R'''<sup>n</sup>, symplectomorphisms, Moebius transformations, affine transformations, and so on.  Thus a wide variety of function classes determine pseudogroups.
+
+An atlas (''U''<sub>i</sub>, φ<sub>i</sub>) of homeomorphisms φ<sub>i</sub> from ''U''<sub>i</sub> ⊂ ''M'' to open subsets of a topological space ''S'' is said to be ''compatible'' with a pseudogroup Γ provided that the transition functions φ<sub>j</sub> o φ<sub>i</sub><sup>-1</sup> : φ<sub>i</sub>(U<sub>i</sub> ∩ U<sub>j</sub>) → φ<sub>j</sub>(U<sub>i</sub> ∩ U<sub>j</sub>) are all in Γ.
+
+A differentiable manifold is then an atlas compatible with the pseudogroup of ''C''<sup>k</sup> functions on '''R'''<sup>n</sup>.  A complex manifold is an atlas compatible with the biholomorphic functions on open sets in '''C'''<sup>n</sup>.  And so forth.  Thus pseudogroups provide a single framework in which to describe many structures on manifolds of importance to differential geometry and topology.
+
+=== Structure sheaf ===
+Sometimes it can be useful to use an alternate approach to endow a manifold with a ''C''<sup>k</sup>-structure.  Here ''k'' = 1, 2, ..., ∞, or ω for real analytic manifolds.  Instead of considering coordinate charts, it is possible to start with functions defined on the manifold itself.  The structure sheaf of ''M'', denoted '''C'''<sup>k</sup>, is a sort of <sub>''U''</sub> is the [[pullback of the sheaf of ''k''-times continuously differentiable functions on '''R'''<sup>n</sup>.<ref>This definition can be found in MacLane and Moerdijk (1992).  For an equivalent, ''ad hoc'' definition, see Sternberg (1964) Chapter II.</ref>
+
+In particular, this latter condition means that any function ''h'' in '''C'''<sup>k</sup>(''V''), for ''V'', can be written uniquely as ''h''(''x'') = ''H''(''x''<sup>1</sup>(''x''),...,''x''<sup>n</sup>(''x'')), where ''H'' is a ''k''-times differentiable function on ''f''(''V'') (an open set in '''R'''<sup>n</sup>).  Thus, intuitively, the sheaf-theoretic viewpoint is that the functions on a differentiable manifold can be expressed in local coordinates as differentiable functions on '''R'''<sup>n</sup>, and ''a fortiori'' this is sufficient to characterize the differentiable structure on the manifold.
+
+==== Sheaves of local rings ====
+A similar, but more technical, approach to defining differentiable manifolds can be formulated using the notion of a schemes in germs of differentiable functions. It is especially popular in the context of ''complex'' manifolds.
+
+We begin by describing the basic structure sheaf on '''R'''<sup>n</sup>.  If ''U'' is an open set in '''R'''<sup>n</sup>, let
+:'''O'''(''U'') = ''C''<sup>k</sup>(''U'','''R''')
+consist of all real-valued ''k''-times continuously differentiable functions on ''U''.  As ''U'' varies, this determines a sheaf of rings on '''R'''<sup>n</sup>.  The stalk '''O'''<sub>p</sub> for ''p'' ∈ '''R'''<sup>n</sup> consists of germs of functions near ''p'', and is an algebra over '''R'''.  In particular, this is a local ring whose unique maximal ideal consists of those functions which vanish at ''p''.  The pair ('''R'''<sup>n</sup>, '''O''') is an example of a locally ringed space: it is a topological space equipped with a sheaf whose stalks are each local rings.
+
+A differentiable manifold (of class ''C''<sup>k</sup>) consists of a pair (''M'', '''O'''<sub>M</sub>) where ''M'' is a topological space, and '''O'''<sub>M</sub> is a sheaf of local '''R'''-algebras defined on ''M'', such that the locally ringed space (''M'','''O'''<sub>M</sub>) is locally isomorphic to ('''R'''<sup>n</sup>, '''O''').  In this way, differentiable manifolds can be thought of as schemes modelled on '''R'''<sup>n</sup>.  This means that,<ref>Hartshorne (1997)</ref> for each point ''p'' ∈ ''M'', there is a neighborhood ''U'' of ''p'', and a pair of functions (''f'',''f''<sup>#</sup>) where
+# ''f'' : ''U'' → ''f''(''U'') ⊂ '''R'''<sup>n</sup> is a homeomorphism onto an open set in '''R'''<sup>n</sup>.
+# ''f''<sup>#</sup> : '''O'''|<sub>''f''(''U'')</sub> → ''f''<sub>*</sub> ('''O'''<sub>M</sub>|<sub>''U''</sub>) is an isomorphism of sheaves.
+# The localization of ''f''<sup>#</sup> is an isomorphism of local rings
+:: ''f''<sup>#</sup><sub>p</sub> : '''O'''<sub>''f''(''p'')</sub> → '''O'''<sub>''M'', ''p''</sub>.
+
+There are a number of important motivations for studying differentiable manifolds within this abstract framework.  First, there is no ''a priori'' reason that the model space needs to be '''R'''<sup>n</sup>.  For example (particularly in algebraic geometry), one could take this to be the space of complex numbers '''C'''<sup>n</sup> equipped with the sheaf of holomorphic functions (thus arriving at the spaces of complex analytic geometry), or the sheaf of polynomials (thus arriving at the spaces of interest in complex ''algebraic'' geometry).  More generally, this concept can be adapted for any suitable notion of a scheme (see topos theory).  Secondly, coordinates are no longer explicitly necessary to the construction.  The analog of a coordinate system is the pair (''f'', ''f''<sup>#</sup>), but these merely quantify the idea of ''local isomorphism'' rather than being central to the discussion (as in the case of charts and atlases).  Thirdly, the sheaf '''O'''<sub>M</sub> is not manifestly a sheaf of functions at all.  Rather, it emerges as a sheaf of functions as a ''consequence'' of the construction (via the quotients of local rings by their maximal ideals).  Hence it is a more primitive definition of the structure (see synthetic differential geometry).
+
+A final advantage of this approach is that it allows for natural direct descriptions of many of the fundamental objects of study to differential geometry and topology.  
+* The cotangent space at a point is I<sub>p</sub>/I<sub>p</sub><sup>2</sup>, where I<sub>p</sub> is the maximal ideal of the stalk '''O'''<sub>M,p</sub>.
+* More generally, the entire cotangent bundle can be obtained by a related technique (see cotangent bundle for details).
+* jets) can be approached in a coordinate-independent manner using the ''I''<sub>p</sub>-adic filtration on ''O''<sub>M,p</sub>.
+* The tangent bundle (or more precisely its sheaf of sections) can be identified with the sheaf of morphisms of '''O'''<sub>M</sub> into the ring of dual numbers.
+
+== Differentiable functions ==
+A real valued function ''f'' on an ''m''-dimensional differentiable manifold ''M'' is called '''differentiable''' at a point ''p'' ∈ ''M'' if it is differentiable in any coordinate chart defined around ''p''.  More precisely, if (''U'', φ) is a chart where ''U'' in an open set in ''M'' containing ''p'' and φ : ''U'' → '''R'''<sup>n</sup> is the map defining the chart, then ''f'' is differentiable if
+:<math>f\circ \phi^{-1} : \phi(U)\subset {\mathbf R}^n \to {\mathbf R}</math>
+is differentiable at φ(''p'').  Ostensibly, the definition of differentiability depends on the choice of chart at ''p''; in general there will be many available charts.  However, it follows from  the chain rule applied to the transition functions between one chart and another that if ''f'' is differentiable in any particular chart at ''p'', then it is differentiable in all charts at ''p''.  Analogous considerations apply to defining ''C''<sup>k</sup> functions, smooth functions, and analytic functions.
+
+===Differentiation of functions===
+There are various ways to define the affine structure with which to define vectors.  The directional derivative therefore looks at curves in the manifold instead of vectors.
+
+====Directional differentiation====
+
+Given a real valued function ''f'' on an ''m'' dimensional differentiable manifold ''M'', the directional derivative of ''f'' at a point ''p'' in ''M'' is defined as follows.  Suppose that γ(''t'') is a curve in ''M'' with γ(0) = ''p'', which is ''differentiable'' in the sense that its composition with any chart is a differentiable curve in '''R'''<sup>m</sup>.  Then the '''directional derivative''' of ''f'' at ''p'' along γ is
+:<math>\left.\frac{d}{dt}f(\gamma(t))\right|_{t=0}.</math>
+
+If γ<sub>1</sub> and γ<sub>2</sub> are two curves such that γ<sub>1</sub>(0) = γ<sub>2</sub>(0) = ''p'', and in any coordinate chart φ,
+:<math>\left.\frac{d}{dt}\phi\circ\gamma_1(t)\right|_{t=0}=\left.\frac{d}{dt}\phi\circ\gamma_2(t)\right|_{t=0}</math>
+then, by the chain rule, ''f'' has the same directional derivative at ''p'' along γ<sub>1</sub> as along γ<sub>2</sub>.  Intuitively, this means that the directional derivative depends only on the tangent vector of the curve at ''p''.  Thus the more abstract definition of directional differentiation adapted to the case of differentiable manifolds ultimately captures the intuitive features of directional differentiation in an affine space.
+
+====Tangent vectors and the differential====
+A '''tangent vector''' at ''p'' ∈ ''M'' is an contact between the curves.  Explicitly,
+
+:<math>
+
+\gamma_1\equiv \gamma_2 \iff
+
+\left\{ \begin{array}{l}
+
+\gamma_1(0)=\gamma_2(0)=p, \text{ and }\\
+\left.\frac{d}{dt}\phi\circ\gamma_1(t)\right|_{t=0} = \left.\frac{d}{dt}\phi\circ\gamma_2(t)\right|_{t=0}
+
+\end{array}
+
+\right.
+
+</math>
+in any (and hence all) coordinate charts φ.  Intuitively, the equivalence classes are curves through ''p'' with a prescribed velocity vector at ''p''.  The collection of all tangent vectors at ''p'' forms a vector space: the tangent space to ''M'' at ''p'', denoted T<sub>p</sub>''M''.
+
+If ''X'' is a tangent vector at ''p'' and ''f'' a differentiable function defined near ''p'', then differentiating ''f'' along any curve in the equivalence class defining ''X'' gives a well-defined directional derivative along ''X'':
+:<math>Xf(p) := \left.\frac{d}{dt}f(\gamma(t))\right|_{t=0}.</math>
+Once again, the chain rule establishes that this is independent of the freedom in selecting γ from the equivalence class, since any curve with the same first order contact will yield the same directional derivative.
+
+If the function ''f'' is fixed, then the mapping
+:<math>X\mapsto Xf(p)</math>
+is a linear functional on the tangent space.  This linear functional is often denoted by ''df''(''p'') and is called the '''differential''' of ''f'' at ''p'':
+:<math>df(p) : T_pM \to {\mathbb R}.</math>
+
+===Partitions of unity===
+One of the topological features of the sheaf of differentiable functions on a differentiable manifold is that it admits partitions of unity.  This distinguishes the differentiable structure on a manifold from stronger structures (such as analytic and holomorphic structures) which generally fail to have partitions of unity.
+
+Suppose that ''M'' is a manifold of class ''C''<sup>k</sup>, where 0 ≤ ''k'' ≤ ∞.  Let {''U''<sub>α</sub>} be an open covering of ''M''.  Then a '''partition of unity''' subordinate to the cover {''U''<sub>α</sub> }is a collection of real-valued ''C''<sup>k</sup> functions φ<sub>i</sub> on ''M'' satisfying the following conditions
+* The supports of the φ<sub>i</sub> are compact and locally finite.
+* The support of φ<sub>i</sub> is completely contained in ''U''<sub>α</sub> for some α.
+* The φ<sub>i</sub> sum to one at each point of ''M'': 
+::<math>\sum_i \phi_i(x) = 1.\,</math>
+(Note that this last condition is actually a finite sum at each point because of the local finiteness of the supports of the φ<sub>i</sub>.)
+
+Every open covering of a ''C''<sup>k</sup> manifold ''M'' has a ''C''<sup>k</sup> partition of unity.  This allows for certain constructions from the topology of ''C''<sup>k</sup> functions on '''R'''<sup>n</sup> to be carried over to the category of differentiable manifolds.  In particular, it is possible to discuss integration by choosing a partition of unity subordinate to a particular coordinate atlas, and carrying out the integration in each chart of '''R'''<sup>n</sup>.  Partitions of unity therefore allow for certain other kinds of L<sup>p</sup> spaces, Sobolev spaces, and other kinds of spaces that require integration.
+
+===Differentiability of mappings between manifolds===
+
+Suppose ''M'' and ''N'' are two differentiable manifolds with dimensions ''m'' and ''n'' respectively, and ''f'' is a function from ''M'' to ''N''. Since differentiable manifolds are topological spaces we know what it means for ''f'' to be continuous. But what does "''f'' is C<sup>''k''</sup>(''M'', ''N'')" mean for ''k''≥1? We know what that means when ''f'' is a function between Euclidean spaces, so if we compose ''f'' with a chart of ''M'' and a chart of ''N'' such that we get a map which goes from Euclidean space to ''M'' to ''N'' to Euclidean space we know what it means for that map to be C<sup>''k''</sup>('''R'''<sup>''m''</sup>, '''R'''<sup>''n''</sup>). We define "''f'' is C<sup>''k''</sup>(''M'', ''N'')" to mean that all such compositions of ''f'' with charts are C<sup>''k''</sup>('''R'''<sup>''m''</sup>, '''R'''<sup>''n''</sup>). Once again the chain rule guarantees that the idea of differentiability does not depend on which charts of the atlases on ''M'' and ''N'' are selected.  However, defining the derivative itself is more subtle.  If ''M'' or ''N'' is itself already a Euclidean space, then we don't need a chart to map it to one.
+
+=== Algebra of scalars ===
+For a C<sup>''k''</sup> manifold ''M'', the algebra under pointwise addition and multiplication, called the ''algebra of scalar fields'' or simply the ''algebra of scalars''. This algebra has the constant function 1 as unit.
+
+It is possible to reconstruct a manifold from its algebra of scalars.  In fact, there is a one-to-one correspondence between the points of ''M'' and the algebra homomorphisms φ : ''C''<sup>k</sup>(''M'') → '''R'''.  For suppose that φ is such a homomorphism.  Then the kernel of φ is a codimension one ideal in ''C''<sub>k</sup>(''M''), which is necessarily a maximal ideal.  Every maximal ideal in this algebra is an ideal of functions vanishing at a single point.
+
+==Bundles==
+===Tangent bundle===
+
+The tangent vectors live, and is itself a differentiable manifold.  The jets from '''R''' (the real line) to ''M''.
+
+One may construct an atlas for the tangent bundle consisting of charts based on ''U<sub>α</sub>'' &times; '''R'''<sup>''n''</sup>, where ''U<sub>α</sub>'' denotes one of the charts in the atlas for ''M''. Each of these new charts is the tangent bundle for the charts ''U<sub>α</sub>''. The transition maps on this atlas are defined from the transition maps on the original manifold, and retain the original differentiability class.
+
+===Cotangent bundle===
+
+The dual space of a vector space is the set of real valued linear functions on the vector space.  In particular, if the vector space is finite and has an inner product then the linear functionals can be realized by the functions ''f<sub>v</sub>(w) = <v, w>''.
+
+The cotangent bundle is the dual tangent bundle in the sense that at each point, the Hamiltonian is a scalar on the cotangent bundle. The jets of functions from ''M'' to '''R'''.
+
+Elements of the cotangent space can be thought of as infinitesimal displacements: if ''f'' is a differentiable function we can define at each point ''p'' a cotangent vector ''df''<sub>p</sub> which sends a tangent vector ''X''<sub>p</sub> to the derivative of ''f'' associated with ''X''<sub>p</sub>. However, not every covector field can be expressed this way.
+
+===Tensor bundle===
+
+The tensor bundle is the direct sum of all tensor products of the tangent bundle and the cotangent bundle. Each element of the bundle is a tensor field, which can act as a multilinear operator on vector fields, or on other tensor fields.

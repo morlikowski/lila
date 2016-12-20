@@ -1,0 +1,70 @@
+'''Mohr-Coulomb theory''' is a stress as well as normal stress. Most of the classical engineering materials somehow follow this rule in at least a portion of their shear failure envelope.
+
+In geology it is used to define shear strength of soils at different effective stresses. 
+
+In Coulomb's friction hypothesis is used to determine the combination of shear and normal stress that will cause a fracture of the material. Mohr's circle is used to determine which principal stresses that will produce this combination of shear and normal stress, and the angle of the plane in which this will occur. According to the principle of normality the stress introduced at failure will be perpendicular to the line describing the fracture condition. 
+
+It can be shown that a material failing according to Coulomb's friction hypothesis will show the displacement introduced at failure forming an angle to the line of fracture equal to the angle of friction. This makes the strength of the material determinable by comparing the external mechanical work introduced by the displacement and the external load with the internal mechanical work introduced by the strain and stress at the line of failure. By conservation of energy the sum of these must be zero and this will make it possible to calculate the failure load of the construction. 
+
+A common improvement of this model is to combine Coulomb's friction hypothesis with Rankine's principal stress hypothesis to describe a separation fracture.
+
+== Mohr-Coulomb failure criterion ==
+300px|right|thumb|Figure 1: View of Mohr-Coulomb failure surface in 3D space of principal stresses for <math>c=2, \phi=-20^\circ</math>
+The Mohr-Coulomb <ref>Coulomb, C. A. (1776). <i>Essai sur une application des regles des maximis et minimis a quelquels problemesde statique relatifs, a la architecture.</i> Mem. Acad. Roy. Div. Sav., vol. 7, pp. 343–387. </ref> failure criterion represents the linear envelope that is obtained from a plot of the shear strength of a material versus the applied normal stress.  This relation is expressed as
+:<math>
+  \tau = \sigma~\tan(\phi) + c
+ </math>
+where <math>\tau</math> is the shear strength, <math>\sigma</math> is the normal stress, <math>c</math> is the intercept of the failure envelope with the <math>\tau</math> axis, and <math>\phi</math> is the slope of the failure envelope.  The quantity <math>c</math> is often called the '''cohesion''' and the angle <math>\phi</math> is called the ''' angle of internal friction '''.  Compression is assumed to be positive in the following discussion.  If compression is assumed to be negative then <math>\sigma</math> should be replaced with <math>-\sigma</math>.
+
+If <math>\phi = 0</math>, the Mohr-Coulomb criterion reduces to the Tresca criterion.  On the other hand, if <math>\phi = 90^\circ</math> the Mohr-Coulomb model is equivalent to the Rankine model.  Higher values of <math>\phi</math> are not allowed. 
+
+From Mohr's circle we have
+:<math>
+   \sigma = \sigma_m - \tau_m \sin\phi ~;~~ \tau = \tau_m \cos\phi
+ </math>
+where
+:<math>
+   \tau_m = \cfrac{\sigma_1-\sigma_3}{2} ~;~~  \sigma_m = \cfrac{\sigma_1+\sigma_3}{2} 
+ </math>
+and <math>\sigma_1</math> is the maximum principal stress and <math>\sigma_3</math> is the minimum principal stress.
+
+Therefore the Mohr-Coulomb criterion may also be expressed as
+:<math>
+  \tau_m = \sigma_m \sin\phi + c \cos\phi ~.
+ </math>
+
+This form of the Mohr-Coulomb criterion is applicable to failure on a plane that is parallel to the <math>\sigma_2</math> direction.
+
+=== Mohr-Coulomb failure criterion in three dimensions ===
+The Mohr-Coulomb criterion in three dimensions is often expressed as
+:<math>
+\left\{\begin{align}
+  \pm\cfrac{\sigma_1 - \sigma_2}{2} & = \left[\cfrac{\sigma_1 + \sigma_2}{2}\right]\sin(\phi) + c\cos(\phi) \\
+  \pm\cfrac{\sigma_2 - \sigma_3}{2} & = \left[\cfrac{\sigma_2 + \sigma_3}{2}\right]\sin(\phi) + c\cos(\phi)\\
+  \pm\cfrac{\sigma_3 - \sigma_1}{2} & = \left[\cfrac{\sigma_3 + \sigma_1}{2}\right]\sin(\phi) + c\cos(\phi)
+\end{align}\right.
+</math>
+The Mohr-Coulomb failure surface is a cone with a hexagonal cross section in deviatoric stress space.
+
+thumb|right||200px|De theorie
+De '''wet van Mohr-Coulomb''' of het '''Mohr-Coulombcriterium''' is een natuurkundig verband, dat aangeeft onder welke grond- en gesteentemechanica wordt de wet gebruikt voor sterkteberekeningen van materialen, gesteenten of de bodem. 
+
+De wet is genoemd naar Otto Mohr en Charles-Augustin de Coulomb.
+
+==Weergave in formules==
+De wet van Mohr-Coulomb luidt:
+
+:<math>\! \tau = S _0 + \sigma _n tan( \theta )</math>
+
+Hierin zijn
+:'''τ''':  kritische Pa (= N/m<sup>2</sup>)
+:'''S<sub>0</sub>''':  Pa
+:'''σ<sub>n</sub>''':  Pa
+:'''&theta;''':  hoek van inwendige wrijving (wrijvingshoek).
+De interpretatie is dat wanneer op een bepaald vlak de schuifspanning kleiner is dan de kritieke waarde τ, dat dan de vervormingen begrensd zijn (verwaarloosbaar). Als de schuifspanning op een bepaald vlak de kritieke waarde bereikt, zijn de vervormingen onbegrensd en kan er bezwijking optreden (bijvoorbeeld afschuiving van een dijk).
+
+De tangent van de interne wrijvingshoek (<math>tan \theta</math>) wordt de interne wrijvingscoëfficiënt genoemd en in formules geschreven als <math>\mu</math>:
+
+<math>\! \mu = tan \theta</math>
+
+Als men met gesteenten of bodems werkt, is een belangrijke factor de hydraulische druk of poriëndruk. Dit is de druk in de poriënvloeistof, die in alle richtingen een gelijke spanning geeft. Als de poriën van een materiaal gedeeltelijk met lucht gevuld zijn is er sprake van zuiging, een negatieve hydraulische druk. Als alle poriënruimtes gevuld zijn (de poriën zijn dan "verzadigd") kan de hydraulische druk variëren. Een speciale toestand is wanneer de hydraulische druk groter wordt dan de cohesie van het gesteente, in dat geval zal hydrofractie plaatsvinden: het gesteente breekt.

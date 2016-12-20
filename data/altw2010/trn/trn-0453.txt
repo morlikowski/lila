@@ -1,0 +1,109 @@
+{{infobox Franse gemeente| <!--Caumont (Tarn-et-Garonne)-->
+|plaatsnaam= Caumont
+|wapen= 
+|kaart= 
+|regio= Midi-Pyrénées 
+|departement= Tarn-et-Garonne (82)
+|arrondissement= Castelsarrasin
+|kanton= Saint-Nicolas-de-la-Grave
+|jaar= 2005
+|inwoners= 302
+|dichtheid= 19,6
+|oppervlakte= 15,4
+|water= 
+|latitudeGraden= 44 |latitudeMinuten= 1|latitudeSeconden= 0
+|longitudeGraden= 1 |longitudeMinuten= 0 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 128 |kaartY= 232
+|code= 82035
+|postcode= 82210
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Caumont''' is een gemeente in het Franse departement Castelsarrasin.
+
+==Geografie==
+De oppervlakte van Caumont bedraagt 15,4 km², de bevolkingsdichtheid is 19,6 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:480 color:gray1 width:1       
+  from:start till:end             
+  bar:320 color:gray1              
+  from:start till:end            
+  bar:160 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,141)(84,137) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 342 1968: 329
+  points:(84,137)(100,125)    color:blue    width:2 #1975: 296
+  points:(100,125)(128,133)   color:blue    width:2 #1982: 318
+  points:(128,133)(160,113)   color:blue    width:2 #1990: 262
+  points:(160,113)(196,113)   color:blue    width:2 #1999: 263
+  points:(196,113)(228,127)     color:blue    width:2 #2004/5 
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+{{Infobox Commune de France|nomcommune=Caumont
+|région=Midi-Pyrénées
+|département=Tarn-et-Garonne
+|arrondissement=Castelsarrasin
+|canton=Saint-Nicolas-de-la-Grave
+|insee=82035
+|cp=82210
+|maire=Claude Lafourcade
+|mandat=2001-2008
+|intercomm=Communauté de communes Sère - Garonne - Gimone
+|longitude=1.00194444444
+|latitude=44.02
+|alt moy=157 m
+|alt mini=77 m
+|alt maxi=164 m
+|hectares=1522
+|km²=15,22
+|sans=263
+|date-sans=1999
+|dens=17|}}
+'''Caumont''' est une commune française, située dans le département de région Midi-Pyrénées.
+
+Ses habitants sont appelés les ''Caumontois''.
+
+== Géographie ==
+==Histoire==
+== Administration ==
+
+== Démographie ==
+{{Démographie|
+1962= 316|
+1968= 329|
+1975= 296|
+1982= 318|
+1990= 262|
+1999= 263|
+sansdoublescomptes= 1962|source=INSEE<ref>[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=82035&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Caumont sur le site de l'Insee]</ref>}}
+
+== Lieux et monuments ==
+==Personnalités liées à la commune==
+== Voir aussi ==
+* Communes de Tarn-et-Garonne

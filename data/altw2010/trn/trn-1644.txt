@@ -1,0 +1,122 @@
+'''Reteアルゴリズム'''とは、参考文献参照）。数々のSoar、[http://lisa.sourceforge.net/ LISA]、[http://www.microsoft.com/technet/prodtechnol/biztalk/biztalk2004/planning/business-rules-framework-overview.mspx Microsoft BizTalk Server におけるビジネスルールエンジン]、[http://www.tibco.com/software/complex_event_processing/businessevents/default.jsp TIBCO BusinessEvents] などがある。Rete とは、ラテン語の 'rete'（網、ネットワーク）が語源である。
+
+素朴なエキスパートシステムの実装では、知識ベース内の既知の事実と規則（ルール）群を順次照合し、適合するルールを実行していく。ルール群や知識ベースがそれほど大きくなくても、この素朴な方法では性能は期待できない。
+
+Reteアルゴリズムはより効率的なエキスパートシステムを実装する基盤を提供する。Reteに基づいたエキスパートシステムでは、ルールやデータの依存関係がノードのネットワークから構成される内部表現に置き換えられる。各ノードはルート（根）となるノード以外はルールの左辺部（Left Hand Side、LHS）に現われるパターンに対応している。ルートノードから末端ノードまでの経路が1つのルールの左辺全体を表す。各ノードにはそのパターンに適合した事実が記憶される。この構造は基本的にトライ木の応用である。
+
+新たな事実が表明されたり、事実が更新さると、それがネットワーク上を伝播していき、あるノードでパターンマッチする。1つまたは複数の事実によってルールの左辺のパターン全てにマッチした場合、その規則を表す経路の末端ノードに到達し、そのルールの右辺部（Right Hand Side、RHS）が起動される。
+
+Reteアルゴリズムは高速化のためにメモリを消費する設計となっている。Reteの性能は理論的にはシステム内のルール数に依存し、非常に大規模なエキスパートシステムではReteアルゴリズムによるメモリ枯渇問題が発生しやすい。これを解決すべく、Reteアルゴリズムの改良版や他のアルゴリズムが考案されてきた。
+
+== 概要 ==
+Reteアルゴリズムは、プロダクションシステムでのデータタプル（事実）とプロダクション（ルール）のパターンマッチ機能の実装を論理的に一般化したものである。プロダクションは1つ以上の条件とそれら条件に適合する事実群が揃ったときに実行されるアクション群で構成される。条件群は事実の属性（型指定や識別子など）に関するものである。Reteアルゴリズムには次のような特徴がある:
+
+* ノード共有によってある程度の冗長性を排除する。
+* 異なる型の事実群の結合について、部分的なマッチングを保持する。つまり、プロダクションシステムのワーキングメモリに何らかの変化があったとき、全事実を再度評価しなおす必要がなく、変化した部分だけを再評価する。
+* ワーキングメモリ上からある事実が排除された場合、関連するメモリ内容を効率的に消去できる。
+
+Reteアルゴリズムは、前向き連鎖型のパターンマッチ・エンジン（推論エンジン）の実装方式として広く使われている。
+
+Rete でのルール群は概念的には有向非輪状グラフとなっている。ルール群はメモリ上に格納されたネットワークで表現されるのが一般的である。このネットワークがルールの条件（パターン）と事実（データタプル）のパターンマッチを行う。Reteネットワークは一種のクエリプロセッサのように働き、関係代数の「射影」、「選択」、「結合」などの操作をデータタプルに対して必要に応じて行う。
+
+プロダクション（ルール）は、アナリストやソフトウェア開発者が高レベルなルール記述言語を使って作成する。それをルール群として集め、（多くの場合実行時に）変換して使用する。
+
+事実がワーキングメモリ上に「表明」されると、エンジンは「'''ワーキングメモリ・エレメント'''」('''WME''')を各事実に対応させて生成する。事実はタプルであり、その中に任意個のデータが含まれている。各 WME はそのタプル全体を格納するか、WME が格納できるタプルのサイズが固定の場合、タプルを複数の WME 群で表現する。後者の場合、タプルはトリプレット（3-タプル）であることが多い。
+
+各 WME はReteネットワークの唯一のルートノードから投入される。ルートノードは WME を子ノードに渡していき、さらにその WME がネットワーク上を転送されていく。
+
+== アルファネットワーク ==
+Reteネットワークの左半分を'''アルファネットワーク'''と呼び、これが識別ネットワークとして機能する。WME の属性と定数値とのパターンマッチを行う単純な選択機能を提供する。また、1つの WME 内の 2つ以上の属性を相互に比較するといった機能もある。ノードが表している条件群にマッチした WME を次のノードに渡していく。多くの実装では、ルートノードの直接の子ノードは WME の実体識別子や事実型を調べる。従って、同じ実体型の WME はアルファネットワーク上の同じ経路を通っていくことになる。
+
+識別ネットワークでは、'''アルファノード'''（1入力ノード）群の連なりの最後に'''アルファメモリ'''と呼ばれるメモリがある。このメモリは、その経路の条件にマッチした WME群を格納する。条件群のうち1つでもマッチしなかった WME はアルファメモリには格納されない。アルファネットワークは条件の冗長性をなるべく無くすように分岐してネットワークを形成している。
+
+識別ネットワークの中間ノードに追加のメモリが用意されている場合もある。これは性能低下の要因にもなるが、Reteアルゴリズムに動的にルールを追加/削除する場合に役立ち、識別ネットワークのトポロジーを動的に変化させるのに使われる。
+
+別の実装方式が [http://reports-archive.adm.cs.cmu.edu/anon/1995/CMU-CS-95-113.pdf Doorenbos] で説明されている。この場合、識別ネットワークは一群のメモリとインデックスによって代替されている。インデックスはハッシュテーブルを用いて実装する。各メモリには1つの条件にマッチする WME が格納され、インデックスはそれらをパターンによって参照する。この方式は WME が固定長のタプルの場合のみ有効であり、各タプルの大きさは小さくなければならない（3-タプルなど）。また、この方式では条件パターンが、定数と等しいかどうかの比較だけに限られる。WME が Reteエンジンに投入されると、インデックスを使って WME の属性とパターンマッチする条件を持つメモリの位置を取り出し、WME を直接そのメモリ位置に格納する。この実装ではアルファノードが不要である。しかし、等しいかどうかの比較以外の条件（大小比較など）を実装しようとすると、メモリに格納する前に従来的なアルファネットワークを通す必要がある。代替案として、そのような比較を以下で述べるベータネットワークで行う方式がある。
+
+== ベータネットワーク ==
+Reteネットワークの右半分を'''ベータネットワーク'''と呼び、異なる WME 間の結合を主に行う。これは必ず必要というわけではない。ベータネットワークの各ノード（'''ベータノード'''）は2入力であり、その出力はベータメモリに格納される。
+
+ベータノードは'''トークン'''を処理する。トークンとはメモリの格納単位であり、メモリとノード間の交換単位でもある。多くの実装ではトークンはアルファメモリにあって、1つの WME を保持する。トークンはそこからベータネットワークに渡される。
+
+各ベータノードは処理の結果として部分マッチングを表す WME のリストを保持する新たなトークンを生成する。この拡張されたトークンはベータメモリに格納され、次のベータノードに渡される。この場合、ベータノードは渡されたトークン群にある WME リストを出力トークンに転記し、結合などの処理の結果から生じる WME リストを追加する。新たなトークンは出力メモリに格納される。
+
+代替手法としては、1つの WME を格納したトークンの線形リストを使用することがある。この場合、部分マッチングの WME リストはトークンの線形リストで表現される。この手法ではトークンからトークンへ WME のリストをコピーする手間がないため、より効率的である。ベータノードは部分マッチングリストに結合すべき WME を新たに生成するだけでよく、その新しいトークンを入力ベータメモリにある親トークンにリンクする。新たなトークンはトークンのリストの先頭となり、出力ベータメモリに格納される。
+
+Reteアルゴリズムの一般的な説明では、ベータネットワーク内ではトークンの受け渡しとするのが普通である。しかし、本項ではトークンではなく WME リストの伝播として説明する。1つの WME リストがベータネットワークを流れる間に新たに WME が追加され、ベータメモリにリストが格納される。ベータメモリ内の WME リストは1つのルール（プロダクション）の条件群の部分マッチングを表している。
+
+ベータネットワークの最後まで到達した WME リストは1つのプロダクションとの完全なマッチングを表しており、終端ノードに渡される。終端ノードは、p-ノードとも呼ばれる。'p' とはプロダクションを意味している。各終端ノードは1つのプロダクションに対応している。WME を受け取った終端ノードは対応するプロダクションのインスタンスを「活性化」させ、それを「アジェンダ」に追加する。アジェンダは一般に優先度つきキューとして実装されている。
+
+ベータノードは、ベータメモリに格納されている WME リストとアルファメモリに格納されている個々の WME 群の結合を行う。ベータノードは2つの入力を持ち、アルファメモリに新たな WME が格納されると、対応するベータノードの右側の入力が活性化される。ベータメモリは WME リストを格納し、新たな WME リストが格納される度に対応するベータノードの左側の入力が活性化される。右側が活性化したノードは、新たに格納された WME のいくつかの属性を対応するベータメモリにある WME リスト群と比較する。左側が活性化すると、新たに格納された WME リストを調べ、必要な属性値を集め、アルファメモリ上の WME 群の属性と比較する。
+
+各ベータノードは WME リストを出力し、ベータメモリに格納するか、終端ノードに直接渡す。前者の場合、ベータメモリに格納されると同時にそれを入力とするベータノードの活性化が行われ、処理される。
+
+論理的には、ベータネットワークの経路の先頭にあるベータノードはベータメモリからの入力を持たない特殊なノードである。推論エンジンの実装によっては、特殊なアダプターを使って本来ベータメモリが接続されるべき入力にもアルファメモリを接続する。また、単に2つのアルファメモリを入力にできる実装もある。いずれにしても先頭のベータノードは2つのアルファノードから入力を受け付ける。
+
+ノードの冗長性を排除するため、1つのアルファメモリやベータメモリが複数のベータノードを活性化するようになっている。結合ノードだけでなく、ベータネットワークには様々な種類のノード種別がある（後述）。ベータネットワークがない Rete アルゴリズムでは、アルファノードが1つの WME だけを含むトークンを入力とし、終端ノードにつながっている。この場合、WME をアルファメモリに格納する必要はない。
+
+The '''Rete algorithm''' is an efficient Charles L. Forgy of References). Rete has become the basis for many popular expert systems, including CLIPS, Jess, Soar. 
+
+A naïve implementation of an expert system might check each rule against the known facts in the Knowledge base, firing that rule if necessary, then moving on to the next rule (and looping back to the first rule when finished).  For even moderate sized rules and facts knowledge-bases, this naïve approach performs far too slowly.
+
+The Rete algorithm (usually pronounced either 'REET', 'REE-tee' or, in Europe, 're-tay' after the Latin pronunciation, from the network) provides the basis for a more efficient implementation of an expert system.  A Rete-based expert system builds a network of nodes, where each node (except the root) corresponds to a pattern occurring in the left-hand-side (the condition part) of a rule.  The path from the root node to a leaf node defines a complete rule left-hand-side.  Each node has a memory of facts which satisfy that pattern. This structure is essentially a generalized Trie.
+
+As new facts are asserted or modified, they propagate along the network, causing nodes to be annotated when that fact matches that pattern.  When a fact or combination of facts causes all of the patterns for a given rule to be satisfied, a leaf node is reached and the corresponding rule is triggered.
+
+The Rete algorithm is designed to sacrifice memory for increased speed.  In most cases, the speed increase over naïve implementations is several orders of magnitude (because Rete performance is theoretically independent of the number of rules in the system).  In very large expert systems, however, the original Rete algorithm tends to run into memory consumption problems.  Other algorithms, both novel and Rete-based, have since been designed which require less memory.
+
+== Description ==
+The Rete algorithm provides a generalized logical description of an implementation of functionality responsible for matching data tuples (‘facts’) against productions (‘rules’) in a pattern-matching production consists of one or more conditions and a set of actions which may be undertaken for each complete set of facts that match the conditions.   Conditions test fact attributes, including fact type specifiers/identifiers.   The Rete algorithm exhibits the following major characteristics:
+
+*	It reduces or eliminates certain types of redundancy through the use of node sharing.
+*	It stores partial matches when performing joins between different fact types.   This, in turn, allows production systems to avoid complete re-evaluation of all facts each time changes are made to the production system’s working memory.   Instead, the production system needs only to evaluate the changes (deltas) to working memory.
+*	It allows for efficient removal of memory elements when facts are retracted from working memory.
+The Rete algorithm is widely used to implement matching functionality within pattern-matching engines that exploit a match-resolve-act cycle to support inferencing.
+
+Retes are directed acyclic graphs that represent higher-level rule sets.   They are generally represented at run-time using a network of in-memory objects.   These networks match rule conditions (patterns) to facts (relational data tuples).  Rete networks act as a type of relational query processor, performing projections, selections and joins conditionally on arbitrary numbers of data tuples. 
+
+Productions (rules) are typically captured and defined by analysts and developers using some high-level rules language.     They are collected into rule sets which are then translated, often at run time, into an executable Rete.
+
+When facts are ‘asserted’ to working memory, the engine creates ‘working memory elements’ (WMEs) for each fact.   Facts are n-tuples, and may therefore contain an arbitrary number of data items.   Each WME may hold an entire n-tuple, or, alternatively, each fact may be represented by a set of WMEs where each WME contains a fixed-length tuple.   In this case, tuples are typically triplets (3-tuples).
+
+Each WME enters the Rete network at a single root node.  The root node passes each WME on to its child nodes, and each WME may then be propagated through the network, possibly being stored in intermediate memories, until it arrives at a terminal node.
+
+=== Alpha Network ===
+The ‘left’ (alpha) side of the node graph forms a discrimination network responsible for selecting individual WMEs based on simple conditional tests which match WME attributes against constant values.  Nodes in the discrimination network may also perform tests that compare two or more attributes of the same WME.  If a WME is successfully matched against the conditions represented by one node, it is passed to the next node.   In most engines, the immediate child nodes of the root node are used to test the entity identifier or fact type of each WME.   Hence, all the WMEs which represent the same entity type typically traverse a given branch of nodes in the discrimination network.
+
+Within the discrimination network, each branch of alpha nodes (also called 1-input nodes) terminates at a memory, called an ‘alpha’ memory.   These memories store collections of WMEs that match each condition in each node in a given node branch.   WMEs that fail to match at least one condition in a branch are not materialised within the corresponding alpha memory.   Alpha node branches may fork in order to minimise condition redundancy.
+
+A possible variation is to introduce additional memories for each intermediate node in the discrimination network.   This increases the overhead of the Rete, but may have advantages in situations where rules are dynamically added to or removed from the Rete, making it easier to vary the topography of the discrimination network dynamically.
+
+An alternative implementation is described by [http://reports-archive.adm.cs.cmu.edu/anon/1995/CMU-CS-95-113.pdf Doorenbos].    In this case, the discrimination network is replaced by a set of memories and an index.    The index may be implemented using a index is used to reference memories by their pattern.   This approach is only practical when WMEs represent fixed-length tuples, and the length of each tuple is short (e.g., 3-tuples).   In addition, the approach only applies to conditional patterns that perform equality tests against constant values.   When a WME enters the Rete, the index is used to locate a set of memories whose conditional pattern matches the WME attributes, and the WME is then added directly to each of these memories.   In itself, this implementation contains no 1-input nodes.   However, in order to implement non-equality tests, the Rete may contain additional 1-input node networks through which WMEs are passed before being placed in a memory.   Alternatively, non-equality tests may be performed in the beta network described below.
+
+=== Beta Network ===
+The ‘right’ (beta) side of the graph chiefly performs joins between different WMEs.    It is optional, and is only included if required.   It consists of 2-input nodes where each node has a ‘left’ and a ‘right’ input.   Each beta node sends its output to a ‘beta’ memory.
+
+Beta nodes process tokens.   A token is a unit of storage within a memory and also a unit of exchange between memories and nodes.  In many implementations, tokens are introduced within alpha memories where they are used to hold single WMEs.   These tokens are then passed to the beta network.
+
+Each beta node performs its work and, as a result, may create new tokens to hold a list of WMEs representing a partial match.   These extended tokens are then stored in beta memories, and passed to subsequent beta nodes.   In this case, the beta nodes typically pass lists of WMEs through the beta network by copying existing WME lists from each received token into new tokens and then adding a further WMEs to the lists as a result of performing a join or some other action.   The new tokens are then stored in the output memory.
+
+A common variation is to build linked lists of tokens where each token holds a single WME.   In this case, lists of WMEs for a partial match are represented by the linked list of tokens.   This approach may be more optimal because it eliminates the need to copy lists of WMEs from one token to another.   Instead, a beta node needs only to create a new token to hold a WME it wishes to join to the partial match list, and then link the new token to a parent token stored in the input beta memory.   The new token now forms the head of the token list, and is stored in the output beta memory.
+
+In descriptions of Rete, it is common to refer to token passing within the beta network.   In this article, however, we will describe data propagation in terms of WME lists, rather than tokens, in recognition of different implementation options and the underlying purpose and use of tokens.    As any one WME list passes through the beta network, new WMEs may be added to it, and the list may be stored in beta memories.     A WME list in a beta memory represents a partial match for the conditions in a given production.
+
+WME lists that reach the end of a branch of beta nodes represent a complete match for a single production, and are passed to terminal nodes.   These nodes are sometimes called ‘p-nodes’, where ‘p’ stands for ‘production’.   Each terminal node represents a single production, and each WME list that arrives at a terminal node represents a complete set of matching WMEs for the conditions in that production.   For each WME list it receives, a production node will ‘activate’ a new production instance on the ‘agenda’.   Agendas are typically implemented as prioritised queues.
+
+Beta nodes typically perform joins between WME lists stored in beta memories and individual WMEs stored in alpha memories.   Each beta node is associated with two input memories.    An alpha memory holds WMEs and performs ‘right’ activations on the beta node each time it stores a new WME.    A beta memory holds WME lists and performs ‘left’ activations on the beta node each time it stores a new WME list.  When a join node is right-activated, it compares one or more attributes of the newly stored WME from its input alpha memory against given attributes of specific WMEs in each WME list contained in the input beta memory.   When a join node is left-activated it traverses a single newly stored WME list in the beta memory, retrieving specific attribute values of given WMEs.   It compares these values with attribute values of each WME in the alpha memory.
+
+Each beta node outputs WME lists which are either stored in a beta memory or sent directly to a terminal node.   WME lists are stored in beta memories whenever the engine will perform additional left activations on subsequent beta nodes.
+
+Logically, a beta node at the head of a branch of beta nodes is a special case because it takes no input from any beta memory higher in the network.    Different engines handle this issue in different ways. Some engines use specialised adapter nodes to connect alpha memories to the left input of beta nodes. Other engines allow beta nodes to take input directly from two alpha memories, treating one as a ‘left’ input and the other as a ‘right’ input.   In both cases, ‘head’ beta nodes take their input from two alpha memories.
+
+In order to eliminate node redundancies, any one alpha or beta memory may be used to perform activations on multiple beta nodes.   As well as join nodes, the beta network may contain additional node types, some of which are described below.   If a Rete contains no beta network, alpha nodes feed tokens, each containing a single WME, directly to p-nodes.   In this case, there may be no need to store WMEs in alpha memories.
+
+=== Conflict Resolution ===
+During any one match-resolve-act cycle, the engine will find all possible matches for the facts currently asserted to working memory.   Once all the current matches have been found, and corresponding production instances have been activated on the agenda, the engine determines an order in which the production instances may be ‘fired’.    This is termed ‘conflict resolution’, and the list of activated production instances is termed the ‘conflict set’.  The order may be based on rule priority (salience), rule order, the time at which facts contained in each instance were asserted to the working memory, the complexity of each production or some other criteria.   Many engines allow rule developers to select between different conflict resolution strategies or to chain a selection of multiple strategies.
+ 
+Conflict resolution is not defined as part of the Rete algorithm, but is used alongside the algorithm.    Some specialised production systems do not perform conflict resolution.
+
+=== Production Execution===
+Having performed conflict resolution, the engine now ‘fires’ the first production instance, executing a list of actions associated with the production. The actions act on the data represented by the production instance’s WME list.
+
+By default, the engine will continue to fire each production instance in order until all production instances have been fired.   Each production instance will fire only once, at most, during any one match-resolve-act cycle.   This characteristic  is termed ‘refraction’.   However, the sequence of production instance firings may be interrupted at any stage by performing changes to the working memory.   Rule actions can contain instructions to assert or retract WMEs from the ‘working memory’ of the engine. Each time any single production instance performs one or more such changes, the engine immediately enters a new match-resolve-act cycle.   This includes ‘updates’ to WMEs currently in the working memory.   Updates are represented by retracting and then re-asserting the WME.   The engine undertakes matching of the changed data which, in turn, may result in changes to the list of production instances on the agenda.  Hence, after the actions for any one specific production instance have been executed, previously activated instances may have been de-activated and removed from the agenda, and new instances may have been activated.

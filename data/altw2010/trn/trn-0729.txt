@@ -1,0 +1,103 @@
+{{infobox Franse gemeente|
+|plaatsnaam= Steinseltz
+|wapen= 
+|kaart= 
+|regio= Elzas 
+|departement= Bas-Rhin (67)
+|arrondissement= Wissembourg
+|kanton= Wissembourg
+|jaar= 1999
+|inwoners= 615
+|dichtheid= 111,8
+|oppervlakte= 5,5
+|water= 
+|latitudeGraden= 49 |latitudeMinuten= 1|latitudeSeconden= 0
+|longitudeGraden= 7 |longitudeMinuten= 56 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 277 |kaartY= 73
+|code= 67479
+|postcode= 67160
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Steinseltz''' is een gemeente in het Franse departement Wissembourg.
+
+==Geografie==
+De oppervlakte van Steinseltz bedraagt 5,5 km², de bevolkingsdichtheid is 111,8 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:900 color:gray1 width:1       
+  from:start till:end             
+  bar:600 color:gray1              
+  from:start till:end            
+  bar:300 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,106)(84,109) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 456 1968: 471
+  points:(84,109)(100,113)    color:blue    width:2 #1975: 491
+  points:(100,113)(128,125)   color:blue    width:2 #1982: 556
+  points:(128,125)(160,130)   color:blue    width:2 #1990: 580
+  points:(160,130)(196,136)   color:blue    width:2 #1999: 615
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+==Externe links==
+*[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=67479&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Meer statistische informatie over de gemeente op www.insee.fr] 
+
+{{Infobox Commune de France|nomcommune=Steinseltz|
+|région=|département=|arrondissement=Wissembourg|canton=Wissembourg|insee=67479|cp=67160|maire=André Hauck|mandat=intercomm=[[Communauté de communes du Pays de Wissembourg|longitude=7.93166666667|latitude=49.0113888889|alt moy=298 m|alt mini=163 m|alt maxi=252 m|hectares=547|km²=5,47|sans=615|date-sans=1 999|dens=112|}}
+
+'''Steinseltz''' est une commune française, située dans le département du région Alsace.
+
+== Géographie ==
+=== Écarts et lieux-dits ===
+* Schafbusch
+
+== Histoire ==
+L'origine de l'histoire de Steinseltz est intimement liée à celle de l'abbaye de Wissembourg, fondée au  par le moine Dagobert de Spire. Des lieudits témoignent encore de cette époque lointaine comme celui de ''Auf der Hub''. Une ''Hub'' était une parcelle de terre louée par le couvent à des particuliers contre un fermage bien défini.
+
+En 1401, après le déclin de l'abbaye de Wissembourg, les sires de Hohenbourg, s'emparèrent du village comme d'ailleurs de ceux de Cleebourg, Oberhoffen-lès-Wissembourg et Rott. Son successeur Wirich II construisit le château de Cleebourg en 1412.
+
+En 1475, Wirich III s'allie au duc Louis de Deux-Ponts contre le comte électeur palatin Frédéric. Victorieux, ce dernier annexera le village de Steinseltz.
+{{Blasonnement
+| image=Blason Steinseltz 67.svg
+| descript=De sable au lion d'or, couronné et lampassé de gueules, au chef parti au I d'azur à l'étoile de six rais d'argent et au II d'or<ref>Les armoiries des communes du Bas-Rhin. Tome VI : Communes du département (Saulxures à Zutzendorf), 1963</ref>.
+| texte=Le blason résume l'histoire locale : l'étoile est celle de Hohenbourg et le lion est celui du Palatinat du Rhin.
+}}
+==Administration==
+
+== Démographie ==
+{{Démographie|
+1962= 456|
+1968= 471|
+1975= 491|
+1982= 556|
+1990= 580|
+1999= 615|
+2006= 634|
+sansdoublescomptes= 1962|
+enquêteannuelle=2006|
+source=INSEE<ref>[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=67479&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Steinseltz sur le site de l'Insee]</ref>}}

@@ -1,0 +1,214 @@
+<!--- the requests page should be transferred to "Hangyo nga mahimong tigdumala" --->
+Ang mga '''tigdumala''' mga gumagamit sa Wikipedya nga adunay mga katungod nga wala sa mga ordinaryong gumagamit. Ang palisiya sa Wikipedya karon mao ang paghatag ning maong mga katungod ni bisan kinsa nga aktibo sa pagtampo sa Wikipedya ug nailhan ug gisaligang sakop sa katilingban.
+
+Ang mga tigdumala walay espesyal nga awtoridad, ug sama ra usab sa uban kon ang katungdanan sa pag-usab sa mga panid ang hisgotan. May pipila ka gumagamit sa Wikipedya ang nag-isip sa mga pulong "Sysop" ug "Tigdumala" nga sayop, tungod kay ila lamang gipaila kadtong mga gumagamit nga gitangtangan sa pipila ka restriksiyon sa ubang ''features'' tungod kay daw mga kasaligan silang sakop sa katilingban. Apan angayng hinumdoman nga ang mga tigdumala walay espesyal nga gahom sa ubang mga gumagamit gawas lamang sa pagpatuman sa mga hukom nga nasabotan sa tanang gumagamit.
+
+Sa sayong bahin sa kinabuhi sa Wikipedya tanang mga gumagamit mga tigdumala ug sa prinsipyo kinahanglang magpabiling silang ingon. Si bisan kinsang gumagamit mahimong molihok isip usa ka tigdumala, basta lamang dili sila mamakak nga usa sila ka tigdumala -- bisan pa kon wala silay ekstra nga katungdanang administratibo. Ang mga gumagamit nga mohimo sa ingon may dakong purohan nga manominar isip tigdumala, ug may dakong purohan nga mapili kon sila manominar.
+
+Ang katilingban nagpaabot sa mga tigdumala sa paghimo sa mga esensiyal nga katungdanan nga mahimo lamang sa mga tigdumala. Pipila niini ang pagbantay sa mga hangyo sa pagpapas ug paghimo sa nasabotan sa katilingban; pagbantay sa mga bag-ong nahimo ug mga bag-ong giusab nga mga artikulo aron makita ang klarong bandalismo; ug pagtubag sa mga hangyo sa ubang miyembro sa katilingban kon king mga hangyo nagkinahanglan og gahom sa tigdumala. Tungod kay ang mga tigdumala gitan-aw nga mga batid nga sakop sa katilingban, ang mga gumagamit nga mangita og tabang sagad moadto kanila alang sa mga tambag ug dugang impormasyon.
+
+==Ang mga butang nga mahimo lamang sa usa ka tigdumala==
+Ang Wiki nga programa nga maoy nagpadagan sa Wikipedya may mga importanteng ''features'' nga adunay restriksiyon. Ang usa ka tigdumala walay restriksiyon niining mosunod:
+
+===Mga giproteksiyonang panid===
+Pagproteksiyon ug pagtangtang sa proteksiyon sa usa ka panid. Ang mga panid nga giproteksiyon dili mausab gawas lamang sa mga tigdumala. Ang mga panid proteksiyonan lamang sa pipila ka sirkumstansiya, pananglitan, kini kanunayng gitarget sa bandalismo, ang pag-usab niini makahilabot sa kalihokan sa uban pang panid.
+
+===Pagpapas ug pagpabalik===
+* Pagpapas sa mga panid ug sa ilang kaagi. Pipila sa rason nganong angayng papason ang usa ka panid mao kining mosunod: klarong bandalismo, ginagmayng pag-usab nga klarong walay sulod, o dili ba kaha kinopya gikan sa laing balayan og milapas sa katungod sa pagpatik. Kon may isugyot kang papason, palihog adto sa mga hangyo sa pagpapas.
+* Pagtan-aw ug pagpabalik sa mga napapas nga panid ug sa ilang mga kaagi. Sa kasamtangan, ang panid sa mga hangyo sa pagpapas mao ra usab ang gamiton alang sa mga hangyo sa pagpabalik sa usa ka napapas nga panid.
+* Permanteng pagpapas sa mga hulagway. Usa kini ka dili na mabali pa nga desisyon: human mapapas, napapas na. Alang sa dugang impormasyon ug giya, tan-awa ang Wikipedia:Palisiya sa paggamit sa hulagway. Aron makasugyot og hulagway nga papason (human mo mabasa ang palisiya), adto sa Wikipedia:Mga hangyo sa pagpapas. Kon may hulagway nga napapas apan sa imong paminaw dili kini angayng papason, ibutang sa samang panid ang imong hangyo nga kini mapabalik. Tinoa nga may kopya ka pa sa maong hulagway kay kon wala wala nay paagi pa aron mapabali kini. Palihog hinumdomi nga walay partikular nga rason nganong ang pagpapas sa mga hulagway dili mabali; kini lamang gayod ang paagi sa pagdagan sa programa karon.
+
+===Pagpabalik sa karaang bersiyon sa panid===
+Ang si bisan kinsang gumagamit (nakasulod o wala) mahimong mopabalik sa panid ngadto sa karaang bersiyon. Ang mga tigdumala may mas paspas, unaylihok nga paagi sa pagpabalik sa mga panid ngadto sa bersiyon sa wala pa ang bandalismo sa usa ka wala mailhing editor. Samtang nagtan-aw sa mga tampo sa usa ka gumagamit, may sumpay siyang makita nga ingon niini: <nowiki>[rollback]</nowiki> sunod sa mga pag-usab nga anaa sa taas sa kaagi sa pag-edit. Ang pagklik sa maong sumpay mopabalik sa tanang edit nga wala gisulat sa maong gumagamit.
+
+===Pagpatuman sa mga desisyon sa Komitiba sa Paghusay===
+Ang mga tigdumala adunay gahom sa pagpatuman sa mga desisyon sa Komitiba sa Paghusay.
+
+===Pagtago sa bandalismo gikan sa mga bag-ong giusab===
+Ang mga tigdumala makatago sa bandalismo sa paagi nga kini dili mopakita sa talaan sa mga bag-ong giusab.
+
+===Pag-''block'' ug ''unblock''===
+* Pag-''block'' og mga adres sa IP, ''IP ranges'' o akawnt sa gumagamit sulod sa pipila ka takna o ''indefinitely''.
+* Pag-''unblock'' og mga adres sa IP, ''IP ranges'' o akawnt sa gumagamit.
+* Tan-awa ang Special:Ipblocklist alang sa kasamtangang gialihan nga mga adres ug ngalan sa gumagamit.
+
+===Desinyo ug mga mensahe sa ''interface''===
+* Sukad sa Disyembre 6, 2003, ang mga tigdumala puyde nang mousab sa teksto sa ''interface'' pinaagi sa pag-usab sa mga panid sa ''namespace'' sa MediaWiki.
+* Sukad sa CSS sa monobook nga ''stylesheet'' sa MediaWiki:Monobook.css.
+
+==Pagkahimong tigdumala==
+Kon buot kang mahimong tigdumala, idugang ang imong ngalan sa Wikipedya:Mga hangyo nga mahimong tigdumala sumala sa mga giya nga nahisulat didto, ug ang usa ka pagbinotaray mahitabo aron matino kon buot ba sa ubang editor nga mahimo kang tigdumala.
+
+Gisugyot nga mosulat ka usa sa Wikipedya sulod sa pipila ka bulan usa ka mohangyo nga mahimong tigdumala, kay ang ubang mga gumagamit kinahanglang makaila kanimo sa dili pa sila mouyon sa imong promosyon. Hunahunaa usab nga matag Wikipedya may iya-iyang palisiya alang sa mga tigdumala.
+
+''Pagmabinantayon, palihog!'' Kon ikaw usa na ka tigdumala, pagbantay sa imong paggamit sa imong mga katungod, labi na sa abilidad nga mopapas og mga panid lakip na ang ilang kaagi, mopapas og mga hulagway (nga permanente!), ug ang abilidad sa pag-ali og mga IP adres.
+
+==Uban pang ''access types''==
+Gawas sa mga tigdumala, may uban pang klase sa mga gumagamit, nahitala dinhi sumala sa nagkadako nga gahom.
+
+===Nakasulod nga mga gumagamit===
+Ang tanang gumagamit sa Wikipedya, lakip na ang mga bisita nga wala mosulod, makahimo sa tanang gimbuhaton, lakip na ang kinaimportantehang trabaho nga mao ang pagsulat og mga artikulo ug pagtabang sa mga ''maintenance tasks'' (sama sa pagbutang og mga ''interwiki links'', pagtsek sa panitik kun espeling, ubp.)
+
+Apan ang mga misulod lamang nga gumagamit ang maka-''upload'' og mga payl, makahimo og kaugalingon nilang panid, ug mousab sa ngalan sa mga panid.
+
+Adto sa Special:Userlogin aron makasulod ka.
+
+===Mga tigdumala===
+===Mga burukrata===
+Ang mga gumagamit nga "burukrata" makahimo sa ubang gumagamit nga tigdumala, apan dili makatangtang sa pagkatigdumala sa usa ka gumagamit. Ang mga burukrata gihimong burukrata sa ubang burukrata sa mga proyekto nga aduna nay burukrata, o sa mga steward sa mga proyekto nga walay burukrata. Ang paghimong tigdumala girekord sa Meta:Special:Log/rights.
+
+===Stewards===
+Ang mga "steward" makausab sa akses sa bisan kinsang gumagamit sa bisan asang proyekto sa Wikimedia. Lakip na niini ang paghatag ug pagtangtang og gahom sa tigdumala, ug pagmarka sa usa ka gumagamit isip usa ka bot. Ang ilang gipanghimo nahitala sa Meta:Bureaucrat log. Mahangyo ang ilang panabang sa m:requests for permissions. Sagad dili sila mohimo sa usa ka aksiyon nga mahimo sa usa ka lokal nga burukrata.
+
+===Debeloper===
+Ang kinatas-ang degri sa teknikal nga akses mao ang "debeloper", kinsa makahimo og direktang pag-usab sa programa nga nagpadagan sa Wikipedya ingon man sa ''database''. Palihog tan-awa ang m:Developer alang sa dugang impormasyon.
+
+==Pag-abuso sa usa ka tigdumala==
+Ang usa ka tigdumala mahimong matangtangan sa pagkatigdumala kon moabuso kini sa iyang gahom. Karon ang mga tigdumala mahimong matangtang pinaagi sa dekre ni Jimbo Wales o sa desisyon sa Komitiba sa Paghusay. Sa ilang diskresyon, mahimong ipahamtang ang mas ubos nga penalti alang sa mga problemadong tigdumala, lakip ang ang pagresktrik sa paggamit nila sa pipila sa ilang gahom. Ang teknikal nga abilidad sa pagtangtang sa usa ka tigdumala anaa sa mga steward.
+
+==Mga reklamo==
+Kon may reklamo ka batok sa usa ka tigdumala, ipasabot ang imong mga hunahuna ngadto sa tigdumala mismo. Paninguhaa nga makab-ot ninyo ang usa ka resolusyon sa usa ka sibilisadong paagi. Kon dili kini posible, isang-at ang imong reklamo sa Komitiba sa Paghusay.
+
+==Tan-awa usab==
+* Mga hangyo nga mahimong tigdumala
+
+Category:Wikipedya
+
+als:Wikipedia:Administratoren
+am:Wikipedia:መጋቢዎች
+
+ang:Wikipedia:Bewitend
+
+arc:Wikipedia:Administrators
+
+ay:Wikipedia:Bibliotecarios
+
+bar:Wikipedia:Administratoren
+bat-smg:Vikipedėjė:Admėnėstravims
+be-x-old:Вікіпэдыя:Адміністрацыя
+
+bm:Wikipedia:Administrateurs
+bo:Wikipedia:Administrators
+
+cdo:Wikipedia:Hèng-céng Ìng-uòng
+ce:Википедийа:Администраторш
+chr:Wikipedia:Administrators
+crh:Vikipediya:Administratorlar
+
+thumb
+
+'''Ylläpitäjät''' ovat Wikipedian käyttäjiä, joilla on valtuudet poistaa ja lukita artikkeleita, palauttaa poistettuja sivuja sekä estää häiriköiviä käyttäjiä muokkaamasta artikkeleita.
+
+Yhteisö myöntää ylläpitäjän muokkausoikeudet ehdotuksen ja äänestyksen kautta. Oikeudet myönnetään määräämättömäksi ajaksi, mutta yhteisö voi myös äänestää oikeuksien poistosta. Oikeuksista voi myös luopua vapaaehtoisesti. Ylläpitäjyyden muuttamista määräaikaiseksi on ehdotettu, mutta se ei äänestyksessä saavuttanut kannatusta.
+
+Ylläpitäjäoikeudet ovat ''tekninen työkalu'' ja antavat oikeuden käyttää ylläpitäjille varattuja toimintoja käytäntöjen mukaisesti. Ylläpitäjän oikeudet eivät itsessään kuvasta Wikipedian yhteisössä saavutettua statusta tai auktoriteettia, mutta ne voivat väärissä käsissä olla erittäin haitallinen työkalu. Tämän vuoksi yhteisö yleensä valitsee ylläpitäjiksi käyttäjiä, joilla se katsoo olevan riittävästi kokemusta Wikipedian käytännöistä ja toiminnasta ja jotka ovat osoittaneet luotettavuutensa yhteisölle.
+
+Suomenkielisessä Wikipediassa on tällä hetkellä  - 1}} ylläpitäjää. 
+
+===Ylläpitäjyyden päättyminen===
+
+Ylläpitäjän oikeuksien poistosta voi tehdä ehdotuksen. Ylläpitäjän oikeudet voidaan poistaa myös ylläpitäjän omasta pyynnöstä.
+
+Ylläpito-oikeudet poistetaan mikäli ylläpitäjille rajoitettuja toimintoja ei ole lainkaan käytetty vuoteen. Perustelluista syistä tästä säännöstä voidaan kuitenkin joustaa. Perusteltuja syitä katsotaan olevan muun muassa työhön ja opiskeluun liittyvä pidempiaikainen oleskelu ulkomailla, onnettomuus tai sairaus.
+
+== Ylläpitäjien käytäntöjä ==
+''Katso:'' '''Ylläpitäjien käytäntöjä'''.
+
+== Ohjeita ==
+''Katso:'' '''Ylläpitäjän opas'''.
+
+== Suomenkielisen Wikipedian ylläpitäjät ==
+Wikipedian  - 1}} ylläpitäjää ovat aakkosjärjestyksessä: 
+* 
+* 
+* 
+* 
+* 
+* 
+*  <small>(aikaisemmin ''Cartman'')</small>
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+*  (aikaisemmin ''Aslak'')
+* 
+* 
+* 
+* 
+*  (aikaisemmin ''Jetman'')
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+
+== Suomenkielisen Wikipedian byrokraatit ==
+
+Ks. Wikipedia:Byrokraatit
+
+==Vanhat äänestykset==
+
+'''Katso :Luokka:Arkistoidut ylläpitäjyysäänestykset.'''
+
+== Uudet ehdokkaat ==
+<div style="float:right;width:30%;margin-left:2em;margin-bottom:1em;padding:0.5em;background-color: #ffffff; border: 3px solid #fc6;">
+'''Äänestäminen''' tapahtuu lisäämällä ääni numeroituna listana kantasi mukaisen otsikon alle tyyliin:<br>
+<tt><nowiki>#Ahkera käyttäjä --~~~~</nowiki></tt>
+
+'''Käyttäjän nimittäminen ehdokkaaksi:'''
+#Lisää tämän sivun loppuun koodi <nowiki></nowiki> ja tallenna sivu.
+#Seuraa syntynyttä punaista linkkiä, kirjoita sivun sisällöksi <nowiki></nowiki> ja tallenna sivu.
+#Lisää äänestys sivulle Malline:Äänestykset.
+</div>
+Ylläpitäjäksi voi pyrkiä käyttäjä, joka on ollut Wikipediassa jo jonkin aikaa aktiivinen ja siten tunnettu yhteisön jäsen. Käyttäjä voi asettua ehdokkaaksi itse tai toisen Wikipedian käyttäjän ehdotuksen kautta. Ylläpitäjäehdokkaita arvioitaessa on hyvä tutustua ehdokkaan käyttäjäsivulta työkalut-valikosta löytyvään "Käyttäjän muokkaukset" -linkkiin ja tutkia millaisia muutoksia käyttäjä on tehnyt. Yleensä ehdokkailta oletetaan Wikipedian käytäntöjen tuntemista ja niiden noudattamista sekä vähintään muutaman kuukauden kestänyttä aktiivista toimintaa. Ennen toisen käyttäjän asettamista ehdolle on hyvien tapojen mukaista pyytää tältä suostumus ehdokkaaksi.
+
+Äänestäminen tapahtuu lisäämällä oma allekirjoitus mahdollisine perusteluineen asiaankuuluvan otsikon alle. Anonyymit käyttäjät eivät voi äänestää eivätkä nimittää ehdokkaita, mutta he voivat kommentoida. Olisi suotavaa, että äänet perusteltaisiin, etenkin vastustavat ja tyhjät äänet. Tämä voi auttaa ehdokasta ja muita äänestäjiä. Äänestystä koskevat yleiset säännöt.
+
+Kunkin ehdokkaan äänestys kestää kaksi viikkoa. Mikäli käyttäjä saa äänestyksessä vähintään 75 prosentin kannatuksen, käyttäjä hyväksytään ylläpitäjäksi. Äänestyksessä hävinnyt käyttäjä voi pyrkiä uudelleen ylläpitäjäksi kolmen kuukauden kuluttua.
+
+==Äänestykset==
+:''[http://fi.wikipedia.org/wiki/Wikipedia:Ylläpitäjät?action=purge Tyhjennä välimuisti]''
+
+<!-- uudet ehdokkaat tähän alle -->
+
+==Katso myös==
+* Yleiskatsaus eri Wikipedioiden ylläpitäjistä
+* [http://tools.wikimedia.de/~vvv/adminstats.php?wiki=fiwiki_p&tlimit=none Suomenkielisen Wikipedian ylläpitäjien tilastotietoja]
+
+als:Wikipedia:Administratoren
+am:Wikipedia:መጋቢዎች
+ang:Wikipedia:Bewitend
+
+arc:Wikipedia:Administrators
+frp:Vouiquipèdia:Administrator
+
+av:Википедия:Администраторал
+ay:Wikipedia:Bibliotecarios
+
+bm:Wikipedia:Administrateurs
+zh-min-nan:Wikipedia:Hêng-chèng jîn-oân
+map-bms:Wikipedia:Pengurus
+
+be-x-old:Вікіпэдыя:Адміністрацыя
+bo:Wikipedia:Administrators
+
+na:Wikipedia:Administrators

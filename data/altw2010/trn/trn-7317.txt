@@ -1,0 +1,101 @@
+'''Vattenpotential''' är vattnets energinivå i en godtycklig punkt. Det är skillnaden i vattenpotential mellan två punkter i ett vattensystem, som får vattnet att förflyttas från punkten med högre vattenpotential till punkten med lägre vattenpotential. Om den totala vattenpotentialen är konstant inom hela vattensystemet, så sker ingen vattenrörelse.
+
+Vattenpotentialgradienten, d.v.s. skillnaden i vattenpotential mellan två punkter i ett vattensystem dividerat med avståndet mellan dessa två punkter, bestämmer tillsammans med markens vattengenomsläpplighet hur snabbt vattnet strömmar i marken (Darcys lag).
+
+== Vattenpotentialens olika delar ==
+
+Den totala vattenpotential (ψ<sub>total</sub>) är summan av vattnets osmotiska potential (ψ<sub>o</sub>) och vattnets hastighetspotential (ψ<sub>v</sub>). 
+
+:<math> \Psi_{total} = \Psi_g + \Psi_T + \Psi_o + \Psi_v</math> 
+
+=== Lägespotential ===
+Lägespotential (ψ<sub>g</sub>) är vattnets lägesenergi i en punkt relativt en godtycklig referensnivå. Ofta väljs markytan eller ett täckdikesrör som referensnivå.
+
+=== Tryckpotential ===
+Tryckpotential (ψ<sub>T</sub>) är vattnets tryckenergi i en punkt. Vattnets tryckpotential är positiv (större än 0) under grundvattenytan och negativ ovanför grundvattenytan. Vid negativ tryckpotential används ofta uttrycket tension eller kapillär potential. 
+
+Den permanenta vissningsgränsen brukar ligga på -150 meter vattenpelare, vilket motsvarar 98,9 % relativ luftfuktighet hos en +25-gradig luft.
+
+=== Osmotisk potential ===
+växtrötternas cellmembran. Inom markvetenskapen och agrohydrologin är osmotisk potential intressant vid höga salthalter i marken och bevattning med salthaltigt vatten i ökenområden.
+
+=== Hastighetspotential ===
+grundvattnet och markvattnet. Vattnets hastighet brukar här bara bli några få centimetrar per dygn. Däremot måste vattnets hastighetspotential noga beaktas vid all rörströmning och kanalströmning, (se t.ex. Bernoullis ekvation).
+
+== Olika uttryckssätt för vattenpotential ==
+
+Vattenpotentialen kan uttryckas på åtminstone tre olika sätt: 
+
+=== Energi per enhet massa ===
+Detta är kanske det mest grundläggande uttrycket för vattenpotential. SI-enheten blir då 1 J/kg = 1 Nm/s<sup>2</sup> = 1 m<sup>2</sup>/s<sup>2</sup>. Detta uttryckssätt är dock sällsynt bland praktikerna. 
+
+=== Energi per enhet volym ===
+Då vatten i praktiken är en inkompressibel fluid, blir densiteten i det närmaste helt oberoende av tryckpotentialen. Så vattenpotentialen kan även uttryckas i energi per enhet volym. SI-enheten blir då 1 J/m<sup>3</sup> = 1 Nm/m<sup>3</sup> = 1 N/m<sup>2</sup> = 1 Pa.
+
+Vattenpotentialen kan alltså uttryckas i enheter för hydrostatiskt tryck, vilket ofta används för att uttrycka tryckpotential och osmotisk potential. Däremot används sällan hydrostatiskt tryck för att uttrycka lägespotential och hastighetspotential. 
+
+=== Energi per enhet tyngd (höjd vätskepelare) ===
+Allt som kan uttryckas i en höjd vätskepelare. 1 atmosfär = 10,33 meter vattenpelare = 760 mmHg. 
+
+Detta uttryckssätt underlättar starkt den praktiska hanteringen av vattenpotentialen. Om ett glas fylls med ett exakt 10 cm tjockt lager vatten (som hunnit ställa sig i jämvikt), är lägespotentialen vid vattenytan 10 centimeter vattenpelare och tryckpotentialen är 0. Vid glasets botten är är lägespotentialen 0 och tryckpotentialen = 10 centimeter vattenpelare. Mittemellan botten och vattenytan är både lägespotentialen och tryckpotentialen 5 centimeter vattenpelare.
+
+När vattenpotentialen uttrycks som höjd vattenpelare, är pF.
+
+När vattenpotentialen uttrycks i energi per tyngdenhet, brukar symbolen ψ bytas ut mot H (efter engelskans ''head'' i uttrycken ''[http://en.wikipedia.org/wiki/Hydraulic_head hydraulic head]'', ''[http://en.wikipedia.org/wiki/Pressure_head pressure head]'' och ''matric head''). På svenska brukar H översättas till vattenpelarens höjd. 
+
+: <math> H_{total} = H_g + H_p + H_o + H_v</math> 
+
+=== Matematisk sammanfattning av de olika uttrycken för vattenpotential ===
+Nedanstående uttryck för lägespotential, tryckpotential och hastighetspotential ligger till grund för Bernoullis ekvation. 
+
+==== Energi ==== 
+: <math>E = m \cdot g \cdot h = V \cdot \rho \cdot g \cdot h</math> Lägesenergi (J)
+
+: <math>E = \dfrac {m \cdot u^2}{2} = \dfrac {V \cdot \rho \cdot u^2}{2} </math>  Rörelseenergi (J)
+
+: <math>E = P \cdot V</math>  Tryckenergi (J)
+
+: <math>E = -M \cdot R \cdot T \cdot V</math> Osmotisk energi (J)
+där
+
+E = Energi (J)
+
+m = Massa (kg)
+
+g = Tyngdacceleration (ca 9,82 m/s<sup>2</sup>)
+
+h = Höjd (m)
+
+V = Volym (m<sup>3</sup>)
+
+thumb|right|Water potential of negative water solution
+'''Water potential''' is the Psi).  This concept has proved especially useful in understanding water movement within plants, animals, and soil.  
+
+Typically, pure water at standard temperature and pressure (or other suitable reference condition) is defined as having a water potential of 0. The addition of solutes to water lowers its potential (makes it more negative), just as the increase in pressure increases its potential (makes it more positive). If possible, water will move from an area of higher water potential to an area that has a lower water potential.
+
+One very common example is water that contains a dissolved salt, like sea water or the solution within living cells.  These solutions typically have negative water potentials, relative to the pure water reference.  If there is no restriction on flow, water molecules will proceed from the locus of pure water to the more negative water potential of the solution. This effect can be used to power a osmotic power plant.<ref>[http://www.statkraft.com/pro/press/Press_releases/2007/Statkraft_to_build_world_s_first_osmotic_power_plant.asp Statkraft to build world's first osmotic power plant]</ref>
+
+==Components of water potential==
+
+Many different potentials affect the total water potential, and sum of these potentials determines the overall water potential and the direction of water flow:
+
+:<math>\Psi = \Psi_0 + \Psi_\pi + \Psi_p + \Psi_s + \Psi_v + \Psi_m</math>
+
+where:
+*<math>\Psi_0</math> is the reference correction,
+*<math>\Psi_\pi</math> is the solute potential,
+*<math>\Psi_p</math> is the pressure potential,
+*<math>\Psi_s</math> is the gravimetric component,
+*<math>\Psi_v</math> is the potential due to humidity, and
+*<math>\Psi_m</math> is the potential due to matrix effects (e.g., fluid cohesion and surface tension.)  
+
+===Pressure potential===
+	
+Pressure potential is based on mechanical pressure, and is an important component of the total water potential within plant cells.  Pressure potential is increased as water enters a cell. As water passes through the cell wall and cell membrane, it increases the total amount of water present inside the cell, which exerts an outward pressure that is retained by the structural rigidity of the cell wall.
+
+The pressure potential in a living plant cell is usually positive. In plasmolysed cells, pressure potential is almost zero.  Negative pressure potentials occur when water is pulled through an open system such as a plant xylem vessel. Withstanding negative pressure potentials (frequently called ''tension'') is an important adaptation of xylem vessels.
+
+===Solute potential===	
+
+Pure water is usually defined as having a solute potential (<math>\Psi_\pi</math>) of zero, and in this case, solute potential can never be positive. The
+relationship of solute concentration (in molarity) to solute potential is given by the van 't Hoff equation:

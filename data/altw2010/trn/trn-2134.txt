@@ -1,0 +1,71 @@
+Le civiltà mesopotamiche furono le prime ad intuire sia il principio posizionale sia lo zero (inizio II millennio a.C.).
+Essi avevano però un Impero Babilonese), dove la base ausiliare vedeva una numerazione additiva e dove la numerazione posizionale partiva solo da 60 in poi, per lasciare il posto alla numerazione additiva tra una potenza e l'altra di 60.
+Dunque solo con la sessantina si andava all'ordine superiore all'unità mentre il terzo ordine si raggiungeva addirittura con 60x60.
+center
+C’era dunque una distanza eccessiva tra i diversi ordini numerici e c’erano due sole cifre: 
+* il chiodo verticale (unità) ˆ
+* un punzone (decina)         |
+Ripetuti n volte per ottenere il numero desiderato
+ 19 = |  ˆˆˆ          58 = ||   ˆˆˆ 5x10+8x1
+         ˆˆˆ               ||   ˆˆˆ	
+         ˆˆˆ               |    ˆˆ		
+
+ 69 non era |||   ˆˆˆ    ma ˆ   ˆˆˆ (1x60)+(9x1)
+            |||   ˆˆˆ           ˆˆˆ
+                  ˆˆˆ           ˆˆˆ
+ 
+A questo proposito è significativo dell'uso del principio posizionale il mito della pietra nera di Asarhaddon (680-669 a.C.) dove Marduk pietoso inverte le cifre del numero degli anni in cui Babilonia sarebbe dovuta essere abbandonata dopo la distruzione di Sanherib (Sennacherib); gli anni da 70 (ˆ|) diventano 11 (|ˆ).
+Questo aneddoto è poi legato alle implicazioni quasi magiche del sistema posizionale.
+ 1 valeva al primo posto 1
+ Al secondo 60
+ Al terzo 60x60  etc.
+ 72 = ˆ|ˆˆ                  (1x60)+(1x10)+(2x1)
+
+ 1000 = |ˆˆˆ||              (10x60)+(6x60)+(4x10)
+         ˆˆˆ||	
+
+ 174.012 =  ||ˆˆˆ|| |ˆˆ     (4x10x60x60)+(8x60x60)+(2x10x60)+(1x10)+(2x1)= 174.012
+            ||ˆˆˆ           144.000+28.800+1200+12
+              ˆˆ	
+ 
+Nel calcolo sessagesimale è come fare il computo del tempo:
+174.012 è come 48h 20’ 8".
+
+Gli inconvenienti di questo sistema sono: 
+* Le 59 unità significative fatte con molte ripetizioni additive  di due cifre base (anche se i Babilonesi facevano uso di un simbolo di sottrazione- LAL=TOLGO- per evitare una eccessiva molteplicità di segni). 
+* Il principio posizionale misto e dunque incompleto, in quanto all'interno di ogni ordine numerico vale ancora il principio additivo e il numero delle cifre utilizzate è troppo basso.
+* Rischi di confusione. Esempi:
+
+ Tra 2 (ˆˆ) e 61(ˆˆ)
+ Tra 23 (||ˆˆˆ)      613 (||ˆˆˆ)        36.603 (||ˆˆˆ)
+     2x10+3          1x10x60+1x10+3     1x10x3600+1x10x60+3
+
+C’era insomma la difficoltà di sapere come vanno distinti gli ordini nei quali vanno raggruppati i segni. Infatti il sistema misto additivo-posizionale presenta anche il problema di distinguere, in presenza di più segni, se ci troviamo di fronte a più ordini o a più unità interne ad un ordine.
+ˆˆˆ ad es. sarebbe 3, 121, 62, 3661 o altro?
+
+Dunque il sistema rischiava di essere ambiguo e di generare errori.
+All'inizio i segni degli ordini superiori venivano rappresentati di dimensioni più grandi. Spesso però la fretta della scrittura abituale non consentiva di rispettare tali differenze nelle dimensioni. 
+La soluzione successiva pure dava l'impressione di un rattoppo: era cioè uno spazio vuoto tra un ordine e l'altro (alla maniera dell'abaco e del quipu).
+Esempi:
+132 = ˆˆ|ˆˆ	(60x2)+(1x10)+(2x1)
+
+3672 = ˆ  ˆ|ˆˆ	(1x60x60)+(1x60)+(1x10)+(2x1)
+
+Come si vede il problema del sistema posizionale è la mancanza dello zero.
+Infatti se si usa il principio di posizione c’è bisogno di un segno grafico speciale per rappresentare un ordine numerico vuoto.
+
+'''Babylonian numerals''' were written in cuneiform, using a wedge-tipped reed stylus to make a mark on a soft clay tablet which would be exposed in the sun to harden to create a permanent record.
+
+The Babylonians, who were famous for their astrological observations and calculations (aided by their invention of the abacus),  used a sexagesimal (base-60) positional numeral system inherited from the Sumerian and also Akkadian civilizations.  Neither of the predecessors was a positional system (having a convention for which ‘end’ of the numeral represented the units).  
+
+This system first appeared around 3100 B.C.It is also credited as being the first known place-value numeral system, in which the value of a particular digit depends both on the digit itself and its position within the number. This was an extremely important development, because prior to place-value systems people were obliged to use unique symbols to represent each power of a base (ten, one-hundred, one thousand, and so forth), making even basic calculations unwieldy.
+
+Only two symbols (one similar to a "Y" to count units, and another similar to a "<" to count tens) were used to notate the 59 non-zero zero. Babylonians later devised a sign to represent this empty place. They lacked a symbol to serve the function of radix point, so the place of the units had to be inferred from context.
+
+Their system clearly used internal mixed-radix system of bases 10 and 6, since the ten sub-base was used merely to facilitate the representation of the large set of digits needed, while the place-values in a digit string were consistently 60-based and the arithmetic needed to work with these digit strings was correspondingly sexagesimal.
+
+The legacy of sexagesimal still survives to this day, in the form of degrees (360° in a circle, i.e. 60° in the angle of an equilateral triangle), minutes, and seconds in trigonometry and the measurement of time, although both of these systems are actually mixed radix.
+
+A common theory is that 60, a superior 12 and 120), was chosen due to its 1, 2, 3, 4, 5, 6, 10, 12, 15, 20, and 30. In fact, it is the smallest integer divisible by all integers from 1 to 6. fractions were represented identically &mdash; a radix point was not written but rather made clear by context.
+
+450px|thumb|Babylonian numerals

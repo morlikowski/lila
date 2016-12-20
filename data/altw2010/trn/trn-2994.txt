@@ -1,0 +1,120 @@
+'''Builder''' é um padrão de projeto de software que permite a separação da construção de um objeto complexo da sua representação, de forma que o mesmo processo de construção possa criar diferentes representações.
+
+==Estrutura==
+thumb|500px|right|Diagrama UML da estrutura do padrão Builder
+O padrão Builder, da forma como foi descrito no livro Design Patterns: Elements of Reusable Object-Oriented Software, contém os seguintes elementos:
+
+* ''director'' &mdash; constrói um objeto utilizando a interface do ''builder'';
+* ''builder'' &mdash; especifica uma interface para um construtor de partes do objeto ''product'';
+* ''concrete builder'' &mdash; define uma implementação da interface ''builder'';
+* ''product'' &mdash; o objeto complexo em construção.
+
+==Utilização==
+O padrão Builder pode ser utilizado em uma aplicação que converte o formato RTF para uma série de outros formatos e que permite a inclusão de suporte para conversão para outros formatos, sem a alteração do código fonte do leitor de RTF.
+
+A implementação da solução para esse problema pode ser realizada através de uma classe de leitura (''director'') associada a uma classe capaz de converter o formato RTF para outra representação (''builder''). O objeto da classe de leitura lê cada ''token'' do texto e executa o método apropriado no objeto de conversão, de acordo com tipo do ''token''. A classe de conversão possui um método para cada tipo de ''token'', incluindo os caracteres comuns, parágrafos, fontes e etc. Para cada formato de texto suportado é criada uma classe de conversão especializada (''concrete builder''). Um conversor para formato ASCII, por exemplo, poderia ignorar qualquer requisição para converter ''tokens'' que não fossem caracteres comuns. Um conversor para o formato PDF, por outro lado, iria processar qualquer requisição para poder converter o estilo, além do texto.
+
+==Comparação com o Abstract Factory==
+O padrão Builder é muitas vezes comparado com o padrão Abstract Factory pois ambos podem ser utilizados para a construção de objetos complexos. A principal diferença entre eles é que o Builder constrói objetos complexos passo a passo e o Abstract Factory constrói famílias de objetos, simples ou complexos, de uma só vez.
+
+==Exemplo==
+Neste exemplo, o método <code>lerRTF()</code> (classe <code>LeitorRTF</code>) percorre uma lista com os ''tokens'' encontrados no texto de entrada (formato RTF) e, para cada tipo de ''token'', chama um método do objeto de tipo <code>ConversorTexto</code>. Dependendo do formato escolhido para o texto de destino, será escolhida uma implementação da classe <code>ConversorTexto</code>: <code>ConversorPDF</code>, <code>ConversorTeX</code> ou <code>ConversorASCII</code>. Cada uma destas classes implementa os métodos de acordo com as características do formato relacionado. A classe <code>ConversorASCII</code> não implementa os métodos <code>converteParagrafo()</code> e <code>converteFonte()</code> pois este formato (ASCII) não possui elementos de estilo.
+
+====Diagrama====
+thumb|900px|center|Exemplo de Diagrama em [[UML para o Padrão Builder.]]
+
+'''Builder パターン'''（ビルダー・パターン）とは、GoF（Gang of Four; 4人のギャングたち）によって定義されたデザインパターンの1つである。
+オブジェクトの生成過程を抽象化することによって、動的なオブジェクトの生成を可能にする。
+
+==クラス図==
+Builder パターンのクラス図を以下に挙げる。
+
+center|700px
+
+==利用例==
+Java SE 5(J2SE 5.0) 以降のバージョンで動作する。
+
+ enum Material{WOOD, CLAY, CONCRETE, SNOW}
+ class Building{
+     private Material base;
+     private Material frame;
+     private Material wall;
+     void setBase(Material m){
+         this.base = m;
+     }
+     void setFrame(Material m){
+         this.frame = m;
+     }
+     void setWall(Material m){
+         this.wall = m;
+     }
+     public String toString(){
+         return "[Base:" + this.base + ", Frame:" + this.frame + ", Wall:" + this.wall + "]";
+     }
+ }
+ interface Builder{
+     void buildBase();
+     void buildFrame();
+     void buildWall();
+     Building getResult();
+ }
+ class JapaneseHouseBuilder implements Builder{
+     private Building building;
+     JapaneseHouseBuilder(){
+         this.building = new Building();
+     }
+     public void buildBase(){
+         this.building.setBase(Material.CONCRETE);
+     }
+     public void buildFrame(){
+         this.building.setFrame(Material.WOOD);
+     }
+     public void buildWall(){
+         this.building.setWall(Material.CLAY);
+     }
+     public Building getResult(){
+         return this.building;
+     }
+ }
+ class KamakuraBuilder implements Builder{
+     private Building building;
+     KamakuraBuilder(){
+         this.building = new Building();
+     }
+     public void buildBase(){
+         this.building.setBase(Material.SNOW);
+     }
+     public void buildFrame(){
+         this.building.setFrame(Material.SNOW);
+     }
+     public void buildWall(){
+         this.building.setWall(Material.SNOW);
+     }
+     public Building getResult(){
+         return this.building;
+     }
+ }
+ class Director{
+     private Builder builder;
+     Director(Builder builder){
+         this.builder = builder;
+     }
+     Building construct(){
+         this.builder.buildBase();
+         this.builder.buildFrame();
+         this.builder.buildWall();
+         return this.builder.getResult();
+     }
+ }
+ public class BuilderTest{
+     public static void main(String[] argv){
+         Director d1 = new Director(new JapaneseHouseBuilder());
+         Director d2 = new Director(new KamakuraBuilder());
+         Building b1 = d1.construct();
+         Building b2 = d2.construct();
+         System.out.println(b1);
+         System.out.println(b2);
+     }
+ }
+
+このソースコードは、以下の結果を出力する。

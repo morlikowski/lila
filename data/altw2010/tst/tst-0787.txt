@@ -1,0 +1,175 @@
+{{Infobox programming language
+| name                   = Dao
+| logo                   = 128px
+| paradigm               = Multi-paradigm
+| year                   = 2006
+| designer               = Limin Fu
+| latest_release_version = dao-1.0-preview
+| latest_release_date    = 2008-04-25
+| typing                 = statically typed or dynamically typed
+| influenced_by          = Lua, Python, Perl
+| operating_system       = Cross-platform
+| license                = LGPL
+| website                = http://www.xdao.org
+}}
+
+'''Dao''' is an object-oriented scripting language with dynamically typed variables supporting complex data structures. It has powerful text processing abilities, such as regular expression matching. It provides a wealth of built-in numerical data types such as complex numbers and multi-dimensional numeric arrays, as well as their corresponding arithmetic operations. Support for multi-threaded programming is also an integrated part of Dao. 
+The Dao interpreter is implemented as a lightweight and efficient virtual register machine (Dao VM) in standard C. The Dao VM can be easily extended with C or C++, through a simple and transparent interface. <!-- It can also be easily embedded into other C/C++ programs. [can someone clarify this? -GoodSirJava] -->
+
+Advanced features of the language include:
+
+* A mixed static and dynamic type system with automatic type deduction capabilities
+* A flexible macro system that allows definition of new syntax
+* Concurrent and distributed programming with message passing interfaces
+* Direct embedding of C code into Dao programs
+
+==Basics==
+===Hello World===
+
+The classic hello world program can be written as follows:
+
+ '''stdio.print''' ( "Hello world!" )
+
+Here '''stdio''' is the standard library to handle input and output. In Dao, there are no built-in functions; all functions are part of a certain library, such as '''stdio''', '''stdlib''', '''math''', '''coroutine''', '''reflect''', '''mpi''' (message passing interface), '''network''', and '''thread'''.
+
+The '''stdlib.listmeth''' routine can be used to display the methods in a library. The methods in '''math''', for example, can be displayed using:
+  '''stdlib.listmeth''' ( math )
+
+===Data Types===
+
+A Dao variable can be implicitly declared by assigning the result of an expression to a variable name.
+
+  a_number = 123
+  a_string = "abc"
+  a_list = { 1, 2, 3 }
+  a_map = { "CD"=>123, "AB"=>456 }
+  a_vector = [ 1, 2, 3 ]
+  a_matrix = [ 1, 2; 3, 4 ]
+
+By default, a variable will have a fixed type that is inferred from the expression that is used to declare the variable; this is called implicit typing. The type of a variable can also be specified explicitly, using the following Pascal-style declaration syntax:
+
+  var_typed : ''type''
+  var_typed : ''type'' = ''value''
+
+''type'' can be one of the following built-in types: '''int''', '''float''', '''double''', '''string''', '''complex''', '''list''', '''map''', '''array''', '''buffer''', '''routine''', or some composition of these types.
+
+For example:
+
+  a_list2 : '''list'''<'''list'''<'''float'''> >
+  a_list3 : '''list'''<'''list'''<'''string'''> > = {}
+  a_map2 : '''map'''<'''string''','''int'''> = { "ABC"=>123 }
+
+''type'' can also be a Dao class name or the name of a user-defined C type. Special keywords for typing include: '''any''' for any type<!-- is this comparable to 'var' in C#? -->, '''?''' for undefined types and '''@X''' for a type holder that can be initialized to a certain type in a parameter list.
+
+All typed variables undergo static checking.
+
+===Control Flow===
+
+If-Elif-Else:
+
+  a = '''math'''.rand();
+  '''if'''( a > 0.75 ){
+     a -= 0.75
+  }'''elif'''( a > 0.5 ){
+     a -= 0.5
+  }'''else'''{
+     a -= 0.25
+  }
+  
+While:
+
+  i = 0;
+  '''while'''( i < 10 ) i++
+
+For:
+
+  '''for'''( i=0; i<10; i++ ) '''stdio'''.println( i )
+  '''for'''( i=0 : 9 ) '''stdio'''.println( i )
+  '''for'''( i=0 : 2 : 9 ) '''stdio'''.println( i )
+
+For-in:
+
+  a_list = { 1, 2, 3 }
+  '''for'''( it '''in''' a_list ) '''stdio'''.println( it )
+  a_list2 = { "a", "b", "c" }
+  '''for'''( it '''in''' a_list; it2 '''in''' a_list2 ) '''stdio'''.println( it, it2 )
+
+For-in also works for hash.
+
+Switch
+
+'''다오'''()는 객체 지향 스크립트 언어이다. 복잡합 자료 구조를 지원하는 동적 타이핑 변수(dynamically typed variables)를 지원한다. 정규 표현식 매칭 같은 텍스트 처리 기능이 들어가 있다. 복소수, 다차원 배열 및 그것에 맞는 연산 등 여러 다양한 자료형을 언어 자체에서 지원한다. <!-- built-in --> 다오는 또한 자체적으로 멀티 스레드 프로그래밍을 지원한다. 
+
+다오 인터프린터는 가볍고 효율적인 가상 레지스터(register) 머신 (Dao VM) 형태로 구현되어 있으며, C로 구현되어 있다. 간단하고 평이한 인터페이스를 통해 C 혹은 C++ 과 같이 확장되어 사용될 수 있다. <!-- It can also be easily embedded into other C/C++ programs. [can someone clarify this? -GoodSirJava] -->
+
+다오의 특징은 다음과 같다:
+ 
+* 정적 그리고 동적 형체계(type system)을 섞어서 지원. 자동 형 유추 기능.
+* 유연한 매크로 체계. 새로운 문법 정의 가능.
+* 동시적이며(Concurrent) 분산된(distributed) 프로그래밍. 메시지 전달 인터페이스 제공.
+* 다오 프로그램에 C 코드를 직접 포함(embedding) 가능
+
+== 기초 ==
+===Hello World===
+
+Hello world 프로그램을 다오를 써서 작성해보면 다음과 같다.
+ 
+ '''stdio.print''' ( "Hello world!" )
+
+여기서 '''stdio'''는 입출력을 처리하는 표준 라이브러리이다. 다오에는 내장 함수(built-in function)이 없다. 모든 함수는 어떤 라이브러리의 일부이다. 예를 들면, '''stdio''', '''stdlib''', '''math''', '''coroutine''', '''reflect''', '''mpi''' (message passing interface), '''network''', 그리고 '''thread''' 같은 것들이다.
+
+프로그래머는 '''stdlib.listmeth''' 루틴을 사용하여 라이브러리 내의 메소드들을 출력해볼 수 있다. 예를 들면, '''math''' 의 메소드들은 다음과 같이 하면 출력된다.
+  '''stdlib.listmeth''' ( math )
+
+=== 자료형 ===
+
+다오의 변수는 암묵적으로(implicitly) 선언된다. 어떤 익스프레션의 결과를 대입하면 선언된다. 
+
+  a_number = 123
+  a_string = "abc"
+  a_list = { 1, 2, 3 }
+  a_hash = { "CD"=>123, "AB"=>456 }
+  a_vector = [ 1, 2, 3 ]
+  a_matrix = [ 1, 2; 3, 4 ]
+
+기본적으로, 변수는 변수를 선언하는 데 쓰인 익스프레션에서 다오 인터프린터가 유추해낸 형을 갖게 된다. 사람들은 이러한 타이핑을 암묵적 타이핑(implicit typing)이라고 부른다. 프로그래머는 변수의 형을 명시적으로 정의할 수 있는데, 다음과 같이 파스칼 (프로그래밍 언어) 비슷한 문법을 쓰면 된다.
+
+  var_typed : ''type''
+  var_typed : ''type'' = ''value''
+
+''type'' 자리에는 다음과 같은 내장 형(type)들이 들어갈 수 있다. '''int''', '''float''', '''double''', '''string''', '''complex''', '''list''', '''hash''', '''array''', '''buffer''', '''routine''' 같은 것들이다.
+혹은 이들의 조합 중 일부가 들어갈 수 있다.
+
+예:
+
+  a_list2 : '''list'''<'''list'''<'''float'''> >
+  a_list3 : '''list'''<'''list'''<'''string'''> > = {}
+  a_hash2 : '''hash'''<'''string''','''int'''> = { "ABC"=>123 }
+
+''type'' 자리에는 다오 클래스 이름이 들어갈 수도 있으며, 사용자가 정의한 C 형(type)의 이름이 들어갈 수 있다. 이른바 "무엇이든 형"(any type)에는 '''any''' 키워드를 쓴다. <!-- is this comparable to 'var' in C#? -->, 정의 안 된 형(undefined types)에는 '''?'''를 쓴다. <!--'''@X''' for a type holder that can be initialized to a certain type in a parameter list. -->
+
+형이 결정된(typed) 변수는 다오 인터프리터 측에서 정적 형 검사(static checking)을 해준다.
+
+=== 제어 ===
+
+If-Elif-Else:
+
+  a = '''math'''.rand();
+  '''if'''( a > 0.75 ){
+     a -= 0.75
+  }'''elif'''( a > 0.5 ){
+     a -= 0.5
+  }'''else'''{
+     a -= 0.25
+  }
+  
+While:
+
+  i = 0;
+  '''while'''( i < 10 ) i++
+
+For:
+
+  '''for'''( i=0; i<10; i++ ) '''stdio'''.println( i )
+  '''for'''( i=0 : 9 ) '''stdio'''.println( i )
+  '''for'''( i=0 : 2 : 9 ) '''stdio'''.println( i )

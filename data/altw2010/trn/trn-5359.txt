@@ -1,0 +1,149 @@
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = Pieve a Nievole |
+  name = Pieve a Nievole |
+  region = Tuscany |
+  province = Province of Pistoia (PT) |
+  elevation_m = 28 |
+  area_total_km2   = 12.7 |
+  population_as_of  = Dec. 2004 |
+  population_total = 9387 |
+  population_density_km2 = 739 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          = Via Nova, Poggetto, La Colonna |
+  telephone         = 0572 |
+  postalcode        = 51018 |
+  gentilic          = pievarini |
+  saint             = Saint Mark |
+  day               = April 25 |
+  mayor             = Massimo Alamanni |
+  website           = [http://www.comune.pieve-a-nievole.pt.it/ www.comune.pieve-a-nievole.pt.it/] |
+  mapy = 10.8167 |
+  mapx = 43.8667 |
+}}
+'''Pieve a Nievole''' is a ''Italian region Tuscany, located about 35&nbsp;km northwest of Florence and about 11&nbsp;km southwest of Pistoia. As of 31 December 2004, it had a population of 9,387 and an area of 12.7&nbsp;km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+The municipality of Pieve a Nievole contains the ''frazioni'' (subdivisions, mainly villages and hamlets) Via Nova, Poggetto, and La Colonna.
+
+Pieve a Nievole borders the following municipalities: Monsummano Terme, Montecatini-Terme, Ponte Buggianese, Serravalle Pistoiese.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:9500
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:500 start:0
+ScaleMinor = gridcolor:lightgrey increment:100 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:2757
+  bar:1871 from: 0 till:3168
+  bar:1881 from: 0 till:3221
+  bar:1901 from: 0 till:2812
+  bar:1911 from: 0 till:3249
+  bar:1921 from: 0 till:3341
+  bar:1931 from: 0 till:3569
+  bar:1936 from: 0 till:3581
+  bar:1951 from: 0 till:3956
+  bar:1961 from: 0 till:4440
+  bar:1971 from: 0 till:6402
+  bar:1981 from: 0 till:7619
+  bar:1991 from: 0 till:8489
+  bar:2001 from: 0 till:9098
+
+PlotData=
+
+  bar:1861 at:2757 fontsize:XS text: 2757 shift:(-8,5)
+  bar:1871 at:3168 fontsize:XS text: 3168 shift:(-8,5)
+  bar:1881 at:3221 fontsize:XS text: 3221 shift:(-8,5)
+  bar:1901 at:2812 fontsize:XS text: 2812 shift:(-8,5)
+  bar:1911 at:3249 fontsize:XS text: 3249 shift:(-8,5)
+  bar:1921 at:3341 fontsize:XS text: 3341 shift:(-8,5)
+  bar:1931 at:3569 fontsize:XS text: 3569 shift:(-8,5)
+  bar:1936 at:3581 fontsize:XS text: 3581 shift:(-8,5)
+  bar:1951 at:3956 fontsize:XS text: 3956 shift:(-8,5)
+  bar:1961 at:4440 fontsize:XS text: 4440 shift:(-8,5)
+  bar:1971 at:6402 fontsize:XS text: 6402 shift:(-8,5)
+  bar:1981 at:7619 fontsize:XS text: 7619 shift:(-8,5)
+  bar:1991 at:8489 fontsize:XS text: 8489 shift:(-8,5)
+  bar:2001 at:9098 fontsize:XS text: 9098 shift:(-8,5)
+
+{{ItaliaanseGemeente|
+|naam= Pieve a Nievole
+|italiaansenaam= Pieve a Nievole
+|kaart= Pieve a NievoleLocatie
+|px=160
+|provincie= Pistoia (PT)
+|regioAfk=  TOS
+|regio= Toscane
+|jaar= 31-12-2004
+|inwonersaantal= 9387
+|inwonersperkm2= 739
+|oppervlakte= 12,7
+|water= 
+|latitudeGraden= 43
+|latitudeMinuten= 52
+|latitudeSeconden= 0
+|longitudeGraden= 10
+|longitudeMinuten= 49
+|longitudeSeconden= 0
+|kaartX= 105
+|kaartY= 109
+|code= 047013
+|postcode= 51018
+|netnummer= 0572
+|hoogteligging= 28
+|aangrenzende gemeenten=    
+|beschermheilige= San Marco Evangelista
+|naam inwoner= pievarini
+|diverse= <small>bron: [http://www.istat.it/ Italiaans bureau voor statistiek]<small>  
+}} 
+'''Pieve a Nievole''' is een gemeente in de Italiaanse provincie Pistoia (regio Toscane) en telt 9387 inwoners (31-12-2004). De oppervlakte bedraagt 12,7 km², de bevolkingsdichtheid is 739 inwoners per km².
+
+De volgende frazioni maken deel uit van de gemeente: Via Nova, Poggetto, La Colonna.
+
+==Demografie==
+Pieve a Nievole telt ongeveer 3463 huishoudens. Het aantal inwoners steeg in de periode 1991-2001 met 7,2% volgens cijfers uit de tienjaarlijkse volkstellingen van ISTAT.
+
+{| class="prettytable" style="text-align:center;"  
+! width=70px  | Jaar 
+! width=100px | Inwoneraantal
+|- 
+| 1991 || 8489
+|- 
+| 2001 || 9098
+|}
+
+==Geografie==
+De gemeente ligt op ongeveer 28 m boven zeeniveau. 
+
+Pieve a Nievole grenst aan de volgende gemeenten: Monsummano Terme, Montecatini-Terme, Ponte Buggianese, Serravalle Pistoiese.

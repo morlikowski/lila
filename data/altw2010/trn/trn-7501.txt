@@ -1,0 +1,70 @@
+In Markup Languages, '''Schematron''' is a rule-based validation language for making assertions about the presence or absence of patterns in XML trees.  It is a simple and powerful structural schema language. It typically uses XPath to describe patterns.
+
+== Advantages ==
+Because of its rule-based nature, Schematron's specificity is very strong. It can require that the content of an element be controlled by one of its siblings. It can, also, request or require that the root element, regardless of what element that happens to be, have specific attributes. It can even specify required relationships between multiple XML files.
+
+== Uses ==
+Because of its simple, lightweight design and reuse of existing XML standards such as XPath, Schematron can be used for many purposes.  Some of these include the following areas.
+
+=== Adjunct to Structural Validation ===
+Schematron can be used as an adjunct to XML Schema. It allows co-occurrence constraints, non-regular constraints, and inter-document constraints.
+
+=== Lightweight Business Rules Engine ===
+Schematron is used to express lightweight business rules.  Schematron is not a full heavyweight Rete rules engine but can be used to express rules about complex structures with an XML document.
+
+=== XML Editor Syntax Highlighting Rules ===
+XML Editors use Schematron rules to conditionally highlight XML files for errors.
+
+== History ==
+Schematron was invented by Rick Jelliffe.  He described Schematron as "a feather duster to reach the parts other schema languages cannot reach".
+
+== Schematron as an ISO Standard ==
+
+; Schematron has been standardized to become part of : ISO/IEC 19757 - Document Schema Definition Languages (DSDL) - Part 3: Rule-based validation - Schematron.
+
+=== Namespace Standard ===
+Any files that use ISO/IEC FDIS 19757-3 should use the following namespace:
+
+'''The Schematron''' ist eine Schemasprache zur Validierung von Inhalt und Struktur von XSL-Transformationen realisiert, bedarf also keiner speziellen Implementierung, wie es bei den meisten anderen (Dokumentstruktur-Definitionssprachen) der Fall ist.
+
+Schematron wurde 1999 von Rick Jelliffe am ''Academia Sinica Computing Centre'' in Taipeh, Taiwan entwickelt. Seit Mai 2006 ist Schematron als offizieller  ISO/IEC-Standard unter der Nummer 19757-3:2006 registriert. Das in der Entstehung befindliche '''ISO Schematron''' wird die aktuelle Schematron-Version 1.5 ablösen.
+
+== Einleitung ==
+Anders als beispielsweise DTD oder XML Schema dient Schematron nicht zur Definition, sondern lediglich zur Validierung von XML-Dokumenten. Es verwendet keine Formale Grammatik, sondern findet Muster in der Dokumentstruktur. Dadurch ist es möglich, Regeln zu definieren, die mit herkömmlichen Schemasprachen, die auf Grammatiken basieren, nicht möglich wären. Dennoch sollte Schematron in erster Linie als Ergänzung, nicht als Konkurrenz zu anderen Schemasprachen verstanden werden.
+
+Zu den möglichen Einsatzgebieten zählen komplexe Regelwerke, die Abhängigkeiten zwischen verschiedenen Teilen des Dokumentbaums ausdrücken oder dynamische Berechnungen erfordern.
+
+== Konzept und Syntax ==
+Ein Schematron-Schema besteht im wesentlichen aus einem XML-Dokument mit verschiedenen Validierungsregeln, in denen jeweils ein Kontextknoten bestimmt wird, auf welchen Zusicherungen und Reports formuliert werden, die später geprüft werden sollen.
+
+Das folgende Beispiel zeigt ein Schematron-1.5-Schema:
+<source lang="xml">
+<schema xmlns="http://www.ascc.net/xml/schematron">
+  <title>A Schematron Mini-Schema for Schematron</title>
+  <ns prefix="sch" uri="http://www.ascc.net/xml/schematron">
+  <pattern name="Schematron Basic Structure">
+    <rule context="sch:schema">
+      <assert test="sch:pattern">
+	A schema contains patterns.
+      </assert>
+      <assert test="sch:pattern/sch:rule[@context]">
+	A pattern is composed of rules.
+	These rules should have context attributes.
+      </assert>
+      <assert test="sch:pattern/sch:rule/sch:assert[@test] or sch:pattern/sch:rule/sch:report[@test]">
+	A rule is composed of assert and report statements.
+	These rules should have a test attribute.
+      </assert> 
+    </rule>
+  </pattern>
+</schema>
+</source>
+
+Dieses Mini-Schema, welches eine rudimentäre Prüfung eines Schematron-1.5-Schemas ermöglicht, besteht aus folgenden Elementen:
+* <code><schema xmlns="http://www.ascc.net/xml/schematron" ></code> als Wurzelelement des Dokuments,
+* einem optionalen Element <code><title></code>, welches das Schema beschreibt,
+* beliebig vielen <code><ns prefix="???" uri="???" /></code>-Elementen, in denen Namensräume (<code>uri</code>) und ihre Präfixe (<code>prefix</code>) zur Verwendung in XPath-Ausdrücken deklariert werden,
+* <code><pattern name="???"></code> als Container mit Beschreibung (<code>name</code>) für mehrere
+* <code><rule context="???"></code>-Elemente, wobei <code>context</code> ein XSL-Ausdruck ist, der verwendet wird, um die Umgebung festzulegen, in der die folgenden beiden Elemente ausgeführt werden:
+* <code><assert test="???"></code>, um eine Zusicherung zu formulieren, zusammen mit einem Fehlertext für den Fall, dass der in <code>test</code> mittels XPath formulierte Test fehlschlägt, oder
+* (im Beispiel nicht verwendet) <code><report test="???"></code>, um eine Zusicherung zu formulieren, zusammen mit einem Meldungstext für den Fall, dass der Test erfolgreich ist.

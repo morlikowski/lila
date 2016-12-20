@@ -1,0 +1,100 @@
+'''BELLEK'''
+
+Bellek bilgisayarı oluşturan 3 ana bileşenden biridir. (merkezi işlem birimi – bellek – giriş/çıkış aygıtları). İşlemcinin çalıştırdığı programlar ve programa ait bilgiler bellek üzerinde saklanır. Bellek geçici bir depolama alanıdır. Bellek üzerindeki bilgiler güç kesildiği anda kaybolurlar. Bu nedenle bilgisayarlarda programları daha uzun süreli ve kalıcı olarak saklamak için farklı birimler (sabit disk - CD - DVD) mevcuttur.
+
+Belleğe genellikle random access memory (rastgele erişimli bellek) ifadesinin kısaltması olan RAM adı verilir. Bu ad bellekte bir konuma rastgele ve hızlı bir şekilde erişebildiğimiz için verilmiştir. RAMde sadece işlemcide çalışan program parçaları tutulur ve elektrik kesildiği anda RAMdeki bilgiler silinir. Bilgilerin kalıcı olarak saklandığı yer teker(disk)’dir. Bu iki kavram bilgisayarı kullanmaya yeni başlayan insanlar tarafından genellikle karıştırılır. Bu kavramları açıklamak için en güzel benzetme; bir dosya dolabı ve çalışma masası olan ofistir. Bu örnekte dosyaların kalıcı olarak saklandığı tekeri dosya dolabı, üzerinden çalışılan verilerin bulunduğu belleği ise çalışma masası temsil etmektedir. Bir ofiste dosyalar dosya dolapları içinde saklanır ve çalışanlar üzerinden çalışmak istedikleri dosyayı dolaptan alarak kendi çalışma masaları üzerinde çalışırlar. Bilgisayarda da işlemci üzerinde çalışacağı veriler tekerden belleğe getirilir. Dosya dolabınız ne kadar büyükse, o kadar çok dosyayı saklayabilirsiniz ve masanız ne kadar büyükse aynı anda o kadar çok dosyayı masaya alıp üzerinde çalışabilirsiniz. Bilgisayar ortamında da işler tam olarak böyledir. Teker kapasitesi ne kadar büyükse o kadar çok veri saklayabiliri ve bellek kapasitesi ne kadar büyükse işlemci o kadar çok dosya üzerinde çalışabilir. Bu benzetmenin bilgisayarın çalışma şeklinden farkıysa belleğe getirilen dosyaların tekerdeki dosyaların bir kopyası olmasıdır. Gerçek dosyalar tekerde saklanmaya devam eder. Bunun sebebiyse belleğin güç kesildi anda verileri kaybetmesidir. Eğer bellekteki dosya değiştirilirse değişiklerin kaybolmaması için teker üzerinde değişikliklerin kaydedilmesi gerekir.
+
+== Geçmişten Günümüze Bellekler ==
+right|thumb|300px|Son 20 yılda bellek teknolojisindeki gelişim
+İlk bilgisayarlarda bellek yoktu. Onun yerine süngü ve röle ile katot lambaları kullanılmakta idi. Yazılımlar ve veriler tamamen diğer medyalara geçirilmekte idiler. Teleteks şeritleri veya delikli kartlar gibi. İlk dijital bilgisayarlarda röleler bellek için kullanılmış. Daha sonra katot lambaları yanında yüzük şeklinde olan manyetik demir (ferrit) çekirdekler kullanılmış. Teker düzeninde tellere geçirilen bu demir yüzükler akımı aldığında mıknatıslaşmakta ve bu durumu kaybetmemekte idiler. Ama her okuma sürecinde hafıza bilgisini kaybetmekte idiler. Yapısal özelliği nedeni ile büyük mekanlara ihtiyaç vardı. Tipik bir büyük bilgisayar olan Telefunken TR440'nın 1970 senesinde belleği 48bit lik 192.000 kelime yani bir Megabyte'a eşit idi.
+
+1985'te satın alınan bir PC (Commodore PC10) de 64 KByte belleğe sahip iken 1990 da alınan bir PC de 1 MB'ye belleği bulunabiliyordu. 2005 de ise bu 512 Megabyte veya daha çok olabilir. Günümüzün PC lerinde kullanılan işletim sistemleri (Windows, Linux, BeOs vs) bellek canavarları olup, yukarıya doğru sınır tanımamaktadırlar (tabii bu sınır var olup şu an pratik olarak ulaşılamamakta). Anakartlarda bulunan Chipset (yonga) tipine göre üst sınır olup bunların açıklamaları üreticinin İnternet sayfasında veya kılavuzunda bulunmaktadır.
+
+Transistörün bulunuşu ile birlikte büyük atılımlar olmuş. Bugün tümleşik devre imkanları ile en modern bilgisayar sistemleri donatılmaktadır.
+
+Günümüzde amaç büyük, ucuz ve hızlı bellek üretmektir. Ama hayatın gerçeği şudur ki; bellek büyüdükçe yavaşlar, hızlandıkça da küçülür. Bu sorunu aşıp büyük, hızlı ve ucuz bellek tasarlamak için aşamalı bellek yapısı ve koşutluk (paralellik) kullanılmaktadır.
+
+== Aşamalı Bellek Yapısı ==
+right|thumb|300px|Bellek aşamaları
+Bellekler, aşamaları kullanılarak, en ucuz teknolojinin sağlayabileceği boyutla en pahalı teknolojinin sağlayabileceği hız sunulmaya çalışılmaktadır. Yazmaçlar işlemcinin içindedir ve işlemci yazmaçlara doğrudan erişebilir. Yazmaçlara erişim için geçen süre bir nano saniyenin altındadır. Yazmaçlarda sadece birkaç bitlik veri tutulabilir. Bir GB veri saklayabilecek yazmaçlar üretmek için milyonlarca dolar harcamak gerekir. Birinci düzey önbellek birkaç kilobaytlık veri tutabilir ve erişim süresi birkaç nano-saniyedir. Erişim süresi ikinci düzey önbellekte birkaç on nano-saniyeye, ana bellekte de yüzlerce nano-saniyeye çıkar.
+
+Bu yapıda yazmaçlar ve bellek arası iletişim derleyiciler; önbellek ve bellek arasındaki iletişim donanım; bellek ve teker arasındaki iletişim de işletim sistemi, donanım ve kullanıcı tarafından yönetilir.
+
+ 
+
+===''' Tanımlar/Kavramlar '''===
+
+Bulma(Hit): Aranan verinin üst düzey bellekte herhangi bir öbekte bulunmasıdır.
+
+Bulma Zamanı: Bellek erişim süresi + Verinin bulunup bulunamadığının belirlenme süresi.
+
+Bulamama(Miss):Aranan verinin alt düzey bir bellekte bulunmasıdır.
+
+Bulamama Gecikmesi:Üst düzey bellekten bir öbeğin atılması + Yeni öbeğin işlemciye getirilmesi için geçen zaman.
+
+=== '''[http://tr.wikipedia.org/wiki/%C3%96nbellek#Alanda_Yerellik Alanda Yerellik]''' ===
+Bir öğe bellekten okunduysa, yakınındaki adresteki öğelerin okunması olasıdır.
+left|centre|500px|Son 20 yılda bellek teknolojisindeki gelişim
+
+===[http://tr.wikipedia.org/wiki/%C3%96nbellek#Zamanda_Yerellik Zamanda Yerellik] ===
+Bir öğe bellekten okunduysa yakın zamanda tekrar okunması olasıdır.
+
+== Rastgele Erişimli Bellek (RAM) ==
+right|thumb|300px|2.1 Bellek hücresi
+Rastgele erişimli bellek ifadesindeki rastgele kavramı, bellekteki her veriye bellekteki konumundan bağımsız olarak aynı sürede erişilebildiği anlamına gelir. Şekil 2.1 de sıradan bilgisayarlarda kullanılan RAM hücresinin fonksiyonel davranışını gösterir.
+
+Fiziksel uyarlama tam olarak şekildeki gibi olmak zorunda değildir, ama çalışma şekli böyledir. Bir bellek hücresini uyarlamanın birçok yolu vardır. Şekildeki gibi flipfloplar üzerine kurulu RAM yongaları (çipleri) statik RAM’lerdir (SRAM) ve her konumun içeriği güç kesilene kadar saklanır. Dinamik RAM (DRAM) yongalarında bir miktar enerji depolayan kapasitörler kullanılır. Bu kapasitörlerdeki enerji seviyesi 1 ya da 0’a karşılık gelir. Kapasitörler flipfloplardan çok daha küçüktür, bu yüzden aynı boyutlardaki bir DRAM, SRAM’den çok daha fazla veri saklayabilir. DRAM üzerindeki hücrelerde, kapasitör boşaldıkça hücredeki veri düzenli olarak değiştirilmeli ya da yenilenmelidir.
+ 
+DRAM’ler ortamdaki gama ışınlarıyla etkileşim içine girerlerse, üzerilerindeki kapasitörler zamanından erken deşarj olabilir. Fakat bu çok nadir gerçekleşen bir durumdur. Açık bırakılan bir sistem günlerce hata vermeden çalışabilir. Bu yüzden ilk kişisel bilgisayarlarda (PC) hata algılayıcı devreler bulunmazdı. Bilgisayarlar gün sonunda kapatılırdı ve bu sayede hatalar yığılmazdı. Hata algılayıcılarının olmaması, DRAM fiyatlarının uzun bir daha düşük seyretmesini sağladı. Ancak gelişen teknolojiyle DRAM fiyatlarının en düşük seviyeye gelmesi ve bilgisayarların açık kalma sürelerinin artmasıyla beraber, hata algılayıcılar bilgisayarların olağan parçaları haline geldiler.
+
+=== RAM Çeşitleri ===
+RAM’ler silikon üzerine yerleştirilmiş birçok transistörün, ağırlıklı olarak veri erişiminin kontrolü ve verinin saklanmasıyla ilgili belli işlevleri yerine getirmesi için birbirine bağlanmış elektronik yapılardır. RAM teknolojilerinde güdülen hedef daha küçük transistörler üretmek, böylece bir silikon parçasına daha fazla transistör yani daha fazla işlev sığdırmak ve bu sayede silikonun daha hızlı çalışmasını sağlamaktır. Bu hedefe giderken karşılaşılan engellerin çoğu gelişen teknolojiyle daha üretim aşamasındayken aşılıp geri kalan kısım ise geliştirilen algoritmalar ve protokollere çözülmektedir. RAM çeşitleri ise bu protokoller tarafından belirlenmektedir.
+
+Kısaca hatırlamak gerekirse iki çeşit RAM olduğunu söyledik, DRAM ve SRAM. Kapasitörlerin şarjını periyodik olarak yenilemek gerektiği için DRAM’lara dinamik bellek, elektrik kesilmediği sürece bilgiyi sakladığı için SRAM’lara statik bellek adı verilir. DRAM’ın SRAM’a karşı avantajı ise yapısal basitliğidir. SRAM’da her bit için altı transistör gerekirken DRAM’da bir transistör ve bir kapasitör yeterlidir. Ekonomik nedenlerden ötürü kişisel bilgisayarlar, çalışma istasyonları ve Playstation – Xbox gibi küçük olmayan oyun konsollarında genel olarak büyük olan DRAM kullanılırken önbellek ve teker tamponu gibi diğer kısımlarda SRAM kullanılır.
+
+SRAM ile ilgili ayrıntılar SRAM'de; SDRAM, RDRAM, DDR SDRAM gibi DRAM ile ilgili ayrıntılar DRAM'de bulunabilir.
+
+thumb|right|250px|Diversos modelos de [[memória RAM, uma memória primária e volátil]]
+
+Em informática, '''memória''' são todos os dispositivos que permitem a um computador guardar dados, temporariamente ou permanentemente. 
+
+==Tipologia==
+
+Podemos distinguir os vários tipos de memórias:
+
+* Memórias '''primárias''': também chamadas de memória real, são memórias que o registradores e memórias ''cache''.
+* Memórias '''secundárias''': memórias que não podem ser endereçadas diretamente,  a informação precisa ser carregada em memória primária antes de poder ser tratada pelo processador. Não são estritamente necessárias para a operação do computador. São geralmente ''não-voláteis'', permitindo guardar os dados permanentemente. Incluem-se, nesta categoria, os discos rígidos, CDs, DVDs e disquetes.
+
+Às vezes faz-se uma diferença entre '''memória secundária''' e '''memória terciária'''. A memória secundária não necessita de operações de montagem (inserção de uma mídia ou média em um dispositivo de leitura/gravação) para acessar os dados, como discos rígidos; a memória terciária depende das operações de montagem, como discos ópticos e fitas magnéticas, entre outros.
+
+==Tecnologias de implementação==
+As principais tecnologias de implantação de memórias em uso corrente são:
+*Portas lógicas e ''memória ''cache''.
+*Transistores e circuitos de refrescamento, usados na implementação da memória principal.
+*Arranjos de conexões, utilizados na implementação de certas ROMs (memórias de leitura).
+*Fitas magnéticas, utilizadas principalmente para cópias de segurança e arquivamento a longo prazo.
+*Discos magnéticos, como discos rígidos e disquetes - a principal tecnologia de implementação de memória secundária.
+*Discos ópticos, como CDs e DVDs, e suas diversas variações.
+*câmeras digitais e leitores de MP3. 
+
+Existem também tecnologias que foram usadas no passado, mas tornaram-se obsoletas:
+*Memórias de tecnologia ''pulsos sonoros em uma coluna de mercúrio.
+*Memórias CRT, também chamadas de ''Williams-tube'', um tipo de memória que usava um tubo CRT para armazenar dados na forma de pontos luminosos.
+*Memórias de núcleo de ferrite, uma tecnologia popular de implementação da memória principal nas décadas de 1940 e 1950.
+*Memórias de filme fino, uma melhoria da tecnlogia de núcleo de ferrite, utilizada em alguns computadores na década de 1960.
+*Cartões e fitas perfuradas, que já foram os principais meios de memória não-volátil.
+
+=== Memórias voláteis ===
+
+Memórias voláteis são as que requerem energia para manter a informação armazenada. São fabricadas com base em duas tecnologias: dinâmica e estática.
+
+thumb|left|250px|Memória SRAM de 64MB
+==== Memória dinâmica ====
+A memória dinâmica é a mais barata delas e, portanto, a mais utilizada nos computadores e são aquelas que foram popularizadas como memórias Randomic Acess Memory (memória de acesso aleatório), que significa que os dados nela armazenados podem ser acessados a partir de qualquer endereço. As memórias RAM se contrapõem com as de acesso seqüencial, que exigem que qualquer acesso seja feito a iniciar pelo primeiro endereço e, seqüencialmente, vai “pulando” de um em um até atingir o objetivo. Na realidade, existem outras memórias de acesso aleatório nos computadores, inclusive não voláteis, portanto, é importante ter o conhecimento de que o nome RAM é apenas uma popularização do nome da memória principal dos computadores, utilizada para armazenar os programas e dados no momento da execução.
+
+O nome ''dinâmica'' é referente à tecnologia utilizada para armazenar programas e dados e não à forma de acessá-los. De modo simplista ela funciona como uma bateria que deve ser recarregada sempre que apresentar carga insuficiente para alimentar o equipamento.
+
+Todas as vezes que a CPU (unidade de processamento central) for acessar a memória, para escrita ou para leitura, cada célula dessa memória é atualizada. Se ela tem <code>1</code> lógico armazenado, sua “bateria” será recarregada; se ela tem <code>0</code> lógico, a “bateria” será descarregada. Este procedimento é chamado de refresco de memória, em inglês, ''refresh''.
+
+==== Memória estática ====
+A memória estática não necessita ser analisada ou recarregada a cada momento. Fabricada com circuitos eletrônicos conhecidos como ''latch'', guardam a informação por todo o tempo em que estiver a receber alimentação.

@@ -1,0 +1,101 @@
+'''Комма''' - (,  від  — відрізок) - в музичній акустиці один з найменших музичних інтервалів.
+
+З античних часів існує проблема незамкнутості натуральних ладів. Розрізняють піфагорейскую кому, що дорівнює близько 1/9 тону та синтонічну кому або дидимову кому, що дорівнює приблизно 1/10 півтону.
+
+=== Піфагорейська кома===      
+Дванадцять квинт у сумі повинні дати сім октав. Однак у пифагорейському ладі є розходження, називане ''пифагорейською комою'', рівне приблизно чверті півтона:
+
+::<math> \frac{2^7}{\left(\frac{3}{2}\right)^{12}} = \frac{2^{19}}{3^{12}} = \frac{524288}{531441} \approx 23{,}46\;\mathrm{Cent} </math>
+
+=== Дидимова кома=== 
+Чотири чистих квинти (2:3) складені разом дають велику терцію. Пифагорейська терція (дитон):  
+::<math> \frac{2^2}{\left(\frac{3}{2}\right)^{4}} = \frac{2^6}{3^4} = \frac{64}{81}  \approx 407{,}82\;\mathrm{Cent} </math>.
+
+Однак  отриманий інтервал вище за натуральну терцію (4:5) на '''синтонічну кому''' або '''дидимову кому'''.
+
+thumb|left|Cycle des quintes et comma pythagoricien
+Le '''comma pythagoricien''' ou '''comma ditonique'''<ref>Rameau parle du « comma maxime »</ref> est un concept de théorie musicale. C'est un intervalle inférieur à un quart de demi-ton (23,45 cents). Précisément, il s'agit de l'intervalle existant entre 7 octaves pures et 12 quintes pures. Cet intervalle - ou différence de hauteur - dégagé par la théorie n'est pas un intervalle musical utilisé en tant que tel dans la pratique de cet art.  
+
+L'existence et la valeur du comma pythagoricien s'expliquent à l'aide des deux tableaux ci-dessous. Le tableau de gauche fournit les rapports de fréquences des sons distants, l'un par rapport au précédent, d'un intervalle de quinte pure (rapport 2/3), suivant la succession des notes du cycle des quintes. L tableau de droite indique les rapports pour des sons distants d'intervalles d'octaves pures (rapport 1/2). La note la plus basse, Do, est choisie de manière arbitraire, et n'a pas d'influence.   
+
+Il convient de signaler qu'on parle ici de quintes « pures » de rapport 2/3 exactement, et non de quintes « justes » (c’est-à-dire ni augmentée ni diminuée). 
+
+{| <!--width="90%"-->
+|-----
+| valign="top" |
+{| class="wikitable"
+|-----
+! Note
+! &nbsp;Quinte&nbsp;
+! Rapport de fréquences
+! valeur
+|-
+! Do
+| align="center"| 0 || align="center"|   1 '''/''' 1      || =&nbsp; 1 '''/''' 1
+|-
+! Sol
+| align="center"| 1 || align="center"|   2 '''/''' 3      || =&nbsp; 1 '''/''' 1,5
+|-
+! Ré
+| align="center"| 2 || align="center"|   4 '''/''' 9      || =&nbsp; 1 '''/''' 2,25
+|-
+! La
+| align="center"| 3 || align="center"|   8 '''/''' 27     || =&nbsp; 1 '''/''' 3,375
+|-
+! Mi
+| align="center"| 4 || align="center"|  16 '''/''' 81     || =&nbsp; 1 '''/''' 5,0625
+|-
+! Si
+| align="center"| 5 || align="center"|  32 '''/''' 243    || =&nbsp; 1 '''/''' 7,59375
+|-
+! Fa♯
+| align="center"| 6 || align="center"|  64 '''/''' 729    || =&nbsp; 1 '''/''' 11,390625
+|-
+! Do♯
+| align="center"| 7 || align="center"| 128 '''/''' 2187   || =&nbsp; 1 '''/''' 17,0859375
+|-
+! Sol♯
+| align="center"| 8 || align="center"| 256 '''/''' 6561   || =&nbsp; 1 '''/''' 25,62890625
+|-
+! Ré♯
+| align="center"| 9 || align="center"| 512 '''/''' 19683  || =&nbsp; 1 '''/''' 38,443359375
+|-
+! La♯
+| align="center"|10 || align="center"|1024 '''/''' 59049  || =&nbsp; 1 '''/''' 57,6650390625
+|-
+! Mi♯
+| align="center"|11 || align="center"|2048 '''/''' 177147 || =&nbsp; 1 '''/''' 86,49755859375
+|-
+| align="center"|'''Si♯''' (~ '''Do''')
+| align="center"|12 || align="center"|4096 '''/''' 531441 || =&nbsp; 1 '''/''' 129,746337890625
+|}
+| valign="top" |
+{| class="wikitable"
+|-----
+! Ton&nbsp;
+! &nbsp;Octave&nbsp; 
+! &nbsp;Rapport de fréquences.&nbsp;
+|-----
+| align="center"|'''Do''' || align="center"|0 || align="center"|1 ''':''' 1
+|-
+| align="center"|'''Do''' || align="center"|1 || align="center"|1 ''':''' 2
+|-
+| align="center"|'''Do''' || align="center"|2 || align="center"|1 ''':''' 4
+|-----
+| align="center"|'''Do''' || align="center"|3 || align="center"|1 ''':''' 8
+|-----
+| align="center"|'''Do''' || align="center"|4 || align="center"|1 ''':''' 16
+|-----
+| align="center"|'''Do''' || align="center"|5 || align="center"|1 ''':''' 32
+|-----
+| align="center"|'''Do''' || align="center"|6 || align="center"|1 ''':''' 64
+|-----
+| align="center"|'''Do''' || align="center"|7 || align="center"|1 ''':''' 128
+|}
+|}
+
+L'intervalle entre les deux dernières notes correspond à un rapport de fréquences d'environ 128/129,75 (très précisément : 524288/531441 = 128/129,746337890625 = 1/1,0136432647705078125). C'est cet intervalle qu'on nomme comma pythagoricien, celui entre '''do''' et le '''si♯''' obtenu par montées de quintes successives, alors que ces deux notes sont considérées équivalentes en solfège.
+
+Les commas sont la difficulté majeure de l'harmonisation : un instrument - tel que les instruments à clavier modernes - qui ne peut produire que 12 sons distincts dans un intervalle d'octave ne peut être accordé de telle façon qu'il puisse être joué en respectant les intervalles de la juste intonation dans tous les modes.
+
+Dans la pratique on essaie d'accorder les instruments à sons fixes en "répartissant" le défaut minime que constitue le comma pythagoricien entre plusieurs intervalles, chaque partie devenant moins perceptible. (Il y a eu aussi des tentatives de réaliser des instruments produisant plus de 12 intervalles élémentaires par octave, par exemple en divisant les touches chromatiques, afin de distinguer les dièses et les bémols) Grace à la remarquable quasi-équivalence entre les commas pythagoricien et syntonique, la plupart des tempéraments inventés au cours de l'histoire se chargent de repartir essenciellement le comma pythagoricien dans le cycle des quintes, mais, pour autant, l'essenciel de ces tempéraments travaillent à une plus grande justesse des tierces (dont la fausseté s'illustre par le comma syntonique) tout en gardant les quintes acceptables. (La difference entre ces deux commas est le schisma, trés petit intervalle de 2 cents, dont on tient parfois compte dans la réalisation de certains tempéraments au clavecin.) 

@@ -1,0 +1,222 @@
+{{宇宙機
+| 名称 = 月周回衛星「かぐや(SELENE)」
+| 画像 = 
+| 画像の注釈 = かぐやのCG
+| 所属 = 宇宙航空研究開発機構(JAXA)
+| 主製造業者 = NEC東芝スペースシステム
+| 公式ページ = [http://www.selene.jaxa.jp/ 月周回衛星「かぐや (SELENE)」]
+| 国際標識番号 = 2007-039A
+| NORAD_NO = 32054
+| 状態 = 運用中
+| 目的 = 月の周回観測
+| 観測対象 = 月
+| 計画の期間 = 約1年間
+| 設計寿命 = 1年1ヶ月
+| 打上げ機 = H-IIAロケット 13号機
+| 打上げ日時 = 2007年9月14日<br />10時31分01秒
+| 軌道投入日 = 2007年10月4日
+| 最接近日 = 
+| 機能停止日 = 
+| 通信途絶日 = 
+| 運用終了日 = 
+| 停波日 = 
+| 消滅日時 = 
+| 物理的特長 = 物理的特長
+| 本体寸法 = 2.1 m x 2.1 m x 4.8 m
+| 最大寸法 = 
+| 質量 = 主衛星 : 2,914 kg（打上げ時）<br />リレー衛星 : 53 kg<br />VRAD衛星 : 53 kg
+| 発生電力 = 3.5 kW（最大）<br />3.3 kW以上（寿命末期）
+| 主な推進器 = 化学スラスタ (500N)
+| 姿勢制御方式 = 3軸姿勢制御
+| 軌道要素 = 軌道要素
+| 周回対象 = 月
+| 軌道 = 円軌道
+| 静止経度 =
+| 高度 = 100 km ± 30 km
+| 近点高度 = 
+| 遠点高度 = 
+| 軌道半長径 = 
+| 離心率 = 
+| 軌道傾斜角 = 約90度
+| 軌道周期 = 約2時間
+| 回帰日数 = 約30日
+| サブサイクル = 
+| 回帰精度 = 
+| 降交点通過地方時 = 
+| 搭載機器 = 観測機器
+| 搭載機器名称1 = XRS
+| 搭載機器説明1 = 蛍光X線分光計
+| 搭載機器名称2 = GRS
+| 搭載機器説明2 = ガンマ線分光計
+| 搭載機器名称3 = MI
+| 搭載機器説明3 = マルチバンドイメージャ
+| 搭載機器名称4 = SP
+| 搭載機器説明4 = スペクトルプロファイラ
+| 搭載機器名称5 = TC
+| 搭載機器説明5 = 地形カメラ
+| 搭載機器名称6 = LRS
+| 搭載機器説明6 = 月レーダサウンダー
+| 搭載機器名称7 = LMAG
+| 搭載機器説明7 = 月磁場観測装置
+| 搭載機器名称8 = LALT
+| 搭載機器説明8 = レーザ高度計
+| 搭載機器名称9 = PACE
+| 搭載機器説明9 = プラズマ観測装置
+| 搭載機器名称10 = CPS
+| 搭載機器説明10 = 粒子線計測器
+| 搭載機器名称11 = RS
+| 搭載機器説明11 = 電波科学
+| 搭載機器名称12 = UPI
+| 搭載機器説明12 = 超高層大気プラズマイメージャ
+| 搭載機器名称13 = VRAD
+| 搭載機器説明13 = VLBI電波源
+| 搭載機器名称14 = RSAT
+| 搭載機器説明14 = リレー衛星
+| 搭載機器名称15 = HDTV
+| 搭載機器説明15 = ハイビジョンカメラ
+}}
+'''かぐや'''（'''SELENE''', '''Sel'''enological and '''En'''gineering '''E'''xplorer、'''セレーネ'''）は、衛星。'''SELENE'''はギリシア神話の月の女神セレネ (Σελήνη, Selene) にちなんだ名称である。
+
+この衛星を利用した月探査計画は'''SELENE Project'''（'''セレーネ計画'''）と呼ばれ、NHKの地球の出（アース・ライズ）」なども撮影されている<ref> </ref>。
+
+'''かぐや'''の愛称は、JAXAの行った一般公募によって決定された。後に子衛星2機にも愛称がつけられ、リレー衛星は「おきな」(OKINA)、VRAD衛星は「おうな」(OUNA) と命名された。それぞれ、竹取物語の中で月へと帰るかぐや姫と、育ての親の翁（おきな）、嫗（おうな）にちなむ。
+
+当初は2007年8月16日に打上げが予定されていたが、コンデンサの取り付けミスや天候悪化などのため9月14日に延期された。打ち上げ後は順調に飛行を続け、予定通りに月周回軌道に入り、2機の子衛星を分離後に月面から高度100kmの月周回観測軌道に投入された。
+
+== 目的 ==
+月の起源と進化を解明するためと将来の月の利用のため、さまざまな観測をすることを目的としている。
+
+同時に周回衛星に搭載された観測機器で、高エネルギー粒子などの月周辺空間の環境・計測を予定している。
+
+将来的には、かぐや後継機による月面着陸の構想もある。
+
+=== 主衛星による主な観測項目 ===
+* 月表面の元素/鉱物組成
+* 地形
+* 表面付近の地下構造
+* 磁気異常
+* 重力場の観測
+
+=== VRAD衛星による主な観測項目 ===
+* VLBI（超長基線電波干渉法）による、主衛星/リレー衛星との電波差異による月の周回運動の詳細観測。
+
+<br style="clear: both;"/>
+== 機器概要 ==
+
+リレー衛星をRstar、VRAD衛星をVstarと呼称する。両者は軽量化のためにスラスターモータを搭載しないため、主衛星からの分離時の姿勢とスピンが重要な開発研究の要点として進められた。
+
+=== 主衛星 ===
+* 縦・横: 2.1 m
+* 高さ: 4.2 m（上部モジュール: 2.8 m、下部モジュール: 1.2 m）
+* 重さ: 1.6トン
+* エンジン: 500Nメインエンジン1台、20Nスラスタ4本×3系統、1Nスラスタ4本×2系統
+上部モジュールにリレー/VRAD衛星が取り付けられ、周回軌道投入時に切り離される。
+
+月表面の画像撮影のために、高信頼性ハイビジョン (Hi-Vison) カメラを搭載。その他、月の物理学・測地学探査に重要な観測機器を搭載。観測機器の安定のため、スラスターモータ及び3軸加速度計による3軸安定姿勢制御システムによる制御を実施。
+
+=== リレー衛星（おきな） ===
+八角柱の形でダイポールアンテナを持つ。主目的は、主衛星の電波を月の裏側から中継、及び重力測定。姿勢を安定させるため、主衛星からの切り離し時にばね仕掛けで回転が与えられる（VRAD衛星も同様）。
+
+=== VRAD衛星（おうな） ===
+VRADとは differential Vlbi RADio sources の略。八角柱の形でダイポールアンテナを備える。主目的は、主衛星、リレー衛星、VRAD間でのVLBI測定。そのための、電波送信源としての送信機。
+
+== 搭載機器 ==
+=== 元素分析 ===
+; 蛍光エックス線分光計
+: 太陽から放射されるX線によって月面の元素が放つ蛍光X線を捉えることで、月における元素の分布を調べる装置。
+; ガンマ線分光計
+: 銀河宇宙線が降り注ぐことにより月面から放射されるガンマ線や、天然放射性元素から放出されるガンマ線を捉えることで、月面における鉄、チタン、マグネシウム、アルミニウム、カリウム、トリウム、ウラン、カルシウム、珪素、酸素、及び極域の水素といった元素の分布を調べる装置。
+
+=== 地質学鉱物学分析 ===
+; マルチバンドイメージャー
+: 広い波長で光を観測することによって、地質鉱物の放つ光を観測し、その分布や組成を調査する装置。特に、元素分析装置との違いは、面で捉えることが出来る点である。
+; スペクトロプロファイラ
+: 鉱物が放つ光を分光解析し、その分布や組成を調査する装置。鉱物の放つ光は、原子間の結合力と電磁波との共振によるため、単なる元素の相違のみならず、結晶構造の相違もある程度まで判別可能である。
+
+=== 地形表層構造 ===
+; 地形カメラ
+: 立体視の原理を活用して、月表面の標高や地形データを調査する装置。
+; 月レーダーサウンダ
+: レーダーの原理を用いて、衛星と月との間の距離を測定する装置。
+; レーザ高度計
+: 衛星と月との間の距離を精密に測定するための基準となる装置。
+
+{{Sonda kosmiczna infobox
+|          nazwa =Kaguya
+|        obrazek =
+|     inne_nazwy =SELENE 
+|  organizatorzy =JAXA
+|         COSPAR = 
+|        rakieta =H-IIA (2022) F13
+|      kosmodrom =Kosmodrom Tanegashima
+|           kraj =Japonia
+|      cel_misji =Księżyc
+|          cel_2 =
+| ciało_centralne=Księżyc
+|    perycentrum =100 km
+|     apocentrum =100 km
+|          okres = 
+|     nachylenie =90 
+|       mimośród = 
+| początek_dzień =14 września
+|   początek_rok =2007
+|          hh:mm =01:31:01
+|lądowanie_dzień =
+|  lądowanie_rok =
+|      ląd_hh:mm =
+|   koniec_dzień = 
+|     koniec_rok = 
+|   powrót_dzień = 
+|     powrót_rok = 
+|        kształt =sześcienny 
+|      wymiary =kadłub orbitera:  2,1 m x 2,1 m x 4,8 m
+|      masa_całk =3020
+|       masa_ład =297
+}}
+'''Kaguya''' (jap. かぐや — nazwa pochodzi od imienia księżycowej księżniczki z japońskiej baśni), do czerwca 2007 r. oficjalnie określana nazwą '''SELENE''' (ang. '''''SEL'''enological and '''EN'''gineering '''E'''xplorer'') — japońska  sonda kosmiczna. Sztuczny satelita Księżyca. Sonda składa się z głównego orbitera i dwóch subsatelitów.
+
+==Cele misji==
+*Wykonanie badań służących ustaleniu pochodzenia i ewolucji Księżyca.
+*Przeprowadzenie obserwacji środowiska księżycowego: rozmieszczenia pierwiastków chemicznych i minerałów na powierzchni, wykonanie map topograficznych i badanie struktury podpowierzchniowej.
+*Pomiary księżycowego pola grawitacyjnego i resztkowych pól magnetycznych.
+*Pomiary cząstek energetycznych i środowiska plazmowego w otoczeniu Księżyca oraz obserwacje ziemskiej magnetosfery.
+*Ocena możliwości przyszłego wykorzystania Księżyca.
+*Przeprowadzenie testów technologii niezbędnych dla przyszłych misji księżycowych, jak techniki wejścia na orbitę wokółbiegunową, stabilizacji trójosiowej i kontroli termicznej pojazdu.
+
+==Konstrukcja sondy==
+Sonda Kaguya składa się z trzech elementów: głównego orbitera i dwóch subsatelitów. 
+
+*'''Orbiter'''
+Kadłub orbitera ma wymiary 2,1 x 2,1 x 4,8 m. Składa się on z dwóch głównych części: górnego modułu o długości 2,8 m zawierającego większość instrumentów naukowych i dolnego modułu napędowego o długości 1,2 m. Z boku statku przymocowane jest pojedyncze skrzydło baterii słonecznych o powierzchni 22 m<sup>2</sup> dostarczające energii o mocy do 3486 W. Będzie ono ładować 4 baterie niklowo - wodorowe o pojemności 35 Ah i napięciu 50 V. Łączność z sondą zapewnią przymocowana do boku kadłuba antena główna o średnicy 1,3 m oraz 4 mniejsze anteny wielokierunkowe. Maksymalna prędkość przesyłania danych na Ziemię będzie wynosić 10 N. Sonda zaopatrzona też będzie w zestaw 12 silników kontroli położenia o ciągu 20 N oraz 8 silników o ciągu 1 N. Orbiter będzie stabilizowany trójosiowo. Na szczycie statku, do momentu ich uwolnienia, będą znajdować się 2 subsatelity. Całkowita masa startowa orbitera będzie wynosić 2914 kg, w tym 795 kg paliwa dla silników.
+
+*Subsatelity:
+**'''VRAD (Vstar, VLBI Radio Source, Ouna)'''
+**'''Relay Satellite (Rstar, Okina)'''
+Obydwa subsatelity mają bardzo zbliżoną konstrukcję. Kadłub każdego satelity ma kształt ośmiobocznego cylindra o wymiarach 0.99 x 0.99 x 0.65 m i masę 53 kg. Energia dostarczana jest przez baterie słoneczne  o mocy 70 W pokrywające boczne ściany. Będą one ładować baterie niklowo - wodorowe o pojemności 13 Ah i napięciu 26 V. Satelity będą stabilizowane obrotowo (w tempie 10 obrotów naa minutę) i  nie posiadają własnego napędu. Każdy subsatelita posiada antenę dipolową wystającą ze szczytu kadłuba. '''Relay Satellite''' dodatkowo posiada 4 małe anteny dla łączności z głównym orbiterem. Obydwa subsatelity wyposażone są w nadajniki radiowe umożliwiające pomiary interferometrii radiowej. '''Relay Satellite''' będzie też przekazywał czterokierunkowe sygnały radiowe dla pomiarów dopplerowskich pomiędzy stacją naziemną a głównym orbiterem.
+
+===Instrumenty naukowe<ref>[http://www.ias.ac.in/jessci/dec2005/ilc-23.pdf SELENE project status]</ref>===
+*''X-ray Spectrometer'' ('''XRS''') — spektrometr rentgenowski mierzący zawartość Mg, Al, Si, Fe, Ca, Ti; obserwacje w zakresie energii 0,7 — 10 keV z rozdzielczością przestrzenną 10 - 20 km; monitor słonecznego promieniowania rentgenowskiego
+*''Gamma-ray Spectrometer'' ('''GRS''') — spektrometr promieniowania gamma mierzący zawartość U, Th, K, O, Mg, Al, Si, Ti, Fe, Ca i H; obserwacje w zakresie energii 0,1 — 10 MeV
+*''Spectral Profiler'' ('''SP''') — spektrometr obrazujący w świetle widzialnym i podczerwieni wykonujący mapy mineralogiczne; obserwacje w zakresie długości fal 0,52 — 2,6 μm
+*''Multi-band Imager'' ('''MI''') — kamera wielospektralna wykonująca mapy mineralogiczne; obserwacje w zakresie długości fal 0,4 — 1.6 μm; rozdzielczość 20 m w świetle widzialnym i 62 m w bliskiej podczerwieni
+*''Terrain Camera'' ('''TC''') — kamera stereoskopowa o rozdzielczości 10 m; obserwacje w zakresie długości fal 0,43 — 0,85 μm 
+*''Lunar Radar Sounder'' ('''LRC''') — plazmowych
+*''Laser Altimeter'' ('''LALT''') — wysokościomierz laserowy o dokładności pomiarów wysokości terenu wynoszącej 5 m
+*''Lunar Magnetometer'' ('''LMAG''') — nT
+*''Upper Atmosphere and Plasma Imager'' ('''UPI''') — instrument do obrazowania wokółziemskiej plazmy i zórz polarnych w ultrafiolecie i świetle widzialnym
+*''Charged Particle Spectrometer'' ('''CPS''') — spektrometr cząstek naładowanych 
+*''Plasma Analyzer'' ('''PACE''') — analizator plazmy
+*''Radio Science'' ('''RS''') — eksperyment sondowania radiowego jonosfery księżycowej
+*''High Definition Television Camera'' ('''HDTV''') — dwie kamery telewizyjne wysokiej rozdzielczości (kamera szerokokątna i z teleobiektywem) filmujące powierzchnię Księżyca i Ziemię widzianą z orbity wokółksiężycowej
+*''Differential VLBI Radio-Source'' ('''VRAD''') — radiowa interferometria wielkobazowa
+*''Relay Satellite Transponder'' ('''RSAT''') — eksperyment pomiarów dopplerowskich pola grawitacyjnego na odwrotnej stronie Księżyca
+
+==Przebieg misji==
+right|thumb|300px|Start sondy Kaguya z kosmodromu Tanegashima
+Pierwotnie start sondy przewidziano na 16 sierpnia 2007, na godzinę 00:30:48. Jednak 20 lipca oświadczono, że start zostanie opóźniony z powodu odkrycia zmiany biegunowości jednego z kondensatorów satelity WINDS. Identyczne kondensatory znajdowały się w minisatelitach Vstar i Rstar.
+
+Sonda Kaguya została wyniesiona z kosmodromu Tanegashima ang. ''orbit injection error correction maneuver''). W jego wyniku orbita zmieniła się uzyskała parametry 956×232782 km i okres 4 dni 23 godzin 37 minut.
+
+19 września 2007, o godz. 00:52 sonda wykonała manewr dostosowania okresu. Orbita zmieniła się na następującą: 1039×377809 km, a jej okres wyniósł 9 dni 23 godziny 31 minut. O godz. 20:59 wykonano trzeci z kolei manewr (korekcji błędu okresu). W jego wyniku orbita uzyskała parametry: 1055×379196 km, okres wyniósł 10 dni i 48 minut.
+
+Sonda weszła orbitę okołoksiężycową 3 października o 21:20 GMT.

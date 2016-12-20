@@ -1,0 +1,477 @@
+{| border="0" align="right" style="margin-left:1em"
+| 
+{| border="1" cellpadding="2" cellspacing="0"
+|+<font size="+1">'''Tritó'''</font>
+|- 
+| bgcolor="#000000" colspan="2" align="center" |290px<br><small><font color="white">Hemisferi sud de Tritó vist per la Voyager 2.<br>Mosaic d'imatges.</small></br>
+|-
+! bgcolor="#a0c0ff" align="center" colspan="2" | Descobriment 
+|-
+! align="left" | Descobert per
+| William Lassell 
+|- 
+! align="left" | Data
+| 10 d'octubre de 1846
+|-
+! bgcolor="#a0c0ff" align="center" colspan="2" | Característiques orbitals 
+|- 
+! align="left" | Semieix major
+| 354.760 km
+|- 
+! align="left" | Excentricitat
+| 0,000016
+|- 
+! align="left" | Període orbital 
+| -5,876854 dies<br>(retrògrada)
+|- 
+! align="left" | Inclinació
+| 156,834º
+|- 
+! align="left" | Període de rotació 
+| Rotació síncrona
+|-
+! bgcolor="#a0c0ff" align="center" colspan="2" | Característiques físiques
+|- 
+! align="left" | Diàmetre mitjà
+| 2.706,8 km
+|- 
+! align="left" | Massa
+| 2,14·10<sup>22</sup> kg
+|- 
+! align="left" | Densitat mitjana
+| 2.061 kg/m<sup>3</sup>
+|- 
+! align="left" | Albedo
+| 0,756
+|- 
+! align="left" | Atmosfera<br>Composició
+| Sí, molt tènue (0,001 kPa)<br>Nitrogen 99,9%<br>Metà 0,1%
+|}
+|}
+'''Tritó''' ( en grec Τρίτων) és el satèl·lit més gran de Neptú. Va ser descobert per William Lassell el 1846, només 17 dies després del descobriment del planeta. També se l'anomena '''Neptú I'''.
+
+És un cos esfèric rocós de 2.707 km de diàmetre. És, per tant, molt més gran que els altres satèl·lits neptunians (el segon és Proteu amb només 418 km). Orbita a 354.760 km de Neptú (i es troba a 4.500 milions de quilòmetres de la Terra).
+
+Ha estat visitat per una sola nau espacial, la Voyager 2, el 25 d'agost de 1989. Gairebé tot el que sabem de Tritó és gràcies a aquest encontre.
+
+== Nom ==
+Deu el seu nom al déu Tritó de la Neptú en la Hiperió, Ariel i Umbriel). Durant molts anys el nom Tritó no va ser gaire utilitzat i en la literatura especialitzada se l'anomenava simplement "el satèl·lit de Neptú". Va ser, probablement, el descobriment d'un segon satèl·lit neptunià el Nereida, el que va precipitar l'adopció de Tritó com a nom oficial del satèl·lit.
+
+== Característiques físiques ==
+Tritó està desfigurat per violentes erupcions volcàniques i la seva superfície s'ha congelat i fos repetidament, quedant així solcada d'una intrincada xarxa d'enormes cadenes muntanyoses, valls i falles. També hi ha extenses regions planes cobertes de gels, i en general, conté molt pocs cràters visibles; això indica que la superfície és relativament jove. La seva densitat (2.061 kg/m<sup>3</sup>) és lleugerament més alta que la dels satèl·lits gelats de Saturn (com per exemple, Rea) suggerint una composició de 25% gel d'aigua i la resta material rocós. Es desconeix com és l'hemisferi nord (no estava iluminat quan va passar la Voyager 2) però gairebé tot l'hemisferi sud està cobert per un casquet de nitrogen i metà congelats.
+
+Possiblement siga l'astre més fred del Plutó de 44 K. Això és degut, en part, al seu alt albedo (0,756) cosa que significa que poca de la llum solar que li arriba és absorbida.
+
+La característica més interessant (i totalment inesperada) de Tritó són els seus volcans de gel. El material en erupció probablement sigui nitrogen líquid o compostos de metà. L'energia per a les erupcions la proporciona l'escalfament estacional del Sol.
+
+La atmosfera (0,01 mbar), composta principalment per nitrogen amb una petita quantitat de metà, que s'estén fins als 10 km d'altura.
+
+== Característiques orbitals ==
+left|250px|thumb|Tritó vist per la Voyager 2.
+L'retrògrada. És l'únic dels grans satèl·lits que orbita en sentit contrari a la rotació del seu seu planeta. Alguns altres petits satèl·lits de Júpiter, Saturn i Urà també ho fan, però el més gran de tots ells, Febe té un diàmetre de només 220 km. A causa de la seva òrbita retrògrada, les forces de marea entre Neptú i Tritó extreuen energia de Tritó reduint el radi de la seva òrbita. En un futur molt llunyà Tritó acabarà trencant-se (potser formant un anell) o bé s'estrellarà contra Neptú.
+
+<!--
+ Scroll down to edit the contents of this page.
+ Additional parameters for this template are available at Template:Infobox Planet.
+-->
+{{Infobox Planet
+| name               = Triton
+| image              = 300px
+| bgcolour           = #a0ffa0
+| discovery          = yes
+| discoverer         = William Lassell
+| discovered         = October 10, 1846
+| semimajor          = 354,800 km
+| eccentricity       = 0.000016<ref name="fact">{{cite web
+ | title = Neptunian Satellite Fact Sheet
+ | publisher = NASA
+ | author = David R. Williams
+ | date = 23 November 2006
+ | url = http://nssdc.gsfc.nasa.gov/planetary/factsheet/neptuniansatfact.html
+ | accessdate = 2008-01-18
+}}</ref>
+| period             = −5.877 d<br/>(retrograde)
+| inclination        = 130.267° (to the ecliptic)<br/>157.340° (to Neptune's equator)<ref name=inclin>{{cite web
+ | title = Constraints on the Orbital Evolution of Triton
+ |  author= Matija Ćuk, Brett J. Gladman
+ | url = http://adsabs.harvard.edu/abs/2005ApJ...626L.113C
+ | year = 2005
+ | date = June 2005
+ | journal = The Astrophysical Journal
+ | volume = 626
+ | issue = 2
+ | pages = L113-L116
+ | accessdate = 2008-01-14
+}}</ref><br/>130.063° (to Neptune's orbit)
+| satellite_of       = Neptune
+| physical_characteristics = yes
+| mean_radius        = 1353.4 ± 0.9 km<ref name="SSD">{{cite web
+ | title = Planetary Satellite Physical Parameters
+ | work = Solar System Dynamics
+ | url = http://ssd.jpl.nasa.gov/?sat_phys_par
+ | accessdate = 2006-05-10
+}}</ref> (0.2122 Earths)
+| surface_area       = 23,018,000 km²
+| volume             = 10,384,000,000 km³
+| mass               = 2.14 kg (0.00359 Earths)
+| density            = 2.061 g/cm³<ref name="SSD" />
+| surface_grav       = 0.779 m/s²
+| escape_velocity    = 1.455 km/s
+| sidereal_day       = 5 d, 21 h, 2 min, 53s<ref name=book />
+| rotation           = synchronous
+| axial_tilt         = 0
+| albedo             = 0.76<ref name="SSD" />
+| magnitude          = 13.47<ref name=magnitude>{{cite web
+ | title = Classic Satellites of the Solar System
+ | url = http://www.oarval.org/ClasSaten.htm
+ | publisher = Observatorio ARVAL
+ | accessdate = 2007-09-28
+}}</ref>
+| abs_magnitude      = −1.2<ref name=fischer>{{cite web
+ | date = 12.2.2006
+ | title = Kuiperoids & Scattered Objects
+ | publisher = Argelander-Institut für Astronomie
+ | author = Daniel Fischer
+ | url = http://www.astro.uni-bonn.de/~dfischer/planeten/jwd.html
+ | accessdate = 2008-07-01}}</ref>
+| single_temperature = 38&nbsp;K<ref name=book /><br/>
+| adjectives = Tritonian
+| atmosphere         = yes
+| surface_pressure   = 0.0014–9&nbsp;kPa<ref name=book /><br />(1/70,000th the surface pressure on Earth)<ref name=solarsystemexploration/>
+| atmosphere_composition = nitrogen; methane traces.<ref name=nature2 />
+}}
+'''Triton''' (, or as in Greek ''Τρίτων),''<ref></ref> is the largest  moon of the retrograde orbit, which is an orbit in the opposite direction to its planet's rotation. At 2,700&nbsp;km in diameter, it is the seventh-largest moon in the Solar System. Triton comprises more than 99.5% of all the mass known to orbit Neptune, including the planet's rings and twelve other known moons. It is also more massive than all the Solar System's 159 known smaller moons combined.
+
+Because of its retrograde orbit (unique for an object of its size) and similar composition to Pluto, Triton is thought to have been captured from the Kuiper belt.<ref name="Agnor06"/> Triton consists of a crust of frozen nitrogen over an icy mantle believed to cover a substantial core of rock and metal.<ref name=book /> The core makes up two-thirds of its total mass. Triton has a mean density of 2.061&nbsp;g/cm<sup>3</sup><ref name="SSD" /> and is composed of approximately 15–35% water ice.<ref name= book />
+
+Triton is one of the few moons in the Solar System known to be geologically active. Its crust is dotted with geysers believed to erupt nitrogen.<ref name=solarsystemexploration>{{cite web
+ | url = http://solarsystem.nasa.gov/planets/profile.cfm?Object=Triton
+ | publisher = NASA
+ | accessdate = 2007-09-21
+ | title = Neptune: Moons: Triton
+}}</ref> As a consequence, its surface is relatively young, with a complex geological history revealed in intricate and mysterious tectonic terrains.<ref name= book /> Triton has a tenuous nitrogen atmosphere less than 1/70,000<sup>th</sup> the pressure of Earth's atmosphere at sea level.<ref name=solarsystemexploration/>
+
+==Discovery and naming==
+thumb|left|150 px|William Lassell, the discoverer of Triton
+The moon was discovered by British astronomer William Lassell on October 10 1846,<ref name="LassellDiscovery">{{cite journal
+ | title = Lassell's Satellite of Neptune
+ | author= William Lassell
+ | year = 1847
+ | date = November 12 1847
+ | journal = Monthly Notices of the Royal Astronomical Society
+ | volume = 8
+ | issue = 1
+ | url = http://adsabs.harvard.edu/abs/1847MNRAS...8....9B <!--- Mistake in Harvard abstracts shows Bond as author and next page, page is actually 8 not 9 and Lassell is the author --->
+ | pages = 8
+}}</ref> just 17&nbsp;days after Neptune itself was discovered by German astronomers Johann Gottfried Galle and Heinrich Louis d'Arrest.
+
+A brewer by trade, Lassell began making mirrors for his amateur telescope in 1820. When John Herschel received news of Neptune's discovery, he wrote to Lassell suggesting he search for possible moons. Lassell did so and discovered Triton just eight days later.<ref>{{cite journal
+ | title = Discovery of Supposed Ring and Satellite of Neptune
+ | author = William Lassell
+ | year = 1846
+ | date = November 13 1846
+ | journal = Monthly Notices of the Royal Astronomical Society
+ | volume = 7
+ | issue = 9
+ | url = http://adsabs.harvard.edu/abs/1846MNRAS...7..157L
+ | pages = 157
+}}
+
+*{{cite journal
+ | title = Physical observations on Neptune
+ | author = William Lassell
+ | year = 1846
+ | date = December 11 1846
+ | journal = Monthly Notices of the Royal Astronomical Society
+ | volume = 7
+ | issue = 10
+ | pages = 167&ndash;168
+ | url = http://adsabs.harvard.edu/abs/1847MNRAS...7..297L
+}}
+
+*{{cite journal
+ | title = Observations of Neptune and his satellite
+ | authorlink1 = William Lassell
+ | year = 1847
+ | date = 1847
+ | journal = Monthly Notices of the Royal Astronomical Society
+ | volume = 7
+ | issue = 17
+ | pages = 307&ndash;308
+ | url = http://adsabs.harvard.edu/abs/1847MNRAS...7..307L
+}}</ref><!--- Vol. 7, No. 16 is June 11, Vol. 8, No. 1 is November 12; Vol. 7, No. 17 was a special issue published "during the vacation" ---><ref name="LassellDiscovery" /> Lassell also claimed to have discovered rings. However, although Neptune does have rings, they are so faint and dark that it is unlikely he actually observed them.<ref name="Smithetal1984">{{cite journal
+ | author= Robert W. Smith, Richard Baum
+ | title = William Lassell and the Ring of Neptune: A Case Study in Instrumental Failure
+ | journal = Journal of History of Astronomy
+ | volume = 15
+ | issue = 42
+ | pages = 1–17
+ | year = 1984
+ | url = http://adsabs.harvard.edu/abs/1984JHA....15....1S
+}}</ref>
+
+Triton is named after the Greek sea god ''Triton'' (Τρίτων), the son of Neptune). The name was first proposed by Camille Flammarion in his 1880 book ''Astronomie Populaire'',<ref>{{cite web
+  | author = Flammarion, Camille
+  | title = ''Astronomie populaire'', p. 591
+  | date = 1880
+  | url = http://gallica.bnf.fr/ark:/12148/bpt6k94887w/f610.table
+  | accessdate = 2007-04-10
+}}</ref> although it was not officially adopted until many decades later.<ref>{{cite web
+ | title = Camile Flammarion
+ | work = Hellenica
+ | url = http://www.mlahanas.de/Physics/Bios/CamilleFlammarion.html
+ | accessdate = 2008-01-18
+}}</ref>  Until the discovery of the second moon Nereid in 1949, Triton was commonly known as simply "the satellite of Neptune".  Lassell did not name his own discovery, although he suggested names a few years later to his subsequent discovery of an eighth moon of Hyperion). The third and fourth moons of Ariel and Umbriel), which Lassell discovered in 1851, were named by John Herschel.<ref>{{cite web
+ | title = Planet and Satellite Names and their Discoverers
+ | work = International Astronomical Union
+ | url = http://www.indwes.edu/Faculty/bcupp/solarsys/Names.htm
+ | accessdate = 2008-01-13
+}}</ref>
+
+==Orbit and rotation==
+Triton is unique among all large moons in the Solar System for its retrograde orbit around its planet (''i.e.'', it orbits in a direction opposite to the planet's rotation). Most of the outer Phoebe) has only 8% of the diameter (and 0.03% of the mass) of Triton.  
+
+Triton's axis of rotation is also unusual, tilted 157 degrees with respect to Neptune's axis, which is in turn inclined 30 degrees from the plane of Neptune's orbit.<ref name=inclin /> The net result of these two axial tilts is that Triton's rotational axis lies in the plane of Neptune's orbit, and hence during Neptune's year each pole points almost directly toward the Sun, much like Uranus'. As Neptune orbits the Sun, Triton's polar regions take turns facing the sun, probably resulting in radical seasonal changes as one pole then the other moves into the sunlight. 
+The proximity of such a large moon to Neptune has resulted in tidal deceleration, which has altered the moon's orbit and rotation through gravitational interaction.
+
+Triton's revolution around Neptune has become a nearly perfect circle with an eccentricity of almost zero. However, viscoelastic damping from tides alone are not believed to be capable of circularizing Triton's orbit in the time since the origin of the system, and gas drag from a prograde debris disc is likely to have played a substantial role.<ref name=inclin /> Tidal interactions have also meant that Triton's already close orbit to Neptune is slowly decaying further, and predictions are that, some 3.6&nbsp;billion years from now, Triton will pass within Neptune's Roche limit.<ref name="Chyba">{{cite journal
+ | author = Christopher F. Chyba, D G Jankowski, P D Nicholson
+ | title = Tidal evolution in the Neptune-Triton system
+ | journal = Astronomy and Astrophysics
+ | year = 1989
+ | date = July 1989
+ | volume = 219
+ | issue = 1–2
+ | pages = L23–L26
+ | url = http://adsabs.harvard.edu/abs/1989A&A...219L..23C
+ | accessdate = 2006-05-10
+}}</ref> This will result in either a collision with Neptune's atmosphere or the breakup of Triton, forming a ring system similar to that found around Saturn.<ref name="Chyba"/>
+
+==Capture==
+thumb|250 px|The [[Kuiper belt, from which Triton is believed to have originated]]
+Moons in retrograde orbits cannot have formed out of the same region of the AU from the Sun. Believed to be the point of origin for the majority of short-period comets observed from Earth, it is also home to several large, planet-like bodies including Pluto, which is now recognized as the largest in a population of Kuiper belt objects (the Plutinos) locked in orbital step with Neptune. Triton is only slightly larger than Pluto and nearly identical in composition, which has led to the hypothesis that the two share a common origin.<ref name="Cruikshank2004">{{cite journal
+ | author = Dale P. Cruikshank
+ | title = Triton, Pluto, Centaurs, and Trans-Neptunian Bodies
+ | work = NASA Ames Research Center
+ | url = http://books.google.co.uk/books?id=MbmiTd3x1UcC&pg=PA421&dq=Triton,+Pluto,+Centaurs,+and+Trans-Neptunian+Bodies&lr=&sig=PjnT8J95_lO9r3_3ivBDXm4JK4o
+ | year = 2004
+ | publication-date = January 2005
+ | publisher = Springer
+ | isbn = 1402033621
+ | accessdate = 2008-01-13
+}}</ref>
+
+The proposed capture of Triton may explain several features of the Neptunian system including the extremely eccentric orbit of Neptune's moon Nereid and the scarcity of moons as compared to the other gas giants.  Triton's initially eccentric orbit would have intersected irregular moons and disrupted those of smaller natural moons, dispersing them through gravitational interactions.<ref name=inclin /> 
+
+The circularization of Triton's eccentric post-capture orbit would have resulted in heating of the moon by tidal forces. These would have kept Triton liquid for a billion years, which is supported by evidence of differentiation in the moon's interior.<ref name=solarsystemexploration/> 
+
+There are two ways which Triton's capture may have occurred. In order to be gravitationally captured by a planet, a moon must be slowed down by losing energy. An early theory of how Triton may have been slowed was by collision with another object, either one that happened to be passing by Neptune (which is unlikely), or a moon or proto-moon in orbit around Neptune (which is more likely).<ref name= book /> Another hypothesis suggests that, before its capture, Triton may have had a massive companion similar to Pluto's moon Charon with which it formed a binary. When the binary encountered Neptune, Triton's companion was expelled, providing the required mechanism to capture Triton in an orbit around the planet. This hypothesis is supported by several lines of evidence, including binaries being very common among the large Kuiper belt objects.<ref name=binary>{{cite web
+ | title = Binary Kuiper Belt Objects
+ | work=University of Hawaii
+ |author = Dave Jewitt
+ | url = http://www.ifa.hawaii.edu/~jewitt/kb/binaries.html
+ | year = 2005
+ | accessdate = 2007-06-24
+}}</ref> The event was brief but gentle, saving Triton from collisional disruption; and events like this may have been common during the formation of Neptune, or later when it migrated outward.<ref name="Agnor06">{{cite journal
+ | author = Craig B Agnor, Douglas P Hamilton
+ | title = Neptune's capture of its moon Triton in a binary–planet gravitational encounter
+ | journal = Nature
+ | year = 2006
+ | date = May 2006
+ | volume = 441
+ | issue = 7090
+ | pages = 192–194
+ | doi = 10.1038/nature04792
+ | url = http://www.nature.com/nature/journal/v441/n7090/abs/nature04792.html
+ | accessdate = 2006-05-10
+}}</ref>
+
+==Physical characteristics==
+Triton has a similar size, density , temperature and chemical composition to that of Pluto.<ref name=voyager>{{cite web
+ | date = June 1, 2005
+ | title = Triton (Voyager)
+ | publisher = NASA (Voyager The Interstellar Mission)
+ | url = http://voyager.jpl.nasa.gov/science/neptune_triton.html
+ | accessdate = 2007-12-09
+}}</ref> As with Pluto, 55% of Triton's surface is covered with frozen nitrogen, with dihydrate in the lithosphere.<ref name=ammonia>{{cite journal
+ | author= Javier Ruiz
+ | title = Heat flow and depth to a possible internal ocean on Triton
+ | journal = Icarus
+ | volume = 166
+ | issue = 2
+ | pages = 436–439
+ | year = 2003
+ | date = December 2003
+ | doi = 10.1016/j.icarus.2003.09.009
+ | url = http://adsabs.harvard.edu/abs/2003Icar..166..436R
+ | accessdate=2008-01-16
+}}</ref> This density means Triton is probably about 30–45% water ice, with the remainder being rocky material.<ref name= book /> Triton's surface area is 23&nbsp;million&nbsp;km², which is 4.5% of Earth, or 15.5% of Earth's land area. Triton is very bright, reflecting 60–95% of the sunlight that reaches it. By comparison, Earth's moon reflects only 11%.<ref>{{cite web
+ | title = Lunar Albedo
+ | author = Jeff Medkeff
+ | work = Sky and Telescope Magazine
+ | year = 2002
+ | url = http://jeff.medkeff.com/astro/lunar/obs_tech/albedo.htm
+ | accessdate = 2008-02-04
+}} </ref> Triton's reddish colour is believed to be the result of methane ice which reduces to carbon under bombardment from ultraviolet radiation.<ref name= book />
+
+Because Triton's surface indicates a long history of melting, models of its interior posit that Triton is differentiated, like core, a mantle and a crust. volatile in the Solar System, comprises the moon's mantle, which lies over a core of rock and metal. There is enough rock in Triton's interior for solid-state Europa.<ref name= book/> The possible presence of a layer of liquid water suggests the possibility, if unlikely, of life.<ref>{{cite journal
+ | title = Assessing the Plausibility of Life on Other Worlds
+ | author= Louis Neal Irwin, Dirk Schulze-Makuch
+ | journal = Astrobiology
+ | volume = 1
+ | issue = 2
+ | pages = 143&ndash;60
+ | year = 2001
+ | date = June 2001
+ | doi = 10.1089/153110701753198918
+ | url = http://adsabs.harvard.edu/abs/2001AsBio...1..143I
+ | accessdate = 2008-01-29
+}}</ref>
+
+==Atmosphere==
+
+thumb|300px|right|A cloud over the limb of Triton
+Triton has a tenuous nitrogen atmosphere with small amounts of methane near the surface.<ref name=nature2>{{cite journal
+ | title = Ultraviolet Spectrometer Observations of Neptune and Triton
+ | author = A L Broadfoot, S K Bertaux, J E Dessler et al.
+ | url = http://adsabs.harvard.edu/abs/1989Sci...246.1459B
+ | date = December 15 1989
+ | journal = Science
+ | issn = 0036-8075
+ | volume = 246
+ | pages = 1459–1466
+ | accessdate = 2008-01-15
+ | doi = 10.1126/science.246.4936.1459
+ | pmid = 17756000
+}}</ref><ref name=grand>{{cite book
+ | title = The Grand Tour: A Traveler's Guide to the Solar System
+ | author = Ron Miller
+ | authorlink = Ron Miller (artist and author)
+ | coauthors = William K. Hartmann
+ | year = 2005
+ | month = May
+ | pages = 172&ndash;73
+ | publisher = Workman Publishing
+ | location = Thailand
+ | edition = 3rd
+ | isbn = 0-7611-3547-2
+}}</ref> Like Pluto's atmosphere, the atmosphere of Triton is believed to have resulted from evaporation of nitrogen from the moon's surface.<ref name="Cruikshank2004" /> The surface temperature is at least   because Triton's nitrogen ice is in the warmer, hexagonal crystalline state, and the phase transition between hexagonal and cubic nitrogen ice occurs at that temperature.<ref name="Duxburyetal1993">{{cite journal
+ | title = The Phase Composition of Triton's Polar Caps
+ | url = http://adsabs.harvard.edu/abs/1993Sci...261..748D
+ | author = N S Duxbury, R H Brown
+ | journal = Science
+ | issn = 0036-8075
+ | volume = 261
+ | issue = 5122
+ | pages = 748–751
+ | date = August 1993
+ | accessdate = 2008-01-24
+ | doi = 10.1126/science.261.5122.748
+ | pmid = 17757213}}</ref>  An upper limit with kelvins in the low 40s can be set from vapor pressure equilibrium with nitrogen gas in Triton's atmosphere.<ref>{{cite journal
+ | title = Spectroscopic Determination of the Phase Composition and Temperature of Nitrogen Ice on Triton
+ | author= Kimberly Tryka, Robert Brown, V. Anicich et al.
+ | journal = Science
+ | issn = 0036-8075
+ | volume = 261
+ | issue = 5122
+ | pages = 751–754
+ | url = http://adsabs.harvard.edu/abs/1993Sci...261..751T
+ | date = August 1993
+ | accessdate = 2008-01-24
+ | doi = 10.1126/science.261.5122.751
+ | pmid = 17757214
+}}</ref> This temperature range is colder than pascal  millibar).<ref name=book/>
+
+Turbulence at Triton's surface creates a troposphere (a "weather region") rising to an altitude of 8&nbsp;km. Streaks on Triton's surface left by geyser plumes suggest that the troposphere is driven by seasonal winds capable of moving material of over a micrometre in size.<ref name=nature>{{cite journal
+ | title = Voyager 2 at Neptune: Imaging Science Results
+ | author = B A Smith, L A Soderblom et al. 
+ | journal = Science
+ | issn = 0036-8075
+ | volume = 246
+ | pages = 1422–1449
+ | date = December 15 1989
+ | url = http://adsabs.harvard.edu/abs/1989Sci...246.1422S
+ | accessdate = 2008-01-15
+ | doi = 10.1126/science.246.4936.1422
+ | pmid = 17755997
+}}</ref> Unlike other atmospheres, Triton's has no stratosphere, and instead consists of a thermosphere from 8 to 950&nbsp;km above the surface, and an exosphere above that.<ref name= book /> The temperature of Triton's upper atmosphere, at 95&nbsp;±&nbsp;5&nbsp;kelvins, is higher than the temperature at the surface due to heat deposited from space.<ref name=nature2 /> A haze permeates most of Triton's troposphere, believed to be composed largely of hydrocarbons and nitriles created by the action of sunlight on methane. Triton's atmosphere also possesses clouds of condensed nitrogen that lie between 1 and 3 km from the surface.<ref name=book /> 
+
+In the 1990s, observations from limb as the moon passed in front of stars. These observations indicated the presence of a denser atmosphere than was thought from ''Voyager 2'' data.<ref name="Hubblesite">{{cite journal
+ | url = http://hubblesite.org/newscenter/newsdesk/archive/releases/1998/23/text/
+ | title = Hubble Space Telescope Helps Find Evidence that Neptune's Largest Moon Is Warming Up
+ | work = Hubblesite
+ | author = D Savage, D Weaver, D Halber
+ | accessdate = 2007-12-31
+ | date = June 24 1998
+ | id = STScI-1998-23
+}}</ref> Other observations have shown an increase in temperature by 5% from 1989 to 1998.<ref name="MIT Triton">{{cite web
+ | title = MIT researcher finds evidence of global warming on Neptune's largest moon
+ | url = http://web.mit.edu/newsoffice/1998/triton.html
+ | date = 1998-06-24
+ | publisher = Massachusetts Institute of Technology
+ | accessdate = 2007-12-31
+}}</ref> These observations indicate Triton is approaching an unusually warm summer season that only happens once every few hundred years. Theories for this warming include a change of frost patterns on Triton's surface and a change in ice albedo, which would allow more heat to be absorbed.<ref name="Scienceagogo.com">{{cite journal
+ | title = Solar System Satellites and Summary 
+ | url = http://adsabs.harvard.edu/full/2003ASPC..291...93M
+ | date = 1998-06-28
+ | publisher = Space Telescope Science Institute
+ | accessdate = 2008-02-24
+ | author = Melissa MacGrath
+}}</ref> Another theory argues the changes in temperature are a result of deposition of dark, red material from geological processes on the moon. Because Triton's Bond albedo is among the highest within the Solar System, it is sensitive to small variations in spectral albedo.<ref name="Nature">{{cite journal
+ | title = Does global warming make Triton blush?
+ | url = http://www.bio.indiana.edu/~palmerlab/Journals/170.pdf
+ | author = Bonnie J. Buratti, Michael D Hicks, Ray L Newburn Jr.
+ | journal = Nature
+ | volume = 397
+ | issue = 6716
+ | year = 1999
+ | date = 1999-01-21
+ | doi = 10.1038/16615
+ | format = PDF
+ | accessdate=2007-12-31
+ | pages = 219
+}}</ref>
+
+==Surface features==
+All detailed knowledge of the surface of Triton was acquired in a single encounter by the ''Voyager 2'' spacecraft in 1989.  The 40% of Triton's surface imaged by ''Voyager'' revealed rocky outcrops,  canyons and icy melt, mainly frozen methane. Triton is relatively flat; its observed topography never varies beyond a kilometer.<ref name=book>{{cite book
+ | title = Encyclopedia of the Solar System
+ | chapter = Triton
+ | author = William B. McKinnon, Randolph L Kirk
+ | publisher = Academic Press
+ | year = 2007
+ | editor = Lucy Ann Adams McFadden, Lucy-Ann Adams, Paul Robert Weissman, Torrence V. Johnson 
+ | edition = 2<sup>nd</sup>
+ | publication-place = Amsterdam; Boston
+ | isbn = 0120885891
+ | pages = 483&ndash;502
+}}</ref> There are relatively few impact craters on Triton. Recent analysis of crater density and distribution has suggested that in geological terms, Triton's surface is extremely young, with regions varying from 50&nbsp;million years old to just 6&nbsp;million years old.<ref name="surface age"/>
+
+===Cryovolcanism===
+
+thumb|200 px|Bluish streaks across Triton's surface believed to have been left by eruptions from [[nitrogen geysers]]
+Triton is geologically active; its surface is young and has relatively few impact craters. When the ''Voyager 2'' probe studied Triton, it observed numerous icy volcanoes or geysers erupting liquid nitrogen, dust, or methane compounds from beneath the surface in plumes up to 8&nbsp;km high.<ref name=voyager/>  Although Triton is made of various ices, its subsurface processes are similar to those that produce volcanoes and rift valleys on Earth, but with water and ammonia lavas as opposed to liquid rock.<ref name= book /> 
+
+The volcanic activity is thought to be driven by seasonal heating from the Sun, unlike the tidal heating responsible for the volcanoes of Io.<ref name=nature /> Solar heat is trapped under surface nitrogen ice, which creates a form of "solid greenhouse effect", slowly heating the subsurface until nitrogen beneath evaporates and erupts through the crust.<ref name=book /> Between 1977 and the ''Voyager'' flyby in 1989, Triton shifted from a reddish colour, similar to Pluto, to a far paler hue, suggesting that cryovolcanism in the intervening decade had covered older reddish material with lighter nitrogen frosts.<ref name= book />
+
+Triton's entire surface is cut by complex valleys and ridges, probably the result of tectonics and icy Hili and Mahilani are two candidate Zulu water sprite and a Io, and Enceladus as one of the few worlds of the Solar System with current known volcanic activity.<ref> {{cite journal
+ | author=JS  Kargel
+ | title = Cryovolcanism on the icy satellites
+ | journal = Earth, Moon, and Planet
+ | volume = 67
+ | year = 1994
+ | publication-date = 1995
+ | doi = 10.1007/BF00613296
+ | pages = 101–113
+ | url = http://adsabs.harvard.edu/abs/1995EM%26P...67..101K
+}}</ref>  (Titan, and Dione may also be volcanically active.)  The eruption of volatiles from Triton's equator and its deposition at the poles may redistribute enough mass over the course of 10,000&nbsp;years to cause polar wander.<ref>{{cite journal
+ | title = Polar wander on Triton and Pluto due to volatile migration
+ | last = David Parry Rubincam
+ | url = http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6WGF-493GSSP-2&_user=10&_rdoc=1&_fmt=&_orig=search&_sort=d&view=c&_acct=C000050221&_version=1&_urlVersion=0&_userid=10&md5=079bb7c13784e9c8df7fe1c4c2452fcc
+ | journal = Icarus
+ | volume = 163
+ | issue = 2
+ | pages = 63&ndash;71
+ | doi = 10.1016/S0019-1035(03)00080-0
+ | year = 2002
+ | accessdate = 2008-02-16
+}}</ref>

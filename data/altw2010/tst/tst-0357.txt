@@ -1,0 +1,201 @@
+300px|right|thumb|Które pudełka powinny być wybrane, aby zmaksymalizować wartość przedmiotów w plecaku i jednocześnie nie zabrać więcej niż 15 kg? (rozwiązaniem w tym przypadku jest zabranie wszystkich pudełek oprócz zielonego)
+
+'''Dyskretny problem plecakowy''' (ang. ''binary knapsack problem'') jest jednym z najczęściej poruszanych problemów optymalizacyjnych. Nazwa zagadnienia pochodzi od maksymalizacyjnego problemu wyboru przedmiotów, tak by ich sumaryczna wartość była jak największa i jednocześnie mieściły się w plecaku. Przy podanym zbiorze elementów o podanej wadze i wartości, należy wybrać taki podzbiór by suma wartości była możliwie jak największa, a suma wag była nie większa od danej pojemności plecaka. 
+
+Problem plecakowy często przedstawia się jako problem złodzieja rabującego sklep – znalazł on N towarów; j–ty przedmiot jest wart <math>c_{j}</math> oraz waży <math>w_{j}</math>. Złodziej dąży do zabrania ze sobą jak najwartościowszego łupu, przy czym nie może zabrać więcej niż B kilogramów. Nie może też zabierać ułamkowej części przedmiotów (byłoby to możliwe w ciągłym problemie plecakowym).
+
+Podobny problem pojawia się często w kombinatoryce,  teorii złożoności obliczeniowej, kryptografii oraz matematyce stosowanej.
+
+Decyzyjna wersja przedstawionego zagadnienia to pytanie "czy wartość co najmniej ''C'' może być osiągnięta bez przekraczania wagi ''W''?"
+
+== Definicja ==
+Definicja formalna: mamy do dys­pozycji plecak o maksymalnej pojemności <math>B</math> oraz zbiór <math>N</math> elementów <math>\{x_1, x_j, ..., x_N\}</math>, przy czym każdy element ma określoną wartość <math>c_{j}</math> oraz wielkość <math>w_{j}</math>. 
+
+'''Dyskretny problem plecakowy''' (ang. ''0-1 knapsack problem'')
+:formalnie problem może być zdefiniowany:
+:zmaksymalizuj <math>\sum_{j=1}^N c_j x_j.</math>
+:przy założeniach: <math>\sum_{j=1}^N w_j x_j \le B, \quad \quad x_j = 0\;\mbox{lub}\;1, \quad j=1,\dots,n.</math>
+
+'''Problem plecakowy''', w którym liczba elementów danego typu jest ograniczona przez podaną wartość (ang. ''bounded knapsack problem'').
+:Formalnie:
+:zmaksymalizuj <math>\sum_{j=1}^N c_j x_j.</math>
+:przy założeniach: <math>\sum_{j=1}^N w_j x_j \le B, \quad \quad 0 \le x_j \le b_j, \quad j=1,\dots,n.</math>
+
+Można rozważać także przypadek w którym nie ma wartości ograniczającej liczbę elementów danego typu (ang. ''unbounded knapsack problem'').
+
+W '''ciągłym problemie plecakowym''' można brać ułamkowe części przedmiotów. 
+
+W przypadku gdy problem jest rozważany przy założeniach, że
+* jest problemem decyzyjnym
+* jest dyskretny
+* dla każdego elementu waga równa się wartości <math>w_j=c_j</math>
+utożsamiany jest z problemem:czy dla danego zbioru liczb całkowitych istnieje taki jego podzbiór, że suma jego liczb wynosi dokładnie ''W''? Zagadnienie to nazywane jest problemem sumy podzbioru.
+
+Problem plecakowy może być rozwiązany przy użyciu programowania dynamicznego , ale rozwiązanie wielomianowe nie jest znane. Problem plecakowy oraz sumy podzbioru są problemami NP trudnymi, co było powodem użycia sumy podzbioru jako podstawy w niektórych systemach kryptografii asymetrycznej takich jak grup, nie liczb całkowitch. Merkle-Hellman oraz kilka podobnych algorytmów zostało w późniejszym czasie złamanych, ponieważ szczególny problem sumy podzbioru użyty w tych algorytmach były rozwiązywalne w czasie wielomianowym<ref>[http://www.math.ohio-state.edu/history/math-matrix/Sp85/Matrix_Sp85 ''Knapsack Encryption Scheme Broken''], « Math Matrix », Wydział matematyki Ohio State University, wiosna 1985, Vol. 1, No. 3.</ref>.
+
+Decyzyjna wersja problemu plecakowego opisana wyżej jest problemem NP trudnym i jest jednym z 21 NP zupełnych problemów Karpa.
+
+== Realizacje algorytmu ==
+=== Przegląd zupełny ===
+Przegląd zupełny (bruteforce, metoda siłowa)– najmniej optymalna metoda; w jego przypadku złożoność obliczeniowa al­gorytmu wyniesie <math>\Theta(2^n)</math>, co zdecydowanie zawyży czas działania dla dużych n. Złożoność wynosi <math>\Theta(2^n)</math> ponieważ jest tyle możliwych ciągów zero jedynkowych na n polach. Złożoność można również wyliczyć ze wzoru dwumianowego Newtona (dwumian Newtona) podstawiając za a i b jedynki.
+
+=== Rozwiązania dynamiczne ===
+Problem plecakowy może być rozwiązany w czasie pseudowielomianowym przy użyciu programowania dynamicznego. Rozwiązanie niżej dotyczy przypadku w którym można użyć wielokrotnie każdego elementu:
+
+Niech ''w<sub>1</sub>'', ..., ''w<sub>n</sub>'' będzie wagą elementów oraz ''c<sub>1</sub>'', ..., ''c<sub>n</sub>'' wartościami. Algorytm ma zmaksymalizować wartość elementów, przy zachowaniu sumy ich wagi mniejszej bądź równej ''W''. Niech ''A''(''i'') będzie największą możliwą wartością, która może być otrzymana przy założeniu wagi mniejszej bądź równej ''i''. ''A''(''W'') jest rozwiązaniem problemu.
+
+''A''(''i'') jest zdefiniowane rekurencyjnie:
+* ''A''(0) = 0
+* ''A''(''i'') = max { ''c<sub>j</sub>'' + ''A''(''i'' − ''w<sub>j</sub>'') : ''w<sub>j</sub>'' ≤ ''i'' }
+
+Rozwiązanie dla pustego plecaka jest równe zero. Obliczenie wyników kolejno dla ''A''(0), ''A''(1)... aż do ''A''(''W'') pozwala wyliczyć wynik. Ponieważ obliczenie ''A''(''i'') zajmuje wymaga sprawdzenie ''n'' elementów, a wartości ''A''(''i'') do obliczenia jest ''W'', złożoność obliczeniowa programu wynosi <math>\Theta(nW)</math>.
+
+Powyższa złożoność nie neguje faktu, że problem plecakowy jest NP zupełny, ponieważ ''W'', w przeciwieństwie do ''n'', nie jest proporcjonalne do rozmiaru danych wejściowych dla problemu. Rozmiar wejścia jest proporcjonalny do ilości bitów w liczbie ''W'', nie do wartości ''W''.
+
+thumb|Le problème du sac à dos : quelles boîtes choisir afin de maximiser la somme emportée tout en ne dépassant pas les 15 kg autorisés ?
+Le '''problème du sac à dos''', aussi noté '''KP''' (en anglais, ''Knapsack Problem'') est un problème d'optimisation combinatoire. 
+Il modélise une situation analogue au remplissage d'un valeur. Les objets mis dans le sac à dos doivent maximiser la valeur totale, sans dépasser le poids maximum.
+
+== Histoire ==
+
+=== Dans la recherche ===
+Le problème du sac à dos est l'un des 21 problèmes NP-complets de Richard Karp, exposés dans son article de 1972. 
+Il est intensivement étudié depuis le milieu du  et on trouve des références dès algorithmes existants peuvent résoudre des instances pratiques de taille importante. Cependant, la structure singulière du problème, et le fait qu'il soit présent en tant que sous-problème d'autres problèmes plus généraux, en font un sujet de choix pour la recherche.
+
+=== Complexité et cryptographie ===
+Ce problème est à la base du premier algorithme de chiffrement asymétrique (ou à « clé publique ») présenté par RSA est considéré comme le premier véritable algorithme de chiffrement asymétrique.
+
+La version NP-difficile de ce problème a été utilisée dans des primitives et des protocoles de factoriser est leur rapidité de chiffrement et de déchiffrement.
+Cependant, l'algorithme de Hellman, Merkle et Diffie est sujet aux "portes dérobées" algorithmiques, ce qui implique qu'il est « cassé », c'est-à-dire cryptanalysé<ref> A. Shamir, ''A Polynomial-Time Algorithm for Breaking the Basic Merkle-Hellman Cryptosystem'', IEEE Transactions on Information Theory, Vol. IT-30, pp. 699-704, 1984. (Première publication en avril 1982.)</ref>. Le problème du sac à dos est un exemple classique de méprise en ce qui concerne les liens entre la NP-complétude et la cryptographie. 
+Une version revue de l'algorithme, avec une itération du problème du sac à dos, a alors été présentée, pour être sitôt cassée<ref> ''[http://www.math.ohio-state.edu/history/math-matrix/Sp85/Matrix_Sp85 Knapsack Encryption Scheme Broken]'', « Math Matrix », Département de mathématiques de l'Ohio State University, printemps 1985, Vol. 1, No. 3.</ref>.
+Les algorithmes de chiffrement asymétrique basés sur le sac à dos ont tous été cassés à ce jour, le dernier en date étant celui de Chor-Rivest<ref> S. Vaudenay, ''[http://lasecwww.epfl.ch/php_code/publications/search.php?ref=Vau98h Cryptanalysis of the Chor-Rivest Cryptosystem]''.</ref>.
+
+=== Autres domaines concernés ===
+On l'utilise aussi pour modéliser les situations suivantes, quelquefois en tant que sous-problème :
+* dans des systèmes d'aide à la actifs financiers (actions...);
+* dans le chargement de bateau ou d'avion : tous les bagages à destination doivent être amenés, sans être en surcharge ;
+* dans la découpe de matériaux : pour minimiser les chutes lors de la découpe de sections de longueurs diverses dans des barres en fer. 
+
+Une autre raison de s'intéresser à ce problème est son apparition dans certaines utilisations de méthodes de problème de « bin packing »).
+
+Anecdotiquement et justifiant ainsi le nom du problème, un randonneur y est confronté au moment de préparer son périple : le sac à dos a une capacité limitée ; et il faut donc trancher entre prendre, par exemple, deux boîtes de conserve et une gourde de cinquante centilitres ou une seule boîte de conserve et une gourde d'un litre.
+
+== Énoncé mathématique ==
+Les données du problème peuvent être exprimées en termes mathématiques. Les objets sont numérotés par l'indice ''i'' variant de ''1'' à ''n''. Les nombres <math>w_i</math> et <math>p_i</math> représentent respectivement le poids et la valeur de l'objet numéro ''i''. La capacité du sac sera notée ''W''.
+
+Il existe de multiples façons de remplir le sac à dos. Pour décrire l'une d'elles il faut indiquer pour chaque élément s'il est pris ou non. On peut utiliser un codage binaire : l'état du ''i''-ème élément vaudra <math>x_i=1</math> si l'élément est mis dans le sac, ou <math>x_i=0</math> s'il est laissé de côté. Une façon de remplir le sac est donc complètement décrite par un fonction du vecteur contenu.
+
+Pour un contenu ''X'' donné, la valeur totale contenue dans le sac est naturellement :
+:<math>z(X) =\sum_{\{i, \, x_i=1\}} p_i = \sum_{i=1}^n x_ip_i</math>
+De même, la somme des poids des objets choisis est :
+:<math>w(X)=\sum_{i=1}^n x_iw_i </math> 
+
+Le problème peut alors être reformulé comme la recherche d'un vecteur contenu <math>X=(x_1, x_2, \dots, x_n)</math> (les composantes valant 0 ou 1), réalisant le maximum de la fonction valeur totale <math>z(X)</math>, sous la contrainte :
+:<math>w(X)=\sum_{i=1}^n x_iw_i \le W</math> (1) 
+C'est-à-dire que la somme des poids des objets choisis ne dépasse pas la capacité du sac à dos.
+
+En général, on ajoute les contraintes suivantes afin d'éviter les cas singuliers :
+* <math>\sum_{i=1}^n w_i > W</math> : on ne peut pas mettre tous les objets ;
+* <math>p_i > 0, \forall i \in \{1, \dots, n\}</math> : tout objet apporte un gain ;
+* <math>w_i > 0, \forall i \in \{1, \dots, n\}</math> : tout objet consomme des ressources.
+
+Terminologie :
+* <math>z(X)</math> est appelée ''fonction objectif'' ;
+* tout vecteur <math>X</math> vérifiant la contrainte (1) est dit ''réalisable'' ;
+* si la valeur de <math>z(X)</math> est maximale, alors <math>X</math> est dit ''optimal''.
+
+== NP-complétude ==
+Le problème de sac à dos peut être représenté sous une forme décisionnelle en remplaçant la maximisation par la question suivante : un entier <math>k</math> étant donné, existe-t-il une valeur des <math>x_i</math> pour laquelle <math>\sum_{i=1}^n p_ix_i \ge k</math>, avec respect de la contrainte ? Il y a un lien entre la version « décision » et la version « optimisation » du problème dans la mesure où s'il existe un algorithme polynomial qui résout la version « décision », alors on peut trouver la valeur maximale pour le problème d'optimisation de manière polynomiale en appliquant itérativement cet algorithme tout en augmentant la valeur de ''k''.
+D'une manière similaire, si un algorithme trouve la valeur optimale du problème d'optimisation en un temps polynomial, alors le problème de décision peut être résolu en temps polynomial en comparant la valeur de la solution sortie par cet algorithme avec la valeur de ''k''. Ainsi, les deux versions du problème sont de difficulté similaire.
+
+Sous sa forme décisionnelle, le problème est NP-complet, ce qui signifie qu'il n'existe pas de méthode générale connue pour construire une solution optimale, à part l'examen systématique de toutes les solutions envisageables. Le problème d'optimisation est NP-difficile, sa résolution est au moins aussi difficile que celle du problème de décision, et il n'existe pas d'algorithme polynomial connu qui, étant donné une solution, peut dire si elle est optimale (ce qui reviendrait à dire qu'il n'existe pas de solution avec un <math>k</math> plus grand, donc à résoudre le problème de décision NP-complet).
+
+=== Procédé d'exploration systématique ===
+350px|right|Arbre d'exploration binaire
+Cet examen systématique peut être réalisé à l'aide d'un arbre d'exploration binaire tel celui représenté ci-contre (les triangles représentent des sous-arbres).
+
+L'arbre se décrit en descendant depuis le sommet jusqu'au bas des triangles (les feuilles de l'arbre). Chaque case correspond à un unique parcours possible. En suivant les indications portées le long des arêtes de l'arbre, à chaque parcours correspond une suite de valeurs pour <math>x_0, x_1, ..., x_n</math> formant un vecteur contenu. Il est alors possible de reporter dans chaque case  la valeur totale et le poids total du contenu correspondant. Il ne reste plus qu'à éliminer les cases qui ne satisfont pas la contrainte, et à choisir parmi celles qui restent celle (ou une de celles) qui donne la plus grande valeur à la fonction objectif.
+
+À chaque fois qu'un objet est ajouté à la liste des objets disponibles, un niveau s'ajoute à l'arbre  d'exploration binaire, et le nombre de cases est multiplié par 2. L'exploration de l'arbre et le remplissage des cases ont donc un coût qui croît exponentiellement avec le nombre ''n'' d'objets.
+
+=== Preuve de la NP-complétude ===
+
+Cette preuve de NP-complétude a été présentée par Maichail G. Lagoudakis<ref> Michail G. Lagoudakis, [http://www2.isye.gatech.edu/~mlagouda/acadpape.html  The 0-1 Knapsack Problem - An Introductory Survey], 1996.</ref> reprenant un article de Richard Karp et un article de J.E. Savage.
+
+{{boîte déroulante|titre=Détail de la preuve|label=Voir la démonstration|contenu=
+La preuve de NP-complétude se fait en utilisant le problème de sac à dos sous la forme d'un problème de décision. Elle se fait en deux étapes, premièrement vérifier que ''(KP)'' appartient à la classe NP et, deuxièmement, montrer que ''(KP)'' est NP-difficile.
+
+Nous utiliserons, pour la preuve d'appartenance à NP-difficile, la version ''somme de sous-ensembles'' (voir les variantes, plus bas), notée ''(SSE)'', une version particulière du sac à dos dans laquelle le profit d'un objet est égal à son poids. Si cette version particulière est NP-difficile, alors ''(KP)'' dans toute sa généralité l'est aussi.
+
+Le problème ''(SSE)'' peut-être obtenu à partir du problème de sac à dos ci-dessus en posant <math>w_i = p_i</math>. En posant W = k, on obtient :
+
+Trouver ''X'' tel que
+* <math>\sum_{i=1}^n w_ix_i \ge W</math>
+* <math>\sum_{i=1}^n w_ix_i \le W</math>
+
+==== Appartenance à NP ====
+Premièrement, nous devons prouver que ''(KP)'' appartient à la classe NP, c’est-à-dire qu'il existe un algorithme polynomial qui, étant donné une solution au problème, peut vérifier que cette solution soit bonne. Pour vérifier une solution, il suffit de calculer la somme des poids des objets choisis et de la comparer avec ''W'', ainsi que la somme de leurs valeurs, à comparer avec <math>k</math>. Le tout est évidemment polynomial. '''''(KP)'' appartient donc à la classe des problèmes NP'''.
+
+==== Appartenance à NP-difficile ====
+Nous allons maintenant montrer que ''(SSE)'' est un problème NP-difficile en transformant le problème de la couverture exacte (noté (EC), de l'anglais ''exact cover'') en un problème ''(SSE)''. Le problème ''(EC)'' s'exprime ainsi :
+
+:Soit ''U'' un ensemble d'éléments et <math>S = \{S_1, \dots, S_n\}</math> un ensemble de sous-ensembles de ''U''. Existe-t-il un sous-ensemble <math>S^*</math> de ''S'' tel que :
+:* <math>\bigcup_{s \in S^*} s = U</math> : tous les éléments de ''U'' y soient ;
+:* <math>s \cap t = \emptyset~\forall s,t \in S^*, s \ne t</math> : chaque élément de ''U'' n'est que dans un seul des sous-ensembles choisis.
+
+Le problème (EC) est NP-complet. Si nous arrivons à montrer que toute instance de ''(EC)'' peut être transformée polynomialement en une instance de ''(SSE)'' alors nous aurons prouvé que ''(SSE)'' (et donc ''(KP)'') appartient à la classe des problèmes NP-difficiles.
+
+Soit ''I = (U,S)'' une instance quelconque de ''(EC)''. Sans perdre de généralité, nous considérerons que <math>U = \{1, \dots, |U|\}</math>. Nous noterons :
+* <math>x_i \in \{0,1\}</math> l'état de l'ensemble <math>S_i</math> (<math>x_i = 1</math> si et seulement si <math>S_i \in S^*</math>) ;
+* <math>y_{ij} \in \{0,1\}</math> l'appartenance de la valeur j à l'ensemble <math>S_i</math> (<math>y_{ij} = 1</math> si et seulement si <math>j \in S_i</math>).
+
+Soit <math>b = |U| + 1</matH>. Les variables du problème ''(SSE)'' sont les <math>x_i</math> du problème ''(EC)''. Nous définissons leur poids de la façon suivante :
+* <math>w_i = \sum_{j \in U} y_{ij}b^{j-1}</math>.
+
+Nous définissons la capacité ''W'' par
+* <math>W = \frac{b^{|U|} - 1}{b - 1} = \sum_{j \in U} b^{j-1}</math>.
+
+Le poids de l'objet ''i'' est une somme de puissances de ''b'' et <math>b^{j-1}</math> apparaît dans <math>w_i</math> si et seulement si <math>j \in s_i</math>. Par conséquent, il y a une correspondance de un à un entre la solution du problème ''(SSE)'' construit et l'instance de ''(EC)''. Chaque valeur <math>w_i</math> se calcule en <math>O(|U|)</math> et la valeur de ''W'' se calcule en ''O(1)''. La transformation a donc une complexité temporelle en <math>O(n|U|)</math>. '''Le problème ''(SSE)'' (et donc le problème ''(KP)'') appartient donc à la classe des problèmes NP-difficiles'''.
+
+==== Conclusion ====
+Nous avont prouvé que ''(KP)'' est dans NP et est NP-difficile. Par conséquent, '''le problème ''(KP)'' appartient à la classe des problèmes NP-complets'''.
+}}
+
+== Résolution approchée ==
+
+Comme pour la plupart des problèmes NP-complets, il peut être intéressant de trouver des solutions réalisables mais non optimales. De préférence avec une garantie sur l'écart entre la valeur de la solution trouvée et la valeur de la solution optimale.
+
+La terminologie suivante est adoptée : 
+
+* on appelle ''efficacité'' d'un objet le rapport de sa valeur sur son poids. Plus la valeur de l'objet est importante par rapport à ce qu'il consomme, plus l'objet est intéressant ;
+
+=== Algorithme glouton ===
+L'algorithme le plus simple est un algorithme glouton. L'idée est d'ajouter en priorité les objets les plus efficaces, jusqu'à saturation du sac :
+
+ trier les objets par ordre décroissant d'efficacité
+ w_conso := 0
+ 
+ '''pour''' i '''de''' 1 '''à''' n
+   '''si''' w[i] + w_conso <= W '''alors'''
+     x[i] := 1
+     w_conso := w_conso + w[i]
+   '''sinon'''
+     x[i] := 0
+   '''fin si'''
+ '''fin pour'''
+
+right|thumb|Les deux phases de l'algorithme glouton. À gauche : tri des boîtes par ordre d'intérêt (ici en dollars par kilogramme). À droite : insertion dans l'ordre des boîtes, si cela est possible. On obtient ici une solution de 11$ pour 11 kg alors que la solution optimale est de 12 $ et 14 kg.
+
+==== Analyse de l'algorithme glouton ====
+On notera <math>z^*</math> la valeur des solutions optimales.
+
+La solution <math>X</math> retournée par l'algorithme glouton peut être d'aussi mauvaise qualité que possible. Considérons par exemple que nous n'ayons que deux objets à placer dans le sac. Le premier a un profit de 2 et un poids de 1, le deuxième a un profit et un poids tous deux égaux à ''W''. Le premier objet est le plus efficace, il sera choisi en premier et empêchera la prise du second, donnant ainsi une solution de valeur 1 alors que la solution optimale vaut ''W''. Il existe donc des valeurs du problème pour lesquelles le rapport entre la solution trouvée et la solution optimale est aussi proche de zéro que possible.
+
+Il existe d'autres algorithmes d'approximation pour le problème de sac à dos permettant d'avoir une solution garantie à une distance <math>k</math> ou à un rapport <math>\epsilon</math> de la qualité de solution optimale. C’est-à-dire que la solution <math>X</math> trouvée est telle que <math>z^* - z(X) \le k</math> ou <math>\frac{z(X)}{z^*} \le 1 - \epsilon</math>. La complexité de ces algorithmes est, en général, fonction de l'inverse de la qualité attendue ; par exemple <math>O(n^\frac{1}{\epsilon})</math> ou <math>O(n^2 + \frac{1}{\epsilon^2})</math>. Les temps d'exécution peuvent être très conséquents.
+
+=== Métaheuristiques ===
+Les méthodes algorithmes génétiques ou les optimisations basées sur des algorithmes de colonies de fourmis permettent d'obtenir une approximation raisonnable tout en évitant de monopoliser trop de ressources. 
+
+==== Algorithme génétique ====
+thumb|right|Exemple de l'évolution d'une population avec un algorithme génétique. Les objets sont ceux utilisés pour l'exemple de l'algorithme glouton. Par exemple, le génome (0,1,0,1,0) correspond à une sélection de la boîte de 12 kg et celle de 7 kg.
+Les algorithmes génétiques sont souvent utilisés dans les problèmes d'optimisation difficiles comme celui du sac à dos. Ils sont relativement faciles à mettre en œuvre et permettent d'obtenir rapidement une solution satisfaisante même si la taille du problème est importante. 

@@ -1,0 +1,581 @@
+Las '''convencions d’estil''' utilizadas sus Wikipedia an per objectiu d'assegurar una coeréncia visuala e estructurala entre totes los articles, e mai de permetre una comprension mai aisida dels articles. S'agís pas que de convencions, e es probablament impossible de conclure qu'un estil es melhor qu'un autre, mas se tot lo mond (o la majoritat) seguís a pauc prèp las meteissas règlas d’estil, los articles o ganharàn en clartat de lectura, d'escritura e d'edicion.
+
+Podètz tanben consultar Cossí modificar una pagina, que vos explicarà cossí utilizar los estils. Convencions tipograficas vos explicarà quora utilizar tala o tala convencion. Aquesta pagina a puslèu per objectiu un angle de vista « construccion de l'article »
+
+==Cossí amodar un article ?==
+
+Un article començarà de preferéncia per una introduccion corta o una definicion, reprenent lo títol de l'article. La primièra mencion del subjècte de l'article se metrà en caractèrs gras.
+
+Per exemple : 
+
+:Lo '''Karaté dô''' (空手道) es un japonés. En lenga japonesa, « kara » significa void, « te » man e « dô » la via (lo camin), çò que significa doncas « La via de la man voida ».
+
+:Una '''lenga aglutinanta''' es una lenga ont los mots son formats en « empegant » al radical d'afixes de tal biais que las frontièras entre los morfèmas demòren plan netas e que cada morfèma corresponda a un sol trach esquemantic o foncional.
+
+Pels articles portant sus de personas, lo nom de la persona serà indicat en gras, e la linha d'introduccion indicarà sas datas de naissença e de decès (se apropriat) amb totas las letras.
+
+Per exemple : 
+
+:'''Maurice Papon''' (nascut a Gretz lo 3 de setembre de 1910) es un òme politic e naut foncionari francés, condemnat en 1998 per complicitat de crimi contra l'umanitat, per d'actes comeses coma foncionari del Govèrn de Vèichi.
+
+o
+
+:'''Jacques-Yves Cousteau''' (Calypso.
+
+Quand lo tèma de l'article tracha de mantun nom, se vestiràn totes los noms de negre dins la primièra linha de definicion de l'article
+
+This '''Manual of Style''', often abbreviated '''MoS''', is a style guide to make Wikipedia easier to read. One way of presenting information is often just as good as another, but consistency promotes professionalism, simplicity and greater cohesion in Wikipedia articles. An overriding principle is that style and formatting should be applied consistently throughout an article, unless there is a good reason to do otherwise (except in direct quotations, where the original text is generally preserved).
+
+If the Manual of Style does not specify a preferred usage, discuss your issues on the talk page of this manual. The menu to the right contains links to Manual of Style pages that explore topics in greater detail.
+
+It is inappropriate for an editor to change an article from one style to another unless there is a substantial reason to do so; for example, it is unacceptable to change from American to British spelling unless the article concerns a British topic. Edit warring over optional styles is unacceptable. If an article has been stable in a given style, it should not be converted without a reason that goes beyond mere choice of style. When it is unclear whether an article has been stable, defer to the style used by the first major contributor.<ref>See Wikipedia:Requests for arbitration/Jguk#Optional styles.</ref>
+
+== Article titles, headings and sections ==
+
+ 
+
+=== Article titles ===
+
+This guidance applies to the titles of Wikipedia articles, not to the titles of external articles that are cited.
+
+* Article titles should conform to Naming conventions, including Use English.
+* Titles are generally noun phrases (''Effects of the wild'', not ''About the effects of the wild'').
+* Titles should be short—preferably fewer than ten words.
+* The initial letter of a title is capitalized (except in very rare cases, such as eBay). Otherwise capital letters are used only where implied by normal capitalization rules (''Funding of UNESCO projects'', not ''Funding of UNESCO Projects'').
+* ''A'', ''an'' and ''the'' are normally avoided as the first word (''Economy of the Second Empire'', not ''The economy of the Second Empire''), unless part of a proper noun (The Hague).
+* Special characters such as the slash (/), plus sign (+), braces ({&nbsp;}) and square brackets ([&nbsp;]) are avoided; the ampersand (&) is replaced by ''and'', unless it is part of a formal name.
+
+'''This guidance also applies to ''Section headings'' below.'''
+
+=== First sentences ===
+
+* If possible, an article title is the subject of the first sentence of the article; for example, "The '''Manual of Style''' is a style guide" instead of "This style guide is known as ...". If the article title is an important term, it appears as early as possible. The first (and only the first) appearance of the title is in boldface, including its abbreviation in parentheses, if given. Equivalent names may follow, and may or may not be in boldface. Items in boldface are not linked, and boldface is not used subsequently in the first paragraph. For example: "'''Vienna''' ( , see also its other names) is the capital of states."
+* If the topic of an article has no name and the title is merely descriptive—such as Electrical characteristics of a dynamic loudspeaker—the title does not need to appear verbatim in the main text; if it does, it is not in boldface.
+* The normal rules for italics are followed in choosing whether to put part or all of the title in italics ("'''''Tattoo You''''' is an album by The Rolling Stones, released in 1981").
+* If the topic of the article may be unfamiliar to some readers, establish a context. For example, instead of "A '''trusted third party''' is an entity that facilitates interactions between two parties who both trust the third party", write "In cryptography, a '''trusted third party''' is an entity that facilitates interactions between two parties who both trust the third party". The context in this example is that the topic covered by the article is the use of that notion in the field of cryptography.
+
+=== Section headings ===
+
+* '''SEE ALSO the guidance in ''Article titles'' above, which also applies to section headings.''' 
+* Section names should preferably be unique within a page; this applies even for the names of subsections. The disadvantages of duplication are that:
+** after editing, the display can arrive at the wrong section; see also below; and
+** the automatic edit summary on editing a section with a non-unique name is ambiguous.
+* Section names should not normally contain links.
+* Section names should not explicitly refer to the subject of the article, or to higher-level headings, unless doing so is shorter or clearer. For example, ''Early life'' is preferable to ''His early life'' when ''His'' means the subject of the article; headings can be assumed to be about the subject unless otherwise indicated. 
+* Unspaced multiple equal signs are the style markup for headings. The triple apostrophes ( <nowiki>'''</nowiki> ) that make words appear in '''boldface''' are not used in headings. Nest headings correctly. The hierarchy is as follows:
+** the automatically generated top-level heading of a page is H1, which gives the article title;
+** primary headings are then <nowiki>==H2==</nowiki>, followed by <nowiki>===H3===</nowiki>, <nowiki>====H4====</nowiki>, and so on.
+* Spaces between the == and the heading text are optional (<nowiki>==H2==</nowiki> versus <nowiki>== H2 ==</nowiki>). These extra spaces will not affect the appearance of the heading, except in the edit window. 
+* A blank line below the heading is optional. If there are no blank lines above the heading, one line should be added, for readability in the edit window. Only two or more blank lines above or below will change the public appearance of the page by adding more white space.
+
+=== Section management ===
+
+* Headings provide an overview in the table of contents and allow readers to navigate through the text more easily. 
+* Change a heading only after careful consideration, because this will break section links to it within the same article and from other articles. If changing a heading, try to locate and fix broken links; for example, searching for ''wikipedia "section management"'' will yield links to the current section.
+* When linking to a section, as a courtesy, go to that article's section and leave an editor's note to remind others that the title is linked. List the names of the linking articles, so that if the title is altered, others can fix the links without having to perform exhaustive searches. For example:<br/><nowiki> ==Evolutionary implications==<!--This section is linked from Richard Dawkins and Daniel Dennett--> </nowiki>.
+* As well, consider a preemptive measure to minimize link corruption when the text of a heading changes by inserting an <nowiki></nowiki> with an alternative name by which to link to that heading section. For example:<br/> <nowiki> ==Evolutionary implications==<!-- This section is linked from Richard Dawkins and Daniel Dennett --> </nowiki>.
+* When referring to a section without linking, italicize the section name (italicize the ''actual'' section name only if it otherwise requires italics, such as the title of a book); for example, the current section is called ''Section management''.
+* The standard order for optional appendix sections at the end of an article is ''See also'', ''Notes'' (or ''Footnotes''), ''References'', ''Further reading'' (or ''Bibliography''), and ''External links''; the order of ''Notes'' and ''References'' can be reversed. ''See also'' is an exception to the point above that wording comprises nouns and noun phrases. For information on these optional sections, see Wikipedia:Layout#Standard appendices and descriptions and Wikipedia:Citing sources.
+
+== Capital letters ==
+
+There are differences between the major varieties of English in the use of capitals (uppercase letters). Where this is an issue, the rules of the cultural and linguistic context apply. As for spelling, consistency is maintained within an article.
+
+Within articles and other wiki pages, capitals are not used for emphasis. Where wording cannot provide the emphasis, italics are used.
+
+:{|style="background:transparent"
+|-valign=top
+|''Incorrect'':&nbsp; &nbsp;||Contrary to popular belief, aardvarks are Not the same as anteaters.
+|-valign=top
+|''Incorrect'':             ||Contrary to popular belief, aardvarks are NOT the same as anteaters. 
+|-valign=top
+|''Correct'':               ||Contrary to popular belief, aardvarks are ''not'' the same as anteaters.
+|}
+
+=== Titles ===
+
+* '''When used as titles''' (that is, followed by a name), items such as ''president'', ''king'' and ''emperor'' start with a capital letter: ''President Clinton'', not ''president Clinton''. The formal name of an office is treated as a proper noun: ''Hirohito was Emperor of Japan'' and ''Louis XVI was King of France'' (where ''Emperor of Japan'' and ''King of France'', respectively, are titles). Royal styles are capitalized: ''Her Majesty'' and ''His Highness''; exceptions may apply for particular offices.
+* '''When used generically''', such items are in lower case: ''De Gaulle was a French president'' and ''Louis XVI was a French king''. Similarly, ''Three prime ministers attended the conference'', but, ''The British Prime Minister is Gordon Brown''. 
+* For the use of titles and honorifics in biographical articles, see Honorific prefixes.
+
+=== Religions, deities, philosophies, doctrines and their adherents ===
+
+* '''Religions, sects and churches''' and their followers (in noun or adjective form) start with a capital letter. Generally ''the'' is not capitalized before such names (''the Shī'a'', not ''The Shī'a''). (But see also the style guide and naming convention for the Latter Day Saint movement.) 
+* '''Scriptures''' (religious texts) are capitalized but often not italicized (for example, the names of the Qur’an, the Talmud, the Granth Sahib, and the Bible). When ''the'' is used, it is not capitalized. Some derived adjectives are capitalized by convention, some are not (normally ''biblical'' but ''Koranic'', for example); if unsure, check a dictionary appropriate to the topic, and be consistent within an article.
+* '''Honorifics for deities''', including proper nouns and titles, start with a capital letter (''God'', ''Allah'', ''the Lord'', ''the Supreme Being'', ''the Great Spirit''); ''the'' is not capitalized. The same is true when referring to major religious figures and figures from mythology by titles or terms of respect (''the Prophet'', ''the Messiah'', ''the Virgin'', ''a Muse''). Common nouns denoting deities or religious figures are not capitalized; thus ''the Romans worshipped many gods'', ''many Anglo-Saxons worshipped the god Wotan'', ''Jesus and Muhammad are both considered prophets in Islam'', ''biblical scholars dispute whether Mary was a virgin for her entire life'', and ''her husband was her muse''.
+* '''possessives referring to figures of veneration''' are not capitalized in Wikipedia articles, even when they traditionally are in a religion's scriptures. They are left capitalized when directly quoting scriptures or any other texts that capitalize them.
+* '''Broad categories of mythical or legendary creatures''' do not start with uppercase capital letters (''elf'', ''fairy'', ''nymph'', ''unicorn'', ''angel''), although in derived works of fantasy, such as the novels of J.R.R. Tolkien and real-time strategy video games, initial capitals are sometimes used to indicate that the beings are regarded as cultures or races in their fictional universes. Names or titles of individual creatures are capitalized (''the Minotaur'', ''the Pegasus'') as are those of groups whose name and membership are fixed (''the Cherubim'', ''the Magi or the Three Wise Men''). As with terms for deities, generalized references are not capitalized (''cherub-like'', ''the priests of this sect were called magi by some'', ''several wise men were consulted'').
+* '''Spiritual or religious events''' are likewise capitalized only when they are terms referring to specific incidents or periods (''the Great Flood'', ''the Exodus'', but ''annual flooding'' or ''an exodus of refugees'').
+* '''Philosophies, theories and doctrines''' do not begin with a capital letter unless the name derives from a proper noun (''capitalism versus Marxism'') or has become a proper noun (lowercase ''republican'' refers to a system of political thought; uppercase ''Republican'' refers to one of several specific political parties or ideologies, such as the US Republican Party or Irish Republicanism). Physical and natural laws and parodies of them are capitalized (''the Second Law of Thermodynamics'', ''the Theory of Special Relativity'', ''Murphy's Law''; but ''an expert on gravity and relativity'', ''thermodynamic properties'', ''Murphy's famous mock-law''). Doctrinal topics or canonical religious ideas (as distinguished from specific events) that may be traditionally capitalized within a faith are given in lower case in Wikipedia, such as ''virgin birth'', ''original sin'' or ''transubstantiation''. 
+* '''Platonic or transcendent ideals''' are capitalized (''Good'', ''Truth''), but only within the context of philosophical doctrine; used more broadly, they are lower-case (''Superman represents American ideals of truth and justice''). Personifications represented in art, such as a statue of the figure ''Justice'', are capitalized.
+
+=== Calendar items ===
+
+* '''Months, days of the week, and holidays''' start with a capital letter: June, Monday, the Fourth of July (when referring to the U.S. Independence Day, otherwise ''July 4'' or ''4 July'').
+* '''Seasons''', in almost all instances, are lowercase: ''This summer was very hot''; ''The winter solstice occurs about December 22''; ''I've got spring fever''. When personified, season names may function as proper nouns, and they should then be capitalized: ''I think Spring is showing her colors''; ''Old Man Winter''.
+
+=== Animals, plants, and other organisms ===
+
+'''Scientific names''' for ''genera'' and ''species'' are italicized, with a capital initial letter for the genus but no capital for the species; for more specific guidelines for article titles, see Wikipedia:WikiProject Tree of Life#Article titles. For example, the tulip tree is ''Liriodendron tulipifera'', and humans are ''Homo sapiens''. Taxonomic groups higher than genus are given with an initial capital and are not in italics; for example, gulls are in the family Laridae, and we are in the family Hominidae.
+
+'''Common (vernacular) names''' of flora and fauna should be written in lower case—for example, ''oak'' or ''lion''. There are a limited number of exceptions to this:
+
+# Where the common name contains a proper noun, such as the name of a person or place, that proper noun should be capitalized; for example, ''The Amur tiger may have a range of over 500 square kilometres'', or ''The Roosevelt elk is a subspecies of ''Cervus canadensis''.''
+# For specific groups of organisms, there are specific rules of capitalization based on current and historic usage among those who study the organisms. For example, official common names of birds are normally capitalized.
+# In a very few cases, a set of officially established common names are recognized only within a country or a geographic region. Those common names may be capitalized according to local custom but it should be understood that not all editors will have access to the references needed to support these names; in such cases, using the general recommendation is also acceptable.
+In any case, a redirect from an alternative capitalization should be created where it is used in an article title.
+
+=== Celestial bodies ===
+
+* '''''Sun'', ''earth'' and ''moon''''' are not capitalized generally (''The sun was peeking over the mountain top''). They may be proper nouns in an astronomical context but only when referring to specific celestial bodies (our ''Sun'', ''Earth'' and ''Moon''): so ''The Moon orbits the Earth'', but ''Jupiter's moon Io''.
+* '''Other planets and stars''' are proper nouns and start with a capital letter: ''The planet Mars can be seen tonight in the constellation Gemini, near the star Pollux.'' Where a name has multiple words, it is treated like other proper nouns where each leading letter is capitalized: ''Alpha Centauri'' and not ''Alpha centauri''.
+
+=== Directions and regions ===
+
+* '''Directions''' such as ''north'' are not proper nouns and are therefore lowercase. The same is true for their related forms: someone might call a road that leads north a ''northern'' road, compared with the Great North Road. Composite directions may or may not be hyphenated (''northeast'' and ''north-east'', ''Southeast Asia'' and ''South-East Asia''), depending on the general style adopted in the article.
+* '''Regions''' that are proper nouns, including widely known expressions such as ''Southern California'', start with a capital letter. Follow the same convention for related forms: a person from the Southern United States is a ''Southerner''. Regions of uncertain proper-noun status are assumed not to have attained it.
+
+=== Institutions ===
+
+* '''Proper names''' of institutions (for example, ''the University of Sydney'', ''NewYork-Presbyterian Hospital'', ''George Brown College'') are proper nouns and require capitalization. Where a title starts with ''the'', it typically starts with lowercase ''t'' when the title occurs in the middle of a sentence: ''a degree from the University of Sydney''.
+* '''Generic words''' for institutions (university, college, hospital, high school) require no capitalization:
+
+::{|style="background:transparent" 
+|-valign=top
+|''Incorrect''&nbsp;||''(generic)'':&nbsp; &nbsp;||The University offers programs in arts and sciences.
+|-valign=top
+|''Correct''        ||''(generic)'':             ||The university offers ...
+|-valign=top
+|''Correct''        ||''(title)'':               ||The University of Delhi offers ...
+|}
+
+== Acronyms and abbreviations ==
+
+; Write out both the full version and the abbreviation at first occurrence
+: When using acronyms, initialisms and other abbreviations, it should be remembered that readers are not necessarily familiar with their meanings. Good practice is to name an item in full on its first occurrence, followed by the abbreviated form in parentheses. For example, ''The New Democratic Party (NDP) won the 1990 Ontario election with a significant majority'' (first mention of New Democratic Party in the article), and ''The NDP quickly became unpopular with the voters'' (subsequent mention).
+: Initial capitals are not used in the full name of an item just because capitals are used in the abbreviation.
+
+::{|style="background:transparent"
+|-valign=top
+|''Incorrect''&nbsp;||''(not a name)'':&nbsp; &nbsp;||We used Digital Scanning (DS) technology
+|-valign=top
+|''Correct'':       ||&nbsp;                         ||We used digital scanning (DS) technology
+|-valign=top
+|''Correct''        ||''(name)'':                   ||produced by the British Broadcasting Corporation (BBC)
+|}
+
+: If the full term is already in parentheses, use a comma and ''or'' to indicate the abbreviation; for example, ''They first debated the issue in 1992 (at a convention of the New Democratic Party, or NDP)''.
+; Plural and possessive forms
+: Acronyms and initialisms are pluralized by adding ''-s'' or ''-es'' as with any other nouns (''They produced three CD-ROMs in the first year''; ''The laptops were produced with three different BIOSes in 2006''). As with other nouns, no apostrophe is used unless the form is a possessive.
+; Periods (full stops) and spaces
+: Acronyms and initialisms are generally not separated by full stops (periods) or blank spaces (''GNP'', ''NORAD'', ''OBE'', ''GmbH''); many periods and spaces that were traditionally required have now dropped out of usage (''PhD'' is preferred over ''Ph.D.'' and ''Ph.&nbsp;D.''). Periods are not used in units of measurement (see Wikipedia:Manual of Style (dates and numbers) for more information).
+
+: Truncated (''Hon.'' for ''Honorable''), compressed (''cmte.'' for ''committee'') and contracted (''Dr.'' for ''Doctor'') abbreviations may or may not be closed with a period. A consistent style should be maintained within an article. A period is much more usual in American usage (''Dr. Smith of 42 St. Joseph St.''); and ''no'' period is commonly preferred in British and other usage (''Dr Smith of 42 St Joseph St'', though one or other "St" might take a period, in such a case). Some British and other authorities prefer to drop the period from truncated and compressed abbreviations generally (''XYZ Corp'', ''ABC Ltd''), a practice also favored in science writing. Regardless of punctuation, such abbreviations are spaced if multi-word (''op. cit.'' or ''op cit'', not ''op.cit.'' or ''opcit'').
+:; ''US'' and ''U.S.''
+:: In American English, ''U.S.'' is the standard abbreviation for ''United States''; ''US'' is becoming more common and is standard in other national forms of English. In longer abbreviations incorporating the country's initials (''USN'', ''USAF''), periods are not used. When the United States is mentioned along with one or more other countries in the same sentence, ''U.S.'' or ''US'' can be too informal, and many editors avoid it especially at first mention of the country (''France and the United States'', not ''France and the U.S.''). In a given article, if the abbreviated form of the United States appears predominantly alongside other abbreviated country names, for consistency it is preferable to avoid periods throughout; never add periods to the other abbreviations (''the US, the UK and the PRC'', not ''the U.S., the U.K. and the P.R.C.''). The spaced ''U.&nbsp;S.'' is never used, nor is the archaic ''U.S. of A.'', except in quoted materials. ''U.S.A.'' and ''USA'' are not used unless quoted or as part of a proper name (''Team USA'').
+; Do not use unwarranted abbreviations
+: The use of abbreviations should be avoided when they would be confusing to the reader, interrupt the flow, or appear informal or lazy. For example, ''approx.'' for ''approximate'' or ''approximately'' should generally not be used, although it may be useful for reducing the width of an infobox or a table of data, or in a technical passage in which the term occurs many times.
+:: ''See also Wikipedia:Manual of Style (dates and numbers) for when to abbreviate units of measurement.''
+; Do not invent abbreviations or acronyms
+: Generally avoid the making up of new abbreviations, especially acronyms. For example, while it is reasonable to provide ''World Union of Billiards'' as a '''translation''' of ''GNP'', rather than the made-up initialism ''USGNP''.
+; HTML elements
+: The software that Wikipedia runs on does not support HTML abbreviation elements (<code>&lt;acronym&gt;</code> or <code>&lt;abbr&gt;</code>); therefore, these tags are not inserted into the source (see Mediazilla:671).
+
+== Italics ==
+
+; Emphasis
+: Italics are used ''sparingly'' to emphasize words in sentences (bolding is normally not used at all for this purpose). Generally, the more highlighting in an article, the less the effect of each instance.
+
+; Titles
+
+: Italics are used for the titles of works of literature and art, such as books, paintings and musical albums. The titles of articles, chapters, songs and other short works are not italicized, but are enclosed in double quotation marks.
+:Italics are not used for major revered religious works (for example the Bible, the Koran, and the Talmud).
+
+; Words as words
+: Italics are used when ''mentioning'' a word or letter (see Use–mention distinction) or a string of words up to a full sentence: "The term ''panning'' is derived from ''panorama'', a word coined in 1787"; "The most commonly used letter in English is ''e''". For a whole sentence, quotation marks may be used instead: (1) The preposition in ''She sat on the chair'' is ''on'', or (2) The preposition in "She sat on the chair" is ''on''. Mentioning (to discuss such features as grammar, wording and punctuation) is different from quoting (in which something is usually ''expressed'' on behalf of a quoted source). 
+
+; Foreign words
+: Wikipedia prefers italics for phrases in other languages and for isolated foreign words that do not yet have everyday use in non-specialized English. 
+; <span id="Italics and quotations" /><!--This span creates a #-link target that is used elsewhere in this page.-->Quotations in italics
+: For quotations, use only quotation marks (for short quotations) or block quoting (for long ones), not italics. (See Quotations below.) This means that (1) a quotation is not italicized inside quotation marks or a block quote just because it is a quotation, and (2) italicization is not used as a substitute for proper quotation formatting.
+; Italics within quotations
+: Italics are used within quotations if they are already in the source material, or are added by Wikipedia to give emphasis to some words. If the latter, an editorial note "[emphasis added]" should appear at the end of the quotation ("Now cracks a noble heart. Good night sweet prince: And ''flights of angels'' sing thee to thy rest" [emphasis added]).
+: If the source uses italics for emphasis, and it is desirable to stress that Wikipedia has not added the italics, the editorial note "[emphasis in original]" should appear after the quote.
+; Effect on nearby punctuation
+: Italicization is restricted to what should properly be affected by italics, and not the punctuation that is part of the surrounding sentence.
+
+::{|style="background:transparent" 
+|-
+|valign=top|''Incorrect'':&nbsp; &nbsp;
+|colspan=2|What are we to make of ''that?'' 
+|-
+|valign=top rowspan=2|''Correct'':
+|colspan=2|What are we to make of ''that''?
+|-
+|&nbsp; &nbsp; &nbsp;
+|(The question mark applies to the whole sentence, not just to the emphasized ''that''.)
+|-
+|valign=top rowspan=2|''Correct'':
+|colspan=2|Four of Patrick White's most famous novels are ''A Fringe of Leaves'', ''The Aunt's Story'', ''Voss'' and ''The Tree of Man''. 
+|-
+|
+|(The commas, period, and ''and'' are not italicized.)
+|}
+
+; Italicized links
+: The italics markup must be outside the link markup, or the link will not work; however, internal italicization can be used in piped links.
+
+::{|style="background:transparent"
+|-valign=top
+|''Incorrect'':&nbsp; &nbsp;||The opera <nowiki>''Turandot''</nowiki> is his best. 
+|-valign=top
+|''Correct'':               ||The opera <nowiki>''Turandot''</nowiki> is his best.
+|-valign=top
+|''Correct'':               ||The <nowiki>USS ''Adder'' (SS-3)</nowiki> was a submarine.
+|}
+
+== Non-breaking spaces ==
+
+*A non-breaking space (also known as a ''hard space'') is recommended to prevent the end-of-line displacement of elements that could be awkward at the beginning of a new line:
+**in compound expressions in which figures and abbreviations or symbols are separated by a space (''17&nbsp;kg'', ''AD&nbsp;565'', ''2:50&nbsp;pm''), including scientific names of species where the genus is abbreviated (''C.&nbsp;elegans'');
+**on the left side of spaced en dashes; and
+**in other places where displacement might be disruptive to the reader, such as ''£11&nbsp;billion'', ''5°&nbsp;24′&nbsp;21.12″&nbsp;N'', ''Boeing&nbsp;747'', and the first two items in ''7&nbsp;World Trade Center''.
+* A hard space can be produced with the HTML code <code><nowiki>&amp;nbsp;</nowiki></code> instead of the space bar, or by pressing the key combination ''option–space bar'' on a Mac: <code><nowiki>19&amp;nbsp;kg</nowiki></code> yields a non-breaking ''19&nbsp;kg''.
+* Hard spaces can also be produced by using the  template:  produces a non-breaking ''''. This is especially useful for short constructions requiring two or more hard spaces, as in the preceding example. Template  has the disadvantage that if the enclosed text starts or ends with a space, these spaces are forced outside in the resulting HTML, and unpredicted breaks may occur. If <code>&amp;nbsp;</code> occurs right before , or at the start of text within , some browsers allow a break at that point.
+* Unlike normal spaces, multiple hard spaces are not compressed by browsers into a single space.
+
+== Quotations ==
+
+; Minimal change
+: Wherever reasonable, preserve the original style, spelling and punctuation. Where there is a good reason not to do so, insert an editorial explanation of the changes, usually within square brackets (''e.g.'', [for example]).
+; Attribution
+: The author of a quote of a full sentence or more should be named; this is done in the main text and not in a footnote. However attribution is unnecessary for quotations from the subject of the article or section. When preceding a quotation with its attribution, avoid characterizing it in a biased manner.
+; Quotations within quotations
+: When a quotation includes another quotation (and so on), start with double-quotes outermost and working inward, alternate single-quotes with double-quotes. For example, the following three-level quotation: "She disputed his statement that 'Voltaire never said "I disapprove of what you say, but I will defend to the death your right to say it."&nbsp;'&nbsp;" Adjacent quote marks, as at the end of this example, are separated by a non-breaking space (&amp;nbsp;), though this may not work on some older browsers.
+; Linking
+: Unless there is a good reason to do so, Wikipedia avoids linking from within quotes, which may clutter the quotation, violate the principle of leaving quotations unchanged, and mislead or confuse the reader.
+; Block quotations
+: A long quote (more than four lines, or consisting of more than one paragraph, regardless of number of lines) is formatted as a block quotation, which Wikimedia's software will indent from both margins. Block quotes are not enclosed in quotation marks (especially including decorative ones such as those provided by the  template, used only for pull quotes). Block quotes can be enclosed between a pair of <nowiki><blockquote>...</blockquote></nowiki> HTML tags, or  or  can be used. ''Note: The current version of Wikipedia's MediaWiki software will not render multiple paragraphs inside a <code><nowiki><blockquote></nowiki></code> simply by spacing the paragraphs apart with blank lines. A workaround is to enclose each of the block-quoted paragraphs in its own <code><nowiki><p>...</p></nowiki></code> element.''
+
+: Example:
+
+<blockquote><div style="border:1px solid #999; padding:1em; margin:1em; background:white;">
+<code><nowiki><blockquote></nowiki><br />
+<nowiki><p>And bring us a lot of horilka, but not of that fancy kind with raisins, or with any other such things—bring us horilka of the purest kind, give us that demon drink that makes us merry, playful and wild!</p></nowiki><br />
+<br />
+<nowiki><p>—Nikolai Gogol, ''Taras Bulba''</p></nowiki><br />
+<nowiki></blockquote></nowiki></code>
+</div></blockquote>
+
+: The result appears indented on both sides (and, depending on browser software, may also be in a smaller font):
+
+<blockquote><blockquote>
+<p>And bring us a lot of horilka, but not of that fancy kind with raisins, or with any other such things—bring us horilka of the purest kind, give us that demon drink that makes us merry, playful and wild!</p>
+
+<p>—Nikolai Gogol, ''Taras Bulba''</p></blockquote></blockquote>
+
+: The  template provides the same semantic HTML formatting, as well as a workaround for the paragraph spacing bug and a pre-formatted attribution line:
+
+<blockquote><div style="border:1px solid #999; padding:1em; margin:1em; background:white;">
+<code><nowiki></nowiki></code>
+</div></blockquote>
+
+: Which results in:
+
+<blockquote></blockquote>
+
+== Punctuation ==
+
+=== Quotation marks ===
+
+The term ''quotation(s)'' in the material below also includes other uses of quotation marks such as those for titles of songs, chapters, and episodes; unattributable aphorisms; literal strings; "scare-quoted" passages and constructed examples.
+
+; Double or single'''
+: Quotations are enclosed within "double quotes". Quotations within quotations are enclosed within 'single quotes'.
+; Inside or outside
+: Punctuation marks are placed inside the quotation marks only if the sense of the punctuation is part of the quotation. This system is referred to as ''logical quotation''; it is used by Wikipedia both because of the principle of minimal change, and also because the method is less prone to misquotation, ambiguity and the introduction of errors in subsequent editing.
+::{|style="background:transparent"
+|rowspan=2 valign=top|''Correct'': || Arthur said, "The situation is deplorable and unacceptable."
+|-
+|
+:(The period is part of the quoted text.)
+|-
+|rowspan=2 valign=top|''Correct'': || Arthur said that the situation was "deplorable".
+|-
+|
+:(The period is not part of the quoted text.)
+|-
+|rowspan=2 valign=top|''Correct'': || Martha asked, "Are you coming?"
+|-
+|
+:(The question mark belongs inside because the quoted text itself was a question.)
+|-
+|rowspan=2 valign=top|''Correct'': || Did Martha say, "Come with me"?
+|-
+|
+:(The very quote is being questioned, so the question mark belongs outside; any punctuation at the end of the original quote is omitted.)
+|}
+
+: When quoting a sentence fragment which ends in a period, some judgement is required: if the fragment communicates a complete sentence, the period can be placed inside. The period should be omitted if the quotation is in the middle of a sentence.
+::{|style="background:transparent"
+|''Correct'': || Martha said, "Come with me", and they did.
+|}
+
+; Article openings
+: When the title of an article appearing in the lead paragraph requires quotation marks (for example, the title of a song or poem), the quotation marks should not be in boldface, as they are not part of the title:
+::{|style="background:transparent"
+|''Correct'': || "'''Jabberwocky'''" is a nonsense poem by Lewis Carroll.
+|}
+
+; Block quotes
+: As already noted above, we use quotation marks or block quotes (not both) to distinguish long quotations from other text. Multiparagraph quotations are always block-quoted. The quotations must be precise and exactly as in the source. The source should be cited clearly and precisely to enable readers to find the text that supports the article content in question.
+
+; Straight or curly?
+: There are two options when considering the look of the quotation marks (that is, the glyph):
+:* Typewriter or straight style: <big>'''"'''</big>text<big>'''"'''</big>, <big><b>'</b></big>text<big><b>'</b></big>, text<big><b>'</b></big>s
+:* Typographic or curly style: <big>'''“'''</big>text<big>'''”'''</big>, <big>'''‘'''</big>text<big>'''’'''</big>, text<big>'''’'''</big>s
+:: (Emphasis added to better distinguish between the glyphs.)
+:* Grave and acute accents or backticks (<big>'''`'''</big>text<big>'''´'''</big>) are neither quotation marks nor apostrophes, and must not be used in their place.
+:* Foreign characters that resemble apostrophes, such as transliterated Arabic ayin (<big>'''ʿ'''</big>) and alif (<big>'''ʾ'''</big>), are represented by their correct Unicode characters, despite possible display problems. If this is not feasible, use a straight apostrophe instead.
+: The exclusive use of straight quotes and apostrophes is recommended. They are easier to type in reliably, and to edit. Mixed use interferes with searching (a search for ''Korsakoff's syndrome'' could fail to find ''Korsakoff’s syndrome'' and vice versa).
+
+: Whenever quotation marks or apostrophes appear in article titles, make a redirect from the same title but using the alternative glyphs.
+
+; Other matters
+* A quotation is not italicized simply because it is a quotation.
+* If an entire sentence is quoted in such a way that it becomes a grammatical part of the larger sentence, the first letter loses its capitalization: ''It turned out to be true that "a penny saved is a penny earned".''
+* If a word or phrase appears in an article in single quotes, such as 'abcd', Wikipedia's search facility will find that word or phrase only if the search string is also within single quotes. This difficulty does not arise for double quotes, and this is one of the reasons the latter are recommended.
+
+=== Brackets and parentheses ===
+
+If a sentence contains a bracketed phrase, the sentence punctuation comes outside the brackets (as shown here). However, where one or more sentences are wholly inside brackets, their punctuation comes inside the brackets (see further details below). These rules apply to both round "(&nbsp;)" brackets, often called parentheses, and square "[&nbsp;]" brackets. There should not be a space next to a bracket on its inner side. An opening bracket should be preceded by a space, except in unusual cases; for example, when it is preceded by:
+
+* An opening quotation mark
+:: He rose to address the meeting: "(Ahem)&nbsp;... Ladies and gentlemen, welcome!"
+* Another opening bracket
+:: Only the royal characters in the play ([Prince] Hamlet and his family) habitually speak in blank verse.
+* A portion of a word
+:: We journeyed on the Inter[continental].
+
+There should be a space after a closing bracket, except where another punctuation mark (other than an apostrophe or a dash) follows, and in unusual cases similar to those listed for opening brackets.
+
+If sets of brackets must be nested, use the contrasting type (normally, square brackets appear within round brackets [like this]). Often, it is better to revise the sentence to reduce clutter, using commas, semicolons, colons or dashes instead.
+
+Avoid adjacent sets of brackets—either put the parenthetic phrases in one set separated by commas, or rewrite the sentence. For example:
+
+:{|style="background:transparent"
+|-valign=top
+|''Incorrect'':&nbsp; &nbsp;||Nikifor Grigoriev (c. 1885–1919) (also known as Matviy Hryhoriyiv) was a Ukrainian insurgent leader.
+|-valign=top
+|''Correct'':               ||Nikifor Grigoriev (c. 1885–1919), also known as Matviy Hryhoriyiv, was a Ukrainian insurgent leader.
+|-valign=top
+|''Correct'':               ||Nikifor Grigoriev (c. 1885–1919) was a Ukrainian insurgent leader. He was also known as Matviy Hryhoriyiv.
+|}
+
+Square brackets are used to indicate editorial replacements and insertions of text. They serve three main purposes:
+
+* To clarify. ("She attended [secondary] school"—where this was the intended meaning, but the type of school was unstated in the original sentence.)
+* To reduce the size of a quotation. If a source says "X contains Y, and under certain circumstances, X may contain Z as well", it is acceptable to reduce this to "X contains Y [and sometimes] Z", without ellipsis. When an ellipsis (...; see below) is used to indicate material removed from a direct quotation, it should not normally be bracketed. 
+* To make the grammar work: ''She said that "[she] would not allow this"''—where her original statement was "I would not allow this." (Generally, though, it is better to begin the quotation after the problematic word: ''She said that she "would not allow this."'')
+
+The use of square-bracketed wording should never alter the intended meaning of a quotation.
+
+==== Sentences and brackets ====
+
+* If any sentence includes material that is enclosed in square or round brackets, it still must end—with a period, or a question or exclamation mark—''after'' those brackets (a rule that applies in all English, whether British or U.S.). The preceding sentence is an example. This principle applies no matter what punctuation is used within the brackets.
+
+* Normally, if the words of a sentence begin within brackets, the sentence must also end within those brackets. (This sentence is an example.) There is an exception for matter that is added or modified editorially at the beginning of a sentence for clarity, usually in square brackets: ''"[Principal Skinner] already told me that," he objected.''
+
+* A sentence that occurs within brackets in the course of another sentence does not have its first word capitalized just because it starts a sentence. The enclosed sentence may have a question mark or exclamation mark added, but not a period: "Alexander then conquered (who would have believed it?) most of the known world"; "Clare demanded that he drive (she knew he hated driving) to the supermarket." These constructions are usually best avoided, for readability.
+
+=== Ellipses ===
+
+An ellipsis (plural ''ellipses'') is an omission of material from quoted text or some other omission, perhaps of the end of a sentence, often used in the representation of conversation in print. The ellipsis is represented by ellipsis points, a series of three dots (or sometimes four at the end of a sentence).
+
+; Style
+: Ellipses have traditionally been implemented in three ways:
+:* ''Three unspaced periods'' (...). This is the easiest way, and gives a predictable appearance in HTML. '''Recommended.'''
+:* ''Pre-composed ellipsis character'' (…); generated with the <code>&amp;hellip;<code> character entity, or by insertion from the set below the edit window. This is harder to input and edit, and too small in some fonts. '''Not recommended.'''
+:* ''Three spaced periods'' (.&nbsp;.&nbsp;.). This is an older style that is unnecessarily wide and requires non-breaking spaces to keep it from breaking at the end of a line. '''Strongly deprecated.'''
+
+; Function
+: Use an ellipsis if material is omitted in the course of a quotation, unless square brackets are used to gloss the quotation (see above, and the next point below). Put a space on each side of an ellipsis, except at the very start or end of a quotation. Sentence-final punctuation after an ellipsis is shown only if it is textually important (as is often the case with exclamation points and question marks, and rarely with periods); no space comes between the ellipsis and the terminal punctuation. Use non-breaking spaces (<code>&amp;nbsp;<code>) only as needed to prevent improper line breaks, e.g.:
+:* To keep a quotation mark from being separated from the start of the quotation: <code>"...&amp;nbsp;we are still worried."</code>
+:* To keep the ellipsis from wrapping to the next line: <code>"France, Germany,&amp;nbsp;... and Belgium but not the USSR."</code>
+
+; Pause or suspension of speech
+: Three periods are occasionally used to represent a pause in or suspense of speech, in which case the punctuation is retained in its original form (''Virginia's startled reply was: "Could he...? No, I cannot believe it!"''). This usage is avoided in Wikipedia except in direct quotations.
+
+; With square brackets
+: An ellipsis does not normally need square brackets around it, since its function is usually obvious—especially if the guidelines above are followed. But square brackets may optionally be used for precision, to make it clear that the ellipsis is not itself quoted; this is usually only necessary if the quoted passage also uses three periods in it to indicate a pause or suspension. The ellipsis should follow exactly the principles given above, but with square brackets inserted immediately before and after it. (''Her long rant continued: "How do I feel? How do you ''think'' I... look, this has gone far enough!&nbsp;[...] I want to go home!"'')
+
+=== Serial commas ===
+
+A comma used immediately before a conjunction in a list of three or more items: the phrase ''ham, chips, and eggs'' contains a serial comma, while the variant ''ham, chips and eggs'' omits it. Both styles are acceptable in Wikipedia, but in a case where including or omitting the comma clarifies the meaning of the sentence, that solution should be adopted. 
+
+Sometimes omitting the comma can lead to an ambiguous sentence, as in this example: 
+''The author would like to thank her parents, Sinéad O'Connor and President Bush'', which may be a list of either four or two people.
+
+Including the comma can also cause ambiguity, as in: 
+''The author would like to thank her mother, Sinéad O'Connor, and President Bush'', which may be a list of either two or three people.
+
+In such cases of ambiguity there are three ways to clarify:
+
+* Use or omit the serial comma to avoid ambiguity.
+* Recast the sentence.
+* Format the list, e.g. with paragraph breaks and numbered paragraphs.
+
+=== Colons ===
+
+A colon (<code>:</code>) informs the reader that what comes after it proves, explains, or modifies what has come before, or is a list alluded to before. More specifically, the colon is an introduction that warns the reader to be prepared for a closely related construction that is about to follow: this following segment may be the elements of a set illustrating the statement, or the logical consequence or effect of a fact stated before, or another closely related modifying sentence, or a direct speech in combination with quotation marks.
+
+Colons should not have spaces before them:
+
+:{|style="background:transparent"
+|-valign=top
+|''Correct'':               ||He attempted it in two years: 1941 and 1943
+|-valign=top
+|''Incorrect'':&nbsp; &nbsp;||He attempted it in two years : 1941 and 1943
+|}
+
+Colons should have complete sentences before them:
+
+:{|style="background:transparent"
+|-valign=top
+|''Correct'':               ||He attempted it in two years: 1941 and 1943
+|-valign=top
+|''Incorrect'':&nbsp; &nbsp;||The years he attempted it included: 1941 and 1943
+|}
+
+=== Hyphens ===
+
+Hyphens (-) indicate conjunction. There are three main uses. 
+
+# To distinguish between '''homographs''' (''re-dress'' = dress again, but ''redress'' = remedy or set right).
+# To link certain '''prefixes''' with their main word (''non-linear'', ''sub-section'', ''super-achiever''): 
+#: There is a clear trend, not yet complete, to join both elements in all varieties of English (''subsection'', ''nonlinear''), particularly in North America. British English tends to hyphenate when the letters brought into contact are the same (''non-negotiable'', ''sub-basement'') or are vowels (''pre-industrial''), or where a word is uncommon (''co-proposed'', ''re-target'') or may be misread (''sub-era'', not ''subera''). North American English reflects the same factors, but tends strongly to close up without a hyphen when possible. Consult a good dictionary, and see WP:ENGVAR.
+# To link related terms in '''compound adjectives and adverbs''':
+#* A hyphen can help with ease of reading (''face-to-face discussion'', ''hard-boiled egg''); a hyphen is particularly useful in long nominal groups where non-experts are part of the readership, such as in Wikipedia's scientific articles: ''gas-phase reaction dynamics''.
+#* A hyphen can help to disambiguate (''little-used car'', not a reference to the size of a used car).
+#* Many compound adjectives that are hyphenated when used attributively (before the noun they qualify—''a light-blue handbag''), are not hyphenated when used predicatively (after the noun—''the handbag was light blue''). Where there would be a loss of clarity, the hyphen may be used in the predicative case too (''hand-fed turkeys'', ''the turkeys were hand-fed'').
+#* A hyphen is not used after an ''-ly'' adverb (''wholly owned subsidiary'') unless part of a larger compound (''a slowly-but-surely strategy'').
+#* A hyphen is normally used when the adverb ''well'' precedes a participle used attributively (''a well-meaning gesture''; but normally ''a very well managed firm'', since ''well'' itself is modified); and even predicatively, if ''well'' is necessary to, or alters, the sense of the adjective rather than simply intensifying it (''the gesture was well-meaning'', ''the child was well-behaved'', but ''the floor was well polished'').
+#* A ''hanging hyphen'' is used when two compound adjectives are separated (''two- and three-digit numbers'', ''a ten-car or -truck convoy''). 
+#* Values and units used as compound adjectives are hyphenated only where the unit is given as a whole word. Where hyphens are not used, values and units are always separated by a non-breaking space (<nowiki>&amp;nbsp;</nowiki>).
+
+:::{|style="background:transparent"
+|-valign=top
+|''Incorrect'':             ||9-mm gap
+|-valign=top
+|''Correct'':               ||9&nbsp;mm gap (entered as ''9&amp;nbsp;mm gap'')
+|-valign=top
+|''Incorrect'':&nbsp; &nbsp;||9&nbsp;millimetre gap
+|-valign=top
+|''Correct'':               ||9-millimetre gap
+|-valign=top
+|''Correct'':               ||12-hour shift
+|-valign=top
+|''Correct'':               ||12&nbsp;h shift
+|}
+
+A hyphen is never followed or preceded by a space, except when hanging (see above) or when used to display parts of words independently, such as the prefix ''sub-'' and the suffix ''-less''.
+
+A hyphen is used only to mark conjunction—not to mark disjunction (for which en dashes are correct: see below).
+
+Hyphenation involves many subtleties that cannot be covered here; the rules and examples presented above illustrate the broad principles that inform current usage.
+
+Do not use hyphens (-) to write minus signs (&minus;), except in code.
+
+=== Dashes ===
+
+Two kinds of dash are used on Wikipedia. The article on dashes shows common input methods for both kinds. 
+
+====En dashes ====
+
+En dashes (–) have three distinct roles.
+
+# To indicate '''disjunction'''. In this role there are two main applications.
+#* To convey the sense of ''to'' or ''through'', particularly in ranges (''pp. 211–19'', ''64–75%'', ''the 1939–45 war'', ''May–November'') and where movement is involved (''Dublin–Belfast route''). The word ''to'', rather than an en dash, is used when a number range involves a negative value or might be misconstrued as a subtraction (''&minus;3 to 1'', not ''&minus;3–1''). This is also the case when the nearby wording demands it, e.g., ''he served from 1939 to 1941'' and not ''he served from 1939–1941'', in which ''from'' and ''to'' are complementary and should both be spelled out.
+#* As a substitute for some uses of ''and'', ''to'' or ''versus'' for marking a relationship involving independent elements in certain compound expressions (''Canada–US border'', ''blood–brain barrier'', ''time–altitude graph'', ''4–3 win in the opening game'', ''male–female ratio'', ''3–2 majority verdict'', ''Michelson–Morley experiment'', ''diode–transistor logic''; but a hyphen is used in ''Sino-Japanese trade'', in which ''Sino-'', being a prefix, lacks lexical independence.
+#** ''Spacing:'' All disjunctive en dashes are unspaced, except when there is a space within either or both of the items (''the New York – Sydney flight''; ''the New Zealand – South Africa grand final''; ''July 3, 1888 – August 18, 1940'', but ''July–August 1940'').
+# In '''lists''', to separate distinct information within points—particularly track titles and durations, and musicians and their instruments, in articles on music albums. In this role, en dashes are always spaced.
+# As a '''stylistic alternative to em dashes''' (see below).
+
+; En dashes in page names
+When naming an article, a hyphen is not used as a substitute for an en dash that properly belongs in the title, for example in redirect page to such an article, using a hyphen in place of the en dash (e.g., Eye-hand span), to allow the name to be typed easily when searching Wikipedia. See also Wikipedia:Naming conventions (precision). The associated talk page name should match the page name exactly.
+
+; Minus signs
+Do not use an en dash for negative signs and subtraction operators: use the correct unicode character for the minus sign (<nowiki>&amp;minus;</nowiki>) (see also Wikipedia:Manual of Style (mathematics).) Negative signs (''&minus;8&nbsp;°C'') are unspaced; subtraction signs (''42&nbsp;&minus;&nbsp;4&nbsp;=&nbsp;38'') are spaced.
+
+==== Em dashes ====
+
+Em dashes (—) indicate interruption. They are used in two roles.
+
+# '''Parenthesis''' (''Wikipedia—one of the most popular web sites—has the information you need''). Here, a pair of em dashes is a more arresting way of interpolating a phrase or clause than a pair of commas, and is less of an interruption than brackets. A pair of em dashes is particularly useful where there are already many commas; em dashes can make such a sentence easier to read, and sometimes they can remove ambiguity. 
+# '''A sharp break''' in the flow of a sentence—sharper than is provided by a colon or a semicolon.
+
+Em dashes should not be spaced.
+
+Because em dashes are visually striking, it is preferable to avoid using more than two in a single paragraph. The roles of more than two em dashes in a single sentence can be unclear.
+
+Do not use an em dash for a minus sign.
+
+; Spaced en dashes as an alternative to em dashes
+Spaced en dashes – such as here – can be used instead of unspaced em dashes in all of the ways discussed above. Spaced en dashes are used by several major publishers, to the complete exclusion of em dashes. One style should be used consistently in an article.
+
+==== Other dashes ====
+
+These are avoided on Wikipedia, notably the double-hyphen (--).
+
+=== Spaces after the end of a sentence ===
+
+There are no guidelines on whether to use one space or two (French spacing) after the end of a sentence, but the issue is not important, because the difference is visible only in edit boxes; i.e. it is ignored by browsers when displaying the article.
+
+=== Slashes ===
+
+Avoid joining two words by a slash (''/'', also known as a forward slash), as it suggests that the two are related, but does not specify how. It is often also unclear how the construct would be read aloud. Consider replacing a slash with an explanation, or adding one in a footnote. Where possible, reword more fully to avoid uncertainties.
+
+An example: ''The parent/instructor must be present at all times.'' Must both be present? (Then write ''the parent and the instructor''.) Must at least one be present? (Then write ''the parent or the instructor''.) Are they the same person? (Use a hyphen: ''the parent-instructor''.) 
+
+In circumstances involving a distinction or disjunction, the en dash is usually preferable to the slash, e.g., ''the novel–novella distinction''.
+
+An unspaced slash may be used:
+
+* to show pronunciations ("''ribald'' is pronounced /ˈ'''rıb'''·əld/")
+* to separate the numerator and denominator in a fraction (''7/8'' or '''')
+* to indicate regular defined yearly periods that do not coincide with calendar years (see Wikipedia:Manual of Style (dates and numbers)#Longer periods)
+* where slashes are used in a phrase outside of Wikipedia, and using a different construction would be inaccurate, unfamiliar or ambiguous
+
+A spaced slash may be used:
+
+* to separate run-in lines of poetry or song (''To be or not to be: that is the question:&nbsp;/ Whether 'tis nobler in the mind to suffer&nbsp;/ The slings and arrows of outrageous fortune'')
+* to separate any construction that can be separated with an unspaced slash when readability would be enhanced by doing so, most often when the items being separated are complex, such as involving a number of abbreviations, numbers; compare ''the NY&nbsp;31 east&nbsp;/ NY&nbsp;370 exit'' with ''the NY&nbsp;31 east/NY&nbsp;370 exit''.
+
+Spaced slashes should be coded with a leading non-breaking space and a trailing normal space, e.g., <code>x&amp;nbsp;/ y</code> (which renders as ''x&nbsp;/ y''), to prevent line breaks introducing readability problems.
+
+The backslash character, ''\'', is never used in place of a slash. 
+
+In general prose, prefer ''÷'' to ''/'' when representing mathematical division. (See Wikipedia:Manual of Style (dates and numbers)#Common mathematical symbols and Help:Displaying a formula for more information.)
+
+=== And/or ===
+
+The term ''inclusive ''or'', use ''x or y, or both'', rather than ''x and/or y''. For an exclusive ''or'', use ''either x or y'', and optionally add ''but not both'', if it is necessary to stress the exclusivity. 
+
+Where more than two possibilities are presented, from which a combination is to be selected, it is even less desirable to use ''and/or''. With two possibilities, at least the intention is clear; but with more than two it may not be<!-- (see ''The Cambridge Guide to English Usage'', 2004, p. 38)-->. Instead of ''x, y, and/or z'', use an appropriate alternative, such as ''one or more of x, y, and z''; ''some or all of x, y, and z''.
+
+Sometimes ''or'' is ambiguous in another way: "Wild dogs, or dingoes, inhabit this stretch of land". Are wild dogs and dingoes the same or different? For one case write: "wild dogs (dingoes) inhabit ..." (dingoes ''are'' wild dogs); for the other case write: "either wild dogs or dingoes inhabit ..." (I don't know which).
+
+=== Question marks and exclamation marks ===
+
+* Question and exclamation marks are never preceded by a space in normal prose.
+* The register.
+* Clusters of question marks, exclamation marks, or a combination of them (such as the interrobang) are highly informal and inappropriate in Wikipedia articles.
+* For the use of these marks in association with quotation marks, see #Quotations above.
+
+=== Punctuation and inline citations ===
+
+The placement of inline citations relative to sentence punctuation is dealt with separately, within the Wikipedia guidelines concerning References.
+
+== Chronological items ==
+
+=== Precise language ===

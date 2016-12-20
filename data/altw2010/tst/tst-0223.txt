@@ -1,0 +1,20 @@
+'''Автоматическое планирование и диспетчеризация''' (en. APS - Automated planning and scheduling) - область задач искусственного интеллекта касающаяся выполнения стратегии или последовательности действий, обычно для интеллектуальных агентов, автономных роботов и беспилотных аппаратов. В отличие от классических проблем управления и классификации, решения задач данной области комплексны, неизвестны и должны разрабатываться и оптимизироваться в многомерном пространстве. 
+
+При известных параметрах среды и доступных моделях планирование может осуществляться в оффлайне. Решения можно найти и оценить до выполнения. В случае непредсказуемого поведения среды проб и ошибок присущие области искусственного интеллекта, такие как динамическое программирование, укрепляющее обучение и комбинаторная оптимизация.
+
+У типичного планировщика три входа: описание начальных условий, описание желаемой цели и множество возможных действий, заданных формальным языком наподобие STRIPS. Планировщик создаёт последовательность действий, которые ведут систему из начального состояния в состояние, удовлетворяющее поставленной цели. Альтернативным способом описания проблем планирования является иерархическая сеть задач, в которой из данного множества задач, каждая задача может быть либо выполнена с помощью примитивного действия, либо разбита на аналогичное подмножество задач.
+
+...
+
+'''Automated planning and scheduling''' is a branch of strategies or action sequences, typically for execution by unmanned vehicles. Unlike classical control and classification problems, the solutions are complex, unknown and have to be discovered and optimised in multidimensional space.
+
+In known environments with available models planning can be done offline. Solutions can be found and evaluated prior to execution. In dynamically unknown environments the strategy often needs to be revised online. Models and policies need to be adapted. Solutions usually resort to iterative trial and error processes commonly seen in artificial intelligence. These include dynamic programming, reinforcement learning and combinatorial optimization. 
+
+A typical planner takes three inputs: a description of the initial state of the world, a description of the desired goal, and a set of possible actions, all encoded in a formal language such as STRIPS. The planner produces a sequence of actions that lead from the initial state to a state meeting the goal. An alternative language for describing planning problems is that of hierarchical task networks, in which a set of tasks is given, and each task can be either realized by a primitive action or decomposed in a set of other tasks.
+
+The difficulty of planning is dependent on the simplifying assumptions employed, e.g. atomic time, deterministic time, complete observability, etc. Classical planners make all these assumptions and have been studied most fully. Some popular techniques include: heuristics synthesized from the problem, search through plan space, and translation to propositional satisfiability (satplan).
+
+If the assumption of determinism is dropped and a probabilistic model of uncertainty is adopted, then this leads to the problem of policy generation for a Markov decision process (MDP) or (in the general case) Partially observable Markov decision process (POMDP).
+
+==Examples==
+*The Hubble Space Telescope uses a short-term system called [http://www.pst.stsci.edu/spss/doc/spss-abs.html SPSS] and a long-term planning system called [http://www.stsci.edu/resources/software_hardware/spike/ Spike].

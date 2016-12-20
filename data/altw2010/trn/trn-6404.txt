@@ -1,0 +1,47 @@
+{{infobox OS
+| jméno = Ubuntu Christian Edition
+| screenshot = thumb
+| titulek = Plocha Ubuntu Christian Edition 3.2
+| rodina = Linux
+| aktualní verze = 3.3
+| datum vydání = 29. července 2007
+| grafické rozhraní = GNOME
+| licence = různé
+| stav = aktivní
+}}
+'''Ubuntu Christian Edition''' (známá také jako '''Ubuntu CE''') je křesťany založená na Ubuntu. Ubuntu Christian Edition obsahuje svobodný software a je tedy volně ke stažení.
+
+== Vlastnosti ==
+Nejnovější verze 3.3 je založena na Ubuntu 7.04 Feisty Fawn a obsahuje Firefoxu, Virtual Rosary, Bible Verse Memorizer, E-sword biblický studijní software podobný GnomeSword, ale běžící pod Wine.
+
+== Kritika ==
+Od svého vydání v červenci 2006 je Ubuntu CE pod vlnou kritiky komunity Ubuntu. Nejčastější důvody kritiky:
+*CE není samostatná distribuce, protože pouze přidává do Ubuntu další balíčky, které se dají do Ubuntu snadno stáhnout.
+*Slovo „Ubuntu“ značí komunitu a zaměřovat distribuce jen na specifické lidi je opakem této filozofie.
+*Nevhodnost spojení operačním systémem.
+
+Někteří členové komunity Ubuntu vydali jako reakci na Christian Edition vlastní Ubuntu Satanic Edition, což má být parodie na křesťanskou verzi.
+
+{{ Infobox_OS
+| name =                   Ubuntu Christian Edition
+| logo =                   100px
+| screenshot =            
+| caption =                
+| developer =              
+| family =                 GNU/Linux
+| source_model =           FOSS
+| latest_release_version = v3.3 (Feisty)
+| latest_release_date =    29 липня 2007
+| kernel_type =            Монолітне ядро
+| license =                Вільні ліцензії
+| working_state  = Актуальний
+| website =                [http://www.christianubuntu.com/ www.christianubuntu.com]
+| updatemodel =            APT
+| package_manager =        dpkg
+}}
+
+'''Ubuntu Christian Edition''' (іноді використовується назва '''Ubuntu CE''') — дистрибутив християн. Включає в себе програму вивчення Біблії, можливість щоденного показу строф з Біблії, утиліти для батьківського контролю та деякі стандартні користувацькі програми.
+
+'''Ubuntu Christian Edition''' доступний для завантаження як ISO образ (700 МВ) з сайту проекту. 
+
+==Посилання==

@@ -1,0 +1,59 @@
+'''型変換'''（'''かたへんかん'''）とはプログラムにおいて、あるデータ型を他のデータ型に変換することである。
+
+==分類==
+===暗黙の型変換と明示的型変換===
+'''暗黙の型変換'''は、明示的に指定しなくてもコンパイラの判断によって自動的に行われる型変換である。逆に、明示的に指定して行う型変換を'''明示的型変換'''という。
+
+暗黙の型変換では、たとえばある式の中に複数の型の変数がある場合、すべての変数を最も上位の型に変換する。
+ double  d;
+ long    l;
+ int     i;
+ // ...
+ if (d > i)      d = i;
+ if (i > l)      l = i;
+ if (d == l)     d *= 2;
+このC言語のコードでは、<code>d</code>と<code>l</code>と<code>i</code>は異なったデータ型をもっているので、すべての演算は自動的に同じ型に変換された後に行われる。
+
+暗黙の型変換には注意しなければならないこともある。たとえば<code>double</code>型（浮動小数点数）の値を<code>int</code>型（整数型）の変数に代入する場合、小数点以下の端数があったり、元の値が<code>int</code>型で表現できる範囲を超えていたりすると、情報の一部が失われてしまう（C言語ではそのような変換を許している）。
+
+===組込みの型変換とユーザ定義の型変換===
+基本的な型変換（整数どうしの変換や、整数と浮動小数点数との間の変換など）は、多くの処理系でコンパイラまたはプロセッサ内に既に定義されている。一方、ある型から別の型への変換をユーザが定義できる言語もある。
+
+例えばC++では、ユーザ定義型の中に変換元の型を一つだけとるコンストラクタを定義すれば、ユーザ定義の暗黙の型変換が定義できる。コンストラクタに<tt>explicit</tt>修飾子をつけると暗黙の型変換が許されなくなり、明示的型変換が必要となる。
+
+ class Class1 { };
+ class Class2 {
+ public:
+   explicit Class2(Class1 c1) { ... }
+ };
+ 
+ void test() {
+   Class1 c1;
+   Class2 c2 = (Class2)c1;
+   // explicit修飾子がなければ Class2 c2 = c1; でよい
+ }
+ここで、<tt>Class1</tt>と<tt>Class2</tt>の間には継承関係がないにもかかわらず代入ができている。これは<tt>Class1</tt>からコンストラクタを通して<tt>Class2</tt>に型変換されるからである。
+
+In computer science, '''type conversion''' or '''typecasting''' refers to changing an entity of one data type into another.  This is done to take advantage of certain features of type hierarchies.  For instance, values from a more limited set, such as integers, can be stored in a more compact format and later converted to a different format enabling operations not previously possible, such as division with several decimal places' worth of accuracy.  In object-oriented programming languages, type conversion allows programs to treat objects of one type as one of their ancestor types to simplify interacting with them.
+
+There are two types of conversion: implicit and explicit.  The term for implicit type conversion is '''coercion'''.  The most common form of explicit type conversion is known as '''casting'''. Explicit type conversion can also be achieved with separately defined conversion routines such as an overloaded object constructor.
+
+==Implicit type conversion==
+Implicit type conversion, also known as '''coercion''', is an automatic type conversion by the languages allow, or even require, compilers to provide coercion.
+
+In a mixed-type expression, data of one or more subtypes can be converted to a C language code:
+
+<source lang="c">
+double  d;
+long    l;
+int     i; 
+
+if (d > i)      d = i;
+if (i > l)      l = i;
+if (d == l)     d *= 2;
+</source>
+
+Although ''d'', ''l'' and ''i'' belong to different data types, they will be automatically converted to equal data types each time a comparison or assignment is executed.  This behavior should be used with caution, as unintended consequences can arise. Data can be lost when floating-point representations are converted to integral representations as the fractional components of the floating-point values will be truncated (rounded down). Conversely, converting from an integral representation to a floating-point one can also lose precision, since the floating-point type may be unable to represent the integer exactly (for example, ''float'' might be an IEEE 754 single precision type, which cannot represent the integer 16777217 exactly, while a 32-bit integer type can).  This can lead to situations such as storing the same integer value into two variables of type int and type single which return false if compared for equality.
+
+==Explicit type conversion==
+There are several kinds of explicit conversion.

@@ -1,0 +1,114 @@
+{{Infobox Software
+| name = XMMS2
+| logo = Image:XMMS2-Logo-white-128.png
+| screenshot = X Multimedia System
+| caption = 
+| author = 
+| developer = XMMS Team
+| released = 
+| latest release version = 
+| latest release date = 
+| latest preview version = 0.5 DrLecter
+| latest preview date = 2008-06-15
+| operating system =  Unix-like
+| platform = 
+| language = 
+| status = 
+| genre = Audio player
+| license = GPL / LGPL (plugins)
+| website = [http://www.xmms2.org/ www.xmms2.org]
+}}
+'''XMMS2''' ('''X-platform Music Multiplexing System 2''') is a new generation of the XMMS audio player. It is a new design, written from scratch, separate from the XMMS codebase. While Peter Alm, one of the original authors of XMMS, was responsible for the initial design and coding of XMMS2 (late 2002 to early 2003),<ref>[http://wiki.xmms2.xmms.se/index.php/History/Ancient#.28Late_2002.29 Project history], XMMS2 Project, retrieved January 11, 2007</ref> he has since passed on the responsibility of furthering the project to Tobias Rundström and Anders Gustafsson. <ref>[http://wiki.xmms2.xmms.se/index.php/About/People#Lead_Developers Lead Developers], XMMS2 Project, retrieved January 11, 2007</ref>
+
+== Design concepts ==
+XMMS2 borrows concepts from XMMS-era music players, such as playback control, a media players around 2001 and 2002, such as a Media library and a Client-server based media player.
+
+=== The concepts ===
+;Playback Control: Taken for granted these days - simple functions like 'play', 'pause', 'stop', 'seek'. Standard features in media players.
+;Playlist: Also taken for granted, allows for multiple files and/or streams to be queued so that the player may play them sequentially. Provides functions such as 'previous', 'next', 'shuffle', 'repeat', 'random'. Some players allow for users to select a subset of the playlist in an arbitrary order as a more immediate 'queue' for playback. This allows for a large playlist to retain its order, while a smaller selection is played in a different order. This concept is largely superseded by the ''Media Library'' concept. (As of 20th August 2005, the arbitrary queue feature is not directly supported by XMMS2)
+;Plugins: A plugin architecture is a type of modular architecture where certain functions are delegated to loadable libraries which provide particular functions at run-time. XMMS recognised five different types of plugins:
+* Input plugins for reading and decoding files or streams.
+* Output plugins to handle sound output.
+* Effects plugins to add effects to decoded audio data, before being output.
+* Visualisation plugins to provide visual animations that vary according to the audio being played.
+* General plugins which allow for miscellaneous functions such as controlling XMMS via an Infrared remote control or a Joystick.
+''XMMS2'' also recognises five types of plugins, but they perform rather different functions:
+* Transport plugins for reading files or streams.
+* Decoder plugins for decoding data read by transport plugins.
+* Effect plugins to add effects to decoded audio data, before being output.
+* Output plugins to handle sound output.
+* Playlist plugins to handle the importing and exporting of playlist data.
+;User-Configurable GUI: Most modern media players allow for their graphical user interfaces to be modifiable in some way by the user, typically by supporting skinning. This can improve the look (and possibly feel) of the player window on a user's desktop.
+;Media Library: This concept started appearing around 2000 (e.g. in Winamp) and allows the player to 'remember' where a user's media is located. The implementation of this feature varies between players, but the common rationale is to provide the user a fast and efficient way of organising, searching and accessing media.
+;Client-Server Model: This concept has been rarely implemented in the realm of media players. The most popular player implementing this is possibly Music Player Daemon, a project by Warren Dukes started around early 2003.
+
+=== The design ===
+When first conceived, XMMS2 was set to simply become a shared library that could be used with varying front-end code. That is, the XMMS2 library would have been a 'player back-end' taking care of the mechanics of playing audio streams, while some arbitrary front-end would provide a user interface. This concept was later generalised into a client-server model to allow for more flexible coupling between the front-end and the back-end.<ref>[http://wiki.xmms2.xmms.se/index.php/Design_of_XMMS2 Design of XMMS2], XMMS2 Project, retrieved January 11, 2007</ref> The advantages of this approach are:
+* This allows the user to use any compatible client(s) to (simultaneously) connect to and control a single instance of the XMMS2 daemon.
+** Clients can offer various types of user interfaces - graphical or text based, implemented using various toolkits, integrated with various desktop environments.
+** Client developers can concentrate on improving the usability of their interface, and not worry about playback code.
+* The use of TCP sockets also allows for users to remotely control XMMS2 daemons over a TCP/IP network.
+
+While the plugin architecture of XMMS allowed it to be quite extensible, it was inefficient in certain ways; XMMS2 seeks to improve on that.
+* XMMS has Input plugins that take care of reading data and decoding it to audio. XMMS2 splits this into a Transport stage and a Decode stage, so that a single transport plugin may supply data of any type to any decoder plugin.
+* General plugins may prove to be less relevant in XMMS2, as their purpose may be served by clients, but the plugin architecture will still exist (see paragraph above).
+* XMMS can't handle container formats in a general manner. The XMMS2 architecture makes it easier to build support for container formats.
+
+XMMS2's media library is well integrated with the playlist. This integration means that every file or stream added to the playlist has its metadata automatically cached by (remembered by) the media library. (This only happens once for every unique URL, so metadata isn't read again if it already exists in the library) Besides metadata, the media library can also quickly and efficiently store and reload playlists (as well as import and export them), making a user's music collection all accessible from a single place.
+
+== XMMS2 and other projects ==
+The name '''XMMS2''' was chosen by Peter Alm and Tobias Rundström as they started work on the project, evidently intending it to become the successor to XMMS. However, other developers started using the name (in 2003) before Peter and Tobias ever released their code:
+
+* Another project named XMMS2, by Mohammed Sameer, was described as "a Gtk 2 port of the well known xmms." This was '''not''' related to the project discussed in the rest of this article. The project has now been discontinued and removed from GNU Savannah.
+* A better known GTK+ 2 port of XMMS is the Beep Media Player, which is sometimes referred to (erroneously) as XMMS2.<ref>[http://www.advogato.org/person/fatal/#2 'Another one.'] by [http://www.advogato.org/person/fatal/ Thomas Nilsson], 2003-11-08, retrieved January 11, 2007</ref> The [http://bmp.beep-media-player.org/index.php/FAQ#Background BMP FAQ] explains that project's relationship to XMMS.
+
+{{Infobox Logiciel
+| nom = XMMS2
+| image = 
+| description = Apparence par défaut de XMMS2
+| développeur = XMMS2 Team
+| dernière version = 0.4 DrKosmos
+| date de dernière version = 
+| environnement = Linux, FreeBSD, NetBSD
+| type = Lecteur audio
+| licence = GNU GPL
+| site web = [http://xmms2.sourceforge.net/ xmms2.sourceforge.net]
+}}
+libre XMMS. Le logiciel a été recodé depuis zéro. Peter Alm, parmi les premiers auteurs de XMMS, était responsable du développement initial de XMMS2 (fin 2002 jusqu'à début 2003)<ref>[http://wiki.xmms2.xmms.se/index.php/About/People#Lead_Developers Lead Developers], Projet XMMS2</ref>, mais depuis il a donné la responsabilité du projet à Tobias Rundström et à Anders Gustafsson <ref>[http://wiki.xmms2.xmms.se/index.php/History/Ancient#.28Late_2002.29 Histoire du projet]</ref>.
+
+== Concept ==
+XMMS2 suit les principaux concepts de XMMS, par exemple, un Environnement graphique personnalisable, une gestion des listes de lecture, des plugins, et ajoute des fonctionnalités qui sont apparues dans les lecteurs multimédias en 2001-2002, à savoir : un lecteur basé sur un modèle client serveur, et une gestion des bibliothèques multimédia.
+
+=== Contrôle de la lecture === 
+Fonctionnalités communes à tous les lecteurs : lecture, pause, suivant, précédent, etc...
+
+=== Listes de lectures ===
+Très classique également, XMMS2 supporte la gestion des listes de lecture : plusieurs fichiers ou flux peuvent être mis à la suite. La lecture de ses flux peut être séquentielle, aléatoire, ou répétitive.
+
+=== Extensions ===
+XMMS2 possède une architecture modulaire ce qui rend possible le développement de plugins, laissant la responsabilité de certaines fonctions à des modules situés dans des bibliothèque dynamique. XMMS supporte plusieurs types de plugins : 
+
+* Plugins d'entrée, pour le décodage des fichiers musicaux et de leur format (par exemple : OGG ou MP3) ;
+* Plugins de sortie, pour manipuler les sorties sonores (par exemple ALSA et OSS, sous Linux) ;
+* Plugins qui ajoutent des effets à la musique avant qu'elle soit jouée ;
+* Plugins qui permettent de visualiser graphiquement la musique jouée ;
+* Plugins généraux qui apportent des fonctionnalités diverses comme par exemple le contrôle du lecteur par un joystick ;
+* Plugins qui assurent la réception de flux distants ;
+* Plugins qui gèrent les listes de lecture.
+
+=== Environnement graphique configurable ===
+La plupart des lecteurs multimédia actuels supportent la configuration de leur interface par l'utilisateur, en utilisant des thèmes. Cela permet d'améliorer l'apparence du logiciel.
+
+=== Bibliothèque multimédia ===
+Une des fonctionnalité majeure qui est apparue dans les lecteurs récents est la gestion de bibliothèque multimédia (par exemple dans Amarok). Cela permet au logiciel de se souvenir de l'emplacement des médias de l'utilisateur. L'implémentation varie en fonction des lecteurs mais la plupart utilisent des base de données. XMMS2 utilise SQLite pour ce traitement.
+
+=== Modèle client/serveur ===
+Concept plutôt rare dans les lecteurs actuels, son implémentation la plus populaire est MPD. Il consiste en la création d'un serveur qui se charge d'ouvrir et de lire les flux audios tandis que les clients s'occupent de la partie interface utilisateur. L'avantage le plus évident d'un tel concept est la modularité.
+
+== Conception ==
+Au départ, XMMS2 n'était sensé qu'être une bibliothèque assurant le décodage et la lecture de flux audios. XMMS2 aurait alors laissé la partie interface à d'autres logiciels. Ce concept a été généralisé en modèle client/serveur.
+Les principaux avantages sont : 
+* Cela permet plusieurs clients de contrôler une même instance de XMMS2 (démon)
+* Une multitude de clients est possible.
+* Les développeurs de clients n'ont plus à se préoccuper de la lecture de flux, ils peuvent donc se concentrer sur l'interface.
+* L'utilisation de sockets TCP permet de contrôler XMMS2 à distance.

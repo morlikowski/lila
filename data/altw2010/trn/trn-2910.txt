@@ -1,0 +1,96 @@
+'''Le seuil de rentabilité''' est le niveau d'activité minimum à partir duquel une entreprise devient rentable pour elle-même par ses économies d'échelle, c'est-à-dire qu'elle cesse de perdre de l'argent sur cette activité.<br/>
+Littéralement, le concept dérive de l'adjectif ''rentable'', lui-même signifiant : "qui rapporte une rente" (un revenu)<ref>Source : le [http://atilf.atilf.fr/dendien/scripts/tlfiv5/visusel.exe?27;s=1169870385;r=2;nat=;sol=1; TLFi]</ref>, généralisé abusivement au sens de "qui rapporte un bénéfice" (une rentabilité).
+
+Il existe autant de seuils de rentabilité que de prix de vente possible. L'art de la fixation des prix consiste à déterminer le meilleur, ou le moins mauvais, pour la rentabilité de l'entreprise. Tant qu'un produit n'atteint pas son seuil de rentabilité, il perd de l'argent ; quand la situation dure trop longtemps, le produit est généralement retiré du marché. Le calcul du seuil de rentabilité est donc un élément important dans la décision de commercialiser ou de continuer la diffusion d'un produit.<br/>
+
+Le '''point mort''' (ou ''break-even point'' en anglais) est le point d'intersection entre la courbe du chiffre d'affaires et la courbe des charges nécessaires pour produire ce chiffre d'affaires. Le seuil de rentabilité est donc atteint quand on arrive au point mort. En pratique, les termes "seuil de rentabilité" et "point mort" sont utilisés indifféremment.
+
+Normalement exprimé en valeur financière (monnaie), le seuil de rentabilité peut aussi s'exprimer en ''nombre de jours '' de chiffre d'affaires ou en ''quantités produites''.
+
+==Enjeux du seuil de rentabilité==
+
+L'activité en question peut être simple (la revente de produits déjà manufacturés) ou complexe (la production industrielle d'un bien), mais le seuil de rentabilité permet toujours de savoir à partir de quel niveau de chiffre d'affaires l'entreprise assure-t-elle son équilibre financier ?
+
+Pour une entreprise, la détermination du seuil de rentabilité est nécessaire.
+
+#C'est un facteur de décision pour le lancement d'un nouveau produit sur le marché, ou son retrait ;
+#Il permet de calculer le montant du chiffre d’affaires à partir duquel l’activité est rentable, ou la date à laquelle l'entreprise commencera à faire du bénéfice ;
+#Il permet de savoir où se situe la marge réellement dégagée par la société à un moment donné ;
+#Il permet d’étudier le taux de risque de se trouver en déficit, et corrélativement d’apprécier la sécurité dont dispose l’entreprise si la conjoncture devient défavorable ;
+#Il permet de mieux étudier et analyser le rôle  et la répartition des charges entre fixes et variables ; notamment il oblige à calculer la marge sur coût variable (MSCV), dont l’intérêt est d’éviter les inconvénients de l’imputation des charges fixes aux différents coûts des produits de la société.     
+
+Les limites :
+#C'est un système '''prévisionnel'''. La décision dépend donc de la qualité des données entrées dans le calcul de la marge, lui-même fonction du choix des données (quelle dépense est prise en compte ? selon quel critère ?) et de leur exactitude (le contrôle de leur réalité n'est possible qu'a posteriori).
+#C'est un système '''normatif''' : certains coûts sont exclus, d'autres intégrés selon des clés de répartition souvent calculées de manière standard. Il ne représente donc qu'une simplification de la réalité.
+#Et pourtant, c'est un système '''peu normé''' : les méthodes sont différentes d'une entreprise à l'autre, ou d'un exercice à l'autre. Il n'existe pas de "catalogue" des coûts à prendre en compte. La comparaison est donc difficile.
+#C'est un '''système linéaire''', c'est-à-dire qu'il fonctionne dans l'hypothèse où l'accroissement des ventes passe par un accroissement des coûts dans la même proportion. Ce système théorique n'existe pas dans la réalité, aucune dépense n'est parfaitement linéaire. Il existe principalement deux effets qui contredisent cette linéarité : l'''effet de seuil'' et ''l'hétérogénéïté des économies d'échelle''.
+::*''Les effets de seuil'' : les machines ont des capacités de production qui ne peuvent pas être poussées au-delà d'un certain seuil ; pour les dépasser, même de quelques unités, il faudra réinvestir dans une autre machine, ce qui double l'investissement, nécessite de l'espace en proportion plus importante que l'augmentation de production envisagée, etc.
+::*''L'hétérogénéïté des économies d'échelle'' : certaines productions peuvent être accrues sans impact sur les coûts. Par exemple, doubler la cadence d'une machine ne double pas nécessairement le coût d'entretien ni la consommation d'énergie ni le nombre d'ouvriers affectés à cette machine. Dans ce cas, la production supplémentaire coûte moins cher que la production initiale, on dit que le coût marginal de production est plus faible que le coût initial.
+
+==Caractéristiques du seuil de rentabilité==
+
+Le seuil de rentabilité peut être calculé très simplement dans les entreprises qui revendent en l'état les produits qu'elles ont achetés. Dans les entreprises à production complexe (multiples produits, plusieurs chaînes de transformation, etc.), le calcul suppose la mise en place d'un système d'information analytique.<br/>
+
+Il existe plusieurs méthodes de calcul, qui seront utilisées selon le degré de précision attendu ou selon l'interlocuteur : un responsable d'atelier calculera son point mort différemment d'un responsable commercial. Les méthodes les plus répandues sont les suivantes.
+
+===Méthode comptable simple : chiffre d'affaires moins charges totales===
+Cette méthode est la plus simple à exprimer : le seuil de rentabilité d'une activité est atteint quand le chiffre d'affaires est égal au montant des charges mobilisées par cette activité. Les charges comprennent les charges fixes et les charges variables. Les charges fixes correspondent aux charges indépendantes du niveau d'activité (exemple : frais de structure, amortissements, etc.) ; tandis que les charges variables varient proportionnellement au niveau d'activité (exemple : main d'oeuvre, matière première, etc.). Mathématiquement, cela s'exprime ainsi :<br />
+:::<math>CA - (CV + CF)>=0</math><br />
+où CA = le chiffre d'affaires, CV et CF représentent les charges variables et les charges fixes.
+
+===Méthode basée sur la marge : marge sur coût variable moins frais fixes===
+Le seuil de rentabilité est obtenu quand la marge entre le chiffre d'affaires relatif au produit et les coûts variables qui lui incombent devient supérieure à la somme des frais fixes immobilisés pour le produire.
+
+<math>CF/Taux MCV >=0</math>
+
+ou bien :
+
+<math>CA*CF/MCV >=0</math>
+
+thumb|right|240px|The '''Break-Even Point''' is where [[Total Costs equal Sales. In the Cost-Volume-Profit Analysis model, Total Costs are linear in volume.]]
+
+In economics, specifically cost accounting, the '''break-even point''' (BEP) is the point at which cost or expenses and revenue are equal: there is no net loss or gain, and one has "broken even". Therefore has not made a profit or a loss.
+
+==Computation==
+In the linear Cost-Volume-Profit Analysis model,<ref>Where marginal costs and marginal revenues are constant, among other assumptions.</ref> the break-even point (in terms of Unit Sales (X)) can be directly computed in terms of Total Revenue (TR) and Total Costs (TC) as:
+:<math>\begin{align}
+\text{TR} &=  \text{TC}\\
+\text{P}\times \text{X} &= \text{TFC} + \text{V} \times \text{X}\\
+\text{P}\times \text{X} - \text{V} \times \text{X} &= \text{TFC}\\
+\left(\text{P} - \text{V}\right)\times \text{X} &= \text{TFC}\\
+\text{X} &= \frac{\text{TFC}}{\text{P} - \text{V}}
+\end{align}</math>
+where:
+* '''TFC''' is '''Total Fixed Costs''',
+* '''P''' is '''Unit Sale Price''', and
+* '''V''' is '''Unit Variable Cost'''.
+
+thumb|right|240px|The Break-Even Point can alternatively be computed as the point where [[Contribution margin|Contribution equals Fixed Costs.]]
+
+The quantity <math>\left(\text{P} - \text{V}\right)</math> is of interest in its own right, and is called the '''Unit Contribution Margin''' (C): it is the marginal profit per unit, or alternatively the portion of each sale that contributes to Fixed Costs. Thus the break-even point can be more simply computed as the point where Total Contribution = Total Fixed Cost:
+:<math>\begin{align}
+\text{Total Contribution} &=  \text{Total Fixed Costs}\\
+\text{Unit Contribution}\times \text{Number of Units} &= \text{Total Fixed Costs}\\
+\text{Number of Units} &= \frac{\text{Total Fixed Costs}}{\text{Unit Contribution}}
+\end{align}</math>
+
+In currency units (sales proceeds) to reach break-even, one can use the above calculation and multiply by Price, or equivalently use the Contribution Margin Ratio (Unit Contribution Margin over Price) to compute it as:
+<math>\text{Break-even Point (in Sales)}  = \frac{\text{Fixed Costs}}{\text{C}/\text{P}}.</math>
+
+R=C
+Where R is revenue generated
+C is cost incurred i.e. 
+Fixed costs + Variable Costs
+or 
+Q X P(Price per unit)=FC + Q X VC(Price per unit)
+Q X P - Q X VC=FC  
+Q (P-VC)=FC
+or 
+Q=FC/P-VC=Break Even Point
+
+==Application==
+The break-even point is one of the simplest yet least used analytical tools in management. It helps to provide a dynamic view of the relationships between sales, costs and profits.  A better understanding of break-even—for example, expressing break-even sales as a percentage of actual sales—can give managers a chance to understand when to expect to breakeven (by lining the percent to when in the week/month this percent of sales might occur).
+
+The break-even point is a special case of Target Income Sales, where Target Income is 0 (breaking even).
+
+There is a myth that Black Friday is the annual break-even point in American retail sales, but in fact retailers generally break-even (and indeed profit) nearly every quarter.

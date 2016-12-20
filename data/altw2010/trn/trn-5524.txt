@@ -1,0 +1,174 @@
+'''Mniejszość niemiecka''' jest największą liczebnie spośród ustawowo uznawanych mniejszości narodowych w Polsce.
+
+==Dane statystyczne i ich wizualizacja (2002)<ref>W oparciu o wyniki Narodowego Spisu Powszechnego 2002.</ref>==
+Według wyników spisu powszechnego z 2002 roku narodowość niemiecką deklarowało 152&nbsp;897 osób (0,4% mieszkańców Polski), spośród których 147&nbsp;094 miało obywatelstwo polskie.
+
+Najwięcej Niemców zamieszkuje w województwie opolskim – 106&nbsp;855 osób (69,9% wszystkich 
+zamieszkałych w Polsce Niemców) oraz w województwie śląskim – 31&nbsp;882 osób (20,8% ogółu Niemców w Polsce), w pozostałych województwach mieszka ich łącznie 14&nbsp;160 (9,3% ogółu Niemców w Polsce).
+
+Znaczący udział w ogóle mieszkańców Niemcy mają tylko w województwie opolskim – 10%. W pozostałych województwach stanowią niewielki odsetek mieszkańców: 0,67% w województwie śląskim, 0,32% w warmińsko-mazurskim i 0,1% w pomorskim. Najniższy odsetek (0,005%) Niemcy stanowią w&nbsp;województwie lubelskim i świętokrzyskim.
+
+{| border="1" style="border-collapse:collapse; border-color:#f2f2f4; margin-top:1px; margin-bottom:15px; font-size:84%" cellpadding="1" width="100%"
+|-
+! align="left" bgcolor="#f2f2f4" width="40%"| Rejon
+! align="left" bgcolor="#f2f2f4" width="20%"| Liczba ludności
+! align="left" bgcolor="#f2f2f4" width="20%"| Liczba Niemców 
+! align="left" bgcolor="#f2f2f4" width="20%"| Odsetek
+|-
+| Polska||38 230 080||152 897 ||0,4
+|-
+| województwo dolnośląskie||2 907 212||2 158 ||0,074
+|-
+| województwo kujawsko-pomorskie||2 069 321 ||717 ||0,034
+|-
+| województwo lubelskie||2 199 054 ||112 ||0,005
+|-
+| województwo lubuskie||1 008 954 ||651 ||0,064
+|-
+| województwo łódzkie||2 612 890 ||325 ||0,012
+|-
+| województwo małopolskie||3 232 408 ||261 ||0,008
+|-
+| województwo mazowieckie||5 124 018 ||574 ||0,011
+|-
+| województwo opolskie||1 065 043 ||106 855 ||10,033
+|-
+| województwo podkarpackie||2 103 837 ||116 ||0,006
+|-
+| województwo podlaskie||1 208 606 ||85 ||0,007
+|-
+| województwo pomorskie||2 179 900 ||2 319 ||0,106
+|-
+| województwo śląskie||4 742 874 ||31 882 ||0,672
+|-
+| województwo świętokrzyskie||1 297 477 ||70 ||0,005
+|-
+| województwo warmińsko-mazurskie||1 428 357 ||4 535 ||0,317
+|-
+| województwo wielkopolskie||3 351 915 ||1 013 ||0,03
+|-
+| województwo zachodniopomorskie||1 698 214 ||1 224 ||0,072
+|-
+|}
+
+{|
+|
+<timeline>
+TimeAxis	= orientation:horizontal format:yyyy
+ImageSize	= width:400 height:auto barincrement:25
+PlotArea 	= left:10 right:10 top:10 bottom:40
+AlignBars  	= justify
+
+Colors =
+  id:canvas        	value:rgb(0.97,0.97,0.97)
+
+BackgroundColors = canvas:canvas
+
+Period     = from:0 till:16
+ScaleMajor = unit:year increment:1 start:0 gridcolor:drabgreen
+
+BarData=
+  barset:mn
+
+PlotData=
+  width:20 fontsize:L textcolor:black align:left color:skyblue shift:(0,-6)
+
+  barset:mn
+
+  from:start till:end width:20 color:drabgreen Text:Liczba_Niemców_w_województwach_(na_ osi_1_ to_10_tys.) fontsize:12  align:center
+
+  from:start till:10.6855 text:woj._opolskie_106855
+  from:start till:3.1882 text:woj._śląskie_31882
+  from:start till:0.4535 text:woj._warmińsko-mazurskie_4535
+  from:start till:0.2319 text:woj._pomorskie_2319
+  from:start till:0.2158 text:woj._dolnośląskie_2158
+  from:start till:0.1224 text:woj._zachodniopomorskie_1224
+  from:start till:0.1013 text:woj._wielkopolskie_1013
+  from:start till:0.0717 text:woj._kujawsko-pomorskie_717
+  from:start till:0.0651 text:woj._lubuskie_651
+  from:start till:0.0574 text:woj._mazowieckie_574
+  from:start till:0.0325 text:woj._łódzkie_325
+  from:start till:0.0261 text:woj._małopolskie_261
+  from:start till:0.0116 text:woj._podkarpackie_116
+  from:start till:0.0112 text:woj._lubelskie_112
+  from:start till:0.0085 text:woj._podlaskie_85
+  from:start till:0.0070 text:woj._świętokrzyskie_70
+  from:start till:15.2897 text:Polska_(ogółem)_152897
+</timeline>
+|<timeline>
+TimeAxis	= orientation:horizontal format:yyyy
+ImageSize	= width:400 height:auto barincrement:25
+PlotArea 	= left:10 right:10 top:10 bottom:40
+AlignBars  	= justify
+
+Colors =
+  id:canvas        	value:rgb(0.97,0.97,0.97)
+
+BackgroundColors = canvas:canvas
+
+Period     = from:0 till:11
+ScaleMajor = unit:year increment:1 start:0 gridcolor:drabgreen
+
+BarData=
+  barset:mn
+
+PlotData=
+  width:20 fontsize:L textcolor:black align:left color:skyblue shift:(0,-6)
+
+  barset:mn
+
+  from:start till:end width:20 color:drabgreen Text:Odsetek_jaki_stanowią_Niemcy_w_województwach fontsize:12  align:center
+
+The '''German minority in Poland''' consists of 152,900 people according to a 2002 census.<ref>As of 2002, according to Polish National Census.</ref><ref>Marta Moskal in [http://www6.gencat.net/llengcat/noves/hm04primavera-estiu/moskal2_4.htm "Language minorities in Poland at the moment of accession to the EU]" notes that 2% (704,000) did not state any nationality in the 2002 census. She assumes that some members of the German national minority who have inhabited the Silesia region for numerous generations might define their nationality as Silesian (173,200 defined their nationality as Silesian). Representatives of ethnic minorities presume that the figures for their groups are underestimated due to the fact that, given their exclusion in the communist period, the minority groups prefer not to state their real ethnicity.</ref><ref>Tomasz Kamusella in ''"Dual Citizenship ..."'' estimates the number of ethnic Germans to be 400-500 thousand.</ref>
+
+At the end of granted to Poland. In spite of the flight and expulsion of Germans from Poland during and after World War II, there were those who remained. Recently, more Germans acquired land and property in the areas where they, or their ancestors, used to live, and moved there.
+
+thumb|300px|Votes for the German Minority in the [[Polish parliamentary election, 2007|2007 elections in the Opole Vovoidship]]
+The German minority electoral list currently has one seat in the Polish parliament (Sejm) benefiting from the provision in the current Polish Election Law which allows national minorities to be exempt from the 5 per cent national threshold (there were four from 1993 to 1997).
+
+There are 325 Polish schools that use the German language as the first language of instruction,  with over 37,000 students attending them. Most members of the German minority are Evangelical-Augsburg Church). A number of German language newspapers and magazines are issued in Poland.
+
+==Statistic Data==
+
+Most Germans in Poland live in Silesia (93% of all Germans in Poland): Opole Voivodeship - 104,399 i.e. approx. 69,9% all Germans in Poland, and approx. 10% of the population of this Voivodeship and Silesia Voivodeship - 31,882 i.e. approx. 20.8% of all Germans in Poland. In the other voivodeships, the percentage of Germans  in the population lies between 0.632–0.007%.
+
+{| border="1" align="center" style="border-collapse:collapse; border-color:#f2f2f4; margin-top:1px; margin-bottom:15px; font-size:84%" cellpadding="1" width="90%"
+|-
+! align="left" bgcolor="#f2f2f4" width="40%"| region
+! align="left" bgcolor="#f2f2f4" width="20%"| population 
+! align="left" bgcolor="#f2f2f4" width="20%"| German 
+! align="left" bgcolor="#f2f2f4" width="20%"| % German 
+|-
+| Poland||38,557,984||147,094 ||0.381
+|-
+| Opole Voivodeship ||1,055,667||104,399||9.889
+|-
+| Silesian Voivodeship ||4,830,000||30,531 ||0.632
+|-
+| Warmian-Masurian Voivodeship ||1,428,552||4,311 ||0.302
+|-
+| Pomeranian Voivodeship||2,192,000||2,016 ||0.092
+|-
+| Dolny Śląsk Voivodeship||2,898,000||1,792 ||0.062
+|-
+| West Pomeranian Voivodeship||1,694,865||1,014 ||0.060
+|-
+| Greater Poland Voivodeship||3,365,283||820 ||0.024
+|-
+| Kuyavian-Pomeranian Voivodeship||2,068,142||636 ||0.031
+|-
+| Lubusz Voivodeship||1,009,005||513 ||0.051
+|-
+| Mazowsze Voivodeship||5,136,000||351 ||0.007
+|-
+| Łódź Voivodeship||2,597,000||263 ||0.010
+|-
+|}
+
+== German media in Poland ==
+
+* Schlesisches Wochenblatt
+* Polen-Rundschau
+* [http://www.schlesien-aktuell.vdg.pl/ Schlesien Aktuell] - German-speaking radio station from Opole 
+* [http://www.radio.com.pl/polonia/ Radio Polonia] (broadcasting in German for half an hour a day)
+* [http://www.polen-am-morgen.pl/ Polen am Morgen] - Online-newspaper, published daily since 1998

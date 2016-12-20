@@ -1,0 +1,33 @@
+'''Ebuild''' bat Gentooren Portage sistemarentzat bash script bat da. Portage zuahitzean dagoen aplikazio bakoitzak ebuild bat du, eta ebuild-a, "emerge ebuildaren_izena" bitartez exekutatua, automatikoki konpilatzen du (beharrezkoa bada) eta instalatzen du programa eta honen beharrezko dependentziak. Ebuild fitxategiak normalean "izena-bertsioa.ebuild" nomenklatura erabiltzen dute. Normalean, ebuild-ak aplikazio bat itur-kodetik konpilatzeko sortzen da, baina batzuk aurre-konpilatutako bertsioentzat ere sortzen dira. Beste ebuild batzuk meta-paketeak edo pakete birtualak instalatzen dituzte. Hemen [http://www.johnath.com/beep/ Beep] softwarea instalatzeko ebuild adibide bat:
+
+<pre>
+# Copyright 1999-2004 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: /var/cvsroot/gentoo-x86/app-misc/beep/beep-1.2.2.ebuild,v 1.16 2004/07/14 01:43:23 mr_bones_ Exp $
+
+DESCRIPTION="the advanced PC speaker beeper"
+HOMEPAGE="http://www.johnath.com/beep/"
+SRC_URI="http://www.johnath.com/beep/${P}.tar.gz"
+
+LICENSE="GPL-2"
+SLOT="0"
+KEYWORDS="x86 ppc alpha amd64"
+IUSE=""
+
+DEPEND="virtual/libc"
+
+'''Ebuilds''' bezeichnet im Skripte, die Informationen über jedes einzelne Programmpaket speichern. 
+
+== Inhalt ==
+Sie enthalten zum einen Paketinfos für den Benutzer wie Beschreibung, patchen, herunterladen und installieren.
+
+== Benennung ==
+Die Benennung von ebuilds erfolgt nach einem strengen 4-teiligen Schema:
+# Der Allgemeine Paketname, wie z.B. "kde" oder "mod_php" sollte nur aus Kleinbuchstaben, Zahlen von 0-9 und einer beliebigen Anzahl von einzelnen Bindestrichen ('-') oder Unterstrichen ('_') bestehen
+# Die Version des Paketes sollte übereinstimmen mit der Version des Archives, das zur Installation genutzt wird. Heißt das Archiv also programm-2.5.9.tar.gz, so sollte die angegebene Version im ebuild auch 2.5.9 lauten.
+# Der letzte Teil ist optional und beinhaltet suffixe wie alpha, beta, pre oder rc und bestimmt somit die angegebene Version im 2. Teil näher.
+# Die Revisionsnummer ist optional und wird nur verwendet, wenn das ebuild verbessert wurde (z.B. wenn zusätzliche Fehlerbereinigungen hinzugefügt werden, aber das Ebuild weiterhin dieselbe Software-Version installiert (sog. "revisionbump")).
+# Zwar kein Teil des ebuilds, dennoch sehr wichtig ist die Dateiendung '.ebuild'.
+
+Beispiel:
+mozilla-firefox-1.5.0.1-r4.ebuild

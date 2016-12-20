@@ -1,0 +1,114 @@
+{{Tassobox
+|colore= lightgrey
+|nome=''Corynebacterium diphtheriae''
+|statocons=
+<!-- CLASSIFICAZIONE -->
+|dominio=
+|regno=Bacteria
+|sottoregno=
+|superphylum=
+|phylum= Actinobacteria
+|subphylum=
+|infraphylum=
+|microphylum=
+|nanophylum=
+|superclasse=
+|classe=
+|sottoclasse=
+|infraclasse=
+|superordine=
+|ordine= Actinomycetales
+|sottordine=Corynebacterineae
+|infraordine=
+|superfamiglia=
+|famiglia= Corynebacteriaceae
+|sottofamiglia=
+|tribù=
+|sottotribù=
+|genere='''Corynebacterium'''
+|sottogenere=
+|specie='''C. diphtheriae'''
+|sottospecie=
+<!-- NOMENCLATURA BINOMIALE -->
+|biautore=
+|binome=''Corynebacterium diphtheriae''
+|bidata=
+<!-- NOMENCLATURA TRINOMIALE -->
+|triautore=
+|trinome=
+|tridata=
+<!-- ALTRO -->
+|sinonimi=
+|nomicomuni=
+|suddivisione=
+|suddivisione_testo=
+}}
+Scoperto da Klebs nel 1883, '''''Corynebacterium diphtheriae''''' è un bastoncello Gram positivo ed è l'agente eziologico della difterite.
+
+== Struttura ==
+''C. diphteriae'' è un bastoncello pleiomorfo (lunghezza da 2 a 6 <math>\mu</math>m e il diametro compreso tra 0,5 e 1 <math>\mu</math>m) immobile, asporigeno, acapsulato, aerobio, con estremità a forma di clava. Nelle colture e nei materiali patologici assume formazioni a “V” o a "ideogrammi cinesi" per il tipo di divisione cellulare. Non è un Löffler e l’Agar sangue al tellurito di potassio.
+I bacilli difterici hanno la caratteristica di fermentare rapidamente il glucosio e lentamente il maltosio, con produzione di acidi ma non di gas.
+
+La parete del batterio è simile a quella di Mycobacterium tuberculosis e contiene; 
+*arabinosio
+*galattosio
+*mannosio
+*acido meso-diaminopimelico
+*acidi micolici a corta catena (corynemicolico and corynemicolenico)
+*6,6'- diestere del trealosio (solo il alcuni ceppi).
+
+Tuttavia, a differenza di M. tubercolosis, C. diphteriae non è  bacillo acido-alcool resistente.
+
+== Potere patogeno ==
+
+C. diphteriae produce:
+*fosfolipasi D
+*ureasi
+*neuraminidasi
+*fattori di resistenza agli antibiotici.
+
+Tuttavia l’unico fattore diretto di virulenza osservato in ''C. diphteriae'' è la tossina difterica, una proteina prodotta e liberata dai ceppi lisogeni per il batteriofago β, il quale introduce nelle cellule batteriche il gene ''tox''.
+
+Oltre al controllo genico (lisogenia per il fago β) esiste anche un controllo fenotipico e ambientale sulla produzione della tossina difterica. È stato osservato, infatti, che la produzione di tossina è inversamente proporzionale alla concentrazione di ione ferrico (Fe3+). La tossina, infatti, non verrebbe prodotta fin quando la concentrazione ferrica nel terreno non raggiunge un punto minimo critico di 0,14 μg/ml. Questo sarebbe dovuto al fatto che il ferro si lega ad un repressore genico che, così attivato, blocca la trascrizione del gene ''tox'' integrato nel genoma batterico.
+
+<!-- Für Informationen zum Umgang mit dieser Tabelle siehe bitte Wikipedia:Taxoboxen. -->
+{{Taxobox
+| Taxon_Name       = C. diphtheriae
+| Taxon_WissName   = Corynebacterium diphtheriae
+| Taxon_Rang       = Art
+| Taxon_Autor      = (Kruse 1886) Lehmann & Neumann 1896
+| Taxon2_WissName  = Corynebacterium
+| Taxon2_Rang      = Gattung
+| Taxon3_WissName  = Corynebacteriaceae
+| Taxon3_Rang      = Familie
+| Taxon4_WissName  = Actinomycetales
+| Taxon4_Rang      = Ordnung
+| Taxon5_WissName  = Actinobacteria
+| Taxon5_Rang      = Abteilung
+| Taxon6_WissName  = Bakterien
+| Taxon6_Rang      = Domäne
+| Bild             = Corynebacterium diphtheriae Gram stain.jpg
+| Bildbeschreibung = ''Corynebacterium diphtheriae''
+}}
+
+Das Bakterium '''''Corynebacterium diphtheriae''''' ist der Erreger der Diphtherie. Er ist auch als ''Klebs-Loeffler-Bazillus'' bekannt, weil es 1884 von Edwin Klebs (1834–1912) und Friedrich Loeffler (1852–1915) entdeckt wurde.
+
+== Morphologie ==
+
+C. diphteriae ist ein Geißeln besitzt, ist es unbeweglich. Es bildet weder Kapsel noch Sporen. Mit der Neisser-Färbung lassen sich charakteristische endständige Auftreibungen aus Polyphosphaten und Calcium darstellen, die als Polkörperchen bezeichnet werden. Unter dem Mikroskop lagern sich die einzelnen Stäbchen häufig V- oder Y-förmig an und erinnern so an chinesische Schriftzeichen. Für Studien ist von Bedeutung, dass sich die Corynebacterien anhand der durchschnittlichen Anzahl der Polkörperchen in Biotypen einteilen lassen. 
+
+{| class="prettytable"  border="1"
+|Biotyp || # Polkörperchen
+|-
+|''Corynebacterium diphtheriae mitis'' || 5 bis 6
+|-
+|''Corynebacterium diphtheriae gravis'' || 1 bis 2
+|-
+|''Corynebacterium diphtheriae intermedius'' || 3 bis 4
+|}
+
+==Epidemiologie==
+Weil der Mensch das einzige Erreger-Reservoir ist, lässt sich die Ausbreitung des Bakteriums durch Impfungen sehr gut bekämpfen. Gab es im Inzidenz heute sehr gering. In Mitteleuropa beträgt sie ca. 0,001/100000/Jahr. In den ersten Jahren nach dem Ende der UdSSR gab es in den Nachfolgestaaten einen massiven Anstieg der Erkrankungen, als die Impfprogramme zusammengebrochen sind. Heute wird ''C. diphtheriae'' aber auch dort durch großangelegte Impfkampagnen wieder erfolgreich bekämpft. In vielen Entwicklungsländern bleibt Diphtherie allerdings weiterhin ein Problem.
+
+==Pathogenese==
+Die Übertragung erfolgt durch engen Kontakt (face-to-face) mit infizierten Personen, meistens durch Tröpfchen, seltener auch über kontaminierte Gegenstände. Der Erreger gelangt über die Schleimhaut, Konjunktiven oder Wunden in den Körper und vermehrt sich dort. Das Diphtherietoxin, das allerdings nicht von allen Stämmen von ''C. diphtheriae'' gebildet wird, schädigt lokal die Zellen, sodass sich eine Pseudomembran aus abgestorbenen Zellbestandteilen im Nasen-Rachen-Raum bildet. Wenn sich die Pseudomembran auf den motorische Nerven und die Leber. Unabhängig von der Wirkung des Giftes sind auch Hautinfektionen und Endokarditis beobachtet worden.

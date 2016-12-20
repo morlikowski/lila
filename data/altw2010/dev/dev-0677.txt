@@ -1,0 +1,38 @@
+right|thumb|400px|Ionization energies of neutral elements.
+'''Ionization''' is the physical process of converting an atom or molecule into an ion by adding or removing charged particles such as electrons or other ions.
+
+This process works slightly differently depending on whether an ion with a positive or a negative electric charge is being produced. A positively charged ion is produced when an electron bonded to an atom (or molecule) absorbs enough energy to escape from the electric potential barrier that originally confined it, thus breaking the bond and freeing it to move. The amount of energy required is called the ionization potential. A negatively charged ion is produced when a free electron collides with an atom and is subsequently caught inside the electric potential barrier, releasing any excess energy. 
+
+Ionization can generally be broken down into two types: '''sequential ionization''' and '''non-sequential ionization'''. In classical physics, only sequential ionization can take place and therefore refer to the Classical ionization section for more information. Non-sequential ionization violates several laws of classical physics and thus will be discussed in more detail in the Quantum ionization section.
+
+==Classical ionization==
+
+Applying only deterministic, that is every problem will always have a definite and computable answer. According to classical physics it is absolutely necessary that the energy of the electron exceeds the energy difference of the potential barrier it is trying to pass. Conceptually this idea should make sense: the same way a person can not jump over a one meter wall without jumping at least one meter off the ground, an electron can not get over a 13.6 eV potential barrier without at least 13.6 eV of energy.
+
+===Applying to positive ionization===
+
+According to these two principles, the energy required to release an electron is ''strictly'' greater than or equal to the potential difference between the current bound atomic or molecular orbital and the highest possible orbital. If the energy absorbed exceeds this potential, then the electron is emitted as a free electron. Otherwise, the electron briefly enters an radiated out and the electron re-enters the lowest available state.
+
+===Applying to negative ionization===
+
+Due to the shape of the potential barrier, according to these principles a free electron must have an energy greater than or equal to that of the potential barrier in order to make it over. If it has enough energy to do so, it will be bound to the lowest available energy state, and the remaining energy will be radiated away. If the electron does not have enough energy to surpass the potential barrier, then it is forced away by the electrostatic force, described by Coulombs Law, associated with the electric potential barrier.
+
+===Sequential ionization===
+
+Sequential ionization is basically a description of how the ionization of an atom or molecule takes place. More specifically, it means that an ion with a +2 charge can only be created from an ion with a +1 charge or a +3 charge. That is, the numerical charge of an atom or molecule must change sequentially, always moving from one number to an adjacent, or ''sequential'' number.
+
+==Quantum ionization== 
+
+In quantum mechanics ionization can still happen classically where the electron has enough energy to make it over the potential barrier, but there is the additional possibility of tunnel ionization.
+
+ָ‏'''יינון''' הוא תהליך שבו אטום חסר מטען חשמלי הופך ליון. המושג מתייחס לתהליך בו אלקטרון אחד או יותר עוזב את האטום, ומטען האטום הופך לחיובי, או לתהליך בו האטום קולט אלקטרון אחד או יותר, ומטען האטום הופך לשלילי . האנרגיה המינימלית שיש להשקיע על מנת לשחרר אלקטרון מהאטום מכונה '''אנרגיית יינון'''.
+הגורמים המשפיעים על אנרגיית יינון:
+*'''מרחק''':מאחר וקיימת משיכה חשמלית בין האלקטרון לגרעין יש השפעה ברורה של המרחק הזה על מידת האנרגיה שיש להשקיע על מנת להוציא את האלקטרון הזה. אלקטרון שקרוב יותר לגרעין נמשך חזק יותר ולכן נצטרך להשקיע אנרגיה רבה יותר על מנת להוציאו.
+*'''מטען הגרעין''':אפשר לומר שככל שמטען הגרעין גדול יותר, המשיכה החשמלית תהיה גדולה יותר, ונצטרך להשקיע יותר אנרגייה במטרה להוציא את האלקטרון.(בצורונים בעלי מספר אלקטרונים זהה,(איזואלקטרונים))
+
+באופן עקרוני,אנרגיית היינון הולכת וגדלה לקראת הצד הימני של טבלת היסודות.עם זאת ,ישנן חריגות מכלל זה.
+
+==ראו גם==
+*זיקה אלקטרונית
+
+==קישורים חיצוניים==

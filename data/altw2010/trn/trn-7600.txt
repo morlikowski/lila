@@ -1,0 +1,143 @@
+The Java programming language was intended to serve as a novel way to manage software complexity. Many consider Java technology to deliver reasonably well on this promise. Java is not without flaws, however, and it does not universally accommodate all programming styles, environments, or requirements.
+
+== Class path ==
+Running a Java program originally required all third-party supporting libraries to be in the class path.  
+
+Prior to Java 6 it was necessary for each .jar or .zip archive required to be explicitly named in the class path.  Java 6 provides a way around this by allowing directories listed in the class path to end in an asterisk (*), which will be expanded to the names of all files ending in .jar or .JAR within the directory. Such an entry does not however match .zip or .class files within that directory.<ref></ref>
+
+== License ==
+
+Sun Java's proprietary nature gave it a controversial position in the Sun's implementation of Java was not GPL-compatible license, such as the OLPC and most Linux distributions.<ref>Additionally, some commentators assert that Java SCSL license requires that anyone who agrees to the license terms waives their right to contribute to free software clean-room implementations of Java; however Sun spokespeople assert this was no longer an issue under revised Java licensing terms </ref><ref>.</ref>
+
+Sun announced in JavaOne 2006 that Java will become open source software. The statement was issued by Sun Software Executive Vice President Rich Green: "It's not a question of whether, it's a question of how, and so we'll go do this."<ref>.
+
+The point of contention with Sun was how they want to open source Java without facilitating an incompatible fork .
+
+This could be illustrated by a post-Jonathan Schwartz, Sun's CEO, on his blog: "We're now making serious progress on open sourcing Java (and despite the cynics, using a GPL license is very much ''on'' the table), while focusing the debate on what matters most: not access to lines of code (that's already widely available), but ensuring compatibility.".</ref>
+
+In July 2006, Sun's CTO Robert Brewin commented that Java would be partially open source by June 2007 but the entire platform would take more time to be fully open source.<ref></ref>
+
+On GPL by March 2007,<ref name="SunOpensJava"></ref> and its source code would be available under the GPL.  According to Richard Stallman, this would mean an end to the [http://www.gnu.org/philosophy/java-trap.html Java trap]. Mark Shuttleworth called the initial press announcement "a real milestone for the free software community."<ref name="SunOpensJava"/><ref></ref>
+
+Following on their promise, Sun released the complete source code of the Class library under GPL on May 8, 2007, except some limited parts that were licensed by Sun from 3rd parties who did not want their code to be released under an open-source license.<ref>{{cite web
+| url=http://mail.openjdk.java.net/pipermail/announce/2007-May.txt
+| title=Open JDK is here!
+| publisher=Sun Microsystems
+| date=2007-05-08
+| accessdate=2007-05-09}}</ref> Sun's goal is to replace the parts that remain closed with alternative implementations and make the class library completely open.
+
+== Resource management ==
+While Java does manage memory, it does not manage all resources, such as JDBC database connections; these must be released just as memory would need to be in C++.
+
+Java performs garbage collection, so memory management is automatic, with the intention of making allocation errors such as memory leaks less likely.
+
+Conceptually, Java always allocates objects on the heap. Only the compiler may optimize this to faster stack-based allocation. In this respect Java is less flexible than C++, which allows the programmer to control where objects are allocated. In both languages, values of primitives type are allocated on the stack, and the compiler decides how to use the available registers.
+
+While automatic memory management may limit memory leaks, memory is not the only resource that can be leaked. Other resources such as exceptions are thrown. Java somewhat mitigates this by attempting to ensure the execution of "finalization" methods before garbage collection occurs, without, however guaranteeing any particular order of execution between related resources.
+
+== Language choices ==
+=== Primitives vs. objects ===
+Java designers decided not to implement certain features present in other languages (including tuples). Java permits multiple inheritance of ''interfaces'' but not of implementations.
+
+Java's stack rather than being references to values. Because of this, Java is not considered to be a pure object-oriented programming language and this makes reflection more complicated. The motivation for primitive types being non-object oriented was performance considerations. However, as demonstrated in C Sharp it is possible to allow for value types/primitive types to exhibit OO characteristics such as encapsulation, instance methods and interface implementation without compromising performance at all.
+
+Java 5.0 and later supports automatic conversion (object form wherever required. This is not without problems, however: 1) Special care must be taken when comparing two boxed primitive types as the boxed instances have identity as reference objects and 2) when autounboxing, a null pointer exception may be thrown. Since this operation occurs implicitly (without a cast or method call), this unchecked exception may not be obvious by inspection of the line of code to an unfamiliar reader. Finally 3) boxed primitives does not allow for operator based arithmetic; either the programmer must ensure an unbox operation, or she must use member methods which does not lend itself to be read as fluently as operator based arithmetic.
+
+=== Generics ===
+
+When generics were added to Java 5.0, there was already a large framework of classes (many of which were already deprecated), so generics were chosen to be implemented using erasure to allow for ''migration compatibility'' and re-use of these existing classes. This limited the features that could be provided by this addition as compared to other languages.<ref></ref><ref></ref>
+
+There is a common misconception that type erasure was necessary for ''backwards compatability'' in the sense that old code could run on a new JVM and new code could call old code. However, this was entirely possible ''without'' type erasure (i.e. with C# programming language. Java 5.0 ''could'' have implemented new generic collections classes with reified generics and have those collection classes implement the non-generic collection ''interfaces'' such as IList, ISet etc.
+
+Type erasure was only necessary because of a requirement for a temporary migration compatability; a requirement that the collection classes be the ''same'' classes, so that code which did not insulate itself through use of interfaces (thus breaking best practices) could co-exist in the same JVM with new generic style code without the use of wrapping techniques.
+
+Type erasure has several drawbacks:
+* Typecasting overhead when inserting and removing from a collection and when calling any other method of a generic type which takes a parameter of a parameterized type.
+* Inability to use primitive types as type parameters. Because all types must be of reference type and must be "erased" to their upper bounds, it was not possible to allow the use of primitive types. Instead Java 5.0 features autoboxing which "boxes" primitive type on insertion into collections, thus incurring extra overhead and making the code more opaque.
+* What looks like separate classes at development time is really a single class at runtime. Thus static (class-level) members are shared among all classes realized from the generic class.
+* Inability to create new instances or new arrays of types defines through a type parameter.
+* Disparity with arrays which means that in general the developer should never let a method return an array of a parametric type.
+* The type erasure process may produce clashing method signatures.
+* Inability to implement different realizations of the same generic interface.
+* Inability to use generic exceptions
+
+=== Non-Virtual methods ===
+Java provides no way to make methods non-virtual (although they can be "sealed" by using the <code>final</code> modifier to disallow overriding). This means that there is no way to let derived classes define a new, unrelated method with the same name. This can be a problem when a base class is designed by a different person, and a new version introduces a method with the same name and signature as some method already present in the derived class. This means that the method in the derived class will implicitly override the method in the base class, even though that was not the intent of the designers of either class. To partially accommodate for these versioning problems, Java 5.0 introduced the <code>@Override</code> annotation, but to preserve backwards compatibility it could not be made compulsory by default.
+
+=== Single paradigm ===
+Java is predominantly a single-paradigm language. The addition of ''static imports'' in Java 5.0 accommodates the procedural paradigm better than earlier versions of Java. It is expected that the addition of new language features like closures (or lambdas) in version 7 will allow a more functional style (but the language specification has not yet been finalised).
+
+Javaに対しては、優れた技術だと評価する人々がいる一方で、批判も少なくない。Javaは、ソフトウェアに関する複雑さを管理する問題に対して、革新的な方法を提供するという目標のもとで、開発された。多くの人々は、Java技術は、この期待に対して満足できる答えを提供したと評価している。しかしJavaにも欠点が無いわけではないし、どのようなプログラミング作法にも適応しているわけではない。また、どのような環境や要件にも普遍的に適応しているわけではない。
+
+== クラスパス ==
+Javaプログラムを実行する際、すべてのプラットフォームに依存するからである（Windowsベースのシステムはサブディレクトリを区切るためにスラッシュ "/" を、パス区切りにコロン ":" が使われる）。<ref name="classpath-solaris">“[http://java.sun.com/javase/6/docs/technotes/tools/solaris/classpath.html Setting the class path]” (Solaris and Linux).  ''Java SE 6 Documentation, JDK Development Tools Reference''.  Sun Microsystems.  Accessed 2007-01-27.</ref>
+
+各々の.jarや.zipアーカイブは、クラスパスにおいて明示的に名前がつけられる必要がある。この抜け道として、アスタリスク(*)で終わるクラスパスを指定することで、そのディレクトリにある.jarや.JARで終わるすべてのファイル名にマッチさせることができる。しかしながら、.zipや.classファイルのようなものはマッチしない。<ref name="classpath-windows" /><ref name="classpath-solaris" />
+
+=== 解決策・代替策 ===
+これらのクラスパス問題は環境変数CLASSPATHを使用せず、サン・マイクロシステムズが推奨する-classpathオプションを使用することで解決する。開発時は、-classpathオプションは、バッチファイルやmakeや Apache Ant や統合開発環境を使うことで利便な方法で指定することができる。Javaアプリケーションを利用したい実行エンドユーザに対しては、開発者が実行時には、マニフェストファイルにクラスパスを記述するか、FatJarやOneJar<ref>[http://www-06.ibm.com/jp/developerworks/java/041217/j_j-onejar.html developerWorks > Java technology > 
+One-JARでアプリケーションの配布を単純化する カスタムのクラスローダーによるパワー・プログラミング]</ref>という、複数のJarファイルを一つにまとめるツールを使うことで解決できる。
+
+== ライセンス ==
+$100ラップトップ、GPL互換ライセンスが要求されるプロジェクトにはサンのJavaを含めることはできなかった。
+<ref>さらに、一部の専門家はJava SCSLライセンスは誰もがJavaのフリーソフトウェアクリーンルーム実装に貢献するために著作権を放棄するライセンス条項に同意することを要求していると、主張している。しかしながら、サン・マイクロシステムズの人々は、改訂されたJavaライセンス条項の下ではもはや問題ではなくなったと主張している。</ref><ref>.</ref>
+
+サンは JavaOne 2006 で、Javaはオープンソースソフトウェアになるだろうと公表した。この声明はSun Softwareの上級副社長Rich Greenによって公表された。「オープンソースソフトウェアにするか否かという問題はない。どのような方法でオープンソースにするかが問題である。つまり我々はこれを実行する。」
+<ref>
+.
+
+サンの論点は彼らが、非互換分岐なしにオープンソースJavaを欲しがる方法であった 。
+
+これは次のJavaOneでサンの最高経営責任者を務めるジョナサン・シュワルツのコメントにより説明される可能性がある。彼のブログではこう語っている。「我々はオープンソースJavaの厳粛な前進を行っているが（GPLライセンスが''議論中''であるというは皮肉にもかかわらず）、何が一番大事であるかに議論の焦点をあてている。一番大事なこととはソースコードを入手する機会ではない(ソースコードはすでに広く利用可能である)。一番大事なことは互換性を確固とすることである。」 .
+</ref>
+
+2006年7月には、サンの最高技術責任者Robert BrewinはJavaは2007年6月に部分的にオープンソースになるが、全体のプラットフォームが完全なオープンソースになるには時間がかかるだろうとコメントしている。<ref></ref>
+
+GPLの下でリリースされる予定であることを公表した。<ref name="SunOpensJava"></ref> Java実行環境のソースコードはGPLの下で利用可能になる予定である。リチャード・ストールマンによると、これは[http://www.gnu.org/philosophy/java-trap.html Javaの罠]の終焉を意味するとのことである。マーク・シャトルワースはJavaのオープンソース化についての最初のSunによる発表を「フリーソフトウェアコミュニティにとっての確かなマイルストーン」と評価した。<ref name="SunOpensJava"/><ref></ref>
+
+=== 解決策・代替案 ===
+Javaのライセンスの問題は、徐々に解決されつつある。時間が解決していると言える面もあるといえる。今後も、新たなライセンスの問題に直面しそうであれば、Java Community Process に提案するよう働きかけてみるという手段もある。フリーソフトウェア財団や Eclipse Foundation など他のオープンソースコミュニティの助けを借りることで問題を解決に向けて進めることができる可能性がある。
+
+== リソース管理 ==
+Javaはメモリを管理するが、他のリソース（メモリを解放する必要があったのと同様、プログラマによって解放されなければならない。
+
+=== メモリ管理 ===
+Javaはオブジェクトは常にJITコンパイラによって最適化されてスタックやレジスタに割り当てられない限り）確保される。スタックやレジスタに確保される。C++ではオブジェクトをヒープ領域に割り当てるかスタック領域に割り当てるかをプログラマが選択することができたが、Javaではそれが不可能になっている。
+
+オブジェクトはガベージコレクションによって管理されるが、Javaはプログラマに、ガベージコレクションがいつ起こるかを保証しない。たとえを用いてもプログラマはガベージコレクションを阻止することも特定のオブジェクトを解放することもできない。これはプログラミングを簡易にしメモリリークの可能性を軽減するが、より効果的なメモリ処理を行うための柔軟性が犠牲になっている。Cやアセンブリのような低水準言語はこの柔軟性を提供する。
+
+C++などで書かれた多くのプログラムはメモリリークの犠牲になりがちだが、問題はメモリリークだけではない。ファイルハンドルやデータベース、ネットワーク接続のような他のリソースのリークは特に例外が投げられたときに常に起こりうる。
+C++ではイディオムによっていずれの問題も克服することができるが、Javaプログラマは忘れずに<code>finally</code>節でリソースを解放する必要があり、Javaが何を解放するかということとプログラマは何を解放しなければならないのかということをきちんと理解する必要がある。
+
+=== 解決策・代替案 ===
+この問題は、メモリを増設する、最大ヒープメモリサイズを拡大するなどで解決できるケースもある。JREやJDKのバージョンが特定の古いものであることが要因となっていることもある。最新版のJREやJDKで実行、開発すれば問題発生率を下げることもできる。
+
+''finally''節は、次世代のJava (Java SE 7) で利用可能になる可能性があるフレームワークによって解決できることもある。ファイル入出力の場合、Apache Commons IO、データベース接続のときは Apache Commons DBUtils、Hibernateや Apache Cayenne などのオブジェクト関係マッピングフレームワークを用いることでfinally節のことをあまり多く気にしなくても良いようにする手段がある。
+
+== 言語選択 ==
+=== プリミティブ対オブジェクト / オートボクシング ===
+Javaの設計者らは、現在他の言語にあるいくつかの機能（タプルなど）を実装しないことを決めた。
+
+ジェネリクス）がJava 5.0に導入されたとき、すでにJavaにはクラスの大規模な枠組みがあった（それらの多くはすでに非推奨となっていた)、そして後方互換性を保つため、総称型の実装方法として既存のクラスを維持することを可能にする（コンパイル時の）型消去（型削除、type erasure）が選ばれた。これは、他の言語と比べると、総称型の導入によって提供される機能を限定してしまう結果になった。<ref></ref><ref></ref>
+
+Javaのスタック領域に保持している。これはパフォーマンスの理由により行われた。このためJavaは純粋なオブジェクト指向言語と見なされてない。またこのことによりリフレクションがより複雑になっている。しかし、Java 5.0は、コンパイル中に要求された場合にプリミティブ型を対応するキャストやメソッド呼び出しを伴わない）ため、このNullPointerExceptionという非チェック例外はJavaプログラムのコードに目を通しただけでは明確にはならない恐れがある。
+
+=== 非virtualメソッド ===
+Javaはメソッドを非virtualにする手段を提供しない（派生クラスに、同じ名前の関係の無いメソッドを定義させる方法がないことを意味する。これは基底クラスが別の人間によって設計されるときに問題となることがあり、また、新しいバージョンが、派生クラスで同じ名前のメソッドがすでに存在するときに、同じ名前とシグネチャのメソッドを導入することで問題となることがある。これは、どちらのクラスの設計者の意図にも反して、派生クラスのメソッドが基底クラスのメソッドを暗黙のうちにオーバーライドするであろうことを意味する。これらのバージョン問題にある程度適合するためにJava 5.0は<code></code>アノテーションを導入しているが、後方互換性を保つには、それをデフォルトでは強制できない。
+
+=== 単一パラダイム ===
+Javaは主に単一パラダイム言語である。Java 5.0に登場した''static imports''の追加はこれまでのJavaよりも手続きパラダイムによりよく順応する。
+
+=== 例外処理 ===
+JavaではC++でオプションとされていた例外処理の仕様を取り込んだが、この際チェック対象の例外に対応するthrow文を必須とした。例外のチェックは小規模なシステムにとっては役立つが、大規模なシステムについても有益であるかどうかについては統一的な見解には至っていない。特に上位のコードでは下位のコードから発生するエラーを意識したくない（例としては、名前解決例外であるNamingException）。名前クラスの作成者は名前解決例外をチェック対象の例外として上位コードに対応を強制するか、コンパイル時のチェックを使わずに下位のコードからの例外を連鎖的に通知するかを選択する必要がある。
+
+=== クロージャ ===
+匿名内部クラスは基本的なクロージャを提供するが、これは完全ではなく、クラスのメンバーとしてかFinal型で宣言する必要がある。これは、変数のスコープを抜けたときに削除できるような、様々な寿命に対応したスタックモデルをJVM実装者が選択出来るようにするためである。例えば"Runnable"をクロージャとして使用した場合、単純にコードを大括弧で括って書くことが出来ないため、コードを入れるために"run"メソッドを宣言する必要がある。
+
+== 浮動小数点演算 ==
+Javaの浮動小数点演算は主にIEEE 754（二進化浮動小数点数演算標準）をベースとしているが、例えばIEEE 754に必須とされる例外フラグや方向指定の丸めなどの、
+いくつかの機能については"strictfp"修飾子を指定した場合でもサポートされない。Javaの仕様として知られているものはJava自体の問題ではないが、浮動小数点数演算を行う上で避けて通れない問題である。 <ref></ref><ref></ref>
+
+== ルックアンドフィール==
+Swingプラットフォームを使って、Javaで書かれたアプリケーションのグラフィカルユーザインタフェース (GUI) のルック・アンド・フィール（Look and feel、直訳すると「外観と操作感」）は、大抵ネイティブのアプリケーションのものと異なる。
+プログラマはネイティブのウィジェットを表示するAWT（ネイティブであるためOSのプラットフォームと同じ見た目を提供する）を使うことを選択することができる。しかしAWTツールキットは、高度なウィジェットのラッピングを必要としかつ様々なサポートされたプラットフォームで移植性を犠牲にしない高度なGUIプログラミングには、向いていない。そして、SwingとAWTにはとりわけ高水準ウィジェットにおいてAPIが大きく異なる。

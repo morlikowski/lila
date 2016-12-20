@@ -1,0 +1,65 @@
+<div class="NavFrame">
+<div class="NavHead" style="background:#ccccff" align="center" width="100%">'''Laureates (1926-1950)'''</div>
+<div class="NavContent">
+{|
+| align="center" style="font-size: 90%;" | 
+1926:&nbsp;Fibiger | 
+1927:&nbsp;Wagner-Jauregg | 
+1928:&nbsp;Nicolle | 
+1929:&nbsp;Eijkman,&nbsp;Hopkins | 
+1930:&nbsp;Landsteiner | 
+1931:&nbsp;Warburg | 
+1932:&nbsp;Sherrington,&nbsp;Adrian | 
+1933:&nbsp;Morgan | 
+1934:&nbsp;Whipple,&nbsp;Minot,&nbsp;Murphy | 
+1935:&nbsp;Spemann | 
+1936:&nbsp;Dale,&nbsp;Loewi | 
+1937:&nbsp;Szent-Györgyi | 
+1938:&nbsp;Heymans | 
+1939:&nbsp;Domagk | 
+1943:&nbsp;Dam,&nbsp;Doisy | 
+1944:&nbsp;Erlanger,&nbsp;Gasser | 
+1945:&nbsp;Fleming,&nbsp;Chain,&nbsp;Florey | 
+1946:&nbsp;Muller | 
+1947:&nbsp;C.Cori,&nbsp;G.Cori,&nbsp;Houssay | 
+1948:&nbsp;Müller | 
+1949:&nbsp;Hess,&nbsp;Moniz | 
+1950:&nbsp;Kendall,&nbsp;Reichstein,&nbsp;Hench
+----
+<div align=center>''Lista completă | Laureaţi (1901 - 1925) | Laureaţi (1926 - 1950) | Laureaţi (1951 - 1975) | Laureaţi (1976 - 2000) | Laureaţi (2001 - )''</div>
+|}
+</div>
+</div><noinclude>
+
+{{Navbox
+| name       = Nobel Prize in Physiology or Medicine Laureates 1926-1950
+| title      = Nobel Laureates in Physiology or Medicine
+| titlestyle = background:#d3d3d3;
+| belowstyle = background: transparent; border-top: 1px solid #C0C0C0;
+
+| list1      = <div>
+Johannes Fibiger (1926)
+Julius Wagner-Jauregg (1927)
+Charles Nicolle (1928)
+Christiaan Eijkman / Frederick Gowland Hopkins (1929)
+Karl Landsteiner (1930)
+Otto Warburg (1931)
+Edgar Adrian (1932)
+Thomas Morgan (1933)
+George Whipple / George Minot / William Murphy (1934)
+Hans Spemann (1935)
+Henry Dale / Otto Loewi (1936)
+Albert Szent-Györgyi (1937)
+Corneille Heymans (1938)
+Gerhard Domagk (1939)
+Edward Doisy (1943)
+Herbert Gasser (1944)
+Ernst Chain / Howard Florey (1945)
+Hermann Muller (1946)
+Carl Cori / Gerty Cori / Bernardo Houssay (1947)
+Paul Müller (1948)
+Walter Hess / António Egas Moniz (1949)
+Edward Kendall / Philip Hench (1950)
+</div>
+
+|below = Complete roster 1901–1925 '''1926–1950''' 1951–1975 1976–2000 2001–present

@@ -1,0 +1,62 @@
+{{Infobox Software
+| name                   = FVWM95
+| logo                   = 
+| screenshot             = 200px|FVWM95
+| caption                = Screenshot of FVWM95
+| author                 = 
+| developer              = Luis Hector Peraza Gonzalez
+| released               = 
+| latest release version = 2.0.43f
+| latest release date    = May 3, 2003
+| latest preview version = 
+| latest preview date    = 
+| programming language   = 
+| operating system       = 
+| platform               = 
+| language               = 
+| status                 = 
+| genre                  = Window manager
+| license                = GNU General Public License
+| website                = http://fvwm95.sf.net/
+}}
+'''FVWM95''' is a window manager for the FVWM2 window manager.  It is similar to the original FVWM, but is designed to closely resemble the look of Windows 95.
+
+FVWM95 was for a while a rather popular window manager; for example, Red Hat Linux 5.0 used it as the default.  It is no longer as popular (nor is it well-maintained), but still in use.
+
+Similar window managers include QVWM, IceWM and JWM
+
+== Features ==
+
+* Windows 95-like appearance.
+* Taskbar for quick window switching.
+* Virtual desktop support.
+* Most features from FVWM2 (may not include absolute latest bleeding-edge capabilities).
+
+{{Infobox Software
+  | Name                              = FVWM95
+  | Logo                              = 
+  | Screenshot                        = 200px|Bildschirmfoto einer FVWM95-Umgebung
+  | Beschreibung                      = 
+  | Maintainer                        = 
+  | Hersteller                        = 
+  | Management                        = 
+  | AktuelleVersion                   = 2.0.43f
+  | AktuelleVersionFreigabeDatum      = 3. Mai 2003
+  | AktuelleVorabVersion              = 
+  | AktuelleVorabVersionFreigabeDatum = 
+  | Betriebssystem                    = X Window System kompatible
+  | Kategorie                         = Fenstermanager
+  | Lizenz                            = GPL
+  | Deutsch                           = 
+  | Website                           = [http://fvwm95.sourceforge.net/ fvwm95.sourceforge.net]
+}}
+'''FVWM95''' ist ein FVWM2 und ist darauf spezialisiert, dass Aussehen von Windows 95 zu imitieren.
+
+FVWM95 war eine Zeit lang ein sehr beliebter Fenstermanager, beispielsweise wurde er bei Red Hat Linux 5.0 standardmäßig benutzt. In heutigen Linux-Distributionen findet allerdings kaum noch Verwendung, da er nicht mehr weiterentwickelt wird und anderen Fenstermanagern mittlerweile technisch unterlegen ist.
+
+== Eigenschaften ==
+
+* Windows-95-ähnliches Aussehen
+* Taskbar zum schnellen hin- und herschalten zwischen Programmen
+* Unterstützung für virtuelle Desktops
+* Unterstützung vieler Fähigkeiten von FVWM2

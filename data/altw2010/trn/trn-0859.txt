@@ -1,0 +1,74 @@
+'''ビット''' (bit) は、ほとんどのデジタルコンピュータが扱うデータの最小単位。英語の binary digit （2進数字）の略であり、2進数の1けたのこと。
+
+1ビットを用いて2通りの状態を表現できる（二元符号）。これらの2状態は一般に"0"、"1"と表記される。
+
+シャノン」に改められつつある（詳細は情報量を参照）。
+
+== 語源 ==
+'''bit''' は、John W. Tukey （英語） が英語版“bit”</ref><!-- ←どちらも英語版から→ -->（1936年にヴァネヴァー・ブッシュが、パンチカードに記録するものとして "bits of information" と書いていることを注意しておく）。
+
+ビットを情報量の単位として使ったのは、クロード・シャノンである。
+
+==ビット位置==
+バイトやLSB）を第0ビットにしている流儀と、左端（数値としての最大位、MSB）を第0ビットにしている流儀の両方があるので注意が必要である。現在は前者が多い（エンディアンも参照）。
+
+== 参考資料 ==
+
+<references/>
+
+== 関連項目 ==
+* バイト (byte)
+* キャラクタ
+* ワード
+* 情報量
+* 数量の比較 (データ)
+
+== 外部リンク ==
+* [http://yougo.ascii24.com/gh/66/006653.html ASCII24 - アスキー デジタル用語辞典 - ビット]
+* [http://e-words.jp/?w=%83r%83b%83g&headline=%8C%A9%8Fo%82%B5%8C%EA%8C%9F%8D%F5 e-Words  ビット]
+* [http://www.atmarkit.co.jp/icd/root/50/5784950.html ＠IT：Insider's Computer Dictionary <nowiki>[bit]</nowiki>]
+* [http://www.microsoft.com/japan/Terminology/query.asp?id=69&q=%u30D3%u30C3%u30C8&kbid=&key=&ui=L&dev= Microsoft Terminology]
+
+ひつと
+ひつと
+
+In informatica ed in teoria dell'informazione, la parola '''bit'''  ha due significati molto diversi, a seconda del contesto in cui rispettivamente la si usa:
+* un bit è l'unità di misura dell'informazione (dall'inglese "'''b'''inary un'''it'''"), definita come la quantità minima di informazione che serve a discernere tra due possibili alternative equiprobabili.
+* un bit è una cifra binaria, (in inglese "'''b'''inary dig'''it'''") ovvero uno dei due simboli del sistema numerico binario, classicamente chiamati ''zero'' (0) e ''uno'' (1);
+
+La differenza di significato tra le due definizioni, può riassumersi con una frase come: "la ricezione degli ultimi 100 bit (simboli binari) di messaggio ha aumentato la nostra informazione di 40 bit (quantità di informazione)" (la quantità di informazione portata da un simbolo dipende dalla probabilità a priori che si ha di riceverlo).
+
+==Il ''bit'' come quantità di informazione==
+
+In questo contesto, un ''bit'' rappresenta l'unità di misura della quantità d'informazione.
+
+Questo concetto di bit è stato introdotto dalla teoria dell'informazione di Claude Shannon nel 1948, ed è usato nel campo della compressione dati e delle trasmissioni numeriche.
+
+Intuitivamente, equivale alla scelta tra due valori (sì/no, vero/falso, acceso/spento), quando questi hanno la stessa probabilità di essere scelti.
+In generale, per eventi non necessariamente equiprobabili, la quantità d'informazione di un evento rappresenta la "sorpresa" nel constatare il verificarsi di tale evento; per esempio, se un evento è certo, il suo verificarsi non sorprende nessuno, quindi il suo contenuto informativo è nullo; se invece un evento è raro, il suo verificarsi è sorprendente, quindi il suo contenuto informativo è alto.
+
+Matematicamente, la quantità d'informazione in bit di un evento è l'opposto del logaritmo in base due della probabilità di tale evento. La scelta del numero 2 come base del logaritmo è particolarmente significativa nel caso elementare di scelta tra due alternative (informazione di un bit), ma è possibile usare anche <math>e</math> (numero di Nepero), usando dunque il logaritmo naturale; in tal caso l'unità di misura dell'informazione si dice "'''Nat'''".
+
+Nel caso di due eventi equiprobabili, ognuno ha probabilità 0,5, e quindi la loro quantità di informazione è -log<sub>2</sub>(0,5) = 1 bit.
+Se la probabilità di un evento è zero, cioè l'evento è praticamente impossibile, la sua quantità di informazione è infinita.
+Se la probabilità di un evento è uno, cioè l'evento è praticamente certo, la sua quantità di informazione è -log<sub>2</sub>(1) = 0 bit.
+Se ci sono due possibili eventi, uno con probabilità 25% e l'altro con probabilità 75%, il verificarsi del primo evento convoglia
+l'informazione di -log<sub>2</sub>(0,25) = 2 bit, mentre il verificarsi del secondo evento convoglia l'informazione di -log<sub>2</sub>(0,75) =~ 0,415 bit.
+
+Il contenuto informativo (o entropia) di un generatore di eventi (detto "sorgente") è la media statistica dei contenuti informativi di ogni possibile valore, ovvero la somma delle informazioni pesate per la probabilità del corrispondente valore.
+
+Nel caso dei due valori con probabilità 25% e 75%, il contenuto informativo della sorgente è:
+
+0,25 x -log<sub>2</sub>(0,25) + 0,75 x -log<sub>2</sub>(0,75) =~ 0,811 bit.
+
+Cioè la sorgente genera meno di un bit per ogni evento.
+
+Nel caso di due eventi equiprobabili, si ha:
+
+0,5 x -log<sub>2</sub>(0,5) + 0,5 x -log<sub>2</sub>(0,5) = 0,5 x 1 + 0,5 x 1 = 1 bit.
+
+Cioè la sorgente genera esattamente un bit per ogni evento.
+
+== Software per il calcolo delle unità di misura informatiche==
+
+Per il calcolo tra queste grandi quantità di numeri è stato sviluppato da Andrea Foschiano un software per il calcolo. L'applicazione è stand-alone, non si installa. E' possibile scaricare la v1.2 [http://www.foschi.altervista.org qui].

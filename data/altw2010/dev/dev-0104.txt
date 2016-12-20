@@ -1,0 +1,54 @@
+thumb|Τα καλώδια  που είναι κάτω από το πάτωμα αφαιρούνται
+Η '''δομημένη καλωδίωση''' ασχολείται κυρίως με τον τρόπο που θα εγκατασταθούν δικτυακές συσκευές σε κτίρια.
+
+Η δομημενη καλωδιωση αφορα τη δομη της καλωδιακης εγκατάστασης ενος τοπικου δικτυου και τις προδιαγραφες που αυτη θα πρεπει να διαθετει. Αποτελει σημαντικο παραγοντα για τις μελλοντικες φυσικες επεκτασεις του δικτυου, για τις αναδιαταξεις των δομικων στοιχειων του, καθως και για την αναβαθμιση των προσφερομενων υπηρεσιων του. 
+
+Χωριζεται σε 5 υποσυστηματα. Απο αυτα τα υποσυστηματα 3 ειναι σημεια συνδεσης και 2 ειναι καλωδιωσεις.
+
+==Συστατικά μέρη==
+===Σημεία σύνδεσεις===
+
+thumb|right|Data centre
+thumb|right|Used networking technology depends on length
+'''Structured cabling''' is building or campus telecommunications cabling infrastructure that consists of a number of standardized smaller elements (hence structured) called subsystems.
+
+Structured cabling falls into six subsystems:
+* ''Entrance Facilities'' are where the building interfaces with the outside world.
+* ''Equipment Rooms'' host equipment which serve the users inside the building.
+* ''Telecommunications Rooms'' house telecommunication equipment which connect the backbone and the horizontal cabling subsystems.
+* ''Backbone Cabling'' connect between the entrance facilities, equipment rooms and telecommunications rooms.
+* ''Horizontal Cabling'' connect telecommunications rooms to individual outlets on the floor.
+* ''Work-Area Components'' connect end-user equipment to outlets of the horizontal cabling system.
+
+Structured cabling design and installation is governed by a set of standards that specify wiring category 5 (CAT 5E) or modular sockets. These standards define how to lay the cabling in a star formation, such that all outlets terminate at a central 19 inch rack-mounted), from where it can be determined exactly how these connections will be used. Each outlet can be 'patched' into a data network switch (normally also rack mounted alongside), or patched into a 'telecoms patch panel' which forms a bridge into a private branch exchange (PBX) telephone system, thus making the connection a voice port.
+
+Lines patched as data ports into a network switch require simple straight-through patch cables at the other end to connect a computer.  Voice patches to PBXs in most countries require an adapter at the remote end to translate the configuration on 8P8C modular connectors into the local standard RJ11 telephone connections is physically compatible with the larger 8P8C socket and the wiring of the 8P8C is compatible with RJ11. In the UK, an adapter must be present at the remote end as the 6-pin BT socket is physically incompatible with 8P8C.
+
+It is common to color code patch panel cables to identify the type of connection, though structured cabling standards do not require it, except in the demarcation wall field.
+
+Cabling standards demand that all eight connectors in Cat5/5e/6 cable are connected, resisting the temptation to 'double-up' or use one cable for both voice and data. This is generally helpful as it means that they fully support features such as Power over Ethernet which require the so-far unused brown cables.
+
+==Structured cabling standards==
+The main structured cabling standards used in the USA and many other countries are:
+
+A.	TIA-526-7 “Measurement of Optical Power Loss of Installed Single-Mode Fiber Cable Plant “– OFSTP-7 - (February 2002)
+
+B.	TIA-526-14-A Optical Power Loss Measurements of Installed Multimode Fiber Cable Plant – OFSTP-14 - (August 1998)
+
+C.	ANSI/TIA/EIA-568-B.1 Commercial Building Telecommunications Cabling Standard Part 1: General Requirements: General Requirements, may 2001.
+
+D.	Adenda ANSI/TIA/EIA-568-B.1-1-2001,  Addendum 1, Minimum Curve Radius for 4 pair UTP and ScTP cable, July, 2001.
+
+E.	TIA/EIA-568-B.1-2 Commercial Building Telecommunications Cabling Standard Part 1: General Requirements Addendum 2 – Grounding and Bonding Requirements for Screened Balanced Twisted-Pair Horizontal Cabling - (February 2003)
+
+F.	TIA/EIA-568-B.1-3 Commercial Building Telecommunications Cabling Standard Part 1: General Requirements Addendum 3 – Supportable Distances and Channel Attenuation for Optical Fiber Applications by Fiber Type - (February 2003)
+
+G.	TIA/EIA-568-B.1-4 Commercial Building Telecommunications Cabling Standard Part 1: General Requirements Addendum 4 – Recognition of Category 6 and 850 nm Laser Optimized 50/125 μm Multimode Optical Fiber Cabling - (February 2003)
+
+H.	TIA/EIA-568-B.1-5 Commercial Building Telecommunications Cabling Standard Part 1: General Requirements Addendum 5 – Telecommunications Cabling for Telecommunications Enclosures – (March 2004)
+
+I.	TIA/EIA-568-B.1-7 Commercial Building Telecommunications Cabling Standard Part 1: General Requirements Addendum 7 - Guidelines for Maintaining Polarity Using Array Connectors – (January 2006)
+
+J.	TIA/EIA-568-B.2 Commercial Building Telecommunications Cabling Standard Part 2: Balanced Twisted-Pair Cabling Components - (December 2003)
+
+K.	TIA/EIA-568-B.2-1 Commercial Building Telecommunications Cabling Standard Part 2: Balanced Twisted-Pair Cabling Components – Addendum 1 – Transmission Performance Specifications for 4-Pair 100 ohm Category 6 Cabling - (June 2002)

@@ -1,0 +1,187 @@
+{{Infobox_OS
+| name =                   Linux Mint
+| logo =                   300px
+| screenshot =             300px
+| caption =                Linux Mint “Daryna” 4.0 running GNOME
+| family =                 Linux
+| source_model =           Free and Open Source Software
+| latest_release_version = 4.0 <!-- If you update this, remember to also update Comparison of Linux distributions-->
+| latest_release_date =    2007-11-15
+| language =               multilingual
+| kernel_type =            Monolithic kernel
+| ui =                     GNOME , KDE , Xfce
+| working_state =          Current
+| website =                http://www.linuxmint.com/
+| supported_platforms =    i386
+| updatemodel =            APT
+| package_manager =        APT
+| license =                GPL
+}}
+
+'''Linux Mint''' este o distribuţie Linux pentru computere personale. Distribuţia se bazează pe Ubuntu, având acelaşi software instalat. Diferenţele apar pe desktop, unde interfaţa cu utilizatorul este diferită. Linux Mint încearcă să ofere o interfaţă mai prietenoasă decât Ubuntu, printr-un meniu dedicat Linux Mint Menu, şi prin adăugarea de software personalizat (MintSoftware).
+
+== Versiuni == 
+
+Linux Mint nu are un program de lansare a versiunilor. Versiunile sunt lansate succesiv.  
+
+{| class="prettytable" 
+|- style="background-color:#ececec;" |
+! Version
+! Codename
+! Edition
+! Window Manager
+! Code Base
+! APT Base
+! Release Date
+|-
+|style="background-color:#FF0000;"| 1.0 || '''Ada''' || Main || KDE || Kubuntu Dapper || Dapper || 27/08/2006
+|-
+|style="background-color:#FF0000;"| 2.0 || '''Barbara''' || Main || GNOME || Ubuntu Edgy || Edgy || 13/11/2006
+|-
+|style="background-color:#FF0000;"| 2.1 || '''Bea''' || Main || GNOME || Ubuntu Edgy || Edgy || 20/12/2006
+|-
+|style="background-color:#9ACD32;"| 2.2 ||'''Bianca''' || Main || GNOME || Ubuntu Edgy || Edgy || 20/02/2007
+|-
+|style="background-color:#9ACD32;"| 2.2 ||'''Bianca''' || Light || GNOME || Ubuntu Edgy || Edgy || 29/03/2007
+|-
+|style="background-color:#9ACD32;"| 2.2 ||'''Bianca''' || KDE CE || KDE || Kubuntu Edgy || Edgy || 20/04/2007
+|-
+|style="background-color:#9ACD32;"| 3.0 ||'''Cassandra''' || Main || GNOME || Bianca 2.2 || Feisty || 30/05/2007 
+|-
+|style="background-color:#9ACD32;"| 3.0 ||'''Cassandra''' || Light|| GNOME || Bianca 2.2 || Feisty || 15/06/2007 
+|-
+|style="background-color:#9ACD32;"| 3.0 ||'''Cassandra''' || KDE CE || KDE || Bianca 2.2 || Feisty || 14/08/2007 
+|-
+|style="background-color:#9ACD32;"| 3.0 ||'''Cassandra''' || MiniKDE CE || KDE || Bianca 2.2 || Feisty || 14/08/2007 
+|-
+|style="background-color:#9ACD32;"| 3.0 ||'''Cassandra''' || Xfce CE || Xfce || Cassandra 3.0 || Feisty || 07/08/2007 
+|-
+|style="background-color:#9ACD32;"| 3.1 ||'''Celena''' || Main || GNOME || Bianca 2.2 || Feisty || 24/09/2007 
+|-
+|style="background-color:#9ACD32;"| 3.1 ||'''Celena''' || Light|| GNOME || Bianca 2.2 || Feisty || 01/10/2007 
+|-
+|style="background-color: #32CD32;"| 4.0 ||'''Daryna''' || Main || GNOME || Celena 3.1 || Gutsy || 15/10/2007
+|-
+|style="background-color: #32CD32;"| 4.0 ||'''Daryna''' || Light|| GNOME || Celena 3.1 || Gutsy || 15/10/2007
+|-
+|style="background-color:#66CDAA;"| 4.0 ||'''Daryna BETA 021''' || KDE CE || KDE || Daryna 4.0  || Gutsy || 6/11/2007 
+|-
+|style="background-color:#66CDAA;"| 4.0 ||'''Daryna BETA 008''' || Xfce CE || Xfce|| Daryna 4.0  || Gutsy || 2/11/2007 
+|-
+|style="background-color:#66CDAA;"| 4.0 ||'''Daryna BETA 021''' || Fluxbox CE || Fluxbox || Daryna 4.0 || Gutsy || 3/1/2008 
+|-
+|style="background-color:#7FFFD4;"| test release ||'''Debian ALPHA 023''' || Debian || GNOME || Debian 4.0 || Etch || 3/1/2008
+|-
+|style="background-color:#66CDAA;"| 4.0 ||'''Daryna BETA 021''' || E17 CE || Enlightenment || Daryna 4.0 || Gutsy || January 2008 
+|-
+|style="background-color:#ADFF2F;"| 5 ||'''Elyssa''' || Main || GNOME || Ubuntu Hardy Heron || Hardy || 30/04/2008
+|-
+|style="background-color:#ADFF2F;"| 5 ||'''Elyssa''' || KDE CE || KDE || Kubuntu Hardy Heron || Hardy || 30/04/2008 
+|-
+|style="background-color:#ADFF2F;"| 5 ||'''Elyssa''' || XFCE CE || Xfce|| Xubuntu Hardy Heron || Hardy || 30/04/2008 
+|-
+|}
+{| class="prettytable" 
+!colspan="6"|Legend:
+|- style="white-space:nowrap; text-align:center;"
+|style="background-color:#FF0000; width:20%;"|Outdated
+|style="background-color:#9ACD32; width:20%;"|Stable (without backports from ''Romeo'')
+|style="background-color:#32CD32; width:20%;"|Stable (with backports from ''Romeo'')
+|style="background-color:#7FFFD4; width:20%;"|Alpha (test release)
+|style="background-color:#66CDAA; width:20%;"|Beta
+|style="background-color:#ADFF2F; width:20%;"|Next Release
+|}
+
+== Ediţii ==
+
+* Ediţia principală oferă interfaţa GNOME şi codecuri pentru fişiere multimedia.
+
+* Ediţia 'Light': fără codecuri pentru fişiere multimedia. 
+
+{{Infobox_OS
+| name =                   Linux Mint
+| logo =                   250px
+| screenshot =             250px
+| caption =                Linux Mint 5.0 ("Elyssa") running GNOME
+| family =                 Linux
+| source_model =           Free and Open Source Software
+| latest_release_version = 5.0r1 ("Elyssa") <!-- If you update this, remember to also update Comparison of Linux distributions-->
+| latest_release_date =    
+| language =               multilingual
+| kernel_type =            Monolithic kernel
+| ui =                     Freedesktop.org (GNOME , KDE , Xfce)
+| working_state =          Current
+| website =                [http://www.linuxmint.com/ www.linuxmint.com]
+| supported_platforms =    i386
+| updatemodel =            APT
+| package_manager =        APT
+| license =                GPL
+}}
+
+'''Linux Mint''' is a Linux distribution for desktop computers based on and compatible with Debian. 
+
+While at the core Linux Mint is mostly based on Ubuntu, the design of the desktop and User interface are considerably different. These differences include a distinct desktop theme, a custom Linux Mint menu and the MintTools, a collection of system tools designed to make system management and administration easier for end users.
+
+== Branches ==
+Like many other Linux distributions, Linux Mint is available in different test versions or "branches". The branch with the newest features, or "unstable branch" of Linux Mint, is called "Romeo". It is not activated by default in Linux Mint releases. Users who wish to get cutting-edge features and help the distribution test new packages can add Romeo to their Advanced Packaging Tool (APT) sources. 
+
+New packages are first released in "Romeo", where they are tested by developers and community members who use it. After a package is found to be stable enough, it is backported to the latest stable release. 
+
+== MintTools ==
+thumb|Mintupdate, Linux mint's update manager.
+thumb|MintUpload, A client that uploads files to a server
+Linux Mint comes with its own set of tools aimed at making the experience easier for the user.
+* '''MintInstall''': A program to download software from Internet catalogs that distributes mint-files. A mint-file does not contain the software, but it contains all the information and sources to download that software. mintInstall allows users to add software through the use of .mint files.
+* '''MintUpdate''': Update-software designed specifically for Linux Mint. MintUpdate assigns updates a safety-level (from 1 to 5), based on the stability and necessity of the update. Updates can be set to notify users (as is normal), be listed but not notify, or be hidden by default. In addition to including updates specifically for the Mint distribution, the development team tests all package-wide updates. This system is designed to prevent inexperienced users from installing updates that are unnecessary or require a certain level of knowledge to configure properly. MintUpdate is currently in beta 1.5 and will be included in the next Mint release. If mintInstall is used to install a program from the default repositories, that program is able to receive updates via mintUpdate.<ref>[https://blueprints.launchpad.net/mintupdate/+spec/mintinstall-integration Blueprint: “Integration with mintInstall”<!-- Bot generated title -->]</ref>
+* '''MintDesktop''': A desktop configuration tool for easy configuration of the Gnome desktop. Also acts as a background process to do various tasks upon login. Also network browsing is made easier (through fusesmb). MintDesktop has received a major overhaul in Mint 4.0.<ref>[https://launchpad.net/mintdesktop/ mintDesktop in Launchpad<!-- Bot generated title -->]</ref>
+* '''MintConfig''': (Obsolete from Daryna.) A customizable control center. It gathers all the tools from "Preferences" and "Administration" and organizes them into categories. The purpose of mintConfig was to give users a control center since Gnome didn’t have one. In Daryna only the Gnome Control Center will be present.
+* '''MintAssistant''': A customization wizard that appears during first log-in for users, asking a few questions to customize Mint based on the user's level of knowledge and comfort with various Linux components. It currently asks if the user wants to enable or disable fortune-cookies in the terminal, if the root account should be enabled or disabled, and if Mint should use MintDisk or fstab to mount NTFS-partitions.
+* '''MintUpload''': An FTP client that uploads files to a server by right-clicking on the icons and selecting upload. The user will then be given a link he or she can give to other people for quick and easy sharing.
+* '''MintSpace''': The larger sibling of MintUpload. Provides an additional 1GB of storage space and files stay on the server for 7 days (rather than 2 days). <ref></ref>
+* '''MintMenu''': A python-coded menu that allows for fully customizable text, icons, and colors. It shares the same hotlinks to software as the Gnome main menu.
+* '''MintWifi''': drivers for quite a few wlan gadgets and mintWifi.py . Located in /usr/lib/linuxmint/mintWifi 
+
+Software from the Mint repositories can be installed in Debian and Ubuntu as well through APT.
+
+== Editions ==
+* Main Edition: The Main Edition of Linux Mint provides a GNOME desktop with multimedia codecs which fit on a single CD.
+
+* Light Edition: Some of the codecs in the Main Edition are not freely redistributable in some parts of the world. For this reason, users who live in countries where the legislation doesn't allow them to use or distribute the Main Edition have access to a Light Edition of Linux Mint. The Light Edition is a copy of the Main Edition without any patented or proprietary component. 
+
+* KDE Community Edition: Linux Mint also provides a KDE Edition (mostly for individual users). The Gnome desktop is replaced with KDE. The default selection of applications is different and this edition usually comes with more software. The KDE edition doesn't necessarily fit on a CD and can be available as a DVD download.
+
+* XFCE Community Edition: An attempt to create a version easier on system requirements. The GNOME desktop is replaced with Xfce as the default desktop environment.
+
+* Mini Community Edition: Linux Mint using GNOME and Openbox to provide a lightweight, fast, and small mint environment..
+
+* Fluxbox Community Edition: An extremely light and fast alternative to GNOME using Fluxbox as the window manager. It can be used as a Live USB
+
+== Repositories ==
+Linux Mint repository can be added to /etc/apt/sources.list 
+
+ deb http://www.linuxmint.com/repository romeo daryna
+
+== Releases == 
+
+Originally, Linux Mint didn't follow a predictable release cycle. The project first defined the goals for the next release, and when all the goals are achieved a beta is released and a date is announced for the stable release. Recently however, it has been decided that Linux Mint will correlate with the 6 month Ubuntu release cycle.
+
+{| class="wikitable"
+|-
+! Colour
+! Meaning
+|-
+| style="background-color:#fa8072;" | Red
+| Old release; not supported
+|-
+| style="background-color:#f0e68c;" | Yellow
+| Old release; still supported
+|-
+| style="background-color:#A0E75A;" | Green
+| Current release
+|-
+| style="background-color:#D6B4F1;" | Purple
+| Test release
+|-
+| style="background-color:#87ceeb;" | Blue
+| Future release
+|}

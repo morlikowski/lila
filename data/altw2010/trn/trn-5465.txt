@@ -1,0 +1,103 @@
+数学において'''区間'''（くかん）とは、実数全体の集合 '''R''' の部分集合で、ある一つながりの範囲を表すものである。またより一般的に、順序の定められた集合についても区間を考えることができる。
+
+==実数の区間==
+区間は幾つかの種類に分類できる。
+;閉区間:[''a'', ''b''] = {''x'' | ''a'' &le; ''x'' &le; ''b''}
+;開区間:(''a'', ''b'') = {''x'' | ''a'' &lt; ''x'' &lt; ''b''}
+;左閉右開区間、左閉半開区間:[''a'', ''b'') = {''x'' | ''a'' &le; ''x'' &lt; ''b''}
+;左開右閉区間、右閉半開区間:(''a'', ''b''] = {''x'' | ''a'' &lt; ''x'' &le; ''b''}
+
+後の二つを総称して'''半開区間'''とも呼称する。これらの名称は、閉区間が閉集合に、開区間が開集合にそれぞれなっていることによる。また、区間 (''a'', ''b'') などにおいて ''a''、''b'' をその区間の'''端点'''と呼ぶ。 角括弧 "["、"]" を用いた場合は端点をその区間の点として含み、丸括弧 "("、")" を用いた場合は端点をその区間に含まない。なお、端点を含まない区間を表すために丸括弧を用いる代わりに、開き括弧として "]"、閉じ括弧として"[" という記号を用いる流儀もある。この方法では、上の最後の二つはそれぞれ [''a'', ''b''[、]''a'', ''b''] となる。
+
+また、端点に無限大 &plusmn;&infin; を用いた区間を'''無限区間'''と呼ぶ。例えば、(''a'', +&infin;) は、''a'' より大きな実数全てを含む集合である。無限大そのものを数として扱うわけではないので端点として無限大が含まれることは無く、区間の無限大のがわには必ず丸括弧を用いる。明らかに '''R''' = (-&infin;, &infin;) である。記号としては、無限区間に"("、")"を使うが、無限区間は開区間であると同時に閉区間であることに注意しよう。また、空集合も開区間であると同時に閉区間である。区間が無限区間でないことを明示するために、無限区間でない通常の区間を'''有限区間'''と呼んで区別することがある。
+
+区間 ''I'' に対し、端点が ''a''、''b'' (''a'' &le; ''b'') であるならば、''I'' が端点を含むか否かに関わらず |''I'' | = ''b'' - ''a'' と定義して、 |''I'' | を区間 ''I'' の'''長さ'''という。|''I'' | が無限区間のときは |''I'' | = &infin; とする。線分 ''l'' を ''l'' = ''I'' と定義すれば、これは線分の長さに他ならない。
+
+領域を意識する場合、区間を用いて ''I'' &times; ''J'' と定義することが出来る。この時、''I''、''J'' は区間を表し、その種類（閉区間など）を限らない。この定義は、積分を行うときに重要である。また、この方法で定義した長方形の面積は |''I'' | &times; |''J'' | である。
+
+In mathematics, an '''interval''' is a set of real numbers with the property that any number that lies between two numbers in the set is also included in the set.  
+For example, the set of all numbers <math>x</math> satisfying <math>0\le x\le 1</math> is an interval
+which contains <math>0</math> and <math>1</math>, as well as all numbers between them. The set of positive numbers is also an interval.
+
+==Notations for intervals==
+The interval of numbers between <math>a</math> and <math>b</math> including <math>a</math> and <math>b</math> is
+often denoted <math>[a,b]</math>. If one of the endpoints is to be omitted, then the corresponding square bracket is
+replaced by a parenthesis. Thus, in set builder notation,
+: <math>(a,b)=\{x\in\R\,|\,a<x<b\}</math>,
+: <math>[a,b)=\{x\in\R\,|\,a\le x<b\}</math>,
+: <math>(a,b]=\{x\in\R\,|\,a<x\le b\}</math>, 
+: <math>[a,b]=\{x\in\R\,|\,a\le x\le b\}</math>.
+In the above, we may take <math>a=-\infty</math> or <math>b=\infty</math> at an omitted endpoint. 
+For example, <math>(0,\infty)</math> is the interval of positive numbers.
+
+==Alternative notation==
+International standard ISO 31-11 also defines another notation for intervals, which is the one commonly taught in many European and South American countries (e.g., Germany, France, Brazil) in secondary school:
+
+* <math>\left]a,b\right[ = \{x\,|\, a< x < b\}</math>
+* <math>\left[a,b\right[ = \{x\,|\, a\le x < b\}</math>
+* <math>\left]a,b\right] = \{x\,|\, a< x \le  b\}</math>
+* <math>[a,b] = \{ x \,| \,a \le x \le b \}</math>
+
+This notation is somewhat easier to remember (inwards pointing bracket for inclusion, outwards-pointing bracket for exclusion). Another advantage is that this notation does not overlap with the tuple notation, which is equally commonly used in set theory.
+
+Where numbers are written with a decimal comma, the endpoints in the interval notation may also be separated by a semicolon instead of a comma, to avoid ambiguity.
+
+==Types of intervals==
+Intervals in <math>\mathbb{R}</math> are of the following eleven different types
+(where <math>a</math> and <math>b</math> are real numbers, with <math>a < b</math>):
+
+''Bounded nondegenerate intervals'':
+<ol>
+<li> <math>(a,b)=\{x\,|\,a<x<b\}</math>
+<li> <math>[a,b]=\{x\,|\,a\leq x\leq b\}</math>
+<li> <math>[a,b)=\{x\,|\,a\,\leq x<b\}</math>
+<li> <math>(a,b]=\{x\,|\,a<x\leq b\}</math>
+</ol>
+''Unbounded intervals'':
+<ol>
+<li value=5> <math>(a,\infty)=\{x\,|\,x>a\}</math>
+<li> <math>[a,\infty)=\{x\,|\,x\geq a\}</math>
+<li> <math>(-\infty,b)=\{x\,|\,x<b\}</math>
+<li> <math>(-\infty,b]=\{x\,|\,x\leq b\}</math>
+<li> <math>(-\infty,\infty)=\mathbb{R}</math>, the set of all real numbers
+</ol>
+''Degenerate intervals'':
+<ol>
+<li value=10> <math>\varnothing</math>, the empty set
+<li> <math>[a,a]=\{a\}\,</math>, singleton
+</ol>
+
+==Terminology==
+In each case where they appear above, ''a'' and ''b'' are known as '''endpoints''' of the interval.
+
+The '''bounded intervals''' are the intervals of types 1 &ndash; 4, 10 and 11. 
+These are precisely the intervals that are bounded sets, in the sense that their diameter is finite.
+
+The '''interior''' of an interval <math>I</math> is the set of points in <math>I</math> which are not endpoints of <math>I</math>.
+
+An interval is '''open''' if it is equal to its interior. In the above list, the intervals of types 1, 5, 7, 9, and 10 are open. For example, the intervals <math>(-\infty,\infty)</math>
+and <math>\varnothing</math> do not have endpoints, and therefore are open.
+
+An interval is '''closed''' if it contains all of its endpoints. In the above list, the intervals of types 2, 6, 8, 9, 10 and 11 are closed.
+
+The intervals <math>\varnothing</math> and <math>\R</math> are open and closed. 
+
+The notions of interior, open and closed arise from topology. The open intervals are precisely the intervals that are open sets, and the closed intervals are precisely the intervals that are closed sets.
+
+Intervals of the form <math>[a,b)</math> and <math>(a,b]</math> (with <math>-\infty<a<b<\infty</math>) are called either '''half-closed intervals''' or '''half-open intervals'''. These terms are specific to intervals, and do not extend to general topological spaces.
+
+The intervals <math>\varnothing</math> (which is open and closed) and <math>[a,a]=\{a\}</math> (which is closed) are called '''degenerate intervals'''; these are exactly the intervals with empty interior.
+
+==Alternative definitions==
+An interval can alternatively be defined as a
+connected subset of <math>\mathbb{R}</math>.
+They are also precisely the convex subsets of <math>\mathbb{R}</math>.
+Since a continuous image of a connected set is connected,
+it follows that if <math>f\colon \mathbb{R}\rightarrow\mathbb{R}</math> is a continuous function and ''I'' is an interval, then its image <math>f(I)</math> is also an interval.
+This is one formulation of the intermediate value theorem.
+
+==Use in the context of integration==
+Intervals play an important role in the theory of integration, because they are the simplest sets whose "size" or "measure" or "length" is easy to define (see above).
+The concept of measure can then be extended to more complicated sets, leading to the Borel measure and eventually to the Lebesgue measure.
+
+== Dyadic intervals ==

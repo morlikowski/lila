@@ -1,0 +1,54 @@
+'''Işık Düzengeci''' isim ''Foto'' ''(İng:Aperture, Alm. Fotografische Blende. Eşanlam: Diyafram)'' Fotoğraf makinelerinde, objektif içinden geçen ışığın, yeğinliğini ayarlamak için kullanılan ve çoğunlukla objektif içine yerleştirilmiş olan metal düzenek. Halk arasında diyafram olarak bilinir. 
+
+Işık düzengeci özü itibarı ile, objektif içinden geçen ışığın, '''ışık aralığını''' dolayısı ile '''netlik derinliğini''' ayarlamak için geliştirilmiştir. Çünkü resmin göze net gibi görünen kısmı, ışık düzengeci yardımı ile ayarlanan ışık aralığı ile belirlenir.
+
+Eğer fotoğrafçılıkta kullanılan objektif bir göze benzetilecek olursa, Işık düzengeci de, gözbebeğine benzetilebilir. Bu nedenle bu düzeneğin bazı türlerine ışık bebeği (Alm. Irisblende) denir. Bu düzenek, objektif içinden geçerek film (duyarkat)/sensör üzerine düşen ışığın yeğinliğini (miktarını) düzenlemek için kullanılır. Ancak gözbebeği gibi, ışığı otomatik olarak ayarlayamaz. '''Işık aralığı ''' denilen, bu aralığın kullanıcı tarafından belirlenmesi gerekir. 
+
+Işık aralığı ayarı, kullanılan film/sensör duyarlığına ve seçilen ışıklama süresine bağlı olarak, objektif bileziği üzerine kazınmış olan değerlerden biri seçilerek ya da fotoğraf makinesinin gövresi üzerinden belirlenir. 
+
+Objektif bileziği üzerinde bulunan ve ilk bakışta pek de simetrik görünmeyen ışık aralığı değerleri bir basamak şeklinde düzenlenmiştir. Basamak oluşturan değerlerden her biri, bir sonraki (ya da bir önceki) sayısal değerin tam iki katı ışık aralığına işaret eder. Buna göre, örneğin  8 sayısı ile belirlien ışık aralığı, 5.6 sayısı ile belirtilen ışık aralığının tam iki katı ışık geçmesini sağlayan bir ışık aralığıdır. Birçok makine üzerinden diyafram kontrol edilebildiği için bu makinelerde ara değerler de bulunmaktadır.
+
+thumb|A big (1) and a small (2) aperture
+In rays that come to a focus in the image plane. The aperture determines how collimated the admitted rays are, which is of great importance for the appearance at the image plane. If the admitted rays also pass through a lens, highly collimated rays (narrow aperture) will result in sharpness at the image plane, while uncollimated rays (wide aperture) will result in sharpness for rays with the right focal length only. This means that a wide aperture results in an image that is sharp around what the lens is focusing on and blurred otherwise. Obviously, the aperture also determines how many of the incoming rays that are actually admitted and thus how much light that reaches the image plane (the narrower the aperture, the darker the image).
+
+An optical system typically has many openings, or structures that limit the ray bundles (ray bundles are also known as ''pencils'' of light).  These structures may be the edge of a lens or diaphragm placed in the optical path  to limit the light admitted by the system.  In general, these structures are called '''stops''', and the '''aperture stop''' is the stop that determines the ray cone angle, or equivalently the brightness, at an image point.
+
+In some contexts, especially in photography and astronomy, ''aperture'' refers to the ''diameter'' of the aperture stop rather than the physical stop or the opening itself. For example, in a telescope the aperture stop is typically the edges of the objective lens or mirror (or of the mount that holds it). One then speaks of a telescope as having, for example, a 100 centimeter ''aperture''. Note that the aperture stop is not necessarily the smallest stop in the system. Magnification and demagnification by lenses and other elements can cause a relatively large stop to be the aperture stop for the system. 
+
+Sometimes stops and diaphragms are called apertures, even when they are not the aperture stop of the system.
+
+The word aperture is also used in other contexts to indicate a system which blocks off light outside a certain region. In astronomy for example, a photometric aperture around a star usually corresponds to a circular window around the image of a star within which the light intensity is summed.<ref>Nicholas Eaton, Peter W. Draper & Alasdair Allan, [http://www.starlink.rl.ac.uk/star/docs/sun45.htx/node36.html Techniques of aperture photometry] in  PHOTOM -- A Photometry Package, 20th August 2002</ref>
+
+right|thumb|244px|Definitions of ''Aperture'' in the 1707 ''Glossographia Anglicana Nova''<ref>[[Thomas Blount (Lexicographer)|Thomas Blount, ''Glossographia Anglicana Nova: Or, A Dictionary, Interpreting Such Hard Words of whatever Language, as are at present used in the English Tongue, with their Etymologies, Definitions, &c.  Also, The Terms of Divinity, Law, Physick, Mathematics, History, Agriculture, Logick, Metaphysicks, Grammar, Poetry, Musick, Heraldry, Architecture, Painting, War, and all other Arts and Sciences are herein explain'd, from the best Modern Authors, as, Sir Isaac Newton, Dr. Harris, Dr. Gregory, Mr. Lock, Mr. Evelyn, Mr. Dryden, Mr. Blunt, &c.'', London, 1707.</ref> ]]
+==Application==
+The aperture stop is an extremely important element in most optical designs. Its most obvious feature is that it limits the amount of light that can reach the image/film plane. This can either be undesired, as in a telescope where one wants to collect as much light as possible; or deliberate, to prevent saturation of a detector or overexposure of film. In both cases, the size of the aperture stop is constrained by things other than the amount of light admitted, however:
+*The size of the stop is one factor that affects depth of field. <!-- There is some confusion here. So let's be clear: Long depth of field occurs when the lens opening, and thus the stop, is small. However, a small opening equals a large f-stop number. --> Smaller stops produce a longer depth of field, allowing objects at a wide range of distances to all be in focus at the same time.
+*The stop limits the effect of optical aberrations. If the stop is too large, the image will be distorted. More sophisticated optical system designs can mitigate the effect of aberrations, allowing a larger stop and therefore greater light collecting ability.
+*The stop determines whether the image will be vignetted. Larger stops can cause the intensity reaching the film or detector to fall off toward the edges of the picture, especially when for off-axis points a different stop becomes the aperture stop by virtue of cutting off more light than did the stop that was the aperture stop on the optic axis.
+*A larger aperture stop requires larger diameter optics, which are heavier and more expensive.
+
+In addition to an aperture stop, a photographic lens may have one or more ''field stops'', which limit the system's field of view.  Outside the angle of view, a field stop may become the aperture stop, causing vignetting; vignetting is only a problem if it happens inside the desired field of view.
+
+The pupil of the eye is its aperture; the iris is the diaphragm that serves as the aperture stop. Refraction in the cornea causes the effective aperture (the entrance pupil) to differ slightly from the physical pupil diameter. The entrance pupil is typically about 4&nbsp;mm in diameter, although it can range from 2&nbsp;mm () in a brightly lit place to 8&nbsp;mm () in the dark.
+
+In astronomy, the diameter of the aperture stop (called the ''aperture'') is a critical parameter in the design of a telescope. Generally, one would want the ''aperture'' to be as large as possible, to collect the maximum amount of light from the distant objects being imaged. The size of the aperture is limited, however, in practice by considerations of cost and weight, as well as prevention of aberrations (as mentioned above).
+
+==In photography==
+The aperture stop (not to be confused with "film or exposure to light.  Typically, a fast shutter speed will require a larger aperture to ensure sufficient light exposure, and a slow shutter speed will require a smaller aperture to avoid excessive exposure.
+
+[[Image:Aperture diagram.svg|right|thumb|350px|Diagram of decreasing aperture sizes (increasing 
+f-numbers) for "full stop" increments (factor of two aperture area per stop)]]
+
+A device called a diaphragm usually serves as the aperture stop, and controls the aperture. The diaphragm functions  much like the iris of the eye&mdash;it controls the effective diameter of the lens opening. Reducing the aperture size increases the depth of field, which describes the extent to which subject matter lying closer than or farther from the actual plane of focus appears to be in focus. In general, the smaller the aperture (the larger the number), the greater the distance from the plane of focus the subject matter may be while still appearing in focus. 
+
+The lens aperture is usually specified as an f-number, the ratio of focal length to effective aperture diameter. A lens typically has a set of marked "f-stops" that the f-number can be set to. A lower f-number denotes a greater aperture opening which allows more light to reach the film or image sensor. The photography term "one f-stop" refers to a factor of √2 (approx. 1.41) change in f-number, which in turn corresponds to a factor of 2 change in light intensity.
+
+Aperture priority is a semi-automatic shooting mode used in cameras. It allows the photographer to choose an aperture setting and allow the camera to decide the shutter speed and sometimes ISO sensitivity for the correct exposure. This is sometimes referred to as Aperture Priority Auto Exposure, A mode, Av mode, or semi-auto mode.<ref> (original link no longer works, but page was saved by archive.org)</ref>
+
+===Maximum and minimum apertures===
+
+The specifications for a given lens typically include the minimum and maximum apertures.
+These refer to the maximum and minimum f-numbers the lens can be set at to achieve, respectively.
+
+A typical lens will have an f-number range from 16 (small aperture) to 2 (large aperture) (these values vary). 
+The maximum aperture (minimum f-number) tends to be of most interest (and is always included when describing a lens). This value is also known as the '''lens speed''', because it is proportional to the square of accepted light, and thus inversely proportional to the square of required exposure time (i.e. using a lens with f/2, one can take pictures at one quarter of the exposure time necessary using a f/4 lens). Professional lenses for 35mm cameras can have f-numbers as low as 1.0, while professional lenses for some movie cameras can have f-numbers as low as 0.75 (very large relative aperture). These are known as "fast" lenses because they allow much more light to reach the film and therefore reduce the required exposure time. Stanley Kubrick's film ''Barry Lyndon'' is notable for having scenes shot with the largest relative aperture in film history: 0.7.

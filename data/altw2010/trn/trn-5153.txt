@@ -1,0 +1,141 @@
+thumb|right|200px|多元接続（FDMA、TDMA、CDMA）
+'''符号分割多元接続'''（ふごうぶんかつたげんせつぞく、''Code Division Multiple Access''、'''CDMA'''）は、直接拡散符号分割多重接続 (DS/CDMA,DS:Direct Sequence)、周波数ホッピング(FH:Frequency-Hopping) の方式に分けられる。
+
+衛星電話などの衛星通信や携帯電話の他、軍事用の暗号通信に用いられている。
+
+== 携帯電話での方式 ==
+CDMA（符号分割多元接続）にはいくつか種類がある。米国の標準規格は米クアルコム社（QUALCOMM）によって定義された「IS-95」（Interim Standard 95）として知られていた。「IS」とは国際電気通信連合（TIA）によって制定された規格であり、このため「TIA-EIA-95」とも呼ばれる。<!--「IS-95」は最初に実用化に成功した第二世代携帯電話のCDMA（cdmaOne）のことである。 意味不明のためコメントアウトします。-->クアルコム社による「IS-95」のブランド名が「cdmaOne」である。
+
+CDMAはTDMA（Time Division Multiple Access、時分割多元接続）とは違い、いつでも複数の無線接続が可能である。もちろん、多くの接続はそれだけ伝送速度の制約をもたらすが、それでも少ない基地局に対して携帯無線機が多くなった社会においては、TDMAに対して有利な特徴である。北米では、TDMAを使用する「Digital AMPS」（IS-136）規格と競合の上で、「CDMA2000」と呼ばれるCDMAの規格の一つ「IS-2000」が勝利を収め標準となった。
+
+* au・cdmaOne）
+* W-CDMA（欧州系）（NTTドコモ FOMA、SoftBank 3G）
+* CDMA2000（米国クアルコム系）(au・CDMA 1X、CDMA 1X WIN)
+* TD-CDMA（慶應義塾大学）
+
+== Cell Breathing ==
+CDMA基地局のセルの大きさが、呼吸しているように収縮変化するCDMA特有の現象である。FDMA、TDMAでは見られない。日本では、マニアが「セルシュリンク」と呼ぶ。
+
+'''Code division multiple access''' ('''CDMA''') is a mobile phone standards called cdmaOne and CDMA2000 (which are often referred to as simply "CDMA"), that use CDMA as their underlying channel access methods.
+
+One of the basic concepts in data communication is the idea of allowing several transmitters to send information simultaneously over a single communication channel.  This allows several users to share a bandwidth of frequencies.  This concept is called multiplexing.  CDMA employs "spread-spectrum" signaling, since the modulated coded signal has a much higher data bandwidth than the data being communicated.
+
+An analogy to the problem of multiple access is a room (channel) in which people wish to communicate with each other.  To avoid confusion, people could take turns speaking (time division), speak at different pitches (frequency division), or speak in different directions (spatial division).  In CDMA, they would speak different languages.  People speaking the same language can understand each other, but not other people.  Similarly, in radio CDMA, each group of users is given a shared code.  Many codes occupy the same channel, but only users associated with a particular code can understand each other.
+
+== Uses == 
+
+* One of the early applications for code division multiplexing—predating, and distinct from cdmaOne—is in GPS.
+
+* The Qualcomm standard IS-95, marketed as cdmaOne.
+
+* The Qualcomm standard IS-2000, known as CDMA2000. This standard is used by several mobile phone companies, including the Globalstar satellite phone network.
+
+*CDMA has been used in the '''OmniTRACS''' satellite system for transportation logistics.
+
+==Technical details==
+CDMA is a spread spectrum multiple access technique.  In CDMA a locally generated code runs at a much higher rate than the data to be transmitted.  Data for transmission is simply logically bandwidth is proportional to 1/T where T = bit time) Therefore, the bandwidth of the data signal is 1/Tb and the bandwidth of the spread spectrum signal is 1/Tc.  Since Tc is much smaller than Tb, the bandwidth of the spread spectrum signal is much larger than the bandwidth of the original signal. <ref>{{cite book
+ | first = Vern A.
+ | last = Dubendorf
+ | year = 2003
+ | title = Wireless Data Technologies
+ | edition = 
+ | publisher = John Wiley & Sons, Ltd
+ | isbn = 
+}}</ref>
+
+Generation of a CDMA signal
+
+Each user in a CDMA system uses a different code to modulate their signal. Choosing the codes used to modulate the signal is very important in the performance of CDMA systems.  The best performance will occur when there is good separation between the signal of a desired user and the signals of other users. The separation of the signals is made by correlating the received signal with the locally generated code of the desired user. If the signal matches the desired user's code then the correlation function will be high and the system can extract that signal.  If the desired user's code has nothing in common with the signal the correlation should be as close to zero as possible (thus eliminating the signal); this is referred to as cross correlation. If the code is correlated with the signal at any time offset other than zero, the correlation should be as close to zero as possible.  This is referred to as auto-correlation and is used to reject multi-path interference. <ref>{{cite web
+ | last=
+ | first = 
+ | title=CDMA Spectrum
+ | publisher=
+ | year=
+ | work=
+ | url= http://www.activexperts.com/asmssrvr/cellular/cdmaspectrum/
+ | accessdate=2008-04-29
+}}</ref>
+
+In general, CDMA belongs to two basic categories: synchronous (orthogonal codes) and asynchronous (pseudorandom codes).  
+
+===Code Division Multiplexing (''Synchronous'' CDMA)===
+
+Synchronous CDMA exploits mathematical properties of vectors representing the data strings. For example, binary string "1011" is represented by the vector (1, 0, 1, 1). Vectors can be multiplied by taking their dot product, by summing the products of their respective components.  If the dot product is zero, the two vectors are said to be ''orthogonal'' to each other.  (Note: If u=(a,b) and v=(c,d), the dot product u.v = a*c + b*d) Some properties of the dot product help to understand how WCDMA works. If vectors ''a'' and ''b'' are orthogonal, then
+:<math>\mathbf{a}\cdot(\mathbf{a}+\mathbf{b})=||\mathbf{a}||^2\quad\mathrm{since}\quad\mathbf{a}\cdot\mathbf{a}+\mathbf{a}\cdot\mathbf{b}= ||a||^2+0,</math>
+:<math>\mathbf{a}\cdot(-\mathbf{a}+\mathbf{b})=-||\mathbf{a}||^2\quad\mathrm{since}\quad-\mathbf{a}\cdot\mathbf{a}+\mathbf{a}\cdot\mathbf{b}= -||a||^2+0,</math>
+:<math>\mathbf{b}\cdot(\mathbf{a}+\mathbf{b})=||\mathbf{b}||^2\quad\mathrm{since}\quad\mathbf{b}\cdot\mathbf{a}+\mathbf{b}\cdot\mathbf{b}= 0+||b||^2,</math>
+:<math>\mathbf{b}\cdot(\mathbf{a}-\mathbf{b})=-||\mathbf{b}||^2\quad\mathrm{since}\quad\mathbf{b}\cdot\mathbf{a}-\mathbf{b}\cdot\mathbf{b}=0 -||b||^2.</math>
+
+Each user in synchronous CDMA uses an orthogonal codes to modulate their signal.  An example of four mutually orthogonal digital signals is shown in the figure.  Orthogonal codes have a cross-correlation equal to zero; in other words, they do not interfere with each other.  In the case of IS-95 64 bit Walsh codes are used to encode the signal to separate different users.  Since each of the 64 Walsh codes are orthogonal to one another, the signals are channelized into 64 orthogonal signals.  The following example demonstrates how each users signal can be encoded and decoded.  
+
+====Example====
+Start with a set of vectors that are mutually orthogonal. (Although mutual orthogonality is the only condition, these vectors are usually constructed for ease of decoding, for example columns or rows from Walsh matrices.) An example of orthogonal functions is shown in the picture on the left.  These vectors will be assigned to individual users and are called the "code", "chipping code" or "chip code".  In the interest of brevity, the rest of this example uses codes (v) with only 2 digits.  
+
+thumb|left|An example of four mutually orthogonal digital signals.
+
+Each user is associated with a different code, say '''v'''. If the data to be transmitted is a digital zero, then the actual bits transmitted will be '''–v''', and if the data to be transmitted is a digital one, then the actual bits transmitted will be '''v'''.  For example, if '''v'''=(1,–1), and the data that the user wishes to transmit is (1, 0, 1, 1) this would correspond to ('''v''', '''–v''', '''v''', '''v''') which is then constructed in binary as ((1,–1),(–1,1),(1,–1),(1,–1)). For the purposes of this article, we call this constructed vector the ''transmitted vector''.
+
+Each sender has a different, unique vector '''v''' chosen from that set, but the construction method of the transmitted vector is identical.
+
+Now, due to physical properties of interference, if two signals at a point are in phase, they add to give twice the amplitude of each signal, but if they are out of phase, they "subtract" and give a signal that is the difference of the amplitudes. Digitally, this behaviour can be modelled by the addition of the transmission vectors, component by component.
+
+If sender0 has code (1,–1) and data (1,0,1,1), and sender1 has code (1,1) and data (0,0,1,1), and both senders transmit simultaneously, then this table describes the coding steps:
+
+{|style="border: 1px #aaaaaa solid; background-color:#f7f8ff"
+|align=center bgcolor="#CCCCCC"|Step
+|align=center bgcolor="#CCCCCC"|Encode sender0
+|align=center bgcolor="#CCCCCC"|Encode sender1
+|-
+|0
+|vector0=(1,–1), data0=(1,0,1,1)=(1,–1,1,1)
+|vector1=(1,1), data1=(0,0,1,1)=(–1,–1,1,1)
+|-
+|1
+|encode0=vector0.data0
+|encode1=vector1.data1
+|-
+|2
+|encode0=(1,–1).(1,–1,1,1)
+|encode1=(1,1).(–1,–1,1,1)
+|-
+|3
+|encode0=((1,–1),(–1,1),(1,–1),(1,–1))
+|encode1=((–1,–1),(–1,–1),(1,1),(1,1))
+|-
+|4
+|signal0=(1,–1,–1,1,1,–1,1,–1)
+|signal1=(–1,–1,–1,–1,1,1,1,1)
+|}
+
+Because signal0 and signal1 are transmitted at the same time into the air, they add to produce the raw signal:<br />
+(1,–1,–1,1,1,–1,1,–1) + (–1,–1,–1,–1,1,1,1,1) = (0,–2,–2,0,2,0,2,0)
+
+This raw signal is called an interference pattern.  The receiver then extracts an intelligible signal for any known sender by combining the sender's code with the interference pattern, the receiver combines it with the codes of the senders. The following table explains how this works and shows that the signals do not interfer with one another:
+
+{|style="border: 1px #aaaaaa solid; background-color:#f7f8ff"
+|align=center bgcolor="#CCCCCC"|Step
+|align=center bgcolor="#CCCCCC"|Decode sender0
+|align=center bgcolor="#CCCCCC"|Decode sender1
+|-
+|0
+|vector0=(1,–1), pattern=(0,–2,–2,0,2,0,2,0)
+|vector1=(1,1), pattern=(0,–2,–2,0,2,0,2,0)
+|-
+|1
+|decode0=pattern.vector0
+|decode1=pattern.vector1
+|-
+|2
+|decode0=((0,–2),(–2,0),(2,0),(2,0)).(1,–1)
+|decode1=((0,–2),(–2,0),(2,0),(2,0)).(1,1)
+|-
+|3
+|decode0=((0+2),(–2+0),(2+0),(2+0))
+|decode1=((0–2),(–2+0),(2+0),(2+0))
+|-
+|4
+|data0=(2,–2,2,2)=(1,0,1,1)
+|data1=(–2,–2,2,2)=(0,0,1,1)
+|}
+
+Further, after decoding, all values greater than 0 are interpreted as 1 while all values less than zero are interpreted as 0. For example, after decoding, data0 is (2,–2,2,2), but the receiver interprets this as (1,0,1,1).

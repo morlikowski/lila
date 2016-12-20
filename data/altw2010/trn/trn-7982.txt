@@ -1,0 +1,107 @@
+:'''''Флашкарта''' пренасочва тук. За картите със същото название, използвани в образованието вижте Флашкарта (обучение).''
+
+'''Флаш-картата''' (от англ.- ''Flash-card'') e вид компактен и преносим носител на електронна информация.
+
+Използва англ. - ''Flash-memory'') за съхранението и.
+
+мини|Различни флаш-карти
+
+Използва се във почти всички видове цифрови фотоапарати, както и в много други електронни устройства. Съществуват редица модели флаш-карти, като някои от тях са взаимозаменяеми, но повечето-не.
+По физически размер коя да е флаш-карта обикновено е по-малка от стандартна кредитна карта.
+Капацитетът, доскоро измерван в мебигибибайта [GiB].
+
+Физическият принцип на работа е подобен на тази на EEPROM. 
+
+300px|thumb|right|Four major types of memory cards (from left to right: [[CompactFlash, xD.]]
+
+A '''memory card''' or '''flash memory card''' is a solid-state electronic handheld and Mobile computers, telephones, music players, video game consoles, and other electronics. They offer high re-record-ability, power-free storage, small form factor, and rugged environmental specifications. There are also non-solid-state memory cards that do not use flash memory, and there are different types of flash memory.
+
+There are many different types of memory cards and jobs they are used for. Some common places include in digital cameras, in game consoles, in cell phones, and in industrial applications. PDAs and digital music players started using removable memory cards.
+
+From the late 1990s into the early 2000s a host of new formats appeared, including SD/MMC, Memory Stick, xD-Picture Card, and a number of variants and smaller cards. The desire for ultra-small cards for cell-phones, PDAs, and compact digital cameras drove a trend toward smaller cards that left the previous generation of "compact" cards looking big. In digital cameras SmartMedia and CompactFlash had been very successful, in 2001 SM alone captured 50% of the digital camera market and CF had a strangle hold on professional digital cameras. By 2005 however, SD/MMC had nearly taken over SmartMedia's spot, though not to the same level and with stiff competition coming from Memory Stick variants, xD, as well as CompactFlash. In industrial fields, even the venerable PC card (PCMCIA) memory cards still manage to maintain a niche, while in cell-phones and PDAs, the memory card market is highly fragmented.
+
+Nowadays, most new PCs have built-in slots for a variety of memory cards; Memory Stick, CompactFlash, SD, etc. Some digital gadgets support more than one memory card to ensure compatibility.
+
+== Data table of selected memory card formats ==
+{| class="wikitable"
+|-
+! Name ||Acronym || Form factor||DRM
+|-
+|PC Card||align="center"|PCMCIA||85.6 × 54 × 3.3&nbsp;mm||None
+|-
+|CompactFlash I||align="center"|CF-I||43 × 36 × 3.3&nbsp;mm||None
+|-
+|CompactFlash II||align="center"|CF-II||43 × 36 × 5.5&nbsp;mm||None
+|-
+|SmartMedia||align="center"|SM / SMC||45 × 37 × 0.76&nbsp;mm||None
+|-
+||align="center"|MS||50.0 × 21.5 × 2.8&nbsp;mm||[[MagicGate
+|-
+|Memory Stick Duo||align="center"|MSD||31.0 × 20.0 × 1.6&nbsp;mm||MagicGate
+|-
+|Memory Stick PRO Duo||align="center"|MSPD||31.0 × 20.0 × 1.6&nbsp;mm||MagicGate
+|-
+|Memory Stick PRO-HG Duo||align="center"|MSPDX||31.0 × 20.0 × 1.6&nbsp;mm||MagicGate
+|-
+|Memory Stick Micro M2||align="center"|M2||15.0 × 12.5 × 1.2&nbsp;mm||MagicGate
+|-
+|Multimedia Card||align="center"|MMC||32 × 24 × 1.5&nbsp;mm||None
+|-
+|Reduced Size Multimedia Card||align="center"|RS-MMC||16 × 24 × 1.5&nbsp;mm||None
+|-
+|MMCmicro Card||align="center"|MMCmicro||12 × 14 × 1.1&nbsp;mm||None
+|-
+||align="center"|SD||32 × 24 × 2.1&nbsp;mm||[[Content Protection for Recordable Media|CPRM
+|-
+|SxS||align="center"|SxS||||
+|-
+|Universal Flash Storage||align="center"|UFS||||
+|-
+||align="center"|miniSD||21.5 × 20 × 1.4&nbsp;mm||[[Content Protection for Recordable Media|CPRM
+|-
+||align="center"|microSD||11 × 15 × 0.7&nbsp;mm||[[Content Protection for Recordable Media|CPRM
+|-
+|xD-Picture Card||align="center"|xD||20 × 25 × 1.7&nbsp;mm||None
+|-
+|Intelligent Stick||align="center"|iStick||24 x 18 x 2.8&nbsp;mm||None
+|-
+|Serial Flash Module||align="center"|SFM||45 x 15&nbsp;mm||None
+|-
+|µ card||align="center"|µcard||32 x 24 x 1&nbsp;mm||Unknown
+|-
+|NT Card||align="center"|NT NT+||44 x 24 x 2.5&nbsp;mm||None
+|}
+
+Since many EEPROM devices only allow a finite number of write cycles, some of these cards incorporate wear levelling algorithms to spread the wear and to avoid wearing out specific places which are often written to.
+
+==Overview of all memory card types==
+
+thumb|right|[[Miniaturization is evident in memory card creation; over time, the physical sizes of the memory cards grow smaller while their respective logical sizes grow larger. The memory cards listed from left to right are: Compact flash (32 MB), SD (128 MB), miniSD (1.0 GB), and microSD (2.0 GB).]]
+
+* PCMCIA ATA Type I Flash Memory Card (PC Card ATA Type I) (max 8&nbsp;GB (8 GiB) flash as of 2005)
+** PCMCIA Linear Flash Cards, SRAM cards, etc.
+** PCMCIA Type II, Type III cards
+* CompactFlash Card (Type I), CompactFlash High-Speed (max 32&nbsp;GB as of 2008)
+* CompactFlash Type II, CF+(CF2.0), CF3.0
+** Microdrive (max 6&nbsp;GB as of 2005)
+* MiniCard (MiB))
+* SmartMedia Card (SSFDC) (max 128&nbsp;MB) (3.3&nbsp;V,5&nbsp;V)
+* xD-Picture Card, xD-Picture Card Type M
+* Memory Stick, MagicGate Memory Stick (max 128&nbsp;MB); Memory Stick Select, MagicGate Memory Stick Select ("Select" means: 2x128 MB with A/B switch)
+* SecureMMC
+* Secure Digital (SD Card), Secure Digital High-Speed, Secure Digital Plus/Xtra/etc (SD with USB connector)
+** miniSD Card
+** microSD Card (aka Transflash, T-Flash)
+** SDHC
+* MU-Flash (Mu-Card) (Mu-Card Alliance of OMIA)
+* C-Flash
+* SIM card (Subscriber Identity Module)
+* Smart card (ISO 7810 Card Standard , ISO 7816 Card Standard, etc.)
+* UFC (USB)
+* FISH Universal Transportable Memory Card Standard (uses USB)
+* Disk memory cards:
+** Clik! (PocketZip), (40&nbsp;MB PocketZip)
+** Floppy disk (LS120, 2-inch, 3.5-inch, etc.)
+* Intelligent Stick (iStick, a USB-based flash memory card with MMS)
+* SxS (S-by-S) memory card, a new memory card specification developed by Sandisk and Sony. SxS complies to the ExpressCard industry standard. [http://www.dpreview.com/news/0704/07041601sxsmemorycardformat.asp]
+* Nexflash [http://www.winbond-usa.com/en/component/option,com_staticxt/Itemid,553/xt_item,1/staticfile,Nexflash~press_011000.htm Winbond] Serial Flash Moduel (SFM) cards, size range 1 mb, 2 mb and 4 mb.

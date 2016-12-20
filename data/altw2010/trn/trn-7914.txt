@@ -1,0 +1,28 @@
+Eine '''Masse-Leuchtkraft-Beziehung''' stellt einen Zusammenhang zwischen der Masse eines Objektes beispielsweise eines Sterns und seiner Leuchtkraft dar.
+
+== Hauptreihensterne ==
+Für Hauptreihensterne ist die Masse-Leuchtkraft-Beziehung gut bekannt. Zum ersten Mal wurde sie in dem 1926
+erschienen Buch „The Internal Constitution of Stars“ (daher, der innere Aufbau der Sterne) von
+Sir Arthur Stanley Eddington beschrieben.
+Die Masse-Leuchtkraft-Beziehung kann zur Abschätzung der Masse eines Sternes allein aus der Beobachtung der Effektivtemperatur oder der Spektraltyp eines Sterns als Maß für seine Leuchtkraft verwendet werden. Diese Größen sind meist einfacher zu bestimmen als die Leuchtkraft selber.
+
+Die empirisch bestimmte Masse-Leuchtkraft-Beziehung für Hauptreihensterne lautet
+  <math>L \sim M^{3{,}5}\,.</math>
+Der Exponent (hier also der Wert 3,5) ergibt sich aus der Anpassung der Beziehung an Messdaten. Mit Hilfe der Grundgleichungen
+des Sternaufbaus lässt sich ebenfalls eine Masse-Leuchtkraft-Beziehung ableiten. Hier erhält man einen Wert von 3 für den Exponenten.  
+
+Die so erhaltene Relation stellt allerdings keine exakte Lösung der Gleichungen dar, sondern lediglich eine Abschätzung und stimmt in Anbetracht dessen recht gut mit der beobachteten Masse-Leuchtkraft-Beziehung überein. Die Ableitung der Beziehung aus den Grundgleichungen des Sternaufbaus (im Grunde werden dabei nur Mittelwerte betrachtet) setzt übrigens eine gewisse Ähnlichkeit (Homologie) des Aufbaus von Sternen mit verschiedenen Massen voraus. Die Bestätigung der Beziehung durch Beobachtungen lässt also schon gewisse Rückschlüsse auf das Innere der Sterne zu.
+
+Die Masse-Leuchtkraft-Beziehung bedeutet konkret, dass ein Stern mit der doppelten Masse der Sonne die 11,3-fache Leuchtkraft der Sonne hat. Ein Stern mit 4 Sonnenmassen ist schon 128 mal so hell wie die Sonne. Die starke Abhängigkeit bewirkt, dass massereiche Sterne eine sehr viel kürzere Verweildauer („Lebenszeit“) auf der Hauptreihe haben als massearme, da der Kernbrennstoff viel schneller verbraucht wird.
+
+'''Masa zvezd''' predstavlja eden od problemov in težav današnje astronomije. Obstaja veliko metod in pristopov. Med prvimi so lahko dokaj zanesljivo določili mase zvezd, njihove polmere in potem vse druge parametre pri dvozvezdjih. Druga zamisel je pristop s pomočjo zveze masa-izsev, vendar pa ta obstaja v številnih oblikah. Od tega kakšno izhodišče uporabimo, kolikšna je vrednost ''a'', oziroma celo ''b'', dobimo tudi različne okvire mase.
+
+== Masa: "Najpomembnejši parameter zvezd" ==
+
+Masa je najpomembnejši parameter razvoja zvezd in njihovega »življenja«. V prvi vrsti določa, kako hitro zvezda v sredici porablja gorivo, to je vodik, ko se zvezda nahaja na glavni veji, in helij, ko se zvezda nahaja na stopnji orjakinj ali celo nadorjakinj. Ko govorimo o glavni veji moram poudariti, da se pogosto pojavlja izraz »pritlikavka«. Gre za zvezde, ki so še relativno mlade in se še bohotijo s svojo bleščavostjo. Ko enkrat zvezdi začne primanjkovati goriva, se zunanje plasti zvezde napihnejo, sredica sama pa se začne krčiti in segrevati. Bolj masivne zvezde, z maso nad 9 mas Sonca, se razvijajo bliskovito hitro. Ker so zelo masivne imajo zelo velik delež ustvarjanja jedrskih reakcij. To pomeni da se gorivo porabi v zelo kratkem času; zvezda z maso 9 mas Sonc porabi vodik v samo 123 milijonih let. Zvezda z maso 50 Sonc, kjer zvezda postane popolnoma konvektivna že na stopnji »glavne veje«, pa v samo 125 tisoč letih. Zvezda z maso 155 Sonc pa že v samo  420 letih. Zanimivo je še pripomniti, da po enakem sistemu preračunavanja zvezda s spodnjo maso, ko jo še imenujemo zvezda, to je z maso 0,075 Sonc izgoreva vodik rekordnih 1777,3 milijard let, kar je 130 krat večja vrednost, ki je najmanjša ocenjena starost vesolja, če se v obzir vzame najstarejša znana zvezda, HE 1327-2326, ki je stara 13,6 milijard let. Od mase zvezde je tudi odvisno, koliko mase bo med svojim razvijanjem izgubila, in na kakšno končno stopnjo bo prešla potem, ko se bodo reakcije v njenem središču prenehale, torej, če bo postala bela pritlikavka, nevtronska zvezda ali celo eksotična črna luknja.
+ 
+== Zveza ''masa-izsev'' ==
+
+Vredno je pripomniti, da velja zveza masa-izsev le za zvezde srednjih parametrov. Ne velja za majhne gostote zvezd (orjakinje in nadorjakinje, ki so izjemno redke) in za tiste z manjšo maso (predvsem za bele pritlikavke, nevtronske zvezde in seveda zvezdne črne luknje, ki predstavlja povsem svojo kategorijo).
+
+Znanstveno dokazano je, da v primeru, ko govorimo o zvezdah »glavne veje«, ko gre torej za pritlikavke, običajne zvezde, velja zveza, da je vidnega neba, dobimo vrednosti mase od najnižje možne mase za zvezdo v kateri še poteka mase Sonca (gre za rdeče pritlikavke) in za maso na drugem skrajnem koncu pri vrednosti približno 63 Sončevih mas (pri Denebu, α Laboda, ki ima izsev 265.000 Sonc).

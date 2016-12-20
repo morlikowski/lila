@@ -1,0 +1,115 @@
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = Cella Dati |
+  name = Cella Dati |
+  region = Lombardy |
+  province = Province of Cremona (CR) |
+  elevation_m =  |
+  area_total_km2   = 19.1 |
+  population_as_of  = Dec. 2004 |
+  population_total = 609 |
+  population_density_km2 = 32 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          =  |
+  telephone         = 0372 |
+  postalcode        = 26040 |
+  gentilic          =  |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           =  |
+  mapy = 10.2167 |
+  mapx = 45.1000 |
+}}
+
+''For other uses of the word Dati, see the disambiguation page.''
+
+'''Cella Dati''' is a ''Italian region Lombardy, located about 90 km southeast of Milan and about 15 km east of Cremona. As of 31 December 2004, it had a population of 609 and an area of 19.1 km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+Cella Dati borders the following municipalities: Cingia de' Botti, Derovere, Motta Baluffi, Pieve San Giacomo, San Daniele Po, Sospiro.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:3000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:1000 start:0
+ScaleMinor = gridcolor:lightgrey increment:200 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:1864
+  bar:1871 from: 0 till:2143
+  bar:1881 from: 0 till:1922
+  bar:1901 from: 0 till:1975
+  bar:1911 from: 0 till:2012
+  bar:1921 from: 0 till:2051
+  bar:1931 from: 0 till:2031
+  bar:1936 from: 0 till:2018
+  bar:1951 from: 0 till:1963
+  bar:1961 from: 0 till:1396
+  bar:1971 from: 0 till:938
+  bar:1981 from: 0 till:751
+  bar:1991 from: 0 till:650
+  bar:2001 from: 0 till:584
+
+{{Info/Comuna da Itália|
+|regiao        = Lombardia <!-- Apenas o nome da região -->
+|provincia     = Cremona <!-- Apenas o nome da província -->
+|nome          = Cella Dati
+|mapa          = LOM-Mappa.png
+|mapaX         = <!-- Indique a coordenadaX no mapa indicado --> 
+|mapaY         = <!-- Indique a coordenadaY no mapa indicado -->
+|bandeira      = 
+|brasao        = 
+|imagem        = 
+|latitude      = 45° 06' N
+|longitude     = 10° 13' E
+|altitude      = 
+|area          = 19
+|populacao     = 584
+|densidade     = 31
+|adjacentes    = Cingia de' Botti, Derovere, Motta Baluffi, Pieve San Giacomo, San Daniele Po, Sospiro
+|cap           = 26040
+|pref_tel      = 0372
+|istat         = 019028
+|fical         = C435
+|habitantes    = &nbsp;
+|nomepatrono   = &nbsp;
+|datapatrono   = 
+|site          = 
+}}
+'''Cella Dati''' é uma km<sup>2</sup>, tendo uma densidade populacional de 31 hab/km<sup>2</sup>. Faz fronteira com Cingia de' Botti, Derovere, Motta Baluffi, Pieve San Giacomo, San Daniele Po, Sospiro.
+
+Categoria:Comunas da Itália
+
+Categoria:Comunas da Lombardia
+Categoria:Comunas de Cremona

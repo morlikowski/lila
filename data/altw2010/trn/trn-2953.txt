@@ -1,0 +1,79 @@
+Un '''METAR''' (de l'anglais '''MET'''eorological '''A'''irport '''R'''eport) est un rapport d'observation et non de prévision météorologique pour l'aviation. Ce code international a été développé par les membres de l'OACI et est approuvé par l'Organisation météorologique mondiale. Les données de base sont communes à tous les pays mais certaines sections du code sont sujettes à des variantes locales.
+
+==Contenu d'un METAR==
+
+Un METAR contient diverses informations, entre autre <ref name="Navcan">{{Lien web
+|url=http://www.plandevol.navcanada.ca/cgi-bin/CreePage.pl?Page=weather-products&NoSession=NS_Inconnu&TypeDoc=user-guide&Langue=francais#metar
+|titre=Guide de décodage des METAR / SPECI / LWIS
+|éditeur=Nav Canada
+|consulté le=2008-05-20}}</ref> :
+*le code OACI de l'aéroport ou aérodrome pour lequel est émis le METAR
+*la date de l'observation
+*le vent
+*la visibilité horizontale
+*les nuages
+*la température et le point de rosée
+*la pression au niveau de la mer
+
+==Exemple==
+
+Exemple de METAR :  ''METAR LFQN 201600Z 18005KT 4000 SCT030 BKN050 18/12 Q1014 NOSIG=''
+
+{| border="0" cellpadding="4"
+|''METAR'' || Nature du message, ici METAR
+|-
+|''LFQN'' || Code OACI de l'aérodrome (ici aérodrome de St-Omer/Wizernes)
+|-
+|''201600Z'' || observation pour le 20 du mois à 16h00 UTC (d'où Z = Zulu en code : UTC (Horloge global))
+|-
+|''18005KT'' || Vent du 180° (sud), vitesse 5 nœud ( 1 nœud = 1,852 km/h) 
+|-
+|''4000'' || Visibilité horizontale de 4 km ("9999" signifirait "supérieure à 10km")
+|-
+|''SCT030'' || Nuages éparses (sct) à 3000 pieds
+|-
+|''BKN050'' || Nuages fragmenté (bkn) à 5000 pieds
+|-
+|''18/12'' || Température 18°C, point de rosée 12°C
+|-
+|''Q1014'' || Pression de 1014 Hpa au niveau de la mer
+|-
+|''NOSIG'' || Pas d'évolution prévue pour les 2 heures à venir
+|-
+|= ||  Fin du message
+|}
+
+Ceci n'est qu'un exemple de METAR, ils peuvent contenir beaucoup plus d'informations (voir Syntaxe).
+
+==Syntaxe==
+
+Les METAR ont une syntaxe particulière, qui peut paraître assez complexe. Les termes utilisés dans ce code sont des abréviations qui proviennent de diverses langues car il s'agit d'un code international (ex. SN pour '''sn'''ow/neige mais BR pour fog/'''br'''ume). Cependant, les abréviations sont le plus souvent anglophones.
+
+Les unités sont également variables (pieds pour la hauteur des nuages, noeuds pour la vitesse des vents). L'usage de ces unités différentes provient de l'histoire du développement de l'aviation et de l'influence américano-britannique dans le domaine. Les unités peuvent cependant varier dans certaines régions, on utilise par exemple le ''mètre par seconde'' en Russie pour la vitesse des vents avec l'accord de l'OACI.
+
+En plus, des phénomènes obligatoires décrits ci-dessus, on peut avoir des sections supplémentaires comme des remarques ou des précisions sur la décimale de la température. On a ainsi des accords régionaux sur ce contenu (Amérique du Nord, Europe, Asie, etc.)
+
+'''METAR''' er et standardisert format for rapportering av værinformasjon. Forkortelsen kommer fra fransk «MÉTéorologie Aviation Regulière». En feilfortolkning av forkortelsen METAR er det engelske «METeorological Aerodrome Report». METAR brukes ofte om værrapporten for planlegging av en flyging enten som ruteflyging eller annen flyaktivitet.
+
+METAR kan brukes av metereologer både som rapporter fra flyplasser og fra andre værstasjoner. Rapportene kan offentliggjøres for hver time, eller for få timers intervall. Ved plutselige værforandringer kan det sendes ut en METAR uavhengig av tidspunkt, som blir betegnet SPECI.
+
+Formatet for METAR ble opprettet 1. januar 1968 og har gjennomgått mindre endringer mange ganger siden.
+
+METAR og TAF er tilgjengelig på internett og på VOLMET kringkastingssendinger for flytrafikken på kortbølgen, for eksempel Shannon VOLMET. De sendes også på ATIS sendinger på flybåndet (VHF) fra hver enkelt større flyplass.
+
+En vanlig METAR inneholder koder for sikt, vind, skyer, snø/regn, temperatur, duggpunkttemperatur og trykk.
+
+== Eksempel på METAR ==
+
+ENGM 292141Z 18014KT 9999 SCT010 BKN170 06/03 Q1017 TEMPO BKN012=
+
+Linjen ovenfor er METAR for Oslo lufthavn, Gardermoen (ENGM) hentet kl. 23.30, 29. november 2006
+* 292141Z betyr at været var registrert 29. november kl. 21.41 UTC.
+* 18014KT betyr sønnavind (vind fra 180 grader) med 14&nbsp;knop ved bakken.
+* 9999 betyr sikt lik eller bedre enn 10&nbsp;km (9999 meter).
+* SCT010 betyr skyer mindre enn halve arealet, (''scattered''), 1000 fot over bakken.
+* BKN170 betyr skyer mer enn halve arealet, (''broken''), i 17&nbsp;000 fot over bakken.
+* 06/03 betyr temperatur 6 grader Celsius og duggpunkt 3 grader Celsius.
+* Q1017 betyr trykknivå, QNH 1017&nbsp;hPa.
+* TEMPO betyr at det følger en beskrivelse som bare gjelder deler av tidsrommet.
+* BKN012 betyr skyer mer enn halve arealet i 1200 fot.

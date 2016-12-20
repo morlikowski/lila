@@ -1,0 +1,505 @@
+Pratikman tout paj Wikipedya ka modifye tousuit, pa nenpòt ki moun. Ou pa bezwen enskri pou sa.
+
+Kounye a n'ap ba ou kèk konsèy sou kòman pou ou korije/modifye yon paj:
+
+===Etap 1 : Paj koreksyon===
+Chache nan ansiklopedi a jiskaske ou jwenn yon atik ke ou vle korije.
+
+Anwo paj sa s, w'ap jwenn plizyè bouton. Klike sou modifye ('''edit''')
+framed|left|Bouton 'edit'
+<br clear="all" />
+
+===Etap 2 : Zòn edisyon===
+Atik la ap louvri apre w' fin peze ''modifikasyon'' (Edit). Pawòl yo ap parèt nan ''zòn edisyon'' an.
+Se isit la ke ou ka chanje ekriti yo: korije, efase, mete sou pawòl ki deja ekri yo, 
+pou jiskaske w' kontante.
+framed|left|Zòn edisyon
+<br clear="all" />
+
+===Etap 3 : Previzyalizasyon===
+Klike sou '''Previzyalizasyon''' (Show Preview) pou wè kijan chanjman ou fè yo parèt. Ou ka fè sa jiskan ou satisfè ak paj ou a.
+Aprè sa, desann an ba paj la e klike sou bouton ''Previzyalizasyon'' (show preview).
+framed|left|Bouton previzyalizasyon
+<br clear="all" />
+Kounye a, atik la ap parèt an mod ''previzyalizasyon'' e ou ap kapab wè chanjmen ou te fè yo. '''Atansyon''', nan etap sa, atik yo poko anrejistre.
+framed|left|prévisualisation
+<br clear="all" />
+Kontinye modifye paj la jiskaske ou kontan avek sa ou fè yo.
+
+===Etap 4 : Anrejistreman ak rezime ===
+Si rezilta a bon, klike sou '''Anrejistre''' (Save page) e ou fini ''patisipe'' nan Wikipedia. Sinon, ou ka defèt modifikasyon yo si ou ale sou yon lot paj.<br>
+W'ap wè ke atik la gen bagay tankou <nowiki>'', ''', , </nowiki>. Pa okipe sa kounye-a e modifye atik la.
+
+Yon bagay vrèmen impotan: si w' vle kreye yon nouvo paragraf, ou dwe peze de fwa sou touch ENTER (konsa ap genyen yon liy blanch).
+
+Lè ou fin modifye paj la, ou mèt ekri poukisa ou te fè modifikasyon yo nan liy ''rezime'' (Summary) anba paj la. Finalman, klike sou bouton Anrejistre (Save page), toujou anba paj la.
+
+framed|left|Bouton Anrejistre ak liy Rezime
+
+<!-- This is not the place to practice editing pages, to do so, please use the Wikipedia:Sandbox -->
+<noinclude></noinclude>
+
+:''See also Wikipedia:Introduction, Wikipedia:Manual of Style, Wikipedia:Tutorial, Help:Editing, and Wikipedia:Your first article''
+
+unprotected page, and save those changes immediately to that page. After your first edit, you will be a Wikipedia editor! <!-- Comment Good luck with your first edit. -->
+
+<div class="messagebox" style="float: right; width: 150px; margin-left: 10px;">Note: You can use the sandbox to experiment with page editing.</div>
+===Introduction===
+
+Editing most Wikipedia pages is easy. Simply click on the "'''edit this page'''" tab at the top of a Wikipedia page (or on a  section-edit link). This will bring you to a new page with a text box containing the editable text of the original page.  If you add information to a page, please provide references, as unreferenced facts are subject to removal.  When you are finished with an edit, you should write a short  edit summary in the small field below the edit-box. You may use shorthand to describe your changes, as described in the  legend, and you will see the differences between the page with your edits and the previous version of the page by pressing the "'''Show changes'''" button. If you're satisfied with what you see,  be bold and press the "'''Save page'''" button. Your changes will immediately be visible to all Wikipedia users.
+
+You can also click on the "'''Discussion'''" tab to see the corresponding talk page, which contains comments about the page from other Wikipedia users. Click on the "new section" tab to start a new section, or edit the page in the same way as an article page.
+
+You should also remember to sign your messages on talk pages and some special-purpose project pages with four tildes (<nowiki>~~~~</nowiki>), but you should '''not''' sign edits you make to regular articles. In page histories, the MediaWiki software automatically keeps track of which user makes each change.
+
+==Minor edits==
+
+A check to the "minor edit" box signifies that only superficial differences exist between the version with your edit and the previous version: typo corrections, formatting and presentational changes, rearranging of text without modifying content, etc. A ''minor edit'' is a version that the editor believes requires no review and could never be the subject of a dispute. The "minor edit" option is one of several options available only to registered users.
+
+==Major edits==
+All editors are encouraged to be bold, but there are several things that a user can do to ensure that major edits are performed smoothly. Before engaging in a major edit, a user should consider discussing proposed changes on the article discussion/talk page. During the edit, if doing so over an extended period, the  tag can reduce the likelihood of an edit conflict. Once the edit has been completed, the inclusion of an edit summary will assist in documenting the changes. These steps will all help to ensure that major edits are well received by the Wikipedia community.
+
+A major edit should be reviewed to confirm that it is consensual to all concerned editors. Therefore, any change that affects the ''meaning'' of an article is major (not minor), even if the edit is a single word.
+
+There are no necessary terms to which you have to agree when doing major edits, but the recommendations above have become best practice. If you do it your own way, the likelihood of your edits being reedited may be higher.
+
+==Wiki markup==
+
+The '''wiki markup''' is the syntax system you can use to format a Wikipedia page; please see Help:Editing for details on it, and Help:Wikitext examples for a longer list of the possibilities of Wikitext.
+
+===Links and URLs===
+{| border="1" cellpadding="2" cellspacing="0"
+|- valign="top"
+! What it looks like
+! What you type
+|- id="emph" valign="top"
+|
+London has public transport.
+
+* A link to another Wiki article.
+* Internally, the first letter of the target page is automatically capitalized and spaces are represented as underscores (typing an underscore in the link has the same effect as typing a space, but is not recommended).
+* Thus the link above is to the URL en.wikipedia.org/wiki/Public_transport, which is the Wikipedia article with the name "Public transport". See also Wikipedia:Canonicalization.
+|
+<pre><nowiki>
+London has public transport.
+</nowiki></pre>
+|- valign="top"
+|
+San Francisco also has public transportation.
+
+* Same target, different name.
+* The target ("piped") text must be placed '''first''', then the text that will be displayed second.
+|
+<pre><nowiki>
+San Francisco also has
+public transportation.
+</nowiki></pre>
+|- valign="top"
+|
+San Francisco also has
+public transportation.
+
+Examples include buses, taxicabs,
+and streetcars.
+
+* Endings are blended into the link.
+* Preferred style is to use this instead of a piped link, if possible.
+* Blending can be suppressed by using <nowiki><nowiki></nowiki></nowiki> tags, which may be desirable in some instances.  Example: a micro<nowiki>second</nowiki>.
+|
+<pre><nowiki>
+San Francisco also has
+public transportation.
+
+Examples include buses,
+ taxicabs, and streetcars.
+
+a micro<nowiki>second</nowiki>
+</nowiki></pre>
+|- valign="top"
+|
+See the Wikipedia:Manual of Style.
+
+* A link to another namespace.
+|
+<pre><nowiki>
+See the 
+Wikipedia:Manual of Style.
+</nowiki></pre>
+
+|- id="link-to-section" valign="top"
+|
+Wikipedia:Manual of Style#Italics is a link to a section within another page.
+
+#Links and URLs is a link to another section on the current page.
+
+Italics is a piped link to a section within another page.
+
+* The part after the number sign (#) must match a section heading on the page. Matches must be exact in terms of spelling, case, and punctuation.  Links to non-existent sections are not broken; they are treated as links to the top of the page.
+* Include "| link title" to create a stylish (piped) link title.
+
+|
+<pre><nowiki>
+Wikipedia:Manual of Style#Italics 
+is a link to a section within another page.
+
+#Links and URLs is a link
+to another section on the 
+current page.
+
+Italics 
+is a piped link to a section within 
+another page.</nowiki></pre>
+|- valign="top"
+|
+Automatically hide stuff in parentheses:
+kingdom.
+
+Automatically hide namespace:
+Village Pump. 
+
+Or both:
+Manual of Style
+
+But not:
+
+* The server fills in the part after the pipe character (|) when you save the page. The next time you open the edit box you will see the expanded piped link. When previewing your edits, you will not see the expanded form until you press '''Save''' and '''Edit''' again. The same applies to links to sections within the same page (see previous entry).
+* See Wikipedia:Pipe trick for details.
+
+|
+<pre><nowiki>
+Automatically hide stuff
+in parentheses:
+.
+
+Automatically hide namespace: 
+.
+
+Or both:
+[[Wikipedia:
+Manual of Style (headings)|]]
+
+But not:
+[[Wikipedia:
+Manual of Style#Links|]]
+</nowiki></pre>
+
+|- valign="top"
+|
+<!-- A village pump proposal was made so that users would be allowed to create the article shown here. Pages here would be articles requested for a long time. If you find someone has created the article, please look in requested articles and put one in its place -->
+National sarcasm society is a page
+that does not exist yet.
+
+* You can create it by clicking on the link.
+* To create a new page: 
+*# Create a link to it on some other (related) page.
+*# Save that page.
+*# Click on the link you just made. The new page will open for editing.
+* For more information, see How to start a page and check out Wikipedia's naming conventions.
+* Please do not create a new article without linking to it from at least one other article.
+|
+<pre><nowiki>
+National sarcasm society
+is a page 
+that does not exist yet.
+</nowiki></pre>
+|- valign="top"
+|
+
+Wikipedia:How to edit a page is a link to this page.
+
+* Self links appear as bold text when the article is viewed.
+* Do not use this technique to make the article name bold in the first paragraph; see the Manual of Style.
+|
+<pre><nowiki>
+Wikipedia:How to edit a page
+is a link to this page.
+</nowiki></pre>
+|- valign="top"
+|
+The character '''tilde''' (~) is used when adding a comment to a Talk page. 
+You should sign your comment by appending four tildes (<nowiki>~~~~</nowiki>)
+to the comment so as to add your user name plus date/time:
+: Patricia Zhang 13:40, Jan 14, 2007 (UTC)
+Adding three tildes (<nowiki>~~~</nowiki>) will add just your user name:
+: Patricia Zhang
+and adding five tildes (<nowiki>~~~~~</nowiki>) gives the date/time alone:
+: 13:40, Jan 14, 2007 (UTC)
+
+* The first two both provide a link to your user page.
+|
+<pre><nowiki>
+The character '''tilde''' (~) is used 
+when adding a comment to a Talk page. 
+You should sign your comment by 
+appending four tildes (~~~~)
+to the comment so as to add your 
+user name plus date/time:
+: ~~~~
+Adding three tildes (~~~) will add 
+just your user name:
+: ~~~
+and adding five tildes (~~~~~) gives 
+the date/time alone:
+: ~~~~~
+</nowiki></pre>
+|- valign="top"
+|
+* Redirect one article title to another by placing a directive like the one shown to the right on the ''first'' line of the article (such as at a page titled "USA").
+* It is possible to redirect to a section. For example, a redirect to United States History will redirect to the United States page, to the History section if it exists.
+|
+<pre><nowiki>
+
+States History]] will redirect to the 
+United States page, to the History 
+section if it exists 
+</nowiki></pre>
+|- valign="top"
+|
+
+* Link to a page on the same subject in another language by placing a link of the form: <nowiki>language code:Title</nowiki> in the wiki text of the article.
+For example in the article on Plankton, which is available on a lot of other wikis, the interlanguage links would look like so:
+:<tt><nowiki> es:Plancton  simple:Plankton</nowiki></tt>
+* While it does not matter where you put these links while editing, it is recommended that these links be placed at the very end of the edit box. 
+* These will not be visible in the main text of the article on which they are placed but appear as links in the extreme left margin column of Wikipedia page as part of a separate box under the 'toolbox' titled 'in other languages'. You can check out the links to the corresponding page in wikipedias of other languages for this Wikipedia MOS help page itself.
+* Please see list of languages and codes.
+|
+<pre><nowiki>
+</nowiki></pre>
+|- valign="top"
+|
+'''What links here''' and '''Related changes'''
+pages can be linked as:
+Special:Whatlinkshere/Wikipedia:How to edit a page
+and
+Special:Recentchangeslinked/Wikipedia:How to edit a page
+
+|
+<pre><nowiki>
+'''What links here''' and
+'''Related changes'''
+pages can be linked as:
+[[Special:Whatlinkshere/
+Wikipedia:How to edit a page]]
+and
+[[Special:Recentchangeslinked/
+Wikipedia:How to edit a page]]
+</nowiki></pre>
+|- valign="top"
+|
+A user's '''Contributions''' page can be linked as:
+Special:Contributions/UserName
+or
+Special:Contributions/192.0.2.0
+|
+<pre><nowiki>
+A user's '''Contributions''' page
+can be linked as:
+Special:Contributions/UserName
+or
+Special:Contributions/192.0.2.0
+</nowiki></pre>
+|- valign="top"
+|
+* To put an article in a Wikipedia:Category, place a link like the one to the right anywhere in the article. As with interlanguage links, it does not matter where you put these links while editing as they will always show up in the same place when you save the page, but placement at the end of the edit box is recommended.
+|
+<pre><nowiki>
+Category:Character sets
+</nowiki></pre>
+|- valign="top"
+|
+* To ''link'' to a Wikipedia:Category page without putting the article into the category, use an initial colon (:) in the link.
+|
+<pre><nowiki>
+:Category:Character sets
+</nowiki></pre>
+|- id="link-external" valign="top"
+|
+Three ways to link to external (non-wiki) sources:
+# Bare URL: http://www.wikipedia.com/ (bad style)
+# Unnamed link: [http://www.wikipedia.com/] (only used within article body for footnotes)
+# Named link: [http://www.wikipedia.com Wikipedia]
+
+:See MetaWikiPedia:Interwiki_map for the list of shortcuts.
+
+* Square brackets indicate an external link. Note the use of a ''space'' (not a pipe) to separate the URL from the link text in the "named" version.
+* In the URL, all symbols must be among:<br/>'''A-Z a-z 0-9 . _ \ / ~ % - + & # ? ! = ( ) @'''
+* If a URL contains a character not in this list, it should be encoded by using a percent sign (%) followed by the hex code of the character, which can be found in the table of ASCII printable characters. For example, the caret character (^) would be encoded in a URL as '''%5E'''.
+* If the "named" version contains a closing square bracket "]", then you must use the HTML special character syntax, i.e. '''&amp;#93;''' otherwise the MediaWiki software will prematurely interpret this as the end of the external link.
+* There is a class that can be used to remove the arrow image from the external link. It is used in Template:Ref to stop the URL from expanding during printing. It should '''never''' be used in the main body of an article. However, there is an exception: wikilinks in Image markup. An example of the markup is as follows:
+** Markup: <nowiki><span
+class="plainlinksneverexpand">
+[http://www.sysinternals.com/
+ntw2k/freeware/winobj.shtml WinObj]</span></nowiki>
+** Display: <span class="plainlinksneverexpand"> [http://www.sysinternals.com/ntw2k/freeware/winobj.shtml WinObj]</span>
+* See Wikipedia:External links for style issues.
+|
+<pre><nowiki>
+Three ways to link to
+external (non-wiki) sources:
+# Bare URL:
+http://en.wikipedia.org/
+(bad style)
+# Unnamed link:
+[http://en.wikipedia.org/]
+(only used within article
+body for footnotes)
+# Named link:
+[http://en.wikipedia.org Wikipedia]
+</nowiki></pre>
+|- valign="top"
+|
+Linking to other wikis:
+# Interwiki link: Wiktionary:Hello
+# Interwiki link without prefix: Hello
+# Named interwiki link: Wiktionary definition of 'Hello'
+
+* All of these forms lead to the URL http://en.wiktionary.org/wiki/Hello
+* Note that interwiki links use the ''internal'' link style.
+* See see above).
+* See also Wikipedia:Wikimedia sister projects.
+
+Linking to another language's wiktionary:
+# Wiktionary:fr:bonjour
+# bonjour
+# fr:bonjour
+
+* All of these forms lead to the URL http://fr.wiktionary.org/wiki/bonjour
+|
+<pre><nowiki>
+Linking to other wikis:
+# Interwiki link:
+Wiktionary:Hello
+# Interwiki link without prefix:
+
+# Named interwiki link:
+[[Wiktionary:Hello|
+Wiktionary definition 
+of 'Hello']]
+
+Linking to another
+language's wiktionary:
+# Wiktionary:fr:bonjour
+# bonjour
+# 
+</nowiki></pre>
+|- valign="top"
+|
+ISBN 012345678X
+
+ISBN 0-12-345678-X
+
+* Link to books using their ISBN. This is preferred to linking to a specific online bookstore, because it gives the reader a choice of vendors. However, if one bookstore or online service provides additional free information, such as table of contents or excerpts from the text, then a link to that source will aid the user and is recommended.
+* ISBN links do not need any extra markup, provided you use one of the indicated formats.
+|
+<pre><nowiki>
+ISBN 012345678X
+
+ISBN 0-12-345678-X
+</nowiki></pre>
+|- valign="top"
+|
+Text mentioning RFC 4321 anywhere
+
+* Link to RFCs.
+|
+<pre><nowiki>
+Text mentioning RFC 4321 
+anywhere
+</nowiki></pre>
+
+|- valign=top
+|
+Date formats:
+# July 20, 1969
+# 20 July 1969
+# 1969-07-20
+# 1969-07-20
+
+* Link dates in one of the above formats, so that everyone can set their own display order. If logged in, you can use Special:Preferences to change your own date display setting.
+* All of the above dates will appear as "20 July 1969" if you set your date display preference to "15 January 2001", but as "July 20, 1969" if you set it to "January 15, 2001", or as "1969-07-20" if you set it to "2001-01-15".
+|
+<pre><nowiki>
+Date formats:
+# July 20, 1969
+# 20 July 1969
+# 1969-07-20
+# 1969-07-20
+
+</nowiki></pre>
+|- valign="top"
+|
+Special as-of links like this year
+needing future maintenance
+|
+<pre><nowiki>
+Special as-of links 
+like this year
+needing future maintenance
+</nowiki></pre>
+|- valign="top"
+|
+Sound
+
+*To include links to non image uploads such as sounds, use a "media" link. For images, see next section.
+
+Some uploaded sounds are listed at Wikipedia:Sound.
+|
+<pre><nowiki>
+Sound
+</nowiki></pre>
+
+|- valign="top"
+|
+Link directly to '''edit''' for an existing page, or apply other link attributes. 
+* use <nowiki></nowiki>  
+* or use <nowiki></nowiki> which conceals the edit label for page printing 
+|
+<pre><nowiki></nowiki></pre>
+|}
+
+===Images===
+Only images that have been uploaded to Wikipedia can be used. To upload images, use the upload page. You can find the uploaded image on the image list.
+
+{| border="1" cellpadding="2" cellspacing="0"
+|-
+! What it looks like
+! What you type
+|- valign="top"
+|A picture: 
+Image:wiki.png
+|<pre>A picture: 
+<nowiki>Image:wiki.png</nowiki></pre>
+
+|- valign="top"
+|With alternative text:
+Wikipedia, The Free Encyclopedia.
+|<pre>With alternative text:
+<nowiki>Wikipedia, The Free Encyclopedia.</nowiki></pre>
+* Alternative text, used when the image is unavailable or when the image is loaded in a text-only browser, or when spoken aloud, is '''strongly''' encouraged. See Alternate text for images for help on choosing it.
+
+|- valign="top"
+|Floating to the right side of the page using the ''frame'' attribute and a caption:
+frame|Wikipedia Encyclopedia<br clear=all>
+|<pre>Floating to the right side of the page 
+using the ''frame'' attribute and a caption:
+<nowiki>frame|Wikipedia Encyclopedia</nowiki></pre>
+* The frame tag automatically floats the image right.
+* The caption is also used as alternate text.
+
+|- valign="top"
+|Floating to the right side of the page using the ''thumb'' attribute and a caption:
+thumb|Wikipedia Encyclopedia<br clear=all>
+|<pre>Floating to the right side of the page 
+using the ''thumb'' attribute and a caption:
+<nowiki>thumb|Wikipedia Encyclopedia</nowiki></pre>
+* The thumb tag automatically floats the image right.
+* The caption is also used as alternate text.
+* An enlarge icon is placed in the lower right corner.
+
+|- valign="top"
+|Floating to the right side of the page ''without'' a caption:
+right|Wikipedia Encyclopedia
+|<pre>Floating to the right side of the page
+''without'' a caption:
+<nowiki>right|Wikipedia Encyclopedia</nowiki></pre>
+* The help topic on extended image syntax explains more options.

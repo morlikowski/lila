@@ -1,0 +1,367 @@
+'''フランス語の否定文'''は、現代標準フランス語における否定文について記述する。フランス語の否定文の特徴は、 に代表されるように否定が  を含む 2 語で表されることと、多様な否定語があることである。否定語には、否定副詞、否定代名詞、否定限定詞、否定接続詞がある。
+
+== 歴史 ==
+現代フランス語の文語では、単純否定は   と   の 2 語で表され、1 語または 1 形態素で表される他の多くの言語と対照的である。
+*  (フランス語)
+*  (英語)
+*  (ドイツ語)
+* 私は知ら'''ない'''。 (日本語)
+*  (普通話)
+しかしイェスペルセンは 1917 年に、諸言語の否定表現が一定の傾向で変化することを見出した<ref>{{Citation
+ | last=Jespersen
+ | first=Otto
+ | author-link=オットー・イェスペルセン
+ | year=1917
+ | title=Negation in English and other languages.
+ | publisher=A.F. Host
+ | place=Copenhagen
+}}</ref>。これをイェスペルセン周期またはイェスペルセン・サイクルと呼ぶ<ref>{{Citation
+ | last=Zeijlstra
+ | first=Hedde H.
+ | title=Two Ways of Expressing Negation
+ | journal=Proceedings of ConSOLE XII
+ | pages=245-259
+ | editor-last=Blaho
+ | editor-first=Sylvia
+ | editor2-last=Vicente
+ | editor2-first=Luis
+ | editor3-last=de Vos
+ | editor3-first=Mark
+ | year=2003
+ | url=http://www.sole.leidenuniv.nl/content_docs/ConsoleXII2003pdfs/zeijlstra-2003.pdf
+}}</ref>。以下にその各段階を示す。
+# 否定は動詞に先行する否定標識で表される。
+# 否定標識が音声的に弱くなり、強調の副詞が付け加えられる。
+# 強調の副詞が義務化して否定副詞となり、否定は 2 語で表される。
+# 否定は否定副詞で表され、元々の否定標識は任意になる。
+# 否定は否定副詞だけで表される。
+# 否定副詞が、動詞に先行する否定標識としても使われる。
+# 1 に戻る。
+
+英語、ドイツ語、オランダ語などは第 5 段階である<ref>{{Citation
+ | last=Zeijlstra
+ | first=Hedde H.
+ | title=What the Dutch Jespersen Cycle may reveal about Negative Concord
+ | editor-last=Andronis
+ | editor-first=Mary
+ | editor2-last=Debenport
+ | editor2-first=Erin
+ | editor3-last=Pycha
+ | editor3-first=Anne
+ | editor4-last=Yoshimura
+ | editor4-first=Keiko
+ | journal=Proceedings of the Chicago Linguistics Society
+ | volume=38
+ | issue=2
+ | pages=143-158
+ | year=2005
+ | publisher=University of Chicago Press
+ | place=Chicago
+ | url=http://www.sfb441.uni-tuebingen.de/b10/Pubs/Chicago%202005%20hedde.pdf
+}}</ref>。
+
+ラテン語は  →  →  と一周して第 1 段階に戻った<ref>{{Citation
+ | last=Condoravdi
+ | first=Cleo
+ | last2=Kiparsky
+ | first2=Paul
+ | title=Jespersen's cycle: the argument phase
+ | journal=Handout of talk presented at the Sixth Annual Stanford Semantics Fest
+ | year=2005
+ | url=http://www-csli.stanford.edu/~condorav/AC/semfest.pdf
+}}</ref>。その後、スペイン語、イタリア語などの他のロマンス諸語はそこにとどまっている。
+
+現代フランス文語は第 3 段階、現代フランスケベック・フランス口語は第 5 段階に進んでいる。
+#  (ラテン語)
+#  (古フランス語、 は強調)
+#  (現代フランス文語)
+#  (現代フランス口語、 は任意)
+#  (現代ケベック・フランス口語、 は常に脱落)
+
+本来、否定を示すのは  だったが、発音が弱まって接語となり、さらには脱落するようになった。このため、今では否定を担うのは  のほうである。
+
+否定の強調として最初に現れたのは  と   であり、後に   が加わった<ref>{{Citation
+ | last=川口裕司
+ | title=通時的観点からみたフランス語の否定辞
+ | journal=言語情報学研究報告
+ | volume=7
+ | year=2005
+ | pages=319-337
+ | publisher=東京外国語大学
+ | url=http://www.coelang.tufs.ac.jp/common/pdf/research_paper7/319.pdf
+}}</ref><ref>{{Citation
+ | last=武次三愛
+ | title=古仏語における否定の副詞 ne と不変化語 pas, mie, point について
+ | journal=言語情報学研究報告
+ | volume=7
+ | year=2005
+ | pages=339-360
+ | publisher=東京外国語大学
+ | url=http://www.coelang.tufs.ac.jp/common/pdf/research_paper7/339.pdf
+}}</ref><ref>{{ citation
+| title=中世の mie について &mdash;否定文の成立を巡って&mdash;
+| author=浅野幸生
+| journal=人文論集
+| volume=54
+| issue=1
+| publisher=静岡大学
+| pages=263-274
+| year=2003
+| url=http://ir.lib.shizuoka.ac.jp/bitstream/10297/458/1/KJ00000692940.pdf
+}}</ref>。この他、 ,   も使われた。これらは元々、否定される動詞に対応した強調だったが、後に単なる否定副詞に変わり、動詞の意味に関わらず用いられるようになった。
+{| class="wikitable" border="1"
+! 文 !! 第 2 段階<br>(中期フランス語) !! 第 3 段階<br>(古典フランス語)
+|-
+| <br> || 私は'''一歩も'''歩か'''ない'''。 || 私は歩か'''ない'''。
+|-
+| <br> || 私は'''一かけらも'''食べ'''ない'''。 || 私は食べ'''ない'''。
+|-
+| <br> || 私は'''一点も'''持た'''ない'''。 || 私は持た'''ない'''。
+|-
+| <br> || 私は'''一滴も'''飲ま'''ない'''。 || 私は飲ま'''ない'''。
+|-
+| <br> || 私は'''一粒も'''食べ'''ない'''。 || 私は食べ'''ない'''。
+|}
+
+現在では  が標準であり、 は古風な文語である。残る  はもはや使われない。
+
+否定語の多くは今も同形の限定詞を伴うので、単独で使われる否定語とは明確に見分けられる。
+*  (…ない)
+*  (一歩)
+
+==  ==
+文語では  と否定語とを同時に用いるが、口語ではしばしば  が脱落する。ただし主語が否定語なら、口語でも必ず  を用いる。口語での  の使用は、格調や教養の高さと結び付けられ、話者の年齢が高いほど使用率が高くなる<ref>{{Citation
+ | last=Sankoff
+ | first=Gillian
+ | title=When a Vanishing Particle Fails to Vanish
+ | journal=Paper presented at NWAV 35, Ohio State University
+ | year=2006
+ | url=http://www.ling.osu.edu/NWAV/Abstracts/Papr208.pdf
+}}</ref>。
+
+ は主語代名詞の直後に置かれ、 の後に母音または無音の h で始まる語が続くときは、エリジオンが起きて   になる。接語の語順についてはフランス語の人称代名詞#後接語の語順を参照すること。
+
+否定を表すのは否定語のほうであり<ref>{{Citation
+ | last=Mathieu
+ | first=Eric
+ | title=On the nature of French N-words
+ | journal=UCL Working Papers in Linguistics
+ | volume=13
+ | pages=319-352
+ | year=2001
+ | editor-last=Iten
+ | editor-first=Corrine
+ | editor2-last=Neeleman 
+ | editor2-first=Ad
+ | url=http://www.phon.ucl.ac.uk/publications/WPL/01papers/mathieu.pdf
+}}</ref>、 の有無で意味は変わらない。 単独で否定の意味を持つのは一部の文語表現だけである。
+
+しかし  が否定を担っていたなごりで、 を除く否定語をいくつ用いても肯定にはならず、否定文のままである。例えば次の文には否定語が 2 個あるが、否定文である。
+*   ('''誰も何も'''言わ'''なかっ'''た。)
+
+== 否定副詞 ==
+否定副詞は一般に定動詞（助動詞、なければ動詞）の後に置く。
+
+===  ===
+通常の否定には  を用いる。 は  と同じ意味の古風な文語である。かつては  のほうが強い否定だったが、現在は違いは無い。また  の代わりに、否定の強調の  ,   を使っても良い。
+*   (彼女はその言葉を知ら'''ない'''。)
+*   (〃 - 文語)
+*   (彼女はその言葉を'''全く'''知ら'''ない'''。)
+*   (〃 - 文語)
+
+他の副詞と共に用いるときは、語順により文の意味が変わる。
+*   (それは絶対に正しく'''ない'''。)
+*   (それは絶対に正しい'''わけではない'''。)
+
+強調するときは   を使う。元々強調である  と  は、 と共存しない。 の後が 1 語なら  を文末に置き、2 語以上なら  の直後に置くことが多い。
+*   (その映画は'''全く'''良く'''ない'''。)
+*   (我々はその映画を'''全く'''好ま'''ない'''。)
+
+他の否定語と異なり  と  は単独で返答に使うことはできないが、強調されていれば良い。
+* <sup>*</sup> (不可)
+* <sup>*</sup> (不可)
+*   (いいえ。)
+*   (いいえ、全く。)
+*   (〃)
+*   (〃)
+*   (〃)
+*   (〃)
+
+===  ===
+変化や出来事の前後における否定を表すには、  と   を用いる。日本語の「まだ…ない」と「もう…ない」に当たる。変化前では   と  が対になり、変化後では   と  が対になる。
+
+{| class="wikitable" border="1"
+! &nbsp; !! 肯定 !! 否定
+|-
+! 無変化
+| <br><br>(私は学生だ。)
+| <br><br>(私は学生で'''ない'''。)
+|-
+! 変化前
+| <br><br>(私は'''まだ'''学生だ。)
+| <br><br>(私は'''まだ'''学生で'''ない'''。)
+|-
+! 変化後
+| <br><br>(私は'''もう'''学生だ。)
+| <br><br>(私は'''もう'''学生で'''ない'''。)
+|}
+
+===  ===
+一度も起こらないことを表すには   を用いる。英語の  に当たる。複合過去（英語の現在完了に当たる）で用いると、今まで一度も起こらなかったことを表し、現在で用いると、決して起こり得ないことを表す。
+*   (彼らは'''決して'''漫画を読ま'''ない'''。)
+*   (彼らは漫画を'''一度も'''読んだ'''ことがない'''。)
+
+===  ===
+どこにも無いことを表すには   を用いる。英語の  に当たる。 は一般に文末に置く。他の場所を否定するには   を用いる。英語の  に当たる。
+*   (ミシェルは'''どこにも'''その鍵を見付けられ'''なかっ'''た。)
+*   (それは'''他のどこでも'''買え'''ない'''。)
+
+===  ===
+限定された以外のものを否定するには   を用いる。日本語の「…しか…ない」と同じように、形は否定文であるが意味は肯定である。 は限定される句の直前に置く。母音または無音の h で始まる語の前ではエリジオンが起きて   になる。
+*   (ポールは 10 ユーロ'''しか'''持ってい'''ない'''。)
+*   (それはここで'''しか'''買え'''ない'''。)
+ と組み合わせると二重否定になり、「…しか…ないわけではない」の意味になる。
+*   (ポールは 10 ユーロ'''しか'''持ってい'''ないわけではない'''。)
+
+===  ===
+完全に否定するのではなく「ほとんど…ない」を意味するには、  を用いる。
+*   ('''ほとんど'''問題は'''ない'''。)
+
+=== 冠詞  ===
+否定副詞がある文において、存在が否定される不定冠詞と部分冠詞は、  に変わる。 の後の名詞は単数でも複数でも意味は違わない。一つも無いことを強調するなら   を使っても良い。
+
+*   (私は新聞を一紙読んだ。)
+*   (私は新聞を数紙読んだ。)
+*: →   (私は新聞を読まなかった。)
+*: →   (〃)
+*: →   (私は新聞を一紙も読まなかった。)
+
+ の代わりに  を使うと、必ずしも存在が否定されず、意味があいまいになる<ref>{{Citation
+ | last=Godard
+ | first=Danièle
+ | title=French Negative Dependency
+ | journal=Handbook of French Semantics
+ | year=2003
+ | editor-last=Corblin
+ | editor-first=Francis
+ | editor2-last=de Swart
+ | editor2-first=Henriette
+ | publisher=CSLI Publications
+ | place=Stanford
+ | url=http://www.llf.cnrs.fr/Gens/Godard/dg-negdep-final.pdf
+}}</ref>。
+*   (私はある新聞を読んだ。)
+*: →   (私は(ある)新聞を読まなかった。)
+*:# =   (私が読んだ新聞は一紙も無い。)
+*:# =   (私が読まなかった新聞が一紙ある。)
+
+ は存在を否定しないので、 にならない。
+*   (私は鉛筆しか持っていない。)
+
+== Syntaxe de la négation ==
+
+=== Règle générale ===
+
+En français, on distingue syntaxiquement deux formes principales de la négation, selon qu'elle porte sur l'ensemble de la phrase ou sur un constituant<ref name="Gramm Larousse">Jean Dubois et René Lagane, ''La nouvelle grammaire du français'', Larousse, 1973 </ref> :
+
+La négation portant sur l'ensemble de la phrase se forme en ajoutant à la phrase affirmative l'adverbe '''ne pas''' ; les deux éléments de cet adverbe se placent ordinairement de part et d'autre du verbe ou de l'auxiliaire :
+:<small>EX : </small>''Jean aime les voyages → Jean <u>n’</u>aime <u>pas</u> les voyages''.
+:<small>EX : </small>''J’ai fait cela → Je <u>n’</u>ai <u>pas</u> fait cela''.
+Lorsque le verbe est à l'infinitif, les deux éléments sont placés devant l'infinitif :
+:<small>EX : </small>''Je vous demande de <u>ne pas</u> me déranger''
+ou parfois (plus littéraire) de part et d'autre :
+:<small>EX : </small>''Je crains de <u>ne pas</u> avoir compris'', ou :
+:<small>EX : </small>''Je crains de <u>n’</u>avoir <u>pas</u> compris''.
+
+'''Ne... pas''' (sans partitif) est une négation complète. ''Pas'' étant tonique et ''ne'' atone, donc plus étroitement lié au verbe, on peut dire :
+:<small>EX : </small>''Il <u>ne</u> manque, après l'appel, <u>pas</u> un élève''
+mais non :
+:<small>EX : </small>'''*''' ''Il <u>ne</u>, après l'appel, manque <u>pas</u> un élève''.
+Pourtant, ''ne'' peut être employé seul devant le verbe.
+
+Si la négation porte sur un groupe du nom, sujet ou objet, on emploie '''ne''' et un déterminant négatif :
+:<small>EX : </small>''Il a fait un effort → Il <u>n’</u>a fait <u>aucun</u> effort''
+:<small>EX : </small>''Quelqu’un est venu → <u>Personne n’</u>est venu''.
+
+''Ne pas'' peut être remplacé par une formulation parallèle (''ne point, ne plus, ne guère, ne jamais''...), selon le sens et le registre de langue. Ces adverbes en deux parties sont aussi appelés morphèmes ''discontinus'', ou ''disjoints''.
+
+Si la négation porte sur un nom, un adjectif, un adverbe, elle peut être exprimée par un préfixe :
+:<small>EX : </small>''Son attitude est <u>in</u>compréhensible'' (= elle ne peut pas être comprise).
+
+Dans la majeure partie de ces phrases, à la négation correspondent deux éléments, souvent désignés (à la suite de Jacques Damourette et Édouard Pichon<ref>''Des mots à la pensée, essai de Grammaire de la langue française'', éd. d'Atrey, Paris, 1911-1940 </ref>) ''discordantiel'' (''ne'') et ''forclusif'' (''pas'', ''aucun N'' etc.). En français, la double négation est un cas particulier de cette configuration.
+
+=== Le « ne » explétif et comparatif ===
+
+Le '''ne explétif''' ne traduit pas réellement une négation, mais plutôt une éventualité. Il s'utilise après des verbes exprimant crainte, empêchement, doute ; dans des subordonnées introduites par ''avant que, à moins que, de peur que, peu s'en faut que'' ; ou encore après ''autre / autrement que'', ou un comparatif :
+:<small>EX : </small>''Je crains qu'il <u>ne</u> vienne'' (= « j'ai peur qu'il vienne », et non pas : « qu'il ne vienne pas »)
+:<small>EX : </small>''Prévenez-moi avant qu'il <u>ne</u> soit trop tard'' (= « avant qu'il soit trop tard »).
+:<small>EX : </small>''Il est moins habile que je <u>ne</u> pensais'' (= « que je pensais »).
+
+Le '''ne comparatif''' « équilibre en quelque sorte une comparaison de disparité »<ref name="Wilmet">Marc Wilmet, ''Grammaire critique du français'', Duculot, 2003, </ref> :
+:<small>EX : </small>''Pierre est plus épris de Marie qu'elle <u>ne</u> l'est de lui''
+:(c'est-à-dire : « Pierre est le plus épris » + « Marie est la moins éprise »).
+
+=== « Ne... que... » ===
+
+La locution adverbiale '''ne... que...''' exprime la restriction (elle est dite ''restrictive'' ou ''exceptive'') et signifie « seulement, rien de plus que ». Dans :
+<small>EX : </small>''Je <u>n’</u>ai <u>que</u> dix euros sur moi''
+le locuteur à la fois affirme qu'il a dix euros et nie en avoir davantage.
+
+Pour Marc Wilmet<ref name="Wilmet"/>, « l'auxiliaire<ref>''Sic'' : « auxiliaire » et non pas « adverbe négatif ».</ref> exceptif ''que'' arrête ''ne'' [...] au seuil de la prédication négative et relance la prédication positive. » Le locuteur nie le sous-ensemble des éléments complémentaires 
+* de l'objet : <small>EX : </small>''Pierre <u>n’</u>aime <u>que</u> Marie ;
+* du circonstanciel : <small>EX : </small>''Marie <u>ne</u> part <u>que</u> dans un mois'' ;
+* de l'attribut : <small>EX : </small>''Moi je <u>ne</u> suis <u>qu’</u>une ombre, et vous <u>qu’</u>une clarté ! <ref>E. Rostand, ''Cyrano de Bergerac'', III, 7.</ref> ;
+* du complément de présentatif : <small>EX : </small>''Il <u>n’</u>y a <u>que</u> lui qui me comprenne'' ;
+* de la séquence impersonnelle<ref name="RiegelPellatRioul">Riegel, Pellat et Rioul, ''Grammaire méthodique du français'', XI,5.1.2, PUF, 1999, </ref> : <small>EX : </small> ''Il <u>ne</u> reste, autour de moi, <u>que</u> la desserte d'un long été'' (Colette).
+
+'''Rien que''' (ou '''nul que''') et '''pas que''' sont contraires, l'un signifiant « uniquement » et l'autre « pas seulement ». Dans le premier cas, on a bien une relance de prédication positive, ''rien que moi'' signifiant « uniquement moi » mais aussi « rien sauf moi » : ''sauf moi'' étant la relance positive. Dans le second cas, ''que'' est simplement un adverbe comme ''uniquement''.
+
+Cependant, ''rien que'' suivi de compléments indirects ou circonstanciels peut exprimer l'exception :
+:<small>EX : </small>''On le reconnaît <u>rien qu’</u>à sa démarche''.
+
+=== « Ne... goutte, ne... mie », et autres négations rares ===
+
+Ces constructions employées comme variantes de ''ne... pas'' sont des survivances de l'époque où la négation habituelle était ''ne'', suivi de n'importe quel objet dont la fonction, l'existence, la possession, etc. étaient niées (''cf. infra''). On trouve encore aujourd'hui des exemples de ce type de négation : ''je n'ai domestique ni valet'' se dirait plutôt ''je n'ai pas de domestique, ni de valet'' ou ''je n'ai ni domestique ni valet''. Cette construction peut être aussi une double négation comme dans cet exemple de Charles d'Orléans :
+
+:<small>EX : </small>''Il <u>n’</u>y a bête <u>ni</u> oiseau / Qu'en son jargon <u>ne</u> chante ou crie''
+
+Dans ces constructions, certains noms se sont spécialisés à la manière de ''pas'' et sont devenus adverbes : 
+
+* ''goutte'' associé au verbe ''voir''. ''N'y voir goutte'' signifie ''ne rien y voir'' ;
+* ''point'' : ne même pas avoir un point ;
+* ''mie'' : ne même pas avoir une mie (une miette) ;
+* ''rien'' : autrefois substantif, ''rien'' (ancien français : ''ren'', de l'accusatif latin ''rem'', « chose »), est le terme le plus utilisé aujourd'hui.
+
+=== Emploi de « ne » seul ===
+
+Dans un registre soutenu, on peut employer '''ne''' seul pour exprimer une négation totale <ref name="Gramm Larousse"/> :
+:<small>EX : </small>''Je <u>ne</u> puis vous dire ma joie'' (langue courante: « je <u>ne</u> peux <u>pas</u> vous dire ma joie »)
+:<small>EX : </small>''Que <u>ne</u> me l'aviez-vous dit ?'' (''que'' signifiant ici ''pourquoi'')
+:<small>EX : </small>''A Dieu <u>ne</u> plaise !''
+:<small>EX : </small>''Si je <u>ne</u> me trompe, nous sommes arrivés'' (= « si je <u>ne</u> me trompe <u>pas</u> »)
+
+=== Omission de « ne » ===
+
+Le morphème ''ne'' peut être omis :
+* dans la langue familière :
+:<small>EX : </small>''J'ai <u>jamais</u> dit ça''
+* dans les constructions elliptiques :
+:<small>EX : </small>''– Est-ce que vous avez vu ce film ? – <u>Pas</u> encore''.
+L'adverbe ''pas'' étant tonique, il est senti comme plus négatif que le ''ne'' seul d'un point de vue intersubjectif, mais pas d'un point de vue grammatical pur.
+
+'''Pas''' seul peut être employé sans qu'il y ait omission de ''ne'' :
+:<small>EX : </small>''Pitié, <u>pas</u> moi !''
+
+Des tournures interrogatives littéraires ou vieillies comme ''A-t-on jamais [vu]'' (à comprendre comme « y a-t-il eu le moindre exemple de ») sous-entendent la négation (= « On n'a jamais [vu] cela ») :
+:<small>EX : </small><small>HARPAGON</small> : (...) ''Mais voyez quelle audace ! <u>A-t-on jamais</u> vu une fille parler de la sorte à son père ?''<br/>
+:<small>EX : </small><small>ÉLISE</small> : ''Mais <u>a-t-on jamais</u> vu un père marier sa fille de la sorte ?'' <ref>Molière, ''L’Avare'', I, 4.</ref>
+
+=== Omission simultanée de « ne » et « pas » ===
+
+L'omission exceptionnelle tout à la fois de '''ne''' et de '''pas''' est très rare et demande des conditions énonciatives particulières : elle n'est utilisée que dans les défenses. 
+:<small>EX : </small>– ''T'occupe !'' (= « <u>ne</u> t'occupe <u>pas</u> de cela, mêle-toi de ce qui te regarde »).
+« L'antéposition du pronom objet premier »<ref name="Wilmet"/> pallie l'absence des deux adverbes négatifs.
+
+Il ne faut pas confondre négation sans mot négatif et affirmation ironique. ''C'est cela'' ou ''oui c'est ça, bien sûr'', pour dire « je ne suis pas d'accord » sont de vraies affirmations (ironiques), tout comme ''je pense que c'est faux''. ''T'inquiète !'' et ''t'occupe !'' sont en revanche de vraies négations.
+
+Cette  omission des adverbes négatifs est rendue possible par un double phénomène : la place du pronom (antéposition/postposition) et sa forme ( tonique / atone). La phrase affirmative correspondante serait : occupe-toi ou occupe-t'en. 

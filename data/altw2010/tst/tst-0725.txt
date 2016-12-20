@@ -1,0 +1,122 @@
+'''Casoli''' è nu comune 'e 5901 'e abitante d&#39;&#39;a pruvincia 'e Chiete.
+{{Template:Comune|nommecomune = Casoli <!-- Salierno -->
+|mpresa = 180px
+|nommeufficiale = Casoli <!-- Salerno -->
+|reggione = Abruzzo <!-- Campania -->
+|pruvincia = 'e Chiete <!-- 'e Salierno -->
+|estenzione = 66 <!-- 16 -->
+|populazzione = 5901 <!-- 346.804 <small>(2001)</small> -->
+|denzita = 90 <!-- 1.747,45 -->
+|frazzioni = Ascigno, Capoposta, Cappacorti, Caprafico, Cavassutti, Cinonni, Cipollaro, Collebarone, Collelungo, Collemarco, Colle della Torre, Coste Martini, Fiorentini, Grottarimposta, Guarenna Nuova, Guarenna Vecchia, Laroma, Laroscia, Mandramancina, Merosci, Minco di Lici, Monti, Piana delle vacche, Pianibbie, Piano Carlino, Piano del Mulino, Piano la Fara, Piano Laroma, Piano Morelli, Piano delle Vigne, Quarto da Capo, Ripitella, Selva Piana, Serra, Torretta, Valle Curato, Verratti, Vicenne, Vizzarri
+|commune vicini = Nave -->
+|cap = 66043 <!-- 27080, da 27080 a 27090 -->
+|prefisso = 0872 <!-- 030 -->
+|santoprutettore = Santa Reparata <!-- fiorentini -->
+|festa = 8 'e ottovre
+|sito cità = [http://www.comune.casoli.ch.it/]
+}} <!-- fine della tabella - per la compilazione vedi -> Aiuto:Comune-->
+
+category:giugrafia
+Categoria:Comune d&#39;&#39;a pruvincia 'e Chiete
+Categoria:Comune d&#39;&#39;a reggione Abruzzo
+Categoria:Comune 'e l'Italia
+
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = Casoli |
+  name = Casoli |
+  region = Abruzzo |
+  province = Province of Chieti (CH) |
+  elevation_m = 378 |
+  area_total_km2   = 66 |
+  population_as_of  = december 31, 2004 |
+  population_total = 5901 |
+  population_density_km2 = 90 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          =  Ascigno, Capoposta, Cappacorti, Caprafico, Cavassutti, Cinonni, Cipollaro, Collebarone, Collelungo, Collemarco, Colle della Torre, Coste Martini, Fiorentini, Grottarimposta, Guarenna Nuova, Guarenna Vecchia, Laroma, Laroscia, Mandramancina, Merosci, Minco di Lici, Monti, Piana delle vacche, Pianibbie, Piano Carlino, Piano del Mulino, Piano la Fara, Piano Laroma, Piano Morelli, Piano delle Vigne, Quarto da Capo, Ripitella, Selva Piana, Serra, Taloni, Torretta, Valle Curato, Verratti, Vicenne, Vizzarri |
+  telephone         = 0872 |
+  postalcode        = 66043 |
+  gentilic          = casolani |
+  saint             = Saint Reparata|
+  day               = October 8 |
+  mayor             = Sergio De Luca |
+  website           =  [http://www.comune.casoli.ch.it www.comune.casoli.ch.it]|
+  mapy = 14.1733 |
+  mapx = 42.0700 |
+}}
+'''Casoli''' is a comune and town in the Province of Chieti in the Abruzzo region of Italy: it is situated on a foothill of the Majella mountain, at the base of which runs the Aventino River, tributary of the Sangro. As of 31 December 2004, it had a population of 5,901 and an area of 66 km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+Casoli borders the following municipalities: Altino, Civitella Messer Raimondo, Gessopalena, Guardiagrele, Palombaro, Roccascalegna, Sant'Eusanio del Sangro.
+
+==History==
+It was the ancient Caraceni: his territory was most probably conquered by Lombards in the 6th century.  
+
+The medieval name "castri de Casule" was first recorded in 878 AD in the ''Memoriatorium abbatis Berthari'', a manuscript conserved in the Abbey of Monte Cassino.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.7)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize = width:455 height:373
+PlotArea = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period = from:0 till:8500
+TimeAxis = orientation:vertical
+AlignBars = justify
+ScaleMajor = gridcolor:darkgrey increment:500 start:0
+ScaleMinor = gridcolor:lightgrey increment:100 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+  bar:1861 from:0 till:5970
+  bar:1871 from:0 till:6088
+  bar:1881 from:0 till:6109
+  bar:1901 from:0 till:7301
+  bar:1911 from:0 till:7892
+  bar:1921 from:0 till:7659
+  bar:1931 from:0 till:8013
+  bar:1936 from:0 till:8319
+  bar:1951 from:0 till:8134
+  bar:1961 from:0 till:7377
+  bar:1971 from:0 till:6324
+  bar:1981 from:0 till:6174
+  bar:1991 from:0 till:6116
+  bar:2001 from:0 till:5971
+
+PlotData=
+  bar:1861 at: 5970 fontsize:S text:5.970 shift:(-8,5)
+  bar:1871 at: 6088 fontsize:S text:6.088 shift:(-10,5)
+  bar:1881 at: 6109 fontsize:S text:6.109 shift:(-10,5)
+  bar:1901 at: 7301 fontsize:S text:7.301 shift:(-10,5)
+  bar:1911 at: 7892 fontsize:S text:7.892 shift:(-10,5)
+  bar:1921 at: 7659 fontsize:S text:7.659 shift:(-10,5)
+  bar:1931 at: 8013 fontsize:S text:8.013 shift:(-10,5)
+  bar:1936 at: 8319 fontsize:S text:8.319 shift:(-10,5)
+  bar:1951 at: 8134 fontsize:S text:8.134 shift:(-10,5)
+  bar:1961 at: 7377 fontsize:S text:7.377 shift:(-10,5)
+  bar:1971 at: 6324 fontsize:S text:6.324 shift:(-10,5)
+  bar:1981 at: 6174 fontsize:S text:6.174 shift:(-10,5)
+  bar:1991 at: 6116 fontsize:S text:6.116 shift:(-10,5)
+  bar:2001 at: 5971 fontsize:S text:5.971 shift:(-10,5)

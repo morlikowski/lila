@@ -1,0 +1,317 @@
+'''Periodni sistem elemenata''' je prikaz poznatih kemijskih elemenata, koji su složeni po elektronskoj strukturi.
+
+Izvorni je sistem stvoren kad se još nije znao sastav atomskoj masi, a zatim se neke druge osobine stave uz atomsku masu, javlja se ''periodno'' kretanje tih osobina kao funkcija atomske mase. Prvi je to primijetio njemački kemičar Johann Wolfgang Döbereiner, koji je 1829. zapazio određeni broj ''trijada'' sličnih elemenata:
+
+<table cellspacing="5">
+<tr>
+<th align="center" colspan="3">Neke trijade</th>
+</tr><tr>
+<th>Element</th>
+<th>Atomska masa</th>
+<th>Gustoća</th>
+</tr><tr>
+<td>klor</td>
+<td>35.5</td>
+<td>0.00156 g/cm<sup>3</sup></td>
+</tr><tr>
+<td>brom</td>
+<td>79.9</td>
+<td>0.00312 g/cm<sup>3</sup></td>
+</tr><tr>
+<td>jod</td>
+<td>126.9</td>
+<td>0.00495 g/cm<sup>3</sup></td>
+</tr>
+<tr><td>&nbsp;</td></tr><tr>
+<td>kalcij</td>
+<td>40.1</td>
+<td>1.55 g/cm<sup>3</sup></td>
+</tr><tr>
+<td>stroncij</td>
+<td>87.6</td>
+<td>2.6 g/cm<sup>3</sup></td>
+</tr><tr>
+<td>barij</td>
+<td>137</td>
+<td>3.5 g/cm<sup>3</sup></td>
+</tr>
+</table>
+
+Zatim je engleski kemičar John Alexander Reina Newlands muzičkom oktavom, ali suvremenici su ismijali njegov ''zakon oktava''. Napokon, 1869. godine, Nijemac Lothar Meyer i Rus Dmitrij Ivanovič Mendeljejev gotovo su istodobno napravili prvi periodni sistem, gdje su elementi bili složeni po masi. 
+Mendeljejev je k tome složio par elemenata izvan striktnog poretka po masi jer su se tako bolje slagali s osobinama susjednih elemenata, ispravio je greške u vrijednostima više atomskih masa, te je prorekao postojanje i osobine nekoliko elemenata koji su otkriveni tek kasnije. Mendeljejevu je kasnije priznato da je otkrio elektronsku strukturu elemenata krajem 19. i početkom 20. vijeka.
+
+Sljedeća slika prikazuje današnji periodni sustav elemenata. 
+Za svaki je element naveden atomski broj i kemijski simbol. 
+Elementi u istom stupcu (kemijskoj skupini ili kemijskom nizu) kemijski su slični.
+
+<table style="width: 80%;">
+<tr align="center">
+<td>'''Skupina'''</td>
+<td>'''1'''</td>
+<td>'''2'''</td>
+<td>'''3'''</td>
+<td>'''4'''</td>
+<td>'''5'''</td>
+<td>'''6'''</td>
+<td>'''7'''</td>
+<td>'''8'''</td>
+<td>'''9'''</td>
+<td>'''10'''</td>
+<td>'''11'''</td>
+<td>'''12'''</td>
+<td>'''13'''</td>
+<td>'''14'''</td>
+<td>'''15'''</td>
+<td>'''16'''</td>
+<td>'''17'''</td>
+<td>'''18'''</td>
+</tr>
+<tr align="center">
+<td>'''Perioda'''</td>
+<td colspan="20"><br> </td>
+</tr>
+<tr align="center">
+<td>'''1'''</td>
+<td bgcolor="#cccccc"><font color="yellow"><b>1</b></font><br>H</td>
+<td colspan="16"><br> </td>
+<td bgcolor="#c0dddd"><font color="yellow"><b>2</b></font><br>He</td>
+</tr>
+<tr align="center">
+<td>'''2'''</td>
+<td bgcolor="#ffdead">3<br>Li</td>
+<td bgcolor="#ffdead">4<br>Be</td>
+<td style="vertical-align: top;"><br> </td>
+<td colspan="9"><br> </td>
+<td bgcolor="#cccc99">5<br>B</td>
+<td bgcolor="#a0ffa0">6<br>C</td>
+<td bgcolor="#a0ffa0"><font color="yellow"><b>7</b></font><br>N</td>
+<td bgcolor="#a0ffa0"><font color="yellow"><b>8</b></font><br>O</td>
+<td bgcolor="#a0ffa0"><font color="yellow"><b>9</b></font><br>F</td>
+<td bgcolor="#c0dddd"><font color="yellow"><b>10</b></font><br>Ne</td>
+</tr>
+<tr align="center">
+<td>'''3'''</td>
+<td bgcolor="#ffdead">11<br>Na</td>
+<td bgcolor="#ffdead">12<br>Mg</td>
+<td style="vertical-align: top;"><br> </td>
+<td colspan="9"><br> </td>
+<td bgcolor="#bbbba9">13<br>Al</td>
+<td bgcolor="#cccc99">14<br>Si</td>
+<td bgcolor="#a0ffa0">15<br>P</td>
+<td bgcolor="#a0ffa0">16<br>S</td>
+<td bgcolor="#a0ffa0"><font color="yellow"><b>17</b></font><br>Cl</td>
+<td bgcolor="#c0dddd"><font color="yellow"><b>18</b></font><br>Ar</td>
+</tr>
+<tr align="center">
+<td>'''4'''</td>
+<td bgcolor="#ffdead">19<br>K</td>
+<td bgcolor="#ffdead">20<br>Ca</td>
+<td bgcolor="#ffc0c0">21<br>Sc</td>
+<td bgcolor="#ffc0c0">22<br>Ti</td>
+<td bgcolor="#ffc0c0">23<br>V</td>
+<td bgcolor="#ffc0c0">24<br>Cr</td>
+<td bgcolor="#ffc0c0">25<br>Mn</td>
+<td bgcolor="#ffc0c0">26<br>Fe</td>
+<td bgcolor="#ffc0c0">27<br>Co</td>
+<td bgcolor="#ffc0c0">28<br>Ni</td>
+<td bgcolor="#ffc0c0">29<br>Cu</td>
+<td bgcolor="#ffc0c0">30<br>Zn</td>
+<td bgcolor="#bbbba9">31<br>Ga</td>
+<td bgcolor="#cccc99">32<br>Ge</td>
+<td bgcolor="#cccc99">33<br>As</td>
+<td bgcolor="#a0ffa0">34<br>Se</td>
+<td bgcolor="#a0ffa0"><font color="blue">35</font><br>Br</td>
+<td bgcolor="#c0dddd"><font color="yellow"><b>36</b></font><br>Kr</td>
+</tr>
+<tr align="center">
+<td>'''5'''</td>
+<td bgcolor="#ffdead">37<br>Rb</td>
+<td bgcolor="#ffdead">38<br>Sr</td>
+<td bgcolor="#ffc0c0">39<br>Y</td>
+<td bgcolor="#ffc0c0">40<br>Zr</td>
+<td bgcolor="#ffc0c0">41<br>Nb</td>
+<td bgcolor="#ffc0c0">42<br>Mo</td>
+<td bgcolor="#ffc0c0"><font color="red">43</font><br>Tc</td>
+<td bgcolor="#ffc0c0">44<br>Ru</td>
+<td bgcolor="#ffc0c0">45<br>Rh</td>
+<td bgcolor="#ffc0c0">46<br>Pd</td>
+<td bgcolor="#ffc0c0">47<br>Ag</td>
+<td bgcolor="#ffc0c0">48<br>Cd</td>
+<td bgcolor="#bbbba9">49<br>In</td>
+<td bgcolor="#bbbba9">50<br>Sn</td>
+<td bgcolor="#cccc99">51<br>Sb</td>
+<td bgcolor="#cccc99">52<br>Te</td>
+<td bgcolor="#a0ffa0">53<br>I</td>
+<td bgcolor="#c0dddd"><font color="yellow"><b>54</b></font><br>Xe</td>
+</tr>
+<tr align="center">
+<td>'''6'''</td>
+<td bgcolor="#ffdead">55<br>Cs</td>
+<td bgcolor="#ffdead">56<br>Ba</td>
+<td bgcolor="#cccccc"><font color="blue"><br>La*</td>
+<td bgcolor="#ffc0c0">72<br>Hf</td>
+<td bgcolor="#ffc0c0">73<br>Ta</td>
+<td bgcolor="#ffc0c0">74<br>W</td>
+<td bgcolor="#ffc0c0">75<br>Re</td>
+<td bgcolor="#ffc0c0">76<br>Os</td>
+<td bgcolor="#ffc0c0">77<br>Ir</td>
+<td bgcolor="#ffc0c0">78<br>Pt</td>
+<td bgcolor="#ffc0c0">79<br>Au</td>
+<td bgcolor="#ffc0c0"><font color="blue">80</font><br>Hg</td>
+<td bgcolor="#bbbba9">81<br>Tl</td>
+<td bgcolor="#bbbba9">82<br>Pb</td>
+<td bgcolor="#bbbba9">83<br>Bi</td>
+<td bgcolor="#cccc99">84<br>Po</td>
+<td bgcolor="#cccc99">85<br>At</td>
+<td bgcolor="#c0dddd"><font color="yellow"><b>86</b></font><br>Rn</td>
+</tr>
+<tr align="center">
+<td>'''7'''</td>
+<td bgcolor="#ffdead">87<br>&nbsp;Fr&nbsp;</td>
+<td bgcolor="#ffdead">88<br>Ra</td>
+<td bgcolor="#cccccc"><font color="blue"><br>Ac**</td>
+<td bgcolor="#ffc0c0"><font color="red">104</font><br>Rf</td>
+<td bgcolor="#ffc0c0"><font color="red">105</font><br>Db</td>
+<td bgcolor="#ffc0c0"><font color="red">106</font><br>Sg</td>
+<td bgcolor="#ffc0c0"><font color="red">107</font><br>Bh</td>
+<td bgcolor="#ffc0c0"><font color="red">108</font><br>Hs</td>
+<td bgcolor="#ffc0c0"><font color="red">109</font><br>Mt</td>
+<td bgcolor="#ffc0c0"><font color="red">110</font><br>Ds</td>
+<td bgcolor="#ffc0c0"><font color="red">111</font><br>Rg</td>
+<td bgcolor="#ffc0c0"><font color="red">112</font><br>Uub</td>
+<td bgcolor="#bbbba9"><font color="red">113<br>Uut</font></td>
+<td bgcolor="#bbbba9"><font color="red">114</font><br>Uuq</td>
+<td bgcolor="#bbbba9"><font color="red">115<br>Uup</font></td>
+<td bgcolor="#bbbba9"><font color="red">116<br>Uuh</font></td>
+<td bgcolor="#eceaec"><font color="#bbbba9">117<br>Uus</font></td>
+<td bgcolor="#eceaec"><font color="#bbbba9">118<br>Uuo</font></td>
+</tr>
+<tr align="center">
+<td colspan="21"><br> </td>
+</tr>
+<tr align="center">
+<td colspan="4" align="right">*'''Lantanoidi'''</td>
+<td bgcolor="#ffbfff">57<br>La</td>
+<td bgcolor="#ffbfff">58<br>Ce</td>
+<td bgcolor="#ffbfff">59<br>Pr</td>
+<td bgcolor="#ffbfff">60<br>Nd</td>
+<td bgcolor="#ffbfff"><font color="red">61</font><br>Pm</td>
+<td bgcolor="#ffbfff">62<br>Sm</td>
+<td bgcolor="#ffbfff">63<br>Eu</td>
+<td bgcolor="#ffbfff">64<br>Gd</td>
+<td bgcolor="#ffbfff">65<br>Tb</td>
+<td bgcolor="#ffbfff">66<br>Dy</td>
+<td bgcolor="#ffbfff">67<br>Ho</td>
+<td bgcolor="#ffbfff">68<br>Er</td>
+<td bgcolor="#ffbfff">69<br>Tm</td>
+<td bgcolor="#ffbfff">70<br>Yb</td>
+<td bgcolor="#ffbfff">71<br>Lu</td>
+</tr>
+<tr align="center">
+<td colspan="4" align="right">**'''Aktinoidi'''</td>
+<td bgcolor="#ff99cc">89<br>Ac</td>
+<td bgcolor="#ff99cc">90<br>Th</td>
+<td bgcolor="#ff99cc">91<br>Pa</td>
+<td bgcolor="#ff99cc">92<br>U</td>
+<td bgcolor="#ff99cc"><font color="red">93</font><br>Np</td>
+<td bgcolor="#ff99cc"><font color="red">94</font><br>Pu</td>
+<td bgcolor="#ff99cc"><font color="red">95</font><br>Am</td>
+<td bgcolor="#ff99cc"><font color="red">96</font><br>Cm</td>
+<td bgcolor="#ff99cc"><font color="red">97</font><br>Bk</td>
+<td bgcolor="#ff99cc"><font color="red">98</font><br>Cf</td>
+<td bgcolor="#ff99cc"><font color="red">99</font><br>Es</td>
+<td bgcolor="#ff99cc"><font color="red">100</font><br>Fm</td>
+<td bgcolor="#ff99cc"><font color="red">101</font><br>Md</td>
+<td bgcolor="#ff99cc"><font color="red">102</font><br>No</td>
+<td bgcolor="#ff99cc"><font color="red">103</font><br>Lr</td>
+</tr>
+</table>
+
+<table align="center">
+<caption>Kemijske skupine elemenata</caption>
+<tr>
+<td bgcolor="#ffdead">Alkalni metali</td>
+<td bgcolor="#ffc0c0">Prijelazni metali</td>
+<td bgcolor="#ffbfff">Lantanoidi</td>
+<td bgcolor="#ff99cc">Aktinoidi</td>
+</tr>
+<tr>
+<td bgcolor="#bbbba9">Slabi metali</td>
+<td bgcolor="#cccc99">Polumetali</td>
+<td bgcolor="#a0ffa0">Nemetali</td>
+<td bgcolor="#c0dddd">Plemeniti plinovi</td>
+</tr>
+</table>
+
+Boje brojeva:
+* Elementi s <font color="blue">plavim</font> brojevima su tekući na sobnoj temperaturi;
+* Elementi sa <font color="yellow"><b>žutim</b></font> brojevima su plinoviti na sobnoj temperaturi;
+* Elementi s crnim brojevima su kruti na sobnoj temperaturi;
+* Elementi s <font color="red">crvenim</font> brojevima su umjetni i ne pojavljuju se u prirodi (svi su kruti na sobnoj temperaturi).
+* <table align="left"><tr><td>Elementi sa </td><td bgcolor="#eceaec" style="color: #bbbba9";">sivim brojevima na sivoj pozadini</td><td> još nisu otkriveni. </td></tr></table>
+
+== Vanjski linkovi ==
+
+*[http://www.pse.pbf.hr/hrvatski/veliki_periodni.html#Grupa Veliki periodni sustav elemenata (s objašnjenjima)]
+*[http://www.ktf-split.hr/periodni/    Periodni sustav elemenata sa Kemijskog-Tehnološkog fakulteta - Split]
+
+Category:Kemija
+Category:Kemijski elementi
+
+<!-- interwiki -->
+
+als:Periodensystem
+
+be-x-old:Перыядычная сістэма элементаў
+
+eo:Perioda tabelo
+es:Tabla periódica de los elementos
+
+fo:Skeiðbundna skipanin
+
+fur:Tabele periodiche
+fy:Periodyk systeem fan 'e eleminten
+ga:Tábla peiriadach
+
+'''周期表'''（しゅうきひょう、元素周期律表、英：'''periodic table'''）は、元素を周期律に従って配列した表であり、1869年、ドミトリ・メンデレーエフによって提案された。メンデレーエフは原子量と酸化数を手がかりに周期表を作成し、未発見の元素とその性質を予測することに成功した。周期表上で元素はその原子の電子配置に従って並べられ、似た性質の元素が規則的に出現する。
+
+== 周期表 ==
+
+== 周期律をみつけた人々 ==
+ド・シャンクルトワ（DeChancourtois）は24個の元素を原子量順に並べて、円柱の周りにまくと似た性質の元素が上下に並ぶことを示した。イギリスのジョン・ニューランズも既知の元素を原子価順にならべると8つごとに似た性質が現れることに気づいた（当時希ガスは未発見）。1868年、ドイツのロータル・マイヤーも16列にわけた周期表を考えたが公表前にメンデレーエフの表が発表された（[参考] オリバー・サックス、斎藤隆央訳『タングステンおじさん』早川書房）。
+
+== 関連項目 ==
+* 元素
+* 拡張周期表
+* エレメンタッチ（立体周期表）
+* 化学元素発見の年表
+
+== 外部リンク ==
+* [http://www.d2.dion.ne.jp/~hmurata/goro.html 周期表の覚え方 ほか]
+* [http://www.akatsukinishisu.net/kanji/genso/index.html 元素記号の漢字（中国語）表記（「曉に死す」内）]
+* [http://www.chemsoc.org/viselements/pages/periodic_table.html 英国王立化学会：ヴィジュアル周期表]
+
+しゆうきひよう
+*
+
+als:Periodensystem
+
+be-x-old:Перыядычная сістэма элементаў
+
+eo:Perioda tabelo
+es:Tabla periódica de los elementos
+
+fo:Skeiðbundna skipanin
+
+fur:Tabele periodiche
+fy:Periodyk systeem fan 'e eleminten
+ga:Tábla peiriadach
+
+gu:આવર્ત કોષ્ટક
+
+hy:Պարբերական աղյուսակ
+ia:Tabella periodic del elementos
+
+li:Periodiek systeem vaan elemente
+lmo:Taula periòdica
+ln:Etánda ya bileko

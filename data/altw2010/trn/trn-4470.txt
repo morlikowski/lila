@@ -1,0 +1,77 @@
+{{Infobox Chemikalie
+ | Strukturformel        = 250px
+ | Freiname              = Imipenem 
+ | Andere Namen          = Latein: Imipenemum        
+ | Summenformel          = C<sub>12</sub>H<sub>17</sub>N<sub>3</sub>O<sub>4</sub>S 
+ | CAS                   = 64221-86-9
+ | PubChem               = 104838   
+ | ATC-Code              =   
+ | DrugBank              = DB01598
+ | Wirkstoffgruppe       = β-Lactam-Antibiotika, Carbapeneme  
+ | Wirkmechanismus       = Hemmung der Zellwandsynthese
+ | Handelsnamen          = 
+*Tienam<sup>®</sup> (A, CH, EU)
+*Zienam<sup>®</sup> (D, EU)
+*Primaxin<sup>®</sup> (USA)
+ | Verschreibungspflicht = Ja
+ | Molare Masse          = 299,35 g·mol<sup>−1</sup>
+ | Beschreibung          = weißes bis fast weißes oder blassgelbes Pulver <!--Ph.Eur.-->
+ | pKs                   = 
+ | Dichte                = 1,62 g·cm<sup>−3</sup> <ref name="Spider">[http://www.chemspider.com/Chemical-Structure.94631.html Datenblatt für ''Imipenem'' – ChemSpider 10.04.2008]</ref>  
+ | Schmelzpunkt          =    
+ | Siedepunkt            = 567,3 °C (1013 hPa) <ref name="Spider"/>
+ | Dampfdruck            = 3,11·10<sup>−15</sup> mmHg (25 °C) <ref name="Spider"/>
+ | Löslichkeit           = Wasser: 10 g·L<sup>−1</sup> <!--DrugBank-->
+ | Quelle GefStKz        =   
+ | Gefahrensymbole       =   
+ | R                     = 
+ | S                     = 
+ | MAK                   =
+ | LD50                  = 1972 mg·kg<sup>−1</sup> (Ratte i.v.) <ref name="ChemIDplus"></ref> 
+ | WGK                   = 
+}}
+'''Imipenem''' (Handelsnamen z.&nbsp;B. ''Zienam<sup>®</sup>''), ist ein Arzneistoff, welcher zur Gruppe der Carbapeneme gehört.
+== Pharmakologie ==
+Imipenem ist ein β-Laktam-Antibiotikum, das durch Hemmung der Bakterienzellwandsynthese bakterizid wirkt und nur durch Cilastatin, einen Hemmer der renalen Dipeptidase im proximalen Tubulus der Nieren, vor Inaktivierung geschützt wird. 
+
+=== Wirkspektrum ===
+Das Wirkungsspektrum ist breit im grampositiven, gramnegativen, aeroben und anaeroben Bereich.
+Wirkungslücken bestehen für ''Clostridium difficile'', ''Enterococcus faecium'', Legionellen, Mykoplasmen, MRSA, ''Stenotrophomonas maltophilia'' und nur mäßige Wirkung gegen Pseudomonas.
+
+=== Pharmakokinetik ===
+Nur die renal, 30&nbsp;% werden hepatisch metabolisiert, und Imipenem ist dialysierbar.
+
+=== Indikation ===
+Indikationen für Imipenem sind schwere polymikrobielle Infektionen oder Sepsis. 
+
+{{Drugbox|
+|IUPAC_name = (5''R'',6''S'')-3-[2-(aminomethylideneamino)ethylsulfanyl]-<br>6-(1-hydroxyethyl)-7-oxo-1-azabicyclo[3.2.0]hept-<br>2-ene-2-carboxylic acid
+| image = Imipenem.svg
+| CAS_number=74431-23-5
+| ATC_prefix=J01
+| ATC_suffix=DH51
+| ATC_supplemental=
+| PubChem=47317
+| DrugBank=
+| C = 12 | H = 17 | N = 3 | O = 4 | S = 1
+| molecular_weight = 299.347 g/mol
+| bioavailability= 
+| metabolism = Renal
+| elimination_half-life= 60 minutes
+| excretion =  
+| pregnancy_US = C
+| legal_status = 
+| routes_of_administration= IM, IV
+}}
+'''Imipenem''' is an &beta;-lactam antibiotic developed in 1985. It has an extremely broad spectrum of activity, and therefore sometimes referred to as "Gorilla-cillin".
+Imipenem belongs to the subgroup of anaerobic bacterial resistance.  
+
+==Method of action==
+Imipenem acts as an antimicrobial through inhibiting cell wall synthesis of various gram-positive and gram-negative bacteria. It remains very stable in the presence of beta-lactamase (both penicillinase and cephalosporinase) produced by some bacteria, and is a strong inhibitor of beta-lactamases from some gram-negative bacteria that are resistant to most beta-lactam antibiotics.
+
+==Co-administration with cilastatin==
+
+Imipenem is rapidly degraded by the renal enzyme dehydropeptidase when administered alone, and is always co-administered with cilastatin to prevent this inactivation.
+
+==Adverse effects==
+Common adverse drug reactions are nausea and vomiting. People who are allergic to penicillin and other beta-lactam antibiotics should not take imipenem. Imipenem can also cause seizures.

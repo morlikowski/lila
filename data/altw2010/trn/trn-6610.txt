@@ -1,0 +1,40 @@
+In group theory, a branch of mathematics, the '''baby-step giant-step''' algorithm is a series of well-defined steps to compute the discrete logarithm. The discrete log problem is of fundamental importance to the area of public key cryptography. Many of the most commonly used cryptography systems are based on the assumption that the discrete log is extremely difficult to compute; the more difficult it is, the more security it provides a data transfer. One way to increase the difficulty of the discrete log problem is to base the cryptosystem on a larger group.
+
+==Theory==
+The algorithm is based on a space-time tradeoff. It is a fairly simple modification of trial multiplication, the naive method of finding discrete logarithms.
+
+Given a generator <math>\alpha</math> of the group and a group element <math>\beta</math>, the problem is to find an integer <math>x</math> such that
+: <math>\alpha^x = \beta\,.</math>
+The baby-step giant-step algorithm is based on rewriting <math>x</math> as <math>x = im + j</math>, with <math>m = \lceil \sqrt{n} \rceil</math> and <math>0 \leq i < m</math> and <math>0 \leq j < m</math>. Therefore, we have:
+:<math>\beta(\alpha^{-m})^i=\alpha^j\,.</math>
+
+The algorithm precomputes <math>\alpha^j</math> for several values of <math>j</math>. Then it fixes an <math>m</math> and tries values of <math>i</math> in the left-hand side of the congruence above, in the manner of trial multiplication. It tests to see if the congruence is satisfied for any value of <math>j</math>, using the precomputed values of <math>\alpha^j</math>.
+
+==The algorithm==
+'''Input''': A cyclic group ''G'' of order ''n'', having a generator α and an element β.
+
+'''Output''': A value ''x'' satisfying <math>\alpha^{x}=\beta</math>.
+
+# ''m'' ← Ceiling(√''n'')
+# For all ''j'' where 0 ≤ ''j'' &lt; ''m'':
+## Compute α<sup>''j''</sup> and store the pair (''j'', α<sup>''j''</sup>) in a table. (See section "In practice")
+# Compute α<sup>&minus;''m''</sup>.
+# γ ← β.
+# For ''i'' = 0 to (''m'' &minus; 1):
+## Check to see if γ is the second component (α<sup>''j''</sup>) of any pair in the table.
+## If so, return ''im'' + ''j''.
+## If not, γ ← γ • α<sup>&minus;''m''</sup>.
+
+Der '''Babystep-Giantstep-Algorithmus''' berechnet den diskreten Logarithmus eines Elements einer zyklischen Gruppe. Der Algorithmus ist zwar in der Laufzeit dem naiven Ausprobieren aller Möglichkeiten überlegen, ist aber dennoch für sehr große Gruppen praktisch nicht durchführbar.
+
+==Theorie==
+Gesucht sei der diskrete Logarithmus <math>x := \log_g a</math> mit <math>\langle g \rangle</math> endliche zyklische Gruppe der Ordnung n und a Gruppenelement. 
+
+Mittels Division durch Rest lässt sich zu einem fest gewählten m eine eindeutige Darstellung <math>x = im + j, 0 \le j < m</math> finden. Hierbei wird häufig <math>m := \Theta(\sqrt{n})</math> gewählt, um den möglichen Zahlenbereich der i und j ähnlich groß zu halten. Durch Umformen ergibt sich mit dieser Darstellung gilt wegen <math>a = g^x = g^{im+j}</math> die dem Algorithmus zugrundeliegende Eigenschaft <math>g^j = ag^{-im}</math>.
+
+Der Algorithmus sucht nach einem Paar (i,j) das diese Eigenschaft erfüllt und erstellt hierzu zunächst eine Tabelle der „baby steps“ <math>(j, g^j)</math>. Anschließend berechnet für wachsende i sukzessive die „giant steps“ <math>{ag^{(-m)}}^i</math> und prüft auf Gleichheit mit einem Wert in der Tabelle. Liegt eine solche Kollision vor, ist dies das gesuchte Paar und der Logarithmus <math>im+j</math> wird ausgegeben.
+
+Mit Zugriffszeiten auf einzelne Elemente der Tabelle von <math>\mathcal{O}(\alpha)</math> – im Falle von geeignet schnellen Datenstrukturen wie Hashtabellen entspricht dies <math>\mathcal{O}(1)</math> – hat der Algorithmus eine Laufzeit von <math>\mathcal{O}((n/m)\cdot \alpha^2)</math> mit Speicherbedarf <math>\mathcal{O}(m)</math>.
+
+==Algorithmus==
+'''Eingabe:''' Endliche zyklische Gruppe <math>G</math>, Erzeuger <math>g</math>, Gruppenelement <math>a</math>

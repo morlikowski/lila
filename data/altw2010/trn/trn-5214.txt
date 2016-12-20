@@ -1,0 +1,136 @@
+La '''trasduzione intracellulare del segnale''' è la catena di reazioni che trasmette segnali (soprattutto idrofilici) dalla superficie cellulare verso bersagli intracellulari di vario tipo.
+
+Una parte non trascurabile di questi bersagli è rappresentata dai fattori di trascrizione o da molecole coinvolte in vie che comprendono questi stessi fattori. 
+È necessario sottolineare questo concetto: l'importanza che assume questo fenomeno della biologia cellulare è legata al suo ruolo preponderante nella risposta di messaggi extracellulari (come ad esempio gli ormoni) e al controllo della trascrizione di determinate proteine che ne consegue. 
+
+Le proteine che effettuano la trasduzione sono i recettori di membrana: questi, con procedimenti differenti, legano il segnale extracellulare, o ligando, e trasmettono il messaggio alle proteine bersaglio dette mediatori intacellulari o  secondi messaggeri.
+
+Esistono tre principali categorie di recettori di membrana associati a questo processo: i proteine G e i recettori ad attività protein chinasica, a loro volta distinti in recettori ad attività tirosina chinasica e recettori ad attività serina/treonina chinasica. Le molecole recettoriali appartengono a due grosse categorie: glicoproteine transmembranarie e proteine che si trovano all'interno della cellula.
+
+360px|thumb|right|Overview of signal transduction pathways
+In cell converts one kind of signal or stimulus into another. Most processes of signal transduction involve ordered sequences of biochemical reactions inside the cell, which are carried out by cascade," beginning with a relatively small stimulus that elicits a large response. This is referred to as ''amplification of the signal''. 
+
+==History of the Knowledge==
+[[Image:Signal transduction publications graph.jpeg|300px|thumb|right|'''Occurrence of the term “signal transduction”''' The total number of papers published in each year since 1977 containing  the specific phrase “signal transduction” in either their title or abstract section are plotted. 
+These figures were extracted through an analysis of the papers contained within the MEDLINE database.]]
+The earliest published scientific paper recorded in the MEDLINE database as containing the specific term "signal transduction" within its text was published in 1972.<ref name=rensing></ref> 
+Prior to 1977 articles can be found that use the term "signal transmission" or "sensory transduction" within their title or abstract.<ref name=tonndorf></ref><ref name=ashcroft></ref>
+However, it was not until 1977 that papers began to be published with the specific term "signal transduction" within their abstract; it was not until 1979 that this term appeared within a paper title.<ref name=hildebrand></ref><ref name=kenny></ref>
+One source attributes the widespread use of the term signal transduction to a 1980 review article by Rodbell.<ref name= gomperts></ref><ref name=rodbell></ref> 
+
+As can be seen from the graph to the right, it is not until the late 1980s/early 1990s that research papers directly addressing signal transduction processes began to appear in large numbers in the research.
+
+While there may be considered to be a number of landmark or important discoveries in the field of signal transduction, such as the link made by Rodbell between metabolic regulation and the activity of GTP and GTP-binding proteins,<ref name=rodbell/> much of our current understanding of signal transduction processes is as a result of numerous contributions made to the field over many years by different research groups all over the world.
+
+The total number of scientific papers related to signal transduction published since 1st Jan 1977 up to the 31st December 2007 was 48,377 of which only 11,211 were reviews of other papers
+
+== Signaling molecules ==
+
+Most signal transduction involves the binding of extracellular signaling molecules (or promoter region of steroid-responsive genes.<ref name=hammes></ref> Within multicellular organisms, there is a diverse number of small molecules and polypeptides that serve to coordinate a cell's individual biological activity within the context of the organism as a whole. These molecules have been functionally classified as:
+
+* hormones (e.g., melatonin),<ref name=sugden></ref>
+* growth factors (e.g. epidermal growth factor),<ref name=carpenter></ref>
+* extra-cellular matrix components (e.g., fibronectin),<ref name=ward> Ward M, and Marcey, D. [http://www.callutheran.edu/BioDev/omm/fibro/fibro.htm] Retrieved on 2007-03-06</ref>
+* cytokines (e.g., interferon-gamma),<ref name=schroder></ref>
+* chemokines (e.g., RANTES),<ref name=chung></ref>
+* neurotransmitters (e.g., acetylcholine),<ref name=kistler></ref> and
+* neurotrophins (e.g., nerve growth factor).<ref name=wiesmann></ref>
+
+It is important to note that most of these classifications do not take into account the molecular nature of each class member. For example, as a class, neurotransmitters consist of neuropeptides such as endorphins<ref name=goldstein></ref>
+and small molecules such as serotonin<ref name=kroeze></ref>
+and dopamine.<ref name=missale></ref> Hormones are also a generic class of molecule able to initiate signal transduction, these include insulin (a polypeptide),<ref name=adams></ref>
+testosterone (a steroid),<ref name= roy></ref>
+and organic molecule).<ref name=small></ref>
+
+The classification of one molecule into one class of another is not exact. For example, epinephrine and norepinephrine secreted by the central nervous system act as neurotransmitters. However, epinephrine when secreted by the adrenal medulla acts as a hormone.
+
+== Environmental stimuli ==
+
+In bacteria and other single-cell sensing of both the external and internal environments at the cellular level relies on signal transduction.  Many disease processes such as heart disease, autoimmunity, and cancer arise from defects in signal transduction pathways, further highlighting the critical importance of signal transduction to biology, as well as medicine.
+
+In addition to many of the regular signal transduction stimuli listed above, in complex organisms, there are also examples of additional environmental stimuli that initiate signal transduction processes. Environmental stimuli may also be molecular in nature (as above) or more physical, such as light striking cells in the retina of the eye,<ref name=burns></ref>
+odorant receptors in the nasal epithelium,<ref name=ronnett></ref>
+and bitter and sweet tastes stimulating taste receptors in the taste buds.<ref name=wong></ref>
+Certain microbial molecules, e.g., viral nucleotides, bacterial lipopolysaccharides, and protein antigens, are able to elicit an immune system response against invading pathogens, mediated via signal transduction processes. An immune response may occur independent of signal transduction stimulation by other molecules, as is the case for signal transduction via the Toll-like receptor or with help from stimulatory molecules located at the cell surface of other cells, as is the case for T-cell receptor signaling.
+
+Unicellular organisms may also respond to environmental stimuli via the activation of signal transduction pathways. For example, slime molds secrete cyclic-AMP upon starvation, which stimulates individual cells in the immediate environment to aggregate.<ref name=hanna></ref>
+mating factors to determine the mating types of other yeast and participate in sexual reproduction.<ref name=sprague></ref>
+
+== Cellular responses ==
+
+Activation of genes,<ref name=lalli></ref>
+alterations in metabolism,<ref name=rosen></ref>
+the continued proliferation and death of the cell,<ref name=guo></ref>
+and the stimulation or suppression of locomotion,<ref name=bornfeldt></ref>
+are some of the cellular responses to extracellular stimulation that require signal transduction. Gene activation leads to further cellular effects, since the protein products of many of the responding genes include enzymes and transcription factors themselves. Transcription factors produced as a result of a signal transduction cascade can, in turn, activate yet more genes. Therefore an initial stimulus can trigger the expression of an entire cohort of genes, and this, in turn, can lead to the activation of any number of complex physiological events. These events include the increased uptake of glucose from the blood stream stimulated by insulin<ref name=rosen/> and the migration of neutrophils to sites of infection stimulated by bacterial products. The set of genes and the order in which they are activated in response to stimuli are often referred to as a ''genetic program''.<ref name=massaque></ref>
+
+electrochemical impulses. Ligands can be freely soluble,<ref name=carpenter/> or can be found on the surface of other cells or within the phagocytic cell presents lymphocytes, or upon adhesion to the extracellular matrix, as when integrins at the cell surface of fibroblasts engage fibronectin.<ref name=johansson></ref>
+
+Most mammalian cells require stimulation to control not only cell division but also survival.  In the absence of programmed cell death ensues in most cells.  Such requirements for extra-cellular stimulation are necessary for controlling cell behavior in the context of both unicellular and multi-cellular organisms.  Signal transduction pathways are perceived to be so central to biological processes that it is not surprising that a large number of diseases have been attributed to their disregulation.
+
+Discussed below are how signal transduction via various classes of receptor may lead to the above cellular responses.
+
+== Types of receptor ==
+Receptors can be roughly divided into two major classes:
+
+#Intracellular receptors and
+#Cell-surface receptors. 
+
+Ligand-gated ion channel receptors are a class of receptor that may occur both at the cell-surface or intracellularly.
+
+Receptors that are solely vitamin D<sub>3</sub>. In contrast to ligands that bind to cell surface receptors, in order to initiate signal transduction these ligands must cross the intracellular receptors section below for more details. 
+
+===Cell-surface receptors===
+
+Cell-surface receptors are integral transmembrane proteins and recognize the vast majority of extracellular signaling molecules. ligand to its extracellular domain; the ligand itself does not pass through the plasma membrane prior to receptor-binding. 
+
+Binding of a ligand to a cell-surface receptor stimulates a series of events inside the cell, with different types of receptor stimulation of different intracellular responses. Receptors typically respond to only the binding of a specific ligand. Upon binding, the ligand initiates the transmission of a signal across the plasma membrane by inducing a change in the shape or conformation of the intracellular part of the receptor (see this link [http://www.bio-balance.com/JMGM_article.pdf]for a molecular model for receptor activation). Often, such changes in conformation either result in the activation of an enzymatic activity contained within the receptor or expose a binding site for other signaling proteins within the cell.  Once these proteins bind to the receptor, they themselves may become active and propagate the signal into the cytoplasm.
+
+In eukaryotic cells, most intracellular proteins activated by a ligand/receptor interaction possess an enzymatic activity. These enzymes include phosphatases, lipid kinases, and hydrolases.  Some receptor-stimulated enzymes create specific Phosphatidylinositol-triphosphate (PIP<sub>3</sub>), Diacylglycerol (DAG) and Inositol-triphosphate (IP<sub>3</sub>), IP<sub>3</sub>, controlling the release of intracellular calcium stores into the cytoplasm (see second messengers section later in this article).  Other activated proteins interact with adapter proteins. Adapter proteins facilitate interactions between other signaling proteins, and coordinate the formation of signaling complexes necessary to produce an appropriate cellular response to a particular stimulus.  Enzymes and adapter proteins are both responsive to various second messenger molecules.
+
+Many of the enzymes activated as part of the signal transduction mechanism and also many adapter proteins have been found to possess specialized protein domains that bind to specific secondary messenger molecules.  For example, calcium ions bind specifically to the EF hand domains of calmodulin, allowing this molecule to bind and activate Calmodulin-dependent kinase.  PIP<sub>3</sub>, PIP<sub>2</sub> and other phosphoinositides may bind to the Pleckstrin homology domains of proteins such as the kinase protein AKT again with activation activity.
+
+There are many different classes of transmembrane receptor that recognize different extracellular signaling molecules. Specific example receptors discussed in this article are:
+
+#G-protein coupled receptors, e.g., Chemokine receptors 
+#Receptor tyrosine kinases, e.g., Growth factor receptors, 
+#Integrins
+#Toll-like receptors
+
+Further examples are given in the transmembrane receptor article.
+
+==== G-protein-coupled receptors ====
+
+300px|thumb|right|Signal transduction from a G-protein-linked receptor following interaction with its hormone ligand
+
+G-protein-coupled receptors (GPCRs) are a family of integral membrane proteins that possess seven membrane-spanning domains, and are linked to a guanine nucleotide-binding protein (or heterotrimeric G protein).  Many receptors make up this family, including adrenergic receptors, neurotransmitter receptors, olfactory receptors, opioid receptors, chemokine receptors, and rhodopsin.
+
+Signal transduction by a GPCR begins with an inactive G protein coupled to the receptor. An inactive G protein exists as a heterotrimer, a molecule composed of three different protein subunits: Gα, Gβ, and Gγ. Once the GPCR recognizes a ligand, the shape (conformation) of the receptor changes to mechanically activate the G protein, and causes one subunit (Gα) to bind a molecule of GTP (causing activation) and dissociate from the other two G-protein subunits (Gβ and Gγ); the dissociation exposes sites on the G-protein subunits that interact with other molecules.<ref></ref> The activated G protein subunits detach from the receptor and initiate signaling from many ''downstream'' effector proteins, including cyclic-AMP (cAMP), cyclic-GMP (cGMP), calcium (Ca<sup>2+</sup>) ions.<ref></ref> For example, a rhodopsin molecule in the plasma membrane of a retina cell in the eye that was activated by a photon can activate up to 2000 effector molecules (in this case, transducin) per second.
+
+The total strength of signal amplification by a GPCR is determined by:
+
+* ''The lifetime of the ligand-receptor-complex.'' If the ligand-receptor-complex is stable, it takes longer for the ligand to dissociate from its receptor, thus the receptor will remain active for longer and will activate more effector proteins.
+* ''The amount and lifetime of the receptor-effector protein-complex.'' The more effector protein is available to be activated by the receptor, and the faster the activated effector protein can dissociate from the receptor, the more effector protein will be activated in the same amount of time.
+* ''Deactivation of the activated receptor.'' A receptor that is engaged in a hormone-receptor-complex can be deactivated, either by covalent modification (for example, phosphorylation) or by internalization (see ubiquitin).
+*''Deactivation of effectors through intrinsic enzymatic activity.'' Either small or large G-proteins possess intrinsic GTPase activity, which controls the duration of the triggered signal. This activity may be increased through the action of other proteins such as GTPase-activating proteins (GAPS).
+
+The idea that G-protein-coupled receptors, to be specific, chemokine receptors, participate in cancer development is suggested by a study wherein a transfected with the CXCR2 expression of CXCR2 in an active conformation, despite the absence of chemokine-binding (the CXCR2 mutant is said to be "constitutively active").
+
+==== Receptor tyrosine kinases ====
+
+insulin receptor and the insulin-like growth factor receptors, and many others receptors.<ref name=LiHris></ref> To conduct their biochemical signals, RTKs need to form dimers in the plasma membrane<ref name=Schlessinger1988>{{cite  journal
+  | author = Schlessinger, J.
+ | year = 1988
+ | title = Signal transduction by allosteric receptor oligomerization.
+ | journal = Trends Biochem Sci
+ | volume = 13
+ | issue = 11
+ | pages = 443-7
+ | url = http://www.ncbi.nlm.nih.gov/sites/entrez?db=pubmed&uid=3075366&cmd=showdetailview&indexed=google 
+ | accessdate = 2007-11-24
+ | doi = 10.1016/0968-0004(88)90219-8 <!--Retrieved from CrossRef by DOI bot-->
+ | pmid = 3075366  }}</ref>. The dimer is stabilized by ligand binding by the receptor. Interaction between the two cytoplasmic domains of the dimer is thought to stimulate autophosphorylation of differentiation, migration.<ref name=LiHris/>
+
+As is the case with G-Protein-coupled receptors, proteins that bind GTP play a major role in transmission of signal from the activated RTK into the cell.  In this case, the G proteins are members of the Ras, Rho, and Ral families, referred to collectively as small G proteins.  These proteins act as molecular switches that are usually tethered to membranes by isoprenyl groups linked to their carboxyl ends.  Thus, upon activation, they are responsible for the recruitment of proteins to specific membrane subdomains where they participate in signaling.  Activated RTKs, in turn, activate small G proteins, which in turn activate Guanine Nucleotide Exchange Factors, such as SOS1.  Once activated, these exchange factors can activate many more small G-proteins, thus amplifying the receptors initial signal.
+
+As with the expression of receptors that exist in a constitutively-activate state. Such mutated RTK genes may act as oncogenes, genes that contribute to the initiation or progression of cancer.<ref name=roskoski></ref>

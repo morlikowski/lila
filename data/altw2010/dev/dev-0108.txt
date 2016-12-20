@@ -1,0 +1,127 @@
+{{コムーネ
+|nomeComune_ja = ローディゴ
+|nomeComune =  Rodigo
+|linkStemma = Rodigo-Stemma.png
+|siglaRegione = LOM
+|siglaProvincia  = MN
+|latitudineGradi = 45
+|latitudineMinuti = 12
+|latitudineSecondi = 0
+|longitudineGradi = 10
+|longitudineMinuti = 38
+|longitudineSecondi = 0
+|mappaX = 101
+|mappaY = 66
+|altitudine = 31
+|superficie = 41
+|abitanti  =  5,177
+|anno =2004年12月31日
+|densita = 123
+|frazioni = Fossato, Rivalta sul Mincio 
+|comuniLimitrofi  = カステッルッキオ、 チェレザーラ、 クルタトーネ、 ガゾルド・デリ・イッポーリティ、 ゴーイト、 ポルト・マントヴァーノ
+|cap = 46040
+|prefisso = 0376
+|istat = 020051
+|fiscale = H481
+|nomeAbitanti  =  rodighesi
+|patrono  = San Bernardino da Siena
+|festivo  = 5月20日
+|sito = http://www.comune.rodigo.mn.it/dwdefault.htm
+}}
+'''ローディゴ'''('''Rodigo''')は、人口5,177人のイタリア共和国ロンバルディア州マントヴァ県のコムーネの一つである。
+
+==地理==
+コムーネはマントヴァから北西約15kmの位置にあり、筆頭地域のローディゴと、リヴァルタ・スル・ミンチョ(Rivalta sul Mincio)とフォッサート(Fossato)の分離集落がある。
+
+==コムーネの行政==
+{{イタリアのコムーネの行政|NomeSindaco=Carlo Grazioli
+|DataElezione=2004年06月14日
+|TelefonoComune=0376 684211 
+|EmailComune=rodigo@tin.it 
+}}
+==外部リンク==
+*[http://www.prolocorivalta.mn.it/index.php Pro Loco "Amici Di Rivalta"]
+
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = Rodigo |
+  name = Rodigo |
+  region = Lombardy |
+  province = Province of Mantua (MN) |
+  elevation_m = 31 |
+  area_total_km2   = 41.6 |
+  population_as_of  = Dec. 2004 |
+  population_total = 5177 |
+  population_density_km2 = 124 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          = Fossato, Rivalta sul Mincio |
+  telephone         = 0376 |
+  postalcode        = 46040 |
+  gentilic          = rodighesi |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           = [http://www.comune.rodigo.mn.it/dwdefault.htm www.comune.rodigo.mn.it/dwdefault.htm] |
+  mapy = 10.6333 |
+  mapx = 45.2000 |
+}}
+'''Rodigo''' is a ''Italian region Lombardy, located about 120 km east of Milan and about 14 km northwest of Mantua. As of 31 December 2004, it had a population of 5,177 and an area of 41.6 km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+The municipality of Rodigo contains the ''frazioni'' (subdivisions, mainly villages and hamlets) Fossato and Rivalta sul Mincio.
+
+Rodigo borders the following municipalities: Castellucchio, Ceresara, Curtatone, Gazoldo degli Ippoliti, Goito, Porto Mantovano.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:6500
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:500 start:0
+ScaleMinor = gridcolor:lightgrey increment:100 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:2770
+  bar:1871 from: 0 till:3155
+  bar:1881 from: 0 till:3275
+  bar:1901 from: 0 till:3591
+  bar:1911 from: 0 till:4199
+  bar:1921 from: 0 till:4903
+  bar:1931 from: 0 till:5474
+  bar:1936 from: 0 till:5579
+  bar:1951 from: 0 till:5935
+  bar:1961 from: 0 till:5372
+  bar:1971 from: 0 till:5095
+  bar:1981 from: 0 till:5106
+  bar:1991 from: 0 till:4883
+  bar:2001 from: 0 till:5023
+
+PlotData=

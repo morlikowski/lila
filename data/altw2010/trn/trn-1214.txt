@@ -1,0 +1,62 @@
+{{noteTA
+|1=zh-hans:位数; zh-hant:位元數目;
+|2=zh-hans:位; zh-hant:位元;
+}}
+
+'''色彩深度'''计算机图形学领域表示在點陣圖或者视频帧缓冲区中儲存1像素的顏色所用的位数，它也称为位/像素（bpp）。色彩深度越高，可用的顏色就越多。
+
+色彩深度是用「n位元顏色」（n-bit colour）來說明的。若色彩深度是n位元，即有2<sup>n</sup>種顏色選擇，而儲存每像素所用的位元數目就是n。常見的有：
+
+* 單位元（單色）：黑白二色。
+* 2位元：4種顏色，用於CGA。
+* 4位元：16種顏色，用於CGA、EGA及VGA。
+* 8位元灰階：都是黑、灰、白色之間，有256個層次。
+* 15或16位元彩色（高彩色）：電腦所用的三原色是紅、綠和藍。在15位元彩色中，每種原色有2<sup>5</sup>=32個層次，共32768種顏色；而在16位元彩色中，綠色有2<sup>6</sup>=64個，共有65536個顏色。
+* 24位元彩色（真彩色）：每種原色都有256個層次，它們的組合便有256*256*256種顏色。
+* 32位元彩色：除了24位元彩色的顏色外，額外的8位元是儲存重疊圖層的圖形資料(alpha頻道)。
+
+'''Color depth''' is a bitmapped image or video frame buffer. This concept is also known as '''bits per pixel''' (bpp), particularly when specified along with the number of bits used. Higher color depth gives a broader range of distinct colors.
+
+== Indexed color ==
+
+With relatively low color depth, the stored value is typically a number representing the index into a color map or palette. The colors available in the palette itself may be fixed by the hardware or modifiable within the limits of the hardware (for instance, both color VGA-equipped IBM-PCs typically ran at 8-bit due to limited VRAM, but while the best VGA systems only offered an 18-bit (262,144 color) palette from which colors could be chosen, all color Macintosh video hardware offered a 24-bit (16 million color) palette). Modifiable palettes are sometimes referred to as '''pseudocolor''' palettes.
+
+300px|thumb|right|1 bit
+* 1-bit color (2<sup>1</sup> = 2 colors) monochrome, often black and white
+* 2-bit color (2² = 4 colors) CGA, gray-scale early NeXTstation
+* 3-bit color (2³ = 8 colors) many early home computers with TV out displays
+300px|thumb|right|4 bits
+* 4-bit color (2<sup>4</sup> = 16 colors) as used by EGA and by the least common denominator VGA standard at higher resolution
+* 5-bit color (2<sup>5</sup> = 32 colors) Original Amiga chipset
+* 6-bit color (2<sup>6</sup> = 64 colors) Original Amiga chipset
+300px|thumb|right|8 bits
+* AGA
+* 12-bit color (2<sup>12</sup> = 4096 colors) some HAM mode.
+
+Old graphics chips, particularly those used in home computers and video game consoles, often feature an additional level of palette mapping in order to increase the maximum number of simultaneously displayed colors. For example, in the ZX Spectrum, the picture is stored in a two-color format, but these two colors can be separately defined for each rectangular block of 8x8 pixels.
+
+== Direct color ==
+As the number of bits increases, the number of possible colors becomes impractically large for a color map. So in higher color depths, the color value typically directly encodes relative brightnesses of red, green, and blue to specify a color in the RGB color model. 
+
+=== 8-bit direct color ===
+A very limited but true direct color system, there are 3 bits (8 possible levels) for both the R and G components, and the two remaining bits in the byte pixel to the B component (four levels), enabling 256 (8 × 8 × 4) different colors. The normal human eye is less sensitive to the blue component than to the red or green, so it is assigned one bit less than the others. Used, amongst others, in some Apple Macintosh and the MSX2 system series of computers in the early to mid 1990s.
+
+Do not confuse with an indexed color depth of 8bpp (although it can be simulated in such systems selecting the adequate table).
+
+=== 12-bit direct color ===
+In 12-bit direct color, there are 4 bits (16 possible levels) for each of the R, G, and B components, enabling 4,096 (16 × 16 × 16) different colors. This color depth is sometimes used in mobile devices with a color display, such as mobile telephones and other equipment.
+
+=== HighColor ===
+Highcolor or HiColor is considered sufficient to provide life-like colors, and is encoded using either 15 or 16 bits:
+
+* 15-bit uses 5 bits to represent red, 5 for green, and 5 for blue. Since 2<sup>5</sup> is 32 there are 32 levels of each color which can therefore be combined to give a total of 32,768 (32 × 32 × 32) mixed colors .
+
+* 16-bit color uses 5 bits to represent red, 5 bits to represent blue, but (since the human eye is more sensitive to the color green) uses 6 bits to represent 64 levels of green. These can therefore be combined to give 65,536 (32 × 64 × 32) mixed colors. Sixteen-bit color is referred to as "thousands of colors" on Macintosh systems.
+
+=== LCD displays ===
+
+* Some cheaper LCD displays use dithered 18-bit color (64 × 64 × 64 = 262,144 combinations) to achieve faster transition times, without sacrificing truecolor display levels entirely.
+
+=== Truecolor ===<!-- This section is linked from Amiga -->
+300px|thumb|right|Truecolor (24+ bits)
+banding and dithering artifacts.

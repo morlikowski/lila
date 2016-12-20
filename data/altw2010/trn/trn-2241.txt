@@ -1,0 +1,44 @@
+'''Adobe Flash Player''' (ou plus simplement '''Flash player''') est un plug-in ou un lecteur multimédia autonome, il est utilisé pour lire des animations, créé et fourni par Macromedia (division d'Adobe Systems). Sa dernière version est la version 9.
+
+Il est officiellement compatible avec les systèmes d'exploitation Solaris, Safari.
+
+Cela dit les utilisateurs de Solaris et Pocket PC n'auront accès qu'à la version 7 et les utilisateurs de HP-UX à la version 6, ces deux versions devenant de plus en plus obsolètes.
+
+Qui plus est, la compatibilité GNU/Linux se résume aux architectures x86. Obtenir le Flash Player sous GNU/Linux 64bits s'avère difficile, et il n'en existe aucune version pour GNU/Linux PowerPC, même si le projet gnash avance à son rythme.
+
+Flash player est un risque pour l'utilisateur, parce qu'il place sur l'ordinateur des fichiers <tt>.sol</tt> qui fonctionnent comme des cookies, et qui ne sont pas facilement détectables par les logiciels de recherche de malware.
+
+{{Infobox Software
+| name                   = Adobe Flash Player
+| logo                   = 64px|Adobe Flash Player Icon
+| screenshot             = 300px|Adobe Flash Player under Linux
+| caption                = Adobe Flash Player under Linux.
+| developer              = Adobe Systems (formerly by Macromedia)
+| released               = 1996
+| frequently_updated     = Yes
+| programming language   = 
+| operating system       = Solaris and Pocket PC
+| platform               = Web browsers
+| language               = English, French, German, Italian, Japanese, Spanish, Korean <ref>[http://www.adobe.com/support/flashplayer/downloads.html Flash Player Download Center]</ref>.  
+| genre                  = Interpreter, Media Player
+| license                = Proprietary freeware EULA
+| website                = [http://www.adobe.com/products/flashplayer/ Adobe Flash Player Homepage]
+}}
+The '''Adobe Flash Player''' is a widely distributed proprietary multimedia and application player created and distributed by Macromedia (a division of Adobe Systems). Flash Player runs SWF files that can be created by the Adobe Flash authoring tool, by Adobe Flex or by a number of other Macromedia and third party tools.
+
+Adobe Flash, or simply Flash, refers to both a multimedia authoring program and the Adobe Flash Player, written and distributed by Adobe, that uses vector and raster graphics, a native scripting language called ActionScript and bidirectional streaming of video and audio. Strictly speaking, Adobe Flash is the authoring environment and Flash Player is the virtual machine used to run the Flash files, but in colloquial language these have become mixed: "Flash" can mean either the authoring environment, the player, or the application files.
+
+Flash Player has support for an embedded scripting language called ActionScript (AS), which is based on ECMAScript. Since its inception, ActionScript has matured from a script syntax without variables to one that supports object-oriented code, and may now be compared in capability to JavaScript (another ECMAScript-based scripting language).
+
+The Flash Player was originally designed to display 2-dimensional vector animation, but has since become suitable for creating GUIs embedded into web pages.
+
+The Flash Player is built into some browsers and is available as a plugin for recent versions of other browsers (such as Opera, Safari and Internet Explorer) on selected platforms. Each version of the plugin is completely backwards-compatible.
+
+==Supported platforms==
+The latest version of Flash Player, Version 9, is available for Windows (98 and newer), Solaris and ARM-based Nokia 770/N800 Internet Tablets, classic Kodak Easyshare One includes Flash Player. The Flash Player SDK was used to develop its on-screen menus, which are rendered and displayed using the included Flash Player.<ref>Macromedia - Flash Player SDK http://www.adobe.com/products/flashplayer_sdk/ (Taken 7 July 2006)</ref> Among other devices, LeapFrog Enterprises provides Flash Player with their Leapster Multimedia Learning System and extended the Flash Player with touch-screen support.<ref>Adobe Success Story: LeapFrog Enterprises http://www.adobe.com/cfusion/showcase/index.cfm?event=casestudydetail&casestudyid=21019&loc=en_us (Taken 7 July 2006)</ref> Sony has integrated Flash Player 6 into the Playstation Portable's web browser via firmware version 2.70. Nintendo has integrated Flash Player 7 in the Internet Channel on the Wii.
+
+No x86-64 editions of the Flash player are currently available for any platform [http://kb.adobe.com/selfservice/viewContent.do?externalId=6b3af6c9], due to the x86-32-specific garbage collector and just-in-time compilation engine [http://www.kaourantin.net/2005/12/flash-player-8-for-linux-update.html]. Adobe engineers have stated that 64-bit editions for all supported platforms, including Linux, are in development [http://www.kaourantin.net/2006/10/flash-player-9-for-linux-beta-1.html]. They have been developing since 2005 a x64 edition of the Flash Player, but have yet to launch.
+
+Although SWF has recently become an open format again, Adobe has not been willing to make complete source code available for free software development. The source code for the ActionScript Virtual Machine has been released as a project named Tamarin [http://www.mozilla.org/projects/tamarin/] under the terms of an MPL/GPL/LGPL tri-license. It includes the specification for the ActionScript byte code format. This project is jointly managed by Mozilla and Adobe. The full specification of the SWF format is available without restriction by Adobe. The principal alternative free software player, gnash, is quite incomplete at this time, however since SWF is now an open format, it should have a much higher quality going forward as developers implement the official SWF specifications.
+
+==Internet Privacy/Persistent Identification Elements==

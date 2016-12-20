@@ -1,0 +1,38 @@
+På Wikipedia finns två alternativ för att återställa artiklar till tidigare versioner; '''gör ogjort''' och ''' rulla tillbaka'''.
+
+Rulla tillbaka är en funktion som både administratörer och [http://sv.wikipedia.org/w/index.php?title=Special%3AAnv%C3%A4ndare&username=&group=rollbacker&limit=50 tillbakarullare] har. Funktionen används för och är ett snabbt sätt att återställa klotter och vandalism.
+
+==Tillbakarullningsfunktion==
+Tillbakarullning används till största delen inom artikelhistoriken. När en administratör eller tillbakarullare ser klotter eller vandalism, kan de gå till artikelns historik och klicka på länken [rulla tillbaka] och genom ett klick eliminera en användares samtliga redigeringar som ligger efter varandra.
+
+==När tillbakarullning inte ska användas==
+*Om det råder tveksamheter om det är klotter eller inte ska inte funktionen användas. Klicka istället på (gör ogjort) och skriv en kommentar i sammanfattningsfältet.
+*Tillbakarullning ska aldrig användas för att återställa en ändring som det råder diskussioner om. Klicka istället på (gör ogjort), skriv en kommentar i sammanfattningsfältet och kommentera på artikelns diskussionssida.
+
+==Hur man får behörighet att rulla tillbaka==
+Vilken administratör som helst kan dela ut behörigheten efter eget omdöme, via Special:Rättigheter. Den som vill ha behörigheten kan anmäla detta på Wikipedia:Begäran om åtgärder. 
+
+The '''rollback feature''' is available to administrators and users with the rollbacker permission on vandalism and nonsense. 
+
+A complete list of users with the rollbacker permission can be found in the page <span class="plainlinks"><font color="002bb8">[ Special:Listusers/rollbacker]</font></span>. The current count (as of  , ) is  users with rollback privileges. Rollback is also available to administrators listed on <span class="plainlinks"><font color="002bb8">[ Special:Listusers/sysop]</font></span>.
+
+==When to use Rollback==
+Rollback must only be used to undo edits that are ''blatantly'' nonproductive, such as vandalism. This includes edits that are obscenities, gibberish, extremely poorly worded content, smart-aleck editorial comments, and other useless remarks that have nothing to do with the subject.
+
+Rollback can also be used when an editor wishes to revert their '''''own''''' edits, and there is no benefit in providing an enhanced edit summary. It should be noted that the original edits will still remain in the page history.
+
+==When ''not'' to use Rollback==
+If there is ''any'' doubt about whether an edit should be rolled back, please '''do not''' use this feature. Use the '''undo''' feature instead, and add a more informative edit summary explaining your revert. '''<font color="red"> Misuse of rollback may cause the feature to be revoked by an administrator.</font>''' As rollback is automatically available to administrators, it is not possible to remove their rollback rights individually without also removing their administrator access.
+
+Users are given wide latitude to administer their own talk pages as they see fit. Using rollback on one's own talk page to remove non-vandalism comments from other users is not considered misuse, but is deprecated.
+
+==How it works==
+The Rollback feature is available within the history page of an article, a diff and a user's contributions page.  When an admin or rollbacker sees an unworthy change to an article (usually vandalism), as long as the change they wish to rollback is the latest edit to the article, they can click the 'rollback' link which will revert the vandal's edit.
+
+If the vandal made more than one edit to the article in a row, the version reverted to will be the latest version made by a user other than the vandal. The automatically generated edit summary for rollback looks like this:
+
+:'''m''' ''Reverted edits by '''User A''' ('''talk''') to last version by '''User B'''
+
+Where '''User A''' depicts the editor whose changes are being reverted, while '''User B''' signals the editor of the version the admin or rollbacker reverted User A's changes to.  Because the feature is used mostly to revert vandalism, a link to '''User A's''' contributions and talk page is also included as an easy way to issue warnings to that user.  At one time there was a link beside it to block that user, although it has since been removed.
+
+In all cases the Rollback signals itself as a "minor edit", hence the bold "m" at the beginning.

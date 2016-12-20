@@ -1,0 +1,165 @@
+In informatica, una '''Lista''' (''List'') è una struttura dati astratta che denota una collezione ordinata di oggetti. A seconda dell'implementazione una lista può essere statica o dinamica, ovvero che si autoridimensiona in base all'inserimento o rimozione degli elementi. Una delle caratteristiche che distingue le liste dalle altre strutture di dati astratte, è la possibilità di accedere agli elementi in essa contenuti mediante un indice (che solitamente è compreso tra 0 e ''n''-1, dove ''n'' indica il numero di elementi) che identifica la posizione dell'elemento all'interno della struttura dati.
+
+==Operazioni fondamentali==
+Le operazioni fondamentali offerte da una ''Lista'' sono le seguenti:
+
+*Inserimento [Costo O(1) oppure O(''n'') a seconda dell'implementazione]
+*Rimozione [Costo O(1) oppure O(''n'') a seconda dell'implementazione]
+*Ricerca [Costo O(log(''n'')) oppure O(''n'') a seconda dell'implementazione]
+*Accesso random mediante indice [Costo O(1) oppure O(''n'') a seconda dell'implementazione]
+*Accesso sequenziale [Costo O(1)]
+*Conteggio elementi [Costo O(1) oppure O(''n'') a seconda dell'implementazione]
+
+==Implementazione==
+thumb|230px|right|Esempio di lista implementata mediante strutture collegate
+Principalmente, vi sono due implementazioni delle Liste. Una utilizza come appoggio gli strutture collegate, i due approcci si differenziano per le prestazioni offerte. In particolare un ArrayList offrirà un accesso random al costo di O(1) mentre una LinkedList offrirà un costo O(n), dall'altro lato un inserimento su un ArrayList potrebbe costare O(n) (nel caso di ridimensionamendo dell'array) mentre su una LinkedList costerà sempre O(1).
+
+==Algoritmi di gestione (iterativi)==
+*definizione struttura;
+
+   '''typedef''' '''int''' TKey;   
+   '''typedef''' '''int''' TSat;
+   '''struct''' SInfo{
+      TKey key;
+      TSat satellite;
+   };
+   '''typedef struct''' SInfo TInfo;
+   '''struct''' TNode{
+      TInfo info;
+      '''struct''' TNode *link;
+   };
+   '''typedef struct''' TNode SNode;
+   '''typedef''' TNode* TList;
+
+*Creazione 
+
+   TList list_create (){
+      '''return''' NULL;
+   }
+
+*Inserimento 
+
+   TList list_insert (TList list, TInfo info){
+      TList curr,succ;
+      curr = NULL;
+      succ = list;
+      '''while'''(succ!=NULL && greater(info.key,succ->info.key)){
+         curr = succ;
+         succ = succ->link;
+      }
+      TNode* new;
+      new = (TNode)malloc('''sizeof'''(TNode));
+      new->info = info;
+      '''if'''(curr == NULL){
+         new->link = list;
+         '''return''' new;
+      }'''else'''{
+         curr->link = new;
+         new->link  = succ;
+         '''return''' list;
+      }
+   }
+
+*Rimozione
+   
+   TList list_delete (TList list, TKey key){
+      TList curr, succ;
+      curr = NULL;
+      succ = list;
+      '''while'''(succ!=NULL && greater(key,succ->info.key)){
+         curr = succ;
+         succ = succ->link;
+      }
+      '''if'''(succ!=NULL && equal(key,succ->info.key)){
+         '''if'''(curr == NULL)
+            list = succ->link;
+         '''else'''
+            curr = succ->link
+         free(succ);
+      }
+      '''return''' list;
+   }
+
+*Cerca
+
+   T_Node* list_search(T_List list,T_Key key){
+      T_List curr;
+      curr=list;
+      '''while'''((curr!=NULL) && greater_team(key,curr->info.tag)){
+         curr=curr->link;
+      }
+      '''if'''((curr!=NULL) && equal_team(key,curr->info.tag)){
+         '''return''' curr;
+      }'''else'''
+         '''return''' NULL;      
+   } 
+
+*Visita con stampa
+  
+   '''void''' list_visit(T_List list){
+      T_List curr;
+      curr=list;
+      '''while'''(curr!=NULL){
+         print_node(curr->info);
+         curr=curr->link;
+      }     
+   }
+
+*Conta Nodi 
+   
+   '''int''' conta_nodi(T_List list){
+      '''if'''(list==NULL)
+         '''return''' 0;
+      '''else'''
+         '''return''' (1 + conta_nodi(list->link));  
+   }
+
+*Distruzione lista
+
+   T_List list_destroy(T_List list){
+      T_List curr,succ;
+      curr=list;   
+      '''while'''(curr!=NULL){
+         succ=curr->link;
+         free(curr);
+         curr=succ;
+      }
+   }
+
+==Algoritmi di gestione (ricorsivi)==
+
+:''This article is about the word list as used in computer science. For other uses, see list (disambiguation).''
+
+In collection of entities/items.  
+
+In the context of ordered collection of entities. For example, an ADT for untyped, mutable lists may be specified in terms of a constructor and four operations:
+
+* a constructor for creating an empty list;
+* an operation for testing whether or not a list is empty;
+* an operation for prepending an entity to a list
+* an operation for determining the first component (or the "head") of a list
+* an operation for referring to the list consisting of all the components of a list except for its first (or its "tail")
+
+An example of a list - a single linked-list, with 3 integer values|thumb|right
+
+In practice, lists are usually implemented using arrays or linked lists of some sort; due to lists sharing certain properties with arrays and linked lists. Informally, the term list is sometimes used synonymously with linked list. A '''sequence''' is another name, emphasizing the ordering and suggesting that it may not be a linked list.
+
+==Characteristics==
+Lists have the following properties:
+*The '''size''' of '''lists'''. It indicates how many elements there are in the list.
+*'''Equality''' of lists:
+**In mathematics, sometimes equality of lists is defined simply in terms of object identity: two lists are equal if and only if they are the same object.
+**In modern programming languages, equality of lists is normally defined in terms of structural equality of the corresponding entries, except that if the lists are typed, then the list types may also be relevant.
+*Lists may be '''typed'''. This implies that the entries in a list must have types that are compatible with the list's type. It is common that lists are typed when they are implemented using arrays.
+*Each element in the list has an '''index'''. The first element has index 0 (or some other predefined integer). Subsequent elements have indices that are 1 higher than the previous element. The last element has index (initial index) + (size) − 1.
+**It is possible to retrieve the element at a particular index.
+**It is possible to traverse the list in the order of increasing index.
+**It is possible to change the element at a particular index to a different value, without affecting any other elements.
+**It is possible to insert an element at a particular index. The indices of elements at higher indices are increased by 1.
+**It is possible to remove an element at a particular index. The indices of elements at higher indices are decreased by 1.
+
+==Applications ==
+As the name implies, lists can be used to store a list of records. The items in a list can be sorted or unsorted for the purpose of fast search (binary search for instance) or fast inserting.
+
+==Implementations==
+There are two main ways to implement lists: linked lists (either singly or doubly-linked) and dynamic arrays. See those articles for more information.

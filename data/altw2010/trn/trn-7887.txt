@@ -1,0 +1,124 @@
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = Santa Brigida |
+  name = Santa Brigida |
+  region = Lombardy |
+  province = Province of Bergamo (BG) |
+  elevation_m = 805 |
+  area_total_km2   = 14.2 |
+  population_as_of  = Dec. 2004 |
+  population_total = 623 |
+  population_density_km2 = 44 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          =  |
+  telephone         = 0345 |
+  postalcode        = 24010 |
+  gentilic          = sambrigedesi |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           =  |
+  mapy = 9.6167 |
+  mapx = 45.9833 |
+}}
+'''Santa Brigida''' is a ''Italian region of Lombardy, located about 70 km northeast of Milan and about 30 km north of Bergamo. As of 31 December 2004, it had a population of 623 and an area of 14.2 km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+Santa Brigida borders the following municipalities: Cusio, Gerola Alta, Olmo al Brembo.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:2000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:1000 start:0
+ScaleMinor = gridcolor:lightgrey increment:200 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:635
+  bar:1871 from: 0 till:684
+  bar:1881 from: 0 till:711
+  bar:1901 from: 0 till:876
+  bar:1911 from: 0 till:1012
+  bar:1921 from: 0 till:1078
+  bar:1931 from: 0 till:865
+  bar:1936 from: 0 till:751
+  bar:1951 from: 0 till:930
+  bar:1961 from: 0 till:804
+  bar:1971 from: 0 till:788
+  bar:1981 from: 0 till:694
+  bar:1991 from: 0 till:646
+  bar:2001 from: 0 till:635
+
+PlotData=
+
+{{コムーネ
+|nomeComune_ja = サンタ・ブリージダ
+|nomeComune =  Santa Brigida
+|linkStemma  =  Santa Brigida (BG)-Stemma.png
+|siglaRegione = LOM
+|siglaProvincia  = BG
+|latitudineGradi = 45
+|latitudineMinuti = 59
+|latitudineSecondi = 0
+|longitudineGradi = 9
+|longitudineMinuti = 37
+|longitudineSecondi = 0
+|mappaX = 77
+|mappaY = 40
+|altitudine = 805
+|superficie = 14
+|abitanti  =  635
+|anno  =   
+|densita = 45
+|frazioni =  Nessuna
+|comuniLimitrofi  = クージオ、 ジェローラ・アルタ (SO)、 オルモ・アル・ブレンボ
+|cap = 24010
+|prefisso = 0345
+|istat = 016191
+|fiscale = I168
+|nomeAbitanti  =  sambrigedesi
+|patrono  = 聖マリア・マッダレーナ (Santa Maria Maddalena)
+|festivo  = 7月22日
+|sito =  http://www.comune.santabrigida.bg.it/
+}}
+'''サンタ・ブリージダ'''('''Santa Brigida''')は、人口635人のイタリア共和国ロンバルディア州ベルガモ県のコムーネの一つである。
+
+==コムーネの行政==
+{{イタリアのコムーネの行政|NomeSindaco=Giovanni Giuseppe Regazzoni
+|DataElezione=2004年06月14日
+|TelefonoComune=0345 88031 
+|EmailComune=non&nbsp;disponibile 
+}}
+
+Category:イタリアのコムーネ
+Category:ロンバルディア州のコムーネ
+Category:ベルガモ県のコムーネ

@@ -1,0 +1,46 @@
+thumb|ENIAC auf einem Bild der US-Armee
+Der '''Electronic Numerical Integrator and Computer''' (ENIAC) war der erste rein elektronische digitale US-Armee wurde er ab ballistischer Tabellen.
+
+Ähnlich dem kryptographischen Spezialrechner, benutzte der ENIAC Z3 (Architektur aufwies, aber noch auf elektromechanischen ASCC (erbaut zwischen 1939 und 1944, später als „Mark I“ bekannt) verwendete der ENIAC ein Dezimalsystem zur Darstellung von Zahlen.
+
+== Geschichte ==
+Der ENIAC bestand aus 40 parallel arbeitenden Komponenten, von denen jede 60 cm breit, 270 cm hoch und 70 cm tief war. Die komplette Anlage war in U-Form aufgebaut, beanspruchte eine Fläche von 10×17 m und wog 27 t. Der Stromverbrauch der 17.468 Elektronenröhren, 7.200 Widerstände und 10.000 Kondensatoren lag bei 174 kW. Der Bau des ENIAC kostete 468.000 $, ein Betrag, der nur aufgrund des hohen Bedarfs an Rechenleistung seitens der US-Armee zur Verfügung stand. Im Vergleich zu seinen Vorgängern beeindruckt der ENIAC schon durch seine schiere Größe.
+
+Der ENIAC konnte addieren, subtrahieren, multiplizieren, dividieren und Quadratwurzeln ziehen. Er wurde programmiert, indem man die einzelnen Komponenten mit Kabeln verband und die gewünschten Operationen auf Drehschaltern einstellte. Eine Addition/Subtraktion brauchte 0,2 Millisekunden, eine Multiplikation bis zu 2,8 ms, eine Division bis zu 24 ms und eine Quadratwurzel mehr als 300 ms. 
+
+Der ENIAC wurde von Frauen programmiert, den „ENIAC-Frauen“: Kay McNulty Mauchley Antonelli, Jean Bartik, Betty Holberton, Marlyn Meltzer, Frances Spence und Ruth Teitelbaum. Sie hatten zuvor an der Heimatfront ballistische Berechnungen an mechanischen Tischrechnern durchgeführt.
+thumb|Röhrenhalter des ENIAC
+Ein großes Problem bei der Entwicklung des ENIAC war die Fehleranfälligkeit der Elektronenröhren. Wenn nur eine der 17.468 Röhren ausfiel, rechnete die gesamte Maschine fehlerhaft. Um die Kosten dieser unvermeidlichen Ausfälle gering zu halten, wurden in den ENIAC eigens Diagnoseprogramme eingebaut, die das Auffinden einer auszutauschenden Röhre erleichterten. Eine Gegenmaßnahme bestand darin, stärkere Röhren einzubauen, als man eigentlich gebraucht hätte, und diese nur mit etwa 10% ihrer Nennleistung zu betreiben. Außerdem wurde bemerkt, dass mehr Röhren beim Ein- und Ausschalten kaputt gingen, als während des laufenden Betriebs. Als Konsequenz ging man dazu über, den ENIAC einfach nicht mehr auszuschalten. Die Ausfallzeit konnte so auf wenige Stunden je Woche reduziert werden.
+
+Von Philadelphia aus zog der ENIAC 1947 ins nahegelegene Ballistic Research Lab in Aberdeen um und berechnete bis zu seiner Abschaltung Geschossbahnen.
+
+Mauchly und Eckert gründeten 1946 eine Computerfirma, die Atanasoffs ABC einige Eigenschaften aufwies, die für den ENIAC patentiert waren. Da Mauchly während eines Besuches bei Atanasoff im Jahr 1941 Gelegenheit hatte, den ABC zu studieren, und wahrscheinlich einige Inspiration daraus zog, wurde der ENIAC vom Gericht als abgeleitetes Werk angesehen. Der Ruhm für die Erfindung des ersten elektronischen Rechners, den Mauchly und Eckert bis dahin geteilt hatten, geht seither auf Atanasoff über.
+
+== Funktionsweise des ENIAC ==
+Grundlegende Komponente für die Funktion des ENIAC war der Akkumulator, der eine 10-stellige vorzeichenbehaftete Dezimalzahl speichern sowie addieren und subtrahieren konnte. Jeder der 20 Akkumulatoren konnte eine solche Rechenoperation in 0,2 Millisekunden durchführen. Dieses Zeitintervall wird auch als Additionszyklus bezeichnet. Für Rechnungen mit doppelter Genauigkeit ließen sich zwei Akkumulatoren zusammenschalten.
+
+Weitere arithmetische Komponenten waren der Multiplikator (drei Exemplare) und der Divider/Square-Rooter. Ein Multiplikator implementierte eine Multiplikationstabelle, nach der ein Unterprogramm gesteuert wurde, das auf vier Akkumulatoren lief. Eine Multiplikation dauerte (je nach Länge der Zahlen) bis zu 2,8 Millisekunden. Ähnlich war auch der Divider/Square-Rooter konstruiert, der für eine Division bzw. Quadratwurzel bis zu 65 Millisekunden (13 Additionszyklen je Ziffer) benötigte. Die Programmierung komplexer Berechnungen war mit dem Master Programmer (zwei Exemplare) möglich, der rekursive Programmierung erlaubte.
+
+Für den Start der Anlage war die Initiating Unit zuständig. Beim Einschalten des ENIAC nahmen die Flipflops zufällige Werte an, sodass die Komponenten in einem undefinierten Zustand waren. Durch ein spezielles Programm der Initiating-Unit konnten die Flipflops in einen definierten Zustand gebracht, und z. B. die Akkumulatoren mit 0 initialisiert werden. Des Weiteren hatte die Initiating-Unit einen Startknopf, mit dem ein ENIAC-Programm manuell gestartet wurde. Als Taktgeber diente die Cycling Unit, die die anderen Komponenten über statische Kabel mit Steuerpulsen versorgte. Sie konnte auch in einen Schritt-für-Schritt-Modus geschaltet werden, der die Fehlersuche vereinfachte.
+
+Als ROM dienten der Constant Transmitter (bestehend aus drei Komponenten) und die Function Tables (drei Komponenten, je drei Exemplare). Ersterer diente hauptsächlich zur Ansteuerung eines Lochkartenlesers. Auf letzteren wurden je 104 zehnstellige Dezimalzahlen (allerdings nur sechs Stellen individuell einstellbar) bei einer Zugriffszeit von fünf Additionszyklen gespeichert. Rechenergebnisse konnten auch gedruckt werden: Über das Printer Panel (bestehend aus drei Komponenten) konnte ein Lochkartendrucker angesteuert werden.
+
+Eine unmittelbare visuelle Ausgabe war in die Akkumulatoren integriert: Im oberen Bereich der Komponente gab es 102 Neonbirnchen zur Anzeige der aktuell gespeicherten Zahl (je zehn für jede der zehn Ziffern, zwei für das Vorzeichen). Anlässlich der ersten öffentlichen Präsentation des ENIAC im Februar 1946 stülpte man einen halbierten Tischtennisball über jede Leuchte – ein Design, das Vorbild für viele folgende Computer war und geradezu stilbildend für die damalige Science-Fiction.
+
+thumb|Eniac
+'''Eniac''' (egentligen ''ENIAC'', 
+''Electronic Numerical Integrator And Calculator'') började utvecklas projektilbanor. ENIAC var en av de första helelektroniska, turingkompletta, digitala datorerna men den var inte först. Colossus  i England och Z3 i Tyskland var före.
+
+Man övervägde att bygga en analog maskin, men en maskin som arbetade enligt den principen skulle inte klara av uträkningarna tillräckligt snabbt.
+Lösningen var en digital maskin. Den snabbaste komponent som fanns att åtgå på den tiden var elektronröret (även kallad Vacuumtub och radiorör) tyvärr så var dessa ganska omständiga att använda sig av, mer om detta längre ned. Eniac stod klar 1946. Den vägde 30 ton och tog upp en golvyta på 130 m². Vidare bestod den av omkring 18&nbsp;000 elektronrör, 70&nbsp;000 resistorer, 10&nbsp;000 kondensatorer, 6&nbsp;000 strömbrytare och 1&nbsp;500 reläer.
+
+Nackdelarna med Eniac var att maskinen var väldigt effektkrävande och att delar i den gick sönder två till tre gånger i veckan. Den var mycket omständlig att programmera om från en uppgift till en annan. När den skulle göra väderprognoser för 24 timmar tog det nästan 24 timmar att ta fram prognosen. Därför använde man Eniac endast för att göra militära och tekniskt vetenskapliga uträkningar. Den hade en kapacitet av 5000 additioner per sekund. Den krångliga programmeringen som bestod av att koppla om sladdar i maskinens inre byttes år 1948 ut mot en enklare metod.
+
+ENIAC var inte en S.k "Binär dator" då den räknade med ett system bestående av tio siffror (det decimala talsystemet, vilket människor oftast brukar). Detta gjorde att man inte behövde konvertera några tal efter att man räknat färdigt, däremot så försvårade det konstruktionen avsevärt.
+
+==Se även==
+*Z1
+*Z2
+*Z3
+*Z4
+*Colossus

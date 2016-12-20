@@ -1,0 +1,21 @@
+A '''MIDlet''' is a Java program for embedded devices, more specifically the Java ME virtual machine. Generally, these are games and applications that run on a cell phone.
+
+==Mobile Information Device toolkit==
+A MIDlet requires a device that implements at least CLDC and MIDP to run. Like other Java programs, MIDlets have a "compile once, run anywhere" potential. MIDlet distributions main file is a .jar file, but MIDlet distributions can also consist of a .jad file containing the location of and describing the contents of the .jar file. The implementation of a MIDlet may or may not require the presence of a .jad file.
+
+A MIDlet has to fulfill the following requirements in order to run on a mobile phone:
+* The main class needs to be a subclass of javax.microedition.midlet.MIDlet
+* The MIDlet needs to be packed inside a .jar file (e.g. by using the jar-tool)
+* The .jar file needs to be pre-verified by using a preverifier.
+* In some cases, the .jar file needs to be signed by the mobile phone's carrier.
+
+Ein '''MIDlet''' ist eine Software für ein Java geschrieben ist und dem ''Mobile Information Device Profile'' (MIDP) entspricht. MIDP ist wiederum ein Teil der ''Java Platform Micro Edition'' (Java ME) und eines der Profile der ''Connected Limited Device Configuration'' CLDC.
+
+Mehrere MIDlets können zu einer ''MIDlet-Suite'' zusammengefasst werden, so dass sich die einzelnen MIDlets Ressourcen und Programmcode teilen können.
+
+Viele der existierenden kostenpflichtigen Spiele für Embedded-Java-Basis. Die kostenlosen Anwendungen reichen von kleinen E-Book-Readern über Kalender- oder Telnet-Clienten bis hin zu einem BASIC-Interpreter.
+
+== MIDlet Lebenszyklus ==
+MIDlets können sich, nachdem sie gestartet wurden, in mehreren Zuständen befinden und zwischen ihnen wechseln. Die Java Application Management Software (AMS) steuert den Lebenszyklus (engl. "life cycle") eines MIDlets. Dieser Programmmanager ist u. a. dafür verantwortlich, MIDlets zu initialisieren, zu starten, zu pausieren, wiederaufzunehmen und zu beenden. Demnach kann sich ein MIDlet in vier Zuständen befinden: ''Loaded'', ''Paused'', ''Active'' und ''Destroyed''.
+
+thumb|450px|right|Lebenszyklus eines MIDlets 

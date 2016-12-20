@@ -1,0 +1,199 @@
+right|thumb|150px|Kemijska struktura serotonina
+'''Serotonin''' (tudi '''5-hidroksitriptamin''' ali '''5-HT''') je tkivnega hormona in živčnega prenašalca. Ime izhaja iz njegovega učinka na krvni tlak; serotonin je snov, ki jo nahajamo v '''ser'''umu in ki vpliva na '''ton'''us krvnih žil.
+
+== Biosinteza in razgradnja ==
+
+thumb|right|300px|Biosinteza in razgradnja serotonona
+Serotonin se v človeškem telesu sintetizira iz aminokisline L-triptofan v naslednjih organih:
+*osrednje živčevje,
+*pljuča,
+*vranica,
+*enterokromafine celice črevesne sluznice.
+
+V prvi stopnji nastane iz triptofana pod vplivom encima ''tripfofan-hidroksilaze'' vmesni produkt ''5-hidroksitriptofan''. Slednji se s pomočjo encima ''5-hidroksitriptofan-dekarboksilaze'' pretvori v končni produkt serotonin. 
+
+V osrednjem živčevju nastaja serotonin po gornji poti v posebnih mešičkih (veziklih) v presinaptičnih nevronih, kjer se skladiščijo do ustreznega impulza, nakar se serotonin sprosti v sinaptično režo.
+
+Serotonin, ki ni nevralnega izvora, nastaja predvsem v krvnih ploščicah in mastocitih.
+
+Glavni encim, odgovoren za razgradnjo serotonina, je monoamin-oksidaza. Ta encim pretvori serotonin preko 5-hidroksiindolil-acetaldehida v začetno aminokislino triptofan.
+
+===Inhibitorji monoamin-oksidaze===
+Zaviralci oziroma inhibitorji monoamin-oksidaze so učinkovine, ki inhibirajo encim monoamin-oksigenazo in na ta način dvignejo koncentracijo biogenih aminov v telesu. Uporabljajo se kot antidepresivi, anksiolitiki ...
+
+Primeri učinkovin, ki delujoje kot inhibitorji monoamin-oksidaze:
+*seleginil,
+*moklobemid.
+
+== Receptorji==
+Doslej je poznanih že 14 različnih receptorjev za serotonin, ki so razvrščeni v 7 družin: 5-HT<sub>1</sub> do 5-HT<sub>7</sub>. Vsi serotoninski receptorji, izvzemši 5-HT<sub>3</sub>, so sklopljeni s proteinom G; 5-HT<sub>3</sub> je ionski kanal.
+
+V krvožilju prevladujejo zlasti 5-HT<sub>2A</sub>-receptorji. Odgovorni so za strjevanje krvi, skupaj s 5-HT<sub>1B</sub>-, 5-HT<sub>2B</sub>- in 5-HT<sub>7</sub>-receptorji pa za skrčenost krvnih žil. 
+V možganih so prisotni predvsem 5-HT<sub>1</sub> (zlasti 5-HT<sub>1A</sub> in 5-HT<sub>1B</sub>), 5-HT<sub>2</sub> (zlasti 5-HT<sub>2A</sub> in 5-HT<sub>2C</sub>) in 5-HT<sub>3</sub>. 
+
+V gastrointestinalnem traktu imajo 5-HT<sub>3</sub> in 5-HT<sub>4</sub>-receptorji pomembno vlogo pri uravnavanju motilitete (gibljivosti) črevesja. Te receptorje lahko z zdravili aktiviramo (z agonisti) ali pa jih blokiramo (z antagonisti).
+
+== Funkcije ==
+
+{{Chembox new
+| ImageFileL1 = Serotonin (5-HT).svg
+| ImageSizeL1 = 145px
+| ImageFileR1 = Serotonin-3D-vdW.png 
+| ImageSizeR1 = 145px
+| IUPACName = 5-Hydroxytryptamine or<br>3-(2-aminoethyl)-1''H''-indol-5-ol
+| OtherNames = 
+| Section1 = {{Chembox Identifiers
+|   CASNo = 50-67-9
+|   PubChem = 5202
+|   SMILES = NCCc1c[nH]c2ccc(O)cc12
+|   MeSHName = Serotonin
+|   InChI = <small>1/C10H12N2O/c11-4-3-7-6-12-10-2-1- 8(13)5-9(7)10/h1-2,5-6,12-13H,3-4,11H2</small>
+  }}
+| Section2 = {{Chembox Properties
+|   Formula = </sub>C<sub>10</sub>H<sub>12</sub>N<sub>2</sub>O<sub>
+|   MolarMass = 176.215
+|   Appearance = 
+|   Density = 
+|   MeltingPt = 
+|   BoilingPt = 
+  }}
+| Section3 = {{Chembox Hazards
+|   Solubility = 
+|   MainHazards = 
+|   FlashPt = 
+|   Autoignition = 
+  }}
+}}
+
+'''Serotonin''' () ('''5-hydroxytryptamine''', or '''5-HT''') is a monoamine neurotransmitter synthesized in serotonergic neurons in the central nervous system (CNS) and enterochromaffin cells in the gastrointestinal tract of animals including humans. Serotonin is also found in many mushrooms and plants, including fruits and vegetables.
+
+== Function ==
+
+In the body temperature, mood, sexuality, appetite, and metabolism, as well as stimulating vomiting.
+
+Serotonin has broad activities in the brain, and genetic variation in serotonin receptors and the depression was found to interact with the environment <ref></ref>.
+
+Levels of serotonin in the brain show association with aggression (Caspi et al. 2002), and  a mutation in the gene which codes for the 5-HT<sub>2A</sub> receptor may double the risk of suicide for those with that genotype.<ref>{{Cite journal
+ | author = Greg Basky
+ | title = Suicide linked to serotonin gene 
+ | journal = CMAJ
+ | month = May
+ | year = 2000
+ | volume = 162
+ | issue = 9
+ | url = http://www.cmaj.ca/cgi/content/full/162/9/1343-a
+}}</ref>
+
+Using the ultimatum game as model, it was shown that people whose serotonin levels have been artificially lowered will reject unfair offers more often than players with normal serotonin levels.<ref>{{Cite journal
+| doi = 10.1126/science.1155577
+| pages = 1155577
+| last = Crockett
+| first = Molly J.
+| coauthors = Luke Clark, Golnaz Tabibnia, Matthew D. Lieberman, Trevor W. Robbins
+| title = Serotonin Modulates Behavioral Reactions to Unfairness
+| journal = Science
+| accessdate = 2008-06-22
+| date = 2008-06-05
+| url = http://www.scn.ucla.edu/pdf/Crockett%20(2008).pdf
+| pmid = 18535210
+}}</ref>
+
+In addition, serotonin is also a peripheral signal mediator. It is found extensively in the human gastrointestinal tract as about 80-90% of the body's total serotonin is found in the enterochromaffin cells in the gut.<ref>[http://web.indstate.edu/thcme/mwking/nerves.html Indiana State University]</ref><ref>[http://www.clinlabnavigator.com/Tests/Serotonin.html] Serotonin tests info, Accessed May 6, 2008</ref> In the blood, the major storage site is platelets, which collect serotonin for use in mediating post-injury vasoconstriction. 
+
+Recent research suggests that serotonin plays an important role in liver regeneration and acts as a mitogen (induces cell division) throughout the body.
+
+<b>Serotonin and SIDS</b>
+<P>
+Defective signalling of serotonin in the brain may be at the root cause of sudden infant death syndrome (SIDS), Italian researchers have found. 
+
+<P>Scientists from the European Molecular Biology Laboratory in Monterotondo, Italy genetically modified the lab mice to produce low levels of the brain signaling protein serotonin. The results showed the mice suffered drops in heart rate and other symptoms of SIDS, and many of the animals died at an early age.
+
+<P>Researchers now believe that low levels of serotonin in the animals' brainstems, which control heartbeat and breathing, may have caused sudden death, researchers said in the July 4, 2008 issue of Science.
+
+<ref>{{cite journal
+| author = Lesurtel M. et al
+| year = 2006
+| title = Platelet-derived serotonin mediates liver regeneration
+| journal = Science
+| volume = 312
+| issue = 5770
+| pages = 104–7
+| pmid = 16601191
+| doi = 10.1126/science.1123842
+}}</ref>
+
+==Anatomy==
+=== Gross anatomy ===
+
+The neurons of the raphe nuclei are the principal source of 5-HT release in the brain.<ref>{{cite book
+ | author = Alan Frazer and Julie G. Hensler
+| editor = George J. Siegel
+| others = Bernard W. Agranoff, Stephen K. Fisher, R. Wayne Albers, Michael D. Uhler
+| title = Basic Neurochemistry
+| url = http://www.ncbi.nlm.nih.gov/books/bv.fcgi?rid=bnchm
+| edition = Sixth
+| year = 1999
+| publisher = Lippincott Williams and Wilkins
+| id = ISBN 0-397-51820-X
+| chapter = Understanding the neuroanatomical organization of serotonergic cells in the brain provides insight into the functions of this neurotransmitter
+| chapterurl = http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Search&db=books&doptcmdl=GenBookHL&term=raphe+AND+serotonin+release+AND+bnchm%5Bbook%5D+AND+160428%5Buid%5D&rid=bnchm.section.946#949
+| quote = In 1964, Dahlstrom and Fuxe (discussed in [2]), using the Falck-Hillarp technique of histofluorescence, observed that the majority of serotonergic soma are found in cell body groups, which previously had been designated as the raphe nuclei.
+}}</ref>
+The raphe nuclei are neurons grouped into about nine pairs and distributed along the entire length of the The [[Raphe nuclei group of brain stem from the labels 'Mid Brain' to 'Oblongata', centered on the See relevant image.)</ref>
+
+Axons from the neurons of the raphe nuclei form a neurotransmitter system, reaching large areas of the brain. Axons of neurons in the ''caudal'' dorsal raphe nucleus terminate in the following locations:
+
+* Deep cerebellar nuclei
+* Cerebellar cortex
+* Spinal cord
+
+On the other hand, axons of neurons in the ''rostral'' dorsal raphe nucleus terminate in e.g.:
+<div style="column-count: 3;">
+
+* Thalamus
+* Striatum
+* Hypothalamus
+* Nucleus accumbens
+* Neocortex
+* Cingulate gyrus
+* Cingulum
+* Hippocampus
+* Amygdala</div>
+
+Thus, activation of this serotonin system has effects on large areas of the brain.
+
+=== Microanatomy ===
+
+Serotonin is released from serotonergic varicosities (swellings) into the extra neuronal space, but not from synaptic terminal boutons as other neurotransmitters.  Serotonin diffuses over a relatively wide gap (>20µm) to activate 5-HT receptors located on the dendrites, cell bodies and presynaptic terminals of adjacent neurons.
+
+==== Receptors ====
+
+receptors for serotonin. They are located on the cell membrane of nerve cells and other cell types in animals and mediate the effects of serotonin as the hallucinogenic drugs. With the exception of the 5-HT<sub>3</sub> receptor, a ligand gated G protein coupled seven transmembrane (or ''heptahelical'') receptors that activate an intracellular second messenger cascade. 
+
+==== Termination ====
+
+Serotonergic action is terminated primarily via uptake of 5-HT from the synapse. This is through the specific 5-HT reuptake transporter, on the presynaptic neuron. Various agents can inhibit 5-HT reuptake including MDMA (ecstasy), amphetamine, cocaine, dextromethorphan (an antitussive), tricyclic antidepressants (TCAs) and selective serotonin reuptake inhibitors (SSRIs).
+
+===Endothelial cell function and Serotonin ===
+
+5-hydroxytryptamine evokes endothelial nitric oxide synthase activation and stimulates phosphorylation of p44/p42 mitogen-activated protein kinase activation in bovine aortic endothelial cell cultures.<ref>{{Cite journal
+ | author = JE McDuffie
+ | title = -hydroxytryptamine stimulates phosphorylation of p44/p42 mitogen-activated protein kinase activation in bovine aortic endothelial cell cultures.
+ | journal = J Cardiovasc Pharmacol
+ | month = Mar
+ | year = 2000
+ | volume = 35
+ | issue = 3
+ | url = http://www.cardiovascularpharm.com/pt/re/jcardiopharm/abstract.00005344-200003000-00008.htm;jsessionid=LLhXJN6PTXBlSKWpG3mTNChLl7C4wQZFQF2yyFWnlQLcdph7zkQq!-1990489359!181195628!8091!-1}}</ref>
+
+== Synthesis ==
+
+thumb|right|400px|The pathway for the synthesis of serotonin from tryptophan
+
+In the body, serotonin is synthesized from the amino acid decarboxylase (DDC). The TPH-mediated reaction is the rate-limiting step in the pathway. TPH has been shown to exist in two forms: TPH1, found in several tissues, and TPH2, which is a brain-specific isoform. There is evidence that genetic polymorphisms in both these subtypes influence susceptibility to anxiety and depression. There is also evidence that ovarian hormones can affect the expression of TPH in various species, suggesting a possible mechanism for postpartum depression and premenstrual stress syndrome.
+
+Serotonin taken orally does not pass into the serotonergic pathways of the central nervous system because it does not cross the blood-brain barrier. However, tryptophan and its metabolite 5-hydroxytryptophan (5-HTP), from which serotonin is synthesized, can and do cross the blood-brain barrier. These agents are available as dietary supplements and may be effective serotonergic agents.
+
+One product of serotonin breakdown is 5-Hydroxyindoleacetic acid (5 HIAA), which is excreted in the urine. Serotonin and 5 HIAA are sometimes produced in excess amounts by certain tumors or cancers, and levels of these substances may be measured in the urine to test for these tumors.
+
+== Drugs targeting the 5-HT system ==

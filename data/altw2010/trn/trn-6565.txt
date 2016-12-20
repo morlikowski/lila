@@ -1,0 +1,49 @@
+The '''Time-Triggered Protocol''' (TTP) is a convention used to facilitate fault tolerant communications between 
+distributed real-time computing platforms .  
+TTP is used in hard real-time, high-speed, safety critical applications.
+
+TTP is based on more than 25 years of development work. During that time a great number of patents were filed and the protocol was stabilized. 
+All those activities resulted in the bringing of the first TTP communication controller onto the market in 1998.
+
+TTP involves a continuous communication of all connected nodes via redundant data buses at predefined intervals.
+The communication scheme uses a TDMA (Time Division Multiple Access) half-duplex access, where all nodes share a common time-base.
+There are no collisions or overloads.
+
+Additional nodes can be added later as long as there are free time-slots.
+Those added nodes do not interfere with the existing communication scheme, so there is a high composability.
+
+The clock synchronisation is computed (masterless) from the measured time-differences of arriving frames exploiting a fault-tolerant-mean algorithm.
+The expected times of sending and receiving are defined in an MEDL (Message Descriptor List) which is known to all communication controllers.
+The nodes are synchronized up to a configurable precision.
+
+Due to clock synchronization a global time-base is established, that can be used by the application.
+Latencies are known at design-time, which eases the design of a realtime system.
+
+The protocol has been designed specifically for safety critical systems.
+There is a published fault hypothesis that guarantees to tolerate one arbitrary fault.
+A never-give-up strategy may allow multiple faults.
+Formal methods have been applied to assure the basic mechanisms.
+Fault containments are the chip-hardware, the dual bus, the frame (CRC) and the membership service.
+
+Membership service: each controller maintains a list of "healthy" nodes (the 64 bit membership vector).
+This information is exchanged between all nodes either implicitly within the CRC or explicitly over the bus.
+A clique-avoidance algorithm sorts out the healthy majority of nodes and the minority clique is forced into a passive mode (fail-silent).
+Therefore each sending node is informed that its frame has been consistently received by all healthy nodes (consistency service) within two TDMA cycles.
+
+A bus guardian is used to avoid babbling idiots (faulty, continuously sending nodes).
+
+The protocol is defined independent of a physical layer.
+Current implementation supports 5Mb/s using RS-485 and 25Mb/s using Ethernet physical layer.
+Cable length of up to 1km are possible.
+
+Le '''bus TTP''' (''Time-Triggered Protocol'') est un bus de terrain développé par TTTech, pour les besoins de l'automobile ou de l'aéronautique.
+
+De la même manière que le bus CAN, l'utilisation d'un bus de terrain permet de réduire la quantité de câbles dans les véhicules, par exemple, et donc de réduire nettement le poids du câblage.
+
+La spécification du bus TTP repose sur la technique du TDMA (''Time-Division Multiple Access'') : le temps est partagé entre les différents nœuds (abonnés) du réseau C'est pendant ces intervalles de temps et uniquement pendant ces intervalles que chacun de ces abonnés peut transmettre un message. La réémission sur erreur (telle que sur le CAN) est donc impossible.
+
+Le bus TTP n'est pas directement utilisé, ni soutenu par les deux acteurs majeurs de l'aéronautique civile que sont Airbus et Boeing. Toutefois, TTP a été retenu par un fournisseur, Nord-Micro, filiale allemande d'Hamilton Sundstrand, société d'United Technology pour la réalisation de systèmes dont il a la responsabilité :
+* système de pressurisation de l'Airbus A380
+* cœur électrique primaire du Boeing 787
+
+À ce jour (2008), le bus TTP est délaissé par les constructeurs, tant automobiles qu'aéronautiques, au profit du CAN et bientôt de FlexRay. 

@@ -1,0 +1,109 @@
+'''Ploëzal''' est une commune du département des région Bretagne, en France.
+
+{{Infobox Commune de France|nomcommune= Ploëzal
+|région= Bretagne
+|département= Côtes-d'Armor
+|arrondissement= Arrondissement de Guingamp
+|canton= Canton de Pontrieux
+|insee=22204
+|cp=22260
+|maire=Guy Connan
+|mandat=2001-2008
+|intercomm=Communauté de communes du Trieux
+|longitude= -3.2016666666667
+|latitude= 48.7172222222222
+|alt moy= 78 m
+|alt mini=2 m
+|alt maxi=94 m
+|hectares= 2 624
+|km²=26,24
+|sans=1 190
+|date-sans=1999
+|dens= 45|}}
+
+==Géographie==
+
+==Histoire==
+
+==Administration==
+
+==Démographie==
+{{Démographie|
+1962= 1 576|
+1968= 1 458|
+1975= 1 445|
+1982= 1 301|
+1990= 1 232|
+1999= 1 190|
+sansdoublescomptes= 1962|source=INSEE<ref>[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=22204&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Ploëzal sur le site de l'Insee]</ref>}}
+==Lieux et monuments==
+* Château de la Roche-Jagu, , continuellement restauré et embelli depuis 1968, par son propriétaire, le Conseil général des Côtes-d'Armor. Il s'agit d'un haut lieu culturel du département, reconnu au-delà de la région bretonne. le Château et son parc accueillent tous les ans des expositions et des manifestations culturelles.
+<br/>
+
+* Manoir de Kermarker, 
+
+{{infobox Franse gemeente|
+|plaatsnaam= Ploëzal
+|wapen= 
+|kaart= 
+|regio= Bretagne 
+|departement= Côtes-d'Armor (22)
+|arrondissement= Guingamp
+|kanton= Pontrieux
+|jaar= 1999
+|inwoners= 1190
+|dichtheid= 45,4
+|oppervlakte= 26,2
+|water= 
+|latitudeGraden= 48 |latitudeMinuten= 43|latitudeSeconden= 0
+|longitudeGraden= 3 |longitudeMinuten= 12 |longitudeSeconden= 0
+|E of W=W |ol of wl=W.L.
+|kaartX= 38 |kaartY= 83
+|code= 22204
+|postcode= 22260
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Ploëzal''' is een gemeente in het Franse departement Bretagne) en telt 1190 inwoners (1999). De plaats maakt deel uit van het arrondissement Guingamp.
+
+==Geografie==
+De oppervlakte van Ploëzal bedraagt 26,2 km², de bevolkingsdichtheid is 45,4 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:2100 color:gray1 width:1       
+  from:start till:end             
+  bar:1400 color:gray1              
+  from:start till:end            
+  bar:700 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,148)(84,138) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 1576 1968: 1458
+  points:(84,138)(100,137)    color:blue    width:2 #1975: 1445
+  points:(100,137)(128,125)   color:blue    width:2 #1982: 1301
+  points:(128,125)(160,120)   color:blue    width:2 #1990: 1232
+  points:(160,120)(196,116)   color:blue    width:2 #1999: 1190
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

@@ -1,0 +1,137 @@
+[[kuva:World Koppen Map.png|thumb|right|400px|Kartta Köppen-Geigerin luokituksen mukaisista ilmastoista.<ref> ''<small>(direct: [http://www.hydrol-earth-syst-sci.net/11/1633/2007/hess-11-1633-2007.pdf Final Revised Paper])</small>''</ref>
+{|
+|- valign=top |
+|
+
+| width=5 |
+|
+
+| width=5 |
+|
+
+| width=5 |
+|
+
+| width=5 |
+|
+
+| width=5 |
+|
+
+| width=5 |
+|
+
+| width=5 |
+|
+
+| width=5 |
+|
+
+|}
+]]
+<!--
+thumb|300px|Köppenin ilmastoluokitus
+-->
+'''Köppenin ilmastoluokitus''' jakaa kasvillisuustyyppejä vastaaviin luokkiin, joita merkitään kirjainlyhenteillä. Eri ilmastotyyppien jakoperusteina ovat lämpötilan ja sademäärän kuukausittaiset keskiarvot sekä sademäärän kausivaihtelu.
+
+Köppenin luokitus on laajimmin käytetty ilmastoluokitus, johon on myöhemmin ehdotettu muutoksia, laajennuksia ja parannuksia. Saksalainen kasvillisuuden ja ilmastojen tutkija Wladimir Köppen kehitti luokituksen noin vuonna 1900 tehden siihen muutoksia muun muassa vuosina 1918 ja 1936. Köppen julkaisi artikkelin lämpövyöhykkeistä jo 1884. Laajaan tietoisuuteen luokitus levisi 1928. Uudempi Trewarthan luokitus muuttaa ja laajentaa Köppenin luokitusta.
+
+Köppenin luokituksessa esimerkiksi ''Af'' on trooppinen sademetsäilmasto, joka on aina niin lämmin ja kostea, että kasvaa trooppista sademetsää. Se rajoittuu savanniin Aw, jota luonnehtii voimakas sademäärien vuosivaihtelu. Tämä ilmasto suosiii harvapuista ruohotasankoa.
+
+==Luokittelu==
+Köppenin ilmastoluokitus jakaa ilmastot viiteen pääryhmään, jotka jakautuvat edelleen useisiin alatyyppeihin. Tyypit ilmaistaan 2–4 kirjainta käsittävällä tunnuksella.
+
+==='''A''' Trooppiset ilmastot===
+Trooppisten ilmastojen (megaterminen) keskilämpötila on kaikkina kuukausina yli 18&nbsp;°C. Toinen kirjain ilmaisee sademäärän jakautumista eri vuodenaikojen välillä: 
+:'''f''' kostea, sadetta tasaisesti ympäri vuoden 
+:'''m''' monsuuni, talvella kuivana kuukautena sataa alle 60 mm, mutta yli 100-((vuosisademäärä mm)/25).
+:'''w''' savanni, kuivimman kuukauden sademäärä alle 1/10 lämpimimmän kuukauden sademäärästä tai talvella kuivana kuukautena sataa alle 60 mm, ja myös alle 100-((vuosisademäärä mm)/25)
+:'''s''' talvisateinen
+
+*'''Af''' Trooppinen sademetsäilmasto. Kuumankostea, lämmin. Sadetta tasaisesti ympäri vuoden, sademäärä kaikkina kuukausina yli 60&nbsp;mm. Amazonin ja Kongo-joen allas, Singapore.
+*'''Am''' Trooppinen monsuuni-ilmasto. Lämmintä tai kuumaa vuoden ympäri, lyhyt kuiva kausi talvella, muina aikoina runsassateinen. Conakry, Guinea.
+*'''Aw''' Savanni-ilmasto. Kostea kesä, kuiva talvi. Talven sademäärä alle 1/10 kesäsateesta. Bangalore, Intia.
+*'''As''' Savanni-ilmasto. Kuiva kesä. Honolulu, Havaiji. 
+
+==='''B''' Kuivat ilmastot=== 
+Kuivien ilmastojen (aridi, semiaridi) vuosittainen sademäärä jää alle kuivuusrajan (noin 500 mm). Kolmannen kirjaimen merkitykset:
+:'''h''' vuoden keskilämpötila yli 18 °C tai nykyisessä luokituksessa kylmin kuukausi yli 0 °C.
+:'''k''' vuoden keskilämpötila alle 18 °C tai nykyisessä luokituksessa kylmin kuukausi alle 0 °C.
+:'''n''' sumua (yleensä rannikolla). 
+:'''n'''' epäsäännöllistä sumua, kosteaa.
+Tässä luokassa voidaan tarvittaessa käyttää neljättä kirjainta osoittamaan sateen jakautumista vuodenaikojen välillä: '''w''' kesäsateinen, '''s''' talvisateinen.
+
+*'''BS''' Aroilmasto, sademäärä lämpötilasta riippuvien kuivuusrajojen välissä. Kuivuuden takia niukkaa kasvillisuutta.
+**'''BSh''' Subtrooppinen aro, kuiva ja kuuma tai lämmin. Cobar, Australia. 
+**'''BSk''' Keskileveysasteiden aro, viileä tai kylmä ja puolikuiva. Medicine Hat, Alberta.
+*'''BW''' Aavikkoilmasto, sademäärä alle puolet aron maksimisademäärästä. Kuivuuden takia suurimmaksi osaksi kasviton.
+**'''BWh''' Subtrooppinen aavikko, kuuma ja kuiva tai erittäin kuiva. Yuma, Arizona. 
+**'''BWk''' Keskileveysasteiden aavikko, viileä tai kylmä, kuiva tai erittäin kuiva. Turpan, Kiina.
+**'''BWn''' Trooppinen aavikko, kuuma tai lämmin, säännöllisesti sumua
+
+thumb|300px|Köppen climate classification
+The '''Köppen climate classification''' is one of the most widely used climate classification systems.  It was developed by German climatologist, around 1900 (with several further modifications by Köppen himself, notably in 1918 and 1936).  It is based on the concept that native vegetation is the best expression of climate; thus, climate zone boundaries have been selected with vegetation distribution in mind. It combines average annual and monthly precipitation, and the seasonality of precipitation.<ref></ref>
+
+==The scheme==
+Köppen climate classification scheme divides the climates into five main groups and several types and subtypes. Each particular climate type is represented by a 2 to 4 letter symbol.
+
+===GROUP A: Tropical/megathermal climates===
+
+Tropical climates are characterized by constant high temperature (at sea level and low elevations) &mdash; all twelve months of the year have average temperatures of 18 °C (64.4 °F) or higher.  They are subdivided as follows:
+
+* '''Tropical rain forest climate''' (''Af''):<ref>McKnight & Hess, pp. 205-8, "Climate Zones and Types: Tropical Wet Climate (Af)"</ref> All twelve months have average precipitation of at least 60 mm (2.36 inches).  These climates usually occur within 5-10° latitude of the equator. In some eastern-coast areas, they may extend to as much as 25° away from the equator. This climate is dominated by the Doldrums Low Pressure System all year round, and therefore has no natural seasons.<br>''Examples:''<br> Singapore<br>Belém, Brazil.
+**Some of the places that have this climate are indeed uniformly and monotonously wet throughout the year (e.g., the northwest Pacific coast of South and Central America, from Ecuador to Costa Rica, see for instance, Andagoya, Colombia), but in many cases the period of higher sun and longer days is distinctly wettest (as at Palembang, Indonesia) or the time of lower sun and shorter days may have more rain (as at Sitiawan, Malaysia).
+**A few places with this climate are found at the outer edge of the tropics, almost exclusively in the Southern Hemisphere; one example is Santos, aseasonal refers to the lack in the tropical zone of large differences in day light hours and mean monthly (or daily) temperature throughout the year.  There are annual cyclic changes in the tropics, not as predictable as those in the temperate zone, albeit unrelated to temperature but to water availability whether as rain, mist, soil, or ground water. Plant response (e. g., ''Invierno'' or ''Inverno'', even though it could occur in the northern hemisphere summer; likewise, the ''dry season'' (and ''low water season'') is called ''Verano'' or ''Verão'' and can occur in the northern hemisphere winter.
+
+* '''Tropical monsoon climate''' (''Am''):<ref>McKnight & Hess, p. 208, "Climate Zones and Types: Tropical Monsoon Climate (Am)"</ref> This type of climate, most common in southern Asia and West Africa, results from the monsoon winds which change direction according to the seasons.  This climate has a driest month (which nearly always occurs at or soon after the "winter" solstice for that side of the equator) with rainfall less than 60 mm, but more than (100 &minus; [total annual precipitation {mm}/25]).<br>''Examples:''<br>Conakry, Guinea<br>Chittagong, Bangladesh<br>Miami, Florida.<ref>[http://www.bookrags.com/wiki/K%C3%B6ppen_climate_classification]</ref>
+**There is also another scenario under which some places fit into this category; this is referred to as the ''trade-wind littoral'' climate because easterly winds bring enough precipitation during the "winter" months to prevent the climate from becoming a tropical wet-and-dry climate.  Jakarta, Indonesia and Nassau, Bahamas are included among these locations.
+
+* '''Tropical wet and dry or Darwin, Australia.<ref></ref>
+**Most places that have this climate are found at the outer margins of the Caribbean coast, eastward from Guajira, and Coro, western equatorial line &mdash; the climate is ''Af''.  East from the Andes, between the dry, arid Caribbean and the ever-wet Amazon are the Orinoco river' Llanos or Savannas, from where this climate takes its name.
+**Sometimes ''As'' is used in place of ''Aw'' if the dry season occurs during the time of higher sun and longer days. This is the case in parts of Hawaii (Honolulu), East Africa (Mombasa, Kenya) and Sri Lanka (Trincomalee), for instance.  In most places that have tropical wet and dry climates, however, the dry season occurs during the time of lower sun and shorter days because of rainshadow effects during the 'high-sun' part of the year.
+
+===GROUP B: Dry (arid and semiarid) climates===
+
+These climates are characterized by the fact that precipitation is less than potential evapotranspiration.<ref>McKnight & Hess, pp. 212-1, "Climate Zones and Types: Dry Climates (Zone B)"</ref> The threshold is determined as follows:
+
+* To find the precipitation threshold (in millimeters), multiply the average annual temperature in °C by 20, then add 280 if 70% or more of the total precipitation is in the high-sun half of the year (April through September in the Northern Hemisphere, or October through March in the Southern), or 140 if 30%-70% of the total precipitation is received during the applicable period, or 0 if less than 30% of the total precipitation is so received.
+
+* If the annual precipitation is less than half the threshold for Group B, it is classified as ''BW'' (desert climate); if it is less than the threshold but more than half the threshold, it is classified as ''BS'' (steppe climate).
+
+* A third letter can be included to indicate temperature.  Originally, ''h'' signified low latitude climate (average annual temperature above 18 °C) while ''k'' signified middle latitude climate (average annual temperature below 18 °C [64.4 °F]), but the more common practice today (especially in the United States) is to use ''h'' to mean that the coldest month has an average temperature that is above 0 °C (32 °F), with ''k'' denoting that at least one month averages below 0 °C.
+
+* ''Examples:''<br> Yuma, Lima, Peru and Walvis Bay, Namibia.
+
+* On occasion, a fourth letter is added to indicate if either the winter or summer is "wetter" than the other half of the year.  To qualify, the wettest month must have at least 60 mm of average precipitation if all twelve months are above 18 °C, or 30 mm (1.18 inches) if not; plus at least 70% of the total precipitation must be in the same half of the year as the wettest month &mdash; but the letter used indicates when the ''dry'' season occurs, not the "wet" one.  This would result in Khartoum, Sudan being reckoned as ''BWhw'', Niamey, Niger as ''BShw'', El Arish, Egypt as ''BWhs'', Asbi'ah, Libya as ''BShs'', Ömnögovi Province, Mongolia as ''BWkw'', and Xining, China as ''BSkw'' (''BWks'' and ''BSks'' do not exist if 0 °C in the coldest month is recognized as the ''h''/''k'' boundary).  If the standards for neither ''w'' nor ''s'' are met, no fourth letter is added.
+
+===GROUP C: Temperate/mesothermal climates===
+
+These climates have an average temperature above 10 °C (50 °F) in their warmest months, and a coldest month average between &minus;3 °C (27°F) and 18 °C (64 °F).
+
+Some climatologists, particularly in the United States, however, prefer to observe 0 °C (32 °F) rather than &minus;3 °C (27 °F) in the coldest month as the boundary between this group and Group D; this is done to prevent certain headland locations in New England &mdash; principally Cape Cod &mdash; and such nearby islands as Nantucket and Martha's Vineyard, from fitting into the Maritime Temperate category noted below; this category is alternately known as the ''Marine West Coast'' climate, and eliminating the aforementioned locations indeed confines it exclusively to places found along the western margins of the continents, at least in the Northern Hemisphere. This also moves some mid-latitude areas - such as parts of the Ohio Valley and some areas in the Mid-Atlantic States - from humid subtropical to humid continental.
+
+* The second letter indicates the precipitation pattern &mdash; ''w'' indicates dry winters (driest winter month average precipitation less than one-tenth wettest summer month average precipitation; one variation also requires that the driest winter month have less than 30 mm average precipitation), ''s'' indicates dry summers (driest summer month less than 30 mm average precipitation and less than one-third wettest winter month precipitation) and ''f'' means significant precipitation in all seasons (neither above mentioned set of conditions fulfilled).
+
+* The third letter indicates the degree of summer heat &mdash; ''a'' indicates warmest month average temperature above 22 °C (71.6 °F) with at least 4 months averaging above 10 °C (50 °F), ''b'' indicates warmest month averaging below 22 °C, but with at least 4 months averaging above 10°C,  while ''c'' means 3 or fewer months with mean temperatures above 10 °C.
+
+* The order of these two letters is sometimes reversed, especially by climatologists in the United States.
+
+* Group C climates are subdivided as follows:
+
+:* '''Los Angeles, Santiago, Perth, Porto, San Francisco, Victoria, British Columbia (''Csb'')<br>Sanremo, Italy (''Csa'')
+
+:* '''Atlanta, Georgia (''Cfa &mdash; uniform precipitation distribution'')<br>Porto Alegre, Brazil (''Cfa &mdash; uniform precipitation distribution'')<br>Luodian, Guizhou, China (''Cwa &mdash; summer wetter than winter'').
+ 
+The '''temperate climate with dry winters''' (Cwb) is a type of climate charasteristic of the highlands inside the tropics of Mexico, Peru, Bolivia and South Africa. Winters are noticeable and dry and summers very rainy. In the tropics the rainy season is provoked by the tropical airmasses and the dry winters by subtropical high pressure. Temperate temperatures are the consequence of altitude which become cool in winter.<br>''Examples:''<br>Cuzco, Peru<br>La Paz, Bolivia<br>Mexico City, Mexico,<br>Johannesburg, South Africa 
+
+:* '''Maritime Temperate climates or Prince Rupert, Bergen, Crkvice, Seattle, Victoria, British Columbia, Canada (''Cfb'', sometimes ''Csb'')<br>Puerto Montt, Chile (''Cfb'', sometimes ''Csb'').
+
+The '''temperate climate with dry winters''' (Cwb) is a type of climate charasteristic of the highlands inside the tropics of Mexico, Peru, Bolivia and South Africa but it is also found in the Argentine province of Córdoba Province (Argentina), outside the tropics. Winters are noticeable and dry and summers very rainy. In the tropics the rainy season is provoked by the tropical airmasses and the dry winters by subtropical high pressure. Temperate temperatures are the consequence of altitude which become cool in winter.<br>''Examples:''<br>Cuzco, Peru<br>La Paz, Bolivia<br>Mexico City, Mexico<br>Johannesburg, South Africa 
+
+:* '''Maritime Subarctic climates''' or '''Subpolar Oceanic climates''' (''Cfc''):<ref name=ibid>McKnight & Hess</ref>} These climates occur poleward of the Maritime Temperate climates, and are confined either to narrow coastal strips on the western poleward margins of the continents, or, especially in the Northern Hemisphere, to islands off such coasts.<br>''Examples:''<br> Punta Arenas, Chile (''Cfc'' &mdash; ''uniform precipitation distribution'')<br>Monte Dinero, Argentina (''Cfc'' &mdash; ''uniform precipitation distribution'')<br>Reykjavík, Iceland (''Cfc'' &mdash; ''uniform precipitation distribution'')<br>Tórshavn, Faroe Islands (''Cfc'' &mdash; ''uniform precipitation distribution'')<br>Harstad, Norway (''Cfc'' &mdash; ''uniform precipitation distribution'').
+
+===GROUP D: Continental/microthermal climate===<!-- This section is linked from Siberia -->
+
+These climates have an average temperature above 10 °C (50 °F) in their warmest months, and a coldest month average below &minus;3 °C (or 0 °C in some versions, as noted previously).  These usually occur in the interiors of continents, or on their east coasts, north of 40° North latitude.  In the Southern Hemisphere, Group D climates are extremely rare due to the smaller land masses in the middle latitudes and the almost complete absence of land south of 40° South latitude, existing only in some highland locations in New Zealand that have heavy winter snows.
+
+* The second and third letters are used as for Group C climates, while a third letter of ''d'' indicates 3 or fewer months with mean temperatures above 10 °C ''and'' a coldest month temperature below &minus;38 °C (&minus;36.4 °F).

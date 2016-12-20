@@ -1,0 +1,49 @@
+The '''Federal Information Processing Standard 140''' (FIPS) are series of publications numbered 140 which are a U.S. government standards that specify requirements for cryptography modules. As of December 2006, the current version of the standard is FIPS 140-2, issued on 25 May 2001.
+
+==Purpose of FIPS 140==
+The National Institute of Standards and Technology (NIST) issued the 140 Publication Series to coordinate the requirements and standards for cryptographic modules which include both hardware and software components for use by departments and agencies of the United States federal government. FIPS 140 does not purport to provide ''sufficient'' conditions to guarantee that a module conforming to its requirements is secure, still less that a system built using such modules is secure. The requirements cover not only the cryptographic modules themselves but also their documentation and (at the highest security level) some aspects of the comments contained in the source code.
+
+User agencies desiring to implement cryptographic modules should confirm that the module they are using is covered by an existing validation certificate. FIPS 140-1 and FIPS 140-2 validation certificates specify the exact module name, hardware, software, firmware, and/or applet version numbers.  For Levels 2 and higher, the operating platform upon which the validation is applicable is also listed.  Vendors do not always maintain their baseline validations.
+
+The Cryptographic Module Validation Program (CMVP) is operated jointly by the United States Government's National Institute of Standards and Technology (NIST) Computer Security Division and the Communications Security Establishment (CSE) of the Government of Canada.  The use of validated cryptographic modules is required by the United States Government for all unclassified uses of cryptography. The Government of Canada also recommends the use of FIPS 140 validated cryptographic modules in unclassified applications of its departments.
+
+==Security levels==
+FIPS 140-2 defines four levels of security, simply named "Level 1" to "Level 4". It does not specify in detail what level of security is required by any particular application.
+* FIPS 140-2 Level 1 the lowest, imposes very limited requirements; loosely, all components must be "production-grade" and various egregious kinds of insecurity must be absent.
+* FIPS 140-2 Level 2 adds requirements for physical tamper-evidence and role-based authentication.
+* FIPS 140-2 Level 3  adds requirements for physical tamper-resistance (making it difficult for attackers to gain access to sensitive information contained in the module) and identity-based authentication, and for a physical or logical separation between the interfaces by which "critical security parameters" enter and leave the module, and its other interfaces.
+* FIPS 140-2 Level 4 makes the physical security requirements more stringent, and requires robustness against environmental attacks.
+
+==Scope of requirements==
+FIPS 140 imposes requirements in eleven different areas:
+* ''Cryptographic module specification'' (what must be documented)
+* ''Cryptographic module parts and interfaces'' (what information flows in and out, and how it must be segregated)
+* ''Roles, services and authentication'' (who can do what with the module, and how this is checked)
+* ''Finite state model'' (documentation of the high-level states the module can be in, and how transitions occur)
+* ''Physical security'' (tamper evidence and resistance, and robustness against extreme environmental conditions)
+* ''Operational environment'' (what sort of operating system the module uses and is used by)
+* ''Cryptographic key management'' (generation, entry, output, storage and destruction of keys)
+* ''EMI/EMC''
+* ''Self-tests'' (what must be tested and when, and what must be done if a test fails)
+* ''Design assurance'' (what documentation must be provided to demonstrate that the module has been well designed and implemented)
+* ''Mitigation of other attacks'' (if a module is designed to mitigate against, say, TEMPEST attacks then its documentation must say how)
+
+'''FIPS 140''' (Federal Information Processing Standards Publication 140) は、米国連邦標準規格である。2006年5月現在、規格の最新版は2001年5月25日発行のFIPS 140-2である。
+
+== FIPS 140-2の目的 ==
+米国連邦政府の省庁等各機関が利用する、ハードウェア及びソフトウェア両方を含む "暗号モジュール" に関する要件を規定する。FIPS 140は、要件に適合するモジュールが信頼できることや、さらに要件に準拠したモジュールを用いて構築したシステムが信頼できることを保証するための、''十分な''条件の提供を意味していない。要件は暗号モジュールそれ自身だけでなく、モジュールの文書化、及び最高のセキュリティレベルではソースコードへと含めるコメントのいくつかの側面についても対象としている。
+
+暗号モジュールの使用を望む機関は、現在確かに存在する検証証明書がその該当モジュールを保証することを確認しなければならない。FIPS 140-1及びFIPS 140-2検証証明書は、正確なモジュール名、ハードウェア、ソフトウェア、ファームウェア、及び／又はアプレットのバージョン番号を規定する。レベル2以上では検証が適用可能であるプラットフォームも規定する。ベンダーは常に基準となる検証を維持するわけではない。
+
+暗号モジュール検証プログラム(Cryptographic Module Validation Program)は、米国政府の国立標準技術研究所(National Institute of Standards and Technology／NIST)コンピュータセキュリティ部門及びカナダ政府の通信セキュリティ機関(Communications Security Establishment／CSE)により共同で運営されている。米国政府は暗号の、取扱注意ではあるが機密扱いでない(Sensitive but Unclassified)利用にあたり、検証済暗号モジュールを要求している。カナダ政府でも政府機関の機密扱いでない用途での、FIPS 140検証済の暗号モジュールの使用を推奨している。
+
+== セキュリティレベル ==
+FIPS 140-2は、 "レベル1" から "レベル4" と命名した四つのレベルを規定する。特定の用途でどのセキュリティレベルが要求されるのかは規定しない。
+
+*''レベル1'': 一番低いレベルであり、非常に限定した要件を課する; 大まかに、すべてのコンポーネントが製品品質であり、甚だしくセキュリティの欠如がないこと。
+*''レベル2'': レベル1に次の要件を加える; 物理的な改竄の痕跡を残すこと、及びオペレータの役割ベースでの認証を行うこと。
+*''レベル3'': レベル2に次の要件を加える; 物理的な改竄への耐性(モジュール中に含まれる取扱注意情報への攻撃者のアクセスを困難にする)を持つこと、オペレータのIDベースでの認証を行うこと、及び重要なセキュリティパラメータがモジュールに出入力するインタフェースと、その他のインタフェースとを物理的又は論理的に分離すること。
+*''レベル4'': 物理的なセキュリティ要件がより厳格となり、環境条件を変動させての攻撃に対して頑健であることを要求する。
+
+== 要件の範囲 ==
+FIPS 140は次に示す11の異なる分野の要件を課する。

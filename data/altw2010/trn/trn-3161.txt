@@ -1,0 +1,200 @@
+{{chembox new
+| ImageFile = 
+| ImageSize = 
+| IUPACName = Beryllium bromide
+| SystematicName = 
+| OtherNames = 
+| Section1 = {{Chembox Identifiers
+| Abbreviations = 
+| CASNo = 7787-46-4
+| EINECS = 
+| EINECSCASNO = 
+| PubChem = 
+| SMILES = 
+| InChI = 
+| RTECS = 
+| MeSHName =
+| ChEBI =
+| KEGG = 
+| ATCCode_prefix = 
+| ATCCode_suffix = 
+| ATC_Supplemental =}}
+| Section2 = {{Chembox Properties
+| Formula = BeBr<sub>2</sub>
+| MolarMass = 168.820 g/mol
+| Appearance = colorless white crystals
+| Density = 3.465 g/cm³, solid
+| MeltingPt = 508°C 
+| Melting_notes = 473°C sublimes
+| BoilingPt = 520°C<ref name="hand">
+{{Citation
+ | last = Perry
+ | first =Dale L. 
+ | author-link =
+ | last2 =Phillips
+ | first2 =Sidney L. 
+ | author2-link =
+ | publication-date =
+ | date =
+ | year =1995
+ | title =Handbook of Inorganic Compounds
+ | edition =
+ | volume =
+ | series =
+ | publication-place =
+ | place =
+ | publisher =CRC Press
+ | id =
+ | pages =61-62
+ | isbn =0849386713
+ | doi =
+ | oclc =
+ | url= http://books.google.com/books?id=0fT4wfhF1AsC&pg=PA61&dq=%22beryllium+bromide%22+properties&as_brr=3&sig=NDf7PmjoOd80k5IHspIoSFa2sWI#PPA61,M1
+ | accessdate = 2007-12-10
+}}</ref>
+| Boiling_notes = 
+| Solubility = Highly<ref name="hand"/><br> 
+| SolubleOther = Soluble<ref name="lit">
+{{Citation
+ | last = Parsons
+ | first =Charles Lathrop
+ | author-link =
+ | last2 =
+ | first2 =
+ | author2-link =
+ | publication-date =
+ | date =
+ | year =1909
+ | title =The Chemistry and Literature of Beryllium
+ | edition =
+ | volume =
+ | series =
+ | publication-place =
+ | place =Easton, Pa.
+ | publisher =Chemical Publishing
+ | id =
+ | pages =21-22
+ | isbn =
+ | doi =
+ | oclc =
+ | url =http://books.google.com/books?id=7MxAAAAAIAAJ&pg=PA21&dq=%22beryllium+bromide%22&as_brr=3#PPA21,M1
+ | accessdate = 2007-12-10
+}}
+</ref>
+| Solvent =  ethanol
+| LogP = 
+| VaporPressure = 
+| HenryConstant = 
+| AtmosphericOHRateConstant = 
+| pKa = 
+| pKb = }}
+| Section3 = {{Chembox Structure
+| CrystalStruct = Orthorhombic
+| Coordination = 
+| MolShape = }}
+| Section4 = {{Chembox Thermochemistry
+| DeltaHf = 
+| DeltaHc = 
+| Entropy = 
+| HeatCapacity = }}
+| Section5 = {{Chembox Pharmacology
+| AdminRoutes = 
+| Bioavail = 
+| Metabolism = 
+| HalfLife = 
+| ProteinBound =
+| Excretion = 
+| Legal_status = 
+| Legal_US = 
+| Legal_UK = 
+| Legal_AU = 
+| Legal_CA = 
+| PregCat = 
+| PregCat_AU = 
+| PregCat_US = }}
+| Section6 = {{Chembox Explosive
+| ShockSens = 
+| FrictionSens = 
+| ExplosiveV = 
+| REFactor = }}
+| Section7 = {{Chembox Hazards
+| EUClass = 
+| EUIndex = 
+| MainHazards = ''see Berylliosis''
+| NFPA-H = 
+| NFPA-F = 
+| NFPA-R = 
+| NFPA-O = 
+| RPhrases = 
+| SPhrases = 
+| RSPhrases = 
+| FlashPt = 
+| Autoignition = 
+| ExploLimits = 
+| LD50 =
+| PEL = }}
+| Section8 = {{Chembox Related
+| OtherAnions = Beryllium fluoride<br>Beryllium chloride<br>Beryllium iodide
+| OtherCations = Magnesium bromide<br>Calcium bromide
+| OtherFunctn = 
+| Function = 
+| OtherCpds = }}
+}}
+
+'''Beryllium bromide''' is the formula BeBr<sub>2</sub>. It is very hygroscopic and dissolves well in water. 
+
+==Reactions==
+Beryllium bromide can be prepared by reacting beryllium metal with elemental bromine at temperatures of 500°C to 700°C<ref name="hand"/>:
+:Be  +  Br<sub>2</sub>  &rarr;  BeBr<sub>2</sub>
+
+<noinclude>
+<!-- هذه بيانات القالب ، لتعديل المقالة الرجاء الذهاب إلى أسفل الصفحة -->
+</noinclude>{| class="toccolours" border="1" style="float: left; clear: right; margin: 0 0 1em 1em; border-collapse: collapse;"
+!  |  <!-- replace if not identical with the article name -->
+|-
+!  | معلومات عامة
+|- 
+| الاسم النظامي
+| بروميد بيريليوم <!-- e.g. Iron(II) chloride -->
+|-
+| أسماء أخرى
+| ? <!-- e.g. Ferrous chloride etc, + linked mineral names -->
+|-
+| الصيغة الجزيئية
+| BeBr<sub>2</sub>.  <!-- e.g. Na<sub>2</sub>CO<sub>3</sub> -->
+|-
+| رقم CAS
+| [7787-46-4]
+|-
+!  | الخواص
+|-
+| الكتلة المولية
+| 168.820  غ/مول
+|-
+| المظهر
+| بلورات عديمة اللون <!-- مثلاً بلورات بيضاء ، عديمة اللون ، صفراء ، مسحوق بلوري أبيض ، سائل عديم اللون ، شغوف للرطوبة -->
+|-
+| الكثافة
+| 3.465 غ/سم<sup>3</sup> <!-- سائل .. غ/مل ، صلب.. غ/سم<sup>3</sup> -->
+|-
+| الانحلالية في الماء
+| ? غ/100 مل ماء عند ؟؟ °س <!-- غ/100 مل ماء عند ؟؟ °س ، غير منحل ، يتفاعل مع الماء ، يمتزج مع الماء-->
+|-
+<!-- | Other solvents e.g. ethanol, acetone -->
+<!-- | solubility info on other solvents -->
+<!-- |- -->
+| الانحلالية في المحلات الأخرى
+| ?  <!-- g/100 ml (?°C) <!--   ، غير منحل في ، at least put miscible with, not soluble in -->
+|-
+| درجة الانصهار
+| 508 °س  <!-- يتفكك ، °C (? K) <!-- (mention any decomposition) -->
+|-
+| درجة الغليان
+| 520 °س  <!--°C (? K)-->
+|-
+|  | <small> في حال عدم ذكر الشروط فإن 
+البيانات الواردة أعلاه مقاسة في الشروط النظامية 
+
+ومدونة حسب النظام الدولي للوحدات </small>
+|-
+|}

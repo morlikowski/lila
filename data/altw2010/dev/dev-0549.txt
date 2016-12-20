@@ -1,0 +1,167 @@
+__NOTOC__
+<!-- This article is a part of Wikipedia:WikiProject Aircraft. Please see Wikipedia:WikiProject Aircraft/page content for recommended layout. -->
+{{Infobox Aircraft
+ |name=B.I
+ |image=
+ |caption=
+ |type=Reconnaissance aircraft
+ |national origin=Germany
+ |manufacturer=Hansa-Brandenburg
+ |designer=Ernst Heinkel
+ |first flight=
+ |introduced=
+ |retired=
+ |status=
+ |primary user=KuKLFT
+ |more users=
+ |produced=
+ |number built=
+ |variants with their own articles=
+}}
+The '''Hansa-Brandenburg B.I''' was an unarmed military reconnaissance biplane of World War I flown by the Austro-Hungarian Air Service. Early models were known internally to the Hansa-Brandenburg firm as the type '''D''', while later models with a more powerful engine were designated '''FD'''. This aircraft was one of the earliest designs of Ernst Heinkel, who was working for Hansa-Brandenburg at the time. It was an entirely conventional two-bay biplane with staggered wings of unequal span. The pilot and obverver sat in tandem in a long open cockpit. 
+
+The aircraft was produced under licence by Aero both during the war, and afterwards (when it became known as the '''Ae 10'''). Experience gained with this design would provide Aero with the basis for a number of derivative civil and military designs throughout the 1920s. 
+
+The design formed the basis for the C.I and C.II armed reconnaissance types.
+
+<!-- ==Development== -->
+<!-- ==Operational history== -->
+==Variants==
+''both variants shared the military designation B.I''
+* '''D''' - initial version with Benz Bz.II engine
+* '''FD''' - later version with Benz Bz.III engine
+
+== Operators ==
+;
+*Austro-Hungarian Imperial and Royal Aviation Troops
+;
+*Polish Air Force (post-war)
+;
+*Royal Norwegian Navy Air Service
+
+==Specifications (FD) ==
+{{aerospecs
+|ref=
+|met or eng?=<!-- eng for US/UK aircraft, met for all others. You MUST include one or the other here, or no specifications will show -->met
+
+|crew=Two, pilot and observer
+|capacity=
+|length m=8.46
+|length ft=27
+|length in=9
+|span m=13.13
+|span ft=43
+|span in=1
+|swept m=<!-- swing-wings -->
+|swept ft=<!-- swing-wings -->
+|swept in=<!-- swing-wings -->
+|rot number=<!-- helicopters -->
+|rot dia m=<!-- helicopters -->
+|rot dia ft=<!-- helicopters -->
+|rot dia in=<!-- helicopters -->
+|dia m=<!-- airships etc -->
+|dia ft=<!-- airships etc -->
+|dia in=<!-- airships etc -->
+|width m=<!-- if applicable -->
+|width ft=<!-- if applicable -->
+|width in=<!-- if applicable -->
+|height m=2.90
+|height ft=9
+|height in=6
+|wing area sqm=43.5
+|wing area sqft=468
+|swept area sqm=<!-- swing-wings -->
+|swept area sqft=<!-- swing-wings -->
+|rot area sqm=<!-- helicopters -->
+|rot area sqft=<!-- helicopters -->
+|volume m3=<!-- lighter-than-air -->
+|volume ft3=<!-- lighter-than-air -->
+|aspect ratio=<!-- sailplanes -->
+|empty weight kg=760
+|empty weight lb=1,680
+|gross weight kg=1,060
+|gross weight lb=2,340
+|lift kg=<!-- lighter-than-air -->
+|lift lb=<!-- lighter-than-air -->
+
+{{Samolot infobox|
+nazwa            = Hansa-Brandenburg B.I|
+grafika          = 300px|
+podpis           = |
+kraj             = |
+producent        = Hansa und Brandenburgische Flugzeugwerke.|
+typ              = szkolny|<!-- np. {samolot/śmigłowiec/...} {pasażerski/...} -->
+konstrukcja      = dwupłatowiec kontrukcji mieszanej|
+zaloga           = 2 (instruktor i uczeń)|
+oblot            = 1915|<!-- data oblatania-->
+produkcja        = |<!--lata produkcji-->
+wycofany         = | <!--data wycofania z użytku-->
+egzemplarze      = |<!--zachowane egzemplarze-->
+sprawne          = |<!--zachowane sprawne-->
+wypadki          = |<!--wypadki i incydenty-->
+katastrofy       = |<!--w tym katastrofy-->
+silnik           = 1 × Mercedes Benz, rzędowy|
+moc              = 160 KM (118 kW)|
+rozpietosc       = 13,13 m|<!-- tylko samoloty/chyba, że śmigłowiec ma skrzydła na uzbrojenie -->
+srednica_wirnik  = |<!-- tylko śmigłowce-->
+dlugosc          = 8,45 m|
+dlugosckadlub    = |<!-- tylko śmigłowce -->
+szerokosc        = |<!-- kadłuba, dla śmigłowca -->
+wysokosc         = 2,96 m|
+pow_nosna        = 43,50 m²|<!-- tylko samoloty-->
+mwlasna          = 760 kg|
+muzyteczna       = |
+mstart           = 1060 kg|
+mladowania       = |<!-- samoloty transportowe-->
+muzbrojenia      = |<!-- militarne-->
+mpaliwa          = |
+pmax             = 125 km/h|
+pprzelotu        = 100 km/h|
+pmin             = |
+poptymalna       = |
+pekonomiczna     = |<!-- śmigłowce-->
+ppatrolowa       = |<!-- militarne-->
+pdopuszczalna    = |<!-- szybowce-->
+pholowania       = |<!-- szybowce-->
+opadaniemin      = |<!-- szybowce-->
+wznoszenie       = 2,2 m/s|<!--  samoloty-->
+wznoszeniepoziom = |<!-- tylko śmigłowce -->
+wznoszeniepion   = |<!-- tylko śmigłowce -->
+pulap            = 3200 m|<!-- samoloty-->
+pulappraktyczny  = |<!-- tylko śmigłowce -->
+z_ziemia         = |<!-- tylko śmigłowce -->
+bez_ziemia       = |<!-- tylko śmigłowce -->
+zasieg           = 300 km|
+promiendzialania = |
+czaslotu         = |
+rozbieg          = |<!-- tylko samoloty-->
+dobieg           = |<!-- tylko samoloty-->
+zapaspaliwa      = |
+doskonalosc      = |<!-- szybowce (dla v=85km/h)-->
+wspobciazeniakon = |<!-- współczynnik obciążenia konstrukcji; szybowce-->
+uzbrojenie       = '''Wersja CI:''' 2 × Schwarzlose kal. 8 mm<br>2 bomby po 25 kg|<!-- dla militarnych -->
+miejsca          = |<!-- dla pasażerskich -->
+ladownia         = |<!-- ładownia; dla transportowych -->
+equipment        = |<!--wyposażenie dodatkowe; np. walki elektronicznej itp. -->
+wlasciciele      = Niemcy, Austro-Węgry, Polska|<!-- kto używa-->
+rzut             = |<!-- rysunek w trzech/czterech rzutach-->
+}}
+
+'''Hansa Brandeburg B.I''' – niemiecki Hansa und Brandenburgische Flugzeugwerke.
+
+==Historia==
+Samolot ''Hansa Brandenburg B.I'' został skonstruowany przez inż. Ernsta Heinkela w samolot obserwacyjno-bombardujący.
+
+Samolot ''Hansa Brandenburg B.I'' był zbudowany w układzie silnikiem rzędowym tłokowym ''Mercedes'' lub ''Austro-Daimler'' umieszczonym z przodu kadłuba. Kadłub miał konstrukcję kratownicową drewnianą, kryty był sklejką. Za silnikiem znajdowała się w kadłubie odkryta kabina, w której z przodu siedział instruktor lub obserwator, a za nim uczeń lub pilot. W odmianie szkolnej B.I kabina była wyposażona w podwójne urządzenia sterownicze. Usterzenie miała klasyczne skośne, kryte płótnem, zamontowane na końcu kadłuba. Linki do sterów kierunku i wysokości poprowadzono na zewnątrz po obu stronach kadłuba, co miało ułatwić ich konserwację i ewentualne naprawy. Płaty dwudźwigarowe o kształcie prostokątnym, kryte były płótnem, połączono ze sobą słupkami pochylonymi nieco ku kadłubowi i usztywnione skrzyżowanymi cięgnami. Lotki umieszczono na końcach tylnego górnego płata.
+
+Odmiana obserwacyjno-bombardująca C.I różniła się od odmiany szkolnej tylko nieco innym kształtem usterzenia i mniejszą rozpiętością płatów. Miała też uzbrojenie w postaci 2 niezsynchronizowanych karabinów maszynowych kal. 8 mm Schwarzlose, umieszczonych na górnym płacie i zamkniętych wraz z taśmami nabojowymi w obudowie. Karabiny te obsługiwał obserwator. W odmianie tej można było w zależności od potrzeb zabierać 2 bomby po 25 kg lub aparat fotograficzny.
+
+Ponieważ trwała Austrii w zakładach Phönix i na Węgrzech w zakładach firmy Uffag. 
+
+Ogółem we wszystkich zakładach do końca I wojny światowej wyprodukowało ponad 1500 samolotów ''Hansa Brandenburg B.I'' i ''C.I''.
+
+==Użycie w lotnictwie==
+Samoloty ''Hansa Brandenburg B.I'' i ''C.I'' w czasie I wojny światowej używało lotnictwo niemieckie i austro-węgierskie, głównie do rozpoznania na korzyść artylerii a także do bombardowania w odmianie C.I i do szkolenia pilotów w odmianie B.I.
+
+==Użycie w lotnictwie polskim==
+W lotnictwie polskim samoloty ''Hansa Brandenburg B.I'' i ''C.I'' znalazły się w 1918 roku zaraz po odzyskaniu niepodległości. Zdobyto je od Niemców i Austriaków w liczbie 33 samolotów obserwacyjno-bombardujących C.I i 15 samolotów szkolnych B.I.

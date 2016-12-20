@@ -1,0 +1,56 @@
+Die '''Fischer-Tropsch-Synthese''' oder das '''Fischer-Tropsch-Verfahren''' ist ein von Franz Fischer und seinem Mitarbeiter Hans Tropsch in Mülheim an der Ruhr vor 1925 entwickeltes großtechnisches Verfahren zur Umwandlung von Synthesegas (CO/H<sub>2</sub>) in flüssige Kohlenwasserstoffe. Großtechnisch wurde das Verfahren ab 1934 von der Ruhrchemie AG angewandt.
+
+Es ist eine Aufbaureaktion von CO/H<sub>2</sub>-Gemischen an Eisen-,Magnesiumoxid-,Thoriumdioxid- oder Cobalt-Katalysatoren zu Paraffinen, Alkanen und Alkoholen. 
+Die Reaktion findet bereits bei Atmosphärendruck (bei höheren Drücken entstehen hauptsächlich Alkene) und bei einer Temperatur von 160°C - 200°C statt und verläuft nach folgenden allgemeinen Formeln:
+
+:<math>\mathrm{n\,CO + (2n+1)\, H_2 \leftrightharpoons C_n H_{2n+2} + n\, H_2O}</math>     (Alkane)
+
+:<math>\mathrm{n\,CO + (2n)\, H_2 \leftrightharpoons C_n H_{2n} + n\, H_2O}</math>         (Alkene)
+
+:<math>\mathrm{n\,CO + (2n)\, H_2 \leftrightharpoons C_n H_{2n+1}OH + (n-1)\, H_2O}</math> (Alkohole)
+
+Dabei entstehen rund 15% Flüssiggase (Propan und Butane), 50% Benzin, 28% Kerosin (Dieselöl), 6% Weichparaffin (Paraffingatsch), 2% Hartparaffine.
+Das Verfahren ist für die großtechnische Produktion von Ölen von Bedeutung. Einen gewissen Nachteil hat dieses Verfahren dennoch, da die zusätzlichen chemischen Umwandlungsschritte einen Teil der eingesetzten Primärenergie verschlingen. Dadurch würde pro gefahrenem Kilometer etwa die doppelte Menge an Treibhausgasen frei wie bei herkömmlichem Benzin. Geschichtlich war die Synthese besonders während des zweiten Weltkriegs für Deutschland von enormer Bedeutung, da so der Bedarf an flüssigen Kraftstoffen aus einheimischer Kohle gedeckt werden konnte. Es war eine Alternative zu der ebenfalls angewandten Kohleverflüssigung nach dem Bergius-Pier-Verfahren.
+
+Nach 1945 kam das billigere US-amerikanische Erdöl, so dass der einheimische Kohletreibstoff zu teuer wurde. Dennoch nahm man in den 1970er Jahren, nach der schweren Erdölpreis zwischenzeitlich unter 20 Dollar pro Barrel gesunken war und sich so das Verfahren nicht mehr rentierte.<ref name="technologie">vgl. Technology Review: ''Billig, aber schmutzig'', Dezember 2006, Seite 44 ff.</ref>
+
+Bisher war Südafrika das einzige Land, das einen Großteil seines Treibstoffbedarfs durch die Fischer-Tropsch-Reaktion ausgehend von Kohle deckte. Während der Apartheid war dies die wichtigste Quelle für Kraftstoffe, da Südafrika selbst kein Erdöl aber dafür große Kohlevorkommen besaß und von Erdöllieferungen durch ein Embargo abgeschnitten war. Da die Steinkohle im Tagebau relativ preisgünstig gewonnen werden kann, deckt das Land auch heute noch etwa 30% seines Kraftstoffbedarfs aus Kohlebenzin.<ref name="technologie"/> Dazu wurde eigens die South African Synthetic Oil Ltd. (Sasol) gegründet, die drei Anlagen zur FT-Synthese in Sasolburg (Sasol 1) und Secunda (Sasol 2 und Sasol 3) betreibt. 
+
+Neben Südafrika will auch China, das ebenfalls über reiche Kohlevorkommen verfügt, einen Teil seines Kraftstoffverbrauchs mit der Kohleverflüssigung decken. Hierzu soll 2007 eine erste Anlage in Betrieb gehen, weitere Anlagen sind in Planung.<ref name="technologie"/>
+
+Auch in Deutschland nehmen die Unternehmen Choren und CUTEC die Forschung wieder auf und arbeiten an Verfahren, um Diesel aus Biomasse mittels FT-Synthese zu produzieren.
+
+'''フィッシャー・トロプシュ法'''（フィッシャー・トロプシュほう、Fischer-Tropsch process、'''FT法'''）は一酸化炭素と水素から触媒反応を用いて液体炭化水素を合成する一連の過程である。触媒としては鉄やコバルトの化合物が一般的である。この方法の主な目的は、石油の代替品となる合成油や合成燃料を作り出すことである。「フィッシャー・トロプシュ反応」や「フィッシャー・トロプシュ合成」とも呼ばれる。
+
+== 反応過程 ==
+基本的なFT法は、以下のような化学反応を用いるものである。
+:(2''n'' + 1) H<sub>2</sub> + ''n'' CO &rarr; C<sub>''n''</sub>H<sub>2''n''+2</sub> + ''n'' H<sub>2</sub>O
+上記の反応で出発物質となる一酸化炭素 CO や水素 H<sub>2</sub> は、メタン（天然ガス）の部分燃焼
+:CH<sub>4</sub> + 1/2 O<sub>2</sub> &rarr; 2 H<sub>2</sub> + CO
+あるいは石炭やバイオマス（生物資源）のガス化
+:C + H<sub>2</sub>O &rarr; H<sub>2</sub> + CO
+などで作られる。石炭や生物資源と水蒸気の反応に必要なエネルギーは、系中に酸素を存在させ、以下の反応式
+:C + 1/2 O<sub>2</sub> &rarr; CO
+で表される燃焼による反応熱によって供給する。一酸化炭素と水素の混合物は合成ガスまたはシンガス (syngas) と呼ばれる。合成された炭化水素化合物は精製過程を経て、合成燃料として製品化される。
+
+石炭やワックスが必要な場合にはフィッシャー・トロプシュ法が適用される。水素ガスの製造が求められるならば、水性ガスシフト反応によって、炭化水素を副生させることなく水素と二酸化炭素のみを作り出すこともできる。液体燃料をガスに変換するのは比較的容易である。
+
+== 歴史 ==
+カイザー・ウィルヘルム研究所に勤務していたドイツの研究者、フランツ・フィッシャー (Franz Fischer) とハンス・トロプシュ (Hans Tropsch) によって1920年代に開発されたのが起源である。それ以来多くの改良や調整が施され、今日では類似する方法の総称として「フィッシャー・トロプシュ」の名が用いられる。
+
+1920年代のドイツは石油資源には乏しかったが石炭には恵まれていたことからこの方法が開発された。第二次世界大戦下のドイツや日本で代替燃料の製造に利用され、ドイツではこの種の代替燃料はErsatz) と呼ばれた。ドイツは1944年には25の工場から1日当たり124000バレル、年間650万トンに達する量を作り出した<ref>http://www.fe.doe.gov/aboutus/history/syntheticfuels_history.html （アメリカ合衆国エネルギー省）</ref>。
+
+戦後、捕らえられたドイツの科学者たちはSynthetic Liquid Fuels Program) によって設立されたUnited States Bureau of Mines)で合成燃料の研究を続けた。
+
+== 利用 ==
+thumb|right|フィッシャー・トロプシュ法による流動層ガス化工場。オーストリア、[[ブルゲンラント州ギュッシング (Güssing)]]
+近年では商業規模でFT法を使っている企業は少ない。しかし、本法によって得られる燃料は硫黄成分が少ないため、ディーゼルエンジンやガソリンエンジンの排気による環境汚染を減らせると期待されている。
+
+FT法は確立された技術であり、既に工業規模への適用もなされているが、初期費用や運転・操業費用がかさむこと、またストランデッド・ガス、すなわちガス田が主要都市から遠い内陸、または氷海にあり、ガス大径パイプラインによる輸送をした場合敷設、輸送コストが嵩み過ぎ、LNGタンカーによる輸送も困難なケースのみ、液化して小径パイプライン、鉄道、船舶輸送するピークに達するのは石油の5から15年後であると予想しているが、状況を予測することは難しく、不確かな場合が多いとされている。。
+
+石油資源が枯渇した場合には石炭が利用でき、その世界中の埋蔵量はいまだ多い。通常利用している石油が高騰した際には、FT法で石炭から一時的な代替燃料を作ることができる。バイオマスのガス化とFT法を組み合わせることにより、再生可能な「グリーン」な燃料を製造に役立つと考えられている。<!--なぜグリーン？-->
+
+=== 利用例 ===
+シェル社はマレーシア、サラワク州ビンツル (Bintulu) で天然ガスを原料とし、主に低硫黄ディーゼル燃料や食品品質のワックスを製造している。また、カタールで新たなプラントを2009年から稼働予定である。
+
+南アフリカのサソール (SASOL) 社は石炭と天然ガスを原料として種々の合成石油製品を作っている。サソールは同国のディーゼル燃料の大部分を供給している。南アフリカでは、アパルトヘイト政策をしいたことによって国際的に孤立した状況下でエネルギー需要を満たすために本法が用いられている。

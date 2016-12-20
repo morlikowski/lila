@@ -1,0 +1,46 @@
+thumb|Das ist '''linky'''. Er ist ein wenig blass um die Nase, weil er ja nie rauskommt und Tag und Nacht vor dem PC sitzt.
+'''linky''' ist ein Bot im deutschen Chatraum von Wikipedia:Chat. linky erlaubt es, auch im Chat die gewohnten Klammern <nowiki> und </nowiki> zu verwenden: Bekommt er ein Wort in eckigen Klammern geliefert, so liefert er die URL zu diesem Artikel zurück. Linky liefert auch dann eine URL, wenn der entsprechende Artikel nicht existiert.
+
+Was linky sonst noch kann, erfährt man, wenn man ihn mit <code>!hilfe</code> danach fragt.
+
+Beispiel für die Anwendung:
+ DingoSaar: <nowiki>Wikipedia:linky</nowiki>
+     linky: http://de.wikipedia.org/wiki/Wikipedia:linky?redirect=no
+ 
+Linky hat auch Freunde in der japanischen (Linky-ja) und alemannischen (Huusmeischtr) Wikipedia und bei den Vandalismusbekämpfern. Außerdem hat er noch 10 kleine Brüderchen, den '''linky-80686''' in <code>#wikimedia-de</code>, den '''reichslinky''' in <code>#hist.wikipedia</code>, '''wikiversilinky2''' in <code>#wikiversity-de</code>, '''wslinky''' in <code>#wikisource-de</code> , den  '''natlinky''' in <code>#nat.wikipedia</code> , den  '''Sauerlandlinky''' in <code>#Wiki-de-Sauerland</code>, den  '''raillinky''' in <code>#rail.wikipedia</code>, den '''rclinky''' in <code>#wikipedia-de-rc</code>, den '''balalinky''' in <code>#wikipedia-de-russland</code> und den '''otrslink''' in <code>#wikimedia-otrs-de</code>.
+
+thumb|<nowiki><:3 )~~~</nowiki>
+'''linky-ja'''はウィキペディア日本語版のIRCチャネル#wikipedia-jaに棲むdatura, DaB., da_didiにより開発されたlinkyがネタ元ではある（当初はそのまま使っていた）ものの、想定外の文字が来ると死んでしまうため、Tietewにより書き下ろされた。
+
+使用言語はRubyで、ソースコードはGNU GPLで公開されている。
+
+---- 
+<p lang="en">'''linky-ja''' is a irc* bot on #ja.wikipedia hosted by freenode.net. The name linky derived from German irc bot, Linky, but fully newly written by its owner. Cheers.</p>
+
+== linky-jaとの遊び方 ==
+オリジナルlinkyと同じく、linky-jaの基本機能はIRCの発言中に <code></code> と <code></code> で括られた文字列を発見するとそれをウィキペディアへのURLに変換し、発言する。ウィキペディアで使えるinterwikiの他、若干の独自のinterwikiを認識する。[http://linky.wikipedia.jp/interwiki.csv]
+<pre>
+>Tietew_note< Wikipedia:Linky-ja
+<linky-ja> http://ja.wikipedia.org/wiki/Wikipedia:Linky-ja?redirect=no
+>Tietew_note< meta:Meta:Babel
+<linky-ja> http://meta.wikimedia.org/wiki/Meta:Babel?redirect=no
+</pre>
+===calc===
+<code>!calc 120円をドルで</code>と発言してみましょう。
+計算してくれます。
+=== 命令 ===
+<code>!help</code>と発言してみよう。
+
+=== 新着案内 ===
+ウィキペディア日本語版のRCがリアルタイムで流れるirc.wikimedia.orgを監視し、新着項目があるとリンクおよび内容の冒頭、リモートホストをIRCチャンネル[irc://irc.freenode.net/#wikipedia-ja-articles #wikipedia-ja-articles]に流す。IRCの住人はこれを見て愚痴や突っ込みを言ったり、時には瞬殺したりするのだ。
+
+会話が少ない昼間から夕方にかけて、ログが新着案内で埋め尽くされていることが殆どだ。
+
+なお#wikipedia-ja-articlesは文字コードがISO-2022-JPとなっているため、UTF-8対応でないIRCクライアントでも読むことは可能である。chatzillaではチャンネルに入った後 <code>/charset iso-2022-jp</code> を入力しよう。
+
+他の日本語プロジェクトはそれぞれこちら:
+* Wiktionary -> #wiktionary-ja
+* Wikiquote -> #wikiquote-ja
+* Wikibooks -> #wikibooks-ja
+* Wikinews -> #wikinews-ja
+* Wikisource -> #wikipedia-ja-articles

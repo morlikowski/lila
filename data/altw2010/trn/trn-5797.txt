@@ -1,0 +1,59 @@
+En nombres quàntics <math>n</math> i <math>j</math> però diferent nombre quàntic orbital <math>l</math> han de ser degenerats. Lamb descobrí que no és així, ja que l'efecte de l'òrbita provoca diferents energies a electrons amb diferents valors del nombre quàntic orbital.
+
+==Introducció==
+La teoria de Dirac per a l'àtom d'un electró (nuclears, hauria d'explicar perfectament l'espectre de l'àtom d'un electró; no obstant això, en mesures espectrals molt precises es detecten desviacions de les predicions d'aquesta teoria. 
+
+==Definició==
+L'any 1951 Lamb descobrí que no és així, degut a que l'estat <math>2p_{1/2}</math> és lleugerament més baix que l'estat <math>2s_{1/2}</math>, de la qual cosa es deriva un desplaçament feble de la corresponent línia orbital, actualment anomenat «desplaçament Lamb». Més concretament, es pot dir que l'energia de l'estat <math>2s_{1/2}</math> és 4,372&times;10<sup>&minus;6</sup> eV superior a la de l'estat <math>2p_{1/2}</math>, essent <math>l=0</math> en el primer cas i <math>l=1</math> en el cas de l'estat <math>2p_{1/2}</math>.
+
+==Història==
+Els primers resultats experimentals en aquest sentit foren obtingudes per espectroscòpics directes, ja que són emmascarades per efectes difícils de controlar, com l'efecte Doppler que sofreix la radiació emesa per l'àtom a causa de el seu moviment de translació.
+
+==Treball experimental==
+La qüestió fou definitivament resolta experimentalment en R. C. Retherford que idearen un experiment que minimitzava l'eixamplament Doppler de les línies espectrals. Els punts claus de l'experiment són:
+
+# En lloc de resoldre espectroscòpicament l'estructura fina, utilitzaren tècniques de dipolar elèctrica).
+#L'èxit de l'experiment de Lamb i Retherford està en que el nivell <math>2s_{1/2}</math> és metaestable, degut a que l'únic estat per davall, en energia, és el <math>2s_{1/2}</math>, i no està permesa una transició dipolar elèctrica entre aquests dos estats.
+#El mecanisme més probable de desexcitació és per l'emissió de dos fotons, amb una s. Així doncs, en absència de pertorbacions externes, la vida mitjana de l'estat <math>2s_{1/2}</math> és molt més llarga que la del <math>2p_{1/2}</math> que és de 1,6&times;10<sup>−9</sup> s.
+
+Willis Lamb va amidar el desplaçament en la regió de les microones. Va posar àtoms en l'estat <math>2s_{1/2}</math>, que no es podien desexcitar adoptant directament l'estat <math>1s_{1/2}</math> ja que les regles de selecció prohibeixen canviar el moment orbital angular en una unitat. Introduint els àtoms en un camp magnètic per a separar els nivells per efecte Zeeman, va exposar els àtoms a una radiació de microones de 2.395 MHz. Llavors va variar el camp magnètic fins que la freqüència va produir transicions des del nivell <math>2p_{1/2}</math> fins al nivell <math>2p_{3/2}</math>. Llavors va poder amidar la transició permesa des del nivell <math>2p_{3/2}</math> al nivell <math>1s_{1/2}</math>. Aquests resultats van ser usats per a determinar que el camp magnètic «zero», divisori d'aquests dos nivells, correspon a 1.057 MHz. Utilitzant la relació de Planck ''E'' = ''h&nu;'' es demostra que l'energia de separació és de 4,372&times;10<sup>&minus;6</sup> eV.
+
+Entrant en una sèrie de detalls tècnics es pot dir que el procediment per a realitzar l'experiment és el següent: s'usa un feix d'hidrogen molecular a alta temperatura per a obtenir els àtoms d'hidrogen l'espectre dels quals es vol analitzar (a 2.500 K la dissociació és del 60%). Els àtoms d'hidrogen se seleccionen fent-los passar per una escletxa, al mateix temps es bombardegen amb electrons d'energia cinètica major que 10,2 eV per a aconseguir que el sistema passi a l'estat <math>2s_{1/2}</math>. Per aquest procediment s'obté una petita fracció (1 en 108) d'àtoms en els estats <math>2s_{1/2}</math>, <math>2p_{1/2}</math> i <math>2p_{3/2}</math> a una velocitat mitjana de 8&times;10<sup>5</sup> cm/s.
+
+Donada l'alta vida mitjana de l'estat <math>2s_{1/2}</math> respecte dels altres dos estats <math>p</math>, els àtoms en aquest estat recorren una distància de l'ordre de 10 cm mentre que els altres només recorren 1,3&times;10<sup>−3</sup> cm abans de desexcitar-se. El detector és una làmina de tungstè en què l'àtom en l'estat <math>2s_{1/2}</math> pot dipositar el seu electró absorbint la seva energia d'ionització. Si el feix d'àtoms en l'estat <math>2s_{1/2}</math> es fa passar a través d'una regió d'interacció amb un camp de radiofreqüència que provoqui la transició des de l'estat <math>2s_{1/2}</math> als estats <math>2p_{1/2}</math> o <math>2p_{3/2}</math>, s'origina una ràpida caiguda de la població d'àtoms en l'estat <math>2s_{1/2}</math> a l'obrir de forma forçada un canal de transició. Això provoca una ràpida redució dels àtoms en l'estat <math>2s_{1/2}</math> que arriben al detector; naturalment això ocorre només quan la radiofreqüència coincideix amb l'energia
+de la transició <math>2s_{1/2}</math> → <math>2p_{1/2}</math> o <math>2s_{1/2}</math> → <math>2p_{3/2}</math>. Per tant, la diferència d'energia entre els nivells és igual a la freqüència de la radiació que fa que es detecti una disminució en la població dels estats <math>2s_{1/2}</math> que arriba al detector.
+
+Amb aquesta base experimental i alguns detalls més, com l'aplicació d'un camp magnètic variable per a estabilitzar el camp de microones, Lamb i Retherford obtingueren que el nivell <math>2s_{1/2}</math> està 1.000 MHz per sobre del <math>2p_{1/2}</math>. Experiments posteriors més precisos han establert aquesta diferència en 1.057,90 ± 0,06 MHz (Robiscoe i Shyn 1970), 1.057,893 ± 0,020 MHz (Lundeen i Pipkin 1975) i 1.057,862 ± 0,020 MHz (Andrews i Newton 1976).
+
+==L'explicació teòrica==
+
+L'explicació teòrica d'aquests resultats no fou en principi gens evident i va dur a la revisió de conceptes fonamentals com la càrrega i a la formulació de teories com l'pertorbatius i les correccions radiatives són els efectes de segon ordre. En particular, aquests efectes són els denominats d'autoenergía del fotó o polarització del buit, autoenergía de l'electró i correccions de vèrtex. Aquestes pertorbacions de segon ordre, originen una renormalització de la massa i de la càrrega de l'electró que fan que els valors que s'amiden experimentalment siguin distints dels que tindrien de no ser per l'existència de la interacció electromagnètica o de no acoblar-se el camp dels electrons amb el dels fotons.
+
+En el cas de l'efecte Lamb, la contribució principal prové de l'estats de col·lisió. En qualsevol cas, i a causa de la importància d'aquest efecte, la situació actual és que els càlculs teòrics més precisos són 1.057,916 ± 0,010 MHz (Erickson 1971), 1.057,864 ± 0,014 MHz (Mohr 1976), que cal comparar amb els resultats experimentals esmentats anteriorment.
+
+==Energia del punt zero==
+
+'''Лэмбовский сдвиг уровней энергии''' — небольшие различия энергий электрона в атоме водорода и водородоподобных атомах для некоторых состояний электрона, в которых, согласно уравнению Дирака, энергии должны совпадать. Экспериментально установлен У.Ю. Лэмбом <!--(Lamb, родился 12.07.1913, Лос-Анджелес)--> и Р. Нобелевской премии.
+
+== Суть эффекта ==
+
+В квантовой электродинамике лэмбовский сдвиг объясняется влиянием на электрон порождаемого им электромагнитного поля, зависит от энергетического состояния электрона. Согласно квантовой теории поля, виртуальных электрон-позитронных пар, которые частично экранируют заряд. Когда электрон приближается к атомному ядру, он проникает в облако ''виртуальных пар'', что ведет к возрастанию взаимодействия между ядром и электроном. Этот эффект достаточно велик для экспериментальной проверки.
+
+Сдвиг уровней — это небольшое отклонение тонкой структуры уровней энергии водородоподобных атомов от предсказаний релятивистской квантовой механики, основанных на уравнении Дирака. Согласно точному решению этого уравнения, атомные уровни энергии являются двукратно вырожденными: энергии состояний с одинаковым главным квантовым числом <math>n = 1, 2, 3,...</math> и одинаковым квантовым числом полного момента <math>j = 1/2, 3/2,...</math> должны совпадать независимо от двух возможных значений орбитального квантового числа <math>l = j \pm 1/2 = n-1</math> (исключая <math>j + 1/2 = n</math>, когда <math>l=j-1/2=n-1</math>).
+ 
+Однако Лэмб и Резерфорд методом радиоспектроскопии обнаружили расщепление «вырожденных» уровней 2S<sub>1/2</sub> (n = 2, l = 0, j = 1/2) и 2Р<sub>1/2</sub> (n = 2, l = 1, j = 1/2) в атоме водорода — лэмбовский сдвиг. Основной вклад в сдвиг уровней энергии (<math>\alpha^3R</math>, где <math>\alpha</math> — постоянная тонкой структуры, <math>R</math> — постоянная Ридберга) дают два радиационных эффекта: 
+# испускание и поглощение связанным электроном виртуальных фотонов, что приводит к изменению эффективной массы электрона и возникновению у него аномального магнитного момента; 
+# возможность виртуального рождения и аннигиляции в вакууме электронно-позитронных пар (т. н. комптоновской длины волны электрона (~4×10<sup>-11</sup> см). Найден также вклад эффектов движения и структуры ядра атома водорода (протона).
+
+== Значение величины ==
+
+Современное теоретическое значение лэмбовского сдвига в водороде L<sub>теор.</sub>= (1058,911 ± 0,012) Мгц. Еще более сильное, чем в атоме водорода, электромагнитное взаимодействие происходит между электронами и ядрами тяжелых атомов. Исследователи из лаборатории GSI (Дармштадт, Германия) пропускали пучок атомов урана-92 через фольгу, в результате чего атомы теряли все кроме одного из своих электронов, превращаясь в ионы с зарядом +91. Электрическое поле между ядром такого иона и оставшимся электроном достигало величины 10<sup>16</sup> В·см<sup>-1</sup>. Измеренный лэмбовский сдвиг в ионе составил 468±13 эВ — в согласии с предсказаниями квантовой электродинамики.
+
+Сам Лэмб экспериментально получил значение магнитного момента электрона которое отличается в 1.001159652200 раз от значения магнетона Бора предсказанного по уравнению Дирака.
+Когда была создана теория перенормировок, лэмбовский сдвиг оказался первым физическим эффектом, на котором подтвердилась ее правильность (и, соответственно, правильность квантовой электродинамики, построенной с использованием этой перенормировки). Вычисленное новое теоретическое значение оказалось равно 1.001159652415 магнетонам Бора, что поразительно точно совпадает с экспериментом. 
+
+== Эксперимент ==
+
+В 1947 Лэмб и микроволнового излучения для стимулирования радиочастотных переходов между квантовыми уровнями атома водорода <math>2s_{1/2}</math> и <math>2p_{1/2}</math>. Использование более низких частот излучения, чем для оптических переходов позволяет пренебречь допплеровским уширением линий (оно пропорционально частоте). Разница в энергии, найденная Лэмбом и Резерфордом составила 1060 МГц для перехода между <math>2s_{1/2}</math> и <math>2p_{1/2}</math> энергетическими уровнями. 
+
+Эта разность — однопетлевой эффект квантовой электродинамики, и может интерпретироваться как влияние виртуальных гармонического осциллятора в квантовой механике, его самое низкое состояние не ноль. Таким образом там существуйют нулевые колебания, которые вызывают быстрые колебания электрона. Радиус заменяется на величину <math>r+\delta r</math>. 

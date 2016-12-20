@@ -1,0 +1,34 @@
+The '''Convergent Technologies Operating System''', also known variously as '''CTOS''', '''BTOS''' and '''STARSYS''', was a modular, message-passing, multi-process based operating system.
+
+CTOS had many innovative features for its time. 
+
+The file system was hierarchical and allowed very long file names. Security was also hierarchical. If one knew the password, for example, for a volume, one could access any file or directory on that volume (hard disk.)  Each volume and directory were referenced with delimiters to identify them, and could be followed with a file name, depending on the operation, i.e. [VolumeName]<DirectoryName>FileName.
+
+The word processor was one of the first screen-oriented editors with many high-powered features, such as multiple views of the same file, cut/copy/paste, unlimited undo/redo, no typing lost after a crash, user-selectable fonts, and much more.
+
+Most of the system programs were written in PL/M, an ALGOL-like language from Intel which compiled directly to object code without a runtime library.
+
+The system API was presented to both high-level languages and assembly language.  The assembler was very advanced, with a Lisp %28programming language%29-like pattern-matching macro facility unmatched by almost any other assembler before or since.
+
+There was an always-resident debugger.
+
+The system shell was extensible — it was possible to define new commands. To get the parameters, the system would display the form which was to be filled by the user.
+
+A game included with the OS proved to be very popular, programmed using the font generator to do simple graphics: "Rats Of The Maze".
+
+Progress Software Corporation made a commercial database application for CTOS that was in 4GL.  The US Coast Guard used these databases for logistics administration for their vessels.
+
+Das '''Convergent Technologies Operating System''', auch bekannt unter den Namen '''CTOS''', ''BTOS'' und ''STARSYS'', war ein modulares, multiprozess-basiertes Betriebssystem der Firma Convergent Technologies.
+
+Convergent Technologies erstes Produkt war das IWS (Bosch (Telenorma) in Lizenz übernommen und vertrieben.
+
+== Eigenschaften ==
+Das CTOS Betriebssystem basierte auf einem 4&nbsp;KB Echtzeit-Microkernel, dieser beinhaltete 
+*Multitasking
+*Netzwerkanbindung
+*Mehrere Prozesse und Threads
+*Nachrichten basierte Interprozesskommunikation
+
+Der Kernel interpretierte die Nachricht, leitete die Nachricht an die Ressource weiter, welche die Nachricht beantworten konnte. Dabei spielte es keine Rolle, ob die Antwort von dem lokalen System oder einem entfernten System stammte. Jede ''CTOS''-Workstation verwaltete eine Ressourcentabelle. Beim Erhalt einer Nachricht überprüfte der Microkernel, ob zu dieser Nachricht eine lokale Ressource existierte, wenn nicht, versuchte der Kernel die Nachricht über das Netzwerk zu einer als Server agierenden ''CTOS''-Instanz zu delegieren.
+
+Durch dieses System konnten so schon 1986 auf dem 8086 basierende Netzwerksysteme (RS422/307K Baud) aufgebaut werden, die es ermöglichten, innerhalb eines "Clusters" von maximal 16 Workstations gemeinsam an Datenbanken (Datamanager), Multiplan-Tabellen oder Texten zu arbeiten.

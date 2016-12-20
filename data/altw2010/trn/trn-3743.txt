@@ -1,0 +1,98 @@
+Et '''prisindeks''' - eller '''pristal''' - udtrykker udvikling i et ''sammenvejet'' sæt varer eller andre goder. Sættet benævnes til tider en ''kurv''. Tilsvarende indeks anvendes til vurdering af udviklingen i priser på værdipapirer, eksempelvis det danske OMXC20.
+
+Ved beregning af et indeks må man indledningsvist afklare, med hvilken vægt de goder skal medregnes. Ved et forbrugerprisindeks skal de enkelte goder svare til disses budgetandel i husholdningernes forbrug, ved et aktieindeks anvendes en kombination af markedsværdi og omsætning ('likviditet').
+
+Over tid vil vægtene forskydes - de danske forbrugere spiste i 1960'erne mange kartofler, men i 1990'erne mere pasta - og det må så afgøres, om man vil bruge de gamle vægte, de nye vægte eller noget imellem.
+
+'''Laspeyres' indeks''' tager udgangspunkt i de gamle vægte (mængder):
+:<math>\Delta P_L = \frac{\sum p_1 q_0}{\sum p_0 q_0},</math>
+hvor <math>\Delta P</math> er ændringen i prisindekset, <math>p_0</math> og <math>q_0</math> er priser og mængder til det første tidspunkt, <math>p_1</math> og <math>q_1</math> de tilsvarende til det andet tidspunkt. Laspeyres' prisindeks har en tendens til overvurdere prisudviklingen (inflationen).
+
+'''Paasches indeks''' tager udgangspunkt i de nye vægte (mængder):
+:<math>\Delta P_P = \frac{\sum p_1 q_1}{\sum p_0 q_1},</math>
+og har en tendens til at undervurdere prisudviklingen.
+
+A '''price index''' (''plural'': “price indices” or “price indexes”) is a normalized ''weighted'' average) of goods or services in a given region, during a given interval of time.  It is a statistic designed to help to compare how these prices, taken as a whole, differ between time periods or geographical locations.
+
+Price indices have several potential uses.  For particularly broad indices, the index can be said to measure the economy's price level or a cost of living.  More narrow price indices can help producers with business plans and pricing.  Sometimes, they can be useful in helping to guide investment.
+
+Some notable price indices include:
+
+* Consumer price index
+* Producer price index
+* GDP deflator
+
+== History of early price indices ==
+
+No clear consensus has emerged on who created the first price index.  The earliest reported research in this area came from Welshman Rice Vaughan who examined price level change in his currency debasement.  Vaughan compared labor statutes from his own time to similar statutes dating back to Edward III. These statutes set wages for certain tasks and provided a good record of the change in wage levels.  Rice reasoned that the market for basic labor did not fluctuate much with time and that a basic laborers salary would probably buy the same amount of goods in different time periods, so that a laborer's salary acted as a basket of goods.  Vaughan's analysis indicated that price levels in England had risen six to eight fold over the preceding century.<ref>Chance, 108.</ref>
+
+While Vaughan can be considered a forerunner of price index research, his analysis did not actually involve calculating an index.<ref>Chance, 108.</ref>  In 1707 Englishman William Fleetwood perhaps created the first true price index.  An Oxford student asked Fleetwood to help show how prices had changed.  The student stood to lose his fellowship since a fifteenth century stipulation barred students with annual incomes over five pounds from receiving a fellowship.  Fleetwood, who already had an interest in price change, had collected a large amount of price data going back hundreds of years.  Fleetwood proposed an index consisting of averaged price relatives and used his methods to show that the value of five pounds had changed greatly over the course of 260 years.  He argued on behalf of the Oxford students and published his findings anonymously in a volume entitled ''Chronicon Preciosum''.<ref>Chance, 108-109</ref>
+
+== Formal calculation ==
+
+Given a set <math>C</math> of goods and services, the total market value of transactions in <math>C</math> in some period <math>t</math> would be
+:<math>\sum_{c\,\in\, C} (p_{c,t}\cdot q_{c,t})</math>
+where
+:<math>p_{c,t}\,</math> represents the prevailing price of <math>c</math> in period <math>t</math>
+:<math>q_{c,t}\, </math> represents the quantity of <math>c</math> sold in period <math>t</math>
+If, across two periods <math>t_0</math> and <math>t_n</math>, the same quantities of each good or service were sold, but under different prices, then
+:<math>q_{c,t_n}=q_c=q_{c,t_0}\, \forall c</math>
+and
+:<math>P=\frac{\sum (p_{c,t_n}\cdot q_c)}{\sum (p_{c,t_0}\cdot q_c)}</math>
+would be a reasonable measure of the price of the set in one period relative to that in the other, and would provide an index measuring relative prices overall, weighted by quantities sold.
+
+Of course, for any practical purpose, quantities purchased are rarely if ever identical across any two periods. As such, this is not a very practical index formula.
+
+One might be tempted to modify the formula slightly to
+
+:<math>P=\frac{\sum (p_{c,t_n}\cdot q_{c,t_n})}{\sum (p_{c,t_0}\cdot q_{c,t_0})}</math>
+
+This new index, however, doesn't do anything to distinguish growth or reduction in quantities sold from price changes. To see that this is so, consider what happens if all the prices double between <math>t_0</math> and <math>t_n</math> while quantities stay the same: <math>P</math> will double. Now consider what happens if all the ''quantities'' double between <math>t_0</math> and <math>t_n</math> while all the ''prices'' stay the same: <math>P</math> will double. In either case the change in <math>P</math> is identical. As such, <math>P</math> is as much a ''quantity'' index as it is a ''price'' index.
+
+Various indices have been constructed in an attempt to compensate for this difficulty.
+
+=== Paasche and Laspeyres price indices ===
+
+The two most basic formulas used to calculate price indices are the '''Paasche index''' (after the German economist Hermann Paasche) and the '''Laspeyres index''' (after the German economist
+Etienne Laspeyres).
+
+The Paasche index is computed as
+:<math>P_P=\frac{\sum (p_{c,t_n}\cdot q_{c,t_n})}{\sum (p_{c,t_0}\cdot q_{c,t_n})}</math>
+while the Laspeyres index is computed as
+:<math>P_L=\frac{\sum (p_{c,t_n}\cdot q_{c,t_0})}{\sum (p_{c,t_0}\cdot q_{c,t_0})}</math>
+where <math>P</math> is the change in price level, <math>t_0</math> is the base period (usually the first year), and <math>t_n</math> the period for which the index is computed.
+
+Note that the only difference in the formulas is that the former uses period n quantities, whereas the latter uses base period (period 0) quantities.
+
+When applied to bundles of individual consumers, a Laspeyres index of 1 would state that an agent in the current period can afford to buy the same bundle as he consumed in the previous period, given that income has not changed; a Paasche index of 1 would state that an agent could have consumed the same bundle in the base period as she is consuming in the current period, given that income has not changed.
+
+Hence, one may think of the Paasche index as the inflation rate when taking the numeraire as the  bundle of goods using base year prices but current quantities.  Similarly, the Laspeyres index can be thought of as the inflation rate when the numeraire is given by the bundle of goods using current prices and current quantities.
+
+The Laspeyres index systematically overstates inflation, while the Paasche index understates it, because the indices do not account for the fact that consumers typically react to price changes by changing the quantities that they buy.  For example, if prices go up for good c, then ceteris paribus, quantities of that good should go down.
+
+=== Fisher index and Marshall-Edgeworth index ===<!-- This section is linked from Marshall-Edgeworth index -->
+
+A third index, the '''Marshall-Edgeworth index''' (named for economists Alfred Marshall and Francis Ysidro Edgeworth), tries to overcome these problems of under- and overstatement by using the arithmethic means of the quantities:
+:<math>P_{ME}=\frac{\sum [p_{c,t_n}\cdot \frac{1}{2}\cdot(q_{c,t_0}+q_{c,t_n})]}{\sum [p_{c,t_0}\cdot \frac{1}{2}\cdot(q_{c,t_0}+q_{c,t_n})]}=\frac{\sum [p_{c,t_n}\cdot (q_{c,t_0}+q_{c,t_n})]}{\sum [p_{c,t_0}\cdot (q_{c,t_0}+q_{c,t_n})]}</math>
+
+A fourth, the '''Fisher index''' (after the American economist Irving Fisher), is  calculated as the geometric mean of <math>P_P</math> and <math>P_L</math>:
+:<math>P_F = \sqrt{P_P\cdot P_L}</math>
+
+However, there is no guarantee with either the Marshall-Edgeworth index or the Fisher index that the overstatement and understatement will thus exactly one cancel the other.
+
+The results of these two methods are likely to be very similar, but it can be shown that a theoretically correct approach would be to take a weighted average of the two, with the Fisher result being given twice the weight of the Marshall-Edgeworth result. (Consider chaining into infinitesimally small time periods. Integral of exp(t) from t=0 to t=n is approximately equal to (2/3)(exp(n/2)+(1/3)((exp(n)+1)/2).)
+
+While these indices were introduced to provide overall measurement of relative prices, there is ultimately no way of measuring the imperfections of any of these indices (Paasche, Laspeyres, Fisher, or Marshall-Edgeworth) against reality.
+
+=== Practical measurement considerations ===
+=== Normalizing index numbers ===
+
+Price indices are represented as index numbers, number values that indicate relative change but not absolute values (i.e. one price index value can be compared to another or a base, but the number alone has no meaning). Price indices generally select a base year and make that index value equal to 100. You then express every other year as a percentage of that base year. In our example above, let's take 2000 as our base year. The value of our index will be 100. The price
+* 2000: original index value was $2.50; $2.50/$2.50 = 100%, so our new index value is 100
+* 2001: original index value was $2.60; $2.60/$2.50 = 104%, so our new index value is 104
+* 2002: original index value was $2.70; $2.70/$2.50 = 108%, so our new index value is 108
+* 2003: original index value was $2.80; $2.80/$2.50 = 112%, so our new index value is 112
+
+When an index has been normalized in this manner,  the meaning of the number 108, for instance, is that the total cost for the basket of goods is 4% more in 2001, 8% more in 2002 and 12% more in 2003 than in the base year (in this case, year 2000).
+
+==== Relative ease of calculating the Laspeyres index ====

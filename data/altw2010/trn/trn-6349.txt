@@ -1,0 +1,128 @@
+{{Comune
+|nomeComune = Roveredo in Piano
+|linkStemma = <!-- Roveredo in Piano-Stemma.png -->
+|siglaRegione = FVG
+|siglaProvincia = PN
+|latitudineGradi = 46
+|latitudineMinuti = 1
+|latitudineSecondi = 0
+|longitudineGradi = 12
+|longitudineMinuti = 37
+|longitudineSecondi = 0
+|mappaX = 149
+|mappaY = 39
+|altitudine = 99
+|superficie = 15
+|abitanti = 5.464
+|anno =  2007<!-- solo valore  dell'anno di riferimento  -->
+|densita = 324
+|frazioni =  - <!-- villote, tornielli -->
+|comuniLimitrofi = Aviano, Fontanafredda, Porcia, Pordenone, San Quirino
+|cap = 33080
+|prefisso = 0434
+|istat = 093036
+|fiscale = H609
+|nomeAbitanti = roveredani
+|patrono = San Bartolomeo
+|festivo = 24 agosto
+|sito =  http://www.comune.roveredoinpiano.pn.it
+}} <!-- fine della tabella - per la compilazione vedi -> Aiuto:Comune -->
+'''Roveredo in Piano''' (''Lavorêt'' in friulano) è un comune di 5.464 abitanti della provincia di Pordenone. 
+
+È costruito secondo lo schema romano: il cardo e il decumano, rispettivamente: via Garibaldi e via XX Settembre.
+
+Una particolare manifestazione della città è la Filarmonica di Roveredo in Piano.
+
+==Evoluzione demografica==
+
+==Amministrazione comunale==
+{{ComuniAmministrazione
+|NomeSindaco=Renzo Liva
+|DataElezione=15/06/2004
+|partito=lista civica
+|TelefonoComune=0434 388611
+|EmailComune=affari.generali@com-roveredo-in-piano.regione.fvg.it
+}}
+
+{{Infobox CityIT|
+  img_coa = |
+  official_name = Roveredo in Piano|
+  name = Roveredo in Piano|
+  region = Friuli-Venezia Giulia|
+  province = Province of Pordenone (PN)|
+  elevation_m = 99|
+  area_total_km2   = 15.9|
+  population_as_of  = Dec. 2004|
+  population_total = 5113|
+  population_density_km2 = 321|
+  timezone          = CET, UTC+1|
+  coordinates       = |
+  frazioni          = |
+  telephone         = 0434|
+  postalcode        = 33080|
+  gentilic          = |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           = [http://www.comune.roveredoinpiano.pn.it www.comune.roveredoinpiano.pn.it]|
+  mapy = 12.6167|
+  mapx = 46.0167|
+}}
+
+'''Roveredo in Piano''' is a ''Italian region Friuli-Venezia Giulia, located about 100 km northwest of Trieste and about 6 km northwest of Pordenone. As of 31 December 2004, it had a population of 5,113 and an area of 15.9 km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+Roveredo in Piano borders the following municipalities: Porcia, Pordenone, San Quirino.
+
+==Demographic evolution==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:6000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:1000 start:0
+ScaleMinor = gridcolor:lightgrey increment:200 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:0
+  bar:1871 from: 0 till:1489
+  bar:1881 from: 0 till:1607
+  bar:1901 from: 0 till:1756
+  bar:1911 from: 0 till:2002
+  bar:1921 from: 0 till:1768
+  bar:1931 from: 0 till:1566
+  bar:1936 from: 0 till:1442
+  bar:1951 from: 0 till:1553
+  bar:1961 from: 0 till:1602
+  bar:1971 from: 0 till:2410
+  bar:1981 from: 0 till:3542
+  bar:1991 from: 0 till:4249
+  bar:2001 from: 0 till:4853
+
+PlotData=

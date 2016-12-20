@@ -1,0 +1,131 @@
+<!--tabella per la realizzazione di una scheda film-->
+<!--questa tabella memorizza solo i parametri - la struttura/layout è nel template Film-->
+<!--NON modificare la prima riga e le righe dove compare il simbolo uguale-->
+<!--NON inserire ritorni a capo salvo nei campi dove espressamente previsto-->
+
+{{Film|
+titoloitaliano = Con Air <!--scrivere qui il titolo italiano del film-->
+|
+titolooriginale = &nbsp; <!--scrivere qui il titolo originale del film - se italiano si può riscriverlo o inserire (&nbsp;)-->
+|
+nomepaese = Usa <!--nome del paese di produzione - con doppie parentesi quadre-->
+|
+annoproduzione = 1997 <!--anno di produzione - con doppie parentesi quadre-->
+|
+durata = 115' <!--durata della pellicola -->
+|
+tipocolore = colore <!--colore della pellicola - da scegliere tra 'colore' o 'B/N'-->
+|
+tipoaudio = sonoro <!--audio della pellicola - da scegliere tra 'muto' o 'sonoro'-->
+|
+nomegenere = azione <!--genere del film - scelto esclusivamente tra quelli indicati nel progetto-->
+|
+nomeregista = Simon West <!--nome del regista - con doppie parentesi quadre-->
+|
+nomesoggetto = Scott Rosenberg <!--nome del soggetto - con doppie parentesi quadre -->
+|
+nomesceneggiatore = Scott Rosenberg <!--nome dello sceneggiatore - con doppie parentesi quadre-->
+|
+nomeattori =
+*Colm Meaney: Duncan Malloy
+*John Cusack: Vince Larkin
+*John Malkovich: Cyrus Gryssom
+*Nick Chinlund: William Bedford
+*Nicolas Cage: Cameron Poe
+*Rachel Ticotin: Sally Bishop
+*Steve Buscemi: Garland Greene
+*Ving Rhames: Nathan Jones
+*Angela Featherstone: Ginny <!--nome degli attori - gli attori vanno inseriti uno per riga, iniziando con un *, seguito dal nome dell'attore con doppie parentesi quadre, seguito dal nome del personaggio senza parentesi quadre-->
+|
+nomefotografo = David Tattersall <!--nome del fotografo - con doppie parentesi quadre -->
+|
+nomemontaggio = Chris Lebenzon, Steve Mirkovich, Glen Scantlebury <!--nome del responsabile del montaggio - con doppie parentesi quadre -->
+|
+nomeeffettispeciali = Dawn Ascher, Terry Erickson, Michael Gaspar, Nancy A. King, Christopher Kiso, Thomas D. Krausz, Paul J. Lombardi, John D. Milinac, Ron Petruccione, Scott Roark, Chuck E. Stewart, Steve Biggs, Stan Blackwell, John Cluff, Jeff Crivello, Patrick M. Gerrety <!--nome del responsabile effetti speciali della pellicola - con doppie parentesi quadre -->
+|
+nomemusicista = Mark Mancina, Trevor Rabin, Diane Warren, Lynyrd Skynyrd <!--nome di chi ha realizzato la colonna sonora - con doppie parentesi quadre -->
+|
+nomescenografo = Debra Echard <!--nome dello scenografo - con doppie parentesi quadre -->
+|
+nomepremi = *Razzie Awards speciali con la motivazione ''film con la minore attenzione verso la vita umana e la proprietà pubblica''<!--eventuali premi -->
+}} <!-- fine della tabella film -->
+
+'''Con Air''' è un film statunitense del 1997 diretto da Simon West e recitato da John Cusack, John Malkovich e Nicolas Cage.
+
+==Trama==
+
+Cameron Poe (ranger pluridecorato dell'armata americana. Un giorno parte per ritornare da sua moglie, Trisha, incinta. Cameron la trova in un bar e conversa con lei, ballando. Una banda di uomini mette gli occhi su sua moglie; vengono respinti ma quella stessa sera, nel parcheggio, sotto la pioggia, la banda di uomini sbeffeggia Cameron e scoppia la rissa. Trisha va a chiamare rinforzi, mentre Cameron viene ferito ed umiliato. Un uomo cerca di colpire Cameron con un coltello, ma viene contrattaccato ed erroneamente ucciso, mentre gli altri scappano e Trisha arriva coi rinforzi, alla vista del marito sanguinante, con un coltello in mano ed un cadavere ai piedi.
+
+{{Infobox Film | name = Con Air
+ | image = Conairinternational.jpg
+ | caption = Theatrical release poster
+ | director = Simon West
+ | producer = Jerry Bruckheimer
+ | writer = Scott Rosenberg
+ | starring = Nicolas Cage<br>John Cusack<br>John Malkovich<br>Monica Potter<br>Steve Buscemi<br>Ving Rhames<br>Colm Meaney<br>Mykelti Williamson<br>Nick Chinlund<br>Rachel Ticotin<br>Danny Trejo
+ | music = Mark Mancina<br>Trevor Rabin
+ | cinematography = David Tattersall
+ | editing = Chris Lebenzon<br>Steve Mirkovic<br>Glen Scantlebury
+ | distributor = Buena Vista Pictures
+ | released = 1997
+ | runtime = 115 minutes
+ | country = 
+ | language = English
+ | budget = $75,000,000
+ | amg_id = 1:154933
+ | imdb_id = 0118880
+}}
+
+'''''Con Air''''' is a 1997 American action/thriller produced by directed by federal government to transport criminals across the country.
+
+The film featured the 1997 Academy Awards for Best Song and Sound, losing to ''Titanic'' in both categories.
+
+==Plot==
+
+Cameron Poe (Cage), a highly decorated and honorably discharged United States Army Ranger returns to Mobile, Alabama from his tour of duty in the Gulf War to reunite himself with his pregnant wife, Tricia, a waitress at a local diner. Upon leaving the diner, he and his wife are assaulted by three belligerent customers, and Poe accidentally kills one of them in self-defense. He pleads guilty to manslaughter charges on the recommendation of his attorney, but receives the maximum sentence of 7-10 years because his military skills classify him as a deadly weapon. He is incarcerated in San Quentin before his daughter is born.
+
+Poe maintains correspondence with his daughter throughout the duration of his sentence. During this time, elements of his personality reveal a sense of honor, nobility, and utilizing violence only as a last resort to resolving conflicts. To pass the time, Poe becomes a heavy reader, learns Spanish and origami. He develops a close friendship with fellow prisoner Mike "Baby-O" O'Dell. He is paroled on his daughter's seventh birthday, having served eight years in prison.
+
+Poe is scheduled to fly home to Alabama along with an assortment of inmates bound for a new serial- and mass-murder to serial C-123 airplane "Jailbird", including William "Billy Bedlam" Bedford (Nick Chinlund), Nathan "Diamond Dog" Jones (Ving Rhames) and Cyrus "The Virus" Grissom (Malkovich).
+
+The transfer is overseen by U.S. Marshal Vince Larkin (Cusack), brought in to ensure a safe and efficient transfer and DEA agent Duncan Malloy (Colm Meaney), interested in planting undercover officer Sims among the officers & inmates to acquire valuable intelligence from one of the convicts on the flight. The policy on the flight allows one security firearm in the cockpit and a small arsenal in the belly of the plane, and Larkin insists that Sims board the plane unarmed.  Malloy grudgingly accepts the conditions, but slips Sims a concealed firearm in his sock just before he boards the plane.
+
+After take-off, Cyrus and Diamond Dog remove hidden pins from beneath their skin. Fellow inmate Pinball Parker (Dave Chappelle), retrieves petrol and matches lodged in his throat and ignites a fellow convict, causing a distraction and allowing Cyrus and Jones the opportunity to unlock their restraints. Pinball opens Cyrus and Jones's security cages. The inmates revolt, killing or detaining the guards in the cabin and killing the co-pilot with the security firearm. Cyrus instructs the pilot to reassure the control tower below that the flight is on schedule, and the inmates take control of the plane.
+
+As Pinball unlocks the restraints of the Agent Sims he discovers his hidden gun. Sims panics and immediately takes Pinball hostage and starts making demands for a prompt landing. After being momentarily distracted by Poe's attempts to calm the situation, Sims is shot by Cyrus. The plane makes its scheduled landing in Carson City for a prisoner swap, where an assortment of prisoners and guards disguised as prisoners (to stand in for three prisoners killed in the takeover) are transferred off the plane. Several other convicts are transferred aboard the plane including; Garland "The Marietta Mangler" Greene (Steve Buscemi), a notorious serial killer, Swamp Thing (M.C. Gainey), who takes over as the pilot for the plane, and Francisco Cindino (Jesse Borrego), the mastermind of the operation, a prominent drug lord that drafted the other prisoners into the operation in exchange for asylum in "non-extradition territory".
+
+For the duration of the movie Poe remains the anti-hero, thrust into a heroic stance to protect both Baby-O, who suffers from diabetes and needs a syringe for his insulin shot, and Guard Sally Bishop (Rachel Ticotin), who is restrained and of particular interest to "Johnny 23," (Danny Trejo), an infamous serial rapist, with "23" being the number of his victims. Poe, on numerous occasions, is responsible for alerting local authorities to the dire situation of the plane and, in one sequence, writes a message to Larkin on the shirt of Pinball (died during the rush to get back on the Jailbird in Carson City after he removes the plane's transponder), who he drops out of the plane onto the streets of a crowded city. Poe was also forced to kill Billy Bedlam, when Billy was suspicious of him and he had uncovered proof in the hangar that Poe was a parolee.   
+
+Eventually, the convicts land the plane on Lerner Airfield, a small desert airstrip, expecting to transfer to another aircraft. However, thanks to the information Poe wrote on Pinball's shirt, Larkin rushes to the airfield (in Malloy's Corvette Sting Ray), all while assembling a large group of National Guardsmen and local police officers to arrive at Lerner and intercept the convicts. Larkin and Poe discover that Cindino is planning to secretly double cross the convicts by using a small plane he has hidden in a hangar. The two foil his plans and Cindino is personally executed by Cyrus in the wreckage of his plane for his betrayal.  It is at this point that Garland Greene wanders off and finds a young girl playing at a nearby trailer park.  The unsuspecting girl befriends Garland and invites him to sing the "He's Got the Whole World in His Hands" song with her. Meanwhile, Cyrus manages to find the weapons cache in the plane's hangar (along with Billy Bedlam's body). The cons quickly formulate a plan to ambush the National Guardsmen and police officers, who arrive in a large column of transport trucks and police vehicles. A bloody shootout ensues that results in many casualties for both sides.  
+
+Garland returns to the group, having not killed the young girl. Poe, having briefly met with Larkin during his search for a hypodermic needle, re-boards the plane to give Baby-O the needle, saving his life. The convicts manage to take off again with Army attack helicopters in pursuit. Poe's identity as a parolee is discovered by Diamond Dog and Cyrus, who deduce that he had been trying to sabotage their plans the whole time having discovered Casey's letter in the hangar. They are about to murder Poe when the helicopters attack, causing panic and mayhem on the plane.  Poe uses the commotion to overtake the convicts and force Swamp Thing to land the plane. Upon hearing of this on their radio, Larkin harshly tells Malloy not to shoot down the plane, which Malloy eventually agrees reluctantly to allow the plane to land. The badly damaged plane crashes on the Strip. Poe then works with Larkin in pursuing Diamond Dog, Swamp Thing, and Cyrus (who had eluded capture by hiding in the lower bunker of the plane) on a stolen fire truck.  Through their teamwork they stop the truck, and Diamond Dog and Cyrus are killed. Poe reunites with his wife and daughter (having managed to preserve the stuffed rabbit), while Garland eludes capture and is seen playing craps in a casino.
+
+==Characters==
+*'''Cameron Poe''' (Nicolas Cage) - a paroled ex-convict and former Army Ranger catching a ride home aboard Con Air from San Quentin to Alabama where he will be returned to his family
+*'''Vince Larkin''' (John Cusack) - a chief U.S. Marshal looking to take back the "Jailbird" with Poe's help
+*'''Cyrus 'The Virus' Grissom''' (John Malkovich) - a cunning, intelligent murderer and leader of the inmate uprising, who has spent 25 of his 39 years in the prison system and has been deemed a "true product of the system"
+*'''Nathan 'Diamond Dog' Jones''' (black militant leader imprisoned for murdering National Rifle Association members and who acts as Cyrus's second-in-command during the uprising
+*'''Joe 'Pinball' Parker''' (drug addict, arsonist, and inmate responsible for distracting the guards, allowing Grissom and Jones the opportunity to initiate the uprising
+*'''Mike 'Baby-O' O'Dell''' (Mykelti Williamson) - Poe's nonviolent cellmate who is transferring between prisons and is a steadfast friend and one of the few decent prisoners aboard the plane.
+*'''William 'Billy Bedlam' Bedford''' (Nick Chinlund) - a mass murderer who is responsible for killing his adulterous girlfriend's entire family and classified as a "separatee" inmate along with Grissom, Jones and Greene.
+*'''Garland 'The Marietta Mangler' Greene''' (Steve Buscemi) - an infamous, soft-spoken serial killer who is feared by the other inmates and revered by Grissom and imprisoned under the highest security measures, including extreme body restraints and a Hannibal Lecter-style mask; he supplies an interesting role (during the time the prisoners land at Lerner Airfield, Garland meets and comes to converse with a little girl, who remains unharmed).  He also has a comical conversation with Poe, and escapes at the end of the film.
+*'''Johnny 'Johnny-23' Baca''' (Danny Trejo) - a serial rapist who derives his nickname from the number of convicted rapes, although he claims to be responsible for 600 and wears a string of heart tattoos on his arm to mark each rape conviction.
+*'''Swamp Thing''' (drug smuggler imprisoned for landing a jet full of controlled substances whose pilot expertise is sought after and used to fly the "Jailbird" following its takeover
+*'''Francisco Cindino''' (heir of a Colombian drug cartel family financing Grissom's escape.
+*'''Ramon 'Sally-Can't Dance' Martinez''' (effeminate, transvestite inmate who appears sexually subservient to his fellow detainees.
+*'''Duncan Malloy''' (Colm Meaney) - an overzealous DEA agent looking to shoot down the plane after the death of Agent Sims.
+*'''Guard Sally Bishop''' (Rachel Ticotin) - a female prison guard transporting Poe and O'Dell who remains protected by Poe during inmate takeover of the plane.
+*'''Guard Falzon''' (Steve Eastin) - a prison guard who dislikes inmates and is saved by Poe (whom he had dubbed "trailer trash"), who plants Sims' tape recorder on him to alert the Carson City authorities.
+*'''Willie Sims''' (Jose Zuniga) - an undercover DEA agent who is posing as an inmate to interrogate Cindino about the family drug business and killed during takeover of the plane.
+*'''Tricia Poe''' (Monica Potter) - Poe's wife.
+*'''Casey Poe''' (Landry Allbright) - Poe's daughter.
+
+==Criticisms==
+===Portrayal of diabetes===
+''Con Air'' has been criticized for its inaccurate portrayal of diabetes mellitus. Baby-O displays some symptoms of hypoglycemia (extreme low blood sugar) rather than the hyperglycemia (high blood sugar) that he is supposed to be suffering from. He also appears to recover immediately on receiving insulin, which is unrealistic, and the degree of urgency attached to his needing treatment is generally more like that of someone with hypoglycemia (who needs urgent treatment within minutes) than someone with hyperglycemia (which takes longer to develop). The movie contributes to the dangerous misconception that the appropriate treatment for a diabetic "in crisis" is insulin; in fact, it is much more likely the patient is hypoglycemic and needs sugar; treatment with insulin is extremely dangerous in this circumstance.<ref name="Diabetes Health"></ref>
+
+===Federal Jurisdiction===
+
+The entire premise of the movie revolves around key precepts of the American federal legal defense in every state).
+
+Also, having entered into a plea bargain to plead guilty to manslaughter in exchange for a 4-year sentence, Poe had the right to withdraw his guilty plea when the judge refused to abide by the sentence recommended by the prosecutor.

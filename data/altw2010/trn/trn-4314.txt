@@ -1,0 +1,86 @@
+{{Infobox_Software
+| name                   = Tux Paint
+| logo                   = Tuxpaint-logo.png
+| screenshot             = 250px|
+| caption                = A blank drawing canvas in Tux Paint
+| developer              = Bill Kendrick, et al
+| latest_release_version = 0.9.20
+| latest_release_date    = June 30, 2008
+| operating_system       = Cross-platform
+| genre                  = Raster graphics editor
+| license                = GNU General Public License
+| website                = http://www.tuxpaint.org/
+}}
+
+'''''Tux Paint''''' is a free and open source proprietary educational software product, Kid pix.<ref>[http://www.macmerc.com/news/newsbite/893 MacMerc review of Tux Paint], June 18, 2003.</ref>
+
+== History ==
+
+'''Tux Paint''' was initially created for the C programming language and uses various free and open source helper libraries, including the Simple DirectMedia Layer (SDL), and has since been made available for Apple Mac OS X, BeOS and other platforms. (See the [http://www.tuxpaint.org/download/ Tux Paint downloads page].)
+
+=== Selected Milestone releases ===
+* 2002.06.16 (June 16, 2002) - Initial release (brushes, stamps, lines, eraser), two days after coding started
+* 2002.06.30 (June 30, 2002) - First Magic tools added (blur, blocks, negative)
+* 2002.07.31 (July 31, 2002) - Localization support added
+* 0.9.11 (June 17, 2003) - Right-to-left support, UTF-8 support in Text tool
+* 0.9.14 (October 12, 2004) - '''Tux Paint Config.''' configuration tool released, Starter image support
+* 0.9.16 (October 21, 2006) - Slideshow feature, animated and directional brushes
+* 0.9.17 (July 1, 2007) - Arbitrary screen size and orientation support, SVG support, Input Method support
+* 0.9.18 (November 21, 2007) - Magic Tools turned into plug-ins, Pango text rendering
+
+== Features ==
+
+Tux Paint stands apart from typical graphics editing software (such as The GIMP or icons, audible feedback and textual hints to help explain how the software works. The brightly-colored interface, sound effects and cartoon mascot (Tux, the mascot of the Linux kernel) are meant to engage children.
+
+thumb|right|Drawing with Tux Paint's Paint tool.
+
+Tux Paint's normal interface is split into five sections:
+* Toolbox, containing the various basic tools (see below) and application controls (print)
+* Canvas, where the images are drawn and edited
+* Color palette, where colors can be chosen (when applicable to the current tool)
+* Selector, providing various selectable objects (e.g., brushes, fonts or sub-tools, depending on the current tool)
+* Information area, where instructions, tips and encouragement are provided
+
+A simple slideshow feature allows previously-saved images to be displayed as a basic flip-book animation or as a slide presentation.
+
+=== Basic drawing tools ===
+
+Like most popular graphics editing and composition tools, Tux Paint includes a paintbrush, an eraser, and tools to draw lines, polygonal shapes and text. Tux Paint provides multiple levels of undo and redo, allowing accidental or unwanted changes to be removed while editing a picture.
+
+=== Interacting with the operating system ===
+
+Tux Paint was designed in such a way that the user does not need to understand the underlying deal with files. The "Save" and "Open" commands were designed to mimic those of software for Palm handheld.<ref>[http://www.tuxpaint.org/reviews/communitykids/ "Tux Paint
+Great Fun for Your Kids... If They Can Get You Off the Program!"], Community Kids Magazine, December 2007</ref> When one saves a picture in Tux Paint, they do not need to provide a file name or browse for where to place it. When one goes to open a previously-saved picture, a collection of thumbnails of saved images is shown.
+
+Similarly, printing is typically a 'no questions asked' process, as well.
+
+=== Advanced drawing tools ===
+
+thumb|right|A drawing made with a variety of Magic Tools.
+
+Tux Paint includes a number of 'filters' and 'special effects' which can be applied to a drawing, such as blurring, fading, and making the picture look as though it was drawn in pavement. These are available through the 'Magic' tool in Tux Paint.  Starting with version 0.9.18, Tux Paint's 'Magic' tools are built as C API specifically for creating such tools. <ref>[http://www.tuxpaint.org/latest/tuxpaint-0.9.18-press-release-en.php3 Tux Paint 0.9.18 press release], November 21 2007.</ref>
+
+thumb|left|A space scene using Tux Paint Rubber Stamps
+
+{{Info/Software
+| nome                = Tux Paint
+| logo                = 48px|Logo
+| imagem              = 250px
+| legenda             = Tux Paint no Windows
+| desenvolvedor       = New Breed Software
+| ultima_versao       = 0.9.16
+| ultima_data         = 22-out-2006
+| versao_beta         = 
+| data_beta           = 
+| sistema_operacional = Multiplataforma
+| genero              = Editor de imagens
+| licença             = GNU GPL
+| website             = [http://www.tuxpaint.org www.tuxpaint.org]
+| }}
+'''Tux Paint''' trata-se de um GPL, iniciou-se em 2002 por William J Kendrick e tem obtido um grandioso número de voluntários tanto em suporte quanto em programação. Por ser multi-plataforma, o programa está disponivel para Windows, Macintosh, Linux, FreeBSD e NetBSD.
+
+O nome Tux Paint vem do Tux, o famoso e divertido pinguim do Linux, que é usado como uma personagem que encoraja crianças a se divertirem se aventurando pelo programa.
+
+==Interface==
+O programa é composto por botões grandiosos com iconografia e texto descritivo e muitas cores deixando-o mais vivo e complacente ao público alvo infantil. A parte da usabilidade fica por conta dos sons, diferentes a cada ferramenta relacionando a ferramenta ao som por ela produzido.
+Também em questão de usabilidade, os botões grandes ajudam facilitando a focalização do botão correto por crianças pequenas com coordenação motora ainda imperfeita.

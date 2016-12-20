@@ -1,0 +1,67 @@
+'''Moc (liczba kardynalna) zbioru''' – w teorii mnogości termin określający liczebność zbioru – im zbiór „większy” tym większą ma moc. Dwa zbiory mają tę samą moc, czyli są '''równoliczne''', gdy mają „tyle samo elementów”. 
+
+Liczba kardynalna zbioru jest naturalnym uogólnieniem liczby elementów dla zbioru skończonego, dlatego też moc zbioru skończonego jest równa liczbie elementów tego zbioru.
+
+relacji takich, jak np. uporządkowanie.
+
+== Intuicje ==
+Dla sprawdzenia, czy w grupie przedszkolaków jest więcej chłopców, czy dziewczynek można użyć dwóch metod. Pierwsza polega na policzeniu z osobna liczby chłopców i liczby dziewczynek i porównaniu obu tych liczb; druga sprowadza się do ustawienia dzieci w pary w ten sposób, by chłopcy stali z dziewczynkami i sprawdzenia, czy bez pary zostaną chłopcy, czy dziewczynki.
+
+Druga metoda ma tę zaletę, że pozwala przenieść pojęcie "tyle samo elementów" na dowolne zbiory, również nieskończone. Co więcej, pozwala precyzyjnie zdefiniować tak "naturalne" i "oczywiste" pojęcia jak zbiór skończony i zbiór nieskończony.
+
+Ustawianie dzieci w pary jest niczym innym, jak określaniem funkcji ze zbioru chłopców do zbioru dziewczynek. Jeżeli każdy chłopiec stoi w parze z jedną dziewczynką i na odwrót, to oczywiście dzieci obu płci jest tyle samo.
+
+Uogólniając tę obserwację powiemy, że
+<blockquote style="padding: 1em; border: 2px dotted purple;">
+dwa zbiory są '''równoliczne''', gdy istnieje funkcja wzajemnie jednoznaczna z jednego zbioru na drugi.
+</blockquote>
+Jeżeli dwa zbiory są równoliczne, to mówimy, że mają tę samą '''moc''', lub tę samą '''liczbę kardynalną'''.
+
+To proste i naturalne sprecyzowanie rozumienia co to znaczy, że dwa zbiory mają tyle samo elementów prowadzi jednak, jak często w matematyce, do zaskakujących konsekwencji. Okazuje się bowiem, że w przypadku zbiorów nieskończonych intuicje nabyte podczas obcowania ze zbiorami skończonymi zawodzą &ndash; na przykład zbiór liczb parzystych dodatnich jest równoliczny ze zbiorem liczb naturalnych, choć "gołym okiem" widać, że jest ich "dwa razy mniej". A jednak, elementy obu zbiorów można ustawić w pary (''parzysta'', ''naturalna'') choćby w sposób następujący: (2, 1), (4, 2), (6, 3), ..., (240, 120),... Korzystając z wyżej wprowadzonego pojęcia równoliczności należy uznać, że oba zbiory liczą tyle samo elementów!
+Zbiór liczb wymiernych również jest równoliczny ze zbiorem liczb naturalnych, co może wydawać się zaskakujące. Podobnie przeczy intuicji fakt, że na prostej jest tyle samo punktów, co na płaszczyźnie - wydawałoby się, że powinno być ich "nieskończenie wiele razy więcej".
+
+== Rys historyczny ==
+Do badań nad ogólnymi własnościami zbiorów, czyli tym, co dziś nazywa się teorią mnogości, doprowadziły Cantora rozważania nad zbieżnością szeregów trygonometrycznych. W trakcie tych prac pojawiła się konieczność precyzyjnego wyrażania uzyskanych wyników, co nasuwało kolejne problemy, z zakresu teorii mnogości właśnie.
+
+Pierwsze rezultaty Cantora dotyczyły zbiorów przeliczalnych, czyli równolicznych ze zbiorem liczb naturalnych. Dowiódł on, że '''każdy''' nieskończony podzbiór tego zbioru jest z nim równoliczny, a co więcej, wiele innych ważnych zbiorów, które często występują w matematyce jest również z nim równolicznych. W szczególności dotyczy to zbioru liczb wymiernych i zbioru liczb algebraicznych.
+
+W roku liczb rzeczywistych nie jest przeliczalny, a ponieważ zbiór liczb naturalnych jest równoliczny z właściwym podzbiorem zbioru liczb rzeczywistych, należy uznać, że liczb rzeczywistych "jest więcej" niż liczb naturalnych. Okazało się, że wśród "liczb nieskończonych" też istnieje hierarchia wielkości!
+
+Moc zbioru liczb naturalnych Cantor oznaczył symbolem <math>\aleph_0</math> &ndash; hebrajską literą '''alef''' z indeksem 0, moc zbioru liczb rzeczywistych symbolem <math>\mathfrak{c}</math> ('''continuum'''). Cantor udowodnił, że <math>\aleph_0</math> jest najmniejszą liczbą kardynalną nieskończoną. Pokazał też, że dla każdej liczby kardynalnej istnieje liczba bezpośrednio od niej większa.
+
+Dalsze badania doprowadziły Cantora do zbudowania arytmetyki liczb kardynalnych i dowodu faktu, że zbiór wszystkich podzbiorów (czyli zbiór potęgowy) dowolnego zbioru jest większej mocy niż zbiór wyjściowy (twierdzenie Cantora). Wynika stąd, że dla każdej liczby kardynalnej istnieje liczba większa od niej, zatem nie istnieje największa liczba kardynalna.
+
+Ponadto okazało się, że zbiór podzbiorów zbioru liczb naturalnych jest mocy <math>\mathfrak c</math>. W związku z tym Cantor rozważał pytanie, czy istnieje liczba kardynalna większa niż <math>\aleph_0</math> i mniejsza niż <math>\mathfrak{c}</math>. Sam Cantor spodziewał się, że nie – tzn. że <math>\mathfrak c</math> jest najmniejszą liczbą kardynalną większą od <math>\aleph_0</math>. Przypuszczenia tego, zwanego dziś '''hipotezą continuum''', nie potrafił jednak dowieść. Problem pozostawał nie rozwiązany aż do roku Kurta Gödla, że hipoteza continuum jest niesprzeczna z aksjomatami, wynik Cohena oznacza niezależność hipotezy continuum od aksjomatów teorii mnogości. Można zatem przyjąć hipotezę continuum jako nowy aksjomat, albo – również poprawnie – przyjąć jej zaprzeczenie jako nowy aksjomat. Otrzymuje się wówczas różne, ale w obu przypadkach poprawne, wewnętrznie niesprzeczne teorie.
+
+O '''cardinal''' indica o ordinal, porque o ordinal introduz ordem e dá idéia de hierarquia: Primeiro, segundo, terceiro, etc. O cardinal, por sua vez, nomeia o número de elementos constituintes e esse é o nome do conjunto correspondente. Para a nomenclatura destes números ver nomes dos números. 
+
+:Dado um conjunto A, o cardinal deste conjunto é simbolizado por |A|
+
+Por exemplo: Se A tem 3 elementos o cardinal indica-se |A| = 3
+
+Existe uma relação entre o cardinal de um conjunto e o conjunto de partes ou conjunto potência:
+
+:<math>|A| = n  \Rightarrow |P(A)| = 2^n</math>
+
+Onde |P(A)| é o cardinal do conjunto de partes.
+
+Os números cardinais de alguns conjuntos representam-se com símbolos especiais:
+*O cardinal dos números reais: card(<math>\mathbb{R}</math>) = c (contínuo)
+*O cardinal dos alef-0)
+
+A teoria dos conjuntos define rigorosamente o que significa <math>|A| = |B|</math> e <math>|A| \le |B|</math> e, em consequência, os demais símbolos de comparação; por exemplo:
+
+:<math>|A| > |B| \leftrightarrow (|B| \le |A| \land \lnot (|A| = |B|))</math>
+
+* <math>|A| = |B|</math> quando existe uma bijeção entre A e B
+* <math>|A| \le |B|</math> quando existe uma função injetiva de A para B
+
+O teorema de Cantor-Bernstein-Schroeder mostra que, se <math>|A| \le |B|</math> e <math>|B| \le |A|</math>, então <math>|A| = |B|</math>.
+
+Ao se considerar os A| \le |B| \lor |B| \le |A|</math>. Junto com o [[teorema de Cantor-Bernstein-Schroeder,
+qualquer conjunto formado por cardinais é bem ordenado, o que permite escrever qualquer cardinal infinito da forma <math>\aleph_\alpha</math>, sendo <math>\alpha</math> um ordinal.
+
+A hipótese do continuum diz que c (cardinal dos números reais) é igual a <math>\aleph_1</math>, e sua negação diz que existe um conjunto X tal que <math>|\mathbb{N}| < |X| < |\mathbb{R}|</math>.
+
+== Definição formal ==
+Usando-se os axiomas de Zermelo-Fraenkel com o axioma da escolha (ZFC), pode-se definir o '''cardinal''' de um conjunto como o menor número ordinal que tem o mesmo número de elementos que esse conjunto.

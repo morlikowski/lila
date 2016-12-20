@@ -1,0 +1,68 @@
+An '''infobox template''' is an infobox that uses the template software feature.  They are a broad class of templates commonly used in articles to present certain summary or overview information about the subject.  In theory, the fields in an infobox should be consistent across every article using it; in practice, however, this is rarely the case, for a number of reasons.  When this occurs, the '''infobox templates should be designed to dynamically adapt themselves to the absence or presence of particular fields'''.
+
+Like static infoboxes, they are designed to present summary information about an article's subject, such that similar subjects have a uniform look and in a common format. However, the template technique allows updates of style and of common text from a central place, the template page.
+
+These boxes are designed to be placed into main articles related to the topic area, and are usually associated with on-going WikiProjects. They have parameters; to work properly, the parameter values have to be specified when the template is inserted in the page. This allows each infobox to show information relevant to the article subject, while requiring only a minimal amount of coding within each article.
+
+== Design and usage ==
+The recommended process for creating an infobox template is to simply begin, and gather as many requirements as possible. Test the base format for a new template as a static table first, then once consensus is reached, migrate it into template format. The template should be reviewed before being used extensively in articles in case the template or defined parameters need modification to minimize re-works. If new fields and parameters are added, articles must be updated to reflect the new requirements. If parameters are renamed or removed, many articles will likely be unaffected, since extraneous parameters are ignored.
+
+For consistency the following guidelines apply:
+# Standard suggested width of 300 pixels or 25 ems (300px or 25em in CSS).
+# Insert at the top of articles and right-align
+# Using <code>class="infobox"</code> is a good start.
+# The top text line should be bold and contain the full (official) name of the item. This does not need to match the article's Wikipedia title. It should not contain a link. Avoid <nowiki>}</nowiki> as pages may be moved for disambiguation.
+# Name the template '''<nowiki>Template:Infobox Some subject</nowiki>''' (''Somesubject'' should be in the singular and capitalized).
+# Start words in parameter names with a small letter unless they are proper nouns.
+
+When creating a new infobox template the content of Template:Infobox is a convenient starting point. 
+
+Parameters in infoboxes should be named, not numbered, to provide for future use. A parameter value can contain images (i.e. full image tags), or parameters for parts of an image tag such as the image name, size and caption. In the latter case, if an image is not applicable or available use a dummy image such as :Image:No image.png.
+
+If a parameter is not applicable, or no information is available, it must still be assigned a value. This can be the empty string, or if it is the only thing in a table cell use "some_field=&nbsp;". The field will appear blank; the code is needed by some browsers for drawing the lines of the table itself properly.
+
+There are alternative ways to make a template selectively hide information or provide default values if not defined. For an example and explanation of how these methods apply to infoboxes, see ''''''.
+
+== Causes of inconsistency ==
+A number of factors can cause inconsistency in available summary information for a particular type of article:
+
+; Historical incompleteness : Certain desired information may simply have been lost over time.  For example, an infobox describing a modern bank may provide certain financial information that would be unavailable for a medieval one.
+
+; Hierarchical inconsistency : Infoboxes that indicate hierarchical relationships may have subtly different requirements depending on where in the hierarchy the subject of the article is located.  For example, an infobox for corporations will be different between an article describing a parent company and indicating its subsidiaries and an article describing a subsidiary and indicating its parent.
+
+; Feature inconsistency : Items within a single set may have optional features that would commonly be listed in an infobox.  For example, an infobox for an article about a university may include a motto; but not all universities have them.
+
+; Lack of information : Some items in infoboxes may not be readily available or not available at all, such as the producers of an album or film.  In these cases it is better to provide available information  while concealing fields for which information may not be available.
+
+== Why dynamic templates? ==
+While there are several alternatives to dynamic infoboxes, such as using multiple (forked) templates or leaving fields blank, they should be avoided, for a number of reasons:
+
+; Readers greatly outnumber editors : The most important group to consider are the casual readers of Wikipedia, who will never do any significant editing.  Infobox templates that contain many blank fields, question marks, or "Unknown"s present an unprofessional appearance, diminishing Wikipedia's reputation as a high-quality encyclopedia.
+
+; Article editors greatly outnumber template editors : The average editor will merely use templates without making changes to them.  To make things easier for them, we should aim to minimize the number of different templates they must be familiar with; creating multiple forks of templates is therefore undesirable.
+
+== General advice ==
+The availability of optional fields does not mean that all fields should be made optional, however, nor that large numbers of rarely used fields should be added without regard for the overall layout and ease-of-use of the infobox template.  In some cases, the markup for the field still needs to be downloaded even if it is not displayed.  Creating overly long templates with a number of irrelevant fields is not recommended.
+
+'''Bilgi Kutusu''', şablon özelliklerini kullanarak, okuyuculara bir maddenin kısa-öz bilgilerini sunan yapılardır.
+
+Bilgi kutularını kullanmak için programcı olmanıza gerek yoktur. Birçok bilgi kutusu sizin kullanımınız için hazırlanmıştır. Bu kutuların içeriklerini doldurarak okuyuculara bilgilere hızlıca erişimlerinde yardımcı olabilirsiniz. Ayrıca şablonların yaratılmasında en önemli nokta hangi bilgilerin maddeyi daha iyi tanımladığını ve bu tanımları nasıl en açık şekliyle okuyucuya sunulacağına karar vermektir. Proje tartışmalarına katılarak şablonun yaratılmasına en büyük katkıda bulunmuş olursunuz.
+
+Burada şu noktaya değinmekte yarar var: birçok yeni viki yazarları şablonları, değişmeyen (static) sayfa içi yazıların (inline) birden fazla sayfaya eklenmesi için kullansalarda, gerçekte sayfa içi yazıların birden fazla sayfada tekrarlanması için aynı isim alanında (namespace) açılan sayfalarla bu işlem daha hızlı ve veribankasına yük bindirmeden gerçekleştirebilirler. O zaman şablonlar nasıl kullanılmalıdır? Şablonların en çok kullanıldıkları yer bilgi kutularıdır. Maddenin içeriğine göre şablonlar stil de ve içerik de farklılıklar göstermektedirler. Bu farklılıkları bütün maddeler için merkezi bir sayfadan gerçekleştirme imkanı sunmaktadırlar. Kısaca şablonların en iyi örnekleri bilgi şekillenmesinde kullanılmaktadır.
+
+Bilgi kutuları genellikle bir projeye bağlı yaratılmaktadır. Bilgi kutuları projelerin topladıkları bilgileri sınıflayarak okuyucuya daha başarılı bir şekilde sunulması için bir proje aracı olarak kullanılmaktadır. Bu yüzden bilgi kutuları ve sundukları bilgiler zaman içinde değişime tabi kalmaktadır. Bu değişimin düzenli bir şekilde izlenmesi ve şablonların kullanılmaz hale gelmemesi ancak proje sistemi (topluluk çalışması) ile gerçekleşmektedir.
+
+== Planlanması ve kullanımları ==
+Bir bilgi kutusu şablonu hazırlamak için önerilen basitçe başlayıp, mümkün olduğunca çok bölüm eklemektir. Yeni bir şablonun temel yapısının ilk statik tablo olarak denenmesi, ve sadece istenilen sonuç elde edildikten sonra şablon biçimine getirilmesi tavsiye edilmektedir. Şablonun veya üzerindeki bilgilerin değiştirilmesi halinde, düzeltme gereksinimlerini en aza indirmek amacıyla makalelerde kullanılmadan önce kontrol edilmelidir. Şablona yeni alanlar eklenirse, şablonu kullanan makaleler de yeni şablona göre güncellenmelidir. Şablon dışı bilgilerin de bilgi kutularında kullanılabilmesi nedeniyle, alanların yeniden adlandırılması veya kaldırılması durumunda makaleler etkilenmeyecektir.
+
+Şablonlar, makalelerin düzen ve kullanım kolaylığını arttırmak için aşağıda verilen kurallar doğrultusunda hazırlanmalıdır:
+# Standart önerilen genişlik 300 piksel veya 25 em.
+# Makalenin sağ üst köşesinde konumlanmalı.
+# Üst çizgi uygun derecede kalın olmalı, ve konunun tam (resmi) adını belirtmeli. Bu kısım makalenin Vikipedi başlığıyla aynı olmak zorunda değildir. Bir bağlantı kullanılmamalı.
+# Şablonun adını '''<nowiki>Şablon:BilgiKutusu Birkonu</nowiki>''' (''Birkonu'' bölümü tek kelime olmalı, ve büyük harfle başlamalıdır) olarak kaydedin.
+
+Yeni bir bilgi kutusu şablonu oluştururken, :Şablon:BilgiKutusu mantıklı bir başlama noktası olacaktır. 
+
+Bilgi kutusundaki parametreler (değişkenler) numaralandırılmamalı, isimlendirilmelidir. Böylece ileride tekrar kullanılabilirler. Değişkenler resim, resim başlığı, boyut, ya da resmin adı olabilir. Eğer kullanılabilecek bir resim yoksa, :Image:No image.png gibi sahte bir resim kullanılabilir.
+
+Eğer bir değişken mevcut değilse, ya da ne oldu belli değilse, yine de bir değer atanmalıdır; bu boş bir karakter olabilir ("bir_değer=&nbsp;" gibi). İlgili alan boş görünecektir, ama bazı tarayıcılar tablonun sınırlarını çizebilmek için bu boş hücreye de ihtiyaç duyarlar.

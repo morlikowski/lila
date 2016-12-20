@@ -1,0 +1,98 @@
+{{infobox Franse gemeente|
+|plaatsnaam= Saint-Dizier
+|wapen= 90px
+|kaart= 
+|regio= Champagne-Ardennen 
+|departement= Haute-Marne (52)
+|arrondissement= Saint-Dizier
+|kanton= Saint-Dizier-Sud-Est
+|jaar= 1999
+|inwoners= 30.900
+|dichtheid= 647,8
+|oppervlakte= 47,7
+|water= 
+|latitudeGraden= 48 |latitudeMinuten= 38|latitudeSeconden= 0
+|longitudeGraden= 4 |longitudeMinuten= 57 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 213 |kaartY= 86
+|code= 52448
+|postcode= 52100
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Saint-Dizier''' is een gemeente in het Franse departement Saint-Dizier.
+
+==Geografie==
+De oppervlakte van Saint-Dizier bedraagt 47,7 km², de bevolkingsdichtheid is 647,8 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:51000 color:gray1 width:1       
+  from:start till:end             
+  bar:34000 color:gray1              
+  from:start till:end            
+  bar:17000 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,135)(84,142) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 34407 1968: 36616
+  points:(84,142)(100,144)    color:blue    width:2 #1975: 37266
+  points:(100,144)(128,137)   color:blue    width:2 #1982: 35189
+  points:(128,137)(160,132)   color:blue    width:2 #1990: 33552
+  points:(160,132)(196,123)   color:blue    width:2 #1999: 30900
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+{{French commune
+|nomcommune=Saint-Dizier<br>120px<br><small>Coat of arms of Saint-Dizier</small>
+|region=Champagne-Ardenne
+|department=sous-préfecture'')
+|arrondissement=Saint-Dizier
+|canton=Chief town of 4 cantons
+|insee=52448
+|cp=52100
+|maire=François Cornut-Gentille
+|mandat=2001-2008
+|intercomm=
+|longitude=4.94972222222 
+|latitude=48.6383333333 
+|alt moy=146 m
+|alt mini=
+|alt maxi=
+|hectares=4,769
+|km²=47.69
+|sans=30,900
+|date-sans=1999
+|dens=647.9
+|date-dens=1999}}
+'''Saint-Dizier''' is a town and commune in the department in the region of subprefecture of the department. Although Saint-Dizier is marginally the most populous commune in Haute-Marne, the ''préfecture'' (capital) resides in the somewhat smaller commune of Chaumont.
+
+==Geography==
+Located approximately 120 miles east of Paris, halfway to Strasbourg, it is five miles from Western Europe's largest man-made lake, Lake Der-Chantecoq.
+
+== History ==
+
+The town originated as a fortified settlement around a thirteenth century besieged and captured by Orléans family until the German troops during World War II, and currently houses the Municipal Museum.
+
+== Famous People ==

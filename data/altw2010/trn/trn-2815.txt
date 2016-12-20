@@ -1,0 +1,28 @@
+La '''iodometria''' è una titolazione di ossidoriduzione che usa come reattivi ioduro e tiosolfato.
+
+La tecnica sfrutta le deboli capacità riducenti dello ioduro, che viene ossidato da ossidanti forti, per produrre il soluzione iodio molecolare in quantità proporzionali all'analita; quindi lo iodio viene titolato con tiosolfato.
+
+Si opera in questo modo perché lo ioduro non può essere utilizzato come titolante diretto in quanto non esiste un opportuno indicatore per rilevare il punto finale. Mentre titolando lo iodio si può utilizzare la salda d'amido.
+
+Una titolazione iodometrica si esegue come segue:
+#prepaparare la soluzione di analita;
+#aggiungere un eccesso di ioduro in soluzione acquosa;
+#titolare lo iodio con tiosolfato.
+Risulta essere importante il pH in quanto molti ossidanti esplicano meglio la loro azione ossidante in ambiente acido:
+:2 MnO<sub>4</sub><sup>&minus;</sup> + 10 I<sup>&minus;</sup> + 16 H<sup>+</sup> → 2 Mn<sup>2+</sup> + 5 I<sub>2</sub> + 8 H<sub>2</sub>O
+e per evitare la dismutazione dello iodio in ambiente alcalino:
+:3 I<sub>2</sub> + 6 OH<sup>&minus;</sup> → 5 I<sup>&minus;</sup> + IO<sub>3</sub><sup>&minus;</sup> + 3 H<sub>2</sub>O
+Il rischio che lo iodio volatilizzi viene evitato lavorando in eccesso di ioduro:
+:I<sub>2</sub> + I<sup>&minus;</sup> → I<sub>3</sub><sup>&minus;</sup>
+il triioduro, dal caratteristico colore bruno, rimane solubile in acqua.
+
+'''Iodometry''' is a method of volumetric chemical analysis, a titration where the appearance or disappearance of elementary iodine indicates the end point.
+
+Usual reagents are sodium thiosulfate as titrant, starch as an indicator (it forms blue complex with iodine molecules - though polyvinyl alcohol has started to be used recently as well), and an iodine compound (iodide or iodate, depending on the desired reaction with the sample).
+
+The principal reaction is the reduction of iodine to iodide by thiosulfate:
+:I<sub>2</sub> + 2 S<sub>2</sub>O<sub>3</sub><sup>2−</sup> → S<sub>4</sub>O<sub>6</sub><sup>2−</sup> + 2 I<sup>−</sup>
+
+A common and illustrative use of iodometry is the measurement of concentration of clathrate complex with the liberated iodine. The blue solution is then titrated with thiosulfate until the blue color vanishes.
+
+Two possible sources of error can influence the outcome of the iodometric titration. One is the air oxidation of acid-iodide solution and the other is the volatility of I<sub>2</sub>. The first one can be eliminated by adding an excess of sodium carbonate in the reaction vessel. This removes oxygen in the vessel by forming carbon dioxide(which is heavier than air). The other error can be reduced by using an excess of iodide solution which captures liberated iodine to form triiodide ions, I<sub>3</sub><sup>−</sup>.

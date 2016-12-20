@@ -1,0 +1,101 @@
+{{Predefinição:Caixa de informação OS|
+|nome               = Inferno
+|screenshot         = 
+|legenda            = 
+|fabricante         = Bell Labs/Vita Nuova
+|familia_so         = Sucessor do Unix
+|modelo             = Open source
+|ultima_versao      = Quarta Edição
+|data_ultima_versao = 3 de março de 2006
+|kernel             = Máquina Virtual
+|licenca            = GPL/LGPL/MIT
+|estado             = Corrente
+|website            = [http://www.vitanuova.com/inferno/ Vita Nuova]
+}}
+
+O '''Inferno''' é um sistema operacional para criação e suporte a serviços distribuídos. O nome do sistema operacional e dos programas associados, bem como o da companhia Vita Nuova que o produziu, são inspirados pelo trabalho literário de Dante Alighieri, particularmente a ''Divina Comédia''.
+
+O Inferno roda no modo hospedeiro sobre vários sistemas operacionais diferentes, ou nativamente em um range de arquiteturas de hardware. Em cada configuração o sistema operacional apresenta as mesmas interfaces padrões para suas  aplicações. Um protocolo chamado Styx é aplicado uniformemente para acessar os recursos tanto os locais como os remotos. As of the fourth edition of Inferno, Styx is identical to Plan 9's newer version of its hallmark 9P protocol, 9P2000.
+
+As aplicações são escritas na linguagem de programação type-safe chamada Limbo, em que a representação binária é idêntica em todas as plataformas, e é executada usando a técnica de compilação just-in-time em uma máquina virtual.
+
+==Principios do design==
+O Inferno é um sistema operacional distribuído baseado em três princípios básicos:
+*'''Recursos como arquivos:''' todos os recursos são representados como arquivos em um sistema de arquivos hierárquico.
+*'''Namespaces:''' a visão da aplicação da rede é única, coerente namespace que aparece como um sistema de arquivos hierárquico mas pode representar recursos separados (locais ou remotos) fisicamente.
+*'''Protocolo padrão de Comunicação:''' um protocolo padrão, chamado Styx (9P2000), é usado para acessar todos os recursos, tanto locais quanto remotos.
+
+==Plan 9 ancestralidade==
+
+O Inferno e o Plan 9 compartilham um ancestral comum, um sistema operacional de aproximadamente 1996. Eles compartilham os mesmos princípios de designe, embora hajam diferenças:
+ 
+* O Plan 9 userland roda código nativo, na maior parte em linguagem C com uma pequena quantidade de código em just-in-time chamado Limbo.
+
+* O kernel do Plan 9 é um kernel hibrido, enquanto o kernel do Inferno é um velho kernel Plan 9 com os excessos desnecessários tirados fora e incluído uma máquina virtual.
+
+* O kernel Plan 9 chaveia entre o modo usuário (userland) e o modo supervisor (kernel), enquanto o Inferno nunca deixa o modo supervisor (kernel) mas provê proteção através do uso de uma máquina virtual.
+
+Inferno é um tanto similar a Java Virtual Machine.
+
+==Ports==
+O Inferno roda diretamente em hardware nativo e também como uma aplicação, provendo um sistema operacional virtual  que roda em outras plataformas. Aplicações podem ser desenvolvidas e rodadas em todas as plataformas Inferno sem modificações ou recompilação.
+
+'''Inferno''' est un système d'exploitation pour le réseau créé initialement vers 1995 par britannique Vita Nuova. Inferno est un système d'exploitation supportant le développement et la création de programmes distribués (réseau).<br />
+Une des particularités d'Inferno est qu'il peut tourner nativement sur une machine ou être utilisé comme un système d'exploitation virtuel dépendant d'un autre système.<br />
+En outre, Inferno offre la possibilité de fonctionner sur des ordinateurs embarqués disposant d'une configuration minimales telles que 1 Mo d'espace disque, 1 Mo de mémoire vive, et l'absence de MMU.<br />
+Le nom Inferno vient du premier livre de la ''Limbo (le langage de programmation d'Inferno). C'est un successeur du projet Brazil (écrit en Alef), lui-même successeur de Plan9.
+
+<br />
+Inferno est libre depuis la troisième édition.
+
+== Spécifications ==
+=== Portabilité ===
+Inferno est écrit de façon à être portable.
+*Inferno fonctionne en natif sur les plateformes :
+**CerfCube 255 (XScale)
+**CerfCube 405EP (PowerPC)
+**Compaq iPAQ
+*Inferno fonctionne sur les architectures :
+**Intel x86 (386 et supérieur)
+**Intel XScale
+**IBM PowerPC
+**ARM StrongARM (ARM et Thumb)
+**Sun SPARC
+*Inferno peut être utilisé en tant que système d'exploitation virtuel avec :
+**FreeBSD
+**IRIX
+**Linux
+**Mac OS X
+**Windows NT, 2000 et XP
+**Plan 9 from Bell Labs
+**Solaris
+
+=== Sécurité ===
+Le noyau intègre les algorithmes de chiffrement suivants :
+* 40, 126, 256 bits : RC4
+* 56 bits : DES
+* IDEA
+Ainsi que les algorithmes de hachages suivant :
+*MD4
+*MD5
+*SHA
+
+=== Périphériques ===
+Inferno permet une utilisation rapide des périphériques suivants :
+*Audios
+*Ethernet
+*Graphiques
+*Ecrans Tactiles
+*USB
+*802.11b
+=== Systèmes distribués avec Styx ===
+Styx était à l'origine une variante du protocole 9P de Plan 9.
+Dans la quatrième édition, il s'agit de 9P2000, également utilisé dans Plan 9.
+
+=== Limbo ===
+Limbo est un langage qui a été initialement conçu pour Inferno. Le compilateur Limbo génère des objets qui sont interprétés par la machine virtuelle '''Dis'''.
+Ces objets sont exécutables sur n'importe quelle plateforme disposant de Dis.<br />
+A l'exception de la machine virtuelle, Inferno est intégralement écrit en Limbo.
+
+=== Développement ===
+Inferno intègre l'espace de travail "acme".

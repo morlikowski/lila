@@ -1,0 +1,194 @@
+==Dinamik Rastgele Erişimli Bellek (Dynamic Random Access Memory)==
+Dinamik rastgele erişimli bellek bir tümleşik  devre içinde her bir veri bitini ayrı bir kapasitör içinde saklayan Rastgele Erişimli Bellek türüdür. Kapasitör’ler yapıları gereği bir süre sonra boşalacağından yenileme/tazeleme (refresh) devresine ihtiyaçları vardır.Bu yenileme ihtiyacından dolayı DRAM , SRAM( Statik Rastgele Erişimli Bellek) ve diğer statik belleklerin zıttı durumundadır. DRAM’nin SRAM üzerindeki avantajı onun yapısal basitliğidir:1 bit için  1 transistör ve 1 kapasitör DRAM için yeterliyken SRAM için 6 transistör gerekir. DRAM, yenileme devresinden dolayı çok yer kaplar.Güç kaynağı açık olduğu durumda DRAM ve SRAM sakladığı verileri korur bu nedenle her iki bellek aygıtı da volatile ‘dir. (Güç kaynağı ke
+
+diğinde veriler kaybolur)
+
+==Tarihçe==
+DRAM Dr. Robert Dennard tarafından 1966’da IBM Thomas J. Watson Araştırma Merkezi'nde icat edilmiştir ve 1968 yılında patenti alınmıştır. Kapasitörler, Atanasoff-Berry Computer, Willams Tube ve Selectron Tube gibi ilk bellek projelerinde kullanılmıştır.
+
+1969’da Honeywell Intel’e kendilerinin geliştirdiği 3-transistör hücre (cell) bulunan DRAM’yi üretmesini önerdi.Bunun sonucunda 1970’lerin başlarında Intel 1102(1024x1) ortaya çıktı.Intel’in ürettiği 1102’nin pek çok sorunu olması Intel’i kendilerinin geliştirdiği tasarımlara yönelmesine neden oldu (bu çalışmalar Honeywell ile anlaşmazlık çıkmaması için gizlice yürütüldü). Bu çalışmalar sonucunda Ekim 1970’de ticari olarak kullanılabilecek 1-transistör hücreli DRAM olan Intel 1103(1024x1) ortaya çıktı(ilk baştalardaki az gelir sorunu 5.gözden geçirmeye kadar devam etti)
+
+==Çalışma Prensibi==
+DRAM genellikle hücre başına 1 kapasitör ve 1 transistörün kare şeklinde dizilmesiyle oluşur. Modern DRAM binlerce hücrenin enine ve boyuna dizilişiyle oluşur.Bir okuma işlemi sırasıyla şu şekilde meydana gelir:Seçilen hücrenin sırası aktif hale getirilir, kapasitör açılır ve  o dizinin kapasitörü ile anlamlı satıra bağlanır.Anlamlı satır, saklanan sinyalin 1 mi 0 mı olduğunu ayırt eden anlamlı yükselteçe yönlendirir.Daha sonra uygun sütundaki kuvvetlendirilen değer seçilir ve çıkışa bağlanır.Okuma döngüsünün sonunda satır değerleri mutlaka okuma sırasında boşalan kapasitörde depolanmalıdır. Yazma işlemi satırın aktif hale getirilmesiyle ve değerlerin birbirine bağlanarak anlamlı sıraya yazılırken kapasitörleri istenilen değere yüklenmesini sağlayarak yapılır.Belirli bir hücredeki yazma işlemi sırasında bütün satır okutulur,1 değer değiştirilir ve ondan sonra bütün satır tekrar yazılır.
+
+Genellikle imalatçılar JEDEC standartlarına göre her satırın her 64 ms veya daha az sürede bir yenilenmesi gerektiğini belirtir.Yenileme mantığı genellikle DRAM’lerle periodik yenilemeyi otomatikleştirmek için kullanılır. Bu devreyi daha karmaşık hale getirir fakat DRAM’nin SRAM’ye göre daha ucuz ve daha fazla kapasiteye sahip olması nedeniyle DRAM’yi avantajlı kılar.Bazı sistemler her satırı 64 ms’de bir döngü ile yenileme yapar.Başka sistemler ise bir sıra belli bir zamanda –örneğin 213 = 8192 satıra sahip bir sistemin yenileme oranı her bir satır için 7.8 µs (64 ms / 8192 sıra) yapar. Gerçek zamanlı bazı sistemler dış sayaca dayanan bir zamanlama ile hafızanın belli bir kısmını tazeleyerek sistemin geri kalanını yönlendirir, video malzemelerinde her 10-20ms de meydana gelen düşey boşluk aralığı gibi.Bütün yöntemler belli bir çeşit sayaç içermektedir, bunun nedeni ise bir sonraki turda hangi sıranın yenileneceğini tespit etmektir. Bazı DRAM çipleri bu sayacı içerirken; diğer türler ise bu sayacı tutmak için dış yenileme mantığına ihtiyaç duyar(bazı koşullarda DRAM dakikalarca yenilenmese dahi DRAM’deki verilerin büyük bölümüne yeniden ulaşılabilir). 
+       
+
+==Hatalar ve Hata Düzeltme==
+manyetik parazitlenme bir DRAM bitinin kendiliğinden karşıt duruma dönmesine neden olur. Bazı araştırmalar DRAM yongalarındaki hataların çoğunun kozmik ışınlar yüzünden çıktığını göstermektedir. Bu bir veya daha fazla hafıza hücresinin içeriğini değiştirebilir ya da onları okuyup/yazan devrelere zarar verebilir. DRAM yoğunluğu arttıkça DRAM yongaları üzerindeki bileşenler küçülürken aynı zamanda çalışma voltajları düşeceği için, DRAM yongaları sıklıkla yüksek radyasyona uğrayacaktır. Bu, düşük enerjili parçacıkların hafıza hücresinin durumunu değiştirebileceğinden kaynaklanır. Diğer taraftan küçük hücreler daha küçük hedefler oluştururlar ve teknolojiyi SOI’nin yaptığı daha az duyarlı ve iyi tepki veren veya bunların tam tersi eğilimlere yöneltmiştir.
+
+Bu problem içinde ekstra hafıza biti olan ve bunları kendi için kullanan hafıza kontrolleri olan DRAM’ler kullanılarak hafifletilebilir. Bu ekstra bitler eşlik kaydetmeye veya ECC kullanmaya yarar. Eşlik tek-bitlik hataları bulmayı sağlar. En çok kullanılan hata düzeltme kodu, Hamming Kod, tek bitlik hataları düzeltmeyi ve iki-bitlik hataları bulmayı sağlar. 
+
+Bilgisayar sistemlerinde hata bulmak ve düzeltmek bazen moda, bazen demode gözükür. Seymuor Cray neden bunu CDC 6600’dan çıkarttığında “eşlik bizim çiftçimizdir”  demiştir. Eşliği CDC 7600’e dâhil ettiğinde söylentiye göre “birçok çiftçinin bilgisayar aldığını öğrendim” demiştir.  486-dönemi PC’lerde genelde eşlik kullanılmıştır. Pentium-döneminden olanlarda ise çoğunlukla yoktu. Daha geniş bellek anayolu eşliği ve ECC’ yi alınabilir kılmıştır. Şu anki mikroişlemci hafıza kontrolleri genelde ECC desteklidir ama sunucu-tabanlı olmayan sistemler bu özellikleri kullanmazlar. Kullansalar bile yazılım kısımlarının bunları kullandıkları kesin değildir. 
+
+Çoğu modern PC’lerdeki hafıza kontrolleri 64 bitte bir bitlik hatayı bulup düzeltebilir,  64 bitte iki bitlik hatayı da sadece bulabilir. Bazı sistemler hataları verinin doğru olanını hafızaya yeniden yazarak temizler. Bazı bilgisayarlardaki BIOS ve Linux gibi işletim sistemleri bulunan ve düzeltilen hataları bozulmaya başlayan hafıza modüllerini belirleyebilmek ve daha büyük felaketleri önlemek için sayarlar. Maalesef çoğu modern PC eşlik veya ECC’ ye sahip olmayan hafıza modüllerine sahiptir. 
+
+Hata bulma ve düzeltme oluşabilecek hataların beklentisine dayanır. Hafıza bitindeki her sözcüğün başarısızlığı birbirinden bağımsızdır ve sonuç olarak iki eşzamanlı hata beklenmez. Bu durum hafıza yongalarının “ bir olduğu zamanlarda geçerliydi. Şu anda aynı yongada birçok bit var. Bu zaaf bir durum dışında genelde ortaya çıkmaz, yonga bozulması. Bir başka mantıklı uygulama ise parmak hesabıdır; ayda gigabyte başına bir bitlik hata beklentisi. Gerçek hata oranları gene ölçüde değişebilir.
+
+==Video Ram==
+VRAM, DRAM’in grafik kartlarında kullanılan çift portlu versiyonudur. VRAM’ın, hafıza dizisi için kullanılabilecek, iki yolu ya da portu  vardır. İlk port olan  DRAM portu, DRAM tarafından erişilebilir.İkinci port; video portu sadece okuma işini yapar ve hızlı akışa sahip veriyi görüntüye aktarır. Video portunu kullanmak için, kontrol birimi öncelikle hafıza dizisinin sırasına göre, görüntülemek için bir şeçim yapar ve bu şeçim için DRAM portunu kullanır. Daha sonra VRAM bu sırayı içerideki bir kaydırmalı kayıt ediciye kopyalar. Kontrol birimi daha sonra DRAM’i, ekran üzerinde nesneler çizmek için kullanır. Kontrol birimi kaydırma saati isimli bir birimi VRAM’in video portundan besler her kaydırma saati dalgası, VRAM’ın kaydırmalı kayıt edicisinden, video portuna kadar, değişmeyen bir adres sırası ile verinin yeni parçalarını dağıtır.
+
+==Fast Page Mode DRAM (FPM)- hızlı sayfa modu==
+Hızlı sayfa modu (FPM) DRAM , sayfa modu DRAM, Hızlı sayfa modu bellek  veya sayfa modu bellek olarak da bilinir. Sayfa modunda DRAM’in bir sırası  “açık” olarak tutulabilir, böylece sıra içindeki art arda okuma ve yazmada yüklenme öncesi ve sıraya geçişlerde gecikmelerden etkilenmez. Bu durum okuma ve yazma işlemleri sırasında sistemin performansını arttırmaktadır.
+Statik Sütün sayfa modundaki değişkenin sütün adresine ihtiyaç duyulmamaktadır.
+Nibble modunda ise bir sıra içindeki ardışık 4 konuma birden ulaşılabilinmektedir.
+
+== Window RAM (WRAM) ==
+Window Ram ya da WRAM, ekran kartlarındaki modası geçmiş VRAM'lerin yerine geçmek üzere tasarlanmış yarı iletken bilgisayar hafızalarıdır.Samsun tarafından üretilip, Micron Technology tarafından satılan bu ramler, SDRAM ve SGRAM'ler yerlerini almadan önce, çok kısa bir süre piyasada durmuşlardır. 
+
+'''Dynamic random access memory''' ('''DRAM''') is a type of SRAM and other ''static'' memory.
+
+The advantage of DRAM is its structural simplicity: only one transistor and a capacitor are required per bit, compared to six transistors in SRAM. This allows DRAM to reach very high density. Like SRAM, it is in the class of volatile memory devices, since it loses its data when the power supply is removed. Unlike SRAM however, data may still be recovered for a short time after power-off.
+
+==History==
+
+thumb|400px|Schematic drawing of original designs of DRAM patented in 1968.
+
+1964 Arnold Farber and Eugene Schlig working for IBM created a memory cell that was hard wired; using a transistor gate and tunnel diode latch, they later replaced the latch with two transistors and two resistors and this became known as the Farber-Schlig cell.
+1965 Benjamin Agusta and his team working for IBM managed to create a 16-bit silicon chip memory cell based on the Farber-Schlig cell which consisted of 80 transistors, 64 resistors and 4 diodes.
+1966 DRAM was invented by Dr. Robert Dennard at the IBM Thomas J. Watson Research Center and he was awarded U.S. patent number [http://patft1.uspto.gov/netacgi/nph-Parser?patentnumber=3387286 3,387,286] in 1968. Capacitors had been used for earlier memory schemes such as the drum of the Atanasoff–Berry Computer, the Williams tube and the Selectron tube.
+
+The Toshiba ''"Toscal" BC-1411'' electronic calculator, which went into production in November 1965, uses a form of dynamic RAM built from discrete components.<ref>[http://www.oldcalculatormuseum.com/toshbc1411.html Toshiba "Toscal" BC-1411 Desktop Calculator<!-- Bot generated title -->]</ref>
+
+In 1969, Honeywell asked Intel to make a DRAM using a 3-transistor cell that they had developed. This became the Intel 1102 (1024x1) in early 1970. However the 1102 had many problems, prompting Intel to begin work on their own improved design (secretly to avoid conflict with Honeywell). This became the first commercially available 1-transistor cell DRAM, the Intel 1103 (1024x1) in October 1970 (despite initial problems with low yield, until the 5th revision of the masks).
+
+The first DRAM with multiplexed row/column address lines was the Mostek MK4096 (4096x1) in 1973. Mostek held an 85% market share of the dynamic random access memory (DRAM) memory chip market worldwide, until being eclipsed by Japanese DRAM manufacturers who offered equivalent chips at lower prices.
+
+==Operation principle==
+thumb|250px|Principle of operation of DRAM read, for simple 4 by 4 array.
+thumb|250px|Principle of operation of DRAM write, for simple 4 by 4 array.
+
+DRAM is usually arranged in a square array of one capacitor and transistor per cell. The illustrations to the right show a simple example with only 4 by 4 cells (modern DRAM can be thousands of cells in length/width). 
+
+The long lines connecting each row are known as '''word lines'''. Each column is actually composed of two '''bit lines''', each one connected to every other storage cell in the column. They are generally known as the + and − bit lines. A sense amplifier is essentially a pair of cross-connected inverters between the bit lines. That is, the first inverter is connected from the + bit line to the − bit line, and the second is connected from the − bit line to the + bit line. This is an example of positive feedback, and the arrangement is only stable with one bit line high and one bit line low.
+
+To read a bit from a column, the following operations take place:
+
+# The sense amplifier is switched off and the bit lines are '''precharged''' to exactly matching voltages that are intermediate between high and low logic levels. The bit lines are constructed symmetrically to keep them balanced as precisely as possible.
+# The precharge circuit is switched off. Because the bit lines are very long, their dynamic logic.
+# The selected row's word line is driven high. This connects one storage capacitor to one of the two bit lines.   Charge is shared between the selected storage cell and the appropriate bit line, slightly altering the voltage on the line. Although every effort is made to keep the capacitance of the storage cells high and the capacitance of the bit lines low, capacitance is proportional to physical size, and the length of the bit lines means that the net effect is a very small perturbation of one bit line's voltage.
+# The sense amplifier is switched on. The positive feedback takes over and amplifies the small voltage difference until one bit line is fully low and the other is fully high. At this point, the column can be read.
+# At the end of a read cycle, the row values must be restored to the capacitors, which were depleted during the read: the bit line of the storage cell is also driven to full voltage (refreshed) by the action of the sense amplifier. Due to the length of the bit line, this takes significant time beyond the end of sense amplification.
+
+To write to memory, the row is opened and a given column's sense amplifier is temporarily forced to the desired state and drives the bit line which charges the capacitor to the desired value. The amplifier will then drive the bit lines to the desired state and hold it stable even after the forcing is removed. During a write to a particular cell, the entire row is read out, one value changed, and then the entire row is written back in, as illustrated in the figure to the right. 
+
+Typically, manufacturers specify that each row should be refreshed every 64 ms or less, according to the JEDEC (Foundation for developing Semiconductor Standards) standard. Refresh logic is commonly used with DRAMs to automate the periodic refresh. This makes the circuit more complicated, but this drawback is usually outweighed by the fact that DRAM is much cheaper and of greater capacity than SRAM. Some systems refresh every row in a tight loop that occurs once every 64 ms. Other systems refresh one row at a time &ndash; for example, a system with 2<sup>13</sup> = 8192 rows would require a refresh rate of one row every 7.8 µs (64 ms / 8192 rows). A few real-time systems refresh a portion of memory at a time based on an external timer that governs the operation of the rest of the system, such as the vertical blanking interval that occurs every 10 to 20 ms in video equipment. All methods require some sort of counter to keep track of which row is the next to be refreshed. Some DRAM chips include that counter; other kinds require external refresh logic to hold that counter. (Under some conditions, most of the data in DRAM can be recovered even if the DRAM has not been refreshed for several minutes.<ref>http://parts.jpl.nasa.gov/docs/DRAM_Indiv-00.pdf</ref>)
+
+=== Memory timing ===
+
+There are many numbers required to describe the speed of DRAM operation. Here are some examples for two speed grades of asynchronous DRAM, from a data sheet published in 1998:<ref>[http://download.micron.com/pdf/datasheets/dram/d47b.pdf d47b<!-- Bot generated title -->]</ref>
+
+{|class="wikitable"
+!                 || "50 ns" || "60 ns" || Description
+|-
+| t<sub>RC</sub>  || 84 ns   || 104 ns  || Random read or write cycle time (from one full /RAS cycle to another)
+|-
+| t<sub>RAC</sub> || 50 ns   ||  60 ns  || Access time: /RAS low to valid data out
+|-
+| t<sub>RCD</sub> || 11 ns   ||  14 ns  || /RAS low to /CAS low time
+|-
+| t<sub>RAS</sub> || 50 ns   ||  60 ns  || /RAS pulse width (minimum /RAS low time)
+|-
+| t<sub>RP</sub>  || 30 ns   ||  40 ns  || /RAS precharge time (minimum /RAS high time)
+|-
+| t<sub>PC</sub>  || 20 ns   ||  25 ns  || Page-mode read or write cycle time (/CAS to /CAS)
+|-
+| t<sub>AA</sub>  || 25 ns   ||  30 ns  || Access time: Column address valid to valid data out (includes address setup time before /CAS low)
+|-
+| t<sub>CAC</sub> || 13 ns   ||  15 ns  || Access time: /CAS low to valid data out
+|-
+| t<sub>CAS</sub> ||  8 ns   ||  10 ns  || /CAS low pulse width minimum
+|}
+
+Thus, the generally quoted number is the /RAS access time. This is the time to read a random bit from a precharged DRAM array. The time to read additional bits from an open page is much less.
+
+When such a RAM is accessed by clocked logic, the times are generally rounded up to the nearest clock cycle. For example, when accessed by a 100 MHz state machine (i.e. a 10&nbsp;ns clock), the 50&nbsp;ns DRAM can perform the first read in 5 clock cycles, and additional reads within the same page every 2 clock cycles. This was generally described as "5-2-2-2" timing, as bursts of 4 reads within a page were common.
+
+When describing synchronous memory, timing is also described by clock cycle counts separated by hyphens, but the numbers have very different meanings!  These numbers represent t<sub>CAS</sub>-t<sub>RCD</sub>-t<sub>RP</sub>-t<sub>RAS</sub> in multiples of the DRAM clock cycle time. Note that this is half of the data transfer rate when double data rate signaling is used. JEDEC standard PC3200 timing is 3-4-4-8<ref>[http://www.corsairmemory.com/corsair/products/specs/cmx1024-3200.pdf cmx1024-3200.ai<!-- Bot generated title -->]</ref> with a 200&nbsp;MHz clock, while premium-priced high-speed PC3200 DDR DRAM DIMM might be operated at 2-2-2-5 timing.<ref>http://www.corsairmemory.com/corsair/products/specs/twinx1024-3200xl.pdf</ref>
+{| class="wikitable"
+! || Cycles || time || Cycles || time || Description
+|-
+| t<sub>CL</sub>  || 3 || 15 ns || 2 || 10 ns || /CAS low to valid data out (equivalent to t<sub>CAC</sub>)
+|-
+| t<sub>RCD</sub> || 4 || 20 ns || 2 || 10 ns || /RAS low to /CAS low time
+|-
+| t<sub>RP</sub>  || 4 || 20 ns || 2 || 10 ns || /RAS precharge time (minimum precharge to active time)
+|-
+| t<sub>RAS</sub> || 8 || 40 ns || 5 || 25 ns || Minimum row active time (minimum active to precharge time)
+|}
+It is worth noting that the improvement over 10 years is not that large. Minimum random access time has improved from 50&nbsp;ns to t<sub>RCD</sub> + t<sub>CL</sub> = 35&nbsp;ns, and even the premium 20&nbsp;ns variety is only 2.5× better. However, the DDR memory does achieve 8 times higher bandwidth; due to internal pipelining and wide data paths, it can output one word every 2.5&nbsp;ns, while the EDO DRAM can only output one word per t<sub>PC</sub> = 20&nbsp;ns.
+
+==Errors and error correction==
+
+Electrical or magnetic interference inside a computer system can cause a single bit of DRAM to spontaneously flip to the opposite state.
+<!-- Mention alpha particles and low-alpha plastic used for encapsulation -->
+<!-- how often does this happen ? (very rarely) -->
+Some research has shown that the majority of one-off ("soft") errors in DRAM chips occur as a result of SOI may make individual cells less susceptible and so counteract, or even reverse this trend. 
+
+This problem can be mitigated by using DRAM modules that include extra memory bits and memory controllers that exploit these bits. These extra bits are used to record parity or to use an ECC. Parity allows the detection of a single-bit error (actually, any odd number of wrong bits). The most common error correcting code, Hamming code, allows a single-bit error to be corrected and (in the usual configuration, with an extra parity bit) double-bit errors to be detected.
+
+486-era PCs often used parity.  Pentium-era ones mostly did not. Wider memory buses make parity and especially ECC more affordable. Current microprocessor memory controllers generally support ECC but most non-server systems do not use these features. Even if they do, it is not clear that the software layers do their part.
+
+Memory controllers in most modern PCs can typically detect, and correct errors of a single bit per 64-bit "word" (the unit of bus transfer), and detect (but not correct) errors of two bits per 64-bit word. Some systems also 'scrub' the errors, by writing the corrected version back to memory. The BIOS in some computers, and operating systems such as Linux, allow counting of detected and corrected memory errors, in part to help identify failing memory modules before the problem becomes catastrophic. Unfortunately, most modern PCs are supplied with memory modules that have no parity or ECC bits.
+
+Error detection and correction depends on an expectation of the kinds of errors that occur. Implicitly, we have assumed that the failure of each bit in a word of memory is independent and hence that two simultaneous errors are improbable. This used to be the case when memory chips were one bit wide (typical in the first half of the 1980s). Now many bits are in the same chip. This weakness does not seem to be widely addressed; one exception is Chipkill.
+
+A reasonable rule of thumb is to expect one bit error, per month, per gigabyte of memory. Actual error rates vary widely.
+
+== DRAM packaging ==
+
+For economic reasons, the large (main) memories found in personal computers, workstations, and non-handheld game-consoles (such as Playstation and Xbox) normally consists of dynamic RAM (DRAM). Other parts of the computer, such as cache memories and data buffers in hard disks, normally use SRAM).
+
+=== General DRAM packaging formats ===
+thumb|Common DRAM packages
+thumb|EDO DRAM memory module
+
+Dynamic random access memory is produced as bonded and mounted into plastic packages with metal pins for connection to control signals and buses. Today, these DRAM packages are in turn often assembled into plug-in modules for easier handling. Some standard module types are:
+
+* '''DRAM chip (Integrated Circuit or IC)'''
+** Dual in-line Package (DIP)
+* '''DRAM (memory) modules'''
+** Single In-line Pin Package (SIPP)
+** Single In-line Memory Module (SIMM)
+** Dual In-line Memory Module (DIMM)
+** Rambus In-line Memory Module (RIMM), technically DIMMs but called RIMMs due to their proprietary slot.
+** Small outline DIMM (SO-DIMM), about half the size of regular DIMMs, are mostly used in notebooks, small footprint PCs (such as Mini-ITX motherboards), upgradable office printers and networking hardware like routers. Comes in versions with:
+*** 72 pins (32-bit) 
+*** 144 pins (64-bit) 
+*** 200 pins (72-bit)
+** Small outline RIMM (SO-RIMM). Smaller version of the RIMM, used in laptops. Technically SO-DIMMs but called SO-RIMMs due to their proprietary slot.
+* '''Stacked v. non-stacked RAM modules'''
+** Stacked RAM modules contain two or more RAM chips stacked on top of each other. This allows large modules (like 512mb or 1Gig SO-DIMM) to be manufactured using cheaper low density wafers. Stacked chip modules draw more power.
+
+=== Common DRAM modules ===
+Common DRAM packages as illustrated to the right, from top to bottom:
+# DIP 16-pin (DRAM chip, usually pre-FPRAM)
+# SIPP (usually FPRAM)
+# SIMM 30-pin (usually FPRAM)
+# SIMM 72-pin (so-called "PS/2 SIMM", usually EDO RAM)
+# DIMM 168-pin (SDRAM)
+# DIMM 184-pin (DDR SDRAM)
+# RIMM 184-pin 
+# DIMM 240-pin (DDR2 SDRAM/DDR3 SDRAM)
+
+== Variations ==
+
+=== Asynchronous DRAM ===
+This is the basic form, from which all others are derived. An asynchronous DRAM chip has power connections, some number of address inputs (typically 12), and a few (typically 1 or 4) bidirectional data lines. There are four active low control signals:
+* /RAS, the Row Address Strobe. The address inputs are captured on the falling edge of /RAS, and select a row to open. The row is held open as long as /RAS is low.
+* /CAS, the Column Address Strobe. The address inputs are captured on the falling edge of /CAS, and select a column from the currently open row to read or write.
+* /WE, Write Enable. This signal determines whether a given falling edge of /CAS is a read (if high) or write (if low). If low, the data inputs are also captured on the falling edge of /CAS.
+* /OE, Output Enable. This is an additional signal that controls output to the data I/O pins. The data pins are driven by the DRAM chip if /RAS and /CAS are low, and /WE is high, and /OE is low. In many applications, /OE can be permanently connected low (output always enabled), but it can be useful when connecting multiple memory chips in parallel.
+
+This interface provides direct control of internal timing. When /RAS is driven low, a /CAS cycle must not be attempted until the sense amplifiers have sensed the memory state, and /RAS must not be returned high until the storage cells have been refreshed. When /RAS is driven high, it must be held high long enough for precharging to complete.
+
+=== Video DRAM (VRAM) ===
+ <!-- add wikilinks; use common citation style: http://en.wikipedia.org/wiki/WP:CITE -->
+
+'''VRAM''' is a dual-ported variant of DRAM which was once commonly used to store the frame-buffer in some graphics adaptors.    
+
+It was invented by F. Dill and R. Matick at IBM Research in 1980, with a patent issued in 1985 (US Patent 4,541,075). The first commercial use of VRAM was in the high resolution graphics adapter introduced in 1986 by IBM with the PC/RT system. 
+
+VRAM has two sets of data output pins, and thus two ports that can be used simultaneously. The first port, the DRAM port, is accessed by the host computer in a manner very similar to traditional DRAM. The second port, the video port, is typically read-only and is dedicated to providing a high-speed data channel for the graphics chipset.
+
+Typical DRAM arrays normally access a full row of bits (i.e. a word line) at up to 1024 bits at one time, but only use one or a few of these for actual data, the remainder being discarded. Since DRAM cells are destructively read, each bit accessed must be sensed, and re-written. Thus, typically, 1024 sense amplifiers are typically used. VRAM operates by not discarding the excess bits which must be accessed, but making full use of them in a simple way. If each horizontal scan line of a display is mapped to a full word, then upon reading one word and latching all 1024 bits into a separate row buffer, these bits can subsequently be serially streamed to the display circuitry. This will leave access to the DRAM array free to be accessed (read or write) for many cycles, until the row buffer is almost depleted. A complete DRAM read cycle is only required to fill the row buffer, leaving most DRAM cycles available for normal accesses.

@@ -1,0 +1,173 @@
+{| class="toccolours" border="1" style="float: right; clear: right; margin: 0 0 1em 1em; border-collapse: collapse;"
+! align="center" cellspacing="3" style="border: 1px solid #C0C090; background-color: #F8EABA; margin-bottom: 3px;" colspan="2" | 
+|-
+| align="center" colspan="2" bgcolor="#ffffff" | 120px|Ethane 120px|Ethane
+|-
+! align="center" cellspacing="3" style="border: 1px solid #C0C090; background-color: #F8EABA; margin-bottom: 3px;" colspan="2" | Bendra informacija
+|- 
+| Sisteminis pavadinimas
+| Etanas
+|-
+| Kiti pavadinimai
+| dimetilas, etilo hidridas,<br>metilmetanas
+|-
+| Cheminė formulė
+| C<sub>2</sub>H<sub>6</sub>
+|-
+| SMILES
+| CC
+|-
+| Molinė masė
+| 30.07 g/mol
+|-
+| Išvaizda
+| Bespalvės dujos
+|-
+| CAS numeris
+| [74-84-0]
+|-
+! align="center" cellspacing="3" style="border: 1px solid #C0C090; background-color: #F8EABA; margin-bottom: 3px;" colspan="2" | Savybės
+|-
+| Tankis ir<br/> Agregatinė būsena
+| 0.548 g/m<sup>3</sup>, dujos
+|-
+| vandenyje
+| 4.7 g/100 ml (? °C)
+|-
+| Lydymosi temperatūra
+| -182.76 °C (90.34 K)
+|-
+| Virimo temperatūra
+| -88.6 °C (184.5 K)
+|-
+| Rūgštingumas (p''K<sub>a</sub>'')
+| 50
+|-
+
+! align="center" cellspacing="3" style="border: 1px solid #C0C090; background-color: #F8EABA; margin-bottom: 3px;" colspan="2" | Sauga 
+|-
+| EU klasifikacija
+| Ypač degios ('''F+''')
+|-
+| NFPA 704
+| 
+|-
+| Rizikos frazės
+| R12
+|-
+| Saugos frazės
+| S2, S9, S16, S33
+|-
+| Pliūpsnio temperatūra
+| &minus;135°C
+|-
+| Savaiminio<br/>užsiliepsnojimo<br/>temperatūra
+| 472°C
+|-
+| Sprogimo riba
+| 3.0–12.5%
+|-
+| RTECS numeris
+| KH3800000
+|-
+! align="center" cellspacing="3" style="border: 1px solid #C0C090; background-color: #F8EABA; margin-bottom: 3px;" colspan="2" | Giminingi junginiai
+|-
+| Giminingi alkanai 
+| Metanas<br/>Propanas
+|-
+| Giminingi junginiai 
+| Etanolis
+|-
+|}
+'''Etanas''' tai cheminis junginys, kurio anglies atomus.
+
+Kategorija:Alkanai
+
+{{Chembox new
+|   Name = Ethane
+|   ImageFileL1 = Ethane-2D.png
+|   ImageSizeL1 = 120px
+|   ImageFileR1 = Ethane-A-3D-balls.png
+|   ImageSizeR1 = 120px
+|   ImageFile2 = Ethane-3D-vdW.png
+|   ImageSize2 = 150px
+|   IUPACName = Ethane
+|   OtherNames = dimethyl; ethyl hydride; methylmethane
+| Section1 = {{Chembox Identifiers
+|   SMILES = CC
+|   CASNo = 74-84-0
+|   RTECS = KH3800000
+  }}
+| Section2 = {{Chembox Properties
+|   Formula = C<sub>2</sub>H<sub>6</sub>
+|   MolarMass = 30.07 g/mol
+|   Appearance = colourless gas
+|   Density = 1.212 kg/m³, gas
+|   Solubility = 4.7 g/100 ml (? °C)
+|   MeltingPt = -182.76 °C (90.34 K)
+|   BoilingPt = -88.6 °C (184.5 K)
+|   pKa = 50
+  }}
+| Section7 = {{Chembox Hazards
+|   EUClass = Highly flammable ('''F+''')
+|   NFPA-H = 1
+|   NFPA-F = 4
+|   NFPA-R =
+|   RPhrases = 
+|   SPhrases = , , , 
+|   FlashPt = -135 °C
+  }}
+| Section8 = {{Chembox Related
+|   Function = alkanes
+|   OtherFunctn = Methane; propane
+  }}
+}}
+'''Ethane''' is a chemical compound with chemical formula C<sub>2</sub>H<sub>6</sub>. It is the only two-carbon alkane, that is, an aliphatic hydrocarbon. At standard temperature and pressure, ethane is a colorless, odorless gas.
+
+Ethane is isolated on an industrial scale from petroleum refining. Its chief use is as petrochemical feedstock for ethylene production.
+
+==History==
+Ethane was first prepared synthetically in 1834 by Michael Faraday, applying electrolysis of a potassium acetate solution. He mistook the hydrocarbon product of this reaction for methane, and did not investigate it further. During the period 1847&ndash;1849, in an effort to vindicate the radical theory of organic chemistry, Hermann Kolbe and Edward Frankland produced ethane by the reductions of propionitrile (ethyl cyanide)  and ethyl iodide  with potassium metal, and, as did Faraday, by the electrolysis of aqueous acetates. They, however, mistook the product of these reactions for methyl radical, rather than the dimer of methyl, ethane. This error was corrected in 1864 by Carl Schorlemmer, who showed that the product of all these reactions was in fact ethane.
+
+Its name was made from the name of ether, which at first meant diethyl ether.
+
+==Chemistry==
+In the laboratory, ethane may be conveniently prepared by electrolysed.  At the anode, acetate is oxidized to produce carbon dioxide and methyl radicals, and the highly reactive methyl radicals combine to produce ethane:
+
+: CH<sub>3</sub>COO<sup>−</sup> → CH<sub>3</sub>• + CO<sub>2</sub> + e<sup>−</sup>
+: CH<sub>3</sub>• + •CH<sub>3</sub> → C<sub>2</sub>H<sub>6</sub>
+
+Another method, the oxidation of acetic anhydride by peroxides, is conceptually similar.
+
+The chemistry of ethane also involves chiefly free radical reactions.  Ethane can react with the halogens, especially chlorine and bromine, by free radical halogenation. This reaction proceeds through the propagation of the ethyl radical:
+
+: C<sub>2</sub>H<sub>5</sub>• + Cl<sub>2</sub> → C<sub>2</sub>H<sub>5</sub>Cl + Cl•
+: Cl• + C<sub>2</sub>H<sub>6</sub> → C<sub>2</sub>H<sub>5</sub>• + HCl
+
+Because halogenated ethanes can undergo further free radical halogenation, this process results in a mixture of several halogenated products.  In the chemical industry, more selective chemical reactions are used for the production of any particular two-carbon halocarbon.
+
+===Combustion===
+The complete combustion of ethane releases 1561 kJ/mol, or 51.9 kJ/g, of heat, and produces carbon dioxide and water according to the chemical equation
+
+: 2 C<sub>2</sub>H<sub>6</sub> + 7 O<sub>2</sub> → 4 CO<sub>2</sub> + 6 H<sub>2</sub>O + 3122 kJ/mol
+
+Combustion occurs by a complex series of free-radical reactions.  Computer simulations of the chemical kinetics of ethane combustion have included hundreds of reactions.  An important series of reaction in ethane combustion is the combination of an ethyl radical with oxygen, and the subsequent breakup of the resulting peroxide into ethoxy and hydroxyl radicals.
+
+: C<sub>2</sub>H<sub>5</sub>• + O<sub>2</sub> → C<sub>2</sub>H<sub>5</sub>OO•
+: C<sub>2</sub>H<sub>5</sub>OO• + HR → C<sub>2</sub>H<sub>5</sub>OOH + •R
+: C<sub>2</sub>H<sub>5</sub>OOH → C<sub>2</sub>H<sub>5</sub>O• + •OH
+
+The principal carbon-containing products of incomplete ethane combustion are single-carbon compounds such as carbon monoxide and formaldehyde.  One important route by which the carbon-carbon bond in ethane is broken to yield these single-carbon products is the decomposition of the ethoxy radical into a methyl radical and formaldehyde, which can in turn undergo further oxidation.
+
+: C<sub>2</sub>H<sub>5</sub>O• → CH<sub>3</sub>• + CH<sub>2</sub>O
+
+Some minor products in the incomplete combustion of ethane include acetaldehyde, methane, methanol, and ethanol.  At higher temperatures, especially in the range 600&ndash;900 °C, ethylene is a significant product.  It arises via reactions like
+
+: C<sub>2</sub>H<sub>5</sub>• + O<sub>2</sub> → C<sub>2</sub>H<sub>4</sub> + •OOH
+
+Similar reactions (although with species other than oxygen as the hydrogen abstractor) are involved in the production of ethylene from ethane in steam cracking.
+
+==Production==
+After methane, ethane is the second-largest component of natural gas.  Natural gas from different gas fields varies in ethane content from less than 1% to over 6% by volume.  Prior to the 1960s, ethane and larger molecules were typically not separated from the methane component of natural gas, but simply burnt along with the methane as a fuel. Today, however, ethane is an important petrochemical feedstock, and it is separated from the other components of natural gas in most well-developed gas fields.  Ethane can also be separated from petroleum gas, a mixture of gaseous hydrocarbons that arises as a byproduct of petroleum refining. Economics of building and running processing plants can change, however. If the relative value of sending the unprocessed natural gas to a consumer exceeds the value of extracting ethane, then the plant may not be run. This can cause operational issues managing the changing quality of the gas in downstream systems.[http://www.aga.org/Content/ContentGroups/Advocacy1/Regulation1/FERC1/commentsinter.pdf]
+
+Ethane is most efficiently separated from methane by liquefying it at cryogenic temperatures.  Various refrigeration strategies exist: the most economical process presently in wide use employs turboexpansion, and can recover over 90% of the ethane in natural gas.  In this process, chilled gas expands through a turbine; as it expands, its temperature drops to about -100 °C. At this low temperature, gaseous methane can be separated from the liquefied ethane and heavier hydrocarbons by distillation.  Further distillation then separates ethane from the propane and heavier hydrocarbons.

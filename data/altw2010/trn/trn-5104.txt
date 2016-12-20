@@ -1,0 +1,90 @@
+La '''gestion de maintenance assistée par ordinateur''' (souvent abrégée en '''GMAO''') est une méthode de gestion assistée d'un logiciel destiné aux services de maintenance d'une entreprise afin de l'aider dans ses missions. 
+
+== Fonctionnalités d'une GMAO ==
+
+Une GMAO vise en premier lieu à assister les services maintenance des entreprises dans leurs missions. Rappelons qu'un service maintenance, selon la définition de l'AFNOR, cherche à maintenir ou rétablir un bien (équipement) dans un état spécifié afin que celui-ci soit en mesure d'assurer un service déterminé. Une GMAO peut également être un outil intéressant dans d'autres services de l'entreprise, comme la production ou l'exploitation (afin de fournir des informations sur l'état des équipements), ainsi que la direction financière ou générale de l'entreprise, en fournissant des indicateurs facilitant les prises de décisions en matière de renouvellement de parc, par exemple.
+
+Ainsi, les fonctions les plus courantes de ces progiciels sont :
+* Gestion des équipements: inventaire des équipements, localisation, gestion d'information dédiée par type d'équipement (production, bâtiments, véhicules, réseaux, ordinateurs...)
+* Gestion de la maintenance : corrective (avec OT : ordre de travaux, ou BT : bon de travaux, ou ODM : ordre de maintenance), préventive (systématique, conditionnelle, prévisionnelle)... Ce module inclut souvent des fonctionnalités ouvertes à des utilisateurs au-delà du service maintenance, comme une gestion des Demandes d'Intervention (DI), permettant à toute personne autorisée de l'entreprise de signaler une anomalie devant être prise en compte par la maintenance.
+* Gestion des ABC, pick-lists, référencement et recherche, articles de rechange, catalogue fournisseurs...
+* Gestion des achats : de pièces détachées ou de services (sous-traitance, forfait ou régie), cycle devis / demande d'achat / commande / réception & retour fournisseur, facturation...
+* Gestion du personnel et planning : activités, métiers, planning de charge, prévisionnel, pointage des heures...
+* Gestion des coûts et budget : de main d'œuvre, de stocks, d'achat, de location de matériel... préparation des budgets, suivi périodique, rapports d'écart...
+* KPI (Key Performance Indicators) : cockpit de pilotage ou tableau de bord pour le manager (requêtes de base de données concernant des statistiques, des alertes, etc.)
+
+D'autres fonctionnalités existent : gestion de l'inspection, métrologie, normes (transport, SIG, matériel mobile (PDA, pocket PC...), télésurveillance (analyse vibratoire, infra-rouge...)
+
+== Bénéfices attendus ==
+
+Les bénéfices attendus de la mise en place d'une GMAO sont potentiellement importants, bien que difficile à chiffrer car souvent indirects. On peut citer :
+* Meilleure gestion et réduction des coûts (main d'œuvre, pièces détachées, traitement administratif...),
+* Amélioration de la fiabilité et de la disponibilité des équipements,
+* Optimisation des achats (aide aux Appels d'Offres, gestion des contrats de prestataires externes...),
+* Amélioration du REX : Retour d'EXpérience grâce notamment à l'historique des travaux de maintenance,
+* Amélioration de la planification des interventions, 
+* Recherche du ratio préventif/correctif optimal en fonction des équipements gérés et des objectifs de disponibilité,
+* Meilleur contrôle de l'activité des sous-traitants et prestataires externes,
+* Amélioration de la gestion des stocks (meilleur contrôle des sorties, aide aux inventaires, optimisation du taux de rotation...),
+* Traçabilité des équipements, parfois pour répondre à des contraintes règlementaires (ATEX, 21CFR11...),
+* Participation à une démarche TPM, 
+* Aide à la décision grâce à la fourniture d'indicateurs plus objectifs, notamment les décisions de renouvellement de matériel.
+
+Consulter l'étude suivante (en anglais, 2004 ) :
+[http://www.plant-maintenance.com/articles/CMMS_survey_2004.shtml]
+
+== Secteurs d'activité concernés ==
+
+Tous les secteurs d'activité qui ont des équipements à maintenir sont potentiellement intéressés par l'exploitation d'un outil de GMAO. 
+
+On peut ainsi citer les secteurs :
+* Industrie (production, automobile, pharmacie...)
+* Énergie (gaz, pétrole, électricité...)
+* Transport (routier, ferroviaire, aérien, transports publics...)
+* Médical (hôpitaux)
+* Immobilier (HLM, locatif, d'entreprise et sièges sociaux, moyens généraux...)
+* Grande distribution
+* Collectivités locales (communauté urbaine, agglomération, aéroport, ...)
+* etc.
+
+En fonction du secteur d'activité concerné, des fonctionnalités ciblées peuvent exister sous la forme de solutions "verticales". Par exemple la signature électronique exigée par la FDA dans l'industrie pharmaceutique, la gestion des "assets linéaires" pour le monde pétrolier, la gestion de la calibration ou de la matériovigilance pour les équipements biomédicaux, des aspects sécurité et normes, etc.....
+
+== Différentes appellations et familles de progiciels apparentées ==
+Les logiciels de Gestion de la maintenance assistée par ordinateur sont souvent désignés par l'abréviation GMAO. L'équivalent en anglais est "CMMS" pour "Computerized Maintenance Management System". Comme leur nom l'indique, ce sont des logiciels de gestion, destinés avant tout au monde de l'entreprise, et n'ayant que peu ou pas de fonctionnalités "temps réel". 
+
+Plus récemment, est apparue en anglais l'appellation ''Enterprise Asset Management'' (EAM), qui a donné lieu à la traduction française Gestion des actifs. Cette traduction peut amener une confusion car le terme français "actif" a une connotation financière très marquée, alors que les outils d'EAM ne s'intéressent qu'aux "actifs physiques", c'est à dire aux équipements et aux biens physiques gérés par l'entreprise. Cette nouvelle appellation traduit la volonté des logiciels EAM de dépasser le cadre des seuls services maintenance, en proposant des fonctionnalités intéressant les directions générales et financières de l'entreprise. En pratique, cette démarche concerne au moins autant la méthotologie de mise en oeuvre du logiciel dans l'entreprise que les fonctionnalités du logiciel lui-même.
+
+== Intégration de la GMAO dans le système d'information de l'entreprise ==
+
+Une GMAO peut avoir un intérêt à s'interfacer avec d'autres logiciels existants de l'entreprise, et notamment :
+* Une gestion des stocks : afin de gérer les stocks de pièce de rechange. En pratique, les spécificités de gestion d'un stock de pièces de rechange par rapport à un stock de production amènent souvent à utiliser les modules de gestion de stock proposés par les GMAO elles-mêmes.
+* Une gestion d'achat : afin de gérer les achats de pièce de rechange ou de service. Des modules de gestion d'achat sont souvent proposés au sein des GMAO, mais il est souvent préférable d'utiliser le logiciel d'achat déjà en place dans l'entreprise.
+* Une gestion budgétaire ou financière : la GMAO dispose de données de coûts qu'il peut être intéressant de consolider dans la gestion financière globale de l'entreprise.
+* Une gestion électronique de document (GED) : notamment afin d'accéder à des archives de plans ou de documents techniques.
+* Une gestion de patrimoine (dans le domaine immobilier)
+* Un système temps réel de GTC/GTB : afin de générer automatiquement dans la GMAO des interventions en cas de survenance de certains évènements détectés par capteurs, ou afin de mettre à jour les valeurs de compteurs d'utilisation concernant certains équipements.
+
+== GMAO dédiée ou ERP ? ==
+
+La volonté d'intégrer de plus en plus la GMAO au sein du système d'information de l'entreprise a amené les éditeurs de progiciels de gestion intégré (ERP) à développer des modules GMAO au sein de leur offre. L'intérêt des ERP par rapport aux logiciels GMAO dédiés fait l'objet de débats. 
+
+Les partisans des ERP soulignent l'intérêt d'un produit unique en terme de cohérence dans la consolidation des informations (notamment les informations financières), mais également l'intérêt de disposer d'une interface utilisateur unifiée, de ne pas multiplier les compétences informatiques sur différents logiciels ou bases de données, de simplifier le projet en ne traitant qu'avec un seul intégrateur, d'éviter le développement d'interfaces spécifiques...
+
+Les partisans des logiciels de GMAO dédiés soutiennent quant à eux que les modules GMAO des ERP apportent une vision plus financière que technique et ne satisfont donc que peu les utilisateurs maintenance, que les projets ERP sont d'une telle complexité que la partie maintenance est souvent négligée (les autres modules comme la production ayant priorité), qu'un outil de GMAO est en partie destiné à du personnel peu habitué à l'informatique et qu'il est essentiel dès lors de proposer une interface simple d'utilisation si l'on veut éviter au final un rejet des utilisateurs et une mauvaise utilisation du produit.
+
+== Le marché de la GMAO dans le monde et en France ==
+=== Historique ===
+
+'''Computerized Maintenance Management System''' (CMMS) is also known as '''Enterprise Asset Management'''.
+
+A CMMS software package maintains a computer database of information about an organization’s maintenance operations.  This information is intended to help maintenance workers do their jobs more effectively (for example, determining which storerooms contain the spare parts they need) and to help management make informed decisions (for example, calculating the cost of maintenance for each piece of equipment used by the organization, possibly leading to better allocation of resources).  The information may also be useful when dealing with third parties; if, for example, an organization is involved in a liability case, the data in a CMMS database can serve as evidence that proper safety maintenance has been performed.
+
+CMMS packages may be used by any organization that must perform maintenance on equipment and property.  Some CMMS products focus on particular industry sectors (e.g. the maintenance of vehicle fleets or health care facilities).  Other products aim to be more general.
+
+Different CMMS packages offer a wide range of capabilities and cover a correspondingly wide range of prices.  A typical package deals with some or all of the following:
+
+* Work orders: Scheduling jobs, assigning personnel, reserving materials, recording costs, and tracking relevant information such as the cause of the problem (if any), downtime involved (if any), and recommendations for future action
+* Preventive maintenance (PM): Keeping track of PM inspections and jobs, including step-by-step instructions or check-lists, lists of materials required, and other pertinent details.  Typically, the CMMS schedules PM jobs automatically based on schedules and/or meter readings.  Different software packages use different techniques for reporting when a job should be performed.
+* Asset management: Recording data about equipment and property including specifications, warranty information, service contracts, spare parts, purchase date, expected lifetime, and anything else that might be of help to management or maintenance workers. The CMMS may also generate Asset Management metrics such as the Facility Condition Index, or FCI. 
+* Inventory control: Management of spare parts, tools, and other materials including the reservation of materials for particular jobs, recording where materials are stored, determining when more materials should be purchased, tracking shipment receipts, and taking inventory.
+* Safety: Management of permits and other documentation required for the processing of safety requirements.  These safety requirements can include lockout-tagout, confined space, foreign material exclusion (FME), electrical safety, and others.

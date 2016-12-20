@@ -1,0 +1,28 @@
+Unter '''Clearing''' oder '''Abrechnung/Verrechnung''' wird eine zentrale Verrechnung von gegenseitigen Verbindlichkeiten im Bankwesen verstanden.
+
+Davon zu unterscheiden ist die Wertpapierabwicklung und die Zahlungsverkehrsabwicklung, englisch als Settlement bezeichnet.
+
+Clearingsysteme gibt es sowohl für das Clearing von Geldtransaktionen als auch für Wertpapiere.
+
+== Wertpapierclearing/Wertpapierabrechnung ==
+ 
+Bei der Abrechnung werden ggf. nur die sich zugunsten oder zulasten eines jeden Teilnehmers ergebenden Differenzbeträge (Saldo) gutgeschrieben bzw. belastet (Nettoclearing), ohne dass eine physische Verschiebung der Wertpapiere erforderlich wird. Wird keine Saldierung durchgeführt, spricht man von Bruttoclearing.
+
+Clearingstellen, bzw. Abrechnungsstellen existieren auf nationaler und internationaler Ebene. 
+Der internationale Clearingmarkt, der diese Verrechnung auch über Ländergrenzen hinweg gestattet, ist zwischen den beiden Gesellschaften '''Luxemburg; vormals '''Cedel''') aufgeteilt. In der Regel sind Banken die Kunden solcher Clearingsysteme und nur Banken dazu berechtigt, Konten bei den internationalen Clearinggesellschaften zu unterhalten. Ein europäischer Clearingdienst wird von Euronext angeboten.
+
+Diese Stellen sind zu unterscheiden von Clearingstellen als Schlichtungsstellen, siehe Clearingstelle.
+
+== Cashclearing/Zahlungsverkehrsabrechnung ==
+
+In transaction until it is settled (see settlement). Clearing is necessary because the speed of trades is much faster than the cycle time for completing the underlying transaction.
+
+In its widest sense clearing involves the management of post-trading, pre-settlement credit exposures, to ensure that trades are settled in accordance with market rules, even if a buyer or seller should become insolvent prior to settlement. 
+
+Processes included in clearing are risk margining, netting of trades to single positions, tax handling, and failure handling. 
+
+== Central counterparty ==
+
+Clearing generally involves the use of a well capitalised financial institution known as a central counterparty (CCP). The CCP becomes a party to every trade, acting as buyer to market participant sellers, and seller to market participant buyers. In respect of unsettled trades, market participants therefore bear the standardised credit risk of the CCP, and not that of each other in a decentralised market. See Central Counterparty Clearing
+
+In the checks is done by correspondent banks and the Federal Reserve; they are ultimately settled between the 12 Federal Reserve Banks through the '''Interdistrict Settlement Fund'''.

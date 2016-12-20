@@ -1,0 +1,129 @@
+{{Info/Comuna da Itália|
+|regiao        = Ligúria <!-- Apenas o nome da região -->
+|provincia     = Impéria <!-- Apenas o nome da província -->
+|nome          = Cesio
+|mapa          = LIG-Mappa.png
+|mapaX         = <!-- Indique a coordenadaX no mapa indicado --> 
+|mapaY         = <!-- Indique a coordenadaY no mapa indicado -->
+|bandeira      = 
+|brasao        = 
+|imagem        = 
+|latitude      = 44° 0' N
+|longitude     = 7° 59' E
+|altitude      = 
+|area          = 8
+|populacao     = 242
+|densidade     = 30
+|adjacentes    = Caravonica, Casanova Lerrone (SV), Chiusanico, Pieve di Teco, Testico (SV), Vessalico
+|cap           = 18020
+|pref_tel      = 0183
+|istat         = 008018
+|fical         = &nbsp;
+|habitantes    = &nbsp;
+|nomepatrono   = &nbsp;
+|datapatrono   = 
+|site          = 
+}}
+'''Cesio''' é uma km<sup>2</sup>, tendo uma densidade populacional de 30 hab/km<sup>2</sup>. Faz fronteira com Caravonica, Casanova Lerrone (SV), Chiusanico, Pieve di Teco, Testico (SV), Vessalico.
+
+Categoria:Comunas da Itália
+
+Categoria:Comunas da Ligúria
+Categoria:Comunas de Impéria
+
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = Cesio |
+  name = Cesio |
+  region = Liguria |
+  province = Province of Imperia (IM) |
+  elevation_m =  |
+  area_total_km2   = 8.9 |
+  population_as_of  = Dec. 2004 |
+  population_total = 275 |
+  population_density_km2 = 31 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          =  |
+  telephone         = 0183 |
+  postalcode        = 18020 |
+  gentilic          =  |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           =  |
+  mapy = 7.9833 |
+  mapx = 44.0000 |
+}}
+'''Cesio''' is a ''Italian region Imperia. As of 31 December 2004, it had a population of 275 and an area of 8.9 km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+Cesio borders the following municipalities: Caravonica, Casanova Lerrone, Chiusanico, Pieve di Teco, Testico, and Vessalico.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:1000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:1000 start:0
+ScaleMinor = gridcolor:lightgrey increment:200 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:625
+  bar:1871 from: 0 till:672
+  bar:1881 from: 0 till:639
+  bar:1901 from: 0 till:716
+  bar:1911 from: 0 till:655
+  bar:1921 from: 0 till:588
+  bar:1931 from: 0 till:520
+  bar:1936 from: 0 till:513
+  bar:1951 from: 0 till:514
+  bar:1961 from: 0 till:397
+  bar:1971 from: 0 till:352
+  bar:1981 from: 0 till:291
+  bar:1991 from: 0 till:240
+  bar:2001 from: 0 till:241
+
+PlotData=
+
+  bar:1861 at:625 fontsize:XS text: 625 shift:(-8,5)
+  bar:1871 at:672 fontsize:XS text: 672 shift:(-8,5)
+  bar:1881 at:639 fontsize:XS text: 639 shift:(-8,5)
+  bar:1901 at:716 fontsize:XS text: 716 shift:(-8,5)
+  bar:1911 at:655 fontsize:XS text: 655 shift:(-8,5)
+  bar:1921 at:588 fontsize:XS text: 588 shift:(-8,5)
+  bar:1931 at:520 fontsize:XS text: 520 shift:(-8,5)
+  bar:1936 at:513 fontsize:XS text: 513 shift:(-8,5)
+  bar:1951 at:514 fontsize:XS text: 514 shift:(-8,5)
+  bar:1961 at:397 fontsize:XS text: 397 shift:(-8,5)
+  bar:1971 at:352 fontsize:XS text: 352 shift:(-8,5)
+  bar:1981 at:291 fontsize:XS text: 291 shift:(-8,5)
+  bar:1991 at:240 fontsize:XS text: 240 shift:(-8,5)
+  bar:2001 at:241 fontsize:XS text: 241 shift:(-8,5)

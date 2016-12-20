@@ -1,0 +1,50 @@
+thumb|right|200px|Trajectory of a rat through a square environment is shown in black. Red dots indicate locations at which the particular entorhinal cell being examined fired.
+thumb|right|200px|Spatial [[autocorrelogram of the neuronal activity shown above demonstrating highly regular spatial firing.]] 
+
+A '''grid cell''' is a type of neuron found in the entorhinal cortex (EC) that fires strongly when an animal is in specific locations in an environment. Grid cells were discovered in 2005 and it is hypothesized that a network of these cells constitute a mental map of the spatial environment ([http://www.nature.com/nature/journal/v436/n7052/abs/nature03721.html Hafting et al., 2005]). 
+
+==Description==
+
+Grid cells are found in the dorsocaudal part of medial entorhinal cortex in rats. Cells that are located more ventral (more distant from the border of entorhinal cortex with postrhinal cortex) have wider firing fields and correspondingly greater spacing between the fields.
+
+While cells with this firing pattern are found in all layers of EC, layer II has cells that are most grid-like, independent of the head direction of the animal. As one proceeds to deeper layers, grid cells show increasing dependence on head direction (i.e. in EC layer III & V there are cells with a grid-like pattern that fire only when the animal is facing a particular direction).
+
+It has been suggested that a place code is computed in the entorhinal cortex and fed into the hippocampus, which may make associations between place and events which is needed for the formation of memories. 
+
+In contrast to a hippocampal place cell, a grid cell has multiple firing fields, with regular spacing, which tessellate the environment in a hexagonal pattern. The unique properties of grid cells are as follows
+#Grid cells have firing fields dispersed over the entire environment (in contrast to place fields which are restricted to certain specific regions of the environment)
+#The firing fields are organized into a hexagonal grid
+#Firing fields are generally equally spaced apart, such that the distance from one firing field to all six adjacent firing fields is approximately the same (though when an environment is resized, the field spacing may shrink or expand different in different directions; Barry et al. 2007)
+#Firing fields are equally positioned, such that the six neighboring fields are located at approximately 60 degree increments
+
+The grid cells are anchored to external landmarks, but persist in darkness, suggesting that grid cells may be part of a self-motion based map of the spatial environment.
+
+==Cellular Electrophysiology==
+Stellate cells recorded from layer 2 of the grid cell-containing region of entorhinal cortex ''in vitro'' have been shown to have intrinsic, subthreshold oscillations and resonant properties (Alonso & Llinás, 1989). When the membrane potential of such a cell is brought near threshold, the membrane potential begins to oscillate at a frequency partially dependent on how depolarized the cell is. Similarly, when current is injected into such a cell at a range of frequencies, the magnitude of the cell's response depends on the frequency of the input, with a largest magnitude of response at the resonance frequency.
+
+thumb|right|200px|La traiettoria di un ratto in un ambiente quadrato (in nero). I punti rossi indicano le posizioni in cui una particolare cellula entorinale osservata ha mostrato attivazione.
+thumb|right|200px| Autocorrelatogramma spaziale della'attività neuronale visualizzata nell'immagine sopra, che dimostra un'attivazione spaziale altamente regolare. 
+Una '''cellula grid''' (cellula a griglia) è un tipo di neurone che si trova nella corteccia entorinale che "spara" (si attiva) quando un animale si trova in una posizione particolare all'interno di un ambiente. Le cellule grid sono state scoperte nel 2005 ed è stato ipotizzato che una rete neurale formata da questo tipo di cellule possa costituire una mappa mentale dello spazio circostante ([http://www.nature.com/nature/journal/v436/n7052/abs/nature03721.html Hafting et al., 2005]).
+ 
+==Descrizione==
+
+Le cellule grid sono state indicviduate nella parte media dorsocaudale della corteccia entorinale dei ratti. Le cellule localizzate nella parte più ventrale, più distanti dal limite tra la corteccia entorinale e la corteccia postrinale (detta paraippocampica nei primati) hanno campi di attivazione più ampi e, coerentemente, presentano una maggiore distanza tra campi stessi.
+
+Mentre cellule con questo tipo di attivazione si possono ritrovare in tutti gli strati della corteccia entorinale, lo strato II presenta cellule, simili al modello a griglia, che si attivano con modalità indipendente dall'orientamento della testa dell'animale. Procedendo verso gli strati più bassi aumenta il grado di dipendenza delle cellule grid da questo orientamento (cioè sta  a significare che ci sono cellule con struttura a griglia, negli strati III e V della corteccia entorinale, che si attivano solo quando l'animale è rivolto in una particolare direzione). 
+
+Si è ipotizzato che un codice di campo sia computato nella corteccia entorinale e trasmesso all'ippocampo, il quale è in grado di creare associazioni tra luogo ed eventi, procedimento necessario per la formazione dele tracce di memoria. 
+
+Al contrario delle cellule di posizione, una cellula grid ha molteplici campi di attivazione, disposti secondo una spaziatura regolare che suddivide l'ambiente in un mosaico di tasselli esagonali. Le proprietò peculiari delle cellule grid sono:
+#Le cellule grid presentano campi di attivazione che ricoprono l'intero ambiente (al contrario dei campi place, ristretti a regioni specifiche dell'ambiente)
+#I campi di applicazione sono organizzti in griglie esagonali
+#I campi di attivazione sono generalmente equidispersi nello spazio cosicché la distanza tra un campo di attivazione e l'altro è approssimativamente uguale rispetto a tutte e sei i campi adiacenti (tranne il caso in cui l'ambiente venga ridimensionato: in questo caso lo spazio tra un campo e l'altro può restringersi o espandersi secondo diverse direttive; Barry et al. 2007)
+#I campi di attivazione sono posizionati reciprocamente a circa 60 gradi l'uno rispetto all'altro
+
+Le cellule crid sono ancorate a punti di riferimenti esterni ma persistenti all'oscurità, suggerendo che esse facciano parte di una mappa dell'ambiente spaziale basata sul movimento del soggetto stesso.
+
+==Elettrofisiologia cellulare==
+Le cellule stellate registrate dallo strato II della regione della corteccia entorinale ''in vitro'' contenente cellule grid hanno mostrato di possedere delle oscillazioni sottosoglia intrinseche oltre che a proprietà di risonanza (Alonso & Llinás, 1989). Quando la membrana potenziale di questo tipo di cellula è portata al limitare della soglia, essa inizia ad oscillare con una frequenza parzialmente dipendente dal tipo di depolarizzazione della cellula stessa. 
+
+Similarmente,quando la cellula viene stimolata con corrente la risposta dipende dalla frequenza di questa stimolazione in ingresso con un massimo alla frequenza di risonanza tipica dell'elemento studiato.
+
+L'oscillazione e le frequenze di risonanza decrescono lungo l'asse dorsoventrale della corteccia entorinale,in correlazione con il cambiamento della periodicità spaziale (lo spazio aumenta tra i campi della griglia). Si specula quindi che lungo questo stesso asse le oscillazioni temporali siano correlate alla struttura spaziale delle grid cells. (Giocomo et al., 2007, Burgess et al. 2007).

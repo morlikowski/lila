@@ -1,0 +1,171 @@
+thumb|right|240px|2の平方根は、長さ1の辺の直角三角形の斜辺の長さと等しい。
+'''2の平方根'''（にのへいほうこん、square root of 2）は、平方して 2 になる実数である。正のものと負のもののふたつがある。正の平方根は
+:<math>\sqrt{2}</math>
+と書き、「ルート2」と読む。また、負の平方根は
+:<math>-\sqrt{2}</math>
+である。以下、正の平方根について記述する。
+
+オンライン整数列大辞典では十進記数法の小数点以下98桁まで表示されている<ref> 2008年7月12日閲覧</ref>。
+:1.41421 35623 73095 04880 16887 24209 69807 85696 71875 37694 80731 76679 73799 07324 78462 10703 88503 87534 32764 157…
+この数の並びは規則性がない。すなわち、2の平方根は一夜一夜に人見頃（ひとよひとよにひとみごろ）」などがある。
+また、連分数で表記すると
+:<math>\sqrt{2}=1+\cfrac{1}{2+\cfrac{1}{2+\cfrac{1}{2+\cfrac{1}{2+\cfrac{1}{2+\cfrac{1}{2+\cfrac{1}{\cdots}}}}}}}</math>
+となる。なお、白銀比は <math>1+\sqrt{2}</math> で表される。
+
+== 歴史 ==
+バビロニアの石板 YBC 7289 (紀元前2000 - 1650年ごろ）に、2の平方根の近似が六十進法で四桁の精度で与えられている。
+:<math>1 +  \frac{24}{60} + \frac{51}{60^2} + \frac{10}{60^3} = 1.41421\overline{296}</math>
+これは十進法では六桁の近似精度である。古い時代のうちで精度の高い近似としてほかに、古代インドの数学者によるものが知られており、スルバ・スートラ（紀元前800 - 200年ごろ）では、ニの平方根が「基準の長さからその三分の一だけ増やし、さらにこの三分の一のそのまた四分の一から、この四分の一の34分の一だけ取り去ったものを加える」として与えられている。これはつまり、
+:<math>1 + \frac{1}{3} + \frac{1}{3 \cdot 4} - \frac{1}{3 \cdot4 \cdot 34} = \frac{577}{408} \approx 1.414215686</math>
+をあたえていることになる。
+
+無理数はピタゴラス学派のメタポンタムのヒッパサスによって発見されたとされている。通説では、ヒッパサスが無理数を発見したのは2の平方根を分数として表そうと試みていたときであり、彼は2の平方根の無理性の（おそらく幾何学的な）証明をあたえたといわれている。ところがピタゴラスは（有理）数の絶対性を信じていたため無理数の存在を受け入れることができなかった。ピタゴラスは論理的に無理数の非存在を示すことはできなかったが、その信念から無理数の存在を受け入れることができず、ヒッパサスを溺死の刑に処したとされている。
+
+== 無理数であることの証明 ==
+以下では、一般によく知られている背理法を用いた証明を掲載する。
+
+<math>\sqrt{2}</math> が有理数であると仮定すると、<math>\sqrt{2}</math> は互いに素である（公約数を1以外に持たない）整数 ''m'', ''n'' を用いて
+:<math>\sqrt{2}=\frac{m}{n}</math>
+と表せる。この両辺を2乗すると
+:<math>2=\frac{m^2}{n^2}</math>
+よって
+:<math>m^2=2n^2\cdots(1)\,</math>
+となる。これより、''m''<sup>2</sup> は偶数なので、''m'' も偶数であることがわかる。よって ''m'' は整数 ''p'' を用いて
+:<math>m=2p\,</math>
+と表せる。この等式の両辺を2乗すると
+:<math>m^2=4p^2\,</math>
+となるので、(1) の式に代入すると
+:<math>4p^2=2n^2\,</math>
+よって、両辺を2で割って
+:<math>n^2=2p^2\,</math>
+である。これより、''n''<sup>2</sup> は偶数なので、''n'' も偶数である。以上より、''m'', ''n'' ともに偶数であることがわかったが、これは ''m'', ''n'' が互いに素であるという仮定に矛盾する。よって、最初の仮定が誤りだったので、<math>\sqrt{2}</math> は無理数である。
+
+thumb|200px|The square root of 2 is equal to the length of the [[hypotenuse of a right triangle with legs of length 1.]]
+The '''square root of 2''', also known as '''Pythagoras' constant''', often denoted by
+
+:<math>\sqrt{2}</math>&nbsp;&nbsp;&nbsp;or&nbsp;&nbsp;&nbsp;√2
+
+but can also be written as
+
+:<math>2^{1/2},</math>
+
+is the positive 2. Its numerical value approximated to 65 decimal places  is:
+:1.41421 35623 73095 04880 16887 24209 69807 85696 71875 37694 80731 76679 73799...
+
+The square root of 2 was probably the first known irrational number. Geometrically, it is the length of a diagonal across a square with sides of one unit of length; this follows from the Pythagorean theorem. On basic calculators with no square root function, the quick approximation <math>\tfrac{99}{70}</math> for the square root of two is better than the quick approximation <math>\tfrac{22}{7}</math> for pi, probably the most widely known irrational number.
+
+{| border="1" style="clear: right; float: right; border-collapse: collapse;"
+| colspan="2" align="center" | &zeta;(3) - <math>\sqrt{2}</math> - &phi; - √3 - √5 - &alpha; - e - &pi; - &delta;
+|-
+|Binary
+| 1.0110101000001001111...
+|-
+| Decimal
+| 1.4142135623730950488...
+|-
+| Hexadecimal
+| 1.6A09E667F3BCC908B2F...
+|-
+| Continued fraction
+| <math>1 + \cfrac{1}{2 + \cfrac{1}{2 + \cfrac{1}{2 + \cfrac{1}{\ddots}}}}</math>
+|}
+
+The silver ratio is
+
+:<math>1+\sqrt{2}.\,</math>
+
+==History==
+right|thumb|200px|Babylonian clay tablet YBC 7289 with annotations.<br />(Image by Bill Casselman)
+The Babylonian clay tablet YBC 7289 (c. 1800–1600 BCE) gives an approximation of <math>\sqrt{2}</math> in four sexagesimal figures, which is about six decimal figures:<ref>Fowler and Robson, p. 368.<br />[http://it.stlawu.edu/%7Edmelvill/mesomath/tablets/YBC7289.html Photograph, illustration, and description of the ''root(2)'' tablet from the Yale Babylonian Collection]<br />[http://www.math.ubc.ca/%7Ecass/Euclid/ybc/ybc.html High resolution photographs, descriptions, and analysis of the ''root(2)'' tablet (YBC 7289) from the Yale Babylonian Collection]</ref>
+
+:<math>1 + \frac{24}{60} + \frac{51}{60^2} + \frac{10}{60^3} = 1.41421\overline{296}.</math>
+
+Another early close approximation of this number is given in ancient Indian mathematical texts, the Sulbasutras (c. 800–200 BCE) as follows: ''Increase the length [of the side] by its third and this third by its own fourth less the thirty-fourth part of that fourth.''<ref> Henderson.</ref> That is,
+
+:<math>1 + \frac{1}{3} + \frac{1}{3 \cdot 4} - \frac{1}{3 \cdot4 \cdot 34} = \frac{577}{408} \approx 1.414215686.</math>
+
+This ancient Indian approximation is the seventh in a sequence of increasingly accurate approximations based on the sequence of Pell numbers, that can be derived from the continued fraction expansion of <math>\sqrt{2}.</math>
+
+The discovery of the irrational numbers is usually attributed to the Pythagorean Hippasus of Metapontum, who produced a (most likely geometrical) proof of the irrationality of the square root of 2. According to one legend, Pythagoras believed in the absoluteness of numbers, and could not accept the existence of irrational numbers. He could not disprove their existence through logic, but his beliefs would not accept the existence of irrational numbers and so he sentenced Hippasus to death by drowning.<ref>[http://www.washingtonpost.com/wp-srv/style/longterm/books/chap1/mysteryaleph.htm Washingtonpost.com: The Mystery Of The Aleph: Mathematics, the Kabbalah, and the Search for Infinity]</ref> Other legends report that Hippasus was drowned by some Pythagoreans,<ref>[http://scienceworld.wolfram.com/biography/Hippasus.html Hippasus of Metapontum (ca. 500 BC) - from Eric Weisstein's World of Scientific Biography]</ref> or merely expelled from their circle.<ref>[http://www.washingtonpost.com/wp-srv/style/longterm/books/chap1/mysteryaleph.htm Washingtonpost.com: The Mystery Of The Aleph: Mathematics, the Kabbalah, and the Search for Infinity]</ref>
+
+==Computation algorithm==
+There are a number of algorithms for approximating the square root of 2, which in expressions as a ratio of integers or as a decimal can only be approximated. The most common algorithm for this, one used as a basis in many computers and calculators, is the Babylonian method<ref>Although the term "Babylonian method" is common in modern usage, there is no direct evidence showing how the Babylonians computed the approximation of √2 seen on tablet YBC&nbsp;7289. Fowler and Robson offer informed and detailed conjectures.<br />Fowler and Robson, p. 376. Flannery, p. 32, 158.</ref> of computing square roots, which is one of many methods of computing square roots. It goes as follows:
+
+First, pick an arbitrary guess, <math>F_0</math>; the guess doesn't matter, as it only affects how many iterations are required to reach an approximation of a certain accuracy. Then, using that guess, iterate through the following recursive computation:
+
+:<math>F_{n+1} = \frac{F_n + \frac{2}{F_n}}{2}. </math>
+
+The more iterations through the algorithm (that is, the more computations performed and the greater "n"), the better approximation of the square root of 2 is achieved.
+
+The value of √2 was calculated to 137,438,953,444 decimal places by Yasumasa Kanada's team in 1997.
+
+In February of 2006 the record for the calculation of √2 was eclipsed with the use of a home computer. Shigeru Kondo calculated 200,000,000,000 decimal places in slightly over 13 days and 14 hours using a 3.6GHz PC with 16GB of memory.
+
+Among mathematical constants with nonrepeating decimal expansions, only &pi; has been calculated more accurately.<ref>[http://numbers.computation.free.fr/Constants/Miscellaneous/Records.html Number of known digits]</ref>
+
+==Proofs of irrationality==
+===Proof by infinite descent===
+One proof of the number's irrationality is the following proof by proof by contradiction, which means the proposition is proved by assuming that the opposite of the proposition is true and showing that this assumption is false, which means that the proposition must be true.
+
+# Assume that √2 is a rational number, meaning that there exists an integer ''a'' and an integer ''b'' such that ''a'' / ''b'' = √2.
+# Then √2 can be written as an irreducible fraction ''a'' / ''b'' such that ''a'' and ''b'' are coprime integers and (''a'' / ''b'')<sup>2</sup> = 2.
+# It follows that ''a''<sup>2</sup> / ''b''<sup>2</sup> = 2 and ''a''<sup>2</sup> = 2 ''b''<sup>2</sup>. (''(''a'' / ''b'')<sup>n</sup> = ''a''<sup>n</sup> / ''b''<sup>n</sup>'')
+# Therefore ''a''<sup>2</sup> is even because it is equal to 2 ''b''<sup>2</sup>. (2 ''b''<sup>2</sup> is necessarily even because it's divisible by 2—that is, (2 ''b''<sup>2</sup>)/2 = ''b''<sup>2</sup> — and numbers divisible by two are even by definition.'')
+# It follows that ''a'' must be even as (squares of odd integers are also odd, referring to b) or (only even numbers have even squares, referring to a).
+# Because ''a'' is even, there exists an integer ''k'' that fulfills: ''a'' = 2''k''.
+# Substituting 2''k'' from (6) for ''a'' in the second equation of (3): 2''b''<sup>2</sup> = (2''k'')<sup>2</sup> is equivalent to 2''b''<sup>2</sup> = 4''k''<sup>2</sup> is equivalent to ''b''<sup>2</sup> = 2''k''<sup>2</sup>.
+# Because 2''k''<sup>2</sup> is divisible by two and therefore even, and because 2''k''<sup>2</sup> = ''b''<sup>2</sup>, it follows that ''b''<sup>2</sup> is also even which means that ''b'' is even.
+# By (5) and (8) ''a'' and ''b'' are both even, which contradicts that ''a'' / ''b'' is irreducible as stated in (2).
+::'''''Q.E.D.'''''
+
+Since there is a contradiction, the assumption (1) that √2 is a rational number must be false. The opposite is proven: √2 is irrational.
+
+This proof can be generalized to show that any root of any natural number is either a natural number or irrational.
+<!--
+===Proof by unique factorization===
+An alternative proof uses the same approach with the unique factorization theorem:
+
+<!-- ****old version of proof****
+# Assume that √2 is a rational number, meaning that there exists an integer ''a'' and an integer ''b'' such that ''a'' / ''b'' = √2.
+# Then √2 can be written as an irreducible fraction (the fraction is reduced as much as possible) ''a'' / ''b'' such that ''a'' and ''b'' are coprime integers and (''a'' / ''b'')<sup>2</sup> = 2.
+# It follows that ''a''<sup>2</sup> / ''b''<sup>2</sup> = 2 and ''a''<sup>2</sup> = 2 ''b''<sup>2</sup>.
+# By the unique factorization theorem, both ''a'' and ''b'' have a unique prime factorization, such that ''a'' = 2<sup>x</sup>''k'' and ''b'' = 2<sup>y</sup>''m'' for the nonnegative integers ''x'', ''y'', and the nonnegative odd integers ''m'' and ''k''.
+# Therefore, ''a''<sup>2</sup> = 2<sup>2x</sup>''k''<sup>2</sup> and ''b''<sup>2</sup> = 2<sup>2y</sup>''m''<sup>2</sup>.
+# Inserting back into (3) we get that 2<sup>2x</sup>''k''<sup>2</sup> = 2·2<sup>2y</sup>''m''<sup>2</sup> = 2<sup>2''y''+1</sup>''m''<sup>2</sup>.
+# This states that a prime factorization with an even power of 2 (the exponent is 2''x'') is equal to one with an odd power of 2 (the exponent is 2''y''&nbsp;+&nbsp;1). But this contradicts the unique factorization theorem. Therefore the original statement must be false.
+-->
+# Assume that <math>\sqrt{2}</math> is a rational number. Then <math>\exists a,b \in \mathbb{Z}</math> such that a is coprime to ''b'' and <math>\sqrt{2}={a \over b}</math>. In other words, <math>\sqrt{2}</math> can be written as an irreducible fraction.
+# It follows that <math>2 = {a^2 \over b^2}</math>, and that <math>a^2=2b^2</math>.
+# So, by the properties of exponents along with the unique factorization theorem, 2 divides both ''a''<sup>''n''</sup> and ''a''.
+# Factoring out 2 from (2), we have <math>a^2=2b'</math> for some <math>b'\in \mathbb{Z}</math>.
+# Therefore 2 divides ''a''.
+# But this contradicts the assumption that ''a'' and ''b'' are coprime.
+# Therefore <math>\sqrt{2}</math> is not a rational number.
+::'''''Q.E.D.''''' -->
+
+===Another proof===
+The following reductio ad absurdum argument showing the irrationality of √2 is less well-known. It uses the additional information √2 > 1.
+# Assume that √2 is a rational number. This would mean that there exist integers ''m'' and ''n'' with ''n'' ≠ 0 such that ''m''/''n'' = √2.
+# Then √2 can also be written as an irreducible fraction ''m''/''n'' with ''positive'' integers, because √2 > 0.
+# Then <math>\sqrt{2} = \frac{\sqrt{2}\cdot n(\sqrt{2}-1)}{n(\sqrt{2}-1)} = \frac{2n-\sqrt{2}n}{\sqrt{2}n-n} = \frac{2n-m}{m-n},\text{ because }\sqrt{2}\,n\,=\,m.</math>
+# Since √2 > 1, it follows that ''m'' > ''n'', which in turn implies that ''m'' > 2''n'' – ''m''.
+# So the fraction ''m''/''n'' for √2, which according to (2) is already in lowest terms, is represented by (3) in strictly lower terms. This is a contradiction, so the assumption that √2 is rational must be false.
+
+===Geometric proof===
+right
+Another reductio ad absurdum showing that √2 is irrational is less well-known.<ref>Apostol (2000), p. 841</ref> It is also an example of proof by infinite descent. It makes use of classic compass and straightedge construction, proving the theorem by a method similar to that employed by ancient Greek geometers.
+
+Let ''ABC'' be a right isosceles triangle with hypotenuse length ''m'' and legs ''n''. By the Pythagorean theorem, ''m''/''n'' = √2. Suppose ''m'' and ''n'' are integers. Let ''m'':''n'' be a ratio given in its lowest terms.
+
+Draw the arcs ''BD'' and ''CE'' with centre ''A''. Join ''DE''. It follows that ''AB'' = ''AD'', ''AC'' = ''AE'' and the ∠''BAC'' and ∠''DAE'' coincide. Therefore the triangles ''ABC'' and ''ADE'' are congruent by SAS.
+
+Since ∠''EBF'' is a right angle and ∠''BEF'' is half a right angle, ''BEF'' is also a right isosceles triangle. Hence ''BE'' = ''m''&nbsp;&minus;&nbsp;''n'' implies ''BF'' = ''m''&nbsp;&minus;&nbsp;''n''. By symmetry, ''DF'' = ''m''&nbsp;&minus;&nbsp;''n'', and ''FDC'' is also a right isosceles triangle. It also follows that ''FC'' = ''n''&nbsp;&minus;&nbsp;(''m''&nbsp;&minus;&nbsp;''n'') = 2''n''&nbsp;&minus;&nbsp;''m''.
+
+Hence we have an even smaller right isosceles triangle, with hypotenuse length 2''n''&nbsp;&minus;&nbsp;''m'' and legs ''m''&nbsp;&minus;&nbsp;''n''. These values are integers even smaller than ''m'' and ''n'' and in the same ratio, contradicting the hypothesis that ''m'':''n'' is in lowest terms. Therefore ''m'' and ''n'' cannot be both integers, hence √2 is irrational.
+
+==Properties of the square root of two==
+One-half of √2, approximately 0.70710 67811 86548, is a common quantity in geometry and trigonometry because the unit vector that makes a 45° angle with the axes in a plane has the coordinates
+
+:<math>\left(\frac{\sqrt{2}}{2}, \frac{\sqrt{2}}{2}\right).</math>
+
+This number satisfies

@@ -1,0 +1,26 @@
+ویژگی جدیدی که به مدیاویکی نسخه 1.4 اضافه شده،دسترسی گشت می‌باشد.با هربار کلیک بر روی ویژه:Recentchanges شما لینکی را در انتهای که شبیه چیزی که در پایین می‌بینید را مشاهده می‌کنید.در اکثر ویکیپدیا‌ها دسترسی گشتی محدود به مدیران است.
+
+<div class="patrollink"><nowiki>[</nowiki> <span class="plainlinks">[|action=markpatrolled}} به این مقاله برجسب گشت بزن]</span> <nowiki>]</nowiki></div>
+
+دسترسی گشا راهی برای فهمیدن اینکه ویرایشی صحیح بوده و مبارزه با خرابکاری و فیلتر کردن اسپم هاست.اگر شما هم صفحه تغییرات اخیر را ملاحظه می‌کنید و ویرایشی را صحیح و مناسب یافتید می‌توانید آنرا به "بازبینی شده<sup>patrolled</sup>"علامت بزنید.در حالت دیگران متوجه صحیح بودن آن ویرایش خواهند شد.
+
+سیاست‌های این موضوع در میان پروژه‌های مختلف متفاوت است.مثلا آیا اینکه وقتی ویرایشی بازبینی شده نامیده شود وقتی که مصداق کامل خرابکاریست یا اینکه وقتی صحت آن به طور کامل مشخص گردید.
+
+A new feature in MediaWiki 1.4 is '''Patrolled edits'''. After clicking 'diff' on a change in Special:Recentchanges, you may see a link at the bottom, similar to the one below.  Patrolled edits are restricted to administrators in most Mediawiki projects.
+
+::::::::::::::::::::::::::::::::::::'''Example''':
+<div class="patrollink"><nowiki>[</nowiki> <span class="plainlinks">[|action=markpatrolled}} Mark this article as patrolled]</span> <nowiki>]</nowiki></div>
+
+Patrolling edits is a way to indicate that the edit is beneficial, and to aid collaboration on filtering spam and vandalism. In the recent changes list, if you see an article which is good, you can mark it as "patrolled" so that other users know that it is good and do not necessarily have to re-check it. 
+
+Policies may vary among projects whether an article can be marked as patrolled if it is not obvious vandalism, or only when the correctness has been verified. For example, ''the English Wikipedia has recently implemented a different system'' of patrolling new pages and not each individual edit. See this page for more information.
+
+In the Recent Changes, an unpatrolled edit looks like this:
+*(<span class="plainlinks">[ diff]</span>) (<span class="plainlinks">[ hist]</span>) . . <span class="unpatrolled">!</span> Astronouth7303 (Talk)
+While a patrolled one would be like this:
+*(<span class="plainlinks">[ diff]</span>) (<span class="plainlinks">[ hist]</span>) . . Astronouth7303 (Talk)
+
+== Enabling ==
+To enable patrolling, add this line to LocalSettings.php:
+ $wgUseRCPatrol = true;
+Note that fresh installs of version 1.4 enable RC Patrol by default.

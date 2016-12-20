@@ -1,0 +1,173 @@
+'''Protected Extensible Authentication Protocol, Protected EAP''', ou plus simplement '''PEAP''', est une méthode de transfert sécurisée d'informations d'authentification, créée au départ pour les réseaux sans fil. Ce protocole a été développé conjointement par  Microsoft, RSA Security et Cisco Systems. C’est un standard ouvert de l'IETF (Internet Engineering Task Force).
+Il faut noter que PEAP n'est pas une méthode de chiffrement, c'est juste une procédure pour authentifier un client sur un réseau.
+
+== Introduction ==
+PEAP est très semblable à une autre méthode EAP : EAP-TTLS. Protected EAP a été créé pour contrer EAP-TTLS qui était jusque là, la seule méthode EAP à n'utiliser une Infrastructure à clés publiques (Public Key Infrastructure, PKI) '''que''' du coté serveur, pour la création d'un Tunnel TLS (Transport Layer Security) protégeant l'authentification. Dans ces deux standards, l'utilisation d'une clef publique coté client est optionnelle. PEAP impose une identification interne (inner authentication) par une autre méthode EAP, alors que TTLS autorise toute méthode d'identification interne CHAP, PAP, MS-CHAP, MS-CHAPv2 ou méthode EAP.
+
+Il existe 2 versions de PEAP Certifiées WPA (mise à jour) et WPA2 :
+* PEAPv0/EAP-MSCHAPv2 (seule méthode d'identification interne), aussi appelé PEAP version Microsoft
+* PEAPv1/EAP-GTC ou EAP-TLS, ou EAP-MS-CHAP-V2, aussi appelé PEAP version Cisco
+
+PEAP se déroule en 2 phases :
+
+# La phase 1 permet l'authentification du Serveur grâce à une Infrastructure à clés publiques. Une fois le serveur authentifié il y a la création d'un tunnel sécurisé qui permettra à la phase 2 d'être chiffrée.
+# La phase 2 permet l'authentification du client au travers du tunnel chiffré.
+
+== PEAPv0/EAP-MSCHAPv2 ==
+PEAPv0/EAP-MSCHAPv2 est la version la plus utilisée de PEAP. C'est à cette version que l'on fait référence lorsque l'on parle de PEAP sans plus de précisions.
+Après EAP-TLS, PEAP est l'EAP le plus utilisé.
+Cette version  utilise la version de Microsoft du protocole CHAP (Challenge Handshake Authentication Protocol). Il est basé sur un challenge. Si le correspondant arrive à déchiffrer  le challenge envoyé (chiffré avec la clef publique) c'est qu'il dispose bien de la clef secrète. Ce qui prouve son identité.
+
+Il existe des implémentations de ce protocole dans de nombreuses marques d'AP, On trouve des implémentations de ce protocole pour Windows, Linux, MacOs, ...
+Les systèmes suivants le supportent nativement : MAC OS 10.3 et supérieur, Windows 2000 SP4, Windows XP, Windows Mobile 2003 et supérieur et Windows CE 4.2. La partie serveur est nativement présente dans Windows 2003 Serveur.
+
+MSCHAPv2 est sensible aux attaques au dictionnaire. Mais avec le protocole PEAP ce n'est pas un problème car les informations circulent dans un canal sécurisé.
+
+PEAPv0 comporte une autre faiblesse. Il transmet le logon en dehors du tunnel TLS. L'utilisation d'un sniffer peut permettre de récupérer un nom d'utilisateur valide. Grâce à cette information un individu mal intentionné peut provoquer un DOS en verrouillant les users valides.
+Ce problème est résolu dans PEAPv2.
+
+Cette version de PEAP est définie dans les brouillons Internet de IETF draft-kamath-pppext-eap-mschapv2-01.txt et draft-kamath-pppext-peapv0-00.txt
+
+=== Format de Trames ===
+
+ +---------------+---------------+---------------+---------------+
+ |     Code      |   Identifier  |            Length             |
+ +---------------+---------------+---------------+---------------+ 
+ |     Type      |   OpCode      |  MS-CHAPv2-ID |  MS-Length...
+ +---------------+---------------+---------------+---------------+
+ |   MS-Length   |     Data...
+ +---------------+---------------
+
+'''Code :'''
+
+Le champ code est sur 1 octet, il sert à définir le type de trame : <BR>
+1 - Request<BR>
+2 - Response
+
+'''Identifier :'''
+
+Le champ Identifier est sur un octet, il sert a faire correspondre les réponses avec les requêtes
+
+'''Length :'''
+
+Le champ Longueur fait 2 octets, il indique la taille du paquet EAP 
+avec l'en-tête.
+
+'''Type :'''
+
+Le champ "type" défini sur un octet le type de protocole EAP utilisé<br>
+26 - EAP MS-CHAP-V2
+
+'''OpCode :'''
+
+Le champ OpCode est sur un octet, il identifie le type de paquets EAP MS-CHAP-v2 :
+
+1 Challenge<br>
+2 Response<br>
+3 Success<br>
+4 Failure<br>
+7 Change-Password
+
+'''MS-CHAPv2-ID :'''
+
+Le champ identifiant MS-CHAPv2 est sur 1 octet, il permet de faire correspondre les requêtes et les réponses MS-CHAPv2
+
+'''MS-Length :'''
+
+le champ MS-lenght est sur 2 octets et doit être identique au champ Length moins 5.
+
+'''Data :'''
+
+Le format de ce champ est déterminé par le champ OpCode
+
+===Scénario===
+
+{| class="wikitable"
+!width="50%" align="left"| Client 
+!align="Right"| Authentificateur
+|-----
+|-align="Right" bgcolor=#6699FF
+|Colspan="2" |<--- EAP-Request/Identity
+|----
+|- align="Left"
+|Colspan="2" |EAP-Response/Identity (MyID) --->
+|-----
+|-align="Right" bgcolor=#6699FF
+|Colspan="2" |<--- EAP-Request/EAP-Type=PEAP, V=0 (PEAP Start, S bit set) 
+|----
+|- align="Left"
+|Colspan="2" |EAP-Response/EAP-Type=PEAP, V=0 (TLS client_hello) --->
+|-----
+|-align="Right" bgcolor=#6699FF
+|Colspan="2" |<--- EAP-Request/EAP-Type=PEAP, V=0 (TLS server_hello, TLS certificate, [TLS server_key_exchange,][TLS certificate_request,] TLS server_hello_done)
+|----
+|- align="Left"
+|Colspan="2" |EAP-Response/ EAP-Type=PEAP, V=0 ([TLS certificate,] TLS client_key_exchange, [TLS certificate_verify,] TLS change_cipher_spec, TLS finished) --->
+|-----
+|-align="Right" bgcolor=#6699FF
+|Colspan="2" |<--- EAP-Request/EAP-Type=PEAP, V=0 (TLS change_cipher_spec, TLS finished)
+|----
+|- align="Left"
+|Colspan="2" |EAP-Response/EAP-Type=PEAP --->
+|----
+|-align="center"
+|Colspan="2" |Tunnel TLS créé : A partir de là les messages sont envoyés dans le tunnel TLS c'est également ici que débute le protocole MS-CHAPv2 pour l'échange de l'identité du client.
+|-----
+|-align="Right" bgcolor=#6699FF   
+|Colspan="2" |<--- EAP-Requete/Identité
+|----
+|- align="Left"
+|Colspan="2" |EAP-Response/Identité (MyID) --->
+|-----
+|-align="Right" bgcolor=#6699FF
+|Colspan="2" |<--- EAP-Requete/EAP-Type=EAP MS-CHAP-V2(Challenge)
+|----
+|- align="Left"
+|Colspan="2" |EAP-Reponse/EAP-Type=EAP-MS-CHAP-V2 (Reponse) --->
+|-----
+|-align="Right" bgcolor=#6699FF
+|Colspan="2" |<--- EAP-Requete/EAP-Type=EAP-MS-CHAP-V2 (Succes)
+|----
+|- align="Left"
+|Colspan="2" |EAP-Reponse/EAP-Type=EAP-MS-CHAP-V2(Succes) --->
+|----
+|-align="center"
+|Colspan="2" |Fin du tunnel TLS (les messages suivants sont envoyé en clair)
+|-----
+|-align="Right" bgcolor=#6699FF                                  
+|Colspan="2" |<--- EAP-Success
+|}
+
+== PEAPv1/EAP-GTC ==
+PEAPv1/EAP-GTC a été créé par Cisco pour être une alternative à PEAPv0/EAP-MSCHAPv2. Bien que PEAP ait été développé conjointement par Microsoft, Cisco et RSA, Microsoft n’ont jamais intégré cette version de PEAP dans leurs OS. EAP-GTC n'est donc pas présent nativement sur les systèmes Microsoft.
+Cisco préfère supporter ses autres protocoles LEAP ou EAP-FAST Plutôt que PEAP. Cette version de PEAP est très peu utilisée.
+
+Cette version de PEAP est définie dans le brouillon draft-josefsson-pppext-eap-tls-eap-05.txt
+
+===Format de trame===
+
+ +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ |     Code      |   Identifier  |            Length             |
+ +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ |     Type      |   Flags   |Ver|  Data...
+ +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+: ''PEAP is also an acronym for Personal Egress Air Packs.''
+
+'''Protected wireless networks. It was jointly developed by EAP types it only authenticates a client into a network. 
+
+PEAP uses encrypted SSL/TLS tunnel between the client and the authentication server. The ensuing exchange of authentication information to authenticate the client is then encrypted and user credentials are safe from eavesdropping.
+
+PEAP is a joint proposal by Cisco Systems, Microsoft and RSA Security as an open standard. It is already widely available in products, and provides very good security. It is similar in design to EAP-TTLS, requiring only a server-side PKI certificate to create a secure TLS tunnel to protect user authentication.
+
+As of May of 2005, there were two PEAP sub-types certified for the updated WPA and WPA2 standard. They are:
+* PEAPv0/EAP-MSCHAPv2
+* PEAPv1/EAP-GTC
+
+== PEAPv0/EAP-MSCHAPv2 ==
+PEAPv0/EAP-MSCHAPv2 is the most common form of PEAP in use, and what is usually referred to as PEAP.  The inner authentication protocol is Challenge Handshake Authentication Protocol.
+
+Behind Cisco. Other implementations exist such as the xsupplicant from the Open1x.org project
+
+== PEAPv1/EAP-GTC ==
+PEAPv1/EAP-GTC was created by Cisco to provide interoperability with existing token card and directory based authentication systems via a protected channel.  Even though Microsoft co-invented the PEAP standard, Microsoft never added support for PEAPv1 in general, which means PEAPv1/EAP-GTC has no native Windows OS support. Since Cisco has always favored the use of its own less secure proprietary LEAP and EAP-FAST protocols over PEAP and markets them as simpler certificate-less solutions, standardized PEAP is rarely promoted by Cisco. Cisco stands to gain a monopoly in the access point market if LEAP or EAP-FAST is universally adopted. As a result, most Cisco customers run Cisco's proprietary LEAP or EAP-FAST authentication protocols due to their promotion by Cisco. With no interest from Microsoft to support PEAPv1 and little interest from Cisco to promote PEAP in general, PEAPv1 authentication is rarely used. There is no native operating system support for this EAP protocol.

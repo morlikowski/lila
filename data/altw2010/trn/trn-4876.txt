@@ -1,0 +1,84 @@
+'''מהירות הקול''' היא הצפיפות שלו. בתנאים מסוימים מושפעת מהירות הקול גם מהטמפרטורה והלחץ.
+
+בדרך כלל, כשמדובר במהירות הקול הכוונה היא למהירות הקול באוויר, שהיא כ־344 מטר לשנייה או כ-1232 קמ"ש, בטמפרטורה של 21 מעלות צלזיוס באוויר יבש. בברזל, למשל, מהירות הקול היא אלפי מטרים בשנייה, ובמים מהירות הקול גבוהה פי 4 מהמהירות באוויר. לעומת זאת, בריק מוחלט או בחלל החיצון (שהצפיפות בו היא כאטום אחד למטר מעוקב), גלי הקול אינם יכולים לנוע כלל ולכן קולות אינם "נשמעים" בהם.
+
+באופן כללי מהירות הקול ניתנת בנוסחה:
+:<math>
+c=\sqrt{\frac{C}{\rho}}
+</math>
+
+''C'' מסמל מקדם הקשיחות של החומר ואילו <math>\rho</math> מסמל את צפיפות החומר.
+
+מכיוון שמהירות הקול באוויר תלויה בלחץ האוויר היא תלויה בטמפרטורה ובגובה מעל פני הים.
+
+נוסחה לחישוב מהירות הקול באוויר עפ"י הטמפרטורה:
+:<math>
+c_{\mathrm{air}} = (331{.}5 + 0{.}6 \cdot \vartheta) \ \mathrm{m/s}
+</math>
+
+כאשר <math>\vartheta</math> (תטה) מייצגת את הטמפרטורה בצלזיוס, ו-c מייצג את מהירות הקול באוויר.
+
+ביטוי מדויק יותר:
+:<math>
+c = \sqrt {\kappa \cdot R\cdot T} 
+</math>
+
+כאשר R הוא מסה המולרית של האוויר. (287.05 לאוויר ביחידות של ג'אול לק"ג). κ (כפא) הוא 1.402 לאוויר, והאות T מייצגת את הטמפרטורה בקלווין. 
+
+לציון מהירותם של עצמים כמו חלליות הנעים ב'''מהירות על קולית''' (מהירות הגבוהה ממהירות הקול) נהוג להשתמש במספר מאך, שהוא היחס בין מהירות העצם בתווך, לבין מהירות הקול באותו תווך. מאך 1 שווה למהירות הקול, מאך 2 הוא פי 2 ממהירות הקול וכן הלאה.
+
+'''Äänen nopeus''' ilmassa on 342 metriä sekunnissa (20 °C) taajuudesta riippumatta. Kiinteissä rakenteissa äänen nopeus vaihtelee materiaalista riippuen 3&nbsp;400–5&nbsp;400 m/s. Levymäisillä rakenteilla äänen nopeus riippuu taajuudesta. 
+
+Seuraavassa äänennopeuksia (m/s) joillakin materiaaleilla:
+* lasi: 5 500–6 000
+* alumiini, teräs: 5 100
+* puu: 3 400–4 500
+* betoni: 4 000
+* tiili: 3 600
+* jää: 3 100
+* vesi: 1 500
+* korkki: 500
+* ilma: 343
+* mineraalivillaeriste: 180
+
+Äänen nopeus riippuu muun muassa lämpötilasta. Äänen nopeus on lämpöliikkeen nopeus kappaleessa. Jos jokin aalto etenee kappaleesta ääntä nopeammin, se on shokkiaalto.
+
+== Äänen nopeus kaasussa ==
+
+Äänen nopeuden yhtälö on
+:<math>
+c = \sqrt {{\kappa \cdot p}\over\rho}
+</math>
+
+:<math>\kappa </math> adiabaattinen vakio, 
+:<math>p</math> kaasun paine,
+:<math>\rho</math> kaasun tiheys
+
+Ideaalikaasulle:
+
+:<math>
+c = \sqrt {\kappa \cdot R\cdot T} 
+</math>
+
+Jossa
+ 
+* <math>R</math> 287.05 J/(kg·K) ilmalle , jonka moolimassa
+on noin 16, yleinen kaasuvakio R on 
+R = 8.314472[15] J · K<sup>-1</sup> · mol<sup>-1</sup>
+ 
+* <math>kappa</math>; (kappa) adiabaattinen indeksi (1.402 ilmalle)
+, joskus nimetty gammaksi <math>gamma</math>
+* <math>T</math> Lämpötila kelvineinä.
+
+==Ideaalikaasun molekyylien keskinopeus==
+
+Äänen nopeus kaasussa on sama kuin ideaalikaasun molekyylien keskinopeus. Ideaalisen kaasumolekyylin keskinopeus v<sub>k</sub> voidaan laskea seuraavasti:
+ 
+<math>v_k=\sqrt{\frac{3 k T_k}{m}}</math>,
+
+missä
+*k=Boltzmannin vakio
+*<math>T_k</math>=keskilämpötila kelvineissä
+*m=kaasumolekyylin keskimääräinen massa
+
+Kaavasta voidaan kehittää likiarvo molekyylipainon funktiona:

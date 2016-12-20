@@ -1,0 +1,61 @@
+{{Software infobox
+| name = Open-Xchange Server
+| screenshot = thumbnail|300px|right
+| caption = Open-Xchange portal interface
+| developer = Open-Xchange Inc.
+| genre = Groupware
+| operating_system = Linux
+| license = Dual license
+| website = [http://www.open-xchange.com/ www.open-xchange.com]
+}}
+
+<!-- Unsourced image removed: thumb|right|Open-Xchange calender interface -->
+<!-- Unsourced image removed: thumb|right|Open-Xchange webmail interface -->
+'''Open-Xchange Server''' is a collaboration solution combining common free software packages, open standards and web services. Open-Xchange Server is available as proprietary software and as a community supported open-source software (GPL 2) package. The company producing Open-Xchange, also named '''Open-Xchange''', is headquartered in Tarrytown, NY, USA, with offices in Germany (Olpe/Nürnberg).
+
+<!-- Unsourced image removed: thumb|right|Express Edition Webmail Interface -->
+<!--  Commented out because image was deleted: thumb|right|OX Express Edition Calendar -->
+thumb|right|OX Server 5 User Interface
+thumb|right|Hosting Edition Webmail
+
+== Open-Xchange Express Edition ==
+Open-Xchange Express Edition is a web-based email and collaboration solution. Designed for smaller organizations, the Express Edition includes: Ubuntu operating system, open source middleware, collaboration, email, and document sharing software, anti-virus, anti-spam, automatic updates and backup/recovery. The browser-based AJAX interface enables drag and drop, right-click menus, shared calendars, contacts, tasks and documents. Open-Xchange Express Edition supports standard 'rich' clients, such as Microsoft Outlook. Furthermore, Open-Xchange Express Edition provides a WebDAV interface that allows to integrate the document management system called InfoStore into desktop environments or to get read access in web browsers. Outlook users on OX Express Edition can synchronize public, private, and shared folders, accept or decline appointments through Outlook, manage private appointments, tasks, contacts, and “Free/Busy” status. 
+
+== Open-Xchange Server 5 ==
+Open-Xchange Server 5 delivers Critical Collaborative functions such as Email, Calendar, Contacts,
+and Task management - integrated with advanced groupware features such as Document Sharing, Object Linking, Rights Management, Online Projects, User Forums, and a Knowledge Base. The Open-Xchange integration philosophy is based on common standards, working with existing IT infrastructure on standard interfaces such as XML (commercial version) interfaces and Java API.
+'''Server 5 supports:'''
+* SyncML enabled devices.
+* Third party software provides access from Treo devices
+* Any modern web browser
+* Microsoft Outlook and Microsoft Outlook Express via the Outlook OXtender, a plugin that allows the Outlook client to interact with an Open-Xchange Server as though it were a Microsoft Exchange Server
+* LDAP, iCal, HTTP(S), SMTP, IMAP, POP3, and SyncML.
+
+== Open-Xchange Server 6 - Open-Xchange Advanced Server Edition (OX ASE) ==
+The new version of OX is expected to arrive late 2008, picking up the AJAX interface from OXEE, but supporting the wider feature set of OX5 <ref>[http://www.open-xchange.com/header/company/news_press/press_releases/detail_view/article/announcement_open_xchange_advanced_server_edition_ox_ase/478.html Open-Xchange product announcement] 27-11-2007</ref>. As a major change to the OX5 architecture, OX6 will be based on OSGi technology that allows to easily integrate own components into OX6 like modules to integrate with directory servers, additional address book sources, CRM enhancements or even additional modules.
+
+{{Infobox Software
+|Name= Open-Xchange Server
+|Screenshot= thumb|Open-Xchange-Portal.
+|Beschreibung= 
+|Hersteller=  Open-Xchange GmbH
+|AktuelleVersion= 0.8.8-0 (Hymalia, stable)
+|AktuelleVersionFreigabeDatum= Januar 2008
+|Betriebssystem= Unix, Linux
+|Kategorie= Groupware
+|Lizenz= Entwickler-Version GPL Version 2
+|Deutsch= ja
+|Website= [http://www.open-xchange.de/ Open-Xchange]
+}}
+
+'''Open-Xchange''' Server ist eine New York vorangetrieben und ist eine Weiterentwicklung des SUSE-Linux-Openexchange-Servers.
+
+Von Open-Xchange Server sind zwei Versionen verfügbar: Die kommerzielle Version, Open-Xchange Server 5, und die Entwicklerversion, die seit August 2004 unter der SMTP-Server, IMAP-Server, Benutzerverwaltung, Überwachungstools).
+
+Open-Xchange Server 5 unterstützt als Betriebssystem nur Red Hat Enterprise Linux 4 und SUSE Linux Enterprise Server 9. Die Entwicklerversion arbeitet auch mit zahlreichen weiteren Linux-Distributionen.
+
+Häufig mit Open-Xchange Server verwendete Mailsystem Postfix und der POP3/IMAP4-Server Cyrus.
+
+Seit März 2006 bietet Open-Xchange insbesondere auch Unterstützung für SSL und TLS an. Dadurch wird die Verwendung verschlüsselter Kommunikation zwischen den Client-Programmen und dem Groupware-Server ermöglicht. Als Protokolle kommen so nun auch SMTPS zum E-Mail-Versand, IMAPS zum E-Mail-Abruf und LDAPS für die Verbindung zu Verzeichnissen zum Einsatz.
+
+Seit Februar 2007 bietet 1&1 E-Mail- und Teamwork-Pakete an, die auf der Technologie von Open-Xchange basieren. Deren Serverkomponenten stellte Open-Xchange im März 2007 unter die General Public License GPL. Die Creative-Commons-Lizenz “Namensnennung-NichtKommerziell-Weitergabe unter gleichen Bedingungen 2.5” und startete damit ein neues Community-Projekt zur Weiterentwicklung von Open-Xchange Server.

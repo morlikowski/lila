@@ -1,0 +1,62 @@
+'''MPEG-4''', presentato nel ISO/IEC Moving Picture Experts Group (televisione digitale, per la trasmissione di filmati via Web, e per la memorizzazione su supporti CD-ROM.
+
+MPEG-4 supporta tutte le caratteristiche degli standard DRM o una gestione interattiva dei contenuti.
+
+La maggior parte delle caratteristiche dell'MPEG-4 sono opzionali e quindi la loro implementazione è lasciata alla discrezione dello sviluppatore. Questo implica che la maggior parte dei lettori di file MPEG-4 non saranno in grado di gestire tutte le caratteristiche del formato. Per permettere un'elevata interoperabilità, nel formato sono stati inclusi i concetti di ''profilo'' e di ''livello'', quindi i vari lettori MPEG-4 potranno essere suddivisi a seconda dei profili e livelli supportati.
+
+==Componenti MPEG-4 ==
+MPEG-4 è suddiviso in vari sotto standard chiamati ''Part'' (parti):
+*''Part 1'' (ISO/IEC 14496-1): Systems: Describes synchronization and multiplexing of video and audio.
+*''Part 2'' (ISO/IEC 14496-2): Visual: A compression codec for visual data (video, still textures, synthetic images, etc.).  One of the many "profiles" in Part 2 is the Advanced Simple Profile
+*''Part 3'' (ISO/IEC 14496-3): Audio: A set of compression codecs for perceptual coding of audio signals.
+*''Part 4'' (ISO/IEC 14496-4): Conformance: Describes procedures for testing conformance to other parts of the standard.
+*''Part 5'' (ISO/IEC 14496-5): Reference Software: Provides software for demonstrating and clarifying the other parts of the standard.
+*''Part 6'' (ISO/IEC 14496-6): Delivery Multimedia Integration Framework (DMIF).
+*''Part 7'' (ISO/IEC 14496-7): Optimized Reference Software: Provides examples of how to make improved implementations (e.g., in relation to Part 5).
+*''Part 8'' (ISO/IEC 14496-8): Carriage on IP networks: Specifies a method to carry MPEG-4 content on IP networks.
+*''Part 9'' (ISO/IEC 14496-9): Reference Hardware: Provides hardware designs for demonstrating how to implement the other parts of the standard.
+*''Part 10'' (ISO/IEC 14496-10): A codec for video signals which is also called ''AVC'' (Advanced Video Coding) and is technically identical to the ITU-T H.264 standard.
+*''Part 12'' (ISO/IEC 14496-12): ISO Base Media File Format: A file format for storing media content.
+*''Part 13'' (ISO/IEC 14496-13): Intellectual Property Management and Protection (IPMP) Extensions
+*''Part 14'' (ISO/IEC 14496-14): MP4 File Format: The designated container file format for MPEG-4 content MP4, which is based on Part 12.
+*''Part 15'' (ISO/IEC 14496-15): AVC File Format: For storage of Part 10 video based on Part 12.
+*''Part 16'' (ISO/IEC 14496-16): Animation Framework eXtension (AFX)
+*''Part 17'' (ISO/IEC 14496-17): Timed Text subtitle format (not yet finished - reached "FCD" stage in January 2005)
+*''Part 18'' (ISO/IEC 14496-18): Font Compression and Streaming (for OpenType fonts)
+*''Part 19'' (ISO/IEC 14496-19): Synthesized Texture Stream
+*''Part 20'' (ISO/IEC 14496-20): Lightweight Scene Representation (LASeR) .
+*''Part 21'' (ISO/IEC 14496-21): MPEG-J Extension for Rendering (not yet finished - reached "CD" stage in January 2005)
+
+I profili inoltre sono definiti all'interno di diverse ''Part'', in modo che un'esecuzione di alcune caratteristiche di una ''Part'' non implichi la necessità di supportare l'intera ''Part''.
+
+MPEG-1, MPEG-2, MPEG-7 e MPEG-21 sono altri standard MPEG.
+
+'''MPEG-4''' is a collection of methods defining compression of audio and visual (AV) digital data.  It was introduced in late standard for a group of audio and ISO/IEC Moving Picture Experts Group (CD distribution, voice (broadcast television applications. 
+
+MPEG-4 absorbs many of the features of object-oriented composite files (including audio, video and VRML objects), support for externally-specified AAC (Advanced Audio Codec) was standardized as an adjunct to MPEG-2 (as Part 7) before MPEG-4 was issued. 
+
+MPEG-4 is still a developing standard and is divided into a number of parts. The companies promoting MPEG-4 compatibility do not always clearly state which "part" level compatibility. The key parts to be aware of are MPEG-4 part 2 (MPEG-4 SP/ASP, used by MPEG-4 part 10 (MPEG-4 AVC/H.264, used by the Nero Digital AVC, by Quicktime 7, and by next-gen DVD formats like HD DVD and Blu-ray Disc).
+
+Most of the features included in MPEG-4 are left to individual developers to decide whether to implement them. This means that there are probably no complete implementations of the entire MPEG-4 set of standards.  To deal with this, the standard includes the concept of "profiles" and "levels", allowing a specific set of capabilities to be defined in a manner appropriate for a subset of applications.
+
+Initially, MPEG-4 was aimed primarily at low bit-rate video communications; however, its scope was later expanded to be much more of a multimedia coding standard. MPEG-4 is efficient across a variety of bit-rates ranging from a few kilobits per second to tens of megabits per second. MPEG-4 provides the following functionalities:
+* Improved coding efficiency
+* Ability to encode mixed media data (video, audio, speech)
+* Error resilience to enable robust transmission
+* Ability to interact with the audio-visual scene generated at the receiver
+
+==Overview==
+
+MPEG-4 provides a series of technologies for developers, for various service-providers and for end users.
+
+* MPEG-4 enables different developers to create objects possessing better abilities of adaptability and flexibility to improve the quality of such services and technologies as digital television, animation graphics, World Wide Web and their extensions. This standard enables developers to control their content better and to fight more effectively against copyright violations. 
+
+* Various network providers can use MPEG-4 for data transparency. With the help of standard procedures such data can be interpreted and transformed into various signals compatible with any available network.
+
+* The MPEG-4 format provides the end users with a wide range of interaction with various animated objects. 
+
+* Standardized Digital Rights Management signaling, otherwise known in the MPEG community as Intellectual Property Management and Protection (IPMP).
+
+The MPEG-4 format can perform various functions, among which might be the following:
+
+* Multiplexes and synchronizes data, associated with media objects, in such a way that they could be transported further via network channels.

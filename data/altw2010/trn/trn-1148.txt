@@ -1,0 +1,63 @@
+100px|right|
+'''Argo''' is an observation system for the Earth's oceans that provides real-time data for use in climate, weather, oceanographic and fisheries research.<ref>[http://www.aip.org/pt/vol-53/iss-7/p50.html Physics Today:  Argo Begins Systematic Global Probing of the Upper Oceans]</ref>
+<ref>{{cite news
+|url= http://archives.cnn.com/2000/NATURE/09/19/ocean.sensors/index.html
+|title= Flotilla of sensors to monitor world's oceans
+|work=CNN
+|date=September 19, 2000 
+|author=Richard Stenger
+|accessdate=2007-10-28
+}}</ref>
+<ref>[http://w3.jcommops.org/FTPRoot/Argo/Doc/Nature-2007.pdf Nature: Artefacts in ocean data hide rising temperatures]</ref>  Argo consists of a large collection of small, drifting oceanic robotic probes deployed worldwide.   The probes measure the salinity and temperature of the ocean at depths down to 2 km.  Once every 10 days, the probes surface to transmit the measurements to scientists on shore via satellite.  The data collected are freely available to everyone, without restrictions.  Sustained measurements by 3000 probes are planned.  3,006 probes were deployed and active in November 2007. 
+
+thumb|450px|right|Map of the Argo float network as of April 2008
+
+== International collaboration ==
+The Argo program is a collaboration between 50 research and operational agencies from 26 countries, with the United States contributing over half the total funding (as of December 2004).  Argo is a component of the Integrated Ocean Observing System.  
+
+== Float operation ==
+
+The Argo program was designed to operate on the same 10-day duty cycle as the 
+existing satellite measurements of the ocean's sea surface.  These satellites,  called Topex/Poseidon and Jason 1, measure changes in the surface topography of the ocean.  With such measurements, information about temperature, mass redistribution, or surface currents can be inferred.  The Argo floats measure ''subsurface'' changes in temperature and salinity, hence the float measurements are complementary to the altimetry. 
+
+Argo is named after the Greek mythical ship Argo which Jason and the Argonauts use on their quest for the Golden Fleece. The name was chosen to emphasize the complementary relationship of the project with the Jason-1 satellite altimeter.
+
+Although drifting floats had been deployed during the World Ocean Circulation Experiment in 
+the 1990's, Argo floats began to be deployed in earnest in the early 2000's.  The target number of 
+3000 deployed floats was reached during 2006&ndash;2007.  The number of floats is 
+continually changing as floats are lost or expire, while others are deployed.  Nominally, some 750 floats are deployed each year to sustain the system.  The floats have a nominal 300-km 
+spacing, although the exact separations depend on the randomness of the float drift.
+
+The Argo temperature and salinity measurements are yielding valuable information about
+the large-scale water properties and currents of the ocean, including the variability
+of these properties over time scales from seasonal to decadal.
+
+thumb|305px|right|Example profiles of temperature and [[salinity obtained from an Argo float in the central North Pacific (38.4°N, 155.3°W) on April 8 2005.]]
+=== Profiling ===
+Argo floats drift at a fixed pressure (usually around 1000 metres depth) for 
+10 days. After this period, within the relatively short time of around two hours, the floats move to a profiling pressure (usually 2000 
+metres deep) then rise, collecting instantaneous profiles of pressure, temperature, and salinity data on their way to the surface. Once at the surface, the floats remain there for under a day, transmitting the data collected via a satellite link back to a ground station and allowing the satellite to determine their surface drift. The floats then sink again and repeat their mission.
+
+=== Data communication === 
+Most of the floats use the Iridium constellation of satellites.  The Iridium system offers significant advantages associated with the much faster data transfer.  However, since an Iridium float spends only 3 minutes at the sea surface, the opportunity to observe surface currents by tracking the movements of the floats is lost.
+
+== Float design ==
+thumb|200px|right|Cutaway diagram of an Argo float.  The height of the float is about 2 m.  The antenna and sensors are mounted at the top of the buoy.
+A critical capability of an Argo float is its ability to rise and descend in the ocean on command.  The
+floats do this by changing their effective density.  The density of any object is given by its mass divided by its volume.  The Argo float keeps its mass constant, but by altering its volume, it changes its density.  To do this, a piston is used to push mineral oil out of a float and expand a rubber bladder separating the oil from the ocean water.  As the bladder expands, the float becomes less dense than seawater and rises to the surface.  Once its tasks at the surface are completed, the float then withdraws the piston and descends again.  
+
+80px|left
+thumb|150px|Schematischer Schnitt durch eine Argo-Sonde. Höhe ca. 2 m. Im oberen Drittel befinden sich die Mess- und Kommunikationseinrichtungen. Die horizontale Scheibe dient der Stabilisierung. Rot das System zur Aufriebssteuerung. Die dunklen Zylinder im unteren Drittel sind die Batterien.
+'''Argo''' ist ein internationales ozeanographisches Beobachtungssystem der Weltmeere, das sich auf eine Flotte von ca. 3000 robotischen Treibbojen (Sonden) verschiedener Baureihen zur Datengewinnung stützt.
+
+Die Sonden messen den Salzgehalt und die Meerestemperatur in Tiefen von bis zu zwei Kilometern und übertragen diese per Satellit. Durch Positionsangaben werden auch Daten über Meeresströmungen gewonnen. Manche Baureihen erfassen auch weitere Daten, z.B. den Sauerstoffgehalt des Wassers. Die gesammelten Daten sind im Internet frei einsehbar. 
+
+Das Argo-Programm ist ein Gemeinschaftsprojekt von Forschungseinrichtungen aus 26 Staaten. Die USA finanzieren etwa die Hälfte des Projektes, gefolgt von UK.
+
+== Funktionsweise ==
+thumb|350px|left|Karte des Argo-Netzwerkes am 4. September 2007
+Die Bojen haben einen zehntägigen Messzyklus. Dabei treibt eine Boje ca. neun Tage lang in einer Tiefe von 1000 m. Am zehnten Tag sinkt sie auf 2000 m ab, um danach an die Oberfläche aufzusteigen. Die während des Aufstiegs ermittelten, über der Wassertiefe aufgetragenen Messdaten werden durch die satellitengestützten Kommunikationssysteme ''Argos'', bei neueren Baureihen auch ''Iridium'' übertragen, und der Messzyklus beginnt von neuem.
+
+Das Argo-Programm ergänzt mit seinen Unterwassermessungen den ozeanographischen Satelliten ''Jason, der Daten über die Topographie, also die Oberfläche der Weltmeere sammelt. 
+
+Die optimale Lebensdauer einer Argo-Sonde beträgt ca. fünf Jahre, wobei meist die Batterielebensdauer den limitierenden Faktor darstellt. Zur Aufrechterhaltung des Argo-Netzes, das Ende 2007 erstmals sein Soll von 3000 Bojen erreichte, müssen jährlich ca. 750 neue Bojen ausgebracht werden.

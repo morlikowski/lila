@@ -1,0 +1,139 @@
+'''Online Analytical Processing,''' or '''OLAP''' (), is an approach to quickly provide answers to analytical queries that are multi-dimensional in nature.<ref name=Codd1993>{{cite web
+  |url=http://www.fpm.com/refer/codd.html
+  |title=Providing OLAP (On-line Analytical Processing) to User-Analysts: An IT Mandate
+  |publisher=Codd & Date, Inc
+  |author=Codd E.F., Codd S.B., and Salley C.T.
+  |date=1993
+  |language=English
+  |accessdate=2008-03-05 }}</ref> OLAP is part of the broader category business intelligence, which also encompasses relational reporting and data mining.<ref>{{cite book
+  |url=http://books.google.com/books?id=M-UOE1Cp9OEC
+  |title=Business Intelligence for Telecommunications
+  |publisher=CRC Press
+  |author=Deepak Pareek 
+  |date=2007
+  |pages=294 pp
+  |ISBN=0849387922
+  |language=English
+  |accessdate=2008-03-18
+}}</ref>  The typical applications of OLAP are in business reporting for sales, marketing, management reporting, business process management (BPM), budgeting and forecasting, financial reporting and similar areas. The term OLAP was created as a slight modification of the traditional database term OLTP ('''Online Transaction Processing''').<ref>{{cite web
+  |url=http://www.symcorp.com/downloads/OLAP_CouncilWhitePaper.pdf
+  |title=OLAP Council White Paper
+  |publisher=OLAP Council
+  |date=1997
+  |language=English
+  |accessdate=2008-03-18
+}}</ref>
+
+multidimensional data model, allowing for complex analytical and ad-hoc queries with a rapid execution time.  They borrow aspects of relational kin.<ref>{{cite web
+  |url=http://www.dwreview.com/OLAP/Introduction_OLAP.html
+  |title=Introduction to OLAP - Slice, Dice and Drill!
+  |publisher=Data Warehousing Review
+  |author=Hari Mailvaganam 
+  |date=2007
+  |language=English
+  |accessdate=2008-03-18
+}}</ref>
+
+Nigel Pendse has suggested that an alternative and perhaps more descriptive term to describe the concept of OLAP is '''Fast Analysis of Shared Multidimensional Information''' (FASMI).<ref>{{cite web
+  |url=http://www.olapreport.com/fasmi.htm
+  |title=What is OLAP? An analysis of what the often misused OLAP term is supposed to mean
+  |publisher=OLAP Report
+  |author=Nigel Pendse
+  |date=2008-03-03
+  |language=English
+  |accessdate=2008-03-18
+}}</ref> 
+
+The output of an OLAP query is typically displayed in a matrix (or pivot) format.  The dimensions form the row and column of the matrix; the measures, the values.
+
+==Functionality==
+In the core of any OLAP system is a concept of an dimensions''. The cube metadata is typically created from a star schema or snowflake schema of tables in a relational database. Measures are derived from the records in the fact table and dimensions are derived from the dimension tables.
+
+== Aggregations ==
+It has been claimed that for complex queries OLAP cubes can produce an answer in around 0.1% of the time for the same query on OLTP relational data. <ref>{{cite web 
+  | author=MicroStrategy, Incorporated 
+  | date=1995 
+  | title=The Case for Relational OLAP 
+  | url=http://www.cs.bgu.ac.il/~dbm031/dw042/Papers/microstrategy_211.pdf 
+  | language=English
+  | accessdate=2008-03-20
+}} </ref> <ref> {{ cite journal 
+  | author = Surajit Chaudhuri and Umeshwar Dayal 
+  | title = An overview of data warehousing and OLAP technology 
+  | journal = SIGMOD Rec.
+  | publisher = ACM 
+  | volume = 26 
+  | date = 1997
+ 
+  | pages = 65
+  | url = http://doi.acm.org/10.1145/248603.248616
+  | issn = 0163-5808
+  | doi = 10.1145/248603.248616
+  | language=English
+  | accessdate=2008-03-20
+}} </ref>  The single most important mechanism in OLAP which allows it to achieve such performance is the use of ''aggregations''. Aggregations are built from the fact table by changing the granularity on specific dimensions and aggregating up data along these dimensions. The number of possible aggregations is determined by every possible combination of dimension granularities.
+
+The combination of all possible aggregations and the base data contains the answers to every query which can be answered from the data
+<ref>{{cite journal
+  | last1 = Gray | first1 = Jim 
+  | author1-link = Jim Gray
+  | last2 = Chaudhuri | first2 = Surajit
+  | last3 = Layman | first3 = Andrew
+  | last4 = Reichart | first4 = Don
+  | last5 = Venkatrao | first4 = Murali
+  | last6 = Pellow | first4 = Frank
+  | last7 = Pirahesh | first4 = Hamid
+  | title = Data Cube: {A} Relational Aggregation Operator Generalizing Group-By, Cross-Tab, and Sub-Totals
+  | journal = J. Data Mining and Knowledge Discovery
+  | volume = 1
+  | issue = 1
+  | pages = pp. 29–53
+  | year = 1997
+  | url = http://citeseer.ist.psu.edu/gray97data.html
+  | language=English
+  | accessdate=2008-03-20
+}}</ref>. Due to the potentially large number of aggregations to be calculated, often only a predetermined number are fully calculated while the remainder are solved on demand.  The problem of deciding which aggregations (a.k.a. views) to calculate is known as the view selection problem.  View selection can be constrained by the total size of the selected set of aggregations, the time to update them from changes in the base data, or both.  The objective of view selection is typically to minimize the average time to answer OLAP queries, although some studies also minimize the update time as well.  Many different approaches have been taken to view selection (which is NP-Complete), including greedy algorithms, randomized search, genetic algorithms and A* search algorithm
+
+A very effective way to support aggregation and other common OLAP operations is the use of bitmap indexes.
+
+==Types==
+OLAP systems have been traditionally categorized using the following taxonomy.<ref name=Pendse2006>{{cite web
+  |url=http://www.olapreport.com/Architectures.htm
+  |title=OLAP architectures
+  |publisher=OLAP Report
+  |author=Nigel Pendse
+  |date=2006-06-27
+  |language=English
+  |accessdate=2008-03-17
+}}</ref> 
+
+===Multidimensional===
+
+'''MOLAP''' is the 'classic' form of OLAP and is sometimes referred to as just OLAP. MOLAP uses database structures that are generally optimal for attributes such as time period, location, product or account code.  The way that each dimension will be aggregated is defined in advance by one or more hierarchies.
+
+===Relational===
+
+'''ROLAP''' works directly with relational databases. The base data and the dimension tables are stored as relational tables and new tables are created to hold the aggregated information. Depends on a specialized schema design.
+
+===Hybrid===
+
+There is no clear agreement across the industry as to what constitutes "Hybrid OLAP", except that a database will divide data between relational and specialized storage. For example, for some vendors, a HOLAP database will use relational tables to hold the larger quantities of detailed data, and use specialized storage for at least some aspects of the smaller quantities of more-aggregate or less-detailed data.
+
+===Comparison===
+Each type has certain benefits, although there is disagreement about the specifics of the benefits between providers. 
+
+Some MOLAP implementations are prone to database explosion. Database explosion is a phenomenon causing vast amounts of storage space to be used by MOLAP databases when certain common conditions are met: high number of dimensions, pre-calculated results and sparse multidimensional data. The typical mitigation technique for database explosion is not to materialize all the possible aggregation, but only the optimal subset of aggregations based on the desired performance vs. storage trade off.
+
+'''OLAP''' (ang. '''o'''n'''l'''ine '''a'''nalytical '''p'''rocessing) - analiz trendów sprzedaży czy analiz finansowych (statystycznych.
+
+== Klasyfikacja ==
+Systemy OLAP zazwyczaj kategoryzuje się według podziału na trzy grupy:
+* wielowymiarowe (MOLAP, ang. ''multidimensional'' OLAP)
+* relacyjne (ROLAP, ang. ''relational'' OLAP)
+* hybrydowe (HOLAP, ang. ''hybrid'' OLAP)
+
+=== Wielowymiarowe ===
+Tradycyjne produkty OLAP są często nazywane wielowymiarowymi OLAP (ang. ''multidimensional OLAP'' lub MOLAP), gdyż przekładają transakcje na wielowymiarowe widoki. Dane są organizowane w postaci wielowymiarowych kostek, które można obracać, co jest bardziej poglądowe dla użytkownika.
+
+=== Relacyjne ===
+Narzędzia ROLAP ekstrahują dane z relacyjnych baz danych. Używając złożonych poleceń SQL w odniesieniu do tablic bazodanowych ROLAP jest w stanie błyskawicznie tworzyć wielowymiarowe widoki. ROLAP jest najczęściej stosowany w odniesieniu do danych mających dużą liczbę atrybutów, które trudno jest umieścić w kostkowych strukturach (np. dane klienta z wieloma polami opisowymi).

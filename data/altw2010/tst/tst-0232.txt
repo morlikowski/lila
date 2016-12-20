@@ -1,0 +1,230 @@
+<includeonly></includeonly>
+==Description==
+Displays a flag of the named parameter in "icon" size, currently 22x20 pixels plus a one pixel border.  The image also has an alt attribute (usually "Flag of ''<name>''"), which is displayed by most browsers by hovering over the flag image, or interpreted by screen reader software.
+
+==Usage==
+<tt><nowiki></nowiki></tt>
+;Parameters
+:'''''name''''' — The first parameter is mandatory, and identifies the name of the country, region, city, etc.  A full list of available parameters can be found in IOC, or FIFA.  The list of available "aliases" are found in :Category:Country data redirects.  Many of these country codes could be considered obscure, so it is recommended to use the full country name.
+:'''''variant''''' — The second parameter is optional, and identifies a flag variant to be used instead of the standard flag.  This is most often used for historical flags but can also be used to specify naval flags, sport-use flags, etc.  The list of available flag variants for each country is documented on the specific page for the country data template.  For example, Template:Country data Italy includes a description of each of the available flag variations for Italy.  This parameter can be a named parameter (e.g. "<tt>variant=1861</tt>"), or a positional parameter, always after the country name.
+:'''''size''''' — This parameter is optional, and is used to specify the maximum width and/or height of the flag image.  This parameter is specified using standard image syntax.
+
+==Examples==
+{| class="wikitable"
+! Wikicode !! Results !! Notes
+|-
+| <tt><nowiki></nowiki></tt> ||  ||
+|-
+| <tt><nowiki></nowiki></tt> ||  || Uses the ISO/IOC/FIFA country code
+|-
+| <tt><nowiki></nowiki></tt> ||  || Specifies a historical flag
+|-
+| <tt><nowiki></nowiki></tt> ||  ||
+|-
+| <tt><nowiki></nowiki></tt> ||  || Specifies the naval ensign
+|-
+| <tt><nowiki></nowiki></tt> ||  || Sets width to 50 pixels
+|-
+| <tt><nowiki></nowiki></tt> ||  || Sets height to 30 pixels
+|}
+
+==Implementation notes==
+This template uses the data templates listed under :Category:Country data templates, which contain the data '''what''' to display and the formatter Template:Country flagicon2, which contains the logic '''how''' to display the flag.
+
+* <tt><nowiki></nowiki></tt> →  — uses Template:Country data Italy
+* <tt><nowiki></nowiki></tt> →  — uses Template:Country data ITA, which is a redirect to Template:Country data Italy
+
+Inside each country data template, this template uses the following parameters:
+* <tt>flag alias</tt> — name of the image file to display
+* <tt>flag alias-xxxx</tt> — name of the image file of flag variant <tt>xxxx</tt>
+* <tt>alias</tt> — used to display the alt attribute of the image (defaults to "Flag of ''alias''")
+
+== Related templates ==
+* Template:flag is used to display a wikilinked name next to the flag.  The displayed name will be the same as the parameter used with the template, but the link target will be the main article for the country (in these examples, Italy).
+** <tt><nowiki></nowiki></tt> → 
+** <tt><nowiki></nowiki></tt> → 
+* Template:flagcountry is also used to display a wikilinked name next to the flag.  The displayed name will always be the same, regardless of whether or not a country code alias is used as the template parameter.
+** <tt><nowiki></nowiki></tt> → 
+** <tt><nowiki></nowiki></tt> → 
+
+<includeonly><span style="display:none; font-size:xx-small">}</span>[[Bild:}
+ | AFG = Flag of Afghanistan
+ | AGO = Flag of Angola
+ | AHO = Flag of the Netherlands Antilles (bordered)
+ | ALB = Flag of Albania
+ | AND = Flag of Andorra
+ | ARG = Flag of Argentina
+ | ARM = Flag of Armenia 
+ | ATG = Flag of Antigua and Barbuda
+ | AUS = Flag of Australia
+ | Australien = Flag of Australia
+ | AUT = Flag of Austria
+ | AZE = Flag of Azerbaijan
+ | BAH = Flag of the Bahamas
+ | BDI = Flag of Burundi
+ | BEL = Flag of Belgium (civil)
+ | BEN = Flag of Benin
+ | BFA = Flag of Burkina Faso
+ | BGD = Flag of Bangladesh
+ | BGR = Flag of Bulgaria
+ | BHR = Flag of Bahrain
+ | BIH = Flag of Bosnia and Herzegovina
+ | BLR = Flag of Belarus
+ | BLZ = Flag of Belize
+ | BOL = Flag of Bolivia
+ | BOS = Flag of Bosnia and Herzegovina
+ | BRA = Flag of Brazil
+ | BRB = Flag of Barbados
+ | BRN = Flag of Brunei
+ | BTN = Flag of Bhutan
+ | BUL = Flag of Bulgaria
+ | BWA = Flag of Botswana
+ | CAN = Flag of Canada
+ | CAY = Flag of the Cayman Islands
+ | Chechnya = Flag of Chechen Republic since 2004
+ | CHI = Flag of Chile 
+ | CHL = Flag of Chile
+ | China = Flag of the People's Republic of China
+ | CHN = Flag of the People's Republic of China
+ | CIV = Flag of Cote d'Ivoire
+ | CMR = Flag of Cameroon
+ | COK = Flag of the Cook Islands
+ | COD = Flag of the Democratic Republic of the Congo
+ | COG = Flag of the Republic of the Congo
+ | COL = Flag of Colombia
+ | COM = Flag of the Comoros
+ | CPV = Flag of Cap Verde
+ | CRC = Flag of Costa Rica
+ | CRI = Flag of Costa Rica
+ | CRO = Flag of Croatia
+ | Croatia = Civil Ensign of Croatia
+ | CUB = Flag of Cuba
+ | CYP = Flag of Cyprus
+ | CZE = Flag of the Czech Republic
+ | Czech = Flag of the Czech Republic
+ | DDR = Flag of East Germany
+ | DEN = Flag of Denmark
+ | DEU = Flag of Germany
+ | Deutschland = Flag of Germany
+ | DJI = Flag of Djibouti
+ | DMA = Flag of Dominica
+ | DOM = Flag of the Dominican Republic
+ | DZA = Flag of Algeria
+ | ECU = Flag of Ecuador
+ | EGY = Flag of Egypt
+ | ENG = Flag of England
+ | ERI = Flag of Eritrea
+ | ESP = Flag of Spain
+ | EST = Flag of Estonia
+ | ETH = Flag of Ethiopia
+ | Europa = Flag of Europe
+ | the European Union = Flag of Europe
+ | FIN = Flag of Finland
+ | FJI = Flag of Fiji
+ | FR-YUG = Flag of FR Yugoslavia
+ | FRA = Flag of France
+ | Frankreich = Flag of France
+ | GAB = Flag of Gabun
+ | GDR = Flag of East Germany
+ | GEO = Flag of Georgia
+ | GER = Flag of Germany
+ | GHA = Flag of Ghana
+ | GRE = Flag of Greece
+ | GRC = Flag of Greece
+ | GRD = Flag of Grenada
+ | GBR = Flag of the United Kingdom
+ | GIN = Flag of Guinea
+ | GMB = Flag of Gambia
+ | GNB = Flag of Guinea-Bissau
+ | GNQ = Flag of Equatorial Guinea
+ | Großbritannien = Flag of the United Kingdom
+ | GTM = Flag of Guatemala
+ | GUY = Flag of Guyana
+ | HON = Flag of Honduras
+ | HRV = Civil Ensign of Croatia
+ | HTI = Flag of Haiti
+ | HUN = Flag of Hungary
+ | IDN = Flag of Indonesia
+ | IND = Flag of India
+ | IRL = Flag of Ireland
+ | IRN = Flag of Iran
+ | IRQ = Flag of Iraq
+ | ISL = Flag of Iceland
+ | ISR = Flag of Israel
+ | ITA = Flag of Italy
+ | JAM = Flag of Jamaica
+ | JOR = Flag of Jordan
+ | JPN = Flag of Japan
+ | Kanada = Flag of Canada
+ | KAZ = Flag of Kazakhstan
+ | KEN = Flag of Kenya
+ | KGZ = Flag of Kyrgyzstan
+ | KHM = Flag of Cambodia
+ | KIR = Flag of Kiribati
+ | KOR = Flag of South Korea
+ | Kroatien = Civil Ensign of Croatia
+ | KWT = Falg of Kuwait
+ | LAO = Flag of Laos
+ | LAT = Flag of Latvia
+ | LBN = Flag of Lebanon
+ | LBR = Flag of Liberia
+ | LBY = Flag of Libya
+ | LIE = Flag of Liechtenstein
+ | LSO = Flag of Lesotho
+ | LTU = Flag of Lithuania
+ | LUX = Flag of Luxembourg
+ | LVA = Flag of Latvia
+ | MEX = Flag of Mexico
+ | NAM = Flag of Namibia
+ | NED = Flag of the Netherlands
+ | Neuseeland = Flag of New Zealand
+ | NGA = Flag of Nigeria
+ | NOR = Flag of Norway
+ | NZL = Flag of New Zealand
+ | Northern Ireland = Ulster banner
+ | Österreich = Flag of Austria
+ | PAR = Flag of Paraguay
+ | PER = Flag of Peru
+ | POL = Flag of Poland
+ | Polen = Flag of Poland
+ | POR = Flag of Portugal
+ | PRK = Flag of North Korea
+ | QAT = Flag of Qatar
+ | ROM = Flag of Romania
+ | RSA = Flag of South Africa
+ | ROU = Flag of Romania
+ | RUS = Flag of Russia
+ | SCG = Flag of Serbia and Montenegro
+ | SCO = Flag of Scotland
+ | SLO = Flag of Slovenia
+ | SLV = Flag of El Salvador
+ | SUI = Flag of Switzerland
+ | SUD = Flag of Sudan
+ | SRB = Flag of Serbia
+ | SVK = Flag of Slovakia
+ | SWE = Flag of Sweden
+ | Südkorea = Flag of South Korea
+ | TCH = Flag of Czechoslovakia
+ | THA = Flag of Thailand
+ | TPE = Flag of Taipei City
+ | Taipei = Flag of Taipei City
+ | TRI = Flag of Trinidad and Tobago
+ | Tschechien = Flag of the Czech Republic
+ | TUN = Flag of Tunisia 
+ | TUR = Flag of Turkey
+ | UK = Flag of the United Kingdom
+ | UKR = Flag of Ukraine
+ | United Kingdom = Flag of the United Kingdom
+ | URU = Flag of Uruguay
+ | USA = Flag of the United States
+ | UZB = Flag of Uzbekistan
+ | VEN = Flag of Venezuela
+ | Vereinigte Staaten = Flag of the United States
+ | Vereinigtes Königreich = Flag of the United Kingdom
+ | VIR = Flag of the United States Virgin Islands
+ | YEM = Flag of Yemen
+ | YUG = Naval Ensign of the Kingdom of Yugoslavia
+ | the Kingdom of Yugoslavia (state) = Naval Ensign of the Kingdom of Yugoslavia
+ | ZIM = Flag of Zimbabwe
+ | Flag of }|}|None}}
+}}.}|border|}|}}}}]]</includeonly><noinclude>

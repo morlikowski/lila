@@ -1,0 +1,3020 @@
+The following tables compare general and technical information for a number of web browsers. Please see the individual products' articles for further information. 
+{| class="wikitable" align="right" style="font-size: 85%; text-align: center; width: auto;"
+|-
+! Usage share for April 2008<ref></ref>
+|-
+| Internet Explorer: 74.83%
+|-
+| Firefox: 17.76%
+|-
+| Safari: 5.81%
+|-
+| Opera: 0.69%
+|-
+| Netscape: 0.56%
+|-
+| Mozilla: 0.16%
+|-
+| Other: 0.12%
+|-
+| See also: Usage share of web browsers
+|}
+
+==Web browser history==
+====Web browsers by year====
+
+thumb|right|300px|A rough estimation of usage share by percent of layout engines/web browsers, see [[usage share of web browsers.]]
+This is a table of personal computer web browsers by year of release of major version, in chronological order, with the approximate number of worldwide Internet users in millions. Note that Internet user data is related to the entire market, not the versions released in that year. The increased growth of the Internet in the 1990s and 2000s means that current browsers with small market shares have more total users than the entire market early on. For example, 90% market share in 1997 would be roughly 60 million users, but by the start of 2007 9% market share would equate to over 90 million users.<ref>''History and Growth of the Internet'' http://www.internetworldstats.com/emarketing.htm Accessed March 3 2007</ref>
+
+{| class="wikitable" style="font-size: 85%; text-align: left; width: auto;"
+|-
+!  Year
+!Web Browsers
+!Internet <br> Users (in millions)<ref>''History and Growth of the Internet'' http://www.internetworldstats.com/emarketing.htm Accessed January 12, 2008</ref>
+|-
+!  | 
+| ''Pre-browser: Gopher 
+|
+|-
+!  | 1991
+| WorldWideWeb (Nexus)
+|
+|-
+!  | 1992
+| ViolaWWW, Erwise, MidasWWW, MacWWW
+|
+|-
+!  | 1993
+|  Mosaic, Cello, Lynx (2.0), Arena
+|
+|-
+!  | 1994
+| SlipKnot (1.0), Argo, Minuet 
+|-
+!  | 1995
+| Netscape Navigator 2.0, OmniWeb, WebRouser, 
+| 16
+|-
+!  | 1996
+| Arachne 1.0, Internet Explorer 3.0,  Netscape Navigator 3.0, PowerBrowser, Amaya (.9), Voyager, Emissary
+| 36
+|-
+!  | 1997
+| Netscape Navigator 4.0, Netscape Communicator (4.0), Opera 3.0 
+| 70
+|-
+!  | 1998
+| Internet Explorer 5.0 Beta 1, iCab 
+| 147
+|-
+!  | 1999
+| Amaya 2.0, Mozilla (M3), Internet Explorer 5.0
+| 248
+|-
+!  | 2000
+| Konqueror, Netscape 6, Opera 4, K-Meleon (.2)
+| 361
+|-
+!  | 2001
+| Internet Explorer 6, Galeon (1.0)
+| 513
+|-
+!  | 2002
+| Mozilla (1.0), Phoenix (0.1), Links (2.0)
+| 587
+|-
+!  | 2003
+| Safari (1.0), Epiphany (1.0)
+| 719
+|-
+!  | 2004
+| Firefox (1.0), OmniWeb 5.0 
+| 817
+|-
+!  | 2005
+| Safari (2.0), Epiphany (1.8) </br>  Amaya 9.0, AOL Explorer (1.0),  Maxthon (1.0),  Shiira (1.0), 
+| 1018
+|-
+!  | 2006
+| Firefox (2.0), Avant 11, Opera 9, Internet Explorer 7
+| 1093
+|-
+!  | 2007
+| Flock 1.0, Safari 3.0
+| 1262
+|-
+!  | 2008
+| Firefox 3.0, Safari 3.1, Opera 9.5, Amaya 10
+| 1400 (est.)
+|-
+!  | Beta 
+| Safari 4
+|}
+
+''See also microbrowser''
+
+===Historical web browsers===
+
+This table focuses on OS and browsers of the 1990s and turn of the century. The year listed for a version is usually the year of the first official release, with an end year being end of development, project change, or relevant termination. Releases of OS and browser from the early 1990s to before 2001-2002 time frame are the current focus. 
+
+Many early browsers can be made to run on later OS (and later browsers on early OS in some cases), however, most of these situations are avoided in the table. Terms are defined below
+
+{| class="sortable wikitable" style="font-size: 85%; text-align: center; width: auto;"
+|-
+! style="width: 12em" | Browser
+! Years 
+! MS 2000/XP
+! 98/Me
+! NT
+! 95
+! 3.1
+! IBM OS/2
+! Mac OS X</br>(Intel/PPC)
+! Mac OS 9
+! Mac OS 8
+! System 7</br> (PPC/68k)
+! Linux
+! BSD
+! Unix </br>(HP-UX, </br>Solaris) 
+!  Other
+|- 
+!  | Years (OS)
+| -
+| <!--XP---> 2000/2001
+| <!--98---> 1998
+| <!--NT---> 1993
+| <!--95---> 1995
+| <!--3.1---> 1992
+| <!--OS/2---> 1988
+| <!--OS X---> 2001
+| <!--OS 9---> 1999
+| <!--OS 8---> 1997
+| <!--System 7---> 1991
+| <!--Linux---> '94(1.0)/'91 
+| <!--FreeBSD---> 1993
+| <!--Unix---> (1990s)
+| <!--Other---> -
+|-
+!  | ICab 
+| <!--Years (e.g release)---> 1998-Now
+| 
+| <!--98---> 
+| <!--NT--->  
+| <!--95---> 
+| <!--3.1---> 
+| <!--OS/2---> 
+|  (3.03)
+| 
+| <!--OS 8--->  (9.22)
+| <!--System 7--->  (2.99)
+| 
+| 
+| 
+| 
+|- 
+!  | Trident)
+| <!--Years (e.g release)---> 2001- 2004
+|   (6.0 SP2) Included
+| <!--98--->  (6.0 SP1)
+| <!--NT--->   (6.0 SP1)
+| <!--95---> 
+| <!--3.1---> 
+| <!--OS/2---> 
+| 
+| 
+| <!--OS 8---> 
+| <!--System 7---> 
+| 
+| 
+| 
+| 
+|-
+!  | IE 5.0  </br> IE 4.0 
+| <!--Years (e.g release)---> 1998-2000 <br> 1997-1998
+| 
+| <!--98--->  
+| <!--NT--->  
+| <!--95--->  
+| <!--3.1--->  
+| <!--OS/2---> 
+| <!--OS X---> 
+| <!--OS 9---> 
+| <!--OS 8---> 
+| <!--System 7---> 
+|   * (5.01 SP1)
+| 
+|  * (5.01 SP1)
+| 
+|-
+!  | IE 3.0   
+| <!--Years (e.g release)---> 1996-1997
+| 
+| <!--98--->  
+| <!--NT--->  
+| <!--95---> 
+| <!--3.1--->  
+| <!--OS/2---> 
+| 
+| 
+| <!--OS 8---> 
+| <!--System 7--->  
+|  * 
+| 
+|  * 
+| 
+|-
+!  | IE 2.0  </br> IE 1.0    
+| <!--Years (e.g release)---> 1995
+| 
+| <!--98--->  
+| <!--NT--->  (2.0) 
+| <!--95---> 
+| <!--3.1--->  
+| <!--OS/2---> 
+|  
+|  
+| <!--OS 8--->  
+| <!--System 7--->   (2.0)
+| 
+| 
+| 
+| 
+|-
+!  | IE Mac</br>(IE4, Trident)</br>(IE5, Tasman)
+| <!--Years (e.g release)---> 1996-2003
+| 
+| <!--98---> 
+| <!--NT---> 
+| <!--95---> 
+| <!--3.1---> 
+| <!--OS/2---> 
+|  (5.2.3)
+|  (5.1.7)
+| <!--OS 8--->  (5.1.7)
+| <!--System 7---> 
+| 
+| 
+| 
+| 
+|-
+!  | MacWeb
+| <!--Years (e.g release)---> 1994-1996
+| 
+| <!--98---> 
+| <!--NT---> 
+| <!--95---> 
+| <!--3.1---> 
+| <!--OS/2---> 
+| 
+| 
+| <!--OS 8--->  
+| <!--System 7 --->  (2.0)
+| 
+| 
+| 
+| 
+|-  
+!  | Mosaic
+| <!--Years (e.g release)---> 1993-1997
+|  (3.0)
+| <!--98---> 
+| <!--NT--->  
+| <!--95--->  
+| <!--3.1---> 
+| <!--OS/2---> 
+| 
+|  (3.0)
+| <!--OS 8---> 
+| <!--System 7---> 
+|  (2.6) 
+|  (2.6)
+|  (2.6)
+| OpenVMS
+|- 
+!  | Mozilla (MAS)) </br> (restarted SeaMonkey)
+| <!--Years (e.g release)---> 2002-2006
+|  (1.7.13)
+| <!--98--->  (1.7.13)
+| <!--NT--->  (1.7.13)
+| <!--95--->  (1.7.13)
+| <!--3.1---> 
+| <!--OS/2--->  (1.7.13)
+|  (1.7.13)
+|  (1.2.1)
+| <!--OS 8--->  (1.0.1)
+| <!--System 7---> 
+|  (1.7.13)
+|  (1.7.13)
+|  (1.7.13)
+| OpenVMS
+|- 
+!  | Netscape Navigator 9
+| <!--Years (e.g release)--->  2008
+| 
+| <!--98---> 
+| <!--NT---> 
+| <!--95---> 
+| <!--3.1--->
+| <!--OS/2--->
+| </br> (Mac OS X v10.2)
+| 
+| <!--OS 8--->
+| <!--System 7--->
+| </br>(kernel 2.2.14) 
+| 
+| 
+| 
+|- 
+!  | Netscape Browser
+| <!--Years (e.g release)--->  2004-2007
+| 
+| <!--98---> 
+| <!--NT---> 
+| <!--95---> 
+| <!--3.1--->
+| <!--OS/2--->
+| 
+| 
+| <!--OS 8--->
+| <!--System 7--->
+| 
+| 
+| 
+| 
+|- 
+!  | Netscape 7<br>Netscape 6
+| <!--Years (e.g release)---> 2000-2004
+|  (7.2)
+| <!--98--->  (7.2)
+| <!--NT--->  (7.2)
+| <!--95--->  (7.2)
+| <!--3.1---> 
+| <!--OS/2---> 
+|  (7.2)
+|  (7.02)
+| <!--OS 8--->   (7.02)
+| <!--System 7---> 
+|  (7.2)
+|  (7.2)
+|  (7.2)
+| 
+|- 
+!  | Netscape Communicator 
+| <!--Years (e.g release)---> 1997-2002
+|  (4.8)
+| <!--98--->  (4.8)
+| <!--NT--->  (4.8)
+| <!--95--->   
+| <!--3.1--->   (4.08)
+| <!--OS/2--->  
+| 
+|  (4.80)
+| <!--OS 8--->  (4.80)
+| <!--System 7--->  (4.08)
+|  (4.77)
+|  
+|  (4.77)
+| 
+|- 
+!  | Netscape Navigator
+| <!--Years (e.g release)---> 1994-1998
+|  (4.08)
+| <!--98--->  (4.08)
+| <!--NT--->  
+| <!--95--->   
+| <!--3.1--->  (4.08)
+| <!--OS/2--->  
+| 
+|  (4.08)
+| <!--OS 8---> 
+| <!--System 7--->  3.0.4
+|  (4.08)
+|  (4.08)
+|  (4.08)
+| OpenVMS
+|-
+!  | OmniWeb
+| <!--Years (e.g release)---> 1995-Now
+| 
+| <!--98---> 
+| <!--NT---> 
+| <!--95---> 
+| <!--3.1--->
+| <!--OS/2---> 
+| 
+|  (4.0)
+| <!--OS 8---> 
+| <!--System 7---> 
+|  
+| 
+| 
+| NEXTSTEP
+|-
+!  | Opera
+| <!--Years (e.g release)---> 1996-Now
+| 
+| <!--98---> 
+| <!--NT---> 
+| <!--95---> 
+| <!--3.1--->  (3.62)
+| <!--OS/2--->  (5.12) 
+| 
+|  (7.54u2) 
+| <!--OS 8--->  (6.03)
+| <!--System 7---> 
+| 
+| 
+| 
+| 
+|- 
+!  | Cello
+| <!--Years (e.g release)---> 1993-1994
+| NA
+| <!--98---> 
+| <!--NT---> 
+| <!--95--->  
+| <!--3.1--->  
+| <!--OS/2---> 
+| 
+|  
+| <!--OS 8--->
+| <!--System 7--->
+| 
+| 
+| 
+| 
+|- 
+!  | ViolaWWW
+| <!--Years (e.g release)---> 1992 
+| 
+| <!--98---> 
+| <!--NT---> 
+| <!--95---> 
+| <!--3.1---> 
+| <!--OS/2---> 
+| 
+| 
+| <!--OS 8--->
+| <!--System 7---> 
+| 
+| 
+| 
+| X11
+|-
+!  | IBM Web Explorer
+| <!--Years (e.g release)---> 1994 
+| 
+| <!--98--->
+| <!--NT---> 
+| <!--95---> 
+| <!--3.1---> 
+| <!--OS/2--->  (1.1h)
+| 
+| 
+| <!--OS 8--->
+| <!--System 7--->
+| 
+| 
+| 
+| 
+|- 
+!  | WorldWideWeb<br> (Nexus)
+| <!--Years (e.g release)---> 1991
+| 
+| <!--98---> 
+| <!--NT---> 
+| <!--95---> 
+| <!--3.1--->
+| <!--OS/2---> 
+| 
+| 
+| <!--OS 8--->
+| <!--System 7--->
+| 
+| 
+| 
+| NEXTSTEP </br> OPENSTEP
+|-class="sortbottom"
+! Browser
+! Years 
+! MS 2000/XP
+! 98/Me
+! NT
+! 95
+! 3.1
+! IBM OS/2
+! Mac OS X</br>(Intel/PPC)
+! Mac OS 9
+! Mac OS 8
+! System 7</br> (PPC/68k)
+! Linux
+! BSD
+! Unix </br>(HP-UX, </br>Solaris) 
+!  Other
+|}
+<ref> Article ID : 164539; Section ''Internet Explorer for Macintosh or Windows 3.1
+''; http://support.microsoft.com/kb/164539  Accessed March 1, 2007
+</ref>
+<ref>[http://browser.netscape.com/ns8/download/archive47x.jsp Netscape Browser Archive :: Netscape Navigator Web Browser<!-- Bot generated title -->]</ref>
+
+ QNX, Cell phones, Symbian, Wii, Windows Mobile
+
+==General information==
+Basic general information about the browsers: creator/company, license/price etc.
+{| class="wikitable sortable" style="font-size: 85%; text-align: center; width: auto;"
+|-
+! style="width:12em" | Browser
+! Creator
+! Cost (USD)
+! Open Source?
+! Software license
+! Current layout engine
+|-
+!  | Amaya
+| W3C, INRIA
+| 
+| 
+| W3C
+| 
+|-
+!  | AOL Explorer
+| America Online, Inc
+| 
+| 
+| 
+| Trident
+|-
+!  | Avant
+| Avant Force
+| 
+| 
+| 
+| Trident
+|-
+!  | Camino
+| The Camino Project
+| 
+| 
+| MPL, MPL/GPL/LGPL tri-license
+| Gecko
+|-
+!  | Dillo
+| Jorge Arellano Cid, Geerken, Rota, ''et al.''
+| 
+| 
+| GPL
+| Dillo
+|-
+!  | ELinks
+| Baudis, Fonseca, ''et&nbsp;al.''
+| 
+| 
+| GPL
+| 
+|-
+!  | Emissary
+| TWG
+| 
+| 
+| ???
+| 
+|-
+!  | Epiphany
+| GNOME
+| 
+| 
+| GPL
+| Gecko, WebKit
+|-
+!  | Flock
+| Flock Inc
+| 
+| 
+| GPL
+| Gecko
+|-
+!  | Galeon
+| Marco Pesenti Gritti
+| 
+| 
+| GPL
+| Gecko
+|-
+!  | GNU IceCat
+| GNU
+| 
+| 
+| GPL,MPL/LGPL tri-license
+| Gecko
+|-
+!  | iCab
+| Alexander Clauss
+| 
+| 
+| 
+| iCab, WebKit
+|-
+!  | Internet Explorer
+| Spyglass
+| <ref>License Terms for Internet Explorer 7</ref>
+| 
+| 
+| Trident
+|-
+!  | Internet Explorer for Mac (Terminated)
+| Microsoft
+| 
+| 
+| 
+| Tasman
+|-
+!  | K-Meleon
+| Dorian, KKO, ''et al.''
+| 
+| 
+| GPL
+| Gecko
+|-
+!  | Konqueror
+| KDE
+| 
+| 
+| GPL
+| Gecko-->
+|-
+!  | Links
+| Patocka, ''et al.''
+| 
+| 
+| GPL
+| 
+|-
+!  | Lynx
+| Montulli, Grobe, Rezac, ''et al.''
+| 
+| 
+| GPL
+| built-in
+|-
+!  | Maxthon
+| Maxthon International Limited
+| 
+| 
+| 
+| Trident, Gecko
+|-
+!  | Mosaic
+| NCSA
+|  (non-commercial)
+| 
+| 
+| built-in
+|-
+!  | Mozilla
+| Mozilla Foundation
+| 
+| 
+| MPL, MPL/GPL/LGPL tri-license
+| Gecko
+|-
+!  | Mozilla Firefox
+| Mozilla Foundation
+| 
+| 
+| MPL, MPL/GPL/LGPL tri-license
+| Gecko
+|-
+!  | Netscape (v.6-7)&nbsp;
+| AOL
+| 
+| 
+| ???, MPL/GPL/LGPL tri-license
+| Gecko
+|-
+!  | Netscape Browser (v.8)&nbsp;
+| AOL
+| 
+| 
+| ???, MPL, GPL/LGPL tri-license
+| Trident, Gecko
+|-
+!  | Netscape Communicator (v.4)&nbsp;
+| Netscape Communications
+| 
+| 
+| 
+| 
+|-
+!  | Netscape Navigator (v.1-4)&nbsp;
+| Netscape Communications
+| 
+| 
+| 
+| 
+|-
+!  | Netscape Navigator 9&nbsp;
+| Netscape Communications<br/>(division of AOL)
+| 
+| 
+| ???, MPL, GPL/LGPL tri-license
+| Gecko
+|-
+!  | OmniWeb
+| The Omni Group
+| $14.95
+| 
+| ???, LGPL
+| WebKit
+|-
+!  | Opera
+| Opera Software
+| 
+| 
+| 
+| Presto
+|-
+!  | Opera Mobile
+| Opera Software
+| $24
+| 
+| 
+| Presto
+|-
+!  | Safari
+| Apple Inc.
+| 
+| 
+| ???, LGPL
+| WebKit
+|-
+!  | SeaMonkey
+| SeaMonkey Council
+| 
+| 
+| MPL, MPL/GPL/LGPL tri-license
+| Gecko
+|-
+!  | Shiira
+| Happy Macintosh Developing Team
+| 
+| 
+| BSD
+| WebKit
+|-
+!  | WorldWideWeb (Later renamed Nexus)
+| Tim Berners-Lee
+| 
+| 
+| Public domain
+| NeXTSTEP built-in
+|-
+!  | w3m
+| Akinori Ito
+| 
+| 
+| MIT License
+| 
+|-class="sortbottom"
+! Browser
+! Creator
+! Cost (USD)
+! open source
+! Software license
+! Current layout engine
+|}
+
+* There are five different products which all carry the name Netscape: Netscape versions 1 to 4, properly called ''Netscape Navigator'', was a browser based on the original Netscape engine. Netscape 4 also was available as an Internet suite, properly called ''Netscape Communicator''. Netscape 6 and 7 was a new Internet suite based on the Gecko engine and the Mozilla Application Suite user interface. Netscape 8, properly called ''Netscape Browser'', is a new browser based on Firefox that can use both the Gecko (Firefox) and Trident (Internet Explorer) engines. Netscape resumed use of the ''Navigator'' name from ''Netscape Navigator 9.0 beta 1''. See Netscape for more info.
+
+==Release history==
+A brief overview of the release history.
+{| class="wikitable" style="font-size: 85%; text-align: center; width: auto;"
+|-
+! rowspan="2" style="width:12em" | Browser
+! colspan="2" | First public release
+! colspan="2" | First stable release
+! rowspan="2"|Latest stable release version date
+! rowspan="2"|Latest testing release version date
+|-
+! Date
+! Version
+! Date
+! Version
+|-
+!  | Amaya
+| November 14, 1996
+| 0.9
+| November 14, 1996
+| 0.9
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | AOL Explorer
+| June, 2005
+| 1.0
+| July, 2005
+| 1.1
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | Avant
+| August, 2004
+| 
+| August, 2004
+| 
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | Camino
+| February 13, 2002
+| 0.1
+| February 14, 2006
+| 1.0
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | Dillo
+| December, 1999
+| 0.0.0
+| December, 1999
+| 0.0.0
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | ELinks
+| December, 2001
+| 
+| December, 2001
+| 
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | Epiphany
+| December 22, 2002
+| 0.4
+| September 8, 2003
+| 1.0
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | Flock
+| October 24, 2005
+| 0.4.9
+| November 2, 2007
+| 1.0
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | Galeon
+| June, 2000
+| 0.6
+| June, 2000
+| 0.6
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | iCab
+| February 17, 1999 
+| Preview 1.0
+| February 17, 1999
+| Preview 1.0
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | Internet Explorer
+| August, 1995
+| 1.0
+| August, 1995
+| 1.0
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | Internet Explorer for Mac
+| January 23, 1996
+| 2.0b
+| April 23, 1996
+| 2.0
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | K-Meleon
+| November 26, 2000
+| 0.2
+| November 26, 2000
+| 0.2
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | Konqueror
+| October, 2000
+| 
+| October, 2000
+| 
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | Links
+| November 24, 1999
+| 0.8
+| November 24, 1999
+| 0.8
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | Lynx
+| July, 1993
+| 
+| July, 1993
+| 
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | Maxthon
+| July 11, 2002
+| 0.1 (as MyIE2)
+| September 8, 2005
+| 1.0.0250 
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | Mosaic
+| April 22, 1993
+| 1.0
+| April 22, 1993
+| 1.0
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | Mozilla
+| December 7, 1998
+| "Preview"
+| March 19, 1999
+| M3
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | Mozilla Firefox
+| September 23, 2002
+| 0.1
+| September 23, 2002
+| 0.1
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | Netscape
+| April 5, 2000
+| 6 Preview Release 1
+| November 14, 2000
+| 6.0
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | Netscape Browser
+| November 30, 2004
+| 0.5.6+
+| May 19, 2005
+| 8.0
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | Netscape Communicator
+| June, 1997
+| 4.0
+| June, 1997
+| 4.0
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | Netscape Navigator
+| October 13, 1994
+| 0.9
+| October 13, 1994
+| 0.9
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | Netscape Navigator 9
+| June 5, 2007
+| 9.0 Beta 1
+| October 15, 2007
+| 9.0
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | OmniWeb
+| 1994
+| 0.5
+| March 17, 1995
+| 1.0
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | Opera
+| September, 1996
+| 2.1b1
+| December, 1996
+| 2.1
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | Safari
+| January 7, 2003
+| 0.8
+| June 23, 2003
+| 1.0
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | SeaMonkey
+| September 15, 2005
+| 1.0a
+| January 30, 2006
+| 1.0
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | Shiira
+| 
+| 
+| 
+| 
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | WorldWideWeb
+| December, 1990
+| 
+| February 26, 1991
+| 
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+!  | w3m
+| 1995
+| 
+| 
+| 
+<!-- Release version update? Don't edit this page, just click on the version number! -->
+| 
+| 
+|-
+! rowspan="2" style="width:12em" | Browser
+! Date
+! Version
+! Date
+! Version
+! rowspan="2"|Latest stable release version date
+! rowspan="2"|Latest testing release version date
+|-
+! colspan="2" | First public release
+! colspan="2" | First stable release
+|}
+* As of February 2007, at least Windows XP SP2 or Windows Server 2003 SP1 is required to install the latest version (v7) of Internet Explorer for Windows. Internet Explorer 6.0 SP1 is the last version that supports Windows 98, Windows Me, Windows NT 4.0 SP6a, and Windows 2000.  Internet Explorer 7 is bundled with Windows Vista and Windows Server 2008
+* Safari is included with Mac OS X and the latest version is always available only from the OS install or OS updates.
+
+==Operating system support==
+The operating systems the browsers have been compiled to run on without emulation; for the given browser/OS combination, there are seven possibilities:
+* ''No'' indicates that it does not exist or was never released.
+* ''Partial'' indicates that while the browser works, it lacks important functionality or is extremely unstable compared to versions for other OSs (that is to say it has roughly alpha or pre-alpha quality). It is still being developed however.
+* ''Beta'' indicates that while a version of the browser is fully functional and has been released, it is still in development (e.g. for stability).
+* ''Yes'' indicates that the browser has been officially released in a fully functional, stable version.
+* ''Dropped'' indicates that the latest stable version of the browser does not work on the operating system, although an older version is available that does. The number in parentheses is the last known stable version which was officially released for that OS.
+* ''Terminated'' indicates that while the browser works (e.g. Internet Explorer for Mac), development has ceased and no new versions will be released; the number in parentheses is the last known stable version.
+* ''Included'' indicates that the browser comes pre-packaged as part of or has been integrated into the operating system.
+Please note that the list is not exhaustive, but rather reflects the most common OSs today (e.g. Opera web browser has gained a leading role for use in mobile phones, smartphones, the Nintendo DS and Wii, and Personal Digital Assistants, and is also used in Interactive televisions).
+{| class="wikitable sortable" style="font-size: 85%; text-align: center; width: auto;"
+|-
+! style="width: 12em" | Browser
+! Windows
+! Mac OS X
+! Mac OS 9
+! Linux
+! BSD
+! Unix
+|-
+!  | Amaya
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | AOL Explorer
+|  (1.5)
+|  (1.5)
+| 
+| 
+| 
+| 
+|-
+!  | Avant
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Camino
+| 
+| 
+| 
+| 
+| 
+| 
+|- 
+!  | Dillo
+| 
+| 
+| 
+| 
+| 
+| 
+|- 
+!  | ELinks
+| 
+| 
+| 
+| 
+| 
+| 
+|- 
+!  | Epiphany
+| 
+| 
+| 
+| 
+| 
+| 
+|- 
+!  | Flock
+| 
+| 
+| 
+| 
+| 
+| 
+|- 
+!  | Galeon
+| 
+| 
+| 
+| 
+| 
+| 
+|- 
+!  | iCab
+| 
+| 
+| 
+| 
+| 
+| 
+|- 
+!  | Trident)
+| 
+| 
+| 
+| 
+| 
+|  (5.0)
+|-
+!  | Tasman)
+| 
+|  (5.2.3)
+|  (5.1.7)
+| 
+| 
+| 
+|- 
+!  | K-Meleon
+| 
+| 
+| 
+| 
+| 
+| 
+|- 
+!  | Konqueror
+| 
+| 
+| 
+| 
+| 
+| 
+|- 
+!  | Links
+| 
+| 
+| 
+| 
+| 
+| 
+|- 
+!  | Lynx
+| 
+| 
+| 
+| 
+| 
+| 
+|- 
+!  | Maxthon
+| 
+| 
+| 
+| 
+| 
+| 
+|- 
+!  | Mosaic
+|  (3.0)
+| 
+|  (3.0)
+|  (2.6)
+|  (2.6)
+|  (2.6)
+|- 
+!  | Mozilla
+|  (1.7.13)
+|  (1.7.13)
+|  (1.2.1)<ref>Unofficial builds up to 1.3.1 were distributed as [http://wamcom.org/ WaMCom].</ref>
+|  (1.7.13)
+|  (1.7.13)
+|  (1.7.13)
+|-
+!  | Mozilla Firefox
+| 
+| 
+| 
+| 
+| 
+| 
+|- 
+!  | Netscape
+|  (7.2)
+|  (7.2)
+|  (7.02)
+|  (7.2)
+|  (7.2)
+|  (7.2)
+|- 
+!  | Netscape Browser
+|  (8.1.3)
+| 
+| 
+| 
+| 
+| 
+|- 
+!  | Netscape Communicator
+|  (4.80)
+| 
+|  (4.80)
+|  (4.80)
+|  (4.80)
+|  (4.80)
+|- 
+!  | Netscape Navigator
+|  (4.08)
+| 
+|  (4.08)
+|  (4.08)
+|  (4.08)
+|  (4.08)
+|- 
+!  | Netscape Navigator 9
+|  (9.0.0.6)
+|  (9.0.0.6)
+| 
+|  (9.0.0.6)
+| 
+| 
+|- 
+!  | OmniWeb
+| 
+| 
+| 
+| 
+| 
+| 
+|- 
+!  | Opera
+| 
+| 
+|  (6.03)
+| 
+| 
+| 
+|- 
+!  | e-Capsule TM Private Browser
+| 
+| 
+|  
+| 
+| 
+| 
+|- 
+!  | Safari
+| 
+| 
+| 
+| 
+| 
+| 
+|- 
+!  | SeaMonkey
+| 
+| 
+| 
+| 
+| 
+| 
+|- 
+!  | Shiira
+| 
+| 
+| 
+| 
+| 
+| 
+|- 
+!  | WorldWideWeb (NEXTSTEP only)
+| 
+| 
+| 
+| 
+| 
+|  
+|-
+!  | w3m
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+
+|-class="sortbottom"
+! Browser
+! Windows
+! Mac OS X
+! Mac OS 9
+! Linux
+! BSD
+! Unix
+|}
+
+==Browser features==
+Information about what common browser features are implemented natively (without third-party add-ons).
+{| class="wikitable sortable" style="font-size: 85%; text-align: center; width: auto;"
+|-
+! style="width:12em" | Browser
+! Bookmark managing
+! Download managing
+! Password managing
+! Form managing
+! Spell checking
+! Search engine toolbar
+! style="width:10em" | security-options separately settable per site
+|-
+!  | Amaya
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | AOL Explorer
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Avant
+| 
+| 
+| 
+| 
+| &nbsp;
+| 
+| 
+|-
+!  | Camino
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Dillo
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | ELinks
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Epiphany
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Flock
+| 
+| 
+| 
+| 
+| 
+| 
+| &nbsp;
+|-
+!  | Galeon
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | iCab
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Internet Explorer&nbsp;
+| 
+| 
+| 
+| 
+| &nbsp;
+| 
+| &nbsp;
+|-
+!  | Internet Explorer for Mac</sup>
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | K-Meleon
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Konqueror
+| 
+| &nbsp;
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Links
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Lynx
+| 
+| 
+| 
+| 
+| &nbsp;
+| 
+| 
+|-
+!  | Maxthon&nbsp;
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Mosaic
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Mozilla
+| 
+| 
+| 
+| 
+| 
+| 
+| &nbsp;
+|-
+!  | Mozilla Firefox
+| 
+| 
+| 
+| 
+| 
+| 
+| &nbsp;
+|-
+!  | Netscape
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Netscape Browser
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Netscape Navigator
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Netscape Navigator 9
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | OmniWeb
+| 
+| 
+| 
+| 
+| 
+| 
+| { &nbsp;
+|-
+!  | Opera
+| 
+| 
+| 
+| &nbsp;
+| &nbsp;
+| 
+| 
+|-
+!  | e-Capsule TM Private Browser
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Safari
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | SeaMonkey
+| 
+| 
+| 
+| 
+| 
+| 
+| &nbsp;
+|-
+!  | Shiira
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | WorldWideWeb
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-
+!  | w3m
+| 
+| 
+| 
+| 
+| 
+| 
+| 
+|-class="sortbottom"
+! Browser
+! Bookmark managing
+! Download managing
+! Password managing
+! Form managing
+! Spell checking
+! Search engine toolbar
+! style="width:10em" | security-options separately settable per site
+|}
+* Internet Explorer is the only browser to natively support the Component Object Model (popularly known as ActiveX). Most other browsers use the NPAPI plugin architecture. ActiveX is more powerful than NPAPI in terms of the control it affords over the browser, but it is specific to Windows whereas NPAPI is cross-platform. There is a third-party plugin that adds partial ActiveX support, that is available for certain older versions of Mozilla Suite, Mozilla Firefox and Netscape Navigator. The default settings in earlier versions of Internet Explorer allowed the automatic download, installation, and running of new ActiveX controls with minimal user intervention - this made it possible to use ActiveX on web pages to install viruses, spyware, etc. onto a user's computer.
+* Spell checking can be added by installing an add-on like [http://www.iespell.com ieSpell].
+* Lynx is able to edit text with an external editor, which can provide spell checking.
+* cookies. Furthermore you can specify "trusted" and "untrusted" sites and assign pre-set rights to both categories.
+* browsers like Firefox, Flock can handle per-site settings for cookies, pop-ups, and images. For more settings you need an add-on, for example NoScript.
+* OmniWeb supports per-domain settings of options including support for disabling scripting, ad-blocking, java and cookies. These settings only work on top level domains.<ref name="OmniWeb"></ref>
+* For the download manager kdenetwork needs to be installed.
+* On Linux and Windows, Spell checking requires GNU Aspell to be installed.
+* Opera can auto-complete forms with your personal information and website usernames.
+
+==Accessibility features==
+Information about what common accessibility features are implemented natively (without third-party add-ons).
+{| class="wikitable sortable" style="font-size: 85%; text-align: center; width: auto;"
+|-
+! style="width:12em" | Browser
+! Tabbed browsing
+! Pop-up blocking
+! Incremental finding
+! Ad filtering
+! Page zooming 
+|-
+!  | Amaya
+| 
+| 
+| 
+| 
+| 
+|-
+!  | AOL Explorer
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Avant
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Camino
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Dillo
+| 
+| 
+| 
+| 
+| 
+|-
+!  | ELinks
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Epiphany
+| 
+| 
+| 
+| &nbsp;
+| 
+|-
+!  | Flock
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Galeon
+| 
+| 
+| 
+| 
+| 
+|-
+!  | iCab
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Internet Explorer (7 or later)
+| 
+| 
+| &nbsp;
+| 
+| 
+|-
+!  | Internet Explorer (6 or earlier)
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Internet Explorer for Mac
+| 
+| 
+| 
+| 
+| 
+|-
+!  | K-Meleon
+| 
+| 
+| 
+| &nbsp;
+| 
+|-
+!  | Konqueror
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Links
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Lynx
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Maxthon
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Mosaic
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Mozilla
+| 
+| 
+| 
+| &nbsp;
+| 
+|-
+!  | Mozilla Firefox
+| 
+| 
+|  
+| &nbsp;
+| 
+|-
+!  | Netscape
+| 
+| 
+| 
+| &nbsp;
+| 
+|-
+!  | Netscape Browser
+| 
+| 
+| 
+| &nbsp;
+| 
+|-
+!  | Netscape Navigator
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Netscape Navigator 9
+| 
+| 
+| 
+| &nbsp;
+| 
+|-
+!  | OmniWeb
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Opera
+| 
+| 
+| 
+| &nbsp;
+| 
+|-
+!  | e-Capsule TM Private Browser
+| 
+| 
+| 
+| 
+| 
+|-
+!  | Safari
+| &nbsp;
+| &nbsp;
+| 
+| 
+| &nbsp;
+|-
+!  | SeaMonkey
+| 
+| 
+| 
+| &nbsp;
+| &nbsp;[https://bugzilla.mozilla.org/show_bug.cgi?id=4821]
+|-
+!  | Shiira
+| 
+| 
+| 
+| 
+| 
+|-
+!  | WorldWideWeb
+| 
+| 
+| 
+| 
+| 
+|-
+!  | w3m
+| 
+| 
+| 
+| 
+| 
+|-class="sortbottom"
+! Browser
+! Tabbed browsing
+! Pop-up blocking
+! Incremental finding
+! Ad filtering
+! Page zooming 
+|}
+* Page zooming is different from text resizing, as it resizes not only characters, but also multimedia objects and web page layout. &nbsp;Not yet available in current Gecko (1.8, e.g. Mozilla Firefox 1.x/2.x: fixed by 'Web Developer' extension), but will be in Gecko 1.9 (2007, e.g. Mozilla Firefox 3)[https://bugzilla.mozilla.org/show_bug.cgi?id=4821].
+* Epiphany supports AdBlock as an official extension, in the epiphany-extensions package.
+* Opera 9 introduced a content blocker for webpages. [http://labs.opera.com/news/2006/02/07/2/]. Earlier releases support wildcard protocol/domain/path and filetype blocking using a filter.ini [http://www.schrode.net/opera/url_filtering/] file. More advanced Ad filtering for Opera can also be done with external software [http://nontroppo.org/wiki/OperaAdblock].
+* Tabbed browsing turned off by default in Safari 2.
+* Ad filter support can be added by installing Adblock Plus.
+* Does not allow selective blocking of pop-ups—can only block all pop-ups, or none.
+* Page zooming only supported in the iPhone version of Safari.
+* Several extensions are available through the Windows Marketplace [http://www.windowsmarketplace.com/category.aspx?bcatid=834&tabid=1&wa=wsignin1.0], including "Inline Search for Internet Explorer"[http://www.windowsmarketplace.com/details.aspx?view=info&itemid=3012162].
+
+'''Opera, Safari i Konqueror.
+==Porównanie==
+Poniższe zestawienie jest porównaniem wybranych przeglądarek internetowych. Nie wyczerpuje ono jednak wszelkich dostępnych informacji, szczegóły znaleźć można w artykułach, poświęconych konkretnym przeglądarkom.
+===Informacje ogólne===
+
+===Wspierane systemy operacyjne===
+Zestawienie środowisk, pod którymi bez emulacji można uruchomić dany program:
+{| border="1" cellpadding="1" cellspacing="0" style="font-size: 85%; border: gray solid 1px; border-collapse: collapse; text-align: center; width: 100%;"
+|- style="background: #ececec"
+!
+! style="width: 13%" | Windows
+! style="width: 13%" | Mac OS X
+! style="width: 13%" | Mac OS 9
+! style="width: 13%" | Linux
+! style="width: 13%" | BSD
+! style="width: 13%" | Unix
+|-
+! style="text-align:left;" bgcolor="#ececec" | Amaya
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Camino
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Dillo
+| bgcolor="#ddffdd" | Tak <!--Istnieje wersja dla Windowsa (link w artykule o Dillo)-->
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | ELinks
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Epiphany
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Galeon
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | iCab
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Internet Explorer
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffeedd" | Porzucona
+| bgcolor="#ffeedd" | Porzucona
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffeedd" | Porzucona
+|-
+! style="text-align:left;" bgcolor="#ececec" | Links
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Lynx
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | K-Meleon
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Konqueror
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Mosaic
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Mozilla
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffeedd" | Porzucona
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Mozilla Firefox
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Netscape
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffeedd" | Porzucona
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | OmniWeb
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Opera
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffeedd" | Porzucona
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Safari
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|- style="background: #ececec"
+!
+! Windows
+! Mac OS X
+! Mac OS 9
+! Linux
+! BSD
+! Unix
+|-
+|}
+
+===Funkcjonalność===
+{| border="1" cellpadding="1" cellspacing="0" style="font-size: 85%; border: gray solid 1px; border-collapse: collapse; text-align: center; width: 100%;"
+|- style="background: #ececec"
+!
+! style="width:13%;" | Zarządzanie zakładkami
+! style="width:13%;" | Menedżer pobierania plików
+! style="width:13%;" | Menedżer haseł
+! style="width:13%;" | Menedżer formularzy
+! style="width:13%;" | Sprawdzanie pisowni
+! style="width:13%;" | Wyszukiwanie w wielu wyszukiwarkach
+|-
+! style="text-align:left;" bgcolor="#ececec" | Amaya
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Camino
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Dillo
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffffdd" | Częściowo
+|-
+! style="text-align:left;" bgcolor="#ececec" | ELinks
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Epiphany
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Galeon
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | iCab
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | 2</sup>
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie&nbsp;<sup id="fn_3_back">3</sup>
+| bgcolor="#ffdddd" | Nie&nbsp;<sup id="fn_4_back">4</sup>
+|-
+! style="text-align:left;" bgcolor="#ececec" | Internet Explorer dla Maca</sup>
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+|-
+! style="text-align:left;" bgcolor="#ececec" | K-Meleon
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Konqueror
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Links
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Lynx
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Mosaic
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Mozilla
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Mozilla Firefox
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Netscape
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | OmniWeb
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Opera
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Safari
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|- style="background: #ececec"
+!
+! Zarządzanie zakładkami
+! Menedżer pobierania plików
+! Menedżer haseł
+! Menedżer formularzy
+! Sprawdzanie pisowni
+! Wyszukiwanie w wielu wyszukiwarkach
+|-
+|}
+''<cite id="fn_2">(2):</cite> Internet Explorer jest jedyną przeglądarką wspierającą kontrowersyjną technologię wirusa, trojana lub oprogramowania typu spyware.''
+
+''<cite id="fn_3">(3):</cite> Sprawdzanie pisowni można dodać, instalując rozszerzenie [http://www.iespell.com ieSpell].''
+
+''<cite id="fn_4">(4):</cite> Internet Explorer nie posiada domyślnie żadnego narzędzia do wyszukiwania w wielu wyszukiwarkach. Można je zainstalować z wieloma dodatkowymi paskami narzędziowymi (oficjalnymi lub tworzonymi przez osoby trzecie).''
+
+''<cite id="fn_5">(5):</cite> Moduł sprawdzania pisowni może być dodany wraz z instalacją rozszerzenia ([http://spellbound.sourceforge.net Spellbound]).''
+
+===Funkcjonalność c.d.===
+{| border="1" cellpadding="1" cellspacing="0" style="font-size: 85%; border: gray solid 1px; border-collapse: collapse; text-align: center; width: 100%;"
+|- style="background: #ececec"
+!
+! style="width:16%;" | Przeglądanie w kartach
+! style="width:16%;" | Blokowanie pop-upów
+! style="width:16%;" | Wyszukiwanie podczas wprowadzania łańcucha
+! style="width:16%;" | Filtr reklam
+! style="width:16%;" | Powiększanie strony&nbsp;<sup id="fn_6_back">6</sup>
+|-
+! style="text-align:left;" bgcolor="#ececec" | Amaya
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ececec" | n.d.
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Camino
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Dillo
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | ELinks
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ececec" | n.d.
+| bgcolor="#ececec" | n.d.
+|-
+! style="text-align:left;" bgcolor="#ececec" | Epiphany
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Galeon
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | iCab
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Internet Explorer
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Internet Explorer dla Maca
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | K-Meleon
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffffdd" | Częściowo
+|-
+! style="text-align:left;" bgcolor="#ececec" | Konqueror
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Links
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ececec" | n.d.
+| bgcolor="#ececec" | n.d.
+|-
+! style="text-align:left;" bgcolor="#ececec" | Lynx
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ececec" | n.d.
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ececec" | n.d.
+| bgcolor="#ececec" | n.d.
+|-
+! style="text-align:left;" bgcolor="#ececec" | Mosaic
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ececec" | n.d.
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#fcfcfc" | ?
+|-
+! style="text-align:left;" bgcolor="#ececec" | Mozilla
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffffdd" | Częściowo&nbsp;<sup id="fn_7_back">7</sup>
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Mozilla Firefox
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffffdd" | Częściowo&nbsp;<sup id="fn_7_back">7</sup>
+| bgcolor="#ffffdd" | Częściowo
+|-
+! style="text-align:left;" bgcolor="#ececec" | Netscape
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffffdd" | Częściowo&nbsp;<sup id="fn_7_back">7</sup>
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | OmniWeb
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Opera
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Safari
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|- style="background: #ececec"
+!
+! style="width:16%;" | Przeglądanie w kartach
+! style="width:16%;" | Blokowanie pop-upów
+! style="width:16%;" | Wyszukiwanie podczas wprowadzania łańcucha
+! style="width:16%;" | Filtr reklam
+! style="width:16%;" | Powiększanie strony
+|-
+|}
+''<cite id="fn_6">(6):</cite> Powiększanie strony różni się od powiększania tekstu, jako że powiększeniu ulegają również np. obrazki i tabele.''
+
+''<cite id="fn_7">(7):</cite> Mozilla, Mozilla Firefox i Netscape obsługują proste blokowanie obrazków po domenie, z której są wywołane. Więcej opcji, w tym również i wyrażenia regularne można zainstalować wraz z rozszerzeniem [http://adblock.mozdev.org Adblock].''
+
+===Funkcjonalność c.d.===
+{| border="1" cellpadding="1" cellspacing="0" style="font-size: 85%; border: gray solid 1px; border-collapse: collapse; text-align: center; width: 100%;"
+|- style="background: #ececec"
+!
+! klawisz dostępu HTML
+! Nawigacja po elementach
+! Nawigacja przy użyciu klawiszy
+! Nawigacja kursorem tekstowym
+! Gesty
+! Synteza głosowa
+! Obsługa głosowa
+|-
+! style="text-align:left;" bgcolor="#ececec" | Amaya
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Camino
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Dillo
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | ELinks
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Epiphany
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Galeon
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | iCab
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Internet Explorer
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie&nbsp;<sup id="fn_9_back">9</sup>
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Internet Explorer dla Maca
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | K-Meleon
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Konqueror
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Links
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Lynx
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Mosaic
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Mozilla
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie&nbsp;<sup id="fn_11_back">11</sup>
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Mozilla Firefox
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie&nbsp;<sup id="fn_11_back">11</sup>
+| bgcolor="#ffdddd" | Nie&nbsp;<sup id="fn_12_back">12</sup>
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Netscape
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie&nbsp;<sup id="fn_11_back">11</sup>
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | OmniWeb
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Opera
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie&nbsp;<sup id="fn_13_back">13</sup>
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Safari
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#fcfcfc" | ?
+|- style="background: #ececec"
+!
+! klawisz dostępu HTML
+! Nawigacja po elementach
+! Nawigacja prz użyciu klawiszy
+! Nawigacja kursorem tekstowym
+! Gesty
+! Synteza głosowa
+! Obsługa głosowa
+|-
+|}
+
+''<cite id="fn_9">(9):</cite> Obsługa gestów myszy może być dodana poprzez instalację dodatku [http://www.browsertools.net/Easy-Go-Back/ Easy Go Back] lub podobnego.''
+
+''<cite id="fn_10">(10):</cite> Doug Turner, główny autor projektu Minimo wprowadził nawigację za pomocą strzałek kursora w niektórych specjalnych, nieoficjalnych wersjach Firefoksa [http://weblogs.mozillazine.org/asa/archives/007992.html].''
+
+''<cite id="fn_11">(11):</cite> Obsługa gestów myszy może być dodana przez instalację rozszerzenia [http://www.mozillapl.org/index.php/mozillapl/katalogi_i_bazy/baza_dodatkow/rozszerzenia/nawigacja_na_stronach/gesty Gesty].''
+
+''<cite id="fn_12">(12):</cite> Firefox współpracuje z zewnętrznym oprogramowaniem typu [http://www.cs.utexas.edu/users/s2s/latest/jaws1/home/index.shtml JAVS] lub [https://webspace.utexas.edu/chencl1/clc-4-tts/ Microsoft SAPI 5 TTS] za pomocą specjalnych rozszerzeń.''
+
+''<cite id="fn_13">(13):</cite> Nawigacja kursorem tekstowym jest w Operze możliwa do osiągnięcia. [http://my.opera.com/shoust/blog/show.dml/305626]''
+
+===Wspierane technologie===
+Informacje o wspieranych technologiach
+{| border="1" cellpadding="1" cellspacing="0" style="font-size: 85%; border: gray solid 1px; border-collapse: collapse; text-align: center; width: 100%;"
+|- style="background: #ececec"
+!
+! style="width:7%;" | 13</sup>
+! style="width:7%;" | Ramki
+! style="width:7%;" | Java
+! style="width:7%;" | JavaScript
+! style="width:7%;" | XSLT
+! style="width:7%;" | 14</sup>
+! style="width:7%;" | MathML
+! style="width:7%;" | Web Forms 2
+! style="width:7%;" | XForms
+! style="width:7%;" | RSS
+! style="width:7%;" |  Atom
+|-
+! style="text-align:left;" bgcolor="#ececec" | Amaya
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Camino
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+|-
+! style="text-align:left;" bgcolor="#ececec" | Dillo
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffffdd" | Częściowo
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | ELinks
+| bgcolor="#ffffdd" | Częściowo
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffffdd" | Częściowo
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Epiphany
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Galeon
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | iCab
+| bgcolor="#ffffdd" | Częściowo
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Internet Explorer
+| bgcolor="#ffffdd" | Częściowo&nbsp;<sup id="fn_15_back">15</sup>
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Internet Explorer dla Maca
+| bgcolor="#ffffdd" | Częściowo
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | K-Meleon
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Konqueror
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Links
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffffdd" | Częściowo
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Lynx
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Mosaic
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Mozilla
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie&nbsp;<sup id="fn_16_back">16</sup>
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+|-
+! style="text-align:left;" bgcolor="#ececec" | Mozilla Firefox
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie&nbsp;<sup id="fn_16_back">16</sup>
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Netscape
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#fcfcfc" | ?
+|-
+! style="text-align:left;" bgcolor="#ececec" | OmniWeb
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Opera
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak&nbsp;<sup id="fn_17_back">17</sup>
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie&nbsp;<sup id="fn_18_back">18</sup>
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|-
+! style="text-align:left;" bgcolor="#ececec" | Safari
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#fcfcfc" | ?
+| bgcolor="#ffdddd" | Nie
+| bgcolor="#ddffdd" | Tak
+| bgcolor="#ddffdd" | Tak
+|- style="background: #ececec"
+!
+! CSS2
+! Ramki
+! Java
+! JavaScript
+! XSLT
+! XHTML
+! MathML
+! Web Forms 2
+! XForms
+! RSS
+! Atom
+|-
+|}
+
+''<cite id="fn_13">(13):</cite> Obecną rekomendowaną wersją CSS jest CSS2. CSS2.1 jeszcze nie jest rekomendacją (aktualnie ma status szkicu). Żadna ze specyfikacji CSS3 nie ma obecnie statusu rekomendacji.''
+
+''<cite id="fn_14">(14):</cite> XHTML opiera się o HTML, ale posiada elementy i cechy języka XML, co oznacza, że jest bardziej rygorystyczny pod względem poprawności kodu aniżeli HTML. XHTML w zamiarze powinien być interpretowany przez parsera XML, ale w celu zapewnienia kompatybilności wstecz może być również interpretowany jako HTML. Powyższa tabela uznaje przeglądarkę za wspierającą technologię XHTML, jeśli potrafi interpretować ją jako XML.''
+
+''<cite id="fn_15">(15):</cite> Internet Explorer 6 wspiera częściowo CSS2, ale ma również &ndash; w porównaniu do konkurencyjnych przeglądarek &ndash; znaczącą liczbę błędów w jego obsłudze (patrz: test Acid2).''
+
+''<cite id="fn_16">(16):</cite> XForms jest obsługiwany w wydaniach testowych powstałych po 28 stycznia 2005 [http://www.mozilla.org/projects/xforms/]. Wymagana instalacja rozszerzenia.''
+
+''<cite id="fn_17">(17):</cite> Obsługa XSLT, XPath i&nbsp;JavaScript XSLTProcessor została wprowadzona w&nbsp;Operze&nbsp;9.0.''

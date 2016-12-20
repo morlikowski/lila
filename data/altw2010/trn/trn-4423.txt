@@ -1,0 +1,112 @@
+{{French commune
+|name= Serques 
+|region=20px Nord-Pas-de-Calais   
+|departement=20px Pas-de-Calais 
+|arrondissement=20px Saint-Omer
+|canton= Saint-Omer-Nord
+|insee=62792
+|cp=62910
+|maire=Marie Lefebvre
+|mandat=
+|intercomm=Communauté d'agglomération de Saint-Omer
+|longitude=2.20166666667
+|latitude=50.7941666667
+|alt moy=7 m
+|alt mini=0 m
+|alt maxi=72 m
+|hectares=1,043
+|km²=10.43
+|sans=1,034
+|date-sans=1999
+|dens=99
+|date-dens=1999}}
+'''Serques'''  is a commune in the département'' in the Nord-Pas-de-Calais region of France.
+
+== Geography ==
+Serques is a village built on reclaimed marshes, located some 5 miles (8km) north of Saint-Omer, on the D214 road.
+
+== Population ==
+{| align="center" rules="all" cellspacing="0" cellpadding="4" style="border: 1px solid #999; border-right: 2px solid #999; border-bottom:2px solid #999; background: #f3fff3"
+|+ style="font-weight: bold; font-size: 1.1em; margin-bottom: 0.5em"| Population Evolution 
+|-style="background: #ddffdd"
+! 1962 !! 1968 !! 1975 !! 1982 !! 1990 !! 1999 
+|-
+| align=center| 683|| align=center| 755|| align=center|735|| align=center|707|| align=center| 893|| align=center| 1034  
+|-
+| colspan=6 align=center| <small>Census count starting from 1962 : Population without double counting
+|}
+
+== Places of interest ==
+* The church of St.Omer, dating from the 18th century.
+* The remains of a windmill. 
+
+== See also ==
+* Communes of the Pas-de-Calais department
+
+{{infobox Franse gemeente|
+|plaatsnaam= Serques
+|wapen= 
+|kaart= 
+|regio= Nord-Pas-de-Calais 
+|departement= Pas-de-Calais (62)
+|arrondissement= Sint-Omaars
+|kanton= Saint-Omer-Nord
+|jaar= 1999
+|inwoners= 1034
+|dichtheid= 99,4
+|oppervlakte= 10,4
+|water= 
+|latitudeGraden= 50 |latitudeMinuten= 48|latitudeSeconden= 0
+|longitudeGraden= 2 |longitudeMinuten= 12 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 154 |kaartY= 17
+|code= 62792
+|postcode= 62910
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Serques''' is een gemeente in het Franse departement Sint-Omaars.
+
+In een ver verleden had het dorp een Vlaamsklinkende naam; in de 12e eeuw werd ''Segerke'' geschreven; de huidige naam is daarvan een Franse fonetische nabootsing.
+
+==Geografie==
+De oppervlakte van Serques bedraagt 10,4 km², de bevolkingsdichtheid is 99,4 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:1500 color:gray1 width:1       
+  from:start till:end             
+  bar:1000 color:gray1              
+  from:start till:end            
+  bar:500 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,114)(84,106) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 827 1968: 755
+  points:(84,106)(100,103)    color:blue    width:2 #1975: 735
+  points:(100,103)(128,100)   color:blue    width:2 #1982: 707
+  points:(128,100)(160,121)   color:blue    width:2 #1990: 893
+  points:(160,121)(196,137)   color:blue    width:2 #1999: 1034
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

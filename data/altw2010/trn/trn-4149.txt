@@ -1,0 +1,176 @@
+{{Infoboks navn
+| navn = Vetle
+| uttale = 
+| betydning = «bjørnunge» eller «vinter» + «vasall»/«reisende»
+| opprinnelse = 
+| mye brukt i = -
+| kjønn = mann
+| etternavn = nei
+| variant1 = 
+| variant2 = 
+| variant3 = 
+| variant4 = 
+| variant5 = 
+| kortformer = 
+| kjæleformer = 
+| jentevarianter = 
+| guttevarianter = 
+| varianter = Velle, Vete, Vette
+| se også = 
+| svensk = 
+| dansk = 
+| islandsk = Veturliði
+| færøysk = Veturliði
+| samisk = 
+| finsk = 
+| engelsk = 
+| tysk = 
+| fransk = 
+| italiensk = 
+| spansk = 
+| bilde = 
+| bildetittel = 
+}}
+'''Vetle''' er et norsk mannsnavn med opprinnelse i de norrøne navnene ''Veturliði'' og ''Vetrliðr'', som kan ha flere mulige opprinnelser. De kan være:
+*dannet av norrøne ''vetrliði'', «bjørnunge».
+*satt sammen av norrøne ''vetr'', «vinter», og ''lið'', «vasall», eller ''liði'', «reisende».
+
+==Utbredelse==
+Tabellen nedenfor gir en detaljert oversikt over populariteten til fornavnet Vetle i noen av de landene hvor statistikk er tilgjengelig.
+{| class="wikitable" 
+! rowspan="2" | Land !! colspan="3" | Blant landets menn !! colspan="4" | Blant guttebarn
+|-
+! Antall !! Prosent !! Rangering !! Antall !! Prosent !! Rangering 
+
+|}
+
+{{Íslenskt mannanafn
+| nafn = Veturliði
+| kyn = kk
+| nefnifall = Veturliði
+| þolfall = Veturliða
+| þágufall = Veturliða
+| eignarfall = Veturliða
+| eiginnöfn = 7
+| millinöfn = 8
+| dagsetning = júlí 2007
+}}
+'''Veturliði''' er íslenskt karlmannsnafn.
+
+== Dreifing á Íslandi ==
+
+<timeline>
+ImageSize = width:600 height:320
+PlotArea = left:40 right:10 top:40 bottom:40
+AlignBars = late
+ 
+DateFormat = yyyy
+Period = from:1949 till:2008
+TimeAxis = orientation:horizontal
+ScaleMajor = unit:year increment:5 start:1950
+ 
+Colors =
+  id:canvas    value:white
+  id:fyrsta value: rgb(0.1,0.1,0.7)
+  id:seinna  value: rgb(1,0.7,0)
+ 
+Backgroundcolors = canvas:canvas
+ 
+TextData =
+  pos:(5,310) textcolor:black fontsize:S
+  text:Fjöldi
+  pos:(550,20) textcolor:black fontsize:S
+  text:Ár
+  pos:(250,310) textcolor:black fontsize:M
+  text:Heildarfjöldi nafngifta fyrir karlmannsnafnið Veturliði
+  pos:(50,315) textcolor:fyrsta fontsize:S
+  text:fyrsta nafn
+  pos:(50,300) textcolor:seinna fontsize:S
+  text:seinni nöfn
+ 
+BarData =
+  bar:5 text:5
+  bar:4 text:4
+  bar:3 text:3
+  bar:2 text:2
+  bar:1 text:1
+ 
+LineData=
+ color:fyrsta
+ width:5
+ 
+ at:1957 frompos:40 tillpos:90 #1
+ at:1958 frompos:40 tillpos:90 #1
+ at:1967 frompos:40 tillpos:90 #1
+ at:1971 frompos:40 tillpos:90 #1
+ at:1996 frompos:40 tillpos:90 #1
+ at:1998 frompos:40 tillpos:90 #1
+ 
+ color:seinna
+ width:1
+ 
+ at:1969 frompos:40 tillpos:90 #1
+ at:1972 frompos:40 tillpos:90 #1
+ at:1974 frompos:40 tillpos:90 #1
+ at:1991 frompos:40 tillpos:90 #1
+ at:2005 frompos:40 tillpos:90 #1
+ 
+</timeline>
+ 
+<timeline>
+ImageSize = width:600 height:320
+PlotArea = left:40 right:10 top:40 bottom:40
+AlignBars = late
+ 
+DateFormat = yyyy
+Period = from:1949 till:2008
+TimeAxis = orientation:horizontal
+ScaleMajor = unit:year increment:5 start:1950
+ 
+Colors =
+  id:canvas    value:white
+  id:fyrsta value: rgb(0.1,0.1,0.7)
+  id:seinna  value: rgb(1,0.7,0)
+ 
+Backgroundcolors = canvas:canvas
+ 
+TextData =
+  pos:(5,310) textcolor:black fontsize:S
+  text:Hlutfall
+  pos:(550,20) textcolor:black fontsize:S
+  text:Ár
+  pos:(250,310) textcolor:black fontsize:M
+  text:Hlutfall nafngifta fyrir karlmannsnafnið Veturliði
+  pos:(50,315) textcolor:fyrsta fontsize:S
+  text:fyrsta nafn
+  pos:(50,300) textcolor:seinna fontsize:S
+  text:seinni nöfn
+ 
+BarData =
+  bar:5 text:1 %
+  bar:4 text:0.8 %
+  bar:3 text:0.6 %
+  bar:2 text:0.4 %
+  bar:1 text:0.2 %
+ 
+LineData=
+ color:fyrsta
+ width:5
+ 
+ at:1957 frompos:40 tillpos:48 #0.03%
+ at:1958 frompos:40 tillpos:48 #0.03%
+ at:1967 frompos:40 tillpos:48 #0.03%
+ at:1971 frompos:40 tillpos:48 #0.03%
+ at:1996 frompos:40 tillpos:48 #0.03%
+ at:1998 frompos:40 tillpos:48 #0.03%
+ 
+ color:seinna
+ width:1
+ 
+ at:1969 frompos:40 tillpos:60 #0.08%
+ at:1972 frompos:40 tillpos:55 #0.06%
+ at:1974 frompos:40 tillpos:58 #0.07%
+ at:1991 frompos:40 tillpos:55 #0.06%
+ at:2005 frompos:40 tillpos:53 #0.05%
+ 
+</timeline>

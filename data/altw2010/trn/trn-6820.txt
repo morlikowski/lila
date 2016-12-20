@@ -1,0 +1,35 @@
+right|250px|thumb|Equatorial Coordinates 
+'''Right ascension''' (abbrev. '''RA'''; symbol '''&alpha;''') is the astronomical term for one of the two coordinates of a point on the celestial sphere when using the equatorial coordinate system. The other coordinate is the declination.
+
+==Explanation==
+RA is the celestial equivalent of terrestrial longitude. Both RA and longitude measure an east-west angle along the equator; and both measure from a zero point on the equator. For longitude, the zero point is the Prime Meridian; for RA, the zero point is known as the '''First Point of Aries''', which is the place in the sky where the Sun crosses the celestial equator at the March equinox. 
+
+RA is measured eastward from the degrees of arc, a single '''minute of right ascension''' equal to 15 minutes of arc, and a '''second of right ascension''' equal to 15 seconds of arc. meridian.
+
+RA can be used to determine a meridian, then a star with RA = 20:00:00 will be in the meridian 18.5 sidereal hours later.
+
+Since the precession, astronomers always specify these with reference to a particular epoch. The currently used standard epoch is TT. The prefix "J" indicates that it is a Julian epoch. Prior to this astronomers used the successive Besselian Epochs B1875.0, B1900.0 and B1950.0.
+
+==History==
+The concept of right ascension has been known at least as far back as star catalogs in ecliptical coordinates, and the use of RA was limited to special cases.
+
+thumb|300px|Coordenadas horizontais de um astro.
+
+A  (AR) é o ângulo formado pelo meridiano do Ponto Vernal e o meridiano em questão, na direção horizontal (leste-oeste). Pode-se fazer uma analogia ao conceito de longitude. Seu valor cresce sempre no sentido do leste, a partir do Ponto Vernal (marco zero), e é expresso normalmente em horas (0h a 24h), mas também pode ser expresso em graus (de 0° a 360°).
+
+==Outras informações==
+===Conceitos Relacionados===
+* '''Ascensão Reta Versa''' - Como a '''Ascensão Reta''' é medida para o sentido leste e os ângulos horários para o sentido oeste, foi criada a Ascensão Reta Versa (ARV), para possibilitar operações entre esses ângulos. Pode ser abreviada por '''ARV''' ou '''SHA''' e sua fórmula é '''ARV = 360° - AR'''
+====
+
+* Declinação - Igualmente análogo ao conceito de Latitude
+* Círculo Polar Antártico
+* Círculo polar ártico
+* Equador
+* Longitude
+* Linhas geográficas imaginárias
+* Meridiano de Greenwich
+* Observatório de Greenwich
+* Trópico de Câncer
+* Trópico de Capricórnio
+* Trópico

@@ -1,0 +1,49 @@
+thumb|right|100px|TriState Buffer mit Symbol gem. ANSI/ISO
+thumb|right|TriState Buffer mit Symbol gem. DIN
+thumb|TTL-Inverter mit Tri-State-Ausgang<ref>[http://www.rz.e-technik.fh-kiel.de/~dispert/digital/digital9/dig009_2.htm fh-kiel.de]</ref>
+
+Als '''Tri-State''' werden digitale Schaltungselemente bezeichnet, deren Ausgänge nicht wie üblich nur zwei (0 und 1), sondern zusätzlich noch einen dritten Zustand annehmen können, der mit „Z“ oder auch mit „high impedance“ (hochohmig) bezeichnet wird.
+
+Durch Tri-States ist es möglich, die Ausgänge mehrerer Bauelemente zusammenzuschalten, ohne dass es zu Kurzschlüssen, einer Überlagerung oder einer Datenbussen.
+
+== hochohmiger Zustand (Z) ==
+Der hochohmige Zustand (Z) wird von einem Bauteil ausgegeben, wenn dieses keine aktive Eingabe hat. Bei digitalen Schaltungen bedeutet dies, dass das Ausgangssignal weder logisch 0 noch 1 ist, sondern hochohmig. Ein solches Signal sorgt dafür, dass sich das Bauteil verhält als wäre es nicht verbunden und beeinflusst nicht die Ausgaben anderer Bauteile, die mit diesen parallel geschaltet sind. Es nimmt vielmehr dieselbe Ausgangspannung der aktiven anderen Bauteile an.
+
+== Wahrheitstabelle ==
+
+Dies entspricht einem geschlossenen Schalter. Durch einen LOW-Pegel (kurz ''L''; logisch 0) auf dem C-Eingang wird der Ausgang hochohmig (Z; unbestimmt) geschaltet. Im hochohmigen Zustand hat der Ausgang keinen festgelegten Pegel. Die Wirkungsweise kann man sich mit einem Schalter vorstellen, der bei einem Eingang auf C öffnet. Bei einem HIGH-Pegel (kurz ''H''; logisch 1) auf dem C-Eingang wird der Pegel am Eingang A auf den Ausgang übertragen.
+
+In digital logic allows output ports to have a value of logical 0, 1, or Hi-Z.  A ''Hi-Z'' output puts the pin in a bus, or allow a device to monitor signals without affecting the signal (as used in  Analog to Digital Converters). ''Tri-state'' is a registered trademark of National Semiconductor but is often used to describe devices made by any manufacturer.   
+
+Three-state outputs are implemented in various families of digital TTL gates, and often in the data and address bus lines of microprocessors. Three-state outputs may be found on individual logic gates, or in multiples in one integrated circuit package as a buffer for connection to a bus. 
+
+On some bus drivers or port expander ICs, setting an input pin called <span style="text-decoration: overline;">OE</span> (output enable) low puts all the outputs in a Hi-Z state;  setting that pin high makes all the outputs active, driving the bus to either 1 or 0.
+
+This form of gate should not be confused with ternary logic (''3-value'' logic).
+
+{| class="wikitable" align=right
+|- " align="center"
+|colspan=2|'''INPUT''' || '''OUTPUT'''
+|- " align="center"
+| A || B || C
+|- " align="center"
+|0 || 0 || Z
+|- " align="center"
+|0 || 1 || 0
+|- " align="center"
+|1 || 0 || Z
+|- " align="center"
+|1|| 1 || 1
+|}
+
+thumb|320px|right|A tristate buffer can be thought of as a switch. If ''B'' is on, the switch is closed. If B is off, the switch is open.
+
+== Uses of three-state logic ==
+The whole concept of the third state (Hi-Z) is to effectively remove the device's influence from the rest of the circuit.  If more than one device is electrically connected, putting an output into the Hi-Z state is often used to prevent short circuits (when one device drives high (logical 1) against another device driving low (logical 0)).  
+
+Three-state buffers can also be used to implement efficient multiplexers, especially those with large numbers of inputs.
+
+Three-state logic can reduce the number of wires needed to drive a set of LEDs (tristate multiplexing or Charlieplexing).
+
+== Use of pull-ups/pull-downs ==
+When outputs are tri-stated (in the Hi-Z state, also known as Floating) their influence on the rest of the circuit is removed.  Circuit designers will often use  pull-up or pull-down resistors (usually with in the range of 1 - 100k ohms) to influence the circuit when the output is tri-stated.  For example, the I2C bus protocol  (a bi-directional communication bus protocol often used between devices) specifies the use of pull-up resistors on the two communication lines.  When devices are inactive, they "release" the communication lines and tri-state their outputs, thus removing their influence on the circuit.  When all the devices on the bus have "released" the communication lines, the only influence on the circuit is the pull-up resistors, which pull the lines high.  When a device wants to communicate, it comes out of the Hi-Z state and drives the line low.  Devices communicating using this protocol either let the line float high, or drive it low -- thus preventing any short circuit situation where one device drives a line high and another low.

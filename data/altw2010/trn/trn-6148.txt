@@ -1,0 +1,64 @@
+{{Chembox new
+| ImageFile = Nitroblue_tetrazolium.svg
+| ImageSize = 250px
+| IUPACName = 
+| OtherNames =
+| Section1 = {{Chembox Identifiers
+|   CASNo = 298-83-9
+|   PubChem = 9281
+|   SMILES = 	[Cl-].[Cl-].[O-][N+](=O)c1ccc(cc1)n2nc
+(n[n+]2c3ccc(cc3OC)c7ccc([n+]5nc
+(nn5c4ccc(cc4)[N+]([O-])=O)
+c6ccccc6)c(OC)c7)c8ccccc8
+  }}
+| Section2 = {{Chembox Properties
+|   Formula = C<sub>40</sub>H<sub>30</sub>Cl<sub>2</sub>N<sub>10</sub>O<sub>6</sub>
+|   MolarMass = 817.64 g/mol
+|   Appearance = 
+|   Density = 
+|   MeltingPt = 
+|   BoilingPt = 
+|   Solubility = 
+  }}
+| Section3 = {{Chembox Hazards
+|   MainHazards = 
+|   FlashPt = 
+|   Autoignition = 
+  }}
+}}
+'''Nitro blue tetrazolium''' is a moieties. It is used in substrate (and gives also dark blue dye). In immunohistochemistry the alkaline phosphatase is often used as a marker, conjugated to an antibody. The colored product can either be of the NBT/BCIP reaction reveals where the antibody is bound, or can be used in immunofluorescence.<ref></ref>
+
+The NBT/BCIP reaction is also used for colorimetric/spectrophotometric activity assays of oxidoreductases. One application is in activity stains in gel electrophoresis, such as with the mitochondrial electron transport chain complexes.<ref></ref>
+
+Also used as a diagnostic test for Chronic Granulomatous Disease. A disease where there is a defect in NADPH oxidase, therefore the phagocyte is unable to make the reactive oxygen species or radicals required for bacterial killing and results in bacteria thriving within the phagocyte.<ref></ref>
+
+{{Infobox Chemikalie
+ | Name                      = Nitroblau-Tetrazoliumchlorid (NBT)
+ | Strukturformel            = 300px|Strukturformel Nitroblau-Tetrazoliumchlorid
+ | Andere Namen              = 3,3'-(3,3'-Dimethoxy-4,4'-biphenylylen) -bis-[2-(4-nitro-phenyl)-5-phenyl-2''H'' -tetrazoliumchlorid]
+ | Summenformel              = C<sub>40</sub>H<sub>30</sub>N<sub>10</sub>O<sub>6</sub>Cl<sub>2</sub>
+ | CAS                       = 298-83-9
+ | PubChem                   = 9281
+ | Beschreibung              = gelbe Kristalle
+ | Molare Masse              = 817,65  g·mol<sup>−1</sup>
+ | Aggregat                  = fest
+ | Dichte                    = 
+ | Schmelzpunkt              = 189 °C <ref name="Merck"/>
+ | Siedepunkt                = 
+ | Dampfdruck                = 
+ | Löslichkeit               = *schlecht in Wasser <ref name="Merck"/>
+*löslich in DMF
+ | Quelle GefStKz            = <ref name="Merck">''[http://de.chemdat.info/mda/de chemdat.info]''</ref>
+ | Gefahrensymbole           = 
+ | R                         =  
+ | S                         =  
+ | MAK                       = 
+ | LD50                      = 2000 mg/kg (Maus, peroral) <ref name="ChemIDplus"></ref>   
+}}
+'''Nitroblau-Tetrazoliumchlorid''' ('''NBT'''), eine quartäre Ammoniumverbindung, ist ein Di-Tetrazoliumsalz und Redox-Farbstoff.
+
+== Eigenschaften ==
+Durch Reduktion des Di-Tetrazoliumsalzes entsteht zunächst ein '''roter''' Mono-Formazanfarbstoff. Bei weiterer Reduktion entsteht ein '''blauer''' Di-Formazanfarbstoff.
+
+== Verwendung ==
+In der Alkalische Phosphatase (AP) benutzt.<ref>McGadey, J. (1970): ''A tetrazolium method for non-specific alkaline phosphatase.'' In: ''Histochemie.'' Bd. 23, S. 180-184. PMID 5507043 [http://dx.doi.org/10.1007/BF00305851 doi]</ref><ref>Knecht, D.A. ''et al.'' (1984): ''Visualization of antigenic proteins on Western blots.'' In: ''Anal. Biochem.'' Bd. 136, S. 180-184. PMID 6201085 [http://dx.doi.org/10.1016/0003-2697(84)90321-X doi]</ref>

@@ -1,0 +1,57 @@
+thumb|right|250px|Un disco cifrante di Leon Battista Alberti Da: A Treatise on Ciphers, Galimberti ed. 1997
+Il '''disco cifrante''' di De Cifris''  intorno al 1467, è il primo sistema di cifratura polialfabetica. L’apparecchio si compone di due dischi concentrici, rotanti uno rispetto all'altro, contenenti un alfabeto ordinato per il chiaro (testo da cifrare) e un alfabeto mischiato per il cifrato (testo risultante). Permette la sostituzione polialfabetica con periodo irregolare. Lo scorrimento degli alfabeti avviene per mezzo di lettere chiave inserite nel corpo del crittogramma. I quattro numeri possono anche servire per sopracifrare 336 frasi di codice. 
+
+== Primo esempio di cifratura - Indice mobile ==
+Usa come indice una lettera minuscola scelta nel cerchio interno (mobile).
+
+Stabilita la '''g''' come lettera indice e avendola giustapposta alla '''A''' maiuscola del cerchio esterno (stabile o fisso), lo sviluppo dei due alfabeti è il seguente (vedi figura):
+
+<pre>
+disco stabile:    ABCDEFGILMNOPQRSTVXZ1234
+disco mobile:     gklnprtuz&xysomqihfdbace
+</pre>
+
+Dispaccio da trasmettere: “La guerra si farà”
+
+<pre>
+chiaro:           LAGVER2RA
+cifratura:       AzgthpmamgQ
+</pre>
+
+La '''a''' che cifra il '''2''' è una “nulla” che si omette nella decifrazione. Il sistema prevede che le lettere chiave siano inserite nel crittogramma in maiuscolo.
+
+Dopo aver cifrato alcune lettere si inserisce nel cifrato a fronte della '''g''' un’altra lettera maiuscola ('''Q''') ruotando il disco mobile in modo da ottenere le nuove corrispondenze:
+
+<pre>
+disco stabile:    ABCDEFGILMNOPQRSTVXZ1234
+disco mobile:     ysomqihfdbacegklnprtuz&x
+</pre>
+
+La cifratura continuerà cosí:
+
+<pre>
+chiaro:           SIFARÀ.
+cifratura:       Qlfiyky.
+</pre>
+
+== Secondo esempio di cifratura – Indice fisso ==
+Si sceglie una lettera maiuscola dell’anello esterno come indice fisso.
+
+The '''Alberti Cipher''' was one of the first polyalphabetic ciphers.
+
+== Leon Battista Alberti ==
+
+Created in the 15th century '''(1466/67)''' by Leon Battista Alberti, it was the peak of cryptography at that time.
+Its inventor was Leon Battista Alberti, an illegitimate son of an Italian nobleman. He was also interested in Vatican.
+
+== Description == 
+
+The Alberti Cipher Disk described by Leon Battista Alberti in his treatise ''De Cifris'' http://it.wikipedia.org/wiki/De_cifris embodies the first example of polyalphabetic substitution with mixed alphabets and variable period. This device, called ''Formula'', is made up of two concentric disks, attached by a common pin, which can rotate one with respect to the other.
+ 
+The larger one is called ''Stabilis'' [stationary or fixed], the smaller one is called ''Mobilis'' [movable]. The circumference of each disk is divided into 24 equal cells. The outer ring contains one uppercase alphabet for ciphertext. The outer ring also includes the numbers 1 to 4 for the superencipherment of a codebook containing 336 phrases with assigned numerical values. This is a very effective method of concealing the code-numbers, since their equivalents cannot be distinguished from the other garbled letters. The sliding of the alphabets is controlled by key letters included in the body of the cryptogram.
+
+For an unequivocal study of this cipher two chapters of ''De Cifris'' are herewith reproduced in English.
+
+''Chapter XIV.'' '' I will first describe the movable index. Suppose that we agreed to use the letter k as an index letter in the movable disk.'' '' At the moment of writing I will position the two disks of the formula as I wish, for example juxtaposing the index letter to capital B, with all other small letters corresponding to the capital letters above them. When writing to you, I will first write a capital B that corresponds to the index k in the formula. This means that if you want to read my message you must use the identical formula you have with you, turning the movable disk until the letter B corresponds to the index k. Thus all small letters in the ciphertext will receive the meaning and sound of those above them in the stationary disk. When I have written three or four words I will change the position of the index in our formula, turning the disk until, say, the index k is under capital R.'' '' Then I will write a capital R in my message and from this point onward the small k will no longer mean B but R, and the letters that follow in the text, will receive new meanings from the capital letters above them in the stationary disk. When you read the message you have received, you will be advised by the capital letter, which you know is only used as a signal, that from this moment the position of the movable disk and of the index has been changed.'' '' Hence, you will also place the index under that capital letter, and in this way you will be able to read and understand the text very easily. The four letters in the movable disk facing the four numbered cells of the outer ring will not have, so to speak, any meaning by themselves and may be inserted as nulls within the text.'' '' However, if used in groups or repeated, they will be of great advantage, as I will explain later on.''
+
+''Chapter XV.'' '' We can also choose the index letter among the capital letters and agree between us which of them will be the index.'' '' Let us suppose we chose the letter B as an index. The first letter to appear in the message will be a small one at will, say q.'' '' Hence, turning the movable disk in the formula you will place this letter under the capital B that serves as an index.'' '' It follows that q will take the sound and meaning of B.'' '' For the other letters we will continue writing in the manner described earlier for the movable index. When it is necessary to change the set up of the disks in the formula, then I will insert one, and no more, of the numeral letters into the message, that is to say one of the letters of the small disk facing the numbers which corresponds to, let’s say, 3 or 4, etc. Turning the movable disk I will juxtapose this letter to the agreed upon index B and, successively, as required by the logic of writing, I will continue giving the value of the capitals to the small letters.'' '' To further confuse the scrutinizers you can also agree with your correspondent that the capital letters intermingled in the message have the function of nulls and must be disregarded, or you may resort to similar conventions, which are not worth recalling.'' '' Thus changing the position of the index by rotating the movable disk, one will be able to express the phonetic and semantic value of each capital letter by means of twenty-four different alphabetic characters, whereas each small letter can correspond to any capital letter or to any of the four numbers in the alphabet of the stationary disk.'' ''Now I come to the convenient use of the numbers, which is admirable.''

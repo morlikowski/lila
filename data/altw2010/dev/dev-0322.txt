@@ -1,0 +1,93 @@
+A '''digital signature''' or '''digital signature scheme''' is a type of asymmetric cryptography used to simulate the security properties of a handwritten signature on paper. Digital signature schemes consist of at least three algorithms: a key generation algorithm, a signature algorithm, and a verification algorithm. A signature provides authentication of a "message".  Messages may be anything, from electronic mail to a contract, or even a message sent in a more complicated cryptographic protocol. 
+
+Digital signatures are often used to implement electronic signatures, a broader term that refers to any electronic data that carries the intent of a signature<ref>[http://frwebgate.access.gpo.gov/cgi-bin/getdoc.cgi?dbname=106_cong_public_laws&docid=f:publ229.106.pdf US ESIGN Act of 2000]</ref>, but not all electronic signatures use digital signatures.<ref>[http://www.itc.virginia.edu/virginia.edu/fall00/digsigs/home.html The University of Virginia]</ref><ref>[http://enterprise.state.wi.us/home/strategic/esig.htm State of WI]</ref><ref>[http://www.naa.gov.au/recordkeeping/er/Security/6-glossary.html National Archives of Australia]</ref>  In some countries, including the United States, and in the European Union, electronic signatures have legal significance.  However, laws concerning electronic signatures do not always make clear their applicability towards cryptographic digital signatures, leaving their legal importance somewhat unspecified.  
+
+==Definition==
+thumb|right|350px|A diagram showing how a digital signature is applied and then verified.
+
+A digital signature scheme typically consists of three algorithms:
+
+* A ''uniformly at random from a set of possible private keys. The algorithm outputs the private key and a corresponding ''public key''.
+* A ''signing'' algorithm which, given a message and a private key, produces a signature.
+* A ''signature verifying'' algorithm which given a message, public key and a signature, either accepts or rejects.
+
+Two main properties are required.  First, a signature generated from a fixed message and fixed private key should verify on that message and the corresponding public key. Secondly, it should be computationally infeasible to generate a valid signature for a party who does not possess the private key.
+
+==History==
+
+In the famous paper "New Directions in Cryptography", MIT, 2002.</ref>  Soon afterwards, Ronald Rivest, Adi Shamir, and Len Adleman invented the RSA algorithm that could be used for primitive digital signatures<ref>"A Method For Obtaining Digital Signatures and Public-Key Cryptosystems," Communications of the ACM, 21(2): 120-126, Feb. 1978.</ref>. (Note that this just serves as a proof-of-concept, and "plain" RSA signatures are not secure.)  The first widely marketed software package to offer digital signature was Lotus Notes 1.0, released in 1989, which used the RSA algorithm.
+ 
+Basic RSA signatures are computed as follows.  To generate RSA signature keys, one simply generates an RSA key pair containing a modulus ''N'' that is the product of two large primes, along with integers ''e'' and ''d'' such that ''e d'' = 1 mod φ(''N''), where φ is the Euler phi-function. The signer's public key consists of ''N'' and ''e'', and the signer's secret key contains ''d''.
+
+To sign a message ''m'', the signer computes σ=''m''<sup>''d''</sup> mod ''N''. To verify, the receiver checks that σ<sup>''e''</sup> = ''m'' mod ''N''.
+
+As noted earlier, this basic scheme is not very secure. To prevent attacks, one can first apply a cryptographic hash function to the message ''m'' and then apply the RSA algorithm described above to the result. This approach can be proven secure in the so-called random oracle model.
+
+Other digital signature schemes were soon developed after RSA, the earliest being Merkle signatures (also known as "Merkle trees" or simply "Hash trees")<ref>"A certified digital signature", Ralph Merkle, In Gilles Brassard, ed., Advances in Cryptology -- CRYPTO '89, vol. 435 of Lecture Notes in Computer Science, pp. 218-238, Spring Verlag, 1990.</ref>, and Rabin signatures<ref>"Digitalized signatures as intractable as factorization."  Michael O. Rabin, Technical Report MIT/LCS/TR-212, MIT Laboratory for Computer Science, Jan. 1979</ref>.  
+
+In 1984, Shafi Goldwasser, Silvio Micali, and Ronald Rivest became the first to rigorously define the security requirements of digital signature schemes<ref>S. Goldwasser, S. Micali, and R. Rivest. "A Digital Signature Scheme Secure Against Adaptive Chosen-Message Attacks". SIAM J. Computing 17(2): 281-308 (1988). Conference version published in 1984.</ref>.  They described a hierarchy of attack models:
+
+# In a ''key-only'' attack, the attacker is only given the public verification key.
+# In a ''known message'' attack, the attacker is given valid signatures for a variety of messages known by the attacker but not chosen by the attacker.
+# In a ''chosen message'' attack, the attacker first learns signatures on arbitrary messages of the attacker's choice.
+
+They also describe a hierarchy of attack results:
+
+# A ''total break'' results in the recovery of the signing key.
+# A ''universal forgery'' attack results in the ability to forge signatures for any message.
+# A ''selective forgery'' attack results in a signature on a message of the adversary's choice.
+# An ''existential forgery'' merely results in some valid message/signature pair not already known to the adversary.
+
+They also present the GMR signature scheme, the first that can be proven to prevent even an existential forgery against a chosen message attack.<ref>"A digital signature scheme secure against adaptive chosen-message attacks.", Shafi Goldwasser, Silvio Micali, and Ronald Rivest.  SIAM Journal on Computing, 17(2):281-308, Apr. 1988.</ref>
+
+Most early signature schemes were of a similar type: they involve the use of a trapdoor permutation, such as the RSA function, or in the case of the Rabin signature scheme, computing square modulo composite ''n.''  A trapdoor permutation family is a family of permutations, specified by a parameter, that is easy to compute in the forward direction, but is difficult to compute in the reverse direction.  However, for every parameter there is a "trapdoor" that enables easy computation of the reverse direction.  Trapdoor permutations can be viewed as public-key encryption systems, where the parameter is the public key and the trapdoor is the secret key, and where encrypting corresponds to computing the forward direction of the permutation, while decrypting corresponds to the reverse direction.  Trapdoor permutations can also be viewed as digital signature schemes, where computing the reverse direction with the secret key is thought of as signing, and computing the forward direction is done to verify signatures.  Because of this correspondence, digital signatures are often described as based on public-key cryptosystems, where signing is equivalent to decryption and verification is equivalent to encryption, but this is not the only way digital signatures are computed.  
+
+Used directly, this type of signature scheme is vulnerable to a key-only existential forgery attack.  To create a forgery, the attacker picks a random signature σ and uses the verification procedure to determine the message ''m'' corresponding to that signature.<ref>"Modern Cryptography: Theory & Practice", Wenbo Mao, Prentice Hall Professional Technical Reference, New Jersey, 2004, pg. 308.  ISBN 0-13-066943-1</ref>  In practice, however, this type of signature is not used directly, but rather, the message to be signed is first hashed to produce a short digest that is then signed.  This forgery attack, then, only produces the hash function output that corresponds to σ, but not a message that leads to that value, which does not lead to an attack.  In the hash-and-decrypt form of signature is existentially unforgeable, even against a chosen-message attack.<ref name=lysythesis />
+
+There are several reasons to sign such a hash (or message digest) instead of the whole document. 
+*'''For efficiency:''' The signature will be much shorter and thus save time since hashing is generally much faster than signing in practice. 
+*'''For compatibility:'''  Messages are typically bit strings, but some signature schemes operate on other domains (such as, in the case of RSA, numbers modulo a composite number ''N'').  A hash function can be used to convert an arbitrary input into the proper format.
+*'''For integrity:''' Without the hash function, the text "to be signed" may have to be split (separated) in blocks small enough for the signature scheme to act on them directly.  However, the receiver of the signed blocks is not able to recognize if all the blocks are present and in the appropriate order.
+
+==Benefits of digital signatures==
+Below are some common reasons for applying a digital signature to communications:
+
+===Authentication===
+Although messages may often include information about the entity sending a message, that information may not be accurate.  Digital signatures can be used to authenticate the source of messages.  When ownership of a digital signature secret key is bound to a specific user, a valid signature shows that the message was sent by that user.  The 
+importance of high confidence in sender authenticity is especially obvious in a financial context.  For example, suppose a bank's branch office sends instructions to the central office requesting a change in the balance of an account.  If the central office is not convinced that such a message is truly sent from an authorized source, acting on such a request could be a grave mistake.
+
+===Integrity===
+In many scenarios, the sender and receiver of a message may have a need for confidence that the message has not been altered during transmission.  Although encryption hides the contents of a message, it may be possible to ''change'' an encrypted message without understanding it.  (Some encryption algorithms, known as nonmalleable ones, prevent this, but others do not.)  However, if a message is digitally signed, any change in the message will invalidate the signature.  Furthermore, there is no efficient way to modify a message and its signature to produce a new message with a valid signature, because this is still considered to be computationally infeasible by most cryptographic hash functions (see collision resistance).
+
+==Drawbacks of digital signatures==
+
+Despite their usefulness, digital signatures alone do not solve the following problems:
+
+===Association of digital signatures and trusted time stamping===
+Digital signature algorithms and protocols do not inherently provide certainty about the date and time at which the underlying document was signed. The signer might have included a time stamp with the signature, or the document itself might have a date mentioned on it. Regardless of the document's contents, a reader cannot be certain the signer did not, for example, backdate the date or time of the signature. Such misuse can be made impracticable by using trusted time stamping in addition to digital signatures.
+
+'''Podpis cyfrowy''' (podpis elektroniczny) to dodatkowa informacja dołączona do wiadomości służąca do weryfikacji jej źródła.
+
+==Architektura==
+
+Podpis elektroniczny służy zapewnieniu między innymi następujących funkcji:
+
+* autentyczności, czyli pewności co do autorstwa dokumentu,
+* niezaprzeczalności nadania informacji, nadawca wiadomości nie może wyprzeć się wysłania wiadomości, gdyż podpis cyfrowy stanowi dowód jej wysłania (istnieją także inne rodzaje niezaprzeczalności),
+* integralności, czyli pewności, że wiadomość nie została zmodyfikowana po złożeniu podpisu przez autora.
+
+Do zapewnienia wszystkich wymienionych funkcji potrzebne jest zastosowanie trzech środków:
+
+* instrumentów technicznych - algorytmów, protokołów i formatów, które dzięki zastosowaniu technik kryptograficznych zapewniają integralność oraz wiążą klucz prywatny autora z dokumentem, zapewniając autentyczność i niezaprzeczalność
+* instrumentów prawnych, czyli dyrektyw, ustaw i rozporządzeń, które osadzają wymienione instrumenty techniczne w obowiązującym prawie,
+* instrumentów organizacyjnych, takich jak centra certyfikacji, które występując jako zaufana trzecia strona poświadczają związek klucza prywatnego z konkretną osobą.
+
+==Kryptografia==
+Podpisy cyfrowe korzystają z kryptografii asymetrycznej &ndash; tworzona jest para kluczy, klucz prywatny i klucz publiczny &ndash; klucz prywatny służy do podpisywania wiadomości, klucz publiczny natomiast do weryfikowania podpisu.
+
+Najważniejszymi kryptosystemami umożliwiającymi podpisywanie cyfrowe są RSA i DSA, GOST 31.10 czy KCDSA).
+
+Inne znane systemy proponowane dla podpisu elektronicznego to schematy oparte na krzywych eliptycznych (logarytmu dyskretnego (np. XTR), algorytmy wielu zmiennych (jak Quartz) oraz operujące na kratach (NTRU-Sign).
+
+==Systemy podpisu cyfrowego==
+Najpopularniejsze standardy pozwalające na złożenie podpisu elektronicznego to PGP.

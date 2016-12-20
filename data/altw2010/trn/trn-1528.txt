@@ -1,0 +1,114 @@
+{{Infobox VG
+|title = Urban Assault
+|image = 256px|Box cover to ''Urban Assault''
+|developer = TerraTools
+|publisher = Microsoft Game Studios
+|released = July 31, 1998
+|genre = Shooter/strategy
+|modes = Serial, Microsoft Zone
+|ratings = ELSPA: 11+<br />ESRB: Everyone (E)<br />USK: 16+
+|platforms = Microsoft Windows
+|media = CD (1)
+|requirements = Windows 95, Pentium 133 MHz or compatible, 16 MB RAM, 1 MB SVGA video card, 4X CD-ROM, 100 MB hard drive space
+|input = Keyboard, Mouse, Joystick with Force feedback
+}}
+
+'''''Urban Assault''''' is a combined German company TerraTools and published by Microsoft. It was released on July 31 1998.
+
+The player creates and commands groups of tanks and aircraft, and can also take direct control of one vehicle at a time. Over the course of the game one can acquire upgrades and new vehicles.
+
+==Gameplay==
+
+The player is in command of a futuristic ''host station'' with plasma energy technology, allowing the player to create units and buildings, as long as the blueprints and sufficient energy are available. In the single-player campaign, the objective of each mission is to capture each key sector on the map, allowing use of the ''beam gate'' to transport the host station to the next field of battle. However, destroying enemy host stations imparts a bonus to the player's maximum energy reserves. Combined with the fact that many key sectors are located deep in enemy territory or even right below an enemy faction's host station, the unstated goal of each game is to eliminate all enemy host stations. In multiplayer, beam gates are not present on the map and the only objective is to destroy opponents. 
+
+===Resources===
+
+Like most strategy games, the game is centered around resources. The sole resource in ''Urban Assault'' is '''energy''', which is required to build units and buildings used to conquer other factions. Energy is gained through controlling power stations. Each power station emits energy relative to the number of white boxes attached to it on the map screen; each box represents more power output. Power stations are also limited in power output by the number of adjacent sectors controlled by the player, referred to in-game as ''efficiency'', forcing the player to increase control of the map in order to create more powerful armies. Powerful units and buildings require significant amounts of energy to build.
+
+==Plot==
+
+The plot of ''Urban Assault'' is set in the future, where third world war. Citizens are forced into domed communities, which shield them from dangerous levels of UV radiation (to an extent) and filters the toxic air. However, most of the adult population had already consumed contaminated food, and most died within five years - regardless of location, domed or not.
+
+A group of alien invaders, the Mykonians, view humans as being unworthy of such a resource-rich planet, and implant their Parasite Machine into the crust of the planet to draw energy directly from the Earth's core. The Parasite Machine is causing the Earth's core to cool, weakening its magnetic field, eventually causing solar radiation levels to rise and obliterating all of the planet's biomass, making it suitable for Mykonian colonization. In the campaign, Mykonian forces are usually present in northern Europe, where the cool temperatures allow for more efficient data transfer.
+
+A second group of alien invaders, the plant-like Sulgogars, have invaded northern Africa, where the warm climate creates a suitable spawning ground. Only seen in mid- to late-game missions in northern Africa, the Slugogars are the most challenging faction to defeat.
+
+Three human factions exist as well; these include the Ghorkovs, Taerkastens, and the Black Sect.
+
+==Factions==
+===The Resistance===
+
+The Resistance represents the last traces of democracy and freedom to survive global chaos. The Resistance was months away from destruction when a coalition of engineers and hackers wired together the free world's computers to create seven host stations. The host stations, however, had a caveat: no one would entrust the task of defending democracy and freedom to machines, so each host station was piloted by a ''Synaptic Donor Unit'', abbreviated SDU. These SDUs were regarded as heroes, who, according to the game's help files, "sacrificed their humanity for the continual humanity of others."
+
+In the single-player campaign, the player role is that of the last SDU champion to be deployed into battle, SDU 7.
+
+The Resistance has a variety of war machines, notably the rapid-fire Dragonfly helicopter, the sub-nuclear missile launching Rhino, and the effective anti-air tank Fox.
+
+===Ghorkovs===
+
+The Ghorkovs are the faction most similar to The Resistance in terms of the vehicles they use. The Ghorkovs begin as the first enemy the player encounters in the game, and Ghorkovs frequently reappear in later missions. According to one of the game's pre-mission briefings, the Ghorkovs were originally allies of the Resistance, but later turned against them when the Resistance attempted to sell the Ghorkovs out to the Mykonians.
+
+The Ghorkov host station icon is a red star, representing communism and totalitarianism.
+
+In the single-player campaign, the Ghorkovs are the easiest faction to defeat, and are usually saved for last in multi-faction missions.
+
+'''Urban Assault'''(アーバン アサルト)は、3Dシューティングゲーム。
+
+==概要==
+「人類最大の過ち」と呼ばれる環境破壊後、わずかに生存する人類などが互いに争っている近未来。ヨーロッパから北アフリカ、西アジアが舞台である。自軍である「レジスタンス」を指揮し、地球外生命体マイコニアが地球を侵略するために設置した兵器「パラサイト」を破壊し、生き残ることが目的。各軍はホストステーション(以下HS)とよばれる軍中枢からさまざまなマシンや施設を指揮する。
+<br/>
+通常のゲームでいうボスは存在せず、「ビームゲート」をくぐることで次のステージへテレポートし、クリアとなる。ただし、実質的には各軍を倒さねばクリアできないようなステージも多い。
+また、従来の戦略ゲームと違い、自分でマシンを操作することができ、戦局を大きく変えることができる。
+
+==兵器==
+各軍はそれぞれの兵器を駆使し、偵察、占領、兵器の破壊、制圧、防御などの戦術を展開する。各兵器はそれぞれエネルギーと呼ばれるものを持ち、その数値が0になったときに破壊される。エネルギーの数値は各兵器によって異なる。<br>
+また、多くの兵器は武器を発射出来る。武器は敵兵器のエネルギーを減らす他、フィールドセクタの占領、建物の破壊なども可能。武器の攻撃力、性質、飛距離などは各武器によって異なる。
+それに対し、各兵器は装甲を持ち、自エネルギーが減る量を軽減することが出来る。
+===ホストステーション（HS）===
+マシンおよび施設を作ることができる中枢。砲台を装備する。マシンを作成するときは、そのマシンのエネルギー量の2倍がHSのエネルギーから消費される。施設の場合は特に規則性はない。自軍のHSが破壊されるとゲームオーバー、敵軍のHSを破壊すると、その軍のマシンがすべて破壊され、占領していたセクタが全て自軍のものになる。
+シングルプレイヤーでは、自軍のHSは移動距離に応じたエネルギーを消費し、テレポートで移動することになる。敵軍は逆にフィールド上を飛行し、テレポートはできない。マルチプレイヤーでは、HSはすべてテレポート移動である。<br>
+
+===マシン===
+ゲーム中では、各軍の兵器は7つに分類される。武器を使用すると、その攻撃力に応じてエネルギーを消費する。偵察機以外は自分のセクタから1～2マスの範囲が索敵可能。また、「人類最大の過ち」によって地球上の水は枯れてしまっているため、海軍は存在しない。
+<br>
+;戦車
+:ほとんどが強力な装甲と武器を有し、施設やHSに対して有効な兵器である。ただし、ゴアカフ軍のスピーディのようにかなり対空戦車に近いものも存在する。
+
+;対空戦車
+:低コスト、高速な車両で、その名の通り航空機に対して高い戦闘力を発揮する。分類としての対空戦車を持つのはレジスタンス軍のみである。
+
+;爆撃機
+:戦車に対して高い攻撃力を発揮するが、プレイヤーが操作した場合の命中率は高くない。また、アーバンアサルトの航空機は現実のそれよりもかなり低速かつ低高度を飛行するため、爆撃機で戦闘機やヘリコプターを撃墜するような芸当も可能である。
+
+;ヘリコプター
+:主に戦車に対して威力を発揮する。
+
+;戦闘機
+:比較的高速で、他の航空機に対して有効である。
+
+;偵察衛星
+:武器は装備していないが、他のマシンより索敵範囲が広い。また、移動速度も最速クラスである。
+
+;特殊兵器
+:対マシンよりも、施設やHSへの攻撃のために設計されている。以下に例を挙げる。
+
+*ライノ（レジスタンス軍）
+:通常の戦車とは比較にならない程の破壊力と射程を持ったロケット弾を発射できるが、代わりに装甲は最低クラスであり、連射力も無いに等しい。施設やHSの遠距離攻撃に使われることが多い。
+
+*ロックスレッド（レジスタンス軍）
+:自爆によって敵を攻撃する高速車両。ゲーム中では値が表示されないが、ずば抜けた攻撃力を持ち、PSでも一撃で破壊することができる。その反則的な性能からか、マルチプレイヤーでは使用不可である。
+
+===施設===
+他軍に占領されていないセクタにのみ設置できる。HSを補助するなどの用途がある。スルゴガー軍のみ、施設を作る事ができない。
+<br>
+;パワーステーション（PS）
+:HSやマシンのエネルギーを回復させることができる。回復量は種類、PSまでの距離、損傷度によって異なる。また、PSを所持している軍のセクタ内にHSやマシンが侵入し、接近するとそのエネルギーが減る。減量はPSに近づけば近づくほど大きくなる。ただしいくら近くてもPSを所持している軍のセクタ内に侵入しなければ減ることはない。
+
+;フラクステーション
+:近づく敵軍を攻撃する。通常のマシンと比べて装甲が厚く、兵器を使用してもライフが減ることは無いが、PSによってエネルギーが回復することもない。
+
+;レーダーステーション
+:一定範囲内のセクタの状況を監視する。通常の偵察衛星より装甲が厚く、索敵範囲も広い。
+
+;スタッドソン爆弾
+:自軍以外のすべての兵器・施設を破壊することができる。作成することも破壊することもできない。もともとステージに存在している場合のみ使用できる。通常本体とキーセクタがあり、その全てを占領するとカウントダウンが始まる。そのままカウントダウンが終了すると爆発し、施設と自軍以外の全てのマシンとHSが破壊される。カウントダウン中にどれか1つでも他軍に占領されるとカウントダウンが止まり、全てが他軍に占領されるとその軍のカウントダウンがはじめからやり直される。

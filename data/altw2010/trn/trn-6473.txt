@@ -1,0 +1,125 @@
+O '''alfabeto internacional para a transliteração de sânscrito''' (em inglês ''International Alphabet of Sanskrit Transliteration'', de acrónimo '''IAST''') é um esquema muito difundido de brâmica.
+
+O IAST é o sistema de transliteração mais difundido para a romanização de pāli. É usado sobretudo nas publicações impressas e, graças à ampla disponibilidade de fontes Unicode, é ainda adoptado com maior frequência em formato electrónico.
+
+O IAST baseia-se num padrão estabelecido pelo ''Congresso dos Orientalistas'', realizado em Devanāgarī e de outros alfabetos indianos (por exemplo, o Sharda), não se limitando a representar os fonemas do sânscrito, ma realizando uma transcrição essencialmente fonética (o ''visarga'' '''', por exemplo, é um alófono de ''r'' e ''s'' no fim das palavras).
+
+Uma extensão do IAST é o Sistema de romanização da Biblioteca Nacional de Calcutá, que visa a romanização de todos os alfabetos indianos.
+
+== Repertório de símbolos e convenções do IAST ==
+
+O repertório dei símbolos do IAST (letras maiúsculas e minúsculas) é o seguinte. 
+
+===Vogais e ditongos===
+
+'''IAST''' <ref>Na podstawie [http://en.wikipedia.org/wiki/IAST]</ref>skrót: Międzynarodowy Alfabet Sanskryckiej Transliteracji. IAST jest popularną metodą transliteracji, która pozwala na bezstratne transliterowanie tekstów indyjskich.
+
+IAST jest najpopularniejszym pomysłem transliterowania sanskrytu i Pali. Często używany w specjalistycznych publikacjach zajmujących się starożytnym Sanskrytem i Pali, odnoszących się do indyjskich religii. Szeroka dostępność czcionek Unicode wpływa na coraz częstsze używanie IAST w tekstach elektronicznych.
+
+dewanagari oraz innych indyjskich alfabetów np: fonetyczne przypisanie znaczeń każdej literze (np. Visarga ḥ jest alofonem r i s).
+
+Narodowa Biblioteka Romanizacji w Kalkucie zmierza do latynizacji wszystkich pism indyjskich, jest rozwinięciem IAST.
+
+== IAST wykaz znaków umownych ==
+
+Wykaz znaków dewanagari, w Międzynarodowym Alfabecie fonetycznym, dla hindi, występują niewielkie fonologiczne różnice:
+<BR>
+{| border="1" cellspacing="2" cellpadding="2" style="BORDER-COLLAPSE:collapse;BACKGROUND:#FFFFFF;font-size:120%;"
+|-
+|&nbsp; <br /> 
+| style="background:ivory;" |&nbsp; <br /> 
+|&nbsp; <br /> 
+| style="background:ivory;" |&nbsp; <br /> 
+|&nbsp; <br /> 
+| style="background:ivory;" |&nbsp; <br /> 
+| style="background:ivory;" |<font style="text-decoration: none">&nbsp;[ɹ̩]<br /> </font>
+| style="background:ivory;" |&nbsp; <br /> 
+| style="background:ivory;" |&nbsp; <br /> 
+| style="background:ivory;" |&nbsp; <br /> 
+| style="font-size:10pt;" | samogłoski
+|}
+<BR>
+{| border="1" cellspacing="2" cellpadding="2" style="BORDER-COLLAPSE:collapse;BACKGROUND:#FFFFFF;font-size:120%;"
+|-
+|&nbsp; <br /> 
+|&nbsp; <br /> 
+|&nbsp; <br /> 
+|&nbsp; <br /> 
+| style="font-size:10pt;" | dwugłoski
+|}
+<BR>
+{| border="1" cellspacing="2" cellpadding="2" style="BORDER-COLLAPSE:collapse;BACKGROUND:#FFFFFF;font-size:120%;"
+|-
+| style="background:ivory;" |&nbsp; <br /> 
+| style="font-size:10pt;" | anusvara
+|-
+| style="background:ivory;" |&nbsp; <br /> 
+| style="font-size:10pt;" | visarga
+|}
+<BR>
+{| border="1" cellspacing="5" cellpadding="3" style="BORDER-COLLAPSE:collapse;BACKGROUND:#FFFFFF;font-size:120%;"
+|-
+| style="font-size:10pt;" | tylno podniebienne
+| style="font-size:10pt;" | miękkie
+| style="font-size:10pt;" | szczelinowa
+| style="font-size:10pt;" | zębowe
+| style="font-size:10pt;" | wargowe
+|-
+|&nbsp; <br /> 
+|&nbsp; <br /> 
+| style="background:ivory;" |&nbsp; <br /> 
+|&nbsp; <br /> 
+|&nbsp; <br /> 
+| style="font-size:10pt;" | bezdźwięczne
+|-
+|&nbsp; <br /> 
+|&nbsp; <br /> 
+| style="background:ivory;" |&nbsp; <br /> 
+|&nbsp; <br /> 
+|&nbsp; <br /> 
+| style="font-size:10pt;" | bezdźwięczne
+|-
+|&nbsp; <br /> 
+|&nbsp; <br /> 
+| style="background:ivory;" |&nbsp; <br /> 
+|&nbsp; <br /> 
+|&nbsp; <br /> 
+| style="font-size:10pt;" | dźwięczne
+|-
+|&nbsp; <br /> 
+|&nbsp; <br /> 
+| style="background:ivory;" |&nbsp; <br /> 
+|&nbsp; <br /> 
+|&nbsp; <br /> 
+| style="font-size:10pt;" | dźwięczne
+|-
+| style="background:ivory;" |&nbsp; <br /> 
+| style="background:ivory;" |&nbsp; <br /> 
+| style="background:ivory;" |&nbsp; <br /> 
+|&nbsp; <br /> 
+|&nbsp; <br /> 
+| style="font-size:10pt;" | spółgłoski nosowe
+|-
+| &nbsp;
+|&nbsp; <br /> 
+|&nbsp; <br /> 
+|&nbsp; <br /> 
+|&nbsp; <br /> 
+| style="font-size:10pt;" | samogłoski niesylabiczne
+|-
+| &nbsp;
+| style="background:ivory;" |&nbsp; <br /> 
+| style="background:ivory;" |&nbsp; <br /> 
+|&nbsp; <br /> 
+| &nbsp;
+| style="font-size:10pt;" | spółgłoski syczące
+|-
+|<font style="text-decoration: none">&nbsp;[ɦ] <br /> </font>
+| &nbsp;
+| &nbsp;
+| &nbsp;
+| &nbsp;
+| style="font-size:10pt;" | dźwięczne szczelinowe
+|}
+
+== Porównanie z ISO 15919 ==

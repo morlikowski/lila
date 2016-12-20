@@ -1,0 +1,91 @@
+{{Infobox Software
+| name = AdSense
+| logo = Image:Google Adsense logo.png
+| screenshot = <!-- SCREENSHOT NEEDED -->
+| caption =
+| developer = Google
+| latest_release_version =
+| latest_release_date =
+| latest_preview_version =
+| latest_preview_date =
+| operating_system = Cross-platform (web-based application)
+| genre = Online advertising
+| license =
+| website = http://www.google.com/adsense
+}}
+'''Google AdSense''' is an advertisement serving program run by program to enable text, image, and more recently, video per-click or per-thousand-impressions basis. Google is also currently cost-per-action based service.
+
+==Overview==
+Google uses its banners, and the content of the advertisements is often relevant to the website.
+
+Currently, AdSense uses crawled by the charitable causes, also known as public service announcements (PSAs). (The Mediabot is different from the Googlebot, which maintains Google's search index.)
+
+Many websites use AdSense to monetize their content. AdSense has been particularly important for delivering advertising revenue to small websites that do not have the resources for developing advertising sales programs and salespeople. To fill a website with advertisements that are relevant to the topics discussed, webmasters implement a brief script on the websites' pages. Websites that are content-rich have been very successful with this advertising program, as noted in a number of publisher case studies on the AdSense website.
+
+Some webmasters invest significant effort into maximizing their own AdSense income. They do this in three ways:
+# They use a wide range of traffic-generating techniques, including but not limited to online advertising.
+# They build valuable content on their websites that attracts AdSense advertisements, which pay out the most when they are clicked.
+# They use copy on their websites that encourages visitors to click on advertisements. Note that Google prohibits people from using phrases like "Click on my AdSense ads" to increase click rates. The phrases accepted are "Sponsored Links" and "Advertisements."
+
+The source of all AdSense income is the AdWords program, which in turn has a complex Vickrey second price auction. AdSense commands an advertiser to submit a sealed bid (i.e., a bid not observable by competitors). Additionally, for any given click received, advertisers only pay one bid increment above the second-highest bid.
+
+==History==
+The underlying technology behind AdSense was derived originally from George A. Miller), and a number of professors and graduate students from Brown University, including James A. Anderson, Jeff Stibel, and Steve Reiss.<ref></ref> A variation of this technology utilizing WordNet was developed by Oingo, a small search engine company based in Santa Monica founded in 1998 by Gilad Elbaz.<ref></ref><ref></ref> Oingo changed its name to Applied Semantics in 2001,<ref></ref> which was later acquired by Google in April 2003 for US$102 million.<ref></ref>
+
+==AdSense for feeds==
+In RSS and Atom feeds that have more than 100 active subscribers. According to the Official Google Blog, "advertisers have their ads placed in the most appropriate feed articles; publishers are paid for their original content; readers see relevant advertising — and in the long run, more quality feeds to choose from."<ref name="google_blog_feed_me"></ref>
+
+AdSense for feeds works by inserting images into a feed. When the image is displayed by a RSS reader or Web browser, Google writes the advertising content into the image that it returns. The advertisement content is chosen based on the content of the feed surrounding the image. When the user clicks the image, he or she is redirected to the advertiser's website in the same way as regular AdSense advertisements.
+
+AdSense for feeds has remained in its beta state ever since its original announcement. Only selected AdSense users have been allowed to sign up for it, and no more users are being admitted to the program.<ref name="google_adsense_feeds_beta"></ref>
+
+==AdSense for search==
+A companion to the regular AdSense program, '''AdSense for search''', allows website owners to place Google search boxes on their websites. When a user searches the Internet or the website with the search box, Google shares any advertising revenue it makes from those searches with the website owner. However the publisher is paid only if the advertisements on the page are clicked: AdSense does not pay publishers for mere searches.
+
+==AdSense for mobile content==
+AdSense for mobile content allows publishers to generate earnings from their mobile websites using targeted Google advertisements. Just like AdSense for content, Google matches advertisements to the content of a website — in this case, a mobile website.
+
+===XHTML compatibility===
+As of validate as XHTML, and does not follow modern principles of website design because of its use of
+* non-standard end tags, such as <code></img></code> and <code></input></code>,
+* the attribute <code>checked</code> rather than <code>checked="checked"</code>,
+* presentational attributes other than <code>id</code>, <code>class</code>, or <code>style</code> — for example, <code>bgcolor</code> and <code>align</code>,
+* a table structure for purely presentational (i.e., non-tabular) purposes, and
+* the <code>font</code> tag.
+
+Additionally, the AdSense advertisement units use the JavaScript method <code>document.write()</code>, which does not work correctly when rendered with the <code>application/xhtml+xml</code> DOCTYPEs.
+
+The terms of the AdSense program forbid its affiliates from modifying the code, thus preventing these participants from having valid XHTML websites.
+
+However, a workaround has been found by creating a separate HTML webpage containing only the AdSense advertisement units, and then importing this page into an XHTML webpage with an <code>object</code> tag.
+<ref></ref> This workaround appears to be accepted by Google.<ref></ref>
+
+'''AdSense''' adalah program kerjasama periklanan melalui media internet yang diselenggarakan oleh Google. Melalui program periklanan AdSense, pemilik situs web atau blog yang telah mendaftar dan disetujui keanggotaannya diperbolehkan memasang unit iklan yang bentuk dan materinya telah ditentukan oleh Google di halaman web mereka. Pemilik situs web atau blog akan mendapatkan pemasukan berupa pembagian keuntungan dari Google untuk setiap iklan yang diklik oleh pengunjung situs, yang dikenal sebagai sistem ''pay per click'' (ppc) atau bayar per klik.
+
+Selain menyediakan iklan-iklan dengan sistem bayar per klik, Google AdSense juga menyediakan AdSense untuk pencarian (''AdSense for Search'') dan iklan arahan (''Referral''). Pada AdSense untuk pencarian, pemilik situs web dapat memasang kotak pencarian Google di halaman web mereka. Pemilik situs akan mendapatkan pemasukan dari Google untuk setiap pencarian yang dilakukan pengunjung melalui kotak pencarian tersebut, yang berlanjut dengan klik pada iklan yang disertakan pada hasil pencarian. Pada iklan arahan, pemilik situs akan menerima pemasukan setelah klik pada iklan berlanjut dengan tindakan tertentu oleh pengunjung yang telah disepakati antara Google dengan pemasang iklan tersebut.
+
+== Istilah dalam AdSense ==
+
+=== Publisher ===
+Publisher adalah orang atau pemilik situs yang sudah bergabung dan memasang iklan AdSense di situs mereka.
+
+=== Ad Units ===
+Yang dimaksud dengan Ad Units adalah iklan AdSense itu sendiri. Ad Units terdiri dari beberapa jenis dan ukuran. Yang paling umum adalah jenis iklan teks. Pada saat pengunjung mengklik unit iklan ini, maka (jika sah) pemasang iklan akan mendapatkan pemasukan sesuai dengan nilai CPC-nya.
+
+=== Link Units ===
+Link Units hampir sama dengan Ad Units, hanya saja formatnya mirip dengan format menu yang biasa kita temui di situs-situs web. Yang membedakan Link Units dengan Ad Units adalah pada saat pengunjung meng-klik iklan ini, maka ia akan diarahkan pada halaman hasil pencarian di search engine Google. Publisher baru akan mendapatkan pemasukan apabila pengunjung mengklik salah satu Ad Unit yang ada di halaman tersebut. Pada prakteknya, Link Units terbukti menghasilkan pemasukan lebih banyak dibandingkan Ad Units biasa. 
+
+=== AdSense for Content ===
+AdSense for Content adalah iklan AdSense yang dipasang di dalam suatu halaman. Iklan-iklan yang muncul adalah iklan-iklan yang berhubungan dengan isi halaman tersebut. Atau istilahnya menggunakan konsep kontekstual. Ad Units dan Link Units adalah yang termasuk dalam AdSense for Content ini.
+
+=== Alternate Ads ===
+Pada AdSense for Content, iklan tidak selalu muncul. Sebabnya antara lain bisa karena memang stok iklan yang berhubungan dengan isi situs sudah habis atau Google tidak dapat memperkirakan apa isi situs itu sebenarnya. Jika ini terjadi, secara default, yang ditampilkan adalah iklan layanan masyarakat atau sering dikenal dengan istilah PSA (''Public Service Ads''). Karena bertipe donasi, maka jika diklik, iklan ini tidak menghasilkan apa-apa bagi publisher. Untuk mengatasinya, Google memperbolehkan kita untuk memasang Alternate Ads atau iklan alternatif. Jika Ad Units yang dibuat telah diatur dengan menggunakan Alternate Ads, maka apabila Ad Units tersebut tidak dapat tampil, yang muncul adalah iklan alternatif yang telah diatur sebelumnya.
+
+=== Channels ===
+Channels adalah semacam label yang dapat diberikan pada Ad Units, Link Units, AdSense for Search, dan Referrals. Satu unit iklan dapat memiliki lebih dari satu lebih, dan sebaliknya, satu label dapat digunakan untuk lebih dari satu unit iklan. Di halaman laporan Google AdSense, hasil laporan akan dikelompokkan berdasarkan Channels, sehingga penggunaan Channels akan sangat memudahkan publisher untuk menganalisa performa AdSense mereka. Umumnya, publisher akan memberikan nama Channels yang sama pada unit-unit iklan yang ada di satu situs. Jika ingin lebih detail, sah-sah saja untuk memberikan nama Channels yang berbeda pada setiap unit iklan di masing-masing situs. Yang perlu diingat, maksimal jumlah Channels yang diperbolehkan saat ini adalah 200 kanal.
+
+=== Page Impressions ===
+Page Impressions adalah jumlah yang menunjukkan berapa kali halaman yang mengandung Ad Units dibuka oleh pengunjung. Nilainya tidak terpengaruh oleh kuantitas Ad Units yang ada di dalam halaman yang bersangkutan.
+
+=== Clicks ===
+Clicks adalah jumlah klik pada Ad Units milik publisher. Dalam halaman laporan AdSense, publisher dapat melihat total klik yang ia dapatkan, maupun berdasarkan Ad Units atau Channelnya.

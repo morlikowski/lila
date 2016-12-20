@@ -1,0 +1,49 @@
+A '''tumor marker''' is a substance found in the body tissues that can be elevated in cancer, among other tissue types. There are many different tumor markers, each indicative of a particular disease process, and they are used in oncology to help detect the presence of cancer. An elevated level of a tumor marker can indicate cancer; however, there can also be other causes of the elevation.
+
+==Description==
+
+Tumor markers can be produced directly by the tumor or by non-tumor cells as a response to the presence of a tumor.
+
+Koepke<ref name="Koepke1992"/> outlines a hierarchy of clinical laboratory tests, from least to most informative. As used in oncology, they are as follows:
+
+*''Screening'' for common cancers on a population basis
+Example: elevated prostate specific antigen suggests prostate cancer.
+*''Monitoring'' of cancer survivors after treatment
+Example: elevated AFP in a child previously treated for teratoma suggests relapse with endodermal sinus tumor.
+*''Diagnosis'' of specific tumor types, particularly in certain brain tumors and other instances where biopsy is not feasible.
+
+The term tumor antigen is sometimes interchangeably used for tumor marker.
+
+== Classification ==
+
+Tumor markers can be classified in two groups: Cancer-specific markers and tissue-specific markers.
+
+*''Cancer-specific markers:''
+Cancer-specific markers are related to the presence of certain cancerous tissue. Because there is a large overlap between the many different tumor tissue types and the markers produced these cancer tissue might not be specific in making a diagnosis. They can, however, be useful in the follow-up of treated patients to describe progress of the disease or response to treatment. A few examples of these markers are CEA, CA19-9, CA125.
+
+An example of a cancer-specific marker, CEA, or carcinoembryonic antigen, is a blood-borne protein, first noted to be produced by tumors of the gastrointestinal system. Further investigation showed that it was produced by the occasional lung and breast cancer case, meaning that an elevated level does not mean a bowel cancer. However, in a patient with a history of a treated bowel cancer, a rising CEA level can be an early sign of bowel cancer return. This usually occurs before the site of return can be identified on imaging or examination and so many oncologists question the wisdom of doing a blood test for CEA when the end result is bad news that alarms the patient. Nevertheless, a sequence of steady low CEA readings can provide much needed reassurance to the post-operative patient. Also, a rising sequence of CEA readings should alert the physician to the need for diagnostic tests such as PET scans.
++
+
+*''Tissue-specific markers:''
+Tissue-specific markers are related to specific tissues which have developed cancer. Generally speaking, these substances are not specifically related to the tumor, and may be present at elevated levels when no cancer is present. But unlike the previous group, elevated levels point to a specific tissue being at fault. Examples include PSA, beta-HCG - (Human chorionic gonadotropin), AFP - (Alpha-fetoprotein), AFP-L3 - (a lectin-reactive AFP) and Thyroglobulin. For example, if man has an elevated PSA, a search for prostate cancer will be undertaken. If an individual has an elevated level of beta-HCG, AFP or AFP-L3%, a search for a testicular or liver cancer, respectively, will be made.
+
+'''PSA'''(Prostate specific antigen) is produced by the normal prostate. It is a protein enzyme called a serine protease that usually acts as an anticoagulant to keep semen liquid. Only small amounts leak into the circulation in normal circumstances. Enlarged prostates leak more substantial amounts, and cancerous prostates also leak substantial amounts. An accurate way to tell if an elevated PSA level results from cancer is to biopsy the prostate.
+
+'''Markery nowotworowe''' - substancje antygenowe, których obecność jest charakterystyczna dla niektórych postaci nowotworów. Wiele komórek rakowych (np. komórki raka sutka i komórki raka żołądka) charakteryzuje się obecnością '''antygenów nowotworowych''' '''T''' (nowotworu złośliwego. Antygeny T są rzadko spotykane w zdrowych tkankach, choć te zawierają przeciwciała anty-T. Za stymulację wytwarzania przeciwciał anty-T w zdrowych komórkach odpowiedzialna jest flora adhezji, czyli przylegania komórek rakowych do innych komórek, w tym również zdrowych. Właściwość ta ma ogromne znaczenie dla inwazyjności raka i pojawiania się przerzutów. 
+
+Markery służące do monitorowania rozwoju guza i stosowane do diagnostyki nowotworowej należą do tzw. markerów krążących. Oznacza to, że są uwalniane do krążenia chorego, przez komórki nowotworowe, w wartościach mierzalnych. Ich poziom można oznaczyć w próbce krwi.
+Oznaczona wartość jest cechą osobniczo zmienną i zależy od wielu czynników, dlatego nie można jednoznacznie powiedzieć, że dana osoba choruje na nowotwór biorąc pod uwagę jednokrotne oznaczenie, w którym miano danego markera jest powyżej normy. Bardziej istotne są zmiany miana danego markera w czasie. Systematyczny, ciągły przyrost świadczy najprawdopodobniej o rozroście masy nowotworowej. Więcej komórek nowotworowych „produkuje” coraz to więcej odpowiedniego antygenu. Nagły skok z poziomu normalnego, do wysokich wartości przekraczających ustalone normy, niekoniecznie świadczy o procesie nowotworowym, a wręcz może sugerować ostry proces zapalny danego narządu, z którego te markery są uwalniane (np. markery ostrego zapalenia trzustki). 
+
+=== Oznaczanie poziomu markerów ===
+Najważniejsza jest częstość oznaczania.
+* Co najmniej jednokrotne oznaczenie przed rozpoczęciem leczenia.
+* Po leczeniu radykalnym monitorowanie przez pierwsze 3 lata co 2-3 miesiące; po tym okresie co 6 miesięcy.
+* W przypadku stwierdzenia wzrostu miana określonych markerów, monitorowanie powinno być dokonywane co 2-4 tygodnie, a nawet częściej.
+* W czasie chemioterapii oznaczenie powinno dokonywać się przed każdym kursem leczenia oraz w przypadku zmiany metody leczenia, przed jej dokonaniem.
+* W czasie radioterapii – w połowie leczenia oraz po jego zakończeniu.
+
+=== Uwagi ===
+* Prawidłowe stężenie nie wyklucza obecności nowotworu.
+* Umiarkowane podwyższenie markerów występuje w chorobach nienowotworowych.
+* Badanie markerów ma znaczenie pomocnicze i nie może zastąpić badania klinicznego.
+* Na właściwe wnioski pozwalają jedynie stężenia markerów wykonywane seryjnie w określonych odstępach czasu i w tych samych warunkach testowania.

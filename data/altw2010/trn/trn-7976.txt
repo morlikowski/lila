@@ -1,0 +1,26 @@
+thumb||250px|right|Diagrama esquemático dun [[Tubo de Crookes. '''A''' é unha fonte de baixa tensión que quenta o cátodo '''C'''. '''B''' é unha fonte de alto voltaxe que suministra tensión ó ánodo revestido de fósforo '''P'''. A máscara '''M''' está conectada ó potencial do cátodo e a súa imaxe proxectase no fósforo coma o área non brilante.]]
+Os '''raios catódicos''' son correntes de electróns observados en tubos de vacío, é dicir, os tubos de cristal que se equipan polo menos con dous electrodos, un século XIX, outorgándoselle un tubos de Geissler.  Os tubos especiais foron desenvolvidos para o estudo destes raios por tubos de Crookes. O feito de que os raios fosen emitidos polo cátodo, é dicir, o electrodo negativo, demostrou que os electróns tiñen carga negativa.
+
+Os raios catódicos propaganse en liña recta en ausencia de influencias externas, pero son desviados polos campos eléctricos ou magnéticos (que poden ser producidos colocando os electrodos de alto voltaxe ou imáns fora do tubo de vacío - isto explica o efecto dos imáns nunha pantalla de TV).  O refinamiento desta idea é o tubo de raios catódicos (TRC), tamén coñecido coma tubo de Braun (porque foi inventado no 1897 por Carl Ferdinand Braun).  O TRC é a chave nos sistemas de televisión, nos osciloscopios, e nas cámaras de televisión vidicon.
+
+Categoría:Electromagnetismo
+
+thumb||250px|right|A schematic diagram of a [[Crookes tube apparatus. '''A''' is a low voltage power supply to heat cathode '''C''' (a "cold cathode" was used by Crookes). '''B''' is a high voltage power supply to energize the phosphor-coated anode '''P'''. Shadow mask '''M''' is connected to the cathode potential and its image is seen on the phosphor as a non-glowing area.]]
+
+'''Cathode rays''' are streams of evacuated glass tubes that are equipped with at least two electrodes, a cathode (negative electrode) and an anode (positive electrode) in a configuration known as a diode.
+
+When the cathode is heated, it emits radiation, which travels to the anode. If the inner glass walls behind the anode are coated with a phosphorescent material the incident electrons induce a glow. The presence of cathode rays was first postulated in early studies in vacuum tubes by placing metal shapes between the electrodes, thereby casting a shadow on the phosphorescent coating.  This suggested that the cause of the light emission was due to rays emitted by the cathode and hitting the coating. They travel towards the anode in straight lines and continue past it for some distance.
+
+==History==
+After the 1650 invention of the vacuum pump by Otto von Guericke, physicists began to experiment with mixtures of rarefied air and electricity.  In 1705, it was noted that electrostatic generator sparks travel a longer distance in rarefied air than in standard air. The scientists of the day did not think this could happen. In 1838, Michael Faraday passed current through a rarefied air filled glass tube and noticed a strange light arc with its beginning at the cathode (positive electrode) and its end almost at the anode (negative electrode). The only place where there was no luminescence was just in front of the cathode, which came to be called the "cathode dark space", "Faraday dark space" or "Crookes dark space". Hence, it became known that whenever a voltage is applied to rarefied air, light is produced.  
+
+Scientists began traveling from town-to-town delighting audiences by making light glow in glass tubes.  They did this by first taking an air-filled glass tube of which they would pump the air out. Next, wires would be attached at the opposite ends of the tube, and then the voltage would be turned up.  This would make the tube glow in lovely patterns.  In 1857, German physicist and Glass blower Heinrich Geissler sucked even more air out with an improved pump and noticed a fluorescent glow, thus inventing the Geissler tube. While Geissler tubes are intended to cause an enclosed low pressure gas to glow, observers noticed that certain glasses used in the tube envelope (enclosure) would glow, but only at the end connected to the positive side of the power supply. Special tubes were developed for the study of these rays by William Crookes and are called Crookes tubes.   
+
+Toward the end of the 19th century, this phenomenon was studied in great detail by physicists, yielding a charge.
+
+==Properties of Cathode Rays==
+
+Like a wave:
+* they travelled in straight lines
+* Produced a shadow when obstructed by objects
+* could pass through thin metal foils without disturbing them (Tested by New Zealander Ernst Rutherford using a gold sheet)

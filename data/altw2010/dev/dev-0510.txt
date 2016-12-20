@@ -1,0 +1,89 @@
+'''Final Scratch''' is a DJ tool created by the Dutch company N2IT with input from Richie Hawtin (aka Plastikman) and John Acquaviva that allows manipulation and playback of digital audio sources using traditional vinyl and turntables. It seeks to cross the divide between the versatility of digital audio and the tactile control of vinyl turntablism.  
+
+== Concept ==
+Special vinyl records pressed with a digital timecode are played on normal turntables. The timecode signal is interpreted by a computer, connected to the turntables through an interface called the ScratchAmp. The signal represents where the stylus is on the record, in which direction it is traveling, and at what speed. This information is interpreted by the computer and used to play back a digital audio file which has been 'mapped' to the turntable.
+
+In practical terms, this means that any audio file can be manipulated as though it were pressed on vinyl. This has a great many advantages for DJs, not least that a laptop computer can often hold tens of thousands of audio files, whilst a record box has a decidedly smaller capacity and is much heavier.
+
+== Advantages/Disadvantages ==
+
+This system has various advantages over using normal records, without too many serious disadvantages.
+
+Advantages: 
+
+*Portability of thousands of audio tracks, (laptop or external HDD as opposed to record box) with quick access and organization
+*Ability to play audio tracks unavailable on vinyl eg. pre-arranged loops, unreleased music or rare tracks
+*The use of CD deck features (software permitting) such as keylock, pitch shift, looping, instant cue locating and visual indicators of audio features such as loud or quiet parts
+*The ability to prevent needle skips on the vinyl being reflected in the playback of the audio track being played/controlled (software permitting)
+*Digital audio files will not degrade every time they are played, plus they can easily be backed up so if anyone should steal or accidentally damage your music collection, you may only have to replace easily obtainable hardware such as a laptop or hard drive instead of irreplaceable vinyl<br /> 
+
+Disadvantages: 
+
+*Reliability; depending on the hardware/software configuration used, vinyl emulation systems may use more system resources than some laptops or PCs offer, making them unsuitable for this use.
+*Timecoded vinyl is generally much more expensive than a typical music record and will suffer much more damage than one too, meaning less longevity.
+
+== History ==
+
+Final Scratch has passed through multiple stages of development.  These stages are marked by involvement with different vendors, hardware configurations, software developers and operating systems.
+
+=== Pre-release ===
+Final Scratch was originally developed for BeOS, and premiered at the Be Developer Conference in 1998.
+
+=== Versions 1.0-1.5 ===
+All versions of Final Scratch 1 use the same Scratchamp, a USB and RCA device in a round plastic shell. The technical specifications of this device have been closely guarded by Stanton as an anti-piracy measure, though some users, unsatisfied with the latency and instability of the system, have alleged the use of faulty Philips sound chips which had already been withdrawn from the market.  However, the same chipset was being used in several other USB audio devices manufactured by companies like Griffin and Roland at that time.
+
+FS 1.0 was released for PC only, on a specially modified distribution of Debian Linux. It was relatively primitive but some users found that, if configured correctly, it outperformed all subsequent versions of Final Scratch 1.x.
+
+With version 1.1, Stanton Magnetics began working with Native Instruments on the software side of the product, which became '''Traktor Final Scratch'''. As the name suggests, this bore a resemblance to the interface of Traktor, a Native Instruments software DJing product. This version was once again available on Linux, but was also ported to Mac OS X.
+
+The next major revision was version 1.5, which added a Windows XP version, but dropped Linux support.  This version also added the ability to keep the pitch of the record constant whilst shifting the tempo. The interface changed very little, but some users initially had issues with the Windows Scratchamp drivers.
+
+Support for the original Scratchamp has all but since disappeared and current owners, disappointed by the lack of support by Stanton, have had to rely on old versions of Traktor FS or Digiscratch.
+
+=== Version 2 ===
+Version 2 marks the introduction of both a new Scratchamp hardware device and different software compatibility.  
+
+This new Scratchamp made 24-bit/96&nbsp;kHz digital quality playback and record possible.  Stanton added an ASIO driver, and USB interface with Firewire which was intended to reduce playback latency.  The new Scratchamp was developed by Alan Flum, Len Bryan, Mark DeMouy and Jim Mazur.
+
+The version 2 Scratchamp is compatible with Native Instruments Traktor DJ Studio versions 2.6 and through 3.2.0.80.  NI has dropped support of SA2 in favor of their own vinyl system Traktor Scratch.
+
+=== Final Scratch Open ===
+In late 2005, Stanton and Native Instruments ended their working relationship.  Stanton still markets the ScratchAmp hardware as part of ''Final Scratch Open'', introduced in early 2007.  Stanton claims that the ScratchAmp can now interact with any audio software through ASIO or WDM on Windows, and  CoreAudio in Mac OS X.  Although all Windows and Mac audio software is ostensibly compatible with Final Scratch Open, there is no dedicated software program for deejaying with the ScratchAmp hardware.
+
+== Internal workings ==
+The internal workings of Final Scratch are quite simple to understand. Multiple open source software libraries have been created to decode the Final Scratch time code. The information here comes from those libraries.
+
+A '''Final Scratch''' egy DJ eszköz, amelyet először egy Dán cég hozott létre ('''N2IT''') '''Richie Hawtin''' (Plastikman) és '''John Acquaviva''' közreműködésével. Ez az eszköz lehetővé teszi, hogy a DJ vissza tudja játszani és manipulálni a digitális zenét (mp3) úgy, hogy a tradicionális bakelit lemezt illetve lemezlejátszót használ.
+
+= Működési elv =
+thumb|right|120px|Stanton ScratchAmp-je
+A különleges vinyl lemezbe egy bizonyos „'''időkód'''” van bevésve, amely egy normális lemezlejátszó játszik le. Amikor lejátszotta, a jelet amelyet az lead, egy computer ismer fel, ami a lemezlejátszókhoz van kötve egy szerkezeten keresztül, melynek a neve ScrachAmp. A jelzés amelyet az időkód ad azt mutatja meg, hogy pontosan hol is áll a tű a zenén belül, hogy mely irányba halad és pontosan milyen sebességgel. Ezt az információt a computer ismeri fel. Ezt arra használják, hogy digitális zenét játszanak vissza az által, hogy a computer segítségével akármilyen digitális formátumú zenét ki tudjanak vetíteni, térképezni egy hagyományos lemezre.
+
+Ez azt jelenti, hogy akármilyen digitális zenét manipulálni tudunk anélkül, hogy az rá kellene nyomtatni illetve ráírni a lemezre. Ennek rengeteg előnye van a DJ-ek számára, ugyanis egy laptoppal tízezer és annál több zeneszámmal is megjelenhetnek akárhol, ellentétben a lemezekkel, amelyeknek kapacitása sokkal kisebb és sokkal nehezebbek is, és emellett drágák is.
+
+= Történelem =
+
+A Final Scratch több szakaszon ment át a végső fejlesztés létrejöttéig. Ezek a szakaszok szponzorok részvételével, hardware konfigurációkkal, software és operációs rendszerek fejlesztésével jelölhetőek meg.
+
+== Bemutatás ==
+
+A Final Scratchet eredetileg Be operációs rendszerre ('''BeOS''') tervezték, és a „Be Developer Conference”-en (Be Fejlesztési Konferencián) mutatták be először 1998-ban.
+
+== Final Scratch 1.x ==
+
+=== Final Scratch 1.0 ===
+A Final Scratch 1 minden típusa ugyanazt a '''ScratchAmpet''' használja, amely egy USB és egy RCA készülék egy kerek műanyag hengerben. A technikai specifikációkkal egyesek nem voltak elégedettek, ugyanis a rendszer instabilnak bizonyult, ezért kihívták a Be céget azzal, hogy Philips hang chipeket alkalmaztak, amelyek már előre beszerezhetőek voltak. Ugyanaz a chipbeállítás volt jelent más USB audió berendezéseknél amelyeket például a Griffin vagy a Roland gyártott.
+Az FS 1.0 csakis PC-re jelent meg egy különleges átszerkesztett Debian Linux operációs rendszerrel. Igencsak primitív volt, de a felhasználók úgy találták, hogy helyesen van konfigurálva, ezért ez az operációs rendszer követte a többi 1.x-es Final Scratch fejlesztést.
+
+=== Final Scratch 1.1 ===
+thumb|right|200px|A Traktor Final Scratch software
+Az FS 1.1-es típusnál a '''Stanton Magnetics''' elkezdett együtt dolgozni a '''Native Instruments'''-szel egy software-en, és így jött létre a „'''Traktor Final Scratch'''” és mint DJ software-t eladásra küldték,  elejében csak Linux-on működött, később viszont áttervezték '''Macintoshra''' is, pontosabban a Mac OS X operációs rendszerre.
+
+=== Final Scratch 1.5 ===
+A következő nagy átdolgozás az 1.5-ös verziónál történt, amelyben hozzáadták a '''Windows XP''' támogatást is a software-hez, valamint azt a képességet, hogy a hang magasságát és lejtését változtassuk, amellett, hogy a ütem nem változik. Az interfész alig változott valamit, bár az eredeti Windows ScratchAmp driverekkel voltak némi bajok, de ez gyorsan korrigálva lett.
+
+== Final Scratch 2 ==
+
+A második típus nem csak egy új meghajtó software-t tartalmazott, de emellett egy új ScratchAmp-et is. Ez az új ScratchAmp eléri a 24 bit/96 kHz digitális minőségű zene lejátszását és ugyanilyen minőségű felvételezést is. Hozzá lett adva egy '''ASIO''' driver, '''MIDI''' ki és bemenetel és '''FireWire''' kapcsolódást használ az előző '''USB''' helyett, hogy a zene késleltetését kikerüljék, ugyanis a '''FireWire''' gyorsabb összeköttetést jelent, mint az USB. A ScratchAmp kettes verziója kompatibilis a Native Instrument Traktor DJ Studio-jával is (kezdve a 2.6 verziótól a 3.2.0.80-ig, ugyanis a Native Instruments megszakította a ScrachAmp-pel való kompatibilitást, mert saját ''Traktor Scratchet'' készítettek) hogy lehetővé tegyék a bakelit irányítását a Traktor alkalmazás felületén. Az új ScratchAmp Boynton Beachen lett fejlesztve, Floridában, egy valóban törekvő csapat által, amely Alan Flum, Len Bryan, Mark DeMouy és Jim Mazur.
+
+=== Final Scratch Open ===

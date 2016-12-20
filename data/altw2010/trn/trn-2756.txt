@@ -1,0 +1,133 @@
+『'''トンネルズ&トロールズ'''』 ('''Tunnels & Trolls''', '''T&T''') は、米国製のストームブリンガー』などのデザイナー）。6面ダイスのみを利用する簡素なシステムが特徴。
+
+豊富な武器防具の設定や、ユーモアに富んだ独特のテイスト、銃器や奴隷のルール化などの一般のファンタジーRPGではとりあげられることの少ない奇抜なフィーチャーで異彩をはなった。ソロアドベンチャー（ゲームブック）が多数発刊されたことでも知られる。
+
+1975年に米フライングバッファロー社 (Flying Buffalo Inc.) によって発表された。これはダンジョンズ&ドラゴンズ とほぼ同時期（T&Tが1年後）にあたる。日本では1987年に社会思想社から第5版の日本語版が発売され、同社から発刊されていた「ウォーロック」誌によって様々なサポートがなされた。また、サプリメントやソロアドベンチャーも同社から出版された。
+
+2007年現在、フライングバッファロー社はT&Tの第5.5版（第5版にいくつかの選択ルールなどを追加したもの）を販売している。また、2005年夏に30周年記念版としてFiery Dragon Productions社より、“第7版”ルールブック、ソロアドベンチャー『バッファローキャッスル』やコンピュータゲーム『Tunnels & Trolls: Crusaders of Khazan』の復刻などを納めたCD-ROM、ハウスルール（“第7.5版ルール”）などを同梱した製品が発売された。
+
+日本でも、2006年12月には新紀元社より第7版の日本語訳が発売された。以後、シナリオやリプレイが刊行中である。サポートは「Role & Roll」誌にて展開されている。旧版が文庫だったのに対し、こちらは新書サイズである。
+
+第6版は存在しない。第7版ルールブックでは『世間にいくつも「第6版」があるが、これらは著者・出版社が公式に認めたものではない。しかしこれらを我々は「海賊版」ではなく「ハウスルール」と呼ぶ』としており、「読者のみなさんはこれからもハウスルールを作る権利があるのです」と書いている。
+
+以下に記述する解説は第7版に準拠している。
+
+== システム（第７版） ==
+=== 戦闘 ===
+戦闘は、集団による乱戦を模し、個々のキャラクター同士で判定を行うのではなく、全体のヒット数（武器や魔法などの打撃点）を比べあい、少ない方がヒット数の差をダメージとしてを与えられるという大胆なシステムを採った。
+
+また、サイコロで6が出た数だけ「悪意ダメージ」として、ヒットの差や防御点を無視して相手にダメージを与える。
+
+戦闘システムの構造上、戦闘時にはサイコロを同時に多数振るため、他のテーブルトークRPGよりも多くのサイコロを必要とするのも特徴。同時に振るサイコロの数は、他のテーブルトークRPGの多くが1人あたり1～3個程度なのに対し、T&Tでは1人あたり3～5個程度が普通で、武器によっては10個ものサイコロを必要とする場合もある。
+
+=== 行為判定 ===
+一般の行為判定は、セービングロール (SR)と呼ばれる、能力値（体力度、知性度、魅力度など）に6面ダイスふたつの合計(2D6) を足したものが、ある難易度数に達していたかどうかで合否を判断する。ただしダイスの目が4以上でなければ自動的に失敗となる。またゾロ目（同数字がふたつ）の場合には、更に2D6を振り足すことができる。
+
+ゾロ目が繰り返し起これば、20、30といった極端な数値にもなりうるため、どんな困難な行為判定でも絶対に成功しないとは言い切れない。
+
+判定に失敗した場合、自動的失敗でなければ達成値にレベルを加えることが出来る。これにより目標となる難易度数に達すれば、その行為はなんとか成功したことになる。
+
+=== キャラクター ===
+キャラクターの能力は体力度・耐久度・器用度・速度・知性度・魔力度・幸運度・魅力度の 8つの能力値で表される。キャラクター作成時には 6面ダイス三つの合計(3D6)の値に選んだ種族の係数をかけて能力値を決める。
+
+作成時に6面ダイスの目が三つとも同じだった場合、さらに6面ダイス三つを振り足すことが出来る。
+
+このため、サイコロの結果と種族によっては作成時から能力値が50以上になることもあり得る。
+
+能力値を MR （モンスターレート） という数値ひとつで表現する方法もある。MR はキャラクターの攻撃の強さと耐久度を同時に表す数値で、戦闘時にゲームマスターの計算を楽にするために使われることが多い。MR で表されたキャラクターは普通の能力値をもたないため、セービングロールを行うことができない。
+
+=== 種族 ===
+種族は、人間・エルフ・ドワーフ・ホブ（ホビット）・レプラコーン・フェアリーの 6種類が基本となる。<br>
+ゲームマスターが許可すれば、トロールやウルク（オーク）など、さまざまな種族を選ぶこともできる。
+
+=== 役割 ===
+七版では市民・戦士・盗賊・魔術師・専門家・達人の 6つの役割が用意されている。
+
+*'''市民'''
+一般市民であり、戦うことも魔法も、どちらもあまり得意ではない。
+
+*'''戦士'''
+すべての武器・防具を使うことができ、戦闘に大きなボーナスがある。魔法は決して使うことが出来ない。
+
+*'''盗賊'''
+正確には「盗賊魔術師」であり、正規の教育を受けていない魔術師全般を指す。戦士同様すべての武器・防具を使うことができるが、特にボーナスはない。盗賊は魔法を使うこともできるが、魔術師のように魔力度の消費を軽減することができず、本来のレベルより高いレベルで魔法を使うこともできない。盗賊らしい行動をとるのに特典がある。
+
+*'''魔術師'''
+魔法を使うことができる。短剣や杖など限られた武器しか使えない。防具に制限はない。自身のレベルが上がったり魔法の杖を使ったりすることで、魔法使用時の魔力度消費を軽減することができる。
+
+*'''専門家'''
+超自然に近い能力を持って生まれたキャラクターであり、いくつか種類がある。ある系統の魔法だけを非常に少ない魔力度消費で使え、さらに呪文を自動的に覚えていく'''専門家魔法使い'''、射撃がほぼ確実に成功する'''野伏せり'''、説得がほぼ確実に成功する'''指導者'''などがいる。いずれも、キャラクター作成時に、特定の能力値が条件を満たしていないと選ぶことが出来ない。
+
+*'''達人'''
+以前の版では'''魔法戦士'''と呼ばれる役割で、キャラクター作成時の能力値 (種族係数をかける前の数値) がすべて12以上でないと選ぶことができない。能力値が条件を満たす確率は非常に低い。達人は盗賊と同じように、戦うことも魔法を使うこともでき、どちらも盗賊よりも熟達している。
+
+また、社会思想社版の「モンスター！モンスター！」には米「ソーサラーズ・アプレンティス」誌に掲載されたD.V.マーチによるローカルルール「僧侶」「侍僧」が掲載されており、ウォーロック誌に連載されていたT&T用背景世界「セル・アーネイ」などで採用されていた。
+
+*'''僧侶'''
+信仰度(セル・アーネイやHT&Tでは体力度)を消費する事で神の力を借りて奇跡を行う事ができる。使える奇跡に武器、防具に制限を受ける。仕える神にちなんだ物品を聖印として使う事で魔術師の魔法同様に信仰度を減少させる事ができる。
+
+*'''侍僧'''
+僧侶に仕える使用人のような存在。低いレベルの奇跡を使用する事ができるが、聖印を使って信仰度を減少させる事はできない。
+盗賊とは異なり、仕える神に対して大きな功績を立てるなど、神に認められる事で正式な僧侶になれる可能性が示唆されている（具体的なルールは存在しない）。
+｢セル・アーネイ｣では盗賊に統合されており、前述の僧侶へ昇進するルールなども存在しない。
+
+=== 武器や防具 ===
+武器のルールはあまり多くない反面、種類は非常に多く、中には釿（ちょうな）や木樵用の斧、肉切り包丁、かなてこ、ウォーショベルなどの道具や、テルビーチェ（木の棒の両側にサメの歯を並べた武器）や、フィッシュ・スパイン・ソード（ノコギリエイのノコギリ状の吻に持ち手をつけた物）など、他のゲームではまず見られることがない武器が登場する。
+
+{{Infobox RPG
+|title= Tunnels & Trolls
+|image= 
+|caption= 
+|designer= Ken St. Andre
+|publisher= Flying Buffalo
+|date=1975
+|genre= Fantasy
+|system= Custom
+|footnotes= 
+}}
+'''''Tunnels & Trolls''''' (abbreviated ''T&T'') is a 1975 fantasy role-playing game designed by Ken St. Andre and published by Flying Buffalo. The game was developed to be a simpler alternative to ''Dungeons and Dragons'' suitable for solitaire and play-by-mail gameplay.
+
+==Setting==
+The ''Tunnels & Trolls'' core ruleset does not detail a specific setting, saying only that gameplay occurs in "a world somewhat but not exactly similar to Tolkien's Middle Earth." In an interview in 1986, Ken St Andre stated that "my conception of the T&T world was based on The Lord of The Rings as it would have been done by Marvel Comics in 1974 with Conan, Elric, the Gray Mouser and a host of badguys thrown in".[http://www.garenewing.co.uk/tnt/interview.html]
+
+The 5.5 Edition includes Ken St. Andre's house campaign setting, Trollworld.
+
+==Gameplay==
+===Prime attributes===
+Six prime attributes define characters in ''Tunnels & Trolls'':
+
+*'''Strength (ST)''' determines which weapons the character can use and how much the character can carry. It also serves as magic points.
+*'''Intelligence (IQ)''' measures the character's ability to think and remember facts.
+*'''Luck (LK)''' affects combat results and saving throws.
+*'''Constitution (CON)''' measures how healthy the character is and how much damage the character can take before being killed.
+*'''Dexterity (DEX)''' represents agility and nimbleness and affects marksmanship.
+*'''Charisma (CHR)''' represents attractiveness and leadership ability.
+
+Some editions add the following prime attributes:
+
+*'''Wizardry (WIZ)''' replaces Strength for powering magic points. Also called '''Power (POW)''' in the 5.5 Edition.
+*'''Speed (SPD)''' represents reaction speed and, in some editions, movement rate.
+
+A new character begins with a randomly generated score for each attribute, determined by rolling three six-side dice.
+
+===Character races===
+The rules recommend that novice players create human characters, but also offer the recommendation of elves, dwarves, and hobbits. Other races, like leprechauns and fairies, serve as additional character options. A character's race affects his or her attributes.
+
+===Character classes===
+Players also choose a character class for their character. The two base classes are Warriors and Wizards. Wizards can cast spells but have combat limitations,  while Warriors cannot cast magic but receive combat bonuses. Rogues and Warrior-Wizards are also available as character classes. These two classes both combine the abilities of the Warrior and the Wizard. Rogues in ''Tunnels & Trolls'' are not thieves, unlike the Rogue classes in ''Dungeons & Dragons''. Rogues are limited in their spell-casting abilities, and do not receive the Warrior's armor bonus. Warrior-Wizards are not so limited, but the player must be lucky with the dice when creating the character: high minimum attribute scores are required. Later editions include new classes such as Specialist Mage, Paragon, Leader, and Ranger.
+
+===Starting equipment and money===
+New characters begin with an amount of gold pieces determined by rolling three six-sided dice and multiplying the total by ten. These gold pieces can be used to buy weapons, armor, and other equipment.
+===Combat===
+Combat is handled by comparing dice rolls between a character and his opponent. Both sides roll a number of dice determined by which weapon is in use, then modify the appropriate result by "personal adds". Totals are compared, with the higher roll damaging the opposing combatant by the difference in totals. Armor absorbs this damage taken, and any amount remaining is subtracted from the Constitution attribute.
+
+''Tunnels & Trolls'' is unusual among roleplaying games in conducting mass combat resolution with one set of rolls, as the above system applies to combats between any number of opponents.
+
+Personal adds are determined by Strength, Luck, and Dexterity. For every point above 12 possessed in each of these attributes, the character receives a one-point bonus to his personal adds. Similarly, for every point below 9 possessed in each of these attributes, the character receives a one-point penalty.
+
+In the 7th Edition, the formula was changed to include Speed in the personal adds.
+
+The 5.5 edition (and 7th) introduced 'spite damage' whereby each "6" rolled on the combat dice causes a minimum of one damage to be inflicted on the opposing side, regardless of armor or the respective combat totals. This helped resolve the interminable stalemate that could occur between evenly-matched, heavily-armored opponents.
+
+===Saving rolls===
+''Tunnels & Trolls'' is the first role-playing game to offer a universal task resolution system. In game terms, it involves saving rolls, which are checks made against a character's attributes that factor in a difficulty level based on the task at hand.

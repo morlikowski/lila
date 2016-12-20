@@ -1,0 +1,46 @@
+'''Electronic correlation''' refers to the interaction between quantum system whose electronic structure is being considered. The term ''correlation'' stems from mathematical statistics and means that two distribution functions, ''f'' and ''g'', are not independent of each other.
+
+== Atomic and Molecular Systems ==
+
+thumb|right|380px|Electron correlation energy in terms of various levels of theory of solutions for the Schrödinger equation.
+
+Within the Löwdin.<ref>{{cite journal | first = Per-Olov | last = Löwdin | title = Quantum Theory of Many-Particle Systems. III. Extension of the Hartree-Fock Scheme to Include Degenerate Systems and Correlation Effects  | journal =  volume = 97 | issue = 6 | pages = 1509–1520 | publisher = [[American Physical Society | date = March 1955 | url = http://link.aps.org/abstract/PR/v97/p1509
+  | doi = 10.1103/PhysRev.97.1509 | accessdate = 2008-04-07 | format = abstract}}</ref>
+
+A certain amount of electron correlation is already considered within the HF approximation, found in the electron exchange term describing the correlation between electrons with parallel spin. This basic correlation prevents two parallel-spin electrons from being found at the same point in space and is often called Fermi correlation.  Coulomb correlation, on the other hand, describes the correlation between the spatial position of electrons with opposite spin due to their Coulomb repulsion. There is also a correlation related to the overall symmetry or total spin of the considered system.
+
+In simple terms the molecular orbitals of the Hartree-Fock method are optimised by evaluating the energy of an electron in each molecular orbital moving in the mean field of all other electrons, rather than including the instantaneous repulsion between electrons.
+
+== Crystalline Systems ==
+
+In condensed matter physics, electrons are typically described with reference to a periodic lattice of atomic nuclei. Non-interacting electrons are therefore typically described by Bloch waves, which correspond to the delocalized, symmetry adapted molecular orbitals used in molecules (while Wannier functions correspond to localized  MOs). A number of important theoretical approximations have been proposed to explain electron correlations in these crystalline systems.
+
+The Fermi liquid model of correlated electrons in metals is able to explain the temperature dependence of resistivity by electron-electron interactions.
+
+Superconductivity is the result of electron correlations.
+
+The tight-binding approximation, and can explain conductor-insulator transitions in Mott insulators such as transition metal oxides by the presence of repulsive Coulombic interactions between electrons.
+
+The RKKY Interaction can explain electron spin correlations between unpaired inner shell electrons in different atoms in a conducting crystal by a second-order interaction that is mediated by conduction electrons.
+
+L'expression de '''corrélation électronique''' est utilisée pour décrire l'interaction entre quantique, dont on considère la corrélation'' provient des mathématiques statistiques et indique que deux fonctions de distribution, ''f'' et ''g'', ne sont pas indépendantes l'une de l'autre.
+
+==Systèmes atomiques et moléculaires==
+thumb|right|180px|Énergie de corrélation électronique selon les différents niveaux de théorie de la résolution de l'équation de Schrödinger
+Dans la Löwdin.<br>
+Une certaine partie de la corrélation électronique est déjà considérée dans l'approximation Hartree-Fock, plus précisément dans le terme d'échange électronique décrivant la corrélation entre électrons avec des spins parallèles. La corrélation de base empêche deux électrons à spin parallèle de se trouver au même point de l'espace (selon le principe d'exclusion de Pauli), et est parfois appelée corrélation de Fermi. La corrélation de Coulomb, d'autre part, décrit la corrélation entre les positions spatiales des électrons de spin opposé en raison de la répulsion de Coulomb. Il y a aussi une corrélation liée à la symétrie globale ou au spin total du système considéré.<br>
+En termes simples, les orbitales moléculaires de la méthode Hartree-Fock sont optimisées en évaluant, dans chaque orbitale moléculaire, l'énergie d'un électron se déplaçant dans le champ moyen généré par les autres électrons, plutôt qu'en incluant la répulsion instantanée entre électrons.
+
+==Systèmes cristallins==
+En ondes de Bloch plutôt que par les orbitales utilisées dans les systèmes atomiques et moléculaires. Un certain nombre d'approximations théoriques a été proposé pour expliquer les corrélations électroniques dans ces systèmes cristallins.<br>
+Le modèle du liquide de Fermi des électrons corrélés dans les métaux peut expliquer la dépendance en température de la résistivité en termes d'interactions électron-électron.<br>
+La supraconductivité résulte des corrélations électroniques.<br>
+Le approximation , et peut expliquer les transitions conducteur-isolant dans les isolants de Mott comme les oxydes de métaux de transition par la présence d'interactions de Coulomb répulsives entre les électrons.<br>
+L'interaction RKKY peut expliquer les corrélations électroniques de spin entre les électrons profonds non appariés dans différents atomes dans un cristal conducteur par une interaction de second ordre propagée par les électrons de conduction.<br>
+Le modèle du liquide de Luttinger-Tomonaga fait l'approximation des interactions électron-électron de second ordre comme des interactions bosoniques.
+
+==Considérations mathématiques==
+Pour deux électrons indépendants ''a'' et ''b'',
+:<math>\rho(\mathbf{r}_a,\mathbf{r}_b) \sim \rho(\mathbf{r}_a)\rho(\mathbf{r}_b)</math>,
+où ''&rho;('''r'''<sub>a</sub>,'''r'''<sub>b</sub>)'' est la densité électronique jointe, ou la densité de probabilité de trouver l'électron ''a'' à '''''r'''<sub>a</sub>'' et l'électron ''b'' à '''''r'''<sub>b</sub>''. Dans cette notation ''&rho;('''r'''<sub>a</sub>,'''r'''<sub>b</sub>)d'''r'''<sub>a</sub>d'''r'''<sub>b</sub>'' réprésente la densité de probabilité de trouver les  deux électrons dans leurs éléments de volume respectifs ''d'''r'''<sub>a</sub>'' et ''d'''r'''<sub>b</sub>''.<br>
+Si ces deux électrons sont corrélés, la probabilité de trouver l'électron ''a'' à une certaine position de l'espace dépend de la position de l'électron ''b'' et inversement. En d'autres termes, le produit de leurs fonctions de densité indépendantes ne décrit pas de manière adéquate la situation réelle. À distances faibles, la densité de paire non-corrélée est trop importante; à distances importantes, elle est trop faible (i.e. les électrons ).

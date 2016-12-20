@@ -1,0 +1,41 @@
+{{Infobox_Software |
+  nome = ChatZilla |
+  screenshot = 250px |
+  didascalia = ChatZilla con il tema chiaro |
+  sviluppatore = James Ross, Robert Ginda, Samuel Sieb |
+  versione_ultimo_rilascio = 0.9.82 |
+  data_ultimo_rilascio = 4 maggio, 2008 |
+  sistema_operativo = Multipiattaforma |
+  genere = Client IRC |
+  licenza = MPL/GPL/LGPL tri-licenze |
+  sito_web = [https://addons.mozilla.org/extensions/moreinfo.php?id=16 addons.mozilla.org]/&nbsp;[http://www.hacksrus.com/~ginda/chatzilla/ hacksrus.com] |
+}}
+
+'''ChatZilla''' è un client IRC per i browser XUL e JavaScript.
+
+ChatZilla è progettato per girare su ogni piattaforma su cui c'è Mozilla, come Solaris, IRIX, BeOS, HP-UX, OS/2 e BSD. <br/>
+Supporta le funzioni più famose dei client IRC, come SSL, inoltre utilizza di default l'fogli di stile, ciò significa che lo stile del client può essere cambiato facilmente, ad esempio includendo uno che associa gli ''avatar'' (fotografie) vicino al ''nickname'' degli utenti che parlano nel canale.<br/> 
+Sono supportate caratteristiche come il protocollo Direct Client-to-Client (DCC), che permette agli utenti di scambiarsi file. 
+
+Il lavoro su ChatZilla continua: attualmente è incluso nel browser Mozilla e disponibile come estensione per Mozilla Firefox. ChatZilla, inoltre è disponibile in una versione standalone (autonoma) che gira in XULRunner.<br/>
+
+{{infobox software
+| name                   = ChatZilla
+| screenshot             = 350px
+| caption                = ChatZilla with Midnight theme and black motif
+| developer              = James Ross, Robert Ginda, Samuel Sieb, Gijs Kruitbosch
+| latest_release_version = 0.9.83
+| latest_release_date    = June 22, 2008
+| operating_system       = Cross-platform
+| genre                  = IRC client
+| license                = MPL / GPL / LGPL
+| website                = http://chatzilla.hacksrus.com/
+}}
+
+'''ChatZilla''' is an IRC client, written in XUL and JavaScript for Mozilla web browsers.
+
+It is designed to run on any platform on which Mozilla runs, such as BSD, Solaris, AIX, SSL and CSS, which means that the style of the client can be easily changed, including one that places photographs next to the names of users who speak in the channel. Features such as DCC, which allows users to transfer files between one another, are now supported.
+
+Work on ChatZilla progresses, and ChatZilla is currently included with the extension. It is also available as a standalone version which runs on top of XULRunner.
+
+== See also ==

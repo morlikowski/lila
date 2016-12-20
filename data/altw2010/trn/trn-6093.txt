@@ -1,0 +1,133 @@
+Опыт Томаса Юнга стал экспериментальным доказательством волновой теории света  - пучок частиц (корпускулярная теория), то на проекционном экране можно будет увидеть только две параллельных полосы света, прошедших через прорези ширмы между которыми проекционный экран оставался бы практически неосвещенным.
+С другой стороны, если предположить, что  свет представляет собой распространяющиеся волны (волновая теория), то, согласно принципу Гюйгенса, каждая прорезь является источником вторичных волн. Если вторичные волны достигнут  линии в середине экрана, находящейся на равном удалении от прорезей, синхронно и в одной фазе, то на серединной линии экрана выполняется условие максимального интерференционного усиления - максимум яркости. Т.е., максимум яркости окажется  там, где она должна быть практически нулевой, что противоречит  корпускулярной теории света. На каком-то удалении от центральной линии, напротив, волны должны оказаться в противофазе, и там будет наблюдаться темная полоса. По мере дальнейшего удаления от средней линии яркость будет снова возрастать до максимума, затем снова убывать и т.д. Т.е., на проекционном экране мы должны получить целый ряд чередующихся интерференционных полос. Что и было продемонстрировано Томасом Юнгом.
+
+== Ссылки ==
+* [http://phdep.ifmo.ru/labor/yung.yung.html Опыт Юнга] (Java-аплет)
+* [http://vsg.quasihome.com/interf.htm Интерференция - опыт Юнга. Java applet] 
+
+{|style="float:right;clear:right;"
+|right|300px|thumb|Same device, one slit open vs. two slits open (Note the 16 fringes.)
+|-
+|80px|thumb|right|The slits; distance between top posts approximately one inch.
+|-
+|200px|right|thumb|Single-slit diffraction pattern
+|-
+|right|frame|Double-slit diffraction and interference pattern
+|}
+
+The '''double-slit experiment''' in coherent light source illuminates a thin plate with two parallel slits cut in it, and the light passing through the slits strikes a screen behind them.  The wave nature of light causes the light waves passing through both slits to interfere, creating an interference pattern of bright and dark bands on the screen.  However it is known that light is only emitted and absorbed in discrete particles, photons, not waves.
+
+If the light travels from the source to the screen as particles, then the number that strike any particular point on the screen should be equal to the sum of those that go through the left slit and those that go through the right slit.  In other words, the brightness at any point should be the sum of the brightness when the right slit is blocked and the brightness when the left slit is blocked. However, it is found that blocking one slit makes some points on the screen brighter, and other points darker.  This can only be explained by the alternately additive and subtractive interference of waves, not the exclusively additive nature of particles.<ref name="Feynmann" ></ref>
+
+Any modification of the apparatus that can determine which slit a photon passes through destroys the interference pattern,<ref name="Feynmann" /> illustrating the complementarity principle; that the light can demonstrate both particle and wave characteristics, but not both at the same time.<ref>{{cite web
+  | last = Harrison
+  | first = David
+  | authorlink = 
+  | coauthors = 
+  | title = Complementarity and the Copenhagen Interpretation of Quantum Mechanics
+  | work = UPSCALE
+  | publisher = Dept. of Physics, U. of Toronto
+  | date = 2002
+  | url = http://www.upscale.utoronto.ca/GeneralInterest/Harrison/Complementarity/CompCopen.html
+  | format = 
+  | doi = 
+  | accessdate = 2008-06-21}}</ref><ref>{{cite web
+  | last = Cassidy
+  | first = David
+  | authorlink = 
+  | coauthors = 
+  | title = Quantum Mechanics 1925-1927: Triumph of the Copenhagen Interpretation
+  | work = Werner Heisenberg
+  | publisher = American Institute of Physics
+  | date = 2008
+  | url = http://www.aip.org/history/heisenberg/p09.htm
+  | format = 
+  | doi = 
+  | accessdate = 2008-06-21}}</ref><ref>{{cite conference
+  | first = María C.
+  | last = Boscá Díaz-Pintado
+  | authorlink = 
+  | coauthors = 
+  | title = Updating the wave-particle duality
+  | booktitle = 15th UK and European Meeting on the Foundations of Physics
+  | pages = 
+  | publisher = 
+  | date = 29-31 March 2007
+  | location = Leeds, UK
+  | url = http://philsci-archive.pitt.edu/archive/00003568/
+  | doi = 
+  | id = 
+  | accessdate = 2008-06-21}}</ref>
+
+The double slit experiment can also be performed (using different apparatus) with particles of matter such as electrons with the same results, demonstrating that they also show particle-wave duality.
+
+==Overview==
+
+Normally, when only one slit is open, the pattern on the screen is a diffraction pattern, a fairly narrow central band with dimmer bands parallel to it on each side. When both slits are open, the pattern displayed becomes very much more detailed and at least four times as wide.  
+When two slits are open, probability wave fronts<ref name="Greene_1999"></ref> emerge simultaneously from each slit and radiate in concentric circles. When the detector screen is reached, the sum of the two probability wave fronts at each point determines the probability that a photon will be observed at that point. The end result when many photons are directed at the screen is a series of bands or "fringes." The interference of probability wave fronts is shown in the graph below.
+
+When two slits are open but something is added to the experiment to allow a determination that a photon has passed through one or the other slit, then the interference pattern '''disappears''' and the experimental apparatus yields two simple patterns, one from each slit. (See below.)
+
+However, interference fringes are still obtained even when only one slit is open at any given time, <ref name="Sillitto_1972">Sillitto R and Wykes, C. 1972, Phys. Lett., An interference experiment with light beams modulated in anti-phase by an electro-optic shutter, 39A, 333-4</ref> provided that difference in length between the two paths in the interferometer is such that a photon could have traveled through either slit.  This is the case even though the photon density in the system is much less than one.
+
+The most baffling part of this experiment comes when only one photon at a time is fired at the barrier with both slits open. The pattern of interference remains the same as can be seen if many photons are emitted one at a time and recorded on the same sheet of photographic film. The clear implication is that something with a wavelike nature passes simultaneously through both slits and interferes with itself — even though there is only one photon present. (The experiment works with electrons, atoms, and even some molecules too.)
+
+"Richard Feynman was fond  of saying that all of quantum mechanics can be gleaned from carefully thinking through the implications of this single experiment."<ref name="Greene_1999" />
+
+(The following depictions are relatively slow to load.)
+
+*Animation 1 
+*Animation 2 (zoom in)
+
+==The underpinning of this experiment==
+250px|left|thumb|Circles of equal sizes are drawn along an existing wavefront and their tangents are smoothed to form the next predicted wavefront location.
+
+Christiaan Huygens understood the basic idea of how light propagates and how to predict its path through a physical apparatus. He understood that a light source emits a series of waves comparable to the way that water waves spread out from something like a bobber that is jiggled up and down as it floats on the water surface. He said that the way to predict where the next wave front will be found is to generate a series of concentric circles on a sufficiently large number of points on a known wave front and then draw a curve that will pass tangent to all the resulting circles out in front of the known wave front. The diagram given here shows what happens when a flat wave front is extended in this manner, and what happens when a curved wave front is extended in the same way. Augustin Fresnel (1788-1827) based his proof that the wave nature of light does not contradict the observed fact that light propagates in a straight line in homogeneous media on Huygens' work, and also based himself on Huygens' ideas to give a complete account of diffraction and interference phenomena known at his time.<ref name="de Broglie_1953"></ref> See the article Huygens–Fresnel principle for more information.
+250px|left|thumb|Note that there are four gaps between crests hitting the screen -- places that will be darker in the resultant diffraction pattern visible to an observer
+The second drawing shows what happens when a flat wave front encounters a slit in a wall. Following the same principle elucidated above, it is clear that the new wave front will "bulge out" from the slit and light will be experienced as having diverged around the edges of the slit.
+
+The third drawing shows the explanation for interference based on the classical idea of a single wave front that represents all the light energy emitted by a source at one moment. Since photons diverge beyond the barrier wall, the distance between parts of any pattern they form on the target wall increase as the distance they have to travel increases, a fact that is well known from everyday experience with things like automobile headlights whose beams are not parallel. But decreasing the distance between slits will also '''increase''' the distance between fringes (colored bands such as the sixteen shown in the second photograph above). Increasing the wavelength will also increase the distance between fringes as long as the slits are wide enough to permit the passage of light of that wavelength. Slits that are very wide in comparison to the frequency of the photons involved (e.g., two ordinary windows in a single wall) will permit light to appear to go "straight through." 
+thumb|250px|right|'''J''' is the distance between fringes. '''J = Dλ/B''' "D" = dist. S2 to F, '''λ''' = wavelength, ''B'' = dist. a to b <ref name="Frank_">[[Philipp Frank, ''Philosophy of Science'', p. 200f.</ref>]]
+
+When light came to be understood as the result of electrons falling from higher energy orbits to lower energy orbits, the light that is delivered to some surface in any short interval of time came to be understood as ordinarily representing the arrival of very many photons, each with its own wave front. In understanding what actually happens in the two-slit experiment it became important to find out what happens when photons are emitted one by one.<ref name="de Broglie_1953" />
+
+When it became possible to perform that experiment, it became apparent that a single photon has its own wave front that passes through both slits, and that the single photon will show up on the detector screen according to the net probability values resulting from the co-incidence of the two probability waves coming by way of the two slits. When a great number of photons are sent through the apparatus one by one and recorded on photographic film, the same interference pattern emerges that had been seen before when many photons were being emitted at the same time. The double-slit experiment was first performed by Taylor in 1909,<ref>Sir Geoffrey Ingram Taylor, &quot;Interference Fringes with Feeble Light&quot;, Proc. Cam. phil. Soc. 15, 114 (1909).</ref> by reducing the level of incident light until on average only one photon was being transmitted at a time.<ref name="de Broglie_1953" /> Note that it is the probabilities of photons appearing at various points along the detection screen that add or cancel. So if there is a cancellation of waves at some point that does not mean that a photon disappears; it means that the probability of a photon's appearing at that point will disappear, and the probability that it will appear somewhere else increases.
+
+==Importance to physics==
+left|thumb|190px|Sketch of the layout of a classical optical double-slit experiment Note that lasers are commonly used today and replace the incoherent source of light and the top pinhole.
+Although the double-slit experiment is now often referred to in the context of quantum mechanics, it is generally thought to have been first performed by  the English scientist Thomas Young in the year 1801 in an attempt to resolve the question of whether light was composed of particles (Newton's "corpuscular" theory), or rather consisted of waves traveling through some ether, just as sound waves travel in air.  The interference patterns observed in the experiment seemed to discredit the corpuscular theory, and the wave theory of light remained well accepted until the early 20th century, when evidence began to accumulate which seemed instead to confirm the particle theory of light.<ref>Albert Einstein, ''Essays in Science,'' Philosophical Library (1934), p. 100</ref>
+
+The double-slit experiment, and its variations, then became a classic ''Gedankenexperiment'' (thought experiment) for its clarity in expressing the central puzzles of quantum mechanics.
+
+It was shown experimentally in 1972 <ref name="Sillitto_1972" />that in a Young's slit system where only one slit was open at any time, interference was nonetheless observed providing the path difference was such that the detected photon could have come from either slit. The experimental conditions were such that the photon density in the system was much less than unity.
+
+As Young's slit experiments was not performed with anything other than light until 1961, when Claus Jönsson of the University of Tübingen performed it with electrons<ref>Jönsson C, ''Zeitschrift für Physik, 161:454''</ref><ref>Jönsson C (1974). Electron diffraction at multiple slits. ''American Journal of Physics, 4:4-11''.</ref>, and not until 1974 in the form of "one electron at a time", in a laboratory at the University of Milan, by researchers led by Pier Giorgio Merli, of LAMEL-CNR Bologna.
+
+The results of the 1974 experiment were published and even made into a short film, but did not receive wide attention. The experiment was repeated in 1989 by Tonomura et al at Hitachi in Japan. Their equipment was better, reflecting 15 years of advances in electronics and a dedicated development effort by the Hitachi team. Their methodology was more precise and elegant, and their results agreed with the results of Merli's team. Although Tonomura asserted that the Italian experiment had not detected electrons one at a time&mdash;a key to demonstrating the wave-particle paradox&mdash;single electron detection is clearly visible in the photos and film taken by Merli and his group.<ref>See http://physicsworld.com/cws/article/indepth/9745 for more information and photographs (at the bottom of the article).</ref>
+
+In September 2002, the double-slit experiment of Claus Jönsson was voted "the most beautiful experiment" by readers of ''Physics World.''<ref>[http://physicsworld.com/cws/article/print/9746 "The most beautiful experiment"]. Physics World 2002.</ref>
+
+==Importance to philosophy==
+
+Philosophy is concerned with the nature of ideas about the world (or worlds), how those ideas are grounded, and how to ferret out self-contradictions. The double-slit experiment is of great interest therefore, because it forces philosophers to reevaluate their ideas about such basic concepts as "particles",<ref name="Frank_" /> "waves", "location", "movement from one place to another", etc.  
+
+In contrast to the way of conceptualizing the macroscopic world of everyday experience, attempting to describe the motion of a single photon is problematic. As Philipp Frank observes, investigating the motion of single particles through a single slit can obtain a description of the pattern of photon strikes on a target screen. However, "the pattern of fringes for two slits is not the superposition of the two patterns for single slits. Hence, there is no law of motion that would determine the trajectory of a single photon and allow us to derive the observed facts that occur when photons pass two slits."<ref name="Frank_" /> Experience in the micro world of sub-atomic particles forces us to reconceptualize some of our most commonplace ideas.
+
+One of the most striking consequences of the new science is that it is not in agreement with the belief of Laplace that an omniscient entity, knowing the initial positions and velocities of all particles in the universe at one time, could predict their positions at any future time. (To paraphrase Laplace's position, the positions and velocities of all things at any given time depend absolutely on their previous positions and velocities and the absolute laws that govern physical interactions.) Laplace believed that such particles would follow the laws of motion discovered by Newton, but twentieth century physics made it clear that  the motions of sub-atomic particles and even some small atoms cannot be predicted by using the laws of Newtonian physics.<ref name="Frank_" /> For instance, most of the orbits for electrons moving around atomic nuclei that are permitted by Newtonian physics are excluded by the new physics. And it is not even clear what the "movement" of a particle such as a photon may be when it is not clear that it "goes through" either one slit or the other, but it is clear that the probability of its arrival at various points on the target screen is a function of its wavelength and of the distance between the slits. Whereas Laplace would expect an omniscient spirit to be able to predict with absolute confidence the arrival of a photon at some specific point on the target screen, it turns out that the particle may arrive at one of a great number of points, but that the percentage of particles that arrive at each of such points is determined by the laws of the new physics.
+
+==Results observed==
+right|thumb|200px|Thomas Young's sketch of two-slit interference, based on his observations of water waves.<ref></ref>
+
+The bright bands observed on the screen happen when the light has interfered constructively&mdash;where a crest of a wave meets a crest from another wave. The dark regions show destructive interference&mdash;a crest meets a trough. Constructive interference occurs when
+
+::<math>\frac{n\lambda}{d} = \frac{x}{L} \quad\Leftrightarrow\quad{n}{\lambda}=\frac{xd}{L}\;,</math>
+:where
+::<math>\lambda</math> is the wavelength of the light,
+::''d'' is the separation of the slits, the distance between A and B in the diagram to the right
+::''n'' is the order of maximum observed (central maximum is n=1),
+::''x'' is the distance between the bands of light and the central maximum (also called fringe distance), and
+::''L'' is the distance from the slits to the screen centerpoint.
+
+This is only an approximation and depends on certain conditions.<ref>For a more complete discussion, with diagrams and photographs, see Arnold L Reimann, ''Physics'', chapter 38.</ref>
+
+It is possible to work out the wavelength of light using this equation and the above apparatus. If ''b'' and ''L'' are known and ''x'' is observed, then ''λ'' can be easily calculated.

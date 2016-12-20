@@ -1,0 +1,108 @@
+'''車兵'''是日本將棋的棋子之一。只在天竺大將棋和大局將棋出現。
+
+== 車兵在天竺大將棋 ==
+可升級成四天王。
+
+{| border="1" cellspacing="0" cellpadding="3"
+|- bgcolor="#dddddd"
+!前身棋!! colspan="2"|步法!!升級棋!! colspan="2"|步法
+
+<tr>
+<td>車兵</td>
+<td><table border="1" cellspacing="0" cellpadding="3">
+<tr><td>＼</td><td>&nbsp;</td><td>│</td><td>&nbsp;</td><td>／</td></tr>
+<tr><td>&nbsp;</td><td>＼</td><td>│</td><td>／</td><td>&nbsp;</td></tr>
+<tr><td>○</td><td>○</td><td>'''車'''</td><td>○</td><td>○</td></tr>
+<tr><td>&nbsp;</td><td>／</td><td>│</td><td>＼</td><td>&nbsp;</td></tr>
+<tr><td>／</td><td>&nbsp;</td><td>│</td><td>&nbsp;</td><td>＼</td></tr>
+</table></td>
+<td>可循斜向自由行走，或循橫向走兩格。不得越棋。</td>
+<td>四天王</td>
+<td><table border="1" cellspacing="0" cellpadding="3" style="text-align:center;">
+<tr>
+<td>＼</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>／</td>
+</tr>
+<tr>
+<td>&nbsp;</td><td>＼</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>／</td><td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td><td>&nbsp;</td><td>！</td><td>！</td><td>！</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr>
+<td>○</td><td>☆</td><td>！</td><td>'''<span style="color: Red;">四天'''</td><td>！</td><td>☆</td><td>○</td>
+</tr>
+<tr>
+<td>&nbsp;</td><td>&nbsp;</td><td>！</td><td>！</td><td>！</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td><td>／</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>＼</td><td>&nbsp;</td>
+</tr>
+<tr>
+<td>／</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>＼</td>
+</tr>
+</table></td>
+<td>
+四天王具有特殊的四種走法。
+*可越過棋子至☆格。
+*可循橫向至○格，但若☆格有棋子則不得越過至此○格。
+*可循斜向自由行走，除可越過！格的棋子，不得越棋。
+*若敵方位於！格，則四天王可用獅子的'''居食'''吃法。也就是作定點攻擊，吃子後再回去原地。</td>
+</tr>
+</table>
+
+== 車兵在大局将棋 ==
+豎兵的升級棋。可升級為四天王。
+
+'''車兵'''（しゃへい）は、駒の一つ。本将棋にはなく、天竺大将棋・大局将棋に存在する。
+
+== 天竺大将棋 ==
+成ると'''四天王'''。
+
+<table border="1" cellspacing="0" cellpadding="3">
+<tr bgcolor="#dddddd"><th>元の駒</th><th  colspan="2">動き</th><th>成駒</th><th colspan="2">動き</th></tr>
+
+<tr>
+<td>車兵（しゃへい）</td>
+<td><table border="1" cellspacing="0" cellpadding="3">
+<tr><td>＼</td><td>&nbsp;</td><td>│</td><td>&nbsp;</td><td>／</td></tr>
+<tr><td>&nbsp;</td><td>＼</td><td>│</td><td>／</td><td>&nbsp;</td></tr>
+<tr><td>○</td><td>○</td><td>'''車<br>兵'''</td><td>○</td><td>○</td></tr>
+<tr><td>&nbsp;</td><td>／</td><td>│</td><td>＼</td><td>&nbsp;</td></tr>
+<tr><td>／</td><td>&nbsp;</td><td>│</td><td>&nbsp;</td><td>＼</td></tr>
+</table></td>
+<td>縦と斜めに何マスでも動け、横には2マス動ける。飛び越えては行けない。</td>
+<td>四天王（してんのう）</td>
+<td><table border="1" cellspacing="0" cellpadding="3" style="text-align:center;">
+<tr>
+<td>＼</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>／</td>
+</tr>
+<tr>
+<td>&nbsp;</td><td>＼</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>／</td><td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td><td>&nbsp;</td><td>！</td><td>！</td><td>！</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr>
+<td>○</td><td>☆</td><td>！</td><td>'''四<br>天<br>王'''</td><td>！</td><td>☆</td><td>○</td>
+</tr>
+<tr>
+<td>&nbsp;</td><td>&nbsp;</td><td>！</td><td>！</td><td>！</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td><td>／</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>＼</td><td>&nbsp;</td>
+</tr>
+<tr>
+<td>／</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>＼</td>
+</tr>
+</table></td>
+<td>
+非常に特殊な動きをする。隣接8マスには直接移動できないが、敵の駒があれば1手で動かずに取ることが出来る（'''居喰い'''）。また、斜め四方には隣接した駒のみ飛び越えて何マスでも進める。横には隣接した駒のみ飛び越えて3マスまで進むことができる。すなわち、1マス目にだけ駒があっても飛び越えて2マス目や3マス目に行けるが、2マス目に駒があれば飛び越えて3マス目に行くことはできない<ref>『諸象戯図式』では「如車兵亦近八方不行其外周二三要用歩」となっており、隣接したマスには移動できないものの、前後と斜めは（2マス以上）何マスでも動け、左右は2～3マス移動できると解釈できる。</ref>。
+</td>
+</tr>
+</table>
+
+== 大局将棋 ==
+竪兵の成駒。成ると'''四天王'''。
+
+<table border="1" cellspacing="0" cellpadding="3">
+<tr bgcolor="#dddddd"><th>元の駒</th><th  colspan="2">動き</th><th>成駒</th><th colspan="2">動き</th></tr>

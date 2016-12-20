@@ -1,0 +1,52 @@
+Een '''achterdeurtje''' (en: backdoor) is een bewust geïmplementeerde functionaliteit in software om een beveiligingsmechanisme te omzeilen. 
+
+==Eigenschappen==
+De aanwezigheid van een achterdeurtje valt niet op tijdens normaal gebruik van de software. Indien men bekend is met het achterdeurtje, kan men door een bepaalde handeling uit te voeren toegang krijgen tot de software zonder door de beveiliging lastig gevallen te worden.
+
+Kenmerk van een achterdeurtje is dat het niet het functioneel ontwerp van een systeem is vermeld.
+
+Een achterdeurtje kan om goedaardige redenen in software ingebouwd worden, bijvoorbeeld de angst om een wachtwoord kwijt te raken, maar in dat geval is het hele concept van beveiliging niet juist uitgevoerd.
+
+Veelal worden achterdeurtjes om kwaadaardige redenen ingebouwd. Mogelijkheden zijn dat krakers achterdeurtjes openzetten nadat zij een systeem gekraakt hebben om toegang in de toekomst te verzekeren en achterdeurtjes bewust in software ingebouwd worden om bepaalde partijen toegang tot de systemen van de gebruikers te geven.
+
+==Voorkomen==
+Het voorkomen van achterdeurtjes is niet eenvoudig. De belangrijkste maatregelen zijn:
+*creëren security awareness (bewustzijn) bij ontwikkelaars
+*hanteren van een deugdelijk wijzigingsbeheer proces (change management)
+*laten uitvoeren van peer review van ontwikkelde code
+*uitvoeren van source code review door onafhankelijke auditor. Dit is wel een dure aangelegenheid
+
+Dans un cheval de Troie.
+
+== Technique == 
+
+Une porte dérobée peut être introduite soit par le développeur du logiciel, soit par un tiers, typiquement un pirate informatique. La personne connaissant la porte dérobée peut l'utiliser pour surveiller les activités du logiciel, voire en prendre le contrôle (par contournement de l'authentification). Enfin, selon l'étendue des droits que le système d'exploitation donne au logiciel contenant la porte dérobée, le contrôle peut s'étendre à l'ensemble des opérations de l'ordinateur.
+
+La généralisation de la mise en réseau des ordinateurs rend les portes dérobées nettement plus utiles que du temps où un accès physique à l'ordinateur était la règle.  
+
+Parmi les motivations amenant les développeurs de logiciel à créer des portes dérobées, il y a :
+#L'intérêt pratique d'un accès facile et toujours ouvert au logiciel pour pouvoir mener efficacement les actions de maintenance.
+#La possibilité de désactiver subrepticement le logiciel en cas de désaccord avec son client (non-paiement de licence).
+
+Parmi les motivations amenant les pirates informatiques à installer une porte dérobée :
+#La possibilité de surveiller ce que fait l'mots de passe, clé privée pour déchiffrer des messages privés, coordonnées bancaires, secrets commerciaux).
+#La possibilité de prendre le contrôle d'un ordinateur et de pouvoir l'utiliser pour mener des actions malfaisantes (envoi de pourriels notamment pour l'hameçonnage, de virus informatiques, déni de service).
+#Le contrôle d'un vaste réseau d'ordinateurs (voir ''botnet''), qui peut être utilisé pour du chantage au déni de service distribué (DDoS), ou revendu à des criminels.
+
+Pour installer des portes dérobées en masse, les pirates informatiques utilisent des vers. Ceux-ci se répandent automatiquement et installent un serveur informatique sur chaque ordinateur infecté. Ensuite le pirate peut se connecter à travers Internet au serveur. 
+
+Une porte dérobée peut aussi être insérée par voie d'Easter egg, de compilateur (voir la section plus bas ''Le cas du compilateur C Unix: Trusting Trust''), ou peut prendre la forme d'un programme, comme Back Orifice.
+
+==Le cas du C Unix : ''Trusting Trust''==
+
+En américain C compilés sur mises à jour de ce compilateur, qui n'est rien d'autre qu'un autre programme compilé, sont compilées à partir du compilateur C préexistant, l'algorithme d'insertion de la porte dérobée se serait fait transmettre d'une mise à jour à une autre. Donc, si ce compilateur à porte dérobée avait été « lâché dans la nature » (en anglais : ''released in the wild'') à l'origine, alors n'importe quel compilateur de C insèrerait possiblement des portes dérobées de nos jours.
+
+* Des caractéristiques de ce compilateur fictif, est notable le fait que la porte dérobée présente dans n'importe quel programme C compilé n'apparaîtrait jamais dans le code source en C.
+
+* L'appellation ''trust'' (pour ''confiance'') vient du fait que le compilateur C d'origine est considéré par son boîte noire digne de confiance. 
+
+* Soit un programme, qu'il a lui-même écrit puis compilé, contient une porte dérobée. 
+
+Source: Kenneth Thompson, ''Reflections on Trusting Trust'', Communication of the ACM, Vol. 27, No. 8, August 1984, pp. 761-763.  [http://www.acm.org/classics/sep95/]
+
+== Affaires notables ==

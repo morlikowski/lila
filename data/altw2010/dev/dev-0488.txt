@@ -1,0 +1,101 @@
+'''Aiolský modus''' je pojem z oblasti hudební nauky, který se používá pro posloupnost tónů diatonické durové stupnice zahrané od jejího šestého stupně. Tento modus je shodný s diatonickou mollovou stupnicí.
+
+== Vlastnosti aiolského modu ==
+Aiolský modus vznikne z durové stupnice jejím zahráním od šestého stupně, například v případě C dur je základním tónem aiolského modu A a znění aiolského modu: a-h-c-d-e-f-g.
+
+Jedná se o mollový modus (s malou tercií), který je charakteristický malou sextou i septimou.
+
+Nejbližším tvrdším modem je dórský modus, který se od aiolského liší velkou sextou. Nejbližším měkčím modem je frygický modus, který se od aiolského liší malou sekundou.
+
+=== Intervalové složení ===
+{|border=1 cellspacing= 0 cellpadding=2 class="wikitable"
+!bgcolor='#bbbbff'|Stupeň
+!bgcolor='#bbbbff'|Interval
+!bgcolor='#bbbbff'|Příklad - C dur
+|-
+|I
+|Prima
+|a
+|-
+|II
+|Velká sekunda
+|h
+|-
+|III
+|Malá tercie
+|c
+|-
+|IV
+|Čistá kvarta
+|d
+|-
+|V
+|Čistá kvinta
+|e
+|-
+|VI
+|Malá sexta
+|f
+|-
+|VII
+|Malá septima
+|g
+|-
+|VIII = I
+|Oktáva
+|a
+|}
+
+==  Složení v jednotlivých tóninách ==
+Následující tabulka obsahuje složení aiolského modu pro jednotlivé tóniny.
+
+{|border=1 cellspacing= 0 cellpadding=2 class="wikitable"
+!bgcolor='#bbbbff'|Stupnice
+!bgcolor='#bbbbff'|Předznamenání
+!bgcolor='#bbbbff'|Základní tón
+!bgcolor='#bbbbff'|Složení
+|-
+| Cis dur || 7# || ais || ais his cis dis eis fis gis
+|-
+| Fis dur || 6# || dis || dis eis fis gis ais h cis
+|-
+| H dur || 5# || gis || gis ais h cis dis e fis
+|-
+| E dur || 4# || cis || cis dis e fis gis a h
+|-
+| A dur || 3# || fis || fis gis a h cis d e
+|-
+| D dur || 2# || h || h cis d e fis g a
+|-
+| G dur || 1# || e || e fis g a h c d
+|-
+| C dur || - || a || a h c d e f g
+|-
+| F dur || 1b || d || d e f g a b c
+|-
+| B dur || 2b || g || g a b c d es f
+|-
+| Es dur || 3b || c || c d es f g as b
+|-
+| As dur || 4b || f || f g as b c des es
+|-
+| Des dur || 5b || b || b c des es f ges as
+|-
+| Ges dur || 6b || es || es f ges as b ces des
+|-
+| Ces dur || 7b || as || as b ces des es fes ges
+|}
+
+thumb|right|225px|Aeolian mode on A
+
+The '''Aeolian mode''' is a musical mode or diatonic scale. 
+
+An Aeolian mode formed part of the Locrian modes must have formed different (perhaps chromatic) variations of this.
+
+The term ''Aeolian mode'' fell into disuse in medieval Europe, as authentic and plagal counterparts.
+
+In tenor''. The tenth mode, the plagal version of the Aeolian mode, Glarean called ''Hypoaeolian'' ("under Aeolian"), based on the same relative scale, but with the minor third as its tenor, and having a melodic range from a perfect fourth below the tonic to a perfect fifth above it.
+
+As monophonic church music, the ''folk'' modes added by Glarean became the basis of the minor/major division of classical European music, the Aeolian mode forming the natural minor mode. However, it would not be correct to refer to any piece in a now-traditional minor key as being in the Aeolian mode, which would imply that the style of the piece was modal, which is usually not the case with music in a minor key as understood today. In particular, the main (but probably not only) difference would be that the minor-key piece would frequently use the raised 7th degree as its leading note, particularly in the use of dominant-7th harmony, whereas the Aeolian piece would rarely or never use such a raised leading note, and its dominant chord would be a minor triad or minor triad plus minor 7th.
+
+The Aeolian mode is the sixth mode of the major scale and has the "formula" 1, 2, 3, 4, 5, 6, 7. Its tonic chord is the submediant minor triad in the relative major key. For example, if the Aeolian mode is used in its all-white-note pitch based on A, this would be an A-minor triad, which would be the submediant in the relative major key of C major.

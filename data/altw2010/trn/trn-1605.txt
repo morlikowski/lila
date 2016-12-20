@@ -1,0 +1,40 @@
+'''新技術望遠鏡 New Technology Telescope''',もしくは '''NTT''' はチリのラ・シア天文台に設置された口径3.6mの望遠鏡である。
+
+ファーストライトは1989年でESOが所有する。薄い鏡材でも鏡面を保つように能動光学(補償光学と混同しないように)を採用している。
+
+他の望遠鏡でノルディック光学望遠鏡は軽量の鏡をアクチュエーターで支持している。NTTは完全な能動光学を初めて採用した望遠鏡である。その名前のとおり、数々の新技術が実証された。重要な項目に換気がある。熱源を望遠鏡の周辺から遠ざける必要がある。開発の成果はVLTに活用されている。
+NTTは当初、ハッブル宇宙望遠鏡と同様の問題を抱えていた。鏡の検査時に使用されたヌルコレクターに原因があった。<ref>.  Mentions null corrector error that happened during the manufacture of the New Technology Telescope. </ref> しかし、調整によって仕様どうりの性能を出せるようになった。
+
+現在 NTTには以下の3機の観測装置が使用されている。:
+*SuSI-2 (Superb Seeing Imager, version 2)高解像度の光学画像を撮像できるCCDカメラ
+*SofI ("Son of ISAAC", a VLT instrument), 金赤外波長撮像装置
+*EMMI (ESO Multi-Mode Instrument),可視光撮像装置
+
+{{Infobox Telescope
+| bgcolour = 
+| name = New Technology Telescope
+| image = 
+| caption = 
+| organization = ESO
+| location = La Silla Observatory, Chile
+| coords = 
+| altitude = 
+| weather = 
+| wavelength = Optical
+| built = First light in 1989
+| website = 
+| style = 
+| diameter = 3.6m
+| angular_resolution = 
+| area = 
+| focal_length = 
+| mounting = 
+| dome = 
+}}
+The '''New Technology Telescope''', or '''NTT''' is a 3.6m telescope located at La Silla Observatory, Chile.
+
+It saw first light in ESO. It is fitted with TNG.
+
+Although other pre-existing telescopes such as the Nordic Optical Telescope had lightweight mirrors supported by actuators, the NTT is claimed to be the first telescope using full Active Optics, and its design as well as the design of its enclosure (the building protecting it) included many revolutionary features, which justified its name. In particular, great care was taken to ensure a good ventilation of the telescope, and to avoid heat sources in around the telescope. Since its construction, the NTT has undergone several upgrades which continued to improve its quality. It was also used as a real-life test bench for the software used to control the Very Large Telescope.
+
+The New Technology Telescope initially had the same problem as the Hubble Space Telescope - the mirror was ground to the wrong shape due to a mis-calibrated null corrector.<ref>.  Mentions null corrector error that happened during the manufacture of the New Technology Telescope. </ref>  However, as a ground-based and adjustable telescope, the error was much easier to fix, and noted mostly by specialists.

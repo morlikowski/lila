@@ -1,0 +1,128 @@
+Nelle telecomunicazioni, '''4B5B''' è una forma di codice per la trasmissione di dati. 4B5B lavora mappando gruppi di 4 bit in gruppi di 5. Siccome ci sono 32 possibili combinazioni usando 5 bit e solo 16 usandone 4, i 16 gruppi di 5 bit col maggior numero di transizioni sono usati per fornire più transizioni possibili. 4B5B garantisce almeno una transizione per blocco (ingresso di 4 bit / uscita di 5) il quale permette al segnale di essere scoperto. Sfortunatamente l'uso di 5 bit per rappresentarne 4 implica che per trasmettere i dati abbiamo bisogno di una larghezza di banda più grande del 25%.
+
+Dipendentemente dallo standard o dalle specifiche, potrebbero esserci diversi caratteri che 4B5B non usa. La presenza di uno dei caratteri "inusati" nello stream di dati può essere usato come indice di un problema nella connessione. Infatti, i caratteri non usati vengono attualmente usati per scovare gli errori negli stream di dati.
+
+Con la codifica 4B5B vengono risolti i problemi relativi alla trasmissione di più zeri consecutivi.
+Le sequenze generate vengono poi trasmesse attraverso una codifica NRZI (Senza ritorno a zero invertito), che elimina anche il problema della presenza di un numero eccessivo di 1 consecutivi. Il risultato è che la codifica 4B/5B elimina ripetizioni consecutive di un numero eccessivo di valori binari tutti uguali.
+
+4B5B è usato nei seguenti standard:
+*100BASE-TX standard defininto da IEEE 802.3u nel 1995.
+*AES10-2003 MADI [http://www.aes.org/publications/standards/] (Multichannel Audio Digital Interface)
+
+====Un esempio di mappatura può essere il seguente:====
+
+{| 
+|-----
+! Nome
+! 4B
+! 5B
+! Descrizione
+|-----
+| 0 || 0000 || 11110 || hex data 0
+|-----
+| 1 || 0001 || 01001 || hex data 1
+|-----
+| 2 || 0010 || 10100 || hex data 2
+|-----
+| 3 || 0011 || 10101 || hex data 3
+|-----
+| 4 || 0100 || 01010 || hex data 4
+|-----
+| 5 || 0101 || 01011 || hex data 5
+|-----
+| 6 || 0110 || 01110 || hex data 6
+|-----
+| 7 || 0111 || 01111 || hex data 7
+|-----
+| 8 || 1000 || 10010 || hex data 8
+|-----
+| 9 || 1001 || 10011 || hex data 9
+|-----
+| A || 1010 || 10110 || hex data A
+|-----
+| B || 1011 || 10111 || hex data B
+|-----
+| C || 1100 || 11010 || hex data C
+|-----
+| D || 1101 || 11011 || hex data D
+|-----
+| E || 1110 || 11100 || hex data E
+|-----
+| F || 1111 || 11101 || hex data F
+|-----
+| I || -NONE- || 11111 || Idle
+|-----
+| J || -NONE- || 11000 || SSD #1
+|-----
+| K || -NONE- || 10001 || SSD #2
+|-----
+| T || -NONE- || 01101 || ESD #1
+|-----
+| R || -NONE- || 00111 || ESD #2
+|-----
+| H || -NONE- || 00100 || Halt
+|}
+
+In clocking information for the signal. For example, a run of 4 bits such as 0000 contains no transitions and that causes clocking problems for the receiver. 4B/5B solves this problem by assigning each block of 4 consecutive bits an equivalent word of 5 bits. These 5 bit words are pre-determined in a dictionary and they are chosen to ensure that there will be at least one transition per block of bits. 
+A collateral effect of the code is that more bits are needed to send the same information than with 4 bits. To counter this effect, 4B/5B modules are normally paired with a previous stage that scramble the data in such way that the total bandwidth required for transmission is notably reduced.
+Depending on the standard or specification of interest, there may be several 4b5b characters left unused.  The presence of any of the "unused" characters in the data stream can be used as an indication that there is a fault somewhere in the link.  Therefore, the unused characters can actually be used to detect errors in the data stream. 
+
+4B5B is used in the following standards:
+*100BASE-TX standard defined by IEEE 802.3u in 1995.
+*AES10-2003 MADI[http://www.aes.org/publications/standards/] (Multichannel Audio Digital Interface) 
+
+====An example of mapping can be the following:====
+
+{| class="wikitable"
+|-----
+! Name
+! 4b
+! 5b
+! Description
+|-----
+| 0 || 0000 || 11110 || hex data 0
+|-----
+| 1 || 0001 || 01001 || hex data 1
+|-----
+| 2 || 0010 || 10100 || hex data 2
+|-----
+| 3 || 0011 || 10101 || hex data 3
+|-----
+| 4 || 0100 || 01010 || hex data 4
+|-----
+| 5 || 0101 || 01011 || hex data 5
+|-----
+| 6 || 0110 || 01110 || hex data 6
+|-----
+| 7 || 0111 || 01111 || hex data 7
+|-----
+| 8 || 1000 || 10010 || hex data 8
+|-----
+| 9 || 1001 || 10011 || hex data 9
+|-----
+| A || 1010 || 10110 || hex data A
+|-----
+| B || 1011 || 10111 || hex data B
+|-----
+| C || 1100 || 11010 || hex data C
+|-----
+| D || 1101 || 11011 || hex data D
+|-----
+| E || 1110 || 11100 || hex data E
+|-----
+| F || 1111 || 11101 || hex data F
+|-----
+| I || -NONE- || 11111 || Idle
+|-----
+| J || -NONE- || 11000 || SSD #1
+|-----
+| K || -NONE- || 10001 || SSD #2
+|-----
+| T || -NONE- || 01101 || ESD #1
+|-----
+| R || -NONE- || 00111 || ESD #2
+|-----
+| H || -NONE- || 00100 || Halt
+|}
+
+SSD= Start of Stream Delimiter (100BASE-TX Ethernet)

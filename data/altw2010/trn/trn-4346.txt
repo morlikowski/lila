@@ -1,0 +1,50 @@
+Le '''JX-3P''' est un Roland en 1983. 
+
+Le JX-3P (pour Programmable Preset Polyphonic) est le premier clavier de la marque ayant une implémentation Juno de conception voisine mais reste dans la lignée des synthétiseurs analogiques de l'époque, avec un net avantage pour les "cuivres", "cordes" et "nappes". Il a été utilisé par de nombreux groupes pop et New wave.
+
+Les derniers exemplaires pouvaient être équipé d'un clavier sensible à la vélocité. Son successeur est le JX-8P de 1985.
+
+Il existe une version en rack sous le nom MKS-30 Planet-S avec une implémentation MIDI plus avancée, réponse à la vélocité et possibilité d'ajouter des cartouches mémoires, les M-16C. 
+
+Certains logiciels peuvent dans une certaine mesure émuler le JX-3P et son programmeur, notamment sous la forme de greffons VSTi.
+ 
+Le MC-505 et n'a pas de rapport direct avec le JX-3P.
+
+== Caractéristiques techniques ==
+
+* 6 voix de polyphonie
+
+* monotimbral
+
+* 2 oscillateurs par voix (accordés numériquement) carré, impulsion et dent de scie ascendante
+
+* générateur de bruit et cross modulation
+
+{{Infobox_synthesizer |
+image =  |
+image_caption = Roland JX-3P |
+synth_name =  Roland JX-3P|
+synth_manufacturer = Roland|
+synthesis_type = Analog Subtractive|
+polyphony = 6 voices|
+timbrality = Monotimbral|
+oscillator = 2 DCOs per voice|
+filter = 1 resonant lowpass, 1 highpass|
+attenuator = 1 ADSR|
+lfo = 1 sine/square/sh/noise |
+ext_control = MIDI|
+memory = 32 presets/32 user patches|
+fx = chorus|
+dates = 1983-1985|
+price = US $1395|
+keys = 61|
+velocity = No|
+aftertouch = No|
+split = No
+}}
+
+The '''Roland JX-3P''' emerged in Roland. Its architecture is more advanced than the Juno series synths produced around the same time. Both machines use the same interval-timer DCO technology and use the Roland IR3109 lowpass filter. It is a polyphonic, 61 key synthesizer with sawtooth, 50 and 10% pulse waveforms, and a noise generator. It performs as a nice inexpensive vintage synth that produces some great sounds, especially strings and brass. It has 32 factory programs and user memory for 32 programs, and a 128-step, six-part built-in sequencer that can be triggered by sync voltage from external devices such as the Roland TR-707 drum machine. Instead of analog sliders and knobs, the JX-3P used a series of buttons and a single data slider for selecting parameters. For users who wanted better real-time sound control, Roland sold a separate unit that plugs into the synth called the PG-200, also made by Roland. The JX-3P was also produced as a rackmount unit called the MKS-30. While the JX-3P could handle only either midi or the Data from PG200, the MKS-30 can handle both data at the same time.
+
+There is an eprom version available at Roland, which enables note velocity in MIDI-IN mode.
+
+There is an addon kit available from Inque (see link below), which enables parallel usage of PG200 and MIDI and also introduces parameter control via MIDI controller data.

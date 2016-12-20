@@ -1,0 +1,220 @@
+'''Romeinse cijfers''' vormen een natuurlijke getallen, dat afkomstig is uit het getal bepaald wordt door het totaal van de samentellende symbolen. Het stelsel is gebaseerd op de getallen 5 en 10. Er is geen symbool voor het getal 0.  
+
+Romeinse cijfers worden samensgesteld uit de volgende letters als basissymbolen:
+*I = 1
+*V = 5
+*X = 10
+*L = 50
+*C = 100 
+<!---B niet gebruiken, zie overlegpagina--->
+*D = 500
+*M = 1000
+*V'''.'''M = 5.000
+*X'''.'''M = 10.000
+*L'''.'''M = 50.000
+
+De letters V, L en D zijn afgeleid van X, C en M door ze in twee delen door te snijden. De bovenhelft van een X is een V, de onderhelft van een (hoekige) C is een L en de linkerhelft van M is (in gesloten vorm) een D.
+
+Hoewel het stelsel geen positiestelsel is, speelt de relatieve positie van een cijfer wel een belangrijke rol voor de getalswaarde. Staat een cijfer met een lagere waarde vóór die met een grotere waarde, dan betekent het dat de lagere waarde van de hogere waarde wordt afgetrokken. Daarom is bijvoorbeeld IV dus 4.
+
+Dat heeft tot gevolg dat er voor sommige getallen meer dan een mogelijkheid is. Meestal schrijft men niet een 'te kleine' eenheid direct voor een grote. Bijvoorbeeld voor 1999 zou men MIM (1000 + (1000-1)) kunnen schrijven, maar er geldt een beperking voor subtractieve combinaties. Alleen de volgende combinaties zijn toegestaan: IV, IX, XL, XC, CD en CM en daarom is MCMXCIX (1000 + (1000-100) + (100-10) + (10-1)) de gebruikelijke weergave van het getal 1999. Deze restrictie is in de Middeleeuwen ontstaan, de Romeinen hadden deze restrictie niet. Zo werd 8 bijvoorbeeld wel geschreven als IIX.
+
+Vanaf 5000 verandert er het een en ander. Naast optelling wordt er ook vermenigvuldigd. Zo is V'''.'''M vijfduizend (5 x 1000). Daarachter komt een spatie en de rest van het getal. Het getal 5555 wordt als volgt weergegeven: V'''.'''M DLV.
+<div style="display:none;"><br /><br />&nbsp;&nbsp;&nbsp;'''N.B.:''' In de volgende alinea komen tekens voor die in uw browser niet correct kunnen worden weergegeven!</div>
+Een alternatief voor grote getallen is de schrijfwijze met een horizontale streep (in het Latijn ''Vinculum'' of ''Titulus'' genoemd) boven de letters: deze duidt dan een vermenigvuldiging met 1000 aan:
+*<span style="border-top: 1px solid;">V</span> voor 5000
+*<span style="border-top: 1px solid;">X</span> voor 10.000
+*<span style="border-top: 1px solid;">L</span> voor 50.000
+*<span style="border-top: 1px solid;">C</span> voor 100.000
+*<span style="border-top: 1px solid;">D</span> voor 500.000
+*<span style="border-top: 1px solid;">M</span> voor 1.000.000
+
+Voor nog grotere getallen kan eventueel nog een tweede lijn geplaatst worden. Zo wordt 10 miljoen dan geschreven als <span style="border-top: 3px double;">X</span>. Deze methode werd echter niet door de Romeinen gebruikt, maar kwam pas veel later in zwang. Overigens moet deze methode met een horizontale streep boven de letters niet verward worden met de methode om Romeinse letters van Romeinse cijfers te onderscheiden. Op plaatsen waar dit niet meteen duidelijk was werden de "gewone" Romeinse cijfers ook wel eens van een horizontale streep voorzien om duidelijk te maken dat ze gelezen moesten worden als cijfers, niet als letters.
+
+thumb|75px|horloge met Romeinse cijfers
+thumb|75px|wijzerplaat
+De 'oude Romeinen' vermeden vaak de combinatie IV voor 4, en gebruikten in plaats daarvan IIII. Waarschijnlijk is dit omdat de letter IV de beginletters van de Romeinse oppergod IVPITER vormen. Dit gebruik is voortgezet tot enkele eeuwen geleden, en komt onder andere voor op monumenten en klokken. Een andere reden dat IIII boven IV verkozen werd op klokken is dat er dan een even aantal tekens op de klok wordt gebruikt: 20 I's, 4 V's, en 4 X'en. Dit was veel goedkoper te smelten met een mal dan wanneer er IV werd gebruikt: 17 I's, 5 V's, 4 X'en. Een derde reden is dat de IV ondersteboven (zoals op een klok gebruikelijk is) sterk lijkt op VI (6), daarom koos en kiest men voor de duidelijkheid voor IIII. Als laatste geldt nog dat IIII een zekere symmetrie vertoont ten opzichte van de VIII (8) en XII (12).
+
+Op sommige gebouwen in Nederland, bijvoorbeeld op de hervormde kerk aan de Binnenweg in Bennebroek, wordt het bouwjaar met alternatieve Romeinse cijfers afgebeeld. De D wordt dan gevormd als I&#x0186;, een I en een omgedraaide C, en een M als CI&#x0186;, een C, een I en een omgedraaide C: 1600 is dan CI&#x0186;I&#x0186;C. 
+
+== Geschiedenis==
+De Romeinen borduurden met hun cijfers voort op het getalsysteem van de Etrusken, die de symbolen I Λ X  8 ⊕ gebruikten voor I V X L C M. Daarin lijken alleen de I en de X op letters. De gebruikte symbolen zijn afkomstig van de kerven op de kerfstokken van schaapherders uit Italië en Dalmatië en evolueerden in de loop der tijd naar letters.
+
+De I komt van een kerf op de kerfstok en elke vijfde kerf werd dubbel gekerfd, ongeveer als: , ,  en . Elke tiende kerf werd als twee gekruiste kerven gemaakt, waaruit de X ontstond. Het systeem lijkt veel op turven. Men telde dus: I, II, ..., IIIIΛ, ..., IIIIΛIIIIX, ..., IIIIΛIIIIXIIIIΛIIIIXII, enz. Omdat een Λ altijd voorafgegaan wordt door IIII, leidde dit tot verkortingen, en kreeg Λ zelf de betekenis vijf in plaats van de vijfde, en analoog ging X tien betekenen. Ook kon vier uitgelegd worden als de kerf voor Λ, zodat IΛ de betekenis vier kreeg. Daar de symbolen veel gelijkenis vertoonden met de letters I, V en X, werden ze in schrift door de letters aangeduid. 
+
+Voor het aanduiden van 50 en honderd gaf men een extra kerf door de V of de X. Zo werd 50 aangeduid door N, И, K, Ψ, , enz. Meestal echter door een soort kippenpoot: een V met een I er doorheen, die allengs verwerd tot  en al snel geschreven werd als de letter L. Analoog werd 100 aangeduid als Ж, , , H, of als een van de symbolen voor 50 met een extra kerf. Daarvan kreeg de vorm Ж (een X met een I) uiteindelijk de overhand, geschreven als >I<  of , en later afgekort tot  of C. De C, een letter, bleef uiteindelijk over, mede omdat ''honderd'' in het Latijn ''centum'' is. 
+
+Les '''chiffres romains''' étaient un Romains de l'antiquité pour, à partir de seulement sept lettres, écrire des nombres entiers (mais pas le zéro, qu’ils ne connaissaient pas ou plus exactement ne considéraient pas comme un nombre).  
+   
+La numérotation a été normalisée dans l’usage actuel et repose sur quatre principes&nbsp;: 
+* Toute lettre placée à la droite d’une autre figurant une valeur supérieure ou égale à la sienne s’ajoute à celle-ci&nbsp;;
+* Toute lettre '''d’unité''' placée immédiatement à la gauche d’une lettre plus forte qu’elle, indique que le nombre qui lui correspond doit être retranché au nombre qui suit;
+* Les valeurs sont groupées en ordre décroissant, sauf pour les valeurs à retrancher selon la règle précédente.
+* La même lettre ne peut pas être employée quatre fois consécutivement sauf M.
+
+Lettre '''d’unité''' : I est une unité pour V et X, X est une unité pour L et C, C est une unité pour D et M.
+
+==Origine==
+Contrairement à une idée reçue, les chiffres romains ne sont pas acronymiques&nbsp;: par exemple, ''C'' n’est pas, au départ, l’abréviation de ''centum'' (écrit ''CENTVM''). Les chiffres, attestés dans d’autres langues et écritures d’Italie, étaient au départ des symboles séparés, confondus ensuite avec les lettres. Ainsi, en étrusque (dont l’alphabet a été emprunté et adapté par les Romains) on trouve les symboles  pour , , , ,  et <ref>Noter que les caractères employés ici pour représenter les formes anciennes des chiffres sont empruntés à diverses écritures, par ressemblance. Le tracé réel des caractères ne peut être directement reproduit ici.</ref>.
+
+En fait, la critique moderne reconnaît que la numération romaine est une survivance d'une pratique archaïque, antérieure à l'invention même de l'écriture (et donc, à strictement parler, préhistorique), et que l'on retrouve dans de nombreuses civilisations.<ref>Pour l'ensemble de la question, voir par exemple Georges Ifrah, "Histoire universelle des chiffres", Seghers 1981, ISBN 2-221-50205-1</ref>
+
+Ces chiffres seraient dérivés de l'utilisation de bâtons à entailles et de la nécessité d'y faire figurer des repères: Le berger qui veut compter ses bêtes sans savoir énumérer prend simplement un bâton sur lequel figurent des encoches, fait passer son troupeau devant lui, et décale son ongle d'une encoche à chaque fois qu'une bête passe devant lui: l'encoche finale correspond au nombre de bêtes, et il suffit de repérer sa position pour conserver le nombre. Avec ce système, les premiers chiffres sont toujours des encoches simples, ultérieurement transcrites par des "I".
+
+right|200px
+Le repérage n'est pas aisé dès que le nombre d'encoches dépasse une poignée, parce que l'oeil ne perçoit pas clairement les collections au delà de trois ou quatre items: lire IIIIIIII est pratiquement impossible (par comparaison à VIII, beaucoup plus simple). Le berger est naturellement conduit à intercaler régulièrement des encoches de forme différente, pour servir de repère visuel; et le regroupement naturel (pour un berger comptant sur ses doigts) est par groupes de cinq. Un tel regroupement est toujours utilisé de nos jours sur les règles à mesurer.
+
+Le repère "cinq" naturel pourra être une encoche plus longue (utilisée sur les règles), ou en biais (utilisée sur les tailles), mais ces deux marques ne se différencient pas bien des encoches simples quand il s'agit de les transcrire. Les marques simples finalement utilisées sont formées par une encoche double (en forme de V, ou de  quand on le lit dans l'autre sens). Le regroupement suivant, à dix encoches, est pratiquement toujours une encoche en croix X. Les repères ultérieurs ont des formes plus élaborées, à trois encoches: 50 correspond à "V plus une encoche", ce qui donne initialement des formes en N, Z ou E; et cent correspond à "X plus une encoche", donnant des formes de type étoile (*). Ces formes étaient moins stables, et ont évolué par la suite vers des formes à deux traits, en L pour cinquante, et C pour cent.
+
+Avec un bâton ainsi marqué, le berger peut repérer assez facilement l'encoche sur laquelle s'est arrêté son décompte. S'il a treize bêtes, par exemple, son ongle s'arrête sur la troisième encoche après la première dizaine, ce qui se retranscrit simplement XIII. S'il en a vingt neuf, son ongle est à une encoche avant la troisième dizaine, ce qui se note XXIX. S'il en a cinquante neuf, son doigt a passé la première cinquantaine, et se trouve à une encoche avant la dizaine suivante: LIX. 
+
+Ce repérage primitif peut conduire à des écritures très atypiques: par exemple, un cran avant la dizaine avant cinquante se noterait IXL (pour trente neuf). Il a été régularisé par la suite, pour former le système connu de nos jours.
+
+==Notation classique de base==
+{| class="wikitable"
+|+'''Notation classique'''
+|-----
+!Chiffre<br />romain!!Valeur!!Signification
+|-----
+|width="72" style="font-size:24px;"|
+|width="76"|1
+|style="text-align:left;"|Une marque verticale.
+|-----
+|style="font-size:24px;"|
+|5
+|style="text-align:left;"|Une marque à laquelle on ajoute une autre marque (d’où des graphies archaïques comme , elles-mêmes issues de lettres phéniciennes ou égyptiennes dont l’origine était la représentation d’une main, les deux représentations ou interprétations ayant existé simultanément avant de s’unifier).
+|-----
+|style="font-size:24px;"|
+|10
+|style="text-align:left;"|Une marque barrée (d’autres suggèrent une seconde origine, par la juxtaposition de deux signes phéniciens représentant chacun la main).
+|-----
+|style="font-size:24px;"|
+|50
+|style="text-align:left;"|Un <span style="text-decoration:overline; font-variant: small-caps">V</span> barré (proche de  à l’origine, c’est-à-dire  et  superposés) aplati en  puis confondu avec .
+|-----
+|style="font-size:24px;"|
+|100
+|style="text-align:left;"|Un  barré (proche de  à l’origine, soit  et  superposés) écrit ensuite  ou  et abrégé en  (''apostrophus'') ou . La forme  s’est imposée en raison d’une confusion avec le ''C'' de ''CENTVM''.
+|-----
+|style="font-size:24px;"|
+|500
+|style="text-align:left;"|un |2=5}} encadré (|2=5}} et  superposés) devenu |2=500}}, confondu ensuite avec .
+|-----
+|style="font-size:24px;"|
+|1&nbsp;000
+|style="text-align:left;"|un  entouré ou encadré, proche de <span style="display:table-cell;border:1px"></span>, qui, passant par plusieurs formes, dont , a été écrit comme un ''phi grec'' , puis est devenu  et  (entre autres), lesquelles formes ont finalement été confondue avec , d’autant plus que 1&nbsp;000 se dit ''mille'' en latin.
+|}
+
+Ce système, qui simplifiait les anciennes numérations grecques et phéniciennes, permet d’écrire tous les nombres de 1 à 4&nbsp;999, en utilisant les lettres de l’alphabet latin les plus ressemblantes aux anciens systèmes unaires. Néanmoins ce système ne les a pas remplacés totalement, car il était trop simplifié et insuffisant pour exprimer tous les nombres (en particulier les nombres plus grands, qui ont donné lieu à toutes sortes d’extensions).
+
+La complexité du système romain de base (sans les nombres supérieurs à 4&nbsp;999) apparaît déjà dans les exemples suivants&nbsp;:
+{| class="wikitable"
+|-
+!Unités!!Unités + 10!!Dizaines!!Centaines!!Milliers
+|-
+|1 = ||11 = ||10 = ||100 = ||1&nbsp;000 = 
+|-
+|2 = ||12 = ||20 = ||200 = ||2&nbsp;000 = 
+|-
+|3 = ||13 = ||30 = ||300 = ||3&nbsp;000 = 
+|-
+|4 = ||14 = ||40 = ||400 = ||4&nbsp;000 = 
+|-
+|5 = ||15 = ||50 = ||500 = ||rowspan="5" bgcolor="#999999"|&nbsp;
+|-
+|6 = ||16 = ||60 = ||600 = 
+|-
+|7 = ||17 = ||70 = ||700 = 
+|-
+|8 = ||18 = ||80 = ||800 = 
+|-
+|9 = ||19 = ||90 = ||900 = 
+|}
+
+Aussi sa conception complexe, mêlant additions et soustractions était également difficile à comprendre, même pour les Romains eux-mêmes qui ont continué à utiliser des systèmes purement additifs dont sont issus ces formes «&nbsp;simplificatrices&nbsp;» (notamment pour les calculs). Il en a persisté de nombreuses variantes ne respectant pas les règles imposées ci-dessus, et faisant appel aux véritables origines purement additives de ce système de numération.
+
+Certains nombres peuvent s'écrire de plusieurs façons : 99 peut s'écrire XCIX ou IC.
+
+Il faut noter que les ''règles'' soustractives imposées ont toujours cessé leur effet au-delà des milliers, comme en témoigne l’écriture attestée et persistante ''''''.
+
+==Mode opératoire==
+Pour connaître la valeur d’un nombre écrit en chiffres romains, il faut lire le nombre de droite à gauche, il suffit d'ajouter la valeur du chiffre, sauf s'il est inférieur au précédent, dans ce cas, on le soustrait.
+Ainsi :
+*  = 1 + 5 + 10 = 16&nbsp;;
+*  = 5 - 1 + 10 = 14, ''car  est inférieur à ''&nbsp;;
+*  = 10 - 1 + 500 = 509, ''car  est inférieur à ''&nbsp;;
+*  = 10 - 1 + 100 - 10 + 1000 - 100 + 1000*4 = 4&nbsp;999&nbsp;;
+*  = 4888, '' est le nombre romain le plus long en quantité de symboles''.
+
+===Exemples de chiffres romains dans le système de base===
+* 888 = &nbsp;;
+* 1&nbsp;000 = &nbsp;;
+* 1&nbsp;515 =  = 1&nbsp;000 + 500 + 10 + 5.
+* 1&nbsp;975 =  = 1&nbsp;000 + (1&nbsp;000 - 100) + 50 + 10×2 + 5.
+* 2&nbsp;002 =  = 1&nbsp;000×2 + 1×2.
+{| class="wikitable"
+|+'''Les cent premiers nombres entiers écrits en chiffres romains'''
+|||||||||||||||||||
+|-----
+|||||||||||||||||||
+|-----
+|||||||||||||||||||
+|-----
+|||||||||||||||||||
+|-----
+|||||||||||||||||||
+|-----
+|||||||||||||||||||
+|-----
+|||||||||||||||||||
+|-----
+|||||||||||||||||||
+|-----
+|||||||||||||||||||
+|-----
+|||||||||||||||||||
+|}
+Une fois que ces conventions d’écriture ont été posées, on sait écrire des entiers en chiffres romains. Mais les mathématiciens de l'époque n’utilisaient pas cette notation pour faire des additions ou des multiplications, ils avaient recours à des abaques. Ils utilisaient de ce fait une numération positionnelle, mais sans avoir conscience que cette numération positionnelle aurait pu servir à écrire les nombres plus grands de façon permanente.
+
+==Extensions==
+
+===Variantes médiévales===
+Au Moyen Âge, l’écriture des chiffres romains est parfois abâtardie.
+: '''4''' est écrit '''''' au lieu de '''''' (ce qui, en fait, n'est qu’une variante ancienne). Cet usage a été repris en horlogerie où 4 heures s'écrit '''''', essentiellement pour des raisons de lisibilité sur un cadran rond, surtout quand les ''bières'' (gravures chiffrées) y sont inclinées. On parle de ''quatre d'horloger''.
+: De 60 à 400, on compte et on écrit par vingtaine, le chiffre vingt '''()''' étant placé en exposant&nbsp;: soit '''<sup></sup>''' pour '''80'''&nbsp;:
+:: L’Hôpital des Quinze-Vingts à Paris doit son nom à cette façon de compter&nbsp;: il pouvait accueillir 300 (15×20) patients.
+: Pour les centaines, on peut indiquer le nombre de centaines suivi du marqueur des centaines ('''', voire au pluriel '''' pour ''centz'') en exposant&nbsp;: donc 300 s’écrit '''<sup></sup>''' ou '''<sup></sup>'''.
+
+Ces règles n’ont pas été telles dès les premières attestations, surtout épigraphiques&nbsp;: plusieurs graphies possibles ont coexisté librement (comme '''''' pour  afin de réduire le nombre de symboles par extension de la règle soustractive, ou à l’inverse '''''' pour  afin de ne pas utiliser la règle soustractive). Ce n'est que récemment que le mode opératoire a été fixé.
+
+thumb|right|chiffres romains étendus
+Dans certains textes des  et s on utilise aussi (attention&nbsp;! il y a des problèmes de rendu des caractères Unicode avec certains navigateurs. Les signes pour 1&nbsp;000, 5&nbsp;000 et 10&nbsp;000 sont indiqués dans l’image ci-contre)&nbsp;:
+* '''<span title="Nombre 1&nbsp;000 en chiffres romain">ↀ</span>''', ou la ligature de '''<span title="Nombre 1&nbsp;000 en chiffres romain"></span>''', pour 1&nbsp;000&nbsp;;
+* '''<span title="Nombre 5&nbsp;000 en chiffres romain">ↁ</span>''', ou la ligature de '''<span title="Nombre 5&nbsp;000 en chiffres romain"></span>''', pour 5&nbsp;000&nbsp;;
+* '''<span title="Nombre 10&nbsp;000 en chiffres romain">ↂ</span>''', ou la ligature de '''<span title="Nombre 10&nbsp;000 en chiffres romain"></span>''' pour 10&nbsp;000&nbsp;;
+* mais on n'utilise pas cette notation en notation soustractive&nbsp;: 4&nbsp;000 s'écrit '''''' et non '''<span title="Nombre +5&nbsp;000 en chiffres romain"></span>'''.
+
+On remarquera que dans les symboles ci-dessus, le nombre de cercles ou demi-cercles (appelés ''apostrophus'' en latin) indique un facteur 10 appliqué au chiffre médial  dont l’origine pourrait être en fait la ligature des sérifs verticaux des lettres '''''' accolées (ce qui fait que le  retourné en  indique en fait bien un facteur 10, le '''I''' médial étant alors souvent omis lorsque les deux chiffres sont accolés l’un à l’autre).
+
+Il faut noter qu’à l’origine le '''I''' médial était en fait plus long que le  désignant l’unité, et ressemblait plus à notre longue barre verticale '''|''', dépassant au-dessus des barres unitaires et sous leur ligne de base, de sorte qu’une autre forme approchée que le  aurait dû plus ressembler au ''thorn'' médiéval '''Þ''' encore utilisé aujourd’hui dans les langues nordiques.
+
+On remarquera aussi que les formes en demi-cercle valent la moitié de la forme pleine (dans ce cas la notation du  initial est requise pour ''fermer'' le diamètre du demi-cercle)&nbsp;; la forme '''''' apparaît donc bien aussi la moitié de '''<span title="Nombre 1&nbsp;000 en chiffres romain"></span>''', ou comme la ligature de '''<span title="Nombre 500 en chiffres romain"></span>'''.
+
+Cette théorisation est en fait une adaptation contemporaine d’une ancienne écriture grecque médiévale, où la lettre majuscule ''phi'' (Φ) était aussi utilisée pour désigner le nombre 1&nbsp;000, et résultait d’une adaptation à l’alphabet grec du système unaire initial utilisant des barres verticales '''|''' pour encadrer les multiples de 100, et une barre horizontale supplémentaire en chef pour indiquer un multiple de 1&nbsp;000. Aussi 1&nbsp;000 à l’origine ressemblait plus à un  encadré, qui ressemblait lui-même au ''phi'' grec. Aussi l’''apostrophus'' latin aurait eu aussi une apparence plus carrée, avant qu’on la confonde avec un ''C'' renversé, comme cela avait déjà été fait pour la lettre  latine symbolisant le nombre 100.
+
+: Note&nbsp;: la séparation du symbole représentant 1&nbsp;000 avec l’''apostrophus'', combiné au ''I'' médial (dont le raccourcissement s’est poursuivi ensuite) serait à l’origine du caractère <math>\infin</math> utilisé aujourd’hui en mathématiques pour symboliser l’infini, comme une évolution de l’utilisation du mot latin ''mille'' au pluriel (et de sa valeur inconnue) pour représenter tout nombre arbitrairement grand et inconnu (on notera l’expression française encore utilisée aujourd’ui «&nbsp;des cents et des milles&nbsp;» rappelant cet usage). Ce symbole serait simplement l’évolution de la ligature minuscule '''<small></small>''' en écriture manuscrite onciale.
+
+Ainsi le nombre 5&nbsp;000 peut aussi être représenté par '''<span title="Nombre 5&nbsp;000 en chiffres romain"></span>''' (500×10) au lieu de '''<span title="Nombre 5&nbsp;000 en chiffres romain"></span>''' ci-dessus. Mais comme tous les «&nbsp;'''C''' renversés&nbsp;» sont aussi liés au '''I''' initial, en fait on peut ignorer la présence de ce '''I''' et transformer tous les «&nbsp;'''C''' renversés&nbsp;» simplement en ''''''. Ainsi le nombre 5&nbsp;000 s’écrit alors simplement '''''', et le nombre 10&nbsp;000 normalement écrit '''<span title="Nombre 10&nbsp;000 en chiffres romain">CCIƆƆ</span>''' s’écrit aujourd’hui plus simplement .
+
+Attention ici&nbsp;! le nombre 400 s’écrit aujourd’hui normalement '''''' (500-100), il est ''distinct'' de la forme historique peu usitée (aujourd’hui non recommandée) '''<span title="Nombre 1&nbsp;000 en chiffres romain"></span>''' (100×10) pour 1&nbsp;000 (à ce moment là, 400 s’écrivait plutôt '''''' sans utiliser le mode soustractif, pour éviter la confusion). On peut par contre utiliser  pour désigner sans ambiguïté la notation historique de 1&nbsp;000, si on ne dispose pas du caractère «&nbsp; retourné&nbsp;» '''''' (remplacé ici par la lettre '''''', non ambiguë du moment qu’on le précède bien par le '''I''' médial).
+
+D’autres symboles utilisant ce principe de composition ont pu être utilisés pour indiquer les milliards (3 cercles) ou demi-milliard (3 demi-cercles). On remarquera que le diamètre vertical est toujours noté, et que le tracé d’un autre diamètre ou rayon horizontal pouvait aussi être utilisé au lieu d’un cercle ou demi-cercle supplémentaire.
+
+Cependant, le tracé utilisant simplement la lettre '''''', retournée en '''''' et placée après la lettre '''''', s’est imposé rapidement (notamment en imprimerie), car cela ne nécessitait pas de fonte supplémentaire et améliorait la lisibilité des nombres tout en étant plus facile à tracer à la plume (mal adaptée au tracé de petits cercles)&nbsp;; de ce fait la forme du '''''' à l’endroit ou '''''' à l’envers pouvait prendre celle de parenthèses '''(''' et ''')''' liées au '''I''' médial. On retrouve cet usage dans les anciens livres de comptes, du Renaissance où la graphie n’a cessé de se complexifier.
+
+===Variantes pour l’insertion des nombres romains dans un texte===
+Au Moyen Âge, quand la graphie latine monumentale a été remplacée par l’lettres minuscules comme le reste du texte. L’usage des majuscules était rare (pas même en début de phrase) et plutôt réservé aux lettrines décoratives en début de paragraphe (qui n’étaient que des variantes agrandies des lettres de l’alphabet).
+
+Aussi, pour permettre l’insertion de nombres dans un texte, ceux-ci étaient encadrés de points médian afin de les distinguer plus facilement des mots. Par exemple, '''''·xxvıı·''''' représentait le nombre 27 dans les manuscrits médiévaux (la lettre minuscule '''''i''''' ne comportait pas encore de point suscrit, apparu bien plus tard en écriture gothique pour faciliter la lecture du texte, afin de mieux distinguer les '''''i''''' des '''''m''''' et '''''n''''' dont les jambages étaient très proches).
+
+La position de ces points était variable suivant les auteurs (l’usage de la ponctuation, et notamment la distinction du point et de la virgule, n’ayant été bien régulé que bien plus tard), et parfois impossible à distinguer dans le texte du point de ponctuation normale (c'est particulièrement vrai pour les manuscrits en catalan, ancien occitan et vieux français, mais aussi les manuscrits médiévaux en Angleterre et du Saint-Empire). On retrouve également cet usage du point médian (qui prenait souvent l’allure de petits tirets) sur les inscriptions monumentales en latin qui mêlent les nombres avec le texte, par exemple les monuments funéraires et édifices religieux.

@@ -1,0 +1,141 @@
+In mathematics, the determinant of a skew-symmetric matrix can always be written as the square of a polynomial in the matrix entries. This polynomial is called the '''Pfaffian''' of the matrix. The Pfaffian is nonvanishing only for 2''n'' &times; 2''n'' skew-symmetric matrices, in which case it is a polynomial of degree ''n''. 
+
+==Examples==
+
+:<math>\mbox{Pf}\begin{bmatrix}  0 & a \\ -a & 0  \end{bmatrix}=a.</math>
+
+:<math>\mbox{Pf}\begin{bmatrix}    0     & a & b & c \\ -a & 0        & d & e  \\   -b      &  -d       & 0& f    \\-c &  -e      & -f & 0 \end{bmatrix}=af-be+dc.</math>
+
+:<math>\mbox{Pf}\begin{bmatrix}
+\begin{matrix}0 & \lambda_1\\ -\lambda_1 & 0\end{matrix} &  0 & \cdots & 0 \\
+0 & \begin{matrix}0 & \lambda_2\\ -\lambda_2 & 0\end{matrix} &  & 0 \\
+\vdots &  & \ddots & \vdots \\
+0 & 0 & \cdots & \begin{matrix}0 & \lambda_n\\ -\lambda_n & 0\end{matrix}
+\end{bmatrix} = \lambda_1\lambda_2\cdots\lambda_n.</math>
+
+==Formal definition==
+
+Let ''A'' = {''a''<sub>''i,j''</sub>} be a 2''n''×2''n'' skew-symmetric matrix. The Pfaffian of ''A'' is defined by the equation
+
+:<math>\mathrm{Pf}(A) = \frac{1}{2^n n!}\sum_{\sigma\in S_{2n}}\mathrm{sgn}(\sigma)\prod_{i=1}^{n}a_{\sigma(2i-1),\sigma(2i)}</math>
+
+where ''S''<sub>2''n''</sub> is the signature of σ.
+
+One can make use of the skew-symmetry of ''A'' to avoid summing over all possible partitions of {1, 2, …, 2''n''} into pairs without regard to order. There are (2''n'' &minus; 1)!! such partitions. An element α ∈ Π, can be written as
+
+:<math>\alpha=\{(i_1,j_1),(i_2,j_2),\cdots,(i_n,j_n)\}</math>  
+
+with ''i''<sub>''k''</sub> < ''j''<sub>''k''</sub> and <math>i_1 < i_2 < \cdots < i_n</math>. Let
+
+:<math>\pi=\begin{bmatrix} 1 & 2 & 3 & 4 & \cdots & 2n \\ i_1 & j_1 & i_2 & j_2 & \cdots & j_{n} \end{bmatrix}</math> 
+
+be a corresponding permutation. This depends only on the partition α and not on the particular choice of π. Given a partition α as above define
+
+:<math> A_\alpha =\operatorname{sgn}(\pi)a_{i_1,j_1}a_{i_2,j_2}\cdots a_{i_n,j_n}.</math>
+
+The Pfaffian of ''A'' is then given by
+
+:<math>\operatorname{Pf}(A)=\sum_{\alpha\in\Pi} A_\alpha.</math>
+
+The Pfaffian of a ''n''&times;''n'' skew-symmetric matrix for ''n'' odd is defined to be zero, as the determinant of an odd skew-symmetric matrix is zero, since for a skew-symmetric matrix, <math>\det\,A = \det\,A^T = \det\,-A = (-1)^n \det\,A</math>, and for ''n'' odd, this implies <math>\det\,A = 0</math>.
+
+===Recursive definition===
+
+By convention, the Pfaffian of the 0×0 matrix is equal to one.  The Pfaffian of a skew-symmetric 2''n''×2''n'' matrix ''A'' with ''n''>0 can be computed recursively as
+
+:<math>\mbox{Pf}(A)=\sum_{i=2}^{2n}(-1)^{i}a_{1i}\mbox{Pf}(A_{\hat{1}\hat{i}}),</math>
+
+where <math>A_{\hat{1}\hat{i}}</math> denotes the matrix ''A'' with both the first and ''i''-th rows and columns removed.
+
+===Alternative definition===
+
+One can associate to any skew-symmetric 2''n''×2''n'' matrix ''A'' ={''a''<sub>''ij''</sub>} a bivector
+
+:<math>\omega=\sum_{i<j} a_{ij}\;e^i\wedge e^j.</math>
+
+where {''e''<sup>1</sup>, ''e''<sup>2</sup>, …, ''e''<sup>2''n''</sup>} is the standard basis of '''R'''<sup>2n</sup>. The Pfaffian is then defined by the equation
+
+:<math>\frac{1}{n!}\omega^n = \mbox{Pf}(A)\;e^1\wedge e^2\wedge\cdots\wedge e^{2n},</math>
+here ω<sup>''n''</sup> denotes the wedge product of ''n'' copies of ω with itself.
+
+===Derivation from Determinant===
+
+The Pfaffian can be derived from the determinant for a  skew-symmetric matrix A as follows.  Using Laplace's formula we can write the determinant as
+
+:<math>\det(A)=(-1)^{p+1}a_{p1}A_{p1} + (-1)^{p+2}a_{p2}A_{p2}+\cdots+(-1)^{n+p}a_{pn}A_{pn},</math>
+
+where <math>A_{pi}</math> is the p,i minor matrix of the matrix A.
+We further use Laplace's formula to note that
+
+:<math>\det(A[A_{ij}])=|A|^n,</math>
+
+since this determinant is that of an <math>n \times n</math> matrix whose only non-zero elements are the diagonals (each with value det(A)) and [A_{ij}] is a matrix whose i,jth component is the corresponding i,j minor matrix.  In this way, following a proof by Parameswaran, we can write the determinant as,
+
+:<math>\det(A)\equiv\Delta_n=\left| 
+\begin{array}{cccc}
+a_{11}&a_{12}&\cdots&a_{1n}\\
+a_{21}&a_{22}&\cdots&a_{2n}\\
+\vdots&&&\vdots\\                                    a_{n1}&a_{n2}&\cdots&a_{nn}\end{array}\right|
+.</math>
+
+The minor of <math>\left| \begin{array}{cc} a_{11}&a_{12}\\a_{21}&a_{22}\end{array}\right|</math> would be <math>\Delta_{n-2}</math>.  With this notation
+:<math>\left| \begin{array}{cccc}1&0&\cdots&0\\
+                                   0&1&\cdots&0\\
+                    a_{31}&a_{32}&\cdots&a_{3n}\\
+                     \cdots&\cdots&\cdots&\cdots\\
+       a_{n1}&a_{n2}&\cdots&a_{nn}\end{array}\right|
+\times 
+\left| \begin{array}{cccc}A_{11}&A_{21}&\cdots&A_{n1}\\
+                    A_{12}&A_{22}&\cdots&A_{n2}\\
+                    A_{13}&A_{23}&\cdots&A_{n3}\\
+                    \cdots&\cdots&\cdots&\cdots\\
+  A_{1n}&A_{2n}&\cdots&A_{nn}\end{array}\right|
+=\left| \begin{array}{cc} A_{11}&A_{21}\\A_{12}&a_{22}\end{array}\right|\Delta_n^{n-2}
+</math>
+
+Thus 
+
+En déterminant d'une degré est alors ''n''. 
+
+Le Pfaffien d'une matrice ''A'' est noté <math>\mathrm{Pf} \left( A \right)</math>.
+
+== Histoire ==
+
+Le terme « Pfaffien » fut introduit par Arthur Cayley, qui l'utilisa en 1852 : ''« Les permutants de cette classe (par leur lien avec les recherches de Pfaff sur les équations différentielles) je les appellerai ''Pfaffiens'' » ''. Le mathématicien allemand à qui il fait référence est Johann Friedrich Pfaff.
+
+== Applications ==
+
+le Pfaffien est une polynôme invariant d'une matrice antisymétrique (il n'est pas invariant par changement de base, mais par une transformation orthogonale). Il peut être utilisé pour définir la classe d'Euler d'une variété riemannienne utilisé dans le théorème généralisé de Gauss-Bonnet.
+
+On utilise le Pfaffien en physique pour calculer la fonction de partition des modèles d'Ising. On l'utilise depuis peu pour établir des algorithmes plus efficaces pour résoudre des problèmes, par exemple des simulations de physique quantique.
+
+== Définition formelle ==
+
+Soit ''A'' = {''a''<sub>''i,j''</sub>} une matrice antisymétrique 2''n''×2''n''. Le Pfaffien de ''A'' est défini par :
+
+:<math>\mathrm{Pf}(A) = \frac{1}{2^n n!}\sum_{\sigma\in S_{2n}}\mathrm{sgn}(\sigma)\prod_{i=1}^{n}a_{\sigma(2i-1),\sigma(2i)}</math>
+
+où ''S''<sub>2''n''</sub> est le signature de σ.
+
+=== Simplification ===
+Cette définition peut être simplifiée en utilisant l'antisymétrie de la matrice, ce qui évite d'additionner toutes les permutations possibles.
+
+Soit Π l'ensemble de toutes les partitions de {1, 2, …, 2''n''} en paires, indépendamment de l'ordre. Il y en a (2''n'' − 1). Un élément α ∈ Π peut être écrit sous la forme :
+
+:<math>\alpha=\{(i_1,j_1),(i_2,j_2),\cdots,(i_n,j_n)\}</math>  
+
+avec ''i''<sub>''k''</sub> < ''j''<sub>''k''</sub> et <math>i_1 < i_2 < \cdots < i_n</math>. Soit
+
+:<math>\pi=\begin{bmatrix} 1 & 2 & 3 & 4 & \cdots & 2n \\ i_1 & j_1 & i_2 & j_2 & \cdots & j_{n} \end{bmatrix}</math> 
+
+la permutation correspondante. Elle ne dépend que de α, indépendamment du choix de π. Étant donnée une partition α, 
+
+:<math> A_\alpha =\operatorname{sgn}(\pi)a_{i_1,j_1}a_{i_2,j_2}\cdots a_{i_n,j_n}.</math>
+
+Le Pfaffien de ''A'' est alors :
+
+:<math>\operatorname{Pf}(A)=\sum_{\alpha\in\Pi} A_\alpha.</math>
+
+Le Pfaffien d'une matrice antisymétrique ''n''×''n'' pour ''n'' impair est défini nul.
+
+=== Définition alternative ===

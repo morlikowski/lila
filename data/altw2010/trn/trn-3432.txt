@@ -1,0 +1,139 @@
+thumb|300px|Aplicação do método de Monte Carlo para determinar a área de um lago.
+
+O '''método de Monte Carlo''' (MMC) é um método estatístico utilizado em simulações estocásticas com diversas aplicações em áreas como a física, matemática e biologia. 
+O método de Monte Carlo tem sido utilizado há bastante tempo como forma de obter aproximações numéricas de funções complexas. Este método tipicamente envolve a geração de observações de alguma distribuição de integrais. 
+A idéia do método é escrever a integral que se deseja calcular como um valor esperado.
+
+De acordo com (HAMMERSELEY,1964) o nome "Monte Carlo" surgiu durante o projeto Manhattan na Segunda Guerra Mundial. No projeto e de construção da bomba atómica, Ulam, von Neumann e Fermi consideraram a possibilidade de utilizar o método, que envolvia a simulação direta de problemas de natureza probabilistica relacionados com o coeficiente de difusão do neutron em certos materiais. Apesar de ter despertado a atenção desses cientistas em 1948, a lógica do método já era conhecida há bastante tempo. Por exemplo, existe um registro de um artigo escrito por Lord Kelvin dezenas de anos antes que já utilizava técnicas de Monte Carlo em uma discussão das equações de Boltzmann. (Fonte Mundo PM)
+
+Existem três classes de algoritmos Monte Carlo: Erro-Unilateral,
+Erro-Bilateral e Erro-Não-Limitado. 
+
+== Monte Carlo de Erro-Unilateral ==
+Seja P um problema e A um algoritmo aleatório, A é um algoritmo Monte Carlo de
+Erro-Unilateral que resolve P se
+
+i) para toda configuração x que é solução de P, <math>prob(A(x = SIM )) \geq \frac{1}{2}</math>, e
+
+ii) para toda configuração x que não é solução de P, <math>prob(A(x = NAO )) = 1</math>
+
+Ou seja, sempre que a resposta é NÃO, o algoritmo garante a certeza da resposta.
+Contudo, se a resposta for SIM, o algoritmo não garante que a resposta está correta..
+
+== Monte Carlo de Erro-Bilateral ==
+Um algoritmo aleatório A é um algoritmo de Monte Carlo de Erro-Bilateral que computa
+o problema F se existe um número real <math>\epsilon</math>, tal que para toda instância x de F
+
+<math>prob(A(x) = F(x)) \geq \frac{1}{2} + \epsilon </math>
+
+== Monte Carlo de Erro-Não-Limitado==
+Os algoritmos Monte Carlo de Erro-Não-Limitado são comumente chamados de Algoritmos
+Monte Carlo. 
+Um algoritmo aleatório A é um algoritmo de Monte Carlo se
+para qualquer entrada x do problema F
+
+<math>prob(A(x) = F(x)) > \frac{1}{2}</math>
+
+== Algoritmo de Metropolis ==
+
+O algoritmo de Metropolis, também conhecido por Algoritmo de Metropolis-Hastings, desenvolvido por Nicholas Metropolis e W. K. Hastings, é provavelmente o método Monte Carlo mais
+utilizado na Física, e tem como objetivo determinar valores esperados de propriedades  do sistema simulado,  através de uma  média sobre uma amostra.  O algoritmo é concebido de modo a se obter uma amostra que  siga a  distribuição de Boltzmann.
+
+Para  se determinar  a probabilidade  de  uma  dada  configuração,  seria  necessário conhecer   a    chance   de   ocorrência   de    todas   as   outras configurações.   No  caso   de  variáveis  contínuas,  seria necessário uma integração  da densidade de probabilidade sobre todo o  espaço de configurações, mas  esse procedimento fica
+muito custoso quando se utiliza um número de variáveis da ordem de centenas.
+
+thumb|right|The Monte Carlo method can be illustrated as a game of [[Battleship (game)|battleship. First a player makes some random shots. Next the player applies algorithms (ie. a battleship is four dots in the vertical or horizontal direction). Finally based on the outcome of the random sampling and the algorithm the player can determine the likely locations of the other player's ships. ]]
+
+'''Monte Carlo methods''' are a class of simulating physical and mathematical systems.  Because of their reliance on repeated computation and random or pseudo-random numbers, Monte Carlo methods are most suited to calculation by a computer.  Monte Carlo methods tend to be used when it is infeasible or impossible to compute an exact result with a deterministic algorithm.<ref>Douglas Hubbard "How to Measure Anything: Finding the Value of Intangibles in Business" pg. 46, John Wiley & Sons, 2007</ref>
+
+The term '''Monte Carlo method''' was coined in the 1940s by physicists working on nuclear weapon projects in the Los Alamos National Laboratory.<ref> [The beginning of the Monte Carlo method http://library.lanl.gov/la-pubs/00326866.pdf]</ref>
+
+== Overview ==
+
+There is no single Monte Carlo method;  instead, the term describes a large and widely-used class of approaches.  However, these approaches tend to follow a particular pattern:
+# Define a domain of possible inputs.
+# Generate inputs randomly from the domain, and perform a deterministic computation on them.
+# Aggregate the results of the individual computations into the final result.
+
+For example, the value of π can be approximated using a Monte Carlo method.  Draw a square of unit area on the ground, then inscribe a circle within it.  Now, scatter some small objects (for example, grains of rice or sand) throughout the square.  If the objects are scattered uniformly, then the proportion of objects within the circle vs objects within the square should be approximately π/4, which is the ratio of the circle's area to the square's area.  Thus, if we count the number of objects in the circle, multiply by four, and divide by the number of objects in the square, we get an approximation to π.
+
+Notice how the π approximation follows the general pattern of Monte Carlo algorithms.  First, we define a domain of inputs:  in this case, it's the square which circumscribes our circle.  Next, we generate inputs randomly (scatter individual grains within the square), then perform a computation on each input (test whether it falls within the circle).  At the end, we aggregate the results into our final result, the approximation of π.  Note, also, two other common properties of Monte Carlo methods:  the computation's reliance on good random numbers, and its slow convergence to a better approximation as more data points are sampled.  If grains are purposefully dropped into only, for example, the center of the circle, they will not be uniformly distributed, and so our approximation will be poor.  An approximation will also be poor if only a few grains are randomly dropped into the whole square.  Thus, the approximation of π will become more accurate both as the grains are dropped more uniformly and as more are dropped.
+
+== History ==
+The name "Monte Carlo" was popularized by physics researchers Stanislaw Ulam, Enrico Fermi, John von Neumann, and Nicholas Metropolis, among others;  the name is a reference to a famous casino in Monaco where Ulam's uncle would borrow money to gamble.<ref>Douglas Hubbard "How to Measure Anything: Finding the Value of Intangibles in Business" pg. 46, John Wiley & Sons, 2007</ref>  The use of randomness and the repetitive nature of the process are analogous to the activities conducted at a casino.
+
+Random methods of computation and experimentation (generally considered forms of stochastic simulation) can be arguably traced back to the earliest pioneers of probability theory (see, e.g., Buffon's needle, and the work on small samples by William Gosset), but are more specifically traced to the pre-electronic computing era. The general difference usually described about a Monte Carlo form of simulation is that it systematically "inverts" the typical mode of simulation, treating deterministic problems by ''first'' finding a probabilistic analog. Previous methods of simulation and statistical sampling generally did the opposite: using simulation to test a previously understood deterministic problem. Though examples of an "inverted" approach do exist historically, they were not considered a general method until the popularity of the Monte Carlo method spread.
+
+Perhaps the most famous early use was by Enrico Fermi in 1930, when he used a random method to calculate the properties of the newly-discovered Los Alamos for early work relating to the development of the hydrogen bomb, and became popularized in the fields of physics, physical chemistry, and operations research. The Rand Corporation and the U.S. Air Force were two of the major organizations responsible for funding and disseminating information on Monte Carlo methods during this time, and they began to find a wide application in many different fields.
+
+Uses of Monte Carlo methods require large amounts of random numbers, and it was their use that spurred the development of pseudorandom number generators, which were far quicker to use than the tables of random numbers which had been previously used for statistical sampling.
+
+==Applications==
+Monte Carlo simulation methods are especially useful in studying systems with a large number of coupled degrees of freedom, such as liquids, disordered materials, strongly coupled solids, and cellular structures (see cellular Potts model). More broadly, Monte Carlo methods are useful for modeling phenomena with significant uncertainty in inputs, such as the calculation of risk in business (for its use in the insurance industry, see stochastic modelling).  A classic use is for the evaluation of definite integrals, particularly multidimensional integrals with complicated boundary conditions.
+
+Monte Carlo methods in finance are often used to calculate the value of companies, to evaluate investments in projects at corporate level or to evaluate financial derivatives.  The Monte Carlo method is intended for financial analysts who want to construct stochastic or probabilistic financial models as opposed to the traditional static and deterministic models.  
+
+Monte Carlo methods are very important in aerodynamic forms.
+
+Monte Carlo methods have also proven efficient in solving coupled integral differential equations of radiation fields and energy transport, and thus these methods have been used in global illumination computations which produce photorealistic images of virtual 3D models, with applications in video games, architecture, design, computer generated films, special effects in cinema, business, economics and other fields. 
+
+Monte Carlo methods are useful in many areas of computational mathematics, where a ''lucky choice'' can find the correct result. A classic example is Rabin's algorithm for primality testing: for any ''n'' which is not prime, a random ''x'' has at least a 75% chance of proving that ''n'' is not prime. Hence, if ''n'' is not prime, but ''x'' says that it might be, we have observed at most a 1-in-4 event. If 10 different random ''x'' say that "''n'' is probably prime" when it is not, we have observed a one-in-a-million event. In general a Monte Carlo algorithm of this kind produces one correct answer with a guarantee '''''n'' is composite, and ''x'' proves it so''', but another one without, but with a guarantee of not getting this answer when it is wrong '''too often''' &mdash; in this case at most 25% of the time.  See also Las Vegas algorithm for a related, but different, idea.
+
+===Application areas===
+Areas of application include:
+
+* Graphics, particularly for ray tracing; a version of the Metropolis-Hastings algorithm is also used for ray tracing where it is known as Metropolis light transport
+* Modeling light transport in biological tissue
+* Monte Carlo methods in finance
+* Reliability engineering
+* In simulated annealing for protein structure prediction
+* In semiconductor device research, to model the transport of current carriers
+* Environmental science, dealing with contaminant behavior
+* Monte Carlo method in  statistical physics; in particular, Monte Carlo molecular modeling as an alternative for computational molecular dynamics.
+* Search And Rescue and Counter-Pollution. Models used to predict the drift of a life raft or movement of an oil slick at sea.
+* In Probabilistic design for simulating and understanding the effects of variability
+* In Physical chemistry, particularly for simulations involving atomic clusters 
+*In computer science
+** Las Vegas algorithm
+** LURCH
+** Computer Go
+**General Game Playing
+* Modeling the movement of impurity atoms (or ions) in plasmas in existing and tokamaks (e.g.: DIVIMP).
+* In experimental detectors, understanding their behavior and comparing experimental data to theory
+* Nuclear and particle physics codes using the Monte Carlo method:
+** GEANT - CERN's simulation of high energy particles interacting with a detector.
+** CompHEP, PYTHIA - Monte-Carlo generators of particle collisions
+** MCNP(X) - LANL's radiation transport codes
+** MCU - universal computer code for simulation of particle transport (neutrons, photons, electrons) in three-dimensional systems by means of the Monte Carlo method
+** EGS - Stanford's simulation code for coupled transport of electrons and photons
+** PEREGRINE - LLNL's Monte Carlo tool for radiation therapy dose calculations
+** LINAC's)
+** PENELOPE - Monte Carlo for coupled transport of photons and electrons, with applications in radiotherapy
+** k-effective of nuclear systems
+** Modelling of foam and cellular structures
+** Modeling of tissue morphogenesis
+
+=== Other methods employing Monte Carlo===
+* Assorted random models, e.g. self-organised criticality
+* Direct simulation Monte Carlo
+* Dynamic Monte Carlo method
+* Kinetic Monte Carlo
+* Quantum Monte Carlo
+* Quasi-Monte Carlo method using low-discrepancy sequences and self avoiding walks
+* Semiconductor charge transport and the like
+* Electron microscopy beam-sample interactions
+* Stochastic optimization
+* Cellular Potts model
+* Markov chain Monte Carlo
+* Cross-Entropy Method
+* Applied information economics
+* Monte Carlo localization
+
+==Use in mathematics==
+In general, Monte Carlo methods are used in mathematics to solve various problems by generating suitable random numbers and observing that fraction of the numbers obeying some property or properties. The method is useful for obtaining numerical solutions to problems which are too complicated to solve analytically.  The most common application of the Monte Carlo method is Monte Carlo integration. 
+
+=== Integration ===
+
+Deterministic methods of vectors, deterministic quadrature methods can be very inefficient. To numerically integrate a function of a two-dimensional vector, equally spaced grid points over a two-dimensional surface are required.  For instance a 10x10 grid requires 100 points. If the vector has 100 dimensions, the same spacing on the grid would require 10<sup>100</sup> points—far too many to be computed. 100 degree of freedom. (See Curse of dimensionality.)
+
+Monte Carlo methods provide a way out of this exponential time-increase. As long as the function in question is reasonably well-behaved, it can be estimated by randomly selecting points in 100-dimensional space, and taking some kind of average of the function values at these points. By the law of large numbers, this method will display <math>1/\sqrt{N}</math> convergence—i.e. quadrupling the number of sampled points will halve the error, regardless of the number of dimensions.

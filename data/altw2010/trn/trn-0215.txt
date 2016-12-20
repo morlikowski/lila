@@ -1,0 +1,110 @@
+'''Fugacity''' is a measure of chemical potential in the form of 'adjusted pressure.' It reflects the tendency of a substance to prefer one phase (liquid, solid, or gas) over another, and can be literally defined as “the tendency to flee or escape”. At a fixed temperature and pressure, a homogeneous substance will have a different fugacity for each phase. The phase with the lowest fugacity will be the most favorable, and will have the lowest Gibbs free energy.
+
+The concept of fugacity was introduced by American chemist Gilbert N. Lewis in his paper "The osmotic pressure of concentrated solutions, and the laws of the perfect solution." <ref>''J. Am. Chem. Soc.'' '''30''', 668-683 (1908)</ref>
+
+== Applications ==
+
+As well as predicting the preferred phase of a single substance, fugacity is also useful for multi-component equilibrium involving any combination of solid, liquid and gas equilibria. It is useful as an engineering tool for predicting the final phase and reaction state of multi-component mixtures at various temperatures and pressures without doing the actual lab test.
+
+Fugacity is not a physical property of a substance; rather it is a calculated property which is intrinsically related to chemical potential. When a system approaches the ideal gaseous state (very low pressure), chemical potential approaches negative infinity, which for the purposes of mathematical modeling is undesirable. Under the same conditions, fugacity approaches zero and the fugacity coefficient (defined below) approaches 1. Thus, fugacity is much easier to manipulate mathematically.
+
+== Definition from Statistical Mechanics ==
+In statistical mechanics, the fugacity is one of the parameters that define the grand canonical ensemble (a system that may exchange particles with the environment).  It represents the effort of adding an additional particle to the system.   Its logarithm, multiplied by <math>k_B T \,</math>, is the chemical potential, <math>\mu\,</math> 
+
+:<math> \mu = k_B T \log f \, </math>
+
+where, <math>k_B \,</math> is the Boltzmann constant, and <math>T\,</math> is the temperature.  (More commonly, the fugacity is denoted by symbol <math>z\,</math> instead of <math>f\,</math> used here. ) 
+In other words, fugacity
+
+:<math> f = \exp (  \mu / k_B T ) . \,</math>
+
+The grand canonical ensemble is a weighted sum over systems with different numbers of particles.  Its partition function, <math> \mathcal{Z}(f, V, T) \, </math> is defined as 
+
+:<math> \mathcal{Z}(f,  V, T) = 
+\sum_{N=0}^{\infty} f^N \, Z(N, V, T) \, </math>
+
+where <math>N\,</math> is the number of particles of the system, and the canonical partition function is defined for a system with a fixed number of particles <math>N\,</math>, at temperature <math>T\,</math>, of volume <math>V\,</math> as, <math> Z(N, V, T) = \sum \exp(-\frac{E}{k_B T}) \, </math>.  Here the summation is performed over all microscopic states, and <math>E \,</math> is the energy of each microscopic state.  The position of fugacity in grand canonical ensemble is similar to that of temperature in the canonical ensemble as a weighting factor. 
+
+Many physically important quantities can be obtained by differentiating the partition function.  A most important relation is about the average number of particles of the grand canonical ensemble,
+
+:<math> \langle N \rangle  = f\frac{\partial} {\partial f} \ln \mathcal{Z}(f, V, T) </math>,
+ 
+while the partition function is related to the pressure <math>P\,</math> of the system as 
+<math> P V  = k_B T  \ln \mathcal{Z}(f, V, T) </math>.
+
+==Technical detail==
+
+Fugacity is a state function of matter at fixed temperature. It only becomes useful when dealing with substances other than an ideal gas. For an ideal gas, fugacity is equal to pressure. In the real world, though under low pressures and high temperatures some substances approach ideal behavior, no substance is truly ideal, so we use fugacity not only to describe non-ideal gases, but liquids and solids as well.
+
+The '''fugacity coefficient''' is defined as the ratio fugacity/pressure. For an ideal gas (which is a good approximation for any gas at sufficiently low pressure), fugacity is equal to pressure. Thus, for an ideal gas, the ratio <math> \phi = f/P \,</math> between fugacity <math>f\,</math> and pressure <math>P\,</math> (the '''fugacity coefficient''') is equal to 1. This ratio can be thought of as 'how closely the substance behaves like an ideal gas,' based on how far it is from 1.
+
+For a given temperature <math> T\,</math>, the fugacity <math> f\,</math> satisfies the following differential relation:
+
+:<math> d \ln {f \over f_0} = {dG \over RT} = {{\bar V dP} \over RT} \,</math>
+
+where <math>G\,</math> is the Gibbs free energy, <math>R\,</math> is the gas constant, <math>\bar V\,</math> is the fluid's molar volume, and <math>f_0\,</math> is a reference fugacity which is generally taken as that of an ideal gas at 1 bar. For an ideal gas, when <math>f=P</math>, this equation reduces to the ideal gas law.
+
+Thus, for any two mutually-isothermal physical states, represented by subscripts 1 and 2, the ratio of the two fugacities is as follows:
+
+:<math> {f_2 \over f_1} = \exp \left ({1 \over RT} \int_{G_1}^{G_2} dG \right) = \exp \left ({1 \over RT} \int_{P_1}^{P_2} \bar V\,dP \right) \,</math>
+
+===Fugacity and chemical potential===
+For every pure substance, we have the relation <math>dG = -SdT + VdP</math> for Gibbs free energy and we can integrate this expression remembering the chemical potential is a function of <math>T</math> and <math>P</math>. We must also set a reference state. In this case, for an ideal gas the only reference state will be the pressure, and we set <math>P</math> = 1 bar.
+
+<math>\int_{\mu^\circ }^\mu  {d\mu }  = \int_{P^\circ }^P {\bar VdP}</math> 
+
+Now, for the ideal gas <math>\bar V = \frac{P}</math>
+
+<math>\mu  - \mu ^\circ  = \int_{P^\circ }^P {\frac
+{P}dP}  = RT\ln \frac{P}
+</math>
+
+Reordering, we get
+
+<math>\mu  = \mu ^\circ  + RT\ln \frac{P}
+</math>
+
+Which gives the chemical potential for an ideal gas in an isothermal process, where the reference state is <math>P</math>=1 bar.
+
+For a real gas, we cannot calculate <math>\int_{P^\circ }^P {\bar VdP}</math> because we do not have a simple expression for a real gas’ molar volume. On the other hand, even if we did have one expression for it (we could use the Van der Waals equation, Redlich-Kwong or any other equation of state), it would depend on the substance being studied and would be therefore of a very limited usability.
+
+We would like the expression for a real gas’ chemical potential to be similar to the one for an ideal gas.
+
+We can define a magnitude, called fugacity, so that the chemical potential for a real gas becomes
+
+<math>\mu  = \mu ^\circ  + RT\ln \frac{f}
+</math>
+
+with a given reference state (discussed later).
+
+We can see that for an ideal gas, it must be <math>f=P</math>
+
+But for <math>P \to 0</math>, every gas is an ideal gas. Therefore, fugacity must obey the limit equation
+
+<math>\mathop {\lim }_{P \to 0} \frac{f}
+{P} = 1</math>
+
+We determine <math>f</math> by defining a function
+
+'''フガシティー'''（fugacity）は'''逃散能'''、'''逸散度'''とも訳され、化学ポテンシャルについて理想気体からのずれを示す係数。
+
+理想系ではΔＧ<sup>0</sup>=μ<sup>0</sup>+RTlnKp(Gはギブスエネルギー、μは化学ポテンシャル、Kpは圧力による平衡定数)という等式が成り立っているが、実存系ではこれが成り立たない。しかし、f=P<sup>2</sup>/P<sub>per</sub>であらわされるフガシティーを導入し、フガシティーで表した平衡定数KfをKpの代わりに上式に代入すると成り立つ。従って、フガシティーを実効している圧力と考えることもできる。また、γ=P/P<sub>per</sub>とおいたものを'''フガシティー係数'''とよぶ。
+
+==概念の導入とその意味==
+理想気体の化学ポテンシャルを示すのに必要な分圧が理想系と非理想系では異なる。
+非理想系におけるズレを補正するためにフガシティーを導入。
+
+ファンデルワールスの状態方程式は、理想気体の状態方程式に分子間力と排除体積の補正項を付け加えた。
+
+理想化された単純なモデルを維持しながら補正をしていくほうが、わかりやすい。
+
+実在気体の化学ポテンシャルを求める際にも、同じ考え方を用いる。
+
+理想気体の任意の圧力での化学ポテンシャルの式を求める際には、
+
+:μ=μ<sup>0</sup>+RTln(p/p<sup>0</sup>) …(A)
+という式を用いた。
+
+実在気体を対象としたときでも、この式を維持しながら何とかやっていこう、と考えた人がいた。<!--ルイス？-->
+
+理想気体は分子間力を持たず、圧力は運動エネルギーのみから生ずる。

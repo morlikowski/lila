@@ -1,0 +1,132 @@
+{{Info/Comuna da Itália|
+|regiao        = Vêneto <!-- Apenas o nome da região -->
+|provincia     = Treviso <!-- Apenas o nome da província -->
+|nome          = Spresiano
+|mapa          = VEN-Mappa.png
+|mapaX         = <!-- Indique a coordenadaX no mapa indicado --> 
+|mapaY         = <!-- Indique a coordenadaY no mapa indicado -->
+|bandeira      = 
+|brasao        = 
+|imagem        = 
+|latitude      = 45° 47' N
+|longitude     = 12° 15' E
+|altitude      = 
+|area          = 25
+|populacao     = 9.269
+|densidade     = 371
+|adjacentes    = comunilimitrofi =&nbsp; Silea,Carbonera,Casier,Ponzano Veneto,Preganziol,Quinto di Treviso,Paese
+|cap           = 31027
+|pref_tel      = 0422
+|istat         = 026082
+|fical         = &nbsp;
+|habitantes    = &nbsp;
+|nomepatrono   = &nbsp;
+|datapatrono   = 
+|site          =
+|cap           = }
+|pref_tel      = }
+|istat         = }
+|fical         = }
+|habitantes    = }
+|nomepatrono   = }
+|datapatrono   = }
+|site          = }
+}}
+'''Spresiano''' é uma km<sup>2</sup>, tendo uma densidade populacional de 371 hab/km<sup>2</sup>. Faz fronteira com comunilimitrofi =&nbsp; Silea,Carbonera,Casier,Ponzano Veneto,Preganziol,Quinto di Treviso,Paese
+|cap           = 31027
+|pref_tel      = 0422
+|istat         = 026082
+|fical         = &nbsp;
+|habitantes    = &nbsp;
+|nomepatrono   = &nbsp;
+|datapatrono   = 
+|site          =.
+
+Categoria:Comunas da Itália
+
+Categoria:Comunas do Vêneto
+Categoria:Comunas de Treviso
+
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = Spresiano |
+  name = Spresiano |
+  region = Veneto |
+  province = Province of Treviso (TV) |
+  elevation_m =  |
+  area_total_km2   = 25.6 |
+  population_as_of  = Dec. 2004 |
+  population_total = 10155 |
+  population_density_km2 = 396 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          = Spresiano, Lovadina e Visnadello |
+  telephone         = 0422 |
+  postalcode        = 31027 |
+  gentilic          = spresianesi |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           = [http://www.comune.spresiano.tv.it www.comune.spresiano.tv.it] |
+  mapy = 12.2500 |
+  mapx = 45.7833 |
+}}
+'''Spresiano''' is a ''Italian region Veneto, located about 40&nbsp;km north of Venice and about 13&nbsp;km north of Treviso. As of 31 December 2004, it had a population of 10,155 and an area of 25.6&nbsp;km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+The municipality of Spresiano contains the ''frazioni'' (subdivisions, mainly villages and hamlets) Spresiano and Lovadina e Visnadello.
+
+Spresiano borders the following municipalities: Arcade, Carbonera, Cimadolmo, Mareno di Piave, Maserada sul Piave, Nervesa della Battaglia, Santa Lucia di Piave, Susegana, Villorba.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:9500
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:500 start:0
+ScaleMinor = gridcolor:lightgrey increment:100 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:0
+  bar:1871 from: 0 till:3716
+  bar:1881 from: 0 till:3958
+  bar:1901 from: 0 till:4699
+  bar:1911 from: 0 till:6426
+  bar:1921 from: 0 till:6365
+  bar:1931 from: 0 till:6086
+  bar:1936 from: 0 till:6119
+  bar:1951 from: 0 till:6814
+  bar:1961 from: 0 till:7011
+  bar:1971 from: 0 till:7914
+  bar:1981 from: 0 till:8652
+  bar:1991 from: 0 till:8658
+  bar:2001 from: 0 till:9251
+
+PlotData=

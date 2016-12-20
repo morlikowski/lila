@@ -1,0 +1,43 @@
+'''Opakovač''' (anglicky ''repeater'') je elektronický aktivní síťový prvek, který přijímá zkreslený, zašuměný nebo jinak poškozený signál a opravený, zesílený a správně časovaný ho vysílá dále. Tak je možné snadno zvýšit dosah média bez ztráty kvality a obsahu signálu. Opakovače patří do první (fyzické) vrstvy referenčního modelu OSI, protože pracují přímo s elektrickým signálem.
+
+== Digitální komunikace ==
+
+V digitálních komunikačních systémech, je za repeater označováno zařízení, které přijímá digitální signál na elektromagnetických nebo optických přenosových médiích a regenerovaný jej vysílá do další větve média.
+Repeater vyrovnává útlum způsobený elektromagnetickým polem nebo ztrátami v médiu.
+Více repeaterů za sebou, umožňuje ještě více prodloužit dosah signálu - ''neplatí u ethernetu'' z důvodu použití kolizních protokolů CSMA/CD, založených na možnosti detekovat kolize a na předpokladu, že kolizi dokází rozpoznat všechny uzly. Použití opakovačů totiž vnáší nezanedbatelné zpoždění do celkové doby, kterou signálu trvá, než urazí cestu z jednoho konce sítě na druhý. Pokud by tato doba přesáhla určitou hranici, mohlo by dojít k velmi zajímavé, ale bohužel velmi nežádoucí situaci: kolize by byla detektovatelná jen v části sítě, a nikoli v celé síti (například jen "uprostřed", a nikoli "na koncích")
+
+Repeater odstraňuje nechtěný šum v příchozím signálu. Na rozdíl od analogového signálu, může být digitální, je-li příliš slabý nebo poškozený, analyzován a opraven. Analogový signál bývá zesílen pomocí zesilovačů, které stejně tak, jako data, boužel zesilují i šum.
+
+Protože digitální signál závisí na přítomnosti, nebo absenci napětí, má tendenci zkreslovat se mnohem rychleji, než analogový signál, potřebuje mnohem častější opakování. Tam kde se analogové repeatery umisťují až v osmnácti kilometrových intervalech, digitální přibližně ve dvou až šesti.
+
+== Bezdrátové komunikace ==
+
+U bezdrátových systémů se repeater skládá z radio přijímače, zesilovače, vysílače, izolátoru a dvou antén. Vysílač generuje signál na odlišné frekvenci od signálu na vstupu - toto se nazývá frequency offset a je nezbytný k ochraně vstupu před zarušením od zesíleného signálu na výstupu. Izolátor v tomto případě poskytuje dodatečnou ochranu.
+Opakovače se strategicky umisťují na střechy vysokých budov, vrcholky kopců a podobně. Takto se dá jednoduše zvýšit výkon i pokrytí bezdrátové sítě.
+
+== Satelitní komunikace ==
+
+Repeter, častěji nazýván transponder (česky ''retranslátor''), přijímá signál a přeposílá jej, často na odlišných frekvencích do cílové lokace.
+
+thumb|A wireless repeater. 
+A '''repeater''' is an electronic device that receives a
+signal and retransmits it at a higher level and/or higher power, or onto the other side of an obstruction, so that the signal can cover longer distances without degradation.
+
+==Description==
+
+The term "repeater" originated with communications.
+
+In telecommunication, the term '''repeater''' has the following standardized meanings: 
+
+#An analog device that amplifies an signal regardless of its nature (analog or digital).
+#A retransmission.  
+
+Because repeaters work with the actual physical signal, and do not attempt to interpret the data being transmitted, they operate on the Physical layer, the first layer of the OSI model.
+
+===Digipeater===
+A '''digipeater''' is a blend meaning "digital repeater", particularly used in amateur radio.  Store and forward digipeaters generally receive a packet radio transmission and then retransmit it on the same frequency, unlike repeaters that receive on one and transmit on another frequency.
+
+==Usage==
+Repeaters are often used in trans-continental and electrical signals, and in fibre optics carrying light. 
+
+Repeaters are used in radio communication services. Radio repeaters often transmit and receive on different frequencies.  A special subgroup of those repeaters is those used in amateur radio. 

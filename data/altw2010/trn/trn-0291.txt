@@ -1,0 +1,948 @@
+'''Temperaturextrema''' sind die niedrigsten und höchsten gemessenen Temperaturen innerhalb eines Beobachtungszeitraums.
+
+Die ''Höchsttemperatur'' ist die höchste Temperatur, die ''Tiefsttemperatur'' die niedrigste Temperatur, die in einem definierten Zeitraum an einem bestimmten Ort oder in einem bestimmten Gebiet gemessen wird. Je nach Zeitraum spricht man von der Tages-, Monats- oder Jahreshöchsttemperatur und -tiefsttemperatur.
+
+Ist der Extremwert die höchste oder niedrigste Temperatur, die jemals an einem Punkt beobachtet wurde, spricht man von der höchsten oder niedrigsten Temperatur ''seit Beginn der Aufzeichnungen''.
+
+Orte, an denen die niedrigsten und höchsten Temperaturen auftreten, bezeichnet man als Kälte- und Hitzepol. In Mitteleuropa sind Kältepole typischerweise in inneralpinen Becken und Dolinen (Kalksteingebirge) zu finden.
+
+== Höchsttemperaturen ==
+
+{| class="prettytable sortable" style="text-align:left;"
+! bgcolor="#cccccc" style="font-weight:bold;" style="width:10%;" | Temperatur
+! bgcolor="#cccccc" style="width:20%;" | Datum
+! bgcolor="#cccccc" style="width:25%;" | Ort
+! bgcolor="#cccccc" | Bemerkung
+|-
+| bgcolor="#e8e8e8" | || bgcolor="#e8e8e8" | || bgcolor="#e8e8e8" | Deutschland || bgcolor="#e8e8e8" |
+|-
+| 40,3 °C || 8. August 2003 || Perl-Nennig im Saarland
+| Höchste gemessene Temperatur in Deutschland seit Beginn der Temperaturmessung; Hitzewelle 2003
+|-
+| 40,2 °C || 27. Juli 1983 || Gärmersdorf bei Amberg, Oberpfalz
+|-
+| 40,2 °C || 9. und 13. August 2003 || Karlsruhe
+|-
+| 40,2 °C || 13. August 2003 || Freiburg im Breisgau
+|-
+| 41,2 °C || 11. August 1998 || Meteomedia-Wetterstation in Brauneberg
+| Höchste gemessene Temperatur in Deutschland, wegen der Lage an einem Schiefer-Steilhang nicht offiziell anerkannt
+|-
+| bgcolor="#e8e8e8" | || bgcolor="#e8e8e8" | || bgcolor="#e8e8e8" | Österreich || bgcolor="#e8e8e8" |
+|-
+| 39,7 °C || 27. Juli 1983 || Dellach im Drautal (Kärnten)
+|-
+| 39,5 °C || 20. Juli 2007 || Andau (Burgenland)
+|-
+| bgcolor="#e8e8e8" | || bgcolor="#e8e8e8" | || bgcolor="#e8e8e8" | Schweiz || bgcolor="#e8e8e8" |
+|-
+| 41,5 °C || 11. August 2003 || Grono
+| <ref>http://www.meteoschweiz.admin.ch/web/de/forschung/wissenswertes/Rekorde/wetterrekorde_in_der.html Meteoschweiz</ref>
+|-
+| bgcolor="#e8e8e8" | || bgcolor="#e8e8e8" | || bgcolor="#e8e8e8" | Frankreich || bgcolor="#e8e8e8" |
+|-
+| 44,1 °C || 12. August 2003 || Conqueyrac und Saint-Christol-lès-Alès, beide im Département Gard
+| Offizieller Höchstwert; Da die Lage dieser beiden Wetterstationen jedoch umstritten ist, wird oftmals der Wert von 42,7 °C, mit einer "einwandfreien" Wetterstation in Le Luc-Le Cannet des Maures gemessen, als Höchstwert betrachtet.
+|-
+| 31,2 °C || Februar (!) 1960 || Saint-Girons
+| Dieser Wert kam aufgrund des Föhneffekts zustande.
+|-
+| bgcolor="#e8e8e8" | || bgcolor="#e8e8e8" | || bgcolor="#e8e8e8" | Spanien || bgcolor="#e8e8e8" |
+|-
+| 50 °C || 1881 || Sevilla
+| Der Wert wird angezweifelt, bestätigt sind 46,6 °C.
+|-
+| 48,8 °C || || Cazalla
+|-
+| bgcolor="#e8e8e8" | || bgcolor="#e8e8e8" | || bgcolor="#e8e8e8" | Portugal || bgcolor="#e8e8e8" |
+|-
+| 47,3 °C || || Amareleja
+|-
+| bgcolor="#e8e8e8" | || bgcolor="#e8e8e8" | || bgcolor="#e8e8e8" | Griechenland || bgcolor="#e8e8e8" |
+|-
+| 46,5 °C || || Lamia
+|-
+| bgcolor="#e8e8e8" | || bgcolor="#e8e8e8" | || bgcolor="#e8e8e8" | Italien || bgcolor="#e8e8e8" |
+|-
+| 48,5 °C || 11. August 1999 || Catenanuova
+|-
+| bgcolor="#e8e8e8" | || bgcolor="#e8e8e8" | || bgcolor="#e8e8e8" | Tschechien || bgcolor="#e8e8e8" |
+|-
+| 40,2 °C || 1983 || Prag
+| <ref>https://claroline.uni-klu.ac.at/eeo/index.php/Tschechien</ref>
+|-
+| bgcolor="#e8e8e8" | || bgcolor="#e8e8e8" | || bgcolor="#e8e8e8" | Afrika || bgcolor="#e8e8e8" |
+|-
+| 58 °C || 13. September 1922 || Ortschaft Al 'Aziziyah (Libyen)
+| Bisheriger Hitzeweltrekord
+|-
+| bgcolor="#e8e8e8" | || bgcolor="#e8e8e8" | || bgcolor="#e8e8e8" | Asien || bgcolor="#e8e8e8" |
+|-
+| 70,7 °C || 2007 || Iranische Wüste Lut
+| Hitzeweltrekord übertroffen; Messung allerdings per Satellitenbeobachtung <ref> [http://www.spiegel.de/wissenschaft/natur/0,1518,450476,00.html DER SPIEGEL vom 24. November 2006]</ref>.
+|}
+
+{|border="1" cellspacing="1" cellpadding="2" align="center" style="border:1px solid #AAAAAA;border-collapse:collapse;background-color:#FFFFFF;"
+|-bgcolor="#CCCCFF"
+!rowspan=2|Pays
+!colspan=3|Froid
+!colspan=3|Chaud
+|-bgcolor="#CCCCFF"
+!T°C
+!Lieu
+!Date
+!T°C
+!Lieu
+!Date
+|-
+|''Monde''
+||-&nbsp;89,2°<ref name="continent min"> [http://www.infoplease.com/ipa/A0001377.html Infoplease]</ref>||Vostok, ||21 juillet 1983
+||57,7°<ref name="continent max"> [http://www.infoplease.com/ipa/A0001375.html Infoplease]</ref>|||[[13 septembre 1922
+|-
+|''Afrique''
+||-33,4°C|||[[11 décembre 1934
+||57,7°<ref name="continent max"/>|||[[13 septembre 1922
+|-
+|''Amérique du Nord''
+||-&nbsp;66,1°C<ref name="continent min"/>|||[[9 janvier 1954
+||56,7°C<ref name="continent max"/>|||[[10 juillet 1913
+|-
+|''Amérique du Sud''
+||-33,0°C<ref name="continent min"/>|||[[1er juin 1907
+||48,9°C<ref name="continent max"/>|||[[11 décembre 1905
+|-
+|''Antarctique''
+||-&nbsp;89,2°<ref name="continent min"/>||Vostok||21 juillet 1983
+||14,6°C<ref name="continent max"/>|||[[5 janvier 1974
+|-
+|''Asie''
+||-67,8°C<ref name="continent min"/>|||[[7 février 1892
+||53,9°C<ref name="continent max"/>|||[[21 juin1942
+|-
+|''Europe''
+||-52,6°C|||[[2 février 1966
+||48,8°C||La Puebla de Cazalla, ||
+|-
+|''Océanie''
+||-23,0°C<ref name="continent min"/>|||[[29 juin 1994
+||50,7°C<ref name="continent max"/>|||[[2 janvier 1960
+|-
+|
+||-52.2°C||Shahrak||
+||52,5°C||Chakansur||
+|-
+|
+||||||
+||||||
+|-
+|
+||-26,8°C||Sheqeras||
+||45,3°C||Lezhë||
+|-
+|
+||-20°C||Batna||
+||56.8°C|||[[27 juillet 2003
+|-
+|
+||-45,8°C|||[[24 décembre 2001
+||40,3°C||Sarre||8 août 2003
+|-
+|
+||-32,0°C||Pas de la Case||
+||39°C||Hydroelectrica||
+|-
+|
+||-8.7°C||Chitembo||
+||43,5°C||Dondo||
+|-
+|
+||15.6°C||St John's||
+||35°C||Codrington||
+|-
+|
+||||||
+||||||
+|-
+|
+||-39,0°C||| [[1907
+||49.1°C||Villa de Maria||
+|-
+|
+||-46°C||Shurabad||
+||42,5°C||Erevan||
+|-
+|
+*''Île Christmas''
+*''Îles Cocos''
+*''Îles Heard et McDonald''
+*''Île Norfolk''
+||-23,0°C<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;|||[[29 juin 1994<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;
+||50,7°C<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;|||[[2 janvier 1960<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;
+|-
+|
+||-36,6°C|||Février [[1929
+||39,7°C|||[[27 juillet 1983
+|-
+|
+||-42°C||Great Caucasus Station||
+||47,4°C||Goytapa||
+|-
+|
+||3°C||Freeport||
+||36,5°C||Nassau||
+|-
+|
+||2,8°C||Muhraq||
+||47,5°C||Muhraq||
+|-
+|
+||1,7°C||Srimangal||
+||43°C||Borga Thana||
+|-
+|
+||15°C||Gibbons Boggs||
+||36,1°C||Bridgetown||
+|-
+|
+||-30,1°C||Rochefort||
+||38,7°C||Haacht||
+|-
+|
+||6°C||Douglas Da Silva||
+||42°C||Cayo College Of Agriculture||
+|-
+|
+||6°C||Kandi||
+||46,1°C||Kandi||
+|-
+|
+||-12°C||Hurchi||
+||40°C||Phuentsholing||
+|-
+|
+||-42,2°C||Tolochin||
+||38°C||Vasilevichi||
+|-
+|
+||||||
+||||||
+|-
+|
+||-25,7°C||Uruyni||
+||47,2°C||Vilal Montes||
+|-
+|
+||-43,5°C||Igman-Mraziste||
+||46,2°C|||[[31 juillet 1901||
+|-
+|
+||-15°C||Tsabong||
+||44,4°C||Palaype||
+|-
+|
+||-14º||Caçador||||
+||48,4º||Santos||||
+|-
+|
+||18,4°C||Bandar Seri Begawan||
+||38,3°C||Bandar Seri Begawan||
+|-
+|
+||-38,3°C||Trun||
+||45,2°C|||[[5 août 1916||
+|-
+|
+||2,9°C||Banankaledaga||
+||47,9°C||Ouagadougou||
+|-
+|
+||-0,9°C||Kisozi||
+||36,1°C||Bujumbura||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||-&nbsp;63,0°|||[[3 février 1947
+||45,0°C|||[[5 juillet 1937
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+*''Hong Kong''
+*''Macao''
+*''''
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||42,8°C|||[[5 août 1981||
+|-
+|
+||||||
+||||||
+|-
+|
+*''Groenland''
+*''Îles Féroé''
+||-&nbsp;31,2°C<br />-&nbsp;66,1°<br />&nbsp;|||&nbsp;<br />[[9 janvier 1954<br />&nbsp;
+||36,4°C<br />30,1°C<br />&nbsp;||Holstebro<br />Ivittuut<br />&nbsp;||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||-24,0°C||Albacete||
+||48,8°C||La Puebla de Cazalla||
+|-
+|
+||-43,5°C||Jõgeva||
+||35,6°C||Võru||
+|-
+|
+*''Guam''
+*''Îles Mariannes du Nord''
+*''Îles Vierges américaines''
+*''Porto Rico''
+*''Samoa américaines''
+||-&nbsp;62,2°C<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;|||[[23 janvier 1971<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;
+||56,7°C<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;|||[[10 juillet 1913<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||-51,5°C||Kittilä||
+||35,9°C||Turku||
+|-
+|
+*''Guadeloupe''
+*''Guyane''
+*''Martinique''
+*''Mayotte''
+*''Nouvelle-Calédonie''
+*''Polynésie française''
+*''La Réunion''
+*''Saint-Pierre-et-Miquelon''
+*''Wallis-et-Futuna''
+||-44,0°<br />12,2°<br />12,2°<br />&nbsp;<br />13,9°<br />2,3°<br />8,0°<br />-1,0°<br />-18,7°<br />&nbsp;||Saint-Pierre, Jura<br />Saint-Claude<br />Saül<br />&nbsp;<br />Tubuai<br />Saint-Pierre<br />&nbsp;||<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;
+||44,1°<br />35,8°<br />37°<br />&nbsp;<br />37,8°<br />39,9°<br />37,8°<br />36,9°<br />28,4°<br />&nbsp;||Gard<br />Atuona<br />Le Port<br />Saint-Pierre<br />&nbsp;||12 août 2003<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||-28,0°C||Ptolemaida||
+||48,0°C|||[[11 juillet 1977
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||-35,0°C||Görömbölytapolca||
+||41,9°C|||[[20 juillet 2007
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||-19,1°C||Comté de Sligo||
+||33,3°C||Kilkenny||
+|-
+|
+||-38,0°C||Grímsstaðir á Fjöllum||
+||30,6°C|||[[22 juin 1939<ref> [http://www.vedur.is/vedur/frodleikur/greinar/nr/1000 Météo nationale islandaise]</ref>
+|-
+|
+||||||
+||53,9°C|||[[21 juin 1942
+|-
+|
+||-38,0°C||Livigno||
+||46,0°C||Catane||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||40,8°C|||[[25 juillet 1933
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||-43,2°C||Daugavpils||
+||36,4°C||Daugavpils||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||-42,9°C||Utena||
+||37,5°C||Zarasai||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||44,8°C|||[[5 juillet 2000||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+*''Sahara Occidental''
+||-33,4°C<br />&nbsp;|||[[11 décembre 1934<br />&nbsp;
+||51,7°C||Agadir||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||-&nbsp;28,0°C||Los Lamentos||
+||52,0°C||Mexicali||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||41,0°C|||[[22 juillet 2007||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+*''Île Bouvet''
+||-51,4°C<br />&nbsp;||Karasjok<br />&nbsp;||
+||35,6°C<br />&nbsp;||Nesbyen<br />&nbsp;||
+|-
+|
+*''Îles Cook''
+*''Niué''
+*''Tokelau''
+||-21,6°C<br />&nbsp;<br />&nbsp;<br />&nbsp;|||[[3 juillet 1995<br />&nbsp;<br />&nbsp;<br />&nbsp;
+||42,3°C<br />&nbsp;<br />&nbsp;<br />&nbsp;|||[[7 février 1973<br />&nbsp;<br />&nbsp;<br />&nbsp;
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+*''Antilles néerlandaises''
+*''Aruba''
+||-27,4°C<br />&nbsp;<br />&nbsp;||Winterswijk<br />&nbsp;<br />&nbsp;||
+||38,6°C<br />&nbsp;<br />&nbsp;||Zutphen<br />&nbsp;<br />&nbsp;||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||-42,2°C||Rabka-Zdrój||
+||40,2°C|||[[29 juillet 1921
+|-
+|
+||-16,0°C||Penhas da Saude||
+||47,3°C||Amareleja||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||44,5°C|||[[10 août 1951
+|-
+|
+*''Anguilla''
+*''Bermudes''
+*''Géorgie du Sud et les îles Sandwich du Sud''
+*''Gibraltar''
+*''Guernesey''
+*''Îles Caïmans''
+*''Îles Malouines (Falkland)''
+*''Île de Man''
+*''Îles Turques et Caïques''
+*''Îles Vierges britanniques''
+*''Jersey''
+*''Montserrat''
+*''Pitcairn''
+*''Sainte-Hélène''
+||-27,0°C<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;||Lossiemouth, Écosse<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;||
+||38,5°C<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;||Brogdale<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;<br />&nbsp;||
+|-
+|
+||-67,8°C|||[[7 février 1892
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||-39,6°C||Babno Polje||
+||40,7°C||Krško||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||-52,6°C||Norrbotten||2 février 1966
+||38,0°C||Kalmar||29 juin 1947
+|-
+|
+||-41,8°C||Neuchâtel||12 janvier 1987
+||41,5°C||Grisons||11 août 2003
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||40,2°C|||[[27 juillet 1983||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|
+||||||
+||||||
+|-
+|}
+
+==Sources==

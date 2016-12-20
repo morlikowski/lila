@@ -1,0 +1,108 @@
+De '''Wilkinson-polynoom''' van graad ''k'' is de polynoom
+
+:<math>\prod_{i=1}^{k} (x-i) = (x-1)(x-2)\cdots(x-k)</math>.
+
+De nulpunten van deze polynoom zijn de gehele getallen <math>1, 2, 3, \ldots, k</math>.
+
+De praktische relevantie van deze polynoom ligt in het gebruik als test voor numerieke benaderingsmethoden. Het numeriek bepalen van de nulpunten van de polynoom is namelijk een slecht geconditioneerd probleem. Dit wil zeggen dat de precieze waarden van de nulpunten zeer gevoelig zijn voor kleine onnauwkeurigheden bij de berekening.
+
+Normaal gesproken worden polynomen eerst helemaal uitgeschreven alvorens eraan te gaan rekenen. Voor deze polynoom is het probleem dat de faculteit). Ter illustratie: voor ''k = 7'' hebben we
+:<math> -5040 + 13068 x - 13132 x^2  + 6769 x^3  - 1960 x^4  + 322 x^5  - 28 x^6  + x^7, </math>
+voor ''k = 20'' vinden we al
+:<math>2432902008176640000 - 8752948036761600000 x </math>
+:<math>+ 13803759753640704000 x^2  - 12870931245150988800 x^3 </math>
+:<math>+ 8037811822645051776 x^4  - 3599979517947607200 x^5 </math>
+:<math>+ 1206647803780373360 x^6  - 311333643161390640 x^7 </math>
+:<math>+ 63030812099294896 x^8 - 10142299865511450 x^9 </math>
+:<math>+ 1307535010540395 x^{10} - 135585182899530 x^{11} </math>
+:<math>+ 11310276995381 x^{12}   - 756111184500 x^{13} </math>
+:<math>+ 40171771630 x^{14} - 1672280820 x^{15} + 53327946 x^{16}</math>
+:<math>- 1256850 x^{17}   + 20615 x^{18} - 210 x^{19} + x^{20}.</math>
+
+Het is duidelijk dat in het tweede geval de coëfficiënten enorm verschillen in grootte. Een fout van ±0,001 in de grootste coëfficiënt heeft nauwelijks gevolgen, maar zo'n zelfde fout in de coëfficiënt van x<sup>19</sup> geeft compleet andere nulpunten. Zelfs een fout van 10<sup>-10</sup> geeft al onacceptabele onnauwkeurigheden. Voor nog grotere ''k'' is dit nog veel erger. Dit zorgt ervoor dat veel standaard significante cijfers worden gebruikt.
+
+250px|thumb|right|Plot of Wilkinson's polynomial
+
+250px|thumb|right|Plot of sgn(''w''(''x'')) log(1 + &#x7c;''w''(''x'')&#x7c;)
+
+In finding the root of a polynomial: the location of the roots can be very sensitive to perturbations in the coefficients of the polynomial.
+
+The polynomial is
+:<math> w(x) = \prod_{i=1}^{20} (x - i) = (x-1)(x-2) \cdots (x-20). </math>
+Sometimes, the term ''Wilkinson's polynomial'' is also used to refer to some other polynomials appearing in Wilkinson's discussion.
+
+== Background ==
+
+Wilkinson's polynomial arose in the study of algorithms for finding the roots of a polynomial
+:<math> p(x) = \sum_{i=0}^n c_i x^i. </math>
+It is a natural question in numerical analysis to ask whether the problem of finding the roots of ''p'' from the coefficients ''c''<sub>''i''</sub> is well-conditioned.  That is, we hope that a small change in the coefficients will lead to a small change in the roots.  Unfortunately, that is not the case here.
+
+The problem is ill-conditioned when the polynomial has a multiple root. For instance, the polynomial ''x''<sup>2</sup> has a double root at ''x'' = 0. However, the polynomial ''x''<sup>2</sup>&minus;&epsilon; (a perturbation of size &epsilon;) has roots at ±&radic;&epsilon;, which is much bigger than &epsilon; when &epsilon; is small. 
+
+It is therefore natural to expect that ill-conditioning also occurs when the polynomial has zeros which are very close. However, the problem may also be extremely ill-conditioned for polynomials with well-separated zeros. Wilkinson used the polynomial ''w''(''x'') to illustrate this point (Wilkinson 1963).
+
+In 1984, he described the personal impact of this discovery:
+
+:''Speaking for myself I regard it as the most traumatic experience in my career as a numerical analyst.''<ref>
+</ref>
+
+== Conditioning of Wilkinson's polynomial ==
+
+Wilkinson's polynomial
+
+:<math> w(x) = \prod_{i=1}^{20} (x - i) = (x-1)(x-2) \cdots (x-20) </math>
+
+clearly has 20 roots, located at ''x'' = 1, 2, &hellip;, 20. These roots are far apart. However, the polynomial is still very ill-conditioned.
+
+Expanding the polynomial, one finds
+   
+:{|
+|-
+| <math> w(x) = \,\!</math> || <math> x^{20}-210 x^{19}+20615 x^{18}-1256850
+   x^{17}+53327946 x^{16} \,\!</math>
+|-
+| || <math> {}-1672280820
+   x^{15}+40171771630 x^{14}-756111184500
+   x^{13} \,\!</math>
+|-
+| || <math> {}+11310276995381
+   x^{12}-135585182899530
+   x^{11} \,\!</math>
+|-
+| || <math> {}+1307535010540395
+   x^{10}-10142299865511450
+   x^9 \,\!</math>
+|-
+| || <math> {}+63030812099294896
+   x^8-311333643161390640
+   x^7 \,\!</math>
+|-
+| || <math> {}+1206647803780373360
+   x^6-3599979517947607200
+   x^5 \,\!</math>
+|-
+| || <math> {}+8037811822645051776
+   x^4-12870931245150988800
+   x^3 \,\!</math>
+|-
+| || <math> {}+13803759753640704000
+   x^2-8752948036761600000
+   x \,\!</math>
+|-
+| || <math> {}+2432902008176640000 \,\!</math>
+|}
+
+If the coefficient of ''x''<sup>19</sup> is decreased from −210 by 2<sup>&minus;23</sup> to −210.0000001192, then the polynomial value ''w''(20) decreases from 0 to &minus;2<sup>&minus;23</sup>20<sup>19</sup>&nbsp;= &minus;6.25&times;10<sup>17</sup>, and the root at ''x''&nbsp;= 20 grows to ''x''&nbsp;&asymp; 20.8 . The roots at ''x''&nbsp;= 18 and ''x''&nbsp;= 19 collide into a double root at  ''x'' &asymp; 18.62 which turns into a pair of complex conjugate roots at ''x'' &asymp; 19.5&plusmn;1.9i as the perturbation increases further. The 20 roots become (to 5 decimals)
+
+:{| cellpadding="8" cellspacing="0" frame="1" style="text-align:right"
+|-
+| <tt>1.00000&nbsp;</tt> || <tt>2.00000&nbsp;</tt> || <tt>3.00000&nbsp;</tt> || <tt>4.00000&nbsp;</tt> || <tt>5.00000&nbsp;</tt>
+|-
+| <tt>6.00001&nbsp;</tt> || <tt>6.99970&nbsp;</tt> || <tt>8.00727&nbsp;</tt> || <tt>8.91725&nbsp;</tt> || <tt>20.84691&nbsp;</tt>
+|-
+| <tt>10.09527&plusmn; <br/> 0.64350</tt>'''''i''''' || <tt>11.79363&plusmn; <br/> 1.65233</tt>'''''i'''''
+| <tt>13.99236&plusmn; <br/> 2.51883</tt>'''''i''''' || <tt>16.73074&plusmn; <br/> 2.81262</tt>'''''i'''''
+| <tt>19.50244&plusmn; <br/> 1.94033</tt>'''''i'''''
+|}
+
+Some of the roots are greatly displaced, even though the change to the coefficient is tiny and the original roots seem widely spaced. Wilkinson showed by the stability analysis discussed in the next section that this behavior is related to the fact that some roots &alpha; (such as &alpha;&nbsp;= 15) have many roots &beta; that are "close" in the sense that |&alpha;−&beta;| is smaller than |&alpha;|.

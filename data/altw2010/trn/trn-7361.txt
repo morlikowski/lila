@@ -1,0 +1,66 @@
+O ato de medir é, em essência, um ato de comparar, e essa comparação envolve erros de diversas origens (dos instrumentos, do operador, do processo de medida etc.).
+	Quando se pretende medir o valor de uma grandeza, pode-se realizar apenas uma ou várias medidas repetidas, dependendo das condições experimentais particulares ou ainda da postura adotada frente ao experimento. Em cada caso, deve-se extrair do processo de medida um valor adotado como melhor na representação da grandeza e ainda um limite de erro dentro do qual deve estar compreendido o valor real.
+
+==Tipos de erro==
+* ''Erros nos dados experimentais e nos valores dos parâmetros'':
+** ''Sistemáticos'' - Erros que actuam sempre no mesmo sentido e podem ser eliminados mediante uma seleção de aparelhagem e do método e condições de experimentação.
+** ''Fortuitos'' - Erros com origem em causas indeterminadas que actuam em ambos os sentidos de forma não previsível. Estes erros podem ser atenuados, mas não completamente eliminados.
+* ''Erros de truncatura'' - Resultam do uso de fórmulas aproximadas, ou seja, uma truncatura da realidade. Por exemplo, quando se tomam apenas alguns dos termos do desenvolvimento em série de uma função.
+* ''Erros de arredondamento'' - Resultam da representação de números reais com um número finito de algarismos significativos.
+
+==Erro absoluto e erro relativo ==
+
+Todos os tipos de erro acima podem ser expressos como "erro absoluto" ou como "erro relativo". Também, pode ser tratados pela Análise Numérica ou pela Estatística.
+
+Seja <math>X</math> um número com valor exacto e <math>x</math> um valor aproximado de <math>X</math>. A diferença entre o valor exato e o valor aproximado é o '''erro de X'''
+
+Ao módulo deste valor, chama-se de '''Erro absoluto de X'''
+
+Logo,
+
+Como geralmente não temos acesso ao valor exato <math>X</math>, o erro absoluto não tem na maior parte dos casos utilidade prática. Assim, temos que determinar um majorante de <math>\Delta</math>. Este valor designa-se de <math>\bar{\Delta}</math>. Satisfaz a condição:
+
+O mínimo do conjunto dos majorantes <math>\bar{\Delta}</math> de <math>\Delta</math>, chama-se "erro máximo absoluto" em que <math>x</math> representa <math>X</math>.
+
+Em face das regras de arredondamento consideradas, um número com <math>m</math> casas decimais deve supor-se afectado de um erro máximo absoluto de:
+
+Geralmente, mais útil do que o erro máximo absoluto é a relação entre este e a grandeza que está afectada pelo erro.
+
+Ao quociente entre o "erro absoluto" e o módulo do valor exacto, chama-se '''Erro relativo''' de <math>X</math>.
+
+<math>\delta = \frac{\Delta}{|X|}</math>
+
+In optimization, the concepts of '''statistical error''' and '''residual''' are easily confused with each other.
+
+A '''statistical error''' is the amount by which an observation differs from its mean of the entire population, is typically unobservable. If the mean height in a population of 21-year-old men is 1.75 meters, and one randomly chosen man is 1.80 meters tall, then the "error" is 0.05 meters; if the randomly chosen man is 1.70 meters tall, then the "error" is &minus;0.05 meters.  The nomenclature arose from random measurement errors in astronomy. It is as if the measurement of the man's height were an attempt to measure the population mean, so that any difference between the man's height and the mean would be a measurement error.
+
+A '''residual''' (or fitting error), on the other hand, is an observable ''estimate'' of the unobservable statistical error.  The simplest case involves a random sample of ''n'' men whose heights are measured.  The ''sample'' mean is used as an estimate of the ''population'' mean.  Then we have:
+
+*The difference between the height of each man in the sample and the unobservable ''population'' mean is a ''statistical error'', and
+*The difference between the height of each man in the sample and the observable ''sample'' mean is a ''residual''.
+
+Note that the sum of the residuals within a random sample is necessarily zero, and thus the residuals are necessarily ''not independent''. The sum of the statistical errors within a random sample need not be zero; the statistical errors are independent random variables if the individuals are chosen from the population independently.
+
+In sum:
+*Residuals are observable; statistical errors are not.
+*Statistical errors are often independent of each other; residuals are not (at least in the simple situation described above, and in most others).
+
+== Example with some mathematical theory ==
+
+If we assume a normally distributed population with mean μ and standard deviation σ, and choose individuals independently, then we have
+
+:<math>X_1, \dots, X_n\sim N(\mu,\sigma^2)\,</math>
+
+and the sample mean
+
+:<math>\overline{X}={X_1 + \cdots + X_n \over n}</math>
+
+is a random variable distributed thus:
+
+:<math>\overline{X}\sim N(\mu, \sigma^2/n).</math>
+
+The ''statistical errors'' are then
+
+:<math>\varepsilon_i=X_i-\mu,\,</math>
+
+whereas the ''residuals'' are

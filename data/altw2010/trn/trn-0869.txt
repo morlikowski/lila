@@ -1,0 +1,46 @@
+'''로렌츠-헤비사이드 단위계'''는 전자기학과 상대성이론에서 자주 쓰이는 단위계이다. 이 단위계는 끈이론과 같이 3차원보다 큰 공간차원에서 계산을 해야 할 필요가 있을때 매우 유용하다.
+
+== 정의 ==
+SI 단위계에서 아래와 같이 변수를 바꾼것을 로렌츠-헤비사이드 단위계라 한다.
+
+:<math>\sqrt{\epsilon_0} \bold{E} \rightarrow \bold{E}</math>
+:<math>\sqrt{1/\mu_0} \bold{B} \rightarrow \bold{B}</math>
+:<math>\sqrt{1/\epsilon_0} \rho \rightarrow \rho</math>
+:<math>\sqrt{1/\epsilon_0} \bold{J} \rightarrow \bold{J}</math>
+
+여기서 '''E'''는 전기장, '''B'''는 자기장, ρ는 전하밀도, '''J'''는 전류밀도, ε<sub>0</sub>는 진공에서의 유전율 그리고 μ<sub>0</sub>는 진공에서의 투자율을 말한다.
+
+== 맥스웰 방정식 ==
+로렌츠-헤비사이드 단위계에서 맥스웰 방정식은 아래와 같이 대칭성이 나타나면서 간단하게 표현된다.
+
+:<math>\nabla \cdot \bold{E} = \rho</math>
+:<math>\nabla \times \bold{E} = - {1 \over c} \frac{\partial \bold{B}}{\partial t}</math>
+:<math>\nabla \cdot \bold{B} = 0</math>
+:<math>\nabla \times \bold{B} = {\bold{J} \over c} + {1 \over c} \frac{\partial \bold{E}}{\partial t}</math>
+
+여기서 c는 빛의 속도를 의미한다.
+
+== 로렌츠 힘 ==
+로렌츠-헤비사이드 단위계에서 로렌츠 힘 '''F'''는 아래와 같이 표현된다.
+
+:<math>\bold{F} = q \left( \bold{E} + {\bold{v} \over c} \bold{B} \right)</math>
+
+'''Lorentz–Heaviside''' units (or '''Heaviside–Lorentz''' units) for relativistic calculations. They differ from the equations in CGS units by a factor of <math> \sqrt {4 \pi} </math> in the definitions of the fields and electric charge. The units are particularly convenient when performing calculations in spatial dimensions greater than three such as is done in string theory.
+
+==Maxwell's equations with sources==
+
+The equations with sources take the following form:
+
+:<math> \nabla \cdot \mathbf{E} = \rho</math>
+
+:<math> \nabla \cdot \mathbf{B} = 0</math>
+
+:<math> \nabla \times \mathbf{E} = -\frac{1}{c} \frac{\partial \mathbf{B}} {\partial t}</math>
+
+:<math> \nabla \times \mathbf{B} = \frac{1}{c} \frac{ \partial \mathbf{E}} {\partial t} + \frac{1}{c} \mathbf{J}</math>
+
+where ''c'' is the speed of light in a vacuum. Here '''E''' is the electric field, '''B''' is the magnetic field, <math>  \rho</math> is the charge density, and '''J''' is the current density.
+
+The charge and fields in Lorentz–Heaviside units are related to the quantities in cgs units by
+
+:<math> q_{LH} \ \stackrel{\mathrm{def}}{=}\  \sqrt{4\pi} q_{cgs} </math>

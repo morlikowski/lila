@@ -1,0 +1,41 @@
+'''디스크 압축'''은 파티션 내부의 압축하여 하드 디스크의 파티션 크기를 가상적으로 늘려주는 소프트웨어이다. 파일 압축과 다르게 사용자는 소프트웨어 사용법에 대한 지식이 필요 없으며, 오직 자동적으로 압축이 이루어진다.
+
+== 원리 ==
+압축된 파티션은 파티션 내부에 하나의 압축된 볼륨 파일(compressed volume file)을 두어, 그 내부에 파티션의 모든 정보를 저장하게 된다. 사용자는 압축된 볼륨 파일을 볼 수 없으며, 일반 적인 파티션 처럼 내부 내용만 볼 수 있다. 파티션 내부의 데이터를 읽고 쓸때에는 실시간으로 압축 및 압축해제를 하여 사용자가 일반적인 파티션과 동일한 방법으로 사용할 수 있게 해준다.
+
+== 지원하는 소프트웨어 ==
+디스크 압축을 지원하는 대표적인 소프트웨어로 스택 일렉트로닉스사의 스태커와 마이크로소프트의 더블스페이스가 있다. 윈도95플러스 및 윈도98에 포함된 더블스페이스3의 경우 하드디스크의 공간을 1.5배 정도 더 쓸 수 있게 만들어 주었다. 그러나 FAT32와 NTFS 파티션을 위의 소프트웨어가 지원하지 않게 됨으로써 디스크 압축 전용 소프트웨어는 사라지게되었다.
+
+A '''disk compression''' software utility increases the amount of information that can be stored on a user designate the files to be compressed - a disk compression utility works automatically and the user doesn't need to be aware of its existence.
+
+When information needs to be stored to the hard disk, the utility will compress the information. When information needs to be read, the utility will decompress the information. A disk compression utility overrides the standard software applications access the hard disk using these routines, they continue to work after disk compression has been installed.
+
+Disk compression utilities were popular especially in the early 1990s, when microcomputer hard disks were still relatively small (20 to 80 megabytes). Hard drives were also rather expensive at the time, costing roughly 1 USD per megabyte. For the users who bought disk compression applications, the software proved to be in the short term a more economic means of acquiring more disk space as opposed to replacing their current drive with a larger one. A good disk compression utility could, on average, double the available space with negligible speed loss. Disk compression fell into disuse by the late 1990s, as advances in hard drive technology and manufacturing led to increased capacities and lower prices.
+
+Note: While the most familiar disk compression utilities were designed to work on DOS systems, the concept was not specific to DOS.  The utility DiskDoubler, for example, worked on the Apple Macintosh platform. 
+
+==Common disk compression utilities==
+===Standalone utilities===
+The initial compression utilities were sold independently. A user had to specifically choose to install and configure the software.  
+
+*'''Stacker''' from Stac Electronics
+*'''XtraDrive''' from Integrated Information Technology ( IIT) 
+*'''SuperStor Pro''' from AddStor 
+*'''DoubleDisk Gold''' from Vertisoft Systems 
+*'''DiskDoubler''' from Salient Software
+
+===Bundled utilities===
+The idea of bundling disk compression into new machines appealed to resellers and users. Resellers liked that they could claim more storage space; users liked that they did not have to configure the software. Bundled utilities included:
+
+*'''DR-DOS 6.0''', from Digital Research, included a version of '''SuperStor'''.
+*'''MS-DOS 6.0''' and MS-DOS 6.2, from Microsoft, included '''DoubleSpace''', which was based in part on Vertisoft Systems' '''DoubleDisk'''.
+*'''PC-DOS 6.1''', from IBM, included a version of '''SuperStor'''.
+*'''MS-DOS 6.22''', from Microsoft, included '''DriveSpace''', which was DoubleSpace with a different compression algorithm.
+*'''PC-DOS 6.3''', from IBM, included a version of '''SuperStor'''.
+*'''Novell DOS 7''', from Novell (after acquiring Digital Research), included a version of '''Stacker'''.
+*'''PC-DOS 7.0''', from IBM, included a version of '''Stacker''' from Stac Electronics.
+*'''PC-DOS 2000''', from IBM, included a version of '''Stacker'''.
+*'''Windows 95''', from Microsoft, included an updated version of '''DriveSpace'''.
+*'''Plus!''', from Microsoft, included '''DriveSpace 3'''.
+
+While '''Windows XP''', from Microsoft, included both a native support and a command line utility named 'compact' that compresses files on NTFS systems, that is not implemented as a separate "compressed drive" like those above.

@@ -1,0 +1,103 @@
+<!--tabella per la realizzazione di una scheda film-->
+<!--questa tabella memorizza solo i parametri - la struttura/layout è nel template Film-->
+<!--NON modificare la prima riga e le righe dove compare il simbolo uguale-->
+<!--NON inserire ritorni a capo salvo nei campi dove espressamente previsto-->
+{{Film|
+titoloitaliano = L'ombra del dubbio <!--scrivere qui il titolo italiano del film-->
+|
+titolooriginale = Shadow of a Doubt <!--scrivere qui il titolo originale del film - se italiano si può riscriverlo o inserire (&nbsp;)-->
+|
+nomepaese = Stati Uniti <!--nome del paese di produzione - con doppie parentesi quadre-->
+|
+annoproduzione = 1943 <!--anno di produzione - con doppie parentesi quadre-->
+|
+durata = 108' <!--durata della pellicola -->
+|
+tipocolore = B/N <!--colore della pellicola - da scegliere tra 'colore' o 'B/N'-->
+|
+tipoaudio = sonoro <!--audio della pellicola - da scegliere tra 'muto' o 'sonoro'-->
+|
+nomegenere = nero / thriller <!--genere del film - scelto esclusivamente tra quelli indicati nel progetto-->
+|
+nomeregista = Alfred Hitchcock <!--nome del regista - con doppie parentesi quadre-->
+|
+nomesoggetto = Gordon McDonell <!--nome del soggetto - con doppie parentesi quadre -->
+|
+nomesceneggiatore = <!--nome dello sceneggiatore - con doppie parentesi quadre-->
+|
+nomeattori = 
+*    Theresa Wright
+*Joseph Cotten
+*MacDonald Carey
+*Henry Travers
+*Patricia Collinge
+*Hume Cronyn
+*Wallace Ford
+*Charles Bates
+*Edna May Wonacott 
+<!--nome degli attori - gli attori vanno inseriti uno per riga, iniziando con un *, seguito dal nome dell'attore con doppie parentesi quadre, seguito dal nome del personaggio senza parentesi quadre-->
+|
+nomefotografo = Joseph A. Valentine <!--nome del fotografo - con doppie parentesi quadre -->
+|
+nomemontaggio = Milton Carruth <!--nome del responsabile del montaggio - con doppie parentesi quadre -->
+|
+nomeeffettispeciali = <!--nome del responsabile effetti speciali della pellicola - con doppie parentesi quadre -->
+|
+nomemusicista = Franz Lehár, Dimitri Tiomkin <!--nome di chi ha realizzato la colonna sonora - con doppie parentesi quadre -->
+|
+nomescenografo = <!--nome dello scenografo - con doppie parentesi quadre -->
+|
+nomecostumista = Adrian, Vera West<!--nome del costumista - con doppie parentesi quadre -->
+|
+nomepremi =<!--eventuali premi -->
+}}
+<!-- fine della tabella film -->
+
+'''''L'ombra del dubbio''''' è un film del 1943, diretto da Alfred Hitchcock.
+
+Nel Biblioteca del Congresso degli Stati Uniti. 
+
+{{Infobox_Film |
+  name           = Shadow of a Doubt|
+  image          = 267684.1020.A.jpg|
+  image_size     = 200px|
+  caption        = original film poster|
+  imdb_id        = 0036342|
+  amg_id         =1:44015 |
+  writer         = '''Story:'''<br>Thornton Wilder<br>'''Screenplay:'''<br>Thornton Wilder<br>Sally Benson<br>Alma Reville |
+  starring       = Teresa Wright<br>Joseph Cotten<br>Macdonald Carey<br>Patricia Collinge<br>Henry Travers |
+  director       = Alfred Hitchcock |
+  producer       = Jack H. Skirball  |
+  cinematography = Joseph A. Valentine |
+  editing        = Milton Carruth |
+  distributor    = Universal Pictures |
+  released       = January 12, 1943 (USA)|
+  runtime        = 108 min. |
+  music          = '''Original music:'''<br>Dimitri Tiomkin<br>'''Non original music:'''<br>Franz Lehár |
+  awards         = |
+  language       = English |
+  budget         = |
+}}
+
+'''''Shadow of a Doubt''''' is a 1943 thriller directed by Alfred Hitchcock and written by Thornton Wilder, Sally Benson and Alma Reville. It stars Teresa Wright, Joseph Cotten, Macdonald Carey, Patricia Collinge, Henry Travers and Hume Cronyn. This film is purported to be Hitchcock's personal favorite of all his movies.<ref></ref> David Mamet in his book ''Bambi vs. Godzilla'' also names it Hitchcock's finest film.
+  
+''Shadow of a Doubt'' was nominated for an Academy Award for Best Writing, Original Story, Gordon McDonell. In 1991, this film was selected for preservation in the United States National Film Registry by the Library of Congress as being "culturally, historically, or aesthetically significant".
+
+==Plot summary==
+
+A bored young woman, a teenager, living in Santa Rosa, California, Charlotte "Charlie" Newton (Wright), is frustrated because nothing seems to be happening in her life and that of her family. Then, she receives wonderful news: her uncle (for whom she was named), Charlie Oakley (Cotten), her mother's brother, is arriving for a visit. 
+
+Two men show up pretending to be photographers and journalists working on a national survey of the average American family. One of them speaks to Charlie privately, identifying himself as Detective Jack Graham (Macdonald Carey) and telling her that her uncle is one of two men who are suspected of being a serial killer known as the "Merry Widow Murderer". This murderer has a ''modus operandi'' of seducing, murdering and robbing wealthy widows. 
+
+Young Charlie at first refuses to even consider that her uncle could be this person, but she cannot help noticing him acting strangely on several occasions. Particularly chilling is a family dinner conversation during which Uncle Charlie reveals his hatred of rich widows, comparing them to fat animals who deserve to be killed.
+
+Young Charlie's growing suspicion soon becomes apparent to her uncle. He confronts her and admits that he is indeed the man the police are after. He begs her for help; she reluctantly agrees not to say anything, as long as he leaves soon, to avoid a horrible scandal in the town that would destroy her family, especially her mother, an emotionally fragile woman, who dearly loves and idolizes her younger brother.
+
+Then news breaks that the second suspect was killed fleeing from the police, and is assumed to have been the guilty one. The detective Graham leaves. Uncle Charlie is satisfied at first, until he remembers that Young Charlie fully knows his secret. Soon, the young woman has a couple of near fatal accidents, falling down some very steep stairs, and being trapped in a closed garage with a car spewing exhaust fumes.
+
+Uncle Charlie soon announces that he is leaving by train for San Francisco. As he departs, he forces young Charlie to stay on board, planning to murder her by pushing her off as soon as the train gets up to speed. Instead, in the ensuing struggle between them, he falls into the path of an oncoming train.  At his funeral Uncle Charlie is highly honored by the townspeople of Santa Rosa, who know nothing of his true identity. Jack has come back to comfort Charlie; she tells him she had withheld from him information about her uncle which would have confirmed him as the murderer, but Jack already knows and accepts that, realizing her difficult situation. They are a loving couple who both know too much about a horrible secret which will remain a secret.
+
+==Production Notes==
+''Shadow of a Doubt'' was both filmed and set in War American city.  Since Thornton Wilder wrote the original script, the story is set in a small American town, a popular setting of Wilder, but with an added Hitchcock touch to it. In Patrick McGilligan's biography of Hitchcock he said the film was perhaps the most American film that Hitchcock had made up to that time.
+
+The opening scenes take place in the Central Ward of Newark, New Jersey. The city skyline and landmarks such as the Pulaski Skyway are featured in the opening shot.

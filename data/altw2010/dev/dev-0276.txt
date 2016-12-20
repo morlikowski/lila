@@ -1,0 +1,544 @@
+'''Apple Workgroup Server''' (AWS or sometimes WGS) and, later, '''Macintosh Server''', were the names given to selected models of Apple Computer with additional server software and sometimes bigger Centris, Quadra and early Power Macintosh series, while the servers based on the Power Macintosh G3 and Power Mac G4 were called "Macintosh Server G3" and "Macintosh Server G4". The first model was the Workgroup Server 95, introduced in March 1993; the last of the series was quietly discontinued in January 2003, after the introduction of the Xserve made them obsolete.
+
+The Workgroup Servers are not to be confused with the AIX and thus do not qualify as Macintoshes.
+
+==Models==
+{| class="wikitable"
+!Name !! Introduced !! Discontinued !! Based on !! Notes
+|- style="background-color:#EEEEFF"
+|Workgroup Server 95 || March 1993 || April 1995 || | Was sold with [[A/UX, but is able to run Mac OS as well. The differences to the Quadra are a digital tape drive (DAT) and a PDS card containing a fast SCSI connection and a 256k level 2 CPU cache. Mac OS Supported: System 7.0.1 to Mac OS 8.1
+|- style="background-color:#F5F5FF"
+|Workgroup Server 60 || July 1993 || October 1994 || Centris 610 || The Centris 610 was later sold as the "Quadra 610". Mac OS Supported: (68k, System 7.1-Mac OS 8.1) (PPC, System 7.1.2-Mac OS 9.1)
+|- style="background-color:#EEEEFF"
+|Workgroup Server 80 || July 1993 || October 1994 || Quadra 800 ||
+|- style="background-color:#F7FFF7"
+|Workgroup Server 6150 || April 1994 || October 1995 || Power Macintosh 6100 || Speed bumped from 60 to 66&nbsp;MHz in April 1995. Mac OS Supported: (60Mhz, System 7.1.2-Mac OS 9.1) (66Mhz, System 7.5-Mac OS 9.1)
+|- style="background-color:#EEFFEE"
+|Workgroup Server 8150 || April 1994 || February 1996 || Power Macintosh 8100 || Speed bumped from 80 to 110&nbsp;MHz in April 1995 
+|- style="background-color:#F7FFF7"
+|| April 1994 || February 1996 || ''n/a'' || The only Workgroup Server not directly based on a workstation. It featured an 80&nbsp;MHz (speed bumped to 120&nbsp;MHz in April 1995) [[PowerPC 601 board in a Quadra 950 style case.<ref>Workgroup Server 9150 [http://www.lowendmac.com/ppc/9150.html at Low End Mac] and [http://apple-history.com/?page=gallery&model=9150 apple-history.com]</ref>
+|- style="background-color:#EEFFEE"
+|Workgroup Server 7250 || February 1996 || April 1997 || Power Macintosh 7200 ||
+|- style="background-color:#F7FFF7"
+|Workgroup Server 8550 || February 1996 || March 1998 || Power Macintosh 8500 ||
+|- style="background-color:#EEFFEE"
+|Workgroup Server 7350 || April 1997 || March 1998 || Power Macintosh 7300 ||
+|- style="background-color:#F7FFF7"
+|Workgroup Server 9650 || April 1997 || March 1998  || Power Macintosh 9600 ||
+|- style="background-color:#FFEEEE"
+|Macintosh Server G3 || March 1998 || December 1998 || Power Macintosh G3 || Based on the "beige" minitower Power Mac G3.
+|- style="background-color:#FFF5F5"
+|Macintosh Server G3 || January 1999 || August 1999 || Power Macintosh G3 (Blue & White) ||
+|- style="background-color:#FFEEEE"
+|Macintosh Server G4 || September 1999 || January 2003 || Power Mac G4 || Multiple models mirroring the Power Mac G4's history. The first is based on the "Sawtooth" (AGP graphics) Power Mac G4, the last on the initial "Mirrored Drive Doors" PowerMac G4.
+|}
+
+I '''Workgroup Server''' erano una famiglia di server prodotta da Quadra, Power Macintosh e in un caso anche Centris. Gli unici sistemi che si potevano realmente chiamare server erano i Network Server 500/700 che erano stati esplicitamente progettati per lavorare in rete e erano dotati di AIX 4.1.4, una versione di UNIX prodotto da IBM, purtroppo ebbero scarso successo. I sistemi Workgroup Server erano venduti con Mac OS e una serie di strumenti software sviluppati per l'amministrazione dei servizi offerti. Il primo esponente della famiglia venne presentato nel 1993 mentre l'ultimo venne annunciato nel 1997. La serie venne sostituita dalla famiglia Xserve
+
+== Lista Modelli ==
+
+Motorola 68040
+<div class=NavFrame style="width:300px; margin:10px; text-align:left;">
+<div class=NavHead>Workgroup Server 60</div>
+<div class=NavContent>
+{| border="1" cellpadding="2" cellspacing="0" align="right"
+|-
+! align="left" | Presentazione:
+| Luglio, 1993
+|-
+! align="left" | Dismissione:
+| Ottobre, 1994
+|-
+! align="left" | Costo:
+| $ ND
+|-
+! align="left" | CPU:
+| 68040
+|-
+! align="left" | Frequenza CPU:
+| 20/25 MHz
+|-
+! align="left" | FPU:
+| Integrata
+|-
+! align="left" | L1 Cache:
+| 8 KB
+|-
+! align="left" | L2 Cache:
+|
+|-
+! align="left" | L3 Cache:
+|
+|-
+! align="left" | Bus:
+| 20/25 MHz
+|-
+! align="left" | Slot:
+| 1 PDS o 1 NuBus
+|-
+! valign="top" align="left" | RAM:
+| 8 MB
+|-
+! align="left" | Memoria:
+| Max 68 MB, 2 slot RAM da 80 ns
+|-
+! align="left" | VRAM:
+| 512 KB Max 1 MB
+|-
+! valign="top" align="left" | Video:
+| 1152 x 870
+|-
+! align="left" | Audio:
+| Uscita audio a 8 bit stereo <br /> Ingresso audio a 8 bit
+|-
+! valign="top" align="left" | Porte:
+| 1 ADB <br /> 2 Seriali <br /> SCSI
+|-
+! align="left" | Comunicazione:
+| Ethernet 10Mbit
+|-
+! align="left" | Lettori:
+| 1.44 KB CD-ROM 2X
+|-
+! align="left" | Hard Drive:
+| 500 MB SCSi
+|-
+! align="left" | Consumo:
+| 86 Watt
+|-
+! align="left" | Peso:
+| 6.3 kg
+|-
+! valign="top" align="left" | Dimensione:
+| A L P 8.6 x 41.4 x 39.6 cm
+|- 
+! align="left" | Sistema operativo:
+| System 7.1
+|-
+! align="left" | ROM:
+| 1 MB
+|-
+|}
+</div>
+</div>
+
+<div class=NavFrame style="width:300px; margin:10px; text-align:left;">
+<div class=NavHead>Workgroup Server 80</div>
+<div class=NavContent>
+{| border="1" cellpadding="2" cellspacing="0" align="right"
+|-
+! align="left" | Presentazione:
+| Ottobre, 1991
+|-
+! align="left" | Dismissione:
+| Maggio, 1992
+|-
+! align="left" | Costo:
+| $ 2700
+|-
+! align="left" | CPU:
+| 68040
+|-
+! align="left" | Frequenza CPU:
+| 25 MHz
+|-
+! align="left" | FPU:
+| Integrata
+|-
+! align="left" | L1 Cache:
+| 8 KB
+|-
+! align="left" | L2 Cache:
+|
+|-
+! align="left" | L3 Cache:
+|
+|-
+! align="left" | Bus:
+| 25 MHz
+|-
+! align="left" | Slot:
+| 1 PDS, 5 NuBus
+|-
+! valign="top" align="left" | RAM:
+| 0 MB
+|-
+! align="left" | Memoria:
+| Max 256 MB, 16 slot RAM da 80 ns
+|-
+! align="left" | VRAM:
+| 1 MB Max 2 MB
+|-
+! valign="top" align="left" | Video:
+| 1152 x 870
+|-
+! align="left" | Audio:
+| Uscita audio a 8 bit stereo <br /> Ingresso audio a 8 bit
+|-
+! valign="top" align="left" | Porte:
+| 1 ADB <br /> 2 Seriali <br /> SCSI
+|-
+! align="left" | Comunicazione:
+| Ethernet 10Mbit
+|-
+! align="left" | Lettori:
+| 1.44 KB CD-ROM 2X
+|-
+! align="left" | Hard Drive:
+| 160 MB SCSi
+|-
+! align="left" | Consumo:
+| 303 Watt
+|-
+! align="left" | Peso:
+| 16.7 kg
+|-
+! valign="top" align="left" | Dimensione:
+| A L P 47.2 x 22.6 x 52.3 cm
+|- 
+! align="left" | Sistema operativo:
+| System 7.1
+|-
+! align="left" | ROM:
+| 1 MB
+|-
+|}
+</div>
+</div>
+
+<div class=NavFrame style="width:300px; margin:10px; text-align:left;">
+<div class=NavHead>Workgroup Server 95</div>
+<div class=NavContent>
+{| border="1" cellpadding="2" cellspacing="0" align="right"
+|-
+! align="left" | Presentazione:
+| Marzo, 1993
+|-
+! align="left" | Dismissione:
+| Aprile, 1995
+|-
+! align="left" | Costo:
+| $ ND
+|-
+! align="left" | CPU:
+| 68040
+|-
+! align="left" | Frequenza CPU:
+| 66 MHz
+|-
+! align="left" | FPU:
+| Integrata
+|-
+! align="left" | L1 Cache:
+| 8 KB
+|-
+! align="left" | L2 Cache:
+|
+|-
+! align="left" | L3 Cache:
+|
+|-
+! align="left" | Bus:
+| 33 MHz
+|-
+! align="left" | Slot:
+| 1 PDS, 5 NuBus
+|-
+! valign="top" align="left" | RAM:
+| 0 MB
+|-
+! align="left" | Memoria:
+| Max 256 MB, 16 slot RAM da 80 ns
+|-
+! align="left" | VRAM:
+| 1 MB Max 2 MB
+|-
+! valign="top" align="left" | Video:
+| 1152 x 870
+|-
+! align="left" | Audio:
+| Uscita audio a 8 bit stereo <br /> Ingresso audio a 8 bit
+|-
+! valign="top" align="left" | Porte:
+| 1 ADB <br /> 2 Seriali <br /> SCSI
+|-
+! align="left" | Comunicazione:
+| Ethernet 10Mbit
+|-
+! align="left" | Lettori:
+| 1.44 KB CD-ROM 2X
+|-
+! align="left" | Hard Drive:
+| 1 GB
+|-
+! align="left" | Consumo:
+| 303 Watt
+|-
+! align="left" | Peso:
+| 16.7 kg
+|-
+! valign="top" align="left" | Dimensione:
+| A L P 47.2 x 22.6 x 52.3 cm
+|- 
+! align="left" | Sistema operativo:
+| A/UX 3.0.1
+|-
+! align="left" | ROM:
+| 1 MB
+|-
+|}
+</div>
+</div>
+
+PowerPC 601
+<div class=NavFrame style="width:300px; margin:10px; text-align:left;">
+<div class=NavHead>Workgroup Server 6150</div>
+<div class=NavContent>
+{| border="1" cellpadding="2" cellspacing="0" align="right"
+|-
+! align="left" | Presentazione:
+| Aprile, 1994
+|-
+! align="left" | Dismissione:
+| Aprile, 1996
+|-
+! align="left" | Costo:
+| $ ND
+|-
+! align="left" | CPU:
+| PowerPC 601 PowerPC 601 Plus
+|-
+! align="left" | Frequenza CPU:
+| 60/66 MHz
+|-
+! align="left" | FPU:
+| Integrata
+|-
+! align="left" | L1 Cache:
+| 32 KB
+|-
+! align="left" | L2 Cache:
+| 256 KB
+|-
+! align="left" | L3 Cache:
+|
+|-
+! align="left" | Bus:
+| 30/33 MHz
+|-
+! align="left" | Slot:
+| 1 PDS o NuBus
+|-
+! valign="top" align="left" | RAM:
+| 8 MB
+|-
+! align="left" | Memoria:
+| Max 72 MB, 2 slot RAM da 80 ns
+|-
+! align="left" | VRAM:
+| 1 MB DRAM
+|-
+! valign="top" align="left" | Video:
+| 832 x 624
+|-
+! align="left" | Audio:
+| Uscita audio a 16 bit stereo <br /> Ingresso audio a 16 bit stero
+|-
+! valign="top" align="left" | Porte:
+| 1 ADB <br /> 2 Seriali <br /> SCSI
+|-
+! align="left" | Comunicazione:
+| Ethernet 10Mbit
+|-
+! align="left" | Lettori:
+| 1.44 KB CD-ROM 2X/4X
+|-
+! align="left" | Hard Drive:
+| 0.5/1.2 GB
+|-
+! align="left" | Consumo:
+| 210 Watt
+|-
+! align="left" | Peso:
+| 6.3 kg
+|-
+! valign="top" align="left" | Dimensione:
+| A L P 8.6 x 41.4 x 39.6 cm
+|- 
+! align="left" | Sistema operativo:
+| System 7.1.2 / 7.5.1
+|-
+! align="left" | ROM:
+| 4 MB
+|-
+|}
+</div>
+</div>
+
+<div class=NavFrame style="width:300px; margin:10px; text-align:left;">
+<div class=NavHead>Workgroup Server 8150</div>
+<div class=NavContent>
+{| border="1" cellpadding="2" cellspacing="0" align="right"
+|-
+! align="left" | Presentazione:
+| Aprile, 1994
+|-
+! align="left" | Dismissione:
+| Aprile, 1996
+|-
+! align="left" | Costo:
+| $ ND
+|-
+! align="left" | CPU:
+| PowerPC 601 PowerPC 601 Plus
+|-
+! align="left" | Frequenza CPU:
+| 80/110 MHz
+|-
+! align="left" | FPU:
+| Integrata
+|-
+! align="left" | L1 Cache:
+| 32 KB
+|-
+! align="left" | L2 Cache:
+| 256 KB
+|-
+! align="left" | L3 Cache:
+|
+|-
+! align="left" | Bus:
+| 40/36.7 MHz
+|-
+! align="left" | Slot:
+| 1 PDS, 3 NuBus
+|-
+! valign="top" align="left" | RAM:
+| 8 MB
+|-
+! align="left" | Memoria:
+| Max 264 MB, 8 slot RAM da 80 ns
+|-
+! align="left" | VRAM:
+| 1 MB DRAM
+|-
+! valign="top" align="left" | Video:
+| 832 x 624
+|-
+! align="left" | Audio:
+| Uscita audio a 16 bit stereo <br /> Ingresso audio a 16 bit stero
+|-
+! valign="top" align="left" | Porte:
+| 1 ADB <br /> 2 Seriali <br /> SCSI
+|-
+! align="left" | Comunicazione:
+| Ethernet 10Mbit
+|-
+! align="left" | Lettori:
+| 1.44 KB CD-ROM 2X/4X
+|-
+! align="left" | Hard Drive:
+| 0.5/1 GB
+|-
+! align="left" | Consumo:
+| 200 Watt
+|-
+! align="left" | Peso:
+| 11.5 kg
+|-
+! valign="top" align="left" | Dimensione:
+| A L P 35.5 x 19.5 x 40 cm
+|- 
+! align="left" | Sistema operativo:
+| System 7.1.2 / 7.5.1
+|-
+! align="left" | ROM:
+| 4 MB
+|-
+|}
+</div>
+</div>
+
+<div class=NavFrame style="width:300px; margin:10px; text-align:left;">
+<div class=NavHead>Workgroup Server 9150</div>
+<div class=NavContent>
+{| border="1" cellpadding="2" cellspacing="0" align="right"
+|-
+! align="left" | Presentazione:
+| Aprile, 1994
+|-
+! align="left" | Dismissione:
+| Maggio, 1996
+|-
+! align="left" | Costo:
+| $ ND
+|-
+! align="left" | CPU:
+| PowerPC 601 PowerPC 601 Plus
+|-
+! align="left" | Frequenza CPU:
+| 80/120 MHz
+|-
+! align="left" | FPU:
+| Integrata
+|-
+! align="left" | L1 Cache:
+| 32 KB
+|-
+! align="left" | L2 Cache:
+| 512/1024 KB
+|-
+! align="left" | L3 Cache:
+|
+|-
+! align="left" | Bus:
+| 40 MHz
+|-
+! align="left" | Slot:
+| 1 PDS, 4 NuBus
+|-
+! valign="top" align="left" | RAM:
+| 8 MB
+|-
+! align="left" | Memoria:
+| Max 264 MB, 8 slot RAM da 80 ns
+|-
+! align="left" | VRAM:
+| 1 MB DRAM
+|-
+! valign="top" align="left" | Video:
+| 832 x 624
+|-
+! align="left" | Audio:
+| Uscita audio a 16 bit stereo <br /> Ingresso audio a 16 bit stero
+|-
+! valign="top" align="left" | Porte:
+| 1 ADB <br /> 2 Seriali <br /> SCSI
+|-
+! align="left" | Comunicazione:
+| Ethernet 10Mbit
+|-
+! align="left" | Lettori:
+| 1.44 KB CD-ROM 2X/4X
+|-
+! align="left" | Hard Drive:
+| 2 GB
+|-
+! align="left" | Consumo:
+| 303 Watt
+|-
+! align="left" | Peso:
+| 16.7 kg
+|-
+! valign="top" align="left" | Dimensione:
+| A L P 41.2 x 22.6 x 52.3 cm
+|- 
+! align="left" | Sistema operativo:
+| System 7.1.2 / 7.5.1
+|-
+! align="left" | ROM:
+| 4 MB
+|-
+|}
+</div>
+</div>

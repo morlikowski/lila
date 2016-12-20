@@ -1,0 +1,51 @@
+thumb|Альтиметр
+
+'''Альтиметр''' (от  высоко) — пилотажно-навигационный прибор, указывающий высоту полета. По принципу устройства альтиметры делятся на барометрические и радиотехнические (иначе художественной литературе и в СМИ, в русскоязычной технической терминологии принят стандартизованный термин «'''высотомер'''». В последнее время также получил некоторое распространение жаргонный вариант названия высотомера «альтметр».
+
+== Барометрический высотомер ==
+Принцип действия барометрического высотомера основан на измерении давления атмосферы с высотой. Известно, что с увеличением высоты уменьшается и текущее атмосферное давление. Данный принцип положен в основу прибора, который на самом деле измеряет не '''высоту''', а '''давление''' воздуха. Конструктивно прибор состоит из запаянной коробочки с мембраной, изменение положения которой механически связано со стрелками, перемещающимися вокруг шкалы, проградуированной в цифрах. Как правило, авиационный прибор имеет две стрелки, подобных обычным часам - только "циферблат" разделен не на 12, а на 10 секторов. Каждый сектор для большой стрелки означает 100 м, а для маленькой - 1000 м. Примечательно, что данная конструкция стала де-факто международным стандартом, и применяется на всех воздушных судах. точность измерения барометрических высотомеров (допустимая погрешность измерений) определяется действующими стандартами, однако лежит, как правило, в пределах до 10 м.
+Высота полета воздушного судна над земной (либо водной) поверхностью вычисляется как разность давлений между точкой нахождения прибора и давлением воздуха на поверхности, высоту до которой необходимо измерить. Атмосферное давление на поверхности (как правило, в районе аэродромов посадки, горных массивов, либо крупных опасных препятствий) сообщается экипажу наземными службами. Для правильного отображения высоты полета на приборе необходимо ''вручную'' установить величину атмосферного давления на земле, полученного, как правило, по радиосвязи. Неправильная установка экипажем такого давления при полетах с нулевой видимостью не раз становилась причиной авиакатастроф.
+Для полетов по воздушным трассам в авиации используется понятие "эшелон полета", то есть высота, измерянная до изобары (условной линии постоянного давления) 760 мм рт.ст. Установка на всех воздушных линиях всеми без исключения воздушными судами одинакового давления на барометрических высотомерах создает единую для всех систему отсчета, позволяющую осуществлять безопасное воздушное движение.
+Снижение воздушного судна на посадку без достоверной информации об атмосферном давлении в районе аэродрома '''категорически запрещается'''.
+
+== Радиотехнический высотомер ==
+Принцип действия основан на высокоточном измерении ''отрезка времени'' между посылкой и приёмом электромагнитных волн, отраженных от поверхности, до которой измеряется высота (земля либо вода). От барометрических высотомеров отличается более высокой точностью, и независимостью измерений от наличия информации о давлении воздуха на поверхности, до которой измеряется высота. На практике радиовысотомеры используются на малых высотах, вблизи земной (либо водной) поверхности, потому как применение данной технологии с больших высот требует мощного источника излучений, а также аппаратуры, способной эффективно противостоять помехам. 
+Конструктивно прибор состоит из СВЧ радиопередатчика, направленная антенна которого расположена "на брюхе" воздушного судна, приемника отраженного сигнала, блока счисления с таймером (который, собственно, и вычисляет высоту полета), а также - монитора на приборной доске экипажа, на который передаются данные о текущей высоте.
+К недостаткам прибора можно отнести выраженную направленность измерений (направление луча передатчика, направленного перпендикулярно вниз). По этой причине применение радиовысотомеров эффективно только в равнинной местности, и практически бесполезно в горных и сильно пересеченных районах. Кроме того, вызывает вопросы экологичность подобных измерений, так как для обеспечения требуемой точности необходимо применять коротковолновые мощные передатчики, несущие явную опасность для биосферы.
+
+== Спутниковый высотомер ==
+Для определения высоты используют также GPS приёмники, получившие в современном мире большое распространение.По причине своей универсальности, относительной дешевизны и практической доступности такие приборы находят все большую сферу применения - как в технике, так и в быту. 
+Принцип действия основан на одновременном измерении направления на несколько (как правило - от четырех до шести) вещающих спутников, находящихся на геостационарных орбитах. На основании элементарных математических исчислений прибор определяет трехмерную точку в пространстве - координаты X,Y (точка на поверхности Земли), а также Z - высоту относительно уровня моря.
+С точки зрения истинности отображения координат имеет преимущество как перед барометрическими, так и перед радиотехническими высотомерами, так как не зависит ни от атмосферного давления, ни от измерения расстояния до физического рельефа местности.
+
+Впервые система была создана в США с военными целями, однако впоследствии была открыта для массового использования, и получила широкое распространение во всех отраслях человеческой деятельности, требующей высокоточного ориентирования в пространстве. Точность измерений при необходимости может достигать порядка нескольки сантиметров, однако на практике такие измерения доступны по специальному соглашению с владельцем Сети, с применением дорогостоящего оборудования, и по этой причине в быту не применяются. Точность измерения бытовых приборов GPS - порядка 10 метров, что вполне достаточно для большинства задач ориентирования.
+
+right|thumb|Diagram showing the face of the "three-pointer" sensitive aircraft altimeter displaying an [[altitude of 10,180 feet.]]
+An '''altimeter''' is an instrument used to measure the altitude of an object above a fixed level. The measurement of altitude is called '''altimetry''', which is related to the term bathymetry, the measurement of depth underwater. 
+
+==Aircraft Instrumentation==
+=== Pressure altimeter ===
+A pressure altimeter (also called barometric altimeter) is the altimeter found in most aneroid static port outside the aircraft. Air pressure decreases with an increase of altitude&mdash;approximately 100 millibars per 800 feet near sea level. 
+
+The altimeter is calibrated to show the pressure directly as an altitude above aneroid barometer where the needle made less than one revolution around the face from zero to full scale. Modern aircraft use a "sensitive altimeter" which has a primary needle that makes multiple revolutions, and one or more secondary needles that show the number of revolutions, similar to a clock face.  In other words, each needle points to a different digit of the current altitude measurement.
+ 
+thumb|right|Diagram showing the internal components of the sensitive aircraft altimeter.
+
+On a sensitive altimeter, the sea level reference pressure can be adjusted by a setting knob.  The reference pressure, in inches of mercury in US and millibars (or hectopascals) elsewhere, is displayed in the ''Kollsman Window'', visible at the right side of the aircraft altimeter shown here.  This is necessary, since sea level reference atmospheric pressure varies with temperature and the movement of pressure systems in the atmosphere. 
+
+In airfield is called the QFE of the field. An altimeter cannot, however, be adjusted for variations in air temperature. Differences in temperature from the ISA model will, therefore, cause errors in indicated altitude.
+
+right|thumb|Kollsman-type barometric aircraft altimeter as used in North America displaying an [[altitude of 80 feet.]]
+
+The calibration formula for an altimeter, up to , can be written as:
+
+:<math>h = \frac{(1-(P/P_{ref})^{0.19026}) \times 288.15}{0.00198122}</math>
+
+where ''h'' is the indicated altitude in feet, <math>P</math> is the static pressure and <math>P_{ref}</math> is the reference pressure (use same units for both). This is derived from the barometric formula using the scale height for the troposphere.
+
+=== Radar altimeter ===
+
+A radar altimeter measures altitude more directly, using the time taken for a radio signal to reflect from the surface back to the aircraft. The radar altimeter is used to measure height above ground level during landing in commercial and military aircraft. Radar altimeters are also a component of terrain avoidance warning systems, warning the pilot if the aircraft is flying too low, or if there is rising terrain ahead. Radar altimeter technology is also used in terrain-following radar allowing fighter aircraft to fly at very low altitude.
+
+=== Global Positioning System ===
+augmentation.

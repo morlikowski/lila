@@ -1,0 +1,402 @@
+In factorization of a rectangular real or complex matrix, with several applications in pseudoinverse, least squares fitting of data, matrix approximation, and determining the rank, range and null space of a matrix.
+
+== Statement of the theorem ==
+Suppose ''M'' is an ''m''-by-''n'' matrix whose entries come from the field ''K'', which is either the field of real numbers  or the field of complex numbers. Then there exists a factorization of the form
+:<math>M = U\Sigma V^*, \,\!</math>
+where ''U'' is an ''m''-by-''m'' diagonal (as defined for a rectangular matrix) and zeros off the diagonal, and ''V*'' denotes the conjugate transpose of ''V'', an ''n''-by-''n'' unitary matrix over ''K''. Such a factorization is called a ''singular-value decomposition'' of ''M''.
+
+* The matrix ''V'' thus contains a set of orthonormal "input" or "analysing" basis vector directions for ''M'' 
+* The matrix ''U'' contains a set of orthonormal "output" basis vector directions for ''M'' 
+* The matrix ''Σ'' contains the singular values, which can be thought of as scalar "gain controls" by which each corresponding input is multiplied to give a corresponding output.
+
+A common convention is to order the values Σ<sub>''i'',''i''</sub> in non-increasing fashion. In this case, the diagonal matrix Σ is uniquely determined by ''M'' (though the matrices ''U'' and ''V'' are not).
+
+Certain programming languages, such as R, use a notation wherein — for ''p'' = min(''m'',''n'') — ''U'' is ''m''-by-''p'', Σ is ''p''-by-''p'', and ''V'' is ''n''-by-''p''.
+
+== Example ==
+Consider the matrix
+
+:<math>\begin{bmatrix}
+1 & 0 & 0 & 0 & 2\\
+0 & 0 & 3 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 4 & 0 & 0 & 0\end{bmatrix}.
+</math>
+
+A singular value decomposition of this matrix is given by
+
+:<math>
+U = \begin{bmatrix}
+0 & 0 & 1 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 0 & -1\\
+1 & 0 & 0 & 0\end{bmatrix} ,
+
+\Sigma = \begin{bmatrix}
+4 & 0 & 0 & 0 & 0\\
+0 & 3 & 0 & 0 & 0\\
+0 & 0 & \sqrt{5} & 0 & 0\\
+0 & 0 & 0 & 0 & 0\end{bmatrix} ,
+
+V^* = \begin{bmatrix}
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0\\
+\sqrt{0.2} & 0 & 0 & 0 & \sqrt{0.8}\\
+0 & 0 & 0 & 1 & 0\\
+-\sqrt{0.8} & 0 & 0 & 0 & \sqrt{0.2}\end{bmatrix}
+</math>
+
+that is
+
+:<math>\begin{bmatrix}
+1 & 0 & 0 & 0 & 2\\
+0 & 0 & 3 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 4 & 0 & 0 & 0\end{bmatrix} 
+
+=
+
+\begin{bmatrix}
+0 & 0 & 1 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 0 & -1\\
+1 & 0 & 0 & 0\end{bmatrix}
+
+\cdot
+
+\begin{bmatrix}
+4 & 0 & 0 & 0 & 0\\
+0 & 3 & 0 & 0 & 0\\
+0 & 0 & \sqrt{5} & 0 & 0\\
+0 & 0 & 0 & 0 & 0\end{bmatrix}
+
+\cdot
+
+\begin{bmatrix}
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0\\
+\sqrt{0.2} & 0 & 0 & 0 & \sqrt{0.8}\\
+0 & 0 & 0 & 1 & 0\\
+-\sqrt{0.8} & 0 & 0 & 0 & \sqrt{0.2}\end{bmatrix}.
+</math>
+
+Notice above that <math>\Sigma</math> has non-zero values only in its diagonal.  Furthermore, as you can see below, multiplying the matrices <math>U</math> or <math>V^*</math> by their respective transpose yields an orthogonal.
+
+:<math>
+\begin{bmatrix}
+0 & 0 & 1 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 0 & -1\\
+1 & 0 & 0 & 0\end{bmatrix}
+
+\cdot
+
+\begin{bmatrix}
+0 & 0 & 0 & 1\\
+0 & 1 & 0 & 0\\
+1 & 0 & 0 & 0\\
+0 & 0 & -1 & 0\end{bmatrix}
+
+=
+
+\begin{bmatrix}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+0 & 0 & 0 & 1\end{bmatrix}
+</math>
+
+and
+
+:<math>
+\begin{bmatrix}
+0 & 0 & \sqrt{0.2} & 0 & -\sqrt{0.8}\\
+1 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 0 & 1 & 0\\
+0 & 0 & \sqrt{0.8} & 0 & \sqrt{0.2}
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0\\
+\sqrt{0.2} & 0 & 0 & 0 & \sqrt{0.8}\\
+0 & 0 & 0 & 1 & 0\\
+-\sqrt{0.8} & 0 & 0 & 0 & \sqrt{0.2}\end{bmatrix}
+=
+\begin{bmatrix}
+1 & 0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0\\
+0 & 0 & 0 & 1 & 0\\
+0 & 0 & 0 & 0 & 1\end{bmatrix}.
+</math>
+
+It should also be noted that this singular value decomposition is not unique.  For example, choosing <math>V</math> such that
+
+:<math>
+V^* = \begin{bmatrix}
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0\\
+\sqrt{0.2} & 0 & 0 & 0 & \sqrt{0.8}\\
+\sqrt{0.4} & 0 & 0 & \sqrt{0.5} & -\sqrt{0.1}\\
+-\sqrt{0.4} & 0 & 0 & \sqrt{0.5} & \sqrt{0.1} \end{bmatrix}
+</math>
+
+is also a valid singular value decomposition
+
+== Singular values, singular vectors, and their relation to the SVD ==
+A non-negative real number σ is a '''singular value''' for ''M'' if and only if there exist unit-length vectors ''u'' in ''K''<sup>''m''</sup> and ''v'' in ''K''<sup>''n''</sup> such that
+:<math>Mv = \sigma u \,\mbox{ and } M^{*} u = \sigma v. \,\!</math>
+The vectors ''u'' and ''v'' are called '''left-singular''' and '''right-singular vectors''' for σ, respectively. 
+
+In any singular value decomposition
+:<math>M = U\Sigma V^{*} \,\!</math>
+the diagonal entries of Σ are necessarily equal to the singular values of ''M''. The columns of ''U'' and ''V'' are, respectively, left- and right-singular vectors for the corresponding singular values.  Consequently, the above theorem states that
+
+* An ''m'' &times; ''n'' matrix ''M'' has at least one and at most ''p''&nbsp;= min(''m'',''n'') distinct singular values.
+
+* It is always possible to find a unitary basis for ''K''<sup>''m''</sup> consisting of left-singular vectors of ''M''.
+
+* It is always possible to find a unitary basis for ''K''<sup>''n''</sup> consisting of right-singular vectors of ''M''.
+
+A singular value for which we can find two left (or right) singular vectors that are not linearly independent is called ''degenerate''.
+
+Non-degenerate singular values always have unique left and right singular vectors, up to multiplication by a unit phase factor ''e''<sup>'''i'''φ</sup> (for the real case up to sign).  Consequently, if all singular values of ''M'' are non-degenerate and non-zero, then its singular value decomposition is unique, up to multiplication of a column of ''U'' by a unit phase factor and simultaneous multiplication of the corresponding column of ''V'' by the same unit phase factor.
+
+Degenerate singular values, by definition, have non-unique singular vectors. Furthermore, if ''u''<sub>1</sub> and ''u''<sub>2</sub> are two left-singular vectors which both correspond to the singular value σ, then any normalized linear combination of the two vectors is also a left singular vector corresponding to the singular value σ.  The similar statement is true for right singular vectors.  Consequently, if ''M'' has degenerate singular values, then its singular value decomposition is not unique.
+
+==Applications of the SVD==
+===Pseudoinverse===
+
+The singular value decomposition can be used for computing the pseudoinverse of a matrix. Indeed, the pseudoinverse of the matrix ''M'' with singular value decomposition <math> M = U\Sigma V^*</math> is
+:<math> M^+ = V \Sigma^+ U^*, \,</math>
+where Σ<sup>+</sup> is the transpose of Σ with every nonzero entry replaced by its reciprocal. The pseudoinverse is one way to solve linear least squares problems.
+
+===Solving homogeneous linear equations===
+
+A set of homogeneous linear equations can be written as <math> \mathbf{A} \, \mathbf{x} = \mathbf{0} </math> for a matrix <math> \mathbf{A} </math> and vector <math> \mathbf{x} </math>.  A typical situation is that<math> \mathbf{A} </math> is known and a non-zero <math> \mathbf{x} </math> is to be determined which satisfies the equation.  This <math> \mathbf{x} </math> can be characterized as a right singular vector corresponding to a singular value of <math> \mathbf{A} </math> that is zero.  This observation means that if <math> \mathbf{A} </math> has no vanishing singular value, the equation has no non-zero <math> \mathbf{x} </math> as a solution.  It also means that if there are several vanishing singular values, any linear combination of the corresponding right singular vectors is a valid solution.
+
+===Total least squares minimization===
+
+A total least squares problem refers to determining the vector <math> \mathbf{x} </math> which minimizes the 2-norm of a vector <math> \mathbf{A} \, \mathbf{x} </math> under the constraint <math> \| \mathbf{x} \| = 1 </math>.  The solution turns out to be the right singular vector of <math> \mathbf{A} </math> corresponding to the smallest singular value.
+
+===Range, null space and rank===
+
+Another application of the SVD is that it provides an explicit representation of the range and rank of ''M'' equals the number of non-zero singular values which is the same as the number of non-zero elements in <math>\Sigma</math>.
+
+In numerical linear algebra the singular values can be used to determine the ''effective rank'' of a matrix, as rounding error may lead to small but non-zero singular values in a rank deficient matrix.
+
+===Matrix approximation===
+
+Some practical applications need to solve the problem of approximating a matrix <math>M</math> with another matrix <math>\tilde{M}</math> which has a specific rank <math>r</math>.  In the case that the approximation is based on minimizing the Frobenius norm of the difference between <math>M</math> and <math>\tilde{M}</math> under the constraint that <math>\mbox{rank}(\tilde{M}) = r</math> it turns out that the solution is given by the SVD of <math>M</math>, namely
+
+:<math>
+\tilde{M} = U \tilde{\Sigma} V^*
+</math>
+
+where <math>\tilde{\Sigma}</math> is the same matrix as <math>\Sigma</math> except that it contains only the <math>r</math> largest singular values (the other singular values are replaced by zero).
+
+'''Quick proof:''' We hope to minimize <math>\|M - \tilde M\|_F</math> subject to <math>\mbox{rank}(\tilde{M}) = r</math>.
+
+Suppose the SVD of <math> M = U \Sigma V^* </math>. Since the Frobenius norm is unitarily invariant, we have an equivalent statement: 
+:<math>\min_{\tilde M} \|\Sigma - U^* \tilde M V\|_F</math>
+Note that since <math>\Sigma</math> is diagonal, <math>U^* \tilde M V</math> should be diagonal in order to minimize the Frobenius norm. Remember that the Frobenius norm is the square-root of the summation of the squared modulus of all entries.
+This implies that <math>U</math> and <math>V</math> are also singular matrices of <math>\tilde M</math>. Thus we can assume that <math>\tilde M</math> to minimize the above statement has the form:
+:<math>{\tilde M} = U S V^*,</math>
+where <math>S</math> is diagonal. The diagonal entries <math>s_i</math> of <math>S</math> are not necessarily ordered as in SVD.
+:<math>
+\min_{\tilde M} \|\Sigma - S\|_F \equiv  \min_{s_i} \sqrt {\sum_{i=1}^{n} (\sigma_i - s_i)^2 }.
+</math>
+From the rank constraint, i.e. <math>S</math> has <math>r</math> non-zero diagonal entries, the minimum of the above statement is obtained as follows:
+:<math>
+\min_{s_i} \sqrt {\sum_{i=1}^{r} (\sigma_i - s_i)^2 + \sum_{i=r+1}^{n} \sigma_i^2 } 
+= \sqrt {\sum_{i=r+1}^{n} \sigma_i^2 }.
+</math>
+Therefore, <math>\tilde M</math> of rank <math>r</math> is the best approximation of <math>M</math> in the Frobenius norm sense when <math>\sigma_i = s_i \quad (i=1,\cdots,r)</math> and the corresponding singular vectors are same as those of <math>M</math>.
+
+Another example of matrix approximation by SVD is the solution to the orthogonal Procrustes problem of approximating any given matrix by an orthogonal matrix.
+
+===Separable models===
+
+The SVD can be thought of as decomposing a matrix into a weighted, ordered sum of separable matrices. By separable, we mean that a matrix <math>\mathbf{A}</math> can be written as an outer product of two vectors <math>\mathbf{A}= \mathbf{u} \otimes \mathbf{v}</math>, or, in coordinates, <math>\mathbf{A(i,j)}= \mathbf{u}(i) \mathbf{v}(j)</math>. Specifically, the matrix M can be decomposed as:
+
+<math>\mathbf{M} = \sum_i \mathbf{A}_i = \sum_i \sigma_i U_i \otimes V_i ^ \dagger</math>
+
+Here <math>U_i</math> and <math>V_i</math> are the i<sup>th</sup> columns of the corresponding SVD matrices, <math>\sigma_i</math> are the ordered singular values, and each <math>\mathbf{A}_i</math> is separable. The SVD can be used to find the decomposition of an image processing filter into separable horizontal and vertical filters <ref>http://blogs.mathworks.com/steve/2006/11/28/separable-convolution-part-2/</ref>.
+
+Separable models often arise in biological systems, and the SVD decomposition is useful to analyze such systems. For example, some visual area V1 simple cells receptive fields can be well described <ref>DeAngelis et al., Receptive-field dynamics in the central visual pathways, Trends Neurosci. 1995, </ref> by a reverse correlation, one can rearrange the two spatial dimensions into one dimension, thus yielding a two dimensional filter (space, time) which can be decomposed through SVD. The first column of U in the SVD decomposition is then a Gabor while the first column of V represents the time modulation (or vice-versa). One may then define an index of separability, <math>\alpha = \sigma_1^2 / \sum_i \sigma_i^2</math>, which is the fraction of the power in the matrix M which is accounted for by the first separable matrix in the decomposition <ref>Depireux et al., Spectro-temporal response field characterization with dynamic ripples in ferret primary auditory cortex, J. Neurophysiol. 2001, </ref>.
+
+===Other examples===
+
+The SVD is also applied extensively to the study of linear Tikhonov. It is widely used in statistics where it is related to principal component analysis, and in signal processing and pattern recognition. It is also used in output-only modal analysis, where the non-scaled mode shapes can be determined from the singular vectors. Yet another usage is latent semantic indexing in natural language text processing.
+
+One application of SVD to rather large matrices is in Lanczos methods are used to estimate the most linearly quickly growing few perturbations to the central numerical weather prediction over a given initial forward time period -- i.e. the singular vectors corresponding to the largest singular values of the linearised propagator for the global weather over that time interval. The output singular vectors in this case are entire weather systems!  These perturbations are then run through the full nonlinear model to generate an ensemble forecast, giving a handle on some of the uncertainty that should be allowed for around the current central prediction.
+
+== Relation to eigenvalue decomposition ==
+
+The singular value decomposition is very general in the sense that it can be applied to any ''m'' &times; ''n'' matrix.  The eigenvalue decomposition, on the other hand, can only be applied to certain classes of square matrices.  Nevertheless, the two decompositions are related.  
+
+Given an SVD of ''M'', as described above, the following two relations hold:
+
+:<math>
+M^{*} M = V \Sigma^{*} U^{*}\, U \Sigma V^{*} =
+V (\Sigma^{*} \Sigma) V^{*}\,
+</math>
+
+:<math>
+M M^{*} = U \Sigma V^{*} \, V \Sigma^{*} U^{*} =
+U (\Sigma \Sigma^{*}) U^{*}\,
+</math>
+
+The right hand sides of these relations describe the eigenvalue decompositions of the left hand sides.  Consequently, the squares of the non-zero singular values of ''M'' are equal to the non-zero eigenvalues of either <math>M^{*}M</math> or <math>MM^{*}</math>.  Furthermore, the columns of ''U'' (left singular vectors) are eigenvectors of <math>MM^{*}</math> and the columns of ''V'' (right singular vectors) are eigenvectors of <math>M^{*}M</math>.
+
+In the special case that ''M'' is a spectral theorem says that it can be unitarily diagonalized using a basis of Hermitian positive semi-definite, the decomposition <math>M=UDU^*</math> is also a singular value decomposition. However, the eigenvalue decomposition and the singular value decomposition differ for all other matrices ''M'': the eigenvalue decomposition is <math>M=UDU^{-1}</math> where ''U'' is not necessarily unitary and ''D'' is not necessarily positive semi-definite, while the SVD is <math>M=U\Sigma V^*</math> where ''Σ'' is a diagonal positive semi-definite, and ''U'' and ''V'' are unitary matrices that are not necessarily related except through the matrix ''M''.
+
+== Existence ==
+
+An eigenvalue ''λ'' of a matrix is characterized by the algebraic relation ''M u'' = ''λ u''. When ''M'' is Hermitian, a variational characterization is also available. Let ''M'' be a real ''n'' &times; ''n'' symmetric matrix. Define ''f'' :'''R'''<sup>''n''</sup> → '''R''' by ''f''(''x'') = ''x<sup>T</sup> M x''. This continuous function attains a maximum at some ''u'' when restricted to the closed unit sphere {||''x''|| ≤ 1}. By the Lagrange multipliers theorem, ''u'' necessarily satisfies
+
+:<math>\nabla f = \nabla \; x^T M x = \lambda \cdot \nabla \; x^T x.</math> 
+
+A short calculation shows the above leads to ''M u'' = ''λ u'' (symmetry of ''M'' is needed here). Therefore ''λ'' is the largest eigenvalue of ''M''. The same calculation performed on the orthogonal complement of ''u'' gives the next largest eigenvalue and so on. The complex Hermitian case is similar; there ''f''(''x'') = ''x* M x'' is a real-valued function of 2''n'' real variables.
+
+Singular values are similar in that they can be described algebraically or from variational principles. Although, unlike the eigenvalue case, Hermiticity, or symmetry, of ''M'' is no longer required.
+
+This section gives these two arguments for existence of singular value decomposition.
+
+=== Based on the spectral theorem ===
+
+Let ''M'' be an ''m''-by-''n'' matrix with complex entries. ''M*M'' is positive semidefinite, therefore Hermitian. By the spectral theorem, there exists a unitary ''n''-by-''n'' matrix ''V'' such that
+
+:<math>V^* M^* M V = \begin{bmatrix} D & 0 \\ 0 & 0\end{bmatrix}</math>
+
+where ''D'' is diagonal and positive definite. Partition ''V'' appropriately so we can write
+
+:<math>\begin{bmatrix} V_1 ^* \\ V_2 ^*\end{bmatrix} M^* M \begin{bmatrix} V_1 & V_2 \end{bmatrix}
+= \begin{bmatrix} V_1 ^* M^* M V_1 & V_1 ^* M^* M V_2 \\ V_2 ^* M^* M V_1 & V_2 ^* M^* M V_2  \end{bmatrix}
+= \begin{bmatrix} D & 0 \\ 0 & 0\end{bmatrix}.
+</math>
+
+Therefore ''V*''<sub>1</sub>''M*MV''<sub>1</sub> = ''D'', and ''MV''<sub>2</sub> = 0. Define
+
+:<math>U_1 = M V_1 D^{-1/2}.\!</math>
+
+Then
+
+:<math>U_1 D^{1/2} V_1^* = M V_1 D^{-1/2} D^{1/2} V_1^* = M . \,</math>
+
+We see that this is almost the desired result, except that ''U''<sub>1</sub> and ''V''<sub>1</sub> are not unitary in general. ''U''<sub>1</sub> is a partial isometry (''U''<sub>1</sub>''U*''<sub>1</sub>  = = ''I'' ) while ''V''<sub>1</sub> is an isometry (''V*''<sub>1</sub>''V''<sub>1</sub> = ''I'' ). To finish the argument, one simply has to "fill out" these matrices to obtain unitaries. ''V''<sub>2</sub> already does this for ''V''<sub>1</sub>. Similarly, one can choose ''U''<sub>2</sub> such that 
+
+:<math>U = \begin{bmatrix} U_1 & U_2 \end{bmatrix}</math>
+
+is unitary. 
+
+Define
+:<math>
+\Sigma =  \begin{bmatrix} \begin{bmatrix} D^{1/2} & 0 \\ 0 & 0\end{bmatrix} 
+\\ 0
+\end{bmatrix}
+</math>
+where the extra 0 rows are added one row for each column of ''U''<sub>2</sub>. Then
+
+In rango.
+
+== Definizione==
+Sia <math>A\in\mathbb{C}^{m\times n}</math> allora esiste una fattorizzazione della stessa nella forma:
+
+<math>A = USV^*, \,\!</math>
+dove:
+* ''U'' è una matrice unitaria di dimensioni <math>m\times m</math>
+* ''S'' è una matrice di dimensioni <math>m\times n</math>
+* <math>V^*</math> è la trasposta coniugata di una matrice unitaria di dimensioni <math>n\times n</math>
+Gli elementi della diagonale di ''S'' sono detti valori singolari di ''A'' e hanno la proprietà di essere tutti quanti positivi,
+<math> s_{i} \ge 0 \quad \forall i</math>,  e <math> s_{1}\geq s_{2}\geq \ldots \geq s_{n}</math>
+
+Si può dimostrare che il rango della matrice ''A'' è uguale a quello della matrice ''S''. In particolare si osserva che il rango di ''S'' dipende dai valori singolari ed è proprio uguale al numero di valori singolari diversi da zero.
+
+Supponiamo di avere una matrice ''A'' con rango <math>rk(A)= r</math>, allora si ha che  <math> s_{1}\geq s_{2}\geq \ldots \geq s_{r} > s_{r+1} = \ldots = s_{n} = 0</math>  e la decomposizione SVD di ''A''  è definita come:
+
+:<math>
+    \mathbf{A} =
+        \left( \begin{array}{cccc}
+            a_{11} & a_{12} & \ldots & a_{1n}\\
+            a_{21} & a_{22} & \ldots & a_{2n}\\
+            \vdots & \vdots & \ddots & \vdots \\
+            a_{m1} & a_{m2} & \ldots & a_{mn}\\
+        \end{array} \right)
+=
+\underbrace{ \left( \begin{array}{cccc}
+            u_{11} & u_{12} & \ldots & u_{1r}\\
+            u_{21} & u_{22} & \ldots & u_{2r}\\
+            \vdots & \vdots & \ddots & \vdots \\
+            u_{m1} & u_{m2} & \ldots & u_{mr}\\
+        \end{array} \right) }_{U}
+        \cdot
+        \underbrace{ \left( \begin{array}{cccc}
+            s_{1} & 0 & \ldots & 0\\
+            0 & s_{2} & \ldots & 0\\
+            \vdots & \vdots & \ddots & \vdots \\
+            0 & 0 & \ldots & s_{r}\\
+        \end{array} \right) }_{S}
+        \cdot
+        \underbrace{ \left( \begin{array}{cccc}
+            v_{11} & v_{12} & \ldots & v_{1n}\\
+            \bar{v_{21}} & v_{22} & \ldots & v_{2n}\\
+            \vdots & \vdots & \ddots & \vdots \\
+            \bar{v_{r1}} & \bar{v_{r2}} & \ldots & v_{rn}\\
+        \end{array} \right) }_{V^{*}}
+</math>
+
+dove <math>U</math>  è una matrice ''singolare sinistra'' ortogonale, <math>V^{*}</math>  è la matrice trasposta coniugata  di una matrice ''singolare destra'' ortogonale e <math>S</math>  è una matrice ''singolare'' diagonale di ordine <math>r</math>  (cioè con <math> r</math>  valori diversi da zero).
+
+Il rank della matrice <math> A</math>  e di conseguenza della matrice singolare <math> S</math>  forniscono la dimensione effettiva delle tre matrici <math> U_{[m \times r]}, S_{[r \times r]}, V^{*}_{[r \times n]}</math> .
+
+Le <math>r</math> colonne della matrice <math>U</math> e le <math>r</math> righe della matrice <math>V^{*}</math> rappresentano gli autovettori ortogonali associati agli <math>r</math>  autovalori rispettivamente di <math>A \cdot A^{T}</math> e <math>A^{*} \cdot A</math>.
+
+In altre parole, le <math>r</math> colonne di <math>U</math> corrispondono ai valori singolari diversi da zero dello ''spazio delle colonne'' della matrice <math>A</math> e le <math>r</math> righe di <math>V^{*}</math> corrispondono ai valori singolari diversi da zero corrispondenti allo ''spazio dele righe'' della matrice <math>A</math>.
+
+Inoltre <math>U</math> e <math>V^{*}</math>, essendo due matrici unitarie, godono della seguente proprietà:
+
+:<math> U \cdot U^{*} = I \quad \mbox{e} \quad V \cdot V^{*}=I</math>
+
+== Esempio ==
+Considerate la matrice
+
+:<math>\begin{bmatrix}
+1 & 0 & 0 & 0 & 2\\
+0 & 0 & 3 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 4 & 0 & 0 & 0\end{bmatrix}.
+</math>
+
+Una decomposizione a valori singolari di questa matrice è data da
+
+:<math>
+U = \begin{bmatrix}
+0 & 0 & 1 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 0 & -1\\
+1 & 0 & 0 & 0\end{bmatrix} ,
+
+\Sigma = \begin{bmatrix}
+4 & 0 & 0 & 0 & 0\\
+0 & 3 & 0 & 0 & 0\\
+0 & 0 & \sqrt{5} & 0 & 0\\
+0 & 0 & 0 & 0 & 0\end{bmatrix} ,
+
+V^* = \begin{bmatrix}
+0 & 1 & 0 & 0 & 0\\
+0 & 0 & 1 & 0 & 0\\
+\sqrt{0.2} & 0 & 0 & 0 & \sqrt{0.8}\\
+0 & 0 & 0 & 1 & 0\\
+-\sqrt{0.8} & 0 & 0 & 0 & \sqrt{0.2}\end{bmatrix}
+</math>
+
+che è
+
+:<math>\begin{bmatrix}
+1 & 0 & 0 & 0 & 2\\
+0 & 0 & 3 & 0 & 0\\
+0 & 0 & 0 & 0 & 0\\
+0 & 4 & 0 & 0 & 0\end{bmatrix} 

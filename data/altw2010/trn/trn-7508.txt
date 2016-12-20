@@ -1,0 +1,40 @@
+'''Játun bakliðar''' eða '''Játun þá-setningarinnar''' er formleg rökvilla. Rökvillan felst í því að álykta á grundvelli bakliðar skilyrðissambands að forliðurinn sé sannur.
+
+Rökvillan hefur eftirfarandi rökform:
+:Ef P, þá Q.
+:Q.
+:Þess vegna P.
+
+Dæmi um játun bakliðar:
+:Ef Arnaldur Indriðason er forseti Íslands, þá er forseti Íslands karlmaður.
+:Forseti Íslands er karlmaður
+:Þess vegna er Arnaldur Indriðason forseti Íslands.
+
+Hér er fyrri forsendan sönn, jafnvel þótt Arnaldur Indriðason sé ekki forseti Íslands, því þar sem Arnaldur Indriðason er karlmaður, þá gildir eftir sem áður að ''ef'' hann er forseti Íslands, þá er forseti Íslands karlmaður. Seinni forsendan er einnig sönn, því Ólafur Ragnar Grímsson, sem er núverandi forseti Íslands, er karlmaður. Af þessu leiðir hins vegar ekki að Arnaldur Indriðason sé forseti Íslands.
+
+Annað dæmi:
+:Ef einhver er mennskur, þá er hann dauðlegur.
+:Jón er dauðlegur.
+:Þess vegna er Jón mennskur.
+
+'''Affirming the consequent''', sometimes also called '''Converse error''', is a form:
+
+:If ''P'', then ''Q''.
+:''Q''.
+:Therefore, ''P''.
+
+Arguments of this form are invalid (except in the rare cases where such an argument also instantiates some other, valid, form).  In effect, this means that arguments of this form do not give good reason to establish their conclusions, even if their premises are true.  
+
+The name ''affirming the consequent'' derives from the premise ''Q'', which affirms the "then" clause of the conditional premise.
+
+One way to demonstrate the invalidity of this argument form is with a counterexample with true premises but an obviously false conclusion.  For example:
+
+:If Bill Gates owns Fort Knox, then he is rich.
+:Bill Gates is rich.
+:Therefore, Bill Gates owns Fort Knox.
+
+Arguments of the same form can sometimes seem superficially convincing, as in the following example:
+
+:If I have the flu, then I have a sore throat.
+:I have a sore throat.
+:Therefore, I have the flu.

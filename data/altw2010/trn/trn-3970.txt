@@ -1,0 +1,93 @@
+{{Chembox new
+|   Name = Diphenylamine
+|   ImageFile = Diphenylamine.png
+<!-- | ImageSize = 200px -->
+|   ImageName = 
+|   IUPACName = Diphenylamine
+|   OtherNames = N-Phenylbenzenamine;<br /> N-Phenyl Aniline;<br /> DPA;<br /> Anilinobenzene;<br /> (phenylamino)benzene;<br /> N,N-diphenylamine;<br /> big dipper;<br /> C.I. 10355;<br /> Phenylbenzenamine;<br /> Diphenylamine;<br />
+| Section1 = {{Chembox Identifiers
+|   SMILES = c1ccccc1Nc2ccccc2
+|   CASNo = 122-39-4
+|   RTECS = 9
+  }}
+| Section2 = {{Chembox Properties
+|   Formula = C<sub>12</sub>H<sub>11</sub>N
+|   MolarMass = 169.23 g/mol
+|   Appearance = White to yellow crystals
+|   Density = 1.2 g/cm³
+|   Solubility = Slightly
+|   MeltingPt = 53 °C (326 K)
+|   BoilingPt = 302 °C (575 K)
+  }}
+| Section7 = {{Chembox Hazards
+|   ExternalMSDS =
+|   MainHazards = Toxic. Possible mutagen. Possible teratogen. Harmful in contact with skin, and if swallowed or inhaled. Irritant.
+|   NFPA-H = 3
+|   NFPA-R = 0 
+|   NFPA-F = 1
+|   FlashPt = 152°C
+|   RPhrases = R23 R24 R25 R33 R50 R53
+|   SPhrases = S36 S37 S45 S60 S61
+  }}
+| Section8 = {{Chembox Related
+|   Function = Amine
+|   OtherFunctn = Aniline
+  }}
+}}
+
+'''Diphenylamine''' is an aromatic amine with the structural formula (C<sub>6</sub>H<sub>5</sub>)<sub>2</sub>NH.
+
+It is considered to be and is known to be toxic and harmful to the environment.
+
+==Preparation==
+One synthesis is the reaction of aniline to form a mixture of ammonia and diphenyl amine.
+
+==Uses==
+It has been used for scald control on apples in the United States, and it is a fungicide.
+
+It has been used in a test for nitrates.<ref>[http://www.agriliance.com/images/DryWeatherandNitratesinPlantTissue.pdf]</ref>
+
+{{Infobox Chemikalie
+ | Name                      = Diphenylamin
+ | Strukturformel            = 180px
+ | Andere Namen              = * N-Phenylanilin
+* N-Phenylaminobenzol
+ | Summenformel              = C<sub>12</sub>H<sub>11</sub>N
+ | CAS                       = 122-39-4
+ | PubChem                   = 11487
+ | Beschreibung              = farblose bis graue, blumig riechende, lichtempfindliche blättrige Kristalle
+ | Molare Masse              = 169,23 g·mol<sup>−1</sup>
+ | Aggregat                  = fest
+ | Dichte                    = 1,16 g·cm<sup>−3</sup> <ref name="GESTIS"></ref>
+ | Schmelzpunkt              = 53 °C <ref name ="GESTIS"/>
+ | Siedepunkt                = 302 °C <ref name ="GESTIS"/>
+ | Dampfdruck                = 0,33 Pa bei 20 °C <ref name ="GESTIS"/>
+ | Löslichkeit               = sehr schlecht in Wasser (40 mg/l (20 °C)) <ref name ="GESTIS"/>
+ | Quelle GefStKz            = <ref name ="GESTIS"/>
+ | Gefahrensymbole           = 
+ | R                         = 
+ | S                         = 
+ | MAK                       = 
+ | WGK                       = 3<ref name ="GESTIS"/>
+}}
+
+'''Diphenylamin''' oder auch ''N-Phenylanilin'' ist eine aromatische C<sub>12</sub>H<sub>11</sub>N. Es gehört zur Stoffklasse der Amine.
+
+== Vorkommen ==
+Diphenylamin wurde in frischen Zwiebeln nachgewiesen. Ob diese Substanz genuin in der Pflanze vorkommt oder einen Rückstand aus der Pestizidbehandlung darstellt ist nicht bekannt. Es gilt auch als Begleitsubstanz des Tees. 
+
+== Eigenschaften ==
+=== Physikalische Eigenschaften ===
+Diphenylamin bildet farblose bis graue, lichtempfindliche, blättrige Kristalle mit blumigen Geruch.
+
+=== Chemische Eigenschaften ===
+Diphenylamin ist ein Redoxindikator. Ein Farbwechsel findet statt zwischen oxidierter Form (blauviolett) und reduzierter Form (farblos). Das pH = 0, 20 °C) beträgt +0,76.
+
+Thermisch oder photochemisch kann Diphenylamin durch oxidativen intramolekularen Ringschluss zu Carbazol reagieren.
+
+== Verwendung ==
+Diphenylamin dient zum Nachweis von Nitrit-, Nitrat- und Chlorationen. Dabei wird es zu farbigen chinoiden System (Chinoniminfarbstoff) oxidiert wird.
+
+Diphenylamin (DPA) ist einer der am meisten verwendeten Stabilisatoren für nitrosen Gasen (NOx) und sauren Bestandteilen. Dabei wandelt es sich in das als Karzinogen verdächtige N-Nitrosodiphenylamin um. DPA ist mit Nitroglycerin (NG) unverträglich. Ab einem Nitroglyceringehalt von 20% (häufig auch schon darunter) werden andere Stabilisatoren (Centralit, 2-Nitro-DPA oder Akardit) eingesetzt. Auch mit Kaliumnitrat ist DPA nicht verträglich.
+
+Diphenylamin eignet sich auch zum Stabilisieren von ppm eingesetzt.

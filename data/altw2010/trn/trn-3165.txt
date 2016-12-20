@@ -1,0 +1,76 @@
+'''Machine vision''' (MV System) is the application of computer vision to industry and manufacturing. Whereas computer vision is mainly focused on machine-based image processing, machine vision most often requires also digital input/output devices and computer networks to control other manufacturing equipment such as robotic arms. Machine Vision is a subfield of engineering that encompasses computer science, optics, mechanical engineering, and industrial automation. One of the most common applications of Machine Vision is the inspection of manufactured goods such as semiconductor chips, automobiles, food and pharmaceuticals. Just as human inspectors working on assembly lines visually inspect parts to judge the quality of workmanship, so machine vision systems use digital cameras, smart cameras and image processing software to perform similar inspections.
+
+Machine vision systems are programmed to perform narrowly defined tasks such as counting objects on a conveyor, reading serial numbers, and searching for surface defects. Manufacturers favour machine vision systems for visual inspections that require high-speed, high-magnification, 24-hour operation, and/or repeatability of measurements. Frequently these tasks extend roles traditionally occupied by human beings whose degree of failure is classically high through distraction, illness and circumstance. However, humans may display finer perception over the short period and greater flexibility in classification and adaptation to new defects and quality assurance policies.
+
+Computers do not 'see' in the same way that human beings are able to. Cameras are not equivalent to human optics and while people can rely on inference systems and assumptions, computing devices must 'see' by examining individual pixels of images, processing them and attempting to develop conclusions with the assistance of knowledge bases and features such as pattern recognition engines. Although some machine vision algorithms have been developed to mimic human visual perception, a number of unique processing methods have been developed to process images and identify relevant image features in an effective and consistent manner. Machine vision and computer vision systems are capable of processing images consistently, but computer-based image processing systems are typically designed to perform single, repetitive tasks, and despite significant improvements in the field, no machine vision or computer vision system can yet match some capabilities of human vision in terms of image comprehension, tolerance to lighting variations and image degradation, parts' variability etc.
+
+== Components of a machine vision system ==
+A typical machine vision system will consist of several among the following components:
+# One or more digital or analog camera (black-and-white or colour) with suitable optics for acquiring images
+# Camera interface for digitizing images (widely known as a "frame grabber")
+# A processor (often a PC or embedded processor, such as a DSP)
+# (In some cases, all of the above are combined within a single device, called a smart camera).
+# Input/Output hardware (e.g. digital I/O) or communication links (e.g. network connection or RS-232) to report results
+# Lenses to focus the desired field of view onto the image sensor.
+# Suitable, often very specialized, light sources (LED illuminators, fluorescent or halogen lamps etc.)
+# A program to process images and detect relevant features.
+# A synchronizing sensor for part detection (often an optical or magnetic sensor) to trigger image acquisition and processing.
+# Some form of actuators used to sort or reject defective parts.
+
+The sync sensor determines when a part (often moving on a conveyor) is in position to be inspected. The sensor triggers the camera to take a picture of the part as it passes beneath the camera and often synchronizes a lighting pulse to freeze a sharp image. The lighting used to illuminate the part is designed to highlight features of interest and obscure or minimize the appearance of features that are not of interest (such as shadows or reflections). LED panels of suitable sizes and arrangement are often used to this purpose.
+
+The camera's image is captured by the framegrabber. A framegrabber is a computer memory so that it may be processed by the machine vision software.
+
+The software will typically take several steps to process an image. Often the image is first manipulated to reduce noise or to convert many shades of gray to a simple combination of black and white (binarization). Following the initial simplification, the software will count, measure, and/or identify objects, dimensions, defects or other features in the image. As a final step, the software passes or fails the part according to programmed criteria. If a part fails, the software may signal a mechanical device to reject the part; alternately, the system may stop the production line and warn a human worker to fix the problem that caused the failure.
+
+Though most machine vision systems rely on black-and-white cameras, the use of colour cameras is becoming more common. It is also increasingly common for Machine Vision systems to include digital camera equipment for direct connection rather than a camera and separate framegrabber, thus reducing signal degradation.
+
+"Smart" cameras with built-in embedded processors are capturing an increasing share of the machine vision market. The use of an embedded (and often very optimized) processor eliminates the need for a framegrabber card and external computer, thus reducing cost and complexity of the system while providing dedicated processing power to each camera. Smart cameras are typically less expensive than systems comprising a camera and a board and/or external computer, while the increasing power of embedded processors and DSPs is often providing comparable or higher performance and capabilities than conventional PC-based systems.
+
+== Processing methods ==
+Commercial and open source machine vision software packages typically include a number of different image processing techniques such as the following:
+
+* Pixel counting: counts the number of light or dark pixels
+* Thresholding: converts an image with gray tones to simply black and white
+* Segmentation: used to locate and/or count parts
+** Blob discovery & manipulation: inspecting an image for discrete blobs of connected pixels (e.g. a black hole in a grey object) as image landmarks. These blobs frequently represent optical targets for machining, robotic capture, or manufacturing failure.
+** Recognition-by-components: extracting geons from visual input
+** Robust pattern recognition: location of an object that may be rotated, partially hidden by another object, or varying in size
+* Barcode reading: decoding of 1D and 2D codes designed to be read or scanned by machines 
+* Optical character recognition: automated reading of text such as serial numbers
+* Gauging: measurement of object dimensions in inches or millimeters
+* Edge detection: finding object edges
+* Template matching: finding, matching, and/or counting specific patterns
+
+Der Begriff '''Maschinelles Sehen''' oder '''Bildverstehen''' beschreibt im Allgemeinen die computergestützte Lösung von Aufgabenstellungen, die sich an den Fähigkeiten des menschlichen visuellen Systems orientieren.
+
+Vor allem werden maschinell sehende Systeme derzeit in industriellen Herstellungsprozessen in den Bereichen Automatisierungstechnik und Qualitätssicherung eingesetzt. Weitere Einsatzgebiete finden sich z. B. in der Verkehrstechnik – von der einfachen Radarfalle bis hin zum „sehenden Fahrzeug“ – und in der Sicherheitstechnik (Zutrittskontrolle, automatische Erkennung von Gefahrensituationen).
+
+Folgende Aufgabenstellungen können derzeit wirtschaftlich sinnvoll gelöst werden.
+* Objekterkennung
+* Lageerkennung
+* Vollständigkeitsprüfung
+* Form- und Maßprüfung
+* Oberflächeninspektion
+* Defekterkennung unter Oberflächen
+* Schichtdickenmessungen
+
+Nur ein vergleichsweise kleiner Teil der aktuellen Forschungsprojekte beschäftigt sich damit, tatsächlich den Sinn oder den Inhalt von Bildern zu ''verstehen''; meistens geht es eher darum, in Bildern Objekte zu detektieren, sie zu beschreiben, ihre Eigenschaften zu vermessen, sie zu klassifizieren, und auf Grund dieser Ergebnisse Entscheidungen zu treffen oder Prozesse zu steuern. Da es beim Bildverstehen meistens um den Entwurf oder die Anwendung von Rechenverfahren geht, handelt es sich um ein Teilgebiet der künstlichen Intelligenz aufweist. Die Werkzeuge des Maschinensehens stammen meistens aus der linearer Algebra, Segmentierung und auf Verfahren der Mustererkennung, beispielsweise zur Klassifizierung von Objekten.
+
+== Methoden ==
+Werkzeuge der Bildverarbeitung zur automatischen Interpretation sind:
+*Optischer Fluss zur Bewegungsextraktion
+*Laplacian Of Gaussian-Filter zur Kantenerkennung
+*Farbklassifikatoren, beispielsweise zur Hautfarbenklassifikation
+*Hough-Transformation und Kontrastanalyse zur Erkennung von geometrischen Objekten
+
+In komplexeren Erkennungsaufgaben werden oft Modelle eingesetzt. Diese beinhalten Vorwissen, das zur Erkennung eines Gegenstandes benutzt werden kann. Beispielsweise beschreibt ein Gesichtsmodell, dass sich die Nase immer zwischen dem Mund und den Augen befinden muss. Somit weiß ein Suchalgorithmus ungefähr, wo er den Mund suchen muss, wenn er Augen und Nase schon gefunden hat. Hier einige Modelltechniken:
+*starres 2D- oder 3D-Modell
+*statistische Modelle (deformierbar): Active Shape Model oder Point Distribution Model
+
+== Anwendungen ==
+In '''industriellen Umgebungen''' werden die Techniken des Bildverstehens heutzutage erfolgreich eingesetzt. Computer unterstützen beispielsweise die Qualitätskontrolle und vermessen einfache Gegenstände. Weitgehend bestimmt der Programmierer hier die Umgebungsbedingungen, die wichtig für ein fehlerfreies Ablaufen seiner Algorithmen sind (Kameraposition, Beleuchtung, Geschwindigkeit des Fließbandes, Lage der Objekte usw.).
+
+Beispiele für den Einsatz in industriellen Umgebungen sind:
+*Auf einem Förderband werden Beilegscheiben kontrolliert, um die Maßhaltigkeit zu überprüfen und die Fehlerquote des Endprodukts um mehrere Zehnerpotenzen zu verkleinern.
+*Schweißroboter werden an die richtige Schweißposition gesteuert.

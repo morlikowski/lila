@@ -1,0 +1,70 @@
+'''MPEG'''是Moving Picture Experts Group的简称。这个名字本来的含义是指一个研究视频和音频编码标准的小组。现在我们所说的MPEG泛指又该小组制定的一系列视频编码标准。该小组于1988年组成，至今已经制定了MPEG-1、MPEG-2、MPEG-3、MPEG-4、MPEG-7等多个标准，MPEG-21正在制定中。MPEG是ISO和IEC的工作组，它的官方头衔为：第一技术委员会第二十九子委员会第十一号工作组，英文头衔为ISO/IEC JTC1/SC29 WG11。MPEG大约每2-3个月举行一次会议，每次会议大约持续5天，在会议期间，新的建议和技术细节先在小组中讨论，成熟后进入标准化的正式审核程序。与MPEG工作组相关的其他几个视频标准化工作组包括ITU-T VCEG以及JVT。
+right
+
+==MPEG相关标准==
+'''MPEG'''到目前为止已经制定并正在制定以下和视频相关的标准：
+
+*MPEG-1：第一个官方的视频音频压缩标准，随后在Video CD中被采用，其中的音频压缩的第三级（MPEG-1 Layer 3）简称MP3，成为比较流行的音频压缩格式。
+*MPEG-2：广播质量的视频、音频和传输协议。被用于無線數位電視-ATSC、DVB以及ISDB、数字卫星电视（例如DirecTV）、数字有线电视信号，以及DVD视频光盘技术中。
+*HDTV）设计，随后發現MPEG-2已足夠HDTV應用，故MPEG-3的研發便中止。
+*MPEG-4：2003年发布的视频压缩标准，主要是扩展MPEG-1、MPEG-2等標準以支援視頻/音頻物件（video/audio "objects"）的編碼、3D內容、低位元率編碼（low bitrate encoding）和數位版權管理 （Digital Rights Management），其中第10部分由ISO/IEC和ITU-T联合发布，称为H.264/MPEG-4 Part 10。参见H.264。
+*MPEG-7：MPEG-7并不是一个视频压缩标准，它是一个多媒体内容的描述标准。
+*MPEG-21：MPEG-21是一个正在制定过程中的标准，它的目标是为未来多媒体的应用提供一个完整的平台。
+
+== MPEG工作原理 ==
+MPEG（通常指MPEG-1）影像编码是基于变换的量化，最后进行熵编码。请参见MPEG-1
+
+MPEG-1、MPEG-2、MPEG-4實際上採用了的動量估計和動量補償技術。在利用了動量補償的帧(圖像)中，被編碼的是經過動量補償的參考幀與目前圖像的差。
+
+MPEG只規定位元流的格式與解碼精確度(即规定解码的方法)，而任何人可依照MPEG標準以不同方式實現編碼器(程式)。除了可減少因编码專利造成的商業利益糾紛外，MPEG標準的主要目的在於確保不同的編碼器所產生的位元流可被其他解碼器正確的解碼，只要此位元流符合標準。
+
+Il '''Moving Picture Experts Group''', in sigla '''MPEG''', designazione formale '''ISO/IEC JTC 1/SC 29/WG 11''' intitolata ''Coding of moving pictures and audio'', è un comitato tecnico congiunto delle organizzazioni internazionali IEC incaricato di definire degli standard per la rappresentazione in forma digitale di multimediali, in grado di soddisfare un'ampia varietà di applicazioni.
+
+Il comitato è stato costituito nel gennaio 1988 e si è riunito la prima volta nei giorni 10, 11 e 12 maggio 1988. Normalmente si riunisce una media di quattro volte all'anno. Alla prima riunione hanno partecipato 25 membri. Attualmente alle riunioni vi partecipano oltre 350 membri in rappresentanza di più di 200 aziende e organizzazioni appartenenti a circa 20 nazioni del mondo.
+
+Attualmente gli standard definiti dall'MPEG sono tra i più universalmente utilizzati.
+
+==Standard==
+L'MPEG ha definito i seguenti standard:
+{| 
+! align=center width=70pix | Nome 
+! align=center width=150pix | Designazione formale
+! align=center | Titolo della designazione formale 
+|-
+| align=center | MPEG-1
+| align=center | ISO/IEC 11172
+| ''Coding of moving pictures and associated audio for digital storage media at up to about 1,5 Mbit/s''
+|-
+| align=center | MPEG-2
+| align=center | ISO/IEC 13818
+| ''Generic coding of moving pictures and associated audio information''
+|-
+| align=center | MPEG-4
+| align=center | ISO/IEC 14496
+| ''Coding of audio-visual objects''
+|-
+| align=center | MPEG-7
+| align=center | ISO/IEC 15938
+| ''Multimedia content description interface''
+|-
+| align=center | MPEG-21
+| align=center | ISO/IEC 21000
+| ''Multimedia framework (MPEG-21)''
+|}
+
+L'MPEG-1 è utilizzato nel Video CD, un formato home video con qualità simile a quella del VHS. L'MPEG-2 è utilizzato nella televisione digitale satellitare, nel DVD-Video, nella televisione digitale terrestre ed ha una qualità superiore all'MPEG-1 ma richiede per contro una maggior quantità di risorse hardware. L'MPEG-4 è un'estensione dell'MPEG-1 in grado di gestire flussi audio/video eterogenei, contenuti 3D, flussi video a basso bitrate e diritti digitali. Per la codifica video supporta il formato MPEG-2 oppure un nuovo codec molto efficiente chiamato MPEG-4 AVC/H.264. L'MPEG-7 è un sistema formale per la descrizione di contenuti multimediali. L'MPEG-21 è nato per sviluppare una piattaforma comune per le future applicazioni multimediali.
+
+Uno standard abbandonado è invece l'MPEG-3, inizialmente sviluppato per l'HDTV in seguito si è scoperto che l'MPEG-2 era sufficiente per tale applicazione.
+
+== Gli algoritmi ==
+Gli perdita di informazione (lossy). La tecnica impiegata è la seguente: 
+* il flusso video viene campionato, viene ridotto a segmenti; 
+* questi segmenti vengono elaborati per estrarne le informazioni fondamentali; 
+* le informazioni vengono codificate con degli algoritmi di compressione non a perdita di informazione. 
+
+Il gruppo di standardizzazione non rilascia delle specifiche su come debba essere realizzato il codificatore o il decodificatore MPEG. Il gruppo rilascia delle specifiche che indicano come debba essere composto il formato del file MPEG in modo che ogni costruttore possa realizzare il codificatore e il decodificatore come meglio crede pur attenendosi al formato del file definito dal consorzio MPEG.
+
+== Metodo di campionamento ==
+Il formato predecessore PCM che occupa una notevole quantità di spazio, circa 1.5 Mb/s a 48 kHz. Un modo per ridurne l'occupazione è utilizzare meno bit per rappresentare i campioni ma, così facendo il suono riprodotto è di qualità scadente. Una possibile soluzione è rappresentare il segnale nel dominio delle frequenze e poi campionarlo con pochi bit, in questo modo c'è una perdita di fedeltà molto minore. La trasformazione nel dominio delle frequenze viene effettuata da MPEG tramite un banco di filtri che scompone il segnale in 32 sottobande d'uguale ampiezza. In molti hanno criticato questo approccio perché non rispecchia il modello percettivo umano, infatti, gli studi effettuati dimostrano che sarebbe più corretto dividere la banda di frequenze in 26 parti di dimensioni crescenti con andamento di tipo logaritmico.
+
+centre|600px|Banda critica per il campionamento MPEG

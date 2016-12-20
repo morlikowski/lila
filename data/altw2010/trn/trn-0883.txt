@@ -1,0 +1,171 @@
+La '''théorie moderne du portefeuille''' est une théorie financière développée en 1952 par portefeuille, et quel devrait être le prix d'un actif étant donné son risque par rapport au risque moyen du marché. Cette théorie fait appel aux concepts de frontière efficiente, coefficient bêta, droite de marché des capitaux et droite de marché des titres. Sa formalisation la plus accomplie est le modèle d'évaluation des actifs financiers ou MEDAF.
+
+Dans ce modèle, le espérance et une variance.
+
+== Idée de départ ==
+
+L'idée de ''Markowitz'' dans sa gestion de portefeuille est simplement de panacher celui-ci d'une façon telle qu'on n'y fait pas de ''choix incohérents'', conduisant par exemple à panacher des actions A et des actions B pour obtenir un couple revenu/risque ''moins bon'' à coût égal que ce qu'auraient procuré par exemple des actions C. 
+
+Sur le plan technique, il s'agit d'un problème d'optimisation quadratique assez banal. Son originalité est essentiellement l'application de ce modèle d'ingénieur au monde de la finance.
+
+== Hypothèses d'information, risque et rendement ==
+
+Le modèle fait la double hypothèse que 
+* les marchés d'actifs financiers sont efficients. C'est l'hypothèse d'efficience du marché selon laquelle les prix et rendements des actifs sont censés refléter, de façon objective, toutes les informations disponibles concernant ces actifs. 
+
+* les investisseurs sont averses au risque (comme montré par Daniel Bernoulli) : ils ne seront prêts à prendre plus de risques qu'en échange d'un rendement attendu supérieur. À l'inverse, un investisseur qui souhaite améliorer la rentabilité de son portefeuille doit accepter de prendre plus de risques. L'équilibre risque/rendement jugé optimal dépend de la tolérance au risque de chaque investisseur.
+
+=== Espérance et variance ===
+
+On suppose généralement que la préférence de l'investisseur pour un couple risque / rendement peut être décrite par une fonction d'utilité quadratique. De plus, les évolutions du marché sont supposés suivre une distribution symétrique de Pareto. Par conséquent, seuls le rendement attendu (l'espérance de gain) et la volatilité (l'écart type) sont les paramètres examinés par l'investisseur. Ce dernier ne tient pas compte des autres caractéristiques de la distribution des gains, comme son ''asymétrie'' ou même le niveau de fortune investi.
+
+Selon le modèle :
+* le rendement d'un portefeuille est une combinaison linéaire de celui des actifs qui le composent, pondérés par leur poids <math>w_i</math> dans le portefeuille. ;
+* la volatilité du portefeuille est une fonction de la corrélation entre les actifs qui le composent. Cette fonction n'est pas linéaire.
+
+'''Mathématiquement :'''
+
+En général, pour un portefeuille comportant n actifs :
+
+* Rendement attendu (espérance) :	 
+:<math> \operatorname{E}(R_p) = \sum_i w_i \operatorname{E}(R_i) \quad </math>
+
+* Variance du portefeuille :
+:La variance du portefeuille est la somme des produits des poids <math>w_i</math> de chaque couple d'actifs par leur covariance <math> \sigma_{ij} \,</math> - cette somme inclut les poids au carré et les variances <math> \sigma_{ii} \,</math>  (ou <math> \sigma_i^2 </math>) pour chaque actif i. La covariance est souvent exprimée en terme de corrélation <math> \rho_{ij} \,</math> des rendements entre deux actifs où <math> \sigma_{ij}  = \sigma_i \sigma_j \rho_{ij} \,</math>
+
+:<math> \sigma_p^2 = \sum_{i=1}^n \sum_{j=1}^n w_i w_j \sigma_{ij} = \sum_{i=1}^n \sum_{j=1}^n w_i w_j \sigma_i \sigma_j \rho_{ij} </math> 
+
+* Volatilité du portefeuille :	 
+:<math>  \sigma_p = \sqrt {\sigma_p^2} </math>
+
+Cas particuliers :
+
+Pour un portefeuille composé de deux actifs :
+:Espérance :	<math> \operatorname{E}(R_p) = w_A \operatorname{E}(R_A) + (1 - w_A) \operatorname{E}(R_B) = w_A \operatorname{E}(R_A) + w_B \operatorname{E}(R_B) </math>
+:Variance :	<math> \sigma_p^2  = w_A^2 \sigma_A^2  + w_B^2 \sigma_B^2 + 2w_Aw_B \sigma_{AB} </math>
+
+Lorsque le portefeuille est composé de trois actifs, la variance devient :
+:<math> w_A^2 \sigma_A^2  + w_B^2 \sigma_B^2 + w_C^2 \sigma_C^2 + 2w_Aw_B \sigma_{AB}  + 2w_Aw_C \sigma_{AC} + 2w_B w_C \sigma_{BC} </math>
+
+(Comme on le voit, plus le nombre n d'actifs grandit, plus la puissance de calcul nécessaire est important : le nombre de termes de covariance est égal à n * (n-1) / 2. Pour cette raison, on utilise généralement des logiciels spécialisés. On peut néanmoins développer un modèle en utilisant des matrices ou dans une feuille de calcul d'un tableur.)
+
+=== Diversification ===
+
+Un investisseur peut réduire le risque de son portefeuille simplement en détenant des actifs qui ne soient pas ou peu positivement corrélés, donc en diversifiant ses placements. Cela permet d'obtenir la même espérance de rendement en diminuant la volatilité du portefeuille.
+
+'''Mathématiquement :'''
+
+thumb|250px|Capital Market Line
+'''Modern portfolio theory''' ('''MPT''') proposes how rational investors will use diversification to optimize their portfolios, and how a risky asset should be priced. The basic concepts of the theory are Markowitz diversification, the efficient frontier, alpha and beta coefficients, the Capital Market Line and the Securities Market Line.
+
+MPT models an asset's return as a random variable, and models a portfolio as a weighted combination of assets so that the return of a portfolio is the weighted combination of the assets' returns. Moreover, a portfolio's return is a random variable, and consequently has an expected value and a variance. Risk, in this model, is the standard deviation of return.
+
+== Risk and return ==
+
+The model assumes that investors are risk averse, meaning that given two assets that offer the same expected return, investors will prefer the less risky one.  Thus, an investor will take on increased risk only if compensated by higher expected returns. Conversely, an investor who wants higher returns must accept more risk. The exact trade-off will differ by investor based on individual risk aversion characteristics.  The implication is that a risk-return profile – i.e., if for that level of risk an alternative portfolio exists which has better expected returns.  
+
+=== Mean and variance ===
+ 
+It is further assumed that investor's risk / reward preference can be described via a quadratic skew (measures the level of asymmetry in the distribution) or kurtosis (measure of the thickness or so-called "fat tail"). 
+ 
+Note that the theory uses a parameter, volatility, as a proxy for risk, while return is an expectation on the future. This is in line with the Post-Modern Portfolio Theory (PMPT), have exposed several flaws in this reliance on variance as the investor's risk proxy:
+
+*The theory uses a historical parameter, volatility, as a proxy for risk, while return is an expectation on the future. (It is noted though that this is in line with the Efficiency Hypothesis and most of the classical findings in finance such as Black and Scholes which make use of the martingale measure, i.e. the assumption that the best forecast for tomorrow is the price of today). 
+*The statement that "the investor is indifferent to other characteristics" seems not to be true given that skewness risk appears to be priced by the market .
+
+Under the model:
+ 
+*Portfolio return is the proportion-weighted combination of the constituent assets' returns.
+*Portfolio volatility is a function of the non-linear as the weighting of the component assets changes.  
+ 
+====Mathematically====
+<blockquote style="background: 1; border: 1px solid black; padding: 1em;">
+In general:
+ 
+*Expected return:-  
+:<math> \operatorname{E}(R_p) = \sum_i w_i \operatorname{E}(R_i) \quad </math>
+ 
+:Where <math> R </math> is return and <math> w_i </math> is the weighting of component asset <math> i </math>.
+ 
+*Portfolio variance:-
+:<math> \sigma_p^2 = \sum_i w_i^2 \sigma_{i}^2 + \sum_i \sum_j w_i w_j \sigma_i \sigma_j \rho_{ij} </math>,
+where i≠j.  Alternatively the expression can be written as:
+
+:<math> \sigma_p^2 = \sum_i \sum_j w_i w_j \sigma_i \sigma_j \rho_{ij} </math>,
+where <math> \rho_{ij} = 1.0 </math> for i=j.
+ 
+*Portfolio volatility:-  
+:<math>  \sigma_p = \sqrt {\sigma_p^2} </math>
+ 
+For a two asset portfolio:-
+*Portfolio return: <math> \operatorname{E}(R_p) = w_A \operatorname{E}(R_A) + (1 - w_A) \operatorname{E}(R_B) = w_A \operatorname{E}(R_A) + 
+w_B \operatorname{E}(R_B) </math>
+*Portfolio variance: <math> \sigma_p^2  = w_A^2 \sigma_A^2  + w_B^2 \sigma_B^2 + 2w_Aw_B  \sigma_{A} \sigma_{B} \rho_{AB}</math>
+
+matrices are preferred for calculations of the efficient frontier.
+
+In matrix form, for a given "risk tolerance" <math>q \in [0,\infty)</math>, the efficient front is found by minimizing the following expression:
+:<math> \frac{1}{2} \cdot w^T \Sigma w - q*R^T w</math>
+where
+ <ul>
+ <li><math>w</math> is a vector of portfolio weights. Each <math>w_i \ge 0</math> and <math>\sum_i w_i = 1</math>
+ <li><math>\Sigma</math> is the covariance matrix for the assets in the portfolio
+ <li><math>q</math> is a "risk tolerance" factor, where 0 results in the portfolio with minimal risk and <math>\infty</math> results in the portfolio with maximal return
+ <li><math>R</math> is a vector of expected returns
+ </ul>
+The front is calculated by repeating the optimization for various <math>q \ge 0</math>.
+
+The optimization can for example be conducted by optimization that is available in many software packages, including Microsoft Excel, Matlab and R.
+
+</blockquote>
+
+=== Diversification ===
+
+An investor can reduce portfolio risk simply by holding instruments which are not perfectly correlated. In other words, investors can reduce their exposure to individual asset risk by holding a diversified portfolio of assets.  Diversification will allow for the same portfolio return with reduced risk. 
+
+If all the assets of a portfolio have a correlation of 1, i.e., perfect correlation, the portfolio volatility (standard deviation) will be equal to the weighted sum of the individual asset volatilities.  Hence the portfolio variance will be equal to the square of the total weighted sum of the individual asset volatilities.
+
+If all the assets have a correlation of 0, i.e., perfectly uncorrelated, the portfolio variance is the sum of the individual asset weights squared times the individual asset variance (and volatility is the square root of this sum).
+
+If correlation is less than zero, i.e., the assets are inversely correlated, the portfolio variance and hence volatility will be less than if the correlation is 0.  The lowest possible portfolio variance, and hence volatility, occurs when all the assets have a correlation of −1, i.e., perfect inverse correlation.
+
+=== Capital allocation line ===
+The '''capital allocation line''' ('''CAL''') is the line of expected return plotted against risk (standard deviation) that connects all portfolios that can be formed using a risky asset and a riskless asset. It can be proven that it is a straight line and that it has the following equation.
+
+:<math>\mathrm{CAL} : E(r_{C}) = r_F + \sigma_C  \frac{E(r_P) - r_F}{\sigma_P}</math>
+
+In this formula ''P'' is the risky portfolio, ''F'' is the riskless portfolio, and ''C'' is a combination of portfolios ''P'' and ''F''.
+
+=== The efficient frontier ===
+right|frame|Efficient Frontier
+Every possible asset combination can be plotted in risk-return space, and the collection of all such possible portfolios defines a region in this space.  The line along the upper edge of this region is known as the ''efficient frontier'' (sometimes "the Markowitz frontier"). 
+Combinations along this line represent portfolios (explicitly excluding the risk-free alternative) for which there is lowest risk for a given level of return.  Conversely, for a given amount of risk, the portfolio lying on the efficient frontier represents the combination offering the best possible return. Mathematically the '''Efficient Frontier''' is the intersection of the ''Set of Portfolios with Minimum Variance'' and the ''Set of Portfolios with Maximum Return''.
+
+The efficient frontier is illustrated above, with return μ<sub>''p''</sub> on the ''y''-axis, and risk σ<sub>''p''</sub> on the ''x''-axis; an alternative illustration from the diagram in the CAPM article is at right.
+
+The efficient frontier will be convex – this is because the risk-return characteristics of a portfolio change in a non-linear fashion as its component weightings are changed. (As described above, portfolio risk is a function of the correlation of the component assets, and thus changes in a non-linear fashion as the weighting of component assets changes.) The efficient frontier is a parabola (hyperbola) when expected return is plotted against variance (standard deviation).
+
+The region above the frontier is unachievable by holding risky assets alone. No portfolios can be constructed corresponding to the points in this region. Points below the frontier are suboptimal. A rational investor will hold a portfolio only on the frontier.
+
+==The risk-free asset==
+The risk-free asset is the (hypothetical) asset which pays a risk-free rate. It is usually proxied by an investment in short-dated Government securities. The risk-free asset has zero variance in returns (hence is risk-free); it is also uncorrelated with any other asset (by definition: since its variance is zero). As a result, when it is combined with any other asset, or portfolio of assets, the change in return and ''also in risk'' is linear.
+
+Because both risk and return change linearly as the risk-free asset is introduced into a portfolio, this combination will plot a straight line in risk-return space. The line starts at 100% in cash and weight of the risky portfolio = 0 (i.e., intercepting the return axis at the risk-free rate) and goes through the portfolio in question where cash holding = 0 and portfolio weight = 1.
+
+===Mathematically===
+<blockquote style="background: 1; border: 1px solid black; padding: 1em;">
+Using the formulae for a two asset portfolio as above:
+
+*Return is the weighted average of the risk free asset, '''<math>{f}</math>''', and the risky portfolio, '''p''', and is therefore linear:  
+:Return = <math> w_{f} \operatorname{E}(R_{f}) + w_p \operatorname{E}(R_p) \quad </math> 
+
+*Since the asset is risk free, portfolio standard deviation is simply a function of the weight of the risky portfolio in the position. This relationship is linear.   
+:Standard deviation = <math>\sqrt{ w_{f}^2 \sigma_{f}^2 + w_p^2 \sigma_{p}^2 + 2 w_{f} w_p \sigma_{fp} } </math>   
+:= <math> \sqrt{ w_{f}^2 \cdot 0 + w_p^2 \sigma_{p}^2 + 2 w_{f} w_p \cdot 0 } </math>   
+:= <math> \sqrt{ w_p^2 \sigma_{p}^2 } </math>   
+:= <math> w_p \sigma_p \quad </math>  
+
+</blockquote>
+
+===Portfolio leverage===
+An investor can add leverage to the portfolio by borrowing the risk-free asset. The addition of the risk-free asset allows for a position in the region above the efficient frontier. Thus, by combining a risk-free asset with risky assets, it is possible to construct portfolios whose risk-return profiles are superior to those on the efficient frontier. 

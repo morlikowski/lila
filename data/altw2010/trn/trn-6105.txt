@@ -1,0 +1,105 @@
+'''FOCAL,''' (abbreviation of '''FO'''rmula '''CAL'''culator), is an interpreted JOSS.
+
+Largely the creation of Richard Merrill, FOCAL was initially written for and had its largest impact on the Digital Equipment Corporation's (DEC's) PDP-8 computers. Merrill wrote the original (1968) and classic FOCAL-69 interpreters for the PDP-8.  Digital itself described FOCAL as "a JOSS-like language."
+
+Like early versions of BASIC, FOCAL was a complete programming environment in itself, requiring no operating system. As in MUMPS, most commands could be, and in practice were, abbreviated to a single letter of the alphabet. Creative choices of words were used to make each command uniquely defined by its leading character. Digital made available several European-language versions in which the command words were translated into the target language.
+
+== Efficiency ==
+
+FOCAL ran on very low-end PDP-8 systems, even systems with only 4K words of memory and lacking mass storage. The FOCAL interpreter was written in very tight assembly language and typically used only 3K 12-bit words, leaving a somewhat limiting 1K words to hold the user program, and variables.  
+
+If the system was upgraded by adding one or more extra 4K banks of memory, FOCAL could use that extra memory, either for a single user, or split the extra memory across several time-sharing users.  FOCAL made extensive use of interrupt-driven terminal I/O, so it could keep four teletypes busily whirring with nary a pause.
+
+There was no memory space available to store error messages, so FOCAL used a clever work-around; it reported the address of the error-detecting code as a pseudo floating-point number.  For example, the division by zero error was detected by code at address 4333 so the error message was:  <code>?28.73 @ 01.10</code>. Most FOCAL sites had an "error number to error message" listing taped up near the terminals.
+
+Comparisons between FOCAL and BASIC were inevitable since both languages were common on smallish computers of the same era. FOCAL lacked inherent support for strings as data elements which could be assigned to variables. This is generally thought to be a serious deficiency as compared to the string capabilities in most BASICs. This deficiency, while serious, was not as utterly crippling as it might sound. A surprising amount of string usage in FOCAL programs is devoted to formatting user output. Since FOCAL output was character-stream-oriented, outputting two strings sequentially could sometimes substitute for concatenating them, and procedural tools could be written for performing complex formatted output.
+
+A limited amount of string input could be done, so a program could ask simple Yes/No questions, but this was really a kludge. For example, if you typed "HELLO" at an input statement, FOCAL would convert the H to "8", then interpret the "E" as starting an exponent, then it would try to compute "8" to the "LLO" power, which would take several seconds of CPU time and result in a value of 0.76593020E+103, not a particularly helpful response. 
+
+It is generally agreed that FOCAL was more efficient in its use of resources than comparable BASIC systems. On a typical machine of the day (often with 6 to 24 kilobytes of core memory), FOCAL could handle larger and more complex programming tasks than BASIC. 
+
+FOCAL's PDP-8 implementation used a floating point representation that represented numbers as four 12-bit words, with thirty-six bits of mantissa and twelve bits of exponent. This allowed for both significantly higher precision and a significantly wider range of values than most other low-end programming systems, and made it a reasonable choice for serious numerical work. This high precision, and good choices for default decimal output formatting, meant that difficulties with binary-to-decimal rounding were not evident to beginning users.
+
+== Spinoffs ==
+
+The Coca-Cola Corporation used a customized version of FOCAL called COKE.
+
+FOCAL was later implemented on the PDP-7/9, PDP-11 and PDP-12. 
+
+The FOCAL manual showed how to add commands to the FOCAL parser, so many sites added specialized commands for operating custom hardware.  
+
+The DEC User Society collected many many patches and enhancements for FOCAL.  There were even major enhanced offshoots of FOCAL, such as FOCAL-W, which added many features, including better mass storage file I/O and even virtual variable memory!
+
+{{Карточка языка программирования
+|name = FOCAL
+|semantics = императивный
+|class= интерпретатор
+|year = 1968
+|designer = Ричард Мерилл (Richard Merrill)
+|typing = один тип — вещественный
+|implementations = музейный FOCAL-81 для POSIX-систем
+|dialects = FOCAL-69 ("классический"), FOCAL 1971, FOCAL 11, FOCAL-81
+|influenced_by = JOSS
+|influenced = 
+}}
+'''FOCAL''' (аббр. '''FO'''rmula '''CAL'''culator) — интерпретируемый высокого уровня, переработка языка JOSS.
+
+Фокал, в большой мере, разработка Ричарда Мерилла (DEC PDP-8. Меррил написал изначальный (в 1968 году) и классический (FOCAL-69) интерпретаторы Фокала для PDP-8. Сама DEC позиционировала Фокал как «язык типа JOSS».
+
+Как и ранние версии операционной системе.
+
+Фокал крайне нетребователен к ресурсам. Так, он работал на самых простых вариантах PDP-8 (в том числе на системах без устройств хранения). Многопользовательские варианты интерпретатора поддерживали одновременную работу до четырех пользователей на телетайпных терминалах.
+Позднее Фокал имел реализации для PDP-7/9 и PDP-11.
+
+Компания Coca-Cola использовала внутри фирмы доработанную версию Фокала, под названием COKE.
+
+Из отечественных компьютеров Фокал существовал на Электронике БК-0010/0011 и ДВК встроенный в ПЗУ (в поздних моделях БК — доступный на картридже). Были также доступны расширения Фокала для этих машин, написанные различными энтузиастами.
+Расширения содержали разнообразные дополнительные команды и функции для работы с графикой, звуком, запуска двоичных программ, обработки строк и пр.
+
+Существенно расширенная версия Фокал использовалась в качестве включающего языка в ДИАСП — Диалоговой Системе Проектирования — специализированной САПР, предназначенной для целей микроэлектроники.
+
+В 1990-е годы энтузиастами была предпринята попытка переноса Фокала на IBM PC (Turbo Focal), но она не вышла из стадии бета-версии, которая распространялась по каналам BBS.
+
+Работоспособность публично доступной в исходных текстах версии Focal-81 была успешно протестирована на следующих платформах и компиляторах:
+
+* Sun SPARC
+** gcc 2.6.3 (ANSI С) и Sun cc (K&R C), под SunOS 4.1.3 
+** gcc 2.6.3 (ANSI С) и SunPro cc 2.0.1 (ANSI С), под Solaris 2.3
+* HP (9000 модель 720)
+** gcc 2.5.8 (ANSI C) и HP cc (ANSI C) под HPUX 8.05
+* x86
+** MS C (ANSI C) и LSI C-86 (близко к ANSI C) под MS-DOS
+** MS Visual C++ под Win32 (не тестировалась)
+
+Из-за похожего синтаксиса Фокал просто обречен на сравнение с строковый переменные на Фокале — числовые (как правило, дробные числа с плавающей точкой). Вместе с тем, интерпретатор Фокала гораздо менее требователен к ресурсам (прежде всего к памяти), нежели Бейсик, что позволяет делать более сложные программы на урезанных по ресурсам системах.
+
+В настоящее время Фокал не развивается и практически не используется, вышеупомянутые порты Focal-81 были проделаны энтузиастами в целях развлечения.
+
+== Некоторые команды Фокала ==
+{|
+|'''команда'''||'''описание'''||'''аналог в Бейсике'''
+|-
+|COMMENT||комментарий (текст следом за командой игнорируется)||REM
+|-
+|TYPE||вывод на консоль значений констант и выражений||PRINT
+|-
+|QUIT||штатное завершение выполнения программы||END
+|-
+|SET||присваивание значения переменной (или элементу массива)||LET
+|-
+|ASK||ввод значений с консоли||INPUT
+|-
+|GOТО||безусловный переход||GOTO
+|-
+|DO||вызов подпрограммы||GOSUB
+|-
+|RETURN||возврат из подпрограммы||RETURN
+|-
+|IF||ветвление по значению выражения||частично соответствует IF
+|}
+
+Команды Фокала могут быть записаны в сокращенной форме, только первой буквой.
+Существовали также версии Фокала на европейских языках (поставляемые DEC).
+
+== Примеры программ ==
+Стандартный пример Hello World

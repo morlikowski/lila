@@ -1,0 +1,90 @@
+{{Info/Comuna da França|
+|nome         = Marray
+|nomefr       = Marray
+|região       = Centro
+|departamento = Indre-et-Loire
+|área         = 23,82
+|altitude     = 
+|coordenadas  = 
+|população    = 262
+|densidade    = 11
+|censo        = 1999
+|insee        = 37149 <!-- Código INSEE -->
+|códpostal    =  <!-- Código postal -->
+|mapa         = <!-- Insira apenas o nome da imagem -->
+|mapaX        = <!-- Coordenada X no mapa -->
+|mapaY        = <!-- Coordenada Y no mapa -->
+|escudo       = <!-- Insira apenas o nome da imagem -->
+|bandeira     = <!-- Insira apenas o nome da imagem -->
+|imagem       = <!-- Insira apenas o nome da imagem -->
+|legenda      = <!-- Legenda para a imagem -->
+|gentílico    = 
+|website      = 
+|notas        = 
+}}
+'''Marray''' é uma região administrativa do Centro, no departamento km&sup2;, com 262 habitantes, segundo os densidade 11 hab/km&sup2;.
+
+Categoria:Comunas da França
+Categoria:Comunas do Centro
+Categoria:Comunas do departamento de Indre-et-Loire
+
+{{infobox Franse gemeente|
+|plaatsnaam= Marray
+|wapen= 
+|kaart= 
+|regio= Centre 
+|departement= Indre-et-Loire (37)
+|arrondissement= Tours
+|kanton= Neuvy-le-Roi
+|jaar= 1999
+|inwoners= 337
+|dichtheid= 14,2
+|oppervlakte= 23,8
+|water= 
+|code= 37149
+|postcode= 
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Marray''' is een gemeente in het Franse departement Centre) en telt 337 inwoners (1999). De plaats maakt deel uit van het arrondissement Tours.
+
+==Geografie==
+De oppervlakte van Marray bedraagt 23,8 km², de bevolkingsdichtheid is 14,2 inwoners per km².
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:570 color:gray1 width:1       
+  from:start till:end             
+  bar:380 color:gray1              
+  from:start till:end            
+  bar:190 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,143)(84,124) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 414 1968: 348
+  points:(84,124)(100,110)    color:blue    width:2 #1975: 301
+  points:(100,110)(128,101)   color:blue    width:2 #1982: 272
+  points:(128,101)(160,98)   color:blue    width:2 #1990: 262
+  points:(160,98)(196,121)   color:blue    width:2 #1999: 337
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

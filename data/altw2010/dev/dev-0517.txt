@@ -1,0 +1,304 @@
+{{Infobox VG
+|title = Descent
+|image = 256px
+|developer = Parallax Software
+|publisher = Interplay Productions
+|designer =
+|engine = Segment (Cube) based
+|version =
+|released = March 17, 1995
+|genre = First-person shooter
+|modes = Single player<br />Multiplayer
+|ratings = ESRB: Teen (T)<br>RSAC: V1: Damage to realistic objects
+|platforms = PC, (MS-DOS), Mac OS, Linux, PlayStation, Acorn Archimedes
+|media = CD-ROM, floppy disk
+|requirements = Minimum (MS-DOS)
+* IBM/Tandy or 100% compatible 386-33 or faster
+* 4 MB RAM
+* DOS 5.0 or later
+|input = Keyboard, Mouse, Controller
+}}
+
+'''''Descent''''' is a 3D first-person shooter video game developed by Parallax Software and released in 1995. Although unsophisticated by modern gaming standards, it is still cherished by a strong community of fans, particularly for online multiplayer, and new levels continue to be developed. It spawned two direct sequels: ''Descent II'' and ''Descent³''.
+
+The series has a strong following due to its unique six degrees of freedom (6DOF) gameplay. However, because this gameplay can be challenging and strongly favors the use of a joystick, ''Descent'' never gained the popularity of more conventional ground-based 3D first-person shooter games.
+
+The trademark for ''Descent'' was allowed to lapse by Interplay in 2002.<ref></ref>
+
+== Storyline ==
+
+The game begins with a briefing between a bald anonymous executive (in later games named Dravis) of the Post Terran Minerals Corporation (Charon.  After defeating the boss robot on Charon, the Material Defender is informed he cannot return to the PTMC's headquarters in lunar orbit, as there is a chance his ship may be infected with the same virus as the defeated robots.
+
+== Gameplay == 
+thumb|250px|Screenshot of ''Descent''
+=== Navigation ===
+Although the keyboard interface for moving and rotating in full 3D space is easily learned, many players initially suffered from viewpoint became possible. With practice, however, most people found the game fluid and very enjoyable. A bigger annoyance for casual players was getting lost in the mines (some of which were very large and complex). Highly experienced players who could memorize the mine layouts became adept enough to play the game with their point of view continually upside-down.
+
+The game also supported the use of two joysticks that could be configured freely, which made playing the game easier than using the keyboard.
+
+Like ''Doom'', ''Descent'' provides a navigational wireframe map that will display any area of the mine visited or seen by the player. Since it is truly 3D, however, navigating the map can be challenging, especially so in the shareware demo. The commercial release of ''Descent'' made map navigation more intuitive. One helpful trick is to use the "-" and "+" keys to decrease or increase the scope of the wireframe map. The flight control keys are used to control the map.
+
+''Descent'' never achieved the popularity of more contemporary 3D shooter games, possibly due to the demands on the player to keep his or her sense of orientation in a fully 3D environment with a 6DOF flight model. Additionally, learning to effectively exploit "(tri-) chording" — increasing movement speed by simultaneously pressing the acceleration controls for several movement directions — steepened the learning curve. Nonetheless, the challenge the flight model poses attracted — and continues to attract — players, even 13 years after the first game of the franchise appeared.
+
+=== Multiplayer ===
+''Descent'' offers competitive multiplayer game play for up to 8 players over a LAN and is touted as being one of the first games to allow initiating sessions conveniently from a menu within the game as well as on-the-fly joining of multiplayer games, whereas in many similar games of the era such as ''Doom'' it is presumed that all players have to be queued prior to initiating the match.
+ 
+With the advent of Internet Kali [http://kali.net] and [http://www.descent2.com/kahn/ Kahn], ''Descent'' and ''Descent II'' were increasingly played over the Internet. ''Descent II'' was especially popular online due to its support for short packets and variable packet rate, which significantly improved quality of play over the slower Internet connections prevalent at the time. 
+
+An important element of the online gaming community was the Invitational Descent Ladder [http://idl.warpcore.org]. The ladder facilitated one-on-one duels between some of the most skilled ''Descent'' players in the world. IDL matches were chiefly played in the original ''Descent'' game and to a lesser extent ''Descent 2''; ''Descent 3'' was not as well received and saw little use on the ladder in comparison.
+
+The ''D1X'' project significantly improved gameplay for on-line ''Descent'' games.
+
+=== Levels and robots ===<!-- This section is linked from Planets in science fiction -->
+In the original ''Descent'', there are 27 levels corresponding to 27 different and unique mines (and also three secret levels). The first three begin on the Venus, and the sixth and seventh take place on Mercury. These levels also make up the shareware version. 
+
+In the commercial release, the path continues out towards Mars and on towards the moons of the Saturn, Uranus, Neptune, and finally until Pluto and Charon. There are 3 secret levels, located in the Asteroid Belt, which can be accessed by secret exits that are placed as an alternative to the regular exits in certain levels.
+
+The enemy AI was quite good for its time, with most robots being able to dodge a player's fire, making for challenging firefights and duels. There are special AI strategies that complement the bots' attacking style, with regular (firing) robots starting in sniping mode and often aggressively pursuing if the player retreated, close-combat robots which are highly maneuverable and charge the player, and certain "cunning" or "lurking" bots that track the player and only attack when it will achieve surprise. As the mission progresses, new, tougher robots begin to appear with more powerful weapons.
+
+The seventh level, which is also the end of the shareware version, and the final level are cited as the most difficult. Both have large boss robots with powerful weaponry (the first boss fires Smart missiles; the second fires Mega Missiles) and have the ability to cloak (become invisible) then teleport to other parts of the room. The second boss also causes other robots to materialize nearby.
+
+=== Objectives ===
+Each level starts with the player in his ship materializing in a starting location within the mine. The player must then navigate through the mine while destroying enemy robots and picking up powerups if his resources run low. The player's spacecraft has a fixed energy capacity and most weapons and tools require regular pickups of energy powerups to be able to continue firing. Killing opponents often releases such powerups. There are also permanent recharging areas called "energy centers" and players often make it a priority to seek these out first in order to give themselves an unlimited supply of energy. The player's ship also contains a limited supply of shield energy (normally referred to as "shields"), which is reduced when the player is hit. Unlike energy, shields can only be restored by acquiring the appropriate powerups.
+
+The player has limited lives. When the ship is destroyed, it respawns at the mine's entrance. However, all the powerups (weapons, etc.) acquired thus far will be strewn about the area of death waiting to be reacquired. There is also a complementary points system. Players can score points by destroying enemy robots, picking up powerups, and detonating the reactor. The most points will be earned by rescuing the trapped PTMC workers in each mine and safely escaping with them after destroying the reactor. Hostages are lost when the ship is destroyed, so it is often recommended that they be rescued just before blowing the reactor. Accumulating 50000 points will result in an extra life. In addition, after completing the game, a "Ship Bonus" will be obtained, equal to every life saved multiplied by 50000 points (e.g. if a player has 7 lives left at the end of the game, he will receive a bonus of 350000 points to his current score).
+
+In ''Descent'', the goal of each level is to find a series of keys, usually in the order of blue, yellow, and red. Each key will correspond with a door of that color. Beyond the red door is the reactor, which itself will fire back at the player, and the area is also heavily defended by robots. By severely damaging the reactor, it will set off a countdown timer. The player will have to find the route back to the exit tunnel before the countdown expires and the reactor's meltdown vapourizes the entire mine. If the player cannot escape, but has extra lives to spare, he can proceed to the next level and be forced to start with minimal weapons.
+
+In the seventh and twenty-seventh levels, the reactor is replaced by a boss robot, which similarly triggers the countdown after it is destroyed.
+
+=== Saving ===
+In the shareware version, saving will only record the player data at the start of the level.  Saving in the full version can be done at any time (but not on secret levels in Descent II); it stores the exact details of every object's location and data, and a small snapshot of the player's view, at the time of the save.
+
+=== Recording Demos ===
+''Descent'' is also one of the first games to feature a sophisticated built-in demo recording system. Pressing F5 anytime during single or multiplay games records all action on the screen like position/movement of players/robots, what weapon was fired/picked up, chat between multiplayers, etc. to a file. Since the demos do not contain any graphics but only information for the game engine on how to render them on playback (which offers pause and fast forward/rewind), even long sessions result in comparatively small files that can easily be spread via mail or websites which is still done by the community for demonstrating multiplayer fighting techniques, walkthroughs, speedruns and so on. 
+
+=== Weapons and items ===
+The overall gameplay is enhanced by the wide variety of weapons the player can wield. Often, they are used for their novelty and variety instead of tactical considerations. The proximity bomb is designed specifically for multiplayer. ''Descent'' features ten weapons; five primary weapons and five missiles. Players also have access to Flares for lighting up dark areas, and powerups with various effects.
+
+''Descent'''s handling of weapons in multiplayer differs from most first-person shooters. When a player is killed, all the powerups (weapons, etc.) acquired thus far will be strewn about the area of death waiting to be reacquired. Instead of respawning primary weapons, which could potentially allow several players to pick up the same weapon over time, only one player can have it at a time, forcing his opponents to destroy him in order to acquire it.
+
+== Development ==
+The original ''Descent'' runs under 386-based PCs at 33&nbsp;MHz. With the release of the Apple's Power Macintosh in 1996 and both versions support multiplayer network play over a variety of protocols. A console port of ''Descent'' was created for the Sony PlayStation. Another console port for the Sega Saturn was also planned, but never released.
+
+=== Rendering ===
+''Descent'' was released in February 1995, just over a year after Doom'' (December 1993). Like most games of its era, ''Descent'' uses a software renderer, because mainstream 3D graphics accelerator cards did not exist at the time. However, while most of its contemporaries &ndash; ''Doom'' included &ndash; use sprites to render enemies, ''Descent'' renders enemies in full 3D using polygon meshes, a technique employed by ''BSP trees for visibility culling (to speed up rendering), instead taking advantage of the game's use of collections of cubes to form rooms and tunnels. This system was very efficient, and made possible one of the first true 3D environments in a video game.  On lower-end systems, detail levels could be reduced to cut out some of the smaller polygons on robots and render solid color blocks on distant textures instead of mapping the entire texture.
+
+The original ''Descent'' uses indexed Macintosh and later PC versions allow higher resolutions, such as 640 × 480. The default engine uses a software renderer in which the perspective transformation for texture mapping is only performed once every 32 pixels, causing textures to appear to pop or shift when viewed from certain angles. The software renderer also uses nearest-neighbor texture filtering, as opposed to bilinear filtering or trilinear filtering used by modern video cards. Nearest-neighbor texture filtering causes aliasing artifacts, such as blocky or swimming textures.
+
+The engine for ''Descent'' is a convex. To create effects like doors and see-through grating, walls could be placed at the connected sides of two cubes. Descent introduced an elaborate static lighting scheme as well as simple dynamic lighting, where the environment could be lit with flares - another advancement compared to ''Doom''.
+
+'''Descent''' ist der Name einer Serie von Computerspielen aus den Shooter, bei denen der Spieler aus der Egoperspektive ein Raumschiff durch verschiedene Umgebungen steuert und feindliche Roboter abschießt. Descent war 1995 das erste Computerspiel mit einem ohne Einschränkungen gestalteten 3D-Labyrinth und freier Beweglichkeit der vom Spieler gesteuerten Einheit in drei Achsen und sechs Richtungen. Obwohl ein nach heutigen Maßstäben veraltetes Spiel, hat es eine kleine, aber treue Fangemeinde, die sich nach wie vor zu Online-Spielen trifft und neue Level erstellt.
+
+==Descent==
+{{Infobox Computer- und Videospiel|
+|Titel = Descent
+|Bild = 
+|Entwickler = Parallax Software
+|Verleger = Interplay Productions
+|Release = 1995
+|Plattform = Macintosh, PC (Linux, MS-DOS), PlayStation
+|Genre = Ego-Shooter
+|Spielmodi = Einzelspieler, Mehrspieler
+|Bedienung = Tastatur/Maus, Joystick
+|Systemminima = RAM
+|Medien = CD-ROM/3,5" Disketten
+|Sprache = 
+|USK = 12
+|Info = 
+}}
+'''Descent''' wurde 98 noch problemlos gespielt werden konnte, gelang dies mit späteren Windows-Versionen teilweise nur mit technischen Tricks. Da der Quellcode mittlerweile veröffentlicht wurde, existieren auch z. B. für Linux Versionen des Spiels, sowie eine Modifikation, die es ermöglicht, Descent über OpenGL zu spielen.
+
+=== Handlung ===
+Außerirdische haben die Schürfroboter der Post-Terran Mining Corporation (PTMC) in ihren Bergwerken auf dem Mond und den Planeten unseres Sonnensystems unter ihre Kontrolle gebracht. Die wenigen menschlichen Angestellten wurden gefangengenommen oder getötet. Die Aufgabe des Spielers ist es, in 30 Levels die Bergwerke von den Robotern zu säubern, die Gefangenen zu befreien und die Hauptreaktoren der Minen zu zerstören. Gelegentlich trifft man auf einen besonders großen und starken Boss-Roboter. Zutritt zu den verschiedenen Bereichen einer Mine verschafft man sich mit passenden Codekarten, die man im Level finden kann. Dem Spieler steht für seine Aufgabe ein kleines Raumschiff - das Pyro GX - zur Verfügung, dessen Bewaffnung im Lauf des Spiels verbessert werden kann.
+
+=== Waffen ===
+Das Schiff des Spielers ist mit zwei Typen von Waffen ausgestattet.
+
+Die Primärbewaffnung besteht aus Schusswaffen:
+* Laser, in vier Stufen aufrüstbar: Energiewaffe mittlerer Feuergeschwindigkeit mit hohem Wirkungsgrad; steigerungsfähig von Zwillings- auf Vierlingslaser
+* Vulkankanone: Kinetische Waffe mit hoher Feuerrate und starker Wirkung
+* Streufeuerkanone: Energiewaffe mit Wirkung ähnlich einer Schrotflinte
+* Plasmakanone: Energiewaffe mit hoher Feuergeschwindigkeit und Energieverbrauch
+* Fusionskanone: Energiewaffe mit geringer Feuergeschwindigkeit, hohem Energieverbrauch und massiver Durchschlagskraft. Mit ihr können mehrere hinter einanderliegende Ziele bekämpft werden.
+        
+Die Sekundärbewaffung besteht aus Raketen und Minen:
+* Erschütterungsgeschoss: Ungelenkte Rakete (max. 20 Stück)
+* Zielpeilgeschoss: Zielsuchende Rakete (max. 10 Stück)
+* Annäherungsmine: Einfache Mine, die bei Kontakt detoniert (max. 10 Stück)
+* Smart-Geschoss: Intelligente Rakete, zerlegt sich bei Aufprall auf ein Hindernis in zielsuchende Plasmaprojektile (max. 5 Stück)
+* Megarakete: Langsam fliegende zielsuchende Rakete mit enormer Zerstörungskraft (max. 5 Stück)
+
+Der Spieler kann jeweils eine Primär- und eine Sekundärwaffe aktivieren und diese dann gleichzeitig abfeuern. Dazu kommen noch Kontaktminen.
+
+=== Roboter ===
+* Class 1 Drone: Schwach gepanzert, gelbe Feuerbälle , mittel (200 Pkt)
+* Class 2 Drone: Schwach gepanzert, Laser lvl 3 , mittel (300 Pkt)
+* Small Hulk: Schwer gepanzert, Laser lvl 4 , langsam (500 Pkt)
+* Medium Hulk: Schwer gepanzert, Erschütterungsraketen , langsam (500 Pkt)
+* Super Hulk: Schwer gepanzert, zielesuchende Raketen , langsam (1500 Pkt)
+* Small Lifter: Leicht gepanzert, Laser lvl 1 , mittel (400 Pkt)
+* Medium Lifter: Mittel gepanzert, 2 Klingen , schnell (500 Pkt)
+* Super Lifter: Mittel gepanzert, 4 Klingen , mittel (800 Pkt)
+* Spider: Mittel gepanzert, gelbe Feuerbälle , langsam (setzt Spider spawn frei) (600 Pkt)
+* Spider Spawn: Leicht gepanzert, Laser lvl 1 , schnell (100 Pkt)
+* Gopher: Mittel gepanzert, Laser lvl 3 oder Minen , mittel (200 Pkt)
+* PTMC Defence Robot: Mittel gepanzert, Laser lvl 4 , schnell (700 Pkt)
+* Class 1 Plattform: Schwer gepanzert, Laser lvl 3 , mittel (300 Pkt)
+* Class 2 Plattform: Schwer gepanzert, Erschütterungsraketen , mittel (800 Pkt)
+* Driller: Mittel gepanzert, Vulkankanone , schnell (1000 Pkt)
+* Heavy Driller: Schwer gepanzert, Plasmakanone , mittel (1000 Pkt)
+* Miniboss: Schwer gepanzert, Fusionskanone , langsam ("schwächere" Version des Level-7 Endgegners) (2000 Pkt)
+* Split bot: Schwer gepanzert, unbewaffnet, langsam
+
+* Reaktor: Rote Energiebälle (5000 Pkt)
+* Boss 1 (Lv.7): Smart Raketen (5000 Pkt)
+* Boss 2 (Lv.27): Mega Raketen (10.000 Pkt)
+
+=== Technik ===
+Volle Bewegungsfreiheit (360 Grad), wenn auch nur innerhalb des begrenzten Raums von Minenstollen und -kammern, hohe Geschwindigkeit und wegweisende grafische Merkmale machten Descent zu einem Meilenstein in der Ära der dreidimensionalen Computerspiele. Viele Ereignisse wurden durch versteckte Schalter gesteuert und liefen nach ihrer Auslösung unabhängig von Aktionen des Spielers ab. So gab es in Descent zahlreiche Stellen, an denen Roboter aus der Wand drangen und angriffen, sobald sich der Spieler an einer definierten Stelle vorbei bewegte. Anders als in vergleichbaren Spielen waren die Gegner nicht nur zweidimensionale Sprites, sondern dreidimensionale Objekte, wodurch sie wesentlich realistischer wirkten. Die Steuerung der feindlichen Roboter war ausgefeilt und anderen Spielen in diesem Genre überlegen. Trotzdem - oder vielleicht gerade deswegen - blieb Descent im Vergleich zu den populären 3D-Shootern, in denen man sich entlang zweier Achsen bewegte, ein Nischendasein mit einer vergleichsweise geringen Anzahl an Fans vorbehalten, die mit der desorientierenden Bewegungsfreiheit und der entsprechend komplexeren Steuerung umzugehen wussten.
+
+=== Mehrspieler ===
+Netzwerk mittels des KALI oder KAHN ermöglicht. 
+
+Descent bietet folgende Spielmodi:
+* Kooperativ (maximal 4 Spieler)
+* Anarchie (jeder gegen jeden, bis eine bestimmte Menge an Abschüssen oder ein Zeitlimit erreicht wurde - heute eher bekannt als Deathmatch)
+* Flagge erobern (Capture the Flag - CTF): Hier muss die gegnerische Flagge eingesammelt und zu einem bestimmten Bereich im Level gebracht werden. Die Implementierung war allerdings wegen des Fehlens einiger wichtiger Details unausgereift.
+
+=== Verfügbarkeit ===
+Descent war auf folgenden Systemen erhältlich:
+* PC
+* Mac
+* Sega Saturn
+* PlayStation
+
+Dank der zur damaligen Zeit überlegenen Technik der PlayStation und der großen Kapazität der von ihr verwendeten Datenträger war es möglich, Videos in die PlayStation-Fassung zu integrieren, die in der PC-Version fehlten.
+
+== Descent 2 / Maximum==
+{{Infobox Computer- und Videospiel|
+|Titel = Descent 2
+|Bild = 
+|Entwickler = Parallax Software
+|Verleger = Interplay
+|Release = 1996
+|AktuelleVersion = 1.2
+|Plattform = Macintosh, PC (Linux, Windows), PlayStation
+|Genre = Ego-Shooter
+|Spielmodi = Einzelspieler, Mehrspieler
+|Bedienung = Tastatur/Maus; Joystick
+|Systemminima = Pentium 60 MHz, 16 MB RAM, Grafikkarte mit 1 MB
+|Medien = 1 CD-ROM
+|Sprache = Englisch
+|USK = 12
+|USK2 = 16
+|Info = Die PC Ausgabe wurde ab 12 Jahre freigegeben, während die PlayStation-Variante (SLES 00558) ab 16 Jahre freigegeben wurde.
+|Kopierschutz= 
+}}
+'''Descent 2''' (orig. ''Descent II'') erschien Patch ließ sich Descent 2 auch unter Windows 95 und Windows 98 mit DirectX 2.0 spielen. Für die kurz darauf neu erschienenen ersten Grafikbeschleuniger wurden speziell angepasste Versionen des Spiels veröffentlicht, die auf diesen Karten eine deutlich höhere Bildqualität und Geschwindigkeit erzielten. Hier ist vor allem die 3dfx-Version für die damals sensationellen Voodoo-Grafikbeschleuniger der inzwischen aufgelösten Firma 3dfx zu nennen. In Amerika wurde die Descent-2-Umsetzung für die PlayStation '''Descent Maximum''' genannt, während sie in anderen Ländern ganz normal Descent 2 hieß. Das war nötig, da Sony Portierungen von PC-Spielen verbot, aus diesem Grund enthält Descent 2 für die PlayStation auch nicht dieselben Levels wie für den PC, sondern komplett neue Missionen.
+
+=== Handlung ===
+Die Geschichte entsprach der des Vorgängers und wurde schlicht auf interstellare Entfernungen ausgedehnt, zu deren Überbrückung das Schiff des Spielers mit dem Warp-Antrieb ausgerüstet wurde. Wieder galt es, sein Raumschiff durch mit feindseligen Robotern verseuchte Bergwerksstollen zu navigieren, die wiederum in 30 Level (24+6 geheime Levels) aufgeteilt waren. Das Verhaltensrepertoire der Roboter war noch ausgefeilter geworden und erlaubte Aktionen wie Patrouille, Verfolgung, Hinterhalt und Verstärkung holen; dazu war auch Ihre Bewaffnung verbessert worden. Zum Ausgleich erhielt auch der Spieler einen kompletten zweiten Satz aller Waffen mit deutlich höherer Feuerkraft. Dazu kamen nützliche Ausrüstungsgegenstände wie Scheinwerfer, Nachbrenner, Schildkonverter und Munitionsträger. Grafisch wurde das Spiel durch bewegte Texturen und Kraftfelder aufgewertet. Die Level und Rätsel waren deutlich komplizierter als im ersten Teil des Spiels. Damit der Schwiergkeitsgrad durch die komplexeren Level nicht zu stark anstieg, wurde ein sogenannter "Guide Bot" eingeführt. Dieser kleine Helfer ist ein Roboter, der nicht feindselig ist, und aus einem Gefängnis befreit werden muss. Als Dank für seine Befreiung zeigt der Guide Bot dem Spieler die Wege zu den einzelnen lösungsrelevanten Stellen in dem Level (Karten, Reaktor).
+
+=== Waffen ===
+Zu den bereits aus ''Descent'' bekannten Waffen kamen neue hinzu, von denen die meisten eine verstärkte Version der Basiswaffe sind:
+
+Primärwaffen:
+* Superlaser: Zwei weitere, zum Vierlingslaser kompatible Ausbaustufen für den Laser
+* Gaußkanone: Siehe Gaußgewehr
+* Helixkanone: Deutliche Verbesserung der Streufeuerkanone; der Wirkungsradius und die Feuerrate wurde erhöht 
+* Phönixkanone: Energiewaffe, deren Projektile bis zu zweimal von Hindernissen abprallen, was indirekte Schüsse ermöglicht, extrem hohe Feuerrate; Nachteil ist ihr enormer Energieverbrauch
+* Omegakanone: Zielsuchende Energiewaffe für den Nahbereich. Der von ihr verursachte Schaden hängt von der Bildwiederholrate ab, was ihr auf schnellen Rechnern einen Vorteil verschafft.
+
+Sekundärwaffen:           
+* Blendrakete: Richtet nur geringen Schaden an; ihre Hauptwirkung ist ein greller Lichtblitz, der den Gegner blendet und im Nahbereich auch die eigene Orientierung behindern kann (max. 20 bzw. 40 Stück)
+* Fernlenkrakete: Vom Spieler gesteuerte Rakete, die in zielsuchenden Modus geschaltet werden konnte (max. 20 bzw. 40 Stück)
+* Zielsuchende Mine: Zerlegte sich bei Annäherung in zielsuchende Projektile (max. 15 bzw. 30 Stück)
+* Quecksilberrakete: Extrem schnelle Rakete mit hoher Zerstörungskraft (max. 10 bzw. 20 Stück)
+* Erdbeben-Rakete: Rakete mit massiver Zerstörungskraft; zerlegte sich bei Aufprall auf ein Hindernis in mehrere ballistische Projektile von mit einer Mega-Rakete vergleichbarer Explosionsstärke (max. 10 bzw. 20 Stück)
+
+=== Roboter ===
+Wie in anderen, in Level unterteilten Spielen, werden die gegnerischen Roboter mit aufsteigender Schwierigkeitsstufe immer ausgefeilter und gefährlicher:
+* Pest (ab Lv.1): Schnell zu zerstören, behäbig, schwache Energiewaffe (250 Pkt)
+* PIG (ab Lv.1): Schnell zu zerstören, behäbig, schwache Energiewaffe, in höheren Levels hohe Feuerrate (400 Pkt)
+* ITD (ab Lv.1): Sehr schnell zu zerstören, sehr flink, Maschinengewehr mit Streufeuer, in höheren Levels mit verbesserter Zielerfassung, klassische Versteckspiel-Taktik (200 Pkt)
+* Bandit (ab Lv.1): Extrem starker Schild, extrem schnell, ist darauf aus Ausrüstung aus dem Schiff zu stehlen, keine Waffen (2500 Pkt)
+* Smelter (ab Lv.2): Mittelstarker Schild, behäbig, aber relativ starke Waffe (vergleichbar mit Phoenixkanone, also Vorsicht bei Abprallern) (500 Pkt). Dieser Gegner kommt auch in einer unsichtbaren Version vor (700 Pkt)
+* Diamond Claw (ab Lv.3): Starker Schild, aggressiv, Nahkämpfer, bei Beschuss mit Energiewaffen gibt er zielsuchende Plasmaprojektile ab (800 Pkt). Dieser Gegner kommt auch in einer unsichtbaren Version vor (1200 Pkt)
+* Sidearm (ab Lv.3): Starker Schild, sehr behäbig, Energiewaffe und Blendrakete, kann bei Zerstörung Modula freisetzen (1000 Pkt)
+* Sidearm Modul (Pl. Modula, ab Lv.3): Sehr schnell zu zerstören, extrem flink, Blendraketen, einige Exemplare mit hoher Feuerrate (150 Pkt)
+* Lou Guard (ab Lv.4): Starker Schild, behäbig, zielsuchende Raketen, einer der stärksten Gegner im Spiel (1500 Pkt)
+* Fox (ab Lv.5): Mittelstarker Schild, meist behäbig, Energiewaffe mit hoher Feuerrate und Feuergeschwindigkeit (750 Pkt)
+* ITSC (ab Lv.5): Mittelstarker Schild, flink (Versteckspiel), einfache Raketen und Maschinengewehr (700 Pkt)
+* Seeker (ab Lv.7): Starker Schild, behäbig, Quecksilberraketen (1500 Pkt)
+* TRN-Racer (ab Lv.9): Mittelstarker Schild, behäbig, schwache Energiewaffe mit hoher Feuerrate (650 Pkt)
+* Red Hornet (ab Lv.9): Sehr schnell zu zerstören, extrem flink, schwache Energiewaffe mit sehr hoher Feuerrate (100 Pkt)
+* Red Fatty (ab Lv.9): Sehr starker Schild, sehr behäbig, verbesserte Phoenixkanone und Quecksilberraketen ("schwächere" Version des Level-4-Endgegners) (1700 Pkt)
+* Omega (ab Lv.10): Mittelstarker Schild, aggressiv und kann Schüssen ausweichen, Sprengsatz, der beim Auftreffen auf das eigene Schiff explodiert (400 Pkt)
+* E-Bandit (ab Lv.10): Starker Schild, aggressiv und flink, bei Kontakt zieht er Waffen- und Schildenergie ab (1000 Pkt)
+* Guppy (ab Lv.10): Schwacher Schild, so schnell, dass er fast nicht zu treffen ist, setzt Minen oder zielsuchende Minen ab, einige Exemplare mit Überraschungseffekt (300 oder 400 Pkt)
+* Bulk Destroyer (ab Lv.11): Schwacher Schild, gelegentlich flink, Gausskanone (1000 Pkt)
+* Ice Spicer (ab Lv.13): Mittelstarker Schild, flink, Energiewaffe mit hoher Feuerrate (900 Pkt)
+* Bper Bot (ab Lv.17): Mittelstarker Schild, flink, starke Energiewaffe mit hoher Feuerrate (700 Pkt)
+* Spider (ab Lv.21): Mittelstarker Schild, flink und aggressiv, Raketenwerfer mit hoher Feuerrate (600 Pkt)
+* Spider Spawn (ab Lv.21): Schnell zu zerstören, extrem flink (Versteckspiel), schwache Energiewaffe mit hoher Feuerrate (200 Pkt)
+* Boarshead (ab Lv.21): Mittelstarker Schild, unberechenbare Taktik, starke Energiewaffe und intelligente Rakete (Vergleiche bei Descent 1) (1150 Pkt)
+Alle 4 Levels erscheinen als Endgegner besonders starke Boss-Roboter, alle mit extrem starkem Schild und allesamt recht behäbig, können sich aber innerhalb ihres Bereichs teleportieren:
+* Lv.4: Blend- und Zielsuchende Raketen (7500 Pkt)
+* Lv.8: Quecksilberraketen, zielsuchende Minen (8000 Pkt)
+* Lv.12: Phoenixkanone, Mega-Raketen (9500 Pkt)
+* Lv.16: Omegakanone, Zielsuchende Blendraketen (10.000 Pkt)
+* Lv.20: Gaussgeschütz, Quecksilberraketen (12.000 Pkt)
+* Lv.24: Mega-Rakete, Erdbebenrakete, ist nur am Rücken verwundbar (15.000 Pkt)
+
+=== Mehrspieler ===
+Die in Descent vorhandenen Modi waren auch in Descent 2 vorhanden, wurden aber durch einen neuen Spielmodus "Capture The Flag", sowie viele weitere Konfigurationsmöglichkeiten erweitert. Mit der Vertigo-Spielerweiterung zu Descent 2 erhielt man noch einen weiteren, interessanten Spielmodus, der sich "Hoard" nannte. Hier verlor man eine grüne Energiekugel, wenn man abgeschossen wurde. Diese Kugeln konnten dann von den anderen Spielern eingesammelt und in einen Zielbereich gebracht werden. Je mehr Kugeln man einsammelte, bevor man damit ins Ziel flog, desto höher war die Prämie, die man erhielt - aber natürlich auch das Risiko, selber abgeschossen zu werden und alle Kugeln an den Kontrahenten abzugeben.
+
+=== Verfügbarkeit ===
+Descent 2 war auf folgenden Systemen erhältlich:
+* PC
+* Mac
+* PlayStation (in Amerika unter dem Namen Descent Maximum erschienen)
+
+Die PC- und die PlayStation-Versionen besitzen unterschiedliche Level. Die Gegner, Waffen etc. sind jedoch identisch.
+
+== Descent II: Vertigo ==
+'''Descent II: Vertigo''' ist ein Addon für Descent 2. Neben 20 neuen Levels bietet es neue Gegner und einen neuen Multiplayer-Modus namens "Hoard". In Deutschland war Vertigo erst mit dem Spielepaket "Descent I and II: The Definitive Collection" verfügbar. Dieses enthielt mit dem '''Descent Mission Builder''' auch ein Windows-basiertes Programm zum Erstellen neuer Levels für Descent 1 und 2, das in Konkurrenz zum von Fans entwickelten, DOS-basierten Level-Editor '''DEVIL''' trat.
+
+== Descent I and II: The Definitive Collection ==
+Ein Bündel folgender Spiele:
+* Descent I
+* Descent: Levels of the World (Levels von Fans, die anlässlich eines offiziellen Wettbewerbs entstanden sind)
+* Descent II
+* Descent II: Vertigo Series
+* Descent Mission Builder II
+
+== Descent³ ==
+{{Infobox Computer- und Videospiel|
+|Titel = Descent³
+|Bild = 
+|Entwickler = Outrage Entertainment
+|Verleger = Interplay, Loki Software
+|Release = 1999
+|AktuelleVersion = v1.4 (v1.5 inoffiziell)
+|Plattform = Mac, PC (Linux, Windows)
+|Genre = Ego-Shooter
+|Spielmodi = Einzelspieler, Mehrspieler
+|Bedienung = Tastatur/Maus; Joystick
+|Systemminima = Pentium  200 MHz, 32 MB RAM, 210 MB freier Festplattenspeicher, Windows 95 bzw. OSS kompatible Soundkarte, Grafikkarte mit 4 MB 
+|Medien = 2 CD-ROM
+|Sprache = Deutsch
+|USK = 12
+|Info = 
+|Kopierschutz = Laser Lock
+}}
+'''Descent³''' erschien 1999 für den PC und wurde von Outrage Entertainment weiterentwickelt, nachdem sich die Firma Parallax Software zur Diversifizierung in mehrere Geschäftsfelder in zwei Firmen trennte (Outrage Entertainment und Volition, Inc).
+ 
+=== Handlung ===
+Descent³ setzt die Handlung dort fort, wo sie in Descent 2 endet: Nach einem Reaktorschaden an seinem Schiff, der es manövrierunfähig macht und auf eine Sonne zutreiben lässt, wird der Spieler knapp gerettet. Es stellt sich heraus, dass der Schaden vorsätzlich vom Arbeitgeber des Spielers, der PTMC, verursacht worden ist. Es wird außerdem klar, dass die PTMC die mit einem Computervirus verseuchten Roboter für ihre eigene Zwecke missbraucht, nämlich um die Weltherrschaft an sich zu reißen. Der Spieler schließt sich einer Widerstandsbewegung an, die versucht, die Wahrheit ans Licht zu bringen und die Bevölkerung zu warnen. Natürlich versucht die PTMC, dies mit allen Mitteln zu verhindern. 
+
+Grafik und spieltechnisch macht Descent³ alles neu: Es gibt neue Waffen, neue Gegner und neue, komplexere Aufgaben, wie z.B. geheime Unterlagen aus einem Forschungslabor zu stehlen oder einen Forscher aus einem Gefängnis zu befreien. Descent³ unterstützt dies durch ausgefeilte, gescriptete Abläufe, wie sie bei Erscheinen des Spiels Stand der Technik waren. Neu ist auch die Verfügbarkeit drei verschiedener Schiffstypen, von denen zwei erst im Verlauf des Spiels zu erhalten sind.
+Der im zweiten Teil vorgestellte Guide Bot wurde aufgewertet. Er ist nun in das Spielerschiff integriert und kann auf Befehl ausgeklinkt werden und verschiedene Befehle ausführen. Zusätzlich gibt es auch sog. "Pickups" für den Guide Bot. Verschiedene Pickups haben verschiedene Wirkungen, so kann z.B. der Guide Bot mit dem Feuerlöscher-Pickup das Schiff des Spielers löschen, falls sich dieses durch einen misslungenen Napalmangriff selbst in Brand gesetzt hat, oder von einem Feind angezündet wurde. Ein anderes Pickup verwandelt den Guide Bot in eine Kampfmaschine, die den Spieler unterstützt. Das Antivirus-Pickup ermöglicht es dem Guide Bot, feindliche Roboter für eine bestimmte Zeit auf die Seite des Spielers zu ziehen, so dass der ehemalige Feind Seite an Seite mit dem Spieler die Feinde bekämpft.
+
+=== Waffen ===
+Folgende Waffen sind im Spiel enthalten:

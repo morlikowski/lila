@@ -1,0 +1,58 @@
+'''Я́дерна фі́зика''' — це розділ фізики, який вивчає структуру і властивості атомних ядер, та механізми ядерних реакцій (в тому числі радіоактивний розпад).
+
+Задачі, що виникають в ядерній фізиці, — це типовий приклад задач декількох тіл. Ядра складаються з нуклонів (протонів і нейтронів), і в типових ядрах містяться десятки і сотні нуклонів. Це число дуже велике для точно вирішуваних задач, але все таки дуже мале для того, щоб можна було користуватися методами статистичної фізики. Це і призвело до великої різноманітності різних моделей атомних ядер.
+
+== Загальні відомості про ядра атомів==
+Число протонів в ядрі (''число заряду'', також ''порядковий номер елементу'') прийнято позначати через ''Z'', число нейтронів — через ''N''. Їх сума ''A = Z + N'' називається ''масовим числом ядра''. Атоми з однаковим ''Z'' (тобто атоми одного і того ж елементу), але з різними ''N'' називаються ізотопами, з однаковими ''A'', але з різними ''Z'' — ізобарами, з однаковими ''N'', але з різними ''Z'' — ізотонами.
+
+Основна відмінність між протоном і нейтроном полягає в тому, що протон — заряджена частинка, заряд якої ''e'' = 4,803&times;10<sup>&minus;10</sup> од. Кл. Це Спіни протона і нейтрона однакові і рівні спіну електрона, тобто 1/2 (в одиницях <math>\hbar</math> зведеної сталої Планка). Маси протона і нейтрона майже рівні: 1836,15 і 1838,68 мас електрона відповідно.
+
+Протон і нейтрон не є елементарними частинками. Вони складаються з двох типів кварків — ''d''-кварка із зарядом —1/3 і ''u''-кварка із зарядом +2/3 від елементарного заряду ''е''. Протон складається з двох ''u''-кварків і одного ''d''-кварка (сумарний заряд +1), а нейтрон з одного ''u''-кварка і двох ''d''-кварків (сумарний заряд — 0). Вільний нейтрон — частинка нестабільна. Він розпадається через 15 хвилин після свого виникнення на протон, електрон і антинейтрино (див. Бета-розпад нейтрона). В ядрі нейтрон знаходиться в глибокій потенційній ямі, тому його розпад може бути заборонений законами збереження.
+
+== Методи дослідження та підрозділи == 
+
+Вивчення будови ядра та його складових елементів можливе тільки за допомогою вивчення ядерних реакцій. Для проведення ядерних реакцій необхідні засоби прискорення й детектування частинок. Тому невід'ємними підрозділами ядерної фізики є фізика прискорювачів і фізики детекторів.
+
+Радіаційна фізика та радіаційне матеріалознавство є міждисциплінароними підрозділами фізики, які вивчають вплив ядерного випровмінювання на властивості опромінених речовин і методи модифікації властивостей матеріалів за допомогою опроміннення.
+
+== Значення == 
+
+Ядерна фізика має принципове значення для багатьох розділів астрофізики (первинний термоядерні реакції в зорях як під час життя на головній послідовності, так і при сході з неї), і, очевидно, для ядерної енергетики.
+
+== Історія ==
+Перше явище з області ядерної фізики було відкрите в Анрі Беккерелем. Це ''природна радіоактивність'' солей урану, що виявляється в мимовільному випусканні невидимого проміння, здатного викликати іонізацію повітря і почорніння фотоемульсій. Через два роки П'єр Кюрі і Марія Склодовска-Кюрі відкрили радіоактивність торію і виділили з солей урану урану і торію.
+
+'''Nuclear physics''' is the field of physics that studies the building blocks and interactions of atomic nuclei. 
+
+It must not be confused with arrangement of electrons, even if both terms are sometimes used synonymously in standard English.
+
+Particle physics is a field that has evolved out of '''Nuclear physics''' and for this reason has been included under the same term in earlier times.
+
+Nuclear power and nuclear bombs are the most commonly known applications of nuclear physics, but the research field is also the basis for a far wider range of less common applications, like e.g. in the medical sector (nuclear medicine, magnetic resonance imaging), in materials engineering (ion implantation) or archaeology (radiocarbon dating).
+
+==Forces==
+Nuclei are bound together by the electromagnetic and gravitational). The strong force is highly attractive at only very small distances which, combined with repulsion between protons due to the electromagnetic force, allows the nucleus to be stable. The strong force felt between nucleons arises due to the exchange of gluons. The study of the strong force is dealt with by quantum chromodynamics (QCD).
+
+==Nuclear models==
+
+Nucleons in the nucleus move about in a potential energy well which they themselves create arising from their interaction, and movement, with respect to each other. Nucleons can interact with each other via 2-body, 3-body or multiple-body forces. The fact that many nucleons interact with each other in a complicated way makes the nuclear many-body problem difficult to solve. 
+
+There broadly exist two types of nuclear models which attempt to predict and understand characteristics of nuclei. These are microscopic and macroscopic nuclear models. Microscopic nuclear models approximate the potential which the nucleons create in the nucleus. Individual interactions are combined as linear sums of potentials. Almost all models use a central potential plus a spin orbit potential. The difference between models is then defined by the 3-body potential used, and/or the shape of the central potential. The form of this potential is then inserted into the Schrödinger equation. Solution of the wavefunction, spin, parity and excitation energy of individual levels. The form of the potential used to determine these nuclear properties indicates the type of microscopic model. The shell model and deformed shell model (Nilsson model) are two examples of microscopic nuclear models.
+
+Macroscopic nuclear models attempt to describe such attributes as the nuclear size, shape and surface diffuseness. Rather than calculating individual levels, macroscopic models predict nuclear radii, degree of deformation and diffuseness parameter. A simple approximation for the nuclear radius is that it is proportional to the cube root of the nuclear mass.
+
+<math>R \propto A^{1/3}</math>
+
+This implies that all nuclei are spherical and their radius is directly proportional to the cube root of their volume (volume of a sphere = <math>4/3 \pi R^3</math>). Nuclei can also exist in a deformed shape and thus a degree of deformation ,<math> \beta_{2}</math>, can be included to take this into account. The fact that the nucleus may not be entirely incompressible is also considered by the diffuseness parameter <math>\delta</math>. An example of a macroscopic model is the droplet model of Myers and Schmidt.
+
+Some quite successful attempts have been made to combine the microscopic and macroscopic models together. These so called mic-mac models begin with a nuclear potential, solve the Schrödinger equation and proceed to predict macroscopic nuclear parameters.
+
+==Protons and neutrons==
+Protons and neutrons are strangeness quantum number can also share the wave function.
+
+==Nuclear activity==
+===Alpha decay===
+
+===Beta decay===
+
+===Gamma decay===

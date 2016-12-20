@@ -1,0 +1,49 @@
+{{Infobox Software
+| 名称 = TiMidity++
+| ロゴ = 
+| スクリーンショット = 
+| 説明文 = 
+| 開発元 = Masanao Izumo
+| 最新版 = 2.13.3
+| 最新版発表日 = 2004年10月4日
+| 最新評価版 = 
+| 最新評価版発表日 = 
+| 対応OS = クロスプラットフォーム
+| 対応プラットフォーム = 
+| 種別 = ソフトウェア・シンセサイザー
+| ライセンス = GNU General Public License
+| 公式サイト = http://timidity.sourceforge.net/
+}}
+'''TiMidity++'''は、ファイルに保存したり、リアルタイムに出力するためのソフトウェアである。一般的には'''Timidity'''と呼ばれている。
+
+GPLで、主にGNU/Linuxで動作し、Microsoft WindowsやMac OS Xなど、ほとんどのOSで動作する。TiMidity++は変換にGravis Ultrasoundパッチ、またはsf2サウンドフォントが必要である。TiMidity++はGravis Ultrasoundパッチの使用を推奨しているが、実際のところフリーで配布されているsf2サウンドフォントなどを使用した方が音質面などで有利な場合が多い。
+
+== 概要 ==
+TiMidity++はMODファイルも読み込むことができる。読み込み方法として、直接記述する・各種ファイル（圧縮された状態でも可）・HTTPやFTP経由でファイルを読み込む、という方法が用意されている。
+
+このプログラムには様々なインターフェイスがありGUIツールキットを使うことにより各ノート（音符）を再生しているところをリアルタイム表示することができる。
+
+{{Infobox Software
+| name                   = TiMidity++
+| developer              = Masanao Izumo et al.
+| latest_release_version = 2.13.2
+| latest_release_date    = 3 October 2004
+| operating_system       = Cross-platform
+| genre                  = software synthesizer
+| license                = GNU General Public License
+| website                = http://sourceforge.net/projects/timidity
+}}
+
+'''TiMidity++''', originally and still frequently informally titled '''TiMidity''', is a MIDI to various formats, and some other file types as well, to PCM audio, either rendering to soundcard in real time or storing it to file (for example, .wav file).
+
+TiMidity++ primarily runs under Linux and Unix-like operating systems, but also runs under Microsoft Windows and AmigaOS. Distributed under the GNU General Public License, TiMidity is free software.
+
+== Features ==
+
+TiMidity++ can read a number of file types and devices, primarily the ordinary ''.mid'' files, but also ''.kar'' (MIDI with FTP or NNTP).
+
+The program has various interfaces, including but not limited to bare text, Tk) and even an Emacs interface that shows played notes in real time.
+
+Timidity has some support for microtonal music.<ref>[http://www.parnasse.com/microtonal/ Making Microtonal Music with Software<!-- Bot generated title -->]</ref>
+
+== History ==

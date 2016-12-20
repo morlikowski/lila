@@ -1,0 +1,101 @@
+'''Geograafilised koordinaadid''' on maapealse punkti nurkkoordinaadid.
+
+Geograafiline laiuse ja geograafiline pikkuse abil määratakse mistahes punkti asukohta kaardil. Geograafiliste koordinaatide leidmiseks kasutatakse paralleele ja meridiaane.
+
+== Laius ja pikkus ==
+Geograafiline koordinaatide süsteem on seotud Maa pöörlemisteljega. See määratleb kaks nurka, mida mõõdetakse Maa keskpunktist. 
+
+Geograafiline pikkus on nurk kokkuleppelisest nullmeridiaanist, mis läbib Greenwichi observatooriumi.
+
+Laius mõõdab nurka antud punkti ja ekvaatori vahel. Laiuskraadid näitavad, kui kaugel põhjas (lühend: pl.) või lõunas (lühend: ll.) ollakse. 
+
+Pikkus mõõdab nurka antud punkti ja nullmeridiaani vahel, kusjuures null- ehk algmeridiaaniks on suurringjoon, mis läbib Greenwichi observatooriumi.
+
+Algmeridiaanist ida pool asuvatel punktidel on idapikkus, algmeridiaanist lääne pool asuvatel aga läänepikkus.
+
+*Kaugust ida poole mõõdetakse kraadides 0 - +180° idapikkust (tähistatakse E) 
+*Kaugust lääne  poole mõõdetakse kraadides 0 - -180° läänepikkust (tähistatakse W). 
+
+Geograafiline pikkus kirjutatakse harilikult lühendatult: idapikkus – ip., läänepikkus – lp.
+
+== Paralleelid ja meridiaanid ==
+Ekvaatoriga paralleelsed ringjooned on paralleelid ehk laiusjooned ja pooluseid läbivad ringjooned on meridiaanid ehk pikkusjooned.
+
+Paralleeliks on ekvatoriaaltasandiga paralleelne, ellipsoidiga lõikuv joon.
+Paralleelid on väikeringid välja arvatud ekvaator, mis on suurring ehk ortodroom. Ekvaatori pikkus on üle 40 000 km. Maa ellipsoidaalse kuju tõttu on paralleelide pikkus erinev.
+
+Meridiaan on antud punkti ja Maa pöörlemistelge läbiva tasandi ning ellipsoidi lõikejoon.
+Meridiaani, mis läbib Greenwichi, nimetatakse algmeridiaaniks või nullmeridiaaniks (pikkus=0°). Erinevalt paralleelidest on kõik meridiaanid suurringjooned ega ole omavahel paralleelsed, nad lõikuvad põhja- ja lõunapoolusel.
+
+== Lõunapoolkera ja põhjapoolkera ==
+Ekvaator on Maa pöörlemisteljega ristuv Maad poolitava tasapinna lõikumisel ellipsoidiga tekkinud joon . Ta jagab Maakera kaheks võrdseks osaks: Lõunapoolkeraks ja Põhjapoolkeraks.
+
+== Geograafiline laius ==
+Geograafiline laius on nurk ekvatoriaaltasapinna ja antud punkti vahel, mida mõõdetakse kraadides.
+
+* +0 - +90° põhjalaiust (tähistatakse N) 
+* -0 - -90° lõunalaiust (tähistatakse S)
+
+* 0° on ekvaatori laiuskraad
+*90° N on põhjapooluse laiuskraad
+*90° S lõunapooluse  laiuskraad
+
+== Kraad, minut, sekund ==
+
+'''Kraad''' on mittesüsteemne tasanurga mõõtühik, tähis on '''°''', <math> 1^\circ = \pi / 180 </math> <nowiki> </nowiki> radiaani. Täisring on 360°. 
+
+'''Kraad''' geograafilise koordinaadina on kesknurk ekvaatorist põhja või lõuna suunas (laiuskraad) või kesknurk nullmeridiaanist ida või lääne suunas (pikkuskraad). 
+
+Kraad jaotatakse 60 minutiks, tähis ', ja minut omakorda 60 sekundiks, tähis '''"'''.
+
+== Astronoomilised ja geodeetilised koordinaadid ==
+Täpsemas käsitluses jaotatakse geograafilised koordinaadid astronoomilisteks ja geodeetilisteks koordinaatideks.
+
+Astronoomilised koordinaadid määratakse astonoomiliste vaatlustega loodjoone suhtes geoidi pinnal. (tähistus φ –laius ; λ – pikkus)
+
+'''測地系'''('''そくちけい''')とは、地球上の位置を経度・緯度・標高の座標で表すとき、前提とする条件のことである。現代では準拠楕円体、測地座標系、標高の基準となるジオイド面の3要素を特定する事により定められる。測量の前提であり、地図を作成する際には一貫性が求められる。
+
+==世界測地系と日本測地系==
+日本ではGPSと日本測地系の緯度経度では、東京付近の地表面で400m程度のずれが存在する。また、日本測地系にもとづく基準点網は古い測量成果の三角網によって設定されているため、測地系以外の要因による地図のゆがみが5～10m程度存在した。
+
+これらのずれやゆがみは、日本国内向けに1:25,000のGISデータの整備の障害になりつつあった。
+
+そこで、測量法の改正により2002年4月1日より、
+#国際機関で定められ、
+#陸地の測量に用いる国が多く、
+#GPSで使用される米国の測地系（WGS84）との座標ずれが少ない
+測地系であるITRF（国際地球基準座標系）に準拠した'''世界測地系'''を用いることとなった。
+
+東京付近では、おおむね、日本測地系の数値から、北緯に12秒加え、東経に12秒減ずると、世界測地系の数値が得られる。
+
+'''世界測地系'''の、準拠楕円体は1980年に定められたGRS80楕円体、測地座標系は地球重心を原点とするITRF94座標系、標高の基準となるジオイド面は東京湾平均海面である。さらに、1984年に決定されたGPS衛星の成果を盛り込んだWGS84は準拠楕円体が世界測地系と異なるが、2004年現在のWGS84の準拠楕円体はGRS80と短半径が0.1mm異なるだけである。
+
+==関連項目==
+* 測地学
+* 国土地理院
+* 日本経緯度原点
+* 日本水準原点
+
+==外部リンク==
+*[http://www.gsi.go.jp/ 国土地理院] ＞ [http://www.gsi.go.jp/LAW/jgd2000/AboutJGD2000.htm 世界測地系の導入に関して]
+*[http://www1.kaiho.mlit.go.jp/ 海上保安庁]
+*世界測地系と日本測地系の変換
+**[http://vldb.gsi.go.jp/sokuchi/tky2jgd/  Web版TKY2JGD] - 日本陸上用（国土地理院による）
+**[http://www1.kaiho.mlit.go.jp/KOHO/eisei/sokuchi/html/henkan_chu.html 経緯度変換プログラム] - 日本近海用（海上保安庁による）
+
+Category:地理学
+Category:地理技術
+Category:地図
+Category:座標
+
+als:Geografische Lage
+am:የምድር መጋጠሚያ ውቅር
+
+bar:Geografische Koordinatn
+
+be-x-old:Геаграфічныя каардынаты
+
+dv:Geographic coordinate system
+
+eo:Geografia koordinata sistemo
+es:Coordenadas geográficas

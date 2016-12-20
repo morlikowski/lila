@@ -1,0 +1,87 @@
+La '''resistenza termica''' è un termine usato in fisica e particolarmente in elettronica per indicare la difficoltà del Conducibilità termica di alcune sostanze comuni</ref>).
+400px|thumb|Fig. 1. Un comune dispositivo di potenza su dissipatore. Tra i due componenti compare una sottile pellicola che può essere un [[elastomero per diminuire la resistenza termica tra il componente ed il dissipatore (dove possono essere presenti interstizi d'aria che limitano la conduzione termica) o un sottile foglio di mica usato quando si deve creare un isolamento elettrico]]
+
+In modo più formale la resistenza termica tra due punti di un mezzo è la differenza di reciproco è la conducibilità termica.<br/>
+Nel Sistema internazionale l'unità di misura della resistenza termica è data da kelvin per watt (K/W), o in modo equivalente in gradi Celsius (°C) per watt (°C/W) (nelle equazioni usate compare solo la ''differenza'' di temperatura tra due punti che ha lo stesso valore se misurata in gradi celsius o kelvin: 1 K = 1 °C; quello che cambia è solo il riferimento: 0°C corrispondono a 273,15 K) <ref>Ad esempio nel datasheet del transistor [http://www.st.com/stonline/products/literature/ds/4147.pdf ''TIP47''] della STMicroelectronics se non viene montato su dissipatore e deve dissipare una potenza di 2 watt la temperatura della sua giunzione sale di 62,5°C x 2 = 125°C rispetto alla temperatura ambiente (vedi pag. 2 del datasheet: tabella ''THERMAL DATA'', la seconda riga della tabella ''Thermal Resistance Junction-ambient'' 62,5°C/W). Se la temperatura ambiente fosse di 25°C la giunzione raggiungerebbe i 150°C. Nella pagina 1 si vede che questa è la massima temperatura della giunzione T<sub>j</sub> = 150°C e spiega perché nella stessa pagina si dice che la massima potenza dissipabile P<sub>tot</sub>, nel caso di temperatura ambiente massima di 25°C, deve essere limitata proprio a 2 watt. L'uso di un dissipatore, come descritto più avanti, permette al transistor di dissipare potenze molto maggiori</ref>.
+
+La resistenza termica dei materiali è di grande interesse nell'''die'' (chiamato anche ''chip'') per cui viene garantito un funzionamento corretto e l'esponenziale a questo parametro (più bassa è la sua temperatura minore è la probabilità di guasto).<br/>
+Quindi in fase di progetto è importante calcolare e verificare le temperature dei componenti nelle condizioni termiche di funzionamento più stressanti.
+
+== Circuito termico equivalente ==
+400px|thumb|Fig. 2. Simulazione elettrica del comportamento termico di un dispositivo elettronico montato su dissipatore
+Si può fare un'analogia tra il comportamento termico ed elettrico: 
+*il flusso di calore può essere rappresentato da un generatore di corrente elettrica (cambia l'unità di misura che da ampere diventa watt)
+*le temperature nei vari punti hanno un equivalente nella tensione elettrica. L'unità di misura da volt diventa: gradi Celsius (°C) o kelvin (K)
+*la resistenza termica è equivalente alla resistenza elettrica ma viene misurata non in ohm ma in °C/W
+*la capacità termica può venire rappresentata da una capacità elettrica. Nel modello si usa la sua reattanza espressa anch'essa in °C/W
+Si può quindi ricavare un'equazione formalmente uguale alla legge di Ohm (vedi più avanti).
+
+Lo schema elettrico (figura 2) mostra il circuito elettrico equivalente al fenomeno termico per un semiconduttore con dissipatore di calore.<br/>
+I vari simboli riportati rappresentano:
+:<math>\emph Q</math> potenza dissipata in calore nel semiconduttore (''die'') in watt
+:<math>\emph T_J</math> temperatura della giunzione nel ''die'' in °C
+:<math>\emph T_C</math> temperatura sulla superficie esterna del contenitore in °C
+:<math>\emph T_H</math> temperatura del dissipatore approssimata come se fosse uniforme in °C
+:<math>\emph T_{AMB}</math> temperatura ambiente (in prossimità del dissipatore) in °C
+:<math>\emph R_{\theta JC}</math> resistenza termica tra la giunzione del componente elettronico e la superficie del suo contenitore in °C/W
+:<math>\emph R_{\theta CH}</math> resistenza termica tra il contenitore ed il dissipatore in °C/W
+:<math>\emph R_{\theta HA}</math> resistenza termica tra il corpo del dissipatore e l'ambiente circostante (in prossimità del dissipatore) in °C/W
+
+Lo schema e le equazioni che ne derivano è approssimato principalmente perché:
+*rappresentano il fenomeno in condizioni statiche o lentamente variabili nel tempo (dell'ordine di grandezza di secondi). Per comportamenti in cui si hanno variazioni rapide di temperatura (millisecondi o meno) dovute a commutazioni vanno adottati modelli più complessi in cui deve essere rappresentata soprattutto la capacità termica del ''die'' e vanno introdotti uno o più condensatori che tengono presente questo aspetto. In tal caso non si parla di resistenza termica ma di ''impedenza'' termica
+*non si tiene conto che vi sono altri percorsi del calore (tra il componente elettronico e l'ambiente circostante) che dovrebbero essere rappresentate nello schema con altre resistenze ma che possono essere trascurate in prima approssimazione (nello schema tra T<sub>C</sub> e T<sub>AMB</sub> in quanto il componente elettronico scambia in parte calore anche direttamente con l'ambiente)
+*il fenomeno di scambio termico (particolarmente tra dissipatore e ambiente, <math>R_{\theta HA}</math>, è non lineare in quanto coinvolge contemporaneamente scambi termici mediante conduzione, irraggiamento
+*orientamento e presenza di eventuali altre sorgenti di calore nelle vicinanze (come altri dissipatori, resistori di potenza, ecc.) riducono l'efficienza di raffreddamento 
+*è un modello a parametri concentrati che, come in un reale circuito elettrico, rappresenta il fenomeno in maniera semplificata e monodimensionale
+
+==Esempio di calcolo==
+Si considerano gli aspetti di dissipazione termica di un dispositivo elettronico di potenza (darlington, IGBT, regolatore di tensione, GTO, ecc.) parte di un apparecchio elettronico.
+
+<math>\emph Q</math><br/>
+Prima di tutto va valutata è la potenza espressa in watt che il componente dissipa in calore.<br/>
+Ad esempio:
+*transistor a giunzione, darlington, IGBT: il prodotto della tensione tra collettore ed emettitore per la corrente se sono continue <ref>Si trascura in prima approssimazione l'apporto della corrente di base e la presenza di piccoli segnali</ref>; se variano in modo periodico va calcolato il valor medio nel periodo (se le variazioni sono rapide, come nei convertitori a commutazione, occorre valutare se si deve tenere conto anche dell'impedenza termica)
+*Mosfet:  RDSon moltiplicata per la Id<sup>2</sup>; nel caso di commutazioni valgono le considerazioni fatte per il transistor a giunzione
+*triac: va considerata la caduta tra i terminali principali A<sub>2</sub>- A<sub>1</sub> moltiplicata per la corrente e per il periodo di conduzione massimo ipotizzabile nell'applicazione (nei datasheet sono date informazioni dettagliate per il regime sinusoidale) <ref>Sui dati tecnici viene spesso riportato un diagramma che riporta l'effettiva potenza dissipata nel caso peggiore di conduzione (180° cioè conduzione per tutta la sinusoide di tensione)  [http://www.st.com/stonline/products/literature/ds/7473/bta12.pdf ''Figure 1. Maximum power dissipation versus RMS on-state current (full cycle)'' in BTA12-BTB12 (della STMicroelectronics)]</ref>
+*tiristore (SCR): nei datasheet sono fornite informazioni simili a quelle dei triac
+*Nel caso di altri dispositivi va considerato il caso peggiore di potenza media dissipata
+
+<math>\emph T_J</math><br/>
+Nei datasheet del componente va considerata la massima temperatura della giunzione. In genere per dispositivi in silicio 125°C. 
+
+<math>\emph R_{\theta JC}</math><br/>
+Varia a seconda del contenitore, dell'eventuale isolamento elettrico tra ''die'' e contenitore <ref>Ad esempio per i triac  [http://www.st.com/stonline/products/literature/ds/7473/bta12.pdf BTA12-BTB12] (della STMicroelectronics) la resistenza termica tra giunzione e contenitore <math>R_{\theta JC}</math> nel documento indicata come R<sub>th(j-c)</sub> è di 1,4°C/W per il dispositivo in cui il ''die'' non è elettricamente isolato dal contenitore (BTB12) e diventa di 2,3°C/W per il dispositivo isolato (BTA12). D'altra parte per avere l'omologazione UL è necessario che l'aletta metallica del dispositivo sia elettricamente isolata: all'inizio del documento del componente si vede il riferimento al numero del file di questa certificazione di sicurezza per il solo dispositivo isolato (BTA12)</ref>.
+
+<math>\emph T_{AMB}</math><br/>
+Va determinata la massima temperatura ambiente (si intende la temperatura massima nelle zone circostanti al dissipatore). È una valutazione difficile in via preliminare particolarmente se si tratta di un contenitore chiuso e possono essere presenti più dispositivi che generano calore. La possibilità di poter aprire delle fessure o di prevedere una ventilazione forzata può influenzare notevolmente questa valutazione. Se il costo del dissipatore non permette di prevedere margini di sicurezza (come nei progetti di dispositivi prodotti in grandi quantità e che devono essere a basso costo) conviene fare delle verifiche sperimentali nelle condizioni estreme prevedibili.
+
+'''Thermal resistance''' is the temperature difference across a structure when a unit of heat energy flows through it in unit time.  It is the reciprocal of thermal conductance.  The SI units of thermal resistance are kelvins per watt, or the equivalent degrees Celsius per watt (the two are the same since as intervals 1 K = 1 °C).
+
+The thermal resistance of materials is of great interest to electronic engineers, because most electrical components generate heat and need to be cooled.  Electronic components malfunction or fail if they overheat, and some parts routinely need measures taken in the design stage to prevent this.
+
+== Explanation ==
+=== Equivalent thermal circuits ===
+thumb
+The heat flow can be modelled by analogy to an electrical circuit where heat flow is represented by current, temperatures are represented by voltages, heat sources are represented by constant current sources, thermal resistances are represented by resistors and thermal capacitances by capacitors.
+
+The diagram shows an equivalent thermal circuit for a semiconductor device with a heat sink.
+:<math>Q</math> is the power dissipated by the device
+:<math>T_J</math> is the junction temperature in the device
+:<math>T_C</math> is the temperature at its case
+:<math>T_H</math> is the temperature where the heat sink is attached
+:<math>T_{AMB}</math> is the ambient air temperature
+:<math>R_{\theta JC}</math> is the device's thermal resistance from junction to case
+:<math>R_{\theta CH}</math> is the thermal resistance from the case to the heatsink
+:<math>R_{\theta HA}</math> is the thermal resistance of the heat sink
+
+== Example calculation ==
+
+Consider a component such as a silicon transistor that is bolted to the metal frame of a piece of equipment.  The transistor's manufacturer will specify parameters in the datasheet called the ''thermal resistance from junction to case'' (symbol: <math>R_{\theta JC}</math>), and the maximum allowable temperature of the semiconductor junction (symbol: <math>T_{JMAX}</math>).  The specification for the design should include a maximum temperature at which the circuit should function correctly.  Finally, the designer should consider how the heat from the transistor will escape to the environment: this might be by convection into the air, with or without the aid of a heat sink, or by conduction through the printed circuit board.  For simplicity, let us assume that the designer decides to bolt the transistor to a metal surface (or heat sink) that is guaranteed to be less than <math>\Delta T_{HS}</math> above the ambient temperature.
+
+Given all this information, the designer can construct a model of the heat flow from the semiconductor junction, where the heat is generated, to the outside world.  In our example, the heat has to flow from the junction to the case of the transistor, then from the case to the metalwork.  We do not need to consider where the heat goes after that, because we are told that the metalwork will conduct heat fast enough to keep the temperature less than <math>\Delta T_{HS}</math> above ambient: this is all we need to know.
+
+Suppose the engineer wishes to know how much power he can put into the transistor before it overheats.  The calculations are as follows.
+
+:Total thermal resistance from junction to ambient = <math>R_{\theta JC}+R_{\theta B}</math>
+
+where <math>R_{\theta B}</math> is the thermal resistance of the bond between the transistor's case and the metalwork.  This figure depends on the nature of the bond - for example, a thermal bonding pad or thermal transfer grease might be used to reduce the thermal resistance.

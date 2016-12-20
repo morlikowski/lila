@@ -1,0 +1,124 @@
+{{Infopolje Orožje
+|name= CV-33
+|image=
+|caption=
+|origin= 
+|type=tanketa
+<!-- izbira vrste -->
+|is_ranged=
+|is_bladed=
+|is_explosive=
+|is_artillery=
+|is_vehicle=yes
+|is_missile=
+|is_UK=
+<!-- zgodovina uporabe -->
+|service=
+|used_by=
+|wars= 
+<!-- zgodovina izdelovanja -->
+|designer= 
+|design_date= 
+|manufacturer= 
+|production_date=
+|number=
+|variants=
+<!-- splošne karakteristike -->
+|weight= 3,15 t
+|length= 3,17 m
+|part_length= 
+|width= 1,42 m
+|height= 1,30 m
+|diameter=
+|crew=2
+<!-- karakteristike orožij na daljavo --> 
+|cartridge= 
+|caliber=
+|action= 
+|rate= 
+|velocity= 
+|range= 
+|max_range= 
+|feed= 
+|sights= 
+<!-- topniške karakteristike -->
+|breech=
+|recoil=
+|carriage=
+|elevation=
+|traverse=
+<!-- karakteristike hladnih orožij --> 
+|blade_type=
+|hilt_type=
+|sheath_type=
+|head_type=
+|haft_type=
+<!-- karakteristike eksploziva --> 
+|filling=
+|filling_weight=
+|detonation=
+|yield=
+<!-- karakteristike vozila/izstrelka -->
+|armour= 5-15 mm
+|primary_armament=eden ali dva puškomitraljeza
+|secondary_armament= 
+|engine= Fiat
+|engine_power=50 hp 
+|pw_ratio=
+|suspension=
+|vehicle_range=125 km
+|speed=42 km/h
+|guidance=
+}}
+'''CV-33 (Carro Veloce 33) ali L3/33''' je bil italijanski tank.
+
+== Zgodovina ==
+Tanki so bili uporabljeni v španski državljanski vojni in v invaziji na Albanijo. Tanki so kmalu postali zastareli, zato jih je kmalu nadomestil tank CV-35. Novi tanki so povečali unčikovitost, vendar ne dovolj, da bi bili zares unčikoviti.
+
+Skupaj je bilo narejenih 2000 tankov CV-33 in CV-35. 
+
+== Viri ==
+*
+
+{{Czołg infobox v2|
+nazwa            = L3/33|
+grafika          = |
+podpis           = |<!-- opcjonalny podpis rysunku -->
+kraj             = |
+producent        = Fiat|
+typ              = tankietka|<!-- np. czołg lekki, ciężki, podstawowy, transporter opancerzony} -->
+trakcja          = gąsienicowa|<!-- gąsienicowa, kołowa -->
+załoga           = 2 osoby|
+konstrukcja      = |<!-- data budowy prototypu -->
+produkcja        = |<!-- lata produkcji -->
+wycofany         = |<!-- data wycofania z użytku -->
+egzemplarze      = 2000-2500 szt (wszystkich wersji)|<!-- ilość wyprodukowanych egzemplarzy -->
+silnik           = silnik benzynowy ''SPA CV'' o mocy 31,6 kW (43 KM) przy 2400 obr/min|<!-- typ silnika, moc -->
+transmisja       = mechaniczna 4/1|<!-- układ przeniesienia napędu (mechaniczna, elektromechaniczna..) -->
+zbiorniki        = |<!-- pojemność zbiorników paliwa -->
+pancerz          = nitowany z walcowanych płyt stalowych, 6-13,5 mm|<!-- typ pancerza (reaktywny, warstwowy, kompozytowy, itd. -->
+długość          = 3,16 m|<!-- długość całkowita czołgu -->
+szerokość        = 1,4 m|<!-- szerokość kadłuba -->
+wysokość         = 1,28 m|<!-- wysokość do stropu wieży -->
+prześwit         = 0,23 m|
+masa             = 3,2 t|
+mocjedn          = 9,88 kW/t|<!-- np. KM/t -->
+naciskjedn       = |<!-- np. kg/cm³ -->
+prędkość         = 42 km/h (droga)<br />10-12 km/h (teren)|<!-- prędkość maksymalna -->
+zasięg           = 130-140 km|
+brody            = 0,7 m|<!-- głębokość brodzenia-->
+rowy             = 1,45 m|<!-- zdolność przekraczanych rowów o szerokości -->
+ściany           = 0,65 m|<!-- zdolność przekraczania pionowych ścian o wysokości -->
+podjazd          = 45°|<!-- zdolność podjazdu na stoki o nachyleniu max -->
+przechył         = |<!-- zdolność jazdy na stokach o pochyleniu bocznym max -->
+uzbrojenie       = 1 x czkm Fiat-Revelli M1914 kalibru 6,5 mm <br />lub<br />2 x czkm Fiat-Revelli M1935 kalibru 8 mm<br />lub<br />2 x czkm Breda 38 kalibru 8 mm|
+wyposażenie      = |<!-- wyposażenie dodatkowe (moździerz, wyrzutnik granatów dymnych itd.) -->
+właściciele      = Regio Esercito|<!-- użytkownicy -->
+rzut             = |<!-- rysunek w trzech/czterech rzutach-->
+}}
+
+'''L3/33''' włoska tankietka zaprojektowana na bazie CV 29 i początkowo znana jako '''CV 33''', masowo eksportowana do Węgier, Austrii i w mniejszym stopniu do innych małych państw europejskich (np. Bułgariii, Czechosłowacji i Albanii).
+
+Produkowane były w zakładach Ansaldo w kooperacji z Fiatem, w początkowym okresie były uzbrojone w chłodzony wodą karabin maszynowy 6,5 mm.  W 1934 przeprowadzono modyfikacje układu jezdnego i zmieniono karabin maszynowy na chłodzony powietrzem Fiat Model 14 o kalibrze 6,5 mm.  Następna modyfikacja polegała na zwiększeniu uzbrojenia, w tankietkach zamontowano dwa karabiny maszynowe 8 mm.
+
+'''CV 35''' różnił się od swojego poprzednika jedynie drobnymi szczegółami. Pod koniec lat 30. zmieniono oznaczenia tych pojazdów z CV 33 i CV 35 na L3/33 i L3/35. W 1938 wyprodukowano krótką serię L3/35 uzbrojoną w pojedynczy karabin maszynowy Breda 13,2 mm.

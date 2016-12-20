@@ -1,0 +1,36 @@
+'''SCORE''' is a engraving during the 1980s and 1990s, although it still has not appeared in a Windows version. It continues to have a small, dedicated following of quality engravers, many of whom regard it as the world's best music-engraving program. Many publications that have earned Paul Revere and German Musikpresse engraving awards are produced with SCORE. SCORE is known for its ability to precisely position symbols on the page, and also allows the user complete control over every aspect of their music through making every possible aspect of music notation manually controllable (this, however, also leads to some difficulty or frustration of use in the program).
+
+The program is more suited to precision engraving of completed music than for composition, where frequent rearranging of notes or insertion or deletion of passages may cause difficulties in SCORE.
+
+== Use of the program ==
+SCORE runs under the DOS operating system. Music is entered using an ASCII input code. Optionally a MIDI keyboard can be used to enter pitches. Less common is entering music from a so called menu staff using a one-click copy-and-paste method. Music notation can be saved in SCORE's proprietary format. These files in most cases have the extensions ".mus" or ".pag" (note that Finale also uses the extension ".mus" while the file format is different). SCORE outputs PostScript graphics that can either be sent to a PostScript printer directly or can be saved as an Encapsulated PostScript file. For creating publications some users import the EPS-graphics into a desktop publishing program.
+
+The program does not have a Windows version.  It can be used in Windows in the way that many other DOS programs can be used, although this can cause various problems due to not being entirely compatible.  From time to time rumours of an upcoming Windows version have surfaced, but these appear to be unfounded, and a Windows version does not appear to be imminent, despite the widespread desire of SCORE users for it.  This may well be because, to this day, SCORE has been maintained solely by one person: its creator, Leland Smith.
+
+There are a number of plug-ins created by long-time SCORE users, which extend the program's functionality.
+
+{{Infobox_Software|
+ Name=Score
+|Logo=
+|Screenshot=
+|Beschreibung=Notensatzprogramm
+|Hersteller=Leland Smith
+|AktuelleVersion=
+|AktuelleVersionFreigabeDatum=
+|Betriebssystem=MS-DOS
+|Kategorie= Musiksoftware
+|Lizenz= proprietär
+|Deutsch= Nein <br>(Handbuch und einfache Online-Hilfe auf Deutsch erhältlich)
+|Website = http://scoremus.com/
+}}
+
+'''Score''' (nicht zu verwechseln mit Kompatibiltätsproblemen mit neuerer Hard- und Software führt und neue Nutzer wegen der wenig intuitiven Benutzeroberfläche leicht abschreckt.  Dennoch konnte sich Score einen festen Nutzerstamm überwiegend professioneller Anwender halten.  Dazu haben vor allem drei Dinge beigetragen:
+
+* Alle Parameter von Elementen in Score-Dateien sind direkt zugänglich und können frei verändert werden.  Das macht Score sehr flexibel.
+* Score führt keine Automatismen (z.&nbsp;B. zur Formatierung) aus, ohne dass der Nutzer dazu den ausdrücklichen Befehl gibt.  Dazu gehört auch die Ausrichtung der Noten, die nach der Eingabe der Noten durch manuellen Befehl geschehen muss.  Was zunächst umständlich anmutet, hat folgende Vorteile:
+** Der Nutzer hat von vornherein maximalen Einfluss auf das Notenbild, d.&nbsp;h. z.&nbsp;B. dass bereits bei der Eingabe bestimmt werden kann, wie die Musik auf der Seite aufgeteilt werden soll.  Ein automatisches Layouten der eingegebenen Musik durch das Programm erfolgt zunächst nicht.
+** Der Nutzer kann immer genau nachvollziehen, welche Änderungen das Programm an den Daten vornimmt, wenn er eine automatische Funktion aufruft.
+** Auch Konstellationen von musikalischen Objekten, die den grundlegendsten Notationsregeln widersprechen, können mit dem Programm erstellt, bearbeitet und gedruckt werden.  Höhere Funktionen, die eine musikalisch korrekte Struktur voraussetzen wie z.&nbsp;B. die Funktion zur Ausrichtung der Noten, können dann inaktiv bleiben.
+* Es existiert eine Vielzahl von zum Teil stark individuell anpassbaren Tools, die verschiedene Nutzer zur Bearbeitung der relativ simplen Datenstruktur geschrieben haben.  Der Arbeitsprozess verkompliziert sich durch die sukzessive Anwendung verschiedener Programme zwar, wird aber von vielen Nutzern dennoch bevorzugt, da sie so die absolute Kontrolle über die Daten behalten und ein genau ihren Bedürfnissen entsprechendes Ergebnis erzielen können.
+
+Eine Windows-Version des Programms wurde zwar angekündigt, bisher aber nicht veröffentlicht.

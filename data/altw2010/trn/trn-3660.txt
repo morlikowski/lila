@@ -1,0 +1,90 @@
+:''For the WikiProject, see Wikipedia:WikiProject Articles for creation''
+{| style="background-color:White; border:2px solid #a3b1bf;" cellpadding="15" width="100%"
+| <div align="center"><span style="font-size: 1.2em; font-weight: bold; line-height: 1.5em;">
+This page allows '''''unregistered''''' and anonymous contributors to create new articles with the assistance of experienced Wikipedians. The easiest way to create a new article, however, is to <span class="plainlinks"><font color="002bb8">[http://en.wikipedia.org/w/index.php?title=Special:Userlogin&type=signup create a free Wikipedia user account]</font></span> and then log in. No personal information is necessary to register, and registered users can create new articles without the hassle or delay of the Article for Creation process. If an image is needed in an article, make a request at Wikipedia:Images for upload.
+
+If you have an idea for a good article subject, but do not want to provide text for the article, you should make an article request instead.  Alternatively, if you want to discuss and plan an article go to the drawing board.</span></center></div>
+|}
+
+{| align="center" valign="center" style="width:60%; background: none; border:1px solid black; margin: 1em auto 1em auto"
+|-
+| style="width:120px" | 80px
+| <span style="font-weight:bold; color:#FF0000; font-size:1.5em;"><center>'''This page is not for you if you are:'''</center></font>
+* '''a registered user submitting an article''' 
+* '''promoting someone or something'''. See the FAQ for businesses.
+* '''experimenting'''. For testing, go to the sandbox
+|}
+
+{| class="wikitable" style="width: 100%"
+|bgcolor=#BBBBFF align=center width=50%|<big>'''Unregistered users: Submitting an article'''</big>||bgcolor=#D0D0FF width=50% align=center|<big>'''Registered users: Reviewing submissions'''</big>
+|-
+|bgcolor=#BBBBFF valign=top|
+Follow these directions to submit an article for creation.
+# Check whether the article already exists by searching for it.
+# Ensure that your topic meets Wikipedia's notability guidelines, including ones for:
+#*Companies and corporations
+#*Musical groups, songs, and artists
+#*Websites
+#*People, alive or dead
+#*Yourself
+# Ensure that your article is verifiable and based on published sources.
+# Click the "Start Here" link below.
+# Keep in mind that there are ''a lot of article submissions, and established users may not have time to immediately look into your article''. Sometimes, due to the large backlog, a submission may not be explicitly rejected or accepted.
+# Give the following information in the proper places on the form:
+#* The title of the article
+#* Several sentences of original content, written by you. '''Do not copy the text from a website or printed source; observe copyright.'''
+#* At least one published source for your information, such as a URL or a book title and author. '''If you do not list at least one source, your article will be declined.'''
+
+<div style="text-align: center; font-size:200%; border: 1px solid #00C000; background: #FFFFFF; padding: 10px;"><font color="002bb8">'''Start Here'''</font></div>
+
+<big>'''Extra tips for advanced users:'''</big>
+* Do not add any stub templates or categories to your submission— they should only be added when the article is actually created. 
+* Use three equal signs for your section headers, <nowiki>===like this===</nowiki>, rather than the usual two.
+* Avoid indenting paragraphs (beginning them with one or more spaces); doing so can cause the text to be formatted oddly.
+|bgcolor=#D0D0FF valign=top|
+Registered Wikipedians should follow these detailed directions to review article proposals and (where appropriate) create a new article from an article proposal.
+
+Quick directions (for more experienced reviewers):
+* Verify that the submission is not a copyright violation and meets applicable notability guidelines.
+* If the article looks suitable for Wikipedia: 
+*# Create the article, '''crediting the submitter's IP address or username in the initial edit summary''' for GFDL compliance. You may choose to use  on the request if you could take a while.
+*#* Consider adding the new article to categories, and tagging it with appropriate cleanup templates.
+*#* If the article is a stub, add the  template, or the appropriate category-specific stub templates.
+*#* Add  to the talk page of the new article to flag it as part of the AFC WikiProject. Also add any other Wikiproject banners that would apply to the article.
+*# Leave a reply below the submitted text, noting that the article has been created. You can use the template  to do this quickly. Be sure to sign your reply with <nowiki>~~~~</nowiki>.
+*# Mark the submission with  just below the headline, and  at the very bottom.
+*# Add  to the talk of the IP address that submitted the article, to inform them that their submission was successful.  Be sure to sign your message with <nowiki>~~~~</nowiki>.
+* If the article does ''not'' look suitable for Wikipedia:
+*# '''Immediately remove any copyright violations, personal attacks, or patent nonsense from the submission.'''
+*# Write a quick reply explaining why the article is not a good idea.  These templates provide quick responses to common problems.  Be sure to sign your reply with <nowiki>~~~~</nowiki>.
+*# Mark the submission with  just below the headline, and  at the very bottom.
+
+Once a registered user is ready to make the new article that was requested, they can use this tool to make the article fast.
+
+|}
+
+Esta página permite contribuidores '''''não-registados''''' e anónimos criarem novos artigos com orientação de algumas instruções. A maneira mais fácil de criar um artigo novo, no entanto, é de <span class="plainlinks"><font color="002bb8">[http://pt.wikipedia.org/w/index.php?title=Special:Userlogin&type=signup criar uma conta de usuário gratuita na Wikipédia]</font></span> e depois fazer fazer login. Não é preciso informação pessoal para se registar, e usuários registados podem criar artigos novos sem a maçada ou atraso do processo do Guia de Edição. Se uma imagem for necessária num artigo, faça um pedido em Wikipedia:Imagens pedidas.
+
+{| align="center" valign="center" style="width:60%; background: none; border:1px solid black; margin: 1em auto 1em auto"
+|-
+| style="width:120px" | 80px
+| <span style="font-weight:bold; color:#FF0000; font-size:1.5em;"><center>'''Esta página não é para si se você:'''</center></font>
+* '''for um usuário registado a submeter um artigo'''
+* '''estiver a promover alguém ou alguma coisa'''. Veja FAQ para empresas.
+* '''estiver a experimentar'''. Para testes, vá à página de testes.
+|}
+
+{| class="wikitable" style="width: 100%"
+|bgcolor=#BBBBFF align=center width=50%|<big>'''Usuários não registados:Submeter um artigo'''</big>
+|-
+|bgcolor=#BBBBFF valign=top|
+Siga estas instruções para submeter um artigo.
+# Verifique se o artigo já existe procurando-o.
+# Assegure-se que o tópico tem relevância.
+# Veja que o artigo seja verificável e baseado em fontes fiáveis.
+# Carregue na ligação "Início" abaixo.
+# Forneça a seguinte informação no sítios adequados do formulário:
+#* O título do artigo
+#* Várias frases de conteúdo original, escritas por si. '''Não copie o texto de um site da Internet ou de alguma fonte impressa; Não viole direitos de autor.'''
+#* Pelo menos uma fonte publicada para a informação que inseriu, tal como um URL (endereço de internet) ou o título de um livro e autor.
+'''Se não listar pelo menos uma das fontes, o seu artigo será apagado.'''

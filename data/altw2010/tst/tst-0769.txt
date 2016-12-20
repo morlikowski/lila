@@ -1,0 +1,128 @@
+'''Transport Layer Security (TLS)''' หรือชื่อเดิม '''Secure Sockets Layer (SSL)''' เป็นโปรโตคอลที่ใช้เข้ารหัสข้อมูลที่ส่งในอินเทอร์เน็ต เช่น เว็บเพจ จดหมายอิเล็กทรอนิกส์ โปรแกรมสนทนา และอื่นๆ เพื่อความปลอดภัยในการส่งข้อมูล มีข้อแตกต่างในรายละเอียดทางเทคนิคระหว่าง SSL 3.0 และ TLS 1.0 เพียงเล็กน้อย ดังนั้นตัวย่อ SSL จะหมายถึงโปรโตคอลทั้งคู่ ในกรณีที่ไม่ระบุว่าตัวใดตัวหนึ่งเป็นพิเศษ
+
+ปัจจุบัน TLS 1.1 กำลังอยู่ในกระบวนการร่างมาตรฐาน
+
+<!-- Edit the stack image at: Template:IPstack -->
+'''Transport Layer Security''' ('''TLS''') and its predecessor, '''Secure Sockets Layer''' ('''SSL'''), are secure communications on the Internet for such things as web browsing, e-mail, Internet faxing, instant messaging and other data transfers. There are slight differences between SSL and TLS, but they are essentially the same.
+
+==Description==
+The TLS protocol allows applications to communicate across a network in a way designed to prevent communications privacy over the Secure Remote Password (SRP) protocol are used, which provide strong mutual authentication without needing to deploy a PKI.
+
+TLS involves three basic phases:	
+
+# Peer negotiation for''' algorithm support
+# Key exchange and authentication
+# Symmetric cipher encryption and message authentication
+
+During the first phase, the client and server negotiate ''cipher suites'', which determine
+the ciphers to be used, the key exchange and authentication algorithms, as well as the message authentication codes (MACs). The key exchange and authentication algorithms are typically public key algorithms, or as in TLS-PSK preshared keys could be used. The message authentication codes are made up from cryptographic hash functions using the HMAC construction for TLS, and a non-standard pseudorandom function for SSL.
+
+Typical algorithms could be:
+* For key exchange: ECDH, SRP, PSK
+* For authentication: DSA, ECDSA
+* Symmetric ciphers: RC4, AES, IDEA, DES, or Camellia. In older versions of SSL, RC2 was also used. 
+* For HMAC-MD5 or HMAC-SHA are used for TLS, MD2 and MD4.
+
+== How it works ==
+thumb|SSL handshake with two way authentication with certificates.  '''''(Accuracy disputed.)'''''
+A TLS client and server negotiate a stateful connection by using a handshaking procedure. During this handshake, the client and server agree on various parameters used to establish the connection's security.
+
+* The handshake begins when a client connects to a TLS-enabled server requesting a secure connection, and presents a list of supported ciphers and hash functions.
+
+* From this list, the server picks the strongest cipher and hash function that it also supports and notifies the client of the decision.
+
+* The server sends back its identification in the form of a digital certificate. The certificate usually contains the server name, the trusted certificate authority (CA), and the server's public encryption key.
+The client may contact the server that issued the certificate (the trusted CA as above) and confirm that the certificate is authentic before proceeding.
+
+* In order to generate the session keys used for the secure connection, the client encrypts a random number with the server's public key, and sends the result to the server. Only the server can decrypt it (with its private key): this is the one fact that makes the keys hidden from third parties, since only the server and the client have access to this data.
+
+* From the random number, both parties generate key material for encryption and decryption.
+
+This concludes the handshake and begins the secured connection, which is encrypted and decrypted with the key material until the connection closes.
+
+''If any one of the above steps fails, the TLS handshake fails, and the connection is not created.''
+
+=== TLS handshake in detail ===
+
+The TLS protocol exchanges ''records'', which encapsulate the data to be exchanged. Each record can be compressed, padded, appended with a message authentication code (MAC), or encrypted, all depending on the state of the connection. Each record has a ''content type'' field that specifies the record, a length field, and a TLS version field.
+
+When the connection starts, the record encapsulates another protocol, the handshake messaging protocol, which has ''content type'' 22.
+
+==== Simple TLS handshake ====
+
+A simple connection example follows:
+
+* A Client sends a '''ClientHello''' message specifying the highest TLS protocol version it supports, a random number, a list of suggested cipher suites and compression methods.
+
+* The Server responds with a '''ServerHello''' message, containing the chosen protocol version, a random number, cipher suite, and compression method from the choices offered by the client. The server may also send a ''session id'' as part of the message to perform a resumed handshake.
+
+* The Server sends its '''Certificate''' message (depending on the selected cipher suite, this may be omitted by the Server).
+
+:: ''These certificates are currently X.509, but there is also a draft specifying the use of OpenPGP based certificates.''
+
+* The Server sends a '''ServerHelloDone''' message, indicating it is done with handshake negotiation.
+
+* The Client responds with a '''ClientKeyExchange''' message, which may contain a ''PreMasterSecret'', public key, or nothing. (Again, this depends on the selected cipher.)
+
+* The Client and Server then use the random numbers and PreMasterSecret to compute a common secret, called the "master secret". All other key data is derived from this master secret (and the client- and server-generated random values), which is passed through a carefully designed "pseudorandom function".
+
+* The Client now sends a '''ChangeCipherSpec''' record, essentially telling the Server, "Everything I tell you from now on will be encrypted." Note that the ChangeCipherSpec is itself a record-level protocol, and has type 20, and not 22.
+
+* Finally, the Client sends an encrypted '''Finished''' message, containing a hash and MAC over the previous handshake messages.
+
+* The Server will attempt to decrypt the Client's ''Finished'' message, and verify the hash and MAC. If the decryption or verification fails, the handshake is considered to have failed and the connection should be torn down.
+
+* Finally, the Server sends a '''ChangeCipherSpec''' and its encrypted '''Finished''' message, and the Client performs the same decryption and verification.
+
+* At this point, the "handshake" is complete and the Application protocol is enabled, with content type of 23. Application messages exchanged between Client and Server will be encrypted.
+
+==== Client-Authenticated TLS handshake ====
+
+The following example shows a client being authenticated via TLS using certificates.
+
+* A Client sends a '''ClientHello''' message specifying the highest TLS protocol version it supports, a random number, a list of suggested cipher suites and compression methods.
+
+* The Server responds with a '''ServerHello''' message, containing the chosen protocol version, a random number, cipher suite, and compression method from the choices offered by the client. The server may also send a ''session id'' as part of the message to perform a resumed handshake.
+
+* The Server sends its '''Certificate''' message (depending on the selected cipher suite, this may be omitted by the Server).
+
+:: ''These certificates are currently X.509, but there is also a draft specifying the use of OpenPGP based certificates.''
+
+* The server requests a certificate from the client, so that the connection can be mutually authenticated, using a ''CertificateRequest'' message.
+
+* The Server sends a '''ServerHelloDone''' message, indicating it is done with handshake negotiation.
+
+* The Client responds with a '''Certificate''' message, which contains the client's certificate.
+
+* The Client sends a '''ClientKeyExchange''' message, which may contain a ''PreMasterSecret'', public key, or nothing. (Again, this depends on the selected cipher.) This ''PreMasterSecret'' is encrypted using the public key of the server certificate.
+
+* The Client sends a '''CertificateVerify''' message, which is a signature over the previous handshake messages using the client's certificate's private key. This signature can be verified by using the client's certificate's public key. This lets the Server know that the Client has access to the private key of the certificate and thus owns the certificate.
+
+* The Client and Server then use the random numbers and ''PreMasterSecret'' to compute a common secret, called the "master secret". All other key data is derived from this master secret (and the client- and server-generated random values), which is passed through a carefully designed "pseudorandom function".
+
+* The Client now sends a '''ChangeCipherSpec''' record, essentially telling the Server, "Everything I tell you from now on will be encrypted." Note that the '''ChangeCipherSpec''' is itself a record-level protocol, and has type 20, and not 22.
+
+* Finally, the Client sends an encrypted '''Finished''' message, containing a hash and MAC over the previous handshake messages.
+
+* The Server will attempt to decrypt the Client's '''Finished''' message, and verify the hash and MAC. If the decryption or verification fails, the handshake is considered to have failed and the connection should be torn down.
+
+* Finally, the Server sends a '''ChangeCipherSpec''' and its encrypted '''Finished''' message, and the Client performs the same decryption and verification.
+
+* At this point, the "handshake" is complete and the Application protocol is enabled, with content type of 23. Application messages exchanged between Client and Server will be encrypted.
+
+====Resumed TLS Handshake====
+Public key operations (e.g. RSA) are considered expensive in terms of computational power. TLS provides a secure shortcut in the handshake mechanism to avoid these operations. The Server sends a ''session id'' as part of the '''ServerHello''' message. The Client maps this ''session id'' to the Server's IP address and TCP port, so that when the Client connects again to that Server, it can use the ''session id'' to shortcut the handshake. The ''session id'' maps to the cryptographic parameters previously negotiated, specifically the "master secret". Both sides must have the same "master secret" or the resumed handshake will fail (this prevents an eavesdropper from using a ''session id''). The random data in the '''ClientHello''' and '''ServerHello''' messages virtually guarantee that the generated session keys will be different than in the previous connection.
+
+* A Client sends a '''ClientHello''' message specifying the highest TLS protocol version it supports, a random number, a list of suggested cipher suites and compression methods. Included in the message is the ''session id'' from the previous TLS connection.
+
+* The Server responds with a '''ServerHello''' message, containing the chosen protocol version, a random number, cipher suite, and compression method from the choices offered by the client. If the Server recognizes the ''session id'' sent by the client, it responds with the same ''session id''. The Client uses this to recognize that a resumed handshake is being performed. If the server does not recognize the ''session id'' sent by the Client, it sends a different value for its ''session id''. This tells the Client that a resumed handshake will not be performed.
+
+:: At this point, both the Client and Server have the "master secret" and random data to generate the key data. 
+
+* The Server now sends a '''ChangeCipherSpec''' record, essentially telling the Client, "Everything I tell you from now on will be encrypted." Note that the '''ChangeCipherSpec'' is itself a record-level protocol, and has type 20, and not 22.
+
+* The Server sends an encrypted '''Finished''' message, containing a hash and MAC over the previous handshake messages.
+
+* The Client will attempt to decrypt the Servers's '''Finished''' message, and verify the hash and MAC. If the decryption or verification fails, the handshake is considered to have failed and the connection should be torn down.
+
+* Finally, the Client sends a '''ChangeCipherSpec''' and its encrypted '''Finished''' message, and the Server performs the same decryption and verification.

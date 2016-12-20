@@ -1,0 +1,121 @@
+The '''Matrox ''Parhelia 512''''' is a 512-bit graphics card launched in 2002 with full support for DirectX 8.1 and incorporating several DirectX 9.0 features. It was best known for its ability to drive three monitors ("Surround Gaming") and its ''Coral Reef'' tech demo.
+
+==Background==
+The Parhelia was G200 and G400 lines had become uncompetitive. Their other post-''G400'' products, G450 and G550, were cost-reduced revisions of "G400" technology and were not competitive with ATI's Radeon or NVIDIA's GeForce lines with regards to 3D computer graphics.
+
+==Description==
+===Features===
+The Parhelia 512 was the first graphics card to be equipped with a 256-bit memory bus, giving it an advantage over other cards of the time in the area of memory bandwidth. The Parhelia featured Glyph acceleration, where anti-aliasing of text was accelerated by the hardware.
+
+The various innovative features of Parhelia included quad-vertex shader arrays, hardware displacement mapping, and 16x fragment anti-aliasing, all of which were featured prominently in Matrox's ''Coral Reef'' technical demo. 
+
+The "[http://www.surroundgaming.com Surround Gaming]" support allowed the card to drive three monitors creating a unique level gaming immersion. For example, in a flight simulator or sim racing, the middle monitor could show the windshield while the left and right monitors could display the side views (offering peripheral vision).
+
+The Parhelia also supported 10-bit color, which was an improvement over its competitors. It called it "Gigacolor". The specifications were: 10-bit per channel RGB rendering and output; over one billion simultaneously displayed colors; 10-bit precision for 2D, 3D, DVD and video; 10-bit frame buffer mode for ARGB (2:10:10:10), and 10-bit RAMDACs with full gamma correction.
+
+The Parhelia could drive a 30" Apple Cinema Display at its native resolution of 2,560 x 1,600.
+
+The card was released in two memory configurations, 128 MB or 256 MB DDR RAM.
+
+===Performance===
+For a top-of-the-line, and rather expensive card ($399 GeForce 4 Ti 4600. The Parhelia was only competitive with the older Radeon 8500 and GeForce 3, which typically cost half as much. The Parhelia's potent performance was held back by its comparatively low GPU clock speed, which in turn was initially believed to be limited by its large number of transistors. However, ATI's Radeon 9700 was released later that year, with many more transistors (80 million vs. 108 million), all on the same 150 nm chip fabrication process, yet it had a much higher clock speed (250&nbsp;MHz vs. 325&nbsp;MHz).
+
+The card's fillrate performance was only formidable if a game used many layers of textures because it was only equipped with 4 pixel pipelines, but each had 4 texture units. Unfortunately this did not turn out to be an optimal approach for games. Parhelia was also hampered by limited bandwidth saving technologies, while ATI had their 3rd generation HyperZ in Radeon 9700 and NVIDIA had their Lightning Memory Architecture 2 in GeForce 4. So, while the Parhelia had formidable memory bandwidth, much of it was wasted because the card didn't have the ability to efficiently prevent overdraw or compress z-buffer data, among other inefficiencies. Parhelia was also believed to have a crippled triangle-setup engine that starved the rest of the chip in typical 3D rendering tasks. Some suggested that Matrox did not have engineering talent on par with NVIDIA and ATI and, as a result, their GPU was less efficient and less well designed overall.<!--[http://www.anandtech.com/video/showdoc.html?i=1656&p=6]-->
+
+Later in Parhelia's life, when DirectX 9 applications were becoming quite prevalent, Matrox acknowledged that the vertex shaders were not Shader Model 2.0 capable, and as such not DirectX 9-compliant, as was initially advertised. Presumably there were several bugs within the Parhelia core that could not be worked around in the drivers. However, it was all a bit of a moot point because Parhelia's performance was not adequate to drive most DirectX 9-supporting titles well even without more complex shader code weighing the card down.
+
+thumb|200px|right|Parhelia-512
+'''Parhelia'''（パフィリア）は、GPU、および同GPUを搭載した同名の自然現象を意味する英単語である。
+
+本項ではGPUを「Parhelia-512」と呼称し、搭載ビデオカードを「Parhelia」と呼称する。また、同GPUの派生型である「Parhelia-LX」および搭載製品も本項で取り扱う。
+
+==Parhelia-512==
+thumb|right|Matrox Parhelia
+===Parhelia-512の概要===
+Parhelia-512は8,000万個のトランジスタで構成され、台湾UMC社の150nmプロセスルールで製造されるMatrox社のGPUである。
+
+256bitグラフィックコアと上下で独立した256bitのメモリバスを持ち、ビデオメモリ (Pixel Shader 1.3とVertex Shader 2.0を搭載するが、AGP 4xに対応し、後にAGP 8x対応モデルも発売された。同社製品として初めて動画再生支援機能としてMCに対応している。
+
+1999年の3D処理性能が得られなかった。このため、当初はゲームユーザーを含めたエンドユーザーをターゲットにしていたものが、徐々に独自機能の活かせる産業向けへとシフトしていった。
+
+結果的に現在のバリエーションとしてはAGP版中心の個人用途モデルよりもParheliaの高精度な2D機能を生かしたPCI版中心の産業用途モデルの方が圧倒的に多くなっているなど、MatroxのGPUビジネスが個人用途から産業用途にシフトする転機となったチップともいえる。
+
+===Parhelia-512の代表機能===
+;10bit Giga Color
+:色情報をRGB各色10bitで処理することで約10億色という色空間を実現する。
+;Triple Head
+:3台までのディスプレイに対応するマルチディスプレイ機能。画面解像度にして最大3,840×1,024ピクセルの表示が可能。
+;16x Fragment Antialias
+:画面中のモデルのエッジ部分を検出し、その近辺にのみ16×16精度のアンチエイリアスを行う。Full Screen Antialias (FSAA) と比較して、負荷を抑えながら高品質のAA処理を実現する。
+;Glyph Antialias
+:ガンマ補正によるテキストスムージング機能。
+
+===Parheliaシリーズ===
+;Parhelia
+:初期モデルはAGP4xまでの対応だったが、後にAGP8xに対応したモデルがリテール版のみで発売された。
+:Triple Headまで対応する。
+:初期モデルにはFR(FirstRelease)版と呼ばれる先行版とバルク版とリテール版が存在し、クロックが異なっている。
+:・FR版とバルク版のクロックはコア200MHz/メモリ250MHz
+:・リテール版のクロックはコア220MHz/メモリ275MHz
+:　(その後コアクロックを217MHzに抑えた物がリテール版に混入し、偽リテールという俗称で呼ばれている)
+:ビデオメモリ容量は128MBまたは256MB。
+
+;Parhelia PCI
+:ParheliaのPCI版。Triple Headまで対応する。
+:リテール版のみ。
+:派生版も含めすべてPCI-X対応となっておりワークステーション向けの色彩が強いなど、産業向けの基本モデルとなっている。
+:ビデオメモリ容量は256MB。
+
+;Parhelia DL256 PCI
+:PCI版をDual-link DVI対応とし、Apple Cinema Displayに対応するデジタル最大解像度2560×1600までの高精細表示を可能としたもの。
+:ビデオメモリ容量は256MB。
+
+===その他の搭載製品===
+;QID Pro
+:PCI版をQuad Displayにまで対応させ、最大4モニタにまたがってオーバーレイ表示を可能としたもの。
+:ビデオメモリ容量は256MB。
+
+;Parhelia HR 256
+:PCI版をベースに約920万画素(3840×2400ピクセル)の高解像度に対応したもの。
+:ビデオメモリ容量は256MB。
+
+;その他産業用派生版
+:医療や金融証券・航空管制・衛星画像・GIS・公共広告等、各種産業向けの特殊用途モデルが多数存在する。
+:インターフェースにPCI-Xを採用しているモデルが多い。
+
+===Parhelia-512の「DirectX9サポート」===
+Parhelia-512の発表当時、最も注目されたのはVertex Shader 2.0およびハードウェアによるDisplacement Mapping (D-Map) といったDirectX9の一部機能をサポートしている点であり、またMatrox社もその点を積極的にアピールしていた。本来、Vertex ShaderだけでなくPixel Shaderも2.0に対応していなければDirectX9に完全に対応しているとは言えなかったが、D-Mapをはじめとするジオメトリプロセッシングに力を入れる同社は、トランジスタ個数を抑えるという目的からもParhelia-512のPixel Shaderを1.3で留める選択を行なった。しかしDirectX9のリリース後、開発技術のトレンドはピクセルプロセッシングとなり、Parhelia-512は全く対応できなかった。
+
+当初、同社はDirectX9のリリース後に対応機能を有効化するデバイスドライバを提供すると告知していた。しかし、対応するアプリケーションソフトウェアがないとして徐々に消極的になる。そして、約束されたドライバがユーザーに一度も提供されないまま、今日に至っている。
+
+なお、Windows Aeroについても、Pixel Shader 2.0が必須であり、Parhelia-512では対応不可能である。
+
+==Parhelia-LX==
+thumb|200px|right|Parhelia-LX
+===Parhelia-LXの概要===
+Parhelia-LXはParhelia-512の廉価版として、2003年に発表された。
+Parhelia-512と比較してほとんど全ての描画ユニットを半減させ、さらにParhelia-512発表時にDirectX9対応とされていた一部機能を無効化している(CD付属のDirectXは8.1である)。反面、マルチディスプレイ機能に関してはParhelia-512より改良が行なわれている。
+
+Millenniumシリーズには従来のGシリーズに代わり'''P'''が冠せられており、その文字は'''''Parhelia'''''を意味する。
+Parhelia-512がPCI版を中心に産業向け高画質の派生版を多く出したのに対し、こちらはPlusシリーズやQIDシリーズなど、主にマルチディスプレイ機能を中心とした派生版がリリースされているのが特徴である。
+
+初期モデルはAGP 8x対応P650とP750の2製品のみだったが、PCI版のリリースを経て、2005年にPCI Express 16x対応版のP650 PCIeとParhelia APVeが発表された。また2007年にP650シリーズの再設計版として消費電力を抑えファンレス化したP690シリーズが発表され、Plusシリーズはビデオメモリを256MBに増強の上でオプションでQuadDisplayにまで対応している。
+
+2008年に発表されたMシリーズは、ビデオメモリ512MBを搭載し、オプションでQuad Display対応がが可能なビデオカード。対応OSはWindows XP/Vista/Server 2003/同2008。対応APIはOpenGL 2.0。VistaのAero(WDDMモード)もサポートする。PCとの接続インターフェイスはPCI Express。
+
+===Millennium P650シリーズ===
+thumb|right|Millennium P650 PCIe
+;Millennium P650
+:Dual Headまでの対応となる。AGP8xに対応。ビデオメモリ容量は64MB。
+
+;Millennium P650 Low-profile PCI
+:Dual Headまでの対応となる。ロープロファイルPCIに対応。ビデオメモリ容量は64MB。
+
+;Millennium P650 PCIe
+:Dual Headまでの対応となる。PCI Expressに対応。ビデオメモリ容量は128MB。
+
+;Millennium P650 LP PCIe
+:Dual Headまでの対応となる。LowProfile PCI Expressに対応。ビデオメモリ容量は64MB。
+
+;Millennium P650 [http://www.kotrox.co.kr/matrox/Matrox.asp?cmodel=p650 Kotrox版]
+:韓国代理店のKotroxが独自に生産していたもの。Dual Headまでの対応となる。AGP8xに対応。ビデオメモリ容量は64MBと128MBの2種がある。端子の形にもDVI-I+DVI-I,DVI-I+RGB15,RGB15+RGB15の3種がある。

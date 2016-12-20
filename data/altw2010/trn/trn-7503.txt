@@ -1,0 +1,35 @@
+'''AMD Opteron''' («SledgeHammer» / '''K8''') er en mikroprosessor som ble lansert den «80x86-familien» (x86-64), med et 64-bit instruksjons-sett (AMD64). Opteron kan kjøre både 32-bit og 64-bit programvare. I motsetning til andre 64-bit prosessorer, blir ikke hastigheten til 32-bit programmer redusert under kjøring.
+
+AMD64 ble kopiert av Intel og kalt henholdsvis '''EMT64''' (Extended Memory 64-bit Technology) og '''Intel 64'''.
+
+AMD Opteron var den første 80x86 mikroprosessor med integrert minnekontroller (DDR SDRAM og DDR2 SDRAM). Tidligere 80x86-prosessorer hadde minne-kontrolleren utenfor mikroprosessoren.
+thumb|280px|right|Opteron 246 prosessor
+thumb|280px|left|Socket 940
+
+AMD '''Opteron''' ble produsert for avanserte brukere i samarbeid med Sun Microsystems. I november 2006 var 22.6% av verdens raskeste supercomputere basert på Opteron-prosessoren. Blant de 10 raskeste i verden var:
+
+* 2: ''Sandia National Laboratories''. Cray Red Storm XT3. 26,544 dobbel-kjerne Opteron (2.4 GHz). 101.4 TeraFlops.
+* 9: ''TSUBAME Grid Cluster'', GSIC Center, Tokyo Institute of Technology. Sun Fire X4600 Cluster. 10,368 Opteron (2.4/2.6 GHz). Forbindelse: Infiniband. RAM: 21248 GB, 47.38 TeraFlops.
+* 10: ''Jaguar'' - Oak Ridge National Laboratory. Cray XT3, 2.6 GHz 10,424 dobbel-kjerne Opteron.
+
+De første Opteron-prosessorene (22. april 2003) ble laget for datamaskiner med 1, 2 eller 8 prosessorer. Spesialbygde brikker (rutere) kunne utvide antall prosessorer.
+
+I motsetning til symmetrisk multiprosessering, der prosessorer deler et felles minne, har hver Opteron-prosessor sin egen minnebank gjennom Hypertransport-bussen.
+
+'''AMD Opteron''' adalah sebuah AMD yang dirilis untuk pasar workstation dan server pada musim semi 2003. Prosesor ini menggunakan arsitektur yang sama dengan prosesor AMD Athlon 64, yakni AMD64.
+
+AMD Opteron, secara umum memiliki fitur-fitur sebagai berikut:
+* Cache level-1 sebesar 128 KB, yang terbagi ke dalam ''data cache'' 64 KB dan ''instruction cache'' 64 KB.
+* Cache level-2 sebesar 1024 KB.
+* Kisaran kecepatan mulai dari 1400 MHz hingga 3000 MHz
+* Memiliki tiga buah link HyperTransport dengan kecepatan 3200 Mbit/s
+* Menggunakan soket 939 (seri 1xx), atau socket 940 (seri 2xx dan 8xx)
+* Memiliki kontroler memori terintegrasi, 144-bit Registered DDR-SDRAM (''dual channel memory'' dengan fungsi ECC) (socket 940); atau kontroler memori 128-bit (''dual channel memory'' tanpa fungsi ECC) (Socket 939)
+* Mampu mengakses memori fisik hingga 1 terabyte (ini disebabkan prosesor ini menggunakan 40-bit address bus) serta 256 terabyte memori virtual (48-bit)
+* Menggunakan arsitektur AMD64, yang dapat kompatibel dengan instruksi x86 32-bit.
+* Menggunakan proses manufaktur 130 nanometer atau SOI (''Silicon on Insulator'') 90 nanometer.
+* Tersedia dalam ''single-core'', ''dual-core'', atau ''quad-core''.
+* Tersedia dalam prosesor yang mampu mendukung ''1-way'' (Opteron 1xx), ''2-way'' (Opteron 2xx), atau ''8-way'' (Opteron 8xx) dalam konfigurasi multiprosesor.
+* Tersedia juga dalam bentuk ''energy-efficient'', untuk menekan harga pembayaran listrik (server umumnya dibuat non-stop, yang tentu saja memakan banyak daya)
+
+Prosesor Opteron dirilis untuk menandingi prosesor Intel Xeon di pasar workstation dan Itanium di pasar server high-end. Dibandingkan dengan Intel Xeon yang berbasis mikroarsitektur Intel NetBurst, Opteron dapat dibilang menang telak, dilihat dari konerja yang ditunjukkannya tiap watt yang digunakan (performance/watt), tapi belum dapat menandingi efisiensi prosesor Intel Itanium 2.

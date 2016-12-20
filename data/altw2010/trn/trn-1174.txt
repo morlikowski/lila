@@ -1,0 +1,98 @@
+{{LunarOrbiter
+| Name=Lunar Prospector
+| Image=300px|Lunar Prospector
+| Organization=NASA
+| Contractors=Discovery Program
+| MissionType=Planetary Science
+| LaunchDate=UTC
+| LaunchVehicle=Athena II
+| MissionHighlight=Entered lunar orbit <br>January 11, 1998, 10:28 UTC
+| MissionDuration=570 days
+| Mass=158 kg
+| NSSDC_ID=1998-001A
+| Web=[http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1998-001A NASA NSSDC Master Catalog]
+| SatelliteOf=Moon
+| SemiMajor=6,478.2 km
+| Eccentricity=0.00046
+| Inclination=90.55°
+| Period=117.9 min
+| Apo=101.2 km
+| Peri=99.45 km
+| Orbits=~7060
+| LunarLandingDate=July 31, 1999 at 9:52:02 UTC
+| LunarLandingCoords=
+| LunarLiftoffDate=
+| Instruments=Gamma ray spectrometer (GRS)<br>Lunar prospector neutron spectrometer (NS)<br>Alpha particle spectrometer (APS)<br>Doppler gravity experiment (DGE)<br>Magnetometer (MAG)<br>Electron reflectometer (ER)
+}}
+thumb|The fully assembled Lunar Prospector spacecraft is shown mated atop the Star 37 Trans Lunar Injection module
+thumb|Artist's impression of NASA's Lunar Prospector probe leaving Earth orbit after separating from the booster third stage.
+
+The '''Lunar Prospector''' mission was the third selected by magnetic and crater near the lunar south pole in an unsuccessful attempt to detect the presence of water.  
+
+Data from the mission allowed the construction of a detailed map of the surface composition of the Moon, and helped to improve understanding of the origin, evolution, current state, and resources of the Moon. A series of articles on the scientific results were published in the journal ''Science''.<ref>.</ref>
+
+Lunar Prospector was managed out of NASA Ames Research Center with the prime contractor Lockheed Martin. The Principal Investigator for the mission was Dr. Alan Binder. His personal account of the mission "Against all Odds" (published in 2005 by KenPress, ISBN 1-928771-31-9) is highly critical of the bureaucracy of NASA overall and its contractors.
+
+== Spacecraft and subsystems ==
+The spacecraft was a graphite-epoxy drum, 1.36 meters in diameter and 1.28 meters high with three radial 2.5 m instrument booms. A 1.1 m extension boom at the end of one of the 2.5 m booms held the magnetometer. Total initial mass (fully fueled) was 296 kg. It was spin-stabilized (nominal spin rate 12 rpm) with its spin axis normal to the ecliptic plane. The spacecraft was controlled by six NiCd battery. Communications were through two S-band transponders, a slotted, phased-array medium gain antenna for downlink, and an omnidirectional low-gain antenna for downlink and uplink. The on-board computer was a Harris 80C86 with 64 RAM. All control was from the ground, the computer echoing each command to the ground for verification there. Once the command was ground verified, an "execute" command from the ground told the computer to proceed with execution of the command. The computer built telemetry data as a combination of immediate data and also read from a circular queue buffer which allowed the computer to repeat data it had read 53 minutes earlier. This simple solid state recorder ensured all data collected during communications blackout periods would be received. 
+
+The probe also carried a small part of the remains of Dr. Eugene Shoemaker (April 28, 1928&nbsp;&ndash; July 18, 1997), astronomer and co-discoverer of Comet Shoemaker-Levy 9, to the moon for a space burial. 
+
+== Mission profile ==
+Following launch on Athena 2 rocket, the Lunar Prospector had a 105 hour cruise to the Moon. During the cruise, the three instrument booms were deployed. The MAG and APS collected calibration data, while the GRS, NS, and ER outgassed for one day, after which they also collected calibration data in cis-lunar space. The craft was inserted into an 11.6-hour period capture orbit about the Moon at the end of the cruise phase. After 24 hours Lunar Prospector was inserted into a 3.5-hour period intermediate orbit, followed 24 hours later (on 13 January 1998) by transfer into a 92 x 153 km preliminary mapping orbit, and then on 16 January by insertion into the near-circular 100 km altitude nominal lunar polar mapping orbit with an inclination of 90 degrees and a period of 118 minutes. Lunar calibration data was collected during the 11.6- and 3.5-hour orbits. Lunar mapping data collection started shortly after the 118 minute orbit was achieved. The data collection was periodically interrupted during the mission as planned for orbital maintenance burns, which took place to recircularize the orbit whenever the periselene or aposelene was more than 20 to 25 km from the 100 km nominal orbit, about once a month. On 19 December 1998, a maneuver lowered the orbit to 40 km to perform higher resolution studies. The orbit was altered again on 28 January to a 15 x 45 km orbit, ending the 1 year primary mission and beginning the extended mission.
+
+The mission ended on Shoemaker crater near the lunar south pole. It was hoped that the impact would liberate water vapor from the suspected ice deposits in the crater and that the plume would be detectable from Earth; however, no such plume was observed.
+The Lunar Prospector mission was the third mission selected by NASA for full development and construction as part of NASA's Discovery Program. Total cost for the mission was $62.8 million including development ($34 million), launch vehicle (~$25 million) and operations (~$4 million).thumb|350px|Path of the Lunar Prospector space probe
+
+== Scientific experiments ==
+The spacecraft carried 6 experiments: a Gamma Ray Spectrometer, a Neutron Spectrometer, a Magnetometer, an Electron Reflectometer, an Alpha Particle Spectrometer, and a Doppler Gravity Experiment. The instruments were omnidirectional and required no sequencing. The normal observation sequence was to record and downlink data continuously.
+
+=== Gamma Ray Spectrometer (GRS) ===
+The Lunar Prospector GRS produced the first global measurements of gamma-ray spectra from the lunar surface, from which are derived the first "direct" measurements of the chemical composition for the entire lunar surface. This data effectively maps the distribution of various important elements across the Moon. For example, the Lunar Prospector GRS has identified several regions with high iron concentrations.<ref></ref>
+
+The fundamental purpose of the GRS experiment was to provide global maps of elemental abundances on the lunar surface. The GRS was designed to record the spectrum of gamma rays emitted by:
+# the radioactive decay of elements contained in the Moon's crust; and
+# elements in the crust bombarded by cosmic rays and solar wind particles.
+The most important elements detectable by the GRS were uranium (U), thorium (Th), and potassium (K), radioactive elements which generate gamma rays spontaneously, and iron (Fe), titanium (Ti), oxygen (O), silicon (Si), aluminum (Al), magnesium (Mg), and calcium (Ca), elements which emit gamma rays when hit by cosmic rays or solar wind particles. The uranium, thorium, and potassium in particular were used to map the location of KREEP (potassium, rare-earth element, and phosphorus containing material, which is believed to have developed late in the formation of the crust and upper mantle, and is therefore important to understanding lunar evolution). The GRS was also capable of detecting fast (epithermal) neutrons, which complemented the neutron spectrometer in the search for water on the Moon. 
+
+The Gamma Ray Spectrometer was a small cylinder which was mounted on the end of one of the three 2.5 m radial booms extending from the Lunar Prospector. It consisted of a bismuth germanate crystal surrounded by a shield of borated plastic. Gamma rays striking the bismuth atoms produced a flash of light with an intensity proportional to the energy of the gamma ray which was recorded by detectors. The energy of the gamma ray is associated with the element responsible for its emission. Due to a low signal to noise ratio, multiple passes were required to generate statistically significant results. At nine passes per month, it was expected to take about three months to confidently estimate abundances of thorium, potassium, and uranium, and 12 months for the other elements. The precision varies according to element measured. For U, Th, and K, the precision is 7% to 15%, for Fe 45%, for Ti 20%, and for the overall distribution of KREEP 15% to 30%. The borated plastic shield was used in the detection of fast neutrons. The GRS was designed to achieve global coverage from an altitude of approximately 100 km and with a surface resolution of 150 km.<ref>{{cite journal
+ | journal = Science 
+ | year = 1998
+ | volume = 281
+ | issue = 5382
+ | pages = 1484–1489
+ | doi = 10.1126/science.281.5382.1484
+ | title = Global Elemental Maps of the Moon: The Lunar Prospector Gamma-Ray Spectrometer
+ | author = D. J. Lawrence, * W. C. Feldman, B. L. Barraclough, A. B. Binder, R. C. Elphic, S. Maurice, D. R. Thomsen
+ | pmid = 9727970}}</ref>
+
+=== Neutron Spectrometer (NS) ===
+Based on Lunar Prospector Neutron Spectrometer (NS) data, mission scientists have determined that there is indeed water ice in the polar craters of the Moon,<ref></ref> an estimated 3 billion metric tons (260 billion US gallons).    
+
+The NS was designed to detect minute amounts of water ice which were believed to exist on the Moon. It was capable of detecting water ice at a level of less than 0.01%. The Moon has a number of permanently shadowed craters near the poles with continuous temperatures of -190 °C. These craters may act as cold-traps of water from incoming comets and meteoroids. Any water from these bodies which found its way into these craters could become permanently frozen. The NS was also used to measure the abundance of hydrogen implanted by solar wind. 
+
+The neutron spectrometer was a thin cylinder colocated with the Alpha Particle Spectrometer at the end of one of the three radial Lunar Prospector science booms. The instrument had a surface resolution of 150 km. For the polar ice studies, the NS was slated to examine the poles to 80 degrees latitude with a sensitivity of at least 10 ppm by volume of hydrogen. For the implanted hydrogen studies, the NS was intended to examine the entire globe with a sensitivity of 50 ppmv. The neutron spectrometer consisted of two canisters each containing helium-3 and an energy counter. Any neutrons colliding with the helium atoms give an energy signature which can be detected and counted. One of the canisters was wrapped in cadmium and one in tin. The cadmium screens out thermal (low energy or slow-moving) neutrons while the tin does not. Thermal neutrons are cosmic-ray generated neutrons which have lost much of their energy in collisions with hydrogen atoms. Differences in the counts between the two canisters indicate the number of thermal neutrons detected, which in turn indicates the amount of hydrogen on the Moon's crust at a given location. Large quantities of hydrogen would likely be due to the presence of water.
+
+=== The Alpha Particle Spectrometer (APS) ===
+The Alpha Particle Spectrometer (APS) was damaged during launch, ruining one of the five detecting faces. Additionally, due to sunspot activity peaking during the mission, the lunar data is obscured by solar interference. NASA has stated that the information can eventually be recovered by subtracting out the effects of the solar activity. In the meantime, however, the APS has not yielded any useful results.
+
+thumb|275px|Lunar Prospector
+'''Lunar Prospector''' - американская Луны. Запущена 7 января 1998 года. Завершила работу 31 июля 1999 года
+
+===Задачи полета===
+АМС Lunar Prospector предназначена  для глобальной съемки элементного состава поверхности Луны, исследования ее гравитационного поля и внутреннего строения, магнитного поля и выделения летучих веществ. Первые комплексные исследования поверхности Луны были проведены еще в ходе экспедиций на кораблях Аполлон. В 1994 году АМС Клементина впервые составила глобальную карту элементного состава Луны и в частности обнаружила большие запасы льда на ее южном полюсе, что очень важно для дальнейшего освоения спутника Земли. Lunar Prospector’у предстояло дополнить и уточнить изыскания Клементины, а главное – проверить наличие льда. 
+
+===Конструкция аппарата===
+
+Основой конструкции КА является трехгранная призма (половинка КА Iridium), к которой крепится внешняя цилиндрическая оболочка диаметром 1.40 и длиной 1.25 м. От цилиндра в направлениях, перпендикулярных оси, отходят три штанги научной аппаратуры длиной по 2.4 м. Масса заправленного КА – 295 кг. Станция стабилизируется вращением вокруг продольной оси. Система энергопитания включает смонтированные на цилиндрической оболочке солнечные элементы с выходной мощностью 206 Вт и никельводородные аккумуляторные батареи. В системе управления и обработки данных отсутствует бортовой компьютер. Станция работает по командам, выдаваемым из центра управления, который оборудован в Исследовательском центре имени Эймса. Связь со станцией осуществляется через передатчик и приемник диапазона S, работающие через всенаправленную антенну или антенну среднего усиления MGA, которые находятся на верхнем днище аппарата. 
+
+===Научная аппаратура===
+
+АМС несет пять приборов: 
+* Электронный рефлектометр ER, а также магнитометр MAG служат для обнаружения остаточного магнитного поля и возможного железного ядра Луны.
+* Нейтронный спектрометр NS фиксирует нейтроны, выбиваемые из поверхности Луны ядрами космических лучей, и определяет их энергии. По спектру нейтронов можно установить наличие в грунте водорода, а значит и воды. Аналогичная методика впоследствии нашла большое применение на Марсе (прибор HEND на АМС Mars Odyssey и др)  
+* Гамма-спектрометр GRS предназначен для обнаружения 56 основных элементов лунной коры, в том числе калия и фосфора, титана, кремния, алюминия и железа, по их флюоресценции под жестким излучением Солнца.
+* Альфа-спектрометр APS предназначен для поиска газов, выделяющихся из лунной поверхности в результате тектонических или вулканических явлений – азота, окиси углерода, углекислого газа и радона, и взаимодействия этих явлений с едва заметной лунной атмосферой. 
+Камеры видимого диапазона на станции нет. Это объясняется с одной стороны тем, что Луна давно и детально отснята, а с другой – тем, что разместить камеру на таком легком аппарате с жесткими ограничениями по энергетике и радиокомплексу было невозможно.
+
+===Полет АМС и научные результаты===

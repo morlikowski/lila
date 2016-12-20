@@ -1,0 +1,325 @@
+{{Taxobox
+| image = EM_of_pap_virus,_basal_tissue_grafted_to_mouse.jpg
+| image_size = 190px 
+| image_caption =EM of ''papillomavirus''
+| virus_group = i
+| ordo = ''Unranked''
+| familia  = '''''Papillomaviridae'''''
+| subdivision_ranks = Genera
+| subdivision = ''Alphapapillomavirus''<br>''Betapapillomavirus''<br>''Gammapapillomavirus''<br>''Mupapillomavirus ''<br>''Nupapillomavirus''
+}}
+{{Infobox_Disease |
+Name = Human Papilloma Viruses
+|
+Image = |
+Caption = |
+DiseasesDB = 6032 |
+ICD10 =  |
+ICD9 =   |
+ICDO = |
+OMIM = |
+MedlinePlus = |
+eMedicineSubj = med |
+eMedicineTopic = 1037 |
+MeshID = D030361 |
+}}
+
+{{dablink|The Papillomavirus article covers the general biological 
+features of human and animal papillomaviruses.}}
+
+Papillomaviruses are DNA viruses that infect the skin and mucous membranes of humans and animals. Approximately 130 '''human papillomavirus''' ('''HPV''') types have been identified.
+
+Some HPV types cause warts (verrucae), while others have no symptoms. 
+
+About 30-40 HPV types are typically transmitted through sexual contact and infect the anogenital region. Some sexually transmitted HPV types may cause genital warts, while others do not cause any noticeable signs of infection.
+
+Persistent infection with "high-risk" HIV types — different from the ones that cause warts — may progress to precancerous lesions and invasive cancer.  HPV infection is a cause of nearly all cases of cervical cancer.<ref></ref>
+
+All HPV types are transmitted by skin-to-skin contact and by inanimate objects. 
+
+A cervical Pap smear is used to detect cellular abnormalities. This allows targeted surgical removal of condylomatous and/or potentially precancerous lesions prior to the development of invasive cervical cancer. Although the widespread use of Pap testing has reduced the incidence and lethality of cervical cancer in developed countries, the disease still kills several hundred thousand women per year worldwide.<ref name=NCCC/> HPV vaccines Gardasil and Cervarix, which block initial infection with some of the most common sexually transmitted HPV types may lead to further decreases in the incidence of HPV-induced cancer.<ref></ref>
+
+== Prevalence in the United States ==
+
+Estimates of prevalence vary. <ref>"The prevalence of HPV reported in the assessed studies ranged from 14% to more than 90%."</ref> The incidence is as high as 90% among women treated in STD clinicls. One reason for the difference is that some studies report women who are currently infected, while other studies report women who have ever been infected.<ref>
+{{cite news
+| first = Marie
+| last = McCullough
+| title = Cancer-virus strains rarer than first estimated
+| url = http://www.philly.com/mld/inquirer/living/health/16798039.htm
+| publisher = The Philadelphia Inquirer
+| date = 2007-02-28
+| accessdate = 2007-03-02
+}}
+</ref><ref>
+{{cite news
+| first = David
+| last = Brown
+| title = Study finds more women than expected have HPV
+| url = http://sfgate.com/cgi-bin/article.cgi?f=/c/a/2007/02/28/MNGOCOCAF61.DTL
+| publisher = San Francisco Chronicle
+| date = 2007-02-28
+| accessdate = 2007-03-02
+}} (originally published in the Washington Post as "More American Women Have HPV Than Previously Thought")
+</ref> 
+
+HPV is estimated to be the most common sexually transmitted infection in the United States.<ref name="Dunne 2007" />  According to the National Cervical Cancer Coalition (NCCC), 11% of American women do not have regular cervical cancer screenings; women who do not have cervical cancer screenings on a regular basis dramatically increase their chances of developing cervical cancer.<ref name=NCCC></ref> The American Cancer Society estimates that in 2008, about 11,070 women in the United States will be diagnosed with invasive cervical cancer, and that about 3,870 US women will die from this disease.<ref></ref>
+
+=== At a given time ===
+One study found that, during 2003–2004, at any given time, 26.8% of women aged 14 to 59 were infected with at least one type of HPV. This was higher than previous estimates.  15.2% were infected with one or more of the high-risk types that can cause cancer.  However only 3.4% were infected with one or more of the four types prevented by the Gardasil vaccine, which was lower than previous estimates. <ref name="Dunne 2007"></ref><ref>{{cite web
+   |url        = http://www.newsvine.com/_news/2008/03/11/1358811-study-finds-1-in-4-us-teens-has-a-std
+   |title      = Study Finds 1 in 4 US Teens Has a STD
+   |publisher  = Newsvine
+   |author     = Lindsey Tanner
+   |date       = March 11, 2008
+   |accessdate = 2008-03-17
+    }}</ref>
+
+{| class="wikitable sortable"
+|+ HPV prevalence by age<ref name="Dunne 2007" />
+|-
+! Age (years) 
+! Prevalence (%) 
+|-
+|14 to 19 ||24.5% 
+|-
+|20 to 24 ||44.8% 
+|-
+|25 to 29 ||27.4% 
+|-
+|30 to 39 ||27.5% 
+|-
+|40 to 49 ||25.2% 
+|-
+|50 to 59 ||19.6% 
+|-class="sortbottom"
+!14 to 59 ||26.8%
+|}
+
+It was estimated that in the year 2000, there were approximately 6.2 million new HPV infections among Americans aged 15-44; of these, an estimated 74% occurred to people between ages 15-24.<ref name=Weinstock04></ref>  Of the STDs studied, genital HPV was the most commonly acquired.<ref name=Weinstock04 />  
+
+=== Lifetime ===
+Genital HPV infection is very common, with estimates suggesting that most (>50%) sexually active women will become infected with one or more of the sexually transmitted HPV types.<ref name="Baseman"> *Note: The authors state on page S17 "Overall, these DNA-based studies, combined with measurements of type-specific antibodies against HPV capsid antigens, have shown that most (>50%) sexually active women have been infected by one or more genital HPV types at some point in time."</ref>  The American Social Health Association reported estimates that about 75-80% of sexually active Americans will be infected with HPV at some point in their lifetime.<ref></ref><ref></ref>
+According to the Centers for Disease Control (CDC), by the age of 50 more than 80% of American women will have contracted at least one strain of genital HPV.<ref name=CDC_HPV></ref>
+
+== HPV lifecycle ==
+
+The HPV lifecycle strictly follows the differentiation program of the host basal epithelial cells through mediated endocytosis and/or transcriptional cascade then occurs as the host keratinocyte begins to divide and become increasingly differentiated in the upper layers of the epithelium. The viral squames of the host epithelium and the viral lifecycle continues.
+
+The concern about life-long recurrences may be based on a misconception rather than a myth. It is true that at present there is no cure for genital human papillomavirus. As a virus, it will remain in the infected person's cells for an indefinite time--most often in a latent state, but occasionally producing symptoms or disease.
+
+Recent studies from the Albert Einstein College of Medicine and from the University of Washington suggest that HPV may eventually be cleared, or rooted out altogether, in most people with well functioning immune systems. It appears that in some cases the virus  does remain in the body indefinitely, producing symptoms if the immune system weakens.
+
+=== Latency period  ===
+
+Once cells are invaded by HPV, a latency (quiet) period of months to years may occur. The latency period means the HPV virus is in an incubation period. Having sex with a partner whose HPV infection is in the incubation period still leaves one vulnerable to becoming infected. HPV virus can last from 3 months to 2 years without visible changes, making it difficult for an infectee to establish the source of infection.
+
+== HPV types and associated diseases  ==
+thumb|350px|Notable HPV types and associated diseases
+Over 100 different HPV types have been identified and are referred to by number.
+* Types 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, and 68 are  "high-risk" sexually transmitted HPVs and may lead to the development of cervical intraepithelial neoplasia (CIN), vulvar intraepithelial neoplasia (VIN), penile intraepithelial neoplasia (PIN), and/or anal intraepithelial neoplasia (AIN).
+
+{| class="wikitable" style="margin:1em;"
+! Disease
+! HPV type
+|-
+| Common warts
+| 2, 7
+|-
+| Plantar warts
+| 1, 2, 4
+|-
+| Flat warts
+| 3, 10
+|-
+| Anogenital warts
+| 6, 11, 42, 43, 44, 55 and others
+|-
+| Genital  cancers
+| 16, 18, 31, 33, 35, 39, 45, 51
+|-
+| Epidermodysplasia verruciformis
+| more than 15 types
+|-
+| Focal epithelial hyperplasia (oral)
+| 13, 32
+|-
+| Oral papillomas
+| 6, 7, 11, 16, 32
+|}
+
+=== Cancer ===
+
+thumb|350px|HPV-induced cancers
+
+About a dozen HPV types (including types 16, 18, 31 and 45) are called "high-risk" types because they can lead to malignant transformation.
+
+The p53 protein prevents cell growth in the presence of DNA damage primarily through the BAX domain, which blocks the anti-apoptotic effects of the mitochondrial BCL-2 receptor. In addition, p53 also upregulates the p21 protein, which blocks the formation of the Cyclin D/Cdk4 complex, thereby preventing the phosphorylation of RB and, in turn, halting cell cycle progression by preventing the activation of E2F. In short, p53 is a tumor suppressor gene that arrests the cell cycle when there is DNA damage. The E6 and E7 proteins work by inhibiting tumor suppression genes involved in that pathway: E6 inhibits p53, while E7 inhibits p53, p21, and RB.
+
+240px|thumb|Genome organization of human papillomavirus type 16, one of the subtypes known to cause cervical cancer. (E1-E7 early genes, L1-L2 late genes: capsid)
+
+An infection with one or more high-risk HPV types is believed to be a prerequisite for the development of cervical cancer (the vast majority of HPV infections are not high risk); according to the American Cancer Society, women with no history of the virus do not develop this type of cancer. However, most HPV infections are cleared rapidly by the immune system and do not progress to cervical cancer. Because the process of transforming normal cervical cells into cancerous ones is slow, cancer occurs in people who have been infected with HPV for a long time, usually over a decade or more.<ref>Greenblatt R.J. 2005. [http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6T5D-4H6P7Y9-1&_user=10&_handle=V-WA-A-W-W-MsSAYZA-UUA-U-AABAVZDCWU-AAWEUVYBWU-BEAYVEYEY-W-U&_fmt=summary&_coverDate=09%2F15%2F2005&_rdoc=1&_orig=browse&_srch=%23toc%235000%232005%23999729981%23607092!&_cdi=5000&view=c&_acct=C000050221&_version=1&_urlVersion=0&_userid=10&md5=42b5289fd6b206fd7ae9269741210c39 Human papillomaviruses: Diseases, diagnosis, and a possible vaccine]. ''Clinical Microbiology Newsletter'', 27(18), 139-145. Abstract available.</ref><ref name=Sinal_2005></ref>
+
+Sexually transmitted HPVs also cause a major fraction of anal cancers and approximately 25% of cancers of the mouth and upper throat (known as the oropharynx) (see figure). The latter commonly present in the tonsil area and HPV is linked to the increase in oral cancers in non-smokers.<ref></ref><ref></ref> Engaging in anal sex or oral sex with an HPV-infected partner may increase the risk of developing these types of cancers.<ref name="D'Souza_2007" />
+
+Studies show a link between HPV infection and penile and anal cancer, and the risk for anal cancer is 17 to 31 times higher among gay and bisexual men than among heterosexual men.<ref name="CDC men"></ref><ref></ref>
+
+=== Warts ===
+==== Skin warts ====
+
+Some HPV infections can cause warts (verrucae), which are noncancerous skin growths. Infection with these types of HPV causes a rapid growth of cells on the outer layer of the skin.<ref>Mayo Clinic.com, Common warts, http://www.mayoclinic.com/print/common-warts/DS00370/DSECTION=all&METHOD=print</ref> Types of warts include:
+* Common warts: Some "cutaneous" HPV types, such as HPV-1 and HPV-2, cause ''common'' skin warts. Common warts are often found on the hands and feet, but can also occur in other areas, such as the elbows or knees. Common warts have a characteristic cauliflower-like surface and are typically slightly raised above the surrounding skin. Cutaneous HPV types do not usually cause genital warts and are not associated with the development of cancer.
+* Plantar warts are found on the soles of the feet.  Plantar warts grow inward, generally causing pain when walking.
+* Subungual or periungual warts form under the fingernail (subungual), around the fingernail or on the cuticle (periungual). They may be more difficult to treat than warts in other locations.<ref>Digital verrucae, Nektarios I. Lountziz and Omar Rahman, New England Journal of Medicine, 359:177 (July 10, 2008)<ref>
+* Flat warts: Flat warts are most commonly found on the arms, face or forehead. Like common warts, flat warts occur most frequently in children and teens. In people with normal immune function, flat warts are not associated with the development of cancer.<ref>MedlinePlus, Warts, http://www.nlm.nih.gov/medlineplus/warts.html#cat42 (general reference with links).  Also, see </ref>
+Genital warts are quite contagious, while common, flat, and plantar warts are much less likely to spread from person to person. All warts can spread from one part of your own body to another.<ref>MedlinePlus, Medical Encyclopedia, Warts, http://www.nlm.nih.gov/medlineplus/ency/article/000885.htm</ref>
+
+==== Genital warts ====
+
+Genital or anal warts (condylomata acuminata or venereal warts) are the most easily recognized sign of genital HPV infection. Although a wide variety of HPV types can cause genital warts, types 6 and 11 account for about 90% of all cases.<ref></ref><ref></ref>
+
+Most people who acquire genital wart-associated HPV types clear the infection rapidly without ever developing warts or any other symptoms. People may transmit the virus to others even if they don't display overt symptoms of infection. However, in the vast majority of cases, this is not a cause for concern if proper tests are routinely administered.
+
+HPV types that tend to cause genital warts are '''not''' the same ones that cause cervical cancer. However, since an individual can be infected with multiple types of HPV, the presence of warts does not rule out the possibility of high risk types of the virus also being present.
+
+==== Respiratory papillomatosis ====
+
+HPV types 6 and 11 can cause a rare condition known as recurrent respiratory papillomatosis, in which warts form on the larynx or other areas of the respiratory tract.<ref></ref><ref name=Sinal_2005 />
+
+These warts can recur frequently, may require repetitive surgery, may interfere with breathing, and in extremely rare cases can progress to cancer.<ref></ref><ref name=Sinal_2005 />
+
+=== HPV in immunocompromised patients ===
+
+In very rare cases, HPV may cause epidermodysplasia verruciformis in immunocompromised individuals.  The virus, unchecked by the immune system, causes the overproduction of keratin by skin cells, resulting in lesions resembling warts or cutaneous horns.<ref>Moore, M. [http://www.telegraph.co.uk/news/main.jhtml?xml=/news/2007/11/12/wtree112.xml "Tree man 'who grew roots' may be cured"] (November 21, 2007). ''The Telegraph''.</ref>
+
+== Cervical cancer prevention ==
+
+Most people become infected with various cutaneous HPV types during childhood. Papillomaviruses have a sturdy outer protein shell or "capsid" that renders them capable of lingering in the environment for long periods of time. Avoiding contact with contaminated surfaces, such as the floors of communal showers or airport security lines, might reduce the risk of cutaneous HPV infection. Treating common warts soon after they first appear may also reduce the spread of the infection to additional sites.
+
+Genital HPV infections may be distributed widely over genital skin and mucosal surfaces, and transmission can occur even when there are no overt symptoms. Several strategies should be employed to minimize the risk of developing diseases caused by genital HPVs:
+
+=== Pap smear screening ===
+
+thumb|350px|ThinPrep Pap smear with group of normal cervical cells on left and HPV-infected cells on right. The HPV-infected cells show features typical of [[koilocytes: enlarged (x2 or x3) nuclei and hyperchromasia.]]
+
+Certain types of sexually transmitted HPVs can cause Papanicolaou screening, colloquially known as "Pap" smear testing. The Pap test is an effective strategy for reducing the risk of invasive cervical cancer. The Pap test involves taking cells from the cervix and putting them on a small glass slide and examining them under a microscope to look for abnormal cells. This method is 70% to 80% effective in detecting HPV-caused cellular abnormalities. A more sensitive method is a “Thin Prep,” in which the cells from the cervix are placed in a liquid solution. This test is 85% to 95% effective in detecting HPV-caused cellular abnormalities. The latter method is mainly used on women over 30. It is a combination Pap-HPV DNA test. If this test comes back negative women can usually wait 3 years before having the test done again. Detailed inspection of the cervix by colposcopy may be indicated if ''abnormal cells'' are detected by routine Pap smear. A frequently occurring example of an ''abnormal cell'' found in association with HPV is the koilocyte. (See figure.)
+The American College of Obstetricians and Gynecologists states that the newer liquid based cytology methods (Thinprep and Surepath) may miss 15-35% of CIN3's and cancer.
+
+The Center for Disease Control (CDC) recommends that women get a Pap test no later than 3 years after their first sexual encounter and no later than 21 years of age. Women should have a Pap test every year until age 30. After age 30, women should discuss risk factors with their health care provider to determine whether a Pap test should be done yearly. If risk factors are low and previous Pap tests have been negative, most women only need to have tests every 2-3 years until 65 years of age (Centers for Disease Control 2005).
+All women are encouraged to get a yearly pap smear solely to detect cellular abnormalities caused by HPV.<ref name=CDC_HPV></ref>
+
+Since the Pap test was developed there has been a 70% decrease in cervical cancer deaths over the last 50 years. Pap smear testing has proven to be one of the most successful screening tests in the history of medicine. 
+
+A study published in April 2007 suggests that the act of performing a Pap smear produces an inflammatory cytokine response, which may initiate immunologic clearance of HPV, therefore reducing the risk of cervical cancer. Women who had even a single Pap smear in their history had a lower incidence of cancer. "A statistically significant decline in the HPV positivity rate correlated with the lifetime number of Pap smears received."<ref></ref>
+
+It has been suggested that Pap smear screening for anal cancer might be of benefit for some sub-populations of gay men.<ref></ref>
+
+=== HPV testing ===
+
+An HPV test detects certain types of human papillomavirus (HPVs), depending on the test. A method for detecting the FDA approved a "hybrid-capture" test, marketed by Digene, as a primary screening tool for detecting high-risk HPV infections that may lead to cervical cancer. This test was also approved for use as an adjunct to Pap testing, and may be ordered in response to abnormal Pap smear results.
+
+When patients are screened with both HPV testing and Pap testing the sensitivity reaches 100%.  HPV testing can diagnose CIN 2-3 among women older than 30 years.<ref name="pmid17942871"></ref> The sensitivity of HPV testing alone was 94.6% and specificity was 94.1%. For patients at similar risk to those in this study (0.4% had CIN 2-3), this leads to a positive predictive value of 6.0% and negative predictive value of 100.0% ([http://medinformatics.uthscsa.edu/calculator/calc.shtml?calc_dx_SnSp.shtml?prevalence=0.4&sensitivity=94.6&specificity=94.1 click here] to adjust these results for patients at higher or lower risk of CIN 2-3).
+
+The CDC states on its "STD Facts-HPV Vaccine" page that "An HPV test or a Pap test can tell that a woman may have HPV, but these tests cannot tell the specific HPV type(s) that a woman has."
+
+In Australia, a self-sampling HPV DNA test - that women can do at home using an ordinary tampon - is being marketed by Tam Pap. It has been approved by the  Therapeutic Goods Administration for distribution in Australia. 
+
+{{Taxobox
+| name = Папилломавирус человека
+| image file = Hpv16b.gif
+| regnum = Вирусы
+| familia = Papillomaviridae
+| genus = ''Papillomaviridae''
+| species = ''Папилломавирус человека''
+| latin = ''Human papillomavirus''
+}}
+
+thumb|Папилломавирус человека (HPV)
+'''Папилломавирус человека''' ('''HPV''' — Human Papillomavirus) — вирус из рода рак.
+
+<!-- Тут добавлены - разнесены по разделам - фрагменты англ текста Вики, так как он совершенно независим и потому из него многое можно взять для правки! Кто переведет/использует очередной фрагмент — удаляйте соотв. фрагмент.
+
+== Prevention ==
+Viral sites may be distributed widely over the pelvic area, and transmission can occur even when there are no visible symptoms; thus, the only sure way to prevent genital HPV infection is to abstain from any contact with the genitals of another.
+
+The American Cancer Society advises that condoms offer only limited protection against HPV. Both Planned Parenthood and the Centers for Disease Control recommend condom use to reduce the risk of HPV, and the latter advises that condom use has been associated with a lower rate of cervical cancer. Since the virus infects the skin and is transmitted by skin-to-skin contact, covering even part of the skin (as with a condom) reduces the opportunity for infection, as the area of contact would be reduced for both partners.
+-->
+
+== Распространённость папилломавирусов человека ==
+HPV — одна из наиболее распространённых причин болезней, передаваемых половым путём.
+<!--
+It is estimated that 80 % of sexually active adults have been infected with one or more genital HPV strains at some time.[http://www.hpv.org.nz/pdf/hpvguidelines2004.pdf] The vast majority of infected people suffer no ill effects and never even know that they have been infected, but may be able to infect others.
+
+A highly promising vaccine for HPV is currently in late stage trials, and if the drug is approved by the US Food and Drug Amninistration, should be available in early 2006 [http://www.alumni.uq.edu.au/index.html?page=41390&pid=15464]. It will only benefit women who were not infected with HPV, although the original researchers hope to change this. For women who are already sexually active, health authorities recommend an annual pap smear to detect any early signs of cervical cancer.
+-->
+
+== Структура и белки вируса папилломатоза ==
+Хотя в структуре разных вирусов HPV имеются небольшие различия, есть общая черта, которая объединяет всю группу.
+<!--
+Though the different types of HPV virus differ to a small extent, they all have some characteristics in common. 
+
+The viruses are all small and nonenveloped, meaning they have no nm in diameter (Münger et al., 2004; Greenblatt, 2005; Sinal and Woods, 2005).
+
+The differentiate, and a late region with two genes whose protein products exist only in cells after they have differentiated (Greenblatt, 2005; Sinal and Woods, 2005).
+
+The E5, E6 and E7 proteins are the first viral proteins to be expressed upon infection. They destabilise the infected cell and induce its replication. As the cell differentiates, it migrates upwards. This induces the expression of the E1, E2 and E4 genes. The E1 and E2 proteins produce more copies of the viral genome, whereas E4 destabilises the cytoskeleton. The cell continues to differentiate and to migrate upwards. In the upper layers of the epidermis, the keratinocytes usually begin to express rare proteins and rare lipids, whose mission is to generate a cornified layer that seals the body and prevents dessecation. In this upper layer the late viral proteins L1 and L2 are expressed. They bind the viral DNA and autoassemble, giving rise to the complete virions, ready for a new infection, that are released as the dead keratinocytes descamate.
+-->
+
+== Жизненный цикл вируса ==
+Так как вирусы не являются самостоятельными живыми существами, исследован их жизненный цикл в клетках организма — «хозяина». (Sinal and Woods, 2005; Stern, 2005).
+
+<!--
+Since the virus’s propagation is dependent on its replication by the host’s DNA replication machinery, which is only in use when the host’s genome is being copied (Münger and Howley, 2002; Rapp and Chen, 1998), it is advantageous for the virus to speed cell division and rid the cell of factors that prevent DNA replication (Rapp and Chen, 1998; Greenblatt, 2005). Unfortunately, this leads to the abrogation of processes that exist to ensure that DNA containing errors is not copied, which can lead to the formation of warts and cancer.
+
+Skin cells in the outermost layer of the epidermis are constantly being lost and replaced by cells in the stratum basale, which divide and move up and out through the skin’s layers. As they move outward, these cells differentiate and usually withdraw from the cell cycle (Rapp and Chen, 1998; Wu et al., 2003). The viral proteins E6 and E7 from high-risk HPV types prevent cells from differentiating and withdrawing from the cell cycle as they move outward through the cell layers, while those from low risk types do not (Baseman and Koutsky, 2005). The E6 protein binds to tumor supressor protein p53, marking it for degradation, while E7 binds and inactivates Retinoblastoma protein, (Rb). The E5 protein from high-risk viruses destabilises the cell membranes and changes the cellular responses to programmed cell death or apoptosis. The E4 protein binds the cytoskeleton proteins and prevents a proper cellular differentiation. The L1 protein is the main component of the viral capsid. L1 proteins alone can autoassemble and generate virus-like particles, which resemble viruses, but are devoid of viral DNA. The L2 proteins are minor capsid proteins, and bring the viral DNA into the viral capsid. Differentiating cells begin to produce more and more HPV-encoded proteins until, when they reach the skin surface, they produce complete virions, mature viruses that can survive outside of the host cell (Greenblatt, 2005; Sinal and Woods, 2005). Virions flake off with the discarded skin cells and can go on to infect other hosts and other areas on the same host (Greenblatt, 2005).
+-->
+
+== Характерные проявления инфекции ==
+=== Простые бородавки ===
+
+<!--Some strains of HPV, called cutaneous strains, (e.g., HPV 1) cause ''common'' skin warts. They are most commonly found on the hands and the feet. These strains of HPV do not cause genital warts.
+
+* '''Plantar Warts:''' Plantar warts are found on the soles of the feet.
+* '''Subungual or periungual warts:''' Warts forming under the fingernail (subungual) and around the fingernail or on the cuticle (periungual) are a subtype of the common skin wart. They may be more difficult to cure than warts in other locations.
+* '''Flat Warts:''' Flat warts are most commonly found on the face or forehead, and are most common in children and teens.
+
+=== Genital warts ===
+Genital warts (condylomata acuminata or venereal warts) are the most easily recognised sign of genital HPV infection. Of the multiple strains of genital HPV, strains 6, 11, 30, 42, 43, 44, 45, 51, 52, and 54 can cause genital warts (Gearhart et al, 2004). Most people who acquire those strains never develop warts or any other symptoms.
+
+It is important to note that the strains of HPV that can cause genital warts are NOT the same ones that can cause cervical cancer. These strains are called low-risk types.
+
+=== Cancer ===
+About 15 strains of HPV (including 16, 18, and 31) are called high-risk types because they can cause cervical cancer, anal cancer, vulvar cancer, head and neck cancers, nonmelanoma skin cancers, and (rarely) penile cancer. High-risk types of HPV can cause intraepithelial neoplasias, or abnormal and precancerous cell growth, in the vulva and cervix, which can progress to cancer. These tumours often have HPV viral sequences integrated into the cellular DNA. Some of the genes encoded by these viruses are known to act as oncogenes. The viral E6 protein from high-risk HPV types binds to and causes the degradation of the cellular protein p53 while the high-risk E7 protein interferes with the retinoblastoma protein.
+
+=== Throat cancers and tumors ===
+HPV can also cause laryngeal papillomatosis, or warts in the respiratory tract (Wu et al., 2003; Sinal and Woods, 2005). These warts often recur frequently, may require repetitive surgery (Moore et al., 1999; Sinal and Woods, 2005), may interfere with breathing, and in rare cases can progress to cancer (Moore et al., 1999). HPV types 30 and 40 cause laryngeal carcinoma.
+-->
+
+== Разновидности вируса ==
+В настоящее время известно уже более 100 типов (штаммов) папилломавируса, обнаруженных у человека.
+
+Большинство представителей обладает онкогенными свойствами и вызывает доброкачественные или этиологическая роль папилломавируса в развитии рака шейки матки. Папилломавирусы имеют видоспецифические и некоторые типоспецифические антигены. Не культивируются в клеточных системах. Вирус папилломы человека выявляется в кератоцитах в виде эписомы, 50 — 200 копий на пораженную клетку. Процессы продуктивной инфекции и интеграции не наблюдаются.
+
+Папилломавирус человека (ВПЧ) известен достаточно давно, именно он вызывает бородавки.
+
+Однако в 80-е годы XX века стали появляться сообщения о связи инфицирования папилломавирусами и онкологическими заболеваниями шейки матки у женщин, которые вскоре были доказаны убедительной статистикой.
+
+== Пути инфицирования ==
+Папилломавирусы являются антропонозными возбудителями — то есть передача их возможна только от человека к человеку.
+
+* Есть вероятность сохранения вирусов в отшелушивающих клетках кожи определенное время — поэтому для некоторых заболеваний, вызываемых вирусом вероятен контактно-бытовой путь заражения (бородавки) при условии микроповреждений кожи.
+* Основным путем заражения аногенитальными бородавками (остроконечными кондилломами) является половой путь заражения (включая орально — генитальные контакты и анальный секс).
+* Возможно заражение папилломавирусом новорожденных при родах, что является причиной возникновения ларингеального папилломатоза у детей и аногенитальных бородавок у младенцев.
+
+== Формы существования папилломавирусов и течение болезни ==
+Попав в организм вирусы папиллом инфицируют эпителия, причем наиболее пораженным участком является зона перехода многослойного плоского эпителия в цилиндрический эпителий
+В зараженной клетке вирус существует в двух формах — эписомальной (вне хромосом клетки) — которая считается доброкачественной формой и интросомальной — интегрированной (встраиваясь в геном клетки) — которую определяют как злокачественную форму паразитирования вируса.
+
+===== Течение болезни =====
+* Персистенция папилломавируса в организме (или латентное течение)- вирус существует в эписомальной форме не вызывая патологических изменений в клетках, клинических проявлений нет, определить его существование возможно только методом ПЦР.
+* гистологии — явления гиперкератоза.
+* Дисплазия (неоплазия) — вирус существует в интегрированной форме — при этом происходят изменения в структуре клетки, получившие название койлоцитоз — который возникает в поверхностных слоях эпителия, при этом ядро принимает неправильную форму и становится гиперхромным, в цитоплазме появляются вакуоли. Поражения локализуются в так называемой переходной зоне трансформации шейки матки. Выявляется при гистологическом (цитологическом)обследовании и при кольпоскопии.
+* Карцинома — вирус существует в интегрированной форме, при этом появляются измененные «атипичные» клетки, свидетельствующие о злокачественности процесса (инвазионная опухоль). Наиболее частая локализация — шейка матки (хотя возможны процессы озлокачествления на любом участке кожи и слизистой, инфицированном вирусом). Выявляется при кольпосокпии и гистологическом(цитологическом) исследовании.
+
+===== Инкубационный период =====
+Инкубационный период длительный от половины месяцa до нескольких лет, для папилломавирусной инфекции характерно скрытое (латентное) течение. Человек может одновременно заражаться несколькими типами папилломавирусов. Под влиянием различных факторов происходит активация вируса, его усиленное размножение и болезнь переходит в стадию клинических проявлений.

@@ -1,0 +1,66 @@
+In Conflict of Laws, the choice of law rules for '''tort''' are intended to select the ''lex causae'' by which to determine the nature and scope of the judicial remedy to claim damages for loss or damage suffered.
+
+==History==
+The first attempts to establish a coherent choice of law rule for tort cases involving a foreign law element varied between favouring the public policy (''ordre public'') of territorial state interests, rather than strict territorial connections, were suggested as the basis of a new test.  In 1971, the American Law Institute produced the Second Conflicts Restatements and section 6 provides that the applicable law should be the one with the "most significant relationship" to the tort. In other common law states, a parallel movement occurred and resulted in the adoption of a ''proper law'' test. In substance, both forms are similar in their approach.
+
+==Explanation==
+The presumptive choice of law rule for tort is that the ''proper law'' applies. This is the law that has the greatest relevance to the issues involved. In public policy terms, this is likely to be the law of the place of the where the key elements of the "wrong" were performed or occurred (the ''lex loci delicti''). So if A is a pedestrian injured by B's negligent driving, the law of the state in which the injury is sustained has the best claim to be applied because, in public policy terms, the citizens of that state have a clear interest in regulating the standard of driving on their roads. That either or both the parties might have domiciles outside that state would be irrelevant. But, if A buys a car from B in State X and drives it into State Y where A is injured by a defect in the car, the situation is not so clear cut. There is potential liability both for breach of forum conveniens'' would be the State in which B has residence and/or holds assets. One of the key considerations in any Conflict dispute is the enforceability of the resulting judgment. Courts are more willing to accept cases with a foreign law element when one of the parties is domiciled or has residence within their territorial jurisdiction, or has assets against which judgment can be levied.
+
+However, if the tort was intentional, there are two competing theories as to which law is the most appropriate. For example, A writes a defamatory letter in State X and posts it to B in State Y, clearly damaging the reputation of C in State Y. The ''initiatory'' or ''subjective'' theory provides that the ''proper law'' is the law of the state in which all the initial components of the tort occurred. In the example given, A may never have left State X and the argument would be made that State X would have the better claim to determine the extent of liability for those who, whether temporarily or not, owe it allegiance. Hence, if A sent a reference to B about C in the ordinary course of business, or submitted for publication by B a review of an artistic work by C, the policy claims of State X would be strong. The ''terminatory'' or ''objective'' theory provides that the law of the State in which the last component occurred (i.e. where the loss or damage was sustained) should be the proper law. Here, the argument is that unless and until the damage is sustained, the tort is not complete. Unlike criminal law, there is no liability for attempted tort. Hence, since the tort does not exist to give rise to liability until the letter is read by B in State Y, only State Y has an interest in the application of its laws. There is no international agreement on which theory is to be preferred and each state therefore applies its local choice of law rules. But the enforceability of any judgment would be a relevant consideration. Suppose that the law of State X might offer a partial or complete defence to A. Hence, C naturally prefers to invoke the jurisdiction of State Y's courts. If there is no system for reciprocal and automatic registration and enforcement of judgments between the two states, State Y (and any other State in which jurisdiction might be sought) would be reluctant to accept the case since no court likes to waste its time in hearing a case if it is not going to be enforceable.
+
+In summary, therefore, selecting the ''proper law'' in tort cases is subject to a balancing of public policy and practical considerations and, although each set of choice of law rules will give an indication of likely outcome, the individual decisions on the merits are not strictly subject to precedent and outcomes may vary depending on circumstances.
+
+==European harmonisation provisions==
+Under Article 3 of the proposed ''Rome II Regulation'' on the ''Law Applicable to Non-Contractual Obligations'' (22nd July, 2003), there would be a general presumption that the ''lex loci delicti'' will apply subject to either:
+*an exception in Paragraph 2 for the application of the law any common civil law equivalent of the common law test of ''lex domicilii''. This exception will be satisfactory so long as the laws are substantially the same on the claimed relief.
+*a further exception in Paragraph 3 for cases in which "the non-contractual obligation is manifestly more closely connected with another country. . ." the so-called ''proximity criterion''.
+Until formal guidance is given on the circumstances in which either exception will operate, there will either be considerable forum shopping to select the state's with the most favourable interpretation, or courts will resolve the uncertainty by applying the ''lex fori''.
+
+In product liability cases, Article 4 selects the law of the injured party's habitual residence if the product was marketed there with the consent of the defendant. The rationale is that if a defendant knows of, and is benefiting from, sales in the plaintiff's state, the choice of that law is reasonable.
+
+'''不法行為の準拠法'''（ふほうこういのじゅんきょほう）とは、渉外的要素を持つ法のことをいう。
+
+渉外的私法関係については、法廷地法ではなく当該法律関係に最も密接な関係を有する地の法を準拠法としなければならないという国際私法のルールは、不法行為の場合でも同様である。その結果、最密接地としてどの法域の法を適用するかによって、損害賠償義務の有無や範囲等が変わることになる。
+
+==不法行為地法の原則==
+===原則===
+不法行為の準拠法について、立法例として最も受け入れられている考え方は、原因たる事実の発生した地の法、すなわち'''不法行為地法'''を適用するという考え方である。その根拠としては、被害者の侵害された利益の救済の問題は、不法行為の行われた地の公益に関係すること、不法行為地以外の法域の法を適用すると損害賠償責任の有無や範囲について予測することが困難になること等があげられる。
+
+===法廷地法による修正===
+もっとも、古くは民事責任と刑事責任が区別されていなかった時代があったことや、不法行為の成立及び効果は法廷地の公序にもかかわりを持つことなどから、不法行為地において不法行為責任が認められても、法廷地法によっても不法行為責任が認められなければならないとする立法例も存在する。
+
+例えば、イギリスにおいては、コモン・ロー上の原則として、外国で行われた不法行為に関し、イギリスの裁判所で不法行為に基づく請求が認められるためには、不法行為地法によってもイギリス法によっても請求可能でなければならないとする double actionablity ルールが存在していた（ただし、1995年の不法行為の準拠法に関する制定法の成立により、名誉毀損に関する請求を除いて double actionablity ルールは廃止）。また、ハンガリーや中華人民共和国の国際私法にも、同様のルールが存在する。
+
+===隔地的不法行為===
+不法行為地法を準拠法とした場合に生じる困難な問題は、不法行為の要件の成立が複数の法域にまたがっている場合に、いずれの地の法を準拠法にするかという点にある。
+
+例えば、加害者がA国内で被害者に毒入りの食品を食べさせ、その後被害者がB国内で中毒症状を起こし、C国で死亡した場合（直列型）、A国内で名誉毀損行為が行われたが、その情報が国外の複数の国（B国、C国）にも拡散した場合（並列型）などについて、どの地が不法行為地となるかという問題が生じる。
+
+この点については、加害者の行動地の法を準拠法にすべきとする考え方（'''行動地説'''）、現実に損害が発生した地の法を準拠法にすべきとする考え方（'''結果発生地説'''）、過失責任の場合は行動地の法が準拠法になるが無過失責任の場合は損害が発生した地の法が準拠法になるとする考え方（'''二分論'''）などが存在する。立法例としても、隔地的不法行為の場合を考慮した規定を置いている場合があり（イギリス、ドイツ、イタリア、スイスなど）、行動地法か結果発生地法かを被害者が選択することを可能とする例も存在する（ドイツ、イタリア）。
+
+==不法行為地主義に対する修正、批判==
+以上のように、不法行為の準拠法については、不法行為地法を適用するのが世界的に見られる傾向である。しかし、いつも不法行為地が問題となる法律関係に最も密接な地と言えるかについては批判もあり、そのような考え方に基づく立法例や判例も存在する。
+
+===共通属人法の考慮===
+まず、被害者と加害者の共通属人法を考慮する立場がある。伝統的な国際私法の考え方では、属人法の範囲は「人の身分及び能力に関する法」とされていたが、それを不法行為にも拡張するものである。
+
+ドイツにおいては、1942年12月7日の命令において、外国におけるドイツ人間の不法行為については、不法行為地法を準拠法とせず、ドイツ法を準拠法とする例外が認められた。これは、戦争中に占領地でドイツ人間の車両事故が多発していたことによる不都合を解消する目的で出された命令であるが、判例によって、共通国籍の外国人間の不法行為についても当事者の共通本国法が準拠法になる旨、類推解釈されるに至った（その後の立法により、共通常居所を考慮する立場に移行）。
+
+その他にも、共通属人法を考慮する例が存在するが、国籍、住所、常居所のどれを考慮するかについては、立法例が分かれる（共通住所地を考慮する例としてハンガリー、共通常居所地を考慮する例としてスイス、共通本国でかつ共通住所地を考慮する例としてイタリア）。
+
+===不法行為の類型化===
+不法行為一般について不法行為地法を準拠法にするのではなく、不法行為の類型に応じた最密接地の法を準拠法にすべきとの考え方も存在する。
+
+例えば、スイスにおいては、道路交通事故、製造物責任、不正競争、競争制限、不動産に起因する有害物質等の進入、人格権侵害に類型を分けて、不法行為の準拠法の特則が規定されている。
+
+また、ハーグ国際私法会議においても、不法行為一般について画一的に準拠法を規定するとする立場を採用せず、1971年の道路交通事故の準拠法に関する条約や1973年の製造物責任の準拠法に関する条約が採択されている。
+
+===アメリカの抵触法革命===
+最密接地としてどの地が相応しいかについて異なる結論が導かれるとしても、以上の考え方は、いずれも基本的にサヴィニー以来の国際私法に対する考え方（法律関係本拠地説）を基調としている。これに対し、Babcock v. Jackson事件)。
+
+この事件は、ニューヨーク州の住民である運転者が、同州の住民である者を好意で同乗させ、カナダのオンタリオ州で交通事故を起こしたため同乗者に怪我をさせ、損害賠償請求を受けた事案である。伝統的な不法行為地法主義によれば、オンタリオ州法に従って損害賠償義務の有無や範囲が決まることになるところ、オンタリオ州法では、運転者の好意同乗者に対する損害賠償義務は免責されることになっていた。このような事案につき、ニューヨーク州最高裁判所は、オンタリオ州法を適用することの統治利益は、ニューヨーク州法を適用することの統治利益に比べて極めて小さいものであるとして、オンタリオ州法による損害賠償義務の免責を認めず、ニューヨーク州法に従って損害賠償義務を認めた。
+
+なお、米国抵触法第2リステートメントにおいては、不法行為の準拠法につき、その争点につき事実及び当事者と最も重要な関係を有する国の法によるとされている。
+
+===当事者による法の選択===
+不法行為の規律は公益的な側面が強いものの、不法行為によりいったん発生した債権は通常は金銭債権であることが多い。また、実質法（民法、商法）においては金銭債権については当事者による処分が認められていることなどから、準拠法の選択についても当事者自治を認めるのが妥当とも考えられる。

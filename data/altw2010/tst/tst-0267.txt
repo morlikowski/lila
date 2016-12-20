@@ -1,0 +1,71 @@
+Als '''Embedded Linux''' (deutsch: „eingebettetes Linux“) bezeichnet man im Allgemeinen ein Bibliotheken oder Anwendungen mit diesem Kernel.
+
+== Arten ==
+Embedded Linux Systeme werden normalerweise aufgrund ihrer verschiedenen Prozessoren, der Stromverbrauch, das Zeitverhalten (Echtzeitfähigkeit), der Grad der möglichen Nutzerinteraktionen oder andere wesentliche Faktoren sein.
+
+== Gründe für und wider die Verwendung von Linux in Eingebetteten Systemen ==
+
+Für den Einsatz von Embedded Linux sprechen neben den fehlenden (oder bei fertigen Distributionen geringeren) Lizenz- und Laufzeitgebühren, dem Zugang zum Quellcode (besseres Verständnis für Entwickler, leichtere Anpassung, leichteres Debugging, formale Zertifizierung möglich), guter Skalierbarkeit und der breiten Hardwareunterstützung auch Punkte wie der gute Netzwerksupport der OpenSource-Gemeinschaft (Mailing-Listen) und die Unabhängigkeit von proprietären Anbietern.
+
+Als Nachteil kann angeführt werden, dass der Linux-Kernel zwar wegen seiner starken Modularisierung bis zu einem bestimmten Umfang sehr gut „runterskaliert“ werden kann, dass er jedoch selten an die Größe eines minimalen Systems herankommt. Linux läuft fast ausschließlich auf 32-Bit CPUs (64-Bit), das stellt eine untere Grenze dar (Projekt für Linux auf 16-Bit Prozessoren siehe ELKS). Die Nicht-Echtzeitfähigkeit von Embedded Linux wurde in der Vergangenheit als Nachteil aufgeführt, allerdings existieren in diesem Bereich vielversprechende Projekte. Häufig wird das Vorurteil ob der Verfügbarkeit und der Qualität des Supports als Nachteil aufgefasst.
+
+== Aufbau ==
+
+=== Allgemeiner Aufbau ===
+
+Ein Embedded Linux System ist gut und grob in drei Schichten unterteilbar.
+Die unterste Schicht wird durch die zugrunde liegende Hardware gestellt. Hierbei wird von den Treibern der folgenden Schicht so gut wie alles an Hardware abgedeckt, was einen 32-Bit Prozessor bietet. Die zweite Schicht besteht aus dem eigentlichen Kernel welcher wieder dreifach geschichtet ist. Die unterste Schicht hiervon ist eine Low-Level-Schnittstelle, welche eine erste Hardware-Abstraktion mit kleiner API für darüberliegende Schichten bietet. Danach folgen kleine Module zur (Vorab-)Interpretation von strukturierten Daten aus den Filesystem- und Netzwerkprotokollen, welche der Kernel empfängt und sendet. An dieser Stelle können schon erste Weichen zu Standards auf höheren Schichten gestellt werden. Die letzte Kernelschicht wird auch High-Level-Abstraction-Layer genannt und ist schon bei vielen Linux-Derivaten und Unixen gleich oder ähnlich. Diese Schicht ist bis auf Ausnahmen hardwareunabhängig; hier werden z.&nbsp;B. Prozesse, Threads, Dateien, Sockets und Signale generiert bzw. verarbeitet.
+In der letzten Schicht des Embedded Linux Systems sind verschiedene C-Bibliotheken (oder speziell für eingebettete Systeme speicheroptimierte Ersatzbibliotheken) und auch die Anwendungssoftware angesiedelt. Die Bibliotheken werden meist dynamisch mit den Anwendungen verlinkt.
+
+=== Überblick über Kernel ===
+''Siehe unter:'' Linux-Kernel
+
+=== Entwicklungsumgebungen ===
+
+Bei der Entwicklung von Embedded Linux Systemen kann grob zwischen ''Cross-Development'' und ''Standalone Setups'' (also Nicht-Cross-Development) unterschieden werden. Cross-Development lässt sich außerdem in die beiden Untergruppen ''Linked Setup'' und ''Removable Storage Setup'' unterteilen.
+
+'''Linked Setup''' ist die Entwicklungsumgebung, die das klassische Cross-Development darstellt. Man benutzt ein Host-System auf dem eine größere IDE (''Integrated Development Environment'') laufen kann zum Implementieren des eigentlichen Quellcodes. Dieser Code wird über die Links (daher der Name Linked Setup) auf das Target übertragen, auf dem sich dann ein Bootloader, der Kernel und ein (minimales) Rootfilesystem oder ein Networkfilesystem befinden. Die Links sind serielle Verbindungen wie RS232 oder aber Ethernet oder beides zusammen. Aufgrund der höheren Geschwindigkeit wird häufig Ethernet für den Upload des Codes auf das Target benutzt und die Verbindung des RS232 für die Rückrichtung zum Debugging mit geringerem Datenaufkommen.
+
+Der Aufbau des '''Removable Storage Setup''' lehnt sich grundsätzlich an den des Linked Setup an, jedoch wird bei der Entwicklung ein Zwischenspeicher (Storage) zur Verfügung gestellt, auf dem der zweite Bootloader, der Kernel sowie das Rootfilesystem vom Host abgelegt werden. Auf dem Target befindet sich vorerst lediglich der erste Bootloader, welcher danach den Rest des Systems vom Zwischenspeicher bootet.
+
+Bei der Entwicklung mit sogenanntem '''Standalone Setup''' verzichtet man auf ein große, separate Entwicklungsplattform zu Gunsten eines alleinstehenden, entwicklungsfähigen Targets. Offensichtlich deutet dies auf eine gewisse Größe des Targets hin, denn die Entwicklungsumgebung ist nun auf ihm selbst. Bei gegebener Hardware ist diese Möglichkeit populär, da dann alle zu entwickelnden Komponenten von vornherein in ihrer ''natürlichen'' Arbeitsumgebung laufen.
+
+=== Verwendete Hardware ===
+
+In Embedded Linux Systemen kann eine Vielzahl unterschiedlicher Hardware Anwendung finden. Dies gilt nicht nur, weil sich schließlich bei noch nicht unterstützter Hardware auch Treiber ''from scratch'' (also von Grund auf selbst) schreiben lassen oder weil selbst fertige ''off the peg'' Distributionen schon einen Großteil der potentiellen Hardware ohne Anpassungen nutzen können, sondern weil schlicht eine überwältigende Mehrzahl der potentiell zur Verfügung stehenden Hardware von Linux unterstützt wird.
+John Lombardo schrieb im Jahr 2001:
+
+: ''Your application will determine what type of I/O devices you need. Fortunately, a veritable army of Linux programmers have had years to develop and refine the necessary device drivers to support nearly any hardware imaginable.''
+
+Diese Aussage bezog sich lediglich auf verwendbare Ein- und Ausgabegeräte beziehungsweise Schnittstellen, jedoch kann man wohl mit gutem Gewissen behaupten, dass dies mit Ausnahme der Prozessoren auf den allergrößten Teil der Hardware anwendbar ist. An dieser Stelle werden die unterstützten Hardwarekomponenten ohne Anspruch auf Vollständigkeit genannt. Wegen Lombardos Aussage kann die Betrachtung der restliche (also Nicht-CPU-) Hardware wegfallen und somit der Schwerpunkt auf die Prozessorfamilien gelegt werden. Nichtgenannte Prozessortypen werden nicht automatisch nicht unterstützt, sondern schlich seltener verwendet und stellen meist Einzellösungen dar.
+
+==== x86 ====
+
+'''Embedded Linux''' is the use of a Linux networking equipment, machine control, industrial automation, navigation equipment and medical instruments. According to a VDC survey, Linux was used by 18% of embedded engineers.<ref>[http://www.linuxdevices.com/news/NS4920597981.html Linux still top embedded OS]</ref>
+
+== Differences from other Linux operating systems ==
+
+Unlike desktop and server versions of Linux, embedded Linux is designed for devices with relatively limited resources, such as smaller sizes of RAM and much more limited secondary storage. Embedded Linux devices often have smaller flash memory-based secondary storage instead of a hard drive. Embedded Linux is also usually purpose-made for the required application and target hardware, and thus attempts to be the optimized form of the Linux kernel for that application. Most optimizations are done to make the OS a real-time operating system.
+
+== Development ==
+Embedded Linux has been ported to a variety of processors not suited for use as the processor of desktop or server computers.  
+
+It is an alternative to the&mdash;usually proprietary&mdash;C software largely used in embedded development. Advantages compared to other embedded operating systems include: the source code can be modified and redistributed; relatively small footprint (a typical installation may require less than two megabytes of memory); no royalty or licensing costs; mature and stable; and a large support base. Embedded Linux systems combine the Linux kernel with a small set of free software utilities. The glibc is often replaced as the C standard library by less  resource-consuming alternatives such as dietlibc, uClibc or Newlib.
+
+== Special interest groups ==
+
+thumb|150px|[[Motorola RAZR², an advanced embedded system using embedded Linux]]
+
+Several industry groups have formed to foster use of Linux in embedded applications. These include: the CE Linux Forum, founded in 2003 to aid the inclusion of embedded features in the main Linux kernel branch; the Linux Foundation (formerly Open Source Development Labs); the Linux Phone Standards Forum, created in 2004 to pursue a standard applications environment for Linux-based mobile phones and "converged devices"; the LiMo Foundation, founded in 2006 by Motorola, NEC, Panasonic, Samsung, DoCoMo, and Vodafone to establish a set of interfaces and standard reference components to improve the third-party mobile phone developer base; and the San Francisco, California-based Embedded Linux Consortium, which, until its 2005 closure and transfer of operations to the Linux Foundation, included IBM, Intel, LynuxWorks, and others, and focused on application programming interface standardization. The Embedded Linux Consortium produced the ELCPS (Embedded Linux Consortium Platform Specification) which was intended as a guide to developers of embedded Linux devices as to what functionality should be included in order to provide a standard platform supporting application portability.
+
+=== Commercial Embedded Hardware and Platforms===
+*  RAZR² V8,  RAZR² V9,  ROKR E2,  ROKR E6, A780, E680, A910, A1200, U9, E8 and others
+* Freerunner
+* Nokia's N810 N800
+* Android
+* Linksys WRT54G version 4 or earlier
+* the Panasonic P901i 
+* NEC N901ic telephones
+* Philips LPC3180
+* UTstarcom [DV007]
+* gumstix basix, connex and verdex

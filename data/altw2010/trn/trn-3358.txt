@@ -1,0 +1,107 @@
+In particles interact with each other, and which cannot be explained in terms of another interaction. 
+
+== Overview ==
+thumb|right|250px|Standard Model of Elementary Particles
+
+In the properties'' called ''spin 1/2 (intrinsic attract or repel each other by exchanging bosons.
+
+The interaction of any pair of matter particles can then be modeled this way: 
+
+: two fermions go in <math>\rightarrow</math> ''interaction'' by boson exchange <math>\rightarrow</math> two changed fermions go out. 
+
+The exchange of bosons always carries energy and momentum between the fermions, thereby changing their directions of flight and their respective speed. It may transport a charge between the fermions, changing the charges of the fermions in the process (e.g. turn them from one type of fermion to another type of fermion). Since bosons carry one unit of angular momentum, the fermion's spin direction will flip from +1/2 to −1/2 (or vice versa) during such an exchange (in units of reduced Planck's constant).
+
+Because fermions can attract and repel each other due to an interaction, such an interaction is sometimes called a "force". 
+  
+Efforts of modern physical phenomenon  by these interactions. Moreover, one tries to reduce the number of different interaction types (like ''unifying'' the electromagnetic interaction and the weak interaction into the electroweak interaction, see below). For an introductory explanation,  four fundamental interactions (forces) may be assumed: gravitation, electromagnetism, the weak interaction, and the strong interaction. Their magnitude and behavior vary greatly, as described in the table below. Both magnitude ("relative strength") and "range", as given in the table, have some meaning only within a rather complex framework of ideas.
+
+It should be noted that the table below lists properties of a conceptual model that is still subject to research in modern physics.
+
+<center>
+{| class="wikitable"
+|-
+! Interaction !! Current Theory !! Mediators !! Relative Strength<ref>Approximate.  The exact strengths depend on the particles and energies involved.</ref> !! Long-Distance Behavior !! Range(m)
+|-
+| Strong Nuclear || | [[gluons || 10<sup>38</sup> || <math>{1}</math> <br> (see discussion below) || 10<sup>-15</sup>
+|-
+| Electromagnetic || | [[photons || 10<sup>36</sup> || <math>\frac{1}{r^2}</math> || infinite
+|-
+| Weak || Electroweak Theory || W and Z bosons || 10<sup>25</sup> || <math>\frac{e^{-m_{W,Z}r}}{r}</math> || 10<sup>-18</sup>
+|-
+|  | [[General Relativity<br>(GR) || gravitons (not yet discovered) || 1 || <math>\frac{1}{r^2}</math>  || infinite
+|}
+</center>
+
+The modern quantum mechanical view of the three fundamental forces (all except gravity) is that particles of matter (charge, and exchange virtual particles (gauge bosons), which are the interaction carriers or force mediators. For example, photons are the mediators of the interaction of electric charges; and gluons are the mediators of the interaction of color charges.
+
+==The interactions==
+===Gravitation===
+
+''Gravitation'' is by far the weakest interaction, but at long distances is the most important force. There are two reasons why gravity's strength relative to other forces becomes important at long distances.  The first is that gravity has an infinite range, like that of electromagnetism.  The second reason that gravity is important at long distances is because all masses are positive and therefore gravity's interaction can not be screened like in electromagnetism.  Thus large celestial bodies such as planets, stars and galaxies dominantly feel gravitational forces.  In comparison, the total electric charge of these bodies is zero because half of all charges are negative.  In addition, unlike the other interactions, gravity acts universally on all matter.  There are no objects that lack a gravitational "charge". 
+
+Because of its long range, gravity is responsible for such large-scale phenomena as the structure of galaxies, expansion of the universe, as well as more elementary astronomical phenomena like the orbits of planets, and everyday experience: objects fall; heavy objects act as if they were glued to the ground; people are limited in how high they can jump.
+
+Gravitation was the first kind of interaction which was described by a mathematical theory. In ancient times, Aristotle theorized that objects of different masses fall at different rates. During the Scientific Revolution, Galileo Galilei experimentally determined that this was not the case — if friction due to air resistance is neglected, all objects accelerate toward the ground at the same rate.  Isaac Newton's law of Universal Gravitation (1687) was a good approximation of the general behaviour of gravity. In 1915, Albert Einstein completed the General Theory of Relativity, a more accurate description of gravity in terms of the geometry of space-time.
+
+An area of active research today involves merging the theories of general relativity and quantum mechanics into a more general theory of quantum gravity.  It is widely believed that in a theory of quantum gravity, gravity would be mediated by a massless spin 2 particle which is known as the graviton. Gravitons are hypothetical particles not yet observed.
+
+Although general relativity appears to present an accurate theory of gravity in the non-quantum mechanical limit, there are a number of alternate theories of gravity.  Those under any serious consideration by the physics community all reduce to general relativity in some limit, and the focus of observational work is to establish limitations on what deviations from general relativity are possible.
+
+===Electromagnetism===
+
+''Electromagnetism'' is the force that acts between electrically charged particles. This phenomenon includes the electrostatic force, acting between charges at rest, and the combined effect of electric and magnetic forces acting between charges moving relative to each other. 
+
+Electromagnetism is also an infinite-ranged force, but it is much stronger than gravity, and therefore describes almost all phenomena of our everyday experience, ranging from the impenetrability of macroscopic bodies, to lasers and radios, to the structure of atoms and metals, to phenomena such as friction and rainbows.
+
+Electrical and magnetic phenomena have been observed since ancient times, but it was only in the 1800s that scientists discovered that electricity and magnetism are two aspects of the same fundamental interaction.  By 1864, Maxwell's equations had rigorously quantified the unified phenomenon.  In 1905, Einstein's theory of special relativity resolved the issue of the constancy of the speed of light, and Einstein also explained the photoelectric effect by theorizing that light was transmitted in quanta, which we now call photons.  Starting around 1927, Paul Dirac unified quantum mechanics with the relativistic theory of electromagnetism; the theory of quantum electrodynamics was completed in the 1940s by Richard Feynman.
+
+===Weak interaction===
+
+The ''weak interaction'' or ''weak nuclear force'' is responsible for some phenomena at the scales of the atomic nucleus, such as parity is not conserved; it is left-right asymmetric. It even breaks CP symmetry.
+However, it does conserve CPT.
+
+===Strong interaction===
+
+A fizikában '''alapvető erő''', vagy '''alapvető kölcsönhatás''' a neve annak a  mechanizmusnak, ami segítségével részecskék kölcsönhatást gyakorolnak egymásra, és ami más kölcsönhatással nem magyarázható.
+
+Az alapvető kölcsönhatás modellje szerint a természetben minden fermionokból áll. Ezek mindegyike töltésnek nevezett tulajdonságot hordoz magával, valamint egy fél egységnyi spinnek, magyarosan pedig '''perdület'''nek is  nevezett '''impulzusmomentum'''ot (redukált Planck-állandó*1/2 spin). A gravitációs kölcsönhatást eltekintve a fermionok egymásra való vonzó, vagy taszító  hatása virtuális részecskék, ún. mértékbozonok kicserélése útján történik. A bozonokat kölcsönhatáshordozóknak, vagy erőközvetítőknek is nevezhetjük. A kölcsönhatás kifejezés ezt a kölcsönös bozonátadást tükrözi. Például:
+
+<small> két fermion összejön  <math>\rightarrow</math> ''kölcsönhatás'' bozoncserével  <math>\rightarrow</math> két megváltozott fermion távozik</small>
+
+A fermionok közötti bozoncsere mindig energiaátvitelt és perdületátvitelt jelent, ami a fermionok irányváltozását és sebességváltozását jelenti. Töltésátvitel is történhet azonban, ami a fermionok minöségét is megváltoztathatja, egyikből másikat képez. Mivel a bozonok egy egész impulzusmomentumot hordoznak a fermionok pedig felet ilyen kölcsönhatás esetén a fermion perdülete előjelet változtat. A kölcsönhatás eredménye vonzás is lehet, vagy taszítás is és ezért ezt a kölcsönhatást ''erő''nek is nevezzük.    
+ 
+
+==A kölcsönhatások==
+{| 
+|+ A kölcsönhatások tulajdonságai és az azokat közvetítő bozonok áttekintő táblázata
+! kölcsönhatás !! közvetítő !! nyugalmi tömege !! töltés !! Mire hat?!!hatótávolság (m)
+|-----
+| erős || gluonok (8-féle) ||<center>0<center> || színtöltés|| hadronokra||<center>10<sup>-15</sup> <center>
+|-----
+| elektromágneses || foton || <center>0<center>|| elektromos töltés|| elektromosan töltött részecskékre||<center>végtelen<center>
+|-----
+| gyenge || Z<sup>0</sup> W<sup>+</sup> és W<sup>-</sup> || 91, 80 ill. 80 GeV/c² || gyenge töltés|| minden 1/2 spinű részecskére||<center>10<sup>-18</sup><center> 
+
+|-----
+| gravitáció || graviton* || <center>0<center> || tömeg|| mindenre||<center>végtelen<center>
+|}
+
+<nowiki>*</nowiki> A gravitont még nem fedezték fel...
+
+===Gravitáció===
+
+A ''gravitáció (tömegvonzás)'' messze a leggyengébb kölcsönhatás, mivel azonban csak a testek tömegétől függ és hatótávolsága végtelen, és nem lehet leárnyékolni ahogy az elektromágneses kölcsönhatás esetén a negatív töltés terét egy pozitívéval, ezért a nagyobb távolságok esetén (például a bolygók között) ennek a hatása a döntő.
+
+A nagy hatótávolsága miatt a gravitáció felelős a nagy skálán kialakuló alakzatokért; a pályájáért, valamint olyan hétköznapi tapasztalatokért, hogy a testek leesnek, a „nagy” testeket nehéz felemelni, ha felugrunk visszaesünk.
+
+A gravitáció volt az első, amelyet matematikai összefüggésekkel leírtak. geometriájaként írja le.
+
+A jelenlegi aktív kutatások területéhez tartozik az általános relativitáselmélet és a kvantummechanika összegyúrása egy kvantumgravitációs elméletté. Általánosan elfogadott, hogy a kvantumgravitáció elméletében a gravitációt egy részecske közvetíti, melyet gravitonnak nevezünk. A gravitont még nem fedezték fel.
+
+===Elektromágnesség===
+
+Az ''elektromágnesség'' az az erő, amely az elektromosan töltött részecskék között hat. Magában foglalja az elektrosztatikai erőt, mely két nyugvó töltés között hat, valamint az elektromosság és a mágnesség összetett hatásait, melyek az egymáshoz képest mozgó töltött testek között hatnak.
+
+Az elektromágnesség elég erős, nagy hatótávolságú kölcsönhatás, ezért ez felelős egy csomó hétköznapi jelenségért, mint amilyen az molekulák szerkezete, a súrlódás és a szivárvány.
+
+Az elektromágnességet klasszikus esetben a Maxwell-egyenletek írják le, melyeket a 19. század második fele óta ismerünk. Az elektromágnesség kvantumos elméletét kvantumelektrodinamika (angol rövidítése QED) néven ismerjük. A QED szerint az elektromosan töltött részecskék fotonokat cserélnek egymással, ez közvetíti az erőt.

@@ -1,0 +1,42 @@
+'''同期発電機'''（どうきはつでんき）は、界磁の作る磁界が電機子巻線を横切る回転速度に同期した電力を発電する交流発電機である。
+
+回転子が界磁の、回転界磁形が一般的に用いられる。
+
+==特徴==
+誘導発電機と比べると次のような特徴がある。
+*系統投入時の突入電流が小さい。
+*力率の調整が可能である。
+*周波数が一定であれば定速度で運転が可能であり回転系の振動設計に有利。
+
+==電機子反作用==
+負荷（電機子）電流の供給電圧との位相差（界磁との回転の位相差）によって磁束を乱す作用である。
+
+===交差磁化作用（横軸反作用）===
+力率が1の時、回転方向側の磁束を弱め、その逆側の磁束を強める作用である。理論的には、磁束を弱める作用と強める作用は同じ大きさだが、実機では、磁気飽和により磁束を強める働きの方が小さくなるため、全体として磁束はやや弱くなる。
+
+thumb|Synchrone draaistroommachineDe '''synchrone motor''' is een elektrische generator in het stroomnet.
+
+Een synchrone machine kan functioneren als:
+*Generator
+*Motor
+
+De overgang van generator- naar motorbedrijf kan plaatsvinden zonder dat men daar uitwendig veel van zal merken. Elektrische wisselstroom in energiecentrales wordt bijna altijd opgewekt d.m.v. synchrone draaistroomgeneratoren die aangedreven worden door o.a. stoomturbines, gasturbines, dieselmotoren of waterturbines.
+
+==Constructie==
+thumb|Constructie synchroonmotor
+De belangrijkste onderdelen van een synchrone machine zijn:
+*Stator: Stilstaande gedeelte van de machine, bevat de wikkelingen voor het aansluiten op het draaistroomnet.
+*Rotor: Draaiend gedeelte van de machine, bevat een elektromagneet of bekrachingsspoel waarin door een gelijkstroom een magneetveld wordt opgewekt. Dit magneetveld wordt synchroon meegetrokken door het statordraaiveld. 
+*Sleepringen: Om de elektromagneet op de rotor van gelijkstroom te voorzien.
+
+Dit is de normale synchrone machine. Het is een binnenpoolmachine.
+
+==Andere constructievormen==
+===Kleine motoren===
+Bij kleine motoren wordt in plaats van een bekrachtigingsspoel een permanente magneet gebruikt, zodat er geen sleepringen nodig zijn om de elektriciteit toe te voeren aan de elektomagneet.
+
+===Binnepoolmachine versus buitenpoolmachine===
+* '''Binnenpoolmachine''' 
+Bovenstaande constructies zijn de "normale" constructievormen en worden binnenpoolmachines genoemd. 
+*'''Buitenpoolmachine'''
+Bij een buitenpoolmachine is de constructie andersom. In de stator bevindt zich de elektromagneet en wordt het bekrachtingsveld opgewekt en in de rotor is het draaiveld aanwezig.

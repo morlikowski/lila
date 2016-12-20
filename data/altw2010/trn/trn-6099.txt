@@ -1,0 +1,27 @@
+'''Syntymäpäiväongelma''' on vanha matemaattinen arvoitus. Siitä on useita muunnelmia, mutta keskeinen kysymys kaikissa on seuraava: kuinka monta henkilöä pitää jossakin tilaisuudessa olla koolla, että on todennäköistä, että ainakin kahdella heistä on sama syntymäpäivä? Lähtökohtana on tietenkin, että henkilöitä ei ole valittu heidän syntymäpäiviensä perusteella.
+
+Pienehkössä ihmisryhmässä saatetaan joskus todeta hämmästyneenä, että kahdella ihmisellä on sama syntymäpäivä, onhan päiviä sentään 365. Todellisuudessa se henkilöluku, jonka jälkeen on todennäköisempää että kahdella henkilöllä on sama syntymäpäivä kuin että kaikki ovat syntyneet eri päivinä, on yllättävän pieni.
+
+On helppo osoittaa, että jo 23 henkilön ryhmässä on todennäköisempää, että ainakin kahdella henkilöllä on sama syntymäpäivä, kuin kaikilla eri. Tämä voidaan tehdä seuraavasti. Lasketaan miten todennäköistä on, että kaikki ovat syntyneet eri päivinä. Saatu todennäköisyys on kysytyn todennäköisyyden komplementin todennäköisyys, joka saadaan vähentämällä laskettu todennäköisyys yhdestä.
+
+Valitaan yksi henkilö. Hän voi olla syntynyt minä päivänä tahansa vuoden 365 päivästä (ei rajoittavia ehtoja). Valitaan toinen henkilö. Hän voi olla syntynyt minä päivänä tahansa paitsi sinä päivänä, jona ensimmäinen henkilö oli syntynyt, eli jonakin vuoden 364 päivästä. Valitaan kolmas henkilö, joka voi olla syntynyt minä päivänä tahansa paitsi niinä, joina 1. ja 2. henkilö ovat syntyneet, eli jonakin muuna vuoden 363 päivästä. Valitaan samoin neljäs, viides ja niin edelleen aina 23. henkilöön asti. Tuloperiaatteen mukaan päivämäärät voi valita
+<center><math>365 \cdot 364 \cdot 363 \cdot 362 \cdot \ldots \cdot 343</math></center>
+eri tavalla. Kaikkia mahdollisia tapoja on <math>365^{23}</math> kappaletta. Koska
+<center><math>1 - \frac{365 \cdot 364 \cdot \ldots \cdot 343}{365^{23}} \approx 0{,}5073 > 0{,}5</math>,</center>
+on väite osoitettu.
+
+'''פרדוקס יום ההולדת''' הוא שמה של תוצאה ביום בשנה עולים על חצי. תוצאה זו אינה לוגית, אך היא סותרת את האינטואיציה של מרבית האנשים, הסבורים כי ההסתברות תהיה קטנה בהרבה מחצי משום שמספר הימים שבהם אפשר להוולד גדול בהרבה מ- 23.
+
+תוצאה זו הינה מרחב בגודל n בעל התפלגות אחידה, חזרות מופיעות כבר כאשר מספר הערכים הוא מסדר הגודל של <math>\ \sqrt{n}</math>. 
+
+==תיאור הפרדוקס==
+
+פרדוקס יום ההולדת עוסק בסדרה של מספרים המוגרלים בצורה אקראית מתוך טווח מסוים - במקרה של ימי הולדת, הטווח הוא המספרים מ-1 ועד 365. לשם הפשטות, אפשר להתעלם מקיומן של שנים מעוברות (כלומר, שיום הולדתו של אדם עשוי לחול ב-בלתי תלויים זה בזה - הפרדוקס מאבד את עוקצו אם בין הנבחרים זוג תאומים.
+
+כדי '''להבטיח''' שני אנשים שנולדו באותו יום, יש לבחור לפחות 366 אנשים - זהו עקרון שובך היונים. אולם, הדרישה הסטטיסטית להימנע מימי הולדת משותפים הולכת ומכבידה. בבחירה של 23 הסיכוי יורד ל- 49.2%, בבחירה של 41 אנשים הסיכוי שכל ימי ההולדת שונים הוא 9.6%, וסיכוי זה יורד אל מתחת לאחוז אחד כאשר בוחרים 57 אנשים.
+
+==ניתוח מפורט==
+
+את תופעת יום ההולדת, או החַזרה בבחירה מתוך מרחב גדול בעל התפלגות אחידה, אפשר לנתח משלוש זוויות שונות, המביאות, בקירוב, לאותה מסקנה. נניח שזורקים <math>\ m</math> כדורים באקראי ל- <math>\ n</math> תאים, שההסתברות ליפול לכל אחד מהם שווה.
+
+=== מספר ההתנגשויות ===

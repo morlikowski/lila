@@ -1,0 +1,21 @@
+300px|thumb|right|''Rysunek 1'': Układ warstw typu zawór spinowy
+'''Zawór spinowy''' ''(SV – spin valve)'' - cienkowarstwowy układ typu '''AF'''/'''F<sub>1</sub>'''/'''NF'''/'''F<sub>2</sub>''', wykazujący gigantyczny magnetoopór. Schematycznie układ warstwowy typ zawór spinowy pokazano na rys. 1.
+
+Warstwa F<sub>1</sub>, nazywa się przyszpiloną, gdyż do jej przemagnesowania niezbędne jest przyłożenie pola magnetycznego o odpowiednim kierunku i wartości znacznie przekraczającej pole koercji tej warstwy (H<sub>C(1)</sub>).
+300px|thumb|right|''Rysunek 2'': Ilustracja oddziaływania wymiennego pomiędzy antyferromagnetykiem (AF) i ferromagnetykiem (F<sub>1</sub>)
+W wyniku oddziaływania wymiany (rys. 2) warstwa ferromagnetyka w układzie AF/F<sub>1</sub> wykazuje asymetrię względem osi zerowego natężenia pola magnetycznego, determinującą pole wymiany H<sub>EB</sub> (pole anizotropii jednozwrotowej).
+:<math>H_{EB}=\frac{J_{EB}}{\mu_{0}M_{F}t_{F}}</math>
+
+[[Grafika:SV2.jpg|300px|thumb|right|''Rysunek 3'': Schematyczne przedstawienie zasady działania zaworu spinowego (a) pętla histerezy warstwy swobodnej (F<sub>2</sub>) (b) pętla histerezy warstwy przyszpilonej (F<sub>1</sub>) (c) efektywna pętla histerezy zaworu spinowego (d) gigantyczny magnetooporu zaworu spinowego (AF/F<sub>1</sub>/NF/F<sub>2</sub>). H – natężenie pola magnetycznego, M – moment magnetyczny, R – opór, H<sub>EB</sub> – pole anizotropii wymiany M<sub>1</sub> (strzałka czerwona) – kierunek namagnesowania warstwy 
+F<sub>1</sub>, M<sub>2</sub> (strzałka niebieska) – kierunek namagnesowania warstwy F<sub>2</sub>. Linia różowa i zielona ilustrują zakresy wartości pola magnetycznego, dla H zmieniającego się od wartości dodatnich do ujemnych (linia różowa) i w kierunku przeciwnym (linia zielona)]]
+Przemagnesowanie takiej warstwy zachodzi w polu H<sub>EB</sub>±H<sub>C(1)</sub> (Rys. 3). Natomiast warstwa swobodna (F<sub>2</sub>), przy zaniedbywalnym oddziaływaniu pomiędzy F<sub>1</sub> i F<sub>2</sub>, przemagnesowuje się w polu ±H<sub>C(2)</sub>. Warstwy ferromagnetyczne sprzężone 
+z antyferromagnetycznymi wykazują anizotropię jednozwrotową, gdy:
+-	są nanoszone w zewnętrznym polu magnetycznym,
+-	są wygrzane powyżej temperatury Néela, oznaczanej w literaturze 
+T<sub>N</sub> (charakterystycznej temperatury, poniżej której występuje zjawisko antyferromagnetyzmu) i schłodzone w obecności zewnętrznego pola magnetycznego.
+
+A '''spin valve''' is a device consisting of two or more conducting magnetic materials, that alternates its Giant Magnetoresistive effect.  The magnetic layers of the device align "up" or "down" depending on an external magnetic field.  Layers are made of two materials with different hysteresis curves so one layer ("soft" layer) changes polarity while the other ("hard" layer) keeps its polarity.  In the figures below, the top layer is soft and the bottom layer is hard.
+
+== How it works ==
+<div style="float:right;margin:3px;">
+200px|Low Resistance State 200px|High Resistance State</div> Spin valves work because of a quantum property of electrons (and other particles) called spin.  When a magnetic layer is polarized, the unpaired carrier electrons align their spins to the external magnetic field.  When a potential exists across a spin valve, the spin-polarized electrons keep their spin alignment as they move through the device.  If these electrons encounter a material with a magnetic field pointing in the opposite direction, they have to flip spins to find an empty energy state in the new material.  This flip requires extra energy which causes the device to have a higher resistance than when the magnetic materials are polarized in the same direction.

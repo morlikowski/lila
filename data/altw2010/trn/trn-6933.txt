@@ -1,0 +1,117 @@
+250px|thumb|Central hidroeléctrica
+Unha '''central hidroeléctrica''' é aquela que se utiliza para a xeración de enerxía eléctrica mediante o aproveitamento da enerxía potencial da auga represada nun encoro situada a máis alto nivel que a central.
+
+A auga é conducida mediante unha tubaxe de descarga á sala de máquinas da central, onde mediante enormes turbinas hidráulicas prodúcese a xeración de enerxía eléctrica en [[
+== Características ==
+As dúas características principais dunha central hidroeléctrica, desde o punto de vista da súa capacidade de xeración de electricidade son:
+* A xerador.
+* A enerxía garantida, nun lapso de tempo determinado, xeralmente un ano, que esta en función do volume útil do encoro, e da potencia instalada.
+
+A potencia dunha central pode variar desde uns poucos MW (megaminicentrais. En encoro de Itaipú que ten unha potencia instalada de 14.000 MW en 20 turbinas de 700 MW cada unha.
+
+==Tipos==
+Desde o punto de vista da súa concepción arquitectónica, as centrais poden ser clasificadas en:
+* Centrais ao aire libre, ao pé da presa, ou relativamente afastadas desta, e conectadas por medio dun encanamento en presión;
+* Centrais en caverna, xeralmente conectadas ao encoro por medio de túneles, encanamentos en presión, ou pola combinación de ambas. Desde o punto de vista de como utilizan a auga para a xeración, pódense clasificar en:
+
+* '''Centrais a fío de auga'''. Tamén denominadas ''centrais de auga fluinte'' ou ''de pasada'', utilizan parte do fluxo dun río para xerar enerxía eléctrica. Operan en forma continua porque non teñen capacidade para almacenar auga, non dispoñen de encoro. Turbinan a auga dispoñible no momento, limitadamente á capacidade instalada. Nestes casos as turbinas poden ser de eixe vertical, cando o río ten unha pendente forte ou horizontal cando a pendente do río é baixa.
+* '''Centrais axustadas a un ou máis encoros'''. É o tipo máis frecuente de central hidroeléctrica. Utilizan un encoro para reservar auga e ir graduando a auga que pasa pola turbina. É posible xerar enerxía durante todo o ano si disponse de reservas suficientes. Requiren un investimento maior.
+* '''Centrais mareomotrices'''. Utilizan o fluxo e refluxo das mareas. Poden ser ventaxosas en zonas costeiras onde a amplitude da marea é ampla, e as condicións morfolóxicas da costa permiten a construción dunha presa que corta a entrada e saída da marea nunha baía. Xérase enerxía tanto no momento do enchido como no momento do baleirado da baía.
+* '''Centrais mareomotrices mergulladas'''. Utilizan a enerxía das correntes submarinas. En 2002, en Gran Bretaña implantouse a primeira destas centrais a nivel experimental.
+* '''Centrais que aproveitan o movemento das olas'''. Este tipo de central é obxecto de investigación desde a década dos 80. A inicios de agosto de 1995, o "Ocean Swell Powered Renewable Energy (OSPREY)" implantou a primeira central que utiliza a enerxía das olas no norte de Escocia. A potencia desta central é de 2 MW. Lamentablemente foi destruída un mes máis tarde por un temporal.
+
+== Modalidade de xeración ==
+A modalidade con que se opera unha central hidroeléctrica pode variar ao longo da sua vida útil. As centrais poden operar en réxime de:
+* xeración de enerxía de base;
+* xeración de enerxía en períodos de punta. Estas á súa vez pódense dividir en:
+** centrais tradicionais; ou,
+** centrais reversibles ou de bombeo.
+
+A demanda de enerxía eléctrica dunha cidade, rexión, ou país, ten unha variación ao longo do día. Esta variación é función de moitos factores, entre os que se destacan:
+* tipos de industrias existentes na zona, e quendas que estas realizan na súa produción;
+* tipo de cociña doméstica que se utiliza con máis frecuencia;
+* tipo de quentador de auga que se permite utilizar;
+* a estación do ano;
+* a hora do día en que se considera a demanda.
+
+'''Hydroelectricity''' is a form of hydropower, and is the most widely used form of renewable energy. It produces no waste, and does not produce carbon dioxide (CO<sub>2</sub>), a greenhouse gas. Hydroelectricity now supplies about 715,000 MWe or 19% of world electricity (16% in 2003), accounting for over 63% of the total electricity from renewable sources in 2005.<ref name="REN21-2006">
+[http://www.ren21.net/globalstatusreport/download/RE_GSR_2006_Update.pdf Renewables Global Status Report 2006 Update], ''REN21'', published 2007, accessed 2007-05-16</ref> 
+
+Although large hydroelectric installations generate most of the world's hydroelectricity, China, which has over 50% of world small hydro capacity.<ref name="REN21-2006" /> Some jurisdictions do not consider large hydro projects to be a sustainable environmental impacts, though this judgment depends on the definition of sustainability used.<ref name="CA-SB1078">[http://www.energy.ca.gov/portfolio/documents/SB1078.PDF California SB1078], ''California Senate Bill 1078'', published 2002, accessed 2008-02-18</ref>
+
+thumb|right|300px|Renewable energy sources worldwide at the end of 2006. ''Source: REN21''<ref name="REN21-2007"> [http://www.ren21.net/pdf/RE2007_Global_Status_Report.pdf Global Status Report 2007] (PDF).</ref>
+
+==Electricity generation==
+thumb|right|230px|[[Water turbine|Hydraulic turbine and electrical generator.]]
+thumb|right|230px|Hydroelectric dam in cross section
+
+Most hydroelectric power comes from the generator. In this case the energy extracted from the water depends on the volume and on the difference in height between the source and the water's outflow. This height difference is called the head. The amount of potential energy in water is proportional to the head. To obtain very high head, water for a hydraulic turbine may be run through a large pipe called a penstock.
+
+reservoirs at different elevations. At times of low electrical demand, excess generation capacity is used to pump water into the higher reservoir. When there is higher demand, water is released back into the lower reservoir through a turbine. Pumped storage schemes currently provide the only commercially important means of large-scale run-of-the-river plants, since it is not then possible to store water. A tidal power plant makes use of the daily rise and fall of water due to tides; such sources are highly predictable, and if conditions permit construction of reservoirs, can also be dispatchable to generate power during high demand periods.  
+
+Less common types of hydro schemes use water's waterwheels.
+
+A simple formula for approximating electric power production at a hydroelectric plant is: <math> P = hrk </math>,
+where <math>P</math> is Power in watts, <math>h</math> is height in meters, <math>r</math> is flow rate in cubic meters per second, and <math>k</math> is a conversion factor of 7500 watts (assuming an efficiency factor of about 76.5 percent and acceleration due to gravity of 9.81 m/s<sup>2</sup>, and fresh water with a density of 1000 kg per cubic metre. Efficiency is often higher with larger modern turbines and may be lower with very old or small  installations due to proportionately higher friction losses).
+
+Annual electric energy production depends on the available water supply. In some installations the water flow rate can vary by a factor of 10:1 over the course of a year.
+
+== Industrial hydroelectric plants ==
+While many hydroelectric projects supply public electricity networks, some are created to serve specific industrial enterprises. Dedicated hydroelectric projects are often built to provide the substantial amounts of electricity needed for New Zealand's Tiwai Point. As of 2007 the Kárahnjúkar Hydropower Project in Iceland remains controversial.<ref>[http://www.savingiceland.org/camp2007 Summer of International dissent against Heavy Industry], ''Saving Iceland'', published 2007, accessed 2007-05-17</ref>
+
+== Small-scale hydro-electric plants ==
+
+Small hydro plants are those producing up to 10 megawatts, although projects up to 30 megawatts in North America are considered small hydro and have the same regulations. A small hydro plant may be connected to a distribution grid or may provide power only to an isolated community or a single home. Small hydro projects generally do not require the protracted economic, engineering and environmental studies associated with large projects, and often can be completed much more quickly. A small hydro development may be installed along with a project for flood control, irrigation or other purposes, providing extra revenue for project costs.  In areas that formerly used waterwheels for milling and other purposes, often the site can be redeveloped for electric power production, possibly eliminating the new environmental impact of any demolition operation.  Small hydro can be further divided into mini-hydro, units around 1 MW in size, and micro hydro with units as large as 100 kW down to a couple of kW rating. 
+
+Small hydro units in the range 1 MW to about 30 MW are often available from multiple manufacturers using standardized "water to wire" packages; a single contractor can provide all the major mechanical and electrical equipment (turbine, generator, controls, switchgear), selecting from several standard designs to fit the site conditions.  Micro hydro projects use a diverse range of equipment; in the smaller sizes industrial centrifugal pumps can be used as turbines, with comparatively low purchase cost compared to purpose-built turbines.
+
+== Advantages ==
+thumb|right|230px|The upper reservoir and dam of the [[Ffestiniog power station|Ffestiniog pumped storage scheme. 360 megawatts of electricity can be generated within 60 seconds of the need arising.]]
+
+===Economics===
+The major advantage of hydroelectricity is elimination of the cost of fuel. The cost of operating a hydroelectric plant is nearly  immune to increases in the cost of oil, natural gas or coal. Fuel is not required and so it need not be imported. Hydroelectric plants tend to have longer economic lives than fuel-fired generation, with some plants now in service having been built 50 to 100 years ago.<ref>[http://reme.epfl.ch/webdav/site/reme/users/106542/public/SHS4/Gr01.pdf – Hydropower –
+A Way of Becoming Independent of Fossil
+Energy?]</ref> Operating labor cost is usually low since plants are automated and have few personnel on site during normal operation.
+
+Where a dam serves multiple purposes, a hydroelectric plant may be added with relatively low construction cost, providing a useful revenue stream to offset the costs of dam operation. It has been calculated that the sale of electricity from the Three Gorges Dam will cover the construction costs after 5 to 8 years of full generation.<ref>[http://www.waterpowermagazine.com/story.asp?storyCode=2041318 Beyond Three Gorges in China]</ref>
+
+===Greenhouse gas emissions===
+Since hydroelectric dams do not burn fossil fuels, they do not directly produce carbon dioxide (a greenhouse gas). While some carbon dioxide is produced during manufacture and construction of the project, this is a tiny fraction of the operating emissions of equivalent fossil-fuel electricity generation. 
+
+===Related activities===
+Reservoirs created by hydroelectric schemes often provide facilities for water sports, and become tourist attractions in themselves. In some countries, farming fish in the reservoirs is common. Multi-use dams installed for irrigation can support the fish farm with relatively constant water supply. Large hydro dams can control floods, which would otherwise affect people living downstream of the project. When dams create large reservoirs and eliminate rapids, boats may be used to improve transportation.
+
+==Disadvantages==
+thumb|right|230px|Recreational users must exercise extreme care when near hydroelectric dams, power plant intakes and [[spillways.<ref>[http://www.opg.com/power/hydro/ Stay Clear, Stay Safe], ''Ontario Power Generation''</ref>]]
+
+===Environmental damage===
+Hydroelectric projects can be disruptive to surrounding aquatic Atlantic and Pacific coasts of spawn are also harmed on their migration to sea when they must pass through turbines. This has led to some areas transporting smolt downstream by barge during parts of the year.  In some cases dams have been demolished (for example the Marmot Dam demolished in 2007 <ref>{{cite news
+|title=Rain helps Sandy River run wild, free
+|work=The Oregonian
+|url=http://www.oregonlive.com/news/oregonian/index.ssf?/base/news/1192935309261960.xml&coll=7
+|date=October 20, 2007}}</ref>, because of impact on fish. Turbine and power-plant designs that are easier on aquatic life are an active area of research. Mitigation measures such as fish ladders may be required at new projects or as a condition of re-licensing of existing projects. 
+
+Generation of hydroelectric power changes the downstream river environment.  Water exiting a turbine usually contains very little suspended sediment, which can lead to scouring of river beds and loss of riverbanks.  Since turbine gates are often opened intermittently, rapid or even  daily fluctuations in river flow are observed.  For example, in the Tekapo and Pukaki Rivers.
+
+A further concern is the impact of major schemes on birds. Since damming and redirecting the waters of the Platte River in Nebraska for agricultural and energy use, many native and migratory birds such as the Piping Plover and Sandhill Crane have become increasingly endangered.
+
+=== Greenhouse gas emissions ===
+right|thumb|170px|<center>Bonnington hydroelectric power station, [[River Clyde, Scotland.]]
+left|120px|thumb|The pipes supplying water from the [[River Clyde to Bonnington hydroelectric power station, Scotland.]]
+The reservoirs of power plants in tropical regions may produce substantial amounts of anaerobic environment, and forming methane, a very potent greenhouse gas.  According to the World Commission on Dams report, where the reservoir is large compared to the generating capacity (less than 100 watts per square metre of surface area) and no clearing of the forests in the area was undertaken prior to impoundment of the reservoir, greenhouse gas emissions from the reservoir may be higher than those of a conventional oil-fired thermal generation plant.<ref>[http://www.newscientist.com/article.ns?id=dn7046 Hydroelectric power's dirty secret revealed]</ref> These emissions represent carbon already in the biosphere, not fossil deposits that had been sequestered from the carbon cycle. 
+
+In boreal reservoirs of Canada and Northern Europe, however, greenhouse gas emissions are typically only 2 to 8% of any kind of conventional fossil-fuel thermal generation. A new class of underwater logging operation that targets drowned forests can mitigate the effect of forest decay.<ref>[http://inhabitat.com/2006/12/01/rediscovered-wood-the-triton-sawfish/#more-1973 Inhabitat » “Rediscovered” Wood & The Triton Sawfish]</ref>
+
+Discussions to exclude hydropower facilities from obtaining carbon credits under the Clean Development Mechanism are starting to take place, most recently at the UN Climate Change Conference 2007 in Bali, Indonesia.<ref>[http://www.guardian.co.uk/environment/2007/dec/03/climatechange.greenpolitics1 Power firms accused of emissions trade cheating | Environment | The Guardian]</ref>
+
+===Population relocation===
+Another disadvantage of hydroelectric dams is the need to relocate the people living where the reservoirs are planned. In many cases, no amount of compensation can replace ancestral and cultural attachments to places that have spiritual value to the displaced population.  Additionally, historically and culturally important sites can be flooded and lost. Such problems have arisen at the Three Gorges Dam project in China, the Clyde Dam in New Zealand and the Ilısu Dam in Southeastern Turkey.
+
+===Dam failures===
+Failures of large dams, while rare, are potentially serious — the Banqiao Dam failure in Southern China resulted in the deaths of 171,000 people and left millions homeless.  Dams may be subject to enemy bombardment during wartime, sabotage and terrorism. Smaller dams and micro hydro facilities are less vulnerable to these threats. The creation of a dam in a geologically inappropriate location may cause disasters like the one of the Vajont Dam in Italy, where almost 2000 people died, in 1963.
+
+==Comparison with other methods of power generation==
+230px|right|thumb|The hydroelectric power station of [[Aswan Dam, Egypt]]
+thumb|right|230px||Hydroelectric Reservoir [[Vianden, Luxembourg]]
+Hydroelectricity eliminates the mercury in the coal.  Hydroelectricity also avoids the hazards of coal mining and the indirect health effects of coal emissions. 
+Compared to nuclear leaks. Unlike uranium, hydroelectricity is also a renewable energy source. 

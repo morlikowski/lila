@@ -1,0 +1,195 @@
+{{Taxobox
+| color = pink
+| name = Keelikloomad
+| fossil_range = Ediacara - tänaseni
+| image = Tuna.jpg
+| image_caption = ''Thunnus albacares''
+| domain = Eukarüoodid ''Eucaryota''
+| regnum = Loomad ''Animalia''
+| subregnum = Pärishulkraksed ''Eumetazoa''
+| unranked_phylum = Kahekülgsed ''Bilateria''
+| subdivisio = Teissuused ''Deuterostomia''
+| phylum = '''Keelikloomad''' ''Chordata''
+| phylum_authority = Bateson, 1885
+| subdivision_ranks = Klassid
+| subdivision = 
+Alamhõimkond:Mantelloomad ''Urochordata''
+*Merituped ''Ascidiacea'' 
+*Ripikloomad ''Larvacea''
+*Meritünnikud ''Thaliacea''
+Alamhõimkond:Süstikkalad ''Cephalochordata'' 
+Alamhõimkond:Koljused ''Craniata'' 
+Alamhõimkond:Selgroogsed ''Vertebrata''
+*Pihklased ''Myxini''
+*Silmud ''Cephalaspidomorphi''
+*Kõhrkalad ''Chondrichthyes'' 
+*Kiiruimsed ''Actinopterygii'' 
+*Kopskalad ''Dipnoi''
+*Vihtuimsed ''Crossopterygii''
+*Roomajad ''Reptiles''
+
+Infrahõimkond Lõugsuused ''Gnathostomata''
+*Ülemklass Tetrapoodid ''Tetrapoda'' 
+**Klass Kahepaiksed ''Amphibia''
+**Seeria Amnioodid  ''Amniota''
+***''Sauropsida''
+***''Synapsida'' 
+***Linnud ''Aves''
+***Imetajad ''Mammalia''
+}}
+
+'''Keelikloomad''' (''Chordata'') on loomade hõimkond, kuhu kuuluvad selgroogsed ning mõned nendega lähedases suguluses olevad selgrootud. 
+
+Nende ühine tunnus on see, et mõnel eluetapil on neil seljakeelik, selgmine toru-tüüpi kesknärvisüsteem, lõpusepilud, saba, mis ulatub päraku taha, ja lihaste kimbud ümber keha.  
+
+== Iseloomustus ja klassifikatsioon==
+Keelikloomade hõimkond jaguneb kolmeks alamhõimkonnaks: mantelloomad, süstikkalad ja selgroogsed. 
+
+Mantelloomade alamhõimkonnas on vastsetel seljakeelik ja torujas kesknärvisüsteem, kuid täiskasvanutel pole kumbagi. Süstikkaladel on seljakeelik ja kesknärvisüsteem, kuid puuduvad selgrooga. 
+
+Keelikloomade hõimkonnal on nüüdisajal kümme klassi: üks mantelloomade alamhõimkonnas, üks süstikkalade alamhõimkonnas ja kaheksa selgroogsete alamhõimkonnas. 
+
+Traditsioonilistes selgroogsete klassifikatsioonides on mitmesuguseid parafüleetilisi rühmi, millest uuemates süsteemides on kas loobutud või on neid tunduvalt laiendatud. Standardset süsteemi pole veel välja kujunenud, mistõttu tabelis antud rühmi tuleb võtta esialgsetena. 
+
+Teised rühmad, mida on kasutatud (ladinakeelsete nimede tähestikujärjekorras): 
+* ''Agnatha'': lõuatud selgroogsed
+* ''Amniota: amnioodid (roomajad, linnud, imetajad)
+* ''Anapsida: kilpkonnad
+* ''Archosauria'': krokodillid, linnud, hiidsisalikud 
+* ''Craniata'' koljused (selgroogsed ja pihklane) 
+* ''Diapsida'' ''Lepidosauria'' ja ''Archosauria''
+* ''Dinosauria'': hiidsisalikud ehk ürgsisalikud ehk dinosaurused, mõnikord koos lindudega
+* ''Gnathostomata'': lõugsuused selgroogsed
+* ''Lepidosauria'': sisalikud ja maod
+* ''Lissamphibia'': põhiosa kahepaiksetest
+* ''Osteichthyes'': kiiruimseteks ja sagaruimseteks, mõnikord arvatakse nende hulka kõik neljajalgsed  
+* ''Sarcopterygii'': vihtuimseteks (latimeeriad) ja kopskaladeks, mõnikord arvatakse nende hulka kõik neljajalgsed 
+* Synapsida: imetajad ja nende väljasurnud sugulased
+* ''Tetrapoda'': neljajalgsed selgroogsed ehk tetrapoodid 
+
+{{clade| style=font-size:85%;line-height:85%
+|label1='''Chordata'''
+|1={{clade
+   |label1=&nbsp;Tunicata&nbsp;
+   |1={{clade
+      |1=&nbsp;Appendicularia&nbsp;(formerly&nbsp;Larvacea)
+      |2=&nbsp;Thaliacea&nbsp;
+      |3=&nbsp;Ascidiacea&nbsp;
+      }}
+   |2=&nbsp;Cephalochordata
+   |label3=&nbsp;Craniata&nbsp;
+   |3={{clade
+      |1=Myxini
+      |label2=&nbsp;Vertebrata&nbsp;
+      |2={{clade
+         |1=&nbsp;Conodonta†
+         |2=&nbsp;Cephalaspidomorphi†
+         |3=&nbsp;Hyperoartia
+         |4=&nbsp;Pteraspidomorphi†
+         |label5=&nbsp;Gnathostomata&nbsp;
+         |5={{clade
+            |1=&nbsp;Placodermi†
+            |2=&nbsp;Chondrichthyes
+            |label3=&nbsp;Teleostomi&nbsp;
+            |3={{clade
+               |1=&nbsp;Acanthodii†
+               |label2=&nbsp;Osteichthyes&nbsp;
+               |2={{clade
+                  |1=&nbsp;Actinopterygii
+                  |label2=&nbsp;Sarcopterygii&nbsp;
+                  |2={{clade
+                     |label1=<font color="white">void</font> 
+                     |1={{clade
+                        |label1=&nbsp;Tetrapoda&nbsp;
+                        |1={{clade
+                           |1=&nbsp;Amphibia
+                           |label2=&nbsp;Amniota&nbsp;
+                           |2={{clade
+                              |label1=&nbsp;Synapsida&nbsp;
+                              |1={{clade
+                                 |label1=<font color="white">void</font> 
+                                 |1={{clade
+                                    |1=&nbsp;Mammalia
+                                    }}
+                                 }}
+                              |label2=&nbsp;Sauropsida&nbsp;
+                              |2={{clade
+                                 |label1=<font color="white">void</font> 
+                                 |1={{clade
+                                    |1=&nbsp;Aves
+                                    }}
+                                 }}
+                              }}
+                           }}
+                        }}
+                     }}
+                  }}
+               }}  
+            }}
+         }}
+      }} 
+   }} 
+}}
+
+ 
+
+{{taxobox phylogénie animal |
+*Pharyngotrèmes
+**Hémichordés
+** Chordés
+***Urochordés
+***Myomérozoaires
+****Céphalochordés
+****Craniates
+*****Myxinoïdes
+*****Vertébrés }}
+
+Les '''chordés''' ou '''cordés''' ('''''Chordata''''') sont un  de bilatériens deutérostomiens. Leur système nerveux, en forme de tube, est situé au-dessus du tube digestif, on dit que les chordés sont épineuriens, au contraire des protostomiens. Leur nom provient de la '''notochorde''', une lamelle cartilagineuse d'origine mésodermique qui joue un rôle crucial lors de l'embryogenèse. Elle a en outre un rôle de soutien et de protection du tube nerveux chez les chordés primitifs. Chez les vertébrés, qui constituent un sous-embranchement des chordés, la notochorde régresse généralement à l'âge adulte pour être remplacée par la colonne vertébrale.
+Les cordés sont également caractérisés par un pharynx (partie antérieure du tube digestif), percé de fentes branchiales au moins à l'état embryonnaire et par un système circulatoire clos avec un cœur.
+
+Cet embranchement a connu une très importante diversification depuis son apparition au céphalochordés et les urochordés sont restés peu diversifiés et exclusivement marins, les vertébrés ont eu une évolution fulgurante et ont conquis tous les milieux de la planètes, avec leur premiers pas sur terre au dévonien supérieur (il y a environ ). Aujourd’hui, avec les baleines, ils comprennent les animaux les plus grands que la terre ait jamais porté.
+
+Parmi les cordés, on trouve : 
+* Urochordés ou tuniciers
+* Céphalochordés (Amphioxus) 
+* Vertébrés
+
+== Voir aussi ==
+*Somite
+
+==Liste des classes==
+En classification classique, les chordés sont composés de :
+* sous-embranchement ''Tunicata'' Lamarck, 1816 -- Tuniciers
+** classe ''Appendicularia'' -- Tuniciers pélagiques
+** classe ''Ascidiacea'' -- Ascidies
+** classe ''Thaliacea'' -- Tuniciers pélagiques
+* sous-embranchement ''Cephalochordata''
+* sous-embranchement ''Vertebrata''
+** super-classe ''Agnatha''
+*** classe ''Cephalaspidomorphi'' (lamproie)
+*** classe ''Myxini''  (myxine)
+*** classe ''Pteraspidomorphi'' (animaux fossiles)
+** infra-embranchement ''Gnathostomata''
+*** classe ''Chondrichthyes'' -- Poisson cartilagineux
+*** super-classe ''Osteichthyes'' -- Poisson à squelette osseux
+**** classe ''Actinopterygii'' -- Poisson à nageoires rayonnées
+**** classe ''Sarcopterygii''
+*** super-classe ''Tetrapoda'' -- Tétrapodes
+**** classe ''Amphibia'' Linnaeus, 1758 -- Amphibiens
+**** classe ''Reptilia'' Laurenti, 1768 -- Reptiles
+**** classe ''Aves'' -- Oiseaux
+**** classe ''Mammalia'' Linnaeus, 1758 -- Mammifères
+
+==Liens externes==
+* 
+* 
+* 
+* 
+* 
+
+*
+
+bat-smg:Chuordėnē
+
+eo:Ĥorduloj
+es:Chordata

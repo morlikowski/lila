@@ -1,0 +1,22 @@
+'''Chemisorption''' is a type of adsorption whereby a molecule adheres to a surface through the formation of a chemical bond, as opposed to the Van der Waals forces which cause physisorption. It is characterised by:
+* High temperatures.
+* Type of interaction: strong; covalent bond between adsorbate and surface.
+* High enthalpy: 50 kJ/mol <ΔH< 800 kJ/mol
+* Adsorption takes place only in a monolayer.
+* High activation energy
+* Increase in electron density in the adsorbent-adsorbate interface.
+* Reversible only at high temperature.
+
+==Uses==
+The main way in which most chemists utilise the effect of chemisorption is in catalysed reactions. The process of chemisorption is actually pivotal to the role of heterogeneous catalysis where the catalyst is in a solid phase—particularly transition metal catalysts. In many cases the chemical reagents will both bind to the catalytic surface. The chemical bonds then form and draw electrons away from the chemisorption bonds. The molecule then desorbs and is free to leave the surface.
+
+===Examples===
+Self Assembled Monolayers (SAMs) are often formed by chemisorbing thiols (RS-H) onto gold surfaces forming Au-SR bonds.
+
+Die '''Chemisorption''' ist eine speziellen Form der Adsorption, bei der im Unterschied zur Physisorption das Adsorbat durch stärkere chemische Bindungen an das Adsorbens (Substrat) gebunden wird. Durch die Chemisorption wird das Adsorbat und/oder das Adsorbens chemisch verändert.
+
+Meistens ist die Physisorption eine Vorstufe zur Chemisorption. Die Chemisorption ist im Unterschied zur Physisorption nicht immer reversibel und erfordert häufig eine hohe Aktivierungsenergie. Die Bindungsenergie beträgt typischerweise um 800 kJ/mol (ca. 8 eV/Atom) im Gegensatz zur Physisorption mit ca. 80 kJ/mol (ca. 0,8 eV/Atom). Maximal kann eine monomolekulare Schicht adsorbiert werden.
+
+Eine Einteilung der Sorption in Chemisorption oder Physisorption kann nicht allein auf Grund der Bindungsenergie erfolgen. Wichtigstes Kriterium für Chemisorption ist die chemische Veränderung des Adsorbats bzw. des Adsorbens. Dadurch kann in wenigen Kombinationen bereits bei niedrigen Bindungsenergien (z.B. 80 kJ/mol) eine Chemisorption vorliegen, während bei anderen Kombinationen noch bei 100 kJ/mol eine Physisorption vorliegt.
+
+Die starke Bindung der Adsorbatmoleküle an das Substrat (meistens ein Metall) kann dazu führen, dass deren intermolekularen Bindungen ganz (Heterogenen Katalyse ausgenutzt, das Substrat wird dann Katalysator genannt.

@@ -1,0 +1,127 @@
+'''국제표준도서번호'''('''ISBN''', International Standard Book Number)는 국제적으로 책에 붙이는 고유한<ref>
+출판사들이 실수로 같은 ISBN을 다른 책에 부여하는 경우가 있기 때문에 완전히 고유하지는 않다. 또한 같은 책이라도 여러 ISBN이 붙을 수 있는데, 제본 방법에 따라서, 그리고 한 책을 담당하는 출판사가 여럿 있을 경우 이런 상황이 발생할 수 있다.</ref> 식별자이다. ISBN 체제는 원래 1966년 영국에서 표준도서번호(SBN)라는 이름으로 만들어졌고, 1970년 국제 표준화 기구에 의해 ISO 2108이라는 표준으로 채택되었다.
+
+비슷한 종류의 식별자로 주기적으로 출판되는 간행물에 사용되는 국제표준연속간행물번호(ISSN)가 있다. 원래 ISBN은 10자리였지만 2007년 1월 1일 이후로는 유럽상품번호(EAN)에 맞춰 13자리로 바뀌며, 이를 '''ISBN-13'''이라 부르기도 한다.
+
+== 요약 ==
+재판하는 경우가 아닌 이상 한 책의 모든 판본 종류에 하나씩 ISBN이 부여된다. ISBN은 10자리 또는 13자리로 이루어져 있으며, 다음과 같이 구성된다.
+
+{| class="infobox" style="border-collapse:collapse; line-height:1.1;"
+|- style="font-size:2em; font-weight:bold;"
+| style="color:#c00;" | 978
+| style="color:#0c0;" | 89
+| style="color:#00c;" | 546
+| style="color:#444;" | 0326
+| style="color:#888;" | 3
+|- style="text-align:center;"
+| '''(1)'''<br />GS1<br />접두어
+| '''(2)'''<br />국가·<br />언어
+| '''(3)'''<br />출판사
+| '''(4)'''<br />항목
+| '''(5)'''<br />확인<br />숫자
+|}
+# (13자리 ISBN일 경우) GS1 접두어, 978 또는 979
+# 출판 국가 또는 언어 번호
+# 출판사 번호
+# 항목 번호
+# 확인 숫자 (여기에는 10을 나타내는 X가 올 수도 있다)
+
+2, 3, 4번 부분은 ISBN에 따라서 길이가 다를 수 있으나 전체 길이는 항상 일정하다. 이 숫자들은 ‘ISBN 사용자 매뉴얼’에서 제시한 바를 따라 보통 부분별로 묶어서 하이픈(-) 또는 공백으로 구별하지만, 실제로는 ISBN이 접두 부호의 일종이기 때문에 이러한 구분자가 없어도 모호함 없이 해석이 가능하다.<ref>
+[http://www.isbn-international.org/en/identifiers/allidentifiers.html 국가 번호의 목록]과 [http://www.isbn-international.org/converter/ranges.htm 출판사 번호 범위의 목록]을 사용하면 기계적으로 해석할 수 있다.</ref> 만약 하이픈이 쓰인다면 하이픈은 각 부분과 부분 사이에 정확히 나타나야 하지만,<ref>
+http://www.isbn.org/standards/home/isbn/international/hyphenation-instructions.asp</ref> 언어 번호와 출판사 번호의 목록은 주기적으로 갱신되기 때문에 현실적으로는 이것이 불가능할 수도 있다.
+
+국가 번호에는 영어권 국가(0), 프랑스어권 국가(2), 독일어권 국가(3), 일본(4), 러시아(5) 등이 할당되어 있다. (처음의 SBN에는 국가 번호가 없었으나 앞에 적절한 국가 번호를 붙여 올바른 ISBN으로 변환할 수 있다.) 국가 번호는 5자리까지 될 수 있으며, 예를 들어 6은 중화인민공화국에, 89는 대한민국에, 970은 멕시코에, 99936은 부탄에 할당되어 있다. 그 다음 출판사 번호는 국가별 ISBN 기관에서 할당을 담당하며, 항목 번호는 일반적으로 출판사들이 임의로 정할 수 있다.<ref>
+예외적으로 중화인민공화국의 경우 1990년대 이전까지 ISBN 할당을 국가에서 담당했으며, 이를 검열에 활용하였다.</ref>
+
+출판사들은 임의로 할당 가능한 ISBN 범위를 국가별 기관에서 할당받아서 사용한다. 예상되는 출판물의 수에 따라 범위의 크기가 정해지며, 할당받은 범위가 모자랄 경우 기관에서 새 범위를 할당받아서 사용하게 된다. 이전에 할당된 ISBN은 계속 유지되어야 하기 때문에 여러 범위가 한 출판사에 할당될 수도 있다. 출판사 번호는 그 규모에 따라 적게는 한 자리에서 많게는 일곱 자리로 구성된다.
+
+== 확인 숫자 ==
+
+10자리 ISBN에서는 ISBN의 각 자리에 가중치를 곱해서 더한 값이 11의 배수가 되도록 확인 숫자를 정한다. 첫 자리부터 마지막 자리(확인 숫자)까지 10부터 1까지의 가중치가 붙으며, 수학적으로는 다음과 같이 나타낼 수 있다.
+: ISBN이 <math>abcdefghij</math>일 때, <math>10a + 9b + 8c + 7d + 6e + 5f + 4g + 3h + 2i + j \equiv 0 \pmod{11}</math>
+: 즉 <math>j = 11 - (10a + 9b + 8c + 7d + 6e + 5f + 4g + 3h + 2i) \mod 11</math>
+: 또는, <math>j = (a + 2b + 3c + 4d + 5e + 6f + 7g + 8h + 9i) \mod 11</math>
+
+확인 숫자는 0부터 10까지의 숫자가 될 수 있으며, 0부터 9까지는 십진법 숫자를 그대로 쓰지만 10은 특별하게 X로 나타낸다. 11이 소수이기 때문에 한 자리가 틀렸거나 서로 인접한 두 자리를 바꿔 썼을 경우를 감지해낼 수 있다. 아주 드물기는 하지만 확인 숫자가 잘못 계산되어 책에 부여된 ISBN이 올바르지 않은 경우도 있다.
+
+13자리 ISBN에서도 가중치를 사용하여 확인 숫자를 정하는 것은 같지만, 각 자리마다 해당하는 가중치가 순서대로 1, 3, 1, 3, …인 것과 10으로 나눈 나머지를 사용하는 점이 다르다. 수학적으로는 다음과 같이 나타낼 수 있다.
+: ISBN이 <math>abcdefghijklm</math>일 때, <math>a + 3b + c + 3d + e + 3f + g + 3h + i + 3j + k + 3l + m \equiv 0 \pmod{10}</math>
+: 즉 <math>m = 10 - (a + 3b + c + 3d + e + 3f + g + 3h + i + 3j + k + 3l) \mod 10</math>
+
+이 방법은 13자리 유럽상품번호(EAN)에서 쓰는 방법과 같기 때문에 호환성이 있지만, 10이 소수가 아니기 때문에 1/9 확률로 서로 인접한 두 자리가 바뀐 경우를 감지해 낼 수 없다. 이는 십진법 숫자만 확인 숫자로 썼을 때 사용할 수 있는 최선의 방법이다.
+
+== EAN-13과의 통합 ==
+
+thumb|220px|ISBN codiert als [[European Article Number|EAN-13 Barcode]]
+
+Die '''Internationale Standardbuchnummer''' ''(International Standard Book Number)'', abgekürzt '''ISBN''', ist eine Büchern. Daneben können auch andere selbstständige Veröffentlichungen, wie beispielsweise Multimedia-Produkte und Software, mit einer ISBN gekennzeichnet werden, sofern sie einen redaktionellen Anteil enthalten. ISBN werden überwiegend in Warenwirtschaftssystemen des Buchhandels eingesetzt, doch auch viele Bibliotheken verwenden sie für die Bestellsysteme und die bibliotheksübergreifenden Kataloge. Nationalbibliografien hingegen haben eigene Nummernsysteme.
+
+== Entstehungsgeschichte ==
+{{Vorlage:Infobox Din |
+NR = ISO 2108|
+Bereich = Information und Dokumentation|
+Regel = Internationale Standard-Buchnummer (ISBN)|
+Beschreib = Nummernsystem für Bücher|
+Jahr = 1.2007|
+ISO = 2108|
+}}
+
+Seit Mitte der 1960er-Jahre machte man sich in Europa, insbesondere in England an der London School of Economics and Political Science und bei der ''Publisher Association of Great Britain'', Gedanken über eine eindeutige internationale Identifikation von Büchern. 1966 führte das größte Buchhandelshaus WHSmith erstmals eine Standardbuchnummer, abgekürzt „SBN“, ein. Die Internationale Organisation für Normung griff 1968 diese Vorschläge auf und veröffentlichte 1972 die Norm ISO&nbsp;2108. Die deutschsprachigen Fassungen dieser Norm lauten DIN&nbsp;ISO&nbsp;2108 bzw. in Österreich als ÖNORM&nbsp;ISO&nbsp;2108.
+right|thumb|Buchland-EAN und ISBN-10 auf der Rückseite eines Buches
+thumb|Buchland-EAN und ISBN-13 auf der Rückseite eines Buches
+
+Bis 2006 hatte der Nummernraum einer ISBN zehn Stellen einschließlich einer Prüfziffer. Da es in Osteuropa und im englischen Sprachraum Schwierigkeiten gab, für neue Verlage und Publikationen Nummern zu vergeben, wurde die dreizehnstellige ISBN-13 eingeführt. Alte ISBN im zehnstelligen Format werden nun als ISBN-10 bezeichnet. Der für ISBN zur Verfügung stehende Zahlenraum konnte dadurch verdoppelt werden. Neben der Verdoppelung des Zahlenraumes war die Kompatibilität mit dem System internationaler Artikelnummern EAN der wichtigste Grund für die Umstellung. Das Format der ISBN-13 wurde so gewählt, dass die Zahlenfolge identisch mit der zugehörigen EAN-13-Artikelnummer ist. 
+
+Seit 1. Januar 2007 ist die Angabe der ISBN-13 verbindlich. 
+
+===Kopplung an das System internationaler Artikelnummern===
+Das ISBN-System wurde an das System internationaler Artikelnummern EAN gekoppelt. Damit könnten Bücher weltweit innerhalb des EAN-Systems in Warenwirtschaftssysteme übernommen werden, ohne dass aufwändige Neuauszeichnungen mit nationalen Strichcodes nötig sind. Da die ersten drei Ziffern einer EAN normalerweise für das Registrierungsland stehen (z.&nbsp;B. „400“ bis „440“ für die deutsche EAN-Verwaltung), wurde für Bücher ein „Buchland“ (engl. „Bookland“) eingeführt (sozusagen für „registriert im Land der Bücher“). Für Bücher sind die EAN-Ländernummern 978 und 979 vorgesehen. 
+
+ISBN-13 sind identisch mit der zum Buch gehörenden EAN-13. Auch ISBN-10 können in eine EAN-13 bzw. ins ISBN-13-System überführt werden. Dazu wird der ISBN-10 einfach die EAN-Ziffernfolge 978 vorangestellt und die alte Prüfziffer durch eine neue EAN-Prüfziffer ersetzt.
+
+== Regeln zur ISBN-Vergabe und -Nutzung ==
+
+Mit der ISBN wird eine nichtperiodische Auflagen einer Publikation oder eine andere Publikationsform (z.&nbsp;B. Taschenbuch statt Hardcover) bedürfen jeweils einer eigenen ISBN. Einzige Ausnahme sind unveränderte Nachdrucke. 
+
+Nicht jedes Buch hat eine ISBN. In Deutschland vergibt nur die ''ISBN-Agentur für die Bundesrepublik Deutschland'' ISBN-Verlagsnummern und einzelne ISBN. Weder die ISBN-Verlagsnummern noch die einzelnen ISBN dürfen verkauft oder an einen anderen Verlag gegeben werden. Da es keine rechtliche Verpflichtung zur Verwendung einer ISBN gibt und diese mit einigen Kosten verbunden ist, verzichten manche Kleinverlage und Selbstverlage auf die Registrierung einer ISBN. Die Zuteilung einer einzelnen ISBN kostet in Deutschland 73,13 Euro in der Schweiz 107,60 Franken, jeweils inklusive Mehrwertsteuer. 
+
+Ein Verlag mit fortgesetzter Verlagsproduktion wird in Deutschland im ''Adressbuch für den deutschsprachigen Buchhandel'' (ADB), dem Standardnachschlagewerk zum Thema Verlagsanschriften für den Buchhändler und Bibliothekar, eingetragen. Dieses Recherchemittel ist das offizielle, nationale ISBN-Register der Bundesrepublik Deutschland. Dieser Eintrag kostet jährlich 12 Euro. Bei der Erteilung einer Verlagsnummer hat der Verlag eine Grundgebühr für die ISBN-Vergabe selbst von 120 Euro zu zahlen und eine Liste aller von ihm vergebbaren ISBN zu beziehen. Der Preis der Liste richtet sich nach deren Umfang, bei 10 Nummern kostet sie 15 Euro, bei 100 Nummern 30 Euro, bei 1000 Nummern 60 Euro, bei 10000 Nummern 360 Euro und bei 100000 Nummern 2880 Euro. Für jedes Buch, welches per elektronischer Titelmeldung in das Verzeichnis lieferbarer Bücher aufgenommen wird, sind 3,00 Euro pro Jahr zu zahlen. Bei Papiermeldung beträgt die jährliche Gebühr 3,50 Euro. Darin enthalten sind die bis 2007 zusätzlichen Kosten für die Verschlagwortung eines Titels sowie die Gebühr für die Listung in der Volltext-Onlinesuche libreka!, unabhängig davon, ob man diese nutzt. Zu zahlen sind pro Jahr mindestens 60 Euro. Die Gebühren beinhalten den Nachweis der Titel in den monatlichen VLB-CD-ROM-Ausgaben und im tagesaktuellen VLB-Online-Katalog. Alle Preise<ref>Stand 26. Januar 2008, Preise direkt von der [http://www.german-isbn.org/ Homepage der deutschen ISBN-Agentur]</ref> verstehen sich exklusive Mehrwertsteuer und Porto.
+
+== Aufbau der ISBN ==
+thumb|right|274px|Auseinander gezogene ISBN, Spalte hinzugefügt
+Die ISBN besteht aus fünf Bestandteilen.
+
+* ''Beispiel:'' ISBN 978-3-86680-192-9
+
+Sie werden wie folgt kodiert:
+# Das '''Präfix''' ist je nach Buch 978 oder 979. Bei der ISBN-10 gab es kein Präfix.
+# Die '''Gruppennummer (auch Ländernummer genannt)''' ist eine Kennzahl für eine nationale, geographische, Sprach- oder sonstige geeignete Gruppe, sie wird von der Internationalen ISBN-Agentur festgelegt und kann unterschiedlich viele Ziffern enthalten.<br />Beispiele:
+#* 0 und 1 für den englischsprachigen Raum
+#* 2 für den französischsprachigen Raum
+#* 3 für den deutschsprachigen Raum
+<!-- In diesen Abschnitt gehören NUR Gruppennummern, nichts anderes, keine Gruppennummer-Verlagsnummer-Kombinationen oder so etwas!!!!-->
+#* 88 für Italien
+#* 99953 für Paraguay
+#* Für die Schweiz wird je nach Sprache die 2, 3 oder 88 verwendet. 
+#* Obwohl in Luxemburg die meisten Bücher auf Deutsch veröffentlicht werden, gilt für sie nur die 2.
+# Die '''Verlagsnummer''' ist eine Kennzahl für den #Weblinks.
+# Dann folgt die vom Verlag vergebene '''Titelnummer (auch Bandnummer genannt)'''. Der Verlag (oder Drucker u.&nbsp;Ä.) ist frei in der Verwendung, allerdings müssen verschiedene Produkte differenziert werden, also separat verkäufliche Bände, unterschiedliche Einbände usw. Hinsichtlich der Behandlung von Auflagen gibt es keine Regel.
+# Zum Schluss wird eine '''Prüfziffer''' angegeben. Die Prüfziffer ermöglicht das Erkennen von Tippfehlern in einer ISBN: erkannt werden kann ein einzelner Tippfehler und die Vertauschung von zwei Ziffern. 
+
+Die ISBN ist nach ISO&nbsp;2108 auf eine der folgenden Arten zu formatieren:
+* ISBN (Präfix )Gruppennummer Verlagsnummer Titelnummer Prüfziffer (ohne Trennstriche)
+* ISBN (Präfix–)Gruppennummer–Verlagsnummer–Titelnummer–Prüfziffer (mit Trennstrichen)
+Im Rahmen von elektronischer Datenverarbeitung ist die Verwendung ohne Trennzeichen zulässig. Die Nummer bleibt auch ohne Trennzeichen eindeutig.
+
+Ein Tool für die korrekte Formatierung einer ISBN ist in den Weblinks zu finden.
+
+=== Formeln zur Berechnung der Prüfziffer ===
+==== ISBN-13 ====
+Zur Berechnung der Prüfziffer bei der ISBN-13 werden alle zwölf Ziffern der noch unvollständigen ISBN addiert, wobei die Ziffern mit gerader Position (also die zweite, vierte etc.) dreifachen Wert haben. Eine 5 an sechster Stelle beispielsweise fließt also als 15 in den Term ein. Von dem Ergebnis dieser Addition wird die letzte Stelle bestimmt, die dann von 10 subtrahiert wird. Also etwa 10-4=6 bei einem Additionsergebnis von 124. Dieses Endergebnis ist die Prüfziffer. Ist das Endergebnis indessen 10, ist die Prüfziffer 0.
+Bezeichnet man die ersten zwölf Ziffern mit z<sub>1</sub> bis z<sub>12</sub> so gilt für die Prüfziffer an der dreizehnten Stelle:
+
+:<math>z_{13} = 10 - (( z_1 + z_3 + z_5 + z_7 + z_9 + z_{11} + 3\cdot(z_2 + z_4 + z_6 + z_8 + z_{10} + z_{12})) \mod 10)</math>
+
+Das letzte Modulo dient dem Einhalten der sog. „Null-Regel“, die besagt, dass die Prüfziffer selbst auch 0 wird, wenn das Ergebnis der Prüfziffernberechnung 10 ist. Als Folge dieser Methode lässt sich die Gültigkeit einer ISBN-13 überprüfen, indem man
+
+:<math>(z_1 + z_3 + z_5 + z_7 + z_9 + z_{11} + z_{13} + 3\cdot(z_2 + z_4 + z_6 + z_8 + z_{10} + z_{12})) \mod 10</math>

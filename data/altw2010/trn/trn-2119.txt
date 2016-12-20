@@ -1,0 +1,96 @@
+{| border="1" cellpadding="2" cellspacing="0" align="right"
+|-
+! align="left" | Presentazione:
+|  Ottobre , 1993
+|-
+! align="left" | Dismissione:
+| Febbraio , 1994
+|-
+! align="left" | Costo:
+| $ 2097
+|-
+! align="left" | CPU:
+| 68030
+|-
+! align="left" | Frequenza CPU:
+| 32 MHz
+|-
+! align="left" | FPU:
+| opzionale 68882
+|-
+! align="left" | L1 Cache:
+| 512 B
+|-
+! align="left" | L2 Cache:
+|
+|-
+! align="left" | L3 Cache:
+|
+|-
+! align="left" | Bus:
+| 16 MHz
+|-
+! align="left" | Slot:
+| Nessuno
+|-
+! valign="top" align="left" | RAM:
+| 4 MB
+|-
+! align="left" | Memoria:
+| Max 8 MB, 1 slot RAM da 80 ns
+|-
+! align="left" | VRAM:
+| 512 KB
+|-
+! valign="top" align="left" | Video:
+| 14" pollici CRT<br /> 640 x 480 8 bit 
+|-
+! align="left" | Audio:
+|  Uscita audio a 8 bit Stereo
+|-
+! valign="top" align="left" | Porte:
+| 2 ADB <br /> 2 Seriali <br /> Altoparlante <br /> SCSI 
+|-
+! align="left" | Comunicazione:
+| 
+|-
+! align="left" | Lettori:
+| 1.44 KB CD-ROM 2X
+|-
+! align="left" | Hard Drive:
+| 160 MB SCSI
+|-
+! align="left" | Consumo:
+| 60 Watt
+|-
+! align="left" | Peso:
+| 18.3 Kg 
+|-
+! valign="top" align="left" | Dimensione:
+| A L P  45.3 x 34.3 x 41.9 cm
+|- 
+! align="left" | Sistema operativo:
+| System Software 7.1
+|-
+! align="left" | ROM:
+| 1 MB
+|-
+|}
+Il '''Macintosh TV''' è stato il primo tentativo di Apple di creare un dispositivo che coniugasse un computer con una televisione.
+
+== Introduzione ==
+Apple introdusse questo prodotto nell'Ottobre del 1993, presentandolo come una grossa innovazione, tuttavia il dispositivo non ebbe il successo che la ditta di Cupertino aveva previsto, infatti riuscì a venderne solo 10.000 pezzi.
+
+== Specifiche ==
+Il Macintosh TV assomigliava molto ad Macintosh Performa della Serie 500, se non per il colore che era il nero. Internamente sfruttava una scheda madre di un Performa 520 e utilizzava un monitor CRT Sony Triniton da 14 pollici.
+
+Fra gli attacchi si trovavano, ovviamente una presa antenna, gli ingressi per Mouse e Tastiera, una seriale, una SCSI e un Entrata Video Composito con Input Audio Stereo.
+
+{{Mac_specs|Image=|Introduced=October 1993|MSRP=2097|CPU=Motorola 68030|
+  CPUspeed=32 MHz|OS=System 7.1|RAM=5&nbsp;MiB, expandable to 8&nbsp;MiB|RAMtype=80 ns 72-pin SIMM|Discontinued=February 1994}}
+
+The '''Macintosh TV''' was Apple's first attempt at computer-television integration. It shared the external appearance of the Macintosh LC 500 series, but in black. The Macintosh TV was essentially a Performa 520 that could switch its built-in 14" Sony Trinitron CRT from being a computer display to a cable-ready television. It was incapable of showing television feeds in a desktop window, although it could capture still frames to PICT files. Ironic for a system based around television, one of the reasons cited for its failure was its sub-par (especially for Macs) graphics performance. Combined with this and its crippled 16MHz bus speed, it made for a poor computer compared with Apple's other options and an expensive TV, leaving most to opt for separate products.
+
+It came with a small credit card-sized remote control that was also compatible with Sony televisions (as with most of Apple's remotes ). It was the first  Macintosh to be made in black (and the first computer since the ''keyboard and mouse. Later Apple would issue a custom black Performa 5420 (the only other black Macintosh offered) in markets outside the United States with many of the features of the Mac TV. The Mac TV tuner card was a popular option for the LC & Performa series. 
+
+Only 10,000 were made in the model's short time on the market.

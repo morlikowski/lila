@@ -1,0 +1,49 @@
+{{Infobox OS
+| name                   = BSD/OS
+| logo                   = 
+| screenshot             = 
+| caption                = 
+| website                = 
+| developer              = 
+| family                 = Unix-like
+| source_model           = 
+| latest_release_version = 
+| latest_release_date    = 
+| latest_test_version    = 
+| latest_test_date       = 
+| marketing_target       = 
+| language               = 
+| kernel_type            = 
+| ui                     = 
+| license                = Proprietary
+| working_state          = Discontinued
+| supported_platforms    = x86
+| updatemodel            = 
+| package_manager        = 
+}}
+'''BSD/OS''' (originally called '''BSD/386''' and sometimes known as '''BSDi''') was a proprietary version of the BSD Unix operating system developed by Berkeley Software Design, Inc. (BSDi).
+
+==History==
+BSDi was formed in 1991 by members of the UC Berkeley to develop and sell a proprietary version of BSD Unix for PC compatible systems with Intel 386 (or later) processors. This made use of work previously done by Bill Jolitz to port BSD to the PC platform.
+
+BSD/386 1.0 was released in March 1993. The company sold licenses and support for it, taking advantage of terms in the BSD License which permitted use of the BSD software in proprietary systems, as long as credit was given to the University. The company in turn contributed code and resources to the development of non-proprietary BSD operating systems.
+In the meantime, Jolitz had left BSDi and independently released an open source BSD for PCs, called 386BSD.
+ 
+BSD/386 licenses (including Sun SPARC-based systems.
+
+'''BSD/OS'''（びーえすでぃー・おーえす）とは商用のOSの一種。企業向けサーバに利用されている。
+
+== 解説 ==
+4.4BSD-Liteを元に Berkeley Software Design, Inc.(BSDI) により開発、販売が行われ、初期には'''BSD/386'''(1992年当初)と呼ばれていた｡
+BSDI は 2000年に、当時 FreeBSDのCD-ROMを販売していた Walnut Creek CDROM と合併した。翌年の2001年にBSDIの一部を Wind River Systems が買収したことにより開発、販売が続けられていたが、同社は2003年をもってBSD/OSの権利を保持したまま、その開発、販売を終了した。
+
+非商用のBSDの子孫に比べ、守秘義務が必要な周辺デバイスについても秘密保持契約を結んで開発できたため、一般にFreeBSDやNetBSDなどよりも対応する周辺デバイスが充実していた。また、商用ソフトウェアとして開発されたため、性能面でも高い評価がある。
+
+== 歴史 ==
+* 1992年 BSD/386 がリリースされる
+* 1992年 USLとBSDI・UCBの間の裁判が勃発
+* 1994年 USLとBSDI・UCBの間の裁判が和解
+* 2000年 BSDIがWalnut Creek CDROMを買収し、FreeBSDとの連携が開始
+* 2001年 組み込みOSを主な業務とするWind River SystemがBSDIを買収
+* 2003年 BSD/OS 5.0がリリースされる
+* 2003年 Wind River SystemがBSD/OS の販売終了を宣言([http://www.bsdnewsletter.com/2003/09/News105.html], [http://www.macnica.net/windriver/windriver_news03.html])

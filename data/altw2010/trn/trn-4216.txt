@@ -1,0 +1,193 @@
+thumb|Superpočítač „Columbia“
+'''Superpočítač''' je obecné označení pro velice výkonný řádově vyšší výpočetní výkon než běžné počítače. Přesná definice však neexistuje.
+
+Superpočítače se používají pro složité výpočetní úlohy, např. výzkum jaderných výbuchů, předpovídání kryptoanalýzu apod. Pro některé úlohy se vytvářejí specializované superpočítače zaměřené na řešení té konkrétní úlohy, např. počítač ''šachů.
+
+Běžným dnešním způsobem návrhu superpočítačů je propojení velkého množství běžných počítačových počítačové sítě, tzv. ''cluster''. Tento způsob používá např. firma Google pro katalogizaci stránek z celého internetu. Cluster běžných počítačů se výkonností blíží silnému superpočítači, přičemž toto řešení je nesrovnatelně levnější.
+
+Mezi superpočítače lze zařadit i spojení velkého množství běžných osobních počítačů pomocí teraflops (biliónů operací za sekundu).[http://www.boincstats.com/stats/project_graph.php?pr=sah] Tento způsob využívání volného procesorového času počítačů po celém světě pomocí internetu se nazývá ''grinding''.
+
+=České superpočítače=
+==Amálka==
+Je český nejvýkonnější paralelní superpočítač umístěný v Ústavu fyziky atmosféry Akademie věd ČR (ÚFA AV ČR) [http://hpc.sprinx.cz/files/Tiskova_Zprava_Amalka_2007.pdf]. 
+Jeho úkolem je provádění náročných výpočtů, numerických experimentů a vizualizací v rámci kosmického výzkumu. Využití tohoto superpočítače se přitom neomezuje pouze na české projekty ale spolupracuje se i na výzkumné činnosti pro Evropskou kosmickou agenturu a NASA.
+Používaným operačním systémem je Linux Slackware.<br />
+Současný (5. generace) výpočetní výkon Amálky je 4,07 TFlops, což znamená, že superpočítač zvládne zpracovat 4,07 bilionu operací za vteřinu. „Co Amálka zvládne vypočítat za jednu vteřinu, by na běžném stolním počítači trvalo odhadem devět hodin. Průměrná úloha, kterou Amálka řeší, jí odhadem trvá šest dní,“ [http://hpc.sprinx.cz/files/Tiskova_Zprava_Amalka_2007.pdf]
+
+===Vývoj Amálky===
+{| class="wikitable"
+|'''Generace'''
+|'''Rok'''
+|'''Výkon'''
+|'''Počet počítačů'''
+|'''Počet procesorů'''
+|'''Počet jader'''
+|'''Další parametry'''
+|-
+|1
+|1998
+|jednotky MFlops 
+|8 
+|8 
+|8 
+| 
+|-
+|2
+|2000
+|desítky GFlops
+|16 
+|16 
+|16 
+| 
+|-
+|3
+|2003
+|téměř 1 TFlop
+|96 
+|188 
+|188 
+|  
+|-
+|4
+|2006
+|2,6 TFlops
+|138
+|272 
+|360
+|180 GB RAM, 20 TB HDD 
+|-
+|5
+|2007
+|4,07 TFlops
+|
+|326 
+|572
+| 
+|-
+|}
+
+===Současné složení:===
+{| class="wikitable"
+|'''Typ procesoru'''
+|'''Počet procesorů'''
+|'''Počet jader'''
+|'''Od generace'''
+|-
+|Intel Pentium III Xeon 700
+|16 
+|16 
+|2 
+|-
+|Intel Xeon 2,80 GHz
+|172
+|172 
+|3 
+|-
+|Intel Xeon 5140
+|84
+|168
+|4  
+|-
+|Intel Xeon E5345
+|54
+|216
+|5
+|-
+|}
+
+===Zajímavé technické parametry:===
+* Příkon 40 kW (4. generace)
+
+A '''supercomputer''' is a tabulators that IBM had made for Columbia University.
+
+Supercomputers introduced in the 1960s were designed primarily by HP, who had purchased many of the 1980s companies to gain their experience.
+thumb|right|300px|The [[Cray-2 was the world's fastest computer from 1985 to 1989.]]
+
+The term ''supercomputer'' itself is rather fluid, and today's supercomputer tends to become tomorrow's ordinary CPUs, some being off the shelf units and others being custom designs. Today, parallel designs are based on "off the shelf" server-class microprocessors, such as the PowerPC, Opteron, or Xeon, and most modern supercomputers are now highly-tuned computer clusters using commodity processors combined with custom interconnects.
+
+===Common uses===
+Supercomputers are used for highly calculation-intensive tasks such as problems involving quantum mechanical physics, molecular modeling (computing the structures and properties of chemical compounds, biological macromolecules, polymers, and crystals), physical simulations (such as simulation of airplanes in wind tunnels, simulation of the detonation of nuclear weapons, and research into nuclear fusion), cryptanalysis, and the like. Major universities, military agencies and scientific research laboratories are heavy users.
+
+A particular class of problems, known as Grand Challenge problems, are problems whose full solution requires semi-infinite computing resources.
+
+Relevant here is the distinction between capability computing and capacity computing, as defined by Graham et al. '''Capability computing''' is typically thought of as using the maximum computing power to solve a large problem in the shortest amount of time. Often a capability system is able to solve a problem of a size or complexity that no other computer can. '''Capacity computing''' in contrast is typically thought of as using efficient cost-effective computing power to solve somewhat large problems or many small problems or to prepare for a run on a capability system.
+
+==Hardware and software design==
+
+thumb|Processor board of a CRAY YMP vector computer
+Supercomputers using custom CPUs traditionally gained their speed over conventional computers through the use of innovative designs that allow them to perform many tasks in parallel, as well as complex detail engineering. They tend to be specialized for certain types of computation, usually numerical calculations, and perform poorly at more general computing tasks. Their bandwidth, with latency less of an issue, because supercomputers are not used for transaction processing.
+
+As with all highly parallel systems, bottlenecks.
+
+=== Supercomputer challenges, technologies ===
+*A supercomputer generates large amounts of heat and must be cooled. Cooling most supercomputers is a major HVAC problem.
+*Information cannot move faster than the speed of light between two parts of a supercomputer. For this reason, a supercomputer that is many meters across must have latencies between its components measured at least in the tens of nanoseconds. Seymour Cray's supercomputer designs attempted to keep cable runs as short as possible for this reason: hence the cylindrical shape of his Cray range of computers. In modern supercomputers built of many conventional CPUs running in parallel, latencies of 1-5 microseconds to send a message between CPUs are typical.
+*Supercomputers consume and produce massive amounts of data in a very short period of time. According to is a device for turning compute-bound problems into I/O-bound problems." Much work on external storage bandwidth is needed to ensure that this information can be transferred quickly and stored/retrieved correctly.
+ 
+Technologies developed for supercomputers include:
+*Vector processing
+*Liquid cooling
+*Non-Uniform Memory Access (NUMA)
+*Striped disks (the first instance of what was later called RAID)
+*Parallel filesystems
+
+===Processing techniques===
+Vector processing techniques were first developed for supercomputers and continue to be used in specialist high-performance applications. 
+Vector processing techniques have trickled down to the mass market in DSP architectures and SIMD processing instructions for general-purpose computers.
+
+Modern TeraFLOPS. The applications to which this power can be applied was limited by the special-purpose nature of early video processing. As video processing has become more sophisticated, Graphics processing units (GPUs) have evolved to become more useful as general-purpose vector processors, and an entire computer science sub-discipline has arisen to exploit this capability: General-Purpose Computing on Graphics Processing Units (GPGPU).
+
+===Operating systems===
+thumb|right|500px|Supercomputers predominantly run some variant of [[Linux or UNIX. Linux has been the most popular operating system since 2004 ]]
+Supercomputer UNIX, are every bit as complex as those for smaller machines, if not more so. Their user interfaces tend to be less developed, however, as the OS developers have limited programming resources to spend on non-essential parts of the OS (i.e., parts not directly contributing to the optimal utilization of the machine's hardware). This stems from the fact that because these computers, often priced at millions of dollars, are sold to a very small market, their R&D budgets are often limited. (The advent of Unix and Linux allows reuse of conventional desktop software and user interfaces.)
+
+Interestingly this has been a continuing trend throughout the supercomputer industry, with former technology leaders such as Silicon Graphics taking a back seat to such companies as AMD and NVIDIA, who have been able to produce cheap, feature-rich, high-performance, and innovative products due to the vast number of consumers driving their R&D.
+
+Historically, until the early-to-mid-1980s, supercomputers usually sacrificed instruction set compatibility and code portability for performance (processing and memory access speed). For the most part, supercomputers to this time (unlike high-end mainframes) had vastly different operating systems. The Cray-1 alone had at least six different proprietary OSs largely unknown to the general computing community. Similarly different and incompatible vectorizing and parallelizing compilers for Fortran existed. This trend would have continued with the ETA-10 were it not for the initial instruction set compatibility between the Cray-1 and the Cray X-MP, and the adoption of UNIX operating system variants (such as Cray's Unicos and today's Linux.)
+
+For this reason, in the future, the highest performance systems are likely to have a UNIX flavor but with incompatible system-unique features (especially for the highest-end systems at secure facilities).
+
+===Programming===
+The parallel architectures of supercomputers often dictate the use of special programming techniques to exploit their speed. Special-purpose C or PVM and MPI for loosely connected clusters and OpenMP for tightly coordinated shared memory machines are being used.
+
+=== Software tools ===
+Software tools for distributed processing include standard APIs such as MPI and PVM, VTL and Beowulf, ZeroConf (Rendezvous/Bonjour) can be used to create ad hoc computer clusters for specialized software such as Apple's Shake compositing application. An easy programming language for supercomputers remains an open research topic in computer science. Several utilities that would once have cost several thousands of dollars are now completely free thanks to the open source community which often creates disruptive technology in this arena.
+
+==Modern supercomputer architecture==
+
+[[Image:Roadrunner supercomputer HiRes.jpg|thumb|IBM Roadrunner - LANL
+|right|300px]]
+thumb|right|300px|The CPU Architecture Share of Top500 Rankings between 1998 and 2007: [[x86 architecture|x86 family includes x86-64.]]
+As of November 2006, the top ten supercomputers on the Top500 list (and indeed the bulk of the remainder of the list) have the same top-level architecture. Each of them is a cluster of MIMD multiprocessors, each processor of which is SIMD. The supercomputers vary radically with respect to the number of multiprocessors per cluster, the number of processors per multiprocessor, and the number of simultaneous instructions per SIMD processor. Within this hierarchy we have:
+*A computer cluster is a collection of computers that are highly interconnected via a high-speed network or switching fabric. Each computer runs under a separate instance of an Operating System (OS).
+*A multiprocessing computer is a computer, operating under a single OS and using more than one CPU, where the application-level software is indifferent to the number of processors. The processors share tasks using Symmetric multiprocessing (SMP) and Non-Uniform Memory Access (NUMA).
+*A SIMD processor executes the same instruction on more than one set of data at the same time. The processor could be a general purpose commodity processor or special-purpose vector processor. It could also be high performance processor or a low power processor. As of 2007, the processor executes several SIMD instructions per nanosecond.
+
+As of July 2008 the fastest machine is Columbia is a cluster of 20&nbsp;machines, each with 512&nbsp;processors, each of which processes two data streams concurrently.
+
+economies of scale are the dominant factors in supercomputer design: 
+a single modern desktop PC is now more powerful than a 15-year old supercomputer, and the design concepts that allowed past supercomputers to out-perform contemporaneous desktop machines have now been incorporated into commodity PCs. Furthermore, the costs of chip development and production make it uneconomical to design custom chips for a small run and favor mass-produced chips that have enough demand to recoup the cost of production. A current model quad-core Xeon workstation running at 2.66&nbsp;GHz will outperform a multimillion dollar Cray C90&nbsp;supercomputer used in the early 1990s; most workloads requiring such a supercomputer in the 1990s can now be done on workstations costing less than 4,000 US&nbsp;dollars.
+
+Additionally, many problems carried out by supercomputers are particularly suitable for parallelization (in essence, splitting up into smaller parts to be worked on simultaneously) and, particularly, fairly coarse-grained parallelization that limits the amount of information that needs to be transferred between independent processing units. For this reason, traditional supercomputers can be replaced, for many applications, by "clusters" of computers of standard design which can be programmed to act as one large computer.
+
+== Special-purpose supercomputers ==
+
+'''Special-purpose supercomputers''' are high-performance computing devices with a hardware architecture dedicated to a single problem. 
+This allows the use of specially programmed FPGA chips or even custom VLSI chips, allowing higher price/performance ratios by sacrificing generality. 
+They are used for applications such as astrophysics computation and brute-force codebreaking.
+Historically a new special-purpose supercomputer has occasionally been faster than the world's fastest general-purpose supercomputer, by some measure. For example, GRAPE-6 was faster than the Earth Simulator in 2002 for a particular special set of problems.
+
+Examples of special-purpose supercomputers:
+*Deep Blue, for playing chess
+*Reconfigurable computing machines or parts of machines
+*GRAPE, for astrophysics and molecular dynamics
+*DES cipher
+*MDGRAPE-3, for protein structure computation
+
+== The fastest supercomputers today ==
+===Measuring supercomputer speed===
+The speed of a supercomputer is generally measured in "benchmark which does LU decomposition of a large matrix. This mimics a class of real-world problems, but is significantly easier to compute than a majority of actual real-world problems.
+
+===The Top500 list===
+
+Since 1993, the fastest supercomputers have been ranked on the Top500 list according to their LINPACK benchmark results. The list does not claim to be unbiased or definitive, but it is the best current definition of the "fastest" supercomputer available at any given time.

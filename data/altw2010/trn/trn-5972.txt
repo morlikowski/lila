@@ -1,0 +1,21 @@
+Der '''System Management Bus''' (abgekürzt '''SM-Bus''', '''SMBus''' oder '''SMB''') ist ein Zweileiterbus, der für die Baugruppenkommunikation entwickelt wurde (besonders für Halbleiter-ICs). Er hilft, den Zustand von Komponenten zu erkennen und Hardwareeinstellungen vorzunehmen. Zum Stromsparen in tragbaren Computern (Notebook, PDA, Telefon) ist es etwa sinnvoll, nicht benötigte Erweiterungssteckplätze abzuschalten, das Display etwas zu dimmen o.Ä.
+
+Die Bitrate auf dem SMBus beträgt maximal 100&nbsp;kbit/s. Am SMBus übernimmt jeweils ein Master die Bussteuerung (hauptsächlich die Takterzeugung), wenn er mit einem Slave kommuniziert. Kommunizieren zwei Master miteinander, so übernimmt der angesprochene Master vorübergehend die Rolle eines Slaves.
+
+Da der SMBus in der Regel nur zwei Leitungen (Takt- und Datenleitung) benötigt, kann er sehr platzsparend auf Platinen verlegt werden; ebenso benötigen die angeschlossenen Chips nur zwei Pins und passen deswegen in kleinere Gehäuse.
+
+Da es Slaves gibt, die als steuerbare Schalter wirken, kann man damit Jumper (steckbare Verbindungsbrücken) auf Hauptplatinen ersetzen. Auf diese Weise lassen sich komplett jumperlose Hauptplatinen realisieren, was dem Benutzer manuelle Eingriffe erspart.
+
+Ein SMBus-Gerät kann z. B. Herstellerinformationen zur Verfügung stellen, die Modell-/Seriennummer ausgeben, den Status des Energiesparmodus anzeigen, unterschiedliche Arten von Fehlern melden, Steuerparameter annehmen, einen Status zurückgeben oder eine Anzeige steuern. Da die Nutzung des SMBusses detaillierte Kenntnis der vorliegenden Hardware voraussetzt, ist er für den Benutzer in der Regel weder konfigurierbar noch zugänglich.
+
+Der Bus wurde von Intel 1995 definiert. Der Standard legt den zeitlichen Ablauf der Bussignale und die elektrischen Anschlußdaten genau fest.
+Der SMBus basiert auf dem I²C-Serienbusprotokoll von Busses abwärtskompatibel.
+
+The '''System Management Bus''' (abbreviated to '''SMBus''' or '''SMB''') is a simple two-wire bus, derived from I²C and used for communication with low-bandwidth devices on a motherboard, especially power related chips such as a laptop's rechargeable battery subsystem (see Smart Battery Data). Other devices might include temperature, fan, or voltage sensors; and lid switches.  PCI add-in cards may connect to an SMBus segment.
+
+A device can provide manufacturer information, indicate its model/part number, save its state for a suspend event, report different types of errors, accept control parameters, and return status. The SMBus is generally not user configurable or accessible.  Although SMBus devices usually can't identify their functionality, a new PMBus coalition has extended SMBus to include conventions allowing that.
+
+The SMBus was defined by Intel in 1995.  It carries clock, data, and instructions and is based on Philips' I²C serial bus protocol.  Its clock frequency range is 10&nbsp;kHz to 100&nbsp;kHz.  (PMBus extends this to 400&nbsp;kHz.) Its voltage levels and timings are more strictly defined than those of I²C, but devices belonging to the two systems are often successfully mixed on the same bus.
+
+SMBus is mostly a subset of I²C; more loosely specified I²C devices may cause an SMBus to hang.  The SMBus has an extra optional shared interrupt signal called SMBALERT#, which can be used by slaves to tell the host to ask its slaves about events of interest.
+SMBus also defines a less common "Host Notify Protocol", providing similar notifications but passing more data and building on the I²C multi-master mode.

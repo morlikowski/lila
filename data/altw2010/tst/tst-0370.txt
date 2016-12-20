@@ -1,0 +1,102 @@
+{{Infobox Software
+| logo = 
+| name = Microsoft Money
+| developer = Microsoft
+| operating_system = Microsoft Windows
+| genre = Personal finance
+| license = Proprietary
+| website = [http://www.microsoft.com/money/default.aspx http://www.microsoft.com/money/]
+}}
+
+thumb|150px|Microsoft Money 2006 Premium'''Microsoft Money''' is Microsoft's personal finance software. It is designed for computers using the Microsoft Windows operating system, though versions for Windows Mobile are also available (available for Money 2000 - 2006 on select versions of Windows Mobile, up to, but not including, Windows Mobile 5.0).
+
+The latest version, released in August 2007, is called Microsoft Money Plus and comes in four editions: Essentials, Deluxe, Premium and Home & Business. 
+
+==Localization==
+There are versions of Microsoft Money for the U.S., U.K., France, Japan, Canada and an International English edition for other English speaking countries. However, Microsoft has announced that it would not release 2006 editions for the U.K., French and international markets. These localized editions have not been updated since Money 2005 and, according to Microsoft, will most likely receive updates until at least 2008<ref>[http://money.mvps.org/faq/article/220.aspx What has happened to UK, French and International versions of Microsoft Money 2006 and 2007 [Microsoft (MS) Money FAQ and Help&#93;<!-- Bot generated title -->]</ref>. The last Canadian version was Money 2006.
+
+In the past, there have been localized versions for other countries, such as Germany and Italy. However, these versions were discontinued due to what was believed to be an insufficient user base to justify the expense of localization for more recent versions or the expense to integrate support for the national online-banking standard like HBCI in Germany.
+
+==History==
+The first version of Microsoft Money dates back to 1991. <ref> [http://www.islandnet.com/~kpolsson/compsoft/soft1991.htm Chronology of Personal Computer Software] </ref>
+
+===Release history===
+{| class="wikitable"
+|-
+!Marketed version
+!Actual version
+!Notes
+|-
+|Microsoft Money Plus (2008)
+|17.0
+|Most recent version. Product activation introduced to Microsoft Money for the first time.
+|-
+|Microsoft Money 2007
+|16.0
+|
+|-
+|Microsoft Money 2006
+|15.0
+|Last localized release for Canada. Last version for Windows 98/Me, Windows 2000, <ref> [http://www.microsoft.com/money/sysReq2006.mspx System Requirements for Microsoft Money 2006] </ref> and for Windows Mobile platforms.
+|-
+|Microsoft Money 2005
+|14.0
+|Last localized release for the U.K., French, and the International edition.
+|-
+|Microsoft Money 2004
+|12.0
+|
+|-
+|Microsoft Money 2003
+|11.0
+|
+|-
+|Microsoft Money 2002
+|10.0
+|
+|-
+|Microsoft Money 2001
+|9.0
+|
+|-
+|Microsoft Money 2000
+|8.0
+|First edition for Windows Mobile platforms.
+|-
+|Microsoft Money 99
+|7.0
+|Last localized release for Germany.
+|-
+|Microsoft Money 98
+|6.0
+|
+|-
+|Microsoft Money 97
+|5.0
+|
+|-
+|Microsoft Money 95
+|4.0
+|
+|-
+|Microsoft Money 3.0
+|3.0
+|
+|-
+|Microsoft Money 2.0
+|2.0
+|
+|-
+|Microsoft Money
+|1.0
+|Initial release.
+|}
+
+'''Microsoft Money''' ist eine für den Privatgebrauch vorgesehene Finanzverwaltungssoftware. In Office 97 wurde es in der ''Small Business Edition'' mitgeliefert, konnte jedoch auch einzeln erworben werden. 
+In Deutschland konnte sich ''Money'' am Markt nie hinreichend durchsetzen, sodass die Version in Deutschland nach ''Money 99 - Version 2000'' eingestellt wurde. Für Österreich und die Schweiz folgte noch die Version ''Money 2000'', bevor die deutschsprachige Linie komplett eingestellt wurde.
+
+In anderen Ländern war ''Money'' durchaus noch länger erhältlich. Microsoft hat aber Schritt für Schritt andere Länderversionen auch eingestellt, das heißt keine neue Version mehr veröffentlicht. So ist (Stand Oktober 2007) Money 2000 die letzte Version für Großbritannien, Money 2006 die letzte Version für landesspezifischen Anpassungen wie Steuersätze, Finanzplanung etc. hat, wurde ebenfalls nach ''Money 2005'' nicht mehr fortgesetzt.
+
+Die aktuelle Version ''Money 2008'' wird von Microsoft nur noch in den USA und Japan verkauft.
+
+Bei der ersten Version handelte es sich um ein Anfang der 1990er-Jahre veröffentlichtes QBasic-Programm.

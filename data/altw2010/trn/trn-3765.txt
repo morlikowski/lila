@@ -1,0 +1,120 @@
+L''''échelle de Glasgow''', ou '''score de Glasgow''' (''Glasgow coma scale'', GCS), est un indicateur de l'état de conscience. Dans un contexte d'urgence, elle permet au médecin de choisir une stratégie dans l'optique du maintien des traumatismes crâniens<ref>Teasdale G, Jennett B, ''Assessment of coma and impaired consciousness: a practical scale'', Lancet, 1974; 2: 81-84</ref>.
+
+Ce score est étroitement corrélé à la gravité (stratification du risque de complications et évolution spontané) des comas.
+
+== Échelle ==
+
+C'est une échelle allant de 3 (consciente), et qui s'évalue sur trois critères :
+* ouverture des yeux ;
+* réponse verbale ; 
+* réponse motrice.
+Chaque critère reçoit une note ; le total global est la somme de ces notes, mais les notes individuelles doivent être également considérées. Par exemple, un muet aura toujours une réponse verbale de 1 même s'il est parfaitement conscient, son total maximal sera alors de 11 et non pas de 15. De tels éléments complémentaires sont indispensables pour une évaluation neurologique correcte.
+
+{| border="1" |
+|+ Échelle de Glasgow adulte
+! Ouverture des yeux !! Réponse verbale !! Réponse motrice 
+|-
+| 1 - nulle || 1 - nulle || 1 - nulle 
+|-
+|2 - à la douleur || 2 - incompréhensible || 2 - Extension stéréotypée<br />(rigidité décérébrée)
+|-
+| 3 - au bruit || 3 - inappropriée || 3 - flexion stéréotypée<br />(rigidité de décortication) 
+|-
+| 4 - spontanée<ref>avec le respect de l'alternance veille/sommeil</ref> || 4 - confuse || 4 - évitement 
+|-
+| &nbsp; || 5 - normale || 5 - orientée 
+|-
+| &nbsp; || &nbsp; || 6 - aux ordres<ref>dans les autres cas, il s'agit d'une réaction à la douleur (par exemple pression sur un ongle)</ref> 
+|}
+
+La notion d'inconscience en premiers secours correspond globalement à un total inférieur 8.
+
+L'échelle a été adaptée aux enfants :
+
+{| border="1" |
+|+ Échelle de Glasgow pédiatrique
+! Ouverture des yeux<br /> (''id.'' adulte) !! Réponse verbale<br /> (- 5 ans) !! Réponse motrice 
+|-
+| 1 - nulle || 1 - nulle || 1 - nulle 
+|-
+|2 - à la douleur || 2 - grognements à la douleur || 2 - Extension stéréotypée<br />(rigidité décérébrée)
+|-
+| 3 - au bruit || 3 - cris, pleurs à la douleur || 3 - flexion stéréotypée<br />(rigidité de décortication) 
+|-
+| 4 - spontanée || 4 - enfant irritable, pleurs continuels || 4 - évitement à la douleur
+|-
+| &nbsp; || 5 - normale (lalation, gazouillis) || 5 - évitement au toucher 
+|-
+| &nbsp; || &nbsp; || 6 - spontanée
+|}
+
+Une équipe Belge a proposé d'associer les informations résultant de la recherche des réflexes du tronc cérébral systématiquement recherchés sur les patients en coma profond ce qui a donné lieu à l'échelle dite de Glasgow Liège.
+
+The '''Glasgow Coma Scale''' or '''GCS''', sometimes also known as the '''Glasgow Coma Score''' is a neurological scale which aims to give a reliable, objective way of recording the conscious state of a person, for initial as well as continuing assessment. A patient is assessed against the criteria of the scale, and the resulting points give a patient score between 3 (indicating deep unconsciousness) and either 14 (original scale) or 15 (the more widely used modified or revised scale).
+
+GCS was initially used to assess EMS and doctors as being applicable to all acute medical and trauma patients.  In hospital it is also used in chronic patient monitoring, in for instance, intensive care. 
+
+The scale was published in 1974 by Graham Teasdale and Bryan J. Jennett, professors of neurosurgery at the University of Glasgow.  The pair went on to author the textbook ''Management of Head Injuries'' (FA Davis 1981, ISBN 0-8036-5019-1), a celebrated work in the field.
+
+GCS is used as part of several SOFA, to assess the status of the central nervous system. A similar scale, the Rancho Los Amigos Scale is used to assess the recovery of traumatic brain injury patients.
+
+==Elements of the scale==
+{| class="wikitable" style="text-align: center"
+|+ Glasgow Coma Scale
+|-
+| 
+! 1 !! 2 !! 3 !! 4 !! 5 !! 6
+|-
+! Eyes
+| Does not open eyes
+| Opens eyes in response to painful stimuli
+| Opens eyes in response to voice
+| Opens eyes spontaneously
+| N/A
+| N/A
+|-
+! Verbal
+| Makes no sounds
+| Incomprehensible sounds
+| Utters inappropriate words
+| Confused, disoriented
+| Oriented, converses normally
+| N/A
+|-
+! Motor
+| Makes no movements
+| Extension to painful stimuli
+| Abnormal flexion to painful stimuli
+| Flexion / Withdrawal to painful stimuli
+| Localizes painful stimuli
+| Obeys Commands
+|}
+
+The scale comprises three tests: eye, verbal and motor responses. The three values separately as well as their sum are considered. The lowest possible GCS (the sum) is 3 (deep coma or death), whilst the highest is 15 (fully awake person).  
+
+====Best eye response (E)====
+There are 4 grades starting with the most severe:
+# No eye opening
+# Eye opening in response to supraorbital and sternal pressure or rub may be used.)
+# Eye opening to speech. (Not to be confused with an awaking of a sleeping person; such patients receive a score of 4, not 3.)
+# Eyes opening spontaneously
+
+====Best verbal response (V)====
+There are 5 grades starting with the most severe:
+# No verbal response
+# Incomprehensible sounds. (Moaning but no words.)
+# Inappropriate words. (Random or exclamatory articulated speech, but no conversational exchange)
+# Confused. (The patient responds to questions coherently but there is some disorientation and confusion.)
+# Oriented. (Patient responds coherently and appropriately to questions such as the patient’s name and age, where they are and why, the year, month, etc.)
+
+====Best motor response (M)====
+There are 6 grades starting with the most severe:
+# No motor response
+# Extension to pain (extension of wrist, ''decerebrate response'')
+# Abnormal flexion to pain (adduction of arm, internal rotation of shoulder, pronation of forearm, flexion of wrist, ''decorticate response'')
+# Flexion/Withdrawal to pain (flexion of elbow, supination of forearm, flexion of wrist when supra-orbital pressure applied ; pulls part of body away when nailbed pinched)
+# Localizes to pain. (Purposeful movements towards painful stimuli; e.g., hand crosses mid-line and gets above clavicle when supra-orbital pressure applied.)
+# Obeys commands. (The patient does simple things as asked.)
+
+==Interpretation==
+Individual elements as well as the sum of the score are important. Hence, the score is expressed in the form "GCS 9 = E2 V4 M3 at 07:35".

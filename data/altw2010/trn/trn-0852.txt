@@ -1,0 +1,78 @@
+<!--Retire as linhas que não interessarem; altere as cores em conformidade; preencha correctamente os dados em falta; no fim, retire  as linhas antes de Taxocaixa_inicio e a marcação existente na linha a seguir a Taxocaixa_fim-->
+<!--
+{{taxocaixa
+| nome = Nome
+| cor =pink 
+| estado = PRE
+
+| estado = EX
+| extinta = 
+
+| estado = EW
+| estado = CR
+| estado = EN
+| estado = VU
+| estado = NT
+| estado = SE
+| estado = DD
+
+| imagem =Taxoimagem.png
+| imagem_legenda = Imagem exemplo 
+
+| domínio =  Domínio
+| super_reino = Super-reino
+| reino = Reino
+| subreino = Sub-reino
+| infraordem = infra-ordem
+| filo = Filo
+| superdivisão = Super-divisão
+| divisão = Divisão
+| subfilo = Sub-filo
+| superclasse = Super-classe
+| classe = Classe
+| subclasse = Sub-classe
+| superordem = Super-ordem
+| ordem = Ordem
+| subordem = Sub-ordem
+| infraordem = Infra-ordem
+| microordem = Micro-ordem
+| superfamília = Super-família
+| família = Família
+| subfamília = Sub-família
+| tribo = Tribo
+| género = Género
+| subgénero = Sub-género
+| espécie = Espécie
+| subespécie = Sub-espécie
+| classe_autoridade = autoridade
+| subdivisão_nome = Secção aleatória
+| subdivisão = 
+<center>''Ver texto''</center>
+
+| binomial = binomial
+| binomial_autoridade = Nome binomial
+
+,  }}
+{{Taxobox taxons animal |
+*Myoida <small>Goldfuss, 1820</small>
+* Veneroida <small>H.Adams & A.Adams, 1856</small>
+}}
+
+Les '''rudistes''' (du latin "''rudis''", rude) forment un groupe de mollusques marins fossiles du Mésozoïque, appartenant aux bivalves (comme l'huître ou la moule), à coquille longue et épaisse (plusieurs dizaines de cm). Il sont caractérisés par une forte asymétrie entre les valves. 
+
+==Répartition stratigraphique==
+Leur répartition stratigraphique correspond au Jurassique et au Crétacé, du Rauracien au Maastrichtien.
+Ils sont des fossiles de faciès, car ils indiquent un ancien milieu récifal. Ils sont en revanche d'assez mauvais fossiles stratigraphiques car non-particuliers à un étage.
+
+==Morphologie==
+La valve inférieure, par laquelle se fixe l'animal, est conique et peut prendre des formes diverses selon les familles (hélices, cônes droits, cornes de béliers...). La valve supérieure est généralement moins développée voire operculaire.
+
+==Paléoécologie==
+Ces bivalves, à l'instar des coraux actuellement, se rencontraient dans des eaux chaudes et peu profondes. On peut même affirmer, par la présence de dacycladacées (une algue) souvent associées aux rudistes, que la profondeur ne dépassait pas 5 m. Ce qui indique, d'une part, que les rudistes exigeaient des eaux turbides et bien oxygénées et dautre part que ceux-ci ont dû faire face à des exondations lors de grandes marées. 
+
+Certains rudistes sont solitaires mais la plupart s'édifiaient en colonnie formant des bancs que l'on nomme biostromes. L'espèce ''Hippurites socialis'' en est l'illustration parfaite. 
+
+Ils jouaient un rôle important dans la fixation du carbonate de calcium dissout en formant de véritables récifs et sont donc à l'origine de la formation de roches calcaires (rôle pétrogénétique). Ainsi les géologues parlent-ils de "calcaires à rudistes", par exemple les "calcaires à Diceras de l'Urgonien".
+
+==Extinction du groupe==
+Comme nombre d'autres organismes terrestres ou aquatiques du ammonites, les rudistes disparaissent totalement à la fin du Maastrichtien lors d'une crise biologique de grande ampleur nommée crise KT ou extinction du crétacé.

@@ -1,0 +1,143 @@
+Le '''risque''' est une perte potentielle, identifiée et quantifiable, inhérente à une situation ou une activité, associée à la probabilité de l’occurrence d’un événement ou d’une série d’événements. Il s’oppose à l’incertitude — non quantifiable — et au danger moins identifiable, encore moins quantifiable. Parallèle à la prise de décision, la gestion du risque consiste en l’évaluation et l’anticipation des risques, et à mettre en place un système de surveillance et de collecte systématique des données pour déclencher les alertes. La science qui étudie le risque est la cindynique.
+
+== Définition scientifique du risque ==
+
+Daniel Bernoulli, en 1738, dans ''Specimen theoriae novae de mensura sortis'' apporte la première définition scientifique : . En termes plus simples, il s'agit de la valeur moyenne des conséquences d'événements affectés de leur probabilité. Ainsi, un événement ''e''1 a une probabilité d'occurrence ''p''1 avec une conséquence probable ''C''1 ; de même un événement ''e''n aura une probabilité ''p''n et une conséquence ''C''n, alors le risque ''r'' vaudra ''p''1.''C''1 + ''p''2.''C''2 + ... + ''p''n.''C''n. Le produit ''p''i.''C''i est appelé valeur de l'aléa i. 
+
+Cette définition implique, pour le calcul du risque, la connaissance d'une suite statistique d'événements ou pour le moins une estimation approchée ou subjective des diverses plausibilités (probabilités supposées) et des conséquences des aléas imaginés, lorsque l'on ne dispose par d'historiques d'événements et que malgré cela on souhaite évaluer un risque. Le risque, pour prendre une métaphore tirée de la physique, apparaît comme le centre de gravité des conséquences des événements donc des aléas.
+
+On notera avec intérêt que le risque est la somme des aléas et que le produit de la fréquence et de la gravité souvent évoqué ne représente nullement le risque mais seulement la valeur d'un aléa déterminé<ref>G. Jousse, ''Le risque, cet inconnu'', Imestra Edition, 2004</ref>.
+
+=== L'incertitude liée au futur ===
+
+La première difficulté dans la gestion du risque est le fait que l'événement concerné, le dommage se situe dans le futur. De cette notion de futur dérivent les notions de possible, de probable et de potentiel.
+
+Le risque prend une dimension différente selon l'horizon temporel dans lequel on se situe. Par exemple, la disparition de notre soleil prend une toute autre importance selon que l'on se situe dans un avenir proche (il fera très probablement jour demain) ou un avenir lointain (le soleil va finir par exploser puis disparaître de manière quasi certaine, et l'humanité avec si elle existe encore)
+
+Le futur est une affaire de croyance. La première des croyances qui s'applique à la notion de risque concerne la vision déterministe (l'avenir est écrit) ou non déterministe (nous pouvons influer de par notre volonté sur le futur) qui influent sur notre capacité d'action face au risque.
+
+Prévoir le futur impose de disposer d'un modèle. Ce modèle, forcement réducteur, privilégie certains aspects par rapport à d'autres et amène donc des comportements différents selon les hypothèses choisies. Par exemple, la gestion des risques professionnels dans une entreprise aboutit à des priorités différentes selon que l'on la traite par un modèle économique (diminuer le nombre et le coût des accidents) ou humain (empêcher les accidents handicapants ou mortels).
+
+=== L'incertitude liée au facteur humain et culturel ===
+
+L'une des difficultés dans la gestion du risque est le fait que le degré d'exposition et donc la conséquence néfaste sont souvent incertains, et que notre propre connaissance ou ignorance de ce risque influe sur sa probabilité. Par exemple, la présence d'un panneau de signalisation routière indiquant un virage dangereux suffit parfois à diminuer fortement, voire supprimer les accidents dans ce virage.
+
+De plus, une fois le risque évité, et même si l'on est sûr qu'il existait des causes bien réelles de risque pour une multiplicité d'organisations, il n'est pas évident que la réalité du risque soit reconnue ''a posteriori'' s'il n'y a pas eu de conséquence dommageable pour la société civile. Ainsi, dans notre précédent exemple, l'absence d'accident peut amener à contester l'intérêt du panneau puisque "aucun accident ne s'y produit", voire à le supprimer.
+
+C'est pourquoi, même si le risque comporte des caractéristiques statistiques, le réduire à cette dimension peut être trompeur. Une telle approche peut faire oublier des facteurs déterminants de son apparition, ainsi que le contexte nécessaire pour transformer un risque en accident.
+
+Certaines configurations de l'environnement (par exemple, une falaise au-dessus de la mer) ''peuvent'' provoquer des situations dangereuses (par exemple le fait de se trouver en hauteur au-dessus de la mer). Ces situations dangereuses débouchent sur des risques (par exemple un risque important de tomber et de se tuer). La réalisation de ce risque (l'accident) reste néanmoins potentielle et non avérée. D'une part cela peut donner l'impression que la situation ne va pas se dégrader (impression de sécurité), d'autre part cela rend difficile la prévision de l'accident : il faut imaginer un événement qui n'aura peut-être jamais lieu.
+
+Pour ce genre de risque quasiment non mesurable, concernant un OGM cultivés en plein champs).
+
+De fait, une personne n'est pas nécessairement consciente qu'elle prend un risque (c'est tout particulièrement le cas du jeune enfant notamment), et à l'inverse elle peut croire qu'il existe un risque, alors qu'il n'y a aucun danger. Ou bien encore, elle peut percevoir derrière l'appellation d'un risque potentiel des dangers sans rapport avec le risque réel. Par exemple, on a vu, lors du passage informatique à l'an 2000, beaucoup de personnes s'imaginer que, à cause du bogue de l'an 2000, les avions risqueraient de tomber le 1 janvier, les ascenseurs de tomber en panne, etc. alors qu'en réalité, le risque se situait essentiellement dans le domaine de l'informatique de gestion, et plus précisément dans les mainframes, la micro-informatique, le web, et les puces étant peu affectés. Le risque était global : une désorganisation générale de l'économie, et il risquait de se manifester à d'autres moments que le 1 janvier 2000.
+
+On voit à quel point la perception du risque peut être entravée ou amplifiée par des facteurs subjectifs, propres à chaque être humain, et même par des facteurs culturels ou conjoncturels propres à des communautés humaines.
+
+=== Concepts en gestion des risques ===
+
+Le risque est traditionnellement formalisé à partir de trois concepts : le facteur de risque (péril, danger, ...), la criticité, la vulnérabilité.
+
+Le facteur de risque (quelquefois appelé péril ou danger) est un élément présent susceptible de causer un risque, c'est-à-dire la survenance de l'accident. Par exemple, le fait d'abuser de consommation d'alcool avant de prendre le volant augmente fortement la probabilité d'un accident, le fait de travailler sur un échafaudage peut provoquer une chute de hauteur.
+Les toxique, thermique, d'explosion..), juridique, etc.) ou leur point d'application (le projet lui-même, et l'organisation au sein de laquelle il va s'insérer). 
+Ils se quantifient en niveau d'incertitude et/ou de complexité.
+ 
+La criticité est la combinaison de l'impact (ou effet ou gravité) et de la probabilité d'un risque (AFNOR), évaluée souvent sur une échelle de 1 à 4, est liée à l'intensité de l'accident (ou gravité, ou sévérité) lorsqu'il se produit.
+
+La vulnérabilité se caractérise par les pertes induites par la réalisation d'un événement aléatoire frappant une ressource de l'entreprise. La vulnérabilité est identifiée par les trois paramètres : l’objet du risque, ses causes (facteurs de risque, périls) et ses conséquences, son impact potentiel. C'est donc un concept plus englobant que celui de criticité.
+
+La survenance d'un accident est donc le résultat d'une combinaison de facteurs de risque, dont les criticités deviennent telles qu'elles engendrent une forte vulnérabilité conduisant à un accident. Un accident de voiture pourra se produire pour un conducteur qui a bu de l'alcool, en présence d'un camion, sur une route dangereuse, alors qu'il pleut (quatre facteurs de risque), la probabilité et l'impact de l'accident étant d'autant plus importants que la dose d'alcool absorbée par le conducteur était importante, le camion puissant et lourd, la route sinueuse et sans visibilité, et la pluie battante (criticités).
+
+Il est donc fondamental, pour bien percevoir, identifier et évaluer les risques sur le plan collectif, de ne pas omettre un facteur de risque. La dimension psychologique (au niveau individuel) ou culturelle (au niveau collectif) ne doit pas être sous-estimée, car les biais cognitifs sont fréquents dans les groupes, et ils peuvent aveugler les individus ou des groupes par rapport à certains types de risques, et lorsque les mêmes biais cognitifs se répètent dans les individus d'une même communauté et au sein de divers groupes, cela aboutit à un biais culturel, qui amplifie le facteur de risque.
+
+== Les phases de la gestion des risques ==
+
+La précision de la gestion du risque est fondamentale, puisque c'est elle qui peut empêcher l'accident. 
+
+=== Perception des risques ===
+
+On a vu que la sensation de risque est un phénomène très subjectif, voire irrationnel, lié à la façon qu'a un individu de percevoir une situation dans son environnement, ce qui dépend pour une bonne part du capital culturel de l'individu et de ses intérêts. Ces perceptions différent nécessairement d'un individu à un autre. Il peut d'ailleurs exister un décalage d'appréciation entre les dirigeants et les employés, ces derniers ayant une vision nécessairement plus opérationnelle. Différents facteurs peuvent entrer en ligne de compte pour entraver la perception collective d'une situation : des raisonnements fallacieux, des sophismes, des biais cognitifs (illusion,...) qui, selon les cas, peuvent être conscients ou inconscients.
+
+Pour que la veille, de manière à détecter les signaux faibles le plus tôt possible.
+
+La perception du risque porte dans un premier temps essentiellement sur les facteurs de risque (ou périls). Le dispositif de veille doit prévoir un partage des signaux perçus pour en valider les traits principaux.
+
+=== Identification des risques ===
+
+A ce niveau, il faut identifier le risque, c'est-à-dire, parmi les signaux faibles détectés, reconnaître ceux qui contiennent des risques potentiels importants. Ceci nécessite la mise en place d'un dispositif d'intelligence économique coordonné, afin de procéder à une analyse fouillée des signaux faibles.
+
+Le risque ou situation à risques découle d'une part de l'existence d'un danger (facteur de risque ou péril) et d'autre part de la présence de l'homme dans la zone de danger (objet du risque). Il est utile en la matière de se référer à la norme EN 1050. 
+
+Lors de la phase d'identification des risques, on portera l'attention non seulement sur les causes (facteurs de risque ou périls), mais aussi sur les objets de risque, ressources de l'entreprise potentiellement impactées par ces facteurs de risque, en regardant les criticités associées.
+
+La criticité dépend de la probabilité pour qu'un facteur de risque survienne (présence dans une zone dangereuse, en contact avec le phénomène dangereux, ou soumis à l'événement dangereux).
+
+Ce dernier paramètre est lui-même fonction de plusieurs facteurs propres au système travail, soit l'individu (sa formation, son expérience, ses connaissances, …), ses tâches (ou ses fonctions, son besoin d'accès dans la zone dangereuse), le milieu de travail (l'environnement) et la matière utilisée pour accomplir le travail (outils, matière première, …).
+
+La connaissance de ces différents paramètres n'est pas facile d'autant qu'il existe un troisième paramètre qui est la conséquence du risque, ou au contraire la possibilité d'évitement de l'évènement dangereux. La plupart du temps le passé nous donne les informations sur la gravité et sur l'occurrence d'un facteur ; c'est pourquoi il est difficile d'opposer méthode a priori et a posteriori, car la première se nourrit inévitablement de la seconde.
+
+A ce stade, l'analyse des vulnérabilités peut se cantonner aux facteurs de risque et aux objets de risque.
+
+Les risques qui engagent la pénale de l'entreprise feront aussi l'objet d'une identification particulière, prenant en compte les aspects juridiques.
+
+=== Évaluation des risques ===
+
+Après les phases de perception et d'identification des risques, dans laquelle le facteur humain et culturel joue un rôle essentiel, comme on vient de le voir, on doit aussi évaluer les risques en tenant compte des conséquences possibles.
+
+Dans cette phase d'évaluation, on prend maintenant en compte l'ensemble des paramètres de la vulnérabilité : causes (facteurs de risques ou périls), objets de risque (les organisations ou ressources à risque), et conséquences (impact) avec leurs gravités potentielles.
+
+Une première méthode consiste à adopter une approche statistique. De même que les mathématiciens ont voulu quantifier le hasard en inventant les probabilités, les économistes ont voulu quantifier l'incertitude économique en modélisant les risques.
+
+Cette quantification qui garde toujours un côté plus ou moins estimatif, est réalisée à partir de séries statistiques historiques. La théorie financière tend à confondre le risque réel d'un actif financier et l'indicateur de risque qu'est la volatilité passée du prix de cet actif, bien que rien ne dise que les évolutions passés soient un bon indicateur du futur. La probabilités subjectives ou objectives, des algorithmes de calcul dont la célèbre méthode de Monte-Carlo ou des scénarios futurs de gains et pertes, peuvent également être mis en jeu.
+
+C'est ainsi que, la actif est fort, plus son prix sur le marché est bas et son efficient. Cette approche est surtout adoptée dans les milieux ou l'on peut disposer de statistiques et de modèles pour les exploiter. C'est en particulier le cas pour les milieux financiers.
+
+C'est pourquoi les experts en gestion des risques ont développé une méthode d'évaluation appelée "fréquence - gravité" qui consiste à calculer un poids du risque à partir de plusieurs critères. Les différents critères (généralement évalués de 1 à 4) varient selon experts et méthodes, mais on retrouve généralement la fréquence du risque quantifiant la probabilité que le risque devienne réalité, la gravité de la conséquence et la maîtrise par les personnes concernées des risques dans le domaine
+
+Ces critères sont évalués, parfois de manière subjective. Ils sont ensuite multipliés, donnant un chiffre (donc de 1 à 64) permettant de classifier et attribuer une priorité de traitement du risque.
+
+Selon la définition scientifique du risque (D. Bernoulli), l'approche subjective, par la méthode "fréquence-gravité" qui nous autorise à estimer d'une part, des "plausibilités" ou des "vraisemblances" selon le terme de Marcel Boll (mathématicien français) et d'autre part, des conséquences,  conduit à la valeur d'un aléa (c'est-à-dire d'un événement dangereux prédéterminé) et non à un risque (le risque possédant une notion plus globale ; voir "Définition scientifique du risque"). Aussi, pour estimer un risque (sans historique statistique) il faut prédéterminer plusieurs événements possibles de même nature, estimer leurs plausibilités (leur somme devant être égale à 1 - la somme des probabilités étant égale à 1) estimer leurs conséquences possibles puis estimer chaque aléa. La réelle valeur scientifique du risque sera alors la somme des aléas.
+
+=== Gestion du risque ===
+
+La gestion du risque est l'avant-dernière phase de traitement du risque. Elle vise à en réduire les différentes formes ou sources. Dès que l'on a évalué les plus fortes vulnérabilités, on connaît mieux les causes, les objets de risque, et les conséquences pour ces vulnérabilités.
+
+Il existe diverses stratégies pour traiter les risques. La prévention consiste à diminuer la probabilité d'occurrence du risque en diminuant ou supprimant certains des facteurs de risque. Nous pouvons citer comme exemple les nombreuses actions faites pour empêcher de conduire sous l'emprise de l'alcool. La prévention est souvent la meilleure stratégie pour ses ressources propres. Par exemple, former son personnel aux risques professionnels, choisir une méthode de fabrication sécurisée.
+
+La correction vise à diminuer l'effet du risque lorsque celui-ci intervient. Par exemple, un harnais de protection sur un échafaudage n'a aucun effet sur les risques de chute, mais diminue fortement (voire supprime complètement) les traumatismes causés par la chute. Minimiser l'impact est souvent une stratégie efficace lorsque l'on ne peut agir sur le facteur de risque lui-même, mais que l'on peut agir sur ses conséquences. Par exemple, on ne peut pas empêcher une avalanche, mais on peut aménager des couloirs d'avalanche pour la canaliser.
+
+Le changement de périmètre consiste en quelque sorte à "profiter de l'occurrence du risque", non pas pour en diminuer la probabilité ou les conséquences, mais en utilisant à son profit l'événement. C'est le cas typique de l'assurance, qui n'empêche ni l'accident, ni votre maison de brûler, mais qui vous propose un "dédommagement" pour le préjudice subi. S'assurer est le dernier moyen de traiter les conséquences d'événements aléatoires complètement subis.
+
+Le plan d'action consiste alors à agir sur tous les paramètres de la vulnérabilité sur lesquels on a un levier d'action possible, les causes endogènes, ou les causes exogènes sur lesquelles l'organisation aurait des moyens d'action (parties prenantes proches), les ressources, en cherchant à en diminuer les faiblesses, et à en augmenter les forces (voir SWOT) et les conséquences, en prenant les décisions propres à éviter les plus grands dangers.
+
+La gestion du risque fait parfois appel à la théorie des jeux qui associe une équation économique à des événements aléatoires, et donc associe un coût au risque. Cette théorie apporte un éclairage particulier sur la gestion des risques. En particulier sur deux stratégies très différentes d'optimisation : minimiser les pertes : il s'agit de faire en sorte que l'espérance mathématique des pertes soit la plus faible possible. Les produits financiers font preuve dans ce domaine d'une très forte créativité. Celui qui cherche à maximiser les gains fera en sorte que l'espérance mathématique des gains soit la plus forte possible. Dans cette optique, ignorer les risques est malheureusement souvent la meilleure stratégie.
+
+== Quelques aspects du risque ==
+
+=== Le risque par rapport au droit ===
+
+En droit, le risque est l'éventualité d'un événement futur, incertain ou d'un terme indéterminé, ne dépendant pas exclusivement de la volonté des parties, et pouvant causer un préjudice comme la perte d'un objet ou tout autre dommage.
+
+'''Ryzyko''' w języku naturalnym oznacza jakąś miarę/ocenę zagrożenia czy niebezpieczeństwa wynikającego albo z prawdopodobnych zdarzeń od nas niezależnych, albo z możliwych konsekwencji  podjęcia decyzji.
+
+Najogólniej, ryzyko jest wskaźnikiem stanu lub zdarzenia które może prowadzić do strat. Jest ono proporcjonalne do prawdopodobieństwa wystąpienia tego zdarzenia i do wielkości strat które może spowodować. 
+
+Dlatego też, w języku potocznym mówimy w określonej sytuacji przed-decyzyjnej np. ''ja tu nic nie ryzykuję, mogę tylko skorzystać''.
+Np. jeśli znajdziemy los na loterie, to oczekując na wygraną nic nie ryzykujemy. Jeśli zaś go kupimy to wielkość ryzyka zależy tylko od tego ile za niego zapłaciliśmy. Tu, podejmując decyzję kupna losu przeprowadzamy tzw. bilans możliwych zysków i strat, uwzględniamy ryzyko (straty), ale wielkość możliwej wygranej nie wpływa na jego obiektywne oszacowanie (''risk assessment''), natomiast wpływa na decyzje [wg. A.M.Gadomski].
+
+== Teoria decyzji==
+W klasycznej matematycznej teorii decyzji, ryzyko dotyczy sytuacji, w której wybranie danego wariantu decyzyjnego pociąga za sobą możliwości wystąpienia różnych negatywnych i pozytywnych konsekwencji przy znanym prawdopodobieństwie wystąpienia każdej możliwości. Formalnie, ''decyzjami podejmowanymi w warunkach ryzyka'' nazywamy tu taką klasę problemów decyzyjnych, w której dla każdej możliwej decyzji znany jest rozkład prawdopodobieństwa wszystkich jej skutków.
+
+==Inżynieria i nauki społeczne==
+W inżynierii i naukach społecznych, ryzyko mierzy się jako własność ''zdarzenia'', np. uszkodzenia aparatury, zniszczenia miasta przez huragan,  wystąpienia epidemii grypy, czy skażenia radioaktywnego, i miary wartości szkody spowodowanej przez to zdarzenie dla społeczeństwa. W tym sensie ryzyko nie zależy od tego kto podejmuje decyzje a sposób jego oszacowania wynika z zaakceptowanych stałych norm, na przykład w medycynie, w bisnesie, czy w firmach ubezpieczeniowych.
+
+Na przykład w zarządzaniu projektami i firmach zorientowanych na zysk, ryzyko oznacza mniejsze lub większe prawdopodobieństwo wystąpienia nieoczekiwanych okoliczności o negatywnym (zagrożenie)  wpływie na projekt czy stan finansowy firmy. Zarządzanie takie wymaga identyfikacji ryzyka oraz przygotowania decyzji i planów mających na celu działanie minimalizujące negatywny wpływ zbyt dużego ryzyka i eksploatujące pozytywny wpływ jego akceptowania w przypadku decyzji mogacych prowadzić do istotnych korzyści firmy. 
+
+Prawdopodobieństwo wystąpienia szkodliwego zdarzenia i wielkość możliwych strat jest szacowana wieloma metodami i zależy od licznych specyficznych czynników charakteryzujących dana sytuacje (np jej częstość w przeszłości). Niestety ich częściowa nieznajomość i niepewność oszacowań prowadzi do tego że  w konsekwencji wiele decyzji indywidualnych lub grupowych zależy od tzw. subiektywnej ''percepcji ryzyka'', co w efekcie może być przyczyną katastrofalnych ''ludzkich błędów'' (human error). Ta dziedzina zajmuje się socjo-kognitywistyczna.
+
+Jedna z coraz to istotniejszych we współczesnym świecie dziedzin naukowo-badawczych jest analiza ryzyka tachnologicznego, dotyczy ono w szczególności wielkich krytycznych dla społeczenstwa infrastruktór, takich jak sieci energetyczne, gazowe, czy telekomunikacji, a także tzw. przemyslu wysokiego ryzyka (elektrownie jadrowe, zakłady chemiczne). 
+
+Praktycznie, oszacowaniami i zmniejszaniem ryzyka w zakładach/miejscach pracy zajmują się tzw. specjaliści od ''Bezpieczeństwa i Higieny Pracy''.
+
+==Psychologia i kognitywistyka==
+Według psychologii i kognitywistyki oszacowanie ryzyka bezpośrednio wiąże się z stanem psychofizycznym człowieka, oraz, według systemowej teorii Gadomskiego, z jego posiadanymi ''informacjami'', ''wiedzą'' i ''preferencjami'' ([http://erg4146.casaccia.enea.it/wwwerg26701/gad-dict.htm TOGA meta-theory]), tzn. tym czego się dowiedział, co umie zrobić i co jest dla niego ważne. Percepcja ryzyka (nie samo ryzyko) zależy też m.in. od zaufania do źródła informacji i spodziewanych korzyści. 

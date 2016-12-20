@@ -1,0 +1,159 @@
+Nel Windows, un'interfaccia grafica per il suo sistema operativo MS-DOS che era venduto con i PC IBM e compatibili dal 1981. Microsoft aveva modellato l'interfaccia utente, all'inizio conosciuta col nome ''Interface Manager'', sulla base dei prototipi di interfaccia grafica sviluppati dalla Xerox, seguendo la strada intrapresa dalla Apple con il suo Macintosh, di cui Bill Gates aveva potuto vedere un prototipo, mostratogli dallo stesso Steve Jobs nel 1981.
+
+== Le origini ==
+<!-- <div style="float:right;width:310px;">
+thumbnail|300px|Microsoft Windows 1.01
+thumbnail|300px|Microsoft Windows 2.03
+</div> -->
+La prima versione indipendente di Microsoft Windows, la versione 1.0 rilasciata nel 1985, non disponeva di un gran numero di funzionalità ed ebbe scarso successo. Windows 1.0 non forniva un sistema operativo completo, ma era un'estensione dell'MS-DOS e perciò ne condivideva problemi e limiti. Inoltre i programmi distribuiti con la prima versione comprendevano "applicazioni giocattolo" con poca attrattiva per gli utenti aziendali.
+
+A limitare le funzionalità di Windows erano soprattutto alcune cause legali con inglese tiled) sullo schermo, e quindi non potevano essere sovrapposte (overlapped). Inoltre non vi era il "cestino", in quanto Apple sosteneva di detenere i diritti su questo paradigma. Microsoft in seguito ha rimosso entrambe le limitazioni sottoscrivendo un contratto di licenza.
+
+Microsoft Windows versione 2 è uscito nel Excel e Word per Windows. In pratica questi due programmi potevano essere eseguiti in MS-DOS, ma di fatto Windows veniva eseguito in automatico e poi chiuso all'uscita dei programmi (vi erano state delle voci sul fatto che Windows fosse inizialmente inteso come semplice piattaforma per Microsoft Office, e solo in seguito come interfaccia grafica generica).
+
+Microsoft Windows ebbe un deciso impulso quando Aldus rilasciò una versione Windows di Pagemaker, che prima era stata resa disponibile per il Macintosh. Alcuni storici dell'informatica considerano la data della prima apparizione di un'applicazione non-Microsoft di una certa importanza come l'inizio del successo di Windows.
+
+La versione 2 utilizzava ancora il reale, che aveva come limite l'uso di un massimo di 1 modalità avanzata" del microprocessore Intel 80386; la versione standard venne così ribattezzata Windows/286.
+
+La versione 2.03 (e la successiva 3.0) causarono azioni legali da parte di Apple per le finestre sovrapposte e per altre caratteristiche che Apple pretendeva appartenere all'aspetto caratteristico del suo sistema operativo. Il 25 luglio 1989 il giudice William Schwarzer respinse tutte le 189 accuse tranne 10.
+
+== Il successo di Windows 3.0 ==
+thumbnail|300px|Un tipico desktop di Windows 3.11
+Microsoft Windows ha ottenuto un deciso successo con Windows 3.0, rilasciato nel device driver virtuali (VxD) caricabili dinamicamente. Questi miglioramenti resero i PC dei seri concorrenti dei Macintosh della Apple, ad un costo nettamente più basso.
+
+Windows 3.0 poteva funzionare in modalità di memoria reale, standard e 386 avanzata, ed era compatibile con ogni processore Intel a partire dai vecchi 8086/8088 fino ai nuovi 80286 e 80386. Windows all'avvio determinava in automatico la modalità di esecuzione, che poteva comunque essere stabilita da linea di comando. Il limite di queste caratteristiche di retrocompatibilità era che le applicazioni dovevano essere compilate per funzionare a 16 bit, senza poter quindi usare le potenzialità dei 32 bit sui processori 80386.
+
+Una versione multimediale, Windows 3.0 with Multimedia Extensions 1.0, fu rilasciata diversi mesi dopo. Questa era venduta insieme al primo kit multimediale composto da scheda sonora e lettore di CD-ROM, nello specifico si trattava della Sound Blaster Pro di Creative Labs, insieme al titolo multimediale Microsoft Bookshelf. Questa versione era la precorritrice delle caratteristiche multimediali della successiva versione 3.1.
+
+Le sue caratteristiche tecniche, il costo ridotto e le minori richieste di prestazioni rispetto a soluzioni analoghe, insieme al crescente supporto del mercato, resero Windows 3.0 un ampio successo, caratterizzato dalla vendita di 10 milioni di copie nei due anni che precedettero l'uscita di Windows 3.1. Windows 3.0 divenne la maggiore fonte di reddito per Microsoft, e guidò le scelte e i piani successivi dell'azienda.
+
+== Il flop di Microsoft Bob ==
+Dopo il successo riscosso con Windows 3x, la Microsoft decise di rendere il proprio sistema operativo più grafico, e creò l'ambiente grafico ambiente grafico sostituiva al paradigma della scrivania (il cane Rover, molto simile a quello che appare durante la ricerca di file o cartelle sui nuovi sistemi operativi, la facciona di Bob che in MSN Messenger è un'icona, Will, il fumetto di William Shakespeare, e la palla rossa che sono alcuni assistenti di Office, e le animazioni di Rover che hanno ispirato un altro assistente, Rex.
+
+== La parentesi OS/2 ==
+Durante la seconda metà degli anni ‘80, Microsoft ed IBM avevano sviluppato congiuntamente il sistema operativo OS/2 quale successore del DOS, con lo scopo di sfruttare pienamente i vantaggi della summenzionata "modalità protetta" del processore Intel 80286, compresa la possibilità di usare fino a 16 megabyte di memoria. OS/2 1.0, rilasciato nel 1987, supportava la memoria virtuale su disco ed il multitasking, e permetteva di eseguire programmi DOS.
+
+L'interfaccia grafica, chiamata cartesiane 0, 0) nell'angolo in basso a sinistra, mentre Windows lo pone nell'angolo in alto a sinistra (come è prassi nei sistemi di coordinate usati in informatica). La versione 1.2, rilasciata nel 1989, ha introdotto un nuovo file system (chiamato HPFS) per rimpiazzare il file system FAT usato da DOS e da Windows.
+
+Nei primi anni ‘90 l'alleanza tra Microsoft e IBM iniziò a incrinarsi. Le due aziende avevano cooperato nello sviluppo dei sistemi operativi, ed avevano accesso al codice sorgente sviluppato da entrambi. Microsoft aveva deciso di continuare lo sviluppo di Windows, mentre IBM desiderava proseguire solo con OS/2. Nel tentativo di risolvere questa tensione, le due aziende decisero che IBM avrebbe sviluppato OS/2 2.0, che avrebbe dovuto prendere il posto di OS/2 1.3 e di Windows 3.0, mentre Microsoft avrebbe sviluppato un nuovo sistema operativo, OS/2 3.0, come successore di OS/2 2.0.
+
+Tuttavia questo accordo presto si ruppe, e la relazione tra IBM e Microsoft terminò. IBM continuò a sviluppare OS/2, mentre Microsoft cambiò il nome del sistema operativo che stava iniziando a sviluppare da OS/2 3.0 a Windows NT. Entrambi mantennero il diritto di usare tutte le tecnologie che erano state sviluppate fino ad allora; Windows NT, tuttavia, fu scritto praticamente da zero e indipendentemente.
+
+Dopo una versione 1.3 temporanea che risolveva molti dei problemi delle versioni precedenti, IBM rilasciò la versione 2.0 di OS/2 nel 1992. Questo fu un notevole passo avanti: vi era una nuova interfaccia grafica orientata agli oggetti, chiamata Workplace Shell, che includeva un desktop e che era considerata da molti la migliore caratteristica di OS/2. Alcuni dei suoi aspetti furono ripresi in seguito da Microsoft per Windows 95. La versione 2.0 aveva anche una API a 32 bit, un migliore multitasking, e la possibilità di utilizzare lo spazio di indirizzamento di 4 gigabyte offerto dai processori Intel 80386. In realtà internamente vi era ancora molto codice a 16 bit, che fra le altre cose richiedeva che i device driver fossero a 16 bit. Questa fu una delle ragioni per le quali si assistette ad una cronica mancanza di device driver aggiornati per OS/2. La versione 2.0 poteva anche eseguire programmi DOS e Windows 3.0, grazie al fatto che IBM conservava il diritto di usare il codice sviluppato congiuntamente con Microsoft fino al momento della rottura.
+
+A quel tempo, non era chiaro chi avrebbe vinto la cosiddetta "guerra del desktop": OS/2 aveva qualità tecniche superiori e alle spalle un'azienda del calibro di IBM, Windows invece richiedeva computer meno potenti e godeva di una diffusione già abbastanza elevata.
+
+== Windows 3.1 e Windows NT ==
+In risposta all'imminente rilascio di OS/2 2.0, Microsoft sviluppò Windows 3.1, che includeva diversi miglioramenti rispetto a Windows 3.0 (il più importante dei quali il supporto dei font scalabili TrueType, sviluppati insieme ad Apple), ma che consisteva soprattutto in correzioni di bachi e nel supporto multimediale. Inoltre era stato rimosso il supporto per la "modalità reale", e quindi poteva essere eseguito solo su processori 80286 o successivi. In seguito Microsoft rilasciò Windows 3.11, dapprima solo in versione "Windows for Workgroups" che includeva un deciso miglioramento nella gestione delle reti, che poteva essere eseguito solo in modalità "386 avanzata", richiedendo pertanto almeno un processore 80386. Entrambe le versioni ebbero lo stesso notevole successo di vendita della versione 3.0. Nonostante Windows 3.x in definitiva non avesse molte caratteristiche di cui invece OS/2 disponeva (nomi di file lunghi, un desktop, la protezione del sistema da programmi malfunzionanti) Microsoft in breve dominò il mercato delle interfacce grafiche per PC. La Windows API divenne lo standard di fatto nello sviluppo di software commerciale.
+
+Nel frattempo Microsoft continuava nello sviluppo del nuovo sistema operativo a 32 bit chiamato Windows NT. Microsoft assunse Stati Uniti, l'accusa fu ritirata in seguito a trattativa privata, con Microsoft accettò di pagare 150 milioni di dollari e di supportare in Windows NT il microprocessore DEC Alpha di Digital.
+
+Windows NT 3.1 (il marketing di Microsoft voleva far apparire Windows NT come prodotto parallelo a Windows 3.1) arrivò in versione beta alla Professional Developers Conference di San Francisco nel luglio 1992. Microsoft annunciò alla conferenza anche i piani futuri, che includevano il successore di Windows 3.1, con nome in codice Chicago, e un successivo sistema operativo, con nome in codice Cairo, che avrebbe unificato in un unico sistema operativo Windows NT 3.1 e Chicago. In realtà Cairo non vide mai davvero la luce, e l'unificazione delle due linee di prodotto è avvenuta solo in Windows XP.
+
+I due principali problemi di Windows NT erano in definitiva gli stessi di OS/2: richiedeva un hardware troppo potente per l'epoca, e disponeva di pochi device driver di terze parti a causa della difficoltà di programmare il suo complesso modello di astrazione dall'hardware ''(Hardware abstraction layer)''. Le case produttrici di hardware erano riluttanti a sostenere i costi di sviluppo di questi device driver, anche perché Windows NT era un prodotto poco diffuso sul mercato. Gli utenti inoltre non erano molto interessati a migrare a Windows NT: era richiesto un PC troppo potente e l'interfaccia utente era la stessa di Windows 3.1 ed era inferiore a quella di OS/2. Si era quindi in una fase di stallo: per le stesse ragioni OS/2 e Windows NT non decollavano, e Windows 3.1 continuava a guadagnare quote di mercato.
+
+Ad ogni modo, Windows NT aveva caratteristiche che lo rendevano perfetto per il mercato di server LAN (che nel 1993 stava conoscendo un rapido successo), grazie alle opzioni avanzati di networking di cui disponeva, e grazie all'efficienza del nuovo file system NTFS. La successiva versione 3.5, seguita a breve distanza dalla versione 3.51, segnarono l'inizio dell'ascesa di Microsoft in questo segmento di mercato, che negli anni seguenti avrebbe finito con il dominare a spese di Novell.
+
+Una delle caratteristiche più avanzate introdotte con Windows NT fu la nuova API a 32 bit, pensata per sostituire la precedente API a 16 bit di Windows 3.1. Questa nuova API fu chiamata Win32, e la precedente prese il nome di Win16. L'API Win32 ebbe tre implementazioni: quella di Windows NT, una versione ridotta chiamata Win32s che poteva essere installata su Windows 3.1, e una per l'imminente Chicago. In questo modo Microsoft cercò di assicurarsi un ponte di compatibilità tra tutte le sue versioni di sistemi operativi, e questa fu una carta vincente.
+
+== Windows 95 ==
+
+Dopo Windows 3.11, Microsoft iniziò a sviluppare una nuova versione del sistema operativo il cui nome in codice era Chicago. Chicago aveva lo scopo di implementare una nuova GUI per competere con OS/2 Workplace Shell. Fu inoltre concepito per essere un sistema pienamente a 32-bit e supportare il pre-emptive multitasking, come OS/2 e Windows NT, che avrebbe migliorato la sua stabilità rispetto al 3.11, notoriamente instabile. Molte parti del nucleo del sistema operativo furono riscritte; altre passarono attraverso una profonda revisione. Le API Win32 furono adottate come interfaccia esterna , mantenendo però la compatibilità con le Win16 attraverso vari provvedimenti e stratagemmi.
+
+Microsoft non tradusse a 32-bit tutto il codice di Windows; alcune parti di esso rimasero a 16-bit (sebbene non fossero eseguite direttamente in Real Mode) per ragioni di compatibilità, prestazioni e tempo di sviluppo. Questo, e il fatto che numerosi difetti di progettazione dovettero essere ereditati dalle precedenti versioni di Windows, alla fine iniziò ad influire sull'efficienza e la stabilità del sistema operativo.
+
+Il reparto marketing di Microsoft adottò "Windows 95" come nome del prodotto avente nome in codice "Chicago" quando esso fu rilasciato nell'Agosto 1995. Microsoft ebbe un doppio vantaggio dalla sua nuova versione di Windows: innanzitutto rese impossibile ai consumatori usare un più economico DOS non-Microsoft; in secondo luogo, sebbene tracce di DOS non furono mai completamente rimosse dal sistema, e una versione di DOS veniva caricata rapidamente come parte del processo di bootstrap, le applicazioni di Windows 95 venivano eseguite esclusivamente in 386 Enhanced Mode, con un spazio di indirizzamento completamente a 32-bit e memoria virtuale. Queste caratteristiche  rendevano le applicazioni Win32 in grado di indirizzare fino a 2 gigabyte di RAM virtuale (con altri 2GB riservati al sistema operativo), e (almeno in teoria) prevenivano la possibilità che corrompessero lo spazio di memoria di altre applicazioni Win32. In questo senso le funzionalità di Windows 95 si avvicinarono a quelle di Windows NT, sebbene la famiglia Windows 95/98/ME non supportasse più di 512 megabyte di RAM fisica senza complessi "ritocchi" al registro.
+
+IBM continuò a commercializzare OS/2, producendo nuove versione con OS/2 3.0 e 4.0 (detto anche Warp). Rispondendo alle lamentele riguardo agli elevati requisiti hardware di OS/2 2.0,  la versione 3.0 fu notevolmente ottimizzata sia nella velocità che nelle dimensioni. Prima che Windows 95 fosse rilasciato, OS/2 Warp 3.0 era già venduto preinstallato sui computer di diverse grandi catene di distribuzione di hardware tedesche. Comunque, con l'uscita di Windows 95, OS/2 iniziò a perdere quote di mercato.  
+
+È probabilmente impossibile trovare una ragione specifica per cui OS/2 abbia fallito nel guadagnare una maggiore quota di mercato. Sebbene OS/2 continuasse ad eseguire applicazioni Windows 3.1, esso mancava di supporto per qualsiasi cosa eccetto il sottoinsieme Win32s delle API Win32 (vedi sopra). Diversamente da Windows 3.1, IBM non aveva accesso al codice sorgente di Windows 95 e non c'era la volontà di spendere tempo e risorse per emulare il "bersaglio mobile" delle API Win32. IBM ha anche presentato OS/2 nel caso antitrust Microsoft, protestando per tattiche di concorrenza sleale da parte di Microsoft, ma molte persone sarebbero probabilmente d'accordo sul fatto che i problemi di marketing della IBM stessa e la mancanza di supporto agli sviluppatori contribuirono almeno altrettanto al fallimento.
+
+Microsoft complessivamente rilasciò 5 versioni di Windows 95
+
+*Windows 95 Original Release
+*Windows 95 A
+*Windows 95 B
+*Windows 95 B USB
+*Windows 95 C
+
+Windows 95 Original Release fu semplicemente questo, la prima versione.
+
+Windows 95 A includeva il Service Pack 1 di Windows 95 integrata nell'installazione.
+
+Windows 95 B (IE 3.0 e il pieno supporto a USB.
+
+Windows 95 C (IE 4.0. Quest'ultimo fu fornito come aggiornamento gratuito agli utenti Windows 95, e fu l'ultima "versione 95" prodotta.
+
+== Windows NT 4.0 ==
+
+Come parte dei suoi sforzi per introdurre Windows NT nel mercato delle workstation, Microsoft rilasciò Windows NT 4.0, che presentava la nuova interfaccia di Windows 95 costruita sopra al kernel di Windows NT (era disponibile anche una patch per gli sviluppatori per permettere a NT 3.5.1 di usare la nuova interfaccia utente, ma era piuttosto piena di bug; la nuova UI fu sviluppata prima su NT ma Windows 95 fu rilasciato prima di NT 4.0).
+
+Windows NT 4.0 fu distribuito in quattro possibili pacchetti:
+
+*Windows NT 4.0 Workstation
+*Windows NT 4.0 Server
+*Windows NT 4.0 Enterprise Server
+*Windows NT 4.0 Terminal Server
+
+== Windows 98 ==
+
+Dit is een overzicht van de '''geschiedenis van Microsoft Windows'''
+
+{| 
+|- 
+!Datum!!16-bits!!16/32-bits!!32-bits!!64-bits
+|- 
+|november |[[Windows 1.0 || || || 
+|- 
+||[[Windows 2.0 || || || 
+|- 
+|mei |[[Windows 3.x|Windows 3.0 || || ||
+|- 
+||[[Windows 3.1 || || || 
+|- 
+||[[Windows for Workgroups 3.1 || || ||  
+|- 
+|juli | || ||[[Windows NT 3.1 ||
+|- 
+||[[Windows for Workgroups 3.11 || || || 
+|- 
+|september | || ||[[Windows NT 3.5 || 
+|- 
+|mei | || ||[[Windows NT 3.51 || 
+|- 
+|| ||[[Windows 95 || || 
+|- 
+|juli | || ||[[Windows NT 4.0 || 
+|- 
+|| ||[[Windows 98 || || 
+|- 
+|februari | || ||[[Windows 2000 || 
+|- 
+|| ||[[Windows ME || || 
+|- 
+|augustus | || ||[[Windows XP || 
+|- 
+|april | || ||[[Windows Server 2003||Windows Server 2003 
+|- 
+|| || ||[[Windows XP Media Center Edition 2003 || 
+|- 
+|april | || ||[[Windows XP Media Center Edition 2005 || 
+|- 
+|| || || ||[[Windows XP|Windows XP Professional x64 Edition
+|- 
+|| || ||[[Windows Vista||Windows Vista
+|- 
+|| || ||[[Windows Server 2008||Windows Server 2008
+|- 
+
+|| || ||[[Windows 7||Windows 7
+|}
+==Andere==
+*Windows XP Starter Edition
+*Windows CE
+*Windows Embedded
+*Windows XP Tablet PC Edition
+*Windows FLP
+*Windows Vista Starter Edition (bij deze versie ontbreekt Windows Media Player)
+*Windows Mobile
+----

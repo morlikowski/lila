@@ -1,0 +1,157 @@
+== Sejarah Perkembangan D ==
+Bahasa Pemrograman D ditemukan oleh Walter Bright. Bahasa pemrograman ini pada awalnya bernama bahasa pemrograman Mars, yang kemudian seiring berjalannya waktu karena dorongan dari para sahabatnya yang sering menyebutnya dengan nama D maka kemudian namanya berubah menjadi D.
+Dalam perkembangannya bahasa pemrograman ini banyak mendapat pengaruh dari C, C++, JAVA, C#, Ruby, Python. Bahasa pemrograman ini memiliki banyak kesamaan dengan C.
+
+Walaupun banyak memiliki kesamaan dengan bahasa C - ''berbeda dengan C++ yang dikatakan sebagai pengembangan dari C'' - D adalah sebuah bahasa yang didesain dengan menggunakan pendekatan dari pengalaman praktek menggunakan bahasa C++, dibandingkan dari pendekatan yang dilakukan secara teoritis. Bahkan walaupun bisa dibilang bahwa bahasa D ini menggunakan banyak pendekatan dari bahasa C++, D juga telah menghilangkan beberapa konsep C++ dalam pengembangan bahasa ini, sehingga bahasa D tidak 100% compatible dengan C/C++. D seperti yang dimaksudkan juga telah menambahkan banyak sekali fungsionalitas baru yang sangat berguna untuk meningkatkan produktivitas Anda dalam membuat sebuah aplikasi untuk sistem; seperti testing per-unit, GC (garbage Collection), inner class, anonymous function, delegate, array class, template yang lebih mumpuni, multiple inheritance dengan Interface seperti yang dimiliki oleh JAVA, Hyper-threading dan beberapa macam penambahan lainnya. Walaupun demikian, karena D dimaksudkan untuk pemrograman pada level sistem maka fungsionalitas untuk menggunakan bahasa assembler seperti yang dikenalkan pada C/C++ pun masih didukung. 
+
+=== Distribusi D ===
+Sampai saat ini terdapat 2 distribusi bahasa pemrograman D ini di internet. Distribusi pertama dari Digital Mars oleh Walter Bright yang dapat berjalan di Windows dan Linux. Distribusi kedua dari GCC D Compiler yang dapat berjalan di Windows, Mac OS X, dan lainnya.
+
+== Pustaka pemograman D ==
+=== Pustaka pemograman standar ===
+Pustaka pemrograman standar adalah pustaka software yang bisa Anda gunakan langsung untuk membuat aplikasi yang Anda inginkan dengan menggunakan konsep OOP yang telah diimplementasikan oleh bahasa D. Secara garis besar pustaka standar yang digunakan oleh programmer bahasa D ada 2, yaitu:
+
+* [http://www.digitalmars.com/d/2.0/phobos/phobos.html Phobos]
+Phobos adalah pustaka pemrograman yang akan diikutsertakan saat Anda pertama kali menginstal kompiler dan linker bahasa D, bisa dikatakan ini adalah pustaka standar yang dimiliki oleh D. Pustaka ini walaupun sederhana, sudah bisa digunakan untuk membuat beberapa program secara lebih cepat dengan cara menyediakan beberapa fungsi dan rutin yang sangat bermanfaat untuk membuat proses pengembangan program bisa lebih cepat.
+* [http://www.dsource.org/projects/tango Tango]
+Merupakan pengembangan dari pustaka Ares dan Phobos, dengan pengembangan yang lebih komprehensif dan menyeluruh. 
+
+Amat disayangkan memang, diantara Phobos dan Tango memiliki pustaka utama yang tidak saling mendukung, sehingga Anda tidak bisa begitu saja mencomot pustaka milik Phobos dan Tango secara bersamaan. Namun pada perkembangannya telah ada proses untuk mensinkronkan penggunaan Tango dan Phobos; proses ini melahirkan satu pustaka standar yang kemudian memungkinkan kita untuk menggunakan Phobos dan Tango secara bersamaan. Project ini dikenal dengan nama [http://www.dsource.org/projects/tangobos Tangobos].
+
+=== Pustaka GUI (Graphical User Interface) ===
+Telah banyak pihak yang membuat pustaka ataupun menerjemahkan berbagai pustaka dari bahasa pemrograman lain. Beberapa pustaka tersebut yang populer digunakan, yaitu:
+* [http://www.dsource.org/projects/dwt DWT]
+DWT merupakan salah satu pustaka grafis jendela Eclipse yang menggunakan bahasa JAVA. Aplikasi yang dikembangkan dengan pustaka ini akan memiliki antarmuka seperti aplikasi jendela pada JAVA dengan SWT. Poseidon merupakan salah satu editor untuk D yang dikembangkan dengan DWT.
+* [http://wiki.dprogramming.com/Dfl/HomePage DFL] ([http://wiki.dprogramming.com/Dfl/HomePage D Framework Library])
+DFL merupakan salah satu pustaka grafis jendela OOP untuk Windows yang memadukan pemrograman jendela dengan operasi socket, registry dan fungsi lainnya pada Windows. Dalam prakteknya, penggunaan pustakan ini benar-benar memudahkan kita seperti halnya menggunakan object Windows pada C#.
+* GLFW
+GLFW merupakan salah satu pustaka gratis untuk pemrograman Open GL. Walaupun aplikasi ini dikembangkan untuk berbagai kompiler bahasa C seperti Borland, Pelles, Visual C, tetapi pustaka ini juga memiliki dukungan terhadap bahasa pemrograman lain seperti Visual Basic, LUA, Assembler, D.
+
+== Integrated Development Environment ==
+Banyak pihak yang telah membuat IDE untuk bahasa pemrograman D. Beberapa diantaranya adalah 
+* Poseidon (Windows & Linux)
+Sebuah editor tingkat menengah dengan kemampuan auto completion dan manajemen file serta integrated debugging.
+* [http://www.dprogramming.com/dcode.php DCode] (Windows)
+Sebuah editor sederhana dengan line number dan pewarnaan keyword tertentu. 
+* LEDS (Linux)
+* [http://www.dprogramming.com/entice.php Entice] (Windows)
+Sebuah editor yg memiliki antarmuka visual untuk pengembangan aplikasi GUI berbasis DFL.
+* [http://scite4d.chinese-blog.org/ scite4d]
+Sebuah editor dengan fasilitas auto completion, Code Folding dll.
+
+== Contoh-contoh ==
+=== Hello World ===
+Berikut ini program '''Helo Dunia''' menggunakan Phobos
+
+<source lang="D">
+import std.stdio;
+
+void main(char[][] args)
+{
+  writefln("Halo Dunia");
+}
+</source>
+
+{{Infobox programming language |
+name = D programming language |
+logo =  |
+paradigm = multiparadigm: object-oriented, imperative, meta |
+year = 1999 |
+typing = strong, static |
+designer = Walter Bright |
+latest_release_version = 1.033 (stable) |
+latest_release_date = July 11, 2008<ref> D Change Log, http://www.digitalmars.com/d/1.0/changelog.html</ref> |
+implementations = [http://www.digitalmars.com/d/changelog.html DMD], [http://dgcc.sourceforge.net/ GDC] |
+influenced_by = C, C++, C#, Java, Eiffel |
+}}
+
+The '''D programming language''', also known simply as '''D''', is an object-oriented, imperative, multiparadigm Java, C# and Eiffel. A stable version, 1.0, was released on 2.0, was released on June 17 2007.
+
+== Features ==
+D  is being designed with lessons learned from practical C++ usage rather than from a theoretical perspective. Even though it uses many C/C++ concepts it also discards some, and as such is not strictly backward compatible with C/C++ source code. It adds to the functionality of C++ by also implementing modules, automatic memory management (garbage collection), first class closures [http://www.digitalmars.com/d/changelog.html#new2_007], anonymous functions, template syntax. D retains C++'s ability to do low-level coding, and adds to it with support for an integrated inline assembler. C++ single inheritance with interfaces and mixins. D's declaration, statement and expression syntax closely matches that of C++.
+
+The inline assembler typifies the differences between D and application languages like Java and C#. An inline assembler lets programmers enter machine-specific assembly code in with standard D code&mdash;a technique often used by system programmers to access the low-level features of the processor needed to run programs that interface directly with the underlying hardware, such as operating systems and device drivers.
+
+D has built-in support for documentation comments, but so far only the compiler supplied by Digital Mars implements a documentation generator.
+
+===Programming paradigms===
+
+D supports three main programming paradigms—imperative, object-oriented, and metaprogramming.
+
+====Imperative====
+Imperative programming in D is almost identical to C.  Functions, data, statements, declarations and expressions work just as in C, and the C runtime library can be accessed directly.  Some notable differences between D and C in the area of imperative programming include D's foreach loop construct, which allows looping over a collection, and nested functions, which are functions that are declared inside of another and may access the enclosing function's local variables.
+
+====Object Oriented====
+Object oriented programming in D is based on a single inheritance hierarchy, with all classes derived from class Object. D does not support multiple inheritance; instead, it uses Java-style interfaces, which are comparable to C++ pure abstract classes.
+
+====Metaprogramming====
+Metaprogramming is supported by a combination of templates, compile time function execution, tuples, and string mixins.  The following examples demonstrate some of D's compile-time features.
+
+Templates in D can be written in a more function-like style than those in C++.  Here the use of static if, D's compile-time conditional construct, is demonstrated to construct a factorial template.
+
+<source lang="D">
+template Factorial(ulong n)
+{
+    static if( n <= 1 )
+        const Factorial = 1;
+    else
+        const Factorial = n * Factorial!(n-1);
+}
+</source>
+
+This is a regular function that performs the same calculation.  The template version's code is similar to that of this function.
+
+<source lang="D">
+ulong factorial(ulong n)
+{
+    if( n <= 1 )
+        return 1;
+    else
+        return n * factorial(n-1);
+}
+</source>
+
+In the following two examples, the template and function defined above are used to compute factorials.  The types of constants need not be specified explicitly as the compiler infers their types from the right-hand sides of assignments.
+
+<source lang="D">
+const fact_7 = Factorial!(7);
+</source>
+
+This is an example of compile-time function execution.  Ordinary functions may be used in constant, compile-time expressions provided they meet
+certain criteria.
+
+<source lang="D">
+const fact_9 = factorial(9);
+</source>
+
+The std.metastrings.Format template performs printf-like data formatting, and the "msg" pragma displays the result at compile time.
+
+<source lang="D">
+import std.metastrings;
+pragma(msg, Format!("7! = %s", fact_7));
+pragma(msg, Format!("9! = %s", fact_9));
+</source>
+
+===Memory management===
+Memory is usually managed with garbage collection, but specific objects can be finalized immediately when they go out of scope. Explicit memory management is possible using the overloaded operators <code>new</code> and <code>delete</code>, and by simply calling C's malloc and free directly. Garbage collection can be controlled: programmer can add and exclude memory ranges from being observed by collector, can pause and resume collector and force generational or full collection cycle[http://www.digitalmars.com/d/2.0/phobos/std_gc.html]. The manual gives many examples of how to implement different highly optimized memory management schemes for when garbage collection is inadequate in a program.
+
+===Interaction with other systems===
+C's application binary interface (ABI)  is supported as well as all of C's fundamental and derived types, enabling direct access
+to existing C code and libraries. C's standard library is part of standard D.  Unless you use very explicit namespaces it can be somewhat messy to access, as it is spread throughout the D modules that use it -- but the pure D standard library is usually sufficient unless interfacing with C code.
+
+C++'s ABI is not fully supported, although D can access C++ code that is written to the C ABI, and can access C++ COM (Component Object Model) code.  The D parser understands an extern (C++) calling convention for linking to C++ objects, but it is only implemented in the currently experimental D 2.0.
+
+==D 2.0==
+D 2.0, a branch version of D that includes experimental features, was released on June 17, 2007.  Some of these features are:
+* Support for enforcing const-correctness:
+** D differentiates between mutable references to immutable data, const references to mutable data, and combinations thereof
+** <code>const</code> and <code>invariant</code> keywords are transitive
+* Limited support for linking with code written in C++
+* Iteration with <code>foreach</code> over defined range only
+* Support for "real" closures. Previously closures couldn't be safely returned from functions, because stack-allocated variables would become inaccessible
+* Changes to standard Phobos library
+
+[http://www.digitalmars.com/d/2.0/features2.html List of features]
+
+==Implementation==
+Current D implementations compile directly into machine code for efficient execution.

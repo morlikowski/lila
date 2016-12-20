@@ -1,0 +1,81 @@
+{{Infobox Chemikalie
+  | Strukturformel      = 150px
+  | Name                = <small>L</small>-Homocystein
+  | Andere Namen        = (2''S'')-2-Amino-4-mercaptobutansäure
+  | Summenformel        = C<sub>4</sub>H<sub>9</sub>NO<sub>2</sub>S
+  | CAS                 = 6027-13-0
+  | Beschreibung        = weißes Pulver
+  | Molare Masse        = 135,1806 g·mol<sup>–1</sup>
+  | Aggregat            = fest
+  | Dichte              = 
+  | Schmelzpunkt        = 232 °C
+  | Siedepunkt          = 
+  | Dampfdruck          = 
+  | Löslichkeit         = 
+  | Quelle GefStKz      = <ref>[http://www.sigmaaldrich.com/catalog/search/ProductDetail/FLUKA/53510 Angaben des Herstellers  Sigma-Aldrich]</ref>
+  | Gefahrensymbole     = 
+  | R                   = 
+  | S                   = 
+}}
+
+'''<small>L</small>-Homocystein''' ('''Hcy''') ist eine natürliche vorkommende (nicht proteinogene) α-Alter<!-- NEJM 2002:346;476-483 -->. Normale Laborwerte bei der Blutuntersuchung liegen zwischen 5 und 10&nbsp;µmol/l. Zur Regulierung des Homocysteinpegels im Blut ist eine ausreichende Versorgung mit B<sub>12</sub>, B<sub>6</sub> sowie Folsäure erforderlich.<ref>http://www.aerztlichepraxis.de/artikel_allgemeinmedizin_gefaesse_epic-studie_1190728352.htm</ref>
+
+== Geschichte ==
+Homocystein wurde 1932 von Vincent du Vigneaud bei seinen Arbeiten über schwefelhaltige Verbindungen entdeckt.<ref>du Vigneaud Vincent: ''A Trail of Sulfa Research: From Insulin to Oxytocin''. Nob Lec 1955;1–10. [http://nobelprize.org/nobel_prizes/chemistry/laureates/1955/vigneaud-lecture.pdf PDF]</ref> Doch erst 1962 entdeckten Carson und Neil den Zusammenhang zwischen Homocystein und bestimmten Erkrankungen. Sie fanden deutlich erhöhte Homocysteinwerte im Urin einer Gruppe von Kindern mit geistiger Behinderung und postulierten einen Enzymdefekt – die klassische Homocystinurie, verursacht durch einen Defekt der Cystathion-''β''-Transferase.<ref>Gruson D.: ''Cardiovascular diseases and homocysteine, a short summary of a long story.'' J Int Clin Chem 2003;14:3. [http://www.ifcc.org/ejifcc/vol14no3/140310200303n.htm HTML]</ref>
+
+== Eigenschaften ==
+=== Chemische Eigenschaften ===
+Durch seine im Vergleich zu Cystein zusätzliche CH<sub>2</sub>-Gruppe kann Homocystein einen fünfgliedrigen heterocyclischen Ring bilden, ein sogenanntes Thiolacton.<ref name="Baernstein">H. S. Baernstein, Journal of Biological Chemistry ''106'' (1934) 451.</ref> Diese Cyclisierungsreaktion verhindert die Bildung stabiler Peptidbindungen. Ein Protein, das Homocystein enthält, hat demnach die Tendenz, sich aufzuspalten.
+
+== Biochemische Bedeutung ==
+Aus <small>L</small>-Homocystein, Betain und Methyl-FH<sub>4</sub> kann durch das Enzym Methionin-Synthase die Aminosäure <small>L</small>-Methionin in einer Remethylierung gebildet werden. Die Methionin-Synthase benötigt Vitamin B<sub>12</sub> als Coenzym. Abgebaut wird Homocystein über die Transsulfurierung, einen rein Vitamin-B<sub>6</sub>-abhängigen Schritt. 
+
+<small>L</small>-Methionin wird einerseits zur ''S''-Adenosylmethionin (SAM) herangezogen. SAM ist der wichtigste Donator für ''S''-Adenosylhomocystein (SAH), das zu Adenosin sowie <small>L</small>-Homocystein hydrolysiert wird. 
+
+center|700px
+
+SAH hemmt Methylierungsreaktionen, sein Abbau zu Homocystein ist also zwingend notwendig, um Methylierungsreaktionen aufrechterhalten zu können. Ist der Abbau von Homocystein gestört, sind auch die wichtigen Methylierungsreaktionen in der Zelle gestört.<ref name="PMID 11351038">Durand P, Prost M, Loreau N.: ''Impaired homocysteine metabolism and atherothrombotic disease''. Lab Invest 2001;81:645–72. PMID 11351038</ref>
+
+== Homocystein und Genetik ==
+Genetischer genetischen Codes zu einer Verlangsamung im Abbau des Homocysteins und somit zu einem Anstieg der Homocysteinkonzentration im Blut. Klinisch relevante Polymorphismen sind vor allem im Enzym MTHFR (Methylentetrahydrofolat-Reduktase) zu finden.<ref>Födinger M, Buchmayer H, Sunder-Plassmann G.: ''Molecular genetics of homocysteine metabolism''. Miner Electrolyte Metab 1999;25:269–78. PMID 10681651</ref> Die häufigste vorkommende Mutation ist der Aminosäurenaustausch Alanin gegen Valin an der Position 677. Diese Form des Enzyms ist thermolabil und führt zu einer bis zu 50% verminderten Leistung bei 37 °C (Körpertemperatur).
+
+== Homocystein und äußere Faktoren ==
+Aufgrund äußerer Faktoren kann es zu einer milden bis moderaten Erhöhung der Homocysteinkonzentration im Blut kommen. Zu bedenken ist, dass eine Erhöhung des Homocysteinwertes in vielen Fällen ein multifaktorell ausgelöstes Phänomen ist. Erhöhte Homocysteinwerte findet man bei Alkoholkonsum, Rauchen, häufigem Genuss von Kaffee, Bewegungsarmut und Übergewicht. Auch bestimmte Medikamente können die Homocysteinkonzentration beeinflussen. Ein Mangel an Folsäure und Cobalamin führt ebenfalls zum Anstieg der Homocysteinwerte.<ref name="PMID 11351038"/>
+
+{{NatOrganicBox
+| image=Image:Homocysteine.png
+| name=(2S)-2-amino-4-sulfanyl-butanoic acid
+| abbreviations=Hcy
+| C=4 | H=9 | N=1 | O=2 | S=1
+| charge=
+| mass=135.186
+| melt_point=
+| density=
+| isoelectric_point=
+| dissoc_constant=
+| CAS= 454-29-5
+| EINECS=
+| PubChem=91552
+| SMILES=C(CS)C(C(=O)O)N
+}}
+
+'''Homocysteine''' is a homologue of the naturally-occurring amino acid cysteine, differing in that its side-chain contains an additional methylene (-CH<sub>2</sub>-) group before the thiol (-SH) group.  Alternatively, homocysteine can be derived from methionine by removing the latter's terminal C<sup>ε</sup> methyl group.
+
+==Organic chemical properties==
+The "extra" (relative to cysteine) one carbon methylene group allows this molecule to form a five-membered ring, homocysteine thiolactone.  The facility of this reaction precludes the formation of stable peptide bonds. In other words, a protein containing homocysteine would tend to cleave itself.
+
+The 4 carbon homocysteine is (only) made from the 5 carbon methionine, an essential amino acid, in a multi step reaction via S-adenosyl methionine.  Homocysteine can be recycled back into methionine or it can be permanently converted to cysteine via the transsulfuration pathway.  Homocysteine is not obtained from the diet; it is a normal temporary and chemically reactive reaction product that can be measured in blood.<ref name="AnRvNutrition1999-Selhub"></ref> Due to its high reactivity to proteins, it is almost always bound to proteins, 'thiolating' (and thus degrading) most notably the lysine and cysteine components thereof. This can permanently affect protein function. In blood, it is found bound to albumin and to hemoglobin.  It affects enzymes with cysteine-containing active sites; for example, it inhibits lysyl oxidase a key enzyme in the production of collagen and elastin, two main structural proteins in artery, bone and skin.
+
+==Elevated homocysteine==
+As a consequence of the biochemical reactions in which homocysteine is involved, deficiencies of the vitamins pyridoxine (B<sub><small>6</small></sub>), or B<sub><small>12</small></sub> (cyanocobalamin) can lead to high homocysteine levels.<!--
+  --><ref name="AmJClinNutrition1994-Miller"></ref>
+Supplementation with pyridoxine, folic acid, B<sub><small>12</small></sub> or trimethylglycine (betaine) reduces the concentration of homocysteine in the bloodstream.<!--
+  --><ref name="ExpertOpPharm2001-Coen"></ref>  
+<!--
+  --><ref name="NYT2006-Crichton">Legal note: Metabolite Laboratories is defending a patent as of March 2006 that may cover the mere mention or consideration of the relationship of vitamin B12 and homocysteine levels.  See </ref>  Increased levels of homocysteine are linked to high concentrations of endothelial asymmetric dimethylarginine.
+
+Elevations of homocysteine also occur in the rare hereditary disease methylene-tetrahydrofolate-reductase polymorphism genetic traits. The latter is quite common (about 10% of the world population) and it is linked to an increased incidence of  thrombosis and cardiovascular disease and that occurs more often in people with above minimal levels of homocysteine (about 6 μmol/L).  Common levels in Western populations are 10 to 12 and levels of 20 μmol/L are found in populations with low B-vitamin intakes (New Delhi) or in the older elderly (Rotterdam, Framingham).  Women have 10-15% less homocysteine during their reproductive decades than men which may help explain the fact they suffer myocardial infarction (heart attacks) on  average 10 to 15 years later than men.
+
+==Cardiovascular risks==
+A high level of serum homocysteine is a powerful risk factor for cardiovascular disease. Unfortunately, one study which attempted to decrease the risk by lowering homocysteine was not fruitful.<!--
+  --><ref name="BBC2005-NewsBvit"></ref> This study was conducted on nearly 5000 Norwegian heart attack survivors who already had severe, late-stage heart disease. No study has yet been conducted in a preventive capacity on subjects who are in a relatively good state of health.

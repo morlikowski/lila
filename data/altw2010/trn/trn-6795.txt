@@ -1,0 +1,85 @@
+{{noteTA
+|T=zh-hans:视频图形阵列; zh-hant:視頻圖像陳列;
+}}
+thumb|VGA接座|300 px
+thumb|VGA插頭|300 px
+'''VGA'''（''Video Graphics Array''）是IBM於1987年提出的一個使用類比訊號的電腦顯示標準，這個標準已對於現今的個人電腦市場已經十分過時。即使如此，VGA仍然是最多製造商所共同支援的一個低標準，個人電腦在載入自己的獨特驅動程式之前，都必須支援VGA的標準。例如，微軟Windows系列產品的開機畫面仍然使用VGA顯示模式，這也說明其解析度和載色數的不足。
+
+VGA這個術語常常不論其圖形裝置，而直接用於指稱640×480的解析度。VGA裝置可以同時儲存4個完整的EGA色版，並且它們之間可以快速轉換，在畫面上看起來就像是即時的變色。<ref>Norton, Peter and Wilton, Richard (1988).  <i>The new Peter Norton programmer's guide to the IBM PC and PS/2.</i></ref>
+
+除了擴充為256色的EGA式色版，這256種色彩其實可以透過 VGA DAC（Digital-to-analog converter），任意的指定為任何一種顏色。這就程度上改變了原本EGA的色版規則，因為原本在EGA上，這只是一個讓程式可以在每個頻道（即紅綠藍）在2 bit以下選擇最多種顏色的方式。但在VGA下它只是簡單的64種顏色一組的表格，每一種都可以單獨改變——例如EGA顏色的首兩個bit代表紅色的數量，在VGA中就不一定如此了。
+
+VGA在指定色版顏色時，一個顏色頻道有6個bit，紅、綠、藍各有64種不同的變化，因此總共有 262,144 種顏色。在這其中的任何 256 種顏色可以被選為色版顏色（而這 256 種的任何 16 種可以用來顯示 CGA 模式的色彩）。
+
+這個方法最終仍然使了VGA模式在顯示EGA和CGA模式時，能夠使用前所未有的色彩，因為VGA是使用模擬的方式來繪出EGA和CGA畫面。提供一個色版轉換的例子：要把文字模式的字元顏色設定為暗紅色，暗紅色就必須是 CGA 16 色集合中的一種顏色（譬如說，取代 CGA 預設的 7 號灰色），這個 7 號位置將被指定為 EGA 色版中的 42 號，然後 VGA DAC 將 EGA #42 指定為暗紅色。則畫面上的原本的 CGA 七號灰色，都會變成暗紅色。這個技巧在 256 色的 VGA DOS 遊戲中，常常被用來表示載入遊戲的淡入淡出畫面。
+
+總結來說，CGA 和 EGA 同時只能顯示 16 種色彩，而 VGA 因為使用了 Mode 13h 而可以一次顯示 256 色版中的所有色彩，而這 256 種顏色又是從 262,144 種顏色中挑出的。
+
+==記憶體定址==
+VGA所使用的視訊記憶體，透過一個窗口對應於PC的主記憶體，它們的真實位址為0xA000和0xC000之間的記憶體。典型地來說位址的開始點是： 
+
+*0xA000 使用於 EGA/VGA 圖型模式（64 KiB）
+*0xB000 單色文字模式（32 KiB）
+*0xB800 彩色文字模式和 CGA 相容模式（32 KiB）
+
+由於使用的區段皆不相同，在同一部機器上裝置一個單色顯示卡（MDA）和另一個彩色顯示卡（VGA、EGA或CGA）是不衝突的。在 1980 年代初，這種典型的搭配方式用於 Lotus 1-2-3 試算表上，一部高解析單色螢幕用來顯示文字，而另一部低解析的 CGA 螢幕用來顯示圖表。許多程式設計師也用這種配置來開發軟件，一部螢幕顯示 debug 細節，另一部螢幕則顯示真正的軟件運行畫面。許多商業的除臭蟲軟件都支援這種配置，例如 Borland 的 Turbo Debugger、由 Alan J. Cox 開發的 D86、微軟的 CodeView 等，Turbo Debugger 和 CodeView 可以甚至可拿來 debug 微軟的 Windows 軟件。也有 DOS 驅動程式如<tt>ox.sys</tt>模擬一個終端機來接受 Windows 的 debug 訊息，而不用真正接上另一個終端機。在 DOS 底下使用「單色模式」指令，使其輸出轉向單色也是可能的。另外，假如電腦上並無單色顯示卡，那麼可以使用 EMM386.EXE 程序讓其他程式可以使用 B000-B7FF 這一段記憶體。（於 <tt>config.sys</tt> 檔案中加入 "DEVICE=EMM386.EXE I=B000-B7FF"）
+
+==程序技巧==
+一個未被紀錄但十分廣泛使用的技術稱作 Mode X（由 Michael Abrash 導入），使程式設計師能夠使用在 Mode 13h 之下無法做到的解析度。他將 256 KiB 連續的視訊記憶體「解開」並分成四個層次，因此在 256 色模式時全部 256 KiB 的記憶體都可以使用。技術上這將使得處理變得更複雜，並且效能降低。但在一些特殊情況下，效能損失的情況可以被彌補：
+
+* 單色的多邊形填色增快，因為一次寫入可以設定四個像素。
+* VGA 可以用來協助視訊記憶體之間的拷貝，有些時候會比使用 8088 或 80286 等慢速 CPU 更快。
+* 提供更高的解析度：16 色可使用 704×528、736×552、768×576、甚至 800×600。諸如 Xlib（1990 年代早期的 C 圖形函式庫）和 ColoRIX（256 色的圖形程式）支援 256 色下的各種解析度調和：直行 256、320 和 360 個像素，以及水平行 200、240、256、400 和 480 個像素的組合（上限的 640×400 幾乎用掉 256 KiB 中每一個 byte）。不過，320×240仍然是最常被使用的，因它為典型的4:3比例，為方形像素。
+* multiple video pages 讓程序員能夠使用雙重緩衝（所有的 16 色模式都可），這在 Mode 13h 無法辦到。
+
+有時候，顯示器必須降低更新頻率來滿足這些模式，這會造成眼睛的疲勞這樣的低解析度雖然在PC市場早已淡出，但在Pocket PC和PDA市場，它正逐漸成為標準。它也常被用來指稱15針的D型接頭，這種接頭仍然用來傳輸各式各樣解析度的類比訊號。
+
+VGA曾經被IBM官方宣佈使用XGA標準所取代，但在歷史上，它其實是被其他的OEM製造商用所謂的SVGA標準所取代。
+
+==技術性細節==
+
+{{näyttöstandardi
+|sivu=Video Graphics Array
+|kuva=
+|kuvateksti=VGA-resoluutio 640x480
+|vuosi=1987
+|julkaisija=IBM
+|bpp=8
+|resoluutio=640&times;480
+|resoluutio2=640&times;350
+|resoluutio3=320&times;200
+|resoluutio4=720&times;400
+|kuvasuhde=4:3
+|kuvasuhde2=64:35
+|kuvasuhde3=16:10
+|kuvasuhde4=9:5
+|edeltäjä=MCGA
+|seuraaja=SVGA
+}}
+'''VGA''' () on 640&times;480 pistettä  tarkka näyttöstandardi, jota IBM käytti ensimmäisen kerran vuonna 1987. VGA on kehitetty versio aikaisemmista IBM:n näyttöstandardeista, kuten EGA- (Enhanced Graphics Adapter) ja CGA-sovittimista (Color Graphics Adapter).
+
+VGA:n yksinkertaisempi sovellusversio on MCGA, joka myös on IBM:n kehittämä.
+
+VGA:han viitataan yleensä järjestelmänä, sillä se on toteutettu alusta alkaen yksinkertaisena siruna. VGA korvasi esim. Motorola 6845 ISA-väylän ja erilliskomponentit, joita MDA, CGA ja EGA-sovittimet käyttivät. 
+
+VGA:n yksinkertainen rakenne mahdollisti piirikortin integroimisen emolevylle helposti. VGA oli jo ensimmäisissä PS/2-malleissa, mitä tuki myös vuonna 1987 ilmestynyt Windows 2.0-käyttöjärjestelmä. 
+
+Nykyään VGA:a vastaavaa väripistetarkkuutta - 640&times;480 - käytetään edelleen kameralla varustetuissa puhelimissa, mm. Nokian malleissa [http://www.nokia.fi/puhelimet/puhelinmallit/6101/ 6101] ja [http://www.nokia.fi/puhelimet/puhelinmallit/5140/ 5140], vaikka uusimmat megapikselin tai kahden megapikselin kamerat ovat jo tarkempia. VGA tässä tarkoituksessa ei tarkoita Video Graphics Array-näyttökorttiratkaisua, vaan värillistä näyttötarkkuutta 640 vaaka- ja 480 pystypisteellä.
+
+== VGA:n tekniset tiedot ==
+* 256 kilotavun käyttömuisti (RAM; Random Access Memory) 
+* 16 ja 256 värin käyttömoodit
+* 262 144 värin paletti (6 bittiä jokaisella RGB-kompontentilla) 
+* valittava joko 25 MHz:n tai 28 MHz:n pääkellotaajuus 
+* enintään 720 vaakasuoraa pistettä (pikseli). 
+* enintään 480 pystysuoraa pistettä 
+* näytön virkistystaajuus enintään 70 Hz 
+* planar -moodi: enintään 16 väriä (4 bitin tasoisena) 
+* pakattu pistemoodi: 256 väriä (Mode 13h) 
+* laitteistopohjaisesti toteutettu pehmeän näytönvierityksen tuki 
+* joitain 'Raster Ops' -tukitoimintoja 
+* Barrelisiirtäjä
+* näytön jakamisen tuki 
+* pehmeät fontit 
+
+Vakiografiikkamoodit:

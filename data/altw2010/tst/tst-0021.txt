@@ -1,0 +1,75 @@
+thumb|Правильный шестиугольник
+
+'''Правильный шестиугольник''' — это правильный многоугольник с шестью сторонами.
+
+== Свойства ==
+
+*Особенность правильного шестиугольника — равенство его стороны и радиуса описанной окружности, поскольку <math>2 \sin \frac{\pi}{6} = 1</math>.
+
+Пусть <math>t</math> — сторона шестиугольника, <math>R</math> — радиус описанной окружности, <math>r</math> — радиус вписанной окружности.
+
+*Радиус вписанной окружности равен:
+*: <math>r = \frac{\sqrt 3}{2} t</math>.
+*Периметр правильного шестиугольника равен
+*: <math>P = 6 t = 6 R = 4 \sqrt 3 r</math>.
+*Площадь правильного шестиугольника рассчитывается по формулам:
+*: <math>S = \frac{3 \sqrt 3}{2} t^2</math>,
+*: <math>S = \frac{3 \sqrt 3}{2} R^2</math>,
+*: <math>S = 2 \sqrt 3 r^2</math>.
+
+* Шестиугольники замощают плоскость (т.е. могут заполнять плоскость без пробелов и наложений).
+
+== Построение ==
+
+Правильный шестиугольник можно построить с помощью циркуля и линейки. Ниже приведён метод построения, предложенный «Началах», книга IV, теорема 15.
+center|Построение правильного шестиугольника
+
+== Правильный шестиугольник в природе, технике и культуре ==
+
+{| border="1" bgcolor="#ffffff" cellpadding="5" align="right" style="margin-left:10px" width="250"
+!bgcolor=#e7dcc3 colspan=2|Regular hexagon
+|-
+|align=center colspan=2|250px<BR>A regular hexagon, {6}
+|-
+|bgcolor=#e7dcc3|Edges and vertices||6
+|-
+|bgcolor=#e7dcc3|Schläfli symbols||{6}<BR>t{3}
+|-
+|bgcolor=#e7dcc3||[[Image:CDW ring.svgImage:CDW 6.pngImage:CDW dot.svg<BR>Image:CDW ring.svgImage:CDW 3.pngImage:CDW ring.svg
+|-
+|bgcolor=#e7dcc3||[[Dihedral symmetry|Dihedral (D<sub>6</sub>)
+|-
+|bgcolor=#e7dcc3|Area<BR>(with ''t''=edge length)||<math>A = \frac{3 \sqrt{3}}{2}t^2</math><BR><math> \simeq 2.598076211 t^2.</math>
+|-
+|bgcolor=#e7dcc3|degrees)||120°
+|}
+
+In vertices. A regular hexagon has Schläfli symbol {6}.
+
+== Regular hexagon ==
+left|thumb|A regular hexagon is [[constructible with Elements'', Book IV, Proposition 15.]]
+
+The internal angles of a regular hexagon (one where all sides and all angles are equal) are all 
+120° and the hexagon has 720 degrees. It has 6 rotational symmetries and 6 reflection symmetries, making up the squares and triangles, regular hexagons fit together without any gaps to ''tile the plane'' (three hexagons meeting at every vertex), and so are useful for constructing tessellations.
+The cells of a beehive honeycomb are hexagonal for this reason and because the shape makes efficient use of space and building materials. The Voronoi diagram of a regular triangular lattice is the honeycomb tessellation of hexagons.
+
+The area of a regular hexagon of side length <math>t\,\!</math> is given by
+<math>A = \frac{3 \sqrt{3}}{2}t^2 \simeq 2.598076211 t^2.</math>
+
+The perimeter of a regular hexagon of side length <math>t\,\!</math> is, of course, <math>6t\,\!</math>, its maximal diameter <math>2t\,\!</math>, and its minimal diameter <math>t\sqrt{3}\,\!</math>.
+ 
+There is no platonic solid made of regular hexagons. The archimedean solids with some hexagonal faces are the truncated tetrahedron, truncated octahedron, truncated icosahedron (of soccer ball and fullerene fame), truncated cuboctahedron and the truncated icosidodecahedron.
+
+==Hexagons: natural and human-made==
+
+<gallery>
+Image:Honey_comb.jpg|A beehive honeycomb
+Image:Carapax.svg|The scutes of a turtle's carapace
+Image:Saturn_hexagonal_north_pole_feature.jpg|North polar hexagonal cloud feature on Saturn, discovered by Cassini [http://www.nasa.gov/mission_pages/cassini/multimedia/pia09188.html] [http://www.nasa.gov/mission_pages/cassini/media/cassini-20070327.html] [http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1988Icar...76..335G&db_key=AST&data_type=HTML&format=]
+Image:Snowflake 300um LTSEM, 13368.jpg|Micrograph of a snowflake
+Image:Hexa-peri-hexabenzocoronene ChemEurJ 2000 1834.jpg|Crystal structure of a molecular hexagon composed of hexagonal aromatic rings reported by Müllen and coworkers in Chem. Eur. J., 2000, 1834-1839.
+Image:Giants causeway closeup.jpg|Naturally formed basalt columns from Giant's Causeway in Ireland; large masses must cool slowly to form a polygonal fracture pattern
+Image:Fort-Jefferson Dry-Tortugas.jpg|An aerial view of Fort Jefferson in Dry Tortugas National Park
+Image:Jwst front view.jpg|The James Webb Space Telescope mirror is composed of 18 hexagonal segments.
+Image:France.jpg| Metropolitan France has a vaguely hexagonal shape. In French, "L'hexagone" sometimes refers to the European mainland of France aka the "metropole" as opposed to the overseas territories such as Corsica, Martinique or Guiana.
+</gallery>

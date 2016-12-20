@@ -1,0 +1,198 @@
+{| class="floatright" style="border:1px solid #ccd2d9;background:#f0f6fa;"
+!ISO 8601에 따른 현재 시각 (UTC)
+|-
+|class="center"|
+|}
+'''ISO 8601'''은 날짜와 시간의 표기에 관한 국제 표준 규격이다.
+정식 명칭은 Data elements and interchange formats - Information interchange - Representation of dates and times이다.
+최신버전인 ISO 8601:2004과 구버전인 ISO 8601:2000과 ISO 8601:1988이 있다.
+
+== 날짜 ==
+ISO 8601에 따라 날짜를 기록하는 방법에는 3가지가 있다. 연월일(年月日)로 기록하는 방법, 연(年)와 연중일수로 기록하는 방법, 연(年)과 주(週)와 주중일수로 기록하는 방법이 그것이다.
+
+ISO 8601에는 날짜의 표기에 그레고리력을 따르므로, 율리우스력이 사용되던 시대의 날짜를 나타낼 때는 그레고리력으로 환산할 필요가 있다.
+
+해(年)의 표기는 0001이 서기 1년을 나타내며, 0000이 기원전 1년, -0001이 기원전 2년이다. 달(月)의 표기는 01부터 12까지 값을 가지며, 각각 1월부터 12월까지를 나타낸다.
+
+날짜를 표기할 때에 하이픈 (-) 또는 콜론 (:)을 쓰지 않는 것이 표준 표기이며, 이들 구분 문자를 쓰는 것은 확장 표기이다.
+
+=== 연월일 표기법 ===
+'''''YYYY-MM-DD'''''와 같이 표기한다.
+ '''1981-02-22''' ('''19810222''')는 1981년 2월 22일을 나타낸다.
+
+'''''DD'''''나 '''''MM-DD'''''를 쓰지 않으면 달 또는 해를 나타낸다.
+ '''1981-02''' ('''198102''') : 1981년
+ '''1981''' : 1981년
+ '''19''' : 1900년대(1900년부터 1999년까지의 100년)를 나타낸다. 이는 20세기(1901년부터 2000년까지의 100년)와는 다르다.
+
+=== 연과 연중일수 표기법 ===
+'''''YYYY-DDD'''''와 같이 표기한다.
+'''''DDD'''''는 연중 날의 번호로서 1월 1일이 001이며, 12월 31일은 평년은 365, 윤년은 366이 된다.
+
+ '''1981-053''' ('''1981053''') : 1981년의 53번째 날, 즉 2월 22일을 나타낸다.
+
+=== 연과 주와 주중일수 표기법 ===
+'''''YYYY-''W''ww-D'''''로 표기한다.
+'''ww'''는 연중의 주의 번호로써, 해의 첫 주는 01, 마지막 주는 52 또는 53이 된다. 단, 해의 첫 주는 1월 4일을 포함한 주로 한다. ''D''는 요일을 나타내며, 월요일이 1, 일요일이 7이다.
+
+ '''1981-W07-7''' ('''2004W077''')
+: 1981년의 7번째 주의 일요일, 즉 2월 22일을 나타낸다.
+
+'''ISO 8601''' is an date and ISO 8601 date and time representations is the ordering of date and time values from the most to the least significant or, in plain terms, from the largest (the year) to the smallest (the second).
+{| class="infobox" style="text-align: center; width: 25em"
+| Example date:
+|-
+| <big>'''--'''</big>
+|-
+| Example separate date and time in UTC:
+|-
+| <big>'''-- Z'''</big>
+|-
+| Example combined date and time in UTC:
+|-
+| <big>'''--TZ'''</big>
+|-
+| Example date with week number:
+|-
+| <big>''''''</big>
+|}
+
+==History==
+The first edition of the ISO 8601 standard was published in 1988. It unified and replaced a number of older ISO standards on various aspects of date and time notation: ISO 2014, ISO 2015, ISO 2711, ISO 3307, and ISO 4031.<ref name=doc2004>{{cite web
+ |url=http://isotc.iso.org/livelink/livelink/4021199/ISO_8601_2004_E.zip?func=doc.Fetch&nodeid=4021199 
+ |title=ISO 8601:2004(E)
+ |accessdate=2008-06-08
+ |date=2004-12-01
+ |publisher= ISO
+ |author = Technical Committee [http://isotc.iso.org/livelink/livelink/fetch/2000/2122/138351/138352/customview.html?func=ll&objId=138352&objAction=browse&sort=name ISO/TC 154], Processes, data elements and documents in commerce, industry and administration.
+ |archiveurl = http://www.webcitation.org/5Xn8R1rDb
+ |archivedate = 2008-05-13
+ |quote=Annex A … From that concept representations of all other date and time values were logically derived; thus, ISO 2014, ISO 3307 and ISO 4031 have been superseded. … Identification of a particular date by means of ordinal dates (ISO 2711) and by means of the week numbering system (ISO 2015) were alternative methods that the basic concept of this International Standard could also encompass; thus, ISO 2015 and ISO 2711 have now been superseded.}}</ref> It has since then been superseded by a second edition in 2000 and finally the current third edition, [http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=40874 ISO 8601:2004], published 2004-12-03.
+
+ISO 2014 was the standard that originally introduced the big-endian all-numeric date notation [YYYY]-[MM]-[DD]. The ISO week numbering system was introduced in ISO 2015, and the identification of days by ordinal dates was originally defined in ISO 2711.
+
+It is maintained by ISO Technical Committee [http://isotc.iso.org/livelink/livelink/fetch/2000/2122/138351/138352/customview.html?func=ll&objId=138352&objAction=browse&sort=name TC 154].
+
+==Scope and application of the standard==
+The scope of the standard covers representations for dates, time of day, combined date and time of day, and time intervals.  Dates can be represented in three forms:  1) year-month-day of month, 2) year-week number-day of week, and 3) year-day of year.  Time of day is represented by using the 24-hour clock.  Combined date and time is represented by merging both the date and time of day representations to denote a single time point.  Time intervals are represented in a number of ways by using a combination of a start point, end point, duration, and context information.
+
+The application of the standard is intended to be very broad.  It applies to all written communications that contain dates, times, and time intervals regardless of the communication medium (printed, electronic, or hand written) or the location of the sender and receiver (either within an organization, between organizations, or across international boundaries).  The application of the standard was never meant to be limited to dates and times processed and displayed by computers.  It applies to all industries and all forms of human activity where accurate and unambiguous representations of dates, times, and time intervals are needed when communicating internationally, nationally, locally, internally or even privately.
+
+The standard does not cover worded dates, nor does it preclude the use of worded dates.  Worded dates are specifically omitted from the standard mostly because their language dependency can impede international communication.
+
+==General principles==
+*Date and time values are organized ''from the most to the least significant'': year, month (or week), day, hour, minute, second, and fraction of second. The lexicographical order of the representation corresponds to chronological order, except for date representations involving negative years.
+*Each date and time value has a ''fixed number of digits'' that must be padded with leading zeros.
+*Representations can be done in one of two formats—a ''basic format'' with a minimal number of separators or an ''extended format'' with separators added to enhance human readability.<ref>[http://www.iso.org/iso/support/faqs/faqs_widely_used_standards/widely_used_standards_other/date_and_time_format.htm  Numeric representation of Dates and Time] </ref> The separator used between date values (year, month, week, and day) is the ''colon'' is used as the separator between time values (hours, minutes, and seconds).<!--dead link: [http://lists.ebxml.org/archives/ebxml-core/200104/pdf00005.pdf]-->  For example, the 6th day of the 1st month of the year 2009 may be written as "2009-01-06" in the extended format or simply as "20090106" in the basic format without ambiguity. The extended formats are preferred over the basic formats not only for human readability, but because some basic formats can appear to be ambiguous to those unfamiliar with the standard. 
+*For reduced accuracy, any number of values may be dropped from any of the date and time representations, but in the order ''from the least to the most significant''.  For example, "2004-05" is a valid ISO 8601 date, which indicates the 5th month of the year 2004.  This date will never represent the 5th day of some unknown month in 2004.
+*When higher precision is needed, the standard supports the addition of a ''decimal fraction'' to the smallest time value in the representation.
+*Months expressed in words are not allowed by the standard.
+
+== Dates ==
+
+The standard uses the de facto standard of international trade. 
+
+As a point of interest, ISO 8601 fixes a reference calendar date to the Gregorian calendar of 1875-05-20 as the date the ''Convention du Mètre'' was signed in Paris. Among other things, this reference date allows ISO calendar dates to be converted to the Chronological  Julian Day Numbers (CJDNs) for numeric date calculations with 1875-05-20 exactly equal to CJDN 2406029. However, ISO calendar dates before the Convention are still compatible with the Gregorian calendar back to the official introduction of the Gregorian calendar on 1582-10-15.
+
+{| class="infobox" style="text-align:center; width:25em;"
+| '''YYYY'''
+|-
+| '''±<u>Y</u>YYYY'''
+|}
+
+===Years===
+ISO 8601 prescribes, as a minimum, a four-digit year [YYYY] to avoid the year 2000 problem.
+
+To represent years before 0000 or after 9999, the standard also permits the expansion of the year representation [±<u>Y</u>YYYY], but only by prior agreement between the sender and the receiver.<ref>{{cite web |url=http://isotc.iso.org/livelink/livelink/4021199/ISO_8601_2004_E.zip?func=doc.Fetch&nodeid=4021199 
+|title=ISO 8601:2004(E)
+|accessdate=2008-06-08
+|date=2004-12-01
+|publisher= ISO
+|author=Technical Committee [http://isotc.iso.org/livelink/livelink/fetch/2000/2122/138351/138352/customview.html?func=ll&objId=138352&objAction=browse&sort=name ISO/TC 154], Processes, data elements and documents in commerce, industry and administration.
+|quote=3.5 Expansion … By mutual agreement of the partners in information interchange, it is permitted to expand the component identifying the calendar year, which is otherwise limited to four digits. This enables reference to dates and times in calendar years outside the range supported by complete representations, i.e. before the start of the year [0000] or after the end of the year [9999].}}</ref> An expanded year representation must have an agreed upon number of extra year digits beyond the four-digit minimum and is always prefixed with a + or &minus; sign with the convention that year 0 is positive.
+
+===Calendar dates===
+{|table class="infobox" style="text-align: center; width: 25em"
+| '''YYYY-MM-DD''' ||'''''or'''''|| '''YYYYMMDD'''
+|-
+| '''YYYY-MM''' ||'''''but not'''''|| '''YYYYMM'''
+|}
+
+Calendar date representations are in the form as shown in the box to the right. [YYYY] indicates a four-digit year, 0000 through 9999.  [MM] indicates a two-digit month of the year, 01 through 12. [DD] indicates a two-digit day of that month, 01 through 31.  For example, "the 5th of April 1981" may be represented as either "1981-04-05" in the ''extended format'' or "19810405" in the ''basic format''.
+
+The standard also allows for calendar dates to be written with reduced accuracy.  For example, one may write "1981-04" to mean "1981 April", and one may simply write "1981" to refer to that year or "19" to refer to that century. 
+
+Although the standard allows both the YYYY-MM-DD and YYYYMMDD formats for complete calendar date representations, if the day [DD] is omitted then only the YYYY-MM format is allowed. By disallowing dates of the form YYYYMM, the standard avoids confusion with the truncated representation '''YYMMDD''' (still often used).
+
+===Week dates===
+
+{| class="infobox" style=" text-align:center; width:25em;"
+| '''YYYY-Www''' ||'''''or'''''|| '''YYYYWww'''
+|-
+| '''YYYY-Www-D''' ||'''''or'''''|| '''YYYYWwwD'''
+|}
+Week date representations are in the format as shown in the box to the right.  [YYYY] indicates the so-called '''ISO year''' which is slightly different than the calendar year (see below).  [Www] is the '''week number''' prefixed by the letter 'W', from W01 through W53. [D] is the '''weekday number''', from 1 through 7, beginning with Monday and ending with Sunday. This form is popular in the manufacturing industries.
+
+There are mutually equivalent definitions for week 01:
+*the week with the year's first Thursday in it,
+*the week with 4 January in it,
+*the first week with the majority (four or more) of its days in the starting year, and
+*the week starting with the Monday in the period 29 December &ndash; 4 January. 
+
+If 1 January is on a Monday, Tuesday, Wednesday or Thursday, it is in week 01. If 1 January is on a Friday, Saturday or Sunday, it is in week 52 or 53 of the previous year.
+
+The week number can be described by counting the Thursdays: week 12 contains the 12th Thursday of the year.
+
+The '''ISO year''' starts at the first day (Monday) of week 01 and ends at the Sunday before the new ISO year (hence without overlap or gap). It consists of 52 or 53 full weeks. The ISO year number deviates from the number of the calendar year (Gregorian year) on a Friday, Saturday, and Sunday, or a Saturday and Sunday, or just a Sunday, at the start of the calendar year (which are at the end of the previous ISO year) and a Monday, Tuesday and Wednesday, or a Monday and Tuesday, or just a Monday, at the end of the calendar year (which are in week 01 of the next ISO year). For Thursdays, the ISO year number is always equal to the calendar year number.
+
+Examples:
+*2008-12-29 is written ""
+*2010-01-03 is written ""
+
+For an overview of week numbering systems see week number. The US system has weeks from Sunday through Saturday, and partial weeks at the beginning and the end of the year. An advantage is that no separate year numbering like the ISO year is needed, while correspondence of lexicographical order and chronological order is preserved.
+
+===Ordinal dates===
+{| class="infobox" style="text-align:center; width:25em;"
+| '''YYYY-DDD''' ||'''''or'''''|| '''YYYYDDD'''
+|}
+
+''Ordinal dates'' are a simple form for occasions when the arbitrary nature of week and month definitions are more of an impediment than an aid, for instance, when comparing dates from different calendars.  As represented above, [YYYY] indicates a year. [DDD] is the day of that year, from 001 through 365 (366 in leap years).  For example, "1981-04-05" is also "1981-095".  
+
+This format has particular use for simple hardware systems that have need of a date system, but where including full calendar calculation software may be a significant nuisance.  This system is frequently, though incorrectly, referred to as the Julian Date.
+
+==Times==
+{|table class="infobox" style="text-align: center; width: 25em"
+| '''hh:mm:ss''' ||'''''or'''''|| '''hhmmss'''
+|-
+| '''hh:mm''' ||'''''or'''''|| '''hhmm'''
+|-
+| '''hh'''
+|}
+
+ISO 8601 uses the 24-hour clock system.  The ''basic format'' is [hh][mm][ss] and the ''extended format'' is [hh]:[mm]:[ss].
+*[hh] refers to a zero-padded hour between 00 and 24, where 24 is only used to notate the midnight at the end of a calendar day<!--see below-->.
+*[mm] refers to a minute between 00 and 59.
+*[ss] refers to a second between 00 and 59 (or 60 in the exceptional case of an added leap second).
+So a time might appear as either "134730" in the ''basic format'' or "13:47:30" in the ''extended format''.
+
+It is also acceptable to omit lower order time elements for reduced accuracy: [hh]:[mm], [hh][mm] and [hh] are all used.
+
+''Midnight'' is a special case and can be referred to as both "00:00" and "24:00". The notation "00:00" is used at the beginning of a calendar day and is the more frequently used. At the end of a day use "24:00". Note that "2007-04-05T24:00" is the same instant as "2007-04-06T00:00" (see Combined date and time representations below).
+
+Decimal fractions may also be added to any of the three time elements.  A comma (preferred by dot, is used as a separator between the time element and its fraction.  A fraction may only be added to the lowest order time element in the representation. To denote "14 hours, 30 and one half minutes", do not include a seconds figure.  Represent it as "14:30,5" or "1430,5". There is no limit on the number of decimal places for the decimal fraction.  However, the number of decimal places needs to be agreed to by the communicating parties.
+
+===Time zone designators===
+{|table class="infobox" style="width: 25em"
+| '''<time>Z'''
+|-
+| '''<time>±hh:mm''' ||'''''or'''''|| '''<time>±hhmm'''
+|-
+| '''<time>±hh'''
+|}
+
+If no time zone information is given with a time representation, the time is assumed to be in local time. While it may be safe to assume local time when communicating in the same time zone, it is ambiguous when used in communicating across different time zones. It is usually preferable to indicate a time zone (zone designator) using the standard’s notation. 
+
+====UTC====
+If the time is in UTC, add a 'Z' directly after the time without a space. 'Z' is the zone designator for the zero UTC offset. "09:30 UTC" is therefore represented as "09:30Z" or "0930Z". "14:45:15 UTC" would be "14:45:15Z" or "144515Z".
+
+UTC time is also known as 'Zulu' time, since 'Zulu' is the  NATO phonetic alphabet word for 'Z'.

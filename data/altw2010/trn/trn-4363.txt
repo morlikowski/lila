@@ -1,0 +1,113 @@
+{{infobox Franse gemeente|
+|plaatsnaam= Dammarie
+|wapen= 
+|kaart= 
+|regio= Centre 
+|departement= Eure-et-Loir (28)
+|arrondissement= Chartres
+|kanton= Chartres-Sud-Ouest
+|jaar= 1999
+|inwoners= 1371
+|dichtheid= 42,2
+|oppervlakte= 32,5
+|water= 
+|latitudeGraden= 48 |latitudeMinuten= 21|latitudeSeconden= 0
+|longitudeGraden= 1 |longitudeMinuten= 30 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 139 |kaartY= 95
+|code= 28122
+|postcode= 28360
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Dammarie''' is een gemeente in het Franse departement Centre) en telt 1371 inwoners (1999). De plaats maakt deel uit van het arrondissement Chartres.
+
+==Geografie==
+De oppervlakte van Dammarie bedraagt 32,5 km², de bevolkingsdichtheid is 42,2 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:1800 color:gray1 width:1       
+  from:start till:end             
+  bar:1200 color:gray1              
+  from:start till:end            
+  bar:600 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,99)(84,95) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 832 1968: 793
+  points:(84,95)(100,108)    color:blue    width:2 #1975: 928
+  points:(100,108)(128,131)   color:blue    width:2 #1982: 1171
+  points:(128,131)(160,146)   color:blue    width:2 #1990: 1333
+  points:(160,146)(196,149)   color:blue    width:2 #1999: 1371
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+{{Infobox Commune de France|nomcommune=Dammarie
+|région=Centre
+|département=Eure-et-Loir
+|arrondissement=Chartres
+|canton=Chartres-Sud-Est
+|insee=28122
+|cp=28360
+|maire=Michel Labadie
+|mandat=2001-2008
+|intercomm=Communauté de communes du Bois Gueslin
+|longitude=1.49472222222
+|latitude=48.3433333333
+|alt moy=164 m
+|alt mini=136 m
+|alt maxi=164 m
+|hectares=3237
+|km²=32,37
+|sans=1371
+|date-sans=1999
+|dens=42|}}
+'''Dammarie''' est une commune française située dans le département d'région Centre.
+Dammarie est composé du bourg principal est de cinq hameaux: Vovelles, Ormoy, Villemain, Concrez et Bois de Mivoye
+
+==Géographie==
+Dammarie est situé à 10 km au sud de Chartres (28), 100 km de Paris et surtout, à 4 km de la N10 et de l'Autoroute A10.
+
+==Histoire==
+==Administration==
+
+==Démographie==
+{{Démographie|
+1968= 793|
+1975= 928|
+1982= 1171|
+1990= 1333|
+1999= 1371|
+2006= 1403|
+sansdoublescomptes= 1962|source=INSEE<ref>[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=28122&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Dammarie sur le site de l'Insee]</ref>}}
+
+==Lieux et monuments== 
+Église très belle
+
+==Personnalités liées à la commune==
+== Tradition politique==
+À la dernière élection présidentielle de mai 2007, Dammarie offre une large majorité au candidat de l'UMP qui totalise 61,36% des voix contre 38,64% des voix à sa rivale socialiste.
+Au référendum sur la constitution européenne, 57,06% des dammarois rejettent le Traité.
+Enfin, à l'élection présidentielle de mai 2002, Dammarie vote à 80,07% pour Jacques Chirac contre 19,93% des voix accordées à Jean-Marie Le Pen.

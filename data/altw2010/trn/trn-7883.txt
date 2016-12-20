@@ -1,0 +1,132 @@
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = Villa Cortese |
+  name = Villa Cortese |
+  region = Lombardy |
+  province = Province of Milan (MI) |
+  elevation_m =  |
+  area_total_km2   = 3.6 |
+  population_as_of  = Dec. 2004 |
+  population_total = 6101 |
+  population_density_km2 = 1714 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          =  |
+  telephone         = 0331 |
+  postalcode        = 20020 |
+  gentilic          = villacortesini |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           = [http://www.comune.villacortese.mi.it/ www.comune.villacortese.mi.it/] |
+  mapy = 8.8833 |
+  mapx = 45.5667 |
+}}
+'''Villa Cortese''' is a ''Italian region Lombardy, located about 25 km northwest of Milan. As of 31 December 2004, it had a population of 6,101 and an area of 3.6 km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+Villa Cortese borders the following municipalities: Legnano, San Giorgio su Legnano, Dairago, Busto Garolfo.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:6500
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:500 start:0
+ScaleMinor = gridcolor:lightgrey increment:100 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:820
+  bar:1871 from: 0 till:869
+  bar:1881 from: 0 till:971
+  bar:1901 from: 0 till:1098
+  bar:1911 from: 0 till:1540
+  bar:1921 from: 0 till:1769
+  bar:1931 from: 0 till:2164
+  bar:1936 from: 0 till:2251
+  bar:1951 from: 0 till:2250
+  bar:1961 from: 0 till:3609
+  bar:1971 from: 0 till:4352
+  bar:1981 from: 0 till:5195
+  bar:1991 from: 0 till:5765
+  bar:2001 from: 0 till:6113
+
+PlotData=
+
+  bar:1861 at:820 fontsize:XS text: 820 shift:(-8,5)
+  bar:1871 at:869 fontsize:XS text: 869 shift:(-8,5)
+  bar:1881 at:971 fontsize:XS text: 971 shift:(-8,5)
+  bar:1901 at:1098 fontsize:XS text: 1098 shift:(-8,5)
+  bar:1911 at:1540 fontsize:XS text: 1540 shift:(-8,5)
+  bar:1921 at:1769 fontsize:XS text: 1769 shift:(-8,5)
+  bar:1931 at:2164 fontsize:XS text: 2164 shift:(-8,5)
+  bar:1936 at:2251 fontsize:XS text: 2251 shift:(-8,5)
+  bar:1951 at:2250 fontsize:XS text: 2250 shift:(-8,5)
+  bar:1961 at:3609 fontsize:XS text: 3609 shift:(-8,5)
+  bar:1971 at:4352 fontsize:XS text: 4352 shift:(-8,5)
+  bar:1981 at:5195 fontsize:XS text: 5195 shift:(-8,5)
+  bar:1991 at:5765 fontsize:XS text: 5765 shift:(-8,5)
+  bar:2001 at:6113 fontsize:XS text: 6113 shift:(-8,5)
+
+{{Infobox Ort in Italien
+|nomeComune = Villa Cortese
+|regione = Lombardei
+|provincia = Mailand
+|linkStemma = <!--Villa Cortese-Stemma.png-->
+|siglaRegione = LOM
+|siglaProvincia = MI
+|latitudineGradi = 45
+|latitudineMinuti = 34
+|latitudineSecondi = 0
+|longitudineGradi = 8
+|longitudineMinuti = 53
+|longitudineSecondi = 0
+|mappaX = 59
+|mappaY = 54
+|altitudine =  192
+|superficie = 3
+|abitanti = 6118
+|anno = 2007
+|densita = 2039
+|frazioni =  il comune non ha frazioni
+|comuniLimitrofi = Legnano, San Giorgio su Legnano, Dairago, Busto Garolfo
+|cap = 20020
+|prefisso = 0331
+|istat = 015248
+|fiscale = L928
+|nomeAbitanti = Villacortesini 
+|patrono = 
+|festivo = 
+|sito = [http://www.comune.villacortese.mi.it/ Villa Cortese]
+}}
+
+'''Villa Cortese''' ist eine Stadt in der Provinz Mailand in der Lombardei. Sie liegt etwa 25 km nordestlich von Mailand.
+
+Villa Cortese hat eine Fläche von 3,6 km² und 6118 Einwohner (Stand am 28. Februar 2007). Die Nachbargemeinden sind Legnano, San Giorgio su Legnano, Dairago und Busto Garolfo.

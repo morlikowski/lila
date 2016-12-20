@@ -1,0 +1,120 @@
+right|thumb|Geometric representation of <math>z</math> and its conjugate <math>\bar{z}</math> in the complex plane. The distance along the light blue line from the origin to the point ''z'' is the ''modulus'' or ''absolute value'' of ''z''. The angle ''&phi;'' is the ''argument'' of ''z''.
+In mathematics, the '''complex plane''' is a geometric representation of the complex numbers
+established by the '''real axis''' and the orthogonal '''imaginary axis'''.  It can be thought of as a modified split-complex plane and the quotient rings.</ref>
+
+The complex plane is sometimes called the '''Argand plane''' because it is used in '''Argand diagrams'''. These are named after poles and zeroes of a function in the complex plane.
+
+The concept of the complex plane allows a vectors. The multiplication of two complex numbers can be expressed most easily in polar coordinates &ndash; the magnitude (or modulus) of the product is the product of the two absolute values, or moduli, and the angle (or argument) of the product is the sum of the two angles, or arguments. In particular, multiplication by a complex number of modulus 1 acts as a rotation.
+
+== Notational conventions ==
+
+In complex analysis the complex numbers are customarily represented by the symbol ''z'', which can be separated into its real (''x'') and imaginary (''y'') parts, like this:
+
+:<math>
+z = x + iy\,
+</math>
+
+where ''x'' and ''y'' are real numbers, and ''i'' is the imaginary unit. In this customary notation the complex number ''z'' corresponds to the point (''x'', ''y'') in the Cartesian plane.
+
+In the Cartesian plane the point (''x'', ''y'') can also be represented (in polar coordinates) as
+
+:<math>
+(x, y) = (r\cos\theta, r\sin\theta)\qquad\left(r = \sqrt{x^2+y^2}; \quad \theta=\arctan\frac{y}{x}\right).\,
+</math>
+
+In the Cartesian plane it may be assumed that the arctangent takes values from &minus;''π'' to ''π'' (in here.</ref> In the complex plane these polar coordinates take the form
+
+:<math>
+z = x + iy = |z|\left(\cos\theta + i\sin\theta\right) = |z|e^{i\theta}\,
+</math>
+
+where
+
+:<math>
+|z| =  \sqrt{x^2+y^2}; \quad \theta = \arg(z) = -i\log\frac{z}{|z|}.\,
+</math><ref>It can be shown (Whittaker & Watson, 1927, ''Appendix'') that all the familiar properties of the complex exponential function, the trigonometric functions, and the complex logarithm can be deduced directly from the power series for ''e''<sup>''z''</sup>. In particular, the principal value of log''r'', where |''r''| = 1, can be calculated without reference to any geometrical or trigonometric construction. See this article.</ref>
+
+Here |''z''| is the ''absolute value'' or ''modulus'' of the complex number ''z''; ''θ'', the ''argument'' of ''z'', is usually taken on the interval 0 ≤ ''θ'' &lt; 2''π''; and the last equality (to |''z''|''e''<sup>''iθ''</sup>) is taken from complex exponential function is periodic, with period 2''πi''. Thus, if ''θ'' is one value of arg(''z''), the other values are given by arg(''z'') = ''θ'' + 2''nπ'', where ''n'' is any integer ≠ 0.<ref>(Whittaker & Watson, 1927, p. 10)</ref> 
+
+The theory of contour integration comprises a major part of complex analysis. In this context the direction of travel around a closed curve is important &ndash; reversing the direction in which the curve is traversed multiplies the value of the integral by &minus;1. By convention the ''positive'' direction is counterclockwise. For example, the unit circle is traversed in the positive direction when we start at the point ''z'' = 1, then travel up and to the left through the point ''z'' = ''i'', then down and to the left through &minus;1, then down and to the right through &minus;''i'', and finally up and to the right to ''z'' = 1, where we started.
+
+Almost all of complex analysis is concerned with complex functions &ndash; that is, with functions that map some subset of the complex plane into some other (possibly overlapping, or even identical) subset of the complex plane. Here it is customary to speak of the domain of ''f''(''z'') as lying in the ''z''-plane, while referring to the range or ''image'' of ''f''(''z'') as a set of points in the ''w''-plane. In symbols we write
+
+:<math>
+z = x + iy;\qquad f(z) = w = u + iv\,
+</math>
+
+and often think of the function ''f'' as a transformation of the ''z''-plane (with coordinates (''x'', ''y'')) into the ''w''-plane (with coordinates (''u'', ''v'')).
+
+== Stereographic projections ==
+
+Sometimes it's useful to think of the complex plane as if it occupied the surface of a sphere. Imagine a sphere of unit radius, and put the complex plane right through the middle of it, so the center of the sphere coincides with the origin ''z'' = 0 of the complex plane, and the equator on the sphere coincides with the unit circle in the plane.
+
+We can establish a one-to-one correspondence between the points on the surface of the sphere and the points in the complex plane as follows. Given a point in the plane, draw a straight line connecting it with the north pole on the sphere. That line will intersect the surface of the sphere in exactly one other point. The point ''z'' = 0 will be projected onto the south pole of the sphere. Since the interior of the unit circle lies inside the sphere, that entire region (|''z''| &lt; 1) will be mapped onto the southern hemisphere. The unit circle itself (|''z''| = 1) will be mapped onto the equator, and the exterior of the unit circle (|''z''| &gt; 1) will be mapped onto the northern hemisphere. Clearly this procedure is reversible &ndash; given any point on the surface of the sphere that is not the north pole, we can draw a straight line connecting that point to the north pole and intersecting the flat plane in exactly one point.
+
+Under this stereographic projection there's just one point &ndash; the north pole itself &ndash; that is not associated with any point in the complex plane. We perfect the one-to-one correspondence by adding one more point to the complex plane &ndash; the so-called ''point at infinity'' &ndash; and associating it with the north pole on the sphere. This topological space, the complex plane plus the point at infinity, is known as the extended complex plane. And this is why mathematicians speak of a single "point at infinity" when discussing complex analysis. There are two points at infinity (positive, and negative) on the real number line, but there is only one point at infinity (the north pole) in the extended complex plane.<ref>(Flanigan, 1983, p. 305)</ref>
+
+Imagine for a moment what will happen to the lines of latitude and longitude when they are projected from the sphere onto the flat plane. The lines of latitude are all parallel to the equator, so they will become perfect circles centered on the origin ''z'' = 0. And the lines of longitude will become straight lines passing through the origin (and also through the "point at infinity", since they pass through both the north and south poles on the sphere).
+
+This is not the only possible stereographic projection of a sphere onto a plane. For instance, the south pole of the sphere might be placed on top of the origin ''z'' = 0 in a plane that's tangent to the sphere. The details don't really matter. Any stereographic projection of a sphere onto a plane will produce one "point at infinity", and it will map the lines of latitude and longitude on the sphere into circles and straight lines, respectively, in the plane.
+
+== Cutting the plane ==
+
+When discussing functions of a complex variable it is often convenient to think of a '''cut''' in the complex plane. This idea arises naturally in several different contexts.
+
+=== Multi-valued relationships and branch points ===
+
+Consider the simple two-valued relationship
+
+:<math>
+w = f(z) = \pm\sqrt{z} = z^{\frac{1}{2}}.\,
+</math>
+
+Before we can treat this relationship as a single-valued function, the range of the resulting value must be restricted  somehow. When dealing with the square roots of real numbers this is easily done. For instance, we can just define
+
+:<math>
+y = g(x) = \sqrt{x}\ = x^{\frac{1}{2}}\,
+</math>
+
+to be the non-negative real number ''y'' such that ''y''<sup>2</sup> = ''x''. This idea doesn't work so well in the two-dimensional complex plane. To see why, let's think about the way the value of ''f''(''z'') varies as the point ''z'' moves around the unit circle. We can write
+
+:<math>
+z = e^{i\theta}\qquad\Rightarrow\qquad w=z^{\frac{1}{2}} = e^{\frac{i\theta}{2}}\qquad(0\leq\theta\leq 2\pi).\,
+</math>
+
+Evidently, as ''z'' moves all the way around the circle, ''w'' only traces out one-half of the circle. So one continuous motion in the complex plane has transformed the positive square root ''e''<sup>0</sup> = 1 into the negative square root ''e''<sup>''iπ''</sup> = &minus;1.
+
+This problem arises because the point ''z'' = 0 has just one square root, while every other complex number ''z'' ≠ 0 has exactly two square roots. On the real number line we could circumvent this problem by erecting a "barrier" at the single point ''x'' = 0. A bigger barrier is needed in the complex plane, to prevent any closed contour from completely encircling the branch point ''z'' = 0. This is commonly done by introducing a '''branch cut'''; in this case the "cut" might extend from the point ''z'' = 0 along the positive real axis to the point at infinity, so that the argument of the variable ''z'' in the cut plane is restricted to the range 0 ≤ arg(''z'') &lt; 2''π''.
+
+We can now give a complete description of ''w'' = ''z''<sup>½</sup>. To do so we need two copies of the ''z''-plane, each of them cut along the real axis. On one copy we define the square root of 1 to be e<sup>0</sup> = 1, and on the other we define the square root of 1 to be ''e''<sup>''iπ''</sup> = &minus;1. We call these two copies of the complete cut plane ''sheets''. By making a continuity argument we see that the (now single-valued) function ''w'' = ''z''<sup>½</sup> maps the first sheet into the upper half of the ''w''-plane, where 0 ≤ arg(''w'') &lt; ''π'', while mapping the second sheet into the lower half of the ''w''-plane (where ''π'' ≤ arg(''w'') &lt; 2''π'').<ref name="Moretti">(Moretti, 1964, pp. 113-119)</ref>
+
+The branch cut in this example doesn't have to lie along the real axis. It doesn't even have to be a straight line. Any continuous curve connecting the origin ''z'' = 0 with the point at infinity would work. In some cases the branch cut doesn't even have to pass through the point at infinity. For example, consider the relationship
+
+:<math>
+w = g(z) = \left(z^2 - 1\right)^{\frac{1}{2}}.\,
+</math>
+
+Here the polynomial ''z''<sup>2</sup> &minus; 1 vanishes when ''z'' = ±1, so ''g'' evidently has two branch points. We can "cut" the plane along the real axis, from &minus;1 to 1, and obtain a sheet on which ''g''(''z'') is a single-valued function. Alternatively, the cut can run from ''z'' = 1 along the positive real axis through the point at infinity, then continue "up" the negative real axis to the other branch point, ''z'' = &minus;1. 
+
+This situation is most easily visualized by using the stereographic projection described above. On the sphere one of these cuts runs longitudinally through the southern hemisphere, connecting a point on the equator (''z'' = &minus;1) with another point on the equator (''z'' = 1), and passing through the south pole (the origin, ''z'' = 0) on the way. The second version of the cut runs longitudinally through the northern hemisphere and connects the same two equatorial points by passing through the north pole (that is, the point at infinity).
+
+=== Restricting the domain of meromorphic functions ===
+
+A holomorphic and therefore analytic everywhere in its domain except at a finite, or countably infinite, number of points.<ref>See also poles of the meromorphic function. Sometimes all these poles lie in a straight line. In that case mathematicians may say that the function is "holomorphic on the cut plane". Here's a simple example.
+
+The gamma function, defined by
+
+En mathématiques, le plan complexe (encore appelé plan de Cauchy) désigne un plan dont chaque point est la représentation graphique d'un nombre complexe unique.
+
+On associe en général le plan complexe à un repère <math>(O, \vec{u}, \vec{v})</math> orthonormé direct. Dans un tel repère, tout point <math>M</math> est l'image d'un unique nombre complexe <math>z</math> qui est appelé ''affixe'' de cet unique point (dans ce cas, affixe est féminin : une affixe) : on note <math>M(z)</math>.
+
+Pour tout nombre complexe <math>z</math> tel que <math>z = a + ib</math> (où <math>a</math> et <math>b</math> sont des réels), on a la relation <math>\vec{OM} = a\vec{u} + b\vec{v}</math>. On peut ainsi dire que la partie réelle de z est l'abscisse de M et que la partie imaginaire de z en est son ordonnée.
+
+D'après cette égalité, tous les points de l'axe <math>(O, \vec{u})</math> sont tels que la partie imaginaire de leur affixe est nulle : leur affixe est donc un nombre réel. En conséquence, on appelle l'axe <math>(O, \vec{u})</math> ''axe des réels''.
+
+De la même façon, tous les points de l'axe <math>(O, \vec{v})</math> sont tels que le partie réelle de leur affixe est nulle : leur affixe est donc un nombre imaginaire pur. En conséquence, on appelle l'axe <math>(O, \vec{v})</math> ''axe des imaginaires''.
+
+(''a'',''b'') sont les coordonnées cartésiennes de ''z&nbsp;=&nbsp;a+ib'' dans le plan complexe. On peut aussi écrire ''z'' avec des coordonnées polaires (''r'',θ), ce qui correspond à l'écriture exponentielle ''z&nbsp;=&nbsp;r''·exp(''i''θ). Dans ce cas, r est le module du nombre et θ est un de ses arguments (modulo <math>2\pi</math>).
+
+représentation graphique de z dans le plan complexe, coordonnées cartésiennes et polaire<br />
+<small>''Représentation graphique de z dans le plan complexe, coordonnées cartésiennes et polaire''</small>

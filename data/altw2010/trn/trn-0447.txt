@@ -1,0 +1,95 @@
+<!--tabella per la realizzazione di una scheda film-->
+<!--questa tabella memorizza solo i parametri - la struttura/layout è nel template Film-->
+<!--NON modificare la prima riga e le righe dove compare il simbolo uguale-->
+<!--NON inserire ritorni a capo salvo nei campi dove espressamente previsto-->
+{{Film|
+titoloitaliano = L'ultimo squalo  <!--scrivere qui il titolo italiano del film-->
+|
+titolooriginale = L'ultimo squalo <!--scrivere qui il titolo originale del film - se italiano si può riscriverlo o inserire (&nbsp;)-->
+|
+nomepaese = Italia<!--nome del paese di produzione - con doppie parentesi quadre-->
+|titoloalfabetico= Ultimo squalo, L'
+|
+annoproduzione = 1981 <!--anno di produzione - con doppie parentesi quadre-->
+|
+durata = 88' <!--durata della pellicola -->
+|
+tipocolore = Colore <!--colore della pellicola - da scegliere tra 'colore' o 'B/N'-->
+|
+tipoaudio = sonoro <!--audio della pellicola - da scegliere tra 'muto' o 'sonoro'-->
+|
+nomegenere = horror <!--genere del film - scelto esclusivamente tra quelli indicati nel progetto-->
+|
+nomeregista = Enzo G. Castellari <!--nome del regista - con doppie parentesi quadre-->
+|
+nomesoggetto = Ramón Bravo, Marc Princi <!--nome del soggetto - con doppie parentesi quadre -->
+|
+nomesceneggiatore = Ramón Bravo, Marc Princi <!--nome dello sceneggiatore - con doppie parentesi quadre-->
+|
+nomeattori = 
+*James Franciscus: Peter Benton 
+*Vic Morrow: Ron Hamer 
+*Micaela Pignatelli: Gloria Benton 
+*Joshua Sinclair: Mayor William Wells 
+*Giancarlo Prete: Bob Martin 
+*Stefania Girolami Goodwin: Jenny Benton 
+*Gian Marco Lari  
+*Chuck Kaufman   
+*Gail Moore   
+*Joyce Lee: Kelly Michaels, fourth victim 
+*Don Devendorf   
+*Bill Eudaly  
+*Bill Starks   
+*Rita Martin   
+*Lance Hilliard   
+*Massimo Vanni: Jimmy 
+*Ennio Girolami: Matt Rosen 
+*Alessandro Maspes  
+*John Morrison   
+*Fabio Balini 
+*Paul Costello: Mayor's Attorney 
+*Gianluca Donnini 
+*Billy Fields: Paramedic  
+*Andrea Girolami: Kid on beach 
+*Romano Puppo: Briley 
+*Ellen Winsor: Young woman watching news crew <!--nome degli attori - gli attori vanno inseriti uno per riga, iniziando con un *, seguito dal nome dell'attore con doppie parentesi quadre, seguito dal nome del personaggio senza parentesi quadre-->
+|
+nomefotografo = Alberto Spagnoli <!--nome del fotografo - con doppie parentesi quadre -->
+|
+nomemontaggio = Gianfranco Amicucci <!--nome del responsabile del montaggio - con doppie parentesi quadre -->
+|
+nomeeffettispeciali = <!--nome del responsabile effetti speciali della pellicola - con doppie parentesi quadre -->
+|
+nomemusicista = Guido De Angelis, Maurizio De Angelis, Morton Stevens <!--nome di chi ha realizzato la colonna sonora - con doppie parentesi quadre -->
+|
+nomescenografo = <!--nome dello scenografo - con doppie parentesi quadre -->
+}}
+<!-- fine della tabella film -->
+
+'''''L'ultimo squalo''''' è un film del 1981, diretto dal regista Enzo G. Castellari.
+
+== Trama ==
+
+Malgrado la presenza di un enorme squalo bianco, un politico senza scrupoli insiste per tenere una regata di windsurf.
+Sarà una strage…
+
+{{Infobox_Film |
+  name     = Great White |
+  image          = Greatwhite1.jpg |
+  imdb_id        = 0081677 |
+  writer         = Marc Princi |
+  starring       = James Franciscus<BR/>Vic Morrow<BR/>Micaela Pignatelli<BR/>Joshua Sinclair<BR/>Giancarlo Prete<BR/>Stefania Girolami Goodwin |
+  director       = Enzo G. Castellari |
+  producer       = Edward L. Montoro<BR/>Ugo Tucci |
+  music          = Morton Stevens (USA) |
+  distributor    = Film Ventures International |
+  released   = March 5th, 1982 (USA) |
+  runtime        = 88 min. |
+  language = English |
+  amg_id = 1:150144 |
+}}
+
+'''''Great White''''' (original title: '''''L'Ultimo Squalo'''''; also sometimes shown as '''''The Last Shark''''') is a Italian Jaws''. Universal Pictures sued to have the release of this movie in North America blocked, accusing the makers of ''Great White'' of plagiarism. The studio won the case, and the movie was pulled from North American theaters shortly after its release. It has never been legally released on video in North America, nor shown on North American television, though bootlegs are regularly available on the internet. It has recently (May 21 2008) been released on DVD in Sweden.
+
+==Plot==
+The plot is a classic of the ''Jaws''-like genre: an enormous and angry 35-foot Great White Shark takes revenge on humans when they build a beach just for swimmers by a coastal town. Despite the several shark attacks, the mayor does nothing to stop it as he doesn't want tourists to hear about it and quit coming. Enter the heroes: Peter Benton (James Franciscus), a novelist who writes a book about sharks, and Ron Hamer (Vic Morrow), an old seadog who has a personal grudge against the shark and wants it dead. They set sail in order to stop the monster.

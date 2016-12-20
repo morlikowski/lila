@@ -1,0 +1,150 @@
+<span><!-- Il testo commentato è SOLO UN ESEMPIO --></span>
+{{Comune
+|nomeComune = Palizzi
+|linkStemma = Palizzi-Stemma.png
+|siglaRegione = CAL
+|siglaProvincia = RC
+|latitudineGradi = 37
+|latitudineMinuti = 58
+|latitudineSecondi = 0
+|longitudineGradi = 15
+|longitudineMinuti = 59
+|longitudineSecondi = 0
+|mappaX = 229
+|mappaY = 299
+|altitudine = 272 <!-- solo valore numerico dell'altitudine -->
+|superficie = 52,26
+|abitanti = 2.496
+|anno = ottobre 2006
+|densita = 47,7
+|frazioni = Palizzi Superiore, Palizzi Marina,  Pietrapennata, Spropoli
+|comuniLimitrofi = Bova, Brancaleone, Staiti
+|cap = 89030
+|prefisso = 0965
+|istat = 080056
+|fiscale = G277 <!-- B102 -->
+|nomeAbitanti =  <!-- nome degli abitanti minuscolo -->
+|patrono =  <!-- San Pietro-->
+|festivo =  <!-- 7 aprile -->
+|sito = http://palizzi.asmenet.it
+}} <!-- fine della tabella - per la compilazione vedi -> Aiuto:Comune -->
+'''Palizzi''' è un comune di 2.496 abitanti della provincia di Reggio Calabria.
+
+== Territorio ==
+Centro agricolo del versante meridionale dell'Aspromonte, situato sul fianco destro della media valle della fiumara omonima, tra il monte Grappida (682 m) e il monte Carruso (619 m). L'abitato si raggruppa ai piedi di uno spuntone roccioso coronato dai resti di un castello.  
+Il suo territorio comprende le quattro frazioni di:
+
+* Palizzi Superiore (301 abitanti)
+* Palizzi Marina (1.906 abitanti), a W del Capo Spartivento
+* Pietrapennata (112 abitanti), posta a 673 metri s.l.m. sull'Aspromonte meridionale.
+* Spropoli (276 abitanti), a W del Capo Spartivento
+
+Nonché la località abitata di Contrada Gruda (112 abitanti), situata sul litorale.
+
+== Cenni storici e artistici ==
+Ricordato solo nel secolo XV come feudo dei Ruffo, fu in seguito dei d'Aragona d'Ayerbe, dai quali passò ai Colonna nel 1580.
+Nel 1654 entrava nel dominio degli Arduino, i quali nel 1662 ottenevano il titolo di principe; in ultimo (1784-1806) fu dei De Blasio cui veniva concesso il titolo di barone.
+La parrocchiale ha subito nel 1960 un rifacimento quasi completo: sussiste l'abside sinistra, elemento di grande importanza, consistente in uno spazio quadrato, racchiuso entro una sorta di torre in miniatura pure quadrata e coronato da una cupola che all'interno rivela al sua origine medievale. La chiesa possiede inoltre una statua di Sant'Anna, difficilmente databile per il suo stile arcaico, ma probabilmente del '500. 
+Il castello di origini medievali, fu rifatto come palazzo in grandiose e semplici forme nel '600. 
+Molto pittoresco è anche il centro di Pietrapennata, di carattere alpestre; la chiesa di origine medievale (basiliana), ma rifatta nei secoli XV-XVI, conserva la Madonna dell'Alica, statua di marmo alabastrino del '500.
+
+Diede i natali ai fratelli Messina).
+
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = Palizzi |
+  name = Palizzi |
+  region = Calabria |
+  province = Province of Reggio Calabria (RC) |
+  elevation_m =  |
+  area_total_km2   = 52.3 |
+  population_as_of  = Dec. 2004 |
+  population_total = 2559 |
+  population_density_km2 = 49 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          = Palizzi Superiore, Palizzi Marina,  Pietrapennata, Spropoli |
+  telephone         = 0965 |
+  postalcode        = 89030 |
+  gentilic          =  |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           = [http://www.palizzi.com/ www.palizzi.com/] |
+  mapy = 15.9833 |
+  mapx = 37.9667 |
+}}
+'''Palizzi''' is a ''Italian region Calabria, located about 120 km southwest of Catanzaro and about 30 km southeast of Reggio Calabria. As of 31 December 2004, it had a population of 2,559 and an area of 52.3 km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+The municipality of Palizzi contains the ''frazioni'' (subdivisions, mainly villages and hamlets) Palizzi Superiore, Palizzi Marina,  Pietrapennata, and Spropoli.
+
+Palizzi borders the following municipalities: Bova, Brancaleone, Staiti.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:5500
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:500 start:0
+ScaleMinor = gridcolor:lightgrey increment:100 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:1983
+  bar:1871 from: 0 till:2099
+  bar:1881 from: 0 till:2455
+  bar:1901 from: 0 till:3327
+  bar:1911 from: 0 till:4048
+  bar:1921 from: 0 till:4253
+  bar:1931 from: 0 till:4642
+  bar:1936 from: 0 till:4964
+  bar:1951 from: 0 till:5147
+  bar:1961 from: 0 till:4574
+  bar:1971 from: 0 till:3383
+  bar:1981 from: 0 till:3047
+  bar:1991 from: 0 till:3085
+  bar:2001 from: 0 till:2709
+
+PlotData=
+
+  bar:1861 at:1983 fontsize:XS text: 1983 shift:(-8,5)
+  bar:1871 at:2099 fontsize:XS text: 2099 shift:(-8,5)
+  bar:1881 at:2455 fontsize:XS text: 2455 shift:(-8,5)
+  bar:1901 at:3327 fontsize:XS text: 3327 shift:(-8,5)
+  bar:1911 at:4048 fontsize:XS text: 4048 shift:(-8,5)
+  bar:1921 at:4253 fontsize:XS text: 4253 shift:(-8,5)
+  bar:1931 at:4642 fontsize:XS text: 4642 shift:(-8,5)
+  bar:1936 at:4964 fontsize:XS text: 4964 shift:(-8,5)
+  bar:1951 at:5147 fontsize:XS text: 5147 shift:(-8,5)
+  bar:1961 at:4574 fontsize:XS text: 4574 shift:(-8,5)
+  bar:1971 at:3383 fontsize:XS text: 3383 shift:(-8,5)
+  bar:1981 at:3047 fontsize:XS text: 3047 shift:(-8,5)
+  bar:1991 at:3085 fontsize:XS text: 3085 shift:(-8,5)
+  bar:2001 at:2709 fontsize:XS text: 2709 shift:(-8,5)

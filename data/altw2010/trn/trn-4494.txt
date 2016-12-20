@@ -1,0 +1,49 @@
+In der Ringen als '''Faktorring''' oder ''Quotientenring'' oder ''Restklassenring''. Es handelt sich dabei um eine Verallgemeinerung der Restklassenringe ganzer Zahlen.
+
+==Definition==
+
+Ist ''R'' ein Ring und ''J'' ein (beidseitiges) Ideal von ''R'', dann bildet die Menge ''R''/''J'' = {a+''J'' | a in ''R''} der modulo ''J'' mit folgenden Verknüpfungen einen Ring:
+:[a] + [b] := [a+b],
+:[a] &middot; [b] := [a &middot; b].
+Dabei bezeichnet [a]=a+''J''={a+i | i aus J} die Äquivalenzklasse von a aus ''R'' und +,&middot; die Verknüpfungen von ''R''.
+
+Diesen Ring nennt man den Faktorring ''R'' modulo ''J'' oder Restklassenring oder Quotientenring. (Er hat jedoch nichts mit den Begriffen Lokalisierungen.)
+
+==Beispiele==
+
+* Die Menge <math>n\Z</math> aller ganzzahligen Vielfachen von <math>n</math> ist ein Ideal in <math>\Z</math>, und der Faktorring <math>\Z/n\Z</math> ist der Restklassenring modulo <math>n</math>.
+
+* Ist <math>f\in R[X]</math> ein Polynom über einem Integritätsring <math>R</math>, dann ist die Menge <math>R[X]\cdot f = (f)</math> aller Polynom-Vielfachen von <math>f</math> ein Ideal im Polynomring <math>R[X]</math>, und <math>R[X]/(f) = \{g + (f) | g \in R[X]\}</math> ist der Faktorring <math>R[X]</math> modulo <math>f</math>.
+
+En anneau donné par un de ses idéaux.
+
+==Définition==
+Soient <math>A</math> un anneau et <math>I</math> un idéal bilatère de <math>A</math>. On définit la relation d'équivalence <math>R</math> suivante :
+:<math>\forall (x,y)\in A^2, xRy \Leftrightarrow (x-y)\in I</math>
+
+Deux éléments de <math>A</math> sont ainsi en relation si leur différence appartient à l'idéal <math>I</math>, c’est-à-dire si <math>x</math> et <math>y</math> sont congrus modulo <math>I</math>.
+
+L'ensemble quotient <math>A_{/R}</math>, que l'on note alors <math>A/I</math>, muni des opérations induites par <math>I</math>
+:<math>(x+I)+(y+I) = x+y+I</math> et
+:<math>(x+I)\times (y+I) = (x\cdot y)+I</math>
+est un anneau, nommé anneau quotient de <math>A</math> par <math>I</math>.
+
+==Exemples==
+*Si <math>I = A</math>, <math>A/A</math> est l'anneau trivial <math>\{0\}</math>.
+*Si <math>I = \{0\}</math>, <math>A/\{0\}</math> est isomorphe à <math>A</math>.
+*Si <math>A=\mathbb Z</math> et <math>I=n\mathbb Z, n\in \mathbb Z</math>, on note l'anneau quotient ''Z/nZ''. Cette structure est le fondement de l'arithmétique modulaire.
+
+==Propriétés==
+L'application <math>p:A\to A/I</math> définie par <math>p(x)=x+I</math> est un surjectif d'anneau dont le noyau est l'idéal <math>I</math>.
+
+Soit <math>A</math> un anneau commutatif :
+* <math>I</math> est premier si et seulement si <math>A/I</math> est un anneau intègre.
+* <math>I</math> est maximal si et seulement si <math>A/I</math> est un corps
+
+* <math>I</math> premier ssi <math>A/I</math> est intègre.
+
+Si <math>A/I</math> n'est pas intègre alors il existe <math>a</math> et <math>b</math>, non nuls, dans <math>A/I</math> tels que <math>ab=0</math>. Soit <math>a'</math> et <math>b'</math> deux éléments de leurs images réciproques, alors <math>a'</math> n'est pas dans <math>I</math> sinon son image serait nul, il en est de même pour <math>b'</math>, par contre leur produit est dans <math>I</math> vu que l'image de ce produit est nul, ainsi l'on a deux éléments qui ne sont pas dans <math>I</math> et dont le produit l'est. <math>I</math> ne peut-être premier.
+
+A l'inverse supposons que <math>I</math> n'est pas premier, ils existent alors <math>a'</math> et <math>b'</math> qui ne sont pas dans <math>I</math> mais dont le produit l'est. Les images de <math>a'</math> et de <math>b'</math> par la projection ne sont pas nulles alors que l'image du produit l'est. On a donc que <math>A/I</math> n'est pas intègre.
+
+* <math>I</math> maximal ssi <math>A/I</math> est un corps.

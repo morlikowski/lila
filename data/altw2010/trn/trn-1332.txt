@@ -1,0 +1,52 @@
+'''Molecular wires''' (or sometimes called molecular nanowires) are molecular-scale objects which conduct electrical current.  They are the fundamental building blocks for molecular 
+electronic devices. Their typical diameters are less than three nanometers, while their bulk lengths may be macroscopic, extending to centimeters or more. 
+
+==Materials==
+
+Most work thus far has consisted of organic molecules.  Higher conductivities originate from highly conjugated systems, while alkane chains are important in understanding basic charge transport and tunneling.  A molecular wire occurring in nature is DNA. Prominent inorganic examples include polymeric materials such as Li<sub>2</sub>Mo<sub>6</sub>Se<sub>6</sub><ref>J.M.Tarascon, G.W.Hull and F.J.Di Salvo, Mater. Res. Bull., 19 (1984) 915.</ref> and Mo<sub>6</sub>S<sub>9-x</sub>I<sub>x</sub>,<ref>D.Vrbanic et al, Nanotechnology 15 (2004) pp. 635–638, C.Perrin and M.Sergent, J.Chem Res. (S) pp. 38-39 (1983)</ref> and single-molecule extended metal atom chains (EMACs) which comprise strings of late transition metal atoms directly bonded to each other.<ref>F. Albert Cotton, Carlos A. Murillo and Richard A. Walton (eds.), ''Multiple Bonds Between Metal Atoms'' 3rd edition, Springer (2005), pp. 669-706.</ref> Molecular wires containing paramagnetic inorganic moieties are interesting, in particular, because they can lead to observations of Kondo peaks.
+
+==Structure== 
+
+right|thumb|350px|The structure of a Mo<sub>6</sub>S<sub>9-x</sub>I<sub>x</sub> molecular wire. Mo atoms are blue, iodine atoms are red and sulphur atoms are yellow.
+Unlike the more usual nanowires (which are very thin crystals), molecular nanowires are composed of repeating molecular units, which may be organic (e.g. DNA) or inorganic (e.g. Mo<sub>6</sub>S<sub>9-x</sub>I<sub>x</sub>). In the case of DNA, the repeat units are the nucleotides with a backbone made of sugars and phosphate groups joined by ester bonds. Attached to each sugar is one of four types of bases. 
+In case of Mo<sub>6</sub>S<sub>9-x</sub>I<sub>x</sub>, the repeat units are Mo<sub>6</sub>S<sub>9-x</sub>I<sub>x</sub> clusters, which are joined together by sulfur or iodine bridges. 
+Molecular nanowires often aggregate in solution into swatches or bundles. In the case of the Mo chalcogenide-halides, they grow in the form of ordered strands, in which the individual strands are linked by very weak Van der Waals forces. By contrast, EMAC molecular wires consist of distinct molecules that do not aggregate and hence enable control of the exact length of the wire at the atomic scale.
+
+==Conduction of electrons==
+
+Molecular wires conduct electricity. They typically have non-linear current-voltage characteristics, and do not behave as simple ohmic conductors. 
+The conductance follows typical power law behavior as a function of temperature or electric field, whichever is the greater, arising from their strong one-dimensional character. Numerous theoretical ideas have been used in an attempt to understand the conductivity of one-dimensional systems, where strong interactions between electrons lead to departures from normal metallic (Fermi liquid) behavior. Important concepts are those introduced by Tomonaga, Luttinger and Wigner. Effects caused by classical Coulomb repulsion (called Coulomb blockade Coulomb blockade) have also been found to be important in determining the properties of MWs.
+
+{{Infobox Chemikalie
+  | Strukturformel      = 
+  | Andere Namen        = * Molybdändisulfid
+* als Mineral auch Molybdänglanz oder Molybdänit
+  | Summenformel        = MoS<sub>2</sub>
+  | CAS                 = 1317–33–5
+  | Beschreibung        = graues Pulver
+  | Molare Masse        = 160,07 g·mol<sup>−1</sup>
+  | Aggregat            = fest
+  | Dichte              = 5,06 g·cm<sup>–3</sup><ref name="BGIA GESTIS"></ref>
+  | Schmelzpunkt        = 450 °C (sublimiert)<ref name="BGIA GESTIS"/>
+  | Siedepunkt          = ''nicht anwendbar''
+  | Dampfdruck          = 
+  | Löslichkeit         = in Wasser praktisch unlöslich<ref name="BGIA GESTIS"/>
+  | Quelle GefStKz      =<ref name="BGIA GESTIS"/>
+  | Gefahrensymbole     = 
+  | R                   = 
+  | S                   = 
+  | MAK                 = keine MAK<ref name="BGIA GESTIS"/>
+}}
+'''Molybdän(IV)-sulfid''', auch Molybdändisulfid, mit der Formel MoS<sub>2</sub>, ist ein grauschwarzes, kristallines Sulfid des chemischen Elements Molybdän. Es ist im Wasser und in verdünnten Säuren unlöslich. Es kann nur unter erhöhtem Druck geschmolzen werden (2107&nbsp;°C/81.000 hPa). In der Natur kommt es als Mineral Molybdänglanz vor.
+
+==Eigenschaften==
+Die Struktur des Molybdän(IV)-sulfids ist graphitartig, d.&nbsp;h. eine Schichtung von Molybdän- und zwischenliegenden Schwefelteilchen ähnlich einem Sandwich. Aufgrund der raumparallelen Anordnung sind die Schichten leicht gegeneinander verschiebbar, was zu einem schmierenden Effekt führt.
+
+==Verwendung== 
+Fein pulverisiertes Molybdän(IV)-sulfid mit Teilchengrößen zwischen 1 und 100 µm ist ein technisches trockenes Schmiermittel. Es wurde in den 1940er Jahren zuerst von der Firma Dow Corning unter dem Handelsnamen ''„Molykote“'' vermarktet, der auch heute noch synonym für Molybdän(IV)-sulfid steht. Bei Dow Corning werden jedoch heute auch andere Spezialschmierstoffe so genannt. An der Luft wird es schon ab 315&nbsp;°C oxidiert. Unter Ausschluss von Sauerstoff ist die Anwendung bis 1100&nbsp;°C möglich.
+
+*Es wird häufig verschiedenen Schmierölen beigemengt, was zu einer Verbesserung der Gleitfähigkeit sorgt. Dies führt neben einer längeren Lebensdauer von Maschinenbauteilen auch zur Schadensvorbeugung bei plötzlichen totalen Ölverlusten. Dabei kann die Schmierwirkung aufgrund der Haftwirkung des Öls eine Zeit lang aufrecht erhalten werden, was z.&nbsp;B. bei Flugzeugtriebwerken und sonstigen lange nachlaufenden Triebwerken und Turbinen wichtig ist.
+
+*Ebenso finden mit Molybdän(IV)-sulfid angereicherte Fette Verwendung an Bauteilen, welche schwer zugänglich sind und so die Wartungsintervalle sehr groß sind (wartungsfreie Verbindungen, Gelenkkonstruktionen etc.).
+
+*Auch wird es bei der Massivumformung und generell bei Umformverfahren (Kalt-, Halbwarm- und Warmumformung) eingesetzt. Es wird oft durch ''Bondern'', darunter wird das Aufbringen dieser Schicht verstanden, aufgebracht. Dies geschieht meistens mit einer Trägerschicht, auf der dann die Molykote aufgebracht wird. Oft passiert das auch durch „Rommeln“. Dabei kommen die Teile in eine Art Waschmaschinentrommel und tauchen in das Bad ein, die Trommel verbleibt einige Zeit im Medium und dreht sich dabei. Die Teile drehen sich mit und benetzen sich mit der Molykote. Der Vorteil in der Massivumformung gegenüber normaler Seife ist die höhere Temperaturbeständigkeit der Molykote. Ebenfalls zum Einsatz kommt Molykote bei hohen Umformtemperaturen ≥&nbsp;200&nbsp;°C (vor allem bei der Kaltmassivumformung), bedingt durch sehr hohe Umformung und somit hoher Reibung im Werkzeug.

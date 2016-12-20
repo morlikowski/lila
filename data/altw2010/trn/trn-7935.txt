@@ -1,0 +1,52 @@
+thumb|right|250px|Beckman DU640 UV/Vis spectrophotometer.
+'''Ultraviolet-visible spectroscopy''' or '''ultraviolet-visible spectrophotometry''' ('''UV/&nbsp;VIS''') involves the electronic transitions. This technique is complementary to fluorescence spectroscopy, in that fluorescence deals with transitions from the excited state to the ground state, while absorption measures transitions from the ground state to the excited state.
+
+==Applications==
+UV/Vis spectroscopy is routinely used in the quantitative determination of solutions of conjugated organic compounds.
+*Solutions of transition metal ions can be coloured (i.e., absorb visible light) because d electrons within the metal atoms can be excited from one electronic state to another. The colour of metal ion solutions is strongly affected by the presence of other species, such as certain anions or ligands. For instance, the colour of a dilute solution of copper sulfate is a very light blue; adding ammonia intensifies the colour and changes the wavelength of maximum absorption (<math>\lambda_{max}</math>).
+*conjugation, also absorb light in the UV or visible regions of the electromagnetic spectrum. The solvents for these determinations are often water for water soluble compounds, or ethanol for organic-soluble compounds. (Organic solvents may have significant UV absorption; not all solvents are suitable for use in UV spectroscopy. Ethanol absorbs very weakly at most wavelengths.) Solvent polarity and pH can effect the absorption spectrum of an organic compound. Tyrosine, for example, increases in absorption maxima and molar extinction coefficient when pH increases from 6 to 13 or when solvent polarity decreases.
+*While charge transfer complexes also give rise to colours, the colours are often too intense to be used for quantitative measurement.
+
+The Beer-Lambert law states that the absorbance of a solution is directly proportional to the solution's concentration. Thus UV/VIS spectroscopy can be used to determine the concentration of a solution. It is necessary to know how quickly the absorbance changes with concentration.  This can be taken from references (tables of molar extinction coefficients), or more accurately, determined from a calibration curve.
+
+A UV/Vis spectrophotometer may be used as a detector for HPLC. The presence of an analyte gives a response which can be assumed to be proportional to the concentration. For accurate results, the instrument's response to the analyte in the unknown should be compared with the response to a standard; this is very similar to the use of calibration curves. The response (e.g., peak height) for a particular concentration is known as the response factor.
+
+==Beer-Lambert law==
+
+The method is most often used in a quantitative way to determine concentrations of an absorbing species in solution, using the Beer-Lambert law:
+
+:<math>A =\ </math> &minus;<math>\log_{10}(I/I_0) = \epsilon\cdot c\cdot L</math>,
+
+where ''A'' is the measured absorbance, <math>I_0</math> is the intensity of the incident light at a given wavelength, <math>I</math> is the transmitted intensity, ''L'' the pathlength through the sample, and ''c'' the concentration of the absorbing species. For each species and wavelength, ε is a constant known as the molar absorptivity or extinction coefficient. This constant is a fundamental molecular property in a given solvent, at a particular temperature and pressure, and has units of <math>1/M*cm</math> or often <math>AU/M*cm</math>.
+
+The absorbance  and extinction ''ε'' are sometimes defined in terms of the natural logarithm instead of the base-10 logarithm.
+
+The Beer-Lambert Law is useful for characterizing many compounds but does not hold as a universal relationship for the concentration and absorption of all substances. A 2nd order polynomial relationship between absorption and concentration is sometimes encountered for very large, complex molecules such as organic dyes (Xylenol Orange or Neutral Red, for example).
+
+==Ultraviolet-visible spectrophotometer==
+
+The instrument used in ultraviolet-visible spectroscopy is called a UV/vis '''spectrophotometer'''.  It measures the intensity of light passing through a sample (<math>I</math>), and compares it to the intensity of light before it passes through the sample (<math>I_o</math>).  The ratio <math>I/I_o</math> is called the ''transmittance'', and is usually expressed as a percentage (%T). The absorbance, <math>A</math>, is based on the transmittance:
+::<math>A=-log(%T)</math>
+
+The basic parts of a spectrophotometer are a light source (often an CCD. Photodiodes are used with monochromators, which filter the light so that only light of a single wavelength reaches the detector. Diffraction gratings are used with CCDs, which collects light of different wavelengths on different pixels.
+
+Die '''UV/Vis-Spektroskopie''' ist eine elektromagnetische Wellen des ultravioletten (UV) und des sichtbaren (engl. ''visible'', VIS) Lichts nutzt. Die Methode ist auch unter '''UV/VIS-Spektralphotometrie''' bekannt.
+
+== Prinzip ==
+Elektromagnetischen Wellen im Bereich des sichtbaren und ultravioletten Lichts bestrahlt. Valenzelektronen von beispielsweise p- und d-Orbitalen der äußeren Schalen werden angeregt.
+
+Der Zusammenhang zwischen der HOMO) auf ein unbesetztes, höheres Orbital (LUMO) anzuheben, ist durch die Einstein-Bohr-Gleichung
+: <math> E = h \, f = \frac { h\, c } { \lambda } \approx \frac {\mbox{1239,8}}{\lambda / nm} \times eV</math>
+gegeben, wobei ''E'' die Plancksche Wirkungsquantum, ''c'' die Lichtgeschwindigkeit, <math>f</math> die Frequenz und <math>\lambda</math> die Wellenlänge der elektromagnetischen Welle sind.
+
+== Aufbau eines Zweistrahl-UV/Vis-Spektrometers ==
+thumb|upright=1.5|Schematischer Aufbau eines Zweistrahl-UV/Vis-Spektrometers
+
+Die Lichtquelle strahlt Licht im Wellenlängenbereich von etwa 200&nbsp;nm bis 800&nbsp;nm aus. Im Monochromator wird zunächst die zur Messung ausgewählte Wellenlänge selektiert, worauf der Lichtstrahl auf den Sektorspiegel fällt. Der Sektorspiegel lässt das Licht abwechselnd durch die Messlösung und durch die Vergleichslösung fallen. Beide Lösungen befinden sich in sogenannten Küvetten. Die zwei Lichtstrahlen werden im Detektor empfangen und die Intensitäten im Verstärker verglichen. Der Verstärker passt dann die Intensität des Lichtstrahls aus der Vergleichslösung durch Einfahren der Kammblende der Intensität des Lichtstrahls aus der Messlösung an. Diese Bewegung wird auf einen Schreiber übertragen oder die Messwerte an eine Datenverarbeitung weitergegeben.
+
+== Chemische Beispiele ==
+Nützlich sind die π → π<sup>*</sup> - Übergänge bei ungesättigten Kohlenwasserstoffen (beispielsweise Alkenen).
+Sie erfolgen über längerwelliges UV-Licht und sind einfach zu messen.
+Man erhält Informationen über die absorbierende Wellenlänge des Moleküls, die Struktur und Farbe. Dabei erfolgt die Lichtabsorption im umso längerwelligen Bereich, je größer die Anzahl der aufeinanderfolgenden (konjugierten) Doppelbindungen ist. Liegt die Energie der π → π<sup>*</sup> - Übergänge im Bereich des sichtbaren Lichts, so erscheint das Molekül farbig. Dabei nimmt es immer die Komplementärfarbe des absorbierten Lichts an.
+
+Bei den betrachteten Elektronenübergängen sind stets die folgenden Auswahlregeln zu beachten (u.&nbsp;a. Laporte-Regel):

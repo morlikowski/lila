@@ -1,0 +1,81 @@
+The '''raised-cosine filter''' is a particular electronic filter, frequently used for pulse-shaping in digital modulation due to its ability to minimise intersymbol interference (ISI).  Its name stems from the fact that the non-zero portion of the frequency spectrum of its simplest form (<math>\beta = 1</math>) is a cosine function, 'raised' up to sit above the <math>f</math> (horizontal) axis. 
+
+==Mathematical description==
+The raised-cosine filter is an implementation of a low-pass Nyquist filter, i.e., one that has the property of vestigial symmetry.  This means that its spectrum exhibits odd symmetry about <math>\frac{1}{2T}</math>, where <math>T</math> is the symbol-period of the communications system.
+
+Its frequency-domain description is a function, given by:
+
+:<math>H(f) = \begin{cases}
+ T,
+       & |f| \leq \frac{1 - \beta}{2T} \\
+ \frac{T}{2}\left[1 + \cos\left(\frac{\pi T}{\beta}\left[|f| - \frac{1 - \beta}{2T}\right]\right)\right],
+       & \frac{1 - \beta}{2T} < |f| \leq \frac{1 + \beta}{2T} \\
+ 0,
+       & \mbox{otherwise}
+\end{cases}</math>
+:<math>0 \leq \beta \leq 1</math>
+	
+and characterised by two values; <math>\beta</math>, the ''roll-off factor'', and <math>T</math>, the reciprocal of the symbol-rate.
+
+The impulse response of such a filter is given by:
+
+:<math>h(t) = \mathrm{sinc}\left(\frac{t}{T}\right)\frac{\cos\left(\frac{\pi\beta t}{T}\right)}{1 - \frac{4\beta^2 t^2}{T^2}}</math>, in terms of the normalized sinc function.
+
+thumb|500px|Amplitude response of raised-cosine filter with various roll-off factors
+thumb|500px|Impulse response of raised-cosine filter with various roll-off factors
+
+===Roll-off factor===
+The roll-off factor, <math>\beta</math>, is a measure of the ''excess bandwidth'' of the filter, i.e. the bandwidth occupied beyond the Nyquist bandwidth of <math>\frac{1}{2T}</math>.  If we denote the excess bandwidth as <math>\Delta f</math>, then:
+
+:<math>\beta = \frac{\Delta f}{\left(\frac{1}{2T}\right)} = \frac{\Delta f}{R_S/2} = 2T\Delta f</math>
+
+where <math>R_S = \frac{1}{T}</math> is the symbol-rate.
+
+The graph shows the amplitude response as <math>\beta</math> is varied between 0 and 1, and the corresponding effect on the impulse response. As can be seen, the time-domain ripple level increases as <math>\beta</math> decreases.  This shows that the excess bandwidth of the filter can be reduced, but only at the expense of an elongated impulse response.
+
+====<math>\beta = 0</math>====
+As <math>\beta</math> approaches 0, the roll-off zone becomes infinitesimally narrow, hence:
+
+:<math>\lim_{\beta \rightarrow 0}H(f) = \mathrm{rect}(fT)</math>
+
+where <math>\mathrm{rect}(.)</math> is the rectangular function, so the impulse response approaches <math>\mathrm{sinc}\left(\frac{t}{T}\right)</math>. Hence, it converges to an ideal or brick-wall filter in this case.
+
+'''Фильтр с характеристикой типа "приподнятый косинус"''' (ФПК) - особый электронный фильтр, часто встречающийся в телекоммуникационных системах благодаря возможности минимизировать межсимвольные искажения (МСИ).  Его название происходит из факта, что ненулевая часть частотного спектра его простейшей формы (<math>\beta = 1</math>) представляет собой косинусоиду приподнятую таким образом, чтобы она "сидела" на горизонтальной оси <math>f</math>. 
+
+==Математическое описание==
+ФПК является реализацией ФНЧ Найквиста, т.е. обладает свойством частичной симметрии.  Это значит, что его спектр облатает нечетной симметрией относительно <math>\frac{1}{2T}</math>, где <math>T</math> длительность символа в системе связи.
+
+Для его описания в частотной области используется кусочная функция, заданная формулой:
+
+:<math>H(f) = \begin{cases}
+ 1.0,
+       & |f| \leq \frac{1 - \beta}{2T} \\
+ \frac{1}{2}\left[1 + \cos\left(\frac{\pi T}{\beta}\left[|f| - \frac{1 - \beta}{2T}\right]\right)\right],
+       & \frac{1 - \beta}{2T} < |f| \leq \frac{1 + \beta}{2T} \\
+ 0,
+       & \mbox{otherwise}
+\end{cases}</math>
+:<math>0 \leq \beta \leq 1</math>
+	
+и характеризуется двумя величинами; <math>\beta</math> - коэффициент сглаживания, и <math>T</math> - величина обратная символьной скорости.
+
+Импульсный отклик фильтра описывается формулой:
+
+:<math>h(t) = \mathrm{sinc}\left(\frac{t}{T}\right)\frac{\cos\left(\frac{\pi\beta t}{T}\right)}{1 - \frac{4\beta^2 t^2}{T^2}}</math>, в выражении через нормализованные sinc функции.
+
+thumb|500px|АЧХ ФПК при различных коэффициентах сглаживания
+thumb|500px|Импульсный отклик ФПК при различных коэффициентах сглаживания
+
+===Коэффициент сглаживания===
+Коэффициент сглаживания <math>\beta</math> - мера избыточности полосы пропускания фильтра, т.е. полоса частот вне полосы Найквиста <math>\frac{1}{2T}</math>.  Если обозначить избыточность полсы через <math>\Delta f</math>, то:
+
+:<math>\beta = \frac{\Delta f}{\left(\frac{1}{2T}\right)} = \frac{\Delta f}{R_S/2} = 2T\Delta f</math>
+
+где <math>R_S = \frac{1}{T}</math> - символьная скорость.
+
+На графике позазана АЧХ при изменении <math>\beta</math> от 0 до 1, и соответствующее воздействие на импульсный отклик. Как видно, во временной области величина пульсаций увеличивается по мере уменьшения <math>\beta</math>.  Это свидетельствует о том, что избыточность полосы фильтра может быть уменьшена, но только за счет удлиннения импульсного отклика.
+
+====<math>\beta = 0</math>====
+Как только <math>\beta</math> достигает 0, зона сглаживания становится максимально узкой, следовательно:
+
+:<math>\lim_{\beta \rightarrow 0}H(f) = \mathrm{rect}(fT)</math>

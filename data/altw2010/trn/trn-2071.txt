@@ -1,0 +1,49 @@
+If you add two line breaks (by pressing return twice) to the source text, Wikipedia will create a new paragraph. It is uncontroversial that paragraphs should be used to make articles easy to read. This page, however, refers to single line breaks within article source texts. 
+
+Single line breaks in the source text are not translated to single line breaks in the output (if you ''want'' a single line break to appear in the rendered article, use a <code>&lt;br></code> tag).  However, single line breaks in the source do have certain effects: Within a list, a single line break either starts the next item or a new paragraph; within an indentation, a single line break aborts the indentation and starts a new paragraph. Formatting instructions for '''bold''' and ''italics'' as well as links do not span line breaks (this is intentional, so that authors do not accidentally turn an entire paragraph into a link etc.).
+
+Regardless, some Wikipedians insert single line breaks into the source text of articles for various reasons, others oppose this practice.
+Readers do not need to care about this controversy since it does not affect the appearance of articles.
+The two positions are presented below, see the discussion page for the current head count for each position.
+
+== Don't use single line breaks ==
+One of Wikipedia's rules to consider:
+
+Don't use manually-entered hard line breaks within paragraphs when editing articles. Reasons for this include:
+
+* If you want to indent a paragraph that includes single line breaks, you first have to remove them.
+* If you want to make a list item out of a paragraph that includes single line breaks, you first have to remove them.
+* If you want to turn a phrase that contains a line break into a link, or format it in bold or italics, you have to remove the line break first. 
+* Many readers expect line breaks only where there is a logical, semantic break. Line breaks in source text will make them pause and search for such a break, and be frustrated when there is none. Consider this example:
+
+::The consequences of this Amendment to American society have been profound. First Amendment questions have been raised with regard to the separation<br />of church and state; civil rights issues; pornography and obscenity; political speech and organizations; journalism and its restrictions; involuntary commitment laws; and many more.
+
+* Text is no longer wrapped at the window edge of the text entry area, but where the author chose to make the linebreak. Thus, there will be a lot of whitespace within a paragraph, which may be considered a waste of space and visually distracting.
+* The appearance of the article source text becomes different from the appearance of the rendered output, it therefore becomes harder to find a sentence of the rendered output in the source text. Since writers often think in terms of paragraphs, it makes sense to organise the text that way. 
+* Single line breaks in source texts may confuse new editors, who may think they are there for a special reason, and avoid editing these paragraphs because they fear to break something.
+
+Proponents of line breaks within paragraphs claim that they make diffs (the reports showing the differences between two revisions of an article) easier to read.
+The diff feature highlights the changes within each line break delimited block of text
+and provides unchanged text for additional context up to the third line break below and above that text.
+This usually means that it highlights the entire paragraph, and also shows one paragraph above and below it for context.
+The changed characters are separately highlighted from the changed blocks in red color.
+
+It is hard to see how individual line breaks help in any way in that comparison, since their only effect will be to reduce the amount of context provided when a line is changed. In fact, arbitrarily entered line breaks ''prevent'' the software from working correctly, as [http://www.wikipedia.org/w/wiki.phtml?title=Ambrose_the_poet&diff=106339&oldid=40753 this diff] illustrates nicely: instead of providing the context of a full paragraph, it only shows changes in individual lines of text, respecting not even sentence boundaries.
+
+記事を編集しているときに、2回連続して改行キー（通常はEnter キー）を押して空白行を作ると、記事はそこから新しい段落になって表示されます（このような改行のことをこのページでは便宜的に'''2行改行'''と呼びます）。記事を読みやすくするために、2行改行を適宜挿入して、文章を適切な長さの段落に区切ることは重要です。
+
+一方、編集中に1回だけ改行キーを押して、空白行を作らずにすぐ次の行から文を始めると、記事では、段落は新しくならずに、改行した箇所にスペースが表示されます（このような改行のことをこのページでは便宜的に'''1行改行'''と呼びます）。下記のように、1行改行には長所もありますが、多くの短所がありますので、1行改行の使用はできるだけ避けるべきです。
+
+また、'''br'''要素を挿入することにより（その箇所に<nowiki><br /</nowiki>>を挿入します）、段落を改めずに強制的に改行することもできますが、表の中など特殊な場合を除いては、このような改行もできるだけ使用しないことが推奨されています（:Help:ページの編集#見出し・段落・横線参照）。
+
+== 1行改行の長所 ==
+編集中に、段落内で改行を頻繁に入れることを好む編集者がいます。例えば1文ごとに改行を入れると、編集ウインドウが見やすくなり、長い段落の中でも、編集したい文を見つけやすくなります。そのために、他の文と入れ替えたり、編集しやすくなったりもします。記事を書くときは、文を単位として構成を考えることが多いですから、これは意味があることです。また、段落中に改行を入れるのを支持する人は、版間での差分（記事の過去の編集で変わったところを表示する画面）が見やすくなると主張します。版間での差分の画面では、文章を改行から改行までを単位として、変更のあった箇所を色違いの強調表示にし、文脈を示すために、変更箇所の前後の改行までを表示してくれる機能があるからです。
+
+また、いくつかのエディタ・ソフトウエアでは、長い行をうまく扱えません。そういうエディタでは、画面の右端で（単語の途中で）文字を折り返し表示するか、あるいはまったく折り返し表示をしないか、いずれかしかできません。これは、欧文など単語単位で組版する言語では不都合が多いため、エディタで編集をしてからウィキペディアに投稿する編集者の中には、文中の頻繁な改行を好む人もいます（ただし、これはウィキペディアのルールの問題というよりはむしろ、各編集者が長い行をうまく扱えるエディタを使うよう心がけるという問題でしょう）。
+
+== 1行改行の短所 ==
+しかし、この編集中に1回だけ入力した改行が、記事の見た目に何らかの影響を及ぼしてしまう場合があります。たとえば、リンクや、'''太字'''、''斜体'' の指定は、途中で改行が入ると改行の後には効果が及びません（これは意図的な仕様で、まちがって段落全体が1つのリンクになってしまったりしないようになっています）。また、<nowiki>*</nowiki>、<nowiki>#</nowiki>、<nowiki>;</nowiki>、<nowiki>:</nowiki>などの箇条書きのマークアップを使用したリストの途中で改行してしまうと、ウィキテキスト言語（ウィキペディアの使用するMediaWikiのマークアップ言語）ではそこでリストが終わり、リストではない新しい段落が始まると解釈されてしまいます。したがって、定義リストのマークアップ（<nowiki>:</nowiki>）を応用してインデントしている文中でも、改行を使うとインデントはそこで解除されてしまい、インデント無しの新たな段落が始まることになってしまいます。
+
+更に、日本語のように分かち書きをせず、文の間や単語の間に空白をいれない言語の場合には、文中に不自然な空白が生じる事にもなります。
+
+例：

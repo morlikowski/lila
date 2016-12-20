@@ -1,0 +1,66 @@
+: ''This is the guideline for Wikipedia self-references.  For the guideline on autobiographies, see Wikipedia:Autobiography. For self-published sources, see Wikipedia:V#SELF''
+
+This guideline is about self-references, and specifies which types of self-references should be avoided and which kinds are acceptable.
+
+== Avoid referring to "Wikipedia" ==
+
+'''Avoid self-references''' within Wikipedia articles to the Wikipedia project, such as:
+
+: This Wikipedia article discusses ...
+
+: Free content projects, such as this website ...
+
+: While Wikipedia is not a dictionary, ... (in an article about a certain term)
+
+: ''Warning: Wikipedia contains spoilers'' (see Wikipedia:Spoiler warning)
+
+: ''Edit this page ...''
+
+Such self-references are entirely acceptable on talk pages or in the Wikipedia namespace, but they are inappropriate in articles for two reasons. First, they distract from the topic at hand: articles are about their respective subjects, and are not about Wikipedia. Second, self-references limit the use of Wikipedia as an forking, as permitted by our license. The goal of Wikipedia is to create ''an encyclopedia'', not merely to perpetuate itself, so the articles produced should be useful even outside the context of the project used to create them. This means that while articles may refer to themselves, they should not refer to "Wikipedia" or to the Wikipedia project as a whole (e.g. "this website").
+
+== Think about print ==
+Don't forget, we want to make the creation of a print version of Wikipedia as easy as possible, so try to use terms such as "this article" as opposed to "this website", and certainly don't use terms such as "click here" (which make no sense when using a screen reader, for instance). You may also find it helpful to imagine you're reading the article in another encyclopedia.
+
+== Community and website feature references ==
+While we're often inclined to mention the Wikipedia community that we are all part of, as well as the website features we use in creating the articles, these confuse readers of derivative works. Unless substantially part of the article topic, do not refer to the fact that the page can be edited or any Wikipedia project page or process, specialized Wikipedia jargon (e.g. "POV" in place of "biased"), or any MediaWiki interface link in the sidebar or along the top of the screen. ''Articles'' are part of an ''encyclopedia'', not part of the Wikipedia ''project'' being used to create them. However, there are exceptions. An article which is still in its initial development or under dispute often will include , , , or other maintenance tags to help editors further develop the article, and the text in these templates include self-references.
+
+== Neutral self-references are acceptable ==
+References which exist in a way which assumes the reader is using an encyclopedia without reference to the specific encyclopedia (Wikipedia), or the manner of access (online), are acceptable.  For instance, the article on mirror or a fork, makes sense in print, and makes sense in a copy of Wikipedia which contains only the article space.  A more common example is the disambiguation message ''This article is about X. For Y, see Z.'' and all of the "See also" links.
+
+== Writing about Wikipedia itself ==
+
+Wikipedia can, of course, write ''about'' Shakespeare's works, you are not interested in reading about Wikipedia's policies or conventions. If, however, you read about online communities, the article may well discuss Wikipedia as an example, in a neutral tone, without specifically implying that the article in question is being read on &mdash; or is a part of &mdash; Wikipedia. If, in this framework, you link from an article to a specific Wikipedia page, '''use external link style so the link will make sense in any context'''.
+
+The following are some examples where such links can be useful:
+
+*Articles where Wikipedia played a major role in the subject of the article, for example: John Seigenthaler Sr. Wikipedia biography controversy
+*Articles about prominent people involved in Wikipedia, for example: Jimbo Wales
+*Articles about Wikipedia
+*Articles where Wikipedia is illustrative of the subject, for example: online community, encyclopedia
+
+维基百科条目應'''避免自我参照'''（自我提及）维基百科工程，例如：
+
+:1. 本维基百科条目讨论……
+
+:2. 自由内容工程，例如本网站……
+
+:3. 虽然维基百科不是一本字典…… （在关于一个特定术语的条目中）
+
+:4. ''警告：维基百科包含扫兴内容'' （在Wikipedia:扫兴警示可找到替代文句）
+
+这样的自我参照在对话页上或者维基百科名字空间上是完全可以接受的，但是它们不适合出现在条目中。这有两个重要的理由，一是这些自我参照可使讀者分散對當前題目的注意，在一部百科全書中產生打擾的效果；二是自我参照侷限了维基百科作為一部適合發展分叉作品的版权容许這樣做）。简单来讲，这个政策是关于提醒我们维基百科的目标是创造''一部百科全书''而不單是使它永遠延續，應該產生一些可以在創建它的工程以外的領域也可使用的條目。
+
+== 印刷版本的考慮 ==
+請記得我們需要使維基百科的印刷版本盡量容易產生，所以請盡量使用「此文」代替「此網站」，同樣應避免使用諸如「點擊此處」的名詞（舉例，這樣對螢幕閱讀器使用者沒有用處）。想像一下，如果你正在另一本百科全書閱讀該文章時遇到這情況，你會覺得怎樣？
+
+==對社群及網站特徵的提及==
+當我們傾向提及自己是當中一分子的維基社群及我們用以創建條目的網站特徵時，這樣會使衍生作品的讀者感到困惑。請特別留意，避免提及該頁可被修改，避免提及任何維基百科工程頁面或過程，避免使用專門的維基百科術語（例如以「POV」代替「偏見」），及避免提及旁邊或螢幕上方的任何連結（例如討論頁、鏈入頁面或歷史頁）。請記著條目是百科全書的一部份，不是用以產生它們的維基百科工程的一部份。
+
+有時也有例外，特別是當一篇條目仍在初步創建階段或有爭議時，諸如<nowiki>及</nowiki>的標記經常加上，幫助編輯者進一步改善該條目，這些模板內的文句包括自我參照。即使是模板，也請盡量減少使用自我參照。
+
+==中性的提及==
+假設讀者正使用一部百科全書的參照（提及）可以接受，只要它沒有提及特定的百科全書（維基百科）或取得的方式（線上）。以英文維基百科某條目為例，在確認原告人的身份前，條目寫道：「Due to concerns over privacy the name of the alleged victim is not being included in this article or at this time.」這種參照即使出現在一個鏡像網站、分叉作品、印刷品或-{只}-包括該條目的維基百科複製品內也不會產生問題。一個更常見的例子是消歧義訊息「本條目是關於甲。如欲搜尋乙，請查看丙。」及所有「請參看」或「相關條目」連結。
+
+==撰寫關於維基百科本身的東西==
+
+當然可以在維基百科撰寫'''關於'''維基百科本身的東西，但上文下理很重要。如果你閱讀關於莎士比亞作品的內容，你不會有興趣去閱讀關於維基百科方針或常規的內容。如果你閱讀關於網上社群的內容，該條目可能會以中性語調拿維基百科作為例子討論，卻沒有特別暗示條目本身是在維基百科看到或是維基百科的一部份。在這框架內，如果你從一篇條目連結至主名字空間以外的另一維基百科頁面，請使用外部連結方式，以容許那些連結可以在某個複製主名字空間內容的網站上仍然有效。

@@ -1,0 +1,128 @@
+Il '''momento di inerzia''' è una grandezza fisica utile per descrivere il comportamento dinamico dei corpi in rotazione attorno ad un asse. Tale grandezza tiene conto di come è distribuita la massa del corpo attorno all'asse di rotazione e dà una misura dell' inerzia del corpo rispetto alle variazioni del suo stato di moto rotatorio.
+
+Il momento di inerzia ha due forme, una forma tensoriale <math>\mathbf{I}</math> che non necessita la conoscenza dell'asse di rotazione. La forma scalare <math>I</math> può essere calcolata per ogni asse dalla forma tensoriale <math>\mathbf{I}</math> usando il doppio prodotto scalare
+
+:<math>
+I = \mathbf{\hat{n}} \cdot \mathbf{I} \cdot \mathbf{\hat{n}} = 
+\sum_{j=1}^{3} \sum_{k=1}^{3} n_{j} I_{jk} n_{k}
+</math>
+dove la sommatoria è sui tre assi delle coordinate cartesiane. Il momento di inerzia scalare <math>I</math> è spesso chiamato semplicemente come "momento di inerzia".
+
+== Definizione scalare ==
+
+Una grandezza scalare è una grandezza che si può definire utilizzando solamente un numero, tale grandezza non assume caratteristiche vettoriali.
+
+=== Sistema di punti materiali ===
+
+Sia ''z'' l'asse di rotazione fisso di un sistema di ''n'' punti materiali. Indichiamo con ''r<sub>i</sub>'' (''i'' = 1,2,....''n'') le distanze di tali punti dall'asse di rotazione e con ''m<sub>i</sub>'' le loro masse. In questo caso il momento di inerzia rispetto all'asse 'z' è definito come
+
+:<math>I_z = \sum_{i=1}^n m_i r_i^2</math>;
+
+Possiamo notare che i punti materiali che si trovano più lontani dall'asse di rotazione danno un maggiore contributo al valore di ''I''.<br />
+Utilizzando il momento di inerzia è possibile esprimere in modo semplice il velocità tangenziali delle particelle e con ''&omega;'' la loro velocità angolare (uguale per tutti i punti se il corpo è rigido)
+
+:<math>L_z = \sum_{i=1}^n m_i r_i v_i  = \sum_{i=1}^n m_i r_i^2 \omega = \left ( \sum_{i=1}^n m_i r_i^2 \right ) \omega = I_z \omega</math>.
+
+In modo analogo l'energia cinetica del corpo rotante è 
+
+:<math>E_k = \frac{1}{2}\sum_{i=1}^n m_i v_i^2  = \frac{1}{2} \sum_{i=1}^n m_i r_i^2 \omega^2 =\frac{1}{2} \left (\sum_{i=1}^n m_i r_i^2 \right )\omega^2 =\frac{1}{2} I_z \omega^2</math>
+
+=== Corpo rigido ===
+
+È possibile estendere la definizione di momento di inerzia di massa anche ad un corpo rigido di volume ''V'', se si considera tale corpo come un sistema di punti materiali, ciascuno caratterizzato da un volume &Delta; ''V'' ed una massa &Delta; ''m = &rho; &Delta; V '' (dove &rho; è la densità); in tale caso il contributo di momento di tale elemento di volume al momento di inerzia  è dato da  &Delta;''I<sub>z</sub>''= ''&rho;'' &Delta; ''V r<sup>2</sup>'' (essendo ''r'' la distanza dell'elemento dall'asse di rotazione). Il momento di inerzia si ottiene allora sommando tutti i contribuiti e passando al continuo, cioè per &Delta; ''V'' &rarr; 0:
+
+:<math>I_z = \int_V \rho r^2 dV \ </math>
+
+Se il corpo è omogeneo (la sua densità è quindi una funzione costante) ed è caratterizzato da particolari simmetrie, allora il calcolo dell'integrale risulta particolarmente semplice.<br />right
+Consideriamo ad esempio un ''cilindro'' omogeneo di massa ''M'', raggio ''R'' e altezza ''H'' (per cui ''M'' = ''&rho; &pi; R<sup>2</sup> H''). La misura del generico elemento di volume è data da H r dr d &phi; (vedi figura a destra) e il momento di inerzia rispetto all'asse del cilindro è dato da
+
+:<math>I_z =  \int_0^R \rho r^2 H 2 \pi r dr = 2 \pi \rho H \int_0^R r^3 dr = \frac {\pi \rho H R^4}{2}=\frac {1}{2}M R^2</math>
+
+{|
+|120px
+|<math>\frac {1}{2}M r^2</math>
+|120px
+|<math>\frac {1}{12}M l^2</math>
+|-
+|120px
+|<math>\frac {1}{12}M (a^2 + b^2)</math>
+|120px
+|<math>\frac {2}{5}M r^2</math>
+|120px
+|<math>\frac {1}{2}M ({r_2}^2 + {r_1}^2)</math>
+|}
+
+=== Calcolo del momento di inerzia di alcuni solidi omogenei ===
+==== Rispetto all'asse di simmetria passante per il centro di massa ====
+===== Momento d'inerzia del cono ===== 
+Formula a mano con grafico|thumb|right
+Per calcolarlo consideriamo il momento finale come la dischi con altezza infinitesima dx (fissando l'origine del raggio del singolo disco varia linearmente al variare di ''x'' secondo il massa lo si calcola utilizzando &rho; (cilindro di altezza dx. Integrando il momento di inerzia del disco da 0 a ''h'' otteniamo il risultato finale.
+
+:<math>dI = \frac {dM \; r^2}{2} \qquad dm = \rho \pi r^2 dx \qquad r = \frac {R}{h} x</math><br /><br />
+:<math>I = \frac {\rho \pi}{2} \int^h_0 \frac {R^4}{h^4} x^4 dx = \frac {\rho \pi R^4}{2 h^4} \frac {h^5}{5} = \frac {3 M}{\pi R^2 h} \frac {\pi R^4}{2 h^4} \frac {h^5}{5} = \frac {3}{10} M R^2</math>
+
+===== Momento di inerzia della sfera =====
+Formula a mano con grafico|thumb|right
+Il momento finale sarà ottenuto sommando i momenti di inerzia dei dischi di raggio del singolo disco varia secondo la funzione che descrive un massa è ottenuto utilizzando &rho; (cilindro di altezza ''dx''. Integrando il momento di inerzia del disco da ''&minus; R'' a ''R'' otteniamo il risultato finale.
+
+Formula matematica
+
+===== Momento di inerzia del parallelepipedo =====
+Calcolato rispetto all'asse z passante per il baricentro del parallelepipedo.
+Si è tenuto conto solamente della definizione del momento di inerzia e della densità di massa:
+
+<math>I=\int_V\rho r^2dV=\rho\int_{-\frac{a}{2}}^{\frac{a}{2}}\int_{-\frac{b}{2}}^{\frac{b}{2}}\int_{-\frac{c}{2}}^{\frac{c}{2}}(x^2+y^2)dx dy dz=</math>
+
+<math>=c \rho\int_{-\frac{a}{2}}^{\frac{a}{2}}\left[x^2y+\frac{y^3}{3}\right]_{-\frac{b}{2}}^{\frac{b}{2}}dx=c \rho\int_{-\frac{a}{2}}^{\frac{a}{2}}(x^2b+\frac{b^3}{12})dx=</math>
+
+<math>=c \rho \left[\frac{x^3}{3}b+x\frac{b^3}{12}\right]_{-\frac{a}{2}}^{\frac{a}{2}}=abc\rho(\frac{a^2}{12}+\frac{b^2}{12})=</math>
+
+<math>=M(\frac{a^2}{12}+\frac{b^2}{12})</math>
+
+==== Rispetto ad un asse parallelo all'asse di simmetria ====
+
+==Momento di inerzia per figure geometriche piane==
+
+Il momento di inerzia delle figure piane rispetto a un asse è utilizzato frequentemente nell’ingegneria civile e nell'ingegneria meccanica. Infatti esso è direttamente correlato alla resistenza della sezione di un elemento soggetto a flessione rispetto ai carichi ortogonali all’asse di riferimento. 
+In pratica il momento d'inerzia è una grandezza che indica l'attitudine di una figura piana a ruotare rispetto ad un asse di riferimento, maggiore è il momento d'inerzia,minore è l'attitudine a ruotare che mostrerà la sezione. 
+
+Il caso tipico è quello della trave.
+Se le forze sulla trave hanno direzione y, si calcola il momento di inerzia della sezione secondo l’asse x (ortogonale a y) passante per il baricentro della sezione della trave.
+
+In pratica, a parità di materiale, quanto più è elevato il momento di inerzia tanto più risulta resistente la trave. Inoltre, quanto più il materiale è lontano dall’asse passante per il suo baricentro, tanto più aumenta in maniera esponenziale il momento di inerzia. Per accorgersene è sufficiente constatare che nelle formule seguenti per il calcolo del momento di inerzia l’altezza h delle diverse figure è con esponente 3.
+
+250px|thumb|Tabell över tröghetsmoment och böjmotstånd.
+250px|thumb|Tabell över tröghetsmoment och böjmotstånd.
+'''Tröghetsmoment''', betecknas med ''I'' eller ''J'', används för att beskriva Euler. Tröghetsmomentet är ett mått på motståndet att accelerera en kropps rotation kring en given axel.
+
+Tröghetsmomentet beror av objektets form och hur massan är distribuerad i objektet,
+:<math>I_0 = \sum_i r_i^2m_i,</math>
+där ''r''<sub>i</sub> är avståndet från masselementet ''m''<sub>i</sub> till exempelvis masscentrum. (Liksom moment varierar tröghetsmomentet beroende på referenssystemet, men genom att bestämma en kropps tröghetsmoment (med avseende på masscentrum) kan sedan parallellaxelsatsen,
+:<math>I_0 = I + d^2m,</math>
+användas för att omvandla tröghetsmomentet med avseende på godtycklig position med avståndet ''d'' från masscentrum.)
+
+För kontinuerliga massdistributioner används integralen
+:<math>I_0 = \int\int\int_V r^2dm.</math>
+d''m'' är det kontinuerliga masselementet från ett volymselement,
+:<math>dm = \rho dV,</math>
+där ''&rho;'' är densiteten.
+
+==Tröghetstensorn==
+Tröghetsmoment i tre dimensioner beskrivs av andra ordningens matris) '''I''' = I<sub>ij</sub>:
+:<math>\bar{\bar{I}} = m(R\cdot R\bar{\bar{1}} - RR) =
+\begin{bmatrix}
+I_{xx} & I_{xy} & I_{xz} \\
+I_{yx} & I_{yy} & I_{yz} \\
+I_{zx} & I_{zy} & I_{zz}
+\end{bmatrix}
+</math>
+För en stel kropp är tröghetstensorn summan av varje partikels moment: ''m'' &rarr; ''m''<sub>i</sub>, '''R''' &rarr; '''R'''<sub>i</sub>. Elementen ''I''<sub>ii</sub> kallas för '''tröghetsmoment''', medan elementen ''I''<sub>ij</sub>, i &ne; j, kallas för '''tröghetsprodukter'''.
+Men det finns ett val av koordinatsystem så att tröghetsmomentet kan skrivas
+:<math>\bar{\bar{I}} = 
+\begin{bmatrix}
+I_{xx} & 0 & 0\\
+0 & I_{yy} & 0 \\
+0 & 0 & I_{zz}
+\end{bmatrix}.
+</math>
+Detta moment motsvarar ett koordinatsystem som sammanfaller med principalaxlarna. Genom att välja principalaxlar fås ett tröghetsmoment som bara innehåller diagonalelement. Alternativt kan tröghetsmomentet diagonaliseras för att hitta principalaxlarna.

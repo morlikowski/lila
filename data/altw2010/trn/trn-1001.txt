@@ -1,0 +1,67 @@
+nhỏ|phải|Hỏi: Các hình này có vẽ được một nét không?
+nhỏ|phải|200px|Trả lời: Được! Nhưng điểm cuối không trùng điểm xuất phát
+nhỏ|phải|200px|Trả lời: Được! Và điểm cuối trùng điểm xuất phát
+Trong đồ thị G=(X,E) được gọi là '''đường đi Euler''' nếu nó đi qua tất cả các cạnh của đồ thị, mỗi cạnh đúng một lần. Đường đi Euler có đỉnh cuối cùng trùng với đỉnh xuất phát gọi là '''chu trình Euler'''.
+Khái niệm ''chu trình Euler'' xuất phát từ Euler giải quyết vào khoảng năm 1837. Đường đi Euler có thể tìm thấy trong các bài toán vui vẽ một nét (vẽ một hình nào đó mà không nhấc bút khỏi mặt giấy, không tô lại cạnh nào hai lần).
+
+Carl Hierholzer là người đầu tiên mô tả hoàn chỉnh đồ thị Euler vào năm 1873, bằng cách chứng minh rằng đồ thi Euler là đồ thị liên thông không có đỉnh bậc lẻ.
+
+==Định nghĩa về chu trình và đường đi Euler==
+#''Đường đi Euler'' (tiếng Anh: ''Eulerian path'', ''Eulerian trail'' hoặc ''Euler walk'') trong đồ thị vô hướng là đường đi của đồ thị đi qua mỗi cạnh của đồ thị đúng một lần.
+#''Chu trình Euler'' (tiếng Anh: ''Eulerian cycle'', ''Eulerian circuit'' hoặc ''Euler tour'') trong đồ thị vô hướng) là một chu trình đi qua mỗi cạnh của đồ thị đúng một lần.
+#Đồ thị gọi là ''đồ thị Euler'' khi nó chứa chu trình Euler, và được gọi là ''nửa Euler'' khi nó chứa đường đi Euler.
+#Đối với các đồ thị có hướng, các thuật ngữ đường đi và chu trình được thay bằng ''đường đi có hướng'' và ''chu trình có hướng''.
+*'''Ghi chú:''' Một đồ thị là Euler thì sẽ là nửa Euler; điều ngược lại không đúng.
+
+==Định lý Euler về chu trình và đường đi Euler==
+nhỏ|phải|165px|Đồ thị Bảy cây cầu Königsberg có 4 đỉnh bậc lẻ nên không là đồ thị Euler
+# Đồ thị vô hướng liên thông G=(X, E) có chu trình Euler khi và chỉ khi G không có đỉnh bậc lẻ.
+# Đồ thị vô hướng liên thông G=(X, E) có đường đi Euler khi và chỉ khi G có không quá hai đỉnh bậc lẻ. Nếu G có hai đỉnh bậc lẻ thì đường đi Euler có hai đầu đường đi nằm ở hai đỉnh bậc lẻ.
+
+== Các tính chất khác ==
+#Một đồ thị vô hướng là đồ thị Euler nếu nó liên thông và có thể phân tích thành các chu trình có các cạnh rời nhau.
+#Nếu đồ thị vô hướng ''G'' là Euler thì đồ thị đường ''L''(''G'') cũng là Euler.
+#Đồ thị có hướng là Euler nếu nó liên thông và mọi đỉnh của nó có bậc vào bằng bậc ra.
+#Đồ thị có hướng là Euler nếu nó liên thông và có thể phân tích thành các chu trình có hướng với các cung rời nhau.
+
+==Giải thuật==
+phải|nhỏ|220px|Bỏ cây cầu nối B với D, xây cây cầu nối A với C, đồ thị không có đỉnh bậc lẻ nên là đồ thị Euler
+Giả sử ''G''=(''V'',''E'') là đồ thị vô hướng, liên thông,  tất cả các đỉnh đều có bâc chẵn hơn nữa G là hữu hạn. Khi đó, tất cả các đỉnh đều có bậc lớn hơn 1.
+
+thumb|165px|The Königsberg Bridges graph. This graph is not Eulerian, therefore, a solution does not exist.
+thumb|Every vertex of this graph has an even degree, therefore this is an Eulerian graph. Following the edges in alphabetical order gives an Eulerian circuit/cycle.
+In path in a graph which visits each edge exactly once. Similarly, an '''Eulerian circuit''' is an Eulerian path which starts and ends on the same vertex. They were first discussed by Leonhard Euler while solving the famous Seven Bridges of Königsberg problem in 1736. Mathematically the problem can be stated like this:
+
+:Given the graph on the right, is it possible to construct a path (or a cycle, i.e. a path starting and ending on the same vertex) which visits each edge exactly once?
+
+Graphs which allow the construction of so called '''Eulerian circuits''' are called '''Eulerian graphs'''. Euler observed that a necessary condition for the existence of Eulerian circuits is that all vertices in the graph have an even degree, and that for an Eulerian path either all, or all but two (i.e., the two endpoint) vertices have an even degree; this means the Königsberg graph is ''not'' Eulerian. Sometimes a graph that has an Eulerian path, but not an Eulerian circuit (in other words, it is an open path, and does not start and end at the same vertex) is called '''semi-Eulerian'''.
+
+Carl Hierholzer published the first complete characterization of Eulerian graphs in 1873, by proving that in fact the Eulerian graphs are exactly the graphs which are connected and where every vertex has an even degree.
+
+==Definition==
+An '''Eulerian path''', '''Eulerian trail''' or '''Euler walk''' in an path that uses each edge exactly once. If such a path exists, the graph is called '''traversable'''.
+ 
+An '''Eulerian cycle''', '''Eulerian circuit''' or '''Euler tour''' in an undirected graph is a cycle that uses each edge exactly once.  If such a cycle exists, the graph is called '''Eulerian''' or '''unicursal'''. The cycle starts and ends at the same vertex.
+
+For directed path and cycle with directed cycle.
+ 
+The definition and properties of Eulerian paths, cycles and graphs are valid for multigraphs as well.
+
+== Notes ==
+Some people reserve the terms path and cycle to mean ''non-self-intersecting'' path and cycle.  A (potentially) self-intersecting path is known as a '''trail''' or an '''open walk'''; and a (potentially) self-intersecting cycle, a '''circuit''' or a '''closed walk'''. This ambiguity can be avoided by using the terms Eulerian trail and Eulerian circuit when self-intersection is allowed.
+
+== Properties ==
+*A connected undirected graph is Eulerian if every graph vertex has an even degree.
+*An undirected graph is Eulerian if it is connected and can be decomposed into edge-disjoint cycles.
+*If an undirected graph ''G'' is Eulerian then its line graph ''L''(''G'') is Eulerian too.
+*A directed graph is Eulerian if it is connected and every vertex has equal in degree and out degree.
+*A directed graph is Eulerian if it is connected and can be decomposed into edge-disjoint directed cycles.
+*An undirected graph is '''traversable''' if it is connected and at most two vertices in the graph are of odd degree.
+
+== Constructing Eulerian paths and cycles ==
+Consider a graph known to have all edges in the same component and at most two vertices of odd degree. We can construct an Eulerian path (not a cycle) out of this graph by using '''Fleury's algorithm''', which dates to 1883. We start with a vertex of odd degree—if the graph has none, then start with any vertex. At each step we move across an edge whose deletion does not result in more than one connected component, unless we have no choice, then we delete that edge. At the end of the algorithm there are no edges left, and the sequence of edges we moved across forms an Eulerian cycle if the graph has no vertices of odd degree or an Eulerian path if there are two vertices of odd degree.
+
+The definition of a Hamiltonian path is very similar (a Hamiltonian path visits every vertex exactly once, while an Eulerian path visits every edge exactly once).  In practice, however, it is much more difficult to construct a Hamiltonian path or determine whether a graph is Hamiltonian, as that problem is NP-complete.
+
+==Counting Eulerian circuits==
+The number of Eulerian circuits in digraphs can be calculated using the so called '''BEST-theorem''', named after de '''B'''ruijn, van Aardenne-'''E'''hrenfest, '''S'''mith and '''T'''utte. 

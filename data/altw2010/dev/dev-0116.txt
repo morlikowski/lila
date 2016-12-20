@@ -1,0 +1,94 @@
+{{infobox Franse gemeente| <!--Cuzieu (Loire)-->
+|plaatsnaam= Cuzieu
+|wapen= 
+|kaart= 
+|regio= Rhône-Alpes 
+|departement= Loire (42)
+|arrondissement= Montbrison
+|kanton= Saint-Galmier
+|jaar= 1999
+|inwoners= 1389
+|dichtheid= 119,7
+|oppervlakte= 11,6
+|water= 
+|latitudeGraden= 45 |latitudeMinuten= 37|latitudeSeconden= 0
+|longitudeGraden= 4 |longitudeMinuten= 16 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 198 |kaartY= 181
+|code= 42081
+|postcode= 42330
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Cuzieu''' is een gemeente in het Franse departement Loire (regio Montbrison.
+
+==Geografie==
+De oppervlakte van Cuzieu bedraagt 11,6 km², de bevolkingsdichtheid is 119,7 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:1800 color:gray1 width:1       
+  from:start till:end             
+  bar:1200 color:gray1              
+  from:start till:end            
+  bar:600 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,69)(84,64) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 524 1968: 466
+  points:(84,64)(100,75)    color:blue    width:2 #1975: 585
+  points:(100,75)(128,87)   color:blue    width:2 #1982: 712
+  points:(128,87)(160,129)   color:blue    width:2 #1990: 1155
+  points:(160,129)(196,151)   color:blue    width:2 #1999: 1389
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+{{FRA gmina infobox
+|    herb_gminy = 
+|   flaga_gminy = 
+|    mapa_gminy = 
+|         Gmina = Cuzieu
+|        region = Rodan-Alpy
+|   departament = Loire
+|  powierzchnia = 11,55
+|      stopniEW = 4 |minutEW = 16 
+|      stopniNS = 45 |minutNS = 37 
+|          szer = N
+|          dług = E
+|      wysokosc = 
+|           rok = 1990
+|     populacja = 1&nbsp;155
+|       gęstość = 100
+|  kod_pocztowy = 42330
+|         INSEE = 42081
+|}}
+'''Cuzieu''' to miejscowość i gmina we Francji, w regionie Loire.
+
+Według danych na rok regionu Rodan-Alpy Cuzieu plasuje się na 703. miejscu pod względem liczby ludności, natomiast pod względem powierzchni na miejscu 1008.).
+
+=== Linki zewnętrzne ===
+* Źródło danych: [http://www.insee.fr Insee]
+* '''Mapy i zdjęcia satelitarne: '''
+** Zdjęcie satelitarne: [http://maps.google.com/maps?ll=45.6167,4.2667&spn=0.1,0.1&t=k Google maps]
+** Mapa: [http://maps.msn.com/(cgxnej455qpgxeu5vurxtejz)/map.aspx?&lats1=45.6167&lons1=4.2667&alts1=14&regn1=2 MSN World Atlas]

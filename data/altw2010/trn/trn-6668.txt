@@ -1,0 +1,159 @@
+{{Espainiako udalerri infotaula
+| izena = Ollauri
+| bandera = 
+| armarria = 
+| nongo = Ollauriko
+| ofiziala = Ollauri
+| erkidegoa = Errioxako Autonomia ErkidegoaErrioxa
+| probintzia = Errioxako Autonomia ErkidegoaErrioxa
+| eskualdea = Haroko eskualdeaHaro
+| postakodea = 26220
+| kokapena = Ollauri - La Rioja (Spain) - Municipality Map.svg
+| koordenatuak = 
+| garaiera = 493
+| azalera = 2,6
+| biztanleria = 308
+| bizt_urtea = 2005
+| dentsitatea = 154
+| distantzia = 40
+| hiriburura = Logroñora
+| sorrera = 
+| herritarra = 
+| alkatea = Mª Luisa Ruiz Nanclares (PSOE)
+| webgunea = http://www.ollauri.com/ www.ollauri.com/
+| oharrak = 
+}}
+'''Ollauri''' Errioxako udalerria da, 2005ean 308 biztanle zituena.
+
+== Biztanleriaren bilakaera ==
+
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.7)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize = width:455 height:373
+PlotArea = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period = from:0 till:1000
+TimeAxis = orientation:vertical
+AlignBars = justify
+ScaleMajor = gridcolor:darkgrey increment:200 start:0
+ScaleMinor = gridcolor:lightgrey increment:40 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1900 text:1900
+  bar:1910 text:1910
+  bar:1920 text:1920
+  bar:1930 text:1930
+  bar:1940 text:1940
+  bar:1950 text:1950
+  bar:1960 text:1960
+  bar:1970 text:1970
+  bar:1980 text:1980
+  bar:1990 text:1990
+  bar:2000 text:2000
+  bar:2005 text:2005
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1900 from:0 till: 839
+  bar:1910 from:0 till: 678
+  bar:1920 from:0 till: 655
+  bar:1930 from:0 till: 596
+  bar:1940 from:0 till: 543
+  bar:1950 from:0 till: 509
+  bar:1960 from:0 till: 422
+  bar:1970 from:0 till: 357
+  bar:1980 from:0 till: 284
+  bar:1990 from:0 till: 321
+  bar:2000 from:0 till: 306
+  bar:2005 from:0 till: 308
+
+{{НП
+|статус=муниципалитет
+|русское название=Ольяури
+|оригинальное название=Ollauri
+|страна=Испания
+|вид региона=Автономное сообщество
+|регион=Риоха (Логроньо)Риоха
+|регион в таблице=Риоха (Логроньо)Риоха
+|вид района=Провинция ИспанииПровинция
+|район=РиохаРиоха
+|район в таблице=РиохаРиоха
+|вид общины=Район ИспанииРайон
+|община=Аро (комарка)Аро
+|община в таблице=Аро (комарка)Аро
+|подчинение=
+|герб=
+|флаг=
+|ширина герба=
+|lat_dir=N
+|lat_deg=42
+|lat_min=33
+|lat_sec=0
+|lon_dir=W
+|lon_deg=2
+|lon_min=50
+|lon_sec=0
+|CoordAddon=
+|CoordScale=
+|ЯндексКарта=
+|размер карты страны=
+|размер карты региона=
+|размер карты района=
+|карта страны=
+|карта региона=
+|карта района=
+|внутреннее деление=
+|вид главы=Мэр
+|глава=Мª Луйса Руйс Нанкларес<br>ИСРП)
+|дата основания=
+|первое упоминание=
+|прежние имена=
+|статус с=
+|площадь=2,60
+|вид высоты=Высота
+|высота центра НП=493
+|климат=
+|официальный язык=
+|официальный язык-ref=
+|население=325
+|год переписи=2007
+|плотность=
+|агломерация=
+|национальный состав=
+|конфессиональный состав=
+|этнохороним=
+|часовой пояс=+1
+|DST=есть
+|телефонный код=
+|почтовый индекс=
+|почтовые индексы=26220
+|автомобильный код=
+|вид идентификатора=
+|цифровой идентификатор=
+|категория в Commons=
+|сайт=http://www.ollauri.com/
+|язык сайта=es
+|язык сайта 2=
+|язык сайта 3=
+|язык сайта 4=
+|язык сайта 5=
+|add1n=Положение<br>на карте<br>провинции
+|add1=150px
+|add2n=
+|add2=
+|add3n=
+|add3=
+|ширина флага=100
+|остров=null
+|очтовый индекс=null
+|ифровой идентификатор=null
+}}
+
+'''Ольяури''' ()  —  Испании, входит в провинцию Риоха в составе автономного сообщества Аро. Занимает площадь 2,60 км². Население 325 человек (на 2007 год). Расстояние до административного центра провинции — 5 км.

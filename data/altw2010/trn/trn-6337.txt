@@ -1,0 +1,49 @@
+{{Карточка ОС
+  |name='''ДЕМОС'''
+  |screenshot=
+  |caption=
+  |developer=Институт атомной энергии им. И.В.Курчатова
+  |family=BSD UNIX
+  |source_model=
+  |latest_release_version=
+  |latest_release_date=
+  |license=
+  |kernel_type=
+  |working_state=Историческое
+  |website=
+}}
+
+'''ДЕМОС''' (Диалоговая Единая Мобильная Операционная Система) — советский/российский клон Unix, созданный на основе BSD.
+
+Примерно в 1982–1983 году копии операционной системы UNIX (v6 и v7) были привезены в Москву. На их основе в Институте атомной энергии им. И.В.Курчатова, при участии ряда специалистов других организаций, проводилось приспособление системы к местным условиям — локализация на русский язык и адаптация к отечественной технике, прежде всего — к машинам СМ-4 и СМ-1420. В то же время локализация проводилась в Институте повышения квалификации Минавтопрома, там новая система называлась «МНОС» (Машинно-Независимая Операционная Система). Позже две команды объединились, а система была переименована в ДЕМОС (Диалоговая Единая Мобильная Операционная Система).
+
+Разработчики ДЕМОС были награждены премией Совета министров СССР по науке и технике.
+
+{{Infobox_OS
+| name                   = DEMOS
+| logo                   =
+| screenshot             =
+| caption                =
+| developer              = Kurchatov Institute of Atomic Energy, DEMOS Co-operative
+| source_model           = ?
+| kernel_type            = ?
+| supported_platforms    = SM-4, Elektronika-1082, Elektronika-85, BESM, ES EVM, VAX-11, PC/XT, Motorola 68020
+| ui = Command line interface
+| family = BSD Unix
+| latest_release_version = ?
+| latest_release_date    = 1991
+|marketing_target       =
+| language               = ?
+| updatemodel            =
+| package_manager        =
+| working_state          = Historical
+| license                = ?
+| website                =
+}}
+'''DEMOS''' (meaning "Dialogovaya Edinaya Mobilnaya Operatsionnaya Sistema" (Диалоговая Единая Мобильная Операционная Система, ДЕМОС), or "Interactive Common Portable Operating System") was a Unix-like operating system developed in the Soviet Union. It was derived from BSD Unix.
+
+Its development was initiated in the Unix Version 6). MNOS and DEMOS version 1.x were gradually merged from 1986 until 1990, leaving the joint OS, DEMOS version 2.x, with support for different Cyrillic charsets (KOI-8 and U-code, used in DEMOS 1 and MNOS, respectively).
+
+Initially it was developed for DEC Professional), and a number of Motorola 68020-based microcomputers.
+
+The development of DEMOS effectively ceased in 1991, when the second project of the DEMOS team, RELCOM, took priority.

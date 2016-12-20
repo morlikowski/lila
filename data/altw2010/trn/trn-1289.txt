@@ -1,0 +1,75 @@
+En photographie, les '''paramètres d'exposition''' sont les caractéristiques liées à la ouverture du diaphragme et le temps de pose. Lorsque l’exposition est inadaptée on parle de « sous-exposition » (l'image sera trop sombre) ou de « sur-exposition » (l'image sera trop claire).
+
+==Automatique ou manuel ?==
+Les appareils photographiques modernes sont pourvus d'automatismes qui prennent en compte les conditions de prise de vue, et souvent même les préférences de l'utilisateur, permettant de réaliser des images techniquement correctes avec le minimum d'intervention du photographe : « Visez et appuyez, nous ferons le reste ! ».
+
+Toutefois, les professionnels et les amateurs exigeants peuvent souhaiter obtenir certains résultats que l'automatisme intégral ne permet pas. D'autre part, de nombreux appareils anciens sont encore utilisés, qui ne sont pas pourvus des derniers perfectionnements techniques. C'est pourquoi il est important de connaître les différents réglages nécessaires pour réussir une photo.
+
+==Sensibilité==
+
+Pour les appareils argentiques, il faut choisir une pellicule avec une sensibilité adaptée aux photos qu’on désire prendre. Sur les appareils photo reflex numériques, il est possible de simuler les valeurs de sensibilité ISO.
+
+== Viser et cadrer l'image ==
+
+L’appareil photographique étant chargé d’une pellicule de caractéristiques connues (sensibilité pour tous les films, compensation chromatique pour la couleur) pour faire une photo il convient tout d'abord de cadrer, c’est-à-dire d’orienter l’appareil pour faire apparaître dans le viseur ce que nous souhaitons photographier. Ceci peut sembler évident, mais les divers paramètres à régler dépendent des caractéristiques du sujet photographié et de ses conditions d'éclairement, c’est-à-dire de ''ce qui apparaît dans le viseur''. Évidemment aucun automatisme ne peut ici se substituer à l'opérateur.
+
+== La mise au point ==
+
+Il convient ensuite de régler la mise au point, ou « faire la netteté », c’est-à-dire de positionner l'objectif par rapport au plan du film à la distance correcte pour former sur celui-ci une image nette. En effet les distances entre l’objet photographié, le centre optique (ou « point nodal ») de l’objectif et l’image formée sont liées par une relation mathématique avec la distance focale de l'objectif : <math>1/d+1/d '=1/f</math>, dans laquelle d = distance sujet–objectif, d' = distance objectif–surface sensible, f = distance focale de l'objectif.
+
+Cette opération de mise au point est d'autant plus importante que le sujet est plus proche, pour l'utilisation d'une focale dite « normale » (angle de champ pour le format aux alentours de 45°), une erreur de 2 mètres à 20 mètres de distance est sans importance, une erreur de 10 cm à 1 mètre est nettement plus sensible. Par contre si l’optique utilisée est une longue focale, une erreur de mise au point sera plus critique même à 20 mètres : la profondeur de champ (ou intervalle de netteté) diminue avec l'allongement de la focale (et inversement).
+
+===Mise au point automatique===
+L'''autofocus'' effectue automatiquement ce réglage. Sur les appareils les plus sophistiqués, le système est capable de détecter automatiquement la zone du viseur vers laquelle se dirige l'œil du photographe pour mettre au point sur l’objet regardé. Cet automatisme suppose une motorisation pour réaliser le déplacement de l'objectif. Certains autofocus permettent d'utiliser n'importe quel type d'objectif et émettent un signal sonore ou lumineux quand le réglage effectué manuellement est correct.
+
+===Mise au point manuelle===
+Sur les appareils les plus simples, estimer ou mesurer la distance séparant le sujet de l’appareil et régler la bague de mise au point de l’objectif en conséquence.
+
+Sur les appareils télémétriques, un dispositif optique à coïncidence aide à évaluer la distance du sujet. Ce télémètre est en général couplé avec la bague de mise au point.
+
+Sur les appareils reflex le viseur montre l'image vue par l'objectif, renvoyée par un jeu de miroir mobile et de prisme vers un écran en verre dépoli. Le photographe contrôle donc sur ce dépoli à la fois le cadrage de son image et la netteté. Différents accessoires (stigmomètre, microprismes) peuvent aider à la mise au point.
+
+== Régler diaphragme et vitesse ==
+
+Maintenant il faut mesurer ou estimer la quantité de lumière réfléchie par le sujet vers l’appareil : c’est le travail du posemètre (ou ''cellule''). Ceci afin que la surface sensible reçoive la quantité de lumière nécessaire et suffisante pour l'obtention d'une image correcte.
+Cette quantité de lumière peut être contrôlée en intensité par le diaphragme, et en durée d'exposition par l’obturateur.
+ 
+Le photographe pourra donc choisir entre deux procédures en fonction du sujet photographié, des conditions de la prise de vue et du résultat recherché : soit sélectionner d’abord une vitesse d’exposition et régler ensuite l’ouverture du diaphragme, soit choisir d'abord une ouverture et régler ensuite à la vitesse convenable.
+
+===Mode automatique===
+Le posemètre ayant mesuré la quantité de lumière, un programme va régler automatiquement diaphragme et vitesse sur les valeurs optimales. Les appareils les plus évolués offrent un choix entre plusieurs programmes (« action » pour privilégier une vitesse rapide, « paysage » pour une plus grande profondeur de champ).
+
+thumb|A photograph with an exposure time of 25 seconds
+thumb|A photograph of a night-time sky with an exposure time of 8 seconds
+In photography, '''exposure''' is the total amount of light allowed to fall on the photographic medium (photographic film or image sensor) during the process of taking a photograph. Exposure is measured in lux seconds, and can be computed from exposure value (EV) and scene luminance.
+
+==Correct exposure==
+200|right|thumb|A two second exposure of a [[Poi (juggling)|fire poi ball dance]]
+The "correct" exposure for a photograph is determined by the sensitivity of the medium used.  For photographic film, sensitivity is referred to as film speed and is measured on a scale published by the International Organization for Standardization (ISO). Faster film requires less exposure and has a higher ISO rating. Exposure is a combination of the length of time and the level of illumination received by the photosensitive material. Exposure time is controlled in a camera by shutter speed and the illumination level by the lens aperture. Slower shutter speeds (exposing the medium for a longer period of time) and greater lens apertures (admitting more light) produce greater exposures.  
+
+An approximately correct exposure will be obtained on a sunny day using ISO 100 film, an aperture of  and a shutter speed of 1/100th of a second. This is called the sunny 16 rule: at an aperture of 16 on a sunny day, a suitable shutter speed will be one over the film speed (or closest equivalent).
+
+Ultimately there is no such thing as "correct exposure", as a scene can be exposed in many ways, depending on the desired effect a photographer wishes to convey.
+
+==Reciprocity==
+An important principle of exposure is reciprocity.  If one exposes the film or sensor for a longer period, a reciprocally smaller aperture is required to reduce the amount of light hitting the film to obtain the same exposure.  For example, the photographer may prefer to make his sunny-16 shot at an aperture of  (to obtain a shallow depth of field). As  is 3 '''stop'''s 'faster' than , with each stop meaning double the amount of light, a new shutter speed of (1/125)/(2·2·2) = 1/1000  is needed.  Once the photographer has determined the exposure, aperture stops can be traded for halvings or doublings of speed, within limits.
+<br clear="all" />
+800px|thumb|center|A demonstration of the effect of exposure in night photography. Longer shutter speeds mean increased exposure.
+
+The true characteristic of most photographic emulsions is not actually linear, (see sensitometry) but it is close enough over the exposure range of about one second to 1/1000th of a second.  Outside of this range, it becomes necessary to increase the exposure from the calculated value to account for this characteristic of the emulsion. This characteristic is known as ''reciprocity failure''.  The film manufacturer's data sheets should be consulted to arrive at the correction required as different emulsions have different characteristics.
+
+Digital camera image sensors can also be subject to a form of reciprocity failure.<ref></ref>
+
+==Determining exposure==
+thumb|A fair ride taken with a 2/5 second exposure.
+thumb|A photograph of the Forth Rail Bridge with an exposure time of 13 seconds - the effect of a long exposure shot on moving water is to make it seem creamy and opalescent
+The high dynamic range) by combining several different exposures (varying only the shutter speeds) made in quick succession.
+
+Today, most cameras automatically determine the correct exposure at the time of taking a photograph by using a built-in light meter, or multiple point meters interpreted by a built-in computer, see metering mode.
+
+Negative/Print film tends to bias for exposing for the shadow areas (film dislikes being starved of light), with digital favouring exposure for highlights. See latitude below.
+
+==Latitude==
+Latitude is the degree by which you can over, or under expose an image, and still recover an acceptable level of quality from an exposure. Typically negative film has a better ability to record a range of brightness than slide/transparency film or digital. Digital should be considered to be the reverse of print film, with a good latitude in the shadow range, and a narrow one in the highlight area; in contrast to film's large highlight latitude, and narrow shadow latitude. Slide/Transparency film has a narrow latitude in both highlight and shadow areas, requiring greater exposure accuracy.
+
+Negative film's latitude increases somewhat with high ISO material, in contrast digital tends to narrow on latitude with high ISO settings.

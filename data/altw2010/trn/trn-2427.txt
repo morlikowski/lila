@@ -1,0 +1,39 @@
+Une '''notation en jonglerie''' est, à l’image d'une notation musicale, le fait de transcrire sur un support la description d’un mouvement de jonglerie afin de pouvoir le conserver, le diffuser et l’interpréter de manière différée. 
+
+On confond souvent notations et siteswap qui est la première à avoir été inventée. Au delà de leurs aspects pratiques, les notations permettent par exemple à des programmes informatiques de générer et d'animer virtuellement toute figure de jonglerie imaginable. Cet outil créatif s'est répandu à travers la toile et constitue aujourd’hui la base de notations comparable au solfège en musique.
+
+== Historique ==
+right|thumb|78px|Fontaine à 10 balles.
+Les notations de jonglerie sont récentes comparées à l'histoire des notation du mouvement en danse. Elle apparaisse au début des années 1980 avec l'avènement de l'informatique et des groupes de discussion. C'est à cette époque que les jongleurs « scientifiques » ont cherché à mettre sur pied un système de notation pour de modéliser et de décrire les figures de jonglerie. Des figures « plus facilement réalisées que décrites » : bien qu’il puisse être facile d’apprendre un mouvement donné et de l’executer devant les autres, il est souvent plus difficile de le transmettre par la parole ou par écrit. Plusieurs systèmes de notation basés sur des chiffres et des diagrammes permettent de résoudre ce problème de communication.
+
+Claude Shannon fut certainement un des pionniers en ce sens, il est à l’origine de la première équation de la jonglerie reliant le nombre d'objets, le nombre de mains ainsi que différentes portions du temps de vol des objets.
+
+Les bases du « ''vanilla siteswap'' » sont solidement posées pendant l'été 1991 par Bruce Tiemann puis plusieurs théories viendront par la suite se greffer à la notation pour l'améliorer. Parmi elles on peut citer : 
+*le notation multi mains (MHN) d'Ed Carstens en 1992 qui étend la notation vanille du siteswap asynchrone ainsi que le synchrone à une notation permettant d'aller jusqu'à décrire de la polyrythmie.
+*la notation MMSTD (''Mills' Mess State Transition Diagram'') de Mike Day qui décrit le croisement des bras.
+*la théorie des figures autour du corps de Denis Paumier en 2001.
+
+== Contraintes physiques, règles mathématiques ==
+Un objet en vol libre subit les effets la aérienne et à rebond).
+
+La plupart des notations ne tiennent pas compte de la forme des objets. Elle se passe d'un grand nombre de contraintes physiques et sont ainsi utilisées pour décrire la manipulation d'objets variés. Le fait que chaque objet lancé retombe à un moment précis permet de séquencer la position et l'ordre des lancers et réceptions des objets à chaque temps. Pour décrire les mouvements de jonglerie, cette contrainte spatio-temporelle suffit à construire un langage formel simple à partir d'un ensemble de règles mathématiques.
+
+It has often been said, of many juggling patterns, that it is ''"easier done than said"'', while it might be easy to learn a given manoeuvre and demonstrate it for others, it is often much harder to communicate the idea accurately using speech or plain text. 
+
+To get around this problem, various numeric or diagram-based notation systems have been developed. These systems are useful for communicating patterns or tricks between jugglers, as well as for investigating and discovering new patterns. 
+
+==Diagram-based systems==
+While diagrams are the most visual and reader-friendly way to notate many juggling patterns, they rely on images, so are complicated to produce and unwieldy to share via text or speech.
+
+* '''Ladder diagrams''' - Each rung on the "ladder" represents a point in time (or "beat"). The juggled objects are represented as lines, their paths through time and between a pair of hands.
+* '''Causal diagrams''' - Similar to the ladder diagram but doesn't show the props held in a juggler's hands. Instead it only shows each "problem" &mdash; an incoming prop &mdash; and what the juggler should do to make space in his or her hands to catch that incoming prop. It is usually used for club passing and can be displayed or edited in some juggling software.
+*'''Mills Mess State Transition Diagrams''' - Mills Mess is a popular pattern in which the arms cross and uncross. Mills Mess State Transition Diagrams can be used to track these basic arm movements.
+
+==Numeric systems==
+The following notation systems use only numbers and common characters. The patterns can easily be communicated by text. Most numeric systems are designed to be processed by software juggling simulators &mdash; for example, to view juggling patterns as computer animations.
+
+===Siteswap===
+
+Developed in 1985, siteswap is the most common juggling notation by far. In its most basic form, "vanilla siteswap", it is very easy to use, as each pattern is reduced to a simple sequence of digits, such as "3", "97531" or "744". However, vanilla siteswap can notate only the most basic two-handed patterns.
+
+For more slightly more complicated patterns, extra rules and syntax are added to create the following two siteswap extensions:

@@ -1,0 +1,31 @@
+thumb|ตัวอย่างเฉดสีแบบเซล (ขวา) และต้นฉบับภาพเรนเดอร์แบบปกติ (ซ้าย)
+
+'''เซล''' (Cel) หรือ '''เฉดเซล''' (Cel-shading) เป็นลักษณะการเรนเดอร์งานในคอมพิวเตอร์กราฟิกส์ชนิดหนึ่ง ให้มีลักษณะเหมือนภาพวาดในลักษณะการ์ตูน เซลมีการใช้งานในหลายส่วนทั้งในการ์ตูนและในวิดีโอเกม ตัวอย่างเช่นในเกม เซลด้าในภาคของเครื่องนินเทนโดดีเอสและวี และเกมดราก้อนเควสต์ในภาค IX
+
+คำว่า"เซล"มาจากแผ่นเซลลูลอยด์ที่ใช้เป็นเครื่องมือในการวาดการ์ตูน
+
+thumb|right|Rendu conventionnel à gauche, et ''cel-shading'' à droite
+Le '''cel-shading''' (littéralement « ombrage de celluloïd »), également nommé '''toon-shading''' est un modèle d'éclairage non photoréaliste utilisé en synthèse d'image. Il permet de générer des images à l'aspect « cartoon ».
+
+Graphiquement, le rendu se caractérise par des contours marqués et une palette de couleurs réduite, comme dans les dessins animés traditionnels, d'où la référence aux celluloïdes. On emploie également souvent le terme « cartoon » pour désigner cette technique. Les mimiques des personnages sont généralement exagérées pour accompagner le style dessin-animé, mais cela n'est pas une obligation.
+
+Dans le cas du jeu ''XIII'', on attribue l'emploi du cel-shading au rendu « bande dessinée » ou « dessin-animé ».
+
+La révélation commerciale de cette technique revient à 2000. Certains donneraient l'invention de cette technique au jeu ''Super Mario World 2: Yoshi's Island'' , de Nintendo.
+Plus récent, ''Crackdown'' de Real Time Worlds apporte un croisement entre réalité et bande dessinée.
+Le but de cette technique est d'obtenir un rendu différent mais aussi parfois d'économiser la puissance de traitement des textures, qui alors sont souvent absentes.
+
+== Techniques de cel-shading pour la 3D temps réel ==
+Il existe différentes méthodes permettant d'obtenir un rendu cel-shading en 3D cartes graphiques, tandis que d'autres font appel à des extensions disponibles uniquement sur les cartes récentes, comme les pixels shaders. Toutes ces méthodes ont en commun l'addition de deux effets : le tracé des contours  du modéle 3D et le seuillage des ombres (c'est-à-dire le remplacement des ombres en dégradées par  une succession de niveaux de gris). Ce mode de rendu, bien que diminuant le réalisme, est donc plus coûteux en ressources (aussi bien CPU que GPU) qu'un affichage basique car les objets doivent être rendus en plusieurs étapes.
+
+700px|Exemple de rendu cel-shading en 3 étapes : contours, texture de base, puis seuillage des ombres
+
+Exemple de rendu cel-shading en 3 étapes : contours, texture de base, puis seuillage des ombres.
+
+=== Tracé des contours ===
+Deux méthodes permettent de tracer les contours d'un objet 3D. La première consiste à n'afficher que les contours des faces arrières de l'objet sous forme de traits noirs épais.  L'affichage des faces arrières est gérée par la carte graphique, en inversant simplement le back-face culling (fonction d'optimisation permettant de ne dessiner que les faces avants d'un objet dans un rendu 3D normal). 
+Lorsque cette étape est terminée, l'objet doit alors être réaffiché normalement pour que les faces arrières précédemment affichés ressortent comme des contours. Cette méthode a l'avantage d'être simple à mettre en œuvre, mais son inconvénient majeur est de donner l'illusion que les contours 
+grossissent quand l'objet s'éloigne. En réalité, c'est l'épaisseur des lignes qui reste constante.
+
+Le tracé des contours peut également être réalisé en utilisant deux objets 3D quasiment identiques :
+l'objet lui-même et son enveloppe (qui ne peut pas être générée par un simple agrandissement du premier). Les contours s'obtiennent alors en affichant les faces arrières de l'enveloppe, en noir, puis par affichage de l'objet. Comme l'enveloppe est légèrement plus grande que l'objet, elle est visible sur ses bords. Cette méthode, utilisée dans le jeu XIII, génère des contours plus précis que la précédente, sans grossissement avec l'éloignement, mais elle demande plus de mémoire pour stocker l'objet et son enveloppe.

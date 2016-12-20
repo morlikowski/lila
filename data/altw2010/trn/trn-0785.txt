@@ -1,0 +1,70 @@
+مخطط بوده (أو بودي) Bode-Diagramm هو عبارة عن إحدى الطرق لرسم دالات رياضية مركبة. يعود اسم المخطط إلى عالم الهندسة الكهربائية الأمريكي هيندريك فاده بوده. و يتكون مخطط بوده من رسمين أحدهما يحتوي على تقوية الدالة Amplitude بالنسبة للترددات المختلفة و الآخر على طورها Phase حسب الترددات المختلفة. ذلك يرجع إلى أنك لو قمت برسم الدالة الرياضية المركبة في الفضاء المركب أي الفضاء المتكون من الإحداثيات الخيالية و الإحداثيات الحقيقية فإن كل نقطة في هذ الفضاء يكفي لتحديدها معرفة طول الشعاع من مركز الإحداثيات إلى النقطة و الزاوية (طور Phase) التي يحدثها هذا الشعاع مع مستقيم الإحداثيات الحقيقية. وبذلك يكون مخطط (أو طريقة رسم) بوده يحتوي على نفس المعلومات (أي كمية المعلومات) كرسم الدالة في الفضاء المركب (هذا الرسم يدعى أحيانا رسم نيكولس). عادة ما تكون في مخطط بوده الإحداثيات لوغارتمية مما يسمح برسم مجال كبير من الدالة. التقوية تكون عادة بالديسيبال أما الطور أو الزاويا فتعطى عادة بالغراد.
+
+تصنيف:نظرية التحكم
+
+Le '''diagramme de Bode''' est un moyen de représenter le comportement fréquentiel d'un système. Il permet une résolution graphique simplifiée, en particulier pour l'étude des fonctions de transfert de systèmes analogiques. Il est utilisé pour les propriétés de marge de gain, marge de phase, gain continu, Bande passante, rejet des perturbations et stabilité des systèmes.
+
+==Définition==
+
+Le diagramme de Bode d'un système de réponse fréquentiel <math>H(j\omega)\ </math> est composé de deux tracés : 
+*le gain (ou amplitude) en décibels (dB). Sa valeur est calculée à partir de <math>20\log_{10}{(|H(j\omega)|)}\ </math>.
+*la phase en degré, donnée par <math>\arg{(H(j\omega))}\ </math>
+
+L'échelle des pulsations est logarithmique et est exprimée en rad/s (radian par seconde). 
+L'échelle logarithmique permet un tracé très lisible, car composé majoritairement de tronçons linéaires.
+
+thumb|center|600px|Diagramme de Bode du filtre passe-bas passif d'ordre 1. En pointillés rouges, l'approximation linéaire.
+
+==Tracé asymptotique des systèmes analogiques==
+
+Prenons une fonction de transfert quelconque qui s'écrit de la façon suivante :
+
+<math>H(p)=\alpha p^q \frac{\prod_{k=1}^K \left(1+2\xi_k\frac{p}{\omega_k}+\left(\frac{p}{\omega_k}\right)^2\right)\prod_{l=1}^L \left(1+\frac{p}{\omega_l}\right)}{\prod_{m=1}^M \left(1+2\xi_m\frac{p}{\omega_m}+\left(\frac{p}{\omega_m}\right)^2\right)\prod_{n=1}^N \left(1+\frac{p}{\omega_n}\right)}</math>
+
+où <math>\alpha \in \mathbb R\ ;\ q \in \mathbb Z\ ;\ \omega_k,\omega_l,\omega_m,\omega_n \in \mathbb R^*\ ;\ \xi_k,\xi_m \in \mathbb R\ </math>
+
+Bien qu'une fonction de transfert puisse s'écrire de plusieurs façons, c'est de la façon décrite ci-dessus qu'il faut les écrire :
+*les termes constants des polynômes élémentaires du premier et du second degré doivent valoir <math>1</math>. Pour cela utiliser la constante <math>\alpha</math>.
+*Les termes en <math>p</math> des polynômes élémentaires du premier et du second degré doivent être au numérateur. (voir la réécriture de la fonction Passe-haut ci-dessous)
+
+On remarque que le module de <math>H(p)\ </math> est égal à la somme des modules des termes élémentaires en raison du logarithme. Il en va de même pour la phase, cette fois en raison de la fonction argument. C'est pourquoi on va dans un premier temps s'intéresser aux diagrammes de Bode des termes élémentaires.
+
+===Systèmes du premier ordre===
+====Passe-bas====
+
+*'''Définition'''
+Soit la fonction de transfert :
+::<math>H(p)=\frac{1}{1+\frac{p}{\omega_0}}\ </math>
+
+La pulsation <math>\omega_0\ </math> est appelée pulsation de coupure.
+
+*'''Tracé asymptotique'''
+Pour <math>\omega \ll \omega_0,\ H(j\omega)\approx 1\ </math> donc <math>|H_{dB}(j\omega)|=0\ </math> et <math>\arg{(H(j\omega))}=0^\circ\ </math>.
+
+Pour <math>\omega \gg \omega_0,\ H(j\omega)\approx -j\frac{\omega_0}{\omega}\ </math> donc <math>|H_{dB}(j\omega)|=-20\log_{10}(\omega)+20\log_{10}(\omega_0)\ </math> et <math>\arg{(H(j\omega))}=-90^\circ\ </math>.
+
+Dans un repère logarithmique, <math>|H_{dB}(j\omega)|\ </math> se traduit par une pente de -20dB/Décade ou encore -6dB/Octave. On parle également de pente -1. Le diagramme de Bode asymptotique du module se résume donc à deux tronçons linéaires.
+
+*'''Tracé réel'''
+en <math>\omega_0\ </math>, <math>H(j\omega_0)=\frac{1}{1+j}</math> soit <math>|H_{db}(j\omega_0)|=-20\log_{10}(\sqrt{2})=-10\log_{10}(2)</math> : la courbe passe 3dB en dessous de l'asymptote.
+
+====Passe-haut====
+
+Soit la fonction de transfert :
+::<math>H(p)=\frac{1}{1+\frac{\omega_0}{p}} = \frac{\frac{p}{\omega_0}}{1+\frac{p}{\omega_0}}</math>
+
+Le tracé s'obtient en prenant l'opposé du module en dB et de la phase du passe-bas.
+
+===Systèmes du second ordre===
+====Passe-bas====
+
+*'''Définition'''
+Soit la fonction de transfert :
+::<math>H(p)=\frac{1}{1+2\xi\frac{p}{\omega_0}+\left(\frac{p}{\omega_0}\right)^2}\ </math>
+
+La pulsation <math>\omega_0\ </math> est appelée pulsation propre et <math>\xi\ </math> est l'amortissement.
+
+*'''Tracé asymptotique'''
+Pour <math>\omega \ll \omega_0\ H(j\omega)\approx 1\ </math> donc <math>|H_{dB}(j\omega)|=0\ </math> et <math>\arg{(H(j\omega))}=0^\circ\ </math>.
+
+Pour <math>\omega \gg \omega_0\ H(j\omega)\approx \left(\frac{\omega_0}{\omega}\right)^2\ </math> donc <math>|H_{dB}(j\omega)|=-40\log_{10}(\omega)+40\log_{10}(\omega_0)\ </math> et <math>\arg{(H(j\omega))}=-180^\circ\times \operatorname{signe(\omega_0\xi)}\ </math>.

@@ -1,0 +1,74 @@
+I datateknikken og matematikken er en '''sorteringsalgoritme''' en algoritme som ordner elementer i en bestemt rekkefølge. De vanligste rekkefølgene er numerisk rekkefølge og alfabetisk rekkefølge. Effektiv sortering er viktig for mange andre algoritmer, som f.eks. søke- og flettealgoritmer, som krever sorterte data for å fungere riktig. Ofte er det også nyttig for å lage menneskelig lesbar utskrift.
+
+Formelt sett må resultatet av en sortering tilfredsstille to betingelser; elementene må stå i en ikke-økende rekkefølge, dvs. alle elementer må være like stort eller større enn det foregående utifra en gitt sammenligningsfunksjon, og resultatet må være en permutasjon av inn-dataene.
+
+Det har vært forsket på sorteringsproblemet siden datamaskinens barndom, kanskje fordi det er et grunnleggende og trivielt problem, samtidig som det er utfordrende å løse effektivt. Selv om mange betrakter problemet som løst, blir nye og anvendelige sorteringsalgoritmer publisert i dag. De blir ofte presentert i introduksjonskurs til datateknikk, der de mange eksisterende algoritmene demonstrerer en mengde fundamentale algoritmekonsepter, slik som stor-O-notasjon, splitt-og-hersk-algoritmer, datastrukturer, randomiserte algoritmer, best-, verst- og gjennomsnittstilfelle-analyse, tidsbruk og minnebruk.
+
+==Noen sorteringsalgoritmer==
+
+Un '''algorithme de tri''' est, en algorithme qui permet d'organiser une collection d'objets selon un ordre déterminé. Les objets à trier font donc partie d'un ensemble muni d'une relation d'ordre (de manière générale un ordre total). Les ordres les plus utilisés sont l’ordre numérique et l'ordre lexicographique (dictionnaire).
+
+Suivant la relation d'ordre considérée, une même collection d’objet peut donner lieu à divers arrangements, pourtant il est possible de définir un algorithme de tri indépendamment de la fonction d’ordre utilisée. Celui-ci ne fera qu'utiliser une certaine fonction d’ordre correspondant à une relation d’ordre qui doit permettre de comparer tout couple d'éléments de la collection.
+
+== Classification ==
+
+La classification des algorithmes de tri est très importante, car elle permet de choisir l’algorithme le plus adapté au problème traité, tout en tenant compte des contraintes imposées par celui-ci.
+
+On distingue, tout d'abord, les algorithmes de tri d'application générale, procédant par comparaisons entre des paires d'éléments, et les algorithmes plus spécialisés faisant des hypothèses restrictives sur la structure des données entrées (par exemple, le tri par comptage, applicable uniquement si les données sont prises parmi un petit ensemble connu à l'avance). Si l'on ne précise rien, on entend habituellement par algorithme de tri un algorithme général de tri par comparaison.
+
+Les principales caractéristiques qui permettent de différencier les algorithmes de tri sont : la complexité algorithmique, les ressources nécessaires (notamment en terme d'espace mémoire utilisé) et le caractère stable.
+
+=== Complexité algorithmique ===
+
+* La notation de Landau : '''O'''.
+* La complexité algorithmique temporelle en moyenne : c’est le nombre d'opérations élémentaires effectuées ''en moyenne'' pour trier une collection d’éléments. Elle permet de comparer les algorithmes de tris et donne une bonne idée du temps d'exécution qui sera nécessaire à l’algorithme ; on arrive à l'estimer avec une précision assez importante. Toutefois, si les ensembles à trier ont une forme particulière et ne sont pas représentatifs des ''n '''!''' '' combinaisons possibles, alors les performances pourront être très inférieures ou très supérieures à la complexité « moyenne ».
+* La complexité algorithmique spatiale (en moyenne ou dans le pire des cas) représente, quant à elle, l’utilisation mémoire que va nécessiter l'algorithme. Celle-ci peut dépendre, comme le temps d'exécution, du nombre d'éléments à trier.
+
+Pour certains des algorithmes de tri les plus simples, T(''n'') = O(''n''<sup>2</sup>), pour les tris plus élaborés, T(''n'') = O(''n''·log(''n'')).
+
+On peut montrer que la complexité temporelle en moyenne et dans le pire des cas d’un algorithme basé sur une fonction de comparaison ne peut pas être meilleure que '''n·log(n)'''. Les tris qui ne demandent que ''n''·log(''n'') comparaisons en moyenne sont alors dits optimaux.
+
+Le problème du tri consiste, étant donné une suite ''u'' = (''u<small>1</small>'', ''u<small>2</small>'', ..., ''u<small>n</small>'') d’éléments d’un ensemble totalement ordonné (par exemple <math>\mathbb{N}</math>), à déterminer une permutation σ de 1, ..., n telle que : ''y'' = (''u<small>σ(1)</small>'', ''u<small>σ(2)</small>'', ..., ''u<small>σ(n)</small>'') soit triée.
+
+Un algorithme de tri par comparaisons successives se modélise comme un arbre binaire, chaque nœud de l'arbre correspondant à une comparaison entre deux éléments de l'ensemble. On compare deux éléments u<small>i</small> et u<small>j</small>, et en fonction du résultat, on passe à l'un des deux nœuds suivants, où l'on procède à une autre comparaison. Chaque feuille (nœud terminal) de l'arbre correspond à la suite totalement triée.
+
+L'algorithme doit être en mesure de fournir toutes les possibilités de permutation des termes de la suite, car il est équivalent de fournir la permutation σ que la suite triée ''y''. Le nombre de permutations de ''n'' éléments étant ''n '''!''' '' (factorielle n) le nombre de feuilles de l'arbre doit être au moins ''n '''!''' ''.
+
+Notons ''h'' la profondeur maximale de l'arbre (nous parlons bien d'un nombre d'étapes ''dans le pire des cas''). Le nombre maximal de feuilles dans un arbre binaire de profondeur maximale ''h'' est de <math>2^h</math>.
+
+Il vient donc : <math>2^h \geq n!</math> ; ainsi, asymptotiquement, <math>h \geq n \cdot \log_2(n)</math> (par utilisation de la formule de Stirling).
+
+Le fait qu'il existe des tris en <math>n \cdot \log_2(n)</math> montre d'autre part qu'il est possible d'avoir asymptotiquement <math>h \leq n \cdot \log_2(n)</math> d'où la notion de minimum.
+
+Pour certains types de données (entiers, chaînes de caractères de taille bornée), il existe cependant des algorithmes plus efficaces au niveau du temps d'exécution, comme le tri comptage ou le tri radix. Ces algorithmes n'utilisent pas la comparaison entre éléments (la borne ''n·log(n)'' ne s'applique donc pas pour eux) mais nécessitent des hypothèses sur les objets à trier. Par exemple, le tri comptage et le tri radix s'appliquent à des entiers que l'on sait appartenir à l'ensemble [1, ''m''] avec comme hypothèse supplémentaire pour le tri radix que ''m'' soit une puissance de 2 (c’est-à-dire de la forme 2<sup>k</sup>).
+
+=== Caractère en place ===
+
+Un algorithme est dit en place s'il n'utilise qu'un nombre très limité de variables et qu’il modifie directement la structure qu’il est en train de trier. Ceci nécessite l’utilisation d'une structure de donnée adaptée (un tableau par exemple). Ce caractère peut être très important si on ne dispose pas d'une grande quantité de mémoire utilisable.
+
+Remarquons toutefois qu'en général, on ne trie pas directement les données elles-mêmes, mais seulement des références (ou pointeurs) sur ces dernières.
+
+=== Caractère stable ===
+
+Un algorithme est dit stable s'il garde l'ordre relatif des quantités égales pour la relation d'ordre.
+
+Exemple, si on considère la suite d’éléments suivante :
+ (4, 1)  (3, 1)  (3, 7)  (5, 6)
+que l'on trie par rapport à leur première coordonnée (la clé), deux cas sont possibles, quand l’ordre relatif est respecté et quand il ne l'est pas :
+ (3, 1)  (3, 7)  (4, 1)  (5, 6)   (ordre relatif maintenu)
+ (3, 7)  (3, 1)  (4, 1)  (5, 6)   (ordre relatif changé)
+Lorsque deux éléments sont égaux ''pour la relation d'ordre'' (c’est-à-dire qu'il ont la même clé), l'algorithme de tri conserve l'ordre dans lequel ces deux éléments se trouvaient avant son exécution. Les algorithmes de tri instables peuvent être retravaillés spécifiquement afin de les rendre stable, cependant cela peut être au dépens de la rapidité et/ou peut nécessiter un espace mémoire supplémentaire.
+
+Parmi les algorithmes listés plus bas, les tris étant stables sont : le tri à bulles, le tri par insertion et le tri fusion. Les autres algorithmes nécessitent O(n) mémoire supplémentaire pour stocker l'ordre initial des éléments.
+
+== Exemples d'algorithmes de tri ==
+=== Tris par comparaison ===
+
+==== Algorithmes lents ====
+Ces algorithmes sont lents pour plus de 20 éléments parce qu'ils sont en O(n<sup>2</sup>).
+
+* Tri à bulles : Algorithme quadratique, T(n) = O(n<sup>2</sup>), en moyenne et dans le pire des cas, stable et en place ; amusant mais pas efficace
+* Tri par sélection : Algorithme quadratique, T(n) = O(n<sup>2</sup>), en moyenne et dans le pire des cas, pas stable si tri sur place ; rapide lorsque l'on a moins de 7 éléments
+* Tri par insertion : Algorithme quadratique, T(n) = O(n<sup>2</sup>), en moyenne et dans le pire des cas, stable et en place. C'est le plus rapide et le plus utilisé pour des listes de moins de 15 éléments ;
+
+==== Algorithmes plus rapides ====

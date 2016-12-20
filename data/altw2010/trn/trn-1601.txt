@@ -1,0 +1,55 @@
+In statistical surveys conducted by means of structured interviews or questionnaires, a subset of the survey items having binary (e.g., YES or NO) answers forms a '''Guttman scale''' if they can be ranked in some order so that, for a rational respondent, the response pattern can be captured by a single index on that ordered scale. In other words, on a Guttman scale, items are arranged in an order so that an individual who agrees with a particular item also agrees with items of lower rank-order.  For example, a series of items could be (1) "I am willing to be near ice cream"; (2) "I am willing to smell ice cream"; (3) "I am willing to eat ice cream"; and (4) "I love to eat ice cream".  Agreement with any one item implies agreement with the lower-order items.
+
+The concept of Guttman scale likewise applies to series of items in other kinds of tests, such as achievement tests, that have binary outcomes.  For example, a test of math achievement might order questions based on their difficulty and instruct the examinee to begin in the middle.  The assumption is if the examinee can successfully answer items of that difficulty (e.g., summing two 3-digit numbers), s/he would be able to answer the earlier questions (e.g., summing two 2-digit numbers).  Some achievement tests are organized in a Guttman scale to reduce the duration of the test. 
+
+Another example is the original Beaufort wind force scale, assigning a single number to observed conditions of the sea surface ("Flat", ..., "Small waves", ..., "Sea heaps up and foam begins to streak", ...), was in fact a Guttman scale. The observation "Flat = YES" implies "Small waves = NO".
+
+By designing surveys and tests such that they contain Guttman scales, researchers can simplify the analysis of the outcome of surveys, and increase the robustness. Guttman scales also make it possible to detect and discard randomized answer patterns, as may be given by uncooperative respondents.
+
+==A perfect Guttman scale==
+
+A hypothetical, perfect Guttman scale consists of a unidimensional set of items that are ranked in order of difficulty from least extreme to most extreme position.  For example, a person scoring a "7" on a ten item Guttman scale, will agree with items 1-7 and disagree with items 8,9,10. An important property of Guttman's model is that a person's entire set of responses to all items can be predicted from their cumulative score because the model is deterministic.
+
+==Deterministic model==
+An important objective in Guttman scaling is to maximize the reproducibility of response patterns from a single score. A good Guttman scale should have a coefficient of reproducibility (the percentage of original responses that could be reproduced by knowing the scale scores used to summarize them) above .85. Another commonly used metric for assessing the quality of a Guttman  scale, is Menzel's coefficient of scalability and the coefficient of homogeneity (Loevinger, 1948; Cliff, 1977; Krus and Blackman, 1988). In order to maximize unidimensionality, misfitting items are re-written or discarded.
+
+==Stochastic models==
+Guttman's deterministic model is brought within a probabilistic framework in Rasch measurement. The Rasch model requires a probabilistic Guttman structure when items have dichotomous responses (e.g. right/wrong). In the Rasch model, the Guttman response pattern is the most probable response pattern for a person when items are ordered from least difficult to most difficult (Andrich, 1985). In addition, the Polytomous Rasch model is premised on a deterministic ''latent'' Guttman response subspace, and this is the basis for integer scoring in the model (Andrich, 1978, 2005). Analysis of data using item response theory requires comparatively longer instruments and larger datasets, though, in order to scale item and person locations and evaluate fit of data to the model.
+
+In practice, actual data from respondents do not closely match Guttman's deterministic model. Several probabilistic models of Guttman implicatory scales were developed by Krus (1977) and Krus and Bart (1974).
+
+==Applications==
+The Guttman scale is used mostly when researchers want to design short questionnaires with good discriminating ability. The Guttman model works best for constructs that are hierarchical and highly structured such as social distance, organizational hierarchies, and evolutionary stages.
+
+==Unfolding models==
+A class of unidimensional models that contrast with Guttman's model are unfolding models.  These models also assume unidimensionality but posit that the probability of endorsing an item is proportional to the distance between the items standing on the unidimensional trait and the standing of the respondent.  For example, items like "I think immigration should be reduced" on a scale measuring attitude towards immigration would be ''unlikely'' to be endorsed ''both'' by those favoring open policies ''and also'' by those favoring no immigration at all.  Such an item might be endorsed by someone in the middle of the continuum.  Some researchers feel that many attitude items fit this unfolding model while most psychometric techniques are based on correlation or factor analysis, and thus implicitly assume a linear relationship between the trait and the response probability.  The effect of using these techniques would be to only include the most extreme items, leaving attitude instruments with little precision to measure the trait standing of individuals in the middle of the continuum.
+
+==Example==
+Here is an example of a Guttman scale - the Bogardus Social Distance Scale:
+
+(Least extreme)
+# Are you willing to permit immigrants to live in your country?
+# Are you willing to permit immigrants to live in your community?
+# Are you willing to permit immigrants to live in your neighbourhood?
+# Are you willing to permit immigrants to live next door to you?
+# Would you permit your child to marry an immigrant?
+(Most extreme)
+
+E.g., agreement with item 3 implies agreement with items 1 and 2.
+
+==References==
+
+* Andrich, D. (1978). A rating formulation for ordered response categories. ''Psychometrika'', 43, 357-74.
+
+Die '''Guttman-Skala''' (nach dem deutschstämmigen englischen Neurologen empirischen Sozialforschung, mit dem Einstellungen zu einer Sache (z. B. Personen, Personengruppen, Verhaltensweisen) erfasst werden.
+
+Bei der Guttman-Skala werden den Befragten einige Aussagen vorgelegt, die sie bejahen oder verneinen sollen. Diese sind so angeordnet, dass die "normalste" Aussage zu Anfang steht, eine extreme am Schluss. Wer eine Aussage bejaht, tut dies im Normalfall ebenso bei allen vorigen Aussagen. Eine Guttman-Skala, bei der dies immer auftritt, nennt man perfekt. Solch eine Skala zu erzeugen ist oft schwer und nur mit wenigen Aussagen, die bewertet werden müssen, möglich.
+
+==Beispiel==
+Dieses Beispiel stammt aus der Bogardus Social Distance Scale:
+
+#Sind Sie bereit, Moslems zu ermöglichen, in Ihrem Land zu leben?
+#Sind Sie bereit, Moslems zu ermöglichen, an Ihrem Wohnort zu leben?
+#Sind Sie bereit, Moslems zu ermöglichen, in Ihrem Wohnviertel zu leben?
+#Sind Sie bereit, Moslems zu ermöglichen, direkt neben Ihnen zu leben?
+#Würden Sie Ihrem Kind ermöglichen, einen Moslem zu heiraten? 

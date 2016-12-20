@@ -1,0 +1,45 @@
+250px|thumb|STM image of self-assembled [[supramolecular chains of the organic semiconductor  Quinacridone on Graphite. ]]
+
+An '''organic semiconductor''' is any organic material that has semiconductor properties.  A semiconductor is any compound whose electrical conductivity is between that of typical metals and that of insulating compounds. Single molecules, short chain (oligomers) and long chain (polymers) organic semiconductors are known. Examples of semiconducting small molecules (aromatic hydrocarbons) are : pentacene, anthracene and rubrene. Examples of polymers are: poly(3-hexylthiophene), poly(p-phenylene vinylene), F8BT, as well as polyacetylene and its derivatives.
+
+There are two major classes of organic semiconductors, which overlap significantly: organic charge-transfer complexes, and various "linear backbone" polymers derived from doped. Highly doped organic semiconductors, for example Polyaniline (Ormecon) and PEDOT:PSS, are also known as '''organic metals'''.  
+
+Several kinds of carriers mediate conductivity in organic semiconductors. These include &pi;-electrons and unpaired electrons.  Almost all organic solids are insulators. But when their constituent molecules have  &pi;-conjugate systems, electrons can move via &pi;-electron cloud overlaps. Polycyclic aromatic hydrocarbons and phthalocyanine salt crystals are examples of this type of organic semiconductor.
+
+In charge transfer complexes, even unpaired electrons can stay stable for a long time, and are the carriers. This type of semiconductor is also obtained by pairing an electron donor molecule and an electron acceptor molecule.
+
+==History==
+frame|right|Voltage-controlled switch, an "active" organic polymer electronic device from 1974. Now in the Smithsonian.
+
+The study of conductive charge-transfer complexes began with the discovery of the strikingly high conductivity of TTF-TCNQ complex. In 1980, superconductivity was observed in TMTSF-PF<sub>6</sub> complex.
+
+In 1963, Weiss ''et al'' reported [http://www.drproctor.com/os/weiss.htm] passive high conductivity in iodine-"doped" oxidized Ω/cm. The authors also described the effects of iodine doping on conductivity, the conductivity type (n or p), and electron spin resonance studies on polypyrrole.  In later papers, they achieved resistances as low as 0.03 Ω/cm, [http://www.publish.csiro.au/nid/51/paper/CH9650477.htm][http://www.publish.csiro.au/nid/51/paper/CH9650487.htm] on the order of present-day efforts.  They noted an Australia patent application (5246/61, June 5, 1961) for conducting polypyrrole. Highly-conductive polypyrrole is often incorrectly reported as being discovered in 1979 by Diaz ''et al''. J. Chem. Soc., Chem Comm, 1979: 635-6.[http://www.rsc.org/delivery/_ArticleLinking/DisplayArticleForFree.cfm?doi=C39790000635&JournalCode=C3].
+
+In a similar 1977 paper, Shirakawa ''et al'' reported [http://www.rsc.org/Publishing/Journals/C3/article.asp?doi=C39770000578] equivalent high conductivity in similarly oxidized and iodine-doped polyacetylene.  They received the 2000 Noble prize in Chemistry for "The discovery and development of conductive polymers".[http://nobelprize.org/nobel_prizes/chemistry/laureates/2000/index.html]  The Nobel committee made no reference to the Australian's earlier reports, which also were never cited by the Nobel winners.  See Nobel Prize controversies.
+
+Un '''semi-conducteur organique''' est un inorganiques. Ces propriétés sont la conduction par les trous, ainsi que la présence d'une bande interdite. Ces matériaux ont donné naissance à l''''électronique organique''', ou électronique des plastiques.  Par ''organique'', on entend que les molécules utilisées sont à base de carbone, comme les molécules à la base de la vie. On dit ''organique'' par opposition aux semi-conducteurs ''inorganiques'', tel le silicium. 
+
+==Origines de la conductivité==
+La porteurs de charge, dont on en connaît bien deux sortes : les électrons (électrons π*) et les trous (électrons π non pairés). Généralement, les solides organiques sont isolants. Toutefois, dans les cristaux organiques formés par des molécules contenant des liens conjugués π, ou encore les polymères contenant des liens conjugués π, les électrons peuvent circuler librement dans les recouvrements de nuages d'électrons π, ce qui permet la conduction d'électricité. Les hydrocarbures aromatiques polycycliques sont des exemples de ce type de semi-conducteur. Malgré tout, les polymères conducteurs ont une grande résistance, comparativement aux conducteurs inorganiques. On peut doper les matériaux organiques avec des métaux pour augmenter leur conductivité. 
+
+==Ressemblances avec les semi-conducteurs inorganiques==
+
+Les semi-conducteurs organiques possèdent des caractéristiques similaires aux semi-conducteurs inorganique. Le tableau suivant présente leurs correspondances de façon succincte :
+<center>
+{| border="1"
+|'''Semi-conducteur inorganique'''
+|'''Semi-conducteur organique'''
+|-
+|Bande de valence
+|HOMO
+|-
+|Bande de conduction
+|LUMO
+|-
+|Bande interdite
+|Bande interdite
+|} 
+</center>
+De plus, comme les semi-conducteurs inorganiques, les semi-conducteurs organiques peuvent être dopés, c'est-à-dire qu'on peut y produire des électrons en excès (dopage N) ou des trous (dopage P). Dans les semi-conducteurs inorganiques, cela est fait habituellement par implantation ionique, c'est-à-dire en ajoutant des ions dans le semi-conducteur. Ces ions ont des électrons de valence en supplémentaires ou manquants, selon le cas, ce qui permet d'ajouter les porteurs de charge désirés. Cependant, cette technique est trop énergétique pour doper des films de semi-conducteurs organiques, ces derniers étant trop fragiles pour ce genre d'intervention. La technique préconisée est donc d'exposer le film de semi-conducteur organique à une vapeur d'un oxydant ou d'un réducteur, ce qui aura comme effet d'arracher ou d'ajouter des électrons au film. Les semi-conducteurs très dopés comme la polyaniline (Ormecon) et le PEDOT:PSS sont aussi appelés '''métaux organiques'''.
+
+==Avantages et désavantages==

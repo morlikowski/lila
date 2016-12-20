@@ -1,0 +1,76 @@
+{{Infobox_Software 
+| name                   = Lotus Symphony 
+| logo                   = 64 px 
+| screenshot             = 300 px 
+| caption                = Lotus Symphony Documents 
+| developer              = Lotus Software 
+| latest_release_version = 1
+| latest_release_date    = 30 травня 2008
+| operating_system       =  Windows, анонсована версія під Mac<br>DOS для старих версій 1985-1992.  
+| genre                  = Офісний пакет 
+| license                = Пропрієтарна 
+| website                = http://www.ibm.com/software/lotus/symphony
+}}
+
+'''IBM Lotus Symphony''' — застосунків для створення, редагування і колективного використання текстів, електронних таблиць, презентацій і інших документів. Спочатку випущений в липні 1984 р. як інтеграційний застосунок для DOS, відроджено компанією IBM під тим же ім'ям вже як новий офісний пакет, випущений в 2007.
+
+== Опис ==
+У основу Lotus Symphony покладені розробки учасників проекту OpenOffice.org, до якого корпорація IBM залучилася 2007 року. У свою чергу OpenOffice, що позиціонується як відкрита альтернатива Microsoft Office, базується на коді продукту StarOffice. Розробкою StarOffice спочатку займалася німецька компанія StarDivision, а в 1999 році проект був викуплений компанією Sun Microsystems.
+thumb|left|Зліва направо: іконки Lotus Symphony Documents, Spreadsheets та Presentations
+До складу пакету Lotus Symphony входять текстовий редактор Symphony Documents, програма для створення презентацій Symphony Presentations і редактор електронних таблиць Symphony Spreadsheets. Набір застосунків Lotus Symphony використовує відкритий формат OpenDocument (ODF, ISO 26300), а також дозволяє працювати з документами Microsoft Office і Lotus SmartSuite. Крім того, допускається експорт файлів у формат PDF.
+
+Серед основних особливостей редактора Symphony Documents можна виділити вбудовані шаблони для створення документів, засоби перевірки орфографії, а також можливість роботи з діаграмами, таблицями і малюнками. Застосунок для створення презентацій Symphony Presentations підтримує різні ефекти перемикання слайдів, функції управління витримкою часу, анімацію і дозволяє експортувати документи у формат HTML. Нарешті, програма Symphony Spreadsheets забезпечена обширною бібліотекою математичних функцій і покращуваним редактором формул.
+
+Офісний пакет Lotus Symphony можна використовувати на комп'ютерах з операційними системами Windows XP, Windows Vista, Suse Linux Enterprise Desktop і Red Hat Enterprise Linux. IBM оголосив про випуск фінальної модицікації пакету 30 травня 2008 <ref>[http://symphony.lotus.com/software/lotus/symphony/buzzentry!default.jspa?threadID=4872 IBM Lotus Symphony Version 1.0 is NOW AVAILABLE]</ref> На жорсткому диску Lotus Symphony займе від 550 до 750 Мб. Розповсюджується безоплатно.
+
+IBM планує включити код з останніх версій OpenOffice.org у версію 2.0 свого пакету. Symphony 2.0 буде також включати модулі, які вже є частиною OpenOffice.org, включаючи редактор формул, бази даних, графічний редактор, а також інші модулі, розроблені власне IBM.<ref>Edward Mendelson, [http://www.pcmag.com/article2/0,1895,2186685,00.asp IBM Lotus Symphony Beta review, "...Now the Bad News" section], September 21, 2007</ref>
+
+{{Infobox_Software 
+| name                   = Lotus Symphony 
+| logo                   = 64 px 
+| screenshot             = 300 px 
+| caption                = Lotus Symphony Documents 
+| developer              = Lotus Software 
+| latest_release_version = 1
+| latest_release_date    = 
+| operating_system       =  Windows (Mac version announced)<br>DOS for 1985-1992 versions.  
+| genre                  = Office suite 
+| license                = Proprietary 
+| website                = http://www.ibm.com/software/lotus/symphony
+}}
+'''IBM Lotus Symphony''' is the name of a set of applications for creating, editing, and sharing text, spreadsheet, and other documents. Originally released in July 1984 as an integrated software application for DOS, IBM revived the Symphony name for a new office suite that was first released free of charge in 2007.
+
+==Lotus Symphony for DOS==
+
+The first incarnation of Lotus Symphony was an integrated software package for DOS released by Lotus Development as a follow-on to its popular spreadsheet program, Lotus 1-2-3. Lotus Jazz on the Apple Macintosh was a sibling product.
+
+Although 1-2-3 had originally been billed as an integrated product with spreadsheet, database and graphing functions (hence the name "1-2-3"), competing products such as AppleWorks provided a more comprehensive level of integration and additional functionality; Symphony was Lotus' response.
+
+Symphony is a DOS program that is loaded entirely into memory when started. Using ALT-F10 the user can alternate among the five "environments" of the program, each a rendering of the same underlying data. The environments are:
+
+* SHEET, a spreadsheet program very similar to 1-2-3
+* DOC, a word processor
+* GRAPH, a graphical charting program
+* FORM, a table-based database management system
+* COMM, a communications program
+
+Several "add-in applications" can be "attached" and activated, extending Symphony's capabilities, including a powerful macro manager, a document outliner, a spell-checker, statistics, various communications configurations, and a tutorial, which demonstrates Symphony usage by running macros. The program allows the screen to be split into panes, showing different views of the underlying data simultaneously, each of which can display any of the five environments. The user is then able to see that changes made in one environment are reflected in others simultaneously, perhaps the package's most interesting feature.
+
+All the data that Symphony handles is kept in spreadsheet-like cells. The other environments—word processing, database, communications, graphics—in essence only change the display format and focus  of that data (including available menus, special keys, and functionality), which can be saved and retrieved as .WR1 files.
+
+Symphony was designed to work completely in the standard 640k of conventional memory, supplemented by any Intel Framework, Enable and Ability Office.
+
+The spreadsheet engine is the same as the one used in Lotus 1-2-3, once the most popular of its kind.
+
+Compared to other word processors of the day such as Micropro Microsoft Word 2.0, Symphony's word processing environment was simple, but effective and uncomplicated.
+
+Compared to other database programs of the day—Paradox 2.0 and Borland Reflex 1.0—Symphony's FORM environment was weak, lacking the analytical abilities of Reflex and the pseudo relational power of dBase III. However, it was integrated directly into the spreadsheet, simple to query, and fast, and the data could be accessed using VLOOKUP features of the spreadsheet.
+
+Like its predecessor Lotus 1-2-3, Symphony contains a reasonably powerful programming language referred to as its "command language," which can be saved either within a spreadsheet or separately in "libraries" in the form of ''macros'': lists of menu operations, data, and other macro keywords. (One is "menucall," which allows users to call their own menus, embedded into spreadsheets, which behave just like Symphony's own.)  One of the most significant features of Symphony is the integration of the various modules using this command language.  In its day it was one of the few programs that would be able to log onto a stock market source, select data using dynamic or pre-assigned criteria, place that data into a spreadsheet, perform calculations, then chart the data and print out the results.  All of this could take place unattended on a preset schedule.
+
+==IBM Lotus Symphony==
+190 px|right|thumb|''Left to right:'' the icons for Lotus Symphony Documents, Spreadsheets, and Presentations
+IBM Lotus Symphony is a set of applications comprising of:
+* IBM Lotus Symphony Documents, a word processor
+* IBM Lotus Symphony Spreadsheets, a spreadsheet program
+* IBM Lotus Symphony Presentations, a presentation program

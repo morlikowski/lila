@@ -1,0 +1,449 @@
+{{กล่องข้อมูล ซอฟต์แวร์
+| logo = 50px
+| name = Mozilla Firefox
+| screenshot = 300px
+| caption = ภาพหน้าจอของ ไฟร์ฟอกซ์ 3.0
+| developer = บริษัทมอซิลลา / มูลนิธิมอซิลลา
+| latest_release_version = 3.0  
+| latest_release_date = 2551
+| latest_preview_version = 3.0 RC3
+| latest_preview_date = 2551
+| operating_system = หลายระบบปฏิบัติการ
+| platform               = เกกโก
+| language               = [http://www.mozilla.com/en-US/firefox/all.html มากกว่า 45 ภาษา]
+| genre = ไคลเอนต์เอฟทีพี ไคลเอนต์โกเฟอร์
+| license = MPL /GPL/LGPL/Mozilla EULA
+| website = [http://www.firefox.com/ www.firefox.com]
+}}
+
+'''มอซิลลา ไฟร์ฟอกซ์''' (Mozilla Firefox) รู้จักในชื่อ '''ไฟร์ฟอกซ์''' เป็นเว็บเบราว์เซอร์ และไคลเอนต์สำหรับโกเฟอร์และเอฟทีพี ที่สามารถใช้ได้ในหลายระบบปฏิบัติการ พัฒนาโดยมูลนิธิมอซิลลาและอาสาสมัครอีกหลายร้อยคน ปัจจุบันอยู่ใต้การดำเนินงานของบริษัทมอซิลลา ปัจจุบันไฟร์ฟอกซ์เป็นเว็บเบราว์เซอร์ที่นิยมอันดับ 2 รองจากอินเทอร์เน็ตเอกซ์พลอเรอร์ ไฟร์ฟอกซ์มีส่วนแบ่งในตลาดเว็บเบราว์เซอร์ร้อยละ 16.80 (ข้อมูลเมื่อธันวาคม 2550)<ref>[http://marketshare.hitslink.com/report.aspx?qprid=3 สัดส่วนการใช้งานเว็บเบราว์เซอร์]</ref>
+
+ไฟร์ฟอกซ์ใช้เกกโกตัวเรนเดอริงเอนจินโอเพนซอร์ซซึ่งจัดการตามมาตรฐานเว็บสอดคล้องกับทางดับเบิลยูธรีซีกำหนดไว้ และเพิ่มคำสั่งพิเศษเข้าไป คำสั่งไฟร์ฟอกซ์เป็นซอฟต์แวร์ที่เปิดให้โปรแกรมเมอร์ที่เรียกว่า "แอด-ออนส์" ทำงานร่วมกับตัวโปรแกรม โดยปัจจุบันมีมากกว่า 2,000 ตัว<ref>[https://addons.mozilla.org/en-US/firefox/browse/type:1/cat:all แอด-ออนส์ทั้งหมดของไฟร์ฟอกซ์]</ref> โดยตัวที่นิยมมากที่สุดตามลำดับคือ ฟอกซีทูนส์ (ควบคุมโปรแกรมเล่นเพลง) สตัมเบิลอัปออน (ค้นหาเว็บไซต์) แอดบล็อกพลัส (บล็อกโฆษณา) ดาวน์เดมออล! (ดาวน์โหลด) และเว็บเดเวลอปเปอร์ (เครื่องมือสำหรับทำเว็บ)<ref>[https://addons.mozilla.org/en-US/firefox/browse/type:1/cat:all/sort:popular?show=50  แอด-ออนส์ไฟร์ฟอกซ์ที่เป็นที่นิยม]</ref>
+
+ไฟร์ฟอกซ์ทำงานได้ในหลายระบบปฏิบัติการรวมถึง 2551 ตัวโค้ดโปรแกรมเขียนขึ้นในภาษา MPL GPL / LGPL และ Mozilla EULA
+
+ไฟร์ฟอกซ์ในปัจจุบันรับรองการใช้ 44 ภาษาที่พร้อมใช้งาน 1 ภาษาที่อยู่ในระหว่างการพัฒนา และแพ็กภาษาแยกต่างหากอีก 5 ภาษา<ref name="รุ่น">[http://www.mozilla.org/products/firefox/all ภาษาที่ไฟร์ฟอกซ์สนับสนุน]</ref> โดยภาษาไทยอยู่ในระหว่างการพัฒนา ยังไม่มีการบรรจุอย่างเป็นทางการ
+
+== ประวัติ ==
+
+โครงการไฟร์ฟอกซ์ริเริ่มโดย ทันเดอร์เบิร์ดแทนที่โปรแกรมชุดมอซิลลา<ref>[http://www.mozilla.org/roadmap/roadmap-02-Apr-2003.html แผนงานพัฒนามอซิลลา]</ref>
+
+ชื่อโครงการได้มีการเปลี่ยนชื่อหลายครั้งกว่าจะมาเป็นไฟร์ฟอกซ์ ซึ่งเริ่มต้นที่ชื่อ "ฟีนิกซ์" (Phoenix) ต่อมาได้ถูกเปลี่ยนภายหลังจากมีปัญหาในด้านเครื่องหมายการค้ากับบริษัทไฟร์เบิร์ด และในวันที่ 9 กุมภาพันธ์ พ.ศ. 2547 ทางมูลนิธิมอซิลลาได้เปลี่ยนชื่ออีกครั้งมาเป็น "ไฟร์ฟอกซ์" (Firefox) โดยใช้ชื่อย่อว่า Fx หรือ fx<ref>[http://www.mozilla.com/en-US/firefox/releases/1.5.html#FAQ ข่าวประกาศไฟร์ฟอกซ์ 1.5]</ref>
+
+ไฟร์ฟอกซ์ 1.0 ได้เปิดให้ใช้งานอย่างเป็นทางการเมื่อวันที่ 9 พฤศจิกายน พ.ศ. 2547 โดยระหว่างนั้นได้มีการปรับแก้ตลอดเวลารวมถึงเพิ่มระบบความปลอดภัยให้กับตัวซอฟต์แวร์ โดยรุ่นถัดมาคือ ไฟร์ฟอกซ์ 1.5 ที่ออกมาเมื่อ 29 พฤศจิกายน พ.ศ. 2548 และตามมาด้วย ไฟร์ฟอกซ์ 2 เมื่อวันที่ 24 ตุลาคม พ.ศ. 2549 ซึ่งในปัจจุบันไฟร์ฟอกซ์ 3 กำลังอยู่ในขั้นทดสอบ
+
+ผู้นำโครงการปัจจุบันคือ ยุโรปสูงขึ้นอย่างเห็นได้ชัด โดยเฉพาะอย่างยิ่งในประเทศฟินแลนด์
+
+=== สัญลักษณ์ ===
+
+สัญลักษณ์ของไฟร์ฟอกซ์ออกแบบโดย จอน ฮิกส์ ถึงแม้ว่าตัวโปรแกรมจะเป็นซอฟต์แวร์เสรีและโอเพนซอร์ส แต่สัญลักษณ์นี้เป็นเครื่องหมายการค้าของมูลนิธิมอซิลลา ดังนั้นผู้อื่นที่เผยแพร่ซอฟต์แวร์นี้จึงไม่สามารถใช้สัญลักษณ์นี้ได้ (เช่น ไฟร์ฟอกซ์ของโครงการเดเบียน เป็นต้น)
+
+=== รุ่นการพัฒนา ===
+
+{| class="wikitable" width="100%"
+! ชื่อเบราว์เซอร์
+! รุ่นเกกโก
+! รุ่น
+! ชื่อรหัส
+! วันที่ออก
+|-
+|rowspan=5 valign=top|'''ฟีนิกซ์'''<br>(Phoenix)
+|rowspan=3 | 1.2
+|style="white-space: nowrap;background-color:#FF8080;"| 0.1
+| Pescadero (เปสกาเดโร)
+|style="white-space: nowrap;"| 23 กันยายน พ.ศ. 2545
+|-
+|style="white-space: nowrap;background-color:#FF8080;"| 0.2
+| Santa Cruz (ซานตาครูซ)
+| 1 ตุลาคม พ.ศ. 2545
+|-
+|style="white-space: nowrap;background-color:#FF8080;"| 0.3
+| Lucia (ลูเชีย)
+| 14 ตุลาคม พ.ศ. 2545
+|-
+|rowspan="2"|1.3
+|style="white-space: nowrap;background-color:#FF8080;"| 0.4
+| Oceano (โอเชียโน)
+| 19 ตุลาคม พ.ศ. 2545
+|-
+|style="white-space: nowrap;background-color:#FF8080;"| 0.5
+| Naples (เนเปิลส์)
+| 7 ธันวาคม พ.ศ. 2545
+|-
+|rowspan=2 valign=top| '''มอซิลลา ไฟร์เบิร์ด'''<br>(Mozilla Firebird)
+|rowspan=2 | 1.5
+|style="white-space: nowrap;background-color:#FF8080;"| 0.6
+| Glendale (เกลนเดล)
+| 17 พฤษภาคม พ.ศ. 2546
+|-
+|style="white-space: nowrap;background-color:#FF8080;"| 0.7
+| Indio (อินดีโอ)
+| 15 ตุลาคม พ.ศ. 2546
+|-
+|rowspan=4 valign=top| '''มอซิลลา ไฟร์ฟอกซ์'''<br>(Mozilla Firefox)
+| 1.6
+|style="white-space: nowrap;background-color:#FF8080;"| 0.8
+| Royal Oak (รอยัลโอ๊ก)
+| 9 กุมภาพันธ์ พ.ศ. 2547
+|-
+|rowspan=2 | 1.7
+|style="white-space: nowrap;background-color:#FF8080;"| 0.9
+| One Tree Hill (วันทรีฮิลล์)
+| 15 มิถุนายน พ.ศ. 2547
+|-
+|style="white-space: nowrap;background-color:#FF8080;"| 1.0
+| Phoenix (ฟีนิกซ์)
+| 9 พฤศจิกายน พ.ศ. 2547
+|-
+|rowspan=1 | 1.8
+| style="white-space: nowrap;background-color:#FF8080;"| 1.5
+| Deer Park (เดียร์พาร์ก)
+| 29 พฤศจิกายน พ.ศ. 2548
+|-
+| valign="top"|  '''มอซิลลา ไฟร์ฟอกซ์ 2'''<br>(Mozilla Firefox 2)
+| 1.8.1
+| style="white-space: nowrap;background-color:#FF8080;"| 2.0
+| Bon Echo (บงเอโก)
+| 24 ตุลาคม พ.ศ. 2549
+|-
+| valign=top id="fx3-table" | '''มอซิลลา ไฟร์ฟอกซ์ 3'''<br>(Mozilla Firefox 3)
+| 1.9
+| style="white-space: nowrap;background-color:#40CC40;"| 3.0
+| Gran Paradiso (กรันปาราดีโซ)
+| 17 มิถุนายน พ.ศ. 2551
+|-
+| '''มอซิลลา ไฟร์ฟอกซ์ 3.1'''<br>(Mozilla Firefox 3.1)
+| 1.9.1
+| style="white-space: nowrap;background-color:#FFFF80;"| 3.1
+| Shiretoko (ชิเระโตะโกะ)
+|
+|-
+| '''มอซิลลา ไฟร์ฟอกซ์ 4'''<br>(Mozilla Firefox 4)
+| 2.0
+| style="white-space: nowrap;background-color:#FFFF80;"| 4.0
+|
+|
+|}
+
+{| class="wikitable"
+|style="white-space:nowrap;background-color:#FF8080;" width="25%" align="center"|รุ่นเก่า
+|style="white-space:nowrap;background-color:#40CC40;" width="25%" align="center"|รุ่นปัจจุบัน
+|style="white-space:nowrap;background-color:#FFBB60;" width="25%" align="center"|รุ่นทดลอง
+|style="white-space:nowrap;background-color:#FFFF80;" width="25%" align="center"|รุ่นในอนาคต
+|}
+
+== ไฟร์ฟอกซ์กับภาษาไทย ==
+thumb|หน้าจอการทำงาน Firefox 3pre ในภาษาไทย
+
+ปัจจุบันยังไม่มีไฟร์ฟอกซ์ภาษาไทยอย่างเป็นทางการ <ref name="รุ่น" /> อย่างไรก็ตามตัวโปรแกรมสามารถใช้งานได้ดี ทั้งการเข้ารหัสแบบยูนิโคดและรหัสแบบธรรมดาคือ TIS-620 และ ISO-8859-11 เหมือนเว็บเบราว์เซอร์อื่นทั่วไป แต่ไฟร์ฟอกซ์ไม่ได้รองรับการตัดคำท้ายประโยคของภาษาไทยโดยตรง (เนื่องจากอาสาสมัครในทีมงานมอซิลลา มีกลุ่มคนไทยไม่เพียงพอ และการตัดคำนั้นทำให้ขนาดโปรแกรมใหญ่ขึ้น) กลุ่มลีนุกซ์ไทยและอาสาสมัครอิสระ ได้พัฒนาไฟร์ฟอกซ์แยกออกมา ที่รับรองการตัดคำภาษาไทย (ยังไม่ได้รับรองโดย มูลนิธิมอซิลลา)
+
+== ความสามารถของไฟร์ฟอกซ์ ==
+ไฟร์ฟอกซ์ มีความสามารถที่แตกต่างจากเบราว์เซอร์ตัวอื่น ในขณะเดียวกันก็ขาดคุณสมบัติบางประการที่มีในเบราว์เซอร์ตัวอื่น ๆ เช่นกัน เพื่อให้ขนาดไฟล์มีขนาดเล็ก นอกจากความสามารถหลัก ไฟร์ฟอกซ์สนับสนุนความสามารถเสริมอื่น ๆ ด้วยกัน 3 ส่วนที่พัฒนาแยกออกมาจากตัวโปรแกรมไฟร์ฟอกซ์ ได้แก่ เอกซ์เทนชัน (extension) , ธีม (theme) , ปลั๊กอินส์ (plugin) โดยความสามารถเสริมนี้ ผู้ใช้แต่ละคนสามารถดาวน์โหลดมาใช้ได้ หรือสามารถพัฒนาของตัวเองได้
+
+=== ไลฟ์บุกมาร์ก ===
+ไลฟ์บุกมาร์ก (Live Bookmarks) เป็นอะตอม ได้โดยตรง โดยข้อมูลดังกล่าวจะมีการอัปเดตอยู่ตลอดเวลา โดยไม่ต้องเข้าไปอ่านในเว็บนั้น ๆ ข้อมูลต่อไปนี้ได้แก่ ข้อมูลข่าวจากเว็บต่างๆ ข้อมูลพยากรณ์อากาศ ข้อมูลจากบล็อก หรือข้อมูลจาก เว็บบอร์ด โดยในแต่ละเว็บที่มีการให้บริการจะมีสัญลักษณ์ RSS หรือ Atom ปรากฏไว้ในเว็บนั้น 
+
+ตัวอย่างการใช้งานเช่นการฟีดข้อมูลจากเว็บข่าว เว็บบอร์ด หรือเว็บใดก็ตามที่สนับสนุนระบบ RSS หรือ อะตอม โดยเมื่อใส่ข้อมูลเข้าไปในบุกมาร์กแล้ว เวลาเรียกใช้เพียงกดเข้าไปที่บุกมาร์กนั้น และหัวข้อของเว็บปลายทางจะปรากฏ
+
+=== เสิร์ชเอนจินในตัว ===
+สามารถใช้ความสามารถของเสิร์ชเอนจิน ได้โดยผ่านทางไฟร์ฟอกซ์โดยไม่จำเป็นต้องเข้าไปในเว็บนั้นๆ เอนจินหลักที่เห็นได้แก่ กูเกิล, ยาฮู! วิกิพีเดีย, IMDB นอกจากนี้เสิร์ชเอนจินในไฟร์ฟอกซ์สามารถดาวน์โหลดเพิ่มเติมได้
+
+=== แท็บด์เบราว์ซิง ===
+ด้วยความสามารถของแท็บด์เบราว์ซิง (tabbed browsing) ผู้ใช้สามารถเปิดหน้าเว็บเพจได้หลาย ๆ หน้า ภายในหน้าจอเดียวกัน (โดยใช้เมาส์ปุ่มกลาง) ในแต่ละหน้าจะแบ่งแยกเป็นแท็บ โดยความสามารถนี้ ผู้ใช้สามารถเปิดเว็บเพจหลายหน้าพร้อมกันจากบุคมาร์ก ในทีเดียวนอกจากในไฟร์ฟอกซ์ แท็บด์เบราว์ซิงยังมีใน ซาฟารี เนตสเคป นาวิเกเตอร์ รุ่น 8.0 และในอินเทอร์เน็ตเอกซ์พลอเรอร์ 7.0
+
+=== กันป๊อปอัพ ===
+ความสามารถในการบล็อกป๊อปอัพ (การป้องกันไม่ให้เว็บเพจเปิดหน้าต่างใหม่เองโดยไม่ได้รับอนุญาต) โดยไม่ต้องใช้โปรแกรมเสริม 
+เริ่มมีในไฟร์ฟ็อกซ์รุ่นเบต้า ความสามารถนี้สามารถเลือกที่จะใช้กับทุกเว็บไซต์ หรือแค่บางเว็บไซต์ได้ ซึ่งต่อมาอินเทอร์เน็ตเอกซ์พลอเรอร์ในวินโดวส์เอกซ์พี SP2 ได้เพิ่มความสามารถนี้เข้าไปด้วยเช่นกัน
+
+=== การจัดการดาวน์โหลด ===
+ผู้จัดการดาวน์โหลด (Download manager) จัดการไฟล์ที่ดาวน์โหลดทั้งหมด สามารถเลือกได้ระหว่างการเปิดใช้ หรือว่าการจัดเก็บลงในเครื่อง และสามารถดูย้อนหลังได้โดยว่า ไฟล์อะไรบ้างที่ได้ดาวน์โหลดมา และจัดเก็บไว้ที่ใด
+
+=== เอกซ์เทนชัน ===
+
+''เอกซ์เทนชัน'' (Extension) เป็นความสามารถเพิ่มเติม ที่ผู้พัฒนาอื่น ๆ สร้างขึ้นเพื่อเสริมความสามารถของไฟร์ฟอกซ์ ตัวอย่างของส่วนขยายได้แก่
+* Customized Google Extension หรือ ตัวปรับแต่งกูเกิล - ช่วยเพิ่มความสามารถของกูเกิลที่ใช้ในไฟร์ฟอกซ์หลายอย่าง เช่น แนะนำคำสำคัญสำหรับการค้นหา  ค้นหาคำเดียวกันจากเว็บอื่น ๆ เช่น ยาฮู หรือ เอ็มเอสเอ็น หรือปิดการแสดงโฆษณา
+* Gmail Notifier Extension หรือ ตัวแจ้งจีเมล - ช่วยเช็คอีเมลจากบริการจีเมล ซึ่งเป็นอีเมลฟรีบริการโดยกูเกิล โดยเมื่อมีอีเมลใหม่เข้ามา ก็จะมีข้อความบอก
+* พยากรณ์อากาศ - แสดงการพยากรณ์พร้อมสภาพอากาศปัจจุบัน ของสถานที่ที่กำหนด
+* วิกิพีเดีย - ช่วยให้เขียนและแก้ไขวิกิพีเดียได้โดยสะดวก โดยเตรียมฟังก์ชันสร้าง/แก้ไข ตาราง ภาพและคำอธิบาย รูปแบบตัวอักษร อักษรพิเศษ ไว้ให้เรียกใช้ได้ง่าย ๆ
+* ตัวช่วยในการดาวน์โหลดสิ่งต่าง ๆ ที่เราต้องการดาวน์โหลดได้ โดยการใช้ไฟร์ฟอกซ์ เอกซ์เทนชัน (FireFox Extension) ที่ชื่อ Flashgot เป็นตัวที่เชื่อมต่อระหว่างเบราซ์เซอร์ไฟร์ฟอกซ์กับโปรแกรมช่วยดาวน์โหลดที่ชื่อ FlashGet หรือ Mass Downloader
+* Locationbar² - ช่วยถอดรหัสให้สามารถแสดงยูอาร์แอลเป็นอักษรภาษาต่าง ๆ เช่นในเว็บไซต์วิกิพีเดีย
+* นอกจากนี้ยังมีความสามารถอื่น ๆ เพิ่มเติม ดูได้ที่เว็บของไฟร์ฟอกซ์
+
+=== ธีม ===
+'''ธีม''' (theme) เป็นลักษณะหน้าตาของไฟร์ฟอกซ์ โดยบางคราวจะเรียกว่า สกิน (skin) หรือ หน้ากากของเว็บเบราว์เซอร์ ซึ่งมีให้ดาวน์โหลดได้
+
+{{ infobox software
+| logo                 = 92px|Mozilla Firefox Icon
+| screenshot           = 300px
+| caption              = Firefox 3.0 running on Ubuntu
+| developer            = Mozilla Corporation, Mozilla Foundation
+| released             = 
+| frequently_updated   = Yes <!-- Release version update? Don't edit this page, just click on the version number! -->
+| programming language = C++, XUL, XBL, JavaScript
+| operating system     = Cross-platform
+| platform             = Gecko
+| size                 = 7.2 MB (Windows), 17.2 MB (Mac OS X), 8.7 MB (Linux) (all archived)
+| language             = [http://www.mozilla.com/en-US/firefox/all.html Over 45 languages]
+| status               = Active
+| genre                = Web browser, FTP client, gopher client
+| license              = MPL/GPL/LGPL/[http://www.mozilla.com/en-US/legal/eula/ Mozilla EULA] (for binary redistribution)
+| website              = http://www.firefox.com/
+}}
+
+'''Mozilla Firefox''' is a web browser descended from the Mozilla Application Suite, managed by the Mozilla Corporation. Firefox had 19.03% of the recorded usage share of web browsers as of June 2008, making it the second-most popular browser in current use worldwide, after Internet Explorer.<ref> </ref>
+
+To display web pages, Firefox uses the Gecko layout engine, which implements some current web standards plus a few features which are intended to anticipate likely additions to the standards.
+
+Firefox includes tabbed browsing, a live bookmarking, a search engine. Functions can be added through add-ons created by Web Developer toolbar.<ref>[https://addons.mozilla.org/en-US/firefox/browse/type:1/cat:all/sort:popular?show=50 Most popular Firefox Add Ons]. Retrieved 2007-10-30</ref>
+
+Firefox runs on various versions of GPL/LGPL/MPL.<ref name="mozilla_code_licensing"></ref>
+
+== History ==
+
+Netscape's sponsorship and developer-driven Mozilla Suite's Thunderbird.<ref></ref>
+
+The Firefox project has undergone several name changes. Originally titled ''Phoenix'', it was renamed because of Firebird free database software project.<ref></ref><ref></ref><ref></ref> In response, the Mozilla Foundation stated that the browser should always bear the name ''Mozilla Firebird'' to avoid confusion with the database software. Continuing pressure from the database server's development community forced another change; on February 9, 2004, Mozilla Firebird became ''Mozilla Firefox'',<ref></ref> often referred to as simply ''Firefox.'' Mozilla prefers Firefox to be abbreviated as ''Fx'' or ''fx,'' though it is often abbreviated as ''FF''.<ref></ref>
+
+The Firefox project went through many versions before 1.0 was released on tabbed browsing environment, the extensions manager, the GUI, and the find, search and software update engines; a new session restore feature; inline spell checking; and an anti-phishing feature which was implemented by Google as an extension,<ref></ref><ref></ref> and later merged into the program itself.<ref></ref> In December 2007, [http://support.mozilla.com/kb/Live+Chat Firefox Live Chat] was launched. It allows users to ask volunteers questions through a system powered by Jive Software, with guaranteed hours of operation and the possibility of help after hours.<ref>[http://blog.mozilla.com/sumo/2007/12/28/firefox-live-chat-launching-today/ Firefox Support Blog » Blog Archive » Firefox Live Chat launching today<!-- Bot generated title -->]</ref>
+
+===Release history===
+
+{| class="wikitable"
+! Browser name
+! Gecko version
+! Version
+! Support status
+! Codename
+! Release date
+! Significant changes
+|-
+|rowspan=5 valign=top|'''Phoenix'''
+|rowspan=3 | 1.2
+| 0.1
+| style="text-align: center; background: rgb(255,200,200)" | 
+| ''Pescadero''
+|style="white-space: nowrap;"| September 23, 2002
+| First release; customizable toolbar, quicksearch, tabbed browsing.<ref></ref>
+|-
+| 0.2
+| style="text-align: center; background: rgb(255,200,200)" | 
+| ''Santa Cruz''
+| October 1, 2002
+| Sidebar, extension management.
+|-
+| 0.3
+| style="text-align: center; background: rgb(255,200,200)" | 
+| ''Lucia''
+| October 14, 2002
+| Image blocking, pop-up blocking whitelist.
+|-
+|rowspan="2"|1.3
+| 0.4
+| style="text-align: center; background: rgb(255,200,200)" | 
+| ''Oceano''
+| October 19, 2002
+| Themes, pop-up blocking improvements, toolbar customization.
+|-
+| 0.5
+| style="text-align: center; background: rgb(255,200,200)" | 
+| ''Naples''
+| December 7, 2002
+| Multiple homepages, sidebar and accessibility improvements, history.
+|-
+|rowspan=2 valign=top| '''Mozilla Firebird'''
+|rowspan=2 | 1.5
+| 0.6
+| style="text-align: center; background: rgb(255,200,200)" | 
+|''Glendale''
+| May 17, 2003
+| New default theme (Qute), bookmark and privacy improvements, smooth scrolling, automatic image resizing.
+|-
+| 0.7
+| style="text-align: center; background: rgb(255,200,200)" | 
+| ''Indio''
+| October 15, 2003
+| Automatic scrolling, password manager, preferences panel improvements.
+|-
+|rowspan=4 valign=top| '''Mozilla Firefox'''
+| 1.6
+| 0.8
+| style="text-align: center; background: rgb(255,200,200)" | 
+| ''Royal Oak''
+| February 9, 2004
+| Windows installer, offline working, bookmarks and download manager improvements, rebranded with new logo.
+|-
+|rowspan=2 | 1.7
+| 0.9
+| style="text-align: center; background: rgb(255,200,200)" | 
+| ''One Tree Hill''
+| June 15, 2004
+| New default theme (Winstripe), comprehensive data migration, new extension/theme manager, reduced download size, new help system, Linux installer, mail icon (Windows only).
+|-
+| 1.0
+| style="text-align: center; background: rgb(255,200,200)" | 
+| ''Phoenix''
+| November 9, 2004
+| Official version 1.0 release. Added new features such as RSS/Atom feed support, find toolbar, plugin finder. Reached its end of life on April 13, 2006 with the release of version 1.0.8.<ref></ref> (support for older versions of Firefox typically ends six months after a new major version is available).<ref></ref>
+|-
+|rowspan=1 | 1.8
+| 1.5
+| style="text-align: center; background: rgb(255,200,200)" | 
+|''Deer Park''
+| November 29, 2005
+| Official version 1.5 release. Added support for SVG and canvas, UI adjustments and improvements in JavaScript 1.5 and CSS 2/3. Reached its end of life on May 30, 2007 with the release of Firefox 1.5.0.12.<ref></ref>
+|-
+|rowspan="2" valign="top"| '''Mozilla Firefox 2'''
+|rowspan="2" | 1.8.1
+| 2.0
+| style="text-align: center; background: rgb(200,255,200)" | 
+| ''Bon Echo''
+| October 24, 2006
+| Official version 2.0 release. Added new features such as session restoration after a browser crash, search suggestion for Google and Yahoo!, new search plugin manager and add-on manager, web feed previewing, bookmark microsummaries and anti-phishing protection. Winstripe theme refresh. Included support for JavaScript 1.7. Support for Firefox 2 will end mid-December 2008.<ref>http://developer.mozilla.org/devnews/index.php/2008/07/01/firefox-20015-security-and-stability-update-now-available-for-download/</ref>
+|-
+| 2.0.0.16
+| style="text-align: center; background: rgb(200,255,200)" | 
+|
+| July 15, 2008
+| Official version 2.0.0.16 release. Added security fixes.
+|-
+|rowspan="3" valign=top id="fx3-table" | '''Mozilla Firefox 3'''
+|rowspan="2" | 1.9
+| 3.0
+| style="text-align: center; background: rgb(200,255,200)" | 
+| ''Gran Paradiso''
+| June 17, 2008
+| Official version 3.0 release.<ref name="developer1"></ref> Cairo used as a graphics backend. Cocoa Widgets included in OS X builds. APIs implemented from 98, ME, Mac OS X v10.3.9<ref></ref> and lower, and GTK+ 2.8 and lower are no longer supported. Addons.mozilla.org integration in the Add-ons window. Support for APNG files.
+|-
+| 3.0.1
+| style="text-align: center; background: rgb(200,255,200)" | 
+|
+| July 16, 2008
+| Official version 3.0.1 release. Security and stability fixes. Fixed problems with updating of phishing and malware database, saving of SSL certificate exceptions list, printing a selected region. Updated public suffix list.<ref></ref>
+|-
+| 1.9.1
+| 3.1<ref></ref>
+| style="text-align: center; background: rgb(255,200,200)" | 
+| ''Shiretoko<ref></ref>''
+|
+|
+|}
+
+==Features==
+
+Features included with Firefox are live bookmarking, an integrated search engine. The developers of Firefox aimed to produce a browser that "just surfs the web"<ref></ref> and delivers the "best possible browsing experience to the widest possible set of people."<ref></ref>
+
+Users can customize Firefox with extensions and themes. Mozilla maintains an add-on repository at [https://addons.mozilla.org/en-US/firefox/ addons.mozilla.org] with nearly 2000 add-ons in it as of September 2007.<ref name="mozilla1"/> <!-- need examples of what can be done with add-ons -->
+
+Firefox provides an environment for web developers in which they can use built-in tools, such as the Error Console or the Firebug.
+
+===Standards support===
+Mozilla Firefox supports many SVG 1.1 (partial),<ref></ref> CSS (with extensions<ref>[http://developer.mozilla.org/en/docs/CSS_Reference:Mozilla_Extensions CSS Reference:Mozilla Extensions - MDC<!-- Bot generated title -->]</ref>), DOM, DTD, XSLT, PNG images with canvas element.<ref></ref>
+
+Firefox passes the Acid2 standards-compliance test from version 3.0.<ref></ref> Firefox 3.0 does not pass the Acid3 test; it scores 71/100 and does not render the image correctly.
+
+===Security===
+Firefox uses a sandbox security model,<ref></ref> and limits scripts from accessing data from other web sites based on the SSL/TLS to protect communications with web servers using strong smartcards for authentication purposes.<ref>[http://developer.mozilla.org/en/docs/JavaScript_crypto Developer documentation] on using PKCS#11 modules (primarily smart cards) for cryptographic purposes</ref>
+
+The Mozilla Foundation offers a "bug bounty" to researchers who discover severe security holes in Firefox.<ref></ref> Official guidelines for handling security vulnerabilities discourage early disclosure of vulnerabilities so as not to give potential attackers an advantage in creating exploits.<ref></ref>
+
+Because Firefox has fewer and less severe publicly known unpatched security vulnerabilities than Internet Explorer (see ''Comparison of web browsers''), improved security is often cited as a reason to switch from Internet Explorer to Firefox.<ref></ref><ref></ref><ref></ref><ref></ref> ''The Washington Post'' reports that exploit code for critical unpatched security vulnerabilities in Internet Explorer was available for 284 days in 2006. In comparison, exploit code for critical security vulnerabilities in Firefox was available for 9 days before Mozilla shipped a patch to remedy the problem.<ref></ref>
+
+A 2006 Symantec study showed that although Firefox had surpassed other browsers in the number of vendor-confirmed vulnerabilities that year through September, these vulnerabilities were patched far more quickly than those found in other browsers.<ref></ref> Symantec later clarified their statement, saying that Firefox still had fewer security vulnerabilities than Internet Explorer, as counted by security researchers.<ref></ref> As of July 18, 2008, Firefox 3 has zero security vulnerabilities unpatched according to Secunia.<ref></ref> Internet Explorer 7 has ten security vulnerabilities unpatched, the most severe of which was rated "moderately critical" by Secunia.<ref></ref>
+
+== Version 3.0 ==
+
+== Licensing ==
+Firefox is free and tri-licensed under the Netscape, Flock, Miro, and Songbird make use of code from Firefox <!-- Miro and Songbird should somehow be separated because they build on XULRunner and not Firefox itself. -->
+
+The official end-user builds of Firefox distributed from mozilla.com are licensed under the Mozilla End User License Agreement (proprietary closed-source Talkback crash reporter. Because of this and the clickwrap agreement included in the Windows version, the Free Software Foundation (FSF) consider these builds proprietary software.<ref> Entry updated 2006-08-16.</ref> However, BreakPad, an open source crash reporting system, has replaced Talkback in Firefox 3.0.<ref>[http://mozillalinks.org/wp/2007/03/progress-in-breakpad-firefox-3-crash-report-tool/ Progress in Breakpad, Firefox 3 crash report tool: Mozilla Links]</ref>
+
+In the past, Firefox was licensed solely under the MPL,<ref name="mozrelicensing"></ref> which the FSF criticizes for being weak copyleft; the license permits, in limited ways, proprietary derivative works. Additionally, code under the MPL cannot legally be linked with code under the GPL or the LGPL.<ref></ref><ref></ref> To address these concerns, Mozilla re-licensed Firefox under the tri-license scheme of MPL, GPL, and LGPL. Since the re-licensing, developers have been free to choose the license under which they will receive the code, to suit their intended use: GPL or LGPL linking and derivative works when one of those licenses is chosen, or MPL use (including the possibility of proprietary derivative works) if they choose the MPL.<ref name="mozrelicensing"/>
+
+===Trademark and logo issues===
+
+thumb|The generic globe logo used when Firefox is compiled without the official branding
+The name "Mozilla Firefox" is a registered trademark; along with the official Firefox logo, it may only be used under certain terms and conditions. Anyone may redistribute the official binaries in unmodified form and use the Firefox name and branding for such distribution, but restrictions are placed on distributions which modify the underlying source code.<ref></ref>
+
+There has been some controversy over the Mozilla Foundation's intentions in stopping certain open source distributions from using the "Firefox" trademark. Former Mozilla CEO Mitchell Baker explained in an interview in 2007 that distributions could freely use the Firefox trademark if they did not modify source-code, and that the Mozilla Foundation's only concern was with users getting a consistent experience when they used "Firefox".<ref>
+{{cite web
+|url=http://apcmag.com/6051/the_stoush_over_linux_distributions_using_the_firefox_trademark
+|title=The stoush over Linux distributions using the Firefox trademark
+|accessdate= 2008-01-18
+|author= Dan Warne
+|date=2007-05-07
+|work=APC Magazine
+|publisher=ACP Magazines Ltd
+}}</ref>
+
+To allow distributions of the code ''without'' using the official branding, the Firefox source code contains a "branding switch". This switch allows the code to be compiled without the official logo and name, for example to produce a derivative work unencumbered by restrictions on the Firefox trademark (this is also often used for betas and alphas of future Firefox versions). In the unbranded compilation the trademarked logo and name are replaced with a freely distributable generic globe logo and the name of the release series from which the modified version was derived. The name "Deer Park" is used for derivatives of Firefox 1.5, "Bon Echo" for derivatives of Firefox 2.0, and "Gran Paradiso" is used for derivatives of Firefox 3.0. The codename Minefield and a modified version of the generic logo stylized to look like a bomb is used for unofficial build of version 3.0 and later, and for nightly builds of the trunk.
+
+Outside of certain exceptions made for "community editions", distributing modified versions of Firefox under the "Firefox" name requires explicit approval from Mozilla for the changes made to the underlying code, and requires the use of ''all'' of the official branding. For example, it is not permissible to use the name "Firefox" without also using the official logo. When the guidelines), they were told by a representative of the Mozilla Foundation that this was not acceptable, and were asked to either comply with the published trademark guidelines or cease using the "Firefox" name in their distribution.<ref></ref> <!-- is this important enough to include in the context of this article? - Some Debian developers had misunderstood previous communication to be an agreement that allowed them to do this, but Mozilla disputed this assertion. --> Ultimately, Debian switched to branding their modified version of Firefox "Iceweasel", along with other Mozilla software.
+
+==Advertising==
+<!-- Deleted image removed: thumb|Firefox Crop Circle -->
+<!-- Image with unknown copyright status removed: thumb|Many unofficial logos and fan art of the browser have come over time, including this from [[Stardock's ObjectDock.]] -->
+The rapid adoption of Firefox, 100 million downloads in its first year of availability,<ref></ref> followed a series of aggressive marketing campaigns starting in 2004 with a series of events Blake Ross and Asa Dotzler called "marketing weeks".<ref></ref>
+
+On September 12, 2004,<ref></ref> a marketing portal dubbed "Spread Firefox" (SFX) debuted along with the Firefox Preview Release, creating a centralized space for the discussion of various marketing techniques. The portal enhanced the "Get Firefox" button program, giving users "referrer points" as an incentive. The site lists the top 250 referrers. From time to time, the SFX team or SFX members launch marketing events organized at the Spread Firefox website. As a part of the Spread Firefox campaign, there is an attempt to break the world download record with the release of Firefox 3. The idea is to have the newest version downloaded by as many people as possible within a 24 hour time period.<ref name="WorldRecord"> {{cite web|url = http://www.spreadfirefox.com/en-US/worldrecord/|title = Set a Guinness World Record
+Enjoy a Better Web|accessdate = 2008-05-30|last = Mozilla Foundation|authorlink = |year = 2008|month = May}}</ref>
+
+The "World Firefox Day" campaign started on July 15, 2006,<ref></ref> the third anniversary of the founding of the Mozilla Foundation,<ref>[http://www.mozilla.org/press/mozilla-foundation.html Mozilla Foundation Announcement], date=2003-07-15</ref> and ran until September 15, 2006.<ref></ref> Participants registered themselves and a friend on the website for nomination to have their names displayed on the Firefox Friends Wall, a digital wall that will be displayed at the headquarters of the Mozilla Foundation.
+
+On February 21, 2008 in honor of reaching 500 million downloads, the Firefox community celebrated by visiting FreeRice to earn 500 million grains of rice.<ref></ref>
+
+Some of Firefox's contributors made a crop circle of the Firefox logo,<ref>[http://lug.oregonstate.edu/events/firefox/crop-circle Take Back the Field Oregon State Linux Users Group<!-- Bot generated title -->]</ref> which can be seen on Google Earth at coordinates .
+
+==Market adoption==
+320px|thumb|Usage share of alternative web browsers (non-[[Internet Explorer|IE browsers):<ref>[http://marketshare.hitslink.com/report.aspx?qprid=1&qpdt=1&qpct=4&qptimeframe=M&qpsp=1&qpnp=24 Market share for browsers, operating systems and search engines<!-- Bot generated title -->]</ref>
+{|
+|
+|
+|
+|-
+|
+|
+|
+|}
+]]
+
+{| class="wikitable" style="float:right; margin-right:0; margin-left:1em; font-size: 85%; text-align:center;clear: right;"
+|-
+|style="background-color:#edf1f1;text-align:center;text-style:normal" colspan="2"| '''Firefox market share by version'''<br /><small>— NetApplications.com, June 2008</small><ref></ref>
+|-
+!style="background-color:#ffdddd;text-align:left"| Firefox 1.0
+|style="background-color:#edf1f1;text-align:center"| 0.20%
+|-
+!style="background-color:#ffdddd;text-align:left"| Firefox 1.5
+|style="background-color:#edf1f1;text-align:center"| 0.36%
+|-
+!style="background-color:#ddffdd;text-align:left"| Firefox 2.0
+|style="background-color:#edf1f1;text-align:center"| 16.22%
+|-
+!style="background-color:#ddffdd;text-align:left"| Firefox 3.0
+|style="background-color:#edf1f1;text-align:center"| 2.23%
+|-
+!style="background-color:#edf1f1;text-align:center"| All versions<ref></ref>
+|style="background-color:#edf1f1;text-align:center"| 19.03%
+|}
+
+Mozilla Firefox's market share has grown for each growth period since inception, mostly at the expense of Internet Explorer. Internet Explorer has seen a steady decline of its usage share since Firefox's release. By early 2008, Firefox had approximately 15% global usage share of web browsers.<ref></ref><ref></ref> Market shares break down as following: 43% for Safari 3.0, and less than half a percent for both Firefox 1.x and Internet Explorer 5.x versions.<ref></ref><ref name="softpedia1"></ref><ref></ref><ref name="softpedia:slaughtering-ie6">{{cite news |url=http://news.softpedia.com/news/IE7-and-Firefox-2-0-Are-Slaughtering-Internet-Explorer-6-77994.shtml |title=IE7 and Firefox 2.0 Are Slaughtering Internet Explorer 6 - Out with the old, in with the new
+|author=Marius Nestor |publisher=Softpedia |date=5 February 2008 |accessdate=2008-03-31}}</ref>
+
+As one article noted after the release of Firefox 2.0 in October 2006, ''"IE6 had the lion's share of the browser market with 77.22%. Internet Explorer 7 had climbed to 3.18%, while Firefox 2.0 was at 0.69%."''<ref name="softpedia:slaughtering-ie6" />
+
+A Softpedia article, however, noted in July 2007 that ''"Firefox 2.0 has been also expanding its share constantly in spite of IE7. From just 0.69% in October 2006, Firefox 2.0 is now accounting for 11.07% of the market. Mozilla has even sacrificed version 1.5 of its open source browser for Firefox 2.0. With support cut at the end of June, Firefox 1.5 dropped to just 2.85%."''<ref name="softpedia1"/>
+
+Downloads have continued at an increasing rate since Firefox 1.0 was released in November 2004, and as of February 21, 2008 Firefox has been downloaded over 500 million times.<ref></ref> This number does not include downloads using software updates or those from third-party websites.<ref></ref> They do not represent a user count, as one download may be installed on many machines, one person may download the software multiple times, or the software may be obtained from a third party. According to Mozilla CEO John Lilly, Firefox had about 140 million users as of February 2008.<ref></ref>
+
+==Critical reaction==
+''PC World'' named Firefox "Product of the Year" in 2005 on their "100 Best Products of 2005" list.<ref></ref> After the release of Firefox 2 and Internet Explorer 7 in 2006, ''PC World'' reviewed both and declared that Firefox was the better browser.<ref name="pcworldreview"></ref> ''Which?'' Magazine named Firefox its "Best Buy" web browser.<ref></ref>.
+
+Like other browsers, Firefox has had a number of vulnerabilities that have affected its security, although according to [http://www.cert.org/ CERT], not as many as Internet Explorer.
+
+===Performance===
+In December 2005 ''Internet Week'' ran an article in which many readers reported high memory usage in Firefox 1.5.<ref></ref> Mozilla developers said that the higher memory use of Firefox 1.5 was at least partially due to the new fast backwards-and-forwards (FastBack) feature.<ref></ref> Other known causes of memory problems were malfunctioning extensions such as Opera and Internet Explorer, they found that Firefox used approximately as much memory as the other two browsers.<ref></ref>
+
+Softpedia also noted that Firefox 1.5 took longer to start up than other browsers,<ref></ref> which was confirmed by browser speed tests.<!--<ref name="speedcmp"></ref> Author has requested that article not be posted/cited as it is outdated!-->
+IE 6 launches faster than Firefox 1.5 on Microsoft Windows since many of its components are built into Windows and are loaded during system startup.<!--<ref name="speedcmp"/>--> As a workaround for the issue, a preloader application was created that loads components of Firefox on startup, similar to Internet Explorer.<ref></ref> A Windows Vista feature called SuperFetch performs a similar task of preloading Firefox if it is used often enough.
+
+Tests performed by ''PC World'' and Zimbra indicate that Firefox 2 uses less memory than Internet Explorer 7.<ref name="pcworldreview"/><ref></ref> Firefox 3 uses less memory than Internet Explorer, Opera, Safari, and Firefox 2 in tests performed by Mozilla, CyberNet, and The Browser World.<ref></ref><ref></ref><ref></ref>

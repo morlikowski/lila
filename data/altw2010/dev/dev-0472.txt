@@ -1,0 +1,64 @@
+'''m4''' ist eine Makro-Programmiersprache, die von Brian Kernighan und Dennis Ritchie entwickelt wurde.
+
+== Anwendung ==
+Ein Makroprozessor ist ein Computerprogramm, das Zeichenfolgen innerhalb eines Textes durch andere Zeichenfolgen ersetzt. Es ermöglicht z.B. die Erstellung und Benutzung von wiederverwertbaren Textbausteinen in Textverarbeitungsprogrammen.
+
+== Geschichte ==
+Makroprozessoren waren weit verbreitet, als Computerprogramme noch hauptsächlich in Assembler geschrieben wurden. In diesen Anfangstagen der Computertechnik mussten Programmierer häufig immer wiederkehrende Textpassagen in ihren Programmen verwenden. Bald fing man an, einfache Möglichkeiten zu entwickeln, Text wiederzuverwenden. Schnell stellte sich heraus, dass man nicht nur ganze Textpassagen wiederverwenden konnte, sondern bei Bedarf auch einzelne Teile davon ersetzen und so komplexe Rational Fortran implementiert wurde, und ist heute Bestandteil der meisten MTA sendmail verwendet.
+
+== Eigenschaften ==
+M4 bietet folgende Funktionen:
+*Ersetzen von Text
+*Substituieren von Parametern
+*Einfügen von Dateien
+*Manipulation von Zeichenketten
+*Bedingte Ausdrücke
+*Arithmetische Ausdrücke
+*Schnittstelle zum Betriebssystem
+*Diagnosemöglichkeiten für den Programmierer
+
+Anders als die meisten früheren Makroprozessoren ist M4 nicht auf irgendeine spezielle (Computer- oder menschliche) Sprache ausgelegt; historisch wurde es jedoch entwickelt, um den Turing-vollständig, sondern auch eine praktische Programmiersprache.
+
+== Beispiel ==
+Das nachfolgende Codefragment ist ein einfaches Beispiel, das z.B. als Teil einer HTML-Bibliothek verwendet werden kann. Es definiert ein Makro, welches Kapitel automatisch nummeriert:
+
+ define(`H2_COUNT', 0)
+ define(`H2', `define(`H2_COUNT', incr(H2_COUNT))' dnl
+   `&lt;h2&gt;H2_COUNT. $1&lt;/h2&gt;')
+ 
+ H2(Erstes Kapitel)
+ H2(Zweites Kapitel)
+ H2(Schluss)
+
+'''m4''' は、マクロプロセッサである。その名称は、"macro" が "m" と残り4文字から成ることに由来する。
+
+== 使用 ==
+マクロプロセッサ（あるいはプログラミングでテキストをテンプレートとして再利用するのに使われるが、文書の編集に使われることもある。
+
+== 歴史 ==
+アセンブリ言語がプログラミングの主流だった頃、マクロプロセッサもよく使われていた。アセンブリ言語で書かれるプログラムは同じテキスト（ニーモニックの並び方）の繰り返しが多い。単純な方法として、テキスト（コードブロック）の再利用が行われるようになった。間もなく、パラメータ（命令のオペランド）を違う値に置換することで、再利用の範囲が広がることがわかってきた。そこで、マクロプロセッサが登場したのである。
+
+m4 は1977年、クリストファー・ストレイチーの考えに基づいて開発された。それまでのアセンブリ言語専用のマクロプロセッサと異なり、完全な自由形式のマクロプロセッサであり、高度な拡張性を備えていた（例えば、マクロの引数は走査時と挿入時の2回展開される）。Ratforの最初の実装で使われ、UNIXにも搭載された。今日これを最もよく使っているのはGNUの autoconf である。また、メール転送エージェント sendmail でも設定に使われている。一般に、チューリング完全であることからコード生成に向いているとされるが、デバッグが困難という問題がある。
+
+== 機能 ==
+* テキスト置換
+* パラメータ置換
+* ファイルのインクルード
+* 文字列操作
+* 条件付き評価
+* 数式表現
+* システムインタフェース
+* プログラマ診断
+
+それ以前のマクロプロセッサとは異なり、特定のコンピュータ言語や自然言語を対象としたものではない。ただし、本来はFORTRANの方言であるRatforの開発で使うためのものだった。他のマクロプロセッサとは異なり、m4 は一般的なプログラミング言語と同様、チューリング完全である。
+
+== 例 ==
+以下のコード断片はHTML生成ライブラリの一部を示したものである。自動的に節見出しに番号を振るマクロを定義している。
+
+ define(`H2_COUNT', 0)
+ define(`H2', `define(`H2_COUNT', incr(H2_COUNT))' dnl
+   `&lt;h2>H2_COUNT. $1&lt;/h2>')
+ 
+ H2(First Section)
+ H2(Second Section)
+ H2(Conclusion)

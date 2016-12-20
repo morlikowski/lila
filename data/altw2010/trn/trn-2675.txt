@@ -1,0 +1,29 @@
+Das '''Continuum''' ist ein von Lippold Haken entwickelter und von MIDI Controller.
+
+== Funktionsweise ==
+Das Continuum besitzt eine berührungsempfindliche Oberfläche aus cm breit und je nach Version entweder 137 cm oder 72 cm lang ist. Durch Sensoren unter der Oberfläche wird jede Berührung durch die Finger des Musikers mit einer Genauigkeit von 1,33 ms (Millisekunden) gemessen. Der Punkt, an dem die Berührung stattfindet, wird in drei Dimensionen aufgezeichnet.
+
+Die erste Dimension bezeichnet die Position auf der Länge des Continuum, damit wird die Cent genaues Pitchbending durchgeführt werden.
+
+Die zweite Dimension bezeichnet die Position auf der Breite des Continuum, damit wird je nach Einstellung die Klangfarbe beeinflusst, z.B. kann das Continuum so eingestellt werden, dass ein Ton weiter oben auf einer Taste mehr Nachhall besitzt als ein weiter unten auf der Taste gespielter Ton.
+
+Die dritte Dimension bezeichnet den Druck, der auf die Oberfläche ausgeübt wird, damit können dynamische Effekte erzeugt werden. Ein Vibrato etwa entsteht, wenn der Druck schnell verstärkt und wieder normalisiert wird.
+
+Das Continuum selbst erzeugt keine Töne, über einen MIDI oder FireWire-Eingang kann es an ein Klangmodul (wie etwa einen Synthesizer) angeschlossen werden.
+
+thumb|right|420px|The full-size Continuum Fingerboard
+
+The '''Continuum Fingerboard''' is a music performance controller developed by Lippold Haken, a professor of Electrical and Computer Engineering at the University of Illinois, and sold by Haken Audio, located in Champaign, Illinois.<ref name="LippoldHaken"></ref> 
+
+The Continuum does not itself generate sounds.  Rather, it must be connected to a sound-producing source that will receive MIDI input, such as a synthesizer module.
+
+==Specifications==
+Technically a MIDI controller, the Continuum features a touch-sensitive cm high by either 137 cm long (full-size instrument) or 72 cm long (half-size instrument), with a pitch range of 9350 cents (about 7.79 ms.<ref name="HakenAudio"></ref> Sensors under the playing surface respond to finger position and pressure in three dimensions and provide pitch resolution of one cent (one one-hundredth of a semitone) along the length of the scale (the X dimension), allowing essentially continuous pitch control for equal-tempered scale, just scale or other scale to facilitate in-tune performance, with the amount and duration of the "rounding" controllable in real time.
+
+thumb|right|250px|An illustration of the Continuum Fingerboard's axes.
+The Continuum also provides two additional parameters for the sound: it is able to transmit the finger pressure on the board as a MIDI value, as well as the finger's vertical position on the key. These parameters can be used to enrich the sound even more, and are independently programmable. For example, a standard configuration is where position on the X-Axis (lengthwise) on the instrument corresponds to pitch, position on the Y-Axis (widthwise) corresponds to a amplitude. The Continuum is capable of polyphonic performance, with up to 16 simultaneous voices.
+
+==Continuum players==
+Perhaps the most famous player of the Continuum in contemporary music is Octavarium" and "Octavarium", and in the end of the song "Score, such as in the previously unreleased song "Raise The Knife".
+
+The Continuum is also played by Jordan Rudess on John-Luke Addison's ''Multiple Valences'' album in the song "Unimaginable Charismatics" and, Behold... The Arctopus's most recent album ''Skullgrid'' on the song "Transient Exuberance". It can also be heard on a cover of Tarkus by Jordan Rudess from his album The Road Home from 11:31-11:55.

@@ -1,0 +1,57 @@
+{{Infobox Software
+| name = EDIUS
+| logo = 146px
+| screenshot = 
+| caption = 
+| developer = 
+| latest release version = 4.6
+| latest release date = 
+| operating_system = Windows
+| genre = video editing software
+| license = Proprietary
+| website = [http://www.canopus.com/products/nlesoftware.php canopus.com]
+}}
+'''EDIUS''' is a non-linear video editing programs. It supports many video formats, multi-track, mixed format HD / SD editing, compositing, chroma keying, titling, with realtime and timeline output capabilities.
+
+EDIUS key features, as stated on the developer's webpage are:
+
+*Realtime, mixed format HD/SD editing, including DV, HDV, HD, MPEG-2 and uncompressed SD video
+*Fast, flexible user interface, including unlimited video, audio, title and graphics tracks
+*Realtime editing and conversion of different HD/SD aspect ratios, such as 16:9 and 4:3
+*Realtime editing and conversion of different frame rates, such as 60i, 50i and 24p
+*Realtime editing and conversion of different resolutions, such as 1440x1080, 1280x720 and 720x480
+*Realtime HD/SD effects, keyers, transitions and titles
+*Realtime, render-free DV output directly from the timeline
+*Multicam editing of up to eight different sources simultaneously
+*Nested timeline sequences
+*High-speed HDV timeline export, built for Dual Core CPU technology
+*High-quality, multi-format video exporting with ProCoder Express for EDIUS
+*Direct-to-DVD timeline export
+*Inscriber TitleMotion Pro for EDIUS*
+
+{{Infobox Software |
+ 名称 = EDIUS |
+ ロゴ = |
+ スクリーンショット = |
+ 説明文 = |
+ 開発元 = カノープス株式会社 |
+ 最新版 = Pro 4 |
+ 最新版発表日 = 2006年5月24日 |
+ 対応OS = Windows XP |
+ 種別 = Video editing software |
+ ライセンス = プロプライエタリ |
+ 公式サイト = [http://www.edius.jp/ EDIUS.jp] |
+}}
+
+'''EDIUS'''(エディウス)とは、カノープス株式会社が2003年から開発・販売している、ノンリニア編集用ソフトウェア。
+DV、HDV、AVCHD等のあらゆるフォーマットに対応するほか、Canopus HQという放送業界でも採用される独自コーデックや自社製ハードウェアを持つことが特徴である。当初はアクセラレーションボード、DVStormシリーズのハードウェアDVコーデックでノンリニア編集の一時代を築いたが、マルチコアCPUの登場とともに、CPUの性能を限界まで引き出すことで、PCの性能に合わせてリアルタイム性を高めることができるスケーラブルテクノロジーの思想に一新し、ハイビジョンリアルタイム編集を実現している。
+
+SD/HD/FullHDなどマルチフォーマット対応や、その映像の混在編集、デュアルディスプレイ表示も可能な独特なマルチウインドウ構成のGUIなどを特徴とし、放送・映画からアマチュア・ハイアマチュアまで広いユーザー層を獲得している。
+
+現行バージョンは、「EDIUS Pro version 4」(4.61まで無償バージョンアップが可能）。また、EDIUS Pro version 4.5のエンジンを踏襲したミドルレンジモデル「EDIUS Neo」や、ジャストシステムとの共同開発で初等教育の検定教科書にも採用される初心者向けの「エディウスＪ」がある。る。
+
+==外部リンク==
+* [http://www.canopus.co.jp/work/2007-5.htm EDIUS Pro version 4 製品情報（日本語版）]
+* [http://www.edius.jp/ EDIUS.jp EDIUSの教科書]
+* [http://www.canopus.com/ 公式サイト（英語）]
+* [http://ediustraining.grassvalley.com/index.php ONLINE TRAINING（英語）]

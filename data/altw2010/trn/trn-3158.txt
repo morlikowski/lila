@@ -1,0 +1,104 @@
+{{Infobox Commune de France|nomcommune=Chavanat
+|région=Limousin
+|département=Creuse
+|arrondissement=Aubusson
+|canton=Saint-Sulpice-les-Champs
+|insee=23060
+|cp=23250
+|maire=Guy Desloges
+|mandat=2001-2008
+|intercomm=Pays Creuse-Thaurion-Gartempe
+|longitude=1.965
+|latitude=45.9536111111
+|alt moy=500 m
+|alt mini=471
+|alt maxi=647 m
+|hectares=1273
+|km²=12.73
+|sans=127
+|date-sans=1999
+|dens=9|}}
+
+''' Chavanat ''' is a commune in the department in central France.
+
+==Demographic evolution==
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:300 color:gray1 width:1       
+  from:start till:end             
+  bar:200 color:gray1              
+  from:start till:end            
+  bar:100 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,147)(84,123) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 224 1968: 182
+  points:(84,123)(100,134)    color:blue    width:2 #1975: 202
+  points:(100,134)(128,107)   color:blue    width:2 #1982: 154
+  points:(128,107)(160,102)   color:blue    width:2 #1990: 144
+  points:(160,102)(196,92)   color:blue    width:2 #1999: 127
+  
+</timeline> 
+==See also==
+*Communes of the Creuse department
+
+{{Infobox Commune de France|nomcommune=Chavanat
+|région=Limousin
+|département=Creuse
+|arrondissement=Aubusson
+|canton=Saint-Sulpice-les-Champs
+|insee=23060
+|cp=23250
+|maire='''Guy Desloges'''
+|mandat=2008-2014
+|intercomm=Communauté de communes C.I.A.T.E. du Pays Creuse-Thaurion-Gartempe
+|longitude=1.965
+|latitude=45.9536111111
+|alt moy=500 m
+|alt mini=471 m
+|alt maxi=647 m
+|hectares=1 273
+|km²=12,73
+|sans=131
+|date-sans=2006
+|dens=10,3|}}
+'''Chavanat''' est une commune française, située dans le département de la Creuse et la région Limousin.
+
+==Géographie==
+==Histoire==
+==Administration==
+left|100px
+A l'issue des élections municipales de mars 2008, Guy Desloges a été réélu maire de la commune<ref>[http://www.creuse.pref.gouv.fr/creuse/sections/stokage_documents/prefecture/annuaire_des_commune/downloadFile/attachedFile/mairie%20pdf%20site%20prefecture%2027-03-07.pdf?nocache=1175081012.25 Source : préfecture de la Creuse]</ref> par le nouveau conseil municipal.
+
+==Démographie==
+{{Démographie|
+1962= 140|
+1968= 182|
+1975= 202|
+1982= 154|
+1990= 144|
+1999= 127|
+2006= 131|
+sansdoublescomptes= 1962|source=INSEE<ref>[http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/resultats/chiffres-cles/n3/23/n3_23060.pdf Source : INSEE - Enquête annuelle de recensement 2006]</ref>}}
+
+==Lieux et monuments==
+*Église romane.
+*Statue de Sainte Anne.
+
+==Personnalités liées à la commune==
+==Voir aussi==
+* Communes de la Creuse 

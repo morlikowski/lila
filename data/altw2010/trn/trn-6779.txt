@@ -1,0 +1,171 @@
+{| class="infobox vcard" style="width:22em; font-size:90%;" cellspacing="5"
+|-
+|colspan="2" style="text-align:center; font-size:larger; background-color:}; color:#000;" class="fn"| '''}}}'''
+|-
+|colspan="2" style="text-align:center; font-size:90%;"| }|<!--then:-->}|<!--then:-->}|<!--else:-->220px}}| <br/><small>}</small>
+}}
+}|<!--then:--><tr><td style="text-align:left;">'''Navn'''</td><td class="nickname">}</td></tr>
+}}
+|-
+|width="85px"| '''Fødselsdag'''
+| }
+|-
+} |
+ '''Født i'''  }
+}}
+|-
+} |
+ '''Død'''  }
+}}
+|-
+} |
+ '''Død i'''  } 
+}}
+|-
+} |
+ '''Højde'''  }
+}}
+|-
+} |
+ '''Hårfarve'''  }
+}}
+|-
+} |
+ '''Øjenfarve'''  } 
+}}
+|-
+} |
+ '''Mål'''  }
+}}
+|-
+} |
+ '''Vægt'''  }
+}}
+|-
+} |
+ '''Tøjstørrelse'''  }
+}}
+|-
+} |
+ '''Skostørrelse'''  }
+}}
+|-
+} |
+ '''Bureau'''  }
+}}
+|-
+} |
+ '''Alias(er)'''  }
+}}
+|-
+} |
+ '''Ægtefælle(r)'''  }
+}}
+|-
+}|
+<tr valign="top"><td colspan="2" align="center">'''[} Hjemmeside]'''</td></tr>}}
+|-
+|}<noinclude>
+<div style="clear:both;"></div>
+
+''Infobox Model'' kan bruges til at opsummere information om en person som er/var model.
+
+== Brug ==
+The infobox may be added by pasting the template as shown below into an article. Only the ''name'' and ''birthdate'' parameters are required. For an example, see Cindy Crawford.
+
+<div style="width:250px; background:#ddd; border:1px solid black; padding:0.5em 1em 0.5em 1em;">
+<pre>{{Infobox Model
+| bgcolour      = 
+| name          = 
+| image         = 
+| imagesize     = 
+| caption       = 
+| birthname     = 
+| birthdate     = 
+| location      = 
+| deathdate     = 
+| deathplace    = 
+| height        = 
+| haircolor     = 
+| eyecolor      = 
+| measurements  = 
+| weight        = 
+| dress size    = 
+| shoesize      = 
+| homepage      = 
+| spouse        = 
+}}</pre>
+</div>
+
+{| class="infobox vcard" style="width:22em; font-size:90%;" cellspacing="5"
+|-
+|colspan="2" style="text-align:center; font-size:larger; background-color:}; color:#000;" class="fn"| '''}}}'''
+|-
+|colspan="2" style="text-align:center; font-size:90%;"| }|<!--then:-->}|<!--then:-->}|<!--else:-->220px}}| <br/><small>}</small>
+}}
+}|<!--then:--><tr><td style="text-align:left;">'''Birth name'''</td><td class="nickname">}</td></tr>
+}}
+|-
+|width="85px"| '''Date of birth'''
+| }
+|-
+} |
+ '''Place of birth'''  }
+}}
+|-
+} |
+ '''Date of death'''  }
+}}
+|-
+} |
+ '''Place of death'''  } 
+}}
+|-
+} |
+ '''Height'''  }
+}}
+|-
+} |
+ '''Hair color'''  }
+}}
+|-
+} |
+ '''Eye color'''  } 
+}}
+|-
+} |
+ '''Measurements'''  }
+}}
+|-
+} |
+ '''Weight'''  }
+}}
+|-
+} |
+ '''Dress size'''  }
+}}
+|-
+} |
+ '''Shoe size'''  }
+}}
+|-
+} |
+ '''Agency'''  }
+}}
+|-
+} |
+ '''Alias(es)'''  }
+}}
+|-
+} |
+ '''Spouse(s)'''  }
+}}
+|-
+}|
+<tr valign="top"><td colspan="2" align="center">'''[} Official website]'''</td></tr>}}
+|-
+|}<noinclude>
+<div style="clear:both;"></div>
+
+<!--Categories-->
+Model

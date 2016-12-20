@@ -1,0 +1,126 @@
+'''قاعدة البيانات''' (بالإنجليزية: Database) هي مجموعة من عناصرِ البيانات المنطقية المرتبطة مع بعضها البعض بعلاقة رياضية، وتتكون قاعدة البيانات من جدول واحد أو أكثر من جدول. ويتكون الجدول من سجل (Record)او أكثر من سجل ويتكون السجل من حقل (Field)أو أكثر من حقل ومثال على السجل :السجل الخاص بموظف معين يتكون من عدة حقول مثل رقم الموظف - اسم الموظف - درجة الموظف - تاريخ التعيين - الراتب - والقسم التابع له ...إلخ من بيانات الموظف تخزن في جهاز الحاسوب عَلى نحو منظّم، حيث يقوم برنامج (حاسوب) يسمى محرك قاعدة البيانات ([http://en.wikipedia.org/wiki/Database_engine Database Engine]) بتسهيل التعامل معها والبحث ضمن هذه البيانات، وتمكين المستخدم من الإضافة والتعديل عليها.
+
+يتم استرجاع البيانات باستخدام أوامر من لغة للاستعلام ([http://en.wikipedia.org/wiki/Query_language Query language])، حيث تعتبر معلومات تساعد في عملية اتخاذ القرار.
+
+نظام إدارة قواعد البيانات ([http://en.wikipedia.org/wiki/Database_management_system Database Management System (DBMS)]) هو البرنامج الذي يتم من خلاله استرجاع البيانات، أو الإضافة أو التعديل عليها، أو حذفها، حيث يقوم البرنامج بالربط بين المستخدم وبين محرك قاعدة البيانات، لأداء تلك المهمة.
+
+وفى حالة مايكون هناك علاقة (Relation) بين جداول قاعدة البيانات يسمى هذا بنظام قواعد البيانات العلائقية (Relational Database Management System - RDBMS)
+الهدف الأساسي لقواعد البيانات هو التركيز على طريقة تنظيم البيانات و ليس على التطبيقات الخاصة. أي أن الهدف الرئيسي لمصمم قاعدة البيانات هو تصميم البيانات بحيث تكون خالية من التكرار و يمكن استرجاعها و تعديلها والإضافة عليها دون المشاكل التي يمكن أن تحدث مع وجود التكرار فيها. يتم ذلك عن طريق ايجاد ثلاث مستويات من التجريد أو النماذج لقواعد البيانات تسمى نماذج التطبيع ([http://en.wikipedia.org/wiki/Database_normalization Normalizing Forms])، ويقصد بها جعل تركيبة البيانات أقرب للطبيعة التصنيفية.
+
+وهناك تركيبات لقواعد البيانات حسب نوع العلاقة الرياضية بين البيانات، ومنها:
+
+* التركيب العلائقي : وهو اعتماد علاقة محددة بين عناصر البيانات، مثل أن تكون قيمة عنصر معتمدة على حاصل جمع عنصرين. وهذا التركيب هو أنجح التراكيب المطبقة في عالم قواعد البيانات المعلوماتية، وذلك بسبب إعطائه تنوع في نوع العلاقة بين البيانات، لأن احتمالية تنفيذ العلاقات فيه أكبر من اي تركيب اخر.
+* التركيب الهيكلي : وهو اعتماد علاقة الهيكل التنظيمي بين  عناصر البيانات ، مثل أن يكون عنصرين مصنفين تحت عنصر واحد أو تابعين له.
+* التركيب الهرمي : وهو اعتماد علاقة الهرم بين عناصر البيانات، مثل أن يكون كل عنصر مسؤول عن عنصر واحد فقط و ليس اكثر.
+
+==بيئات قواعد البيانات==
+* نظام اوراكل لإدارة [http://ar.wikipedia.org/wiki/%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D9%82%D8%A7%D8%B9%D8%AF%D8%A9_%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA_%D8%A7%D9%84%D9%85%D8%AA%D8%B1%D8%A7%D8%A8%D8%B7%D8%A9 قواعد البيانات المترابطة (العلائقية)] أوراكل
+*MySQL
+*أكسس
+*PostgreSQL
+*قاعدة بيانات بيركيلي
+* Borland Interbase
+* Microsoft SQL Server
+* Informix
+* B-trieve
+
+== انظر أيضاً ==
+
+* معلومات
+* علم المعلوماتية
+
+A '''database''' is a structured collection of records or data. A computer database relies upon software to organize the storage of data. The software models the database structure in what are known as database models. The model in most common use today is the relational model. Other models such as the hierarchical model and the network model use a more explicit representation of relationships (see below for explanation of the various database models).
+
+Database management systems (DBMS) are the software used to organize and maintain the database. These are categorized according to the database model that they support. The model tends to determine the query languages that are available to access the database. A great deal of the internal engineering of a DBMS, however, is independent of the data model, and is concerned with managing factors such as performance, concurrency, integrity, and recovery from hardware failures. In these areas there are large differences between products.
+
+==History==
+The earliest known use of the term '''''data base''''' was in November 1963, when the System Development Corporation sponsored a symposium under the title ''Development and Management of a Computer-centered Data Base''<ref></ref>. '''Database''' as a single word became common in Europe in the early 1970s and by the end of the decade it was being used in major American newspapers. (The abbreviation DB, however, survives.)
+
+The first database management systems were developed in the 1960s. A pioneer in the field was punched cards and IMS product. While IMS along with the CODASYL PICK and MUMPS databases, with the former developed originally as an operating system with an embedded database and the latter as a programming language and database for the development of healthcare systems.
+
+The E. F. Codd in 1970. He criticized existing models for confusing the abstract description of information structure with descriptions of physical access mechanisms. For a long while, however, the relational model remained of academic interest only. While CODASYL products (IDMS) and network model products (IMS) were conceived as practical engineering solutions taking account of the technology as it existed at the time, the relational model took a much more theoretical perspective, arguing (correctly) that hardware and software technology would catch up in time. Among the first implementations were Ingres at Berkeley, and the Oracle and DB2, did not appear until around 1980. The first successful database product for microcomputers was dBASE for the CP/M and PC-DOS/MS-DOS operating systems.
+
+During the 1980s, research activity focused on distributed database systems and database machines. Another important theoretical idea was the Functional Data Model, but apart from some specialized applications in genetics, molecular biology, and fraud investigation, the world took little notice.
+
+In the 1990s, attention shifted to object-oriented databases. These had some success in fields where it was necessary to handle more complex data than relational systems could easily cope with, such as repositories), and multimedia data. Some of these ideas were adopted by the relational vendors, who integrated new features into their products as a result. The 1990s also saw the spread of Open Source databases, such as PostgreSQL and MySQL.
+
+In the 2000s, the fashionable area for innovation is the XML database. As with object databases, this has spawned a new collection of start-up companies, but at the same time the key ideas are being integrated into the established relational products. XML databases aim to remove the traditional divide between documents and data, allowing all of an organization's information resources to be held in one place, whether they are highly structured or not.
+
+==Database models==
+
+Various techniques are used to model data structure. Most database systems are built around one particular data model, although it is increasingly common for products to offer support for more than one model. For any one logical model various physical implementations may be possible, and most products will offer the user some level of control in tuning the physical implementation, since the choices that are made have a significant effect on performance. Here are three examples:
+
+===Hierarchical model===
+In a hierarchical model, data is organized into an inverted tree-like structure, implying a multiple downward link in each node to describe the nesting, and a sort field to keep the records in a particular order in each same-level list. This structure arranges the various data elements in a hierarchy and helps to establish logical relationships among data elements of multiple files. Each unit in the model is a record which is also known as a node. In such a model, each record on one level can be related to multiple records on the next lower level. A record that has subsidiary records is called a parent and the subsidiary records are called children. Data elements in this model are well suited for one-to-many relationships with other data elements in the database.
+
+This model is advantageous when the data elements are inherently hierarchical. The disadvantage is that in order to prepare the database it becomes necessary to identify the requisite groups of files that are to be logically integrated. Hence, a hierarchical data model may not always be flexible enough to accommodate the dynamic needs of an organization.
+
+===Network model===
+The network model tends to store records with links to other records. Each record in the database can have multiple parents, i.e., the relationships among data elements can have a many to many relationship. Associations are tracked via "pointers". These pointers can be node numbers or disk addresses. Most network databases tend to also include some form of hierarchical model. Databases can be translated from hierarchical model to network and vice versa. The main difference between the network model and hierarchical model is that in a network model, a child can have a number of parents whereas in a hierarchical model, a child can have only one parent.
+
+The network model provides greater advantage than the hierarchical model in that promotes greater flexibility and data accessibility, since records at a lower level can be accessed without accessing the records above them. This model is more efficient than hierarchical model, easier to understand and can be applied to many real world problems that require routine transactions. The disadvantages are that: It is a complex process to design and develop a network database; It has to be refined frequently; It requires that the relationships among all the records be defined before development starts, and changes often demand major programming efforts; Operation and maintenance of the network model is expensive and time consuming.
+
+Examples of database engines that have network model capabilities are RDM Embedded and RDM Server.
+
+===Relational model===
+
+The basic data structure of the relational model is a table where information about a particular entity (say, an employee) is represented in columns and rows.  The columns enumerate the various attributes of an entity (e.g. employee_name, address, phone_number).  Rows (also called records) represent instances of an entity (e.g. specific employees).
+
+The "relation" in "relational database" comes from the mathematical notion of relations from the field of set theory.  A relation is a set of tuples, so rows are sometimes called tuples.  All tables in a relational database adhere to three basic rules.
+* The ordering of columns is immaterial
+* Identical rows are not allowed in a table
+* Each row has a single (separate) value for each of its columns (each tuple has an atomic value).
+
+If the same value occurs in two different records (from the same table or different tables) it can imply a relationship between those records.  Relationships between records are often categorized by their cardinality (1:1, (0), 1:M, M:M).
+
+Tables can have a designated column or set of columns that act as a "key" to select rows from that table with the same or similar key values.  A "primary key" is a key that has a unique value for each row in the table.  Keys are commonly used to join or combine data from two or more tables.  For example, an ''employee'' table may contain a column named ''address'' which contains a value that matches the key of an ''address'' table. Keys are also critical in the creation of indexes, which facilitate fast retrieval of data from large tables. It is not necessary to define all the keys in advance; a column can be used as a key even if it was not originally intended to be one.
+
+====Relational operations====
+Users (or programs) request data from a relational database by sending it a query that is written in a special language, usually a dialect of SQL. Although SQL was originally intended for end-users, it is much more common for SQL queries to be embedded into software that provides an easier user interface. Many web applications, such as Wikipedia, perform SQL queries when generating pages.
+
+In response to a query, the database returns a result set, which is the list of rows constituting the answer. The simplest query is just to return all the rows from a table, but more often, the rows are filtered in some way to return just the answer wanted. Often, data from multiple tables are combined into one, by doing a join. There are a number of relational operations in addition to join.
+
+====Normal forms====
+
+Relations are classified based upon the types of anomalies to which they're vulnerable.  A database that's in the first normal form is vulnerable to all types of anomalies, while a database that's in the domain/key normal form has no modification anomalies.  Normal forms are hierarchical in nature.  That is, the lowest level is the first normal form, and the database cannot meet the requirements for higher level normal forms without first having met all the requirements of the lesser normal form.
+
+==Database Management Systems==
+
+===Relational database management systems===
+An RDBMS implements the features of the relational model outlined above. In this context, Date's '''Information Principle''' states:
+
+<blockquote>The entire information content of the database is represented in one and only one way. Namely as explicit values in column positions (attributes) and rows in relations (tuples) Therefore, there are no explicit pointers between related tables.</blockquote>
+
+===Post-relational database models===
+Several products have been identified as trees on the nodes.
+
+Examples of models that could be classified as post-relational are PICK aka MultiValue, and MUMPS.
+
+===Object database models===
+In recent years, the impedance mismatch'') of converting information between its representation in the database (for example as rows in tables) and its representation in the application program (typically as objects). At the same time, object databases attempt to introduce the key ideas of object programming, such as polymorphism, into the world of databases.
+
+A variety of these ways have been tried for storing objects in a database. Some products have approached the problem from the application programming end, by making the objects manipulated by the program persistent. This also typically requires the addition of some kind of query language, since conventional programming languages do not have the ability to find objects based on their information content. Others have attacked the problem from the database end, by defining an object-oriented data model for the database, and defining a database programming language that allows full programming capabilities as well as traditional query facilities.
+
+==DBMS internals==
+===Storage and physical database design===
+
+Database tables/indexes are typically stored in memory or on hard disk in one of many forms, ordered/unordered flat files, heaps, hash buckets or B+ trees. These have various advantages and disadvantages discussed further in the main article on this topic. The most commonly used are B+ trees and ISAM.
+
+Other important design choices relate to the clustering of data by category (such as grouping data by month, or location), creating pre-computed views known as materialized views, partitioning data by range or hash. As well memory management and storage topology can be important design choices for database designers. Just as normalization is used to reduce storage requirements and improve the extensibility of the database, conversely denormalization is often used to reduce join complexity and reduce execution time for queries. <ref name="Physical Database Design">S. Lightstone, T. Teorey, T. Nadeau, Physical Database Design: the database professional's guide to exploiting indexes, views, storage, and more, Morgan Kaufmann Press, 2007. ISBN 0123693896   </ref>
+
+====Indexing====
+All of these databases can take advantage of indexing to increase their speed.  This technology has advanced tremendously since its early uses in the 1960s and 1970s. The most common kind of index is a sorted list of the contents of some particular table column, with pointers to the row associated with the value. An index allows a set of table rows matching some criterion to be located quickly. Typically, indexes are also stored in the various forms of data-structure mentioned above (such as hashes, and linked lists). Usually, a specific technique is chosen by the database designer to increase efficiency in the particular case of the type of index required.
+
+Relational DBMS's have the advantage that indexes can be created or dropped without changing existing applications making use of it. The database chooses between many different strategies based on which one it estimates will run the fastest.  In other words, indexes are transparent to the application or end-user querying the database;  while they affect performance, any SQL command will run with or without index to compute the result of an joins are cardinality.
+
+An index speeds up access to data, but it has disadvantages as well. First, every index increases the amount of storage on the hard drive necessary for the database file, and second, the index must be updated each time the data are altered, and this costs time. 
+(Thus an index saves time in the reading of data, but it costs time in entering and altering data. It thus depends on the use to which the data are to be put whether an index is on the whole a net plus or minus in the quest for efficiency.)
+
+A special case of an index is a primary index, or primary key, which is distinguished in that the primary index must ensure a unique reference to a record. Often, for this purpose one simply uses a running index number (ID number). Primary indexes play a significant role in relational databases, and they can speed up access to data considerably.
+
+===Transactions and concurrency===
+In addition to their data model, most practical databases ("transactional databases") attempt to enforce a database transaction . Ideally, the database software should enforce the ACID rules, summarized here:
+* Atomicity: Either all the tasks in a transaction must be done, or none of them. The transaction must be completed, or else it must be undone (rolled back).
+* Consistency: Every transaction must preserve the integrity constraints — the declared consistency rules — of the database. It cannot place the data in a contradictory state.
+* Isolation: Two simultaneous transactions cannot interfere with one another. Intermediate results within a transaction are not visible to other transactions.
+* Durability: Completed transactions cannot be aborted later or their results discarded. They must persist through (for instance) restarts of the DBMS after crashes

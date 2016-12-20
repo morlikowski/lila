@@ -1,0 +1,80 @@
+'''Logika matematyczna''' – dział matematyki, który wyodrębnił się jako samodzielna dziedzina na przełomie XIX i XX wieku, wraz z dążeniem do dogłębnego zbadania podstaw matematyki. Koncentruje się on na analizowaniu zasad rozumowania oraz pojęć z nim związanych z wykorzystaniem sformalizowanych oraz uściślonych metod i narzędzi matematyki.
+
+W początkowym okresie rozwoju tego działu używano też nazwy '''logika symboliczna''' (w celu odróżnienia od logiki filozoficznej). Nazwa '''logika matematyczna''' została użyta po raz pierwszy przez włoskiego matematyka Giuseppe Peano.
+
+== Rys historyczny ==
+Korzenie logiki matematycznej tkwią w badaniach Gottfrieda Leibniza, ale jej burzliwy rozwój zaczął się w pierwszej połowie XIX wieku w wyniku prac George'a Boole'a i Augusta De Morgana nad algebraizacją logiki. Niektóre z ważniejszych wydarzeń w historii logiki matematycznej:
+* logice drugiego rzędu.<ref>Frege, Gottlob: ''Begriffsschrift: eine der arithmetischen nachgebildete Formelsprache des reinen Denkens''. Halle, 1879.</ref>
+* niemiecki matematyk teorii mnogości .
+* 1892-1908: Peano publikuje wielotomowy formalny wykład matematyki ''Formulario mathematico''. Część dotycząca logiki matematycznej miała duży wpływ na późniejsze prace. 
+* geometrii klasycznej, właściwie ją formalizując i podając 21 aksjomatów<ref>Hilbert, David: ''Grundlagen der Geometrie'', 1899.</ref>.
+* Thoralfa Skolema i Adolfa Fraenkela około roku 1922. Dzisiaj aksjomaty te, znane jako aksjomaty Zermelo-Fraenkela, są powszechnie akceptowaną podstawą teorii mnogości i całej matematyki.
+* monografii Principia Mathematica.
+* austriacki matematyk rozprawie doktorskiej, że każda niesprzeczna model (twierdzenie Gödla o zupełności)<ref>Gödel, Kurt: ''Über die Vollständigkeit des Logikkalküls''. Rozprawa doktorska napisana pod kierunkiem Hansa Hahna. Uniwersytet Wiedeński, 1929.</ref>.
+* dwa twierdzenia o niezupełności<ref>Gödel, Kurt: ''Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme, I''. "Monatshefte für Mathematik und Physik" 38 (1931), s. 173-98</ref>.
+* 1933: Alfred Tarski publikuje sławną pracę o niedefiniowalności pojęcia prawdy<ref>Tarski, Alfred: ''Pojęcie prawdy w językach nauk dedukcyjnych'', "Travaux de la Societe des Sciences et des Lettres de Varsovie", Classe III, no 34 (1933).</ref>.
+* Alan Turing wprowadza pojęcie maszyny Turinga zaczynając systematyczne badania funkcji obliczalnych i wykazując nierozstrzygalność problemu stopu.
+* 1963/64: Paul Cohen wprowadza metodę forsingu<ref>Cohen, Paul: ''The independence of the continuum hypothesis.'' "Proc. Nat. Acad. Sci. U.S.A." 50 (1963), s. 1143-1148.</ref><ref> Cohen, Paul J.: ''The independence of the continuum hypothesis. II.'' "Proc. Nat. Acad. Sci. U.S.A." 51 (1964), s. 105-110.</ref><ref> Cohen, Paul J.: ''Set theory and the continuum hypothesis.'' W. A. Benjamin, Inc., New York-Amsterdam, 1966. </ref>.
+
+== Współczesne badania ==
+Zgodnie z klasyfikacją badań naukowych w matematyce prowadzoną przez Amerykańskie Towarzystwo Matematyczne, aktualne badania w logice matematycznej (oznaczonej kodem 03-xx ''Mathematical logic and foundations'') są podzielona na osiem działów. Wśród nich znajdują się:
+*03Bxx Logika ogólna
+*03Cxx Teoria modeli
+*03Dxx Teoria rekursji 
+*03Exx Teoria mnogości
+*03Fxx Teoria dowodu 
+*03Gxx Logika algebraiczna
+*03Hxx Teoria modeli niestandardowych
+
+Jednym z podstawowych źródeł o stanie badań we współczesnej logice matematycznej jest ''Handbook of mathematical logic''<ref>''Handbook of mathematical logic''. Edytowane przez Jona Barwise'a we współpracy z H. J. Keislerem, K. Kunenem, Y. N. Moschovakisem and A. S. Troelstrą. "Studies in Logic and the Foundations of Mathematics", tom 90. North-Holland Publishing Co., Amsterdam-New York-Oxford, 1977. ISBN 0-7204-2285-X</ref>. Zgodnie z tym źródłem (i jego podziałem na 4 części), można uznać, że teoria dowodu, teoria modeli, teoria rekursji i teoria mnogości są czwórką na którą składają się fundamenty matematyki.
+
+== Polscy matematycy ==
+Logika matematyczna jest jedną z tych dziedzin matematyki, w których wkład polskich matematyków był i jest bardzo istotny. Matematycy związani zarówno z warszawską szkołą matematyczną jak i z lwowską szkołą matematyczną byli zainteresowani problemami w szeroko rozumianej logice matematycznej, choć często zainteresowania te były motywowane ich pracami w topologii czy też analizie funkcjonalnej. Między innymi dlatego pierwsze wyspecjalizowane czasopismo matematyczne na świecie, założone w Polsce teorii funkcji rzeczywistych i teorii miary.
+
+Tradycje te są kontynuowane współcześnie przez wielu polskich matematyków pracujących w kraju jak i poza jego granicami. Wśród polskich matematyków powszechnie uznanych za wybitnych, ważny wkład w rozwój logiki matematycznej mieli:
+*Stefan Banach (1892-1945),
+*Zygmunt Janiszewski (1888-1920),
+*Bronisław Knaster (1893-1980),
+*Kazimierz Kuratowski (1896-1980),
+*Stanisław Leśniewski (1886-1939),
+*Jan Łukasiewicz (1878-1956),
+*Jerzy Łoś (1920-1998),
+*Edward Marczewski (1907-1976),
+*Stanisław Mazur (1905-1981),
+*Andrzej Mostowski (1913-1975),
+*Otto M. Nikodym (1887-1974),
+*Helena Rasiowa (1917-1994),
+*Wacław Sierpiński (1882-1969),
+*Roman Sikorski (1920-1983),
+*Alfred Tarski (1901-1983),
+*Stanisław Ulam (1909-1984).
+
+== Bibliografia ==
+<references/>
+
+De '''wiskundige logica''' is een deelgebied van de wiskunde. De wiskundige logica wordt vaak onderverdeeld in de deelgebieden groepentheorie, modeltheorie, bewijstheorie, verzamelingenleer en berekenbaarheid. Onderzoek op het gebied van de wiskundige logica heeft bijgedragen aan de grondslagen van de wiskunde die weer de logica ondersteunde. Maar er zijn ook onderdelen van de wiskundige logica die niet met grondslagvragen verbonden zijn.
+
+Formele logica en het formele wiskundig bewijs horen bij de wiskundige logica. 
+
+Vroeger werd de wiskundige logica ook ''symbolische logica'' genoemd (als tegenstelling van de ''filosofische logica'', ook wel ''symbolische logica'' of ''metawiskunde'' genoemd). De eerste uitdrukking wordt altijd nog gebruikt, zoals in de ''Association for Symbolic Logic''. Metawiskunde wordt intussen alleen nog voor bepaalde aspecten van de bewijstheorie gebruikt.
+
+In de vorige eeuw was het programma van David Hilbert en het onderzoek van consistentie van onder meer Kurt Gödel van belang.
+
+==Geschiedenis==
+Aristoteles' leer van het syllogisme en Euclides' vlakke meetkunde vormden uitgangspunten. Het begrip ''wiskundige logica'' werd door Giuseppe Peano gebruikt voor de ''symbolische logica''. De klassieke versie ervan is vergelijkbaar met de logica van Aristoteles, hoewel men symbolen in plaats van natuurlijke taal gebruikt.
+
+Wiskundigen met een filosofische achtergrond, zoals Gottfried Wilhelm Leibniz en Johann Heinrich Lambert probeerden al vroeg de formele wiskunde vanuit een symbolische of algebraïsche benadering te behandelen, maar hun werk bleef grotendeels onbekend en onopgevolgd. In het midden van de 19e eeuw kwamen George Boole en Augustus De Morgan met een systematische logica. De traditionele, aristotelische logica werd hervormd en uitgebreid als instrument om de grondslagen van de wiskunde te onderzoeken. 
+
+Terwijl tijdens de Griekse ontwikkeling van de logica grote waarde werd gehecht aan de argumentatieformuleringen, kan men de huidige wiskundige logica omschrijven als de ''studie van inhoud door het leggen van combinaties''. Daaronder vallen zowel de ''syntactische'' (het onderzoek van de formele tekenreeksen) als ook de ''semantische'' (het toewijzen van betekenis aan deze tekenreeksen).
+
+Historische publicaties van betekenis zijn het ''Onvolledigheidsstellingen'' van Kurt Gödel.
+
+==Formele logica==
+De wiskunde logica houdt zich dikwijls bezig met wiskundige concepten die in formele logische systemen worden uitgedrukt. Het breedst verspreid is het systeem van de volledigheid en correctheid. De propositielogica, sterkere klassieke logica zoals de predicatenlogica van de tweede orde of niet-klassieke logica zoals het intuïtionisme worden eveneens onderzocht.
+
+==Deelgebieden van de wiskundige logica ==
+Het ''Handbook of Mathematical Logic'' (1977) deelt de wiskundige logica onder in vier gebieden:
+;Verzamelingenleer: De verzamelingenleer is de studie van de verzamelingen, in het bijzonder de abstracte verzamelingen van objecten. Terwijl eenvoudige concepten zoals de deelverzameling vaak binnen het terrein van de naïeve verzamelingen behandeld worden, houdt het moderne onderzoek zich bezig met de axiomatische verzamelingenleer die logische methoden gebruikt om vast te stellen welke wiskundige uitspraken in verschillende formele theorieën bewezen kunnen worden, zoals de Zermelo-Fraenkel verzamelingsleer van Ernst Zermelo en Adolf Fraenkel of de  New Foundations van Willard Van Orman Quine.
+;Frege hield zich met de wiskundige bewijzen bezig en formaliseerde het begrip ''bewijs''.
+;Modeltheorie: De modeltheorie is de studie van formele theorieën. De verzameling van alle modellen van een bepaalde theorie noemt men een elementaire klasse. De klassieke modeltheorie probeert de eigenschappen van modellen van een bepaalde elementaire klasse te bepalen of onderzoekt of bepaalde klassen van structuren elementair zijn. De methode van de kwantoreliminatie wordt gebruikt om aan te tonen dat bepaalde theorieën niet te gecompliceerd kunnen zijn.
+;Turinggraden, die de niet berekenbare functies naar de graad van hun niet-berekenbaarheid classificeren. Verder omvat de theorie ook de studie van de veralgemeniseerde berekenbaarheid en definieerbaarheid.

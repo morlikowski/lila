@@ -1,0 +1,47 @@
+Der Begriff '''physikalische Gasphasenabscheidung''' (englisch ''physical vapour deposition'', kurz PVD) bezeichnet eine Gruppe von Beschichtungsverfahren bzw. Dünnschichttechnologien, bei denen im Gegensatz zu CVD-Verfahren die Schicht direkt durch Kondensation eines Materialdampfes des Ausgangsmaterials gebildet wird.
+
+Die Verfahren sind durch folgende Punkte gekennzeichnet:
+# Gas- (Dampf-) Erzeugung der schichtbildenden Teilchen
+# Transport des Dampfes zum Substrat (z.B. Fräswerkzeug) 
+# Kondensation des Dampfes auf dem Substrat und Schichtbildung
+
+==Einteilung==
+Zur Gruppe der Verfahren der physikalischen Gasphasenabscheidung zählen die unten aufgeführten Technologien sowie reaktive Varianten dieser Prozesse.
+* Verdampfungsverfahren
+** Thermisches Verdampfen (auch Bedampfen genannt)
+** Elektronenstrahlverdampfen (engl. ''electron beam evaporation'')
+** Laserstrahlverdampfen (engl. ''pulsed laser deposition'', ''pulsed laser ablation''): Atome und Ionen werden durch einen kurzen intensiven Laserpuls verdampft.
+** Lichtbogenverdampfen (engl. ''arc evaporation'', Arc-PVD): Atome und Ionen werden durch einen starken Strom, der bei einer elektrischen Entladung zwischen zwei Elektroden fließt (wie bei einem Blitz), aus dem Ausgangsmaterial herrausgelöst und in die Gasphase überführt.
+** Molekularstrahlepitaxie (engl. ''molecular beam epitaxy'')
+* Sputtern (Sputterdeposition, Kathodenzerstäubung): Das Ausgangsmaterial wird durch Ionenbeschuß zerstäubt und in die Gasphase überführt.
+** Ionenstrahlgestützte Deposition (engl. ''ion beam assisted deposition, IBAD)
+* Ionenplattieren
+
+== Verfahren ==
+Allen diesen Verfahren ist gemein, dass das abzuscheidende Material, in fester Form in der meist evakuierten Beschichtungskammer vorliegt. Durch den Beschuss mit Laserstrahlen, magnetisch abgelenkten Ionen oder Elektronen sowie durch Target bezeichnet wird, verdampft. Wie hoch der Anteil an Atomen, Ionen oder größeren Clustern im Dampf ist, ist von Verfahren zu Verfahren unterschiedlich. Das verdampfte Material bewegt sich entweder ballistisch oder durch elektrische Felder geführt durch die Kammer und trifft dabei auf die zu beschichtenden Teile, wo es zur Schichtbildung kommt.
+
+Damit die Dampfteilchen die Bauteile auch erreichen und nicht durch Streuung an den Gasteilchen verloren gehen, muss im Unterdruck gearbeitet werden. Typische Arbeitsdrucke liegen im Bereich von 10<sup>-4</sup> Pa bis ca. 10 Pa. Da sich die Dampfteilchen geradlinig ausbreiten, werden Flächen, die vom Ort der Dampfquelle aus gesehen nicht sichtbar sind, mit einer geringeren Beschichtungsrate beschichtet. Sollen alle Flächen möglichst homogen beschichtet werden, müssen die Teile während der Beschichtung in geeigneter Weise bewegt werden. Dies geschieht meist durch Rotation des Substrats.
+
+Treffen die Dampfteilchen nun auf das Substrat, beginnen sie sich durch Kondensation an der Oberfläche abzulagern. Die Teilchen bleiben dabei nicht an Ort und Stelle, an der sie auf das Substrat treffen, sondern bewegen sich, je nachdem wie hoch ihre Energie ist, an der Oberfläche entlang (Oberflächendiffusion), um einen energetisch günstigeren Platz zu finden. Dies sind Stellen an der Kristalloberfläche mit möglichst vielen Nachbarn (höhere Bindungsenergie). <!-- noch zu erklären -->
+
+Um die Beschichtungsrate und Schichthomogenität zu steigern werden abhängig vom Beschichtungsprozess und dem abzuscheidenen Material die Anlagen leicht variiert. So wird beispielsweise beim thermischen Verdampfen an die zu bedampfenden Teile eine negative Spannung (Bias-Spannung) angelegt. Diese beschleunigt die positiv geladenen Dampfteilchen bzw. Metallionen (siehe entsprechende Artikel).
+
+Da Verfahren zur physikalischen Gasphasenabscheidung Vakuumbeschichtungen sind, werden sie in der Produktion zumeist im Stapelbetrieb (Batch-Betrieb) betrieben: Chargieren der Vakuumkammer/Evakuieren/Beschichten/Belüften, Öffnen und Entnahme der beschichteten Teile. Für bestimmte Anwendungen (Beschichtung von Blechen, Fasern oder Drähten und Architekturglas) gibt es jedoch Durchlaufanlagen, bei denen der Unterdruck über ein Schleusensystem erreicht wird und das zu beschichtende Gut kontinuierlich zugeführt wird.
+
+'''Physical vapor deposition''' (PVD) is a variety of vacuum deposition and is a general term used to describe any of a variety of methods to deposit wafers).  The coating method involves purely physical processes such as high temperature vacuum evaporation or plasma sputter bombardment rather than involving a chemical reaction at the surface to be coated as in chemical vapor deposition. The term physical vapor deposition appears originally in the 1966 book “Vapor deposition” by CF Powell, JH Oxley and JM Blocher Jr, but Michael Faraday was using PVD to deposit coatings as far back as 1838.  
+
+thumb|320px|[[Molecular dynamics computer simulation of the basic physical process underlying physical vapour deposition: a single Cu atom deposited on a Cu surface.]]
+
+Variants of PVD include, in order of increasing novelty:
+*Evaporative deposition - In which the material to be deposited is heated to a high vapor pressure by electrically resistive heating in "low" vacuum. 
+*Electron beam physical vapor deposition - In which the material to be deposited is heated to a high vapor pressure by electron bombardment in "high" vacuum.
+*Sputter deposition - In which a glow plasma discharge (usually localized around the "target" by a magnet) bombards the material sputtering some away as a vapor.  
+*Cathodic Arc Deposition - In which a high power arc directed at the target material blasts away some into a vapor.
+*Pulsed laser deposition - In which a high power laser ablates material from the target into a vapor. 
+
+PVD is used in the manufacture of items including semiconductor devices, aluminized PET film for balloons and snack bags, and coated cutting tools for metalworking.  Besides PVD tools for fabrication special smaller tools mainly for scientific purposes have been developed. They mainly serve the purpose of extreme thin films like atomic layers and are used mostly for small substrates. A good example are mini e-beam evaporators which can deposit monolayers of virtually all materials with melting points up to 3500°C. 
+
+Some of the techniques used to measure the physical properties of PVD coatings are:
+*Calo tester - coating thickness test
+*Scratch tester - coating adhesion test
+*Pin on disc tester - wear and friction coefficient test

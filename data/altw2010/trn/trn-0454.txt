@@ -1,0 +1,70 @@
+{|class="infobox" style="text-align:center;"
+!colspan="6" style="background-color:#ccf;"|Količina bajtov
+|-
+!colspan="3" style="background-color:#ddf;"|Splošna raba in<br>(SI standard)
+!colspan="3" style="background-color:#ddf;"|Binarne predpone po <br>standardu IEC 60027-2
+|-
+!Ime||Simbol||Količina
+!Ime||Simbol||Količina
+|-
+|style="text-align:left;"|kilobyte||kB||2<sup>10</sup> (10<sup>3</sup>)
+|style="text-align:left;"|kibibyte||KiB||2<sup>10</sup>
+|-
+|style="text-align:left;"|megabyte||MB||2<sup>20</sup> (10<sup>6</sup>)
+|style="text-align:left;"|mebibyte||MiB||2<sup>20</sup>
+|-
+|style="text-align:left;"|gigabyte||GB||2<sup>30</sup> (10<sup>9</sup>)
+|style="text-align:left;"|gibibyte||GiB||2<sup>30</sup>
+|-
+|style="text-align:left;"|terabyte||TB||2<sup>40</sup> (10<sup>12</sup>)
+|style="text-align:left;"|tebibyte||TiB||2<sup>40</sup>
+|-
+|style="text-align:left;"|petabyte||PB||2<sup>50</sup> (10<sup>15</sup>)
+|style="text-align:left;"|pebibyte||PiB||2<sup>50</sup>
+|-
+|style="text-align:left;"|exabyte||EB||2<sup>60</sup> (10<sup>18</sup>)
+|style="text-align:left;"|exbibyte||EiB||2<sup>60</sup>
+|-
+|style="text-align:left;"|zettabyte||ZB||2<sup>70</sup> (10<sup>21</sup>)
+|style="text-align:left;"|zebibyte||ZiB||2<sup>70</sup>
+|-
+|style="text-align:left;"|yottabyte||YB||2<sup>80</sup> (10<sup>24</sup>)
+|style="text-align:left;"|yobibyte||YiB||2<sup>80</sup>
+|}<noinclude>
+
+{|class="infobox" style="border: 1px solid #aaaaaa;background-color:#f9f9f9; padding: 0.2em;"
+!colspan="7" style="background-color:#ccf;text-align:center;"|Multiples d’octets<br />tels que définis par IEC 60027-2
+|-
+!colspan="3" style="background-color:#ddf;text-align:center;"|Préfixe SI
+!rowspan="10"|&nbsp;
+!colspan="3" style="background-color:#ddf;text-align:center;"|Préfixe binaire
+|-
+!style="text-align:center;"|Nom||Symbole||style="text-align:center;"|Valeur
+!style="text-align:center;"|Nom||Symbole||Valeur
+|-
+|style="text-align:left;"|kilooctet||ko<!--- k miniscule, voir http://www.bipm.org/fr/si/si_brochure/ --->||1E3|10<sup>3</sup> 
+|style="text-align:left;"|kibioctet||Kio''||2<sup>10</sup>
+|-
+|style="text-align:left;"|mégaoctet||Mo||1E6|10<sup>6</sup>
+|style="text-align:left;"|mébioctet||Mio||2<sup>20</sup>
+|-
+|style="text-align:left;"|gigaoctet||Go||1E9|10<sup>9</sup> 
+|style="text-align:left;"|gibioctet||Gio||2<sup>30</sup>
+|-
+|style="text-align:left;"|téraoctet||To||1E12|10<sup>12</sup> 
+|style="text-align:left;"|tébioctet||Tio||2<sup>40</sup>
+|-
+|style="text-align:left;"|pétaoctet||Po||1E15|10<sup>15</sup> 
+|style="text-align:left;"|pébioctet||Pio||2<sup>50</sup>
+|-
+|style="text-align:left;"|exaoctet||Eo||1E18|10<sup>18</sup> 
+|style="text-align:left;"|exbioctet||Eio||2<sup>60</sup>
+|-
+|style="text-align:left;"|zettaoctet||Zo||1E21|10<sup>21</sup>
+|style="text-align:left;"|zébioctet||Zio||2<sup>70</sup>
+|-
+|style="text-align:left;"|yottaoctet||Yo||1E24|10<sup>24</sup> 
+|style="text-align:left;"|yobioctet||Yio||2<sup>80</sup>
+|}<noinclude>
+
+es:Plantilla:Cantidad de información

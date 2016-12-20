@@ -1,0 +1,104 @@
+{{Infobox Logiciel
+| nom = Apache Tomcat
+| image = 250px
+| description = Serveur d'applications
+| développeur = Fondation Apache
+| dernière version = 6.0.16
+| date de dernière version = 
+| environnement = Multiplate-forme
+| type = Serveur d'applications
+| licence = Licence Apache
+| site web = [http://tomcat.apache.org/ tomcat.apache.org/]
+}}
+
+'''Apache Tomcat''' est un  conteneur de J2EE. Issu du projet Jakarta, Tomcat est désormais un projet principal de la fondation Apache. Tomcat implémente les spécifications des JSP de XML. Comme Tomcat inclut un serveur HTTP interne, il est aussi considéré comme un serveur HTTP.
+
+==Environnement==
+Tomcat est un serveur Web qui gère les JSP. C'est le compilateur Jasper qui compile les pages JSP pour en faire des servlets. 
+Le moteur de servlet Tomcat est souvent employé en combinaison avec un serveur Web Apache ou d'autres serveurs Web.
+
+Tomcat a été écrit en langage Java, il peut donc s'exécuter via la JVM (machine virtuelle java) sur n'importe quel système d'exploitation.
+
+==Etat de développement==
+Les membres de la fondation Apache et des volontaires indépendants développent et maintiennent Tomcat. Les utilisateurs ont accès au code source et aux binaires sous la Apache Software License. 
+La première version de Tomcat était la 3.0. En 2005, la version 5.x est sortie, implémentant les servlets 2.4 et les JSP 2.0. Depuis sa version 4.x, Tomcat utilise le serveur de conteneur Catalina.
+
+==Arborescence de répertoires==
+L'installation par défaut de Tomcat comprend les répertoires suivants :
+
+* ''bin'' : Scripts et exécutables pour différentes tâches : démarrage (startup), arrêt, etc. ;
+* ''common'' : Classes communes que Catalina et les applications Web utilisent ;
+* ''conf'' : Fichiers de configuration au format XML et les DTD que ces fichiers XML utilisent ;
+* ''logs'' : Journaux des applications Web et de Catalina ;
+* ''server'' : Classes utilisées seulement par Catalina ;
+* ''shared'' : Classes partagées par toutes les applications Web ;
+* ''webapps'' : Répertoire contenant les applications web ;
+* ''work'' : Fichiers et répertoires temporaires.
+
+==Principe de Fonctionnement==
+Tomcat est souvent utilisé en association avec un autre serveur web, en général Apache. Apache s'occupe de toutes les pages web traditionnelles, et Tomcat uniquement des pages d'une application web Java.
+
+On peut utiliser le module Apache et Tomcat.
+Techniquement, Apache communique avec Tomcat sur le port 8009 (via le protocole ajp13),
+mais Tomcat peut aussi être atteint via son propre port (8080 par défaut).
+
+==Fonctionnalités des versions==
+===Tomcat 3.x (version initiale)===
+* implémente les spécifications JSP 1.1 ;
+* rechargement des servlets ;
+* fonctionnalités HTTP de base.
+
+{{ Infobox Software
+| name                   = Apache Tomcat
+| logo                   = 100px|Apache Tomcat Logo 
+| screenshot             = 250px
+| caption                = Apache Tomcat Default Page
+| collapsible            = yes
+| developer              = Apache Software Foundation 
+| latest_release_version = 6.0.16
+| latest_release_date    = 
+| latest_preview_version = 
+| latest_preview_date    = 
+| operating_system       = Cross-platform
+| programming_language   = Java
+| genre                  = HTTP web server
+| license                = Apache License 2.0
+| website                = http://tomcat.apache.org
+}}
+'''Apache Tomcat''' is a Java" HTTP Java code to run. Tomcat should not be confused with the C implementation of a HTTP HTTP web servers are not bundled together. Apache Tomcat includes tools for configuration and management, but can also be configured by editing configuration files that are normally XML-formatted.
+
+== Development status ==
+Members of the ASF and independent volunteers develop and maintain Tomcat. Users have free access to the source code and to the binary form of Tomcat under the Apache License. The initial Tomcat release appeared with versions 3.0.x (previous releases were Sun internal releases, and were not publicly released). Tomcat 6.0.16 is the latest production quality release<ref name="tomcat6"></ref> of the 6.0.x trunk (the branch for the 2.5 servlet specification)<ref name="which"></ref>, as of 2008.
+
+== Product features ==
+An overview of the different versions can be found on the Apache website.<ref name="which"></ref>
+
+=== Tomcat 3.x (initial release) ===
+* Merger of donated Sun Java Web Server code and ASF JServ in 1999.
+* Implements Servlet 2.2 and JSP 1.1 specifications.
+
+=== Tomcat 4.x ===
+* Released 2001
+* implements the Servlet 2.3 and JSP 1.2 specifications
+* servlet container redesigned as Catalina
+* JSP engine redesigned as Jasper
+* Coyote HTTP connector
+* Struts-based administration
+
+=== Tomcat 5.x ===
+* implements the Servlet 2.4 and JSP 2.0 specifications
+* reduced garbage collection, improved performance and scalability
+* native Windows and Unix wrappers for platform integration
+* faster JSP parsing
+
+=== Tomcat 6.x ===
+* implements the Servlet 2.5 and JSP 2.1 specifications
+* support for Unified Expression Language 2.1
+* designed to run on Java SE 5.0 and later
+* support for Comet through the CometProcessor interface
+* is not packaged with an admin console as in past releases.
+
+== History ==
+Tomcat started off as a servlet reference implementation by James Duncan Davidson, a software architect at Sun Microsystems. He later helped make the project open source and played a key role in its donation by Sun to the Apache Software Foundation. The Apache Ant software build automation tool was developed as a side-effect of the creation of Tomcat as an open source project.<ref name="jdd">James Duncan Davidson on the ''Hivelogic Podcast'': http://hivelogic.com/podcast/episodes/james-duncan-davidson</ref>
+
+Davidson had initially hoped that the project would become open sourced and, since most open source projects had O'Reilly books associated with them featuring an animal on the cover, he wanted to name the project after an animal.<ref name="jdd" /> He came up with ''Tomcat'' since he reasoned the animal represented something that could fend for itself. Although the tomcat was already in use for another O'Reilly title, his wish to see an animal cover eventually came true when O'Reilly published their Tomcat book with a snow leopard on the cover<ref></ref>.

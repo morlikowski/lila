@@ -1,0 +1,48 @@
+'''MASM''' 是 '''Microsoft Macro Assembler''' 的縮寫, 它是 微軟 為 x86 微處理器家族, 所寫的一套巨集組譯器. 它最初是用來發展在 MS-DOS 上面執行的軟體, 同時, 它也該系統最流行的組譯器.
+
+它支援的巨集很靈巧, 既廣泛又多樣性, 結構化程式的慣用語法, 包含高階架構式的迴圈、程序呼叫, 以及輪替 (alternation) (因此, MASM 算是高階組譯器的一個範本).
+
+==競爭==
+
+在 1990 年代初期, 不管如何, 有一些可供選擇的組譯器, 像是 Borland TASM、共享版的 A86 , 以及 (在 90 年代末期) NASM, 都開始取得 MASM 的一些市場份量. 但是在 1990 年代終, 有兩種因素, 使得 MASM 保住大部分的市場份量:
+
+一是, 微軟停止把 MASM 作為商業產品一樣的出售, 並開始當成免費散佈的 DDK (驅動器發展套件) 之一部分; 其次, MASM32 開發包、Iczelion's Win32 教材的出現, 讓視窗應用程式的設計, 更方便使用 MASM.
+
+後來在 2000 年, MASM 6.15 的發行, 一樣是 Visual C++ Processor Pack 的一部份, 費用全免. 結果, 在 Visual C++ 6.0 後來的所有版本, 所包含的 MASM 之版本, 都相等該 Visual C++ 的版本. 後來在 Visual C++ 2005,  64 位元版的 MASM 出現了 (檔名為 ml64.exe). 加上有龐大數量已安裝 MASM 的用戶群基礎, 這些的因素, 都有助於遏止從 MASM 叛逃到其他的組譯器.
+
+==支援 MASM 的專案==
+
+有許多正在進行的軟件開發專案, 都有支援到 MASM, 其中包括 IDE (如 WinAsm Studio, RadASM)、除錯器 (像是 OllyDbg), 以及 反組譯器 (如 IDAPro, Interactive Disassembler)
+
+這個 MASM32 的專案 (http://www.movsd.com/) 為了 MASM 使用者的方便, 它把許多非常令人感動的程式師所寫的程式庫 (library)、程式範例 (sample code) 寶庫, 以及令人感動的說明文件, 全都集合在一起. 也有很多網上論壇, 有在支援 MASM (包括 http://www.masmforum.com).
+
+這些也都是沿習著著名的產品, 如 Visual Basic、Visual C++、EasyCode 的 IDE 一樣, 為 MASM 提供 視覺化 (visual) 的能力. 雖然這個產品上了年紀, 但它仍然是最受各方支援的組譯器.
+
+==MASM 的版本==
+
+雖然 MASM 不再是組語為基礎的程式碼. 
+
+以單獨包裝販賣的 MASM, 最後版本的是 6.11. 自從微軟停止對 MASM 分開銷售後, 至今他們也更新了幾次的 MASM 6.x 版. 
+
+{{Infobox_Software 
+| name                   = Microsoft Macro Assembler
+| developer              = Microsoft
+| latest_release_version = 9.0
+| latest_release_date    = 
+| operating_system       = Microsoft Windows and DOS
+| genre                  = Assembler 
+| license                = Microsoft EULA
+| website                = 
+}}
+
+The '''Microsoft Macro Assembler''' (abbreviated '''MASM''') is an x86 assembler. It supports a wide variety of macro facilities and high-level functions for looping and procedures.<ref name="WhichAsm"></ref> Later versions added the capability of producing programs for Windows. MASM is one of the few Microsoft development tools that target platforms. Earlier versions were Phar Lap's TNT DOS extender so that MASM could run in MS-DOS.
+==History==
+In A86, and NASM began to take some of MASM's market share. However, two events in the late 1990s allowed MASM to retain much of its market share. First, Microsoft ceased selling MASM as a commercial product and began distributing it free of charge as part of the Driver development kit. Second, the MASM32 package and Iczelion's Win32 tutorials appeared, making Windows' application programming with MASM possible. Later in 2000, MASM 6.15 was released as part of the Visual C++ Processor Pack, which is free. As a result, all versions of Visual C++ later than 6.0, included a version of MASM equal to the version of Visual C++. Later in Visual C++ 2005, a 64-bit version of MASM appeared (file name is '''ml64.exe'''). Combined with the huge installed base of MASM users, these events helped stem the defection from MASM to other assemblers.
+
+Today, MASM is still the most popular assembler,<ref name="WhichAsm"/> despite competition from new products such as NASM and HLA.  There are several other assemblers which are either use MASM's syntax or are designed for POASM, ''GoASM'' and ''JWasm''. RosAsm is a monolithic assembler and fork of the Open Watcom assembler.<ref name="JWasm"></ref>
+
+==Support==
+There are many projects that support MASM, including IDEs (such as library, sample code repository, and documentation for MASM users.<ref></ref> Support can also be found at several forums.<ref></ref> Also, along the lines of products such as Visual Basic, or Visual C++, ''EasyCode'' is an IDE for the MASM language that provides "Visual" capabilities.<ref></ref>  Microsoft continues to develop MASM on a needs basis.<ref></ref>
+
+==Versions==
+Though MASM is no longer a commercial product, Microsoft continues to support it because of the large base of assembly code that exists in-house at Microsoft. The last version of MASM that was sold as a separate package was version 6.11. Since Microsoft stopped selling MASM separately, they have released several updates to the MASM version 6.x product line. Version 6.15 was included in the Visual C++ 6.0 Processor Pack. Version 7.0 was included with Visual C++ .NET 2002. Version 7.1 was included with Visual C++ .NET 2003. Version 8.0 was included with Visual C++ 2005 which also includes a version that can assemble x64 code. For the version included with newer Visual C++ versions, look for the file '''ml.exe''' in the Visual C++ bin directory, and for the version that can assemble x64 code included in Visual C++ 2005, look for the file '''ml64.exe''' in the same directory. Documentation for the versions included with newer Visual C++ versions is part of the documentation for that version. Some of the newer versions of MASM are also included in various Microsoft SDKs and DDKs. Future versions of MASM will be shipped with future versions of Visual C++. In May, 2008, the Service Pack 1 (beta) for Microsoft's free Express 2008 was released. It contains ml.exe version 9.00.30428.01.

@@ -1,0 +1,15 @@
+In informatica un '''offset''', o '''slittamento''', è un numero intero che indica la distanza tra due elementi all'interno di un gruppo di elementi dello stesso tipo. L'unità di misura in cui si esprimono gli offset è normalmente il numero di elementi.
+
+Gli offset sono usati molto frequentemente nella programmazione a basso livello (ad esempio nel linguaggio assembly), e generalmente indicano il numero di byte da aggiungere ad un indirizzo di base per ottenere uno specifico indirizzo assoluto.
+
+Nel linguaggio C il concetto di offset è centrale, perché è legato alla gestione degli array e dell'artimetica dei puntatori; la dimensione in byte dell'offset è calcolabile moltiplicando il numero che identifica l'offset con la dimensione in byte dell'oggetto, che si ricava con l'operatore <tt>sizeof()</tt>.
+
+In elettronica indica lo slittamento del livello di un segnale elettrico rispetto ad un livello di riferimento, solitamente la massa del circuito, se l'alimentazione è duale, l'offset può essere sia positivo che negativo. 
+
+:''This article describes the computer science term.
+
+In integer indicating the distance (displacement) from the beginning of the object up until a given element or point, presumably within the same object. The concept of a distance is valid only if all elements of the object are the same size (typically given in bytes or words).
+
+In computer engineering and low-level programming (such as assembly language), an '''offset''' usually denotes the number of address locations added to a base address in order to get to a specific absolute address. In this (original) meaning of offset, only the basic address unit, usually the 8-bit byte, is used to specify the offset's size. In this context an offset is sometimes called a '''relative address'''.
+
+In IBM System/360 instructions, a 12-bit offset embedded within certain instructions provided a range of between 0 and 4096 bytes. For example within an unconditional branch instruction (X'47F0Fxxx') the xxx 12bit hexadecimal offset provided the byte offset from the base register (15) to branch to. An odd offset would cause a program check (unless the base register itself also contained an odd address) - since instructions had to be aligned on half-word boundaries to execute without a program or hardware interrupt. 

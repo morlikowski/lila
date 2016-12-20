@@ -1,0 +1,121 @@
+{| class="wikitable"
+! 이름 !! 지원 언어 !! 지원 도구
+|-
+|SCIM
+|다국어, CJK 포함
+|GTK+ 2, Qt, XIM
+|-
+|[http://freshmeat.net/projects/gcin GCIN]
+|Big5 중국어 번체 문자 입력기, 입력 방식 증설 가능. (예: SCIM에서)
+|"Gtk Chinese INput application in X" (GTK+ 2)
+|-
+|uim
+|다국어, CJK 포함
+|GTK+ 2, Qt, XIM, TTY, TSM (Mac OS X)
+|-
+|[http://xcin.linux.org.tw/ xcin]
+|중국어 번체  위주, 중국어 간체도 가능
+|XIM
+|-
+|[http://opendesktop.org.tw/demopage/oxim/ oxim]
+|중국어 번체  위주, 중국어 간체도 가능
+|GTK+ 2, Qt, XIM
+|-
+|[http://www.inputking.com/ InputKing]
+|중국어 번체와 중국어 간체
+|브라우저 기반.
+|-
+|[http://im-ja.sourceforge.net/ im-ja]
+|일본어
+|GTK+ 2, XIM
+|-
+|kinput2
+|일본어
+|XIM, kinput2 protocol
+|-
+|ami
+|한국어
+|XIM
+|-
+|[http://kldp.net/projects/imhangul/ imhangul]
+|한국어
+|GTK+ 2
+|-
+|[http://nabi.kldp.net/document_en.html 나비 입력기]
+|한국어
+|XIM
+|-
+|[http://kldp.net/projects/qimhangul/ qimhangul]
+|한국어
+|Qt
+|-
+|[http://xvnkb.sourceforge.net/ xvnkb]
+|베트남어
+|XIM
+|-
+|[http://www.unikey.org/linux.php x-unikey]
+|베트남어
+|XIM
+|}
+
+This is intended as a non-exhaustive list of input methods for UNIX platforms.
+
+{|class="wikitable"
+! Name !! Languages supported !! Implementations supported
+|-
+|SCIM
+|Multiple languages, including CJK
+|GTK+ 2, Qt and XIM
+|-
+|[http://freshmeat.net/projects/gcin GCIN]
+|Chinese input method server for Big5 Traditional Chinese character sets, expandible with input methods e.g. from SCIM.
+|"Gtk Chinese INput application in X" (GTK+ 2)
+|-
+|uim
+|Multiple languages, including CJK
+|GTK+ 2, Qt, XIM, TTY and TSM (Mac OS X)
+|-
+|[http://xcin.linux.org.tw/ xcin]
+|Mainly for traditional Chinese; adapted for use for simplified Chinese.
+|XIM
+|-
+|[http://opendesktop.org.tw/demopage/oxim/ oxim]
+|Mainly for traditional Chinese; adapted for use for simplified Chinese.
+|GTK+ 2, Qt, XIM
+|-
+|[http://www.inputking.com/ InputKing]
+|Traditional Chinese and simplified Chinese.
+|Browser based.
+|-
+|[http://im-ja.sourceforge.net/ im-ja]
+|Japanese
+|GTK+ 2 and XIM
+|-
+|kinput2
+|Japanese
+|XIM, kinput2 protocol
+|-
+|ami
+|Korean
+|XIM
+|-
+|[http://kldp.net/projects/imhangul/ imhangul]
+|Korean
+|GTK+ 2
+|-
+|[http://nabi.kldp.net/document_en.html Nabi]
+|Korean
+|XIM
+|-
+|[http://kldp.net/projects/qimhangul/ qimhangul]
+|Korean
+|Qt
+|-
+|[http://xvnkb.sourceforge.net/ xvnkb]
+|Vietnamese
+|XIM
+|-
+|[http://www.unikey.org/linux.php x-unikey]
+|Vietnamese
+|XIM
+|}

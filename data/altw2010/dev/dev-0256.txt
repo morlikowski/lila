@@ -1,0 +1,590 @@
+right|200px|Flaga olimpijska
+
+<div style="float:center;text-align:left;padding-left:15px">
+{| style="border-style:solid;border-width:1px;border-color:#808080;background-color:#808080;width=350px;" cellspacing="1" cellpadding="2" width="450px"
+|----- bgcolor="#efefef" 
+| colspan=6 align="center" | '''Klasyfikacja medalowa'''
+|- style="background:#efefef" align="center"
+! Lp.
+! align="left" | Państwo
+! złoto
+! srebro
+! brąz
+! razem
+|- bgcolor="#FFFFFF" align="right"
+| 1 
+| align="left" | USA 
+| style="background:#F7F6A8;" | 40 
+| style="background:#DCE5E5;" | 24 
+| style="background:#FFDAB9;" | 33 
+| 97
+|- bgcolor="#FFFFFF" align="right"
+| 2 
+| align="left" | Rosja 
+| style="background:#F7F6A8;" | 32 
+| style="background:#DCE5E5;" | 28 
+| style="background:#FFDAB9;" | 28 
+| 88
+|- bgcolor="#FFFFFF" align="right"
+| 3 
+| align="left" | Chiny 
+| style="background:#F7F6A8;" | 28 
+| style="background:#DCE5E5;" | 16 
+| style="background:#FFDAB9;" | 15 
+| 59
+|- bgcolor="#FFFFFF" align="right"
+| 4 
+| align="left" | Australia 
+| style="background:#F7F6A8;" | 16 
+| style="background:#DCE5E5;" | 25 
+| style="background:#FFDAB9;" | 17 
+| 58
+|- bgcolor="#FFFFFF" align="right"
+| 5 
+| align="left" | Niemcy 
+| style="background:#F7F6A8;" | 13 
+| style="background:#DCE5E5;" | 17 
+| style="background:#FFDAB9;" | 26 
+| 56
+|- bgcolor="#FFFFFF" align="right"
+| 6 
+| align="left" | Francja 
+| style="background:#F7F6A8;" | 13 
+| style="background:#DCE5E5;" | 14 
+| style="background:#FFDAB9;" | 11 
+| 38
+|- bgcolor="#FFFFFF" align="right"
+| 7 
+| align="left" | Włochy 
+| style="background:#F7F6A8;" | 13 
+| style="background:#DCE5E5;" | 8 
+| style="background:#FFDAB9;" | 13 
+| 34
+|- bgcolor="#FFFFFF" align="right"
+| 8 
+| align="left" | Holandia 
+| style="background:#F7F6A8;" | 12 
+| style="background:#DCE5E5;" | 9 
+| style="background:#FFDAB9;" | 4 
+| 25
+|- bgcolor="#FFFFFF" align="right"
+| 9 
+| align="left" | Kuba 
+| style="background:#F7F6A8;" | 11 
+| style="background:#DCE5E5;" | 11 
+| style="background:#FFDAB9;" | 7 
+| 29
+|- bgcolor="#FFFFFF" align="right"
+| 10 
+| align="left" | Wielka Brytania 
+| style="background:#F7F6A8;" | 11 
+| style="background:#DCE5E5;" | 10 
+| style="background:#FFDAB9;" | 7 
+| 28
+|- bgcolor="#FFFFFF" align="right"
+| 11 
+| align="left" | Rumunia 
+| style="background:#F7F6A8;" | 11 
+| style="background:#DCE5E5;" | 6 
+| style="background:#FFDAB9;" | 8 
+| 25
+|- bgcolor="#FFFFFF" align="right"
+| 12 
+| align="left" | Korea Południowa 
+| style="background:#F7F6A8;" | 8 
+| style="background:#DCE5E5;" | 10 
+| style="background:#FFDAB9;" | 10 
+| 28
+|- bgcolor="#FFFFFF" align="right"
+| 13 
+| align="left" | Węgry 
+| style="background:#F7F6A8;" | 8 
+| style="background:#DCE5E5;" | 6 
+| style="background:#FFDAB9;" | 3 
+| 17
+|- bgcolor="#FFFFFF" align="right"
+| 14 
+| align="left" | '''Polska''' 
+| style="background:#F7F6A8;" | 6 
+| style="background:#DCE5E5;" | 5 
+| style="background:#FFDAB9;" | 3 
+| 14
+|- bgcolor="#FFFFFF" align="right"
+| 15 
+| align="left" | Japonia 
+| style="background:#F7F6A8;" | 5 
+| style="background:#DCE5E5;" | 8 
+| style="background:#FFDAB9;" | 5 
+| 18
+|- bgcolor="#FFFFFF" align="right"
+| 16 
+| align="left" | Bułgaria 
+| style="background:#F7F6A8;" | 5 
+| style="background:#DCE5E5;" | 6 
+| style="background:#FFDAB9;" | 2 
+| 13
+|- bgcolor="#FFFFFF" align="right"
+| 17 
+| align="left" | Grecja 
+| style="background:#F7F6A8;" | 4 
+| style="background:#DCE5E5;" | 6 
+| style="background:#FFDAB9;" | 3 
+| 13
+|- bgcolor="#FFFFFF" align="right"
+| 18 
+| align="left" | Szwecja 
+| style="background:#F7F6A8;" | 4 
+| style="background:#DCE5E5;" | 5 
+| style="background:#FFDAB9;" | 3 
+| 12
+|- bgcolor="#FFFFFF" align="right"
+| 19 
+| align="left" | Norwegia 
+| style="background:#F7F6A8;" | 4 
+| style="background:#DCE5E5;" | 3 
+| style="background:#FFDAB9;" | 3 
+| 10
+|- bgcolor="#FFFFFF" align="right"
+| 20 
+| align="left" | Etiopia 
+| style="background:#F7F6A8;" | 4 
+| style="background:#DCE5E5;" | 1 
+| style="background:#FFDAB9;" | 3 
+| 8
+|- bgcolor="#FFFFFF" align="right"
+| 21 
+| align="left" | Ukraina 
+| style="background:#F7F6A8;" | 3 
+| style="background:#DCE5E5;" | 10 
+| style="background:#FFDAB9;" | 10 
+| 23
+|- bgcolor="#FFFFFF" align="right"
+| 22 
+| align="left" | Kazachstan 
+| style="background:#F7F6A8;" | 3 
+| style="background:#DCE5E5;" | 4 
+| style="background:#FFDAB9;" | - 
+| 7
+|- bgcolor="#FFFFFF" align="right"
+| 23 
+| align="left" | Białoruś 
+| style="background:#F7F6A8;" | 3 
+| style="background:#DCE5E5;" | 3 
+| style="background:#FFDAB9;" | 11 
+| 17
+|- bgcolor="#FFFFFF" align="right"
+| 24 
+| align="left" | Kanada 
+| style="background:#F7F6A8;" | 3 
+| style="background:#DCE5E5;" | 3 
+| style="background:#FFDAB9;" | 8 
+| 14
+|- bgcolor="#FFFFFF" align="right"
+| 25 
+| align="left" | Hiszpania 
+| style="background:#F7F6A8;" | 3 
+| style="background:#DCE5E5;" | 3 
+| style="background:#FFDAB9;" | 5 
+| 11
+|- bgcolor="#FFFFFF" align="right"
+| 26 
+| align="left" | Turcja 
+| style="background:#F7F6A8;" | 3 
+| style="background:#DCE5E5;" | - 
+| style="background:#FFDAB9;" | 2 
+| 5
+|- bgcolor="#FFFFFF" align="right"
+| 27 
+| align="left" | Iran 
+| style="background:#F7F6A8;" | 3 
+| style="background:#DCE5E5;" | - 
+| style="background:#FFDAB9;" | 1 
+| 4
+|- bgcolor="#FFFFFF" align="right"
+| 28 
+| align="left" | Czechy 
+| style="background:#F7F6A8;" | 2 
+| style="background:#DCE5E5;" | 3 
+| style="background:#FFDAB9;" | 3 
+| 8
+|- bgcolor="#FFFFFF" align="right"
+| 29 
+| align="left" | Kenia 
+| style="background:#F7F6A8;" | 2 
+| style="background:#DCE5E5;" | 3 
+| style="background:#FFDAB9;" | 2 
+| 7
+|- bgcolor="#FFFFFF" align="right"
+| 30 
+| align="left" | Dania 
+| style="background:#F7F6A8;" | 2 
+| style="background:#DCE5E5;" | 3 
+| style="background:#FFDAB9;" | 1 
+| 6
+|- bgcolor="#FFFFFF" align="right"
+| 31 
+| align="left" | Finlandia 
+| style="background:#F7F6A8;" | 2 
+| style="background:#DCE5E5;" | 1 
+| style="background:#FFDAB9;" | 1 
+| 4
+|- bgcolor="#FFFFFF" align="right"
+| 32 
+| align="left" | Austria 
+| style="background:#F7F6A8;" | 2 
+| style="background:#DCE5E5;" | 1 
+| style="background:#FFDAB9;" | - 
+| 3
+|- bgcolor="#FFFFFF" align="right"
+| 33 
+| align="left" | Litwa 
+| style="background:#F7F6A8;" | 2 
+| style="background:#DCE5E5;" | - 
+| style="background:#FFDAB9;" | 3 
+| 5
+|- bgcolor="#FFFFFF" align="right"
+| 34 
+| align="left" | Azerbejdżan 
+| style="background:#F7F6A8;" | 2 
+| style="background:#DCE5E5;" | - 
+| style="background:#FFDAB9;" | 1 
+| 3
+|- bgcolor="#FFFFFF" align="right"
+| 35 
+| align="left" | Słowenia 
+| style="background:#F7F6A8;" | 2 
+| style="background:#DCE5E5;" | - 
+| style="background:#FFDAB9;" | - 
+| 2
+|- bgcolor="#FFFFFF" align="right"
+| 36 
+| align="left" | Szwajcaria 
+| style="background:#F7F6A8;" | 1 
+| style="background:#DCE5E5;" | 6 
+| style="background:#FFDAB9;" | 2 
+| 9
+|- bgcolor="#FFFFFF" align="right"
+| 37 
+| align="left" | Indonezja 
+| style="background:#F7F6A8;" | 1 
+| style="background:#DCE5E5;" | 3 
+| style="background:#FFDAB9;" | 2 
+| 6
+|- bgcolor="#FFFFFF" align="right"
+| 38 
+| align="left" | Słowacja 
+| style="background:#F7F6A8;" | 1 
+| style="background:#DCE5E5;" | 3 
+| style="background:#FFDAB9;" | 1 
+| 5
+|- bgcolor="#FFFFFF" align="right"
+| 39 
+| align="left" | Meksyk 
+| style="background:#F7F6A8;" | 1 
+| style="background:#DCE5E5;" | 2 
+| style="background:#FFDAB9;" | 3 
+| 6
+|- bgcolor="#FFFFFF" align="right"
+| 40 
+| align="left" | Algieria 
+| style="background:#F7F6A8;" | 1 
+| style="background:#DCE5E5;" | 1 
+| style="background:#FFDAB9;" | 3 
+| 5
+|- bgcolor="#FFFFFF" align="right"
+| 41 
+| align="left" | Uzbekistan 
+| style="background:#F7F6A8;" | 1 
+| style="background:#DCE5E5;" | 1 
+| style="background:#FFDAB9;" | 2 
+| 4
+|- bgcolor="#FFFFFF" align="right"
+| 42 
+| align="left" | Łotwa 
+| style="background:#F7F6A8;" | 1 
+| style="background:#DCE5E5;" | 1 
+| style="background:#FFDAB9;" | 1 
+| 3
+|- bgcolor="#FFFFFF" align="right"
+|  
+| align="left" | Jugosławia 
+| style="background:#F7F6A8;" | 1 
+| style="background:#DCE5E5;" | 1 
+| style="background:#FFDAB9;" | 1 
+| 3
+|- bgcolor="#FFFFFF" align="right"
+| 44 
+| align="left" | Bahamy 
+| style="background:#F7F6A8;" | 1 
+| style="background:#DCE5E5;" | 1 
+| style="background:#FFDAB9;" | - 
+| 2
+|- bgcolor="#FFFFFF" align="right"
+| 45 
+| align="left" | Nowa Zelandia 
+| style="background:#F7F6A8;" | 1 
+| style="background:#DCE5E5;" | - 
+| style="background:#FFDAB9;" | 3 
+| 4
+|- bgcolor="#FFFFFF" align="right"
+| 46 
+| align="left" | Estonia 
+| style="background:#F7F6A8;" | 1 
+| style="background:#DCE5E5;" | - 
+| style="background:#FFDAB9;" | 2 
+| 3
+|- bgcolor="#FFFFFF" align="right"
+|  
+| align="left" | Tajlandia 
+| style="background:#F7F6A8;" | 1 
+| style="background:#DCE5E5;" | - 
+| style="background:#FFDAB9;" | 2 
+| 3
+|- bgcolor="#FFFFFF" align="right"
+| 48 
+| align="left" | Chorwacja 
+| style="background:#F7F6A8;" | 1 
+| style="background:#DCE5E5;" | - 
+| style="background:#FFDAB9;" | 1 
+| 2
+|- bgcolor="#FFFFFF" align="right"
+| 49 
+| align="left" | Kamerun 
+| style="background:#F7F6A8;" | 1 
+| style="background:#DCE5E5;" | - 
+| style="background:#FFDAB9;" | - 
+| 1
+|- bgcolor="#FFFFFF" align="right"
+|   
+| align="left" | Kolumbia 
+| style="background:#F7F6A8;" | 1 
+| style="background:#DCE5E5;" | - 
+| style="background:#FFDAB9;" | - 
+| 1
+|- bgcolor="#FFFFFF" align="right"
+|  
+| align="left" | Mozambik 
+| style="background:#F7F6A8;" | 1 
+| style="background:#DCE5E5;" | - 
+| style="background:#FFDAB9;" | - 
+| 1
+|- bgcolor="#FFFFFF" align="right"
+| 52 
+| align="left" | Brazylia 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | 6 
+| style="background:#FFDAB9;" | 6 
+| 12
+|- bgcolor="#FFFFFF" align="right"
+| 53 
+| align="left" | Jamajka 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | 4 
+| style="background:#FFDAB9;" | 3 
+| 7
+|- bgcolor="#FFFFFF" align="right"
+| 54 
+| align="left" | Nigeria 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | 3 
+| style="background:#FFDAB9;" | - 
+| 3
+|- bgcolor="#FFFFFF" align="right"
+| 55 
+| align="left" | Belgia 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | 2 
+| style="background:#FFDAB9;" | 3 
+| 5
+|- bgcolor="#FFFFFF" align="right"
+|  
+| align="left" | RPA 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | 2 
+| style="background:#FFDAB9;" | 3 
+| 5
+|- bgcolor="#FFFFFF" align="right"
+| 57 
+| align="left" | Argentyna 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | 2 
+| style="background:#FFDAB9;" | 2 
+| 4
+|- bgcolor="#FFFFFF" align="right"
+| 58 
+| align="left" | Maroko 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | 1 
+| style="background:#FFDAB9;" | 4 
+| 5
+|- bgcolor="#FFFFFF" align="right"
+|  
+| align="left" | Tajwan 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | 1 
+| style="background:#FFDAB9;" | 4 
+| 5
+|- bgcolor="#FFFFFF" align="right"
+| 60 
+| align="left" | Korea Północna 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | 1 
+| style="background:#FFDAB9;" | 3 
+| 4
+|- bgcolor="#FFFFFF" align="right"
+| 61 
+| align="left" | Mołdawia 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | 1 
+| style="background:#FFDAB9;" | 1 
+| 2
+|- bgcolor="#FFFFFF" align="right"
+|  
+| align="left" | Arabia Saudyjska 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | 1 
+| style="background:#FFDAB9;" | 1 
+| 2
+|- bgcolor="#FFFFFF" align="right"
+|  
+| align="left" | Trynidad i Tobago 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | 1 
+| style="background:#FFDAB9;" | 1 
+| 2
+|- bgcolor="#FFFFFF" align="right"
+| 64 
+| align="left" | Irlandia 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | 1 
+| style="background:#FFDAB9;" | - 
+| 1
+|- bgcolor="#FFFFFF" align="right"
+|  
+| align="left" | Urugwaj 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | 1 
+| style="background:#FFDAB9;" | - 
+| 1
+|- bgcolor="#FFFFFF" align="right"
+|  
+| align="left" | Wietnam 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | 1 
+| style="background:#FFDAB9;" | - 
+| 1
+|- bgcolor="#FFFFFF" align="right"
+| 67 
+| align="left" | Gruzja 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | - 
+| style="background:#FFDAB9;" | 6 
+| 6
+|- bgcolor="#FFFFFF" align="right"
+| 68 
+| align="left" | Kostaryka 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | - 
+| style="background:#FFDAB9;" | 2 
+| 2
+|- bgcolor="#FFFFFF" align="right"
+|  
+| align="left" | Portugalia 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | - 
+| style="background:#FFDAB9;" | 2 
+| 2
+|- bgcolor="#FFFFFF" align="right"
+| 70 
+| align="left" | Armenia 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | - 
+| style="background:#FFDAB9;" | 1 
+| 1
+|- bgcolor="#FFFFFF" align="right"
+|  
+| align="left" | Barbados 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | - 
+| style="background:#FFDAB9;" | 1 
+| 1
+|- bgcolor="#FFFFFF" align="right"
+|  
+| align="left" | Chile 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | - 
+| style="background:#FFDAB9;" | 1 
+| 1
+|- bgcolor="#FFFFFF" align="right"
+|  
+| align="left" | Indie 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | - 
+| style="background:#FFDAB9;" | 1 
+| 1
+|- bgcolor="#FFFFFF" align="right"
+|  
+| align="left" | Islandia 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | - 
+| style="background:#FFDAB9;" | 1 
+| 1
+|- bgcolor="#FFFFFF" align="right"
+|  
+| align="left" | Izrael 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | - 
+| style="background:#FFDAB9;" | 1 
+| 1
+|- bgcolor="#FFFFFF" align="right"
+|  
+| align="left" | Katar 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | - 
+| style="background:#FFDAB9;" | 1 
+| 1
+|- bgcolor="#FFFFFF" align="right"
+|  
+| align="left" | Kirgistan 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | - 
+| style="background:#FFDAB9;" | 1 
+| 1
+|- bgcolor="#FFFFFF" align="right"
+|  
+| align="left" | Kuwejt 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | - 
+| style="background:#FFDAB9;" | 1 
+| 1
+|- bgcolor="#FFFFFF" align="right"
+|  
+| align="left" | Macedonia 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | - 
+| style="background:#FFDAB9;" | 1 
+| 1
+|- bgcolor="#FFFFFF" align="right"
+|  
+| align="left" | Sri Lanka 
+| style="background:#F7F6A8;" | - 
+| style="background:#DCE5E5;" | - 
+| style="background:#FFDAB9;" | 1 
+| 1
+|}
+</div>
+''powrót do Letnich Igrzysk Olimpijskich 2000''
+&nbsp;
+
+<!--NB: THE DATES IN THE MAIN TEXT ARE NON-AUTOFORMATTED-->thumb|The awarding of the first gold medal of the Games
+thumb|Fireworks over the Sydney Harbour Bridge during the closing ceremonies
+
+The '''2000 Summer Olympics medal count''' is a list of nations (represented by four individual athletes from East Timor) competed in 300 events in 28 sports.<ref name=olympicsorg></ref> 
+
+Athletes from 80&nbsp;countries won at least one medal, leaving 119&nbsp;countries without a medal. The United States won the most medals overall with 92, as well as the most gold (37) and bronze (31) medals, while Russia won the most silver medals (28). Host nation Australia finished the Games with 58 medals overall (16&nbsp;gold, 25&nbsp;silver, and 17&nbsp;bronze).<ref name=medalcount></ref> Colombia won a gold medal for the first time in its Olympic history, while Vietnam won its first ever Olympic medal, a silver in taekwondo.<ref name=olympicdyk></ref>
+
+==Changes in medal standings==
+Since the closing of these Games, the medal standings suffered changes following a doping scandal involving five-time Olympic medal winner sprinter was stripped of her three gold and two bronze medals, by the International Olympic Committee, after confessing, in October 5 2007, she had taken the anabolic steroid tetrahydrogestrinone before competing in Sydney. Along with the other four medals, the women's 100 metres gold medal has not yet been reallocated, because the presumed recipient, Ekaterini Thanou of Greece, was given a two-year ban for missing a drug test just before the 2004 Summer Olympics, in Athens.<ref></ref><ref></ref><ref></ref>
+
+==Medal count==
+The ranking in this table is based on information provided by the International Olympic Committee.<ref name=medalcount/>

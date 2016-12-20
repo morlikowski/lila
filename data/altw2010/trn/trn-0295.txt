@@ -1,0 +1,189 @@
+L''''électricité''' est l'interaction de particules chargées sous l'action de la électromagnétique.  Ce phénomène êtres vivants que les éclairs d'un orage.  Elle est largement utilisée par les sociétés développées pour transporter de grandes quantités d'énergie facilement utilisable.
+
+Les propriétés de l'électricité ont commencé à être comprises au cours du . La maîtrise du sources d'énergie (principalement hydraulique, thermique et nucléaire), l'électricité est de nos jours un vecteur énergétique employé à de très nombreux usages domestiques ou industriels.
+
+290px|right|thumb|Ligne électrique près d'une voie ferrée en Pologne
+290px|right|thumb|La [[foudre fut la première manifestation visible de l'électricité pour les humains.]]
+290px|right|thumb|Câbles électriques à [[Ligne à haute tension|haute tension à proximité d'un distribution.]]
+
+==Nature de l'électricité==
+C'est le mouvement des charges électriques dans la matière qui est à l'origine de l'électricité. 
+
+Comme la particules. Ils ont postulé que ces particules avaient une caractéristique en commun, dont les propriétés coïncidaient avec leurs observations.
+
+Contrairement à la masse, il existe deux types de charges électriques, qui se comportent comme si elles étaient  « opposées » l'une à l'autre ; on les appelle donc par convention positive et négative.  
+
+{|border="0" cellspacing="10" align="center" valign="top"
+|width="50%" align="center" |100px 
+|width="50%" align="center" |100px 
+|-align="center"
+|''deux charges de nature opposée s'attirent''
+|''deux charges de même nature, par exemple deux charges positives, se repoussent''
+|}
+
+Des charges de nature opposée s'annulent. Cela signifie qu'une particule qui possède autant de charges  positives que négatives se comporte comme si elle n'en possédait aucune. On dit qu'elle est électriquement neutre.
+
+===L'électricité statique===
+
+Dans la nature les électrons sont des porteurs de charges négatives et les protons des porteurs de charges positives. Les atomes qui composent la matière ordinaire sont faits d'électrons qui se déplacent autour d'un noyau composé de protons et de neutrons qui sont électriquement neutres. Le nombre d'électrons étant égal au nombre de protons, l'ensemble est électriquement neutre. 
+
+Quand on frotte certains matériaux entre eux, les électrons superficiels des atomes de l'un sont arrachés et récupérés par les atomes de l'autre. Par exemple une tige de ballon de baudruche sur des cheveux secs, on le charge négativement, car il capte des électrons aux cheveux.
+
+Une règle en plastique frottée sur des vêtements possède une charge négative. Elle peut alors attirer des petits morceaux de papier. La règle modifie, par induction électrostatique, la répartition des charges dans le papier : les charges négatives de la règle repoussent les charges négatives à l'autre extrémité du morceau de papier et attirent les charges positives des atomes de papier.
+
+On parle d'électricité statique, car les charges électriques ne peuvent pas circuler : elles sont piégées dans des matériaux plastique, le verre, le papier... qui résistent à la circulation des charges<ref>Il est toutefois possible de leur associer un courant électrique (détectable directement ou par le champ magnétique qu'il crée) en mettant en mouvement le matériau chargé</ref>.
+
+===Le courant électrique===
+
+Il existe aussi des matériaux conducteurs, comme les métaux, l'eau salée, le corps humain ou le graphite par exemple, qui permettent aux charges électriques de se déplacer facilement.  
+
+Lorsqu'on marche sur une pieds sur le sol arrache des électrons et le corps se charge d'électricité statique. Quand on touche une étincelle, causée par le déplacement brutal des charges électriques s'écoulant vers le sol à travers les matériaux conducteurs de la porte.
+
+Cet écoulement est dû au fait qu'il y avait plus de charges dans le corps que dans le sol : comme deux charges de même nature ont tendance à se repousser, dans un conducteur elles vont chercher à se déplacer vers le point le moins chargé. Cette différence de charges entre le corps et le sol est appelée une différence de potentiel. 
+
+Pour créer un circuit de matériaux conducteurs qui permettra aux charges électriques de se déplacer et, un système capable de créer une différence de potentiel entre les deux extrémités du circuit. Ce système est appelé un générateur : ce peut être par exemple une pile ou une dynamo. 
+
+==== Le sens du courant ====
+Dans un circuit électrique on dit que le courant électrique, noté '''''I''''', circule entre les électrodes depuis le ''pôle positif'' vers le ''pôle négatif'' du générateur. Ce sens est purement conventionnel puisque le courant peut aussi bien être causé par des charges positives qui seront attirées par le pôle négatif du générateur, que par des charges négatives qui se déplaceront en sens inverse, vers le pôle positif. C'est ainsi que dans un fil électrique, les charges positives (les noyaux des atomes) restent fixes dans la structure du métal et ne peuvent constituer aucun courant électrique ; le courant électrique dans un métal est créé uniquement par le déplacement des charges négatives (les électrons libres) vers le pôle positif du générateur : c'est un ''courant électronique'', cependant on utilise toujours le sens conventionnel '''''I''''' du courant, institué avant cette découverte.
+
+On parle de périodes par seconde. Elle s'exprime en hertz (Hz), par exemple en Europe le courant distribué dans les installations électriques est à une fréquence de '''50 Hz''' et en Amérique '''60 Hz'''.
+
+==== Analogie hydraulique ====
+Pour comprendre certaines propriétés du courant électrique, il est intéressant de le comparer à de l'eau s'écoulant dans un circuit de tuyaux. Le générateur peut alors être vu comme une pompe chargée de mettre en pression ce liquide dans les tuyaux.
+
+La différence de potentiel, ou tension, ressemble alors à la différence de pression entre deux points du circuit d'eau. Elle est notée '''''U''''', et exprimée en volts (V).
+
+L'intensité du courant électrique peut être rapprochée du débit d'eau dans le tuyau. Elle mesure le nombre de charges qui passent chaque seconde à un point du circuit ; elle est souvent notée '''''I''''', et mesurée en ampères (A).
+
+La résistance d'un circuit électrique serait alors analogue au Ohms (Ω).
+
+Il est possible de pousser cette analogie beaucoup plus loin<ref>Précisions et développements de l'analogie hydraulique pour U, R et I, mais aussi les sources de tension (continue ou alternative), les points de masse, les condensateurs et les inductances : [http://www.electrons.ch/hydraulique.htm Analogie hydraulique]</ref> 
+mais il est important de garder à l'esprit qu'elle a ses limites et que certaines propriétés du courant électrique s'écartent sensiblement de ce modèle à base de fluide, de tuyaux et, de pompes.
+
+== Histoire de l'électricité ==
+
+Électricité est un mot provenant du grec ''êlektron'' signifiant anciens Grecs avaient découvert qu’en frottant l’ambre jaune, celui-ci produisait une attirance sur d’autres objets et, parfois des étincelles. Ils ont donc appelé cette force ''électricité''.
+
+Une période d'observation commence au  où l'on apprend à créer de l'électricité statique. Monsieur Du Fay dit Charles-François de Cisternay, en 1733 découvre les charges positives et négatives, observe les interactions entre ces charges. Mais c'est Coulomb qui énonce les premières lois physiques. 
+
+En belge Thomas Edison présente sa première ampoule électrique à incandescence.  Une centrale hydraulique de 7&nbsp;kW est construite la même année à Creuse, entre la Cascade des Jarrauds, lieu de production, et la ville de Bourganeuf.
+
+L'électricité se développe alors progressivement pendant le , d'abord dans l'éclairage public et le foyers. Différents moyens de production de l'électricité se développent : Centrales hydraulique, thermique, nucléaire...
+
+==La production d'électricité==
+
+{| border="0" align="right" style="margin: 0 0 0.5em 1em; border: 1px solid black; padding: 1em;"
+|colspan="2" align="center"| '''Sources de l'électricité mondiale en 2000'''<ref>Source Science & Décision  [http://www.science-decision.net/cgi-bin/topic.php?topic=ENP&chapter=3]</ref>
+|-
+|100px
+|
+* a : charbon 39%
+* b : hydroélectrique 17%
+* c : nucléaire 17%
+* d : gaz 17%
+* e : pétrole 8%
+* f : éolienne, géothermique... 2%
+|}
+L'électricité représente environ un tiers de l'énergie consommée dans le monde. L'électrotechnique est la science des applications domestiques et industrielles (production, transformation, transport, distribution et utilisation) de l'électricité.
+
+La méthode la plus courante pour produire de grandes quantités d'électricité est d'utiliser un générateur, convertissant une tension alternative. D'une manière générale la source n'est pas forcément mécanique, on peut penser aux piles ou aux panneaux solaires par exemple.
+
+Cette énergie d'origine mécanique est la plupart du temps obtenue à partir d'une source de chaleur, issue elle-même d'une énergies fossiles, nucléaires ou une énergie renouvelable, l'énergie solaire. On peut également directement utiliser une énergie mécanique, l'énergie hydraulique ou l'énergie éolienne.
+
+=== Transport  et distribution===
+
+Le courant qui circule sur réseau électrique est le plus souvent alternatif et triphasé car c'est le plus économique à produire et à transporter. Alors que le consommateur final a besoin de courant à basse tension, moins dangereux à utiliser, il est plus économique de transporter un courant à très haute tension sur de longues distances.
+
+En effet, à puissance constante, si l'on augmente la tension, on réduit l'intensité du courant (<math>P = U \times I \times \cos(\phi)</math> en monophasé) et donc, également les pertes par transformateurs élévateurs de tension de manière à réduire l'intensité du courant pour le transporter et, des transformateurs abaisseurs de tension pour la distribution (en basse tension) aux usagers.
+
+=== Conversion transformation===
+
+Les tensions électriques peuvent être transformées et converties.
+
+En règle générale pour les grosses puissances, les tensions sont alternatives et passent par des transformateurs pour convertir le courant en flux magnétique lui-même converti à nouveau en courant grâce à des bobines.
+Ce principe permet de changer le niveau de tension tout en conservant la fréquence et une isolation galvanique entre le réseau primaire et secondaire du transformateur.
+Pour les puissances le permettant technologiquement, on utilise des convertisseurs à semi-conducteurs (transistors, thyristors) :
+
+* des redresseurs pour convertir une tension alternative en tension continue ;
+* des onduleurs pour convertir les tensions continues en alternatives ;
+* des convertisseurs permettent la conversion directe de tension continue en tension continue par découpage à haute fréquence.
+
+=== Stockage ===
+Stockage de l'électricité}}
+Pour l'électricité transportée et distribuée au moyen de conducteurs, il est nécessaire d'équilibrer à tout moment la production et la consommation. Les centrales thermiques au gaz, au pétrole ou au charbon, sont généralement utilisées pour répondre à des pics de demande. On utilise aussi des stations de réseau.
+
+Il est aussi possible de stocker l'électricité à petite échelle au moyen de batteries d'accumulateurs, de condensateurs ou de bobines d'inductances. 
+
+* Les batteries d'accumulateurs sont très répandues pour l'utilisation des équipements et systèmes autonomes fixes ou mobiles. 
+
+* Les traction électrique automobile pour les phases transitoires d'accélération, d'autant plus que la recharge des condensateurs est presque instantanée. 
+
+* Le stockage de l'énergie électrique dans des selfs ou bobines d'inductances n'offre d'intérêt qu'avec des matériaux supraconducteurs, ce qui n'est encore que du domaine expérimental en matière de stockage.
+
+===Les métiers de l’électricité===
+L'électrotechnique est un ensemble de technologies qui peuvent être pratiquées par : un ingénieur, un électrotechnicien, un dessinateur-projeteur... 
+
+* le bobineur est un technicien qui réalise les circuits magnétiques comme ceux des moteurs ou des générateurs ;
+* le monteur-câbleur réalise les armoires de commande et il procède au raccordement ;
+* les électriciens câblent les réseaux basse tension et haute tension, dans le bâtiment, l'industrie, le tertiaire, la marine, l'aéronautique et les moyens de transport terrestre, (automobile) ;
+* les techniciens de maintenance, entretiennent et dépannent les machines électriques ;
+* les automaticiens, électroniciens, électrotechniciens créent les automatismes et systèmes de régulation électrique pour commander les machines automatisées...
+
+et une multitude de métiers liés à l'industrie de l'électricité (pour les plus courants : chimiste, calorifugeur, thermicien, robinetier, chaudronnier, mécanicien...).
+
+==Usages et consommation==
+Aujourd'hui l'électricité sert pour l'moteurs électriques qui font avancer les appareils ménagers. Elle fait fonctionner les appareils réseaux) ont besoin d'électricité. 
+
+En dépit d'encouragements aux économies d'électricité et d'une notable amélioration de l'efficience énergétique de 1999 à 2004, la consommation finale continue à augmenter en Europe (UE-25). Un ménage moyen de l'UE-25 consommait 4098 kWh en 2004, alors qu'il aurait pu n'en consommer que 800 kWh s'il était équipé d'appareils existants à basse consommation et en abandonnant les ampoules à incandescence (et encore moins avec les technologies les plus efficientes). Selon le Centre commun de recherche (CCR) de l'UE, de 2005 à 2006, la consommation a augmenté dans l'UE-25 dans tous les secteurs ; dans le résidentiel, dans le tertiaire (+ 15,8 %) et dans industrie (+ 9,5 %), à un rythme calqué sur celui du PIB global (+ 10,8 %). 
+<br />Le rapport recommande d'encourager les chauffe-eau solaires et les économies d'énergie, par remplacement notamment des lampes à incandescence. En novembre 2006, la Commission européenne a engagé un plan d'action pour l'efficacité énergétique qui doit réduire de 20 % la consommation d'électricité de l'UE-25 en 2020 d'ici 2020<ref>[http://re.jrc.ec.europa.eu/energyefficiency/pdf/EnEff%20Report%202006.pdf Rapport (66 pages, en anglais) du CCR sur l'évolution de la consommation électrique en UE-25]</ref>. Les appareils consomment plutôt moins, mais ils sont plus utilisés (explosion de l'utilisation de l'ordinateur et du téléphone portable. Le temps passé devant la télévision a augmenté de 13 % entre 1995 et 2005<ref>Source : graphe page 28 du [http://re.jrc.ec.europa.eu/energyefficiency/pdf/EnEff%20Report%202006.pdf Gfk cité par Rapport]</ref>.
+L'éclairage nocturne, qui est par ailleurs un des facteurs du phénomène dit de pollution lumineuse est en augmentation constante depuis 50 ans. Et dans le tertiaire l'éclairage (de jour souvent) est le premier poste de consommation électrique, 175 TWh consommés par an et 26 % de consommation électrique totale du secteur tertiaire<ref>page 46 du [http://re.jrc.ec.europa.eu/energyefficiency/pdf/EnEff%20Report%202006.pdf rapport]</ref>. 
+
+=== Le réseau domestique===
+
+thumb|300px|A eletricidade em sua manifestação natural mais imponente: o relâmpago
+
+A é um fenómeno físico originado por cargas eléctricas estáticas ou em movimento e por sua interação.  Quando uma carga se encontra em repouso, produz magnéticos.   
+Há dois tipos de cargas eléctricas, chamadas positivas e negativas. As cargas de nome igual (mesmos sinais) se repelem e as de nomes distintos (sinais diferentes) se atraem. 
+
+A electricidade se origina da interação de certos tipos de partículas sub-atômicas. A partícula mais leve que leva carga eléctrica é o eléctron, que assim como a partícula de carga eléctrica inversa à do eléctron , o próton, transporta a unidade fundamental de carga <math>(1,60217646 x 10^{-19}C </math>), cargas eléctricas de valor menor são tidas como inexistentes em subpartículas atômicas como os quarks.
+
+Os núcleo se desprendem com muita facilidade. Em algumas substâncias, como os metais, proliferam-se os eléctrons livres. Desta maneira, um corpo fica carregado electricamente graças à reordenação dos elétrons. 
+
+Um átomo normal tem quantidades iguais de carga eléctrica positiva e negativa, portanto é electricamente neutro. A quantidade de carga eléctrica transportada por todos os elétrons do átomo, que por convenção são negativas, está equilibrada pela carga positiva localizada no núcleo. Se um corpo contém um excesso de elétrons ficará carregado negativamente. Ao contrário, com a  ausência de eléctrons, um corpo fica carregado positivamente, devido ao facto de que há mais cargas elétricas positivas no núcleo. 
+
+Electricidade é a passagem de elétrons em um condutor. Bons condutores são na grande maioria da família dos metais: supercondutores. Já a porcelana, o plástico, o vidro e a borracha são bons isolantes. Isolantes são materiais que não permitem o fluxo da electricidade.
+
+Alguns conceitos importantes que dizem respeito à electricidade devem ser definidos:
+
+*Campo eléctrico: Efeito produzido por uma carga o qual pode exercer força sobre outras partículas carregadas.
+*SI (Sistema Internacional de Unidades) é medido em volt (V).
+*SI é medido em ampère (A). 
+*Potência eléctrica: Quantidade de energia convertida em um dado intervalo de tempo.
+*Carga eléctrica: Grandeza proveniente dos níveis subatômicos.
+
+== História ==
+
+==Potencial Eléctrico==
+
+A diferença de potencial eléctrico entre dois pontos é definida como o trabalho necessário para levar uma carga positiva de um ponto ao outro dividido pelo valor desta carga. Se estabelecermos determinado ponto como referencial zero pode-se dizer que o potencial eléctrico de uma carga em determinado ponto é igual ao trabalho para levar uma carga positiva do ponto zero até o ponto em questão dividido pelo valor desta carga.
+
+Para referenciais isolados pode-se usar esse ponto de referência no infinito. 
+Quando se tratar da diferença de potencial de uma carga entre um ponto e o infinito tratar-se-á do potencial eléctrico desta carga. O potencial é medido em volts (1 volt = joule/coulomb).
+
+O gradiente do potencial eléctrico de uma carga relacionado ao seu campo eléctrico pode ser escrito da seguinte forma:
+
+<center><math>-\vec\nabla V= \vec E\ </math></center>
+
+Sendo '''<math>V</math>''' o '''potencial elétrico''' e <sup><math> \vec E\ </math></sup> o vetor '''campo elétrico'''.
+
+==Conceituando==
+
+'''Condutores (Corrente  eléctrica)'''
+
+Chama-se eléctrons em uma determinada seção. A corrente contínua tem um fluxo constante, enquanto a corrente alternada tem um fluxo de média zero, ainda que não tenha valor nulo todo o tempo. Esta definição de corrente alternada implica que o fluxo de eléctrons muda de direção continuamente.
+
+O fluxo de cargas eléctricas pode gerar-se em um electrônicos.
+
+A Lei de Ohm descreve a relação entre a intensidade e a tensão em uma corrente eléctrica: a diferença de potencial elétrico é diretamente proporcional à intensidade de corrente e à resistência eléctrica. A  Lei de Ohm é expressa matematicamente assim:
+
+<math>U=R\cdot I</math>

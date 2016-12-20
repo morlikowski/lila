@@ -1,0 +1,49 @@
+In de periodiek signaal opwekt. Is het opgewekte signaal sinusvormig, dan spreekt men van een harmonische oscillator. 
+Voorbeelden hiervan zijn:
+* Hartley-oscillator  (Engels: [http://en.wikipedia.org/wiki/Hartley_Oscillator Hartley-oscillator])
+* Colpitts-oscillator (Engels: [http://en.wikipedia.org/wiki/Colpitts_oscillator Colpitts-oscillator])
+* Clapp-oscillator (Engels: [http://en.wikipedia.org/wiki/Clapp_oscillator Clapp-oscilator])
+* Kristal-oscillator (Engels: [http://en.wikipedia.org/wiki/Crystal_oscillator Kristal-oscillator])
+* Faseverschuivingsoscillator (Engels: [http://en.wikipedia.org/wiki/Phase-shift_oscillator Faseverschuivingsoscillator])
+* Wien-brug en "Twin-T") (Engels: [http://en.wikipedia.org/wiki/RC_oscillator RC-oscillator])
+
+Een veelgebruikt ander type is de relaxatie-oscillator.
+
+Oscillatoren hebben zeer veel toepassingen op diverse gebieden, in radiozenders bijvoorbeeld genereren ze de draaggolf. In een radio-ontvanger wordt die draaggolf weer ontvangen met behulp van een oscillator, de zogenaamde 'lokale oscillator' of LO.
+
+===Harmonische oscillator===
+Een harmonische oscillator bestaat meestal uit een versterkend element en een frequentiebepalende terugkoppellus. Als de rondgaande versterking precies gelijk is aan 1, d.w.z. de absolute versterkingsfactor is 1 en de totale faseverschuiving in de kring is een veelvoud van 360°, zal de schakeling een sinusvormig signaal opwekken. De voorwaarden voor oscillatie staan bekend als het criterium van Barkhausen (een variant is het criterium van Nyquist).
+
+Praktische problemen zijn 
+* het aanlopen van de oscillator, wat het gevolg is van natuurlijke ruis
+* de stabilisatie van de amplitude van het opgewekte signaal.
+
+thumb|Cross coupled LC oscillator with output on top
+
+An '''electronic oscillator''' is an electronic circuit that produces a repetitive electronic signal, often a sine wave or a square wave.
+
+A low-frequency oscillator (LFO) is an electronic oscillator that generates an AC waveform between 0.1 Hz and 10 Hz.  This term is typically used in the field of audio synthesizers, to distinguish it from an audio frequency oscillator.
+
+== Types of electronic oscillator ==
+There are two main types of electronic oscillator: the harmonic oscillator and the relaxation oscillator.
+
+=== Harmonic oscillator ===
+<!-- Image with unknown copyright status removed: thumb|right|Small-signal model of a crystal-stabilized Colpitt's oscillator -->
+
+The harmonic oscillator produces a noise.  The noise travels around the loop, being filtered and re-amplified until it increasingly resembles the desired signal.
+
+A piezoelectric crystal (commonly quartz) may be coupled to the filter to stabilise the frequency of oscillation, resulting in a crystal oscillator.
+
+There are many ways to implement harmonic oscillators, because there are different ways to amplify and filter.  For example:
+
+* Armstrong oscillator
+* Hartley oscillator
+* Colpitts oscillator
+* Clapp oscillator
+* Delay line oscillator
+* Pierce oscillator (crystal)
+* Phase-shift oscillator
+* Wien Bridge and "Twin-T")
+* cross-coupled LC oscillator
+* Vačkář oscillator
+* Opto-Electronic Oscillator

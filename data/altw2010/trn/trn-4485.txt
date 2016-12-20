@@ -1,0 +1,94 @@
+{{infobox Franse gemeente|
+|plaatsnaam= Boëcé
+|wapen= 
+|kaart= 
+|regio= Laag-Normandië 
+|departement= Orne (61)
+|arrondissement= Mortagne-au-Perche
+|kanton= Bazoches-sur-Hoëne
+|jaar= 1999
+|inwoners= 104
+|dichtheid= 43,3
+|oppervlakte= 2,4
+|water= 
+|latitudeGraden= 48 |latitudeMinuten= 31|latitudeSeconden= 0
+|longitudeGraden= 0 |longitudeMinuten= 28 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 117 |kaartY= 89
+|code= 61048
+|postcode= 61560
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Boëcé''' is een gemeente in het Franse departement Orne (regio Mortagne-au-Perche.
+
+==Geografie==
+De oppervlakte van Boëcé bedraagt 2,4 km², de bevolkingsdichtheid is 43,3 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:300 color:gray1 width:1       
+  from:start till:end             
+  bar:200 color:gray1              
+  from:start till:end            
+  bar:100 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,77)(84,64) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 101 1968: 77
+  points:(84,64)(100,68)    color:blue    width:2 #1975: 84
+  points:(100,68)(128,65)   color:blue    width:2 #1982: 79
+  points:(128,65)(160,77)   color:blue    width:2 #1990: 101
+  points:(160,77)(196,79)   color:blue    width:2 #1999: 104
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+{{FRA gmina infobox
+|    herb_gminy = 
+|   flaga_gminy = 
+|    mapa_gminy = 
+|         Gmina = Boëcé
+|        region = Dolna Normandia
+|   departament = Orne
+|  powierzchnia = 2,4
+|      stopniEW = 0 |minutEW = 28 
+|      stopniNS = 48 |minutNS = 31 
+|      wysokosc = 
+|          szer = N
+|          dług = E
+|           rok = 1990
+|     populacja = 101
+|       gęstość = 42
+|  kod_pocztowy = 61560
+|         INSEE = 61048
+|}}
+'''Boëcé''' to miejscowość i gmina we Francji, w regionie Orne.
+
+Według danych na rok 1990 gminę zamieszkiwało 101 osób, a gęstość zaludnienia wynosiła 42&nbsp;osoby/km² (wśród 1815 gmin Dolnej Normandii Boëcé plasuje się na 785. miejscu pod względem liczby ludności, natomiast pod względem powierzchni na miejscu 1077.).
+
+===Linki zewnętrzne===
+*Źródło danych: [http://www.insee.fr Insee]
+*'''Mapy i zdjęcia satelitarne: '''
+**Zdjęcie satelitarne: [http://maps.google.com/maps?ll=48.5167,0.4667&spn=0.1,0.1&t=k Google maps]
+**Mapa: [http://maps.msn.com/(cgxnej455qpgxeu5vurxtejz)/map.aspx?&lats1=48.5167&lons1=0.4667&alts1=14&regn1=2 MSN World Atlas]

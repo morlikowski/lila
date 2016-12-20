@@ -1,0 +1,63 @@
+In wireless networking, the '''hidden node problem''' occurs when a [[Node (networking)|
+node]] is visible from a wireless media access control.  
+
+right|thumb|250px|In this example, A and B can each communicate with the hub, but are hidden from each other
+
+==Background==
+'''Hidden nodes''' in a wireless network refer to nodes that are out
+of range of other nodes or a collection of nodes. Take a physical
+star topology with an access point with many nodes surrounding it
+in a circular fashion; each node is within communication range of the AP,
+however, not each node can communicate with, or has line of sight with each other. For example,
+it is likely that the node at the far edge of the circle can see the access
+point, which is known as '''r''', but it is unlikely that the same
+node can see a node on the opposite end of the circle, '''2r''' (or simply the diameter). These nodes are known as ''hidden''. The problem is when node r and r2 start to send packets simultaneously to the access point. Since node r and r2 can not sense the carrier, CSMA/CA) does not work. To overcome this problem, handshaking is implemented in conjunction with the CSMA/CA scheme. The same problem exists in a MANET.
+
+The hidden node problem can be observed easily in widespread (>50m radius) WLAN setups with many nodes that use directional antennas and have high upload. This is why IEEE 802.11 is suited for bridging the last mile for broadband access only to a very limited extent. Newer standards such as WiMAX assign time slots to individual stations, thus preventing multiple nodes from sending simultaneously and ensuring fairness even in over-subscription scenarios.
+
+IEEE 802.11 uses 802.11 RTS/CTS acknowledgment and handshake packets to partly overcome the '''hidden node problem'''.
+RTS/CTS is not a complete solution and may decrease throughput even further, but adaptive acknowledgments from the base station can help too. 
+
+RTS/CTS benchmarks <ref>Pommer, Hermann: ''Roaming zwischen Wireless Local Area Networks''. VDM Verlag, Saarbrücken 2008, ISBN 978-3-8364-8708-5.</ref>: The comparison with hidden stations shows that RTS/CTS packages in each traffic class are profitable (even with short audio frames, which cause a high overhead on RTS/CTS frames). 
+
+In the experimental environment following traffic classes are included: data (not time critical), data (time critical), video, audio. Examples for notations: (0|0|0|2) means 2 audio stations; (1|1|2|0) means 1 data station (not time critical), 1 data station (time critical), 2 video stations. 
+
+center|250px|thumb|Benchmarks: Net Thoughput with/without RTS/CTS (Pommer, p.179)
+
+The other methods that can be employed to solve hidden node problem are :       
+*Increase power to the nodes''' 
+*Use omnidirectional antennas'''
+*Remove obstacles'''
+*Move the node'''
+*Use protocol enhancement software'''
+*Using Space Diversity'''
+
+== Increase power to the nodes ==
+Increasing the power (measured in milliwatts) of the nodes can solve the hidden node
+problem by allowing the cell around each node to increase in size, encompassing all of
+the other nodes. This configuration enables the non-hidden nodes to detect, or hear, the
+hidden node. If the non-hidden nodes can hear the hidden node, the hidden node is no
+longer hidden. Because wireless LANs use the CSMA/CA protocol, nodes will wait their
+turn before communicating with the access point.
+
+== Use omnidirectional antennas ==
+Since nodes using point-to-point connections). Use omnidirectional antennas for widespread networks consisting of more than two nodes.
+
+== Remove obstacles ==
+Increasing the power on mobile nodes may not work if, for example, the reason one
+node is hidden is that there is a cement or steel wall preventing communication with other
+nodes. It is doubtful that one would be able to remove such an obstacle, but removal of
+the obstacle is another method of remedy for the hidden node problem. Keep these types
+of obstacles in mind when performing a site survey.
+
+== Move the node ==
+Another method of solving the hidden node problem is moving the nodes so that they can
+all hear each other. If it is found that the hidden node problem is the result of a user
+moving his computer to an area that is hidden from the other wireless nodes, it may
+be necessary to have that user move again. The alternative to forcing users to move is
+extending the wireless LAN to add proper coverage to the hidden area, perhaps using
+additional access points.
+
+'''Пробле́ма скры́того узла́''' (в компьютерных сетях) — возникает, когда узел видимый из беспроводного хаба, при этом не виден с другого узла, связанного с этим хабом. Это приводит к проблемам в Контроле Доступа в Эфир (media access control).
+
+Термин, '''скрытый узел''' в беспроводной сети относится к узлам, которые за пределами видимости других узлов. Возьмём Топологию Звезда, образуемую Точкой Доступа (Access Point) с несколькими узлами, находящимися на окружности. Каждый узел окажется в поле действия связи с точкой доступа, однако не все из них будут видеть друг друга. Например, узел, находящийся на одной стороне окружности, может видеть точку доступа, находясь от неё на расстоянии '''r''', но вряд ли этот же узел будет видеть другой, находящийся на противоположной стороне окружности, на расстоянии '''2r''' (длина диаметра). Эти узлы называются ''скрытыми''. Проблема возникает тогда, когда эти узлы начинают посылать пакеты на точку доступа одновременно. Так как узлы не видят друг друга Множественный Доступ с Прослушиванием Несущей волны и Обнаружением Коллизий (CSMA/CD) не работает. Похожая проблема существует в MANET.

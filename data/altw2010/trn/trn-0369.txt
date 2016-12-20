@@ -1,0 +1,290 @@
+'''Röðunarreiknirit''' eru aðferðir til að raða stökum í tiltekna röð, til dæmis frá því minnsta til hins stærsta, eða frá því stærsta til hins minnsta.
+
+==Flokkun==
+Röðunarreiknirit eru flokkuð eftir:
+
+* Tímaflækju samanburða. Þá skipta versta, meðaltals- og O(''n''&nbsp;log&nbsp;''n''), og slæm hegðun er O(''n''<sup>2</sup>). Ákjósanlegasta hegðun er O(''n'').
+* Tímaflækju víxlana. Víxlanir geta verið seinlegar í sumum tilfellum.
+* Minnisnotkun (og notkun annarra auðlinda). Þá er sérstaklega athugað að sum reiknirit raða „á staðnum“, þannig að þau þurfa lítið aukalegt minni umfram það sem verið er að nota undir listann sem verið er að raða, meðan önnur taka frá aukalegt minni fyrir gögnin þar sem að þau eru geymd tímabundið.
+* Stöðugleika. Röðunarreiknirit kallast ''stöðugt'' ef að það varðveitir afstæða röðun gagna með sams konar lykla.
+* Hvort að þau nota samanburðarröðun eða ekki. Samanburðarröðun ber saman gögnin eingöngu með samsemdarvirkja (ekki hlutröðun).
+* Almennri aðferð: Innsetningu, víxlun, valröðun, sameiningu, o.s.frv. Víxlraðannir eru til dæmis bóluröðun og snarröðun. Valraðannir eru til dæmis hrúguröðun og hristiröðun.
+
+==Algeng röðunarreiknirit==
+Í þessari töflu er ''n'' fjöldi færslna sem á að raða og ''k'' er fjöldi aðgreinanlegra færslna (þ.e., eftir að endurteknar færslur hafa verið fjarlægðar). Dálkarnir „best“, „meðaltal“ og „verst“ gefa tímaflækju hverju sinni. Þar sem að ''k'' er ekki notað er álitið að ''k'' sé fasti. „Minni“ gefur til kynna hversu mikið aukalegt minni þarf umfram það sem listinn tekur.
+
+<!-- I use ·s below to try to keep the column contents from wrapping in an undesirable way while still adjusting to different font sizes. -->
+{|class="wikitable"
+!Nafn  !! Best !! Meðaltal !! Verst !! Minni !! Stöðugt !! Aðferð !! Athugasemdir
+
+|- align="center"
+|Bóluröðun
+|style="background:#ddffdd"|O(''n'')
+||&mdash;
+|style="background:#ffdddd"|O(''n''<sup>2</sup>)
+|style="background:#ddffdd"|O(1)
+|style="background:#ddffdd"| Já
+|| Víxlun
+|nowrap align="left"|Bestu tímar eru mismunandi.
+
+|- align="center"
+|Hristiröðun
+|style="background:#ddffdd"|O(''n'')
+||&mdash;
+|style="background:#ffdddd"|O(''n''<sup>2</sup>)
+|style="background:#ddffdd"|O(1)
+|style="background:#ddffdd"| Já
+|| Víxlun
+|| 
+
+|- align="center"
+|Greiðuröðun
+|style="background:#ddffdd"|O(''n'' log ''n'')
+||&mdash;
+|style="background:#ddffdd"|O(''n'' log ''n'')
+|style="background:#ddffdd"|O(1)
+|| Nei
+|| Víxlandi
+|| 
+
+|- align="center"
+|Dvergaröðun
+|style="background:#ddffdd"|O(''n'')
+||&mdash;
+|style="background:#ffdddd"|O(''n''<sup>2</sup>)
+|style="background:#ddffdd"|O(1)
+|style="background:#ddffdd"| Já
+|| Víxlun
+|| 
+
+|- align="center"
+|Valröðun
+|style="background:#ffdddd"|O(''n''<sup>2</sup>)
+|style="background:#ffdddd"|O(''n''<sup>2</sup>)
+|style="background:#ffdddd"|O(''n''<sup>2</sup>)
+|style="background:#ddffdd"|O(1)
+|| Nei 
+|| Val 
+|| 
+
+|- align="center"
+|Innsetningarröðun
+|style="background:#ddffdd"|O(''n'')
+||&mdash;
+|style="background:#ffdddd"|O(''n''<sup>2</sup>)
+|style="background:#ddffdd"|O(1)
+|style="background:#ddffdd"| Já 
+|| Innsetning 
+|| 
+
+|- align="center"
+|Skeljaröðun
+|style="background:#ddffdd"|O(''n''log(''n''))
+||&mdash;
+||O(''n''log<sup>2</sup>(''n''))
+|style="background:#ddffdd"|O(1)
+|| Nei 
+|| Innsetning
+|nowrap align="left"| Bestu tímar eru breytilegir
+
+|- align="center"
+|Tvíundartrésröðun
+|style="background:#ddffdd"|O(''n''log(''n''))
+||&mdash;
+|style="background:#ddffdd"|O(''n''log(''n''))
+|style="background:#ddffdd"|O(1)
+|style="background:#ddffdd"| Já 
+|| Innsetning 
+|| 
+
+|- align="center"
+|Bókasafnsröðun
+|style="background:#ddffdd"|O(''n'')
+|style="background:#ddffdd"|O(''n''log(''n''))
+|style="background:#ffdddd"|O(''n''<sup>2</sup>)
+||O(''n'')
+|style="background:#ddffdd"| Já
+|| Innsetning 
+|| 
+
+|- align="center"
+|Sameiningarröðun
+|style="background:#ddffdd"|O(''n''log(''n''))
+||&mdash;
+|style="background:#ddffdd"|O(''n''log(''n''))
+||O(''n'')
+|style="background:#ddffdd"| Já 
+|| Sameining 
+||
+
+|- align="center"
+|nowrap|Sameiningarröðun á staðnum
+|style="background:#ddffdd"|O(''n''log(''n''))
+||&mdash;
+|style="background:#ddffdd"|O(''n''log(''n''))
+|style="background:#ddffdd"|O(1)
+|style="background:#ddffdd"| Já 
+|| Sameining
+|nowrap align="left"| Bestu tímar eru breytilegir
+
+|- align="center"
+|Hrúguröðun
+|style="background:#ddffdd"|O(''n''log(''n''))
+||&mdash;
+|style="background:#ddffdd"|O(''n''log(''n''))
+|style="background:#ddffdd"|O(1)
+|| Nei 
+|| Val 
+|| 
+
+|- align="center"
+|Smoothsort
+|style="background:#ddffdd"|O(''n'')
+||&mdash;
+|style="background:#ddffdd"|O(''n''log(''n''))
+|style="background:#ddffdd"|O(1)
+|| Nei 
+|| Val 
+|| 
+
+|- align="center"
+|Snarröðun
+|style="background:#ddffdd"|O(''n''log(''n''))
+|style="background:#ddffdd"|O(''n''log(''n''))
+|style="background:#ffdddd"|O(''n''<sup>2</sup>)
+||O(log ''n'')
+|| Nei 
+|| Sneiðun
+|nowrap align="left"| Einföld afbrigði nota O(''n'') minni
+
+|- align="center"
+|Innhorfsröðun
+|style="background:#ddffdd"|O(''n''log(''n''))
+|style="background:#ddffdd"|O(''n''log(''n''))
+|style="background:#ddffdd"|O(''n''log(''n''))
+||O(log''n'')
+|| Nei
+|| Samsuða 
+||
+
+|- align="center"
+|Kapalröðun
+|style="background:#ddffdd"|O(''n'')
+||&mdash;
+|style="background:#ddffdd"|O(''n''log(''n''))
+||O(''n'')
+|| Nei 
+|| Innsetning
+|align="left"| Finnur allar lengstu vaxandi hlutrunur á O(''n'' log log(''n''))
+|}
+
+Þessi tafla lýsir röðunarreikniritum sem nota ekki samanburðarröðun. Sem slík eru þau ekki takmörkuð af O(''n''log(''n'')) neðri mörkum. Tímaflækjur eru miðuð við ''n'', fjölda staka, og ''k'', stærð hvers staks.
+
+{|class="wikitable"
+!Nafn  !! Best !! Meðaltal !! Verst !! Minni !! Stöðugt
+
+|- align="center"
+|Pigeonhole sort
+|style="background:#ddffdd"|O(''n''+2<sup>''k''</sup>)
+||&mdash;
+|style="background:#ddffdd"|O(''n''+2<sup>''k''</sup>)
+||O(2<sup>''k''</sup>)
+|style="background:#ddffdd"| Já
+
+Un '''algoritmo di ordinamento''' ( ''sorting algorithm'') è un algoritmi di ordinamento topologico. A seconda del verso della relazione considerato, un ordinamento può essere ascendente o discendente. 
+
+== Criteri di partizionamento ==
+
+Per analizzare e studiare gli algoritmi di ordinamento sono stati definiti dei quattro differenti criteri di partizionamento, analizzati qui di seguito.
+
+=== Ordinamento interno e ordinamento esterno ===
+
+Se il file da ordinare, o la struttura dati, può essere contenuto in memoria, il metodo viene detto interno. L'ordinamento di file residenti su disco o su nastro viene chiamato ordinamento esterno: la differenza principale tra i due tipi di ordinamento sta nel fatto che mentre nel primo è possibile accedere direttamente a un record, nel secondo i record devono essere indirizzati in modo sequenziale o al più per grandi blocchi. 
+
+=== Ordinamento per confronti-scambi e digitale ===
+
+A seconda del tipo di operazione che viene effettuata, si hanno due differenti tipi di ordinamento. L'ordinamento che effettua confronti e scambi (<math>a \leq  b : exch(a,b)</math>) e l'algoritmo digitale che accede all'informazione tramite un gruppo di bit alla volta.
+
+=== Ordinamento adattivo ===
+
+Solitamente un algoritmo di ordinamento sfrutta operazioni di confronto e scambio. Se tali operazioni vengono svolte in modo indipendente dai dati di input l'algoritmo viene definito non adattivo. Mentre se un metodo di ordinamento esegue diverse sequenze di operazioni in funzione del risultato dei confronti si ha un algoritmo adattivo. 
+
+=== Stabilità di un algoritmo ===<!-- Referenziata da "Sort (Unix)" -->
+
+Un metodo di ordinamento si dice stabile se preserva l'ordine relativo dei dati con chiavi uguali all'interno del file da ordinare. Ad esempio se si ordina per anno di corso una lista di studenti già ordinata alfabeticamente un metodo stabile produce una lista in cui gli alunni dello stesso anno sono ancora in ordine alfabetico mentre un ordinamento instabile probabilmente produrrà una lista senza più alcuna traccia del precedente ordinamento. 
+
+La stabilità può essere forzata aggiungendo prima dell'ordinamento un piccolo indice a ciascuna chiave o allungando in qualche altro modo le chiavi sulle quali operare, in modo da renderle univoche preservando l'informazione sulla posizione relativa degli elementi.
+
+== Relazioni d'ordine e chiavi ==
+ 
+La relazione d'ordine che intercorre tra gli elementi dell'insieme può essere:
+* quella naturale (se esiste) per l'insieme preso in considerazione (ad esempio la relazione di <= per sottoinsiemi dei numeri naturali)
+* una relazione definita dalle necessità dell'applicazione.
+
+È frequente il caso in cui l'algoritmo di ordinamento non opera direttamente sui dati di interesse, ma su un diverso insieme di dati che sono in collegamento biunivoco con quello dei dati di interesse: questo è detto l'insieme delle chiavi. Nel caso frequente in cui i dati sono costituiti da database relazionali). L'obiettivo dei metodi di ordinamento consiste nel riorganizzare i record in modo tale che le loro chiavi siano disposte secondo un ordine ben definito (di norma in ordine numerico o alfabetico). Le specifiche caratteristiche delle chiavi e dei record possono variare notevolmente da un'applicazione all'altra. La nozione astratta di ordinamento prescinde da tali caratteristiche.
+
+== Complessità degli algoritmi di ordinamento ==
+La ricerca e l'ottimizzazione di algoritmi di ordinamento è molto importante per alcuni ambiti informatici e per queste classi di algoritmi sono stati dimostrati svariati teoremi che ne definiscono i limiti. Il più importante è il seguente:
+
+:''Teorema:'' La complessità in tempo di un qualsiasi algoritmo di ordinamento per confronto è pari a ''&Omega;(NlogN)'', dove ''N'' è il numero di elementi da ordinare.
+
+Questo teorema fissa il limite inferiore di complessità per gli algoritmi che si basano sul paragone di coppie di chiavi (per confronto). Nulla è noto su altri algoritmi di ordinamento, nemmeno quali possano essere. Sono stati ipotizzati (ma non prodotti) algoritmi di ordinamento totalmente quantistico, che potrebbero avere un più basso limite inferiore di complessità.
+
+=== Dimostrazione ===
+
+Si vuole dimostrare che in un algoritmo '''confronti e scambi''' la complessità è <math>\mathsf \Omega( n\log n)</math>Data in input una sequenza <math>e_1, e_2, ... e_n</math> di n elementi, l'azione dell'algoritmo si può rappresentare come un albero binario, per ogni sequenza di ingresso ci sarà un cammino all'interno dell'albero, questo perché si ha una permutazione delle sequenze, infatti il numero di permutazioni possibili su n elementi sono <math>n!</math> combinazioni che corrispondono al numero di nodi dell'albero.
+
+Date due permutazioni distinte esse identificano diversi cammini all'interno dell'albero. <math>n!</math> è il numero di foglie nell'albero di decisione dove n è il numero di elementi da ordinare. Date <math>n!</math> foglie e essendo l'albero binario l'altezza dell'albero sarà:
+
+<math>h(T) \leq \lceil \log_2 n! \rceil</math>
+
+L'altezza dell'albero corrisponde al numero di confronti, elemento indicativo del tempo di esecuzione dell'algoritmo. Nel caso peggiore, ossia quando si arriva al fondo dell'albero, si avrà una complessità pari a <math>\geq \lceil log_2 n! \rceil </math>.
+
+Per ultimare la dimostrazione si utilizza la formula di Stirling sull'approssimazione di <math>n!</math>.
+
+numero di confronti <math> \geq (\log_2 \sqrt{2n} + n \log_2 n +  \frac{1}{2} \log n -  n \log_2 n e) \sim n \log_2 n </math>
+
+che a livello asintotico corrisponde a <math>\mathsf \Omega( n\log n)</math>.
+
+=== Albero di copertura ===
+
+Ogni operazione dell'algoritmo di ordinamento analizzata tramite un albero binario di copertura. Per ordinare una sequenza di n elementi bisognerà effettuare un numero di operazioni pari all'altezza minima di un albero binario con k foglie: 
+
+<math>h(T) \geq \lceil\log k\rceil</math>
+
+==Elenco degli algoritmi di ordinamento==
+Vi sono varie classi di algoritmi di ordinamento, i più noti ed utilizzati sono gli algoritmi di ordinamento per confronto (''comparison sort algorithms''), ma esistono altre classi caratterizzate da un un tempo di esecuzione nel caso peggiore inferiore a O(nlogn).
+
+Nella tabella seguente sono elencati alcuni algoritmi di ordinamento, riportandone la complessità al caso ''Migliore'', ''Medio'' e ''Peggiore'', la ''memoria aggiuntiva richiesta'', e la ''stabilità''.
+
+{|class="wikitable sortable"
+!|Nome || Migliore || Medio || Peggiore || Memoria || Stabile
+
+|- align="center"
+||Avl sort
+||&mdash;
+||&mdash;
+||&mdash;
+||&mdash;
+
+|- align="center"
+||Bubble sort
+||O(''n'')
+||&mdash;
+||O(''n''<sup>2</sup>)
+||O(1)
+||Sì
+
+|- align="center"
+||B sort
+||&mdash;
+||&mdash;
+||&mdash;
+||&mdash;
+
+|- align="center"
+||B-Tree sort
+||&mdash;
+||&mdash;
+||&mdash;
+||&mdash;

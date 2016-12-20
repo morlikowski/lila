@@ -1,0 +1,41 @@
+In mathematics and theoretical physics, a '''Gerstenhaber algebra''' (sometimes called an '''antibracket algebra''' or '''braid algebra''') is an algebraic structure discovered by Gerstenhaber (1963) that combines the structures of a supercommutative ring and a graded Lie superalgebra. It is used in the Batalin-Vilkovisky formalism. 
+
+==Definition==
+A Gerstenhaber algebra is a differential graded commutative algebra with a Lie bracket of degree 1 satisfying the Poisson identity. Everything is understood to satisfy the usual superalgebra sign conventions. More precisely, the algebra has two products, one written as ordinary multiplication and one written as [,], and a '''Z'''-grading (sometimes called ghost number). The degree of an element ''a'' is denoted by |''a''|. These satisfy the identities
+*|''ab''| = |''a''| + |''b''|      (The product has degree 0)
+*|[''a'',''b'']| = |''a''| + |''b''| - 1  (The Lie bracket has degree -1)
+*(''ab'')''c'' = ''a''(''bc''), ''ab'' = (&minus;1)<sup>|''a''||''b''|</sup>''ba''  (the product is associative and (super) commutative)
+*[''a'',''bc''] = [''a'',''b'']''c'' + (&minus;1)<sup>|''a''|(|''b''|-1)</sup>''b''[''a'',''c''] (Poisson identity)
+*[''a'',''b''] = &minus;(&minus;1)<sup>(|''a''|-1)(|''b''|-1)</sup> [''b'',''a''] (Antisymmetry of Lie bracket)
+*''a''|-1)(|''b''|-1)</sup>[''b'',[''a'',''c''  (Jacobi identity for Lie bracket)
+
+Gerstenhaber algebras differ from Poisson superalgebras in that the Lie bracket has degree -1 rather than degree 0.
+
+==Examples==
+*Gerstenhaber showed that the Hochschild cohomology H<sup>*</sup>(''A'',''A'') of a graded algebra ''A'' is a Gerstenhaber algebra. 
+*A Batalin-Vilkovisky algebra has an underlying Gerstenhaber algebra if one forgets its second order differential operator.
+*The exterior algebra of a Lie algebra is a Gerstenhaber algebra.
+*The differential forms on a Poisson manifold form a Gerstenhaber algebra.
+*The multivector fields on a manifold form a Gerstenhaber algebra using the Schouten-Nijenhuis bracket
+
+==定义==
+
+设<math>\;V\;</math>是数域<math>\; k\; </math>上的一个分次(graded)线性空间。<math>\;V\;</math>上的一个'''Gerstenhaber代数'''结构是三元组<math>(V,\bullet,[\;,\;])</math>，满足以下关系：
+# <math>\;(V,\bullet)\;</math>是<math>\; k\;</math>上的分次、交换、结合的代数；
+# <math>\;(V,[\;,\;])\;</math>是李括号度数为1的分次李代数；
+# 李括号对其两个变元都是乘积<math>\;\bullet\;</math>的导子(derivation)，即对任给<math>a,b,c\in V</math>，
+<center><math>[a,b\bullet c]=[a,b]\bullet c+(-1)^{|b|(|a|-1)}b\bullet [a,c]. </math></center>
+有些文献也把Gerstenhaber代数称为辫子代数(braid algebra)。
+
+==例子==
+下面是一些Gerstenhaber代数的例子，因为构造都比较复杂，因此只列出结果，有兴趣的读者可以参考所给文献资料：
+
+#设<math>\;\mathfrak g\;</math>是一个李代数，记<math>\;\Lambda\mathfrak g\;</math>为其所对应的链复形，则在其上有一个自然的Gerstenhaber代数结构，乘法由外积给出，李括号为从<math>\;\mathfrak g\;</math>上诱导的李括号给出(这是一个比较平凡的例子，因此一般人并不重点讨论，但它在构造Gerstenhaber代数的同伦论中非常重要)；
+#设<math>\;A\;</math>是数域<math>\;k\;</math>上的结合代数，Gerstenhaber证明：<math>\;A\;</math>的Hochschild上同调形成一个Gerstenhaber代数<ref name="ger">Gerstenhaber, M., The cohomology structure of an associative ring. Ann. of Math. (2) 78, 1963, 267-288.</ref>；
+#记<math>\;D\;</math>为little disks operad，Cohen证明：<math>\;D\;</math>的同调群形成一个Gerstenhaber代数<ref name="co">Cohen, F.R., The homology of <math>\;C_{n+1}\;</math>-spaces,<math>\;n\ge 1\;</math>, in ''The homology of iterated loop spaces'', Lecture Notes in Math., vol. 533, Springer-Verlag, 1976, 207-351.</ref>；
+#Lian和Zuckerman证明了，在弦理论的背景(background，指从弦理论里面抽象出来的代数结构)中，存在一个Gerstenhaber代数结构<ref name="lz">Lian, B.H., Zuckerman, G.J., New perspectives on the BRST-algebraic structure of string theory. Comm. Math. Phys. 154 (1993), no. 3, 613-646.</ref>；
+#设<math>\;M\;</math>是一个紧致光滑的流形，<math>\;LM\;</math>是它的自由环路空间(free loop space)。Chas和Sullivan证明：<math>\;LM\;</math>的同调群形成一个Gerstenhaber代数<ref name="cs">Chas, M. and Sullivan, D., String topology, arXiv: math-GT/9911159.</ref>。
+
+==历史==
+
+Gerstenhaber代数是Gerstenhaber在研究结合代数的形变时发现的。一个结合代数的形变跟它的Hochschild上复形有密切的关系，Gerstenhaber证明，Hochschild上复形实际上形成一个微分分次李代数，并且这个微分分次李代数完全控制了该结合代数的形变。Gerstenhaber的研究受到小平邦彦(Kodaira)-Spencer关于流形复结构形变研究的启发，这些思想后来由Deligne和Kontsevich等人加以系统完成。

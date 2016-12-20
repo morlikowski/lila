@@ -1,0 +1,214 @@
+A '''standards organization''', '''standards body''', '''standards development organization''' or '''SDO''' is any entity whose primary activities are developing, coordinating, promulgating, revising, amending, reissuing, interpreting, or otherwise maintaining standards that address the interests of a wide base of users outside the standards development organization.
+
+Most voluntary standards are offered for use by people, regulators, or industry. When a published standard achieves widespread acceptance and dominance it can become a broader modem protocol developed by Hayes, Apple's PCL protocol used by Hewlett-Packard in the computer printers they produced.
+
+Normally, the term ''standards organization'' does not include the parties participating in the standards development organization in the capacity of founders, stakeholders, members or contributors, who themselves may function as the standards organizations.
+
+==Overview==
+Generally, any given standards organization can be classified by its role, position and the extent of its influence on the local, national, regional and global standardization arena.  
+
+By geographic designation, there are international, regional, and national standards bodies (the latter often referred to as NSBs).  By technology or industry designation, there are standards developing organizations (SDOs) and also standards setting organizations (SSOs) also known as consortia.  Standards organizations may be governmental, quasi-governmental or non-governmental entities.  Quasi- and non-governmental standards organizations are often non-profit organizations. 
+
+===International Standards Organizations===
+
+Broadly, an international standards organization develops international standards. (This does not necessarily restrict the use of other published standards internationally.)
+
+There are many international standards organizations. For example, the International Organization for Standardization (ISO), the International Electrotechnical Commission (IEC), and the International Telecommunication Union (ITU) have existed for more than 50 years (founded in 1947, 1906, and 1865, respectively) and they are all based in Geneva, Switzerland. They have established tens of thousands of standards covering almost every conceivable topic. Many of these are then adopted worldwide replacing various incompatible 'homegrown' standards. Many of these standards are naturally evolved from those designed in-house within an industry, or by a particular country, whilst others have been built from scratch by groups of experts who sit on various technical committees (TCs).
+
+ISO is composed of the National Standards Bodies (NSBs), one per member economy. The IEC is composed of “National Committees”, one per member economy.  In some cases, the National Committee to the IEC of an economy may be the ISO member from that country or economy.  
+
+The World Standards Cooperation (WSC) is a cooperative effort between ISO, the IEC, and the ITU.
+
+ISO and IEC are non-treaty international organizations.  Their members may be non-governmental organizations or governmental agencies.  The ITU and Codex Alimentarius are two examples of treaty-based organizations (where only governments are the primary members).  The members of these organizations are the government foreign ministry, and/or appropriate regulatory body (telecoms regulator, agricultural, food safety or pharmaceuticals regulator, etc).
+
+In addition to these, independent standards organizations such as UPU or API.  Often, these international standards organizations are not based on the principle of one member per country.  Rather, membership in such international organizations is open, having either organizational/corporate or individual technical expert members from around the globe.
+
+The Universal Postal Union (UPU), by means of its Standards Board (SB), defines, approves, and maintains postal standards. The SB’s objectives are to provide strategic direction and to plan, develop and maintain technical and communications standards aimed at improving postal operational efficiency and quality of service, besides promoting interoperability and compatibility of all UPU and international postal telematics initiatives.
+
+===Regional Standards Organizations===
+
+Regional standards bodies also exist such as CEN, CENELEC, ETSI, and the IRMM in Europe, the Pacific Area Standards Congress (PASC), the Pan American Standards Commission (COPANT), the African Organization for Standardization (ARSO), the Arab Industrial Development and Mining Organization (AIDMO), and others.
+
+Sub-regional standards organizations also exist such as the MERCOSUR Standardization Association (AMN), the CARICOM Regional Organisation for Standards and Quality (CROSQ), and the ASEAN Consultative Committee for Standards and Quality (ACCSQ).
+
+===National Standards Bodies (NSBs)===
+
+In general, each country or economy has a single recognized  Standards Body (NSB).  Examples include ABNT, ANSI, SCC, SIS, SNZ.  An NSB is likely the sole member from that economy in ISO. 
+
+NSBs may be either public or private sector organizations, or combinations of the two.  For example, the three NSBs of Canada, Mexico and the United States are respectively the Standards Council of Canada (SCC), the General Bureau of Standards (Dirección General de Normas, DGN), and the American National Standards Institute (ANSI). SCC is a Canadian Crown Corporation, DGN is a governmental agency within the Mexican Ministry of Economy, and ANSI is a 501(c)(3) non-profit organization with members from both the private and public sectors.  The determinates of whether an NSB for a particular economy is a public or private sector body may include the historical and traditional roles that the private sector fills in public affairs in that economy or the development stage of that economy.
+
+===Standards Developing Organizations (SDOs)===
+
+Un '''organisme de normalisation''' est une entité quelconque dont les activités premières sont le développement, la coordination, la promulgation, la révision, la modification, la réédition, l'interprétation, ou encore le maintien de normes destinées à un grand nombre de personnes extérieures à cet organisme. On voit parfois le sigle anglais '''SDO''' pour ''Standard Development Organisation''.
+
+La plupart des organismes de normalisation ont été fondés comme des organismes ayant pour unique but les objectifs cités précédemment. Toutefois, il existe quelques exemples remarquables d'organisations qui sont devenus involontairement des organismes étant à l'origine de certaines normes. Cette situation se produit le plus souvent lorsqu'une norme établie à la base par un organisme pour son fonctionnement interne est employée au fur et à mesure par un nombre important d'entités extérieures et devient alors le standard de fait dans la branche de l'industrie en question. Quelques exemples en sont le fabricant Apple ou encore le protocole PCL utilisé par Hewlett-Packard pour leurs imprimantes.
+
+== Organismes internationaux ==
+{| class="wikitable gauche"
+! Forme courte
+! Forme longue
+! Secteur
+! Site web
+|-
+| Accellera
+| Accellera Organization
+|
+| http://www.accellera.org/
+|-----
+| ASTM International
+|
+|
+| http://www.astm.org/
+|-
+| AUTOSAR
+|  Automotive technology 
+| Architecture logicielle de l'automobile
+| http://www.autosar.org/
+|-----
+| BIPM
+* CGPM
+* CIPM
+|  Bureau international des poids et mesures
+* Conférence générale des poids et mesures
+* Comité international des poids et mesures
+|
+| http://www.bipm.org/en/si/
+*
+*
+|-
+| CableLabs 
+|  Cable Television Laboratories
+|
+| http://www.cablelabs.org/
+|-----
+| CEI 
+|  Commission électrotechnique internationale
+| Electrotechnique
+| http://www.iec.ch/
+|-----
+| CISPR
+|  Comité international spécial des perturbations radioélectriques
+|
+|
+|-
+| Ecma International 
+|  Ecma International (previously called ECMA)
+|
+|
+|-----
+| FAI 
+|  Fédération aéronautique internationale
+|
+| http://www.fai.org
+|-
+| GGF 
+|  Global Grid Forum
+|
+|
+|-----
+| GS1
+| 
+|
+| http://www.gs1.org/
+|-
+| IBTA 
+|  Infiniband Trade Association
+|
+|
+|-
+| IEEE 
+|  Institute of Electrical and Electronics Engineers 
+| Technologies de l'information
+| http://www.ieee.org/
+|-----
+| IETF 
+|  Internet Engineering Task Force 
+| Technologies de l'information
+| http://www.ietf.org/
+|-
+| ISO
+|  Organisation internationale de normalisation
+|
+| http://www.iso.org/
+|-
+|-----
+| UICPA 
+|  Union internationale de chimie pure et appliquée
+|
+| http://www.iupac.org/
+|-
+| Liberty Alliance 
+|  Liberty Alliance 
+|
+| http://www.projectliberty.org/
+|-----
+| N3P 
+|  Neutral Third Party 
+|
+| http://www.n3p.org/
+|-
+| OASIS 
+|  Organization for the Advancement of Structured Information Standards 
+| Technologies de l'information
+| http://www.oasis-open.org/
+|-----
+| OMG
+|  Object Management Group
+| Technologies de l'information
+|
+|-
+| UIT 
+*UIT-R
+*UIT-T
+*UIT-D
+|  Union internationale des télécommunications
+* <small>(CCIR) Comité Consultatif International des radiocommunications</small>
+* <small>(CCITT) Comité Consultatif International Téléphonique et Télégraphique</small>
+* <small>(BDT) Bureau de Développement des Télécommunications</small>
+| Télécommunications
+* Radiocommunications 
+* Télécommunications 
+* Développement des télécommunications
+| http://www.uit.int/
+* 
+*
+*
+|-----
+| SI 
+|  Système International d'Unités<br />
+<small>Il s'agit en fait d'une norme plutôt que d'un organisme de normalisation Voir BIPM ci-dessus (l'ISO et d'autres organisations de normalisations sont aussi impliqués dans le maintien de cette norme).</small>
+|
+| http://www.bipm.org/en/si/
+|-
+| WMO 
+|  World Meteorological Organization
+|
+|
+|-----
+| W3C 
+|  World Wide Web Consortium 
+| Technologies de l'information
+| http://www.w3.org/
+|-
+| Media Grid 
+|  Media Grid Standards Organization 
+|
+| http://mediagrid.org/
+|}
+
+=== Européens ===
+Au sein de l'Europe communautaire, chaque pays a son institut de normalisation national, généralement privé, sans but lucratif, et en relation avec les pouvoirs publics.
+
+Ces organismes 'officiels' sont membres d'une organisation commune, le Comité européen de normalisation (CEN), organisme privé de droit belge qui a son siège à Bruxelles.
+
+La filière électrique dispose d'une organisation autonome le CENELEC, également composée d'instituts nationaux.
+
+La filière télécommunications dispose d'une organisation autonome l'ETSI dont sont membres sont directement les industriels, les opérateurs et les régulateurs intervenant en Europe.
+
+Ces 3 organismes sont reconnus par la Commission Européenne(directive 98/34).
+ 
+Au plan international, ces instituts sont également membres de l'Organisation internationale de normalisation (ISO), organisme privé de droit suisse. Le Comité européen de normalisation sans être membre de l'ISO entretient d'étroites relations avec lui, permettant notamment des procédures d'adoption parallèles du même document.
+
+Normalisation :
+* Comité européen de normalisation (CEN)
+* Comité européen de normalisation électrotechnique (CENELEC)

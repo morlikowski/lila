@@ -1,0 +1,35 @@
+'''Zend Technologies''' Ltd. to firma software'owa specjalizująca się w oprogramowaniu USA). Firma posiada także biura w Niemczech, Francji oraz Japonii firmę reprezentuje Zend Open Source Systems Japan, którego właścicielem jest Turbolinux.
+
+== Historia ==
+Początki firmy sięgają roku 1997, gdy dwaj absolwenci izraelskiego uniwersytetu Techunion: Zeev Suraski oraz Andi Gutmans, zainteresowali się projektem open-source'owego języka skryptowego PHP. Bazując na istniejącej już społeczności jego użytkowników, przepisali jego kod źródłowy od nowa tak, aby mógł on sprostać bardziej rozbudowanym projektom. W 1999 roku zaprezentowali nowy silnik dla interpretera języka, zwany Zend Engine. W tym samym roku założyli także '''Zend Technologies''', którego głównym zadaniem był dalszy rozwój PHP, jego promocja oraz stworzenie nowoczesnego wsparcia i narzędzi developerskich dla niego.
+
+Nazwa '''Zend''' to portmanteau utworzone z imion założycieli firmy: '''Ze'''ev, A'''nd'''i.
+
+== Produkty ==
+Produkty firmy:
+* PHP (open-source)
+* Zend Engine (open-source)
+* Zend Platform
+* Zend Studio
+* Zend Core
+* Zend Guard
+* Zend Encoder
+* Zend Optimizer (bezpłatny)
+* Zend for i5/OS
+
+'''Zend Technologies''' Ltd. is a U.S. and has offices in thumb|The company's logo
+
+Zend is best known for its founders Andi Gutmans and Zeev Suraski who, along with other Israeli graduates of the Technion and Rasmus Lerdorf, created PHP. The company's operations are currently centered on the development of products relating to the development, deployment and management of business critical PHP based web applications, including Zend Studio.  In 1997, Zeev and Andi rewrote the parser behind Rasmus Lerdorf's PHP-FI. The result was released as PHP 3.   In 1998 they redesigned that parser completely, and named it the Zend Engine. PHP 4 was based on the first version of the Zend Engine and was extremely successful.
+
+The name "Zend" is a portmanteau of the names of its founders, Zeev Suraski and Andi Gutmans.
+
+==Zend Certification Test==
+
+Zend also provides a PHP Certification Test and certifies people succeeding on the exam as Zend Certified Engineers (ZCE). To help Zend Certified Engineers gain employment, Zend lists all the persons who have passed the Zend PHP Certification Exam in its directory, Yellow Pages for PHP Professionals. Also, they allow ZCEs to place a ZCE logo on their personal web site/resume.
+
+==Products==
+===Zend Platform===
+Zend Platform is a product that runs on a web server, monitoring PHP applications and reports on performance and possible problems. It also offers a PHP accelerator (often confused with the free Zend Optimizer), a content caching solution including an API for partial page caching, session clustering and numerous management tools. Zend Platform can be used in conjunction with Zend Studio to do remote debugging and profiling of PHP applications in their native server environment.
+
+===Zend Studio===
+Zend Studio is a commercial, proprietary integrated development environment (IDE) for PHP.

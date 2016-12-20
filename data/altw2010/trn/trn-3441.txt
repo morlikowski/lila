@@ -1,0 +1,58 @@
+'''Patch-clamp''' (метод локальної фіксації потенціалу клітинної мембрани)&nbsp;— один з методів електрофізіології, що дозволяє ізолювати фрагмент клітинної мембрани з наявними в ньому англійського ''patch''&nbsp;— латка, та ''clamp''&nbsp;— тут: захоплення, фіксація.
+
+Гігантська аналітична потужність цього методу полягає в тому, що він дозволяє спостерігати за поведінкою і хімічними перетвореннями окремих молекул. Різні модифікації методу дозволяють в експерименті змінювати різноманітні&nbsp;— а в сумі практично всі, що цікавлять&nbsp;— фактори, які здатні впливати на поведінку іонних каналів.
+
+== Історія впровадження ==
+В скляною піпеткою з діаметром 1-2 мікрони доторкнутися до клітинної мембрани, то між ними утворюється контакт з опором в декілька гігасрібний електрод, інший електрод занурити в розчин, який омиває клітину, а між ними поставити обладнання, яке буде задавати певну різницю потенціалів між електродами та вимірювати струм, який для цього необхідний, то ми отримаємо patch-clamp установку.
+
+== Мета ==
+left|thumb|400px|Рисунок 1. Монітори візуального контролю установки patch-clamp.
+Головною метою методу є дослідження трансмембранних іонних потоків (струмів). Живі клітини оточені мембраною, структурну основу якої складає подвійний шар ліпідів, слабо проникний для води і практично непроникний для іонів невеликого білки&nbsp;— канали та транспортери.
+
+'''Транспортери'''&nbsp;— це білки, які утворюють з речовинами, що переносяться, комплекс з одного боку мембрани; після чого міняють конформацію так, що речовина, яка транспортується, опиняється по іншу сторону мембрани, і там її звільняють. Зазначимо, що найважливіший транспортер в клітинах еукаріот&nbsp;— це натрієво-калієва помпа, яка активно переносить за цикл своєї роботи 3 іони Na<sup>+</sup> з клітини та 2 іони K<sup>+</sup> в клітину, використовуючи енергію секунду.
+
+'''Канали'''&nbsp;— це білки, які формують пори в мембрані. Однак радіус і розподіл заряджених функціональних груп в цих порах такі, що вони селективні, тобто проникні тільки для певних іонів. Зокрема, розрізняють натрієві, калієві, кальцієві, а також хлорні канали. Насправді, для кожного з цих іонів існує багато різноманітних різновидів каналів (докладніше див. в статті «Рецептор»). Через одиночний канал за секунду проходить в типовому випадку 10<sup>6</sup>&nbsp;— 10<sup>7</sup> іонів.
+
+Далі, за наявності такого каналу і потоку іонів крізь нього, буде переноситися і заряд&nbsp;— тобто виникати електричний струм, який можна вимірювати. Провідність одиночного каналу у відкритому стані коливається, в залежності від типу каналу, від 1-2 до 30-50 пікосименсів, тому при різниці потенціалів в 100 мВ спостерігається струм в декілька пікоамперів.
+
+== Робота з методом та його варіанти ==
+thumb|400px|Рисунок 2. Принципова схема patch-clamp в сell-attached mode.
+
+=== Cell-attached mode ===
+На рисунку 1 зображена частина установки для patch-clamp. Величезна сфера, частину якої видно на моніторі в центрі фотографії&nbsp;— це клітина (ооцит жаби ''Xenopus laevis''), що знаходиться на даний момент на предметному столику мікроскопа, до неї підведена patch-піпетка, діаметр якої біля носика складає близько 3 мікрони. Після встановлення gigaseal вона ізолює фрагмент мембрани діаметром близько 3 мкм<sup>2</sup>, і, якщо в цьому фрагменті трапляться іонні канали, то їхній струм можна буде записувати. Щойно описана конфігурація називається cell-attached patch-clamp. Вона ілюструється схемою, що зображена на рисунку 2.
+
+Але цій конфігурації притаманні дві незручності.
+
+По-перше, вона не дозволяє з достатньою надійністю вимірювати (а тим більше&nbsp;— задавати) трансмембранну різницю потенціалів, оскільки обидва електроди, як піпетковий, так і зовнішній, знаходяться з одного боку мембрани. Хоча можливо, використавши омиваючий розчин з іонною композицією, який відтворює склад цитоплазми, деполяризувати мемрану поза піпеткою так, що різниця потенціалів між зовнішнім електродом і цитоплазмою зникне. Тоді різниця потенціалів між електродами виявиться рівною трансмембранному потенціалу, однак це досить приблизно, оскільки точний склад цитоплазми є невідомим. По-друге, ця конфігурація не дозволяє міняти склад середовища поза піпеткою.
+Через це cell-attached mode застосовується доволі обмежено.
+
+=== Inside-out mode ===
+left|thumb|400px|Рисунок 3. Принципова схема patch-clamp в inside-out mode.
+Однак, якщо піпетку швидким рухом відірвати від клітини, то, якщо пощастить, «внутрішній» шматок мембрани відрветься від клітини і утвориться конфігурація inside-out (через те, що внутрішня, зазвичай обернена до цитоплазми, сторона мембрани опиниться ззовні, в омиваючому розчині; а зовнішня&nbsp;— всередині піпетки (зображення на рисунку 3).
+
+Альтернативнй метод переходу в inside-out конфігурацію полягає в наступному: з конфігурації cell-attached піпетку відводять плавно, формуючи з двох сторін закриту везикулу; потім піднімають піпетку в повітря і опускають в іншу ванночку з внутрішньоклітинним розчином. При переносі зовнішня мембрана везикули руйнується, в результаті утворюється конфігурація inside-out.
+
+Die '''Patch-Clamp-Technik''', eine Methode der Elektrophysiologie, wurde 1976 von Erwin Neher und Bert Sakmann entwickelt. Für diese Arbeit erhielten sie 1991 den Nobelpreis für Physiologie oder Medizin.<ref></ref> Die Erforschung der Ionenströme und anderer elektrischer Phänomene an Zellmembranen wurde durch diese Technik revolutioniert.
+Die Patch-Clamp-Technik wird in verschiedenen '''Konfigurationen''' angewendet.
+
+thumb|300px|Schematische Darstellung der Patch-Clamp-Anordnung. 
+
+==Grundlagen des Verfahrens==
+Als Elektrode dient eine dünn ausgezogene und mit einer leitfähigen Lösung gefüllte Glaskapillare. In diese taucht ein mit Silberdraht ein und wird zusammen mit einer weiteren, in der Badlösung liegenden, Silberdrahtelektrode an den Patch-Clamp-Verstärker angeschlossen. Diese ''Patch-Clamp-Pipette'' (Durchmesser an der Spitze ca. 1&nbsp;µm) wird vorsichtig auf eine intakte Zelle gedrückt. Unterhalb der Pipette, innerhalb des Durchmessers der Spitze, befindet sich ein Stück Membran&nbsp;– der Patch oder Membranfleck (engl. ''patch''&nbsp;– Fleck). Anschließend wird durch leichten ohm, der sogenannte "''Gigaseal''" (engl. ''to seal''&nbsp;– versiegeln).
+Mit der Herstellung des Gigaseals ist die sogenannte '''''Cell-Attached''-Konfiguration''' der Patch-Clamp-Technik erreicht (engl. ''to attach''&nbsp;– anheften, befestigen an, festmachen an). Durch den hohen Widerstand des Gigaseals muss ein Strom, der durch einen Ionenkanal innerhalb des Patches fließt, auch durch den Pipetteninhalt fließen. In die Pipettenlösung taucht eine Elektrode, die an einen empfindlichen Verstärker angeschlossen ist. Dadurch ist es möglich, die Aktivität eines einzelnen Ionenkanals in der Membran des Patches zu messen. Sowohl die Zellmembran, deren Bestandteil der Patch ist, als auch das Innere der Zelle bleiben in dieser Konfiguration intakt. 
+
+Durch weiteres Anlegen von Unterdruck am Ende der Pipette oder kurze Pulse elektrischer Spannung an der Elektrode in der Pipette kann der Patch geöffnet werden, während der Gigaseal intakt bleibt. Zwischen dem Inneren der Pipette und dem Inneren der Zelle besteht nun eine Kontinuität, während beide gegen die Außenlösung durch den hohen Widerstand des Gigaseals isoliert sind. Diese Konfiguration der Patch-Clamp-Technik wird als '''''Whole-Cell''-Konfiguration''' bezeichnet (engl. ''whole cell''&nbsp;– ganze Zelle). In dieser Konfiguration wird von der gesamten Zellmembran abgeleitet. Da die Pipettenlösung das Innere der Zelle füllt, muss sie in ihrer Zusammensetzung dem Cytosol ähnlich sein. Gleichzeitig bietet diese Konfiguration die Möglichkeit, über die Pipettenlösung die Zelle von innen her zu manipulieren. 
+
+Wenn nach Erreichen der ''Cell-Attached''-Konfiguration der Patch nicht geöffnet wird, sondern die Pipette sanft von der Zelle abgezogen wird, löst sich der unter der Pipettenspitze befindliche Teil der Membran von der Zelle und verbleibt an der Pipette. Dabei weist die vormals innere Seite dieses Membranstücks nun nach außen in die Badlösung, während die vormals äußere Seite des Membranstücks sich im Inneren der Pipette befindet. Das ist die sogenannte '''''Inside-Out''-Konfiguration'''. Ähnlich wie die ''Cell-Attached''-Konfiguration ermöglicht sie die Messung einzelner Ionenkanäle im Membranstück an der Pipettenspitze. Im Unterschied zu dieser jedoch kann in der ''Inside-Out''-Konfiguration das Milieu an der Innenseite der Membran manipuliert werden. Füllt man die Pipette mit einer Lösung, die das extrazelluläre Milieu simuliert, kann man das Verhalten der Ionenkanäle in Abhängigkeit von der Zusammensetzung des Cytosols untersuchen. Zusätzlich gibt es die Möglichkeit der Untersuchung von Einzelionenkanälen mit Hilfe der '''''Outside-Out''-Konfiguration'''. Dabei  wölbt sich das ''patch'' aus der Pipettenöffnung heraus und die äußere Membranseite befindet sich nun in der Badlösung. In diesem Fall kann das Milieu des extrazellulären Raumes moduliert werden, während das cytosolische Milieu erhalten bleibt.
+
+Es ist mit diesem Verfahren sogar möglich, die Funktion von Zellen in ihrer natürlichen 
+Umgebung im lebenden Organismus (''in vivo'') zu messen.
+
+==Planar patch clamp==
+thumb|Schematischer Aufbau eines klassischen Patch Clamp Experiments. Die Pipette wird mit Hilfe eines [[Mikromanipulators unter optischer Kontrolle auf eine adhärente Zelle positioniert. Relativbewegungen zwischen Zelle und Pipette müssen vermieden werden, um die Zell-Pipetten Verbindung intakt zu erhalten.]]
+thumb|Beim planaren Patchen wird die Zelle durch Unterdruck auf ein Loch positioniert - Relativbewegungen zwischen Zelle und Loch können ausgeschlossen werden. Ein schwingungsgedämpfter Tisch oder ein [[Mikroskop sind nicht nötig.]]
+Planares patch clamp ist eine neue Methode, die entwickelt wurde, um den wachsenden Bedarf an Patch-Clamp Messungen in der Pharmaforschung erfüllen zu können.<ref>Jan C. Behrends & Niels Fertig: ''Planar Patch Clamping.'' In: ''Neuromethods.'' Bd. 38, S. 411-433. [http://www.nanion.de/pdf/PlanarPatchClamping.pdf PDF]</ref><ref>http://www.deutscher-zukunftspreis.de/newsite/2007/kurzbeschreibung_01.shtml</ref>
+Anstatt eine Pipette auf eine adhärente Zelle zu positionieren, wird Zell-Suspension auf einen Chip pipettiert, in den eine mikrostrukturierte Apertur eingebracht wurde. 
+
+Rasterelektronenmikroskopische Aufnahme einer Patch Pipette
+Rasterelektronenmikroskopische Aufnahme eines Patch Clamp Chips. Sowohl die Pipette als auch der Chip sind aus [[Borosilikatglas]]

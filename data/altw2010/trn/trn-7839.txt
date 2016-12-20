@@ -1,0 +1,136 @@
+שמאל|ממוזער|210px|3,2-דיפוספוגליצרט
+'''2,&rlm;3-ביספוספוגליצרט''' או '''2,&rlm;3-דיפוספוגליצרט''' (בלועזית: '''2,3-Bisphosphoglycerate''' או '''2,3-Diphosphoglycerate''' ובקיצור '''2,3-BPG''' או '''2,3-DPG''') היא פחמנים הנמצאת בריכוז של כ-5 מילימול לליטר.
+
+בפעילותה משפיעה על זיקתו של ההמוגלובין לחמצן ומסייעת לשחרור החמצן בגוף.
+
+==רקע ותיאור==
+העברת החמצן בגוף נעשית באמצעות מולקולת ההמוגלובין היכולה להיקשר ולשחרר ארבע מולקולות חמצן. כאשר אל ההמוגלובין לא קשורים חמצנים הוא נקרא אתר הקישור שלה הוא הכיס ההידרופובי החיובי בדאוקסיהמוגלובין בעל חומצות האמינו ליזין (Lys) והיסטידין (His), וכך לכל מולקולת המוגלובין יכולה להיקשר מולקולה אחת בלבד של 2,3BPG.
+ 
+למולקולת ה2,3BPG השפעה אלוסטרית שלילית על ההמוגלובין, עם קשירתה היא מווסתת ומקטינה את זיקתו של ההמוגלובין לקשירת חמצן ויכולת שחרור החמצן מנגד, מוגברת. ה2,3BPG הכרחי לפעילות תקינה של המוגלובין ובלעדיו ההמוגלובין היה נמצא באופן מתמיד במצב קושר חמצן וחמצן לא היה משתחרר ממנו ומגיע לרקמות הגוף.
+
+==יצירת מולקולת 2,3DPG==
+מולקולה זו נוצרת ממולקולת 1,3DPG על ידי הסינטוז ושבירת המולקולה נעשים כחלק מתהליך הגליקוליזה. את תפקוד מולקולת ה2,3DPG מצאו ב-1967 רינהולד בנאש ורות בנאש.
+
+==השפעות הקשירה של 2,3DPG לחמצן==
+שמאל|ממוזער|250px|
+כאשר 2,3BPG נקשרת לדאוקסיהמוגלובין היא פועלת לייצוב המצב עם הזיקה הנמוכה לחמצן של ההמוגלובין, מצב T (ראו מודל KNF וMWC). על ידי ייצוב מצב ה-T קשה יותר להמוגלובין לקשור חמצנים ויהיה מצב מועדף לשחרורם ברקמות הגוף.
+
+המולקולה נכנסת לבקע שיש להמוגלובין במצב הדאוקסי שלו תוך ניצול הגשרי מלח עם חומצות האמינו ליזין והיסטידין.
+
+{{Chembox new
+|   ImageFile = 2,3-Bisphosphoglycerate.svg
+|   IUPACName = 2,3-Bisphosphoglycerate
+|   OtherNames = 2,3-diphosphoglycerate
+| Section1 = {{Chembox Identifiers
+|   Abbreviations = 2,3-BPG, 2,3-DPG, 23BPG
+|   CASNo = 138-81-8
+|   EINECS =
+|   PubChem = 61
+|   SMILES =
+|   InChI =
+|   RTECS =
+|   MeSHName =
+|   ChEBI =
+|   KEGG =
+|   ATCCode =
+  }}
+| Section2 = {{Chembox Properties
+|   Formula = C<sub>3</sub>H<sub>8</sub>O<sub>10</sub>P<sub>2</sub>
+|   MolarMass =  266.037
+|   Appearance =
+|   Density =
+|   MeltingPt =
+|   BoilingPt =
+|   Solubility =
+|   SolubleOther =
+|   Solvent =
+|   pKa =
+|   pKb =
+|   IsoelectricPt =
+|   SpecRotation =
+|   RefractIndex =
+|   Viscosity =
+  }}
+| Section3 = {{Chembox Structure
+|   Dipole =
+|   CrystalStruct =
+|   Coordination =
+|   MolShape =
+|   Dipole =
+  }}
+| Section4 = {{Chembox Thermochemistry
+|   DeltaHf =
+|   DeltaHc =
+|   Entropy =
+|   HeatCapacity =
+  }}
+| Section5 = {{Chembox Pharmacology
+|   Bioavail =
+|   Metabolism =
+|   HalfLife =
+|   Excretion =
+|   PregCat =
+|   AdminRoutes =
+  }}
+| Section6 = {{Chembox Explosive
+|   ShockSens =
+|   FrictionSens =
+|   ExplosiveV =
+|   REFactor =
+  }}
+| Section7 = {{Chembox Hazards
+|   ExternalMSDS =
+|   EUClass =
+|   MainHazards =
+|   NFPA-H =
+|   NFPA-F =
+|   NFPA-R =
+|   NFPA-O =
+|   RPhrases =
+|   SPhrases =
+|   RSPhrases =
+|   FlashPt =
+|   Autoignition =
+|   ExploLimits =
+|   PEL =
+  }}
+| Section8 = {{Chembox Related
+|   OtherAnions =
+|   OtherCations =
+|   OtherFunctn =
+|   Function =
+|   OtherCpds =
+  }}
+}}
+
+'''2,3-Bisphosphoglycerate''' (2,3-BPG, also known as 2,3-diphosphoglycerate or 2,3-DPG) is a three carbon isomer of the glycolytic intermediate 1,3-bisphosphoglycerate. 2,3-BPG is present in human red blood cells (RBC; erythrocyte) at approximately 5 mmol/L. It binds with greater affinity to deoxygenated hemoglobin (e.g. when the red cell is near respiring tissue) than it does to oxygenated hemoglobin (e.g. in the lungs). In bonding to partially deoxygenated hemoglobin it allosterically upregulates the release of the remaining oxygen molecules bound to the hemoglobin, thus enhancing the ability of RBCs to release oxygen near tissues that need it most. 
+
+Recently, scientists have found the similarities between low amounts of 2,3-BPG with the occurrence of HAPE at high altitudes.
+
+Its function was discovered in 1967 by Reinhold Benesch and Ruth Benesch.<ref name=Benesch1967>{{cite journal
+ | author = Benesch, R.
+ | coauthors = Benesch, R.E.
+ | year = 1967
+ | title = The effect of organic phosphates from the human erythrocyte on the allosteric properties of hemoglobin.
+ | journal = Biochem Biophys Res Commun
+ | volume = 26
+ | issue = 2
+ | pages = 162–7
+ | url = http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&list_uids=6030262&dopt=Citation 
+ | accessdate = 2007-11-01
+ | doi = 10.1016/0006-291X(67)90228-8
+}}</ref>
+
+==Metabolism==
+2,3-BPG is formed from 1,3-BPG by an enzyme called bisphosphoglycerate mutase. It is broken down by a phosphatase to form 3-phosphoglycerate. Its synthesis and breakdown are therefore a way around a step of glycolysis.
+
+                        glycolysis
+               1,3-BPG ------------> 3-PG
+                    \_               _^
+                      \_           _/
+               2,3-BGP  v         /  2,3-BPG
+                mutase     2,3-BPG   phosphatase
+
+==Effects of binding==
+[[Oxygen-haemoglobin dissociation curve|right|thumb|200px]]
+When 2,3-BPG binds deoxyhemoglobin, it acts to stabilize the low oxygen affinity state (T state) of the oxygen carrier. It fits neatly into the cavity of the deoxy- conformation, exploiting the molecular symmetry and positive polarity by forming salt bridges with lysine and histidine residues in the four subunits of hemoglobin. The R state, with oxygen bound to a heme group, has a different conformation and does not allow this interaction.

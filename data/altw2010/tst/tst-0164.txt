@@ -1,0 +1,75 @@
+<!--
+Ce portail utilise un modèle pour chaque section. Vous ne devez donc pas (sauf exeption) éditer cette page directement, mais le modèle concerné. Pour rajouter une case au portail, copiez/collez l'un des modèles "Composant", placez le où vous voulez le voir apparaître (en haut, cadre gauche ou droite, en bas) et modifiez les paramètres en fonction de vos besoins.
+-->__NOTOC__<!-- -->__NOEDITSECTION__<!-- Note : pas de sommaire (toc), pas de bouton "modifier" ajouté à chaque titre de section
+--><div><!--DÉBUT INTRODUCTION -->
+{| cellpadding="0" width=100% style="height:70px; border:1px solid #999999; background-color:#1e3d7d;" |
+|<center><imagemap> 
+Image:Europe Portal logo.svg|658px
+rect 0 0 0 0 null
+desc none 
+</imagemap></center>
+|}
+
+</div><div>
+<div style="width:100%;display:block;float:left;align:center;"><!--DÉBUT DU CADRE PRENANT TOUTE LA LARGEUR DE LA PAGE-->
+
+</div></div><!-- FIN CONTENU CENTRAL -->
+<div style="width:55%;display:block;float:left;align:left;"><!--DÉBUT DU CADRE GAUCHE -->
+
+</div>
+<div style="width:44%;display:block;float:right;align:right;"><!--DÉBUT DU CADRE DROITE-->
+
+</div></div><!-- FIN CONTENU CENTRAL -->
+<div style="width:100%;display:block;float:left;align:center;"><!--DÉBUT DU CADRE PRENANT TOUTE LA LARGEUR DE LA PAGE-->
+
+<div style="color: #ffb; background-color: #00b; font-size: xx-large; text-align: center">
+<span style="font-size: medium"></span> '''''Europe''''' <span style="font-size: medium"></span>
+</div>
+
+'''ウィキポータル ヨーロッパ'''へようこそ。ウィキポータル ヨーロッパはポータルです。
+
+関連ポータル: クラシック音楽 - 第三帝国 - フランス - イタリア - ドイツ
+<div style="font-size: smaller; text-align:center">| 主要項目 - 各種依頼 - 編集方法 - [|action=purge}} 更新が反映されない場合ここをクリック] |</div>
+
+<!-- ここから左側部分 -->
+{| cellspacing="1" width="100%" style="color: black; background-color: #fff;" class="plainlinks"
+|- valign="top"
+|width="53%" style="border: 1px solid #777; font-size: smaller; border-right-width: 0; padding: 0.5em;"|
+
+<h2 style="border: 0; padding: 0.5em 0 0.17em 1em; font-size: medium; color: #fff; background-color: #00b">お知らせ</h2><span style="background-color:#fff; text-align:left;"> 編集</span>
+
+<h2 style="border: 0; padding: 0.5em 0 0.17em 1em; font-size: medium; color: #fff; background-color: #00b">特集項目 - 歴史</h2><span style="background-color:#fff; text-align:left;"> 編集</span>
+
+<h2 style="border: 0; padding: 0.5em 0 0.17em 1em; font-size: medium; color: #fff; background-color: #00b">特集項目 - 地理</h2><span style="background-color:#fff; text-align:left;"> 編集</span>
+
+<h2 style="border: 0; padding: 0.5em 0 0.17em 1em; font-size: medium; color: #fff; background-color: #00b">特集項目 - 文化</h2><span style="background-color:#fff; text-align:left;"> 編集</span>
+
+<h2 style="border: 0; padding: 0.5em 0 0.17em 1em; font-size: medium; color: #fff; background-color: #00b">特集項目 - 経済</h2><span style="background-color:#fff; text-align:left;"> 編集</span>
+
+<h2 style="border-bottom: 4px solid #0b0; padding: 0.5em 0 0.17em 1em; font-size: medium; color: #fff; background-color: #665" id="maintoc">カテゴリ</h2>
+ヨーロッパ - 西欧 - 中東欧 - バルカン - バルト地方 - 北欧 - 南欧
+=== カテゴリ・ツリー ===
+<categorytree>ヨーロッパ</categorytree>
+
+<!-- ここから右側部分 -->
+|style="border: 1px solid #777; border-left-color: #ccb; padding: 0.5em; font-size: smaller; color: #000; background-color: #eed;"|
+
+<h2 style="border: 0; padding: 0.5em 0 0.17em 1em; font-size: medium; color: #fff; background-color: #00b;">特集項目 - 北ヨーロッパ</h2>
+'''20px オーランド諸島 -  - 
+<div style=" text-align:left;"> 編集</div>
+
+<h2 style="border: 0; padding: 0.5em 0 0.17em 1em; font-size: medium; color: #fff; background-color: #00b">特集項目 - 西ヨーロッパ</h2>
+'''20px 20px 20px マン島
+<div style=" text-align:left;"> 編集</div>
+
+<h2 style="border: 0; padding: 0.5em 0 0.17em 1em; font-size: medium; color: #fff; background-color: #00b">特集項目 - 中央ヨーロッパ</h2>
+'''中央ヨーロッパ'''の国と地域 : '''''' - '''''' - '''''' - '''''' - '''''' - '''''' - '''''' - '''''' - ''''''
+<div style=" text-align:left;"> 編集</div>
+
+<h2 style="border: 0; padding: 0.5em 0 0.17em 1em; font-size: medium; color: #fff; background-color: #00b">特集項目 - 南ヨーロッパ</h2>
+'''20px 北キプロス - 20px ジブラルタル
+<div style=" text-align:left;"> 編集</div>
+
+<h2 style="border: 0; padding: 0.5em 0 0.17em 1em; font-size: medium; color: #fff; background-color: #00b">特集項目 - 東ヨーロッパ</h2>
+'''20px border|20px|コソボ 20px トランスニストリア - 20px 20px 南オセチア
+<div style=" text-align:left;"> 編集</div>

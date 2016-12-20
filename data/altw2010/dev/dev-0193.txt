@@ -1,0 +1,87 @@
+{{Infobox Weapon
+|name=PP-90
+|image=
+|caption=
+|origin=
+|type=Submachine gun
+<!-- Type selection -->
+|is_ranged=yes
+<!-- Service history -->
+|service=
+|used_by=Russia
+<!-- Production history -->
+|designer=KBP Instrument Design Bureau
+|design_date=1990s
+|manufacturer=KBP Instrument Design Bureau
+|production_date=
+|number= 
+|variants=PP-90M, PP-92
+<!-- General specifications -->
+|weight= (empty)<br/>  (loaded)
+|length= (combat ready, stock unfolded)
+|part_length=
+<!-- Ranged weapon specifications --> 
+|cartridge=9x18mm Makarov
+|caliber=
+|action=Blowback
+|rate=600-700 rounds/min
+|velocity=Approx. 
+|range=100 m
+|max_range= 
+|feed=30-round detachable box magazine
+|sights=Rear notch, post front sight
+}}
+
+The '''PP-90''' is a Russian 9 mm Tula for use with special units of the close quarters combat, particularly engagements that require the weapon deployed rapidly in unusual circumstances.<ref name="woźniak">Woźniak, Ryszard. Encyklopedia najnowszej broni palnej - tom 3 M-P. Bellona. 2001. pp271.</ref>
+
+==Design details==
+The PP-90 submachine gun (short for ''Pistolet-Pulemet model 1990'', Russian: ''ПП-90'' - ''Пистолет-пулемет'') is an automatic-only weapon that uses the straight blowback method of operation, chambered for the 9 mm FMG submachine gun made by the American company Ares.<ref name="woźniak">Woźniak, Ryszard. Encyklopedia najnowszej broni palnej - tom 3 M-P. Bellona. 2001. pp271.</ref>
+
+The PP-90 can be divided into the following groups: the receiver housing (containing the barrel, bolt, return mechanism and safety and fire selector), pistol grip with magazine well and the stock. When carried in the stowed position (the bolt is in its forward position) the pistol grip and magazine are folded under the barrel parallel to the bore axis and covered by the folded stock. The folded weapon resembles a cuboid with the following dimensions - 270x90x32 mm, devoid of any protruding elements, enabling easy concealment. To ready the weapon for firing the stock is pivoted out (simultaneously the pistol grip with magazine, trigger and trigger guard deploy), the safety is disengaged and the bolt cocked. The bolt’s cocking handle is installed at the rear of the receiver and is accessed from beneath the stock.
+
+During the design phase, emphasis was placed on safety when operating the weapon. It is impossible to discharge the firearm in its folded position or when the stock is not fully deployed.<ref name="woźniak">Woźniak, Ryszard. Encyklopedia najnowszej broni palnej - tom 3 M-P. Bellona. 2001. pp271.</ref> The PP-90 also has a manual safety and fire selector. The safety toggle, placed on the left side of the receiver housing, has two settings: the top “P” position – weapon safe and bottom “O” setting – automatic fire. The "safe" setting ensures the bolt catch is disabled mechanically. The weapon’s internal safety mechanism features a drop safety that prevents the weapon from firing when dropped with a loaded chamber.<ref name="woźniak">Woźniak, Ryszard. Encyklopedia najnowszej broni palnej - tom 3 M-P. Bellona. 2001. pp271.</ref>
+
+The submachine gun is fed from a detachable 30-round box magazine, placed in a well inside the pistol grip. The magazine catch is located inside the heel of the pistol grip.
+
+For aimed firing the PP-90 uses flip-up iron sights (notch and front post), which when stowed lie flush with the receiver housing’s top cover. The barrel can also accept a sound suppressor.<ref name="woźniak">Woźniak, Ryszard. Encyklopedia najnowszej broni palnej - tom 3 M-P. Bellona. 2001. pp271.</ref>
+
+{{Broń palna infobox|
+nazwa                     = PP-90|
+grafika                   = |
+opis                      = |<!-- opis grafiki -->
+kraj                      = Federacja Rosyjska|
+producent                 = KBP Tuła|
+rodzaj                    = pistolet maszynowy|<!-- np. {rewolwer/pistolet/karabin} -->
+obsługa                   = |<!-- tylko bronie zespołowe -->
+prototypy                 = lata 90. XX wieku|<!-- lata w których trwały prace projektowe -->
+produkcja_seryjna         = |<!-- lata produkcji -->
+wyprodukowano             = |<!-- ilość wyprodukowanych egzemplarzy -->
+kaliber                   = 9 mm|
+nabój                     = 9 x 18 mm Makarowa|
+magazynek                 = 30 nab.|<!-- rodzaj i pojemność magazynka -->
+taśma                     = |<!-- rodzaj i pojemność taśmy -->
+długość                   = 490 mm|<!-- jeśli znana -->
+wysokość                  = |<!-- jeśli znana -->
+szerokość                 = |<!-- jeśli znana -->
+długość_lufy              = |
+dł_linii_cel              = |<!-- tylko bronie bez celowników optycznych -->
+masabroń                  = 1,96 kg (niezaładowany)<br>2,26 kg (z pełnym magazynkiem)|<!-- masa broni -->
+masa_kb_właściwego        = |<!-- tylko ckm, wkm, ukm i broń pokładowa -->
+masa_podstawy             = |<!-- tylko ckm, wkm, ukm -->
+masa_lufy                 = |<!-- jeśli znana -->
+masa_wyp_dod              = |<!-- masa wyposażenia dodatkowego -->
+Vo                        = 320 m/s|
+Eo                        = |
+szybk_teoret              = 700 strz/min|<!-- tylko bronie samoczynne -->
+szybk_prakt               = |<!-- jeśli znana -->
+zasięg_max                = |
+zasięg_skuteczny          = |
+przeb_panc                = |<!-- tylko bronie przeciwpancerne -->
+siła_spustu               = |
+}}
+
+'''PP-90 (ПП-90)''' - rosyjski pistolet maszynowy wzorowany na amerykańskim składanym pm Ares FMG.
+
+PP-90 został opracowany jako broń przeznaczona do skrytego przenoszenia. Po złożeniu ma kształt prostopadłościanu o wymiarach 270 x 90 x 32 mm. Rozłożenie broni i dołączenie magazynka zajmuje 3 - 4 s. PP-90 działa na typowej dla pistoletów maszynowych zasadzie odrzutu zamka swobodnego, strzela wyłącznie seriami. 
+
+Na początku lat 90. wyprodukowano krótką serię PP-90. Z powodu słabej ergonomii i niskiej jakości wykończenia (broń była produkowana przez instytut badawczy KBP Tuła) PP-90 szybko został wycofany z uzbrojenia.

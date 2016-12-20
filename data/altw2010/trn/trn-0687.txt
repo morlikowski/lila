@@ -1,0 +1,26 @@
+thumb|300px|[[Plate notation representing the PLSA model.  <math>\theta</math> is the document variable (<math>d</math> in the text),  <math>z</math> is a topic (<math>c</math> in the text) drawn from the topic distribution for this document, <math>P(z|\theta)</math>, and <math>w</math> is a word drawn from the word distribution for this topic, <math>P(w|z)</math> .  The <math>d</math> and <math>w</math> are observable variables, the topic <math>z</math> is a latent variable.]]
+
+'''Probabilistic latent semantic analysis (PLSA)''', also known as '''probabilistic latent semantic indexing''' ('''PLSI''', especially in information retrieval circles) is a filtering, SIGIR Conference on Research and Development in Information Retrieval (SIGIR-99), 1999</ref> and it is related to non-negative matrix factorization.
+
+Compared to standard latent semantic analysis which stems from linear algebra and downsizes the  occurrence tables (usually via a singular value decomposition), probabilistic latent semantic analysis is based on a mixture decomposition derived from a latent class model. This results in a more principled approach which has a solid foundation in statistics.
+
+Considering observations in the form of co-occurrences <math>(w,d)</math> of words and documents, PLSA models the probability of each co-occurrence as a mixture of conditionally independent multinomial distributions:
+
+: <math>P(w,d) = \sum_c P(c) P(d|c) P(w|c) = P(d) \sum_c P(c|d) P(w|c)</math>
+
+The first formulation is the ''symmetric'' formulation, where <math>w</math> and <math>d</math> are both generated from the latent class <math>c</math> in similar ways (using the conditional probabilities <math>P(d|c)</math> and <math>P(w|c)</math>), whereas the second formulation is the ''asymmetric'' formulation, where, for each document <math>d</math>, a latent class is chosen conditionally to the document according to <math>P(c|d)</math>, and a word is then generated from that class according to <math>P(w|c)</math>.  Although we have used words and documents in this example, the co-occurrence of any couple of discrete variables may be modelled in exactly the same way.
+
+It is reported that the aspect model used in the probabilistic latent semantic analysis has severe overfitting problems<ref> </ref>. The number of parameters grows linearly with the number of documents.  In addition, although PLSA is a generative model of the documents in the collection it is estimated on, it is not a generative model of new documents.
+
+PLSA may be used in a discriminative setting, via Fisher kernels.<ref>Thomas Hofmann, [http://www.cs.brown.edu/people/th/papers/Hofmann-NIPS99.ps ''Learning the Similarity of Documents : an information-geometric approach to document retrieval and categorization''], Advances in Neural Information Processing Systems 12, pp-914-920, MIT Press, 2000</ref>
+
+L’'''analyse sémantique latente probabiliste''' ou '''PLSA''' (de l'anglais : ''Probabilistic latent semantic analysis'') &mdash; aussi appelée '''indexation sémantique latente probabiliste''' ou '''PLSI''', est une méthode de traitement automatique des langues inspirée de l'analyse sémantique latente.
+
+Elle améliore cette dernière en incluant un modèle statistique particulier. La PLSA possède des applications dans le filtrage et la recherche d'information, le traitement des langues naturelles, l'apprentissage automatique et les domaines associés.
+
+Elle fut introduite en SIGIR Conference on Research and Development in Information Retrieval (SIGIR-99), 1999</ref><ref> Thomas Hofmann, [http://www.cs.brown.edu/people/th/papers/Hofmann-NIPS99.ps « ''Learning the Similarity of Documents : an information-geometric approach to document retrieval and categorization'' »], Advances in Neural Information Processing Systems 12, pp-914-920, MIT Press, 2000</ref>, et possède des liens avec la factorisation de matrices positives.
+
+Comparée à l'analyse sémantique latente simple, qui découle de l'algèbre linéaire pour réduire les matrices des occurrences (au moyen d'une décomposition en valeurs singulières), l'approche probabiliste emploie un mélange de décompositions issues de l'analyse des classes latentes. On obtient ainsi une approche plus souple, fondée sur les statistiques.
+
+Il a été montré que l'analyse sémantique latente probabiliste souffre parfois de surapprentissage<ref> </ref>, le nombre de paramètres croissant linéairement avec celui des documents.
+Bien que PLSA soit un modèle génératif des documents de la collection, elle modélise effectivement directement la densité jointe <math>P(mot,document)</math>, elle ne permet pas de générer de nouveaux documents, et en ce sens n'est pas un « vrai » modèle génératif <ref> ''[http://www.springerlink.com/content/g712172841664640/ Test Data Likelihood for PLSA Models]'', Thorsten Brants, 2005</ref>. Cette limitation est levée par l'Allocation de Dirichlet latente (LDA).

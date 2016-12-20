@@ -1,0 +1,108 @@
+The '''overlap-add method (OA, OLA)''' is an efficient way to evaluate the discrete convolution between a very long signal <math>x[n]</math> with a finite impulse response (FIR) filter <math>h[n]</math>''':'''
+
+:<math>
+\begin{align}
+y[n] = x[n] * h[n] \ \stackrel{\mathrm{def}}{=} \ \sum_{m=-\infty}^{\infty} h[m] \cdot x[n-m]
+= \sum_{m=1}^{M} h[m] \cdot x[n-m],
+\end{align}</math>
+
+where h[m]=0 for m outside the region [1, M].
+
+The concept is to divide the problem into multiple convolutions of h[n] with short segments
+of <math>x[n]</math>''':'''
+
+:<math>x_k[n]  \ \stackrel{\mathrm{def}}{=} 
+\begin{cases}
+x[n+kL] & n=1,2,\ldots,L\\
+0 & \textrm{otherwise},
+\end{cases}
+</math>
+
+where L is an arbitrary segment length.  Then''':'''
+
+:<math>x[n] = \sum_{k} x_k[n-kL],\,</math>
+
+and y[n] can be written as a sum of short convolutions''':'''
+
+:<math>
+\begin{align}
+y[n] = \left(\sum_{k} x_k[n-kL]\right) * h[n] &= \sum_{k} \left(x_k[n-kL]* h[n]\right)\\
+&= \sum_{k} y_k[n-kL],
+\end{align}
+</math>
+
+where &nbsp;<math>y_k[n] \ \stackrel{\mathrm{def}}{=} \ x_k[n]*h[n]\,</math>&nbsp; is zero outside the region [1,L+M-1]. &nbsp;And for any parameter &nbsp;<math>N\ge L+M-1,\,</math>&nbsp; it is equivalent to the <math>N\,</math>-point <u>circular</u> convolution of <math>x_k[n]\,</math> with <math>h[n]\,</math>&nbsp; in the region [1,N].
+
+The advantage is that the circular convolution can be computed very efficiently as follows, according to the circular convolution theorem''':'''
+
+}}
+
+where FFT and IFFT refer to the fast Fourier transform and inverse
+fast Fourier transform, respectively, evaluated over <math>N</math> discrete
+points.
+
+== The algorithm ==
+
+frame|none|Figure 1: Overlap-add Method.
+
+Fig. 1 sketches the idea of the overlap-add method. The
+signal <math>x[n]</math> is first partitioned into non-overlapping sequences,
+then the discrete Fourier transforms of the sequences <math>y_k[n]</math>
+are evaluated by multiplying the FFT of <math>x_k[n]</math> with the FFT of
+<math>h[n]</math>. After recovering of <math>y_k[n]</math> by inverse FFT, the resulting
+output signal is reconstructed by overlapping and adding the <math>y_k[n]</math>
+as shown in the figure. The overlap arises from the fact that a linear
+convolution is always longer than the original sequences. Note that
+<math>L</math> should be chosen to have <math>N</math> a power of 2 which makes
+the FFT computation efficient. A pseudocode of the algorithm is the
+following:
+
+    '''Algorithm 1''' (''OA for linear convolution'')
+    Evaluate the best value of N and L
+    H = FFT(h,N)       <font color=green>(''zero-padded FFT'')</font>
+    i = 1
+    '''while''' i <= Nx
+        il = min(i+L-1,Nx)
+        yt = IFFT( FFT(x(i:il),N) * H, N)
+        k  = min(i+N-1,Nx)
+        y(i:k) = y(i:k) + yt    <font color=green>(''add the overlapped output blocks'')</font>
+        i = i+L
+    '''end'''
+
+'''重疊-相加之摺積法''' ( ''Overlap-add method'' ) 是一種FIR 濾波器 ''h''[''n''] 的離散摺積。
+
+:<math>
+\begin{align}
+y[n] = x[n] * h[n] \ \stackrel{\mathrm{def}}{=} \ \sum_{m=-\infty}^{\infty} h[m] \cdot x[n-m]
+= \sum_{m=1}^{M} h[m] \cdot x[n-m]
+\end{align}</math>
+
+其中 ''h''[''m''] 在 [1, ''M''] 之外為零。
+
+==算法==
+
+概念上，這個做法是選用一個較短的適當長度 ''L'' 來切割 ''x''[''n''] ，計算 ''x''[''n''] 的子數列濾波後的結果 ''y''<sub>''k''</sub>[''n''] ，然後連接起來成為 ''y''[''n''] 。並考慮到一個長度 <math>L</math> 和長度 <math>M</math> 的有限長度離散信號，做摺積之後會成為長度 <math>L+M-1</math> 的信號。
+
+:<math>x_k[n]  \ \stackrel{\mathrm{def}}{=} 
+\begin{cases}
+x[n+kL] & n=1,2,\ldots,L\\
+0 & \textrm{otherwise}
+\end{cases}
+</math>
+
+則
+
+:<math>x[n] = \sum_{k} x_k[n-kL]\,</math>
+
+而因為摺積是線性非時變運算，所以 ''y''[''n''] 可被表示為
+
+:<math>
+\begin{align}
+y[n] = \left(\sum_{k} x_k[n-kL]\right) * h[n] &= \sum_{k} \left(x_k[n-kL]* h[n]\right)\\
+&= \sum_{k} y_k[n-kL]
+\end{align}
+</math>
+
+其中 &nbsp;<math>y_k[n] \ \stackrel{\mathrm{def}}{=} \ x_k[n]*h[n]\,</math>&nbsp; 在 [1, ''L''+''M''-''1''] 之外為零。&nbsp;每個 ''y''<sub>''k''</sub>[''n''] 長度 <math>L+M-1</math> ，以間隔 <math>L</math> 位移後相加，所以輸出是由互相<u>重疊</u>的區塊<u>相加</u>而成，因此稱為''重疊''-''相加''之摺積法。
+
+儘管一時看不出切割成區塊的好處為何，但考慮到對任何 &nbsp;<math>N\ge L+M-1\,</math>&nbsp; 以上每段的摺積都等價於 <math>x_k[n]\,</math> 和 <math>h[n]\,</math> 做 <math>N\,</math> 點圓周摺積定理

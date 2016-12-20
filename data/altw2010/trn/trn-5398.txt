@@ -1,0 +1,122 @@
+これは、他の姉妹プロジェクトに参加しているウィキペディアンであることを示すためのユーザーボックスです。
+
+==ウィキメディアプロジェクト==
+{| style="background:none"
+!style="width:400px"|入力コード
+!出力
+|-
+|valign="top"|<code></code> <br /> Babel用：<code>Meta-Wiki</code>||
+|-
+|valign="top"|<code></code> <br /> Babel用：<code>Wikibooks</code>||
+|-
+|valign="top"|<code></code> <br /> Babel用：<code>Wikicommons</code>||
+|-
+|valign="top"|<code></code> <br /> Babel用：<code>Wikinews</code>||
+|-
+|valign="top"|<code></code> <br /> Babel用：<code>Wikiquote</code>||
+|-
+|valign="top"|<code></code> <br /> Babel用：<code>Wikisource</code>||
+|-
+|valign="top"|<code></code> <br /> Babel用：<code>Wikispecies</code>||
+|-
+|valign="top"|<code></code> <br /> Babel用：<code>Wiktionary</code>||
+|-
+|valign="top"|<code></code> <br /> Babel用：<code>MediaWiki</code>||
+|-
+|valign="top"|<code></code> <br /> Babel用：<code>Testwiki</code>||
+|-
+|valign="top"|<code></code> <br /> Babel用：<code>Wikiversity</code>||
+|-
+!colspan="2"|日本語版のみ
+|-
+|valign="top"|<code></code> <br /> Babel用：<code>ja.wikibooks</code>||
+|-
+|valign="top"|<code></code> <br /> Babel用：<code>ja.wikinews</code>||
+|-
+|valign="top"|<code></code> <br /> Babel用：<code>ja.wikiquote</code>||
+|-
+|valign="top"|<code></code> <br /> Babel用：<code>ja.wikisource</code>||
+|-
+|valign="top"|<code></code> <br /> Babel用：<code>ja.wiktionary</code>||
+|-
+|valign="top"|<code></code> <br /> Babel用：<code>ja.wikiversity</code>||
+|}
+
+==寄付==
+{| style="background:none"
+!style="width:400px"|入力コード
+!出力
+|-
+|valign="middle"|<code><nowiki></code> ||
+|-
+|valign="middle"|<code><nowiki></code> ||
+|-
+|valign="middle"|<code><nowiki></code> ||
+|-
+|valign="middle"|<code><nowiki></code> ||
+|}
+
+Ces modèles permettent d'indiquer que des informations connexes à un article existent dans un autre projet Wikimedia. Ils sont en général placés en fin de page, dans la section « Voir aussi ».
+
+== Documents multimédia ==
+
+Sur Wikimedia Commons, les images et sons sont rangés à la fois dans des articles et dans des catégories. Il y a donc deux moyens de créer des liens :
+
+{| rules="all" style="border: 1px solid #999;" cellspacing="0" cellpadding="3"
+|-bgcolor="#DFDFDF"
+! style="text-align: left" | Syntaxe et explications
+! width="50%" | Résultat 
+|-
+| <br><br>Crée un lien vers un '''article''' de Commons. Le premier paramètre est le nom de l'article sur Commons (en anglais), le deuxième argument est le nom affiché (en français).
+| 
+|-
+|  ou<br><br><br>Crée un lien vers une '''catégorie''' de Commons. Le premier paramètre est le nom de la catégorie sur Commons (en anglais), le deuxième argument est le nom affiché (en français).
+| 
+|}
+
+== Citations ==
+
+Les citations se trouvent sur Wikiquote :
+
+{| rules="all" style="border: 1px solid #999; width:100%;" cellspacing="0" cellpadding="3"
+|-bgcolor="#DFDFDF"
+! style="text-align: left" | Syntaxe et explications
+! width="50%" | Résultat 
+|-
+| <br><br>Crée un lien vers une page '''du même nom''' sur Wikiquote.
+| 
+|-
+| 
+| 
+|}
+
+== Wiktionnaire ==
+
+{| rules="all" style="border: 1px solid #999;" cellspacing="0" cellpadding="3"
+|-bgcolor="#DFDFDF"
+! style="text-align: left" | Syntaxe et explications
+! width="50%" | Résultat 
+|-
+| <br><br>Insère un lien vers le Wiktionnaire. Le premier paramètre est le nom de l'article sur le wiktionnaire (attention, la première lettre est sensible à la casse), le deuxième paramètre est le texte affiché.
+| 
+|-
+| <br><br>Insère deux liens vers deux entrées du Wiktionnaire. Les deux paramètres sont chacun le nom exact des articles (attention à la casse).
+| 
+|-
+| <br><br>Insère un lien vers une catégorie du Wiktionnaire (ne pas mettre le préfixe catégorie:).
+| 
+|}
+
+== Wikilivres ==
+
+{| rules="all" style="border: 1px solid #999;" cellspacing="0" cellpadding="3"
+|-bgcolor="#DFDFDF"
+! style="text-align: left" | Syntaxe et explications
+! width="50%" | Résultat 
+|-
+| <br><br>Insère un lien vers Wikilivres. Le premier paramètre est le nom de l'article sur Wikilivres, le deuxième est le nom affiché.
+| 
+|-
+| <br><br>Insère un lien vers Wikiversité. Le premier paramètre est le nom de l'article sur Wikiversité, le deuxième est le nom affiché.
+| 
+|}

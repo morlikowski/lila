@@ -1,0 +1,123 @@
+{{Taxobox
+| color = lightgrey
+| name = Salmonel·la
+| image = salmonellaNIAID.jpg
+| image_width = 240px
+| regnum = Eubacteria
+| phylum = Proteobacteria
+| classis = Gamma Proteobacteria
+| ordo = Enterobacteriales
+| familia = Enterobacteriaceae
+| genus = '''Salmonella'''
+| genus_authority = Lignieres 1900
+| subdivision_ranks = Espècies
+| subdivision =
+''Salmonella bongori''<br>
+''Salmonella enterica''<br>
+''Salmonella arizonae''<br>
+''Salmonella enteritidis''<br>
+''Salmonella typhi''<br>
+''Salmonella typhimurium''<br>
+}}
+La '''salmonel·la''' (''Salmonella'') és un gènere bacterià caracteritzat per ser espora. Són bacteris mòbils que produeixen sulfur d'hidrogen. No fermenten glucosa ni lactosa.
+
+És un agent zoonòtic de distribució universal. Es transmet per contacte directe o contaminació encreuada durant la manipulació i el processament d'aliments a nivell domèstic o industrial. 
+
+==Microbiologia==
+
+Sòn bacteris colònies de 2 a 3 mil·límetres. Als laboratoris de microbiologia clínica s'aïllen bacteris emprant medis selectius com ara el '''Selenit''', '''Hektoen''', '''SS''' o '''XLD''' per a fer-ne cultius enriquits a partir de mostra biològica mostres biològiques.
+
+La taxonomia del gènere ''Salmonella'' és complexa i no exenta de controversia científica. 
+
+Hi ha dues espècies dins del gènere: ''Salmonella bongori'' i ''S. enterica''. En classificacions taxonòmiques anteriors s'atribuien les següents subespècies per a ''Salmonella enterica'':
+
+* I ''enterica''
+* II ''salamae''
+* IIIa ''arizonae''
+* IIIb ''diarizonae''
+* IV ''houtenae''
+* V ''bongori''. Actualment constituida com a espècie propia a nivell filogenètic (''Salmonella bongori'').
+* VI ''indica''
+
+A més, hi ha més de 2.000 serotipus dins d'ambdues espècies, els quals es troben en molt tipus d'ambients i sovint associats a malalties. La gran majoria de les identificades en humans (>99.5%) són subtipus de S. enterica. En microbiologia les espècies del gènere ''Salmonella'' solen anomenar-se pel seu gènere i el serotipus corresponent:
+per exemple,
+''Salmonella typhi'' en comptes de la designació més correcta de, ''Salmonella enterica'' subspècie ''enterica'' serotipus ''Typhi''.
+
+En microbiologia clínica ''Salmonella'' es classifica segons la seva serologia (classificació Kauffman-White) (subcomité Salmonella, 1900). La divisió principal està formada per l'antigen O somàtic i per antígens H flagel·lars. Els antígens H es divideixen en fase 1 i fase 2. La descripció completa d'un bacteri Salmonella seria (els antígens O, Vi : antigen H de fase 1: antigen H de fase 2).
+
+Exemples:
+
+*''Salmonella enteriditis'' (1,9,12:g,m)
+
+(Els antígens O presents són 1, 9 i 12; els antígens H són g i m)
+
+*''Salmonella Typhi'' (9,12,Vi:d:−) 
+(Els antígens O són 9, 12,i Vi; el antigen H és d)
+
+En microbiologia clínica només un nombre xicotet de serotipus se solen cercar (la resta són extranys o no són clínicament significants). L'Agència de la Protecció de la Salut britànica (HPA) recomana fer rutinàriament assajos per a aquests antígens:
+
+<!-- Für Informationen zum Umgang mit dieser Tabelle siehe bitte Wikipedia:Taxoboxen. -->
+{{Taxobox
+| Taxon_WissName   = Salmonella
+| Taxon_Rang       = Gattung
+| Taxon_Autor      = Lignieres 1900
+| Taxon2_WissName  = Enterobacteriaceae
+| Taxon2_Rang      = Familie
+| Taxon3_WissName  = Enterobacteriales
+| Taxon3_Rang      = Ordnung
+| Taxon4_WissName  = Gammaproteobacteria
+| Taxon4_Rang      = Klasse
+| Taxon5_WissName  = Proteobacteria
+| Taxon5_Rang      = Stamm
+| Taxon6_Name      = Bakterien
+| Taxon6_WissName  = Bacteria
+| Taxon6_Rang      = Domäne
+| Bild             = Salmonelle.jpg
+| Bildbeschreibung = ''Sekundärelektronenmikroskopaufnahme von Salmonellen (rot eingefärbt)''
+| Subtaxa_Rang     = Art
+| Subtaxa          = <small>Nach der derzeit gültigen Nomenklatur<br \> gibt es nur zwei Spezies: </small>
+*''S. enterica''
+*''S. bongori''
+''S. enterica'' <small> wird in die unten <br \>
+aufgeführten sechs Subspezies unterteilt.<br \>
+Innerhalb der Subspezies ordnet man individuelle <br \> 
+Isolate einem der mehr als 2500 Serovare zu. <br \> </small>
+}}
+
+'''Salmonellen''' gehören zu den stäbchenförmig, Durchmesser etwa 0,7 - 1,5 µm, Länge etwa 2 - 5 µm, gramnegativ, vorwiegend aktiv beweglich, peritrich begeißelt, fakultativ chemoorganotroph mit oxidativem und fermentativem Gattung ''Salmonella'' zusammengefasst und der Familie der ''Enterobacteriaceae'' zugeordnet. Sie sind eng verwandt mit der Gattung ''Escherichia''. Sie kommen weltweit in kalt- und warmblütigen Tieren, in Menschen und in Habitaten außerhalb von Lebewesen vor. Sie verursachen bei Menschen und vielen Tieren Krankheiten. In der Fleischbeschau und Lebensmittelüberwachung werden Salmonellen auch als „Fleischvergifter“ bezeichnet.
+
+== Salmonellen als Krankheitserreger ==
+
+Salmonellosen (Erkrankungen durch Salmonellen) gehören zu den Zoonosen, da sich sowohl der Mensch am Tier als auch das Tier am Menschen anstecken kann. Ferner ist die Infektion über Lebensmittel möglich.
+
+Man unterscheidet zwischen den Enteritis- und den Typhus/Paratyphus-Salmonellen, wobei letztere aufgrund spezieller Virulenzfaktoren und eines Kapselproteins (''Vi''rulenz-Antigen) schwerere Erkrankungen verursachen (z.&nbsp;B. ''Salmonella enterica subsp. enterica'' Serovar Typhi, kurz ''Salmonella typhi''). ''Salmonella typhi'' kommt bei Tieren nicht vor und ist an Menschen angepasst.
+
+Enteritis-Salmonellen (z.&nbsp;B. ''Salmonella enterica subsp. enterica'' Serovar Enteritidis, kurz ''Salmonella enteritidis'' oder ''Salmonella typhimurium'') verursachen beim Menschen meist spontan ausheilende Durchfallerkrankungen, die in der Regel nicht antibiotisch behandelt werden müssen. Allerdings können bei Risikogruppen, wie Säuglingen, Kleinkindern, alten Menschen, HIV-Patienten und immungeschwächten Patienten schwere Erkrankungen (Allgemeininfektionen) hervorgerufen werden.
+
+In Deutschland gehören WHO mit mehr als 16 Millionen Typhus-Erkrankungen jährlich, mehr als eine halbe Million davon enden tödlich.
+
+Salmonellen sind außerhalb des menschlichen bzw. tierischen Körpers wochenlang lebensfähig. Sonnenlicht (UV-Strahlung) beschleunigt das Absterben der Erreger. In getrocknetem Kot sind sie über 2,5 Jahre lang nachweisbar. Durch Hitzeeinwirkung sterben Salmonellen bei 55&nbsp;°C nach einer Stunde, bei 60&nbsp;°C nach einer halben Stunde ab. Um sich vor einer Salmonellen-Infektion zu schützen, wird die Erhitzung der Lebensmittel mindestens zehn Minuten auf 75&nbsp;°C (Temperatur im Kern!) empfohlen. Durch Einfrieren werden die Bakterien nicht abgetötet. In sauren Medien sterben die Salmonellen rasch ab, gebräuchliche Desinfektionsmittel töten sie innerhalb weniger Minuten.
+
+== Historie ==
+* 1880 wurde der Erreger des Typhus abdominalis beim Menschen von Karl Joseph Eberth und Robert Koch entdeckt.
+* 1884 gelang Georg Gaffky die Züchtung des Erregers in Reinkultur.
+* 1885 fand Daniel Elmer Salmon, nach dem die Gattung ''Salmonella'' benannt wurde, die „Schweinecholera“-Bakterien.
+
+== Nomenklatur der Salmonellen ==
+
+thumb|right|Eine Salmonellen-Kultur auf DC-Agar
+
+Die Nomenklatur der ''Salmonella''-Arten ist sehr komplex. In der Anfangsphase wurde jede ''Salmonella''-Art nach klinischen Gesichtspunkten benannt, z.&nbsp;B. ''Salmonella typhi-murium'' (Mäusetyphus), ''S. abortus-ovis'' (Abort des Schafs), ''S. cholerae-suis'' (Cholera des Schweins). Kauffmann definierte 1941 aufgrund serologischer Befunde jedes neu entdeckte Serovar als neue Art.<ref>Kauffmann, F. ''Die Bakteriologie der ''Salmonella''-Gruppe''. Munksgaard, Kopenhagen, 1941.</ref>
+
+Als erkannt wurde, dass die Wirtsspezifität mancher Arten nicht existiert - ''S. typhimurium'' und ''S. choleraesuis'' sind auch für den Menschen pathogen -  wurden neue Serovare als eigenständige ''Salmonella''-Arten nach dem Ort bezeichnet, an dem der erste Stamm der neuen Art isoliert wurde. 1966 wurde beim Neunten Internationalen Mikrobiologischen Kongress in Moskau beschlossen, den Bindestrich in den Artnamen zu entfernen (also z.&nbsp;B. ''S. typhimurium'').
+
+Aufgrund molekularbiologischer Erkenntnisse (insbesondere  DNA-DNA-Hybridisierung) stellten Le Minor und Popoff die Hypothese auf, die Gattung ''Salmonella'' bestehe nur aus einer einzigen Art, ''S. enterica''.<ref name= "Le Minor">L. Le Minor, M. Y. Popoff: ''Request for an Opinion. Designation of ''Salmonella enterica.'' sp. nov., nom. rev., as the type and only species of the genus ''Salmonella.'' Int. J. Syst. Bacteriol., 37, 465-468, 1987.</ref> Die Subspezies (abgekürzt ssp.) und Serovare wurden in sechs Gruppen eingeteilt.
+ 
+Zu 99,5&nbsp;% gehören Salmonellen, die aus Infektionen beim Menschen und warmblütigen Tieren isoliert wurden, der Gruppe I an. Vertreter der Subspezies ''salamae'' (Gruppe II) und ''houtenae'' (Gruppe IV) wurden aus Reptilien isoliert; am seltensten sind Subspezies der Gruppe VI (Subspezies ''indica''). ''S. enterica'' ssp. ''bongori'' wurde von Le Minor und Popoff (1987)<ref name="Le Minor"/> als Gruppe V klassifiziert, aber Reeves ''et. al.'' (1989)<ref name="Reeves">M. W. Reeves, G. M. Evins, A. A. Heiba, B. D. Plikaytis, J. J. Farmer III: ''Clonal nature of ''Salmonella typhi'' and its genetic relatedness to other salmonellae as shown by multilocus enzyme electrophoresis and proposal of ''Salmonella bongori'' comb. nov.'' J. Clin. Microbiol. 27, 313-320, 1989. PMID 2915026</ref> schlugen vor, die Gruppe V als eigene Art ''S. bongori'' zu bezeichnen. Jede Subspezies enthält wiederum numerische Serovarbezeichnungen.
+
+Medizinisch relevante Salmonellen gehören der<br> 
+*Gruppe I (''S. enterica'' ssp. ''enterica'') sowie der<br>
+*Gruppe IIIa (''S. enterica'' ssp. ''arizonae'') und der<br>
+*Gruppe IIIb (''S. enterica'' ssp. ''diarizonae'') an.<br>
+
+Diese sechs Salmonellengruppen können mit biochemischen Tests klassifiziert werden. <ref>[http://www.smittskyddsinstitutet.se/upload/Publikationer/Referensmetodik_2002-11-27.pdf Tabelle 7]</ref>:

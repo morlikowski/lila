@@ -1,0 +1,203 @@
+{| class="infoboks geografi" style="float:right; clear:right; width: 265px; font-size: 90%;"
+|-
+! colspan="2" style="font-size: larger; background-color: #e7dcc3;" | }}}
+|-
+}|
+ colspan="2" style="line-height: 1.2; border-bottom: 1px solid #CEDEFF; background-color: GhostWhite;"  <div style="border: 1px solid #CEDEFF;">biletstorleik|}}}|}|}|250px}}|}|} -}} }|}}}</div>}|<center>}</center>}}}}
+|- valign="top"
+}|
+ valign="top"  '''Høgd over havet'''
+}}}
+|-
+}|
+ valign="top" '''Ligg i/på'''
+}}}
+|-
+}|
+ valign="top" '''Fjellkjede'''
+}}}
+|-
+}|
+ valign="top" '''Primærfaktor'''
+}}}
+|-
+}|
+'''Koordinatar''' 
+ }
+}}
+|- valign="top"
+}}}
+}}}
+}}}
+}}}
+}}}
+}}}
+|-
+}|
+ colspan="2" style="line-height: 1.2; border-bottom: 1px solid #999966;"  <div style="border: 1px solid #999966;">center|}|}|300px}}|}</div> <center>}</center>}}
+|}<noinclude>
+
+==Bruk==
+<pre><nowiki>{{Infoboks fjell
+ | namn = 
+ | bilete = 
+ | biletstorleik = 
+ | bilettekst = 
+ | høgd = 
+ | land = 
+ | fjellkjede = 
+ | primærfaktor = 
+ | koordinatar =
+ | type = 
+ | geologi = 
+ | alder = 
+ | siste utbrot = 
+ | først til topps = 
+ | lettrute = 
+}}</nowiki></pre>
+
+==Forklaring==
+'''namn''' = Namn på fjellet (bruk berre dersom namnet er noko anna enn artikkeltittelen)<br>
+'''bilete''' = Bilete av fjellet.png<br>
+'''biletstorleik''' = Storleiken til bilete. Kan endrast visst bilete vert for stort, default verdi er 300 px.<br>
+'''bilettekst''' = Tekst om bilete<br>
+'''høgd''' = Høgda til fjellet i meter over havet<br>
+'''land''' = Kva land, landsdel osv fjellet ligg i<br>
+'''fjellkjede''' = Kva fjellkjede(r) fjellet eventuelt er ein del av. <br>
+'''primærfaktor''' = Den faktiske høgda frå foten av fjellet til fjelltoppen.<br>
+'''koordinatar''' = Breiddegrad og lengdegrad for fjelltoppen. Døme: <nowiki></nowiki> der G er grader, M er minuttar og S er sekund. N, S, E, W er himmelretningane.  <br>
+'''type''' = Kva type fjell det er T.d. vulkan. <br>
+'''geologi''' = Bergartar fjellet består av.<br>
+'''alder''' = Bergarten sin alder. <br>
+'''siste utbrot''' = Talet på år sidan siste vulkanske utbrot (for vulkanar).<br>
+'''først til topps''' = Første gong fjellet vart bestige, gjerne både namn på person og dato eller årstal. <br>
+'''lettrute''' = Den lettaste klatreruta opp fjellet. <br>
+
+{| cellpadding="5" cellspacing="0" class="infobox geography vcard" style="border:1px solid #999966; float:right; clear:right; margin-left:0.75em; margin-top:0.75em; margin-bottom:0.75em; background:#ffffff; width:305px; font-size:95%;"
+|- class="fn org"
+! style="text-align:center; background:#e7dcc3; font-size:110%;" colspan="2"| }
+|-
+}|
+ style="border-top:1px solid #999966; font-size:95%; text-align:center;" colspan="2"; colspan="2"   } |} | 300px }}<br />}
+-
+}}<!-- ***** Pushpin Map ***** -->
+}|
+	<tr class="mergedrow">
+		<td colspan="2" align="center">
+}
+|label = } }} | none | | }|}}} }}
+|lat = }}| |} }}   
+|long = }}| |} }} 
+|lat_deg=}}|}| }}   
+|lat_min=}}|}| }}
+|lat_sec=}}|}| }}
+|lat_dir=}|}| }}
+|lon_deg=}}|}| }} 
+|lon_min=}}|}| }} 
+|lon_sec=}}|}| }}  
+|lon_dir=}|}| }} 
+|float = none
+|caption =
+|border = none
+|position = } | } | right }}
+|width = }|} | 250 }}
+}}}|<small>}</small>|}|<small>}</small> }} }}
+		</td>
+	</tr>
+}}
+|- class="note" 
+| style="border-top:1px solid #999966; border-right:1px solid #999966; background:#e7dcc3; width:85px;" | Elevation
+| style="border-top:1px solid #999966; width:220px;" | }|m|}|ft}}}
+|- 
+}|
+ style="border-top:1px solid #999966; border-right:1px solid #999966; background:#e7dcc3;"  Location
+ style="border-top:1px solid #999966;"  <span class="adr"><span class="region">}</span></span>
+-
+}}
+}|
+ class="note" style="border-top:1px solid #999966; border-right:1px solid #999966; background:#e7dcc3;"  Range
+ style="border-top:1px solid #999966;"  }
+-
+}}
+}|
+ class="note" style="border-top:1px solid #999966; border-right:1px solid #999966; background:#e7dcc3;"  Prominence
+ style="border-top:1px solid #999966;"  }
+-
+}}
+}|
+ class="note" style="border-top:1px solid #999966; border-right:1px solid #999966; background:#e7dcc3;"  Parent peak
+ style="border-top:1px solid #999966;"  }
+-
+}}
+}|
+ style="border-top:1px solid #999966; border-right:1px solid #999966; background:#e7dcc3;"  Coordinates
+ style="border-top:1px solid #999966;" }|}|}|}|}|}|}|}|}}}}|}}}
+-|
+}|
+ style="border-top:1px solid #999966; border-right:1px solid #999966; background:#e7dcc3;"  Coordinates
+ style="border-top:1px solid #999966;"  }
+-
+}}}}
+}|
+ style="border-top:1px solid #999966; border-right:1px solid #999966; background:#e7dcc3;"  Topo map
+ style="border-top:1px solid #999966;"  }
+-
+}}
+}|
+ class="note" style="border-top:1px solid #999966; border-right:1px solid #999966; background:#e7dcc3;"  Type
+ style="border-top:1px solid #999966;"  }
+-
+}}
+}|
+ class="note" style="border-top:1px solid #999966; border-right:1px solid #999966; background:#e7dcc3;"  Volcanic&nbsp;arc/belt
+ style="border-top:1px solid #999966;"  }
+-
+}}
+}|
+ class="note" style="border-top:1px solid #999966; border-right:1px solid #999966; background:#e7dcc3;"  Age of rock
+ style="border-top:1px solid #999966;"  }
+-
+}}
+}|
+ class="note" style="border-top:1px solid #999966; border-right:1px solid #999966; background:#e7dcc3;"  Last eruption
+ style="border-top:1px solid #999966;"  }
+-
+}}
+}|
+ class="note" style="border-top:1px solid #999966; border-right:1px solid #999966; background:#e7dcc3;"  First ascent
+ style="border-top:1px solid #999966;"  }
+-
+}}
+}|
+ style="border-top:1px solid #999966; border-right:1px solid #999966; background:#e7dcc3;"  Easiest route
+ style="border-top:1px solid #999966;"  }
+-
+}}
+}|
+ style="border-top:1px solid #999966; border-right:1px solid #999966; background:#e7dcc3;"  OS grid reference
+ style="border-top:1px solid #999966;"  }}}
+-
+}}
+}|
+ style="border-top:1px solid #999966; border-right:1px solid #999966; background:#e7dcc3;"  OSI/OSNI grid reference
+ style="border-top:1px solid #999966;"  }}}
+-
+}}
+}|
+ style="border-top:1px solid #999966; border-right:1px solid #999966; background:#e7dcc3;"  Listing
+ style="border-top:1px solid #999966;"  }
+-
+}}
+}|
+ style="border-top:1px solid #999966; border-right:1px solid #999966; background:#e7dcc3;"  Translation
+ style="border-top:1px solid #999966;"  ''}'' (})
+-
+}}
+}|
+ style="border-top:1px solid #999966; border-right:1px solid #999966; background:#e7dcc3;"  Pronunciation
+ style="border-top:1px solid #999966;"  }]}}
+-
+}}
+|}<noinclude>
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>

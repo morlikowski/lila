@@ -1,0 +1,71 @@
+Pour chaque utilisateur (membre inscrit ou IP), il est possible (pour quiconque) d'obtenir la liste de ses contributions sur l'encyclopédie.
+
+== Obtenir la liste de ses modifications ==
+
+À tout moment lorsque vous êtes connectés, vous pouvez voir vos modifications, en cliquant sur ''Contributions'' dans le menu utilisateur, en haut à droite.
+
+== Obtenir la liste des modifications d'un autre utilisateur ==
+right
+
+Il faut d'abord se rendre sur sa page d'utilisateur (celle-ci peut être directement accessible depuis l'historique d'un article ou la page des modifications récentes).
+
+Une fois sur celle-ci (peu importe si elle est vide), cliquez sur le bouton ''Contributions de cet utilisateur'' dans le cadre « Boîte à outils », en bas à gauche de la page.
+
+Il est également possible d'y accéder directement en utilisant le lien Special:Contributions/xx, en remplaçant xx par le nom d'utilisateur ou l'adresse IP.
+
+== Affichage ==
+
+center|frame|Contributions de l'utilisateur [[utilisateur:Korrigan|Korrigan. ]]
+
+'''User contributions pages''' list the edits that a particular user has made. These pages are project specific, so a user contributions page for meta will not show the edits that user has made to Wikipedia or any other project.
+
+Checking your contributions is useful to refresh your memory about which pages you have worked on (and to easily access these again), but can also be used to find out whether there have been any subsequent edits (see below). This makes it possible to "watch" pages even if you haven't put them on your watchlist. Other users' user contribution pages can also be accessed and are useful for seeing how other users have contributed. They can be used to track down vandals, copyright violations, etc.
+
+==Accessing a user contributions page==
+
+===Accessing your own user contributions page===
+* To access your own user contributions page, click ''my contributions''. This is displayed either at the top of the page, or on the left hand side.
+
+===Accessing other user's user contributions page===
+* If the user has an account (username): bring up the user page and click ''User contributions'' - this works even if the user page has not been edited yet (i.e. an edit box displays).
+*  If the user has no login name, two methods are:
+** Click on the IP address in Recent Changes or Page History
+** Put the IP address in the search box and press Go
+
+==Using a user contributions page==
+Below is an example of a user contributions page using the default skin:<br>
+Example of a user contributions page<br/>
+Edits are shown from newest to oldest. Each edit takes up one line which shows; time & date, the page name and the edit summary, as well as other diagnostic information.
+Lets have a look at some of the functions of this page:
+# The username or IP  of the contributor appears here.
+# You can select a namespace to filter your results. For example, to see only templates select ''Template'' from the drop down list and press ''Go''.
+# This gives the time and date of the edit.
+# ''(hist)'' takes you to the page history, so you can see all edits made to that page. This can be useful if someone has updated a page you have worked on, and you want to see their changes.
+# ''(diff)'' takes you to a diff page showing the changes between that edit and the previous revision. The revision after the edit appears below the changes so you can see the result of the edit.
+# '''m''' stands for minor edit (small corrections to a page). These help you understand the type of changes that have been made.
+# This is the name of the page the edit took place on. The current page name is used, so if the page has been renamed the name displayed will be different.
+# This is the edit summary. It is the text the user wrote in the edit summary box (below the edit box).
+# '''(top)''' signifies that the edit is the current revision. The page is as the user last saved it. This can be used to watch pages (if your last edit to the page does not display '''(top)''' the page has been changed). Sysops also have a rollback link here, see Help:Reverting.
+# This edit summary begins with an arrow link and grey text. This means the user has only edited a section of the page (named in the grey text). This text is automatically added when you edit a section. The black text is a standard edit summary and is added by the user.
+# This user has few edits, so all their edits fit onto one page. When their edits span more than one page, the black text in brackets will become links. These links take you to the users most recent edits ''(Latest)'', oldest edits ''(Earliest)'' or the next or previous page of edits ''(Next n / Previous n)''.
+# The blue numbers list the number of edits displayed on a page - 20, 50, 100, 250 or 500. A higher number increases the length of a page but reduces the number of pages. The number you select replaces ''n'' in the links to the previous or next pages e.g. ''(Next 100 / Previous 100)''.
+
+If the page is newly created the mark '''N''' is also shown.
+
+But the following information does not appear:
+* Edits from a page that has been deleted afterwards (unless the page, including the revision concerned, has been restored). If the revision concerned has been restored but not the previous one, then the fact that the user has edited the page is preserved, including the time and the edit summary, and the resulting revision, but not the change. A sysop can use Special:DeletedContributions to see revisions that have not been restored. However, applying a diff is not directly possible. 
+* Uploading a new image with the same name as one that already exists, thus replacing it
+* The deletion or restoration (undeletion) of a page (if the user is a sysop). Use Special:Logs for this.
+
+==User styles==
+The page body has selector body.page-Special_Contributions, so we can e.g. use the CSS
+ body.page-Special_Contributions ul { list-style: decimal }
+to number the backlinks.
+
+==URLs and links==
+
+A user contributions URL looks like this:
+ or 
+
+(for this wiki)
+where XX is the user name or IP address.

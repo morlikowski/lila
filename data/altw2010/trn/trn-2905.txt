@@ -1,0 +1,40 @@
+A '''hostname''' (occasionally also, a '''sitename''') is the unique name by which a network-attached device (which could consist of a computer, file server, network storage device, fax machine, copier, cable modem, etc.) is known on a network.  The hostname is used to identify a particular host in various forms of electronic communication such as the World Wide Web, e-mail or Usenet. 
+
+On the Internet, the terms "hostname" and "domain name" are often used interchangeably, but there are subtle technical differences between them.
+
+==Overview==
+Hostnames are used by various naming systems, NIS, DNS, SMB, etc., and so the meaning of the word ''hostname'' will vary according to the naming system in question, which in turn varies by type of network.  A hostname meaningful to a Microsoft NetBIOS workgroup may be an invalid Internet hostname.  When presented with a hostname and no context, it is usually safe to assume that the network is the Internet and DNS is the hostname's naming system.
+
+Host names are typically used in an administrative capacity and may appear in computer browser lists, active directory lists, IP address to hostname resolutions, email headers, etc. They are human-readable nicknames, which ultimately correspond to unique network hardware MAC addresses. In some cases the host name may contain embedded domain names and/or locations, non-dotted IP addresses, etc.
+
+On a simple local area network, a hostname is usually a single word: for instance, an organization's CVS server might be named "cvs" or "server-1".
+
+==Internet hostnames==
+On the Internet, a hostname is a domain name assigned to a host computer. This is usually a combination of the host's local name with its parent domain's name.  For example, "en.wikipedia.org" consists of a local hostname ("en") and the domain name "wikipedia.org".  This kind of hostname is translated into an IP address via the local hosts file, or the Domain Name System (DNS) resolver. It is possible for a single host computer to have several hostnames; but generally the operating system of the host prefers to have one hostname that the host uses for itself.
+
+Any domain name can also be a hostname, as long as the restrictions mentioned below are followed.  So, for example, both "en.wikipedia.org" and "wikipedia.org" are hostnames because they both have IP addresses assigned to them.  The domain name "pmtpa.wikimedia.org" is not a hostname since it does not have an IP address, but "rr.pmtpa.wikimedia.org" is a hostname.  A hostname may be a domain name, if it is properly organized into the domain name system. A domain name may be a hostname if it has been assigned to an Internet host and associated with the host's IP address.
+
+===Restrictions on valid host names===
+
+Hostnames, like all domain names<ref>[http://www.ops.ietf.org/lists/namedroppers/namedroppers.2005/msg00889.html Host name vs domain name explanation] from the DNS OP labels, with each label being separated by a dot.  Each label must be between 1 and 63 characters long, and there  is a maximum of 255 characters when all labels are combined. 
+
+Unlike domain names, hostname labels can only be made up of the ASCII letters 'a' through 'z' (case-insensitive), the digits '0' through '9', and the hyphen. Labels cannot start nor end with a hyphen. Special characters other than the hyphen (and the dot between labels) are not allowed, although they are sometimes used anyway. Underscore characters are commonly used by Windows systems but according to RFC 952 they are not allowed and several systems, such as DomainKeys and the SRV record deliberately use the underscore to make sure their special domain names are not confused with a hostname.  Since some systems will check to make sure that hostnames contain only valid characters and others do not, the use of the invalid characters such as the underscore has caused many subtle problems in systems that connect to the wider world.
+
+Der '''Hostname''' (auch '''Sitename''') ist die eindeutige Bezeichnung eines Rechners in einem Netzwerk. Er wird vorwiegend beim elektronischen Datenaustausch (z.&nbsp;B. FTP) benutzt, um den Kommunikationspartner in einem von Menschen les- und merkbaren Format anzugeben. Die Umsetzung des Hostnamens in eine maschinenlesbare Adresse erfolgt im Internet heute vorwiegend über das Domain Name System (DNS), historisch über die Datei <tt>/etc/hosts</tt>. In lokalen Netzen erfolgt die Umsetzung teils per DNS, teils noch mit NIS und anderen propriet&auml;ren Protokollen. Welche Namen technisch zulässig sind, regelt das im jeweiligen Fall verwendete Protokoll zur Namensauflösung – im Internet also das Domain Name System.
+
+== Hostname als Name eines physischen Systems ==
+
+Der Hostname eines physischen Systems (Rechner, Host) ist der Name, unter dem sich das System selbst kennt und mit dem sich das System meldet. Sichtbar kann dieser Hostname werden, wenn ein Rechner eine System-Mail verschickt, beispielsweise im Absender von Status-Meldungen oder Bounce Messages oder wenn sich ein Benutzer auf einem Server anmeldet. Der Hostname kann auf UNIX-artigen Systemen mit dem Kommando [http://www.rt.com/man/hostname.1.html <tt>hostname</tt>] gesetzt und ausgelesen werden.
+
+Bei Rechnern, die direkt im Full Qualified Domain Name (FQDN) als Hostname verwendet, z.&nbsp;B. <tt>mail.wikipedia.org</tt>. Bei Rechnern, die nur aus einem LAN erreichbar sind, wird teilweise der ''Domain-Teil'' (hier: <tt>wikipedia.org</tt>) weggelassen und nur der ''lokale Teil'' verwendet (hier: <tt>mail</tt>), da der ''Domain-Teil'' zur eindeutigen Unterscheidung in diesem Fall nicht notwendig ist.
+
+Der ''lokale Teil'' des Hostnamens von physischen Systemen wird oft in Anlehnung an Figuren aus Literatur und Film (v.&nbsp;a. SF und Comics), Fabelwesen oder G&ouml;ttern gew&auml;hlt oder richtet sich nach dem Verwendungszweck der Rechner (z.&nbsp;B. ns, mail, ftp, serv1, serv2, serv3 etc.).
+
+== Hostname als Name eines Netzwerkknotens ==
+
+Der Name, unter dem Internet-Server ihre Dienste bereitstellen, wird ebenfalls als Hostname bezeichnet. Es handelt sich dabei genaugenommen um einen aus einem A-Record Eintrag im Domain Name System (DNS) resultierenden Fully Qualified Domain Name (FQDN). Dieser DNS-Eintrag weist dem Hostname eine IP-Adresse zu. Auf diese Weise können ein oder mehrere Hostnames auf die IP-Adresse eines physischen Server zeigen. Der Name des Netzwerkknotens (DNS-Eintrag) hat dabei aus technischer Sicht nichts mit dem Namen des physischen Systems (s.&nbsp;o.) zu tun.
+
+Beispiele sind:
+
+* mehrere Virtuelle Webserver zeigen auf die IP-Adresse des Host-Systems
+* Auf einem Server laufen FTP-Server, für jeden dieser Dienste gibt es einen eigenen Namen, die IP-Adresse ist aber in allen Fällen dieselbe.

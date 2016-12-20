@@ -1,0 +1,98 @@
+In mathematics '''simultaneous equations''' are a set of equations containing multiple variables. This set is often referred to as a '''system of equations'''. To solve simultaneous equations, the solver needs to use the provided equations to find the exact value of each variable. Generally the solver uses either a graphical method (by plotting all the lines and/or curves on the same graph and finding the exact coordinates of their intersection), the matrix method, the substitution method, and/or the elimination method. Some textbooks refer to the elimination method as the addition method, since it involves adding equations (or constant multiples of the said equations) to one another, as detailed later in this article.
+
+This is a set of linear system of equations:
+
+:<math>
+\begin{cases}
+2x + y = 8\\
+x + y = 6
+\end{cases}
+</math>
+
+Solving this involves subtracting ''x'' + ''y'' = 6 from 2''x'' + ''y'' = 8 (using the elimination method) to remove the ''y''-variable, then simplifying the resulting equation to find the value of ''x'', then substituting the ''x''-value into either equation to find ''y''.
+
+The solution of this system is:
+
+:<math>
+\begin{cases}
+x = 2\\
+y = 4
+\end{cases}
+</math>
+
+which can also be written as an ordered pair (2, 4), representing on a graph the coordinates of the point of intersection of the two lines represented by the equations.
+
+== Finding solutions ==
+
+Sometimes not all variables can be solved for, and so an answer for at least one variable must be expressed in terms of other variables and so the set of all solutions is infinite; this is typical for the case, where the system has fewer equations than variables. If the number of equations is the same as the number of variables, then probably (but not necessarily) the system is exactly solvable in the sense that the set of its solutions is finite; for system of linear equations in this case there is exactly one solution, but for other systems to have several solutions is also typical. Sometimes a system has no solution; this is typical for the case, where the system has more equations than variables. If these rules about connection between number of solutions and numbers of equations and variables do not hold, then such situation is often referred to as dependence between equations or between their left parts. For instance, this occurs in linear systems if one equation is a simple multiple of the other (representing the same line, e.g. 2''x'' + ''y'' = 3 and 4''x'' + 2''y'' = 6) or if the ratio of like variables in two linear equations is the same (representing parallel lines, e.g. 2''x'' + ''y'' = 3 and 6''x'' + 3''y'' = 7 where the ratio of comparable letters is 3).
+
+Systems of two equations in two real-value unknowns usually appear as one of five different types, having a relationship to the number of solutions: 
+#Systems that represent intersecting sets of points such as lines and curves, and that are not of one of the types below. This can be considered the normal type, the others being exceptional in some respect. These systems usually have a finite number of solutions, each formed by the coordinates of one point of intersection. 
+#Systems that simplify down to false (for example, equations such as 1 = 0). Such systems have no points of intersection and no solutions. This type is found, for example, when the equations represent parallel lines.
+#Systems in which both equations simplify down to an identity (for example, ''x'' = ''2x'' − ''x'' and 0''y'' = 0). Any assignment of values to the unknown variables satisfies the equations. Thus, there are an infinite number of solutions: all points of the plane. 
+#Systems in which the two equations represent the same set of points: they are mathematically equivalent (one equation can typically be transformed into the other through algebraic manipulation). Such systems represent completely overlapping lines, or curves, etc. One of the two equations is redundant and can be discarded. Each point of the set of points corresponds to a solution. Usually, this means there are an infinite number of solutions.
+#Systems in which one (and only one) of the two equations simplifies down to an identity. It is therefore redundant, and can be discarded, as per the previous type. Each point of the set of points represented by the other equation is a solution of which there are then usually an infinite number.
+The equation ''x''<sup>2</sup> + ''y''<sup>2</sup> = 0 can be thought of as the equation of a circle whose radius has shrunk to zero, and so it represents a single point: (''x'' = 0, ''y'' = 0), unlike a normal circle containing an infinity of points. This and similar examples show the reason why the last two types described above need the qualification "usually". An example of a system of equations of the first type described above with an infinite number of solutions is given by ''x'' = |''x''|, ''y'' = |''y''| (where the notation |•| denotes the ''x''-''y'' plane. Another example is ''x'' = |''y''|, ''y'' = |''x''|, whose solution represents a ray.
+
+==Substitution method==
+
+thumb|220px|The two example [[equations intersect twice. Therefore, there are two solutions.]]
+
+thumb|right|L'intersezione di una circonferenza e una retta è descritta con un sistema
+In equazioni che devono essere contemporaneamente verificate. Esso può avere una o più incognite.
+
+Ad esempio, 
+:<math>\left\{\begin{matrix} x^2 + y^2 = 1\\
+2x + 4y = 0\end{matrix}\right.</math>
+è un sistema con due equazioni e due incognite. Geometricamente, questo sistema descrive l'intersezione di una circonferenza e una retta nel piano cartesiano.
+== Definizioni ==
+=== Scrittura generica ===
+La scrittura generica di un sistema di <math> m </math> equazioni in <math> n </math> incognite è la seguente:
+
+:<math>\left\{\begin{matrix}F_1(x_1,...,x_n)=0 \\
+\vdots \\
+F_m(x_1,...,x_n)=0\end{matrix}\right.</math>
+
+dove <math> F_1, \ldots, F_m </math> esprimono le funzioni delle incognite. 
+
+=== Insieme di definizione ===
+L'''insieme ambiente'' <math> A </math> è l'insieme dei valori che possono assumere le variabili, ed è specificato ''a priori''. Generalmente, si assume che le variabili siano reali, e che le funzioni abbiano senso per ogni valore dell'insieme ambiente. Spesso l'insieme ambiente viene determinato ''a posteriori'' valutando per quali valori reali il sistema ha senso (valutando quindi il suo insieme di definizione). Ad esempio, il sistema
+:<math>\left\{\begin{matrix} x = 1 + 1/y\\
+2x + 4y = 0\end{matrix}\right.</math>
+ha senso per ogni coppia di numeri reali <math> (x,y) </math> con <math> y\neq 0 </math>.
+
+Formalmente, l'insieme ambiente è quindi un sottoinsieme dello spazio euclideo <math> \R^n </math>, dove <math> n </math> è il numero di incognite.
+
+In generale, i sistemi possono essere studiati anche con variabili non reali: possono essere ad esempio complesse, o più generalmente appartenere a qualche anello o campo.
+=== Risolvere un sistema ===
+''Risolvere un sistema'' significa determinare l'insieme <math> S </math> dei valori che, sostituiti alle variabili, verificano tutte le equazioni. L'insieme <math> S </math> è un sottoinsieme dell'insieme ambiente, e prende il nome di ''insieme delle soluzioni''; ciascuno dei suoi elementi è una ''soluzione'' del sistema.
+
+Se <math> S_i </math> è l'insieme delle soluzioni della <math> i </math>-esima equazione, abbiamo
+:<math> S = S_1\cap \ldots \cap S_n. </math>
+
+=== Altre definizioni ===
+* Due sistemi sono ''equivalenti'' se hanno lo stesso insieme delle soluzioni.
+* Un sistema è ''risolubile'' o ''compatibile'' se ha almeno una soluzione.
+* Un sistema è ''polinomiale'' se ogni equazione è un polinomio. In questo caso il suo ''grado'' è il prodotto dei gradi dei singoli polinomi.
+* Un sistema è ''fratto'' se ogni equazione può essere espressa come punti di discontinuità eliminabili.
+* Un sistema è ''letterale'' se nelle equazioni compaiono coefficienti espressi come lettere, detti ''parametri''. In questo caso l'insieme di definizione e delle soluzioni dipende da questi parametri.
+
+== Strumenti per la risoluzione ==
+I metodi di risoluzione più elementari si basano su delle operazioni che trasformano il sistema in un altro equivalente, ma più semplice. Negli esempi successivi si prendono in considerazione solo sistemi lineari per la loro facilità di risoluzione, ma questi metodi possono essere usati anche in altri casi.
+
+===Metodo di sostituzione===
+Si esplicita un'incognita esprimendola in funzione delle altre (per esempio <math>y - 2x = -3</math> diventa <math>y = 2x - 3</math>) in una delle equazioni del sistema e si sostituisce l'espressione così ottenuta nelle altre equazioni in luogo dell'incognita corrispondente. In questo modo l'incognita sparisce da tutte le equazioni eccetto la prima. Si applica iterativamente il metodo fino a giungere ad una equazione con una sola incognita; si calcola il valore di quest'ultima e si risale fino alla prima esplicitando via via i valori delle incognite calcolate.
+
+Esempio:
+
+:<math>\left\{\begin{matrix}4x+5y-z=0 \\ z-y+x=4 \\ 4x+3y=2\end{matrix}\right.</math>
+Esplicitiamo <math> z </math> nella prima equazione e sostituiamolo dove compare nelle altre:
+:<math>\left\{\begin{matrix}z=4x+5y \\ (4x+5y) - y + x = 4 \\ 4x+3y=2 \end{matrix}\right.</math>
+Ora calcoliamo <math> x </math> nella seconda in funzione di <math> y </math>:
+:<math>\left\{\begin{matrix}z=4x+5y \\ x=\frac4 5 (1-y) \\ 4\frac 4 5(1-y) + 3y = 2\end{matrix}\right.</math>
+In questo modo la terza equazione adesso contiene solo <math> y </math>: risolvendola viene
+:<math>\left\{\begin{matrix}z=4x+5 \cdot 6 \\ x=\frac 4 5(1-6) \\ y=6\end{matrix}\right.</math>
+Quindi ora calcolando la <math> x </math> nella seconda viene la soluzione
+:<math>\left\{\begin{matrix}z=14 \\ x=-4 \\ y=6\end{matrix}\right.</math>
+
+===Metodo di confronto===

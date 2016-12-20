@@ -1,0 +1,39 @@
+Integrity constraints are used to ensure accuracy and consistency of data in a relational database. Data integrity is handled in a relational database through the concept of referential integrity. There are many types of integrity constraints that play a role in referential integrity.
+
+Codd, initially defined two sets of constraints, but in his second version of the relational model, he came up with five integrity constraints:
+* Entity integrity
+* Referential Integrity
+* Domain Integrity
+A domain defines the possible values of an attribute. Domain Integrity rules govern these values. In a database system, the domain integrity is defined by: 
+
+The datatype and the length 
+The NULL value acceptance 
+The allowable values, through techniques like constraints or rules 
+The default value 
+For example, if you define the attribute of Age, of an Employee entity, is an integer, the value of every instance of that attribute must always be numeric and an integer.
+
+If you also define that this attribute must always be positive, the a negative value is forbidden.
+
+The value of this attribute being mandatory indicates that the attribute can be NULL. 
+
+'''Консистентность данных''' ( или ''data validity'') — это согласованность данных друг с другом, целостность данных, а также внутренняя непротиворечивость.
+Множество всех условий, налагаемых на данные определяется моделью (структурой) данных.
+
+== Условия консистентности данных в ER-модели ==
+Если данные представляют собой связанные отношениями узлы различного типа, в которых хранятся какие-то данные, то в модели данных могут быть оговорены условия: какие именно данные там могут хранится, и узлы каких типов могут быть связаны заданными в модели отношениями (связями) (см. w:en:Entity-relationship model, ER-модель данных).
+
+Например, в базе данных людей, отношение «родитель» направленное от узла X к узлу Y
+подразумевает, что узел Y связан с X либо отношением «дочь» либо отношением «сын»,
+причём это непосредственно зависит от значения атрибута «пол» узла X.
+Другим очевидным условием консистентности базы данных людей является требование, чтобы один узел был связан не более, чем с двумя другими узлами отношением «родитель», причём атрибут «пол» у этих узлов должен различаться.
+
+Условия консистентности могут включать в себя указание того, какие значения могут принимать атрибуты узлов, какие отношения могут устанавливаться между узлами, каково минимальное и максимальное число отношений определенного типа, в котором может участвовать один узел, а также другие типы условий.
+
+== Консистентность в базах данных ==
+
+Понятие консистентности впервые появилось в области систем управления базами данных.
+Условия целостности данных (integrity constraints) стали записывать в виде правил и ввели триггеры — процедуры, которые вызывались до и после выполения запроса. До запроса (триггер типа BEFORE) проходила проверка того, что данные имеют состояние, которое позволяет осуществить данный тип запроса. А после выполнения запроса (триггер типа AFTER) проверялось, что состояние базы данных удовлетворяет условим целостности. Если один из триггеров не срабатывал (возвращал НЕУСПЕХ или срабатывал с ошибкой), то транзакция откатывалась (отменялась).
+
+Kонсистентность является важнейшим понятием теории управления данными (data management) и входит в четвёрку ACID (Atomicity, Consistency, Isolation, и Durability) — Атомарность, Консистентность, Замкнутость и Живучесть (стойкость).
+
+== Консистентность в теории алгоритмов и структур данных ==

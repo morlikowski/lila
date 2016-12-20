@@ -1,0 +1,483 @@
+thumb|350px|Vue d'artiste de la [[magnétosphère terrestre.]]
+350px|thumb|right|[[Ferrofluide soumis à un '''champ magnétique''' dont l'instabilité provoque des pointes qui l'emportent sur la gravité et la tension superficielle du fluide.]]
+En charges électriques. La présence de ce champ se traduit par l'existence d'une force agissant sur les charges électriques en mouvement (dite force de Lorentz), et divers effets affectant certains matériaux (paramagnétisme, diamagnétisme ou ferromagnétisme selon les cas). La grandeur qui détermine l'interaction entre un matériau et un champ magnétique est la susceptibilité magnétique.
+
+Le champ magnétique forme, avec le ondes électromagnétiques, et correspondent à toutes les manifestations de la ondes radio, domaine rayons X et rayons gamma). La discipline qui étudie les champs magnétiques statiques (ne dépendant pas du temps) est la magnétostatique.
+
+Les applications de la maîtrise de ce champ sont nombreuses, même dans la vie courante : outre le fait que celui-ci est une composante de la moteurs électriques. Le stockage d'informations sur bandes magnétiques ou disques durs se fait à l'aide de champs magnétiques. Des champs magnétiques de très forte intensité sont utilisés dans les accélérateurs de particules ou les jets dans les régions où l'on observe un disque d'accrétion. Le rayonnement synchrotron est également abondamment utilisé dans de nombreuses applications industrielles.
+
+Mathématiquement, le champ magnétique est décrit par un champ pseudo vectoriel<ref>On parle aussi, de façon équivalente, d'un champ de vecteurs axiaux, un « vecteur axial » étant simplement un symétries. Les équations décrivant l'évolution du champ magnétique sont appelées équations de Maxwell, en l'honneur de James Clerk Maxwell qui les a finalisées en 1873. C'est cependant Albert Einstein qui en 1905 en a proposé le premier la vision la plus cohérente, dans le cadre de la relativité restreinte qu'il venait de découvrir et qui en est indissociable.
+
+==Historique==
+
+Dès le , les grecs décrivaient — et tentaient d'expliquer — l'effet de minerais riches en Magnésie : elle donna son nom au phénomène.
+thumb|left|La magnétite, minerai présentant des propriétés magnétiques, intriguait déjà les grecs il y a 2 600 ans.
+
+L'aiguille « ''montre-sud'' » est mentionnée pour la première fois au  par Bertrand Gille ; (s. dir.), ''Histoire des techniques'', Gallimard, coll. « La Pléiade », 1978 </ref> dès le , le problème du magnétisme terrestre apparaît beaucoup plus tard. L'utilisation de la boussole dans les techniques de navigation daterait du  et son usage exact reste à préciser du fait d'une navigation essentiellement côtière à cette époque <ref name=Gille/>. Les boussoles faisaient usage du champ magnétique terrestre, qui se trouve être aujourd'hui à peu près aligné avec l'axe de rotation terrestre, raison pour laquelle une boussole, en indiquant le pôle magnétique, indique aussi (quoique approximativement) la direction du pôle géographique terrestre.
+
+En Occident, Pierre de Maricourt fut l'un des premiers à travailler sur le magnétisme et publia son ''Epistola de magnete'' à peu près à la même époque que les savants chinois. Au delà du simple problème des priorités, il serait intéressant de savoir comment certaines techniques ont pu voyager et s'il n'est pas possible que des développements parallèles, et chronologiquement presque concomitants, se soient produits <ref name=Gille/>.
+
+Pour les encyclopédistes des ''Lumières'' <ref>L'Encyclopédie - Volume 9 publié en décembre 1765</ref>, « ''le magnétisme est le nom général qu’on donne aux différentes propriétés de l’aimant'' ». Ils attribuent ses effets à une « ''matière subtile'' <ref>On retrouve ici l'un des obstacles épistémologiques les plus difficiles à surmonter et cher à calorique. Voir ''La formation de l'esprit scientifique'' p. 24.</ref>
+, ''différente de l’air'' » (parce que ces phénomènes ont également lieu dans le vide) qu’ils appellent ''magnétique''. Plus loin ils affirment que « ''c’est encore une question non moins difficile que de savoir s’il y a quelque rapport entre la cause du magnétisme & celle de l’électricité, car on ne connoît guère mieux l’une que l’autre''. »
+
+Jusqu'au début des années loi de Faraday, qui trace un premier lien entre électricité et magnétisme
+
+En 1822, le premier moteur électrique est inventé : la roue de Barlow.
+
+André-Marie Ampère proposa peu après une loi phénoménologique, aujourd'hui démontrée dans le cadre général de l'électromagnétisme, appelé théorème d'Ampère, qui relie le champ magnétique aux courants. Peu après, en 1825, l'électricien William Sturgeon crée le premier électroaimant.
+
+En 1873, James Clerk Maxwell unifie le champ magnétique et le champ électrique, au sein de la théorie de l'électromagnétisme. Ce faisant, il découvre une incompatibilité entre les lois de la mécanique classique et les lois de l'électromagnétisme. Ces dernières prédisent que la vitesse de la lumière est indépendante de la vitesse d'un observateur par rapport à la source qui émet la lumière, hypothèse incompatible avec les lois de la mécanique classique.
+
+En moteur électrique à courant continu, utilisable à grande échelle.
+
+En 1887, les américains Albert A. Michelson et Edward Morley vérifient expérimentalement (expérience de Michelson-Morley) les prédictions de Maxwell.
+
+En 1905, Albert Einstein résout le paradoxe découvert par Maxwell en montrant que les lois de la mécanique classique doivent en réalité être remplacées par d'autres lois, celles de la relativité restreinte.
+
+En 1933, Walther Meissner et Robert Ochsenfeld découvrent qu'un échantillon supraconducteur plongé dans un champ magnétique a tendance à expulser celui-ci de son intérieur (effet Meissner).
+
+En 1944, Lars Onsager propose le premier modèle (dit modèle d'Ising) décrivant le phénomène de ferromagnétisme.
+
+En Oe)<ref name="terrare"> [http://www.scei-concours.org/tipe/sujet_2002/chimie_2002.pdf Épreuve de TPE Chimie 2002 : Terres rares]</ref>.
+
+En 1968 sont découvert les pulsars, cadavres d'étoiles extraordinairement denses, siège des champs magnétiques les plus intenses existant aujourd'hui dans la nature (4×10 teslas pour le pulsar du Crabe, par exemple).
+
+En 1983, une équipe internationale crée des aimants néodyme-fer-bore, les plus puissants aimants permanents connus à ce jour (35 MGOe soit environ 1,25 tesla<ref name="terrare"/>).
+
+En 1998, une équipe russe crée un champ magnétique pulsé par une explosion qui atteint 2 800 T<ref> [http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=823621 IEEE : « ''With record magnetic fields to the 21st Century'' »]</ref>. 
+
+Le 12 décembre 1999, une équipe américaine crée un champ magnétique continu d'une intensité de 45 T<ref> [http://www.magnet.fsu.edu/mediacenter/news/pressreleases/1999december17.html World's Most Powerful Magnet Tested Ushers in New Era for Steady High Field Research]</ref>.
+
+En 2006, des champs magnétiques pulsés ont atteint 100 T sans destruction<ref> [http://www.lanl.gov/news/index.php/fuseaction/home.story/story_id/8912 Los Alamos National Laboratory]</ref>.
+
+== Expression du champ magnétique ==
+=== Notation ===
+
+On note généralement le champ magnétique avec la lettre B, écrite en caractère gras ou surmontée d'une flèche, ces deux notations indiquant qu'il s'agit d'un vecteur (ou en l'occurrence d'un pseudovecteur) : <math>\vec B</math> ou <math>\mathbf B</math>. Cette lettre, empruntée à James Clerk Maxwell, vient de ses notations : il décrivait les trois composantes du champ magnétique indépendamment, par les lettres ''B'', ''C'', ''D''. Les composantes du champ électrique étant, dans les notations de Maxwell les lettres ''E'', ''F'', ''G''.
+
+Le champ étant défini dans tout l'espace, c'est en fait une fonction des coordonnées, en général notées par le rayon vecteur '''r''', et éventuellement du temps ''t'', aussi est-il noté '''B'''('''r''') ou '''B'''('''r''', &nbsp;''t''). Cependant, on utilise souvent la notation '''B'''.
+
+=== Unités ===
+
+thumb|Des aimants NdFeB, créant un champ de 1,25 tesla (en haut et entre les sphères), supportant 1&nbsp;300 fois leur propre poids.
+
+L'unité moderne utilisée pour quantifier l'intensité du champ magnétique est le tesla, défini en 1960<ref> [http://www.sizes.com/units/SI.htm Les unités SI et leurs unités dérivées]</ref>. C'est une unité dérivée du système SI. On définit un tesla par un flux d'weber par mètre carré :
+:1 T = 1 Wb·m = 1 kg·s·A= 1 N·A·m = 1 kg·s·C.
+
+Pour diverses raisons historiques remontant aux travaux de gauss<ref>Utilisé en gamma<ref>Utilisé en champ terrestre.</ref>. On a :
+* 1 Tesla ≈ 10 000 gauss (approximation) ;
+* 1 Tesla = 1 000 000 gamma.
+
+Enfin, on utilise également parfois l'œrsted, notamment pour quantifier la « force » des aimants naturels, dont l'équivalent SI est l'ampère par mètre A.m<sup>-1</sup> par la relation :
+:<math>1\, \mathrm{Oe} = \frac{10^3}{4 \pi} \mathrm{A \cdot m^{-1}}</math>.
+
+===Ordres de grandeur===
+Dans l'espace interplanétaire, le champ magnétique est compris entre 10 et 10 T<ref> « [http://adsabs.harvard.edu/abs/1976spre.conf..675M ''Variations of the interplanetary magnetic field intensity between 1 and 0.3 AU''] », rotation de Faraday, en particulier grâce à l'observation des galactiques et au-delà est à l'heure actuelle (2007) un problème ouvert en contracter, laissant à l'issu de la phase où elle est le siège de réactions nucléaires un résidu plus ou moins compact. Cette phase de contraction augmente considérablement le champ magnétique à la surface de l'astre compact. Ainsi, une pulsars X anormaux et magnétars semblent être dotés d'un champ magnétique jusqu'à 100 fois plus élevé<ref> Robert Duncan : [http://solomon.as.utexas.edu/~duncan/magnetar.html ''Magnetars, soft gamma repeaters & very strong magnetic fields].</ref><ref> Scientific American : « [http://solomon.as.utexas.edu/~duncan/sciam.pdf ''Magnetars''] », 2003.</ref>.
+
+Un aimant NdFeB (néodyme-fer-bore) de la taille d'une pièce de monnaie (créant un champ de l'ordre de 1,25 T<ref name="terrare"/>) peut soulever un objet de 9 kg et effacer les informations stockées sur une IRM, impliquent des champs d'intensité allant jusqu'à 6 T. 
+
+Étant une composante du interaction électromagnétique, le photon, est de masse nulle.
+
+==Manifestations du champ magnétique==
+
+En physique classique, les champs magnétiques sont issus de courants électriques. Au niveau microscopique, un électron en « orbite » autour d'un noyau atomique peut être vu comme une minuscule boucle de courant, générant un faible champ magnétique et se comportant comme un dipôle magnétique. Selon les propriétés des matériaux, ces structures magnétiques microscopiques vont donner lieu à essentiellement trois types de phénomènes :
+
+* Dans certains cas, les champ générés par des électrons d'atomes voisins présentent une certaine tendance à s'aligner les uns par rapport aux autres, un champ magnétique macroscopique, c'est-à-dire une degrés Celsius pour le fer. 
+* En l'absence de ferromagnétisme, ou à une température trop élevée pour que celui-ci apparaisse, la présence d'un champ magnétique externe peut amener les champs microscopiques à s'aligner dans le sens du champ. Ce phénomène est appelé paramagnétisme. La transition  entre l'état ferromagnétique et l'état paramagnétique se fait par l'intermédiaire d'une transition de phase dite de second ordre (c'est-à-dire que l'aimantation tend continûment vers 0 à mesure que la température approche la température de Curie, mais que sa dérivée par rapport à la température diverge à la transition). Le premier modèle mathématique permettant de reproduire un tel comportement s'appelle le modèle d'Ising, dont la résolution, considérée comme un tour de force mathématique, a été effectuée par le Prix Nobel de chimie Lars Onsager en 1944.
+* À l'inverse, certains matériaux tendent à réagir en alignant leurs champs magnétiques microscopiques de façon antiparallèle avec le champ, c'est-à-dire s'efforçant de diminuer le champ magnétique imposé de l'extérieur. Un tel phénomène est appelé diamagnétisme.
+
+===Courants électriques===
+
+thumb|Un [[courant électrique, d'intensité '''I'''(I>0), parcourant un fil crée un champ magnétique '''B''' autour de celui-ci.]]
+
+Tout courant électrique génère un champ magnétique, ce qu'a montré l'expérience historique d'Ørsted. 
+
+La présence d'un courant permet donc d'influencer localement le champ magnétique, c'est le principe des machines électriques.
+
+===Champs magnétiques des planètes===
+
+thumb|right|Représentation d'artiste du champ magnétique terrestre
+
+La courants (bien que très faibles), parcourant le noyau induiraient ce champ magnétique, par un processus appelé effet dynamo.
+
+La valeur moyenne du champ magnétique terrestre est d'environ 0,5 gauss (soit 5.10 T). Le champ magnétique terrestre fluctue au cours du temps : sa direction et son intensité ne sont pas constantes. De plus, il n'est pas homogène en tout point du globe<ref> [http://www-physique.u-strasbg.fr/~udp/articles/astro/magnet.htm Union des Physiciens], Université de Strasbourg.</ref>.
+
+thumb|left|[[aurore polaire|Aurores au pôle de Jupiter.]]
+
+En particulier, les champs magnétiques des planètes Jupiter et Saturne, les plus intenses après celui du Saturne est l'un des objectifs de la ESA : [http://www.esa.int/SPECIALS/Cassini-Huygens/SEMMD2HHZTD_0.html ''Cassini-Huygens - The mission'']</ref>, tandis que celui de Jupiter sera étudié par la sonde JUNO<ref> NASA : [http://science.hq.nasa.gov/missions/solar_system/juno.html ''JUNO'']</ref>. L'origine de ces champs est supposée liée aux mouvements du noyau d'hydrogène métallique qu'elles abritent.
+
+Au niveau des pôles magnétiques de ces planètes, le champ a tendance à guider les particules chargées, issues par exemple du vent solaire. Celles-ci, très énergétiques, interagissent parfois avec l'atmosphère de la planète : c'est ce que l'on peut observer sous la forme des aurores polaires.
+
+===Monopôles magnétiques===
+
+Une des différences fondamentales entre le champ électrique et le champ magnétique est que l'on observe dans la nature des particules possédant une charge électrique, alors que l'on n'observe ni particule ni objet possédant une charge magnétique. En pratique cela se traduit par l'absence de configurations possédant un champ magnétique purement radial, ce qui mathématiquement correspond au fait que le champ magnétique est de divergence nulle. 
+
+En particulier, tout aimant possède un pôle nord et un pôle sud magnétique. Si l'on casse cet aimant en deux, on se retrouve avec deux aimants ayant chacun un pôle nord et un pôle sud magnétique. Mathématiquement, cette propriété se traduit par le fait que la divergence du champ magnétique est nulle, propriété formalisée par l'une des monopôles magnétiques.
+
+En revanche, dans le cadre de l'monopôles de Dirac. Dans la théorie de Yang-Mills, on fait intervenir un monopôle de 't Hooft-Polyakov.
+
+===Origine relativiste===
+
+{| align="right"
+|thumb|Une particule chargée, au repos dans le vide, engendre un champ électrique isotrope, identique dans toutes les directions de l'espace.
+|thumb|En revanche, son déplacement brise cette symétrie, à cause d'effets relativistes : cette déformation est à l'origine du champ magnétique.
+|}
+
+En 1905, relativistes du champ électrique<ref> Albert Einstein :  « [http://www.fourmilab.ch/etexts/einstein/specrel/www/ ''On the Electrodynamics of Moving Bodies''] ».</ref>, plus précisément dans le cadre de la relativité restreinte.
+
+Il se présente comme le résultat de la transformation lorentzienne d'un champ électrique d'un premier référentiel à un second en mouvement relatif.
+
+Lorsqu'une charge électrique se déplace, le champ électrique engendré par cette charge n'est plus perçu par un observateur au repos comme à symétrie sphérique, à cause de la dilatation du temps prédite par la relativité. On doit alors employer les transformations de Lorentz pour calculer l'effet de cette charge sur l'observateur, qui donne une composante du champ qui n'agit que sur les charges se déplaçant : ce que l'on appelle « champ magnétique ». 
+
+On peut ainsi décrire les champs magnétique et électrique comme deux aspects d'un même objet physique, représenté en théorie de la relativité restreinte par un rang 2.
+
+== Champ magnétique, excitation magnétique et aimantation == 
+
+Un matériau plongé dans un champ magnétique est susceptible de générer un nouveau champ magnétique au sein de celui-ci. Plus précisément, il peut générer une densité de dipôles magnétiques suffisante pour que celle-ci génère un champ magnétique mesurable. Un tel phénomène est appelé aimantation. 
+
+Un matériau ferromagnétique possède une aimantation spontanée, c'est-à-dire existant même en l'absence de champ extérieur, mais même dans ce cas, la valeur de l'aimantation est influencée par l'intensité du champ magnétique extérieur. Le champ généré par l'aimantation s'ajoute au champ initial, et c'est la somme des deux qui est observée. Dans un tel cas, le terme de champ magnétique désigne le champ total, et le champ initial prend le nom d'excitation magnétique.
+
+En d'autre termes, on est parfois amené à distinguer le champ initial, l'excitation magnétique, notée '''H''', du champ total, noté '''B''', reliés l'un à l'autre par :
+:<math>\mathbf B = \mu_0 \left( \mathbf H + \mathbf M \right)</math>
+avec ''μ<sub>0</sub>'' la perméabilité magnétique du vide et '''M''' l'aimantation du milieu.
+
+L'aimantation est une conséquence de l'excitation magnétique, et il existe donc une fonction (éventuellement compliquée)
+:<math>\mathbf M = \mathbf M \left( \mathbf H \right)</math>.
+Dans les cas les plus simples, ces deux quantités sont proportionnelles l'une de l'autre, et l'on définit la susceptibilité magnétique ''χ'', sans unité, par :
+:<math>\mathbf M = \chi \mathbf H</math>
+ce qui permet d'écrire :
+:<math>\mathbf B = \mu_0 \left(1 + \chi \right) \mathbf H = \mu_0 \mu_r \mathbf H</math>
+avec 
+:<math>\mu_r = 1 + \chi</math>,
+qui est appelé la perméabilité magnétique (ou perméabilité) du milieu.
+
+Quand le matériau est anisotrope, la relation entre excitation et aimantation peut être plus complexe. En particulier, ces deux quantités peuvent ne pas avoir même direction. Dans ce cas, si l'on suppose qu'elle sont reliées par une relation linéaire, celle-ci est sous forme matricielle.
+
+=== Différence entre champ magnétique et excitation magnétique === 
+
+Il est bien souvent difficile de distinguer un champ magnétique B d'une excitation magnétique H d'autant qu'ils sont souvent donnés comme étant liés par une perméabilité magnétique relativement complexe à estimer (car fonction du matériau et de la norme d'un éventuel courant électrique embrassant celui-ci).
+
+En fait, l'induction magnétique est un champ au sens physique du terme c'est-à-dire qu'en un point de l'espace soumis à ce champ, une force d'attraction (ou de répulsion) magnétique est susceptible de s'appliquer.
+
+Quant à l'excitation magnétique, c'est une fonction mathématique qui fait le lien entre un courant électrique et un champ magnétique. Elle est parfaitement définie par l'équation de Maxwell-Ampère : 
+
+<math>  \overrightarrow{\mathrm{rot}} \ \overrightarrow{H} \ =  \overrightarrow{j} </math> (formulation locale)
+
+<math>\oint_C \overrightarrow{H} \cdot \overrightarrow{\mathrm{d}l} \ = nI</math> (formulation intégrale)
+
+Dans l'air, les vecteurs H et B sont égaux à une constante multiplicative près (perméabilité magnétique de l'air, proche de celle du vide). On peut choisir d'étudier indifféremment l'un ou l'autre du fait de la relation rigide qui les lie. Par contre, dans un matériau quelconque, en particulier pour les matériaux ferromagnétiques, les deux vecteurs doivent être clairement distingués car en plus des différences que nous venons de voir, des phénomènes de non linéarités (saturation magnétique et hystérésis) compliquent les relations entre B et H.
+
+Le champ d'excitation H est parfois appelé "champ courant" pour mieux souligner son origine.
+
+==Visualisation du champ magnétique==
+===Lignes de champ===
+
+thumb|Mise en évidence de lignes de champ magnétique par des brindilles d'acier et de la limaille.
+
+Par définition, les lignes de champ du champ magnétique sont l'ensemble des courbes « en tout point » tangentes à '''B'''. 
+
+Ces lignes relient les pôles magnétiques, et par convention on les oriente de sorte que les lignes de champ d'un aimant entrent par le sud et ressortent par le nord. Leur expression locale est telle que :
+:<math>{\mathbf{B}} \wedge {\mathrm d}{\mathbf{l}} = 0</math>.
+avec d'''l''' = (d''x'', d''y'', d''z'') un vecteur infinitésimal. Une équation paramétrique décrivant les lignes de champ se déduit de la formule ci-dessus en choisissant une variable d'intégration (par exemple ''x'' si la composante ''B'' est non nulle) et en intégrant les équations, qui en coordonnées cartésiennes donnent
+:<math>\frac{{\mathrm d} y}{{\mathrm d} x} = \frac{B_y}{B_x}</math> ,
+:<math>\frac{{\mathrm d} z}{{\mathrm d} x} = \frac{B_z}{B_x}</math> .
+
+===Observation===
+
+Lorsqu'on approche un aimant d'une poudre de fer, on observe des formes géométriques particulières. Le ferromagnétisme de la limaille de fer fait qu'elle s'aimante légèrement en présence du champ magnétique. Ainsi, la limaille s'orientera de sorte qu'on observera les lignes de champ magnétique.
+
+La forme précise de ces lignes dépend de la forme de l'aimant.
+
+Dans une suffisamment longue, on observe et on montre que le champ magnétique est pratiquement uniforme à l'intérieur : les lignes de champ sont portées par des droites parallèles et de même écart, selon l'axe du solénoïde.
+
+=== Décomposition ===
+
+Le champ magnétique étant de divergence nulle (on parle parfois de champ solénoïdal), il est possible de le décomposer en deux champs appelé champ toroïdal et champ poloïdal. Une telle décomposition est particulièrement appropriée dans les configurations de forme sphérique, et se trouve donc fréquemment utilisée en géophysique et en physique stellaire. Elle est également utilisé pour décrire le champ magnétique qui règne dans un tokamak.
+
+==Effets du champ magnétique==
+===Effets physiques===
+====Force de Lorentz====
+
+thumb|La force de Lorentz.
+
+Le champ magnétique influence les particules chargées au travers de la force de Lorentz.
+
+En l'absence de champ électrique, l'expression de cette force est, pour une particule de charge ''q'' animée d'une vitesse '''v''' : 
+:<math>\mathbf F = q \mathbf v \times \mathbf B</math>
+où on a noté le système international.
+
+On peut réécrire cette relation sous forme différentielle pour un fil, en introduisant le courant électrique :
+:<math>\mathrm d \mathbf F = I \mathrm d \ell \times \mathbf B</math>
+avec ''I'' l'intensité du courant électrique, '''B''' le champ magnétique et <math>\mathrm d \ell</math> une portion infinitésimale de fil.
+
+Cette expression se généralise aux distributions de courants bidimensionnelles (surfaces et courants surfaciques) aussi bien que tridimensionnelles (volumes et courants volumiques). On introduit dans ces cas la notion d' « élément de courant » d'''C''', définie par :
+
+* d'''C''' = '''j'''<sub>s</sub> d''S'' pour une surface, où '''j'''<sub>s</sub> est le courant surfacique ;
+* d'''C''' = '''j''' d''τ'' pour un volume, où '''j''' est le courant volumique.
+
+On a ainsi une expression générale :
+:<math>\mathrm d \mathbf F = d \mathbf C \times \mathbf B </math>
+
+====Force de Laplace====
+
+La force de Laplace est simplement un cas particulier de la force de Lorentz, pour un barreau homogène et conducteur, parcouru par un courant électrique et placé dans un champ magnétique. 
+
+Contrairement à la force n'est pas toujours orthogonale à la vitesse.
+
+L'expression de la force de Laplace est :
+:<math>\mathrm d \mathbf F = I \mathrm d \ell \times \mathbf B</math>
+avec ''I'' l'intensité du courant, '''B''' le champ magnétique et <math>\mathrm d \ell</math> un élément infinitésimal du barreau, exprimés dans les unités du système international.
+
+====Supraconducteurs====
+
+thumb|L'effet Meissner résulte de l'expulsion des champs magnétiques par un matériau supraconducteur.
+
+Les matériaux supraconducteurs ont la propriété intéressante de ne pas pouvoir être pénétrés par un champ magnétique : on parle d'expulsion. On observe ce phénomène par exemple au travers de l'effet Meissner.
+
+Une des interprétations possibles consiste à fournir une masse aux photons, porteurs du champ magnétique, ce qui diminue la portée de ce champ à l'intérieur du matériau. Il est ainsi possible de faire des analogies avec des processus comme le mécanisme de Higgs, qui explique la masse des porteurs des interactions nucléaires.
+
+On traduit cela par une expression particulière du potentiel vecteur.
+
+Cet effet ne saurait par ailleurs être observé entre deux aimants : la lévitation statique serait alors interdite par le théorème d'Earnshaw.
+
+Dans la théorie BCS, qui traite des supraconducteurs, on peut montrer que le potentiel vecteur est de la forme :
+:<math>\mathbf A \left( x \right) = \mathbf A_0 e^{-\frac{x}{\lambda}}</math>
+avec ''x'' la profondeur et ''λ'' est la longueur de pénétration caractéristique, exprimées en unités SI :
+
+:<math>\lambda = \sqrt{\frac{m}{2 \mu_0 e^2 \rho_s}} </math>
+avec ''m'' la masse d'un électron, ''e'' sa charge électrique et ''ρ<sub>s</sub>'' la densité superfluide du supraconducteur, supposée uniforme et constante, étant toutes exprimées dans le système international d'unités. Ainsi, le potentiel vecteur — donc le champ magnétique — ne pénètre que sur une épaisseur de quelques ''λ'' à l'intérieur du matériau.
+
+Si le champ magnétique environnant le matériau supraconducteur est trop intense, celui-ci ne peut expulser le champ dans sa totalité. Certaines régions du matériau supraconducteur vont devenir non supraconductrices et canaliser le champ magnétique. Le supraconducteur a tendance à minimiser la taille de telles régions, qui prennent la forme de tubes alignés le long du champ magnétique. Ces régions sont appelées, pour des raisons évidentes, tubes de flux.
+
+====Induction, induction mutuelle et ondes====
+
+thumb|Chauffage par induction d'une bouteille en métal : la variation d'un champ magnétique induit des courants dans le corps de l'objet, qui échauffent celui-ci par effet Joule.
+
+Le phénomène d'induction électromagnétique (ou induction magnétique ou, simplement, induction) a pour résultat la production d'une différence de potentiel aux bornes d'un conducteur électrique soumis à un champ électromagnétique variable. Cela s'exprime au travers de l'équation locale de Maxwell-Faraday :
+:<math>\nabla \times \mathbf E = - \frac{\partial \mathbf B}{\partial t}</math>.
+avec '''E''' le champ électrique, '''B''' le champ magnétique exprimés dans les unités SI, et <math>\nabla</math> l'opérateur formel nabla.
+
+Ce champ électrique peut à son tour engendrer un champ magnétique, propageant ainsi une onde électromagnétique.
+
+Lorsqu'un matériau est placé dans champ magnétique variant, il apparaît dans celui-ci un courants, appelés courants de Foucault. C'est d'une part le principe des plaques à induction, car la dissipation par effet Joule de ces courants échauffe le métal.
+
+Par ailleurs, deux systèmes magnétiques, comme des bobines, peuvent être couplés au travers du champ magnétique. On parle d'induction mutuelle (ou de mutuelle induction). Cet effet modifie le comportement individuel de chaque circuit.
+
+On peut aborder cet effet par un modèle très simple : un conducteur ohmique de conductivité électrique ''γ'' est parcouru par un champ magnétique sinusoïdal, d'intensité B<sub>0</sub> et de pulsation ''ω''. Ce champ est, à tout instant ''t'', d'intensité ''B'' :
+:<math>B = B_0 \sin{ \omega t} </math>
+Ce champ induit dans le conducteur, d'après la loi de Faraday, un champ électrique '''E''' d'intensité ''E'' :
+:<math>E = - \omega B_0 \cos{ \omega t} </math>
+
+thumb|Magnetic [[field lines shown by permeability of individual iron filings causes the magnetic field to be larger at the ends of the filings. This causes individual filings to attract each other, forming elongated clusters that trace out the appearance of lines. It would not be expected that these "lines" be precisely accurate field lines for this magnet; rather, the magnetization of the iron itself would be expected to alter the field somewhat.]]
+
+In magnetic field'' is a vector field that permeates space and which can exert a ''magnetic force'' on moving electric charges and on magnetic dipoles (such as permanent magnets).  When placed in a magnetic field, magnetic dipoles tend to align their axes to be parallel with the magnetic field, as can be seen when iron filings are in the presence of a magnet (see picture at right).  In addition, a changing magnetic field can induce an electric field.  Magnetic fields surround and are created by electric currents, magnetic dipoles, and changing electric fields.  Magnetic fields also have their own energy, with an energy density proportional to the square of the field intensity.
+
+There are some notable specific instances of the magnetic field. For the physics of magnetic materials, see magnetism and magnet, and more specifically ferromagnetism, paramagnetism, and diamagnetism. For constant magnetic fields, such as are generated by stationary dipoles and steady currents, see magnetostatics. For magnetic fields created by changing electric fields, see electromagnetism.
+
+The electric field and the magnetic field are tightly interlinked, in two senses. First, changes in either of these fields can cause ("induce") changes in the other, according to Maxwell's equations. Second, according to Einstein's theory of special relativity, a magnetic force in one inertial frame of reference may be an electric force in another, or vice-versa (see relativistic electromagnetism for examples). Together, these two fields make up the electromagnetic field, which is best known for underlying light and other electromagnetic waves.
+
+== B and H ==
+
+There are two quantities that physicists may refer to as the magnetic field, notated <math>\mathbf{H}</math> and <math>\mathbf{B}</math>.  Although the term "magnetic field" was historically reserved for <math>\mathbf{H}</math>, with <math>\mathbf{B}</math> being termed the "magnetic induction", <math>\mathbf{B}</math> is now understood to be the more fundamental entity.  Most modern writers refer to <math>\mathbf{B}</math> as the magnetic field. See: <ref>The standard graduate textbook by Jackson follows this usage. Edward Purcell, in Electricity and Magnetism, McGraw-Hill, 1963, writes, ''Even some modern writers who treat <math>\mathbf{B}</math> as the primary field feel obliged to call it the magnetic induction because the name magnetic field was historically preempted by H. This seems clumsy and pedantic. If you go into the laboratory and ask a physicist what causes the pion trajectories in his bubble chamber to curve, he'll probably answer "magnetic field," not "magnetic induction." You will seldom hear a geophysicist refer to the earth's magnetic induction, or an astrophysicist talk about the magnetic induction of the galaxy. We propose to keep on calling <math>\mathbf{B}</math> the magnetic field. As for <math>\mathbf{H}</math>, although other names have been invented for it, we shall call it "the field<math>\mathbf{H}</math>" or even "the magnetic field <math>\mathbf{H}</math>".''</ref> This article will follow that convention and will discuss the more fundamental <math>\mathbf{B}</math> magnetic field, before treating the <math>\mathbf{H}</math> field.  
+
+See  History of B and H below for further discussion.
+
+===Alternative names for B and H===
+
+The  vector field <math>\mathbf{H}</math> is known among electrical engineers as the ''magnetic field intensity'' or ''magnetic field strength'' and is also known among physicists as ''auxiliary magnetic field'' or ''magnetizing field''. The vector field <math>\mathbf{B}</math> is known among electrical engineers as ''magnetic flux density'' or ''magnetic induction'' or simply ''magnetic field'', as used by physicists.
+
+===Units===
+
+The magnetic field <math>\mathbf{B}</math> has the teslas (T), equivalent to webers per gauss (G).  The vector field <math>\mathbf{H}</math> is measured in Amperes/meter (A/m) in SI or oersted (Oe) in cgs units.
+
+==Permanent magnets and magnetic poles==
+
+thumb|right|'''The direction of the magnetic field near the poles of a magnet''' is revealed by placing [[compasses nearby.  As seen here, the magnetic field points towards a magnet's south pole and away from its north pole.  ]]
+
+ Force on a magnetic dipole due to a non-uniform B below.)  The magnetism in a permanent magnet arises from properties of the atoms (in particular the electrons) that compose it. Each atom acts like a little individual magnet.  If these magnets line up, they combine to create a macroscopic magnetic effect. For more details about what happens both microscopically and macroscopically, see the article ferromagnetism.
+
+If allowed to twist freely, a magnet will turn to point in the direction of the magnetic field at its location.  (See  Torque on a magnetic dipole below.)   A definition, the direction of the magnetic field at a point is the direction that the north pole of a magnet would want to point. 
+
+If a compass is placed near the north pole of a magnet then it will point away from that pole---like poles repel.  In other words, the magnetic field points away from a magnet near its north pole.   The opposite occurs if we place the compass near a magnet's south pole; the magnetic field points towards the magnet near its south pole.  Not all magnetic fields are describable in terms of poles, though.  A straight current-carrying wire, for instance, produces a magnetic field that points neither towards nor away from the wire, but encircles it instead.
+
+==Visualizing the magnetic field==
+
+The strength and direction of the magnetic field due to an object varies from position to position.  Mapping out this magnetic field is simple in principle.  First, measure the strength and direction of the magnetic field at a large number of points.  Then mark each location with an arrow (called a  vector) pointing in the direction of the magnetic field with a length proportional to the strength of the magnetic field.  This is a valid and useful way of marking out and visualizing the magnetic field of an object.  It has the unfortunate consequence, though, of cluttering up a graph even when using a small number of points.  An alternative method of visualizing the magnetic field is to use "magnetic field lines".
+
+===Magnetic B field lines===<!-- This section is linked from Aurora (astronomy) -->
+
+Various physical phenomena have the effect of displaying magnetic field lines. For example, iron filings placed in a magnetic field will line up in such a way as to visually show the orientation of the magnetic field (see figure at top).   Another place where magnetic fields are visually displayed is in the polar auroras, in which visible streaks of light line up with the local direction of Earth's magnetic field (due to plasma particle dipole interactions).  In these phenomena, lines or curves appear that follow along the direction of the local magnetic field.
+
+These permeability of iron relative to air.</ref> Rather, the field is typically smooth and continuous everywhere, and can be estimated at ''any'' point (whether on a field line or not) by looking at the direction and density of the field lines nearby.  The choice of which field lines to draw in such a depiction is arbitrary, apart from the requirement that they be spaced out so that their density approximates the magnitude of the local field. The level of detail at which the magnetic field is depicted can be increased by increasing the number of lines. 
+
+Field lines are a useful way to represent any magnetic monopole below.) 
+
+Even when it appears that a magnetic field has an end (such as when it leaves near a north pole or enters near a south pole of a magnet) in reality it does not.  In the case of the permanent magnet the field lines complete the loop inside of the magnet traveling from the south to the north pole.  (To see that this must be true imagine placing a compass inside of the magnet.  The north pole of the compass will point toward the north pole of the magnet since magnets stacked on each other point in the same direction.)
+
+Since magnetic field lines always come in loops, magnetic poles always come in N and S pairs.  If a magnetic field line enters a magnet somewhere it has to leave the magnet somewhere else; it is not allowed to have an end point.  For this reason as well, cutting a magnet in half will result in two separate magnets each with both a north and a south pole.
+
+===Earth's magnetic field===
+
+310px|thumbnail|right|'''A sketch of Earth's magnetic field''' representing the source of Earth's magnetic field as a magnet. The [[north pole of earth is near the top of the diagram, the south pole near the bottom. Notice that the south pole of that magnet is deep in Earth's interior below Earth's North Magnetic Pole.  Earth's magnetic field is produced in the outer liquid part of its core due to a dynamo that produce electrical currents there.]]
+
+Because of Earth's magnetic field, a compass placed anywhere on Earth will turn so that the "north pole" of the magnet inside the compass points roughly north, toward Earth's north magnetic pole in northern Canada. This is the traditional definition of the "north pole" of a magnet, although other equivalent definitions are also possible. One confusion that arises from this definition is that if Earth itself is considered as a magnet, the ''south'' pole of that magnet would be the one nearer the north magnetic pole, and vice-versa.  (Opposite poles attract and the north pole of the compass magnet is attracted to the north magnetic pole.) The north magnetic pole is so named not because of the polarity of the field there but because of its geographical location. 
+
+The figure to the right is a sketch of Earth's magnetic field represented by field lines.  The magnetic field at any given point does not point straight toward (or away) from the poles and has a significant up/down component for most locations.  (In addition, there is an East/West component as Earth's magnetic poles do not coincide exactly with Earth's geological pole.)  The magnetic field is as if there were a magnet deep in Earth's interior.
+
+Earth's magnetic field is probably due to a dynamo that produces electric currents in the outer liquid part of its core.  Earth's magnetic field is not constant: Its strength and the location of its poles vary.  The poles even periodically reverse direction, in a process called geomagnetic reversal.
+
+==Effects of the magnetic field, B==
+
+A magnetic field has many effects on materials and on individual particles.  All of these effects can be expressed due to its affects on elementary charges and magnetic dipoles.  There are four elementary ways that a magnetic field can affect a charge or a magnetic dipole.  
+
+# Sideways force on a moving charge or current
+#  Torque on a magnetic dipole
+#  Force on a magnetic dipole due to a non-uniform B
+#  Force on a charge due to a changing B
+
+300px|thumbnail|right|'''Charged particle [[Guiding center|drifts''' in a homogenous magnetic field. (A) No disturbing force (B) With an electric field, E (C) With an independent force, F (e.g. gravity) (D) In an inhomogeneous magnetic field, grad H]]
+
+===Force due to a magnetic field on a moving charge===
+
+====Force on a charged particle====
+
+A charged particle moving in a magnetic <math>\mathbf{B}</math> field will feel a ''sideways'' force that is proportional to the strength of the magnetic field, the component of the velocity that is perpendicular to the magnetic field and the charge of the particle.  This force is known as the cyclotron motion.  Because the magnetic field is always perpendicular to the motion, the magnetic fields can do no work on a charged particle; a magnetic field alone cannot speed up or slow down a charged particle. It can and does, however, change the particle's direction, even to the extent that a force applied in one direction can cause the particle to drift in a perpendicular direction. (See above figure.)
+
+====Force on current-carrying wire====
+
+The force on a current carrying wire is similar to that of a moving charge as expected since a charge carrying wire is a collection of moving charges.  A current carrying wire will feel a sideways force in the presence of a magnetic field.  The Lorentz force on a macroscopic current is often referred to as the ''Laplace force''.
+
+300px|thumbnail|right|'''The [[right-hand rule:''' For a conventional current or moving positive charge in the direction of the thumb of the right hand and the magnetic field along the direction of the fingers (pointing away from palm) the force on the current will be in a direction out of the palm.  The direction of the force is reversed for a negative charge.]]
+
+====Direction of force====
+
+The direction of force on a positive charge or a current is determined by the  Hall effect below.
+
+An alternative, similar trick to the right hand rule is Fleming's left hand rule.
+
+===Torque on a magnetic dipole===
+
+A magnet placed in a magnetic field will feel a torque on a magnet due to an external magnetic field is easy to observe by placing two magnets near each other while allowing one to rotate.   This magnetic torque is the basis for how above). 
+
+The magnetic torque also provides the driving torque for simple electric motors.  A magnet (called a rotor) placed on a rotating shaft will feel a strong torque if like poles are placed near its own poles.  If the magnet that caused the rotation—called the stator—is constantly being flipped such that it always has like poles close to the rotor then the rotor will generate a torque that is transferred to the shaft.  The polarity of the rotor can easily be flipped if it is an electromagnet by flipping the direction of the current through its coils.
+
+See  Rotating magnetic fields below for an example using this effect with electromagnets.
+
+===Force on a magnetic dipole due to a non-uniform B===
+
+The most commonly experienced effect of the magnetic field is the force between two magnets: Like poles repel and opposites attract.  One can, in fact, express this force in terms of the pole locations and strengths (or more generally, pole distributions) in the two magnets attracting and repulsing each other. This model is called the "Gilbert model" and produces both the correct force between two magnets, and the correct <math>\mathbf{B}</math> field outside of the magnets, but the wrong magnetic field ''inside'' the magnets. (Although the Gilbert model is useful in certain contexts as a mathematical model, the idea of "poles" does not accurately reflect what physically happens inside a magnet; see ferromagnetism.)
+
+A more physically accurate picture would be based on the fundamental fact that a magnetic dipole experiences a force, when placed in a ''non-uniform'' external magnetic field. (In a uniform field, it will experience a torque but no force.) The south pole of one magnet is attracted to the north pole of another magnet because of the specific way in which each of the microscopic dipoles in either magnet responds to the non-uniform field of the other magnet.
+
+The force on a magnetic dipole does not depend directly on the strength or direction of the magnetic <math>\mathbf{B}</math> field, but only on how these vary with location.  A magnet will move to maximize the magnetic field in the direction of its magnetic moment.
+
+Care should be taken to distinguish the magnetic force on a magnetic dipole from the magnetic force on a moving charge.  The magnetic force on a charge only occurs when the charge is moving and is in a sideways direction.  It is felt for both uniform and non-uniform magnetic fields. The magnetic force on a dipole, on the other hand, is present only in non-uniform (in space) fields and is in the direction that increases the component of the magnetic field in the direction parallel to the dipole's magnetic moment. Neither does the force on a magnetic dipole depend on its speed (except at velocities approaching the speed of light).
+
+===Electric force due to a changing B===
+
+If the magnetic field in an area is varying with time it generates an electric field that forms closed loops around that area.  A conducting wire that forms a closed loop around the area will have an induced voltage generated by this changing magnetic field.  This effect is represented mathematically as Faraday's Law and forms the basis of many generators.  Care must be taken to understand that the changing magnetic field is a source for an ''extended'' electric field.  The changing magnetic field does not only create an electric field at that location; rather it generates an electric field that forms closed loops around the location where the magnetic field is changing.
+
+Mathematically, Faraday's law is most often represented in terms of the change of magnetic flux with time.  The magnetic flux is the property of a closed loop (say of a coil of wire) and is the product of the area times the magnetic field that is normal to that area.  Engineers and physicists often use magnetic flux as a convenient physical property of a loop(s).  They then express the magnetic <math>\mathbf{B}</math> field as the magnetic flux per unit area.  It is for this reason that the <math>\mathbf{B}</math> field is often referred to as the "magnetic flux density".  This approach has the benefit of making certain calculations easier such as in magnetic circuits.  It is typically not used outside of electrical circuits, though, because the magnetic <math>\mathbf{B}</math> field truly is the more 'fundamental' quantity in that it directly connects all of electrodynamics in the simplest manner.
+
+==Sources of magnetic fields==
+
+Magnetic fields can be created in a number of different ways.  All of these ways are based on three elementary ways to create a magnetic <math>\mathbf{B}</math> field.   
+
+#  Electrical currents (moving charges)
+#  Magnetic dipoles
+#  Changing electric field 
+
+These sources are thought to affect the virtual particles that compose the field.
+
+===Electrical currents (moving charges)===    
+
+All moving charges produce a magnetic field.  <ref>In special relativity this means that the electrical field and the magnetic field must be two parts of the same phenomenon.  For a moving single charge or charges moving together we can always shift to a reference system in which they are not moving.  In that reference system there is no magnetic field.  Yet, the physics has to be the same in all reference systems.  It turns out the electric field changes as well which produces the same force in the original reference frame.  It is probably a mistake, though, to say that the electric field causes the magnetic field when relativity is accounted for, since relativity favors no particular reference frame.  (One could just as easily say that the magnetic field caused an electric field).  More importantly it is not always possible to move into a coordinate system in which all of the charges are stationary. See classical electromagnetism and special relativity for more information.</ref>  The magnetic field of a moving charge is very complicated but is well known. (See Jefimenko's equations.)  It forms closed loops around a line that is pointing in the direction the charge is moving.  The magnetic field of a current on the other hand is much easier to calculate. 
+
+====Magnetic field of a steady current====
+
+200px|thumbnail|right|Current (''I'') through a wire produces a magnetic field (<math>\mathbf{B}</math>) around the wire. The field is oriented according to the [[right hand grip rule.]]
+
+The magnetic field generated by a ''steady current'' (a continual flow of charges, for example through a wire, which is constant in time and in which charge is neither building up nor depleting at any point), is described by the Biot-Savart law.<ref>In practice the Biot-Savart law and other laws of magnetostatics can often be used even when the charge is changing in time as long as it is not changing too quickly.  This situation is known as being quasistatic.</ref> This is a consequence of Ampere's law, one of the four Maxwell's equations that describe electricity and magnetism.   The magnetic field lines generated by a current carrying wire form concentric circles around the wire.  The direction of the magnetic field of the loops is determined by the right hand grip rule.  (See figure to the right.)   The strength of the magnetic field decreases with distance from the wire.
+
+A current carrying wire can be bent in a loop such that the field is concentrated (and in the same direction) inside of the loop.  The field will be weaker outside of the loop.  Stacking many such loops to form a solenoid (or long coil) can greatly increase the magnetic field in the center and decrease the magnetic field outside of the solenoid.  Such devices are called electromagnets and are extremely important in generating strong and well controlled magnetic fields.  An infinitely long solenoid will have a uniform magnetic field inside of the loops and no magnetic field outside.  A finite length electromagnet will produce essentially the same magnetic field as a uniform permanent magnet of the same shape and size.  An electromagnet has the advantage, though, that you can easily vary the strength (even creating a field in the opposite direction) simply by controlling the input current.  One important use is to continually switch the polarity of a stationary electromagnet to force a rotating permanent magnet to continually rotate using the fact that opposite poles attract and like poles repel.  This can be used to create an important type of electrical motor. 
+
+===Magnetic dipoles===
+
+thumbnail|Magnetic field lines around a ”magnetostatic dipole” the magnetic dipole itself is in the center and is seen from the side.
+
+The magnetic field due to a orbiting' the nuclei of the magnetic material.  Alternatively it is due to the structure of the electron itself which, in some sense, can be thought of as forming a tiny loop of current.  (The true nature of the electron's magnetic field is relativistic in nature, but this model often works.)  Both of these tiny loops are modeled in terms of what is called the magnetic dipole.  The dipole moment of that dipole can be defined as the current times the area of the loop, then an equation for the magnetic field due to that magnetic dipole can be derived.  (See the above image for what that magnetic field looks like.) Magnetic field of a larger magnet can be calculated by adding up the magnetic fields of many magnetic dipoles.
+
+===Changing electric field===   
+
+The final known source of magnetic fields is a changing electric field.  Just as a changing magnetic field  generates an electric field so does a changing electric field generate a magnetic field.  (These two effects bootstrap together to form electromagnetic waves, such as light.)  Similar to the way magnetic field lines form close loops around a current a time varying electric field generates a magnetic field that forms closed loops around the region where the electric field is changing.  The strength of this magnetic field is proportional to the time rate of the change of the electric field (which is called the displacement current).  <ref>In the ether model the displacement current is a real current that occurs because the electric field 'displaces' positive charge in one direction and negative charge in the opposite direction in the ether.  A change in the electric field will then shift these charges around causing a current in the ether.  This model can still be useful even though it is incorrect in that it helps to give a better understanding of the displacement field.</ref>  The fact that a changing electric field creates a magnetic field is known as Maxwell's correction to Ampere's Law.
+
+===Magnetic monopole (hypothetical)===    
+
+The magnetic monopole is a hypothetical particle (it may or may not exist).  A magnetic monopole would have, as its name suggests, only one pole.  In other words, it would possess "magnetic charge" analogous to electric charge. Positive magnetic charge would correspond to an isolated north pole, and negative magnetic charge would correspond to an isolated south pole.
+
+Modern interest in this concept stems from particle theories, notably Grand Unified Theories and superstring theories, that predict either the existence or the possibility of magnetic monopoles. These theories and others have inspired extensive efforts to search for monopoles. Despite these efforts, no magnetic monopole has been observed to date.<ref>Two experiments produced candidate events that were initially interpreted as monopoles, but these are now regarded to be inconclusive. For details and references, see magnetic monopole.</ref>
+
+==Definition and mathematical properties of B==
+
+There are several different but physically equivalent ways to define the magnetic <math>\mathbf{B}</math> field.  In principle any of the above effects due to the magnetic field or any of the sources of the magnetic field can be used to define its magnitude and the direction.  Its direction at a given point can be thought of as being the direction that a ''hypothetical'' freely rotating small test dipole would rotate to point if it ''were'' placed at that point.  Its magnitude is defined (in SI units) in terms of the voltage induced per unit area on a current carrying loop in a uniform magnetic field normal to the loop when the magnetic field is reduced to zero in a unit amount of time.  The SI unit of magnetic field is the Tesla.
+
+The magnetic field vector is a pseudovector (also called an axial vector). (This is a technical statement about how the magnetic field behaves when you reflect the world in a mirror.) This fact is apparent from many of the definitions and properties of the field; for example, the magnitude of the field  is proportional to the torque on a dipole, and torque is a well-known pseudovector.
+
+===Maxwell's equations===
+
+As discussed above, the magnetic field is a vector field.  (The magnetic field at each point in space and time is represented by its own vector.)  As a vector field, the magnetic field has two important mathematical properties.  These properties, along with the corresponding properties of the electric field, make up Maxwell's Equations.
+
+The first is that the magnetic <math>\mathbf{B}</math> field never starts nor ends at a point.  Whatever magnetic field lines enter a region has to eventually leave that region.  This is mathematically equivalent to saying that the divergence of the magnetic <math>\mathbf{B}</math> is zero.  (Such vector fields are called solenoidal vector fields.) This property is called Gauss' law for magnetism and is one of Maxwell's Equations. It is also equivalent to the statement that there are no magnetic monopoles (see above).
+
+The second mathematical property of the magnetic field is that it always loops around the source that creates it.  This source could be a current, a magnet, or a changing electric field, but it is always within the loops of magnetic field they create.  Mathematically, this fact is described by the Ampère-Maxwell equation.
+
+==Measuring the magnetic B field==
+
+There are many ways of measuring the magnetic <math>\mathbf{B}</math> field, many of which use the effects described above.   Devices used to measure the local magnetic field are called magnetometer,  SQUID magnetometer, and a fluxgate magnetometer.  The magnetic fields of distant astronomical objects can be determined by noting their effects on local charged particles.  For instance, electrons spiraling around a field line will produce synchotron radiation which is detectable in radio waves.
+
+===Hall effect===
+
+Because the Lorentz force is charge-sign-dependent (see above), it results in charge separation when a conductor with current is placed in a transverse magnetic field, with a buildup of opposite charges on two opposite sides of conductor in the direction normal to the magnetic field, and the potential difference between these sides can be measured.
+
+The Hall effect is often used to measure the magnitude of a magnetic field as well as to find the sign of the dominant charge carriers in semiconductors (negative electrons or positive holes).
+
+===SQUID magnetometer===
+
+Superconductors are materials with both distinctive electric properties (perfect conductivity) and magnetic properties (such as the Meissner effect, in which many superconductors can perfectly expel magnetic fields). Due to these properties, it turns out that loops that incorporate superconducting material and their Josephson junctions can function as very sensitive magnetometers, called SQUIDs.
+
+==The H field==
+
+The term 'magnetic field' can also be used to describe the magnetic <math>\mathbf{H}</math> field.  The magnetic <math>\mathbf{H}</math> field is similar to <math>\mathbf{B}</math> in that it is a vector field, but its units are often different. In SI units, <math>\mathbf{B}</math> and <math>\mathbf{H}</math> are measured in teslas (T) and amperes per meter (A/m), respectively; or, in cgs units, in gauss (G) and magnetizable materials, the two fields are identical (apart from possibly a constant conversion factor), but inside a magnetic material they can differ substantially. Quantitatively, the fields are related by the following equations:
+
+:<math>\mathbf{B}=\mu_0(\mathbf{H}+\mathbf{M})</math> (SI units)
+
+:<math>\mathbf{B}=\mathbf{H}+4\pi\mathbf{M}</math> (cgs units),
+
+where <math>\mathbf{M}</math> is magnetization density of any magnetic material. 
+
+===Physical interpretation of the H field===
+
+It is often important to distinguish between two different types of currents: free current and bound current.  Free currents are currents that can be directly controlled and easily measured, for instance by changing the voltage applied to the wire.  Bound currents are, as their name implies, bound to magnetic materials.  As an example of bound current consider a uniform permanent bar magnet.  A bar magnet is formed by many tiny magnets called magnetic dipoles each of which is essentially a tiny loop of current.  By lining up a huge number of these dipoles we can create a large magnetic field.  If we add up the currents of all these tiny loops we will find that the currents cancel in the interior of the bar magnet but add up along the outside edge of the bar magnet.  (This current loops around the sides and not at the poles.)  No one charge makes the complete trip around the magnet (each charge is bound to its tiny loop) but the net effect is a real current that flows on the outside of the magnet.  (If the magnetization is not uniform then a bound current will flow through the bulk of the magnetic material as well.)  
+
+The magnetic <math>\mathbf{H}</math> is useful because it treats these two types of currents differently.  The free currents it treats in the normal fashion and therefore has the same form as the magnetic <math>\mathbf{B}</math> field it would generate.  The magnetic <math>\mathbf{H}</math> fields treats the field inside of a magnetic material (due to that magnetic material) in a manner similar to the Gilbert model.  (By subtracting the magnetization from the B field we are essentially converting the bound current sources to Gilbert-like magnetic charges at the poles.)  Unlike the magnetic <math>\mathbf{B}</math> which always forms closed loops the field due to the magnetic charges flow outward (or inward depending on the sign of the magnetic charge) in both directions from the poles.  And while the magnetic field is exactly the same on the outside of the magnetic material for both models the magnetic fields inside are quite different.  
+
+Putting both sources together we see that the magnetic <math>\mathbf{H}</math> field is the same as the magnetic <math>\mathbf{B}</math> field to a multiplicative constant outside of magnetic materials, but is completely different from the magnetic <math>\mathbf{B}</math> field inside a magnetic material.  The advantage of this hybrid <math>\mathbf{H}</math> field is that these sources are treated so differently that we can often pick out one source from the other.  For example a line integral of the magnetic <math>\mathbf{H}</math> field in a closed loop will yield the total free current in the loop (and not the bound current).  This is unlike the magnetic <math>\mathbf{B}</math> field where a similar integral will yield the sum of both the free and the bound current.  If one wants to isolate the contribution due to the bound currents then a surface integral of <math>\mathbf{H}</math> over any closed surface will pick out the 'magnetic charges' at the poles.  
+
+===Sources of the H field===
+
+Unlike the magnetic <math>\mathbf{B}</math> field that only has a current source such that the magnetic <math>\mathbf{B}</math> field loops around currents, the magnetic <math>\mathbf{H}</math> field has two types of sources.  The first source of magnetic <math>\mathbf{H}</math> field are the ''free'' currents for which <math>\mathbf{H}</math> loop around similar to the way <math>\mathbf{B}</math> field loops around the total current.  The second source of the magnetic <math>\mathbf{H}</math> field are 'magnetic charges'  near the poles of the magnetic material.  More precisely, these 'magnetic charges' are calculated as <math>-\mathbf{\nabla}\cdot\mathbf{M}</math>. 
+
+===Uses of the H field===
+====Energy stored in magnetic fields====
+
+In order to create a magnetic field we need to do work to establish a free current.  If we are to ask how much energy does it take to create a specific magnetic field using a particular free current then we need to distinguish between the free and the bound currents.  It is the free current that we are 'pushing' on.  The bound currents are freeloaders.  They create a magnetic field that the free current has to work against without doing any of the work.  If we are to calculate the energy of creating a magnetic field <math>\mathbf{B}</math> we need to have a way of separating out the free current.   The magnetic <math>\mathbf{B}</math> cannot be used to determine this free current since <math>\mathbf{B}</math> does not distinguish between bound and free current. 
+
+The magnetic <math>\mathbf{H}</math> field does treat the two sources differently.  Therefore it is useful in calculating the energy needed to create a magnetic field with a free current in the presence of magnetic materials.  In this case the energy density needed, assuming a linear relationship between <math>\mathbf{H}</math> and <math>\mathbf{B}</math>, has the form of:
+
+:<math> u = \frac{\mathbf{H}\cdot\mathbf{B}}{2}.</math>
+
+If there are no magnetic materials around then we can replace <math>\mathbf{H}</math> with <math>\frac{\mathbf{B}}{\mu_o}</math>,
+
+:<math> u = \frac{\mathbf{B}\cdot\mathbf{B}}{2\mu_o}.</math>
+
+====Magnetic circuits====

@@ -1,0 +1,80 @@
+Unter '''Lokalisation''' versteht man das Erkennen von Richtung und Entfernung einer Schallquelle als Richtungshören und Entfernungshören, also die Richtungslokalisation und die Entfernungslokalisation.
+
+thumb|Benennung der drei Ebenen<br>oben: 1. [[Horizontalebene (Transversalebene) <br>&#160;mitte: 2. Medianebene (Sagittalebene)<br>unten: 3. Frontalebene]] 
+
+Die Lokalisation von Schallquellen ist ein Ergebnis des beidohrigen (binauralen) Hörens. Dieser Artikel beschreibt die Lokalisation von Schallquellen beim Menschen. Bei Tieren spielen z.&nbsp;T. noch andere Effekte eine Rolle (z.&nbsp;B. Einfluss von Ohrbewegungen).
+
+Wenn Fledermäuse hohe Töne ausstoßen und aus den Reflexionen, also aus den Sekundärsignalen das Hindernis erkennen, dann wird dies Echoortung genannt. 
+
+=== Prinzip der Lokalisation im Raum ===
+Im Bild sind die möglichen Ebenen dargestellt, die zur Lokalisation einer Schallquelle im Raum genutzt werden können. Für eine eindeutige Lokalisation sind aber nur folgende Angaben erforderlich:
+*ein Einfallswinkel in einer Halbebene
+*ein Einfallswinkel in einer vollen Ebene
+*eine Entfernung
+Mit den ersten beiden Angaben kann man winkelmäßig den gesamten Raum aufspannen (Drehen der Halbebene um den Winkel der Vollebene). Dieses entspricht auch dem Zusammenspiel der Mechanismen, die das Gehör zur Lokalisation von Schallquellen benutzt.
+
+Je nach den Mechanismen, die das Gehör zur Lokalisation benutzt, sind folgende Kategorien zu unterscheiden (Halbebene, Vollebene und Entfernung):
+
+*Bestimmung der seitlichen Einfallsrichtung des Schalls.<br> Hierzu wertet das Gehör Laufzeitdifferenzen und Pegeldifferenzen zwischen beiden Ohren aus. Unterschieden werden hierdurch die Richtungen links, geradeaus, rechts. Diese Mechanismen des Gehörs können nicht zwischen vorne und hinten unterscheiden (mit ''geradeaus'' ist hier nicht ''vorne'' gemeint). Ein Einfallswinkel für die gesamte Horizontalebene kann vom Gehör mit diesen Mechanismen nicht bestimmt werden.
+*Bestimmung der medianen Einfallsrichtung des Schalls in der Medianebene.<br> Hierzu wertet das Gehör Resonanzen des Außenohrs aus. Unterschieden werden hierdurch die Richtungen vorn, oben, hinten und unten - aber nicht rechts und links.
+*Entfernung der Schallquelle. <br> Hierzu wertet das Gehör Reflexionsmuster und Klangfarben auch aus der Erinnerung aus.
+
+Mit Hilfe der ersten beiden Mechanismen lässt sich der Raumwinkel bestimmen, unter dem der Schall einfällt und mit Hilfe des letzten Mechanismus die Entfernung.
+
+Für die Auswertung einer Einfallsrichtung in der Frontalebene besitzt das Gehör keine direkten Mechanismen. Schallquellen in der Frontalebene werden über die Kombination der Mechanismen für horizontalen Einfallswinkel und Medianebene lokalisiert.
+
+=== Bestimmung der seitlichen Einfallsrichtung: links, geradeaus, rechts  ===
+Zur Bestimmung der seitlichen Einfallsrichtung (Schall links, geradeaus, rechts) wertet das Gehör folgende Informationen als Ohrsignale aus:
+*interaurale Laufzeitdifferenzen (''ITD'': Interaural Time Difference)<br> Schall von rechts erreicht das rechte Ohr eher als das linke Ohr. ITD<sub>max</sub>=0,63 ms.<br> Hierbei unterscheidet man zwischen der
+**Auswertung von Phasenlaufzeiten bei niedrigen Frequenzen
+**Auswertung von Gruppenlaufzeiten bei hohen Frequenzen
+*Auswertung von frequenzabhängigen Pegeldifferenzen (Pegelunterschieden) zwischen beiden Ohren (''ILD'': Interaural Level Difference)<br> Schall von rechts besitzt am rechten Ohr einen höheren Pegel als am linken, da der Kopf das Signal am linken Ohr abschattet. Diese Pegelunterschiede sind stark frequenzabhängig und nehmen mit steigender Frequenz zu.
+
+Bei tiefen Frequenzen unterhalb von ca. 800 Hz werden vor allem Laufzeitunterschiede ausgewertet (Phasenlaufzeiten), bei hohen Frequenzen oberhalb von ca. 1600 Hz vor allem Pegelunterschiede. Dazwischen liegt ein Überlappungsbereich, in dem beide Mechanismen eine Rolle spielen. Die Qualität der Richtungsbestimmung wird hiervon aber nicht beeinträchtigt.
+
+==== Auswertung bei tiefen Frequenzen ====
+Bei tiefen Frequenzen unterhalb 800 Hz sind die Abmessungen des Kopfes mit einer Wegstrecke d = 21,5 cm von Ohr zu Ohr, entsprechend einer Laufzeitdifferenz von 632 µs, kleiner als die ''halbe'' Wellenlänge des Schalls. Hier kann das Gehör Phasenlaufzeiten zwischen beiden Ohren sehr exakt auswerten. Die Pegelunterschiede sind hierbei so gering, dass sie keine genaue Auswertung gestatten. Frequenzen unterhalb von 80 Hz sind nicht mehr in ihrer Richtung zu lokalisieren.
+
+==== Auswertung bei hohen Frequenzen ====
+Bei hohen Frequenzen oberhalb von 1600 Hz sind die Abmessungen des Kopfes größer als die Wellenlänge des Schalls. Hier kann das Gehör aus Phasenlaufzeiten die Richtung nicht mehr eindeutig bestimmen. Dafür werden Pegelunterschiede größer, die dann auch vom Gehör ausgewertet werden.
+
+Zusätzlich werden (auch bei höheren Frequenzen) Reflexionen keine eindeutige Richtungsbestimmung mehr möglich ist.
+
+'''Sound localization''' is a listener's ability to identify the location or origin of a detected sound or the methods in acoustical engineering to simulate the placement of an auditory cue in a virtual 3D space (see binaural recording).
+
+There are two general methods for sound localization, binaural cues and monaural cues.
+
+== Binaural cues ==
+Binaural localization relies on the comparison of auditory input from two separate detectors. Therefore, most auditory systems feature two ears, one on each side of the head. The primary biological binaural cue is the split-second delay between the time when sound from a single source reaches the near ear and when it reaches the far ear. This is often technically referred to as the "interaural time difference" (ITD). ITD<sub>max</sub> = 0.63 ms. Another binaural cue, less significant in ground dwelling animals, is the reduction in loudness when the sound reaches the far ear, or the "interaural amplitude difference" (IAD) or (ILD) as "interaural level difference". This is also referred to as the frequency dependent "interaural level difference" (ILD) (or "interaural intensity difference" (IID)). Our eardrums are only sensitive to the sound pressure level differences.
+
+Note that these cues will only aid in localizing the sound source's azimuth (the angle between the source and the sagittal plane), not its elevation (the angle between the source and the horizontal plane through both ears), unless the two detectors are positioned at different heights in addition to being separated in the horizontal plane. In animals, however, rough elevation information is gained simply by tilting the head, provided that the sound lasts long enough to complete the movement. This explains the innate behavior of cocking the head to one side when trying to localize a sound precisely. To get instantaneous localization in more than two dimensions from time-difference or amplitude-difference cues requires more than two detectors. However, many animals have quite complex variations in the degree of attenuation of a sound receives in travelling from the source to the eardrum: there are variations in the frequency-dependent attenuation with both azimuthal angle and elevation. These can be summarised in the head-related transfer function, or HRTF. As a result, where the sound is wideband (that is, has its energy spread over the audible spectrum), it is possible for an animal to estimate both angle and elevation simultaneously without tilting its head. Of course, additional information can be found by moving the head, so that the HRTF for both ears changes in a way known (implicitly!) by the animal. 
+
+In vertebrates, inter-aural time differences are known to be calculated in the superior olivary nucleus of the brainstem. According to Jeffress<ref>Jeffress, L.A., 1948. A place theory of sound localization. ''Journal of Comparative and Physiological Psychology 41'', 35-39.</ref>, this calculation relies on delay lines: neurons in the superior olive which accept innervation from each ear with different connecting axon lengths. Some cells are more directly connected to one ear than the other, thus they are specific for a particular inter-aural time difference. This theory is equivalent to the mathematical procedure of cross-correlation. However, because Jeffress' theory is unable to account for the precedence effect, in which only the first of multiple identical sounds is used to determine the sounds' location (thus avoiding confusion caused by echoes), it cannot be entirely correct, as pointed out by Gaskell<ref>Gaskell, H., 1983. The precedence effect. ''Hearing Research 11'', 277-303.</ref>.
+
+The tiny parasitic fly Ormia ochracea has become a model organism in sound localization experiments because of its unique ear. The animal is too small for the time difference of sound arriving at the two ears to be calculated in the usual way, yet it can determine the direction of sound sources with exquisite precision. The tympanic membranes of opposite ears are directly connected mechanically, allowing resolution of nanosecond time differences<ref>Miles RN, Robert D, Hoy RR. Mechanically coupled ears for directional hearing in the parasitoid fly Ormia ochracea. ''J Acoust Soc Am.'' 1995 Dec;98(6):3059-70. PMID 8550933  </ref> <ref>Robert D, Miles RN, Hoy RR. Directional hearing by mechanical coupling in the parasitoid fly Ormia ochracea. ''J Comp Physiol [A]''. 1996;179(1):29-44. PMID 8965258  </ref> 
+''[these refs appear to support only few-microsecond, not nanosecond, resolution - see talk page]''
+and requiring a new neural coding strategy.<ref>Mason AC, Oshinsky ML, Hoy RR. Hyperacute directional hearing in a microscale auditory system. ''Nature''. 2001 Apr 5;410(6829):686-90. PMID 11287954 </ref> Ho<ref>Ho CC, Narins PM. Directionality of the pressure-difference receiver ears in the northern leopard frog, Rana pipiens pipiens. ''J Comp Physiol [A]''. 2006 Apr;192(4):417-29.</ref> showed that the coupled-eardrum system in frogs can produce increased interaural vibration disparities when only small arrival time and intensity differences were available to the animal’s head. Efforts to build directional microphones based on the coupled-eardrum structure are underway.
+
+== Monaural (filtering) cues ==
+''Monaural'' localization mostly depends on the filtering effects of external structures. In advanced auditory systems, these external filters include the head, shoulders, torso, and outer ear or "pinna", and can be summarized as the pinna notch, a reflected from the outer ear.  The frequency that is selectively notch filtered depends on the angle from which the sound strikes the outer ear. Instantaneous localization of sound source elevation in advanced systems primarily depends on the pinna notch and other head-related filtering. These monaural effects also provide azimuth information, but it is inferior to that gained from binaural cues.
+
+In order to enhance filtering information, many animals have large, specially shaped outer ears. Many also have the ability to turn the outer ear at will, which allows for better sound localization and also better sound detection. Bats and barn owls are paragons of monaural localization in the animal kingdom, and have thus become model organisms.
+
+Processing of head-related transfer functions for biological sound localization occurs in the auditory cortex.
+
+== Distance cues ==
+Neither inter-aural time differences nor monaural filtering information provides good distance localization. Distance can theoretically be approximated through inter-aural amplitude differences or by comparing the relative head-related filtering in each ear: a combination of binaural and filtering information. The most direct cue to distance is sound amplitude, which decays with increasing distance. However, this is not a reliable cue, because in general it is not known how strong the sound source is. In case of familiar sounds, such as speech, there is an implicit knowledge of how strong the sound source ''should'' be, which enables a rough distance judgment to be made.
+
+In general, echoed by large structures in the environment (such as walls and ceiling). Such echoes provide reasonable cues to the distance of a sound source, in particular because the strength of echoes does not depend on the distance of the source, while the strength of the sound that arrives directly from the sound source becomes weaker with distance. As a result, the ratio of direct-to-echo strength alters the quality of the sound in such a way to which humans are sensitive. In this way consistent, although not very accurate, distance judgments are possible. This method generally fails outdoors, due to a lack of echoes. Still, there are a number of outdoor environments that also generate strong, discrete echoes, such as mountains. On the other hand, distance evaluation outdoors is largely based on the received timbre of sound: short soundwaves (high-pitched sounds) die out sooner, due to their relatively smaller kinetic energy, and thus distant sounds appear duller than normal (lacking in treble).
+
+==Bi-coordinate sound localization in owls==
+
+Most owls are nocturnal or crepuscular birds of prey.  Because they hunt at night, they must rely on non-visual senses.  Experiments by Roger Payne <ref>Payne, Roger S., 1962. How the Barn Owl Locates Prey by Hearing. ''The Living Bird, First Annual of the Cornell Laboratory of Ornithology'', 151-159.</ref> have shown that owls are sensitive to the sounds made by their prey, not the heat or the smell.  In fact, the sound cues are both necessary and sufficient for localization of mice from a distant location where they are perched.  For this to work, the owls must be able to accurately localize both the azimuth and the elevation of the sound source.
+
+===ITD and IID===
+
+Owls living above ground must be able to determine the necessary angle of descent, i.e. the elevation,  in addition to azimuth (horizontal angle to the sound).  This bi-coordinate sound localization is accomplished through two binaural cues: the interaural time difference (ITD) and the interaural intensity difference (IID), also known as the interaural level difference (ILD). The ability in owls is unusual: in mammals like humans, which live in a two dimensional world, ITD and IID are redundant cues for azimuth.
+
+ITD occurs whenever the distance from the source of sound to the two ears is different, resulting in differences in the arrival times of the sound at the two ears.  When the sound source is directly in front of the owl, there is no ITD, i.e. the ITD is zero.  In sound localization, ITDs are used as cues for location in the azimuth. ITD changes systematically with azimuth.  Sounds to the right arrive first at the right ear; sounds to the left arrive first at the left ear. 
+
+In mammals, there is an intensity difference in sounds at the two ears caused by the sound shadowing effect of the head.   But in many species of owls,  level differences arise primarily for sounds that are shifted above or below the elevation of the horizonal plane.  This is because of the asymmetry in placement of the ear openings in the owl's head, such that sounds from above the owl reach the left ear first and sounds from below reach the right ear.  IID is a measure of the difference in the intensity of the sound as it reaches each ear.  In many owls, IIDs for high-frequency sounds (higher than 4 or 5 kHz) are the principal cues for locating sound elevation.

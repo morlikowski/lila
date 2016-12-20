@@ -1,0 +1,42 @@
+'''Sinclair BASIC''' – bitų asmeniniuose kompiuteriuose bei jų klonuose. Sinclair BASIC interpretatorius buvo sukurtas „Nine Tiles Networks“ kompanijos.
+
+Sukurtas pastoviojoje atmintyje. Tai buvo neužbaigta 1978 metų TS1000 kompiuteriuose, kur buvo talpinamas jau į 8&nbsp;kB ROM, ir buvo beveik galutinai užbaigtas Sinclair ZX Spectrum kompiuteryje, kuriame buvo įrašomas į 16&nbsp;kB pastoviąją atmintį.
+
+==Sinclair BASIC aprašymas==
+===Raktiniai žodžiai===
+Spectrum kompiuteryje Sinclair BASIC turėjo 86 raktinius žodžius, žyminčius komandas (kurių buvo 50), <u>funkcijas</u> (31) ir ''kitus raktažodžius'' (5). Jie buvo įvedami ne pažodžiui, o kiekvienas klaviatūros mygtukas atitiko keletą reikšmių, kurios buvo keičiamos perjungimo klavišais. Pavyzdžiui, ''BEEP'' komanda buvo įvedama iš pradžių kartu nuspaudus ''CAPS'' ir ''Symbol SHIFT'', poto ''SYMBOL SHIFT'' plius ''Z''. 
+
+:<u>ABS</u>, <u>ACS</u>, <u>AND</u><sup><small>1</small></sup>, <u>ASN</u>, ''AT'', <u>ATN</u>, <u>ATTR</u>, BEEP, BIN, BORDER, BRIGHT, CAT<sup><small>2</small></sup>, <u>CHR$</u></u><sup><small>3</small></sup>, CIRCLE, CLEAR, CLOSE#<sup><small>2</small></sup>, CLS, <u>CODE</u><sup><small>3</small></sup>, CONTINUE, COPY, <u>COS</u>, DATA, DEF FN, DIM, DRAW, ERASE<sup><small>2</small></sup>, <u>EXP</u>, FLASH, <u>FN</u>, FOR, FORMAT<sup><small>2</small></sup>, GO SUB, GO TO, IF<sup><small>4</small></sup>, <u>IN</u>, INK, <u>INKEY$</u><sup><small>3</small></sup>, INPUT, <u>INT</u>, INVERSE, <u>LEN</u>, LET<sup><small>5</small></sup>, ''LINE'', LIST, LLIST, <u>LN</u>, LOAD, LPRINT, MERGE, MOVE<sup><small>2</small></sup>, NEW, NEXT, <u>NOT</u><sup><small>1</small></sup>, OPEN#<sup><small>2</small></sup>, <u>OR</u><sup><small>1</small></sup>, OUT, OVER, PAPER, PAUSE, <u>PEEK</u>, <u>PI</u>, PLOT, <u>POINT</u>, POKE, PRINT, RANDOMIZE, READ, REM, RESTORE, RETURN, <u>RND</u>, RUN, SAVE, <u>SCREEN$</u><sup><small>3</small></sup>, <u>SGN</u>, <u>SIN</u>, <u>SQR</u>, ''STEP'', <u>STR$</u><sup><small>3</small></sup>, ''TAB'', <u>TAN</u>, ''THEN'' <sup><small>4</small></sup>, <u>TO</u>, <u>USR</u>, <u>VAL</u><sup><small>3, 6</small></sup>, <u>VAL$</u><sup><small>3</small></sup>, VERIFY
+
+Komandos, kurios buvo unikalios tik ZX81 ir jo klonuose TS1000 ir TS1500 yra:
+
+:FAST, SCROLL, SLOW, UNPLOT, GOSUB, GOTO (Spectrum turėjo funkciškai identiškas GO SUB, GO TO komandas)
+
+Spectrum 128K ir Amstrad Spectrum +2, +3, +2A, +2B modeliuose BASIC komandų įvedimas jau buvo vykdomas tradiciniu būdu, užrašant juos paraidžiui. Taip pat šiuose modeliuose atsirado dvi naujos komandos, kurių senesni modeliai neatpažindavo: PLAY (veikė su nauju AY-3-8910 muzikiniu lustu) ir SPECTRUM (perjungdavo į 48K Spectrum modelio suderinamumo režimą).
+
+===Pastabos===
+# AND, NOT ir OR funkcijos yra loginės operacijos.
+# CAT, ERASE, FORMAT ir MOVE iš pradžių buvo sukurti naudojimui su periferine įranga, tačiau nebuvo iki galo užbaigti. Jų naudojimas sugeneruodavo klaidos pranešimą (''Invalid Stream'').
+# ''String'' (tekstinės eilutės duomenų tipo) kintamųjų vardai galėjo susidėti tik iš vienos raidės. „LET A=5“, „LET Apples=5“ ir „LET A$="Hello"“ yra teisingi sakiniai, tačiau „LET APPLES$="Fruit"“ bus klaidingas sakinys.
+# Skirtingai nei dauguma kitų BASIC dialektų, Sinclair BASIC neturi ''ELSE'' operatoriaus sąlygos (IF) sakiniuose.
+# LET yra būtinas, norint priskirti kintamajam reikšmę (pavyzdžiui, „LET A=1“, bet niekada „A=1“). Ši praktika irgi skiriasi nuo daugumos BASIC dialektų.
+# VAL funkcija išreiškia ne tik skaičius, bet ir visus reiškinius, pavyzdžiui, „PRINT VAL(A$)“ išves 14, jei A$ yra lygus „3*3+4+COS(0)“.
+
+Skirtingai nuo LEFT$(), MID$() ir RIGHT$() funkcijų plačiai naudotame Microsoft BASIC dialekte, tekstinių eilučių dalis Sinclair BASIC buvo galima pasiekti į masyvus panašiu stiliumi. Pavyzdžiui, „A$ (5 TO 10)“ atitiks A$ kintamojo tekstinės eilutės dalį nuo 5 iki 10 simbolio (imtinai).
+
+'''Sinclair BASIC''' is een variant van de ZX80, ZX81, ZX Spectrum en Timex Sinclair 1000 computers gebruikt werd.
+
+De ANSI-standaard voor BASIC uit 1978. In de ZX81 was 8 KB ROM beschikbaar, en Sinclair BASIC werd daarom ook uitgebreid; de ZX Spectrum had 16 KB ROM en ook weer een nog uitgebreidere BASIC, die echter nog altijd niet helemaal aan de ANSI-standaard voldeed.
+
+==Gereserveerde Woorden==
+Er zijn 86 gereserveerde woorden in Sinclair BASIC op de ZX Spectrum:
+* 50 opdrachten: <tt>BEEP, BIN, BORDER, BRIGHT, CAT, CIRCLE, CLEAR, CLOSE#, CLS, CONTINUE, COPY, DATA, DEF FN, DIM, DRAW, ERASE, FLASH, FOR, FORMAT, GO SUB, GO TO, IF, INK, INPUT, INT, INVERSE, LIST, LLIST, LOAD, LPRINT, MERGE, MOVE, NEW, NEXT, OPEN#, OUT, OVER, PAPER, PAUSE, PLOT, POKE, PRINT, RANDOMIZE, READ, REM, RESTORE, RETURN, RUN, SAVE</tt> en <tt>VERIFY</tt>;
+* 31 functies: <tt>ABS, ACS, AND, ASN, ATN, ATTR, CHR$, CODE, COS, EXP, IN, INKEY$, INT, LEN, LN, NOT, OR, PEEK, PI, POINT, RND, SCREEN$, SGN, SIN, SQR, STR$, TAN, TO, USR, VAL</tt> en <tt>VAL$</tt>;
+* 5 overige woorden: <tt>AT, LINE, STEP, TAB</tt> en <tt>THEN</tt>.
+
+Op de ZX81 en de Timex Sinclair TS1000 en TS1500 werden ook deze woorden nog gebruikt:
+* <tt>FAST, SCROLL, SLOW, UNPLOT, GOSUB</tt> en <tt>GOTO</tt> (deze laatste twee waren identiek aan <tt>GO SUB</tt> en <tt>GO TO</tt> op de ZX Spectrum)
+
+Het bijzondere aan Sinclair BASIC is dat deze woorden niet ingetypt werden (zoals bij de meeste computers), maar via toetscombinatie's in één keer ingevoerd werden. Om bijvoorbeeld de opdracht <tt>LOAD</tt> te geven, hoefde er alleen maar op de J-toets gedrukt te worden, maar om minder vaak gebruikte woorden in te voeren moesten ingewikkeldere combinaties ingedrukt worden: door de CAPS-toets en SYMBOL SHIFT-toets tegelijk in te drukken, deze dan los te laten, en dan SYMBOL SHIFT en de Z-toets in te drukken, kwam bijvoorbeeld de opdracht <tt>BEEP</tt> op het scherm.
+
+De reden voor deze manier van doen was om ruimte te sparen: voor het opslaan in het geheugen was voor elk woord had op deze manier in feite maar 1 byte nodig, in plaats van 1 byte per letter: een lang woord als <tt>CONTINUE</tt> spaart op deze manier 7 bytes uit (8 bytes als de spatie erna meegerekend wordt). Tegenwoordig komt dit wellicht vreemd over, maar in de jaren '80 was computergeheugen duur, en dus probeerde men zoveel mogelijk uit het weinige beschikbare geheugen te halen.

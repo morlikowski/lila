@@ -1,0 +1,96 @@
+{{Chembox new
+|   Name = Salicylic acid
+|   ImageFileL1 = Salicylic-acid-skeletal.svg 
+|   ImageSizeL1 = 120px
+|   ImageFileR1 = Salicylic-acid-3D-balls.png
+|   ImageSizeR1 = 120px
+|   IUPACName = 2-Hydroxybenzoic acid
+| Section1 = {{Chembox Identifiers
+|   CASNo = 69-72-7
+|   EINECS = 200-712-3
+|   SMILES = OC(=O)c1ccccc1O 
+  }}
+| Section2 = {{Chembox Properties
+|   Formula = C<sub>7</sub>H<sub>6</sub>O<sub>3</sub> 
+|   MolarMass = 138.123 g/mol 
+|   MeltingPt = 159 °C 
+|   BoilingPt = 211 °C (2666 Pa) 
+|   Density = 1.44 g/cm³ (at 20 °C) 
+  }}
+| Section8 = {{Chembox Related
+|   OtherCpds = Bismuth subsalicylate (Pepto Bismol),<br/>Sulfosalicylic acid 
+  }}
+}}
+'''Salicylic acid''' (from the Latin word for the willow tree, ''formula C<sub>6</sub>H<sub>4</sub>(OH)CO<sub>2</sub>H, where the OH group is adjacent to the carboxyl group. This colorless crystalline organic acid is widely used in organic synthesis and functions as a plant hormone. It is derived from the metabolism of salicin. It is probably best known as a compound that is chemically similar to but not identical to the active component of aspirin (''acetylsalicylic acid'').  In fact, salicylic acid is a metabolite of aspirin, the product of esterase hydrolysis in the liver.
+
+==Plant Hormone==
+Salicylic acid (SA) is a phytohormone; and a phenol, ubiquitous in plants generating a significant impact on plant growth and development, photosynthesis, transpiration, ion uptake and transport and also induces specific changes in leaf anatomy and chloroplast structure. SA is recognized as an endogenous signal, mediating in plant defense, against pathogens<ref></ref> It plays a role in the resistance of pathogens by inducing the production of 'pathogenesis-related proteins'. It is involved in the systemic acquired resistance [SAR] in which a pathogenic attack on older leaves causes the development of resistance in younger leaves, though whether SA is the transmitted signal is debatable. SA is the calorigenic substance that causes thermogenesis in ''Arum'' flowers.<ref></ref>
+
+==Production==
+Salicylic acid is an organic acid biosynthesized from the amino acid phenylalanine.
+
+phenoxide with a high pressure of carbon dioxide at high temperature via the Kolbe-Schmitt reaction. Acidification of the product solution gives salicylic acid:
+
+:left|400px<br clear=left/>
+
+It can be prepared by the hydrolysis of Aspirin (acetylsalicylic acid)<ref></ref> or methyl salicylate (Oil of Wintergreen) with a strong acid or base.
+
+==Analysis==
+Salicylic acid is an enol of a β-keto carbonic acid and therefore forms purple complexes with iron(III) salts:
+
+450px
+
+This tris(chelate) complex forms more readily in basic solution.
+
+==History==
+
+thumb|250px|White willow (''Salix alba'') is a natural source of salicylic acid
+
+The Greek physician Hippocrates wrote in the 5th century BC about a bitter powder extracted from willow bark that could ease aches and pains and reduce fevers. This remedy was also mentioned in texts from ancient Sumer, Lebanon, and Assyria. The Cherokee and other Native Americans used an infusion of the bark for fever and other medicinal purposes for centuries.<ref>Paul B. Hemel and Mary U. Chiltoskey, ''Cherokee Plants and Their Uses -- A 400 Year History,'' Sylva, NC: Herald Publishing Co. (1975); cited in Dan Moerman, A Database of Foods, Drugs, Dyes and Fibers of Native American Peoples, Derived from Plants.[http://herb.umd.umich.edu/] A search of this database for "salix AND medicine" finds 63 entries.</ref> The medicinal part of the plant is the inner bark and was used as a pain reliever for a variety of ailments. The Reverend Edward (Edmund) Stone, a vicar from Chipping Norton, Oxfordshire, England, noted in 1763 that the bark of the willow was effective in reducing a fever.<ref name="RoyalSoc1763EdmundStone"></ref>
+
+The active extract of the bark, called ''French pharmacist, and Italian chemist. Piria was able to convert the substance into a sugar and a second component, which on oxidation becomes salicylic acid.
+
+Salicylic acid was also isolated from the herb Filipendula ulmaria'', formerly classified as ''Spiraea ulmaria'') by German researchers in 1839. While their extract was somewhat effective, it also caused digestive problems such as gastric irritation, bleeding, diarrhea, and even death when consumed in high doses.
+
+==Medicinal and cosmetic uses==
+Also known as 2-hydroxybenzoic acid, one of several beta hydroxy acids (compare to AHA), salicylic acid is a key ingredient in many skin-care products for the treatment of acne, corns, epidermis to slough off more readily, preventing pores from clogging up, and allowing room for new cell growth. Because of its effect on skin cells, salicylic acid is used in several Fitzpatrick phototypes IV, V, VI), as well as with the lack of use of a broad spectrum sunblock.<ref></ref><ref></ref>
+
+The medicinal properties of salicylate, mainly for ancient times, and it was used as an anti-inflammatory drug.<ref></ref>
+
+{{Chembox new
+| Name = Szalicilsav
+| ImageFileL1= Salicylic-acid-skeletal.svg
+| ImageSizeL1= 120px
+| ImageFileR1= Salicylic-acid-3D-vdW.png
+| ImageSizeR1= 120px
+| IUPACName = 2-Hydroxybenzoic acid
+| Section1 = {{Chembox Identifiers
+| CASNo = 69-72-7
+| SMILES = OC(=O)c1ccccc1O
+  }}
+| Section2 = {{Chembox Properties
+| Formula = C<sub>7</sub>H<sub>6</sub>O<sub>3</sub>
+| MolarMass = 138,123 g/mol
+| MeltingPt = 159 °C
+| BoilingPt = 211 °C (2666 Pa)
+| Density = 1,44 g/cm³ (20 °C)
+  }}
+| Section8 = {{Chembox Related
+| OtherCpds = metil-szalicilát,<br/>benzoesav,<br/>fenol, acetilszalicilsav,<br/>4-hidroxi-benzoesav,<br/> magnézium-szalicilát,<br/>bizmut-szubszalicilát,<br/>szulfoszalicilsav
+  }}
+}}
+A '''szalicilsav'''  (a fűzfa ''Salix'' latin nevéből, melynek kérgében található) egy   béta-hidroxisav (C<sub>6</sub>H<sub>4</sub>(OH)CO<sub>2</sub>H),
+melyben az -OH csoport és a karboxilcsoport szomszédos helyzetű.
+Színtelen kristályos anyag. A szintetikus kémiában gyakori reagens, a természetben növényi hormon. A       salicin anyagcseréje során keletkezik. Legismertebb rokonvegyülete az acetilszalicilsav, mely (többek között) az Aspirin nevű gyógyszer hatóanyaga. 
+
+==Szintézis==
+A  nátrium-fenoxidból és szén-dioxidból  nagy nyomáson nátrium-szalicilát   állítható elő  (Kolbe-Schmitt reakció).  Ebből savas közegben  szalicilsav képződik.
+
+:left|400px<br clear=left/>
+
+== Nönényi hormon ==
+
+A szalicilsav egy fitohormon, amely fontos szerepet játszik a növények fejlődésében, a fotoszintézisben, a növényi légzésben, az ionfelvételben és -transzportban valamint   specifikus hatása van a levelek anatómiájában és a kloroplasztok szerkezetében.
+A szalicilsav endogén jelátvívő molekula a növények kórokozó elleni védekekező mechanizmusaiban is.
+
+== Felhasználása ==

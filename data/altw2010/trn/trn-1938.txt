@@ -1,0 +1,34 @@
+Les '''Single Nucleotide Polymorphims''' (S.N.P) désignent, en polymorphismes) d'une seule paire de base du génome, entre individus d'une même espèce. Ces variations sont très fréquentes (''e.g.'' 1/1000 paire de bases dans le génome humain).
+
+Les SNP peuvent se retrouver au sein de régions codantes de gènes (exon), de régions non-codantes de gènes (intron), ou de régions intergéniques, entre les gènes. Dans le cas où les SNP se retrouvent au sein des régions codantes, celles-ci ne vont pas obligatoirement modifier la séquence d'acide aminé de la protéine produite, et ce, grâce à la redondance du code génétique.
+
+On parlera de formes alléliques ''synonymes'' dans le cas où plusieurs formes d'un SNP mènent à la même séquence polypeptidique, et de formes ''non-synonymes'' dans le cas où les séquences produites diffèrent.
+
+Les SNP qui se retrouvent dans des régions non-codantes peuvent avoir des conséquences sur l'facteurs de transcription, ou sur les séquences d'ARN non-codant.
+
+Les SNP représentent 90% de l'ensemble des variations génétiques humaines, et des SNP avec une fréquence allélique de ≥ 1% sont présents tous les 100 à 300 paires de bases en moyenne dans le génome humain, où 2 SNP sur 3 substituent la cytosine avec la thymine.
+
+thumb|DNA strand 1 differs from DNA strand 2 at a single base-pair location (a C/T polymorphism).
+A '''single nucleotide polymorphism''' ('''SNP''', pronounced ''snip''), is a A, T, C, or G - in the genome (or other shared sequence) differs between members of a species (or between paired chromosomes in an individual).  For example, two sequenced DNA fragments from different individuals, AAGC'''C'''TA to AAGC'''T'''TA, contain a difference in a single nucleotide. In this case we say that there are two ''alleles'' : C and T. Almost all common SNPs have only two alleles. For a variation to be considered a SNP, it must occur in at least 1% of the population.
+
+Within a population, SNPs can be assigned a locus that is observed in a particular population. This is simply the lesser of the two allele frequencies for single nucleotide polymorphisms[1]. It is important to note that there are variations between human populations, so a SNP allele that is common in one geographical or ethnic group may be much rarer in another.  In the past, single nucleotide polymorphisms with a minor allele frequency of less than or equal to 1% (or 0.5%, etc.) were given the title "SNP," an unwieldy definition.  With the advent of modern bioinformatics and a better understanding of evolution, this definition is no longer necessary.  
+
+Single nucleotide polymorphisms may fall within coding sequences of non-coding regions of genes, or in the degeneracy of the genetic code. A SNP in which both forms lead to the same polypeptide sequence is termed ''synonymous'' (sometimes called a silent mutation) - if a different polypeptide sequence is produced they are ''non-synonymous''. SNPs that are not in protein-coding regions may still have consequences for gene splicing, transcription factor binding, or the sequence of non-coding RNA.
+
+Variations in the DNA sequences of humans can affect how humans develop drugs, vaccines, and other agents.  SNPs are also thought to be key enablers in realizing the concept of personalized medicine.<ref>{{cite news | author=Bruce Carlson | title=SNPs &mdash; A Shortcut to Personalized Medicine
+ | url=http://www.genengnews.com/articles/chitem.aspx?aid=2507 | work=Genetic Engineering & Biotechnology News
+ | publisher=Mary Ann Liebert, Inc. | page=12 | date=2008-06-15 | accessdate=2008-07-06
+ | quote=(subtitle) Medical applications are where the market's growth is expected }}</ref> However, their greatest importance in biomedical research is for comparing regions of the genome between cohorts (such as with matched cohorts with and without a disease). 
+
+The study of single nucleotide polymorphisms is also important in crop and livestock breeding programs (see genotyping). See SNP genotyping for details on the various methods used to identify SNPs.
+
+Example SNPs are rs6311 and rs6313 in the HTR2A gene.
+
+== See also ==
+*Single Base Extension
+* Variome
+* TaqMan
+* Affymetrix
+* International HapMap Project
+* tag SNP
+* dbSNP the SNP database.

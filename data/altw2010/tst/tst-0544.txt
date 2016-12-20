@@ -1,0 +1,99 @@
+{{FRA gmina infobox
+|   herb_gminy=
+|  flaga_gminy=
+|   mapa_gminy=
+|        Gmina=Rampieux
+|       region=Akwitania
+|  departament=Dordogne
+| powierzchnia=11,92
+|     stopniEW = 0 |minutEW=48 
+|     stopniNS = 44 |minutNS=43 
+|     wysokosc=
+|         szer=N
+|         dług=E
+|          rok=1990
+|    populacja=155
+|      gęstość=13
+| kod_pocztowy=24440
+|        INSEE=24347
+|}}
+'''Rampieux''' to miejscowość i gmina we Francji, w regionie Dordogne.
+
+Według danych na rok 1990 gminę zamieszkiwało 155 osób, a gęstość zaludnienia wynosiła 13&nbsp;osób/km² (wśród 2290 gmin Akwitanii Rampieux plasuje się na 1021. miejscu pod względem liczby ludności, natomiast pod względem powierzchni na miejscu 936.).
+
+=== Linki zewnętrzne ===
+* Źródło danych: [http://www.insee.fr Insee]
+* '''Mapy i zdjęcia satelitarne: '''
+** Zdjęcie satelitarne: [http://maps.google.com/maps?ll=44.71667,0.8&spn=0.1,0.1&t=k Google maps]
+** Mapa: [http://maps.msn.com/(cgxnej455qpgxeu5vurxtejz)/map.aspx?&lats1=44.71667&lons1=0.8&alts1=14&regn1=2 MSN World Atlas]
+
+{{infobox Franse gemeente|
+|plaatsnaam= Rampieux
+|wapen= 
+|kaart= 
+|regio= Aquitanië 
+|departement= Dordogne (24)
+|arrondissement= Bergerac
+|kanton= Beaumont-du-Périgord
+|jaar= 2005
+|inwoners= 160
+|dichtheid= 13,4
+|oppervlakte= 11,9
+|water= 
+|latitudeGraden= 44 |latitudeMinuten= 43|latitudeSeconden= 0
+|longitudeGraden= 0 |longitudeMinuten= 48 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 124 |kaartY= 210
+|code= 24347
+|postcode= 24440
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Rampieux''' is een gemeente in het Franse departement Dordogne (regio Bergerac.
+
+==Geografie==
+De oppervlakte van Rampieux bedraagt 11,9 km², de bevolkingsdichtheid is 13,4 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:300 color:gray1 width:1       
+  from:start till:end             
+  bar:200 color:gray1              
+  from:start till:end            
+  bar:100 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,121)(84,115) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 178 1968: 168
+  points:(84,115)(100,107)    color:blue    width:2 #1975: 154
+  points:(100,107)(128,108)   color:blue    width:2 #1982: 155
+  points:(128,108)(160,108)   color:blue    width:2 #1990: 155
+  points:(160,108)(196,112)   color:blue    width:2 #1999: 162
+  points:(196,112)(228,111)     color:blue    width:2 #2004/5 
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+==Externe links==
+*[http://www.mapquest.com/maps/map.adp?searchtype=address&formtype=latlong&latlongtype=degrees&latdeg=44&latmin=43&latsec=0&longdeg=0&longmin=48&longsec=0&zoom=6 Locatie van de gemeente (kaart met schaal 1:100.000) op Mapquest]
+*[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=24347&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Meer statistische informatie over de gemeente op www.insee.fr] 

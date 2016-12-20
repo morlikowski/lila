@@ -1,0 +1,33 @@
+'''Kammiosydämen tiheälyöntinen rytmihäiriö. Kammiotakykardiassa rytmin käynnistävät sähköiset impulssit ovat peräisin sydämen kammioista. Kammiotakykardiassa syke on tyypillisesti 160-240 lyöntiä minuutissa. Yksittäisiä kammioperäisiä lyöntejä kutsutaan kammiolisälyönneiksi; kammiotakykardia sisältää määritelmällisesti vähintään kolme peräkkäistä kammioperäistä lyöntiä.
+thumb|420px|Monomorfinen kammiotakykardia 12-kanavaisessa [[EKG:ssa.]]
+
+Jos kammiotakykardiassa syke nousee liian korkeaksi, sydän ei enää pumppaa verta tehokkaasti ja verenkierto saattaa pettää. Kammiotakykardia voi mennä itsestään ohi tai jäädä pysyväksi; jälkimmäisessä tapauksessa se voi johtaa hoitamattomana kammiovärinään ja sydänperäiseen kuolemaan. 
+
+== Jaottelu ==
+Kammiotakykardiat jaotellaan niiden muodon mukaan useisiin tyyppeihin. 
+; Monomorfinen takykardia : Yhdenmuotoisessa eli monomorfisessa kammiotakykardiassa kaikki lyönnit näyttävät EKG:ssa samanlaisilta. QRS-kompleksit ovat samanmuotoisia ja tavallisesti leveitä (>0,14 s) ja rytmi on säännöllinen. 
+; Polymorfinen takykardia : Monimuotoisessa eli polymorfisessa kammiotakykardiassa lyöntien muoto ja väli vaihtelee epäsäännöllisesti. Polymorfinen takykardia johtaa pitkäkestoisena usein kammiovärinään. 
+; Kääntyvien kärkien takykardia : Kääntyvien kärkien takykardia (engl. ''torsades de pointes'') on rytmihäiriö, jossa QRS-kompleksien muoto kääntyilee perusviivan ympäri eri vektorisuuntiin. 
+
+Kammiotakykardiat voidaan jaotella myös keston mukaan pitkäkestoisiksi (engl. ''sustained'') tai lyhytkestoisiksi (engl. ''non-sustained'') eli alle 30 sekunnin mittaisiksi.<ref name="cmdt">Current Medical Diagnosis and Treatment (2006). Lange, 45th edition: pp.379-381. ISBN 0-07-147177-4</ref>  
+
+== Mekanismit ==
+Kammiotakykardiassa yleisin häiriömekanismi on kiertoaktivaatio, jossa sähköinen impulssi muuttuu yksisuuntaisesta kaksisuuntaiseksi ja alkaa kulkea kehässä sydänlihasta pitkin. Monomorfisessa kammiotakykardiassa kaikki lyönnit näyttävät samanlaisilta, koska häiriöimpulssi joko lähtee paikallisesti tietystä kohtaa kammion seinämästä tai kiertää yhdessä kehässä kammion sisällä. Monomorfinen takykardia edellyttää jonkinlaista pysyvää rytmihäiriötä ylläpitävää rakennetta, joista yleisin on aiemman sydäninfarktin sydämen seinämään jättämä arpi.
+
+Polymorfinen kammiotakykardia liittyy tyypillisesti sydänlihaksen äkilliseen iskemiaan kuten sydäninfarktiin. Muita syitä ovat myokardiitti, kardiomyopatia ja toisinaan elektrolyyttihäiriöt. Polymorfinen takykardia on tyypiltään epävakaa ja johtaa hoitamattomana usein kammiovärinään.
+
+Kääntyvien kärkien kammiotakykardia aiheutuu pitkästä QT-ajasta (>0,44 s). Se voi aiheutua synnynnäisestä pitkä QT-oireyhtymästä, tai se voi olla hankittu. Pitkää QT-aikaa aiheuttavia tiloja ovat muun muassa elektrolyyttihäiriöt (hypokalemia, hypomagnesemia) ja QT-aikaa pidentävien lääkkeiden käyttö.<ref name="viitasalo">Viitasalo M (1995). "Miten merkittävät rytmihäiriöt voidaan todeta." Duodecim 111(24):2385.</ref>
+
+{{Choroba infobox
+|Nazwa = Częstoskurcz komorowy
+|Lacina = tachycardia ventricularis
+|ICD10 = I47.2
+}}
+thumb|400px|Częstoskurcz komorowy: szerokie zespoły QRS
+'''Częstoskurcz komorowy''', (ang. ''Ventricular Tachycardia'', w skrócie ''VT'') - zaburzenie rytmu serca, polegające na wystąpieniu nieprawidłowej, przyśpieszonej czynności skurczowej serca, która pochodzi z ośrodka zlokalizowanego w mięśniu komór serca.
+
+W badaniu EKG widoczne szerokie zespoły QRS (różniące częstoskurcz komorowy od częstoskurczu nadkomorowego) i brak załamka P. Częstoskurcz komorowy jest potencjalnym zagrożeniem do życia ponieważ może przejść w migotanie komór. Każdy przypadek utrwalonego częstoskurczu komorowego jest wskazaniem do natychmiastowego leczenia.
+
+== Leczenie ==
+Częstoskurcz komorowy bez pulsu wymaga zastosowania szybkiej defibrylacji i rozpoczęcia zabiegów reanimacji (CPR), tzn. takiego samego leczenia jako przy migotaniu komór. 
+Przy częstoskurczu komorowym z tętnem i kiedy pacjent jest stabilny podaje się tętnem, ale gdy pacjent jest niestabilny lub nieprzytomny, wykonuje się kardiowersję.

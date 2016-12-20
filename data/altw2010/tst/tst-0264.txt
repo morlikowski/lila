@@ -1,0 +1,49 @@
+'''Secondary dominant''' (also '''applied dominant''') is a type of chord used in musical dominant of a degree other than the tonic. The chord to which a secondary dominant progresses is a phrase are modulations. The secondary dominant terminology is still used even if the chord resolution is nonfunctional (for example if V/ii is not followed by ii)<ref>Rawlins, Robert and Nor Eddine Bahha (2005). ''Jazzology: The Encyclopedia of Jazz Theory for All Musicians'', p.59. ISBN 0634086782.</ref>.
+
+==Definition and notation==
+
+The normal diatonic key of C major, the six basic chords are these:
+
+thumb|center|700px|[[Media: SixBasicChordsInCMajor.ogg|Sound file (ogg format, 101K)]]
+
+Of these chords, V (G major) is said to be the dominant of C major (the dominant of any chord is the one whose root is a fifth higher).  However, each of the chords from II through VI also has its own dominant.  For example, VI (A minor) has E major as its dominant.  These extra dominant chords are not part of the key of C major as such because they include notes that are not part of the C major scale.  Instead, they are the secondary dominants.   
+
+Below is an illustration of the secondary dominant chords for C major.  Each chord is accompanied by its standard number in harmonic notation.  In this notation, a secondary dominant is usually labeled with the formula "V of ..."; thus "V of II" stands for the dominant of the II chord, "V of III" for the dominant of III, and so on.  A shorter notation, used below, is "V/II", "V/III", etc. The secondary dominants are connected with lines to their corresponding tonic chords.
+
+thumb|center|700px|[[Media: SecondaryDominantChordsInCMajor.ogg|Sound file (ogg format, 190K)]]
+
+Note that of the above, V/IV is the same as I.  However, as will become clear shortly, they are not always identical.
+
+Like most chords, secondary dominants can be classified by whether they contain certain additional notes outside the basic triad; for details, see Figured bass.  A dominant seventh chord (notation:  V7) is one that contains the note that is a minor seventh above the root, and a dominant ninth chord (notation:  V9) contains the note a ninth above the root.  For instance, V7/IV, although it is a C chord, is distinct from regular C major because it also contains the note B flat, which is a minor seventh above the root of C, and not part of the C major scale.  
+
+To illustrate, here are the secondary dominants of C major, given as dominant seventh chords.  They are shown leading into their respective tonics, as given in the second inversion.
+
+thumb|center|700px|[[Media: SecondaryDominantSeventhChordsInCMajor.ogg|Sound file (ogg format, 200K)]]
+
+==Choice of major over minor==
+
+Secondary dominants are normally major chords, not minor; thus, the secondary dominant of VI in C major is considered to be E major, not E minor.  This accords with the fact that in a minor key, it is normally the dominant major chord, not the dominant minor, that might serve the function of dominant harmony.
+
+==Normal sequencing or cadence==
+
+When used in music, a secondary dominant is very often (though not inevitably) directly followed by the chord of which it is the dominant.  Thus V/II is normally followed by II, V/VI by VI, and so on.  This is similar to the general pattern of music wherein the simple chord V is often followed by I.  The tonic is said to "resolve" the slight dissonance created by the dominant.  Indeed, the sequence V/X + X, where X is some basic chord, is thought of by some musicians as a tiny modulation, acting as a miniature dominant-tonic sequence in the key of X.
+
+== History ==
+
+En harmonie tonale, on appelle '''dominante passagère''', un type d'accord de septième ou de neuvième de dominante étranger à une s'enchaîne exceptionnellement sur un accord appartenant à cette tonalité.
+
+:Un tel accord d'emprunt est appelé également, ''dominante secondaire'', ''dominante intermédiaire'' ou encore, ''dominante d'emprunt''. Dans le jargon jazz, plusieurs musiciens emploient le terme ''cinq de...''
+
+== Généralités ==
+
+Une dominante passagère est donc un accord de degré, qui fait un enchaînement naturel — par ''pas de quarte ascendante'', donc — sur un bon ou un meilleur degré, sans que l'auditeur ne perçoive cet enchaînement comme une modulation passagère.
+
+* Une dominante passagère peut être indifféremment employée avec ou sans quinte peut être éventuellement altérée.
+
+* Un tel enchaînement étant dérivé de la quinte juste : en conséquence, l'accord placé sur le II degré du mode mineur ne peut être introduit par une dominante passagère.
+
+* La différence entre une modulation passagère et l'enchaînement d'une dominante passagère sur un degré non altéré n'est pas toujours facile à discerner. La dominante passagère cependant se trouve le plus souvent sur temps faible — ou partie faible de temps —, et n'a d'autre fonction que de mettre en relief le degré qui lui succède. Une dominante passagère placée sur temps fort serait en effet perçue comme une modulation passagère, excepté le cas où plusieurs d'entre elles se succèdent par « ''cascades de quintes'' » (exemple I).
+
+== Degrés pouvant recevoir un dominante passagère ==
+
+Dans le mode majeur, les degrés pouvant être précédés d'une dominante passagère sont : le II, le IV, le V, le VI, plus rarement, le III. Les dominantes passagères peuvent donc être placées sur les degrés suivants : le I, le II, le III, le VI, plus rarement, le VII (exemples A, B, C, D & E).

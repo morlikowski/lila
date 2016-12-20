@@ -1,0 +1,105 @@
+{{Urszonda
+| Nev = Kaguya (SELENE)
+| Kep = 
+| Felirat = 
+| Orszag = 
+| Ugynokseg = JAXA
+| Kuldetes_tipus = orbiter
+| Celegitest = Hold
+| Inditas = 2007. szeptember 14.
+| Megerkezes = 2007. október 4.
+| Veg = 
+| Idotartam = 
+| Tomeg = 2914 kg (központi egység)
+| Energia = 3486 W
+| Palya = Hold körüli
+| Felnagytengely = 
+| Excentricitas = 
+| Inklinacio = 90°
+| Periodus = 2 óra
+| Apoapszis = 100 km
+| Periapszis = 100 km
+}}
+A '''Kaguya''' (''SELENE'', ''SELenological and ENgineering Explorer'') Japán második küldetése a Holdhoz. Három űreszközből áll: a központi keringő egység, a VRAD műhold és egy közvetítő műhold. Az első kettő gyűjti az adatokat, az utolsó besegít a központi orbiter és a Föld közötti kommunikációba. 
+
+==Küldetés==
+A szondát 2007. szeptember 14-én indították H-2 rakétával. 19 napos repülés után érte el a Holdat. Hold körüli pályáról azóta gyűjti a Hold eredetének és fejlődésének megértéséhez szükséges infomrációkat. A 39. Lunar and Planetary Science Konferencián bemutatták azt a kisfilmet, amit a Kaguya és az NHK japáni televízió készítette a pályán keringő űrszonda felvételeiből. Az ember úgy érezhette, mintha egy űrhajóban ülve lassan halad a Hold felszíne fölött és áttekinti a felszíni alakzatokat.
+
+== Külső hivatkozások ==
+* [http://www.jaxa.jp/missions/projects/sat/exploration/selene/index_e.html SELENE (JAXA)]
+* [http://www.lpi.usra.edu/meetings/lpsc2008/pdf/1232.pdf KAGUYA/SELENE 2008]
+
+{{Infobox_Spacecraft
+| Name =  (SELENE)
+| Image = Image:kaguya mark.jpg
+| Caption = The mission mark of KAGUYA
+| Organization = JAXA
+| Major_Contractors = 
+| Mission_Type = Orbiter
+| Flyby_Of = 
+| Satellite_Of = '''Moon'''
+| Orbital_Insertion_Date = 
+| Launch =  01:31:01, 14 September, 2007 UTC
+| Launch_Vehicle = H-IIA
+| Decay = 
+| Mission_Duration = 
+| NSSDC_ID = 2007-039A
+| Webpage = [http://www.isas.ac.jp/e/enterp/missions/selene/index.shtml SELENE page]
+| Mass = 2914 kg (Main Orbiter, launch mass)
+| Power = 3486 W 
+| Orbital_elements = 
+| Semimajor_Axis = 
+| Eccentricity = 
+| Inclination = 90°
+| Orbital_Period = 2h
+| Apoapsis = 100 km
+| Periapsis = 100 km
+| Orbits = 
+}}
+
+'''SELENE''' (, ''moon''), better known in Japan by its nickname , is the second lunar orbiter spacecraft.<ref name=redorbit></ref>  Produced by the Institute of Space and Astronautical Science and NASDA (both organizations that are now part of the Japan Aerospace Exploration Agency, or JAXA), the spacecraft was launched September 14, 2007.
+
+The name stands for '''Sel'''enological and '''En'''gineering '''E'''xplorer; Selene was a lunar deity in Greek mythology.  The orbiter's nickname, '''Kaguya''', which was selected by the general public, derives from the name of a lunar princess in the ancient Japanese folktale ''The Tale of the Bamboo Cutter''.<ref name="jaxa_nickname"></ref>
+After the successful release of its sub-satellites Rstar and Vstar, they were named '''Okina''' and '''Ouna''', also from folklore.<ref name="jaxa20071012"></ref>
+
+SELENE comes as part of a renewed interest in lunar exploration, being "the largest lunar mission since the Hagoromo, launched in China are planning future manned lunar exploration missions or base construction on the moon for the year 2018 or later.
+
+==Mission objectives==
+The main scientific objectives of the mission are:
+* Study the origins of the Moon and its geologic evolution
+* Obtain information about the lunar surface environment
+* Perform radio science on lunar orbit
+
+==Launch==
+thumb|Launch of H-IIA F13 carrying SELENE (Photo by Narita Masahiro)
+SELENE launched at 01:31:01, geocentric parking orbit.<ref></ref>
+<ref name="jaxa20070919">
+</ref>
+The total launch mass was 3020&nbsp;kg.<ref name="jaxa20070613">
+</ref> 
+
+The SELENE mission was originally scheduled to launch in 2003, but rocket failures on another mission and technical difficulties delayed the launch until 2007.<ref></ref> Launch was planned for August 16, 2007, but was postponed due to the discovery that some electronic components were installed incorrectly.<ref></ref>
+
+==Lunar operations==
+On October 3, it reached the moon and entered an initial 101 by 11741&nbsp;km polar orbit.<ref></ref>
+On October 9, the relay satellite was released to an approximately 100 by 2400&nbsp;km orbit, and on October 12 the VLBI satellite was released to an approximately 100 by 800&nbsp;km orbit.<ref name="jaxa20071012" /> Finally, by October 19, the orbiter moved to an approximately 100&nbsp;km circular orbit.<ref name="jaxa20071001"></ref>  The nominal operation of the mission is one year, with extension if possible.
+
+JAXA announced on October 31, 2007 that Kaguya deployed its Lunar Magnetometer, Lunar Radar Sounder, as well as the Earth-looking Upper Atmosphere and Plasma Imager.
+
+JAXA announced on December 21, 2007 that the operation mode of the lunar explorer, KAGUYA, was shifted to regular operations from its initial verification on December 21, 2007 (Japan Standard Time) as they were able to acquire satisfactory verification results for all fifteen observation missions.
+
+==Design==
+
+There are three separate units comprising the spacecraft. 
+
+===Main orbiter===
+The main orbiter is a rectangular box measuring about 2.1&nbsp;m by 4.2&nbsp;m, with a launch mass of about 2914&nbsp;kg.<ref name="jaxa20070613" /> 
+
+:Mass: 	2914 kg
+:Size: 	2.1 x 2.1 x 4.8 m
+:Attitude control: 	Three-axis stabilized
+:Power: 	3.5 kW (Max.)
+:Mission period: 	1 year
+:Mission orbit: 	Circular orbit
+::Altitude 100 km
+::Inclination 90 degree

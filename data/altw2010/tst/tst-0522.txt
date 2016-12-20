@@ -1,0 +1,64 @@
+{{銃器2|
+|画像=
+|説明=シュライク 5.56mm
+|名称=シュライク 5.56mm
+|種類=機関銃改造キット
+|製造国=アメリカ合衆国
+|設計・製造=Ares Defense Systems
+|口径=5.56mm
+|銃身長=330~508mmの各種
+|ライフリング=
+|使用弾薬=5.56mm x 45
+|装弾数=20･30発(マガジン)
+200発(M249用ボックスマガジン)
+
+不定数(ベルトリンク)
+|作動方式=ガス圧作動
+|発射速度=625～1000発/分
+|銃口初速=
+|有効射程=
+|重量=3400g
+|全長=711～1016mm
+}}
+
+'''シュライク 5.56mm'''はM16/M4カービンを軽機関銃に改造することができるパーツである。
+
+== 概要 ==
+上記のようにシュライク 5.56mmは単体では武器ではなく、銃身、アッパーレシーバーそして遊底(ボルト)などからなるM16/M4カービン用の改造パーツであり、それらと組み合わせることによってFNM249 に似た軽機関銃に改造することができる。M249同様にバレルは連射時の過熱を防ぐために交換しやすくなっている。そのため現存する軽機関銃と同様に連続射撃が行え、その上、元がアサルトライフルであるため重量がM249の約半分とかなり軽量であるため扱いやすいという利点がある。
+
+アッパーレシーバーを交換するだけであるため、M16の本体側(ロアレシーバー）に改造を施す必要が無い。給弾はM16/M4共用の20･30発入りのマガジンをロアレシーバーに挿入するか、シュライクアッパーレシーバーのフィードトレイからM249同様にベルトリンクにつながれた弾薬も装弾できる。(ただし、マガジンとベルト装弾を同時に使用することはできない)
+
+現在シュライクはアメリカ市場において流通数が極めて少なく、一部からはベーパーウェアであるという非難を受けている。(購入予約をして、頭金をメーカーのAres Defense Systemsに支払ったにも関わらず殆ど生産されていないことがその背景にある。)
+
+{{Infobox Weapon|is_ranged=yes
+|name=Shrike 5.56
+|image=
+|origin=
+|cartridge=5.56x45mm NATO
+|action=Gas-operated, short-stroke tappet
+|weight=3.4 kg (7.5 lb)
+|length=711–1016 mm (28–40 in)<br>
+Depends on barrel option
+|part_length=330–508 mm (13–20 in)<br>
+406 mm (16 in) standard
+|rate=625–1,000 rounds/min
+|feed=M27 (M249) ammunition belt<br>
+Various STANAG Magazines. </br>
+|range=—
+}}
+The Ares Defense Shrike 5.56 is an air cooled, dual-feed weapon that fires the 5.56x45mm NATO cartridge. The Shrike 5.56 can be supplied as a complete weapon, or as a low-risk upper receiver “performance upgrade kit” to existing M16-type service rifles and carbines.
+
+==Overview==
+The Shrike 5.56 has gas-piston operation, a quick-change barrel with fixed headspace and MIL-STD-1913 rail interface for the mounting of accessories. It is select-fire for both semi-automatic and full-automatic engagement of point and area targets and it shares a significant part commonality with both the US M16A4 Rifle and US M4A1 Carbine. It can fire from standard 30-round M16 magazines, 100-round SAW ammunition from 100-round “soft-pouch” and 200-round hard plastic SAW ammunition containers. At 7.5lbs complete weapon weight, the Shrike 5.56 is the lightest rifle caliber belt-fed machine gun in the world.
+
+==Civilian Use==
+The manufacturer accepted a limited number of refundable deposits from civilian customers interested in purchasing the Shrike 5.56. While the product has seen production delays and revisions, the products that have been delivered are reportedly of high quality and performance by those who own them. While some customers are patient to wait for delivery, others seek a refund which Ares Defense Systems provides. The original Shrike pre-order price was $2,495 but Shrikes can sometimes be found on the second hand market priced between $8,000 - $10,000 for a single upper receiver assembly.
+
+==Variants==
+The Shrike production model has recently emerged from development. There exist some notable differences between the current model and the older prototypes.
+
+'''EXP-1''': the initial proof-of-concept prototype. It features a modified M249 handguard, a unique firing mechanism and a quick-detach barrel latch derived from the Stoner 63.
+
+'''EXP-2''': this improved prototype featured a new M60&nbsp;machine&nbsp;gun.
+
+'''03A''': the production model. It has a compact side-mounted gas system different from the previous prototypes, and its firing mechanism is also significantly modified. It has a circular handguard. The barrel latch and some other components are similar to the EXP-1.

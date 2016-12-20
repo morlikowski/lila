@@ -1,0 +1,131 @@
+{{Miasto infobox
+| Miasto             = Białobrzegi
+| dewiza             = 
+| dopełniacz_miasta  = Białobrzegów
+| herb_miasta        = Grafika:POL Białobrzegi COA.png
+| flaga_miasta       = 
+| mapa_miasta        = 
+| województwo        = mazowieckie
+| grodzki            = 
+| powiat             = białobrzeski
+| gmina              = Białobrzegi (powiat białobrzeski)
+| rodzaj_gminy       = miejsko-wiejska
+| zarządzający       = Burmistrz
+| prezydent          = Wiesław Banachowicz
+| miejska            = 
+| mail               = 
+| adres_um           = ul.&nbsp;Reymonta&nbsp;11
+| kod_poczt_um       = 26-800
+| tel_um             = 48&nbsp;613-22-67
+| fax_um             = 48&nbsp;613-25-72
+| mail_um            = 
+| powierzchnia       = 7,51
+| wysokość           = 
+| stopniN            = 51
+| minutN             = 39
+| sekundN            = 
+| stopniE            = 20
+| minutE             = 57
+| sekundE            = 
+| rok                = 2004
+| populacja          = 7262
+| gęstość            = 967
+| nr_kier            = 48
+| kod_poczt          = 26-800
+| aglomeracja        = 
+| tablica_rej        = WBR
+| TERYT              = 1142101014
+| SIMC               = 
+| założone           = 
+| prawa_miejskie     = 
+| miasta_partnerskie =  Allennes-les-Marais
+| www                = http://www.bialobrzegi.pl
+| domena             = 
+| galeria_commons    =
+| wikinews           =
+}}
+'''Białobrzegi''' – woj. mazowieckim, w powiecie białobrzeskim, siedziba władz miejsko-wiejskiej gminy Białobrzegi. W latach 1975-1998 miasto administracyjnie należało do  woj. radomskiego, zaś przed 1975 r. do woj. kieleckiego.
+  
+Według danych z 31 grudnia 2004 miasto miało 7262 mieszkańców.
+
+Miasto położone jest na pograniczu Doliny Białobrzeskiej i Równiny Radomskiej, ok. 30 km na północny zachód od Pilica. Ośrodek turystyczno-wypoczynkowy; drobny przemysł.
+
+== Demografia ==
+<timeline>
+ImageSize  = width:350 height:260
+PlotArea   = left:70 right:40 top:20 bottom:20
+TimeAxis   = orientation:vertical 
+AlignBars  = justify 
+Colors = 
+  id:gray1 value:gray(0.9)
+DateFormat = yyyy
+Period     = from:0 till:7466
+ScaleMajor = unit:year increment:3000 start:0 gridcolor:gray1
+PlotData =
+  bar:1995 color:gray1 width:1 
+   from:0 till:7466 width:15 text:7466 textcolor:red  fontsize:8px
+  bar:1997 color:gray1 width:1 
+   from:0 till:7464 width:15 text:7464 textcolor:red  fontsize:8px
+  bar:2000 color:gray1 width:1 
+   from:0 till:7171 width:15 text:7171 textcolor:red  fontsize:8px
+  bar:2002 color:gray1 width:1 
+   from:0 till:7196  width:15  text:7196 textcolor:red  fontsize:8px
+  bar:2004 color:gray1 width:1 
+   from:0 till:7262  width:15  text:7262 textcolor:red  fontsize:8px
+  bar:2006 color:gray1 width:1 
+   from:0 till:7301 width:15  text:7301 textcolor:red  fontsize:8px
+</timeline>
+
+== Historia ==
+W król XIV w. należało do Mazowsza, jako darowizna Kazimierza Wielkiego dla księcia Siemowita III, zaś lokowane na prawie magdeburskim miasto było własnością Anny Falęckiej, wdowy po Janie z Biejkowa herbu Jastrzębiec. Kolejnymi właścicielem Brzegów (od drugiej połowy XVII w. Białobrzegi) były rodziny: Boglewskich, Boskich, Stokowskich, Kuroszów i Wodzyńskich.
+
+W ciągu pierwszych trzystu lat istnienia Białobrzegi były małym miasteczkiem, którego ludność zajmowała się głównie handlem oraz rolnictwem. W okresie powstania styczniowego w mieście i okolicy działało kilka oddziałów powstańczych, w tym m.in. płk. D. Czachowskiego, Kononowicza, Grabowskiego. osadą. W 1910 r. miejscowość zniszczył pożar, a już w cztery lata później zaczęła się I wojna światowa, podczas której dokonały się kolejne zniszczenia. Po wojnie nastąpił powolny rozwój osady.
+
+Od początku traktu krakowskiego, zaprojektowanego przez inż. Teodora Urbańskiego i przebiegającego m.in. przez Białobrzegi.
+
+Okres II wojny światowej już we wrześniu getcie hitlerowcy osadzili 4 tys. Żydów z okolicznych terenów. Jego likwidacja nastąpiła w czerwcu Treblince. 16 stycznia 1945 roku kończy się okupacja hitlerowska. Od 1956 do 1975 r. funkcjonował powiat białobrzeski, a dwa lata później Białobrzegi odzyskały prawa miejskie. 1 stycznia 1999 r. Białobrzegi stały się miastem powiatowym.
+
+:''This article is about the town. For other places in Poland with that name, see Białobrzegi (disambiguation).''
+
+{{Infobox Settlement
+| name = Białobrzegi
+| imagesize = 250px
+| image_shield = POL Białobrzegi COA.png
+| pushpin_map = Poland
+| pushpin_label_position = bottom
+| subdivision_type = Country
+| subdivision_name = 
+| subdivision_type1 = Voivodeship
+| subdivision_name1 = Masovian
+| subdivision_type2 = County
+| subdivision_name2 = Białobrzegi County
+| subdivision_type3 = Gmina
+| subdivision_name3 = Gmina Białobrzegi
+| leader_title = Mayor
+| leader_name = Wiesław Banachowicz
+| established_title = Established
+| established_date = 14th century
+| established_title3 = Town rights
+| established_date3 = 1541
+| area_total_km2 = 7.51
+| population_as_of = 2006
+| population_total = 7320
+| population_density_km2 = auto
+| timezone = CET
+| utc_offset = +1
+| timezone_DST = CEST
+| utc_offset_DST = +2
+| latd = 51 | latm = 39 | lats =  | latNS = N | longd = 20 | longm = 57 | longs =  | longEW = E
+| postal_code_type = Postal code
+| postal_code = 26-800
+| area_code = +48 48
+| blank_name = Car plates
+| blank_info = WBR
+| website = http://www.bialobrzegi.pl }} 
+'''Białobrzegi''' [] is a town in Poland, in Mazowsze Voivodeship, about 60 km south of Warsaw. It is the capital of Białobrzegi County. Population is 7,262 (2004).
+
+==References==
+
+==External links==
+*[http://www.bialobrzegi.pl/ Official town webpage]
+*[http://mapa.szukacz.pl/?x=634375&y=421743&m=Bia%b3obrzegi&w=mazowieckie&p=bia%b3obrzeski&g=Bia%b3obrzegi&z=3 Map, via mapa.szukacz.pl]

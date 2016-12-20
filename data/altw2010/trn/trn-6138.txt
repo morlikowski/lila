@@ -1,0 +1,151 @@
+Welcome! The aim of this project is to standardize and improve articles related to '''Tibet''' and Tibet Autonomous Region. It is also to establish missing articles related to Tibet including geography (Tibetan villages) as well as to improve and create missing articles  related to Tibetan culture and Tibetan Buddhism.
+
+thumb|left|300px|Potala Palace
+
+==Departments==
+===Core articles===
+*'''2008 Tibetan protests''' -cover this article the best that can be done
+*'''Tibet''' main article
+*'''Tibet Autonomous Region''' -needs significant expansion
+*'''Lhasa'''
+*'''Dalai Lama'''
+*'''Tibetan Buddhism'''
+
+See the draft version of List of basic Tibet topics for a list of articles which need to be created.
+===Assessment===
+We have zero articles with no class designation and about 250 with no importance designation. Have at it! If anyone knows a lot about assessment, your help would be appreciated in setting up this department.
+*
+*
+
+===Naming conventions===
+For the transcription of Tibetan words and names, and for the naming of articles, please see the proposed naming convention for Tibetan.
+
+===Collaboration of the month===
+
+===Article creation and expansion===
+====Requested articles====
+*Dutch and French Wikipedia's)
+*Yaan (talk) 17:27, 9 June 2008 (UTC)
+
+====Requested photographs====
+*Requested photographs on Tibet
+
+====Towns and villages====
+There is an ongoing drive to improve all of the articles in This is the infobox for settlements in Tibet. Please add this and fill in the relevant data if you see an article on a town or village missing it.
+
+====Stub expansion====
+This project includes the following stub categories:
+*[http://en.wikipedia.org/wiki/Category:Tibet_stubs Tibet stubs]
+*[http://en.wikipedia.org/wiki/Category:Tibet_geography_stubs Tibetan geography stubs]
+*[http://en.wikipedia.org/wiki/Category:Stub-Class_Tibetan_Buddhism_articles Tibetan Buddhism stubs]
+
+====Articles for deletion====
+*Serfdom in Tibet - listed May 27 2008
+
+==Featured content==
+===Featured articles===
+*Tibet during the Ming Dynasty
+===Featured article candidates===
+
+===Good articles===
+
+===Good article candidates===
+
+==Participants==
+Please add your name to this list using <nowiki>  </nowiki>
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+
+===Inactive Members===
+The following members have made no edits since January 1, 2008, and may or may not be returning to the project. If you've been put on this list and are an active editor, please re-add yourself above.
+#
+#
+#
+#
+#
+#
+#
+
+==Templates==
+===Notice===
+To tag Tibet-related articles, simply add '''tibet=yes''' in the WPCHINA parameters, and it will display the following:
+
+(Note that in this example the notice has been classified as "NA", so that it will not appear on the list of unassessed articles. This will not happen normally if the above code is used.)
+
+===Userbox===
+Add  to your userpage if you want, to show that you are a participant of this project. 
+
+===Barnstars===
+Open task: a special WikiProject Tibet Barnstar. Until then, here are a few options:
+
+<!-- Ce projet utilise un modèle pour chaque section. Il est donc conseillé de ne pas modifier cette page, mais directement le modèle concerné, via le lien « modifier ». -->
+<!-- En-tête -->
+{| width="100%" cellspacing="4" cellpadding="4" style="table-layout: fixed; background-color:#FFAE80; border:solid 1px #8888aa"
+|- style="text-align:center"
+| style="border:solid 1px #8888aa; background-color:#FFDF80" | '''<small>Portail</small>'''
+| style="border:solid 1px #8888aa; background-color:#FFDF80" | '''<small>Arborescence</small>'''
+| style="border:solid 1px #8888aa; background-color:#FFDF80" | '''<small>Projet</small>'''
+| style="border:solid 1px #8888aa; background-color:#FFDF80" | '''<small>Discussions</small>'''
+|}
+----
+<div style="display:block; width:100%; float:center;">
+{{/Modèle Cadre |
+titre = Bienvenue sur le projet consacré au Tibet |
+tailleTitre = 150% |
+modèle = /Présentation}}
+</div>
+<!-- Colonne de gauche -->
+<div style="width:50%; display:block; float:left;">
+{{/Modèle Cadre |
+titre = none|22px|Comment contribuer à Wikipédia Comment contribuer à Wikipédia ? |
+modèle = Projet:Projet clef en main/Contribuer à Wikipédia}}
+{{/Modèle Cadre |
+titre = none|22px|Comment contribuer au projet Comment contribuer au projet ? |
+modèle = /Contribuer au projet}}
+{{/Modèle Cadre |
+titre = none|22px|Autres projets Voir aussi |
+modèle = /Voir aussi}}
+</div>
+
+<!-- Colonne de droite -->
+<div style="width:49%; display:block; float:right;">
+{{/Modèle Cadre |
+titre = none|22px|Liste des participants au projet Participants |
+modèle = /Participants}}
+{{/Modèle Cadre |
+titre = none|22px|Les modèles utilisés Modèles |
+modèle = /Modèles}}
+{{/Modèle Cadre |
+titre = none|22px|Travaux à faire dans ce domaine À faire |
+modèle = /À faire}}
+</div>
+<!-- Bas de page -->
+<br clear="all" />

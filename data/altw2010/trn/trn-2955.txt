@@ -1,0 +1,179 @@
+În analiza numerică '''schema Horner''', numită după matematicianul englez polinoamelor. '''Metoda Horner''' este un procedeu de aproximare a rădăcinilor unui polinom. Schema Horner poate fi folosită de asemenea pentru împărţirea polinoamelor liniare.
+
+== Istoric ==
+Deşi schema este numită după William George Horner, care a descris-o în chinez Ch'in Chiu-Shao în secolul al XIII-lea.
+
+== Descriere ==
+Fiind dat polinomul
+:<math>p(x) = a_0 + a_1 x + a_2 x^2 + a_3 x^3 + \cdots + a_n x^n,</math>
+unde <math>a_0, \ldots, a_n</math> sunt numere reale, se cere calculul valorii polinomului pentru o valoare a lui <math>x\,\!</math> dată, adică pentru <math>x_0\,\!</math>.
+
+Pentru asta, se defineşte o secvenţă de constante după cum urmează:
+:{|
+|
+|-
+|<math>b_n\,\!</math>
+|<math>:=\,\!</math>
+|<math>a_n\,\!</math>
+|-
+|<math>b_{n-1}\,\!</math>
+|<math>:=\,\!</math>
+|<math>a_{n-1} + b_n x_0\,\!</math>
+|-
+|
+|align="center"|<math>\vdots</math>
+|
+|-
+|<math>b_0\,\!</math>
+|<math>:=\,\!</math>
+|<math>a_0 + b_1 x_0\,\!</math>
+|}
+Atunci <math>b_0\,\!</math> este valoarea lui <math>p(x_0)\,\!</math>.
+
+Pentru a înţelege cum funcţionează, polinomul poate fi pus în forma
+:<math>p(x) = a_0 + x(a_1 + x(a_2 + \cdots x(a_{n-1} + a_n x)\dots))</math>
+
+apoi se substituie iterativ <math>b_i</math> în expresia
+:{|
+|
+|-
+|<math>p(x_0)\,\!</math>
+|<math>=\,\!</math>
+|<math>a_0 + x_0(a_1 + x_0(a_2 + \cdots x_0(a_{n-1} + b_n x_0)\dots))</math>
+|-
+|
+|<math>=\,\!</math>
+|<math>a_0 + x_0(a_1 + x_0(a_2 + \cdots x_0(b_{n-1})\dots))</math>
+|-
+|
+|align="center"|<math>\vdots</math>
+|
+|-
+|
+|<math>=\,\!</math>
+|<math>a_0 + x_0(b_1)\,\!</math>
+|-
+|
+|<math>=\,\!</math>
+|<math>b_0\,\!</math>
+|}
+
+== Exemplu ==
+Să se calculeze <math>f_1(x)=2x^3-6x^2+2x-1\,</math> pentru <math>x=3\;</math>. Prin extragerea repetată a factorului comun <math>x\,</math>, <math>f_1\,</math> poate fi adus la forma <math>x(x(2x-6)+2)-1\,</math>. Se foloseşte o formă sintetică de organizare a calculului.
+ <math>     x_0</math> |   <math>x^3</math>    <math>x^2</math>     <math>x^1</math>   <math>x^0</math> 
+
+  3 |   2    -6     2    -1
+    |         6     0     6   
+    |----------------------
+        2     0     2     5
+
+Valorile din rândul al treilea sunt sumele primelor două. Fiecare valoare din rândul al doilea este produsul lui <math>x\,</math> (în acest exemplu 3) cu valoarea imediat la stânga din rândul trei. Valorile din primul rând sunt coeficienţii polinomului. Rezultatul este 5.
+
+In monomial form. '''Horner's method''' describes a manual process by which one may approximate the roots of a polynomial equation. The Horner scheme can also be viewed as a fast algorithm for dividing a polynomial by a linear polynomial with Ruffini's rule.
+
+==Description of the algorithm==
+
+Given the polynomial
+:<math>p(x) = a_0 + a_1 x + a_2 x^2 + a_3 x^3 + \cdots + a_n x^n,</math>
+where <math>a_0, \ldots, a_n</math> are real numbers,
+we wish to evaluate the polynomial at a specific value of <math>x\,\!</math>, say <math>x_0\,\!</math>.
+
+To accomplish this, we define a new sequence of constants as follows:
+:{|
+|
+|-
+|<math>b_n\,\!</math>
+|<math>:=\,\!</math>
+|<math>a_n\,\!</math>
+|-
+|<math>b_{n-1}\,\!</math>
+|<math>:=\,\!</math>
+|<math>a_{n-1} + b_n x_0\,\!</math>
+|-
+|
+|align="center"|<math>\vdots</math>
+|
+|-
+|<math>b_0\,\!</math>
+|<math>:=\,\!</math>
+|<math>a_0 + b_1 x_0\,\!</math>
+|}
+Then <math>b_0\,\!</math> is the value of <math>p(x_0)\,\!</math>.
+
+To see why this works, note that the polynomial can be written in the form
+:<math>p(x) = a_0 + x(a_1 + x(a_2 + \cdots x(a_{n-1} + a_n x)\dots))</math>
+
+Thus, by iteratively substituting the <math>b_i</math> into the expression,
+:{|
+|
+|-
+|<math>p(x_0)\,\!</math>
+|<math>=\,\!</math>
+|<math>a_0 + x_0(a_1 + x_0(a_2 + \cdots x_0(a_{n-1} + b_n x_0)\dots))</math>
+|-
+|
+|<math>=\,\!</math>
+|<math>a_0 + x_0(a_1 + x_0(a_2 + \cdots x_0(b_{n-1})\dots))</math>
+|-
+|
+|align="center"|<math>\vdots</math>
+|
+|-
+|
+|<math>=\,\!</math>
+|<math>a_0 + x_0(b_1)\,\!</math>
+|-
+|
+|<math>=\,\!</math>
+|<math>b_0\,\!</math>
+|}
+
+==Examples==
+Evaluate <math>f_1(x)=2x^3-6x^2+2x-1\,</math> for <math>x=3\;</math>.  By repeatedly factoring out <math>x</math>, <math>f_1</math> may be rewritten as <math>x(x(2x-6)+2)-1\;</math>.  We use a synthetic diagram to organize these calculations and make the process faster. 
+ <math>     x_0</math> |   <math>x^3</math>    <math>x^2</math>     <math>x^1</math>   <math>x^0</math> 
+
+  3 |   2    -6     2    -1
+    |         6     0     6    
+    |----------------------
+        2     0     2     5
+
+The entries in the third row are the sum of those in the first two. Each entry in the second row is the product of the x-value (3 in this example) with the third-row entry immediately to the left. The entries in the first row are the coefficients of the polynomial to be evaluated. The answer is 5.
+
+As a consequence of the polynomial remainder theorem, the entries in the third row are the coefficients of the second-degree polynomial that is the quotient of f<sub>1</sub>/(x-3). The remainder is 5. This makes Horner's method useful for polynomial long division. 
+
+Divide <math>x^3-6x^2+11x-6\,</math> by <math>x-2</math>:
+
+  2 |   1    -6    11    -6
+    |         2    -8     6    
+    |----------------------
+        1    -4     3     0
+
+The quotient is <math>x^2-4x+3</math>.
+
+Let <math>f_1(x)=4x^4-6x^3+3x-5\,</math> and <math>f_2(x)=2x-1\,</math>. Divide <math>f_1(x)\,</math> by <math>f_2\,(x)</math> using Horner's scheme. 
+
+   2 |  4    -6    0    3   |   -5
+ ---------------------------|------
+   1 |        2   -2   -1   |    1
+     |                      |  
+     |----------------------|-------
+        2    -2    -1   1   |   -4    
+
+The third row is the sum of the first two rows, divided by 2. Each entry in the second row is the product of 1 with the third-row entry to the left. The answer is 
+
+:<math>\frac{f_1(x)}{f_2(x)}=2x^3-2x^2-x+1-\frac{4}{(2x-1)}.</math>
+
+===Floating point multiplication and division===
+Horner's method is a fast, code-efficient method for multiplication and division of binary numbers on a microcontroller with no math coprocessor.  One of the binary numbers to be multiplied is represented as a trivial polynomial, where, (using the above notation):  a<sub>i</sub> = 1, and x = 2.  Then, x (or x to some power) is repeatedly factored out.  In this binary numeral system (base 2), x = 2, so powers of 2 are repeatedly factored out.
+
+====Example====
+For example, to find the product of two numbers, (0.15625) and "m":
+:<math> ( 0.15625) m = (0.00101_b) m = ( 2^{-3} + 2^{-5}) m = (2^{-3})m + (2^{-5})m = 2^{-3} (m + (2^{-2})m) = 2^{-3} (m + 2^{-2} (m)) </math>
+
+====Method====
+To find the product of two binary numbers, "d" and "m".
+*1. A register holding the intermediate result is initialized to (d).
+*2. Begin in (m) with the least significant (rightmost) non-zero bit,
+**2b. Count (to the left) the number of bit positions to the next most significant non-zero bit.  If there are no more-significant bits, then take the value of the current bit position.
+**2c. Using that value, perform a right-shift operation by that number of bits on the register holding the intermediate result
+*3. If all the non-zero bits were counted, then the intermediate result register now holds the final result.  Otherwise, add (d) to the intermediate result, and continue in step #2 with the next most significant bit in (m).

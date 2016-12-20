@@ -1,0 +1,139 @@
+سامانهٔ توکار'''، (Embedded یا نهفته در بعضی منابع) سامانه‌ای رایانه‌ای با کاربرد ویژه است که در یک دستگاه بزرگ‌تر جاسازی شده باشد. کاربردهای یک سامانه توکار بسیار با کاربردهای یک رایانه شخصی تفاوت دارد. 
+
+این سامانه معمولاً به تمامی روی یک اجاق‌های ریزموج، و تقریباً همه لوازم خانگی امروزی مشاهده کرد.
+
+این سامانه‌ها با توان‌های مختلف پردازشی و در محدوده وسیعی از سایر مشخصه‌های عملیاتی (مانند میزان مصرف توان الکتریکی و ابعاد تراشه) و با قیمت‌هایی از کسری از یک دلار تا بیشتر از صد دلار به بازار عرضه می‌شوند.
+
+تفاوت ساختاری اصلی آنها با پردازشگرهای مرکزی مورد استفاده در رایانه‌های مستقل نداشتن واحد مدیریت حافظه (MMU) و استفاده از آنها در کاربردهای بلادرنگ است.
+
+== نمونه‌های سامانه‌های توکار ==
+*خودپرداز
+*تلفن همراه
+*ابزار شبکه رایانه‌ای مانند مسیریاب و بارو
+*چاپگر رایانه ای
+*دیسک گردان
+*فراورده‌های خودکار خانگی مانند دماپا، تهویه، آب افشان، و آژیر دزدگیر
+*ماشین حساب دستی
+*لوازم خانگی مانند تندپز، ماشین رختشویی، تلویزیون، دی.وی.دی
+*نرم افزار و هواگرد‌ها و موشک ها.
+*لوازم پزشکی
+*ساعت مچی چندکاره
+
+thumb|300px|A [[router, an example of an embedded system. Labelled parts include a microprocessor (4), RAM (6), and flash memory (7).]]
+
+An '''embedded system''' is a special-purpose computer system designed to perform one or a few dedicated functions,<ref name="barr-glossary"></ref> often with real-time computing constraints.  It is usually ''embedded'' as part of a complete device including hardware and mechanical parts. In contrast, a general-purpose computer, such as a personal computer, can do many different tasks depending on programming. Embedded systems control many of the common devices in use today.
+
+Since the embedded system is dedicated to specific tasks, design engineers can optimize it, reducing the size and cost of the product, or increasing the reliability and performance.  Some embedded systems are mass-produced, benefiting from economies of scale.
+
+Physically, embedded systems range from portable devices such as digital watches and MP3 players, to large stationary installations like traffic lights, factory controllers, or the systems controlling nuclear power plants. Complexity varies from low, with a single microcontroller chip, to very high with multiple units, peripherals and networks mounted inside a large chassis or enclosure.
+
+In general, "embedded system" is not an exactly defined term, as many systems have some element of programmability. For example, Handheld computers share some elements with embedded systems &mdash; such as the operating systems and microprocessors which power them &mdash; but are not truly embedded systems, because they allow different applications to be loaded and peripherals to be connected. 
+
+== Examples of embedded systems ==
+
+thumb|250px|PC Engines' ALIX.1C [[Mini-ITX embedded board with AMD Geode LX 800 together with IDE interface and 256MB RAM]]
+thumb|250px|An [[Embedded system|embedded RouterBoard 112 with RSMA pigtail and R52 WISPs) in the Czech Republic.]]
+
+Embedded systems span all aspects of modern life and there are many examples of their use.
+
+Telecommunications systems employ numerous embedded systems from telephone switches for the network to mobile phones at the end-user.
+Computer networking uses dedicated routers and network bridges to route data.
+
+GPS receivers, and printers.
+Many household appliances, such as microwave ovens, washing machines and dishwashers, are including embedded systems to provide flexibility, efficiency and features.
+Advanced HVAC systems use networked thermostats to more accurately and efficiently control temperature that can change by time of day and season.
+Home automation uses wired- and wireless-networking that can be used to control lights, climate, security, audio/visual, etc., all of which use embedded devices for sensing and controlling.
+
+Transportation systems from flight to automobiles increasingly use embedded systems.
+New airplanes contain advanced GPS receivers that also have considerable safety requirements.
+Various electric motors &mdash; brushless DC motors, induction motors and DC motors &mdash; are using electric/electronic motor controllers.
+Automobiles, electric vehicles. and hybrid vehicles are increasingly using embedded systems to maximize efficiency and reduce pollution.
+Other automotive safety systems such as anti-lock braking system (ABS), Electronic Stability Control (ESC/ESP), and automatic four-wheel drive.
+
+PET, SPECT, CT, MRI) for non-invasive internal inspections.
+
+== History ==
+In the earliest years of computers in the 1930-40s, computers were sometimes dedicated to a single task, but were far too large and expensive for most kinds of tasks performed by embedded computers of today. Over time however, the concept of programmable controllers evolved from traditional electromechanical sequencers, via solid state devices, to the use of computer technology.
+<!--  Commented out because image was deleted: thumb|300px|right|The Apollo Guidance Computer, the first recognizably modern embedded system.<br>Image courtesy of Computer History Museum. -->
+
+One of the first recognizably modern embedded systems was the Minuteman missile, released in 1961.  It was built from logic and had a nand gate ICs from $1000/each to $3/each, permitting their use in commercial products.
+
+Since these early applications in the 1960s, embedded systems have come down in price and there has been a dramatic rise in processing power and functionality. The first microprocessor for example, the Intel 4004 was designed for calculators and other small systems but still required many external memory and support chips. In 1978 National Engineering Manufacturers Association released a "standard" for programmable microcontrollers, including almost any computer-based controllers, such as single board computers, numerical, and event-based controllers.
+
+As the cost of microprocessors and microcontrollers fell it became feasible to replace expensive knob-based analog components such as potentiometers and variable capacitors with up/down buttons or knobs read out by a microprocessor even in some consumer products. By the mid-1980s, most of the common previously external system components had been integrated into the same chip as the processor and this modern form of the microcontroller allowed an even more widespread use, which by the end of the decade were the norm rather than the exception for almost all electronics devices. 1
+
+==Characteristics==
+thumb|[[Soekris net4801, an embedded system targeted at network applications.]]
+
+# Embedded systems are designed to do some specific task, rather than be a general-purpose computer for multiple tasks. Some also have real-time performance constraints that must be met, for reasons such as safety and usability; others may have low or no performance requirements, allowing the system hardware to be simplified to reduce costs.     
+# Embedded systems are not always standalone devices. Many embedded systems consist of small, computerized parts within a larger device that serves a more general purpose. For example, the Gibson Robot Guitar features an embedded system for tuning the strings, but the overall purpose of the Robot Guitar is, of course, to play music.<ref>http://www.embedded.com/underthehood/207401418</ref> Similarly, an embedded system in an automobile provides a specific function as a subsystem of the car itself.
+# The software written for embedded systems is often called firmware, and is usually stored in read-only memory or Flash memory chips rather than a disk drive. It often runs with limited computer hardware resources: small or no keyboard, screen, and little memory.  
+
+=== User interfaces ===
+
+Embedded systems range from no user interface at all &mdash; dedicated only to one task &mdash; to complex graphical user interfaces that resemble modern computer desktop operating systems.
+
+===Simple systems===
+
+Simple embedded devices use buttons, menu system.
+
+===In more complex systems===
+A full graphical screen, with touch sensing or screen-edge buttons provides flexibility while minimising space used: the meaning of the buttons can change with the screen, and selection involves the natural behavior of pointing at what's desired. 
+
+Handheld systems often have a screen with a "joystick button" for a pointing device.
+
+The rise of the World Wide Web has given embedded designers another quite different option: providing a web page interface over a network connection.  This avoids the cost of a sophisticated display, yet provides complex input and display capabilities when needed, on another computer. This is successful for remote, permanently installed equipment such as Pan-Tilt-Zoom cameras and network routers.
+
+===CPU platforms===
+
+Embedded processors can be broken into two broad categories: ordinary microprocessors (μP) and microcontrollers (μC), which have many more peripherals on chip, reducing cost and size. Contrasting to the personal computer and server markets, a fairly large number of basic Von Neumann as well as various degrees of DSP processors) although the most typical remain 8/16-bit. Most architectures come in a large number of different variants and shapes, many of which are also manufactured by several different companies.
+
+A long but still not exhaustive list of common architectures are: ARM, AVR, C167, eZ8, H8, HT48, MIPS, PIC, SHARC, x86, XE8000, Z80, etc.
+
+====Ready made computer boards====
+PC/104 and PC/104+ are examples of available ''ready made'' computer boards intended for small, low-volume embedded and ruggedized systems. These often use DOS, Linux, NetBSD, or an embedded real-time operating system such as MicroC/OS-II, QNX or VxWorks.
+
+====ASIC and FPGA solutions====
+A common configuration for very-high-volume embedded systems is the system on a chip (SoC), an application-specific integrated circuit (ASIC), for which the CPU core was purchased and added as part of the chip design.  A related scheme is to use a field-programmable gate array (FPGA), and program it with all the logic, including the CPU.
+
+===Peripherals===
+Embedded Systems talk with the outside world via peripherals, such as:
+*Serial Communication Interfaces (SCI): RS-232, RS-422, RS-485 etc
+*Synchronous Serial Communication Interface: SPI, SSC and ESSI
+*Universal Serial Bus (USB)
+*Networks: Ethernet, Controller Area Network, LonWorks, etc
+*Timers: PLL(s), Capture/Compare and Time Processing Units
+*Discrete IO: aka General Purpose Input/Output (GPIO)
+*Analog to Digital/Digital to Analog (ADC/DAC)
+
+===Tools===
+
+As for other software, embedded system designers use assemblers, and debuggers to develop embedded system software. However, they may also use some more specific tools:
+
+* In circuit debuggers or emulators (see next section).
+* Utilities to add a checksum or CRC to a program, so the embedded system can check if the program is valid.
+* For systems using digital signal processing, developers may use a math workbench such as MATLAB,  Simulink, MathCad, or Mathematica to simulate the mathematics.  They might also use libraries for both the host and target which eliminates developing DSP routines as done in DSPnano RTOS and Unison Operating System.
+* Custom compilers and linkers may be used to improve optimisation for the particular hardware.
+* An embedded system may have its own special language or design tool, or add enhancements to an existing language such as Forth or Basic.
+* Another alternative is to add a Real-time operating system or Embedded operating system, which may have DSP capabilities like DSPnano RTOS.
+
+Software tools can come from several sources:
+* Software companies that specialize in the embedded market
+* Ported from the GNU software development tools 
+* Sometimes, development tools for a personal computer can be used if the embedded processor is a close relative to a common PC processor
+
+As the complexity of embedded systems grows, higher level tools and operating systems are migrating into machinery where it makes sense.  For example, cellphones, personal digital assistants and other consumer computers often need significant software that is purchased or provided by a person other than the manufacturer of the electronics.  In these systems, an open programming environment such as Linux, NetBSD, OSGi or Embedded Java is required so that the third-party software provider can sell to a large market.
+
+===Debugging===
+
+Embedded Debugging may be performed at different levels, depending on the facilities available. From simplest to most sophisticated they can be roughly grouped into the following areas:
+* Interactive resident debugging, using the simple shell provided by the embedded operating system (e.g. Forth and Basic)
+* External debugging using logging or serial port output to trace operation using either a monitor in flash or using a debug server like the Remedy Debugger which even works for heterogeneous multicore systems. 
+* An in-circuit debugger (ICD), a hardware device that connects to the microprocessor via a JTAG or NEXUS interface. This allows the operation of the microprocessor to be controlled externally, but is typically restricted to specific debugging capabilities in the processor.
+* An in-circuit emulator replaces the microprocessor with a simulated equivalent, providing full control over all aspects of the microprocessor. 
+* A complete emulator provides a simulation of all aspects of the hardware, allowing all of it to be controlled and modified, and allowing debugging on a normal PC.
+
+Unless restricted to external debugging, the programmer can typically load and run software through the tools, view the code running in the processor, and start or stop its operation. The view of the code may be as assembly code or source-code.
+
+Because an embedded system is often composed of a wide variety of elements, the debugging strategy may vary. For instance, debugging a software- (and microprocessor-) centric embedded system is different from debugging an embedded system where most of the processing is performed by peripherals (DSP, FPGA, co-processor).
+An increasing number of embedded systems today use more than one single processor core. A common problem with multi-core development is the proper synchronization of software execution. In such a case, the embedded system design may wish to check the data traffic on the busses between the processor cores, which requires very low-level debugging, at signal/bus level, with a logic analyzer, for instance.

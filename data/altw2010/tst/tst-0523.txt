@@ -1,0 +1,92 @@
+{{Infobox_OS
+|name = FREESCO |
+  logo = |
+  screenshot = |
+  caption = |
+  developer = Freesco Team |
+  family = Linux |
+  source_model = Открыт |
+  working_state = Current |
+  latest_release_version = 0.3.8 |
+  latest_release_date = 8 декабря, 2007 |
+  license = GNU General Public License |
+  website = [http://www.freesco.org/ www.freesco.org] |
+}}
+'''FREESCO''' (расшифровывается как FREE ciSCO) — это бесплатная и свободная замена коммерческим роутерам, поддерживающая до 10 ethernet/arcnet/token_ring/arlan сетевых карт и до 10 модемов.
+
+== Описание ==
+FREESCO базируется на Linux версии 2.0.39 или 2.0.40, и содержит большинство утилит полноценной операционной системы, но при этом помещается на одной 1.44 Mb дискете.
+После старта, возможна работа только из памяти, без обращений к диску.
+FREESCO работает только на IBM PC совместимых Компьютерах (i386 или выше процессорах) и может быть установлена на Жесткий диск.
+
+Первой популярной версией FREESCO была ''v0.2.7'', созданная Сергеем Сторожевых и улучшенная Lewis 'Lightning' Baughman.
+
+Текущая версия — ''v0.3.8''.
+
+== Возможности ==
+Следующий функционал доступен прямо из коробки:
+* Ethernet мост
+* Ethernet маршрутизатор
+* Совместный доступ к одному из соединению (на основе NAT):
+** ethernet
+** dialup соединение
+** DSL соединение (включая PPPoE и PPtP)
+** выделенная линия
+* Файрвол
+* Dial-in(RAS) сервер
+* HTTP и FTP сервера
+* DNS и DHCP сервера
+* SSH сервер
+* Time сервер
+* Сервер печати
+
+Конфигурирование системы очень простое и производиться с помощью утилиты ''setup'', снабженной подсказками и удобным интерфейсом.
+
+Дополнительно, FREESCO снабжена менеджером пакетов подобному Debian (''pkg -i …''), но разработанному специально для специфики FREESCO, позволяющему манипулировать пакетами, которых достаточно много. Среди них Apache HTTP Server, почтовый сервер exim и Windows Networking server «Samba».
+
+FREESCO может работать с файловыми системами FAT/FAT32 и Linux ext2, и может выступать в качестве файлового сервера по протоколам HTTP/FTP/Samba.
+
+{{Infobox_OS |
+  name = FREESCO |
+  logo = |
+  screenshot = |
+  caption = |
+  developer = Freesco Team |
+  family = Linux |
+  source_model = Open source |
+  working_state = Current |
+  latest_release_version = 0.3.8 |
+  latest_release_date = December 8, 2007 |
+  license = GNU General Public License |
+  website = [http://www.freesco.org/ www.freesco.org] |
+}}
+'''FREESCO''' (stands for Free Cisco) is a free replacement for commercial routers supporting up to 10 Ethernet/arcnet/token ring/arlan network cards and up to 10 modems. 
+
+== General description ==
+FREESCO is a PC (i386 compatible spec or higher) and can be optionally installed to a hard disk.
+
+The software is based on Linux, using a 2.0.39 Linux kernel (or 2.0.40).
+
+The first major version of FREESCO was ''v0.2.7'', originally made by Serguei Storozhevykh and continuously improved by Lewis 'Lightning' Baughman. Since then, the software has improved substantially and comes with many server programs, but many more can be downloaded and installed. Configuration is designed to be simple enough for those with minimal networking knowledge, but also very flexible.
+
+The current version is ''v0.3.8''
+
+== Features ==
+At present FREESCO allows the following out of the box:
+* Ethernet bridging
+* Ethernet routing
+* Internet connection sharing (through NAT) of:
+** dialup connections
+** DSL connections (including PPPoE and PPtP)
+** leased line connections
+* Firewall
+* Dial-in server
+* HTTP and FTP servers
+* DNS and DHCP servers
+* SSH server 
+* Time server
+* Print server
+
+The configuration system is designed to be very easy to understand and use, without being restrictive; FREESCO's ''setup'' utility uses a system of informative menus and prompts, with almost no need for the manual editing of configuration files. All the above listed features can be easily enabled, disabled and configured through the ''setup'' utility, and are included on the floppy disk (with a small amount of room to spare).
+
+Additionally, FREESCO comes with a package management utility similar to Samba".

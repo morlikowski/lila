@@ -1,0 +1,81 @@
+'''.ck'''는 쿡 제도의 인터넷 국가 코드 최상위 도메인이다.
+
+다음과 같은 2차 도메인 안에서 등록을 허용한다:
+* '''.co.ck''': 사업 단체
+* '''.org.ck''': 비영리 단체
+* '''.edu.ck''': 교육 시설
+* '''.gov.ck''': 정부 대행업체
+* '''.net.ck''': 인터넷 서비스 제공업체
+* '''.gen.ck''': (알 수 없음)
+* '''.biz.ck''': 쿡 제도의 비즈니스 관련 페이지
+* '''.info.ck''': 쿡 제도 관련 정보 페이지
+
+== .ck 등록 요구 조건 ==
+등록하기 앞서 다음과 같은 조건이 충족되어야 한다:
+
+#거주인이 아닌 사람들의 도메인 신청은 2년 동안 적어도 $150.00(USD)의 금액을 내야 하며, 2년마다 갱신 과정이 필요하다.
+#도메인 신청은 'nike.co.ck'와 같이 기본적으로 회사나 사용자 이름을 드러낼 수 있어야 한다.
+#'blow.co.ck', 'mybig.co.ck'과 같은 비어가 포함된 도메인은 어떠한 경우라도 고려되지 않으며 같은 이름이 나중에 요청되어도 무시된다. 인터넷 상에서 비방, 모독을 막기 위한 기준으로 '.ck' 도메인은 웹 상에서 감시를 받는다. 사이트가 올바르지 않다고 판단되면 아무런 통보나 환불 없이 도메인을 종료할 수도 있다.
+
+== 사소한 점 ==
+*영국 시트콤 네이선 발리(Nathan Barley)에서 발리는 그의 웹사이트 'trashbat'를 쿡 제도의 도메인을 사용하였다.
+
+== 바깥 고리 ==
+*[http://www.iana.org/root-whois/ck.htm IANA .ck 조회 정보]
+*[http://www.oyster.net.ck/ .ck 도메인 등록 웹사이트]
+
+분류:도메인 이름
+
+be-x-old:.ck
+
+crh:.ck
+
+cv:.ck
+
+{{Infobox Top level domain|
+name=.ck|
+background=#CCF|
+image=240px|Oyster TCI Internet Services|
+introduced=1995|
+type=Country code top-level domain|
+status=Active|
+registry=Oyster Internet Services|
+sponsor=Telecom Cook Islands|
+intendeduse=Entities connected with the Cook Islands|
+actualuse=Gets some use on Cook Islands|
+restrictions=Companies must use name based on their legal name|
+structure=Registrations are made at the third level beneath second-level categories|
+document=|
+disputepolicy=UDRP|
+website=[http://www.oyster.net.ck/about/index.php?about=domain .ck domain registration]|}}
+
+'''.ck''' is the Internet country code top-level domain (ccTLD) for the Cook Islands.
+
+Registrations are within these second-level categories:
+* '''.co.ck''': business organisations
+* '''.org.ck''': not-for-profit organisations
+* '''.edu.ck''': educational institutions
+* '''.gov.ck''': government agencies
+* '''.net.ck''': Internet Service Providers
+* '''.gen.ck''':
+* '''.biz.ck''': Business related pages for the Cook Islands
+* '''.info.ck''': Information pages relating to the Cook Islands
+
+==Requirements of .ck Registration==
+Pre-requisites for applying for a domain is as follows:   
+
+# Non-Resident domain applications cost $150.00(USD) for a minimum of 2 years, and must be renewed every 2 years thereafter.   
+# Applications for a domain if it is already taken or is not affiliated with brand or name identity to you or your company e.g 'nike.co.ck', 'mobil.co.ck'.....etc   
+# Domains considered profane, e.g 'blow.co.ck', 'mybig.co.ck'....etc, will not be considered on any level, and the application will be dissolved with the applicant being notified, and future requests for the same domain name will be ignored. '.ck' domains are monitored on the web, on a regular basis for profanity on the Internet if it is found to be doing so, or if the site is deemed inappropriate, the domain will be terminated without notification or refund
+
+==Trivia==
+*In the UK sitcom Nathan Barley, Barley registers his website 'trashbat' in the Cook Islands simply so that it has what he considers to be the amusing '.co.ck' suffix.
+
+==External links==
+*[http://www.iana.org/root-whois/ck.htm IANA .ck whois information]
+*[http://www.oyster.net.ck/ .ck domain registration website]
+
+Category:Country code top-level domains
+Category:Communications in the Cook Islands
+
+be-x-old:.ck

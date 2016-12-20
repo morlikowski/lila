@@ -1,0 +1,40 @@
+thumb|right|Phenyldiazonium cation
+'''Diazonium compounds''' or '''diazonium salts''' are a group of organic compounds sharing a common functional group with the characteristic structure of R-N<sub>2</sub><sup>+</sup> X<sup>-</sup> where R can be any organic residue such alkyl or aryl and X is an inorganic or organic anion such as a halogen. Historically, diazonium salts have been developed as important intermediates in the organic synthesis of dyes.
+
+== Diazonium salt synthesis ==
+
+The most important method for the preparation of diazonium salts is treatment of aromatic amines such as aniline with sodium nitrite in the presence of a mineral acid. In aqueous solution these salts are unstable at temperatures higher than +5 °C; the N<sup>+</sup>triple bond N group tends to be lost as N<sub>2</sub>, i.e. nitrogen gas. One can isolate diazonium compounds as the tetrafluoroborate salt, which is stable at room temperature, but typically diazonium compounds are not isolated and once prepared, used immediately in further reactions. The process of forming diazonium compound is called '''diazotation''' (diazoniation) or '''diazotisation GB or diazotization US''. The reaction was discovered by Peter Griess in 1858, who subsequentely discovered several reactions of the new compound.
+
+== Diazonium salt reactions ==
+*The most important aromatic diazonium salt reactions are azo coupling with anilines and phenols to azo compounds (azo dyes) in electrophilic aromatic substitution.
+* Nitrogen replacement reactions by 2-aminopyridine reacts with sodium nitrite, hydrobromic acid and excess bromine to 2-bromopyridine <ref>''A Study of the Preparation of Alpha-Pyridyl Halides from Alpha-Aminopyridine by the Diazo Reaction'' Lyman C. Craig J. Am. Chem. Soc.; '''1934'''; 56(1); 231-232. </ref>.
+* In Meerwein arylation the salt also decomposes and the aryl residue reacts with an electron deficient alkene in an addition reaction
+* In the Bamberger triazine synthesis and the Widman-Stoermer synthesis a diazonium salt reacts as an electrophile through its terminal nitrogen atom with an activated double bond.
+* Hydrolysis of diazonium salts yields alcohols
+* Reduction with hypophosphorous acid replaces the nitrogen by hydrogen, which allows amino and nitro groups to be removed easily from rings
+
+== Applications ==
+The first use of diazonium salts was to produce water-fast dyed fabrics by immersing the fabric in an aqueous solution of the diazonium compound, then a solution of the coupler.
+
+Diazonium salts are light sensitive and break down under near UV or violet light. This property has led to their use in document reproduction. In this process, paper or film is coated with a diazonium salt. After contact exposure under light, the residual diazo is converted to a stable azo dye with an aqueous solution of coupler. A more common process uses a paper coated with diazo, coupler and an acid to inhibit coupling; after exposure the image is developed by a vapor mixture of ammonia and water which forces coupling.
+
+==In nanotechnology==
+In a nanotechnology application of diazonium salts, 4-chlorobenzenediazonium tetrafluoroborate is very efficient in functionalizing single wall nanotubes <ref> Green Chemical Functionalization of Single-Walled Carbon Nanotubes in Ionic Liquids B. Katherine Price, Jared L. Hudson, and James M. Tour J. Am. Chem. Soc.; '''2005'''; 127(42) pp 14867 - 14870. </ref>
+. In order to exfoliate the nanotubes, they are mixed with an subsituents prevent the tubes from forming intimate bundles due to large cohesive forces between them which is a reoccurring problem in nanotube technology.
+
+It is also possible to functionalize mechanism <ref>Reaction sequence: silicon surface reaction with ammonium hydrogen fluoride creates hydride layer. An electron is transferred from the silicon surface to the diazonium salt in an open circuit potential reduction leaving a silicon radical cation and a diazonium radical. In the next step a proton and a nitrogen molecule are expelled and the two radical residues recombine creating a surface silicon to carbon bond. </ref>:
+
+thumb|right|130px|Benzéndiazóniový katión
+'''Diazóniové soli''' alebo '''diazóniové zlúčeniny''' sú látky, ktoré obsahujú funkčnú skupinu -'''N<sub>2</sub><sup>+</sup> X<sup>-</sup>''', kde X<sup>-</sup> je anorganický anión, naviazanú na alkylový alebo arylový zvyšok R. Sú veľmi dôležitým medziproduktom pri výrobe organických farbív - azofarbív - napríklad metyloranže.
+
+== Syntéza ==
+Diazóniové soli sa vyrábajú reakciou aromatických amínov, napr. anilínu, s dusitanom sodným NaNO<sub>2</sub> v prítomnosti minerálnej kyseliny pri teplotách do 10°C:
+
+:R-NH<sub>2</sub> + NaNO<sub>2</sub> + HCl → '''R-N<sub>2</sub><sup>+</sup>Cl<sup>-</sup>''' + NaOH + H<sub>2</sub>O
+:R-NH<sub>2</sub> + NaNO<sub>2</sub> + H<sub>2</sub>SO<sub>4</sub> → '''R-N<sub>2</sub><sup>+</sup> HSO<sub>4</sub><sup>-</sup>''' + NaOH + H<sub>2</sub>O
+:R-NH<sub>2</sub> + NaNO<sub>2</sub> + HBF<sub>4</sub> → '''R-N<sub>2</sub><sup>+</sup> BF<sub>4</sub><sup>-</sup>''' + NaOH + H<sub>2</sub>O
+
+== Reakcie ==
+=== Sandmeyerove reakcie ===
+Sú to eliminačné reakcie s radikálovým mechanizmom, pri ktorých z diazóniových solí vznikajú alkylhalogenidy, prípadne alkylkyanidy a alkylrodanidy. Ako meďná soľ prúslušného halogénu.
+center|The Mechanism of the Sandmeyer Reaction

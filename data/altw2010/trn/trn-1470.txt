@@ -1,0 +1,189 @@
+thumb|250px|Mając wystarczająco dużo czasu, [[szympans naciskając losowe klawisze jest w stanie napisać jedną ze sztuk Shakespeare'a.]] 
+
+'''Twierdzenie o nieskończonej liczbie małp''' zakłada, że kompletny dorobek Williama Shakespeare'a. W tym kontekście, "prawie na pewno" należy traktować ściśle z matematycznego punktu widzenia (zdarzenie przeciwne ma prawdopodobieństwo zero, jednak nie jest zdarzeniem niemożliwym), a "małpa" jest jedynie metaforą dla abstrakcyjnego urządzenia generującego nieskończony losowy ciąg liter. Twierdzenie ilustruje zagrożenia płynące z postrzegania nieskończoności jako olbrzymiej, ale skończonej liczby, a także z rozumowania odwrotnego - postrzegania dużej liczby jako nieskończoności. Prawdopodobieństwo napisania przez małpę danego ciągu znaków tak długiego jak na przykład Hamlet, jest tak bardzo małe, że szansa wystąpienia zadanego ciągu znaków nawet w czasie rzędu wieku wszechświata byłaby znikoma, ale większa od zera z matematycznego punktu widzenia.
+
+Warianty twierdzenia zakładają kilka, a nawet nieskończenie wiele, małp, a długość zadanego tekstu zmienia się od pojedynczego zdania do zawartości całej biblioteki. Historię twierdzenia można prześledzić już od ''Metafizyki'' Arystotelesa oraz ''De natura deorum'' Cycerona, następnie przez czasy Pascala i Swifta, aż do współczesnych twierdzeń z ich symbolem maszyny do pisania. Na początku XX wieku, apologeci z jednej strony i Richard Dawkins z drugiej, spierali się w kwestii właściwości użycia małp jako metafory ewolucji.
+
+Dzisiaj, powszechna ciekawość dotycząca piszących na maszynie małp jest podtrzymywana przez liczne odwołania w literaturze, telewizji i radiu, muzyce i w internecie. Symulująca eksperyment z małpami strona internetowa "Monkey Shakespeare Simulator" zdołała dotrzeć aż do 24 znaku - "RUMOUR. Open your ears; "<ref>
+{{cytuj stronę
+| url = http://plus.maths.org/issue34/outerspace/index.html
+| tytuł = Outer space: Monkey business
+| data dostępu = 29 września 2007
+| opublikowany = 
+| język = en
+}}</ref><ref>Tekst ten pochodzi z Henryka IV, części 2.</ref>. W 2003 roku przeprowadzono dla żartu eksperyment z sześcioma makakami czubatymi, ale ich wkład w literaturę ograniczył się jedynie do pięciu stron składających się głównie z liter ''S'', pomijając fakt atakowania i wypróżniania się na klawiaturę<ref>
+{{cytuj stronę
+| url = http://ramblingrhodes.mu.nu/archives/2003_05.html
+| tytuł = News You May Have Missed, But Shouldn't Have
+| data dostępu = 29 września 2007
+| opublikowany = 
+| język = en
+}}</ref>. Badacze ocenili, że twierdzenie o nieskończonej liczbie małp nie odnosi się do rzeczywistych małp.
+
+==Rozwiązanie==
+===Dowód===
+Twierdzenie o nieskończonej liczbie małp jest proste do udowodnienia. Jeśli dwa zdarzenia są statystycznie niezależne, to znaczy zajście jednego z nich nie zmienia prawdopodobieństwa zajścia drugiego, to prawdopodobieństwo wystąpienia obu zdarzeń równe jest iloczynowi ich prawdopodobieństw.
+
+Zakładając, że maszyna do pisania ma 50 klawiszy, a słowo które chcemy otrzymać to "POLSKA". Pisząc losowo na maszynie, prawdopodobieństwo, że pierwszą napisaną literą będzie ''P'' wynosi 1/50. Tyle samo wynosi prawdopodobieństwo dla każdej kolejnej litery. Zdarzenia te są niezależne, więc prawdopodobieństwo, że pierwsze sześć liter utworzy słowo "POLSKA" będzie iloczynem prawdopodobieństw dla poszczególnych liter:
+:(1/50) × (1/50) × (1/50) × (1/50) × (1/50) × (1/50) = (1/50)<sup>6</sup>.
+Każdy kolejny ciąg sześciu liter będzie również słowem "POLSKA" z prawdopodobieństwem równym (1/50)<sup>6</sup>.
+
+W powyższym przykładzie prawdopodobieństwo ''nie''napisania słowa "POLSKA" w bloku sześciu znaków wynosi 1&nbsp;&minus;&nbsp;(1/50)<sup>6</sup>. Ze względu na to, że każdy blok pisany jest niezależnie, prawdopodobieństwo ''X''<sub>''n''</sub> nie napisania "POLSKA" w żadnym z pierwszych ''n'' sześcioliterowych bloków wynosi
+:<math>X_n=\left(1-\frac{1}{50^6}\right)^n.</math>
+Wraz ze wzrostem ''n'', ''X''<sub>''n''</sub> maleje. Dla ''n'' równego milionowi, ''X''<sub>''n''</sub> wynosi 99.99%, ale dla ''n'' = 10&nbsp;miliardów ''X''<sub>''n''</sub> wynosi 53%, a dla ''n'' = 100&nbsp;miliardów wynosi 0.17%. Przy ''n'' dążącym do nieskończoności, prawdopodobieństwo ''X''<sub>''n''</sub> zmierza do zera; to jest, mając dostatecznie duże ''n'', ''X''<sub>''n''</sub> może być dowolnie małe<ref>To sprawia, że prawdopodobieństwo napisania "POLSKA" w jednym z niezależnych bloków dąży do&nbsp;1. Dodatkowo, słowo może wystąpić między dwoma blokami.</ref><ref>
+{{cytuj książkę
+|autor=Richard E. Isaac
+|tytuł=The Pleasures of Probability
+|rok=1995
+|opublikowany=Springer
+|isbn = 0-387-94415-X
+|strony=48–50}} Isaac od razu uogólnia ten argument do zmiennego tekstu i wielkości alfabetu; główna konkluzja na stronie 50.</ref>.
+
+Ten sam argument pokazuje dlaczego co najmniej jedna z nieskończenie wielu małp napisze prawie na pewno tekst równie szybko jak doskonale dokładny człowiek kopiujący oryginał. Oczywiście, reszta nieskończonej ilości małp wyprodukuje coś zupełnie innego, podczas gdy człowiek skopiuje jedynie poprawny tekst. W tym przypadku ''X''<sub>''n''</sub> = (1&nbsp;&minus;&nbsp;(1/50)<sup>6</sup>)<sup>''n''</sup> gdzie ''X''<sub>''n''</sub> reprezentuje prawdopodobieństwo, że żadna z pierwszych ''n'' małp nie napisze "POLSKA" podczas pierwszej próby. Gdy weźmiemy pod uwagę 100 bilionów małp, prawdopodobieństwo spada do 0.17%, a wraz z liczbą małp ''n'' dążącą do nieskończoności wartość 'X''<sub>''n''</sub> — prawdopodobieństwo niepowodzenia w uzyskaniu zadanego tekstu — spada do zera. Jest to równoznaczne z twierdzeniem, że prawdopodobieństwo, że jedna lub więcej z nieskończenie dużej liczby małp wytworzy zadany tekst za pierwszym razem, jest równe 100%.
+
+===Ciągi nieskończone===
+Dwa powyższe stwierdzenia można sformułować ogólniej i krócej opisując je jako ciągi znaków, które są sekwencją liter wybranych z jakiegoś skończonego alfabetu:
+* Mając dany nieskończony ciąg, w którym każdy znak jest wybrany losowo, każdy skończony ciąg prawie na pewno występuje w nim jako podciąg na jakiejś pozycji (ściślej, występuje on na nieskończenie wielu pozycjach).
+* Mając nieskończoną sekwencję nieskończonych ciągów, gdzie każdy znak, każdego ciągu jest losowy z dyskretnym jednostajnym rozkładem prawdopodobieństwa, każdy skończony ciąg prawie na pewno wystąpi jako przedrostek jednego z takich ciągów (ściślej nieskończenie wielu).
+
+Obie powyższe zależności wynikają w prosty sposób z drugiego lematu Borela-Cantelliego. Dla drugiej zależności, niech ''E''<sub>''k''</sub> będzie zdarzeniem polegającym na tym, że ''k''ty ciąg zaczyna się danym tekstem. Ponieważ ma ono stałe, niezerowe prawdopodobieństwo ''p'', a ''E''<sub>''k''</sub> są niezależne, a poniższa suma jest rozbieżna,
+:<math>\sum_{i=1}^\infty P(E_k) = \sum_{i=1}^\infty p = \infty,</math>
+prawdopodobieństwo wystąpienia nieskończenie wielu spośród ''E''<sub>''k''</sub> jest równe 1. Powyższa suma to oczekiwana liczba wystąpień danego ciągu liter w wygenerowanym ciągu przypadkowych znaków.
+
+Pierwszą zależność wykazuje się analogicznie. Losowy ciąg można podzielić na niezachodzące na siebie bloki o długości szukanego tekstu i przyjąć ''E''<sub>''k''</sub> jako zdarzenie polegające na równości ''k''tego bloku z poszukiwanym ciągiem<ref>Pierwsza zależność jest dowodzona podobną drogą w 
+{{cytuj książkę
+|autor=Allan Gut
+|tytuł=Probability: A Graduate Course
+|rok=2005
+|opublikowany=Springer
+|isbn = 0-387-22833-0
+|strony=97–100}}</ref>.
+
+===Prawdopodobieństwo===
+Ignorując znaki interpunkcyjne, spacje oraz pisownię z wielkiej litery, małpa pisząca z równomiernym rozkładem prawdopodobieństwa ma jedną szanse na 26<ref>ilość liter w angielskim alfabecie</ref> by poprawnie napisać pierwszą literę ''Hamleta''. Ma jedynie jedną szansę na 676 (26 razy 26) by napisać dwie pierwsze litery. Ponieważ prawdopodobieństwo spada wykładniczo, przy 20 literach ma zaledwie jedną szansę na 26<sup>20</sup> = 19,928,148,895,209,409,152,340,197,376. W przypadku całego tekstu ''Hamleta'', prawdopodobieństwo jest tak znikomo małe, że jest ledwie wyobrażalne dla człowieka. Załóżmy, że tekst Hamleta zawiera 130,000 znaków (w rzeczywistości więcej, nawet pozbawiony interpunkcji). Wtedy prawdopodobieństwo wylosowania takiego tekstu jest jak 1 do 3.4×10<sup>183946</sup>. Średnia liczba liter, jakie trzeba napisać wynosi więc 3.4×10<sup>183946</sup><ref>Dla każdego danego ciągu długości 130,000 znaków ze zbioru od ''a'' do ''z'', średnia ilość liter, które należy napisać by pojawił się ciąg to około 3.4×10<sup>183946</sup>, z wyjątkiem sytuacji, gdy wszystkie litery szukanego ciągu są takie same, gdyż wtedy wartość zwiększa się o około 4%, do 3.6×10<sup>183946</sup>. Tym samym niepowodzenie odnalezienia właściwego ciągu w konkretnym miejscu spada o około 4% prawdopodobieństwa poprawnego ciągu zaczynającego się na następnej pozycji. (to znaczy, dla pozycji oddalonych od siebie o mniej niż długość szukanego ciągu zdarzenia znalezienia go nie są niezależne; występuje korelacja między dwoma trafieniami, taka że szansa na sukces po porażce jest mniejsza niż ogólne prawdopodobieństwo).</ref>.
+
+Dla porównania, istnieje jedynie około 10<sup>79</sup> atomów w obserwowalnym Wszechświecie i zaledwie 4.3 x 10<sup>17</sup> sekund upłynęło od Wielkiego Wybuchu. Nawet jeśli wszechświat byłby wypełniony małpami piszącymi bez przerwy, ich całkowite prawdopodobieństwo stworzenia pojedynczego ''Hamleta'' byłoby i tak mniejsze niż 1 do 10<sup>183800</sup>. Jak ujęli to Kittel i Kroemer, "Prawdopodobieństwo napisania ''Hamleta'' jest więc równe zeru dla każdej możliwej realizacji", a stwierdzenie, że małpom musi ostatecznie się powieść "prowadzi do zwodniczych wniosków o bardzo, bardzo wielkich liczbach". Wypowiedzi te pochodzą z ich książki o termodynamice, dziedzinie nauki, której statystyczne podstawy sprowokowały pierwsze znane użycie metafory małp piszących na maszynie<ref name="KK">
+{{cytuj książkę
+|autor=Charles Kittel i Herbert Kroemer
+|tytuł=Thermal Physics (2nd ed.)
+|opublikowany=W. H. Freeman Company
+|rok=1980
+|isbn = 0-7167-1088-9
+|strony=53}}</ref>.
+
+==Historia==
+===Mechanika statystyczna===
+
+Jedna ze znanej obecnie matematykom wersji twierdzenia z piszącymi małpami, ukazała się w artykule Émila Borela z 1913 roku zatytułowanym "Mécanique Statistique et Irréversibilité" (Mechanika statystyczna i nieodwracalność)<ref>
+{{Cytuj pismo
+|autor=Émile Borel
+|tytuł=''Mécanique Statistique et Irréversibilité''
+|czasopismo=J. Phys. 5e série
+|numer=3
+|rok=1913
+|strony=189&ndash;196}}</ref> oraz w jego książce "Le Hasard" z 1914.
+
+Jego "małpy" nie są prawdziwymi małpami, a jedynie metaforą nierzeczywistego sposobu tworzenia wielkich, losowych sekwencji znaków. Borel stwierdził, że gdyby milion małp pisał na maszynie po dziesięć godzin dziennie, byłoby skrajnie mało prawdopodobne, że efekt ich pracy byłby dokładną kopią całych księgozbiorów najbogatszych księgarni świata; ale jednocześnie, jest jeszcze mniej prawdopodobne, by prawa mechaniki statystycznej zostały złamane, choćby nieznacznie.
+
+Fizyk Arthur Eddington czerpiąc z wizji Borela, posunął się o krok dalej w ''The Nature of the Physical World'' (1928), pisząc:
+
+{{CytatD|left|Jeśli pozwolę moim palcom poruszać się bezładnie po klawiaturze, może się zdarzyć, że otrzymam logiczne zdanie. Jeśli armia małp będzie klikać na swoich maszynach do pisania, mogą napisać wszystkie książki z British Museum. Prawdopodobieństwo, że im się to uda jest zdecydowanie większe, niż prawdopodobieństwo cząsteczek powracających do jednej części naczynia<ref>
+{{cytuj książkę
+|autor=Arthur Eddington
+|tytuł=The Nature of the Physical World: The Gifford Lectures
+|opublikowany=Macmillan
+|miejsce=New York
+|rok=1928
+|strony=72
+|isbn = 0-8414-3885-4}}</ref>.|Arthur Eddington|The Nature of the Physical World: The Gifford Lectures}}
+
+Te obrazy zmuszają czytelnika do rozważenia jak niesamowinie małe jest prawdopodobieństwo by wielka - ale skończona - liczba małp pisząca przez wielki - ale skończony - okres czasu, była zdolna otrzymać jakieś znaczące dzieło oraz porównania tego z jeszcze mniejszym prawdopodobieństwem niektórych zdarzeń w fizyce. Każdy fizyczny proces mniej prawdopodobny niż powodzenie w przypadku małp, jest w istocie niemożliwy i można bezpiecznie powiedzieć, że nigdy nie wystąpi<ref name="KK" />.
+
+===Geneza i "La biblioteca total"===
+W eseju z 1939 roku zatytułowanym "La biblioteca total" (Kompletna Biblioteka), argentyński pisarz Jorge Luis Borges prześledził koncepcję nieskończonej ilości małp aż do czasów ''Metafizyki'' Arystotelesa. Wyjaśniając poglądy Leucypa, który utrzymywał, że świat powstał z losowej kombinacji atomów, Arystoteles zauważa, że same atomy są nierozróżnialne, a ich możliwe układy różnią się jedynie pozycją i ustawieniem. Grecki filozof porównuje to do faktu, że tragedia i komedia składają się z tych samych "atomów", to znaczy z tych samych liter. Trzy wieki później w ''De natura deorum'' (''O naturze bogów'') Cyceron sprzeczał się z tym atomistycznym światopoglądem:
+
+Borges prześledził historię dyskusji przez czasy Blaise'a Pascala i Jonathana Swifta, następnie zauważył, że w jego czasach uległo zmianie używane słownictwo. Do roku 1939 idiom miał już bowiem postać: "Jeśli dać połowie tuzina małp maszyny do pisania, to w nieskończenie długim czasie, stworzą wszystkie książki z British Museum" (Do czego  Borges dopowiedział, że "ściśle mówiąc, wystarczy jedna nieśmiertelna małpa"). Borges następnie wyobraża sobie zawartość Kompletnej Biblioteki, jaka powstałaby przy takim przedsięwzięciu posuniętym do skrajności:
+
+==Zastosowania==
+===Ewolucja===
+thumb|left|150px|[[Thomas Huxley<br />Błędnie przypisuje się mu wariant teorii.]]
+Rywal Eddingtona James Jeans w swojej książce z 1931 roku ''The Mysterious Universe'', przypisał małpią parabolę Huxley'owi, prawdopodobnie mając na myśli Thomasa Henry'ego Huxleya. Jednakże nie miał on racji<ref>
+{{Cytuj pismo
+|autor=Thanu Padmanabhan
+|tytuł=The dark side of astronomy
+|czasopismo=Nature
+|numer=435
+|strony=20–21
+|rok=2005
+|id=}}
+
+{{cytuj książkę
+|autor=Suzy Platt
+|tytuł=Respectfully quoted: a dictionary of quotations
+|rok=1993
+|opublikowany=Barnes & Noble
+|isbn = 0-88029-768-9
+|strony=388–389}}</ref>.
+
+Do dziś zdarzają się przypadki przypisywania użycia tego przykładu przez Huxleya w debacie dotyczącej dzieła  ''O powstawaniu gatunków'' Karola Darwina z anglikańskim biskupem Samuelem Wilberforcem, przeprowadzonej na spotkaniu British Association for the Advancement of Science w Oxford 30 czerwca 1860 roku. Fakt użycia porównania do małp jest nie tylko niepotwierdzony, ale na dodatek maszyna do pisania nie była jeszcze znana w roku 1860<ref>
+{{cytuj książkę
+|autor=Nicholas Rescher
+|tytuł=Studies in the Philosophy of Science
+|rok=2006
+|opublikowany=ontos verlag
+|isbn = 3-938793-20-1
+|strony=103}}</ref>. Naczelne były wciąż drażliwym tematem z innych względów, a debata między Huxleyem a Wilverforcem odwoływała się do małp: biskup spytał czy Huxley wywodził się od małpy w linii męskiej czy żeńskiej, na co Huxley odparł, że woli być potomkiem małpy, niż kogoś kto używa tak nieuczciwych argumentów jak biskup<ref>
+{{Cytuj pismo
+|autor=J. R. Lucas
+|tytuł=Wilberforce and Huxley: A Legendary Encounter
+|czasopismo=The Historical Journal
+|numer=2/22
+|oznaczenie=Czerwiec
+|rok=1979
+|strony=313–330
+|url=http://links.jstor.org/sici?sici=0018-246X%28197906%2922%3A2%3C313%3AWAHALE%3E2.0.CO%3B2-5}} Dostępne także on-line [http://users.ox.ac.uk/~jrlucas/legend.html] (dostęp 2007-03-07)</ref>.
+
+Pomimo pierwotnego zamieszania, argument małpy z maszyną do pisania jest obecnie często przytaczany w sporach dotyczących ewolucji. Przykładowo Doug Powell twierdzi jako chrześcijański apologeta, że nawet gdyby małpa przypadkowo napisała treść ''Hamleta'', to i tak nie powiodło jej się stworzyć ''Hamleta'', jako że zabrakło jej intencji do komunikacji. Jego zdaniem, prowadzi to bezpośrednio do wniosku, że natura nie była w stanie wykształcić informacji zawartej w DNA<ref>
+{{cytuj książkę
+|autor=Doug Powell
+|tytuł=Holman Quicksource Guide to Christian Apologetics
+|rok=2006
+|opublikowany=Broadman & Holman
+|isbn = 0-8054-9460-X
+|strony=60, 63}}</ref>. Częstszy pogląd reprezentuje John MacArthur zakładający, że genetyczne mutacje potrzebne do uzyskania tasiemca z ameby są równie mało prawdopodobne co napisanie przez małpę monologów Hamleta, a co za tym idzie prawdopodobieństwo istnienia ewolucji jest niepodważalnie małe<ref>
+{{cytuj książkę
+|autor=John MacArthur
+|tytuł=Think Biblically!: Recovering a Christian Worldview
+|rok=2003
+|opublikowany=Crossway Books
+|isbn = 1-58134-412-0
+|strony=78–79}}</ref>.
+
+thumb|left|150px|[[Richard Dawkins]]
+Ewolucjonista doboru naturalnego w zakresie tworzenia złożonych form biologicznych poprzez losowe mutacje. W opisywanym przez siebie eksperymencie, Dawkins używa swojego programu (Weasel program) by wytworzyć kwestię Hamleta ''METHINKS IT IS LIKE A WEASEL''<ref>''Methinks it is like a weasel'' - Hamlet określa wygląd obłoku jako podobny do łasicy</ref> poprzez pisanie losowych liter, ale ciągle zachowując zgodne z oryginałem części. Istotą jest więc nie generowanie losowego ciągu znaków, a wyłuskiwanie informacji przez dobór naturalny<ref>
+{{cytuj książkę
+|autor=Richard Dawkins
+|rok=1986
+|tytuł=The Blind Watchmaker
+|opublikowany=Oxford UP}}</ref>.
+
+thumb|Beždžionė prie spausdinimo mašinėlės
+'''Begalinio beždžionių skaičiaus teorema''' teigia: „Jei prie spausdinimo mašinėlių pasodintume begalybę beždžionių, tai viena iš jų būtinai atspausdintu kokį nors Viljamo Šekspyro kūrinį“. 
+
+Yra ir kitų šios teoremos variantų su begaliniu beždžionių skaičiumi ir begaliniu laiku - iš esmės tai ta pati teorema, taigi  teorema yra apie begalybę beždžionių ir begalę laiko.
+
+Tas pats būtų teigti, jog per ilgą laiką atsitiktiniu būdu <ref>Visose šiose teoremose laikoma, kad tikimybė paspausti bet kurį klavišą yra vienoda ir nepriklauso nuo prieš tai paspaustų klavišų. Ūkyje dirbtinai atliekant atsitiktinius „klavišų spaudimus“, iš tikrųjų jie nebus visiškai atsitiktiniai dėl daugelio priežasčių.</ref> spaudinėjant klaviatūrą, tarp surinktų raidžių atsiras suprantamų žodžių, žodžių junginių ir net sakinių. 
+
+Tokia teorema nieko konkretaus nesako apie beždžionės, kuriai pasisekė parašyti teisingą tekstą, intelektą. Vienas iš tokios teoremos pritaikymų - atsitiktinio gyvybės atsiradimo demonstravimas. Taip pat tokią teoremą galima juokais naudoti argumentuojant grubios jėgos panaduojimą technologijoje, tada ji skambės taip: esant pakankamai resursų, bet koks techninis uždavinys išsprendžiamas. Šiuo atveju ignoruojamas resursų ribotumas. 
+
+Loginė teoremos dalis galio būti perkelta į visatą, tada ji skambės taip: „Jei visata begalinė <ref>ir medžiagos tankumas makro mastelyje sąlyginai vienodas</ref>, tai, ką mes įsivaizduotume, būtinai bus kur nors visatoje“. Ji įrodoma atsižvelgiant į tai, kad bet kokios įsivaizduojamos struktūros atsiradimo tikimybė labai maža, bet vis dėlto didesnė už nulį ir po labai didelio kiekio bandymų pasirodys lygi vienetui. 
+
+Pirmą kartą teoremą išpopuliarino astronomas seras Arturas Edingtonas. Ji buvo panaudota Raselo Malonio (Russell Maloney) mokslinės fantastikos apsakyme „Duglo Adamso filme Galaktikos gidas (2005). 
+
+== Įrodymas ==
+Pagal Borelio – Kantelio lemą: jei įvykiai statistiškai nepriklausomi, o vieno rezultatas neįtakoja kito, tai tikimybė, kad atsitiks abu įvykiai, lygi abiejų tikimybių sandaugai. Tarkime, tikimybė laimėti kauliukais lygu 1/6, o laimėti ruletėje - 1/38, tai tikimybė laimėti abiejuose žaidimuose lygi 1/6 × 1/38 = 1/228.
+
+Dabar sakykime, kad rašomoji mašinėlė turi 50 mygtukų, spausdinant paeiliui reikia atspausdinti žodį – „kibire“. Tikimybė, kad pirmas atspausdintas simbolis bus „k“ – 1/50, tikimybė, kad antra raidė bus „i“ ir taip toliau. Tokie įvykiai nepriklausomi, tokiu būdu tikimybė iš eilės padrikai spausdinant parašyti žodį „kibire“ — (1/50)<sup>6</sup>.
+
+Tikimybė '''ne'''atspausdinti „kibire“ bet kurioje 6 raidžių serijoje lygi 1 − (1/50)<sup>6</sup>.
+Kadangi kiekviena serija spausdinama atskirai, tikimybė neatspausdinti žodžio „kibire“ kiekviename iš pirmų serijų po 6 raides X = (1 − (1/50)<sup>6</sup>)<sup>n</sup>.

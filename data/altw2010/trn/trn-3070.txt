@@ -1,0 +1,52 @@
+Em endereços IP de origem de um pacote que passam por um ''rede interna tenha acesso ao exterior (rede pública).
+
+== Explicação ==
+Com o surgimento das redes privadas com internet partilhada, surgiu o problema de como os computadores pertencentes à esta rede privada poderiam receber as respostas aos seus pedidos feitos para fora da rede.
+
+Por se tratar de uma rede privada, os números de IP interno da rede (10/8, 172.16/12 e 192.168/16) nunca poderiam ser passados para a internet pois não existem e o computador que recebesse um pedido com um desses números não saberia para onde enviar a resposta. Sendo assim, os pedidos teriam de ser gerados com um IP global do router. Mas quando a resposta chegasse ao router, seria preciso saber a qual dos computadores presentes na LAN pertencia aquela resposta.
+
+A solução encontrada foi fazer um mapeamento baseado no IP interno e na porta local do computador. Com esses dois dados o NAT gera um número de 16 bits usando a tabela hash, este número é então escrito no campo da porta de origem.
+
+O pacote enviado para fora leva o IP global do router e na porta de destino o número gerado pelo NAT. Desta forma o computador que receber o pedido sabe para onde tem de enviar a resposta. Quando o router recebe a resposta faz a operação inversa, procurando na sua tabela uma entrada que corresponda aos bits do campo da porta. Ao encontrar a entrada, é feita o direccionamento para o computador correcto dentro da rede privada.
+
+Esta foi uma medida de reação face à previsão da exaustão do espaço de endereçamento IP, e rapidamente adaptada para redes privadas também por questões econômicas (no início da Internet os endereços IP alugavam-se, quer individualmente quer por classes/grupos).
+
+Um computador atrás de um ''router'' ''gateway'' NAT tem um endereço IP dentro de uma gama especial, própria para redes internas. Como tal, ao aceder ao exterior, o ''gateway'' seria capaz de encaminhar os seus pacotes para o destino, embora a resposta nunca chegasse, uma vez que os routers entre a comunicação não saberiam reencaminhar a resposta (imagine-se que um desses routers estava incluído em outra rede privada que, por ventura, usava o mesmo espaço de endereçamento). Duas situações poderiam ocorrer: ou o pacote seria indefinidamente<sup>1</sup> reencaminhado, ou seria encaminhado para uma rede errada e descartado.
+
+:<sup>1</sup> na verdade, existe um tempo de vida para os pacotes IP serem reencaminhados (ver TTL)
+
+Nel campo delle reti telematiche, il '''network address translation''' o '''NAT''', ovvero ''traduzione degli indirizzi di rete'', conosciuto anche come '''network masquerading, native address translation''', è una tecnica che consiste nel modificare gli pacchetti in transito su un sistema. 
+
+Sono molto note anche alcune tipologie specifiche di NAT, come l<nowiki>'</nowiki>''IP masquerading'' e il ''port forwarding''.
+
+==Tipi di NAT==
+
+Il NAT è spesso implementato dai router e dai firewall.
+
+Si può distinguere tra ''source NAT'' (SNAT) e ''destination NAT'' (DNAT), a seconda che venga modificato l'indirizzo sorgente o l'indirizzo destinazione del ''pacchetto che inizia una nuova connessione''.
+
+I pacchetti che viaggiano in senso opposto verranno modificati in modo corrispondente, in modo da dare ad almeno uno dei due computer che stanno comunicando l'illusione di parlare con un indirizzo IP diverso da quello effettivamente utilizzato dalla controparte.
+
+Per implementare il NAT, un router ha quindi bisogno di effettuare il rete (IP): 
+* nel caso di TCP è una connessione TCP in senso proprio, caratterizzata da una coppia di porte
+* nel caso di UDP, per quanto UDP sia un protocollo di trasporto senza connessione, viene considerata connessione uno scambio di pacchetti UDP tra due host che usi la stessa coppia di numeri di porta.
+* altri protocolli vengono gestiti in modo analogo, usando caratteristiche del pacchetto a livelli superiori ad IP per identificare i pacchetti che appartengono ad una stessa connessione.
+
+==Source NAT==
+
+Nel source NAT, le connessioni effettuate da uno o più computer vengono alterate in modo da presentare verso l'esterno uno o più indirizzi IP diversi da quelli originali. Quindi chi riceve le connessioni le vede provenire da un indirizzo diverso da quello utilizzato da chi le genera... 
+
+===Motivazioni===
+Storicamente il NAT si è affermato come mezzo per ovviare alla scarsità di indirizzi IP pubblici disponibili, soprattutto in quei paesi che, a differenza degli spazio di indirizzamento IP allocato pro-capite.
+* Considerato che spesso gli indirizzi IP pubblici hanno un prezzo, per molti utenti Internet questo costo di indirizzi IP extra non sarebbe stato compensato dai benefici che avrebbero potuto ricavare. 
+* Le tecniche utilizzate per risparmiare indirizzi IP pubblici rendono i calcolatori non direttamente raggiungibili da internet, per cui spesso questa configurazione viene scelta per ragioni di sicurezza.
+
+===IP masquerading===
+
+Viene detto '''IP masquerading''' un caso particolare di source NAT, in cui le connessioni generate da un insieme di computer vengono "presentate" verso l'esterno con un solo indirizzo IP. La tecnica è detta anche ''Port Address translation'' (PAT), ''IP Overloading'' o NAPT (Network Address and Port Translation), in quanto vengono modificati non solo gli indirizzi IP ma anche le porte TCP e UDP delle connessioni in transito.
+
+Questo metodo prevede di individuare una rete "interna" (che tipicamente utilizza indirizzi IP privati) ed una "esterna" (che tipicamente utilizza indirizzi IP pubblici), e permette di gestire solo connessioni che siano originate da host della rete "interna".
+
+Ciascuna connessione TCP o UDP viene gestita individualmente: quando la connessione viene iniziata, la porta sorgente originale può essere modificata, e il router NAT mantiene una tabella di corrispondenze tra porte sull'indirizzo esterno e corrispondenti porte e indirizzi IP privati. Quando riceve un pacchetto TCP o UDP sull'indirizzo IP esterno, consulta la tabella per sapere a quale host interno e su quale porta inviarlo. Il router NAT deve quindi tenere traccia di tutte le connessioni TCP e UDP attive tra la rete interna e quella esterna (e preoccuparsi di eliminare le voci inutilizzate da questa tabella mediante un meccanismo di scadenza). Alcune implementazioni modificano sistematicamente le porte sorgente di tutte le connessioni, utilizzando tipicamente numeri di porte molto alti (tipicamente sopra 61000), altre tendono a mantenere i numeri di porta originali, e li modificano solo se un numero di porta sorgente è utilizzato da due host contemporaneamente.
+
+thumb|300px|Un esempio di comunicazione mascherata.

@@ -1,0 +1,94 @@
+{{Info/Comuna da França|
+|nome         = Montaigut-le-Blanc
+|nomefr       = Montaigut-le-Blanc
+|região       = Auvergne
+|departamento = Puy-de-Dôme
+|área         = 21,85
+|altitude     = 
+|latP         = N | latG = 45 | latM = 35 | latS = 0
+|lonP         = E | lonG = 3 | lonM = 6 | lonS = 0
+|população    = 568
+|densidade    = 26
+|censo        = 1999
+|insee        = 63234 <!-- Código INSEE -->
+|códpostal    = 63320 <!-- Código postal -->
+|mapa         = <!-- Insira apenas o nome da imagem -->
+|escudo       = <!-- Insira apenas o nome da imagem -->
+|bandeira     = <!-- Insira apenas o nome da imagem -->
+|imagem       = <!-- Insira apenas o nome da imagem -->
+|legenda      = <!-- Legenda para a imagem -->
+|gentílico    = 
+|website      = 
+|notas        = 
+}}
+'''Montaigut-le-Blanc''' é uma região administrativa de departamento km&sup2;, com 568 habitantes, segundo os densidade 26 hab/km&sup2;.
+
+Categoria:Comunas da França
+Categoria:Comunas de Auvergne
+Categoria:Comunas do departamento de Puy-de-Dôme
+
+{{infobox Franse gemeente| <!--Montaigut-le-Blanc (Puy-de-Dôme)-->
+|plaatsnaam= Montaigut-le-Blanc
+|wapen= 
+|kaart= 
+|regio= Auvergne 
+|departement= Puy-de-Dôme (63)
+|arrondissement= Issoire
+|kanton= Champeix
+|jaar= 1999
+|inwoners= 601
+|dichtheid= 27,6
+|oppervlakte= 21,8
+|water= 
+|latitudeGraden= 45 |latitudeMinuten= 35|latitudeSeconden= 0
+|longitudeGraden= 3 |longitudeMinuten= 6 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 173 |kaartY= 182
+|code= 63234
+|postcode= 63320
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Montaigut-le-Blanc''' is een gemeente in het Franse departement Issoire.
+
+==Geografie==
+De oppervlakte van Montaigut-le-Blanc bedraagt 21,8 km², de bevolkingsdichtheid is 27,6 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:900 color:gray1 width:1       
+  from:start till:end             
+  bar:600 color:gray1              
+  from:start till:end            
+  bar:300 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,132)(84,119) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 592 1968: 524
+  points:(84,119)(100,120)    color:blue    width:2 #1975: 530
+  points:(100,120)(128,116)   color:blue    width:2 #1982: 507
+  points:(128,116)(160,127)   color:blue    width:2 #1990: 568
+  points:(160,127)(196,134)   color:blue    width:2 #1999: 601
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

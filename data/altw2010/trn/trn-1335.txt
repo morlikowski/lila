@@ -1,0 +1,75 @@
+{{Infobox OS version
+| navn                   = Windows 2000
+| familie                = Microsoft Windows
+| logo                   = 
+| logo_str               = 
+| screenshot             = 
+| billedtekst            = 
+| firma                  = Microsoft
+| website                = [http://www.microsoft.com/windows2000 Windows 2000] <small>(Eng)</small>
+| kildekode_model        = Delt Kildekode<ref></ref>
+| licens                 = MS-EULA
+| kerne_type             = Hybrid kernel
+| første_udgivelses_dato = Februar 17, 2000
+| første_udgivelses_url  = http://www.microsoft.com/presspass/press/1999/Dec99/W2KrtmPR.mspx
+| udgivet_version        = 5.0 SP4 Rollup 1 v2 (5.0.3700.6690)
+| udgivet_dato           = September 13, 2005
+| udgivet_url            = http://support.microsoft.com/kb/891861
+| support_status         = Forlænget Support til Juni/Juli 2010<ref name=Support></ref><ref name=Lifecycle></ref>
+| andre_artikler         = 
+}}
+
+'''Microsoft Windows 2000''' var 2000-udgaven af Microsofts Windows NT-kerne. Det var i virkeligheden en videreudvikling af Windows NT, og der refereres dog også nogle gange til Windows 2000 som "Windows NT 5.0", fordi Windows NT stod af ved version 4.
+
+Windows 2000 kunne som noget nyt i forhold til Windows 98/Me køre hardddiske i filformatet NTFS, hvilket gav administratorer mulighed for at lave begrænsninger til mapper og filer for andre brugere.
+
+Noget, som mange blev skuffet over, var at Windows 2000 kun ville køre DOS programmer i et lille ankervindue,
+Windows 2000 var mere kombatilbelt med hardware, og var også en smule mere brugervenlig.
+
+Windows 2000 med Service Pack 4 overgik til forlænget support 30. juni 2006. Hvilket betyder at den egentlige udvikling af systemet er slut. 
+
+Microsoft fortsætter dog med sikkerhedsopdateringer og betalingssupport i den forlængede support periode.
+
+==Referencer==
+<div class="references-small"><references/></div> 
+
+{{Карточка ОС
+| name = Windows 2000
+| logo = 350px
+| screenshot = 350px
+| caption = Рабочий стол Windows 2000.
+| developer = Microsoft
+| family = Windows NT
+| source_model = Закрытый исходный код
+| working_state = Период расширенной поддержки (''Extended Support Period'') — только обновления системы безопасности предоставляются бесплатно.
+| latest_release_version = Пакет обновления 4
+| latest_release_date = 26 июня 2003 года
+| kernel_type = Гибридное
+| license = Microsoft EULA
+| website = http://www.microsoft.com/windows2000/default.mspx
+}}
+
+'''Windows 2000''' (также называемая ''Win2k'', ''W2k'' или ''Windows NT 5.0'') — это Microsoft, предназначенная для работы на 32-битными процессорами (с архитектурой совместимой с Intel IA-32) <!-- почему Intel? А AMD? -->.
+
+Первая бета-версия системы была выпущена 27 сентября 1997 года. Изначально система носила название ''Windows NT 5.0'', поскольку была следующей крупной версией Windows NT после Windows NT 4.0. Однако 27 октября 1998 года она получила собственное название Windows 2000. Финальная версия системы была выпущена для широкой общественности 17 февраля 2000 года.
+
+Windows 2000 выпускается в четырёх изданиях: ''Professional'' (издание для рабочих станций и опытных пользователей), ''Server'', ''Advanced Server'' и ''Datacenter Server'' (для применения на серверах). Кроме того, существует «ограниченное издание» Windows 2000 Advanced Server Limited Edition и Windows 2000 Datacenter Server Limited Edition, предназначенное для работы на 64-разрядных процессорах Intel Itanium.
+
+Некоторыми из наиболее существенных улучшений в Windows 2000 по сравнению с Windows NT 4.0 являются:
+* Поддержка службы каталогов Active Directory. Серверная часть Active Directory поставляется с изданиями Server, Advanced Server и Datacenter Server, в то время как полную поддержку службы на стороне клиента осуществляет издание Professional.
+* Службы ASP.
+* Файловая система NTFS версии 3.0 (также называемая NTFS 5.0 по внутренней версии Windows 2000 — ''NT 5.0''). В этой версии NTFS впервые появилась поддержка квот, то есть ограничений на максимальный объём хранимых файлов для каждого пользователя.
+* Обновлённый пользовательский интерфейс, включающий Active Desktop на основе Internet Explorer версии 5 и подобный, таким образом, интерфейсу Windows 98.
+* Языковая интеграция: предыдущие версии Windows выпускались в трёх вариантах — для европейских языков (однобайтные символы, письмо только слева направо), для дальневосточных языков (многобайтные символы) и для ближневосточных языков (письмо справа налево с контекстными вариантами букв). Windows 2000 объединяет эти возможности; все её локализованные версии сделаны на единой основе.
+
+Впоследствии Windows 2000 была заменена операционными системами рабочих станций в компаниях с более чем 250 компьютерами составляет более 50 %. В то же время в компаниях с менее чем 250 компьютерами Windows XP более популярна. [http://www.assetmetrix.com/forms/index.asp?template_id=106]
+Корпорация Microsoft 30 июня 2005 года прекратила основную поддержку операционной системы Windows 2000. Расширенная поддержка будет сохранена до 30 июня 2010 года.
+
+== Безопасность ==
+Windows 2000 является более защищенной системой по сравнению с семейством 9x, несмотря на появление более современных ОС, продолжает оставаться достаточно мощной и совершенной. В соответствии с текущими планами, выпуск критически важных обновлений безопасности данной системы корпорация Microsoft продолжит до 2011г. При отсутствии обновлений, опасность для системы представляют сетевые черви, использующие уязвимость в сервисе RPC (Удаленный вызов процедур). Эксплуатируя эту уязвимость сетевой червь заражает систему без участия пользователя, почты и так далее — просто достаточно того, что компьютер с этой системой подключен к локальной сети с зараженными компьютерами или Интернет. Подобную проблему безопасности имеет и Windows XP (в том числе и с SP1), однако в XP, начиная с SP2 эта уязвимость закрыта, а новых уязвимостей сравнимого масштаба не обнаружено.
+Тем не менее, в XP с выходом SP3 будут закрыты оставшиеся (пусть и не такие масштабные) уязвимости, что сделает систему еще надежнее, а Windows 2000 (даже с последним SP) хотя и не получит новых сервиспаков, но выпуск "хотфиксов" позволит поддерживать безопасность системы на весьма высоком уровне.
+
+== Утечка исходных текстов ==
+12 февраля 2004 г. стало известно об утечке части исходных текстов Windows 2000 в пиринговые сети. [http://www.theregister.co.uk/2004/02/13/ms_windows_source_code_escapes/] Они распространялись в виде zip-архива размером около 200 МБ; полный размер содержимого архива был около 600 МБ, что дало основания полагать, что исходные тексты были вынесены на CD-ROM из некого учреждения, имевшего к ним доступ (к ним относились сама корпорация Microsoft, государственные учреждения, заключившие с ней контракт Government Security Program, а также множество мелких фирм, получивших подряды на работу над отдельными частями Windows).
+
+Как стало известно позднее, эти исходные тексты соответствовали версии Windows 2000 SP1. Они были переданы израильской компании Mainsoft, которая занималась портированием веб-браузера Internet Explorer для UNIX-систем. Адреса электронной почты сотрудников Mainsoft были обнаружены в одном из креш-дампов, содержавшихся в архиве с исходными текстами.

@@ -1,0 +1,52 @@
+Ο '''Νόμος του Κουλόμπ''' που διατυπώθηκε από τον Γάλλο φυσικό μαγνητισμό όσο και στον ηλεκτρισμό, και είναι αυτός που παρέχει το μέτρο της ασκούμενης κάθε φορά δύναμης μεταξύ δύο ποσοτήτων μαγνητισμού ή ηλεκτρισμού αντίστοιχα.
+
+===Μαγνητισμός===
+Θεωρώντας δύο σημειακές ποσότητες μαγνητισμού m<sub>1</sub> και m<sub>2</sub>, είτε νότιες, είτε βόρειες, (ομώνυμες), είτε η μία βόρεια και η άλλη νότια (ετερώνυμες), και ότι βρίσκονται μεταξύ τους σε μια απόσταση r, τότε σύμφωνα με τον "Νόμο του Κουλόμπ":
+:''Το μέτρο της δύναμης (ελκτικής ή απωστικής) που ασκείται μεταξύ των δύο σημειακών ποσοτήτων μαγνητισμού είναι ανάλογο προς το γινόμενο αυτών και αντιστρόφως ανάλογο προς το τετράγωνο της μεταξύ τους απόστασης''.
+
+Αυτός ο νόμος εκφράζεται με την μαθηματική σχέση: '''<math>F=k\frac{m_1\cdot m_2}{r^2}</math>'''
+:όπου: Κ είναι η σταθερά αναλογίας που εξαρτάται τόσο από το μαγνητικό υλικό που υπάρχει μεταξύ των m<sub>1</sub> και m<sub>2</sub>, και ονομάζεται "'''σχετική μαγνητική διαπερατότητα'''", όσο και από το χρησιμοποιούμενο σύστημα μονάδων. Έτσι για μεν το σύστημα ΗΜΜ ισούται προς 1/μ, όπου μ η σχετική μαγνητική διαπερατότητα του παρεμβαλλομένου μέσου μεταξύ των ποσοτήτων μαγνητισμού και για δε το σύστημα ΜΚSA ισούται με 1/4πμμ<sub>o</sub>, όπου μ<sub>o</sub> η "απόλυτη μαγνητική διαπερατότητα του κενού".
+
+===Ηλεκτρισμός=== 
+Μεταξύ φορτισμένων σωματιδίων που βρίσκονται ακίνητα (ή σχεδόν ακίνητα), αναπτύσσονται ηλεκτρικές δυνάμεις που προκαλούνται από αυτά και ονομάζονται ''ηλεκτροστατικές''. H ηλεκτροστατική δύναμη μεταξύ φορτίων με το ίδιο πρόσημο είναι απωστική, ενώ μεταξύ φορτίων με αντίθετο πρόσημο είναι ελκτική.
+
+:''Το μέτρο της ηλεκτρικής δύναμης, την οποία ένα σωματίδιο <math>q_1</math> ασκεί σε ένα άλλο <math>q_2</math>, είναι ευθέως ανάλογο προς το γινόμενο των φορτίων τους, και αντιστρόφως ανάλογο προς το τετράγωνο της μεταξύ τους απόστασης<math>r</math>.''
+
+Η μαθηματική διατύπωση του νόμου του Κουλόμπ είναι η εξής:
+
+:<math>F=k\frac{|q_1|\cdot |q_2|}{r^2}</math>
+
+Η διεύθυνση της δύναμης είναι κατά μήκος της ευθείας που ενώνει τα δύο σωματίδια, ενώ με <math>k \,</math> συμβολίζεται η σταθερά αναλογίας η οποία ονομάζεται και ηλεκτροστατική σταθερά και ισούται με
+
+En électrostatique, la '''loi de Coulomb''' exprime la force électrique entre 2 particules chargées électriquement. Elle est nommée d'après le physicien français Charles Augustin de Coulomb, et elle forme la base de l'électrostatique.
+Elle peut s'énoncer ainsi :
+:''L'amplitude de la force électrostatique entre 2 charges est proportionnelle au produit des deux charges et est inversement proportionnelle au carré de la distance entre les deux charges.''
+
+== Force de Coulomb ==
+=== Forme scalaire ===
+il est possible d'exprimer la loi de Coulomb sous forme scalaire lorsqu'il n'est pas nécessaire de spécifier la direction de la force, l'amplitude de la force vaut alors :
+<center><math> F_{1\rightarrow 2} = \frac{q_1 q_2}{4 \pi \epsilon_0 r_{12}^2}</math></center>
+où
+* <math>r_{12}</math> est la distance séparant les deux charges,
+* <math> q_1 </math> et <math> q_2 </math> les charges électriques,
+* ''ε''<sub>0</sub>=8,854·10<sup>-12</sup> F·m<sup>-1</sup> est la permittivité électrique du vide.
+
+=== Forme vectorielle ===
+La force <math>\vec{F}_{1\rightarrow 2}\,</math> exercée par une vectorielle par la formule suivante :
+<center><math>
+\vec{F}_{1\rightarrow 2} = \frac{q_1 q_2}{4 \pi \epsilon_0 {\|\vec{r}_{12}\|}^2}.\frac{ \vec{r}_{12}}{\|\vec{r}_{12}\|}</math></center>
+où
+* ''ε''<sub>0</sub>=8,854·10<sup>-12</sup> F·m<sup>-1</sup> est une constante universelle appelée permittivité électrique du vide, et
+* <math>\vec{r}_{12}=\overrightarrow{M_1M_2}</math> est le vecteur position qui relie le premier corps au deuxième.
+
+Elle n'est pas valable pour des charges en mouvement mais uniquement dans un référentiel où elles sont fixes. 
+
+Dans le système d'unités C.G.S. la loi s'écrit plus simplement
+
+<center><math>
+\vec{F}_{1\rightarrow2}=\frac{q_1q_2}{\|\vec{r}_{12}\|^3}{\vec{r}_{12}}
+\,</math></center>
+
+avec les longueurs cette fois-ci exprimées en centimètres (cm) et les charges en unité électrostatique (esu).
+
+== Constante de Coulomb ==

@@ -1,0 +1,46 @@
+thumb|250px|right|ミッション中のカナダアーム
+'''シャトル・リモート・マニピュレータ・システム'''（Shuttle Remote Manipulator System : '''SRMS'''）とは、NASA は SRMS にセンサ付き検査用延長ブーム (OBSS) を装備した。これは、熱防護システムの損傷を調べるために、シャトルの外観を調査する装置を乗せたブームである。将来行なわれるミッションのすべてで、SRMS がこの役割を果たすであろうことが期待されている。
+
+== 仕様 ==
+SRMS のブームは、長さが15m（50フィート3インチ）、直径は38cm（15インチ）、自由度は6である。重量は410kg（905ポンド）で、全重量は450kg（994lb）である。SRMS には6つの関節があり、人間の腕とほぼ同じである。肩は左右と上下、肘は上下、手首は上下と左右と回転ができる。エンドエフェクタは手首の先にあるユニットで、実際に物を掴む部分である。2本の軽量ブームの部分は、上腕、下腕と呼ばれている。上腕は肩と肘の関節に、下腕は肘と手首の関節に接続されている。SRMS はオービタの貨物室のロンジロン（縦通材）にあるアーム保持機構 (MPM) に取り付けられていて、電力とデータ接続も MPM に位置している。
+
+== 性能 ==
+thumb|right|200px|[[STS-115 で、アトランティス号の SRMS が P3/P4 トラスを国際宇宙ステーションのカナダアーム2に渡している]]
+宇宙空間では、SRMS は29トン（65,000ポンド）以上の質量を配置したり回収したりする能力がある。しかし地上では、アーム自体の重量を動かすことさえできない。また SRMS は、人工衛星を回収・修理・放出したり、船外活動を行なう飛行士のための作業台や足場となったり、搭載したテレビカメラで機体や貨物の表面を見て調べたりすることもできる。
+
+基本的な SRMS の構成は、ロボットアーム、後部飛行デッキにあるディスプレイとコントロールパネルと回転用・並進用のハンドコントローラ、オービタのコンピュータと接続されているロボットアームのインターフェイスからなる。通常、オペレータはコントローラの隣にある宇宙視覚システム (ASVS) スクリーンを見て、自分の行なっている作業を確認することができる。
+
+1人の飛行士が後部飛行デッキの制御端末から SRMS を操作し、通常はもう1人の飛行士がテレビカメラの操作を手伝う。このようにして、後部飛行デッキの窓越しに、あるいは後部飛行デッキにある有線テレビモニター経由で、SRMS の操作をオペレータが見ることができる。
+
+== 開発 ==
+SRMS の設計・開発・試験・製造は、Spar Aerospace 社が行なった。メインの制御アルゴリズムは、CAE Electronics 社が供給した。SRMS のエンドエフェクタは、トロントの Dilworth, Secord, Meagher and Associates 社が担当した。SRMS をオービタの貨物室に取り付けるシステムの設計・開発・試験・製造は、Rockwell International 社の宇宙輸送システム部門が行なった。
+
+== 使用 ==
+thumb|[[STS-116 のディスカバリー号で作動中の SRMS]]
+コロンビア号による チャレンジャー号で最初に使われたのはディスカバリー号に搭載されて アトランティス号では エンデバー号では STS-49 （エンデバー号の初飛行でもある）で使われた。
+
+thumb|250px|right|View of the Canadarm during a Space Shuttle mission.
+
+:''For the robotic arm on the International Space Station, see the related Canadarm2''
+
+The '''Shuttle Remote Manipulator System''' ('''SRMS'''), or '''Canadarm''' (Canadarm 1), is a payload  from the payload bay of the orbiter to its deployment position and then release it. It can also grapple a free-flying payload, maneuver it to the payload bay of the orbiter and berth it in the orbiter. It was first used on the second destruction of  thermal protection system.  It is expected the SRMS will play this role in all future shuttle missions. 
+
+==Specifications==
+The SRMS arm is 15.2 ft 3 in) long and 38 degrees of freedom. It weighs 410 kg (905 pounds), and the total system weighs 450 kg (994 lb). The SRMS has six joints that correspond roughly to the joints of the human arm, with shoulder yaw and pitch joints; an elbow pitch joint; and wrist pitch, yaw, and roll joints. The end effector is the unit at the end of the wrist that actually grabs, or grapples, the payload. The two lightweight boom segments are called the upper and lower arms. The upper boom connects the shoulder and elbow joints, and the lower boom connects the elbow and wrist joints. The SRMS arm attaches to the orbiter payload bay longeron at the shoulder manipulator positioning mechanism. Power and data connections are located at the shoulder MPM.
+
+==Capabilities==
+thumb|right|200px|The SRMS on [[Space Shuttle Atlantis|''Atlantis'' hands the P3/P4 Truss segment to the Canadarm2 on the International Space Station during STS-115.]]
+The SRMS is capable of deploying or retrieving payloads weighing up to 29 tons  (65,000 pounds) in space, though the arm motors are unable to lift the arm's own weight when on the ground. The SRMS can also retrieve, repair and deploy satellites; provide a mobile extension ladder for extravehicular activity crew members for work stations or foot restraints; and be used as an inspection aid to allow the flight crew members to view the orbiter's or payload's surfaces through a television camera on the SRMS.
+
+The basic SRMS configuration consists of a manipulator arm; an SRMS display and control panel, including rotational and translational hand controllers at the orbiter aft flight deck flight crew station; and a manipulator controller interface unit that interfaces with the orbiter computer.  Most of the time the arm operators see what they are doing by looking at the Advanced Space Vision System screen next to the controllers.
+
+One flight crew member operates the SRMS from the aft flight deck control station, and a second flight crew member usually assists with television camera operations. This allows the SRMS operator to view SRMS operations through the aft flight deck payload and overhead windows and through the closed-circuit television monitors at the aft flight deck station.
+
+==Development==
+Canadian company, designed, developed, tested and built the SRMS. (SPAR was later indirectly acquired by Richmond, B.C. based  MacDonald Dettwiler and Associates (MDA), after going through the hands of American company Orbital Sciences Corp. and becoming a part of MD Robotics in Ontario, Canada.) Three systems were constructed within the Design, Development, Test and Evaluation contract, an Engineering Model to assist in the design and testing of the Canadarm, a Qualification Model that was subjected to environmental testing to "qualify" the design for flight and a Flight Unit. The main controls algorithms were developed by SPAR and by subcontractor CAE Electronics Ltd. in Montreal provided the display and control Panel and the hand controllers located in the Shuttle aft flight deck, other electronic interfaces, servoamplifiers and power conditioners located on the SRMS were designed and built by SPAR at its Montreal factory. The graphite composite boom that provides the structural connection between the shoulder and the elbow joint and the similar boom that connects the elbow to the wrist were produced by General Dynamics in the U.S. Dilworth, Secord, Meagher and Associates Ltd. in Toronto was contracted to produce the Engineering model end effector then SPAR evolved the design and produced the Qualification and Flight units.  The Shuttle flight software that monitors and controls the Canadarm was developed in Houston, Texas, by the Federal Systems Division of IBM. Rockwell International's Space Transportation Systems Division designed, developed, tested and built the systems used to attach the SRMS to the payload bay of the orbiter.  
+
+In all, five arms (arm 201, 202, 301, 302, and 303) were built and delivered to NASA. Three arms are currently in operation, with arm 302 lost in the Challenger accident.<ref>[http://www.space.gc.ca/asc/eng/exploration/canadarm/flight.asp CSA - Flight History of Canadarm]</ref> <!-- More sources are needed because there is some doubt about the accuracy of the canada space agency on this particular fact of the amount of arms (See talk page) -->
+
+==Usage==
+thumb|The SRMS in action on the [[Space Shuttle Discovery during STS-116.]]
+The SRMS was first used on ''Columbia'', and has subsequently been used on over 50 shuttle missions. SRMS arms were installed on the 4 other shuttles - it was first flown on board the ''Challenger'' during ''Discovery'' during ''Atlantis'' first during ''Challenger'' was lost during the ''Challenger'' disaster in ''Endeavour'' during STS-49, the vessel's first flight.

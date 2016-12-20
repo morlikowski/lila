@@ -1,0 +1,361 @@
+<table class="infobox" style="width: 20em; text-align: left">
+<caption style="font-size: larger;"><span style="display:none;">'''Title''' </span>'''''}'''''</caption><!--
+-->} |<tr><td colspan=2 style="text-align: center">}
+} | <br> } }}</td></tr>}}
+<tr><th>Author</th><td>}</td></tr><!--
+-->}|<tr><th>Original title</th><td>}</td></tr>}}<!--
+-->}|<tr><th>Translator</th><td>}</td></tr>}}<!--
+-->}|<tr><th>Illustrator</th><td>}</td></tr>}}<!--
+-->}|<tr><th>Cover&nbsp;artist</th><td>}</td></tr>}}<!--
+-->}|<tr><th>Country</th><td>}</td></tr>}}<!--
+-->}|<tr><th>Language</th><td>}</td></tr>}}<!--
+-->}|<tr><th>Series</th><td>}</td></tr>}}<!--
+-->}|<tr><th></th><td>}</td></tr>}}<!--
+-->}|<tr><th></th><td>}</td></tr>}}
+<tr><th>Publisher</th><td>}</td></tr>
+<tr><th>Released</th><td>}</td></tr><!--
+-->}|<tr><th>Released&nbsp;in&nbsp;English</th><td>}</td></tr>}}<!--
+-->}|<tr><th>Media&nbsp;type</th><td>}</td></tr>}}<!--
+-->}|<tr><th>Pages</th><td>}</td></tr>}}<!--
+-->}|<tr><th>Size&nbsp;and&nbsp;weight</th><td>}</td></tr>}}<!--
+-->}|<tr><th>ISBN</th><td>}</td></tr>}}<!--
+-->}|<tr><th>Preceded&nbsp;by</th><td>''}''</td></tr>}}<!--
+-->}|<tr><th>Followed&nbsp;by</th><td>''}''</td></tr>}}
+</table><noinclude>
+
+==பயன்பாடு==
+
+<pre style="width:35em">
+{{:தகவல்சட்டம் நூல்
+| name          = 
+| title_orig    = (use if not originally in English)
+| translator    = 
+| image         = 
+| image_caption = 
+| author        = 
+| illustrator   = 
+| cover_artist  = 
+| country       = 
+| language      = 
+| series        = 
+| subject       = 
+| genre         = 
+| publisher     = 
+| release_date  = 
+| english_release_date =
+| media_type    = 
+| pages         = 
+| isbn          = 
+| preceded_by   = 
+| followed_by   = 
+}}
+</pre>
+
+See the talk page for more thorough documentation.
+
+{| width="250" class="infobox"
+| colspan="2" style="background-color: #AACCCC; color:white;font-size:large;" | '''''}'''''
+|-
+} |
+ colspan="2" class="infoboximage" 
+200px|Illustration de ''}''}}
+|-
+! width="48%" | Auteur
+| width="52%" | }
+|-
+}|
+! Préface
+ }}}
+|-
+}|
+! Directeur de publication
+ }}}
+|-
+! Genre
+| }
+|-
+<!--------------------------------------###########VO#########------------------------------------>
+}|
+ colspan="2" class="infoboxsoustitre"   Version originale
+}}
+|-
+}|
+!  Titre original
+ ''}''}}
+|-
+}|
+! Éditeur original
+ }}}
+|-
+}|
+! Langue originale
+ }}}
+|-
+}|
+! Pays d’origine
+ }}}
+|-
+}|
+! Lieu de parution original
+ }}}
+|-
+}|
+! Date de parution originale
+ }}}
+|-
+}|
+! ISBN original
+ Special:Booksources/}}}}
+|-
+}|
+! Date de la 1 représentation
+ }}}
+|-
+}|
+! Metteur en scène
+ }}}
+|-
+}|
+! Lieu de la 1 représentation
+ }}}
+|-
+<!--------------------------------------###########VF#########------------------------------------>
+}|
+ colspan="2" class="infoboxsoustitre"  Version française
+}}
+|-
+}|
+! Traducteur
+ }}}
+|-
+}|
+! Lieu de parution
+ }}}
+|-
+}|
+! Éditeur
+ }}}
+|-
+! Date de parution
+ }
+|-
+}|
+! Type de média
+ }}}
+|-
+}|
+! Dessinateur
+ }}}
+|-
+}|
+! Couverture par
+ }}}
+|-
+}|
+! Nombre de pages
+ }}}
+|-
+}|
+! ISBN
+ <br />[[Special:Booksources/}}}}}}
+|-
+}|
+! Collection
+ }}}
+|-
+}|
+! Date de la 1 représentation
+ }}}
+|-
+}|
+! Metteur en scène
+ }}}
+|-
+}|
+! Lieu de la 1 représentation
+ }}}
+|-
+}|
+! Série
+ ''}''}}
+|-
+}|
+! Précédé par
+ ''}''}}
+|-
+}|
+! Suivi par
+ ''}''}}
+|-
+}|
+ colspan="2" style="font-size: smaller; border-top: 1px solid; font-style: italic;"  Illustration : }}}
+|}<noinclude>
+<br clear="all"/>
+----
+
+; Utilisation&nbsp;<nowiki>:</nowiki>
+: Modèle à utiliser pour n'importe quel livre/BD. Il indique les informations générales sur l'œuvre.
+
+{| width="100%" align="center" border="0" cellpadding="4" cellspacing="4" 
+| width="50%" valign="top"|
+'''Syntaxe livre - Version originale en français'''
+<pre>
+{{Infobox Livre
+| titre = 
+| auteur =
+| préface =
+| directeur =
+| genre = 
+| pays = 
+| lieuparution =
+| éditeur = 
+| dateparution = 
+| image = 
+| légende = 
+| dessinateur = 
+| artiste_couverture = 
+| série = 
+| collection = 
+| type_média = 
+| pages = 
+| isbn = 
+| précédent = 
+| suivant = 
+}}</pre>
+|
+'''Syntaxe livre - édition traduite'''
+<pre>
+{{Infobox Livre
+| auteur = 
+| préface =
+| directeur =
+| genre = 
+| titre_orig =
+| pays = 
+| lieuparution_orig =
+| langue = 
+| éditeur_orig=
+| dateparution_orig = 
+| isbn_orig =
+| traducteur = 
+| titre = 
+| lieuparution =
+| éditeur = 
+| dateparution = 
+| image = 
+| légende = 
+| dessinateur = 
+| artiste_couverture =  
+| série = 
+| collection = 
+| type_média = 
+| pages = 
+| isbn = 
+| précédent = 
+| suivant = 
+}}</pre>
+|-
+|width="50%" valign="top"|
+'''Syntaxe pièce de théâtre - langue originale autre que français'''
+<pre>
+{{Infobox Livre
+| auteur = 
+| préface =
+| directeur =
+| genre = 
+| titre_orig =
+| pays = 
+| lieuparution_orig =
+| langue = 
+| éditeur_orig=
+| dateparution_orig = 
+| isbn_orig = 
+| datethéatre_orig =
+| metteurenscène_orig =
+| théatre_orig =
+| traducteur = 
+| titre = 
+| lieuparution =
+| éditeur = 
+| dateparution = 
+| datethéatre_fr =
+| metteurenscène_fr =
+| théatre_fr =
+| image = 
+| légende = 
+| dessinateur = 
+| artiste_couverture =  
+| série = 
+| collection = 
+| type_média = 
+| pages = 
+| isbn = 
+| précédent = 
+| suivant = 
+}}</pre>
+| valign="top" |
+'''Syntaxe pièce de théâtre - VOF'''
+<pre>
+{{Infobox Livre
+| titre = 
+| auteur =
+| préface =
+| directeur =
+| genre = 
+| pays= 
+| lieuparution =
+| éditeur = 
+| dateparution = 
+| datethéatre_fr =
+| metteurenscène_fr =
+| théatre_fr =
+| image = 
+| légende = 
+| dessinateur = 
+| artiste_couverture = 
+| série = 
+| collection = 
+| type_média = 
+| pages = 
+| isbn = 
+| précédent = 
+| suivant = 
+}}</pre>
+|}
+
+<!-- décrivez chacun des paramètres -->
+'''Info :''' Copiez-collez la syntaxe qui convient en entier car les champs optionnels non-complétés n'apparaissent pas vides à l'affichage de l'infobox tout en incitant les ajouts. N'oubliez pas de wikifier les informations ajoutées, comme par exemple ici.
+
+* auteur = Nom de l'auteur (obligatoire)
+* genre = Genre(s) du livre (obligatoire)
+* préface = Auteur de la préface (optionnel)
+* directeur = Directeur de la publication (optionnel)
+* titre_orig = Titre de la version originale non française (optionnel)
+* pays = Pays d'où est originaire l'auteur non français (optionnel)
+* lieuparution_orig = lieu de parution de la version originale non française (optionnel)
+* langue = Langue d'origine (obligatoire pour le livre traduit)
+* éditeur_orig = Editeur de la version originale (optionnel)
+* dateparution_orig = Date de parution de la version originale (optionnel)
+* isbn_orig = ISBN de la version originale (optionnel)
+* traducteur = Nom du traducteur (optionnel)
+* titre = Titre de la version française (obligatoire)
+* lieuparution = lieu de parution de la version française (optionnel)
+* éditeur = Editeur de la première version française  (optionnel)
+* dateparution = Date de parution de la première version française (obligatoire)
+* image&nbsp;= Image de la couverture (optionnel)
+* légende&nbsp;= Légende de l'image (optionnel)
+* dessinateur = Nom du dessinateur (optionnel)
+* artiste_couverture = Nom de l'artiste de la couverture (édition française originale!) (optionnel)
+* série = Série à laquelle appartient le livre (optionnel)
+* collection = Collection du livre (optionnel)
+* type_média = Type de média (optionnel)
+* pages = Nombre de pages (édition française originale) (optionnel)
+* isbn = <nowiki>ISBN xxxxxxxxxx</nowiki> (optionnel)
+* précédent = Livre précédent (si série) (optionnel)
+* suivant = Livre suivant (si série) (optionnel)
+
+;Pièce de théatre (en plus des infos ci-dessus)
+
+* datethéatre_orig = date de la première représentation en VO (optionnel)
+* metteurenscène_orig = Metteur en scène de la même représentation (optionnel)
+* théatre_orig = Lieu (ville, théatre) de cette même représentation (optionnel)

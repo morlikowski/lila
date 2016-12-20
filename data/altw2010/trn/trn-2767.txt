@@ -1,0 +1,97 @@
+<div style="border:1px solid #aaaaaa; background-color:white; padding:0.5em 1em;">
+'''Portale''' dienen in der Wikipedia dazu, einen größeren Themenkomplex systematisch zu erschließen. Der Fokus eines Portals sollte darin liegen, dem Leser die Inhalte seines Themenbereichs ansprechend gegliedert darzustellen. Interdisziplinäre Überschneidungen zwischen den Portalen wird es immer geben. Viele Portale verfügen zudem über WikiProjekte, welche sich um die Pflege des Portals und den Ausbau des Themenbereichs kümmern.
+* Wikipedia nach Themen bietet eine thematische Übersicht.
+* Kategorie Portal bietet eine automatisch generierte alphabetische Übersicht.
+* Die Hauptseite des zuständigen WikiProjekts ist WikiProjekt Portale mit zwei zentralen Diskussionseiten für Allgemeine Portalfragen und für bestehende Einzelportale.
+* Die Baustelle ist die zentrale Koordinationsseite, auf der die Einrichtung und Relevanz neuer Portale, Namensänderung, Umstrukturierung oder Schließung bestehender Portale oder Portalschließungen diskutiert wird.
+* Der Portalreview dient für den Feinschliff von neuen oder überarbeiteten Portalen.
+
+== Relevanzkriterien ==
+Portale sollten grundsätzlich nur für größere Themenkomplexe angelegt werden, bei denen eine Erwähnung relevanter Links den Hauptartikel sprengen würde. Je weiter gefasst das Thema eines Portals, desto mehr potentielle Mitarbeiter findet es auch. Relevante Gegenstände für ein Portal sind:
+* Kontinente, Staaten und Bundesländer/Kantone von Deutschland/Österreich/Schweiz
+* Deutsche Städte mit mindestens 200.000 Einwohnern, österreichische und Schweizer Städte mit mindestens 100.000 Einwohnern
+* Etablierte Wissenschaftszweige (Nachweis: wird international an vielen Universitäten als eigenes Studienfach angeboten)
+* Größere Epochen der Geschichte (Vor- und Frühgeschichte, Altertum, usw.)
+* Internationale Organisationen (EU, UNO, NATO)
+* Größere Kunstrichtungen oder Musikstile (Metal: ja, Death Metal: nein)
+* Anerkannte Sportarten (Olympische Disziplinen o.ä.; Leichtathletik: ja, Zwergenweitwurf und Tractor-Pulling: nein)
+
+== Ein Portal gründen ==
+Jeder Benutzer, der bereit ist, sich auf Dauer darum zu kümmern, kann ein Portal aufbauen. Eine Empfehlung voraus: Damit das Portal interessant bleibt, ist eine tägliche Kontrolle und Mitarbeit von Vorteil. Sinnvoll und einfacher kann es auch sein, ein WikiProjekt zu gründen.
+
+'''Schritt 1 – Themenwahl'''
+* Ist dein Thema von den Relevanzkriterien abgedeckt? Dann weiter zu Schritt Zwei.
+* Ist dein Thema nicht enthalten? Dann sammle Interessenten und Mitarbeiter und stell dein Thema auf der Baustelle zur Diskussion. Lege dazu einen Entwurf oder eine strukturierte Artikelübersicht des Bereichs vor, den das Portal abdecken soll, und weise nach, dass der Bereich groß und wichtig genug für ein eigenes Portal ist. Vorschläge brauchen .
+
+'''Schritt 2 – Entwurfsphase'''
+* Gestalte das Portal in deinem Benutzernamensraum (also <tt>Benutzer:Name/Portal:XY</tt>) oder auf der Baustelle des WikiProjekts Portale (<tt>Wikipedia:WikiProjekt Portale/Baustelle/Portal:XY</tt>). Beachte dabei die Hinweise zur Gestaltung unten. Als kleine Starthilfe gibt es eine Vorlage. Weitere Hilfe erhältst du beim WikiProjekt Portale.
+* Trage es bitte auch auf Wikipedia:WikiProjekt Portale/Baustelle unter „Vorstellung entstehender Portale“ ein.
+
+'''Schritt 3 – Live-Schaltung'''<br />
+Sind alle im Rahmen der Entstehung und Vorstellung angemerkten Mängel beseitigt, kannst du dein Portal live schalten.
+* Verschieb es in den Portalnamensraum
+* Erstelle die Unterseite <nowiki>Anleitung)
+* Verlinke es in der passenden Rubrik auf Wikipedia nach Themen und auf verwandten Portalen.
+* Ergänze es unter „Siehe auch“ im Hauptartikel des Themas. Mit Vorlagen auf Portale hinzuweisen ist unerwünscht, genausowenig sollte das Portal in jedem Artikel des Themengebiets verlinkt werden.
+* Ordne es in die Hauptkategorie des Portals ein.
+
+'''Schritt 4 – Review'''
+* Für den letzten Feinschliff geht das nun fertige Portal noch für mindestens zwei Wochen in den Review mit der Bitte um Beurteilung. (ungefähre Richtlinie: Entfernung nach 14 Tagen seit dem letzten Diskussionsbeitrag).
+* Nach einem beendeten Review erhält das Portal im Portal-Info auch die Wertung „Green“.
+
+== Hinweise zum Portalbau ==
+=== Inhalt ===
+* Orientiere dich in der Gestaltung an verwandten Portalen.
+* Halte das Portal kurz – mehr als zwei Bildschirmseiten will niemand scrollen.
+* Ein Portal ist keine Sammelseite für alle Artikel zum Thema, sondern sollte eine gut strukturierte Übersicht bieten.
+* Entstehen in dem Themengebiet viele exzellente Artikel, kann man analog zur Hauptseite jeweils einen in einem Kasten mit Bild vorstellen.
+* Kästen wie „Aktuelles“, „Neue Artikel“ oder „Fehlende Artikel“ wollen regelmäßig gepflegt sein – wenn sich dafür niemand findet, besser weglassen.
+
+{| style="background:transparent"
+| 
+| Wikipedia:WikiProject Portals
+|}
+
+:''"WP:P" redirects here. For new proposals, see Wikipedia:Village pump (proposals).''
+{| style="clear:both; background:none;"
+{|
+| width="60%" style="padding:1em 1em 1em 1em; border:1px solid #dfdfdf; background-color:#E5ECFF" valign="top"|
+
+'''Portals''' are pages intended to serve as "Main Pages" for specific topics or areas. Portals may be associated with one or more WikiProjects; unlike WikiProjects, however, they are meant for both readers and editors of Wikipedia, and should promote content and encourage contribution.
+|}
+|-
+| colspan="2" style="border:1px solid #dfdfdf; padding:1em 1em 1em 1em; background-color:#f9f9f9" | 
+<div style="font-size:16pt;text-align:center">Contents</div>
+<div style="font-size:11pt;text-align:center;">
+What are portals? 
+· How to find portals
+· How to create a portal · <br />
+How to make a good portal
+· How to get involved
+· See also
+</div>
+|-
+| colspan="2" width="100%" valign="top" style="padding:1em 1em 1em 1em; border:1px solid #dfdfdf; background-color:#FFFFF" |
+==What are portals?==
+
+The concept of a portal originated in the Polish and German Wikipedias. In early 2005, the portal concept was imported to the English Wikipedia and the first ''Wikiportals'' were established. Later that year, a special namespace (Portal:) was created for portals.
+
+The idea of a portal is to help readers and/or editors navigate their way through Wikipedia topic areas through pages similar to the Main Page. In essence, portals are useful entry-points to Wikipedia content.
+
+Portals are subject to the five pillars of Wikipedia, and must comply with Wikipedia's core content policies like Wikipedia:Neutral point of view, Wikipedia:No original research and Wikipedia:Verifiability.
+
+At present, there are '''''' featured portals, of a total of  portals on Wikipedia.
+
+==How to find portals==
+
+All portals should be listed at the '''directory of portals''', which also details their founding dates and whom you can contact with regard to a particular portal. If you have created a portal, you ''must'' list it here. Portal:List of portals lists all portals of reader-ready quality.
+
+Portals are also largely inter-accessible with users able to navigate from one portal to another. Universal features, such as the browsebar (which links to top-level portals), and the portals template (which links to categorised according to hierarchy. Portals, in most instances, will also link to their ''Related portals'' (those which are lateral to them) and their ''Subportals'' (those which descend from them).
+
+In the main namespace, the top-level portals are linked to directly from the Main Page, while individual portals are linked from relevant articles using . These templates should be located at article ends in ''See also'' sections (or equivalents).
+
+==How to create a portal==
+
+There is no single standard design for portals, but the most widely used layout is the "box portal". The use of this design is recommended due to the ease with which it can be created and maintained. For further ideas on portal design, browse existing portals and see the featured portals. For step-by-step instructions on how to set up a new portal, refer to the '''instructions page'''.
+
+==How to make a good portal==

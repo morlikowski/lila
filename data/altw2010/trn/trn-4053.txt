@@ -1,0 +1,113 @@
+{{infobox Franse gemeente|
+|plaatsnaam= Villeroy
+|wapen= 
+|kaart= 
+|regio= Picardië 
+|departement= Somme (80)
+|arrondissement= Amiens
+|kanton= Oisemont
+|jaar= 2004
+|inwoners= 218
+|dichtheid= 36,3
+|oppervlakte= 6,0
+|water= 
+|latitudeGraden= 49 |latitudeMinuten= 56|latitudeSeconden= 0
+|longitudeGraden= 1 |longitudeMinuten= 44 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 144 |kaartY= 44
+|code= 80796
+|postcode= 80140
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Villeroy''' is een gemeente in het Franse departement Somme (regio Amiens.
+
+==Geografie==
+De oppervlakte van Villeroy bedraagt 6,0 km², de bevolkingsdichtheid is 36,3 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:360 color:gray1 width:1       
+  from:start till:end             
+  bar:240 color:gray1              
+  from:start till:end            
+  bar:120 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,137)(84,134) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 247 1968: 242
+  points:(84,134)(100,123)    color:blue    width:2 #1975: 218
+  points:(100,123)(128,117)   color:blue    width:2 #1982: 205
+  points:(128,117)(160,119)   color:blue    width:2 #1990: 210
+  points:(160,119)(196,122)   color:blue    width:2 #1999: 216
+  points:(196,122)(228,123)     color:blue    width:2 #2004/5 
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+{{French commune
+|name= Villeroy
+|image_map = France_jms.png
+|x = 130
+|y = 40|
+|region=20px Picardie   
+|departement=20px Somme 
+|arrondissement=20px Amiens
+|canton=Oisemont
+|insee=80796
+|cp=80140
+|maire= Roger Dancourt
+|mandat=2001-2008
+|intercomm=Communauté de communes du canton d'Oisemont
+|alt moy=139 m
+|alt mini=119 m
+|alt maxi=159 m
+|hectares=602
+|km²=6,02
+|sans=216
+|date-sans=1999
+|dens=35|}}
+'''Villeroy''' is a commune in the département'' in the Picardie region of France.
+
+== Geography ==
+Situated some 13 miles(21km) southwest of Abbeville, on the D108e road 
+
+== Population ==
+{| align="center" rules="all" cellspacing="0" cellpadding="4" style="border: 1px solid #999; border-right: 2px solid #999; border-bottom:2px solid #999; background: #f3fff3"
+|+ style="font-weight: bold; font-size: 1.1em; margin-bottom: 0.5em"| Population Evolution 
+|-style="background: #ddffdd"
+! 1698 !! 1867 !! 1962 !! 1968 !! 1975 !! 1982 !! 1990 !! 1999
+|-
+| align=center| 420 || align=center| 344 || align=center| 237 || align=center| 242 || align=center| 218 || align=center| 205 || align=center| 210|| align=center| 216
+|-
+| colspan=8 align=center| <small>Census count starting from 1962  Population without double counting
+|}
+
+==History==
+The village was known as "Villa Regia", in 1129. It was once owned by the Knights Templar who built a wall around the village. <br>
+The seigneury was first noted as Bailleul-Vimeu, which was then passed to the seigneurs of Rambures. <br>
+
+==Places of interest==
+* The church of Saint Sauveur, rebuilt in the 19th century.
+
+thumb|left|280px|The church and war memorial

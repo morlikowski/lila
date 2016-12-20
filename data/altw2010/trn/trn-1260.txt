@@ -1,0 +1,87 @@
+'''Glasovna sprememba''' je taka sprememba izgovarjave, ki je pogojena samo z glasovnimi dejavniki, deluje – samo v nekem obdobju jezika in samo v neki jezikovni skupnosti – vsakič enako in brezizjemno (primer: ''a'' v jeziku ''J'' se pod pogoji ''X'' spremeni v isti glas v vseh besedah ''J'', ki izpolnjujejo ''X''), je pa lahko odvisna od glasovnega okolja spreminjajoče se enote; nekatere vrste glasovnih sprememb so iz podmene o redovitosti izvzete: premet.
+
+==Zapisovanje glasovne spremembe==
+''A'' > ''B''
+
+starejše stanje ''A'' se spremeni v poznejše stanje ''B'' (''*'' označuje rekonstruirano neizpričano stanje)
+
+primer: ide. ''*a'' > psl. ''*o''
+
+''A'' > ''B'' / ''X'' __ ''Y''
+
+starejše stanje ''A'' se spremeni v poznejše stanje ''B'', če je za ''X'' in pred ''Y'' (''Ø'' označuje onemitev, ''#'' besedno mejo, ''$'' zlogovno mejo)
+
+primer: an. ''k'' > ''Ø'' / ''#'' __ ''n'', primer za ta primer: ''knight''
+
+==Vzroki za izjeme redovitosti==
+Glasovne spremembe načeloma delujejo brezizjemno, vzroki za nekatere izjeme pa so naslednji:
+* nova sprememba prekrije starejšo (primer: psl. ''*myšь'' > sl. ''miš'' > narečno sl. ''məš'', vendar rodilnik ''miši'');
+* napajanje sprememb: prva sprememba napaja drugo, če del tega, kar nastane med prvo, doživi med delovanjem druge nadaljnji razvoj (primer: Grimmov zakon napaja Vernerjev zakon);
+* puščanje krvi spremembam: prva sprememba pušča kri drugi, če prva odpravlja iz jezika nekaj tistega, kar bi sicer doživelo razvoj po drugi (primer: pger. rotacizem ''*z'' > ''*r'' pušča kri  izglasnemu onezvenečenju ''*z'' > ''*s'' / __ ''#'');
+* stan. premena [z]/[s] : [r] (''cēosan'' : ''gecoren'') > an. [z] : [z] (''choose'' : ''chosen''), vendar ''was'' : ''were'');
+* prevzemanje iz drugih jezikov (primer: ide. '''' > an. ''father'', vendar namesto ''*fathernal'' je ''paternal'', kar je prevzeto iz lat.);
+* sl. ''tovarišica'' > ''šica'');
+* nem. ''kikeriki''  ''*hicherichi'', posnemovalne besede se ne spreminjajo v skladu z glasovnimi spremembami);
+* psl. ''*medvědь'' ≮ ide. '''', medved je bil v praslovanski skupnosti tabu, zato se je prvotna beseda zanj nadomestila z drugo).
+
+==Glasovna sprememba in fonološko nasprotje==
+Glasovne spremembe lahko spremenijo fonološki sestav jezika.
+
+'''Podfonemska sprememba''' je taka glasovna sprememba, pri kateri se spremeni samo kaka lastnost posamičnega glasu, fonemska vrednost pa ne (primer: Grimmov zakon).
+* '''Razcep''' je podfonemska sprememba, pri kateri iz enega glasu nastaneta dva, vendar še vedno v okviru istega fonema – sta v dopolnjevalni razvrstitvi (primer: ide. '''' > pger. {''*d'' / {''#'' ali ''N''} __ ali ''*đ'' / drugod}).
+* '''Sovpad''' je podfonemska sprememba, pri kateri iz dveh nastane en glas (primer: pger. ''*d'', ''*đ'' > zger. ''d'', ''d'').
+
+'''Razcep in sovpad fonemov''' sta taki glasovni spremembi, pri katerih fonološko nasprotje nastane oz. izgine (primer sovpada fonemov: pger. rotacizem: ''*air-'' 'sel', ''*aiz-'' 'kovina' > ''*ār-'' 'sel', ''*ār-'' 'kovina').
+Pri tem se lahko pger. v stan.: *[f] > [f]/[v], *[β] > [f]/[v]; fonološki razvoj pger. v stan.: */b/ *[b] > /b/, */b/ *[β] > /f/, */f/ *[f] > /f/, */f/ *[v] > /f/).
+Spremembo na fonološki ravnini lahko sproži delna ali popolna izbuga glasovnega okolja alofonov (primer: stan. /f/ [f] > an. /f/; stan. /f/ [v] __ {[+zvočnik] ali [+samoglasnik]} (to glasovno okolje se je izgubilo zaradi prevzemanja besed s [f] in [v] v novih položajih) > an. /v/).
+
+'''Sound change''' includes any processes of speech sound (or, more generally, one phonetic feature) by another, the complete loss of the affected sound, and (rarely) even the introduction of a new sound in a place where there previously was none. Sound changes can be '''environmentally conditioned''', meaning that the change in question only occurs in a defined sound environment, whereas in other environments the same speech sound is not affected by the change.
+
+Sound change is assumed to be usually ''regular'', which means that it is expected to apply mechanically whenever its structural condition is met, irrespective of any non-phonological factors (such as the meaning of the words affected). On the other hand, sound changes can sometimes be ''sporadic'', affecting only one particular word or a few words, without any seeming regularity.
+
+Of regular sound changes, the somewhat hyperbolic term '''sound law''' is also sometimes used. This term was introduced by the Neogrammarian school in the 19th century and is still commonly applied to some historically important sound changes, such as Grimm's law. While real-world sound changes often admit of exceptions (for a variety of known reasons, and sometimes without a known reason), the expectation of their regularity or "exceptionlessness" is of great heuristic value, since it allows historical linguists to define the notion of '''regular correspondence''' (see: comparative method).
+
+Each sound change is limited in space and time. It means it functions within a specified area (only in some dialects) and within a specified period of time. These limitations are some of the reasons for which some scholars refuse using the term "sound law" (asserting that laws should not have such spatial and temporal limitations) and replace it with '''phonetic rule'''.
+
+== The formal notation of sound change ==
+
+::A > B
+
+:is to be read, "A changes into (or is replaced by, is reflected as, etc.) B". It goes without saying that A belongs to an older stage of the language in question, whereas B belongs to a more recent stage. The symbol ">" can be reversed:
+
+::B < A
+
+:"(more recent) B derives from (older) A"
+
+For example,
+
+::POc. *t > Rot. f
+
+:= "Proto-Oceanic *t is reflected as [f] in the Rotuman language." 
+
+The two sides of such an equation indicate start and end points only, and do not imply that there are not additional intermediate stages. The example above is actually a compressed account of a ''sequence'' of changes: *t changed first into a dental fricative  (like the initial consonant of English ''thin''), which has yielded present-day [f]. This can be represented more fully as:
+
+:: t >  > f
+
+Unless a change operates unconditionally (in all environments), the context in which it applies must be specified:
+
+::A > B /X__Y
+
+:= "A changes into B when preceded by X and followed by Y."
+
+For example:
+
+::It. b > v /[vowel]__[vowel], which can be simplified to just
+::It. b > v /V__V (where the capital V stands for any given vowel)
+
+:= "Intervocalic [b] (inherited from Latin) became [v] in Italian" (e.g. in ''caballum, dēbet'' > ''cavallo'' 'horse', ''deve'' 'owe (3sg.)'
+
+A second example:
+
+::PIr. [-cont][-voi] > [+cont]/__[C][+cont]
+
+:= "Preconsonantal voiceless non-continuants (i.e. voiceless stops) changed into corresponding voiceless continuants (fricatives) in Proto-Iranian" when immediately followed by a continuant consonant (i.e. resonants and fricatives). Examples: Proto-Indo-Iranian *''pra'' 'forth' > Avestan ''fra'', *''trayas'' "three" (masc.nom.pl.)> Av. ''θrayō'', *''čatwāras'' "four" (masc.nom.pl.) > Av. ''čaθwārō'', *''pśaws'' "of a cow" (nom. *''paśu'') > Av. ''fšāoš'' (nom. ''pasu''). Note that the fricativation does not occur before stops, so *''sapta'' "seven" > Av. ''hapta''. (However, in the variety of Iranian underlying Old Persian, fricativization occurs in all clusters, thus Old Persian ''hafta'' "seven".)
+
+If the symbol "#" stands for a word boundary (initial or final), the notation "/__#" = "word-finally", and "/#__" = "word-initially". For example:
+
+::Gk. [stop] > Ø /__#

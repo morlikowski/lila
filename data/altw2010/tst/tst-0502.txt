@@ -1,0 +1,156 @@
+Par '''Levenšteina attālumu''' jeb '''rediģēšanas attālumu''' starp divām simbolu virknēm informācijas teorijā un datorzinātnē sauc minimālo darbību skaitu, kas nepieciešams, lai vienu virkni pārveidotu otrā. Viena darbība var būt:
+* simbola iespraušana;
+* simbola izmešana;
+* simbola aizvietošana.
+
+Piemēram, attālums starp virknēm "SĀKUMS" un "PĀRIS" ir 4:
+# SĀKUMS => '''P'''ĀKUMS (aizvietošana);
+# PĀKUMS => PĀ'''R'''UMS (aizvietošana);
+# PĀR'''U'''MS => PĀRMS (izmešana);
+# PĀRMS => PĀR'''I'''S (aizvietošana).
+
+Šāda attāluma jēdzienu valodniecībā (pareizrakstības pārbaude) un bioinformātikā (gēnu meklēšana).
+
+Levenšteina attālumu var uzskatīt par Heminga attāluma vispārīgu gadījumu, jo ar pēdējo tiek salīdzinātas tikai vienāda garuma virknes, par pieļaujamo darbību ņemot tikai simbola aizvietošanu.
+
+== Levenšteina attāluma atrašana ==
+
+rightrightrightrightLevenšteina attāluma atrašanai tiek izveidota matrica, kas algoritma darbības laikā pamazām tiek aizpildīta – no kreisās puses uz labo, no augšas uz leju –, līdz apakšējā labajā stūrī tiek iegūts meklētais attālums.
+
+'''Sākums.''' Kā redzams pirmajā attēlā, sākotnēji matricas pirmā augšējā un pirmā kreisā rindiņa tiek aizpildītas ar pēc kārtas ņemtiem veseliem skaitļiem, sākot ar nulli.
+
+'''Matricas aizpildīšana.''' Tukšā šūnā ierakstāmo vērtību nosaka pēc ''trim skaitļiem'', kas atrodas blakusesošajās šūnās pa kreisi, uz augšu un pa diagonāli pa kreisi un uz augšu, kā arī ''diviem simboliem'' tukšajai šūnai atbilstošajās virkņu šūnās.
+
+Šūnas, kas atrodas pa kreisi un uz augšu, tukšajai šūnai vienmēr dod vērtību, kas ir par <math>1</math> lielāka nekā vērtība šajās pašās šūnās. Šūna, kas atrodas pa diagonāli, tukšajai šūnai dod vērtību, kas vai nu ir tāda pati kā pašā šūnā – ja minētie divi virkņu simboli sakrīt –, vai arī ir par <math>1</math> lielāka – ja minētie divi virkņu simboli nesakrīt.
+
+Otrā attēlā redzamajā piemērā šūnas pa kreisi un uz augšu no (sākotnēji) tukšās šūnas dod vērtību <nowiki>1+1 = 2</nowiki>, šūna pa diagonāli dod vērtību <math>0+1 = 1</math>.
+
+Tukšajā šūnā ierakstāmo vērtību izvēlas, ņemot mazāko no šīm trim iespējamajām. Tātad minētajā piemērā tā ir <math>1</math>.
+
+In metric for measuring the amount of difference between two sequences (i.e., the so called strings is given by the minimum number of operations needed to transform one string into the other, where an operation is an insertion, deletion, or substitution of a single character.  A generalization of the Levenshtein distance (Damerau-Levenshtein distance) allows the transposition of two characters as an operation.
+
+The metric is named after Vladimir Levenshtein, who considered this distance in 1965.<ref>В.И. Левенштейн (1965) Двоичные коды с исправлением выпадений, вставок и замещений символов. ''Доклады Академий Наук СССР'' 163.4:845–848. Appeared in English as: V. I. Levenshtein, Binary codes capable of correcting deletions, insertions, and reversals. ''Soviet Physics Doklady'' 10 (1966):707–710.</ref>
+It is often used in applications that need to determine how similar, or different, two strings are, such as spell checkers.
+
+For example, the Levenshtein distance between "kitten" and "sitting" is 3, since the following three edits change one into the other, and there is no way to do it with fewer than three edits:
+
+# kitten → sitten (substitution of 's' for 'k')
+# sitten → sittin (substitution of 'i' for 'e')
+# sittin → sitting (insert 'g' at the end)
+
+It can be considered a generalization of the Hamming distance, which is used for strings of the same length and only considers substitution edits.
+
+== The algorithm ==
+A commonly-used bottom-up dynamic programming algorithm for computing the Levenshtein distance involves the use of an (<var>n</var> + 1) × (<var>m</var> + 1) matrix, where <var>n</var> and <var>m</var> are the lengths of the two strings. This algorithm is based on the Wagner-Fischer algorithm for edit distance. Here is pseudocode for a function ''LevenshteinDistance'' that takes two strings, ''s'' of length ''m'', and ''t'' of length ''n'', and computes the Levenshtein distance between them:
+
+ '''int''' LevenshteinDistance('''char''' s[1..m], '''char''' t[1..n])
+    ''// d is a table with m+1 rows and n+1 columns''
+    '''declare''' '''int''' d[0..m, 0..n]
+  
+    '''for''' i '''from''' 0 '''to''' m
+        d[i, 0] := i
+    '''for''' j '''from''' 0 '''to''' n
+        d[0, j] := j
+  
+    '''for''' i '''from''' 1 '''to''' m
+        '''for''' j '''from''' 1 '''to''' n
+        '''{'''
+            '''if''' s[i] = t[j] '''then''' cost := 0
+                           '''else''' cost := 1
+            d[i, j] := minimum(
+                                 d[i-1, j] + 1,     ''// deletion''
+                                 d[i, j-1] + 1,     ''// insertion''
+                                 d[i-1, j-1] + cost   ''// substitution''
+                             )
+        '''}'''
+  
+    '''return''' d[m, n]
+
+Two examples of the resulting matrix (the minimum steps to be taken are highlighted):
+
+<center>
+{|
+|
+{|class="wikitable"
+| 
+| 
+!k 
+!i 
+!t 
+!t 
+!e 
+!n
+|-
+| ||0 ||1 ||2 ||3 ||4 ||5 ||6
+|-
+!s
+|1 || ||2 ||3 ||4 ||5 ||6
+|-
+!i
+|2 ||2 || ||2 ||3 ||4 ||5
+|-
+!t
+|3 ||3 ||2 || ||2 ||3 ||4
+|-
+!t
+|4 ||4 ||3 ||2 || ||2 ||3 
+|-
+!i
+|5 ||5 ||4 ||3 ||2 || ||3
+|-
+!n
+|6 ||6 ||5 ||4 ||3 ||3 ||
+|-
+!g
+|7 ||7 ||6 ||5 ||4 ||4 ||
+|}
+|
+{|class="wikitable"
+|
+|
+!S
+!a
+!t
+!u
+!r
+!d
+!a
+!y
+|-
+| 
+|0 ||1 ||2 ||3 ||4 ||5 ||6 ||7 ||8
+|-
+!S
+|1 || || || ||3 ||4 ||5 ||6 ||7
+|-
+!u
+|2 ||1 ||1 ||2 || ||3 ||4 ||5 ||6
+|-
+!n
+|3 ||2 ||2 ||2 ||3 || ||4 ||5 ||6
+|-
+!d
+|4 ||3 ||3 ||3 ||3 ||4 || ||4 ||5 
+|-
+!a
+|5 ||4 ||3 ||4 ||4 ||4 ||4 || ||4
+|-
+!y
+|6 ||5 ||4 ||4 ||5 ||5 ||5 ||4 ||
+|}
+|}
+
+</center>
+
+The invariant maintained throughout the algorithm is that we can transform the initial segment <code>s[1..i]</code> into <code>t[1..j]</code> using a minimum of <code>d[i,j]</code> operations. At the end, the bottom-right element of the array contains the answer.
+
+This algorithm is essentially part of a solution to the Longest common subsequence problem (LCS), in the particular case of 2 input lists.
+
+=== Proof of correctness ===
+As mentioned earlier, the invariant is that we can transform the initial segment <code>s[1..i]</code> into <code>t[1..j]</code> using a minimum of <code>d[i,j]</code> operations. This invariant holds since:
+* It is initially true on row and column 0 because <code>s[1..i]</code> can be transformed into the empty string <code>t[1..0]</code> by simply dropping all <code>i</code> characters. Similarly, we can transform <code>s[1..0]</code> to <code>t[1..j]</code> by simply adding all <code>j</code> characters.
+* The minimum is taken over three distances, each of which is feasible:
+** If we can transform <code>s[1..i]</code> to <code>t[1..j-1]</code> in <code>k</code> operations, then we can simply add <code>t[j]</code> afterwards to get <code>t[1..j]</code> in <code>k+1</code> operations.
+** If we can transform <code>s[1..i-1]</code> to <code>t[1..j]</code> in <code>k</code> operations, then we can do the same operations on <code>s[1..i]</code> and then remove the original <code>s[i]</code> at the end in <code>k+1</code> operations.
+** If we can transform <code>s[1..i-1]</code> to <code>t[1..j-1]</code> in <code>k</code> operations, we can do the same to <code>s[1..i]</code> and then do a substitution of <code>t[j]</code> for the original <code>s[i]</code> at the end if necessary, requiring <code>k+cost</code> operations.
+* The operations required to transform <code>s[1..n]</code> into <code>t[1..m]</code> is of course the number required to transform all of <code>s</code> into all of <code>t</code>, and so <code>d[n,m]</code> holds our result.

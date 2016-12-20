@@ -1,0 +1,110 @@
+L<nowiki>'</nowiki>'''MPEG-4 Part 10''', anche detto '''MPEG-4 AVC''' (AVC è l'acronimo di Advanced Video Coding) o semplicemente '''AVC''', designazione ITU-T '''H.264''', è una tecnologia di compressione video digitale sviluppata dall'MPEG.
+
+==Caratteristiche==
+Questo codec video è stato sviluppato per telefoni cellulari 3G. I servizi di broadcast basati sullo standard H.264 occupano una banda inferiore rispetto al diffuso schema di codifica MPEG-2, a una frequenza di trasmissione dei bit decisamente inferiore. Gli operatori di broadcasting possono quindi trasmettere in modo economico un numero maggiore di programmi ad alta definizione. L'efficienza della compressione è migliorata di oltre il 50% rispetto al precedente MPEG-2. Attualmente i dispositivi con maggior diffusione ad utilizzare questo sistema di codifica sono l'PSP.
+
+==Applicazioni==
+H.264 viene impiegato nei dischi ottici di ultima generazione Blue Ray. Nell'ottobre 2005 Apple Inc. ha cominciato a distribuire sul suo negozio online iTunes Store video codificati in H.264. Apple, forte sostenitrice di tale formato, fu una delle prime a rendere disponibile in QuickTime un software per la codifica e decodifica di video codificato con AVC.</br>
+Ora in seguito ad un accordo con Apple Inc. sembrerebbe che YouTube stia cominciando un processo di conversione dei suoi filmati da Adobe Flash a H.264 per la fruizione su Apple TV e ad oggi sono stati annunciati tali video anche per iPhone.</br>
+Il 6 Settembre 2007 Adobe ha annunciato il supporto nativo del codec H.264 da Flash Player<ref>http://arstechnica.com/journals/apple.ars/2007/08/21/flash-player-9-gets-beefed-up-with-h-264-support</ref>.
+
+==Esempi di video in Alta Definizione==
+*
+*
+*
+
+{{noteTA
+|1=zh-hans:視頻點播; zh-hant:隨選視訊;
+|2=zh-hans:實時; zh-hant:即時;
+}}
+'''H.264'''，或稱'''MPEG-4第十部分'''，是由聯合視頻組（JVT，Joint Video Team）提出的高度壓縮數字視頻編解碼器標準。
+
+ITU-T的H.264標準和ISO/IEC MPEG-4第10部分（正式名稱是'''ISO/IEC 14496-10'''）在編解碼技術上是相同的，這種編解碼技術也被稱為'''AVC'''，即高級視頻編碼（Advanced Video Coding）。該標準第一版的最終草案已於2003年5月完成。
+
+H.264是ITU-T以H.26x系列為名稱命名的標準之一，同時AVC是ISO/IEC MPEG一方的稱呼。這個標準通常被稱之為H.264/AVC（或者AVC/H.264或者H.264/MPEG-4 AVC或MPEG-4/H.264 AVC）而明確的說明它兩方面的開發者。該標準最早來自於ITU-T的稱之為H.26L的項目的開發。H.26L這個名稱雖然不太常見，但是一直被使用著。
+
+有時候該標準也被稱之為「JVT 編解碼器」，這是由於該標準是由JVT組織並開發的（作為兩個機構合作開發同一個標準的事情並非空前，之前的視頻編碼標準MPEG-2也是由MPEG和ITU-T兩方合作開發的，因此MPEG-2在ITU-T的命名規範中被稱之為H.262）。
+
+H.264/AVC項目最初的目標是希望新的編解碼器能夠在比相對以前的視頻標準（比如MPEG-2或者H.263）低很多的位元率下（比如說，一半或者更少）提供很好的視頻質量；同時，並不增加很多複雜的編碼工具，使得硬件難以實現。另外一個目標是可適應性，即該編解碼器能夠在一個很廣的範圍內使用（比如說，即包含高碼率也包含低碼率，以及不同的視頻分辨率），並且能在各種網絡和系統上（比如組播、DVD存儲、RTP/IP包網絡、ITU-T多媒體電話系統）工作。
+
+JVT 最近完成了一個對原標準的拓展，該拓展被稱為色度抽樣率（包括YUV 4:2:2和YUV 4:4:4）來支持更高精度的視頻編碼。該拓展加入了一些新的特性（比如自適應的4x4和8x8的整數變換，用戶自定義量化加權矩陣，高效的幀間無失真編碼，支持新增的色度空間和色度參差變換）。該拓展的設計於2004年7月完成，草案也於2004年9月完成。由於該標準的最早版本於2003年5月完成，JVT已經完成了一輪對標準的勘誤工作，新一輪的勘誤也已於最近完成並且得到了ITU-T的批准，不久也將被MPEG批准。
+
+== 技術細節 ==
+
+H.264/AVC 包含了一系列新的特徵，使得它比起以前的編解碼器不但能夠更有效的進行編碼，還能在各種網絡環境下的應用中使用。這些新特性包括：
+
+* 多參考幀的運動補償。比起以前的視頻編碼標準，H.264/AVC以更靈活的方式使用已編碼的更多幀來作為參考幀。在某些情況下，可以使用最多32個參考幀（在以前的標準裡面，參考幀的數目不是1就是對B幀來說的2）。該特性對大多數場景序列都可以帶來一定的碼率降低或者質量提高，對某些類型的場景序列，例如快速重複的閃光，反覆的剪切或者背景遮擋的情況，它能很顯著的降低編碼的碼率。
+* 變塊尺寸運動補償。可使用最大16x16至最小4x4的塊來進行運動估計與運動補償，能夠對圖像序列中的運動區域進行更精確的分割。
+* 為了減少鋸齒(:en:Aliasing)並得到更銳化的圖像，採用六抽頭的濾波器來產生二分之一像素的亮度份量預測值。
+* 宏塊對結構允許場模式中採用16x16的宏塊(相對於MPEG-2中的16x8)。
+* 1/4像素精度的運動補償能夠提供更高精度的運動塊預測，由於色度通常是亮度抽樣的1/2（參見4:2:0），這時運動補償的精度就達到了1/8像素精度。
+* 加權的運動預測，指在運動補償時可以使用增加權重和偏移的辦法。它能在一些特殊的場合，如淡入、淡出、淡出而後淡入等情況提供相當大的編碼增益。
+* 使用了一個環內的除塊效應濾波器，能夠減輕普遍存在於其他基於離散餘弦變換(DCT)的視頻編解碼器的塊效應。
+* 一個匹配的整數4x4變換（類似於離散餘弦變換的設計），同樣在高精度拓展 中，採用整數8x8變換，並能在4x4變換和8x8變換中進行自適應的選擇。
+* 在第一次4x4變換後，對DC係數（色度的DC係數和某種特殊狀況的亮度DC係數）再進行一次Hadamard變換，使得在平滑區域得到更好的壓縮效果。
+* 利用臨近塊的邊界像素的Intra空間預測（比曾在H.263+和MPEG-4視頻部分使用的變換係數預測的效果要好）。
+* 基於上下文的二元算數編碼 (CABAC),它能夠靈活的將各種語法元素，在已知相應上下文概率分佈的狀況下進行更有效的無損熵編碼。
+* 基於上下文的變長編碼 (CAVLC)，用於對量化後的變化係數進行編碼。比起CABAC它的複雜度相對較低，壓縮比不高，但是比起以前的視頻編碼標準所使用的熵編碼方案，它又是相當有效的。
+*對既不是用CABAC也不是用CAVLC的語法元素，使用指數哥倫布碼(Exponential-Golomb)(Exp-Golomb)熵編碼方案，進行編碼。
+* 使用一個網絡抽像層 (NAL),使得相同的視頻語法可以適用於多種網絡環境中；並且使用了序列參數集(SPSs)和圖像參數集(PPSs)來提供更高的強健性(robustness)和靈活性。
+* 切換條帶(Switching slices，包括SP和SI兩種)，它使得編碼器能夠指令解碼器跳轉到一個正在處理的視頻碼流，用來解決視頻碼流碼率切換和"竅門模式"(Trick mode)操作。當解碼器利用SP/SI條帶跳轉到一個視頻碼流中間時，除非之後的解碼幀引用切換幀之前的圖像作為參考幀，它都可以得到完全一致的解碼重建圖像。
+* 靈活的宏塊排列模式(FMO for Flexible macroblock ordering,也被稱為條帶組slice groups技術)和任意條帶排列(ASO for arbitrary slice ordering)模式，用來更改圖像編碼的最基本單位-宏塊的編碼順序。它能夠用來提高有繞信道下碼流的魯棒性(robustness)以及一些其它的目的。
+* 數據分區(DP for Data partitioning),能夠將重要程度不同的語法元素分開打包傳輸，並使用非平等數據保護(UEP for unequal error protection)等技術來改善視頻碼流對抗信道誤碼/丟包的魯棒性(Robustness).
+* 冗余條帶(RS for Redundant Slices)，同樣是一個提高碼流魯棒性的技術。編碼器利用該技術可以發送圖像某區域(或者全部)的另一個編碼表示(通常是較低分辨率的編碼碼流)使得當主表示發生錯誤或者丟失的時候能夠用冗余的第二個編碼表示來解碼。
+* 使用了一個自動的字節碼流打包方法，避免了碼流中出現與開始碼重複的碼字。開始碼是碼流中用於隨機訪問和重建同步的碼字。
+* 補充增強信息(SEI for Supplemental Enhancement Information)和視頻可用信息(VUI for Video Usability Information)增加了向視頻碼流中加入信息的辦法，為各種應用提供了用途。
+* 輔助圖層(Auxiliary pictures), 可以用來實現某些特殊的功能，例如alpha復合(alpha compositing)。
+* 幀編號，使用該功能支持創建一個視頻序列的子序列,可用來支持實現時域的可伸縮性，還支持對丟失的整幀圖像進行檢測和隱藏(丟失可能是由於網絡丟包或者信道誤碼造成的)。
+* 圖像順序計數，使用該功能使得各幀圖像的順序和解碼圖像的像素值與時間信息無關，即使用一個單獨的系統對時間信息進行傳輸、控制、更改，從而不影響解碼圖像的像素值。
+
+上述這些技術，與其它技術的結合，使得H.264比起以前的視頻編解碼能夠帶來性能上顯著的提高，並在各種不同的環境下達成更廣泛的應用。H.264在壓縮性能上比起MPEG-2有很大的提高，在相同的圖像質量下可以，碼率可以減少到一半或者更少。
+
+和MPEG的其它視頻標準一樣，H.264/AVC也提供了一個參考軟件，並可以免費下載。它的主要目的是提供一個演示H.264/AVC各種功能的演示平台，而不是作為一個直接的應用平台(在後面的鏈接部分可以找到下載的地址)。目前在MPEG也同時在進行一些硬件參考設計的實現。
+
+== 專利許可 ==
+
+和 MPEG-2 第一部分、第二部分，MPEG-4 第二部分一樣，<p>
+使用 H.264/AVC 的產品製造商和服務提供商需要向他們的產品所使用的 專利 的持有者支付 專利 許可費用。<p>這些專利許可的主要來源是一家稱為   [http://www.mpegla.com/avc/ MPEG-LA]，<p>
+LLC 的私有組織 ( 實際上該組織和 MPEG 標準化組織沒有任何關聯，<p>
+但是該組織也管理著 MPEG-2 第一部分系統、第二部分視頻、MPEG-4 第二部分視頻和其它一些技術的專利許可 )。<p>
+部分其他的專利許可則需要向另一家稱為 [http://www.vialicensing.com/products/AVCH264VC/standard.html VIA Licensing] 的私有組織申請，<p>
+這家公司另外也管理偏向音頻壓縮的標準如 MPEG-2 AAC 及 MPEG-4 Audio 的專利許可。
+
+== 應用 ==
+
+=== 光碟儲存 ===
+現時競爭下一代光碟格式的兩種主要技術，都已經計劃在2005年下半年，將H.264/MPEG-4 AVC 作為必需的編碼格式，包括：
+* DVD論壇 制訂的 HD DVD格式
+* 藍光協會(BDA) 制訂的藍光光碟 Blu-ray Disc格式
+
+=== 數碼電視 ===
+==== 歐洲與北美洲地區 ====
+歐洲的數字電視廣播(DVB)標準組織，於2004年下半年通過了採用H.264/MPEG-4 AVC 於歐洲地區進行數碼電視廣播，而法國總理讓-皮埃爾·拉法蘭 於2004年宣佈法國將會選用H.264/MPEG-4 AVC作為高清電視接收器和數碼電視地面廣播服務的付費電視頻道的一項要求。
+
+另外，美國和韓國正在考慮使用H.264/MPEG-4 AVC，作為數碼電視地面廣播的視頻編碼格式。
+
+==== 亞洲地區 ====
+至於亞洲地區，日本所採用的ISDB數碼電視廣播制式，提供的ISDB-T SB 移動地面電視廣播服務，使用了H.264/MPEG-4 AVC 編碼，而其中包括了以下的電視台：
+* 日本放送協會 (NHK)
+* 東京放送 (TBS)
+* 日本電視台 (NTV)
+* 朝日電視台 (TV Asahi)
+* 富士電視台 (Fuji TV)
+* 東京電視台 (TV Tokyo)
+
+而香港方面，無線電視與亞洲電視 (aTV)的高清頻道與新增的標清頻道，將會使用H.264/MPEG-4 AVC作為編碼制式，而舊有的四個標清頻道將採用MPEG-2格式，令只收看該數個頻道的市民，以較便宜的價錢購買基本版機頂盒繼續收看免費電視節目。<ref>工商及科技局，《[http://www.citb.gov.hk/ctb/chi/legco/pdf/DTT.pdf 立法會參考資料摘要：推行數碼地面電視廣播]》，頁5，2006年6月4日</ref>
+
+=== 衛星數碼電視 ===
+
+衛星數碼電視廣播方面，以下數間服務供應商亦採用了該編碼標準，包括：
+* News Corp./DirecTV (美國)
+* Echostar / Dish Network / Voom TV (美國)
+* Euro1080 (歐洲)
+* Premiere (德國)
+* BSkyB (英國 及 愛爾蘭)
+
+=== 通訊與多媒體 ===
+
+第三代移動通信合作組織(3GPP)已經在第六次發佈中批准H.264/AVC作為其移動多媒體電話服務標準的可選技術。
+
+美國國防部下的運動圖像標準協會(MISB for The Motion Imagery Standards Board)已經接受H.264/AVC為其核心應用的推薦視頻編解碼器。

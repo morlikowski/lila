@@ -1,0 +1,68 @@
+thumb|Un bioreattore Cellex ([[1993) per la produzione di anticorpi monoclonali (esposto al Science Museum di Londra)]]
+Si definisce '''bioreattore''' ogni dispositivo in grado di fornire un ambiente adeguato alla crescita di organismi biologici. 
+
+La maggior parte delle volte si tratta di un recipiente all'interno del quale viene portata a termine una reazione chimica svolta da molecole, da essi derivate, attive dal punto di vista biochimico. Questo tipo di bioreattori è solitamente di forma cilindrica, composto di acciaio inossidabile e può raggiungere dimensioni comprese tra alcuni litri e numerosi ettolitri.
+
+Ci si riferisce a bioreattori anche intendendo dispositivi che permettono la crescita autonoma (senza l'intervento continuo di un operatore) di cellule o tessuti. Questo concetto di bioreattore, affine a quello di coltura cellulare, è attualmente in largo sviluppo soprattutto nel settore della rigenerazione dei tessuti (ad esempio per la terapia dei grandi ustionati).
+
+==Tipi di bioreattore==
+È possibile classificare i bioreattori in base a tre diversi parametri.
+===Asetticità del contenitore===
+Esistono contenitori:
+* non asettici, usati ad esempio in fermentazioni tradizionali come la birrificazione o più moderne come il trattamento delle acque; 
+* asettici, utilizzati per la produzione di antibiotici o vitamine.
+===Condizioni richieste dal ''bioprocesso''===
+I bioprocessi possono avere luogo:
+* in fermentatori continuamente rimescolati o meno;
+* in aerobiosi o in anaerobiosi;
+* in sospensione (mezzo liquido) o su una superficie di supporto (solida).
+===Modalità di coltura dei microrganismi===
+I metodi di coltura dei microrganismi in un bioreattore possono essere essenzialmente cinque. Risulta importante per questa classificazione il metodo di somministrazione del ''terreno di coltura'', ovvero dei fattori necessari ai microrganismi per crescere.
+* Colture in ''batch'' (a ''sistema chiuso''). Il volume di terreno liquido nel quale i microrganismi crescono è essenzialmente costante. I microrganismi, crescendo, aumentano la loro biomassa, riducono la quantità di nutrienti disponibile, producono metaboliti da eliminare. Le cellule raggiungono così un livello (detto stato stazionario) tale da impedire di aumentare ulteriormente il loro numero. 
+* Colture in ''fed batch'' (''sistema chiuso alimentato''). Questo sistema permette di prolungare il tempo di crescita dei microrganismi prima di raggiungere lo stato stazionario. Il terreno viene infatti continuamente addizionato alla coltura.
+* Colture in perfusione. Oltre all'aggiunta di terreno ''fresco'', viene anche prelevato il terreno usato (privo di cellule) ed i metaboliti escreti. È un metodo ampiamente usato nelle colture di cellule animali.
+* Colture continue. Ad una coltura in ''batch'' in fase di crescita esponenziale (cioè di crescita massima) si addiziona una certa quantità di terreno fresco e se ne sottrae una equivalente di terreno ''usato'' con cellule. In questo modo, restando costante la biomassa, si ottiene una crescita pressoché bilanciata: anche le concentrazioni di sostanze nutrienti e di metaboliti, infatti, restano essenzialmente costanti. Colture simili sono anche quelle dette ''semicontinue''.
+* Colture su strato solido. Si svolgono in assenza di acqua allo stato libero (in alcuni casi l'acqua è presente in quantità ridotte). Tra i substrati solidi più utilizzati figurano legumi, cereali, ed altri materiali di origine vegetale come paglia o segatura.
+
+==Bioreattori industriali==
+La costruzione e l'utilizzo di un bioreattore non sono certamente operazioni banali. I microrganismi sono in grado di svolgere le loro funzioni in maniera ottimale solo se le condizioni dell'ambiente sono ottimali. Per questo motivo, occorre un controllo costante delle concentrazioni di gas (come ossigeno, azoto, anidride carbonica), della temperatura, del pH e della velocità di rimescolamento del contenuto del bioreattore.  
+
+La maggior parte dei bioreattori industriali sono dotati di sensori per monitorare ogni parametro e di un software in grado di gestire tali informazioni per poterle fornire all'operatore.
+
+I bioreattori necessitano di lavorare in condizioni di sterilità: la presenza di ''sporco'' <!--''Fouling''--> può danneggiare i dispositivi dello strumento, in particolare lo scambiatore di calore. Per evitare danni, il bioreattore deve essere facilmente pulibile e composto di superfici lisce (per questo, la forma più comune è quella cilindrica).
+
+Lo scambiatore di calore è necessario per mantenere il ''bioprocesso'' ad una temperatura costante. Spesso le fermentazioni biologiche sono una grande fonte di calore, motivo per cui è richiesta una fonte refrigerante. Tale dispositivo può consistere di una sorta di intercapedine isolante esterna <!--with an external jacket--> oppure di una serpentina refrigerante interna<!--with internal coils-->.
+
+I bioreattori industriali utilizzano di solito batteri o altri organismi semplici. Sono gli organismi di elezione perché hanno richieste nutrizionali molto semplici ed hanno un tasso di riproduzione molto alto.
+
+thumb|right|300px|Bioreactors for producing proteins, NRC Biotechnology Research Institute, Montréal, Canada
+
+'''Biochemical engineering''' is a branch of chemical engineering or biological engineering  that mainly deals with the design and construction of unit processes that involve biological organisms or molecules. Biochemical engineering is often taught as a supplementary option to chemical engineering or biological engineering due to the similarities in both the background subject curriculum and problem-solving techniques used by both professions. Its applications are used in the food, feed, pharmaceutical, biotechnology, and water treatment industries.
+
+==Bioreactor==
+thumb|left|210px|Batch type bioreactor
+
+A '''bioreactor''' may refer to any device or system that supports a biologically active environment.<ref></ref> In one case, a bioreactor is a vessel in which is carried out a chemical process which involves biochemically active substances derived from such organisms. This process can either be anaerobic. These bioreactors are commonly cylindrical, ranging in size from liters to cubic meters, and are often made of stainless steel.
+
+A bioreactor may also refer to a device or system meant to grow cells or tissues in the context of cell culture. These devices are being developed for use in tissue engineering.
+
+On the basis of '''mode of operation''', a bioreactor may be classified as batch, fed batch or continuous (e.g. Continuous stirred-tank reactor model). An example of a continuous bioreactor is the chemostat.
+
+Organisms growing in bioreactors may be suspended or immobilized. The simplest, where cells are immobilized, is a Petri dish with agar gel. Large scale immobilized cell bioreactors are: 
+*moving media
+*packed bed
+*fibrous bed 
+*membrane
+
+==Bioreactor design==
+thumb|right|250px|Bioreactor for cellulosic ethanol research
+
+Bioreactor design is a complex engineering task. Under optimum conditions, the microorganisms or cells are able to perform their desired function with 100 percent rate of success. The bioreactor's environmental conditions like gas (i.e., air, agitation speed/circulation rate need to be closely monitored and controlled.
+
+Most industrial bioreactor manufacturers use vessels, sensors and a control system networked together.
+
+''Fouling'' can harm the overall sterility and efficiency of the bioreactor, especially the heat exchangers. To avoid it, the bioreactor must be easily cleaned and as smooth as possible (therefore the round shape).
+
+A heat exchanger is needed to maintain the bioprocess at a constant temperature. Biological fermentation is a major source of heat, therefore in most cases bioreactors need refrigeration. They can be refrigerated with an external jacket or, for very large vessels, with internal coils.
+
+In an aerobic process, optimal oxygen transfer is perhaps the most difficult task to accomplish. Oxygen is poorly soluble in water--even less in fermentation broths--and is relatively scarce in air (20.8%). Oxygen transfer is usually helped by agitation, which is also needed to mix nutrients and to keep the fermentation homogeneous. There are, however, limits to the speed of agitation, due both to high power consumption (which is proportional to the cube of the speed of the electric motor) and to the damage to organisms caused by excessive tip speed](3.14*dia of the impeller in mm * notation of the Speed/60(hr)] causing [[shear stress.

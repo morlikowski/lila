@@ -1,0 +1,72 @@
+The '''linear no-threshold model''' ('''LNT''') is a model of the damage caused by ionizing radiation which presupposes that the response is linear (i.e., directly proportional to the dose) at all dose levels. Thus LNT asserts that there is no threshold of exposure below which the response ceases to be linear. LNT, or at least "no threshold", is sometimes applied to other cancer hazards such as polychlorinated biphenyls in drinking water.<ref>[http://www.epa.gov/safewater/contaminants/dw_contamfs/pcbs.html  ''Consumer Factsheet on: polychlorinated biphenyls'']  US Environment Protection Agency.</ref>
+
+The LNT Model stands in contrast to theories in which below a certain level, radiation exposure is harmless - in other words that there is threshold for radiation damage.  Another alternative model is longitudinal studies involving large cohorts over long periods.
+
+It is possible that some cancers respond linearly while others do not.
+
+A review of the various studies published in the authoritative  ''Proceedings of the National Academy of Sciences'' concludes that "given our current state of knowledge, the most reasonable assumption is that the cancer risks from low doses of x- or gamma-rays decrease linearly with decreasing dose."<ref>{{cite journal
+  | last =Brenner
+  | first =David J
+  | authorlink =
+  | coauthors =<i>et al</i>
+  | title =Cancer risks attributable to low doses of ionizing radiation: Assessing what we really know
+  | journal =Proceedings of the National Academy of Sciences
+  | volume =
+  | issue =
+  | pages =
+  | date =2003-11-10
+  | url =http://www.pnas.org/cgi/content/full/100/24/13761
+  | doi =
+  | id =
+  | accessdate = 2007-08-29
+  | pmid =14610281 }}</ref>
+
+==Applications==
+
+If a particular dose of radiation is found to produce one extra case of a type of cancer in every thousand people exposed, the LNTM predicts that one thousandth of this dose will produce one extra case in every million people so exposed, and that one millionth of this dose will produce one extra case in every billion people exposed. 
+
+A linear model has long been used in health physics to set maximum acceptable radiation exposures. 
+
+The United States based National Council on Radiation Protection and Measurements (NCRP), a body commissioned by the United States Congress, recently released report written by the national experts in the field which states that, radiation's effects should be considered to be proportional to the dose an individual receives, regardless of how small the dose is.
+
+==Controversy==
+
+In the scientific community, expert panels are often convened to consider and write reports on the most important and controversial topics of the day. Several of these expert panels have been convened on the topic of the '''Linear no-threshold model.'''
+
+* In 2004 the National Academy of Sciences) supported the linear no threshold model and stated regarding Radiation hormesis:<ref>
+http://books.nap.edu/catalog/11340.html Health Risks from Exposure to Low Levels of Ionizing Radiation: BEIR VII Phase 2</ref><ref>[http://hps.org/newsandevents/newsarchive/oldnews497.html Society News Archive: BEIR VII Report Supports LNT Model<!-- Bot generated title -->]</ref><blockquote>The assumption that any stimulatory hormetic effects from low doses of ionizing radiation will have a significant health benefit to humans that exceeds potential detrimental effects from the radiation exposure is unwarranted.</blockquote>
+
+* the National Council on Radiation Protection and Measurements (a body commissioned by the United States Congress).<ref>[http://www.ncrppublications.org/index.cfm?fm=Product.AddToCart&pid=6714063164 NCRP Store - Add Product to Cart<!-- Bot generated title -->]</ref> endorsed the LNT model in a 2001 report that attempted to survey existing literature critical of the model.
+* the United Nations Scientific Committee on the Effects of Ionizing Radiation (UNSCEAR) wrote in its most recent report<ref> UNSCEAR 2000 REPORT Vol. II: Sources and Effects of Ionizing Radiation: Annex G: Biological effects at low radiation doses. page 160, paragraph 541. Available online at[http://www.unscear.org/docs/reports/annexg.pdf]. </ref><blockquote>Until the [...] uncertainties on low-dose response are resolved, the Committee believes that an increase in the risk of tumour induction proportionate to the radiation dose is consistent with developing knowledge and that it remains, accordingly, the most scientifically defensible approximation of low-dose response. However, a strictly linear dose response should not be expected in all circumstances.</blockquote>
+
+However, other organisations disagree with using the Linear no-threshold model to estimate risk from environmental and occupational low-level radiation exposure, they include:
+
+* The French Academy of Sciences and the National Academy of Medicine 
+* The American Nuclear Society
+* The Health Physics Society.
+
+Il modello '''Linear no-threshold''' ('''LNT''') è un linearmente (cioè in modo direttamente proporzionale) al crescere del livello della dose di radiazione assorbita o della dose equivalente di radiazioni ionizzanti, e questo valga per valori qualsiasi della dose. Pertanto il modello LNT asserisce che non vi sia alcuna soglia (''threshold'') di esposizione al di sotto o al di sopra della quale la risposta cessi di essere lineare. 
+
+Dunque secondo il modello LNT il rischio di contrarre tumore o leucemia cresce linearmente al crescere della dose equivalente già a partire dalla dose equivalente di 2,4 milliSievert per anno, che è la media mondiale di dose equivalente assorbita da un essere umano dovuta al fondo di radioattività naturale. Pertanto secondo l'LNT in una popolazione esposta ad esempio a 3,4 milliSievert per anno (la media di dose equivalente assorbita in Italia dove il fondo di radioattività naturale è leggermente più elevato) il numero di tumori e leucemie registrati epidemiologicamente fra la popolazione dovrebbe essere del 40% superiore alla media mondiale.
+
+In alternativa all'LNT esistono vari altri modelli. Uno fra i più accreditati presuppone un livello di soglia di dose equivalente al di sotto del quale, ovvero ai bassi livelli di dose assorbita, l'esposizione alle radiazioni non comporterebbe danni all'organismo. Secondo questo modello l'organismo sarebbe dunque in grado di riparare i danni causati dalle radiazioni a basse dosi assorbite. Esiste addirittura pure un altro modello, il modello radiation hormesis, che asserisce che alle basse dosi al di sotto di una certa soglia l'esposizione alle radiazioni sarebbe addirittura benefica, mentre riconosce che sia dannosa alle alte dosi. Altre alternative prevedono che il danno cresca più che linearmente alle basse dosi e infine che il modello LNT sottostimi il rischio alle basse esposizioni alle radiazioni, ovvero che al di sotto di una certa soglia l'organismo non sia più in grado di riparare il debole danno e sia pertanto maggiormente esposto al rischio di tumori e leucemie<ref>Richard Wakeford BNFL, 2004. Consultation Comment to the ICRP: Low-dose Extrapolation of Radiation-Related Cancer Risk [http://www.icrp.org/remissvar/viewcomment.asp?guid={2C47CE4F-51F4-428C-BF7C-D7D9E14DEEA5}'']</ref>. 
+
+Sia l'LNT che le sue alternative presentano tutti dei plausibili meccanismi come ipotesi. Conclusioni definitive non possono ancora essere univocamente tracciate data la difficoltà di fare studi che coinvolgano coorti abbastanza grandi su periodi lunghi. Sembrerebbe tuttavia che il modello LNT possa essere ancora oggi considerato come il più accreditato. Ovvero anche che, dato il basso livello di conoscenze in questo campo, il modello LNT sia da considerarsi come la più ragionevole delle assunzioni<ref>{{cite journal
+  | last =Brenner
+  | first =David J
+  | authorlink =
+  | coauthors =<i>et al</i>
+  | title =Cancer risks attributable to low doses of ionizing radiation: Assessing what we really know
+  | journal =Proceedings of the National Academy of Sciences
+  | volume =
+  | issue =
+  | pages =
+  | date =2003-11-10
+  | url =http://www.pnas.org/cgi/content/full/100/24/13761
+  | doi =
+  | id =
+  | accessdate = 2007-08-29 }}</ref>
+.
+
+== Note ==
+ 

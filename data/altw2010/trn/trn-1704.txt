@@ -1,0 +1,26 @@
+thumb|right|300px|理想的なフィルタ回路の周波数特性<br>（実際にはこのような周波数特性は取れない）
+thumb|right|300px|周波数軸は対数で表現される。
+'''バンドパスフィルタ'''（Band-pass filter: BPF）とは、フィルタ回路の一種。
+
+== 概要 ==
+必要な範囲の周波数のみを通し、他の周波数は通さない（減衰させる）。
+
+アナログ回路で構成可能なので、様々な分野の回路に使用されている。アナログ回路ではRLC回路（抵抗、コイル、コンデンサ）で実現できる。これらのフィルタ回路はまた、ハイパスフィルタとローパスフィルタを組み合わせることで作成できる。
+
+理想的なフィルタは完全に平らな通過帯域を持ち、通過帯域の外のすべての周波数を完全に減衰させる。さらに、通過帯域からの変移は瞬間である。実際には、理想的なバンドパスフィルタは存在しない。フィルタは必要な周波数帯域外のすべての周波数を完全に減衰させるというわけではない、特に必要な通過帯域のすぐ外側の帯域では、減衰はするが完全には取り除けない。これはフィルタの「roll-off」として知られており、これは周波数のオクターブあたりの減衰をdBで表現される。一般にフィルタの「roll-off」はできるだけ狭くなるように設計し、その結果フィルタはできるだけ理想的な特性が得られるようになる。しかしながら「roll-off」が狭くなるとともに、通過帯域は水平でなくなりはじめて「リプル」が生じ始める。この効果はギブズ現象として知られており、通過帯域の端で顕著である。
+
+エレクトロニクスおよび信号処理以外でのバンドパスフィルタの使用例の1つに大気科学がある。直近のある期間 (たとえば3～10日) の気象データをバンドパスフィルタにかけることで、サイクロンだけをデータ範囲内の変化として残すことは広く行われている。
+
+thumb|right|300px|Bandwidth measured at half-power points (gain -3 dB, or 0.707 relative to peak) on a diagram showing magnitude transfer function versus frequency for a band-pass filter
+
+thumb|300px|right|A medium-complexity example of a band-Pass filter
+
+thumb|200px|right|A band-pass filter schematic showing "[[Kilroy was here|Kilroy".]]
+
+A '''band-pass filter''' is a device that passes frequencies within a certain range and rejects (analogue electronic band-pass filter is an circuit). These filters can also be created by combining a low-pass filter with a high-pass filter.<ref></ref>
+
+''Bandpass'' is an adjective that describes a type of filter or filtering process; it is frequently confused with compound words that follow the English rules of formation: the primary meaning is the latter part of the compound, while the modifier is the first part.  Hence, one may correctly say 'A dual bandpass filter has two passbands'.
+
+An ideal bandpass filter would have a completely flat dB of attenuation per octave or decade of frequency. Generally, the design of a filter seeks to make the roll-off as narrow as possible, thus allowing the filter to perform as close as possible to its intended design. Often, this is achieved at the expense of pass-band or stop-band ''ripple''.
+
+The bandwidth of the filter is simply the difference between the upper and lower  cutoff frequencies. The shape factor is the ratio of bandwidths measured using two different attenuation values to determine the cutoff frequency, e.g., a shape factor of 2:1 at 30/3 dB means the bandwidth measured between frequencies at 30 dB attenuation is twice that measured between frequencies at 3 dB attenuation.    

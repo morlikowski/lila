@@ -1,0 +1,80 @@
+'''Bajt''' (tudi '''zlog, byte, oktet''') je v računalništvu manjša količino podatkov oziroma velikost programskih jezikih.
+
+Bajt je imel včasih spremenljivo velikost, v današnjih računalnikih je 1 bajt = 8 bitov. Izraz je leta 1956 skoval Werner Buchholz v podjetju IBM, originalno je bajt označeval šest bitov. Polovico bajta (štirje biti) imenujemo ''nibble''.
+
+Kratica za bajt je "'''B'''", včasih tudi "b", kar pa lahko pomeni tudi bit. Nekateri narodi so ime enote povsem prevedli, Francozi jo recimo imenujejo ''octet'' ("o"). 
+
+Večje enote so kilobajt, megabajt. Predpone (kilo, mega,...) imajo običajno drugačen pomen kot sicer:
+
+:kilo = 1024 = 2<sup>10</sup> in ne 1000
+
+ 1B=8b 
+1Kb=1024B, 
+1Mb=1024kB, 
+1Gb=1024MB, 
+1Tb=1024GB
+
+Po standardu IEC 60027-2 so predlagane drugačne predpone, ki še niso širše uveljavljene. Kilobajt je tako 1000 bajtov, uvedena pa je predpona kibibajt, ki je 1024 bajtov.
+
+== Glej tudi ==
+* binarne predpone
+
+Kategorija:Druge enote
+Kategorija:Računalništvo
+
+:'''''Nota''': Não confundir com bit''
+
+Um byte é um dos tipos de dados integrais em computação. É usado com frequência para especificar o tamanho ou quantidade da memória ou da capacidade de armazenamento de um computador, independentemente  do tipo de dados lá armazenados. 
+
+A codificação padronizada de byte foi definido como sendo de 8 bits. O byte de 8 bits é, por vezes, também chamado de '''octeto''', nomeadamente no contexto de redes de computadores e telecomunicações.
+
+A uma metade de um byte, dá-se o nome de '''nibble''' ou semioctecto.
+
+Para os computadores, representar 256 números binários é suficiente. Por isso, os bytes possuem 8 bits. Basta fazer os cálculos. Como um bit representa dois valores (1 ou 0) e um byte representa 8 bits, basta fazer 2 (do bit) elevado a 8 (do byte) que é igual a 256.
+
+Note que um byte nada tem de especial, é apenas um número binário de oito algarismos. Sua importância na informática deriva apenas do fato do código ASCII haver adotado números de oito bits, além de razões meramente construtivas ou operacionais. Por exemplo: os códigos enviados a impressoras para controlar a impressão têm oito bits, os valores trocados pelos modems entre computadores também, assim como diversas outras operações elementares de intercâmbio de informações. Além disso, memórias costumam ser organizadas de tal forma que as operações de leitura e escrita são feitas com quantidades de um byte ou de um múltiplo de bytes (oito, dezesseis, trinta e dois, sessenta e quatro ou cento e vinte e oito bits – o que corresponde a um, dois, quatro, oito e dezesseis bytes, respectivamente).
+
+Segundo norma da IEC, lançada em 2000, foi definida uma nova nomenclatura para dados de base dois em substituição a nomenclatura usada erroneamente de base dez separando a confusão causada entre proporção '''1:1000''' ou '''1:1024''', veja mais em Prefixos Binários.
+
+==História==
+No início da computação chegou-se a utilizar 1 byte = 6 bits no código BASE64 usada até hoje em documentos MIME na Internet<ref>{{cite news
+  | title =Uma descrição de de conteúdo Base64 MIME transferir codificação
+  | publisher =Microsoft Corporation
+  | date =2007-05-31
+  | url =http://support.microsoft.com/kb/323489/pt-br
+  | accessdate =2007-09-01  }}</ref><ref>{{cite news
+  | title =Uma descrição do 7 bit-transferência Conteúda MIME codificação no Exchange Server XCON
+  | publisher =Microsoft Corporation
+  | date =2006-10-26
+  | url =http://support.microsoft.com/kb/323486/pt-br
+  | accessdate =2007-09-01  }}</ref> reflete a dificuldade passada de comunicação de dados em 8 bits entre diferentes computadores. A primeira codificação de 1 byte = 8 bits deve-se à IBM com a criação do código EBCDIC em 1960. A partir do sucesso os computadores IBM, padronizou-se que '''1 byte = 8 bits''', surgindo também o código ASCII de 8 bits em 1961. A representação dos caracteres nos computadores atuais ganharam uma nova dimensão: os padrões EBCDIC (já em desuso há um bom tempo) e ASCII estão sendo substituídos pelos códigos UNICODE UTF, UTF-16 e UTF-32 que podem demandar 1 byte, 2 bytes e até 4 bytes para representar uma letra do alfabeto afim de acomodar as escritas em línguas mundiais.
+
+==Quantidades==
+
+Neste artigo exprimem-se as quantidades em prefixo binário (e não no Sistema Internacional de Unidades), que é uma forma de quantificação utilizada em Informática onde se torna mais útil utilizar potências de dois do que potências de dez. Têm o mesmo nome das unidades do SI, embora sejam múltiplos de 1024 (2<sup>10</sup>) no lugar de 1000 (10<sup>3</sup>).
+
+===Byte (B)===
+* 1 Byte = 8 bits (2<sup>3</sup> bits).
+
+===Quilobyte (KB)===
+* 1 024 (2<sup>10</sup>) Bytes
+* 8 192 Bits
+
+===Megabyte (MB)===
+* 1 024 KB
+* 1 048 576 (2<sup>20</sup>) Bytes
+* 8 388 608 Bits
+
+===Gigabyte (GB)=== 
+
+* 1 024 MB
+* 1 048 576 KB
+* 1 073 741 824 (2<sup>30</sup>) Bytes
+* 8 589 934 592 Bits
+
+===Terabyte (TB)===
+* 1 024 GB
+* 1 048 576 MB
+* 1 073 741 824 KB
+* 1 099 511 627 776 (2<sup>40</sup>) Bytes
+* 8 796 093 022 208 Bits

@@ -1,0 +1,108 @@
+In telecommunications and reliability theory, the term '''availability''' has the following meanings: 
+
+'''1.'''  The degree to which a system, subsystem, or equipment is operable and in a committable state at the start of a mission, when the mission is called for at an unknown, ''i.e.,'' a random, time. Simply put, availability is the proportion of time a system is in a functioning condition.
+
+''Note 1:''  The conditions determining operability and committability must be specified.  
+
+''Note 2:''  Expressed mathematically, '''availability''' is 1 minus the unavailability. 
+
+'''2.'''  The ratio of (a) the total time a functional unit is capable of being used during a given interval to (b) the length of the interval. 
+
+''Note 1:''  An example of availability is 100/168 if the unit is capable of being used for 100 hours in a week. 
+
+''Note 2:''  Typical availability objectives are specified either in decimal fractions, such as 0.9998, or sometimes in a logarithmic unit called nines, which corresponds roughly to a number of nines following the decimal point, such as "five nines" for 0.99999 reliability.
+
+Source: from Federal Standard 1037C in support of MIL-STD-188
+
+==Representation==
+The most simple representation for '''availability''' is as a ratio of the expected value of the uptime of a system to the aggregate of the expected values of up and down time, or
+
+:<math>A = \frac{E[\mathrm{Uptime}]}{E[\mathrm{Uptime}]+E[\mathrm{Downtime}]}</math>
+
+If we define the status function <math>X(t)</math> as
+
+:<math>X(t)=
+  \begin{cases}
+   1, & \mbox{sys functions at time } t\\
+   0, &  \mbox{otherwise}
+  \end{cases}
+</math>
+
+therefore, the availability is represented by
+
+:<math>
+    A(t)=\Pr[X(t)=1].
+</math>
+
+Die '''Verfügbarkeit''' eines technischen Systems ist die Wahrscheinlichkeit oder das Maß, dass das System bestimmte Anforderungen zu bzw. innerhalb eines vereinbarten Zeitrahmens erfüllt, und ist somit eine Eigenschaft des Systems. Sie ist ein Qualitätskriterium/Kennzahl eines Systems.
+
+:<math>\mathrm{Verf\ddot{u}gbarkeit} = \frac{\mathrm{Gesamtzeit}-\mathrm{Gesamtausfallzeit}}{\mathrm{Gesamtzeit}}</math>
+
+== Anwendung ==
+Bei größeren, komplexen technischen Systemen (z.B. Elektrizitätsversorgung) versteht man unter Verfügbarkeit das Verhältnis der Zeit innerhalb eines vereinbarten Zeitraums, in der das System für seinen eigentlichen Zweck operativ zur Verfügung steht (Betriebszeit, operation time), zu der vereinbarten Zeit. Die Betriebszeit kann bei einem technischen System durch regelmäßige Wartung und durch Fehler/Schäden sowie Reparaturen zu deren Beseitigung begrenzt sein. Die ''Verfügbarkeit'' wird hierbei üblicherweise in Prozent angegeben.
+
+Bei DSL, Online-Brokering) wird die Verfügbarkeit in "Dauer der Uptime pro Zeiteinheit" gemessen und in Prozent angegeben. (Die Verfügbarkeit ist auch dann nicht mehr gegeben, wenn die Antwortzeit eines Systems eine bestimmte Kenngröße überschreitet.) Als Zeiteinheiten werden typischerweise Minuten, Stunden, Tage, Monate, Quartale oder Jahre verwendet. 
+
+Die Verfügbarkeit als Eigenschaft eines Systems wird daher in dem Vertrag (''Service Level Agreement'', SLA) zwischen dem Systembetreiber und dem Kunden festgeschrieben. Dort können auch die Folgen (z.B. Konventionalstrafen) bei Nichteinhaltung der Verfügbarkeit geregelt sein.
+
+Die Verfügbarkeit hat je nach Vereinbarung große Auswirkungen auf die Anforderungen bzgl. Ausfall und Wartbarkeit des Systems.
+
+Für ein System, das 12 Stunden am Tag, an 5 Wochentagen, in 52 Wochen im Jahr (12*5*52) zur Verfügung steht (3120 Stunden), bedeutet dies in Stunden:
+{| class="prettytable" 
+!Verfügbarkeit
+!Minimale erwartete Betriebszeit
+!Maximale erlaubte Ausfallzeit
+!Restzeit
+|-
+|99%
+|3088,8
+|31,2
+|5640
+|-
+|99,5%
+|3104,4
+|15,6
+|5640
+|-
+|99,95%
+|3118,44
+|1,56
+|5640
+|-
+|100%
+|3120
+|0
+|5640
+|}
+Hier steht eine Restzeit von 5640 Stunden oder 235 Tagen z.B. zur Wartung des Systems zur Verfügung, ohne dass die Verfügbarkeit leiden muss.
+
+Für ein System, das 24 Stunden am Tag, an 7 Wochentagen, 365 Jahrestagen (24*365) zur Verfügung steht (8760 Stunden), bedeutet dies:
+{| class="prettytable" 
+!Verfügbarkeit
+!Minimale erwartete Betriebszeit
+!Maximale erlaubte Ausfallzeit
+!Restzeit
+|-
+|99%
+|8672
+|88
+|0
+|-
+|99,5%
+|8716
+|44
+|0
+|-
+|99,95%
+|8755
+|5
+|0
+|-
+|100%
+|8760
+|0
+|0
+|}
+Hier steht keine Restzeit mehr zur Verfügung. Die Wartung muss daher in der erlaubten Ausfallzeit erfolgen.
+
+Zur Optimierung der Verfügbarkeit kann man unter anderem den Verfügbarkeitsverbund einsetzen.

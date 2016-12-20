@@ -1,0 +1,133 @@
+{{Info/Rio
+|nome             = Rio Neckar
+|imagem           = neckar river watershed.png
+|legenda          = Bacia do rio Neckar
+|comprimento      = 367 
+|posição          = 
+|nascente         = Floresta Negra
+|alt_nascente     = 
+|foz              = Reno
+|alt_foz          = 
+|débito           = 
+|débito_local     = 
+|débito_max       = 
+|débito_max_local = 
+|débito_min       = 
+|débito_min_local = 
+|área_bacia       = 13 960
+|delta            = 
+|afluentes        = 
+|país             = 
+|país_bacia       = 
+}}
+
+O '''Neckar''' é um rio da Alemanha e um afluente importante do Reno, que ele encontra em Mannheim. Nascendo na Floresta Negra, ele flui através das montanhas Odenwald e atravessa Tübingen, Nürtingen, Esslingen, Stuttgart e Heidelberg. O comprimento total do Neckar, da sua nascente perto de Villingen-Schwenningen até o Reno, é de 367 km. Sua bacia é de 13 960 km².
+
+<!-- Timeline-->
+<timeline>
+ImageSize  = width:242 height:600
+PlotArea   = left:50 right:0 bottom:10 top:10
+AlignBars  = early
+
+DateFormat = yyyy
+Period     = from:0 till:200000
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:50000 start:0
+ScaleMinor = unit:year increment:10000 start:0
+
+# there is no automatic collision detection,
+# so shift texts up or down manually to avoid overlap
+
+Define $dx = 15 # shift text to right side of bar
+Define $dy = -3 # shift text down
+
+Colors =
+ id:wasser   value:blue   legend:Neckar
+ id:schleuse value:yellow legend:Lock
+
+Legend = orientation:vertical position:bottom
+
+PlotData=
+ bar:Schleusen color:wasser width:25 mark:(line,schleuse) align:left fontsize:M
+
+{{Infobox River | river_name = Neckar
+  | image_name = Neckar near Heidelberg.jpg
+  | caption = Neckar river near Heidelberg.
+  | origin = Black Forest 
+  | mouth = Rhine
+  | basin_countries = Germany
+  | length = 367 km
+  | elevation = 706 m
+  | discharge = 145 m³/s
+  | watershed = ±14,000 km²
+}}
+The '''Neckar''' is a 367-km long state of River Rhine, which it joins at Esslingen, Marbach, Heilbronn and Heidelberg, before discharging into the Rhine at Mannheim (at 95 m above sea level). 
+
+Along its valley in the Odenwald hills, many castles can be found, like Burg Hornberg and Burg Guttenberg in Haßmersheim, but also the closed Obrigheim Nuclear Power Plant. After passing Heidelberg, the Neckar discharges on average 145 m³/s of water into the Rhine, which makes the Neckar its 4th largest tributary, and the 10th largest river in Germany.
+
+The name ''Neckar'' was derived via ''Nicarus'' und ''Neccarus'' from Celtic ''Nikros'', meaning ''wild water'' or ''wild fellow''. Since about 1100, Black Forest wood was transported by timber rafting, e.g. to Holland for the use in shipyards.
+
+During the 19th century, traditional horse-drawn boats were replaced by steam boats that used a 155-km long chain in the river to pull themselves upstream. The railway made it possible to transport timber to the port of Heilbronn, limiting timber rafting to the lower part of the Neckar after 1899. Thanks to the construction of 11 locks, ships up to 1500t could travel to Heilbronn in 1935. 
+
+right |thumb|300px| The Neckar river in southwest Germany, flows from south to north, emptying to the [[Rhine at Mannheim.]]
+thumb|300px|right|Houses in [[Tübingen reflected in the Neckar]]
+thumb|300px|right|The Neckar river in [[Stuttgart]]
+
+By 1968, the last of 27 locks, at Fils joins, and where the Neckar bends, taking a Northwestern instead of a Northeastern direction. Other important ports include Stuttgart, Heilbronn and Mannheim.
+
+The river's course provides a popular route for cyclists, especially during the summer months. Its steep valley sides are used as vineyards, to cultivate mainly Trollinger.
+
+==Towns along the Neckar==
+From its source to its confluence with the Rhine:
+*Villingen-Schwenningen
+*Rottweil
+*Oberndorf am Neckar
+*Sulz am Neckar
+*Horb am Neckar
+*Rottenburg am Neckar
+*Tübingen
+*Nürtingen
+*Plochingen
+*Esslingen (am Neckar)
+*Stuttgart
+*Fellbach
+*Ludwigsburg
+*Freiberg am Neckar
+*Benningen am Neckar
+*Marbach am Neckar
+*Besigheim
+*Heilbronn
+*Heidelberg
+*Neckarsulm
+*Mosbach
+*Eberbach
+*Heidelberg
+*Mannheim
+
+== Main tributaries ==
+* Eschach (left side, at Rottweil-Bühlingen)
+* Tübingen-Lustnau)<!--
+-->thumb|300px|right|The River Koersch, a tributary, flows into the Neckar opposite the Altbach power station
+* Echaz (right side, at Kirchentellinsfurt)
+* Lauter (right side, at Wendlingen)
+* Fils (right side, at Plochingen)
+* Nesenbach (left side, at Stuttgart-Ost)
+* Rems (right side, at Remseck)
+* Marbach)
+* Enz (left side, at Besigheim)
+* Zaber (left side, at Lauffen)
+* Sulm (right side, at  Neckarsulm)
+* Kocher (right side, at  Bad Friedrichshall)
+* Jagst (right side, at Bad Wimpfen)
+* Elz (right side, at  Mosbach-Neckarelz)
+
+<timeline>
+ImageSize  = width:400 height:750
+PlotArea   = left:50 right:0 bottom:10 top:10
+AlignBars  = early
+
+DateFormat = yyyy
+Period     = from:0 till:200000
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:50000 start:0
+ScaleMinor = unit:year increment:10000 start:0

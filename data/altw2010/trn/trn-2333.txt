@@ -1,0 +1,99 @@
+The '''Neighbor Discovery Protocol (NDP)''' is a protocol in the Link Layer and is responsible for discovery of other nodes on the link, to determine the link layer addresses of other nodes, and to find available routers, and maintain reachability information about the paths to other active neighbor nodes (RFC 4861, 2007).
+
+NDP performs functions for ICMP Router Discovery and Router Redirect protocols do for IPv4. However, it provides many improvements over its IPv4 counterparts (see RFC 4861, section 3.1), for example, it includes Neighbor Unreachability Detection (NUD), thus improving robustness of packet delivery in the presence of failing routers or links, or mobile nodes. NDP is more media (link type) independent than ARP.
+
+== Technical details ==
+The Neighbor Discovery Protocol defines mechanisms for providing the following functionality:
+* Router Discovery: hosts can locate routers residing on attached links.
+* Prefix Discovery: hosts can discover address prefixes that are on-link for attached links.
+* Parameter Discovery: hosts can find Internet parameters (e.g., MTU).
+* Address Autoconfiguration: stateless configuration of addresses for an interface.
+* Address Resolution: mapping from IP address to link-layer address.
+* Next-hop Determination: hosts can find next-hop routers for a destination.
+* Neighbor Unreachability Detection (NUD): determine that a neighbor is no longer reachable on the link.
+* Duplicate Address Detection (DAD): nodes can check whether an address is already in use.
+* Redirect: router can inform node about better first-hop.
+
+NDP makes use of the following five ICMPv6 packet types:
+* Router Solicitation
+* Router Advertisement
+* Neighbor Solicitation
+* Neighbor Advertisement
+* Redirect
+
+'''Neighbor Discovery Protocol (NDP)''' ist der Ersatz des Address Resolution Protocol von IPv4 für IPv6. Es wird dazu benutzt, normale IPv6-Adressen in Link-Layer-Adressen aufzulösen.
+
+== Verwendung ==
+NDP wird von den am IPv6-Netzwerk beteiligten Knoten benutzt, um die Link-Layer-Adresse von anderen am selben Netzwerk hängenden Knoten ausfindig zu machen und zum Aktualisieren der gecachten Adressen. Für alle nicht am selben Netzwerk hängenden Knoten wird NDP benutzt, um einen/den Router zu finden, der die Pakete weiterleiten kann.
+
+== Funktionsweise ==
+Für NDP muss der Knoten für jedes Interface folgende Informationen verwalten:
+
+Im ''Neighbor Cache'' werden Adressen verwaltet, an die etwas gesendet wurde und die sich im selben Netzwerk befinden. Zu jedem Eintrag einer IPv6-Adresse steht ihre Link-Layer-Adresse. Auch weitere Informationen werden hier verwaltet, wie zum Beispiel Pointer auf Pakete, die auf die Adressauflösung warten, Informationen für die Erreichbarkeitsprüfung oder ob es ein Router ist.
+
+Im ''Destination Cache'' werden Adressen verwaltet, an die etwas gesendet wurde. Für jeden Eintrag wird, per Link auf den ''Neighbor Cache'', gespeichert, welches der nächste Hop ist, den ein Paket nehmen soll.
+
+In der ''Prefix List'' werden die Präfixe verwaltet, die auf dem selben Netz gültig sind. Jeder Eintrag, außer der zur link-lokalen Adresse, hat ein Ablaufdatum. Somit bleiben nur Netze in der Liste, die von einem Router verkündet werden.
+
+In der ''Default Router List'' werden alle Router verwaltet, die für das Interface bekannt sind. Die Einträge verweisen auf Einträge im ''Neighbor Cache''. Zusätzlich haben sie ein Ablaufdatum, sodass alte Router verschwinden und nur die erhalten bleiben, die ihre Anwesenheit verkünden.
+
+Die Informationen zum Erstellen dieser Listen werden per ICMPv6 (Internet Control Message Protocol V6) ausgetauscht. NDP definiert zu diesem Zweck 5 ICMPv6-Typen.
+
+=== Router- und Präfix-Ermittlung ===
+Router versenden in gewissen Zeitabständen ''Router-Advertisement''-Nachrichten per Multicast. Die Informationen in diesen Nachrichten werden verwendet, um die ''Default Router List'' und die ''Prefix List'' zu erstellen. Nach Ablauf der angegebenen Lebenszeit werden die Einträge wieder aus den Listen gelöscht. Dadurch bleiben nur Router eingetragen, die aktiv sind und ihre Anwesenheit periodisch kundtun.
+
+Um nicht auf das nächste geplante ''Router Advertisement'' warten zu müssen, kann ein Knoten per ''Router-Solicitation''-Nachricht an die Router-Multicast-Adresse ein ''Router Advertisement'' erzwingen. Dies ist besonders beim Aktivieren eines neuen Interfaces von Vorteil, um mit der Konfiguration nicht warten zu müssen.
+
+=== Parameterermittlung ===
+
+=== Adress-Autokonfiguration ===
+=== Bestimmung des nächsten Hops ===
+Wenn ein Paket versendet werden soll, wird im ''Destination Cache'' nachgeschaut, ob für dieses Ziel schon ein Eintrag vorhanden ist. Wenn kein Eintrag existiert, wird anhand der ''Prefix List'' und der ''Default Router List'' der nächste Hop für das Paket ermittelt. Diese Information wird dann im ''Destination Cache'' gespeichert, um dies nicht jedes Mal ermitteln zu müssen.
+
+Wenn der neue Eintrag auf einen nichtvorhandenen Eintrag im ''Neighbor Cache'' zeigt, wird dieser ebenfalls erzeugt, als unfertig markiert und die ''Adressauflösung'' (engl. ''Address resolution'') angestoßen. Das Paket wird in die Queue gestellt und im ''Neighbor Cache'' ein Pointer darauf gesetzt.
+
+=== Adressauflösung ===
+Um die Link-Layer-Adresse eines Knotens zu ermitteln, wird eine ''Neighbor-Solicitation''-Nachricht per IPv6-Multicast an die sog. ''Solicited Nodes''-Adresse des Ziels versendet. Anzumerken ist, dass auf Link Layer-Ebene ebenfalls Multicast genutzt wird - jeder IPv6-Knoten muss also auf Link Layer-Ebene nicht nur auf seine originäre feste Adresse (z.B. Ethernet) hören, sondern auch auf einer für seiner IPv6-Adresse beruhenden spezifischen Multicast-Adresse. Im ''Neighbor-Solicitation''-Paket ist dann die vollständige gesuchte IPv6-Adresse in den Nutzdaten enthalten, und nur der Knoten mit der gleichen Adresse antwortet darauf. Er verschickt eine ''Neighbor-Advertisement''-Nachricht. Die darin enthaltenen Informationen werden im ''Neighbor Cache'' gespeichert. Wenn ein Eintrag noch unfertig war, kann er nun als erreichbar markiert werden und die Pakete, auf die er verweist, können ausgelöst werden.
+
+Beispiel: Ein IPv6-Host in einem Ethernet-Netzwerk mit der Ethernet-Adresse 00:11:2f:6f:16:93 hört nicht nur auf dieser Adresse, sondern auch auf der Ethernet-Multicast-Adresse 33:33:ff:6f:16:93. 33:33 ist dabei der Teil, der ein IPv6 Neighbor Solicitation Ethernet Multicast-Paket kennzeichnet, 6f:16:93 identifiziert die eigentliche Gruppe.
+Das Ziel auf IPv6-Ebene ist dann ff02::1:ff6f:1693.
+
+=== Erkennung der Nichterreichbarkeit des Nachbarn ===
+Um den ''Neighbor Cache'' aktuell zu halten, wird versucht herauszufinden, ob die Einträge darin noch aktuell sind. Es gibt dabei verschiedene Wege festzustellen, ob ein Knoten nicht aktiv ist. Solange man TCP-Daten oder TCP-Empfangsbestätigungen erhält, weiß man, dass der Knoten noch erreichbar ist.
+
+Wenn ein Eintrag seine Lebenszeit überschreitet, ohne durch Verkehr bestätigt zu werden, wird er als veraltet markiert. Sobald ein Paket versendet werden will, wird der Eintrag als verzögert markiert und für kurze Zeit versucht, ihn durch Verkehr zu bestätigen. Wenn dies nicht passiert, wird erneut eine ''Neighbor-Solicitation''-Nachricht gesendet, um den Knoten aktiv zu testen. Wenn er nicht antwortet, wird er aus dem ''Neighbor Cache'' gelöscht.
+
+=== Erkennung doppelter Adressen ===
+=== Umleitung ===
+''Redirect''-Nachrichten werden vom Router verschickt, um andere Knoten über einen besseren ersten Hop für eine Zieladresse zu informieren. Beim Empfangen einer solchen Nachricht wird der ''Destination Cache'' aktualisiert. Wenn kein passender Eintrag im ''Destination Cache'' gefunden wird, wird ein neuer erstellt.
+
+== ICMPv6-Typen ==
+=== Router Solicitation – Type 133 ===
+
+{| class="prettytable float-right" style="font-size:smaller; text-align:center;"  cellpadding="2"
+|+ Router-Solicitation-Schema
+
+|-
+! class="hintergrundfarbe6" | 0
+| colspan="8"  | Type
+| colspan="8"  | Code
+| colspan="16" | Prüfsumme
+|-
+! class="hintergrundfarbe6" | 32
+| colspan="32" | Reserviert
+|-
+! class="hintergrundfarbe6" | …
+| colspan="32" | Optionen
+|}
+
+Per ''Router Solicitation'' an die Router-Multicast-Adresse werden alle Router im selben Netz aufgefordert, sich zu melden.
+
+Der Code dieser Nachricht ist immer 0. Das Feld „Reserviert“ muss vom Sender mit Nullen initialisiert werden und der Empfänger muss es ignorieren.
+
+Die einzig mögliche Option ist die Link-Layer-Adresse des Senders. Um bei Protokollerweiterungen keine Probleme zu bekommen, müssen alle unbekannten Optionen ignoriert werden.
+<br style="clear:both" />
+
+=== Router Advertisement – Type 134 ===
+
+{| class="prettytable float-right" style="font-size:smaller; text-align:center;"  cellpadding="2"
+|+ Router-Advertisement-Schema

@@ -1,0 +1,73 @@
+'''Великий канонічний ансамбль''' - статистичний ансамбль, до складу якого входять 
+мікроскопічні стани із різною енергією й різним числом частинок. 
+
+Якщо термодинамічна система може обмінюватися з середовищем частинками, а не лише енергією, 
+то з часом встановлюється не лише теплова рівновага між системою й середовищем, а й рівновага 
+за складом. Рівновага за складом, проте, не зводиться до рівності концентрацій. Наприклад, 
+при встановленні рівноваги між рідиною і парою концентрації молекул води в різних фазах 
+залишатимуться різними. 
+
+==Хімічний потенціал==
+Енергія <math>E_n </math> певного мікроскопічного стану із числом частинок N залежить 
+від N.
+
+У випадку, коли число часток дуже велике, N можна вважати непервною величиною. Похідна від енергії визначає хімічний потенціал &mu;
+:<math> \mu = \left( \frac{\partial E}{\partial N} \right)_{S,V} </math>
+
+Умовою рівноваги системи й середовища за числом часток є рівність хімічних потенціалів
+:<math> \mu = \mu_{th} </math>. 
+
+==Розподіл== 
+Ймовірність реалізації певного мікроскопічного стану визначається  енергією цього  стану <math>E_n </math> та числом частинок у ньому: 
+:<math> w_n = \frac{1}{Z} e^{-(E_n-\mu N)/k_BT} </math>, 
+
+де Z - статистична сума, T - температура, k<sub>B</sub> - стала Больцмана. 
+
+In statistical mechanics, the '''grand canonical ensemble''' is a statistical ensemble (a large collection of identically prepared systems), where each system is in equilibrium with an external reservoir with respect to both particle and energy exchange. Therefore both the energy and the number of particles is allowed to fluctuate for each individual system in the ensemble. It is an extension of the canonical ensemble, where systems are only allowed to exchange energy (but not particles).  And the chemical potential (or fugacity) is introduced to control the fluctuation of the number of particles. (Just like temperature is introduced into the canonical ensemble to control the fluctuation of energy.)
+
+It is convenient to use the grand canonical ensemble when the number of particles of the system cannot be easily fixed.  Especially in quantum systems, e.g., a collection of bosons or fermions, the number of particles is an intrinsic property (rather than an external parameter) of each quantum state.  And fixing the number of particles will cause certain mathematical inconvenience.
+
+== The partition function ==
+
+Classically, the partition function of the grand canonical ensemble is given as a weighted sum of canonical partition functions with different number of particles, <math>N\,</math> 
+
+:<math> \mathcal{Z}(z,  V, T) = 
+\sum_{N=0}^{\infty} z^N \, Z(N, V, T) \, 
+=\sum_{N=0}^{\infty} \sum_i z^N \, \exp(-E_i/ k_B T) \, </math>
+
+where <math> Z(N, V, T) \, </math> denotes the partition function of the canonical ensemble at temperature <math>T\,</math>, of volume <math>V\,</math>, and with the number of particles fixed at <math>N\,</math>. (In the last step, we have expanded the canonical partition function, and <math>k_B \,</math> is the Boltzmann constant, the second sum is performed over all microscopic states, denoted by <math>i\,</math> with energy <math>E_i\,</math>. )
+
+Quantum mechanically, the situation is even simpler (conceptually).  For a system of bosons or fermions, it is often mathematically easier to treat the number of particles of the system as an intrinsic property of each quantum (eigen-)state, <math>i\,</math>.  Therefore the partition function can be written as
+
+:<math> \mathcal{Z}(z,  V, T) = \sum_i z^{N_i} \, \exp(-E_i/ k_B T) \, </math>
+
+The parameter <math>z\,</math> is called fugacity (the easiness of adding a new particle into the system).  The chemical potential is directly related to the fugacity through 
+:<math>\mu = k_B T \ln z\,</math>.  
+And the chemical potential is the Gibbs free energy per particle. (We haved used fugacity instead of chemical potential in defining the partition function.  This is because fugacity is an independent parameter of partition function to control the number of particles, as temperature to control the energy.  On the other hand, the chemical potential itself contains temperature dependence, which may lead to some confusion. )
+
+== Thermodynamic quantities ==
+The average number of particles of the ensemble is obtained as
+:<math> \langle N \rangle  = z\frac{\partial} {\partial z} \ln \mathcal{Z}(z, V, T). </math>
+
+And the average internal energy is
+:<math> \langle E \rangle  = k_B T^2 \frac{\partial} {\partial T} \ln \mathcal{Z}(z, V, T). </math>
+
+The partition function itself is the product between pressure <math>P\,</math> and volume, divided by <math>k_B T\,</math>
+
+:<math> P V  = k_B T  \ln \mathcal{Z} </math>
+
+Other thermodynamic potentials can be obtained through linear combination of above quantites.  For example, the Helmholtz free energy <math>F\,</math> (some people use <math>A\,</math>) can be obtained as
+:<math> F= N \mu - PV = - k_B T \ln( \mathcal{Z}/z^N). </math>
+
+== Statistics of bosons and fermions ==
+
+For a quantum mechanical system, the eigenvalues (energies) and the corresponding eigenvectors (eigenstates) of the Hamiltonian (the energy function) completely describe the system.  For a macroscopic system, the number of eigenstates (microscopic states) is enormous.  Statistical mechanics provides a way to average all microscopic states to obtain meaningful macroscopic quantities.
+
+The task of summing over states (calculating the partition function) appears to be simpler if we do not fix the total number of particles of the system.  Because, for a noninteracting system, the partition function of grand canonical ensemble can be converted to a product of the partition functions of individual ''modes''.  This conversion makes the evaluation much easier.  (However this conversion can not be done in canonical ensemble, where the total number of particles is fixed. )  
+
+Each ''mode'' is a spatial configuration for an individual particle. There may be none or some particles in each mode.
+In quantum mechanics, all particles are either bosons or fermions. For fermions, no two particles can share a same mode. But there is no such constraint for bosons.  Therefore the partition function (of grand canonical ensemble) for each mode can be written as
+
+:<math>  \sum_n z^n \exp(- n \epsilon/ k_B T) \, = (1 \pm z \exp(- \epsilon/ k_B T))^{\pm1}</math>
+
+The <math>\epsilon \,</math> is the energy of the mode.  For fermions, <math>n\,</math> can be 0 or 1 (no particle or one particle in the mode). For bosons, <math>n=0,1,2,...\,</math>.  The upper (lower) sign is for fermions (bosons) in the last step.  The total partition function is then a product of the ones for individual modes.

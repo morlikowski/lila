@@ -1,0 +1,70 @@
+<center>Wikipedia è gestita da Wikimedia, fondazione senza fini di lucro, che coordina altri wiki progetti dal contenuto aperto  e multilingue:</center>
+{| align="center" cellspacing="0" cellpadding="0" width="95%" style="text-align:center; background:transparent"
+|- align="center"
+| 35px|<nowiki></nowiki>
+| '''Wikizionario'''<br />Dizionario e lessico
+| 40px|<nowiki></nowiki>
+| '''Wikibooks'''<br />Manuali e libri di testo liberi
+| 35px|<nowiki></nowiki>
+| '''Wikiquote'''<br />Una raccolta di citazioni
+| 35px|<nowiki></nowiki>
+| '''Wikisource'''<br />Documenti di pubblico dominio
+|- align="center"
+| 40px|<nowiki></nowiki>
+| '''Wikispecies'''<br />Catalogo delle specie
+| 50px|<nowiki></nowiki>
+| '''Wikinotizie'''<br />Fonte di notizie a contenuto aperto
+| 35px|<nowiki></nowiki>
+| '''Commons'''<br />Risorse multimediali condivise
+| 40px|<nowiki></nowiki>
+| '''Meta-Wiki'''<br />Coordinamento dei progetti Wikimedia
+|}<noinclude>
+Progetti
+
+es:Plantilla:Portada:Proyectos
+
+ia:Patrono:Projectos Wikimedia
+
+Wikipedia is hosted by the projects:
+
+{|width="100%" align="center" cellpadding="4" style="text-align:left; background-color: transparent;"
+| align="center" | <imagemap>Image:Commons-logo-31px.png|31px
+default Commons
+desc none</imagemap>
+|width="33%" | '''<span class="plainlinks">[http://commons.wikimedia.org/ Commons]</span>'''<br />Free media repository
+| align="center" | <imagemap>Image:Wikinews-logo-51px.png|51px
+default Wikinews
+desc none</imagemap>
+|width="33%" | '''<span class="plainlinks">[http://en.wikinews.org/ Wikinews]</span>'''<br />Free-content news
+| align="center" | <imagemap>Image:Wiktionary-logo-51px.gif|51px
+default Wiktionary
+desc none</imagemap>
+|width="33%" | '''<span class="plainlinks">[http://en.wiktionary.org/ Wiktionary]</span>'''<br />Dictionary and thesaurus
+|-
+| align="center" | <imagemap>Image:Wikiquote-logo-51px.png|51px
+default Wikiquote
+desc none</imagemap>
+| '''<span class="plainlinks">[http://en.wikiquote.org/ Wikiquote]</span>'''<br />Collection of quotations
+| align="center" | <imagemap>Image:Wikibooks-logo-35px.png|35px
+default Wikibooks
+desc none</imagemap>
+| '''<span class="plainlinks">[http://en.wikibooks.org/ Wikibooks]</span>'''<br />Free textbooks and manuals
+| align="center" | <imagemap>Image:Wikisource-logo-35px.png|35px
+default Wikisource
+desc none</imagemap>
+| '''<span class="plainlinks">[http://en.wikisource.org/ Wikisource]</span>'''<br />Free-content library
+|-
+| align="center" | <imagemap>Image:Wikispecies-logo-35px.png|35px
+default Wikispecies
+desc none</imagemap>
+| '''<span class="plainlinks">[http://species.wikimedia.org/ Wikispecies]</span>'''<br />Directory of species
+| align="center" | <imagemap>Image:Wikiversity-logo-41px.png|41px
+default Wikiversity
+desc none</imagemap>
+| '''<span class="plainlinks">[http://en.wikiversity.org/ Wikiversity]</span>'''<br />Free learning materials and activities
+| align="center" | <imagemap>Image:Wikimedia-logo-35px.png|35px
+default Meta-Wiki
+desc none</imagemap>
+| '''<span class="plainlinks">[http://meta.wikimedia.org/ Meta-Wiki]</span>'''<br />Wikimedia project coordination
+|}
+<noinclude>

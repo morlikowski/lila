@@ -1,0 +1,180 @@
+thumb|right|300px|ჯავასკრიპტის მაგალითი
+'''ჯავასკრიპტი''' - პროგრამირების ერთ ერთი ფართოდ გავრცელებული ენაა. სახელწოდება ჯავასკრიპტი, როგორც სავაჭრო ნიშანი დარეგისტრირებულია ფირმა Sun Microsystems, Inc-ის მიერ.
+
+==ისტორია==
+
+ჯავასკრიპტი შექმნილი კომპანია Netscape-ის მიერ, და პირველად ჩართული იყო Netscape Navigator ბრაუზერში. მისი თავდაპირველი სახელწოდება იყო Mocha, შემდეგ LiveScript. იგი წარმოდგენილ იქნა როგორც Netscape Navigator 2.0B3 ვერსიის შემადგენელი ნაწილი 1995 წლის დეკემბერში. Internet Explorer-ში ჯავასკრიპტი გამოჩნდა 1996 წელს, როცა ოფიციალურად გამოვიდა Internet Explorer 3,0 ვერსია.
+
+==ჯავასკრიპტი და HTML==
+
+ჯავასკრიპტი შეიძლება იყოს HTML-ის შემადგენელი ნაწილი და მოთავსებული იყოს ნებისმიერ ადგილას, შეუზღუდავი რაოდენობით. იგი ყოველთვის მოთავსებულია <code><nowiki><script></script></nowiki></code> ტეგებს შორის, [http://www.w3.org/TR/html4/interact/scripts.html#h-18.2.1 HTML 4.01] სტანდარტის მიხედვით, <code>type="text/javascript"</code> ტეგის საშუალებით.
+
+კოდის მაგალითი:
+
+<source lang="xml">
+<!DOCTYPE html>
+<html>
+  <head><title>simple page</title></head>
+  <body>
+    <script>
+      document.write('Hello World!');
+    </script>
+    <noscript>
+      Your browser does not support JavaScript.
+    </noscript>
+  </body>
+</html>
+</source>
+
+ვებგვერდზე ეს კოდი გამოჩნდება როგორც <<Hello World!>>
+
+კატეგორია:ინტერნეტი
+
+{{Infobox programming language
+| name                   = JavaScript
+| paradigm               = prototype-based, functional, imperative, scripting
+| year                   = 1995
+| designer               = Brendan Eich
+| developer              = Netscape Communications Corporation, Mozilla Foundation
+| latest release version = 1.7
+| latest release date    = 2006
+| typing                 = dynamic, weak, duck
+| implementations        = SpiderMonkey, Rhino, KJS, JavaScriptCore
+| dialects               = JScript, JScript .NET
+| influenced_by          = Self, C, Scheme, Python, Java
+| operating_system       = 
+| license                = 
+| website                = 
+}}
+'''JavaScript''' is a dialect of the dynamic, weakly typed, prototype-based language with Java, but be easier for non-programmers to work with.<ref>[http://wp.netscape.com/columns/techvision/innovators_be.html TechVision: Innovators of the Net: Brendan Eich and JavaScript]</ref><ref>[http://weblogs.mozillazine.org/roadmap/archives/2008/04/popularity.html Brendan's Roadmap Updates: Popularity]</ref>
+
+Although best known for its use in websites (as client-side JavaScript), JavaScript is also used to enable scripting access to objects embedded in other applications (see below).
+
+JavaScript, despite the name, is essentially unrelated to the Java programming language, although both have the common C syntax, and JavaScript copies many Java names and naming conventions. The language was originally named "LiveScript" but was renamed in a co-marketing deal between Sun, in exchange for Netscape bundling Sun's Java runtime with their then-dominant browser. The key design principles within JavaScript are inherited from the Self programming language.
+
+"JavaScript" is a trademark of Sun Microsystems. It was used under license for technology invented and implemented by Netscape Communications and current entities such as the Mozilla Foundation.<ref></ref>
+
+==History and naming==
+thumb|350px|Some JavaScript source code
+
+JavaScript was originally developed by Brendan Eich of Netscape under the name ''Mocha'', which was later renamed to ''LiveScript'', and finally to JavaScript. The change of name from LiveScript to JavaScript roughly coincided with Netscape adding support for Java technology in its Netscape Navigator web browser. JavaScript was first introduced and deployed in the Netscape browser version 2.0B3 in December 1995. The naming has caused confusion, giving the impression that the language is a spin-off of Java, and it has been characterized by many as a marketing ploy by Netscape to give JavaScript the cachet of what was then the hot new web-programming language.<ref>[http://www.webdevelopersnotes.com/basics/languages_on_the_internet.php3 Programming languages used on the Internet and the World Wide Web (WWW)]</ref><ref>[http://safari.oreilly.com/0596101996/jscript5-CHP-1 O'Reilly - Safari Books Online - 0596101996 - JavaScript: The Definitive Guide, 5th Edition]</ref>
+
+Y2K compliant date functions, unlike those based on [http://java.sun.com/j2se/1.4.2/docs/api/java/util/Date.html java.util.Date] in JavaScript at the time. The dialects are perceived to be so similar that the terms "JavaScript" and "JScript" are often used interchangeably (including in this article). Microsoft, however, notes dozens of ways in which JScript is [http://msdn2.microsoft.com/en-us/library/4tc5a343.aspx not ECMA compliant].
+
+Netscape submitted JavaScript to Ecma International for standardization resulting in the standardized version named ECMAScript.<ref>[http://cgi.netscape.com/newsref/pr/newsrelease289.html Netscape Press Release]</ref>
+
+==Features==
+===Structured programming===
+JavaScript supports all the C (e.g., <code>if</code> statements, <code>while</code> loops, <code>switch</code> statements, etc.). One partial exception is scoping: C-style block-level scoping is not supported. However, JavaScript 1.7 supports block-level scoping with the <code>let</code> keyword.
+
+===Dynamic programming===
+; dynamic typing: As in most scripting languages, types are associated with values, not string. JavaScript supports various ways to test the type of an object, including duck typing.<ref>
+{{cite book
+  | last = Flanagan
+  | first = David
+  | authorlink = David Flanagan
+  | title = JavaScript: The Definitive Guide
+  | publisher = O'Reilly Media
+  | year = 2006
+  | pages = pp. 176-178
+  | isbn = 0596101996 }}</ref>
+; objects as associative arrays: JavaScript is heavily Objects are associative arrays, such that object property names are associative array keys. <code>obj.x = 10</code> and <code>obj["x"] = 10</code> are equivalent, the dot notation being merely syntactic sugar. Properties and their values can be added, changed, or deleted at run-time. The properties of an object can also be enumerated via a <code>for...in</code> loop.
+; run-time evaluation: JavaScript includes an eval function that can execute statements provided as strings at run-time.
+
+===Function-level programming===
+; first-class functions: Functions are first-class; they are objects themselves. As such, they have properties and can be passed around and interacted with like any other object.
+; inner functions and closures: Inner functions (functions defined within other functions) are created each time the outer function is invoked, and variables of the outer functions for that invocation continue to exist as long as the inner functions still exist, even after that invocation is finished (e.g. if the inner function was returned, it still has access to the outer function's variables) — this is the mechanism behind closures within JavaScript.
+
+===Prototype-based===
+; prototypes: JavaScript uses prototypes instead of classes for defining object properties, including methods, and inheritance. It is possible to simulate many class-based features with prototypes in JavaScript.
+; functions as object constructors: Functions double as object constructors along with their typical role. Prefixing a function call with <code>new</code> creates a new object and calls that function with its local <code>this</code> keyword bound to that object for that invocation. The function's <code>prototype</code> property determines the new object's prototype.
+; functions as methods<!--not sure where to classify this under-->: Unlike many object-oriented languages, there is no distinction between a function definition and a method definition. Rather, the distinction occurs during function calling; a function can be called as a method. When a function is invoked as a method of an object, the function's local <code>this</code> keyword is bound to that object for that invocation.
+
+===Others===
+; run-time environment: JavaScript typically relies on a run-time environment (e.g. in a web browser) to provide objects and methods by which scripts can interact with "the outside world". (This is not a language feature per se, but it is common in most JavaScript implementations.)
+; variadic functions<!--note: this is not a functional programming feature-->: An indefinite number of parameters can be passed to a function. The function can both access them through formal parameters and the local <code>arguments</code> object.
+; regular expressions: JavaScript also supports regular expressions in a manner similar to Perl, which provide a concise and powerful syntax for text manipulation that is more sophisticated than the built-in string functions.
+
+==Syntax==
+
+As of 2008, the latest version of the language is JavaScript 1.8. It is a superset of ECMAScript (ECMA-262) Edition 3. Extensions to the language, including partial E4X (ECMA-357) support and experimental features considered for inclusion into ECMAScript Edition 4, are documented [http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference:About here].
+
+==Use in web pages==
+
+The primary use of JavaScript is to write functions that are embedded in or included from HTML pages and interact with the Document Object Model (DOM) of the page. Some simple examples of this usage are:
+
+* Opening or popping up a new window with programmatic control over the size, position and 'look' of the new window (i.e. whether the menus, toolbars, etc. are visible).
+* web form input values to make sure that they will be accepted before they are submitted to the server.
+* Changing images as the mouse cursor moves over them: This effect is often used to draw the user's attention to important links displayed as graphical elements.
+
+Because JavaScript code can run locally in a user's browser (rather than on a remote server), it can respond to user actions quickly, making an application feel more responsive.  Furthermore, JavaScript code can detect user actions which HTML alone cannot, such as individual keystrokes.  Applications such as Ajax programming similarly exploits this strength.
+
+A ''JavaScript engine'' (also known as ''JavaScript interpreter'' or ''JavaScript implementation'') is an interpreter that interprets JavaScript script accordingly. The first ever JavaScript engine was created by C. It has since been updated (in JavaScript 1.5) to conform to ECMA-262 Edition 3. The Rhino engine, created primarily by Norris Boyd (also at Netscape) is a JavaScript implementation in Java. Like SpiderMonkey, Rhino is ECMA-262 Edition 3 compliant.
+
+By far, the most common host environment for JavaScript is a web browser. Web browsers typically use the public API to create "host objects" responsible for reflecting the DOM into JavaScript. The JavaScript webserver would expose host objects representing an HTTP request and response objects, which a JavaScript program could then manipulate to dynamically generate web pages.
+
+A minimal example of a web page containing JavaScript (using HTML 4.01 syntax) would be:
+<source lang="html4strict">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head><title>simple page</title></head>
+  <body>
+    <script type="text/javascript">
+      document.write('Hello World!');
+    </script>
+    <noscript>
+      <p>Your browser either does not support JavaScript, or you have JavaScript turned off.</p>
+    </noscript>
+  </body>
+</html>
+</source>
+
+===Compatibility considerations===
+
+The DOM interfaces for manipulating web pages are not part of the ECMAScript standard, or of JavaScript itself.  Officially, they are defined by a separate standardization effort by the W3C; in practice, browser implementations differ from the standards and from each other, and not all browsers execute JavaScript.
+
+To deal with these differences, JavaScript authors can attempt to write standards-compliant code which will also be executed correctly by most browsers; failing that, they can write code that checks for the presence of certain browser features and behaves differently if they are not available.<ref>Peter-Paul Koch, [http://www.quirksmode.org/js/support.html Object detection]</ref>  In some cases, two browsers may both implement a feature but with different behavior, and authors may find it practical to detect what browser is running and change their script's behavior to match.<ref>Peter-Paul Koch, [http://www.evolt.org/node/23335 Mission Impossible - mouse position]</ref><ref>Peter-Paul Koch, [http://www.quirksmode.org/js/detect.html Browser detect]</ref> Programmers may also use libraries or toolkits which take browser differences into account.
+
+Furthermore, scripts will not work for all users. For example, a user may:
+
+* use an old or rare browser with incomplete or unusual DOM support,
+* use a PDA or mobile phone browser which cannot execute JavaScript,
+* have JavaScript execution disabled as a security precaution,
+* or be visually or otherwise disabled and use a speech browser
+
+To support these users, web authors can try to create pages which degrade gracefully on user agents (browsers) which do not support the page's JavaScript.
+
+===Security===
+JavaScript and the DOM provide the potential for malicious authors to deliver scripts to run on a client computer via the web.  Browser authors contain this risk using two restrictions.  First, scripts run in a sandbox in which they can only perform web-related actions, not general-purpose programming tasks like creating files.  Second, scripts are constrained by the sandbox.
+
+====Cross-site vulnerabilities====
+
+A common JavaScript-related security problem is cross-site scripting, or XSS, a violation of the same origin policy.  XSS vulnerabilities occur when an attacker is able to cause a trusted web site, such as an online banking website, to include a malicious script in the webpage presented to a victim.  In that example, the script can then access the banking application with the privileges of the victim, potentially disclosing secret information or transferring money without the victim's authorization.
+
+XSS vulnerabilities can also occur because of implementation mistakes by browser authors.<ref>MozillaZine, [http://www.mozillazine.org/talkback.html?article=4392 Mozilla Cross-Site Scripting Vulnerability Reported and Fixed]</ref>
+
+XSS is related to, but not the same as, cross-site request forgery or XSRF.  In XSRF, one website causes a victim's browser to generate fraudulent requests to another site, with the victim's legitimate HTTP cookies attached to the request.
+
+====Misunderstanding the client-server boundary====
+Client-server applications, whether they involve JavaScript or not, must assume that untrusted clients may be under the control of attackers.  Thus any secret embedded in JavaScript could be extracted by a determined adversary, and the output of JavaScript operations should not be trusted by the server.  Some implications:
+
+* Web site authors cannot perfectly conceal how their JavaScript operates, because the code is sent to the client, and obfuscated code can be reverse engineered.
+* JavaScript form validation only provides convenience for users, not security.  If a site verifies that the user agreed to its terms of service, or filters invalid characters out of fields that should only contain numbers, it must do so on the server, not only the client.
+* It would be extremely bad practice to embed a password in JavaScript (where it can be extracted by an attacker), then have JavaScript verify a user's password and pass "password_ok=1" back to the server (since the "password_ok=1" response is easy to forge).<ref>For an example of this bad practice, see http://javascript.internet.com/passwords/</ref>
+
+It also does not make sense to rely on JavaScript to prevent user interface operations (such as "view source" or "save image"). This is because a client could simply ignore such scripting.
+<ref>
+{{cite journal
+  | title = Right-click “protection”? Forget about it
+  | journal = blog.anta.net
+  | date = 2008-06-17
+  | url = http://blog.anta.net/2008/06/17/right-click-%e2%80%9cprotection%e2%80%9d-forget-about-it/
+  | issn = 1797-1993
+  | accessdate = 2008-06-17 }}
+</ref>
+
+====Browser and plugin coding errors====
+JavaScript provides an interface to a wide range of browser capabilities, some of which may have flaws such as buffer overflows.  These flaws can allow attackers to write scripts which would run any code they wish on the user's system.
+
+These flaws have affected major browsers including Firefox<ref>Mozilla Corporation, [http://www.mozilla.org/security/announce/2006/mfsa2006-38.html  Buffer overflow in crypto.signText()]</ref>, Internet Explorer<ref>Paul Festa, CNet, [http://news.com.com/2100-1001-214620.html Buffer-overflow bug in IE]</ref>, and Safari.<ref>SecurityTracker.com, [http://securitytracker.com/alerts/2006/Mar/1015713.html Apple Safari JavaScript Buffer Overflow Lets Remote Users Execute Arbitrary Code and HTTP Redirect Bug Lets Remote Users Access Files]</ref>

@@ -1,0 +1,111 @@
+{{Infobox Airport 
+| name         = Norfolk Island Airport
+| nativename   = 
+| nativename-a = 
+| nativename-r = 
+| image        = 
+| image-width  = 
+| caption      = 
+| IATA         = NLK
+| ICAO         = YSNF
+| type         = Public
+| owner        = 
+| operator     = Government
+| city-served  = 
+| location     = Norfolk Island
+| elevation-f  = 371
+| elevation-m  = 113
+| coordinates  = 
+| website      = 
+| metric-elev  = 
+| metric-rwy   = 
+| r1-number    = 04/22
+| r1-length-f  = 4,708
+| r1-length-m  = 1,435
+| r1-surface   = Asphalt
+| r2-number    = 11/29
+| r2-length-f  = 6,398
+| r2-length-m  = 1,950
+| r2-surface   = Asphalt
+| stat-year    = 
+| stat1-header = 
+| stat1-data   = 
+| stat2-header = 
+| stat2-data   = 
+| footnotes    = 
+}}
+
+'''Norfolk Island Airport'''  is the only airport on Norfolk Island, an external territory of Australia.
+
+==History==
+The airstrip was built during South Pacific. As Norfolk Island did not have enough flat ground, several bulldozers were used to knock the tops off of several hills, and fill in the valleys between them. Steel mesh was then used to make a solid surface. Initially used for bomber patrols and for a transport service to Bougainville Island, the airfield was never used as a major base and became a stopover for aircraft travelling between Australia, New Caledonia, New Zealand and the Solomon Islands. The Royal New Zealand Air Force left the airfield in July 1946. At the airfield was a air-sea rescue unit, a servicing section and a radar unit installation at Mount Bates.[http://www.nzetc.org/tm/scholarly/tei-WH2Paci-_N89892.html].
+
+'''ノーフォーク島空港'''（'''Norfolk Island Airport'''）は、オーストラリア領のノーフォーク島にある空港である。
+
+{| class="infobox bordered" style="width:200px; font-size:100%;"
+|-
+! colspan="4" style="text-align: center; background-color: #4682B4; color: white;" |ノーフォーク島空港
+|-
+!align="center" colspan="4"|<small>IATA：NLK - ICAO：YSNF</small>
+|-
+!colspan="4" style="text-align: center; background-color: #4682B4; color: white;" |概略
+<tr><th colspan="2" align="left" valign="top"><small>空港種別</small></th><td colspan="2" valign="top"><small>民間</small></td></tr>
+<tr><th colspan="2" align="left" valign="top"><small>Operating Agency</small></th><td colspan="2" valign="top"><small>CIVIL GOVERNMENT</small></td></tr>
+|-
+!colspan="2" align="left" valign="top"|<small>海抜</small>
+|colspan="2" valign="top"|<small>371ft (113m)</small>
+|-
+!colspan="2" align="left" valign="top"|<small>位置</small>
+|colspan="2" valign="top"|<small></small>
+|-
+!colspan="4" style="text-align: center; background-color: #4682B4; color: white;" |滑走路
+|-
+!bgcolor="lightgrey" rowspan="2"|<small>方向</small>
+!bgcolor="lightgrey" colspan="2"|<small>全長</small>
+!bgcolor="lightgrey" rowspan="2"|<small>表面</small>
+|-
+!bgcolor="lightgrey"|<small>ILS</small>
+!bgcolor="lightgrey"|<small>m×幅</small>
+|-
+!align="left" valign="top"|<small>04/21</small>
+|valign="top"|<small>NO</small>
+|valign="top"|<small>1,435×30</small>
+|valign="top"|<small>舗装</small>
+|-
+!align="left" valign="top"|<small>11/29</small>
+|valign="top"|<small>NO</small>
+|valign="top"|<small>1,950×46</small>
+|valign="top"|<small>舗装</small>
+|}
+
+== 航空管制 ==
+{|border="1"
+|CTAF
+|118.1MHz
+|-
+|AUCKLAND RDO
+|3467.0KHz,5643.0KHz,8867.0KHz,13261.0KHz,17904.0KHz
+|}
+
+== 航空保安無線施設 ==
+{|border="1"
+|局名
+|種類
+|周波数
+|識別信号
+|-
+|NORFOLK ISLAND
+|NDB
+|260.0KHz
+|NF
+|-
+|NORFOLK ISLAND
+|VOR
+|112.4MHz
+|NF
+|-
+|NORFOLK ISLAND
+|DME
+|
+|NF
+|}

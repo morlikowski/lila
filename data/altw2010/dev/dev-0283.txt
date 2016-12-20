@@ -1,0 +1,99 @@
+{{Info/Comuna da França|
+|nome         = Audignicourt
+|nomefr       = Audignicourt
+|região       = Picardia
+|departamento = Aisne
+|área         = 5,66
+|altitude     = 
+|latP         = | latG = | latM = |latS = 
+|lonP         = | lonG = | lonM = |lonS = 
+|população    = 98
+|densidade    = 17
+|censo        = 1999
+|insee        = 02034 <!-- Código INSEE -->
+|códpostal    = 02300 <!-- Código postal -->
+|mapa         = <!-- Insira apenas o nome da imagem -->
+|mapaX        = <!-- Coordenada X no mapa -->
+|mapaY        = <!-- Coordenada Y no mapa -->
+|escudo       = <!-- Insira apenas o nome da imagem -->
+|bandeira     = <!-- Insira apenas o nome da imagem -->
+|imagem       = <!-- Insira apenas o nome da imagem -->
+|legenda      = <!-- Legenda para a imagem -->
+|gentílico    = 
+|website      = 
+|notas        = 
+}}
+'''Audignicourt''' é uma região administrativa da departamento de Aisne. Estende-se por uma área de 5,66 km&sup2;, com 98 habitantes, segundo os densidade de 17 hab/km&sup2;.
+
+Categoria:Comunas da França
+Categoria:Comunas da Picardia
+Categoria:Comunas do departamento de Aisne
+
+{{infobox Franse gemeente|
+|plaatsnaam= Audignicourt
+|wapen= 
+|kaart= 
+|regio= Picardië 
+|departement= Aisne (02)
+|arrondissement= Laon
+|kanton= Coucy-le-Château-Auffrique
+|jaar= 1999
+|inwoners= 98
+|dichtheid= 17,8
+|oppervlakte= 5,5
+|water= 
+|latitudeGraden= 49 |latitudeMinuten= 29|latitudeSeconden= 0
+|longitudeGraden= 3 |longitudeMinuten= 8 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 177 |kaartY= 59
+|code= 02034
+|postcode= 02300
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Audignicourt''' is een gemeente in het Franse departement Aisne (regio Laon.
+
+==Geografie==
+De oppervlakte van Audignicourt bedraagt 5,5 km², de bevolkingsdichtheid is 17,8 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:300 color:gray1 width:1       
+  from:start till:end             
+  bar:200 color:gray1              
+  from:start till:end            
+  bar:100 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,95)(84,96) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 133 1968: 135
+  points:(84,96)(100,69)    color:blue    width:2 #1975: 87
+  points:(100,69)(128,64)   color:blue    width:2 #1982: 77
+  points:(128,64)(160,73)   color:blue    width:2 #1990: 94
+  points:(160,73)(196,76)   color:blue    width:2 #1999: 98
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+==Externe link==
+*[http://www.mapquest.com/maps/map.adp?searchtype=address&formtype=latlong&latlongtype=degrees&latdeg=49&latmin=29&latsec=0&longdeg=3&longmin=8&longsec=0&zoom=6 Locatie van de gemeente (kaart met schaal 1:100.000) op Mapquest]

@@ -1,0 +1,95 @@
+{{FRA gmina infobox|
+|    herb_gminy = 
+|   flaga_gminy = 
+|    mapa_gminy = 
+|         Gmina = Lamécourt
+|        region = Pikardia
+|   departament = Oise
+|  powierzchnia = 3,44
+|      stopniEW = 2 |minutEW=28 
+|      stopniNS = 49 |minutNS=26 
+|      wysokosc = 
+|          szer = N
+|          dług = E
+|           rok = 1990
+|     populacja = 172
+|       gęstość = 50
+|  kod_pocztowy = 60600
+|         INSEE = 60345
+}}
+'''Lamécourt''' to miejscowość i gmina we Francji, w regionie Oise.
+
+Według danych na rok 1990 gminę zamieszkiwały 172 osoby, a gęstość zaludnienia wynosiła 50&nbsp;osób/km² (wśród 2293 gmin Pikardii Lamécourt plasuje się na 825. miejscu pod względem liczby ludności, natomiast pod względem powierzchni na miejscu 1018.).
+
+=== Linki zewnętrzne ===
+* Źródło danych: [http://www.insee.fr Insee]
+* '''Mapy i zdjęcia satelitarne: '''
+** Zdjęcie satelitarne: [http://maps.google.com/maps?ll=49.4333,2.4667&spn=0.1,0.1&t=k Google maps]
+** Mapa: [http://maps.msn.com/(cgxnej455qpgxeu5vurxtejz)/map.aspx?&lats1=49.4333&lons1=2.4667&alts1=14&regn1=2 MSN World Atlas]
+
+{{infobox Franse gemeente|
+|plaatsnaam= Lamécourt
+|wapen= 
+|kaart= 
+|regio= Picardië 
+|departement= Oise (60) |depnr=60
+|arrondissement= Clermont
+|kanton= Clermont
+|jaar= 2005
+|inwoners= 205
+|dichtheid= 60,3
+|oppervlakte= 3,4
+|water= 
+|latitudeGraden= 49 |latitudeMinuten= 26|latitudeSeconden= 0
+|longitudeGraden= 2 |longitudeMinuten= 28 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 160 |kaartY= 60
+|code= 60345
+|postcode= 60600
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Lamécourt''' is een gemeente in het Franse departement Oise (regio Clermont.
+
+==Geografie==
+De oppervlakte van Lamécourt bedraagt 3,4 km², de bevolkingsdichtheid is 60,3 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:300 color:gray1 width:1       
+  from:start till:end             
+  bar:200 color:gray1              
+  from:start till:end            
+  bar:100 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,93)(84,93) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 129 1968: 128
+  points:(84,93)(100,87)    color:blue    width:2 #1975: 119
+  points:(100,87)(128,85)   color:blue    width:2 #1982: 115
+  points:(128,85)(160,117)   color:blue    width:2 #1990: 172
+  points:(160,117)(196,134)   color:blue    width:2 #1999: 202
+  points:(196,134)(228,136)     color:blue    width:2 #2004/5 
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

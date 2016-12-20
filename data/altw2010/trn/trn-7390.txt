@@ -1,0 +1,63 @@
+{{ Infobox 化合物
+| name=ウリジン 5'-三リン酸
+| 画像=250px|ウリジン 5'-三リン酸
+| IUPAC名=ウリジン 5'-三リン酸
+| 別名=UTP
+| 分子式= C<sub>9</sub>H<sub>15</sub>N<sub>2</sub>O<sub>15</sub>P<sub>3</sub>
+| 分子量= 484.141
+| 組成式=
+| 式量=
+| 形状=
+| CAS登録番号= [63-39-8]
+| SMILES=
+| 密度= | 相=
+| 水への溶解度= 
+| 溶媒2=  | 溶解度2=
+| 溶媒3=  | 溶解度3=
+| 融点= | 融点注=
+| 沸点=  | 沸点注=（分解点）
+| pKa=
+| pKb=
+| 旋光度=
+| 粘度=
+| 屈折率=
+| 出典=
+|-
+}}
+
+'''ウリジン三リン酸'''〈ウリジンさんリンさん、Uridine triphosphate、略号〉は 糖であるリボースの1'位で核酸塩基のウラシルと連結し、糖の5'
+位に三RNA合成の基質である。
+
+他にはUTPには、ATPのように代謝反応の基質となることでエネルギー源や活性化因子となるの役割があるが、ATPの場合より特異性が高い。
+UTPが活性化因子となる場合は、通常、基質はUDP化されて、無機リン酸が遊離する。
+
+{{Chembox new
+| ImageFile = Uridintriphosphat2.svg
+| ImageSize = 
+| IUPACName = 
+| OtherNames = 
+| Section1 = {{Chembox Identifiers
+|   CASNo = 63-39-8
+|   PubChem = 1181
+|   SMILES = 
+|   MeSHName = Uridine+triphosphate
+  }}
+| Section2 = {{Chembox Properties
+|   Formula = C<sub>9</sub>H<sub>15</sub>N<sub>2</sub>O<sub>15</sub>P<sub>3</sub>
+|   MolarMass = 484.141
+|   Appearance = 
+|   Density = 
+|   MeltingPt = 
+|   BoilingPt = 
+  }}
+| Section3 = {{Chembox Hazards
+|   Solubility = 
+|   MainHazards = 
+|   FlashPt = 
+|   Autoignition = 
+  }}
+}}
+'''Uridine triphosphate''' is a transcription.
+
+UTP also has the role of a source of energy or an activator of substrates in metabolic reactions, like that of ATP, but more specific. When UTP activates a substrate, UDP-substrate is usually formed and inorganic phosphate is released.  
+UDP-glucose enters the synthesis of glycogen. UTP is used in the metabolism of galactose, where the activated form UDP-galactose is converted to UDP-glucose. UDP-glucuronate is used to conjugate bilirubin to a more water soluble bilirubin diglucuronide. 

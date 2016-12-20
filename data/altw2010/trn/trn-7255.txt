@@ -1,0 +1,54 @@
+An '''autopilot''' is a mechanical, electrical, or hydraulic system used to guide a vehicle without assistance from a human being. Most people understand an autopilot to refer specifically to aircraft, but self-steering gear for ships, boats, space craft and missiles is sometimes also called by this term.
+
+The autopilot of an aircraft is sometimes referred to as "George."<ref></ref>
+
+==First autopilots==
+
+In the early days of aviation, aircraft required the continuous attention of a pilot in order to fly safely. As aircraft range increased allowing flights of many hours, the constant attention led to serious fatigue. An autopilot is designed to perform some of the tasks of the pilot.
+
+The first aircraft autopilot was developed by Sperry Corporation in 1912. Lawrence Sperry (the son of famous inventor Elmer Sperry) demonstrated it two years later in 1914, and proved the credibility of the invention by flying the aircraft with his hands away from the controls and visible to onlookers.
+
+The autopilot connected a gyroscopic elevators and rudder (ailerons were not connected as wing dihedral was counted upon to produce the necessary roll stability.) It permitted the aircraft to fly straight and level on a compass course without a pilot's attention, greatly reducing the pilot's workload.
+
+In the early 1920s, the Standard Oil tanker ''J.A Moffet'' became the first ship to use an autopilot.
+
+==Modern autopilots==
+
+Not all passenger aircraft flying today have an autopilot system. Older and smaller roll axis only; such autopilots are also known colloquially as "wing levellers", reflecting their limitations. A two-axis autopilot controls an aircraft in the pitch axis as well as roll, and may be little more than a "wing leveller" with limited pitch-oscillation-correcting ability; or it may receive inputs from on-board radio navigation systems to provide true automatic flight guidance once the aircraft has taken off until shortly before landing; or its capabilities may lie somewhere between these two extremes. A three-axis autopilot adds control in the yaw axis and is not required in many small aircraft.
+
+Autopilots in modern complex aircraft are three-axis and generally divide a flight into taxi, take-off, ascent, level, descent, approach and landing phases. Autopilots exist that automate all of these flight phases except the taxiing. An autopilot-controlled landing on a runway and controlling the aircraft on rollout (i.e. keeping it on the centre of the runway) is known as a CAT IIIb landing or Autoland, available on many major airports' runways today, especially at airports subject to adverse weather phenomena such as fog. Landing, rollout and taxi control to the aircraft parking position is known as CAT IIIc. This is not used to date but may be used in the future. Some autopilots incorporate automated collision-avoidance; the most popular collision avoidance for aircraft is called Traffic Collision Avoidance System (TCAS). An autopilot is often an integral component of a Flight Management System.
+
+Modern autopilots use computer software to control the aircraft. The software reads the aircraft's current position, and controls a Flight Control System to guide the aircraft. In such a system, besides classic flight controls, many autopilots incorporate thrust control capabilities that can control throttles to optimize the air-speed, and move fuel to different tanks to balance the aircraft in an optimal attitude in the air. Although autopilots handle new or dangerous situations inflexibly, they generally fly an aircraft with a lower fuel-consumption than a human pilot. 
+
+The autopilot in a modern large aircraft typically reads its position and the aircraft's attitude from an inertial guidance system. Inertial guidance systems accumulate errors over time. They will incorporate error reduction systems such as the carousel system that rotates once a minute so that any errors are dissipated in different directions and have an overall nulling effect. Error in gyroscopes is known as drift. This is due to physical properties within the system, be it mechanical or laser guided, that corrupt positional data. The disagreements between the two are resolved with digital signal processing, most often a six-dimensional Kalman filter. The six dimensions are usually roll, pitch, yaw, altitude, latitude and longitude. Aircraft may fly routes that have a required performance factor, therefore the amount of error or actual performance factor must be monitored in order to fly those particular routes. The longer the flight the more error accumulates within the system. Radio aids such as DME, DME updates and GPS may be used to correct the aircraft position. Inertial reference units, i.e. gyroscopes, are the basis of aircraft on-board position determining, as GPS and other radio update systems depend on a third party to supply information. IRU's are completely self-contained and use gravity and earth rotation to determine their initial position (earth rate). They then measure acceleration to calculate where they are in relation to where they were to start with. From acceleration speed can be calculated and from speed distance can be calculated. As long as the direction is known (from accelerometers) the IRU's can determine where they are (software dependent). 
+
+===Computer system details===
+
+The hardware of a typical large aircraft's autopilot is a set of five radiation-resistant, and hardened for aerospace use. The very old computer design is intentionally favored, because it is inexpensive, and its reliability and software behavior are well-characterized.
+
+The custom process. This means that the autopilot software never controls the computer's electronics directly. Instead it acts on a software simulation of the electronics. Most invalid software operations on the electronics occur during gross failures. They tend to be obviously incorrect, detected and discarded. In operation, the process is stopped, and restarted from a fresh copy of the software. In testing, such extreme failures are logged by the virtualization, and the engineers use them to correct the software.
+
+Usually, one of the processes on each computer is a low priority process that continually tests the computer.
+
+Generally, every process of the autopilot runs more than two copies, distributed across different computers. The system then votes on the results of those processes. For triple Autoland, this is called camout, and uses median values of autopilot commands versus mechanical centre and feel mechanism positioning as a possible computation. Extreme values are discarded before they can be used to control the aircraft.
+
+Un '''pilote automatique''' (souvent abrégé '''PA''') est un système permettant de maintenir un véhicule sur une trajectoire et avec une vitesse préétablies.
+
+Un PA est un dispositif électronique qui transmet des ordres à des sous-systèmes hydrauliques ou électriques sollicitant les gouvernes et le moteur d'un avion ou d'un navire en lieu et place du pilote humain en fonction des instructions que celui-ci aura préalablement données (voir commande de vol électrique). Les impulsions données par le pilote (humain ou automatique) sont ensuite amplifiées par des servocommandes.
+
+= Aéronautique =
+
+Un PA peut fonctionner selon plusieurs modes selon le but recherché.
+Les modes de base sont :
+
+* la tenue d'altitude
+* la tenue de cap
+* la tenue de vitesse
+
+Des modes plus sophistiqués sont par exemple sur hélicoptère, la tenue de position au dessus d'un point donné (vol stationnaire).
+
+== Histoire ==
+
+Un premier PA assurant la tenue d'attitude et de cap fut développé en 1914 par Lawrence Sperry Aircraft Company'' qui produisait des composants pour les systèmes de navigation et de pilotage et qui commercialisa son PA.
+
+Vers compensation et la régulation de la commande de profondeur. Ce dernier point est particulièrement ardu à l'aide du simple manche en cas de stress et en présence de rafales.

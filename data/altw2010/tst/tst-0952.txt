@@ -1,0 +1,108 @@
+{{infobox Franse gemeente|
+|plaatsnaam= Cassaigne
+|wapen= 
+|kaart= 
+|regio= Midi-Pyrénées 
+|departement= Gers (32)
+|arrondissement= Condom
+|kanton= Condom
+|jaar= 2005
+|inwoners= 185
+|dichtheid= 21,3
+|oppervlakte= 8,7
+|water= 
+|latitudeGraden= 43 |latitudeMinuten= 54|latitudeSeconden= 0
+|longitudeGraden= 0 |longitudeMinuten= 19 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 114 |kaartY= 235
+|code= 32075
+|postcode= 32100
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Cassaigne''' is een gemeente in het Franse departement Gers (regio Condom.
+
+==Geografie==
+De oppervlakte van Cassaigne bedraagt 8,7 km², de bevolkingsdichtheid is 21,3 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:300 color:gray1 width:1       
+  from:start till:end             
+  bar:200 color:gray1              
+  from:start till:end            
+  bar:100 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,139)(84,134) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 210 1968: 202
+  points:(84,134)(100,117)    color:blue    width:2 #1975: 172
+  points:(100,117)(128,116)   color:blue    width:2 #1982: 169
+  points:(128,116)(160,134)   color:blue    width:2 #1990: 201
+  points:(160,134)(196,125)   color:blue    width:2 #1999: 186
+  points:(196,125)(228,125)     color:blue    width:2 #2004/5 
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+{{Infobox Commune de France|nomcommune=Cassaigne
+|région=Midi-Pyrénées
+|département=Gers
+|arrondissement=Condom
+|canton=Condom
+|insee=32075
+|cp=32100
+|maire=Bernard Rozès
+|mandat=
+|intercomm=Communauté de communes de la Ténarèze
+|longitude=0.336666666667
+|latitude=43.9088888889
+|alt moy=104 m
+|alt mini=74 m
+|alt maxi=168 m
+|hectares=858
+|km²=8,58
+|sans=186
+|date-sans=1999
+|dens=21|}}
+'''Cassaigne''' est une commune française, située dans le département du Gers et la région Midi-Pyrénées.
+
+==Géographie==
+==Histoire==
+L'ADSL est arrivé le 23/12/2005.
+Depuis le temps qu'on l'attendait !!
+
+==Administration==
+
+==Démographie==
+{{Démographie|
+1962= 194|
+1968= 202|
+1975= 172|
+1982= 169|
+1990= 201|
+1999= 186|
+sansdoublescomptes= 1962|source=INSEE<ref>[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=32075&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Cassaigne sur le site de l'Insee]</ref>}}
+
+==Lieux et monuments==
+Le chateau de Cassaigne est le troisième le plus visité du Gers.

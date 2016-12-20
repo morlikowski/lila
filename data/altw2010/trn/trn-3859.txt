@@ -1,0 +1,41 @@
+'''DataPortability''' ist die Idee, dass Benutzer ihre Identitäten, Profile, Fotos, Videos und andere Daten von verschiedenen Online-Plattformen verschieben, kopieren, kontrollieren und austauschen können. 
+
+== Das Projekt ==
+thumb|DataPortability-Logo
+
+DataPortability ist außerdem der Name eines Projekts, dessen Ziel die Definition von allgemeingültigen Verfahrensweisen ist, die DataPortability-Idee umzusetzen. Dazu sollen bestehende offene Standards und Protokolle genutzt werden, um die Portabilität von Benutzerdaten zwischen Online-Tools, sozialen Netzwerken und anderen Online-Services zu ermöglichen.
+
+Das DataPortability-Projekt wurde im November 2007 von Chris Saad und Ashley Angell von Faraday Media gegründet.
+
+Im Januar 2008 sind mehrere große Online-Services der DataPortability-Gruppe beigetreten: Google, Facebook und Plaxo am 8. January 2008<ref>[http://www.techcrunch.com/2008/01/08/this-day-will-be-remembered-facebook-google-and-plaxo-join-the-dataportability-workgroup/ ''Facebook, Google And Plaxo Join The DataPortability Workgroup''], TechCrunch</ref>, gefolgt von Drupal, Netvibes und Mystrands<ref>[http://blog.engagd.com/2008/01/individuals-from-drupal-netvibes-and.html Ankündigung von Engagd]</ref>, danach kamen LinkedIn, Flickr, Six Apart und Twitter<ref>[http://www.readwriteweb.com/archives/linkedin_flickr_and_sixapart_dataportability.php ''LinkedIn, SixApart and Flickr People Join DataPortability.org: Is This Stuff For Real?''], Read Write Web</ref>, sowie Digg<ref>[http://blog.digg.com/?p=108 Ankündigung von Digg]</ref> und Microsoft<ref>[http://dev.live.com/blogs/devlive/archive/2008/01/23/203.aspx Ankündigung von Microsoft]</ref>.
+
+==Technologien und Standards==
+
+thumb
+La '''portabilité des données''' désigne la possibilité de gérer soi-même ses données personnelles, de les porter d'un système à un autre, de les partager entre plusieurs systèmes. DataPortability est également le nom d'un projet dont le but est de définir un scénario type pour orchestrer les différentes technologies permettant d'implémenter la portabilité des données.
+	
+==Philosophie==
+Le projet Dataportabiliy comporte une part de militantisme et suggère que les utilisateurs de sites internet ou de services en ligne sont fondamentalement propriétaires de leurs données et devraient en avoir le contrôle. Par données, on entend le login/mot de passe, le profil, le réseau d'amis, les centres d'intérêt, les photos, les vidéos, le status.
+
+==La création de DataPortability==
+Un groupe de travail a été créé en novembre 2007 par Chris Saad et Ashley Angell de la société Faraday Media. En janvier 2008, un grand nombre d'acteurs majeurs de l'Internet ont rejoint le projet : Google, FaceBook et Plaxo le 8 janvier 2008 <ref>voir l'[http://fr.techcrunch.com/2008/01/09/facebook-google-et-plaxo-rejoignent-le-groupe-de-travail-sur-la-mobilite-des-donnees/ article] de [http://fr.techcrunch.com TechCrunch]sur le sujet</ref>, suivis de Drupal, Netvibes et Mystrands <ref>voir l'[http://blog.engagd.com/2008/01/individuals-from-drupal-netvibes-and.html annonce] de [http://www.engagd.com Engagd]</ref>, puis arrivent LinkedIn, Flickr, Six Apart et Twitter <ref>voir l'[http://fr.techcrunch.com/2008/01/11/linkedin-flickr-sixapart-et-twitter-rejoignent-a-leur-tour-le-groupe-de-travail-sur-la-mobilite-des-donnees/ article] de [http://fr.techcrunch.com TechCrunch]sur le sujet</ref>, ainsi que Digg 
+<ref>voir l'[http://fr.mashable.com/2008/01/29/digg-rejoint-le-dataportability-workgroup/ article] de 
+[http://fr.mashable.com Mashable! France ]</ref> et Microsoft
+<ref>voir l'[http://www.readwriteweb.com/archives/microsoft_joining_dataportabil.php article] de 
+[http://www.readwriteweb.com Read Write Web]</ref>.
+
+==La portabilité des données en exemples ==
+===Portabilité du login===
+Des systèmes comme openID permettent de ne créer qu'un login/mot de passe et de l'utiliser sur plusieurs sites. Ainsi, il est plus facile de modifier son mot de passe régulièrement (pour des raisons de sécurité informatique) sans être obligé de passer sur tous les sites que l'on utilise. La généralisation de l'utilisation d'openID sur les sites internet va dans le sens de la portabilité des données.
+
+===Portabilité de l'identité===
+Sur beaucoup de sites internet, il est possible de créer son profil. Un internaute qui utilise un grand nombre de sites internet doit le faire à chaque fois et, en général, saisir les mêmes informations (nom, prénom, e-mail, photo, adresse etc.). Techniquement, le microformat hCard permet d'exposer ses données de profil. Il manque aujourd'hui aux sites internet la fonctionnalité d'aspirer une hCard en lieu et place de saisir un profil.
+
+===Portabilité des réseaux sociaux===
+C'est probablement le thème de '''DataPortability''' qui suscite le plus d'attente. Pour les internautes qui sont membres de plusieurs réseaux sociaux, la maintenance des liens avec ses amis au sein de ces réseaux est une activité lourde et rébarbative. 
+La donnée élémentaire ici est l'information que la personne X est un contact de la personne Y. L'objectif de la portabilité des données est de pouvoir exporter ces liens entre personnes d'un site à l'autre ou de les gérer en dehors de tout site propriétaire. 
+
+Les technologies qui vont dans ce sens sont les microformats, XFN, FOAF, RDF, mais elles ont toutes besoin de pouvoir faire le lien entre l'identité d'un contact sur un site de celle du même contact sur un autre site. L'e-mail peut être utilisé, mais une finalisation du [http://www.w3.org/TR/cooluris/ travail de W3C sur les "URI sympatiques"] et la généralisation de l'adoption d'une URI pour une personne physique permettra de résoudre ce problème de manière plus efficace.
+
+===Portabilité des centres d'intérêts ===
+L'utilisateur, dans son interaction avec un service en ligne, déclare souvent des données qui sont liées à son "attention" (anglicisme à traduire...), c'est à dire à ses centres d'intérêts. Outre ces données déclaratives, un certain nombre de données sont également déduites automatiquement de son comportement (pages vues, mots clés cliqués, achats etc.). L'ensemble de ces données peut être stocké dans un fichier APML (Attention Profil Markup Language). L'utilisateur peut gérer lui-même les données déclaratives, importer des données d'attention non déclaratives le concernant depuis des sites le proposant, puis mettre à disposition ces données pour des sites marchands ou communautaires qui vont pouvoir adapter leur contenu en fonction du profil avec plus de précision.

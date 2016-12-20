@@ -1,0 +1,136 @@
+right|240px|thumbnail|火星科学实验室效果图
+
+<!--The '''Mars Science Laboratory''' (or '''MSL''' for short) is a rover scheduled to launch in December 2009 and perform a precision landing on Mars in October 2010. This rover will be three times as heavy and twice the width of the Atlas V 541. Once on the ground, MSL will analyze dozens of samples scooped up from the rocks. MSL will be expected to operate for at least 1 martian year (~2 Earth years) as it explores with greater range than any previous Mars rover. It will investigate the past or present ability of Mars to support life.-->
+'''火星科學實驗室'''(Mars Science Laboratory, MSL)是探測車計劃，預計於2009年12月發射並在2010年10月於火星進行精準登陸(precision landing)。這輛探測車將會比2004年登陸的火星探測車計劃（即機遇號及勇氣號）重三倍、長兩倍。比起之前其它火星任務，它將攜帶更多先進科學儀器。國際社群將提供部份的儀器。火星科學實驗室將由擎天神五號541型火箭發射。一旦著陸，MSL將會分析數十個樣本，從泥土挖出、從岩石中鑽取粉末。預計將運作至少一個火星年(約2個地球年)，比起之前任何火星探測車還要探測更廣大的區域。它將調查火星以前或現在維持生命的可能性。
+== 概述 ==
+
+2004年1月到达火星的两个机器人地质学家成功以后，美国国家航空航天局正在计划在这个十年结束以前前往火星的下一个火星车任务。大小是火星探测漫游者勇气号和机遇号的两倍，重量是其三倍的火星科学实验室将会采集火星土壤样本和岩芯，然后对它们可能可以支持现在或过去微生物存在的有机化合物和环境条件进行分析。这个任务还将会得到国际许多国家的支持，俄罗斯联邦航天局将会提供一个用于寻找水的基于中子的氢探测器，西班牙教育部将会提供一个气象组件，德国马克斯·普朗克学会化学研究所将会与加拿大航天局合作提供一个分光计。
+
+== 基本参数 ==
+
+* 质量: 大约3000千克 (包含推进剂)
+* 发射日期: 2009年12月
+* 抵达日期: 2010年10月
+
+== 仪器 ==
+
+火星科学实验室将携带10台科学仪器。
+
+=== 主照相机 ===
+
+马林空间科学系统公司将为火星科学实验室提供主照相机。照相机将具有彩色照片拍摄功能，同时可以拍摄高清晰度视频。
+
+主照相机是一部10倍光学变焦多谱立体相机，将能够从火星表面发回高分辨率多谱立体照片和RGB彩色视频剪辑。
+
+{{Infobox_Spacecraft
+| Name = Mars Science Laboratory
+| Image = 300px
+| Caption = 2007 Mars Science Laboratory concept
+| Organization = NASA
+| Major_Contractors = 
+| Mission_Type = Rover
+| Orbital_Insertion_Date = July-September 2010
+| Launch = September 2009
+| Launch_Vehicle = Atlas V 541
+| Decay = 
+| Mission_Duration = 
+| NSSDC_ID =
+| Webpage = [http://marsprogram.jpl.nasa.gov/msl/ MSL Home Page]
+| Mass = 
+| Power = RTG
+| Orbital_elements = 
+| Semimajor_Axis = 
+| Eccentricity = 
+| Inclination = 
+| Orbital_Period = 
+| Apoapsis = 
+| Periapsis = 
+| Orbits = 
+}}
+
+thumb|300px|Schematic diagram of the planned rover components.
+
+The '''Mars Science Laboratory''' (or '''MSL''' for short) is a rover scheduled to  be launched in September 2009 and perform a precision landing on Mars in July-September 2010. This rover will be three times as heavy and twice the width of the rocks. It will also investigate the past or present ability of Mars to support life. The international community will provide some of the instruments onboard. 
+
+The MSL rover will be launched by an Atlas V 541. MSL will be expected to operate for at least 1 martian year (668 sols) as it explores with greater range than any previous Mars rover. 
+
+== History ==
+In September 2006, MSL was approved by NASA HQ for a 2009 launch. Several JPL engineers working on MSL have informally stated that the MSL design will likely be used on future rovers after the first MSL is launched in 2009.
+
+In April 2008, ''USA Today'' reported that the project is $235 million, or 24%, over budget. The money to compensate this overrun should come from other NASA Mars missions, meaning a significant cut.<ref>{{cite web
+| url = http://www.usatoday.com/tech/science/space/2008-04-13-mars_N.htm
+| title = Troubles parallel ambitions in NASA Mars project}}</ref>
+
+== Specifications ==
+thumb|240px|A comparison of sizes for the [[Sojourner (rover)|Sojourner rover, the Mars Exploration Rovers, the Phoenix Lander and the Mars Science Laboratory.]]
+MSL is expected to weigh over 800 kg (1,760 lb) including 65 kg (143 lb) of scientific instruments, compared to the cm (29 in) in height. Maximum terrain-traverse speed is estimated to be 90 m (295 ft) per hour via automatic navigation, however, average traverse speeds will likely be about 30 m/h (98 ft/h), based on variables including power levels, difficulty of the terrain, slippage, and visibility. MSL is expected to traverse a minimum of 6&nbsp;km (3.7 mi) in its two-year mission.
+
+== Proposed scientific payload ==
+At present 10 instruments have been selected for development or production for MSL: 
+
+=== Cameras (MastCam, MAHLI, MARDI) ===
+All cameras are being developed by CCDs.
+
+*'''MastCam''': This system will provide multiple spectra and true color imaging with two-camera  Mars Exploration Rover (MER) panoramic camera can only produce 1024x1024 black&white images. The same filter wheel design for multiple spectra images from MER will be used on MastCam. Both cameras will have mechanical zoom and can image objects as far away as 1 km at a resolution of 10 cm per pixel.
+
+*'''Mars Hand Lens Imager (MAHLI)''': This system will consist of a camera mounted to a robotic arm on the rover. It will be used to acquire microscopic images of rock and soil, like the microscopic imager (MI) on MER. Unlike the MI, MAHLI will take true color images at 1600x1200 pixels with a resolution as high as 12.5 micrometers per pixel. MAHLI will have both white and UV mm distances.
+
+*'''MSL Mars Descent Imager (MARDI)''': During the descent to the Martian surface MARDI will take approximately 500 color images at 1600x1200 pixels starting at distances of about 3.7&nbsp;km to near 5 meters from the ground. MARDI imaging will allow the mapping of surrounding terrain and location of landing. On September 16, 2007 NASA announced that MARDI would not be included in the MSL mission due to funding problems.<ref name=SepMemo>
+</ref> MARDI was subsequently reinstated after the contractor, Malin Space Science Systems, agreed that there would be no additional costs to NASA for its completion.<ref name=NovEmail></ref> MARDI will take images at a rate of 5 frames per second for about 2 minutes during descent and landing.<ref> </ref>
+
+=== ChemCam ===
+ChemCam is a remote Laser-induced breakdown spectroscopy (LIBS) system that can target a rock from up to 13 meters away, vaporizing a small amount of the underlying mineral and then collecting a spectrum of the light emitted by the vaporized rock by using a micro-imaging camera with an angular resolution of 80 microradians. It is being developed by the Los Alamos National Laboratory and the French CESR laboratory (in charge of the laser). A infrared laser with 1067 nm wavelength and a 5 ns pulse will focus on a spot with 1 GW/cm², depositing 30 mJ of energy.  Detection will be done between 240 nm and 800 nm.<ref>
+{{cite journal
+|title=  Comparative study of different methodologies for quantitative rock analysis by Laser-Induced Breakdown Spectroscopy in a simulated Martian atmosphere
+|author=Salle B., Lacour J. L., Mauchien P., Fichet P., Maurice S., Manhes G.
+|journal=Spectrochimica Acta Part B-Atomic Spectroscopy
+|volume=61
+|issue=3
+|pages=301–313
+|year=2006
+|doi=10.1016/j.sab.2006.02.003
+|url=http://www.lpi.usra.edu/meetings/lpsc2005/pdf/1580.pdf}}
+</ref>
+<ref>[http://chemcam.cesr.fr/pages/instrument/page.php CESR presentation on the LIBS]</ref>
+<ref>[http://libs.lanl.gov/ChemCam_Fact_Sheet.pdf ChemCam fact sheet]</ref>
+In October 2007 NASA announced that they would cap funding for the ChemCam because of a 70% cost overrun and that the instrument has to be built with the money already provided.<ref>[http://abcnews.go.com/Technology/wireStory?id=3625948 NASA Caps Funding for Mars Rover Sensor]</ref> Since most of the money for ChemCam came from the French CNES, The Los Alamos National Laboratory was able to deliver the engineering model to JPL in February 2008.<ref>[http://libs.lanl.gov/ChemCam_status.html ChemCam Status April, 2008 ]</ref>
+
+=== Alpha-particle X-ray spectrometer (APXS) ===
+This device will irradiate samples with alpha particles and map the spectra of X-rays that are reemitted.  It is being developed by the Canadian Space Agency for determining the elemental composition of samples. The APXS is a form of PIXE. Similar instruments have been part of Mars Pathfinder and the Mars Exploration Rovers.<ref></ref>
+
+=== CheMin ===
+Chemin stands for "Chemistry & Mineralogy X-Ray Diffraction/X-Ray Fluorescence Instrument". Chemin is a NASA Jet Propulsion Laboratory.<ref> </ref>
+
+=== Sample Analysis at Mars (SAM) ===
+The SAM instrument suite will analyze organics and gases from both atmospheric and solid samples.  It is being developed by the NASA Goddard Space Flight Center and Laboratoire Inter-Universitaire des Systèmes Atmosphériques (LISA).<ref>{{cite journal
+ |title = Did life exist on Mars? Search for organic and inorganic signatures, one of the goals for "SAM" (sample analysis at Mars)
+ |author = Cabane M., Coll P., Szopa C., Israel G., Raulin F., Sternberg R., Mahaffy P., Person A., Rodier C., Navarro-Gonzalez R., Niemann H., Harpold D., Brinckerhoff W.
+ |journal = Source: Mercury, Mars and Saturn Advances in Space Research
+ |volume = 33
+ |issue = 12 
+ |pages = 2240–2245 
+ |year = 2004}}</ref>
+
+SAM Consists of the 74 sample cups of the '''Sample Manipulation System'''<ref>{{cite web
+| url = http://pdf.aiaa.org/preview/CDReadyMSPACE06_1393/PV2006_7402.pdf
+| title = OPTIMIZATION OF A MARS SAMPLE MANIPULATION SYSTEM THROUGH CONCENTRATED FUNCTIONALITY
+| author = Tom Kennedy and Erik Mumm, Tom Myrick , Seth Frader-Thompson }}</ref> which can be heated to a temperature of 1000°C and the '''Chemical Separation and Processing Lab''' for enrichment and derivatization of the organic molecules of the sample. The gas chromatograph mass spectrometer is a quadrupole mass spectrometer with a mass range of 2–235 u which gets the sample from one of the six gas chromatography columns. The '''Tunable Laser Spectrometer''' is capable of measuring the isotope ratios of carbon and oxygen in CO<sub>2</sub>.
+
+=== Radiation Assessment Detector (RAD)===
+This instrument will characterize the broad spectrum of radiation found near the surface of Mars for purposes of determining the viability and shielding needs for human explorers. Funded by the Exploration Systems Mission Directorate at NASA Headquarters and developed by Southwest Research Institute (SwRI) and the extraterrestrial physics group at Christian-Albrechts-Universität zu Kiel, Germany.
+
+=== Dynamic Albedo of Neutrons (DAN)===
+A pulsed neutron source and detector for measuring hydrogen or ice and water at or near the martian surface, provided by the Russian Federal Space Agency. 
+
+=== Rover Environmental Monitoring Station (REMS) === 
+Meteorological package and an ultraviolet sensor provided by the Spanish Ministry of Education and Science. It will be mounted on the camera mast and measure atmospheric pressure, humidity, wind currents and direction, air and ground temperature and ultraviolet radiation levels.
+
+=== MSL Entry Descent and Landing Instrumentation (MEDLI)===
+The MEDLI project’s main objective is to measure aerothermal environments, sub-surface heat shield
+material response, vehicle orientation, and atmospheric density for the atmospheric entry through the
+sensible atmosphere down to heatshield separation of the Mars Science Laboratory (MSL) entry vehicle.
+The MEDLI instrumentation suite will be installed in the heatshield of the MSL entry vehicle. The
+acquired data will support future Mars missions by providing measured atmospheric data to validate Mars
+atmosphere models and clarify the design margins on future Mars missions. MEDLI instrumentation
+consists of three main subsystems: MEDLI Integrated Sensor Plugs (MISP), Mars Entry Atmospheric Data
+System (MEADS), and the Sensor Support Electronics (SSE).

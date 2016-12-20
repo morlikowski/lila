@@ -1,0 +1,49 @@
+An '''APE tag''' is a tag used to add metadata, such as the title, artist, or track number, to digital audio files.
+
+==Versions==
+=== APEv1 ===
+The ''APEv1 tag'' was designed for the Monkey's Audio format.
+
+=== APEv2 ===
+The format was first used in Musepack audio files. The creator of the Musepack format Frank Klemm extended the original format to add a header, allowing APE tags to be at the beginning of files, and also allowed metadata values to be Unicode rather than simply ASCII.
+Because of its simplicity and flexibility, the WavPack and OptimFROG formats also adopted it as their primary tag format. Version 3.99 of Monkey's Audio also switched from using APEv1 to APEv2.
+
+The static at the end of files.
+
+== Features ==
+APE tags are closer to Vorbis comments than ID3 tags. Like Vorbis comments, they are unstructured key/value pairs. However, unlike Vorbis comments, they do not allow for inter-key ordering. This is because they store a list of values with each key, rather than a key per value.
+
+APE values can also be flagged as “text”, “binary”, or “external” types. Because of this, tag editing software can avoid presenting blocks of unreadable data to users. Binary data cannot be easily stored in Vorbis comments for this reason (though this is by design).
+
+{| border="0" cellspacing="3" style="float:right;padding-left:15px"
+|+ '''Aufbau der APEv2-Tags'''
+|-
+| align="center" bgcolor="#FFCC99" | Kopfdaten (32 Byte)
+|-
+| align="center" bgcolor="#FFCC99" | Tag 1
+|-
+| align="center" bgcolor="#FFCC99" | Tag 2
+|-
+| align="center" bgcolor="#FFCC99" | …
+|-
+| align="center" bgcolor="#FFCC99" | Tag n
+|-
+| align="center" bgcolor="#FFCC99" | Footer (32 Byte)
+|}
+
+'''APE-Tags''' dienen der Speicherung von Metadaten (also Informationen über das jeweilige Musikstück) in Musikdateien, vergleichbar mit ID3-Tags. 
+APE bietet im Gegensatz zu ID3 die Möglichkeit, neben definierten Standardfeldern selber Felder zum Speichern der Informationen anzulegen.
+
+== Geschichte ==
+=== APEv1 ===
+Das APEv1-Taggingsystem wurde ursprünglich für das Monkey’s-Audio-Format entwickelt. APEv1-Bereiche haben keine Kopfdaten und können somit nur in den Fußdatenbereich einer Datei geschrieben werden, müssen also zwingend am Ende der Datei stehen. Darüber hinaus sind nur ASCII-Werte erlaubt.
+
+=== APEv2 ===
+Kopfdatenbereich und Unicode-Unterstützung und schuf so Version 2 (APEv2). Damit können APE-Tags nun wahlweise mit einem Fußdatenbereich in einen Fußdatenbereich ans Dateiende (empfohlene Variante) oder auch mit einem Kopfdatenbereich an den Dateibeginn geschrieben werden.
+
+APEv2 fand dann erstmals in Klemms Musepack-Format Benutzung, wurde jedoch wegen seiner Einfachheit und Flexibilität auch von WavPack und OptimFROG als primäres Metadatenformat übernommen. In Version 3.99 wurde auch Monkey’s Audio auf v2 umgestellt.
+
+Mit der Musikwiedergabesoftware foobar2000 können auch MP3-Dateien mit APEv2 statt ID3-Tags versehen werden, allerdings kann dies unter Umständen zu Problemen führen, da APE-Tags nicht speziell im Hinblick auf MP3 entworfen wurde. Die Zeichenkette ''APETAGX'', die einen APEv2-Bereich einleitet, enthält die Zeichenfolge ''TAG'', mit der der Beginn eines ID3v1-Bereiches gekennzeichnet wird. Tritt der Fall ein, dass diese Zeichenkette sich an der Stelle befindet, wo ein Programm einen ID3v1-Bereich erwartet, so könnte es zu Fehlinterpretationen kommen. Auch hat ID3 ein "unsynchronization scheme", das sicherstellt, dass ID3-Metadaten nicht als Audio interpretiert werden. Dies fehlt bei APE, was im ungünstigsten Fall zu kurzem Knacken oder Rauschen am Ende des Stückes führt.
+
+== Merkmale ==
+APEv2-Tags bestehen aus unstrukturierten Paaren von Feldnamen und Werten. Damit sind sie enger mit den Vorbis comments verwandt als mit ID3. Anders als bei Vorbis comment werden für mehrere gleichartige Werte nicht jeweils ein Feldbezeichner benutzt, sondern es werden dann mehrere Werte einem Feldnamen zugeordnet. Das bedingt jedoch, dass mehrere gleichnamige Werte nicht frei verteilt werden können, sondern immer direkt hintereinandergeordnet werden.

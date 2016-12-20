@@ -1,0 +1,83 @@
+'''Funções holomorfas''' são o subconjunto aberto do plano de número complexo '''C''' com valores em '''C''' que são diferenciáveis em cada ponto. Esta condição é muito mais forte que a diferenciabilidade em caso real e implica que a função é infinitamente diferenciável e que pode ser descrita mediante sua série de Taylor. O termo '''''função analítica''''' é frequentemente usada no lugar de "função holomorfa", entretanto o termo "analítico" possui vários outros significados. Uma função que seja holomorfa sobre todo o plano complexo se diz função inteira.  A frase "holomorfa em um ponto ''a''" significa não só diferenciável em ''a'', mas diferenciável em algum disco aberto centrado em  ''a'', no plano complexo.
+ 
+== Definição ==
+
+Se ''U'' é um subconjunto aberto de '''C''' e ''f'' : ''U'' &rarr; '''C''' é uma função, dizemos que ''f'' é ''diferenciável complexa'' ou ''C-diferenciável'' no ponto ''z''<sub>0</sub> de ''U'' se o limite
+
+:<math>f'(z_0) = \lim_{z \rightarrow z_0} {f(z) - f(z_0) \over z - z_0 } </math>
+
+existir. 
+
+Este limite se toma aqui sobre todas as sucessões de números complexos que se aproximam de ''z''<sub>0</sub>, e para todas essa sucessões o quociente de diferenciais tem que resultar no mesmo número ''f''&nbsp;'(''z''<sub>0</sub>). Intuitivamente, se ''f'' é diferenciável complexa em
+''z''<sub>0</sub> e nas proximidades ao ponto ''z''<sub>0</sub> da direção ''r'', então as imagens se aproximarão ao ponto ''f''(''z''<sub>0</sub>) a partir da direção ''f''&nbsp;'(''z''<sub>0</sub>) ''r'', onde o último produto é a multiplicação de números complexos. Este conceito de diferenciabilidade compartilha várias propriedades com a diferenciabilidade em caso real:
+é linear e obedece as regras da derivação do produto, do quociente e da cadeia.
+
+Se ''f'' é complexa diferenciável em cada ponto ''z''<sub>0</sub> em ''U'', dizemos que ''f'' é ''holomorfa em U''.
+
+ガウス平面あるいは微分可能であるような複素関数のことである。
+
+== 概要 ==
+正則関数とは、複素関数（複素数を変数とし、複素数に値をもつ関数）のうちで、定義域（または議論の対象とする領域）の全ての点で微分可能な関数の事である。領域内の全ての点で微分可能であるという性質は、正則性といわれる。対数関数、ガンマ関数, ゼータ関数など、複素解析において中心的な役割を演じる関数の多くはこの性質を持っている。
+
+複素関数が正則であることを仮定すると、その関数は各点で何回でも微分することができる。すなわち、実関数（実数を変数とする関数）とは違って微分可能な回数に縛られることはなく、複素関数においては正則であるか否か、すなわちある特定の集合の全ての点で1回微分可能であるか否かの差異があるのみである。
+このような1回微分可能ならば何回でも微分可能という性質は、複素関数のもつ最も大きな特徴であると同時に、他の関数の微分とは一線を画す特異な性質でもある。
+
+微分可能性についての複素関数と他の関数の著しい相違の原因は、そもそもの微分の定義の違いにある。
+実変数の場合、極限は直線的な近づき方のみしかないが、複素関数の場合の極限は2次元平面の任意の曲線に沿った近づき方が許される。
+よって、実変数の極限よりも複素変数の極限の方がより強い条件となるので、複素関数の微分可能性の方が実関数のそれよりもより多くの内容をもつ。
+では、平面を定義域とする2次元ベクトル場と複素平面を定義域とする複素関数との相違は何かといえば、それは代数的構造である。
+ベクトル場では、定義域・値域の体ではないため、商が定義されていない。
+よって、微分に対しても商を用いた定義をすることができないため、ベクトル場は正則関数のような強い特徴は持たない。
+複素関数の定義域・値域である複素数体には商が定義されているので、ごく自然に微分係数を商で定義することができる。
+また、「ごく自然に微分係数を商で定義すること」の結果として、コーシー・リーマンの方程式を経由し、調和関数と正則関数は関係付けられる。
+正則関数の特異で便利な性質は、調和関数の性質を引き継いだものとして捉えることができる。
+
+さらに、正則であれば何回でも微分可能ということから、正則関数は展開されるので、複素関数に関しては、それが正則関数であるということと解析関数であることとは同じである。また、一致の定理により正則関数はその特異点を含まない領域へ一意的に拡張（解析接続）することができる場合がある。
+
+ガウス平面の全域で正則である複素関数は整関数であるといい、正則関数の商として得られる関数は有理型関数という。
+
+== 定義 ==
+ガウス平面 '''C''' 内の開集合 ''D'' と ''D'' 上で定義される複素関数 ''f''(''z'') について、''a'' &isin; ''D'' に対し極限
+:<math>\lim_{z\to a}\frac{f(z)-f(a)}{z-a}</math>
+が定まるとき、すなわち ''D'' 内で ''z'' を ''a'' に近づけるとき、どのような近づけ方によっても右辺の商がただ一つの値に収束するとき、複素関数 ''f''(''z'') は点 ''a'' で、あるいは ''z'' = ''a'' で'''複素微分可能'''または単に'''微分可能'''であるといい、この極限値を
+:<math>f'(z) = \frac{df}{dz} = \lim_{z\to a}\frac{f(z)-f(a)}{z-a}</math>
+と書いて、複素関数 ''f''(''z'') の点 ''a'' あるいは ''z'' = ''a'' における'''微分係数'''と呼ぶ。
+複素関数 ''f''(''z'') が ''D'' で複素微分可能である、すなわち ''D'' の全ての点で複素微分可能であるとき、複素関数 ''f''(''z'') は 開集合 ''D'' において'''正則'''であるといい（集合における正則性）、複素関数 ''f''(''z'') は ''D'' 上の '''正則関数'''であるという。
+また、複素関数 ''f''(''z'') が点 ''a'' で複素微分可能なだけだなく、点 ''a'' を含む適当な（どんなに小さくてもよい）近傍 ''U''(''a'') でも複素微分可能である（近傍 ''U''(''a'') の全ての点で複素微分可能である）とき、複素関数 ''f''(''z'') は点 ''a'' で正則であるという（1点における正則性）。
+
+== 性質 ==
+''f'', ''g'' を領域 ''U'' 上で定義される正則関数とする。また &alpha;, &beta; を複素数の定数とすると
+* 線型性: <math>\frac{d(\alpha f + \beta g)}{dz} 
+ = \alpha\frac{df}{dz} + \beta\frac{dg}{dz},
+</math>
+* ライプニッツの規則: <math>\frac{d(fg)}{dz} 
+ = \frac{df}{dz}g(z) + f(z)\frac{dg}{dz},
+</math>
+* 連鎖律: <math>
+ \frac{d(f\circ g)}{dz} = \frac{df}{dg}\frac{dg}{dz}
+</math>
+が成り立つ。ゆえに正則関数の和、定数倍（スカラー倍）、積は再び正則である。
+
+正則関数は微分が 0 にならない点において複素平面上の等角写像である。
+
+=== コーシー・リーマンの方程式 ===
+''z'' = ''x'' + ''iy'' とおいて、ガウス平面 '''C''' を実平面 '''R'''<sup>2</sup> と同一視すると、複素関数 ''f'' は 2 つの実 2 変数関数 ''u''(''x'',''y''), ''v''(''x'',''y'') を用いて
+:''f''(''x'',''y'') = ''u''(''x'',''y'') + ''iv''(''x'',''y'')
+と表すことができる。''f''(''z'') が正則関数であれば、''u'', ''v'' はコーシー・リーマンの方程式と呼ばれる偏微分方程式
+:<math>\begin{cases}
+ \cfrac{\partial u}{\partial x} = \cfrac{\partial v}{\partial y},\\[10pt]
+ \cfrac{\partial u}{\partial y } = -\cfrac{\partial v}{\partial x}
+\end{cases}</math>
+を満たす。
+:ここから正則関数 ''f''(''x'',''y'') の実部 ''u''(''x'',''y''), 虚部 ''v''(''x'',''y'') は実 2 変数の調和関数であることがわかる。
+
+コーシー・リーマンの方程式は ''f''(''x'',''y'') が正則となるための必要条件であるが、さらに ''u''(''x'',''y''), ''v''(''x'',''y'') が、二変数の関数として全微分可能であるならば、 ''f''(''x'',''y'') は正則となる。
+
+また、変数を
+:''z'' = ''x'' + ''iy''
+:<span style="text-decoration:overline">''z''</span> = ''x'' - ''iy''
+の2つとしたとき、コーシー・リーマンの方程式は、'''ディーバー方程式'''
+:<math> {\partial \over \partial \bar{z}} f(z,\bar{z}) = 0 </math>
+に変換される。すなわち、''f'' が微分可能であり <span style="text-decoration:overline">''z''</span> に依存せず
+:''f''(''z'',<span style="text-decoration:overline">''z''</span>) = ''f''(''z'')
+の形で書けるとき、コーシー・リーマンの方程式は成り立つのである。

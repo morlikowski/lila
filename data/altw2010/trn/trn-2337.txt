@@ -1,0 +1,60 @@
+thumb|300px|Block 1 CIWS
+The '''Phalanx Close-In Weapon System''' (CIWS) is an anti-missile system that was designed and manufactured by the Pomona Division. It is now manufactured by the Raytheon Company. It is used by the United States Navy on every class of surface combat ship in its fleet and is used by navies of twenty-three allied nations.  Because of their distinctive barrel-shaped radome and their automated nature of operation, Phalanx CIWS units are sometimes nicknamed '''R2-D2s,''' after the famous droid from ''Star Wars''.<ref>[http://www.spacewar.com/reports/Phalanx_Has_A_Future_999.html Spacewar.com]</ref> The land based C-RAM has been recently deployed in a short range ballistic missile defense role to shoot down incoming rockets and artillery fire.
+
+==Overview==
+Developed as the final line of defense (terminal defense or USS ''King'' in 1973. It was accepted and production started in 1978, the first ship fully fitted out was USS ''Coral Sea'' in 1980. The Navy began placing CIWS systems on noncombatant vessels in 1984.
+
+The basis of the system is a 20 mm fire control system. The system automatically searches, detects, tracks, engages and confirms kills using its computer-controlled radar system. Because it is self-contained, Phalanx is ideal for support ships which lack integrated targeting systems and generally have limited sensors. The entire unit weighs between 5500 kg and 6100 kg (12,400 to 13,500 lb).
+
+left|thumb|Phalanx CIWS firing Phalanx has been developed through a number of different configurations. The basic style is the Block 0. The Block 1 (1988) offers various improvements in radar, ammunition, rate of fire, increasing engagement elevation to +70 degrees, and computing. These improvements were intended to increase the system's capability against emerging Soviet supersonic anti-ship missiles. Block 1A introduced a new computer system to counter more maneuverable targets. The Block 1B PSuM (Phalanx Surface Mode, 1999) adds a forward looking infrared (FLIR) sensor to allow the weapon to be used against surface targets. This addition was developed to provide ship defense against small vessel threats and other "floaters" in littoral waters and to improve the weapon's performance against slower low-flying aircraft. The FLIR's capability is also of use against low-observability missiles and can be linked with the Rolling Airframe Missile system to increase RAM engagement range and accuracy. The Block 1B also allows for an operator to identify and target threats.
+
+The U.S. and Canada are in the process of upgrading all their Phalanx systems to the Block 1B configuration. The Block 1B is also used by other navies such as Japan, Egypt, Bahrain and the Royal Navy<ref>[http://www.prnewswire.com/cgi-bin/micro_stories.pl?ACCT=149999&TICK=RTN&STORY=/www/story/04-19-2006/0004342799&EDATE=Apr+19,+2006 Raytheon Awarded Phalanx 1B Upgrade Order for Royal Navy]</ref>
+
+==Operation==
+
+The CIWS is designed to be the last line of defense against anti-ship missiles.  Due to its design criteria its effective range is very short relative to the range of modern ASMs, from 1 to . The gun mount moves at a very high speed and with great precision.  The system takes minimal inputs from the ship making it capable of functioning despite potential damage to the ship.  The only inputs required for operation are 440 V AC at 60 Hz and water for electronics cooling.  For full operation including some non-essential functions, it also has inputs for true compass ships heading and 115 V AC for the PASS and tape drive subsystems. 
+
+thumb|left|A technician checks over the RADAR transmitter and microwave assemblies of a Phalanx CIWS, most likely a Block 0. The search radar can be seen at the top with the vertical, orange-peel shaped, tracking radar below it.
+
+===Radar subsystems===  
+The CIWS has two radars that work together to engage targets.  The first radar is the search radar, located inside the radome on the weapon control group (top of the white painted portion).  The search subsystem provides bearing, range, velocity, heading, and altitude information of potential targets to the CIWS computer.  This information is analyzed to determine whether the detected object should be engaged by the CIWS system.  Once the computer identifies a valid target (see details below), the mount moves to face the target and then hands the target over to the track radar.  The track radar is an "orange peel"-style radar that is more precise, but can only view a much smaller area.  The track radar observes the target until the computer determines that the probability of a successful hit is maximized and then, depending on the operator conditions, the system will either fire automatically or will recommend fire to the operator.  While firing, the system tracks outgoing rounds and 'walks' them onto the target.
+
+===Gun and ammunition handling system===  
+thumb|U.S. Navy sailors load tungsten ammunition (white sabot at right) and off-load dummy ammunition (left).
+The Block 0 CIWS mounts (hydraulic driven) fired at a rate of 3,000 rounds per minute and they could only hold 989 rounds in the magazine drum.  The Block 1 CIWS mounts (hydraulic) also fired at 3,000 rounds per minute with an extended magazine drum holding 1550 rounds.  The Block 1A and newer (pneumatic driven) CIWS mounts fire at a variable rate of 3,000/4,500 rounds per minute and also had the larger 1550 round magazine. The velocity of the rounds once fired is approximately 3,600 feet per second (1,100 m/s).   The rounds are armor piercing tungsten penetrator rounds with discarding sabots.  The kinetic projectiles are designed to pierce and explode an incoming missile's warhead. Use of otherwise more effective high explosive shells would risk destroying the missile airframe while allowing the warhead to continue a ballistic trajectory into the ship. The ammo handling system uses 2 conveyor belt systems.  One of the systems takes the rounds out of the magazine drum and takes them to the gun.  The second conveyor system takes either the empty shells or non-fired rounds and routes them back to the opposite end of the drum.
+
+===CIWS contact target identification===
+The CIWS does not recognize identification friend or foe, also known as IFF.  The CIWS has only the data it collects in real time from the radars to decide if the target is a threat and to engage it.  A contact has to meet multiple criteria for it to be considered a target; some of the criteria are listed below.
+thumb|left|A sailor sits in front of a CIWS Local Control Panel (LCP) during a general quarters drill.
+1) Is the range of the target increasing or decreasing in relation to the ship?  The CIWS search radar will see contacts that are out-bound and discard them.  The CIWS will only engage a target if it is approaching the ship.
+
+2) Is the contact capable of making a maneuver to hit the ship?  If a contact is not heading directly at the ship, the CIWS looks at its heading in relation to the ship and its velocity.  It then decides if the contact can perform a maneuver to still hit the ship.
+
+3) Is the contact traveling between the minimum and maximum velocities?  The CIWS has the ability to engage targets that travel in a wide range of speeds; however it is not an infinitely wide range.  The system has a target maximum velocity limit; if a target exceeds this velocity, the CIWS will not engage it.  It also has a minimum target velocity, meaning any contact going below that velocity will not be engaged by the CIWS.  The operator also has the option to adjust the minimum and maximum limits within the limits of the system.
+
+What is described above are the basics of how the CIWS works. There are many other subsystems that run in the background to ensure proper operation, such as environmental control, transmitter, mount movement control, power control and distribution and so on.  It takes 6 to 8 months to train a technician to maintain, operate, and repair the CIWS.
+
+thumb|Phalanx CIWS
+'''Phalanx CIWS''' er et luftvernsystem som er utviklet av General Dynamics for å beskytte krigsskip mot missiler. 
+Systemet består av en gatlingkanon som er knyttet til et radarsystem som finner, følger og angriper innkommende mål.
+
+USS «King» var det første skipet som fikk montert systemet til utprøving i 1973. I 1974 ble den utrangerte destroyeren USS «Cunningham» utstyrt med systemet og det ble utført tester med en rekke forskjellige missiler og droner. Systemet ble også testet i forhold til elektroniske mottiltak ombord på destroyeren USS «Bigelow». I juli 1977 ble systemet godkjent for produksjon. Systemet er i bruk hos mer enn 20 land. US Navy har systemet montert på alle fregatter eller større overflatefartøy.
+
+== Litteratur ==
+
+*{{Kilde bok
+| forfatter= 
+| redaktør= E.R.Hooton
+| utgivelsesår= 2007
+| artikkel=
+| tittel= Jane's Naval Weapon System
+| bind=
+| utgave= 47
+| utgivelsessted=
+| forlag=Jane’s Information Group Limited
+| side= 690
+| isbn=
+| id=
+| kommentar=
+| url=
+}}

@@ -1,0 +1,99 @@
+'''Deiling''' er sú reikniaðgerð, sem er margföldunar.  Hægt er að túlka deilingu sem ítrekaðan frádrátt (hversu oft er hægt að draga seinni þáttinn frá þeim fyrri áður en afgangurinn er minni en seinni þátturinn).
+
+Deiling er oft táknuð með skástriki og er staðsett á milli liðanna þar sem framkvæma á aðgerðina. Einnig getur deiling verið sett upp sem grunnskóla en hún er mikilvægur grunnur að stærðfræðilegri þekkingu.
+
+Margar leiðir eru til að reikna út deilingu og eru þær mismunandi flóknar. Ein þeirra er að finna út hve oft seinni talan gengur upp í þá fyrri. T.d. ef reiknað er <math>70/5</math>, þá er reiknað út hve oft talan 5 gengur upp í töluna 70, sem er 14 sinnum. Útkoman úr <math>70/5</math> er því 14. Málin flækjast all verulega ef fyrri talan gengur ekki upp í þá seinni, t.d. <math>10/3</math>.
+
+==Deiling með almennum brotum==
+
+Þegar teljaranum og nefnaranum í seinna brotinu og framkvæma síðan teljarana og nefnarana saman í sitt hvoru lagi. T.d.
+
+<math>\frac{7}{3} / \frac{14}{9} = \frac{7}{3} \cdot \frac{9}{14} = \frac{7 \cdot 9}{3 \cdot 14}  = \frac{63}{42} = \frac{63/21}{42/21} = \frac{3}{2} \!</math>
+
+en það er hægt að gera þetta á auðveldari hátt með því að stytta brotið áður. Það er gert með því stytta brotin eins og venjuleg almenn brot en það er gert með teljara í einu brotinu og nefnaranum í hinu brotinu og eftir það halda áfram með margföldunina. Eftirfarandi dæmi skýrir þetta skref fyrir skref:
+
+<math>\frac{7}{3} / \frac{14}{9} = \frac{7}{3} \cdot \frac{9}{14} = \frac{1}{3} \cdot \frac{9}{2} = \frac{1}{1} \cdot \frac{3}{2} = \frac{1 \cdot 3}{1 \cdot 2} = \frac{3}{2} \!</math>
+==Sjá einnig==
+* Deilatafla
+* Deilireglur
+
+Flokkur:StærðfræðiFlokkur:Algebra
+
+In mathematics, especially in elementary arithmetic, '''division''' is an arithmetic operation which is the inverse of multiplication.  
+
+Specifically, if  ''c'' times ''b'' equals ''a'', written:
+:<math>c \times b = a\,</math>
+where ''b'' is not zero, then ''a'' divided by ''b'' equals ''c'', written:
+:<math>\frac ab = c</math>
+For instance, 
+:<math>\frac 63 = 2</math>
+since
+:<math>2 \times 3 = 6\,</math>.
+
+In the above expression, ''a'' is called the '''dividend''', ''b'' the '''divisor''' and ''c'' the '''quotient'''.
+
+Conceptually, division describes two distinct but related settings.  ''Partitioning'' involves taking a set of size ''a'' and forming ''b'' groups that are equal in size.  The size of each group formed, ''c'', is the quotient of ''a'' and ''b''.  ''Quotative'' division involves taking a set of size ''a'' and forming groups of size ''b''.  The number of groups of this size that can be formed, ''c'', is the quotient of ''a'' and ''b''<ref>[Fosnot and Dolk 2001. ''Young Mathematicians at Work: Constructing Multiplication and Division''. Portsmouth, NH: Heinemann.]</ref>. 
+
+Division by zero (i.e. where the divisor is zero) is not defined.
+
+==Notation==
+
+Division is often shown in algebra and science by placing the ''dividend'' over the ''divisor'' with a horizontal line, also called a vinculum or fraction bar, between them. For example, ''a'' divided by ''b'' is written
+:<math>\frac ab</math>
+This can be read out loud as "a divided by b" or "a over b". A way to express division all on one line is to write the ''dividend'', or numerator then a slash, then the ''divisor'', or denominator like this:
+:<math>a/b\,</math>
+This is the usual way to specify division in most computer programming languages since it can easily be typed as a simple sequence of characters.
+
+A typographical variation, which is halfway between these two forms, uses a solidus (fraction slash) but elevates the dividend, and lowers the divisor:
+
+:
+
+Any of these forms can be used to display a fraction. A fraction is a division expression where both dividend and divisor are integers (although typically called the ''numerator'' and ''denominator''), and there is no implication that the division needs to be evaluated further.
+
+A second way to show division is to use the obelus (or division sign), common in arithmetic, in this manner:
+:<math>a \div b</math>
+This form is infrequent except in elementary arithmetic.  The obelus is also used alone to represent the division operation itself, as for instance as a label on a key of a calculator.
+
+In some non-English-speaking cultures, "a divided by b" is written ''a'' : ''b''. However, in English usage the colon is restricted to expressing the related concept of ratios (then "a is to b").
+
+==Computing division==
+A person who knows the fractional part (expressed as a decimal fraction), we can continue the algorithm past the ones place as far as desired. If the divisor has a fractional part, we can restate the problem by moving the decimal to the right in both numbers until the divisor has no fraction.
+
+Modern computers compute division by methods that are faster than long division: see Division (digital). 
+
+A person can calculate division with an abacus by repeatedly placing the dividend on the abacus, and then subtracting the divisor the offset of each digit in the result, counting the number of divisions possible at each offset.
+
+In multiplicative inverse with respect to the modulus. We can calculate division by multiplication in such a case. This approach is useful in computers that do not have a fast division instruction.
+
+==Division algorithm==
+
+The unique integers ''q'' and ''r'' such that ''a'' = ''qd'' + ''r'' and 0 ≤ ''r'' < | ''d'' |, where | ''d'' | denotes the absolute value of ''d''.
+
+==Division of integers==
+
+Division of integers is not closed. Apart from division by zero being undefined, the quotient will not be an integer unless the dividend is an integer multiple of the divisor; for example 26 cannot be divided by 10 to give an integer.  In such a case there are four possible approaches.
+# Say that 26 cannot be divided by 10; division becomes a partial function.
+# Give the answer as a mixed number, so <math>\frac{26}{10} = 2.6</math> or <math>26/10 = 2 \frac 35</math>. This is the approach usually taken in mathematics.
+# Give the answer as an integer ''quotient'' and a ''remainder'', so <math>\frac{26}{10} = 2</math> remainder 6.
+# Give the integer quotient as the answer, so <math>\frac{26}{10} = 2</math>. This is sometimes called ''integer division''. 
+One has to be careful when performing division of integers in a C, will treat division of integers as in case 4 above, so the answer will be an integer. Other languages, such as MATLAB, will first convert the integers to real numbers, and then give a real number as the answer, as in case 2 above.
+
+Names and symbols used for integer division include div, /, \, and %. Definitions vary regarding integer division when the quotient is negative: rounding may be toward zero or toward minus infinity.
+
+Divisibility rules can sometimes be used to quickly determine whether one integer divides exactly into another.
+
+==Division of rational numbers==
+
+The result of dividing two rational numbers is another rational number when the divisor is not 0. We may define division of two rational numbers ''p''/''q'' and ''r''/''s'' by
+
+:<math>{p/q \over r/s} = {p \over q} \times {s \over r} = {ps \over qr}.</math>
+
+All four quantities are integers, and only ''p'' may be 0. This definition ensures that division is the inverse operation of multiplication.
+
+==Division of real numbers==
+
+Division of two real numbers results in another real number when the divisor is not 0. It is defined such ''a''/''b'' = ''c'' if and only if ''a'' = ''cb'' and ''b'' ≠ 0.
+
+==Division of complex numbers==
+
+Dividing two complex numbers results in another complex number when the divisor is not 0, defined thus:

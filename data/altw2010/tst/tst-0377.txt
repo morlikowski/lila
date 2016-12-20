@@ -1,0 +1,237 @@
+{{Cheminis elementas|
+žymėjimas=Re|Renis (Re)<!-- Pavadinimas -->|
+Metalas<!-- Grupė, kuriai priskiriamas elementas-->|75<!--Atominis numeris-->|
+?<!-- Išvaizda, pora žodžių-->|
+186,207(1)<!-- Atominė masė (u.m)-->|
+137<!-- Atomo spindulys (pm)-->|
+760<!-- Pirmo elektrono praradimo energija (kJ/mol)-->|
+&#91;Xe&#93; 4f<sup>14</sup> 5d<sup>5</sup> 6s<sup>2</sup><!-- Elektronų konfigūracija-->|
+128<!-- Kovalentinis spindulys (pm)-->|
+?<!-- Jono spindulys(pm)-->|
+1,9<!-- elektroneigiamumas pagal Paulingą-->|
+?<!--Elektrodo potencialas-->|
+?<!-- Oksidacijos laipsniai-->|
+21<!-- Tankis (g/cm&sup3;) -->|
+?<!-- Šiluminė talpa (@20°C J/g mol)-->|
+47,9<!-- Šiluminis laidumas (@25°C W/m K)-->|
+3455<!-- Lydymosi temperatūra (K)-->|
+33,05<!-- Lydymosi šiluma (kJ/mol)-->|
+5870<!-- Virimo temperatūra (K)-->|
+707,1<!-- Garavimo šiluma (kJ/mol)-->|
+8,87<!-- Molinis tūris (cm&sup3;/mol)-->|
+?<!-- Kristalinė gardelė -->|
+?<!-- Gardelės periodas (Å)-->}}
+
+'''Renis''' – cheminis periodinės elementų lentelės elementas, žymimas '''Re''', eilės numeris 75. Sidabriškai baltos spalvos, retas, sunkusis, daugiavalentis pereinamasis manganą ir naudojamas kai kuriuose lydiniuose. 
+
+==Pavadinimo kilmė==
+
+Renis pavadintas pagal lotynišką Reino upės pavadinimą (''Rhenium'').
+
+Category:Cheminiai elementai
+
+co:Reniu
+
+eo:Renio
+es:Renio
+
+fur:Reni
+
+{{Infobox Chemisches Element
+<!--- Periodensystem --->
+| Name = Rhenium
+| Symbol = Re
+| Ordnungszahl = 75
+| Serie = Übergangsmetalle
+| Gruppe = 7
+| Periode = 6
+| Block = d
+| Serienfarbe = LightCoral
+<!--- Allgemein --->
+| Aussehen = gräulich weiß
+| Hauptquelle = <ref>Die Werte der atomaren und physikalischen Eigenschaften (Infobox) sind (soweit nicht anders angegeben) aus [http://www.webelements.com/webelements/elements/text/Re/key.html www.webelements.com (Rhenium)] entnommen.</ref>
+| CAS_Nummer = 7440-15-5
+| Massenanteil = 1 · 10<sup>−7</sup><ref name="HoWi"/>
+<!--- Atomar --->
+| Atommasse = 186,207
+| Atomradius = 135
+| AtomradiusBerechnet = 188
+| KovalenterRadius = 159
+| VanDerWaalsRadius = 
+| Elektronenkonfiguration = <nowiki>[</nowiki>Xe<nowiki>]</nowiki> 4f<sup>14</sup>5d<sup>5</sup>6s<sup>2</sup>
+| ElektronenProEnergieNiveau = 2, 8, 18, 32, 13, 2
+| Austrittsarbeit = 
+| Ionisierungsenergie_1 = 760
+| Ionisierungsenergie_2 = 1260
+| Ionisierungsenergie_3 = 2510
+| Ionisierungsenergie_4 = 3640
+<!--- Physikalisch --->
+| Aggregatzustand = fest
+| Modifikationen = 
+| Kristallstruktur = hexagonal
+| Dichte = 21,02 g/cm<sup>3</sup>
+| RefTempDichte_K = 
+| Mohshärte = 
+| Magnetismus = 
+| Schmelzpunkt_K = 3459
+| Schmelzpunkt_C = 3186
+| Siedepunkt_K = 5869
+| Siedepunkt_C = 5596
+| MolaresVolumen = 8,86 · 10<sup>−6</sup>
+| Verdampfungswärme = 705
+| Schmelzwärme = 33
+| Dampfdruck = 
+| RefTempDampfdruck_K = 3453
+| Schallgeschwindigkeit = 4700
+| RefTempSchallgeschwindigkeit_K = 293,15
+| SpezifischeWärmekapazität = 137
+| RefTempSpezifischeWärmekapazität_K = 
+| ElektrischeLeitfähigkeit = 5,56 · 10<sup>6</sup>
+| RefTempElektrischeLeitfähigkeit_K = 
+| Wärmeleitfähigkeit = 48
+| RefTempWärmeleitfähigkeit_K = 
+<!--- Chemisch --->
+| Oxidationszustände = −2, 2, 4, '''6''', 7
+| Oxide = 
+| Basizität = leicht sauer
+| Normalpotential = −0,276 V (ReO<sub>2</sub> + 4H<sup>+</sup> + 4e<sup>−</sup><br />→ Re + 2H<sub>2</sub>O)
+| Elektronegativität = 1,9
+| Quelle GefStKz = <ref name="BGIA GESTIS"> (Dies gilt nur für Pulver, als kompaktes Material ist Rhenium ungefährlich)</ref>
+| Gefahrensymbole = '''Pulver'''<br />
+| R =  (Pulver)
+| S =  (Pulver)
+<!--- Isotope --->
+| Isotope = 
+{{Infobox Chemisches Element/Isotop
+| AnzahlZerfallstypen = 0
+| Symbol = Re
+| Massenzahl = 185
+| NH = 37,4
+}}
+{{Infobox Chemisches Element/Isotop
+| AnzahlZerfallstypen = 2
+| Symbol = Re
+| Massenzahl = 186
+| NH = 0
+| Halbwertszeit = 89,25 h
+| Zerfallstyp1ZM = β<sup>&minus;</sup>
+| Zerfallstyp1ZE = 1,069
+| Zerfallstyp1ZP = <sup>186</sup>Os
+| Zerfallstyp2ZM = ε
+| Zerfallstyp2ZE = 0,582
+| Zerfallstyp2ZP = <sup>186</sup>W
+}}
+{{Infobox Chemisches Element/Isotop
+| AnzahlZerfallstypen = 2
+| Symbol = Re
+| Massenzahl = 186m
+| NH = 0
+| Halbwertszeit = 200.000 a
+| Zerfallstyp1ZM = IT
+| Zerfallstyp1ZE = 0,149
+| Zerfallstyp1ZP = <sup>186</sup>Re
+| Zerfallstyp2ZM = β<sup>&minus;</sup>
+| Zerfallstyp2ZE = 1,218
+| Zerfallstyp2ZP = <sup>186</sup>Os
+}}
+{{Infobox Chemisches Element/Isotop
+| AnzahlZerfallstypen = 1
+| Symbol = Re
+| Massenzahl = 187
+| NH = '''62,6'''
+| Halbwertszeit = 4,12 · 10<sup>10</sup> a
+| Zerfallstyp1ZM = β<sup>&minus;</sup>
+| Zerfallstyp1ZE = 0,003
+| Zerfallstyp1ZP = <sup>187</sup>Os
+}}
+{{Infobox Chemisches Element/Isotop
+| AnzahlZerfallstypen = 1
+| Symbol = Re
+| Massenzahl = 188
+| NH = 0
+| Halbwertszeit = 17,021 h
+| Zerfallstyp1ZM = β<sup>&minus;</sup>
+| Zerfallstyp1ZE = 2,120
+| Zerfallstyp1ZP = <sup>188</sup>Os
+}}
+| NMREigenschaften =
+{{Infobox_Chemisches_Element/NMR
+| Symbol = Re
+| Massenzahl_1 = 185
+| Kernspin_1 = 5/2
+| Gamma_1 = 6.1057 · 10<sup>7</sup>
+| Empfindlichkeit_1 = 0,137
+| Larmorfrequenz_1 =45
+| Massenzahl_2 = 187
+| Kernspin_2 = 5/2
+| Gamma_2 = 6.1682 · 10<sup>7</sup>
+| Empfindlichkeit_2 = 0,133
+| Larmorfrequenz_2 = 45,5
+}}
+}}
+'''Rhenium''' ist ein Übergangsmetall. Legierungen mit Rheniumanteilen finden Verwendung in Flugzeugtriebwerken, beim Herstellen von bleifreiem Benzin und in Thermoelementen. 
+
+Biologische Funktionen des Rheniums sind nicht bekannt, es kommt normalerweise nicht im menschlichen Organismus vor. Ebenso sind keine toxischen Effekte des Metalls bekannt, es gilt als arbeitshygienisch unbedenklich.<ref name="HoWi"/> 
+
+== Geschichte ==
+Die Existenz des späteren Rheniums wurde erstmals 1871<ref name="Brock">William H. Brock: Viewegs Geschichte der Chemie. Vieweg, Braunschweig 1997, ISBN 3-540-67033-5 </ref> von Dmitri Iwanowitsch Mendelejew als Dwi-Mangan vorhergesagt. Er schloss aus den Gesetzmäßigkeiten des von ihm entworfenem Periodensystems, dass unterhalb des Mangans zwei noch unbekannte Elemente, die späteren Technetium und Rhenium, stehen müssten. 
+thumb|left|100px|Walter Noddack
+thumb|left|100px|Ida Noddack-Tacke
+Entdeckt wurde Rhenium erst 1925 von Otto Berg. Sie untersuchten Eka- und Dwi-Mangan zu finden. Da die gesuchten Elemente in den Proben nur in sehr geringem Maßstab enthalten waren, mussten sie durch Abtrennen der anderen Bestandteile angereichert werden. Schließlich konnte das spätere Rhenium durch lat. ''Rhenus'' für Rhein) und ''Masurium'' (von Masuren). Dieser Name setze sich jedoch nach der Entdeckung des Technetiums 1937 nicht durch. 
+
+1928 konnten Noddack und Tacke erstmals ein Gramm Rhenium aus 660&nbsp;Kilogramm Molybdänerz extrahieren.<ref>Idaund Walter Noddack: ''Die Herstellung von einem Gramm Rhenium'', in: Zeitschrift für anorganische und allgemeine Chemie, 1929, 183, 1, S. 353–375</ref> Wegen der hohen Kosten begann die Herstellung nennenswerter Mengen erst ab 1950, als ein größerer Bedarf für neuentwickelte Wolfram-Rhenium- und Molybdän-Rhenium-Legierungen bestand.
+
+<br style="clear:left" />
+
+== Vorkommen ==
+Rhenium ist nach Anteil beträgt nur 0,7&nbsp;ppb.<ref name="CRC">David R. Lide (ed.): ''</nowiki>SiO<sub>4</sub><nowiki>]</nowiki><sub>2</sub> und [[Alvit ZrSiO<sub>4</sub>. Auch im Vereinigten Staaten, Kanada und Chile.
+
+Bisher wurde erst ein Rheniummineral, das Rheniit (Rhenium(IV)-sulfid, ReS<sub>2</sub>) entdeckt. Der Fundort lag in einer Fumarole am Gipfelkrater des Vulkans Kudriavy auf der Insel Iturup, die zu den Kurilen (Russland) gehört.<ref>M. A. Korzhinsky, S. I. Tkachenko, K. I. Shmulovich, Y. A. Tarant und G. S. Steinberg:'' Discovery of a pure rhenium mineral at Kudriavy volcano'' in: Nature, 1994, 369, 51–53</ref>
+
+== Gewinnung und Darstellung ==
+Der Grundstoff für die Gewinnung von Rhenium sind Molybdänerze, insbesondere Molybdänglanz. Werden diese im Zuge der Molybdängewinnung geröstet, reichert sich Rhenium als flüchtiges Rhenium(VII)-oxid in der Flugasche an. Dieses kann mit ammoniakhaltigem Wasser zu Ammoniumperrhenat (NH<sub>4</sub>ReO<sub>4</sub>) umgesetzt werden. 
+:<math>\mathrm{Re_2O_7 + H_2O + 2\ NH_3 \longrightarrow 2\ NH_4ReO_4}</math>
+
+Das Ammoniumperrhenat wird anschließend bei hohen Temperaturen mit reduziert. 
+:<math>\mathrm{2\ NH_4ReO_4 + 4\ H_2 \longrightarrow 2\ Re + N_2 + 8\ H_2O}</math>
+
+Die Hauptproduzenten waren 2006 Chile, Kasachstan und die Vereinigten Staaten, die Gesamtmenge an produziertem Rhenium belief sich auf etwa 45&nbsp;Tonnen.<ref name="usgs">[http://minerals.usgs.gov/minerals/pubs/commodity/rhenium/rhenimcs07.pdf Rhenium bei usgs mineral resources (2007)]</ref>
+
+== Eigenschaften ==
+=== Physikalische Eigenschaften ===
+thumb|left|Kristallstruktur von Re, a=276,1&nbsp;pm, c=445,8&nbsp;pm<ref>K. Schubert:'' Ein Modell für die Kristallstrukturen der chemischen Elemente'' in: Acta Crystallographica, 1974, B30, S. 193–204</ref>
+Rhenium ist ein weißglänzendes hartes Schwermetall, das äußerlich hexagonal-dichtesten Kugelpackung. Die Dichte des Rheniums 21,03&nbsp;g/cm<sup>3</sup><ref name="HoWi">Arnold F. Holleman, Nils Wiberg: ''Lehrbuch der Anorganischen Chemie''. 102. Auflage. Berlin 2007, ISBN 978-3-11-017770-1. 
+</ref> wird nur von den drei Platinmetallen Osmium, Iridium und Platin übertroffen.
+
+Rhenium hat mit 3186&nbsp;°C<ref name="webelements">[http://www.webelements.com/webelements/elements/text/Re/heat.html Rhenium bei webelements.com]</ref> einen der höchsten Schmelzpunkte aller Elemente. Es wird nur noch von dem höchstschmelzenden Metall Wolfram (3422&nbsp;°C<ref name="webelements"/>) und Kohlenstoff übertroffen. Der Siedepunkt ist mit 5596° C jedoch der höchste aller Metalle  und übetrifft Wolfram (Siedepunkt 5555°C) um 41° C.<ref>http://www.webelements.com/rhenium/physics.html</ref><ref>http://www.webelements.com/tungsten/physics.html</ref>
+
+Unterhalb von 1,7&nbsp;K<ref name="webelements"/> wird Rhenium zum Supraleiter. 
+
+Rhenium lässt sich gut durch duktil ist und dies im Gegensatz zu Wolfram oder Molybdän auch nach Versprödung auf, die zu einer höheren Sprödigkeit und damit schlechteren Materialeigenschaften führen würde.<ref>E. Gebhardt, E. Fromm und Fr. Benesovsky: Hochschmelzende Metalle und ihre Legierungen, in: Materialwissenschaft und Werkstofftechnik, 1972, 3, 4, 197–203</ref>
+
+=== Chemische Eigenschaften ===
+Obwohl Rhenium mit einem negativen Standardpotential nicht zu den Edelmetallen zählt, ist es bei Raumtemperatur unreaktiv und gegenüber Luft stabil. Erst beim Erhitzen reagiert es ab 400&nbsp;°C<ref name="HoWi"/> mit Sauerstoff zu Rhenium(VII)-oxid. Auch mit den Nichtmetallen Fluor, Chlor und Schwefel reagiert es beim Erhitzen.
+
+In nichtoxidierenden oxidierenden Schwefel- und Oxidationsschmelzen bilden sich leicht farblose Perrhenate(VII) der Form ReO<sub>4</sub><sup>−</sup> oder grüne Rhenate(VI)  des Typs ReO<sub>4</sub><sup>2−</sup>.
+
+== Isotope ==
+Es sind insgesamt 34 Tracer verwendet. <sup>188</sup>Re dient als radioaktives Arzneimittel in der Tumortherapie<ref>[http://www.frm2.tum.de/informationen/einzelnews/article/rhenium-188-alles-im-fluss/index.html?cHash=b055b716de Rhenium-188 als Radiopharmazeutikum, Forschungs-Neutronenquelle Heinz Maier-Leibnitz (FRM II), Garching, 19.07.2007]</ref>
+
+Der Zerfall von <sup>187</sup>Re zu <sup>187</sup>Os wird als ''Rhenium-Osmium-Methode'' in der Altersbestimmung von Gesteinen oder Mineralen benutzt. Dabei wird zur Korrektur des schon vorher vorhandenen Osmiums die Isochronenmethode verwendet.<ref>Wissenschaft-Online-Lexika: ''Eintrag zu Rhenium-Osmium-Methode im Lexikon der Geowissenschaften''</ref>
+
+''Siehe auch: Liste der Rhenium-Isotope''
+
+== Verwendung ==
+Rhenium wird meist nicht elementar verwendet, sondern als Beimischung in einer Vielzahl von Legierungen eingesetzt. Etwa 70 %<ref name="minyb2005">[http://minerals.usgs.gov/minerals/pubs/commodity/rhenium/rhenimyb05.pdf usgs mineral resources, mineral yearbook 2005 (Rhenium)]</ref> des Rheniums wird als Zusatz in Nickel-Superlegierungen genutzt. Ein Zusatz von 4 bis 6 % Rhenium bewirkt eine Verbesserung des Kriech- und Ermüdungsverhaltens bei hohen Temperaturen. Diese Legierungen werden als Turbinenschaufeln für Flugzeugtriebwerke eingesetzt.<ref>[http://www.mtu.de/de/technologies/engineering_news/zukuenftige_anforderungen_an_hochtemperaturwerkstoffe.pdf Zukünftige Anforderungen an Hochtemperaturwerkstoffe im Flugturbinenbau, Vortrag MTU Aero Engines GmbH, München, 26. 11. 2004](pdf, 4 MB)</ref> 
+
+Weitere 20 % der produzierten Rheniummenge wird für Platin-Rhenium-Reformieren („Rheniforming“). Der Vorteil des Rheniums liegt darin, dass es im Vergleich mit reinem Platin nicht so schnell durch Kohlenstoffablagerungen auf der Oberfläche des Katalysators („Coking“) desaktiviert wird. Dadurch ist es möglich die Produktion bei niedrigeren Temperaturen und Drücken durchzuführen und so wirtschaftlicher zu produzieren. Auch andere Kohlenwasserstoffe, wie Benzol, Toluol und Xylol lassen sich mit Platin-Rhenium-Katalysatoren herstellen.<ref name="minyb2005"/> 
+
+Thermoelemente für die Temperaturmessung bei hohen Temperaturen (bis 2200&nbsp;°C<ref name="dtv">Hans Breuer: Allgemeine und anorganische Chemie. dtv-Atlas Chemie. Bd 1. dtv, München 2000 (9. Aufl.), ISBN 3-423-03217-0</ref>) werden aus Platin-Rhenium-Legierungen gefertigt. Auch als Legierung mit anderen Metallen, wie Eisen, Cobalt, Wolfram, Molybdän oder Edelmetallen verbessert Rhenium die Beständigkeit gegenüber Hitze und chemischen Einflüssen. Die Anwendung ist jedoch durch die Seltenheit und den hohen Preis des Rheniums beschränkt. 
+
+In einigen Spezialanwendungen wird ebenfalls Rhenium verwendet. Dies sind beispielsweise elektrischen Schaltern.
+
+== Nachweis ==
+Es gibt mehrere Möglichkeiten, Rhenium nachzuweisen. Eine Möglichkeit sind spektroskopische Methoden. Rhenium besitzt eine fahlgrüne Gravimetrisch ist Rhenium über die charakteristisch kristallisierende Perrheniumsäure oder verschiedene Perrhenat-Salze, etwas Tetraphenylarsonium-perrhenat nachweisbar.<ref>Rhenium in: Lexikon der Chemie, Spektrum Akad. Verlag, Heidelberg, 2000</ref> Auch moderne analytische Methoden wie Massenspektrometrie oder Kernresonanzspektroskopie sind für den Nachweis des Elementes geeignet. 
+
+== Sicherheitshinweise ==
+Wie viele Metalle ist Rhenium in Pulverform leichtentzündlich und brennbar. Zum Löschen darf wegen des entstehenden Wasserstoffes kein Wasser verwendet werden. Stattdessen sind als Löschmittel Löschpulver oder Metallbrandlöscher zu verwenden.<ref name="BGIA GESTIS"/> Kompaktes Rhenium ist dagegen nicht brennbar und ungefährlich. Rhenium hat keine bekannte biologische Bedeutung für den menschlichen Organismus. Über die Toxizität von Rhenium ist nichts genaueres bekannt, es existieren keine Toxizitätswerte. Rhenium gilt arbeitshygienisch aber als unbedenklich.<ref name="HoWi"/>

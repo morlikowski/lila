@@ -1,0 +1,38 @@
+thumb|Engineers check an aircraft model before a test run in the Supersonic Wind Tunnel at [[Glenn Research Center|Lewis Flight Propulsion Laboratory.]]
+
+A '''supersonic wind tunnel''' is a M<5)
+The Mach number and flow are determined by the nozzle geometry. The Reynolds number is varied changing the density level (pressure in the settling chamber). Therefore a high pressure ratio is required (for a supersonic regime at M=4, this ratio is of the order of 10). Apart from that, condensation or liquefaction can occur. This means that a supersonic wind tunnel needs a drying or a pre-heating facility.
+A supersonic wind tunnel has a large power demand leading to only intermittent operation. 
+
+==Restrictions for supersonic tunnel operation==
+===Minimum required pressure ratio===
+Optimistic estimate:
+Pressure ratio <math>\leq</math> the total pressure ratio over normal shock at M in test section:
+
+<math>\frac{P_t}{P_{amb}} \leq\left(\frac{P_{t_1}}{P_{t_2}}\right)_{M_1=M_m}</math>
+
+Examples:
+
+===Temperature effects: condensation===
+Temperature in the test section:
+
+<math>\frac{T_m}{T_t}=\left(1+\frac{\gamma-1}{2}M_m^2\right)^{-1}</math>
+
+with <math>T_t</math> = 330K: <math>T_m</math> = 70K at <math>M_m</math> = 4
+
+thumb|Ingenieure überprüfen ein Flugzeugmodell vor einem Testlauf in einem Überschall-Windkanal ([[Glenn Research Center|Lewis Flight Propulsion Laboratory).]]
+
+Ein '''Überschall-Windkanal''' ist ein Druck vor der Düse) festgelegt. Ein hohes Druckverhältnis zwischen Ein- und Auslass ist zum Betrieb notwendig (für einen Betrieb bei Mach 4 ist ein Druckverhältnis von etwa 10 notwendig). Durch die Temperaturabsenkung des Gases bei der Beschleunigung durch die Düse kann Kondensation auftreten, welche Funktionsstörungen hervorruft. Dadurch haben Überschall-Windkanäle oftmals eine Lufttrocknungs- bzw. eine Vorheizeinrichtung. Da Überschall-Windkanäle einen sehr hohen Bedarf an Energie aufweisen, werden sie normalerweise nicht im Dauerbetrieb gefahren.
+
+== Beschränkende Faktoren für die Auslegung ==
+=== Minimal notwendiges Druckverhältnis ===
+Eine optimistische Schätzung ist, dass das Druckverhältnis im Windkanal kleiner als das Totaldruckverhältnis einer senkrechten Stoßwelle mit gleicher Mach-Zahl ist:
+
+<math>\frac{P_t}{P_{amb}} \leq\left(\frac{P_{t_1}}{P_{t_2}}\right)_{M_1=M_m}</math>
+
+=== Temperatur im Messabschnitt und Kondensation ===
+Die Temperatur nach der Düse berechnet sich zu
+
+<math>\frac{T_m}{T_t}=\left(1+\frac{\kappa-1}{2}M_m^2\right)^{-1}</math>
+
+wobei <math>\kappa</math> der Isentropenexponent ist. Beispiel: <math>T_t</math> = 330K: <math>T_m</math> = 70K bei <math>M_m</math> = 4

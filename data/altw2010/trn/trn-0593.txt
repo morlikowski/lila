@@ -1,0 +1,52 @@
+In effector molecule at the protein's allosteric site (that is, a site other than the protein's Greek ''allos'', "other," and ''stereos'', "space," referring to the regulatory site of an allosteric protein's being separate from its active site. Allosteric regulations are natural example of control loops, such as feedback from downstream products or feedforward from upstream substrates.
+
+== Models of allosteric regulation ==
+Most allosteric effects can be explained by  the ''concerted'' Monod, Wyman, and Changeux,<ref>J. Monod, J. Wyman, J.P. Changeux. (1965). On the nature of allosteric transitions:A plausible model. ''J. Mol. Biol.'', May;12:88-118.</ref> or by the sequential model described by Koshland, Nemethy, and Filmer.<ref>D.E. Jr Koshland, G. Némethy, D. Filmer (1966) Comparison of experimental binding data and theoretical models in proteins containing subunits. ''Biochemistry''. Jan;5(1):365-8</ref>  Both postulate that enzyme subunits exist in one of two conformations, tensed (T) or relaxed (R), and that relaxed subunits bind substrate more readily than those in the tense state. The two models differ most in their assumptions about subunit interaction and the preexistence of both states.
+
+=== Concerted model ===
+The  concerted model of allostery, also referred to as the symmetry model or ligand (the allosteric effector or ligand) to a site that is different from the active site (the allosteric site).
+
+=== Sequential model ===
+The sequential model of allosteric regulation holds that subunits are not connected in such a way that a conformational change in one induces a similar change in the others. Thus, all enzyme subunits do not necessitate the same conformation. Moreover, the sequential model dictates that molecules of substrate bind via an induced fit protocol. In general, when a subunit randomly collides with a molecule of substrate, the active site essentially forms a glove around its substrate. While such an induced fit converts a subunit from the tensed state to relaxed state, it does not propagate the conformational change to adjacent subunits. Instead, substrate-binding at one subunit only slightly alters the structure of other subunits so that their binding sites are more receptive to substrate. To summarize:
+* subunits need not exist in the same conformation
+* molecules of substrate bind via induced-fit protocol
+* conformational changes are not propagated to all subunits
+* substrate-binding causes increased substrate affinity in adjacent subunits
+
+== Allosteric activation and inhibition ==
+=== Activation ===
+''Allosteric activation'', such as the binding of substrate and the effector. The allosteric, or "other," site is the active site of an adjoining protein subunit. The binding of oxygen to one subunit induces a conformational change in that subunit that interacts with the remaining active sites to enhance their oxygen affinity.
+
+=== Inhibition ===
+''Allosteric inhibition'' occurs when the binding of one 2,3-BPG binds to an allosteric site on hemoglobin, the affinity for oxygen of all subunits decreases.[http://template.bio.warwick.ac.uk/staff/dhodgson/dnacomp/boolean/allosteric.gif]
+
+Another good example is convulsant poison, acting as an allosteric inhibitor of synaptic inhibitory neurotransmitter in mammalian spinal cord and brain stem. Strychnine acts at a separate binding site on the glycine receptor in an allosteric manner; i.e. its binding lowers the affinity of the glycine receptor for glycine. Strychnine thus inhibits the action of an inhibitory transmitter, causing convulsions.
+
+== Types of effectors ==
+Many allosteric proteins are regulated by their substrate; such a substrate is considered a ''homotropic allosteric modulator'', and is typically an activator. Non-substrate regulatory molecules are called ''heterotropic allosteric modulators'' and can be either activators or inhibitors.
+
+Some allosteric proteins can be regulated by their substrates and by other molecules, as well. Such proteins are capable of both homotropic and heterotropic interactions.
+
+==Pharmacology==
+
+L''''allostérie''' (du grec ἄλλως, ''allos'' : autre et στερεός, ''stereós'' : forme) est un mode de régulation de l'activité d'une Jacques Monod, 1965 dans ''Journal of Molecular Biology''<ref> Journal of Molecular Biology 1965 May:12,88-118.</ref>.
+
+==Principes de l'allostérie==
+La fixation de la molécule effectrice induit un changement de conformation spatiale de la protéine enzymatique. Autrement dit, la disposition spatiale de ses atomes constitutifs est modifiée. Dans le cadre de l'allostérie, cela a pour conséquence de modifier le site de liaison de l'un au moins des réactifs impliqués dans le processus de catalyse. Dans le modèle de Monod-Wyman-Changeux (MWC), les enzymes allostériques doivent présenter plusieurs propriétés :
+* elles sont multimériques, chaque protomère (ou monomère) fixe une molécule de ligand.
+* elles possèdent au moins un axe de symétrie.
+* elles existent sous deux conformations différentes : l'une appelée '''T''', pour ''tendue'', désignant conventionnellement la forme de faible affinité pour le substrat, l'autre '''R''', pour ''relaxée'', de forte affinité pour le substrat.  
+* Au sein d'une protéine, les protomères adoptent tous la même configuration, R ou T (transition concertée). En d'autres termes, il n'existe pas d'hybrides R/T dans le modèle MWC<ref>Cette limitation n'existe pas dans le modèle de Daniel Koshland, dit modèle séquentiel.</ref>.
+
+Il existe une allostérie dite positive où la fixation d'un effecteur augmente l'affinité de liaison du ligand. On parle de ''fixation coopérative''. La molécule effectrice peut être le ligand lui même, qui modifie dans ce cas l'affinité des autres sites de fixation (effet homotrope, par opposition à l'effet hétérotrope qui concerne des molécules de nature différente). Ce système est le ''système K'' (K est le symbole de la constante d'sigmoïde. Le cas inverse existe aussi : dans une ''allostérie négative'' la fixation de l'effecteur diminue l'affinité du ligand. Ce système est le ''système V'' (pour vitesse), dont la courbe représentative est de type hyperbolique.
+
+==Exemple de l'hémoglobine==
+framed|right|Changement de conformation de l'[[hémoglobine induit par fixation d'une molécule de dioxygène (effet homotrope).]]
+L'hémoglobine constitue un exemple important de protéine allostérique, bien qu'elle ne soit pas une enzyme ''stricto sensu'' mais plutôt une molécule de transport. Chaque monomère de l'hémoglobine, qui en comporte quatre, peut fixer une molécule de dioxygène. La fixation de la première molécule de dioxygène augmente l'affinité de liaison de la seconde, la fixation de la seconde augmente l'affinité pour la troisième et ainsi de suite (coopération positive par effet homotrope). Les effecteurs hétérotropes modifiant l'affinité de l'hémoglobine pour le dioxygène sont : le proton H<sup>+</sup>, le dioxyde de carbone et le 2,3 bisphosphoglycerate (un sous-produit de la glycolyse). Ces régulations ont très souvent un rôle physiologique important et peuvent mener, lors de leur dérèglement, à des troubles physiologiques. Ils agissent comme rapporteurs des conditions extérieures, des senseurs.
+
+== Importance physiologique de l'allostérie ==
+L'allostérie est une forme de régulation de l'activité d'une enzyme en fonction des conditions extérieures changeantes. On peut distinguer les effets de senseurs et de rétrocontrôle négatif:
+*Lorsque la glycolyse est soutenue, le 2,3 diphosphoglycerate s'accumule dans le pH acide, reflet d'un rejet accru de dioxyde de carbone, lui-même synonyme d'augmentation de l'activité physiologique, va provoquer une diminution de l'affinité de l'hémoglobine pour le dioxygène et donc un relargage au niveau des tissus, augmentant ainsi leur oxygénation.
+
+*L'effet de rétrocontrôle négatif est très souvent rencontré dans les voies métaboliques. Le produit final de la voie est souvent un inhibiteur allostérique d'un enzyme catalysant une etape initiale. Plus le produit final s'accumule, plus la réaction initiale est lente (par diminution de l'affinité à l'un des réactifs de la réaction) et donc moins de produit sera formé. Ce type de régulation évite d'accumuler le produit final, qui peut être toxique dans certaines circonstances et évite à l'organisme de produire en excès une molécule, ce qui est coûteux en énergie. L'effecteur allosterique participe à l'autorégulation de la voie métabolique:
+**Par exemple, dans la ATP, qui est le produit final « utile » de la glycolyse. À faible concentration, l'ATP se fixe sur le site "ATP est un activateur et le CTP (cytosine triphosphate) et l'UTP (uracile triphosphate) sont inhibiteurs.

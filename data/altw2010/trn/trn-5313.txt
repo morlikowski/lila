@@ -1,0 +1,60 @@
+'''Value added''' refers to the additional value of a commodity over the cost of commodities used to produce it from the previous stage of production. An example is the price of gasoline at the pump over the price of the oil in it.  In land, labor, and capital goods, to raising the value of a product and corresponds to the incomes received by the owners of these factors. The factors of production provide "services" which raise  the unit price of a product ('''X''') relative to the cost per unit of intermediate goods used up in the production of '''X'''. Value added is shared between the factors of production (capital, labor, also human capital), giving rise to issues of distribution.
+
+==Example calculation==
+To understand the concept of value added, take the example of three simple stages of production: 
+
+# 1000 Yen of ''miso soup'' is produced by a chef using pots, pans, and a stove, converting 500 Yen tofu and other ingredients. The chef and his or her tools are the "factors of production," while the tofu (and the other ingredients, ignored here) are the intermediate goods used up and converted into part of the soup. 
+# The ''tofu'' used was converted using 200 Yen of soy beans. The soy beans are the raw material used up and converted into the tofu. 
+# The ''soy beans'' were grown and harvested during the year. Assume, for simplicity, that the 200 Yen measures the value added in that sector. These beans are thus assumed to be simply results of the services of the factors of production. 
+
+If we simply add up the results of the three stages, we get a total of 1900 Yen. But this counts the tofu twice, first by itself and then as part of the miso soup. The soy beans are counted three times, in all three stages. This is double (or triple) counting.
+
+On the other hand, we can get an accurate estimate of the final product by using the value-added method:
+
+# The value added in the first process is 1000 Yen (the soup) minus 500 Yen (the tofu), equalling 500 Yen.
+# the value-added in the second process is 500 Yen (the tofu) minus 200 Yen (the soy beans), equalling 300 Yen.
+# the value added in the third process is, by assumption, 200 Yen.
+
+The sum of these three is 1000 Yen, which is the same as the value of the final product, the miso soup.
+
+==National accounts==
+
+In national accounts such as the United Nations System of National Accounts (UNSNA) or the NIPA's, gross value added is obtained by deducting intermediate consumption from gross output. Thus gross value added is equal to net output. Net value added is obtained by deducting consumption of fixed capital (or depreciation charges) from gross value added. Net value added therefore equals gross wages, pre-tax profits net of depreciation, and indirect taxes less subsidies. 
+
+==Marxist interpretation==
+
+Karl Marx's concept of the value product is similar to the national accounting concept of net national product, or net value added. It is equal to the sum of labor-compensation (variable capital) and surplus-value (pre-tax profit income). The argument is that the labour force produces a new value equivalent to its own wage-cost, plus a surplus-value. 
+
+Neoclassical economics regards the incomes constituting added value as the ''reward'' for services rendered. In his critique of exploitation. 
+
+'''Wertschöpfung''' ist – in einer Güter in Güter mit höherem Geldwert. Der zusätzlich geschaffene Wert kann als Einkommen verteilt werden.
+
+Wertschöpfung als Kennzahl misst den Ertrag wirtschaftlicher Tätigkeit als Differenz zwischen der Leistung einer Wirtschaftseinheit und der zur Leistungserstellung verbrauchten Vorleistung. 
+
+==Beispiel zur Veranschaulichung==
+
+Ein Müller kauft Getreide vom Bauern, das er zu Mehl mahlt. Der Verkaufswert des Mehles (Produktionswert) abzüglich der Kosten für das Getreide (Vorleistung) ist die „Wertschöpfung“. Sie kann als Einkommen verteilt werden, als Lohneinkommen an die Müllergesellen, als Gewinneinkommen (gegebenenfalls einschließlich eines „kalkulatorischen Unternehmerlohns“) an den Müller selbst. 
+
+Ein Bäcker kauft Mehl vom Müller und backt daraus Brot. Der Verkaufswert des Brotes (Produktionswert) abzüglich der Kosten für das gekaufte Mehl (Vorleistung) ist die „Wertschöpfung“. Sie kann als Einkommen verteilt werden, als Lohneinkommen an die Bäckergesellen, als Gewinneinkommen (gegebenenfalls einschließlich eines „kalkulatorischen Unternehmerlohns“) an den Bäcker selbst. 
+
+==Formel==
+
+Die Formel zur Berechnung der Wertschöpfung ist:
+
+::Wertschöpfung = Produktionswert - Vorleistung
+
+Die Begriffe sind folgendermaßen zu verstehen:
+
+* ''Produktionswert'': Leistung ist der bewertete Produktionsausstoß (Umsatzerlös ± Bestandsveränderung) (bei "Nichtmarktproduzenten" sind dies die Summe der Aufwendungen)
+
+* ''Vorleistung: Vorleistungen sind fremdbezogene Güter und Arbeit, denn zusammen mit dem Faktor Kapital ist dieser das Subjekt der Wertschöpfung.
+
+* ''Wirtschaftseinheit'': Als betrachtete Wirtschaftseinheit kommen die gesamte Volkswirtschaft, ein Unternehmen, Teilaktivitäten eines Unternehmens oder ein einzelner Leistungsprozess in Betracht.
+
+Wertschöpfung ist gleichzeitig die Summe aller Einkommen, die aus einer wirtschaftlichen Aktivität entstehen. Sie bemisst damit den Verteilungsspielraum für die Anspruchsberechtigten.
+
+DEF: Wertzuwachs pro Produktionsstufe
+
+== Berechnung der Wertschöpfung in der Volkswirtschaftliche Gesamtrechnung==
+
+Die Bruttowertschöpfung (brutto = einschließlich der Abschreibungen) kann gemäß der Entstehungsrechnung (siehe dort) erfolgen. 

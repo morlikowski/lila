@@ -1,0 +1,95 @@
+{{infobox Franse gemeente|
+|plaatsnaam= Lachapelle-Saint-Pierre
+|wapen= 
+|kaart= 
+|regio= Picardië 
+|departement= Oise (60) |depnr=60
+|arrondissement= Beauvais
+|kanton= Noailles
+|jaar= 2005
+|inwoners= 863
+|dichtheid= 205,5
+|oppervlakte= 4,2
+|water= 
+|latitudeGraden= 49 |latitudeMinuten= 16|latitudeSeconden= 0
+|longitudeGraden= 2 |longitudeMinuten= 14 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 155 |kaartY= 65
+|code= 60334
+|postcode= 60730
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Lachapelle-Saint-Pierre''' is een gemeente in het Franse departement Oise (regio Beauvais.
+
+==Geografie==
+De oppervlakte van Lachapelle-Saint-Pierre bedraagt 4,2 km², de bevolkingsdichtheid is 205,5 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:1200 color:gray1 width:1       
+  from:start till:end             
+  bar:800 color:gray1              
+  from:start till:end            
+  bar:400 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,44)(84,45) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 172 1968: 175
+  points:(84,45)(100,53)    color:blue    width:2 #1975: 232
+  points:(100,53)(128,120)   color:blue    width:2 #1982: 705
+  points:(128,120)(160,151)   color:blue    width:2 #1990: 926
+  points:(160,151)(196,150)   color:blue    width:2 #1999: 916
+  points:(196,150)(228,142)     color:blue    width:2 #2004/5 
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+{{FRA gmina infobox|
+|    herb_gminy = 
+|   flaga_gminy = 
+|    mapa_gminy = 
+|         Gmina = Lachapelle-Saint-Pierre
+|        region = Pikardia
+|   departament = Oise
+|  powierzchnia = 4,23
+|      stopniEW = 2 |minutEW=14 
+|      stopniNS = 49 |minutNS=16 
+|      wysokosc = 
+|          szer = N
+|          dług = E
+|           rok = 1990
+|     populacja = 926
+|       gęstość = 219
+|  kod_pocztowy = 60730
+|         INSEE = 60334
+}}
+'''Lachapelle-Saint-Pierre''' to miejscowość i gmina we Francji, w regionie Oise.
+
+Według danych na rok 1990 gminę zamieszkiwało 926 osób, a gęstość zaludnienia wynosiła 219&nbsp;osób/km² (wśród 2293 gmin Pikardii Lachapelle-Saint-Pierre plasuje się na 310. miejscu pod względem liczby ludności, natomiast pod względem powierzchni na miejscu 946.).
+
+=== Linki zewnętrzne ===
+* Źródło danych: [http://www.insee.fr Insee]
+* '''Mapy i zdjęcia satelitarne: '''
+** Zdjęcie satelitarne: [http://maps.google.com/maps?ll=49.2667,2.2333&spn=0.1,0.1&t=k Google maps]
+** Mapa: [http://maps.msn.com/(cgxnej455qpgxeu5vurxtejz)/map.aspx?&lats1=49.2667&lons1=2.2333&alts1=14&regn1=2 MSN World Atlas]

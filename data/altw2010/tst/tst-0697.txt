@@ -1,0 +1,125 @@
+{{Satelliitti
+| nimi-suomi = Swift
+| nimi-alkuperäinen = Swift Gamma-Ray Burst Mission
+| kuva = Swift spacecraft.jpg
+| kuvateksti = 
+| ohjelma = 
+| organisaatio = Nasa
+| valmistaja = 
+| tehtävätyyppi = Teleskooppi, tarkkailee gammapurkauksia.
+| ohilennot= 
+| kohde = 
+| laukaisu = 20. marraskuuta 2004
+| laukaisualus = Delta II 7320-10C
+| kohteessa =
+| loppu = 
+| tehtävän kesto = 6 vuotta<ref>http://www.omitron.com/headlines/hl05.htm</ref> (saatetaan jatkaa tämänkin jälkeen)
+| massa = 1500 kg
+| teho = 
+| kiertorata = LEO
+| radan isoakselin puolikas = 600 km
+| eksentrisyys = 
+| inklinaatio = 20°
+| kiertoaika = ~90 min
+| apoapsis = 
+| periapsis = 
+| kiertoradat = 
+| kotisivut = http://swift.gsfc.nasa.gov/
+| id = 
+}}
+'''Swift''' on maata kiertävä Yhdysvaltojen lisäksi ottivat osaa Italia ja Iso-Britannia.
+
+== Yleistä ==
+Swift tarkkailee maailmankaikkeutta usealla eri aallonpituudella, näkyvän valon alueelle.
+
+Swiftin tehtävänä on pääasiallisesti tarkkailla gammapurkauksia. Se kykenee itsenäisesti kääntymään suuntaan, jossa se on havainnut gammapurkauksen. Tämä on tärkeää, sillä gammapurkaukset ovat erittäin lyhytaikaisia. Luotain lähettää välittömästi saamansa datan maahan, jotta astronomit kykenisivät tutkimaan purkauksen jälkihehkua.
+
+Swiftin komentokeskus sijaitsee Pennsylvaniassa, Yhdysvalloissa.
+
+== Instrumentit ==
+===Gammapurkaushälytin (BAT)===
+Tällä instrumentilla Swift suuria alueita avaruudesta (yli yhden kulmaminuutin tarkkuudella. Tiedot sijainnista lähetetään maahan, josta purkausta voidaan sitten joillain teleskoopeille seurata. Tarkkailtava energia-alue 15-150 keV
+
+===Röntgensäde teleskooppi (XRT)===
+Tällä instrumentilla Swift kykenee ottamaan kuvia ja spektrianalyysin gammapurkausten jälkihehkusta. Tämä tarkentaa gammapurkausten sijantaia, virheen jäädessä noin 3,5 kulmasekuntiin. Instrumenttia käytetään myös pidempiaikaiseen purkauksen jälkihehkun tarkkailuun. Tarkkailtava energia-alue: 0,2-10 keV.
+
+===Ultravioletti/optinen teleskooppi (UVOT)===
+thumb|250px|right|UVOT:n ensikuva M101 galaksista.
+Tällä instrumentilla tarkkaillaan purkauksen jälkihehkua ultavioletin ja näkyvän valon alueella. Instrumentilla pystytään tarkkailemaan kohdetta alle kulmasekunnin tarkkuudella. Lisäksi instrumentilla kyetään tarkkailemaan purkausta pidemmän aikaa kuin edellä mainituilla instrumenteilla. Tarkkailtava aallonpituusalue on 170–650 nm.
+
+{{Infobox Space telescope
+|name            = Swift Gamma-Ray Burst Mission ("Swift")
+|image           = 240px|Swift
+|caption         = (credit: NASA)
+|organization    = NASA
+|major_contractors = 
+|alt_names       = 
+|nssdc_id        = 
+|location        = 
+|orbit_type      = 
+|height          = 600 km
+|period          = ~90 min
+|velocity        = 
+|accel_gravity   = 
+|launch_date     = 20 November 2004
+|launch_location = 
+|launch_vehicle  = 
+|mission_length  = 6 years<ref name="4_more_years"></ref>
+ (may be further extended)
+|deorbit_date    = no sooner than 2020
+|wavelength      = 
+|mass            = 1500&nbsp;kg
+|style           = coded mask (BAT)<br/>Wolter I (XRT)<br/>Ritchey-Chrétien (UVOT)
+|diameter        = 30 cm (UVOT)
+|area            = 5200 cm<sup>2</sup> (BAT)
+|focal_length    = 381 cm (UVOT)
+|coolant         = 
+|instrument_1_name = BAT
+|instrument_1_characteristics = Burst Alert (gamma-ray) Telescope
+|instrument_2_name = XRT
+|instrument_2_characteristics = X-Ray Telescope
+|instrument_3_name = UVOT
+|instrument_3_characteristics = UltraViolet/Optical telescope
+|website         = http://swift.gsfc.nasa.gov/
+}}
+The '''Swift Gamma-Ray Burst Mission''' consists of a robotic spacecraft called ''Swift'', which was launched into orbit on November 20, 2004, at 17:16:00 UTC (12:16 PM, EST) by a Delta II 7320-10C expendable launch vehicle. Swift is managed by the NASA Goddard Space Flight Center, was developed by an international consortium from the United States, United Kingdom, and Italy and is part of NASA's "Medium Explorer Program" (MIDEX).
+==Overview==
+''Swift'' is a multi-space-based observatory dedicated to the study of gamma-ray burst (GRB) science. Its three instruments work together to observe GRBs and their afterglows in the gamma-ray, X-ray, ultraviolet, and optical wavebands. 
+
+Based on continuous scans of the area of the sky which one of the instruments monitors, Swift uses bird of the same name.<ref>[http://swift.gsfc.nasa.gov/docs/swift/swiftfaq.html#name Swift: Frequently Asked Questions<!-- Bot generated title -->]</ref> All discoveries of Swift are quickly sent to the ground and that data is available to other observatories which join Swift in observing the GRBs.
+
+In the time between GRB events, Swift is available for other science and scientists can submit proposals for observations.
+
+The Swift Mission Operation Center (MOC), where commanding of the satellite is performed, is located in State College, Pennsylvania and operated by the Pennsylvania State University and industry subcontractors. The Swift main ground station is located in Malindi on the coast of Eastern Kenya, Africa and is operated by the Italian Space Agency.  The Swift Science Data Center (SDC) and archive are located at the Goddard Space Flight Center. The UK Swift Science Data Centre is located at the [http://www.swift.ac.uk University of Leicester].
+
+The Swift spacecraft bus was built by Spectrum Astro (now a part of General Dynamics Advanced Information Systems).<ref></ref>
+
+==Instruments==
+===Burst Alert Telescope (BAT)===
+The BAT detects GRBs events and computes its CdZnTe tiles; it is purpose-built for Swift. Energy range: 15 - 150 keV
+
+===X-ray Telescope (XRT)===
+The XRT can take images and perform spectral analyses of the GRB afterglow. This provides more precise location of the GRB, with an error circle of approximately 3.5 arcseconds radius. The XRT is also used to perform long term monitoring of GRB afterglow light-curves for days to weeks, depending on the brightness of the afterglow.  The XRT is primarily composed of the X-ray mirrors from the JET-X mission, with the detector upgraded to a single MOS CCD  similar to those used by the XMM-Newton EPIC MOS cameras. Energy range: 0.2 - 10 keV.
+=== Ultraviolet/Optical Telescope (UVOT) ===
+After Swift has slewed towards an GRB, the UVOT is used to detect an optical afterglow. UVOT provides a sub-arcsecond resolution position and provides photometry through lenticular filters in optical and ultra-violet and spectra (170&ndash;650 nm) through the use of its optical and UV grisms. UVOT is also used to provide long time follow-ups of afterglow lightcurves.  UVOT is based on the XMM-Newton mission's Optical Monitor (OM) instrument, with upgraded onboard processing computers.
+
+==Science goals==
+This mission has multiple science goals:
+*Determine the origin of GRBs. There seem to be at least two types of GRBs, only one of which can be explained with a hypernova, creating a gamma-ray beam. More data is needed to explore other explanations.
+*GRBs seem to take place at "cosmological distances," which means they can be used to probe the distant, and therefore young, universe.
+*The all-sky survey will be more sensitive than any previous one, and will add significantly to our knowledge of astronomical X-ray sources. Thus, it could also yield unexpected results.
+*Swift is also utilized as a general purpose gamma-ray/X-ray/optical observatory platform, performing rapid "Target of Opportunity" observations of many transient astrophysical phenomena, such as supernovae.
+
+==Mission progress==
+thumb|UVOT "[[first light" picture (Credit: NASA/GFSC)]]
+*''Swift'' was launched on km altitude with an inclination of 20°.
+* On Leicester and Penn State University was able to determine on December 8 that the XRT would be usable even without the TEC being operational. Additional testing on December 16 did not yield any further information as to the cause of the [http://heasarc.nasa.gov/docs/swift/operations/log_archives/2004_December.html anomaly].
+* December 17 at 7:28:30 UT, the Swift Burst Alert Telescope (BAT) triggered and located on-board an apparent gamma-ray burst during launch and early operations. The spacecraft did not autonomously slew to the burst since normal operation had not yet begun, and autonomous slewing was not yet enabled.
+* ''Swift'' had its first GRB trigger during a period when the autonomous slewing was enabled on January 17, 2005, at about 12:55 UT. It pointed the XRT telescope to the on-board computed coordinates and observed a bright source in the field of view.
+* On February 1, 2005 the mission team released the "first light" picture of the UVOT instrument and declared ''Swift'' operational.
+* As of December 1, 2005, Swift has detected more than 90 GRBs and X-ray afterglows for about 70 of them, and optical afterglows for about 20 of them (40 including ground-based optical observations).
+
+== Important events and results ==
+* On May 9, 2005, Swift detected GRB 050509b, a burst of gamma rays that lasted one-twentieth of a second. The detection marks the first time that the location of a short-duration gamma-ray burst has been identified.
+
+* On September 4, 2005, Swift detected GRB 050904 with a redshift value of 6.29 and a duration of 200 seconds (most of the detected bursts last about 10 seconds). It was also found to be the most distant at approximately 12.6 billion light years.

@@ -1,0 +1,63 @@
+Un '''ligand''' est un atome, ion ou molécule portant des fonctions chimiques lui permettant de se lier à un ou plusieurs atomes ou ions centraux. Le terme de ligand est le plus souvent utilisé en chimie de coordination et en chimie organométallique (branches  de la chimie inorganique). 
+
+L'interaction métal/ligand est du type acide de Lewis/base de Lewis. 
+Dans ce cadre l'association d'un ou de complexe de cordination (ou complexe organométallique s'il contient au moins une liaison métal-carbone).
+
+== Les différents types de ligands ==
+Les ligands sont de nature très variée. Parmi les plus courants on trouve des molécules comme l’eau H<sub>2</sub>O ou l’ammoniac NH<sub>3</sub> ou des anions comme les chlorures Cl<sup>-</sup>, les cyanures CN<sup>-</sup>, les hydroxydes OH<sup>-</sup>.
+
+Les molécules portants plusieurs fonctions chimiques pouvant jouer le rôle de ligands sont des ligands ''polydentés'' ou ''polydentes'' (l'anglicisme ''polydentate'' est parfois utilisé, à tort) :  leur ''denticité'', c'est à dire le nombre d'atomes susceptibles de se lier au métal, est supérieure à 1. La liaison des ligands polydentés est favorisée entropiquement par rapport à celle des ligands monodentés (ou ''monodentes'', denticité=1). En effet, dans les réactions de déplacement de ''n'' ligands monodentés autour d'un ion central par 1 ligand polydenté il y a augmentation du nombre de molécules total de ''n-1'', ce qui est favorable entropiquement.
+
+* Quelques exemples de ligands monodentates neutres: H<sub>2</sub>O, NH<sub>3</sub>, CH<sub>3</sub>NH<sub>2</sub>, CO et NO.
+* Quelques exemples de ligands monodentates ioniques: F<sup><nowiki>&minus;</nowiki></sup>, CN<sup><nowiki>&minus;</nowiki></sup>, Cl<sup><nowiki>&minus;</nowiki></sup>, Br<sup><nowiki>&minus;</nowiki></sup>, I<sup><nowiki>&minus;</nowiki></sup>, NO<sub>2</sub><sup><nowiki>&minus;</nowiki></sup> et OH<sup><nowiki>&minus;</nowiki></sup>.
+
+== Formation de complexes ==
+
+La capacité d'un ligand à se lier à un métal est corrélée approximativement à sa nucléophilie dans les réactions organiques
+
+In covalent to more ionic. Furthermore, the metal-ligand bond order can range from one to three. Ligands are viewed as Lewis bases, although rare cases are known involving Lewis acidic "ligands."<ref>Cotton, F. A. and Wilkinson, G., ''Advanced Inorganic Chemistry'', John Wiley and Sons: New York, 1988. ISBN 9780471199575</ref>   
+
+bioinorganic and medicinal chemistry, homogeneous catalysis, and environmental chemistry.
+
+Ligands are classified in many ways: their charge, size (bulk), the identity of the coordinating atom(s), and their denticity. The size of a ligand is indicated by its cone angle.
+
+==Inner- vs out-sphere ligands==
+In coordination chemistry, the ligands that are directly bonded to the metal (that is, share electrons), are sometimes called "inner sphere" ligands.  "Outer-sphere" ligands are not directly attached to the metal, but are bonded, generally weakly, to the first coordination shell, affecting the inner sphere in subtle ways. The complex of the metal with the inner sphere ligands is then called a coordination complex, which can be neutral, cationic, or anionic). The complex, along with its counter ions (if required), is called a coordination compound. 
+
+thumb|left|120px|Metal-[[EDTA complex, wherein the aminocarboxylate is a hexadentate chelating ligand. ]]
+thumb|left|120px|Cobalt(III) complex containing six [[ammonia ligands, which are monodentate. The chloride is not a ligand.]]
+
+== Strong field and weak field ligands ==
+
+In general, ligands are viewed as donating electrons to the central atom. Bonding is often described using the formalisms of molecular orbital theory. In general, electron pairs occupy the HOMO of the ligands. 
+
+Ligands and metal ions can be ordered in many ways, one ranking system focuses on ligand 'hardness' (see also hard soft acid base theory). Metal ions preferentially bind certain ligands. In general, 'hard' metal ions prefer weak field ligands, whereas 'soft' metal ions prefer strong field ligands. From a MO point of view, the HOMO of the ligand should have an energy that makes overlap with the LUMO of the metal preferential. Metal ions bound to strong-field ligands follow the Aufbau principle, whereas complexes bound to weak-field ligands follow Hund's rule.  
+
+Binding of the metal with the ligands results in a set of molecular orbitals, where the metal can be identified with a new HOMO and LUMO (the orbitals defining the properties and reactivity of the resulting complex) and a certain ordering of the 5 d-orbitals (which may be filled, or partially filled with electrons). In an octahedral environment, the 5 otherwise degenerate d-orbitals split in sets of 2 and 3 orbitals (for a more in depth explanation, see crystal field theory).
+::3 orbitals of low energy: ''d<sub>xy</sub>'', ''d<sub>xz</sub>'' and ''d<sub>yz</sub>''
+::2 of high energy: ''d''<sub>''z''<sup>2</sup></sub> and ''d''<sub>''x''<sup>2</sup><nowiki>&minus;</nowiki>''y''<sup>2</sup></sub>
+
+The energy difference between these 2 sets of d-orbitals is called the splitting parameter, Δ<sub>o</sub>. The magnitude of Δ<sub>o</sub> is determined by the field-strength of the ligand: strong field ligands, by definition, increase Δ<sub>o</sub> more than weak field ligands. Ligands can now be sorted according to the magnitude of Δ<sub>o</sub> (see the table below). This ordering of ligands is almost invariable for all metal ions and is called spectrochemical series.
+
+For complexes with a tetrahedral surrounding, the d-orbitals again split into two sets, but this time in reverse order:
+::2 orbitals of low energy: ''d''<sub>''z''<sup>2</sup></sub> and ''d''<sub>''x''<sup>2</sup><nowiki>&minus;</nowiki>''y''<sup>2</sup></sub>
+::3 orbitals of high energy: ''d''<sub>''xy''</sub>, ''d''<sub>''xz''</sub> and ''d''<sub>''yz''</sub>
+The energy difference between these 2 sets of d-orbitals is now called Δ<sub>t</sub>. The magnitude of Δ<sub>t</sub> is smaller than for Δ<sub>o</sub>, because in a tetrahedral complex only 4 ligands influence the d-orbitals, whereas in an octahedral complex the d-orbitals are influenced by 6 ligands. When the coordination number is neither octahedral nor tetrahedral, the splitting becomes correspondingly more complex. For the purposes of ranking ligands, however, the properties of the octahedral complexes and the resulting Δ<sub>o</sub> has been of primary interest.
+
+The arrangement of the d-orbitals on the central atom (as determined by the 'strength' of the ligand), has a strong effect on virtually all the properties of the resulting complexes. E.g. the energy differences in the d-orbitals has a strong effect in the optical absorption spectra of metal complexes. It turns out that valence electrons occupying orbitals with significant 3d-orbital character absorb in the 400-800 nm region of the spectrum (UV-visible range). The absorption of light (what we perceive as the color) by these electrons (that is, excitation of electrons from one orbital to another orbital under influence of light) can be correlated to the ground state of the metal complex, which reflects the bonding properties of the ligands. The relative change in (relative) energy of the d-orbitals as a function of the field-strength of the ligands is described in Tanabe-Sugano diagrams.
+
+In cases where the ligand has low energy LUMO, such orbitals also participate in the bonding. The metal-ligand bond can be further stabilised by a formal donation of electron density back to the ligand in a process known as ''back-bonding.''  In this case a filled, central-atom-based orbital donates density into the LUMO of the (coordinated) ligand. Carbon monoxide is the preeminent example a ligand that engages metals via back-donation. Complementarily, ligands with low-energy filled orbitals of pi-symmetry can serve as pi-donor.
+
+==Polydentate and polyhapto ligand motifs and nomenclature==
+Many ligands are capable of binding metal ions through multiple sites, usually because the ligands have chelating''. A ligand that binds through two sites is classified as ''bidentate,'' and three sites as ''tridentate''. The ''bite angle'' refers to the angle between the two bonds of a bidentate chelate. Chelating ligands are commonly formed by linking donor groups via organic linkers. The classic ''bi''dentate ligand is ethylenediamine, which is derived by the linking of two ammonia groups with an ethylene (-CH<sub>2</sub>CH<sub>2</sub>-) linker. A classic example of a ''poly''dentate ligand is the hexadentate chelating agent EDTA, which is able to bond through six sites, completely surrounding some metals. The number of atoms with which a polydentate ligand bind to the metal centre is called its denticity, symbolized κ<sup>n</sup>, where n indicates the number non-contiguous donor sites by which a ligand attaches to a metal. EDTA<sup>4<nowiki>&minus;</nowiki></sup>, when it is sexidentate, binds as a κ<sup>6</sup>-ligand, the amines and the carboxylate oxygen atoms are not contiguous. In practice, the n value of a ligand is not indicated explicitly but rather assumed. The binding affinity of a chelating system depends on the chelating angle or bite angle.
+
+Related to but distinct to from denticity is hapticity, symbolized η or eta. Hapticity refers to the number of ''contiguous'' atoms in a ligand that are attached to a metal. Butadiene forms both η<sup>2</sup> and η<sup>4</sup> complexes depending on the number of carbon atoms are bonded to the metal.   To simplify matters, η<sup>n</sup> usually refers to unsaturated hydrocarbons and κ<sup>n</sup> usually to describe polydentate amine and carboxylate ligands.
+
+Complexes of polydentate ligands are called ''chelate'' complexes. They tend to be more stable than complexes derived from monodentate ligands. This enhanced stability, the chelate effect, is usually attributed to effects of entropy, which favors the displacement of many ligands by one polydentate ligand. When the chelating ligand forms a large ring that at least partially surrounds the central atom and bonds to it, leaving the central atom at the centre of a large ring. The more rigid and the higher its denticity, the more inert will be the macrocyclic complex. Heme is a good example: the iron atom is at the centre of a porphyrin macrocycle, being bound to four nitrogen atoms of the tetrapyrrole macrocycle. The very stable dimethylglyoximate complex of nickel is a synthetic macrocycle derived from the anion of dimethylglyoxime.
+
+== Single atom bonding motifs ==
+=== Ambidentate ligand ===
+Unlike polydentate ligands, ambidentate ligands can attach to the central atom in two places but not both. A good example of this is thiocyanate, SCN<sup><nowiki>&minus;</nowiki></sup>, which can attach at either the sulfur atom or the nitrogen atom. Such compounds give rise to linkage isomerism. Polyfunctional ligands, see especially proteins, can bond to a metal center through different ligand atoms to form various isomers.
+
+=== Bridging ligand ===
+CO<sub>2</sub><sup>2-</sup> are especially prone to bridge. The bonding is complicated because polyatomic ligands are ambidentate and thus the capacity for many different linkage isomers. Atoms that bridge metals are sometimes indicated with prefix of "μ" (mu). Most inorganic solids, e.g. FeCl<sub>2</sub>, are polymers by virtue of the presence of multiple bridging ligands.

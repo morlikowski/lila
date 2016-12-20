@@ -1,0 +1,112 @@
+{{infobox Franse gemeente|
+|plaatsnaam= Étinehem
+|wapen= 
+|kaart= 
+|regio= Picardië 
+|departement= Somme (80)
+|arrondissement= Péronne
+|kanton= Bray-sur-Somme
+|jaar= 1999
+|inwoners= 279
+|dichtheid= 24,9
+|oppervlakte= 11,2
+|water= 
+|latitudeGraden= 49 |latitudeMinuten= 56|latitudeSeconden= 0
+|longitudeGraden= 2 |longitudeMinuten= 41 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 164 |kaartY= 44
+|code= 80295
+|postcode= 80340
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Étinehem''' is een gemeente in het Franse departement Somme (regio Péronne.
+
+==Geografie==
+De oppervlakte van Étinehem bedraagt 11,2 km², de bevolkingsdichtheid is 24,9 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:450 color:gray1 width:1       
+  from:start till:end             
+  bar:300 color:gray1              
+  from:start till:end            
+  bar:150 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,139)(84,127) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 315 1968: 284
+  points:(84,127)(100,129)    color:blue    width:2 #1975: 289
+  points:(100,129)(128,125)   color:blue    width:2 #1982: 278
+  points:(128,125)(160,125)   color:blue    width:2 #1990: 279
+  points:(160,125)(196,125)   color:blue    width:2 #1999: 279
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+{{French commune
+|name= Étinehem
+|image_map = France_jms.png
+|x = 144
+|y = 38|
+|region=Picardie
+|departement=Somme
+|arrondissement=Péronne
+|canton=Canton de Bray-sur-Somme
+|insee=80295
+|cp=80340
+|maire=Jean-Pierre Rouveau
+|mandat=2001&ndash;2008
+|intercomm=Communauté de communes du Pays du Coquelicot
+|alt moy=55 m
+|alt mini=32 m
+|alt maxi=103 m
+|km²=11.08
+|sans=279
+|date-sans=1999
+|dens=25
+|}}
+'''Étinehem''' is a commune in the department and region of France.
+
+==Geography==
+Étinehem is situated on the D11 road and the banks of the River Somme, some 33 km east of Amiens.
+
+==Places of interest==
+* Church of Saint Peter (1866)
+* Saint Anne’s chapel
+* The lakes of the Haute Somme
+* Ancient ruined windmill
+
+==Population==
+{| align="center" rules="all" cellspacing="0" cellpadding="4" style="border: 1px solid #999; border-right: 2px solid #999; border-bottom:2px solid #999; background: #f3fff3"
+|+ style="font-weight: bold; font-size: 1.1em; margin-bottom: 0.5em"| Population Growth
+|-style="background: #ddffdd"
+! 1962 !! 1968 !! 1975 !! 1982 !! 1990 !! 1999 
+|-
+| align=center| 253|| align=center| 284|| align=center| 289|| align=center| 278|| align=center| 279|| align=center| 279
+|-
+| colspan=6 align=center| <small>Census count starting from 1962 : Population without double counting
+|}
+
+==See also==
+Communes of the Somme department

@@ -1,0 +1,57 @@
+בנאו-קלאסית, '''תועלת שולית''' (''Marginal Utility'') היא תוספת התועלת הנובעת מגידול של יחידת שימוש של מוצר, כאשר הכמות של יתר יחידות השימוש נותרת קבועה. דרך אחרת למדוד תועלת שולית היא מדידת התועלת עליה מוותר צרכן או פירמה בעת ירידה בגורם ייצור המחייבת וויתור על תועלת אחת. 
+
+הביטוי '''תועלת שולית''' נובע מהמילה שוליים (''margin''), מתוך הכוונה שמדובר בתועלת האחרונה שנוספה או התועלת הראשונה שנוותר עליה. הביטוי הפך לפופולרי, ככל הנראה, במאה ה-19, עם פיתוחה של התורה הנאו-קלאסית. עם זאת, אסכולות נוספות בכלכלה (ובעיקר האסכולה האוסטרית) השתמשו במושג בדרכים שונות כדי לתאר את השפעותיהן של בחירות כלכליות.
+==תועלת שולית וגורמי ייצור==
+התועלת השולית ממוצר נמדדת בתור הגידול בתועלת של הצרכן כתוצאה מגידול של יחידה אחת בתצרוכת של אותו מוצר. דרך נוספת למדוד את התועלת השולית היא הירידה בכמות התועלת כאשר התצרוכת קטנה ביחידה אחת.
+מאחורי מושגים אלו עומדת ההנחה שהצרכן מפיק תועלת מצריכה, ומטרתו להגיע למקסימום תועלת: הן בהווה בהינתן ההכנסה הפנויה שלו שתשמש אותו לתצרוכת, והן לאורך זמן בהינתן זרמי ההכנסה שלו, היכולת להעביר הכנסות מתקופה לתקופה והמחירים בכל תקופה.
+מובן שלא מדובר בפונקציות שניתן למדוד אותן בפועל, אלא בניסוח פורמלי של דפוסי התנהגות מסוימים של הצרכן.
+
+==תועלת שולית וצריכה==
+התועלת השולית במוצרי צריכה אינה תמיד בת-כימות – ישנן תועלות שהן לא מוחשיות, כגון יוקרה, מעמד או סיפוק אומנותי. מדידת התועלת השולית יכולה להתבצע או באמצעות פרמטרים ממדעים אחרים (כגון רפואה, פסיכולוגיה או סוציולוגיה) או באמצעות השפעתם על תועלות שהן מוחשיות. לדוגמה, רכישת ידע אקדמאי יכולה להימדד באופן פסיכולוגי (התועלת היא הנאה מעצם הלמידה), באופן סוציולוגי (התועלת היא עלייה בסטטוס החברתי) או באופן כלכלי (התועלת היא רכישת עבודה בעלת כושר השתכרות גבוה יותר).
+
+==חוק תועלת שולית פוחתת==
+חוק תועלת שולית פוחתת ('''Diminishing Marginal Utility''') קובע כי כאשר השימוש מוצר מסוים יעלה, תפחת תוספת התועלת (הנאה) מאותו מוצר. מבחינה מתמטית פירוש הדבר הוא שהתועלת כנגזרתה הולכת וקטנה (הווה אומר: הנגזרת הראשונה לפי הכמות היא חיובית בדרך כלל, והנגזרת השנייה שלילית).
+
+thumb|300px|Nutzenfunktion U(x)Die '''Nutzenfunktion''' ist in der homo oeconomicus gesehen wird, der danach strebt, aus der Menge ihm zur Verfügung stehender Alternativen diejenige mit dem größten Nutzen auszuwählen. Werden Präferenzen durch Nutzenfunktionen repräsentiert, so bedeutet dies, dass ein Individuum jene Entscheidungen trifft, für die es – gegeben die Restriktionen, denen sein Handeln unterliegt – den größtmöglichen Nutzen erwartet.
+
+Dem modernen Verständnis der Grenznutzenbetrachtung gingen die Entwicklungen der Grenznutzenschulen voraus.
+
+Das Konzept der Nutzentheorie wird dabei sowohl in der wirtschaftspolitischer Entscheidungsträger mit Hilfe von Nutzenfunktionen dargestellt.
+
+== Nutzentheorie in der Mikroökonomie ==
+In der mikroökonomischen Theorie geht man davon aus, dass Individuen Präferenzen über die ihnen potenziell zur Verfügung stehenden Auswahlalternativen (z. B. Konsumgüterbündel) haben. Mathematisch lassen sich derartige Präferenzen (die sehr allgemein sein können) als binäre Relationen darstellen.  Diese Relation ordnet je zwei Alternativen A und B die Aussagen „A wird vom Individuum mindestens so hoch geschätzt wie B“, „B wird vom Individuum mindestens so hoch geschätzt wie A“, oder „A und B sind aus Sicht des Individuums nicht vergleichbar“. 
+
+Eine häufig getroffene Annahme ist, dass Präferenzen Ordnungen sind, d. h. dass die ihnen zugrunde liegenden binären Relationen vollständig (es gibt keine Nichtvergleichbarkeiten von Alternativen), reflexiv (jede Alternative wird mindestens so hoch geschätzt wie sie selbst) und transitiv sind (Wenn A vom Individuum mindestens so hoch geschätzt wird wie B und B mindestens so hoch geschätzt wird wie C, dann wird A auch mindestens so hoch geschätzt wie C).
+
+Existiert eine Präferenzordnung über einer Alternativenmenge, so lässt sie sich durch eine reellwertige Funktion mit folgender Interpretation darstellen: Eine Alternative A wird genau dann mindestens so gut eingeschätzt wie eine Alternative B, wenn der Wert der Funktion für A nicht kleiner ist als der Wert der Funktion für B. Diese Funktion heißt dann Nutzenfunktion. Sie ist eine bequeme mathematische Abbildung individueller Präferenzen.
+
+Von besonderer analytischer Bedeutung ist für eine (beliebige) Alternative A die Menge aller Alternativen, die mindestens so gut eingeschätzt werden wie A. Diese Menge heißt Bessermenge von A. Ihr Rand, d. h. die Menge aller Alternativen, die von einem Individuum als gleichwertig zu A eingeschätzt werden, heißt Indifferenzmenge zu A. Bei Repräsentation der Präferenzen durch eine Nutzenfunktion stiften alle Elemente der Indifferenzmenge zu A denselben Nutzen wie A. Graphisch wird die Indifferenzmenge zu einer Alternative als Indifferenzkurve dargestellt; inhaltlich kann man auch von einer Indifferenzkurve zu einem bestimmten Nutzenniveau (statt zu einer Alternative) sprechen.
+
+In der mikroökonomischen Theorie der Konsumgüternachfrage (Nutzenniveau an, das ein individueller Konsument durch den Konsum bestimmter Gütermengen erreicht:
+
+:<math>u=U(C_1,C_2,\ldots,C_n)</math>.
+
+Dabei bezeichnet <math>u</math> das Nutzenniveau, <math>C_i</math> die konsumierten Mengen der einzelnen Güter und <math>n</math> die Anzahl der Konsumgüter. Da als Güterraum oft die <math>n</math>-dimensionalen reellen Zahlen modelliert werden, unterstellt man oft, dass <math>U
+</math> stetig differenzierbar ist.
+
+Eine Indifferenzkurve zum Nutzenniveau <math>\bar u
+</math> ist die Menge aller Konsumgüterbündel <math>(C_1,C_2,\ldots,C_n)</math>, für die gilt: <math>U(C_1,C_2,\ldots,C_n)=\bar u</math>. 
+
+Durch Optimierung über die Nutzenfunktion versucht der Konsument so, sein Haushaltsoptimum zu erlangen. 
+
+=== Grenznutzen ===
+Die erste Ableitung der Nutzenfunktion nach der Menge eines der Konsumgüter <math>\frac{\partial U}{\partial C_i}</math> wird auch '''Grenznutzen''' dieses Gutes genannt. Umgangssprachlich beantwortet der Grenznutzen die Frage, wie viel zusätzlichen Nutzen eine weitere Einheit des Gutes <math>i</math> stiften würde.
+
+Ein Grenznutzen von 0 bedeutet, dass für dieses Gut Sättigung eingetreten ist.
+
+=== Allgemeine Annahmen ===
+Bei normalen Gütern geht man oft davon aus, dass zusätzlicher Konsum grundsätzlich einen höheren Nutzen stiftet, selbst wenn die bereits konsumierte Menge sehr groß ist. Das heißt, dass die Nutzenfunktion in jedem ihrer Argumente streng monoton steigt beziehungsweise dass der Grenznutzen auch für große <math>C_i</math> positiv ist.
+
+In der traditionellen Nutzentheorie unterstellt man häufig, dass der Nutzengewinn durch den Konsum einer  zusätzlichen Einheit eines Gutes mit der Höhe der bereits konsumierten Menge diesen Gutes abnimmt, wie dies bereits im ersten gossenschen Gesetz festgestellt wird. Man spricht dabei von abnehmendem Grenznutzen beziehungsweise konkaver Nutzenfunktion. Diese Annahme ist im Allgemeinen unnötig. Benötigt wird als Annahme gemeinhin nur die Quasi-Konkavität der Nutzenfunktion (abnehmende Grenzrate der Substitution zwischen je zwei Gütern; konvexe Bessermengen bzw. Indifferenzkurven).
+
+==== Quasilineare Nutzenfunktionen ====
+Eine Nutzenfunktion ist quasilinear, wenn sie die Form
+<math> u(x,p)=v(x)-p</math>
+besitzt. <math>p</math> wird dabei als zu zahlende Geldsumme interpretiert. Ist das Ergebnis eines Spieles für einen Agenten also <math>(x,p)</math>, so berechnet sich der Nutzen für den Agenten aus seinem Nutzen aus <math>x</math>, vermindert um die Geldzahlung <math>p</math>.
+
+Quasilineare Nutzenfunktionen spielen eine bedeutende Rolle in der Mechanismus-Design-Theorie und der Auktionstheorie.

@@ -1,0 +1,26 @@
+'''クライオポンプ'''は、真空ポンプの一つ。気体分子を極低温面に凝縮させて捕捉する、気体ため込み式真空ポンプである。ここでは、ソープションポンプの機能を付加した'''クライオソープションポンプ'''についても言及する。
+
+== 概要 ==
+クライオポンプは、ため込み式真空ポンプの一つである。真空容器内に極低温面を設置することで、その表面に残留気体を凝縮させ捕捉する。真空容器内で動作する装置が無く、また油を利用しないオイルフリー（Paと広い。
+
+水素、L/s）を持ち、特に他のポンプに比べて水蒸気の排気速度が大きい。
+
+欠点は、
+* 極低温面を作り出すのに時間がかかるため、電源を入れてから使用可能になるまで1～数時間は待たねばならないこと
+* 冷媒を圧縮するコンプレッサ（冷凍機）から大きな音が出ること
+* 定期的にため込まれた気体を放出させ、ポンプを再生させる必要があること
+
+== 構造 ==
+クライオポンプは、2段式の冷凍機構を持つ装置が一般的である。1段目は冷凍能力が大きく80K以下に冷却し、2段目は冷凍能力は小さいが、10 - 12Kに冷却することができる。1段目では水蒸気やアンモニア、二酸化炭素などが排気され、2段目では酸素や窒素、アルゴンなどが排気される。
+
+凝縮パネル（及び後述の吸着パネル）は、ヘリウムガスを冷媒とした冷凍機構によって冷却される。そのため、ポンプに加えてコンプレッサ一式が必要となる。
+
+A '''cryopump''' is a vacuum pump that traps gases and vapours by condensing them on a cold surface. They are only effective on some gases, depending on the freezing and boiling points of the gas relative to the cryopump's temperature. They are sometimes used to block particular contaminents, for example in front of a diffusion pump to trap backstreaming oil, or in front of a McLeod gauge to keep out water. In this function, they are called a '''cryotrap''' or '''cold trap''', even though the physical mechanism is the same as for a cryopump. '''Cryotrapping''' can also refer to a somewhat different effect, where molecules will increase their residence time on a cold surface without actually freezing. There is a delay between the molecule impinging on the surface and rebounding from it.  Kinetic energy will have been lost, the molecules slow down. For example, hydrogen will not condense at 8 kelvins, but it can be cryotrapped. This effectively traps molecules for an extended period and thereby remove them from the vacuum environment just like cryopumping.
+
+==Operation==
+
+Cryopumps are commonly cooled by dry ice or liquid nitrogen, or stand-alone versions may include a built-in cryocooler. Baffles are often attached to the cold head to expand the surface area available for condensation, but they also increase the radiative heat uptake of the cryopump. Over time, the surface eventually saturates with condensate and the pumping speed gradually drops to zero. It will hold the trapped gases as long as it remains cold, but it will not condense fresh gases from leaks or backstreaming until it is regenerated. Saturation happens very quickly in low vacuums, so cryopumps are usually only used in high or ultrahigh vacuum systems.
+
+Regeneration of a cryopump is the process of evaporating the trapped gases. This can be done at room temperature and pressure, or the process can be made more complete by exposure to vacuum and faster by elevated temperatures. Best practice is to heat the whole chamber under vacuum to the highest temperature allowed by the materials, allow time for outgassing products to be exhausted by the mechanical pumps, and then cool and use the cryopump without breaking the vacuum.
+
+Some cryopumps have multiple stages at various low temperatures, with the outer stages shielding the coldest inner stages. The outer stages condense high boiling point gases such as water and oil, thus saving the surface area and refrigeration capacity of the inner stages for lower boiling point gases such as nitrogen.

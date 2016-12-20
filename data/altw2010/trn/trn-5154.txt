@@ -1,0 +1,19 @@
+'''Go-Back-N ARQ''' è un istanza specifica del protocollo ARQ, nel quale il processo mittente continua a mandare un numero di frame specificato da una ''grandezza della finestra'' (window size) Anche senza ricevere alcun pacchetto di acknowledgement dal destinatario.
+
+Mittente e destinatario necessitano di accordarsi preventivamente sulla semantica degli acknowledgement, poiché tre vie sono possibili:
+
+La prima, che utilizza '''ACK individuali(o selettivi)''', assegna all' ACK(''n'') il significato "ho ricevuto il pacchetto ''n''" e prevede che il destinatario mantenga traccia del numero di sequenza del successivo frame che si aspetta di ricevere, e spedisce tale numero, ogni volta che manda un segnale ACK. Se un frame inviato dal mittente non arriva al destinatario, il mittente fermerà l'invio dei frame. Una volta che il mittente ha spedito tutti i frame della sua ''finestra'', si renderà conto che tutti i frame dalla prima perdita in poi sono stati ''evasi'', e tornerà quindi indietro all'ultimo numero di sequenza ACK ricevuto dal processo destinatario e ricomincerà a creare la finestra, a partire proprio da quel frame.
+
+La seconda, che utilizza '''ACK cumulativi''' e assegna all'ACK(''n'') il significato di "ho ricevuto tutti i pacchetti fino ad ''n'' escluso", funziona similmente alla prima, ma su gruppi di pacchetti: questo permette di risparmiare sugli ACK inviati, ma in caso di errore va ritrasmessa l'intera finestra.
+
+Come ultima possibilità vi è quella dell' '''ACK negativo,''' dove il destinatario notifica la necessità di ritrasmissione di un singolo pacchetto.
+
+La grandezza della finestra deve essere un numero comparabile a quello della sequenza per permettere la verifica di avvenuta trasmissione anche nel caso in cui ogni pacchetto venga perso.
+
+'''Go-Back-N ARQ''' is a specific instance of the Automatic Repeat-reQuest (ARQ) Protocol, in which the sending process continues to send a number of frames specified by a ''window size'' even without receiving an ACK packet from the receiver.
+
+The receiver process keeps track of the sequence number of the next frame it expects to receive, and sends that number with every ACK it sends. The receiver will ignore any frame that does not have the exact sequence number it expects -- whether that frame is a "past" duplicate of a frame it has already ACK'ed, or whether that frame is a "future" frame past the lost packet it is waiting for. Once the sender has sent all of the frames in its ''window'', it will detect that all of the frames since the first lost frame are ''outstanding'', and will go back to sequence number of the last ACK it received from the receiver process and fill its window starting with that frame and continue the process over again.
+
+The sending window size must be no more than the number of sequence numbers (if they are numbered from zero to n-1) to verify transmission in cases of any packet (any data or ACK packet) being dropped. (Source: Tanenbaum, Andrew S. Computer Networks 4th ed. ISBN 0-13-066102-3)
+
+Go-Back-N ARQ is a more efficient use of a connection than Stop-and-wait ARQ, since unlike waiting for an acknowledgement for each packet, the connection is still being utilized as packets are being sent. In other words, during the time that would otherwise be spent waiting, more packets are being sent. However, this method also results in sending frames multiple times -- if any frame was lost or damaged, or the ACK acknowledging them was lost or damaged, then that frame and all following frames in the window (even if they were received without error) will be re-sent. To avoid this, Selective Repeat ARQ can be used. (Source: Tanenbaum, Andrew S. Computer Networks 4th ed. ISBN 0-13-066102-3).

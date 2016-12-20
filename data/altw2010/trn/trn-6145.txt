@@ -1,0 +1,98 @@
+'''Kondensator (Capasitor)''' adalah suatu alat yang dapat menyimpan energi di dalam medan listrik, dengan cara mengumpulkan ketidakseimbangan internal dari muatan listrik. Kondensator memiliki satuan yang disebut Farad. Ditemukan oleh Michael Faraday (1791-1867). Kondensator kini juga dikenal sebagai "kapasitor", namun kata "kondensator" masih dipakai hingga saat ini. Pertama disebut oleh Alessandro Volta seorang ilmuwan Italia pada tahun 1782 (dari bahasa Itali ''condensatore''), berkenaan dengan kemampuan alat untuk menyimpan suatu muatan listrik yang tinggi dibanding komponen lainnya. Kebanyakan bahasa dan negara yang tidak menggunakan bahasa Inggris masih mengacu pada perkataan bahasa Italia "condensatore", seperti bahasa Perancis ''condensateur'', Indonesia dan Jerman ''Kondensator'' atau Spanyol ''Condensador''.
+
+* Kondensator diidentikkan mempunyai dua kaki dan dua kutub yaitu positif dan negatif serta memiliki cairan elektrolit dan biasanya berbentuk tabung. 
+:Berkas:Polarized_kondensator_symbol_3.jpg ''Lambang kondensator (mempunyai kutub positif dan negatif) pada skema elektronika.''
+
+* Sedangkan jenis yang satunya lagi kebanyakan nilai kapasitasnya lebih rendah, tidak mempunyai kutub positif atau negatif pada kakinya, kebanyakan berbentuk bulat pipih berwarna coklat, merah, hijau dan lainnya seperti tablet atau kancing baju yang sering disebut kapasitor (''capacitor'').
+:Berkas:Capacitor_symbol.jpg ''Lambang kapasitor (tidak mempunyai kutub) pada skema elektronika.''
+
+Namun kebiasaan dan kondisi serta artikulasi bahasa setiap negara tergantung pada masyarakat yang lebih sering menyebutkannya. Kini kebiasaan orang tersebut hanya menyebutkan salah satu nama yang paling dominan digunakan atau lebih sering didengar. Pada masa kini, kondensator sering disebut kapasitor (''capacitor'') ataupun sebaliknya yang pada ilmu elektronika disingkat dengan huruf ('''C''').
+
+Satuan dalam kondensator disebut Farad. Satu Farad = 9 x 10<sup>11</sup> cm² yang artinya luas permukaan kepingan tersebut menjadi 1 Farad sama dengan 10<sup>6</sup> mikroFarad (µF), jadi 1 µF = 9 x 10<sup>5</sup> cm².
+
+Satuan-satuan sentimeter persegi (cm²) jarang sekali digunakan karena kurang praktis, satuan yang banyak digunakan adalah:
+* 1 Farad = 1.000.000 µF (mikro Farad)
+* 1 µF = 1.000.000 pF (piko Farad)
+* 1 µF = 1.000 nF (nano Farad)
+* 1 nF = 1.000 pF (piko Farad)
+* 1 pF = 1.000 µµF (mikro-mikro Farad)
+
+Adapun cara memperluas kapasitor atau kondensator dengan jalan:
+# Menyusunnya berlapis-lapis.
+# Memperluas permukaan variabel.
+# Memakai bahan dengan daya tembus besar.
+
+== Wujud dan Macam kondensator ==
+Berdasarkan kegunaannya kondensator kita bagi dalam:
+# Kondensator tetap (nilai kapasitasnya tetap tidak dapat diubah)
+# Elco)
+# Kondensator variabel (nilai kapasitasnya dapat diubah-ubah)
+Kondensator (Capasitor) adalah suatu alat yang dapat menyimpan energi di dalam medan listrik, dengan cara mengumpulkan ketidakseimbangan internal dari muatan listrik. Kondensator memiliki satuan yang disebut Farad. Ditemukan oleh Michael Faraday (1791-1867). Kondensator kini juga dikenal sebagai "kapasitor", namun kata "kondensator" masih dipakai hingga saat ini. Pertama disebut oleh Alessandro Volta seorang ilmuwan Italia pada tahun 1782 (dari bahasa Itali condensatore), berkenaan dengan kemampuan alat untuk menyimpan suatu muatan listrik yang tinggi dibanding komponen lainnya. Kebanyakan bahasa dan negara yang tidak menggunakan bahasa Inggris masih mengacu pada perkataan bahasa Italia "condensatore", seperti bahasa Perancis condensateur, Indonesia dan Jerman Kondensator atau Spanyol Condensador.
+
+Kondensator diidentikkan mempunyai dua kaki dan dua kutub yaitu positif dan negatif serta memiliki cairan elektrolit dan biasanya berbentuk tabung. 
+ Lambang kondensator (mempunyai kutub positif dan negatif) pada skema elektronika. 
+Sedangkan jenis yang satunya lagi kebanyakan nilai kapasitasnya lebih rendah, tidak mempunyai kutub positif atau negatif pada kakinya, kebanyakan berbentuk bulat pipih berwarna coklat, merah, hijau dan lainnya seperti tablet atau kancing baju yang sering disebut kapasitor (capacitor). 
+ Lambang kapasitor (tidak mempunyai kutub) pada skema elektronika. 
+Namun kebiasaan dan kondisi serta artikulasi bahasa setiap negara tergantung pada masyarakat yang lebih sering menyebutkannya. Kini kebiasaan orang tersebut hanya menyebutkan salah satu nama yang paling dominan digunakan atau lebih sering didengar. Pada masa kini, kondensator sering disebut kapasitor (capacitor) ataupun sebaliknya yang pada ilmu elektronika disingkat dengan huruf (C).
+
+Satuan dalam kondensator disebut Farad. Satu Farad = 9 x 1011 cm² yang artinya luas permukaan kepingan tersebut menjadi 1 Farad sama dengan 106 mikroFarad (µF), jadi 1 µF = 9 x 105 cm².
+
+Satuan-satuan sentimeter persegi (cm²) jarang sekali digunakan karena kurang praktis, satuan yang banyak digunakan adalah:
+
+1 Farad = 1.000.000 µF (mikro Farad) 
+1 µF = 1.000.000 pF (piko Farad) 
+1 µF = 1.000 nF (nano Farad) 
+1 nF = 1.000 pF (piko Farad) 
+1 pF = 1.000 µµF (mikro-mikro Farad) 
+Adapun cara memperluas kapasitor atau kondensator dengan jalan:
+
+|
+thumb|120px|Symbolen voor een condensator: links een 'gewone' condensator, rechts een polariteits- gevoelige condensator zoals een [[elco.]]
+|-
+thumb|Principe van een condensator:<br />1. parallelle platen,<br /> 2. diëlektricum,<br /> 3. stroomdraden.
+|}
+
+Een '''condensator''' is een elektronische component die is opgebouwd uit twee geleiders met een relatief grote oppervlakte, die zich dicht bij elkaar bevinden en door een isolator, het diëlektricum, worden gescheiden. De naam is afgeleid van het latijn ''condensare:'' samenpersen, dus ''condensator'' = samenperser, wat betrekking heeft op de ladingen die samengeperst worden op de polen (platen) van de condensator.
+
+De biologische celmembraan en het oppervlak van een elektrode in een elektrolyt gedragen zich ook als condensatoren.
+
+De elektronische tegenhanger van de condensator is de weerstand vormt voor elektrische filters.
+
+==Opslag van lading==
+Een condensator is in staat capaciteit van de condensator genoemd en uitgedrukt in de eenheid coulomb en waarover een spanning van 1 volt staat, heeft een capaciteit van 1 farad.
+
+==Basisformules==
+Het verband tussen de lading Q in coulomb op de condensator, de spanning U in volt over de condensator en de capaciteit C in farad, wordt gegeven door
+
+:<math> Q  =   C U </math>
+en de energie in Joule van de opgeladen condensator is
+   
+:<math> E_\mathrm{opgeslagen}  = {1 \over 2} C U^2 = {1 \over 2} {Q^2 \over C} = {1 \over 2} {U Q} </math>.
+
+==Uitvinder==
+De eerste condensator was de nF). Deze is uitgevonden aan de Leidse Universiteit door Pieter van Musschenbroek. 
+
+==Plaat- en elektrolytische condensator==
+Het standaardmodel voor de werking van condensatoren is de plaatcondensator.
+
+De capaciteit van een plaatcondensator is zeer beperkt. Het ontwerp van veel condensatoren is er dan ook op gericht de capaciteit te verhogen door het oppervlak van de platen te verhogen, de afstand tussen de platen te verkleinen of de permittiviteit van het diëlektricum te vergroten. Belangrijk is de elektrolytische condensator (elco). Deze bestaat uit twee opgerolde (voor groot oppervlak) lagen aluminiumfolie gescheiden door papier (kleine afstand) gedrenkt in een elektrolyt (hoge permittiviteit).
+
+==Verschil gelijk- en wisselstroom==
+Een condensator beïnvloedt het vloeien van elektrische stroom. Voor gelijkstroom is hij een blokkade: slechts kort vloeit een stroom tot de condensator opgeladen is. Bij een aangelegde wisselspanning wordt de condensator afwisselend geladen, ontladen en tegengesteld geladen, waardoor schijnbaar stroom wordt doorgelaten; in het circuit waarin de condensator is opgenomen loopt een wisselstroom.  
+
+==Complexe impedantie==
+Een condensator met capaciteit C en spanning U heeft een lading Q = CU. Daaruit volgt voor de  stroom I die vloeit door de condensator:
+
+:<math>I = C\frac{dU}{dt} </math>.
+
+Indien de aangelegde spanning een enkele sinusgolf met hoekfrequentie ω is, kan de spanning (complex) geschreven worden als:
+
+:<math> U = U_o\cdot e^{j\omega t} </math>.
+
+Hieruit volgt voor de stroom:
+
+:<math>I = C j\omega U_o\cdot e^{j\omega t} = j\omega CU</math>.
+zodat
+:<math>U = I \frac{1}{ j\omega C} = I.Z_C</math>.
+
+Hierin is

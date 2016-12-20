@@ -1,0 +1,104 @@
+'''Potensgennemsnit''' er en generalisering af det aritmetiske gennemsnit, det harmoniske gennemsnit og det geometriske gennemsnit. 
+==Definition==
+For positive tal x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>n</sub>, og for et reelt tal p forskelligt fra 0, defineres:
+<math>
+M_p(x_1,\dots,x_n) = \left( \frac{1}{n} \cdot \sum_{i=1}^n x_{i}^p \right)^{1/p}
+</math>
+==Egenskaber==
+*<math>M_p</math> er en homogen funktion af x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>n</sub>. Det betyder et der for ethvert positivt reelt tal b gælder:
+<math>
+b M_p(x_1,\dots,x_n)=M_p(b x_1,\dots,b x_n)
+</math>
+*Hvis p<q så <math>M_p(x_1,\dots,x_n)\le M_q(x_1,\dots,x_n)</math> med lighed hvis og kun hvis x<sub>1</sub>=x<sub>2</sub>=...=x<sub>n</sub>.
+*Hvis man betragter M som en funktion af p, er funktionen kontinuert.
+
+==Specialtilfælde==
+
+* <math>M_{-1}(x_1,\dots,x_n) = \frac{n}{\frac{1}{x_1}+\dots+\frac{1}{x_n}}</math> - det harmoniske gennemsnit,
+* <math>M_1(x_1,\dots,x_n) = \frac{x_1 + \dots + x_n}{n}</math> - det aritmetiske gennemsnit (det normale gennemsnit),
+* <math>M_2(x_1,\dots,x_n) = \sqrt{\frac{x_1^2 + \dots + x_n^2}{n}}</math> - det kvadratiske gennemsnit,
+* <math>\lim_{p\to-\infty} M_p(x_1,\dots,x_n) = \min \{x_1,\dots,x_n\}</math> - den mindste af x-værdierne,
+* <math>\lim_{p\to0} M_p(x_1,\dots,x_n) = \sqrt[n]{x_1\cdot\dots\cdot x_n}</math> - det geometriske gennemsnit,
+* <math>\lim_{p\to\infty} M_p(x_1,\dots,x_n) = \max \{x_1,\dots,x_n\}</math> - den største af x-værdierne.
+
+A '''generalized mean''', also known as '''power mean''' or '''Hölder mean''', is an abstraction of the arithmetic, geometric, and harmonic means.
+
+==Definition==
+
+If <math>p</math> is a non-zero real number, we can define the '''generalized mean with exponent <math>p</math>''' of the positive real numbers <math>x_1,\dots,x_n</math> as
+
+:<math>
+M_p(x_1,\dots,x_n) = \left( \frac{1}{n} \cdot \sum_{i=1}^n x_{i}^p \right)^{1/p}.
+</math>
+
+==Properties==
+<!--
+The case <math>t<math> = 1 yields the limit of M(''t'') is the geometric mean of the given numbers, and so it makes sense to ''define'' M(0) to be the geometric mean. Furthermore, as ''t'' approaches &infin;, M(''t'') approaches the maximum of the given numbers, and as ''t'' approaches &minus;&infin;, M(''t'') approaches the minimum of the given numbers.
+-->
+* Like most means, the generalized mean is a homogeneous function of its arguments <math>x_1,\dots,x_n</math>. That is, if <math>b</math> is a positive real number, then the generalized mean with exponent <math>p</math> of the numbers <math>b\cdot x_1,\dots, b\cdot x_n</math> is equal to <math>b</math> times the generalized mean of the numbers <math>x_1,\dots, x_n</math>.
+* Like the quasi-arithmetic means, the computation of the mean can be split into computations of equal sized sub-blocks.
+
+:: <math>
+M_p(x_1,\dots,x_{n\cdot k}) =
+  M_p(M_p(x_1,\dots,x_{k}),
+      M_p(x_{k+1},\dots,x_{2\cdot k}),
+      \dots,
+      M_p(x_{(n-1)\cdot k + 1},\dots,x_{n\cdot k}))
+</math>
+
+=== Generalized mean inequality ===
+
+In general, if <math>p < q</math>, then <math>M_p(x_1,\dots,x_n) \le M_q(x_1,\dots,x_n)</math> and the two means are equal if and only if <math>x_1 = x_2 = \cdots = x_n</math>. This follows from the fact that
+
+: <math>\forall p\in\mathbb{R}\ \frac{\partial M_p(x_1,\dots,x_n)}{\partial p}\geq 0,</math>
+
+which can be proved using Jensen's inequality.
+
+In particular, for <math>p\in\{-1, 0, 1\}</math>, the generalized mean inequality implies the Pythagorean means inequality as well as the inequality of arithmetic and geometric means.
+
+== Special cases ==
+thumb|right|A visual depiction of some of the specified cases for ''n=2''.
+* <math>\lim_{p\to-\infty} M_p(x_1,\dots,x_n) = \min \{x_1,\dots,x_n\}</math> - minimum,
+* <math>M_{-1}(x_1,\dots,x_n) = \frac{n}{\frac{1}{x_1}+\dots+\frac{1}{x_n}}</math> - harmonic mean,
+* <math>\lim_{p\to0} M_p(x_1,\dots,x_n) = \sqrt[n]{x_1\cdot\dots\cdot x_n}</math> - geometric mean,
+* <math>M_1(x_1,\dots,x_n) = \frac{x_1 + \dots + x_n}{n}</math> - arithmetic mean,
+* <math>M_2(x_1,\dots,x_n) = \sqrt{\frac{x_1^2 + \dots + x_n^2}{n}}</math> - quadratic mean,
+* <math>\lim_{p\to\infty} M_p(x_1,\dots,x_n) = \max \{x_1,\dots,x_n\}</math> - maximum.
+
+==Proof of power means inequality==
+
+===Equivalence of inequalities between means of opposite signs===
+Suppose an average between power means with exponents ''p'' and ''q'' holds:
+:<math>\sqrt[p]{\sum_{i=1}^nw_ix_i^p}\leq \sqrt[q]{\sum_{i=1}^nw_ix_i^q}</math>
+then:
+:<math>\sqrt[p]{\sum_{i=1}^n\frac{w_i}{x_i^p}}\leq \sqrt[q]{\sum_{i=1}^n\frac{w_i}{x_i^q}}</math>
+We raise both sides to the power of -1 (strictly decreasing function in positive reals):
+:<math>\sqrt[-p]{\sum_{i=1}^nw_ix_i^{-p}}=\sqrt[p]{\frac{1}{\sum_{i=1}^nw_i\frac{1}{x_i^p}}}\geq \sqrt[q]{\frac{1}{\sum_{i=1}^nw_i\frac{1}{x_i^q}}}=\sqrt[-q]{\sum_{i=1}^nw_ix_i^{-q}}</math>
+We get the inequality for means with exponents -''p'' and -''q'', and we can use the same reasoning backwards, thus proving the inequalities to be equivalent, which will be used in some of the later proofs.
+
+===Geometric mean===
+For any ''q'' the inequality between mean with exponent ''q'' and geometric mean can be transformed in the following way:
+:<math>\prod_{i=1}^nx_i^{w_i} \leq \sqrt[q]{\sum_{i=1}^nw_ix_i^q}</math>
+:<math>\sqrt[q]{\sum_{i=1}^nw_ix_i^q}\leq \prod_{i=1}^nx_i^{w_i} </math>
+(the first inequality is to be proven for positive ''q'', and the latter otherwise)
+
+We raise both sides to the power of ''q'':
+:<math>\prod_{i=1}^nx_i^{w_i\cdot q} \leq \sum_{i=1}^nw_ix_i^q</math>
+in both cases we get the inequality between weighted arithmetic and geometric means for the sequence <math>x_i^q</math>, which can be proved by logarithmic function is concave:
+:<math>\sum_{i=1}^nw_i\log(x_i) \leq \log(\sum_{i=1}^nw_ix_i)</math>
+:<math>\log(\prod_{i=1}^nx_i^{w_i}) \leq \log(\sum_{i=1}^nw_ix_i)</math>
+By applying (strictly increasing) exp function to both sides we get the inequality:
+:<math>\prod_{i=1}^nx_i^{w_i} \leq \sum_{i=1}^nw_ix_i</math>
+
+Thus for any positive ''q'' it is true that:
+:<math>\sqrt[-q]{\sum_{i=1}^nw_ix_i^{-q}}\leq \prod_{i=1}^nx_i^{w_i} \leq \sqrt[q]{\sum_{i=1}^nw_ix_i^q}</math>
+since the inequality holds for any ''q'', however small, and, as will be shown later, the expressions on the left and right approximate the geometric mean better as ''q'' approaches 0, the limit of the power mean for ''q'' approaching 0 is the geometric mean:
+:<math>\lim_{q\rightarrow 0}\sqrt[q]{\sum_{i=1}^nw_ix_i^{q}}=\prod_{i=1}^nx_i^{w_i}</math>
+
+===Inequality between any two power means===
+We are to prove that for any ''p''<''q'' the following inequality holds:
+:<math>\sqrt[p]{\sum_{i=1}^nw_ix_i^p}\leq \sqrt[q]{\sum_{i=1}^nw_ix_i^q}</math>
+if ''p'' is negative, and ''q'' is positive, the inequality is equivalent to the one proved above:
+:<math>\sqrt[p]{\sum_{i=1}^nw_ix_i^p}\leq \prod_{i=1}^nx_i^{w_i} \leq\sqrt[q]{\sum_{i=1}^nw_ix_i^q}</math>
+The proof for positive ''p'' and ''q'' is as follows:
+Define the following function: <math>f:{\mathbb R_+}\rightarrow{\mathbb R_+},</math> <math>f(x)=x^{\frac{q}{p}}</math>. ''f'' is a power function, so it does have a second derivative: <math>f''(x)=(\frac{q}{p})(\frac{q}{p}-1)x^{\frac{q}{p}-2},</math> which is strictly positive within the domain of ''f'', since ''q'' > ''p'', so we know ''f'' is convex.

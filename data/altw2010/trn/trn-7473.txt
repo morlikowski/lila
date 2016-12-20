@@ -1,0 +1,51 @@
+Nella assiomi della teoria degli insiemi di Zermelo-Fraenkel.  
+
+Nel linguaggio formale degli assiomi di Zermelo-Fraenkel l'assioma si scrive:
+:<math>\forall A: A \neq \{\} \implies \exists B: B \in A \land \lnot \exist C: C \in A \land C \in B</math>
+Oppure a parole:
+:Ogni insieme non vuoto ''A'' contiene un elemento ''B'' disgiunto da ''A''. 
+
+Due risultati che seguono dall'assioma sono "nessun insieme è un elemento di se stesso" e "non esiste una successione infinita (''a<sub>n</sub>'') tale che ''a<sub>i+1</sub>'' è un elemento di ''a<sub>i</sub>'' per ogni ''i''".
+
+Assieme all'assioma della scelta, questo risultato può essere invertito: se non esistono successioni infinite di quel tipo, allora l'assioma di regolarità è vero. Quindi le due affermazioni sono equivalenti.
+
+L'assioma di regolarità è forse l'ingrediente meno utile della "Buona fondatezza e iperinsiemi" nell'articolo teoria assiomatica degli insiemi.
+
+== Implicazioni elementari ==
+
+''L<nowiki>'</nowiki>assioma di regolarità implica che nessun insieme è elemento di se stesso''
+
+Sia ''A'' un insieme tale che ''A'' sia un elemento di sé stesso e definiamo l'insieme ''B'' = {''A''}, che esiste per l'assioma della coppia. Applicando l'assioma di regolarità a ''B'', vediamo che l'unico elemento di ''B'', vale a dire ''A'', deve essere disgiunto da ''B''. Ma l'intersezione di ''A'' e ''B'' è proprio ''A''. Quindi ''B'' non soddisfa l'assioma di regolarità e abbiamo una contraddizione, dimostrando che ''A'' non può esistere.
+
+''L<nowiki>'</nowiki>assioma di regolarità implica che non esiste nessuna successione infinita discendente di insiemi.''
+
+L''''axiome de fondation''', encore appelé '''axiome de régularité''', est l'un des axiomes de la théorie axiomatique des ensembles. Introduit en 1925 par John von Neumann, il joue un grand rôle dans cette théorie, alors que les mathématiciens ne l'utilisent jamais ailleurs, même s'ils le considèrent souvent intuitivement vérifié. L'axiome de fondation fait ou non partie des axiomes de ZF (et ZFC) suivant les ouvrages.
+
+== Définition ==
+L'axiome de fondation stipule que 
+:pour tout ensemble ''x'' non vide, il existe un ensemble ''y'' '''appartenant''' à ''x'' et n'ayant aucun élément en commun avec ''x'',
+en écriture symbolique
+:∀''x''[''x'' ≠ ∅ ⇒ ∃''y''(''y'' ∈ ''x'' et ''y'' ∩ ''x'' = ∅)]
+
+Par exemple, si ''x'' a pour élément l'ensemble vide, ce dernier conviendra pour ''y''. C'est même le seul choix possible  si ''x'' est un ensemble transitif non vide (qui a donc forcément l'ensemble vide pour élément).
+
+Dans un univers de la théorie des ensembles qui satisfait l'axiome de fondation, les ensembles décrits par la théorie axiomatique reflètent davantage l'image intuitive : 
+* aucun ensemble n'est élément de lui-même : on ne peut avoir x ∈ x, puisque sinon le singleton  {''x''} fournirait un contre-exemple à l'axiome de fondation : {''x''} ∩ ''x'' = {''x''} ;
+* plus généralement, la relation d'appartenance n'a pas de cycle : on ne peut avoir ''x''<sub>0</sub> ∈ ''x''<sub>1</sub> et ''x''<sub>1</sub> ∈ ''x''<sub>2</sub> et  …, ''x''<sub>n</sub> ∈ ''x''<sub>0</sub>, puisque sinon {''x''<sub>0</sub>, …, ''x''<sub>n</sub>} contredirait l'axiome de fondation ;
+* plus généralement encore, on ne peut avoir de suite infinie d'ensembles tels que ''x''<sub>1</sub> ∈ ''x''<sub>0</sub>, ''x''<sub>2</sub> ∈ ''x''<sub>1</sub>, …, ''x''<sub>n+1</sub> ∈ ''x''<sub>n</sub>, …, puisque l'ensemble image de cette suite, {''x''<sub>n</sub> | n ∈ '''N'''}, contredirait l'axiome de fondation. 
+ 
+Cette dernière propriété signifie que le prédicat à deux variables libres « x ∈ y » est bien fondé. Elle est équivalente à l'axiome de fondation si l''''axiome du choix dépendant''' est vérifié. Ce dernier est un axiome du choix très faible qui permet de construire des suites et que le mathématicien, non spécialiste de logique mathématique, suppose intuitivement toujours vérifié, souvent sans le savoir.
+
+== Axiome de fondation et paradoxe de Russell ==
+En présence de l'axiome de fondation, on n'a jamais « x ∈ x ». Mais le rapport entre le classe définie par  x ∉ x est simplement l'univers de tous les ensembles, qui doit de toute façon être une classe propre. Les théories des ensembles ZFC avec axiome de fondation et ZFC avec la négation de l'axiome de fondation, sont équi-cohérentes (voir la suite).
+
+== La hiérarchie cumulative ==
+La hiérarchie cumulative de von Neumann est définie par induction sur la ordinaux, en commençant par l'ensemble vide et en itérant l'ensemble des parties, c’est-à-dire que (avec ''P''(''E'') désignant l'ensemble des parties de ''E'') :
+* ''V''<sub>α</sub> = ∪<sub>β<α</sub> ''P''(''V''<sub>β</sub>)
+: et donc :
+* ''V''<sub>0</sub>  = ∅
+* ''V''<sub>α+1</sub> = ''P''(''V''<sub>α</sub>)
+*  ''V''<sub>α</sub> = ∪<sub>β<α</sub> ''V''<sub>β</sub> &nbsp; pour tout ordinal limite α . 
+La classe (propre !) ''V'' est obtenue par réunion des ''V''<sub>α</sub> pour tous les ordinaux. Si « Ord » désigne la classe de tous les ordinaux :
+:''V''(''x'') ≡ ∃ α (Ord(α) et ''x'' ∈  ''V''<sub>α</sub>).
+La classe ''V'' définit, à l'intérieur de tout modèle de la théorie des ensembles ZF ou ZFC, en gardant la même relation d'appartenance, un modèle de la théorie ZF (ZFC si l'univers initial est modèle de ZFC) qui satisfait AF, l'axiome de fondation. Ceci montre la cohérence relative de ZF+AF vis à vis de ZF, de même pour ZFC. Dit autrement, la négation de AF, l'axiome de fondation, n'est pas démontrable dans ZFC (et donc ZF).

@@ -1,0 +1,271 @@
+{{infobox Franse gemeente|
+|plaatsnaam= Lyaud
+|wapen= 
+|kaart= 
+|regio= Rhône-Alpes 
+|departement= Haute-Savoie (74)
+|arrondissement= Thonon-les-Bains
+|kanton= Thonon-les-Bains-Est
+|jaar= 2005
+|inwoners= 1304
+|dichtheid= 141,7
+|oppervlakte= 9,2
+|water= 
+|latitudeGraden= 46 |latitudeMinuten= 20|latitudeSeconden= 0
+|longitudeGraden= 6 |longitudeMinuten= 32 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 247 |kaartY= 158
+|code= 74157
+|postcode= 74200
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Lyaud''' is een gemeente in het Franse departement Thonon-les-Bains.
+
+==Geografie==
+De oppervlakte van Lyaud bedraagt 9,2 km², de bevolkingsdichtheid is 141,7 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:1500 color:gray1 width:1       
+  from:start till:end             
+  bar:1000 color:gray1              
+  from:start till:end            
+  bar:500 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,66)(84,64) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 407 1968: 392
+  points:(84,64)(100,80)    color:blue    width:2 #1975: 526
+  points:(100,80)(128,93)   color:blue    width:2 #1982: 641
+  points:(128,93)(160,118)   color:blue    width:2 #1990: 866
+  points:(160,118)(196,138)   color:blue    width:2 #1999: 1043
+  points:(196,138)(228,168)     color:blue    width:2 #2004/5 
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+==Externe links==
+*[http://www.mapquest.com/maps/map.adp?searchtype=address&formtype=latlong&latlongtype=degrees&latdeg=46&latmin=20&latsec=0&longdeg=6&longmin=32&longsec=0&zoom=6 Locatie van de gemeente (kaart met schaal 1:100.000) op Mapquest]
+*[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=74157&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Meer statistische informatie over de gemeente op www.insee.fr] 
+
+{{Infobox Commune de France
+|nomcommune=Le Lyaud
+|région=Rhône-Alpes
+|département=Haute-Savoie
+|arrondissement=Arrondissement de Thonon-les-Bains
+|canton=Canton de Thonon-les-Bains-Est
+|insee=74157
+|cp=74200
+|maire=Joseph Deage
+|mandat=2008-2014
+|intercomm=Communauté de communes des Collines du Léman
+|longitude=6.52277777778
+|latitude=46.3380555556
+|alt moy=680 m
+|alt mini=440 m
+|alt maxi=1 413 m
+| hectares=917
+|km²=9,17
+|sans=866
+|date-sans=1999
+|dens=113,70
+|}}
+
+'''Le Lyaud''' est une commune française présente dans el département de la Haute-Savoie.
+
+== Géographie ==
+=== Situation ===
+==== Localisation ====
+
+==== Climat ====
+Le climat y est de type ...
+
+<center>
+{| class="wikitable sortable" style="text-align:right;width:80%;font-size:95%;"
+!width="140px"| Ville !! Ensoleillement !! Pluie !! Neige !! Orage !! Brouillard
+|-
+|align="left"| Paris ||  h/an || 642 mm/an || 15 j/an || 19 j/an ||13 j/an</tr>
+|-style="background: #F9F9F9"
+|align="left"| Nice ||  h/an || 767 mm/an || 1 j/an || 31 j/an || 1 j/an</tr>
+|align="left"| Strasbourg ||  h/an || 610 mm/an || 30 j/an || 29 j/an ||65 j/an</tr>
+|-style="background: #D1E8FF"
+|align="left"| Le Lyaud || ... h/an || ... mm/an || ... j/an || ... j/an || ... j/an</tr>
+|align="left"| Moyenne nationale ||  h/an || 770 mm/an || 14 j/an || 22 j/an || 40 j/an</tr>
+|}
+</center>
+
+Le tableau ci-dessous indique les températures et les précipitations pour l'année 2006  :
+
+<center>
+{| class="wikitable" style="font-size:90%;width:80%;border:0px;text-align:center;line-height:120%;"
+! style="background: #F5F5F5; color: #000000" height="17" |Mois
+! style="background: #F5F5F5; color:#000000;" | J
+! style="background: #F5F5F5; color:#000000;" | F
+! style="background: #F5F5F5; color:#000000;" | M
+! style="background: #F5F5F5; color:#000000;" | A
+! style="background: #F5F5F5; color:#000000;" | M
+! style="background: #F5F5F5; color:#000000;" | J
+! style="background: #F5F5F5; color:#000000;" | J
+! style="background: #F5F5F5; color:#000000;" | A
+! style="background: #F5F5F5; color:#000000;" | S
+! style="background: #F5F5F5; color:#000000;" | O
+! style="background: #F5F5F5; color:#000000;" | N
+! style="background: #F5F5F5; color:#000000;" | D
+|-
+! style="background: #F5F5F5; color:#000000; text-align:left;" |<small>Températures maximales (°C)</small>
+| style="background: #80CCFF; color:#000000;" | ...
+| style="background: #CCCCFF; color:#000000;" | ...
+| style="background: #CCFFFF; color:#000000;" | ...
+| style="background: #FFFF99; color:#000000;" | ...
+| style="background: #FFCC66; color:#000000;" | ...
+| style="background: #FF8000; color:#000000;" | ...
+| style="background: #FF8000; color:#000000;" | ...
+| style="background: #FFCC66; color:#000000;" | ...
+| style="background: #FF8000; color:#000000;" | ...
+| style="background: #FFCC66; color:#000000;" | ...
+| style="background: #FFFFFF; color:#000000;" | ...
+| style="background: #80CCFF; color:#000000;" | ...
+|-
+! style="background: #F5F5F5; color:#000000; text-align:left;" |<small>Températures minimales (°C)</small>
+| style="background: #8080FF; color:#000000;" | ...
+| style="background: #8080FF; color:#000000;" | ...
+| style="background: #8080FF; color:#000000;" | ...
+| style="background: #8080FF; color:#000000;" | ...
+| style="background: #CCCCFF; color:#000000;" | ...
+| style="background: #CCCCFF; color:#000000;" | ...
+| style="background: #FFFFFF; color:#000000;" | ...
+| style="background: #CCCCFF; color:#000000;" | ...
+| style="background: #CCFFFF; color:#000000;" | ...
+| style="background: #80CCFF; color:#000000;" | ...
+| style="background: #8080FF; color:#000000;" | ...
+| style="background: #8080FF; color:#000000;" | ...
+|-
+! style="background: #F5F5F5; color:#000000; text-align:left;" |<small>Températures moyennes (°C)</small>
+| style="background: #8080FF; color:#000000;" | ...
+| style="background: #8080FF; color:#000000;" | ...
+| style="background: #8080FF; color:#000000;" | ...
+| style="background: #CCCCFF; color:#000000;" | ...
+| style="background: #FFFFFF; color:#000000;" | ...
+| style="background: #FFCC66; color:#000000;" | ...
+| style="background: #FFCC66; color:#000000;" | ...
+| style="background: #FFFF99; color:#000000;" | ...
+| style="background: #FFCC66; color:#000000;" | ...
+| style="background: #FFFFFF; color:#000000;" | ...
+| style="background: #CCCCFF; color:#000000;" | ...
+| style="background: #8080FF; color:#000000;" | ...
+|-
+! style="background: #F5F5F5; color:#000000; text-align:left;" |<small>Précipitations (hauteur moyenne en mm)</small>
+| style="background: #D1E8FF; color: black;" | <small>...</small>
+| style="background: #D1E8FF; color: black;" | <small>...</small>
+| style="background: #D1E8FF; color: black;" | <small>...</small>
+| style="background: #D1E8FF; color: black;" | <small>...</small>
+| style="background: #D1E8FF; color: black;" | <small>...</small>
+| style="background: #D1E8FF; color: black;" | <small>...</small>
+| style="background: #D1E8FF; color: black;" | <small>...</small>
+| style="background: #D1E8FF; color: black;" | <small>...</small>
+| style="background: #D1E8FF; color: black;" | <small>...</small>
+| style="background: #D1E8FF; color: black;" | <small>...</small>
+| style="background: #D1E8FF; color: black;" | <small>...</small>
+| style="background: #D1E8FF; color: black;" | <small>...</small>
+|-
+| colspan="13" style="text-align:center;font-size:90%;"|Source: Météo France
+|}
+</center>
+
+==== Voies de communication et transports ====
+===== Voies routières =====
+===== Transport ferroviaire =====
+===== Transports en commun =====
+
+===== Transports aériens =====
+
+=== Urbanisme ===
+
+==== Morphologie urbaine ====
+
+==== Logement ====
+
+==== Projets d'aménagements ====
+
+== Toponymie ==
+
+== Histoire ==
+
+=== Héraldique ===
+
+{{Blason-ville-fr
+| img1=Blason à dessiner.svg
+| l1=80px
+| legende1= Armes de Le Lyaud
+| texte= Les armes de ''Le Lyaud'' se blasonnent ainsi : ''...''
+
+On sait très peu de chose sur ce blason…}}
+
+=== Faits historiques ===
+
+== Tendances politiques ==
+
+== Administration municipale ==
+
+=== Tendances politiques ===
+
+=== Administration municipale ===
+
+Voici ci-dessous le partage des sièges au sein du Conseil municipal de Lyaud :
+
+{|class="toccolours"
+! !! width=15px| !! width=250px | Groupe !! width=150px |Président !! width=200px |Effectif !! width=150px | Statut 
+|----- ALIGN="center"
+|  || bgcolor=#3C77BF| || ... || Joseph Deage  || 0 || majorité
+|----- ALIGN="center"
+|  || bgcolor=#FFFFFF| || ... || ...   || 0 || opposition
+|}
+
+=== Les maires de Lyaud ===
+
+Liste de l'ensemble des maires qui se sont succédé à la mairie de Lyaud :
+
+|-
+|colspan="5" align="center" bgcolor="#f3fff3" |
+{|border="0"
+
+{{boîte déroulante 
+|align=center
+|alignB=center
+|alignT=center 
+|couleurFondT=#f3fff3
+|couleurFondB=#f3fff3
+|titre=Liste des maires (de 1800 à 1960)
+|label=
+|largeur=100%
+|contenu=
+
+}}<small></small>
+|}
+
+=== Instances judiciaires et administratives ===
+
+=== Politique environnementale ===
+
+=== Jumelage ===

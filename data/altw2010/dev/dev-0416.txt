@@ -1,0 +1,46 @@
+{{Yazılım bilgi kutusu  
+| isim = Eclipse
+| logo = Resim:Logo Eclipse.jpg
+| ekran_görüntüsü = 250px
+| resim_yazısı = Eclipse ekran görüntüsü
+| geliştirici = Eclipse Vakfı
+| güncel_sürüm_numarası = 3.3
+| güncel_sürüm_tarihi = 25 Haziran 2007
+| önizleme_sürüm_numarası = 
+| önizleme_sürüm_tarihi = 
+| işletim_sistemi = Bağımsız
+| platform = Bağımsız
+| tür = Tümleşik geliştirme ortamı
+| lisans = Eclipse Kamu Lisansı
+| websitesi = [http://eclipse.org/ eclipse.org]
+}}
+
+'''Eclipse''', açık kaynak kodlu bir Java ve Java ile ilişkili teknolojiler olsa da esnek yapısı sayesinde C ve Python gibi farklı diller için de kullanılmaktadır.
+
+2001 yılında IBM tarafından başlatılan proje Java'nın ana grafik sistemi olan Swing yerine bulunduğu platformda bulunan özellikleri doğrudan kullanan SWT'yi kullanarak Java dünyasında tartışmalara yol açmıştır. Hızlı arayüzü, şık görünümü ve çok kuvvetli özellikleriyle kısa zamanda Java geliştiricileri arasında en popüler geliştirme ortamı olmuştur. 2005 yılında Eclipse projesinin yönetimi Eclipse Vakfına bırakılmıştır. 
+
+En son kararlı versiyonu 3.3'tür.
+
+{{Infobox Software
+|naam = Eclipse
+|logo = 
+|screenshot = 250px
+|titel = Ubuntu 7.10
+|ontwikkelaar = Eclipse Foundation
+|laatste_versie = 3.3
+|laatste_releasedatum = 29 juni 2007
+|besturingssysteem = Multiplatform
+|categorie = Software Development Kit
+|licentie = Eclipse Public License
+|website = [http://www.eclipse.org/ www.eclipse.org]
+}}
+'''Eclipse''' is een open-source IDE voor de programmeertaal Java. Het product wordt echter ook steeds meer aangewend voor het bouwen van applicaties bovenop het Eclipseplatform (Rich Client Platform).
+
+== Plugins ==
+Eclipse heeft een open structuur waardoor het mogelijk is de functionaliteit uit te breiden door middel van C, C#, Perl. Sommige plug-ins worden door makers gratis aangeboden, anderen commercialiseren hun plug-ins. 
+
+Eclipse wordt actief ondersteund door IBM, dat zijn eigen producten zoals ''WebSphere Studio Site Developer'', ''WebSphere Studio Application Developer'', ''WebSphere Studio Enterprise Developer'', ''Lotus Notes'' vanaf 8.0 en ''WebSphere Development Studio Client for iSeries'' bouwt rondom de Eclipsecode.
+
+Tevens Zend Technologies, de ontwikkelaars van PHP, bezig met het integreren van hun IDE (Zend Studio) als plugin voor Eclipse. 
+
+De naam ''Eclipse'' (verduistering, maar met als duidelijke connotatie 'Javawereld gedomineerd wordt door concurrent Sun (zon). Eclipse is een poging om het concurrerende product NetBeans van Sun in de schaduw te stellen.

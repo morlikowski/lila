@@ -1,0 +1,46 @@
+right||Official logo for Distributed Proofreaders
+thumb|right|360px|Screenshot of the proofreading interface on Distributed Proofreaders.
+'''Distributed Proofreaders''' (commonly abbreviated as '''DP''' or '''PGDP''') is a project to support the development of e-texts for Project Gutenberg.
+
+== History ==
+
+Distributed Proofreaders was founded by Charles Franks in 2000 as an independent site to assist Project Gutenberg. Distributed Proofreaders became an official Project Gutenberg site in 2002. 
+
+On slashdotted,<ref></ref><ref></ref> and more than 4,000 new members joined in one day, causing an influx of new proofreaders and software developers, which helped to greatly increase the quantity and quality of e-text production. Distributed Proofreaders posted their 5,000th text to Project Gutenberg in August 2004, and in March 2007, the 10,000th DP-produced e-text was posted to Project Gutenberg. As of December 2007 the 11,000+ DP-contributed e-texts comprised almost half of works in Project Gutenberg.
+
+On not-for-profit status. IRS approval of section 501(c)(3) status was granted retroactive to 7 April, 2006.
+
+== Proofreading process ==
+
+Public domain works, typically books with expired copyright, are scanned by volunteers or culled from digitalization projects, and the images are run through optical character recognition (OCR) software. Since OCR software is far from perfect, often a large number of errors appear in the resulting text. To correct them, pages are made available to volunteers via the Internet; the original page image and the recognized text appear side by side. This process thereby distributes the time-consuming error-correction process, akin to distributed computing.
+
+Each page is proofread and formatted many times, and then a post-processor combines the pages and prepares the text for uploading to Project Gutenberg.
+
+Besides custom software created to support the project, DP also runs a forum and a wiki for project coordinators and participants.
+
+== Related Projects ==
+=== DP Europe ===
+In January 2004, Distributed Proofreaders Europe started, hosted by As of December 2007, DP Europe had produced over 480 e-texts.
+
+Die Internet-Site '''Distributed Proofreaders''' (DP) wurde im Jahr 2000 von Charles Franks ins Leben gerufen, um das internationale Project Gutenberg zu unterstützen.
+
+Hierbei versucht man, durch Unterteilung von eingescannten Büchern in einzelne Seiten die Arbeitsbelastung für einen einzelnen Korrekturleser möglichst gering zu halten und nach der Brute Force-Methode (bedeutet hier: eine möglichst große Anzahl von Bearbeitern liest nur jeweils eine Buchseite von Tausenden bereitgestellten zur Korrektur) ein möglichst großes Pensum zu erreichen.
+
+Dabei wird nach demselben Prinzip wie beim verteilten Rechnen (''distributed computing'') vorgegangen. Der entscheidende Unterschied besteht darin, dass hier nicht eine sehr große Zahl von Computern über das Internet miteinander verknüpft werden, sondern dass eine beliebig große Zahl von Menschen über das Internet ihre Mitarbeit zur Verfügung stellen und damit in kurzer Zeit hunderte von Büchern durch ihr Korrekturlesen digitalisieren.
+
+Die derzeit etwa 1400 aktiven Teilnehmer organisieren sich auf freiwilliger Basis nach Herkunft oder Interessen zu Teams; so hat etwa das sehr aktive Team Germany schon fast 200 Mitglieder, die auf allen Ebenen von DP mitwirken.
+
+== Ablauf der weltweiten Buchdigitalisierung ==
+Grundsätzlich lassen sich im Ablauf drei Phasen unterscheiden.
+
+=== Initialisierungsphase ===
+* In der Initialisierungsphase wird durch einen erfahrenen und bereits seit längerem mitwirkenden Proofreader ein Buch ausgewählt. Das ausgewählte Buch muss frei von Urheberrechten sein. Beim ursprünglichen Projekt wird das amerikanische Urheberrecht zugrunde gelegt (bis 1922 veröffentlichte Texte), bei Distributed Proofreaders Europe die in Europa weitgehend einheitliche Regelung, dass der Autor des Buches vor mehr als 70 Jahren verstorben sein muss.
+* Der Initiator scannt zunächst jede Buchseite ein. Die Scans umfassen das ganze Buch, also Deckblatt, Inhaltsverzeichnis, Texte und Bilder.
+*Anschließend werden die Seiten durch eine OCR-Software analysiert. Der erste, aber noch überaus fehlerbehaftete Rohtext liegt dann vor.
+* Danach wird die Datenmenge auf die Homepage der Distributed Proofreader hochgeladen und als weiteren Projektvorschlag im Forum zur Diskussion gestellt. Nach positiver Abstimmung wird das Projekt dann zum Korrekturlesen freigeschaltet. Es steht dann zum Aufruf über die Homepage zusammen mit anderen Projekten weltweit zur Verfügung.
+
+=== Phasen des Korrekturlesens ===
+==== Runden 1 bis 3 des Korrekturlesens („Proofing“) ====
+Nach Aufruf des Projekts wird jeweils eine Seite des Buchs angezeigt. Dabei wird in der oberen Bildschirmhälfte die gescannte Originalseite (als Grafik) und in der unteren Bildschirmhälfte der erkannte OCR-Text angezeigt. Der Proofreader liest nun den Text der Originalseite und vergleicht ihn mit dem OCR-Text (Rohtext). Dabei werden Scanfehler korrigiert und Sonderzeichen ergänzt.
+
+Dieses eigentliche Korrekturlesen („proofing“) findet in zwei oder drei Runden statt, wobei jede Seite von zwei verschiedenen Teilnehmern bearbeitet wird. Zu den höheren Runden werden nur erfahrene Korrekturleser zugelassen.

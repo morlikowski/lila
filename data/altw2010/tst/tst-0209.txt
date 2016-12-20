@@ -1,0 +1,29 @@
+The '''RCA clean''' is a standard set of wafer cleaning steps which needs to be performed before high temp processing steps (CVD) of silicon wafers in semiconductor manufacturing. Werner Kern developed the basic procedure in 1965 while working for RCA, the Radio Corporation of America <ref name="Mines.edu">[http://www.mines.edu/fs_home/cwolden/chen435/clean.htm ''RCA Clean'', materials at Colorado School of Mines]</ref> It involves the following :
+
+# Removal of the organic contaminants (Organic Clean)
+# Removal of thin oxide layer (Oxide Strip)
+# Removal of ionic contamination (Ionic Clean)
+
+The first step (called SC-1, where SC stands for Standard Clean) is performed with a 1:1:5 solution of NH<sub>4</sub>OH + H<sub>2</sub>O<sub>2</sub> + H<sub>2</sub>O at 75 or 80 degrees (Celsius)<ref name="Mines.edu"/>. This treatments results in the formation of a thin silicon dioxide layer (about 10 Angstrom) on the silicon surface, along with a certain degree of metallic contamination (notably Iron) that shall be removed in subsequent steps.
+
+The second step is a short immersion in a 1:50 solution of HF + H<sub>2</sub>O at 25 degrees Celsius, in order to remove the thin oxide layer and some fraction of ionic contaminants<ref name="Mines.edu"/>.
+
+The third and last step (called SC-2) is performed with a 1:1:6 solution of HCl + H<sub>2</sub>O<sub>2</sub> + H<sub>2</sub>O at 75 or 80 degrees Celsius. This treatment effectively removes the remaining traces of metallic (ionic) contaminants<ref name="Mines.edu"/>.
+
+'''RCA-Reinigung''' (engl. ''RCA clean'') – sehr selten auch ''modifizierte Huang-Reinigung'' – ist Verfahren zur Scheibenreinigung (Wafer-Reinigung) in der Mikroelektronik.
+
+==Entwicklung==
+Der nasschemische Reinigungsprozess wurde in den 1960er Jahren durch W. Kern und D. Puotinen im Auftrag der Radio Corporation of America (RCA) entwickelt und 1970 erstmals veröffentlicht <ref>W. Kern, D. Puotinen: ''Cleaning Solutions Based on Hydrogen Peroxide for Use in Silicon Semiconductor Technology''. In: RCA Review 187 (Juni 1970)</ref>.
+
+==Bestandteile==
+Das RCA Verfahren besteht aus zwei verschiedenen Bädern:
+
+* „Standard Clean 1“ (SC-1):  DI-Wasser im Verhältnis 1:1:5 bis 1:2:7 (Entfernung von Partikeln und organischen Verunreinigungen)
+* „Standard Clean 2“ (SC-2): Salzsäure, Wasserstoffperoxid, DI-Wasser im Verhältnis 1:1:6 bis 1:2:8 (Entfernung metallischer Verunreinigungen)
+
+Beide Bestandteile werden gewöhnlich bei 75–85 °C und Prozesszeiten von 10 bis 20 Minuten eingesetzt.
+
+=== Standard Clean 1 ===
+Die Partikelentfernung im SC-1-Bad beruht auf zwei Vorgängen:
+* Da Wasserstoffperoxid stark oxidierend wirkt, beginnen Waferoberfläche und Partikel zu oxidieren, das führt dazu, dass die Adhäsionskräfte zwischen Partikel und Wafer abnehmen und sich die Partikel dadurch im SC1-Bad lösen können. 
+* Das Ammoniumhydroxid ätzt die Waferoberfläche an und unterätzt somit die Partikel. Ebenso entsteht durch die Hydroxidionen eine negative Ladung des Wafers und der Partikel, was eine Abstoßung vorhandener Partikel bewirkt und zugleich einer erneuten Anlagerung der Partikel vorbeugt.

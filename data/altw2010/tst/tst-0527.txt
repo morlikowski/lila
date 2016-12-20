@@ -1,0 +1,96 @@
+{{Info/Comuna da França|
+|nome         = Équirre
+|nomefr       = Équirre
+|região       = Nord-Pas-de-Calais
+|departamento = Pas-de-Calais
+|área         = 4,19
+|altitude     = 
+|latP         = | latG = | latM = |latS = 
+|lonP         = | lonG = | lonM = |lonS = 
+|população    = 71
+|densidade    = 16
+|censo        = 1999
+|insee        = 62301 <!-- Código INSEE -->
+|códpostal    = 62134 <!-- Código postal -->
+|mapa         = <!-- Insira apenas o nome da imagem -->
+|mapaX        = <!-- Coordenada X no mapa -->
+|mapaY        = <!-- Coordenada Y no mapa -->
+|escudo       = <!-- Insira apenas o nome da imagem -->
+|bandeira     = <!-- Insira apenas o nome da imagem -->
+|imagem       = <!-- Insira apenas o nome da imagem -->
+|legenda      = <!-- Legenda para a imagem -->
+|gentílico    = 
+|website      = 
+|notas        = 
+}}
+'''Équirre''' é uma região administrativa de departamento de km&sup2;, com 71 habitantes, segundo os densidade de 16 hab/km&sup2;.
+
+Categoria:Comunas da França
+Categoria:Comunas de Nord-Pas-de-Calais
+Categoria:Comunas do departamento de Pas-de-Calais
+
+{{infobox Franse gemeente|
+|plaatsnaam= Équirre
+|wapen= 
+|kaart= 
+|regio= Noord-Nauw van Calais 
+|departement= Pas-de-Calais (62)
+|arrondissement= Arras
+|kanton= Heuchin
+|jaar= 1999
+|inwoners= 71
+|dichtheid= 16,5
+|oppervlakte= 4,3
+|water= 
+|latitudeGraden= 50 |latitudeMinuten= 28|latitudeSeconden= 0
+|longitudeGraden= 2 |longitudeMinuten= 14 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 155 |kaartY= 27
+|code= 62301
+|postcode= 62134
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Équirre''' is een gemeente in het Franse departement Arras.
+
+==Geografie==
+De oppervlakte van Équirre bedraagt 4,3 km², de bevolkingsdichtheid is 16,5 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:300 color:gray1 width:1       
+  from:start till:end             
+  bar:200 color:gray1              
+  from:start till:end            
+  bar:100 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,103)(84,90) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 146 1968: 124
+  points:(84,90)(100,77)    color:blue    width:2 #1975: 100
+  points:(100,77)(128,66)   color:blue    width:2 #1982: 81
+  points:(128,66)(160,64)   color:blue    width:2 #1990: 77
+  points:(160,64)(196,60)   color:blue    width:2 #1999: 71
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

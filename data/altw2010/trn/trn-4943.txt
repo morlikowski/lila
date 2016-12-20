@@ -1,0 +1,167 @@
+{| align="right"
+|-
+|<!-- Il testo commentato è SOLO UN ESEMPIO -->
+{{Comune
+|nomeComune = Campo Tures 
+|panorama = Sand in Taufers 1.jpg
+|nomeUfficiale = Campo Tures/Sand in Taufers
+|linkStemma = Campo Tures-Stemma.png
+|siglaRegione = TAA
+|siglaProvincia = BZ
+|latitudineGradi = 46
+|latitudineMinuti = 55
+|latitudineSecondi = 0
+|longitudineGradi = 11
+|longitudineMinuti = 57
+|longitudineSecondi = 0
+|mappaX = 133
+|mappaY = 10
+|altitudine = 864
+|superficie = 164
+|abitanti = 5.040
+|anno = 31-12-2006
+|densita = 31
+|frazioni = Acereto, Caminata di Tures, Molini di Tures, Riva di Tures
+|comuniLimitrofi = Perca, Predoi, Rasun Anterselva, Sankt Jakob in Defereggen (AT-7), Selva dei Molini, Valle Aurina
+|cap = 39032
+|prefisso = 0474
+|istat = 021017
+|fiscale = B570
+|nomeAbitanti =  campoturesi / Sandner
+|patrono =  <!-- San Pietro-->
+|festivo =  <!-- 7 aprile -->
+|sito = http://www.comune.campotures.bz.it/
+}} <!-- fine della tabella - per la compilazione vedi -> Aiuto:Comune -->
+|-
+| thumb|right|290px|Il territorio comunale
+|}
+
+'''Campo Tures''' (in tedesco '''Sand in Taufers''') è un comune di circa 5.000 abitanti della Provincia Autonoma di Bolzano. Si trova in Val di Tures, a nord di Brunico.
+
+Mentre Campo è l'italianizzazione del tedesco ''Sand'' (che in realtà è traducibile come "arena"), il nome Tures/''Taufers''  è attestato per la prima volta intorno al 1050-1060 come Tufres, Tuvers, Tufers, Touveres e Taufers che forse deriva da un termine ''tob'' col significato di "burrone".<ref>AA.VV., ''Nomi d'Italia''. Novara, Istituto Geografico De Agostini, 2004</ref>
+
+La cittadina è suddivisa in alcuni sotto-quartieri tra i quali spicca Molini di Tures, piccolo agglomerato tipicamente tranquillo e adatto prettamente al soggiorno.
+Alcune denominazioni sono, però, spesso note ai soli residenti.
+Lungo Campo Tures scorre il torrente Aurino.
+
+Tra il 1908 ed il 1957 la località era collegata a Brunico attraverso la Ferrovia Elettrica Brunico-Campo Tures.
+
+Presso il paese sorge uno dei più bei castelli dell'Alto Adige, il Castello di Tures, in cui si tengono molte mostre durante tutto l´anno, oltre alle visite guidate al castello.<p>
+
+Nei pressi del paese si trovano le Cascate di Riva, che si possono visitare effettuando una leggera passeggiata in mezzo al bosco.
+
+La sua popolazione si è dichiarata per la quasi sua totalità di madrelingua tedesca:
+{{Appartenenza linguistica
+|ita =2,94
+|ted =96,72
+|lad =0,33
+}}
+
+==Amministrazione comunale==
+{{ComuniAmministrazione
+|NomeSindaco=Helmuth Innerbichler
+|DataElezione=09/05/2005
+|partito=SVP
+|TelefonoComune=0474 677555
+|EmailComune=info@campotures.eu
+}}
+
+==Evoluzione demografica==
+
+{{Infobox CityIT|
+  img_coa           = Campo Tures-Stemma.png|
+  official_name     = Comune di Campo Tures<br>Marktgemeinde Sand in Taufers|
+  name              = Sand in Taufers|
+  region            = Trentino-Alto Adige/Südtirol|
+  province          = Bolzano-Bozen (BZ)|
+  elevation_m       = 864|
+  area_total_km2    = 164.3|
+  population_as_of  = Dec. 2004|
+  population_total  = 4944|
+  population_density_km2 = 30|
+  timezone          = CET, UTC+1|
+  coordinates       = |
+  frazioni          = |
+  telephone         = 0474|
+  postalcode        = 39032|
+  gentilic          = |
+  saint             = |
+  day               = |
+  mayor             = Helmuth Innerbichler|
+  website           = [http://www.comune.campotures.bz.it www.comune.campotures.bz.it]|
+  mapy              = 11.9500|
+  mapx              = 46.9167|
+}}
+
+'''Sand in Taufers''' (Italian: ''Campo Tures''; Archaic (1050 AD): ''Tufres'', ''Tuvers'', ''Tufers'', ''Touveres'', and ''Taufers'') is a ''Italian region Trentino-Alto Adige/Südtirol, located about 110 km northeast of the city of Trento and about 70 km northeast of the city of Bolzano, on the border with Austria. As of 31 December 2004, it had a population of 4,944 and an area of 164.3 km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+Sand in Taufers borders the following municipalities: Gais, Percha, Prettau, Rasen-Antholz, Sankt Jakob in Defereggen (Austria), Mühlwald and Ahrntal.
+
+==Demographic evolution==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:6000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:1000 start:0
+ScaleMinor = gridcolor:lightgrey increment:200 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:0
+  bar:1871 from: 0 till:0
+  bar:1881 from: 0 till:0
+  bar:1901 from: 0 till:0
+  bar:1911 from: 0 till:0
+  bar:1921 from: 0 till:2627
+  bar:1931 from: 0 till:2673
+  bar:1936 from: 0 till:2932
+  bar:1951 from: 0 till:3276
+  bar:1961 from: 0 till:3426
+  bar:1971 from: 0 till:3780
+  bar:1981 from: 0 till:4247
+  bar:1991 from: 0 till:4436
+  bar:2001 from: 0 till:4880
+
+PlotData=
+
+  bar:1861 at:0 fontsize:XS text: ? shift:(-8,5)
+  bar:1871 at:0 fontsize:XS text: ? shift:(-8,5)
+  bar:1881 at:0 fontsize:XS text: ? shift:(-8,5)
+  bar:1901 at:0 fontsize:XS text: ? shift:(-8,5)
+  bar:1911 at:0 fontsize:XS text: ? shift:(-8,5)
+  bar:1921 at:2627 fontsize:XS text: 2627 shift:(-8,5)
+  bar:1931 at:2673 fontsize:XS text: 2673 shift:(-8,5)
+  bar:1936 at:2932 fontsize:XS text: 2932 shift:(-8,5)
+  bar:1951 at:3276 fontsize:XS text: 3276 shift:(-8,5)
+  bar:1961 at:3426 fontsize:XS text: 3426 shift:(-8,5)
+  bar:1971 at:3780 fontsize:XS text: 3780 shift:(-8,5)
+  bar:1981 at:4247 fontsize:XS text: 4247 shift:(-8,5)
+  bar:1991 at:4436 fontsize:XS text: 4436 shift:(-8,5)
+  bar:2001 at:4880 fontsize:XS text: 4880 shift:(-8,5)

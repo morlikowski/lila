@@ -1,0 +1,119 @@
+'''APML''' ('''Attention Profiling Mark-up Language''') is an XML-based format for capturing a person's interests and dislikes.
+
+==Overview==
+APML allows people to share their own personal Attention Profile in much the same way that OPML allows the exchange of reading lists between News Readers. The idea behind APML is to compress all forms of Attention Data into a portable file format containing a description of your rated interests.
+
+==The APML Workgroup== 
+The APML Workgroup is tasked with maintaining and refining the APML specification.  The APML Workgroup is made up of industry experts and leaders and was founded by Chris Saad and Ashley Angell<ref>[http://apml.org/geeks/workgroup/ Australian The APML Website]</ref>. 
+
+The workgroup allows public recommendations and input, and actively evangelises the public’s “Attention Rights”.  The workgroup also adheres to the principals of Media 2.0 Best Practices.
+
+==Services==
+''Services that have adopted APML''
+* Bloglines is an RSS reader. It is one of the major RSS readers on the web, with its main competitor being Google Reader. Bloglines recently announced it will support APML<ref>[http://www.bloglines.com/about/news#147 Bloglines Blog]</ref>.
+* OpenLink Data Spaces is a Distributed Collaborative Web Application Platform, Social Network and Content Management System.
+
+==Specifications==
+*[http://www.apml.org/developers/spec/ Specifications at apml.org]
+
+==Example==
+''Example taken from the [http://apml.pbwiki.com/ APML wikisite].''
+<pre>
+<?xml version="1.0"?>
+<APML xmlns="http://www.apml.org/apml-0.6" version="0.6" >
+  <Head>
+    <Title>Example APML file for apml.org</Title>
+    <Generator>Written by Hand</Generator>
+    <UserEmail>sample@apml.org</UserEmail>
+    <DateCreated>2007-03-11T01:55:00Z</DateCreated>
+  </Head>
+
+  <Body defaultprofile="Work">
+    <Profile name="Home">
+      <ImplicitData>
+        <Concepts>
+          <Concept key="attention" value="0.99" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          <Concept key="content distribution" value="0.97" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          <Concept key="information" value="0.95" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          <Concept key="business" value="0.93" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          <Concept key="alerting" value="0.91" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          <Concept key="intelligent agents" value="0.89" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          <Concept key="development" value="0.87" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          <Concept key="service" value="0.85" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          <Concept key="user interface" value="0.83" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          <Concept key="experience design" value="0.81" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          <Concept key="site design" value="0.79" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          <Concept key="television" value="0.77" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          <Concept key="management" value="0.75" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          <Concept key="media" value="0.73" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+        </Concepts>
+
+        <Sources>
+          <Source key="http://feeds.feedburner.com/apmlspec" name="APML.org" value="1.00" type="application/rss+xml" from="GatheringTool.com" updated="2007-03-11T01:55:00Z">
+            <Author key="Sample" value="0.5" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          </Source>
+        </Sources>
+      </ImplicitData>
+
+'''APML''' ('''Attention Profiling Mark-up Language''') est un format basé sur le XML visant à décrire les centres d'intérêt et de désintérêts d'une personne.
+
+==Généralités==
+APML permet à ses utilisateurs de partager leur profil d'attention de manière similaire à ce que l'OPML permet de faire avec ses la lecture de flux RSS. L'idée derrière APML est de compresser toutes les données d'attention au sein d'un fichier unique qui regrouperait ainsi tous les centres d'intérêts de son utilisateur.
+
+==Le groupe de travail sur l'APML == 
+Le groupe de travail sur l'APML est chargé de définir et de finaliser les spécifications du standard APML. Il est composé d'expert de l'industrie et a été fondé par Chris Saad et Ashley Angell<ref>[http://apml.org/geeks/workgroup/The APML Website]</ref>. 
+
+Ce groupe de de travail autorise les contributions libres et évangélise de manière active le public sur les “droits de l'attention”.  Ce groupe a adhéré aux règles de bonnes conduites de Media 2.0.
+
+==Services==
+''Liste des services ayant deja adopté le standard APML''
+* Particls prévient les utilisateurs sur les informations qui les intéressent. Des mots-clé sont notés au fil de la lecture des articles proposés. Le fichier standard APML peut être utilisé au démarrage du service pour se voir tout de suite proposer du contenu pertinent.
+* Engagd est une solution web qui propose du contenu en fonction des centres d'intérêts de l'utilisateur.
+* Cluztr est un réseau social bâti autour des clics de ses utilisateurs. Il permet de partager son expérience de navigation avec ses amis et sa famille. Cluztr fournit un fichier APML de "clicstream"
+* Dandelife - Dandelife est un réseau social bâti autour des contenus produit par ses utilisateurs 
+* Bloglines est un lecteur de flux RSS. Bloglines a annoncé son soutien à l'APML <ref>[http://www.bloglines.com/about/news#147 Bloglines Blog]</ref>.
+* tastebroker.org
+* Idiomag<ref>[http://www.idiomag.com/apml idiomag + apml - idiomag | your music magazine<!-- Titre généré automatiquement -->]</ref>
+
+==Spécifications==
+*[http://www.apml.org/developers/spec/ Les Spécifications sont disponibles sur apml.org] "Uniquement en anglais pour l'instant"
+
+==Exemple==
+''Exemple pris sur le wiki du site de l'[http://apml.pbwiki.com/ APML].''
+
+<pre>
+<?xml version="1.0"?>
+<APML xmlns="http://www.apml.org/apml-0.6" version="0.6" >
+  <Head>
+    <Title>Example APML file for apml.org</Title>
+    <Generator>Written by Hand</Generator>
+    <UserEmail>sample@apml.org</UserEmail>
+    <DateCreated>2007-03-11T01:55:00Z</DateCreated>
+  </Head>
+
+  <Body defaultprofile="Work">
+    <Profile name="Home">
+      <ImplicitData>
+        <Concepts>
+          <Concept key="attention" value="0.99" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          <Concept key="content distribution" value="0.97" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          <Concept key="information" value="0.95" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          <Concept key="business" value="0.93" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          <Concept key="alerting" value="0.91" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          <Concept key="intelligent agents" value="0.89" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          <Concept key="development" value="0.87" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          <Concept key="service" value="0.85" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          <Concept key="user interface" value="0.83" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          <Concept key="experience design" value="0.81" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          <Concept key="site design" value="0.79" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          <Concept key="television" value="0.77" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          <Concept key="management" value="0.75" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          <Concept key="media" value="0.73" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+        </Concepts>
+
+        <Sources>
+          <Source key="http://feeds.feedburner.com/apmlspec" name="APML.org" value="1.00" type="application/rss+xml" from="GatheringTool.com" updated="2007-03-11T01:55:00Z">
+            <Author key="Sample" value="0.5" from="GatheringTool.com" updated="2007-03-11T01:55:00Z" />
+          </Source>
+        </Sources>
+      </ImplicitData>

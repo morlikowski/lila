@@ -1,0 +1,116 @@
+{{infobox Franse gemeente|
+|plaatsnaam= La Riche
+|wapen= 
+|kaart= 
+|regio= Centre 
+|departement= Indre-et-Loire (37)
+|arrondissement= Tours
+|kanton= Ballan-Miré
+|jaar= 1999
+|inwoners= 8594
+|dichtheid= 1048,0
+|oppervlakte= 8,2
+|water= 
+|latitudeGraden= 47 |latitudeMinuten= 23|latitudeSeconden= 0
+|longitudeGraden= 0 |longitudeMinuten= 39 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 121 |kaartY= 125
+|code= 37195
+|postcode= 37520
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''La Riche''' is een gemeente in het Franse departement Centre) en telt 8594 inwoners (1999). De plaats maakt deel uit van het arrondissement Tours.
+
+==Geografie==
+De oppervlakte van La Riche bedraagt 8,2 km², de bevolkingsdichtheid is 1048,0 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:12000 color:gray1 width:1       
+  from:start till:end             
+  bar:8000 color:gray1              
+  from:start till:end            
+  bar:4000 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,110)(84,110) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 6324 1968: 6331
+  points:(84,110)(100,114)    color:blue    width:2 #1975: 6670
+  points:(100,114)(128,123)   color:blue    width:2 #1982: 7261
+  points:(128,123)(160,131)   color:blue    width:2 #1990: 7838
+  points:(160,131)(196,142)   color:blue    width:2 #1999: 8594
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+{{Infobox Commune de France
+|nomcommune=La Riche
+|région=Centre
+|département=Indre-et-Loire
+|arrondissement=Tours
+|canton=Ballan-Miré
+|insee=37195
+|cp=37520
+|maire=Alain Michel
+|mandat=2008-2014
+|intercomm=Tours Plus
+|longitude=0.661388888889
+|latitude=47.39
+|alt mini=43 m
+|alt maxi=51 m
+|hectares= 817
+|km²=8,17
+|sans=9 612
+|date-sans=2006
+|dens=1052
+|}}
+
+'''La Riche''' est une commune française du département d'région Centre.
+
+Ses habitants sont appelés les ''Larichois, Larichoises''.
+==Géographie==
+==Histoire==
+La ville tient son nom de l'église Notre-Dame-la-Riche de Tours (anciennement appelé Saint-Symphorien). 
+
+En 1787, la commune prend le nom de Varenne-de-La-Riche. Au  on y cultive surtout le chanvre et les céréales, puis, profitant des qualités du sol, les cultures deviennent principalement maraîchères. 
+
+La Riche ne fut pas épargnée par les guerres : occupée trois mois par les Prussiens en 1870 et surtout bombardée à neuf reprises entre juin et août 1944.
+
+==Administration==
+
+==Démographie==
+{{DemogFR
+|1793=1 000 | 1800=856 | 1806=871 | 1821=1 011 | 1831=1 234 | 1836=1 131 | 1841=1 197 | 1846=1 233 | 1851=1 372 | 1856=1 508 | 1861=1 560 | 1866=1 568 | 1872=1 670 | 1876=1 829 | 1881=2 005 | 1886=2 160 | 1891=2 335 | 1896=2 317 | 1901=2 456 | 1906=2 419 | 1911=2 536 | 1921=2 730 | 1926=3 043 | 1931=3 415 | 1936=4 020 | 1946=4 045 | 1954=4 407 | 1962=6 324 | 1968=6 331 | 1975=6 670 | 1982=7 261 | 1990=7 838 | 1999=8 594 | date1=2006 | pop1=9 612
+}}
+[http://cassini.ehess.fr/cassini/fr/html/fiche.php?select_resultat=18767# Graphique d'évolution de la population, 1794-1999]
+
+*population municipale en 2004 : 9 573
+<!-- source : JO du 18 février 2005 -->
+*population municipale en 2006 : 10 131
+<!-- source : JO du 24 décembre 2006 -->
+
+==Lieux et monuments==
+Le Louis XI qui en fit sa demeure principale, fut le théâtre de nombreux évènements historiques. 
+
+Peu avant sa mort en 1483, Louis XI fera venir d'Italie François de Paule qui construira le couvent des Minimes. Le tombeau du saint homme est aujourd'hui visible dans la petite chapelle voisine du couvent. 

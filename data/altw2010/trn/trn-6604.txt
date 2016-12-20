@@ -1,0 +1,39 @@
+thumb|right|250px|Portage sendo executado
+
+'''Portage''' é um sistema de distribuição, configuração e atualização de pacotes da distribuição linguagem Python, contém uma "árvore" representando os pacotes de software e as suas dependências. Ele é operado através de uma série de comandos que permitem ao usuário realizar ações como atualizar o Portage, atualizar ou remover pacotes já instalados ou instalar novos pacotes.
+
+Ao ser direcionado para instalar ou atualizar um pacote, o funcionamento normal do Portage consiste em:
+* Baixar da internet o código fonte do pacote e de todas as suas dependências, caso o código fonte não tenha sido previamente baixado 
+* Compilar o pacote e suas dependências, executando a instalação em uma sandbox
+* Instalar o pacote e suas dependências a partir da sandbox; caso o pacote tente instalar uma nova versão de um arquivo de configuração, o Portage dispõe de um sistema inteligente para gerenciar tal situação<ref>O Portage tem uma capacidade chamada "config file protection". Por padrão, tal capacidade está ativa para o diretório /etc e para os diretórios de configuração do KDE. Quando o Portage instala um arquivo em um diretório protegido, e já existe um arquivo homônimo,  o arquivo novo é instalado com o nome ._cfg0000_<nome-do-arquivo> e o arquivo homônimo é mantido. Caso ._cfg0000_<nome-do-arquivo> já exista, o nome escolhido é ._cfg0001_<nome-do-arquivo> e assim por diante. Existem ferramentas inteligentes, como o dispatch-conf, que propiciam que a atualização de arquivos de configuração seja automática ou semi-automática. </ref>
+* Opcionalmente, um tarball pode ser gerado 
+
+Se o usuário já dispõe do tarball do pacote a ser instalado, o Portage pode ser direcionado a utilizar esse tarball, economizando tempo de compilação. 
+Também existem ebuilds que não resultam em compilação, como por exemplo ebuilds de pacotes binários ou de dados.
+
+A ferramenta mais importante para acessar as capacidades do Portage através da linha de comando é o emerge.
+
+==Alguns comandos==
+
+'''Portage''' — основная система управления пакетами в Gentoo Linux. Аналог системы портов FreeBSD.
+Представляет собой набор утилит на Python и Bash, призванных облегчить и упорядочить установку программного обеспечения из исходных кодов или бинарных пакетов, с учетом всех зависимостей.
+
+Основной пользовательский интерфейс Portage — консольная программа <code>emerge</code>,которая позволяет устанавливать новые пакеты с учетом зависимостей и с возможностью управления вариантами установки — например с поддержкой определенных функций или без поддержки ненужных функций (управление параметрами сборки осуществляется через так называемые USE-флаги), удалять ненужные пакеты, обновлять установленные пакеты, проводить синхронизацию с деревом портежей (по протоколу rsync) и т. д. Программа <code>ebuild</code> служит интерфейсом низкого уровня к Portage, а <code>emerge</code> — высокоуровневая оболочка для неё.
+
+Главный конфигурационный файл системы Portage — <code>/etc/make.conf</code>. В нем настраиваются основные параметры компиляторов и  дополнительные возможности их использования (например, применением ccache, distcc), установки переменных окружения USE, HTTP-прокси, FTP-прокси, SYNC, ACCEPT_KEYWORDS и других, необходимых для работы системы Portage.
+
+Другие конфигурационные файлы системы находятся в <code>/etc/portage/</code> и позволяют более тонко конфигурировать различные аспекты системы portage.
+Существует скрипт revdep-rebuild из пакета gentoolkit для проверки зависимостей пакетов.
+== Дерево портежей ==
+
+Дерево портежей обычно распологается в каталоге <code>/usr/portage/</code> и представляет собой упорядоченную систему директорий-категорий пакетов (вида <code>app-emacs</code>, <code>dev-php</code>), в каждой из которых содержатся директории отдельных пакетов. В дереве каждый пакет состоит из набора метаданными о пакете и, возможно, нескольких других некрупных файлов, нужных для сборки пакета (например, патчей).
+
+Кроме того, в дереве портежей хранятся все лицензии, которые используются пакетами.
+
+В директорию <code>/usr/portage/distfiles/</code> обычно помещаются файлы дистрибутивов программ, скачиваемые во время установки пакетов.
+
+== Пример ==
+
+Пример работы программы emerge:
+
+<code><pre># emerge -pv postfix

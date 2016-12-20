@@ -1,0 +1,51 @@
+300px|right|thumb|Un satellite Milstar block I
+'''Milstar''' est un système de communication par satellite du gouvernement des États-Unis. Il procure aux militaires américains, un moyen de communication mondiale, sécurisé, résistant au brouillage, répondant ainsi aux exigences du temps de guerre. Son nom est à l'origine l'acronyme de '''''Mil'''itary '''S'''trategic and '''Ta'''ctical '''R'''elay''.
+
+== Fonctionnement ==
+Milstar est actuellement le plus avancé des systèmes de communication militaire par satellite en service dans les forces armées des États-Unis. C'est un outils conjoint, c'est-à-dire qu'il est utilisé aussi bien par l'US Army, l'US Navy, l'US Marine Corps ou l'US Air Force. La constellation de satellite Milstar est constituée de cinq satellites positionnés autour de la Terre en orbite géosynchrone. Chaque satellite a une masse d'approximativement  et est conçu pour une durée de vie de 10 ans.
+
+Chaque satellite Milstar est utilisé comme un « cryptée de voix, de données, de télétypes ou de fax. L'un des points clefs du système Milstar est sa capacité à transmettre des données aussi bien aux terminaux de l'Army, de la Navy ou de l'Air Force.
+
+Les stations fixes et mobiles dispersées géographiquement, permettent de garder un contrôle sûre et durable de la constellation Milstar.
+
+Le système Milstar est composé de trois parties : les satellites, les terminaux sur le terrain et la station de contrôle. La division des communications militaires par satellite (MILSATCOM) du Space and Missile Systems Center appartenant à l'Air Force Space Command est basé à Los Angeles AFB en Californie. Elle est responsable du développement et de l'acquisition des satellites et du contrôle de mission. L'Electronic Systems Center basé à Hanscom AFB au Massachusetts est responsable du développement et de l'acquisition des terminaux de l'US Air Force. De leur côté le 4<sup>th</sup> Space Operation Squadron basé à Schriever AFB au Colorado et le 148<sup>th</sup> Space Operation Squadron basé à Vandenberg AFB en Californie sont chargés de fournir le contrôle en temps réel des satellites et de gérer leur charge de communications.
+
+== Historique ==
+Le programme Milstar débuta sur l'année fiscale 1983, la fin de la phase d'étude du concept eut lieu au début de l'année 1983 et en juillet, l'US Air Force attribua à USD pour le développement de la prochaine génération de communications militaires par satellite. Les principaux sous-traitant était TRW et EHF 44 GHz du futur Milstar. Puis pendant la Guerre du Golfe en 1991, un prototype de terminal fut testé en Arabie saoudite. Le premier satellite de la constellation devait à l'origine être lancé en 1988 pour une mise en service opérationnelle au début des années 1990, cependant le programme fut en proie à des problèmes techniques tout au long des années 1980. Et en 1990, le Congrès des États-Unis réduisit le nombre de satellite de huit à six.
+
+Après le fin de la Département de la Défense en octobre 1992.
+
+Le premier satellite Milstar I-FI fut lancé avec succès le  par un lanceur Titan IV mais neuf jours plus tard le système primaire d'alimentation en énergie tomba en panne, il pu être remis en marche seulement le 28 juillet après que Lockheed Martin eu utilisé une sauvegarde du système.
+
+Le 14 avril 1994, l'US General Accounting Office recommanda l'annulation des quatrième et cinquième satellites et le développement d'un programme avancé de satellite EHF. Ceux-ci devrait être plus petit et par conséquent moins cher car pouvant être lancé à partir de fusées de taille moyenne et nom plus par des Titan IV/Centaur. Le 11 janvier 1995, l'US Air Force attribua un contrat de $1,15 Md à Lockheed Martin pour la fourniture des cinquième et sixième satellites
+
+thumb|250px|MILSTAR Block I satellite. [[United States Air Force|USAF Illustration]]
+'''Milstar''' (originally an acronym for '''Military Strategic and Tactical Relay [satellite]''', but now a name with no inherent meaning) is a United States government satellite communications system that provides secure, jam resistant, worldwide communications to meet wartime requirements for United States military users. 
+
+==Features==
+Milstar is the most advanced U.S. military satellite communications (MILSATCOM) system deployed to date. It is a joint service system, i.e. it serves the communication requirements of the United States Army, Navy, Marine Corps, and Air Force. The operational Milstar satellite constellation consists of five satellites positioned around the Earth in geosynchronous orbits. Each mid-latitude satellite weighs approximately 10,000 lb (4,536 kg) and has a design life of 10 years. 
+
+Each Milstar satellite serves as a smart "switchboard" in space by directing traffic from terminal to terminal anywhere on the Earth. Since the satellite actually processes the communications signal and can link with other Milstar satellites through crosslinks, the requirement for ground controlled switching is significantly reduced. The satellite establishes, maintains, reconfigures and disassembles required communications circuits as directed by the users. Milstar terminals provide encrypted voice, data, facsimile communications. A key goal of Milstar is to provide interoperable communications among the users of Army, Navy, and Air Force Milstar terminals.
+
+Geographically dispersed mobile and fixed control stations provide survivable and enduring operational command and control for the Milstar constellation.
+
+==Background==
+The first Milstar satellite was launched Titan IV expendable launch vehicle. The second was launched 7 November 1995. These satellites were later known as Milstar Block I. A block change occurred starting with the third satellite, where an additional medium data rate payload was added to the satellite. The third launch on 30 April 1999, placed the satellite in a non-usable orbit. The remaining satellites were launched on 27 February 2001, 15 January 2002, and 8 April 2003.
+
+The Milstar system is composed of three segments: space (the satellites), terminal (the users) and mission control. The Military Satellite Communications (MILSATCOM) division of Hanscom AFB, Massachusetts, is responsible for the Air Force portion of the terminal segment development and acquisition. The 4th Space Operations Squadron at Schriever AFB, Colorado,and the 148th Space Operations Squadron at Vandenberg AFB, California; are the front line organizations providing real-time satellite platform control and communications payload management.
+
+==Characteristics==
+:Primary function: Global military communications system
+:Primary contractor: Lockheed Martin Missiles and Space
+:Power plant: Solar panels generating 8 kW
+:Weight: ~10,000 lb (4,500 kg)
+:Orbit altitude: 22,250 nautical miles (41,200 km) geosynchronous
+:Payload:
+::Low data rate communications (voice, data, teletype and facsimile) at 75 bit/s to 2,400 bit/s (All satellites)
+::Medium data rate communications (voice, data, teletype and facsimile) at 4.8 kbit/s to 1.544 Mbit/s (Satellites 3 through 6 only)
+::Frequency plan: Q-Band uplink, Ka-Band downlink
+::Crosslinks: System supports string or ring satellite to satellite communications
+::Mission: Protected Communications: Anti-jam, low probability of intercept and detect, Nuclear survivable
+:Launch vehicle: Titan IVB/Centaur upper stage
+:Inventory: 5
+:Unit Cost: $800 million, then-year dollars

@@ -1,0 +1,49 @@
+La '''stéréolithographie''' est une technique dite de États-Unis d'Amérique.
+
+Plusieurs méthodes sont basées sur le principe de la stéréolithographie : la ''photopolymérisation'', le ''laminage'' et le ''frittage laser'' (liste non exhaustive).
+
+Pour la réalisation d'un modèle de fonderie, par exemple, ce procédé permet d'obtenir des modèles grandeur nature plus économiquement et plus rapidement qu'en les "taillant dans la masse" par prototypes.
+
+== Principe ==
+
+*Le processus débute avec un modèle de l'objet à fabriquer. Ce modèle est obtenu grâce à un CAO ou par acquisition numérique d'un objet existant qu'on veut reproduire.
+*Le modèle une fois dessiné doit être exporté dans un format standard, le format STL (pour ''STereoLithography''). Ce format a été à l'origine conçu pour communiquer avec les appareils de stéréolithographie mais est aujourd'hui utilisé dans d'autres domaines. Il s'agit d'un standard industriel ''de facto''. Ce format décrit les modèles sous formes de surfaces triangulaires contigues.
+*Le fichier STL est transmis à l'appareil de stérélithographie qui intègre un module de commande de type PC
+*Le modèle (en résolution de la restitution. Ce paramètre détermine donc la précision de l'objet qui va être produit.
+*L'objet est produit.
+
+== Les différents types de stéreolithographie ==
+
+Plusieurs techniques sont utilisées pour produire les prototypes rapidement.
+
+=== La photopolymérisation (SLA) ===
+==== Procédé ====
+
+left|thumb|281px|Structure d'un appareil de SLA
+
+La photopolymérisation est le premier procédé de prototypage rapide à avoir été développé dans les années 80. Le nom de SLA (pour ''StereoLithogrAphy'') lui a été donné. Il repose sur les propriétés qu'ont certaines résines à se polymériser sous l'effet de la lumière et de la chaleur.
+
+La résine utilisée est généralement un mélange de époxys et d'un photoinitiateur. Le rôle du photoinitiateur est, comme son nom l'indique, d'initier la polymérisation du matériau sous l'effet de la lumière.
+
+Dans ce procédé, une plateforme mobile est plongée dans une cuve de résine liquide. Cette plateforme supporte le modèle en cours de fabrication. La plateforme est positionnée à une profondeur H en dessous du niveau de la résine. La hauteur H est la résolution qui a été choisie pour la production de l'objet.
+Un déflecteurs qui sont des miroirs très précis (très plats) montés sur des galvanomètres. L'utilisation de deux de ces dispositifs de contrôle permet de diriger le faisceau en n'importe quel point de la plateforme.
+
+Les tranches constituant le modèle sont ensuite traitées une par une : le faisceau laser balaie la surface de résine liquide en fonction de la forme de la tranche définie informatiquement.
+
+thumb|right|300px|A '''stereolithography''' system. Photo by [[3D Systems.]]
+thumb|right|A SLA produced part
+
+'''Stereolithography''' is a common rapid manufacturing and rapid prototyping technology for producing parts with high accuracy and good surface finish. A device that performs stereolithography is called an SLA or '''S'''tereo'''l'''ithography '''A'''pparatus.
+
+==Technology description== 
+
+Stereolithography is an additive fabrication process utilizing a vat of liquid UV-curable UV UV cures, or, solidifies the pattern traced on the resin and adheres it to the layer below.
+
+After a pattern has been traced, the SLA's elevator platform descends by a single layer thickness, typically 0.05 mm to 0.15 mm (0.002" to 0.006"). Then, a resin-filled blade sweeps across the part cross section, re-coating it with fresh material. On this new liquid surface the subsequent layer pattern is traced, adhering to the previous layer. A complete 3-D part is formed by this process.  After building, parts are cleaned of excess resin by immersion in a chemical bath and then cured in a UV oven.
+
+Stereolithography requires the use of support structures to attach the part to the elevator platform and to prevent certain geometry from not only deflecting due to gravity, but to also accurately hold the 2-D cross sections in place such that they resist lateral pressure from the re-coater blade. Supports are generated automatically during the preparation of 3-D CAD models for use on the stereolithography machine, although they may be manipulated manually.  Supports must be removed from the finished product manually; this is not true for all rapid prototyping technologies.
+
+Image:Stereolithography apparatus.jpg
+
+== Advantages and disadvantages ==
+Stereolithography has many common names such as: 3D printing, optical fabrication, photo-solidification, solid free-form fabrication, and solid imaging.  One of the appealing aspects about SLA is that a functional part can be created within one day which becomes useful when working in a “ time is money” environment.  However the amount of time to produce any one part depends on the size and complexity of it and can take anywhere from a few hours to more than a day.  Most SLA machines can produce parts with a maximum size of 20” x 20” x 24”.  Prototypes made by SLA can be very beneficial they are strong enough to be machined and can be used as master patterns for injection molding, thermoforming, blow molding, and also in various metal casting processes.  Although there are almost no limitations when it comes to the shapes of the parts that can be created the process is not by any means inexpensive.  The photo-curable resin can cost any where from $300 to $800 per gallon.  An SLA machine can cost from $100,000 to $400,000.

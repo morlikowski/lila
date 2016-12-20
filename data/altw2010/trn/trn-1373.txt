@@ -1,0 +1,40 @@
+En elektrisk '''kortslutning''' er noe som skjer når to spenningsførende ledere berører hverandre i et elektrisk system. En kortslutning i et elektrisk system kan forekomme når ledere som fører strøm til for eksempel en stikkontakt får et brudd på isolasjonen og kommer i kontakt med hverandre eller eventuelt andre ledende deler i anlegget som har et elektrisk potensiale. Hvis lederen kommer i kontakt med en annen ledende del er det ofte en jordfeil.
+
+== Beregninger ==
+Det er mulig å beregne hvor stor strøm som kommer til å oppstå i kortslutningspunktet, dette er også en beregning som skal utføres av autoriserte elentreprenører for å sikre anlegget mot langvarige kortslutninger og for å sjekke at utstyret som blir montert tåler strømmen som oppstår. Måleinstrument kan benyttes for å få et nøyaktig tall etter at installasjonen er ferdig, men for å velge riktige dimensjoner på både sikringer og kabler burde det beregnes på forhånd. Det er nemlig ikke garantert at sikringen løser ut ved lengre avstander mellom vernet og punktet som man henter strømmen fra (stikkontakten).
+Dette er normalt ikke noe problem ved mindre installasjoner, eksempelvis boliger og leiligheter, derimot kan det vise seg å være et problem i større bygg som industribygg, skoler og kontorbygg hvor avstanden fra sikringen til forbrukspunktet kan være mange meter. Hvis kabelen som fører strømmen er for lang vil aldri sikringen kunne registrere at det faktisk er en kortslutning ute på anlegget. I IT-nett og TT-nett går det an å gjøre en forenklet beregning for å finne ut strømmen som går gjennom en kortslutning på anlegget, ofte beregnet/målt ved matepunktet.
+
+'''Ik3pmaks''' = 1,05 &times; Un &divide; &radic;3 &times; (Zytre + (Rfase &times; l)) = ... kA
+
+hvor
+
+Ik3pmaks = Den største kortslutningsstrømmen målt i kiloampere<br>
+1,05 = Normert spenningsfaktor<br>
+Un = Hovedspenningen målt i volt<br>
+Zytre = Impedans i foranliggende nett målt i m&Omega;<br>
+Rfase = Faseresistans i kabelen målt i m&Omega;/m<br>
+l = Kabellengde målt i meter<br>
+
+(Man regner alltid med maks antall faser, i de fleste tilfeller 3)
+
+Det er også mulig å beregne minste kortslutningsstrøm, noe som også er viktig for å sjekke at vernet som beskytter mot kortslutning faktisk klarer å "se" feilstrømmen.
+
+thumb|Tree limbs cause a short circuit during a storm
+
+A '''short circuit''' (sometimes abbreviated to '''short''' or '''s/c''') allows a current along a different path from the one intended.  
+The electrical opposite of a short circuit is an "open circuit", which is an infinite resistance between two nodes. It is common to misuse "short circuit" to describe any electrical malfunction, regardless of the actual problem.
+
+==Definition==
+A short circuit is an accidental low-resistance connection between two nodes of an Thevenin equivalent resistance of the rest of the network and potentially causes circuit damage, overheating, crowbar circuit protectors.
+
+In impedance, and almost no resistance. In such a case, the current drawn is limited by the rest of the circuit.
+
+== Examples ==
+
+A short circuit is to connect the positive and negative terminals of a battery together with a low-resistance conductor, like a current exists, causing the cell to deliver a large amount of energy in a short time.
+
+In electrical devices, unintentional short circuits are usually caused when a wire's insulation breaks down, or when another conducting material is introduced, allowing charge to flow along a different path than the one intended.
+
+A large current through a battery (also called a cell) can cause the rapid buildup of heat, potentially resulting in an explosion or the release of base. Overloaded wires can also overheat, sometimes causing damage to the wire's insulation, or a fire.  High current conditions may also occur with electric motor loads under stalled conditions, such as when the impeller of an electrically driven pump is jammed by debris.
+
+In phases, between a phase and neutral or between a phase and earth (ground).  Such short circuits are likely to result in a very high current and therefore quickly trigger an overcurrent protection device. However, it is possible for short circuits to arise between neutral and earth conductors, and between two conductors of the same phase. Such short circuits can be dangerous, particularly as they may not immediately result in a large current and are therefore less likely to be detected. Possible effects include unexpected energisation of a circuit presumed to be isolated. To help reduce the negative effects of short circuits, power distribution transformers are deliberately designed to have a certain amount of leakage reactance. The leakage reactance (usually about 5 to 10% of the full load impedance) helps limit both the magnitude and rate of rise of the fault current.

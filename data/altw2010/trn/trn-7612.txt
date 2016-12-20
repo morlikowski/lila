@@ -1,0 +1,149 @@
+== Définition ==
+Le '''Vidéotex''' est un service de télécommunications permettant l'envoi de pages composées de textes et de graphismes simples à un utilisateur en réponse à une requête de ce dernier (interactivité). Ces pages sont destinées à être visualisées sur un écran cathodique, par exemple sur une télévision ou tout autre écran au format de la télévision . Le français est le terminal adapté à ce service. Le nom du terminal a fini par être utilisé, dans le langage courant, comme nom générique du service et est donc en  français devenu synonyme de Vidéotex. Le service utilise une norme de communication basée sur une syntaxe de description des pages. Le service Antiope (Option 2 de la norme internationale T.100)
+
+Le service est généralement rendu par un système comportant des terminaux de type écran-clavier connectés par le réseau téléphonique commuté à un point d'accès spécifique assurant la connexion à un serveur au travers d'un réseau de transmission de données (en France le réseau Transpac de commutation de données par paquets) vers des serveurs, voire vers des terminaux pairs.  Seul le service Télétel (aussi appelé Minitel, du nom du terminal), basé sur une option de consommation à la demande permise par l'utilisation de Points d'Accès Videotex intégrés comme autocommutateurs dans le réseau téléphonique commuté, a connu une exploitation commerciale d'une durée significative. Les services britanniques (Prestel), Allemands (Bildschirmtext), Canadien (Télidon) et Japonais (Captain), tous basés sur un système d'abonnement, n'ont pas connu de succès commercial et ont été arrêtés peu après la fin des phases d'expérimentation. Néanmoins, le système Viewdata (dont Prestel était la marque commerciale) continue d'être utilisé par les agences de voyage au Royaume-Uni.
+
+== Historique de la Norme ==
+La première norme technique mondiale du Vidéotex est la Recommandation T.100 du CCITT, ancêtre de l'UIT-T. Cette norme regroupe les caractéristiques des quatre systèmes exploités en 1980, date d'adoption de cette norme :
+* Système Viewdata, utilisée au Royaume-Uni pour le service Prestel
+* Système ANTIOPE (Acquisition Numérique et Télévisualisation d'Images Organisées en Pages d'Écriture) utilisé en France pour les services Télétel et Annuaire Électronique (le nom du terminal, le Minitel a fini par devenir le nom commun à ces services).
+* Le système NAPLPS (North-American Presentation Level Protocol Syntax), utilisé au Canada pour le service Télidon
+* Le système CAPTAIN (Characters and Pattern Telephone Access Information Network), utilisé au Japon pour le service éponyme de NTT
+
+Au même moment, la norme internationale Recommandation F.300 du CCITT définit les règles d'exploitation et les caractéristiques du service lui même. Elle a été en vigueur jusqu'en 2004, la France étant la seule a maintenir encore le service.
+
+Une seconde norme internationale, adoptée par le CCITT en 1984 définit un certain nombre de fonctions de commande du réseau correspondant approximativement aux fonctions du Point d'accès Vidéotex.
+
+La première norme européenne (T/CD 06-01), adoptée en Mai 1981 par la CEPT (Conférence Européenne des administrations des Postes et Télécommunications) regroupe les deux versions européennes de T.100 et y ajoute des fonctions techniques provenant de propositions allemandes (Bilschirmtext) et suédoises. Elle a été mise à jour régulièrement jusqu'en 1988 et est actuellement maintenue et publiée comme norme européenne de télécommunications par l'ETSI sous le titre "ETS 300 072 Syntaxe de données de la couche de présentation du Vidéotex". Ses dernières versions incluent le vidéotex photographique (utilisation de la norme JPEG), et la transmission de formes de caractères (DRCS ou jeux de caractères dynamiquement redéfinissables).
+Les normes européennes successives ont été :
+* T/TE 06-02 (ETS 300 073) en mai 1988 : Mode géométrique de la syntaxe de données de la couche présentation du Vidéotex
+* T/TE 06-03 (ETS 300 074) en mai 1988 : Syntaxe pour le transfert transparent de données  (destinée au téléchargement de logiciels et d'autres formes de données)
+* T/TE 06-04 (ETS 300 075)  : Données retraitables pour le Vidéotex (qu'on peut assimiler à des informations de scripts actifs dans le terminal)
+et enfin
+* T/TE 06-05 (ETS 300 076) : Identificateur des capacités du terminal de Videotex (TFI)
+
+== Caractéristiques techniques de la norme de présentation du Vidéotex (CCITT T.100)==
+===Caractéristiques communes aux options 1 et 2 : le mode alpha-mosaïque===
+Le mode alphamosaïque est la base des services de Vidéotex européens et ils ont, heureusement, un ensemble de caractéristiques communes. Ils sont basés sur un modèle de terminal alphanumérique classique de la téléinformatique des années 70 : une mémoire d'entretien de page (RAM) contient les codes des caractères à visualiser et une mémoire (morte type ROM) contient les formes des caractères. Une base de temps organise la lecture périodique de la RAM de façon à afficher la page avec une fréquence (50Hz ou plus) évitant le papillottement.
+
+L'originalité du système alphamosaïque, imaginé au Royaume Uni vers 1971 par les ingénieurs de la BBC dans le cadre du projet Ceefax, consiste en plusieurs caractéristiques :
+*La capacité de l'écran est limité à 24 ou 25 rangées de 40 caractères, soit un total d'environ 1000 caractères. Ceci permet d'utiliser des mémoires de 1kbit qui, dans les années 70 constituent le standard du marché mais aussi de visualiser la page sur l'écran d'un téléviseur domestique.
+*En contrepartie de cette limitation, l'écran gagne la possibilité de visualiser les pages en couleurs. Huit couleurs sont utilisées correspondant aux 8 combinaisons des trois couleurs primaires. Cette possibilité constitue l'introduction de la notion d'''attributs des caractères''.
+*Outre l'alphabet informatique classique (alphabet international N°5, ISO CEI 646 aussi appelé Antiope à l'exposition СПОРТ 76 à Moscou.
+
+thumb|left|600px|Schéma du système alphamosaïque : modèle de terminal, types de caractères, codage des caractères mosaïques
+<br clear="all">
+Les deux systèmes alphamosaïques se différencient par le mode de gestion de leurs attributs qualifiés respectivement de série (ou sériels) pour le système d'origine britannique et de parallèles pour le système d'origine française.
+
+===Option 1 : le mode alphamosaïque série===
+C'est le mode original du système Viewdata. Il est construit de manière à assurer une compatibilité visuelle avec le système Télétexte (Ceefax) et donc à utiliser la même technologie de terminal.
+La syntaxe en est cependant différente de façon à permettre le transfert sur un réseau de données transparent.
+====Modèle de terminal====
+Le principe de construction du terminal est dérivé de celui de Ceefax dans lequel les codes reçus en ligne sont mis directement en mémoire. Comme la transmission utilisée par Ceefax se fait par mots de 7 éléments binaires, la mémoire comporte donc 7 kilobits. Sur les 128 combinaisons, 32 d'entre elles sont des codes d'attributs et les 96 autres représentent des caractères. Lorsque le code est un code de caracère, il est transmis au générateur de caractères, si c'est un code d'attribut, il est mis en mémoire dans un loquet (latch) et maintenu jusqu'à ce qu'un nouveau code d'attribut se présente. Le contenu du loquet commande le fonctionnement du générateur d'effet. les effets utilisés sont la couleur du caractère (une parmi 8), la couleur du fond, le clignotement, le type de caractères (alphabètiques ou mosaïques).
+
+La conséquence principale de cette architecture est qu'un code de fonction occupe sur l'écran la place d'un caractère qui est généralement représenté alors comme un espace.
+
+Dans la figure ci dessous, le mot VIEWDATA est écrit avec une espace entre chaque lettre en raison du changement de couleur entre chaque lettre.
+
+thumb|left|600px|Architecture du terminal dans le mode série 
+<br clear="all">
+====Tables de codage====
+{| border="0"
+|Le système ISO CEI 646) pour les caractères alphanumériques et une table pour les caractères mosaïques. Cette dernière est intéressante : en effet, comme il n'y a que 64 formes mosaïques et 96 emplacements dans la table de codage, il reste 32 positions utilisées par la partie majuscule de l'Alphabet International N°5. Ces 32 majuscules portent le nom de caractères "qui passent au travers" (''Blast through'') . Ceci permet d'inclure un texte en majuscules dans un schéma en mosaïque sans avoir à dépenser un espace pour cette modification. Ce jeu mosaïque est également appelé semi-graphique, voire graphique. Le nom originel est "Viewdata Graphics"<br clear="all">
+thumb|left|300px|Page de "Viewdata Graphics utilisée en 1977 sur le prototype du service expérimenté par le centre de recherche des PTT du Royaume Uni<br clear="all">
+|thumb|right|300px|table de code mosaïque de Viewdata
+|}
+<br clear="all">
+{| border="0"
+|thumb|left|150px|Table de code des attributs série.<BR>On a fait figurer les symboles des codes de changement d'attribut tels que visualisés par certaines consoles d'édition britanniques (ASTON, par ex.)
+|Chaque fonction d'attribut est codée par la succession de deux codes : un code d'échappement (code 1/11 ou hexadécimal 1B) suivi d'un caractère alphanumérique majuscule avec les significations du tableau ci contre.
+*la couleur (1 parmi 8) de forme applicable aux caractères alphabétiques (ABK à ANW) avec les couleurs dans l'ordre suivant de 0 à 7: Noir, rouge vert, jaune, bleu, magenta, cyan, blanc;
+*la couleur (1 parmi 8) de forme applicable aux caractères mosaïques (MBK à MSW) dans le même ordre;
+*la couleur de fond définie par transfert à partir d'une couleur de forme (NBD) nouveau fond ;
+*la remise du fond en noir, valeur par défaut : BBO,
+*la taille de caractère (normale NSZ, double hauteur DBH, double largeur DBW ; double taille DBS) ;
+*le clignotement (FSH) et l'arrêt de clignotement (STD) ;
+*le début ou la fin de soulignement ; STL et SPL ;
+*le début ou la fin de masquage ; CDY et SPD ;
+*la mise en marche et l'arrêt de la fonction de maintien du caractère précédent dans le mode mosaïque : HMS et RMS ;
+*le début ou la fin d'incrustation (SBX et EBX).
+|}
+<br clear="all">
+Les deux images ci-dessous représentent la même page, photographiées sur une console de création de pages fonctionnant selon le mode série. Sur la seconde version, on a activé la fonction de visualisation des codes d'attributs sous forme de caractères visibles. Cette version permet de comprendre les contraintes du mode série en montrant notamment le nombre d'espaces requis pour gérer les attributs. On peut voir que les caractères ''blast through'', ne requérant aucun espace pour être visualisés quand on est en mode "graphique" (comme on appelle aussi le mode mosaïque). On peut également voir la séquence de 3 ou 4 codes requis pour commencer une page quand il y a un fond : Couleur du caractère suivi de nouveau fond fixent la couleur du fond. Si on en reste là, les caractères seront inscrits dans la même couleur que le fond, ce qui les rendrait peu visibles. Il faut donc à nouveau fixer la couleur du caractère qui va suivre. Si celui ci est alphabétique, on en reste là. Sinon, on prescrit aussi un "maintien du graphique" qui permet de remplacer l'espace requis par les codes d'attributs à venir sur la même rangée par une répétition du caractère graphique précédent : on voit ce que cela donne sur la première rangée pour le code "mosaïque vert" au niveau du Pas de Calais.
+<br clear="all">
+{| border="0"
+|thumb|left|350px|Exemple de page en mode série. On notera les espaces encadrant les étoiles représentant la neige, ainsi que ceux précédant les noms de pays sur fond rouge. Comme on peut le voir sur la figure suivante, ceux–ci masquent les codes de changement d'attribut
+|thumb|right|350px|Exemple de page en mode série avec visualisation des codes de changement d'attribut. (Bien entendu, les codes en bleu sur fond bleu ou en rouge sur fond rouge restent invisibles).
+|}
+<br clear="all">
+
+===Option 2 : le mode alphamosaïque parallèle===
+thumb|right|250px|La même page test que ci-dessus montrant l'indépendance des attributs et des caractères
+thumb|right|250px|Les capacités graphiques de la norme Vidéotex illustrée sur une page Vidéotex
+
+Il consiste en une syntaxe de description de pages indépendante de la couche de transfert des données. Ainsi, les données peuvent elles  utiliser un système de télécommunications (incluant le  réseau téléphonique commuté) mais aussi utiliser un système de radiodiffusion de données à condition qu'il respecte l'indépendance entre la couche de transfert et la syntaxe de données . 
+
+Les pages sont composées de 25 lignes de 40 colonnes de symboles, qui peuvent être soit des caractères alphanumériques (correspondant à un répertoire étendu requis par les 39 langues européennes utilisant une forme d'alphabet latin, soit des ''caractères mosaïques'' permettant la composition de graphismes élémentaires.  La première ligne n’est jamais utilisée directement, elle joue le rôle de ligne d’état, affichant le prix de la communication par exemple. Chaque caractère dispose d’un certain nombre d’attributs, qui sont la couleur d’écriture et de fond (8 couleurs sont disponibles sur un Minitel), les attributs visuels tels l’inversion vidéo, le clignotement, et pour le mode texte le soulignage, et la taille d’affichage (normale, double largeur, double hauteur ou les deux réunis). Les attributs de chaque caractère alphabétiques comme mosaïques peuvent être définis''' librement et indépendamment de ceux des autres caractères'''. 
+
+Des possibilités d'autres caractères (mosaïques lissés, caractères dynamiquement redéfinissables, caractères non latin tels que cyrillique, arabes ou grecs, voire non alphabétiques pour le chinois ou le japonais ont été progressivement introduits. 
+
+Les fonctions de taille et l'indépendance du choix des couleurs ne sont pas disponibles dans l'Option 1 dérivée du système Viewdata utilisé par Prestel, en raison du parti pris de compatibilité visuelle avec le télétexte diffusé britannique dans lequel il n'y a pas indépendance entre la syntaxe de données et le protocole de transport. De même, le répertoire alphanumérique est limité aux caractères non accentués de la langue anglaise.
+
+thumb|250px|[[Minitel was perhaps the most successful videotex service worldwide. This Minitel 1 terminal was an early device used for connecting to Minitel.]]
+
+'''Videotex''' (or "interactive videotex") was one of the earliest implementations of an "end-user information system". From the late 1970s to mid-1980s, it was used to deliver information (usually pages of text) to a user in computer-like format, typically to be displayed on a television.
+
+Videotex in its broader definition can be used to refer to any such service, including the Internet, bulletin board systems, online service providers, and even the arrival/departure displays at an airport. In a more limited definition, it refers only to two-way information services, as opposed to one-way services such as teletext.  However, unlike the modern Internet, all ''traditional'' videotex services were highly centralized.
+
+== History ==
+=== United Kingdom ===
+The first attempt at a general-purpose videotex service were created in the United Kingdom in the late 1960s. In about 1970 the BBC had a brainstorming session in which it was decided to start researching ways to send closed captioning information to audience. As the '''Teledata''' research continued the BBC became interested in using the system for delivering any sort of information, not just closed captioning. 
+In 1972, the concept was first made public under the new name '''ORACLE'''.
+
+In 1974 all the services agreed a standard for displaying the information. The display would be a simple 40x24 grid of text, with some "graphics characters" for constructing simple graphics. This standard was called CEPT1. The standard did not define the delivery system, so both Viewdata-like and Teledata-like services could at least share the TV-side hardware (which at that point in time was quite expensive). The standard also introduced a new term that covered all such services, teletext. Ceefax first started operation in 1977 with a limited 30 pages, followed quickly by ORACLE and then Prestel in 1979.
+
+Prestel was somewhat popular for a time, but never gained anywhere near the popularity of Ceefax. This was due primarily to its delivering much the same content, yet requiring the user to pay for the terminal (today referred to as a travel agents throughout the country.
+
+Using a prototype domestic television equipped with the Prestel chip set, Michael Aldrich of Redifon Computers Ltd demonstrated real-time transaction processing in 1979 and thus invented teleshopping or online shopping as it is now named.  From 1980 onwards he designed, sold and installed systems with major UK companies including the world's first travel industry system,the world's first vehicle locator system for one of the world's largest auto manufacturers and the world's first supermarket system. He wrote a book, ''Videotex - Key to the Wired City'' (Quiller Press 1982) about his ideas and systems which among other topics explored a future of teleshopping and teleworking that has proven to be prophetic. Before the IBM PC, Microsoft and the Internet, he invented and manufactured and sold the 'Teleputer', a PC that could receive TV programmes and communicate using its Prestel chip set. 
+
+The Teleputer was a range of computers that were suffixed with a number. Only the Teleputer 1 and Teleputer 3 were manufactured and sold. The teleputer 1 was a very simple device and only worked as a teletex terminal, whereas the Teleputer 3 was a z80 based micro computer. It ran with a pair of single sided 5 1/4 inch floppy disk drive; a 20Mb Hard disk drive version was available towards the end of the product's life. The operating system was CP/M or a proprietary variant CP*, and the unit was supplied with a suite of applications, consisting of a word processor, spreadsheet, database and a semi-compiled basic programming language. The display supplied with the unit (both the Teleputer 1 and 3) was a modified Rediffusion 14 inch portable colour television, with the tuner circuitry removed and being driven by a RGB input. The unit had a 64Kb onboard memory which could be expanded to 128Kb with a plug in card. Graphics were the standard videotext (or teletext) resolution and colour, but a high resolution graphic card was also available. A 75/1200 baud modem was fitted as standard (could also run at 300/300 and 1200/1200), and connected to the telephone via an old style round telephone connector. In addition a IEEE interface card could be fitted. On the back of the unit there was a RS232 and Centronic connections and on the front was the connector for the keyboard. 
+
+The proposed Teleputer 4 & 5 were planned to have a laser disk attached and would allow the units to control video output on a separate screen.
+
+===North America===
+Interest in the UK trials did not go unnoticed in North America. In Canada the Department of Communications started a lengthy development program in the late 1970s that led to a "second generation" service known as Telidon. Telidon was able to deliver service using the vertical blanking interval of a TV signal or completely by telephone using a Bell 202 style (split baud rate 150/1200) modem. The TV signal was used in a similar fashion to Ceefax, but used more of the available signal (due to differences in the signals between North America and Europe) for a data rate about 1200-bit/s.  Some TV signal systems used a low-speed modem on the phone line for menu operation. The resulting system was rolled out in several test studies, all of which were failures.
+
+The use of the 202 model, rather than the Datapac-ready Bell 212 created severe limitations, as it made use of the Nation-wide x-25 packet network essentially out-of-bounds for Telidon-based services.  There were also many widely held misperceptions concerning the graphics resolution and colour resolution that slowed business acceptance.  Byte magazine once described it as "low resolution", when the coding system was, in fact, capable of 2^24 resolution in 8-byte mode.  There was also a pronounced emphasis in government and Telco circles on "hardware decoding" even after very capable PC-based software decoders became readily available. This emphasis on special single-purpose hardware was yet another impediment to the widespread adoption of the system.
+
+Amongst the first services were The Source and U.S. was by Radio Shack, which sold a consumer videotex terminal, essentially a single-purpose predecessor to the TRS-80 Color Computer, in outlets across the country.  Sales were anemic.  Radio Shack later sold a videotex software and hardware package for the Color Computer.
+
+In an attempt to capitalize on the European experience, a number of US-based media firms started their own videotex systems in the early 1980s.  Among them were Knight-Ridder, the Los Angeles Times, and Field Enterprises in Chicago, which launched Keyfax. The Fort Worth Star-Telegram partnered with Radio Shack to launch StarText. (Radio Shack is headquartered in Fort Worth).
+
+Unlike the UK, however, the FCC refused to set a single technical standard, so each provider could choose what it wished. Some selected Telidon (now standardized as NAPLPS) but the majority decided to use slight-modified versions of the Prestel hardware. StarText used proprietary software developed at the Star-Telegram. Rolled out across the country from 1982 to 1984, all of the services quickly died and none, except StarText, remained after another two years. StarText remained in operation until the late 1990s, when it was moved to the web.
+
+The primary problem was that the systems were simply too slow, operating on 300 baud modems connected to large minicomputers. After waiting several seconds for the data to be sent, users then had to scroll up and down to view the articles. Searching and indexing was not provided, so users often had to download long lists of titles before they could download the article itself. Furthermore, most of the same information was available in easy-to-use TV format on the air, or in general reference books at the local library, and didn't tie up your phone line. Unlike the Ceefax system where the signal was available for free in every TV, many U.S. systems cost hundreds of dollars to install, plus monthly fees of $30 or more.
+
+NAPLPS-based services were also being developed by several other joint partnerships between 1983 and 1987.  This includes:
+
+<ul>
+<li>Viewtron, a joint venture of Knight-Ridder and AT&T</li>
+<li>A service in Orange County by a joint venture of Times Mirror and InfoTron</li>
+<li>A service in Toronto by InfoTron</li>
+<li>A service in San Francisco by The Chronicle</li>
+<li>A service in Chicago by News Corp and Ameritech</li>
+</ul>
+
+One of the early videotex providers, Trintex, a joint venture of AT&T-CBS completed a moderately successful trial of videotex use in the homes of Ridgewood, New Jersey.  Trintex was merged with another joint venture that added Citibank to the AT&T-CBS partnership.  Shortly later Sears bought into the partnership that in circa 1985 began to offer a service called Prodigy, which used NAPLPS to send information to its users, right up until it turned into an Internet service provider in the late 1990s.  Because of its relatively late debut, Prodigy was able to skip the intermediate step of persuading American consumers to attach proprietary boxes to their televisions; it was among the earliest proponents of computer-based videotex.
+
+NAPLPS-based systems (Teleguide) were also used for an interactive Mall directory system in various locations including, the Worlds largest indoor mall, West Edmonton Mall (1985) and the Toronto Eaton Center. It was also used for an interactive multipoint audio-graphic educational teleconferencing system (1987) that predated todays shared interactive whiteboard systems such as those used by Blackboard and Desire2Learn.
+
+==Minitel==
+
+With the French Minitel system, unlike any other service, the users were given an entire custom designed terminal for free.  This was a deliberate move on the part of France Telecom, which reasoned that it would be cheaper in the long run to give away free terminals and teach its customers how to look up telephone listings on the terminal, instead of continuing to print and ship millions of phone books each year. 
+
+Once the network was in place, commercial services started to sprout up, becoming very popular in the mid-1980s. By 1990 tens of millions of terminals were in use. Like Prestel, Minitel used an asymmetric modem (1200-bit/s for downloading information to the terminal and 75-bit/s back).
+
+===Alex===
+thumb|300px|An [[Alex (videotex service)|Alex terminal.]]
+
+Alex in 1988, and Ontario two years later. It was available both as a standalone CRT terminal (very similar in design to Apple's BBSes.

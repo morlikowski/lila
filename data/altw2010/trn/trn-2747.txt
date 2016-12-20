@@ -1,0 +1,32 @@
+<noinclude></noinclude>
+
+<div style="border:2px solid #A3B1BF; padding:.5em 1em 1em 1em; border-top:none; background-color:#fff; color:#000">
+right|Click ''Edit this page'' to change an article
+With the exception of a few protected pages, every page has a link that says "'''''edit this page'''''", which lets you edit the page you are looking at. It is Wikipedia's most basic feature, and allows you to make corrections and add facts to articles.  If you add information to a page, please provide references, because unreferenced facts are subject to removal.
+
+Go to the /sandbox/ and click the "''edit this page''" link. This will open an edit window with the wikicode (text) for that page. Add something fun and interesting or "Hello world!" then save it and see what you have done! (Note: not on this page)
+
+==Show preview==    
+One important feature to start using now is the '''Show preview''' button. Try making an edit in the page history and has a number of other advantages. Do not forget to save your edits after previewing, though!
+
+==Edit summary==
+Edit summary text box|right
+Before you hit ''Save'', it is considered good etiquette (or "Wikiquette") to enter a polite explanation of your changes in the '''Edit summary''' box between the edit window and the Save and Preview buttons. It can be quite terse; for example if you just enter "typo", people will know you made a minor spelling or punctuation correction, or some other small change. Also, if the change you have made to the page is minor, such as a spelling or grammar correction, be sure to check the box "This is a minor edit" (this is only available if you have logged in).
+
+<div style="float:left; align:left; margin-top: -1.5em; background-color: #f5faff; padding: .2em .6em; font-size: 130%; border: 1px solid #cee0f2;">'''Play around in the /sandbox/'''</div>
+
+== "Mindre ändring"==
+Bocka gärna för '''Mindre ändring''' om du till exempel bara fixat några stavfel i en längre artikel. Det gör det lättare för andra användare i framtiden att se i artikelns versionshistorik när de viktigaste ändringarna gjordes. Mindre ändringar är i princip sådana som du menar inte behöver kontrolleras av någon annan, och som aldrig skulle kunna förorsaka en kontrovers. Om du känner dig osäker - låt bli att markera din redigering som mindre.
+
+Det finns en hjälpsida som definierar en mindre ändring, som kommer upp om man klickar på (m) jämte dess ruta, ovanför knappen förhandsgranskning. Ett tips kan vara att öppna hjälpsidan i ett nytt fönster, för att inte din just gjorda redigering ska försvinna.
+* Mindre ändring
+
+== Sammanfattning ==
+Det finns också en rad kallad '''Sammanfatta redigeringen''' där du kan beskriva din redigering. Genom att beskriva din ändring gör du det lättare för andra att direkt se vad du gör i listan med de senaste ändringarna men också senare i artikelns versionshistorik. Om man till exempel rättat ett stavfel kan man skriva "stafvel -> stavfel" eller om man lagt till en extern länk: "+extern länk".
+* Exempel till sammanfattningsfältet
+
+==Dina faddrar==
+Behöver du hjälp som du inte tycker att du kan läsa dig till? Tveka inte att fråga en av Wikipedias faddrar; de kan hjälpa dig att förstå wikitekniken, Wikipedias policyfrågor och var du hittar information om Wikipedia.
+
+== Testa? ==
+Det finns en särskild plats att experimentera vilt på: Wikipedia:Sandlådan. Var så god och testa!

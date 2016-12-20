@@ -1,0 +1,136 @@
+Derivative is a fundamental construction of differential calculus and admits many possible generalizations within the fields of mathematical analysis, combinatorics, algebra, and geometry. 
+
+== Derivatives in analysis ==
+In real, complex, and functional analysis, derivatives are generalized to functions of several real or complex variables and functions between variational derivative in the calculus of variations. Repeated application of differentiation leads to derivatives of higher order and differential operators. 
+
+=== Multivariable calculus ===
+
+The derivative is often met for the first time as an operation on a single real function of a single real variable.  One of the simplest settings for generalizations is to vector valued functions of several variables (most often the domain forms a vector space as well).  This is the field of multivariable calculus.
+
+In one-variable calculus, we say that a function is '''differentiable''' at a point ''x'' if the limit
+:<math>\lim_{h \to 0}\frac{f(x+h) - f(x)}{h}</math>
+exists, its value is then the derivative &fnof;'(''x'').  A function is differentiable on an interval if it is differentiable at every point within the interval.
+
+We can generalize to functions mapping '''R'''<sup>''m''</sup> to '''R'''<sup>''n''</sup> as follows: &fnof; is differentiable at ''x'' if there exists a linear operator ''A''(''x'') (depending on ''x'') such that
+:<math>\lim_{||h|| \to 0}\frac{||f(x+h) - f(x) - A(x)h||}{||h||} = 0.</math>
+Note that, in general, we concern ourselves mostly with functions being differentiable in some open neighbourhood  of <math>x</math>  rather than at individual points, as not doing so tends to lead to many pathological counterexamples.
+
+An ''m'' by ''n'' matrix, of the linear operator ''A''(''x'') is known as '''Jacobian''' matrix '''J'''<sub>''x''</sub>(&fnof;) of the mapping &fnof; at point ''x''. Each entry of this matrix represents a '''partial derivative''', specifying the rate of change of one range coordinate with respect to a change in a domain coordinate. Of course, the Jacobian
+matrix of the composition ''g''&fnof; is a product of corresponding Jacobian matrices:    
+'''J'''<sub>''x''</sub>(''g''&fnof;) ='''J'''<sub>&fnof;(''x'')</sub>(''g'')'''J'''<sub>''x''</sub>(&fnof;).
+
+For real valued functions from '''R'''<sup>''n''</sup> to '''R''' (scalar fields), the total derivative can be interpreted as a vector field called the '''gradient'''. An intuitive interpretation of the gradient is that it points "up": in other words, it points in the direction of fastest increase of the function.  It can be used to calculate '''directional derivatives''' of scalar functions or normal directions.
+
+Several linear combinations of partial derivatives are especially useful in the context of differential equations defined by a vector valued function '''R'''<sup>''n''</sup> to '''R'''<sup>''n''</sup>. The '''curl''' measures how much "rotation" a vector field has near a point.
+
+For vector-valued functions from '''R''' to '''R'''<sup>''n''</sup> (i.e., parametric curves), one can take the derivative of each component separately. The resulting derivative is another vector valued function. This is useful, for example, if the vector-valued function is the position vector of a particle through time, then the derivative is the velocity vector of the particle through time.
+
+The '''convective derivative''' takes into account changes due to time dependence and motion through space along vector field.
+
+=== Convex analysis ===
+
+The subderivative and subgradient are generalizations of the derivative to convex functions.
+
+=== Higher-order derivatives and differential operators ===
+One can iterate the differentiation process, that is, apply derivatives more than once, obtaining derivatives of second and higher order. A more sophisticated idea is to combine several derivatives, possibly of different orders, in one algebraic expression, a differential operator. This is especially useful in considering ordinary linear differential equations with constant coefficients. For example, if ''f''(''x'') is a twice differentiable function of one variable, the differential equation
+
+: <math>f''+2f'-3f=4x-1\,</math>
+
+may be rewritten in the form 
+
+: <math>L(f)=4x-1,\,</math> &ensp;&ensp; where &ensp;&ensp; <math> L=\frac{d^2}{dx^2}+2\frac{d}{dx}-3</math>
+
+is a ''second order linear constant coefficient differential operator'' acting on functions of ''x''. The key idea here is that we consider a particular integration, and formally write 
+
+: <math>f(x)=L^{-1}(4x-1).\, </math>
+
+Higher derivatives can also be defined for functions of several variables, studied in in local extrema of a function at its critical points. For an advanced application of this analysis to topology of manifolds, see  Morse theory.
+
+As in the case of functions of one variable, we can combine first and higher order partial derivatives to arrive at a notion of a partial differential operator. Some of these operators are so important that they have their own names: 
+
+*The Laplace operator or '''Laplacian''' on '''R'''<sup>3</sup> is a second-order partial differential operator ''Δ'' given by the  divergence of the gradient of a scalar function of three variables, or explicitly as
+
+:: <math> \Delta=\frac{\partial^2}{\partial x^2}+\frac{\partial^2}{\partial y^2}+\frac{\partial^2}{\partial z^2}. </math>
+Analogous operators can be defined for functions of any number of variables.
+
+*The metric of Euclidean dot product of '''R'''<sup>''3''</sup>:
+
+:: <math> \square=\frac{\partial^2}{\partial x^2}+\frac{\partial^2}{\partial y^2}+\frac{\partial^2}{\partial z^2}-\frac{1}{c^2}\frac{\partial^2}{\partial t^2}. </math>
+
+=== Fractional derivatives ===
+In addition to ''n''-th derivatives for any natural number ''n'', there are various ways to define derivatives of fractional or negative orders, which are studied in '''fractional calculus'''.  The -1 order derivative corresponds to the integral, whence the term '''differintegral'''.
+
+=== Complex analysis ===
+
+In complex analysis, the central objects of study are holomorphic functions, which are complex-valued functions on the complex numbers satisfying a suitably extended definition of differentiability.
+
+The '''Schwarzian derivative''' describes how a complex function is approximated by a fractional-linear map, in much the same way that a normal derivative describes how a function is approximated by a linear map.
+
+=== Functional analysis ===
+
+In functional analysis, the '''functional derivative''' defines the derivative with respect to a function of a functional on a space of functions.  This is an extension of the directional derivative to an infinite dimensional vector space.  
+
+The '''Fréchet derivative''' allows the extension of the directional derivative to a general Banach space.  The '''Gâteaux derivative''' extends the concept to locally convex topological vector spaces.  Fréchet differentiability is a strictly stronger condition than Gâteaux differentiability, even in finite dimensions.  Between the two extremes is the '''quasi-derivative'''.
+
+In measure theory, the '''Radon-Nikodym derivative''' generalizes the Jacobian, used for changing variables, to measures. It expresses one measure &mu; in terms of another measure &nu; (under certain conditions).
+
+In the theory of ''H''-derivative defines a derivative in certain directions corresponding to the Cameron-Martin Hilbert space.
+
+The derivative also admits a generalization to the space of '''distributions''' on a space of functions using integration by parts against a suitably well-behaved subspace.
+
+В математике существует много различных обобщений понятия '''производной''', т.к. она является базовой конструкцией дифференциального исчисления.
+
+== Односторонние производные ==
+
+Правосторонний предел
+: <math>\lim\limits_{x \to x_0+} \frac{f(x) - f(x_0)}{x - x_0}</math>
+называется '''правосторо́нней произво́дной''' или '''произво́дной спра́ва''' и обозначается символами
+: <math>f^+(x_0),\ f'_+(x_0),\ \mathrm{D}^+f(x_0).</math>
+Аналогично, левосторонний предел
+: <math>\lim\limits_{x \to x_0-} \frac{f(x) - f(x_0)}{x - x_0}</math>
+называется '''левосторо́нней произво́дной''' или '''произво́дной сле́ва''' и обозначается символами
+: <math>f^-(x_0),\ f'_-(x_0) = \mathrm{D}^-f(x_0).</math>
+
+Пусть дана функция <math>f:U(x_0) \to \R.</math> Тогда существует конечная производная <math>f'(x_0)</math> тогда и только тогда, когда существуют конечные и равные односторонние производные <math>f'_+(x_0) = f'_-(x_0).</math>
+
+== Анализ функций нескольких переменных ==
+
+Одна из простейших ситуаций, в которых возможно обобщение — это вектор-функции нескольких переменных (наиболее часто область определения представляет собой векторное пространство). Это является предметом изучения анализа функций нескольких переменных.
+
+'''Частная производная''' определяется практически идентично производной одиночной вещественной функции, за исключением того, что она распознаёт выбор независимой переменной, который был сделан.
+
+'''Полная производная''' функции используется для индикации того, что функция может иметь и явную и неявную зависимость от переменной. Общая производная должна принимать во внимание оба возможных источника изменения, тогда как частная производная должна видеть только явную зависимость.
+
+'''Производная Лагранжа''' принимает во внимание изменения вследствие зависимости от времени и движения через пространство по векторному полю.
+
+Для вещественнозначных функций из '''R'''<sup>n</sup> в '''R''', '''производных направлений''' скалярных функций или направлений нормалей.
+
+Для векторнозначных функций '''R'''<sup>''n''</sup> в '''R'''<sup>''n''</sup>, теоремы о дивергенции.
+
+Для векторнозначных функций '''R'''<sup>3</sup> в '''R'''<sup>3</sup>, '''ротор''' измеряет "вращение" векторного поля в этой точке.
+
+Для любой функции из '''R'''<sup>''n''</sup> в '''R'''<sup>''m''</sup>, '''замене переменных в формуле интегрирования.
+
+== Производные высшего и дробного порядка ==
+
+Другое простое обобщение, которое можно произвести, — это применить её больше, чем один раз, получая в результате производную второго (и выше) порядка, как определено в статье о производных. Этот способ может быть обобщён.
+
+В добавок к производным ''n''-ого порядка для любого натурального числа ''n'', используя различные методы, возможно ввести производные в дробных степенях, получая при этом так называемые производные дробного порядка.  Производные отрицательных порядков будут соответствовать интегрированию, откуда появляется термин '''диффинтеграл'''. Изучение различных возможных определений и записей производных ненатуральных порядков известно под названием '''дробное исчисление'''.
+
+=== Производные высшего порядка в анализе функций нескольких переменных ===
+
+Существует несколько различных векторнозначимых и скалярнозначимых производных второго порядка в анализе функций нескольких переменных.
+
+'''градиента скалярной функции на '''R'''<sup>''n''</sup>. '''Д'Аламбертиан''' — определяется аналогично лапласиану, но используя неопределённую метрику пространства Минковского, вместо скалярного произведения в евклидовом пространстве '''R'''<sup>''n''</sup>.
+
+'''Гессианова матрица''' — это матрица частных производных второго порядка скалярной функции, используемая для вычислений в теории Морса.
+
+== Алгебра ==
+
+'''Производная''' — это линейное отображение на кольце или алгебре, которое удовлетворяет закону Лейбница (правилу произведения). Они изучаются в чистой алгебраической постановке в дифференциальной теории Галуа, но также появляются во многих других областях, где они часто употребляются с менее строгими алгебраическими определениями производных.
+
+== Дифференциальная топология ==
+
+В дифференциальной топологии, '''гладких функций на многообразии, а подмножествами '''R'''<sup>''n''</sup>, этот касательный вектор будет аналогичен направленной производной определённой выше.
+
+'''якобиана.

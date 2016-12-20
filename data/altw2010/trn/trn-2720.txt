@@ -1,0 +1,31 @@
+Le '''bras télémanipulateur européen''' ou en anglais '''European robotic arm''' (ERA) est un bras robotique de manipulation destiné à la Station spatiale internationale (ISS).<ref>[http://www.vieartificielle.com/article/index.php?id=0814 VieArtificielle.com<!-- Titre généré automatiquement -->]</ref><ref>  http://www.esa.int/export/esaHS/ESAQEI0VMOC_iss_0.html#subhead1 présentation de l'ERA par l'ESA]</ref><ref>[http://www.esa.int/esaCP/SEMXIRM65LE_France_0.html ESA Portal - France - Pleins feux sur la robotique européenne<!-- Titre généré automatiquement -->]</ref><ref>  http://www.esa.int/esaHS/ESAQEI0VMOC_iss_0.html</ref>
+
+== Description ==
+D'une longueur de onze mètres pour une masse de 630 kg, il est capable de déplacer des charges pesant jusqu'à huit tonnes.
+
+Les deux extrémités du bras robotisé pourront se fixer sur la surface de la station. Le bras effectuera des déplacements en extérieur. Une extrémité se fixera sur un point d'ancrage, puis la deuxième, la première se dégagera alors. Une telle mobilité induit un vaste champ d'action. Le dispositif d'ancrage de l'ERA se trouvera sur une plate-forme mobile se déplaçant le long de rails longeant la structure de la plate-forme.
+
+Les cosmonautes pourront le contrôler depuis l'intérieur de l'ISS, mais aussi depuis l'extérieur.
+
+Chaque extrémité du bras recevra le même dispositif. Ce dernier permettra d'attraper des 
+objets munis du système d'accrochage adéquat. Il se trouvera également muni de caméras vidéo, et d'un outil multi-tâches. Les astronautes pourront également s'en servir pour se déplacer.
+
+The '''European Robotic Arm''' ('''ERA''') is a Pirs''.
+
+== Major features and tasks ==
+
+The intelligent space robot has several interesting features. Most prominent are its ability to 'walk' around the exterior of the station under its own control, hand-over-hand between pre-fixed basepoints and its ability to perform many tasks automatically or semi-automatically, thereby freeing its operators to do other work. Specific tasks of ERA include:
+* Installation and deployment of solar arrays
+* Replacement of solar arrays
+* Inspection of the station
+* Handling of (external) payloads
+* Support of astronauts during space walks
+
+The International Space Station already features one robotic arm, the Canadarm2 but because of the different types of basepoints and payload mounting units that arm cannot be used on the Russian part of the ISS.  The European arm is smaller, and less powerful than Canadarm2.  There is no "hand" or Special Purpose Dexterous Manipulator planned for it. 
+
+Developed for the European Space Agency (ESA) by the European space industry with Dutch Space as prime contractor and subcontractors in 8 countries, the robot arm will be launched by a Russian Proton rocket to be put to work in space by the ISS crew. During the launch, ERA is attached to the Multipurpose Laboratory Module (MLM). This Russian module will also serve as home base for ERA during operations with the robot arm. Originally, it was going to be attached to the Science Power Platform.
+
+==Control of ERA==
+thumb|right|300px|Control and data interfaces of ERA
+
+Astronauts can control the robot from both inside as well as outside the space station. Control from inside the space station (Intra Vehicular Activity-Man Machine Interface (IVA-MMI)) uses a laptop which shows a model of the ERA and its surroundings. Control from outside the space station (Extra Vehicular Activity-Man Machine Interface (EVA-MMI)) uses a specially designed interface that can be used while in a spacesuit.

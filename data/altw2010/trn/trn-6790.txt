@@ -1,0 +1,73 @@
+Die '''Produktregel''' oder '''Leibnizregel''' (nach G. W. Leibniz) ist eine grundlegende Regel der  Produktes von Funktionen auf die Berechnung der Ableitung der einzelnen Funktionen zurück. 
+
+Sind die Funktionen <math>u(x)</math> und <math>v(x)</math> von einem Intervall ''D'' in die reellen oder komplexen Zahlen an der Stelle <math>x = x_a</math> differenzierbar, so ist auch die Funktion
+
+: <math>f(x) = u(x) \cdot v(x)</math>
+
+an der Stelle <math>x=x_a</math> differenzierbar, und es gilt
+
+: <math>f'(x_a) = u'(x_a)\cdot v(x_a) + u(x_a)\cdot v'(x_a)</math> oder kurz: <math>\ (uv)' = u'v + uv'</math>.
+
+Eine Anwendung der Produktregel in der partiellen Integration. Im Falle von konstanten Faktoren geht die Produktregel in die einfachere Faktorregel über.
+
+== Anwendungsbeispiele ==
+
+Im Folgenden sei stets <math>f(x)=u(x)v(x)</math>.
+* Ist <math>u(x)=x</math> und <math>v(x)=x</math>, so erhält man aus der Kenntnis von <math>u'(x)=1</math> und <math>v'(x)=1</math> mit der Produktregel die Aussage
+:: <math>\frac{\mathrm d}{\mathrm dx}x^2=f'(x)=u'(x)v(x)+u(x)v'(x)=1\cdot x+x\cdot 1=2x.</math>
+* Ist <math>u(x)=x</math> und <math>v(x)=\frac1x</math>, so ist <math>f(x)=u(x)v(x)=1</math>, also ist
+:: <math>0=f'(x)=u'(x)v(x)+u(x)v'(x)=1\cdot \frac1x+x\cdot v'(x)</math>
+: und durch Umformen erhält man die Aussage
+:: <math>v'(x)=-\frac1{x^2}.</math>
+
+== Erklärung und Beweis ==
+Produktregel|thumb
+Das Produkt zweier reeller Funktionen <math>u(x)</math> und <math>v(x)</math> kann als Flächeninhalt eines Rechtecks mit den Seiten <math>u</math> und <math>v</math> gedeutet werden. Ändert sich nun <math>x</math> um <math>\Delta x</math>, so ändert sich <math>u(x)</math> um <math>\Delta u</math> und <math>v(x)</math> um <math>\Delta v</math>. Die Änderung des Flächeninhalts (also <math>\Delta(u\cdot v)</math>) setzt sich dann (siehe Abbildung) zusammen aus:
+
+: <math>\Delta(u\cdot v)=u\cdot \Delta v+v\cdot\Delta u+\Delta u\cdot\Delta v</math>.
+
+Dividiert man durch <math>\Delta x</math> so ergibt sich
+
+:<math>{ \Delta ( u \cdot v ) \over \Delta x } = u \cdot { \Delta v \over \Delta x } + v \cdot { \Delta u \over \Delta x } + { \Delta u \over \Delta x } \cdot \Delta v.</math>
+
+Für <math>\Delta x</math> gegen 0 wird der letzte Summand schneller kleiner als die beiden anderen und man erhält
+
+:<math>(u\cdot v)'=u\cdot v'+v\cdot u'</math>
+
+wie behauptet. Dieses ist auch im wesentlichen die Argumentation, wie sie sich in einem ersten Beweis der Produktregel 1677 in einem Manuskript von Leibniz findet. Die Produktregel, die er dort gemeinsam mit der Differentiale und schloss, dass <math>\Delta u\cdot\Delta v</math> wegfällt, weil es im Vergleich zu den anderen Faktoren infinitesimal klein sei. Euler benutzte noch dasselbe Argument, erst bei Cauchy findet sich ein Beweis mit Grenzwerten. 
+
+Gegeben sei die Funktion <math>f</math> durch <math>f(x) = u(x) \cdot v(x)</math>. Die Ableitung von <math>f</math> ist dann durch den Grenzwert des Differenzenquotienten
+
+:<math>\lim_{h \to 0} \frac {u(x+h)\cdot v(x+h)-u(x)\cdot v(x)}{h}</math>
+
+gegeben. Addition und Subtraktion des Terms <math>\frac {u(x)\cdot v(x+h)}{h}</math> liefert
+
+:<math>\lim_{h \to 0} \frac{u(x+h)-u(x)}{h}\cdot v(x+h)+ \lim_{h \to 0} u(x)\cdot \frac{v(x+h)-v(x)}{h}.</math>
+
+Das Bilden des Grenzwerts liefert dann die Produktregel <math>f'(x) = u'(x)\cdot v(x) + u(x)\cdot v'(x)</math>.
+
+== Verallgemeinerungen ==
+
+=== Mehr als zwei Faktoren ===
+
+Die Produktregel kann sukzessive auch auf mehrere Faktoren angewandt werden. So wäre
+
+'''Çarpma kuralı''' iki veya daha fazla fonksiyonun çarpımının türevinin hesaplanmasında kullanılan bir yöntemdir. Kuralı Gottfried Leibniz türettiği için bu kural Leibniz kuralı olarak da geçer. Kuralın matematiksel ifadesi ''f'' ve ''g'' sırasıyla ''f(x)'' ve ''g(x)'' ifadelerinin kapalı formu olmak üzere şöyle verilir:
+
+:<math>\frac{d}{dx}(fg) = \left(\frac{df}{dx} \right )g + f\left( \frac{dg}{dx}\right )</math>
+
+== İspat ==
+
+Türevin tanımı kullanılarak iki fonksiyonun çarpımının türevine bakılırsa
+
+<math>
+\begin{alignat}{4}
+ \frac{d}{dx}(fg) & = \lim_{h \to 0} \frac{f(x+h)g(x+h)-f(x)g(x)}{h} \\
+                  & = \lim_{h \to 0} \frac{f(x+h)g(x+h)+f(x)g(x+h)-f(x)g(x+h)-f(x)g(x)}{h}\\
+                  & = \lim_{h \to 0} g(x+h)\frac{f(x+h)-f(x)}{h}+f(x)\frac{g(x+h)-g(x)}{h}\\
+                  & = g(x)f'(x) + f(x)g'(x)\\
+\end{alignat}</math>
+
+== Genelleme ==
+
+''F'' fonksiyonu ''N'' tane birbirinden farklı ancak aynı değişkene bağlı fonksiyonun çarpımı olsun.

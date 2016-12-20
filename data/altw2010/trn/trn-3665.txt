@@ -1,0 +1,307 @@
+<!-- Article redigit en provençau -->
+L''''estructura dei proteïnas''' es un ensem de proprietats espacialas dei moleculas de proteïnas dependentas derivadas de lor natura en sequéncia d'aminoacids, lei caracteristicas fisicas de son environament e la preséncia de compausats, simples o de complèxes, que condusiscan a un plegament especific, distint de l'espontanèu. Per aiçò, deriva de sa composicion, es a dire, de la pròpria estructura deis aminoacids, de coma interagisson quimicament aquestes, de forma organizada e especifica, e, evidentament, es en relacion amb la foncion a complir dins la cellula.
+thumb|right|400px|Nivèus d'estructuracion d'una proteïna (en [[espanhòu)]]
+=Nivèus d'estructuracion=
+I a quatre nivèus d'estructuracion:
+ 
+==L'estructura primària==
+Es simplament la sequéncia d'liames peptidics.
+
+==L'estructura segondària==
+I a dos motius principaus d'estructuracion segondària:
+===L'eliç alfa===
+===Lo fulhet beta===
+
+==L'estructura terciària==
+
+Es la manièra en que la cadena polifòrças de van der Waals e de ponts disulfurs (covalents, entre dos liames ionics.
+
+elements as NMR spectroscopy, to determine the structure of proteins.
+
+A number of residues are necessary to perform a particular biochemical function, and around 40-50 residues appears to be the lower limit for a functional domain size. Protein sizes range from this lower limit to several thousand residues in multi-functional or structural proteins. However, the current estimate for the average protein length is around 300 residues. Very large aggregates can be formed from protein subunits, for example many thousand actin molecules assemble into a collagen filament. 
+
+==Levels of protein structure==
+thumb|250px|'''Protein structure''', from primary to quaternary structure.
+Biochemistry refers to four distinct aspects of a protein's structure:
+* '''Primary structure''' - the amino acid sequence of the peptide chains.
+* '''Secondary structure''' - highly regular sub-structures (''alpha helix'' and ''strands of beta sheet'') which are locally defined, meaning that there can be many different secondary motifs present in one single protein molecule.
+* '''Tertiary structure''' - three-dimensional structure of a single protein molecule; a spatial arrangement of the secondary structures. It also describes the completely folded and compacted polypeptide chain.
+* '''Quaternary structure''' - complex of several protein molecules or polypeptide chains, usually called protein subunits in this context, which function as part of the larger assembly or protein complex.
+
+In addition to these levels of structure, a protein may shift between several similar structures in performing its biological function. In the context of these functional rearrangements, these tertiary or quaternary structures are usually referred to as chemical conformation, and transitions between them are called conformational changes.
+
+The primary structure is held together by covalent or peptide bonds, which are made during the process of protein biosynthesis or translation.  These peptide bonds provide rigidity to the protein. The two ends of the amino acid chain are referred to as the C-terminal end or carboxyl terminus (C-terminus) and the N-terminal end or amino terminus (N-terminus) based on the nature of the free group on each extremity.
+
+The various types of secondary structure are defined by their patterns of hydrogen bonds between the main-chain peptide groups.  However, these hydrogen bonds are generally not stable by themselves, since the water-amide hydrogen bond is generally more favorable than the amide-amide hydrogen bond.  Thus, secondary structure is stable only when the local concentration of water is sufficiently low, e.g., in the fully folded states.  
+
+Similarly, the formation of molten globules and tertiary structure is driven mainly by structurally ''non-specific'' interactions, such as the rough propensities of the amino acids and hydrophobic interactions.  However, the tertiary structure is ''fixed'' only when the parts of a protein domain are locked into place by structurally ''specific'' interactions, such as ionic interactions (salt bridges), hydrogen bonds and the tight packing of side chains.  The tertiary structure of extracellular proteins can also be stabilized by disulfide bonds, which reduce the entropy of the unfolded state; disulfide bonds are extremely rare in cytosolic proteins, since the cytosol is generally a reducing environment.
+
+== Structure of the amino acids==
+thumb|250px|An α-amino acid
+An α-amino acid consists of a part that is present in all the amino acid types, and a side chain that is unique to each type of residue. The C<sub>α</sub> atom is bound to 4 different molecules (the H is omitted in the diagram); an amino group, a carboxyl group, a hydrogen and a side chain, specific for this type of amino acid. An exception from this rule is chiral, however only one of the isomers occur in biological proteins. Glycine however, is not chiral since its side chain is a hydrogen atom. A simple mnemonic for correct L-form is "CORN": when the C<sub>α</sub> atom is viewed with the H in front, the residues read "CO-R-N" in a clockwise direction.
+thumb|250px||CO-R-N rule
+The side chain determines the chemical properties of the α-amino acid and may be any one of the 20 different side chains:
+
+{| class="wikitable"
+|- 
+! Name&nbsp; (Residue)
+! 3-letter<br> code
+! Single<br> code
+! Relative<br> abundance<br />(%) E.C.
+! MW
+! pK
+! ''VdW'' volume<br> (Å³)
+! Charged,'''<br /> Polar,<br /> Hydrophobic, <br/> Neutral </br>
+|- 
+| Alanine
+| ALA
+| A
+| 13.0
+| 71
+| &nbsp;
+| 67
+| H
+|- 
+| Arginine
+| ARG
+| R
+| 5.3
+| 157
+| 12.5
+| 148
+| C+
+|- 
+| Asparagine
+| ASN
+| N
+| 9.9
+| 114
+| &nbsp;
+| 96
+| P
+|- 
+| Aspartate
+| ASP
+| D
+| 9.9
+| 114
+| 3.9
+| 91
+| C-
+|- 
+| Cysteine
+| CYS
+| C
+| 1.8
+| 103
+| &nbsp;
+| 86
+| P
+|- 
+| Glutamate
+| GLU
+| E
+| 10.8
+| 128
+| 4.3
+| 109
+| C-
+|- 
+| Glutamine
+| GLN
+| Q
+| 10.8
+| 128
+| &nbsp;
+| 114
+| P
+|- 
+| Glycine
+| GLY
+| G
+| 7.8
+| 57
+| &nbsp;
+| 48
+| N
+|- 
+| Histidine
+| HIS
+| H
+| 0.7
+| 137
+| 6.0
+| 118
+| P,C+
+|- 
+| Isoleucine
+| ILE
+| I
+| 4.4
+| 113
+| &nbsp;
+| 124
+| H
+|- 
+| Leucine
+| LEU
+| L
+| 7.8
+| 113
+| &nbsp;
+| 124
+| H
+|- 
+| Lysine
+| LYS
+| K
+| 7.0
+| 129
+| 10.5
+| 135
+| C+
+|- 
+| Methionine
+| MET
+| M
+| 3.8
+| 131
+| &nbsp;
+| 124
+| H
+|- 
+| Phenylalanine
+| PHE
+| F
+| 3.3
+| 147
+| &nbsp;
+| 135
+| H
+|- 
+| Proline
+| PRO
+| P
+| 4.6
+| 97
+| &nbsp;
+| 90
+| H
+|- 
+| Serine
+| SER
+| S
+| 6.0
+| 87
+| &nbsp;
+| 73
+| P
+|- 
+| Threonine
+| THR
+| T
+| 4.6
+| 101
+| &nbsp;
+| 93
+| P
+|- 
+| Tryptophan
+| TRP
+| W
+| 1.0
+| 186
+| &nbsp;
+| 163
+| P
+|- 
+| Tyrosine
+| TYR
+| Y
+| 2.2
+| 163
+| 10.1
+| 141
+| P
+|- 
+| Valine
+| VAL
+| V
+| 6.0
+| 99
+| &nbsp;
+| 105
+| H
+|}
+
+The 20 naturally occurring amino acids can be divided into several groups based on their chemical proporties. Important factors are charge, hydrophobicity/hydrophilicity, size and functional groups. The nature of the interaction of the different side chains with the aqueous environment plays a major role in molding protein structure. Hydrophobic side chains tends to be buried in the middle of the protein, whereas hydrophilic side chains are exposed to the solvent. Examples of hydrophobic residues are: Leucine, isoleucine, phenylalanine, and valine, and to a lesser extent tyrosine, alanine and tryptophan. The charge of the side chains plays an important role in protein structures, since ion bonding can stabilize proteins structures, and an unpaired charge in the middle of a protein can disrupt structures. Charged residues are strongly hydrophilic, and are usually found on the out side of proteins. Positively charged side chains are found in lysine and arginine, and in some cases in histidine. Negative charges are found in glutamate and aspartate. The rest of
+the amino acids have smaller generally hydrophilic side chains with various functional groups. Serine and threonine have hydroxylgroups, and aspargine and glutamine have amide groups. Some amino acids have special properties such as cysteine, that can form covalent disulfide bonds to other cysteines, proline that is cyclical, and glycine that is small, and more flexible than the other amino acids.
+
+== The peptide bond ==
+thumb|300px|Two amino acids
+thumb|300px|Bond angles for ψ and ω
+Two amino acids can be combined in a catalysed by the translation. The peptide bond is in fact planar due to the delocalization of the electrons from the double bond. The rigid peptide dihedral angle, ω (the bond between C<sub>1</sub> and N) is always close to 180 degrees.  The dihedral angles φ (the bond between N and Cα) and psi ψ (the bond between Cα and C<sub>1</sub>) can have a certain range of possible values. These angles are the degrees of freedom of a protein, they control the protein's three dimensional structure. They are restrained by geometry to allowed ranges typical for particular secondary structure elements, and represented in a Ramachandran plot. A few important bond lengths are given in the table below. 
+
+<div align="left">
+{| border="2" style="border-collapse: collapse;"
+|- 
+| Peptide bond
+| Average length
+| Single bond
+| Average length
+| Hydrogen bond
+| Average (±30)
+|- 
+| C<font face="Symbol">a -</font> C
+| 153 pm
+| C - C
+| 154 pm
+| O-H --- O-H
+| 280 pm
+|- 
+| C - N
+| 133 pm
+| C - N
+| 148 pm
+| N-H --- O=C
+| 290 pm
+|- 
+| N - C<font face="Symbol">a</font>
+| 146 pm
+| C - O
+| 143 pm
+| O-H --- O=C
+| 280 pm
+|}
+</div>
+
+== Primary structure ==
+
+The sequence of the different amino acids is called the transcribed into tandem mass spectrometry. Often however, it is read directly from the sequence of the gene using the genetic code. Post-transcriptional modifications such as disulfide formation, phosphorylations and glycosylations are usually also considered a part of the primary structure, and cannot be read from the gene.
+
+== Secondary structure ==
+
+By building models of peptides using known information about bond lengths and angles, the first elements of secondary structure, the alpha helix and the beta sheet, were suggested in 1951 by Linus Pauling and coworkers.<ref name = pauling51>PAULING L, COREY RB, BRANSON HR. Proc Natl Acad Sci U S A. 1951 Apr;37(4):205-11. The structure of proteins; two hydrogen-bonded helical configurations of the polypeptide chain. PMID 14816373</ref> Both the alpha helix and the beta-sheet represent a way of saturating all the hydrogen bond donors and acceptors in the peptide backbone. These secondary structure elements only depend on properties that all the residues have in common, explaining why they occur frequently in most proteins. Since then other elements of secondary structure have been discovered such as various loops and other forms of helices. The part of the backbone that is not in a regular secondary structure is said to be random coil. Each of these two secondary structure elements have a regular geometry, meaning they are constrained to specific values of the dihedral angles ψ and φ. Thus they can be found in a specific region of the Ramachandran plot.
+
+none|thumb|650px|The left panel shows the hydrogen bonding in an actual α-helix backbone. Note that the ''n''th residue O (Lys 143) bonds to the (''n''+4)th following residue's N (Arg 147). The actual values of some displayed H-bond distances give you some idea about the variations to expect within a helix. The center panel includes the side chains which were omitted in the left panel for clarity. You see the side chains pointing towards the N-terminal of the chain (lower residue numbers) and thus it is usually possible to determine the direction of the helix quite well during initial model building. A 0.2 nm electron density is shown in the right panel
+
+{|
+|+Here are some more representation of the same helix.
+|-
+|<!-- Deleted image removed: frame|Ball and stick model -->
+|frame|Backbone
+|frame|Secondary structure cartoon ("ribbon" or "linguini diagram")
+|}
+
+<!-- Deleted image removed: none|frame|The hydrogen bond network in a 2-stranded, antiparallel β-sheet. The side chains are sticking out above or below the plane of the picture. It less clear cut than in the case of the helix, in which direction to initially trace a beta sheet strand. The beta sheet can be infinitely extended due to the repeatable H-bonding pattern to either side of a strand. -->
+
+<!-- Unsourced image removed: none|thumb|650px|The pleated nature of the sheet becomes distinctly visible in the right panels of this figure, showing also the side chains sticking out above and below the sheet plane. If you look carefully, you will also notice that the sheet has a left twist (centre panel). -->
+
+Turns, loops and a few other secondary structure elements such as a 3-10
+helix complete the picture. We have now enough pieces to assemble a complete protein, displaying its typical tertiary structure.
+
+==Tertiary structure==
+
+The elements of secondary structure are usually folded into a compact shape using a variety of loops and turns. The formation of tertiary structure is usually driven by the burial of hydrophobic residues, but other interactions such as hydrogen bonding, ionic interactions and disulfide bonds can also stabilize the tertiary structure. The tertiary structure encompasses all the noncovalent interactions that are not considered secondary structure, and is what defines the overall fold of the protein, and is usually indispensable for the function of the protein.
+
+==Quaternary structure==

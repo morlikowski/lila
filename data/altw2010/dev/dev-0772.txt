@@ -1,0 +1,49 @@
+Une '''émission thermoïonique''' est un flux d'électrons provenant d'un métal ou d'un oxyde métallique, qui est provoqué par les vibrations des atomes dû à l'énergie thermique lorsque ceux-ci parviennent à surmonter les forces électrostatiques. L'effet croit de manière importante avec l'augmentation de la température, mais est toujours présent pour les températures au-dessus du zéro absolu. La science en rapport avec ce phénomène est la '''thermoélectricité'''. Les particules chargées sont appelées '''thermions'''.
+
+== Histoire ==
+Cet effet fut d'abord rapporté en Owen Richardson travailla sur l'émission thermoïonique et reçu le prix Nobel en 1928 « Pour son travail sur le phénomène thermoïonique et plus spécialement pour la découverte de la loi portant maintenant son nom ».
+
+== Détails ==
+Dans chaque distribution statistique, au lieu d'être uniforme, et sous certaines conditions un électron pourra avoir une énergie suffisante pour partir du métal sans y revenir. L'énergie minimum nécessaire pour qu'un électron puisse quitter la surface est appelée le travail de sortie, et varie d'un métal à l'autre. Pour les tubes électroniques, une fine couche d'oxyde est souvent appliquée à la surface du métal pour obtenir un travail de sortie plus bas, ce qui facilite le départ des électrons de la surface.
+
+L'équation de Richardson-Dushmann énonce que la densité de courant émis '''J''' (A/m<sup>2</sup>) est relative à la température '''T''' par l'équation :
+:<math>J = A T^2 e^{-W \over k T}</math> 
+Où '''T''' est la température du métal en Kelvins, '''W''' est le travail de sortie du métal en électron-volt, '''k''' est la constante de Boltzmann, et '''A''' la constante de Richardson. L'exponentielle dans l'équation montre que le courant émis augmente énormément avec la température et tend à devenir proportionnel au carré de celle-ci pour les températures élevées. Les équations de l'émission thermoïonique sont importantes dans la conception des semi-conducteurs.
+
+== L'effet Edison ==
+frame|L'effet Edison dans une diode à vide. Celle-ci est connectée de deux façons : en direct, les électrons circulent. En inverse, il n'y a aucun flux. Les flèches représentent la circulation d'électrons dans le vide.
+L'effet fut ''re''-découvert accidentellement en 1880, par Thomas Edison, alors qu'il essayait d'expliquer la rupture du filament et le noircissement du verre des lampes incandescentes. Edison construisit une ampoule avec la surface interne recouverte d'une feuille d'étain. Quand il connectait la feuille au filament au travers d'un  galvanomètre, en appliquant une tension négative à la feuille par rapport au filament, rien ne se passait. Mais, quand il augmentait la tension de la feuille de manière à atteindre une tension positive par rapport au filament, une petite circulation de courant était indiquée par le galvanomètre : des électrons étaient émis par le filament chaud et attirés par la feuille, fermant ainsi le circuit. Cette unidirectionalité du courant fut appelée '''l'effet Edison''' (ce terme est parfois utilisé comme référence à l'effet thermoïonique lui-même). Bien qu'Edison ne voyait pas d'application pour cet effet, il le breveta en 1883, mais ne l'étudia plus.
+
+== La diode à vide ==
+Le physicien anglais John Ambrose Fleming, alors qu'il travaillait pour la société « Wireless Telegraphy », découvrit que l'effet Edison pouvait être utilisé pour la détection des ondes radios. Fleming développa un tube électronique à deux éléments connu sous le nom de diode à vide, qu'il breveta le 16 novembre 1904.
+La diode thermoïonique peut aussi être configurée comme un convertisseur différence de chaleur/énergie électrique et ce sans pièces mobiles.
+
+thumb|right|250px|Closeup of the [[Electrical filament|filament on a low pressure mercury gas discharge lamp showing white thermionic emission mix coating on the central portion of the coil. Typically made of a mixture of barium, strontium and calcium oxides, the coating is sputtered away through normal use, often eventually resulting in lamp failure.]]
+
+'''Thermionic emission''' is the flow of electrostatic forces restraining the charge carriers. The charge carriers can be electrons or ions, and are sometimes referred to as "thermions". The total charge of the emitted carriers (either positive or negative) will be equal in magnitude and opposite in sign to the charge left in the emitting region. The most classical example of thermionic emission is the emission of electrons from a hot metal archaically known as the '''Edison effect'''), but the term is now used to refer to any thermally excited charge emission process, even when the charge is emitted from one power generation or cooling. The magnitude of the charge flow increases dramatically with increasing temperature and for vacuum emission from metals tends to only become significant for temperatures over 1000 K. The science dealing with this phenomenon is '''thermionics'''.  
+
+==History==
+The phenomenon was initially reported in 1873 by Daniel Lordan in Britain. While doing work on charged objects, Lordan discovered that a red-hot iron sphere with a negative charge would lose its charge (discharging electrons into vacuum). He also found that this did not happen if the sphere had a positive charge. He didn't understand what any of this meant.  Other early contributors included Hittorf (1869–1883), Goldstein (1885), and Elster and Geitel (1882–1889).
+
+frame|The Edison effect in a diode tube. A diode tube is connected in two configurations, one has a flow of electrons and the other does not. Note that the arrows represent electron current, not [[conventional current.]]
+
+The effect was rediscovered by Thomas Edison on February 13, 1880, while trying to discover the reason for breakage of lamp filaments and uneven blackening (darkest near one terminal of the filament) of the bulbs in his incandescent lamps. 
+
+Edison built several experiment bulbs, some with an extra wire, a metal plate, or foil inside the bulb which was electrically separate from the filament. He connected the extra metal electrode to the lamp filament through a galvanometer. When the foil was given a more negative charge than the filament, no charge flowed between the foil and the filament because the cool foil emitted few electrons. However, when the foil was given a more positive charge than the filament, the many electrons emitted from the hot filament were attracted to the foil, causing charge to flow.  This one-way current was called the ''Edison effect'' (although the term is occasionally used to refer to thermionic emission itself). He found that the current emitted by the hot filament increased rapidly with increasing voltage, and filed a patent application for a voltage-regulating device using the effect on November 15, 1883 (U.S. patent 307,031, the first US patent for an electronic device). He found that sufficient current would pass through the device to operate a telegraph sounder. This was exhibited at the International Electrical Exposition in Philadelphia in September 1884. William Preece, a British scientist took back with him several of the Edison Effect bulbs, and presented a paper on them in 1885, where he referred to thermionic emission as the "Edison Effect." <ref name=Josephson>"Edison" by Matthew Josephson. McGraw Hill, New York, 1959, ISBN 07-033046-8 </ref> The British physicist John Ambrose Fleming, working for the British "Wireless Telegraphy" Company, discovered that the Edison Effect could be used to detect radio waves. Fleming went on to develop the two-element vacuum tube known as the diode, which he patented on November 16, 1904.
+
+The thermionic diode can also be configured as a device that converts a heat difference to electric power directly without moving parts (a thermionic converter, a type of heat engine).
+
+Owen Willans Richardson worked with thermionic emission and received a Nobel prize in 1928 "for his work on the thermionic phenomenon and especially for the discovery of the law named after him".
+
+==Richardson's Law== <!-- This section is linked from Nobel Prize in Physics -->
+In any metal, there are one or two electrons per atom that are free to move from atom to atom. This is sometimes referred to as a "sea of electrons". Their velocities follow a statistical distribution, rather than being uniform, and occasionally an electron will have enough velocity to exit the metal without being pulled back in. The minimum amount of energy needed for an electron to leave the surface is called the work function. The work function is characteristic of the material and for most metals is on the order of several electronvolts. Thermionic currents can be increased by decreasing the work function. This often-desired goal can be achieved by applying various oxide coatings to the wire.
+
+In 1901 Owen Willans Richardson published the results of his experiments: the current from a heated wire seemed to depend exponentially on the temperature of the wire with a mathematical form similar to the Arrhenius equation. The modern form of this law (demonstrated by Saul Dushman in 1923, and hence sometimes called the Richardson-Dushman equation) states that the emitted current density ''J'' (A/m<sup>2</sup>) is related to temperature ''T'' by the equation:
+
+:<math>J = A T^2 e^{-W \over k T}</math> 
+
+where ''T'' is the metal temperature in kelvin, ''W'' is the work function of the metal, ''k'' is the Boltzmann constant. The proportionality constant ''A'', known as '''Richardson's constant''', given by
+
+:<math>A = {4 \pi m k^2 e \over h^3} = 1.20173 \times 10^6\,\mathrm{A\,m^{-2}\,K^{-2}}</math>
+
+where ''m'' and -''e'' are the mass and charge of an electron, and ''h'' is Planck's constant.

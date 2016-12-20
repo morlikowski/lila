@@ -1,0 +1,266 @@
+El '''genoma humà''' és el genoma d'''X, Y) amb una mida total aproximada de 3.200 milions de parells de bases d'ADN (3.200 Mb) que contenen uns 20.000 - 25.000 gens<ref name="IHSGC2004"> [http://www.nature.com/nature/journal/v431/n7011/full/nature03001.html] </ref>. De les 3.200 Mb unes 2.950 Mb corresponen a eucromatina i unes 250 Mb a heterocromatina. El projecte Genoma Humà va produir una seqüència de referència del genoma humà eucromàtic, utilitzat a tot el món en les ciències biomèdiques.
+
+La seqüència d'ADN que conforma el genoma humà conté codificada la informació necessària per a l'expressió, altament coordinada i adaptable a l'ambient, del proteoma humà, és a dir, del conjunt de proteïnes de l'ésser humà. Les proteïnes, i no l'ADN, són les biomolècules efectores; organitzant-se en enormes xarxes funcionals d'interaccions. En definitiva, el proteoma fonamenta la particular morfologia i funcionalitat de cada cèl·lula. Així mateix, l'organització estructural i funcional de les diferents cèl·lules conforma cada teixit i cada òrgan i, finalment l'organisme viu en el seu conjunt. Així, el genoma humà conté la informació necessària per al desenvolupament bàsic d'un ésser humà complet.
+
+El genoma humà presenta una densitat de gens molt inferior a la que inicialment s'havia predit, amb només un 1'5%<ref name="IHSGC2001"> [http://www.nature.com/nature/journal/v409/n6822/full/409860a0.html]</ref> de la seva longitud constituïda per exons codificants de proteïnes. Un 70% està constiuit per ADN extragènic i un 30% per seqüències relacionades amb gens. Del total d'ADN extragènic, aproximadament un 70% correspon a repeticions disperses, de manera que, més o menys, la meitat del genoma humà correspon a seqüències repetitives d'introns, seqüències UTR, etc.
+
+<!-- TAULA -->
+<center>
+{| class="wikitable"  style="float:center; margin:0 0 1em 1em"
+|+<small>'''Contingut en gens i mida del genoma de diversos organismes'''</small><ref name="Watson">Watson, JD, Baker TA, Bell SP, Gann A, Levine M, Losick R. (2004). “Ch9-10”, Molecular Biology of the Gene, 5th ed., Peason Benjamin Cummings; CSHL Press.</ref>
+|-
+! Espècie
+! Mida del<br />genoma (Mb)
+! Número<br />de gens
+|-
+| ''Mycoplasma genitalium''
+| 0,58
+| 500
+|-
+| ''Streptococcus pneumoniae''
+| 2,2
+| 2300
+|-
+| ''Escherichia coli''
+| 4,6
+| 4.400
+|-
+| ''Saccharomyces cerevisiae''
+| 12
+| 5.800
+|-
+| ''Caenorhabditis elegans''
+| 97
+| 19.000
+|-
+| ''Arabidopsis thaliana''
+| 125
+| 25.500
+|-
+| ''Drosophila melanogaster'' (mosca)
+| 180
+| 13.700
+|-
+| ''Oryza sativa'' (arrós)
+| 466
+| 45-55.000
+|-
+| ''Mus musculus'' (ratolí)
+| 2500
+| 29.000
+|-
+| ''Homo sapiens'' (ésser humà)
+| 2900
+| 27.000
+|}</center>
+<!-- FI DE LA TAULA -->
+
+==Components== 
+===Cromosomes=== 
+El genoma humà (com el de qualsevol organisme eucariota) està format per cromosomes, que són llargues seqüències contínues d'ADN altament organitzades espacialment (amb ajuda de proteïnes histones i no histones) per a adoptar una forma ultracondensada en microscòpia òptica convencional o de fluorescència mitjançant tècniques de citogenètica i s'ordenen formant un cariotip.
+
+El cariotip humà conté un total de 24 cromosomes distints: 22 parells d'autosomes més 2 cromosomes sexuals que determinen el sexe de l'individu. Els cromosomes 1-22 van ser numerats en ordre decreixent de grandària sobre la base del cariotip. No obstant això, posteriorment va poder comprovar-se que el cromosoma 22 és en realitat major que el 21.
+250px|right|thumb|'''Imatge 1'''. Representació gràfica del [[cariotip humà normal.]]
+
+Les cèl·lules somàtiques d'un organisme posseïxen en el seu nucli un total de 46 cromosomes (23 parells): una dotació de 22 autosomes procedents de cada progenitor i un parell de cromosomes sexuals, un Y del pare. ''(Veure imatge 1)''. Els gàmetes -òvuls i espermatozoides- posseeixen una dotació haploide de 23 cromosomes.
+
+===ADN intragènic===
+====Gens==== 
+Un transcriu, composta al seu torn per: seqüències UTR (regions flanquejants no traduïdes), necessàries per a la traducció i l'estabilitat de l'ARNm, exons (codificants) i introns, que són seqüències de ADN no traduïdes situades entre dos exons que seran eliminades en el processament de l'ARNm (empalmament, ''splicing'' en anglès).
+right|thumbnail|270px|Aquest diagrama esquemàtic mostra un gen en relació a la seva estructura física (doble hèlix d'ADN) i a un cromosoma (dreta). Els introns són regions freqüentment trobades en els gens d'eucariotes, que es [[transcripció genètica|transcriuen, però són eliminades en el processament de l'ARN (ARNm format només per exons, encarregats de |traduir una proteïna. Aquest diagrama és a l'excés simplificat ja que mostra un gen compost per uns 40 parells de bases quan en realitat la seva grandària mitja és de 20.000-30.000 parells de bases.]]
+Actualment s'estima que el genoma humà conté entre 20.000 i 25.000 eucariotes molt més simples, com la mosca de la fruita o el nematode ''Caenorhabditis elegans''. No obstant això, les cèl·lules humanes recorren àmpliament al ''splicing'' (empalmament) alternatiu per a produir diverses proteïnes distintes a partir d'un mateix gen, per la qual cosa el proteoma humà és més ampli que el d'altres organismes molt més simples. En la pràctica, el genoma ''tan sols'' porta la informació necessària per a una expressió perfectament coordinada i regulada del conjunt de proteïnes que conformen el proteoma, sent aquest l'encarregat d'executar la major part de les funcions cel·lulars.
+
+=====Gens d'ARN===== 
+A més dels gens codificants de proteïnes, el genoma humà conté diversos milers de gens d'ARN, la transcripció dels quals produeix ribosomes i en la traducció de les proteïnes. Per la seva banda, els microARN tenen gran importància en la regulació de l'expressió gènica, estimant-se que fins a un 20-30% dels gens del genoma humà pot estar regulat pel mecanisme d'interferència per miARN. Fins al moment s'han identificat més de 300 gens de miARN i s'estima que poden existir uns 500.
+
+=====Distribució de gens===== 
+A continuació es mostren alguns valors terme mitjà del genoma humà. Cap advertir, no obstant això, que l'enorme heterogeneïtat que presenten aquestes variables fa poc representatius als valors terme mitjà, encara que tenen valor orientatiu.
+
+La densitat mitja de gens és d'1 gen cada 100 kb, amb una grandària mitja de 20-30 kb, i un nombre d'exons terme mitjà de 7-8 per cada gen, amb una grandària mitja de 150 nucleòtids. La grandària mitja d'un ARNm és de 1,8-2,2 kb, incloent les regions UTR (regions no traduïdes flanquejants), sent la longitud mitja de la regió codificant d'1,4 kb.
+thumb|400px|Isocors. Freqüència i riquesa en G+C i gens, en el genoma humà.
+
+El genoma humà es caracteritza per presentar una gran heterogeneïtat en la seva seqüència. En particular, la riquesa en bases de guanina (G) i citosina (C) enfront de les d'adenina (A) i timina (T) es distribuïx heterogèniament, amb regions molt riques en G+C flanquejades per regions molt pobres, sent el contingut mig de G+C del 41%, menor al teòricament esperat (50%). Aquesta heterogeneïtat està correlacionada amb la riquesa en gens, de manera que els gens tendeixen a concentrar-se en les regions més riques en G+C. Aquest fet era conegut ja des de fa anys gràcies a la separació mitjançant centrifugació en gradient de densitat de regions riques en G+C (que van rebre el nom d'isocors H; de l'anglès ''High'') i regions riques en A+T (isocors L; de l'anglès ''Low'').    
+
+=====Seqüències reguladores===== 
+El genoma humà té diversos sistemes de regulació de l'expressió gènica, basats en la regulació de la unió de factors de transcripció a les seqüències promotores, en mecanismes de modificació histones) o en el control de l'accessibilitat als promotors determinada pel grau de condensació de la cromatina; tots ells molt interrelacionats. A més, hi ha altres sistemes de regulació a nivell del processament, estabilitat i traducció de l'ARNm, entre d'altres. Per tant, l'expressió gènica està intensament regulada, la qual cosa permet desenvolupar els múltiples fenotips que caracteritzen els diferents tipus cel·lulars d'un organisme eucariota multicel·lular, al mateix temps que dota a la cèl·lula de la plasticitat necessària per a adaptar-se a un mitjà canviant. No obstant això, tota la informació necessària per a la regulació de l'expressió gènica, en funció de l'ambient cel·lular, està codificada en la seqüència d'ADN igual que ho estan els gens.
+
+Les seqüències reguladores són típicament seqüències curtes presents en les proximitats o en l'interior (freqüentment en introns) dels gens. En l'actualitat, el coneixement sistemàtic d'aquestes seqüències i de com actuen en complexes xarxes de regulació gènica, sensibles a senyals exògens, és molt escàs i està començant a desenvolupar-se mitjançant estudis de genòmica comparada, bioinformàtica i biologia de sistemes. La identificació de seqüències reguladores es basa en part en la recerca de regions no codificants evolutivament conservades<ref>
+[http://www.lbl.gov/Science-Articles/Archive/mouse-dna-model.html Summary] </ref>. Per exemple, la divergència evolutiva entre el ratolí i l'ésser humà va ocórrer fa 70-90 milions d'anys<ref> </ref>. Mitjançant estudis de genòmica comparada, alineant seqüències d'ambdós genomes poden identificar-se regions amb alt grau de coincidència, moltes corresponents a gens i altres a seqüències no codificants de proteïnes però de gran importància funcional, atès que han estat sotmeses a pressió selectiva.
+
+=====Elements ultraconservats===== 
+Reben aquest nom regions que han mostrat una constància evolutiva gairebé total, major fins i tot que les seqüències codificants de proteïnes, mitjançant estudis de genòmica comparada. Aquestes seqüències generalment se solapen amb introns de gens implicats en la regulació de la transcripció o en el desenvolupament embrionari i amb exons de gens relacionats amb el processament de l'ARN. La seva funció és generalment poc coneguda, però probablement d'extrema importància donat el seu nivell de conservació evolutiva, tal com s'ha exposat en el punt anterior.
+
+En l'actualitat s'han trobat uns 500 segments d'una grandària major a 200 parells de bases totalment conservats (100% de coincidència) entre els genomes d'humà, ratolí i rata, i gairebé totalment conservats en gos (99%) i pollastre (95%)<ref name="Novo" />.
+
+====Pseudogens==== 
+En el genoma humà s'han trobat així mateix uns 19.000 pseudogens, que són versions completes o parcials de gens que han acumulat diverses mutacions i que generalment no es transcriuen. Es classifiquen en pseudogens no processats (30%) i pseudogens processats (70%)<ref> [http://www.nature.com/nature/journal/v431/n7011/full/nature03001.html] </ref>.
+
+* Els pseudogens no processats són còpies de gens generalment originades per duplicació, que no es transcriuen per mancar d'una seqüència codons d'aturada prematurs). Es caracteritzen per posseir tant exons com introns. 
+* Els pseudogens processats, per contra, són còpies d'ARN missatger retrotranscrites i inserides en el genoma. En conseqüència manquen d'introns i de seqüència promotora.
+
+===ADN intergènic=== 
+Com s'ha dit, les regions intergèniques o extragèniques comprenen la major part de la seqüència del genoma humà, i la seva funció és generalment desconeguda. Bona part d'aquestes regions està composta per elements repetitius, classificables com repeticions en tàndem o repeticions disperses, encara que la resta de la seqüència no respon a un patró definit i classificable. Gran part de l'ADN intergènic pot ser un artefacte evolutiu sense una funció determinada en el genoma actual, pel que tradicionalment aquestes regions han estat denominades ADN "escombraria" (''Junk DNA''), denominació que inclou també les seqüències intròniques i pseudogèns. No obstant això, aquesta denominació no és la més encertada donat el paper regulador conegut de moltes d'aquestes seqüències. A més el notable grau de conservació evolutiva d'algunes d'aquestes seqüències sembla indicar que posseeixen altres funcions essencials encara desconegudes o poc conegudes. Per tant, alguns prefereixen denominar-lo "ADN no codificant" (encara que l'anomenat "ADN escombraria" inclou també transposons codificants) o "ADN repetitiu".
+
+thumb|300px|Freqüència de las diverses regions intergéniques i intragèniques del cromosoma 22. Adaptat de: Dunham, I., et al., 1999. The DNA sequence of human chromosome 22, Nature 402(6761):489–495
+
+====ADN repetit en tàndem==== 
+Són repeticions que s'ordenen de manera consecutiva, de manera que seqüències idèntiques, o gairebé, es disposen unes darrere d'unes altres. 
+
+=====Satèl·lits===== 
+El conjunt de repeticions en tàndem de tipus satèl·lit comprèn un total de 250 Mb del genoma humà. Són seqüències d'entre 5 i diversos centenars de nucleòtids que es repeteixen en tàndem milers de vegades generant regions repetides amb grandàries que oscil·len entre 100 kb (100.000 nucleòtids) fins a diverses megabases. 
+
+Reben el seu nom de les observacions inicials de centrifugacions en gradient de densitat de l'ADN genòmic fragmentat, que reportaven una banda principal corresponent a la major part del genoma i tres bandes satèl·lit de menor densitat. Això es deu al fet que les seqüències satèl·lit tenen una riquesa en nuclétids Adenosina+Timina superior a la mitjana del genoma i en conseqüència són menys denses.
+
+Hi ha principalment 6 tipus de repeticions de ADN satèl·lit<ref name="Novo"></ref>:
+
+#'''Satèl·lit 1''': seqüència bàsica de 42 nucleòtids. Situat en els centròmers dels cromosomes 3 i 4 i l'el braç curt dels cromosomes acrocèntrics (en posició distal respecte al ''clúster'' codificant d'ARNr). 
+#'''Satèl·lit 2''': la seqüència bàsica és ATTCCATTCG. Present en les proximitats dels centròmers dels cromosomes 2 i 10, i en la constricció secundària d'1 i 16. 
+#'''Satèl·lit 3''': la seqüència bàsica és ATTCC. Present en la constricció secundària dels cromosomes 9 i Y, i en posició proximal respecte al ''clúster'' d'ADNr del braç curt dels cromosomes acrocèntrics. 
+#'''Satèl·lit alfa''': seqüència bàsica de 171 nucleòtids. Forma part de l'ADN dels centròmers cromosòmics. 
+#'''Satèl·lit beta''': seqüència bàsica de 68 nucleòtids. Apareix entorn del centròmer en els cromosomes acrocèntrics i en la constricció secundària del cromosoma 1. 
+#'''Satèl·lit gamma''': seqüència bàsica de 220 nucleòtids. Pròxim al centròmer dels cromosomes 8 i X.
+
+=====Minisatèl·lits===== 
+Estan composts per una unitat bàsica de seqüència de 6-25<ref name="Novo" /> 
+nucleòtids que es repeteix en tàndem generant seqüències d'entre 100 i 20.000 parells de bases. S'estima que el genoma humà conté uns 30.000 minisatèl·lits.
+
+Diversos estudis han relacionat els minisatèl·lits amb processos de regulació de l'expressió gènica, com el control del nivell de transcripció, l'recombinació meiòtica. Finalment, alguns minisatèl·lits humans (10%) són hipermutables, presentant una taxa mitja de mutació entre el 0.5% i el 20% en les cèl·lules de la línia germinal, sent així les regions més inestables del genoma humà conegudes fins a la data.
+
+En el genoma humà, aproximadament el 90% dels minisatèl·lits se situen en els telòmers dels cromosomes. La seqüència bàsica de sis nucleòtids TTAGGG es repeteix milers de vegades en tàndem, generant regions de 5-20 kb que conformen els telòmers.
+
+Alguns minisatèl·lits per la seva gran inestabilitat presenten una notable variabilitat entre individus distints. Es consideren polimorfismes multial·lèlics, atès que poden presentar-se en un nombre de repeticions molt variable, i es denominen VNTR (acrònim de ''Variable number tandem repeat''). Són marcadors molt utilitzats en genètica forense, ja que permeten establir una petjada genètica característica de cada individu, i són identificables mitjançant transferència d'RNA i hibridació.
+
+=====Microsatèl·lits===== 
+Estan composts per seqüències bàsiques de 2-4 nucleòtids, la repetició dels quals en tàndem origina freqüentment seqüències de menys de 150 nucleòtids. Alguns exemples importants són el dinucleòtid CA i el trinucleòtid CAG.
+
+Els microsatèl·lits són també polimorfismes multial·lèlics, denominats STR (acrònim de ''Short Tandem Repeats'') i poden identificar-se mitjançant PCR, de manera ràpida i senzilla.
+
+S'estima que el genoma humà conté uns 200.000 microsatèl·lits, que es distribueixen més o menys homogèniament, al contrari que els minisatèl·lits, el que els fa més informatius com marcadors.
+
+====ADN repetit dispers==== 
+Són seqüències d'ADN que es repeteixen de manera dispersa per tot el genoma, constituint el 45% del genoma humà. Els elements quantitativament més importants són els LINEs i SINEs, que es distingeixen per la grandària de la unitat repetida.
+
+Aquestes seqüències tenen la potencialitat d'autopropagar-se al transcriure's a un ARNm intermediari, retrotranscriure's i inserir-se en un altre punt del genoma. Aquest fenomen es produeix amb una baixa freqüència, estimant-se que 1 de cada 100-200 nounats porten una inserció nova d'un Alu o un L1, que poden resultar patogènics per mutagènesi insercional, per desregulació de l'expressió de gens pròxims (pels propis promotors dels SINE i LINE) o per recombinació il·legítima entre dues còpies idèntiques de diferent localització cromosòmica (recombinació intra o intercromosòmica), especialment entre elements Alu.
+
+ilegítima entre dos copias idénticas de distinta localización cromosómica (recombinación intra o intercromosómica), especialmente entre elementos Alu.
+
+<!-- TAULA -->
+<center>
+{| class="wikitable sortable"  style="float:center; margin:0 0 1em 1em"
+|+<small>'''Freqüències i tipus de repeticions disperses al genoma de diversos organismes'''</small><ref name="Novo" />
+|-
+! Tipus de repetició 
+! ''Homo<br />sapiens'' 
+! ''Drosophila<br />melanogaster'' 
+! ''Caenorhabditis<br />elegans'' 
+! ''Arabidopsis<br />thaliana'' 
+|-
+| LINE,SINE 
+| 33,4% 
+| 0,7% 
+| 0,4% 
+| 0,5% 
+|-
+| LTR/HERV
+| 8,1%
+| 1,5%
+| 0%
+| 4,8%
+|-
+| Transposons ADN
+| 2,8%
+| 0,7%
+| 5,3%
+| 5,1%
+|-
+| Total
+| 44,4%
+| 3,1%
+| 6,5%
+| 10,4%
+|-
+|}</center>
+<!-- FI DE LA TAULA -->
+
+=====SINE===== 
+Acrònim de l'anglès '''''S'''hort '''I'''nterspersed '''N'''uclear '''E'''lements'' (Elements nuclears dispersos curts). Són seqüències curtes, generalment d'uns pocs centenars de bases, que apareixen repetides milers de vegades en el genoma humà. Suposen el 13% del genoma humà<ref name="Novo" />, un 10% degut exclusivament a la família d'elements Alu (característica de primats). 
+
+Els elements Alu són seqüencies de 250-280 nucleòtids presents en 1.500.000<ref name="Novo" /> còpies disperses per tot el genoma. Estructuralment són dímers quasi idèntics, excepte que la segona unitat conté un afegit de 32 nucleòtids, sent major que la primera. Quant a la seva seqüència, tenen una considerable riquesa en G+C (56%)<ref name="Novo" />, pel que predominen en les bandes R, i ambdós monòmers presenten una cua poliA (seqüència d'adenines) vestigi del seu origen d'ARNm. A més, posseeixen un promotor de l'ARN polimerasa III per a transcriure's. Es consideren retrotransposons no autònoms, ja que depenen per a propagar-se de la retrotranscripció del seu ARNm per una retrotranscriptasa present en el medi.
+
+=====LINE=====
+300px|right|thumb|Esquema simplificat del mecanisme de retrotransposició d'un element LINE i un SINE. Un element LINE és [[transcripció genètica|transcrit produint un ARNm que surt del |tradueix en els seus dos marcs de lectura oberts generant ambdues proteïnes (vegi's el text), que per a simplificar s'han representat com ORF1p i ORF2p. Ambdues permeten retrotranscriure l'ARNm del LINE i d'altres retrotransposons no autònoms, com SINEs i pseudogèns processats. Durant la retrotranscripció la nova seqüència d'ADN s'integra en un altre punt del genoma.]] 
+Acrònim de l'anglès '''''L'''ong '''I'''nterspersed '''N'''uclear '''E'''lements'' (Elements nuclears dispersos llargs). Constituïxen el 20% del genoma humà. La família de major importància quantitativa és LINE-1 o L1 que és una seqüència de 6 kb repetida unes 800.000 vegades de manera dispersa per tot el genoma, encara que la gran majoria de les còpies és incompleta al presentar l'extrem 5' truncat per una retrotranscripció incompleta. Així, s'estima que hi ha unes 5.000 còpies completes de L1, només 90 de les quals són actives<ref name="Novo" />, estant la resta inhibides per metilació del seu promotor.
+
+La seva riquesa en G+C és del 42%<ref name="Novo" />, pròxima a la mitjana del genoma (41%) i es localitzen preferentment a les bandes G dels cromosomes. Posseeixen, a més, un promotor de l'ARN polimerasa II.
+
+Els elements LINE complets són codificants. En concret LINE-1 codifica dues proteïnes: 
+#Proteïna d'unió a ARN (’’RNA-binding protein’’): codificada pel marc de lectura obert 1 (ORF1, acrònim de l'anglès ‘’Open reading Frame 1’’) 
+#Enzim amb activitat retrotranscriptasa i endonucleasa: codificada per l'ORF2.
+
+Per tant, es consideren retrotransopsons autònoms, ja que codifiquen les proteïnes que necessiten per a propagar-se. La ARN polimerasa II present en el medi transcriu el LINE, i aquest ARNm es tradueix en ambdós marcs de lectura produint una retrotranscriptasa que actua sobre l'ARNm generant una còpia d'ADN del LINE, potencialment capaç d'inserir-se en el genoma. Així mateix aquestes proteïnes poden ser utilitzades per pseudogèns processats o elements SINE per a la seva propagació.
+
+Diversos estudis han mostrat que les seqüències LINE poden tenir importància en la regulació de l'expressió gènica, havent-se comprovat que els gens pròxims a LINE presenten un nivell d'expressió inferior. Això és especialment rellevant perquè aproximadament el 80% dels gens del genoma humà conté algun element L1 en els seus introns<ref name="Novo" />.     
+
+=====HERV===== 
+Acrònim de '''''H'''uman '''E'''ndogenous '''R'''etro'''V'''irus'' (retrovirus endogen humà). Els retrovirus són virus el genoma dels quals està compost per ARN, capaços de retrotranscriure's i integrar el seu genoma en el de la cèl·lula infectada. Així, els HERV són còpies parcials del genoma de retrovirus integrats en el genoma humà al llarg de l'evolució dels vertebrats, vestigis d'antigues infeccions retrovirals que van afectar a cèl·lules de la línia germinal. Algunes estimacions estableixen que hi ha unes 98.000<ref>Robert Belshaw, (2004). [http://www.pubmedcentral.com/articlerender.fcgi?artid=387345 "Long-term reinfection of the human genome by endogenous retroviruses"] ''Proc Natl Acad Sci U S A''. 2004 April 6; 101(14): 4894–4899</ref> seqüències HERV, mentre que unes altres afirmen que són més de 400.000. En qualsevol cas, s'accepta que entorn del 5-8% del genoma humà està constituït per genomes antigament virals. La grandària d'un genoma retroviral complet és d'entorn de 6-11 kb, però la majoria dels HERV són còpies incompletes. 
+
+280px|right|thumb|A graphical representation of the normal human [[karyotype.]]
+
+The '''human genome''' is the autosomal chromosome pairs, while the remaining pair is sex-determining. The euchromatic human genome, which is used worldwide in biomedical sciences.
+
+The haploid human genome contains an estimated 20,000–25,000 protein-coding genes, far fewer than had been expected before its sequencing.<ref name="IHSGC2004"> [http://www.nature.com/nature/journal/v431/n7011/full/nature03001.html] </ref> In fact, only about 1.5% of the genome codes for "junk" DNA.<ref name="IHSGC2001"> [http://www.nature.com/nature/journal/v409/n6822/full/409860a0.html]</ref>
+
+==Features==
+===Chromosomes===
+thumb|400px|The human genome is composed of 23 pairs of [[chromosomes (46 ''in total''), each of which contain hundreds of regulatory sequences and non-coding DNA.]]
+
+There are 24<!-- STOP! Don't be one of those people who changes 24 to 23! 22 + X + Y = 24 --> distinct human sex-determining X and Y chromosomes. Chromosomes 1–22 are numbered roughly in order of decreasing size. Somatic cells usually have 23 chromosome pairs: one copy of chromosomes 1–22 from each parent, plus an X chromosome from the mother, and either an X or Y chromosome from the father, for a total of 46.
+
+===Genes===
+
+There are estimated 20,000–25,000 human protein-coding Science '''316''' p 1113 25-May-2007, probably in the range 20,488-20,588. (note, this is a news article in Science magazine reporting on a conference presentation. It is not a peer-reviewed publication, and therefore its figures should not be considered "authoritative")</ref>
+
+Surprisingly, the number of human genes seems to be less than a factor of two greater than that of many much simpler organisms, such as the roundworm and the fruit fly. However, human cells make extensive use of alternative splicing to produce several different proteins from a single gene, and the human proteome is thought to be much larger than those of the aforementioned organisms. Besides, most human genes have multiple exons, and human introns are frequently much longer than the flanking exons.
+
+Human genes are distributed unevenly across the chromosomes. Each chromosome contains various gene-rich and gene-poor regions, which seem to be correlated with chromosome bands and ribosomal RNA, microRNA, and other non-coding RNA genes.
+
+===Regulatory sequences===<!-- This section is linked from Human genome -->
+The human genome has many different regulatory sequences which are crucial to controlling gene expression. These are typically short sequences that appear near or within genes. A systematic understanding of these regulatory sequences and how they together act as a gene regulatory network is only beginning to emerge from computational, high-throughput expression and comparative genomics studies.
+
+Identification of regulatory sequences relies in part on evolutionary conservation. The evolutionary branch between the human and mouse, for example, occurred 70–90 million years ago.<ref> </ref> So computer comparisons of gene sequences that identify conserved non-coding sequences will be an indication of their importance in duties such as gene regulation.<ref>
+[http://www.lbl.gov/Science-Articles/Archive/mouse-dna-model.html Summary] </ref>
+
+Another comparative genomic approach to locating regulatory sequences in humans is the gene sequencing of the puffer fish. These vertebrates have essentially the same genes and regulatory gene sequences as humans, but with only one-eighth the "junk" DNA. The compact DNA sequence of the puffer fish makes it much easier to locate the regulatory genes.<ref></ref>
+
+===Other DNA===
+
+Protein-coding sequences (specifically, coding exons) comprise less than 1.5% of the human genome.<ref name="IHSGC2001" /> Aside from genes and known regulatory sequences, the human genome contains vast regions of DNA the function of which, if any, remains unknown. These regions in fact comprise the vast majority, by some estimates 97%, of the human genome size. Much of this is composed of:
+
+====repeat elements====
+*Tandem repeats
+**Satellite DNA
+**Minisatellite
+**Microsatellite
+*Interspersed repeats
+**SINEs
+**LINEs
+====transposons====
+*Retrotransposons
+**LTR
+***Ty1-copia
+***Ty3-gypsy
+**Non-LTR
+***SINEs
+***LINEs
+*DNA Transposons
+
+====pseudogenes====
+
+However, there is also a large amount of sequence that does not fall under any known classification.
+
+Much of this sequence may be an evolutionary artifact that serves no present-day purpose, and these regions are sometimes collectively referred to as "junk" DNA.  There are, however, a variety of emerging indications that many sequences within are likely to function in ways that are not fully understood. Recent experiments using microarrays have revealed that a substantial fraction of non-genic DNA is in fact transcribed into RNA,<ref>"<cite>...a tiling array with 5-nucleotide resolution that mapped transcription activity along 10 human chromosomes revealed that an average of 10% of the genome (compared to the 1 to 2% represented by bona fide exons) corresponds to polyadenylated transcripts, of which more than half do not overlap with known gene locations.</cite></ref> which leads to the possibility that the resulting transcripts may have some unknown function. Also, the evolutionary conservation across the mammalian genomes of much more sequence than can be explained by protein-coding regions indicates that many, and perhaps most, functional elements in the genome remain unknown.<ref name="Mouse2004">"<cite>...the proportion of small (50-100 bp) segments in the mammalian genome that is under (purifying) selection can be estimated to be about 5%. This proportion is much higher than can be explained by protein-coding sequences alone, implying that the genome contains many additional features (such as untranslated regions, regulatory elements, non-protein-coding genes, and chromosomal structural elements) under selection for biological function.</cite>"  </ref> The investigation of the vast quantity of sequence information in the human genome whose function remains unknown is currently a major avenue of scientific inquiry.<ref name="ENCODE"></ref>
+
+==Variation==
+Most studies of human genetic variation have focused on single nucleotide polymorphisms (SNPs), which are substitutions in individual bases along a chromosome. Most analyses estimate that SNPs occur on average somewhere between every 1 in 100 and 1 in 1,000 base pairs in the euchromatic human genome, although they do not occur at a uniform density. Thus follows the popular statement that "we are all, regardless of race, genetically 99.9% the same",<ref>from Bill Clinton's 2000 State of the Union address [http://clinton4.nara.gov/WH/SOTU00/sotu-text.html]</ref> although this would be somewhat qualified by most geneticists. For example, a much larger fraction of the genome is now thought to be involved in copy number variation.<ref>[http://www.nature.com/nature/journal/v444/n7118/full/nature05329.html Global variation in copy number in the human genome : Article : Nature<!-- Bot generated title -->]</ref> A large-scale collaborative effort to catalog SNP variations in the human genome is being undertaken by the International HapMap Project.
+
+The genomic loci and length of certain types of small repetitive sequences are highly variable from person to person, which is the basis of paternity testing technologies. The heterochromatic portions of the human genome, which total several hundred million base pairs, are also thought to be quite variable within the human population (they are so repetitive and so long that they cannot be accurately sequenced with current technology). These regions contain few genes, and it is unclear whether any significant phenotypic effect results from typical variation in repeats or heterochromatin.

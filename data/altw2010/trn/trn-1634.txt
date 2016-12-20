@@ -1,0 +1,158 @@
+{{Czołg infobox|
+nazwa            = BMP-3|
+grafika          = 300px|
+podpis           = |<!-- opcjonalny podpis rysunku -->
+kraj             = ZSRR|
+producent        = Kurgańska Fabryka Maszyn|
+trakcja          = gąsienicowa|<!-- gąsienicowa, kołowa -->
+typ              = bojowy wóz piechoty|<!-- np. czołg lekki, ciężki, podstawowy, transporter opancerzony} -->
+zaloga           = 3 + 7|
+konstrukcja      = |<!-- data budowy prototypu -->
+produkcja        = |<!-- lata produkcji -->
+wycofany         = |<!-- data wycofania z użytku -->
+egzemplarze      = |<!-- ilość wyprodukowanych egzemplarzy -->
+silnik           = UTD-29M o mocy 370 kW|<!-- typ silnika -->
+moc              = |
+mocjedn          = 19,7 kW/T|<!-- moc jednostkowa (np. w kW/tonę) -->
+naciskjedn       = |<!-- nacisk jednostkowy (np. w kg/cm²) -->
+transmisja       = hydromechaniczna|<!-- układ przeniesienia napędu (mechaniczna, elektromechaniczna..) -->
+dlugoscmax       = 7200 mm|<!-- długość całkowita czołgu -->
+dlugosckadlub    = |<!-- długość kadłuba -->
+dlugoscltyl      = |<!-- długość całkowita z lufą obróconą do tyłu -->
+szerokosc        = 3150 mm|<!-- szerokość kadłuba -->
+szerokoscekr     = 3300 mm|<!-- szerokość całkowita z ekranami przeciwkumulacyjnymi -->
+wysokosc         = 2300 mm|<!-- wysokość do stropu wieży -->
+wysokoscmax      = 2450 mm|<!-- wysokość maksymalna -->
+powboczna        = |<!-- powierzchnia boczna w m² (jednostka wstawiana automatycznie) -->
+powczolowa       = |<!-- powierzchnia czołowa w m² (jednostka wstawiana automatycznie) -->
+przeswit         = 450 mm|
+masawlasna       = |
+masabojowa       = 18,7 T|
+zbiorniki        = |<!-- pojemność zbiorników paliwa -->
+typpanc          = |<!-- typ pancerza (reaktywny, warstwowy, kompozytowy, itd. -->
+grubpanc         = |<!-- grubość pancerza -->
+pmaxdroga        = 70|<!-- prędkość maksymalna na drodze w km/h -->
+pmaxteren        = |<!-- prędkość maksymalna w terenie w km/h-->
+pmaxwoda         = 10|<!-- prędkość maksymalna w wodzie w km/h (dla pojazdów pływających) -->
+pmaxtyl          = 20|<!-- prędkość maksymalna na biegu wstecznym -->
+brodbezprzyg     = |<!-- głębokość brodzenia bez przygotowania -->
+brodzprzyg       = |<!-- głębokość brodzenia po przygotowaniu -->
+rowy             = |<!-- zdolność przekraczanych rowów o szerokości -->
+sciany           = |<!-- zdolność przekraczania pionowych ścian o wysokości -->
+stoki            = |<!-- zdolność podjazdu na stoki o nachyleniu max -->
+zasieg           = 600|
+artyleria        = armata 100 mm 2A70<br>armata 30 mm 2A72|<!-- uzbrojenie artyleryjskie -->
+karabin          = 1 x 7,62 mm PKT sprzężony<br>2 x 7,62 mm PKT kursowe|<!-- uzbrojenie strzeleckie -->
+rakieta          = 9M117|<!-- uzbrojenie rakietowe -->
+inne             = |<!-- inne opcjonalne typy uzbrojenia -->
+wyposazenie      = |<!-- wyposażenie dodatkowe (moździerz, wyrzutnik granatów dymnych itd.) -->
+wlasciciele      = ZSRR, Federacja Rosyjska, Zjednoczone Emiraty Arabskie, Kuwejt, Ukraina, Azerbejdżan, Kazachstan|<!-- użytkownicy -->
+rzut             = |<!-- rysunek w trzech/czterech rzutach-->
+}}
+thumb|300px|BMP-3 w wersji eksportowej z termowizorem Mamut-Athos
+'''BMP-3''' - radziecki bojowy wóz piechoty.
+
+==Historia==
+Wprowadzenie pod koniec lat 70. XX wieku do uzbrojenia Armii Radzieckiej bojowego wozu piechoty BMP-2 nie zatrzymało prac nad wozami tej kategorii. Poza próbami udoskonalania BMP-2 rozpoczęto prace nad bojowym wozem piechoty nowej generacji.
+
+Podstawą do prac nad nowym bojowym wozem piechoty stał się prototypowy lekki czołg pływający ''Obiekt 685''. Nie został on wprowadzony do uzbrojenia, ale jego podwozie uznano za na tyle udane że postanowiono wykorzystać je w budowie nowego bwp. Zespołem konstruującym miał kierować A. Błogonrawow (później zastąpił go A. Nikonow).
+
+Konstruktorzy postanowili nie wprowadzać większych zmian w konstrukcji podwozia. Dlatego projektowany bojowy wóz piechoty zachował typowo czołgowy układ przedziałów z silnikiem w tylnej części (większość bwp ma silnik w przedniej części co umożliwia umieszczenie dużych drzwi z tyłu pojazdu). Zmieniono jednak silnik na płaski UTD-29 dzięki czemu nad silnikiem powstała wolna przestrzeń o wysokości kilkudziesięciu centymetrów. Po otwarciu górnych pokryw przedziału desantowego możliwe jest opuszczenie wozu przez małe drzwi w tylnej części wozu, ale jest to rozwiązanie znacznie mniej bezpieczne i wygodne niż w innych bwp.
+
+Kadłub nowego bwp został nieznacznie podwyższony w porównaniu z ''Obiektem 685''. Wykonano go ze stopu aluminium. Pojazd wyposażono w przekładnię hydromechaniczną i hydrokinetyczny mechanizm skrętu GOMP. Nowy prototyp był prawdopodobnie pierwszym radzieckim pojazdem pancernym pozbawionym zewnętrznych zbiorników paliwa. Pojemność zbiorników wewnętrznych wynosiła 690 dm³ i zapewniała zasięg 600 km.
+
+Dzięki nowym gąsienicom o szerokości 380 mm i pędnikom wodnym nowy wóz miał mieć lepsze właściwości trakcyjne i prędkość pływania.
+
+Uzbrojenie nowego wozu miało stanowić 30 mm armata 2A42, 30 mm granatnik automatyczny AGS-17, karabin maszynowy ppk 9M113 Konkurs. Uzbrojenie miało być zamocowane w płaskiej bezzałogowej wieży. Dodatkowo w przedniej części kadłuba zainstalowano dwa kursowe PKT.
+
+Prototypy wozu w takiej konfiguracji oznaczonej jako ''Obiekt 688'' były gotowe do prób w 1981 roku. Prototypy miały numery ''602'' i ''603''.
+
+W Tuły. W nowej wieży zainstalowane były nowe wzory uzbrojenia, 100 mm armata 2A70 sprzężona z 30 mm armatą 2A72 i 7,62 karabinem maszynowym PKT. Armata 2A70 pełniła dodatkowo rolę wyrzutni ppk 9M117 Bastion (AT-10). Ostatecznie zrezygnowano z testów wozów ze starą wieżą i postanowiono zbudować jeszcze dwa prototypy z wieżami z Tuły (nr. ''605'' i ''606''). Zbudowano łącznie 27 pojazdów prototypowych. Od 1985 roku cztery wozy skierowano do prób państwowych.
+
+Produkcję seryjną nowego bojowego wozu piechoty uruchomiono w 1986 roku. Wozy seryjne wyposażane były w nowe silniki UTD-29M o mocy 370 kW. W marcu 1988 roku pierwsze 10 wozów seryjnych zostało skierowanych do jednego z pułków Białoruskiego Okręgu Wojskowego w celu przeprowadzenia prób w warunkach polowych. Wyniki prób okazały się niejednoznaczne. Nowy pojazd miał bardzo dużą siłę ognia, ale jednocześnie był bardzo awaryjny. Bardzo skomplikowana była wymiana silnika. Dodatkowo okazało się że hydrokinetyczny mechanizm skrętu GOMP wymaga częstych regulacji możliwych jedynie po zdemontowaniu silnika. Za niezbyt optymalne uznano także rozmieszczenie desantu.
+
+Pomimo uwag krytycznych BMP-3 był produkowany i kolejne pojazdy kierowano do jednostek. Z czasem zmniejszyła się awaryjność pojazdu, ale rozmieszczenia żołnierzy desantu w wozie nie można było poprawić. W 1992 roku w BMP-3 całkowicie przezbrojono jeden z pułków Syberyjskiego Okręgu Wojskowego, jednak w 2000 roku przekazał on te pojazdy do "długotrwałego składowania" i obecnie BMP-3 nie stanowią uzbrojenia żadnej dużej jednostki Armii Rosyjskiej.
+
+BMP-3 odniósł spory sukces eksportowy. W Korei Południowej w zamian za anulowanie części długów. Po rozpadzie ZSRR pewna ilość BMP-3 znalazła się na uzbrojeniu armii Ukrainy, Azerbejdżanu i Kazachstanu. Według niepotwierdzonych informacji pewną ilość tych wozów zakupiły także ChRL, Sri Lanka i Syria.
+
+Sprzedaż BMP-3 umożliwiła kontynuowanie rozwoju tego pojazdu i powstanie kolejnych wersji:
+*zmodernizowana wersja eksportowa dla Zjednoczonych Emiratów Arabskich wyposażona w nowy celownik połączony z laserowym dalmierzem/podświetlaczem celu. Wersja ta nie posiada bloku laserowego podświetlacza celu KDT-2 nad lufą.
+*BMP-3 wyposażony w system obrony aktywnej Arena (wersja nie produkowana seryjnie). Zaprezentowany w 1999 roku zmodyfikowany pojazd miał także nowy zestaw celowników (o nazwie ''Buklet'', ze stabilizowanym termowizorem ''Iris'', celownikiem dziennym BZS-1, przeciwlotniczym PPB-2 i stabilizowanym, obrotowym przyrządem obserwacyjnym dowódcy TKN-A1).
+*BMP-3W - wersja wyposażona w dodatkowy pancerz składający się z elementów pasywnych i reaktywnych. Masa dodatkowego pancerza wynosi 4150 kg. Pojazd w tej wersji nie pływa. Prawdopodobnie nie produkowany seryjnie.
+*BMP-3 - wersja z nową wieżą. Posiada takie same uzbrojenie główne (armaty 2A70 i 2A72) jak standardowe BMP-3, ale wyposażony jest w termowizor i panoramiczny przyrząd obserwacyjny dowódcy. Z armaty można odpalać nowe ppk 9M117M1 Arkan.
+*BREM-Ł Beglianka - początkowo znany jako ''Obiekt 691'', wóz ewakuacyjny. Prawdopodobnie produkowany seryjnie dla ZEA.
+*TZM Wostorg - maszyna inżynieryjno-drogowa. Nie produkowany seryjnie.
+*BRM-3 Ryś - bojowy wóz rozpoznawczy. Prototyp miał oznaczenie ''Obiekt 501''. Przyjęty do uzbrojenia Armii rosyjskiej w 1995.
+*BMP-3K - wersja dowodzenia z ograniczonym zapasem amunicji (22 naboje 100 mm, 3 ppk). Wóz posiada dodatkową radiostację TNA-4-6 i generator prądotwórczy AB1-P30.
+*BMP-3F - wersja opracowana prawdopodobnie dla piechoty morskiej. Posiada dodatkowe uszczelnienia kadłuba i zwiększony zapas pływalności. Może pływać do 7 godzin i strzelać przy stanie morza do 3° Beauforta.
+*BMP-3 - pojazd do nauki jazdy. Ma mniejszą o 2,3 T masę. Zamiast wieży jest zainstalowana oszklona kabina.
+*''Obiekt 699'' - podwozie bazowe o masie 12 T. Można na nim montować wyposażenie o masie do 6 T. Wykorzystując to podwozie opracowano wersje:
+**niszczyciel czołgów z ppk Kornet
+**niszczyciel czołgów z ppk Krizantema
+**działo samobieżne 2S31 Wena
+**zestaw przeciwlotniczy z wieżą ''Wildcat'' (uzbrojony w dwie armaty 30 mm Mauser i cztery rakiety naprowadzane na podczerwień)
+**zestaw przeciwlotniczy z wieżą zestawu Pancyr.
+
+==Opis konstrukcji==
+BMP-3 jest pływającym opancerzonym, gąsienicowym wozem bojowym, przeznaczonym do wspierania czołgów.
+
+Załogę BMP-3 tworzy dowódca, kierowca, działonowy i siedmiu żołnierzy desantu. Kierowca i dwóch żołnierzy desantu zajmują miejsce w przedniej części pojazdu, działonowy i dowódca w wieży, a pięciu żołnierzy desantu w przedziale pomiędzy wieżą, a przedziałem napędowym.
+
+{{Infobox Weapon|is_vehicle=yes| name=BMP-3
+|        image=300px|BMP-3
+|      caption=
+|      type=Infantry fighting vehicle
+|      origin= 
+|       length=7.14 m
+|        width=3.2 m
+|       height=2.4 m
+|       weight=18.7 tonnes
+|   suspension=torsion bar
+|   speed=72 km/h (road)<br>45 km/h (off-road)
+|  speed_water=10 km/h
+|        vehicle_range=600 km
+|      primary_armament= 100mm gun/launcher 2A70, 30mm autocannon 2A72
+|    secondary_armament=3×7.62mm PKT machine guns
+|       armour=35mm max
+|       engine=UTD-29M diesel
+|         crew=3 (+7 passengers)
+|    engine_power=500 hp (375 kW)
+|        pw_ratio=27 hp/tonne
+}}
+
+The '''BMP-3''' is a Russian infantry fighting vehicle which was first observed by the West in 1990. BMP stands for ''Boyevaya Mashina Pekhoty'' (Боевая Машина Пехоты, literally "Infantry Combat Vehicle") <!--link does not work [http://www.milparade.com/Soderzhaniye.pdf †]-->.
+
+== Production history ==
+The design of the BMP-3 or '''Obyekt 688M''' can be traced back to the light tank prototype '''Obyekt 685''' <ref>[http://www.museum-tank.ru/IIIwar/tables3/o685.html Obyekt 685]</ref> with 100mm gun 2A48-1 from 1975. This vehicle didn't enter series production but the chassis, with a new engine, was used for the next-generation infantry combat vehicle '''Obyekt 688''' <ref>[http://www.museum-tank.ru/IIIwar/tables3/o6882.html Obyekt 68882]</ref><ref>[http://www.otvaga2004.narod.ru/otvaga2004/armour-rus-obj/a_688.htm Ob'yekt 688]</ref> from A. Blagonravov's design bureau. The Ob.688 weapons' configuration - an externally-mounted 30mm gun and twin ATGM "Konkurs" launcher - was rejected; instead the new 2K23 armament system was selected. The resulting BMP-3 was developed in the early 1980s and entered service with the Soviet army officially in 1987. It was shown for the first time in public during the 1990 May Parade and was given the NATO code '''ICV M1990/1'''.
+
+== Armament and equipment ==
+The '''"Troyka"''' is one of the most heavily armed combat vehicles around, fitted with a 2A70 100mm rifled gun, which can fire conventional HE-Frag shells or 9M117 (AT-10 Stabber) ATGMs (40 rounds + 8 ATGM are carried), 2A72 dual feed autocannon with 500 rounds and a rate of fire of 350 to 400 rpm, and a 7.62mm machine gun with 2,000 rounds, all mounted coaxially in the turret.  There are also two 7.62mm bow machine guns, again with 2,000 rounds each. The BMP-3 is capable of engaging targets out to 5,000 - 6,000 meters, with its ATGM weapon system 9K116-3 "Basnya" (with an approximately eighty percent probability of a hit at that range). However, there is a minimum engagement range (about 100 meters in this case) within which the missile should not be fired and cannon fire should be used instead. In addition, there is a flight time of approximately twelve seconds to the maximum missile range. If the missile launcher is destroyed, missile guidance ceases and the missile may miss its target. It is important to note that the minimum engagement distance, flight time and vulnerability of launcher is representative of nearly all ATGM systems in service, due to most of them being command-guided (as opposed to fire-and-forget).
+
+thumb|left|BMP-3 of the UAE with "Namut" thermal sight
+According to the manufacturer's web-site, all weapons can be fired from the halt, on the move, and afloat with the same effectiveness. The ability to hit targets on the move with missiles was [http://www.enemyforces.com/apc/bmp3.htm successfully demonstrated] during competitive evaluations in the UAE in 1991.
+
+The turret is fitted with the 2K23 system which consists of an automatic loader, a ballistic computer 1V539, a cross-wind sensor, a 2E52-2 stabilising system, the 1D16-3 laser range finder, the 1K13-2 gunner's sight/guidance device and the PPB-1 gunner's sight. The commander has a combined optical sight 1PZ-10, a day/night vision device TKN-3MB and an IR search light OU-3GA2.
+
+Also on board are one RPG-7, five RPG-18's, two MANPADS "Strela-3" or "Igla" and 10 hand grenades F-1.
+
+Although early models were powered by a 450hp engine UTD-29, most BMP-3's are equipped with the 500hp version UTD-29M. The other standard equipment consists of 5 firing ports with associated vision blocks, a tranceiver R-173, a receiver R-173P, a GO-27 radiation and chemical agent detector, an FVU filtration system, an automatic fire extinguisher and finally 6 smoke grenade launchers 81mm 902V "Tucha".
+
+The United Arab Emirates, the largest operator of the BMP-3 vehicle has expressed interest in mounting the BMP-3 turret on its future wheeled infantry fighting vehicle, the Patria AMV, thus enabling a more agile and faster vehicle, with the same firepower and protection capabilities.
+
+== Variants ==
+===Russian Federation===
+*'''BMP-3''' - Basic version, as described.
+
+* thumb|right|Prototype of BMP-3 with "Namut" sight '''BMP-3M''' - KBP and Kurganmashzavod have upgraded the vehicle with a new turret and engines. The upgraded vehicle is called the BMP-3M and the new turret includes a new automatic fire control system with digital computer, new BZS1 gunner's sight with SAGEM thermal imager and laser illuminator, TKN-AI commander's periscope with laser infrared illuminator and new ammunition loading system. The BMP-3M will also be able to fire ammunition types including new 100mm laser-guided projectiles, new 100mm HE-FRAG (high explosive fragmentation) rounds and new 30mm APDS (armour piercing discarding sabot) rounds. Additional passive armour protection is effective against 12.7mm armour-piercing rounds from a range of 50m. Explosive reactive armour is available as an option. The new uprated engine is the UTD-32, which is rated at 660hp.<ref>[http://www.army-technology.com/projects/bmp-3/ Army Technology - BMP 3 - Tracked Infantry Combat Vehicle<!-- Bot generated title -->]</ref> There are actually several different M models, some fitted with additional armour, "Arena-E" or "Shtora-1" protection system, air conditioner etc. The latest version is also known as '''BMP-4''' and is fitted with the "Bakhcha-U" turret from the BMD-4. It entered state trials in 1999.
+
+*'''BMMP''' (''bojevaya mashina morskoj pekhoti'') - Version for naval infantry, fitted with the turret of the BMP-2.
+
+*'''BMP-3K''' (''komandnyi'') - Tactical command variant, includes additional radios R-173, an AB-1 APU, a navigation device TNA-4-6 and the "Ainet" round fuzing capability. The BMP-3K lacks the bow machine guns and has its whip antennas mounted on the rear hull. Crew: 3+3.
+
+*'''BMP-3F''' - Specially designed for operations at sea, with improved seaworthiness and buoyancy, and high fire accuracy at sea force 2. This can endure continuous amphibious operation for seven hours.<ref>[http://www.army-technology.com/projects/bmp-3/ Army Technology - BMP 3 - Tracked Infantry Combat Vehicle<!-- Bot generated title -->]</ref>
+
+*'''BRM-3K "Rys" (Ob.501)''' (''boyevaya razvedivatel'naya mashina'') - Reconnaissance variant with 1PN71 thermal sight (3.7x/11x, 3km range), 1PN65 second-generation image intensifier (7x, 1.2-1.5km range), 1RL-133-1 ("TALL MIKE") I-band surveillance radar (3km man, 12km vehicle), 1V520 computer and a TNA-4-6 navigation system. The armament consists only of the stabilized 30mm gun 2A72 (600 rounds) and a coaxial 7.62mm machine gun (2,000 rounds). Combat weight: 19 t, crew: 6. [http://naoruzanje.paracin.co.yu/brm-3k.html Photos]
+
+*'''BREM-L "Beglianka" (Ob.691)''' (''bronirovannaya remontno-evakuatsionnaya mashina'') - Armoured recovery vehicle with five-tone crane and 20/40 metric ton capacity winch. [http://www.armyrecognition.com/Russe/vehicules_legers/BREM-L/BREM-L_Russia_description.htm Photos]
+
+*'''9P157 "Krizantema-S"''' - Anti-tank version with two supersonic 9M123 Khrizantema (AT-15) missiles. [http://www.armyrecognition.com/Russe/vehicules_legers/BMP-3_Krizantema/BMP-3_Krizantema_diaporama.htm Photos]

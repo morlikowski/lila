@@ -1,0 +1,29 @@
+The '''hazard ratio''' in survival analysis is the effect of an explanatory variable on the hazard or risk of an event.  For a less technical definition than is provided here, consider hazard ratio to be an estimate of relative risk and see the explanation on that page.
+
+The instantaneous limit of the number of events per unit time divided by the number at risk as the time interval decreases.
+
+::<math> h(t) = \lim_{\Delta t\rightarrow 0}\frac{\mathrm{observed \;events}(t)/N(t)}{\Delta t}</math> 
+
+where ''N''(''t'') is the number at risk at the beginning of an interval.
+
+The '''hazard ratio''' is the effect on this hazard rate of a difference, such as group membership (for example, treatment or control, male or female), as estimated by regression models which treat the log of the hazard rate as a function of a baseline hazard <math>h_0(t)</math> and a linear combination of explanatory variables:  
+
+::<math>\log h(t) = f(h_0(t),\alpha + \beta_1 X_1 + \cdots + \beta_k X_k).\,</math>
+
+Such models are generally classed proportional hazards regression models (they differ in their treatment of <math>h_0(t)</math>, the underlying pattern the hazard rate over time), and include the Cox semi-parametric proportional hazards model, and the exponential, Gompertz and Weibull parametric models.
+
+Il '''rapporto di rischio''' nell'analisi di sopravvivenza è l'effetto di una variabile esplicativa a proposito del pericolo o del rischio di un evento. Per una definizione meno tecnica di quella fornita in questa voce, considera il rapporto di rischio essere una stima di rischio relativo e osserva le spiegazioni riportate in questa voce.
+
+Il tasso di rischio istantaneo è il limite del numero di eventi per unità di tempo in rapporto al numero di eventi a rischio diviso per intervalli descrescenti di tempo (fino a tendere a zero).
+
+::<math> h(t) = \lim_{\Delta t\rightarrow 0}\frac{\mathrm{observed \;events}(t)/N(t)}{\Delta t}</math> 
+
+dove ''N''(''t'') è il numero di eventi a rischioo all'inizio di un intervallo.
+
+<!--
+
+The '''hazard ratio''' is the effect on this hazard rate of a difference, such as group membership (for example, treatment or control, male or female), as estimated by regression models which treat the log of the hazard rate as a function of a baseline hazard <math>h_0(t)</math> and a linear combination of explanatory variables:  
+
+::<math>\log h(t) = f(h_0(t),\alpha + \beta_1 X_1 + \cdots + \beta_k X_k).\,</math>
+
+Such models are generally classed proportional hazards regression models (they differ in their treatment of <math>h_0(t)</math>, the underlying pattern the hazard rate over time), and include the Cox semi-parametric proportional hazards model, and the exponential, Gompertz and Weibull parametric models.

@@ -1,0 +1,46 @@
+'''プログラム意味論'''(Program Semantics)とは、理論計算機科学の一分野で、プログラミング言語の意味と計算モデルに関する厳密な数学的研究領域である。'''プログラミング言語の形式意味論'''とも呼ばれる。
+
+ある言語の形式意味論は、その言語で表現可能な処理（計算）を表す数学的モデルによって与えられる。
+
+== 分類 ==
+プログラム意味論にはいくつかの手法があり、以下の 3 種類に大別される:
+
+* '''コンパイルと対応すると考えることもできるが、通常翻訳先の言語は他のコンピュータ言語ではなく数学的形式言語であることが多い。例えば、関数型言語の表示的意味論では、領域理論の言語に翻訳する。
+* '''抽象機械（例えばSECDマシン）と定義することも可能で、プログラムの語句の並びが抽象マシンの上で引き起こす状態変化を説明することによって各語句の意味を説明する。あるいは、純粋なラムダ計算のように、操作的意味論を対象言語の語句の並びの統語的変形過程と定義することもできる。
+* '''公理的意味論''': 語句の並びに「論理学的公理」を適用することによって意味を明らかにする。公理的意味論では語句の意味とそれを表す論理式を区別しない。この場合、プログラムの意味は論理学で証明可能なものと等価である。公理的意味論の典型的な例としてホーア論理がある。
+
+この分類は必ずしも完全ではないが、既存の手法は上記3種類のいずれかを使っているか、いくつかを組み合わせている。
+
+上記分類とは別に、利用している数学的形式手法によってプログラム意味論を分類することもある。
+
+== 派生 ==
+プログラム意味論からの派生として以下のようなものがある:
+* 「Action Semantics」 は表示的意味論をモジュール化し、形式化プロセスを2段階（マクロ意味論とマイクロ意味論）に分け、意味の表示を単純化するために 3種類の意味論的実体（action、data、yielder）を予め定義したものである。
+* 「文法の「メタデータ」（属性）を系統立てて計算するシステムを定義する。属性文法を対象言語に属性を付与する表示的意味論の一種と見ることもできる。プログラム意味論以外でも、属性文法はコンパイラのコード生成に使われたり、正規文法や文脈自由文法を文脈依存言語に変換するのに使われる。
+* 「関数的意味論」または「圏論的意味論」は圏論を基本とした形式意味論である。
+* 「並行性意味論」は並行処理の形式意味論を扱う意味論一般を指す。特筆すべきものとしてはアクターモデルやプロセス代数がある。
+* 「ゲーム意味論」はゲーム理論を基本とした形式意味論である。
+
+== 意味論間の関係 ==
+場合によっては、異なる意味論間の関係を説明する必要が生じる。例えば:
+
+In theoretical computer science, '''formal semantics''' is the field concerned with the rigorous mathematical study of the meaning of programming languages and models of computation. 
+
+The formal semantics of a language is given by a mathematical model that describes the possible computations described by the language. 
+
+There are many approaches to formal semantics; these approaches belong to three major classes:
+
+* '''compilation, although the "target language" is usually a mathematical formalism rather than another computer language.  For example, denotational semantics of functional languages often translates the language into domain theory;
+* '''interpretation, although again the "implementation language" of the interpreter is generally a mathematical formalism.  Operational semantics may define an abstract machine (such as the SECD machine), and give meaning to phrases by describing the transitions they induce on states of the machine.  Alternatively, as with the pure lambda calculus, operational semantics can be defined via syntactic transformations on phrases of the language itself;
+* '''Axiomatic semantics''', whereby one gives meaning to phrases by describing the ''logical axioms'' that apply to them.  Axiomatic semantics makes no distinction between a phrase's meaning and the logical formulas that describe it; its meaning ''is'' exactly what can be proven about it in some logic.  The canonical example of axiomatic semantics is Hoare logic.
+
+The distinctions between the three broad classes of approaches can sometimes be blurry, but all known approaches to formal semantics use the above techniques, or some combination thereof.
+
+Apart from the choice between denotational, operational, or axiomatic approaches, most variation in formal semantic systems arises from the choice of supporting mathematical formalism.
+
+Some variations of formal semantics include the following:
+* Action semantics is an approach that tries to modularize denotational semantics, splitting the formalization process in two layers (macro and microsemantics) and predefining three semantic entities (actions, data and yielders) to simplify the specification;
+* regular or context-free grammars with context-sensitive conditions;
+* Categorical (or "functorial") semantics uses category theory as the core mathematical formalism;
+* Concurrency semantics is a catch-all term for any formal semantics that describes concurrent computations.  Historically important concurrent formalisms have included the Actor model and process calculi;
+* Game semantics uses a metaphor inspired by game theory.

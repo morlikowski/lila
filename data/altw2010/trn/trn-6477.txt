@@ -1,0 +1,57 @@
+원소들 사이의 거리가 정의된 집합을 뜻한다.
+
+==정의== 
+
+집합 <math>X</math>의 임의의 원소 <math>x, y, z</math>에 대해 함수 <math>d: X \times X \rightarrow \mathbb{R}</math>이 다음 조건을 만족할 때 함수 <math>d(x,y)</math>를 <math>x</math>와 <math>y</math>사이의 '''거리''', 혹은 '''계량'''(metric)이라 한다.
+
+*<math>d(x,y) \ge 0 </math> (음이 아님)
+*<math>d(x,y) = 0 \iff x = y </math> (구분불가능한 것들의 동일성)
+*<math>d(x,y) = d(y,x)</math> (대칭성)
+*<math>d(x,y) + d(y,z) \ge d(x,z)</math>　(삼각부등식)
+
+위와 같이 거리 d가 정의된 집합 X를 거리공간(metric space)라 하고, <math>(X,d)</math>로 나타내며, 또는 간단히 거리공간 <math>X</math>로 쓴다.
+
+== 거리공간의 예 ==
+* 실수 R에서, 거리가 절대치를 이용해여, <math>d(x,y) = |x-y|</math>로 정의되었을 때, ('''R''', d)는 거리공간이다.
+* '''R'''<sup>n</sup> 에서, 거리를 <math>d(x,y) = \sqrt{ \sum_{i=1}^n (x_i - y_i)^2 }</math>로 정의하면, ('''R'''<sup>n</sup>, d)는 거리공간이다. 이렇게 정의된 거리를 '''유클리드 거리''', 이 공간을 '''n차원 유클리드 공간'''이라 하며, 보통 자연과학에서 말하는 거리는 이 정의를 따른다.
+* 
+*'''R'''<sup>n</sup> 에서 <math>d_0(x - y) = \max_{1 \le i \le n}{|x_i - y_i|}</math> 을 거리로 정의하면, ('''R'''<sup>n</sup>, d<sub>0</sub>) 는 거리공간이다.
+
+이처럼 같은 집합에 대하여 정의가 가능한 거리는 유일하지 않다. 그러나 위상적으로 보면 위 예의 두가지 거리는 동일하다.
+
+En distance entre les éléments de l'ensemble est définie. C'est un cas particulier d'espace topologique.
+
+L'exemple correspondant le plus à notre expérience intuitive de l'espace est l'espace euclidien à trois dimensions. La métrique euclidienne de cet espace définit la distance entre deux points comme la longueur du segment les reliant.
+
+__TOC__
+==Définitions==
+* On appelle '''distance''' sur un ensemble <math>E \,</math>, une application <math>d:E\times E\rightarrow\mathbb R_+</math> telle que :
+:*<math>\forall x,y\in E, d(x,y)=d(y,x)</math> (symétrie);
+:*<math>d(x,y)=0\Leftrightarrow x=y</math> (séparation);
+:*<math>d(x,z)\leq d(x,y)+d(y,z)</math> ('''inégalité triangulaire''').
+
+* On appelle '''boule''' (ouverte) ''centrée'' en <math>a\in E</math> et de ''rayon'' <math>r\in\mathbb R_+</math>, l'ensemble <math>B(a,r)=\{x\in E\mid d(x,a)<r\}\subset E</math>.
+
+* La distance munit <math>E\,</math> d'une topologie, en définissant une partie <math>U\,</math> comme '''ouverte''' lorsque: <math>\forall u\in U,\exists\varepsilon>0: B(u,\varepsilon)\subset U</math>. Un ouvert est donc une partie qui a une certaine « épaisseur » autour de ses points. Un espace topologique est dit métrisable s'il existe une distance définissant sa topologie ; cette distance n'est presque jamais unique et on prendra garde que les notions de boule, de borné (i.e. inclus dans une boule), de suite de Cauchy, de continuité uniforme, etc. ne sont pas des notions topologiques mais métriques, susceptibles de varier selon la distance choisie. Dans cette topologie, les voisinages d'un point sont tous les sous-ensembles contenant une boule ouverte centrée sur ce point. La topologie usuelle sur la droite (des nombres réels), le plan, etc. sont des exemples de topologies définissables à l'aide d'une métrique.
+
+''Remarques''
+
+* Une propriété intéressante des espaces topologiques métrisables est la propriété de séparation. En effet, si on choisit deux éléments distincts <math>x\,</math> et <math>y\,</math> d'un espace métrique <math>E\,</math>, leur distance <math>d\,</math> est non nulle, par conséquent les ouverts <math>B(x,d/2)\,</math> et <math>B(y,d/2)\,</math> sont disjoints et sont des voisinages de <math>x\,</math> et <math>y\,</math>.
+
+* On appelle '''boule fermée''' centrée en <math>a\in E</math> et de rayon <math>r\in\mathbb R_+</math>, l'ensemble <math>\{x\in E\mid d(x,a)\leq r\}\subset E</math>. On la note souvent <math>B_f(a,r)\,</math>. La notation <math>\overline{B}(a,r)</math> est également courante mais ambiguë, car ''B<sub>f</sub>(a,r)'' est en général différent de l'adhérence de ''B(a,r)'', non seulement pour ''r'' = 0. Pour plus de détails, voir adhérence (mathématiques) et boule (mathématiques).
+
+== Exemples ==
+* Une norme ''N'' induit de manière naturelle une distance ''d(x,y)=N(x-y)''.
+* La distance triviale (ou encore distance discrète ou métrique discrète) : sur un ensemble non vide, on décide que la distance entre deux points distincts est 1 (d(x,y) = 1'' pour tout ''x'' différent de ''y'' et ''d(x,x) = 0''). Avec une telle distance, on vérifie aisément que la topologie est alors l'ensemble des parties de <math>E</math>, c'est-à-dire que toute partie ''F'' de ''E'' est ouverte.
+* Les espaces topologiques '''R''' et ]0,1[ sont homéomorphes, mais munis des distances usuelles, ils ne sont pas isomorphes en tant qu'espaces métriques ; par exemple '''R''' est complet mais ]0,1[ ne l'est pas.
+* Si on munit '''R<sub>+</sub>''' de la distance ''d(x,y)=|e<sup>x</sup>- e<sup>y</sup>|'', on retrouve la topologie usuelle sur '''R<sub>+</sub>''' mais maintenant toutes les fonctions polynômes sont uniformément continues.
+* La distance aux échecs permet de connaître le nombre de coups nécessaire au jeu d'échec pour aller avec le roi d'une case ''x<sub>1</sub>, y<sub>1</sub>'' à une case ''x<sub>2</sub>, y<sub>2</sub>'' et se définit par <math>D_{Echec} = \max \left ( \left | \left ( x_2 - x_1 \right) \right | , \left | \left ( y_2 - y_1 \right ) \right | \right )</math>
+* La distance de Manhattan: dans le plan <math> \mathbb R^2:d(a,b)=|x_b-x_a|+|y_b-y_a|</math>.c'est bien sûr la distance induite par la norme 1.
+
+== Équivalence d'espaces métriques ==
+
+En comparant deux espaces métriques il est possible de distinguer différents degrés d'équivalence. Pour préserver ''a minima'' la structure topologique induite par la métrique, une fonction continue entre les deux est requise.
+
+Soit deux espaces métriques (''M''<sub>1</sub>, ''d''<sub>1</sub>) et (''M''<sub>2</sub>, ''d''<sub>2</sub>). ''M''<sub>1</sub> et ''M''<sub>2</sub> sont appelés
+
+*'''topologiquement isomorphes''' (ou '''homéomorphes''') s'il existe un homéomorphisme entre eux.

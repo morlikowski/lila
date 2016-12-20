@@ -1,0 +1,39 @@
+{{Infobox OS
+| name                   = Miraculix
+| logo                   =
+| screenshot             = 
+| caption                = 
+| developer              = 
+| source_model           = 
+| kernel_type            = 
+| supported_platforms    = 
+| ui                     = Graphical user interface
+| family                 = 
+| latest_release_version = 0.71
+| latest_release_date    = March 25, 2007
+| marketing_target       = 
+| programmed_in          = V1: C++-like language,<br />V2: assembly language
+| prog_language          = 
+| language               = English
+| updatemodel            = 
+| package_manager        = 
+| working_state          = Current
+| license                = 
+| website                = [http://miraculix.ru/ miraculix.ru]
+}}
+'''Miraculix''' is 32-bit operating system originated from Russia. 
+
+==History==
+The first version of this system was published in 2003, and named "UCS" (United Control System). Created using a C++-like language, UCS had its own file system and provided interaction through a single-user console.
+
+In 2004, the second edition of Miraculix was prepared, written entirely in GUI and multitasking support was include in the kernel, but this edition was never completed.
+
+In 2005, a new, third version Miraculix was released. This version had a working GUI, set the required drivers for a lot of hardware and have protection processes using a method of separation and page memory was also present.
+
+right|thumb|270px|Графический интерфейс Miraculix 4
+== История ==
+'''Miraculix''' — это русская 32-х битная многозадачности (все программы выполнялись в режиме ядра). Но эта редакция так и не была завершена. И в 2005 году вышла новая, третья версия Miraculix. В этой версии имелся работающий GUI, набор необходимых драйверов (fdd, cd-rom, видео, мышь и т.д.), появилась защита процессов с использованием межкольцевого разделения и страничной памяти. В конце 2005 года было объявлено о четвертой версии Miraculix.
+
+14 июля 2006 года была выпущена версия 0.55b, а затем 10 августа 2006 года несколько доработанная 0.56. Однако несмотря на разработки в области GUI, это не была полноценная система. В ней были лишь следующие программы: панель задач (с меню пуск), run, обзор файлов, простая консоль и несколько демок. Также была возможность запуска примитивных программ для MenuetOS. Но в ней не было даже простейшего текстового редактора и потому назвать самодостаточной ОС её нельзя.
+
+25 марта 2007 года вышла следующая версия − 0.71, в которой был переработан GUI и добавлена доработанная консоль с командой picture (показать картинку). Собственно переработке в бо́льшей степени подвергся рабочий стол - теперь на синем фоне появились иконки. Также был изменён стиль окон, который на этот раз был содран с Windows Vista.

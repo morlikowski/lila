@@ -1,0 +1,409 @@
+==S00-T14 - Injury==
+
+{| class="wikitable"
+|   || '''Superficial''' || '''Open''' || '''| '''[[Joint dislocation|D/S/S''' || '''Crush''' || '''Amputation''' || '''Other'''
+ |- 
+ | head || S00 || S01 || S02 || S03 || S07 || S08 || S09 
+ |- 
+ | neck || S10 || S11 || S12 || S13 || S17 || S18 || S19 
+ |- 
+ | thorax || S20 || S21 || S22 || S23 || S27 || S28 || S29 
+ |- 
+ | abdomen, lower back, lumbar spine and pelvis || S30 || S31 || S32 || S33 || S37 || S38 || S39 
+ |- 
+ | shoulder and upper arm || S40 || S41 || S42 || S43 || S47 || S48 || S49 
+ |- 
+ | elbow and forearm || S50 || S51 || S52 || S53 || S57 || S58 || S59 
+ |- 
+ | wrist and hand || S60 || S61 || S62 || S63 || S67 || S68 || S69 
+ |- 
+ | hip and thigh || S70 || S71 || S72 || S73 || S77 || S78 || S79 
+ |- 
+ | knee and lower leg || S80 || S81 || S82 || S83 || S87 || S88 || S89 
+ |- 
+ | ankle and foot || S90 || S91 || S92 || S93 || S97 || S98 || S99 
+ |- 
+ | multiple regions || T00 || T01 || T02 || T03 || T04 || T05 || T06-7
+|}
+
+=== (S00-S09) head ===
+* () Superficial injury of head
+** () Superficial injury of scalp
+** () Contusion of eyelid and periocular area
+*** Black eye
+** () Other superficial injuries of eyelid and periocular area
+** () Superficial injury of nose
+** () Superficial injury of ear
+** () Superficial injury of lip and oral cavity
+** () Multiple superficial injuries of head
+** () Superficial injury of other parts of head
+** () Superficial injury of head, part unspecified
+
+* () Open wound of head
+
+* () Fracture of skull and facial bones
+** () Fracture of vault of skull
+** () Fracture of base of skull
+** () Fracture of nasal bones
+** () Fracture of orbital floor
+** () Fracture of malar and maxillary bones
+** () Fracture of tooth
+** () Fracture of mandible
+** () Multiple fractures involving skull and facial bones
+** () Fractures of other skull and facial bones
+** () Fracture of skull and facial bones, part unspecified
+
+* () strain of joints and ligaments of head
+
+* () Injury of cranial nerves
+** () Injury of optic nerve and pathways
+** () Injury of oculomotor nerve
+** () Injury of trochlear nerve
+** () Injury of trigeminal nerve
+** () Injury of abducent nerve
+** () Injury of facial nerve
+** () Injury of acoustic nerve
+** () Injury of accessory nerve
+** () Injury of other cranial nerves
+** () Injury of unspecified cranial nerve
+
+* () Injury of eye and orbit
+** () Injury of conjunctiva and corneal abrasion without mention of foreign body
+** () Contusion of eyeball and orbital tissues
+** () Ocular laceration and rupture with prolapse or loss of intraocular tissue
+** () Ocular laceration without prolapse or loss of intraocular tissue
+** () Penetrating wound of orbit with or without foreign body
+** () Penetrating wound of eyeball with foreign body
+** () Penetrating wound of eyeball without foreign body
+** () Avulsion of eye
+** () Other injuries of eye and orbit
+** () Injury of eye and orbit, unspecified
+
+* () Intracranial injury
+** () Concussion
+** () Traumatic cerebral oedema
+** () Diffuse brain injury NOS
+** () Focal brain injury
+** () Epidural haemorrhage
+** () Traumatic subdural haemorrhage
+** () Traumatic subarachnoid haemorrhage
+** () Intracranial injury with prolonged coma
+** () Other intracranial injuries
+** () Intracranial injury, unspecified
+
+* () Crushing injury of head
+
+* () Traumatic amputation of part of head
+
+* () Other and unspecified injuries of head
+
+=== (S10-S19) neck ===
+* () Superficial injury of neck
+* () Open wound of neck
+* () Fracture of neck
+** () Fracture of first cervical vertebra
+** () Fracture of second cervical vertebra
+** () Fracture of other specified cervical vertebra
+** () Multiple fractures of cervical spine
+** () Fracture of other parts of neck
+** () Fracture of neck, part unspecified
+
+* () strain of joints and ligaments at neck level
+** () Traumatic rupture of cervical intervertebral disc
+** () Dislocation of cervical vertebra
+** () Dislocation of other and unspecified parts of neck
+** () Multiple dislocations of neck
+** () Sprain and strain of cervical spine
+*** Whiplash injury
+** () Sprain and strain of thyroid region
+** () Sprain and strain of joints and ligaments of other and unspecified parts of neck
+
+* () Injury of nerves and spinal cord at neck level
+** () Concussion and oedema of cervical spinal cord
+** () Other and unspecified injuries of cervical spinal cord
+** () Injury of nerve root of cervical spine
+** () Injury of brachial plexus
+** () Injury of peripheral nerves of neck
+** () Injury of cervical sympathetic nerves
+** () Injury of other and unspecified nerves of neck
+
+* () Injury of blood vessels at neck level
+* () Injury of muscle and tendon at neck level
+* () Crushing injury of neck
+* () Traumatic amputation at neck level
+* () Other and unspecified injuries of neck
+
+=== (S20-S29) thorax ===
+* () Superficial injury of thorax
+* () Open wound of thorax
+
+* () Fracture of rib(s), sternum and thoracic spine
+** () Fracture of thoracic vertebra
+** () Multiple fractures of thoracic spine
+** () Fracture of sternum
+** () Fracture of rib
+** () Multiple fractures of ribs
+** () Flail chest
+** () Fracture of other parts of bony thorax
+** () Fracture of bony thorax, part unspecified
+
+* () strain of joints and ligaments of thorax
+* () Injury of nerves and spinal cord at thorax level
+
+* () Injury of blood vessels of thorax
+** () Injury of thoracic aorta
+** () Injury of innominate or subclavian artery
+** () Injury of superior vena cava
+** () Injury of innominate or subclavian vein
+** () Injury of pulmonary blood vessels
+** () Injury of intercostal blood vessels
+** () Injury of multiple blood vessels of thorax
+** () Injury of other blood vessels of thorax
+** () Injury of unspecified blood vessel of thorax
+
+* () Injury of heart
+* () Injury of Other and unspecified intrathoracic organs
+** () Traumatic pneumothorax
+** () Traumatic haemothorax
+** () Traumatic haemopneumothorax
+** () Other injuries of lung
+** () Injury of bronchus
+** () Injury of thoracic trachea
+** () Injury of pleura
+** () Multiple injuries of intrathoracic organs
+** () Injury of other specified intrathoracic organs
+** () Injury of unspecified intrathoracic organ
+* () Crushing injury of thorax and traumatic amputation of part of thorax
+* () Other and unspecified injuries of thorax
+
+=== (S30-S39) abdomen, lower back, lumbar spine and pelvis ===
+* () Superficial injury of abdomen, lower back and pelvis
+* () Open wound of abdomen, lower back and pelvis
+* () Fracture of lumbar spine and pelvis
+* () Dislocation, sprain and strain of joints and ligaments of lumbar spine and pelvis
+* () Injury of nerves and lumbar spinal cord at abdomen, lower back and pelvis level
+
+* () Injury of blood vessels at abdomen, lower back and pelvis level
+** () Injury of abdominal aorta
+** () Injury of inferior vena cava
+** () Injury of coeliac or mesenteric artery
+** () Injury of portal or splenic vein
+** () Injury of renal blood vessels
+** () Injury of iliac blood vessels
+** () Injury of multiple blood vessels at abdomen, lower back and pelvis level
+** () Injury of other blood vessels at abdomen, lower back and pelvis level
+** () Injury of unspecified blood vessel at abdomen, lower back and pelvis level
+
+* () Injury of intra-organs
+** () Injury of spleen
+*** Ruptured spleen
+* () Injury of pelvic and urinary organs
+* () Crushing injury and traumatic amputation of part of abdomen, lower back and pelvis
+* () Other and unspecified injuries of abdomen, lower back and pelvis
+
+=== (S40-S49) shoulder and upper arm ===
+* () Superficial injury of shoulder and upper arm
+* () Open wound of shoulder and upper arm
+
+* () Fracture of shoulder and upper arm
+** () Fracture of clavicle
+** () Fracture of scapula
+** () Fracture of upper end of humerus
+** () Fracture of shaft of humerus
+** () Fracture of lower end of humerus
+** () Multiple fractures of clavicle, scapula and humerus
+** () Fracture of other parts of shoulder and upper arm
+** () Fracture of shoulder girdle, part unspecified
+
+* () Dislocation, sprain and strain of joints and ligaments of shoulder girdle
+** () Dislocation of shoulder joint
+** () Dislocation of acromioclavicular joint
+** () Dislocation of sternoclavicular joint
+** () Dislocation of other and unspecified parts of shoulder girdle
+** () Sprain and strain of shoulder joint
+** () Sprain and strain of acromioclavicular joint
+** () strain of sternoclavicular joint
+** () strain of other and unspecified parts of shoulder girdle
+
+* () Injury of nerves at shoulder and upper arm level
+** () Injury of ulnar nerve at upper arm level
+** () Injury of median nerve at upper arm level
+** () Injury of radial nerve at upper arm level
+** () Injury of axillary nerve
+** () Injury of musculocutaneous nerve
+** () Injury of cutaneous sensory nerve at shoulder and upper arm level
+** () Injury of multiple nerves at shoulder and upper arm level
+** () Injury of other nerves at shoulder and upper arm level
+** () Injury of unspecified nerve at shoulder and upper arm level
+
+* () Injury of blood vessels at shoulder and upper arm level
+
+* () Injury of muscle and tendon at shoulder and upper arm level
+** () Injury of tendon of the rotator cuff of shoulder
+*** Rotator cuff tear
+** () Injury of muscle and tendon of long head of biceps
+** () Injury of muscle and tendon of other parts of biceps
+** () Injury of muscle and tendon of triceps
+** () Injury of multiple muscles and tendons at shoulder and upper arm level
+** () Injury of other muscles and tendons at shoulder and upper arm level
+** () Injury of unspecified muscle and tendon at shoulder and upper arm level
+
+* () Crushing injury of shoulder and upper arm
+* () Traumatic amputation of shoulder and upper arm
+* () Other and unspecified injuries of shoulder and upper arm
+
+=== (S50-S59) elbow and forearm ===
+* () Superficial injury of forearm
+* () Open wound of forearm
+
+* () Fracture of forearm
+** () Fracture of upper end of ulna
+*** Monteggia's fracture-dislocation
+** () Fracture of upper end of radius
+** () Fracture of shaft of ulna
+** () Fracture of shaft of radius
+*** Galeazzi fracture
+** () Fracture of shafts of both ulna and radius
+** () Fracture of lower end of radius
+*** Colles' fracture
+*** Smith's fracture
+** () Fracture of lower end of both ulna and radius
+** () Multiple fractures of forearm
+** () Fracture of other parts of forearm
+** () Fracture of forearm, part unspecified
+
+* () strain of elbow
+** () Dislocation of radial head
+** () Dislocation of elbow, unspecified
+** () Traumatic rupture of radial collateral ligament
+** () Traumatic rupture of ulnar collateral ligament
+** () strain of elbow
+
+* () Injury of nerves at forearm level
+** () Injury of ulnar nerve at forearm level
+** () Injury of median nerve at forearm level
+** () Injury of radial nerve at forearm level
+** () Injury of cutaneous sensory nerve at forearm level
+** () Injury of multiple nerves at forearm level
+** () Injury of other nerves at forearm level
+** () Injury of unspecified nerve at forearm level
+
+* () Injury of blood vessels at forearm level
+* () Injury of muscle and tendon at forearm level
+* () Crushing injury of forearm
+* () Traumatic amputation of forearm
+* () Other and unspecified injuries of forearm
+
+=== (S60-S69) wrist and hand ===
+* () Superficial injury of wrist and hand
+* () Open wound of wrist and hand
+* () Fracture at wrist and hand level
+** () Fracture of navicular (scaphoid) bone of hand
+** () Fracture of other carpal bone(s)
+** () Fracture of first metacarpal bone
+*** Bennett's fracture
+** () Fracture of other metacarpal bone
+** () Multiple fractures of metacarpal bones
+** () Fracture of thumb
+** () Fracture of other finger
+** () Multiple fractures of fingers
+** () Fracture of other and unspecified parts of wrist and hand
+
+* () strain of joints and ligaments at wrist and hand level
+
+* () Injury of nerves at wrist and hand level
+** () Injury of ulnar nerve at wrist and hand level
+** () Injury of median nerve at wrist and hand level
+** () Injury of radial nerve at wrist and hand level
+** () Injury of digital nerve of thumb
+** () Injury of digital nerve of other finger
+** () Injury of multiple nerves at wrist and hand level
+** () Injury of other nerves at wrist and hand level
+** () Injury of unspecified nerve at wrist and hand level
+
+* () Injury of blood vessels at wrist and hand level
+* () Injury of muscle and tendon at wrist and hand level
+* () Crushing injury of wrist and hand
+* () Traumatic amputation of wrist and hand
+* () Other and unspecified injuries of wrist and hand
+
+=== (S70-S79) hip and thigh ===
+* () Superficial injury of hip and thigh
+* () Open wound of hip and thigh
+
+* () Fracture of femur
+** () Fracture of neck of femur
+*** Fracture of hip NOS
+** () Pertrochanteric fracture
+** () Subtrochanteric fracture
+** () Fracture of shaft of femur
+** () Fracture of lower end of femur
+** () Multiple fractures of femur
+** () Fractures of other parts of femur
+** () Fracture of femur, part unspecified
+
+__NOTOC__
+__NOEDITSECTION__
+
+{| class="wikitable" width="100%"
+|-
+!colspan=4 align=center style="background:#003333; height:30px;"|<div style="color:#CC9933; font-size:125%">Класс XIX. Травмы, отравления и некоторые другие последствия воздействия внешних причин</div>
+|-
+|
+=== S00—S09 ===
+|colspan=3|'''Травмы головы'''
+
+|-
+|
+=== S10—S19 ===
+|colspan=3|'''Травмы шеи'''
+
+|-
+|
+=== S20—S29 ===
+|colspan=3|'''Травмы грудной клетки'''
+
+|-
+|
+=== S30—S39 ===
+|colspan=3|'''Травмы живота, нижней части спины, поясничного отдела позвоночника и таза'''
+
+|-
+|
+=== S40—S49 ===
+|colspan=3|'''Травмы плечевого пояса и плеча'''
+
+|-
+|
+=== S50—S59 ===
+|colspan=3|'''Травмы локтя и предплечья'''
+
+|-
+|
+=== S60—S69 ===
+|colspan=3|'''Травмы запястья и кисти'''
+
+|-
+|
+=== S70—S79 ===
+|colspan=3|'''Травмы области тазобедренного сустава и бедра'''
+
+|-
+|
+=== S80—S89 ===
+|colspan=3|'''Травмы колена и голени'''
+
+|-
+|
+=== S90—S99 ===
+|colspan=3|'''Травмы области голеностопного сустава и стопы'''
+
+|-
+|
+=== T00—T07 ===
+|colspan=3|'''Травмы, захватывающие несколько областей тела'''
+
+|-
+|
+=== T08—T14 ===
+|colspan=3|'''Травмы неуточненной части туловища, конечности или области тела'''

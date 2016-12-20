@@ -1,0 +1,71 @@
+'''Encrypting File System''' atau '''EFS''' adalah sebuah teknologi inti dalam Windows XP Professional, atau terenkripsi dalam sebuah volume yang diformat dengan menggunakan sistem berkas NTFS. 
+
+Mekanisme pengamanan data dengan menggunakan izin akses NTFS memang dapat melindungi berkas dari akses pihak-pihak yang tidak berhak ketika sistem operasi berjalan, tapi dapat dengan mudah dikelabui jika seorang penyerang memperoleh akses fisik terhadap komputer. Salah satu solusinya adalah dengan menyimpannya secara terenkripsi di dalam media penyimpanan. Microsoft mengimplementasikan hal serupa agar mengamankan berkas para pengguna Windows (versi-versi khusus, lihat di bawah), yakni dengan menggunakan gabungan kriptografi kunci rahasia dengan kriptografi kunci publik. EFS memperkuat sistem keamanan berkas NTFS yang sebelumnya hanya berkisar pada izin akses NTFS saja, dengan beberapa teknologi exhaustive key search'' untuk mencari ''password'' milik pengguna. Dengan kata lain, EFS tidak akan memberikan proteksi terhadap berkas, jika memang password milik pengguna gampang ditebak.
+
+== Versi Windows yang mendukung EFS ==
+* Keluarga Windows 2000: Windows 2000 Professional, Windows 2000 Server, Windows 2000 Advanced Server, dan Windows 2000 Datacenter Server
+* Keluarga Windows XP: Windows XP Professional, Windows XP Professional 64-bit Edition, Windows XP Professional x64 Edition, dan Windows XP Professional for Legacy PC. Windows XP Home Edition, Windows XP Starter Edition tidak mendukung penggunaan EFS.
+* Keluarga Windows Server 2003: Windows Server 2003 Standard Edition, Windows Server 2003 Enterprise Edition, Windows Server 2003 Datacenter Edition, Windows Server 2003 Web Edition, Windows Server 2003 Small Business Server, Windows Server 2003 R2.
+* Keluarga Windows Vista: Windows Vista Business Edition, Windows Vista Enterprise Edition, Windows Vista Ultimate Editon. Windows Vista Ultimate Edition dan Windows Vista Enterprise juga menawarkan enkripsi terhadap keseluruhan drive, yang disebut dengan BitLocker Drive Encryption.
+* Keluarga Windows Server codenamed ''Longhorn'': Longhorn (semua versi beta, hingga bulan April 2007, mencapai versi Beta 3). BitLocker Drive Encryption juga disertakan di dalamnya.
+
+Sistem-sistem operasi di atas dapat menggunakan EFS jika dan hanya jika format sistem berkas media penyimpanan yang digunakan adalah NTFS. FAT16, FAT32 atau sistem berkas lainnya tidak dapat mendukung EFS.
+
+== Algoritma kriptografi yang digunakan ==
+EFS menggunakan beberapa algoritma kriptografi, yakni sebagai berikut:
+* Data Encryption Standard eXtended (DESX), yang digunakan pada Windows 2000 Professional, Windows 2000 Server, Windows 2000 Advanced Server, serta Windows 2000 Datacenter Server. Panjang kunci yang digunakan adalah 56 bit.
+* Triple Data Encryption Standard (3DES), yang digunakan pada Windows 2000, Windows XP Professional, Windows Server 2003, dan Windows Vista. Panjang kunci yang digunakan adalah 112 bit, 168 bit atau 192 bit. Secara default tidak aktif, tapi dapat diaktifkan dengan menggunakan Group Policy atau menyunting ''registry'' pada:
+ Alamat Kunci: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\EFS\
+ Nama value: AlgorithmID
+ Nilai value: 0x6603
+* Advanced Encryption Standard (AES), yang digunakan pada Windows XP Service Pack 1, Windows Server 2003 dan Windows Vista. Panjang kunci ''default'' yang digunakan adalah 256 bit.
+* Rivest, Shamir, Adleman (RSA), yang digunakan sebagai pengaman untuk kunci-kunci simetrik di atas. Panjang kunci yang digunakan adalah 1024 bit. Ini juga menjadi sebab mengapa EFS dapat diimplementasikan sebagai anggota Public Key Infrastructure (PKI).
+
+== Cara kerja ==
+Berkas dan direktori yang akan dienkripsi oleh sistem berkas harus ditandai dengan atribut sistem khusus enkripsi. Seperti halnya izin akses berkas dalam NTFS, yang memberlakukan atribut terhadap objek-objek anak (berkas dan subdirektori) secara ''default'', hal tersebut juga terjadi dalam rangka enkripsi atau dekripsi EFS.
+
+The '''Encrypting File System''' (EFS) is a file system driver that provides Windows (2000 and later) operating systems, except Windows XP Home Edition, Windows Vista Basic, and Windows Vista Home Premium.  The technology enables files to be transparently encrypted on NTFS file systems to protect confidential data from attackers with physical access to the computer.
+
+User encrypted on the disks of the computer. EFS does this using public key cryptography, and aims to ensure that decrypting the files is extremely difficult without the correct key. However, EFS is in practice susceptible to brute-force attacks against the user account passwords. In other words, encryption of files is only as strong as the password to unlock the decryption key.
+
+==Operation==
+right|400px
+EFS works by encrypting a file with a bulk symmetric key, also known as the File Encryption Key, or FEK. It uses a symmetric encryption algorithm because it takes a relatively smaller amount of time to encrypt and decrypt large amounts of data than if an asymmetric key cipher is used.  The symmetric encryption algorithm used will vary depending on the version and configuration of the operating system; see #Algorithms Used by Operating System Version below.  The FEK (the symmetric key that is used to encrypt the file) is then encrypted with a public key that is associated with the user who encrypted the file, and this encrypted FEK is stored in the $EFS alternate data stream of the encrypted file. To decrypt the file, the EFS component driver uses the private key that matches the EFS digital certificate (used to encrypt the file) to decrypt the symmetric key that is stored in the $EFS stream. The EFS component driver then uses the symmetric key to decrypt the file. Because the encryption & decryption operations are performed at a layer below NTFS, it is transparent to the user and all their applications.
+
+Folders whose contents are to be encrypted by the file system are marked with an encryption attribute. The EFS component driver treats this encryption attribute in a way that is analogous to the inheritance of file permissions in NTFS: if a folder is marked for encryption, then by default all files and subfolders that are created under the folder are also encrypted.  When encrypted files are moved within an NTFS volume, the files remain encrypted.  However, there are a number of occasions in which the file could be decrypted without the user explicitly asking Windows to do so.
+
+Files and folders are decrypted before being copied to a volume formatted with another file system, like FAT32. Finally, when encrypted files are copied over the network using the SMB/CIFS protocol, the files are decrypted before they are sent over the network.
+
+The most significant way of preventing the decryption-on-copy is using backup applications that are aware of the "Raw" APIs.  Backup applications that have implemented these [http://msdn2.microsoft.com/en-us/library/aa363783.aspx Raw APIs] will simply copy the encrypted file stream and the $EFS alternate data stream as a single file.  In other words, the files are "copied" (e.g. into the backup file) in encrypted form, and are not decrypted during backup.
+
+Starting with Windows Vista, a user's private key can be stored on a smart card; Data Recovery Agent (DRA) keys can also be stored on a smart card.<ref>{{cite web
+|url=http://www.microsoft.com/technet/technetmag/issues/2006/05/FirstLook/
+|title=First Look: New Security Features in Windows Vista
+|author=Chris Corio
+|date=May 2006
+|accessdate=2006-11-06
+|work=TechNet Magazine
+|publisher=Microsoft
+}}</ref>
+
+==Security==
+There are two significant security vulnerabilities in Windows 2000 EFS.
+
+===Decrypting files using the local Administrator account===
+
+In Windows 2000, the local administrator is the default Data Recovery Agent, capable of decrypting all files encrypted with EFS by any local user. 
+EFS in Windows 2000 cannot function without a recovery agent, so there is always someone who can decrypt encrypted files of the users.  Any non-domain-joined Windows 2000 computer will be susceptible to unauthorized EFS decryption by anyone who can take over the local Administrator account, which is trivial given many tools available freely on the Internet.<ref name="ntpasswd">[http://home.eunet.no/pnordahl/ntpasswd/ ntpasswd, available since 1997]</ref>
+
+In Windows XP and later, there is no default local Data Recovery Agent and no requirement to have one. Setting SAM file, are encrypted with the Syskey, and the Syskey value is not available to an offline attacker who does not possess the Syskey passphrase/floppy.
+
+===Accessing private key via password reset===
+
+In Windows 2000, the user's RSA private key is not only stored in a ''truly'' encrypted form, but there is also a backup of the user's RSA private key that is more weakly protected. If an attacker gains physical access to the Windows 2000 computer and resets a local user account's password<ref name="ntpasswd" />, the attacker can log in as that user (or recovery agent) and gain access to the RSA private key which can decrypt all files.  This is because the backup of the user's RSA private key is encrypted with an LSA secret, which is accessible to any attacker who can elevate their login to LocalSystem (again, trivial given numerous tools on the Internet).
+
+In Windows XP and beyond, the user's RSA private key is backed up using an offline public key whose matching private key is stored in one of two places: the password reset disk (if Windows XP is not a member of a domain) or in the Active Directory (if Windows XP is a member of a domain).  This means that an attacker who can authenticate to Windows XP as LocalSystem still does not have access to a decryption key stored on the PC's hard drive.
+
+In Windows 2000, XP or later, the user's RSA private key is encrypted using a hash of the user's NTLM password hash plus the user name - use of a salted hash makes it extremely difficult to reverse the process and recover the private key without knowing the user's passphrase. Also, again, setting Syskey to mode 2 or 3 (Syskey typed in during bootup or stored on a floppy disk) will mitigate this attack, since the local user's password hash will be stored encrypted in the SAM file,
+
+===Other issues===
+
+Windows can store plaintext versions of user account passphrases, though this is no longer default behaviour; it also can and will store, by default, the local user account passphrases in LM hash, which can be attacked and broken relatively easily. It also stores local user account passphrases as registry). Further, using local user account passphrases over 14 characters long prevents Windows from storing an LM hash in the SAM - and has the added benefit of making brute-force attacks against the NTLM hash harder. Of course, if you consider the fact that EFS uses AES to encrypt files, you should use proper passphrase lengths (over 20 characters long) to achieve equivalent strength against brute-force attacks.

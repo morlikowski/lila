@@ -1,0 +1,64 @@
+mini|desno|200p|AGP se nalazi na matičnoj ploči
+'''Accelerated Graphics Port''' (AGP) je ubrzana grafičke kartice (pošto one inače zahtjevaju veću propusnost podataka) koja se nalazi matičnoj ploči. Napravio ju je računarskih igara i ostalih zahtjevnih aplikacija, omogućava direktnu komunikaciju između karte i memorije. Od postanka bilo je više revizija AGP standarda:
+
+*AGP 1x (264 Mb/s)
+*AGP 2x (528 Mb/s)
+*AGP 4x (1 Gb/s)
+*AGP 8x (2 Gb/s)
+
+PCI Express je trenutno standard za novije grafičke kartice. AGP se uprkos tome još uvijek zadržao, te se grafičke kartice za tu sabirnicu još uvijek proizvode, no u mnogo manjim količinama.
+
+== Vanjski linkovi ==
+* [http://web.archive.org/web/20040205095311/http://www.gcsextreme.com/agpfaq.htm  Informacije o AGP-u]
+* [http://pinouts.ru/Slots/agp_pinout.shtml Prikaz AGP nožica]
+* [http://www.motherboards.org/articles/tech-planations/920_4.html AGP utori]
+* [http://www.playtool.com/pages/agpcompat/agp.html AGP kompatibilnost] (sa slikama)
+
+{{Infobox Computer Hardware Bus
+| name        = AGP
+| fullname    = Accelerated Graphics Port
+| image       = AGP_slot.jpg
+| caption     = An AGP slot (having maroon color) and two PCI slots
+| invent-date = 1997
+| invent-name = Intel
+| super-name  = PCI Express
+| super-date  = 2004
+| width       = 32
+| style       = p
+| numdev      = 1 device/slot
+| speed       = up to 2133 MB/s
+}}
+The '''Accelerated Graphics Port''' (also called '''Advanced Graphics Port''', often shortened to '''AGP''') is a high-speed point-to-point channel for attaching a graphics card to a computer's motherboard, primarily to assist in the acceleration of 3D computer graphics. Since 2004, AGP is being progressively phased out in favor of PCI Express. However, as of 2007 new AGP cards and motherboards are still available for purchase, though OEM driver support is minimal. <ref>[http://news.softpedia.com/news/AGP-Almost-at-the-End-of-the-Road-87316.shtml AGP almost at the end, Softpedia]</ref>
+
+==Advantages over PCI==
+As computers became increasingly graphically oriented, successive generations of graphics adapters began to push the limits of PCI, a bus with shared bandwidth. This led to the development of AGP, a "bus" dedicated to graphics adapters. 
+
+For the needs of modern graphics adapters, AGP is superior to PCI because it provides a dedicated pathway between the slot and the processor rather than sharing the PCI bus, allowing for faster communication. AGP also uses sideband addressing, meaning that the address and buses which allow the graphics controller to issue new AGP requests and commands at the same time with other AGP data flowing via the main 32 address/data (AD) lines. This results in improved overall AGP data throughput. 
+
+In addition, to load a texture, a PCI graphics card must copy it from the system's RAM into the card's texture storage, allowing the graphics card to access them directly.<ref>[http://www.sysopt.com/features/mboard/article.php/3549951 What is AGP?], SysOpt, September 19, 2003.</ref> The maximum amount of system memory available to AGP is defined as the AGP aperture.
+
+The two main reasons graphics cards with the PCI interface are still produced are that, first, they can be used in nearly any PC; because while some motherboards with built-in graphics adapters lack an AGP slot, few, if any, modern desktop PCs lack PCI slots. Secondly, a user with an appropriate HP AlphaServer GS1280 has up to 16 AGP slots, the AlphaServer ES80 up to 4 AGP slots, and the AlphaServer ES47 up to 2 AGP slots.
+
+==History==
+The AGP slot first appeared on x86 compatible system boards based on Socket 7 Pentium and Slot 1 Pentium II processors. Intel introduced AGP support with the i440LX Slot 1 chipset in mid-October 1997 and a flood of products followed from all the major system board vendors.<ref name=Intel440LXdata>[http://www.intel.com/design/chipsets/datashts/290564.htm Intel 440LX AGPset], Intel, accessed October 18, 2007.</ref>
+
+The first Socket 7 chipsets to support AGP were the VIA Apollo VP3, SiS 5591/5592, and the ALI Aladdin V. Intel never released an AGP-equipped Socket 7 chipset. FIC demonstrated the first Socket 7 AGP system board in November 1997 as the ''FIC PA-2012'' based on the VIA Apollo VP3 chipset, followed very quickly by the ''EPoX P55-VP3'' also based on the VIA VP3 chipset which was first to market.<ref>Lal Shimpi, Anand. [http://www.anandtech.com/showdoc.aspx?i=155&p=1 Chipset Guide (Socket 7)], Anandtech, August 1, 1997.</ref>
+
+Early video chipsets featuring AGP support included the Rendition Vérité V2200, Voodoo Banshee, Intel i740, ATI Rage series, S3 ViRGE GX/2. Some early AGP boards used graphics processors built around PCI and were simply bridged to AGP. This resulted in the cards benefiting little from the new bus, with the only improvement used being the 66 MHz bus clock, with its resulting doubled bandwidth over PCI, and bus exclusivity. Examples of such cards were the Voodoo Banshee, Vérité V2200, Millennium II, and S3 ViRGE GX/2. Intel's i740 was explicitly designed to exploit the new AGP feature set. In fact it was designed to texture only from AGP memory, making PCI versions of the board difficult to implement (local board RAM had to emulate AGP memory.)
+
+Microsoft first introduced AGP support into ''Windows 95 OEM Service Release 2'' (OSR2 version 1111 or 950B) via the ''USB SUPPLEMENT to OSR2'' patch.<ref>[http://www.computerhope.com/issues/ch000145.htm Which version of Windows 95 supports AGP?], ComputerHope, accessed October 18, 2007.</ref> After applying the patch the Windows 95 system became ''Windows 95 version 4.00.950 B''. The first Windows NT-based operating system to receive AGP support was Windows NT 4.0 with service pack 3, introduced in 1997. Linux support for AGP enhanced fast data transfers was first added in 1999 with the implementation of the AGPgart kernel module.
+
+==Versions of AGP==
+Intel released the first version of AGP; appropriately titled “AGP specification 1.0,” in 1997.<ref>[http://www.playtool.com/pages/agpcompat/agp10.pdf Accelerated Graphics Port Interface Specification Rev. 1.0], Intel, accessed October 18, 2007.</ref> It included both the 1x and 2x speeds.<ref name=Intel440LXdata />  Specification 2.0 documented AGP 4X and 3.0 documented 8X.<ref>[http://www.smartcomputing.com/editorial/article.asp?article=articles/archive/g0801/35x01/04g01.asp AGP 4X: Faster Data Transfer & Better-Quality Images], Smart Computing, January 2000.</ref><ref>[http://download.intel.com/support/motherboards/desktop/sb/agp30.pdf AGP 3.0 Specification], Intel, accessed October 18, 2007.</ref> Available versions include:
+
+;AGP 1x: A MHz resulting in a maximum data rate of 266 PCI bus 33 MHz / 32-bit; 3.3 V signaling.
+;AGP 2x: A 32-bit channel operating at 66 MHz double pumped to an effective 133 MHz resulting in a maximum data rate of 533 MB/s; signaling voltages the same as AGP 1x;
+;AGP 4x: A 32-bit channel operating at 66 MHz quad pumped to an effective 266 MHz resulting in a maximum data rate of 1066 MB/s (1 GB/s); 1.5 V signaling;
+;AGP 8x: A 32-bit channel operating at 66 MHz, strobing eight times per clock, delivering an effective 533 MHz resulting in a maximum data rate of 2133 MB/s (2 GB/s); 0.8 V signaling.
+
+There are various physical interfaces (i.e. shape of slots), as explained in the '''Compatibility''' section below.
+
+AGP version 3.5 is only publicly mentioned by Microsoft under ''Universal Accelerated Graphics Port (UAGP)'', which specifies mandatory supports of extra registers once marked optional under AGP 3.0. Upgraded registers include PCISTS, CAPPTR, NCAPID, AGPSTAT, AGPCMD, NISTAT, NICMD. New required registers include APBASELO, APBASEHI, AGPCTRL, APSIZE, NEPG, GARTLO, GARTHI.
+
+===Variations===
+A number of non-standard variations of the AGP interface have been produced by manufacturers.

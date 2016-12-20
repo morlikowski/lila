@@ -1,0 +1,61 @@
+{{Infobox Software
+| name                   = UltraISO 
+| logo                   = 
+| screenshot             = 250px
+| caption                = A screenshot of UltraISO.
+| developer              = EZB Systems
+| released               = 
+| latest release version = 9.2.0.2536
+| latest release date    = 
+| programming language   = ?
+| operating system       = Windows
+| language               = [http://www.ezbsystems.com/ultraiso/download.htm 37 languages]
+| genre                  = CD/DVD Image Editor
+| license                = Shareware ($29.95 USD)
+| website                = [http://www.ezbsystems.com/ultraiso/ www.ezbsystems.com/ultraiso/]
+}}
+'''UltraISO''' is an application for CD and DVD authoring.  
+
+Since the first release of UltraISO on April 20th 2002, its author EZB Systems has maintained and kept the product shareware and continues doing so.
+
+== Features ==
+* Duplicate CDs and DVDs to an ISO image.
+* Create ISO images from files located on a CD/DVD-ROM or hard disk. 
+* Edit existing ISO files by adding, deleting, and creating files and folders.
+* Create compressed zisofs (.ISZ) images
+* Create floppy images.
+* Converts: .BIN, .IMG, .CIF, .NRG, .BWI and other formats to the standard ISO image.
+* Supports all ISO 9660 levels and the Joliet extension.
+* Optimization of ISO image file structures to save disc space.
+* Capable of mounting ISOs to a virtual drive.
+* Create checksums for data verification of ISOs.
+* Multiple language support.
+* Built in digital audio player.
+* Free version only allows creation of ISOs of 300 Megabytes or smaller.
+* Supports UDF disc format.
+
+== See also ==
+* Disk image emulator
+* List of CD/DVD burning software
+* List of ISO image software
+
+{{Карточка программы
+  |name=UltraISO
+  |screenshot=
+240px
+  |caption=Скриншот программы
+  |developer=EZB Systems
+  |latest_release_version=9.2.0.2536
+  |latest_release_date=<br />26 мая 2008 года
+  |operating_system=Windows
+  |genre=Работа с CD и DVD
+  |license=Shareware
+  |website=[http://www.ezbsystems.com/ultraiso/ www.ezbsystems.com/ultraiso/]
+}}
+'''UltraISO''' — программа для ОС Windows основной функцией которой является создание, редактирование и конвертирование различных форматов CD и образов. Программа также позволяет эмулировать и записывать компакт-диски и DVD. Программа является платной, бесплатная версия не позволяет работать с образами размером более чем 300 Мб.
+
+Поддерживает свыше 30-ти форматов CD/DVD образов: *.iso, *.bin, *.cue, *.nrg, *.mdf, *.mds, *.img, *.ccd (включая CD-TEXT), *.sub, *.ima, *.bwi, *.bwt, *.b5t, *.b5i, *.b6t, *.b6i, *.lcd, *.icf, *.pxi, *.vc4, *.000, *.cdi, *.tao, *.dao; ISO-образы с компрессией *.isz (свой формат), *.dmg, *.daa (PowerISO), *.uif (MagicISO); многотомные образы. Может генерировать файлы контрольных сумм *.sfv.
+
+Поддерживает запись на носители RW, RW, RW, DVD-R/+R DL и DVD-RAM.
+
+Программный интерфейс переведён на 37 языков, включая русский и украинский языки.

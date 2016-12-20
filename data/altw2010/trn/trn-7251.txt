@@ -1,0 +1,98 @@
+{{infobox Franse gemeente|
+|plaatsnaam= Onard
+|wapen= 
+|kaart= 
+|regio= Aquitanië 
+|departement= Landes (40)
+|arrondissement= Dax
+|kanton= Montfort-en-Chalosse
+|jaar= 1999
+|inwoners= 296
+|dichtheid= 48,5
+|oppervlakte= 6,1
+|water= 
+|latitudeGraden= 43 |latitudeMinuten= 47|latitudeSeconden= 0
+|longitudeGraden= 0 |longitudeMinuten= 50 |longitudeSeconden= 0
+|E of W=W |ol of wl=W.L.
+|kaartX= 89 |kaartY= 239
+|code= 40208
+|postcode= 40380
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Onard''' is een gemeente in het Franse departement Landes (regio Dax.
+
+==Geografie==
+De oppervlakte van Onard bedraagt 6,1 km², de bevolkingsdichtheid is 48,5 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:450 color:gray1 width:1       
+  from:start till:end             
+  bar:300 color:gray1              
+  from:start till:end            
+  bar:150 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,136)(84,134) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 306 1968: 303
+  points:(84,134)(100,137)    color:blue    width:2 #1975: 310
+  points:(100,137)(128,139)   color:blue    width:2 #1982: 315
+  points:(128,139)(160,143)   color:blue    width:2 #1990: 325
+  points:(160,143)(196,132)   color:blue    width:2 #1999: 296
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+==Externe links==
+*[http://www.mapquest.com/maps/map.adp?searchtype=address&formtype=latlong&latlongtype=degrees&latdeg=43&latmin=47&latsec=0&longdeg=-0&longmin=50&longsec=0&zoom=6 Locatie van de gemeente (kaart met schaal 1:100.000) op Mapquest]
+*[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=40208&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Meer statistische informatie over de gemeente op www.insee.fr] 
+
+{{FRA gmina infobox
+|   herb_gminy=
+|  flaga_gminy=
+|   mapa_gminy=
+|        Gmina=Onard
+|       region=Akwitania
+|  departament=Landes
+| powierzchnia=6,13
+|     stopniEW = 0 |minutEW=50 
+|     stopniNS = 43 |minutNS=47 
+|     wysokosc=
+|         szer=N
+|         dług=W
+|          rok=1990
+|    populacja=325
+|      gęstość=53
+| kod_pocztowy=40380
+|        INSEE=40208
+|}}
+'''Onard''' to miejscowość i gmina we Francji, w regionie Landes.
+
+Według danych na rok 1990 gminę zamieszkiwało 325 osób, a gęstość zaludnienia wynosiła 53&nbsp;osób/km² (wśród 2290 gmin Akwitanii Onard plasuje się na 856. miejscu pod względem liczby ludności, natomiast pod względem powierzchni na miejscu 1347.).
+
+=== Linki zewnętrzne ===
+* Źródło danych: [http://www.insee.fr Insee]
+* '''Mapy i zdjęcia satelitarne: '''
+** Zdjęcie satelitarne: [http://maps.google.com/maps?ll=43.78333,-0.83333&spn=0.1,0.1&t=k Google maps]
+** Mapa: [http://maps.msn.com/(cgxnej455qpgxeu5vurxtejz)/map.aspx?&lats1=43.78333&lons1=-0.83333&alts1=14&regn1=2 MSN World Atlas]

@@ -1,0 +1,89 @@
+right|thumb|288px|Plot of ''y'' = <math>\sqrt[3]{x}</math> for <math>x \ge 0</math>. Complete plot is symmetric with respect to origin, as it is an [[odd function.]]
+In real cube root and 2 complex roots, and all nonzero complex numbers have 3 distinct complex cube roots.  For example, the real cube root of 8 is 2, because 2<sup>3</sup>&nbsp;=&nbsp;8. All the cube roots of &minus;27''i'' are
+
+:<math>\sqrt[3]{-27i} = \begin{cases} 3i \\ \frac{3\sqrt3}{2}-\frac{3}{2}i \\ -\frac{3\sqrt3}{2}-\frac{3}{2}i \end{cases} </math>
+
+The cube root operation is not associative or distributive with addition or subtraction.
+
+The cube root operation is associative with distributive with division if consider only real numbers, but not always if consider complex number, for example:
+
+:<math>(\sqrt[3]{8})^3 = 8</math>
+
+but
+
+:<math>\sqrt[3]{8^3} = \begin{cases} \ \ 8 \\ -4+4\sqrt{3}i \\ -4-4\sqrt{3}i \end{cases} </math>
+
+==Formal definition==
+
+The cube roots of a number ''x'' are the numbers ''y'' which satisfy the equation
+
+:<math>y^3 = x.</math>
+
+===Real numbers===
+If ''x'' and ''y'' are real, then there is a unique solution and so the cube root of a real number is sometimes defined by this equation. If this definition is used, the cube root of a negative number is a negative number. The principal cube root of ''x'' is also represented by
+
+:<math>\sqrt[3]{x} = x^{1\over3}.</math> 
+
+If ''x'' and ''y'' are allowed to be complex, then there are three solutions (if ''x'' is non-zero) and so ''x'' has three cube roots. A real number has one real cube root and two further cube roots, which form a complex conjugate pair. This can lead to some interesting results.
+
+For instance, the cube roots of the number one are:
+
+:<math>\sqrt[3]{1} = \begin{cases} \ \ 1 \\ -\frac{1}{2}+\frac{\sqrt{3}}{2}i \\ -\frac{1}{2}-\frac{\sqrt{3}}{2}i \end{cases} </math>
+
+These two roots lead to a relationship between all roots. If a number is one cube root of any real or complex number, the other two cube roots can be found by multiplying that number by the two complex cube roots of one.
+
+===Complex numbers===
+right|thumb|350px|Plot of the complex cube root together with its two additional leaves. The first picture shows the main branch which is described in the text 
+right|thumb|200px|Riemann surface of the cube root. One can see, how all three leaves fit together
+
+For complex numbers, the principal cube root is usually defined by
+
+:<math>x^{1\over3} = \exp \left( {\ln{x}\over3} \right)</math>
+
+where ln(''x'') is the principal branch of the natural logarithm. If we write ''x'' as
+
+:<math>x = r \exp(i \theta)\,</math>
+
+where ''r'' is a non-negative real number and θ lies in the range 
+
+:<math>-\pi < \theta \le \pi</math>, 
+
+then the complex cube root is
+
+:<math>\sqrt[3]{x} = \sqrt[3]{r}\exp \left( {i\theta \over 3} \right)</math>.
+
+En puissance 3 (c'est-à-dire multiplié par lui-même trois fois) vaut ''y'' ; en d'autres termes, <math>y = x^3</math>. La racine cubique de ''y'' est notée <math>\sqrt[3]{y}</math>.
+
+Par exemple, la racine cubique de ''8'' est ''2'', car ''2 × 2 × 2 = 8''. La '''racine cubique''' tient son nom du cube : la racine cubique du volume d'un cube est la longueur des arêtes. On écrit :
+
+:<math>\sqrt[3]{8} = 2</math>
+
+Un autre exemple, la racine cubique de ''-27'' est ''-3'', car ''(-3) × (-3) × (-3) = -27''
+
+:<math>\sqrt[3]{-27} = -3</math>
+
+Une racine cubique d'un nombre complexe ''z'' est un nombre ''u'' qui élevé au cube donne ''z''; c'est-à-dire tel que <math>u^3=z</math>.
+
+Tout nombre complexe non nul admet trois racines cubiques distinctes.
+
+Formellement, la racine cubique d'un complexe) ''x'' est un réel (ou complexe) ''y'' solution de l'équation :
+: <math>y^3 = x~</math>
+
+que l'on peut également noter lorsque ''y'' est réel strictement positif avec un exposant :
+:<math>y = x^{1\over3}</math>
+
+La racine cubique est associative avec les exposants, distributive avec la multiplication et la division, mais pas avec l'addition ou la soustraction.
+
+Un complexe non nul possède trois racines cubiques. Un nombre réel possède une unique racine cubique réelle, mais on peut en trouver deux autres complexes, conjuguées l'une de l'autre, si l'on se place dans le domaine complexe.
+
+Par exemple, les racines de l'unité (1) sont :
+
+:1, j=<math>{-1 + i\sqrt{3}\over2} = e^{i\frac{2\pi}{3}}</math>    et    j²=<math>{-1 - i\sqrt{3}\over2}=e^{-i\frac{2\pi}{3}}</math>.
+
+On a alors la relation: 
+1+j+j²=0
+
+Si ''R'' est une racine d'un nombre réel ou complexe, les deux autres racines peuvent être retrouvées en multipliant ''R'' par les deux racines cubiques complexes de l'unité.
+
+== Calcul facile de la racine cubique ==
+Une méthode simple permet de calculer la racine cubique d'un nombre en n'utilisant qu'une simple calculette non scientifique.

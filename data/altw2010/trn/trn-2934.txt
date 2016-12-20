@@ -1,0 +1,99 @@
+{{infobox Franse gemeente|
+|plaatsnaam= Avesnelles
+|wapen=80px
+|kaart= 
+|regio= Noord-Nauw van Calais 
+|departement= Nord (59)
+|arrondissement= Avesnes-sur-Helpe
+|kanton= Avesnes-sur-Helpe-Sud
+|jaar= 2005
+|inwoners= 2565
+|dichtheid= 202,0
+|oppervlakte= 12,7
+|water= 
+|latitudeGraden= 50 |latitudeMinuten= 7|latitudeSeconden= 0
+|longitudeGraden= 3 |longitudeMinuten= 57 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 192 |kaartY= 39
+|code= 59035
+|postcode= 59440
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Avesnelles''' is een gemeente in het Franse Avesnes-sur-Helpe.
+
+==Geografie==
+De oppervlakte van Avesnelles bedraagt 12,7 km², de bevolkingsdichtheid is 202,0 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:4500 color:gray1 width:1       
+  from:start till:end             
+  bar:3000 color:gray1              
+  from:start till:end            
+  bar:1500 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,117)(84,128) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 2564 1968: 2849
+  points:(84,128)(100,138)    color:blue    width:2 #1975: 3112
+  points:(100,138)(128,135)   color:blue    width:2 #1982: 3031
+  points:(128,135)(160,120)   color:blue    width:2 #1990: 2639
+  points:(160,120)(196,117)   color:blue    width:2 #1999: 2572
+  points:(196,117)(228,117)     color:blue    width:2 #2004/5 
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 
+
+==Externe links==
+*[http://www.mapquest.com/maps/map.adp?searchtype=address&formtype=latlong&latlongtype=degrees&latdeg=50&latmin=7&latsec=0&longdeg=3&longmin=57&longsec=0&zoom=6 Locatie van de gemeente (kaart met schaal 1:100.000) op Mapquest]
+*[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=59035&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Meer statistische informatie over de gemeente op www.insee.fr] 
+
+<!-- Il testo commentato è SOLO UN ESEMPIO -->
+ {{Comune francese|nomecomune= Avesnelles <!-- Nizza -->
+ |stemma=Blason ville fr Avesnelles (Nord).svg
+ |nomefrancese= Avesnelles <!-- Nice -->
+ |nomeregione= Nord-Passo di Calais <!-- Bretagna -->
+ |nomedipartimento= Nord <!-- Calvados -->
+ |arrondissement= Avesnes-sur-Helpe
+ |cantone= Avesnes-sur-Helpe-Sud
+ |latitudine= 50° 7' N <!-- 37° 54' N -->
+ |longitudine= 3° 57' E <!-- 12° 30' E -->
+ |altitudine= &nbsp; <!-- 187 -->
+ |superficie= 12,69 <!-- 1.285 -->
+ |abitanti=  2.572  <!-- 346.804 -->
+ |anno= 1999 <!-- 1999 -->
+ |densita= 202,68 <!-- 1.747,45 -->
+ |insee= 59035 <!-- 152 -->
+ |cap= 59440 <!-- 2750 -->
+ |sito= &nbsp; <!-- http://www.fontainebleau.fr/-->
+ |mappaX= 192
+ |mappaY= 39
+ }} <!-- fine della tabella - per la compilazione vedi -> Aiuto:Comune francese-->
+ 
+'''Avesnelles''' è un comune francese di 2.572 abitanti situato nel dipartimento del Nord nella regione del Nord-Passo di Calais.
+
+==Evoluzione demografica==
+
+Avesnelles
+Avesnelles

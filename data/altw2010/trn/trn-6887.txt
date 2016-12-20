@@ -1,0 +1,195 @@
+thumb|
+'''Fermentas''' – baltyminis organizme vykstančias chemines reagentai ar biocheminiai rodikliai diagnozei nustatyti. 
+
+== Fermento veikimo mechanizmas ==
+thumbnail|480px|Fermento veikimo mechanizmas
+thumb|right|290px|Schematiškai pavaizduotas fermento aktyvus centras.
+</br clear=all>
+Fermentas sąveikauja su substratu (ar substratais), pakeičia jo struktūrą, t.y., substratą verčia į produktą. Fermentinė reakcija vyksta tik tam tikroje fermento dalyje – aktyviajame centre, kurį sudaro formuojantis tretinei baltymo struktūrai iš skirtingų baltymo molekulės vietų suartėjusios aminorūgščių liekanos. Aktyvus centras turi substrato jungimo ir katalizinę sritis. 
+
+Yra pasiūlyti modeliai, aiškinantys, kaip fermentas savo aktyviajame centre sąveikauja su substrato molekule. „Spynos ir rakto“ modelis teigia, kad fermento ir jo substrato sąveika galima tik tuomet, kai substratas atitinka aktyvų centrą taip, kaip raktas spyną. Kitas biokatalizės mechanizmus aiškinantis modelis teigia, kad sąveikaujant substratui su aktyviuoju centru, gali keistis arba substrato, arba aktyviojo centro, arba abiejų erdvinės struktūros taip, kad būtų palankiausia struktūta substrato molekulę pakreipti katalizinių grupių link. 
+Prie fermento baltyminės dalies (''apofermento''), kad jis galėtų atlikti savo funkcijas, aktyvajame centre prijungiama nebaltyminė dalis – ''kofaktorius''. Susijungę apofermentas ir kofermentas sudaro funkcionalią strukūrą, vadinamą ''holofermentu''.
+
+== Fermentų klasifikacija ==
+Fermentai pagal katalizuojamos reakcijos tipą skirstomi į 6 klases (lentelė). Literatūroje dažnai sutinkami darbiniai (trivialieji) fermentų pavadinimai, kurie sudaromi prie substrato ar katalizuojamos reakcijos pavadinimo pridedant galūnę ''-azė'' (''alkoholdehidrogenazė'', ''karboksipeptidazė'')
+ 
+{| border="1"  cellspacing="0" cellpadding="3" style="border:1px solid #808080; border-collapse: collapse;"
+|----- bgcolor="#C0C0C0"
+!Klasė!!Katalizuojama reakcija!!Reakcijos pavyzdys!!Poklasiai
+|----- valign="top"
+| bgcolor="#E0E0E0" |  1 <br>Oksidoreduktazės
+| Katalizuoja oksidacijos – redukcijos procesus. Iš oksiduojamo substrato paimtus elektronus perduoda redukuojamam
+| AH + B → A + BH (<small>'''<font color="0020a0">redukuota forma</font>'''</small>)<br> A + O → AO (<small>'''<font color="0020a0">oksiduota forma</font>'''</small>)
+| Dehidrogenazės, peroksidazės ir reduktazės ir kt.
+|----- valign="top"
+| bgcolor="#E0E0E0" |  2 <br>Transferazės
+| Katalizuoja funkcinių grupių (metil-, acil-, amino- ar fosfatinės grupių) pernašą nuo vienos molekulės prie kitos arba nuo vienos molekulės dalies į kitą tos pačios molekulės dalį.
+| AB + C → A + BC
+| Aciltransferazės, metiltrasferazės, kinazės ir kt.
+|----- valign="top"
+| bgcolor="#E0E0E0" |  3 <br>Hidrolazės
+| Katalizuoja cheminių ryšių (C-O, C-N, C-S) skaidymą dalyvaujant vandeniui.
+| AB + H<sub>2</sub>O → AOH + BH
+| Esterazės ir kt.
+|----- valign="top"
+| bgcolor="#E0E0E0" |  4 <br>Liazės
+| Nedalyvaujant vandeniui skaido ryšius tarp substrato atomų (C-C, C-N, C-O ar C-S), gali sudaryti naujus dvigubus ryšius suskaidyto ryšio vietoje.
+| RCOCOOH → RCOH + CO<sub>2</sub>
+|Dekarboksilazės, dehidratazės ir kt.
+|----- valign="top"
+| bgcolor="#E0E0E0" |  5 <br>Izomerazės
+| Katalizuoja tos pačios molekulės vidumolekulinį persigrupavimą.
+| AB → BA || valign="top" | Mutazės, racemazės ir kt.
+|----- valign="top"
+| bgcolor="#E0E0E0" |  6 <br>Ligazės
+| Naudodami ATP hidrolizės metu išsiskiriančią energiją, katalizuoja C-O, C-S, C-N ar C-C kovalentinių ryšių susidarymą.
+| X + Y+ ATP → XY + ADP + Pi
+| Sintetazė
+|}
+
+== Fermentų savybės ==
+
+Fermentai, kaip visi katalizatoriai, reakcijos metu nėra nei sunaudojami, nei pagaminami. Jie nekeičia reakcijos pusiausvyros, o tik padidina reakcijos greitį. Tik fermentams būdinga tai, kad jie sąveikauja griežtai tik su tam tikrais substratais, yra stereo specifiški. Jie yra jautrūs temperatūros, terpės pH pokyčiams.
+
+Fermentų aktyvumas yra reguliuojamas modifikuojant (pvz.: fosforilinant, metilinant), veikiant inhibitoriais (bet kuri cheminė medžiaga, mažinanti reakcijos greitį) ar aktyvatoriais, keičiant fermento kiekį (baltymai organizme po tam tikro laiko degraduojami; sintetinami tik esant induktoriui) ir kt.
+
+Fermentas yra aktyvus tik tam tikroje temperatūroje. Temperatūrai didėjant fermentas ima denatūruotis ir nebeatlieka savo funkcijos. Kylant temperatūrai reakcijos greitis didėja, nes didėja galimybė susidurti substrato ir fermento molekulėms ir jų kinetinė energija. 
+Reakcijos greitis priklauso nuo aktyvių fermentų kiekio. Jei yra pakankamai substrato ir tam tikra temperatūra ir pH tai rekcijos greitis bus proporcingas fermentų koncentracijai.
+
+== Fermentų struktūra ==
+
+thumb|150px|[[Kreatino kinazės kristalai, naudojami baltymo struktūrai nustatyti rentgeno spindulių difrakcijos būdu]]
+
+Kategorija:Biochemija
+Kategorija:Fermentai
+Kategorija:Medžiagų apykaita
+Kategorija:Maisto chemija
+
+thumb|300px|right|Human [[glyoxalase I. Two zinc ions that are needed for the enzyme to catalyze its reaction are shown as purple spheres, and an enzyme inhibitor called S-hexylglutathione is shown as a space-filling model, filling the two active sites.]]
+
+'''Enzymes''' are catalyze (''i.e.'' increase the rates of) substrates, and the enzyme converts them into different molecules, the products. Almost all processes in a biological cell need enzymes in order to occur at significant rates. Since enzymes are extremely selective for their substrates and speed up only a few reactions from among many possibilities, the set of enzymes made in a cell determines which metabolic pathways occur in that cell.
+
+Like all catalysts, enzymes work by lowering the equilibrium of these reactions. However, enzymes do differ from most other catalysts by being much more specific. Enzymes are known to catalyze about 4,000 biochemical reactions.<ref></ref> A few RNA molecules called ribozymes catalyze reactions, with an important example being some parts of the ribosome.<ref></ref><ref></ref> Synthetic molecules called artificial enzymes also display enzyme-like catalysis.<ref></ref>
+
+Enzyme activity can be affected by other molecules. Inhibitors are molecules that decrease enzyme activity; activators are molecules that increase activity. Many drugs and poisons are enzyme inhibitors. Activity is also affected by temperature, chemical environment (e.g. pH), and the concentration of substrate. Some enzymes are used commercially, for example, in the synthesis of antibiotics. In addition, some household products use enzymes to speed up biochemical reactions (''e.g.'', enzymes in biological washing powders break down protein or fat stains on clothes; enzymes in meat tenderizers break down proteins, making the meat easier to chew).
+
+== Etymology and history ==
+thumb|180px|right|[[Eduard Buchner]]
+As early as the late 1700s and early 1800s, the digestion of meat by stomach secretions<ref name="Reaumur1752"></ref> and the conversion of starch to sugars by plant extracts and saliva were known. However, the mechanism by which this occurred had not been identified.<ref>Williams, H. S. (1904) [http://etext.lib.virginia.edu/toc/modeng/public/Wil4Sci.html A History of Science: in Five Volumes. Volume IV: Modern Development of the Chemical and Biological Sciences] Harper and Brothers (New York) Accessed 4 April 2007</ref>
+
+In the 19th century, when studying the fermentation of sugar to ferments", which were thought to function only within living organisms. He wrote that "alcoholic fermentation is an act correlated with the life and organization of the yeast cells, not with the death or putrefaction of the cells."<ref></ref>
+
+In 1878 German physiologist enzyme'', which comes from Greek ''ενζυμον'' "in leaven", to describe this process. The word ''enzyme'' was used later to refer to nonliving substances such as pepsin, and the word ''ferment'' used to refer to chemical activity produced by living organisms.
+
+In 1897 University of Berlin, he found that the sugar was fermented even when there were no living yeast cells in the mixture.<ref>[http://nobelprize.org/nobel_prizes/chemistry/laureates/1907/buchner-bio.html Nobel Laureate Biography of Eduard Buchner at http://nobelprize.org] Accessed 4 April 2007</ref> He named the enzyme that brought about the fermentation of sucrose "substrate (''e.g.'', lactase is the enzyme that cleaves lactose) or the type of reaction (''e.g.'', DNA polymerase forms DNA polymers).
+
+Having shown that enzymes could function outside a living cell, the next step was to determine their biochemical nature. Many early workers noted that enzymatic activity was associated with proteins, but several scientists (such as Nobel laureate Northrop and Stanley, who worked on the digestive enzymes pepsin (1930), trypsin and chymotrypsin. These three scientists were awarded the 1946 Nobel Prize in Chemistry.<ref>[http://nobelprize.org/nobel_prizes/chemistry/laureates/1946/ 1946 Nobel prize for Chemistry laureates at http://nobelprize.org] Accessed 4 April 2007</ref>
+
+This discovery that enzymes could be crystallized eventually allowed their structures to be solved by x-ray crystallography. This was first done for lysozyme, an enzyme found in tears, saliva and egg whites that digests the coating of some bacteria; the structure was solved by a group led by David Chilton Phillips and published in 1965.<ref></ref> This high-resolution structure of lysozyme marked the beginning of the field of structural biology and the effort to understand how enzymes work at an atomic level of detail.
+
+==Structures and mechanisms==
+
+thumb|right|300px|Ribbon-diagram showing [[carbonic anhydrase|carbonic anhydrase II. The grey sphere is the zinc cofactor in the active site. Diagram drawn from [http://www.rcsb.org/pdb/explore.do?structureId=1MOO PDB 1MOO].]]
+
+Enzymes are generally globular proteins and range from just 62 amino acid residues in size, for the 4-oxalocrotonate tautomerase,<ref></ref> to over 2,500 residues in the animal three-dimensional structure.<ref></ref> Most enzymes are much larger than the substrates they act on, and only a small portion of the enzyme (around 3–4 cofactors, which are needed for catalysis. Some enzymes also have binding sites for small molecules, which are often direct or indirect products or substrates of the reaction catalyzed. This binding can serve to increase or decrease the enzyme's activity, providing a means for feedback regulation.
+
+Like all proteins, enzymes are made as long, linear chains of amino acids that fold to produce a three-dimensional product. Each unique amino acid sequence produces a specific structure, which has unique properties. Individual protein chains may sometimes group together to form a denatured—that is, unfolded and inactivated—by heating or chemical denaturants, which disrupt the three-dimensional structure of the protein. Depending on the enzyme, denaturation may be reversible or irreversible.
+
+===Specificity===
+Enzymes are usually very specific as to which reactions they catalyze and the substrates that are involved in these reactions. Complementary shape, charge and hydrophilic/hydrophobic characteristics of enzymes and substrates are responsible for this specificity. Enzymes can also show impressive levels of stereospecificity, regioselectivity and chemoselectivity.<ref></ref>
+
+Some of the enzymes showing the highest specificity and accuracy are involved in the copying and expression of the genome. These enzymes have "proof-reading" mechanisms. Here, an enzyme such as DNA polymerase catalyzes a reaction in a first step and then checks that the product is correct in a second step.<ref></ref> This two-step process results in average error rates of less than 1 error in 100 million reactions in high-fidelity mammalian polymerases.<ref>Berg J., Tymoczko J. and Stryer L. (2002) ''Biochemistry.'' W. H. Freeman and Company ISBN 0-7167-4955-6</ref> Similar proofreading mechanisms are also found in RNA polymerase,<ref></ref> aminoacyl tRNA synthetases<ref></ref> and ribosomes.<ref></ref>
+
+Some enzymes that produce secondary metabolites are described as promiscuous, as they can act on a relatively broad range of different substrates. It has been suggested that this broad substrate specificity is important for the evolution of new biosynthetic pathways.<ref></ref>
+
+===="Lock and key" model====
+Enzymes are very specific, and it was suggested by Emil Fischer in 1894 that this was because both the enzyme and the substrate possess specific complementary geometric shapes that fit exactly into one another.<ref>{{cite journal |author= Fischer E.|year= 1894|title= Einfluss der Configuration auf die Wirkung der Enzyme| journal=Ber. Dt.
+Chem. Ges.|volume=27|pages=2985–2993|url = http://gallica.bnf.fr/ark:/12148/bpt6k90736r/f364.chemindefer|doi= 10.1002/cber.18940270364 }}</ref> This is often referred to as "the lock and key" model. However, while this model explains enzyme specificity, it fails to explain the stabilization of the transition state that enzymes achieve.
+The "lock and key" model has proven inaccurate and the induced fit model is the most currently accepted enzyme-substrate-coenzyme figure.
+
+====Induced fit model====
+thumb|450px|Diagrams to show the induced fit hypothesis of enzyme action.
+In 1958 Daniel Koshland suggested a modification to the lock and key model: since enzymes are rather flexible structures, the active site is continually reshaped by interactions with the substrate as the substrate interacts with the enzyme.<ref></ref> As a result, the substrate does not simply bind to a rigid active site, the amino acid side chains which make up the active site are moulded into the precise positions that enable the enzyme to perform its catalytic function. In some cases, such as glycosidases, the substrate molecule also changes shape slightly as it enters the active site.<ref></ref> The active site continues to change until the substrate is completely bound, at which point the final shape and charge is determined.<ref></ref>
+
+===Mechanisms===
+Enzymes can act in several ways, all of which lower ΔG<sup>‡</sup>:<ref>Fersht, A (1985) ''Enzyme Structure and Mechanism'' (2nd ed) p50–52 W H Freeman & co, New York ISBN 0-7167-1615-1</ref>
+*Lowering the activation energy by creating an environment in which the transition state is stabilized (e.g. straining the shape of a substrate - by binding the transition-state conformation of the substrate/product molecules, the enzyme distorts the bound substrate(s) into their transition state form, thereby reducing the amount of energy required to complete the transition).
+*Lowering the energy of the transition state, but without distorting the substrate, by creating an environment with the opposite charge distribution to that of the transition state.
+*Providing an alternative pathway. For example, temporarily reacting with the substrate to form an intermediate ES complex, which would be impossible in the absence of the enzyme.
+*Reducing the reaction entropy change by bringing substrates together in the correct orientation to react. Considering ΔH<sup>‡</sup> alone overlooks this effect.
+
+Interestingly, this entropic effect involves destabilization of the ground state,<ref> Jencks W.P. "Catalysis in Chemistry and Enzymology." 1987, Dover, New York </ref> and its contribution to catalysis is relatively small.<ref></ref>
+
+====Transition State Stabilization====
+The understanding of the origin of the reduction of ΔG<sup>‡</sup> requires one to find out how the enzymes can stabilize its transition state more than the transition state of the uncatalyzed reaction. Apparently, the most effective way for reaching large stabilization is the use of electrostatic effects, in particular, by having a relatively fixed polar environment that is oriented toward the charge distribution of the transition state.<ref></ref> Such an environment does not exist in the uncatalyzed reaction in water.
+
+====Dynamics and function====
+Recent investigations have provided new insights into the connection between internal dynamics of enzymes and their mechanism of catalysis.<ref> Eisenmesser EZ, Bosco DA, Akke M, Kern D. ''Enzyme dynamics during catalysis.'' Science. 2002 February 22;295(5559):1520–3. PMID: 11859194 </ref><ref> Agarwal PK. ''Role of protein dynamics in reaction rate enhancement by enzymes.'' J Am Chem Soc. 2005 November 2;127(43):15248-56. PMID: 16248667</ref><ref>Eisenmesser EZ, Millet O, Labeikovsky W, Korzhnev DM, Wolf-Watz M, Bosco DA, Skalicky JJ, Kay LE, Kern D. ''Intrinsic dynamics of an enzyme underlies catalysis.'' Nature. 2005 November 3;438(7064):117-21. PMID: 16267559</ref>
+An enzyme's internal dynamics are the movement of its internal parts (''e.g.'' amino acids, a group of amino acids, a loop region, an alpha helix, neighboring beta-sheets or even an entire domain) of these proteins. These movements occur at various time-scales ranging from femtoseconds to seconds. Networks of protein residues throughout an enzyme's structure can contribute to catalysis through dynamic motions.<ref></ref><ref></ref><ref>Agarwal PK, Geist A, Gorin A. ''Protein dynamics and enzymatic catalysis: investigating the peptidyl-prolyl cis-trans isomerization activity of cyclophilin A.'' Biochemistry. 2004 August 24;43(33):10605-18. PMID: 15311922 </ref><ref></ref> Protein motions are vital to many enzymes, but whether small and fast vibrations, or larger and slower conformational movements are more important depends on the type of reaction involved. However, although these movements are important in binding and releasing substrates and products, it is not clear if protein movements help to accelerate the chemical steps in enzymatic reactions.<ref> Olsson M.H.M., Parson W.W. and Warshel A. "Dynamical Contributions to Enzyme Catalysis: Critical Tests of A Popular Hypothesis" Chem. Rev., 2006 105: 1737-1756 </ref> These new insights also have implications in understanding allosteric effects and developing new drugs.
+
+===Allosteric modulation===
+effectors. Modulation can be direct, where the effector binds directly to binding sites in the enzyme, or indirect, where the effector binds to other proteins or protein subunits that interact with the allosteric enzyme and thus influence catalytic activity.
+
+==Cofactors and coenzymes==
+
+===Cofactors===
+Some enzymes do not need any additional components to show full activity. However, others require non-protein molecules called cofactors to be bound for activity.<ref></ref> Cofactors can be either organic compounds, (e.g., NADH, NADPH and adenosine triphosphate. These molecules act to transfer chemical groups between enzymes.<ref></ref>
+
+An example of an enzyme that contains a cofactor is carbonic anhydrase, and is shown in the ribbon diagram above with a zinc cofactor bound as part of its active site.<ref></ref> These tightly-bound molecules are usually found in the active site and are involved in catalysis. For example, flavin and heme cofactors are often involved in redox reactions.
+
+Enzymes that require a cofactor but do not have one bound are called ''apoenzymes'' or ''apoproteins''. An apoenzyme together with its cofactor(s) is called a ''holoenzyme'' (this is the active form). Most cofactors are not covalently attached to an enzyme, but are very tightly bound. However, organic prosthetic groups can be covalently bound (''e.g.'', thiamine pyrophosphate in the enzyme pyruvate dehydrogenase). The term "holoenzyme" can also be applied to enzymes that contain multiple protein subunits, such as the DNA polymerases, here the holoenzyme is the complete complex containing all the subunits needed for activity.
+
+===Coenzymes===
+thumb|left|150px|[[Molecular graphics#Space-filling models|Space-filling model of the coenzyme NADH]]
+Coenzymes are small organic molecules that transport chemical groups from one enzyme to another.<ref>AF Wagner, KA Folkers (1975) ''Vitamins and coenzymes.'' Interscience Publishers New York| ISBN 0-88275-258-8</ref> Some of these chemicals such as NAD or NADP<sup>+</sup>, the acetyl group carried by coenzyme A, formyl, methenyl or methyl groups carried by folic acid and the methyl group carried by S-adenosylmethionine.
+
+Since coenzymes are chemically changed as a consequence of enzyme action, it is useful to consider coenzymes to be a special class of substrates, or second substrates, which are common to many different enzymes. For example, about 700 enzymes are known to use the coenzyme NADH.<ref>[http://www.brenda.uni-koeln.de/ BRENDA The Comprehensive Enzyme Information System] Accessed 4 April 2007</ref>
+
+Coenzymes are usually regenerated and their concentrations maintained at a steady level inside the cell: for example, NADPH is regenerated through the pentose phosphate pathway and ''S''-adenosylmethionine by methionine adenosyltransferase.
+
+==Thermodynamics==
+thumb|300px|The energies of the stages of a [[chemical reaction. Substrates need a lot of energy to reach a transition state, which then decays into products. The enzyme stabilizes the transition state, reducing the energy needed to form products.]]
+
+As all catalysts, enzymes do not alter the position of the chemical equilibrium of the reaction. Usually, in the presence of an enzyme, the reaction runs in the same direction as it would without the enzyme, just more quickly. However, in the absence of the enzyme, other possible uncatalyzed, "spontaneous" reactions might lead to different products, because in those conditions this different product is formed faster.
+
+Furthermore, enzymes can couple two or more reactions, so that a thermodynamically favorable reaction can be used to "drive" a thermodynamically unfavorable one. For example, the hydrolysis of ATP is often used to drive other chemical reactions.
+
+Enzymes catalyze the forward and backward reactions equally. They do not alter the equilibrium itself, but only the speed at which it is reached. For example, carbonic anhydrase catalyzes its reaction in either direction depending on the concentration of its reactants.
+
+: <math>\mathrm{CO_2 + H_2O \xrightarrow{Carbonic\ anhydrase}
+H_2CO_3}</math> (in tissues; high CO<sub>2</sub> concentration)
+: <math>\mathrm{H_2CO_3 \xrightarrow{Carbonic\ anhydrase}
+CO_2 + H_2O}</math> (in lungs; low CO<sub>2</sub> concentration)
+
+Nevertheless, if the equilibrium is greatly displaced in one direction, that is, in a very exergonic reaction, the reaction is ''effectively'' irreversible. Under these conditions the enzyme will, in fact, only catalyze the reaction in the thermodynamically allowed direction.
+
+== Kinetics ==
+
+thumb|left|300px|Mechanism for a single substrate enzyme catalyzed reaction. The enzyme (E) binds a substrate (S) and produces a product (P).
+Enzyme kinetics is the investigation of how enzymes bind substrates and turn them into products. The rate data used in kinetic analyses are obtained from enzyme assays.
+
+In 1902 G. E. Briggs and J. B. S. Haldane, who derived kinetic equations that are still widely used today.<ref> </ref>
+
+The major contribution of Henri was to think of enzyme reactions in two stages. In the first, the substrate binds reversibly to the enzyme, forming the enzyme-substrate complex. This is sometimes called the Michaelis complex. The enzyme then catalyzes the chemical step in the reaction and releases the product.
+
+thumb|300px|right|Saturation curve for an enzyme reaction showing the relation between the substrate concentration (S) and rate (''v'').'''
+Enzymes can catalyze up to several million reactions per second. For example, the reaction catalyzed by orotidine 5'-phosphate decarboxylase will consume half of its substrate in 78 million years if no enzyme is present. However, when the decarboxylase is added, the same process takes just 25 milliseconds.<ref></ref> Enzyme rates depend on solution conditions and substrate concentration. Conditions that denature the protein abolish enzyme activity, such as high temperatures, extremes of pH or high salt concentrations, while raising substrate concentration tends to increase activity. To find the maximum speed of an enzymatic reaction, the substrate concentration is increased until a constant rate of product formation is seen. This is shown in the saturation curve on the right. Saturation happens because, as substrate concentration increases, more and more of the free enzyme is converted into the substrate-bound ES form. At the maximum velocity (''V''<sub>max</sub>) of the enzyme, all the enzyme active sites are bound to substrate, and the amount of ES complex is the same as the total amount of enzyme.
+However, ''V''<sub>max</sub> is only one kinetic constant of enzymes. The amount of substrate needed to achieve a given rate of reaction is also important. This is given by the Michaelis-Menten constant (''K''<sub>m</sub>), which is the substrate concentration required for an enzyme to reach one-half its maximum velocity. Each enzyme has a characteristic ''K''<sub>m</sub> for a given substrate, and this can show how tight the binding of the substrate is to the enzyme. Another useful constant is ''k''<sub>cat</sub>, which is the number of substrate molecules handled by one active site per second.
+
+The efficiency of an enzyme can be expressed in terms of ''k''<sub>cat</sub>/''K''<sub>m</sub>. This is also called the specificity constant and incorporates the catalytically perfect'' or ''kinetically perfect''. Example of such enzymes are triose-phosphate isomerase, carbonic anhydrase, acetylcholinesterase, catalase, fumarase, β-lactamase, and superoxide dismutase.
+
+Michaelis-Menten kinetics relies on the law of mass action, which is derived from the assumptions of free diffusion and thermodynamically-driven random collision. However, many biochemical or cellular processes deviate significantly from these conditions, because of very high concentrations, phase-separation of the enzyme/substrate/product, or one or two-dimensional molecular movement.<ref></ref> In these situations, a fractal Michaelis-Menten kinetics may be applied.<ref></ref><ref></ref><ref></ref><ref></ref>
+
+Some enzymes operate with kinetics which are faster than diffusion rates, which would seem to be impossible. Several mechanisms have been invoked to explain this phenomenon. Some proteins are believed to accelerate catalysis by drawing their substrate in and pre-orienting them by using dipolar electric fields. Other models invoke a quantum-mechanical tunneling explanation, whereby a proton or an electron can tunnel through activation barriers, although for proton tunneling this model remains somewhat controversial.<ref></ref><ref>
+</ref> Quantum tunneling for protons has been observed in tryptamine.<ref></ref> This suggests that enzyme catalysis may be more accurately characterized as "through the barrier" rather than the traditional model, which requires substrates to go "over" a lowered energy barrier.
+
+==Inhibition==
+thumb|400px|Competitive inhibitors bind reversibly to the enzyme, preventing the binding of substrate. On the other hand, binding of substrate prevents binding of the inhibitor. Substrate and inhibitor compete for the enzyme.
+
+thumb|400px|Types of inhibition. This classification was introduced by [[W.W. Cleland.<ref></ref>]]
+
+Enzyme reaction rates can be decreased by various types of enzyme inhibitors.
+
+;Competitive inhibition
+
+In competitive inhibition, the inhibitor and substrate compete for the enzyme (i.e., they can not bind at the same time). Often competitive inhibitors strongly resemble the real substrate of the enzyme. For example, dihydrofolate to tetrahydrofolate. The similarity between the structures of folic acid and this drug are shown in the figure to the ''right'' bottom. Note that binding of the inhibitor need ''not'' be to the substrate binding site (as frequently stated), if binding of the inhibitor changes the conformation of the enzyme to prevent substrate binding and ''vice versa''. In competitive inhibition the maximal velocity of the reaction is not changed, but higher substrate concentrations are required to reach a given velocity, increasing the apparent K<sub>m</sub>.

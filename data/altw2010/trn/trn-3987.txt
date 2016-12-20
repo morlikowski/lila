@@ -1,0 +1,47 @@
+The '''E-6 process''' (often abbreviated to just '''E-6''') is a color reversal (slide) photographic film.
+
+Unlike some other color reversal processes (such as Kodachrome K-14) that produce positive transparencies, E-6 process can be done manually by amateurs with the same equipment that is used for processing black and white negative film or C-41 color negative film. However, unlike black and white developing, the process is very temperature sensitive; and the use of a tempered water bath to stabilize the temperature at 100 °F for the first developer and first wash is recommended to maintain process tolerances.
+
+By contrast, the K-14 process and older Kodachrome processes are much more complex than E-6, and is currently performed in only one specialized processing plant world-wide (Dwaynes Photo Service in Parsons, Kansas); with all other Kodachrome cine and K-Lab processors shut down and decommissioned.
+
+== History ==
+
+E-6 generally replaced the E-3 and E-4 processes in 1976. The older E-3 process used light for reversal, and produced transparencies that faded more quickly.  The E-4 process used chemicals that are environmentally unfriendly and the highly toxic reversal agent Tertiary Butyl-Amine Borane (TBAB).
+
+== Six-bath compared to three-bath ==
+
+There are two families of E-6 processing chemistries. The original and standard that is used in commercial labs employs a six chemical bath process. The 'hobby' type chemistry kits (such as sold by Tetenal) use three chemical baths, combining the first developer and fogging bath solutions, and the pre-bleach, bleach and fixer bath solutions, with a discrete color developer step in between.<ref>Rinses, washes, stop baths and stabilizer/final rinse (the final step of the process) are not counted in the counting of baths when describing both the conventional six bath and hobbyist three bath processes.</ref> However, the three step process suffers from poor process control (i.e. color shifts and color crossover), especially due to insufficient bleaching and/or fixing in the bleach-fixer ("blix") mixture.
+
+== Conventional six bath processing ==
+
+The basic steps for developing color transparency films using process E6 are as follows.<ref></ref>
+
+; First developer bath: 6:00 @ 100 °F/38 °C. This uses a potassium hydroquinone monosulfate - phenidone black & white film developer, with the preferred form of phenidone being 4-hydroxymethyl-4-methyl-1-phenyl-3-pyrazolidinone (13047-13-7). The first developer forms only a negative silver image in each layer of the film: No dye images are yet formed. The first developer is one of the most time and temperature critical steps in Process E-6, because it controls contrast.
+
+; First wash: Water stop bath, 2:00 @ 100 °F/38 °C. Originally this step used an acetic acid stop bath, but was replaced with a water-only bath for process economy, with concomitant slight adjustment downwards of first dev strength.
+
+; Reversal bath: Fogging bath, 2:00 @ 96-103 °F/36-39 °C. This bath prepares the film for the color developer step. In this bath, a chemical reversal agent is absorbed into the emulsion, with the chemical reaction instantly taking place. The reversal process can also be carried out using 800 klx·s) of light, which is used by process engineers to troubleshoot reversal bath chemistry problems such as contamination, as well as issues of low tank turnover as process volumes decline.
+
+; Color developer bath: 6:00 @ 96-103 °F/36-39 °C. Process-to-completion step, which contains CD-3 developing agent as the main constituent. When film enters the color developer, the bath acts on the chemically exposed silver halide to form a positive silver image. (The metallic silver image formed in the first developer, which is a negative image, is not a part of the reaction that takes place in this step. What is being reacted in this stage is the "leftover" of the negative image, that is, a positive image.) As the color development progresses, metallic silver image is formed, but more importantly, the color developing agent is oxidised. Oxidised color developer molecules react with the color couplers to form color dyes in situ. That is, color dye is formed at the site of development in each of the three layers of the film. Each layer of the film contains different color couplers, which react with the same oxidised developer molecules but form different color dyes. Variation in color developer pH causes color shifts on the green-magenta axis with Kodak E100G & E100GX and Fujichrome films and on the yellow-blue axis with older Ektachrome films.<ref></ref>
+
+; Pre-bleach bath: 2:00 @ 90-103 °F/32-39 °C. This bath was previously called "conditioner", but was re-named pre-bleach in the mid 1990's to reflect a major change in removing the formaldehyde from the process used in the final rinse. The pre-bleach bath solution has formaldehyde acting as a dye preservative and EDTA to "kick off" the bleach. The pre-bleach bath also relies on carry-over of the color developer (i.e. no wash step between the color dev and pre-bleach baths) to function properly; as well as carry-over from the pre-bleach to bleach baths.
+
+'''E-6''' ist ein standardisierter Prozess in der chemischen Diapositivfilmen (gelegentlich auch: ''E6''). Die Bezeichnung stammt von dem Erfinder dieses Verfahrens, Kodak; andere Unternehmen wie Agfa, Tetenal oder Fujifilm bieten funktional gleichwertige Dia-Entwicklungsprozesse unter anderen Bezeichnungen an.
+
+Alle aktuellen Diafilme werden heute im E-6-Verfahren entwickelt; die einzige Ausnahme bildet der Kodachrome-Film, der nach dem K-14-Prozess verarbeitet wird. K-14 ist wesentlich aufwendiger und wird in Europa nicht mehr durchgeführt; eine E-6-Filmentwicklung ist dagegen in jedem Schnellentwicklungs-Labor sowie im eigenen Fotolabor möglich. Kodak zufolge wurde eine K-14 Entwicklung in Lausanne nur noch bis August 2006 (Kodachrome K40 Super8-Material) bzw. Herbst/Jahresende 2006 (16-mm-Produkte) angeboten, derzeit werden Kodachrome-Filme zur Entwicklung in die USA geschickt. Filme, die im E6-Verfahren entwickelt werden, lösen damit nun Kodachrome nahezu endgültig ab.
+
+''Siehe auch:'' E-4, Filmentwicklung
+
+== Verarbeitung ==
+
+Für den E-6-Prozess werden in der ursprünglichen Form sieben Bäder benötigt; er dauert 32 Minuten; eine kürzere und neuere Variante kommt mit drei Bädern aus und dauert 26 Minuten. Die Verarbeitungstemperatur liegt in beiden Fällen bei 38 Grad Celsius.
+
+'''Original-Prozess''':
+
+# Erstentwicklung
+# Umkehrbad
+# Farbentwicklung
+# Konditionierbad
+# Bleichbad
+# Fixierbad
+# Stabilisierbad

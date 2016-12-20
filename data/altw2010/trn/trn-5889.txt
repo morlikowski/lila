@@ -1,0 +1,85 @@
+thumb|Polttomoottoriauton sisäosat 
+'''Radio-ohjattavat pienoismallit''' eli RC-laitteet () ovat pienoismalleja, joita ohjataan radio-ohjauksen avulla. Kaikenlaisista helikoptereista ja lentokoneista. 
+
+==Radio-ohjauksen historiaa==
+thumb|PCM-rattiradio autokäyttöön
+Ensimmäisen kerran radio-ohjattavuutta demonstroitiin New Yorkin maailmannäyttelyssä vuonna 1898, kun Nikola Tesla etäohjasi pienoisvenettä. Radio-ohjaus kehittyi huomattavasti pitemmälle toisen maailmansodan aikana Transistoreiden kehittämisen jälkeenkin RC-laitteet olivat epäkäytännöllisiä. Vasta mikrosirut mahdollistivat helppokäyttöiset radio-ohjattavat pienoismallit.
+
+Ensimmäiset kaupalliset rc-mallit valmisti brittiläinen yritys Mardave 60-luvulla.
+
+==Radio-ohjauksen periaate==
+
+RC-laitteessa on kolme välttämätöntä osaa: ''lähetin'', ''vastaanotin'' ja ''servot''. Lähettimellä ohjataan pienoismallia. Tätä varten lähettimessä voi olla esimerkiksi vipuja, kytkimiä ja digitaalisia tai analogisia näyttöjä. Vastaanotin on asennettu pienoismalliin. Se vastaanottaa lähettimestä tulevat signaalit ja muuntaa ne servoille sopiviksi sähkösignaaleiksi.
+
+Radio-ohjattavissa pienoismalleissa käytetään tavallisesti analogisia AM tai FM. AM on paljon häiriöherkempi modulaatio kuin FM. Myös paljon häiriöttömämmät PCM-radiot ovat kasvattaneet suosiotaan etenkin kilpakuljettajien joukossa. PCM-radiot käyttävät FM:ää välitystapana, mutta siirtotie on digitaalinen ja häiriötapauksessa vastaanotin hylkää virheellisen ohjaussignaalin ja palauttaa servot esiohjelmoidulla tavalla johonkin perusasentoon tai jättää ne viimeksi vastaanotetun ohjauspulssin mukaiseen asentoon. Etenkin radio-ohjattavien pienoisautojen vastaanottimissa ja lähettimissä käytetään kideradiota, jonka taajuus voi olla 27 tai 40 MHz. 35 MHz:n taajuutta saa käyttää vain pienoisilma-aluksissa, kuten lennokeissa ja helikoptereissa. Radio-ohjattavissa pienoisilma-aluksissa käytetään yleensä 35 MHz:n radiotaajuutta, mutta myös 27 MHz ja 40 MHz ovat sallittuja ja modulaatiotapa voi olla joko FM tai AM.
+Nykyisin myös 2,4 GHz:n radiotaajuudella toimivat radiolaitteet ovat yleistyneet etenkin kilpakäytössä. Syynä on tekninen kehitys, joka mahdollistaa kaksisuuntaisen viestinnän ja automaattisen vapaiden taajuuksien etsinnän.
+
+Pienoismallin radiolaitteet käyttävät yleensä 4,8–6 V jännitettä. Lähettimissä käyttöjännite on yleensä 7,2 - 12 V (6-10 NC).
+
+==Moottorit==
+
+RC-pienoismallissa tarvitaan lisäksi yleensä vielä sähkökäyttöinen tai polttomoottori. 
+
+Polttomoottori on tavallisesti kaksitahtimoottori ja sen polttoaineena käytetään yleisesti nitrometaanin ja metanolin seosta (samaa kuin kiihdytysautoissa). Esim. polttomoottoriauton iskutilavuudeltaan 3,5 cm³ kokoisen moottorin teho voi olla 2-3 hv, mikä tarkoittaa erittäin suurta teho/tilavuus-suhdetta. Tämä vastaisi 2&nbsp;000 cm³:n autonmoottorin tehoa n. 1&nbsp;100 hv, mikä on mahdollista bensiinikäyttöisellekin autolle. RC-polttomoottoreiden koko ilmoitetaan yleensä kuutiotuumissa. Eli 3,5cm³ = 0,21 kuutiotuumaa. Polttomoottorilaitteissa keskipakokytkin kytkee vedon, kun koneen kierrokset nousevat tarpeeksi korkealle.
+
+Isommat 1/6 ja 1/5 kokoluokan autot toimivat yleensä tavallisilla bensamoottoreilla. Nämä moottorit ovat yleensä iskutilavuudeltaan n. 20-30 cm³.
+
+Sähkömoottorit voidaan jakaa kahteen ryhmään. Ensimmäinen on hiiliharjoilla varustettu, perinteinen tasavirtamoottori, jonka pyörimisnopeutta säädetään jännitteen tai jännitepulssin leveyden avulla. Uudempi tyyppi on harjaton (), muuttuvataajuuksisilla tasavirtapulsseilla ohjattu moottori. Sähkömoottorissa "kaasuttajaa" vastaa nopeudensäädin, mikä ennen oli toteutettu mekaanisella servo-vastus -systeemillä. Nykyiset nopeudensäätimet sisältävät elektroniikkaa. Säätimissä virransyöttöä moottoriin voidaan ohjata monella tavalla riippuen ajo-olosuhteista.
+
+Hieman pienoismallin koosta riippuen yleisimmät jännitteet ovat 6–11,1&nbsp;V. Auto- ja venekäytössä yleisimmät akkukoot ovat 6 V, 7,2 V ja 8,4 V. 6 V on käytössä pääasiassa 1/12 ja pienemmissä malleissa, 7,2 V ja 8,4 V taas isommissa. 8,4 V akkuja käytetään usein isokokoisissa sähkömonstereissa joissa tarvitaan paljon tehoa. Käytetyt akkutyypit ovat: NiCd (Nikkeli-kadmium), NiMH (Nikkeli-metallihydridi), Li-Ion (Litium-ioni) ja LiPo (Litium-polymeeri). Näistä NiMH on auto- ja venekäytössä yleisin. NiCd on saanut väistyä uusien akkujen tieltä mm. sen pienen energiatiheyden ja ympäristöhaittojen takia, mutta sitä edelleen käytetään mm. talvisin vastaanotin- ja lähetinakuissa sen hyvän kylmänkeston johdosta. Li-ion akkuja ei juurikaan käytetä niiden pienen maksimipurkuvirran sekä räjähdysherkkyyden takia. LiPo-akkujen suosio on ollut jo vuosia kovassa kasvussa sillä ne ovat huomattavasti kevyempiä ja pienempiä kuin nikkelipohjaiset akut, energiatiheyden ollessa karkeasti kaksinkertainen NiMH-akkuihin verrattuna. LiPo-akkujen kapasiteetti vaihtelee 50-8000 mAh:n välillä, yleisimmin myydyt koot ollen 500-2500 mAh alueella. LiPo-kennon nimellisjännite on 3,7 V, jolloin esimerkiksi 2S (=kaksikennoinen) LiPon nimellisjännite on 7,4 V ja 3S LiPon nimellisjännite 11,1 V.
+
+==Harrastus==
+
+Markkinoilla on tuhansia RC-laitteita. Ne voidaan jakaa kahteen päätyyppiin: Lapsille tarkoitettuihin leluihin ja "oikeisiin" radio-ohjattaviin. Leluja ovat Nikkot ja muut vastaavat, joita ei voi paljon virittää tai korjata. "Oikeissa" radio-ohjattavissa onkin sitten paljon paremmat korjaus- ja virittämismahdollisuudet. Nämä myös maksavat enemmän kuin lelut.
+
+Radio-ohjattavilla pienoismalleilla harrastaminen on jakaantunut erikseen autoiluun, veneilyyn, lennokkeihin ja helikoptereihin.
+
+==Radio-ohjattavat laitteet==
+===Autot===
+RC-autot jaetaan neljään pääryhmään: monsterit, stadium truckit, buggyt eli krossarit ja rata-autot. Yleisimmät kokoluokat ovat: 1/18, 1/16, 1/12, 1/10, 1/8, 1/6 ja 1/5.
+
+Nykyään RC-autoissa yleisimmin käytetään kardaanivetoa. Kilpa-tasolla hihnaveto on suosittu johtuen kardaanivetoisten autojen torque twististä.
+
+====Monster truck====
+Monstereissa on isot renkaat ja suuresti vääntävät koneet . Niillä pääsee lähes missä maastossa tahansa. Monsterit ovat suosituin ns. pihasudittelijoiden keskuudessa ja juuri esim. traxxas stampedea suositellaan aloittelijan autoksi. Kisoja niille on suomessa hyvin vähän. Monsterit ovat myös useimmiten hitaampia kuin rata-autot.
+
+====Stadium truck====
+Stadium truck on monsterin ja buggyn välimuoto. Truggy(stadium truck) on myös leveämpi kuin buggy ja pysyy täten radalla paremmin.
+
+thumb|right|250px|1:10 scale radio controlled car<br>([[Saab Sonett|Saab Sonett II)]]
+
+A '''radio-controlled model''' (or RC model) is a model that is steerable with the use of cars, boats, planes, and even helicopters and scale railway locomotives.
+
+==History==
+Radio control has been around since the late 1800s with Allied ships. During the 1950s pioneering work was done by enthusiastic amateurs to create valve based control units. Originally simple 'on-off' systems these evolved to use complex systems of servo-based systems, again driven largely by amateurs but resulting in commercial products. In the 1980s, integrated circuits made the electronics cheap, small and light enough for multi-channel fully proportional control to become widely available.
+
+In the 1990s miniaturised equipment became widely available, allowing radio control of the smallest models, and by the 2000s radio control was commonplace even for the control of inexpensive toys. At the same time the ingenuity of modellers has been sustained and the achievements of amateur modelers using the latest technology has extended to such subjects as gas-turbine powered aircraft, aerobatic helicopters and submarines, to name but a few examples.
+
+Before the days of radio control many models would use simple burning fuses or clockwork mechanisms to control flight or sailing times. Sometimes clockwork controllers would also control and vary direction or behaviour. Other methods included tethering to a central point (popular for cars and hydroplanes), round the pole control for electric model aircraft and control line (USA: u-control) for internal combustion powered aircraft!
+
+==Design==
+RC electronics have three essential elements. The receiver is mounted in the model. It receives and processes the signal from the transmitter, translating it into signals that are sent to the servos. The number of servos in a model determines the number of channels the radio must provide.
+
+In recent years, electronic speed controllers (ESCs) have been developed to replace the old variable resistors, which were extremely inefficient. They are entirely electronic, so they do not require any moving parts or servos.
+
+In the 1980s, a Futaba, introduced wheeled steering for RC cars. It has been widely accepted along with a trigger control for reverse. There are some models that comes in left-handed versions too.
+
+== Mass production ==
+There are thousands of RC vehicles available. Most are toys suitable for children. What separates toy grade RC from hobby grade RC is the modular characteristic of the standard RC equipment. RC toys generally have simplified circuits, often with the receiver and servos incorporated into one circuit. It's almost impossible to take that particular toy circuit and transplant it into other RCs.
+
+=== Hobby grade RC ===
+Hobby grade RC systems have modular designs. Many cars, boats, and aircraft can accept equipment from different manufacturers, so it is possible to take RC equipment from a car and install it into a boat, for example. 
+
+However, moving the receiver component between aircraft and surface vehicles is illegal in most countries as radio frequency laws allocate separate bands for air and surface models. This is done for safety reasons.
+
+Most manufacturers now offer "frequency modules" (known as crystals) that simply plug into the back of their transmitters, allowing one to change frequencies, and even bands, at will. Some of these modules are capable of "synthesizing" many different channels within their assigned band.
+
+Hobby grade models can be fine tuned, unlike most toy grade models. For example, cars often allow toe-in, camber and caster angle adjustments, just like their real-life counterparts. All modern "computer" radios allow each function to be adjusted over several parameters for ease in setup and adjustment of the model. Many of these transmitters are capable of "mixing" several functions at once, which is required for some models.
+
+== Types ==
+=== Aircraft ===
+
+Radio-controlled aircraft (also called RC aircraft) are small aircraft that can be controlled remotely. There are many different types, ranging from small park flyers to large jets and mid-sized aerobatic models.
+The aircraft use many different methods of propulsion, ranging from brushed or brushless electric motors, to internal combustion engines, to the most expensive gas turbines. The fastest aircraft, with gas turbines, can reach speeds of up to . Newer jets can achieve above  in a short distance.
+
+=== Cars ===

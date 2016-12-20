@@ -1,0 +1,66 @@
+'''Giraniya atomê''' (ya jî ''giraniya gerdîlê'')  (Îngîlîzî, ''atomic mass''), ji bo giranîya atomê Elementa di Kîmya de tê bikaranin. Giranîya atomê relatîv(relative atomic mass ) ji bo atomê xweza de li izotopekê pirtir hênê tê bikaranîn, gorî rêjê hebûna wan tê hejmmartin.
+
+Îroj giraniya atomê  gorî ber hev dane giranîya karbon-12 tê hejmartin. Giranîya 6.02<math>\times</math>10<sup>23</sup>, ango molak û Hêjmara Avogadro tê gotin, atomên C-12 12 gram e. Giranîya atomên din jî gorî C-12 tê hejmartin. Molak pêze, bi gelemperî, qasa giranîya atomê lê pêk hatî dihêwirinî ye. Wekok giranîya atomê hesin 55.847 û molak atomê hesin jî 55.847 gram dibe.  
+
+Li ser Giraniya atomê herî pêş de John Dalton xebitî û di 1805an de giranîya atomên Hidrojenê 1 hel girt. Li paş wî re Jean Stas di 1865an de giranîya atomê Oksijen-16 ê 16 hel girt. Ji bo Oksijen du Îzotopan xweya din bi O-17 û O-18 heye ew sedema du hejmertinê ciyawazî di bû. Di 1961an de International Union of Pure and Applied Chemistry (IUPAC)('''Yekitîya navnetewîya kîmya bingehî û nerîtî''') C-12 ji bo Giraniya atomê hel girt. Gorî wan her sê hejmartinan giranîya Oksijen, Karbon û Hidrojen wiha dibe;
+
+{| align="center" border="0" cellpadding="5" style="border-color: #aaaaaa"
+|- bgcolor=#aaaaff
+|
+|hel girtina H = 1
+|hel girtina O = 16
+!hel girtina <sup>12</sup>C = 12
+|- bgcolor=#eeeeee
+|Hidrojen
+|1,000
+|1,008
+!1,008
+|- bgcolor=#eeeeee
+|Oksijen
+|15,872
+|16,000
+!15,999
+|- bgcolor=#eeeeee
+|- bgcolor=#eeeeee
+|Karbon
+|11,916
+|12,011
+!12,011
+|}
+
+right |thumb|200px|Stylized [[lithium-7 atom: 3 protons, 4 neutrons & 3 electrons (~1800 times smaller than protons/neutrons). Rare Lithium-6 has only 3 neutrons, reducing the atomic weight (average) to 6.941.]]
+
+The '''atomic mass''' (m<sub>a</sub>) is the unified atomic mass units.<ref>[http://www.iupac.org/goldbook/A00496.pdf IUPAC Definition of Atomic Mass]</ref> The atomic mass may be considered to be the total mass of protons, neutrons and electrons in a single atom (when the atom is motionless). The atomic mass is sometimes incorrectly used as a synonym of '''relative atomic mass''', '''average atomic mass''' and '''atomic weight'''; however, these differ subtly from the atomic mass. The atomic mass is defined as the mass of an atom, which can only be one isotope at a time and is not an abundance-weighted average. In the case of many elements that have one dominant isotope the actual numerical difference between the atomic mass of the most common isotope and the relative atomic mass or standard atomic weights can be very small such that it does not affect most bulk calculations but such an error can be critical when considering individual atoms. For elements with more than one common isotope the difference even to the most common atomic mass can be half a mass unit or more (e.g. chlorine). The atomic mass of an uncommon isotope can differ from the relative atomic mass or standard atomic weight by several mass units.
+
+The '''relative atomic mass''' (A<sub>r</sub>) (also known as '''atomic weight''' and '''average atomic mass''') is the average of the atomic masses of all the chemical element's isotopes as found in a particular environment, weighted by isotopic abundance.<ref>[http://www.iupac.org/goldbook/R05258.pdf IUPAC Definition of Relative Atomic Mass]</ref>  This is frequently used as a synonym for the '''standard atomic weight''' and it is not incorrect to do so since the standard atomic weights are relative atomic masses, although it is less specific to do so. Relative atomic mass also refers to non-terrestrial environments and highly specific terrestrial environments that deviate from the average or have different certainties (number of significant figures) than the standard atomic weights.
+
+The '''standard atomic weight''' refers to the mean relative atomic mass of an element in the local environment of the Earth's crust and atmosphere as determined by the uncertainty in brackets is included which often reflects natural variability in isotopic distribution rather than uncertainty in measurement.<ref>[http://www.iupac.org/publications/pac/2006/pdf/7811x2051.pdf ATOMIC WEIGHTS OF THE ELEMENTS 2005 (IUPAC TECHNICAL REPORT), M. E. WIESER Pure Appl. Chem., V.78, pp. 2051, 2006]</ref>  For synthetic elements the isotope formed depends on the means of synthesis, so the concept of natural isotope abundance has no meaning. Therefore, for synthetic elements the  total nucleon count of the most stable isotope (ie, the isotope with the longest half-life) is listed in brackets in place of the standard atomic weight. Lithium represents a unique case where the natural abundances of the isotopes have been perturbed by human activities to the point of affecting the uncertainty in its standard atomic weight, even in samples obtained from natural sources such as rivers.
+
+The '''relative isotopic mass''' is the relative mass of the isotope, scaled with carbon-12 as exactly 12.  No other isotopes have whole number masses due to the different mass of neutrons and protons, as well as loss/gain of mass to binding energy.  However, since mass defect due to binding energy is minimal compared to the mass of a nucleon, rounding the atomic mass of an isotope tells you the total nucleon count.  Neutron count can then be derived by subtracting the atomic number.
+
+== Mass defects in atomic masses ==
+The pattern in the amounts the atomic masses deviate from their mass numbers is as follows: the deviation starts positive at hydrogen-1, becomes negative until a minimum is reached at iron-56, iron-58 and nickel-62, then increases to positive values in the heavy isotopes, with increasing atomic number. This equals to the following: nuclear fission in an element heavier than iron produces energy, and fission in any element lighter than iron requires energy. The opposite is true of nuclear fusion reactions: fusion in elements lighter than iron produces energy, and fusion in elements heavier than iron requires energy.
+
+== Measurement of atomic masses ==
+Direct comparison and measurement of the masses of atoms is achieved with mass spectrometry.
+
+== Conversion factor between atomic mass units and grams ==
+The standard scientific unit for dealing with atoms in macroscopic quantities is the mole (mol), which is defined arbitrarily as the amount of a substance with as many atoms or other units as there are in 12 grams of the carbon isotope C-12. The number of atoms in a mole is called Avogadro's number, the value of which is approximately 6.022 × 10 mol<sup>-1</sup>. One mole of a substance always contains almost exactly the ''relative atomic mass'' or ''molar mass'' of that substance (which is the concept of molar mass), expressed in grams; however, this is almost never true for the ''atomic mass''. For example, the standard atomic weight of iron is 55.847 g/mol, and therefore one mole of iron as commonly found on earth has a mass of 55.847 grams. The ''atomic mass'' of an <sup>56</sup>Fe isotope is 55.935 u and one mole of <sup>56</sup>Fe will in theory weigh 55.935g, but such amounts of pure <sup>56</sup>Fe have never existed.
+
+The formulaic conversion between atomic mass and SI mass in grams for a single atom is:
+
+::<math>m_{\rm{grams}}={m_{\rm{u}} \over N_{A}}</math>
+
+where <math>\rm{u}</math> is the atomic mass unit and <math>N_A</math> is Avogadro's number.
+
+== Relationship between atomic and molecular masses ==
+Similar definitions apply to molecules. One can compute the molecular mass of a compound by adding the atomic masses of its constituent atoms (nuclides). One can compute the molar mass of a compound by adding the relative atomic masses of the elements given in the chemical formula. In both cases the multiplicity of the atoms (the number of times it occurs) must be taken into account, usually by multiplication of each unique mass by its multiplicity.
+
+==History==
+In the history of chemistry the first scientists to determine atomic weights were John Dalton between 1803 and 1805 and Jöns Jakob Berzelius between 1808 and 1826. Atomic weight was originally defined relative to that of the lightest element hydrogen taken as 1.00. In the 1860's Stanislao Cannizzaro refined atomic weights by applying Avogadro's law (notably at the Karlsruhe Congress of 1860). He formulated a law to determine atomic weights of elements: ''the different quantities of the same element contained in different molecules are all whole multiples of the atomic weight''  and determined atomic weights and molecular weights by comparing the vapor density of a collection of gases with molecules containing one or more of the chemical element in question <ref>''Origin of the Formulas of Dihydrogen and Other Simple Molecules'' Andrew Williams Vol. 84 No. 11 November 2007 • Journal of Chemical Education 1779</ref>. 
+
+In the early twentieth century, up until the 1960's chemists and physicists used two different atomic mass scales. The chemists used a scale such that the natural mixture of oxygen isotopes had an atomic mass 16, while the physicists assigned the same number 16 to the atomic mass of the most common oxygen isotope (containing eight protons and eight neutrons). However, because oxygen-17 and oxygen-18 are also present in natural oxygen this led to two different tables of atomic mass. The unified scale based on carbon-12, <sup>12</sup>C, met the physicists' need to base the scale on a pure isotope, while being numerically close to the old chemists' scale.
+
+The term ''atomic weight'' is being phased out slowly and being replaced by relative atomic mass, in most current usage. The history of this shift in nomenclature reaches back to the 1960's and has been the source of much debate in the scientific community. The debate was largely created by the adoption of the unified atomic mass unit and the realization that weight was in some ways an inappropriate term. The argument for keeping the term "atomic weight" was primarily that it was a well understood term to those in the field, that the term "atomic mass" was already in use (as it is currently defined) and that the term "relative atomic mass" was in some ways redundant. In 1979, in a compromise move, the definition was refined and the term "relative atomic mass" was introduced as a secondary synonym. Twenty years later the primacy of these synonyms was reversed and the term "relative atomic mass" is now the preferred term; however the "standard atomic weights" have maintained the same name. <ref>[http://www.iupac.org/publications/pac/1992/pdf/6410x1535.pdf 'ATOMIC WEIGHT' -THE NAME, ITS HISTORY, DEFINITION, AND UNITS, P. DE BIEVRE and H. S. PEISER Pure&App. Chem., 64, 1535, 1992]</ref>
+
+==Table of standard atomic weights==

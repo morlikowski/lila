@@ -1,0 +1,121 @@
+{| class="wikitable" style="float; text-align:center; margin: 10px" align="right"
+|-
+|style="text-align:center" bgcolor="D3D3D3"|'''Goniec'''
+|-
+|100px
+|-
+|100px
+|-
+|}
+
+'''Goniec''' – figura w szachach, nazywana również z niemieckiego ''laufrem''. Każdy z graczy rozpoczyna grę z dwoma gońcami. Jeden stoi pomiędzy królewskim skoczkiem i królem a drugi – pomiędzy hetmanem i hetmańskim skoczkiem. W notacji algebraicznej gońce białych znajdują się na polach '''c1''' i '''f1''', gońce czarnych na '''c8''' i '''f8'''.
+
+Gońce jednego koloru można rozróżniać w zależności od ich początkowego pola, nazywając je odpowiednio ''królewskim'' i ''hetmańskim''. Ponieważ goniec zawsze operuje na polach tego samego koloru, częściej używa się rozróżnienia na gońce ''białopolowe'' i ''czarnopolowe''.
+
+Goniec porusza się wyłącznie na ukos, w dowolnym kierunku, o dowolną liczbę niezajętych pól. Gońce nie mogą przeskakiwać nad innymi bierkami. Goniec bije bierkę przeciwnika, zajmując jej pole.
+
+Ponieważ goniec ma dostęp jedynie do trzydziestu dwóch pól szachownicy, jest figurą słabszą od wieży, dla której wszystkie pola szachownicy są dostępne. Co więcej, na pustej szachownicy wieża zawsze atakuje czternaście pól, podczas gdy goniec – od siedmiu do trzynastu, w zależności od tego, jak blisko jest centrum. Przyjmuje się, że wieża jest warta tyle, ile goniec i dwa piony.
+
+Siła gońca jest porównywalna z siłą skoczka. W pozycjach zamkniętych skoczek jest nieco silniejszy od gońca, ponieważ może przeskakiwać inne bierki i jest bardziej mobilny na zatłoczonej szachownicy. Częściej jest też wykorzystywany do podwójnego uderzenia. Wartość gońca rośnie w otwartych pozycjach, gdy łatwiej mu się przemieszczać po szachownicy. W końcówkach para gońców ma zazwyczaj istotną przewagę nad parą skoczków lub skoczkiem i gońcem.
+
+Gracz z jednym gońcem powinien zasadniczo ustawiać swoje piony na polach, do których goniec nie ma dostępu. Gońca, którego ruchy są znacznie ograniczone przez własne piony często nazywa się ''złym gońcem'' (czasami ''dużym pionem'').
+
+thumb|right|120px|Bishop in the standard [[Staunton chess set|Staunton pattern.]]
+A '''bishop''' (,) is a piece in the knight and the king, the other between the queen's knight and the queen. In algebraic notation the starting squares are c1 and f1 for White's bishops, and c8 and f8 for Black's bishops.
+
+The canonical chessmen are now dated back to Howard Staunton and the Staunton chess set. The piece's deep groove symbolizes a bishop's (or abbot's) mitre. The groove originates from the original Indian form of the piece, an elephant (the groove represented the elephant's tusks). This groove was interpreted differently in different countries as the game moved to Europe; in France, for example, the groove was taken to be a jester's cap, hence in France the bishop is called "fou" (the crazy man).
+
+==The bishop's move==
+{{Chess diagram|=
+|tleft
+|
+|=
+|  |  |bd|  |  |bd|  |  |=
+|  |  |  |  |  |  |  |  |=
+|  |  |  |  |  |  |  |  |=
+|  |  |  |  |  |  |  |  |=
+|  |  |  |  |  |  |  |  |=
+|  |  |  |  |  |  |  |  |=
+|  |  |  |  |  |  |  |  |=
+|  |  |bl|  |  |bl|  |  |=
+|Initial placement of the bishops.
+}}
+{{chess diagram|=
+|tleft
+|
+|=
+8 |__|__|__|__|__|__|__|xo|=
+7 |xo|__|__|pd|__|__|xo|xw|=
+6 |__|xo|__|__|xw|xo|xw|__|=
+5 |__|__|xo|__|xo|bl|__|__|=
+4 |__|__|__|bd|xw|__|xw|__|=
+3 |__|__|xo|xw|xo|__|__|xw|=
+2 |__|xo|pl|__|__|xo|__|__|=
+1 |xo|__|__|__|__|__|xo|__|=
+|<small>The black bishop can move to any of the squares marked by a black dot. The white bishop can move to any square marked by a white dot or capture the black pawn</small>}}
+
+The bishop has no restrictions in distance for each move, but is limited to diagonal movement. Bishops cannot jump over other pieces. A bishop captures by occupying the square on which an enemy piece sits.
+
+The bishops may be differentiated according to which wing they begin on, i.e. the ''king's bishop'' and ''queen's bishop''. As a consequence of its diagonal movement, each bishop always remains on either the white or black squares, and so it is also common to refer to them as ''light-squared'' or ''dark-squared'' bishops.
+
+<div style="clear: both"></div>
+
+== Comparison to other pieces ==
+=== versus rook ===
+A rook is generally worth about two pawns more than a bishop. The bishop has access to only half of squares of the board, whereas all squares of the board are accessible to the rook. A rook on an empty board always attacks fourteen squares, whereas a bishop attacks no more than thirteen and as few as seven, depending on how near it is to the center. A king and rook can force checkmate against a lone king, while a king and bishop cannot.
+
+=== versus knight ===
+In general bishops are approximately equal in strength to knights, but depending on the game situation either may have a distinct advantage.
+
+Less experienced players tend to underrate the bishop compared to the knight because the knight can reach all squares and is more adept at forking.  More experienced players understand the power of the bishop, but a more sophisticated understanding is required .
+
+{{Chess diagram|=
+| tright
+|
+|=
+ |rd|__|__|qd|kd|__|__|rd|=
+ |__|__|pd|__|bd|pd|__|pd|=
+ |pd|__|nd|pd|__|nd|pd|bl|=
+ |__|pd|__|__|__|__|__|__|=
+ |__|__|__|pd|pl|__|__|__|=
+ |__|bl|pl|__|__|__|ql|pl|=
+ |pl|pl|__|__|__|pl|pl|__|=
+ |rl|nl|__|__|__|rl|kl|__|=
+|<small>A rare example of a bishop fork occurs after 12...Nxe4?, when the forking 13.Bd5! wins material after, ''e.g.'', Nxg3 14.Bxc6+ Qd7 15.Bxd7+ Kxd7 16.fxg3.</small>
+}}
+
+Bishops generally gain in relative strength towards the endgame as more pieces are captured and more open lines are available for them to operate. When the board is empty, a bishop can influence both wings simultaneously, whereas a knight would need a few moves to do so. In an open endgame, a pair of bishops is decidedly superior to either a bishop and a knight, or to two knights. A player possessing a pair of bishops has a strategic weapon in the form of a long-term threat to trade down to an advantageous endgame.
+
+In certain positions a bishop can by itself lose a move (see triangulation and tempo), while a knight can never do so. The bishop is capable of skewering or pinning a piece, while the knight can do neither.
+
+On the other hand, in the opening and middlegame a bishop may be hemmed in by pawns of both players, and thus be inferior to a knight which can hop over them. Furthermore, on a crowded board a knight has many opportunities to fork two enemy pieces. While it is technically possible for a bishop to fork, practical opportunities are rare. One such example occurs in the position at right, which arises from the Ruy Lopez: 1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.0-0 b5 6.Bb3 Be7?! 7.d4 d6 8.c3 Bg4 9.h3!? Bxf3 10.Qxf3 exd4 11.Qg3 g6 12.Bh6!
+
+==Game use ==
+=== Good bishop and bad bishop ===
+{{chess diagram|=
+|tright
+|
+|=
+8 |__|__|bd|__|__|__|kd|__|=
+7 |__|__|__|nd|qd|rd|__|pd|=
+6 |__|__|pd|__|pd|__|pd|__|=
+5 |__|pd|pl|pd|pl|__|__|__|=
+4 |__|pl|__|ql|__|pl|__|__|=
+3 |__|__|__|__|__|__|__|__|=
+2 |__|nl|__|__|bl|__|pl|pl|=
+1 |rl|__|__|__|__|__|kl|__|=
+| style="padding: 0.5em 0; text-align: left;" | <small>After White's 23rd move of Krasenkow vs. Zvjaginsev, FIDE World Chess Championship 2004</small>}}
+A player with only one bishop should generally place their pawns on squares of the color that the bishop cannot move to. This allows the player to control squares of both colours, allows the bishop to move freely among the pawns, and helps fix enemy pawns on squares on which they can be attacked by the bishop. Such a bishop is often referred to as a "good" bishop.
+
+Conversely, a bishop which is impeded by friendly pawns is often referred to as a "bad bishop" (or sometimes, disparagingly, a "tall pawn"). However, a "bad" bishop need not always be a weakness, especially if it is outside its own pawns' pawn chains.
+
+In the position from the game Krasenkow versus Zvjaginsev,<ref>[http://www.chessgames.com/perl/chessgame?gid=1292300 Krasenkow versus Zvjaginsev] at ChessGames.com</ref> a thicket of black pawns hems in Black's bishop on c8, so Black is effectively playing with one piece fewer than White. Although the black pawns also obstruct the white bishop on e2, it has many more attacking possibilities, and thus is a good bishop vis-a-vis Black's bad bishop. Black resigned after another ten moves.
+<div style="clear: both"></div>
+
+===Fianchetto===
+A bishop may be ''castled king on g1 and the bishop can often exert strong pressure on the long diagonal (here h1-a8). A fianchettoed bishop should generally not be given up lightly, since the resulting holes in the pawn formation may prove to be serious weaknesses, particularly if the king has castled on that side of the board.
+
+There are nonetheless some modern opening lines where a fianchettoed bishop is given up for a knight in order to double the opponent's pawns, for example 1.d4 g6 2.c4 Bg7 3.Nc3 c5 4.d5 Bxc3+!? 5.bxc3 f5, a sharp line originated by Karpov-Browne, San Antonio 1972, after 1.c4 c5 2.b3 Nf6 3.Bb2 g6?!, Karpov gave up his fianchettoed bishop with 4.Bxf6! gxf6 5.Nc3, doubling Black's pawns and giving him a hole on d5.<ref>[http://www.chessgames.com/perl/chessgame?gid=1035250 Chess game of Anatoly Karpov vs Walter Shawn Browne, 1972] at ChessGames.com</ref>
+
+=== Endgame ===
+An endgame in which each player has only one bishop, one controlling the dark squares and the other the light, will often result in a draw even if one player has a pawn or sometimes two more than the other. The players tend to gain control of squares of opposite colors, and a deadlock results. In endgames with same-colored bishops, however, even a positional advantage may be enough to win .

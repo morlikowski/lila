@@ -1,0 +1,135 @@
+<!--tabella per la realizzazione di un comune-->
+<!--questa tabella memorizza solo i parametri - la struttura/layout è nel template Comune-->
+<!--NON modificare la prima riga e le righe dove compare il simbolo uguale-->
+<!--sostituire gli spazi vuoti (&nbsp;) col testo o col numero che deve apparire nella tabella-->
+<!--se non si sa cosa scrivere in una riga,  mettere lo spazio vuoto (&nbsp;)-->
+<!--NON inserire ritorni a capo e NON modificare il numero delle righe-->
+<!--se non si scrive una riga, questa appare come uno spazio vuoto nella tabella-->
+{{Comuni Svizzeri Tabella|
+nomecomune =
+Kestenholz  <!--scrivere qui il nome del comune-->
+|
+nomestemma =
+Kestenholz-blason.png <!--scrivere qui il nome dell'immagine dello stemma -->
+|
+nomepaese =
+Svizzera  <!--non modificare-->
+|
+nomecantone =
+Soletta  <!--cantone di appartenenza - senza parentesi quadre - solo nome (es:Ticino)-->
+|
+siglacantone =
+SO  <!--sigla del cantone di appartenenza - senza parentesi quadre-->
+|
+nomedistretto =
+Gäu  <!--nome distretto di appartenenza - con parentesi quadre - wikificato-->
+|
+nomecircolo =
+|
+
+lingua =
+Tedesco  <!-- lingua ufficiale del comune - wikificata-->
+|
+latitudine =
+47° 16‘  <!--scrivere la latitudine del capoluogo del comune - non scrivere Nord che viene messo automaticamente-->
+|
+longitudine =
+7° 45‘  <!--scrivere la longitudine del capoluogo del comune - non scrivere Est che viene messo automaticamente-->
+|
+altitudine =
+448   <!--scrivere l'altezza del capoluogo del comune in metri - non scrivere la m finale che viene messa automaticamente-->
+|
+superficie =
+8,59  <!--scrivere la superficie del comune (in km²) - di solito con due decimali - - non scrivere km² che viene messo automaticamente-->
+|
+popolazione =
+1.669  <!--scrivere la popolazione totale del comune - col punto separatore delle migliaia-->
+|
+annocensimento = 
+2004  <!--inserire l'anno del censimento - con parentesi quadre-->
+|
+densita =
+194  <!--scrivere la densità di popolazione del comune-->
+|
+frazionicomune =
+&nbsp;  <!--Eventuali frazioni - se non ci sono lasciare lo spazio &nbsp; - non scrivere nella riga sopra, ma solo in questa - nomi senza parentesi quadre (di norma) - separati da virgola e spazio - non usare <br> perché va a capo automaticamente-->
+|
+comunilimitrofi =
+Niederbipp (BE), Niederbuchsiten, Oberbuchsiten, Oensingen, Schwarzhäusern (BE), Wolfwil  <!--Comuni confinanti anche di altri cantoni - se non ci sono lasciare lo spazio &nbsp; - non scrivere nella riga sopra, ma solo in questa - nomi esatti con doppie parentesi quadre (sempre) - separati da virgola e spazio - non usare <br> va a capo automaticamente-->
+|
+cap =
+4703  <!--codice postale del comune - anche piu di uno-->
+|
+prefisso =
+062  <!--prefisso telefonico del comune - anche piu di uno-->
+|
+comunenumero =
+2403  <!--BFS-Nr. del comune-->
+|
+nomeabitanti =
+Kestenholzer  <!--nome degli abitanti-->
+|
+sito =
+http://www.kestenholz.ch/  <!--sito internet ufficiale del comune - con singole parentesi quadre-->
+|
+nomemappa =
+Karte Gemeinde Kestenholz.png
+}}
+<!-- fine della tabella comune -->
+
+'''Kestenholz''' è un comune del Canton Soletta di 1.669 abitanti.
+
+Categoria:Comuni del distretto di Gäu
+Categoria:Comuni del Canton Soletta
+Categoria:Comuni svizzeri
+
+<!--schweizbezogen-->{{Infobox Ort in der Schweiz|
+NAME_ORT = Kestenholz|
+GEMEINDEART = Gemeinde|
+BILDPFAD_KARTE = Karte Gemeinde Kestenholz 2007.png|
+BILDPFAD_WAPPEN = Kestenholz-blason.png|
+KANTON = Solothurn|
+BEZIRK = Gäu|
+BFS = 2403|
+PLZ = 4703|
+UN/LOCODE = CH KSO|
+BREITENGRAD = 47.283334|
+LÄNGENGRAD = 7.754173|
+HÖHE = 450|
+FLÄCHE = 8.59|
+EINWOHNER = 1666|
+STAND_EINWOHNER = 31. Dezember 2007|
+WEBSITE = www.kestenholz.ch|
+}}
+''' Kestenholz ''' ist eine Kantons Solothurn in der Schweiz.
+
+== Bevölkerung ==
+{| class="prettytable" 
+|- bgcolor="#E1E1E1"
+!colspan="2" | Bevölkerungsentwicklung
+|- bgcolor="#E1E1E1"
+!Jahr
+!Einwohner
+|-
+|align="center"|1837 || align="center"|533
+|-
+|align="center"|1850 || align="center"|587
+|-
+|align="center"|1900 || align="center"|576
+|-
+|align="center"|1950 || align="center"|1058
+|-
+|align="center"|2007 || align="center"|1666
+|}
+
+== Wappen ==
+In weiß auf rotem Wellenbalken Kastanienbaum mit grünen Blättern, fünf braunen Früchten und braunem Stamm.
+
+== Persönlichkeiten ==
+* Joseph Joachim - Schriftsteller (1834–1904)
+* Rainer Bieli - Fussballer (* 22. Februar 1979)
+* Josef Winiger - Übersetzer und Autor (* 1943)
+
+== Weblinks ==
+*[http://www.kestenholz.ch/ Webseite der Gemeinde Kestenholz]
+*

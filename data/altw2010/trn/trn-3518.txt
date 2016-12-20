@@ -1,0 +1,67 @@
+'''Funkcje cyklometryczne''' ('''funkcje kołowe''') &mdash; funkcje odwrotne do funkcji trygonometrycznych ograniczonych do pewnych przedziałów.
+
+Funkcje trygonometryczne rozpatrywane na tych przedziałach są różnowartościowe i mają funkcje odwrotne. Tak więc:
+
+* '''arcus sinus''' jest funkcją odwrotną do funkcji sinus rozpatrywanej na przedziale <math>[-\frac{\pi}{2},\frac{\pi}{2}]</math>. W przedziale tym sinus jest funkcją rosnącą (zatem różnowartościową) &ndash; wobec czego ma funkcję odwrotną, która jest określona na przedziale [-1, 1] (czyli obrazie przedziału <math>[-\frac{\pi}{2},\frac{\pi}{2}]</math> przez funkcję sin).
+* '''arcus cosinus''' jest funkcją odwrotną do funkcji cosinus rozpatrywanej na przedziale <math>[0,{\pi}]</math>. W przedziale tym cosinus jest funkcją malejącą (zatem różnowartościową) &ndash; wobec czego ma funkcję odwrotną, która jest określona na przedziale [-1, 1] (czyli obrazie przedziału <math>[0,{\pi}]</math> przez funkcję cos).
+* '''arcus tangens''' jest funkcją odwrotną do funkcji tangens rozpatrywanej na przedziale (-&pi;/2, &pi;/2). W przedziale tym tangens jest funkcją rosnącą (zatem różnowartościową) &ndash; wobec czego ma funkcję odwrotną, która jest określona na przedziale (-&infin;, +&infin;) (czyli obrazie przedziału (-&pi;/2, &pi;/2) przez funkcję tg).
+* '''arcus cotangens''' jest funkcją odwrotną do funkcji cotangens rozpatrywanej na przedziale (0, &pi;). W przedziale tym cotangens jest funkcją malejącą (zatem różnowartościową), wobec czego ma funkcję odwrotną, która jest określona na przedziale (-&infin;, +&infin;) (czyli obrazie przedziału (0, &pi;) przez funkcję ctg).
+
+Zgodnie z określeniem funkcji odwrotnej:
+* arcsin ''x'' = ''y'' gdy sin ''y'' = ''x''
+* arccos ''x'' = ''y'' gdy cos ''y'' = ''x''
+* arctg ''x'' = ''y'' gdy tg ''y'' = ''x''
+* arcctg ''x'' = ''y'' gdy ctg ''y'' = ''x''
+
+Jak w przypadku funkcji trygonometrycznych nawiasów wokół argumentów nie stawiamy, chyba że prowadziłoby to do niejednoznaczności.
+
+Własności funkcji wynikają natychmiast z twierdzeń o funkcjach odwrotnych. Wszystkie z nich są ciągłe i różniczkowalne.
+
+* arcus sinus jest funkcją rosnącą. Jej dziedziną jest [-1, 1], a przeciwdziedziną [-&pi;/2, &pi;/2]
+* arcus cosinus jest funkcją malejącą. Jej dziedziną jest [-1, 1], a przeciwdziedziną [0, &pi;]
+* arcus tangens jest funkcją rosnącą. Jej dziedziną jest (-&infin;, +&infin;), a przeciwdziedziną (-&pi;/2, &pi;/2)
+* arcus cotangens jest funkcją malejącą. Jej dziedziną jest (-&infin;, +&infin;), a przeciwdziedziną (0, &pi;)
+
+Funkcje arcus sinus i arcus cosinus są związane zależnością <math>\arcsin x + \arccos x = \frac{\pi}{2}</math>, a arcus tangens i arcus cotangens zależnością <math>\operatorname{arctg} x+\operatorname{arcctg} x=\frac{\pi}{2}</math>.
+
+Przykłady:
+* arcsin 0 = 0
+* arcsin 0,5 = &pi;/6
+* arcsin 1 = &pi;/2.
+* arccos 0 = &pi;/2
+* arccos 0,5 = &pi;/3
+* arccos (-1) = &pi;
+* arctg 0 = 0
+* arctg 1 = &pi;/4.
+* arcctg 0 = &pi;/2
+* arcctg 1 = &pi;/4.
+
+Oto wykresy funkcji ''y'' = arcsin ''x'', ''y'' = sin ''x'' oraz prosta ''y'' = ''x''. Wykresy obu funkcji są symetryczne względem tej prostej.
+
+thumb|200px|Arcotangente.
+thumb|200px|Arcosecante e arcocosecante.
+Em inversas das funções trigonométricas. Algumas vezes são chamadas de '''função de arco''', pois retornam o arco correspondente a certa função trigonométrica.
+
+{| class="wikitable" style="text-align:center"
+|- 
+!Nome
+!Notação 1
+!Notação 2
+!Definição
+!Domínio como função real
+!Imagem (em radianos)
+|-
+| arcoseno || ''y'' = arcsin(''x'')|| ''y'' = sin<sup>-1</sup>(''x'')|| ''x'' = sin(''y'')|| [−1,+1] || −π/2 ≤ ''y'' ≤ π/2
+|-
+| arcocosseno || ''y'' = arccos(''x'')|| ''y'' = cos<sup>-1</sup>(''x'')|| ''x'' = cos(''y'')|| [−1,+1] || 0 ≤ ''y'' ≤ π
+|-
+| arcotangente || ''y'' = arctan(''x'')|| ''y'' = tan<sup>-1</sup>(''x'')|| ''x'' = tan(''y'')|| '''R''' || −π/2 < ''y'' < π/2
+|-
+| arcocotangente || ''y'' = arccot(''x'')|| ''y'' = cot<sup>-1</sup>(''x'')||''x'' = cot(''y'')|| '''R''' 
+|  0 < ''y'' < π
+|-
+| arcosecante || ''y'' = arcsec(''x'')|| ''y'' = sec<sup>-1</sup>(''x'')|| ''x'' = sec(''y'')|| ]−∞,−1] ou [1,+∞[ ||  0 ≤ ''y'' < π/2  ou π/2 < ''y'' ≤ π
+|-
+| arcocosecante || ''y'' = arccsc(''x'')|| ''y'' = csc<sup>-1</sup>(''x'')|| ''x'' = csc(''y'')|| ]−∞,−1] ou [1,∞[ || −π/2 ≤ ''y'' < 0 ou 0 < ''y'' ≤ π/2
+|-
+|}

@@ -1,0 +1,136 @@
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = Remanzacco |
+  name = Remanzacco |
+  region = Friuli-Venezia Giulia |
+  province = Province of Udine (UD) |
+  elevation_m =  |
+  area_total_km2   = 30.6 |
+  population_as_of  = Dec. 2004 |
+  population_total = 5774 |
+  population_density_km2 = 189 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          = Ziracco, Selvis, Orzano, Cerneglons |
+  telephone         = 0432 |
+  postalcode        = 33047 |
+  gentilic          = remanzacchesi |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           = [http://www.comune.remanzacco.ud.it www.comune.remanzacco.ud.it] |
+  mapy = 13.3167 |
+  mapx = 46.0833 |
+}}
+'''Remanzacco''' is a ''Italian region Friuli-Venezia Giulia, located about 60 km northwest of Trieste and about 7 km northeast of Udine. As of 31 December 2004, it had a population of 5,774 and an area of 30.6 km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+The municipality of Remanzacco contains the ''frazioni'' (subdivisions, mainly villages and hamlets) Ziracco, Selvis, Orzano, and Cerneglons.
+
+Remanzacco borders the following municipalities: Faedis, Moimacco, Povoletto, Pradamano, Premariacco, Udine.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:6000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:500 start:0
+ScaleMinor = gridcolor:lightgrey increment:100 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:0
+  bar:1871 from: 0 till:2850
+  bar:1881 from: 0 till:2861
+  bar:1901 from: 0 till:3218
+  bar:1911 from: 0 till:3529
+  bar:1921 from: 0 till:3840
+  bar:1931 from: 0 till:3604
+  bar:1936 from: 0 till:3536
+  bar:1951 from: 0 till:3749
+  bar:1961 from: 0 till:3771
+  bar:1971 from: 0 till:3925
+  bar:1981 from: 0 till:4703
+  bar:1991 from: 0 till:5051
+  bar:2001 from: 0 till:5547
+
+PlotData=
+
+  bar:1861 at:0 fontsize:XS text: ? shift:(-8,5)
+  bar:1871 at:2850 fontsize:XS text: 2850 shift:(-8,5)
+  bar:1881 at:2861 fontsize:XS text: 2861 shift:(-8,5)
+  bar:1901 at:3218 fontsize:XS text: 3218 shift:(-8,5)
+  bar:1911 at:3529 fontsize:XS text: 3529 shift:(-8,5)
+  bar:1921 at:3840 fontsize:XS text: 3840 shift:(-8,5)
+  bar:1931 at:3604 fontsize:XS text: 3604 shift:(-8,5)
+  bar:1936 at:3536 fontsize:XS text: 3536 shift:(-8,5)
+  bar:1951 at:3749 fontsize:XS text: 3749 shift:(-8,5)
+  bar:1961 at:3771 fontsize:XS text: 3771 shift:(-8,5)
+  bar:1971 at:3925 fontsize:XS text: 3925 shift:(-8,5)
+  bar:1981 at:4703 fontsize:XS text: 4703 shift:(-8,5)
+  bar:1991 at:5051 fontsize:XS text: 5051 shift:(-8,5)
+  bar:2001 at:5547 fontsize:XS text: 5547 shift:(-8,5)
+
+{{コムーネ
+|nomeComune_ja = レマンツァッコ
+|nomeComune =  Remanzacco
+|linkStemma  =  Remanzacco-Stemma.png 
+|siglaRegione = FVG
+|siglaProvincia  = UD
+|latitudineGradi = 46
+|latitudineMinuti = 5
+|latitudineSecondi = 0
+|longitudineGradi = 13
+|longitudineMinuti = 19
+|longitudineSecondi = 0
+|mappaX = 165
+|mappaY = 37
+|altitudine =  
+|superficie = 30
+|abitanti  =  5,774
+|anno =2004年12月31日
+|densita = 185
+|frazioni = Ziracco, Selvis, Orzano, Cerneglons
+|comuniLimitrofi  = ファエーディス、 モイマッコ、 ポヴォレット、 プラダマーノ、 プレマリアッコ、 ウーディネ
+|cap = 33047
+|prefisso = 0432
+|istat = 030091
+|fiscale = H229
+|nomeAbitanti  =  remanzacchesi
+|patrono  = 洗礼者聖ジョヴァンニ (San Giovanni Battista)
+|festivo  = 6月24日
+|sito = http://www.comune.remanzacco.ud.it
+}}
+'''レマンツァッコ''' ('''Remanzacco''') は、人口5,774人のイタリア共和国フリウリ＝ヴェネツィア・ジュリア州ウーディネ県のコムーネの一つである。
+
+Category:イタリアのコムーネ
+Category:フリウリ＝ヴェネツィア・ジュリア州のコムーネ
+Category:ウーディネ県のコムーネ
+
+eo:Remanzacco

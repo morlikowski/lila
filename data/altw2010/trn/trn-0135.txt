@@ -1,0 +1,33 @@
+The '''Sony timer''' is a Japanese urban legend with a basis in reality.  The legend suggests that the Sony Corporation installs a device in its electronics products which causes them to fail soon after their warranty expires.
+
+While the authenticity of this legend has never been proven definitively, Google returns a large [http://www.google.co.jp/search?hl=ja&q=%E3%82%BD%E3%83%8B%E3%83%BC%E3%83%BB%E3%82%BF%E3%82%A4%E3%83%9E&btnG=Google+%E6%A4%9C%E7%B4%A2&lr= number of search results] in relation to the "Sony timer". Many of these pages are spoofs on Sony's recent poor manufacturing debacles, but some of these sites take the concept very [http://www.dannychoo.com/blog_entry/eng/128/Sony+Timer/ seriously].
+
+Searching for the phrase "[http://www.google.co.jp/search?hl=ja&q=%E3%82%BD%E3%83%8B%E3%83%BC%E3%80%80%E7%84%A1%E5%84%9F%E4%BA%A4%E6%8F%9B&btnG=Google+%E6%A4%9C%E7%B4%A2&lr= Sony Free Replacement]" (in Japanese) shows the number of faulty products Sony has released in Japan, thus spurring customers to imagine the existence of a "Sony Timer". 
+
+While it is unlikely that Sony is explicitly adding expiration devices to their hardware, the "Sony Timer" has also been taken to mean that Sony manufactures devices to withstand just enough use for Sony to produce a new line of the device. This claim is far more difficult to dispute, and may even have some merit.
+
+At the annual shareholders meeting held in June 21 2007 in Japan, the president Ryoji Chubachi said that he knew the word "Sony Timer"<ref>[http://www.watch.impress.co.jp/av/docs/20070621/sony1.htm ソニー、定時株主総会を開催。「利益を伴う成長へ」 「ソニータイマーという言葉は認識している」中鉢社長] (in Japanese), 2007-06-21, AV watch</ref>.
+
+'''ソニータイマー'''（''Sony timer''）とは、ソニーで製造された同一製品が一定期間を経てほぼ同時に壊れるとされる事象。当然ではあるが証明されたものではない。
+
+== 概要 ==
+本来、ソニータイマーとはソニー製品において一定期間使用した後、申し合わせたかのように同じ部品が壊れることを指すことである。実際に壊れる部品は、そのほとんどが現在では消耗部品扱いされている物で、消耗部品という概念が一般に浸透していない時代に誕生した言葉である。
+
+例えば、駆動ベルトなどは一定期間もしくは使用頻度が多くなれば交換を余儀なくされる。これらの消耗部品の交換は、電器店への持ち込み又はサービスマンを呼んで行う必要があり、一定期間で必ず修理を行う事から、その期間をタイマーに喩えられた物である。
+
+実際にはソニータイマーが発生するには、企業の想定を超えて使い続けるか使用頻度が多いという、ソニーにとって皮肉よりも愛着を持つ人が多いという裏付けでもあった。現在では、素材や部品の品質向上、加速劣化試験の向上により、ソニーに限らずこれらの事例は少なくなっている。
+
+近年では製品の多様化により、想定外の部品劣化による故障が目立つようになり、これをソニータイマーと思っている人が増えている。これらの故障は長期の検証が不可能な部品個々に起因することが多い。実際にはどの企業の製品でも起こっている事象であるが、ソニーの様に大量生産する製品では目立つ事例となってしまう。
+
+===歴史的背景===
+1970年代から一部のオーディオファンの間で自然発生的に囁かれた言葉。実際には部品が一定期間を経て劣化し、故障の原因となった事からきた言葉である。当時は駆動ベルトやピンチローラーなどのゴム製品などにおいて現在ほど品質が安定しておらず、熱などの要因である一定期間を経ていきなり切断、もしくは加水分解により溶け出すという事例がソニー製品に限らず相次いで発生した。特にオーディオ系製品ではこれらの部品を多用するため、期間をおいてほぼ同時に壊れることから、ソニー製品の愛好者の間でソニータイマーなどと囁かれた。
+
+映像系製品に於いては、1985年、発売されたHi-BandベータデッキSL-HF900において、1週間もせずに故障するという障害が多発、リコールとなった（実際はヘッドの製造ミス）。買ってすぐに壊れたことから、「店では動いても、自宅に置くと壊れる」「時限装置でも入っているのか?」と言うことが囁かれ、オーディオファン以外にも広まるきっかけとなった。当時、ソニー製のトリニトロンブラウン管を採用したテレビがちょうど10年目で色褪せるという事象が相次いだ。実際には、以前に大ヒットした時代の製品が寿命期を迎えただけなのだが、先のリコールと10年目という節目が目立ったことからソニータイマーと自然発生的に囁かれるようになった。
+
+偶然と誤解が生んだ言葉と考えられる。
+
+==発生要因==
+一般的には、電化製品、機械製品には平均故障間隔（MTBF）という設計寿命が存在する。単純に言えば、一定期間を過ぎたあたりから部品の劣化による故障が発生することとなり、グラフに表すと、故障頻度をY軸、使用期間をX軸とすると、底辺のあるU字型のカーブを描くグラフになる。ソニータイマーと呼ばれる物は、この内の前半の初期不良期、後半の部品劣化期にわけることが出来る。
+
+=== 初期不良の長期化による物 ===
+製品の製造段階に於いて、長期安定した部品を選別入手することは不可能に等しい。このため、初期の製造段階で発見できない劣化故障などを想定し、保証期間を設けている。一般には1年程度だが、使う側の使用頻度にも影響するため、1年を経過して初期不良が発生することもある。保証期間内であれば無償修理の対象となるが、初期不良の期間が長期に及んだ場合は有償修理となり、購入者にとっては痛い出費となる。このため、保証期間を過ぎてすぐに壊れると言う印象を与えることになる。現在では、この事例をソニータイマーと思っている人が多い。

@@ -1,0 +1,79 @@
+thumb|Brückenschaltung mit Spannungsquelle.
+
+Eine '''Brückenschaltung''' oder '''H-Schaltung''' (auch H-Brücke) bezeichnet eine elektrische Schaltung, bei der in der Grundform fünf Zweipole in Form des Großbuchstabens H zusammengeschaltet sind. Die Querverbindung heißt ''Brückenzweig''.
+
+== Prinzip ==
+Eine Brückenschaltung aus Widerständen kann man als Parallelschaltung zweier Spannungsteiler interpretieren, zwischen deren Ausgangsklemmen der Brückenzweig liegt. Der Vorteil der Brückenschaltung gegenüber einem einzelnen Spannungsteiler besteht darin, dass man die Spannung und den Strom im Brückenzweig je nach Einstellung der Widerstände nicht nur in der Höhe sondern auch in der Polarität verändern kann.
+
+Hierbei wird bei Brückenschaltungen zwischen Viertel- (ein Widerstand variabel), Halb- (zwei Widerstände variabel) und Vollbrücken (vier Widerstände variabel) unterschieden.
+
+== Berechnung ==
+Eine Brückenschaltung kann am besten durch die Kirchhoffschen Regeln beschrieben werden. Dazu stellt man zuerst die Knoten- und Maschengleichungen auf. Optional kann man die daraus hergeleiteten Zusammenhänge auch in einer Matrixgleichung darstellen. Eine besondere Herausforderung ist hierbei die Berechnung des Gesamtschaltungswiderstandes wie dies später erläutert wird. 
+
+=== Aufstellen der Knoten- und Maschengleichungen ===
+Beim Aufstellen der Knoten- und Maschengleichungen gehen wir in diesem Beispiel von der Annahme aus, dass die Ströme in Richtung des Spannungspfeils fließen. Ist diese Annahme für einen Strom falsch, so ergibt sich für den Betrag des jeweiligen Stromes ein negatives Vorzeichen, wodurch sich jedoch nicht die Gültigkeit der Gleichungen ändert. Aus den Kirchoffschen Regeln resultieren schließlich die folgenden Knotengleichungen: 
+:<math>+I_0+I_1+I_3=0</math>
+:<math>-I_0-I_2-I_4=0</math>
+:<math>-I_1+I_2-I_5=0</math>
+:<math>-I_3+I_4+I_5=0</math>
+Durch die Maschenregel erhält man die folgenden Gleichungen:
+:<math>-U_0+U_1+U_2=0</math>
+:<math>+U_0-U_1-U_4+U_5=0</math>
+:<math>+U_0-U_2-U_3-U_5=0</math>
+:<math>-U_0+U_3+U_4=0</math>
+:<math>+U_1+U_2-U_3-U_4=0</math>
+:<math>-U_1+U_3+U_5=0</math>
+:<math>+U_2-U_4+U_5=0</math>
+Hierbei sind die Gleichungen nicht vollständig linear unabhängig, weshalb man eine Gleichung weglassen kann. 
+
+Zusätzlich gilt für die einzelnen Widerstände der Zusammenhang
+:<math>\left\{ U_n=R_n\,I_n \left| n\in \mathbb{N} \land n \in \left[ 0,5 \right] \right.\right\}</math>
+oder ausgeschrieben: 
+:<math>U_0=R_0\,I_0\qquad U_1=R_1\,I_1\qquad U_2=R_2\,I_2</math>
+:<math>U_3=R_3\,I_3\qquad U_4=R_4\,I_4\qquad U_5=R_5\,I_5</math>
+Hierbei stellt der Widerstand <math>R_0</math> den Widerstand der Schaltung aus der Sicht der Spannungsquelle dar.
+
+=== Matrixdarstellung der Knoten- und Maschengleichungen ===
+Die Matrixdarstellung ist eine Hilfe bei großen Gleichungssystemen und daher insbesondere bei großen Schaltungen. Um die Matrixdarstellung zu ermitteln setzt man für die einzelnen Spannungen das jeweilige Produkt aus Widerstand und Strom ein. Daraus erhält man: 
+:<math>
+\begin{pmatrix}
+1& 1& 0& 1& 0& 0\\
+-1& 0& -1& 0& -1& 0\\
+0& -1& 1& 0& 0& -1\\
+0& 0& 0&-1& 1& 1
+\\-R_0& R_1& R_2& 0  & 0  & 0   
+\\ R_0&-R_1& 0  & 0  &-R_4& R_5 
+\\ R_0& 0  &-R_2&-R_3& 0  &-R_5 
+\\-R_0& 0  & 0  & R_3& R_4& 0   
+\\ 0  & R_1& R_2&-R_3&-R_4& 0   
+\\ 0  &-R_1& 0  & R_3& 0  & R_5 
+\\ 0  & 0  & R_2& 0  &-R_4& R_5
+\end{pmatrix}\,
+\begin{pmatrix}I_0\\I_1\\I_2\\I_3\\I_4\\I_5\end{pmatrix}
+=
+\begin{pmatrix}
+I_0+I_1+I_3\\
+-I_0-I_2-I_4\\
+-I_1+I_2-I_5\\
+-I_3+I_4+I_5\\
+-U_0+U_1+U_2\\
+U_0-U_1-U_4+U_5\\
+U_0-U_2-U_3-U_5\\
+-U_0+U_3+U_4\\
+U_1+U_2-U_3-U_4\\
+-U_1+U_3+U_5\\
+U_2-U_4+U_5\\
+\end{pmatrix}
+=
+\begin{pmatrix}
+0\\0\\0\\0\\0\\0\\0\\0\\0\\0\\0
+\end{pmatrix}</math>
+
+'''ブリッジ回路'''（ブリッジかいろ、bridge circuit）とは、ある導線からの電流が2つの並列回路に分かれたあと別の1つの導線で再結合し、閉回路を形成している電気回路である。当初は計測に使われていたが、電源回路でも使われる。
+
+thumb|right|ホイートストンブリッジの回路図
+最もよく知られているブリッジ回路は、電気抵抗の計測に使われるホイートストンブリッジである。サミュエル・ハンター・クリスティが発明し、チャールズ・ホイートストンが改良した。4つの抵抗器が四角形に接続されていて、そのうち1つが未知の抵抗器 (Rx) 、別の1つは可変抵抗器 (R2) 、残りの2つは固定抵抗器 (R1,R3) である。ある対角 (A,C) には電池などの電源を、別の対角 (D,B) には検流計 (Rg) を接続して、検流計がゼロを示すように可変抵抗器を調節する。この時、可変抵抗器の値と隣の抵抗器の値の比率 (R2/R1) と、未知の抵抗器と隣の抵抗器の値の比率 (Rx/R3) が等しいことから、未知の抵抗器 (Rx) の値を求めることができる。
+
+交流回路のインピーダンス測定にもホイートストンブリッジが応用され、ウィーンブリッジ、マクスウェルブリッジ、ヘビサイドブリッジなどが開発された。どれも同じ原理で動作し、同じ信号源に接続されている2つのポテンショメータからの出力を比較する。
+
+電源回路におけるブリッジ回路（ブリッジ整流器とも）とは、ダイオード（または類似の素子）を組み合わせて電流を整流する回路である。交流の電流を直流の電流に変換したり、直流電源のプラス・マイナスをどちらに接続しても構わないようにするために使われる。

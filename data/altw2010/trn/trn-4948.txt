@@ -1,0 +1,86 @@
+Um die Beiträge auf Diskussionsseiten zuordnen zu können, ist es in der Wikipedia üblich, Diskussionsbeiträge zu unterschreiben. Diese Seite erklärt, wie du eine solche Unterschrift mit Link auf deine Benutzerseite erzeugst. Bei Artikeln ist eine Signatur nicht sinnvoll, da Artikel in der Regel zahlreiche Autoren haben. Zum Nachvollziehen, wer wann was an einem Artikel geändert hat, dient die Versionsgeschichte.
+
+== Unterschreiben ==
+
+Eine Unterschrift fügst du nach zwei Bindestrichen mit bevorzugterweise vier angemeldeten Benutzern ein Link auf die Benutzerseite, bei nicht angemeldeten Benutzern deren IP-Adresse. 
+
+{| 
+! Die Eingabe von&nbsp;…
+! …&nbsp;wird beim Speichern umgewandelt in&nbsp;…
+! …&nbsp;und auf der Seite angezeigt als&nbsp;…
+|- 
+! <code>-- <nowiki>~~~</nowiki></code>
+| <code>-- <nowiki></nowiki>''Benutzername''</code>
+| -- ''Benutzername''
+|-
+! <code>-- <nowiki>~~~~</nowiki></code>
+| <code>-- <nowiki></nowiki>''Benutzername'' , .  </code>
+| -- ''Benutzername'' , .  
+|-
+! <code>-- <nowiki>~~~~~</nowiki></code>
+| <code>-- , .  </code>
+| -- , .  
+|}
+Die zwei Bindestriche sind aus dem Usenet übernommen, wo zwei Bindestriche und ein Leerzeichen den Beginn einer vierzeiligen Signature kennzeichnen. Sie sind in der Wikipedia nicht zwingend, aber üblich.
+
+Wer in seinen Einstellungen die Editier-Werkzeugleiste angeschaltet hat, kann mit dem Signatur-Icon (Bild:Signature_icon.png) an der Oberseite des Eingabefeldes die vier Tilden einfügen.
+
+== Inhalt der Signatur ändern ==
+
+In den Einstellungen lässt sich ein Spitzname für die Signatur festlegen. Dazu gibst du im Feld "''Unterschrift''" <code>Spitzname</code> ein. Der Link sieht dann so aus: <font color=#FF0000><u><b>Spitzname</b></u></font> (Im Quelltext <code><nowiki>Spitzname</nowiki></code>).
+
+Viele Wikipedianer nutzen einen kleinen Trick, um neben einem Spitznamen auch einen Link auf ihre Diskussionsseite in die Signatur einzubinden. Dazu musst du in den Einstellungen das Häkchen für "''Unterschrift ohne automatische Verlinkung zur Benutzerseite''" aktivieren und im Feld "''Unterschrift''" statt nur deines Spitznamens, eine komplette Signatur mit Wiki-Syntax eingeben. Wenn man das folgende
+:<code><nowiki>Spitzname Diskussion</nowiki></code>
+eingibt, so erhält man <font color=#FF0000><u><b>Spitzname</b></u></font> <font color=#FF0000><u><b>Diskussion</b></u></font>.
+
+== Eigene Signatur hervorheben==
+
+In Wikipedia, la '''firma''' è utilizzata dagli utenti registrati nelle discussioni e nelle votazioni (come ad esempio nei sondaggi), '''non nelle voci'''. La firma standard è composta dal nome utente e da un collegamento alla pagina di discussione dell'utente (msg), seguiti da data e ora.
+
+== Dove e quando firmare ==
+
+Quando firmi rispetta le linee guida:
+
+* '''Si firmano''' gli interventi sulle pagine di discussione
+* '''Non si firmano''' i contributi alle voci dell'enciclopedia
+
+=== Firma i tuoi interventi nelle discussioni ===
+
+Un aspetto fondamentale per Wikipedia e la sua Wikiquette è firmare i propri interventi nelle pagine di discussione di utenti e voci. La firma aiuta gli interlocutori a capire l'evoluzione degli scambi di opinioni e ad attribuire correttamente i commenti ai vari partecipanti alla discussione. Quando partecipi ad una discussione, aggiungi sempre la tua firma (vedi di seguito come).
+
+=== Non firmare nelle voci ===
+
+Le voci di Wikipedia '''non si firmano'''! Il tuo nome viene già automaticamente aggiunto a quello degli altri autori nella cronologia della voce: il software MediaWiki tiene traccia di tutte le modifiche effettuate ed a fianco di esse riporta il nome dell'autore, la data e l'ora del suo contributo. Questo metodo è di gran lunga più preciso rispetto ad un qualsiasi elenco di autori all'interno della voce.
+
+Secondo la GFDL, le voci enciclopediche di Wikipedia possono essere modificate da chiunque, in qualsiasi momento: sono, in un certo senso, di tutti e di nessuno. Anche se una voce viene creata da un singolo ''autore'', ad ogni successiva modifica il contributo originale viene integrato e migliorato; chiunque abbia speso tempo e fatica per contribuire deve poterne essere ugualmente orgoglioso: la cronologia della voce tiene traccia di tutti gli autori. 
+
+Nel caso la voce (o parte sostanziale di essa) sia frutto di una ''donazione'' autorizzata da parte di un singolo o di una organizzazione (es. materiale esplicitamente concesso da un sito web o dall'autore di un libro), il contributo va accreditato con una nota in cima alla pagina di discussione della voce. Le donazioni generalizzate sono elencate inoltre in Wikipedia:Autorizzazioni ottenute.
+
+== Come firmare ==
+
+La firma standard è costituita da 4 tilde: <nowiki>~~~~</nowiki>. Il sistema riconosce anche le varianti con 3 o 5 tilde.
+
+{| 
+!Per visualizzare
+!scrivi
+!viene salvata come
+!è visualizzata come
+|-
+|solo nome
+|<nowiki>~~~</nowiki>
+|<code><nowiki>Tuo nickname (msg)</nowiki></code>
+|Tuo nickname (msg)
+|-
+|nome e ora+data
+|<nowiki>~~~~</nowiki>
+|<code><nowiki>Tuo nickname (msg) 16:42, 2 apr 2007 (CEST)</nowiki></code>
+|Tuo nickname (msg) 16:42, 2 apr 2007 (CEST)
+|-
+|solo ora+data
+|<nowiki>~~~~~</nowiki>&#160;
+|<code><nowiki>16:42, 2 apr 2007 (CEST)</nowiki></code>
+|16:42, 2 apr 2007 (CEST)
+|}
+Affinché questo meccanismo inserisca il tuo username (o il tuo nickname), devi essere registrato e aver effettuato il login.
+
+Se inserisci le tilde, ma non effettui prima il login, il sistema sostituirà alle tilde il tuo indirizzo IP, visualizzandolo. Un motivo in più per registrarsi! Inoltre in questo caso, poiché è improbabile che un utente anonimo abbia una pagina utente, il link porterà direttamente all'elenco dei tuoi contributi.

@@ -1,0 +1,109 @@
+thumb|200px|Le satellite GOES N lançée par une [[Lanceur (astronautique)|fusée Delta IV depuis Cap Canaveral, Floride.]]
+La série '''''Geostationary Operational Environmental Satellite''''' (satellites météorologiques qu'a à sa dispotition ''météorologique (prévision par les métérologistes et prévision numérique du temps) et la recherche. 
+
+==Histoire==
+Depuis le premier satellite Nasa, le SMS-1 en 1974, des améliorations continues ont produit les appareils fiables de la série GOES. Ils sont lançés avec une lettre dans leur indicatif (ex. GOES-A) et si la mise en orbite est un succès, la lettre est remplacée par un chiffre (GOES-A est devenu GOES-1). Ainsi les satellites en orbite sont nommés par une suite continue ignorant les satellites avortés (ex. GOES-G fut détruit au lancement et ne reçut jamais de chiffre).
+
+NOAA. Douze contrats d'études pour la prochaine génération débutant à GOES-R ont été annoncés en octobre 2003.
+
+Voici la liste chronologique :
+{| class="wikitable"
+! Satellite !! Date de lancement !! Statut<ref name="NOAA">{{Lien web
+|url=http://www.ssd.noaa.gov/PS/SATS/ 
+|titre=Information sur les satellites de la NOAA
+|consulté le=2007-12-05
+|éditeur= National Oceanic and Atmospheric Administration}}</ref>
+|-
+| GOES-1 || align="right" | 4 octobre 1975 || bgcolor="#ffdddd" | À la retraite
+|- 
+| GOES-2 || align="right" | 16 juin 1977 ||  bgcolor="#ffdddd" | À la retraite
+|-
+| GOES-3 || align="right" | | bgcolor="#ffffdd" | Encore utilisé comme relais de transmission<br/> pour la base de recherche au [[Pôle Sud
+|-
+| GOES-4 || align="right" | 9 septembre 1980 || bgcolor="#ffdddd" | À la retraite
+|-
+| GOES-5 || align="right" | | bgcolor="#ffdddd" | Désactivé le [[18 juillet 1990
+|- 
+| GOES-6 || align="right" | 28 avril 1983 || bgcolor="#ffdddd" | À la retraite
+|-
+| GOES-7 || align="right" | 28 avril 1987 || bgcolor="#ffdddd" | À la retraite
+|- 
+| GOES-8 || align="right" | 13 avril 1994 || bgcolor="#ffdddd" | À la retraite
+|-
+| GOES-9 || align="right" | | bgcolor="#ffffdd" | Opérations limitées, en location au [[Japon
+|- 
+| GOES-10 || align="right" | 25 avril 1997 || bgcolor="#ddffdd" | Opérationnel
+|-
+| GOES-11 || align="right" | 3 mai 2000 || bgcolor="#ffffdd" | En orbite de réserve
+|- 
+| GOES-12 || align="right" | 23 juillet 2001 || bgcolor="#ddffdd" | Opérationnel 
+|-
+| GOES-13 || align="right" | 24 mai 2006 || bgcolor="#ddffdd" | Opérationnel mais en réserve
+|- 
+| GOES-O <br/>GOES-P || colspan="2" | Doivent être lançés en 2008
+|- 
+| GOES-Q || colspan="2" | Encore à l'étape de conception
+|}
+
+Les cinq GOES opérationnels ont pour mission :
+* Grâce à une antenne de 9 Mb/s.
+* Dans le cadre d'un accord multi-national, après les problèmes de lancement de MTSAT-1, le remplaçant du satellite GMS-5, GOES-9 a été prêté au Japon, pour couvrir le centre de l'océan Pacifique. 
+* GOES-10 est GOES-Ouest couvrant l'est de l'océan Pacifique. 
+* GOES-12 est GOES-Est, orbitant au-dessus de l'Amazone et couvrant le reste des Amériques et d'une partie de l'océan Atlantique.
+* GOES-13 est fonctionnel mais en remisage. Il devait remplacer GOES-10 dans un avenir rapproché mais un problème avec GOES-12, en date du 5 décembre 2007, pourrait changer ces plans<ref name="NOAA2">{{Lien web
+|url= http://www.ssd.noaa.gov/PS/SATS/messages.html
+|titre=Messages sur les GOES de la NOAA
+|consulté le=2007-12-05
+|éditeur= National Oceanic and Atmospheric Administration}}</ref>
+
+thumb|left|300px|GOES-12 : image dans le [[Lumière visible|spectre visible.]]
+thumb|left|300px|GOES-12 : image montrant la [[vapeur d'eau.]]
+<br style="clear:both;"/>
+
+==Caractéristiques techniques==
+Les GOES sont placés en orbite géostationnaire à 35&nbsp;790&nbsp;km de la surface de la Terre. Ils sont stationnés au-dessus d'un point particulier afin de couvrir en continu la même portion du globe 24 heures par jour. La série a connu plusieurs générations, la présente génération a commencé par GOES-I.
+
+Ces satellites sont stabilisés et ''regardent'' la Terre en continu grâce à un système de gyroscopes à trois axes. La mission principale de ces satellites étant la météorologie, ils transportent deux types de capteurs :
+
+:* un longueurs d'onde du spectre électromagnétique dans le visible et l'infrarouge,
+:* un sondeur qui effectue à distance un sondage aérologique de l'atmosphère terrestre pour en tirer la structure de température et d'humidité.
+
+Ces capteurs prennent un certains temps pour acquérir les données sur la partie du globe qu'ils regardent. Chaque partie en est sondée selon la résolution des instruments qui est actuellement de 1 km² sous le point satellitaire et diminue en allant vers les bords du disque terrestre à cause de l'angle de visée. 
+
+Actuellement, les GOES émettent une série d'images toutes les 15 minutes mais en limitant la zone couverte, la fréquence peut être augmentée pour atteindre une série toutes les 7 minutes et demi. Lorsqu'un ouragan ou une tornade frappe l'Amérique du Nord, c'est cette fréquence qui est requise, ce qui oblige à limiter la fenêtre de données au sud du Canada, aux États-Unis et aux Antilles<ref>''[http://www.noaanews.noaa.gov/stories2006/s2561.htm NOAA plans shift in geostationary satellite orbit to improve weather forecast coverage over South America]'' du Magazine publié par la NOAA, 2006.</ref>, la majorité de l'Amérique du Sud n'étant plus couverte que toutes les trois heures. Comme cette situation se produit 40&nbsp;% du temps durant la saison des ouragans et des tornades, le GOES-10 va être repositionné au-dessus de l'Amazone en octobre 2006 pour y remédier, à condition que GOES-N fonctionne normalement pour prendre sa place.
+
+thumb|200px|The GOES N satellite was launched on a [[Delta rocket|Delta IV rocket from launch pad LC-37B, Cape Canaveral Air Force Station, Florida]]
+
+The '''Geostationary Operational Environmental Satellite''' (or '''GOES''') program is a key element in United States' environmental information used to support weather forecasting, severe storm tracking, and meteorological research. Evolutionary improvements in the geostationary satellite system since 1974 (the launch of the first Synchronous Meteorological Satellite, SMS-1) have been responsible for making the current GOES system the basic element for U.S. weather monitoring and forecasting. Spacecraft and ground-based systems work together to accomplish the GOES mission.
+
+==Satellites==
+Four GOES satellites are currently available for operational use:
+* GOES-10 is currently located at 60°W and provides coverage of South America.<ref></ref> See note below. 
+* GOES-11 is designated GOES-West, currently located at 135°W over the Pacific Ocean.<ref></ref>
+* GOES-12 is designated GOES-East, currently located at 75°W over the Amazon River.<ref></ref> It provides most of the U.S. weather information. 
+* GOES-13 is in on-orbit storage at 105°W.<ref></ref>
+
+Several GOES satellites are still in orbit, either inactive or repurposed. GOES-3 is no longer used for weather operations, but is a critical part of the communication links between the United States and Amundsen-Scott South Pole Station. A nine meter dish was constructed at the station, and communication with the satellite is possible for approximately five hours per day. Data rates are around 2.048 Mbit/s bi-directional under optimum conditions. GOES-8 (GOES-East when it was in operation) is in a parking orbit, currently drifting about 4°W daily.<ref></ref> It was decommissioned on April 1, 2003, and deactivated on May 5, 2004, after the failure of its propulsion system.<ref></ref>
+
+Communication was lost for 13 days to GOES-12 on December 4, 2007 when it performed a standard station-keeping maneuver. GOES-11 initially took "full disk" images to cover the lost data until a contingency plan could be implemented.<ref> </ref> On December 5, 2007, GOES-10 was moved from South America operations to temporarily replace GOES-12 as the GOES-EAST operational satellite.<ref></ref> On 9 December, communication with GOES-10 was also temporarily lost, but communication was resumed via a backup antenna.<ref>[http://www.ssd.noaa.gov/PS/SATS/SPBULL/MSG3431654.01.txt GOES-10 Status Bulletin]</ref> GOES-12 was successfully reactivated and moved back to normal operation following a thrust maneuver on 17 December.<ref></ref>
+
+<gallery>
+Image:GOES12Fulldiskvisible.png|GOES-12 visible light image.
+Image:GOES12Fulldiskwatervapor.png|GOES-12 water vapor image.
+</gallery>
+
+==Purpose==
+Designed to operate in Central, Hugo (1989) and Andrew (1992).
+
+The GOES I–M series of spacecraft are the principal observational platforms for covering such dynamic weather events and the near-earth space environment for the 1990s and into the 21st century. These advanced spacecraft enhance the capability of the GOES system to continuously observe and measure atmospheric scientist greatly improved observational and measurement data of the Western Hemisphere. In addition to short-term weather forecasting and space environmental monitoring, these enhanced operational services also improve support for atmospheric science research, numerical weather prediction models, and environmental sensor design and development.  Data is received via the NOAA Command and Data Acquisition ground station at Wallops Island, Virginia<ref>[http://rsd.gsfc.nasa.gov/goes/text/mission.html  GOES-I/M MISSION, Goddard Space Flight Center (Accessed 17 Mar 2008)]</ref>  The GOES satellites are controlled from the Satellite Operations Control Center (SOCC) located in Suitland, Maryland. During significant weather or other events the normal schedules can be altered to provide coverage requested by the National Weather Service and other agencies.
+
+==Payload==
+The main mission is carried out by the primary payload instruments, the Imager and the Sounder. The Imager is a multichannel instrument that senses infrared reflected solar energy from the earth's surface and atmosphere. The Sounder provides data for vertical atmospheric temperature and moisture profiles, surface and cloud top temperature, and ozone distribution.
+
+Other instruments on board the spacecraft are the ground-based meteorological platform data collection and relay, and the space environment monitor. The latter consists of a alpha detector, and an energetic particles sensor, all used for in-situ surveying of the near-earth space environment.
+
+thumb|200px|right|[[Ambigram|Invertible GOES logo designed for Space Systems/Loral by Scott Kim]]
+In addition, the GOES satellites carry search-and-rescue purposes by the U.S. Air Force Rescue Coordination Center.
+
+==Designations==
+GOES spacecraft have been manufactured by Boeing (GOES D-H and N–P) and Space Systems/Loral (A–C, I–M). The procurement, design and manufacturing of GOES is overseen by NASA, while all operations of the satellites once in orbit are done by NOAA. Twelve contracts for advanced architecture studies for GOES-R were announced in October 2003.

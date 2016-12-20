@@ -1,0 +1,35 @@
+Die '''Krulltopologie''', nach topologischen Gruppe wird.
+
+== Definition für Galoiserweiterungen ==
+
+Es sei <math>L/K</math> eine nicht notwendigerweise endliche galoissche Körpererweiterung. Für eine unendliche Erweiterung bedeute dabei ''galoissch'', dass die Erweiterung separabel ist und zu jeder endlichen galoisschen Teilerweiterung <math>K\subseteq M\subseteq L</math> auch die normale Hülle von <math>M</math> enthält.
+
+Es gibt verschiedene Möglichkeiten, die Krulltopologie zu definieren:
+
+1. Man definiert die Umgebungsbasis des neutralen Elements als die Menge
+
+: <math>\{G(L/M)\mid K\subseteq M\subseteq L,\ [M:K]<\infty\}</math>
+
+der Galoisgruppen für über <math>K</math> endliche Teilerweiterungen <math>M</math> .
+
+2. Es gibt eine kanonische Bijektion
+
+: <math>G(L/K)=\lim_M G(M/K),</math>
+
+wobei <math>M</math> alle über <math>K</math> endlichen Teilerweiterungen <math>K\subseteq M\subseteq L</math> durchläuft. Versieht man die endlichen Gruppen <math>G(M/K)</math> mit der diskreten Topologie und den projektiven Limes mit der Limestopologie, so erhält man dieselbe Topologie wie unter 1. Mit dieser Darstellung ist ersichtlich, dass <math>G(L/K)</math> eine proendliche Gruppe ist.
+
+En théorie des groupes, un '''groupe profini''' est une généralisation de la notion de groupes finis. Elle est particulièrement utile en théorie de Galois, pour pouvoir travailler avec des extensions infinies.
+
+Par définition, un groupe profini est la limite projective d'un système projectif de groupes finis dont les flèches sont surjectives.
+
+Comme plus généralement pour les catégories, cette limite projective est uniquement définie à unique isomorphisme près. Elle peut être interprétée comme objet final d'une bonne catégorie.
+
+== Exemples ==
+L'exemple le plus simple de groupe profini provient certainement de la famille des <math>\mathbb{Z}/p^n\mathbb{Z}</math>, où ''p'' est un nombre premier fixé, ''n'' variant parmi les entiers naturels. Il est bien connu qu'il existe des morphismes surjectifs <math>\phi_{m,n}\mathbb{Z}/p^m\mathbb{Z}\rightarrow\mathbb{Z}/p^n\mathbb{Z}</math> pour ''m'' plus grand que ''n'' ; avec de bonne propriétés de composition entre eux. Un élément du groupe profini associé à ce système projectif est alors la donnée d'une famille <math>(\alpha_n)_n</math> où chaque <math>\alpha_n</math> est dans <math>\mathbb{Z}/p^n\mathbb{Z}</math>, et tel que deux coordonnées vérifient toujours : <math>\phi_{m,n}(\alpha_m)=\alpha_n</math>. On note <math>\mathbb{Z}_p</math> ce groupe profini, qui peut par ailleurs être obtenu comme un anneau d'entiers dans la théorie des corps de nombres p-adiques. Ce groupe est en fait le pro-''p''-complété du groupe des entiers relatifs.
+
+En particulier, les entiers relatifs peuvent être vus comme des éléments de ce groupe profini : tout entier peut s'écrire comme une somme finie <math>\alpha=\sum_i a_ip^i</math>, avec ''a<sub>i</sub>'' inférieur à ''p''. On pose alors <math>\alpha_n=\sum_{i\leq n} a_ip^i</math>.
+
+On peut de même construire le complété profini <math>\hat{\mathbb{Z}}</math> du groupe des entiers relatifs en considérant le système projectif formé à partir de tous les <math>\mathbb{Z}/n\mathbb{Z}</math>.
+
+== Topologie ==
+Par le compact, chacun des groupes finis ayant permis de le construire étant muni de la topologie discrète.

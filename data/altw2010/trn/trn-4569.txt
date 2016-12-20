@@ -1,0 +1,116 @@
+In integrated classical electromagnetism.
+
+==Original Ampère's circuital law==
+thumb|right|An electric current produces a magnetic field.
+
+In its historically original form, Ampère's Circuital law relates the magnetic field <math>\mathbf{B}</math> to its source, the current density <math>\mathbf{J}</math>. The equation is not in general correct (see "Maxwell's correction" below), but is correct in the special case where the electric field is constant (unchanging) in time.
+
+The law can be written in two forms, the "integral form" and the "differential form". The forms are equivalent, and related by the Kelvin-Stokes theorem.
+
+===Integral form===
+In SI units, (the version in cgs units is in a later section), the "integral form" of the original Ampère's Circuital law is:
+
+:<math>\oint_C \mathbf{B} \cdot \mathrm{d}\mathbf{l} = \mu_0 \iint_S \mathbf{J} \cdot \mathrm{d}\mathbf{S}</math>
+or equivalently,
+:<math>\oint_C \mathbf{B} \cdot \mathrm{d}\mathbf{l} = \mu_0 I_{\mathrm{enc}}</math>
+where:
+:*<math>\oint_C </math> is the closed line integral around contour (closed curve) ''C''.
+:*<math>\mathbf{B} </math> is the teslas.
+:*<math>\cdot</math> is the vector dot product.
+:*<math>\mathrm{d}\mathbf{l} </math> is an differential) of the contour ''C'' (i.e. a vector with magnitude equal to the length of the infinitesimal line element, and direction equal to the direction of the contour ''C'', see below),
+:*<math>\iint_S</math> denotes an integral over the surface ''S'' enclosed by contour ''C'' (see below). The double integral sign is meant simply to denote that the integral is two-dimensional in nature.
+:*<math>\mu_0 \!\ </math> is the magnetic constant.
+:*<math>\mathbf{J} </math> is the bound and free, through the surface ''S'' enclosed by contour ''C''
+:*<math> \mathrm{d}\mathbf{S} \!\ </math> is the vector area of an infinitesimal element of surface ''S'' (i.e. a vector with magnitude equal to the area of the infinitesimal surface element, and direction normal to surface ''S''. The direction of the normal must correspond with the orientation of ''C'' by the right hand rule, see below for further discussion),
+:*<math>I_{\mathrm{enc}} \!\ </math> is the net current that penetrates through the surface ''S'', both bound and free.
+
+There are a number of ambiguities in the above definitions that warrant elaboration.
+
+First, three of these terms are associated with sign ambiguities: the line integral <math>\oint_C </math> could go around the loop in either direction (clockwise or counterclockwise); the vector area <math>\mathrm{d}\mathbf{S}</math> could point in either of the two directions normal to the surface; and <math>I_{\mathrm{enc}}</math> is the net current passing through the surface ''S'', meaning the current passing through in one direction, minus the current in the other direction--but either direction could be chosen as positive. These ambiguities are resolved by the '''right-hand rule''': When the index-finger of the right-hand points along the direction of line-integration, the outstretched thumb points in the direction that must be chosen for the vector area <math>\mathrm{d}\mathbf{S}</math>, and current passing in that same direction must be counted as positive. The right hand grip rule can also be used to determine the signs.
+
+Second, there are infinitely many possible surfaces ''S'' that have the contour ''C'' as their border. (Imagine a soap film on a wire loop, which can be deformed by blowing gently at it.) Which of those surfaces is to be chosen? If the loop does not lie in a single plane, for example, there is no one obvious choice.  The answer is that it does not matter; it can be proven that any surface with boundary ''C'' can be chosen.
+
+=== Differential form ===
+By the Kelvin-Stokes theorem, this equation can also be written in a "differential form". Again, this equation only applies in the case where the electric field is constant in time; see below for the more general form. In SI units, the equation states:
+
+:<math>\mathbf{\nabla} \times \mathbf{B} = \mu_0 \mathbf{J} </math>
+where
+:<math>\mathbf{\nabla} \times \!\ </math> is the curl operator.
+
+==Corrected Ampère's circuital law: the Ampère-Maxwell equation==
+James Clerk Maxwell conceived of displacement current as a polarization current in the dielectric vortex sea which he used to model the magnetic field hydrodynamically and mechanically. He added this displacement current to Ampère's circuital law at equation (112) in his 1861 paper [http://vacuum-physics.com/Maxwell/maxwell_oplf.pdf On Physical Lines of Force].
+
+The generalized law (in SI units), as corrected by Maxwell, takes the following integral form:
+
+:<math>\oint_C \mathbf{B} \cdot \mathrm{d}\mathbf{l} = \mu_0 \iint_S \mathbf{J} \cdot \mathrm{d} \mathbf{A} +
+\epsilon_0 \mu_0 {\mathrm{d} \over \mathrm{d}t} \iint_S \mathbf{E} \cdot \mathrm{d} \mathbf{A}</math>
+
+where <math> \ \epsilon_0 </math> is the vacuum permittivity and '''E''' is the electric field.
+
+This ''Ampère-Maxwell law'' can also be stated in differential form (with the Kelvin-Stokes theorem):
+
+:<math>\mathbf{\nabla} \times \mathbf{B} = \mu_0 \mathbf{J} + \epsilon_0 \mu_0 \frac{\partial \mathbf{E}}{\partial t}</math>
+
+===Displacement current===
+
+The ''displacement current'' is defined so as to make these equations more transparent. It is defined by
+:<math>\mathbf{J}_D=\epsilon_0 \frac{\partial \mathbf{E}}{\partial t}</math>
+and then the equation is:
+:<math>\oint_C \mathbf{B} \cdot \mathrm{d}\mathbf{l} = \mu_0 \iint_S (\mathbf{J}+\mathbf{J}_D) \cdot \mathrm{d} \mathbf{A}</math>
+(integral form), or
+:<math>\mathbf{\nabla}\times \mathbf{B} = \mu_0(\mathbf{J}+\mathbf{J}_D)</math>
+(differential form).
+
+With the addition of the displacement current, Maxwell was able to postulate (correctly) that light was a form of electromagnetic wave. See electromagnetic wave equation for a discussion on this important discovery.
+
+==Ampère's law in terms of free current==
+===Note on free current versus bound current===
+
+Das '''Durchflutungsgesetz''' ('''Durchflutungssatz''', '''ampèresches Gesetz''') ist ein Gesetz aus der maxwellschen Gleichungen.
+Es wurde von André Marie Ampère entdeckt und bildet für den Magnetismus die Analogie zum Induktionsgesetz.
+
+==Mathematische Formulierung==
+
+===Integrale Form===
+
+Das Gesetz setzt das magnetischen Feldes um eine geschlossene Kurve in Beziehung zum Strom, der durch die von dieser Kurve eingeschlossene Fläche fließt.
+
+Die integrale Form des Gesetzes lautet (Annahme konstanter Stromdichte ist nicht erforderlich):
+: <math>\oint_S \vec{B} \cdot \;\mathrm{d}\vec{s} = \mu_0 I </math>
+: bzw.
+: <math>\oint_S \vec{H} \cdot \;\mathrm{d}\vec{s} = I </math>
+
+wobei
+: <math>\vec{B}</math> das magnetische Feld, genauer die magnetische Flussdichte,
+: <math>\vec{H}</math> die magnetische Feldstärke,
+: <math>\mathrm{d}\vec{s}</math> ein infinitesimales, orientiertes Teilstück der geschlossenen Kurve ''S'',
+: <math>I\!</math> der innerhalb von ''S'' fließende Strom,
+: <math>\mu_0\!</math> die Permeabilität des Vakuums (magnetische Feldkonstante) und
+: <math>\oint_S</math> das geschlossene Kurvenintegral entlang der Kurve ''S'' ist.
+
+===Differentielle Form===
+
+Äquivalent dazu ist die differentielle Form
+: <math>\operatorname{rot} \vec B = \mu_0 \vec j</math> 
+: bzw.
+: <math>\operatorname{rot} \vec H = \vec j_{ext}</math>
+
+<math>\vec{H}</math> ist die paramagnetischen und diamagnetischen Beiträgen durch das Medium (im Vakuum gilt <math>\vec{H} = { 1 \over \mu_0 } \vec{B}</math>).
+Analog ist <math>\vec j</math> die Stromdichte (Strom pro Fläche) und <math>\vec j_{ext}</math> dieselbe Größe ohne Berücksichtigung des durch para- und diamagnetische Effekte induzierten Stroms.
+
+Die Äquivalenz von integraler und differentieller Form wird durch den Satz von Stokes bewiesen.
+
+===Maxwells Erweiterung===
+
+Kondensators zunächst nicht zutrifft, und folgerte die Unvollständigkeit des Gesetzes. Zur Lösung des Problems entwickelte er das Konzept des Maxwellschen Gleichungen ist. Sie ist in integraler Form gegeben durch
+
+: <math>\oint_S \vec{H} \cdot \;\mathrm{d}\vec{s} 
+  ={\partial \over \partial t} \iint_A \vec{D} \cdot \;\mathrm{d}\vec{A} + I
+  =\iint_A \left( \frac{\partial\vec D}{\partial t} + \vec j_{ext}\right) \;\mathrm{d}\vec A 
+  </math>
+: und in differentieller Form
+: <math>\operatorname{rot} \vec{H} = \vec j_{ext} + \dot {\vec D}</math>.
+
+Dabei sind alle Größen wie oben. <math>\vec D</math> ist die elektrische Flussdichte, nämlich die elektrische Feldstärke <math>\vec E</math> ''ohne'' die durch Polarisation erzeugten Felder.
+
+==Anwendung==

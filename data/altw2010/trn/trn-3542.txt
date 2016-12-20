@@ -1,0 +1,64 @@
+'''Risk analysis''' is a technique to identify and assess factors that may jeopardize the success of a project or achieving a goal. 
+This technique also helps to define preventive measures to reduce the probability of these factors from occurring and identify countermeasures to successfully deal with these constraints when they develop to avert possible negative effects on the competitiveness of the company.  
+
+One of the more popular methods to perform a risk analysis in the computer field is called Facilitated Risk Analysis Process (FRAP).
+
+== Facilitated Risk Analysis Process ==
+
+FRAP analyzes one system, application or segment of business processes at time.
+
+FRAP believe that additional efforts to develop precisely quatified risks are not cost effective because:
+* such estimates are time consuming
+* risk documentation becomes too voluminous for practical use
+* specific loss estimates are generally not needed to determine if controls are needed.
+
+After identifying and categorizing risks, The Team identifies the controls that could metigate the risk. The decision for what controls are needed lies with the business Manager.
+The team's conclusions as to what risks exists and what controls needed are documented along with a related action plan for control implimentation.
+
+Three of the most important risks a software company faces are unexpected changes in revenue and costs from those budgeted and amount of specialization of the software planned. Risks that affect revenues can be unanticipated competition, privacy, intellectual property right problems, and unit sales that are less than forecast; unexpected development costs also create risk that can be in the form of more rework than anticipated, security holes, and privacy invasions. 
+<ref>{{cite journal
+|author=Messerschmitt, D. G. and C. Szyperski|title=Marketplace Issues in Software Planning and Design|journal=IEEE Software|volume=21|issue=3|month=May/June|year=2004|pages=62–70|doi=10.1109/MS.2004.1293074}}</ref> 
+
+Muito antes do mundo dos negócios se comportar num mundo globalizado, as pessoas já tinham uma noção da complexidade do inter-relacionamento entre processos de negócios e infra-estrutura nos diferentes ecossistemas corporativos e dos efeitos do clima, da topografia e de outros fatores ambientais sobre a sobrevivência das empresas. Como fazer negócios em diversos continentes pressupõe por sí só alguns riscos, consultorias especializadas em recuperação de desastres expandiram essa noção de sobrevivência para conceitos de continuidade de negócios.
+
+Ao mesmo tempo em que especialistas estavam reunindo informações que nos permitiram acompanhar a consistência, freqüência e cenários de ameaças, novos indícios de contingência e recuperação estavam emergindo para explicar uma causa espantosa e antes desconhecida para muitas dessas ameaças e pressões ambientais externas que desencadeiam a necessidade de proteção para os negócios. Manter-se operacional no mercado significa operar com menos riscos e para isto temos que, no mínimo, conhecê-los.
+
+O entendimento da criticidade de um ambiente de TI vai além do simples apontamento de vulnerabilidades, é um trabalho que exige a sistemática classificação dos ativos, associados a uma matriz que analisa as ameaças, os impactos e a existência de controles para diminuir a janela de vulnerabilidade apresentada.
+
+A Análise de Riscos identifica as ameaças mais prováveis de ocorrência, analisando as vulnerabilidades encontradas na organização e possibilitando a tomada de decisão em relação aos riscos principais. Conhecendo os riscos principais pode-se tomar uma das seguintes medidas: Eliminá-los, Minimizá-los, Compartilhá-los ou Assumi-los.
+
+Conhecer e entender o relacionamento entre processos e ativos é fator de sucesso crítico e decisivo no processo de segurança da Informação. A metodologia pode ser dividida em três partes: reconhecimento (todas as informações sobre o ativo devem ser coletadas), análise (devem ser identificados os relacionamentos existentes) e classificação (baseada na verificação das ameaças, impactos, controles e riscos de cada ativo).
+
+O objetivo primário na recuperação de desastres é garantir a proteção dos ativos críticos frente a determinadas ameaças. Uma ameaça em potencial afeta diretamente aqueles ativos que estão mais expostos, e esta exposição é medida pelo grau de vulnerabilidade aquelas ameaças principais. Neste contexto, a análise de riscos entra em cena. Cada área funcional da organização deve ser analisada para determinar o risco potencial e o impacto relacionado a vários desastres ou ameaças, o que chamamos processo de análise de riscos.
+
+Fonte: http://paulobeck.blogspot.com
+
+Na economia, '''análise de risco''' é a verificação dos pontos críticos que possam vir a apresentar não conformidade durante a execução de um determinado objetivo.  
+
+Sobre Análise de Risco em Finanças, vide Análise Técnica.
+
+A explanação a seguir, tem o foco em Gerenciamento de projetos:
+ 
+Os principais métodos de análise de riscos industriais são:
+
+*	Análise preliminar de riscos - APR;
+*	Análise de falha humana;
+*	Análise de falhas e efeitos.
+
+==='''Análise Preliminar de Riscos'''===
+
+A '''Análise Preliminar de Riscos''' (APR) consiste do estudo, durante a fase de concepção ou desenvolvimento preliminar de um novo projeto ou sistema, com a finalidade de se  determinar os possíveis riscos que poderão ocorrer na sua fase operacional. 
+
+A APR é utilizada portanto para uma análise inicial "qualitativa", desenvolvida na fase de projeto e desenvolvimento de qualquer processo, produto ou sistema, tendo especial importância na investigação de sistemas novos de alta inovação e/ou pouco conhecidos, ou seja, quando a experiência em riscos na sua operação é deficiente. Apesar das características básicas de análise inicial, é muito útil de se utilizar como uma ferramenta de revisão geral de segurança em sistemas já operacionais, revelando aspectos que às vezes  passariam despercebidos. 
+
+A APR teve seu desenvolvimento inicial na área militar.
+
+A APR não é uma técnica profunda de análise de riscos e geralmente precede a aplicação de outras técnicas mais detalhadas de análise, já que seu objetivo principal é determinar os riscos e as medidas preventivas antes da fase operacional. 
+
+No estágio em que é aplicada pode ocorrer de existir ainda outros detalhes finais de projeto e, neste caso, a falta de informações quanto aos procedimentos será ainda maior, já que os mesmos são geralmente definidos posteriormente. 
+
+Os princípios e metodologias da APR consistem em proceder-se uma revisão geral dos aspectos de segurança de forma padronizada:
+
+====Descrevendo todos os riscos e fazendo sua caracterização====
+
+A partir da descrição dos riscos são identificadas as causas (agentes) e efeitos (conseqüências) dos mesmos, o que permitirá a busca e elaboração de ações e medidas de prevenção ou correção das possíveis falhas detectadas; 

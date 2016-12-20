@@ -1,0 +1,14 @@
+'''セルフサービスソフトウェア'''（Self service software）とは、作者（通常、その対象の専門家）が物理的にエンドユーザーの問い合わせや要求に対応することなく対話し、規則を遵守しつつ各種処理をタイムリーに自動化することを可能にする。
+
+セルフサービスソフトウェアでは、開発時に考えられる質問とその応答を用意し、必要な情報をエンドユーザーから引き出すやりとりをエミュレートする。そのような対話プロセスをコード化し、エンドユーザーと対話するアプリケーションを開発（生成）する。
+
+セルフサービスソフトウェアは意思決定支援システムやエキスパートシステムに似ている。ソフトウェアのタイプとしてはナレッジマネジメントの範疇に分類される。セルフサービスソフトウェアは、顧客対応やテクニカルサポートなどの各種問い合わせ業務に利用でき、多様な問い合わせ手段を提供できる。
+
+'''Self service software''' is a subset within the Knowledge Management software category and which contains a range of software that specializes in the way information, process rules and logic are collected, framed within an organized taxonomy, and accessed through decision support interviews. Self-service software allows people to secure answers to their inquiries and/or needs through an automated interview fashion instead of traditional search approaches.  
+
+== Self Service Software Functionality ==
+Self service software allows authors (typically subject matter experts) to readily automate the deployment of, the timeliness of, and compliance around a variety of processes with which they are involved in communicating without having to physically address the questions, needs, and solicitations of end users who are inquiring about the particular process being automated. 
+
+Self service software primarily addresses closed-loop inquiries whereby the author emulates a variety of known (finite) questions and related (known) responses on hand or required steps that must be addressed to derive and deliver a final answer or directive.  Often the author using such software codifies such known processes and steps then generates (publishes) end-user facing applications which can encompass a variety of code bases and platforms.
+
+Self service software is sometimes referred to decision support software and even expert systems.  It is typically categorized as a sub-topic within the knowledge management software category.  Self service software allows individuals and companies alike to tailor and address customer support, technical support and employee support inquiries and needs in an on-demand fashion where the person with a question (need) can interface with the author's generated application via a computer, a handheld device, a kiosk, register, or other machine type to secure their answers as if they were directly interacting (talking to) the author.

@@ -1,0 +1,516 @@
+This guide explains how to build a '''taxobox''', a table setting out the taxonomy for a group of living things, using here.  The essential form is
+
+== Quick start and examples ==
+
+=== Plant species ===
+
+{{Tassonomìa
+| color = lightgreen
+| name = Sweetbay Magnolia
+| image = Sweetbay1082.jpg
+| regnum = Plantae
+| divisio = Magnoliophyta
+| classis = Magnoliopsida
+| ordo = Magnoliales
+| familia = Magnoliaceae
+| genus = ''Magnolia''
+| species = '''''M. virginiana'''''
+| binomial = ''Magnolia virginiana''
+| binomial_authority = L.
+}}
+
+<pre>
+{{Tassonomìa | color = lightgreen
+| name = 
+| regnum = Plantae
+| divisio = 
+| classis = 
+| ordo = 
+| familia = 
+| genus = 
+| species = 
+| binomial = 
+| binomial_authority = 
+}}
+</pre>
+
+<br style="clear:both"/>
+
+=== Animal species ===
+
+{{Tassonomìa
+| color = pink
+| name = Colorado potato beetle
+| image = Colorado_potato_beetle.jpg
+| regnum = Animalia
+| phylum = Arthropoda
+| classis = Insecta
+| ordo = Coleoptera
+| familia = Chrysomelidae
+| genus = ''Leptinotarsa''
+| species = '''''L. decemlineata'''''
+| binomial = ''Leptinotarsa decemlineata''
+| binomial_authority = Say, 1824
+}}
+
+<pre>
+{{Tassonomìa | color = pink
+| name = 
+| regnum = Animalia
+| phylum = 
+| classis = 
+| ordo = 
+| familia = 
+| genus = 
+| species = 
+| binomial = 
+| binomial_authority = 
+}}
+</pre>
+
+<br style="clear:both"/>
+
+=== Plant higher taxon ===
+
+{{Tassonomìa
+| color = lightgreen
+| name = Oaks
+| image = Quercus robur.jpg
+| image_caption = Foliage and acorns of the Pedunculate oak, ''Quercus robur''
+| regnum = Plantae
+| divisio = Magnoliophyta
+| classis = Magnoliopsida
+| ordo = Fagales
+| familia = Fagaceae
+| genus = '''''Quercus'''''
+| genus_authority = L.
+| subdivision_ranks = Species
+| subdivision = 
+See List of ''Quercus'' species.
+}}
+
+<pre>
+{{Tassonomìa | color = lightgreen
+| name = 
+| regnum = Plantae
+| divisio = 
+| classis = 
+| ordo = 
+| familia = 
+| genus = 
+| genus_authority =
+| subdivision_ranks = 
+| subdivision = 
+}}
+</pre>
+
+<br style="clear:both"/>
+
+=== Animal higher taxon ===
+
+{{Tassonomìa
+| color = pink
+| name = Rorquals
+| image = Humpback_Whale_underwater_shot.jpg
+| image_caption = Humpback Whale, ''Megaptera novaeangliae''
+| regnum = Animalia
+| phylum = Chordata
+| classis = Mammalia
+| ordo = Cetacea
+| subordo = Mysticeti
+| familia = '''Balaenopteridae'''
+| familia_authority = Gray, 1864
+| subdivision_ranks = Genera
+| subdivision = 
+''Balaenoptera''<br>
+''Megaptera''
+}}
+
+<pre>
+{{Tassonomìa | color = pink
+| name = 
+| regnum = Animalia
+| phylum = 
+| classis = 
+| ordo = 
+| familia = 
+| genus = 
+| genus_authority =
+| subdivision_ranks = 
+| subdivision = 
+}}
+</pre>
+
+<br style="clear:both"/>
+
+== Name ==
+The name should be the most common name when one is in widespread use, and a scientific name otherwise.
+
+* Common names of higher taxa are always given in sentence case and in the plural (e.g. Marine hatchetfishes).
+* Common names of species and subspecies are sometimes given in title case (e.g. White Wagtail), and sometimes in sentence case (e.g. Colorado potato beetle).
+
+== Color ==
+The ''color'' argument is assigned based on kingdom, with an extra color used for viruses:
+{| class="wikitable"
+|-
+! style="background:pink" | Animalia || pink
+|-
+! style="background:lightgreen" | Plantae || lightgreen
+|-
+! style="background:lightblue" | Fungi || lightblue
+|-
+! style="background:khaki" | Protista || khaki
+|-
+! style="background:lightgrey" | Bacteria || lightgr'''e'''y
+|-
+! style="background:darkgray" | Archaea || darkgr'''a'''y
+|-
+! style="background:violet" | Virus || violet
+|-
+|}
+
+Make sure to spell "lightgrey" with an E and "darkgray" with an A, since some browsers do not accept alternate spellings.  The eukaryote box uses the color "#e0d0b0", but since it is split completely into kingdoms other eukaryote groups should not.
+
+== Classification ==
+As noted above, the classification section includes some or all of the following:
+<pre>
+| regnum =
+| phylum =
+| classis =
+| ordo =
+| familia =
+| genus =
+| species =
+</pre>
+Each entry corresponds to a containing group, except for the last, which should be the group under consideration. Note the entries use the ''Latin'' names for the ranks, to make porting between Wikipedias easier. Thus the above correspond to the kingdom, phylum, class, order, family, genus, and species.
+{{Tassonomìa | color = pink
+| name = Red Wood Ant
+| regnum = Animalia
+| phylum = Arthropoda
+| classis = Insecta
+| ordo = Hymenoptera
+| familia = Formicidae
+| subfamilia = Formicinae
+| tribus = Formicini
+| genus = ''Formica''
+| species = '''''F. rufa'''''
+| binomial = ''Formica rufa''
+| binomial_authority = Linnaeus, 1761
+}}
+Taxoboxes should include all major ranks above the taxon described in the article, plus minor ranks that are important to understanding the classification of the taxon described in the article, or which are discussed in the article. Other minor ranks should be omitted.
+
+For example, in the taxobox for the genus ''Formica'', it's appropriate to include entries for tribe and subfamily, since those are an aid to understanding how ''Formica'' relates to other genera in the family Formicidae. But it wouldn't be appropriate to include the superorder Endopterygota, since all genera of ants are in that superorder; it isn't particularly interesting at this level.
+
+Minor ranks are included in the same way as major ranks, for example:
+<pre>
+| classis = ...
+| subclassis = ...
+| superordo = ...
+| ordo = ...
+</pre>
+Note that species and subspecies should be given using the abbreviated forms of their name — e.g. ''H. sapiens'', ''H. s. sapiens''.  The epithets should not be given by themselves. The full form of the species or subspecies name is given in the binomial or trinomial section.
+
+See #All parameters for a complete list.
+
+=== Divisions and sections ===
+
+These ranks have different meanings in zoology and botany. 
+
+In botany:
+* Use '''divisio''' for division (a rank above class and below kingdom)
+* Use '''sectio''' for section (a rank above species and below genus)
+In zoology:
+* Use '''zoodivisio''' for division (a rank above family and below order)
+* Use '''zoosectio''' for section (a rank above family and below order)
+
+=== Unranked taxa ===
+For each major taxon from family to phylum, you can add an unranked entry to the taxobox. The entry <tt>unranked_X</tt> appears above rank X, for example <tt>unranked_familia</tt> appears above family and superfamily and below order, suborder, infraorder, etc:
+<pre>
+| ordo = 
+| unranked_familia = 
+| familia = 
+</pre>
+Use unranked taxa sparingly. The need to include unranked taxa generally indicates that you are following a cladistic classification. It is usually better to abbreviate the classification to the major ranks and then discuss the classification in more detail in the article.
+
+===Viruses===
+
+Viruses follow a slightly different system.  They are not placed in taxa above the rank of order, and instead are treated in seven groups based on the type of nucleic acid they contain, referred to by the Roman numerals I to VII.  These can be included in the taxobox using the ''virus_group'' argument.  This also changes the link from scientific to virus classification, so should not appear on boxes for non-viruses, even if it is left blank.
+<pre>
+| virus_group = IV
+</pre>
+
+== Bold/italic markup ==
+
+Italicization must be done manually.  Genus, species, and subspecies should be italicized whenever used, as is the biological standard.  For instance, we talk about the genus ''Homo'', the species ''Homo sapiens'', and the species ''Homo sapiens sapiens''.
+* In botany, it is important to include the rank for taxa below species.  The rank is not italicized, e.g. ''Genus species'' subsp. ''subspecies'' var. ''variety''.
+* Some bacteria that have been characterized but not formally named are given ''Candidatus'' names.  These should be written in the form ''Candidatus'' Genus species, rather than italicized normally.
+Higher taxa like families may or may not be italicized in different publications.  The prevalent standard for Wikipedia is not to italicize them, except in the case of viruses and other infectious particles.
+
+Bolding is used to indicate the subject of the article.  The ''name'', ''binomial'', and ''trinomial'' arguments bold automatically.  In the placement section - ''regnum'' through ''species'' - the final taxon should be bolded, as well as any higher groups that only include the final taxon.  See green sulfur bacteria for an example.  In the article itself, the name of the group should only be bolded if it is the title of the article:
+* '''Critter''' (''Creepus crawlus'') is a beastie that lives in habitat.
+* '''''Snagotoothus unkillabilis''''' is a horrible weed with no common name.
+
+== Subdivisions ==
+Groups above the rank of species (and even species if there are several notable subspecies) should usually include a list of subgroups.  Use the ''subdivision'' argument for the list, separating elements by &lt;br/&gt; tags, and the ''subdivision_ranks'' argument to say what rank the subgroups have.  For instance, for families in an order:
+<pre>
+| subdivision_ranks = Families
+| subdivision =
+Family1<br/>
+Family2<br/>
+Family3
+</pre>
+In cases where a list would make the taxobox too long, or where the classification is too variable to allow a brief summary, the list should be replaced with a comment like "See text". or the subdivision section should be omitted. In general, when there are more than about 20 subgroups they should go in the article text, and when there are more than 100 they warrant a separate article.
+
+In cases where the classification is variable, a description like "Typical orders" or "Notable orders" may be used.
+
+In cases where the ranks are uncertain, a description like "Subgroups" or "Taxa" may be preferrable.
+Sometimes it is convenient to represent more than one level of classification in the list.  In that case the lower level groups are moved over to the right by prefixing them with &amp;nbsp; characters - usually three for the first level of indentation, and then one to three more for each subsequent level.  Major grades may also be represented by bolded headers, as on plant and heterokont.  Remember, though, these should mainly be done when the intermediate rank subgroups are not worthy of separate articles; taxoboxes are too small to include too much duplicate information.
+
+:''Ver também: Wikipedia:Como ler uma caixa taxonómica''
+
+= Exemplos simples =
+
+Apresentam-se a seguir alguns exemplos de taxocaixas.
+
+== Espécies de plantas ==
+{|align=left
+{{taxocaixa
+| cor =lightgreen 
+| nome = Oleandro
+| imagem =Nerium oleander2.jpg
+| imagem_legenda =''Nerium oleander''
+| reino = Plantae 
+| divisão = Magnoliophyta 
+| classe = Magnoliopsida 
+| ordem = Gentianales 
+| família = Apocynaceae
+| género = '''''Nerium'''''
+| espécie = '''''N. oleander'''''
+| binomial = ''Nerium oleander''
+| binomial_autoridade = L.
+}}
+|}
+<br style="clear:both"/>
+</div>
+
+<div class="NavFrame" style="text-align:left">
+<div class="NavHead" style="background:lightgreen; ">'''A escrever'''</div>
+<div class="NavContent">
+
+<pre>
+{{taxocaixa
+| cor =lightgreen
+| nome = Oleandro
+| imagem =Nerium oleander2.jpg
+| imagem_legenda =''Nerium oleander''
+| reino = Plantae 
+| divisão = Magnoliophyta 
+| classe = Magnoliopsida 
+| ordem = Gentianales 
+| família = Apocynaceae
+| género = '''''Nerium'''''
+| espécie = '''''N. oleander'''''
+| binomial = ''Nerium oleander''
+| binomial_autoridade = L.
+}}
+</pre>
+</div></div>
+<br style="clear:both"/>
+
+== Espécies de animais ==
+
+{{taxocaixa
+| cor =pink 
+| nome = Texugo europeu
+| imagem =Dachs.jpg
+| imagem_legenda = ''Meles meles''
+| estado = LR/lc 
+| reino = Animalia 
+| filo = Chordata 
+| classe = Mammalia 
+| ordem = Carnivora 
+| família = Mustelidae 
+| subfamília = Melinae
+| género = '''''Meles'''''
+| espécie = '''''M. meles'''''
+| binomial = ''Meles meles''
+| binomial_autoridade = Linnaeus, 1758
+| mapa = Meles meles range map.JPG
+| mapa_legenda = Mapa de distribuição
+}}
+
+<pre>
+{{taxocaixa
+| cor =pink 
+| nome = Texugo europeu
+| imagem =Dachs.jpg
+| imagem_legenda = ''Meles meles''
+| estado = LR/lc
+| reino = Animalia 
+| filo = Chordata 
+| classe = Mammalia 
+| ordem = Carnivora 
+| família = Mustelidae 
+| subfamília = Melinae
+| género = '''''Meles'''''
+| espécie = '''''M. meles'''''
+| binomial = ''Meles meles''
+| binomial_autoridade = Linnaeus, 1758
+| mapa = Meles meles range map.JPG
+| mapa_legenda = Mapa de distribuição
+}}
+</pre>
+<br style="clear:both"/>
+
+==Espécies de vírus==
+{{taxocaixa
+| cor =cyan
+| nome = Vírus de Marburg
+| imagem =Marburg virus.jpg
+| imagem_legenda =  Vírus de Marburg, ampliado cerca de  100.000x
+| reino = Virus
+| ordem = Mononegavirales
+| família = Filoviridae
+| género = ''Marburgvirus''
+| espécie = ''''' Lake Victoria marburgvirus '''''
+}}
+
+<pre>
+{{taxocaixa
+| cor =cyan
+| nome = Vírus de Marburg
+| imagem =Marburg virus.jpg
+| imagem_legenda =  Vírus de Marburg, ampliado cerca de  100.000x
+| reino = Virus
+| ordem = Mononegavirales
+| família = Filoviridae
+| género = ''Marburgvirus''
+| espécie = ''''' Lake Victoria marburgvirus '''''
+}}
+</pre>
+<br style="clear:both"/>
+
+==Galeria de predefinições==
+::Se encontrar um artigo sem taxocaixa, adicione '''<nowiki></nowiki>''' no mesmo, antes das categorias; em alternativa, poderá colocar um esqueleto de taxocaixa, ainda não preenchido, adicionando '''<nowiki></nowiki>''' no topo do artigo.
+::Se adicionar '''<nowiki></nowiki>''' no topo do artigo (e não preencher a taxocaixa), coloque '''<nowiki></nowiki>''' no fundo do artigo.
+::Adicione novos parâmetros nos locais apropriados <u>sem retirar as já existentes</u>.
+::Utilize a predefinição relativa a pedido de imagem <u>'''só''' quando se tratar de espécie conspícua ou de relevante importância</u>.
+
+<div class="NavFrame" style="text-align:left">
+<div class="NavHead" style="background:lightgreen; ">'''Todos parâmetros'''</div>
+<div class="NavContent">
+
+{{taxocaixa
+| cor = pink 
+| nome = Nome
+| estado = PRE
+| estado = EX
+| extinta = 
+| estado = EW
+| estado = CR
+| estado = EN
+| estado = VU
+| estado = NT
+| estado = SE
+| estado = DD
+| imagem = Taxoimagem.png
+| imagem_legenda = Imagem exemplo 
+| domínio =  Domínio
+| super_reino = Super Reino
+| reino = Reino
+| subreino = Subreino
+| infra_reino = Infra-reino
+| filo = Filo
+| superdivisão = Super-divisão
+| divisão = Divisão
+| subfilo = Sub-filo
+| superclasse = Super-classe
+| classe = Classe
+| subclasse = Sub-classe
+| superordem = Super-ordem
+| ordem = Ordem
+| subordem = Sub-ordem
+| infraordem = Infra-ordem
+| parvordem = Parvordem
+| microordem = Micro-ordem
+| superfamília = Super-família
+| família = Família
+| subfamília = Sub-família
+| tribo = Tribo
+| género = Género
+| subgénero = Subgénero
+| espécie = Espécie
+| subespécie = Sub-espécie
+| classe_autoridade = autoridade 
+| subdivisão_nome = Secção aleat.
+| subdivisão = 
+<center>''Ver texto''</center>
+| binomial = ''Nome binominal''
+| binomial_autoridade = (autor(es),  data)
+| trinomial =  nome trinominal 
+| trinomial_autoridade = (autor(es) ,  data)
+| sinónimos = ''Nome binomial''
+| mapa = Exemplo.jpg
+| mapa_legenda = Mapa de distribuição
+}}
+
+<pre>
+{{taxocaixa
+| cor = pink 
+| nome = Nome
+| estado = PRE
+| estado = EX
+| extinta = 
+| estado = EW
+| estado = CR
+| estado = EN
+| estado = VU
+| estado = NT
+| estado = SE
+| estado = DD
+| imagem = Taxoimagem.png
+| imagem_legenda = Imagem exemplo 
+| domínio =  Domínio
+| super_reino = Super Reino
+| reino = Reino
+| subreino = Subreino
+| infra_reino = Infra-reino
+| filo = Filo
+| superdivisão = Super-divisão
+| divisão = Divisão
+| subfilo = Sub-filo
+| superclasse = Super-classe
+| classe = Classe
+| classe_autoridade = Autoridade
+| subclasse = Sub-classe
+| superordem = Super-ordem
+| ordem = Ordem
+| subordem = Sub-ordem
+| infraordem = Infra-ordem
+| parvordem = Parvordem
+| microordem = Micro-ordem
+| superfamília = Super-família
+| família = Família
+| subfamília = Sub-família
+| tribo = Tribo
+| género = Género
+| subgénero = Subgénero
+| espécie = Espécie
+| espécie_autoridade = Autoridade
+| subespécie = Sub-espécie
+| subdivisão_nome = Secção aleat.
+| subdivisão = 
+<center>''Ver texto''</center>
+| binomial = ''Nome binominal''
+| binomial_autoridade = (autor(es), data)
+| trinomial =  nome trinominal 
+| trinomial_autoridade = (autor(es), data)
+| sinónimos = ''Nome binominal''
+| mapa =Exemplo.jpg
+| mapa_legenda = Mapa de distribuição
+}}
+</pre>
+</div></div>
+<br style="clear:both"/>
+
+= '''Notas importantes''' =

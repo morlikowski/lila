@@ -1,0 +1,43 @@
+thumb|[[Cisco Systems Gigabit Switch Router.]]
+
+A '''multilayer switch (MLS)''' is a OSI layer 2 like an ordinary OSI layers. 
+
+== Layer 3 Switching ==
+The major difference between the packet switching operation of a Layer 3 switch is the physical implementation. In general-purpose routers, packet switching takes place using a microprocessor, whereas a Layer 3 switch performs this using application-specific integrated circuit (ASIC) hardware.
+
+==MultiLayer Switch (MLS) - OSI layer 3 and/or 4==
+A Multilayer Switch (MLS) can prioritize packets by the 8 bits in IP DSCP (Type of Service (ToS). 
+
+The following 4 mappings are normally available in an MLS:
+* From OSI layer 2, 3 or 4 to IP DSCP (if IP packet) and/or VLAN IEEE 802.1p.
+* From VLAN IEEE 802.1p to IP DSCP.
+* From IP DSCP to VLAN IEEE 802.1p.
+* From VLAN IEEE 802.1p to port queue.
+
+Many MLSs implement QoS differentiated services and/or integrated services in hardware. 
+
+Some MLS's are also able to route between ports like a common Cisco, Level 3 switches are basically CPU/software that a router would.
+
+==Layer 4-7 switch, web-switch, content-switch==
+Some switches can use up to OSI layer 7 packet information; they are called layer 4-7 switches, content-switches, content services switches, web-switches or application-switches.
+
+'''レイヤ4スイッチ'''（L4スイッチ）は、ネットワーク機器の一種。
+
+L3スイッチがIPヘッダまでの解析を行うのに対し、L4スイッチはTCPヘッダなどのプロトコルヘッダ内のポート番号や、セッションシーケンス番号などの情報を解析したり書換えを行うことで、ネットワークトラフィックの分散や、最適化を行うことを目的とした装置である。
+
+==使用例==
+最も身近なL4スイッチの使用例は、Googleキャッシュであろう。Googleは200台以上のキャッシュサーバを負荷分散することで、検索エンジンとしてずば抜けた高速処理を謳い文句に登場し、アメリカでは最も成長の早い企業の一つとしても認知されている。Google成長を影から支えていたのは、L4スイッチに他ならない。総じて全ての企業にも共通することだが、必要リソースを確保し、特定の部署に負荷が集中しないように分散し、全体が円滑に動作するように管理するのが役職者の役割である。L4スイッチの役割はこれと酷似していることが興味深い。よって、L4スイッチが動作不能に陥ると障害の影響範囲が大きいので、通常はスタンバイ構成で構築される。
+
+==応用装置==
+*負荷分散装置（ロードバランサ）
+*:設置形態はL3スイッチと同様に、2つ以上の異なるネットワークセグメントを収容するように設置される。最小構成でもユーザ側のセグメントとサーバグループ側のセグメントの2セグメントとなる。Webサーバを始め、ファイアウォールや、DNS、SSLアクセラレータなどの負荷を分散する構成が組まれることが多い。すなわち、複数のサーバグループと、それぞれのグループに対応したIPアドレス/プロトコルのテーブルを管理しする。また、サーバに対してヘルスチェックと呼ばれる生死監視、セッション監視、サービス監視などを行うことにより、サーバリソースを最大限に円滑利用することを可能にする。ヘルスチェックの方式により、サーバ側に専用のソフトウェアをインストールする必要がある場合もある。
+*帯域制御装置 (QoS)
+*:設置形態はL2スイッチと同様に設置される。したがって、EthernetフレームヘッダのMACアドレス部の扱いは通常のL2スイッチと同じである。通過するフレーム内の発信元/送信先のIPアドレスTCPポート番号を元にフィルタし、主にAckパケット内のTCPヘッダのシーケンス番号を書き換えることにより、受信Windowサイズ(RWIN)を変更することで送信ホスト側の送信ペースを制御する。これにより回線メディアを仮想的にパーティショニングし、アプリケーションごとに帯域を割り当てることを可能とする。負荷分散装置のサーバリソースの有効利用に対し、回線メディアの有効利用を目的とする。
+*セッション最適化装置（オプティマイザ）
+*:TCPセッションのデフォルトのタイムアウトは6秒である。したがって、メディアの障害以外の処理負荷の問題でタイムアウトが生じた場合、クライアントは最低6秒を待たなければならない。また、そのような状態では再送も頻発することから、通信の効率が急速に低下し、ユーザの皆様はイライラが募ることになる。混雑時のタイムアウトで6秒待つよりも、全ユーザに1秒待っていただければ、全体の円滑な運用につながる。動作原理は帯域制御装置と殆ど同じだが、複雑な設定に悩むこともなく、中継のL2スイッチを置く感覚で設置できる。
+
+==メリット==
+*サーバの負荷を分散し、サーバ単価とハード保守費用を削減する。
+*サーバ能力の拡張が、飛躍的に容易になる。
+*通信要件の異なる業務セッションを、同一経路に統合し、回線の使用効率を上げる。
+*DoS攻撃などへの耐性が高まる。

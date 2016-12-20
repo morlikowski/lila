@@ -1,0 +1,89 @@
+{{Infobox_Game
+| subject_name  = Can't Stop
+| image_link    = 250px
+| image_caption = Sample "game in play"
+| players       = 2-4
+| ages          = 10 to adult
+| designer      = Sid Sackson
+| setup_time    = < 1 minute
+| playing_time  = 30-45 minutes
+| complexity    = medium
+| strategy      = medium
+| random_chance = medium
+| skills        = strategy
+| bggid         = 41
+}}
+'''''Can't Stop''''' is a 1980, and was long out of print in the United States. It was reprinted by Face 2 Face Games in 2007. The goal of the game is to "claim" (get to the top of) three of the columns before any of the other players can. But the more that the player risks rolling the dice during a turn, the greater the risk of losing the advances made during that turn.
+
+== Equipment ==
+<!-- Image with unknown copyright status removed: thumb|250px|left|A homemade ''Can't Stop'' board and pieces.| -->The game equipment consists of four dice, a board, a set of eleven markers for each player, and three neutral-colored markers.
+
+The board consists of eleven columns of spaces, one column for each of the numbers 2 through 12.  The columns (respectively) have 3, 5, 7, 9, 11, 13, 11, 9, 7, 5 and 3 spaces each.  The number of spaces in each column roughly corresponds to the likelihood of rolling them on two dice.
+
+== Rules ==
+On each turn, the player rolls the four dice, then divides them into two pairs, adding up each pair. (For example, a player rolling 1 - 3 - 3 - 4 could make a 4 and a 7, or a 5 and a 6.) If the neutral markers are off the board, they are brought onto the board on the columns corresponding to these totals. If the neutral markers are already on the board in one or both of these columns, they are advanced one space upward. If the neutral markers are on the board, but only in columns that cannot be made with any pair of the current four dice, the turn is over and the player gains nothing.
+
+After moving the markers, the player chooses whether or not to roll again. If the player stops, they put markers of their color in the location of the current neutral markers. If the player restarts this column on a later turn, they start building from the place where they previously placed their markers. If the player does not stop, they must be able to advance one of the neutral markers on their next turn, or lose any advancement made this turn.
+
+When a player reaches the top space of a column and claims it then this column is won, and no further play in that column is allowed. A player claims three columns to win the game.
+
+The official rules merely say "If you can place a marker, you must...", not stating if that applies before or after a player decides how to subdivide the four dice. This rule is potentially confusing because, suppose the player has a neutral marker in the 7-column, with two unplayed.  The player now rolls 2-2-5-5.  Of course, the player wants to declare two sevens.  The player still has an unplayed neutral marker, so is the rule interpreted such that the player must place their remaining two neutral markers, playing on 4 and 10?  The rule may have only been intended to apply to requiring that all die-pairs be played, if possible.  For instance, if the player rolls 3-4-1-2, they may choose to make a 7 and a 3, advancing their 7 marker, and they must also place their 3 marker even though they would prefer to hold it in reserve.
+
+== Strategy ==
+Since this is a dice-based game, success does depend significantly on luck. That being said, a good player will consistently beat a poor player, so there is some tactical and strategic opportunity.
+
+{{ludobox
+|nom=Can't Stop
+|image=Cant stop.svg |taille=240px |légende=Tailles respectives des chemins |fondimage=noir
+|auteur1=Sid Sackson
+|éditeur=Miro Meccano
+|année=1981
+|autre éditeur1=autre éditeur2=[[Asmodée Éditions|Asmodée |autre éditeur3=Ravensburger |autre éditeur4= |autre éditeur5= |autre éditeur6=
+|distributeur be= |distributeur ca= |distributeur fr= |distributeur ch=
+|format1=grande boîte |format2=jeu en sac |format3= |format4= |format5= |format6=
+|mécanisme1=hasard |mécanisme2=prise de risque |mécanisme3= |mécanisme4= |mécanisme5= |mécanisme6=
+|thème1=aucun |thème2=alpinisme |thème3= |thème4= |thème5= |thème6=
+|joueurs mini=2 |joueurs maxi=4
+|âge mini=8 ans et plus
+|durée=15 minutes
+|physique=non |combinatoire=oui |hasard=oui |info=oui
+|image2=Cants stop Asmodée.jpg |légende2=La version Asmodée en sac tissu
+}}
+
+'''Can'Stop''' est un Miro Meccano en 1981. Le jeu a ensuite été publié en 1991 par Asmodée a adapté Can't Stop pour le public francophone sous la forme d'un jeu en sac, facile à emporter, avec un thème tibétain.
+
+Pour 2 à 4 joueurs, à partir de 8 ans pour environ 15 minutes.
+
+==Principe général==
+À son tour, on peut jouer aussi longtemps qu'on le souhaite, mais au risque de perdre tous l'avantage gagné si on ne s'arrête pas à temps. Il n'y a qu'en cessant volontairement de jouer qu'on marque son avance. Si on est contraint d'arrêter, on ne marque aucune avance.
+
+===But du jeu===
+Être le premier joueur à conquérir 3 sommets, quelle que soit leur hauteur.
+
+==Règle du jeu==
+===Matériel===
+Les joueurs disposent chacun de neuf pions. Par ailleurs, trois grimpeurs et quatre dés ordinaires sont à la disposition du joueur dont c'est le tour. Un plan de jeu représente 11 voies d'escalade, numérotées de 2 à 12 et comportant respectivement  de 3 à 13 cases :
+{| class="wikitable"
+! Voie !! 2 !! 3 !! 4 !! 5 !! 6 !! 7 !! 8 !! 9 !! 10 !! 11 !! 12
+|----
+! nombre de cases || 3 || 5 || 7 || 9 || 11 || 13 || 11 || 9 || 7 || 5 || 3
+|----
+|}
+
+===Mise en place===
+thumb|right|280px|La version Ravensburger de 2007Le plan de jeu est vide au départ. Chaque joueur prend les 9 pions à sa couleur, puis le premier joueur reçoit les trois grimpeurs et les quatre dés.
+
+===Déroulement===
+À chaque fois qu'un joueur prend la main, il reçoit les quatre dés. Son tour de jeu est composé de phases successives. À la fin de chaque phase, il décide de s'arrêter ou d'attaquer une nouvelle phase.
+
+====Décomposition d'une phase====
+# Lancer les quatre dés.
+# Grouper les dés deux par deux et les additionner pour former deux nombres. Par exemple le tirage 2,3,4,5 permet de former les nombres suivants : soit 5 et 9 (2+3=5, 4+5=9), soit 6 et 8 (2+4=6,3+5=8) soit  7 et 7 (2+5=7, 3+4=7). 
+Ces deux nombres qui peuvent donc aller de 2 à 12 indiquent les voies à gravir.
+# Avancer si c'est possible deux grimpeurs d'une case sur les voies ainsi déterminées, ou un grimpeur de deux case sur la voie déterminée si les deux nombres composés sont identiques. S'il n'est pas possible d'avancer les deux grimpeurs, il faut au moins en avancer un sur l'une des deux voies. S'il est impossible d'avancer au moins un grimpeur, le tour du joueur est terminé, on dit qu'il a ''décroché''. Il retire les trois grimpeurs du plan de jeu, ne touche pas aux jetons déjà posés et le tour passe au joueur suivant.
+# Si le joueur est parvenu à avancer au moins un grimpeur, il peut alors décider de continuer ou d'arrêter.
+#* S'il continue, il attaque une nouvelle phase depuis le point 1.
+#* S'il arrête, il remplace les grimpeurs par des pions de sa couleur. Ces pions indiquent où le joueur s'était arrêté. Si ultérieurement, il recommence à gravir cette voie, son grimpeur ne partira pas du sol mais du pion posé. En quelque sorte, c'est son camp de base.
+
+====Impossibilité d'avancer un grimpeur====
+Il est impossible de gravir plus de trois voies et une voie conquise ne peut pas non plus être empruntée. Il en résulte que si tous les grimpeurs sont déjà sur des voies qui ne sont pas indiquées par les dés, il est impossible de jouer. Par exemple, les grimpeurs ayant commencé à gravir les voies 5, 8 et 10, vous tirez aux dés 2, 2, 4 et 5 : il est impossible d'obtenir 5, 8 ou 10 avec deux des quatre dés. 

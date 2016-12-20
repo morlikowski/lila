@@ -1,0 +1,153 @@
+== مقدمه ==
+ریشه واژه "heuristic" از لغت eurisco در زبان یونانی است که به معنی «من کشف کردم» می‌باشد. زمانی که ارشمیدس روشی برای محاسبه وزن تاج طلا در حمام پیدا کرد، برهنه از حمام بیرون آمد و فریاد زد: «Eureka!» که به معنی «من آنرا یافتم» است. اما در جستجوی فضای حالت منظور از heuristic قوانینی برای انتخاب شاخه هائی در فضای حالت است که سریعتر می‌تواند به یک پاسخ قابل قبول برای مسئله منجر گردد.
+
+روشهای ابتدائی دیگر در فضای حالت بسیار کورکورانه عمل می‌کنند. به عبارت دیگر هوشمندی و جهت فکری در آنها مشاهده نمی‌شد. اگر فضای حالت مربوط به یک مسئله بزرگ باشد آنگاه روشهای ابتدائی در عمل کارایی نخواهند داشت. روشهای جستجوی هوشمند به دنبال رهیافت‌هایی هستند که از طریق آن فضای جستجو تا حد امکان کوچک شود. اگر چه ممکن است با این کوچک شدن فضای جستجو، احتمال عدم حصول بهترین پاسخ از دست رود، اما حداقل الگوریتم می‌تواند این امید را بوجود آورد که جوابهای قابل پذیرش را تولید خواهد نمود.
+
+== روش‌های کشف کنندگی ==
+
+کشف‌کنندگی  از نظر دانشمندان هوش مصنوعی در دو وضعیت پایه میتواند صورت گیرد: 
+#مسئله‌ای وجود داشته باشد که فاقد راه حل دقیق باشد چرا که در تعریف مسئله و یا داده‌های موجود برای آن ابهام دیده می‌شود. برای مثال می‌توان به تشخیص پزشکی اشاره نمود. مجموعه‌ای از علائم بیماری می‌تواند نشانه وجود چندین بیماری باشد اما پزشکان با توجه به قدرت کشف کنندگی که بر اثر تجربه بدست آمده‌است بهترین تشخیص را انجام داده و بر این اساس اقدام به درمان بیماری می‌کنند. احساس بینائی اغلب با ابهام روبرو است و به همین علت در تشخیص پیوستگی، امتداد و جهت اشیاء دچار اشکال می‌شود. خطای باصره نیز این امر را تشدید می‌کند. سیستم بینائی از کشف کنندگی لازم برخوردار است تا قادر به انتخاب یکی از چند تفسیر ممکن از یک رویداد بصری شود.
+#مسئله‌ای ممکن است پاسخ دقیقی داشته باشد اما هزینه یافتن این پاسخ به قدری سنگین باشد که در عمل مقرون به صرفه نباشد. در بسیاری از مسائل واقعی فضای حالت دارای رشد نمائی یا فاکتوریلی به ازای افزایش عمق جستجو است. در چنین شرایطی روشهای جستجوی کامل مثل جستجوی عمقی یا سطحی در دوره عملی زمانی قادر به یافتن پاسخ نیست. خواص کشف کنندگی به‌وسیله جهت دادن به جستجو بخش قابل ملاحظه‌ای از این فضا را حذف می‌کند. متاسفانه روشهای     کشف کنندگی متکی بر تجربه و یا حس هستند و به همین علت استفاده از آنها در الگوریتم‌ها دشوار است. باید توجه داشت که خاصیت کشف کنندگی به علت حذف بخش قابل توجهی از فضای حالت ممکن است بعضی از جواب‌های بهینه را نیز از دست بدهد و در نهایت به جواب شبه بهینه دست یابد و یا اینکه در این امر توفیقی نداشته باشد.
+
+الگوریتم‌های کشف کننده شامل دو بخش هستند: 
+الف)ملاک کشف کنندگی
+ب)الگوریتمی که بر پایه ملاک کشف کنندگی برای جستجوی فضای حالت مورد استفاده قرار گیرد.
+
+== منابع ==
+
+An '''artificial neural network (ANN)''', often just called a "neural network" (NN), is a connectionist approach to computation. In most cases an ANN is an adaptive system that changes its structure based on external or internal information that flows through the network during the learning phase.
+
+In more practical terms neural networks are find patterns in data. 
+
+thumb|350px|A neural network is an interconnected group of nodes, akin to the vast network of [[neurons in the human brain.]]
+
+==Background==
+thumb|350px|Component based representation of a neural network. This kind of more general representation is used by some [[neural network software.]]
+There is no precise agreed-upon definition among researchers as to what a neurons), which can exhibit complex global behavior, determined by the connections between the processing elements and element parameters. The original inspiration for the technique was from examination of the nodes (called variously "neurons", "neurodes", "PEs" ("processing elements") or "units") are connected together to form a network of nodes &mdash; hence the term "neural network." While a neural network does not have to be adaptive per se, its practical use comes with algorithms designed to alter the strength (weights) of the connections in the network to produce a desired signal flow.
+
+These networks are also similar to the biological neural networks in the sense that functions are performed collectively and in parallel by the units, rather than there being a clear delineation of subtasks to which various units are assigned (see also connectionism). Currently, the term Artificial Neural Network (ANN) tends to refer mostly to neural network models employed in statistics, cognitive psychology and  artificial intelligence. Neural network models designed with emulation of the central nervous system (CNS) in mind are a subject of theoretical neuroscience (computational neuroscience).
+
+In modern software implementations of artificial neural networks the approach inspired by biology has more or less been abandoned for a more practical approach based on statistics and signal processing. In some of these systems neural networks, or parts of neural networks (such as artificial neurons) are used as components in larger systems that combine both adaptive and non-adaptive elements. While the more general approach of such adaptive systems is more suitable for real-world problem solving, it has far less to do with the traditional artificial intelligence connectionist models. What they do, however, have in common is the principle of non-linear, distributed, parallel and local processing and adaptation. 
+
+===Models===
+Neural network models in artificial intelligence are usually referred to as artificial neural networks (ANNs); these are essentially simple mathematical models defining a function <math> f : X \rightarrow Y </math>. Each type of ANN model corresponds to a ''class'' of such functions.
+
+====The ''network'' in ''artificial neural network''====
+The word ''network'' in the term 'artificial neural network' arises because the function <math>f(x)</math> is defined as a composition of other functions <math>g_i(x)</math>, which can further be defined as a composition of other functions. This can be conveniently represented as a network structure, with arrows depicting the dependencies between variables. A widely used type of composition is the ''nonlinear weighted sum'', where <math>f (x) = K \left(\sum_i w_i g_i(x)\right) </math>, where <math>K</math> is some predefined function, such as the hyperbolic tangent. It will be convenient for the following to refer to a collection of functions <math>g_i</math> as simply a vector <math>g = (g_1, g_2, \ldots, g_n)</math>.
+
+thumb|left|150px|ANN dependency graph
+
+This figure depicts such a decomposition of <math>f</math>, with dependencies between variables indicated by arrows. These can be interpreted in two ways.
+
+The first view is the functional view: the input <math>x</math> is transformed into a 3-dimensional vector <math>h</math>, which is then transformed into a 2-dimensional vector <math>g</math>, which is finally transformed into <math>f</math>. This view is most commonly encountered in the context of optimization.
+
+The second view is the probabilistic view: the random variable <math>F = f(G) </math> depends upon the random variable <math>G = g(H)</math>, which depends upon <math>H=h(X)</math>, which depends upon the random variable <math>X</math>. This view is most commonly encountered in the context of graphical models.
+
+The two views are largely equivalent. In either case, for this particular network architecture, the components of individual layers are independent of each other (e.g., the components of <math>g</math> are independent of each other given their input <math>h</math>). This naturally enables a degree of parallelism in the implementation.
+
+thumb|left|120px|Recurrent ANN dependency graph
+
+Networks such as the previous one are commonly called cycles are commonly called recurrent. Such networks are commonly depicted in the manner shown at the top of the figure, where <math>f</math> is shown as being dependent upon itself. However, there is an implied temporal dependence which is not shown. What this actually means in practice is that the value of <math>f</math> at some point in time <math>t</math> depends upon the values of <math>f</math> at zero or at one or more other points in time. The graphical model at the bottom of the figure illustrates the case: the value of <math>f</math> at time <math>t</math> only depends upon its last value.
+
+===Learning===
+However interesting such functions may be in themselves, what has attracted the most interest in neural networks is the possibility of ''learning'', which in practice means the following:
+
+Given a specific ''task'' to solve, and a ''class'' of functions <math>F</math>, learning means using a set of ''observations'', in order to find <math>f^* \in F</math> which solves the task in an ''optimal sense''.
+
+This entails defining a cost function <math>C : F \rightarrow \mathbb{R}</math> such that, for the optimal solution <math>f^*</math>, <math>C(f^*) \leq C(f)</math> <math>\forall f \in F</math> (no solution has a cost less than the cost of the optimal solution).
+
+The cost function <math>C</math> is an important concept in learning, as it is a measure of how far away we are from an optimal solution to the problem that we want to solve. Learning algorithms search through the solution space in order to find a function that has the smallest possible cost.
+
+For applications where the solution is dependent on some data, the cost must necessarily be a ''function of the observations'', otherwise we would not be modelling anything related to the data. It is frequently defined as a statistic to which only approximations can be made. As a simple example consider the problem of finding the model <math>f</math> which minimizes <math>C=E\left[(f(x) - y)^2\right]</math>, for data pairs <math>(x,y)</math> drawn from some distribution <math>\mathcal{D}</math>. In practical situations we would only have <math>N</math> samples from <math>\mathcal{D}</math> and thus, for the above example, we would only minimize <math>\hat{C}=\frac{1}{N}\sum_{i=1}^N (f(x_i)-y_i)^2</math>. Thus, the cost is minimized over a sample of the data rather than the true data distribution.
+
+When <math>N \rightarrow \infty</math> some form of online learning must be used, where the cost is partially minimized as each new example is seen. While online learning is often used when <math>\mathcal{D}</math> is fixed, it is most useful in the case where the distribution changes slowly over time. In neural network methods, some form of online learning is frequently also used for finite datasets.
+
+====Choosing a cost function====
+While it is possible to arbitrarily define some ad hoc cost function, frequently a particular cost will be used either because it has desirable properties (such as convexity) or because it arises naturally from a particular formulation of the problem (i.e., In a probabilistic formulation the posterior probability of the model can be used as an inverse cost). '''Ultimately, the cost function will depend on the task we wish to perform'''. The three main categories of learning tasks are overviewed below.
+
+===Learning paradigms===
+There are three major learning paradigms, each corresponding to a particular abstract learning task. These are supervised learning, unsupervised learning and reinforcement learning. Usually any given type of network architecture can be employed in any of those tasks.
+
+====Supervised learning====
+In supervised learning, we are given a set of example pairs <math> (x, y), x \in X, y \in Y</math> and the aim is to find a function <math> f : X \rightarrow Y </math> in the allowed class of functions that matches the examples. In other words, we wish to ''infer'' the mapping implied by the data; the cost function is related to the mismatch between our mapping and the data and it implicitly contains prior knowledge about the problem domain.
+
+A commonly used cost is the Multi-Layer Perceptrons, one obtains the common and well-known backpropagation algorithm for training neural networks.
+
+Tasks that fall within the paradigm of supervised learning are regression (also known as function approximation). The supervised learning paradigm is also applicable to sequential data (e.g., for speech and gesture recognition). This can be thought of as learning with a "teacher," in the form of a function that provides continuous feedback on the quality of solutions obtained thus far.
+
+====Unsupervised learning====
+In unsupervised learning we are given some data <math>x</math>, and the cost function to be minimized can be any function of the data <math>x</math> and the network's output, <math>f</math>.
+
+The cost function is dependent on the task (what we are trying to model) and our ''a priori'' assumptions (the implicit properties of our model, its parameters and the observed variables).
+
+As a trivial example, consider the model <math>f(x) = a</math>, where <math>a</math> is a constant and the cost <math>C=E[(x - f(x))^2]</math>. Minimizing this cost will give us a value of <math>a</math> that is equal to the mean of the data. The cost function can be much more complicated. Its form depends on the application: For example in compression it could be related to the mutual information between x and y. In statistical modelling, it could be related to the posterior probability of the model given the data. (Note that in both of those examples those quantities would be maximized rather than minimised).
+
+Tasks that fall within the paradigm of unsupervised learning are in general clustering, the estimation of compression and filtering.
+
+====Reinforcement learning====
+In reinforcement learning, data <math>x</math> is usually not given, but generated by an agent's interactions with the environment. At each point in time <math>t</math>, the agent performs an action <math>y_t</math> and the environment generates an observation <math>x_t</math> and an instantaneous cost <math>c_t</math>, according to some (usually unknown) dynamics. The aim is to discover a ''policy'' for selecting actions that minimizes some measure of a long-term cost, i.e. the expected cumulative cost. The environment's dynamics and the long-term cost for each policy are usually unknown, but can be estimated.
+
+More formally, the environment is modeled as a s_t)</math>, the observation distribution <math>P(x_t|s_t)</math> and the transition <math>P(s_{t+1}|s_t, a_t)</math>, while a policy is defined as conditional distribution over actions given the observations. Taken together, the two define a [[Markov chain (MC). The aim is to discover the policy that minimizes the cost, i.e. the MC for which the cost is minimal.
+
+ANNs are frequently used in reinforcement learning as part of the overall algorithm.
+
+Tasks that fall within the paradigm of reinforcement learning are control problems, games and other sequential decision making tasks.
+
+See also: dynamic programming, stochastic control
+
+===Learning algorithms===
+Training a neural network model essentially means selecting one model from the set of allowed models (or, in a optimization theory and statistical estimation.
+
+Most of the algorithms used in training artificial neural networks are employing some form of gradient descent. This is done by simply taking the derivative of the cost function with respect to the network parameters and then changing those parameters in a gradient-related direction.
+
+Evolutionary methods, simulated annealing, and expectation-maximization and non-parametric methods are among other commonly used methods for training neural networks. See also machine learning.</small>
+
+Temporal perceptual learning rely on finding temporal relationships in sensory signal streams. In an environment, statistically salient temporal correlations can be found by monitoring the arrival times of sensory signals. This is done by the perceptual network.
+
+==Employing artificial neural networks==
+Perhaps the greatest advantage of ANNs is their ability to be used as an arbitrary function approximation mechanism which 'learns' from observed data. However, using them is not so straightforward and a relatively good understanding of the underlying theory is essential.
+
+*Choice of model: This will depend on the data representation and the application. Overly complex models tend to lead to problems with learning.
+*Learning algorithm: There are numerous tradeoffs between learning algorithms. Almost any algorithm will work well with the ''correct hyperparameters'' for training on a particular fixed dataset. However selecting and tuning an algorithm for training on unseen data requires a significant amount of experimentation.
+*Robustness: If the model, cost function and learning algorithm are selected appropriately the resulting ANN can be extremely robust.
+
+With the correct implementation ANNs can be used naturally in online learning and large dataset applications. Their simple implementation and the existence of mostly local dependencies exhibited in the structure allows for fast, parallel implementations in hardware.
+
+==Applications==
+The utility of artificial neural network models lies in the fact that they can be used to infer a function from observations. This is particularly useful in applications where the complexity of the data or task makes the design of such a function by hand impractical.
+
+===Real life applications===
+The tasks to which artificial neural networks are applied tend to fall within the following broad categories:
+
+*Function approximation, or regression analysis, including time series prediction and modeling.
+*Classification, including pattern and sequence recognition, novelty detection and sequential decision making.
+*Data processing, including filtering, clustering, blind source separation and compression.
+
+Application areas include system identification and control (vehicle control, process control), game-playing and decision making (backgammon, chess, racing), pattern recognition (radar systems, face identification, object recognition and more), sequence recognition (gesture, speech, handwritten text recognition), medical diagnosis, financial applications (automated trading systems), data mining (or knowledge discovery in databases, "KDD"), visualization  and e-mail spam filtering.
+
+==Neural network software==
+
+'''Neural network software''' is used to simulate, develop and apply artificial neural networks, biological neural networks and in some cases a wider array of adaptive systems. See also logistic regression.
+
+==Types of neural networks==
+===Feedforward neural network===
+
+The feedforward neural network was the first and arguably simplest type of artificial neural network devised. In this network, the information moves in only one direction, forward, from the input nodes, through the hidden nodes (if any) and to the output nodes. There are no cycles or loops in the network.
+
+===Radial basis function (RBF) network===
+
+Radial Basis Functions are powerful techniques for interpolation in multidimensional space.  A RBF is a function which has built into a distance criterion with respect to a centre.  Radial basis functions have been applied in the area of neural networks where they may be used as a replacement for the sigmoidal hidden layer transfer characteristic in Multi-Layer Perceptrons.  RBF networks have two layers of processing:  In the first, input is mapped onto each RBF in the 'hidden' layer.  The RBF chosen is usually a Gaussian.  In regression problems the output layer is then a linear combination of hidden layer values representing mean predicted output.  The interpretation of this output layer value is the same as a regression model in statistics.  In classification problems the output layer is typically a sigmoid function of a linear combination of hidden layer values, representing a posterior probability.  Performance in both cases is often improved by shrinkage techniques, known as ridge regression in classical statistics and known to correspond to a prior belief in small parameter values (and therefore smooth output functions) in a Bayesian framework.
+
+RBF networks have the advantage of not suffering from local minima in the same way as Multi-Layer Perceptrons.  This is because the only parameters that are adjusted in the learning process are the linear mapping from hidden layer to output layer.  Linearity ensures that the error surface is quadratic and therefore has a single easily found minimum.  In regression problems this can be found in one matrix operation.  In classification problems the fixed non-linearity introduced by the sigmoid output function is most efficiently dealt with using iteratively re-weighted least squares.
+
+RBF networks have the disadvantage of requiring good coverage of the input space by radial basis functions.  RBF centres are determined with reference to the distribution of the input data, but without reference to the prediction task.  As a result, representational resources may be wasted on areas of the input space that are irrelevant to the learning task.  A common solution is to associate each data point with its own centre, although this can make the linear system to be solved in the final layer rather large, and requires shrinkage techniques to avoid overfitting.
+
+Associating each input datum with an RBF leads naturally to kernel methods such as Support Vector Machines and Gaussian Processes (the RBF is the kernel function).  All three approaches use a non-linear kernel function to project the input data into a space where the learning problem can be solved using a linear model.  Like Gaussian Processes, and unlike SVMs, RBF networks are typically trained in a Maximum Likelihood framework by maximizing the probability (minimizing the error) of the data under the model.  SVMs take a different approach to avoiding overfitting by maximizing instead a margin.  RBF networks are outperformed in most classification applications by SVMs.  In regression applications they can be competitive when the dimensionality of the input space is relatively small.
+
+===Kohonen self-organizings network===
+
+The self-organizing map (SOM) invented by Teuvo Kohonen uses a form of unsupervised learning. A set of artificial neurons learn to map points in an input space to coordinates in an output space. The input space can have different dimensions and topology from the output space, and the SOM will attempt to preserve these.
+
+===Recurrent network===
+
+Contrary to feedforward networks, recurrent neural networks (RNs) are models with bi-directional data flow. While a feedforward network propagates data linearly from input to output, RNs also propagate data from later processing stages to earlier stages.

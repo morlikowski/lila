@@ -1,0 +1,123 @@
+{{Chembox new
+|   Name = 乙二硫醇
+|   ImageFile = Ethanedithiol.png
+|   ImageSize = 150px
+|   ImageName = 乙二硫醇
+|   ImageFile1 = Ethane-1,2-dithiol-3D-balls.png
+|   ImageSize1 = 150px
+|   ImageName1 = 乙二硫醇的球棍模型
+|   ImageFile2 = Ethane-1,2-dithiol-3D-vdW.png
+|   ImageSize2 = 150px
+|   ImageName2 = 乙二硫醇的空间填充模型
+|   IUPACName = Ethane-1,2-dithiol
+|   OtherNames = 1,2-乙二硫醇、二硫代乙二醇<br />1,2-二巯基乙烷
+| Section1 = {{Chembox Identifiers
+|   SMILES = SCCS
+|   CASNo = 540-63-6
+|   RTECS = KI3325000
+  }}
+| Section2 = {{Chembox Properties
+|   Formula = C<sub>2</sub>H<sub>6</sub>S<sub>2</sub>
+|   MolarMass = 94.20 
+|   Appearance = 无色液体
+|   Density = 1.123 g/cm³ (液)
+|   Solubility = 微溶
+|   Solvent = 其他溶剂
+|   SolubleOther = 可溶于多数有机溶剂
+|   MeltingPt = -41 °C<br />
+|   BoilingPt = 146 °C<br />63 °C, 46 mmHg
+|   pKa = ~11
+|   pKb = 
+|   Viscosity =  
+|   RefractIndex = 1.5589 (D-line, 25 °C) 
+  }}
+| Section3 = {{Chembox Structure
+|   Dipole =
+  }}
+| Section7 = {{Chembox Hazards
+|   ExternalMSDS = 
+|   EUClass = 有毒 ('''T''')
+|   NFPA-H = 2 
+|   NFPA-F = 2 
+|   NFPA-R =
+|   FlashPt = 50 °C
+|   RPhrases = , 
+|   SPhrases = 
+  }}
+| Section8 = {{Chembox Related
+|   Function = 硫醇
+|   OtherFunctn = 乙硫醇、苯硫酚<br />1,3-丙二硫醇、邻苯二硫醇
+  }}
+}}
+
+'''乙二硫醇'''、'''1,2-乙二硫醇'''，分子式为C<sub>2</sub>H<sub>4</sub>(SH)<sub>2</sub>，室温下为无色有气味的液体。可用于有机合成试剂和螯合配体。
+
+==有机合成应用==
+乙二硫醇比酮。后者是有机合成中的重要中间体，也可用于保护。<ref>R. E. Conrow "Ethanedithiol" in Encyclopedia of Reagents for Organic Synthesis (Ed: L. Paquette) 2004, J. Wiley & Sons, New York. DOI: 10.1002/047084289.</ref>
+
+::C<sub>2</sub>H<sub>4</sub>(SH)<sub>2</sub>  +   RR'CO  →  C<sub>2</sub>H<sub>4</sub>S<sub>2</sub>CRR'  +  H<sub>2</sub>O
+
+:400px|用乙二硫醇将其转变为缩硫醛/酮，保护羰基
+
+{{Chembox new
+|   Name = 1,2-Ethanedithiol
+|   ImageFile = Ethanedithiol.png
+|   ImageSize = 150px
+|   ImageName = 1,2-Ethanedithiol
+|   ImageFile1 = Ethane-1,2-dithiol-3D-balls.png
+|   ImageSize1 = 150px
+|   ImageName1 = Ball-and-stick model of ethane-1,2-dithiol
+|   ImageFile2 = Ethane-1,2-dithiol-3D-vdW.png
+|   ImageSize2 = 150px
+|   ImageName2 = Space-filling model of ethane-1,2-dithiol
+|   IUPACName = Ethane-1,2-dithiol
+|   OtherNames = Dimercaptoethane<br />1,2-Ethanedithiol
+| Section1 = {{Chembox Identifiers
+|   SMILES = SCCS
+|   CASNo = 540-63-6
+|   RTECS = KI3325000
+  }}
+| Section2 = {{Chembox Properties
+|   Formula = C<sub>2</sub>H<sub>6</sub>S<sub>2</sub>
+|   MolarMass = 94.20 g/mol
+|   Appearance = Colorless liquid
+|   Density = 1.123 g/cm³, liquid
+|   Solubility = Slightly sol 
+|   Solvent = other solvents
+|   SolubleOther = Good solubility in<br />most organic solvents
+|   MeltingPt = -41 °C<br />
+|   BoilingPt = 146 °C<br />63 °C @46 mmHg
+|   pKa = ~11
+|   pKb = 
+|   Viscosity =  
+|   RefractIndex = 1.5589 (D-line, 25 °C) 
+  }}
+| Section3 = {{Chembox Structure
+|   Dipole =
+  }}
+| Section7 = {{Chembox Hazards
+|   ExternalMSDS = 
+|   EUClass = Toxic ('''T''')
+|   NFPA-H = 2 
+|   NFPA-F = 2 
+|   NFPA-R =
+|   FlashPt = 50 °C
+|   RPhrases =  
+|   SPhrases = 
+  }}
+| Section8 = {{Chembox Related
+|   Function = thiols
+|   OtherFunctn = Ethanethiol; 1,3-Propanedithiol; 1,2-Benzenedithiol; Thiophenol
+  }}
+}}
+
+'''1,2-Ethanedithiol''' is an odorous, colorless liquid with the formula C<sub>2</sub>H<sub>4</sub>(SH)<sub>2</sub>.  It is a common building block in organic synthesis and an excellent ligand for metal ions.
+
+==Preparation==
+1,2-Ethanedithiol is commercially available. It can be prepared by the action of 1,2-dibromoethane on thiourea followed by hydrolysis.<ref></ref>
+
+==Applications==
+This compound is widely used in organic chemistry because it reacts with aldehydes and ketones to give 1,3-dithiolanes, which are useful intermediates.
+<ref>R. E. Conrow "Ethanedithiol" in Encyclopedia of Reagents for Organic Synthesis (Ed: L. Paquette) 2004, J. Wiley & Sons, New York. DOI: 10.1002/047084289.</ref>
+
+::C<sub>2</sub>H<sub>4</sub>(SH)<sub>2</sub>  +   RR'CO  →  C<sub>2</sub>H<sub>4</sub>S<sub>2</sub>CRR'  +  H<sub>2</sub>O

@@ -1,0 +1,96 @@
+{{Info/Comuna da França|
+|nome         = Montjoux
+|nomefr       = Montjoux
+|região       = Ródano-Alpes
+|departamento = Drôme
+|área         = 18,35
+|altitude     = 
+|latP         = | latG = | latM = |latS = 
+|lonP         = | lonG = | lonM = |lonS = 
+|população    = 295
+|densidade    = 16
+|censo        = 1999
+|insee        = 26202 <!-- Código INSEE -->
+|códpostal    = 26220 <!-- Código postal -->
+|mapa         = <!-- Insira apenas o nome da imagem -->
+|mapaX        = <!-- Coordenada X no mapa -->
+|mapaY        = <!-- Coordenada Y no mapa -->
+|escudo       = <!-- Insira apenas o nome da imagem -->
+|bandeira     = <!-- Insira apenas o nome da imagem -->
+|imagem       = <!-- Insira apenas o nome da imagem -->
+|legenda      = <!-- Legenda para a imagem -->
+|gentílico    = 
+|website      = 
+|notas        = 
+}}
+'''Montjoux''' é uma região administrativa de departamento de km&sup2;, com 295 habitantes, segundo os densidade de 16 hab/km&sup2;.
+
+Categoria:Comunas da França
+Categoria:Comunas de Rhône-Alpes
+Categoria:Comunas do departamento de Drôme
+
+{{infobox Franse gemeente|
+|plaatsnaam= Montjoux
+|wapen= 
+|kaart= 
+|regio= Rhône-Alpes 
+|departement= Drôme (26)
+|arrondissement= Valence
+|kanton= Dieulefit
+|jaar= 1999
+|inwoners= 295
+|dichtheid= 16,4
+|oppervlakte= 18,0
+|water= 
+|latitudeGraden= 44 |latitudeMinuten= 30|latitudeSeconden= 0
+|longitudeGraden= 5 |longitudeMinuten= 6 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 216 |kaartY= 216
+|code= 26202
+|postcode= 26220
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Montjoux''' is een gemeente in het Franse departement Drôme (regio Valence.
+
+==Geografie==
+De oppervlakte van Montjoux bedraagt 18,0 km², de bevolkingsdichtheid is 16,4 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:420 color:gray1 width:1       
+  from:start till:end             
+  bar:280 color:gray1              
+  from:start till:end            
+  bar:140 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,85)(84,84) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 160 1968: 158
+  points:(84,84)(100,90)    color:blue    width:2 #1975: 172
+  points:(100,90)(128,113)   color:blue    width:2 #1982: 229
+  points:(128,113)(160,122)   color:blue    width:2 #1990: 252
+  points:(160,122)(196,139)   color:blue    width:2 #1999: 295
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

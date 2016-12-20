@@ -1,0 +1,61 @@
+{{Chembox new
+|ImageFile=Diaminobutane.png
+|ImageSize=
+|ImageName=Putrescine
+|ImageFile1=Putrescine-stickAndBall.png
+|ImageSize1=
+|ImageName1=Putrescine 3D
+|IUPACName=butane-1,4-diamine
+|OtherNames=
+|Section1= {{Chembox Identifiers
+|  CASNo=110-60-1
+|  PubChem=1045
+|  SMILES=NCCCCN
+|  MeSHName=Putrescine
+  }}
+|Section2= {{Chembox Properties
+|  Formula=C<sub>4</sub>H<sub>12</sub>N<sub>2</sub>
+|  MolarMass=88.1516
+|  Appearance=
+|  Density=
+|  MeltingPt=}&nbsp;°C
+|  BoilingPt=}&nbsp;°C
+|  Solubility=
+  }}
+|Section3= {{Chembox Hazards
+|  MainHazards=
+|  FlashPt=
+|  Autoignition=
+  }}
+}}
+'''Putrescine''' (sometimes spelled '''putrescin''' or '''putrescene''') is an organic chemical compound NH<sub>2</sub>(CH<sub>2</sub>)<sub>4</sub>NH<sub>2</sub> (1,4-diaminobutane or butanediamine). It is related to cadaverine; both are produced by the breakdown of amino acids in living and dead organisms and both are toxic in large doses.<ref></ref><ref></ref> The two compounds are largely responsible for the foul odor of putrefying flesh, but also contribute to the odor of such processes as bad breath and bacterial vaginosis. They are also found in semen and some microalgae, together with related molecules like spermine and spermidine.
+
+==History==
+Putrescine and cadaverine were first described by the Berlin physician Ludwig Brieger in 1885. 
+
+==Production and use==
+Putrescine is produced on industrial scale by DSM under the trade name Stanyl. 
+
+==Biochemistry==
+Putrescine attacks s-adenosyl methionine and converts it to spermidine. Spermidine in turn attacks another s-adenosyl methionine and converts it to spermine.
+
+Putrescine is synthesized in small quantities by healthy living cells by the action of ornithine decarboxylase. The polyamines, of which putrescine is one of the simplest, appear to be growth factors necessary for cell division.
+
+==Toxicity==
+Putrescine is toxic in large doses. In rats it had a fairly low acute oral toxicity of 2000 mg/kg body weight[http://cat.inist.fr/?aModele=afficheN&cpsidt=2714745].
+
+{{Infobox 有機化合物
+| 構造式=180px|プトレシンの構造式
+| IUPAC=ブタン-1,4-ジアミン
+| 別名=プトレッシン<br />1,4-ジアミノブタン<br />テトラエチレンジアミン
+| 分子式=C<sub>4</sub>H<sub>12</sub>N<sub>2</sub> | 分子量=88.15 | CAS登録番号=110-60-1 
+| 形状=無色透明液体 | 密度=0.877 | 相=液体 (25 ℃)
+| 融点=25-28 | 沸点=158-160 | SMILES=NCCCCN
+| 出典=<!-- [http://www.sigmaaldrich.com/catalog/search/ProductDetail/ALDRICH/D13208 Aldrich]<br />[http://www.tciamerica.com/cgi-bin/tkkjp-catalog.cgi?catalog_no=D0239 東京化成] -->
+}}
+
+'''プトレシン''' (putrescine, putrescin, putrescene) はアミンの一種で、腐肉の臭いの成分である。
+
+カダベリンに類似した性質を持つ。これらは共に、生きている、または死んだ生物中に存在するアミノ酸が分解することによって生成する。
+
+健常な細胞中でもオルニチン脱炭酸酵素によって少量合成されている。プトレシンは最も単純なポリアミンの1つであり、ポリアミンは細胞分裂に必須な増殖因子であるとされている。

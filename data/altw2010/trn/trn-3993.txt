@@ -1,0 +1,33 @@
+In de informatica is een '''subroutine''', '''functie''' of '''procedure''' (soms ook '''subprogramma''' genoemd) een duidelijk afgebakend programmablok met een eigen naam binnen een computerprogramma, dat elders in het programma aangeroepen (uitgevoerd) kan worden. De naam die aan subprogramma's wordt gegeven kan afhangen van de gebruikte programmeertaal.
+
+==Onderscheid tussen procedures en functies==
+Sommige programmeertalen, zoals Pascal, maken onderscheid tussen procedures en functies; functies zijn dan een speciale geval van procedures, die een resultaatwaarde retourneren aan het aanroepende programma. Ze worden vooral gebruikt voor het implementeren van wiskundige functies.
+
+In andere talen, zoals C, worden alle subroutines functies genoemd, ook als ze geen waarde retourneren.
+
+In functionele talen worden (vrijwel) alleen functies in de wiskundige zin gebruikt. In zuiver functionele talen als Clean kunnen deze functies zelfs geen neveneffecten veroorzaken.
+
+==Redenen om een subprogramma te gebruiken==
+Er zijn verschillende redenen om een subprogramma te gebruiken:
+*Om redundantie te vermijden;
+*Om code in meerdere programma's en toepassingen te kunnen hergebruiken;
+*Om de complexiteit van een programma in kleinere, beter beheersbare delen te kunnen opsplitsen; 
+*Om de leesbaarheid van een programma te verbeteren;
+*Om een deel van een programma te verbergen of beschermen.
+
+==Parameters en returnwaarden==
+Veel programmeertalen faciliteren het doorgeven van gegevens tussen het aanroepende programma en het 
+subprogramma. Deze gegevens worden vanuit het aanroepende programma aan het subprogramma doorgegeven als parameters. 
+Hierbij wordt onderscheid gemaakt tussen invoer- en uitvoerparameters. Invoerparameters geven alleen waarden aan het subprogramma door. Uitvoerparameters geven data vanuit het subprogramma terug aan het hoofdprogramma.
+Meer strikte talen als C# (programmeertaal) kennen een aparte type waarin de parameters beiden kunnen zijn, andere talen gebruiken de uitvoerparameters tevens als invoerparameter.
+
+Over het algemeen gesproken zijn er drie mechanismen van het doorgeven van parameters aan subprogramma's:
+;''pass by value'' : Bij dit mechanisme wordt, in de aanroep van een subprogramma, voor iedere formele parameter van het subprogramma een uitdrukking in de zin van de programmeertaal opgegeven. Tijdens het uitvoeren van het programma wordt, bij aanroep van het subprogramma, die expressie doorgerekend. De waarde van die expressie wordt dan als initiële waarde van de formele parameter doorgegeven aan het subprogramma. Een duidelijk kenmerk van dit mechanisme ten opzicht van andere mechanismes is dat als de expressie bestaat uit een programma-variabele, de ''waarde'' van die variabele doorgegeven wordt aan het subprogramma maar de variabele zelf niet. Wat het subprogramma ook met die waarde of de formele parameter doet, heeft geen effect op de waarde van de programma-variabele.
+;''pass by reference'' : Bij dit mechanisme wordt een formele parameter van het subprogramma een synoniem voor een variabele van het hoofdprogramma. Kenmerkend voor dit mechanisme is dat ieder verandering aan de formele parameter in het subprogramma ook direct een verandering is aan de waarde van de doorgegeven variabele. De meeste talen die dit mechanisme gebruiken, stellen verplicht dat wat er doorgegeven wordt aan het subprogramma als parameter een variabele is en niets anders.
+;''pass by name'' : Bij dit mechanisme wordt, bij aanroep van een subprogramma, de naam van een variabele doorgegeven. Tijdens het uitvoeren van het programma wordt in de programmatekst van het subprogramma de naam van de formele parameter vervangen door de doorgegeven variabelenaam. Dit mechanisme wordt eigenlijk niet meer gebruikt -- het is moeilijk te begrijpen en te volgen, het maakt recursie in subprogramma's moeilijk of onmogelijk, het introduceert fouten en moeilijkheden omdat subprogramma's feitelijk geen eigen naamruimte hebben en het is mogelijk om programma's te forceren waarvan het gedrag onverwacht is of waarvan de uitvoering zelfs vastloopt.
+
+Trong mã trong một chương trình lớn hơn, phần mã này thực hiện một tác vụ cụ thể và tương đối độc lập với phần mã còn lại.
+
+Một chương trình con thường được viết mã sao cho nó có thể được chạy (hay được gọi) nhiều lần và/hoặc từ nhiều nơi trong thời gian chạy của một chương trình, thậm chí có thể được gọi bởi chính nó. Do tính năng này, chương trình con là một công cụ lập trình mạnh. Việc sử dụng hợp lý chương trình con (chẳng hạn qua phong cách lập trình cấu trúc) thường dẫn đến việc giảm đáng kể kích thước và chi phí của một chương trình, trong khi nâng cao tính dễ đọc và độ tin cậy của chương trình. Các chương trình con, thường được tập trung thành các thư viện, là một cơ chế quan trong cho việc chia sẻ và tái sử dụng mã.
+
+Một số Pascal và C và phương thức''' thường được dùng trong đối tượng.

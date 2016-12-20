@@ -1,0 +1,22 @@
+right|thumb|250px|Imagem ampliada dos pontos produzidos por uma [[impressora jato de tinta em qualidade rascunho. A área original é um quadrado com lado de 0,5 polegadas impresso com 150 pontos por polegada (75&times;75 pontos).]]
+
+'''Pontos por polegada''' (ppp), em inglês ''dots per inch'' (dpi), é uma medida de densidade relacionada à composição de imagens, que expressa o número de pontos individuais que existem em uma polegada linear na superfície onde a imagem é apresentada. Também é comum encontrar referências a essa densidade pelo termo "resolução de imagem" ou simplesmente "resolução". A resolução é indicada pela composição da densidade horizontal e vertical, que podem ser iguais ou diferentes. De maneira geral, quanto maior o número de pontos por polegada, mais detalhada e bem definida é a imagem.  
+
+Interpretações rigorosas fazem distinção entre diferentes densidades de imagem, da seguinte maneira:
+*"Pontos por polegada" para imagens gravadas em algum suporte (papel, transparência etc.) por uma impressora.
+*"Pixels por polegada" para imagens apresentadas em monitores de vídeo.
+*"Amostras por polegada" para imagens captadas por sensores óticos (de câmeras digitais, scanners etc.).
+
+Popularmente, entretanto, fabricantes de equipamentos e consumidores utilizam o termo "pontos por polegada" para qualquer uma dessas situações. A expressão "pixels por polegada", em inglês ''pixels per inch (ppi)'', é normalmente reservada para mostradores eletrônicos, como monitores de vídeo e outras tipos de telas digitais.
+
+==Impressoras pessoais==
+
+Normalmente, uma impressora pode trabalhar com densidades diferentes de impressão, que podem ser escolhidas pelo usuário em função de sua necessidade. A escolha da densidade é disponibilizada pelo controlador de dispositivo da impressora (''printer's device driver''). Densidades maiores levam mais tempo para imprimir, gastam mais tinta ou toner, e produzem imagens de melhor qualidade.
+
+'''dpi''' (произносится как ''дипиай'') — сокращение для  точек на дюйм. Применяется для указания разрешающей способности при вводе или выводе информации с/на плоский носитель<!-- ну не знаю, как лучше сказать, было же намного хуже! -->. Измеряется числом точек, приходящихся на дюйм поверхности. Например обозначение 600×300 dpi для принтера означает, что его разрешающая способность равна 600 точек по горизонтали и 300 точек по вертикали на 1 дюйм.
+
+1DPI = 1PPI (пикселей на дюйм) для принтера, использующего смешивание красок при печати. В случае, если принтер печатает без смешивания красок, N*DPI = 1PPI, где N - кол-во цветов, используемое при печати. Этим отличаются струйные принтеры от фотомашин: при равной детализации то есть равных ppi струйные принтеры имеют значительно более высокое значение dpi так как ставят много точек чтобы передать один пиксель изображения.
+
+При печати изображения правильно использовать термин PPI, если речь идёт о выводе пикселей на бумагу, хотя все пользуются термином DPI по историческим соображениям. Реально DPI должен интересовать калибровщика принтера и персонал сервис центров, а не оператора. Также у сканеров в разрешающей способности указывают DPI, но сканер реально точки (dots) никуда не ставит и надо говорить не о DPI, а о PPI. Но в умах потребителей DPI это и есть PPI, но в технических характеристиках производители всегда пишут DPI чтобы было больше.
+
+PPI имеет значение если надо напечатать изображение определённого размера. Скажем, если надо напечатать изображение 10×10 см. с разрешением в 300 PPI, то 10 см делим на 2,54 (1 дюйм = 2,54 см) получаем 3,94×3,94 дюймов фотография. Теперь надо 3,94 умножить на 300 и получаем размер фотографии в пикселях 1181×1181.

@@ -1,0 +1,1006 @@
+'''酸化還元酵素'''〈さんかかんげんこうそ、oxidoreductase〉とはEC第1群に分類される酵素で、酸化還元反応を触媒する酵素である。'''オキシドレダクターゼ'''とも呼ばれる<ref>酸化還元酵素、『世界大百科事典』、CD-ROM版、平凡社</ref>。生体内では多数の酸化還元酵素が知られており、約560種類ともいわれる<ref>オキシドレダクターゼ、『理化学辞典』、第5版、岩波書店</ref>。
+
+==概要==
+酸化還元酵素は酸化還元反応により物質代謝を触媒するだけでなく、酸化反応により発生するエネルギー産生〈ATP産生〉にも関与する。酸化還元酵素はデヒドロゲナーゼ、レダクターゼ，オキシダーゼ，オキシゲナーゼ，ペルオキシダーゼ、トランスヒドロゲナーゼ、カタラーゼなどの名称で呼ばれる。
+
+生体内での酸化還元反応は
+#水素原子〈ヒドリド〉の移動
+#電子の移動
+#酸素原子の付加
+
+のいずれかの形式をとる。
+
+水素原子の移動を伴う反応〈脱水素反応〉を触媒する酵素の多くは脱水素酵素〈デヒドロゲナーゼ〉と呼ばれる。これらの酵素の水素元はNADなど水素供与体に由来するが、一部細菌などがもつヒドロゲナーゼ〈hydrogenase〉には直接水素分子を授受する物もある。  
+
+電子移動を触媒する酵素の代表は電子伝達系を構成するチトクロムである。
+
+そして分子状酸素を基質とする酸化還元酵素は酸化酵素〈オキシダーゼ〉と呼ばれる。オキシダーゼは取り込まれる酸素分子の配分形式の違いにより
+*ジオキシゲナーゼ - 二つの酸素原子が別の位置に挿入される
+*モノオキシゲナーゼ(ヒドロキシラーゼ hydroxylaseとも呼ぶ) - 一方の酸素原子が挿入され、他方は水H<sub>2</sub>Oとなる
+*ペルオキシダーゼ - ペルオキシ基 -O-O- が挿入される
+
+とに分類される。
+
+多くの酸化還元酵素は金属元素が存在し、鉄ポルフィリン〉、銅が代表的な活性中心金属である。
+
+酸化還元酵素に関与する酸化・還元受容体は限られており、NAD,NADPなどの補酵素、チトクロム類、酸素、ジスルフィド、キノン化合物などが知られており、EC番号のEC1群は酸化・還元受容体の種類でも区分されている。
+
+== EC.1.-(酸化還元酵素)==
+===EC.1.1.-(CH-OHの結合に対し酸化酵素として働く)===
+====EC.1.1.1.-(NAD又はNADPを用いる)====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/1.html EC.1.1.1.1] アルコールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/2.html EC.1.1.1.2] アルコールデヒドロゲナーゼ(NADP)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/3.html EC.1.1.1.3] ホモセリンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/4.html EC.1.1.1.4] (R,R-ブタンジオールデヒドロゲナーゼ)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/5.html EC.1.1.1.5] アセトインデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/6.html EC.1.1.1.6] グリセロールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/7.html EC.1.1.1.7] プロパンジオールリン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/8.html EC.1.1.1.8] グリセロール-3-リン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/9.html EC.1.1.1.9] D-キシロースレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/10.html EC.1.1.1.10] L-キシロースデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/11.html EC.1.1.1.11] D-アラビニトール-4-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/12.html EC.1.1.1.12] L-アラビニトール-4-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/13.html EC.1.1.1.13] L-アラビニトール-2-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/14.html EC.1.1.1.14] L-イジトール-2-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/15.html EC.1.1.1.15] D-イジトール-2-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/16.html EC.1.1.1.16] ガラクチトール-2-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/17.html EC.1.1.1.17] マンニトール-1-リン酸-5-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/18.html EC.1.1.1.18] Myo-イノシトール-2-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/19.html EC.1.1.1.19] グルクロ酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/20.html EC.1.1.1.20] グルクロラクトンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/21.html EC.1.1.1.21] アルデヒドレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/22.html EC.1.1.1.22] UDP-グルコース-6-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/23.html EC.1.1.1.23] ヒスチジノールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/24.html EC.1.1.1.24] キナ酸5-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/25.html EC.1.1.1.25] シキミ酸5-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/26.html EC.1.1.1.26] グリコール酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/27.html EC.1.1.1.27] L-乳酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/28.html EC.1.1.1.28] D-乳酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/29.html EC.1.1.1.29] グリセル酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/30.html EC.1.1.1.30] 3-ヒドロキシブチル酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/31.html EC.1.1.1.31] 3-ヒドロキシイソブチル酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/32.html EC.1.1.1.32] メバロン酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/33.html EC.1.1.1.33] メバロン酸レダクターゼ(NADPH)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/34.html EC.1.1.1.34] ヒドロキシメチルグルタリルCoAレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/35.html EC.1.1.1.35] 3-ヒドロキシアシルCoAデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/36.html EC.1.1.1.36] アセトアシルCoAレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/37.html EC.1.1.1.37] リンゴ酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/38.html EC.1.1.1.38] リンゴ酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/39.html EC.1.1.1.39] リンゴ酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/40.html EC.1.1.1.40] リンゴ酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/41.html EC.1.1.1.41] イソクエン酸デヒドロゲナーゼ(NAD)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/42.html EC.1.1.1.42] イソクエン酸デヒドロゲナーゼ(NADP)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/43.html EC.1.1.1.43] 6-ホスホグルコン酸-2-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/44.html EC.1.1.1.44] ホスホグルコン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/45.html EC.1.1.1.45] L-グロン酸-3-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/46.html EC.1.1.1.46] L-アラビノース-1-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/47.html EC.1.1.1.47] グルコース-1-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/48.html EC.1.1.1.48] D-ガラクトース-1-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/49.html EC.1.1.1.49] グルコース6-リン酸-1-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/50.html EC.1.1.1.50] 3α-ヒドロキシステロイドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/51.html EC.1.1.1.51] 3(or17)-β-ヒドロキシステロイドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/52.html EC.1.1.1.52] 3α-ヒドロキシコール酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/53.html EC.1.1.1.53] 3α(or20β)-ヒドロキシステロイドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/54.html EC.1.1.1.54] アリルアルコールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/55.html EC.1.1.1.55] ラクトアルデヒドレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/56.html EC.1.1.1.56] リビトール-2-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/57.html EC.1.1.1.57] フルクツロン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/58.html EC.1.1.1.58] タガツロン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/59.html EC.1.1.1.59] 3-ヒドロキシプロピオン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/60.html EC.1.1.1.60] 2-ヒドロキシ-3-オキソプロピオン酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/61.html EC.1.1.1.61] 4-ヒドロキシ酪酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/62.html EC.1.1.1.62] エストラジオール-17β-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/63.html EC.1.1.1.63] テストステロン-17β-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/64.html EC.1.1.1.64] テストステロン-17β-デヒドロゲナーゼ(NADP)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/65.html EC.1.1.1.65] ピリドキシン-4-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/66.html EC.1.1.1.66] ω-ヒドロキシデカン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/67.html EC.1.1.1.67] マンニトール-2-デヒドロゲナーゼ
+*EC.1.1.1.68 欠番　&rarr; EC.1.7.99.5 
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/69.html EC.1.1.1.69] グルコン酸5-デヒドロゲナーゼ
+*EC.1.1.1.70 欠番　&rarr; EC.1.2.1.3 
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/71.html EC.1.1.1.71] アルコールデヒドロゲナーゼ(NAD(P))
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/72.html EC.1.1.1.72] グリセノールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/73.html EC.1.1.1.73] オクタノールデヒドロゲナーゼ
+*EC.1.1.1.74 欠番　削除
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/75.html EC.1.1.1.75] (R)-アミノプロパノールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/76.html EC.1.1.1.76] (S,S)-ブタンジオールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/77.html EC.1.1.1.77] ラクタルアルデヒドレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/78.html EC.1.1.1.78] D-ラクタルアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/79.html EC.1.1.1.79] グリオキシル酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/80.html EC.1.1.1.80] イソプロパノールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/81.html EC.1.1.1.81] ヒドロキシピルビン酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/82.html EC.1.1.1.82] リンゴ酸デヒドロゲナーゼ(NADP)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/83.html EC.1.1.1.83] D-リンゴ酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/84.html EC.1.1.1.84] ジメチルリンゴ酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/85.html EC.1.1.1.85] 3-イソプロピルリンゴ酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/86.html EC.1.1.1.86] ケトール酸レダクトイソメラーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/87.html EC.1.1.1.87] 3-カルボキシ-2-ヒドロキシアジピン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/88.html EC.1.1.1.88] ヒドロキシメチルグルタリルCoAレダクターゼ
+*EC.1.1.1.89 欠番　&rarr; EC.1.1.1.86　 
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/90.html EC.1.1.1.90] アリルアルコールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/91.html EC.1.1.1.91] アリルアルコールデヒドロゲナーゼ(NADP)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/92.html EC.1.1.1.92] オキサログリコール酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/93.html EC.1.1.1.93] タルトロン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/94.html EC.1.1.1.94] グリセロール-3-リン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/95.html EC.1.1.1.95] ホスホグリセリン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/96.html EC.1.1.1.96] ジヨードフェニルピルビン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/97.html EC.1.1.1.97] 3-ヒドロキシベンジルアルコールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/98.html EC.1.1.1.98] (R)-2-ヒドロキシ脂肪酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/99.html EC.1.1.1.99] (S)-2-ヒドロキシ脂肪酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/100.html EC.1.1.1.100] 3-オキソアシル(アシル輸送たんぱく質)レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/101.html EC.1.1.1.101] アシルグリセロンリン酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/102.html EC.1.1.1.102] 3-デヒドロスフィンガニンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/103.html EC.1.1.1.103] L-スレオニン-3-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/104.html EC.1.1.1.104] 4-オキソプロリンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/105.html EC.1.1.1.105] レチノールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/106.html EC.1.1.1.106] パントテン酸-4-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/107.html EC.1.1.1.107] ピリドキサル-4-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/108.html EC.1.1.1.108] カルチニン-3-デヒドロゲナーゼ
+*EC.1.1.1.109 欠番　&rarr; EC.1.3.1.28　 
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/110.html EC.1.1.1.110] インドール-3-乳酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/111.html EC.1.1.1.111] 3-(イミダソゾール-5-イル)乳酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/112.html EC.1.1.1.112] インダノールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/113.html EC.1.1.1.113] L-キシロース-1-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/114.html EC.1.1.1.114] アピオース-1-レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/115.html EC.1.1.1.115] リボース-1-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/116.html EC.1.1.1.116] D-アラビノース-1-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/117.html EC.1.1.1.117] D-アラビノース-1-デヒドロゲナーゼ(NAD(P))
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/118.html EC.1.1.1.118] グルコース-1-デヒドロゲナーゼ(NAD)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/119.html EC.1.1.1.119] グルコース-1-デヒドロゲナーゼ(NADP)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/120.html EC.1.1.1.120] ガラクトース-1-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/121.html EC.1.1.1.121] アルドース-1-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/122.html EC.1.1.1.122] D-スレオアルドース-1-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/123.html EC.1.1.1.123] ソルボース-5-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/124.html EC.1.1.1.124] フルクトース-5-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/125.html EC.1.1.1.125] 2-デオキシ-D-グルコン酸-3-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/126.html EC.1.1.1.126] 2-デヒドロ-D-グルコン酸-5-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/127.html EC.1.1.1.127] 2-デヒドロ-D-グルコン酸-6-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/128.html EC.1.1.1.128] L-イドン酸-2-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/129.html EC.1.1.1.129] L-スレオン酸-3-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/130.html EC.1.1.1.130] 3-デヒドロ-L-グロン酸-2-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/131.html EC.1.1.1.131] マンヌロン酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/132.html EC.1.1.1.132] GDP-マンノース-6-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/133.html EC.1.1.1.133] dTDP-4-デヒドロラムノースレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/134.html EC.1.1.1.134] dTDP-6-デオキシ-L-タロース-4-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/135.html EC.1.1.1.135] GDP-6-デオキシ-D-タロース-4-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/136.html EC.1.1.1.136] UDP-N-アセチルグルコサミン-6-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/137.html EC.1.1.1.137] リビトール-5-リン酸-2-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/138.html EC.1.1.1.138] マンニトール-2-デヒドロゲナーゼ
+*EC.1.1.1.139 欠番　&rarr; EC.1.1.1.21 
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/140.html EC.1.1.1.140] ソルビトール-6-リン酸-2-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/141.html EC.1.1.1.141] 15-ヒドロキシプロスタグランジンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/142.html EC.1.1.1.142] D-ピニトールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/143.html EC.1.1.1.143] セクオイトールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/144.html EC.1.1.1.144] ペリリルアルコールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/145.html EC.1.1.1.145] 3β-ヒドロキシ-δ(5)-ステロイドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/146.html EC.1.1.1.146] 11-β-ヒドロキシステロイドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/147.html EC.1.1.1.147] 16-α-ヒドロキシステロイドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/148.html EC.1.1.1.148] エストラジオール-17-α-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/149.html EC.1.1.1.149] 20-α-ヒドロキシステロイドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/150.html EC.1.1.1.150] 21-ヒドロキシステロイドデヒドロゲナーゼ(NAD)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/151.html EC.1.1.1.151] 21-ヒドロキシステロイドデヒドロゲナーゼ(NADP)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/152.html EC.1.1.1.152] 3α-ヒドロキシ-5β-アンドロスタン-17-オン-3α-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/153.html EC.1.1.1.153] セピアプテリンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/154.html EC.1.1.1.154] ウレイドグリコール酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/155.html EC.1.1.1.155] ホモイソクエン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/156.html EC.1.1.1.156] グリセロール-2-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/157.html EC.1.1.1.157] 3-ヒドロキシブチリルCoAレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/158.html EC.1.1.1.158] UDP-N-アセチルムラミン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/159.html EC.1.1.1.159] 7-α-ヒドロキシステロイドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/160.html EC.1.1.1.160] ジヒドロブノノールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/161.html EC.1.1.1.161] コレスタンテトラオール-26-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/162.html EC.1.1.1.162] エリスルロースレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/163.html EC.1.1.1.163] シクロペンタノールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/164.html EC.1.1.1.164] ヘキサデカノールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/165.html EC.1.1.1.165] 2-アルキン-1-オールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/166.html EC.1.1.1.166] 炭酸ヒドロキシシクロヘキサンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/167.html EC.1.1.1.167] ヒドロキシマロン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/168.html EC.1.1.1.168] 2-デヒドロパントラクトンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/169.html EC.1.1.1.169] 2-デヒドロパント酸-2-レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/170.html EC.1.1.1.170] ステロール-4α-炭酸-3-デヒドロゲナーゼ
+*EC.1.1.1.171 欠番　&rarr; EC.1.5.1.20
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/172.html EC.1.1.1.172] 2-オキソアジピン酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/173.html EC.1.1.1.173] L-ラムノース-1-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/174.html EC.1.1.1.174] シクロヘキサン-1,2-ジオールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/175.html EC.1.1.1.175] D-キシロース-1-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/176.html EC.1.1.1.176] 12α-ヒドロキシステロイドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/177.html EC.1.1.1.177] グリセロール-3-リン酸-1-デヒドロゲナーゼ(NADP)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/178.html EC.1.1.1.178] 3-ヒドロキシ-2-メチルブチリルCoAレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/179.html EC.1.1.1.179] D-キシロース-1-デヒドロゲナーゼ(NADP)
+*EC.1.1.1.180 欠番　&rarr; EC.1.1.1.131 
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/181.html EC.1.1.1.181] コレスト-5-エン-3β-7α-ジオール-3βデヒドロゲナーゼ
+*EC.1.1.1.182 欠番　&rarr; EC.1.1.1.198,EC.1.1.1.227,EC.1.1.1.228 
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/183.html EC.1.1.1.183] ゲラニオールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/184.html EC.1.1.1.184] カルボニルレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/185.html EC.1.1.1.185] L-グリコールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/186.html EC.1.1.1.186] dTDP-ガラクトース6-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/187.html EC.1.1.1.187] GDP-4-デヒドロ-D-ラムノースレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/188.html EC.1.1.1.188] プロスタグランジン-Fシンターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/189.html EC.1.1.1.189] プロスタグランジン-E2-9-レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/190.html EC.1.1.1.190] インドール-3-アセトアルデヒドレダクターゼ(NADH)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/191.html EC.1.1.1.191] インドール-3-アセトアルデヒドレダクターゼ(NADPH)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/192.html EC.1.1.1.192] 長鎖アルコールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/193.html EC.1.1.1.193] 5-アミノ-6-(5-ホスホリボシルアミノ)ウラシルレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/194.html EC.1.1.1.194] コニフェリルアルコールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/195.html EC.1.1.1.195] シナミルアルコールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/196.html EC.1.1.1.196] 15-ヒドロキシプロスタグランジンDデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/197.html EC.1.1.1.197] 15-ヒドロキシプロスタグランジンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/198.html EC.1.1.1.198] (+)-ボルネオールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/199.html EC.1.1.1.199] (S)-ウスン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/200.html EC.1.1.1.200] アルドース-6-リン酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/201.html EC.1.1.1.201] 7-β-ヒドロキシステロイドレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/202.html EC.1.1.1.202] 1,3-プロパンジオールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/203.html EC.1.1.1.203] ウロン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/204.html EC.1.1.1.204] キサンチンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/205.html EC.1.1.1.205] IMPデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/206.html EC.1.1.1.206] トロピンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/207.html EC.1.1.1.207] (-)-メントールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/208.html EC.1.1.1.208] (+)-ネオメントールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/209.html EC.1.1.1.209] 3(or17)-α-ヒドロキシステロイドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/210.html EC.1.1.1.210] 3β(or20α)-ヒドロキシステロイドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/211.html EC.1.1.1.211] 長鎖-3-ヒドロキシアシルCoAデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/212.html EC.1.1.1.212] 3-オキソアシル-(アシル輸送たんぱく質)-レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/213.html EC.1.1.1.213] 3α-ヒドロキシステロイドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/214.html EC.1.1.1.214] 2-デヒドロパントラクトンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/215.html EC.1.1.1.215] グルコン酸-2-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/216.html EC.1.1.1.216] ファルネゾールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/217.html EC.1.1.1.217] ベンジル-2-メチル-ヒドロキシ酪酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/218.html EC.1.1.1.218] モルヒネ6-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/219.html EC.1.1.1.219] ジヒドロカンプフェロール4-レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/220.html EC.1.1.1.220] 6-ピルボイル-3-ヒドロキシプテリン2'-レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/221.html EC.1.1.1.221] ボミフォリオールレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/222.html EC.1.1.1.222] (R)-4-ヒドロキシフェニル乳酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/223.html EC.1.1.1.223] イソピペリテノールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/224.html EC.1.1.1.224] マンノース6リン酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/225.html EC.1.1.1.225] クロルデコンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/226.html EC.1.1.1.226] 4-ヒドロキシシクロヘキサンカルボン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/227.html EC.1.1.1.227] (-)-ボルネオールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/228.html EC.1.1.1.228] (+)-サビノールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/229.html EC.1.1.1.229] ジエチル-2-メチル-3-オキソコハク酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/230.html EC.1.1.1.230] 3α-ヒドロキシグリシルレチン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/231.html EC.1.1.1.231] 15-ヒドロキシ2プロスタグランジンIデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/232.html EC.1.1.1.232] 15-ヒドロキシイコサテトラエン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/233.html EC.1.1.1.233] N-アシルマンノースアミン-1-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/234.html EC.1.1.1.234] フラボノン4-レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/235.html EC.1.1.1.235] 8-オキソコホルミチンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/236.html EC.1.1.1.236] トロピノンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/237.html EC.1.1.1.237] ヒドロキシフェニルピルビン酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/238.html EC.1.1.1.238] 12β-ヒドロキシステロイドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/239.html EC.1.1.1.239] 3α(17β)-ヒドロキシステロイドデヒドロゲナーゼ (NAD)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/240.html EC.1.1.1.240] N-アシルヘキソースアミン-1-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/241.html EC.1.1.1.241] 6-エンドヒドロキシシネオールデヒドロゲナーゼ
+*EC.1.1.1.242 欠番　&rarr; EC.1.3.1.69
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/243.html EC.1.1.1.243] カルベオールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/244.html EC.1.1.1.244] メタノールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/245.html EC.1.1.1.245] シクロヘキサノールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/246.html EC.1.1.1.246] プテロカルピンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/247.html EC.1.1.1.247] コデイノンレダクターゼ (NADPH)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/248.html EC.1.1.1.248] サルタリジンレダクターゼ (NADPH)
+*EC.1.1.1.249 欠番　&rarr; EC.2.5.1.46 
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/250.html EC.1.1.1.250] D-アラビニトール-2-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/251.html EC.1.1.1.251] ガラクチトール-1リン酸5-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/252.html EC.1.1.1.252] テトラヒドロキシナフタレンレダクターゼ
+*EC.1.1.1.253 欠番　&rarr; EC.1.5.1.33 
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/254.html EC.1.1.1.254] (S)-カルチニン-3-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/255.html EC.1.1.1.255] マンニトールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/256.html EC.1.1.1.256] フルオレン9-オールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/257.html EC.1.1.1.257] 4-(ヒドロキシメチル)ベンゼンスルホン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/258.html EC.1.1.1.258] 6-ヒドロキシヘキサン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/259.html EC.1.1.1.259] 3-ヒドロキシピメロイルCoAデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/260.html EC.1.1.1.260] スルカトンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/261.html EC.1.1.1.261] グリセロール-1リン酸デヒドロゲナーゼ (NAD(P))
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/262.html EC.1.1.1.262] 4-ヒドロキシスレオニン-4-リン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/263.html EC.1.1.1.263] 1,5-アンヒドロ-D-フルクトースレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/264.html EC.1.1.1.264] L-イドン酸-5-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/265.html EC.1.1.1.265] 3-メチルブタナールレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/266.html EC.1.1.1.266] dTDP-4-デヒドロ-6-デオキシグルコン酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/267.html EC.1.1.1.267] 1-デオキシ-D-キシロース-5-リン酸レダクトイソメラーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/268.html EC.1.1.1.268] 2-(R)-ヒドロキシプロピルCoMデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/269.html EC.1.1.1.269] 2-(S)-ヒドロキシプロピルCoMデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/270.html EC.1.1.1.270] 3-ケトステロイドレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/271.html EC.1.1.1.271] GDP-L-フコースシンターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/272.html EC.1.1.1.272] (R)-2-ヒドロキシ酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/273.html EC.1.1.1.273] ベロシミンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/274.html EC.1.1.1.274] 2,5-ジヒドログルコン酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/275.html EC.1.1.1.275] (+)-トランスカルベオールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/276.html EC.1.1.1.276] セリン-3-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/277.html EC.1.1.1.277] 3β-ヒドロキシ-5β-ステロイドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/278.html EC.1.1.1.278] 3β-ヒドロキシ-5α-ステロイドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/279.html EC.1.1.1.279] (R)-3-ヒドロキシ酸エステルデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/280.html EC.1.1.1.280] (S)-3-ヒドロキシ酸エステルデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/282.html EC 1.1.1.282] キナ酸-シキミサンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/283.html EC 1.1.1.283] メチルグリオキサールリダクターゼ(NADPH依存)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/284.html EC 1.1.1.284] S-ヒドロキシメチルグルタチオンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/285.html EC 1.1.1.285] 3"-デアミノ-3"-ニコチン酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/286.html EC 1.1.1.286] イソクエン酸-ホモイソソクエン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/287.html EC 1.1.1.287] D-アラビニトールデヒドロゲナーゼ(NADP<sup>+</sup>)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/288.html EC 1.1.1.288] キサンチンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/289.html EC 1.1.1.289] ソルボースレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/290.html EC 1.1.1.290] 4-ホスホエリスロ酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/1/291.html EC 1.1.1.291] 2-ヒドロキシメチルグルタル酸デヒドロゲナーゼ
+
+====EC.1.1.2.-(チトクロムを用いる)====
+*EC.1.1.2.1 欠番　&rarr; EC.1.1.99.5
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/2/2.html EC.1.1.2.2] マンニトールデヒドロゲナーゼ (チトクロム)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/2/3.html EC.1.1.2.3] L-乳酸デヒドロゲナーゼ (チトクロム)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/2/4.html EC.1.1.2.4] D-乳酸デヒドロゲナーゼ (チトクロム)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/2/5.html EC.1.1.2.5] D-乳酸デヒドロゲナーゼ(チトクロム c-553)
+
+====EC.1.1.3.-(酸素を用いる)====
+*EC.1.1.3.1 欠番　&rarr; EC.1.1.3.15
+*EC.1.1.3.2 欠番　&rarr; EC.1.13.12.4
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/3.html EC.1.1.3.3] リンゴ酸オキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/4.html EC.1.1.3.4] グルコースオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/5.html EC.1.1.3.5] ヘキソースオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/6.html EC.1.1.3.6] コレステロールオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/7.html EC.1.1.3.7] アリルアルコールオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/8.html EC.1.1.3.8] L-グロノラクトンオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/9.html EC.1.1.3.9] ガラクトースオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/10.html EC.1.1.3.10] ピラノースオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/11.html EC.1.1.3.11] L-ソルボースオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/12.html EC.1.1.3.12] ピリドキシン4-オキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/13.html EC.1.1.3.13] アルコールオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/14.html EC.1.1.3.14] カテコールオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/15.html EC.1.1.3.15] (S)-2-ヒドロキシ酸オキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/16.html EC.1.1.3.16] エクジソンオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/17.html EC.1.1.3.17] コリンオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/18.html EC.1.1.3.18] 第2級アルコールオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/19.html EC.1.1.3.19] 4-ヒドロキシマンデル酸オキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/20.html EC.1.1.3.20] 長鎖アルコールオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/21.html EC.1.1.3.21] グリセロール-3-リン酸オキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/22.html EC.1.1.3.22] キサンチンオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/23.html EC.1.1.3.23] チアミンオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/24.html EC.1.1.3.24] L-ガラクトノラクトンオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/25.html EC.1.1.3.25] セロビオースオキシダーゼ
+*EC.1.1.3.26 欠番　&rarr; EC.1.21.3.2
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/27.html EC.1.1.3.27] ヒドロキシフィタン酸オキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/28.html EC.1.1.3.28] ヌクレオシドオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/29.html EC.1.1.3.29] N-アミノヘキソサミンオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/30.html EC.1.1.3.30] ポリビニルアルコールオキシダーゼ
+*EC.1.1.3.31 欠番　削除
+*EC.1.1.3.32 欠番　&rarr; EC.1.14.21.1
+*EC.1.1.3.33 欠番　&rarr; EC.1.14.21.2
+*EC.1.1.3.34 欠番　&rarr; EC.1.14.21.3
+*EC.1.1.3.35 欠番　&rarr; EC.1.14.21.4
+*EC.1.1.3.36 欠番　&rarr; EC.1.14.21.5
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/37.html EC.1.1.3.37] D-アラビノ-1,4-ラクトンオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/38.html EC.1.1.3.38] バニリルアルコールオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/39.html EC.1.1.3.39] ヌクレオシドオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/40.html EC.1.1.3.40] D-マンニトールオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/3/41.html EC.1.1.3.41] キシリトールオキシダーゼ
+
+====EC.1.1.4.-(ジスルフィドを用いる)====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/4/1.html EC.1.1.4.1] ビタミンKエポキシドレダクターゼ (ワルファリン感受性)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/4/2.html EC.1.1.4.2] ビタミンKエポキシドレダクターゼ (ワルファリン非感受性)
+
+====EC.1.1.5.-(キノンあるいはその類似化合物を用いる)====
+*EC.1.1.5.1 欠番　&rarr; EC.1.1.99.18
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/5/2.html EC.1.1.5.2] キノプロテイングルコースデヒドロゲナーゼ
+
+====EC.1.1.99.-(他の電子受容体を用いる)====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/1.html EC.1.1.99.1] コリンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/2.html EC.1.1.99.2] 2-ヒドロキシグルタル酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/3.html EC.1.1.99.3] グルコン酸-2-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/4.html EC.1.1.99.4] デヒドログルコン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/5.html EC.1.1.99.5] グリセロール-3-リン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/6.html EC.1.1.99.6] D2-ヒドロキシ酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/7.html EC.1.1.99.7] 乳酸リンゴ酸トランスヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/8.html EC.1.1.99.8] アルコールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/9.html EC.1.1.99.9] ピリドキシン-5-デビトロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/10.html EC.1.1.99.10] グルコースデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/11.html EC.1.1.99.11] フルクトース-5-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/12.html EC.1.1.99.12] ソルボースデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/13.html EC.1.1.99.13] グルコシド-3-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/14.html EC.1.1.99.14] グリコール酸デヒドロゲナーゼ
+*EC.1.1.99.15 欠番　&rarr; EC.1.7.99.5
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/16.html EC.1.1.99.16] リンゴ酸デヒドロゲナーゼ
+*EC.1.1.99.17 欠番　&rarr; EC.1.1.5.2
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/18.html EC.1.1.99.18] セロビオースデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/19.html EC.1.1.99.19] ウラシルデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/20.html EC.1.1.99.20] アルカン-1-オールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/21.html EC.1.1.99.21] D-ソルビトールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/22.html EC.1.1.99.22] グリセロールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/23.html EC.1.1.99.23] ポリビニルアルコールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/24.html EC.1.1.99.24] ヒドロキシ酸オキソ酸トランスヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/25.html EC.1.1.99.25] キナ酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/26.html EC.1.1.99.26] 3-ヒドロキシシクロヘキサノンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/27.html EC.1.1.99.27] (R)-パントラクトンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/28.html EC.1.1.99.28] グルコースフルクトースオキシドレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/29.html EC 1.1.99.29] ピラノースデヒドロゲナーゼ (受容体)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/30.html EC 1.1.99.30] 2-オキソ酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/1/99/31.html EC 1.1.99.31] (S)-マンデル酸デヒドロゲナーゼ
+
+===EC.1.2.-(アルデヒドまたはケトンに対し酸化酵素として働く)===
+====EC.1.2.1.-(NAD又はNADPを用いる)====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/1.html EC.1.2.1.1] ホルムアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/2.html EC.1.2.1.2] ギ酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/3.html EC.1.2.1.3] アルデヒドデヒドロゲナーゼ (NAD)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/4.html EC.1.2.1.4] アルデヒドデヒドロゲナーゼ (NADP)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/5.html EC.1.2.1.5] アルデヒドデヒドロゲナーゼ (NAD(P))
+*EC.1.2.1.6 欠番　削除
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/7.html EC.1.2.1.7] ベンズアルデヒドデヒドロゲナーゼ (NADP)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/8.html EC.1.2.1.8] ベタインアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/9.html EC.1.2.1.9] グリセルアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/10.html EC.1.2.1.10] アセトアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/11.html EC.1.2.1.11] アスパラギン酸セミアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/12.html EC.1.2.1.12] グリセルアルデヒド3リン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/13.html EC.1.2.1.13] グリセルアルデヒド3リン酸デヒドロゲナーゼ (NADP)
+*EC.1.2.1.14 欠番　&rarr; EC.1.1.1.205
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/15.html EC.1.2.1.15] リンゴ酸セミアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/16.html EC.1.2.1.16] コハク酸セミアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/17.html EC.1.2.1.17] グリオキシル酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/18.html EC.1.2.1.18] リンゴ酸セミアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/19.html EC.1.2.1.19] アミノ酪アルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/20.html EC.1.2.1.20] グルタル酸セミアメデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/21.html EC.1.2.1.21] グリコールアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/22.html EC.1.2.1.22] ラクトアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/23.html EC.1.2.1.23] 2-オキソアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/24.html EC.1.2.1.24] コハク酸セミアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/25.html EC.1.2.1.25] 2-オキソイソ吉草酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/26.html EC.1.2.1.26] 2,5-ジオキソ吉草酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/27.html EC.1.2.1.27] メチルマロン酸セミアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/28.html EC.1.2.1.28] ベンズアルデヒドデヒドロゲナーゼ (NAD)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/29.html EC.1.2.1.29] アリルアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/30.html EC.1.2.1.30] アリルアルデヒドデヒドロゲナーゼ (NADP)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/31.html EC.1.2.1.31] アミノアジピン酸セミアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/32.html EC.1.2.1.32] アミノムコン酸セミアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/33.html EC.1.2.1.33] (R)-デヒドロパント酸デヒドロゲナーゼ
+*html EC.1.2.1.34 欠番　&rarr; EC.1.1.1.131
+*EC.1.2.1.35 欠番　&rarr; EC.1.1.1.203
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/36.html EC.1.2.1.36] レチナールデヒドロゲナーゼ
+*EC.1.2.1.37 欠番　&rarr; EC.1.1.1.204
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/38.html EC.1.2.1.38] N-アセチル-γ-グルタリルリン酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/39.html EC.1.2.1.39] フェニルアセトアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/40.html EC.1.2.1.40] 3α,7α,12α-トリヒドロキシコレスタン-26-アール26-オキシドレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/41.html EC.1.2.1.41] グルタミン酸セミアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/42.html EC.1.2.1.42] ヘキサデカナールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/43.html EC.1.2.1.43] ギ酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/44.html EC.1.2.1.44] シナモイルCoAレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/45.html EC.1.2.1.45] 4-カルボキシ-2-ヒドロキシムコン酸-6-セミアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/46.html EC.1.2.1.46] ホルムアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/47.html EC.1.2.1.47] 4-トリメチルアンモニオ酪アルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/48.html EC.1.2.1.48] 長鎖アルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/49.html EC.1.2.1.49] 2-オキソアルデヒドデヒドロゲナーゼ (NADP)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/50.html EC.1.2.1.50] 長鎖脂肪アシルCoAレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/51.html EC.1.2.1.51] ピルビン酸デヒドロゲナーゼ (NADP)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/52.html EC.1.2.1.52] オキソグルタル酸デヒドロゲナーゼ (NADP)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/53.html EC.1.2.1.53] 4-ヒドロキシフェニルアセトアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/54.html EC.1.2.1.54] γ-グアニジノブチルアルデヒドデヒドロゲナーゼ
+*EC.1.2.1.55 欠番　&rarr; EC.1.1.1.279
+*EC.1.2.1.56 欠番　&rarr; EC.1.1.1.280
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/57.html EC.1.2.1.57] ブタナールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/58.html EC.1.2.1.58] フェニルグリオキシル酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/59.html EC.1.2.1.59] グリセルアルデヒド3リン酸デヒドロゲナーゼ (NAD(P))
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/60.html EC.1.2.1.60] 5-カルボキシメチル-2-ヒドロキシムコン酸セミアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/61.html EC.1.2.1.61] 4-ヒドロキシムコンセミアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/62.html EC.1.2.1.62] 4-ホルミルベンゼンスルホン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/63.html EC.1.2.1.63] 6-オキソヘキサン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/64.html EC.1.2.1.64] 4-ヒドロキシベンズアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/65.html EC.1.2.1.65] サリチルアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/66.html EC.1.2.1.66] マイコチオール依存ホルムアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/67.html EC.1.2.1.67] バニリンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/68.html EC.1.2.1.68] コニフェリルアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/69.html EC.1.2.1.69] フルオロアセトアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/70.html EC 1.2.1.70] グルタミル-tRNAレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/71.html EC 1.2.1.71] スクシニルグルタミン酸セミアルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/1/72.html EC 1.2.1.72] エリスロース-4-リン酸デヒドロゲナーゼ
+
+====EC.1.2.2.-(チトクロムを用いる)====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/2/1.html EC.1.2.2.1] ギ酸デヒドロゲナーゼ (チトクロム)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/2/2.html EC.1.2.2.2] ピルビン酸デヒドロゲナーゼ (チトクロム)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/2/3.html EC.1.2.2.3] ギ酸デヒドロゲナーゼ(チトクロムc-553)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/2/4.html EC.1.2.2.4] 一酸化炭素オキシゲナーゼ(チトクロムb-561)
+
+====EC.1.2.3.-(酸素を用いる)====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/3/1.html EC.1.2.3.1] アルデヒドオキシダーゼ
+*EC.1.2.3.2 欠番　&rarr; EC.1.1.3.22]
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/3/3.html EC.1.2.3.3] ピルビン酸オキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/3/4.html EC.1.2.3.4] オキサル酸オキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/3/5.html EC.1.2.3.5] グリオキシル酸オキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/3/6.html EC.1.2.3.6] ピルビン酸オキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/3/7.html EC.1.2.3.7] インドール-3-アセトアルデヒドオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/3/8.html EC.1.2.3.8] ピリドキサルオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/3/9.html EC.1.2.3.9] アリルアルデヒドオキシダーゼ
+*EC.1.2.3.10 欠番　&rarr; EC.1.2.2.4
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/3/11.html EC.1.2.3.11] レチナールオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/3/12.html EC.1.2.3.12] バニル酸デメチラーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/3/13.html EC.1.2.3.13] 4-ヒドロキシフェニルピルビン酸オキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/3/14.html EC 1.2.3.14] アブシジン酸アルデヒドオキシダーゼ
+
+====EC.1.2.4.-(ジスルフィドを用いる)====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/4/1.html EC.1.2.4.1] ピルビン酸デヒドロゲナーゼ(アセチル基転位)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/4/2.html EC.1.2.4.2] オキソグルタル酸デヒドロゲナーゼ(アセチル基転位)
+*EC.1.2.4.3 欠番　&rarr; EC.1.2.4.4
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/4/4.html EC.1.2.4.4] 3-メチル-2-オキソブタン酸デヒドロゲナーゼ(2-メチルプロビオイル基転位)
+
+====EC.1.2.5.-====
+該当なし
+
+====EC.1.2.6.-====
+該当なし
+
+====EC.1.2.7.-(鉄硫黄蛋白質を用いる)====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/7/1.html EC.1.2.7.1] ピルビン酸シンターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/7/2.html EC.1.2.7.2] 2-オキソ酪酸シンターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/7/3.html EC.1.2.7.3] 2-オキソグルタル酸シンターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/7/4.html EC 1.2.7.4] 一酸化炭素デヒドロゲナーゼ (フェレドキシン) 
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/7/5.html EC 1.2.7.5] アルデヒドフェレドキシン酸化レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/7/6.html EC 1.2.7.6] グリセルアルデヒド-3-リン酸デヒドロゲナーゼ (フェレドキシン)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/7/7.html EC 1.2.7.7] 3-メチル-2-オキソブタン酸デヒドロゲナーゼ (フェレドキシン) 
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/7/8.html EC 1.2.7.8] インドレピルビン酸フェレドキシン酸化レダクターゼ
+*EC 1.2.7.9 欠番&rarr;  EC 1.2.7.3
+
+====EC.1.2.99.-(その他の電子受容体を用いる)====
+*EC.1.2.99.1 欠番　&rarr; EC.1.1.99.19
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/99/2.html EC.1.2.99.2] 一酸化炭素デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/99/3.html EC.1.2.99.3] アルデヒドデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/99/4.html EC.1.2.99.4] ホルムアルデヒドディスムターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/99/5.html EC.1.2.99.5] ホルミルメタノフランデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/99/6.html EC.1.2.99.6] カルボン酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/2/99/7.html EC.1.2.99.7] アルデヒドデヒドロゲナーゼ(FAD-非依存)
+
+===EC.1.3.-(CH-CH結合に対し酸化酵素として働く)===
+====EC.1.3.1.-(NADまたはNADPを用いる)====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/1.html EC.1.3.1.1] ジヒドロウラシルデヒドロゲナーゼ (NAD)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/2.html EC.1.3.1.2] ジヒドロピリミジンデヒドロゲナーゼ (NADP)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/3.html EC.1.3.1.3] コルチゾン-β-レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/4.html EC.1.3.1.4] コルチゾン-α-レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/5.html EC.1.3.1.5] ククルビタシンδ(23)レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/6.html EC.1.3.1.6] フマル酸レダクターゼ (NADH)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/7.html EC.1.3.1.7] Meso-タルタル酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/8.html EC.1.3.1.8] アシルCoAデヒドロゲナーゼ (NADP)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/9.html EC.1.3.1.9] エノイル(アシル輸送タンパク)レダクターゼ (NADH)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/10.html EC.1.3.1.10] エノイル(アシル輸送タンパク)レダクターゼ (NADPH)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/11.html EC.1.3.1.11] クマル酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/12.html EC.1.3.1.12] プレフェン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/13.html EC.1.3.1.13] プレフェン酸デヒドロゲナーゼ (NADP)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/14.html EC.1.3.1.14] オロト酸レダクターゼ (NADH)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/15.html EC.1.3.1.15] オロト酸レダクターゼ (NADPH)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/16.html EC.1.3.1.16] β-ニトロアクリル酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/17.html EC.1.3.1.17] 3-メチレンオキシインドールレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/18.html EC.1.3.1.18] キヌレン酸-1,7-ジヒドロジオールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/19.html EC.1.3.1.19] シス1,2-ジヒドロベンゼン1,2-ジオールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/20.html EC.1.3.1.20] トランス1,2-ジヒドロベンゼン1,2-ジオールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/21.html EC.1.3.1.21] 7-ジヒドロコレステロールレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/22.html EC.1.3.1.22] コレステノン-5α-レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/23.html EC.1.3.1.23] コレステノン-5β-レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/24.html EC.1.3.1.24] ビリベルジンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/25.html EC.1.3.1.25] 1,6-ジヒドロキシシクロヘキサ-2,4-ジエン-1-カルボキシ酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/26.html EC.1.3.1.26] ジヒドロジピコリン酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/27.html EC.1.3.1.27] ヘキサデセナールレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/28.html EC.1.3.1.28] 2,3-ジヒドロ-2,3-ジヒドロキシ安息香酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/29.html EC.1.3.1.29] シス1,2-ジヒドロ-1,2-ジヒドロキシナフタレンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/30.html EC.1.3.1.30] プロゲステロン-5α-レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/31.html EC.1.3.1.31] 2-エノ酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/32.html EC.1.3.1.32] マレイル酢酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/33.html EC.1.3.1.33] プロトクロロフィリドレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/34.html EC.1.3.1.34] 2,4-ジエノイルCoAレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/35.html EC 1.3.1.35] ホスファチジルコリン脱飽和酵素
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/36.html EC 1.3.1.36] ゲイッソスキジンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/37.html EC 1.3.1.37] cis-2-エノイル-CoAレダクターゼ (NADPH)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/38.html EC 1.3.1.38] trans-2-エノイル-CoAレダクターゼ (NADPH)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/39.html EC 1.3.1.39] エノイル-アシル輸送タンパク質レダクターゼ (NADPH, A-特異的)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/40.html EC 1.3.1.40] 2-ヒドロキシ-6-オキソ-6-フェニルヘキサ-2,4-ジエン酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/41.html EC 1.3.1.41] キサントンマチンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/42.html EC 1.3.1.42] 12-オキソフィトジエノ酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/43.html EC 1.3.1.43] アロゲン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/44.html EC 1.3.1.44] trans-2-エノイルCoAレダクターゼ (NAD<sup>+</sup>)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/44.html EC 1.3.1.45] 2'-ヒドロキシイソフラボンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/44.html EC 1.3.1.46] ビオカニンAレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/44.html EC 1.3.1.47] α-サントニン1,2-レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/44.html EC 1.3.1.48] 15-オキソプロスタグランジン-13-オキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/44.html EC 1.3.1.49] cis-3,4-ジヒドロフェナントレン-3,4-ジオールデヒドロゲナーゼ
+*EC 1.3.1.50 欠番　&rarr; EC 1.1.1.252
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/51.html EC 1.3.1.51] 2'-ヒドロキシダイゼインレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/52.html EC 1.3.1.52] 2-メチル分枝鎖エノイルCoAレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/53.html EC 1.3.1.53] (3S,4R)-3,4-ジヒドロキシシクロヘキサ-1,5-ジエン-1,4-ジカルボン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/54.html EC 1.3.1.54] プレコリン6Aレダクターゼ
+*EC 1.3.1.55 欠番　&rarr; EC 1.3.1.25
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/56.html EC 1.3.1.56] cis-2,3-ジヒドロビフェニル-2,3-ジオールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/57.html EC 1.3.1.57] フロログルシノールレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/58.html EC 1.3.1.58] 2,3-ジヒドロキシ-2,3-ジヒドロ-p-クミン酸デヒドロゲナーゼ
+*EC 1.3.1.59 欠番　削除
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/60.html EC 1.3.1.60] ジベンゾチオフェンジヒドロジオールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/61.html EC 1.3.1.61] テレフタル酸1,2-cis-ジヒドロジオールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/62.html EC 1.3.1.62] ピメロイルCoAデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/63.html EC 1.3.1.63] 2,4-ジクロロベンゾイルCoAレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/64.html EC 1.3.1.64] フタル酸4,5-cis-ジヒドロジオールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/65.html EC 1.3.1.65] 5,6-ジヒドロキシ-3-メチル-2-オキソ-1,2,5,6-テトラヒドロキノリンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/66.html EC 1.3.1.66] cis-ジヒドロエチルカテコールデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/67.html EC 1.3.1.67] cis-1,2-ジヒドロキシ-4-メチルシクロヘキサ-3,5-ジエン-1-カルボン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/68.html EC 1.3.1.68] 1,2-ジヒドロキシ-6-メチルシクロヘキサ-3,5-ジエンカルボン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/69.html EC 1.3.1.69] ゼアチンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/70.html EC 1.3.1.70] δ14-ステロールレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/71.html EC 1.3.1.71] δ24(241)-ステロールレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/72.html EC 1.3.1.72] δ24-ステロールレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/73.html EC 1.3.1.73] 1,2-ジヒドロボミレニンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/74.html EC 1.3.1.74] 2-アルケナールレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/75.html EC 1.3.1.75] ジビニルクロロフィリド-a8-ビニルレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/76.html EC 1.3.1.76] プレコリン-2-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/77.html EC 1.3.1.77] アントシアニジンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/78.html EC 1.3.1.78] アロゲン酸デヒドロゲナーゼ (NADP<sup>+</sup>)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/1/79.html EC 1.3.1.79] アロゲン酸デヒドロゲナーゼ <nowiki>[NAD(P)+]</nowiki>
+
+====EC.1.3.2.-(チトクロームを用いる)====
+*EC 1.3.2.1 欠番　&rarr; EC 1.3.99.2
+*EC 1.3.2.2 欠番　&rarr; EC 1.3.99.3
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/2/3.html EC 1.3.2.3] L-ガラクトノラクトンデヒドロゲナーゼ
+
+====EC.1.3.3.-(酸素を用いる)====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/3/1.html EC 1.3.3.1] ジヒドロオロト酸オキシダーゼ
+*EC 1.3.3.2 欠番　&rarr; EC 1.14.21.6
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/3/3.html EC 1.3.3.3] コプロポルフィリノゲンオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/3/4.html EC 1.3.3.4] プロトポルフィリノゲンオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/3/5.html EC 1.3.3.5] ビリルビンオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/3/6.html EC 1.3.3.6] アシルCoAオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/3/7.html EC 1.3.3.7] ジヒドロウラシルオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/3/8.html EC 1.3.3.8] テトラヒドロベルベリンオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/3/9.html EC 1.3.3.9] セコロガニンシンターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/3/10.html EC 1.3.3.10] トリプトファンα,βオキシダーゼ 
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/3/11.html EC 1.3.3.11] ピロロキノリンキノンシンターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/3/12.html EC 1.3.3.12] L-ガラクトノラクトンオキシダーゼ
+
+====EC.1.3.5.-(キノンあるいは類縁化合物を用いる)====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/5/1.html EC 1.3.5.1] コハク酸デヒドロゲナーゼ (ユビキノン)
+
+====EC.1.3.7.-(鉄硫黄蛋白質を用いる)====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/7/1.html EC 1.3.7.1] 6-ヒドロキシニコチン酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/7/2.html EC 1.3.7.2] 15,16-ジヒドロビリベルジン:フェレドキシン酸化レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/7/3.html EC 1.3.7.3] フィコエリトロビリン:フェレドキシン酸化レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/7/4.html EC 1.3.7.4] フィトクロモビリン:フェレドキシン酸化レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/7/5.html EC 1.3.7.5] フィコシアノビリン:フェレドキシン酸化レダクターゼ
+
+====EC.1.3.99.-(その他の電子受容体を用いる)====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/99/1.html EC.1.3.99.1] コハク酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/99/2.html EC 1.3.99.2] 酪酸CoAデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/99/3.html EC 1.3.99.3] アシルCoAデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/99/4.html EC 1.3.99.4] 3-オキソステロイド-1-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/99/5.html EC 1.3.99.5] 3-オキソ-5α-ステロイド-4-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/99/6.html EC 1.3.99.6] 3-オキソ-5β-ステロイド-4-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/99/7.html EC 1.3.99.7] グルタリルCoAデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/99/8.html EC 1.3.99.8] 2-フロイルCoAデヒドロゲナーゼ
+*EC 1.3.99.9 欠番 &rarr; EC 1.21.99.1
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/99/10.html EC 1.3.99.10] イソバレリルCoAデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/99/11.html EC 1.3.99.11] ジヒドロオロト酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/99/12.html EC 1.3.99.12] 2-メチルアシルCoAデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/99/13.html EC 1.3.99.13] 長鎖アシルCoAデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/99/14.html EC 1.3.99.14] シクロヘキサノンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/99/15.html EC 1.3.99.15] ベンゾイルCoAレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/99/16.html EC 1.3.99.16] イソキノリン-1-酸化レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/99/17.html EC 1.3.99.17] キノリン-2-オキシドレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/99/18.html EC 1.3.99.18] キナルジン酸-4-酸化レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/99/19.html EC 1.3.99.19] キノリン-4-カルボン酸-2-酸化レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/99/20.html EC 1.3.99.20] 4-ヒドロキシベンゾイルCoAレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/99/21.html EC 1.3.99.21] (R)-ベンジルスクシニルCoAデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/99/22.html EC 1.3.99.22] コプロポルフィリノゲンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/3/99/23.html EC 1.3.99.23] all-trans-レチノール-13,14-レダクターゼ
+
+===EC.1.4.-(CH-NH2に対し酸化酵素として働く)===
+====EC.1.4.1.-====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/1/1.html EC 1.4.1.1] アラニンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/1/2.html EC.1.4.1.2] グルタミン酸デヒドロゲナーゼ (NAD])
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/1/3.html EC.1.4.1.3] グルタミン酸デヒドロゲナーゼ (NAD(P)])
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/1/4.html EC.1.4.1.4] グルタミン酸デヒドロゲナーゼ (NADP])
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/1/5.html EC 1.4.1.5] L-アミノ酸デヒドロゲナーゼ
+*EC 1.4.1.6 欠番 &rarr;  EC 1.4.4.1 に統合
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/1/7.html EC 1.4.1.7] セリン-2-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/1/8.html EC 1.4.1.8] バリンデヒドロゲナーゼ (NADP<sup>+</sup>)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/1/9.html EC 1.4.1.9] ロイシンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/1/10.html EC 1.4.1.10] グリシンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/1/11.html EC 1.4.1.11] L-エリスロ-3,5-ジアミノヘキサン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/1/12.html EC 1.4.1.12] 2,4-ジアミノペンタン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/1/13.html EC.1.4.1.13] グルタミン酸シンターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/1/14.html EC 1.4.1.14] グルタミン酸シンターゼ (NADH)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/1/15.html EC 1.4.1.15] リジンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/1/16.html EC 1.4.1.16] ジアミノピメリン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/1/17.html EC 1.4.1.17] N-メチルアラニンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/1/18.html EC 1.4.1.18] リジン-6-デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/1/19.html EC 1.4.1.19] トリプトファンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/1/20.html EC 1.4.1.20] フェニルアラニンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/1/21.html EC 1.4.1.21] アスパラギン酸デヒドロゲナーゼ
+*EC 1.4.1.22 欠番　削除
+
+====EC.1.4.2.-(チトクロムを用いる)====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/2/1.html EC 1.4.2.1] グリシンデヒドロゲナーゼ (チトクロム)
+
+====EC.1.4.3.-(酸素を用いる)====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/3/1.html EC 1.4.3.1] D-アスパラギン酸
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/3/2.html EC.1.4.3.2] L-アミノ酸オキシゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/3/3.html EC.1.4.3.3] D-アミノ酸オキシゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/3/4.html EC 1.4.3.4] アミンオキシダーゼ (フラビン含有)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/3/5.html EC 1.4.3.5] ピリドキサール-5'-リン酸シンターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/3/6.html EC 1.4.3.6] アミンオキシダーゼ (銅含有)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/3/7.html EC 1.4.3.7] D-グルタミン酸オキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/3/8.html EC 1.4.3.8] エタノールアミンオキシダーゼ
+*EC 1.4.3.9 欠番　&rarr; EC 1.4.3.4に統合
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/3/10.html EC 1.4.3.10] プトレシンオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/3/11.html EC 1.4.3.11] L-グルタミン酸オキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/3/12.html EC 1.4.3.12] シクロヘキシルアミンオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/3/13.html EC 1.4.3.13] タンパク質-リジン-6-オキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/3/14.html EC 1.4.3.14] L-リジンオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/3/15.html EC 1.4.3.15] D-グルタミン酸(D-アスパラギン酸)オキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/3/16.html EC 1.4.3.16] L-アスパラギン酸オキシダーゼ
+*EC 1.4.3.17 欠番　&rarr; EC 1.3.3.10
+*EC 1.4.3.18 欠番　削除
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/3/19.html EC 1.4.3.19] グリシンオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/3/20.html EC 1.4.3.20] L-リジン-6-オキシダーゼ
+
+====EC.1.4.4.-(ジスルフィドを用いる)====
+*EC 1.4.4.1 欠番　&rarr; EC 1.21.4.1
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/4/2.html EC.1.4.4.2] グリシンデヒドロゲナーゼ
+
+====EC.1.4.7.-(鉄硫黄蛋白質を用いる)====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/7/1.html EC 1.4.7.1] グルタミン酸シンターゼ (フェレドキシン)
+
+====EC.1.4.99.-（その他受容体を用いる）====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/99/1.html EC 1.4.99.1] D-アミノ酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/99/2.html EC 1.4.99.2] タウリンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/99/3.html EC 1.4.99.3] アミンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/99/4.html EC 1.4.99.4] アラルキルアミンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/4/99/5.html EC 1.4.99.5] グリシンデヒドロゲナーゼ (シアニド形成)
+
+===EC.1.5.-(CH-NH結合に対し酸化酵素として働く)===
+====EC.1.5.1.-(NAD又はNADPを用いる)====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/1.html EC 1.5.1.1] ピロリン-2-カルボン酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/2.html EC 1.5.1.2] ピロリン-5-カルボン酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/3.html EC 1.5.1.3] ジヒドロ葉酸レダクターゼ
+*EC 1.5.1.4 欠番　&rarr; EC 1.5.1.3に統合
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/5.html EC 1.5.1.5] メチレンテトラヒドロ葉酸デヒドロゲナーゼ(NADP<sup>+</sup>)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/6.html EC 1.5.1.6] ぎ酸テトラヒドロ葉酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/7.html EC 1.5.1.7] サッカロピンデヒドロゲナーゼ (NAD<sup>+</sup>, L-リジン形成)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/8.html EC 1.5.1.8] サッカロピンデヒドロゲナーゼ (NADP<sup>+</sup>, L-リジン形成)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/9.html EC 1.5.1.9] サッカロピンデヒドロゲナーゼ (NAD<sup>+</sup>, L-グルタミン酸形成)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/10.html EC 1.5.1.10] サッカロピンデヒドロゲナーゼ (NADP<sup>+</sup>, L-グルタミン酸形成)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/11.html EC 1.5.1.11] D-オクトピンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/12.html EC 1.5.1.12] 1-ピロリン-5-カルボン酸デヒドロゲナーゼ
+*EC 1.5.1.13  欠番　&rarr; EC 1.17.1.5
+*EC 1.5.1.14  欠番　&rarr; EC 1.5.1.21に統合
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/15.html EC 1.5.1.15] メチレンテトラヒドロ葉酸デヒドロゲナーゼ (NAD<sup>+</sup>)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/16.html EC 1.5.1.16] D-リソピンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/17.html EC 1.5.1.17] アラノピンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/18.html EC 1.5.1.18] エフェドリンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/19.html EC 1.5.1.19] D-ノパリンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/20.html EC 1.5.1.20] メチレンテトラヒドロ葉酸レダクターゼ [NAD(P)H]
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/21.html EC 1.5.1.21] δ<sup>1</sup>-ピペリデイン-2-カルボン酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/22.html EC 1.5.1.22] ストロンピンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/23.html EC 1.5.1.23] タウロピンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/24.html EC 1.5.1.24] N<sup>5</sup>-(カルボキシエチル)オルニチンシンターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/25.html EC 1.5.1.25] チオモリホリンカルボン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/26.html EC 1.5.1.26] β-アラノピンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/27.html EC 1.5.1.27] 1,2-デヒドロレチクリニウムレダクターゼ (NADPH)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/28.html EC 1.5.1.28] オピンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/29.html EC 1.5.1.29] FMNレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/30.html EC 1.5.1.30] フラビンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/31.html EC 1.5.1.31] ベルベリンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/32.html EC 1.5.1.32] ボミレニンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/33.html EC 1.5.1.33] プテリジンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/34.html EC 1.5.1.34] 6,7-ジヒドロプテリジンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/1/35.html EC 1.5.1.35] 1-ピロリンデヒドロゲナーゼ
+
+====EC.1.5.3.-(酸素を用いる)====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/3/1.html EC 1.5.3.1] サルコシンオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/3/2.html EC 1.5.3.2] N-メチル-L-アミノ酸オキシダーゼ
+*EC 1.5.3.3 欠番　削除
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/3/4.html EC 1.5.3.4] N<sup>6</sup>-メチル-リジンオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/3/5.html EC 1.5.3.5] (S)-6-ヒドロキシニコチンオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/3/6.html EC 1.5.3.6] (R)-6-ヒドロキシニコチンオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/3/7.html EC 1.5.3.7] L-ピペコリン酸オキシダーゼ
+*EC 1.5.3.8 欠番　&rarr; EC 1.3.3.8へ統合
+*EC 1.5.3.9 欠番　&rarr; EC 1.21.3.3
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/3/10.html EC 1.5.3.10] ジメチルグリシンオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/3/11.html EC 1.5.3.11] ポリアミンオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/3/12.html EC 1.5.3.12] ジヒドロベンゾフェナントリジンオキシダーゼ
+
+====EC.1.5.4.-(ジスルフィドを用いる)====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/4/1.html EC 1.5.4.1] ピリミドジアゼピンシンターゼ
+
+====EC.1.5.5.-(キノンあるいは類縁化合物を用いる)====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/5/1.html EC 1.5.5.1] 電子移動フラボプロテインデヒドロゲナーゼ
+
+====EC.1.5.7.-(鉄硫黄蛋白質を用いる)====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/7/1.html EC 1.5.7.1] メチレンテトラヒドロ葉酸レダクターゼ (フェレドキシン)
+
+====EC.1.5.8.-(フラビンを用いる)====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/8/1.html EC 1.5.8.1] ジメチルアミンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/8/2.html EC 1.5.8.2] トリメチルアミンデヒドロゲナーゼ
+
+====EC.1.5.99.-(その他の受容体を用いる)====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/99/1.html EC 1.5.99.1] サルコシンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/99/2.html EC 1.5.99.2] ジメチルグリシンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/99/3.html EC 1.5.99.3] L-ピペコリン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/99/4.html EC 1.5.99.4] ニコチンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/99/5.html EC 1.5.99.5] メチルグルタミン酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/99/6.html EC 1.5.99.6] スペルミジンデヒドロゲナーゼ
+*EC 1.5.99.7 欠番　&rarr; EC 1.5.8.2
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/99/8.html EC 1.5.99.8] プロリンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/99/9.html EC 1.5.99.9] メチレンテトラヒドロメタノプテリンデヒドロゲナーゼ
+*EC 1.5.99.10 欠番　&rarr; EC 1.5.8.1
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/99/11.html EC 1.5.99.11] 5,10-メチレンテトラヒドロメタノプテリンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/5/99/12.html EC 1.5.99.12] サイトカイニンデヒドロゲナーゼ
+
+===EC. 1.6.- ===
+====EC. 1.6.1.-（NADH+またはNADPH+が電子受容体）====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/6/1/1.html EC.1.6.1.1] NAD(P)<sup>+</sup>トランスヒドロゲナーゼ (B特異的)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/6/1/2.html EC.1.6.1.2] NAD(P)<sup>+</sup>トランスヒドロゲナーゼ (AB特異的)
+
+====EC.1.6.2.-（ヘムたんぱく質が電子受容体）====
+*EC.1.6.2.1 欠番 &rarr;  EC.1.6.99.3
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/6/2/2.html EC.1.6.2.2] チトクロムb<sub>5</sub>レダクターゼ
+*EC.1.6.2.3 欠番 削除
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/6/2/4.html EC.1.6.2.4] NADPHヘムタンパク質レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/6/2/5.html EC.1.6.2.5] NADPHチトクロムc<sub>2</sub>レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/6/2/6.html EC.1.6.2.6] レグヘモグロビンレダクターゼ
+
+====EC.1.6.3.（酸素が電子受容体）====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/6/3/1.html EC.1.6.3.1] NAD(P)Hオキシダーゼ
+
+====EC.1.6.4.-（ジスルフィドが電子受容体）====
+*EC.1.6.4.1 欠番 &rarr;  EC.1.8.1.6
+*EC.1.6.4.2 欠番 &rarr;  EC.1.8.1.7
+*EC.1.6.4.3 欠番 &rarr;  EC.1.8.1.4
+*EC.1.6.4.4 欠番 &rarr;  EC.1.8.1.8
+*EC.1.6.4.5 欠番 &rarr;  EC.1.8.1.9
+*EC.1.6.4.6 欠番 &rarr;  EC.1.8.1.10
+*EC.1.6.4.7 欠番 &rarr;  EC.1.8.1.11
+*EC.1.6.4.8 欠番 &rarr;  EC.1.8.1.12
+*EC.1.6.4.9 欠番 &rarr;  EC.1.8.1.13
+*EC.1.6.4.10 欠番 &rarr;  EC.1.8.1.14
+
+====EC.1.6.5.-（キノンおよび類縁体が電子受容体）====
+*EC.1.6.5.1 欠番 削除
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/6/5/2.html EC.1.6.5.2] NAD(P)Hデヒドロゲナーゼ (キノン)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/6/5/3.html EC.1.6.5.3] NADHデヒドロゲナーゼ (ユビキノン)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/6/5/4.html EC.1.6.5.4] モノデビトロアスコルビン酸レダクターゼ (NADH)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/6/5/5.html EC.1.6.5.5] NADPH:キノンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/6/5/6.html EC.1.6.5.6] p-ベンゾキノンレダクターゼ (NADPH)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/6/5/7.html EC.1.6.5.7] 2-ヒドロキシ-1,4-ベンゾキノンレダクターゼ
+
+====EC.1.6.6.-（窒素化合物が電子受容体）====
+*EC.1.6.6.1 欠番 &rarr;  EC.1.7.1.1
+*EC.1.6.6.2 欠番 &rarr;  EC.1.7.1.2
+*EC.1.6.6.3 欠番 &rarr;  EC.1.7.1.3
+*EC.1.6.6.4 欠番 &rarr;  EC.1.7.1.4
+*EC.1.6.6.5 欠番 &rarr;  EC.1.7.99.3
+*EC.1.6.6.6 欠番 &rarr;  EC.1.7.1.5
+*EC.1.6.6.7 欠番 &rarr;  EC.1.7.1.6
+*EC.1.6.6.8 欠番 &rarr;  EC.1.7.1.7
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/6/6/9.html EC.1.6.6.9] トリメチルアミン-N-オキシドレダクターゼ
+*EC.1.6.6.10 欠番 &rarr;  EC.1.7.1.9
+*EC.1.6.6.11 欠番 &rarr;  EC.1.7.1.10
+*EC.1.6.6.12 欠番 &rarr;  EC.1.7.1.11
+*EC.1.6.6.13 欠番 &rarr;  EC.1.7.1.12
+
+====EC.1.6.7.-（鉄-硫黄タンパク質が電子受容体）====
+*EC.1.6.7.1 欠番 &rarr;  EC.1.18.1.2
+*EC.1.6.7.2 欠番 &rarr;  EC.1.18.1.1
+
+====EC.1.6.8.（フラビンが電子受容体）====
+*EC.1.6.8.1 欠番 &rarr;  EC.1.5.1.29
+*EC.1.6.8.2 欠番 &rarr;  EC.1.5.1.30
+
+====EC.1.6.99.-（その他が電子受容体）====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/6/99/1.html EC.1.6.99.1] NADPHデヒドロゲナーゼ
+*EC.1.6.99.2 欠番 &rarr;  EC.1.6.5.2
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/6/99/3.html EC.1.6.99.3] NADHデヒドロゲナーゼ
+*EC.1.6.99.4 欠番 &rarr;  EC.1.18.1.2
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/6/99/5.html EC.1.6.99.5] NADHデヒドロゲナーゼ (キノン)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/6/99/6.html EC.1.6.99.6] NADPHデヒドロゲナーゼ (キノン)
+*EC.1.6.99.7 欠番 &rarr;  EC.1.5.1.34
+*EC.1.6.99.8 欠番 &rarr;  EC.1.16.1.3
+*EC.1.6.99.9 欠番 &rarr;  EC.1.16.1.4
+*EC.1.6.99.10 欠番 &rarr;  欠番 &rarr;  EC.1.5.1.34に統合 
+*EC.1.6.99.11 欠番 &rarr;  EC.1.16.1.5
+*EC.1.6.99.12 欠番 &rarr;  EC.1.16.1.6
+*EC.1.6.99.13 欠番 &rarr;  EC.1.16.1.7
+
+===EC.1.7.-(他の含窒素化合物が電子供与する)===
+====EC.1.7.1.- （NADHまたはNADPHが電子受容体）====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/1/1.html EC.1.7.1.1] 硝酸レダクターゼ (NADH)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/1/2.html EC.1.7.1.2] 硝酸レダクターゼ [NAD(P)H]
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/1/3.html EC.1.7.1.3] 硝酸レダクターゼ (NADPH)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/1/4.html EC.1.7.1.4] 硝酸レダクターゼ [NAD(P)H]
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/1/5.html EC.1.7.1.5] 次亜硝酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/1/6.html EC.1.7.1.6] アゾベンゼンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/1/7.html EC.1.7.1.7] GMPレダクターゼ
+*EC.1.7.1.8 欠番 削除
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/1/9.html EC.1.7.1.9] ニトロキノリン-N-オキシドレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/1/10.html EC.1.7.1.10] ヒドロキシアミンレダクターゼ (NADH)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/1/11.html EC.1.7.1.11] 4-(ジメチルアミノ)フェニルアゾキシベンゼンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/1/12.html EC.1.7.1.12] N-ヒドロキシ-2-アセタミドフルオレンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/1/13.html EC.1.7.1.13] キューインレダクターゼ
+
+====EC.1.7.2.-（シトクロームが電子受容体）====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/2/1.html EC.1.7.2.1] 亜硝酸レダクターゼ (NO生成)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/2/2.html EC.1.7.2.2] 亜硝酸レダクターゼ (チトクロム; アンモニア生成)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/2/3.html EC.1.7.2.3] トリメチルアミン-N-オキシドレダクターゼ (チトクロムc)
+
+====EC.1.7.3.-（ 酸素が電子受容体）====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/3/1.html EC.1.7.3.1] ニトロアルカンオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/3/2.html EC.1.7.3.2] アセチルインドキシオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/3/3.html EC.1.7.3.3] 尿酸酸化酵素
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/3/4.html EC.1.7.3.4] ヒドロキシアミンオキシダーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/3/5.html EC.1.7.3.5] 3-アシニトロプロピオン酸オキシダーゼ
+
+====EC.1.7.7.- （鉄-硫黄タンパク質が電子受容体）====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/7/1.html EC.1.7.7.1] フェレドキシン亜硝酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/7/2.html EC.1.7.7.2] フェレドキシン硝酸レダクターゼ
+
+====EC.1.7.99.- （その他が電子受容体）====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/99/1.html EC.1.7.99.1] ヒドロキシアミンレダクターゼ
+*EC.1.7.99.2 欠番 削除
+*EC.1.7.99.3 欠番 &rarr;  EC.1.7.2.1に統合
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/99/4.html EC.1.7.99.4] 硝酸レダクターゼ 
+*EC.1.7.99.5 欠番 &rarr;  EC.1.5.1.20に統合
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/99/6.html EC.1.7.99.6] 窒素酸化物レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/99/7.html EC.1.7.99.7] 含窒素酸化物レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/7/99/8.html EC.1.7.99.8] ヒドロキシアミン酸化レダクターゼ
+===EC.1.8.-(含硫化合物に対し酸化酵素として働く)===
+====EC. 1.8.1.-（NADHまたはNADPHが電子受容体）====
+*EC.1.8.1.1 欠番 削除
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/1/2.html EC.1.8.1.2] 亜硫酸レダクターゼ (NADPH)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/1/3.html EC.1.8.1.3] ヒポタウリンデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/1/4.html EC.1.8.1.4] ジヒドロリポイルデヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/1/5.html EC.1.8.1.5] 2-オキソプロピルCoMレダクターゼ (カルボキシ化)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/1/6.html EC.1.8.1.6] システインレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/1/7.html EC.1.8.1.7] グルタチオンジスルフィドレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/1/8.html EC.1.8.1.8] たんぱく質ジスルフィドレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/1/9.html EC.1.8.1.9] チオレドキシンジスルフィドレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/1/10.html EC.1.8.1.10] CoA-グルタチオンレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/1/11.html EC.1.8.1.11] アスパラガス酸レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/1/12.html EC.1.8.1.12] トリパノチオンジスルフィドレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/1/13.html EC.1.8.1.13] ビス-γ-グルタミン酸システインレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/1/14.html EC.1.8.1.14] CoA-ジスルフィドレダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/1/15.html EC.1.8.1.15] ミコチオンレダクターゼ
+
+====EC.1.8.2.- （シトクロームが電子受容体）====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/2/1.html EC.1.8.2.1] 亜硫酸デヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/2/2.html EC.1.8.2.2] チオ硫酸デヒドロゲナーゼ
+
+====EC.1.8.3.- （酸素が電子受容体）====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/3/1.html EC.1.8.3.1] 亜硫酸オキシゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/3/2.html EC.1.8.3.2] チオールオキシゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/3/3.html EC.1.8.3.3] グルタチオンオキシゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/3/4.html EC.1.8.3.4] メタンチオールオキシゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/3/5.html EC.1.8.3.5] プレニルシステインオキシゲナーゼ
+
+====EC.1.8.4.- （ジスルフィドが電子受容体）====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/4/1.html EC.1.8.4.1] グルタチオンホモシステイントランスヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/4/2.html EC.1.8.4.2] たんぱく質ジスルフィドレダクターゼ (グルタチオン)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/4/3.html EC.1.8.4.3] グルタチオンCoAグルタチオントランスヒドロゲナーゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/4/4.html EC.1.8.4.4] グルタチオンシステイントランスヒドロゲナーゼ
+*EC.1.8.4.5 欠番 &rarr;  EC.1.8.4.13 and EC.1.8.4.14
+*EC.1.8.4.6 欠番 &rarr;  EC.1.8.4.11
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/4/7.html EC.1.8.4.7] 酵素性チオールトランスヒドロゲナーゼ (グルタチオン-ジスルフィド)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/4/8.html EC.1.8.4.8] ホスホノアデニル酸硫酸レダクターゼ (チオレドキシン)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/4/9.html EC.1.8.4.9] アデニル酸硫酸レダクターゼ (グルタチオン)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/4/10.html EC.1.8.4.10] アデニル酸硫酸レダクターゼ (チオレドキシン)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/4/11.html EC.1.8.4.11] ペプチド性メチオニン(S)-S-オキシド-レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/4/12.html EC.1.8.4.12] ペプチド性メチオニン(R)-S-オキシド-レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/4/13.html EC.1.8.4.13] L-メチオニン (S)-S-オキシド-レダクターゼ
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/4/14.html EC.1.8.4.14] L-メチオニン (R)-S-オキシド-レダクターゼ
+
+====EC.1.8.5.- （キノンおよび類縁体が電子受容体）====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/5/1.html EC.1.8.5.1] グルタチオンデヒドロゲナーゼ (アスコルビン酸)
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/5/2.html EC.1.8.5.2] チオ硫酸デヒドロゲナーゼ (キノン)
+
+====EC.1.8.6.- （窒素化合物が電子受容体）====
+*EC.1.8.6.1 欠番 &rarr;  EC 2.5.1.18へ統合
+
+====EC.1.8.7.- （鉄-硫黄タンパク質が電子受容体）====
+*[http://www.chem.qmul.ac.uk/iubmb/enzyme/EC1/8/7/1.html EC.1.8.7.1] 亜硫酸レダクターゼ (フェレドキシン)
+
+'''Оксидоредукта́зы''' — отдельный класс ферментов, катализирующих лежащие в основе биологического окисления реакции, сопровождающиеся переносом электронов с одной молекулы (восстановителя — акцептора протонов или донора электронов) на другую (окислитель — донора протонов или акцептора электронов).
+
+Реакции, катализируемые оксидоредуктазами, в общем виде выглядят так:
+: A<sup>-</sup> + B → A + B<sup>-</sup>
+
+Где '''A''' — восстановитель (донор электронов), а '''B''' — окислитель (акцептор электронов)
+
+В биохимических превращениях окислительно-восстановительные реакции иногда выглядят сложнее. Вот, например, одна из реакций гликолиза:
+
+: P<sub>н</sub> + глицеральдегид-3-фосфат + НАД<sup>+</sup> &rarr; НАД · H + H<sup>+</sup> + 1,3-дифосфоглицерат
+
+Здесь в качестве окислителя выступает НАД<sup>+</sup>, а глицеральдегид-3-фосфат является восстановителем.
+
+== Номенклатура ==
+Систематические названия ферментов класса образуются по схеме «''донор:акцептор'' + оксидоредуктаза». Однако широко используются и другие схемы именования. Когда возможно, ферменты называют в виде «''донор'' + дегидрогеназа», например ''глицеральдегид-3-фосфатдегидрогеназа'', для второй реакции выше. Иногда название записывается как «''акцептор'' + редуктаза», например ''НАД<sub>+</sub>-редуктаза''. В частном случае, когда окислителем является кислород, название может быть в виде «''донор'' + оксидаза».

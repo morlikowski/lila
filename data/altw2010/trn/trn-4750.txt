@@ -1,0 +1,78 @@
+La '''pressió atmosfèrica''' és la que exerceix l'atmosfera sobre la superfície terrestre i sobre tots els éssers que hi viuen, és a dir, el pes que exerceix l'aire sobre una superfície. La pressió atmosfèrica afecta a totes les superfícies que estan en contacte amb l'aire, independentment de la seva posició. Els éssers humans no notem la pressió atmosfèrica perquè la nostra pressió interna és gairebé igual que l'exterior.
+
+Les zones situades a l'altura del nivell del mar tenen més pressió atmosfèrica que les que estan més elevades. Com més amunt del nivell del mar ens situem, més petita és la pressió atmosfèrica, ja que hi ha menys gruix d'aire a sobre. Això també fa que l'aire sigui més atapeït al nivell del mar que al cim d'una muntanya. Així, per exemple, al cim de l'Everest – la muntanya més alta del món, situada a la serralada del Himalaia- la pressió atmosfèrica és més baixa que a qualsevol punt de les platges mediterrànies.
+
+Allà on hi ha menys aire, també hi ha menys oxigen disponible. Vet aquí per què els alpinistes, quan han d'escalar els cims més alts del planeta, han d'equipar-se amb bombones d'aire comprimit. Aquestes bombones els permeten respiraren indrets on l'aire és més aviat escàs.
+La pressió disminueix ràpidament amb l'alçada, però a més hi ha diferències de pressió entre unes zones de la troposfera i les altres que tenen gran interès des del punt de vista climatològic. Són denominades zones d'altes pressions, quan la pressió, reduïda al nivell del mar i a 0  , és major de 1.013 mil·libars o zones de baixes pressions si el valor és menor que aquest número. 
+
+L'aire es desplaça des de les àrees de més pressió a les de menys, formant-se així els vents. S'anomenen isòbares a les línies que uneixen punts d'igual pressió. Els mapes isobàrics són utilitzats pels meteoròlegs per a les prediccions del temps. 
+
+thumb|Baròmetre
+Podem mesurar la pressió atmosfèrica amb un baròmetre. Aquests aparells mesuren la pressió en mil·límetres de mercuri (mmHg), o en mil·libars (Mb). La pressió normal al nivell del mar equival a 760 mmHg o 1013 Mb. Un augment de la pressió atmosfèrica per sobre de la normal, indica la presència d'un anticicló, una disminució ens indicarà una depressió. Es fan mapes de pressió atmosfèrica, on es marquen les línies isòbares, que ajuden als meteoròlegs a fer prediccions meteorològiques.
+
+Categoria:Magnituds físiques
+Categoria:meteorologia
+
+Der '''Luftdruck''' an einem beliebigen Ort der hydrostatische Druck der Luft, der an diesem Ort herrscht.
+
+thumb|200px|[[Standardatmosphäre von 1976 bis in 90&nbsp;km Höhe]]
+thumb|200px|[[Druck (Physik)|Druck und Barometrischer Höhenformel]]
+<!-- Benutzer von Bildschirmlesegeräten danken, wenn ein Artikel mit Text beginnt und nicht mit einem Bild -->
+
+Dieser Druck entsteht durch die Körper steht (Druck und Gewichtskraft stimmen nicht überein, man kann aber die eine Größe aus der anderen berechnen). Der mittlere Luftdruck der Atmosphäre beträgt auf Meereshöhe 101325&nbsp;Pa&nbsp;=&nbsp;1013,25&nbsp;hPa&nbsp; (Hektopascal) = 1,01325 bar = 1013,25 mbar (Millibar) und ist somit ein Teil der Normalbedingungen.
+
+Eine andere Verwendung hat das Wort Luftdruck im Zusammenhang mit Reifen, wo es für den Reifenfülldruck, das ist die Differenz von Reifen-Innendruck und Außendruck der Atmosphäre, steht. Der Schallwechseldruck, den wir hören, ist nicht der Luftdruck. Für den Atmosphärendruck anderer Himmelskörper siehe den Artikel Atmosphäre.
+
+== Eigenschaften ==
+Die Erdatmosphäre hat eine Masse von rund 5·10<sup>15</sup> Tonnen und die Erdoberfläche beträgt etwa 510·10<sup>6</sup>&nbsp;km². Da der Druck als Kraft pro Fläche definiert ist, ergibt sich für den Luftdruck unter Berücksichtung der Schwerkraft ein globaler Überschlagswert von 1,01·10<sup>5</sup>&nbsp;kg/(m·s²).
+
+In Hochlagen ist die Entfernung zur Grenze der Erdatmosphäre wesentlich kleiner als in Tieflagen. Dadurch ist auch die Luftsäule kleiner und damit der Luftdruck niedriger. Der Luftdruck am Boden ist folglich im Gradient (eigentlich korrekt: seine erste Ableitung) wird über eine barometrische Höhenformel angenähert.
+
+In der Druck. Spürbar ist dabei allerdings immer nur die Differenz zwischen Körperinnen- und Außendruck, die im Gleichgewicht gleich groß sind. Differenzen ergeben sich nur bei verhältnismäßig schnellen Druckänderungen, z.B. der Fahrt mit einer Stoff verdampft, sobald sein Sättigungsdampfdruck identisch mit dem Luftdruck ist bzw. diesen übersteigt (vgl. Siedepunkt).
+
+== Einheiten ==
+Die SI-Einheit des Luftdrucks ist das ''Pascal'' (Einheit ''Bar'' (mmHg oder Millimeter Quecksilber<nowiki></nowiki>säule). Eine andere Einheit im Kontext des Luftdrucks ist die ''Atmosphäre,'' wobei diese alten Einheiten wie Physikalische Atmosphäre, Technische Atmosphäre, Atmosphäre Absolutdruck, Atmosphäre Überdruck oder Atmosphäre Unterdruck nach dem Einheitenrecht nicht mehr zulässig sind.
+
+== Variabilität und Extremwerte ==
+Der mittlere Luftdruck der Erdatmosphäre beträgt auf Meereshöhe 1013,25&nbsp;hPa bzw. mbar und ist damit Teil der Normalbedingungen sowie vieler Standardbedingungen.
+
+=== Abnahme mit der Höhe ===
+''Hauptartikel:'' Barometrische Höhenformel
+
+Der Luftdruck sinkt rasch mit der Höhe – in Bodennähe um etwa 1&nbsp;hPa (= früheres Millibar) je 8&nbsp;Meter. Er kann angenähert durch eine Exponentialfunktion beschrieben werden. Bei einer konstant angenommenen Temperatur von 0 °C beträgt der Druck in der Höhe <math>H</math>
+:<math>
+p(H)=p_0\ \mathrm{exp}\left(-H/7990\,\mathrm m\right) \,
+</math>.
+
+(Quelle: Kuchling, Taschenbuch der Physik). Daraus ergibt sich ''halber Luftdruck'' in etwa 5,5&nbsp;km Höhe und 10&nbsp;% des Bodenwertes <math>p_0</math> in etwa 18,4&nbsp;km über dem Meer.
+
+=== Tagesgang ===
+thumb|Tagesgang des Luftdrucks in Nordfriesland. Schwarze Kurve zeigt den Luftdruckverlauf. Die blaue Kurve zeigt die Ein-Stunden-Tendenz, die grüne Kurve die Drei-Stunden-Tendenz. Die rote Kurve zeigt die lineare Regression.
+Der Luftdruck ist einer täglich wiederkehrenden Periodik unterworfen, die zwei Maximalwerte und zwei Minimalwerte pro Tag aufweist. Er folgt dabei den Schwankungen der Lufttemperatur, wodurch sich ein stärkerer 12-Stunden-Rhythmus (als semicircadian bezeichnet) und ein schwächerer 24-Stunden-Rhythmus (circadian von lateinisch dies der Tag) zeigen. Die Maxima finden sich gegen 10 und 22&nbsp;Uhr, die Minima gegen 4 und 16&nbsp;Uhr (Sommerzeit beachten). Die Amplituden sind breitengradabhängig. In Äquatornähe liegen die Schwankungen bei Werten bis zu 5&nbsp;hPa. In den mittleren Breiten liegen die Schwankungen bei etwa 0,5 bis 1&nbsp;hPa. Die Kenntnis des örtlichen Tagesganges des Luftdrucks erhöht die Aussagekraft eines Barogramms zur Einschätzung des Wettergeschehens, insbesondere in tropischen Gebieten. Direkt zu beobachten ist der Tagesgang in der Regel jedoch nicht, da er von dynamischen Luftdruckschwankungen überlagert wird. Nur bei hinreichend genauer Messapparatur und stabilen Hochdruckwetterlagen ist es möglich, diese Schwankungen ungestört zu beobachten.
+
+Eine Darstellung des Tagesgangs, so wie er in Norddeutschland aufgezeichnet wurde, ist hier rechts zu sehen.
+
+Extrem niederfrequente (0,2&nbsp;Hz) und schwache Überlagerungen des Luftdrucks, die Bestandteil des Hintergrundrauschens sind und als Folge von Wettererscheinungen und Seegang auftreten, werden Mikrobarome genannt. Ihre Amplituden liegen unter einem Pascal.
+
+=== Jahresgang ===
+Der Jahresgang des Luftdrucks, basierend auf entweder Tages- oder Monatsmitteln als langjährige Durchschnittswerte, zeigt eine geringe, aber auch vergleichsweise komplexe Schwankung zwischen den einzelnen Monaten. Dabei zeigt sich ein Minimum im April, verantwortlich für den Begriff des Aprilwetters, und vergleichsweise hohe Werte für Mai und September (Altweibersommer).
+
+=== Luftdruck-Rekorde ===
+Der historische globale Niedrigstwert des Luftdrucks auf Meereshöhe beträgt 869,9&nbsp;hPa und wurde am Pazifik gemessen (Taifun Tip). Für Deutschland beträgt der Niedrigstwert 908&nbsp;hPa und wurde am 23. Juli 2007 in Cottbus erfasst.
+
+Die historisch globalen Maximalwerte auf Meereshöhe wurden mit 1085,7&nbsp;hPa in Tosontsengel (Mongolei) am 19. Dezember 2001 und 1083,8&nbsp;hPa am 31. Dezember 1968 am Agata-See (Sibirien 66N/93E) erfasst. Der Rekordhalter für Deutschland ist Berlin mit 1057,8&nbsp;hPa am 23. Januar 1907.
+
+Der stärkste bis heute gemessene Luftdruckabfall innerhalb von 24 Stunden wurde im Oktober 2005 bei Hurrikan Wilma mit 98&nbsp;hPa gemessen. Der Kerndruck fiel bis auf 882&nbsp;hPa. Bei Taifun Forrest wurde im September 1983 im nordwestlichen Pazifik ein Druckabfall von 92&nbsp;hPa innerhalb von 24&nbsp;Stunden gemessen.
+
+== Experimente und Messung ==
+''Hauptartikel: '''Barometer'''''
+
+evakuiert worden war, nicht mehr voneinander getrennt werden konnten. Nach diesem Prinzip arbeiten auch heute noch Unterdruckkabinen.
+
+150px|right
+Ein anderes maximale Höhe ein, bis zu der der hohem Luftdruck mehr, bei niedrigem Luftdruck weniger. Im Hohlraum ist dann beinahe ein Vakuum, das allerdings durch etwas Wasserdampf „verunreinigt“ ist. Man bezeichnet dieses als ein Flüssigbarometer, wobei Evangelista Torricelli stattdessen Quecksilber nutzte, das bereits nach 760&nbsp;mm abreißt und kaum verdampft. Ein anderes Instrument zur Luftdruckmessung nach diesem Prinzip ist das Goethe-Barometer.
+
+right|150px
+Heute werden meistens Dosen-Barometer verwendet, die eine sogenannte Vidie-Dose oder einen Stapel derartiger Dosen enthalten. Dabei handelt es sich um einen dosenartigen Hohlkörper aus dünnem Blech, der mit einem Zeiger verbunden ist. Steigt der Luftdruck, so wird die Dose zusammengedrückt, der Zeiger bewegt sich. Damit die Messung unabhängig von der Temperatur ist, befindet sich in der Dose ein Vakuum, da sich darin befindliche Luft bei Erwärmung ausdehnen würde. Trotzdem gibt es temperaturabhängige Messfehler. Um diese klein zu halten, werden Legierungen mit einem geringen Wärmeausdehnungskoeffizienten verwendet.
+
+Eine weitere Möglichkeit den Luftdruck zu erfassen, bietet ein Sturmglasbarometer, das sich die temperatur- und luftdruckabhängigen Kristallisationseigenschaften von Campher zunutze macht.

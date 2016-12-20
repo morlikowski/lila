@@ -1,0 +1,94 @@
+<!-- Il testo commentato è SOLO UN ESEMPIO -->
+ {{Comune francese|nomecomune= Précy-Notre-Dame <!-- Nizza -->
+ |nomefrancese= Précy-Notre-Dame <!-- Nice -->
+ |nomeregione= Champagne-Ardenne <!-- Bretagna -->
+ |nomedipartimento= Aube <!-- Calvados -->
+ |arrondissement= Bar-sur-Aube
+ |cantone= Brienne-le-Château
+ |latitudine= 48° 25' N <!-- 37° 54' N -->
+ |longitudine= 4° 26' E <!-- 12° 30' E -->
+ |altitudine= &nbsp; <!-- 187 -->
+ |superficie= 4,47 <!-- 1.285 -->
+ |abitanti=  68  <!-- 346.804 -->
+ |anno= 1999 <!-- 1999 -->
+ |densita= 15,21 <!-- 1.747,45 -->
+ |insee= 10303 <!-- 152 -->
+ |cap= 10500 <!-- 2750 -->
+ |sito= &nbsp; <!-- http://www.fontainebleau.fr/-->
+ |mappaX= 202
+ |mappaY= 92
+ }} <!-- fine della tabella - per la compilazione vedi -> Aiuto:Comune francese-->
+'''Précy-Notre-Dame''' è un comune francese di 68 abitanti situato nel dipartimento dell'Aube nella regione della Champagne-Ardenne.
+
+==Evoluzione demografica==
+
+== Collegamenti esterni ==
+* [http://www.ign.fr/affiche_rubrique.asp?rbr_id=1087&CommuneId=92555 Précy-Notre-Dame sul sito dell'Institut géographique national]
+* [http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=10303&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Précy-Notre-Dame sul sito dell'Insee]
+* [http://www.quid.fr/communes.html?mode=query&req=Précy-Notre-Dame Précy-Notre-Dame sul sito del Quid]
+
+{{infobox Franse gemeente|
+|plaatsnaam= Précy-Notre-Dame
+|wapen= 
+|kaart= 
+|regio= Champagne-Ardennen 
+|departement= Aube (10)
+|arrondissement= Bar-sur-Aube
+|kanton= Brienne-le-Château
+|jaar= 1999
+|inwoners= 68
+|dichtheid= 15,1
+|oppervlakte= 4,5
+|water= 
+|latitudeGraden= 48 |latitudeMinuten= 25|latitudeSeconden= 0
+|longitudeGraden= 4 |longitudeMinuten= 26 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 202 |kaartY= 92
+|code= 10303
+|postcode= 10500
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Précy-Notre-Dame''' is een gemeente in het Franse departement Aube (regio Bar-sur-Aube.
+
+==Geografie==
+De oppervlakte van Précy-Notre-Dame bedraagt 4,5 km², de bevolkingsdichtheid is 15,1 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE-tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:300 color:gray1 width:1       
+  from:start till:end             
+  bar:200 color:gray1              
+  from:start till:end            
+  bar:100 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,77)(84,72) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 101 1968: 91
+  points:(84,72)(100,72)    color:blue    width:2 #1975: 91
+  points:(100,72)(128,64)   color:blue    width:2 #1982: 77
+  points:(128,64)(160,63)   color:blue    width:2 #1990: 76
+  points:(160,63)(196,59)   color:blue    width:2 #1999: 68
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" --> 

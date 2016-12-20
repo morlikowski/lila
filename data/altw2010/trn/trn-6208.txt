@@ -1,0 +1,82 @@
+98/Me. Substytutami 4DOS dla innych systemów są 4NT dla Windows NT i 4OS2 dla IBM OS/2. 4DOS został napisany w 1989 roku przez Rexa Conna oraz Toma Rawsona. Niektóre wersje Norton Utilities dla DOS zawierały zmodyfikowane kopie 4DOS zwane '''NDOS'''.
+
+===Cechy===
+4DOS cechuje większa ilość udogodnień w porównaniu z <code>COMMAND.COM<code>
+* Dodatkowe komendy
+* Większa funkcjonalność komend
+* Większe możliwości plików wsadowych
+* Ulepszona edycja komend dzięki dopełnianiu nazwy plików oraz historii wprowadzonych komend
+* Obsługa aliasów komend
+* Kolorowane listingi
+* Konfiguracja zapisywana w plikach *.INI
+* Wsparcie dla notatnika Windows
+
+===Historia i wprowadzane zmiany===
+Oryginalnie rozprowadzany jako shareware, teraz przestarzały 4DOS dostępny jest jako oprogramowanie abandonware.  Ostatnia wersja
+7.50.130  aktualizowana była przez oryginalnych producentów w  sierpniu 2004.
+Obecnie 4DOS rozwijany jest jako projekt Open Source. Podczas piętnastoletniej historii 4DOS ulegał wielu zmianom, tutaj przedstawiona najbardziej znaczące.
+
+{| class="wikitable"
+|-
+! Wersja
+! Data wydania
+! Nowe funkcje
+|-
+| style="vertical-align:top;"| 2.00
+| style="white-space: nowrap; vertical-align:top;"| 15 lutego 1989
+| style="vertical-align:top;"| Pierwsze wydanie.  Ulepszona obsługa linii komend, dopełnianie nazwy plików, historia komend, aliasy, pomoc online, wewnętrzne zmienne, Opisy plików, rozdzielanie komend.
+|-
+| style="vertical-align:top;"| 2.20
+| style="white-space: nowrap; vertical-align:top;"| 5 lipca 1989
+| style="vertical-align:top;"| Wykonywanie rozszerzeń
+|-
+| style="vertical-align:top;"| 3.00
+| style="white-space: nowrap; vertical-align:top;"| 7 marca 1990
+| style="vertical-align:top;"|  pliki wsadowe (umieszczane w pamięci podręcznej), korzystanie z pamięci XMS, zmienne, nawiasy w zmiennych
+|-
+| style="vertical-align:top;"| 4.00
+| style="white-space: nowrap; vertical-align:top;"| 1 listopada 1991
+| style="vertical-align:top;"| Kolorowanie listingów, plik konfiguracyjny 4DOS.INI, wprowadzone listy, grupowanie komend, implikowane CDD, wsparcie dla DOS 5 UMB
+|-
+| style="vertical-align:top;"| 5.00
+| style="white-space: nowrap; vertical-align:top;"| 23 listopada 1993
+| style="vertical-align:top;"| Zasięgi dla daty i czasu; Kompresowane pliki wsadowe
+|-
+| style="vertical-align:top;"| 5.51
+| style="white-space: nowrap; vertical-align:top;"| 22 sierpnia 1995
+| style="vertical-align:top;"| Obsługa długich nazw plików, REXX w plikach .BAT i .BTM
+|-
+| style="vertical-align:top;"| 6.00
+| style="white-space: nowrap; vertical-align:top;"| 24 lipca 1997
+| style="vertical-align:top;"| Polepszone możliwośći przeszukiwania katalogów, Ulepszona konfiguracja, debuger plików wsadowych.
+|-
+| style="vertical-align:top;"|7.50
+| style="white-space: nowrap; vertical-align:top;"|24 lutego 2003
+| Funkcje definiowane przez użytkownika
+|}
+
+{{Infobox Software
+  | Name                         = 4DOS
+  | logo = 50px
+  | screenshot = 320px
+  | Beschreibung                 = 4DOS-Fenster
+  | Hersteller                   = JP Software, 
+  | AktuelleVersion              = 7.72 (build 172)
+  | AktuelleVersionFreigabeDatum = 15. Juli 2008
+  | Betriebssystem               = DOS
+  | Kategorie                    = DOS
+  | Lizenz                       = modifizierte MIT-Lizenz
+  | Deutsch                      = nein
+  | Website                      = [http://4dos.zzl.org/ 4dos.zzl.org] (englisch)
+}}
+'''4DOS''' ist ein DOS-Betriebssystemen ersetzen und somit dessen Funktionen erweitern soll. Ursprünglich als Open-Source-Programm ohne Support durch den Hersteller freigegeben und wird seither von  weiterentwickelt.
+
+Weitgehend kompatible Entwicklungen für andere Betriebssysteme sind 4OS2 (mittlerweile auch Open Source) für Windows (nur NT-Linie, proprietär), welche ebenfalls von JP Software entwickelt wurden und im Fall von 4NT und Take Command nach wie vor vertrieben werden.
+
+4DOS bietet eine Reihe von Vorteilen gegenüber dem Kommandozeileninterpreter von MS-DOS:
+
+* circa 60 zusätzliche Befehle
+* erweiterte Funktionen für bestehende Befehle
+* erweiterte Strukturen für die Programmierung von Stapelverarbeitungen (siehe auch →Skriptsprache)
+* Kommandozeile mit Verlaufsspeicher (''engl.'' ), schneller Verzeichniswechsel
+* mehr als 60 interne System-Variablen und 90 Funktionen zur Manipulation und Darstellung von System-Informationen, Zeichenketten, Zahlen, Datums- und Zeitwerten, Datei-Informationen und einiges mehr.

@@ -1,0 +1,76 @@
+<div style="float: right; padding: 0.3em; padding-top: 2.7em"><span style="border: 1px solid #999; font-size: 0.9em; padding: 0.4em">Уикипедия на [http://}.wikipedia.org/wiki/ }]</span></div>
+<div style="color: black; background: none; font-weight: normal; font-size: 132%; margin-top: 1em; padding: 1em 0 0.17em 0; border-top: 1px solid #aaaaaa;"> <span id="ancrage_}" style="font-weight: bold; padding: 0.3em; border: 1px solid #999; font-family: monospace; background: #FAF9EC">}</span> – } (}) </div>
+<!-- laisser le code HTML ci-dessus et ne surtout pas remplacer par === blabla ===, c'est pour éviter une édition par section problématique dans Wikipédia:Babel. Si quelqu'un clique sur le lien [modifier] à côté d'un nom de langue, ça ouvrait une section vide... -->
+<!-- Note : le premier } peut, dans certaines circonstances, ne plus fonctionner, le logiciel MediaWiki – ou les développeurs... – étant capricieux. Dans ce cas, mettre le sommaire rapide, dans Уикипедия:Babel, entre commentaires, le temps que ça revienne -->
+<div style="margin-left: 3em">
+<span style="padding-left: 0.2em; padding-right: 3em">Родителска категория : Потребител  }</span> Всички езикови равнища: /}
+{| cellpadding="2" cellspacing="0"
+| style="padding-right: 2em; border-bottom: 1px solid #dfdfdf" | Шаблон
+| style="padding-right: 2em; border-bottom: 1px solid #dfdfdf" | Равнище
+| style="; border-bottom: 1px solid #dfdfdf" | Съответни категории
+|-
+| style="padding-right: 2em" | <nowiki>}+|Потребител }+]]<nowiki>}}</nowiki>
+| style="padding-right: 2em" | Роден език, живее в страната
+| :Категория:Потребител } и :Категория:Потребител }-N+
+|-
+| style="padding-right: 2em" | <nowiki>}|Потребител }]]<nowiki>}}</nowiki>
+| style="padding-right: 2em" | Роден език
+| :Категория:Потребител } и :Категория:Потребител }-N
+|-
+| style="padding-right: 2em" | <nowiki>}-3|Потребител }-3]]<nowiki>}}</nowiki>
+| style="padding-right: 2em" | Добро равнище
+| :Категория:Потребител } и :Категория:Потребител }-3
+|-
+| style="padding-right: 2em" | <nowiki>}-2|Потребител }-2]]<nowiki>}}</nowiki>
+| style="padding-right: 2em" | Средно равнище
+| :Категория:Потребител } и :Категория:Потребител }-2
+|-
+| style="padding-right: 2em" | <nowiki>}-1|Потребител }-1]]<nowiki>}}</nowiki>
+| style="padding-right: 2em" | Начално равнище
+| :Категория:Потребител } и :Категория:Потребител }-1
+|}
+</div><noinclude>
+
+dsb:Pśedłoga:Babelowa lisćina
+hsb:Předłoha:Babelowa lisćina
+
+<!-- ### Kasten mit Verweis auf fremdsprachige Wikipedia ### -->
+<!-- durch Syntax kein selbstlink möglich,
+     daher if-abfrage und Link auf aktuelle Hauptseite -->
+<div style="display:}; float:right; padding:0.3em; padding-top:2.7em"><span style="padding:0.4em; border:solid 1px #AAAAAA; background-color:#F9F9F9; font-size: 0.9em">Wikipedia auf }}}}|de|}|}}}</span></div>
+<div style="display:}; float:right; padding:0.3em; padding-top:2.7em"><span style="padding:0.4em; border:solid 1px #AAAAAA; background-color:#F9F9F9; font-size: 0.9em">Testwikipedia auf }</span></div>
+
+<!-- ### Zeile mit Sprachkürzelkasten und Sprachennamen ### -->
+<span id="Mark_}" style="font-size:1.32em"><span style="margin-right:0.6em; padding:0.3em; border:solid 1px #999999; font-family:monospace; background-color:#FAF9EC">'''}'''</span>} (})</span>
+
+<!-- ### Tabelle mit Vorlagen und Kategorien ### -->
+<div style="margin-left:3em">
+Übergeordnete Kategorie: User }<br />
+Vorschau aller Vorlagen: }
+
+{| class="prettytable" 
+! style="width:9em" | Vorlage
+! Sprachkenntnis
+! style="width:16em" | Zugehörige Kategorie
+|- style="display:}"
+| style="width:9em" | User }
+| Muttersprachler
+| style="width:16em" | :Kategorie:User }-M
+|-
+| style="width:9em" | User }-4
+| muttersprachliche Kenntnis
+| style="width:16em" | :Kategorie:User }-4
+|-
+| style="width:9em" | User }-3
+| sehr gute Kenntnis
+| style="width:16em" | :Kategorie:User }-3
+|-
+| style="width:9em" | User }-2
+| fortgeschrittene Kenntnis
+| style="width:16em" | :Kategorie:User }-2
+|-
+| style="width:9em" | User }-1
+| Grundkenntnis
+| style="width:16em" | :Kategorie:User }-1
+|}
+</div><noinclude>

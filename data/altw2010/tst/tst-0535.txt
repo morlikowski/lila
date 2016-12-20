@@ -1,0 +1,53 @@
+Le nicotinamide adénine dinucléotide phosphate ('''NADP''') est un coenzyme d'oxydoréduction. Il est très proche du nicotinamide adénine dinucléotide ('''NAD'''), dont il diffère par la présence d'un groupement phosphate sur le second carbone du β-D-ribofurannose du résidu adénosine (figure 1). Sa forme réduite est désignée par '''NADPH''' ou '''NADPH2''' ou encore NADPH+H<sup>+</sup>.
+
+framed|right|Figure 1 : structure de la forme oxydée du [[Nicotinamide adénine dinucléotide phosphate.]]
+
+C'est un coenzyme libre (co-substrat) associé à des oxydoréductases.
+
+==Rôle cellulaire==
+
+Au niveau du métabolisme, le NADPH est principalement produit par la phase oxydative de la voie des pentoses phosphates.
+Le NADPH est la source principale d'électrons utilisés dans les réactions biosynthétiques dans la cellule. Il est également utilisé dans les mécanismes de protection contre le stress oxydant et les espèces réactives de l'oxygène (ROS).  La détoxification de ces espèces réactives fait intervenir le glutathion qui doit être régénéré constamment par la glutathion réductase suivant le schéma suivant :
+
+GSSG + NADPH + H<sup>+</sup> --> 2 GSH + NADP<sup>+</sup>
+
+{{Chembox new
+| ImageFile = NADP+ phys.svg
+| ImageSize = 200px
+| IUPACName = 
+| OtherNames = 
+| Section1 = {{Chembox Identifiers
+|   CASNo = 53-59-8
+|   PubChem = 929
+|   SMILES = 
+|   MeSHName = NADP
+  }}
+| Section2 = {{Chembox Properties
+|   Formula = C<sub>21</sub>H<sub>29</sub>N<sub>7</sub>O<sub>17</sub>P<sub>3</sub>
+|   MolarMass = 744.413
+|   Appearance = 
+|   Density = 
+|   MeltingPt = 
+|   BoilingPt = 
+  }}
+| Section3 = {{Chembox Hazards
+|   Solubility = 
+|   MainHazards = 
+|   FlashPt = 
+|   Autoignition = 
+  }}
+}}
+'''Nicotinamide adenine dinucleotide phosphate''' ('''NADP<sup>+</sup>''', in older notation '''TPN''') is used in anabolic reactions, such as lipid and nucleic acid synthesis, which require NADPH as a reducing agent. 
+
+NADPH is the reduced form of NADP<sup>+</sup>.
+==In plants==
+In chloroplasts, NADP is reduced by ferredoxin-NADP+ reductase in last step of the electron chain of the light reactions of photosynthesis. The NADPH produced is then used as reducing power for the biosynthetic reactions in the Calvin cycle of photosynthesis.
+
+NADP ions in photosynthesis may be seen as 'dragging' hydrogen ions along with them (in the light-dependent cycles), which are used by the light-independent (Calvin) cycles to produce carbohydrates.
+
+==In animals==
+The oxidative phase of the pentose phosphate pathway is the major source of NADPH in cells.  
+
+NADPH provides the reducing equivalents for biosynthetic reactions and for oxidation-reduction involved in protection against the toxicity of ROS (reactive oxygen species).  
+
+NADPH is also used for anabolic pathways, such as lipid synthesis, cholesterol synthesis and fatty acid chain elongation.

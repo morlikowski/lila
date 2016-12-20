@@ -1,0 +1,92 @@
+{{Chembox new
+|   Name = Hidróxido de estrôncio
+| Section1 = {{Chembox Identifiers
+|   CASOther = [18480-07-4] (anidro)
+  }}
+| Section2 = {{Chembox Properties
+|   Formula = Sr(OH)<sub>2</sub>
+|   MolarMass = 121.63468 g·mol<sup>–1</sup> (anidro)<br /> 139.64996 g·mol<sup>–1</sup> (monohidrato)<br /> 265.75692 g·mol<sup>–1</sup> (octahidrato)
+|   Appearance = cristais prismáticos incolores
+|   Solubility = 1.77 g / 100 mL at 20 °C
+|   MeltingPt = 375°C (anidro)
+|   BoilingPt =
+|   pKb = –2.19
+  }}
+| Section3 = {{Chembox Structure
+|   Coordination = 
+|   CrystalStruct = 
+  }}
+| Section7 = {{Chembox Hazards
+|   ExternalMSDS =
+|   EUClass = Nocivo ('''Xn''')
+|   RPhrases =    
+|   SPhrases =
+|   FlashPt =
+  }}
+| Section8 = {{Chembox Related
+|   OtherAnions = Óxido de estrôncio<br />Peróxido de estrôncio
+|   OtherCations = Hidróxido de cálcio<br />Hidróxido de bário
+  }}
+}}
+
+'''Hidróxido de estrôncio''' é um fórmula Sr(OH)<sub>2</sub>, é um base forte. Sr(OH)<sub>2</sub> existe na forma de monohidrato, ou octahidrato.
+
+== Preparação ==
+
+Porque o Sr(OH)<sub>2</sub> é muito levemente solúvel em água. sua preparação pode ser facilmente obtido pela adição de uma base forte tal como o NaOH ou KOH, gota por gota a uma solução de qualquer sal de estrôncio, mais comumente o Sr(NO<sub>3</sub>)<sub>2</sub> (nitrato de estrôncio). O Sr(OH)<sub>2</sub> irá precipitar-se como um fino pó branco. Daí, a solução é filtrada, e o Sr(OH)<sub>2</sub> é lavado com água fria e secado.<ref>{{cite book
+  | last = Brauer
+  | first = Georg
+  | authorlink =
+  | coauthors =
+  | title = Handbook Of Preparative Inorganic Chemistry
+  | publisher = Academic Press
+  | date = 1963
+  | pages = pp 935
+  | url =
+  | doi =
+  | id = }}</ref>
+
+:<big>Sr(NO<sub>3</sub>)<sub>2</sub> + 2 NaOH → 2 NaNO<sub>3</sub> + Sr(OH)<sub>2</sub>↓</big>
+
+Pode também ser obtido, por vigorosa reação, do estrôncio metálico com água, com desprendimento de hidrogênio:
+
+:<math>\mathrm{Sr + 2 H_2O \rightarrow Sr(OH)_2 + H_2 \uparrow}</math>
+
+Ou ainda da reação do óxido de estrôncio com água:
+
+{{Infobox Chemikalie
+ | Kristallstruktur    = Ja
+ | Strukturformel      = 
+ | Andere Namen        = Strontianhydrat
+ | Summenformel        = Sr(OH)<sub>2</sub>
+ | CAS                 = * 18480-07-4 (wasserfrei)
+* 1311-10-0 (Octahydrat)
+ | Beschreibung        = farblose Kristalle
+ | Molare Masse        = * 121,63 g·mol<sup>−1</sup> (wasserfrei)
+* 385,70 g·mol<sup>−1</sup> (Octahydrat)
+ | Aggregat            = fest
+ | Dichte              = 3,63 g·cm<sup>−3</sup> (wasserfrei) <ref name="GESTIS"></ref>
+ | Schmelzpunkt        = 375 °C (wasserfrei) <ref name="GESTIS"/>
+ | Siedepunkt          = 
+ | Löslichkeit         = schlecht in Wasser (20 g/L bei 20 °C) <ref name="GESTIS"/>
+ | Kristallsystem      = 
+ | Raumgruppe          = 
+ | Gitterkonstanten    = 
+ | Koordinationszahlen = 
+ | Quelle GefStKz         =<ref name="GESTIS"/>
+ | Gefahrensymbole     =  
+ | R                   = 
+ | S                   =  
+ | WGK                 = 1 <ref name="GESTIS"/>
+}}
+
+'''Strontiumhydroxid''' ist das Hydroxid des Erdalkalimetalls Strontium. Die Summenformel lautet Sr(OH)<sub>2</sub>. 
+
+== Darstellung ==
+Strontiumhydroxid kann durch die Reaktion von Strontium mit Wasser dargestellt werden. Es entsteht Strontiumhydroxid und Wasserstoff.
+
+<math>\mathrm{Sr + 2 H_2O \rightarrow Sr(OH)_2 + H_2 \uparrow}</math>
+
+Des weiteren wird Strontiumhydroxid unter starker Wärmeentwicklung durch die Reaktion von Strontiumoxid mit Wasser gebildet.
+
+<math>\mathrm{SrO + H_2O \rightarrow Sr(OH)_2}</math>

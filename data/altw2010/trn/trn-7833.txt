@@ -1,0 +1,33 @@
+right|thumbnail|Thinking Machines [[CM-5 "FROSTBURG" at the National Cryptologic Museum]]
+
+'''Thinking Machines Corporation''' was a W. Daniel "Danny" Hillis and massively parallel computing architectures into a commercial product called the CM-2, and Meiko, whose CS-2 was similar to the CM-5.
+
+:''"We're building a machine that will be proud of us."'' &ndash; Thinking Machines' motto
+
+==Products==
+Thinking Machines produced a number of Connection Machine models (in chronological order): the CM-1, CM-2, CM-200, CM-5, and the CM-5E.  The CM-1 and 2 came first in models with 64K (65,536) bit-serial processors (16 processors per chip) and later smaller numbered versions (16,384 (16K)  and 4,096 (4K) processors).  The Connection Machine was programmed in a variety of specialized languages, including C), and CM FORTRAN (using a special compiler to translate standard Fortran code to the parallel instruction set of the machine).  The CM-1 through CM-200 were examples of SIMD architecture (Single Instruction Multiple Data), while the later CM-5 and CM-5E were MIMD (Multiple Instructions Multiple Data) using commodity SPARC processors using a "fat tree" interconnect. Thinking Machines also introduced the first commercial RAID disk array, called the DataVault, in 1985.
+
+The CM-2 required a Symbolics 3600 LISP machines as a front-end processor; later models used Sun Microsystems workstations or VAX minicomputers.
+
+A claim was made that a small CM-5 was once placed aboard a nuclear submarine, but this claim has not been substantiated.
+
+Thinking Machines developed the C* programming language as an extension of the C programming language for the Connection Machine data parallel computing system.
+
+==Business history==
+Thinking Machines became profitable in 1989 thanks to its DARPA contracts, and in 1990 the company had $65 million (USD) in revenue, making it the market leader in parallel supercomputers.  In 1991, DARPA reduced its purchases amid criticism it was unfairly subsidizing Thinking Machines at the expense of other vendors like Cray, IBM, and in particular, NCUBE and MasPar.  By 1992 the company was losing money again, due to lack of business; CEO Sheryl Handler was forced out in the face of public criticism.
+
+Thinking Machines filed for Chapter 11 bankruptcy in August 1994. The hardware portion of the company was purchased by Sun Microsystems, and TMC re-emerged as a small software company specializing in parallel software tools for commodity clusters and data mining software for its installed base and former competitors' parallel supercomputers. In December of 1996, the parallel software development business was acquired by Sun Microsystems, forming the basis of Sun's entry into High Performance Computing.
+
+Thinking Machines continued as a pure data mining company until it was acquired in 1999 by Oracle Corporation.
+
+'''シンキングマシンズ'''（''Thinking Machines Corporation''）は、1982年に W.D. Hillis と Sheryl Handler が設立したスーパーコンピュータ製造企業である。
+
+Hillis がCM-2に良く似たマシンを販売）やCM-5に良く似たマシンを販売）がある。
+
+== 製品 ==
+コネクションマシンの全機種を時系列に列挙すると、CM-1, CM-2, CM-200, CM-5, CM-5E となる。コネクションマシンには超並列マシン向けの特製プログラミング言語がいくつか用意された。*Lisp、CM Lisp（Common Lispからの派生）、C*（C言語からの派生）、並列化FORTRAN（通常のFORTRANプログラムを自動的に並列化するコンパイラ）などである。CM-1 から CM-200 までは、SIMDアーキテクチャで、CM-5 と CM-5E はMIMDアーキテクチャである。
+
+== 歴史 ==
+シンキングマシンズはDARPA（米国国防総省高等研究計画局）との契約によって黒字となった。1990年には6500万ドルの収入があり、並列スーパーコンピュータ市場のリーダーに躍り出た。1991年、クレイやIBMからDARPAが不当にシンキングマシンズを助成しているという訴えがあった。1992年、同社は再び赤字に転じた。社長の Sheryl Handler は公共の批判にさらされた。
+
+シンキングマシンズ社は1994年8月に倒産した。後に小さなソフトウェア企業として再生し、かつてのライバルだった並列スーパーコンピュータ用のアプリケーションを開発している。

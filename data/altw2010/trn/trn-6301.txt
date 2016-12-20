@@ -1,0 +1,116 @@
+'''Befunge''' é uma linguagem de programação esotérica. O código é bidimensional. Foi criada por Chris Pressey, em 1993. É baseada no conceito de pilha (LIFO).
+
+== Comandos ==
+
+{|align="center" border="0" cellspacing="0" cellpadding="2"  
+!align="center"  |Caractere
+!align="center" |Função
+|-
+||<center><code>0-9</code></center>
+||Coloca este valor (0-9) no topo da pilha.
+|-
+||<center><code>+</code></center>
+||Obtém os dois primeiros valores da pilha e soma-os, colocando o resultado no topo da pilha.
+|-
+||<center><code>-</code></center>
+||Obtém os dois primeiros valores da pilha e subtrai o segundo do primeiro, colocando o resultado no topo da pilha.
+|-
+||<center><code>*</code></center>
+||Obtém os dois primeiros valores da pilha e multiplica-os, colocando o resultado no topo da pilha.
+|-
+||<center><code>/</code></center>
+||Obtém os dois primeiros valores da pilha e divide o primeiro pelo segundo, colocando o resultado no topo da pilha.
+|-
+||<center><code>%</code></center>
+||Obtém os dois primeiros valores da pilha e faz divisão inteira do primeiro pelo segundo, colocando o resto da divisão no topo da pilha.
+|-
+||<center><code>!</code></center>
+||Obtém o primeiro valor da pilha e nega-o logicamente, colocando o resultado no topo da pilha.
+|-
+||<center><code>`</code></center>
+||Obtém os dois primeiros valores da pilha e executa operação lógica primeiro>segundo, colocando o resultado no topo da lista.
+|-
+||<center><code>&gt;</code></center>
+||Muda a direção para a direita.
+|-
+||<center><code>&lt;</code></center>
+||Muda a direção para a esquerda.
+|-
+||<center><code>^</code></center>
+||Muda a direção para cima.
+|-
+||<center><code>v</code></center>
+||Muda a direção para baixo.
+|-
+||<center><code>_</code></center>
+||Obtém o primeiro valor da pilha. Se for 0, move para a direira. Se não, move para a esquerda.
+|-
+||<center><code>|</code></center>
+||Obtém o primeiro valor da pilha. Se for 0, move para a baixo. Se não, move para cima.
+|-
+||<center><code>"</code></center>
+||Inicia (ou termina) o modo string. Cada caractere é colocado na pilha, na ordem que aparecem.
+|-
+||<center><code>:</code></center>
+||Duplica o primeiro valor da pilha.
+|-
+||<center><code>\</code></center>
+||Inverte a posição dos dois primeiros valores da pilha.
+|-
+||<center><code>$</code></center>
+||Remove o primeiro valor da pilha.
+|-
+||<center><code>.</code></center>
+||Obtém o primeiro valor da pilha e mostra-o na tela como inteiro.
+|-
+||<center><code>,</code></center>
+||Obtém o primeiro valor da pilha e mostra-o na tela como caractere Asc II.
+|-
+||<center><code>#</code></center>
+||Pula a próxima célula de comando.
+|-
+||<center><code>p</code></center>
+||Pega os valores <code>x</code>, <code>y</code> e <code>v</code> do topo da pilha, e modifica a célula de comando <code>(x,y)</code> para o valor Asc II de <code>v</code>.
+|-
+||<center><code>g</code></center>
+||Pega os valores <code>x</code> e <code>y</code> do topo da pilha, e coloca o código Asc II da célula de comando <code>(x,y)</code>.
+|-
+||<center><code>&</code></center>
+||Pede um número para o usuário e registra-o no topo da pilha.
+|-
+||<center><code>~</code></center>
+||Pede um caractere para o usuário e registra-o no topo da pilha.
+|-
+||<center><code>@</code></center>
+||Termina o programa.
+|}
+
+== Linguagens baseadas em Befunge ==
+Extensões ou variantes do Befunge são chamados fungeóides.
+* Befreak.
+* PATH (combinação de Befunge com brainfuck).
+
+'''Befunge''' est un exotique réflectif à pile. Il diffère des langages conventionnels par le fait qu'il est arrangé sur une grille à deux dimensions. Des instructions "flèche" dirigent le flux de contrôle à gauche, à droite, en haut, en bas, et des boucles sont construites en envoyant le flux de contrôle dans un cycle.
+
+== Histoire==
+Le langage a été créé par Chris Pressey en 1993, comme tentative de définir un langage aussi difficile à compiler que possible - la commande <code>p</code> permet le code automodifiant. Toutefois, un certain nombre de compilateurs ont été écrits par la suite. Un certain nombre d'extensions aux spécifications originelles  "Befunge-93" existent également, parmi lesquelles Funge-98, qui étend le concept à un nombre arbitraire de dimensions et peut être multi-threadé, avec des compteurs ordinaux multiples opérant de manière simultanée sur le même espace. Les extensions et variantes de Befunge sont appelées "Fungeoids" ou simplement des Funges.
+
+Les spécifications de Befunge-93 restreignent tout programme valide à une grille de 80 instructions horizontalement à 25 instructions verticalement. Toute exécution du programme excédant ces limites se retrouve de l'autre coté de la grille. Un programme Befunge est de cette manière topologiquement équivalent à un tore. Comme un programme Befunge-93 ne peut avoir qu'une unique pile et que son tableau de stockage est limité, le langage Befunge-93 est, contrairement à la plupart des langages, non Turing-complet. Les spécifications Funge-98 fournissent la complétion Turing en enlevant la restriction de taille sur les programmes. Au lieu d'avoir des bords reliés de part et d'autre, Funge-98 fait en sorte que le compteur ordinal suive un modèle surnommé 'Lahey-space" en référence à son créateur, Chris Lahey. Dans ce modèle, la grille se comporte comme un tore de taille finie par rapport à son repliement, tout en lui permettant de s'étendre infiniment.
+
+== Exemple de code Befunge==
+La technique d'utiliser des flèches pour changer le flux de contrôle est montrée dans le programme générateur de nombre aléatoire ci-dessous. L'instruction <tt>?</tt> envoie le compteur ordinal dans une direction aléatoire.
+
+ vv  <      <
+     2
+     ^  v<
+  v1<?>3v4
+     ^   ^
+ >  >?>  ?>5^
+     v   v
+  v9<?>7v6
+     v  v<
+     8
+  .  >  >   ^
+ ^<
+
+Le "Hello World!" classique

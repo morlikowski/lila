@@ -1,0 +1,106 @@
+{{Infobox WS
+|name=N'Ko
+|type=alphabet
+|time=1949 to the present
+|languages=N'Ko
+|creator=Solomana Kante
+|iso15924=Nkoo
+|sample=NKo-script.svg
+}}
+{{language
+|name=N'Ko
+|familycolor=Niger-Congo
+|states=Guinea, Côte d'Ivoire, Mali
+|region=West Africa
+|speakers=c. 27 million (mother tongue and second language); see Bambara, Mandinka, Maninka, and Dioula
+|fam2=Mande
+|fam3=West Mande
+|fam4=Manding
+|agency=Kurukan fuwa gbara (Association Kurukan fuwa gbara - [http://kanjamadi.com])
+|iso1=-
+|iso2=nqo
+|iso3=nqo
+}}
+'''N'Ko''' (ߒߞߏ) is both a script devised by Solomana Kante in 1949 as a writing system for the Mande languages of West Africa, and the name of the literary language itself written in the script. The term ''N'Ko'' means 'I say' in all Manding languages.
+
+The script has a few similarities to the Arabic alphabet, notably its direction (right-to-left) and the connected letters.  It obligatorily marks both tone and vowels.
+
+==History==
+Kante created N'Ko in response to what he felt were beliefs that Africans were a "cultureless people" since there was prior to this time no indigenous African writing system for his language. N'Ko came first into use in Maninka alphabet and was disseminated from there into other Mande-speaking parts of West Africa. "N'Ko Alphabet Day" is April 14, relating to April 14, 1949, the date the script is believed to have been finalized.
+
+The introduction of the alphabet led to a movement promoting literacy in the N'Ko alphabet among Mande speakers in both Anglophone and Francophone West Africa. N'Ko literacy was instrumental in shaping the Maninka cultural identity in Guinea, and has also strengthened the Mande identity in other parts of West Africa (Oyler 1994).
+
+==Current usage==
+As of Maninka and Dioula-speakers), with an active user community in Bambara-speakers). Publications include a translation of the koine'' blending elements of the principal Manding languages (which are mutually intelligible), but has a particularly strong Maninka flavour.  
+
+The Latin script with several extended characters (phonetic additions) is used for all Bambara in Mali, promotion of literacy using this orthography has led to a fair degree of literacy in it. Arabic transcription is commonly used for Mandinka in The Gambia and Senegal.
+
+==Letters==
+The N'Ko alphabet is written from right to left, with letters being connected to one another.
+===Vowels===
+{| border="1" cellpadding="3" style="border-collapse: collapse;text-align:center;"
+|- bgcolor="#f0f0f0"
+|  ||  ||  ||  ||  ||  || 
+|-
+| ‎ߐ‏ || ‎ߏ‏ ||  ‎ߎ‏ || ‎ߍ‏ || ‎ߌ‏ ||  ‎ߋ‏ || ‎ߊ‏
+|-
+| | [[Image:NKo O.svg || | [[Image:NKo Eh.svg || | [[Image:NKo A.svg || Image:NKo Ah.svg 
+|}
+
+===Consonants===
+{| border="1" cellpadding="3" style="border-collapse: collapse;text-align:center;"
+|- bgcolor="#f0f0f0"
+| ra || da || cha || ja || ta || pa || ba
+|-
+| ‎ߙ || ‎ߘ || ‎ߗ‏ || ‎ߖ‏ || ‎ߕ‏ || ‎ߔ‏ || ‎ߓ 
+|-
+| | [[Image:NKo D.svg || | [[Image:NKo J.svg || | [[Image:NKo P.svg || Image:NKo B.svg
+|- bgcolor="#f0f0f0"
+| ma || la || ka || fa || gba || sa || rra
+|-
+| ‎ߡ || ‎ߟ‏ || ‎ߞ‏ || ‎ߝ‏ || ‎ߜ‏ || ‎ߛ‏ || ‎ߚ‏ 
+|-
+| | [[Image:NKo L.svg || | [[Image:NKo F.svg || | [[Image:NKo S.svg || Image:NKo Rr.svg
+|- bgcolor="#f0f0f0"
+| n' || &nbsp; || ya || wa || ha || na || nya
+|-
+| ‎ߒ || &nbsp; || ‎ߦ‏ || ‎ߥ || ‎ߤ‏ || ‎ߣ‏ || ‎ߢ‏ 
+|-
+| | &nbsp; || [[Image:NKo Y.svg || | [[Image:NKo H.svg || | [[Image:NKo Ny.svg
+|}
+
+==N'ko and computers==
+With the increasing use of computers and the subsequent need to grant universal access to information technology, the challenge arose of developing ways to use N'ko on computers.  From the 1990s on, there were efforts to develop fonts and even web content by adapting other software and fonts. A pre-Windows word processor called "Koma Kuda" was developed by Prof.  Baba Mamadi Diané from the University of Cairo. However the lack of intercompatibility inherent in such solutions was a block to further development.
+
+UNESCO's Programme Initiative B@bel supported the preparation of a proposal to encode N'Ko in Unicode. In 2004, the proposal, presented by three professors of N'Ko (Baba Mamadi Diané, Mamady Doumbouya, and Karamo Kaba Jammeh) working with Michael Everson was approved for balloting by the ISO working group WG2. In 2006 N'Ko was approved for Unicode 5.0. 
+
+'''N’Ko''' ist ein afrikanisches Schriftsystem, das 1949 von Soulemayne Kante aus Kankan, Guinea, erfunden wurde. Der 1922 geborene Kante regte sich darüber auf, dass manche Fremde Afrika für kulturlos erachteten, da es kein einheimisches Schriftsystem habe.
+
+Die N’Ko-Schrift wird vor allem in Guinea, Mali und der Elfenbeinküste für die Sprachen Malinke, Bambara und Dioula verwendet. Es wird von rechts nach links geschrieben.
+
+Seit Herbst 2006 ist N’Ko im Unicode Standard 5.0 und damit in Zukunft mit den neuesten Betriebssystemen auf allen Rechnern der Welt verfügbar.
+
+== Schriftsystem ==
+===Vokale===
+{| border="1" cellpadding="3" style="border-collapse: collapse;text-align:center;"
+|- bgcolor="#f0f0f0"
+|  ||  ||  ||  ||  ||  || 
+|-
+| bgcolor="#f0f0f0" | | [[Image:NKo O.svg || | [[Image:NKo Eh.svg || | [[Image:NKo A.svg || Image:NKo Ah.svg 
+|}
+
+===Konsonanten===
+{| border="1" cellpadding="3" style="border-collapse: collapse;text-align:center;"
+|- bgcolor="#f0f0f0"
+| ra || da || cha || ja || ta || pa || ba
+|-
+| | [[Image:NKo D.svg || | [[Image:NKo J.svg || | [[Image:NKo P.svg || Image:NKo B.svg
+|- bgcolor="#f0f0f0"
+| ma || la || ka || fa || gba || sa || rra
+|-
+| | [[Image:NKo L.svg || | [[Image:NKo F.svg || | [[Image:NKo S.svg || Image:NKo Rr.svg
+|- bgcolor="#f0f0f0"
+| n' || &nbsp; || ya || wa || ha || na || nya
+|-
+| | &nbsp; || [[Image:NKo Y.svg || | [[Image:NKo H.svg || | [[Image:NKo Ny.svg
+|}

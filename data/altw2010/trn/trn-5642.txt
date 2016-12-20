@@ -1,0 +1,40 @@
+In numerical analysis, '''Laguerre's method''' is a root-finding algorithm tailored to polynomials. In other words, Laguerre's method can be used to solve numerically  the equation 
+
+:<math>\ p(x) = 0 </math>
+
+for a given polynomial ''p''.  One of the most useful properties of this method is that it is, from extensive empirical study, very close to being a "sure-fire" method, meaning that it is almost guaranteed to always converge to ''some'' root of the polynomial, no matter what initial guess is chosen. This method is named in honour of Edmond Laguerre, a French mathematician.
+
+==Derivation==
+
+The fundamental theorem of algebra states that every ''n''th degree polynomial ''p'' can be written in the form
+
+:<math>p(x) = C(x - x_1)(x - x_2)\cdots(x - x_n), </math>
+
+where ''x''<sub>''k''</sub> are the roots of the polynomial. If we take the natural logarithm of both sides, we find that
+
+:<math>\ln |p(x)| = \ln |C| + \ln |x - x_1| + \ln |x - x_2| + \cdots + \ln |x - x_n|. </math>
+
+Denote the derivative by  
+
+:<math>G = \frac{d}{dx} \ln |p(x)| = \frac{1}{x - x_1} + \frac{1}{x - x_2} + \cdots + \frac{1}{x - x_n}, </math>
+
+and the second derivative by
+
+En polynomiale. En d'autres termes, la méthode de Laguerre peut être utilisée pour trouver une valeur approchée d'un solution d'une équation de la forme
+:''p''(''x'') = 0 
+où ''p'' est un polynôme donné.
+
+==Principe==
+Soit ''p'' un polynôme. Soit ''x''<sub>0</sub> un réel supposé être une valeur approchée d'une racine de  ''p''.
+La méthode de Laguerre tente d'améliorer cette première approximation par une relation récurrente:
+:<math> x_{k+1} = x_k - \frac{n}{S_1(x_k) \pm \sqrt{(1-n)(nS_2(x_k)+S_1^2(x_k))}}, </math>
+dans laquelle le symbole ± au dénominateur est remplacé par + ou  − selon ce qui donne un dénominateur ayant le plus grand module possible.
+De plus, ''n'' désigne le degré du polynôme ''p'', ''S''<sub>1</sub> et ''S''<sub>2</sub> sont les premières et secondes dérivées logarithmiques de ''p'', données par 
+:<math> S_1(x) = \frac{d}{dx} \log p(x) = \frac{p'(x)}{p(x)} </math>
+:<math> S_2(x) = \frac{d^2}{dx^2} \log p(x) = \frac{p''(x)}{p(x)} - \left( \frac{p'(x)}{p(x)} \right)^2. </math>
+
+==Propriétés==
+
+Si ''x'' est un racine simple du polynôme ''p'', alors la méthode de Laguerre aura une vitesse de convergence cubique lorsque la valeur approchée initiale ''x''<sub>0</sub> sera assez proche de la racine ''x''. Cependant, si ''x'' est une racine multiple, alors la convergence sera seulement linéaire.
+
+Cela signifie que la méthode de Laguerre converge encore plus rapidement que la méthode de Newton. Cependant, la méthode de Laguerre exige le calcul des dérivées premières et secondes  de ''p'', alors que la méthode de Newton ne demande qu'une dérivée. 

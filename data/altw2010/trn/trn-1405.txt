@@ -1,0 +1,58 @@
+La '''troposfera''' è la fascia di l'Atmosfera a drittu cuntattu câ supirficî tirrestri e havi nu spissuri variàbbili a secunna dâ latitùtini: a li poli è spissa sulamenti 10 chilòmetri mentri junci li 16 chilòmetri a l’equaturi. 
+Nta idda sunnu cuncintrati li ¾ dâ ntera massa gassusa e quasi tuttu lu vapuri àcquiu di l’atmosfera. E’ lu stratu unni abbennu la maiuri parti di li finòmini di caràttiri meteorològgicu, causati dâ circulazzioni dî massi d'ariu e ca dùnanu vita ê venti, ê nùvuli e a li pricipitazzioni atmosfèrichi.
+La troposfera è scaudata principarmenti dâ terra. Nni diriva ca la timpiratura diminuisci cu l'autitùtini, e varia di 15°C a -70°C.
+A nu certu puntu la timpiratura si stabbilizza a -60ºC circa: è la tropopausa, la zona di tranzizzioni tra troposfera e stratosfera.
+La maiuri parti dî nquinanti atmosfèrici emisi resta cunfinata ntâ troposfera, arcuni cuncintrati vicinu â supirficî tirrestri, àutri comu O3, CO2, CH4, sunnu distribbuiuti 'n manera cchiù uniformi.
+La troposfera è lu locu dâ vita: tutti li chianti e tutti l'èssiri umani càmpanu nta idda, utilizzannu arcuni di li gas ca la custituìscinu.
+
+Category:Giografìa
+Category:Mitiuruluggìa
+
+eo:Troposfero
+es:Troposfera
+
+thumb|200px|right|Atmosphere diagram showing the troposphere and other layers.  The layers are '''not to scale'''.
+thumb|200px|Temperature and density against altitude from the [[NRLMSISE-00 standard atmosphere model]]
+thumb|right|200px|View of Earth's troposphere from an [[Fixed-wing aircraft|airplane.]] 
+
+The '''troposphere''' is the lowest portion of aerosols. 
+
+The average depth of the troposphere is about 11 km (7 miles) in the middle latitudes. It is deeper in the tropical regions (up to 20 km (12 miles)) and shallower near the poles (about 7 km (4 miles) in summer, indistinct in winter). The lowest part of the troposphere, where temperature inversion.<ref name="DLA">Danielson, Levin, and Abrams, ''Meteorology'', McGraw Hill, 2003</ref>
+
+The word troposphere derives from the Greek "tropos" for "turning" or "mixing," reflecting the fact that  turbulent mixing plays an important role in the troposphere's structure and behavior. Most of the phenomena we associate with day-to-day weather occur in the troposphere.<ref name="DLA"/>
+
+==Pressure and temperature structure==
+===Composition===
+The chemical composition of the troposphere is essentially uniform, with the notable exception of water vapor. The source of water vapor is at the surface through the processes of evaporation and transpiration. Furthermore the temperature of the troposphere decreases with height, and saturation vapor pressure decreases strongly with temperature, so the amount of water vapor that can exist in the atmosphere decreases strongly with height. Thus the proportion of water vapor is normally greatest near the surface and decreases with height.
+
+===Pressure===
+The pressure of the atmosphere is maximum at the surface and decreases with higher altitude. This is because the atmosphere is very nearly in hydrostatic equation:<ref name="LL">Landau and Lifshitz, ''Fluid Mechanics'', Pergamon, 1979</ref>
+
+:<math> \frac{dp}{dz} = -\rho g_n = - \frac {mpg}{RT}</math>
+
+where:
+
+:*''g<sub>n</sub>'' stands for the standard gravity
+:*''ρ'' stands for  density
+:*''z''  stands for height
+:*''p''  stands for pressure
+:*''R'' stands for the gas constant
+:*''T'' stands for temperature in kelvins
+:*''m'' stands for the molar mass
+
+Since temperature in principle also depends on altitude, one needs a second equation to determine the  pressure as a function of height, as discussed in the next section.
+
+===Temperature===
+
+The work; but generally it does not gain adiabatic). Since the parcel does work and gains no heat, it loses energy, and so its temperature decreases. (The reverse, of course, will be true for a sinking parcel of air.) <ref name="DLA"/>
+
+Since the heat exchanged dQ is related to the entropy change dS by dQ=T dS, the equation governing the temperature as a function of height for a thoroughly mixed atmosphere is 
+:<math> \frac{dS}{dz} = 0 </math>
+where ''S'' is the entropy.  The rate at which temperature decreases with height under such conditions is called the adiabatic lapse rate.
+
+For ''dry'' air, which is approximately an ideal gas, we can proceed further.  The adiabatic equation for an ideal gas is <ref name="LL1">Landau and Lifshitz, ''Statistical Physics Part 1'', Pergamon, 1980</ref>
+:<math> p(z)T(z)^{-\frac{\gamma}{\gamma-1}}=constant </math>
+where <math>\gamma</math> is the dry adiabatic lapse rate,<ref>Kittel and Kroemer, ''Thermal Physics'', Freeman, 1980; chapter 6, problem 11</ref>
+:<math>\frac{dT}{dz}=- \frac{mg}{R} \frac{\gamma-1}{\gamma}=-9.8^{\circ}\mathrm{C}/\mathrm{km}</math>
+If the air contains saturated vapor pressure, then the rate at which temperature drops with height is called the saturated adiabatic lapse rate.  More generally, the actual rate at which the temperature drops with altitude is called the environmental lapse rate.  
+In the troposphere, the average environmental lapse rate is a drop of about 6.5 °C for every 1 km (1000 meters) increase in height. <ref name="DLA"/>

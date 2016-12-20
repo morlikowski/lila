@@ -1,0 +1,138 @@
+{| style="width: 24em; font-size: 95%; border: 1px solid silver; border-collapse: collapse; empty-cells: hide; float: right; background:#FAFAFA; margin-left: 1em" cellpadding="3" cellspacing="0" frame="box"
+|-
+! colspan="2" align="center" style="background-color: silver; font-size: larger;" | </includeonly>}}}
+|-
+| colspan="2" style="text-align: center; font-size: smaller;" | 300px|Карта на съзвездието } <br> щракнете за по-голям размер
+|-
+! Латинско име
+| ''}''
+|-
+! Съкращение
+| }
+|-
+! Символизира
+| }
+|-
+! Ректасцензия
+| } h
+|-
+! Деклинация
+| }&deg;
+|-
+! Площ
+| } кв. градуса <br>} в класацията
+|-
+! style="white-space: nowrap;" | Главни звезди
+| }
+|-
+! Най-ярка звезда
+| } <br>(Видима величина })
+|- 
+! Метеорни потоци
+|
+}
+|- 
+! Съседни<br>съзвездия
+|
+}
+|-
+| colspan="2" style="text-align: center;" | Видимо на ширини между +}&deg; and &minus;}&deg;<br>Най-добра видимост в 21:00 през месец }
+}|
+-
+ colspan="2" style="font-size: smaller;"  }
+}}
+|}<noinclude>
+
+{| class="infobox"
+|-
+|+ '''}'''
+|-
+| colspan="2" align="center" | 300px|}<br /><small>Click for larger image</small>
+|-
+| colspan="2" align="center" | List of stars in }
+|-
+|| '''Abbreviation:'''
+|| }
+|-
+|| '''Genitive:'''
+|| }
+|-
+|| '''Symbolism:'''
+|| }
+|-
+|| '''Right ascension:'''
+|| } h
+|-
+|| '''Declination:'''
+|| }°
+|-
+|| '''Area:'''
+|| } sq. deg.<!--
+-->}|&nbsp;(List of constellations by area})}}
+|-
+|| '''Main stars:''' <!-- Stars that make up pattern -->
+|| }
+|-
+|| '''Bayer/Flamsteed<br>stars:''' <!-- Stars with Bayer/Flamsteed designations -->
+|| }
+|-
+|| '''Stars with<br>known planets:'''
+|| }
+|-
+|| '''Bright stars:''' <!--apparent magnitude &lt; 3-->
+|| }
+|-
+|| '''Nearby stars:''' <!-- distance &lt; 50 light years -->
+|| }
+|-
+|| '''Brightest star:'''
+|| }&nbsp;(}<sup>m</sup>)
+|-
+|| '''Nearest star:'''
+|| }&nbsp;(}&nbsp;ly)
+|-
+|| '''Messier objects:'''
+|| }
+|-
+|| '''Meteor showers:'''
+|| }
+|- 
+|| '''Bordering<br>constellations:'''
+|| }
+|-
+| colspan="2" style="text-align: center;" | <small>Visible at latitudes between +}° and &minus;}°<br>Best visible at 21:00 (9 p.m.) during the month of }</small>
+|-
+| colspan="2" style="font-size: smaller;" |}
+|}
+<noinclude>
+== Usage ==
+{| style="background: transparent;"
+|<pre>{{Infobox Constellation
+| name = 
+| abbreviation = 
+| genitive = 
+| symbology = 
+| RA = 
+| dec = 
+| areatotal = 
+| arearank = 
+| numbermainstars = 
+| numberbfstars = 
+| numberstarsplanets = 
+| numberbrightstars = 
+| numbernearbystars = 
+| brighteststarname = 
+| starmagnitude = 
+| neareststarname = 
+| stardistance = 
+| numbermessierobjects = 
+| meteorshowers = 
+| bordering = 
+| latmax = 
+| latmin = 
+| month = 
+| notes = 
+}}</pre>
+|}
+Constellation
+Category:Templates using ParserFunctions

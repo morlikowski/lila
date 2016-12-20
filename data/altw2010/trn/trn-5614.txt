@@ -1,0 +1,560 @@
+{{Infobox Software|
+ nome = Microsoft Office 2007 |
+logo = 200px|
+screenshot = 300px|
+didascalia = Microsoft Office Word 2007|
+versione_ultimo_rilascio = 12.0.6215.1000 (Service Pack 1)|
+data_ultimo_rilascio = 11 dicembre 2007|
+sviluppatore = Microsoft |
+sistema_operativo = Server 2003, Vista|
+genere = Software di produttività personale |
+licenza = EULA |
+sito_web = [http://office.microsoft.com/it-it/default.aspx office.microsoft.com] |
+}}
+
+'''Microsoft Office 2007''' è l'attuale release di Office, creata per sostituire Microsoft Office 2003. Microsoft Office 2007, formalmente conosciuto come ''Office 12'', è stato rilasciato nel Novembre 2006 in versione corporate e il 30 gennaio 2007 in versione retail. Microsoft ha incluso diverse nuove caratteristiche e miglioramenti in Office 2007, fra i quali una nuova interfaccia grafica, the Ribbon, che ha sostituto i menu, le toolbar e i principali task panels.
+
+La prima beta di '''Microsoft Office 2007''', presentata come ''Beta-1'' nelle email inviate ad un numero limitato di tester, è stata rilasciata il 16 novembre 2005.
+La Beta 1 Technical Refresh è stata rilasciata ai tester il 13 marzo 2006. Da questa versione è possibile installare Office 2007 anche su Windows Vista.
+Office 2007 Beta 2 è stato annunciato da Bill Gates durante il WinHEC 2006. Office 2007 è disponibile in versione prova sul sito della [http://trial.trymicrosoftoffice.com/trialitaly/default.aspx?r=sbportal Microsoft].
+==Edizioni==
+Microsoft Office 2007 è stato rilasciato in otto edizioni:
+
+{| border="0" align="center" style="border: 1px solid #999; background-color:#FFFFFF"
+|-align="center" bgcolor="#CCCCCC"
+|'''Edizione'''||'''Include'''||'''Disponibilità'''
+|- style="vertical-align:top;"
+! scope="row" style="white-space:nowrap;" | Basic 2007
+| Excel, Outlook, Word
+| solo OEM
+|- style="vertical-align:top;"
+! scope="row" style="white-space:nowrap;" | Home e Student 2007
+| Excel, PowerPoint, Word, OneNote
+| Retail / OEM
+|- style="vertical-align:top;"
+! scope="row" style="white-space:nowrap;" | Standard 2007
+| Excel, Outlook, PowerPoint, Word
+| Retail
+|- style="vertical-align:top;"
+! scope="row" style="white-space:nowrap;" | Small Business 2007
+| Excel, Outlook, PowerPoint, Word, Publisher, <br />Outlook con Business Contact Manager
+| Retail
+|- style="vertical-align:top;"
+! scope="row" style="white-space:nowrap;" | Professional 2007
+| Excel, Outlook, PowerPoint, Word, Access, Publisher,<br /> Outlook con Business Contact Manager
+| Retail
+|- style="vertical-align:top;"
+! scope="row" style="white-space:nowrap;" | Ultimate 2007
+| Excel, Outlook, PowerPoint, Word, Access, InfoPath, Publisher,<br /> OneNote, Groove, strumenti addizionali
+| Retail
+|- style="vertical-align:top;"
+! scope="row" style="white-space:nowrap;" | Professional Plus 2007
+| Excel, Outlook, PowerPoint, Word, Access, InfoPath, Publisher,<br /> Communicator, strumenti addizionali
+| solo Volume License
+|- style="vertical-align:top;"
+! scope="row" style="white-space:nowrap;" | Enterprise 2007
+| Excel, Outlook, PowerPoint, Word, Access, InfoPath, Publisher,<br /> OneNote, Groove, Communicator, strumenti addizionali
+| solo Volume License
+|}
+
+==Innovazioni==
+===Interfaccia utente===
+La nuova interfaccia utente chiamata "Ribbon", è una caratteristica introdotta nelle principali applicazioni di Microsoft Office: Word, Excel, PowerPoint, Access  e nell'editor di posta elettronica di Outlook.
+Queste applicazioni sono state selezionate per una revisione dell'interfaccia grafica, in quanto sono focalizzate sulla creazione di documenti e presentano una moltitudine di opzioni a questo riguardo. Anche il resto delle applicazioni nella piattaforma, sarà alla fine aggiornato alla nuova interfaccia grafica.
+Secondo Microsoft, la nuova interfaccia grafica si basa sul principio di aiutare le persone a focalizzarsi su quello che vogliono fare invece di perdere tempo sui dettagli di come farlo.
+
+Nella versione Beta 1 ha fatto il suo debutto il bottone "Office". Ha sostituito il menù ''File'' e fornisce accesso alle funzionalità comuni a tutte le applicazioni Office come ad esempio Apri, Salva, Stampa, Condividi un file. L'utente può inoltre scegliere il tema dei colori per l'interfaccia.
+
+=====Ribbon=====
+''Ribbon'', è un pannello che ospita i bottoni e le icone, li organizza con una serie di ''linguette'' e raggruppa i comandi rilevanti. Ogni applicazione ha differenti gruppi di linguette che espongono le funzionalità che l'applicazione offre. Per esempio, mentre Excel ha una linguetta per le funzionalità relative ai grafici, Word non ha questa caratteristica ma ha una linguetta per controllare la formattazione del documento. All'interno di ogni linguetta le opzioni correlate possono essere raggruppate insieme. Ribbon è disegnato per rendere le funzionalità delle applicazioni facilmente rintracciabili, ed accessibili con un numero minore di click del mouse rispetto ad una interfaccia basata sui menù che è stata utilizzata fino ad Office 2003.
+center|850px|Interfaccia ''Ribbon'' di [[Microsoft Word 2007]]
+Alcune linguette, chiamate ''Contestuali'', appaiono solo quando alcuni oggetti sono selezionati. Le linguette Contestuali espongono funzionalità specifiche solo dell'oggetto correntemente selezionato. Per esempio, selezionando un immagine, appare la linguetta ''Immagini'', che presenta le opzioni per lavorare con le immagini. Nello stesso modo, selezionando una tabella, appaiono le opzioni relative alle tabelle nella specifica linguetta. Le linguette Contestuali rimangono nascoste quando l'oggetto relativo non è selezionato.
+
+=====Gallerie=====
+
+Le ''gallerie'' sono un nuovo tipo di interfaccia che mostra, in forma grafica, le opzioni di formattazione che possono essere applicate ai vari elementi. Ad esempio stili di documenti, titoli di pagina, slide ed altri, sono presentati come gallerie che danno all'utente un'idea di quello che sta selezionando invece di farlo cercare fra una moltitudine di opzioni come avrebbe dovuto fare in caso di utilizzo di un'interfaccia basata su una finestra di dialogo. Le gallerie aiutano a presentare una lista più estesa di opzioni di formattazione potenziali, invece di costringere l'utente a mischiare e provare la corrispondenza di ogni singola opzione nella finestra di dialogo.
+
+L'utilizzo delle gallerie, per semplificare la produzione dell'aspetto grafico del documento, era apparso precedentemente nella suite Microsoft Works.
+
+=====Live Preview=====
+Microsoft Office 2007 introduce una nuova caratteristica chiamata ''Live Preview'', che applica la formattazione al testo od all'oggetto corrente quando si passa con il puntatore del mouse sopra un bottone di formattazione. La formattazione temporanea è rimossa quando il puntatore viene spostato fuori dal bottone. Questo permette agli utenti di avere un'anteprima, di come l'opzione modificherà l'aspetto dell'oggetto, senza applicare realmente le modifiche.
+Live preview è simile a caratteristiche utilizzate da programmi grafici come Adobe Photoshop, Corel Photo Paint o GIMP, che anticipano gli effetti di filtri, aggiustamenti di colore od altri effetti grafici prima che l'utente prema il bottone di conferma della finestra di dialogo.
+
+=====Mini Toolbar=====
+right|La barra di formattazione rapida in Word 2007
+La ''mini toolbar'', o ''barra di formattazione rapida'', ogni volta che effettuiamo la selezione di un testo o di un oggetto, appare vicino al testo che abbiamo selezionato e fornisce un semplice accesso ai comandi di formattazione più utilizzati. Quando il puntatore del mouse si allontana, la mini toolbar diventa semi-trasparente, per permettere una visione del testo sottostante quasi completa. Quando il puntatore del mouse si muove sopra la mini toolbar, diventa opaca e pronta per l'uso. La mini toolbar appare anche nel caso che si selezioni un testo e si prema il tasto destro del mouse.
+
+=====Altre caratteristiche dell'interfaccia=====
+*''Super-tooltips'': possono contenere testo formattato oppure immagini. Sono utilizzate per fornire una descrizione dettagliata di quello che il controllo esegue.
+*''Quick Access toolbar'': Posizionata nella barra del titolo, serve come raccolta delle funzioni più utilizzate, basandosi sull'applicazione che si sta utilizzando in quel momento.
+*''Zoom slider'': Posizionato nell'angolo in basso a destra, permette di cambiare lo zoom attuale del documento in modo rapido.
+
+===SmartArt===
+Le ''SmartArt'' si trovano nella cartella Insert del ''ribbon''; si tratta di un nuovo gruppo di grafici organizzativi facilmente editabili e formattabili. Ci sono circa 80 ''template'' grafici SmartArt divisi per categorie come liste, processi, cicli e gerarchie. Quando un'istanza di SmartArt viene inserita, appare un pannello di testo vicino alla SmartArt che permette all'utente di inserire testo nei livelli gerarchici. 
+Ogni grafico SmartArt, basandosi sul suo ''layout'', mappa il testo e lo ridimensiona automaticamente per inserirlo meglio nel grafico. Ci sono diversi ''quick styles'' predisposti per ogni grafico che applicano diversi effetti 3D al grafico o che formattano il testo e le forme attraverso l'applicazione di stili. Gli SmartArt possono inoltre cambiare i loro colori, caratteri ed effetti per abbinarsi al tema del documento.
+
+L'help di Microsoft Word 2007 raccomanda di utilizzare gli SmartArt per i grafici con meno di 30 forme che hanno effetti 3D applicati; suggerisce invece i grafici di Microsoft Visio per i grafici con più di 1.000 forme che debbono essere personalizzabili in modo dettagliato.
+
+===Formati di file===
+Microsoft Office utilizzerà un nuovo formato di file, l'OpenXML per default. È basato sull'ZIP. In base alle informazioni fornite da Microsoft, questo formato, compresso, sarà del 75% più piccolo degli attuali file di Office<ref></ref>, anche se probabilmente sarà piu lento da aprire (questo è uno svantaggio intrinseco dello XML; Adobe (depositaria del brevetto per la tecnologia PDF), non viene più incluso nelle varie versioni distribuite sul mercato, che sarà comunque disponibile come un plugin aggiuntivo<ref></ref><ref></ref>. I file di Office 2007 possono inoltre essere esportati come file di tipo XPS, sempre tramite un plug-in aggiuntivo da scaricare separatamente. È ovviamente possibile salvare e leggere i file anche in formato Office 2000 e 2003, con una retrocompatibilità pressoché completa. L'unico piccolo neo da evidenziare è che alcuni elementi grafici, in particolare immagini di piccole dimensioni, la retrocompatibilità può presentare lievi sgranature o disallineamenti dell'immagine, dovuti alla diversa modalità con cui le dll ottimizzate della nuova suite interpretano alcuni puntatori all'interno dei files immagine.
+
+===User Assistance System===
+In Microsoft Office 2007, gli Assistenti sono stati completamente rimossi in seguito ai grandi progressi fatti dall'help. Una funzione del nuovo help è l'utilizzo intensivo delle Super-Tooltips che spiegano la funzionalità di ogni bottone e di ogni funzionalità.
+
+===Collaborazione===
+Microsoft Office 2007 include delle caratteristiche orientate alla collaborazione ed alla condivisione dei dati. Ad esempio i componenti server di Office 2007 forniscono una piattaforma di collaborazione con Office SharePoint Server 2007, che è utilizzato per ospitare siti SharePoint e si basa su IIS 6.0 ed ASP.NET 2.0. Il server Excel espone dei servizi che permettono ad ogni foglio di lavoro di essere aggiornato attraverso un browser; questi servizi sono ''Excel calculation'' (che si occupa di popolare il foglio di lavoro ed effettuare i calcoli), ''Excel Web Access'' (il componente che si occupa di visualizzare il foglio di lavoro nel browser) ed ''Excel Services'' (espone le varie funzionalità come singoli servizi web). SharePoint può inoltre essere utilizzato per archiviare documenti e per l'aggiornamento collaborativo, mediante la condivisione ed un sistema di ''locking'' e ''versioning''. Possono inoltre essere archiviate delle slide PowerPoint all'interno di apposite ''library''' che potranno poi essere utilizzate come ''template''. In caso di modifica di queste slide, l'utente potrà ricevere delle notifiche in modo del tutto automatico. Utilizzando SharePoint, PowerPoint può gestire un ''review'' condiviso della presentazione.
+Ogni documento archiviato in SharePoint può essere aperto dall'applicazione che lo ha creato o da altri tipi di applicazioni come un browser o come Office Outlook.
+
+Microsoft Office 2007 include inoltre ''Groove'', che permette di creare un ambiente di collaborazione fra più utenti. ''Groove'' può gestire documenti creati con Office 2007 per utilizzarli in uno spazio di lavoro condiviso, al fine di poter far lavorare più persone sullo stesso documento in contemporanea. L'applicazione include un sistema di messaggistica istantaneo fra i partecipanti alla sessione ed un sistema di gestione delle varie revisioni dei documenti in modo da sincronizzare il lavoro. È inoltre presente un calendario interno condiviso in modo da pianificare gli incontri virtuali e tenere traccia dello stato dei lavori. Curiosamente, il calendario non è compatibile né integrabile con Microsoft Outlook.
+
+===Temi e Stili veloci===
+Microsoft ha lavorato molto per introdurre i temi dei documenti e gli ''stili veloci''. Il tema del documento definisce il colore, i caratteri e gli effetti grafici specifici di un documenti. Il nuovo formato Tema di Office (con estensione .thmx) è condiviso fra Word, Excel, PowerPoint ed Outlook (per i messaggi di posta elettronica). Praticamente ogni elemento che può essere inserito in un documento può anche essere formattato in base al tema del documento, in modo da creare uno stile uniforme. 
+
+Gli ''stili veloci'' sono gallerie con una varietà di stili basati sul tema corrente. Gli stili veloci si possono applicare a testo, tabelle, grafici, SmartArt, WordArt e così via.
+
+==Novità specifiche delle applicazioni==
+===Microsoft Office Word===
+right|300px
+*Le modifiche ai blog<ref></ref> possono essere effettuate con Word ed inviate direttamente ad un server blog. Fra i vari blog supportati direttamente ci sono MSN Spaces, SharePoint, Blogger, Community Server etc.
+*Fogli di stile (stili veloci) completamente rinnovati, con la possibilità di cambiare rapidamente fra di essi
+*Il conteggio delle parole del documento è visibile nella barra di stato ed è aggiornato in tempo reale
+*Il nuovo ''controllo ortografico contestuale'' permette di intercettare alcuni errori contestuali, come l'uso di parole che si pronunciano nella stessa maniera ma si scrivono diversamente (ad esempio "I think we will ''loose'' this battle", dove ''loose'' si pronuncia come ''lose'')
+*''Translation tool tip'' è un opzione disponibile per l'inglese americano (English U.S.), francese e spagnolo. Passando il mouse sopra una determinata parola la sua traduzione apparirà come tooltip. Le versioni non inglesi di Office 2007 hanno un insieme diverso di lingue disponibili, comunque tutti i dizionari possono essere installati utilizzando un addon particolare (multilingual pack).
+*Generazione automatica di citazioni e biografie in linea con le regole degli stili definiti come APA, Chicago e MLA. Il cambio di stile aggiorna automaticamente tutti i riferimenti. Ci si può connettere a servizi web per accedere ad un database online di riferimenti.
+*Ricostruito il supporto equazioni con TeX-per l'inserimento e la modifica del linguaggio (in parte pensato come autocompletamento) e con un cambiamento dell'interfccia GUI. Supporta anche la codifica Unicode Plain Text Encoding of Mathematics ([http://www.unicode.org/notes/tn28/UTN28-PlainTextMath.pdf]).
+*Galleria predefinita di copertine con campi Autore, Titolo, Data, Abstract ecc. Le copertine seguono il tema del documento (impostabile sotto la scheda layout pagina).
+*Il motore di comparazione pagine è stato aggiornato e permette anche un semplice visualizzazione tre pannelli per confrontare il documento originale, un nuovo documento e le differenze tra i due.
+*Visualizzazione Lettura a pieno schermo che mostra due pagine per volta con l'utilizzo massimo dei pixel dello schermo, con degli strumenti importanti per la revisione.
+*''Document Inspector'' che rivela informazioni, dal documento, come nome autore, commenti e altri "metadata".
+*''Building Blocks'' che permette di salvare il contenuto usato frequentemente, in modo tale che sia più facilmente accessibile per ulteriori utilizzi. Costruire blocchi, utilizzando questo strumento, può creare un controllo di dati, all'interno di essi, che permetta la costruzione e la strutturazione di documenti.
+
+===Microsoft Office Outlook===
+right|300px
+* In Outlook 2007, il supporto per Exchange 5.5 ' stato rimosso. Come Evolution e Entourage, Outlook ora funziona solo con Exchange 2000 e successivi. 
+*Outlook ora indicizza<ref name="Computer World Review"></ref> le email, i contatti i feed RSS, i calendari e molti altri elementi per velocizzare le ricerche. In più permette una ricerca di tipo word-wheeled, che mostra i risultati della ricerca carattere per carattere, durante la loro digitazione.
+*Le cartelle ricerche, ossia le ricerche salvate, sono state aggiornate per includere tranquillamente i feed RSS. Le cartelle di ricerca possono essere create con specifici criteri di ricerca, inserendo oggetto, tipo di file e altri elementi delle informazioni da cercare. Quando una cartella di ricerca è aperta, tutti gli elementi in essa contenuti vengono automaticamente ordinati e raggruppati.
+*Outlook ora supporta i messaggi di testo e gli SMS, quando utilizzato insieme a MS-Exchange Server 2007 Unified Messaging.
+* È stato incluso un lettore di feed RSS, che utilizza il Windows Common Feeds Store. Gli url di sottoscrizione ai servizi RSS possono essere condivisi via e-mail ed i feed possono essere inoltrati a dispositivi mobili.
+*Vi è, da questa versione, il supporto per l'utilizzo simultaneo di più calendari. È stata anche inclusa una visualizzazione side-by-side, in cui i calendari vengono visualizzati in differenti schede che ne permettono una facile comparazione. Outlook supporta anche i calendari sul web e la condivisione di calendari con altri utenti.
+*Il calendario mostra quali appuntamenti sono in scadenza e quali sono scaduti.
+*Le email e le note possono essere convertite in attività e/o appuntamenti.
+*Una barra ''To Do Bar'', che integra calendario, appuntamenti e attività, è stata inclusa in una visualizzazione concisa.
+* È possibile la modifica On- o Off-line di qualsiasi documento Microsoft Office 2007 su di un sito SharePoint. Tutte le modifiche vengono automaticamente sincronizzate.
+*I contatti possono essere condivisi tra utenti, via email, server Exchange o siti SharePoint.
+*L'anteprima degli allegati permette di vedere gli allegati Office in un pannello di lettura, senza l'apertura di altre applicazioni.
+*Microsoft Office Outlook include anche un opzionale Business Contact Manager, che aiuta nella gestione di contatti aziendali ed altre attività di marketing. Telefonate, email, appuntamenti e altre opzioni di business possono essere gestite per ogni contatto. Si può anche tenere traccia di tempi computabili, per ogni contatto, nel calendario di Outlook. Basandosi su questi dati, può essere generato un rapporto dettagliato, analizzabile tranquillamente da Microsoft Office Excel. Tali dati possono anche essere condivisi tramite l'utilizzo di servizi SharePoint.
+
+===Microsoft Office OneNote===
+right|300px
+Supporta le seguenti nuove opzioni:
+*Multipli libri di appunti.
+*Condivisione di note tra più computer. Ognuno può modificarle e i cambiamenti vengono sincronizzati non appena viene eseguita una connessione. Le modifiche sono etichettate per autore ed ora/data.
+*Modelli per  Notebook
+*Ricerca carattere per carattere e indicizzazione degli elementi.
+*Sincronizzazione delle operazioni con Outlook 2007 e cooperazione tra i due applicativi.
+*Conversione automatica di appunti con struttura tabulare in tabelle
+*Conversione OCR di file immagini, in modo da permettere la ricera come testo delle stesse.
+*Indicizzazione di elementi audio e video.
+*Creazione di collegamenti ipertestuali tra note o tra note ad elementi al di fuor di OneNote.
+*Inserimento di documenti nelle note.
+*Estendibilità delle funzioni tramite Add-in.
+*Strumenti di disegno per la creazione di diagrammi all'interno di OneNote.
+*Visualizzazione del risultato di qualsiasi epressione matematica, se seguita dal segno =
+*''Send to Microsoft OneNote'' (Invia a MS OneNote), che permette la stampa, da una qualsiasi altra applicazione, di un documento tramite la stampante viruale di OneNote, che importerà automaticamente il documento "stampato" tra le note. Qualsiasi testo srà indicizzato in vista di un'eventuale ricerca.
+*Sincronizzazione di ''OneNote Mobile'' (per SmartPhone o alcuni PocketPC) con gli elementi di OneNote salvati sul pc. Vengono trasmessi file di testo, audio, e immagini.
+
+{{Infobox Software
+| name                   = Microsoft Office 2007
+| logo                   = 225px|Microsoft Office 2007 Logo
+| screenshot             = 350px|The Microsoft Office Core Applications
+| caption                = Microsoft Office 2007 applications shown on Windows Vista (clockwise from top left: Excel, Word, OneNote, PowerPoint; these 4 programs make up the Home and Student Edition)
+| developer              = Microsoft
+| latest release version = 12.0.6215.1000 (Service Pack 1)
+| latest release date    = 
+| operating system       = Windows XP SP2 and later
+| platform               = Microsoft Windows
+| genre                  = Office suite
+| license                = Proprietary (Commercial)
+| website                = [http://office.microsoft.com/ Microsoft Office Online Home Page]
+}}
+
+'''Microsoft Office 2007''' (officially called '''2007 Microsoft Office system''') is the most recent Windows version of the Microsoft Office system, Microsoft's productivity suite. Formerly known as '''Office 12''' in the initial stages of its beta cycle, it was released to volume license customers on November 30 2006<ref>{{cite web
+  | last =Hill | first =Brandon | title =Vista, Office 2007 Now Available for Volume Licensing | publisher =DailyTech | date= December 1, 2006 | url =http://www.dailytech.com/article.aspx?newsid=5165 | accessdate =2006-12-19  }}</ref> and made available to retail customers on Fluent User Interface''<ref> [http://office.microsoft.com/en-us/products/HA101679411033.aspx The Microsoft Office Fluent user interface overview] </ref> (initially referred to as the Ribbon UI), replacing the menus and toolbars that have been the cornerstone of Office since its inception with a tabbed toolbar, known as the Ribbon. Office 2007 requires Windows XP with Service Pack 2 or 3, Windows Server 2003 with Service Pack 1 or higher, or Windows Vista.<ref name="sysreqs"></ref>
+
+Office 2007 also includes new applications and server-side tools.  Chief among these is Groove, a collaboration and communication suite for smaller businesses, which was originally developed by Office SharePoint Server 2007, a major revision to the server platform for Office applications, which supports "Excel Services", a client-server architecture for supporting Excel workbooks that are shared in real time between multiple machines, and are also viewable and editable through a web page.
+
+SharePoint portals. Its designer-oriented counterpart Microsoft Expression Web is targeted for general web development. However, neither application is included in any of the Office suites. Also, because speech recognition and handwriting recognition are now part of Windows Vista, speech and ink components have been removed from Office 2007.<ref> [http://www.tabletquestions.com/microsoft-office/34696-no-speech-recognition-office-2007-a.html No speech recognition in Office 2007?]</ref><ref> [http://lists.more.net/archives/mo-bused/2007-March/009369.html Handwriting Recognition in Office 2007] </ref> Handwriting and speech recognition work with Office 2007 only on Windows Vista or Windows XP Tablet PC Edition.
+
+== Development ==
+
+The first beta of Microsoft Office 2007, referred to as ''Beta-1'' in emails sent to a limited number of testers, was released on November 16, 2005. The Beta-1 <!-- do not remove hyphen from "Beta-1"; this is how it was written in the email sent out to testers -->Technical Refresh was released to testers on WinHEC 2006, and was initially released to the public at no cost from Microsoft's web site. However, because of an unprecedented number of downloads, a fee of $1.50 was introduced for each product downloaded after Released to Manufacturing" (RTM) and started manufacturing the final product. After RTM, the availability of the beta download ended. Office 2007 was released to volume licensing customers on November 30, 2006, and to the general public on January 30, 2007.
+
+=== Service Pack 1 ===
+Microsoft Office 2007 Service Pack 1 was released on December 11, 2007.
+Microsoft published a list of changes.<ref>
+{{cite web
+| url = http://support.microsoft.com/kb/936982
+| title = Office 2007 Service Pack 1 Changes
+| accessdate = 2007-12-12
+| accessmonthday =
+| accessyear =
+| author = Microsoft
+| last =
+| first = 
+| authorlink = Microsoft
+| coauthors = 
+| date = 
+| year = 2007
+| month = 
+| format = 
+| work = 
+| publisher = 
+| pages = 
+| language = 
+| archiveurl =
+| archivedate =
+}}</ref> Official documentation has shown that SP1 is not simply a rollup of publicly released patches, but that it also contains fixes for 455 total issues throughout the entire Office suite.<ref>{{cite web
+| url = http://www.thetecharea.com/wiki/index.php?title=Office_2007_Fix_List
+| title = Office 2007 Fix List
+| accessdate = 2007-12-19
+| accessmonthday =
+| accessyear =
+| last =
+| first = 
+| authorlink = TheTechArea.com
+| coauthors = 
+| date = 
+| year = 2007
+}}</ref>
+
+==Editions==
+The 2007 Microsoft Office system is distributed in eight editions ([http://office.microsoft.com/en-us/products/FX102464411033.aspx feature comparison]):
+{| class="wikitable"
+|+ Microsoft Office 2007 System Editions
+|-
+! WIDTH="34%" |Edition
+! WIDTH="17%" |License availability
+! WIDTH="49%" |License model<ref>[http://office.microsoft.com/en-us/products/HA102103171033.aspx Microsoft Software License Terms (MSLT) for the 2007 Microsoft Office system]</ref>
+|-
+! Microsoft Office Ultimate 2007
+| Retail / Limited edition student license<ref></ref>
+| One main device and one additional portable device
+|-
+! Microsoft Office Enterprise 2007
+|Volume license only
+| Dependent upon Volume Licensing program
+|-
+! Microsoft Office Professional Plus 2007
+|Volume license only
+| Dependent upon Volume Licensing program
+|-
+! ROWSPAN=2 STYLE="background-color:#409FFF" | Microsoft Office Professional 2007
+|Retail
+| One main device and one additional portable device
+|-
+|OEM
+|One device only
+|-
+! ROWSPAN=3 STYLE="background-color:#99CCFF" |Microsoft Office Small Business 2007
+|Retail
+| One main device and one additional portable device
+|-
+|OEM
+|One device only
+|-
+|Volume license
+|Dependent upon Volume Licensing program
+|-
+! ROWSPAN=3 STYLE="background-color:#EBC2AF" |Microsoft Office Standard 2007
+| Retail
+|One main device and one additional portable device
+|-
+|OEM
+|One device only
+|-
+|Volume license
+|Dependent upon Volume Licensing program
+|-
+! ROWSPAN=2 STYLE="background-color:#7ba05b" |Microsoft Office Home and Student 2007
+| Retail
+|Three devices in one household
+|-
+|OEM
+|One device only; for non-commercial use only
+|-
+! Microsoft Office Basic 2007
+| OEM only
+| One device
+|-
+|}
+Eligible employees of companies with Volume License agreements for Office can obtain copies for use on a home computer.<ref name="homeuse"></ref>
+
+{|class="wikitable"
+|+ Components of each edition
+|-
+!Component
+!Basic
+!Home and Student
+!Standard
+!Small Business
+!Professional
+!Ultimate
+!Professional Plus
+!Enterprise
+|-
+|Word Processor
+|Word
+|Word
+|Word
+|Word
+|Word
+|Word
+|Word
+|Word
+|-
+|Spreadsheet
+|Excel
+|Excel
+|Excel
+|Excel
+|Excel
+|Excel
+|Excel
+|Excel
+|-
+|Presentations
+|
+|PowerPoint
+|PowerPoint
+|PowerPoint
+|PowerPoint
+|PowerPoint
+|PowerPoint
+|PowerPoint
+|-
+|Calendar and E-mail
+|Outlook
+|
+|Outlook
+|Outlook
+|Outlook
+|Outlook
+|Outlook
+|Outlook
+|-
+|Accountancy
+|
+|
+|
+|Accounting Express
+|Accounting Express
+|Accounting Express
+|
+|
+|-
+|Desktop Publishing
+|
+|
+|
+|Publisher
+|Publisher
+|Publisher
+|Publisher
+|Publisher
+|-
+|Database
+|
+|
+|
+|
+|Access
+|Access
+|Access
+|Access
+|-
+|Form creation
+|
+|
+|
+|
+|
+|InfoPath
+|InfoPath
+|InfoPath
+|-
+|Collaboration
+|
+|
+|
+|
+|
+|Groove
+|
+|Groove
+|-
+|Note-taking
+|
+|OneNote
+|
+|
+|
+|OneNote
+|
+|OneNote
+|-
+|IM / VoIP / Videoconferencing
+|
+|
+|
+|
+|
+|
+|Communicator
+|Communicator
+|}
+
+''Notes:''
+# Additional tools include enterprise content management, electronic forms, and Information Rights Management capabilities
+# As noted on the packaging, below the comparison grid on the back, the OEM and Retail Home and Student 2007 edition is not licensed for commercial, non-profit, or any revenue-generating use. This is displayed in the actual programs themselves with a line of text after the program name.
+
+thumb|600px|center|Non-commercial banner in Microsoft Word 2007
+
+== New features ==
+=== User interface ===
+
+The new user interface (UI), officially known as ''Microsoft Office Fluent'',<ref>See </ref><ref></ref> has been implemented in the core Microsoft Office applications: Word, Excel, PowerPoint, Access, and in the item inspector used to create or edit individual items in Outlook. These applications have been selected for the UI overhaul because they center around document authoring.<ref></ref> The rest of the applications in the suite will also be upgraded to the new UI in subsequent versions.<ref></ref> The default font used in this edition is MIX 2008 in Las Vegas.<ref>[http://www.istartedsomething.com/20080308/office-2007-interface-prototypes/ Office 2007 interface prototypes - istartedsomething<!-- Bot generated title -->]</ref>
+
+==== Office button ====
+thumb|135px|right|Office Button in Microsoft PowerPoint
+The Office 2007 button, located on the top-left of the window, replaces the File menu and provides access to functionality common across all Office applications, including opening, saving, printing, and sharing a file.  It can also close the application. Users can also choose color schemes for the interface.
+
+==== Ribbon  ====
+The ''Ribbon'', a panel that houses the command buttons and icons, organizes commands as a set of ''tabs'', each grouping relevant commands. Each application has a different set of tabs which expose the functionality that application offers. For example, while Excel has a tab for the graphing capabilities, Word does not feature the same; instead it has tabs to control the formatting of a text document. Within each tab, various related options may be grouped together. The ''Ribbon'' is designed to make the features of the application more discoverable and accessible with fewer mouse clicks<ref name="Office UI"></ref> as compared to the menu-based UI used until Office 2007. It is not possible to remove the Ribbon, modify it, or replace it with menus with the normal Office 2007 functions. However, the Ribbon can be minimized by double clicking the active section's title, such as the Home text in the picture below.<ref></ref> There are third party add-ons that can bring menus to Office 2007.
+
+thumb|800px|center|''Ribbon'' in Microsoft PowerPoint 2007
+
+==== Contextual Tabs ====
+Some tabs, called ''Contextual Tabs'', appear only when certain objects are selected. Contextual Tabs expose functionality specific only to the object with focus. For example, selecting a picture brings up the ''Pictures'' tab, which presents options for dealing with the picture. Similarly, focusing on a table exposes table-related options in a specific tab. Contextual Tabs remain hidden when the object it works on are not selected.
+
+==== Live Preview ====
+Microsoft Office 2007 also introduces a feature called "Live Preview", which temporarily applies formatting on the focused text or object when any formatting button is moused-over. The temporary formatting is removed when the mouse pointer is moved from the button. This allows users to have a preview of how the option would affect the appearance of the object, without actually applying it.
+
+==== Mini Toolbar ====
+The new "Mini Toolbar" is a type of context menu that is automatically shown (by default) when text is selected.  The purpose of this feature is to provide easy access to the most-used formatting commands without requiring a right-mouse-button click, as was necessary in older versions of the software. Because the Mini Toolbar is automatically displayed, it remains semi-transparent until the mouse pointer is situated on the control in order to allow an almost-unobstructed view of what is beneath it.  It also appears above the right-click menu when a user right-clicks on a selection of words. The Mini Toolbar is currently not customizable.
+
+==== Quick Access Toolbar ====
+The ''Quick Access toolbar'', which sits in the title bar, serves as a repository of most used functions, regardless of which application is being used, such as save, undo/redo and print. The ''Quick Access toolbar'' is customizable, although this feature is limited compared to toolbars in previous Office versions. Any command available in the entire Office application can be added to the ''Quick Access toolbar'', including commands not available in the Ribbon and macros. Keyboard shortcuts for any of the commands on the toolbar are also fully customizable, similar to previous Office versions.
+
+==== Other UI features ====
+*''Super-tooltips'', that can house formatted text and even images, are used to provide detailed descriptions of what most buttons do.
+*A zoom slider present in the bottom-right corner, allowing for dynamic and rapid magnification of documents.
+
+=== SmartArt ===
+
+SmartArt, found under the Insert tab in the ribbon in PowerPoint, Word, Excel, and Outlook, is a new group of easily editable and formatted diagrams. There are 115 preset SmartArt graphics layout templates in categories such as list, process, cycle, and hierarchy. When an instance of a SmartArt is inserted, a ''Text Pane'' appears next to it to guide the user through entering text in the hierarchical levels. Each SmartArt graphic, based on its design, maps the text outline, automatically resized for best fit, onto the graphic. There are a number of "quick styles" for each graphic that apply largely different 3D effects to the graphic, and the graphic's shapes and text can be formatted through shape styles and WordArt styles. In addition, SmartArt graphics change their colors, fonts, and effects to match the document's theme.
+
+=== File formats ===
+====Office Open XML====
+
+Microsoft Office uses a new file format, called Office Open XML, as the default file format. Word documents (without macro extensions) are now saved using a .docx extension rather than the traditional .doc extension. Word 2007 can also save documents in the old format which is compatible with previous versions of Word. In addition, Microsoft has made available a free add-on known as the "Microsoft Office Compatibility Pack" that lets Office 2000-2003 editions open, edit, and save documents created under the new 2007 format.
+
+Office Open XML is based on ZIP file container. According to Microsoft, documents created in this format are up to 75% smaller than the same documents saved with previous Microsoft Office file formats, owing to data compression.<ref></ref>  file formats.
+Word files containing macros are saved with the extension .docm.
+
+====PDF====
+Microsoft had initially announced that it will support exporting to Portable Document Format (PDF) in Office 2007. However, due to legal objections from Adobe Systems, Office 2007 does not offer PDF support out of the box, but rather as a separate free download.<ref></ref><ref></ref>
+
+====XPS====
+Office 2007 documents can also be exported as XPS documents, via another free plug-in that is also a separate download.
+
+====OpenDocument====
+Microsoft backs an open-source effort to support command-line utility.<ref></ref> As of 2008, the project supports conversion between ODF and Office Open XML file formats for all three applications.<ref></ref>
+
+=== User assistance system ===
+In Microsoft Office 2007, the Office Assistants have been completely removed because of the much-improved help system. One feature of the new help system is the extensive use of Super Tooltips which explains in about one paragraph what each function performs. Some of them also use diagrams or pictures. These appear and disappear like normal tooltips, and replace normal tooltips in many areas. The Help content also directly integrates searching and viewing Office Online articles.
+
+=== Collaboration features ===
+====SharePoint====
+
+Microsoft Office 2007 includes features geared towards collaboration and data sharing. As such, Microsoft Office 2007 features server components for applications such as Excel, which work in conjunction with SharePoint Services, to provide a collaboration platform. SharePoint works with Microsoft Office SharePoint Server 2007, which is used to host a SharePoint site, and uses IIS and ASP.NET 2.0. Excel server exposes Excel Services, which allows any worksheet to be created, edited and maintained via web browsers. It features ''Excel Web Access'', the client-side component which is used to render the worksheet on a browser, ''Excel Calculation Service'' which is the server side component which populates the worksheet with data and perform calculations, and ''Excel Web Services'' that extends Excel functionalities into individual web services. SharePoint can also be used to host Word documents for collaborative editing, by sharing a document. SharePoint can also be used to hold PowerPoint slides in a ''Slide Library'', from which the slides can be used as a formatting template. It will also notify users of a slide automatically in case the source slide is modified. Also by using SharePoint, PowerPoint can manage shared review of presentations. Any SharePoint hosted document can be accessed from the application which created the document or from other applications such as a browser or Microsoft Office Outlook.
+
+====Groove====
+thumb|right|Microsoft Office Groove 2007
+Microsoft Office 2007 also includes ''Groove'', which brings collaborative features to a peer-to-peer paradigm. ''Groove'' can host documents, including presentations, workbooks and others, created in Microsoft Office 2007 application in a shared workspace, which can then be used in collaborative editing of documents. ''Groove'' can also be used in managing workspace sessions, including access control of the workspace. To collaborate on one or more documents, a ''Workspace'' has to be created, and then those who are to work on it have to be invited. Any file shared on the workspace are automatically shared among all participants. The application also provides real-time messaging, including one-to-one as well as group messaging, and presence features, as well as monitoring workspace activities with alerts, which are raised when pre-defined set of activities are detected. Groove also provides features for conflict resolution for conflicting edits. Schedules for a collaboration can also be decided by using a built-in shared calendar, which can also be used to keep track of the progress of a project. However, the calendar is not compatible with Microsoft Outlook.
+
+=== Themes and Quick Styles ===
+Microsoft Office 2007 places more emphasis on Document Themes and Quick Styles.  The Document Theme defines the colors, fonts and graphic effects for a document. Almost everything that can be inserted into a document is automatically styled to match the overall document theme creating a consistent document design. The new Office Theme file format (.THMX) is shared between Word, Excel, PowerPoint and Outlook email messages.  Similar themes are also available for data reports in Access and Project or shapes in Visio.
+
+Quick Styles are galleries with a range of styles based on the current theme. There are quick styles galleries for text, tables, charts, SmartArt, WordArt and more. The style range goes from simple/light to more graphical/darker.
+
+== Application-specific changes ==
+=== Microsoft Office Word ===
+
+thumb|right|Microsoft Office Word 2007
+*New style sheets (quick styles) and ability to switch easily among them.
+*Word count listed by default in the status bar. The word count dynamically updates as you type.
+*New ''contextual spell checker'', signified by a wavy blue underline analogous to the traditional wavy red underline for misspellings and wavy green underline for grammar errors, sometimes catches incorrect usage of correctly spelled words, such as in "I think we will ''loose'' this battle".
+*''Translation tool tip'' option available for English (U.S.), French (France), and Spanish (International Sort). When selected, hovering the mouse cursor over a word will display its translation in the particular language. Non-English versions have different sets of languages. Other languages can be added by using a separate multilingual pack.
+*Automated generation of citations and bibliographies according to defined style rules, including APA, Chicago, and MLA. Changing style updates all references automatically. Connect to web services to access online reference databases.
+*Rearchitected native mathematical equation support with TeX-like linear input/edit language or GUI interface. Also supports the Unicode Plain Text Encoding of Mathematics.<ref>See </ref>
+*Preset gallery of cover pages with fields for Author, Title, Date, Abstract, etc. Cover pages follow the theme of the document (found under the Page Layout tab).
+*Document comparison engine updated to support moves, differences in tables, and also easy to follow tri-pane view of original document, new document, and differences.
+*Full screen reading layout that shows two pages at a time with maximal screen usage, plus a few critical tools for reviewing.
+*''Document Inspector'' which strips Word documents of information such as author name and comments and other "metadata".
+*''Building Blocks'', which lets one save frequently used content, so that they are easily accessible for further use. Building blocks can have data mapped controls in them to allow for form building or structured document authoring.
+*The ability to save multiple versions of a document (which had existed since Word 97) has been removed.<ref></ref>
+*Blog entries<ref></ref> can be authored in Word itself and uploaded directly to a blog. Supported blogging sites include Blogger, Community Server etc.
+
+===Microsoft Office Outlook===
+thumb|right|Microsoft Office Outlook 2007
+
+* As a major change in Outlook 2007, Exchange 5.5 support has been dropped. Like Evolution, Entourage, Outlook now works only with Exchange 2000 and above.
+*Outlook now indexes<ref name="Computer World Review"></ref> (using the RSS feeds and other items, to speed up searches. As such, it features word-wheeled search, which displays results as characters are being typed in.
+*Search folders, which are saved searches, have been updated to include RSS feeds as well. Search folders can be created with a specific search criteria, specifying the subject, type and other attributes of the information being searched. When a search folder is opened, all matching items for the search are automatically retrieved and grouped up.
+*Outlook now supports text-messages and SMSs, when used in conjunction with Exchange Server 2007 Unified Messaging.
+*Outlook includes a reader for RSS feeds, which used the Windows Common Feeds Store. RSS subscription URLs can be shared via e-mails. RSS feed updates can also be pushed to a mobile device.
+*Outlook can now support multiple calendars being worked with, simultaneously. It also includes a side-by-side view for calendars, where each calendar is displayed in a different tab, and allows easy comparison of them. Outlook also supports web calendars. Calendars can be shared with other users.
+*Calendar view shows which tasks are due.
+*Flagged e-mails and notes can also be converted to ''Task'' items.
+*Outlook includes a ''To Do Bar'', which integrates the calendar, appointments and tasks items, in a concise view.
+*Online or offline editing of all Microsoft Office 2007 documents via a SharePoint site. All edits are automatically synchronized.
+*Contacts can be shared among users, via e-mail, Exchange Server or a SharePoint site.
+*Attachment preview allows users to view Office e-mail attachments in the reading pane rather than having to open another program.
+*HTML in e-mails is now rendered using the Microsoft Word rendering engine which disallows several HTML tags like ''object'', ''script'', ''iframe'' etc along with several CSS properties.
+
+Microsoft Office Outlook can also include an optional Business Contact Manager which allows management of business contacts and their sales and marketing activities. Phone calls, e-mails, appointments, notes and other business metrics can be managed for  each contact. It can also keep a track of billable time for each contact on the Outlook Calendar. Based on these data, a consolidated report view can be generated by Microsoft Office Outlook with Business Contact Manager. The data can be further analyzed using Microsoft Office Excel. This data can also be shared using SharePoint Services.
+
+===Microsoft Office Excel===
+thumb|right|Microsoft Office Excel 2007
+thumb|right|Color Scales and Data Bars in Excel 2007
+
+*Support up to 1,048,576 rows and 16,384 columns in a single worksheet, with 32,767 characters in a single cell (17,179,869,184 cells in a worksheet, 562,932,773,552,128 characters in a worksheet)<ref>{{cite web
+|url=http://www.microsoft.com/office/preview/community/article_bic_frye.mspx|title=Preview the Enhanced Microsoft Office Excel 2007 Business Intelligence Capabilities|work=Microsoft.com|first=Curtis|Last=Frie|date=2006-05-22|accessdate=2006-07-15}}</ref>
+*''Conditional Formatting'' introduces support for three new features &mdash; ''Color Scales'', ''Icon Sets'' and ''Data Bars''
+**''Color Scales'', which automatically color the background of a group of cells with different colors according to the values.
+**''Icon sets'', which precede the text in a cell with an icon that represent some aspect of the value of the cell with respect to other values in a group of cells, can also be applied. Icons can be conditionally applied to show up only when certain criteria is met, such as a cross showing up on an invalid value, where the condition for invalidity can be specified by the user.
+**''Data Bars'' show as a gradient bar in the background of a cell the contribution of the cell value in the group.
+*Column titles can optionally show options to control the layout of the column.
+*Multithreaded calculation of formulae, to speed up large calculations, especially on multi-core/multi-processor systems.
+*''User Defined Functions'' (UDF), which are custom functions written to supplement Excel's set of built-in functions, supports the increased number of cells and columns. UDFs now can also be multithreaded. Server side UDFs are based on the .NET Managed code.
+*Importing data from external sources, such as a database, has been upgraded. Data can also be imported from formatted tables and reports, which do not have a regular grid structure.
+*''Formula Autocomplete'', automatically suggests function names, arguments and named ranges, and automatically completing them if desired, based on the characters entered. Formulae can refer to a table as well.
+*''CUBE functions'' which allow importing data, including set aggregated data, from data analysis services, such as SQL Server Analysis Services.
+*''Page Layout'' view, to author spreadsheets in a way that mirrors the formatting that will be applied when printed.
+*''PivotTables'', which are used to create analysis reports out of sets of data, can now support hierarchical data by displaying a row in the table with a "+" icon, which, when clicked, shows more rows regarding it, which can also be hierarchical. PivotTables can also be sorted and filtered independently, and conditional formatting used to highlight trends in the data.
+*''Filters'', now includes a Quick filter option allowing the selection of multiple items from a drop down list of items in the column. The option to filter based on color has been added to the choices available.
+*Excel features a new charting engine, which supports advanced formatting, including 3D rendering, transparencies and shadows. Chart layouts can also be customized to highlight various trends in the data.
+
+===Microsoft Office PowerPoint===
+thumb|right|Microsoft Office PowerPoint 2007
+
+*Improvements to text rendering to support text based graphics.
+*Rendering of 3D graphics.
+*Support for many more sound file formats such as .mp3 and .wma.
+*Support for tables and enhanced support for table pasting from Excel.<ref></ref>
+*''Slide Library'', which lets you reuse any slide or presentation as a template. Any presentation or slide can be published to the ''Slide Library''.
+*Any custom-designed slide library can be saved.
+*Presentations can be digitally signed.
+*Improved Presenter View.<ref></ref>
+*Added support for widescreen slides.<ref></ref>
+*Allows addition of custom placeholders.

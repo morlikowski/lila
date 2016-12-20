@@ -1,0 +1,35 @@
+thumb|Réplique de TIROS-1
+Les satellites '''Television Infrared Observation Satellite''' ('''TIROS''') sont une des premières séries de satellites lançée par la NASA et son tout premier satellite météorologique circumpolaire ayant eu du succès. TIROS-1 fut mis en orbite en 1960 et avait à son bord deux caméras de télévision pour envoyer des images des nuages vers une station terrestre. Il démontra que le concept était bon même si sa durée de vie ne fut que de 78 jours. Dix de cette première génération furent lançés.
+
+Les générations suivantes de ces satellites se nomment ESSA-TIROS (9 satellites), NOAA ITOS ('''I'''mproved '''T'''iros '''O'''perational '''S'''ystems) ou TIRO-M (9 satellites), TIROS-N (3 satellites) et dernièrement des TIROS-N avancés (11 satellites et un prévu en décembre 2007). Le plus récent en opération est le NOAA-18.
+
+== Description ==
+
+Ces satellites tournent en Pôles à l'inverse de l'autre afin de couvrir chaque point survolé d'une couverture maximale pour pallier le fait qu'ils ne sont pas géostationnaires comme les GOES ou METEOSAT. Leur période de révolution (durée nécessaire pour accomplir un tour complet) est d'environ 102 minutes, si bien qu'ils survolent l'équateur au moins 14 fois par jour, en passage ascendant et descendant. Les 2 satellites étant déphasés, une même région est survolée au moins 4 fois par jour à un intervalle d'environ 6 heures.
+
+Avec chaque génération, les instruments de bord se sont améliorés et se classent en trois catégories : 
+
+* Des radiomètres qui captent différentes longueurs d'onde du spectre électromagnétique. Ceux du prochaine NOAA-18 (2007) sont des AVHRR ('''A'''dvanced '''V'''ery '''H'''igh '''R'''esolution '''R'''adiometer) à résolution de 1,1 km sous le satellite. Ils ont trois canaux:
+::* 0,58 à 0,68 micromètre (visible).
+::* 0,725 à 1,10 micromètres (proche infrarouge).
+::* 3,55 à 3,93 micromètres (infrarouge moyen).
+::* 10,3 à 11,3 micromètres (infrarouge thermique) avec une résolution de 0,12 Celsius.
+::* 11,5 à 12,5 micromètres (infrarouge thermique) avec une résolution de 0,12 Celsius.
+* Des imageurs à balayage continu.
+* Des capteurs de type TOVS ('''T'''iros '''O'''perational '''V'''ertical '''S'''ounder) pour tirer des informations sur la structure verticale de température, d'humidité et d'ozone de l'atmosphère qui utilisent l'infrarouge et les micro-ondes. 
+
+De plus, depuis un certain temps, ces satellites sont munis de systèmes d'écoute et de retransmission des balises de détresses pour la recherche et le sauvetage.
+
+thumb|1960 graphic of TIROS meteorological satellite system showing components.
+thumb|right|300px|First [[television|TV image of Earth from space]]
+'''TIROS''', or '''Television Infrared Observation Satellite''', was a series of early weather satellites launched by NASA, beginning with TIROS-1 in 1960.  The program was extremely successful in proving the usefulness of satellite weather observation and in its time, perhaps considered to be too successful; causing people to question the need for many of the military spy apparatus that were in development or use at the time.  TIROS demonstrated at that time that "the key to genius is often simplicity." [http://blog.modernmechanix.com/2007/03/15/how-tiros-photographs-the-world-including-russia/?Qwd=./ScienceAndMechanics/8-1960/tiros&Qif=tiros_1.jpg&Qiv=thumbs&Qis=XL#qdig]
+
+The 270 lb Thor Able rocket.  Drum shaped with a 42 inch diameter, and height of 19 inches, the TIROS satellite carried two 6 inch long television cameras with it as it entered its geostationary orbit.  One of the cameras had a wide-angle lens with an ''f''/1.6 (focal length) that could view 800 miles of the earth.  The other camera had a telephoto lens with an ''f''/1.8 and had a 10 to 12 power telephoto effect over the wide angle camera.
+
+The satellite itself was stabilized in its orbit by spinning like a unblurred photographs, a de-spin mechanism slowed the satellite down to 12 rpm after the orbit was accomplished.
+
+The camera shutters made possible the series of still pictures which were stored and transmitted back to earth via 2-FM transmitters as the satellite approached one of its ground command points.  After transmission, the tape was erased or cleaned and readied for more recording. 
+
+TIROS continued as the ESSA TIROS Operational System, and was eventually succeeded by the ESSA &amp; ESSA 1 and NOAA &amp; NOAA M.
+
+Participants in this satellite project included the United States United States Army Signal Research and Development Lab, United States Weather Bureau, and the United States Naval Photographic Interpretation Center[http://www.met.fsu.edu/explores/Guide/Tiros_Html/tiros1.html].

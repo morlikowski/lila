@@ -1,0 +1,134 @@
+{{Infobox Chemikalie
+ | Kristallstruktur    = Ja  
+ | Strukturformel      = 300px|Kristallstruktur von UCl<sub>3</sub> (UCl<sub>3</sub>-Typ)
+ | Kristallsystem      = hexagonal
+ | Raumgruppe          = <math>P6_3/m \;</math>
+ | Gitterkonstanten    = a = 745,2 pm</br>c = 432,8 pm
+ | Koordinationszahlen = U[9], Cl[3] 
+ | Andere Namen        = Urantrichlorid
+ | Summenformel        = UCl<sub>3</sub>
+ | CAS                 = 10025-93-1
+ | PubChem             = 167444
+ | Beschreibung        = rote Kristalle<ref name="HOWI_1969">Arnold F. Holleman, Nils Wiberg: ''Lehrbuch der Anorganischen Chemie'', 102. Auflage, de Gruyter, Berlin 2007, S.&nbsp;1969; ISBN 978-3-11-017770-1.</ref>
+ | Molare Masse        = 344,387 g/mol
+ | Aggregat            = fest
+ | Dichte              = 5,50 g/cm<sup>3</sup><ref name="webelements">[http://www.webelements.com/compounds/uranium/uranium_trichloride.html Uran(III)-chlorid bei www.webelements.com.]</ref>
+ | Schmelzpunkt        = 837 °C<ref name="webelements"/>
+ | Siedepunkt          = 1657 °C<ref name="webelements"/>
+ | Dampfdruck          = 
+ | Löslichkeit         = 
+ | Quelle GefStKz      = 
+ | Gefahrensymbole     = 
+ | R                   = 
+ | S                   = 
+ | Radioaktiv          = ja
+}}
+
+'''Uran(III)-chlorid''' (UCl<sub>3</sub>) ist ein Chloridsalz des Urans in der Oxidationsstufe +3. Es ist ein Zwischenprodukt in der Wiederaufarbeitung abgebrannter Kernbrennstoffe.
+
+== Darstellung ==
+Es gibt zwei Wege zur Synthese von Uran(III)-chlorid. Zum einen kann es durch die Umsetzung von metallischem Uran in einer Salzschmelze aus Natriumchlorid und Kaliumchlorid bei 670–710&nbsp;°C erhalten werden.<ref>Serrano, K.; Taxil, P.; Dugne, O.; Bouvet, S.; Puech, E.: ''J. Nucl. Mater.'' '''2000''', ''282'', 137–145.</ref>
+
+:<math>\mathrm{3\ UCl_4\ +\ U\ \longrightarrow\ 4\ UCl_3}</math>
+
+Eine weitere Möglichkeit besteht in der Erhitzung von Uran(IV)-chlorid unter Wasserstoff</b>atmosphäre.<ref>Remsen, Ira: ''Inorganic Chemistry'', New York: Henry Holt and Company, 1890.</ref>
+
+:<math>\mathrm{2\ UCl_4\ +\ H_2\ \longrightarrow\ 2\ UCl_3\ +\ 2\ HCl}</math>
+
+== Eigenschaften ==
+Bei Raumtemperatur ist Uran(III)-chlorid ein roter, sehr hygroskopischer, kristalliner Feststoff, der sehr gut in Wasser löslich ist. UCl<sub>3</sub> besitzt eine geringere Stabilität als Uran(IV)-chlorid (UCl<sub>4</sub>), da die Oxidationsstufe +3 in saurer Lösung stabilisiert wird. In salzsaurer Lösung besitzt UCl<sub>3</sub> eine höhere Stabilität als in Wasser.<ref>Comey, Arthur M. and Hahn, Dorothy A. A Dictionary of Chemical Solubilities: Inorganic. New York: The MacMillan Company, 1921.</ref> Uran(III)-chlorid schmilzt bei 837&nbsp;°C und siedet bei 1657&nbsp;°C, es hat eine Dichte von 5,50&nbsp;g/cm<sup>3</sup>.
+
+Drei Hydrate des Uran(III)-chlorids sind bekannt:
+* UCl<sub>3</sub>&nbsp;·&nbsp;2 H<sub>2</sub>O&nbsp;·&nbsp;2 CH<sub>3</sub>CN
+* UCl<sub>3</sub>&nbsp;·&nbsp;6 H<sub>2</sub>O
+* UCl<sub>3</sub>&nbsp;·&nbsp;7 H<sub>2</sub>O
+
+Sie werden durch Reduktion von Uran(IV)-chlorid in Acetonitril in Gegenwart von Wasser und Propionsäure hergestellt.<ref>Mech, A.; Karbowick, M.; Lis, T.: ''Polyhedron'' '''2006''', ''25'', 2083–2092.</ref>
+
+{{chembox new
+| ImageFile = Uranium(III)-chloride-3D-polyhedra.png
+| IUPACName = Uranium(III) chloride
+| OtherNames = Uranium chloride,<br />Uranium trichloride
+| Section1 = {{Chembox Identifiers
+| Abbreviations = 
+| CASNo = 10025-93-1
+| EINECS = 
+| PubChem = 
+| SMILES = 
+| InChI = 
+| RTECS =
+| MeSHName =
+| ChEBI =
+| KEGG = 
+| ATCCode_prefix = 
+| ATCCode_suffix = 
+| ATC_Supplemental =}}
+| Section2 = {{Chembox Properties
+| U = 1 | Cl = 3
+| Appearance = Green crystalline solid
+| Density = 5.500 g/cm³, liquid
+| MeltingPtC = 837
+| Melting_notes =
+| BoilingPtC = 1657
+| Boiling_notes = 
+| Solubility = Soluble
+| SolubleOther = 
+| Solvent = 
+| pKa = 
+| pKb = }}
+| Section3 = {{Chembox Structure
+| CrystalStruct = 
+| Coordination = 
+| OrbitalHybridisation = Tricapped trigonal prismatic
+| MolShape = }}
+| Section7 = {{Chembox Hazards
+| EUClass = 
+| EUIndex = 
+| MainHazards = 
+| NFPA-H = 
+| NFPA-F = 
+| NFPA-R = 
+| NFPA-O =
+| RPhrases = 
+| SPhrases = 
+| RSPhrases =
+| FlashPt = Non-flammable
+| Autoignition = Non-flammable
+| ExploLimits = 
+| PEL = }}
+| Section8 = {{Chembox Related
+| OtherAnions = 
+| OtherCations = 
+| OtherFunctn =
+| Function = 
+| OtherCpds = Uranium(IV) chloride,<br/>Uranium(V) chloride,<br/>Uranium(VI) chloride
+}}}}
+'''Uranium(III) chloride ''', UCl<sub>3</sub>, is a chemical compound that contains the earth metal uranium and chlorine.  UCl<sub>3</sub> is used mostly to reprocess spent nuclear fuel.  Uranium(III) chloride is synthesized various ways from uranium(IV) chloride; however, UCl<sub>3</sub> is less stable than UCl<sub>4</sub>.
+
+==Preparation==
+There are two ways to synthesize uranium(III) chloride.  The following processes describe how to produce uranium(III) chloride.
+
+(1) In a mixture of NaCl-KCl at 670-710 °C, add uranium tetrachloride with uranium metal.
+:3UCl<sub>4</sub> + U → 4UCl<sub>3</sub><ref>Serrano, K.; Taxil, P.; Dugne, O.; Bouvet, S.; Puech, E. J. Nucl. Mater. 2000, 282, 137–145.</ref>
+
+(2) Heat uranium(IV) chloride in hydrogen gas.
+:2UCl<sub>4</sub> + H<sub>2</sub> → 2UCl<sub>3</sub> + 2HCl<ref>Remsen, Ira. Inorganic Chemistry. New York: Henry Holt and Company, 1890.</ref>
+
+==Properties==
+In solid uranium(III) chloride each uranium atom has nine chlorine atoms as near neighbours, at approximately the same distance, in a tricapped trigonal prismatic configuration.<ref> Wells A.F. (1984) ''Structural Inorganic Chemistry'' 5th edition Oxford Science Publications ISBN 0-19-855370-6 </ref>
+
+Uranium(III) chloride is a green crystalline solid at room temperature.  UCl<sub>3</sub> melts at 837 °C and boils at 1657°C.  Uranium(III) chloride has a density of 5500 kg/m³ or 5.500 g/cm³.
+
+Its composition by weight:
+:Chlorine: 30.84%
+:Uranium: 69.16%
+
+Its formal oxidative states:
+:Chlorine: −1
+:Uranium: +3
+
+Uranium(III) chloride is very soluble in water and is also very hygroscopic.  UCl<sub>3</sub> is more stable in a solution of hydrochloric acid.<ref>Comey, Arthur M. and Hahn, Dorothy A. A Dictionary of Chemical Solubilities: Inorganic. New York: The MacMillan Company, 1921.</ref>
+
+==Uses==
+===Reagent===
+Uranium(III) chloride is used in reactions with tetrahydrofuran (THF) and sodium methylcyclopentadiene to prepare various uranium metallocene complexes.<ref>Brenna, J.G.; Anderson, R.A.; Zalkin, A. Inorg. Chem. 1986, 25, 1756–1760.</ref>

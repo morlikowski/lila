@@ -1,0 +1,104 @@
+{{Infobox Generiek
+| soort = }}}
+| icon = 
+| naam = 
+| breedte=
+| bgcolor=}}}
+| altnaam =
+| mainimage = 
+| maincaption = 
+| main1 = '''aflevering ''}'''''
+| main2 = }
+| main3 = } 
+| kop1 =
+| head1_1 = '''Aflevering'''        | item1_1 = Seizoen&nbsp;}<br />Aflevering&nbsp;}
+| head1_2 = '''Gastrollen'''        | item1_2 = }
+| head1_3 = '''Schrijver(s)'''      | item1_3 = }
+| head1_4 = '''Regisseur'''         | item1_4 = }
+| head1_5 = '''Productiecode'''     | item1_5 = }
+| head1_6 = '''Eerste uitzending''' | item1_6 = }
+| kop2 = 
+| head2_1 =   | item2_1 =  
+| head2_2 =   | item2_2 = 
+| head2_3 =   | item2_3 = 
+| head2_4 =   | item2_4 = 
+| image1 = 
+| caption1 = 
+| image2 = 
+| caption2 =
+| otherkop =Afleveringchronologie
+| other1 = &larr;&nbsp;'''Vorige''' &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '''Volgende'''&nbsp;&rarr;
+| other2 = ''}'' &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ''}''
+| other3= }
+| portaal =
+| kop6=
+}}<noinclude>{{sjablooninfo|1=
+===Doel===
+Dit sjabloon toont een overzichtelijke uniforme box met gegevens omtrent een aflevering van een televisieserie.
+
+===Gebruik=== 
+Het sjabloon wordt opgenomen bovenin een artikel, en de bekende velden kunnen worden ingevoegd<br>
+
+<pre>{{Televisieaflevering
+| titel            =
+| serie            =
+| afbeelding       =
+| onderschrift     =
+| seizoen          =
+| aflevering       =
+| uitzending       =
+| productiecode    =
+| schrijver        =
+| regisseur        =
+| gastrollen       =
+| aflevering lijst =
+| vorige           =
+| volgende         =
+}}</pre>
+
+{{Infobox
+|tnavbar = Infobox Television episode
+|bodystyle = width:22em
+|abovestyle = background:#c6c9ff;
+|headerstyle = background:#c6c9ff;
+|above = }
+|data1 = <span style="font-size:110%">『'''}'''』のエピソード</span>
+|data2 = } | }} | <br />} }} }}
+|label3 = 話数
+|data3 = シーズン}<br />第}話
+|label4 = ゲスト出演者
+|data4 = }
+|label5 = 脚本
+|data5 = }
+|label6 = 監督
+|data6 = }
+|label7 = 初放送日
+|data7 = }
+|header8 = エピソード年表
+|data9 =  style="width:100%; background-color: inherit; text-align:center"
+
+! style="width:50%;"  ←&nbsp;前回 !! style="width:50%;"  次回&nbsp;→
+
+ } | } | – }}  } | } | – }}
+}
+|data10 = }
+}}<noinclude>
+
+== 使用法 ==
+<div style="float: left; background: transparent;"><pre>
+{{Infobox Television episode
+| タイトル       =
+| 番組名         =
+| 画像           =
+| 説明           =
+| シーズン       =
+| エピソード     =
+| 放送日         =
+| 脚本家         =
+| 監督           =
+| ゲスト         =
+| エピソード一覧 =
+| 前回           =
+| 次回           =
+}}
+</pre></div>

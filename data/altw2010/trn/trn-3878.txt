@@ -1,0 +1,101 @@
+{{Info/Comuna da França|
+|nome         = Saint-Christol
+|nomefr       = Saint-Christol
+|região       = Provença-Alpes-Costa Azul
+|departamento = Vaucluse
+|área         = 46,08
+|altitude     = 
+|latP         = | latG = | latM = |latS = 
+|lonP         = | lonG = | lonM = |lonS = 
+|população    = 555
+|densidade    = 12
+|censo        = 1 999
+|insee        = 84107 <!-- Código INSEE -->
+|códpostal    = 84390 <!-- Código postal -->
+|mapa         = <!-- Insira apenas o nome da imagem -->
+|mapaX        = <!-- Coordenada X no mapa -->
+|mapaY        = <!-- Coordenada Y no mapa -->
+|escudo       = <!-- Insira apenas o nome da imagem -->
+|bandeira     = <!-- Insira apenas o nome da imagem -->
+|imagem       = <!-- Insira apenas o nome da imagem -->
+|legenda      = <!-- Legenda para a imagem -->
+|gentílico    = 
+|website      = 
+|notas        = 
+}}
+'''Saint-Christol''' é uma região administrativa da departamento de km&sup2;, com 555 habitantes, segundo os densidade de 12 hab/km&sup2;.
+
+Categoria:Comunas da França
+Categoria:Comunas de Provence-Alpes-Côte d'Azur
+Categoria:Comunas do departamento de Vaucluse
+
+{{infobox Franse gemeente|
+|plaatsnaam= Saint-Christol
+|wapen= 
+|kaart= 
+|regio= Provence-Alpes-Côte d'Azur 
+|departement= Vaucluse (84)
+|arrondissement= Carpentras
+|kanton= Sault
+|jaar= 2005
+|inwoners= 1102
+|dichtheid= 24,3
+|oppervlakte= 45,4
+|water= 
+|latitudeGraden= 44 |latitudeMinuten= 2|latitudeSeconden= 0
+|longitudeGraden= 5 |longitudeMinuten= 30 |longitudeSeconden= 0
+|E of W=E |ol of wl=O.L.
+|kaartX= 231 |kaartY= 231
+|code= 84107
+|postcode= 84390
+|netnummer= 
+|hoogteligging= 
+|aangrenzende gemeenten=    
+|burgemeester= 
+|website= 
+|diverse= <small>bron: [http://www.insee.fr/ Frans bureau voor statistiek]<small>  
+}} 
+'''Saint-Christol''' is een gemeente in het Franse departement Carpentras.
+
+==Geografie==
+De oppervlakte van Saint-Christol bedraagt 45,4 km², de bevolkingsdichtheid is 24,3 inwoners per km². 
+
+==Demografie==
+Onderstaande figuur toont het verloop van het inwonertal (bron: INSEE tellingen).
+<timeline>                                                
+ImageSize  = width:250 height:200                          
+PlotArea   = left:40 right:10 top:10 bottom:20            
+TimeAxis   = orientation:horizontal                       
+AlignBars  = justify                                       
+Colors =                                                
+  id:gray1 value:gray(0.9)                           
+                                                  
+DateFormat = yyyy                                 
+Period     = from:1960 till:2010                 
+ScaleMajor = unit:year increment:10 start:1960
+                                    
+PlotData =                          
+  bar:900 color:gray1 width:1       
+  from:start till:end             
+  bar:600 color:gray1              
+  from:start till:end            
+  bar:300 color:gray1           
+  from:start till:end         
+  bar:0 color:gray1       
+                       
+                    
+LineData =       
+  layer:front    
+  points:(48,68)(84,147) color:blue  width:2 #1962 tot 1968. Inwonertal 1962: 256 1968: 673
+  points:(84,147)(100,89)    color:blue    width:2 #1975: 366
+  points:(100,89)(128,152)   color:blue    width:2 #1982: 700
+  points:(128,152)(160,140)   color:blue    width:2 #1990: 636
+  points:(160,140)(196,125)   color:blue    width:2 #1999: 555
+ 
+  
+</timeline>     
+<!-- Bron: Frans bureau voor statistiek. Cijfers inwoneraantal volgens de definitie "population sans doubles comptes" -->
+
+==Externe links==
+*[http://www.mapquest.com/maps/map.adp?searchtype=address&formtype=latlong&latlongtype=degrees&latdeg=44&latmin=2&latsec=0&longdeg=5&longmin=30&longsec=0&zoom=6 Locatie van de gemeente (kaart met schaal 1:100.000) op Mapquest]
+*[http://www.recensement.insee.fr/RP99/rp99/co_navigation.co_page?nivgeo=C&codgeo=84107&theme=ALL&typeprod=ALL&lang=FR&quelcas=LISTE Meer statistische informatie over de gemeente op www.insee.fr]

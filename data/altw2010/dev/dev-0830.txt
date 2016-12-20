@@ -1,0 +1,395 @@
+'''Fibonacciho postupnosť''' je postupnosť čísiel, v ktorej každý ďalší člen ''F'' je súčtom dvoch predchádzajúcich.
+
+== Konštrukcia postupnosti ==  
+Postupnosť sa začína číslami 0 a 1, takže dostaneme:
+* <math>F_0 = 0</math>, postupnosť je (0)
+* <math>F_1 = 1</math>, postupnosť je (0, 1)
+* <math>F_2 = F_0 + F_1 = 0 + 1 = 1</math>, postupnosť je (0, 1, 1)
+* <math>F_3 = F_1 + F_2 = 1 + 1 = 2</math>, postupnosť je (0, 1, 1, 2)
+* <math>F_4 = F_2 + F_3 = 1 + 2 = 3</math>, postupnosť je (0, 1, 1, 2, 3)
+* <math>F_5 = F_3 + F_4 = 2 + 3 = 5</math>, postupnosť je (0, 1, 1, 2, 3, 5)
+* …
+Po zovšeobecnení, pre <math>n > 1</math>:
+: <math>F_n = F_{n-2} + F_{n-1}</math>
+
+== Fibonacciho čísla ==
+Jednotlivé členy postupnosti sa nazývajú ''Fibonacciho čísla''.
+: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946,…
+
+== Názov postupnosti ==
+Fibonacciho postupnosť a Fibonacciho čísla nazval francúzsky matematik Leonarda z Pisy, prezývaného Fibonacci.
+
+Postupnosť sa niekedy nazýva aj ''zlatá cesta'' (z gréc. ''χρνσοδρομος'', ''chrysodromos'').
+
+== Matematické vlastnosti ==
+=== Zlatý rez ===
+konverguje k číslu, ktoré bolo známe už od antiky, označuje sa symbolom '''&phi;''' (grécke písmeno fí) a nazýva sa tiež zlatý rez. Vyjadrené modernou matematikou:
+:<math>\lim_{n\to\infty}\frac{F_{n+1}}{F_n} = \varphi = 1,6180339887</math>
+
+Vzťah čísla '''&phi;''' a Fibonacciho postupnosti ukazujú tiež vzťahy:
+:<math>F_n = \frac{\varphi^n - (1 - \varphi)^n}{\sqrt 5}</math>
+
+:<math>\varphi^n = F_{n-1} + \varphi F_n</math>
+
+thumb|180px|right|A tiling with squares whose sides are successive Fibonacci numbers in length
+thumb|180px|right|A '''yupana''' ([[Quechua for "counting tool") is a calculator which was used by the Incas. Researchers assume that calculations were based on Fibonacci numbers to minimize the amount of necessary grains per field.<ref>http://www.quipus.it/english/Andean%20Calculators.pdf</ref>]]
+In mathematics, the '''Fibonacci numbers''' are a sequence of numbers named after Leonardo of Pisa, known as Fibonacci. Fibonacci's 1202 book ''Liber Abaci'' introduced the sequence to Western European mathematics, although the sequence had been previously described in Indian mathematics.<ref>Parmanand Singh. "Acharya Hemachandra and the (so called) Fibonacci Numbers". Math. Ed. Siwan, 20(1):28-30, 1986. ISSN 0047-6269]</ref><ref>Parmanand Singh,"The So-called Fibonacci numbers in ancient and medieval India." Historia Mathematica 12(3), 229–44, 1985.</ref>
+
+The first number of the sequence is 0, the second number is 1, and each subsequent number is equal to the sum of the previous two numbers of the sequence itself. In mathematical terms, it is defined by the following recurrence relation:
+
+:<math>
+  F_n =  
+  \begin{cases}
+    0               & \mbox{if } n = 0; \\
+    1               & \mbox{if } n = 1; \\
+    F_{n-1}+F_{n-2} & \mbox{if } n > 1. \\
+   \end{cases}
+ </math>
+
+That is, after two starting values, each number is the sum of the two preceding numbers. The first Fibonacci numbers , also denoted as ''F<sub>n</sub>'', for ''n''&nbsp;=&nbsp;0,&nbsp;1,&nbsp;2, … ,20 are:<ref> By modern convention, the sequence begins with ''F''<sub>0</sub>=0. The ''Liber Abaci'' began the sequence with ''F''<sub>1</sub> = 1, omitting the initial 0, and the sequence is still written this way by some.</ref><ref>The website [http://www.mcs.surrey.ac.uk/Personal/R.Knott/Fibonacci/fibtable.html] has the first 300 F<sub>''n''</sub> factored into primes and links to more extensive tables.</ref>
+:{| class="wikitable"
+|-
+| ''F''<sub>0</sub>
+| ''F''<sub>1</sub>
+| ''F''<sub>2</sub>
+| ''F''<sub>3</sub>
+| ''F''<sub>4</sub>
+| ''F''<sub>5</sub>
+| ''F''<sub>6</sub>
+| ''F''<sub>7</sub>
+| ''F''<sub>8</sub>
+| ''F''<sub>9</sub>
+| ''F''<sub>10</sub>
+| ''F''<sub>11</sub>
+| ''F''<sub>12</sub>
+| ''F''<sub>13</sub>
+| ''F''<sub>14</sub>
+| ''F''<sub>15</sub>
+| ''F''<sub>16</sub>
+| ''F''<sub>17</sub>
+| ''F''<sub>18</sub>
+| ''F''<sub>19</sub>
+| ''F''<sub>20</sub>
+|-
+| 0
+| 1
+| 1
+| 2
+| 3
+| 5
+| 8
+| 13
+| 21
+| 34
+| 55
+| 89
+| 144
+| 233
+| 377
+| 610
+| 987
+| 1597
+| 2584
+| 4181
+| 6765
+|}
+
+{{ImageStackRight|200|right|thumb|180px|A [[Fibonacci number|Fibonacci spiral created by drawing arcs connecting the opposite corners of squares in the Fibonacci tiling; this one uses squares of sizes 1, 1, 2, 3, 5, 8, 13, 21, and 34; see Golden spiral]]
+right|thumb|180px|A plot of the Fibonacci sequence from 0 to 1597
+}}
+Every 3rd number of the sequence is even and more generally, every ''k''th number of the sequence is a multiple of ''F<sub>k</sub>''.
+
+The sequence extended to negative index ''n'' satisfies ''F<sub>n</sub>'' = ''F''<sub>''n''−1</sub>&nbsp;+&nbsp;''F''<sub>''n''−2</sub> for ''all'' integers ''n'', and ''F<sub>−n</sub>'' = (−1)<sup>''n''+1</sup>''F''<sub>''n''</sub>:
+
+.., &minus;8, 5, &minus;3, 2, &minus;1, 1, followed by the sequence above.
+
+==Origins==
+The Fibonacci numbers first appeared, under the name ''mātrāmeru'' (mountain of Sanskrit grammarian 450 or Prosody was important in ancient Indian ritual because of an emphasis on the purity of utterance. The Indian mathematician metres with long and short syllables. Subsequently, the Gopāla in the 12th century also revisits the problem in some detail.
+
+Sanskrit vowel sounds can be long (L) or short (S), and Virahanka's analysis, which came to be known as ''mātrā-vṛtta'', wishes to compute how many metres (''mātrā''s) of a given overall length can be composed of these syllables. If the long syllable is twice as long as the short, the solutions are:
+: 1 mora:  S (1 pattern)
+: 2 morae:  SS; L (2) 
+: 3 morae:  SSS, SL; LS (3)
+: 4 morae:  SSSS, SSL, SLS; LSS, LL (5)
+: 5 morae:  SSSSS, SSSL, SSLS, SLSS, SLL; LSSS, LSL, LLS  (8)
+: 6 morae:  SSSSSS, SSSSL, SSSLS, SSLSS, SLSSS, LSSSS, SSLL, SLSL, SLLS, LSSL, LSLS, LLSS, LLL  (13)
+: 7 morae:  SSSSSSS, SSSSSL, SSSSLS, SSSLSS, SSLSSS, SLSSSS, LSSSSS, SSSLL, SSLSL, SLSSL, LSSSL, SSLLS, SLSLS, LSSLS, SLLSS, LSLSS, LLSSS, SLLL, LSLL, LLSL, LLLS  (21)
+
+A pattern of length ''n'' can be formed by adding S to a pattern of length ''n''&nbsp;−&nbsp;1, or L to a pattern of length ''n''&nbsp;−&nbsp;2; and the prosodicists showed that the number of patterns of length ''n'' is the sum of the two previous numbers in the sequence.  Donald Knuth reviews this work in ''The Art of Computer Programming'' <!-- see (Vol.&nbsp;1, &sect;1.2.8: Fibonacci Numbers)--> as equivalent formulations of the bin packing problem for items of lengths 1 and 2.
+
+In the West, the sequence was first studied by Leonardo of Pisa, known as Fibonacci, in his Liber Abaci (1202)<ref> Chapter II.12, pp. 404–405.</ref>.  He considers the growth of an idealised (biologically unrealistic) rabbit population, assuming that:
+* In the "zeroth" month, there is one pair of rabbits (additional pairs of rabbits&nbsp;=&nbsp;0)
+* In the first month, the first pair begets another pair (additional pairs of rabbits&nbsp;=&nbsp;1)
+* In the second month, both pairs of rabbits have another pair, and the first pair dies (additional pairs of rabbits&nbsp;=&nbsp;1)
+* In the third month, the second pair and the new two pairs have a total of three new pairs, and the older second pair dies. (additional pairs of rabbits&nbsp;=&nbsp;2)
+
+The laws of this are that each pair of rabbits has 2 pairs in its lifetime, and dies.
+
+Let the population at month ''n'' be ''F''(''n'').  At this time, only rabbits who were alive at month ''n''&nbsp;−&nbsp;2 are fertile and produce offspring, so ''F''(''n''&nbsp;−&nbsp;2) pairs are added to the current population of ''F''(''n''&nbsp;−&nbsp;1).  Thus the total is ''F''(''n'')&nbsp;=&nbsp;''F''(''n''&nbsp;−&nbsp;1)&nbsp;+&nbsp;''F''(''n''&nbsp;−&nbsp;2).<ref>{{cite web
+  | last = Knott
+  | first = Ron
+  | title = Fibonacci's Rabbits
+  | url=http://www.mcs.surrey.ac.uk/Personal/R.Knott/Fibonacci/fibnat.html#Rabbits
+  | publisher =University of Surrey School of Electronics and Physical Sciences}}</ref>
+
+==Relation to the Golden Ratio==
+===Closed form expression===
+Like every sequence defined by linear recurrence, the Fibonacci numbers have a  closed-form solution. It has become known as Binet's formula, even though it was already known by Abraham de Moivre:
+:<math>F\left(n\right) = = \over {\sqrt 5}}\, ,</math> where <math>\varphi</math> is the golden ratio 
+:<math>\varphi = \frac{1 + \sqrt{5}}{2} \approx 1.61803\,39887\dots\,</math>  
+(note, that <math>1-\varphi=-1/\varphi</math>, as can be seen from the defining equation below).
+
+The Fibonacci recursion
+
+:<math>F(n+2)-F(n+1)-F(n)=0\,</math>
+
+is similar to the defining equation of the golden ratio in the form
+
+:<math>x^2-x-1=0,\,</math>
+
+which is also known as the generating polynomial of the recursion.
+
+====Proof by induction====
+Any root of the equation above satisfies <math>\begin{matrix}x^2=x+1,\end{matrix}\,</math> and multiplying by <math>x^{n-1}\,</math> shows:
+:<math>x^{n+1} = x^n + x^{n-1}\,</math>
+
+By definition <math>\varphi</math> is a root of the equation, and the other root is <math>1-\varphi=-1/\varphi\, .</math>. Therefore:
+:<math>\varphi^{n+1}  = \varphi^n + \varphi^{n-1}\, </math>
+
+and
+:<math>(1-\varphi)^{n+1} = (1-\varphi)^n + (1-\varphi)^{n-1}\, .</math>
+
+Both <math>\varphi^{n}</math> and <math>(1-\varphi)^{n}=(-1/\varphi)^{n}</math>
+are geometric series (for ''n'' = 1, 2, 3, ...) that satisfy the Fibonacci recursion. The first series grows exponentially; the second exponentially tends to zero, with alternating signs. Because the Fibonacci recursion is linear, any linear combination of these two series will also satisfy the recursion. These linear combinations form a two-dimensional linear vector space; the original Fibonacci sequence can be found in this space.
+
+Linear combinations of series <math>\varphi^{n}</math> and <math>(1-\varphi)^{n}</math>, with coefficients ''a'' and ''b'', can be defined by
+:<math>F_{a,b}(n) = a\varphi^n+b(1-\varphi)^n</math> for any real <math>a,b\, .</math>
+
+All thus-defined series satisfy the Fibonacci recursion
+:<math>\begin{align}
+  F_{a,b}(n+1) &= a\varphi^{n+1}+b(1-\varphi)^{n+1} \\
+               &=a(\varphi^{n}+\varphi^{n-1})+b((1-\varphi)^{n}+(1-\varphi)^{n-1}) \\
+               &=a{\varphi^{n}+b(1-\varphi)^{n}}+a{\varphi^{n-1}+b(1-\varphi)^{n-1}} \\
+               &=F_{a,b}(n)+F_{a,b}(n-1)\,.
+\end{align}</math>
+Requiring that <math>F_{a,b}(0)=0</math> and <math>F_{a,b}(1)=1</math> yields <math>a=1/\sqrt 5</math> and <math>b=-1/\sqrt 5</math>, resulting in the formula of Binet we started with. It has been shown that this formula satisfies the Fibonacci recursion. Furthermore, an explicit check can be made:
+:<math>F_{a,b}(0)=\frac{1}{\sqrt 5}-\frac{1}{\sqrt 5}=0\,\!</math>
+
+and
+:<math>F_{a,b}(1)=\frac{\varphi}{\sqrt 5}-\frac{(1-\varphi)}{\sqrt 5}=\frac{-1+2\varphi}{\sqrt 5}=\frac{-1+(1+\sqrt 5)}{\sqrt 5}=1,</math>
+
+establishing the base cases of the induction, proving that
+:<math>F(n)=</math> for all <math> n\, .</math>
+
+Therefore, for any two starting values, a combination <math>a,b</math> can be found such that the function <math>F_{a,b}(n)\,</math> is the exact closed formula for the series.
+
+====Computation by rounding====
+Since <math>\begin{matrix}|1-\varphi|^n/\sqrt 5 < 1/2\end{matrix}</math> for all <math>n\geq 0</math>, the number <math>F(n)</math> is the closest integer to <math>\varphi^n/\sqrt 5\, .</math> Therefore it can be found by rounding, or in terms of the floor function:
+:<math>F(n)=\bigg\lfloor\frac{\varphi^n}{\sqrt 5} + \frac{1}{2}\bigg\rfloor.</math>
+
+===Limit of consecutive quotients===
+
+Johannes Kepler observed that the ratio of consecutive Fibonacci numbers converges. He wrote that "as 5 is to 8 so is 8 to 13, practically, and as 8 is to 13, so is 13 to 21 almost”, and concluded that the limit approaches the golden ratio <math>\varphi</math>.<ref> Strena seu de Nive Sexangula (1611)</ref>
+
+:<math>\lim_{n\to\infty}\frac{F(n+1)}{F(n)}=\varphi,</math>  
+This convergence does not depend on the starting values chosen, excluding 0, 0.
+
+'''Proof''':
+
+It follows from the explicit formula that for any real <math>a \ne 0, \, b \ne 0 \,</math>
+:<math>\begin{align}
+  \lim_{n\to\infty}\frac{F_{a,b}(n+1)}{F_{a,b}(n)}
+     &= \lim_{n\to\infty}\frac{a\varphi^{n+1}-b(1-\varphi)^{n+1}}{a\varphi^n-b(1-\varphi)^n} \\
+     &= \lim_{n\to\infty}\frac{a\varphi-b(1-\varphi)(\frac{1-\varphi}{\varphi})^n}{a-b(\frac{1-\varphi}{\varphi})^n} \\
+     &= \varphi
+ \end{align}</math>
+because <math>\bigl|{\tfrac{1-\varphi}{\varphi}}\bigr| < 1</math> and thus <math>\lim_{n\to\infty}\left(\tfrac{1-\varphi}{\varphi}\right)^n=0 .</math>
+
+===Decomposition of powers of the golden ratio===
+Since the golden ratio satisfies the equation 
+:<math>\varphi^2=\varphi+1,\,</math>
+this expression can be used to decompose higher powers <math>\varphi^n</math> as a linear function of lower powers, which in turn can be decomposed all the way down to a linear combination of <math>\varphi</math> and 1. The resulting recurrence relationships yield Fibonacci numbers as the linear coefficients, thus closing the loop:
+:<math>\varphi^n=F(n)\varphi+F(n-1).</math>
+This expression is also true for <math>n \, <\, 1 \, </math> if the Fibonacci sequence <math>F(n) \,</math> is  extended to negative integers using the Fibonacci rule <math>F(n) = F(n-1) + F(n-2) . \, </math>
+
+==Matrix form==
+
+A 2-dimensional system of linear difference equations that describes the Fibonacci sequence is
+:<math>{F_{k+2} \choose F_{k+1}} = \begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix} {F_{k+1} \choose F_{k}}</math>
+
+or
+:<math>\vec F_{k+1} = A \vec F_{k}.\,</math>
+
+The eigenvalues of the matrix A are <math>\varphi\,\!</math> and <math>(1-\varphi)\,\!</math>, and the elements of the eigenvectors of A, <math>{\varphi \choose 1}</math> and <math>{1 \choose -\varphi}</math>, are in the ratios <math>\varphi\,\!</math> and <math>(1-\varphi\,\!).</math>
+
+This matrix has a determinant of &minus;1, and thus it is a 2&times;2 unimodular matrix.  This property can be understood in terms of the continued fraction representation for the golden ratio: 
+:<math>\varphi
+=1 + \cfrac{1}{1 + \cfrac{1}{1 + \cfrac{1}{\;\;\ddots\,}}} \;. </math> 
+The Fibonacci numbers occur as the ratio of successive  convergents of the continued fraction for <math>\varphi\,\!</math>, and the matrix formed from successive convergents of any continued fraction has a determinant of +1 or &minus;1.
+
+The matrix representation gives the following closed expression for the Fibonacci numbers:
+:<math>\begin{pmatrix} 1 & 1 \\ 1 & 0 \end{pmatrix}^n =
+       \begin{pmatrix} F_{n+1} & F_n \\
+                       F_n     & F_{n-1} \end{pmatrix}.
+</math>
+
+Taking the determinant of both sides of this equation yields Cassini's identity
+:<math>(-1)^n = F_{n+1}F_{n-1} - F_n^2.\,</math>
+
+Additionally, since <math> A^n A^m=A^{m+n}</math> for any square matrix <math>A</math>, the following identities can be derived:
+:<math>{F_n}^2 + {F_{n-1}}^2 = F_{2n-1},\,</math>
+:<math>F_{n+1}F_{m} + F_n F_{m-1} = F_{m+n}.\, </math>
+
+For the first one of these, there is a related identity:
+:<math>(2F_{n-1}+F_n)F_n = (F_{n-1}+F_{n+1})F_n = F_{2n}.\,</math>
+For another way to derive the <math>F_{2n+k}</math> formulas see the "EWD note" by Dijkstra<ref name="dijkstra78">E. W. Dijkstra (1978). ''In honour of Fibonacci.'' [http://www.cs.utexas.edu/users/EWD/ewd06xx/EWD654.PDF Report EWD654]</ref>.
+
+==Recognizing Fibonacci numbers==
+
+The question may arise whether a positive integer <math>z</math> is a Fibonacci number. Since <math>F(n)</math> is the closest integer to <math>\varphi^n/\sqrt{5}</math>, the most straightforward, brute-force test is the identity
+:<math>F\bigg(\bigg\lfloor\log_\varphi(\sqrt{5}z)+\frac{1}{2}\bigg\rfloor\bigg)=z,</math>
+which is true if and only if <math>z</math> is a Fibonacci number.
+
+Alternatively, a positive integer <math>z</math> is a Fibonacci number if and only if one of <math>5z^2+4</math> or <math>5z^2-4</math> is a perfect square.<ref></ref> 
+
+A slightly more sophisticated test uses the fact that the convergents of the continued fraction representation of <math>\varphi</math> are ratios of successive Fibonacci numbers, that is the inequality
+:<math>\bigg|\varphi-\frac{p}{q}\bigg|<\frac{1}{q^2}</math>
+(with coprime positive integers <math>p</math>, <math>q</math>) is true if and only if <math>p</math> and <math>q</math> are successive Fibonacci numbers. From this one derives the criterion that <math>z</math> is a Fibonacci number if and only if the closed interval
+:<math>\bigg[\varphi z-\frac{1}{z},\varphi z+\frac{1}{z}\bigg]</math>
+contains a positive integer.<ref>M.&nbsp;Möbius, ''Wie erkennt man eine Fibonacci Zahl?'', Math. Semesterber. (1998) 45; 243–246</ref>
+
+==Identities==
+
+Most identities involving Fibonacci numbers draw from combinatorial arguments.
+''F''(''n'') can be interpreted as the number of ways summing 1's and 2's to ''n'' &minus; 1, with the convention that ''F''(0) = 0, meaning no sum will add up to &minus;1, and that ''F''(1) = 1, meaning the empty sum will "add up" to 0.
+Here the order of the summands matters.
+For example, 1 + 2 and 2 + 1 are considered two different sums and are counted twice.
+
+=== First Identity ===
+
+:<big><math>F_{n+1} = F_{n} + F_{n-1}</math></big>
+
+:''The nth Fibonacci number is the sum of the previous two Fibonacci numbers.''
+
+==== Proof ====
+
+We must establish that the sequence of numbers defined by the combinatorial interpretation above satisfy the same recurrence relation as the Fibonacci numbers (and so are indeed identical to the Fibonacci numbers).
+
+The set of ''F''(''n''+1) ways of making ordered sums of 1's and 2's that sum to ''n'' may be divided into two non-overlapping sets. The first set contains those sums whose first summand is 1; the remainder sums to ''n''&minus;1, so there are ''F''(''n'') sums in the first set. The second set contains those sums whose first summand is 2; the remainder sums to ''n''&minus;2, so there are ''F''(''n''&minus;1) sums in the second set. The first summand can only be 1 or 2, so these two sets exhaust the original set. Thus ''F''(''n''+1) = ''F''(''n'') + ''F''(''n''&minus;1).
+
+=== Second Identity ===
+
+:<math>\sum_{i=0}^n F_i = F_{n+2} - 1</math>
+
+:''The sum of the first n Fibonacci numbers is the (n+2)nd Fibonacci number minus 1.''
+
+==== Proof ====
+
+We count the number of ways summing 1's and 2's to ''n'' + 1 such that at least one of the summands is 2.
+
+As before, there are ''F''(''n'' + 2) ways summing 1's and 2's to ''n'' + 1 when ''n'' ≥ 0.
+Since there is only one sum of ''n'' + 1 that does not use any 2, namely 1 + … + 1 (''n'' + 1 terms), we subtract 1 from ''F''(''n'' + 2).
+
+Equivalently, we can consider the first occurrence of 2 as a summand.
+If, in a sum, the first summand is 2, then there are ''F''(''n'') ways to the complete the counting for ''n'' &minus; 1.
+If the second summand is 2 but the first is 1, then there are ''F''(''n'' &minus; 1) ways to complete the counting for ''n'' &minus; 2.
+Proceed in this fashion.
+Eventually we consider the (''n'' + 1)th summand.
+If it is 2 but all of the previous ''n'' summands are 1's, then there are ''F''(0) ways to complete the counting for 0.
+If a sum contains 2 as a summand, the first occurrence of such summand must take place in between the first and (''n'' + 1)th position.
+Thus ''F''(''n'') + ''F''(''n'' &minus; 1) + … + ''F''(0) gives the desired counting.
+
+=== Third Identity ===
+
+This identity has slightly different forms for <math>F_k</math>, depending on whether k is odd or even.
+:<math>\sum_{i=0}^{n-1} F_{2i+1} = F_{2n}</math>
+:<math>\sum_{i=0}^{n} F_{2i} = F_{2n+1}-1</math>
+
+<ref></ref>
+
+:''The sum of the first n-1 Fibonacci numbers, <math>F_j</math>, such that j is odd is the (2n)th Fibonacci number.''
+:''The sum of the first n Fibonacci numbers, <math>F_j</math>, such that j is even is the (2n+1)th Fibonacci number minus 1.''
+
+==== Proofs ====
+
+By induction for <math>F_{2n}</math>:
+:<math>F_1+F_3+F_5+...+F_{2n-3}+F_{2n-1}=F_{2n}</math>
+:<math>F_1+F_3+F_5+...+F_{2n-3}+F_{2n-1}+F_{2n+1}=F_{2n}+F_{2n+1}</math>
+:<math>F_1+F_3+F_5+...+F_{2n-3}+F_{2n-1}+F_{2n+1}=F_{2n+2}</math>
+A basis case for this could be <math>F_1=F_2</math>.
+<br>
+By induction for <math>F_{2n+1}</math>:
+:<math>F_0+F_2+F_4+...+F_{2n-2}+F_{2n}=F_{2n+1}-1</math>
+:<math>F_0+F_2+F_4+...+F_{2n-2}+F_{2n}+F_{2n+2}=F_{2n+1}+F_{2n+2}-1</math>
+:<math>F_0+F_2+F_4+...+F_{2n-2}+F_{2n}+F_{2n+2}=F_{2n+3}-1</math>
+A basis case for this could be <math>F_0=F_1-1</math>.
+
+=== Fourth Identity ===
+
+:<math>\sum_{i=0}^n iF_i = nF_{n+2} - F_{n+3} + 2</math>
+
+==== Proof ====
+
+This identity can be established in two stages.
+First, we count the number of ways summing 1s and 2s to &minus;1, 0, …, or ''n'' + 1 such that at least one of the summands is 2.
+
+By our second identity, there are ''F''(''n'' + 2) &minus;  1 ways summing to ''n'' + 1; ''F''(''n'' + 1) &minus; 1 ways summing to ''n''; …; and, eventually, ''F''(2) &minus; 1 way summing to 1.
+As ''F''(1) &minus; 1 = ''F''(0) = 0, we can add up all ''n'' + 1 sums and apply the second identity again to obtain
+: &nbsp;&nbsp;&nbsp;[''F''(''n'' + 2) &minus; 1] + [''F''(''n'' + 1) &minus; 1] + … + [''F''(2) &minus; 1]
+: = [''F''(''n'' + 2) &minus; 1] + [''F''(''n'' + 1) &minus; 1] + … + [''F''(2) &minus; 1] + [''F''(1) &minus; 1] + ''F''(0)
+: = ''F''(''n'' + 2) + [''F''(''n'' + 1) + … + ''F''(1) + ''F''(0)] &minus; (''n'' + 2)
+: = ''F''(''n'' + 2) + [''F''(''n'' + 3) &minus; 1] &minus; (''n'' + 2)
+: = ''F''(''n'' + 2) + ''F''(''n'' + 3) &minus; (''n'' + 3).
+
+On the other hand, we observe from the second identity that there are
+* ''F''(0) + ''F''(1) + … + ''F''(''n'' &minus; 1) + ''F''(''n'') ways summing to ''n'' + 1;
+* ''F''(0) + ''F''(1) + … + ''F''(''n'' &minus; 1) ways summing to ''n'';
+……
+* ''F''(0) way summing to &minus;1.
+Adding up all ''n'' + 1 sums, we see that there are
+* (''n'' + 1) ''F''(0) + ''n'' ''F''(1) + … + ''F''(''n'') ways summing to &minus;1, 0, …, or ''n'' + 1.
+
+Since the two methods of counting refer to the same number, we have
+: (''n'' + 1) ''F''(0) + ''n'' ''F''(1) + … + ''F''(''n'') = ''F''(''n'' + 2) + ''F''(''n'' + 3) &minus; (''n'' + 3)
+
+Finally, we complete the proof by subtracting the above identity from ''n'' + 1 times the second identity.
+
+=== Fifth Identity ===
+
+:<math>\sum_{i=0}^n {F_i}^2 = F_{n} F_{n+1}</math>
+
+:''The sum of the first n Fibonacci numbers squared is the product of the nth and (n+1)th Fibonacci numbers.''
+
+=== Identity for doubling ''n'' ===
+
+:<math>F_{2n} = F_{n+1}^2 - F_{n-1}^2 = F_n(F_{n+1}+F_{n-1}) </math>
+
+<ref name="autogenerated1">[http://mathworld.wolfram.com/FibonacciNumber.html Fibonacci Number - from Wolfram MathWorld<!-- Bot generated title -->]</ref>
+
+=== Another Identity ===
+
+Another identity useful for calculating ''F<sub>n</sub>'' for large values of ''n'' is
+
+:<math>F_{kn+c} = \sum_{i=0}^k {k\choose i} F_{c-i} F_n^i F_{n+1}^{k-i}</math> 
+<ref name="autogenerated1" />
+
+From which other identities for specific values of k, n, and c can be derived below, including
+
+:<math>F_{2n+k} = F_k F_{n+1}^2 + 2 F_{k-1} F_{n+1} F_n + F_{k-2} F_n^2 </math>
+
+for all integers ''n'' and ''k''. Dijkstra<ref name="dijkstra78"/> points out that doubling identities of this type can be used to calculate ''F<sub>n</sub>'' using O(log ''n'') arithmetic operations. Notice that, with the definition of Fibonacci numbers with negative ''n'' given in the introduction, this formula reduces to the ''double n'' formula when ''k = 0''.
+
+(From practical standpoint it should be noticed that the calculation involves manipulation of numbers with length (number of digits) <math>{\rm \Theta}(n)\,</math>. Thus the actual performance depends mainly upon efficiency of the implemented  long multiplication, and usually is <math>{\rm \Theta}(n \,\log n)</math> or <math>{\rm \Theta}(n ^{\log_2 3})</math>.)
+
+===Other identities===
+
+Other identities include relationships to the Lucas numbers, which have the same recursive properties but start with ''L''<''0''</sub>=2 and ''L''<sub>''1''</sub>=1. These properties include
+''F''<sub>''2n''</sub>=''F''<sub>''n''</sub>''L''<sub>''n''</sub>.
+
+There are also scaling identities, which take you from ''F''<sub>n</sub> and ''F''<sub>n+1</sub> to a variety of things of the form ''F''<sub>an+b</sub>; for instance
+
+<math>F_{3n} = 2F_n^3 + 3F_n F_{n+1} F_{n-1} = 5F_{n}^3 + 3 (-1)^n F_{n} </math> by Cassini's identity.
+
+<math>F_{3n+1} = F_{n+1}^3 + 3 F_{n+1}F_n^2 - F_n^3</math>
+
+<math>F_{3n+2} = F_{n+1}^3 + 3 F_{n+1}^2F_n + F_n^3</math>

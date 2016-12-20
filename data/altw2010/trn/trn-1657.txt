@@ -1,0 +1,131 @@
+{{ItaliaanseGemeente|
+|naam= Limana
+|italiaansenaam= 
+|kaart= 
+|provincie= Belluno (BL)
+|regioAfk=  VEN
+|regio= Veneto
+|jaar= 31-12-2004
+|inwonersaantal= 4667
+|inwonersperkm2= 119
+|oppervlakte= 39,2
+|water= 
+|latitudeGraden= 46
+|latitudeMinuten= 6
+|latitudeSeconden= 0
+|longitudeGraden= 12
+|longitudeMinuten= 11
+|longitudeSeconden= 0
+|kaartX= 138
+|kaartY= 37
+|code= 025029
+|postcode= 32020
+|netnummer= 0437
+|hoogteligging= 364
+|aangrenzende gemeenten=    
+|beschermheilige= San Valentino
+|naam inwoner= limanesi
+|diverse= <small>bron: [http://www.istat.it/ Italiaans bureau voor statistiek]<small>  
+}} 
+'''Limana''' is een gemeente in de Italiaanse provincie Belluno (regio Veneto) en telt 4667 inwoners (31-12-2004). De oppervlakte bedraagt 39,2 km², de bevolkingsdichtheid is 119 inwoners per km².
+
+==Demografie==
+Limana telt ongeveer 1918 huishoudens. Het aantal inwoners steeg in de periode 1991-2001 met 8,3% volgens cijfers uit de tienjaarlijkse volkstellingen van ISTAT.
+
+{| class="prettytable" style="text-align:center;"  
+! width=70px  | Jaar 
+! width=100px | Inwoneraantal
+|- 
+| 1991 || 4165
+|- 
+| 2001 || 4509
+|}
+
+==Geografie==
+De gemeente ligt op ongeveer 364 m boven zeeniveau. 
+
+Limana grenst aan de volgende gemeenten: Belluno, Revine Lago (TV), Sedico, Trichiana, Vittorio Veneto (TV).
+
+{{Infobox CityIT |
+  img_coa =  |
+  official_name = Limana<br>300px |
+  name = Limana |
+  region = Veneto |
+  province = Province of Belluno (BL) |
+  elevation_m = 364 |
+  area_total_km2   = 39.2 |
+  population_as_of  = Dec. 2004 |
+  population_total = 4667 |
+  population_density_km2 = 119 |
+  timezone          = CET, UTC+1 |
+  coordinates       = |
+  frazioni          = (14)  Canè, Ceresera, Cesa, Coi di Navasa, Dussoi, Limana Capoluogo, Navenze, Pieve di Limana, Polentes, Praloran, Refos, Ricomes, Triches, Valmorel |
+  telephone         = 0437 |
+  postalcode        = 32020 |
+  gentilic          = limanesi |
+  saint             = |
+  day               = |
+  mayor             = |
+  website           = [http://limana.valbelluna.bl.it/ limana.valbelluna.bl.it/] |
+  mapy = 12.1833 |
+  mapx = 46.1000 |
+}}
+'''Limana''' is a ''Italian region Veneto, located about 70&nbsp;km north of Venice and about 5&nbsp;km southwest of Belluno. As of 31 December 2004, it had a population of 4,667 and an area of 39.2&nbsp;km².<ref name="istat">All demographics and other statistics: Italian statistical institute Istat.</ref>
+
+The municipality of Limana contains the ''frazioni'' (subdivisions, mainly villages and hamlets) (14)  Canè, Ceresera, Cesa, Coi di Navasa, Dussoi, Limana Capoluogo, Navenze, Pieve di Limana, Polentes, Praloran, Refos, Ricomes, Triches, and Valmorel.
+
+Limana borders the following municipalities: Belluno, Revine Lago, Sedico, Trichiana, Vittorio Veneto.
+
+== Demographic evolution ==
+<timeline>
+Colors=
+  id:lightgrey value:gray(0.9)
+  id:darkgrey  value:gray(0.8)
+  id:sfondo value:rgb(1,1,1)
+  id:barra value:rgb(0.6,0.7,0.8)
+
+ImageSize  = width:455 height:303
+PlotArea   = left:50 bottom:50 top:30 right:30
+DateFormat = x.y
+Period     = from:0 till:5000
+TimeAxis   = orientation:vertical
+AlignBars  = justify
+ScaleMajor = gridcolor:darkgrey increment:1000 start:0
+ScaleMinor = gridcolor:lightgrey increment:200 start:0
+BackgroundColors = canvas:sfondo
+
+BarData=
+  bar:1861 text:1861
+  bar:1871 text:1871
+  bar:1881 text:1881
+  bar:1901 text:1901
+  bar:1911 text:1911
+  bar:1921 text:1921
+  bar:1931 text:1931
+  bar:1936 text:1936
+  bar:1951 text:1951
+  bar:1961 text:1961
+  bar:1971 text:1971
+  bar:1981 text:1981
+  bar:1991 text:1991
+  bar:2001 text:2001
+
+PlotData=
+  color:barra width:20 align:left
+
+  bar:1861 from: 0 till:0
+  bar:1871 from: 0 till:2131
+  bar:1881 from: 0 till:2289
+  bar:1901 from: 0 till:2597
+  bar:1911 from: 0 till:3066
+  bar:1921 from: 0 till:3794
+  bar:1931 from: 0 till:3820
+  bar:1936 from: 0 till:3283
+  bar:1951 from: 0 till:3610
+  bar:1961 from: 0 till:3701
+  bar:1971 from: 0 till:3579
+  bar:1981 from: 0 till:3984
+  bar:1991 from: 0 till:4165
+  bar:2001 from: 0 till:4509
+
+PlotData=

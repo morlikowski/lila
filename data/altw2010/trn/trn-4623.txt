@@ -1,0 +1,37 @@
+Nella produzione del librerie di codice utilizzabili con uno o più linguaggi di programmazione, spesso corredate da una serie di strumenti di supporto allo sviluppo del software, come ad esempio un IDE, un debugger, o altri strumenti ideati per aumentare la velocità di sviluppo del prodotto finito.
+
+==Perché un framework?==
+Lo scopo di un framework è di risparmiare allo sviluppatore la riscrittura di codice già steso in precedenza per compiti simili, circostanza che si è presentata sempre più spesso man mano che le interfacce utente sono diventate sempre più complesse, o più in generale man mano che è aumentata la quantità di software con funzionalità secondarie simili.
+
+Ad esempio, il tipo di interazione con l'utente offerta da un inglese ''framework'' quindi può essere tradotto come ''intelaiatura'' o ''struttura'', che è appunto la sua funzione, a sottolineare che al programmatore rimane solo da creare il contenuto vero e proprio dell'applicazione.
+
+Un framework è definito da un insieme di classi astratte e dalle relazioni tra esse. Istanziare un framework significa fornire un'implementazione delle classi astratte. L'insieme delle classi concrete, definite ereditando il framework, eredita le relazioni tra le classi; si ottiene in questo modo un insieme di classi concrete con un insieme di relazioni tra classi.
+
+==Relazione con le librerie di run-time==
+Un framework può essere visto come (e in alcuni casi è) un sovrainsieme o un'aggiunta alle librerie di linguaggio. Per fare qualche esempio:
+*Il ECMA: C++/CLI) che si appoggia integralmente al Framework .NET.
+*Anche il C ha una propria libreria di run-time, la GIMP Toolkit ('''GTK''').
+*Per il linguaggio C#, che non ha una propria libreria di run-time, il Framework .NET svolge anche questa funzione. Lo stesso vale per Visual Basic .NET, che è stato concepito in maniera analoga.
+*Tutto il software scritto in Delphi di Borland si appoggia sulla Visual Component Library ('''VCL'''), sempre di Borland; questa libreria di fatto è un framework, poiché si prende carico di una gran quantità di servizi software non essenziali (tra i quali, appunto, la gestione dell'interfaccia grafica). Come Microsoft con il C++, anche Borland ha realizzato una versione di Delphi che si appoggia al Framework .NET .
+*Sun, per il suo Java, oltre alla vasta libreria standard di base ha anche sviluppato un framework, di nome Cocoon e Struts di Apache, tutti e due orientati allo sviluppo di applicazioni per Internet.
+*PHP utilizza Seagull, un framework molto interessante per la creazione di applicazioni Web robuste.
+*In Perl esiste il framework Catalyst, nel quale il codice viene generato a partire dallo schema di un database sottostante.
+
+A '''software framework''' is "the skeleton of an application that can be customized by an application developer"<ref>Ralph E. Johnson. Frameworks = (components + patterns). Commun. ACM, 40(10):39--42,
+1997.</ref>.  Like software libraries, it aids the software developer by containing source code that solves problems for a given domain and provides a simple API.  However, while a code library acts like a servant to other programs, software frameworks reverse the master-servant relationship.  This reversal, called inversion of control, is the essence of software frameworks<ref>Dirk Riehle. Framework Design: A Role Modeling Approach. PhD thesis, Swiss Federal Institute of Technology, Zurich, 2000.</ref>.
+
+==Motivations==
+
+Frameworks are designed with the intent of facilitating software development, by allowing designers and programmers to spend more time on meeting software requirements rather than dealing with the more tedious low level details of providing a working system. For example, a team using Apache Struts to develop a banking web site can focus on how account withdrawals are going to work rather than how to control navigation between pages in a bug-free manner. However, there are common complaints that using frameworks adds to "code bloat", and that a result of competing and complementary frameworks is that one trades time spent on rote programming and design for time spent on learning frameworks.
+
+Having a good framework in place allows the developers to spend more time concentrating on the business-specific problem at hand rather than on the plumbing code behind it. Also a framework will limit the choices during development, so it increases productivity, specifically in big and complex systems.
+
+==Types of software frameworks==
+
+A software framework can be geared toward building graphical editors for different domains like artistic drawing, music composition, and mechanical multimedia, web applications, and even communicating between different systems.
+
+==Architecture==
+
+According to Pree<ref>Pree, W. (1994). Meta patterns - a means for capturing the essentials of reusable object-oriented design. in M. Tokoro and R. Pareschi (eds), Springer-Verlag, proceedings of the ECOOP, Bologna, Italy: 150-162.</ref>, software frameworks consist of ''frozen spots'' and ''hot spots''. On the one hand, ''frozen spots'' define the overall architecture of a software system, that is to say its basic components and the relationships between them. These remain unchanged (frozen) in any instantiation of the application framework. On the other hand, ''hot spots'' represent those parts where the programmers using the framework add their own code to add the functionality specific to their own project.
+
+Software frameworks define the places in the architecture where adaptations for specific functionality should be made - the hot spots. In an abstract and concrete classes. composing and subclassing the existing classes .<ref>Buschmann, F. (1996). Pattern-oriented software architecture : a system of patterns. Chichester ; New York, Wiley.</ref>

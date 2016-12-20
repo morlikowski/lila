@@ -1,0 +1,63 @@
+{{Infobox_Scientist
+| name                    = Henry Laurence Gantt
+| image                   =
+| image_width             = 
+| caption                 = 
+| birth_date              = 1861
+| birth_place             = 
+| death_date              = November 23, 1919
+| death_place             = 
+| residence               = 
+| citizenship             = United States
+| nationality             = 
+| ethnicity               =
+| field                   = Scientific management
+| work_institution        = 
+| alma_mater              = 
+| doctoral_advisor        = 
+| doctoral_students       = 
+| known_for               = Gantt chart
+| author_abbreviation_bot = 
+| author_abbreviation_zoo = 
+| prizes                  = 
+| religion                = 
+| footnotes               = 
+}}
+
+'''Henry Laurence Gantt''', A.B., M.E. (mechanical engineer and management consultant who is most famous for developing the Gantt chart in the 1910s.  These Gantt charts were employed on major infrastructure projects including the Hoover Dam and Interstate highway system and continue to be an important tool in project management.<ref>[http://www.ganttchart.com/History.html Gantt chart history] Accessed 7 April 2007.</ref>
+
+==Biography==
+Gantt was born in worker efficiency and productivity.  Henry Gantt is listed under Stevens Institute of Technology alumni and roommate to Frederick Winslow Taylor (M.E., 1883).
+
+==Gantt charts==
+
+The following discussion of Gantt charts originally appeared in Herrmann (2005):<ref>Herrmann, Jeffrey W., ''History of Decision-Making Tools for Production Scheduling,'' Proceedings of the 2005 Multidisciplinary Conference on Scheduling: Theory and Applications, New York, July 18-21, 2005.</ref>
+
+It is important to note that Gantt created many different types of charts.  Moreover, Gantt designed his charts so that foremen or other supervisors could quickly know whether production was on schedule, ahead of schedule, or behind schedule.  Modern project management software includes this critical function even now.
+
+Gantt (1903)<ref>Gantt, Henry L., A graphical daily balance in manufacture, Transactions of the American Society of Mechanical Engineers, Volume XXIV, pages 1322-1336, 1903.</ref> describes two types of ''balances'': the “man’s record,” which shows what each worker should do and did do, and the '''daily balance of work''', which shows the amount of work to be done and the amount that is done.  Gantt gives an example with orders that will require many days to complete.  The daily balance has rows for each day and columns for each part or each operation.  At the top of each column is the amount needed.  The amount entered in the appropriate cell is the number of parts done each day and the cumulative total for that part.  Heavy horizontal lines indicate the starting date and the date that the order should be done.  According to Gantt, the graphical daily balance is “a method of scheduling and recording work.”  In this article, Gantt also describes the use of '''production cards''' for assigning work to each operator and recording how much was done each day.
+
+In ''Work, Wages, and Profits'' (originally published in 1916),<ref>Gantt, Henry L., ''Work, Wages, and Profits,'' second edition, Engineering Magazine Co., New York, 1916.  Reprinted by Hive Publishing Company, Easton, Maryland, 1973.</ref> Gantt explicitly discusses scheduling, especially in the job shop environment.  He proposes giving to the foreman each day an “order of work” that is an ordered list of jobs to be done that day.  Moreover, he discusses the need to coordinate activities to avoid “interferences.”  However, he also warns that the most elegant schedules created by planning offices are useless if they are ignored, a situation that he observed.  
+
+In ''Organizing for Work'' (originally published in 1919),<ref>Gantt, Henry L., ''Organizing for Work,'' Harcourt, Brace, and Howe, New York, 1919.  Reprinted by Hive Publishing Company, Easton, Maryland, 1973.</ref> Gantt gives two principles for his charts: one, measure activities by the amount of '''time''' needed to complete them; two, the space on the chart can be used the represent the '''amount of the activity''' that should have been done in that time.  Gantt shows a progress chart that indicates for each month of the year, using a thin horizontal line, the number of items produced during that month.  In addition, a thick horizontal line indicates the number of items produced during the year.  Each row in the chart corresponds to an order for parts from a specific contractor, and each row indicates the starting month and ending month of the deliveries.  It is the closest thing to the Gantt charts typically used today in scheduling systems, though it is at a higher level than machine scheduling.
+
+Gantt’s machine record chart and man record chart are quite similar, though they show both the actual working time for each day and the cumulative working time for a week.  Each row of the chart corresponds to an individual machine or operator.  These charts do not indicate which tasks were to be done, however.
+
+'''ヘンリー・ローレンス・ガント'''（英: '''Henry Laurence Gantt'''、1861年 - 1919年11月23日）は、アメリカ合衆国の機械工学者で経営コンサルタント。1910年代にガントチャートを考案したことで知られている。ガントチャートはフーバーダムや州間高速道路といった大型公共事業で使われ、現在でもプロジェクトマネジメントの重要なツールの1つとなっている<ref>[http://www.ganttchart.com/History.html Gantt chart history] 2007年4月7日閲覧</ref>。
+
+== 経歴 ==
+メリーランド州カルバート郡に生まれる。1978年、Mcdonough School を卒業。ジョンズ・ホプキンス大学に進学し、機械工学を学ぶ傍らで教師や製図工として働いた。1887年、フレデリック・テイラーの科学的管理法のチーム（Midvale Steel およびベスレヘム・スチール）に入り、1893年まで働いた。その後、経営コンサルタントとなり、ガントチャートや "task and bonus" と呼ばれる賃金体系を設計、労働者の生産性の測定法を開発した。
+
+== ガントチャート ==
+thumb|right|200px|ガントチャートの例
+以下のガントチャートの解説は Herrmann (2005) に基づいている<ref>Herrmann, Jeffrey W., ''History of Decision-Making Tools for Production Scheduling,'' Proceedings of the 2005 Multidisciplinary Conference on Scheduling: Theory and Applications, New York, July 18-21, 2005.</ref>。
+
+ガントは様々な種類のチャート（図）を考案した。さらにガントはそれらの図を使って、職場の監督者が進捗状況を即座に把握できるよう設計した。最近のプロジェクトマネジメント用ソフトウェアにもそのような機能が含まれている。
+
+Gantt (1903)<ref>Gantt, Henry L., A graphical daily balance in manufacture, Transactions of the American Society of Mechanical Engineers, Volume XXIV, pages 1322-1336, 1903.</ref>では、2種類の「バランス」が解説されている。'''man's record''' は、各労働者がすべき事とした事を示す。'''daily balance of work''' は全体としてのすべき作業と実際になされた作業を示す。ガントは完了まで長期間かかる作業を例として示している。daily balance は表形式で、各行が実働日に対応し、各桁に個々の作業や操作が書かれる。各桁の先頭行部分に全体として必要な作業量が記される。各マスにはその作業をその日に行った量とそれまでの累計が記される。太い水平線で作業開始日と作業完了予定日を示す。ガントによれば、これは「仕事のスケジューリングと記録の方法」である。この論文の中でガントは、各作業員に作業を割り当て、日々の作業量を記録するための '''production cards''' の利用も解説している。
+
+''Work, Wages, and Profits''（初版は1916年）<ref>Gantt, Henry L., ''Work, Wages, and Profits,'' second edition, Engineering Magazine Co., New York, 1916.  Reprinted by Hive Publishing Company, Easton, Maryland, 1973.</ref>において、ガントはスケジューリングについて論じ、特に注文製作工場の環境を論じている。彼は現場監督に毎日 "order of work" というその日にすべき仕事をリストアップしたものを渡すことを提案している。さらに、外部からの干渉を排除するための活動の重要性を論じている。しかし同時に彼は、オフィスで作られたみごとなスケジュールの多くは、無視されてしまえば無用の長物であると自身の体験を交えて警告している。
+
+''Organizing for Work''（初版は1919年）<ref>Gantt, Henry L., ''Organizing for Work,'' Harcourt, Brace, and Howe, New York, 1919.  Reprinted by Hive Publishing Company, Easton, Maryland, 1973.</ref>において、ガントは自身の考案した図について2つの原則を与えた。1つは完了までにかかった時間で作業を測定すること、もう1つは図における空白に予定作業時間で行われるべきだった作業量を記入することである。ガントの進捗図では、一年を月ごとに分け、細い行で各月の生産された量を表し、太い行で一年で生産された量を表す。各行は特定の契約者からの注文に対応し、作業開始月と完了月が示される。これは今日使われているガントチャートに近い。
+
+machine record chart と man record chart は、毎日の実働時間と一週間の累計を示す。図の各行は個々の機械や作業員に対応する。ただし、この図ではどの作業が実施されたのかは記されない。
