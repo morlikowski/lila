@@ -52,15 +52,22 @@ An implementation of the generative mixture model (cf. Griffiths & Steyvers 2004
 
 ## Monolingual
 http://www.aclweb.org/anthology/W/W14/W14-5316.pdf
+
 http://www.aclweb.org/anthology/P12-3005
+
 http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.65.9324
+
 http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.53.9367
+
 http://www.win.tue.nl/~mpechen/publications/pubs/TrompPechenizkiy_LIGA_Benelearn11.pdf
-"Language Identification from Text Using N-gram Based Cumulative Frequency Addition"
+
+Sung-Hyuk Cha and Charles C. Tappert. 2004. Language Identification from Text Using N-gram Based Cumulative Frequency Addition. Proceedings of Student/Faculty Research Day, CSIS, Pace University, May 7th.
 
 ## Multilingual
 http://www.aclweb.org/anthology/Q14-1003
+
 http://www.aclweb.org/anthology/I11-1062
+
 http://www.alta.asn.au/events/alta2010/proceedings/pdf/U10-1003.pdf
 
 ## Datasets
@@ -81,4 +88,5 @@ http://www.cs.cmu.edu/~knigam/papers/multinomial-aaaiws98.pdf
 ## Mixture Models
 Thomas L. Griffiths and Mark Steyvers. 2004. Finding scientific topics.
 http://psiexp.ss.uci.edu/research/papers/sciencetopics.pdf
+
 http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.35.888
